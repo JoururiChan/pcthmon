@@ -25,16 +25,14 @@ INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
 EvosAttacks::
 
-BulbasaurEvosAttacks:
-	evo_data EVOLVE_LEVEL, 16, IVYSAUR
+CReimuEvosAttacks:
+	evo_data EVOLVE_LEVEL, 16, REIMU
 	db -1 ; no more evolutions
 	db 1, TACKLE
-	db 3, GROWL
-	db 7, LEECH_SEED
-	db 9, VINE_WHIP
-	db 13, POISONPOWDER
-	db 13, SLEEP_POWDER
-	db 15, MUD_SLAP ; Take Down → GSC TM move
+	db 1, GROWL
+	db 6, SEAL_NEEDLE
+	db 10, MACH_PUNCH
+	db 14, FORESIGHT
 	db 19, RAZOR_LEAF
 	db 21, TAKE_DOWN ; Sweet Scent → Take Down
 	db 25, GROWTH
@@ -45,27 +43,25 @@ BulbasaurEvosAttacks:
 	db 43, SLUDGE_BOMB ; TM move
 	db -1 ; no more level-up moves
 
-IvysaurEvosAttacks:
-	evo_data EVOLVE_LEVEL, 32, VENUSAUR
+ReimuEvosAttacks:
+	evo_data EVOLVE_LEVEL, 34, EREIMU
 	db -1 ; no more evolutions
-	db 1, TACKLE
-	db 3, GROWL
-	db 7, LEECH_SEED
-	db 9, VINE_WHIP
-	db 13, POISONPOWDER
-	db 13, SLEEP_POWDER
-	db 15, MUD_SLAP ; Take Down → GSC TM move
-	db 20, RAZOR_LEAF
-	db 23, TAKE_DOWN ; Sweet Scent → Take Down
-	db 28, GROWTH
-	db 31, DOUBLE_EDGE
-	db 36, ANCIENTPOWER ; Worry Seed → event move
+	db 1, RAZOR_WIND
+	db 1, POUND
+	db 1, GROWL
+	db 6, SEAL_NEEDLE
+	db 10, MACH_PUNCH
+	db 14, FORESIGHT
+	db 22, LIGHT_SCREEN ; Sweet Scent → Take Down
+	db 22, REFLECT
+	db 28, HEALINGLIGHT
+	db 33, PWJ_NEEDLE ; Worry Seed → event move
 	db 39, HEALINGLIGHT ; Synthesis → similar move
 	db 44, SEED_BOMB
 	db 50, SLUDGE_BOMB ; TM move
 	db -1 ; no more level-up moves
 
-VenusaurEvosAttacks:
+EReimuEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PETAL_DANCE ; evolution move
 	db 1, OUTRAGE ; HGSS tutor move
@@ -80,21 +76,20 @@ VenusaurEvosAttacks:
 	db 23, TAKE_DOWN ; Sweet Scent → Take Down
 	db 28, GROWTH
 	db 31, DOUBLE_EDGE
-	db 39, ANCIENTPOWER ; Worry Seed → event move
-	db 45, HEALINGLIGHT ; Synthesis → similar move
-	db 50, SEED_BOMB
-	db 53, SLUDGE_BOMB ; Solar Beam → Sludge Bomb
-	db 60, SOLAR_BEAM
+	db 37, HI_JUMP_KICK ; Worry Seed → event move
+	db 41, EXTRASENSORY ; Synthesis → similar move
+	db 45, DIVE_KICK
+	db 51, CALM_MIND ; Solar Beam → Sludge Bomb
 	db -1 ; no more level-up moves
 
-CharmanderEvosAttacks:
-	evo_data EVOLVE_LEVEL, 16, CHARMELEON
+CMarisaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 18, MARISA
 	db -1 ; no more evolutions
-	db 1, SCRATCH
+	db 1, TACKLE
 	db 1, GROWL
-	db 7, EMBER
-	db 10, SMOKESCREEN
-	db 16, METAL_CLAW ; Dragon Rage → TM move
+	db 7, THUNDERSHOCK
+	db 11, THIEF
+	db 15, EMBER ; Dragon Rage → TM move
 	db 19, DRAGON_RAGE ; Scary Face → Dragon Rage
 	db 25, SCARY_FACE ; Fire Fang → Scary Face
 	db 28, FLAME_CHARGE ; Flame Burst → TM move
@@ -105,27 +100,27 @@ CharmanderEvosAttacks:
 	db 52, FLARE_BLITZ ; Sw/Sh move
 	db -1 ; no more level-up moves
 
-CharmeleonEvosAttacks:
-	evo_data EVOLVE_LEVEL, 36, CHARIZARD
+MarisaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 36, EMARISA
 	db -1 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
 	db 7, EMBER
 	db 10, SMOKESCREEN
 	db 17, METAL_CLAW ; Dragon Rage → TM move
-	db 21, DRAGON_RAGE ; Scary Face → Dragon Rage
-	db 28, SCARY_FACE ; Fire Fang → Scary Face
-	db 32, FLAME_CHARGE ; Flame Burst → TM move
-	db 39, SLASH
-	db 43, FLAMETHROWER
+	db 20, SPORE ; Scary Face → Dragon Rage
+	db 23, SWIFT ; Fire Fang → Scary Face
+	db 28, SLUDGE_BOMB ; Flame Burst → TM move
+	db 31, AIR_SLASH
+	db 35, THUNDERBOLT
 	db 50, FIRE_SPIN
 	db 54, CRUNCH
 	db 61, FLARE_BLITZ ; Sw/Sh move
 	db -1 ; no more level-up moves
 
-CharizardEvosAttacks:
+EMarisaEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, WING_ATTACK ; evolution move
+	db 1, METEOR_FALL ; evolution move
 	db 1, FLARE_BLITZ
 	db 1, DRAGONBREATH
 	db 1, DRAGON_CLAW
@@ -140,16 +135,14 @@ CharizardEvosAttacks:
 	db 21, DRAGON_RAGE ; Scary Face → Dragon Rage
 	db 28, SCARY_FACE ; Fire Fang → Scary Face
 	db 32, FLAME_CHARGE ; Flame Burst → TM move
-	db 41, SLASH
-	db 47, FLAMETHROWER
-	db 56, FIRE_SPIN
-	db 62, CRUNCH
-	db 71, FLARE_BLITZ
-	db 77, HURRICANE ; Sw/Sh move
+	db 39, TRICK
+	db 43, LIGHT SCREEN
+	db 48, BLAZE_STAR
+	db 52, MASTER_SPARK
 	db -1 ; no more level-up moves
 
-SquirtleEvosAttacks:
-	evo_data EVOLVE_LEVEL, 16, WARTORTLE
+CSakuyaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 16, SAKUYA
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 4, LEER ; Tail Whip → similar move
