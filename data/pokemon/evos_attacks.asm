@@ -142,13 +142,12 @@ EMarisaEvosAttacks:
 	db -1 ; no more level-up moves
 
 CSakuyaEvosAttacks:
-	evo_data EVOLVE_LEVEL, 16, SAKUYA
+	evo_data EVOLVE_LEVEL, 14, SAKUYA
 	db -1 ; no more evolutions
-	db 1, TACKLE
-	db 4, LEER ; Tail Whip → similar move
-	db 7, WATER_GUN
-	db 10, DEFENSE_CURL ; Withdraw → similar move
-	db 13, AQUA_JET ; Bubble → egg move
+	db 1, SCRATCH
+	db 1, LEER ; Tail Whip → similar move
+	db 7, KNIFE_THROW
+	db 10, DOUBLE_KICK ; Withdraw → similar move
 	db 16, BITE
 	db 19, RAPID_SPIN
 	db 22, PROTECT
@@ -161,19 +160,18 @@ CSakuyaEvosAttacks:
 	db 43, SHELL_SMASH ; Sw/Sw move
 	db -1 ; no more level-up moves
 
-WartortleEvosAttacks:
-	evo_data EVOLVE_LEVEL, 36, BLASTOISE
+SakuyaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 32, ESAKUYA
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 4, LEER ; Tail Whip → similar move
 	db 7, WATER_GUN
 	db 10, DEFENSE_CURL ; Withdraw → similar move
-	db 13, AQUA_JET ; Bubble → egg move
-	db 16, BITE
-	db 20, RAPID_SPIN
-	db 24, PROTECT
-	db 28, WATER_PULSE
-	db 32, AQUA_TAIL
+	db 14, FURY_STRIKES ; Bubble → egg move
+	db 17, DISABLE
+	db 21, HONE_TOOLS
+	db 25, DETECT
+	db 29, ICICLE_SPEAR
 	db 36, CLOSE_COMBAT ; Skull Bash → new move
 	db 40, MIRROR_COAT ; Iron Defense → egg move
 	db 44, RAIN_DANCE
@@ -181,7 +179,7 @@ WartortleEvosAttacks:
 	db 52, SHELL_SMASH ; Sw/Sw move
 	db -1 ; no more level-up moves
 
-BlastoiseEvosAttacks:
+ESakuyaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, FLASH_CANNON ; evolution move
 	db 1, AURA_SPHERE ; new move
@@ -196,64 +194,85 @@ BlastoiseEvosAttacks:
 	db 20, RAPID_SPIN
 	db 24, PROTECT
 	db 28, WATER_PULSE
-	db 32, AQUA_TAIL
-	db 39, CLOSE_COMBAT ; Skull Bash → new move
-	db 46, MIRROR_COAT ; Iron Defense → egg move
-	db 53, RAIN_DANCE
-	db 60, HYDRO_PUMP
-	db 67, SHELL_SMASH ; Sw/Sw move
-if !DEF(FAITHFUL)
-	db 75, IRON_HEAD ; TM move
-endc
+	db 34, NIGHT_SLASH
+	db 39, DISABLE ; Skull Bash → new move
+	db 42, SWORDS_DANCE ; Iron Defense → egg move
+	db 46, SCULPTURE
+	db 51, SAKUYA_WORLD
 	db -1 ; no more level-up moves
 
-CaterpieEvosAttacks:
-	evo_data EVOLVE_LEVEL, 7, METAPOD
+CGyokuEvosAttacks:
+	evo_data EVOLVE_STAT, 22, ATK_LT_DEF, MGYOKU
+	evo_data EVOLVE_STAT, 22, ATK_GT_DEF, FGYOKU
+	evo_data EVOLVE_STAT, 22, ATK_EQ_DEF, OGYOKU
 	db -1 ; no more evolutions
-	db 1, TACKLE
-	db 1, STRING_SHOT
-	db 9, BUG_BITE
+	db 1, CONFUSION
+	db 1, FORESIGHT
+	db 8, SEAL_NEEDLE
+	db 12, ROLLOUT
+	db 16, PROTECT
+	db 21, HAZE
 	db -1 ; no more level-up moves
 
-MetapodEvosAttacks:
-	evo_data EVOLVE_LEVEL, 10, BUTTERFREE
+MGyokuEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, TACKLE ; Caterpie move
-	db 1, STRING_SHOT ; Caterpie move
-	db 1, DEFENSE_CURL ; Harden → similar move
+	db 1, CONFUSION
+	db 1, FORESIGHT
+	db 8, SEAL_NEEDLE
+	db 12, ROLLOUT
+	db 16, PROTECT
+	db 21, HAZE
+	db 22, ICE_SHARD
+	db 25, BARRIER
+	db 29, EXTRASENSORY
+	db 32, ICY_WIND
+	db 37, FUTURE_SIGHT
+	db 41, HEALINGLIGHT
+	db 44, ANCIENTPOWER
+	db 49, PSYCHIC_M
+	db 53, BLIZZARD
 	db -1 ; no more level-up moves
 
-ButterfreeEvosAttacks:
+FGyokuEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, TACKLE ; Caterpie move
-	db 1, STRING_SHOT ; Caterpie move
-	db 1, GUST
-	db 11, CONFUSION
-	db 13, POISONPOWDER
-	db 15, STUN_SPORE
-	db 17, SLEEP_POWDER ; Psybeam → Sleep Powder
-	db 19, PSYBEAM ; Silver Wind → Psybeam
-	db 23, SUPERSONIC
-	db 25, SAFEGUARD
-	db 29, HYPNOSIS ; Whirlwind → new move
-	db 31, BUG_BUZZ
-	db 35, REFLECT ; Rage Powder → RBY TM move
-	db 37, AGILITY ; Captivate → new move
-	db 41, HEALINGLIGHT ; Tailwind → new move
-	db 43, AIR_SLASH
-	db 47, PSYCHIC_M ; Quiver Dance → TM move
+	db 1, CONFUSION
+	db 1, FORESIGHT
+	db 8, SEAL_NEEDLE
+	db 12, ROLLOUT
+	db 16, PROTECT
+	db 21, HAZE
+	db 22, FIRE_SPIN
+	db 25, BARRIER
+	db 29, EXTRASENSORY
+	db 32, WILL_O_WISP
+	db 37, FUTURE_SIGHT
+	db 41, HEALINGLIGHT
+	db 44, ANCIENTPOWER
+	db 49, PSYCHIC_M
+	db 53, BLAZE_STAR
 	db -1 ; no more level-up moves
 
-WeedleEvosAttacks:
-	evo_data EVOLVE_LEVEL, 7, KAKUNA
+OGyokuEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, POISON_STING
-	db 1, STRING_SHOT
-	db 9, BUG_BITE
+	db 1, CONFUSION
+	db 1, FORESIGHT
+	db 8, SEAL_NEEDLE
+	db 12, ROLLOUT
+	db 16, PROTECT
+	db 21, HAZE
+	db 22, ROCK_BLAST
+	db 25, SUBSTITUTE
+	db 29, EXTRASENSORY
+	db 32, EARTH_POWER
+	db 37, FUTURE_SIGHT
+	db 41, HEALINGLIGHT
+	db 44, ANCIENTPOWER
+	db 49, PSYCHIC_M
+	db 53, POWER_GEM
 	db -1 ; no more level-up moves
 
-KakunaEvosAttacks:
-	evo_data EVOLVE_LEVEL, 10, BEEDRILL
+CMaganEvosAttacks:
+	evo_data EVOLVE_LEVEL, 25, MAGAN
 	db -1 ; no more evolutions
 	db 1, POISON_STING ; Weedle move
 	db 1, STRING_SHOT ; Weedle move
