@@ -109,7 +109,7 @@ endc
 	move GROWTH,       EFFECT_GROWTH,              0, NORMAL,     -1, 20,   0, STATUS
 	move RAZOR_LEAF,   EFFECT_NORMAL_HIT,         55, GRASS,      95, 25,   0, PHYSICAL
 	move SOLAR_BEAM,   EFFECT_SOLAR_BEAM,        120, GRASS,     100, 10,   0, SPECIAL
-	move POISONPOWDER, EFFECT_POISON,              0, POISON,     75, 35,   0, STATUS
+	move TOXIC_GAS,    EFFECT_POISON_HIT,         60, POISON,     95, 25,  20, SPECIAL
 	move STUN_SPORE,   EFFECT_PARALYZE,            0, GRASS,      75, 30,   0, STATUS
 	move SLEEP_POWDER, EFFECT_SLEEP,               0, GRASS,      75, 15,   0, STATUS
 	move PETAL_DANCE,  EFFECT_RAMPAGE,           120, GRASS,     100, 10,   0, SPECIAL
@@ -280,11 +280,7 @@ endc
 	move PSYSTRIKE,    EFFECT_PSYSTRIKE,         100, PSYCHIC,   100, 10,   0, SPECIAL
 	move BUG_BUZZ,     EFFECT_SP_DEF_DOWN_HIT,    90, BUG,       100, 10,  10, SPECIAL
 	move SAFEGUARD,    EFFECT_SAFEGUARD,           0, NORMAL,     -1, 25,   0, STATUS
-if DEF(FAITHFUL)
-	move PAIN_SPLIT,   EFFECT_PAIN_SPLIT,          0, NORMAL,     -1, 20,   0, STATUS
-else
-	move PAIN_SPLIT,   EFFECT_PAIN_SPLIT,          0, GHOST,      -1, 20,   0, STATUS
-endc
+	move LIFE_BALANCE, EFFECT_PAIN_SPLIT,          0, GHOST,      -1, 10,   0, STATUS
 	move SACRED_FIRE,  EFFECT_SACRED_FIRE,       100, FIRE,       95,  5,  50, PHYSICAL
 	move MAGNITUDE,    EFFECT_MAGNITUDE,           1, GROUND,    100, 30,   0, PHYSICAL
 	move DYNAMICPUNCH, EFFECT_CONFUSE_HIT,       100, FIGHTING,   50,  5, 100, PHYSICAL
