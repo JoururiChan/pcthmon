@@ -4,24 +4,24 @@
 
 EvosAttacksPointers::
 	table_width 2, EvosAttacksPointers
-	dw BulbasaurEvosAttacks
-	dw IvysaurEvosAttacks
-	dw VenusaurEvosAttacks
-	dw CharmanderEvosAttacks
-	dw CharmeleonEvosAttacks
-	dw CharizardEvosAttacks
-	dw SquirtleEvosAttacks
-	dw WartortleEvosAttacks
-	dw BlastoiseEvosAttacks
-	dw CaterpieEvosAttacks
-	dw MetapodEvosAttacks
-	dw ButterfreeEvosAttacks
-	dw WeedleEvosAttacks
-	dw KakunaEvosAttacks
-	dw BeedrillEvosAttacks
-	dw PidgeyEvosAttacks
-	dw PidgeottoEvosAttacks
-	dw PidgeotEvosAttacks
+	dw CReimuEvosAttacks
+	dw ReimuEvosAttacks
+	dw EReimuEvosAttacks
+	dw CMarisaEvosAttacks
+	dw MarisaEvosAttacks
+	dw EMarisaEvosAttacks
+	dw CSakuyaEvosAttacks
+	dw SakuyaEvosAttacks
+	dw ESakuyaEvosAttacks
+	dw CGyokuEvosAttacks
+	dw MGyokuEvosAttacks
+	dw FGyokuEvosAttacks
+	dw OGyokuEvosAttacks
+	dw CMaganEvosAttacks
+	dw MaganEvosAttacks
+	dw EMaganEvosAttacks
+	dw CMimaEvosAttacks
+	dw MimaEvosAttacks
 	dw RattataPlainEvosAttacks
 	dw RaticatePlainEvosAttacks
 	dw SpearowEvosAttacks
