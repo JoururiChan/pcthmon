@@ -206,7 +206,7 @@ CGyokuEvosAttacks:
 	evo_data EVOLVE_STAT, 22, ATK_GT_DEF, FGYOKU
 	evo_data EVOLVE_STAT, 22, ATK_EQ_DEF, OGYOKU
 	db -1 ; no more evolutions
-	db 1, CONFUSION
+	db 1, PSYSHOT
 	db 1, FORESIGHT
 	db 8, SEAL_NEEDLE
 	db 12, ROLLOUT
@@ -216,7 +216,7 @@ CGyokuEvosAttacks:
 
 MGyokuEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, CONFUSION
+	db 1, PSYSHOT
 	db 1, FORESIGHT
 	db 8, SEAL_NEEDLE
 	db 12, ROLLOUT
@@ -235,7 +235,7 @@ MGyokuEvosAttacks:
 
 FGyokuEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, CONFUSION
+	db 1, PSYSHOT
 	db 1, FORESIGHT
 	db 8, SEAL_NEEDLE
 	db 12, ROLLOUT
@@ -254,7 +254,7 @@ FGyokuEvosAttacks:
 
 OGyokuEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, CONFUSION
+	db 1, PSYSHOT
 	db 1, FORESIGHT
 	db 8, SEAL_NEEDLE
 	db 12, ROLLOUT
@@ -274,32 +274,37 @@ OGyokuEvosAttacks:
 CMaganEvosAttacks:
 	evo_data EVOLVE_LEVEL, 25, MAGAN
 	db -1 ; no more evolutions
-	db 1, POISON_STING ; Weedle move
-	db 1, STRING_SHOT ; Weedle move
-	db 1, DEFENSE_CURL ; Harden → similar move
+	db 1, ACID ; Weedle move
+	db 1, LEER ; Weedle move
+	db 6, MEAN_LOOK ; Harden → similar move
+	db 10, PSYSHOT
+	db 13, CONFUSE_RAY
+	db 17, THUNDERSHOCK
+	db 21, FEINT_ATTACK
 	db -1 ; no more level-up moves
 
-BeedrillEvosAttacks:
+MaganEvosAttacks:
+	evo_data EVOLVE_LEVEL, 43, EMAGAN
 	db -1 ; no more evolutions
 	db 1, POISON_STING ; Weedle move
 	db 1, STRING_SHOT ; Weedle move
 	db 1, FURY_STRIKES ; Fury Attack → similar move
-	db 1, U_TURN ; evolution move
+	db 1, TOXIC_GAS ; evolution move
 	db 14, RAGE
 	db 17, PURSUIT
 	db 20, FOCUS_ENERGY
 	db 23, VENOSHOCK
-	db 26, FEINT_ATTACK ; Assurance → similar move
-	db 29, TOXIC_SPIKES
-	db 32, PIN_MISSILE
-	db 35, POISON_JAB
-	db 38, AGILITY
-	db 41, SWORDS_DANCE ; Endeavor → TM move
-	db 44, OUTRAGE ; Fell Stinger → LGPE move
+	db 27, PSYBEAM ; Assurance → similar move
+	db 31, TOXIC_SPIKES
+	db 33, LIFE_BALANCE
+	db 37, DISABLE
+	db 38, BARRIER
+	db 41, ZAP_CANNON ; Endeavor → TM move
+	db 45, SHADOW_BALL ; Fell Stinger → LGPE move
+	db 50, DESTINY_BOND
 	db -1 ; no more level-up moves
 
-PidgeyEvosAttacks:
-	evo_data EVOLVE_LEVEL, 18, PIDGEOTTO
+EMaganEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 5, GUST ; Sand Attack → Gust
@@ -312,21 +317,21 @@ PidgeyEvosAttacks:
 	db 33, WING_ATTACK
 	db 37, ROOST
 	db 41, DRILL_PECK ; Tailwind → new move
-	db 45, STEEL_WING ; Mirror Move → TM move
-	db 49, AIR_SLASH
-	db 53, HURRICANE
+	db 45, SHADOW_BALL ; Mirror Move → TM move
+	db 50, DESTINY_BOND
+	db 54, SLUDGE_BOMB
 	db -1 ; no more level-up moves
 
-PidgeottoEvosAttacks:
-	evo_data EVOLVE_LEVEL, 36, PIDGEOT
+CMimaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 28, MIMA
 	db -1 ; no more evolutions
-	db 1, TACKLE
-	db 5, GUST ; Sand Attack → Gust
-	db 9, MUD_SLAP ; Gust → GSC TM move
-	db 13, QUICK_ATTACK
-	db 17, RAGE ; Whirlwind → RBY TM move
-	db 22, CHARM ; Twister → egg move
-	db 27, SWIFT ; Feather Dance → TM move
+	db 1, ASTONISH
+	db 1, CONFUSE_RAY ; Sand Attack → Gust
+	db 9, MEAN_LOOK ; Gust → GSC TM move
+	db 14, PSYSHOT
+	db 17, FEINT_ATTACK ; Whirlwind → RBY TM move
+	db 22, DESTINY_BOND ; Twister → egg move
+	db 25, NIGHT_SHADE ; Feather Dance → TM move
 	db 32, AGILITY
 	db 37, WING_ATTACK
 	db 42, ROOST
@@ -336,7 +341,7 @@ PidgeottoEvosAttacks:
 	db 62, HURRICANE
 	db -1 ; no more level-up moves
 
-PidgeotEvosAttacks:
+MimaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 5, MUD_SLAP ; Sand Attack → similar move
