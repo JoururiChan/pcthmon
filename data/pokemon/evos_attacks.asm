@@ -287,8 +287,8 @@ OGyokuEvosAttacks:
 CMaganEvosAttacks:
 	evo_data EVOLVE_LEVEL, 25, MAGAN
 	db -1 ; no more evolutions
-	db 1, ACID ; Weedle move
-	db 1, LEER ; Weedle move
+	db 1, ACID ; OGyoku move
+	db 1, LEER ; OGyoku move
 	db 6, MEAN_LOOK ; Harden → similar move
 	db 10, PSYSHOT
 	db 13, CONFUSE_RAY
@@ -299,8 +299,8 @@ CMaganEvosAttacks:
 MaganEvosAttacks:
 	evo_data EVOLVE_LEVEL, 43, EMAGAN
 	db -1 ; no more evolutions
-	db 1, SEAL_NEEDLE ; Weedle move
-	db 1, STRING_SHOT ; Weedle move
+	db 1, SEAL_NEEDLE ; OGyoku move
+	db 1, STRING_SHOT ; OGyoku move
 	db 1, FURY_STRIKES ; Fury Attack → similar move
 	db 1, TOXIC_GAS ; evolution move
 	db 14, RAGE

@@ -10,14 +10,14 @@ AnimationPointers:
 	dw SakuyaAnimation
 	dw ESakuyaAnimation
 	dw CGyokuAnimation
-	dw MetapodAnimation
-	dw ButterfreeAnimation
-	dw WeedleAnimation
-	dw KakunaAnimation
-	dw BeedrillAnimation
-	dw PidgeyAnimation
-	dw PidgeottoAnimation
-	dw PidgeotAnimation
+	dw MGyokuAnimation
+	dw FGyokuAnimation
+	dw OGyokuAnimation
+	dw CMaganAnimation
+	dw MaganAnimation
+	dw EMaganAnimation
+	dw CMimaAnimation
+	dw MimaAnimation
 	dw RattataPlainAnimation
 	dw RaticatePlainAnimation
 	dw SpearowAnimation

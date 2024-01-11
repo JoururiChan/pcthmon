@@ -21,8 +21,8 @@ ENDM
 
 BugContestant_BugCatcherDon:
 	db BUG_CATCHER, DON
-	contest_winner KAKUNA,     300
-	contest_winner METAPOD,    285
+	contest_winner CMAGAN,     300
+	contest_winner MGYOKU,    285
 	contest_winner CGYOKU,   226
 
 BugContestant_BugCatcherEd:
@@ -46,30 +46,30 @@ BugContestant_PokefanMWilliam:
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BENNY
 	contest_winner BUTTERFREE, 318
-	contest_winner WEEDLE,     295
+	contest_winner OGYOKU,     295
 	contest_winner CGYOKU,   285
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
 	contest_winner PINSIR,     366
 	contest_winner VENONAT,    329
-	contest_winner KAKUNA,     314
+	contest_winner CMAGAN,     314
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
 	contest_winner BUTTERFREE, 341
-	contest_winner METAPOD,    301
+	contest_winner MGYOKU,    301
 	contest_winner CGYOKU,   264
 
 BugContestant_BugCatcherJosh:
 	db BUG_CATCHER, JOSH
 	contest_winner SCYTHER,    326
 	contest_winner BUTTERFREE, 292
-	contest_winner METAPOD,    282
+	contest_winner MGYOKU,    282
 
 BugContestant_SchoolboyJohnny:
 	db SCHOOLBOY, JOHNNY
-	contest_winner WEEDLE,     270
+	contest_winner OGYOKU,     270
 	contest_winner PINSIR,     282
 	contest_winner CGYOKU,   251
 
@@ -77,4 +77,4 @@ BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
 	contest_winner VENONAT,    267
 	contest_winner PARAS,      254
-	contest_winner KAKUNA,     259
+	contest_winner CMAGAN,     259

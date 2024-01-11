@@ -135,7 +135,7 @@ FalknerGroup:
 	db "Falkner@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_MOVES
 	; party
-	dbp 11, PIDGEY
+	dbp 11, EMAGAN
 		db NO_ITEM
 		ev_spread 32 HP
 		db TACKLE, GUST, MUD_SLAP, NO_MOVE
@@ -143,7 +143,7 @@ FalknerGroup:
 		db NO_ITEM
 		ev_spread 32 HP
 		db TACKLE, HYPNOSIS, PECK, PSYSHOT
-	dbp 13, PIDGEOTTO
+	dbp 13, CMIMA
 		db PECHA_BERRY
 		ev_spread 32 HP
 		db GUST, MUD_SLAP, QUICK_ATTACK, ROOST
@@ -168,7 +168,7 @@ FalknerGroup:
 	dbp 72, HONCHKROW
 		db BLACKGLASSES
 		db DIVE_KICK, NIGHT_SLASH, SUCKER_PUNCH, CONFUSE_RAY
-	dbp 75, PIDGEOT
+	dbp 75, MIMA
 		db SHARP_BEAK
 		db HURRICANE, MASTER_SPARK, STEEL_WING, ROOST
 	db -1 ; end
@@ -185,7 +185,7 @@ BugsyGroup:
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 32 SAt, 32 Spe
 		db TACKLE, TOXIC_GAS, SLEEP_POWDER, PSYSHOT
-	dbp 14, BEEDRILL, MALE
+	dbp 14, MAGAN, MALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 32 Atk, 32 Spe
 		db SEAL_NEEDLE, STRING_SHOT, DEFENSE_CURL, FURY_STRIKES
@@ -1961,7 +1961,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME | TRAINERTYPE_MOVES
 	; party
-	dbp 16, PIDGEY
+	dbp 16, EMAGAN
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 Spe
 		db TACKLE, GUST, MUD_SLAP, QUICK_ATTACK ; default for level
@@ -1983,7 +1983,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
-	dbp 16, PIDGEY
+	dbp 16, EMAGAN
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 Spe
 	dbp 17, SUNKERN
@@ -2001,7 +2001,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
-	dbp 16, PIDGEY
+	dbp 16, EMAGAN
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 Spe
 	dbp 17, GROWLITHE
@@ -2019,7 +2019,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
-	dbp 33, PIDGEOTTO
+	dbp 33, CMIMA
 		db NO_ITEM, "@"
 		ev_spread 100 HP, 100 Spe
 	dbp 34, GROWLITHE
@@ -2040,7 +2040,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
-	dbp 33, PIDGEOTTO
+	dbp 33, CMIMA
 		db NO_ITEM, "@"
 		ev_spread 100 HP, 100 Spe
 	dbp 34, SUNFLORA
@@ -2061,7 +2061,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
-	dbp 33, PIDGEOTTO
+	dbp 33, CMIMA
 		db NO_ITEM, "@"
 		ev_spread 100 HP, 100 Spe
 	dbp 34, SUNFLORA
@@ -2082,7 +2082,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
-	dbp 44, PIDGEOT
+	dbp 44, MIMA
 		db NO_ITEM, "@"
 		ev_spread 132 HP, 132 Spe
 	dbp 43, GIRAFARIG
@@ -2106,7 +2106,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
-	dbp 44, PIDGEOT
+	dbp 44, MIMA
 		db NO_ITEM, "@"
 		ev_spread 132 HP, 132 Spe
 	dbp 43, GIRAFARIG
@@ -2130,7 +2130,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
-	dbp 44, PIDGEOT
+	dbp 44, MIMA
 		db NO_ITEM, "@"
 		ev_spread 132 HP, 132 Spe
 	dbp 43, GIRAFARIG
@@ -2158,7 +2158,7 @@ Lyra2Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_NICKNAME
 	; party
-	dbp 69, PIDGEOT
+	dbp 69, MIMA
 		db NO_ITEM, "@"
 	dbp 70, ARCANINE
 		db NO_ITEM, "@"
@@ -2176,7 +2176,7 @@ Lyra2Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_NICKNAME
 	; party
-	dbp 69, PIDGEOT
+	dbp 69, MIMA
 		db NO_ITEM, "@"
 	dbp 70, SUNFLORA
 		db NO_ITEM, "@"
@@ -2194,7 +2194,7 @@ Lyra2Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_NICKNAME
 	; party
-	dbp 69, PIDGEOT
+	dbp 69, MIMA
 		db NO_ITEM, "@"
 	dbp 70, SUNFLORA
 		db NO_ITEM, "@"
@@ -2264,7 +2264,7 @@ YoungsterGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 2, RATTATA
-	dbp 4, PIDGEY
+	dbp 4, EMAGAN
 	db -1 ; end
 
 	; YOUNGSTER
@@ -2375,7 +2375,7 @@ BugCatcherGroup:
 	; party
 	dbp 2, CGYOKU
 	dbp 2, CGYOKU
-	dbp 3, WEEDLE
+	dbp 3, OGYOKU
 	dbp 2, CGYOKU
 	db -1 ; end
 
@@ -2383,10 +2383,10 @@ BugCatcherGroup:
 	db "Wade@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, METAPOD
-	dbp 9, METAPOD
-	dbp 10, KAKUNA
-	dbp 9, METAPOD
+	dbp 9, MGYOKU
+	dbp 9, MGYOKU
+	dbp 10, CMAGAN
+	dbp 9, MGYOKU
 	db -1 ; end
 
 	; BUG_CATCHER
@@ -2395,7 +2395,7 @@ BugCatcherGroup:
 	; party
 	dbp 14, BUTTERFREE
 	dbp 14, BUTTERFREE
-	dbp 15, BEEDRILL
+	dbp 15, MAGAN
 	dbp 14, BUTTERFREE
 	db -1 ; end
 
@@ -2407,7 +2407,7 @@ BugCatcherGroup:
 		db PSYSHOT, TOXIC_GAS, SUPERSONIC, HEALINGLIGHT
 	dbp 24, BUTTERFREE
 		db PSYSHOT, STUN_SPORE, SUPERSONIC, HEALINGLIGHT
-	dbp 25, BEEDRILL
+	dbp 25, MAGAN
 		db FURY_STRIKES, FOCUS_ENERGY, PWJ_NEEDLE, RAGE
 	dbp 24, BUTTERFREE
 		db PSYSHOT, SLEEP_POWDER, SUPERSONIC, HEALINGLIGHT
@@ -2421,7 +2421,7 @@ BugCatcherGroup:
 		db PSYSHOT, TOXIC_GAS, SUPERSONIC, GUST
 	dbp 30, BUTTERFREE
 		db PSYSHOT, STUN_SPORE, SUPERSONIC, GUST
-	dbp 32, BEEDRILL
+	dbp 32, MAGAN
 		db FURY_STRIKES, PURSUIT, U_TURN, DOUBLE_TEAM
 	dbp 34, BUTTERFREE
 		db PSYBEAM, SLEEP_POWDER, GUST, HEALINGLIGHT
@@ -2477,9 +2477,9 @@ BugCatcherGroup:
 	db "Benny@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 7, WEEDLE
-	dbp 10, KAKUNA
-	dbp 12, BEEDRILL
+	dbp 7, OGYOKU
+	dbp 10, CMAGAN
+	dbp 12, MAGAN
 	db -1 ; end
 
 	; BUG_CATCHER
@@ -2487,7 +2487,7 @@ BugCatcherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 13, CGYOKU
-	dbp 13, WEEDLE
+	dbp 13, OGYOKU
 	db -1 ; end
 
 	; BUG_CATCHER
@@ -2676,7 +2676,7 @@ CamperGroup:
 	db "Craig@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 5, PIDGEOTTO
+	dbp LEVEL_FROM_BADGES + 5, CMIMA
 	dbp LEVEL_FROM_BADGES + 5, MANKEY
 	dbp LEVEL_FROM_BADGES + 6, SANDSLASH
 	db -1 ; end
@@ -3455,25 +3455,25 @@ BirdKeeperGroup:
 	db "Vance@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 36, PIDGEOTTO
-	dbp 36, PIDGEOTTO
+	dbp 36, CMIMA
+	dbp 36, CMIMA
 	db -1 ; end
 
 	; BIRD_KEEPER
 	db "Vance@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 40, PIDGEOTTO
-	dbp 40, PIDGEOTTO
+	dbp 40, CMIMA
+	dbp 40, CMIMA
 	db -1 ; end
 
 	; BIRD_KEEPER
 	db "Vance@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 45, PIDGEOT
+	dbp 45, MIMA
 		db TOXIC, QUICK_ATTACK, ROAR, FLY
-	dbp 45, PIDGEOT
+	dbp 45, MIMA
 		db SWIFT, PROTECT, STEEL_WING, FLY
 	db -1 ; end
 
@@ -3503,7 +3503,7 @@ BirdKeeperGroup:
 	db "Rod@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 7, PIDGEY
+	dbp 7, EMAGAN
 	dbp 8, HOOTHOOT
 	db -1 ; end
 
@@ -3518,11 +3518,11 @@ BirdKeeperGroup:
 	db "Theo@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, PIDGEY
+	dbp 17, EMAGAN
 	dbp 16, HOOTHOOT
-	dbp 19, PIDGEOTTO
+	dbp 19, CMIMA
 	dbp 17, HOOTHOOT
-	dbp 16, PIDGEY
+	dbp 16, EMAGAN
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3547,8 +3547,8 @@ BirdKeeperGroup:
 	db "Hank@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 13, PIDGEY
-	dbp 56, PIDGEOT
+	dbp 13, EMAGAN
+	dbp 56, MIMA
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3556,7 +3556,7 @@ BirdKeeperGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 55, FEAROW
-	dbp 59, PIDGEOT
+	dbp 59, MIMA
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3579,8 +3579,8 @@ BirdKeeperGroup:
 	db "Peter@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 7, PIDGEY
-	dbp 8, PIDGEY
+	dbp 7, EMAGAN
+	dbp 8, EMAGAN
 	dbp 10, SPEAROW
 	db -1 ; end
 
@@ -3595,7 +3595,7 @@ BirdKeeperGroup:
 	db "Bret@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 57, PIDGEOT
+	dbp 57, MIMA
 	dbp 57, FEAROW
 	db -1 ; end
 
@@ -3603,7 +3603,7 @@ BirdKeeperGroup:
 	db "Mick@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 62, PIDGEOT
+	dbp 62, MIMA
 	dbp 60, MURKROW
 	dbp 60, NOCTOWL
 	db -1 ; end
@@ -3612,16 +3612,16 @@ BirdKeeperGroup:
 	db "Powell@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 8, PIDGEOT
+	dbp LEVEL_FROM_BADGES + 8, MIMA
 	db -1 ; end
 
 	; BIRD_KEEPER
 	db "Tony@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp LEVEL_FROM_BADGES + 4, PIDGEOTTO
+	dbp LEVEL_FROM_BADGES + 4, CMIMA
 		db GUST, QUICK_ATTACK, RAGE, MUD_SLAP
-	dbp LEVEL_FROM_BADGES + 4, PIDGEOTTO
+	dbp LEVEL_FROM_BADGES + 4, CMIMA
 		db GUST, QUICK_ATTACK, RAGE, DOUBLE_TEAM
 	dbp LEVEL_FROM_BADGES + 7, GOLDUCK
 		db SURF, DISABLE, SCREECH, ZEN_HEADBUTT
@@ -3632,7 +3632,7 @@ BirdKeeperGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp LEVEL_FROM_BADGES + 0, HOOTHOOT
-	dbp LEVEL_FROM_BADGES + 4, PIDGEOTTO
+	dbp LEVEL_FROM_BADGES + 4, CMIMA
 	dbp LEVEL_FROM_BADGES + 5, MURKROW
 	db -1 ; end
 
@@ -3648,8 +3648,8 @@ BirdKeeperGroup:
 	db "Gail@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 56, PIDGEOT
-	dbp 53, PIDGEOTTO
+	dbp 56, MIMA
+	dbp 53, CMIMA
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3671,7 +3671,7 @@ BirdKeeperGroup:
 	db "Ernie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 61, PIDGEOT
+	dbp 61, MIMA
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3680,7 +3680,7 @@ BirdKeeperGroup:
 	; party
 	dbp 58, FARFETCH_D
 	dbp 58, DODRIO
-	dbp 58, PIDGEOTTO
+	dbp 58, CMIMA
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3697,17 +3697,17 @@ BirdKeeperGroup:
 	db "Bryan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES - 1, PIDGEY
-	dbp LEVEL_FROM_BADGES + 1, PIDGEOTTO
+	dbp LEVEL_FROM_BADGES - 1, EMAGAN
+	dbp LEVEL_FROM_BADGES + 1, CMIMA
 	db -1 ; end
 
 	; BIRD_KEEPER
 	db "Trent@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 33, PIDGEY
-	dbp 44, PIDGEOTTO
-	dbp 55, PIDGEOT
+	dbp 33, EMAGAN
+	dbp 44, CMIMA
+	dbp 55, MIMA
 	db -1 ; end
 
 
@@ -5111,7 +5111,7 @@ endc
 	; party
 	dbp 52, GLOOM
 		db SITRUS_BERRY
-	dbp 54, PIDGEOTTO
+	dbp 54, CMIMA
 		db NO_ITEM
 	dbp 54, BELLOSSOM
 		db NO_ITEM
@@ -5381,7 +5381,7 @@ BugManiacGroup:
 	db "Rob@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 60, BEEDRILL
+	dbp 60, MAGAN
 	dbp 59, BUTTERFREE
 	db -1 ; end
 
@@ -5390,7 +5390,7 @@ BugManiacGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 61, YANMA
-	dbp 62, BEEDRILL
+	dbp 62, MAGAN
 	dbp 62, BUTTERFREE
 	db -1 ; end
 
@@ -5406,7 +5406,7 @@ BugManiacGroup:
 	db "Dane@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 59, BEEDRILL
+	dbp 59, MAGAN
 	dbp 61, BUTTERFREE
 	db -1 ; end
 
@@ -5421,18 +5421,18 @@ BugManiacGroup:
 	db "Stacey@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 60, METAPOD
-	dbp 62, METAPOD
-	dbp 64, METAPOD
+	dbp 60, MGYOKU
+	dbp 62, MGYOKU
+	dbp 64, MGYOKU
 	db -1 ; end
 
 	; BUG_MANIAC
 	db "Ellis@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 58, WEEDLE
-	dbp 60, KAKUNA
-	dbp 62, BEEDRILL
+	dbp 58, OGYOKU
+	dbp 60, CMAGAN
+	dbp 62, MAGAN
 	db -1 ; end
 
 	; BUG_MANIAC
@@ -5440,7 +5440,7 @@ BugManiacGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 59, BUTTERFREE
-	dbp 59, BEEDRILL
+	dbp 59, MAGAN
 	dbp 59, PIKACHU
 	db -1 ; end
 
@@ -5448,8 +5448,8 @@ BugManiacGroup:
 	db "Kenta@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 60, BEEDRILL
-	dbp 60, BEEDRILL
+	dbp 60, MAGAN
+	dbp 60, MAGAN
 	dbp 60, PARASECT
 	db -1 ; end
 
@@ -5924,7 +5924,7 @@ SchoolboyGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 59, FURRET
-	dbp 61, PIDGEOT
+	dbp 61, MIMA
 	db -1 ; end
 
 	; SCHOOLBOY
@@ -6005,7 +6005,7 @@ SchoolgirlGroup:
 	; party
 	dbp LEVEL_FROM_BADGES + 2, CSAKUYA
 		db "Turtle@"
-	dbp LEVEL_FROM_BADGES + 0, PIDGEY
+	dbp LEVEL_FROM_BADGES + 0, EMAGAN
 		db "@"
 	dbp LEVEL_FROM_BADGES + 1, PIKACHU
 		db "@"
@@ -6755,7 +6755,7 @@ RichBoyGroup:
 	db "Winston@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 46, PIDGEOT
+	dbp 46, MIMA
 	dbp 44, FURRET
 	dbp 45, AMPHAROS
 	db -1 ; end
@@ -8338,7 +8338,7 @@ TeacherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp LEVEL_FROM_BADGES + 5, BELLOSSOM
-	dbp LEVEL_FROM_BADGES + 3, PIDGEOTTO
+	dbp LEVEL_FROM_BADGES + 3, CMIMA
 	dbp LEVEL_FROM_BADGES + 2, FURRET
 	db -1 ; end
 
@@ -8970,7 +8970,7 @@ CooltrainerMGroup:
 	db "Ryan@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 35, PIDGEOT
+	dbp 35, MIMA
 		db MUD_SLAP, QUICK_ATTACK, ROAR, AERIAL_ACE
 	dbp 37, ELECTABUZZ
 		db THUNDERPUNCH, LIGHT_SCREEN, SWIFT, SCREECH
@@ -9096,7 +9096,7 @@ CooltrainerMGroup:
 	db "Corey@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
-	dbp 63, PIDGEOT
+	dbp 63, MIMA
 		db QUICK_CLAW, "@"
 		ev_spread 252 Atk, 132 Spe
 	dbp 62, RHYDON
@@ -9690,7 +9690,7 @@ VeteranFGroup:
 	dbp 41, EREIMU
 		db MIRACLE_SEED
 		db GROWTH, SLUDGE_BOMB, PETAL_DANCE, SLEEP_POWDER
-	dbp 38, PIDGEOT
+	dbp 38, MIMA
 		db QUICK_CLAW
 		db ROOST, FLY, SWIFT, ROAR
 	dbp 39, SCYTHER
@@ -10615,7 +10615,7 @@ MarleyGroup:
 	; party
 	; TODO: movesets, etc
 	dbp 60, ARCANINE
-	dbp 59, PIDGEOT
+	dbp 59, MIMA
 	dbp 58, RAICHU
 	dbp 56, CROBAT
 	dbp 56, ELECTRODE
@@ -10628,7 +10628,7 @@ MarleyGroup:
 	; party
 	; TODO: movesets, etc
 	dbp 75, ARCANINE
-	dbp 74, PIDGEOT
+	dbp 74, MIMA
 	dbp 73, RAICHU
 	dbp 71, CROBAT
 	dbp 71, ELECTRODE
@@ -11251,7 +11251,7 @@ WalkerGroup:
 		db NO_ITEM
 		ev_spread 184 Spe
 		db AERIAL_ACE, NIGHT_SHADE, REFLECT, EXTRASENSORY
-	dbp LEVEL_FROM_BADGES + 6, PIDGEOTTO
+	dbp LEVEL_FROM_BADGES + 6, CMIMA
 		db NO_ITEM
 		ev_spread 184 SAt
 		db MUD_SLAP, ROOST, SWIFT, AIR_SLASH
@@ -11275,7 +11275,7 @@ WalkerGroup:
 	dbp 72, NOCTOWL
 		db SHARP_BEAK
 		db AIR_SLASH, PSYCHIC_M, SHADOW_BALL, REFLECT
-	dbp 74, PIDGEOT
+	dbp 74, MIMA
 		db BRIGHTPOWDER
 		db ROOST, EXTREMESPEED, HURRICANE, ROAR
 	dbp 73, AERODACTYL

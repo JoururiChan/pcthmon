@@ -10,14 +10,14 @@ FootprintPointers::
 	dw SakuyaFootprint
 	dw ESakuyaFootprint
 	dw CGyokuFootprint
-	dw MetapodFootprint
-	dw ButterfreeFootprint
-	dw WeedleFootprint
-	dw KakunaFootprint
-	dw BeedrillFootprint
-	dw PidgeyFootprint
-	dw PidgeottoFootprint
-	dw PidgeotFootprint
+	dw MGyokuFootprint
+	dw FGyokuFootprint
+	dw OGyokuFootprint
+	dw CMaganFootprint
+	dw MaganFootprint
+	dw EMaganFootprint
+	dw CMimaFootprint
+	dw MimaFootprint
 	dw RattataFootprint
 	dw RaticateFootprint
 	dw SpearowFootprint

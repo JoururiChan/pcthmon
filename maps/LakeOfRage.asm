@@ -356,7 +356,7 @@ GenericTrainerCooltrainerfLois:
 
 	text "Come to think of"
 	line "it, I've seen a"
-	cont "pink Butterfree."
+	cont "pink FGyoku."
 	done
 
 .SeenText:

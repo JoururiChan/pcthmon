@@ -30,7 +30,7 @@ GenericTrainerBug_maniacKai:
 
 	text "Venonat is so"
 	line "similar to"
-	cont "Butterfree!"
+	cont "FGyoku!"
 
 	para "Their weight,"
 	line "their eyes,"
@@ -48,7 +48,7 @@ Bug_maniacKaiSeenText:
 Bug_maniacKaiBeatenText:
 	text "I thought it would"
 	line "for sure evolve"
-	cont "into Butterfree!"
+	cont "into FGyoku!"
 	done
 
 SafariZoneHubAreaSignText:

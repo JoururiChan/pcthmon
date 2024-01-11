@@ -10,14 +10,14 @@ EvolutionMoves::
 	db NO_MOVE      ; SAKUYA
 	db FLASH_CANNON ; ESAKUYA
 	db NO_MOVE      ; CGYOKU
-	db DEFENSE_CURL ; METAPOD
+	db DEFENSE_CURL ; MGYOKU
 	db GUST         ; BUTTERFREE
-	db NO_MOVE      ; WEEDLE
-	db DEFENSE_CURL ; KAKUNA
-	db U_TURN       ; BEEDRILL
-	db NO_MOVE      ; PIDGEY
-	db NO_MOVE      ; PIDGEOTTO
-	db NO_MOVE      ; PIDGEOT
+	db NO_MOVE      ; OGYOKU
+	db DEFENSE_CURL ; CMAGAN
+	db U_TURN       ; MAGAN
+	db NO_MOVE      ; EMAGAN
+	db NO_MOVE      ; CMIMA
+	db NO_MOVE      ; MIMA
 	db NO_MOVE      ; RATTATA
 	db SCARY_FACE   ; RATICATE
 	db NO_MOVE      ; SPEAROW

@@ -10,14 +10,14 @@ BitmasksPointers:
 	dw SakuyaBitmasks
 	dw ESakuyaBitmasks
 	dw CGyokuBitmasks
-	dw MetapodBitmasks
-	dw ButterfreeBitmasks
-	dw WeedleBitmasks
-	dw KakunaBitmasks
-	dw BeedrillBitmasks
-	dw PidgeyBitmasks
-	dw PidgeottoBitmasks
-	dw PidgeotBitmasks
+	dw MGyokuBitmasks
+	dw FGyokuBitmasks
+	dw OGyokuBitmasks
+	dw CMaganBitmasks
+	dw MaganBitmasks
+	dw EMaganBitmasks
+	dw CMimaBitmasks
+	dw MimaBitmasks
 	dw RattataPlainBitmasks
 	dw RaticatePlainBitmasks
 	dw SpearowBitmasks

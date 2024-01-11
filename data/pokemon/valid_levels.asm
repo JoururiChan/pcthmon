@@ -11,14 +11,14 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  16,  35 ; Sakuya
 	db  36, 100 ; ESakuya
 	db   1,   6 ; CGyoku
-	db   7,   9 ; Metapod
-	db  10, 100 ; Butterfree
-	db   1,   6 ; Weedle
-	db   7,   9 ; Kakuna
-	db  10, 100 ; Beedrill
-	db   1,  17 ; Pidgey
-	db  18,  35 ; Pidgeotto
-	db  36, 100 ; Pidgeot
+	db   7,   9 ; MGyoku
+	db  10, 100 ; FGyoku
+	db   1,   6 ; OGyoku
+	db   7,   9 ; CMagan
+	db  10, 100 ; Magan
+	db   1,  17 ; EMagan
+	db  18,  35 ; CMima
+	db  36, 100 ; Mima
 	db   1,  19 ; Rattata
 	db  20, 100 ; Raticate
 	db   1,  19 ; Spearow

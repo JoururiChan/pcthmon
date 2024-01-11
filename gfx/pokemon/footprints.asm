@@ -5,7 +5,7 @@ KabutoFootprint::
 SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lz"
 
 CGyokuFootprint::
-WeedleFootprint::
+OGyokuFootprint::
 StaryuFootprint::
 StarmieFootprint::
 PorygonZFootprint:: INCBIN "gfx/footprints/circle_large.1bpp.lz"
@@ -14,8 +14,8 @@ UmbreonFootprint::
 LeafeonFootprint::
 GlaceonFootprint:: INCBIN "gfx/footprints/umbreon_leafeon_glaceon.1bpp.lz"
 
-PidgeyFootprint::
-SpearowFootprint:: INCBIN "gfx/footprints/pidgey_spearow.1bpp.lz"
+EMaganFootprint::
+SpearowFootprint:: INCBIN "gfx/footprints/emagan_spearow.1bpp.lz"
 
 CorsolaFootprint::
 CursolaFootprint:: INCBIN "gfx/footprints/corsola_cursola.1bpp.lz"
@@ -46,7 +46,7 @@ GyaradosFootprint::
 HaunterFootprint::
 HorseaFootprint::
 JynxFootprint::
-KakunaFootprint::
+CMaganFootprint::
 KingdraFootprint::
 KoffingFootprint::
 LanturnFootprint::
@@ -56,7 +56,7 @@ MagikarpFootprint::
 MagnezoneFootprint::
 MantineFootprint::
 MantykeFootprint::
-MetapodFootprint::
+MGyokuFootprint::
 MisdreavusFootprint::
 MismagiusFootprint::
 MukFootprint::
@@ -91,10 +91,10 @@ EMarisaFootprint:: INCBIN "gfx/footprints/emarisa.1bpp.lz"
 CSakuyaFootprint:: INCBIN "gfx/footprints/csakuya.1bpp.lz"
 SakuyaFootprint:: INCBIN "gfx/footprints/sakuya.1bpp.lz"
 ESakuyaFootprint:: INCBIN "gfx/footprints/esakuya.1bpp.lz"
-ButterfreeFootprint:: INCBIN "gfx/footprints/butterfree.1bpp.lz"
-BeedrillFootprint:: INCBIN "gfx/footprints/beedrill.1bpp.lz"
-PidgeottoFootprint:: INCBIN "gfx/footprints/pidgeotto.1bpp.lz"
-PidgeotFootprint:: INCBIN "gfx/footprints/pidgeot.1bpp.lz"
+FGyokuFootprint:: INCBIN "gfx/footprints/fgyoku.1bpp.lz"
+MaganFootprint:: INCBIN "gfx/footprints/magan.1bpp.lz"
+CMimaFootprint:: INCBIN "gfx/footprints/cmima.1bpp.lz"
+MimaFootprint:: INCBIN "gfx/footprints/mima.1bpp.lz"
 RattataFootprint:: INCBIN "gfx/footprints/rattata.1bpp.lz"
 RaticateFootprint:: INCBIN "gfx/footprints/raticate.1bpp.lz"
 FearowFootprint:: INCBIN "gfx/footprints/fearow.1bpp.lz"

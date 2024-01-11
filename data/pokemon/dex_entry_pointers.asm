@@ -11,14 +11,14 @@ PokedexDataPointerTable:
 	dba SakuyaPokedexEntry
 	dba ESakuyaPokedexEntry
 	dba CGyokuPokedexEntry
-	dba MetapodPokedexEntry
-	dba ButterfreePokedexEntry
-	dba WeedlePokedexEntry
-	dba KakunaPokedexEntry
-	dba BeedrillPokedexEntry
-	dba PidgeyPokedexEntry
-	dba PidgeottoPokedexEntry
-	dba PidgeotPokedexEntry
+	dba MGyokuPokedexEntry
+	dba FGyokuPokedexEntry
+	dba OGyokuPokedexEntry
+	dba CMaganPokedexEntry
+	dba MaganPokedexEntry
+	dba EMaganPokedexEntry
+	dba CMimaPokedexEntry
+	dba MimaPokedexEntry
 	dba RattataPlainPokedexEntry
 	dba RaticatePlainPokedexEntry
 	dba SpearowPokedexEntry

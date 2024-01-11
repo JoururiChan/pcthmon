@@ -102,8 +102,8 @@ CGyokuPokedexEntry::
 	next "are the same color"
 	next "as its body.@"
 
-SECTION "MetapodPokedexEntry", ROMX
-MetapodPokedexEntry::
+SECTION "MGyokuPokedexEntry", ROMX
+MGyokuPokedexEntry::
 	db "Cocoon@"
 	db   "This is its pre-"
 	next "evolved form. At"
@@ -112,8 +112,8 @@ MetapodPokedexEntry::
 	next "remains motionless"
 	next "to avoid attack.@"
 
-SECTION "ButterfreePokedexEntry", ROMX
-ButterfreePokedexEntry::
+SECTION "FGyokuPokedexEntry", ROMX
+FGyokuPokedexEntry::
 	db "Butterfly@"
 	db   "It flits from"
 	next "flower to flower,"
@@ -122,8 +122,8 @@ ButterfreePokedexEntry::
 	next "identify distant"
 	next "flowers in bloom.@"
 
-SECTION "WeedlePokedexEntry", ROMX
-WeedlePokedexEntry::
+SECTION "OGyokuPokedexEntry", ROMX
+OGyokuPokedexEntry::
 	db "Hairy Bug@"
 	db   "The barb on top of"
 	next "its head secretes"
@@ -132,8 +132,8 @@ WeedlePokedexEntry::
 	next "barb to protect"
 	next "itself.@"
 
-SECTION "KakunaPokedexEntry", ROMX
-KakunaPokedexEntry::
+SECTION "CMaganPokedexEntry", ROMX
+CMaganPokedexEntry::
 	db "Cocoon@"
 	db   "Nearly incapable"
 	next "of movement, it"
@@ -142,8 +142,8 @@ KakunaPokedexEntry::
 	next "waiting for its"
 	next "evolution.@"
 
-SECTION "BeedrillPokedexEntry", ROMX
-BeedrillPokedexEntry::
+SECTION "MaganPokedexEntry", ROMX
+MaganPokedexEntry::
 	db "Poison Bee@"
 	db   "It uses sharp,"
 	next "poisonous stings"
@@ -152,8 +152,8 @@ BeedrillPokedexEntry::
 	next "victim back to its"
 	next "nest for food.@"
 
-SECTION "PidgeyPokedexEntry", ROMX
-PidgeyPokedexEntry::
+SECTION "EMaganPokedexEntry", ROMX
+EMaganPokedexEntry::
 	db "Tiny Bird@"
 	db   "It rapidly flaps"
 	next "its wings in the"
@@ -162,8 +162,8 @@ PidgeyPokedexEntry::
 	next "drives insect prey"
 	next "out into the open.@"
 
-SECTION "PidgeottoPokedexEntry", ROMX
-PidgeottoPokedexEntry::
+SECTION "CMimaPokedexEntry", ROMX
+CMimaPokedexEntry::
 	db "Bird@"
 	db   "It slowly flies in"
 	next "a circular pat-"
@@ -172,8 +172,8 @@ PidgeottoPokedexEntry::
 	next "sharp lookout for"
 	next "prey.@"
 
-SECTION "PidgeotPokedexEntry", ROMX
-PidgeotPokedexEntry::
+SECTION "MimaPokedexEntry", ROMX
+MimaPokedexEntry::
 	db "Bird@"
 	db   "This #mon flies"
 	next "at Mach 2 speed,"

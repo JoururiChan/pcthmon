@@ -48,37 +48,37 @@ SECTION "CGyoku Pics", ROMX
 CGyokuFrontpic: INCBIN "gfx/pokemon/cgyoku/front.animated.2bpp.lz"
 CGyokuBackpic:  INCBIN "gfx/pokemon/cgyoku/back.2bpp.lz"
 
-SECTION "Metapod Pics", ROMX
-MetapodFrontpic: INCBIN "gfx/pokemon/metapod/front.animated.2bpp.lz"
-MetapodBackpic:  INCBIN "gfx/pokemon/metapod/back.2bpp.lz"
+SECTION "MGyoku Pics", ROMX
+MGyokuFrontpic: INCBIN "gfx/pokemon/mgyoku/front.animated.2bpp.lz"
+MGyokuBackpic:  INCBIN "gfx/pokemon/mgyoku/back.2bpp.lz"
 
-SECTION "Butterfree Pics", ROMX
-ButterfreeFrontpic: INCBIN "gfx/pokemon/butterfree/front.animated.2bpp.lz"
-ButterfreeBackpic:  INCBIN "gfx/pokemon/butterfree/back.2bpp.lz"
+SECTION "FGyoku Pics", ROMX
+FGyokuFrontpic: INCBIN "gfx/pokemon/fgyoku/front.animated.2bpp.lz"
+FGyokuBackpic:  INCBIN "gfx/pokemon/fgyoku/back.2bpp.lz"
 
-SECTION "Weedle Pics", ROMX
-WeedleFrontpic: INCBIN "gfx/pokemon/weedle/front.animated.2bpp.lz"
-WeedleBackpic:  INCBIN "gfx/pokemon/weedle/back.2bpp.lz"
+SECTION "OGyoku Pics", ROMX
+OGyokuFrontpic: INCBIN "gfx/pokemon/ogyoku/front.animated.2bpp.lz"
+OGyokuBackpic:  INCBIN "gfx/pokemon/ogyoku/back.2bpp.lz"
 
-SECTION "Kakuna Pics", ROMX
-KakunaFrontpic: INCBIN "gfx/pokemon/kakuna/front.animated.2bpp.lz"
-KakunaBackpic:  INCBIN "gfx/pokemon/kakuna/back.2bpp.lz"
+SECTION "CMagan Pics", ROMX
+CMaganFrontpic: INCBIN "gfx/pokemon/cmagan/front.animated.2bpp.lz"
+CMaganBackpic:  INCBIN "gfx/pokemon/cmagan/back.2bpp.lz"
 
-SECTION "Beedrill Pics", ROMX
-BeedrillFrontpic: INCBIN "gfx/pokemon/beedrill/front.animated.2bpp.lz"
-BeedrillBackpic:  INCBIN "gfx/pokemon/beedrill/back.2bpp.lz"
+SECTION "Magan Pics", ROMX
+MaganFrontpic: INCBIN "gfx/pokemon/magan/front.animated.2bpp.lz"
+MaganBackpic:  INCBIN "gfx/pokemon/magan/back.2bpp.lz"
 
-SECTION "Pidgey Pics", ROMX
-PidgeyFrontpic: INCBIN "gfx/pokemon/pidgey/front.animated.2bpp.lz"
-PidgeyBackpic:  INCBIN "gfx/pokemon/pidgey/back.2bpp.lz"
+SECTION "EMagan Pics", ROMX
+EMaganFrontpic: INCBIN "gfx/pokemon/emagan/front.animated.2bpp.lz"
+EMaganBackpic:  INCBIN "gfx/pokemon/emagan/back.2bpp.lz"
 
-SECTION "Pidgeotto Pics", ROMX
-PidgeottoFrontpic: INCBIN "gfx/pokemon/pidgeotto/front.animated.2bpp.lz"
-PidgeottoBackpic:  INCBIN "gfx/pokemon/pidgeotto/back.2bpp.lz"
+SECTION "CMima Pics", ROMX
+CMimaFrontpic: INCBIN "gfx/pokemon/cmima/front.animated.2bpp.lz"
+CMimaBackpic:  INCBIN "gfx/pokemon/cmima/back.2bpp.lz"
 
-SECTION "Pidgeot Pics", ROMX
-PidgeotFrontpic: INCBIN "gfx/pokemon/pidgeot/front.animated.2bpp.lz"
-PidgeotBackpic:  INCBIN "gfx/pokemon/pidgeot/back.2bpp.lz"
+SECTION "Mima Pics", ROMX
+MimaFrontpic: INCBIN "gfx/pokemon/mima/front.animated.2bpp.lz"
+MimaBackpic:  INCBIN "gfx/pokemon/mima/back.2bpp.lz"
 
 SECTION "Marill Pics", ROMX
 MarillFrontpic: INCBIN "gfx/pokemon/marill/front.animated.2bpp.lz"

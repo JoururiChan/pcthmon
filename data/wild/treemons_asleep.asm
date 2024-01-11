@@ -10,11 +10,11 @@ AsleepTreeMons:
 .Nite
 .Eve
 	dp CGYOKU
-	dp METAPOD
+	dp MGYOKU
 	dp BUTTERFREE
-	dp WEEDLE
-	dp KAKUNA
-	dp BEEDRILL
+	dp OGYOKU
+	dp CMAGAN
+	dp MAGAN
 	dp SPEAROW
 	dp EKANS
 	dp EXEGGCUTE

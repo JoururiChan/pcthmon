@@ -32,14 +32,14 @@
 	const SAKUYA  ; 08
 	const ESAKUYA  ; 09
 	const CGYOKU   ; 0a
-	const METAPOD    ; 0b
+	const MGYOKU    ; 0b
 	const BUTTERFREE ; 0c
-	const WEEDLE     ; 0d
-	const KAKUNA     ; 0e
-	const BEEDRILL   ; 0f
-	const PIDGEY     ; 10
-	const PIDGEOTTO  ; 11
-	const PIDGEOT    ; 12
+	const OGYOKU     ; 0d
+	const CMAGAN     ; 0e
+	const MAGAN   ; 0f
+	const EMAGAN     ; 10
+	const CMIMA  ; 11
+	const MIMA    ; 12
 	const RATTATA    ; 13
 	const RATICATE   ; 14
 	const SPEAROW    ; 15

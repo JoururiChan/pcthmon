@@ -14,14 +14,14 @@ OverworldMonIconColors::
 	iconpal BLUE, TEAL ; SAKUYA
 	iconpal BLUE, TEAL ; ESAKUYA
 	iconpal GREEN, PINK ; CGYOKU
-	iconpal GREEN, ORANGE ; METAPOD
+	iconpal GREEN, ORANGE ; MGYOKU
 	iconpal BLUE, PINK ; BUTTERFREE
-	iconpal BROWN, PINK ; WEEDLE
-	iconpal BROWN, GREEN ; KAKUNA
-	iconpal BROWN, TEAL ; BEEDRILL
-	iconpal BROWN, RED ; PIDGEY
-	iconpal BROWN, RED ; PIDGEOTTO
-	iconpal BROWN, RED ; PIDGEOT
+	iconpal BROWN, PINK ; OGYOKU
+	iconpal BROWN, GREEN ; CMAGAN
+	iconpal BROWN, TEAL ; MAGAN
+	iconpal BROWN, RED ; EMAGAN
+	iconpal BROWN, RED ; CMIMA
+	iconpal BROWN, RED ; MIMA
 	iconpal PURPLE, GRAY ; RATTATA
 	iconpal BROWN, RED ; RATICATE
 	iconpal BROWN, ORANGE ; SPEAROW

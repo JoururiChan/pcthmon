@@ -10,14 +10,14 @@ EggMovePointers::
 	dw NoEggMoves             ; Sakuya
 	dw NoEggMoves             ; ESakuya
 	dw NoEggMoves             ; CGyoku
-	dw NoEggMoves             ; Metapod
-	dw NoEggMoves             ; Butterfree
-	dw NoEggMoves             ; Weedle
-	dw NoEggMoves             ; Kakuna
-	dw NoEggMoves             ; Beedrill
-	dw PidgeyEggMoves         ; Pidgey
-	dw NoEggMoves             ; Pidgeotto
-	dw NoEggMoves             ; Pidgeot
+	dw NoEggMoves             ; MGyoku
+	dw NoEggMoves             ; FGyoku
+	dw NoEggMoves             ; OGyoku
+	dw NoEggMoves             ; CMagan
+	dw NoEggMoves             ; Magan
+	dw EMaganEggMoves         ; EMagan
+	dw NoEggMoves             ; CMima
+	dw NoEggMoves             ; Mima
 	dw RattataPlainEggMoves   ; Rattata
 	dw NoEggMoves             ; Raticate
 	dw SpearowEggMoves        ; Spearow

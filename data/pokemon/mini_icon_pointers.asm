@@ -14,14 +14,14 @@ MiniIconPointers:
 	mini_icon Sakuya
 	mini_icon ESakuya
 	mini_icon CGyoku
-	mini_icon Metapod
-	mini_icon Butterfree
-	mini_icon Weedle
-	mini_icon Kakuna
-	mini_icon Beedrill
-	mini_icon Pidgey
-	mini_icon Pidgeotto
-	mini_icon Pidgeot
+	mini_icon MGyoku
+	mini_icon FGyoku
+	mini_icon OGyoku
+	mini_icon CMagan
+	mini_icon Magan
+	mini_icon EMagan
+	mini_icon CMima
+	mini_icon Mima
 	mini_icon Rattata
 	mini_icon Raticate
 	mini_icon Spearow

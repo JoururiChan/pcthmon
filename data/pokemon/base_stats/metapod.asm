@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for METAPOD, SHED_SKIN, SHED_SKIN, SHED_SKIN
+	abilities_for MGYOKU, SHED_SKIN, SHED_SKIN, SHED_SKIN
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 

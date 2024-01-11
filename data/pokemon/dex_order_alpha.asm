@@ -16,7 +16,7 @@ AlphabeticalPokedexOrder:
 	dp AZUMARILL
 	dp AZURILL
 	dp BAYLEEF
-	dp BEEDRILL
+	dp MAGAN
 	dp BELLOSSOM
 	dp BELLSPROUT
 	dp ESAKUYA
@@ -115,7 +115,7 @@ AlphabeticalPokedexOrder:
 	dp KABUTO
 	dp KABUTOPS
 	dp KADABRA
-	dp KAKUNA
+	dp CMAGAN
 	dp KANGASKHAN
 	dp KINGDRA
 	dp KINGLER
@@ -151,7 +151,7 @@ AlphabeticalPokedexOrder:
 	dp MAROWAK
 	dp MEGANIUM
 	dp MEOWTH
-	dp METAPOD
+	dp MGYOKU
 	dp MEW
 	dp MEWTWO
 	dp MILTANK
@@ -185,9 +185,9 @@ AlphabeticalPokedexOrder:
 	dp PERSIAN
 	dp PHANPY
 	dp PICHU
-	dp PIDGEOT
-	dp PIDGEOTTO
-	dp PIDGEY
+	dp MIMA
+	dp CMIMA
+	dp EMAGAN
 	dp PIKACHU
 	dp PILOSWINE
 	dp PINECO
@@ -278,7 +278,7 @@ AlphabeticalPokedexOrder:
 	dp VULPIX
 	dp SAKUYA
 	dp WEAVILE
-	dp WEEDLE
+	dp OGYOKU
 	dp WEEPINBELL
 	dp WEEZING
 	dp WIGGLYTUFF

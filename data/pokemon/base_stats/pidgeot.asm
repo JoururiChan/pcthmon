@@ -16,7 +16,7 @@ endc
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for PIDGEOT, KEEN_EYE, TANGLED_FEET, NO_GUARD
+	abilities_for MIMA, KEEN_EYE, TANGLED_FEET, NO_GUARD
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 

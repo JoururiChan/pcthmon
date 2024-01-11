@@ -25,7 +25,7 @@ OlivineMartCooltrainerFText:
 	done
 
 OlivineMartLassText:
-	text "My Butterfree came"
+	text "My FGyoku came"
 	line "from my boyfriend"
 	cont "overseas."
 

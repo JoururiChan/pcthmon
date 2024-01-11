@@ -16,21 +16,21 @@ Cries:
 	fardw Cry_Diglett
 	fardw Cry_Seel
 	fardw Cry_Drowzee
-	fardw Cry_Pidgey
+	fardw Cry_EMagan
 	fardw Cry_CReimu
 	fardw Cry_Farfetch_d
 	fardw Cry_Rhydon
 	fardw Cry_Golem
 	fardw Cry_ESakuya
-	fardw Cry_Pidgeotto
-	fardw Cry_Weedle
+	fardw Cry_CMima
+	fardw Cry_OGyoku
 	fardw Cry_CGyoku
 	fardw Cry_Ekans
 	fardw Cry_Shellder
 	fardw Cry_Clefairy
 	fardw Cry_Venonat
 	fardw Cry_Lapras
-	fardw Cry_Metapod
+	fardw Cry_MGyoku
 	fardw Cry_CSakuya
 	fardw Cry_Paras
 	fardw Cry_Growlithe

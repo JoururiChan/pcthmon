@@ -14,14 +14,14 @@ PokemonPicPointers::
 	pics Sakuya
 	pics ESakuya
 	pics CGyoku
-	pics Metapod
-	pics Butterfree
-	pics Weedle
-	pics Kakuna
-	pics Beedrill
-	pics Pidgey
-	pics Pidgeotto
-	pics Pidgeot
+	pics MGyoku
+	pics FGyoku
+	pics OGyoku
+	pics CMagan
+	pics Magan
+	pics EMagan
+	pics CMima
+	pics Mima
 	pics RattataPlain
 	pics RaticatePlain
 	pics Spearow

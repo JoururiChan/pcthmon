@@ -17,14 +17,14 @@ PokemonBodyData:
 	body_data  10,  225, BIPEDAL_TAIL, BLUE   ; SAKUYA
 	body_data  16,  855, BIPEDAL_TAIL, BLUE   ; ESAKUYA
 	body_data   3,   29, INSECTOID,    GREEN  ; CGYOKU
-	body_data   7,   99, SERPENTINE,   GREEN  ; METAPOD
+	body_data   7,   99, SERPENTINE,   GREEN  ; MGYOKU
 	body_data  11,  320, MULTIWINGS,   WHITE  ; BUTTERFREE
-	body_data   3,   32, INSECTOID,    BROWN  ; WEEDLE
-	body_data   6,  100, SERPENTINE,   YELLOW ; KAKUNA
-	body_data  10,  295, MULTIWINGS,   YELLOW ; BEEDRILL
-	body_data   3,   18, WINGS,        BROWN  ; PIDGEY
-	body_data  11,  300, WINGS,        BROWN  ; PIDGEOTTO
-	body_data  15,  395, WINGS,        BROWN  ; PIDGEOT
+	body_data   3,   32, INSECTOID,    BROWN  ; OGYOKU
+	body_data   6,  100, SERPENTINE,   YELLOW ; CMAGAN
+	body_data  10,  295, MULTIWINGS,   YELLOW ; MAGAN
+	body_data   3,   18, WINGS,        BROWN  ; EMAGAN
+	body_data  11,  300, WINGS,        BROWN  ; CMIMA
+	body_data  15,  395, WINGS,        BROWN  ; MIMA
 	body_data   3,   35, QUADRUPED,    PURPLE ; RATTATA
 	body_data   7,  185, QUADRUPED,    BROWN  ; RATICATE
 	body_data   3,   20, WINGS,        BROWN  ; SPEAROW

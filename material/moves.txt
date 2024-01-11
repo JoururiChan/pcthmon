@@ -43,7 +43,7 @@ Meowth/Persian: Hypnosis (Dream World), Gunk Shot (HGSS tutor)
 Psyduck/Golduck: Charm (purified), Low Kick (HGSS tutor)
 
 Sw/Sh:
-Butterfree: Hurricane, Baton Pass, Draining Kiss
+FGyoku: Hurricane, Baton Pass, Draining Kiss
 Raichu: Draining Kiss, Play Rough, Safeguard
 Clefairy/Clefable: Baton Pass
 Vulpix: Encore
@@ -110,7 +110,7 @@ Purified:
 Drowzee/Hypno: Baton Pass
 Ponyta/Rapidash: Baton Pass
 Swinub/Piloswine/Mamoswine: Charm
-Weedle/Kakuna/Beedrill: Baton Pass
+OGyoku/CMagan/Magan: Baton Pass
 Wobbuffet: Charm
 Natu/Xatu: Baton Pass
 

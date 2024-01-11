@@ -32,7 +32,7 @@ CSakuyaEggMoves:
 	db AQUA_JET
 	db $ff
 
-PidgeyEggMoves:
+EMaganEggMoves:
 	db PECK
 	db FEINT_ATTACK
 	db FORESIGHT

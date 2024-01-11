@@ -524,8 +524,8 @@ BigGyaradosSpriteGFX:: INCBIN "gfx/sprites/big_gyarados.2bpp.lz"
 SECTION "SlowpoketailSpriteGFX", ROMX
 SlowpoketailSpriteGFX:: INCBIN "gfx/sprites/slowpoketail.2bpp.lz"
 
-SECTION "PidgeottoSideSpriteGFX", ROMX
-PidgeottoSideSpriteGFX:: INCBIN "gfx/sprites/pidgeotto_side.2bpp.lz"
+SECTION "CMimaSideSpriteGFX", ROMX
+CMimaSideSpriteGFX:: INCBIN "gfx/sprites/cmima_side.2bpp.lz"
 
 SECTION "RattataBackSpriteGFX", ROMX
 RattataBackSpriteGFX:: INCBIN "gfx/sprites/rattata_back.2bpp.lz"

@@ -16,21 +16,21 @@
 	const CRY_DIGLETT
 	const CRY_SEEL
 	const CRY_DROWZEE
-	const CRY_PIDGEY
+	const CRY_EMAGAN
 	const CRY_CREIMU
 	const CRY_FARFETCH_D
 	const CRY_RHYDON
 	const CRY_GOLEM
 	const CRY_ESAKUYA
-	const CRY_PIDGEOTTO
-	const CRY_WEEDLE
+	const CRY_CMIMA
+	const CRY_OGYOKU
 	const CRY_CGYOKU
 	const CRY_EKANS
 	const CRY_SHELLDER
 	const CRY_CLEFAIRY
 	const CRY_VENONAT
 	const CRY_LAPRAS
-	const CRY_METAPOD
+	const CRY_MGYOKU
 	const CRY_CSAKUYA
 	const CRY_PARAS
 	const CRY_GROWLITHE

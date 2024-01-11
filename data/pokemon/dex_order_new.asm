@@ -11,9 +11,9 @@ NewPokedexOrder:
 	dp TOTODILE
 	dp CROCONAW
 	dp FERALIGATR
-	dp PIDGEY
-	dp PIDGEOTTO
-	dp PIDGEOT
+	dp EMAGAN
+	dp CMIMA
+	dp MIMA
 	dp SPEAROW
 	dp FEAROW
 	dp HOOTHOOT
@@ -26,11 +26,11 @@ NewPokedexOrder:
 	dp PIKACHU
 	dp RAICHU
 	dp CGYOKU
-	dp METAPOD
+	dp MGYOKU
 	dp BUTTERFREE
-	dp WEEDLE
-	dp KAKUNA
-	dp BEEDRILL
+	dp OGYOKU
+	dp CMAGAN
+	dp MAGAN
 	dp LEDYBA
 	dp LEDIAN
 	dp SPINARAK

@@ -51,45 +51,45 @@ CGyokuMini::     INCBIN "gfx/minis/cgyoku.2bpp.lz"
 CGyokuMiniMask:: INCBIN "gfx/minis/cgyoku_mask.1bpp.lz"
 CGyokuIcon::     INCBIN "gfx/icons/cgyoku.2bpp.lz"
 
-SECTION "Metapod Mini Icon", ROMX
-MetapodMini::     INCBIN "gfx/minis/metapod.2bpp.lz"
-MetapodMiniMask:: INCBIN "gfx/minis/metapod_mask.1bpp.lz"
-MetapodIcon::     INCBIN "gfx/icons/metapod.2bpp.lz"
+SECTION "MGyoku Mini Icon", ROMX
+MGyokuMini::     INCBIN "gfx/minis/mgyoku.2bpp.lz"
+MGyokuMiniMask:: INCBIN "gfx/minis/mgyoku_mask.1bpp.lz"
+MGyokuIcon::     INCBIN "gfx/icons/mgyoku.2bpp.lz"
 
-SECTION "Butterfree Mini Icon", ROMX
-ButterfreeMini::     INCBIN "gfx/minis/butterfree.2bpp.lz"
-ButterfreeMiniMask:: INCBIN "gfx/minis/butterfree_mask.1bpp.lz"
-ButterfreeIcon::     INCBIN "gfx/icons/butterfree.2bpp.lz"
+SECTION "FGyoku Mini Icon", ROMX
+FGyokuMini::     INCBIN "gfx/minis/fgyoku.2bpp.lz"
+FGyokuMiniMask:: INCBIN "gfx/minis/fgyoku_mask.1bpp.lz"
+FGyokuIcon::     INCBIN "gfx/icons/fgyoku.2bpp.lz"
 
-SECTION "Weedle Mini Icon", ROMX
-WeedleMini::     INCBIN "gfx/minis/weedle.2bpp.lz"
-WeedleMiniMask:: INCBIN "gfx/minis/weedle_mask.1bpp.lz"
-WeedleIcon::     INCBIN "gfx/icons/weedle.2bpp.lz"
+SECTION "OGyoku Mini Icon", ROMX
+OGyokuMini::     INCBIN "gfx/minis/ogyoku.2bpp.lz"
+OGyokuMiniMask:: INCBIN "gfx/minis/ogyoku_mask.1bpp.lz"
+OGyokuIcon::     INCBIN "gfx/icons/ogyoku.2bpp.lz"
 
-SECTION "Kakuna Mini Icon", ROMX
-KakunaMini::     INCBIN "gfx/minis/kakuna.2bpp.lz"
-KakunaMiniMask:: INCBIN "gfx/minis/kakuna_mask.1bpp.lz"
-KakunaIcon::     INCBIN "gfx/icons/kakuna.2bpp.lz"
+SECTION "CMagan Mini Icon", ROMX
+CMaganMini::     INCBIN "gfx/minis/cmagan.2bpp.lz"
+CMaganMiniMask:: INCBIN "gfx/minis/cmagan_mask.1bpp.lz"
+CMaganIcon::     INCBIN "gfx/icons/cmagan.2bpp.lz"
 
-SECTION "Beedrill Mini Icon", ROMX
-BeedrillMini::     INCBIN "gfx/minis/beedrill.2bpp.lz"
-BeedrillMiniMask:: INCBIN "gfx/minis/beedrill_mask.1bpp.lz"
-BeedrillIcon::     INCBIN "gfx/icons/beedrill.2bpp.lz"
+SECTION "Magan Mini Icon", ROMX
+MaganMini::     INCBIN "gfx/minis/magan.2bpp.lz"
+MaganMiniMask:: INCBIN "gfx/minis/magan_mask.1bpp.lz"
+MaganIcon::     INCBIN "gfx/icons/magan.2bpp.lz"
 
-SECTION "Pidgey Mini Icon", ROMX
-PidgeyMini::     INCBIN "gfx/minis/pidgey.2bpp.lz"
-PidgeyMiniMask:: INCBIN "gfx/minis/pidgey_mask.1bpp.lz"
-PidgeyIcon::     INCBIN "gfx/icons/pidgey.2bpp.lz"
+SECTION "EMagan Mini Icon", ROMX
+EMaganMini::     INCBIN "gfx/minis/emagan.2bpp.lz"
+EMaganMiniMask:: INCBIN "gfx/minis/emagan_mask.1bpp.lz"
+EMaganIcon::     INCBIN "gfx/icons/emagan.2bpp.lz"
 
-SECTION "Pidgeotto Mini Icon", ROMX
-PidgeottoMini::     INCBIN "gfx/minis/pidgeotto.2bpp.lz"
-PidgeottoMiniMask:: INCBIN "gfx/minis/pidgeotto_mask.1bpp.lz"
-PidgeottoIcon::     INCBIN "gfx/icons/pidgeotto.2bpp.lz"
+SECTION "CMima Mini Icon", ROMX
+CMimaMini::     INCBIN "gfx/minis/cmima.2bpp.lz"
+CMimaMiniMask:: INCBIN "gfx/minis/cmima_mask.1bpp.lz"
+CMimaIcon::     INCBIN "gfx/icons/cmima.2bpp.lz"
 
-SECTION "Pidgeot Mini Icon", ROMX
-PidgeotMini::     INCBIN "gfx/minis/pidgeot.2bpp.lz"
-PidgeotMiniMask:: INCBIN "gfx/minis/pidgeot_mask.1bpp.lz"
-PidgeotIcon::     INCBIN "gfx/icons/pidgeot.2bpp.lz"
+SECTION "Mima Mini Icon", ROMX
+MimaMini::     INCBIN "gfx/minis/mima.2bpp.lz"
+MimaMiniMask:: INCBIN "gfx/minis/mima_mask.1bpp.lz"
+MimaIcon::     INCBIN "gfx/icons/mima.2bpp.lz"
 
 SECTION "Rattata Mini Icon", ROMX
 RattataMini::     INCBIN "gfx/minis/rattata.2bpp.lz"

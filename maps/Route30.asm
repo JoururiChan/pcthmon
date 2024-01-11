@@ -20,7 +20,7 @@ Route30_MapScriptHeader:
 
 	def_object_events
 	object_event  5, 26, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, YoungsterJoey_ImportantBattleScript, EVENT_ROUTE_30_BATTLE
-	pokemon_event 5, 24, PIDGEY, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_ROUTE_30_BATTLE
+	pokemon_event 5, 24, EMAGAN, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_ROUTE_30_BATTLE
 	object_event  5, 25, SPRITE_RATTATA_BACK, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_30_BATTLE
 	object_event  2, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJoey, EVENT_ROUTE_30_YOUNGSTER_JOEY
 	object_event  5, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerYoungsterMikey, -1
@@ -34,7 +34,7 @@ Route30_MapScriptHeader:
 
 	object_const_def
 	const ROUTE30_YOUNGSTER1
-	const ROUTE30_PIDGEY
+	const ROUTE30_EMAGAN
 	const ROUTE30_RATTATA
 
 YoungsterJoey_ImportantBattleScript:
@@ -54,7 +54,7 @@ YoungsterJoey_ImportantBattleScript:
 	turnobject ROUTE30_YOUNGSTER1, UP
 	closetext
 	playsound SFX_TACKLE
-	applymovement ROUTE30_PIDGEY, Route30_MikeysPidgeyAttacksMovement
+	applymovement ROUTE30_EMAGAN, Route30_MikeysEMaganAttacksMovement
 	special RestoreMusic
 	end
 
@@ -213,7 +213,7 @@ Route30_JoeysRattataAttacksMovement:
 	run_step_down
 	step_end
 
-Route30_MikeysPidgeyAttacksMovement:
+Route30_MikeysEMaganAttacksMovement:
 	run_step_down
 	run_step_up
 	step_end

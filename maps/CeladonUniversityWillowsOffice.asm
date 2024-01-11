@@ -56,7 +56,7 @@ CeladonUniversityWillowsOfficeScientistText:
 
 	para "Today I saw 42"
 	line "Raticate and"
-	cont "37 Pidgeotto…"
+	cont "37 CMima…"
 	cont "and one Vulpix!"
 	done
 

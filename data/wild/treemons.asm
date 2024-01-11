@@ -89,14 +89,14 @@ TreeMonSet_Forest:
 	tree_mon 30, PINECO,     10
 	tree_mon 10, NOCTOWL,    10
 	tree_mon  5, BUTTERFREE, 10
-	tree_mon  5, BEEDRILL,   10
+	tree_mon  5, MAGAN,   10
 	db -1
 	; rare
 	tree_mon 60, HOOTHOOT,   10
 	tree_mon 15, CGYOKU,   10
-	tree_mon 15, WEEDLE,     10
-	tree_mon  5, METAPOD,    10
-	tree_mon  5, KAKUNA,     10
+	tree_mon 15, OGYOKU,     10
+	tree_mon  5, MGYOKU,    10
+	tree_mon  5, CMAGAN,     10
 	db -1
 
 TreeMonSet_Apricorns:

@@ -10,14 +10,14 @@ FramesPointers:
 	dw SakuyaFrames
 	dw ESakuyaFrames
 	dw CGyokuFrames
-	dw MetapodFrames
-	dw ButterfreeFrames
-	dw WeedleFrames
-	dw KakunaFrames
-	dw BeedrillFrames
-	dw PidgeyFrames
-	dw PidgeottoFrames
-	dw PidgeotFrames
+	dw MGyokuFrames
+	dw FGyokuFrames
+	dw OGyokuFrames
+	dw CMaganFrames
+	dw MaganFrames
+	dw EMaganFrames
+	dw CMimaFrames
+	dw MimaFrames
 	dw RattataPlainFrames
 	dw RaticatePlainFrames
 	dw SpearowFrames
