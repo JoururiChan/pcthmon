@@ -17,8 +17,8 @@ CeladonHomeDecorStore1F_MapScriptHeader:
 	object_event  4,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonHomeDecorStore1FReceptionistText, -1
 	object_event  5,  1, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeladonHomeDecorStore1FClerkScript, -1
 	object_event  7,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, CREIMU, -1, -1, PAL_NPC_TEAL, OBJECTTYPE_SCRIPT, NO_FORM, CeladonHomeDecorStore1FCReimuDollScript, -1
-	object_event  8,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, CHARMANDER, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, NO_FORM, CeladonHomeDecorStore1FCharmanderDollScript, -1
-	object_event  9,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, SQUIRTLE, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, CeladonHomeDecorStore1FSquirtleDollScript, -1
+	object_event  8,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, CMARISA, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, NO_FORM, CeladonHomeDecorStore1FCMarisaDollScript, -1
+	object_event  9,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, CSAKUYA, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, CeladonHomeDecorStore1FCSakuyaDollScript, -1
 	object_event  0,  4, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonHomeDecorStore1FCooltrainerfText, -1
 
 CeladonHomeDecorStore1FCReimuDollScript:
@@ -28,18 +28,18 @@ CeladonHomeDecorStore1FCReimuDollScript:
 	line "CReimu doll!"
 	done
 
-CeladonHomeDecorStore1FCharmanderDollScript:
+CeladonHomeDecorStore1FCMarisaDollScript:
 	jumpthistext
 
 	text "It's a tough"
-	line "Charmander doll!"
+	line "CMarisa doll!"
 	done
 
-CeladonHomeDecorStore1FSquirtleDollScript:
+CeladonHomeDecorStore1FCSakuyaDollScript:
 	jumpthistext
 
 	text "It's a cool"
-	line "Squirtle doll!"
+	line "CSakuya doll!"
 	done
 
 CeladonHomeDecorStore1FClerkScript:
@@ -52,8 +52,8 @@ CeladonHomeDecorStore1FClerkScript:
 	verticalmenu
 	closewindow
 	ifequalfwd $1, .CReimuDoll
-	ifequalfwd $2, .CharmanderDoll
-	ifequalfwd $3, .SquirtleDoll
+	ifequalfwd $2, .CMarisaDoll
+	ifequalfwd $3, .CSakuyaDoll
 	endtext
 
 .CReimuDoll:
@@ -70,31 +70,31 @@ CeladonHomeDecorStore1FClerkScript:
 	waitbutton
 	sjump .Start
 
-.CharmanderDoll:
+.CMarisaDoll:
 	checkmoney $0, 16000
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_CHARMANDER_DOLL
+	checkevent EVENT_DECO_CMARISA_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 16000
-	setevent EVENT_DECO_CHARMANDER_DOLL
-	writetext BoughtCharmanderDollText
+	setevent EVENT_DECO_CMARISA_DOLL
+	writetext BoughtCMarisaDollText
 	playsound SFX_TRANSACTION
 	waitbutton
-	writetext CharmanderDollSentText
+	writetext CMarisaDollSentText
 	waitbutton
 	sjump .Start
 
-.SquirtleDoll:
+.CSakuyaDoll:
 	checkmoney $0, 16000
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_SQUIRTLE_DOLL
+	checkevent EVENT_DECO_CSAKUYA_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 16000
-	setevent EVENT_DECO_SQUIRTLE_DOLL
-	writetext BoughtSquirtleDollText
+	setevent EVENT_DECO_CSAKUYA_DOLL
+	writetext BoughtCSakuyaDollText
 	playsound SFX_TRANSACTION
 	waitbutton
-	writetext SquirtleDollSentText
+	writetext CSakuyaDollSentText
 	waitbutton
 	sjump .Start
 
@@ -118,8 +118,8 @@ CeladonHomeDecorStore1FClerkScript:
 	db $80 ; flags
 	db 4 ; items
 	db "CReimu  ¥16000@"
-	db "Charmander ¥16000@"
-	db "Squirtle   ¥16000@"
+	db "CMarisa ¥16000@"
+	db "CSakuya   ¥16000@"
 	db "Cancel@"
 
 CeladonHomeDecorStore1FReceptionistText:
@@ -147,23 +147,23 @@ CReimuDollSentText:
 	line "was sent home."
 	done
 
-BoughtCharmanderDollText:
+BoughtCMarisaDollText:
 	text "<PLAYER> bought"
-	line "Charmander Doll."
+	line "CMarisa Doll."
 	done
 
-CharmanderDollSentText:
-	text "Charmander Doll"
+CMarisaDollSentText:
+	text "CMarisa Doll"
 	line "was sent home."
 	done
 
-BoughtSquirtleDollText:
+BoughtCSakuyaDollText:
 	text "<PLAYER> bought"
-	line "Squirtle Doll."
+	line "CSakuya Doll."
 	done
 
-SquirtleDollSentText:
-	text "Squirtle Doll"
+CSakuyaDollSentText:
+	text "CSakuya Doll"
 	line "was sent home."
 	done
 

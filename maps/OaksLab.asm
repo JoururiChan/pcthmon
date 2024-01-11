@@ -57,22 +57,22 @@ Oak:
 	promptbutton
 	waitsfx
 	checkevent EVENT_GOT_CREIMU_FROM_IVY
-	iftruefwd .Charmander
-	checkevent EVENT_GOT_CHARMANDER_FROM_IVY
-	iftruefwd .Squirtle
+	iftruefwd .CMarisa
+	checkevent EVENT_GOT_CMARISA_FROM_IVY
+	iftruefwd .CSakuya
 	givepoke CREIMU, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalsefwd .PartyAndBoxFull
 	setevent EVENT_GOT_A_POKEMON_FROM_OAK
 	sjumpfwd .CheckBadges
 
-.Charmander:
-	givepoke CHARMANDER, PLAIN_FORM, 10, SITRUS_BERRY
+.CMarisa:
+	givepoke CMARISA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalsefwd .PartyAndBoxFull
 	setevent EVENT_GOT_A_POKEMON_FROM_OAK
 	sjumpfwd .CheckBadges
 
-.Squirtle:
-	givepoke SQUIRTLE, PLAIN_FORM, 10, SITRUS_BERRY
+.CSakuya:
+	givepoke CSAKUYA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalsefwd .PartyAndBoxFull
 	setevent EVENT_GOT_A_POKEMON_FROM_OAK
 	sjumpfwd .CheckBadges

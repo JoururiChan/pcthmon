@@ -6,7 +6,7 @@ ENDM
 
 ContestMons:
 	;            %, species,   min, max
-	contest_mon 15, CATERPIE,    7, 18
+	contest_mon 15, CGYOKU,    7, 18
 	contest_mon 15, WEEDLE,      7, 18
 	contest_mon 10, METAPOD,     9, 18
 	contest_mon 10, KAKUNA,      9, 18

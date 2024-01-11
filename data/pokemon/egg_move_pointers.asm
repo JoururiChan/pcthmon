@@ -3,13 +3,13 @@ EggMovePointers::
 	dw CReimuEggMoves      ; CReimu
 	dw NoEggMoves             ; Reimu
 	dw NoEggMoves             ; EReimu
-	dw CharmanderEggMoves     ; Charmander
-	dw NoEggMoves             ; Charmeleon
-	dw NoEggMoves             ; Charizard
-	dw SquirtleEggMoves       ; Squirtle
-	dw NoEggMoves             ; Wartortle
-	dw NoEggMoves             ; Blastoise
-	dw NoEggMoves             ; Caterpie
+	dw CMarisaEggMoves     ; CMarisa
+	dw NoEggMoves             ; Marisa
+	dw NoEggMoves             ; EMarisa
+	dw CSakuyaEggMoves       ; CSakuya
+	dw NoEggMoves             ; Sakuya
+	dw NoEggMoves             ; ESakuya
+	dw NoEggMoves             ; CGyoku
 	dw NoEggMoves             ; Metapod
 	dw NoEggMoves             ; Butterfree
 	dw NoEggMoves             ; Weedle

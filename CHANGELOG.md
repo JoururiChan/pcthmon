@@ -65,7 +65,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Gen III critical hit mechanics (ignore -Atk and +Def stat changes, don't ignore burn).
 * Add: Grass-type Pokémon are immune to PoisonPowder, Stun Spore, Sleep Powder, and Spore.
 * Add: Marowak is Ground/Ghost.
-* Add: Charizard is Fire/Dragon.
+* Add: EMarisa is Fire/Dragon.
 * Add: Yanmega is Bug/Dragon.
 * Add: Ampharos is Electric/Dragon.
 * Add: Noctowl is Ghost/Flying.

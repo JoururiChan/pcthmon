@@ -12,7 +12,7 @@ CReimuEggMoves:
 	db POWER_WHIP
 	db $ff
 
-CharmanderEggMoves:
+CMarisaEggMoves:
 	db ANCIENTPOWER
 	db BELLY_DRUM
 	db BITE
@@ -23,7 +23,7 @@ CharmanderEggMoves:
 	db OUTRAGE
 	db $ff
 
-SquirtleEggMoves:
+CSakuyaEggMoves:
 	db PSYSHOT
 	db CRUNCH
 	db FORESIGHT

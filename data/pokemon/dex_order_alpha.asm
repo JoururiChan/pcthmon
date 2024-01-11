@@ -19,17 +19,17 @@ AlphabeticalPokedexOrder:
 	dp BEEDRILL
 	dp BELLOSSOM
 	dp BELLSPROUT
-	dp BLASTOISE
+	dp ESAKUYA
 	dp BLISSEY
 	dp BONSLY
 	dp CREIMU
 	dp BUTTERFREE
-	dp CATERPIE
+	dp CGYOKU
 	dp CELEBI
 	dp CHANSEY
-	dp CHARIZARD
-	dp CHARMANDER
-	dp CHARMELEON
+	dp EMARISA
+	dp CMARISA
+	dp MARISA
 	dp CHIKORITA
 	dp CHINCHOU
 	dp CLEFABLE
@@ -240,7 +240,7 @@ AlphabeticalPokedexOrder:
 	dp SNUBBULL
 	dp SPEAROW
 	dp SPINARAK
-	dp SQUIRTLE
+	dp CSAKUYA
 	dp STANTLER
 	dp STARMIE
 	dp STARYU
@@ -276,7 +276,7 @@ AlphabeticalPokedexOrder:
 	dp VILEPLUME
 	dp VOLTORB
 	dp VULPIX
-	dp WARTORTLE
+	dp SAKUYA
 	dp WEAVILE
 	dp WEEDLE
 	dp WEEPINBELL

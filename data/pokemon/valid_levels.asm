@@ -4,13 +4,13 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  15 ; CReimu
 	db  16,  31 ; Reimu
 	db  32, 100 ; EReimu
-	db   1,  15 ; Charmander
-	db  16,  35 ; Charmeleon
-	db  36, 100 ; Charizard
-	db   1,  15 ; Squirtle
-	db  16,  35 ; Wartortle
-	db  36, 100 ; Blastoise
-	db   1,   6 ; Caterpie
+	db   1,  15 ; CMarisa
+	db  16,  35 ; Marisa
+	db  36, 100 ; EMarisa
+	db   1,  15 ; CSakuya
+	db  16,  35 ; Sakuya
+	db  36, 100 ; ESakuya
+	db   1,   6 ; CGyoku
 	db   7,   9 ; Metapod
 	db  10, 100 ; Butterfree
 	db   1,   6 ; Weedle

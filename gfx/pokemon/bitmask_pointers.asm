@@ -3,13 +3,13 @@ BitmasksPointers:
 	dw CReimuBitmasks
 	dw ReimuBitmasks
 	dw EReimuBitmasks
-	dw CharmanderBitmasks
-	dw CharmeleonBitmasks
-	dw CharizardBitmasks
-	dw SquirtleBitmasks
-	dw WartortleBitmasks
-	dw BlastoiseBitmasks
-	dw CaterpieBitmasks
+	dw CMarisaBitmasks
+	dw MarisaBitmasks
+	dw EMarisaBitmasks
+	dw CSakuyaBitmasks
+	dw SakuyaBitmasks
+	dw ESakuyaBitmasks
+	dw CGyokuBitmasks
 	dw MetapodBitmasks
 	dw ButterfreeBitmasks
 	dw WeedleBitmasks

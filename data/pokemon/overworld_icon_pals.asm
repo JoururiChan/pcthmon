@@ -7,13 +7,13 @@ OverworldMonIconColors::
 	iconpal TEAL, GREEN ; CREIMU
 	iconpal TEAL, GREEN ; REIMU
 	iconpal TEAL, GREEN ; EREIMU
-	iconpal ORANGE, PINK ; CHARMANDER
-	iconpal RED, PINK ; CHARMELEON
-	iconpal ORANGE, BLACK ; CHARIZARD
-	iconpal AZURE, TEAL ; SQUIRTLE
-	iconpal BLUE, TEAL ; WARTORTLE
-	iconpal BLUE, TEAL ; BLASTOISE
-	iconpal GREEN, PINK ; CATERPIE
+	iconpal ORANGE, PINK ; CMARISA
+	iconpal RED, PINK ; MARISA
+	iconpal ORANGE, BLACK ; EMARISA
+	iconpal AZURE, TEAL ; CSAKUYA
+	iconpal BLUE, TEAL ; SAKUYA
+	iconpal BLUE, TEAL ; ESAKUYA
+	iconpal GREEN, PINK ; CGYOKU
 	iconpal GREEN, ORANGE ; METAPOD
 	iconpal BLUE, PINK ; BUTTERFREE
 	iconpal BROWN, PINK ; WEEDLE

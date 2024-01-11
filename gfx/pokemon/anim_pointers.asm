@@ -3,13 +3,13 @@ AnimationPointers:
 	dw CReimuAnimation
 	dw ReimuAnimation
 	dw EReimuAnimation
-	dw CharmanderAnimation
-	dw CharmeleonAnimation
-	dw CharizardAnimation
-	dw SquirtleAnimation
-	dw WartortleAnimation
-	dw BlastoiseAnimation
-	dw CaterpieAnimation
+	dw CMarisaAnimation
+	dw MarisaAnimation
+	dw EMarisaAnimation
+	dw CSakuyaAnimation
+	dw SakuyaAnimation
+	dw ESakuyaAnimation
+	dw CGyokuAnimation
 	dw MetapodAnimation
 	dw ButterfreeAnimation
 	dw WeedleAnimation

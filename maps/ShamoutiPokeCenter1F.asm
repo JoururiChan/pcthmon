@@ -50,8 +50,8 @@ ShamoutiPokeCenter1FIvyScript:
 	verticalmenu
 	closewindow
 	ifequalfwd $1, .CReimu
-	ifequalfwd $2, .Charmander
-	ifequalfwd $3, .Squirtle
+	ifequalfwd $2, .CMarisa
+	ifequalfwd $3, .CSakuya
 	jumpthisopenedtext
 
 	text "Ivy: Hm, I thought"
@@ -71,24 +71,24 @@ ShamoutiPokeCenter1FIvyScript:
 	setevent EVENT_GOT_CREIMU_FROM_IVY
 	sjumpfwd .Finish
 
-.Charmander:
+.CMarisa:
 	writetext .ChoseKantoStarterText
 	promptbutton
 	waitsfx
-	givepoke CHARMANDER, PLAIN_FORM, 10, SITRUS_BERRY
+	givepoke CMARISA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
-	getmonname CHARMANDER, STRING_BUFFER_3
-	setevent EVENT_GOT_CHARMANDER_FROM_IVY
+	getmonname CMARISA, STRING_BUFFER_3
+	setevent EVENT_GOT_CMARISA_FROM_IVY
 	sjumpfwd .Finish
 
-.Squirtle:
+.CSakuya:
 	writetext .ChoseKantoStarterText
 	promptbutton
 	waitsfx
-	givepoke SQUIRTLE, PLAIN_FORM, 10, SITRUS_BERRY
+	givepoke CSAKUYA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
-	getmonname SQUIRTLE, STRING_BUFFER_3
-	setevent EVENT_GOT_SQUIRTLE_FROM_IVY
+	getmonname CSAKUYA, STRING_BUFFER_3
+	setevent EVENT_GOT_CSAKUYA_FROM_IVY
 .Finish:
 	writetext .GoodbyeText
 	waitbutton
@@ -211,6 +211,6 @@ ShamoutiPokeCenter1FIvyScript:
 	db $80 ; flags
 	db 4 ; items
 	db "CReimu@"
-	db "Charmander@"
-	db "Squirtle@"
+	db "CMarisa@"
+	db "CSakuya@"
 	db "Cancel@"

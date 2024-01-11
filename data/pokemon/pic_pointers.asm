@@ -7,13 +7,13 @@ PokemonPicPointers::
 	pics CReimu
 	pics Reimu
 	pics EReimu
-	pics Charmander
-	pics Charmeleon
-	pics Charizard
-	pics Squirtle
-	pics Wartortle
-	pics Blastoise
-	pics Caterpie
+	pics CMarisa
+	pics Marisa
+	pics EMarisa
+	pics CSakuya
+	pics Sakuya
+	pics ESakuya
+	pics CGyoku
 	pics Metapod
 	pics Butterfree
 	pics Weedle

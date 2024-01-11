@@ -4400,7 +4400,7 @@ Sfx_EggHatch:
 	sound_ret
 
 
-Sfx_GsIntroCharizardFireball:
+Sfx_GsIntroEMarisaFireball:
 	channel_count 1
 	channel 8, .Ch8
 

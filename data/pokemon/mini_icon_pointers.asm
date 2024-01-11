@@ -7,13 +7,13 @@ MiniIconPointers:
 	mini_icon CReimu
 	mini_icon Reimu
 	mini_icon EReimu
-	mini_icon Charmander
-	mini_icon Charmeleon
-	mini_icon Charizard
-	mini_icon Squirtle
-	mini_icon Wartortle
-	mini_icon Blastoise
-	mini_icon Caterpie
+	mini_icon CMarisa
+	mini_icon Marisa
+	mini_icon EMarisa
+	mini_icon CSakuya
+	mini_icon Sakuya
+	mini_icon ESakuya
+	mini_icon CGyoku
 	mini_icon Metapod
 	mini_icon Butterfree
 	mini_icon Weedle

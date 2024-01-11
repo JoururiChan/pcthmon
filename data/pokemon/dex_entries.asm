@@ -28,8 +28,8 @@ EReimuPokedexEntry::
 	next "release a pleasant"
 	next "fragrance.@"
 
-SECTION "CharmanderPokedexEntry", ROMX
-CharmanderPokedexEntry::
+SECTION "CMarisaPokedexEntry", ROMX
+CMarisaPokedexEntry::
 	db "Lizard@"
 	db   "If it's healthy,"
 	next "the flame on the"
@@ -38,8 +38,8 @@ CharmanderPokedexEntry::
 	next "ously, even if it"
 	next "gets a bit wet.@"
 
-SECTION "CharmeleonPokedexEntry", ROMX
-CharmeleonPokedexEntry::
+SECTION "MarisaPokedexEntry", ROMX
+MarisaPokedexEntry::
 	db "Flame@"
 	db   "If it becomes"
 	next "agitated during"
@@ -48,8 +48,8 @@ CharmeleonPokedexEntry::
 	next "incinerating its"
 	next "surroundings.@"
 
-SECTION "CharizardPokedexEntry", ROMX
-CharizardPokedexEntry::
+SECTION "EMarisaPokedexEntry", ROMX
+EMarisaPokedexEntry::
 	db "Flame@"
 	db   "It uses its wings"
 	next "to fly high. The"
@@ -58,8 +58,8 @@ CharizardPokedexEntry::
 	next "it gains exper-"
 	next "ience in battle.@"
 
-SECTION "SquirtlePokedexEntry", ROMX
-SquirtlePokedexEntry::
+SECTION "CSakuyaPokedexEntry", ROMX
+CSakuyaPokedexEntry::
 	db "Tiny Turtle@"
 	db   "When it feels"
 	next "threatened, it"
@@ -68,8 +68,8 @@ SquirtlePokedexEntry::
 	next "and sprays water"
 	next "from its mouth.@"
 
-SECTION "WartortlePokedexEntry", ROMX
-WartortlePokedexEntry::
+SECTION "SakuyaPokedexEntry", ROMX
+SakuyaPokedexEntry::
 	db "Turtle@"
 	db   "Its long, furry"
 	next "tail is a symbol"
@@ -78,8 +78,8 @@ WartortlePokedexEntry::
 	next "popular among"
 	next "older people.@"
 
-SECTION "BlastoisePokedexEntry", ROMX
-BlastoisePokedexEntry::
+SECTION "ESakuyaPokedexEntry", ROMX
+ESakuyaPokedexEntry::
 if DEF(FAITHFUL)
 	db "Shellfish@"
 else
@@ -92,8 +92,8 @@ endc
 	next "from the jets on"
 	next "its back.@"
 
-SECTION "CaterpiePokedexEntry", ROMX
-CaterpiePokedexEntry::
+SECTION "CGyokuPokedexEntry", ROMX
+CGyokuPokedexEntry::
 	db "Worm@"
 	db   "It crawls into"
 	next "foliage where it"

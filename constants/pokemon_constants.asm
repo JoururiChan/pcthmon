@@ -25,13 +25,13 @@
 	const CREIMU  ; 01
 	const REIMU    ; 02
 	const EREIMU   ; 03
-	const CHARMANDER ; 04
-	const CHARMELEON ; 05
-	const CHARIZARD  ; 06
-	const SQUIRTLE   ; 07
-	const WARTORTLE  ; 08
-	const BLASTOISE  ; 09
-	const CATERPIE   ; 0a
+	const CMARISA ; 04
+	const MARISA ; 05
+	const EMARISA  ; 06
+	const CSAKUYA   ; 07
+	const SAKUYA  ; 08
+	const ESAKUYA  ; 09
+	const CGYOKU   ; 0a
 	const METAPOD    ; 0b
 	const BUTTERFREE ; 0c
 	const WEEDLE     ; 0d

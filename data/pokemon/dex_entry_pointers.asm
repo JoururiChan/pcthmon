@@ -4,13 +4,13 @@ PokedexDataPointerTable:
 	dba CReimuPokedexEntry
 	dba ReimuPokedexEntry
 	dba EReimuPokedexEntry
-	dba CharmanderPokedexEntry
-	dba CharmeleonPokedexEntry
-	dba CharizardPokedexEntry
-	dba SquirtlePokedexEntry
-	dba WartortlePokedexEntry
-	dba BlastoisePokedexEntry
-	dba CaterpiePokedexEntry
+	dba CMarisaPokedexEntry
+	dba MarisaPokedexEntry
+	dba EMarisaPokedexEntry
+	dba CSakuyaPokedexEntry
+	dba SakuyaPokedexEntry
+	dba ESakuyaPokedexEntry
+	dba CGyokuPokedexEntry
 	dba MetapodPokedexEntry
 	dba ButterfreePokedexEntry
 	dba WeedlePokedexEntry

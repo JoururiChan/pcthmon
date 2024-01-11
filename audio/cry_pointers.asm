@@ -6,7 +6,7 @@ Cries:
 	fardw Cry_Nidoran_F
 	fardw Cry_Slowpoke
 	fardw Cry_Kangaskhan
-	fardw Cry_Charmander
+	fardw Cry_CMarisa
 	fardw Cry_Grimer
 	fardw Cry_Voltorb
 	fardw Cry_Muk
@@ -21,17 +21,17 @@ Cries:
 	fardw Cry_Farfetch_d
 	fardw Cry_Rhydon
 	fardw Cry_Golem
-	fardw Cry_Blastoise
+	fardw Cry_ESakuya
 	fardw Cry_Pidgeotto
 	fardw Cry_Weedle
-	fardw Cry_Caterpie
+	fardw Cry_CGyoku
 	fardw Cry_Ekans
 	fardw Cry_Shellder
 	fardw Cry_Clefairy
 	fardw Cry_Venonat
 	fardw Cry_Lapras
 	fardw Cry_Metapod
-	fardw Cry_Squirtle
+	fardw Cry_CSakuya
 	fardw Cry_Paras
 	fardw Cry_Growlithe
 	fardw Cry_Krabby

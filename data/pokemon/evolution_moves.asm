@@ -3,13 +3,13 @@ EvolutionMoves::
 	db NO_MOVE      ; CREIMU
 	db NO_MOVE      ; REIMU
 	db PETAL_DANCE  ; EREIMU
-	db NO_MOVE      ; CHARMANDER
-	db NO_MOVE      ; CHARMELEON
-	db WING_ATTACK  ; CHARIZARD
-	db NO_MOVE      ; SQUIRTLE
-	db NO_MOVE      ; WARTORTLE
-	db FLASH_CANNON ; BLASTOISE
-	db NO_MOVE      ; CATERPIE
+	db NO_MOVE      ; CMARISA
+	db NO_MOVE      ; MARISA
+	db WING_ATTACK  ; EMARISA
+	db NO_MOVE      ; CSAKUYA
+	db NO_MOVE      ; SAKUYA
+	db FLASH_CANNON ; ESAKUYA
+	db NO_MOVE      ; CGYOKU
 	db DEFENSE_CURL ; METAPOD
 	db GUST         ; BUTTERFREE
 	db NO_MOVE      ; WEEDLE

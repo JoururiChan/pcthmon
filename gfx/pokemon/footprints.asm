@@ -4,7 +4,7 @@ VenomothFootprint::
 KabutoFootprint::
 SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lz"
 
-CaterpieFootprint::
+CGyokuFootprint::
 WeedleFootprint::
 StaryuFootprint::
 StarmieFootprint::
@@ -85,12 +85,12 @@ ZubatFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 CReimuFootprint:: INCBIN "gfx/footprints/creimu.1bpp.lz"
 ReimuFootprint:: INCBIN "gfx/footprints/reimu.1bpp.lz"
 EReimuFootprint:: INCBIN "gfx/footprints/ereimu.1bpp.lz"
-CharmanderFootprint:: INCBIN "gfx/footprints/charmander.1bpp.lz"
-CharmeleonFootprint:: INCBIN "gfx/footprints/charmeleon.1bpp.lz"
-CharizardFootprint:: INCBIN "gfx/footprints/charizard.1bpp.lz"
-SquirtleFootprint:: INCBIN "gfx/footprints/squirtle.1bpp.lz"
-WartortleFootprint:: INCBIN "gfx/footprints/wartortle.1bpp.lz"
-BlastoiseFootprint:: INCBIN "gfx/footprints/blastoise.1bpp.lz"
+CMarisaFootprint:: INCBIN "gfx/footprints/cmarisa.1bpp.lz"
+MarisaFootprint:: INCBIN "gfx/footprints/marisa.1bpp.lz"
+EMarisaFootprint:: INCBIN "gfx/footprints/emarisa.1bpp.lz"
+CSakuyaFootprint:: INCBIN "gfx/footprints/csakuya.1bpp.lz"
+SakuyaFootprint:: INCBIN "gfx/footprints/sakuya.1bpp.lz"
+ESakuyaFootprint:: INCBIN "gfx/footprints/esakuya.1bpp.lz"
 ButterfreeFootprint:: INCBIN "gfx/footprints/butterfree.1bpp.lz"
 BeedrillFootprint:: INCBIN "gfx/footprints/beedrill.1bpp.lz"
 PidgeottoFootprint:: INCBIN "gfx/footprints/pidgeotto.1bpp.lz"

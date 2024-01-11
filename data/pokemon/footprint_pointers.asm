@@ -3,13 +3,13 @@ FootprintPointers::
 	dw CReimuFootprint
 	dw ReimuFootprint
 	dw EReimuFootprint
-	dw CharmanderFootprint
-	dw CharmeleonFootprint
-	dw CharizardFootprint
-	dw SquirtleFootprint
-	dw WartortleFootprint
-	dw BlastoiseFootprint
-	dw CaterpieFootprint
+	dw CMarisaFootprint
+	dw MarisaFootprint
+	dw EMarisaFootprint
+	dw CSakuyaFootprint
+	dw SakuyaFootprint
+	dw ESakuyaFootprint
+	dw CGyokuFootprint
 	dw MetapodFootprint
 	dw ButterfreeFootprint
 	dw WeedleFootprint

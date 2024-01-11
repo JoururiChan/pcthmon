@@ -44,8 +44,8 @@ DecorationAttributes:
 	decoration DECO_DOLL,     CLEFAIRY,          SET_UP_DOLL,        EVENT_DECO_CLEFAIRY_DOLL,           SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     JIGGLYPUFF,        SET_UP_DOLL,        EVENT_DECO_JIGGLYPUFF_DOLL,         SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CREIMU,         SET_UP_DOLL,        EVENT_DECO_CREIMU_DOLL,          SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     CHARMANDER,        SET_UP_DOLL,        EVENT_DECO_CHARMANDER_DOLL,         SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     SQUIRTLE,          SET_UP_DOLL,        EVENT_DECO_SQUIRTLE_DOLL,           SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     CMARISA,        SET_UP_DOLL,        EVENT_DECO_CMARISA_DOLL,         SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     CSAKUYA,          SET_UP_DOLL,        EVENT_DECO_CSAKUYA_DOLL,           SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CHIKORITA,         SET_UP_DOLL,        EVENT_DECO_CHIKORITA_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CYNDAQUIL,         SET_UP_DOLL,        EVENT_DECO_CYNDAQUIL_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     TOTODILE,          SET_UP_DOLL,        EVENT_DECO_TOTODILE_DOLL,           SPRITE_MON_DOLL_1

@@ -227,12 +227,12 @@ LizBugCatchingContestGossipText:
 
 	para "I did once, but"
 	line "all I could catch"
-	cont "was a Caterpie."
+	cont "was a CGyoku."
 
 	para "But guess what!"
 
 	para "I won with that"
-	line "Caterpie. Isn't"
+	line "CGyoku. Isn't"
 	cont "that great?"
 	done
 

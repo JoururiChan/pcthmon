@@ -56,7 +56,7 @@ PokefanmTrevorBeatenText:
 GenericTrainerPokefanmCarter:
 	generictrainer POKEFANM, CARTER, EVENT_BEAT_POKEFANM_CARTER, PokefanmCarterSeenText, PokefanmCarterBeatenText
 
-	text "Squirtle, Charman-"
+	text "CSakuya, Charman-"
 	line "der and CReimu…"
 
 	para "I think that's a"

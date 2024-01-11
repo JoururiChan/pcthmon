@@ -16,40 +16,40 @@ EReimuMini::     INCBIN "gfx/minis/ereimu.2bpp.lz"
 EReimuMiniMask:: INCBIN "gfx/minis/ereimu_mask.1bpp.lz"
 EReimuIcon::     INCBIN "gfx/icons/ereimu.2bpp.lz"
 
-SECTION "Charmander Mini Icon", ROMX
-CharmanderMini::     INCBIN "gfx/minis/charmander.2bpp.lz"
-CharmanderMiniMask:: INCBIN "gfx/minis/charmander_mask.1bpp.lz"
-CharmanderIcon::     INCBIN "gfx/icons/charmander.2bpp.lz"
+SECTION "CMarisa Mini Icon", ROMX
+CMarisaMini::     INCBIN "gfx/minis/cmarisa.2bpp.lz"
+CMarisaMiniMask:: INCBIN "gfx/minis/cmarisa_mask.1bpp.lz"
+CMarisaIcon::     INCBIN "gfx/icons/cmarisa.2bpp.lz"
 
-SECTION "Charmeleon Mini Icon", ROMX
-CharmeleonMini::     INCBIN "gfx/minis/charmeleon.2bpp.lz"
-CharmeleonMiniMask:: INCBIN "gfx/minis/charmeleon_mask.1bpp.lz"
-CharmeleonIcon::     INCBIN "gfx/icons/charmeleon.2bpp.lz"
+SECTION "Marisa Mini Icon", ROMX
+MarisaMini::     INCBIN "gfx/minis/marisa.2bpp.lz"
+MarisaMiniMask:: INCBIN "gfx/minis/marisa_mask.1bpp.lz"
+MarisaIcon::     INCBIN "gfx/icons/marisa.2bpp.lz"
 
-SECTION "Charizard Mini Icon", ROMX
-CharizardMini::     INCBIN "gfx/minis/charizard.2bpp.lz"
-CharizardMiniMask:: INCBIN "gfx/minis/charizard_mask.1bpp.lz"
-CharizardIcon::     INCBIN "gfx/icons/charizard.2bpp.lz"
+SECTION "EMarisa Mini Icon", ROMX
+EMarisaMini::     INCBIN "gfx/minis/emarisa.2bpp.lz"
+EMarisaMiniMask:: INCBIN "gfx/minis/emarisa_mask.1bpp.lz"
+EMarisaIcon::     INCBIN "gfx/icons/emarisa.2bpp.lz"
 
-SECTION "Squirtle Mini Icon", ROMX
-SquirtleMini::     INCBIN "gfx/minis/squirtle.2bpp.lz"
-SquirtleMiniMask:: INCBIN "gfx/minis/squirtle_mask.1bpp.lz"
-SquirtleIcon::     INCBIN "gfx/icons/squirtle.2bpp.lz"
+SECTION "CSakuya Mini Icon", ROMX
+CSakuyaMini::     INCBIN "gfx/minis/csakuya.2bpp.lz"
+CSakuyaMiniMask:: INCBIN "gfx/minis/csakuya_mask.1bpp.lz"
+CSakuyaIcon::     INCBIN "gfx/icons/csakuya.2bpp.lz"
 
-SECTION "Wartortle Mini Icon", ROMX
-WartortleMini::     INCBIN "gfx/minis/wartortle.2bpp.lz"
-WartortleMiniMask:: INCBIN "gfx/minis/wartortle_mask.1bpp.lz"
-WartortleIcon::     INCBIN "gfx/icons/wartortle.2bpp.lz"
+SECTION "Sakuya Mini Icon", ROMX
+SakuyaMini::     INCBIN "gfx/minis/sakuya.2bpp.lz"
+SakuyaMiniMask:: INCBIN "gfx/minis/sakuya_mask.1bpp.lz"
+SakuyaIcon::     INCBIN "gfx/icons/sakuya.2bpp.lz"
 
-SECTION "Blastoise Mini Icon", ROMX
-BlastoiseMini::     INCBIN "gfx/minis/blastoise.2bpp.lz"
-BlastoiseMiniMask:: INCBIN "gfx/minis/blastoise_mask.1bpp.lz"
-BlastoiseIcon::     INCBIN "gfx/icons/blastoise.2bpp.lz"
+SECTION "ESakuya Mini Icon", ROMX
+ESakuyaMini::     INCBIN "gfx/minis/esakuya.2bpp.lz"
+ESakuyaMiniMask:: INCBIN "gfx/minis/esakuya_mask.1bpp.lz"
+ESakuyaIcon::     INCBIN "gfx/icons/esakuya.2bpp.lz"
 
-SECTION "Caterpie Mini Icon", ROMX
-CaterpieMini::     INCBIN "gfx/minis/caterpie.2bpp.lz"
-CaterpieMiniMask:: INCBIN "gfx/minis/caterpie_mask.1bpp.lz"
-CaterpieIcon::     INCBIN "gfx/icons/caterpie.2bpp.lz"
+SECTION "CGyoku Mini Icon", ROMX
+CGyokuMini::     INCBIN "gfx/minis/cgyoku.2bpp.lz"
+CGyokuMiniMask:: INCBIN "gfx/minis/cgyoku_mask.1bpp.lz"
+CGyokuIcon::     INCBIN "gfx/icons/cgyoku.2bpp.lz"
 
 SECTION "Metapod Mini Icon", ROMX
 MetapodMini::     INCBIN "gfx/minis/metapod.2bpp.lz"

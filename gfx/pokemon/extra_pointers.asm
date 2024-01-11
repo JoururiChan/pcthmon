@@ -3,13 +3,13 @@ AnimationExtraPointers:
 	dw CReimuAnimationExtra
 	dw ReimuAnimationExtra
 	dw EReimuAnimationExtra
-	dw CharmanderAnimationExtra
-	dw CharmeleonAnimationExtra
-	dw CharizardAnimationExtra
-	dw SquirtleAnimationExtra
-	dw WartortleAnimationExtra
-	dw BlastoiseAnimationExtra
-	dw CaterpieAnimationExtra
+	dw CMarisaAnimationExtra
+	dw MarisaAnimationExtra
+	dw EMarisaAnimationExtra
+	dw CSakuyaAnimationExtra
+	dw SakuyaAnimationExtra
+	dw ESakuyaAnimationExtra
+	dw CGyokuAnimationExtra
 	dw MetapodAnimationExtra
 	dw ButterfreeAnimationExtra
 	dw WeedleAnimationExtra

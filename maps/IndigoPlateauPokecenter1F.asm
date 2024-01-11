@@ -359,12 +359,12 @@ IndigoPlateauYellowScript:
 	promptbutton
 	waitsfx
 	checkevent EVENT_GOT_CREIMU_FROM_IVY
-	iftruefwd .Squirtle
-	checkevent EVENT_GOT_CHARMANDER_FROM_IVY
+	iftruefwd .CSakuya
+	checkevent EVENT_GOT_CMARISA_FROM_IVY
 	iftruefwd .CReimu
-	givepoke CHARMANDER, PLAIN_FORM, 10, SITRUS_BERRY
+	givepoke CMARISA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	getmonname CHARMANDER, STRING_BUFFER_3
+	getmonname CMARISA, STRING_BUFFER_3
 	sjumpfwd .Finish
 
 .CReimu:
@@ -373,10 +373,10 @@ IndigoPlateauYellowScript:
 	getmonname CREIMU, STRING_BUFFER_3
 	sjumpfwd .Finish
 
-.Squirtle:
-	givepoke SQUIRTLE, PLAIN_FORM, 10, SITRUS_BERRY
+.CSakuya:
+	givepoke CSAKUYA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	getmonname SQUIRTLE, STRING_BUFFER_3
+	getmonname CSAKUYA, STRING_BUFFER_3
 .Finish:
 	writetext .GoodbyeText
 	waitbutton

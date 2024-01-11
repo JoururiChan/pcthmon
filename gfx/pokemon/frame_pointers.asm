@@ -3,13 +3,13 @@ FramesPointers:
 	dw CReimuFrames
 	dw ReimuFrames
 	dw EReimuFrames
-	dw CharmanderFrames
-	dw CharmeleonFrames
-	dw CharizardFrames
-	dw SquirtleFrames
-	dw WartortleFrames
-	dw BlastoiseFrames
-	dw CaterpieFrames
+	dw CMarisaFrames
+	dw MarisaFrames
+	dw EMarisaFrames
+	dw CSakuyaFrames
+	dw SakuyaFrames
+	dw ESakuyaFrames
+	dw CGyokuFrames
 	dw MetapodFrames
 	dw ButterfreeFrames
 	dw WeedleFrames

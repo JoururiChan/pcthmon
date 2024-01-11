@@ -10,13 +10,13 @@ PokemonBodyData:
 	body_data   7,   69, QUADRUPED,    GREEN  ; CREIMU
 	body_data  10,  130, QUADRUPED,    GREEN  ; REIMU
 	body_data  20, 1000, QUADRUPED,    GREEN  ; EREIMU
-	body_data   6,   85, BIPEDAL_TAIL, RED    ; CHARMANDER
-	body_data  11,  190, BIPEDAL_TAIL, RED    ; CHARMELEON
-	body_data  17,  905, BIPEDAL_TAIL, RED    ; CHARIZARD
-	body_data   5,   90, BIPEDAL_TAIL, BLUE   ; SQUIRTLE
-	body_data  10,  225, BIPEDAL_TAIL, BLUE   ; WARTORTLE
-	body_data  16,  855, BIPEDAL_TAIL, BLUE   ; BLASTOISE
-	body_data   3,   29, INSECTOID,    GREEN  ; CATERPIE
+	body_data   6,   85, BIPEDAL_TAIL, RED    ; CMARISA
+	body_data  11,  190, BIPEDAL_TAIL, RED    ; MARISA
+	body_data  17,  905, BIPEDAL_TAIL, RED    ; EMARISA
+	body_data   5,   90, BIPEDAL_TAIL, BLUE   ; CSAKUYA
+	body_data  10,  225, BIPEDAL_TAIL, BLUE   ; SAKUYA
+	body_data  16,  855, BIPEDAL_TAIL, BLUE   ; ESAKUYA
+	body_data   3,   29, INSECTOID,    GREEN  ; CGYOKU
 	body_data   7,   99, SERPENTINE,   GREEN  ; METAPOD
 	body_data  11,  320, MULTIWINGS,   WHITE  ; BUTTERFREE
 	body_data   3,   32, INSECTOID,    BROWN  ; WEEDLE

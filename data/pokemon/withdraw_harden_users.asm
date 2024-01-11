@@ -2,9 +2,9 @@
 
 WithdrawUsers:
 ; Defense Curl += Withdraw
-	dp SQUIRTLE
-	dp WARTORTLE
-	dp BLASTOISE
+	dp CSAKUYA
+	dp SAKUYA
+	dp ESAKUYA
 	dp SLOWBRO
 	dp SHELLDER
 	dp CLOYSTER
