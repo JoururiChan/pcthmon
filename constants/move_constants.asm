@@ -45,9 +45,9 @@
 	const THRASH       ; $25
 	const DOUBLE_EDGE  ; $26
 	const HAIL         ; $27
-	const POISON_STING ; $28
+	const SEAL_NEEDLE ; $28
 	const U_TURN       ; $29
-	const PIN_MISSILE  ; $2a
+	const PWJ_NEEDLE  ; $2a
 	const LEER         ; $2b
 	const BITE         ; $2c
 	const GROWL        ; $2d
@@ -58,7 +58,7 @@
 	const DISABLE      ; $32
 	const ACID         ; $33
 	const EMBER        ; $34
-	const FLAMETHROWER ; $35
+	const METEOR_FALL ; $35
 	const CALM_MIND    ; $36
 	const WATER_GUN    ; $37
 	const HYDRO_PUMP   ; $38
@@ -68,7 +68,7 @@
 	const PSYBEAM      ; $3c
 	const BUBBLE_BEAM  ; $3d
 	const AURORA_BEAM  ; $3e
-	const HYPER_BEAM   ; $3f
+	const MASTER_SPARK   ; $3f
 	const PECK         ; $40
 	const DRILL_PECK   ; $41
 	const CLOSE_COMBAT ; $42
@@ -82,7 +82,7 @@
 	const GROWTH       ; $4a
 	const RAZOR_LEAF   ; $4b
 	const SOLAR_BEAM   ; $4c
-	const POISONPOWDER ; $4d
+	const TOXIC_GAS ; $4d
 	const STUN_SPORE   ; $4e
 	const SLEEP_POWDER ; $4f
 	const PETAL_DANCE  ; $50
@@ -98,10 +98,10 @@
 	const AVALANCHE    ; $5a
 	const DIG          ; $5b
 	const TOXIC        ; $5c
-	const CONFUSION    ; $5d
+	const PSYSHOT    ; $5d
 	const PSYCHIC_M    ; $5e
 	const HYPNOSIS     ; $5f
-	const HONE_CLAWS   ; $60
+	const HONE_TOOLS   ; $60
 	const AGILITY      ; $61
 	const QUICK_ATTACK ; $62
 	const RAGE         ; $63
@@ -148,7 +148,7 @@
 	const BULLET_PUNCH ; $8c
 	const LEECH_LIFE   ; $8d
 	const DRAIN_KISS   ; $8e
-	const BRAVE_BIRD   ; $8f
+	const DIVE_KICK   ; $8f
 	const TRANSFORM    ; $90
 	const WATER_PULSE  ; $91
 	const DIZZY_PUNCH  ; $92
@@ -203,7 +203,7 @@
 	const PERISH_SONG  ; $c3
 	const ICY_WIND     ; $c4
 	const POWER_GEM    ; $c5
-	const WILD_CHARGE  ; $c6
+	const BLAZE_STAR  ; $c6
 	const POWER_WHIP   ; $c7
 	const OUTRAGE      ; $c8
 	const SANDSTORM    ; $c9
@@ -225,7 +225,7 @@
 	const PSYSTRIKE    ; $d9
 	const BUG_BUZZ     ; $da
 	const SAFEGUARD    ; $db
-	const PAIN_SPLIT   ; $dc
+	const LIFE_BALANCE   ; $dc
 	const SACRED_FIRE  ; $dd
 	const MAGNITUDE    ; $de
 	const DYNAMICPUNCH ; $df
@@ -298,7 +298,7 @@ DEF NUM_ATTACKS EQU const_value - 1
 	const ANIM_MISS              ; $115
 	const ANIM_ENEMY_DAMAGE      ; $116
 	const ANIM_PLAYER_DAMAGE     ; $117
-	const ANIM_HIT_CONFUSION     ; $118
+	const ANIM_HIT_PSYSHOT     ; $118
 	const ANIM_HELD_ITEM_TRIGGER ; $119
 
 DEF ANIM_AFFECTION EQU ANIM_IN_LOVE ; just an alias for now
@@ -310,4 +310,4 @@ DEF FIRST_UNCONDITIONAL_ANIM EQU ANIM_THROW_POKE_BALL
 	const BATTLEANIM_NONE
 	const BATTLEANIM_ENEMY_DAMAGE
 	const BATTLEANIM_PLAYER_DAMAGE
-	const BATTLEANIM_HIT_CONFUSION
+	const BATTLEANIM_HIT_PSYSHOT

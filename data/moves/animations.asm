@@ -987,21 +987,21 @@ BattleAnim_Flamethrower:
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_1gfx ANIM_GFX_FIRE
 	anim_sound 6, 2, SFX_EMBER
-	anim_obj ANIM_OBJ_FLAMETHROWER,   8, 0,  11, 4, $3
+	anim_obj ANIM_OBJ_METEOR_FALL,   8, 0,  11, 4, $3
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLAMETHROWER,   9, 3,  10, 6, $5
+	anim_obj ANIM_OBJ_METEOR_FALL,   9, 3,  10, 6, $5
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLAMETHROWER,  10, 5,  10, 1, $7
+	anim_obj ANIM_OBJ_METEOR_FALL,  10, 5,  10, 1, $7
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLAMETHROWER,  12, 0,   9, 4, $9
+	anim_obj ANIM_OBJ_METEOR_FALL,  12, 0,   9, 4, $9
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLAMETHROWER,  13, 2,   8, 7, $b
+	anim_obj ANIM_OBJ_METEOR_FALL,  13, 2,   8, 7, $b
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLAMETHROWER,  14, 4,   8, 2, $c
+	anim_obj ANIM_OBJ_METEOR_FALL,  14, 4,   8, 2, $c
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLAMETHROWER,  15, 6,   7, 5, $a
+	anim_obj ANIM_OBJ_METEOR_FALL,  15, 6,   7, 5, $a
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLAMETHROWER, -15, 0,   7, 0, $8
+	anim_obj ANIM_OBJ_METEOR_FALL, -15, 0,   7, 0, $8
 	anim_wait 16
 .loop
 	anim_sound 0, 1, SFX_EMBER
@@ -2565,7 +2565,7 @@ BattleAnim_PoisonSting:
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_obj ANIM_OBJ_NEEDLE,   8, 0,  11, 4, $14
 	anim_wait 16
-	anim_sound 0, 1, SFX_POISON_STING
+	anim_sound 0, 1, SFX_SEAL_NEEDLE
 	anim_obj ANIM_OBJ_HIT_SMALL, -15, 0,   7, 0, $0
 	anim_wait 16
 	anim_ret
@@ -2590,14 +2590,14 @@ BattleAnim_PinMissile:
 	anim_obj ANIM_OBJ_NEEDLE,   8, 0,  11, 4, $28
 	anim_wait 8
 	anim_obj ANIM_OBJ_NEEDLE,   7, 0,  10, 4, $28
-	anim_sound 0, 1, SFX_POISON_STING
+	anim_sound 0, 1, SFX_SEAL_NEEDLE
 	anim_obj ANIM_OBJ_HIT_SMALL, -15, 0,   7, 0, $0
 	anim_wait 8
 	anim_obj ANIM_OBJ_NEEDLE,   6, 4,  11, 0, $28
-	anim_sound 0, 1, SFX_POISON_STING
+	anim_sound 0, 1, SFX_SEAL_NEEDLE
 	anim_obj ANIM_OBJ_HIT_SMALL,  16, 0,   6, 0, $0
 	anim_wait 8
-	anim_sound 0, 1, SFX_POISON_STING
+	anim_sound 0, 1, SFX_SEAL_NEEDLE
 	anim_obj ANIM_OBJ_HIT_SMALL, -16, 4,   6, 4, $0
 	anim_loop 3, .loop
 	anim_wait 16
@@ -2937,11 +2937,11 @@ BattleAnim_BraveBird:
 	anim_bgeffect ANIM_BG_CYCLE_BGPALS_INVERTED, $0, $4, $0
 	anim_obp0 $30
 	anim_sound 0, 0, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_BRAVE_BIRD, 48, 88, $0
+	anim_obj ANIM_OBJ_DIVE_KICK, 48, 88, $0
 	anim_wait 16
 	anim_clearobjs
-	anim_sound 0, 0, SFX_HYPER_BEAM
-	anim_obj ANIM_OBJ_BRAVE_BIRD, 48, 88, $18
+	anim_sound 0, 0, SFX_MASTER_SPARK
+	anim_obj ANIM_OBJ_DIVE_KICK, 48, 88, $18
 	anim_wait 16
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
 	anim_wait 64
@@ -3061,7 +3061,7 @@ BattleAnim_LeechLife:
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_obj ANIM_OBJ_NEEDLE,   8, 0,  11, 4, $14
 	anim_wait 16
-	anim_sound 0, 1, SFX_POISON_STING
+	anim_sound 0, 1, SFX_SEAL_NEEDLE
 	anim_obj ANIM_OBJ_HIT_SMALL, -15, 0,   7, 0, $0
 	anim_wait 16
 	anim_1gfx ANIM_GFX_CHARGE
@@ -3202,15 +3202,15 @@ BattleAnim_HoneClaws:
 	anim_1gfx ANIM_GFX_CUT
 .loop
 	anim_sound 0, 1, SFX_SCRATCH
-	anim_obj ANIM_OBJ_HONE_CLAWS_LEFT,   8, 0,  11, 0, $0
-	anim_obj ANIM_OBJ_HONE_CLAWS_LEFT,   8, 0,  10, 1, $0
-	anim_obj ANIM_OBJ_HONE_CLAWS_LEFT,   8, 0,  9, 2, $0
+	anim_obj ANIM_OBJ_HONE_TOOLS_LEFT,   8, 0,  11, 0, $0
+	anim_obj ANIM_OBJ_HONE_TOOLS_LEFT,   8, 0,  10, 1, $0
+	anim_obj ANIM_OBJ_HONE_TOOLS_LEFT,   8, 0,  9, 2, $0
 	anim_sound 0, 1, SFX_SCRATCH
 	anim_wait 32
 	anim_sound 0, 1, SFX_SCRATCH
-	anim_obj ANIM_OBJ_HONE_CLAWS_RIGHT,  3, 0,  11, 0, $0
-	anim_obj ANIM_OBJ_HONE_CLAWS_RIGHT,  3, 0,  10, 1, $0
-	anim_obj ANIM_OBJ_HONE_CLAWS_RIGHT,  3, 0,  9, 2, $0
+	anim_obj ANIM_OBJ_HONE_TOOLS_RIGHT,  3, 0,  11, 0, $0
+	anim_obj ANIM_OBJ_HONE_TOOLS_RIGHT,  3, 0,  10, 1, $0
+	anim_obj ANIM_OBJ_HONE_TOOLS_RIGHT,  3, 0,  9, 2, $0
 	anim_sound 0, 1, SFX_SCRATCH
 	anim_wait 32
 	anim_loop 2, .loop
@@ -3700,7 +3700,7 @@ BattleAnim_Curse:
 	anim_wait 32
 	anim_incobj 1
 	anim_wait 12
-	anim_sound 0, 0, SFX_POISON_STING
+	anim_sound 0, 0, SFX_SEAL_NEEDLE
 	anim_obj ANIM_OBJ_HIT,   5, 4,  12, 0, $0
 	anim_wait 16
 	anim_ret
@@ -3728,13 +3728,13 @@ BattleAnim_Aeroblast:
 	anim_sound 0, 0, SFX_AEROBLAST
 	anim_obj ANIM_OBJ_AEROBLAST,   9, 0,  11, 0, $0
 	anim_wait 32
-	anim_sound 0, 0, SFX_HYPER_BEAM
+	anim_sound 0, 0, SFX_MASTER_SPARK
 	anim_obj ANIM_OBJ_BEAM,  10, 0,  10, 4, $0
 	anim_wait 2
-	anim_sound 0, 1, SFX_HYPER_BEAM
+	anim_sound 0, 1, SFX_MASTER_SPARK
 	anim_obj ANIM_OBJ_BEAM,  12, 0,   9, 4, $0
 	anim_wait 2
-	anim_sound 0, 1, SFX_HYPER_BEAM
+	anim_sound 0, 1, SFX_MASTER_SPARK
 	anim_obj ANIM_OBJ_BEAM,  14, 0,   8, 4, $0
 	anim_obj ANIM_OBJ_BEAM_TIP,  15, 6,   7, 6, $0
 	anim_wait 48
@@ -5540,16 +5540,16 @@ BattleAnimSub_WarpAway:
 	anim_ret
 
 BattleAnimSub_Beam:
-	anim_sound 0, 0, SFX_HYPER_BEAM
+	anim_sound 0, 0, SFX_MASTER_SPARK
 	anim_obj ANIM_OBJ_BEAM,   8, 0,  11, 4, $0
 	anim_wait 4
-	anim_sound 0, 0, SFX_HYPER_BEAM
+	anim_sound 0, 0, SFX_MASTER_SPARK
 	anim_obj ANIM_OBJ_BEAM,  10, 0,  10, 4, $0
 	anim_wait 4
-	anim_sound 0, 1, SFX_HYPER_BEAM
+	anim_sound 0, 1, SFX_MASTER_SPARK
 	anim_obj ANIM_OBJ_BEAM,  12, 0,   9, 4, $0
 	anim_wait 4
-	anim_sound 0, 1, SFX_HYPER_BEAM
+	anim_sound 0, 1, SFX_MASTER_SPARK
 	anim_obj ANIM_OBJ_BEAM,  14, 0,   8, 4, $0
 	anim_obj ANIM_OBJ_BEAM_TIP,  15, 6,   7, 6, $0
 	anim_ret
@@ -6038,11 +6038,11 @@ BattleAnim_StatDown:
 
 ;BattleAnim_Twineedle: ; removed
 ;	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
-;	anim_sound 0, 1, SFX_POISON_STING
+;	anim_sound 0, 1, SFX_SEAL_NEEDLE
 ;	anim_obj ANIM_OBJ_NEEDLE,   8, 0,  11, 4, $14
 ;	anim_obj ANIM_OBJ_NEEDLE,   7, 0,  10, 4, $14
 ;	anim_wait 16
-;	anim_sound 0, 1, SFX_POISON_STING
+;	anim_sound 0, 1, SFX_SEAL_NEEDLE
 ;	anim_obj ANIM_OBJ_HIT_SMALL, -15, 0,   7, 0, $0
 ;	anim_obj ANIM_OBJ_HIT_SMALL,  16, 0,   6, 0, $0
 ;	anim_wait 16
@@ -6685,12 +6685,12 @@ BattleAnim_StatDown:
 ;	anim_1gfx ANIM_GFX_SKY_ATTACK
 ;	anim_bgeffect ANIM_BG_REMOVE_MON, $0, $1, $0
 ;	anim_wait 32
-;	anim_sound 0, 0, SFX_HYPER_BEAM
+;	anim_sound 0, 0, SFX_MASTER_SPARK
 ;	anim_obj ANIM_OBJ_SKY_ATTACK,   6, 0,  11, 0, $40
 ;	anim_wait 64
 ;	anim_incobj 1
 ;	anim_wait 21
-;	anim_sound 0, 1, SFX_HYPER_BEAM
+;	anim_sound 0, 1, SFX_MASTER_SPARK
 ;	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
 ;	anim_wait 64
 ;	anim_incobj 1

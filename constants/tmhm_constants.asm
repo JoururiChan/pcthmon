@@ -29,10 +29,10 @@ ENDM
 	add_tm VENOSHOCK    ; $08
 	add_tm HIDDEN_POWER ; $09
 	add_tm SUNNY_DAY    ; $0a
-	add_tm HONE_CLAWS   ; $0b
+	add_tm HONE_TOOLS   ; $0b
 	add_tm ICE_BEAM     ; $0c
 	add_tm BLIZZARD     ; $0d
-	add_tm HYPER_BEAM   ; $0e
+	add_tm MASTER_SPARK   ; $0e
 	add_tm LIGHT_SCREEN ; $0f
 	add_tm PROTECT      ; $10
 	add_tm RAIN_DANCE   ; $11
@@ -56,7 +56,7 @@ endc
 	add_tm DOUBLE_TEAM  ; $1f
 	add_tm REFLECT      ; $20
 	add_tm FLASH_CANNON ; $21
-	add_tm FLAMETHROWER ; $22
+	add_tm METEOR_FALL ; $22
 	add_tm SLUDGE_BOMB  ; $23
 	add_tm SANDSTORM    ; $24
 	add_tm FIRE_BLAST   ; $25
@@ -78,7 +78,7 @@ endc
 	add_tm FALSE_SWIPE  ; $35
 	add_tm SCALD        ; $36
 	add_tm X_SCISSOR    ; $37
-	add_tm WILD_CHARGE  ; $38
+	add_tm BLAZE_STAR  ; $38
 	add_tm DARK_PULSE   ; $39
 	add_tm DRAGON_PULSE ; $3a
 	add_tm DRAIN_PUNCH  ; $3b

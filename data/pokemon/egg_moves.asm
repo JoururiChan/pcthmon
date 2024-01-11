@@ -24,7 +24,7 @@ CharmanderEggMoves:
 	db $ff
 
 SquirtleEggMoves:
-	db CONFUSION
+	db PSYSHOT
 	db CRUNCH
 	db FORESIGHT
 	db HAZE
@@ -41,7 +41,7 @@ PidgeyEggMoves:
 	db STEEL_WING
 	db CHARM
 	db EXTREMESPEED
-	db BRAVE_BIRD
+	db DIVE_KICK
 	db $ff
 
 RattataPlainEggMoves:
@@ -97,7 +97,7 @@ NidoranFEggMoves:
 
 NidoranMEggMoves:
 	db AMNESIA
-	db CONFUSION
+	db PSYSHOT
 	db DISABLE
 	db SUPERSONIC
 	db TAKE_DOWN
@@ -136,7 +136,7 @@ ZubatEggMoves:
 	db PURSUIT
 	db QUICK_ATTACK
 	db ZEN_HEADBUTT
-	db BRAVE_BIRD
+	db DIVE_KICK
 	db $ff
 
 OddishEggMoves:
@@ -320,7 +320,7 @@ DoduoEggMoves:
 	db HAZE
 	db SUPERSONIC
 	db QUICK_ATTACK
-	db BRAVE_BIRD
+	db DIVE_KICK
 	db $ff
 
 SeelEggMoves:
@@ -418,7 +418,7 @@ KoffingEggMoves:
 	db PSYBEAM
 	db SCREECH
 	db DESTINY_BOND
-	db PAIN_SPLIT
+	db LIFE_BALANCE
 	db $ff
 
 RhyhornEggMoves:
@@ -432,7 +432,7 @@ RhyhornEggMoves:
 	db $ff
 
 TangelaEggMoves:
-	db CONFUSION
+	db PSYSHOT
 	db AMNESIA
 	db LEECH_SEED
 	db $ff
@@ -580,7 +580,7 @@ HoothootEggMoves:
 	db NIGHT_SHADE
 	db SUPERSONIC
 	db WING_ATTACK
-	db BRAVE_BIRD
+	db DIVE_KICK
 	db HURRICANE
 	db $ff
 
@@ -703,7 +703,7 @@ MurkrowEggMoves:
 	db QUICK_ATTACK
 	db SCREECH
 	db WING_ATTACK
-	db BRAVE_BIRD
+	db DIVE_KICK
 	db ROOST
 	db $ff
 
@@ -725,7 +725,7 @@ GirafarigEggMoves:
 	db $ff
 
 PinecoEggMoves:
-	db PIN_MISSILE
+	db PWJ_NEEDLE
 	db SWIFT
 	db REFLECT
 	db TOXIC_SPIKES
@@ -869,7 +869,7 @@ DelibirdEggMoves:
 SkarmoryEggMoves:
 	db DRILL_PECK
 	db PURSUIT
-	db BRAVE_BIRD
+	db DIVE_KICK
 	db $ff
 
 HoundourEggMoves:

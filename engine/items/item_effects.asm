@@ -1146,7 +1146,7 @@ UseStatusHealer:
 	ld a, c
 	inc a ; cp $ff
 	jr nz, .no_good
-	ld b, PARTYMENUTEXT_HEAL_CONFUSION
+	ld b, PARTYMENUTEXT_HEAL_PSYSHOT
 
 .good
 	xor a

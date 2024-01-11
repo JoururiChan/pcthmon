@@ -15,7 +15,7 @@ StallMoves:
 	db GROWL
 	db GROWTH
 	db HAZE
-	db HONE_CLAWS
+	db HONE_TOOLS
 	db LEECH_SEED
 	db LEER
 	db LIGHT_SCREEN

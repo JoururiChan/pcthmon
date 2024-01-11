@@ -116,14 +116,14 @@ GoldenrodGameCornerTMVendor_LoopScript: ; 056c36
 	jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 
 .flamethrower:
-	checktmhm TM_FLAMETHROWER
+	checktmhm TM_METEOR_FALL
 	iftruefwd GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript
 	checkcoins GOLDENRODGAMECORNER_TM35_COINS
 	ifequalfwd $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	gettmhmname TM_FLAMETHROWER, $0
+	gettmhmname TM_METEOR_FALL, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
-	givetmhm TM_FLAMETHROWER
+	givetmhm TM_METEOR_FALL
 	takecoins GOLDENRODGAMECORNER_TM35_COINS
 	sjumpfwd GoldenrodGameCornerTMVendor_FinishScript
 

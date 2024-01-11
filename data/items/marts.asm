@@ -168,7 +168,7 @@ Goldenrod5FTMMart:
 	dbw TM_THUNDER,       30000
 	dbw TM_FIRE_BLAST,    30000
 	dbw TM_BLIZZARD,      30000
-	dbw TM_HYPER_BEAM,    50000
+	dbw TM_MASTER_SPARK,    50000
 	db -1
 
 GoldenrodHarborMart:

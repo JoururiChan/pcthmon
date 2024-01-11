@@ -8,10 +8,10 @@ EncoreMoves:
 	db FOCUS_ENERGY
 	db GROWTH
 	db HAZE
-	db HONE_CLAWS
+	db HONE_TOOLS
 	db LEECH_SEED
 	db LEER
-	db POISONPOWDER
+	db TOXIC_GAS
 	db ROAR
 	db SCREECH
 	db SKILL_SWAP

@@ -7,7 +7,7 @@ ContactMoves:
 	db AVALANCHE
 	db BITE
 	db BODY_SLAM
-	db BRAVE_BIRD
+	db DIVE_KICK
 	db BUG_BITE
 	db BULLET_PUNCH
 	db CLOSE_COMBAT
@@ -85,7 +85,7 @@ ContactMoves:
 	db U_TURN
 	db VINE_WHIP
 	db WATERFALL
-	db WILD_CHARGE
+	db BLAZE_STAR
 	db WING_ATTACK
 	db WRAP
 	db X_SCISSOR

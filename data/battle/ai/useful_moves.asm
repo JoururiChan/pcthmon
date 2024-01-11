@@ -4,12 +4,12 @@ UsefulMoves:
 ; Moves that are usable all-around.
 	db DOUBLE_EDGE
 	db SING
-	db FLAMETHROWER
+	db METEOR_FALL
 	db HYDRO_PUMP
 	db SURF
 	db ICE_BEAM
 	db BLIZZARD
-	db HYPER_BEAM
+	db MASTER_SPARK
 	db SLEEP_POWDER
 	db THUNDERBOLT
 	db THUNDER

@@ -66,7 +66,7 @@
 	const SFX_HEADBUTT                    ; 3f
 	const SFX_HORN_ATTACK                 ; 40
 	const SFX_TACKLE                      ; 41
-	const SFX_POISON_STING                ; 42
+	const SFX_SEAL_NEEDLE                ; 42
 	const SFX_POWDER                      ; 43
 	const SFX_DOUBLE_SLAP                 ; 44
 	const SFX_BITE                        ; 45
@@ -93,7 +93,7 @@
 	const SFX_SHARPEN                     ; 5a
 	const SFX_EGG_BOMB                    ; 5b
 	const SFX_SING                        ; 5c
-	const SFX_HYPER_BEAM                  ; 5d
+	const SFX_MASTER_SPARK                  ; 5d
 	const SFX_SHINE                       ; 5e
 	const SFX_UNKNOWN_5F                  ; 5f
 	const SFX_UNKNOWN_60                  ; 60

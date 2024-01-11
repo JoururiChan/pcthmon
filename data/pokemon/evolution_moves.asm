@@ -199,7 +199,7 @@ endc
 	db NO_MOVE      ; YANMA
 	db NO_MOVE      ; WOOPER
 	db ANCIENTPOWER ; QUAGSIRE
-	db CONFUSION    ; ESPEON
+	db PSYSHOT    ; ESPEON
 	db PURSUIT      ; UMBREON
 	db NO_MOVE      ; MURKROW
 	db NO_MOVE      ; SLOWKING

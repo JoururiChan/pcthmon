@@ -688,7 +688,7 @@ GenericHitAnim:
 	; Flicker the monster pic unless flying or underground.
 	xor a
 	ld [wNumHits], a
-	ld de, ANIM_HIT_CONFUSION
+	ld de, ANIM_HIT_PSYSHOT
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
 	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
@@ -1736,7 +1736,7 @@ BattleCommand_checkpowder:
 	jr z, BattleCommand_resettypematchup
 	cp TOXIC
 	jr z, .check_corrosion
-	cp POISONPOWDER
+	cp TOXIC_GAS
 	jr nz, .powder
 .check_corrosion
 	ld b, a
