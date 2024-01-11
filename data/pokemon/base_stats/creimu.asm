@@ -1,9 +1,9 @@
-	db  45,  49,  49,  45,  65,  65 ; 318 BST
+	db  30,  50,  30,  50,  65,  65 ; 318 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GRASS, POISON ; type
-	db 45 ; catch rate
-	db 64 ; base exp
+	db NORMAL, NORMAL ; type
+	db 100 ; catch rate
+	db 70 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
