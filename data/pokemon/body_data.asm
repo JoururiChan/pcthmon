@@ -7,9 +7,9 @@ ENDM
 PokemonBodyData:
 ; entries correspond to constants/pokemon_constants.asm
 	table_width BODY_DATA_SIZE, PokemonBodyData
-	body_data   7,   69, QUADRUPED,    GREEN  ; BULBASAUR
-	body_data  10,  130, QUADRUPED,    GREEN  ; IVYSAUR
-	body_data  20, 1000, QUADRUPED,    GREEN  ; VENUSAUR
+	body_data   7,   69, QUADRUPED,    GREEN  ; CREIMU
+	body_data  10,  130, QUADRUPED,    GREEN  ; REIMU
+	body_data  20, 1000, QUADRUPED,    GREEN  ; EREIMU
 	body_data   6,   85, BIPEDAL_TAIL, RED    ; CHARMANDER
 	body_data  11,  190, BIPEDAL_TAIL, RED    ; CHARMELEON
 	body_data  17,  905, BIPEDAL_TAIL, RED    ; CHARIZARD

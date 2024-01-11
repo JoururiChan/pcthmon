@@ -82,9 +82,9 @@ WeepinbellFootprint::
 WeezingFootprint::
 ZubatFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 
-BulbasaurFootprint:: INCBIN "gfx/footprints/bulbasaur.1bpp.lz"
-IvysaurFootprint:: INCBIN "gfx/footprints/ivysaur.1bpp.lz"
-VenusaurFootprint:: INCBIN "gfx/footprints/venusaur.1bpp.lz"
+CReimuFootprint:: INCBIN "gfx/footprints/creimu.1bpp.lz"
+ReimuFootprint:: INCBIN "gfx/footprints/reimu.1bpp.lz"
+EReimuFootprint:: INCBIN "gfx/footprints/ereimu.1bpp.lz"
 CharmanderFootprint:: INCBIN "gfx/footprints/charmander.1bpp.lz"
 CharmeleonFootprint:: INCBIN "gfx/footprints/charmeleon.1bpp.lz"
 CharizardFootprint:: INCBIN "gfx/footprints/charizard.1bpp.lz"

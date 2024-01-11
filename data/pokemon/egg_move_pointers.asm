@@ -1,8 +1,8 @@
 EggMovePointers::
 	table_width 2, EggMovePointers
-	dw BulbasaurEggMoves      ; Bulbasaur
-	dw NoEggMoves             ; Ivysaur
-	dw NoEggMoves             ; Venusaur
+	dw CReimuEggMoves      ; CReimu
+	dw NoEggMoves             ; Reimu
+	dw NoEggMoves             ; EReimu
 	dw CharmanderEggMoves     ; Charmander
 	dw NoEggMoves             ; Charmeleon
 	dw NoEggMoves             ; Charizard

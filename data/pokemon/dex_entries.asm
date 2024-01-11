@@ -1,5 +1,5 @@
-SECTION "BulbasaurPokedexEntry", ROMX
-BulbasaurPokedexEntry::
+SECTION "CReimuPokedexEntry", ROMX
+CReimuPokedexEntry::
 	db "Seed@"
 	db   "While it is young,"
 	next "it uses the"
@@ -8,8 +8,8 @@ BulbasaurPokedexEntry::
 	next "seeds on its back"
 	next "in order to grow.@"
 
-SECTION "IvysaurPokedexEntry", ROMX
-IvysaurPokedexEntry::
+SECTION "ReimuPokedexEntry", ROMX
+ReimuPokedexEntry::
 	db "Seed@"
 	db   "The bulb on its"
 	next "back grows as it"
@@ -18,8 +18,8 @@ IvysaurPokedexEntry::
 	next "a pleasant aroma"
 	next "when it blooms.@"
 
-SECTION "VenusaurPokedexEntry", ROMX
-VenusaurPokedexEntry::
+SECTION "EReimuPokedexEntry", ROMX
+EReimuPokedexEntry::
 	db "Seed@"
 	db   "As it warms it-"
 	next "self and absorbs"

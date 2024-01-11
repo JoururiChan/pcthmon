@@ -358,19 +358,19 @@ IndigoPlateauYellowScript:
 	writetext .GiveStarterText
 	promptbutton
 	waitsfx
-	checkevent EVENT_GOT_BULBASAUR_FROM_IVY
+	checkevent EVENT_GOT_CREIMU_FROM_IVY
 	iftruefwd .Squirtle
 	checkevent EVENT_GOT_CHARMANDER_FROM_IVY
-	iftruefwd .Bulbasaur
+	iftruefwd .CReimu
 	givepoke CHARMANDER, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
 	getmonname CHARMANDER, STRING_BUFFER_3
 	sjumpfwd .Finish
 
-.Bulbasaur:
-	givepoke BULBASAUR, PLAIN_FORM, 10, SITRUS_BERRY
+.CReimu:
+	givepoke CREIMU, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	getmonname BULBASAUR, STRING_BUFFER_3
+	getmonname CREIMU, STRING_BUFFER_3
 	sjumpfwd .Finish
 
 .Squirtle:

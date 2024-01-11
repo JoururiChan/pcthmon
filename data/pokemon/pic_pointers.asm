@@ -4,9 +4,9 @@ ENDM
 
 PokemonPicPointers::
 	table_width 5, PokemonPicPointers
-	pics Bulbasaur
-	pics Ivysaur
-	pics Venusaur
+	pics CReimu
+	pics Reimu
+	pics EReimu
 	pics Charmander
 	pics Charmeleon
 	pics Charizard

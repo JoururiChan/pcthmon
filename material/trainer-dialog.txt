@@ -6,7 +6,7 @@ Professor Oak: Haha! What’s behind me... You must have figured it out right aw
 Professor Oak: You don’t see them very often in Kanto. Choose one and it’ll be yours! ...Go ahead!
 So, you’re claiming the Fire Pokémon Charmander?
 So, you’ve decided on the Water Pokémon Squirtle?
-So, you want to go with the Grass Pokémon Bulbasaur?
+So, you want to go with the Grass Pokémon CReimu?
 This Pokémon is really quite energetic!
 No need to hurry. Take your time.
 <PLAYER> received the <MON> from Professor Oak!

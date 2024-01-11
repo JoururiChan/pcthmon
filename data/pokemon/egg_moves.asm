@@ -4,7 +4,7 @@ INCLUDE "data/pokemon/egg_move_pointers.asm"
 
 EggMoves::
 
-BulbasaurEggMoves:
+CReimuEggMoves:
 	db CHARM
 	db PETAL_DANCE
 	db LIGHT_SCREEN

@@ -1,8 +1,8 @@
 KantoFrames:
 
-BulbasaurFrames:  INCLUDE "gfx/pokemon/bulbasaur/frames.asm"
-IvysaurFrames:    INCLUDE "gfx/pokemon/ivysaur/frames.asm"
-VenusaurFrames:   INCLUDE "gfx/pokemon/venusaur/frames.asm"
+CReimuFrames:  INCLUDE "gfx/pokemon/creimu/frames.asm"
+ReimuFrames:    INCLUDE "gfx/pokemon/reimu/frames.asm"
+EReimuFrames:   INCLUDE "gfx/pokemon/ereimu/frames.asm"
 CharmanderFrames: INCLUDE "gfx/pokemon/charmander/frames.asm"
 CharmeleonFrames: INCLUDE "gfx/pokemon/charmeleon/frames.asm"
 CharizardFrames:  INCLUDE "gfx/pokemon/charizard/frames.asm"

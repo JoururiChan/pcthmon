@@ -1,9 +1,9 @@
 ValidPokemonLevels: ; for Wonder Trade
 	table_width 2, ValidPokemonLevels
 	;  min, max
-	db   1,  15 ; Bulbasaur
-	db  16,  31 ; Ivysaur
-	db  32, 100 ; Venusaur
+	db   1,  15 ; CReimu
+	db  16,  31 ; Reimu
+	db  32, 100 ; EReimu
 	db   1,  15 ; Charmander
 	db  16,  35 ; Charmeleon
 	db  36, 100 ; Charizard

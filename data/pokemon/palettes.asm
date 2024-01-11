@@ -11,12 +11,12 @@ else
 	RGB 30,22,17, 16,14,19 ; 000
 	RGB 30,22,17, 16,14,19 ; 000 shiny
 
-INCLUDE "gfx/pokemon/bulbasaur/normal.pal"
-INCLUDE "gfx/pokemon/bulbasaur/shiny.pal"
-INCLUDE "gfx/pokemon/ivysaur/normal.pal"
-INCLUDE "gfx/pokemon/ivysaur/shiny.pal"
-INCLUDE "gfx/pokemon/venusaur/normal.pal"
-INCLUDE "gfx/pokemon/venusaur/shiny.pal"
+INCLUDE "gfx/pokemon/creimu/normal.pal"
+INCLUDE "gfx/pokemon/creimu/shiny.pal"
+INCLUDE "gfx/pokemon/reimu/normal.pal"
+INCLUDE "gfx/pokemon/reimu/shiny.pal"
+INCLUDE "gfx/pokemon/ereimu/normal.pal"
+INCLUDE "gfx/pokemon/ereimu/shiny.pal"
 INCLUDE "gfx/pokemon/charmander/normal.pal"
 INCLUDE "gfx/pokemon/charmander/shiny.pal"
 INCLUDE "gfx/pokemon/charmeleon/normal.pal"

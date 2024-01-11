@@ -4,9 +4,9 @@ ENDM
 
 MiniIconPointers:
 	table_width 7, MiniIconPointers
-	mini_icon Bulbasaur
-	mini_icon Ivysaur
-	mini_icon Venusaur
+	mini_icon CReimu
+	mini_icon Reimu
+	mini_icon EReimu
 	mini_icon Charmander
 	mini_icon Charmeleon
 	mini_icon Charizard

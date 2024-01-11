@@ -1,9 +1,9 @@
 PokemonNames::
 	table_width MON_NAME_LENGTH - 1, PokemonNames
 	rawchar "?000?@@@@@"
-	rawchar "Bulbasaur@"
-	rawchar "Ivysaur@@@"
-	rawchar "Venusaur@@"
+	rawchar "CReimu@"
+	rawchar "Reimu@@@"
+	rawchar "EReimu@@"
 	rawchar "Charmander"
 	rawchar "Charmeleon"
 	rawchar "Charizard@"

@@ -17,7 +17,7 @@ Cries:
 	fardw Cry_Seel
 	fardw Cry_Drowzee
 	fardw Cry_Pidgey
-	fardw Cry_Bulbasaur
+	fardw Cry_CReimu
 	fardw Cry_Farfetch_d
 	fardw Cry_Rhydon
 	fardw Cry_Golem

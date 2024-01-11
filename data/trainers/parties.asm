@@ -1413,8 +1413,8 @@ LeafGroup:
 	dbp 96, LAPRAS, FEMALE
 		db LEFTOVERS, FAKE_PERFECT_DVS, ABIL_LAPRAS_SHELL_ARMOR | NAT_SATK_UP_ATK_DOWN
 		db ICE_BEAM, THUNDERBOLT, REST, SLEEP_TALK
-	dbp 100, VENUSAUR, FEMALE
-		db MIRACLE_SEED, FAKE_PERFECT_DVS, ABIL_VENUSAUR_THICK_FAT | NAT_SPE_UP_DEF_DOWN
+	dbp 100, EREIMU, FEMALE
+		db MIRACLE_SEED, FAKE_PERFECT_DVS, ABIL_EREIMU_THICK_FAT | NAT_SPE_UP_DEF_DOWN
 		db GROWTH, GIGA_DRAIN, SLUDGE_BOMB, SLEEP_POWDER
 	dbp 98, MOLTRES, FEMALE
 		db CHARCOAL, DVS_HP_GRASS, ABIL_MOLTRES_FLAME_BODY | NAT_SATK_UP_ATK_DOWN
@@ -2775,7 +2775,7 @@ PicnickerGroup:
 	; party
 	dbp 9, SUNKERN
 	dbp 9, HOPPIP
-	dbp 12, BULBASAUR
+	dbp 12, CREIMU
 	db -1 ; end
 
 	; PICNICKER
@@ -2784,7 +2784,7 @@ PicnickerGroup:
 	; party
 	dbp 14, SUNKERN
 	dbp 14, HOPPIP
-	dbp 17, IVYSAUR
+	dbp 17, REIMU
 	db -1 ; end
 
 	; PICNICKER
@@ -2793,7 +2793,7 @@ PicnickerGroup:
 	; party
 	dbp 26, SUNFLORA
 	dbp 27, SKIPLOOM
-	dbp 29, IVYSAUR
+	dbp 29, REIMU
 	db -1 ; end
 
 	; PICNICKER
@@ -2802,7 +2802,7 @@ PicnickerGroup:
 	; party
 	dbp 30, SUNFLORA
 	dbp 31, JUMPLUFF
-	dbp 32, IVYSAUR
+	dbp 32, REIMU
 	db -1 ; end
 
 	; PICNICKER
@@ -2817,7 +2817,7 @@ else
 endc
 	dbp 34, JUMPLUFF
 		db ACROBATICS, SLEEP_POWDER, STUN_SPORE, MEGA_DRAIN
-	dbp 38, VENUSAUR
+	dbp 38, EREIMU
 		db SOLAR_BEAM, RAZOR_LEAF, HEADBUTT, MUD_SLAP
 	db -1 ; end
 
@@ -4432,7 +4432,7 @@ PokefanMGroup:
 	db "Carter@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 59, BULBASAUR
+	dbp 59, CREIMU
 		db SITRUS_BERRY
 	dbp 59, CHARMANDER
 		db SITRUS_BERRY
@@ -5100,9 +5100,9 @@ endc
 	db "Linda@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 57, BULBASAUR
-	dbp 59, IVYSAUR
-	dbp 61, VENUSAUR
+	dbp 57, CREIMU
+	dbp 59, REIMU
+	dbp 61, EREIMU
 	db -1 ; end
 
 	; LASS
@@ -6015,7 +6015,7 @@ SchoolgirlGroup:
 	db "Imogen@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 13, BULBASAUR
+	dbp 13, CREIMU
 		db "Garlic@"
 	dbp 11, POLIWAG
 		db "@"
@@ -6524,16 +6524,16 @@ SrAndJrGroup:
 	db "Bea & May@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 4, IVYSAUR
-	dbp LEVEL_FROM_BADGES + 0, BULBASAUR
+	dbp LEVEL_FROM_BADGES + 4, REIMU
+	dbp LEVEL_FROM_BADGES + 0, CREIMU
 	db -1 ; end
 
 	; SR_AND_JR
 	db "Bea & May@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 0, BULBASAUR
-	dbp LEVEL_FROM_BADGES + 4, IVYSAUR
+	dbp LEVEL_FROM_BADGES + 0, CREIMU
+	dbp LEVEL_FROM_BADGES + 4, REIMU
 	db -1 ; end
 
 
@@ -8399,7 +8399,7 @@ GuitaristMGroup:
 	db TRAINERTYPE_NORMAL
 
 	; TODD: party
-	dbp 50, BULBASAUR
+	dbp 50, CREIMU
 	db -1 ; end
 
 
@@ -8629,7 +8629,7 @@ TamerGroup:
 	db TRAINERTYPE_NORMAL
 
 	; TODO: party
-	dbp 50, BULBASAUR
+	dbp 50, CREIMU
 	db -1 ; end
 
 
@@ -8722,7 +8722,7 @@ AromaLadyGroup:
 	db TRAINERTYPE_NORMAL
 
 	; TODO: party
-	dbp 50, BULBASAUR
+	dbp 50, CREIMU
 	db -1 ; end
 
 
@@ -8746,7 +8746,7 @@ SightseerMGroup:
 	db TRAINERTYPE_NORMAL
 
 	; TODO: party
-	dbp 50, BULBASAUR
+	dbp 50, CREIMU
 	db -1 ; end
 
 	; SIGHTSEERM
@@ -8754,8 +8754,8 @@ SightseerMGroup:
 	db TRAINERTYPE_PERSONALITY | TRAINERTYPE_NICKNAME
 
 	; TODO: party
-	dbp 50, BULBASAUR, MALE
-		db ABILITY_1 | NAT_NEUTRAL, "Bulbasaur@"
+	dbp 50, CREIMU, MALE
+		db ABILITY_1 | NAT_NEUTRAL, "CReimu@"
 	db -1 ; end
 
 	; SIGHTSEERM
@@ -8763,7 +8763,7 @@ SightseerMGroup:
 	db TRAINERTYPE_NORMAL
 
 	; TODO: party
-	dbp 50, BULBASAUR
+	dbp 50, CREIMU
 	db -1 ; end
 
 	; SIGHTSEERM
@@ -8771,7 +8771,7 @@ SightseerMGroup:
 	db TRAINERTYPE_NORMAL
 
 	; TODO: party
-	dbp 50, BULBASAUR
+	dbp 50, CREIMU
 	db -1 ; end
 
 	; SIGHTSEERM
@@ -8779,7 +8779,7 @@ SightseerMGroup:
 	db TRAINERTYPE_NORMAL
 
 	; TODO: party
-	dbp 50, BULBASAUR
+	dbp 50, CREIMU
 	db -1 ; end
 
 
@@ -8791,7 +8791,7 @@ SightseerFGroup:
 	db TRAINERTYPE_NORMAL
 
 	; TODO: party
-	dbp 50, BULBASAUR
+	dbp 50, CREIMU
 	db -1 ; end
 
 	; SIGHTSEERF
@@ -8799,7 +8799,7 @@ SightseerFGroup:
 	db TRAINERTYPE_NORMAL
 
 	; TODO: party
-	dbp 50, BULBASAUR
+	dbp 50, CREIMU
 	db -1 ; end
 
 	; SIGHTSEERF
@@ -8807,7 +8807,7 @@ SightseerFGroup:
 	db TRAINERTYPE_NORMAL
 
 	; TODO: party
-	dbp 50, BULBASAUR
+	dbp 50, CREIMU
 	db -1 ; end
 
 	; SIGHTSEERF
@@ -8937,7 +8937,7 @@ CooltrainerMGroup:
 		db EMBER, SMOKESCREEN, RAGE, SCARY_FACE
 	dbp 26, SQUIRTLE
 		db DEFENSE_CURL, WATER_GUN, BITE, CURSE
-	dbp 26, BULBASAUR
+	dbp 26, CREIMU
 		db LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
 	db -1 ; end
 
@@ -8945,7 +8945,7 @@ CooltrainerMGroup:
 	db "Aaron@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 28, IVYSAUR
+	dbp 28, REIMU
 	dbp 28, CHARMELEON
 	dbp 28, WARTORTLE
 	db -1 ; end
@@ -8992,7 +8992,7 @@ CooltrainerMGroup:
 	db "Andy@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, BULBASAUR
+	dbp 10, CREIMU
 	dbp 10, CHARMANDER
 	dbp 10, SQUIRTLE
 	db -1 ; end
@@ -9039,7 +9039,7 @@ CooltrainerMGroup:
 	; party
 	dbp LEVEL_FROM_BADGES + 5, CHARMELEON
 	dbp LEVEL_FROM_BADGES + 5, WARTORTLE
-	dbp LEVEL_FROM_BADGES + 5, IVYSAUR
+	dbp LEVEL_FROM_BADGES + 5, REIMU
 	db -1 ; end
 
 	; COOLTRAINERM
@@ -9086,8 +9086,8 @@ CooltrainerMGroup:
 		db MIRACLE_SEED, $EE, $EE, $EE, ABIL_ZUBAT_INNER_FOCUS | NAT_SATK_UP_SDEF_DOWN
 		ev_spread 20 HP
 		db GUST, ABSORB, ASTONISH, BITE
-	dbp LEVEL_FROM_BADGES + 6, BULBASAUR, MALE
-		db MIRACLE_SEED, $EE, $EE, $EE, ABIL_BULBASAUR_CHLOROPHYLL | NAT_SPE_UP_DEF_DOWN
+	dbp LEVEL_FROM_BADGES + 6, CREIMU, MALE
+		db MIRACLE_SEED, $EE, $EE, $EE, ABIL_CREIMU_CHLOROPHYLL | NAT_SPE_UP_DEF_DOWN
 		ev_spread 20 HP
 		db LEECH_SEED, VINE_WHIP, SLEEP_POWDER, MUD_SLAP
 	db -1 ; end
@@ -9111,7 +9111,7 @@ CooltrainerMGroup:
 	dbp 63, SANDSLASH
 		db KINGS_ROCK, "@"
 		ev_spread 132 HP, 252 Atk ; has Gyro Ball, so no Speed.
-	dbp 64, VENUSAUR
+	dbp 64, EREIMU
 		db LEFTOVERS, "Bruteroot@"
 		ev_spread 252 HP, 132 SAt
 	db -1 ; end
@@ -9317,11 +9317,11 @@ endc
 	db "Megan@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 35, BULBASAUR
+	dbp 35, CREIMU
 		db GROWL, LEECH_SEED, POISONPOWDER, RAZOR_LEAF
-	dbp 36, IVYSAUR
+	dbp 36, REIMU
 		db GROWL, LEECH_SEED, POISONPOWDER, RAZOR_LEAF
-	dbp 37, VENUSAUR
+	dbp 37, EREIMU
 		db BODY_SLAM, SLEEP_POWDER, RAZOR_LEAF, GROWTH
 	db -1 ; end
 
@@ -9338,7 +9338,7 @@ endc
 	db "Quinn@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 63, VENUSAUR
+	dbp 63, EREIMU
 	dbp 62, STARMIE
 	db -1 ; end
 
@@ -9687,7 +9687,7 @@ VeteranFGroup:
 	db "Joanne@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	; party
-	dbp 41, VENUSAUR
+	dbp 41, EREIMU
 		db MIRACLE_SEED
 		db GROWTH, SLUDGE_BOMB, PETAL_DANCE, SLEEP_POWDER
 	dbp 38, PIDGEOT
@@ -9999,8 +9999,8 @@ ProfOakGroup:
 	dbp 76, DODRIO, FEMALE
 		db BERSERK_GENE, ABIL_DODRIO_TANGLED_FEET | NAT_ATK_UP_SATK_DOWN
 		db BRAVE_BIRD, HI_JUMP_KICK, KNOCK_OFF, QUICK_ATTACK
-	dbp 80, VENUSAUR, FEMALE
-		db BIG_ROOT, ABIL_VENUSAUR_THICK_FAT | NAT_SDEF_UP_ATK_DOWN
+	dbp 80, EREIMU, FEMALE
+		db BIG_ROOT, ABIL_EREIMU_THICK_FAT | NAT_SDEF_UP_ATK_DOWN
 		db GIGA_DRAIN, PROTECT, LEECH_SEED, TOXIC
 	dbp 80, CHARIZARD, MALE
 if !DEF(FAITHFUL)
@@ -10799,7 +10799,7 @@ SparkGroup:
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 	dbp 62, ELECTABUZZ, MALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
-	dbp 63, VENUSAUR, MALE
+	dbp 63, EREIMU, MALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 	dbp 61, SNORLAX, MALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL

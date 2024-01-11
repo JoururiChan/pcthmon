@@ -8,17 +8,17 @@ SECTION "Pokemon Pic Sizes", ROMX
 INCLUDE "data/pokemon/pic_sizes.asm"
 
 
-SECTION "Bulbasaur Pics", ROMX
-BulbasaurFrontpic: INCBIN "gfx/pokemon/bulbasaur/front.animated.2bpp.lz"
-BulbasaurBackpic:  INCBIN "gfx/pokemon/bulbasaur/back.2bpp.lz"
+SECTION "CReimu Pics", ROMX
+CReimuFrontpic: INCBIN "gfx/pokemon/creimu/front.animated.2bpp.lz"
+CReimuBackpic:  INCBIN "gfx/pokemon/creimu/back.2bpp.lz"
 
-SECTION "Ivysaur Pics", ROMX
-IvysaurFrontpic: INCBIN "gfx/pokemon/ivysaur/front.animated.2bpp.lz"
-IvysaurBackpic:  INCBIN "gfx/pokemon/ivysaur/back.2bpp.lz"
+SECTION "Reimu Pics", ROMX
+ReimuFrontpic: INCBIN "gfx/pokemon/reimu/front.animated.2bpp.lz"
+ReimuBackpic:  INCBIN "gfx/pokemon/reimu/back.2bpp.lz"
 
-SECTION "Venusaur Pics", ROMX
-VenusaurFrontpic: INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lz"
-VenusaurBackpic:  INCBIN "gfx/pokemon/venusaur/back.2bpp.lz"
+SECTION "EReimu Pics", ROMX
+EReimuFrontpic: INCBIN "gfx/pokemon/ereimu/front.animated.2bpp.lz"
+EReimuBackpic:  INCBIN "gfx/pokemon/ereimu/back.2bpp.lz"
 
 SECTION "Charmander Pics", ROMX
 CharmanderFrontpic: INCBIN "gfx/pokemon/charmander/front.animated.2bpp.lz"

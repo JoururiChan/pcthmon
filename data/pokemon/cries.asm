@@ -6,9 +6,9 @@ ENDM
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	table_width MON_CRY_LENGTH, PokemonCries
-	mon_cry CRY_BULBASAUR,   $080,  $081 ; Bulbasaur
-	mon_cry CRY_BULBASAUR,   $020,  $100 ; Ivysaur
-	mon_cry CRY_BULBASAUR,   $000,  $140 ; Venusaur
+	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
+	mon_cry CRY_CREIMU,   $020,  $100 ; Reimu
+	mon_cry CRY_CREIMU,   $000,  $140 ; EReimu
 	mon_cry CRY_CHARMANDER,  $060,  $0c0 ; Charmander
 	mon_cry CRY_CHARMANDER,  $020,  $0c0 ; Charmeleon
 	mon_cry CRY_CHARMANDER,  $000,  $100 ; Charizard
@@ -30,7 +30,7 @@ PokemonCries::
 	mon_cry CRY_SHELLDER,    $040,  $120 ; Fearow
 	mon_cry CRY_EKANS,       $012,  $0c0 ; Ekans
 	mon_cry CRY_EKANS,       $0e0,  $090 ; Arbok
-	mon_cry CRY_BULBASAUR,   $0ee,  $081 ; Pikachu
+	mon_cry CRY_CREIMU,   $0ee,  $081 ; Pikachu
 	mon_cry CRY_RAICHU,      $0ee,  $088 ; Raichu
 	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; Sandshrew
 	mon_cry CRY_NIDORAN_M,   $0ff,  $17f ; Sandslash
@@ -152,9 +152,9 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      $080,  $0c0 ; Articuno
 	mon_cry CRY_SHELLDER,    $0ff,  $100 ; Zapdos
 	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; Moltres
-	mon_cry CRY_BULBASAUR,   $060,  $0c0 ; Dratini
-	mon_cry CRY_BULBASAUR,   $040,  $100 ; Dragonair
-	mon_cry CRY_BULBASAUR,   $03c,  $140 ; Dragonite
+	mon_cry CRY_CREIMU,   $060,  $0c0 ; Dratini
+	mon_cry CRY_CREIMU,   $040,  $100 ; Dragonair
+	mon_cry CRY_CREIMU,   $03c,  $140 ; Dragonite
 	mon_cry CRY_PARAS,       $099,  $17f ; Mewtwo
 	mon_cry CRY_PARAS,       $0ee,  $17f ; Mew
 	mon_cry CRY_CHIKORITA,  -$010,  $0b0 ; Chikorita

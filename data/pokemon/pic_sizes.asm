@@ -19,9 +19,9 @@ ENDM
 PokemonPicSizes::
 	list_start PokemonPicSizes
 	DEF size_value = 0
-INCLUDE "gfx/pokemon/bulbasaur/front.dimensions"
-INCLUDE "gfx/pokemon/ivysaur/front.dimensions"
-INCLUDE "gfx/pokemon/venusaur/front.dimensions"
+INCLUDE "gfx/pokemon/creimu/front.dimensions"
+INCLUDE "gfx/pokemon/reimu/front.dimensions"
+INCLUDE "gfx/pokemon/ereimu/front.dimensions"
 INCLUDE "gfx/pokemon/charmander/front.dimensions"
 INCLUDE "gfx/pokemon/charmeleon/front.dimensions"
 INCLUDE "gfx/pokemon/charizard/front.dimensions"

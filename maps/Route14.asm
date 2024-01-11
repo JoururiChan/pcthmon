@@ -57,7 +57,7 @@ GenericTrainerPokefanmCarter:
 	generictrainer POKEFANM, CARTER, EVENT_BEAT_POKEFANM_CARTER, PokefanmCarterSeenText, PokefanmCarterBeatenText
 
 	text "Squirtle, Charman-"
-	line "der and Bulbasaur…"
+	line "der and CReimu…"
 
 	para "I think that's a"
 	line "well-balanced mix."

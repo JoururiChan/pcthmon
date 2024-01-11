@@ -4,9 +4,9 @@ ENDM
 
 OverworldMonIconColors::
 	table_width 1, OverworldMonIconColors
-	iconpal TEAL, GREEN ; BULBASAUR
-	iconpal TEAL, GREEN ; IVYSAUR
-	iconpal TEAL, GREEN ; VENUSAUR
+	iconpal TEAL, GREEN ; CREIMU
+	iconpal TEAL, GREEN ; REIMU
+	iconpal TEAL, GREEN ; EREIMU
 	iconpal ORANGE, PINK ; CHARMANDER
 	iconpal RED, PINK ; CHARMELEON
 	iconpal ORANGE, BLACK ; CHARIZARD

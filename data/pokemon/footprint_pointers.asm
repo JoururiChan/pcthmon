@@ -1,8 +1,8 @@
 FootprintPointers::
 	table_width 2, FootprintPointers
-	dw BulbasaurFootprint
-	dw IvysaurFootprint
-	dw VenusaurFootprint
+	dw CReimuFootprint
+	dw ReimuFootprint
+	dw EReimuFootprint
 	dw CharmanderFootprint
 	dw CharmeleonFootprint
 	dw CharizardFootprint

@@ -1,9 +1,9 @@
 PokedexDataPointerTable:
 ; entries correspond to constants/pokemon_constants.asm
 	table_width 3, PokedexDataPointerTable
-	dba BulbasaurPokedexEntry
-	dba IvysaurPokedexEntry
-	dba VenusaurPokedexEntry
+	dba CReimuPokedexEntry
+	dba ReimuPokedexEntry
+	dba EReimuPokedexEntry
 	dba CharmanderPokedexEntry
 	dba CharmeleonPokedexEntry
 	dba CharizardPokedexEntry
@@ -255,8 +255,8 @@ PokedexDataPointerTable:
 	dba AzurillPokedexEntry
 	dba WynautPokedexEntry
 	dba AmbipomPokedexEntry
-	dba BulbasaurPokedexEntry ; EGG
-	dba BulbasaurPokedexEntry ; $100
+	dba CReimuPokedexEntry ; EGG
+	dba CReimuPokedexEntry ; $100
 	dba MismagiusPokedexEntry
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry

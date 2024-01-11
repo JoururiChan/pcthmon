@@ -1,8 +1,8 @@
 AnimationExtraPointers:
 	table_width 2, AnimationExtraPointers
-	dw BulbasaurAnimationExtra
-	dw IvysaurAnimationExtra
-	dw VenusaurAnimationExtra
+	dw CReimuAnimationExtra
+	dw ReimuAnimationExtra
+	dw EReimuAnimationExtra
 	dw CharmanderAnimationExtra
 	dw CharmeleonAnimationExtra
 	dw CharizardAnimationExtra

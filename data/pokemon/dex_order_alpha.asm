@@ -22,7 +22,7 @@ AlphabeticalPokedexOrder:
 	dp BLASTOISE
 	dp BLISSEY
 	dp BONSLY
-	dp BULBASAUR
+	dp CREIMU
 	dp BUTTERFREE
 	dp CATERPIE
 	dp CELEBI
@@ -107,7 +107,7 @@ AlphabeticalPokedexOrder:
 	dp HOUNDOUR
 	dp HYPNO
 	dp IGGLYBUFF
-	dp IVYSAUR
+	dp REIMU
 	dp JIGGLYPUFF
 	dp JOLTEON
 	dp JUMPLUFF
@@ -271,7 +271,7 @@ AlphabeticalPokedexOrder:
 	dp VAPOREON
 	dp VENOMOTH
 	dp VENONAT
-	dp VENUSAUR
+	dp EREIMU
 	dp VICTREEBEL
 	dp VILEPLUME
 	dp VOLTORB

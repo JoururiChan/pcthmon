@@ -1,7 +1,7 @@
 PicAnimations:
-BulbasaurAnimation:  INCLUDE "gfx/pokemon/bulbasaur/anim.asm"
-IvysaurAnimation:    INCLUDE "gfx/pokemon/ivysaur/anim.asm"
-VenusaurAnimation:   INCLUDE "gfx/pokemon/venusaur/anim.asm"
+CReimuAnimation:  INCLUDE "gfx/pokemon/creimu/anim.asm"
+ReimuAnimation:    INCLUDE "gfx/pokemon/reimu/anim.asm"
+EReimuAnimation:   INCLUDE "gfx/pokemon/ereimu/anim.asm"
 CharmanderAnimation: INCLUDE "gfx/pokemon/charmander/anim.asm"
 CharmeleonAnimation: INCLUDE "gfx/pokemon/charmeleon/anim.asm"
 CharizardAnimation:  INCLUDE "gfx/pokemon/charizard/anim.asm"

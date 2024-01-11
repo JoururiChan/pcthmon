@@ -1,20 +1,20 @@
 ; Unique icons by Blue Emerald, Soloo993, Chamber, Lake, Neslug, Pikachu253, and Ryta
 ; http://www.pokecommunity.com/showthread.php?t=338470
 
-SECTION "Bulbasaur Mini Icon", ROMX
-BulbasaurMini::     INCBIN "gfx/minis/bulbasaur.2bpp.lz"
-BulbasaurMiniMask:: INCBIN "gfx/minis/bulbasaur_mask.1bpp.lz"
-BulbasaurIcon::     INCBIN "gfx/icons/bulbasaur.2bpp.lz"
+SECTION "CReimu Mini Icon", ROMX
+CReimuMini::     INCBIN "gfx/minis/creimu.2bpp.lz"
+CReimuMiniMask:: INCBIN "gfx/minis/creimu_mask.1bpp.lz"
+CReimuIcon::     INCBIN "gfx/icons/creimu.2bpp.lz"
 
-SECTION "Ivysaur Mini Icon", ROMX
-IvysaurMini::     INCBIN "gfx/minis/ivysaur.2bpp.lz"
-IvysaurMiniMask:: INCBIN "gfx/minis/ivysaur_mask.1bpp.lz"
-IvysaurIcon::     INCBIN "gfx/icons/ivysaur.2bpp.lz"
+SECTION "Reimu Mini Icon", ROMX
+ReimuMini::     INCBIN "gfx/minis/reimu.2bpp.lz"
+ReimuMiniMask:: INCBIN "gfx/minis/reimu_mask.1bpp.lz"
+ReimuIcon::     INCBIN "gfx/icons/reimu.2bpp.lz"
 
-SECTION "Venusaur Mini Icon", ROMX
-VenusaurMini::     INCBIN "gfx/minis/venusaur.2bpp.lz"
-VenusaurMiniMask:: INCBIN "gfx/minis/venusaur_mask.1bpp.lz"
-VenusaurIcon::     INCBIN "gfx/icons/venusaur.2bpp.lz"
+SECTION "EReimu Mini Icon", ROMX
+EReimuMini::     INCBIN "gfx/minis/ereimu.2bpp.lz"
+EReimuMiniMask:: INCBIN "gfx/minis/ereimu_mask.1bpp.lz"
+EReimuIcon::     INCBIN "gfx/icons/ereimu.2bpp.lz"
 
 SECTION "Charmander Mini Icon", ROMX
 CharmanderMini::     INCBIN "gfx/minis/charmander.2bpp.lz"

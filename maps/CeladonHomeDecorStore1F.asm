@@ -16,16 +16,16 @@ CeladonHomeDecorStore1F_MapScriptHeader:
 	def_object_events
 	object_event  4,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonHomeDecorStore1FReceptionistText, -1
 	object_event  5,  1, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeladonHomeDecorStore1FClerkScript, -1
-	object_event  7,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, BULBASAUR, -1, -1, PAL_NPC_TEAL, OBJECTTYPE_SCRIPT, NO_FORM, CeladonHomeDecorStore1FBulbasaurDollScript, -1
+	object_event  7,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, CREIMU, -1, -1, PAL_NPC_TEAL, OBJECTTYPE_SCRIPT, NO_FORM, CeladonHomeDecorStore1FCReimuDollScript, -1
 	object_event  8,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, CHARMANDER, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, NO_FORM, CeladonHomeDecorStore1FCharmanderDollScript, -1
 	object_event  9,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, SQUIRTLE, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, CeladonHomeDecorStore1FSquirtleDollScript, -1
 	object_event  0,  4, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonHomeDecorStore1FCooltrainerfText, -1
 
-CeladonHomeDecorStore1FBulbasaurDollScript:
+CeladonHomeDecorStore1FCReimuDollScript:
 	jumpthistext
 
 	text "It's a cute"
-	line "Bulbasaur doll!"
+	line "CReimu doll!"
 	done
 
 CeladonHomeDecorStore1FCharmanderDollScript:
@@ -51,22 +51,22 @@ CeladonHomeDecorStore1FClerkScript:
 	loadmenu .MenuData
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .BulbasaurDoll
+	ifequalfwd $1, .CReimuDoll
 	ifequalfwd $2, .CharmanderDoll
 	ifequalfwd $3, .SquirtleDoll
 	endtext
 
-.BulbasaurDoll:
+.CReimuDoll:
 	checkmoney $0, 16000
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_BULBASAUR_DOLL
+	checkevent EVENT_DECO_CREIMU_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 16000
-	setevent EVENT_DECO_BULBASAUR_DOLL
-	writetext BoughtBulbasaurDollText
+	setevent EVENT_DECO_CREIMU_DOLL
+	writetext BoughtCReimuDollText
 	playsound SFX_TRANSACTION
 	waitbutton
-	writetext BulbasaurDollSentText
+	writetext CReimuDollSentText
 	waitbutton
 	sjump .Start
 
@@ -117,7 +117,7 @@ CeladonHomeDecorStore1FClerkScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Bulbasaur  ¥16000@"
+	db "CReimu  ¥16000@"
 	db "Charmander ¥16000@"
 	db "Squirtle   ¥16000@"
 	db "Cancel@"
@@ -137,13 +137,13 @@ CeladonHomeDecorStore1FClerkText:
 	cont "Celadon souvenir?"
 	done
 
-BoughtBulbasaurDollText:
+BoughtCReimuDollText:
 	text "<PLAYER> bought"
-	line "Bulbasaur Doll."
+	line "CReimu Doll."
 	done
 
-BulbasaurDollSentText:
-	text "Bulbasaur Doll"
+CReimuDollSentText:
+	text "CReimu Doll"
 	line "was sent home."
 	done
 

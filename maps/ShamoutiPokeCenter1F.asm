@@ -49,7 +49,7 @@ ShamoutiPokeCenter1FIvyScript:
 	loadmenu .KantoStarterMenuData
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .Bulbasaur
+	ifequalfwd $1, .CReimu
 	ifequalfwd $2, .Charmander
 	ifequalfwd $3, .Squirtle
 	jumpthisopenedtext
@@ -61,14 +61,14 @@ ShamoutiPokeCenter1FIvyScript:
 	line "#mon…"
 	done
 
-.Bulbasaur:
+.CReimu:
 	writetext .ChoseKantoStarterText
 	promptbutton
 	waitsfx
-	givepoke BULBASAUR, PLAIN_FORM, 10, SITRUS_BERRY
+	givepoke CREIMU, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
-	getmonname BULBASAUR, STRING_BUFFER_3
-	setevent EVENT_GOT_BULBASAUR_FROM_IVY
+	getmonname CREIMU, STRING_BUFFER_3
+	setevent EVENT_GOT_CREIMU_FROM_IVY
 	sjumpfwd .Finish
 
 .Charmander:
@@ -210,7 +210,7 @@ ShamoutiPokeCenter1FIvyScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Bulbasaur@"
+	db "CReimu@"
 	db "Charmander@"
 	db "Squirtle@"
 	db "Cancel@"
