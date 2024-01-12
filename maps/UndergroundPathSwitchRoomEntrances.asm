@@ -180,10 +180,10 @@ UndergroundRivalBattleScript:
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext UndergroundRivalBeforeText
 	setevent EVENT_RIVAL_UNDERGROUND_PATH
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftruefwd .Chikorita
+	checkevent EVENT_GOT_CMARISA_FROM_ELM
+	iftruefwd .CMarisa
+	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
+	iftruefwd .CSakuya
 	winlosstext UndergroundRivalWinText, UndergroundRivalLossText
 	setlasttalked UNDERGROUNDPATHSWITCHROOMENTRANCES_RIVAL
 	loadtrainer RIVAL1, RIVAL1_12
@@ -192,7 +192,7 @@ UndergroundRivalBattleScript:
 	reloadmapafterbattle
 	sjumpfwd .FinishRivalBattle
 
-.Totodile:
+.CMarisa:
 	winlosstext UndergroundRivalWinText, UndergroundRivalLossText
 	setlasttalked UNDERGROUNDPATHSWITCHROOMENTRANCES_RIVAL
 	loadtrainer RIVAL1, RIVAL1_10
@@ -201,7 +201,7 @@ UndergroundRivalBattleScript:
 	reloadmapafterbattle
 	sjumpfwd .FinishRivalBattle
 
-.Chikorita:
+.CSakuya:
 	winlosstext UndergroundRivalWinText, UndergroundRivalLossText
 	setlasttalked UNDERGROUNDPATHSWITCHROOMENTRANCES_RIVAL
 	loadtrainer RIVAL1, RIVAL1_11

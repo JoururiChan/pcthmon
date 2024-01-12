@@ -122,18 +122,18 @@ NewBarkTown_LyraFinalTrigger:
 	setevent EVENT_LYRA_NEW_BARK_TOWN
 	winlosstext Text_LyraGoodbyeWin, Text_LyraGoodbyeLoss
 	setlasttalked NEWBARKTOWN_LYRA
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftruefwd .Chikorita
+	checkevent EVENT_GOT_CMARISA_FROM_ELM
+	iftruefwd .CMarisa
+	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
+	iftruefwd .CSakuya
 	loadtrainer LYRA1, LYRA1_10
 	sjumpfwd .AfterBattle
 
-.Totodile:
+.CMarisa:
 	loadtrainer LYRA1, LYRA1_11
 	sjumpfwd .AfterBattle
 
-.Chikorita:
+.CSakuya:
 	loadtrainer LYRA1, LYRA1_12
 .AfterBattle
 	startbattle

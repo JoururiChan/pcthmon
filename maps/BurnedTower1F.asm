@@ -65,10 +65,10 @@ BurnedTowerRivalBattleScript:
 	applyonemovement BURNEDTOWER1F_RIVAL, step_right
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext BurnedTowerRival_BeforeText
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftruefwd .totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftruefwd .chikorita
+	checkevent EVENT_GOT_CMARISA_FROM_ELM
+	iftruefwd .cmarisa
+	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
+	iftruefwd .csakuya
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
 	setlasttalked BURNEDTOWER1F_RIVAL
 	loadtrainer RIVAL1, RIVAL1_9
@@ -77,7 +77,7 @@ BurnedTowerRivalBattleScript:
 	reloadmapafterbattle
 	sjumpfwd .returnfrombattle
 
-.totodile
+.cmarisa
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
 	setlasttalked BURNEDTOWER1F_RIVAL
 	loadtrainer RIVAL1, RIVAL1_7
@@ -86,7 +86,7 @@ BurnedTowerRivalBattleScript:
 	reloadmapafterbattle
 	sjumpfwd .returnfrombattle
 
-.chikorita
+.csakuya
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
 	setlasttalked BURNEDTOWER1F_RIVAL
 	loadtrainer RIVAL1, RIVAL1_8

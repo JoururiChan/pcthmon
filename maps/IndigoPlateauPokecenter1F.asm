@@ -88,11 +88,11 @@ PlateauRivalBattleTrigger2:
 	faceobject PLAYER, INDIGOPLATEAUPOKECENTER1F_RIVAL
 	showtext PlateauRivalText1
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftruefwd .RivalTotodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftruefwd .RivalChikorita
-	; Cyndaquil
+	checkevent EVENT_GOT_CMARISA_FROM_ELM
+	iftruefwd .RivalCMarisa
+	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
+	iftruefwd .RivalCSakuya
+	; CReimu
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
 	loadtrainer RIVAL2, 6
@@ -101,7 +101,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .RivalPostBattle
 
-.RivalTotodile:
+.RivalCMarisa:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
 	loadtrainer RIVAL2, 4
@@ -110,7 +110,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .RivalPostBattle
 
-.RivalChikorita:
+.RivalCSakuya:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
 	loadtrainer RIVAL2, 5
@@ -151,11 +151,11 @@ PlateauRivalBattleTrigger2:
 	waitbutton
 	closetext
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_LYRA
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftruefwd .LyraTotodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftruefwd .LyraChikorita
-	; Cyndaquil
+	checkevent EVENT_GOT_CMARISA_FROM_ELM
+	iftruefwd .LyraCMarisa
+	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
+	iftruefwd .LyraCSakuya
+	; CReimu
 	winlosstext PlateauLyraWinText, PlateauLyraLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
 	loadtrainer LYRA2, 1
@@ -164,7 +164,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .LyraPostBattle
 
-.LyraTotodile:
+.LyraCMarisa:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
 	loadtrainer LYRA2, 2
@@ -173,7 +173,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .LyraPostBattle
 
-.LyraChikorita:
+.LyraCSakuya:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
 	loadtrainer LYRA2, 3

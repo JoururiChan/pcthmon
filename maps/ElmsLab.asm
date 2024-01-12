@@ -46,9 +46,9 @@ ElmsLab_MapScriptHeader:
 	def_object_events
 	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
 	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
-	object_event  6,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, CyndaquilPokeBallScript, EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
-	object_event  7,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, TotodilePokeBallScript, EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
-	object_event  8,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, ChikoritaPokeBallScript, EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
+	object_event  6,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, CReimuPokeBallScript, EVENT_CREIMU_POKEBALL_IN_ELMS_LAB
+	object_event  7,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, CMarisaPokeBallScript, EVENT_CMARISA_POKEBALL_IN_ELMS_LAB
+	object_event  8,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, CSakuyaPokeBallScript, EVENT_CSAKUYA_POKEBALL_IN_ELMS_LAB
 	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB
 	object_event  5, 11, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ElmsLabLyraScript, EVENT_LYRA_IN_ELMS_LAB
 
@@ -198,120 +198,120 @@ LabTryToLeaveScript:
 	applyonemovement PLAYER, step_up
 	end
 
-CyndaquilPokeBallScript:
+CReimuPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic CYNDAQUIL
-	cry CYNDAQUIL
+	pokepic CREIMU
+	cry CREIMU
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeCyndaquilText
+	writetext TakeCReimuText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
 	disappear ELMSLAB_POKE_BALL1
-	setevent EVENT_GOT_CYNDAQUIL_FROM_ELM
+	setevent EVENT_GOT_CREIMU_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CYNDAQUIL, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke CREIMU, PLAIN_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksChikoritaMovement
+	applymovement ELMSLAB_LYRA, LyraPicksCSakuyaMovement
 	pause 15
 	disappear ELMSLAB_POKE_BALL3
 	opentext
-	getmonname CHIKORITA, STRING_BUFFER_3
+	getmonname CSAKUYA, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	writetext LyraNicknamedChikoritaText
+	writetext LyraNicknamedCSakuyaText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraAfterChikoritaMovement
+	applymovement ELMSLAB_LYRA, LyraAfterCSakuyaMovement
 	readvar VAR_FACING
 	ifequalfwd RIGHT, ElmDirectionsScript
-	applymovement PLAYER, AfterCyndaquilMovement
+	applymovement PLAYER, AfterCReimuMovement
 	sjumpfwd ElmDirectionsScript
 
-TotodilePokeBallScript:
+CMarisaPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic TOTODILE
-	cry TOTODILE
+	pokepic CMARISA
+	cry CMARISA
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeTotodileText
+	writetext TakeCMarisaText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
 	disappear ELMSLAB_POKE_BALL2
-	setevent EVENT_GOT_TOTODILE_FROM_ELM
+	setevent EVENT_GOT_CMARISA_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke TOTODILE, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke CMARISA, PLAIN_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksCyndaquilMovement
+	applymovement ELMSLAB_LYRA, LyraPicksCReimuMovement
 	pause 15
 	disappear ELMSLAB_POKE_BALL1
 	opentext
-	getmonname CYNDAQUIL, STRING_BUFFER_3
+	getmonname CREIMU, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	writetext LyraNicknamedCyndaquilText
+	writetext LyraNicknamedCReimuText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraAfterCyndaquilMovement
-	applymovement PLAYER, AfterTotodileMovement
+	applymovement ELMSLAB_LYRA, LyraAfterCReimuMovement
+	applymovement PLAYER, AfterCMarisaMovement
 	sjumpfwd ElmDirectionsScript
 
-ChikoritaPokeBallScript:
+CSakuyaPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic CHIKORITA
-	cry CHIKORITA
+	pokepic CSAKUYA
+	cry CSAKUYA
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeChikoritaText
+	writetext TakeCSakuyaText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
 	disappear ELMSLAB_POKE_BALL3
-	setevent EVENT_GOT_CHIKORITA_FROM_ELM
+	setevent EVENT_GOT_CSAKUYA_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CHIKORITA, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke CSAKUYA, PLAIN_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksTotodileMovement
+	applymovement ELMSLAB_LYRA, LyraPicksCMarisaMovement
 	pause 15
 	disappear ELMSLAB_POKE_BALL2
 	opentext
-	getmonname TOTODILE, STRING_BUFFER_3
+	getmonname CMARISA, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	writetext LyraNicknamedTotodileText
+	writetext LyraNicknamedCMarisaText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraAfterTotodileMovement
-	applymovement PLAYER, AfterChikoritaMovement
+	applymovement ELMSLAB_LYRA, LyraAfterCMarisaMovement
+	applymovement PLAYER, AfterCSakuyaMovement
 	; fallthrough
 
 ElmDirectionsScript:
@@ -569,10 +569,10 @@ LyraBattleScript:
 	turnobject PLAYER, RIGHT
 	winlosstext ElmsLabLyraWinText, ElmsLabLyraLossText
 	setlasttalked ELMSLAB_LYRA
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftruefwd .Chikorita
+	checkevent EVENT_GOT_CMARISA_FROM_ELM
+	iftruefwd .CMarisa
+	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
+	iftruefwd .CSakuya
 	loadtrainer LYRA1, LYRA1_1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
@@ -583,7 +583,7 @@ LyraBattleScript:
 	iftruefwd .AfterYourDefeat
 	sjumpfwd .AfterVictorious
 
-.Totodile:
+.CMarisa:
 	loadtrainer LYRA1, LYRA1_2
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
@@ -594,7 +594,7 @@ LyraBattleScript:
 	iftruefwd .AfterVictorious
 	sjumpfwd .AfterYourDefeat
 
-.Chikorita:
+.CSakuya:
 	loadtrainer LYRA1, LYRA1_3
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
@@ -724,17 +724,17 @@ ElmsLab_WalkUpToElmMovement:
 	turn_head_left
 	step_end
 
-LyraPicksChikoritaMovement:
+LyraPicksCSakuyaMovement:
 	step_right
-LyraPicksTotodileMovement:
+LyraPicksCMarisaMovement:
 	step_right
-LyraPicksCyndaquilMovement:
+LyraPicksCReimuMovement:
 	step_right
 	step_right
 	step_up
 	step_end
 
-LyraAfterChikoritaMovement:
+LyraAfterCSakuyaMovement:
 	step_down
 	step_left
 	step_left
@@ -742,14 +742,14 @@ LyraAfterChikoritaMovement:
 	turn_head_up
 	step_end
 
-LyraAfterTotodileMovement:
+LyraAfterCMarisaMovement:
 	step_down
 	step_left
 	step_left
 	turn_head_up
 	step_end
 
-LyraAfterCyndaquilMovement:
+LyraAfterCReimuMovement:
 	step_down
 	step_left
 	turn_head_up
@@ -870,20 +870,20 @@ ElmsLab_ElmToDefaultPositionMovement:
 	turn_head_down
 	step_end
 
-AfterCyndaquilMovement:
+AfterCReimuMovement:
 	step_left
 	step_up
 	turn_head_up
 	step_end
 
-AfterTotodileMovement:
+AfterCMarisaMovement:
 	step_left
 	step_left
 	step_up
 	turn_head_up
 	step_end
 
-AfterChikoritaMovement:
+AfterCSakuyaMovement:
 	step_left
 	step_left
 	step_left
@@ -1020,21 +1020,21 @@ LabWhereGoingText:
 	line "are you going?"
 	done
 
-TakeCyndaquilText:
+TakeCReimuText:
 	text "Elm: You'll take"
-	line "Cyndaquil, the"
+	line "CReimu, the"
 	cont "fire #mon?"
 	done
 
-TakeTotodileText:
+TakeCMarisaText:
 	text "Elm: Do you want"
-	line "Totodile, the"
+	line "CMarisa, the"
 	cont "water #mon?"
 	done
 
-TakeChikoritaText:
+TakeCSakuyaText:
 	text "Elm: So, you like"
-	line "Chikorita, the"
+	line "CSakuya, the"
 	cont "grass #mon?"
 	done
 
@@ -1633,19 +1633,19 @@ LyraReceivedStarterText:
 	text "!"
 	done
 
-LyraNicknamedChikoritaText:
+LyraNicknamedCSakuyaText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
 	cont "name it Chicory!"
 	done
 
-LyraNicknamedCyndaquilText:
+LyraNicknamedCReimuText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
 	cont "name it Cinder!"
 	done
 
-LyraNicknamedTotodileText:
+LyraNicknamedCMarisaText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
 	cont "name it Toto!"

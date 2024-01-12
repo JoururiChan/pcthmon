@@ -1446,7 +1446,7 @@ Rival0Group:
 	; party
 	dbp 4, RATTATA
 		db NO_ITEM
-	dbp 5, CHIKORITA
+	dbp 5, CSAKUYA
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -1456,7 +1456,7 @@ Rival0Group:
 	; party
 	dbp 4, RATTATA
 		db NO_ITEM
-	dbp 5, CYNDAQUIL
+	dbp 5, CREIMU
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -1466,7 +1466,7 @@ Rival0Group:
 	; party
 	dbp 4, RATTATA
 		db NO_ITEM
-	dbp 5, TOTODILE
+	dbp 5, CMARISA
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -1937,7 +1937,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 5, CHIKORITA
+	dbp 5, CSAKUYA
 		db "Chicory@"
 	db -1 ; end
 
@@ -1945,7 +1945,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 5, CYNDAQUIL
+	dbp 5, CREIMU
 		db "Cinder@"
 	db -1 ; end
 
@@ -1953,7 +1953,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 5, TOTODILE
+	dbp 5, CMARISA
 		db "Toto@"
 	db -1 ; end
 
@@ -8704,7 +8704,7 @@ AromaLadyGroup:
 	db "Heather@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 35, CHIKORITA
+	dbp 35, CSAKUYA
 	dbp 45, BAYLEEF
 	dbp 55, MEGANIUM
 	db -1 ; end
@@ -10028,9 +10028,9 @@ ProfElmGroup:
 	; TODO: movesets, etc
 	dbp LEVEL_FROM_BADGES + 3, HOOTHOOT
 	dbp LEVEL_FROM_BADGES + 4, JIGGLYPUFF
-	dbp LEVEL_FROM_BADGES + 5, CYNDAQUIL
-	dbp LEVEL_FROM_BADGES + 5, CHIKORITA
-	dbp LEVEL_FROM_BADGES + 5, TOTODILE
+	dbp LEVEL_FROM_BADGES + 5, CREIMU
+	dbp LEVEL_FROM_BADGES + 5, CSAKUYA
+	dbp LEVEL_FROM_BADGES + 5, CMARISA
 	db -1 ; end
 
 	; PROF_ELM

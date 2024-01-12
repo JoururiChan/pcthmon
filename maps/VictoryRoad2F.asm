@@ -37,10 +37,10 @@ VictoryRoadRivalLeft:
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext VictoryRoadRivalBeforeText
 	setevent EVENT_RIVAL_VICTORY_ROAD
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftruefwd .GotTotodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftruefwd .GotChikorita
+	checkevent EVENT_GOT_CMARISA_FROM_ELM
+	iftruefwd .GotCMarisa
+	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
+	iftruefwd .GotCSakuya
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD2F_RIVAL
 	loadtrainer RIVAL1, RIVAL1_15
@@ -49,7 +49,7 @@ VictoryRoadRivalLeft:
 	reloadmapafterbattle
 	sjumpfwd .AfterBattle
 
-.GotTotodile:
+.GotCMarisa:
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD2F_RIVAL
 	loadtrainer RIVAL1, RIVAL1_13
@@ -58,7 +58,7 @@ VictoryRoadRivalLeft:
 	reloadmapafterbattle
 	sjumpfwd .AfterBattle
 
-.GotChikorita:
+.GotCSakuya:
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD2F_RIVAL
 	loadtrainer RIVAL1, RIVAL1_14

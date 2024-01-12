@@ -238,16 +238,16 @@ LyraPhoneScript2:
 	end
 
 .LyrasEgg:
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftruefwd .lyrasegg_totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftruefwd .lyrasegg_chikorita
+	checkevent EVENT_GOT_CMARISA_FROM_ELM
+	iftruefwd .lyrasegg_cmarisa
+	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
+	iftruefwd .lyrasegg_csakuya
 	getstring .Chicory, $1
 	sjumpfwd .lyrasegg_end
-.lyrasegg_totodile
+.lyrasegg_cmarisa
 	getstring .Cinder, $1
 	sjumpfwd .lyrasegg_end
-.lyrasegg_chikorita:
+.lyrasegg_csakuya:
 	getstring .Toto, $1
 .lyrasegg_end
 	farwritetext LyraPhoneSpecialText_LyrasEgg

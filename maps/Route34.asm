@@ -109,10 +109,10 @@ Route34LyraTrigger2:
 	pause 10
 	showtext Route34LyraChallengeText
 	setevent EVENT_LYRA_ROUTE_34
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftruefwd .Chikorita
+	checkevent EVENT_GOT_CMARISA_FROM_ELM
+	iftruefwd .CMarisa
+	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
+	iftruefwd .CSakuya
 	winlosstext Route34LyraWinText, Route34LyraLossText
 	setlasttalked ROUTE34_LYRA
 	loadtrainer LYRA1, LYRA1_4
@@ -123,7 +123,7 @@ Route34LyraTrigger2:
 	playmusic MUSIC_LYRA_DEPARTURE_HGSS
 	sjumpfwd .AfterBattle
 
-.Totodile:
+.CMarisa:
 	winlosstext Route34LyraWinText, Route34LyraLossText
 	setlasttalked ROUTE34_LYRA
 	loadtrainer LYRA1, LYRA1_5
@@ -133,7 +133,7 @@ Route34LyraTrigger2:
 	playmusic MUSIC_LYRA_DEPARTURE_HGSS
 	sjumpfwd .AfterBattle
 
-.Chikorita:
+.CSakuya:
 	winlosstext Route34LyraWinText, Route34LyraLossText
 	setlasttalked ROUTE34_LYRA
 	loadtrainer LYRA1, LYRA1_6
