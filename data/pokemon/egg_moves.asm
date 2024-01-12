@@ -147,7 +147,7 @@ OddishEggMoves:
 	db $ff
 
 ParasEggMoves:
-	db AGILITY
+	db SAKUYA_WORLD
 	db LEECH_SEED
 	db METAL_CLAW
 	db PSYBEAM
@@ -157,7 +157,7 @@ ParasEggMoves:
 	db $ff
 
 VenonatEggMoves:
-	db AGILITY
+	db SAKUYA_WORLD
 	db BATON_PASS
 	db HEALINGLIGHT
 	db SCREECH
@@ -206,7 +206,7 @@ MankeyEggMoves:
 	db COUNTER
 	db GUNK_SHOT
 	db NIGHT_SLASH
-	db CLOSE_COMBAT
+	db SCULPTURE
 	db $ff
 
 GrowlitheEggMoves:
@@ -219,7 +219,7 @@ GrowlitheHisuianEggMoves:
 	db FLARE_BLITZ
 	db BODY_SLAM
 	db SAFEGUARD
-	db CLOSE_COMBAT
+	db SCULPTURE
 	db $ff
 
 PoliwagEggMoves:
@@ -243,7 +243,7 @@ MachopEggMoves:
 	db BULK_UP
 	db LIGHT_SCREEN
 	db MACH_PUNCH
-	db CLOSE_COMBAT
+	db SCULPTURE
 	db KNOCK_OFF
 	db $ff
 
@@ -384,7 +384,7 @@ DrowzeeEggMoves:
 	db $ff
 
 KrabbyEggMoves:
-	db AGILITY
+	db SAKUYA_WORLD
 	db HAZE
 	db AMNESIA
 	db DIG
@@ -477,7 +477,7 @@ PinsirEggMoves:
 	db FEINT_ATTACK
 	db FURY_STRIKES
 	db QUICK_ATTACK
-	db CLOSE_COMBAT
+	db SCULPTURE
 	db $ff
 
 LaprasEggMoves:
@@ -547,7 +547,7 @@ CyndaquilEggMoves:
 	db FORESIGHT
 	db FURY_STRIKES
 	db REVERSAL
-	db CLOSE_COMBAT
+	db SCULPTURE
 	db THRASH
 	db QUICK_ATTACK
 	db $ff
@@ -575,7 +575,7 @@ SentretEggMoves:
 	db $ff
 
 HoothootEggMoves:
-	db AGILITY
+	db SAKUYA_WORLD
 	db FEINT_ATTACK
 	db NIGHT_SHADE
 	db SUPERSONIC
@@ -607,7 +607,7 @@ SpinarakEggMoves:
 	db $ff
 
 ChinchouEggMoves:
-	db AGILITY
+	db SAKUYA_WORLD
 	db HAZE
 	db PSYBEAM
 	db SCREECH
@@ -656,7 +656,7 @@ NatuEggMoves:
 	db $ff
 
 MareepEggMoves:
-	db AGILITY
+	db SAKUYA_WORLD
 	db REFLECT
 	db MUD_SLAP
 	db SCREECH
@@ -732,7 +732,7 @@ PinecoEggMoves:
 	db $ff
 
 DunsparceEggMoves:
-	db AGILITY
+	db SAKUYA_WORLD
 	db ASTONISH
 	db BITE
 	db RAGE
@@ -742,7 +742,7 @@ DunsparceEggMoves:
 	db $ff
 
 GligarEggMoves:
-	db AGILITY
+	db SAKUYA_WORLD
 	db BATON_PASS
 	db METAL_CLAW
 	db WING_ATTACK
@@ -758,7 +758,7 @@ SnubbullEggMoves:
 	db CRUNCH
 	db HEAL_BELL
 	db LICK
-	db CLOSE_COMBAT
+	db SCULPTURE
 	db $ff
 
 QwilfishEggMoves:
@@ -811,7 +811,7 @@ TeddiursaEggMoves:
 	db COUNTER
 	db GUNK_SHOT
 	db NIGHT_SLASH
-	db CLOSE_COMBAT
+	db SCULPTURE
 	db $ff
 
 SlugmaEggMoves:

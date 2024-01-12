@@ -603,7 +603,7 @@ EvasionDownHit:
 	posthiteffects
 	endmove
 
-CloseCombat:
+Sculpture:
 	checkobedience
 	usedmovetext
 	doturn
@@ -868,7 +868,7 @@ DragonDance:
 	forceraisestat SPEED
 	endmove
 
-HoneClaws:
+HoneTools:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1331,7 +1331,7 @@ Substitute:
 	substitute
 	endmove
 
-HyperBeam:
+MasterSpark:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1438,7 +1438,7 @@ Encore:
 	encore
 	endmove
 
-PainSplit:
+LifeBalance:
 	checkobedience
 	usedmovetext
 	doturn

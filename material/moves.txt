@@ -47,7 +47,7 @@ FGyoku: Hurricane, Baton Pass, Draining Kiss
 Raichu: Draining Kiss, Play Rough, Safeguard
 Clefairy/Clefable: Baton Pass
 Vulpix: Encore
-Ninetales: Agility
+Ninetales: SakuyaWorld
 Arcanine: Scary Face
 Bellossom: Baton Pass
 Gengar: Nasty Plot, Encore

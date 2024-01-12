@@ -35,7 +35,7 @@
 	const FOCUS_BLAST  ; $1b
 	const TOXIC_SPIKES ; $1c
 	const HEADBUTT     ; $1d
-	const HORN_ATTACK  ; $1e
+	const KNIFE_THROW  ; $1e
 	const TRICK        ; $1f
 	const HEX          ; $20
 	const TACKLE       ; $21
@@ -71,7 +71,7 @@
 	const MASTER_SPARK   ; $3f
 	const PECK         ; $40
 	const DRILL_PECK   ; $41
-	const CLOSE_COMBAT ; $42
+	const SCULPTURE ; $42
 	const LOW_KICK     ; $43
 	const COUNTER      ; $44
 	const SEISMIC_TOSS ; $45
@@ -102,7 +102,7 @@
 	const PSYCHIC_M    ; $5e
 	const HYPNOSIS     ; $5f
 	const HONE_TOOLS   ; $60
-	const AGILITY      ; $61
+	const SAKUYA_WORLD      ; $61
 	const QUICK_ATTACK ; $62
 	const RAGE         ; $63
 	const TELEPORT     ; $64

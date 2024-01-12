@@ -66,9 +66,9 @@ SFX:
 	fardw Sfx_DoubleKick
 	fardw Sfx_MegaKick
 	fardw Sfx_Headbutt
-	fardw Sfx_HornAttack
+	fardw Sfx_KnifeThrow
 	fardw Sfx_Tackle
-	fardw Sfx_PoisonSting
+	fardw Sfx_SealNeedle
 	fardw Sfx_Powder
 	fardw Sfx_DoubleSlap
 	fardw Sfx_Bite
@@ -95,7 +95,7 @@ SFX:
 	fardw Sfx_Sharpen
 	fardw Sfx_EggBomb
 	fardw Sfx_Sing
-	fardw Sfx_HyperBeam
+	fardw Sfx_MasterSpark
 	fardw Sfx_Shine
 	fardw Sfx_Unknown5F
 	fardw Sfx_Unknown60

@@ -31,7 +31,7 @@ BattleAnimations::
 	dw BattleAnim_FocusBlast
 	dw BattleAnim_ToxicSpikes
 	dw BattleAnim_Headbutt
-	dw BattleAnim_HornAttack
+	dw BattleAnim_KnifeThrow
 	dw BattleAnim_Trick
 	dw BattleAnim_Hex
 	dw BattleAnim_Tackle
@@ -41,9 +41,9 @@ BattleAnimations::
 	dw BattleAnim_Thrash
 	dw BattleAnim_DoubleEdge
 	dw BattleAnim_Hail
-	dw BattleAnim_PoisonSting
+	dw BattleAnim_SealNeedle
 	dw BattleAnim_UTurn
-	dw BattleAnim_PinMissile
+	dw BattleAnim_PWJNeedle
 	dw BattleAnim_Leer
 	dw BattleAnim_Bite
 	dw BattleAnim_Growl
@@ -54,7 +54,7 @@ BattleAnimations::
 	dw BattleAnim_Disable
 	dw BattleAnim_Acid
 	dw BattleAnim_Ember
-	dw BattleAnim_Flamethrower
+	dw BattleAnim_MeteorFall
 	dw BattleAnim_CalmMind
 	dw BattleAnim_WaterGun
 	dw BattleAnim_HydroPump
@@ -64,10 +64,10 @@ BattleAnimations::
 	dw BattleAnim_Psybeam
 	dw BattleAnim_BubbleBeam
 	dw BattleAnim_AuroraBeam
-	dw BattleAnim_HyperBeam
+	dw BattleAnim_MasterSpark
 	dw BattleAnim_Peck
 	dw BattleAnim_DrillPeck
-	dw BattleAnim_CloseCombat
+	dw BattleAnim_Sculpture
 	dw BattleAnim_LowKick
 	dw BattleAnim_Counter
 	dw BattleAnim_SeismicToss
@@ -78,7 +78,7 @@ BattleAnimations::
 	dw BattleAnim_Growth
 	dw BattleAnim_RazorLeaf
 	dw BattleAnim_SolarBeam
-	dw BattleAnim_Poisonpowder
+	dw BattleAnim_ToxicGas
 	dw BattleAnim_StunSpore
 	dw BattleAnim_SleepPowder
 	dw BattleAnim_PetalDance
@@ -94,11 +94,11 @@ BattleAnimations::
 	dw BattleAnim_Avalanche
 	dw BattleAnim_Dig
 	dw BattleAnim_Toxic
-	dw BattleAnim_Confusion
+	dw BattleAnim_Psyshot
 	dw BattleAnim_PsychicM
 	dw BattleAnim_Hypnosis
-	dw BattleAnim_HoneClaws
-	dw BattleAnim_Agility
+	dw BattleAnim_HoneTools
+	dw BattleAnim_SakuyaWorld
 	dw BattleAnim_QuickAttack
 	dw BattleAnim_Rage
 	dw BattleAnim_Teleport
@@ -144,7 +144,7 @@ BattleAnimations::
 	dw BattleAnim_BulletPunch
 	dw BattleAnim_LeechLife
 	dw BattleAnim_DrainKiss
-	dw BattleAnim_BraveBird
+	dw BattleAnim_DiveKick
 	dw BattleAnim_Transform
 	dw BattleAnim_WaterPulse
 	dw BattleAnim_DizzyPunch
@@ -199,7 +199,7 @@ BattleAnimations::
 	dw BattleAnim_PerishSong
 	dw BattleAnim_IcyWind
 	dw BattleAnim_PowerGem
-	dw BattleAnim_WildCharge
+	dw BattleAnim_BlazeStar
 	dw BattleAnim_PowerWhip
 	dw BattleAnim_Outrage
 	dw BattleAnim_Sandstorm
@@ -221,7 +221,7 @@ BattleAnimations::
 	dw BattleAnim_Psystrike
 	dw BattleAnim_BugBuzz
 	dw BattleAnim_Safeguard
-	dw BattleAnim_PainSplit
+	dw BattleAnim_LifeBalance
 	dw BattleAnim_SacredFire
 	dw BattleAnim_Magnitude
 	dw BattleAnim_Dynamicpunch
@@ -848,11 +848,11 @@ BattleAnim_HiJumpKick:
 BattleAnim_FocusBlast:
 	anim_2gfx ANIM_GFX_LEAF_STORM, ANIM_GFX_WIND
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
-	anim_obj ANIM_OBJ_AGILITY, 8, 24, $10
-	anim_obj ANIM_OBJ_AGILITY, 8, 88, $8
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 24, $10
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 88, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_AGILITY, 8, 32, $6
-	anim_obj ANIM_OBJ_AGILITY, 8, 80, $4
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 32, $6
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 80, $4
 	anim_sound 6, 2, SFX_OUTRAGE
 	anim_obj ANIM_OBJ_VORTEX_YELLOW, 48, 96, $30
 	anim_wait 63
@@ -983,7 +983,7 @@ BattleAnim_DragonRage:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_Flamethrower:
+BattleAnim_MeteorFall:
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_1gfx ANIM_GFX_FIRE
 	anim_sound 6, 2, SFX_EMBER
@@ -1557,7 +1557,7 @@ BattleAnim_Sing:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_Poisonpowder:
+BattleAnim_ToxicGas:
 	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_PURPLE
 	anim_call BattleAnim_SubPowder
 	anim_ret
@@ -1595,7 +1595,7 @@ BattleAnim_SubPowder:
 	anim_wait 96
 	anim_ret
 
-BattleAnim_HyperBeam:
+BattleAnim_MasterSpark:
 	anim_1gfx ANIM_GFX_BEAM
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $30, $4, $10
 	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $40
@@ -1703,17 +1703,17 @@ BattleAnim_FuryAttack: ; removed
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_obj ANIM_OBJ_HORN,   9, 0,   9, 0, $2
 	anim_wait 8
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HIT,  16, 0,   5, 0, $0
 	anim_wait 8
 	anim_obj ANIM_OBJ_HORN,  10, 0,  11, 0, $2
 	anim_wait 8
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HIT, -15, 0,   7, 0, $0
 	anim_wait 8
 	anim_obj ANIM_OBJ_HORN,   9, 4,  10, 0, $2
 	anim_wait 8
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HIT, -16, 4,   6, 0, $0
 	anim_wait 8
 	anim_ret
@@ -2030,7 +2030,7 @@ BattleAnim_Wrap:
 	anim_wait 96
 	anim_ret
 
-BattleAnim_Confusion:
+BattleAnim_Psyshot:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_UserObj_2Row
 	anim_sound 0, 1, SFX_PSYCHIC
@@ -2409,17 +2409,17 @@ BattleAnim_DoubleEdge:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_CloseCombat:
+BattleAnim_Sculpture:
 	anim_2gfx ANIM_GFX_WIND, ANIM_GFX_HIT
 	anim_sound 0, 0, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_AGILITY, 8, 24, $10
-	anim_obj ANIM_OBJ_AGILITY, 8, 48, $2
-	anim_obj ANIM_OBJ_AGILITY, 8, 88, $8
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 24, $10
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 48, $2
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 88, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_AGILITY, 8, 32, $6
-	anim_obj ANIM_OBJ_AGILITY, 8, 56, $c
-	anim_obj ANIM_OBJ_AGILITY, 8, 80, $4
-	anim_obj ANIM_OBJ_AGILITY, 8, 104, $e
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 32, $6
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 56, $c
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 80, $4
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 104, $e
 	anim_wait 12
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $60, $2, $0
 	anim_bgp $90
@@ -2530,12 +2530,12 @@ BattleAnim_Mist:
 	anim_wait 96
 	anim_ret
 
-BattleAnim_HornAttack:
+BattleAnim_KnifeThrow:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GRAY
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_obj ANIM_OBJ_HORN,   9, 0,  10, 0, $1
 	anim_wait 16
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HIT_YFIX, -15, 0,   7, 0, $0
 	anim_wait 16
 	anim_ret
@@ -2545,22 +2545,22 @@ BattleAnim_IcicleCrash:
 	anim_obj ANIM_OBJ_ICICLE,   9, 0,  10, 0, $3
 	anim_wait 8
 .loop
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, -16, 4,   5, 0, $0
 	anim_wait 8
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, -15, 4,   6, 0, $0
 	anim_wait 8
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, -16, 4,   7, 0, $0
 	anim_wait 8
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX,  15, 4,   6, 0, $0
 	anim_wait 8
 	anim_loop 3, .loop
 	anim_ret
 
-BattleAnim_PoisonSting:
+BattleAnim_SealNeedle:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_PURPLE
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_obj ANIM_OBJ_NEEDLE,   8, 0,  11, 4, $14
@@ -2573,7 +2573,7 @@ BattleAnim_PoisonSting:
 BattleAnim_PoisonJab:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_PURPLE
 	anim_3gfx ANIM_GFX_HORN, ANIM_GFX_HIT, ANIM_GFX_POISON
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HORN,   9, 0,  12, 0, $1
 	anim_wait 6
 	anim_obj ANIM_OBJ_HIT_YFIX, 17, 0,  7, 0, $0
@@ -2583,7 +2583,7 @@ BattleAnim_PoisonJab:
 	anim_wait 24
 	anim_ret
 
-BattleAnim_PinMissile:
+BattleAnim_PWJNeedle:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GRAY
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 .loop
@@ -2607,17 +2607,17 @@ BattleAnim_IcicleSpear:
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_obj ANIM_OBJ_ICICLE,   9, 0,   9, 0, $2
 	anim_wait 8
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HIT,  16, 0,   5, 0, $0
 	anim_wait 8
 	anim_obj ANIM_OBJ_ICICLE,  10, 0,  11, 0, $2
 	anim_wait 8
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HIT, -15, 0,   7, 0, $0
 	anim_wait 8
 	anim_obj ANIM_OBJ_ICICLE,   9, 4,  10, 0, $2
 	anim_wait 8
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_obj ANIM_OBJ_HIT, -16, 4,   6, 0, $0
 	anim_wait 8
 	anim_ret
@@ -2929,7 +2929,7 @@ BattleAnim_Minimize:
 	anim_wait 12
 	anim_ret
 
-BattleAnim_BraveBird:
+BattleAnim_DiveKick:
 	anim_1gfx ANIM_GFX_SKY_ATTACK
 	anim_bgeffect ANIM_BG_HIDE_MON, $0, $1, $0
 	anim_bgeffect ANIM_BG_REMOVE_MON, $0, $1, $0
@@ -3198,7 +3198,7 @@ BattleAnim_DragonDance:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_HoneClaws:
+BattleAnim_HoneTools:
 	anim_1gfx ANIM_GFX_CUT
 .loop
 	anim_sound 0, 1, SFX_SCRATCH
@@ -3338,19 +3338,19 @@ BattleAnim_Rage:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Agility:
+BattleAnim_SakuyaWorld:
 	anim_1gfx ANIM_GFX_WIND
 	anim_obp0 $fc
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,   3, 0, $10
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,   6, 0, $2
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,  11, 0, $8
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   3, 0, $10
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   6, 0, $2
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  11, 0, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,   4, 0, $6
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,   7, 0, $c
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,  10, 0, $4
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,  13, 0, $e
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   4, 0, $6
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   7, 0, $c
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  10, 0, $4
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  13, 0, $e
 .loop
 	anim_sound 0, 0, SFX_RAZOR_WIND
 	anim_wait 4
@@ -4159,14 +4159,14 @@ BattleAnim_AuraSphere:
 	anim_2gfx ANIM_GFX_BEAM, ANIM_GFX_WIND
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
-	anim_obj ANIM_OBJ_AGILITY, 1, 0, 3, 0, $10
-	anim_obj ANIM_OBJ_AGILITY, 1, 0, 6, 0, $2
-	anim_obj ANIM_OBJ_AGILITY, 1, 0, 11, 0, $8
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 3, 0, $10
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 6, 0, $2
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 11, 0, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_AGILITY, 1, 0, 4, 0, $6
-	anim_obj ANIM_OBJ_AGILITY, 1, 0, 7, 0, $c
-	anim_obj ANIM_OBJ_AGILITY, 1, 0, 10, 0, $4
-	anim_obj ANIM_OBJ_AGILITY, 1, 0, 13, 0, $e
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 4, 0, $6
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 7, 0, $c
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 10, 0, $4
+	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 13, 0, $e
 	anim_sound 0, 0, SFX_RAZOR_WIND
 	anim_wait 32
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $8, $2, $10
@@ -4573,7 +4573,7 @@ BattleAnim_Spark:
 	anim_wait 32
 	anim_ret
 
-BattleAnim_WildCharge:
+BattleAnim_BlazeStar:
 	anim_2gfx ANIM_GFX_LIGHTNING, ANIM_GFX_EXPLOSION
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_sound 0, 0, SFX_ZAP_CANNON
@@ -4757,7 +4757,7 @@ BattleAnim_Safeguard:
 	anim_wait 96
 	anim_ret
 
-BattleAnim_PainSplit:
+BattleAnim_LifeBalance:
 	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_OBJECTS
 	anim_call BattleAnim_TargetObj_2Row
 	anim_bgeffect ANIM_BG_BODY_SLAM, $0, $1, $0
@@ -4878,7 +4878,7 @@ BattleAnim_Megahorn:
 	anim_wait 48
 	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $3
 	anim_obj ANIM_OBJ_HORN,   9, 0,  10, 0, $1
-	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_sound 0, 1, SFX_KNIFE_THROW
 	anim_wait 16
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, -15, 0,   7, 0, $0
 	anim_wait 16
@@ -5434,14 +5434,14 @@ BattleAnim_FutureSight:
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
 	anim_bgeffect ANIM_BG_PSYCHIC, $0, $0, $0
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,   3, 0, $10
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,   6, 0, $2
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,  11, 0, $8
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   3, 0, $10
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   6, 0, $2
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  11, 0, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,   4, 0, $6
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,   7, 0, $c
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,  10, 0, $4
-	anim_obj ANIM_OBJ_AGILITY,   1, 0,  13, 0, $e
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   4, 0, $6
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   7, 0, $c
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  10, 0, $4
+	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  13, 0, $e
 .loop
 	anim_sound 0, 0, SFX_THROW_BALL
 	anim_wait 16

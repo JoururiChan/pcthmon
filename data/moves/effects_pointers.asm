@@ -54,7 +54,7 @@ MoveEffectsPointers:
 	dw CalmMind
 	dw Growth
 	dw DragonDance
-	dw HoneClaws
+	dw HoneTools
 	dw DefenseCurl
 	dw Minimize
 	dw ShellSmash
@@ -88,7 +88,7 @@ MoveEffectsPointers:
 	dw StaticDamage
 	dw Transform
 	dw Substitute
-	dw HyperBeam
+	dw MasterSpark
 	dw Rage
 	dw Metronome
 	dw LeechSeed
@@ -96,7 +96,7 @@ MoveEffectsPointers:
 	dw Disable
 	dw Counter
 	dw Encore
-	dw PainSplit
+	dw LifeBalance
 	dw Sketch
 	dw SleepTalk
 	dw DestinyBond
@@ -144,7 +144,7 @@ MoveEffectsPointers:
 	dw SuckerPunch
 	dw ToxicSpikes
 	dw Roost
-	dw CloseCombat
+	dw Sculpture
 	dw SkillSwap
 	dw Trick
 	dw KnockOff

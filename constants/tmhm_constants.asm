@@ -122,7 +122,7 @@ MACRO add_mt
 	add_tmnum \1
 ENDM
 
-	add_mt AGILITY      ; $51
+	add_mt SAKUYA_WORLD      ; $51
 	add_mt AQUA_TAIL    ; $52
 	add_mt BATON_PASS   ; $53
 	add_mt BODY_SLAM    ; $54

@@ -66,7 +66,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_Sludge
 	dw BattleAnimFunction_MetronomeHand
 	dw BattleAnimFunction_MetronomeSparkleSketch
-	dw BattleAnimFunction_Agility
+	dw BattleAnimFunction_SakuyaWorld
 	dw BattleAnimFunction_SacredFire
 	dw BattleAnimFunction_SafeguardProtect
 	dw BattleAnimFunction_LockOnMindReader
@@ -3528,7 +3528,7 @@ BattleAnimFunction_MetronomeSparkleSketch:
 	inc [hl]
 	ret
 
-BattleAnimFunction_Agility:
+BattleAnimFunction_SakuyaWorld:
 	call BattleAnim_AnonJumptable
 .anon_dw
 	dw .zero

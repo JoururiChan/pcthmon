@@ -334,13 +334,13 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_PARALYZE,          AI_Smart_Paralyze
 	dbw EFFECT_SPEED_DOWN_HIT,    AI_Smart_SpeedDownHit
 	dbw EFFECT_SUBSTITUTE,        AI_Smart_Substitute
-	dbw EFFECT_MASTER_SPARK,        AI_Smart_HyperBeam
+	dbw EFFECT_MASTER_SPARK,        AI_Smart_MasterSpark
 	dbw EFFECT_RAGE,              AI_Smart_Rage
 	dbw EFFECT_LEECH_SEED,        AI_Smart_LeechSeed
 	dbw EFFECT_DISABLE,           AI_Smart_Disable
 	dbw EFFECT_COUNTER,           AI_Smart_Counter
 	dbw EFFECT_ENCORE,            AI_Smart_Encore
-	dbw EFFECT_LIFE_BALANCE,        AI_Smart_PainSplit
+	dbw EFFECT_LIFE_BALANCE,        AI_Smart_LifeBalance
 	dbw EFFECT_SLEEP_TALK,        AI_Smart_SleepTalk
 	dbw EFFECT_DESTINY_BOND,      AI_Smart_DestinyBond
 	dbw EFFECT_HEAL_BELL,         AI_Smart_HealBell
@@ -999,7 +999,7 @@ AI_Smart_Substitute:
 	ret c
 	jmp AIDiscourageMove
 
-AI_Smart_HyperBeam:
+AI_Smart_MasterSpark:
 	call AICheckEnemyHalfHP
 	jr c, .discourage
 
@@ -1161,7 +1161,7 @@ AI_Smart_Encore:
 
 INCLUDE "data/battle/ai/encore_moves.asm"
 
-AI_Smart_PainSplit:
+AI_Smart_LifeBalance:
 ; Discourage this move if [enemy's current HP * 2 > player's current HP].
 
 	push hl

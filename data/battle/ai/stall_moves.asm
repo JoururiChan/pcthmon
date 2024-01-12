@@ -2,7 +2,7 @@
 ; when the player's HP is low.
 
 StallMoves:
-	db AGILITY
+	db SAKUYA_WORLD
 	db BARRIER
 	db BULK_UP
 	db CALM_MIND

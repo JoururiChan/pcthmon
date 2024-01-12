@@ -1006,7 +1006,7 @@ Sfx_Headbutt:
 	sound_ret
 
 
-Sfx_HornAttack:
+Sfx_KnifeThrow:
 	channel_count 1
 	channel 8, .Ch8
 
@@ -1027,7 +1027,7 @@ Sfx_Tackle:
 	sound_ret
 
 
-Sfx_PoisonSting:
+Sfx_SealNeedle:
 	channel_count 1
 	channel 8, .Ch8
 
@@ -1639,7 +1639,7 @@ Sfx_Sing:
 	sound_ret
 
 
-Sfx_HyperBeam:
+Sfx_MasterSpark:
 	channel_count 3
 	channel 5, .Ch5
 	channel 6, .Ch6

@@ -30,7 +30,7 @@ MoveDescriptions::
 	dw FocusBlastDescription
 	dw ToxicSpikesDescription
 	dw HeadbuttDescription
-	dw HornAttackDescription
+	dw KnifeThrowDescription
 	dw TrickDescription
 	dw HexDescription
 	dw TackleDescription
@@ -40,9 +40,9 @@ MoveDescriptions::
 	dw ThrashDescription
 	dw DoubleEdgeDescription
 	dw HailDescription
-	dw PoisonStingDescription
+	dw SealNeedleDescription
 	dw UTurnDescription
-	dw PinMissileDescription
+	dw PWJNeedleDescription
 	dw LeerDescription
 	dw BiteDescription
 	dw GrowlDescription
@@ -53,7 +53,7 @@ MoveDescriptions::
 	dw DisableDescription
 	dw AcidDescription
 	dw EmberDescription
-	dw FlamethrowerDescription
+	dw MeteorFallDescription
 	dw CalmMindDescription
 	dw WaterGunDescription
 	dw HydroPumpDescription
@@ -63,10 +63,10 @@ MoveDescriptions::
 	dw PsybeamDescription
 	dw BubbleBeamDescription
 	dw AuroraBeamDescription
-	dw HyperBeamDescription
+	dw MasterSparkDescription
 	dw PeckDescription
 	dw DrillPeckDescription
-	dw CloseCombatDescription
+	dw SculptureDescription
 	dw LowKickDescription
 	dw CounterDescription
 	dw SeismicTossDescription
@@ -77,7 +77,7 @@ MoveDescriptions::
 	dw GrowthDescription
 	dw RazorLeafDescription
 	dw SolarBeamDescription
-	dw PoisonpowderDescription
+	dw ToxicGasDescription
 	dw StunSporeDescription
 	dw SleepPowderDescription
 	dw PetalDanceDescription
@@ -93,11 +93,11 @@ MoveDescriptions::
 	dw AvalancheDescription
 	dw DigDescription
 	dw ToxicDescription
-	dw ConfusionDescription
+	dw PsyshotDescription
 	dw PsychicMDescription
 	dw HypnosisDescription
-	dw HoneClawsDescription
-	dw AgilityDescription
+	dw HoneToolsDescription
+	dw SakuyaWorldDescription
 	dw QuickAttackDescription
 	dw RageDescription
 	dw TeleportDescription
@@ -143,7 +143,7 @@ MoveDescriptions::
 	dw BulletPunchDescription
 	dw LeechLifeDescription
 	dw DrainKissDescription
-	dw BraveBirdDescription
+	dw DiveKickDescription
 	dw TransformDescription
 	dw WaterPulseDescription
 	dw DizzyPunchDescription
@@ -198,7 +198,7 @@ MoveDescriptions::
 	dw PerishSongDescription
 	dw IcyWindDescription
 	dw PowerGemDescription
-	dw WildChargeDescription
+	dw BlazeStarDescription
 	dw PowerWhipDescription
 	dw OutrageDescription
 	dw SandstormDescription
@@ -220,7 +220,7 @@ MoveDescriptions::
 	dw PsystrikeDescription
 	dw BugBuzzDescription
 	dw SafeguardDescription
-	dw PainSplitDescription
+	dw LifeBalanceDescription
 	dw SacredFireDescription
 	dw MagnitudeDescription
 	dw DynamicpunchDescription
@@ -315,7 +315,7 @@ FuryStrikesDescription:
 	next "2-5 times."
 	done
 
-PinMissileDescription:
+PWJNeedleDescription:
 	text "Fires pins that"
 	next "strike 2-5 times."
 	done
@@ -337,8 +337,8 @@ DoubleEdgeDescription:
 	done
 
 FlareBlitzDescription:
-WildChargeDescription:
-BraveBirdDescription:
+BlazeStarDescription:
+DiveKickDescription:
 	text "A charge that also"
 	next "hurts the user."
 	done
@@ -360,7 +360,7 @@ IcicleCrashDescription:
 	next "cause flinching."
 	done
 
-PoisonStingDescription:
+SealNeedleDescription:
 SludgeBombDescription:
 PoisonJabDescription:
 GunkShotDescription:
@@ -369,7 +369,7 @@ GunkShotDescription:
 	done
 
 EmberDescription:
-FlamethrowerDescription:
+MeteorFallDescription:
 FireBlastDescription:
 SacredFireDescription:
 ScaldDescription:
@@ -399,7 +399,7 @@ BlizzardDescription:
 	done
 
 PsybeamDescription:
-ConfusionDescription:
+PsyshotDescription:
 DizzyPunchDescription:
 WaterPulseDescription:
 HurricaneDescription:
@@ -432,7 +432,7 @@ AncientpowerDescription:
 	next "raise all stats."
 	done
 
-CloseCombatDescription:
+SculptureDescription:
 	text "Lowers the user's"
 	next "Def and Sp.Def."
 	done
@@ -513,7 +513,7 @@ NightShadeDescription:
 	next "user's level."
 	done
 
-PoisonpowderDescription:
+ToxicGasDescription:
 	text "A move that may"
 	next "poison the foe."
 	done
@@ -579,7 +579,7 @@ BarrierDescription:
 	next "user's Defense."
 	done
 
-AgilityDescription:
+SakuyaWorldDescription:
 	text "Sharply raises the"
 	next "user's Speed."
 	done
@@ -619,7 +619,7 @@ DragonDanceDescription:
 	next "Attack and Speed."
 	done
 
-HoneClawsDescription:
+HoneToolsDescription:
 	text "Raises the user's"
 	next "Atk and accuracy."
 	done
@@ -739,7 +739,7 @@ FlyDescription:
 	next "2nd turn: Attack"
 	done
 
-HyperBeamDescription:
+MasterSparkDescription:
 GigaImpactDescription:
 	text "1st turn: Attack"
 	next "2nd turn: Rest"
@@ -902,7 +902,7 @@ TackleDescription:
 	next "attack."
 	done
 
-HornAttackDescription:
+KnifeThrowDescription:
 	text "An attack using a"
 	next "horn to jab."
 	done
@@ -1177,7 +1177,7 @@ PsystrikeDescription:
 	next "physical damage."
 	done
 
-PainSplitDescription:
+LifeBalanceDescription:
 	text "Adds user & foe's"
 	next "HPs. Shares total."
 	done

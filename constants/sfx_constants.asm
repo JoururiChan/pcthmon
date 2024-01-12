@@ -64,7 +64,7 @@
 	const SFX_DOUBLE_KICK                 ; 3d
 	const SFX_MEGA_KICK                   ; 3e
 	const SFX_HEADBUTT                    ; 3f
-	const SFX_HORN_ATTACK                 ; 40
+	const SFX_KNIFE_THROW                 ; 40
 	const SFX_TACKLE                      ; 41
 	const SFX_SEAL_NEEDLE                ; 42
 	const SFX_POWDER                      ; 43

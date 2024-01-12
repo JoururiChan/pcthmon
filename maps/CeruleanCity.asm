@@ -149,7 +149,7 @@ CeruleanCityCooltrainerFText1:
 
 CeruleanCityCooltrainerFText2:
 	text "Slowbro, show me"
-	line "your Confusion!"
+	line "your Psyshot!"
 	done
 
 CeruleanCityCooltrainerFText3: ; text > text
