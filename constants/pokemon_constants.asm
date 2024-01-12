@@ -33,7 +33,7 @@
 	const ESAKUYA  ; 09
 	const CGYOKU   ; 0a
 	const MGYOKU    ; 0b
-	const BUTTERFREE ; 0c
+	const FGYOKU ; 0c
 	const OGYOKU     ; 0d
 	const CMAGAN     ; 0e
 	const MAGAN   ; 0f

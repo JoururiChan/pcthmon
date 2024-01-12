@@ -88,7 +88,7 @@ TreeMonSet_Forest:
 	tree_mon 50, HOOTHOOT,   10
 	tree_mon 30, PINECO,     10
 	tree_mon 10, NOCTOWL,    10
-	tree_mon  5, BUTTERFREE, 10
+	tree_mon  5, FGYOKU, 10
 	tree_mon  5, MAGAN,   10
 	db -1
 	; rare

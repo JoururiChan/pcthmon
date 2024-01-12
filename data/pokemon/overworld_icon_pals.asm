@@ -15,7 +15,7 @@ OverworldMonIconColors::
 	iconpal BLUE, TEAL ; ESAKUYA
 	iconpal GREEN, PINK ; CGYOKU
 	iconpal GREEN, ORANGE ; MGYOKU
-	iconpal BLUE, PINK ; BUTTERFREE
+	iconpal BLUE, PINK ; FGYOKU
 	iconpal BROWN, PINK ; OGYOKU
 	iconpal BROWN, GREEN ; CMAGAN
 	iconpal BROWN, TEAL ; MAGAN

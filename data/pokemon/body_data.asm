@@ -18,7 +18,7 @@ PokemonBodyData:
 	body_data  16,  855, BIPEDAL_TAIL, BLUE   ; ESAKUYA
 	body_data   3,   29, INSECTOID,    GREEN  ; CGYOKU
 	body_data   7,   99, SERPENTINE,   GREEN  ; MGYOKU
-	body_data  11,  320, MULTIWINGS,   WHITE  ; BUTTERFREE
+	body_data  11,  320, MULTIWINGS,   WHITE  ; FGYOKU
 	body_data   3,   32, INSECTOID,    BROWN  ; OGYOKU
 	body_data   6,  100, SERPENTINE,   YELLOW ; CMAGAN
 	body_data  10,  295, MULTIWINGS,   YELLOW ; MAGAN

@@ -339,18 +339,18 @@
 	def_grass_wildmons ROUTE_2_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 55, BUTTERFREE
+	wildmon 55, FGYOKU
 	wildmon 54, LEDIAN
 	wildmon 57, CMIMA
-	wildmon 57, BUTTERFREE
+	wildmon 57, FGYOKU
 	wildmon 56, LEDIAN
 	wildmon 58, CMIMA
 	wildmon 59, PIKACHU
 	; day
-	wildmon 55, BUTTERFREE
+	wildmon 55, FGYOKU
 	wildmon 54, CMIMA
 	wildmon 57, CMIMA
-	wildmon 57, BUTTERFREE
+	wildmon 57, FGYOKU
 	wildmon 56, CMIMA
 	wildmon 58, CMIMA
 	wildmon 59, PIKACHU
@@ -367,18 +367,18 @@
 	def_grass_wildmons ROUTE_2_SOUTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 55, BUTTERFREE
+	wildmon 55, FGYOKU
 	wildmon 54, LEDIAN
 	wildmon 57, CMIMA
-	wildmon 57, BUTTERFREE
+	wildmon 57, FGYOKU
 	wildmon 56, LEDIAN
 	wildmon 58, CMIMA
 	wildmon 59, PIKACHU
 	; day
-	wildmon 55, BUTTERFREE
+	wildmon 55, FGYOKU
 	wildmon 54, CMIMA
 	wildmon 57, CMIMA
-	wildmon 57, BUTTERFREE
+	wildmon 57, FGYOKU
 	wildmon 56, CMIMA
 	wildmon 58, CMIMA
 	wildmon 59, PIKACHU
@@ -395,7 +395,7 @@
 	def_grass_wildmons VIRIDIAN_FOREST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 57, BUTTERFREE
+	wildmon 57, FGYOKU
 	wildmon 57, MAGAN
 	wildmon 55, CMAGAN
 	wildmon 55, MGYOKU
@@ -403,7 +403,7 @@
 	wildmon 59, PIKACHU
 	wildmon 60, PIKACHU
 	; day
-	wildmon 57, BUTTERFREE
+	wildmon 57, FGYOKU
 	wildmon 57, MAGAN
 	wildmon 55, MGYOKU
 	wildmon 55, CMAGAN
@@ -1039,7 +1039,7 @@
 	def_grass_wildmons ROUTE_24
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 48, BUTTERFREE
+	wildmon 48, FGYOKU
 	wildmon 48, MAGAN
 	wildmon 51, CMIMA
 	wildmon 50, WEEPINBELL
@@ -1047,7 +1047,7 @@
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	; day
-	wildmon 48, BUTTERFREE
+	wildmon 48, FGYOKU
 	wildmon 48, MAGAN
 	wildmon 51, CMIMA
 	wildmon 50, WEEPINBELL
@@ -1067,7 +1067,7 @@
 	def_grass_wildmons ROUTE_25
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 48, BUTTERFREE
+	wildmon 48, FGYOKU
 	wildmon 48, MAGAN
 	wildmon 51, CMIMA
 	wildmon 50, WEEPINBELL
@@ -1075,7 +1075,7 @@
 	wildmon 53, KADABRA
 	wildmon 52, KADABRA
 	; day
-	wildmon 48, BUTTERFREE
+	wildmon 48, FGYOKU
 	wildmon 48, MAGAN
 	wildmon 51, CMIMA
 	wildmon 50, WEEPINBELL
@@ -1179,7 +1179,7 @@
 	def_grass_wildmons CERULEAN_CAPE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 48, BUTTERFREE
+	wildmon 48, FGYOKU
 	wildmon 48, MAGAN
 	wildmon 51, CMIMA
 	wildmon 50, WEEPINBELL
@@ -1187,7 +1187,7 @@
 	wildmon 53, KINGLER
 	wildmon 52, KINGLER
 	; day
-	wildmon 48, BUTTERFREE
+	wildmon 48, FGYOKU
 	wildmon 48, MAGAN
 	wildmon 51, CMIMA
 	wildmon 50, WEEPINBELL

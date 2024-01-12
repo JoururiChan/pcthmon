@@ -1,18 +1,9 @@
-if DEF(FAITHFUL)
-	db  65,  90,  40,  75,  45,  80 ; 395 BST
+	db  63,  42,  52,  58,  95,  90 ; 455 BST
 	;   hp  atk  def  spe  sat  sdf
-else
-	db  65, 100,  40, 115,  45,  90 ; 455 BST
-	;   hp  atk  def  spe  sat  sdf
-endc
 
-	db BUG, POISON ; type
-	db 45 ; catch rate
-if DEF(FAITHFUL)
-	db 159 ; base exp
-else
-	db 184 ; base exp
-endc
+	db DARK, POISON ; type
+	db 100 ; catch rate
+	db 90 ; base exp
 	db SHED_SHELL, POISON_BARB ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 

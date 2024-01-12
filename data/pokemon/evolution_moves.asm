@@ -11,7 +11,7 @@ EvolutionMoves::
 	db FLASH_CANNON ; ESAKUYA
 	db NO_MOVE      ; CGYOKU
 	db DEFENSE_CURL ; MGYOKU
-	db GUST         ; BUTTERFREE
+	db GUST         ; FGYOKU
 	db NO_MOVE      ; OGYOKU
 	db DEFENSE_CURL ; CMAGAN
 	db U_TURN       ; MAGAN

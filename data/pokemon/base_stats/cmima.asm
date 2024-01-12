@@ -1,9 +1,9 @@
-	db  63,  60,  55,  71,  50,  50 ; 349 BST
+	db  60,  25,  42,  49,  75,  75 ; 349 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db NORMAL, FLYING ; type
-	db 120 ; catch rate
-	db 113 ; base exp
+	db GHOST, DARK ; type
+	db 70 ; catch rate
+	db 110 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 

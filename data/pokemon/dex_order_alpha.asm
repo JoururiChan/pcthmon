@@ -23,7 +23,7 @@ AlphabeticalPokedexOrder:
 	dp BLISSEY
 	dp BONSLY
 	dp CREIMU
-	dp BUTTERFREE
+	dp FGYOKU
 	dp CGYOKU
 	dp CELEBI
 	dp CHANSEY

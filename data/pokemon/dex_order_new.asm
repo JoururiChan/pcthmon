@@ -27,7 +27,7 @@ NewPokedexOrder:
 	dp RAICHU
 	dp CGYOKU
 	dp MGYOKU
-	dp BUTTERFREE
+	dp FGYOKU
 	dp OGYOKU
 	dp CMAGAN
 	dp MAGAN

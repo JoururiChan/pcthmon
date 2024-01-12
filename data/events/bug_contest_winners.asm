@@ -28,24 +28,24 @@ BugContestant_BugCatcherDon:
 BugContestant_BugCatcherEd:
 	db BUG_CATCHER, ED
 	contest_winner YANMA,      286
-	contest_winner BUTTERFREE, 251
+	contest_winner FGYOKU, 251
 	contest_winner CGYOKU,   237
 
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
 	contest_winner SCYTHER,    357
-	contest_winner BUTTERFREE, 349
+	contest_winner FGYOKU, 349
 	contest_winner PINSIR,     368
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
 	contest_winner VENOMOTH,   332
-	contest_winner BUTTERFREE, 324
+	contest_winner FGYOKU, 324
 	contest_winner VENONAT,    321
 
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BENNY
-	contest_winner BUTTERFREE, 318
+	contest_winner FGYOKU, 318
 	contest_winner OGYOKU,     295
 	contest_winner CGYOKU,   285
 
@@ -57,14 +57,14 @@ BugContestant_CamperBarry:
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
-	contest_winner BUTTERFREE, 341
+	contest_winner FGYOKU, 341
 	contest_winner MGYOKU,    301
 	contest_winner CGYOKU,   264
 
 BugContestant_BugCatcherJosh:
 	db BUG_CATCHER, JOSH
 	contest_winner SCYTHER,    326
-	contest_winner BUTTERFREE, 292
+	contest_winner FGYOKU, 292
 	contest_winner MGYOKU,    282
 
 BugContestant_SchoolboyJohnny:
