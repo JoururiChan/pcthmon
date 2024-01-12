@@ -20,7 +20,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 ## Moves
 
-* Added: Aerial Ace, Air Slash, Aqua Tail, Astonish, Avalanche, Bug Buzz, Bulk Up, Bullet Punch, Calm Mind, Dark Pulse, DazzlinGleam, Disarm Voice, Dragon Claw, Dragon Dance, Dragon Pulse, Drain Kiss, Earth Power, Energy Ball, Extrasensory, Fairy Wind, Flare Blitz, Flash Cannon, Focus Blast, Gunk Shot, Hail, Hex, Hone Claws, Hurricane, Hyper Voice, Ice Shard, Icicle Crash, Iron Head, Metal Sound, Moonblast, Nasty Plot, Night Slash, Play Rough, Poison Jab, Power Gem, Psystrike, Scald, Seed Bomb, Shadow Claw, Stone Edge, Water Pulse, Wild Charge, Will-O-Wisp, X-Scissor, and Zen Headbutt.
+* Added: Aerial Ace, Air Slash, Aqua Tail, Astonish, Avalanche, Bug Buzz, Bulk Up, Bullet Punch, Calm Mind, Dark Pulse, DazzlinGleam, Disarm Voice, Dragon Claw, Dragon Dance, Dragon Pulse, Drain Kiss, Earth Power, Dream Heaven, Extrasensory, Fairy Wind, Flare Blitz, Flash Cannon, Focus Blast, Gunk Shot, Hail, Hex, Hone Tools, Hurricane, Hyper Voice, Ice Shard, Icicle Crash, Iron Head, Metal Sound, Moonblast, Nasty Plot, Night Slash, Play Rough, Poison Jab, Power Gem, Psystrike, Scald, Seed Bomb, Shadow Claw, Stone Edge, Water Pulse, Blaze Star, Will-O-Wisp, X-Scissor, and Zen Headbutt.
 * Removed: Acid Armor, Amnesia, Barrage, Beat Up, Bide, Bind, Bone Club, Bone Rush, Bubble, Clamp, Comet Punch, Constrict, Conversion2, Cotton Spore, Detect, Fissure, Frustration, Guillotine, Horn Drill, Jump Kick, Kinesis, Lovely Kiss, Meditate, Mega Kick, Mega Punch, Mimic, Mind Reader, Mirror Move, Poison Gas, Powder Snow, Present, Psych Up, Psywave, Razor Wind, Rolling Kick, Sharpen, Skull Bash, Smog, Snore, Spider Web, Spite, Sweet Scent, Synthesis, Tail Whip, Vice Grip, and Withdraw.
 * Learnsets have been updated close to Gen VI, with missing moves replaced by similar, egg, TM, or event-exclusive moves.
 
@@ -203,13 +203,13 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Rock Smash has 75 power.
 * Whirlpool and Fire Spin have 90% accuracy.
 * Hail boosts Defense of Ice-types by 50%.
-* Submission and Take Down have 90 power, 100% accuracy, and 15 PP to match Wild Charge.
+* Submission and Take Down have 90 power, 100% accuracy, and 15 PP to match Blaze Star.
 * Crabhammer and Octazooka have 95% accuracy.
 * Sing has 75% accuracy to match Lovely Kiss.
 * Supersonic has 65% accuracy and 20 PP.
 * Hidden Power is ???-type and has 70 power.
 * Metronome is ???-type.
-* Pain Split is Ghost-type.
+* Life Balance is Ghost-type.
 
 I know that not everyone likes this kind of change, so I've provided two ROM patches. The "Faithful" patch keeps the canon Pokémon stats and move attributes.
 

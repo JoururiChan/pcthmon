@@ -53,7 +53,7 @@ TMHMMoves:
 	db LEECH_LIFE   ; TM50 (Yellow Forest)
 	db ROOST        ; TM51 (Falkner)
 	db FOCUS_BLAST  ; TM52 (Quiet Cave)
-	db ENERGY_BALL  ; TM53 (Olivine Lighthouse)
+	db DREAM_HEAVEN  ; TM53 (Olivine Lighthouse)
 	db FALSE_SWIPE  ; TM54 (Ilex Forest Gate)
 	db SCALD        ; TM55 (Route 19)
 	db X_SCISSOR    ; TM56 (Underground Warehouse)

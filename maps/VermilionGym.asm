@@ -256,7 +256,7 @@ LtSurgeThunderBadgeText:
 
 SurgeOutroText:
 	text "That TM contains"
-	line "Wild Charge. Use"
+	line "Blaze Star. Use"
 
 	para "it to go like"
 	line "lightning!"

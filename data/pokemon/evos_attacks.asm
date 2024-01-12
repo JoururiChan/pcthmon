@@ -46,21 +46,12 @@ CReimuEvosAttacks:
 ReimuEvosAttacks:
 	evo_data EVOLVE_LEVEL, 34, EREIMU
 	db -1 ; no more evolutions
-<<<<<<< HEAD
-	db 1, POUND
-	db 1, GROWL
-	db 6, SEAL_NEEDLE
-	db 10, BARRAGE
-	db 14, FORESIGHT
-	db 16, RAZOR_WIND
-=======
-	db 1, RAZOR_WIND
 	db 1, POUND
 	db 1, GROWL
 	db 6, SEAL_NEEDLE
 	db 10, MACH_PUNCH
 	db 14, FORESIGHT
->>>>>>> 051b44aae9e47fd7f8cdc5a7c077d94510b6c86e
+	db 16, AERIAL_ACE
 	db 22, LIGHT_SCREEN ; Sweet Scent → Take Down
 	db 22, REFLECT
 	db 28, HEALINGLIGHT
@@ -88,11 +79,8 @@ EReimuEvosAttacks:
 	db 37, HI_JUMP_KICK ; Worry Seed → event move
 	db 41, EXTRASENSORY ; Synthesis → similar move
 	db 45, DIVE_KICK
-<<<<<<< HEAD
 	db 51, DREAM_HEAVEN ; Solar Beam → Sludge Bomb
-=======
-	db 51, CALM_MIND ; Solar Beam → Sludge Bomb
->>>>>>> 051b44aae9e47fd7f8cdc5a7c077d94510b6c86e
+	db 55, CALM_MIND
 	db -1 ; no more level-up moves
 
 CMarisaEvosAttacks:
@@ -2448,7 +2436,7 @@ VoltorbHisuianEvosAttacks:
 	db 16, THUNDER_WAVE ; Charge Beam → TM move
 	db 20, SWIFT
 	db 22, THUNDERBOLT ; Electro Ball → TM move
-	db 26, ENERGY_BALL
+	db 26, DREAM_HEAVEN
 	db 29, LIGHT_SCREEN
 	db 34, EXPLOSION ; Magnet Rise → Explosion
 	db 37, THUNDER ; Discharge → TM move
@@ -2470,7 +2458,7 @@ ElectrodeHisuianEvosAttacks:
 	db 16, THUNDER_WAVE ; Charge Beam → TM move
 	db 20, SWIFT
 	db 22, THUNDERBOLT ; Electro Ball → TM move
-	db 26, ENERGY_BALL
+	db 26, DREAM_HEAVEN
 	db 29, LIGHT_SCREEN
 	db 36, EXPLOSION ; Magnet Rise → Explosion
 	db 41, THUNDER ; Discharge → TM move
@@ -3656,7 +3644,7 @@ ChikoritaEvosAttacks:
 	db 17, REFLECT
 	db 17, LIGHT_SCREEN
 	db 20, DISARM_VOICE ; Magical Leaf → new move
-	db 23, ENERGY_BALL ; Natural Gift → tutor move
+	db 23, DREAM_HEAVEN ; Natural Gift → tutor move
 	db 28, ANCIENTPOWER ; Sweet Scent → HGSS tutor move
 	db 31, DAZZLINGLEAM ; Light Screen → TM move
 	db 34, BODY_SLAM
@@ -3679,7 +3667,7 @@ BayleefEvosAttacks:
 	db 18, REFLECT
 	db 18, LIGHT_SCREEN
 	db 22, DISARM_VOICE ; Magical Leaf → new move
-	db 26, ENERGY_BALL ; Natural Gift → tutor move
+	db 26, DREAM_HEAVEN ; Natural Gift → tutor move
 	db 32, ANCIENTPOWER ; Sweet Scent → HGSS tutor move
 	db 36, DAZZLINGLEAM ; Light Screen → TM move
 	db 40, BODY_SLAM
@@ -3702,7 +3690,7 @@ MeganiumEvosAttacks:
 	db 18, REFLECT
 	db 18, LIGHT_SCREEN
 	db 22, DISARM_VOICE ; Magical Leaf → new move
-	db 26, ENERGY_BALL ; Natural Gift → tutor move
+	db 26, DREAM_HEAVEN ; Natural Gift → tutor move
 	db 34, ANCIENTPOWER ; Sweet Scent → HGSS tutor move
 	db 40, DAZZLINGLEAM ; Light Screen → TM move
 	db 46, BODY_SLAM
@@ -4388,7 +4376,7 @@ HoppipEvosAttacks:
 	db 40, AMNESIA ; Worry Seed → egg move
 	db 43, GIGA_DRAIN
 	db 46, DAZZLINGLEAM ; Bounce → TM move
-	db 49, ENERGY_BALL ; Memento → TM move
+	db 49, DREAM_HEAVEN ; Memento → TM move
 	db -1 ; no more level-up moves
 
 SkiploomEvosAttacks:
@@ -4413,7 +4401,7 @@ SkiploomEvosAttacks:
 	db 48, AMNESIA ; Worry Seed → egg move
 	db 52, GIGA_DRAIN
 	db 56, DAZZLINGLEAM ; Bounce → TM move
-	db 60, ENERGY_BALL ; Memento → TM move
+	db 60, DREAM_HEAVEN ; Memento → TM move
 	db -1 ; no more level-up moves
 
 JumpluffEvosAttacks:
@@ -4437,7 +4425,7 @@ JumpluffEvosAttacks:
 	db 54, AMNESIA ; Worry Seed → egg move
 	db 59, GIGA_DRAIN
 	db 64, DAZZLINGLEAM ; Bounce → TM move
-	db 69, ENERGY_BALL ; nice, Memento → TM move
+	db 69, DREAM_HEAVEN ; nice, Memento → TM move
 	db -1 ; no more level-up moves
 
 AipomEvosAttacks:
@@ -5256,7 +5244,7 @@ RemoraidEvosAttacks:
 	db 34, ICE_BEAM
 	db 38, SEED_BOMB ; Bullet Seed → tutor move
 	db 42, GUNK_SHOT ; Hydro Pump → new move
-	db 46, HYDRO_PUMP ; Hyper Beam → Hydro Pump
+	db 46, HYDRO_PUMP ; Master Spark → Hydro Pump
 	db 50, AURA_SPHERE ; Soak → new move
 	db 54, MASTER_SPARK
 	db -1 ; no more level-up moves
@@ -5278,7 +5266,7 @@ OctilleryEvosAttacks:
 	db 40, ICE_BEAM
 	db 46, SEED_BOMB ; Bullet Seed → tutor move
 	db 52, GUNK_SHOT ; Hydro Pump → new move
-	db 58, HYDRO_PUMP ; Hyper Beam → Hydro Pump
+	db 58, HYDRO_PUMP ; Master Spark → Hydro Pump
 if !DEF(FAITHFUL)
 	db 58, FIRE_BLAST ; new move
 endc
@@ -5700,7 +5688,7 @@ LarvitarEvosAttacks:
 	db 41, CRUNCH
 	db 46, EARTHQUAKE
 	db 50, STONE_EDGE
-	db 55, OUTRAGE ; Hyper Beam → HGSS tutor move
+	db 55, OUTRAGE ; Master Spark → HGSS tutor move
 	db 61, MASTER_SPARK
 	db 68, SCULPTURE ; new move
 	db -1 ; no more level-up moves
@@ -5723,7 +5711,7 @@ PupitarEvosAttacks:
 	db 47, CRUNCH
 	db 54, EARTHQUAKE
 	db 60, STONE_EDGE
-	db 67, OUTRAGE ; Hyper Beam → HGSS tutor move
+	db 67, OUTRAGE ; Master Spark → HGSS tutor move
 	db 75, MASTER_SPARK
 	db 84, SCULPTURE ; new move
 	db -1 ; no more level-up moves
@@ -5747,7 +5735,7 @@ TyranitarEvosAttacks:
 	db 47, CRUNCH
 	db 54, EARTHQUAKE
 	db 63, STONE_EDGE
-	db 73, OUTRAGE ; Hyper Beam → HGSS tutor move
+	db 73, OUTRAGE ; Master Spark → HGSS tutor move
 	db 82, MASTER_SPARK
 	db 92, SCULPTURE ; new move
 	db -1 ; no more level-up moves
@@ -5797,7 +5785,7 @@ CelebiEvosAttacks:
 	db 1, RECOVER
 	db 1, METRONOME ; Heal Bell → new move
 	db 10, SAFEGUARD
-	db 19, ENERGY_BALL ; Magical Leaf → TM move
+	db 19, DREAM_HEAVEN ; Magical Leaf → TM move
 	db 28, ANCIENTPOWER
 	db 37, BATON_PASS
 	db 46, MOONBLAST ; Natural Gift → new move
@@ -6186,7 +6174,7 @@ LeafeonEvosAttacks:
 	db 9, DOUBLE_KICK ; Baby-Doll Eyes → LGPE move
 	db 13, QUICK_ATTACK
 	db 17, BITE ; Grass Whistle → new move
-	db 20, ENERGY_BALL ; Magical Leaf → TM move
+	db 20, DREAM_HEAVEN ; Magical Leaf → TM move
 	db 25, GIGA_DRAIN
 	db 29, SWORDS_DANCE
 	db 33, HEALINGLIGHT ; Synthesis → similar move

@@ -113,7 +113,7 @@ VulpixPlainEggMoves:
 	db FEINT_ATTACK
 	db EXTRASENSORY
 	db CHARM
-	db ENERGY_BALL
+	db DREAM_HEAVEN
 	db ROAR
 	db $ff
 

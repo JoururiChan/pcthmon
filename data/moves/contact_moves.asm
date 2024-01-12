@@ -7,7 +7,7 @@ ContactMoves:
 	db AVALANCHE
 	db BITE
 	db BODY_SLAM
-	db DIVE_KICK
+	db BLAZE_STAR
 	db BUG_BITE
 	db BULLET_PUNCH
 	db SCULPTURE
@@ -17,6 +17,7 @@ ContactMoves:
 	db CRUNCH
 	db CUT
 	db DIG
+	db DIVE_KICK
 	db DIZZY_PUNCH
 	db DOUBLE_KICK
 	db DOUBLE_EDGE
@@ -39,12 +40,12 @@ ContactMoves:
 	db GIGA_IMPACT
 	db HEADBUTT
 	db HI_JUMP_KICK
-	db KNIFE_THROW
 	db HYPER_FANG
 	db ICE_PUNCH
 	db IRON_HEAD
 	db IRON_TAIL
 	db KARATE_CHOP
+	db KNIFE_THROW
 	db KNOCK_OFF
 	db LEECH_LIFE
 	db LICK
@@ -85,7 +86,6 @@ ContactMoves:
 	db U_TURN
 	db VINE_WHIP
 	db WATERFALL
-	db BLAZE_STAR
 	db WING_ATTACK
 	db WRAP
 	db X_SCISSOR

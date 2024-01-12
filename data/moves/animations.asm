@@ -177,7 +177,7 @@ BattleAnimations::
 	dw BattleAnim_HyperVoice
 	dw BattleAnim_Curse
 	dw BattleAnim_GyroBall
-	dw BattleAnim_EnergyBall
+	dw BattleAnim_DreamHeaven
 	dw BattleAnim_Aeroblast
 	dw BattleAnim_SeedBomb
 	dw BattleAnim_Reversal
@@ -3761,8 +3761,8 @@ BattleAnim_SeedBomb:
 	anim_bgp $e4
 	anim_ret
 
-; Energy Ball animation from Pokémon Prism
-BattleAnim_EnergyBall:
+; Dream Heaven animation from Pokémon Prism
+BattleAnim_DreamHeaven:
 	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_GREEN
 	anim_2gfx ANIM_GFX_CHARGE, ANIM_GFX_EGG
 	anim_sound 0, 0, SFX_GIGA_DRAIN
@@ -3780,9 +3780,9 @@ BattleAnim_EnergyBall:
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $60, $2, $0
 .loop
 	anim_sound 0, 0, SFX_AEROBLAST
-	anim_obj ANIM_OBJ_ENERGY_BALL,  7, 6, 11, 4, $2
+	anim_obj ANIM_OBJ_DREAM_HEAVEN,  7, 6, 11, 4, $2
 	anim_wait 3
-	anim_obj ANIM_OBJ_ENERGY_BALL,  8, 2, 11, 4, $2
+	anim_obj ANIM_OBJ_DREAM_HEAVEN,  8, 2, 11, 4, $2
 	anim_wait 3
 	anim_loop 8, .loop
 	anim_call BattleAnim_UserObj_1Row

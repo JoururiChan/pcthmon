@@ -1,6 +1,5 @@
 BulletMoves:
 	db AURA_SPHERE
-	db ENERGY_BALL
 	db FOCUS_BLAST
 	db GYRO_BALL
 	db OCTAZOOKA

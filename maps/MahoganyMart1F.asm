@@ -157,7 +157,7 @@ MahoganyMart1FBlackBeltText_LanceEntered:
 
 MahoganyMart1FLanceDragoniteMasterSparkText:
 	text "Lance: Dragonite,"
-	line "Hyper Beam."
+	line "Master Spark."
 	done
 
 MahoganyMart1FLanceRadioText:

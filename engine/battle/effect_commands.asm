@@ -1746,7 +1746,7 @@ BattleCommand_checkpowder:
 	ld a, b
 	cp TOXIC
 	jr z, BattleCommand_resettypematchup
-	; fallthrough for poisonpowder
+	; fallthrough for toxicgas
 .powder
 	ld hl, PowderMoves
 	call IsInByteArray
@@ -6293,6 +6293,7 @@ BattleCommand_defrost:
 BoostJumptable:
 	dbw AVALANCHE,  DoAvalanche
 	dbw ACROBATICS, DoAcrobatics
+	dbw DREAM_HEAVEN, DoDreamHeaven
 	dbw FACADE,     DoFacade
 	dbw HEX,        DoHex
 	dbw VENOSHOCK,  DoVenoshock
@@ -6321,6 +6322,12 @@ DoAcrobatics:
 	and a
 	ret nz
 	jr DoubleDamage
+
+DoDreamHeaven:
+	ld a, BATTLE_VARS_STATUS_OPP
+	call GetBattleVar
+	bit PAR, a
+	jr DoubleDamageIfNZ
 
 DoFacade:
 	ld a, BATTLE_VARS_STATUS

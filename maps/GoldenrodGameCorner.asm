@@ -110,12 +110,12 @@ GoldenrodGameCornerTMVendor_LoopScript: ; 056c36
 	loadmenu GoldenrodGameCornerTMVendorMenuData
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .flamethrower
+	ifequalfwd $1, .meteorfall
 	ifequalfwd $2, .thunderbolt
 	ifequalfwd $3, .ice_beam
 	jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 
-.flamethrower:
+.meteorfall:
 	checktmhm TM_METEOR_FALL
 	iftruefwd GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript
 	checkcoins GOLDENRODGAMECORNER_TM35_COINS

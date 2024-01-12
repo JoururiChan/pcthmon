@@ -176,7 +176,7 @@ MoveDescriptions::
 	dw HyperVoiceDescription
 	dw CurseDescription
 	dw GyroBallDescription
-	dw EnergyBallDescription
+	dw DreamHeavenDescription
 	dw AeroblastDescription
 	dw SeedBombDescription
 	dw ReversalDescription
@@ -480,7 +480,7 @@ PsychicMDescription:
 ShadowBallDescription:
 BugBuzzDescription:
 EarthPowerDescription:
-EnergyBallDescription:
+DreamHeavenDescription:
 FlashCannonDescription:
 FocusBlastDescription:
 	text "An attack that may"

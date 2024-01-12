@@ -10,7 +10,7 @@ Qwilfish: Astonish
 Heracross: Rock Blast
 Munchlax: Pursuit
 
-Rhyperior: Submission, Wild Charge
+Rhyperior: Submission, Blaze Star
 
 Houndoom: Bonemerang
 Qwilfish: Selfdestruct
@@ -22,7 +22,7 @@ Lanturn: Earthquake
 Blissey: Reflect
 Drowzee: Strength
 Machamp: Swords Dance
-Skarmory: Hyper Beam
+Skarmory: Master Spark
 Celebi: Fly
 Gengar: Quick Attack
 Togepi: Drain Kiss
@@ -38,7 +38,7 @@ Eevee: Focus Energy (RBY learnset), Charm (purified)
 Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
 Growlithe/Arcanine: Dragon Rage (RBY TM), Charm (purified)
 Houndour/Houndoom: Charm (purified), Night Slash (Prism tutor)
-Jigglypuff/Wigglytuff: Tri Attack (RBY TM), Pain Split (HGSS tutor)
+Jigglypuff/Wigglytuff: Tri Attack (RBY TM), Life Balance (HGSS tutor)
 Meowth/Persian: Hypnosis (Dream World), Gunk Shot (HGSS tutor)
 Psyduck/Golduck: Charm (purified), Low Kick (HGSS tutor)
 
@@ -92,7 +92,7 @@ Bellsprout/Weepinbell/Victreebel: Bug Bite
 Ledyba/Ledian: Bug Bite
 Pinsir: Bug Bite
 Chinchou/Lanturn: Heal Bell
-Dunsparce: Pain Split
+Dunsparce: Life Balance
 Jynx: Heal Bell
 Lapras: Heal Bell
 Mantine: Gunk Shot
