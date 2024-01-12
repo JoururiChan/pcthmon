@@ -137,7 +137,7 @@ EMarisaEvosAttacks:
 	db 28, SCARY_FACE ; Fire Fang → Scary Face
 	db 32, FLAME_CHARGE ; Flame Burst → TM move
 	db 39, TRICK
-	db 43, LIGHT SCREEN
+	db 43, LIGHT_SCREEN
 	db 48, BLAZE_STAR
 	db 52, MASTER_SPARK
 	db -1 ; no more level-up moves
