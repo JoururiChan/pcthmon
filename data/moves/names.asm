@@ -30,7 +30,7 @@ MoveNames::
 	li "Focus Blast"
 	li "Toxic Spikes"
 	li "Headbutt"
-	li "Horn Attack"
+	li "Knife Throw"
 	li "Trick"
 	li "Hex"
 	li "Tackle"
