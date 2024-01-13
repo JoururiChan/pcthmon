@@ -94,7 +94,7 @@ FarChangeStat:
 
 .check_ability
 	call GetOpponentAbilityAfterMoldBreaker
-	cp CLEAR_BODY
+	cp HAKUREI_MIKO
 	jr z, .ability_immune
 	cp WHITE_SMOKE
 	jr z, .ability_immune

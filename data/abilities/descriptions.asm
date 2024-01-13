@@ -14,7 +14,7 @@ AbilityDescriptions:
 	dw WaterAbsorbDescription
 	dw ObliviousDescription
 	dw CloudNineDescription
-	dw CompoundEyesDescription
+	dw ConcentrateDescription
 	dw InsomniaDescription
 	dw ImmunityDescription
 	dw FlashFireDescription
@@ -26,7 +26,7 @@ AbilityDescriptions:
 	dw LevitateDescription
 	dw EffectSporeDescription
 	dw SynchronizeDescription
-	dw ClearBodyDescription
+	dw HakureiMikoDescription
 	dw NaturalCureDescription
 	dw LightningRodDescription
 	dw SereneGraceDescription
@@ -227,7 +227,7 @@ CloudNineDescription:
 	next1 "of weather."
 	done
 
-CompoundEyesDescription:
+ConcentrateDescription:
 	text  "Boosts the Poké-"
 	next1 "mon's accuracy."
 	done
@@ -289,7 +289,7 @@ SynchronizeDescription:
 	next1 "or Brn to foes."
 	done
 
-ClearBodyDescription:
+HakureiMikoDescription:
 WhiteSmokeDescription:
 	text  "Prevents foes from"
 	next1 "lowering stats."

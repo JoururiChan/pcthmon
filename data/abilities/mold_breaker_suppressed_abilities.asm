@@ -2,7 +2,7 @@ MoldBreakerSuppressedAbilities:
 	db ARMOR_TAIL
 	db BATTLE_ARMOR
 	db BIG_PECKS
-	db CLEAR_BODY
+	db HAKUREI_MIKO
 	db CONTRARY
 	db DAMP
 	db DRY_SKIN

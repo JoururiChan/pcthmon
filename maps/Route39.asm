@@ -453,7 +453,7 @@ Route39AdvancedTips2Text:
 	text "Advanced Tips!"
 
 	para "A #mon with"
-	line "the Compound Eyes"
+	line "the Concentrate"
 	cont "ability, or one"
 
 	para "holding an Amulet"

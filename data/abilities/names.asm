@@ -14,7 +14,7 @@ AbilityNames:
 	dw WaterAbsorb
 	dw Oblivious
 	dw CloudNine
-	dw CompoundEyes
+	dw Concentrate
 	dw Insomnia
 	dw Immunity
 	dw FlashFire
@@ -26,7 +26,7 @@ AbilityNames:
 	dw Levitate
 	dw EffectSpore
 	dw Synchronize
-	dw ClearBody
+	dw HakureiMiko
 	dw NaturalCure
 	dw LightningRod
 	dw SereneGrace
@@ -170,7 +170,7 @@ VoltAbsorb:      rawchar "Volt Absorb@"
 WaterAbsorb:     rawchar "Water Absorb@"
 Oblivious:       rawchar "Oblivious@"
 CloudNine:       rawchar "Cloud Nine@"
-CompoundEyes:    rawchar "Compound Eyes@"
+Concentrate:    rawchar "Concentrate@"
 Insomnia:        rawchar "Insomnia@"
 Immunity:        rawchar "Immunity@"
 FlashFire:       rawchar "Flash Fire@"
@@ -182,7 +182,7 @@ ShadowTag:       rawchar "Shadow Tag@"
 Levitate:        rawchar "Levitate@"
 EffectSpore:     rawchar "Effect Spore@"
 Synchronize:     rawchar "Synchronize@"
-ClearBody:       rawchar "Clear Body@"
+HakureiMiko:       rawchar "Hakurei Miko@"
 NaturalCure:     rawchar "Natural Cure@"
 LightningRod:    rawchar "Lightning Rod@"
 SereneGrace:     rawchar "Serene Grace@"

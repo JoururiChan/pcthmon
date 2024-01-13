@@ -5,13 +5,13 @@
 	db 120 ; catch rate
 	db 80 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for MGYOKU, SHED_SKIN, SHED_SKIN, SHED_SKIN
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_BUG, EGG_BUG ; egg groups
+	abilities_for MGYOKU, PRESSURE, PRESSURE, PRESSURE
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 
-	ev_yield 2 Def
+	ev_yield 2 SDf, 1 Def
 
 	; tm/hm learnset
 	tmhm

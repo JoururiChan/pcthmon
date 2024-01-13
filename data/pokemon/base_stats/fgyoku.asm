@@ -1,17 +1,17 @@
 	db  60, 110,  88,  65, 110,  87 ; 520 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db BUG, PSYCHIC ; type
+	db PSYCHIC, FIRE ; type
 	db 120 ; catch rate
 	db 80 ; base exp
 	db SHED_SHELL, SILVERPOWDER ; held items
-	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for FGYOKU, COMPOUND_EYES, LEVITATE, TINTED_LENS
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_BUG, EGG_BUG ; egg groups
+	abilities_for FGYOKU, PRESSURE, PRESSURE, PRESSURE
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 
-	ev_yield 2 SAt, 1 SDf
+	ev_yield 2 SAt, 1 Atk
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, MASTER_SPARK, PROTECT, RAIN_DANCE, GIGA_DRAIN, SAFEGUARD, SOLAR_BEAM, RETURN, PSYCHIC, SHADOW_BALL, DOUBLE_TEAM, REFLECT, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROOST, DREAM_HEAVEN, ACROBATICS, GIGA_IMPACT, U_TURN, FLASH, BATON_PASS, DOUBLE_EDGE, DREAM_EATER, ENDURE, SKILL_SWAP, SLEEP_TALK, SWAGGER

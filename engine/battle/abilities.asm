@@ -1193,7 +1193,7 @@ ApplyAccuracyAbilities:
 	jmp AbilityJumptable
 
 UserAccuracyAbilities:
-	dbw COMPOUND_EYES, CompoundEyesAbility
+	dbw CONCENTRATE, ConcentrateAbility
 	dbw HUSTLE, HustleAccuracyAbility
 	dbw -1, -1
 
@@ -1204,7 +1204,7 @@ TargetAccuracyAbilities:
 	dbw SNOW_CLOAK, SnowCloakAbility
 	dbw -1, -1
 
-CompoundEyesAbility:
+ConcentrateAbility:
 ; Increase accuracy by 30%
 	ln a, 13, 10 ; x1.3
 	jmp MultiplyAndDivide

@@ -5867,20 +5867,20 @@ LoadEnemyWildmon:
 
 	call GetLeadAbility
 	cp SUPER_LUCK
-	jr z, .compound_eyes
+	jr z, .concentrate
 if DEF(FAITHFUL)
-	cp COMPOUND_EYES
-	jr nz, .no_compound_eyes_or_amulet_coin
+	cp CONCENTRATE
+	jr nz, .no_concentrate_or_amulet_coin
 else
-	cp COMPOUND_EYES
-	jr z, .compound_eyes
+	cp CONCENTRATE
+	jr z, .concentrate
 	; If the party lead holds an Amulet Coin, chances are increased
 	ld a, [wPartyMon1Item]
 	cp AMULET_COIN
-	jr nz, .no_compound_eyes_or_amulet_coin
+	jr nz, .no_concentrate_or_amulet_coin
 endc
 
-.compound_eyes:
+.concentrate:
 	; 60% chance of getting Item1
 	call BattleRandom
 	cp 60 percent
@@ -5897,7 +5897,7 @@ endc
 	ld a, NO_ITEM
 	jr .UpdateItem
 
-.no_compound_eyes_or_amulet_coin:
+.no_concentrate_or_amulet_coin:
 	; 50% chance of getting Item1
 	call BattleRandom
 	cp 50 percent

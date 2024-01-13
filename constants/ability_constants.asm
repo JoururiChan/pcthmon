@@ -17,7 +17,7 @@
 	const WATER_ABSORB
 	const OBLIVIOUS
 	const CLOUD_NINE
-	const COMPOUND_EYES
+	const CONCENTRATE
 	const INSOMNIA
 	const IMMUNITY
 	const FLASH_FIRE
@@ -29,7 +29,7 @@
 	const LEVITATE
 	const EFFECT_SPORE
 	const SYNCHRONIZE
-	const CLEAR_BODY
+	const HAKUREI_MIKO
 	const NATURAL_CURE
 	const LIGHTNING_ROD
 	const SERENE_GRACE

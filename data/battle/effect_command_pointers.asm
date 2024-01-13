@@ -152,9 +152,9 @@ BattleCommandPointers:
 	; (raise|lower)stat: can miss, silent
 	; force(raise|lower)stat: (always)
 	; (raise|lower)stathit: can miss, respects secondary, silent
-	; (raise|lower)oppstat: can miss, respects sub+mist+clear body
-	; force(raise|lower)oppstat: respects sub+mist+clear body
-	; (raise|lower)oppstathit: can miss, respects secondary+sub+mist+clear body, silent
+	; (raise|lower)oppstat: can miss, respects sub+mist+hakurei miko
+	; force(raise|lower)oppstat: respects sub+mist+hakurei miko
+	; (raise|lower)oppstathit: can miss, respects secondary+sub+mist+hakurei miko, silent
 
 	commandx raisestat
 	commandx lowerstat

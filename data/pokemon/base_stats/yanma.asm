@@ -7,7 +7,7 @@
 	db NO_ITEM, WIDE_LENS ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for YANMA, SPEED_BOOST, COMPOUND_EYES, FRISK
+	abilities_for YANMA, SPEED_BOOST, CONCENTRATE, FRISK
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 
