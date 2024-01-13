@@ -36,7 +36,7 @@ Cries:
 	fardw Cry_Growlithe
 	fardw Cry_Krabby
 	fardw Cry_Psyduck
-	fardw Cry_Rattata
+	fardw Cry_EMima
 	fardw Cry_Vileplume
 	fardw Cry_Vulpix
 	fardw Cry_Weepinbell

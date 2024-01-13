@@ -22,7 +22,7 @@ MiniIconPointers:
 	mini_icon EMagan
 	mini_icon CMima
 	mini_icon Mima
-	mini_icon Rattata
+	mini_icon EMima
 	mini_icon Raticate
 	mini_icon Spearow
 	mini_icon Fearow
@@ -350,7 +350,7 @@ endr
 
 	mini_icon DudunsparceThreeSegment
 
-	mini_icon RattataAlolan
+	mini_icon EMimaAlolan
 	mini_icon RaticateAlolan
 	mini_icon RaichuAlolan
 	mini_icon SandshrewAlolan

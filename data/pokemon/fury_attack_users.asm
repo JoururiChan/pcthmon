@@ -1,6 +1,8 @@
 FuryAttackUsers:
 ; "Fury Strikes" = Fury Attack + Fury Swipes
-	dp MAGAN
+	dp CSAKUYA
+	dp SAKUYA
+	dp ESAKUYA
 	dp SPEAROW
 	dp FEAROW
 	dp NIDORAN_M

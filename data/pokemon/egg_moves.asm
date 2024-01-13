@@ -44,8 +44,8 @@ EMaganEggMoves:
 	db DIVE_KICK
 	db $ff
 
-RattataPlainEggMoves:
-RattataAlolanEggMoves:
+EMimaEggMoves:
+EMimaAlolanEggMoves:
 	db FURY_STRIKES
 	db REVERSAL
 	db SCREECH

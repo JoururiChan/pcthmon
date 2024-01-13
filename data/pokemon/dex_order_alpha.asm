@@ -210,7 +210,7 @@ AlphabeticalPokedexOrder:
 	dp RAIKOU
 	dp RAPIDASH
 	dp RATICATE
-	dp RATTATA
+	dp EMIMA
 	dp REMORAID
 	dp RHYDON
 	dp RHYHORN

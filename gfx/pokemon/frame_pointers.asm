@@ -18,7 +18,7 @@ FramesPointers:
 	dw EMaganFrames
 	dw CMimaFrames
 	dw MimaFrames
-	dw RattataPlainFrames
+	dw EMimaFrames
 	dw RaticatePlainFrames
 	dw SpearowFrames
 	dw FearowFrames
@@ -362,7 +362,7 @@ FramesPointers:
 
 	dw DudunsparceThreeSegmentFrames
 
-	dw RattataAlolanFrames
+	dw EMimaAlolanFrames
 	dw RaticateAlolanFrames
 	dw RaichuAlolanFrames
 	dw SandshrewAlolanFrames

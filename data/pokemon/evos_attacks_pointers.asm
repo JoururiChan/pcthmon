@@ -22,7 +22,7 @@ EvosAttacksPointers::
 	dw EMaganEvosAttacks
 	dw CMimaEvosAttacks
 	dw MimaEvosAttacks
-	dw RattataPlainEvosAttacks
+	dw EMimaEvosAttacks
 	dw RaticatePlainEvosAttacks
 	dw SpearowEvosAttacks
 	dw FearowEvosAttacks
@@ -303,7 +303,7 @@ EvosAttacksPointers::
 
 	dw DudunsparceEvosAttacks
 
-	dw RattataAlolanEvosAttacks
+	dw EMimaAlolanEvosAttacks
 	dw RaticateAlolanEvosAttacks
 	dw RaichuAlolanEvosAttacks
 	dw SandshrewAlolanEvosAttacks

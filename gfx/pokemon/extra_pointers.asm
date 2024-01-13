@@ -18,7 +18,7 @@ AnimationExtraPointers:
 	dw EMaganAnimationExtra
 	dw CMimaAnimationExtra
 	dw MimaAnimationExtra
-	dw RattataPlainAnimationExtra
+	dw EMimaAnimationExtra
 	dw RaticatePlainAnimationExtra
 	dw SpearowAnimationExtra
 	dw FearowAnimationExtra
@@ -362,7 +362,7 @@ AnimationExtraPointers:
 
 	dw DudunsparceThreeSegmentAnimationExtra
 
-	dw RattataAlolanAnimationExtra
+	dw EMimaAlolanAnimationExtra
 	dw RaticateAlolanAnimationExtra
 	dw RaichuAlolanAnimationExtra
 	dw SandshrewAlolanAnimationExtra

@@ -1444,7 +1444,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 4, RATTATA
+	dbp 4, EMIMA
 		db NO_ITEM
 	dbp 5, CSAKUYA
 		db ORAN_BERRY
@@ -1454,7 +1454,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 4, RATTATA
+	dbp 4, EMIMA
 		db NO_ITEM
 	dbp 5, CREIMU
 		db ORAN_BERRY
@@ -1464,7 +1464,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 4, RATTATA
+	dbp 4, EMIMA
 		db NO_ITEM
 	dbp 5, CMARISA
 		db ORAN_BERRY
@@ -2216,16 +2216,16 @@ YoungsterGroup:
 	db "Joey@"
 	db TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY
 	; party
-	dbp 5, RATTATA, MALE
-		db FAKE_PERFECT_DVS, ABIL_RATTATA_GUTS | NAT_ATK_UP_SATK_DOWN
+	dbp 5, EMIMA, MALE
+		db FAKE_PERFECT_DVS, ABIL_EMIMA_GUTS | NAT_ATK_UP_SATK_DOWN
 	db -1 ; end
 
 	; YOUNGSTER
 	db "Joey@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY
 	; party
-	dbp 15, RATTATA, MALE
-		db ORAN_BERRY, FAKE_PERFECT_DVS, ABIL_RATTATA_GUTS | NAT_ATK_UP_SATK_DOWN
+	dbp 15, EMIMA, MALE
+		db ORAN_BERRY, FAKE_PERFECT_DVS, ABIL_EMIMA_GUTS | NAT_ATK_UP_SATK_DOWN
 		ev_spread 48 Atk, 48 Spe
 	db -1 ; end
 
@@ -2263,7 +2263,7 @@ YoungsterGroup:
 	db "Mikey@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 2, RATTATA
+	dbp 2, EMIMA
 	dbp 4, EMAGAN
 	db -1 ; end
 
@@ -2271,7 +2271,7 @@ YoungsterGroup:
 	db "Albert@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 8, RATTATA
+	dbp 8, EMIMA
 	dbp 10, ZUBAT
 	db -1 ; end
 
@@ -4042,7 +4042,7 @@ GruntMGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 8, RATTATA
+	dbp 8, EMIMA
 	dbp 10, ZUBAT
 	dbp 10, GASTLY
 	db -1 ; end
@@ -4073,7 +4073,7 @@ GruntMGroup:
 	db "Grunt@"
 	db TRAINERTYPE_PERSONALITY
 	; party
-	dbp 31, RATTATA, MALE
+	dbp 31, EMIMA, MALE
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 33, HOUNDOUR, MALE
 		db ABILITY_1 | NAT_NEUTRAL
@@ -4179,7 +4179,7 @@ GruntMGroup:
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 27, RATICATE, MALE
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp 26, RATTATA, MALE | ALOLAN_FORM
+	dbp 26, EMIMA, MALE | ALOLAN_FORM
 		db ABILITY_1 | NAT_NEUTRAL
 	db -1 ; end
 
@@ -4286,7 +4286,7 @@ GruntMGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, RATTATA
+	dbp 10, EMIMA
 	dbp 10, MEOWTH
 	db -1 ; end
 
@@ -5854,7 +5854,7 @@ SchoolboyGroup:
 		db GOLD_LEAF, "Gold@"
 	dbp 16, SPINARAK
 		db NO_ITEM, "Spin@"
-	dbp 17, RATTATA
+	dbp 17, EMIMA
 		db ORAN_BERRY, "Rat@"
 	db -1 ; end
 
@@ -11189,8 +11189,8 @@ YellowGroup:
 	db "Yellow@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_NICKNAME | TRAINERTYPE_MOVES
 	; party
-	dbp LEVEL_FROM_BADGES + 5, RATTATA, FEMALE
-		db SITRUS_BERRY, ABIL_RATTATA_GUTS | NAT_ATK_UP_SATK_DOWN, "Ratty@"
+	dbp LEVEL_FROM_BADGES + 5, EMIMA, FEMALE
+		db SITRUS_BERRY, ABIL_EMIMA_GUTS | NAT_ATK_UP_SATK_DOWN, "Ratty@"
 		ev_spread 240 Atk
 		db SUCKER_PUNCH, QUICK_ATTACK, HYPER_FANG, SWORDS_DANCE
 	dbp LEVEL_FROM_BADGES + 3, FGYOKU, FEMALE

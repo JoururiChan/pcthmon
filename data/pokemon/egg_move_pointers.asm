@@ -18,7 +18,7 @@ EggMovePointers::
 	dw EMaganEggMoves         ; EMagan
 	dw NoEggMoves             ; CMima
 	dw NoEggMoves             ; Mima
-	dw RattataPlainEggMoves   ; Rattata
+	dw EMimaEggMoves   ; EMima
 	dw NoEggMoves             ; Raticate
 	dw SpearowEggMoves        ; Spearow
 	dw NoEggMoves             ; Fearow
@@ -299,7 +299,7 @@ EggMovePointers::
 
 	dw NoEggMoves                ; Dundunsparse (Three Segment Form)
 
-	dw RattataAlolanEggMoves     ; Rattata (Alolan Form)
+	dw EMimaAlolanEggMoves     ; EMima (Alolan Form)
 	dw NoEggMoves                ; Raticate (Alolan Form)
 	dw NoEggMoves                ; Raichu (Alolan Form)
 	dw SandshrewAlolanEggMoves   ; Sandshrew (Alolan Form)

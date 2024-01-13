@@ -18,7 +18,7 @@ AnimationPointers:
 	dw EMaganAnimation
 	dw CMimaAnimation
 	dw MimaAnimation
-	dw RattataPlainAnimation
+	dw EMimaAnimation
 	dw RaticatePlainAnimation
 	dw SpearowAnimation
 	dw FearowAnimation
@@ -362,7 +362,7 @@ AnimationPointers:
 
 	dw DudunsparceThreeSegmentAnimation
 
-	dw RattataAlolanAnimation
+	dw EMimaAlolanAnimation
 	dw RaticateAlolanAnimation
 	dw RaichuAlolanAnimation
 	dw SandshrewAlolanAnimation

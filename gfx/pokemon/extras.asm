@@ -318,8 +318,8 @@ GyaradosRedAnimationExtra:   INCLUDE "gfx/pokemon/gyarados_red/anim_idle.asm"
 MewtwoPlainAnimationExtra:   INCLUDE "gfx/pokemon/mewtwo_plain/anim_idle.asm"
 MewtwoArmoredAnimationExtra: INCLUDE "gfx/pokemon/mewtwo_armored/anim_idle.asm"
 
-RattataPlainAnimationExtra:  INCLUDE "gfx/pokemon/rattata_plain/anim_idle.asm"
-RattataAlolanAnimationExtra: INCLUDE "gfx/pokemon/rattata_alolan/anim_idle.asm"
+EMimaAnimationExtra:  INCLUDE "gfx/pokemon/rattata_plain/anim_idle.asm"
+EMimaAlolanAnimationExtra: INCLUDE "gfx/pokemon/rattata_alolan/anim_idle.asm"
 
 RaticatePlainAnimationExtra:  INCLUDE "gfx/pokemon/raticate_plain/anim_idle.asm"
 RaticateAlolanAnimationExtra: INCLUDE "gfx/pokemon/raticate_alolan/anim_idle.asm"

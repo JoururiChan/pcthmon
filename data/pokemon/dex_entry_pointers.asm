@@ -19,7 +19,7 @@ PokedexDataPointerTable:
 	dba EMaganPokedexEntry
 	dba CMimaPokedexEntry
 	dba MimaPokedexEntry
-	dba RattataPlainPokedexEntry
+	dba EMimaPokedexEntry
 	dba RaticatePlainPokedexEntry
 	dba SpearowPokedexEntry
 	dba FearowPokedexEntry
@@ -300,7 +300,7 @@ PokedexDataPointerTable:
 
 	dba DudunsparcePokedexEntry
 
-	dba RattataAlolanPokedexEntry
+	dba EMimaAlolanPokedexEntry
 	dba RaticateAlolanPokedexEntry
 	dba RaichuAlolanPokedexEntry
 	dba SandshrewAlolanPokedexEntry

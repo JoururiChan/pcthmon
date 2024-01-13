@@ -333,7 +333,6 @@ CMimaEvosAttacks:
 	db 17, FEINT_ATTACK ; Whirlwind → RBY TM move
 	db 22, DESTINY_BOND ; Twister → egg move
 	db 25, NIGHT_SHADE ; Feather Dance → TM move
-	db 32, SAKUYA_WORLD
 	db 37, WING_ATTACK
 	db 42, ROOST
 	db 47, DRILL_PECK ; Tailwind → new move
@@ -343,6 +342,7 @@ CMimaEvosAttacks:
 	db -1 ; no more level-up moves
 
 MimaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 50, EMIMA
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 5, MUD_SLAP ; Sand Attack → similar move
@@ -351,19 +351,19 @@ MimaEvosAttacks:
 	db 17, RAGE ; Whirlwind → RBY TM move
 	db 22, CHARM ; Twister → egg move
 	db 27, SWIFT ; Feather Dance → TM move
-	db 32, SAKUYA_WORLD
-	db 38, WING_ATTACK
-	db 44, ROOST
-	db 50, DRILL_PECK ; Tailwind → new move
-	db 56, STEEL_WING ; Mirror Move → TM move
+	db 30, SHADOW_BALL
+	db 34, SCARY_FACE
+	db 38, SHADOW_DANCE
+	db 41, CURSE ; Tailwind → new move
+	db 45, DARK_PULSE ; Mirror Move → TM move
 	db 62, AIR_SLASH
 	db 68, HURRICANE
 	db -1 ; no more level-up moves
 
-RattataPlainEvosAttacks:
-	evo_data EVOLVE_LEVEL, 20, RATICATE
+EMimaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
+	db 1, MASTER_SPARK ; EVO move
 	db 1, LEER ; Tail Whip → similar move
 	db 4, QUICK_ATTACK
 	db 7, FOCUS_ENERGY
@@ -376,9 +376,11 @@ RattataPlainEvosAttacks:
 	db 28, SUPER_FANG
 	db 31, DOUBLE_EDGE
 	db 34, COUNTER ; Endeavor → egg move
+	db 54, HYPNOSIS
+	db 58, DREAM_EATER
 	db -1 ; no more level-up moves
 
-RattataAlolanEvosAttacks:
+EMimaAlolanEvosAttacks:
 	evo_data EVOLVE_LEVEL, 20, RATICATE, ALOLAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE

@@ -25,7 +25,7 @@ PokemonBodyData:
 	body_data   3,   18, WINGS,        BROWN  ; EMAGAN
 	body_data  11,  300, WINGS,        BROWN  ; CMIMA
 	body_data  15,  395, WINGS,        BROWN  ; MIMA
-	body_data   3,   35, QUADRUPED,    PURPLE ; RATTATA
+	body_data   3,   35, QUADRUPED,    PURPLE ; EMIMA
 	body_data   7,  185, QUADRUPED,    BROWN  ; RATICATE
 	body_data   3,   20, WINGS,        BROWN  ; SPEAROW
 	body_data  12,  380, WINGS,        BROWN  ; FEAROW
@@ -306,7 +306,7 @@ PokemonBodyData:
 
 	body_data  45,  474, SERPENTINE,   YELLOW ; DUDUNSPARCE (DUDUNSPARCE_THREE_SEGMENT_FORM)
 
-	body_data   3,   38, QUADRUPED,    BLACK  ; RATTATA (ALOLAN_FORM)
+	body_data   3,   38, QUADRUPED,    BLACK  ; EMIMA (ALOLAN_FORM)
 	body_data   7,  255, QUADRUPED,    BLACK  ; RATICATE (ALOLAN_FORM)
 	body_data   7,  210, BIPEDAL_TAIL, BROWN  ; RAICHU (ALOLAN_FORM)
 	body_data   7,  400, BIPEDAL_TAIL, WHITE  ; SANDSHREW (ALOLAN_FORM)

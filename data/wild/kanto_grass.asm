@@ -287,7 +287,7 @@
 	wildmon 22, RATICATE
 	wildmon 24, GOLBAT
 	wildmon 21, SLOWPOKE
-	wildmon 20, RATTATA
+	wildmon 20, EMIMA
 	wildmon 23, SLOWPOKE
 	wildmon 23, SLOWPOKE
 	; day
@@ -295,7 +295,7 @@
 	wildmon 22, RATICATE
 	wildmon 24, GOLBAT
 	wildmon 21, SLOWPOKE
-	wildmon 20, RATTATA
+	wildmon 20, EMIMA
 	wildmon 23, SLOWPOKE
 	wildmon 23, SLOWPOKE
 	; nite
@@ -303,7 +303,7 @@
 	wildmon 22, RATICATE
 	wildmon 24, GOLBAT
 	wildmon 21, SLOWPOKE
-	wildmon 20, RATTATA
+	wildmon 20, EMIMA
 	wildmon 23, SLOWPOKE
 	wildmon 23, SLOWPOKE
 	end_grass_wildmons

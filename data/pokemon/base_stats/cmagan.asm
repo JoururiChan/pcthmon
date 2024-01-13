@@ -5,13 +5,13 @@
 	db 120 ; catch rate
 	db 53 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for CMAGAN, SHED_SKIN, SHED_SKIN, SHED_SKIN
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_BUG, EGG_BUG ; egg groups
+	abilities_for CMAGAN, KEEN_EYE, KEEN_EYE, PRESSURE
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
-	ev_yield 2 Def
+	ev_yield 1 HP
 
 	; tm/hm learnset
 	tmhm

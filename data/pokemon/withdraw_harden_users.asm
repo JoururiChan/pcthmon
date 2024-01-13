@@ -2,9 +2,6 @@
 
 WithdrawUsers:
 ; Defense Curl += Withdraw
-	dp CSAKUYA
-	dp SAKUYA
-	dp ESAKUYA
 	dp SLOWBRO
 	dp SHELLDER
 	dp CLOYSTER
@@ -14,8 +11,6 @@ WithdrawUsers:
 
 HardenUsers:
 ; Defense Curl += Harden
-	dp MGYOKU
-	dp CMAGAN
 	dp GRIMER
 	dp MUK
 	dp ONIX

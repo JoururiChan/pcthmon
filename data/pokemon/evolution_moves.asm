@@ -2,23 +2,23 @@ EvolutionMoves::
 	table_width 1, EvolutionMoves
 	db NO_MOVE      ; CREIMU
 	db NO_MOVE      ; REIMU
-	db PETAL_DANCE  ; EREIMU
+	db NO_MOVE      ; EREIMU
 	db NO_MOVE      ; CMARISA
 	db NO_MOVE      ; MARISA
-	db WING_ATTACK  ; EMARISA
+	db NO_MOVE      ; EMARISA
 	db NO_MOVE      ; CSAKUYA
 	db NO_MOVE      ; SAKUYA
-	db FLASH_CANNON ; ESAKUYA
+	db NO_MOVE      ; ESAKUYA
 	db NO_MOVE      ; CGYOKU
-	db DEFENSE_CURL ; MGYOKU
-	db GUST         ; FGYOKU
+	db NO_MOVE      ; MGYOKU
+	db NO_MOVE      ; FGYOKU
 	db NO_MOVE      ; OGYOKU
-	db DEFENSE_CURL ; CMAGAN
-	db U_TURN       ; MAGAN
+	db NO_MOVE      ; CMAGAN
+	db TOXIC_GAS    ; MAGAN
 	db NO_MOVE      ; EMAGAN
 	db NO_MOVE      ; CMIMA
 	db NO_MOVE      ; MIMA
-	db NO_MOVE      ; RATTATA
+	db NO_MOVE      ; EMIMA
 	db SCARY_FACE   ; RATICATE
 	db NO_MOVE      ; SPEAROW
 	db NO_MOVE      ; FEAROW
@@ -303,7 +303,7 @@ endc
 
 	db NO_MOVE      ; DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
 
-	db NO_MOVE      ; RATTATA, ALOLAN_FORM
+	db NO_MOVE      ; EMIMA, ALOLAN_FORM
 	db SCARY_FACE   ; RATICATE, ALOLAN_FORM
 	db PSYCHIC_M    ; RAICHU, ALOLAN_FORM
 	db NO_MOVE      ; SANDSHREW, ALOLAN_FORM

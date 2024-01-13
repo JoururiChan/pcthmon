@@ -9,7 +9,7 @@
 
 	abilities_for EMARISA, SPEED_BOOST, SPEED_BOOST, BLAZE
 	db GROWTH_SLOW ; growth rate
-	dn EGG_INDTERMINATE, EGG_MINERAL ; egg groups
+	dn EGG_INDETERMINATE, EGG_MINERAL ; egg groups
 
 	ev_yield 3 SAt
 

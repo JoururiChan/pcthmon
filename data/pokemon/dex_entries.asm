@@ -182,8 +182,8 @@ MimaPokedexEntry::
 	next "are feared as"
 	next "wicked weapons.@"
 
-SECTION "RattataPlainPokedexEntry", ROMX
-RattataPlainPokedexEntry::
+SECTION "EMimaPokedexEntry", ROMX
+EMimaPokedexEntry::
 	db "Rat@"
 	db   "This #mon's"
 	next "impressive vital-"
@@ -2915,8 +2915,8 @@ MewtwoArmoredPokedexEntry::
 	next "armor, Mewtwo's pow-"
 	next "er is unstoppable.@"
 
-SECTION "RattataAlolanPokedexEntry", ROMX
-RattataAlolanPokedexEntry::
+SECTION "EMimaAlolanPokedexEntry", ROMX
+EMimaAlolanPokedexEntry::
 	db "Mouse@"
 	db   "It has no interest"
 	next "in anything that's"

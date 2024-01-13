@@ -15,7 +15,7 @@ ViridianNicknameSpeechHouse_MapScriptHeader:
 	object_event  2,  4, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, ViridianNicknameSpeechHousePokefanMText, -1
 	object_event  5,  4, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, ViridianNicknameSpeechHouseLassText, -1
 	pokemon_event  5,  2, HOOTHOOT, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, HootyText, -1
-	pokemon_event  6,  3, RATTATA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PURPLE, RatteyText, -1
+	pokemon_event  6,  3, EMIMA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PURPLE, RatteyText, -1
 
 ViridianNicknameSpeechHousePokefanMText:
 	text "Do you put a lot"
@@ -34,7 +34,7 @@ ViridianNicknameSpeechHousePokefanMText:
 ViridianNicknameSpeechHouseLassText:
 	text "They're Hooty--"
 	line "a Hoothoot--and"
-	cont "Rattey--a Rattata."
+	cont "Rattey--a EMima."
 	done
 
 HootyText:

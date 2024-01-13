@@ -18,7 +18,7 @@ NewPokedexOrder:
 	dp FEAROW
 	dp HOOTHOOT
 	dp NOCTOWL
-	dp RATTATA
+	dp EMIMA
 	dp RATICATE
 	dp SENTRET
 	dp FURRET

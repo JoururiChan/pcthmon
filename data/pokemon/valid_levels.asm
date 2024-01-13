@@ -2,24 +2,24 @@ ValidPokemonLevels: ; for Wonder Trade
 	table_width 2, ValidPokemonLevels
 	;  min, max
 	db   1,  15 ; CReimu
-	db  16,  31 ; Reimu
-	db  32, 100 ; EReimu
-	db   1,  15 ; CMarisa
-	db  16,  35 ; Marisa
+	db  16,  34 ; Reimu
+	db  35, 100 ; EReimu
+	db   1,  17 ; CMarisa
+	db  18,  35 ; Marisa
 	db  36, 100 ; EMarisa
-	db   1,  15 ; CSakuya
-	db  16,  35 ; Sakuya
-	db  36, 100 ; ESakuya
-	db   1,   6 ; CGyoku
-	db   7,   9 ; MGyoku
-	db  10, 100 ; FGyoku
-	db   1,   6 ; OGyoku
-	db   7,   9 ; CMagan
-	db  10, 100 ; Magan
-	db   1,  17 ; EMagan
-	db  18,  35 ; CMima
-	db  36, 100 ; Mima
-	db   1,  19 ; Rattata
+	db   1,  13 ; CSakuya
+	db  14,  31 ; Sakuya
+	db  32, 100 ; ESakuya
+	db   1,  21 ; CGyoku
+	db  22, 100 ; MGyoku
+	db  22, 100 ; FGyoku
+	db  22, 100 ; OGyoku
+	db   1,  24 ; CMagan
+	db  25,  42 ; Magan
+	db  43, 100 ; EMagan
+	db   1,  27 ; CMima
+	db  28,  49 ; Mima
+	db  50, 100 ; EMima
 	db  20, 100 ; Raticate
 	db   1,  19 ; Spearow
 	db  20, 100 ; Fearow

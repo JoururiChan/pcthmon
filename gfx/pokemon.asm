@@ -1187,17 +1187,17 @@ GyaradosRedFrontpic:   INCBIN "gfx/pokemon/gyarados_red/front.animated.2bpp.lz"
 GyaradosPlainBackpic:
 GyaradosRedBackpic:    INCBIN "gfx/pokemon/gyarados/back.2bpp.lz"
 
-SECTION "RattataPlain Pics", ROMX
-RattataPlainFrontpic: INCBIN "gfx/pokemon/rattata_plain/front.animated.2bpp.lz"
-RattataPlainBackpic:  INCBIN "gfx/pokemon/rattata_plain/back.2bpp.lz"
+SECTION "EMima Pics", ROMX
+EMimaFrontpic: INCBIN "gfx/pokemon/rattata_plain/front.animated.2bpp.lz"
+EMimaBackpic:  INCBIN "gfx/pokemon/rattata_plain/back.2bpp.lz"
 
 SECTION "RaticatePlain Pics", ROMX
 RaticatePlainFrontpic: INCBIN "gfx/pokemon/raticate_plain/front.animated.2bpp.lz"
 RaticatePlainBackpic:  INCBIN "gfx/pokemon/raticate_plain/back.2bpp.lz"
 
-SECTION "RattataAlolan Pics", ROMX
-RattataAlolanFrontpic: INCBIN "gfx/pokemon/rattata_alolan/front.animated.2bpp.lz"
-RattataAlolanBackpic:  INCBIN "gfx/pokemon/rattata_alolan/back.2bpp.lz"
+SECTION "EMimaAlolan Pics", ROMX
+EMimaAlolanFrontpic: INCBIN "gfx/pokemon/rattata_alolan/front.animated.2bpp.lz"
+EMimaAlolanBackpic:  INCBIN "gfx/pokemon/rattata_alolan/back.2bpp.lz"
 
 SECTION "RaticateAlolan Pics", ROMX
 RaticateAlolanFrontpic: INCBIN "gfx/pokemon/raticate_alolan/front.animated.2bpp.lz"

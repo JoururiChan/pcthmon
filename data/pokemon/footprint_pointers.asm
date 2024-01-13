@@ -18,7 +18,7 @@ FootprintPointers::
 	dw EMaganFootprint
 	dw CMimaFootprint
 	dw MimaFootprint
-	dw RattataFootprint
+	dw EMimaFootprint
 	dw RaticateFootprint
 	dw SpearowFootprint
 	dw FearowFootprint
@@ -299,7 +299,7 @@ FootprintPointers::
 
 	dw DudunsparceFootprint
 
-	dw RattataFootprint
+	dw EMimaFootprint
 	dw RaticateFootprint
 	dw RaichuFootprint
 	dw SandshrewFootprint

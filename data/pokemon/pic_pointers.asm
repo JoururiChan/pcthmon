@@ -22,7 +22,7 @@ PokemonPicPointers::
 	pics EMagan
 	pics CMima
 	pics Mima
-	pics RattataPlain
+	pics EMima
 	pics RaticatePlain
 	pics Spearow
 	pics Fearow
@@ -366,7 +366,7 @@ PokemonPicPointers::
 
 	pics DudunsparceThreeSegment
 
-	pics RattataAlolan
+	pics EMimaAlolan
 	pics RaticateAlolan
 	pics RaichuAlolan
 	pics SandshrewAlolan

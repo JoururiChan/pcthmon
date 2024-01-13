@@ -18,7 +18,7 @@ BitmasksPointers:
 	dw EMaganBitmasks
 	dw CMimaBitmasks
 	dw MimaBitmasks
-	dw RattataPlainBitmasks
+	dw EMimaBitmasks
 	dw RaticatePlainBitmasks
 	dw SpearowBitmasks
 	dw FearowBitmasks
@@ -362,7 +362,7 @@ BitmasksPointers:
 
 	dw DudunsparceThreeSegmentBitmasks
 
-	dw RattataAlolanBitmasks
+	dw EMimaAlolanBitmasks
 	dw RaticateAlolanBitmasks
 	dw RaichuAlolanBitmasks
 	dw SandshrewAlolanBitmasks

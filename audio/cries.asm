@@ -1058,11 +1058,11 @@ Cry_Psyduck:
 	channel 6, Cry_Psyduck_Ch6
 	channel 8, Cry_Psyduck_Ch8
 
-Cry_Rattata:
+Cry_EMima:
 	channel_count 3
-	channel 5, Cry_Rattata_Ch5
-	channel 6, Cry_Rattata_Ch6
-	channel 8, Cry_Rattata_Ch8
+	channel 5, Cry_EMima_Ch5
+	channel 6, Cry_EMima_Ch6
+	channel 8, Cry_EMima_Ch8
 
 Cry_Vileplume:
 	channel_count 3
@@ -2057,7 +2057,7 @@ Cry_Psyduck_Ch6:
 Cry_Psyduck_Ch8:
 	sound_ret
 
-Cry_Rattata_Ch5:
+Cry_EMima_Ch5:
 	duty_cycle_pattern 0, 1, 0, 1
 	square_note 2, 3, -5, 897
 	square_note 7, 15, 5, 1537
@@ -2065,7 +2065,7 @@ Cry_Rattata_Ch5:
 	square_note 8, 9, 1, 897
 	sound_ret
 
-Cry_Rattata_Ch6:
+Cry_EMima_Ch6:
 	duty_cycle_pattern 3, 2, 3, 2
 	square_note 2, 3, -6, 1456
 	square_note 7, 13, 5, 1885
@@ -2073,7 +2073,7 @@ Cry_Rattata_Ch6:
 	square_note 8, 6, 1, 1456
 	sound_ret
 
-Cry_Rattata_Ch8:
+Cry_EMima_Ch8:
 	noise_note 2, 9, 2, 73
 	noise_note 7, 11, 5, 41
 	noise_note 1, 10, 2, 57
