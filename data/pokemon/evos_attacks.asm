@@ -46,7 +46,7 @@ CReimuEvosAttacks:
 ReimuEvosAttacks:
 	evo_data EVOLVE_LEVEL, 34, EREIMU
 	db -1 ; no more evolutions
-	db 1, POUND
+	db 1, TACKLE
 	db 1, GROWL
 	db 6, SEAL_NEEDLE
 	db 10, MACH_PUNCH
@@ -171,7 +171,7 @@ SakuyaEvosAttacks:
 	db 14, FURY_STRIKES ; Bubble → egg move
 	db 17, DISABLE
 	db 21, HONE_TOOLS
-	db 25, DETECT
+	db 25, PROTECT
 	db 29, ICICLE_SPEAR
 	db 36, SCULPTURE ; Skull Bash → new move
 	db 40, MIRROR_COAT ; Iron Defense → egg move
