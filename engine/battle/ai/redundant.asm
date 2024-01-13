@@ -29,7 +29,7 @@ AI_Redundant:
 	dbw EFFECT_SPIKES,        .Spikes
 	dbw EFFECT_TOXIC_SPIKES,  .ToxicSpikes
 	dbw EFFECT_FORESIGHT,     .Foresight
-	dbw EFFECT_PERISH_SONG,   .PerishSong
+	dbw EFFECT_SHADOW_DANCE,   .PerishSong
 	dbw EFFECT_SANDSTORM,     .Sandstorm
 	dbw EFFECT_HAIL,          .Hail
 	dbw EFFECT_ATTRACT,       .Attract

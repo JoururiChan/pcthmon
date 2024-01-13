@@ -200,7 +200,7 @@
 	const ZAP_CANNON   ; $c0
 	const FORESIGHT    ; $c1
 	const DESTINY_BOND ; $c2
-	const PERISH_SONG  ; $c3
+	const SHADOW_DANCE  ; $c3
 	const ICY_WIND     ; $c4
 	const POWER_GEM    ; $c5
 	const BLAZE_STAR  ; $c6

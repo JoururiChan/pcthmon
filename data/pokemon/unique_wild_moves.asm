@@ -51,7 +51,7 @@ UniqueWildMoves:
 	unique_moves DIM_CAVE,         RHYDON,     CRUNCH       ; Prism tutor move
 	unique_moves SOUL_HOUSE,       HAUNTER,    MOONBLAST    ; Prism tutor move
 	unique_moves SOUL_HOUSE,       MISDREAVUS, HEAL_BELL    ; HGSS tutor move
-	unique_moves LAV_RADIO_TOWER,  MAROWAK,    PERISH_SONG  ; Dream World move
+	unique_moves LAV_RADIO_TOWER,  MAROWAK,    SHADOW_DANCE  ; Dream World move
 	unique_moves LUCKY_ISLAND,     CHANSEY,    TRI_ATTACK   ; RBY TM move
 	unique_moves LUCKY_ISLAND,     TOGETIC,    0
 	unique_moves SAFARI_ZONE,      TANGELA,    LEECH_SEED   ; Dream World move (hub)

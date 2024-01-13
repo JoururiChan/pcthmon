@@ -2067,7 +2067,7 @@ SeelEvosAttacks:
 	db 31, AQUA_JET
 	db 33, BUBBLE_BEAM ; Brine → RBY TM move
 	db 37, TAKE_DOWN
-	db 41, PERISH_SONG ; Dive →  new move
+	db 41, SHADOW_DANCE ; Dive →  new move
 	db 43, AQUA_TAIL
 	db 47, ICE_BEAM
 	db 51, SAFEGUARD
@@ -2089,7 +2089,7 @@ DewgongEvosAttacks:
 	db 31, AQUA_JET
 	db 33, BUBBLE_BEAM ; Brine → RBY TM move
 	db 39, TAKE_DOWN
-	db 45, PERISH_SONG ; Dive → new move
+	db 45, SHADOW_DANCE ; Dive → new move
 	db 49, AQUA_TAIL
 	db 55, ICE_BEAM
 	db 61, SAFEGUARD
@@ -2232,7 +2232,7 @@ GastlyEvosAttacks:
 	db 36, DARK_PULSE
 	db 40, DESTINY_BOND
 	db 43, HEX
-	db 47, PERISH_SONG ; Nightmare → new move
+	db 47, SHADOW_DANCE ; Nightmare → new move
 	db -1 ; no more level-up moves
 
 HaunterEvosAttacks:
@@ -2253,7 +2253,7 @@ HaunterEvosAttacks:
 	db 44, DARK_PULSE
 	db 50, DESTINY_BOND
 	db 55, HEX
-	db 61, PERISH_SONG ; Nightmare → new move
+	db 61, SHADOW_DANCE ; Nightmare → new move
 	db -1 ; no more level-up moves
 
 GengarEvosAttacks:
@@ -2273,7 +2273,7 @@ GengarEvosAttacks:
 	db 44, DARK_PULSE
 	db 50, DESTINY_BOND
 	db 55, HEX
-	db 61, PERISH_SONG ; Nightmare → new move
+	db 61, SHADOW_DANCE ; Nightmare → new move
 	db -1 ; no more level-up moves
 
 OnixEvosAttacks:
@@ -2980,7 +2980,7 @@ JynxEvosAttacks:
 	db 39, AVALANCHE
 	db 44, BODY_SLAM
 	db 49, NASTY_PLOT ; Wring Out → egg move
-	db 55, PERISH_SONG
+	db 55, SHADOW_DANCE
 	db 60, BLIZZARD
 	db -1 ; no more level-up moves
 
@@ -3165,7 +3165,7 @@ LaprasEvosAttacks:
 	db 14, WATER_PULSE
 	db 18, BODY_SLAM
 	db 22, RAIN_DANCE
-	db 27, PERISH_SONG
+	db 27, SHADOW_DANCE
 	db 32, ICE_BEAM
 	db 37, FUTURE_SIGHT ; Brine → event move
 	db 43, SAFEGUARD
@@ -4351,7 +4351,7 @@ PolitoedEvosAttacks:
 	db 1, BUBBLE_BEAM
 	db 1, HYPNOSIS
 	db 1, DOUBLE_SLAP
-	db 1, PERISH_SONG
+	db 1, SHADOW_DANCE
 	db 27, SWAGGER
 	db 48, HYPER_VOICE
 	db -1 ; no more level-up moves
@@ -4633,7 +4633,7 @@ MurkrowEvosAttacks:
 	db 45, BATON_PASS ; Foul Play → XD move
 	db 50, DRILL_PECK ; Tailwind → egg move
 	db 55, SUCKER_PUNCH
-	db 61, PERISH_SONG ; Torment → egg move
+	db 61, SHADOW_DANCE ; Torment → egg move
 	db 65, DIVE_KICK ; Quash → egg move
 	db -1 ; no more level-up moves
 
@@ -4695,7 +4695,7 @@ MisdreavusEvosAttacks:
 	db 32, LIFE_BALANCE
 	db 37, DESTINY_BOND ; Payback → egg move
 	db 41, SHADOW_BALL
-	db 46, PERISH_SONG
+	db 46, SHADOW_DANCE
 	db 50, DAZZLINGLEAM ; Grudge → TM move
 	db 55, POWER_GEM
 	db 62, NASTY_PLOT ; egg move
@@ -5533,7 +5533,7 @@ SmoochumEvosAttacks:
 	db 32, PSYCHIC_M
 	db 36, SWEET_KISS
 	db 40, NASTY_PLOT ; Mean Look → egg move
-	db 44, PERISH_SONG
+	db 44, SHADOW_DANCE
 	db 48, BLIZZARD
 	db -1 ; no more level-up moves
 
@@ -5795,7 +5795,7 @@ CelebiEvosAttacks:
 	db 64, FUTURE_SIGHT
 	db 73, HEAL_BELL ; Healing Wish → Heal Bell
 	db 82, NASTY_PLOT ; Leaf Storm → event move
-	db 91, PERISH_SONG
+	db 91, SHADOW_DANCE
 	db 100, AURA_SPHERE ; Sw/Sh move
 	db -1 ; no more level-up moves
 
@@ -5869,7 +5869,7 @@ HonchkrowEvosAttacks:
 	db 25, SWAGGER
 	db 35, NASTY_PLOT
 	db 45, NIGHT_SLASH ; Foul Play → Night Slash
-	db 55, PERISH_SONG ; Night Slash → egg move
+	db 55, SHADOW_DANCE ; Night Slash → egg move
 	db 65, DIVE_KICK ; Quash → egg move
 	db 75, DARK_PULSE
 	db -1 ; no more level-up moves
@@ -6287,7 +6287,7 @@ PerrserkerEvosAttacks:
 
 CursolaEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, PERISH_SONG
+	db 1, SHADOW_DANCE
 	db 1, TACKLE
 	db 1, DEFENSE_CURL ; Harden → similar move
 	db 1, ASTONISH

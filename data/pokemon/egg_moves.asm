@@ -327,7 +327,7 @@ SeelEggMoves:
 	db DISABLE
 	db LICK
 	db PECK
-	db PERISH_SONG
+	db SHADOW_DANCE
 	db ENCORE
 	db WATER_PULSE
 	db ICICLE_SPEAR
@@ -364,7 +364,7 @@ GastlyEggMoves:
 	db ASTONISH
 	db DISABLE
 	db HAZE
-	db PERISH_SONG
+	db SHADOW_DANCE
 	db SCARY_FACE
 	db NASTY_PLOT
 	db FEINT_ATTACK
@@ -403,7 +403,7 @@ CuboneEggMoves:
 	db ANCIENTPOWER
 	db BELLY_DRUM
 	db DOUBLE_KICK
-	db PERISH_SONG
+	db SHADOW_DANCE
 	db SCREECH
 	db ROCK_SLIDE
 	db SWORDS_DANCE
@@ -632,7 +632,7 @@ CleffaEggMoves:
 
 IgglybuffEggMoves:
 	db FEINT_ATTACK
-	db PERISH_SONG
+	db SHADOW_DANCE
 	db MOONBLAST
 	db $ff
 
@@ -699,7 +699,7 @@ WooperPaldeanEggMoves:
 MurkrowEggMoves:
 	db CONFUSE_RAY
 	db DRILL_PECK
-	db PERISH_SONG
+	db SHADOW_DANCE
 	db QUICK_ATTACK
 	db SCREECH
 	db WING_ATTACK
@@ -951,7 +951,7 @@ AzurillEggMoves:
 	db BELLY_DRUM
 	db FORESIGHT
 	db FUTURE_SIGHT
-	db PERISH_SONG
+	db SHADOW_DANCE
 	db SUPERSONIC
 	db LIGHT_SCREEN
 	db AMNESIA

@@ -195,7 +195,7 @@ MoveNames::
 	li "Zap Cannon"
 	li "Foresight"
 	li "Destiny Bond"
-	li "Perish Song"
+	li "Shadow Dance"
 	li "Icy Wind"
 	li "Power Gem"
 	li "Blaze Star"

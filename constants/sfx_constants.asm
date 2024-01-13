@@ -132,7 +132,7 @@
 	const SFX_FORESIGHT                   ; 81
 	const SFX_SPITE                       ; 82
 	const SFX_OUTRAGE                     ; 83
-	const SFX_PERISH_SONG                 ; 84
+	const SFX_SHADOW_DANCE                 ; 84
 	const SFX_GIGA_DRAIN                  ; 85
 	const SFX_ATTRACT                     ; 86
 	const SFX_KINESIS_2                   ; 87
