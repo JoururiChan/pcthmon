@@ -8,7 +8,7 @@
 	dn GENDER_F87_5, HATCH_FASTER ; gender ratio, step cycles to hatch
 
 	abilities_for CMARISA, PICKUP, PICKUP, BLAZE
-	db GROWTH SLOW ; growth rate
+	db GROWTH_SLOW ; growth rate
 	dn EGG_INDETERMINATE, EGG_MINERAL ; egg groups
 
 	ev_yield 1 SAt
