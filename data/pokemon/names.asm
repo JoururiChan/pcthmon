@@ -19,7 +19,7 @@ PokemonNames::
 	rawchar "EMagan@@@@"
 	rawchar "CMima@@@@@"
 	rawchar "Mima@@@@@@"
-	rawchar "EMima@@@"
+	rawchar "EMima@@@@@"
 	rawchar "Raticate@@"
 	rawchar "Spearow@@@"
 	rawchar "Fearow@@@@"
