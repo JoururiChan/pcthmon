@@ -15,7 +15,6 @@ MACRO multi_evo
 ENDM
 
 MultipleEvolutions:
-	multi_evo CGYOKU
 	multi_evo PIKACHU
 	multi_evo PIKACHU, PIKACHU_FLY_FORM, EVOLVE_PIKACHU
 	multi_evo PIKACHU, PIKACHU_SURF_FORM, EVOLVE_PIKACHU
