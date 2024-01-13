@@ -10,9 +10,9 @@ AsleepTreeMons:
 .Nite
 .Eve
 	dp CGYOKU
-	dp MGYOKU
-	dp FGYOKU
-	dp OGYOKU
+	dp CREIMU
+	dp CMARISA
+	dp CSAKUYA
 	dp CMAGAN
 	dp MAGAN
 	dp SPEAROW

@@ -94,8 +94,8 @@ TreeMonSet_Forest:
 	; rare
 	tree_mon 60, HOOTHOOT,   10
 	tree_mon 15, CGYOKU,   10
-	tree_mon 15, OGYOKU,     10
-	tree_mon  5, MGYOKU,    10
+	tree_mon 15, CMAGAN,     10
+	tree_mon  5, CMIMA,    10
 	tree_mon  5, CMAGAN,     10
 	db -1
 

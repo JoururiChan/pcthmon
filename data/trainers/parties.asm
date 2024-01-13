@@ -135,10 +135,10 @@ FalknerGroup:
 	db "Falkner@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_MOVES
 	; party
-	dbp 11, EMAGAN
+	dbp 11, CREIMU
 		db NO_ITEM
 		ev_spread 32 HP
-		db TACKLE, GUST, MUD_SLAP, NO_MOVE
+		db TACKLE, GROWL, SEAL_NEEDLE, NO_MOVE
 	dbp 11, HOOTHOOT
 		db NO_ITEM
 		ev_spread 32 HP
@@ -146,7 +146,7 @@ FalknerGroup:
 	dbp 13, CMIMA
 		db PECHA_BERRY
 		ev_spread 32 HP
-		db GUST, MUD_SLAP, QUICK_ATTACK, ROOST
+		db ASTONISH, CONFUSE_RAY, PSYSHOT, ROOST
 	db -1 ; end
 
 	; FALKNER
@@ -181,14 +181,14 @@ BugsyGroup:
 	db "Bugsy@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp 14, FGYOKU, MALE
+	dbp 14, CMAGAN, MALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 32 SAt, 32 Spe
-		db TACKLE, TOXIC_GAS, SLEEP_POWDER, PSYSHOT
-	dbp 14, MAGAN, MALE
+		db ACID, LEER, MEAN_LOOK, PSYSHOT
+	dbp 14, CGYOKU, MALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 32 Atk, 32 Spe
-		db SEAL_NEEDLE, STRING_SHOT, DEFENSE_CURL, FURY_STRIKES
+		db SEAL_NEEDLE, PSYSHOT, ROLLOUT, FORESIGHT
 	dbp 14, YANMA, FEMALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 64 Atk
@@ -1444,7 +1444,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 4, EMIMA
+	dbp 4, CMIMA
 		db NO_ITEM
 	dbp 5, CSAKUYA
 		db ORAN_BERRY
@@ -1454,7 +1454,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 4, EMIMA
+	dbp 4, CMIMA
 		db NO_ITEM
 	dbp 5, CREIMU
 		db ORAN_BERRY
@@ -1464,7 +1464,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 4, EMIMA
+	dbp 4, CMIMA
 		db NO_ITEM
 	dbp 5, CMARISA
 		db ORAN_BERRY
@@ -1491,10 +1491,10 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 72 HP
 		db MUD_SLAP, RAPID_SPIN, ROLLOUT, MAGNITUDE ; default for level
-	dbp 18, BAYLEEF
+	dbp 18, SAKUYA
 		db ORAN_BERRY
 		ev_spread 72 Atk
-		db RAZOR_LEAF, TOXIC_GAS, HEALINGLIGHT, REFLECT ; No Light Screen
+		db KNIFE_THROW, LEER, FURY_STRIKES, SCRATCH ; No Light Screen
 	db -1 ; end
 
 	; RIVAL1
@@ -1510,7 +1510,7 @@ Rival1Group:
 	dbp 15, GEODUDE
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, QUILAVA
+	dbp 18, REIMU
 		db ORAN_BERRY
 		ev_spread 72 SAt
 	db -1 ; end
@@ -1528,7 +1528,7 @@ Rival1Group:
 	dbp 15, GEODUDE
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, CROCONAW
+	dbp 18, MARISA
 		db ORAN_BERRY
 		ev_spread 72 Spe
 	db -1 ; end
@@ -1553,10 +1553,10 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	dbp 22, BAYLEEF
+	dbp 22, SAKUYA
 		db ORAN_BERRY
 		ev_spread 72 Atk, 32 SAt
-		db REFLECT, RAZOR_LEAF, TOXIC_GAS, DISARM_VOICE
+		db KNIFE_THROW, HONE_TOOLS, DOUBLE_KICK, FURY_STRIKES
 	db -1 ; end
 
 	; RIVAL1
@@ -1579,10 +1579,10 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	dbp 22, QUILAVA
+	dbp 22, REIMU
 		db ORAN_BERRY
 		ev_spread 72 SAt, 32 Spe
-		db LEER, SMOKESCREEN, EMBER, QUICK_ATTACK
+		db AERIAL_ACE, REFLECT, SEAL_NEEDLE, FORESIGHT
 	db -1 ; end
 
 	; RIVAL1
@@ -1605,10 +1605,10 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	dbp 22, CROCONAW
+	dbp 22, MARISA
 		db ORAN_BERRY
 		ev_spread 32 Atk, 72 Spe
-		db LEER, RAGE, WATER_GUN, BITE
+		db EMBER, THUNDERSHOCK, SPORE, GROWL
 	db -1 ; end
 
 	; RIVAL1
@@ -1961,10 +1961,10 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME | TRAINERTYPE_MOVES
 	; party
-	dbp 16, EMAGAN
+	dbp 16, CMAGAN
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 Spe
-		db TACKLE, GUST, MUD_SLAP, QUICK_ATTACK ; default for level
+		db ACID, CONFUSE_RAY, THUNDERSHOCK, MEAN_LOOK ; default for level
 	dbp 17, MARILL
 		db NO_ITEM, "@"
 		ev_spread 72 Atk
@@ -1973,17 +1973,17 @@ Lyra1Group:
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 SAt
 		db THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP, SPARK ; default for level
-	dbp 18, BAYLEEF
+	dbp 18, SAKUYA
 		db ORAN_BERRY, "Chicory@"
 		ev_spread 72 HP
-		db RAZOR_LEAF, TOXIC_GAS, HEALINGLIGHT, REFLECT ; No Light Screen
+		db KNIFE_THROW, LEER, DOUBLE_KICK, DISABLE ; No Light Screen
 	db -1 ; end
 
 	; LYRA1
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
-	dbp 16, EMAGAN
+	dbp 16, CMAGAN
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 Spe
 	dbp 17, SUNKERN
@@ -1992,7 +1992,7 @@ Lyra1Group:
 	dbp 15, MAREEP
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 SAt
-	dbp 18, QUILAVA
+	dbp 18, REIMU
 		db ORAN_BERRY, "Cinder@"
 		ev_spread 72 Spe
 	db -1 ; end
@@ -2001,7 +2001,7 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_NICKNAME
 	; party
-	dbp 16, EMAGAN
+	dbp 16, CMAGAN
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 Spe
 	dbp 17, GROWLITHE
@@ -2010,7 +2010,7 @@ Lyra1Group:
 	dbp 15, MAREEP
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 SAt
-	dbp 18, CROCONAW
+	dbp 18, MARISA
 		db ORAN_BERRY, "Toto@"
 		ev_spread 72 Atk
 	db -1 ; end
@@ -2216,16 +2216,16 @@ YoungsterGroup:
 	db "Joey@"
 	db TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY
 	; party
-	dbp 5, EMIMA, MALE
-		db FAKE_PERFECT_DVS, ABIL_EMIMA_GUTS | NAT_ATK_UP_SATK_DOWN
+	dbp 5, CMIMA, MALE
+		db FAKE_PERFECT_DVS, ABIL_CMIMA_PRESSURE | NAT_ATK_UP_SATK_DOWN
 	db -1 ; end
 
 	; YOUNGSTER
 	db "Joey@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY
 	; party
-	dbp 15, EMIMA, MALE
-		db ORAN_BERRY, FAKE_PERFECT_DVS, ABIL_EMIMA_GUTS | NAT_ATK_UP_SATK_DOWN
+	dbp 15, CMIMA, MALE
+		db ORAN_BERRY, FAKE_PERFECT_DVS, ABIL_CMIMA_PRESSURE | NAT_ATK_UP_SATK_DOWN
 		ev_spread 48 Atk, 48 Spe
 	db -1 ; end
 
@@ -2263,15 +2263,15 @@ YoungsterGroup:
 	db "Mikey@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 2, EMIMA
-	dbp 4, EMAGAN
+	dbp 2, CMIMA
+	dbp 4, CMAGAN
 	db -1 ; end
 
 	; YOUNGSTER
 	db "Albert@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 8, EMIMA
+	dbp 8, CMIMA
 	dbp 10, ZUBAT
 	db -1 ; end
 
@@ -2375,7 +2375,7 @@ BugCatcherGroup:
 	; party
 	dbp 2, CGYOKU
 	dbp 2, CGYOKU
-	dbp 3, OGYOKU
+	dbp 3, CREIMU
 	dbp 2, CGYOKU
 	db -1 ; end
 
@@ -2383,20 +2383,20 @@ BugCatcherGroup:
 	db "Wade@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, MGYOKU
-	dbp 9, MGYOKU
+	dbp 9, CMARISA
+	dbp 9, CMARISA
 	dbp 10, CMAGAN
-	dbp 9, MGYOKU
+	dbp 9, CREIMU
 	db -1 ; end
 
 	; BUG_CATCHER
 	db "Wade@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 14, FGYOKU
-	dbp 14, FGYOKU
-	dbp 15, MAGAN
-	dbp 14, FGYOKU
+	dbp 14, CGYOKU
+	dbp 14, CGYOKU
+	dbp 15, CMAGAN
+	dbp 14, CGYOKU
 	db -1 ; end
 
 	; BUG_CATCHER
@@ -2477,9 +2477,9 @@ BugCatcherGroup:
 	db "Benny@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 7, OGYOKU
+	dbp 7, CREIMU
 	dbp 10, CMAGAN
-	dbp 12, MAGAN
+	dbp 12, CMAGAN
 	db -1 ; end
 
 	; BUG_CATCHER
@@ -2487,7 +2487,7 @@ BugCatcherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 13, CGYOKU
-	dbp 13, OGYOKU
+	dbp 13, CREIMU
 	db -1 ; end
 
 	; BUG_CATCHER
@@ -3503,7 +3503,7 @@ BirdKeeperGroup:
 	db "Rod@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 7, EMAGAN
+	dbp 7, CREIMU
 	dbp 8, HOOTHOOT
 	db -1 ; end
 
@@ -3518,11 +3518,11 @@ BirdKeeperGroup:
 	db "Theo@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, EMAGAN
+	dbp 17, CREIMU
 	dbp 16, HOOTHOOT
 	dbp 19, CMIMA
 	dbp 17, HOOTHOOT
-	dbp 16, EMAGAN
+	dbp 16, CREIMU
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3547,7 +3547,7 @@ BirdKeeperGroup:
 	db "Hank@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 13, EMAGAN
+	dbp 13, CREIMU
 	dbp 56, MIMA
 	db -1 ; end
 
@@ -3579,8 +3579,8 @@ BirdKeeperGroup:
 	db "Peter@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 7, EMAGAN
-	dbp 8, EMAGAN
+	dbp 7, CREIMU
+	dbp 8, CREIMU
 	dbp 10, SPEAROW
 	db -1 ; end
 
@@ -3697,7 +3697,7 @@ BirdKeeperGroup:
 	db "Bryan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES - 1, EMAGAN
+	dbp LEVEL_FROM_BADGES - 1, CREIMU
 	dbp LEVEL_FROM_BADGES + 1, CMIMA
 	db -1 ; end
 
@@ -4042,7 +4042,7 @@ GruntMGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 8, EMIMA
+	dbp 8, CMIMA
 	dbp 10, ZUBAT
 	dbp 10, GASTLY
 	db -1 ; end
@@ -4073,7 +4073,7 @@ GruntMGroup:
 	db "Grunt@"
 	db TRAINERTYPE_PERSONALITY
 	; party
-	dbp 31, EMIMA, MALE
+	dbp 31, CMIMA, MALE
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 33, HOUNDOUR, MALE
 		db ABILITY_1 | NAT_NEUTRAL
@@ -4179,7 +4179,7 @@ GruntMGroup:
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 27, RATICATE, MALE
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp 26, EMIMA, MALE | ALOLAN_FORM
+	dbp 26, CMIMA, MALE | ALOLAN_FORM
 		db ABILITY_1 | NAT_NEUTRAL
 	db -1 ; end
 
@@ -4286,7 +4286,7 @@ GruntMGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, EMIMA
+	dbp 10, CMIMA
 	dbp 10, MEOWTH
 	db -1 ; end
 
@@ -5854,7 +5854,7 @@ SchoolboyGroup:
 		db GOLD_LEAF, "Gold@"
 	dbp 16, SPINARAK
 		db NO_ITEM, "Spin@"
-	dbp 17, EMIMA
+	dbp 17, CMIMA
 		db ORAN_BERRY, "Rat@"
 	db -1 ; end
 
@@ -6005,7 +6005,7 @@ SchoolgirlGroup:
 	; party
 	dbp LEVEL_FROM_BADGES + 2, CSAKUYA
 		db "Turtle@"
-	dbp LEVEL_FROM_BADGES + 0, EMAGAN
+	dbp LEVEL_FROM_BADGES + 0, CREIMU
 		db "@"
 	dbp LEVEL_FROM_BADGES + 1, PIKACHU
 		db "@"
