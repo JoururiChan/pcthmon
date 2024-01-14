@@ -20,7 +20,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 ## Moves
 
-* Added: Aerial Ace, Air Slash, Aqua Tail, Astonish, Avalanche, Bug Buzz, Bulk Up, Bullet Punch, Calm Mind, Dark Pulse, DazzlinGleam, Disarm Voice, Dragon Claw, Dragon Dance, Dragon Pulse, Drain Kiss, Earth Power, Dream Heaven, Extrasensory, Fairy Wind, Flare Blitz, Flash Cannon, Focus Blast, Gunk Shot, Hail, Hex, Hone Tools, Hurricane, Hyper Voice, Ice Shard, Icicle Crash, Iron Head, Metal Sound, Moonblast, Nasty Plot, Night Slash, Play Rough, Poison Jab, Power Gem, Psystrike, Scald, Seed Bomb, Shadow Hit, Stone Edge, Water Pulse, Blaze Star, Will-O-Wisp, X-Scissor, and Zen Headbutt.
+* Added: Aerial Ace, Air Slash, Aqua Tail, Astonish, Avalanche, Bug Buzz, Bulk Up, Bullet Punch, Calm Mind, Dark Pulse, Energy Light, Disarm Voice, Dragon Claw, Dragon Dance, Dragon Pulse, Drain Kiss, Earth Power, Dream Heaven, Extrasensory, Fairy Wind, Flare Blitz, Flash Cannon, Focus Blast, Gunk Shot, Hail, Hex, Hone Tools, Hurricane, Hyper Voice, Ice Shard, Icicle Crash, Iron Head, Metal Sound, Moonblast, Nasty Plot, Night Slash, Play Rough, Poison Jab, Power Gem, Psystrike, Scald, Seed Bomb, Shadow Hit, Stone Edge, Water Pulse, Blaze Star, Will-O-Wisp, X-Scissor, and Zen Headbutt.
 * Removed: Acid Armor, Amnesia, Barrage, Beat Up, Bide, Bind, Bone Club, Bone Rush, Bubble, Clamp, Comet Punch, Constrict, Conversion2, Cotton Spore, Detect, Fissure, Frustration, Guillotine, Horn Drill, Jump Kick, Kinesis, Lovely Kiss, Meditate, Mega Kick, Mega Punch, Mimic, Mind Reader, Mirror Move, Poison Gas, Powder Snow, Present, Psych Up, Psywave, Razor Wind, Rolling Kick, Sharpen, Skull Bash, Smog, Snore, Spider Web, Spite, Sweet Scent, Synthesis, Tail Whip, Vice Grip, and Withdraw.
 * Learnsets have been updated close to Gen VI, with missing moves replaced by similar, egg, TM, or event-exclusive moves.
 
@@ -183,8 +183,8 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Ninetales is Fire/Ghost.
 * Golduck is Water/Psychic.
 * EYoumu is Grass/Fairy.
-* Typhlosion is Fire/Ground.
-* Feraligatr is Water/Dark.
+* EReisen is Fire/Ground.
+* ESanae is Water/Dark.
 * Noctowl is Flying/Psychic.
 * Ledian is Bug/Fighting.
 * Sunflora is Grass/Fire.

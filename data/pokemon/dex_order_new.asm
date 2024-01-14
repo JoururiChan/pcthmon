@@ -5,12 +5,12 @@ NewPokedexOrder:
 	dp CYOUMU
 	dp YOUMU
 	dp EYOUMU
-	dp CYNDAQUIL
-	dp QUILAVA
-	dp TYPHLOSION
-	dp TOTODILE
-	dp CROCONAW
-	dp FERALIGATR
+	dp CREISEN
+	dp REISEN
+	dp EREISEN
+	dp CSANAE
+	dp SANAE
+	dp ESANAE
 	dp EMAGAN
 	dp CMIMA
 	dp MIMA

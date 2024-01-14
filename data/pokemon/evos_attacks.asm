@@ -814,7 +814,7 @@ NinetalesPlainEvosAttacks:
 
 NinetalesAlolanEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, DAZZLINGLEAM ; evolution move
+	db 1, ENERGY_LIGHT ; evolution move
 	db 1, NASTY_PLOT
 	db 1, ICE_BEAM
 	db 1, ICE_SHARD
@@ -1780,7 +1780,7 @@ PonytaGalarianEvosAttacks:
 	db 21, HEALINGLIGHT ; Heal Pulse → similar move
 	db 25, PSYBEAM
 	db 29, TAKE_DOWN
-	db 33, DAZZLINGLEAM
+	db 33, ENERGY_LIGHT
 	db 37, SAKUYA_WORLD
 	db 41, PSYCHIC_M
 	db 45, EXTREMESPEED ; Bounce → new move
@@ -1821,7 +1821,7 @@ RapidashGalarianEvosAttacks:
 	db 21, HEALINGLIGHT ; Heal Pulse → similar move
 	db 25, PSYBEAM
 	db 29, TAKE_DOWN
-	db 33, DAZZLINGLEAM
+	db 33, ENERGY_LIGHT
 	db 37, SAKUYA_WORLD
 	db 41, PSYCHIC_M
 	db 45, EXTREMESPEED ; Bounce → new move
@@ -3647,7 +3647,7 @@ CYoumuEvosAttacks:
 	db 20, DISARM_VOICE ; Magical Leaf → new move
 	db 23, DREAM_HEAVEN ; Natural Gift → tutor move
 	db 28, ANCIENTPOWER ; Sweet Scent → HGSS tutor move
-	db 31, DAZZLINGLEAM ; Light Screen → TM move
+	db 31, ENERGY_LIGHT ; Light Screen → TM move
 	db 34, BODY_SLAM
 	db 39, SAFEGUARD
 	db 42, PLAY_ROUGH ; Aromatherapy → new move
@@ -3699,15 +3699,15 @@ EYoumuEvosAttacks:
 	db 54, GIGA_IMPACT
 	db -1 ; no more level-up moves
 
-CyndaquilEvosAttacks:
-	evo_data EVOLVE_LEVEL, 14, QUILAVA
+CReisenEvosAttacks:
+	evo_data EVOLVE_LEVEL, 18, REISEN
 	db -1 ; no more evolutions
 	db 1, TACKLE
-	db 1, LEER
-	db 6, SMOKESCREEN
-	db 10, EMBER
-	db 13, QUICK_ATTACK
-	db 19, DEFENSE_CURL ; Flame Wheel → Defense Curl
+	db 1, GROWL
+	db 6, PSYSHOT
+	db 10, CONFUSE_RAY
+	db 13, HYPNOSIS
+	db 17, PSYBEAM
 	db 22, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 28, DIG ; Flame Charge → TM move
 	db 31, SWIFT
@@ -3720,18 +3720,19 @@ CyndaquilEvosAttacks:
 	db 64, FLARE_BLITZ ; Eruption → egg move
 	db -1 ; no more level-up moves
 
-QuilavaEvosAttacks:
-	evo_data EVOLVE_LEVEL, 36, TYPHLOSION
+ReisenEvosAttacks:
+	evo_data EVOLVE_LEVEL, 36, EREISEN
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
 	db 6, SMOKESCREEN
 	db 10, EMBER
 	db 13, QUICK_ATTACK
-	db 20, DEFENSE_CURL ; Flame Wheel → Defense Curl
-	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
-	db 31, SWIFT
-	db 35, DIG ; Flame Charge → TM move
+	db 20, TELEPORT ; Flame Wheel → Defense Curl
+	db 24, SHADOW_HIT ; Defense Curl → Flame Charge
+	db 29, MEAN_LOOK
+	db 32, DARK_PULSE
+	db 35, CALM_MIND
 	db 42, REVERSAL ; Lava Plume → egg move
 	db 46, METEOR_FALL
 	db 53, EARTH_POWER ; Inferno → new move
@@ -3741,7 +3742,7 @@ QuilavaEvosAttacks:
 	db 75, FLARE_BLITZ ; Eruption → egg move
 	db -1 ; no more level-up moves
 
-TyphlosionPlainEvosAttacks:
+EReisenPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, FIRE_PUNCH ; evolution move
 	db 1, TACKLE
@@ -3752,9 +3753,10 @@ TyphlosionPlainEvosAttacks:
 	db 20, DEFENSE_CURL ; Flame Wheel → Defense Curl
 	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 31, SWIFT
-	db 35, DIG ; Flame Charge → TM move
-	db 43, REVERSAL ; Lava Plume → egg move
-	db 48, METEOR_FALL
+	db 38, PSYCHIC_M ; Flame Charge → TM move
+	db 42, PROTECT ; Lava Plume → egg move
+	db 47, TRICK_ROOM
+	db 52, EXTRASENSORY
 	db 56, EARTH_POWER ; Inferno → new move
 	db 61, ROLLOUT
 	db 69, DOUBLE_EDGE
@@ -3762,7 +3764,7 @@ TyphlosionPlainEvosAttacks:
 	db 81, FLARE_BLITZ ; Eruption → egg move
 	db -1 ; no more level-up moves
 
-TyphlosionHisuianEvosAttacks:
+EReisenHisuianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SHADOW_HIT ; evolution move
 	db 1, ASTONISH ; new move
@@ -3784,18 +3786,18 @@ TyphlosionHisuianEvosAttacks:
 	db 81, FLARE_BLITZ ; Eruption → egg move
 	db -1 ; no more level-up moves
 
-TotodileEvosAttacks:
-	evo_data EVOLVE_LEVEL, 18, CROCONAW
+CSanaeEvosAttacks:
+	evo_data EVOLVE_LEVEL, 16, SANAE
 	db -1 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 6, WATER_GUN
-	db 8, RAGE
-	db 13, BITE
+	db 1, TACKLE
+	db 1, GROWL
+	db 6, GUST
+	db 9, WATER_GUN
+	db 14, SAFEGUARD
 	db 15, SCARY_FACE
 	db 20, METAL_CLAW ; Ice Fang → egg move
 	db 22, REVERSAL ; Flail → similar move
-	db 27, SAKUYA_WORLD ; Feraligatr move
+	db 27, SAKUYA_WORLD ; ESanae move
 	db 29, CRUNCH
 	db 34, ANCIENTPOWER ; Chip Away → HGSS tutor move
 	db 36, SLASH
@@ -3806,8 +3808,8 @@ TotodileEvosAttacks:
 	db 56, HYDRO_PUMP
 	db -1 ; no more level-up moves
 
-CroconawEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, FERALIGATR
+SanaeEvosAttacks:
+	evo_data EVOLVE_LEVEL, 32, ESANAE
 	db -1 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
@@ -3815,10 +3817,10 @@ CroconawEvosAttacks:
 	db 8, RAGE
 	db 13, BITE
 	db 15, SCARY_FACE
-	db 21, METAL_CLAW ; Ice Fang → egg move
-	db 24, REVERSAL ; Flail → similar move
-	db 30, SAKUYA_WORLD ; Feraligatr move
-	db 33, CRUNCH
+	db 19, SWIFT ; Ice Fang → egg move
+	db 24, MEGA_DRAIN ; Flail → similar move
+	db 27, RAIN_DANCE ; ESanae move
+	db 31, WATER_PULSE
 	db 39, ANCIENTPOWER ; Chip Away → HGSS tutor move
 	db 42, SLASH
 	db 48, SCREECH
@@ -3828,7 +3830,7 @@ CroconawEvosAttacks:
 	db 66, HYDRO_PUMP
 	db -1 ; no more level-up moves
 
-FeraligatrEvosAttacks:
+ESanaeEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, NIGHT_SLASH ; evolution move
 	db 1, SCRATCH
@@ -3839,12 +3841,12 @@ FeraligatrEvosAttacks:
 	db 15, SCARY_FACE
 	db 21, METAL_CLAW ; Ice Fang → egg move
 	db 24, REVERSAL ; Flail → similar move
-	db 32, SAKUYA_WORLD
-	db 37, CRUNCH
-	db 45, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	db 50, SLASH
-	db 56, SCREECH
-	db 62, THRASH
+	db 33, TWISTER
+	db 37, AIR_SLASH
+	db 40, ENERGY_LIGHT ; Chip Away → HGSS tutor move
+	db 44, WATERFALL
+	db 47, HEALINGLIGHT
+	db 51, AEROBLAST
 	db 68, OUTRAGE ; HGSS tutor move
 	db 73, AQUA_TAIL
 	db 78, SCULPTURE ; Superpower → similar move
@@ -4217,7 +4219,7 @@ MareepEvosAttacks:
 	db 29, POWER_GEM
 	db 32, THUNDERBOLT ; Discharge → TM move
 	db 36, SAFEGUARD ; Cotton Guard → egg move
-	db 39, DAZZLINGLEAM ; Signal Beam → new move
+	db 39, ENERGY_LIGHT ; Signal Beam → new move
 	db 43, LIGHT_SCREEN
 	db 46, THUNDER
 	db -1 ; no more level-up moves
@@ -4241,7 +4243,7 @@ endc
 	db 34, POWER_GEM
 	db 38, THUNDERBOLT ; Discharge → TM move
 	db 43, SAFEGUARD ; Cotton Guard → egg move
-	db 47, DAZZLINGLEAM ; Signal Beam → new move
+	db 47, ENERGY_LIGHT ; Signal Beam → new move
 	db 52, LIGHT_SCREEN
 	db 56, THUNDER
 	db -1 ; no more level-up moves
@@ -4263,7 +4265,7 @@ AmpharosEvosAttacks:
 	db 35, POWER_GEM
 	db 40, THUNDERBOLT ; Discharge → TM move
 	db 46, SAFEGUARD ; Cotton Guard → egg move
-	db 51, DAZZLINGLEAM ; Signal Beam → new move
+	db 51, ENERGY_LIGHT ; Signal Beam → new move
 	db 57, LIGHT_SCREEN
 	db 62, THUNDER
 	db 65, DRAGON_PULSE
@@ -4372,7 +4374,7 @@ HoppipEvosAttacks:
 	db 37, U_TURN
 	db 40, AMNESIA ; Worry Seed → egg move
 	db 43, GIGA_DRAIN
-	db 46, DAZZLINGLEAM ; Bounce → TM move
+	db 46, ENERGY_LIGHT ; Bounce → TM move
 	db 49, DREAM_HEAVEN ; Memento → TM move
 	db -1 ; no more level-up moves
 
@@ -4397,7 +4399,7 @@ SkiploomEvosAttacks:
 	db 44, U_TURN
 	db 48, AMNESIA ; Worry Seed → egg move
 	db 52, GIGA_DRAIN
-	db 56, DAZZLINGLEAM ; Bounce → TM move
+	db 56, ENERGY_LIGHT ; Bounce → TM move
 	db 60, DREAM_HEAVEN ; Memento → TM move
 	db -1 ; no more level-up moves
 
@@ -4421,7 +4423,7 @@ JumpluffEvosAttacks:
 	db 49, U_TURN
 	db 54, AMNESIA ; Worry Seed → egg move
 	db 59, GIGA_DRAIN
-	db 64, DAZZLINGLEAM ; Bounce → TM move
+	db 64, ENERGY_LIGHT ; Bounce → TM move
 	db 69, DREAM_HEAVEN ; nice, Memento → TM move
 	db -1 ; no more level-up moves
 
@@ -4691,7 +4693,7 @@ MisdreavusEvosAttacks:
 	db 37, DESTINY_BOND ; Payback → egg move
 	db 41, SHADOW_BALL
 	db 46, SHADOW_DANCE
-	db 50, DAZZLINGLEAM ; Grudge → TM move
+	db 50, ENERGY_LIGHT ; Grudge → TM move
 	db 55, POWER_GEM
 	db 62, NASTY_PLOT ; egg move
 	db -1 ; no more level-up moves
@@ -5846,7 +5848,7 @@ MismagiusEvosAttacks:
 	db 1, POWER_GEM
 	db 1, SHADOW_BALL ; Phantom Force → TM move
 	db 1, METEOR_FALL ; Mystical Fire → TM move
-	db 1, DAZZLINGLEAM ; Magical Leaf → TM move ; evolution move
+	db 1, ENERGY_LIGHT ; Magical Leaf → TM move ; evolution move
 	db 1, GROWL
 	db 1, TELEPORT ; Psywave → new move
 	db 1, DISARM_VOICE ; new move
@@ -6338,7 +6340,7 @@ MrRimeEvosAttacks:
 	db 1, LIGHT_SCREEN
 	db 1, REFLECT
 	db 1, SAFEGUARD
-	db 1, DAZZLINGLEAM
+	db 1, ENERGY_LIGHT
 	db 1, TACKLE ; Pound → similar move
 	db 1, RAPID_SPIN
 	db 1, BATON_PASS

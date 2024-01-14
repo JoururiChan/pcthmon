@@ -12,7 +12,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 ## Code
 
 * FIQ for multiple feature code contributions (specifically: abilities, natures affecting stats, better AI, various item and move effects, and other battle engine features; and porting TPP's caught data stats screen).
-* luckytyphlosion for performance optimizations to the game engine, and a 60FPS overworld.
+* luckyereisen for performance optimizations to the game engine, and a 60FPS overworld.
 * The TPP Anniversary Crystal 251 dev team for making their code publically usable (specifically: the Move Relearner, automatic box switching, Gen VI money loss, and caught data stats page code).
 * Sanqui for the music player with piano roll visualization.
 * ax6 for porting the xorshift+ PRNG from Prism as well as developing bsp and related patching functions originally for Prism.

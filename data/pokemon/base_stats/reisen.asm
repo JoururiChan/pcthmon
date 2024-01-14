@@ -1,19 +1,15 @@
-	db  58,  64,  58,  80,  80,  65 ; 405 BST
+	db  62,  58,  55,  79, 120, 120 ; 405 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIRE, FIRE ; type
-	db 45 ; catch rate
-	db 142 ; base exp
+	db PSYCHIC, PSYCHIC ; type
+	db 100 ; catch rate
+	db 156 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F87_5, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
-	abilities_for QUILAVA, BLAZE, BLAZE, FLASH_FIRE
-else
-	abilities_for QUILAVA, BLAZE, FLAME_BODY, FLASH_FIRE
-endc
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for REISEN, KEEN_EYE, KEEN_EYE, SNIPER
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_MONSTER, EGG_MINERAL ; egg groups
 
 	ev_yield 1 Spe, 1 SAt
 

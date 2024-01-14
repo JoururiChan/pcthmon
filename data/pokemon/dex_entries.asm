@@ -1546,8 +1546,8 @@ EYoumuPokedexEntry::
 	next "relaxing in a"
 	next "sunny forest.@"
 
-SECTION "CyndaquilPokedexEntry", ROMX
-CyndaquilPokedexEntry::
+SECTION "CReisenPokedexEntry", ROMX
+CReisenPokedexEntry::
 	db "Fire Mouse@"
 	db   "The fire that"
 	next "spouts from its"
@@ -1556,8 +1556,8 @@ CyndaquilPokedexEntry::
 	next "The flaring flames"
 	next "intimidate foes.@"
 
-SECTION "QuilavaPokedexEntry", ROMX
-QuilavaPokedexEntry::
+SECTION "ReisenPokedexEntry", ROMX
+ReisenPokedexEntry::
 	db "Volcano@"
 	db   "Before battle, it"
 	next "turns its back on"
@@ -1566,8 +1566,8 @@ QuilavaPokedexEntry::
 	next "ferociously its"
 	next "fire blazes.@"
 
-SECTION "TyphlosionPlainPokedexEntry", ROMX
-TyphlosionPlainPokedexEntry::
+SECTION "EReisenPlainPokedexEntry", ROMX
+EReisenPlainPokedexEntry::
 	db "Volcano@"
 	db   "When heat from its"
 	next "body causes the"
@@ -1576,8 +1576,8 @@ TyphlosionPlainPokedexEntry::
 	next "sign that it is"
 	next "ready to battle.@"
 
-SECTION "TotodilePokedexEntry", ROMX
-TotodilePokedexEntry::
+SECTION "CSanaePokedexEntry", ROMX
+CSanaePokedexEntry::
 	db "Big Jaw@"
 	db   "This rough critter"
 	next "chomps at any"
@@ -1586,8 +1586,8 @@ TotodilePokedexEntry::
 	next "back on it is not"
 	next "recommended.@"
 
-SECTION "CroconawPokedexEntry", ROMX
-CroconawPokedexEntry::
+SECTION "SanaePokedexEntry", ROMX
+SanaePokedexEntry::
 	db "Big Jaw@"
 	db   "The tips of its"
 	next "fangs are slanted"
@@ -1596,8 +1596,8 @@ CroconawPokedexEntry::
 	next "down, the prey has"
 	next "no hope of escape.@"
 
-SECTION "FeraligatrPokedexEntry", ROMX
-FeraligatrPokedexEntry::
+SECTION "ESanaePokedexEntry", ROMX
+ESanaePokedexEntry::
 	db "Big Jaw@"
 	db   "Although it has a"
 	next "massive body, its"
@@ -3268,8 +3268,8 @@ ElectrodeHisuianPokedexEntry::
 	next "composition to an"
 	next "Apricorn.@"
 
-SECTION "TyphlosionHisuianPokedexEntry", ROMX
-TyphlosionHisuianPokedexEntry::
+SECTION "EReisenHisuianPokedexEntry", ROMX
+EReisenHisuianPokedexEntry::
 	db "Ghost Flame@"
 	db   "Said to purify"
 	next "lost, forsaken"

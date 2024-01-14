@@ -154,12 +154,12 @@ BitmasksPointers:
 	dw CYoumuBitmasks
 	dw YoumuBitmasks
 	dw EYoumuBitmasks
-	dw CyndaquilBitmasks
-	dw QuilavaBitmasks
-	dw TyphlosionPlainBitmasks
-	dw TotodileBitmasks
-	dw CroconawBitmasks
-	dw FeraligatrBitmasks
+	dw CReisenBitmasks
+	dw ReisenBitmasks
+	dw EReisenPlainBitmasks
+	dw CSanaeBitmasks
+	dw SanaeBitmasks
+	dw ESanaeBitmasks
 	dw SentretBitmasks
 	dw FurretBitmasks
 	dw HoothootBitmasks
@@ -399,7 +399,7 @@ BitmasksPointers:
 	dw ArcanineHisuianBitmasks
 	dw VoltorbHisuianBitmasks
 	dw ElectrodeHisuianBitmasks
-	dw TyphlosionHisuianBitmasks
+	dw EReisenHisuianBitmasks
 	dw QwilfishHisuianBitmasks
 	dw SneaselHisuianBitmasks
 

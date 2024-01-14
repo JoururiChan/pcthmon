@@ -25,7 +25,7 @@
 	const WING_ATTACK  ; $11
 	const SUCKER_PUNCH ; $12
 	const FLY          ; $13
-	const DAZZLINGLEAM ; $14
+	const ENERGY_LIGHT ; $14
 	const VOLT_SWITCH  ; $15
 	const VINE_WHIP    ; $16
 	const STOMP        ; $17

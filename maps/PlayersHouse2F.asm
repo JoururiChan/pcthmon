@@ -245,7 +245,7 @@ endr
 	loadmem wPartyMon2PP+2, 10
 	loadmem wPartyMon2PP+3, 10
 	; variant form test
-	givepoke TYPHLOSION, HISUIAN_FORM, 50
+	givepoke EREISEN, HISUIAN_FORM, 50
 	loadmem wPartyMon3Shiny, SHINY_MASK
 	; ext species test
 	givepoke WYRDEER, 50

@@ -154,12 +154,12 @@ EggMovePointers::
 	dw CYoumuEggMoves      ; CYoumu
 	dw NoEggMoves             ; Youmu
 	dw NoEggMoves             ; EYoumu
-	dw CyndaquilEggMoves      ; Cyndaquil
-	dw NoEggMoves             ; Quilava
-	dw NoEggMoves             ; Typhlosion
-	dw TotodileEggMoves       ; Totodile
-	dw NoEggMoves             ; Croconaw
-	dw NoEggMoves             ; Feraligatr
+	dw CReisenEggMoves      ; CReisen
+	dw NoEggMoves             ; Reisen
+	dw NoEggMoves             ; EReisen
+	dw CSanaeEggMoves       ; CSanae
+	dw NoEggMoves             ; Sanae
+	dw NoEggMoves             ; ESanae
 	dw SentretEggMoves        ; Sentret
 	dw NoEggMoves             ; Furret
 	dw HoothootEggMoves       ; Hoothoot
@@ -336,7 +336,7 @@ EggMovePointers::
 	dw NoEggMoves                ; Arcanine (Hisuian Form)
 	dw NoEggMoves                ; Voltorb (Hisuian Form)
 	dw NoEggMoves                ; Electrode (Hisuian Form)
-	dw NoEggMoves                ; Typhlosion (Hisuian Form)
+	dw NoEggMoves                ; EReisen (Hisuian Form)
 	dw QwilfishHisuianEggMoves   ; Qwilfish (Hisuian Form)
 	dw SneaselHisuianEggMoves    ; Sneasel (Hisuian Form)
 

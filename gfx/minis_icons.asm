@@ -777,35 +777,35 @@ EYoumuMini::     INCBIN "gfx/minis/eyoumu.2bpp.lz"
 EYoumuMiniMask:: INCBIN "gfx/minis/eyoumu_mask.1bpp.lz"
 EYoumuIcon::     INCBIN "gfx/icons/eyoumu.2bpp.lz"
 
-SECTION "Cyndaquil Mini Icon", ROMX
-CyndaquilMini::     INCBIN "gfx/minis/cyndaquil.2bpp.lz"
-CyndaquilMiniMask:: INCBIN "gfx/minis/cyndaquil_mask.1bpp.lz"
-CyndaquilIcon::     INCBIN "gfx/icons/cyndaquil.2bpp.lz"
+SECTION "CReisen Mini Icon", ROMX
+CReisenMini::     INCBIN "gfx/minis/creisen.2bpp.lz"
+CReisenMiniMask:: INCBIN "gfx/minis/creisen_mask.1bpp.lz"
+CReisenIcon::     INCBIN "gfx/icons/creisen.2bpp.lz"
 
-SECTION "Quilava Mini Icon", ROMX
-QuilavaMini::     INCBIN "gfx/minis/quilava.2bpp.lz"
-QuilavaMiniMask:: INCBIN "gfx/minis/quilava_mask.1bpp.lz"
-QuilavaIcon::     INCBIN "gfx/icons/quilava.2bpp.lz"
+SECTION "Reisen Mini Icon", ROMX
+ReisenMini::     INCBIN "gfx/minis/reisen.2bpp.lz"
+ReisenMiniMask:: INCBIN "gfx/minis/reisen_mask.1bpp.lz"
+ReisenIcon::     INCBIN "gfx/icons/reisen.2bpp.lz"
 
-SECTION "Typhlosion Mini Icon", ROMX
-TyphlosionMini::     INCBIN "gfx/minis/typhlosion.2bpp.lz"
-TyphlosionMiniMask:: INCBIN "gfx/minis/typhlosion_mask.1bpp.lz"
-TyphlosionIcon::     INCBIN "gfx/icons/typhlosion.2bpp.lz"
+SECTION "EReisen Mini Icon", ROMX
+EReisenMini::     INCBIN "gfx/minis/ereisen.2bpp.lz"
+EReisenMiniMask:: INCBIN "gfx/minis/ereisen_mask.1bpp.lz"
+EReisenIcon::     INCBIN "gfx/icons/ereisen.2bpp.lz"
 
-SECTION "Totodile Mini Icon", ROMX
-TotodileMini::     INCBIN "gfx/minis/totodile.2bpp.lz"
-TotodileMiniMask:: INCBIN "gfx/minis/totodile_mask.1bpp.lz"
-TotodileIcon::     INCBIN "gfx/icons/totodile.2bpp.lz"
+SECTION "CSanae Mini Icon", ROMX
+CSanaeMini::     INCBIN "gfx/minis/csanae.2bpp.lz"
+CSanaeMiniMask:: INCBIN "gfx/minis/csanae_mask.1bpp.lz"
+CSanaeIcon::     INCBIN "gfx/icons/csanae.2bpp.lz"
 
-SECTION "Croconaw Mini Icon", ROMX
-CroconawMini::     INCBIN "gfx/minis/croconaw.2bpp.lz"
-CroconawMiniMask:: INCBIN "gfx/minis/croconaw_mask.1bpp.lz"
-CroconawIcon::     INCBIN "gfx/icons/croconaw.2bpp.lz"
+SECTION "Sanae Mini Icon", ROMX
+SanaeMini::     INCBIN "gfx/minis/sanae.2bpp.lz"
+SanaeMiniMask:: INCBIN "gfx/minis/sanae_mask.1bpp.lz"
+SanaeIcon::     INCBIN "gfx/icons/sanae.2bpp.lz"
 
-SECTION "Feraligatr Mini Icon", ROMX
-FeraligatrMini::     INCBIN "gfx/minis/feraligatr.2bpp.lz"
-FeraligatrMiniMask:: INCBIN "gfx/minis/feraligatr_mask.1bpp.lz"
-FeraligatrIcon::     INCBIN "gfx/icons/feraligatr.2bpp.lz"
+SECTION "ESanae Mini Icon", ROMX
+ESanaeMini::     INCBIN "gfx/minis/esanae.2bpp.lz"
+ESanaeMiniMask:: INCBIN "gfx/minis/esanae_mask.1bpp.lz"
+ESanaeIcon::     INCBIN "gfx/icons/esanae.2bpp.lz"
 
 SECTION "Sentret Mini Icon", ROMX
 SentretMini::     INCBIN "gfx/minis/sentret.2bpp.lz"
@@ -1777,10 +1777,10 @@ ElectrodeHisuianMini::     INCBIN "gfx/minis/electrode_hisuian.2bpp.lz"
 ElectrodeHisuianMiniMask:: INCBIN "gfx/minis/electrode_hisuian_mask.1bpp.lz"
 ElectrodeHisuianIcon::     INCBIN "gfx/icons/electrode_hisuian.2bpp.lz"
 
-SECTION "TyphlosionHisuian Mini Icon", ROMX
-TyphlosionHisuianMini::     INCBIN "gfx/minis/typhlosion_hisuian.2bpp.lz"
-TyphlosionHisuianMiniMask:: INCBIN "gfx/minis/typhlosion_hisuian_mask.1bpp.lz"
-TyphlosionHisuianIcon::     INCBIN "gfx/icons/typhlosion_hisuian.2bpp.lz"
+SECTION "EReisenHisuian Mini Icon", ROMX
+EReisenHisuianMini::     INCBIN "gfx/minis/ereisen_hisuian.2bpp.lz"
+EReisenHisuianMiniMask:: INCBIN "gfx/minis/ereisen_hisuian_mask.1bpp.lz"
+EReisenHisuianIcon::     INCBIN "gfx/icons/ereisen_hisuian.2bpp.lz"
 
 SECTION "QwilfishHisuian Mini Icon", ROMX
 QwilfishHisuianMini::     INCBIN "gfx/minis/qwilfish_hisuian.2bpp.lz"

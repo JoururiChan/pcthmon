@@ -1,21 +1,17 @@
-	db  50,  65,  64,  43,  44,  48 ; 314 BST
+	db  61,  43,  58,  43,  65,  54 ; 314 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, WATER ; type
-	db 45 ; catch rate
-	db 66 ; base exp
+	db WATER, GRASS ; type
+	db 100 ; catch rate
+	db 90 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F87_5, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
-	abilities_for TOTODILE, TORRENT, TORRENT, SHEER_FORCE
-else
-	abilities_for TOTODILE, TORRENT, GUTS, SHEER_FORCE
-endc
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_MONSTER, EGG_WATER_1 ; egg groups
+	abilities_for CSANAE, SERENE_GRACE, NATURAL_CURE, SUPER_LUCK
+	db GROWTH_FAST ; growth rate
+	dn EGG_WATER_1, EGG_FAIRY ; egg groups
 
-	ev_yield 1 Atk
+	ev_yield 1 SDf
 
 	; tm/hm learnset
 	tmhm DYNAMICPUNCH, DRAGON_CLAW, CURSE, TOXIC, HAIL, HIDDEN_POWER, HONE_TOOLS, ICE_BEAM, BLIZZARD, PROTECT, RAIN_DANCE, IRON_TAIL, RETURN, DIG, ROCK_SMASH, DOUBLE_TEAM, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, ROCK_SLIDE, SCALD, WATER_PULSE, SHADOW_HIT, SWORDS_DANCE, CUT, SURF, WHIRLPOOL, WATERFALL, AQUA_TAIL, BODY_SLAM, COUNTER, DOUBLE_EDGE, ENDURE, HEADBUTT, ICE_PUNCH, ICY_WIND, SEISMIC_TOSS, SLEEP_TALK, SWAGGER

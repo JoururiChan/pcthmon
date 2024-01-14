@@ -50,9 +50,9 @@ Cries:
 	fardw Cry_Hoothoot
 	fardw Cry_Sentret
 	fardw Cry_Slowking
-	fardw Cry_Cyndaquil
+	fardw Cry_CReisen
 	fardw Cry_CYoumu
-	fardw Cry_Totodile
+	fardw Cry_CSanae
 	fardw Cry_Gligar
 	fardw Cry_Bellossom
 	fardw Cry_Slugma
@@ -60,7 +60,7 @@ Cries:
 	fardw Cry_Entei
 	fardw Cry_Wooper
 	fardw Cry_Mantine
-	fardw Cry_Typhlosion
+	fardw Cry_EReisen
 	fardw Cry_Natu
 	fardw Cry_Teddiursa
 	fardw Cry_Remoraid

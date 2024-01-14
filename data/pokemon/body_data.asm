@@ -161,12 +161,12 @@ PokemonBodyData:
 	body_data   9,   64, QUADRUPED,    GREEN  ; CYOUMU
 	body_data  12,  158, QUADRUPED,    GREEN  ; YOUMU
 	body_data  18, 1005, QUADRUPED,    GREEN  ; EYOUMU
-	body_data   5,   79, BIPEDAL,      YELLOW ; CYNDAQUIL
-	body_data   9,  190, QUADRUPED,    YELLOW ; QUILAVA
-	body_data  17,  795, QUADRUPED,    YELLOW ; TYPHLOSION
-	body_data   6,   95, BIPEDAL_TAIL, BLUE   ; TOTODILE
-	body_data  11,  250, BIPEDAL_TAIL, BLUE   ; CROCONAW
-	body_data  23,  888, BIPEDAL_TAIL, BLUE   ; FERALIGATR
+	body_data   5,   79, BIPEDAL,      YELLOW ; CREISEN
+	body_data   9,  190, QUADRUPED,    YELLOW ; REISEN
+	body_data  17,  795, QUADRUPED,    YELLOW ; EREISEN
+	body_data   6,   95, BIPEDAL_TAIL, BLUE   ; CSANAE
+	body_data  11,  250, BIPEDAL_TAIL, BLUE   ; SANAE
+	body_data  23,  888, BIPEDAL_TAIL, BLUE   ; ESANAE
 	body_data   8,   60, QUADRUPED,    BROWN  ; SENTRET
 	body_data  18,  325, QUADRUPED,    BROWN  ; FURRET
 	body_data   7,  212, WINGS,        BROWN  ; HOOTHOOT
@@ -343,7 +343,7 @@ PokemonBodyData:
 	body_data  20, 1680, QUADRUPED,    RED    ; ARCANINE (HISUIAN_FORM)
 	body_data   5,  130, HEAD,         BROWN  ; VOLTORB (HISUIAN_FORM)
 	body_data  12,  710, HEAD,         BROWN  ; ELECTRODE (HISUIAN_FORM)
-	body_data  16,  698, QUADRUPED,    YELLOW ; TYPHLOSION (HISUIAN_FORM)
+	body_data  16,  698, QUADRUPED,    YELLOW ; EREISEN (HISUIAN_FORM)
 	body_data   5,   39, FINS,         BLACK  ; QWILFISH (HISUIAN_FORM)
 	body_data   9,  270, BIPEDAL_TAIL, GRAY   ; SNEASEL (HISUIAN_FORM)
 

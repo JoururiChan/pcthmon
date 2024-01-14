@@ -47,8 +47,8 @@ DecorationAttributes:
 	decoration DECO_DOLL,     CMARISA,        SET_UP_DOLL,        EVENT_DECO_CMARISA_DOLL,         SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CSAKUYA,          SET_UP_DOLL,        EVENT_DECO_CSAKUYA_DOLL,           SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CYOUMU,         SET_UP_DOLL,        EVENT_DECO_CYOUMU_DOLL,          SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     CYNDAQUIL,         SET_UP_DOLL,        EVENT_DECO_CYNDAQUIL_DOLL,          SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     TOTODILE,          SET_UP_DOLL,        EVENT_DECO_TOTODILE_DOLL,           SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     CREISEN,         SET_UP_DOLL,        EVENT_DECO_CREISEN_DOLL,          SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     CSANAE,          SET_UP_DOLL,        EVENT_DECO_CSANAE_DOLL,           SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     POLIWAG,           SET_UP_DOLL,        EVENT_DECO_POLIWAG_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     MAREEP,            SET_UP_DOLL,        EVENT_DECO_MAREEP_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     TOGEPI,            SET_UP_DOLL,        EVENT_DECO_TOGEPI_DOLL,             SPRITE_MON_DOLL_1

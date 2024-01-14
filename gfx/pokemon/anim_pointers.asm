@@ -154,12 +154,12 @@ AnimationPointers:
 	dw CYoumuAnimation
 	dw YoumuAnimation
 	dw EYoumuAnimation
-	dw CyndaquilAnimation
-	dw QuilavaAnimation
-	dw TyphlosionPlainAnimation
-	dw TotodileAnimation
-	dw CroconawAnimation
-	dw FeraligatrAnimation
+	dw CReisenAnimation
+	dw ReisenAnimation
+	dw EReisenPlainAnimation
+	dw CSanaeAnimation
+	dw SanaeAnimation
+	dw ESanaeAnimation
 	dw SentretAnimation
 	dw FurretAnimation
 	dw HoothootAnimation
@@ -399,7 +399,7 @@ AnimationPointers:
 	dw ArcanineHisuianAnimation
 	dw VoltorbHisuianAnimation
 	dw ElectrodeHisuianAnimation
-	dw TyphlosionHisuianAnimation
+	dw EReisenHisuianAnimation
 	dw QwilfishHisuianAnimation
 	dw SneaselHisuianAnimation
 

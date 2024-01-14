@@ -313,9 +313,9 @@
 	; morn
 	wildmon 13, CMIMA
 	wildmon 14, KOFFING
-	wildmon 15, CMIMA
+	wildmon 15, CREISEN
 	wildmon 14, ZUBAT
-	wildmon 15, CMIMA
+	wildmon 15, CREISEN
 	wildmon 15, RATICATE
 	wildmon 15, RATICATE
 	; day
@@ -327,7 +327,7 @@
 	wildmon 15, RATICATE
 	wildmon 15, RATICATE
 	; nite
-	wildmon 13, CMIMA
+	wildmon 13, CREISEN
 	wildmon 14, KOFFING
 	wildmon 15, GASTLY
 	wildmon 14, ZUBAT
@@ -370,7 +370,7 @@
 	wildmon 12, NIDORAN_M
 	wildmon 13, NIDORAN_F
 	wildmon 14, LEDYBA
-	wildmon 14, CMAGAN
+	wildmon 14, CREISEN
 	wildmon 10, CGYOKU
 	wildmon 12, CREIMU
 	wildmon 12, CREIMU
@@ -378,7 +378,7 @@
 	wildmon 12, NIDORAN_F
 	wildmon 13, NIDORAN_M
 	wildmon 14, SUNKERN
-	wildmon 14, CMAGAN
+	wildmon 14, CREISEN
 	wildmon 10, CGYOKU
 	wildmon 12, CREIMU
 	wildmon 12, CREIMU
@@ -482,7 +482,7 @@
 	wildmon 8, GEODUDE
 	wildmon 8, SANDSHREW
 	wildmon 7, ZUBAT
-	wildmon 6, CMIMA
+	wildmon 6, CREISEN
 	wildmon 9, ZUBAT
 	wildmon 8, ONIX
 	wildmon 8, ONIX
@@ -490,13 +490,13 @@
 	wildmon 8, GEODUDE
 	wildmon 8, SANDSHREW
 	wildmon 7, ZUBAT
-	wildmon 6, CMIMA
+	wildmon 6, CREISEN
 	wildmon 9, ZUBAT
 	wildmon 8, ONIX
 	wildmon 8, ONIX
 	; nite
 	wildmon 8, GEODUDE
-	wildmon 8, CMIMA
+	wildmon 8, CREISEN
 	wildmon 7, WOOPER
 	wildmon 6, CMIMA
 	wildmon 9, ZUBAT
@@ -513,7 +513,7 @@
 	wildmon 8, ONIX
 	wildmon 6, CMIMA
 	wildmon 8, CMIMA
-	wildmon 8, CMIMA
+	wildmon 8, CREISEN
 	; day
 	wildmon 8, GEODUDE
 	wildmon 6, ZUBAT
@@ -521,7 +521,7 @@
 	wildmon 8, ONIX
 	wildmon 6, CMIMA
 	wildmon 8, CMIMA
-	wildmon 8, CMIMA
+	wildmon 8, CREISEN
 	; nite
 	wildmon 8, GEODUDE
 	wildmon 6, ZUBAT
@@ -529,7 +529,7 @@
 	wildmon 8, ONIX
 	wildmon 6, CMIMA
 	wildmon 8, CMIMA
-	wildmon 8, CMIMA
+	wildmon 8, CREISEN
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B1F_SOUTH
@@ -1407,7 +1407,7 @@
 	wildmon 4, CGYOKU
 	wildmon 5, BELLSPROUT
 	wildmon 5, CMAGAN
-	wildmon 4, CMAGAN
+	wildmon 4, CSANAE
 	wildmon 5, HOPPIP
 	wildmon 5, HOPPIP
 	; day
@@ -1432,7 +1432,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 5, EKANS, ARBOK_JOHTO_FORM
-	wildmon 6, CYOUMU
+	wildmon 6, CSANAE
 	wildmon 8, BELLSPROUT
 	wildmon 7, MAREEP
 	wildmon 8, MAREEP
@@ -1440,7 +1440,7 @@
 	wildmon 8, HOPPIP
 	; day
 	wildmon 5, EKANS, ARBOK_JOHTO_FORM
-	wildmon 6, CYOUMU
+	wildmon 6, CSANAE
 	wildmon 8, BELLSPROUT
 	wildmon 7, MAREEP
 	wildmon 8, MAREEP
@@ -1448,7 +1448,7 @@
 	wildmon 8, HOPPIP
 	; nite
 	wildmon 5, WOOPER
-	wildmon 6, CYOUMU
+	wildmon 6, CSANAE
 	wildmon 8, BELLSPROUT
 	wildmon 8, HOOTHOOT
 	wildmon 7, MAREEP

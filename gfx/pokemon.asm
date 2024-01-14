@@ -476,33 +476,33 @@ SECTION "EYoumu Pics", ROMX
 EYoumuFrontpic: INCBIN "gfx/pokemon/eyoumu/front.animated.2bpp.lz"
 EYoumuBackpic:  INCBIN "gfx/pokemon/eyoumu/back.2bpp.lz"
 
-SECTION "Cyndaquil Pics", ROMX
-CyndaquilFrontpic: INCBIN "gfx/pokemon/cyndaquil/front.animated.2bpp.lz"
-CyndaquilBackpic:  INCBIN "gfx/pokemon/cyndaquil/back.2bpp.lz"
+SECTION "CReisen Pics", ROMX
+CReisenFrontpic: INCBIN "gfx/pokemon/creisen/front.animated.2bpp.lz"
+CReisenBackpic:  INCBIN "gfx/pokemon/creisen/back.2bpp.lz"
 
-SECTION "Quilava Pics", ROMX
-QuilavaFrontpic: INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
-QuilavaBackpic:  INCBIN "gfx/pokemon/quilava/back.2bpp.lz"
+SECTION "Reisen Pics", ROMX
+ReisenFrontpic: INCBIN "gfx/pokemon/reisen/front.animated.2bpp.lz"
+ReisenBackpic:  INCBIN "gfx/pokemon/reisen/back.2bpp.lz"
 
-SECTION "TyphlosionPlain Pics", ROMX
-TyphlosionPlainFrontpic: INCBIN "gfx/pokemon/typhlosion_plain/front.animated.2bpp.lz"
-TyphlosionPlainBackpic:  INCBIN "gfx/pokemon/typhlosion_plain/back.2bpp.lz"
+SECTION "EReisenPlain Pics", ROMX
+EReisenPlainFrontpic: INCBIN "gfx/pokemon/ereisen_plain/front.animated.2bpp.lz"
+EReisenPlainBackpic:  INCBIN "gfx/pokemon/ereisen_plain/back.2bpp.lz"
 
-SECTION "TyphlosionHisuian Pics", ROMX
-TyphlosionHisuianFrontpic: INCBIN "gfx/pokemon/typhlosion_hisuian/front.animated.2bpp.lz"
-TyphlosionHisuianBackpic:  INCBIN "gfx/pokemon/typhlosion_hisuian/back.2bpp.lz"
+SECTION "EReisenHisuian Pics", ROMX
+EReisenHisuianFrontpic: INCBIN "gfx/pokemon/ereisen_hisuian/front.animated.2bpp.lz"
+EReisenHisuianBackpic:  INCBIN "gfx/pokemon/ereisen_hisuian/back.2bpp.lz"
 
-SECTION "Totodile Pics", ROMX
-TotodileFrontpic: INCBIN "gfx/pokemon/totodile/front.animated.2bpp.lz"
-TotodileBackpic:  INCBIN "gfx/pokemon/totodile/back.2bpp.lz"
+SECTION "CSanae Pics", ROMX
+CSanaeFrontpic: INCBIN "gfx/pokemon/csanae/front.animated.2bpp.lz"
+CSanaeBackpic:  INCBIN "gfx/pokemon/csanae/back.2bpp.lz"
 
-SECTION "Croconaw Pics", ROMX
-CroconawFrontpic: INCBIN "gfx/pokemon/croconaw/front.animated.2bpp.lz"
-CroconawBackpic:  INCBIN "gfx/pokemon/croconaw/back.2bpp.lz"
+SECTION "Sanae Pics", ROMX
+SanaeFrontpic: INCBIN "gfx/pokemon/sanae/front.animated.2bpp.lz"
+SanaeBackpic:  INCBIN "gfx/pokemon/sanae/back.2bpp.lz"
 
-SECTION "Feraligatr Pics", ROMX
-FeraligatrFrontpic: INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
-FeraligatrBackpic:  INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
+SECTION "ESanae Pics", ROMX
+ESanaeFrontpic: INCBIN "gfx/pokemon/esanae/front.animated.2bpp.lz"
+ESanaeBackpic:  INCBIN "gfx/pokemon/esanae/back.2bpp.lz"
 
 SECTION "Sentret Pics", ROMX
 SentretFrontpic: INCBIN "gfx/pokemon/sentret/front.animated.2bpp.lz"

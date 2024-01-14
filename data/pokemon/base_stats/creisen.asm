@@ -1,19 +1,15 @@
-	db  39,  52,  43,  65,  60,  50 ; 309 BST
+	db  50,  49,  52,  59,  88,  88 ; 309 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIRE, FIRE ; type
-	db 45 ; catch rate
-	db 65 ; base exp
+	db PSYCHIC, PSYCHIC ; type
+	db 100 ; catch rate
+	db 100 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F87_5, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
-	abilities_for CYNDAQUIL, BLAZE, BLAZE, FLASH_FIRE
-else
-	abilities_for CYNDAQUIL, BLAZE, FLAME_BODY, FLASH_FIRE
-endc
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for CREISEN, RUN_AWAY, RUN_AWAY, SNIPER
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_MONSTER, EGG_MINERAL ; egg groups
 
 	ev_yield 1 Spe
 

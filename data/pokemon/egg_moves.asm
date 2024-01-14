@@ -540,7 +540,7 @@ CYoumuEggMoves:
 	db HEAL_BELL
 	db $ff
 
-CyndaquilEggMoves:
+CReisenEggMoves:
 	db DOUBLE_KICK
 	db EXTRASENSORY
 	db FLARE_BLITZ
@@ -552,7 +552,7 @@ CyndaquilEggMoves:
 	db QUICK_ATTACK
 	db $ff
 
-TotodileEggMoves:
+CSanaeEggMoves:
 	db DRAGON_DANCE
 	db METAL_CLAW
 	db CRUNCH

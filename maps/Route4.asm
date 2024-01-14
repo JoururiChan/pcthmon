@@ -216,7 +216,7 @@ Route4SuperNerd2Text:
 	line "tails are best!"
 
 	para "Slowbro, Golduck,"
-	line "Feraligatr!"
+	line "ESanae!"
 
 	para "Don't you agree?"
 	done

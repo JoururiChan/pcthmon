@@ -158,12 +158,12 @@ PokemonPicPointers::
 	pics CYoumu
 	pics Youmu
 	pics EYoumu
-	pics Cyndaquil
-	pics Quilava
-	pics TyphlosionPlain
-	pics Totodile
-	pics Croconaw
-	pics Feraligatr
+	pics CReisen
+	pics Reisen
+	pics EReisenPlain
+	pics CSanae
+	pics Sanae
+	pics ESanae
 	pics Sentret
 	pics Furret
 	pics Hoothoot
@@ -403,7 +403,7 @@ PokemonPicPointers::
 	pics ArcanineHisuian
 	pics VoltorbHisuian
 	pics ElectrodeHisuian
-	pics TyphlosionHisuian
+	pics EReisenHisuian
 	pics QwilfishHisuian
 	pics SneaselHisuian
 

@@ -160,12 +160,12 @@ PokemonCries::
 	mon_cry CRY_CYOUMU,  -$010,  $0b0 ; CYoumu
 	mon_cry CRY_CYOUMU,  -$022,  $120 ; Youmu
 	mon_cry CRY_CYOUMU,  -$0b7,  $200 ; EYoumu
-	mon_cry CRY_CYNDAQUIL,   $347,  $080 ; Cyndaquil
-	mon_cry CRY_CYNDAQUIL,   $321,  $120 ; Quilava
-	mon_cry CRY_TYPHLOSION,  $f00,  $0d4 ; Typhlosion
-	mon_cry CRY_TOTODILE,    $46c,  $0e8 ; Totodile
-	mon_cry CRY_TOTODILE,    $440,  $110 ; Croconaw
-	mon_cry CRY_TOTODILE,    $3fc,  $180 ; Feraligatr
+	mon_cry CRY_CREISEN,   $347,  $080 ; CReisen
+	mon_cry CRY_CREISEN,   $321,  $120 ; Reisen
+	mon_cry CRY_EREISEN,  $f00,  $0d4 ; EReisen
+	mon_cry CRY_CSANAE,    $46c,  $0e8 ; CSanae
+	mon_cry CRY_CSANAE,    $440,  $110 ; Sanae
+	mon_cry CRY_CSANAE,    $3fc,  $180 ; ESanae
 	mon_cry CRY_SENTRET,     $08a,  $0b8 ; Sentret
 	mon_cry CRY_SENTRET,     $06b,  $102 ; Furret
 	mon_cry CRY_HOOTHOOT,    $091,  $0d8 ; Hoothoot
@@ -175,8 +175,8 @@ PokemonCries::
 	mon_cry CRY_SPINARAK,    $011,  $200 ; Spinarak
 	mon_cry CRY_SPINARAK,   -$0ae,  $1e2 ; Ariados
 	mon_cry CRY_CSAKUYA,   -$010,  $140 ; Crobat
-	mon_cry CRY_CYNDAQUIL,   $3c9,  $140 ; Chinchou
-	mon_cry CRY_CYNDAQUIL,   $2d0,  $110 ; Lanturn
+	mon_cry CRY_CREISEN,   $3c9,  $140 ; Chinchou
+	mon_cry CRY_CREISEN,   $2d0,  $110 ; Lanturn
 	mon_cry CRY_PICHU,       $000,  $140 ; Pichu
 	mon_cry CRY_BELLOSSOM,   $061,  $091 ; Cleffa
 	mon_cry CRY_CYOUMU,   $0e8,  $0e8 ; Igglybuff
@@ -198,7 +198,7 @@ PokemonCries::
 	mon_cry CRY_TYROGUE,    -$051,  $0e8 ; Aipom
 	mon_cry CRY_MARILL,      $12b,  $0b8 ; Sunkern
 	mon_cry CRY_REMORAID,   -$020,  $180 ; Sunflora
-	mon_cry CRY_TOTODILE,    $031,  $0c8 ; Yanma
+	mon_cry CRY_CSANAE,    $031,  $0c8 ; Yanma
 	mon_cry CRY_WOOPER,      $093,  $0af ; Wooper
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Quagsire
 	mon_cry CRY_TYROGUE,     $0a2,  $140 ; Espeon
@@ -213,7 +213,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    $000,  $180 ; Forretress
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dunsparce
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; Gligar
-	mon_cry CRY_TYPHLOSION,  $0ef,  $0f7 ; Steelix
+	mon_cry CRY_EREISEN,  $0ef,  $0f7 ; Steelix
 	mon_cry CRY_DUNSPARCE,   $112,  $0e8 ; Snubbull
 	mon_cry CRY_DUNSPARCE,   $000,  $180 ; Granbull
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; Qwilfish
@@ -225,16 +225,16 @@ PokemonCries::
 	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; Ursaring
 	mon_cry CRY_SLUGMA,     -$1d8,  $140 ; Slugma
 	mon_cry CRY_MAGCARGO,   -$20d,  $1c0 ; Magcargo
-	mon_cry CRY_CYNDAQUIL,   $1fe,  $140 ; Swinub
+	mon_cry CRY_CREISEN,   $1fe,  $140 ; Swinub
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; Piloswine
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Corsola
 	mon_cry CRY_REMORAID,    $00d,  $100 ; Remoraid
-	mon_cry CRY_TOTODILE,    $000,  $180 ; Octillery
+	mon_cry CRY_CSANAE,    $000,  $180 ; Octillery
 	mon_cry CRY_TEDDIURSA,   $002,  $06a ; Delibird
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantine
 	mon_cry CRY_AMPHAROS,    $8a9,  $180 ; Skarmory
-	mon_cry CRY_CYNDAQUIL,   $039,  $140 ; Houndour
-	mon_cry CRY_TOTODILE,   -$10a,  $100 ; Houndoom
+	mon_cry CRY_CREISEN,   $039,  $140 ; Houndour
+	mon_cry CRY_CSANAE,   -$10a,  $100 ; Houndoom
 	mon_cry CRY_SLUGMA,      $2fb,  $100 ; Kingdra
 	mon_cry CRY_SENTRET,     $048,  $230 ; Phanpy
 	mon_cry CRY_DONPHAN,     $000,  $1a0 ; Donphan
@@ -254,7 +254,7 @@ PokemonCries::
 	mon_cry CRY_RAIKOU,      $05f,  $0d0 ; Larvitar
 	mon_cry CRY_SPINARAK,   -$1db,  $150 ; Pupitar
 	mon_cry CRY_RAIKOU,     -$100,  $180 ; Tyranitar
-	mon_cry CRY_TYPHLOSION,  $000,  $100 ; Lugia
+	mon_cry CRY_EREISEN,  $000,  $100 ; Lugia
 	mon_cry CRY_TYROGUE,     $000,  $180 ; HoOh
 	mon_cry CRY_ENTEI,       $14a,  $111 ; Celebi
 	mon_cry CRY_MARILL,      $11b,  $120 ; Azurill
@@ -277,7 +277,7 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; Electivire
 	mon_cry CRY_CMARISA,  $0ff,  $0b0 ; Magmortar
 	mon_cry CRY_TOGETIC,     $03b,  $038 ; Togekiss
-	mon_cry CRY_TOTODILE,    $031,  $0c8 ; Yanmega
+	mon_cry CRY_CSANAE,    $031,  $0c8 ; Yanmega
 	mon_cry CRY_VENONAT,     $03d,  $160 ; Leafeon
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Glaceon
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; Gliscor

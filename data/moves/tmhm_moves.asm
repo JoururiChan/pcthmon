@@ -49,7 +49,7 @@ TMHMMoves:
 	db THIEF        ; TM46 (Team Rocket Base)
 	db STEEL_WING   ; TM47 (Route 28)
 	db ROCK_SLIDE   ; TM48 (Brock)
-	db DAZZLINGLEAM ; TM49 (Bellchime Trail)
+	db ENERGY_LIGHT ; TM49 (Bellchime Trail)
 	db LEECH_LIFE   ; TM50 (Yellow Forest)
 	db ROOST        ; TM51 (Falkner)
 	db FOCUS_BLAST  ; TM52 (Quiet Cave)

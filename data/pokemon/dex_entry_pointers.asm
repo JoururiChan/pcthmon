@@ -155,12 +155,12 @@ PokedexDataPointerTable:
 	dba CYoumuPokedexEntry
 	dba YoumuPokedexEntry
 	dba EYoumuPokedexEntry
-	dba CyndaquilPokedexEntry
-	dba QuilavaPokedexEntry
-	dba TyphlosionPlainPokedexEntry
-	dba TotodilePokedexEntry
-	dba CroconawPokedexEntry
-	dba FeraligatrPokedexEntry
+	dba CReisenPokedexEntry
+	dba ReisenPokedexEntry
+	dba EReisenPlainPokedexEntry
+	dba CSanaePokedexEntry
+	dba SanaePokedexEntry
+	dba ESanaePokedexEntry
 	dba SentretPokedexEntry
 	dba FurretPokedexEntry
 	dba HoothootPokedexEntry
@@ -337,7 +337,7 @@ PokedexDataPointerTable:
 	dba ArcanineHisuianPokedexEntry
 	dba VoltorbHisuianPokedexEntry
 	dba ElectrodeHisuianPokedexEntry
-	dba TyphlosionHisuianPokedexEntry
+	dba EReisenHisuianPokedexEntry
 	dba QwilfishHisuianPokedexEntry
 	dba SneaselHisuianPokedexEntry
 

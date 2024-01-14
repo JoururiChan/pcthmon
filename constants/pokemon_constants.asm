@@ -176,12 +176,12 @@
 	const CYOUMU  ; 98
 	const YOUMU    ; 99
 	const EYOUMU   ; 9a
-	const CYNDAQUIL  ; 9b
-	const QUILAVA    ; 9c
-	const TYPHLOSION ; 9d
-	const TOTODILE   ; 9e
-	const CROCONAW   ; 9f
-	const FERALIGATR ; a0
+	const CREISEN  ; 9b
+	const REISEN    ; 9c
+	const EREISEN ; 9d
+	const CSANAE   ; 9e
+	const SANAE   ; 9f
+	const ESANAE ; a0
 	const SENTRET    ; a1
 	const FURRET     ; a2
 	const HOOTHOOT   ; a3
@@ -480,7 +480,7 @@ DEF HISUIAN_FORM EQU 4
 	const_skip ; 17f arcanine
 	const_skip ; 180 voltorb
 	const_skip ; 181 electrode
-	const_skip ; 182 typhlosion
+	const_skip ; 182 ereisen
 	const_skip ; 183 qwilfish
 	const_skip ; 184 sneasel
 

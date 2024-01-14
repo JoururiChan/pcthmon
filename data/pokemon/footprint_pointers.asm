@@ -154,12 +154,12 @@ FootprintPointers::
 	dw CYoumuFootprint
 	dw YoumuFootprint
 	dw EYoumuFootprint
-	dw CyndaquilFootprint
-	dw QuilavaFootprint
-	dw TyphlosionFootprint
-	dw TotodileFootprint
-	dw CroconawFootprint
-	dw FeraligatrFootprint
+	dw CReisenFootprint
+	dw ReisenFootprint
+	dw EReisenFootprint
+	dw CSanaeFootprint
+	dw SanaeFootprint
+	dw ESanaeFootprint
 	dw SentretFootprint
 	dw FurretFootprint
 	dw HoothootFootprint
@@ -336,7 +336,7 @@ FootprintPointers::
 	dw ArcanineFootprint
 	dw VoltorbFootprint
 	dw ElectrodeFootprint
-	dw TyphlosionFootprint
+	dw EReisenFootprint
 	dw QwilfishFootprint
 	dw SneaselFootprint
 

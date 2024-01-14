@@ -158,12 +158,12 @@ EvosAttacksPointers::
 	dw CYoumuEvosAttacks
 	dw YoumuEvosAttacks
 	dw EYoumuEvosAttacks
-	dw CyndaquilEvosAttacks
-	dw QuilavaEvosAttacks
-	dw TyphlosionPlainEvosAttacks
-	dw TotodileEvosAttacks
-	dw CroconawEvosAttacks
-	dw FeraligatrEvosAttacks
+	dw CReisenEvosAttacks
+	dw ReisenEvosAttacks
+	dw EReisenPlainEvosAttacks
+	dw CSanaeEvosAttacks
+	dw SanaeEvosAttacks
+	dw ESanaeEvosAttacks
 	dw SentretEvosAttacks
 	dw FurretEvosAttacks
 	dw HoothootEvosAttacks
@@ -340,7 +340,7 @@ EvosAttacksPointers::
 	dw ArcanineHisuianEvosAttacks
 	dw VoltorbHisuianEvosAttacks
 	dw ElectrodeHisuianEvosAttacks
-	dw TyphlosionHisuianEvosAttacks
+	dw EReisenHisuianEvosAttacks
 	dw QwilfishHisuianEvosAttacks
 	dw SneaselHisuianEvosAttacks
 

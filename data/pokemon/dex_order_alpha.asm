@@ -39,10 +39,10 @@ AlphabeticalPokedexOrder:
 	dp CLOYSTER
 	dp CORSOLA
 	dp CROBAT
-	dp CROCONAW
+	dp SANAE
 	dp CUBONE
 	dp CURSOLA
-	dp CYNDAQUIL
+	dp CREISEN
 	dp DELIBIRD
 	dp DEWGONG
 	dp DIGLETT
@@ -70,7 +70,7 @@ AlphabeticalPokedexOrder:
 	dp FARIGIRAF
 	dp FARFETCH_D
 	dp FEAROW
-	dp FERALIGATR
+	dp ESANAE
 	dp FLAAFFY
 	dp FLAREON
 	dp FORRETRESS
@@ -204,7 +204,7 @@ AlphabeticalPokedexOrder:
 	dp PSYDUCK
 	dp PUPITAR
 	dp QUAGSIRE
-	dp QUILAVA
+	dp REISEN
 	dp QWILFISH
 	dp RAICHU
 	dp RAIKOU
@@ -260,8 +260,8 @@ AlphabeticalPokedexOrder:
 	dp TOGEKISS
 	dp TOGEPI
 	dp TOGETIC
-	dp TOTODILE
-	dp TYPHLOSION
+	dp CSANAE
+	dp EREISEN
 	dp TYRANITAR
 	dp TYROGUE
 	dp UMBREON

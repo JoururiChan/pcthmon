@@ -20,7 +20,7 @@ MoveDescriptions::
 	dw WingAttackDescription
 	dw SuckerPunchDescription
 	dw FlyDescription
-	dw DazzlingleamDescription
+	dw EnergyLightDescription
 	dw VoltSwitchDescription
 	dw VineWhipDescription
 	dw StompDescription
@@ -922,7 +922,7 @@ SuckerPunchDescription:
 	next "foe does."
 	done
 
-DazzlingleamDescription:
+EnergyLightDescription:
 	text "Dazzles with a"
 	next "powerful flash."
 	done

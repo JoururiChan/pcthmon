@@ -20,7 +20,7 @@ MoveNames::
 	li "Wing Attack"
 	li "Sucker Punch"
 	li "Fly"
-	li "DazzlinGleam"
+	li "Energy Light"
 	li "Volt Switch"
 	li "Vine Whip"
 	li "Stomp"

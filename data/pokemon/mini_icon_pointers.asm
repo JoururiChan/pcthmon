@@ -158,12 +158,12 @@ MiniIconPointers:
 	mini_icon CYoumu
 	mini_icon Youmu
 	mini_icon EYoumu
-	mini_icon Cyndaquil
-	mini_icon Quilava
-	mini_icon Typhlosion
-	mini_icon Totodile
-	mini_icon Croconaw
-	mini_icon Feraligatr
+	mini_icon CReisen
+	mini_icon Reisen
+	mini_icon EReisen
+	mini_icon CSanae
+	mini_icon Sanae
+	mini_icon ESanae
 	mini_icon Sentret
 	mini_icon Furret
 	mini_icon Hoothoot
@@ -387,7 +387,7 @@ endr
 	mini_icon ArcanineHisuian
 	mini_icon VoltorbHisuian
 	mini_icon ElectrodeHisuian
-	mini_icon TyphlosionHisuian
+	mini_icon EReisenHisuian
 	mini_icon QwilfishHisuian
 	mini_icon SneaselHisuian
 

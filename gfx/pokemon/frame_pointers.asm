@@ -154,12 +154,12 @@ FramesPointers:
 	dw CYoumuFrames
 	dw YoumuFrames
 	dw EYoumuFrames
-	dw CyndaquilFrames
-	dw QuilavaFrames
-	dw TyphlosionPlainFrames
-	dw TotodileFrames
-	dw CroconawFrames
-	dw FeraligatrFrames
+	dw CReisenFrames
+	dw ReisenFrames
+	dw EReisenPlainFrames
+	dw CSanaeFrames
+	dw SanaeFrames
+	dw ESanaeFrames
 	dw SentretFrames
 	dw FurretFrames
 	dw HoothootFrames
@@ -399,7 +399,7 @@ FramesPointers:
 	dw ArcanineHisuianFrames
 	dw VoltorbHisuianFrames
 	dw ElectrodeHisuianFrames
-	dw TyphlosionHisuianFrames
+	dw EReisenHisuianFrames
 	dw QwilfishHisuianFrames
 	dw SneaselHisuianFrames
 
