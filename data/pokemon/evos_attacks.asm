@@ -48,10 +48,10 @@ ReimuEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
+	db 1, AERIAL_ACE
 	db 6, SEAL_NEEDLE
 	db 10, MACH_PUNCH
 	db 14, FORESIGHT
-	db 16, AERIAL_ACE
 	db 22, LIGHT_SCREEN ; Sweet Scent → Take Down
 	db 22, REFLECT
 	db 28, HEALINGLIGHT
@@ -165,14 +165,14 @@ SakuyaEvosAttacks:
 	evo_data EVOLVE_LEVEL, 32, ESAKUYA
 	db -1 ; no more evolutions
 	db 1, TACKLE
+	db 1, BLADE_FLASH
 	db 4, LEER ; Tail Whip → similar move
 	db 7, WATER_GUN
 	db 10, DEFENSE_CURL ; Withdraw → similar move
-	db 14, FURY_STRIKES ; Bubble → egg move
-	db 17, DISABLE
+	db 17, FURY_STRIKES
 	db 21, HONE_TOOLS
-	db 25, PROTECT
-	db 29, ICICLE_SPEAR
+	db 25, DISABLE
+	db 29, PROTECT
 	db 36, SCULPTURE ; Skull Bash → new move
 	db 40, MIRROR_COAT ; Iron Defense → egg move
 	db 44, RAIN_DANCE
@@ -195,8 +195,8 @@ ESakuyaEvosAttacks:
 	db 20, RAPID_SPIN
 	db 24, PROTECT
 	db 28, WATER_PULSE
-	db 34, NIGHT_SLASH
-	db 39, DISABLE ; Skull Bash → new move
+	db 34, ICICLE_SPEAR
+	db 39, NIGHT_SLASH ; Skull Bash → new move
 	db 42, SWORDS_DANCE ; Iron Defense → egg move
 	db 46, SCULPTURE
 	db 51, SAKUYA_WORLD
@@ -219,11 +219,11 @@ MGyokuEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PSYSHOT
 	db 1, FORESIGHT
+	db 1, ICE_SHARD
 	db 8, SEAL_NEEDLE
 	db 12, ROLLOUT
 	db 16, PROTECT
 	db 21, HAZE
-	db 22, ICE_SHARD
 	db 25, BARRIER
 	db 29, EXTRASENSORY
 	db 32, ICY_WIND
@@ -238,11 +238,11 @@ FGyokuEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PSYSHOT
 	db 1, FORESIGHT
+	db 1, FIRE_SPIN
 	db 8, SEAL_NEEDLE
 	db 12, ROLLOUT
 	db 16, PROTECT
 	db 21, HAZE
-	db 22, FIRE_SPIN
 	db 25, BARRIER
 	db 29, EXTRASENSORY
 	db 32, WILL_O_WISP
@@ -257,11 +257,11 @@ OGyokuEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PSYSHOT
 	db 1, FORESIGHT
+	db 1, ROCK_BLAST
 	db 8, SEAL_NEEDLE
 	db 12, ROLLOUT
 	db 16, PROTECT
 	db 21, HAZE
-	db 22, ROCK_BLAST
 	db 25, SUBSTITUTE
 	db 29, EXTRASENSORY
 	db 32, EARTH_POWER
@@ -3636,13 +3636,12 @@ MewEvosAttacks:
 	db -1 ; no more level-up moves
 
 CYoumuEvosAttacks:
-	evo_data EVOLVE_LEVEL, 16, YOUMU
+	evo_data EVOLVE_LEVEL, 14, YOUMU
 	db -1 ; no more evolutions
-	db 1, TACKLE
-	db 1, GROWL
-	db 6, RAZOR_LEAF
-	db 9, TOXIC_GAS
-	db 12, HEALINGLIGHT ; Synthesis → similar move
+	db 1, SCRATCH
+	db 1, DEFENSE_CURL
+	db 7, ASTONISH
+	db 11, DOUBLE_TEAM
 	db 17, REFLECT
 	db 17, LIGHT_SCREEN
 	db 20, DISARM_VOICE ; Magical Leaf → new move
@@ -3659,19 +3658,19 @@ CYoumuEvosAttacks:
 	db -1 ; no more level-up moves
 
 YoumuEvosAttacks:
-	evo_data EVOLVE_LEVEL, 32, EYOUMU
+	evo_data EVOLVE_LEVEL, 34, EYOUMU
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
+	db 1, BLADE_FLASH ; evo move
 	db 6, RAZOR_LEAF
 	db 9, TOXIC_GAS
 	db 12, HEALINGLIGHT ; Synthesis → similar move
-	db 18, REFLECT
-	db 18, LIGHT_SCREEN
-	db 22, DISARM_VOICE ; Magical Leaf → new move
-	db 26, DREAM_HEAVEN ; Natural Gift → tutor move
-	db 32, ANCIENTPOWER ; Sweet Scent → HGSS tutor move
-	db 36, DAZZLINGLEAM ; Light Screen → TM move
+	db 18, NIGHT_SLASH
+	db 22, PROTECT
+	db 25, SUBSTITUTE
+	db 29, SHADOW_HIT ; Sweet Scent → HGSS tutor move
+	db 33, ENDURE ; Light Screen → TM move
 	db 40, BODY_SLAM
 	db 43, SAFEGUARD
 	db 47, PLAY_ROUGH ; Aromatherapy → new move
@@ -3683,7 +3682,6 @@ YoumuEvosAttacks:
 
 EYoumuEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, PETAL_SLASH ; evolution move
 	db 1, TACKLE
 	db 1, GROWL
 	db 6, RAZOR_LEAF
@@ -3693,15 +3691,12 @@ EYoumuEvosAttacks:
 	db 18, LIGHT_SCREEN
 	db 22, DISARM_VOICE ; Magical Leaf → new move
 	db 26, DREAM_HEAVEN ; Natural Gift → tutor move
-	db 34, ANCIENTPOWER ; Sweet Scent → HGSS tutor move
-	db 40, DAZZLINGLEAM ; Light Screen → TM move
-	db 46, BODY_SLAM
-	db 50, SAFEGUARD
-	db 56, PLAY_ROUGH ; Aromatherapy → new move
-	db 62, SOLAR_BEAM
-	db 66, HEAL_BELL ; Aromatherapy → similar move
-	db 72, OUTRAGE ; HGSS tutor move
-	db 80, MOONBLAST ; new move
+	db 35, HONE_TOOLS ; Sweet Scent → HGSS tutor move
+	db 38, HI_JUMP_KICK ; Light Screen → TM move
+	db 42, SWORDS_DANCE
+	db 47, FORESIGHT
+	db 51, PETAL_SLASH
+	db 54, GIGA_IMPACT
 	db -1 ; no more level-up moves
 
 CyndaquilEvosAttacks:

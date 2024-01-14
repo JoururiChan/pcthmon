@@ -1,24 +1,24 @@
 EvolutionMoves::
 	table_width 1, EvolutionMoves
 	db NO_MOVE      ; CREIMU
-	db NO_MOVE      ; REIMU
+	db AERIAL_ACE      ; REIMU
 	db NO_MOVE      ; EREIMU
 	db NO_MOVE      ; CMARISA
 	db NO_MOVE      ; MARISA
-	db NO_MOVE      ; EMARISA
+	db METEOR_FALL      ; EMARISA
 	db NO_MOVE      ; CSAKUYA
-	db NO_MOVE      ; SAKUYA
+	db BLADE_FLASH      ; SAKUYA
 	db NO_MOVE      ; ESAKUYA
 	db NO_MOVE      ; CGYOKU
-	db NO_MOVE      ; MGYOKU
-	db NO_MOVE      ; FGYOKU
-	db NO_MOVE      ; OGYOKU
+	db ICE_SHARD      ; MGYOKU
+	db FIRE_SPIN      ; FGYOKU
+	db ROCK_BLAST      ; OGYOKU
 	db NO_MOVE      ; CMAGAN
 	db TOXIC_GAS    ; MAGAN
 	db NO_MOVE      ; EMAGAN
 	db NO_MOVE      ; CMIMA
 	db NO_MOVE      ; MIMA
-	db NO_MOVE      ; EMIMA
+	db MASTER_SPARK      ; EMIMA
 	db SCARY_FACE   ; RATICATE
 	db NO_MOVE      ; SPEAROW
 	db NO_MOVE      ; FEAROW
@@ -152,8 +152,8 @@ EvolutionMoves::
 	db NO_MOVE      ; MEWTWO
 	db NO_MOVE      ; MEW
 	db NO_MOVE      ; CYOUMU
-	db NO_MOVE      ; YOUMU
-	db PETAL_SLASH  ; EYOUMU
+	db BLADE_FLASH      ; YOUMU
+	db NO_MOVE  ; EYOUMU
 	db NO_MOVE      ; CYNDAQUIL
 	db NO_MOVE      ; QUILAVA
 	db FIRE_PUNCH   ; TYPHLOSION
