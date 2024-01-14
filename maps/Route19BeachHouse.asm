@@ -13,7 +13,7 @@ Route19BeachHouse_MapScriptHeader:
 
 	def_object_events
 	object_event  2,  3, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route19BeachHouseVictorScript, -1
-	object_event  6,  4, SPRITE_SURFING_PIKACHU, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route19BeachHouseSurfingPikachuScript, -1
+	object_event  6,  4, SPRITE_SURFING_EKIKURI, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route19BeachHouseSurfingEKikuriScript, -1
 
 	object_const_def
 	const ROUTE19BEACHHOUSE_VICTOR
@@ -25,8 +25,8 @@ Route19BeachHouseVictorScript:
 	iftruefwd .AfterScript
 	writetext .GreetingText
 	waitbutton
-	special CheckForSurfingPikachu
-	iffalsefwd .NoPikachu
+	special CheckForSurfingEKikuri
+	iffalsefwd .NoEKikuri
 	writetext .ChallengeText
 	yesorno
 	iffalsefwd .NoBattle
@@ -43,8 +43,8 @@ Route19BeachHouseVictorScript:
 .AfterScript:
 	jumpopenedtext .AfterText
 
-.NoPikachu:
-	jumpopenedtext .NoPikachuText
+.NoEKikuri:
+	jumpopenedtext .NoEKikuriText
 
 .NoBattle:
 	jumpopenedtext .NoBattleText
@@ -55,13 +55,13 @@ Route19BeachHouseVictorScript:
 
 	para "I love to Surf,"
 	line "and so does Puka."
-	cont "That's my Pikachu!"
+	cont "That's my EKikuri!"
 	done
 
 .ChallengeText:
 	text "Whoa!"
 
-	para "Your Pikachu knows"
+	para "Your EKikuri knows"
 	line "how to Surf! So,"
 	cont "I'm not alone…"
 
@@ -103,13 +103,13 @@ Route19BeachHouseVictorScript:
 	line "since then."
 	done
 
-.NoPikachuText:
+.NoEKikuriText:
 	text "You can do it,"
 	line "too!"
 
 	para "Go out there and"
 	line "find a Surfing"
-	cont "Pikachu!"
+	cont "EKikuri!"
 
 	para "Show me that you"
 	line "love Surfing too!"
@@ -120,9 +120,9 @@ Route19BeachHouseVictorScript:
 	line "anytime, friend!"
 	done
 
-Route19BeachHouseSurfingPikachuScript:
+Route19BeachHouseSurfingEKikuriScript:
 	faceplayer
-	showcrytext .Text, PIKACHU
+	showcrytext .Text, EKIKURI
 	end
 
 .Text:

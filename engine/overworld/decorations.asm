@@ -203,7 +203,7 @@ FindOwnedBeds:
 	db DECO_FEATHERY_BED ; 2
 	db DECO_PINK_BED ; 3
 	db DECO_POLKADOT_BED ; 4
-	db DECO_PIKACHU_BED ; 5
+	db DECO_EKIKURI_BED ; 5
 	db -1
 
 DecoCarpetMenu:
@@ -255,7 +255,7 @@ FindOwnedPosters:
 .posters:
 	db DECO_TOWN_MAP ; 10
 	db DECO_DIPLOMA ; 11
-	db DECO_PIKACHU_POSTER ; 12
+	db DECO_EKIKURI_POSTER ; 12
 	db DECO_CLEFAIRY_POSTER ; 13
 	db DECO_MARILL_POSTER ; 14
 	db -1
@@ -290,9 +290,9 @@ FindOwnedOrnaments:
 	jmp FindOwnedDecosInCategory
 
 .ornaments:
-	db DECO_PIKACHU_DOLL ; 1e
+	db DECO_EKIKURI_DOLL ; 1e
 	db DECO_RAICHU_DOLL ; 1f
-	db DECO_SURF_PIKACHU_DOLL ; 20
+	db DECO_SURF_EKIKURI_DOLL ; 20
 	db DECO_CLEFAIRY_DOLL ; 21
 	db DECO_JIGGLYPUFF_DOLL ; 22
 	db DECO_CREIMU_DOLL ; 23
@@ -977,7 +977,7 @@ DecorationDesc_Poster:
 DecorationDesc_PosterPointers:
 	dbw DECO_TOWN_MAP, DecorationDesc_TownMapPoster
 	dbw DECO_DIPLOMA, DecorationDesc_Diploma
-	dbw DECO_PIKACHU_POSTER, DecorationDesc_PikachuPoster
+	dbw DECO_EKIKURI_POSTER, DecorationDesc_EKikuriPoster
 	dbw DECO_CLEFAIRY_POSTER, DecorationDesc_ClefairyPoster
 	dbw DECO_MARILL_POSTER, DecorationDesc_MarillPoster
 	db -1
@@ -998,8 +998,8 @@ DecorationDesc_Diploma:
 	endtext
 	end
 
-DecorationDesc_PikachuPoster:
-	farjumptext _LookPikachuPosterText
+DecorationDesc_EKikuriPoster:
+	farjumptext _LookEKikuriPosterText
 
 DecorationDesc_ClefairyPoster:
 	farjumptext _LookClefairyPosterText

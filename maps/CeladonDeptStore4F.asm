@@ -30,7 +30,7 @@ PosterClerkScript:
 	closewindow
 	ifequalfwd $1, .MarillPoster
 	ifequalfwd $2, .ClefairyPoster
-	ifequalfwd $3, .PikachuPoster
+	ifequalfwd $3, .EKikuriPoster
 	endtext
 
 .MarillPoster:
@@ -61,17 +61,17 @@ PosterClerkScript:
 	waitbutton
 	sjump .Start
 
-.PikachuPoster:
+.EKikuriPoster:
 	checkmoney $0, 6400
 	ifequalfwd $2, .NotEnoughMoney
 	checkevent EVENT_DECO_POSTER_1
 	iftruefwd .AlreadyBought
 	takemoney $0, 6400
 	setevent EVENT_DECO_POSTER_1
-	writetext BoughtPikachuPosterText
+	writetext BoughtEKikuriPosterText
 	playsound SFX_TRANSACTION
 	waitbutton
-	writetext PikachuPosterSentText
+	writetext EKikuriPosterSentText
 	waitbutton
 	sjump .Start
 
@@ -96,7 +96,7 @@ PosterClerkScript:
 	db 4 ; items
 	db "Marill      ¥3200@"
 	db "Clefairy    ¥4800@"
-	db "Pikachu     ¥6400@"
+	db "EKikuri     ¥6400@"
 	db "Cancel@"
 
 PosterClerkText:
@@ -134,13 +134,13 @@ ClefairyPosterSentText:
 	line "was sent home."
 	done
 
-BoughtPikachuPosterText:
+BoughtEKikuriPosterText:
 	text "<PLAYER> bought"
-	line "Pikachu Poster."
+	line "EKikuri Poster."
 	done
 
-PikachuPosterSentText:
-	text "Pikachu Poster"
+EKikuriPosterSentText:
+	text "EKikuri Poster"
 	line "was sent home."
 	done
 

@@ -305,10 +305,10 @@ _LookTownMapText::
 	text "It's the Town Map."
 	done
 
-SECTION "_LookPikachuPosterText", ROMX
-_LookPikachuPosterText::
+SECTION "_LookEKikuriPosterText", ROMX
+_LookEKikuriPosterText::
 	text "It's a poster of a"
-	line "cute Pikachu."
+	line "cute EKikuri."
 	done
 
 SECTION "_LookClefairyPosterText", ROMX

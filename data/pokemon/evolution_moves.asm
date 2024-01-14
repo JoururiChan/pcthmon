@@ -19,12 +19,12 @@ EvolutionMoves::
 	db NO_MOVE      ; CMIMA
 	db NO_MOVE      ; MIMA
 	db MASTER_SPARK      ; EMIMA
-	db SCARY_FACE   ; CELIS
-	db NO_MOVE      ; ELIS
+	db NO_MOVE   ; CELIS
+	db ACROBATICS      ; ELIS
 	db NO_MOVE      ; EELIS
-	db NO_MOVE      ; EKANS
-	db CRUNCH       ; ARBOK
-	db NO_MOVE      ; PIKACHU
+	db NO_MOVE      ; CKIKURI
+	db NO_MOVE       ; KIKURI
+	db NO_MOVE      ; EKIKURI
 	db THUNDERBOLT  ; RAICHU
 	db NO_MOVE      ; SANDSHREW
 	db SLASH        ; SANDSLASH

@@ -23,9 +23,9 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; CElis
 	db   1,  19 ; Elis
 	db  20, 100 ; EElis
-	db   1,  21 ; Ekans
-	db  22, 100 ; Arbok
-	db   1,  19 ; Pikachu
+	db   1,  21 ; CKikuri
+	db  22, 100 ; Kikuri
+	db   1,  19 ; EKikuri
 	db  20, 100 ; Raichu
 	db   1,  21 ; Sandshrew
 	db  22, 100 ; Sandslash

@@ -222,8 +222,8 @@ EElisPokedexEntry::
 	next "must be treated"
 	next "with caution.@"
 
-SECTION "EkansPokedexEntry", ROMX
-EkansPokedexEntry::
+SECTION "CKikuriPokedexEntry", ROMX
+CKikuriPokedexEntry::
 	db "Snake@"
 	db   "It flutters the"
 	next "tip of its tongue"
@@ -232,8 +232,8 @@ EkansPokedexEntry::
 	next "then swallows the"
 	next "prey whole.@"
 
-SECTION "ArbokPokedexEntry", ROMX
-ArbokPokedexEntry::
+SECTION "KikuriPokedexEntry", ROMX
+KikuriPokedexEntry::
 	db "Cobra@"
 	db   "To intimidate"
 	next "foes, it spreads"
@@ -242,8 +242,8 @@ ArbokPokedexEntry::
 	next "by expelling air"
 	next "from its mouth.@"
 
-SECTION "PikachuPokedexEntry", ROMX
-PikachuPokedexEntry::
+SECTION "EKikuriPokedexEntry", ROMX
+EKikuriPokedexEntry::
 	db "Mouse@"
 	db   "When it is anger-"
 	next "ed, it immediately"

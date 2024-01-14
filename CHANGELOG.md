@@ -11,8 +11,8 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Store up to 30 phone numbers in Tohogear.
 * Add: Always keep the option to Teleport away from Indigo Plateau.
 * Add: Portrait for the meteorite in Pewter Museum.
-* Add: Special sprite for Red's Pikachu.
-* Add: Johto and Kanto forms for Arbok.
+* Add: Special sprite for Red's EKikuri.
+* Add: Johto and Kanto forms for Kikuri.
 * Add: Drain Kiss drains 75% HP.
 * Add: Update Tohomon, move, and item attributes to Gen VII:
    * Super Potion heals 60 HP.

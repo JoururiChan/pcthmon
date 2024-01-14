@@ -147,9 +147,9 @@ MoveDeletion:
 	ld [hl], a
 	ld a, MON_SPECIES
 	call GetPartyParamLocationAndValue
-	cp LOW(PIKACHU)
+	cp LOW(EKIKURI)
 	ret nz
-	assert !HIGH(PIKACHU)
+	assert !HIGH(EKIKURI)
 	ld bc, MON_FORM - MON_SPECIES
 	add hl, bc
 	ld a, [hl]
@@ -157,16 +157,16 @@ MoveDeletion:
 	ret nz
 	ld a, [wMoveScreenSelectedMove]
 	cp FLY
-	jr z, .reset_pikachu_form
+	jr z, .reset_ekikuri_form
 	cp SURF
 	ret nz
-.reset_pikachu_form
+.reset_ekikuri_form
 	ld a, [hl]
 	and ~FORM_MASK
 	or PLAIN_FORM
 	ld [hl], a
 
-	; Register this Pikachu as seen+caught in the dex.
-	ld c, PIKACHU
+	; Register this EKikuri as seen+caught in the dex.
+	ld c, EKIKURI
 	ld b, a
 	jmp SetSeenAndCaughtMon

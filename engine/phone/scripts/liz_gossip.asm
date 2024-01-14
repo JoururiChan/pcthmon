@@ -3,7 +3,7 @@ LizGossipRandomScript:
 	ifequalfwd 0, .RuinsOfAlph
 	ifequalfwd 1, .Falkner
 	ifequalfwd 2, .Earl
-	ifequalfwd 3, .SurfPikachu
+	ifequalfwd 3, .SurfEKikuri
 	ifequalfwd 4, .MooMooMilk
 	ifequalfwd 5, .Salon
 	ifequalfwd 6, .Whitney
@@ -26,8 +26,8 @@ LizGossipRandomScript:
 	promptbutton
 	sjump PhoneScript_HangupText_Female
 
-.SurfPikachu:
-	farwritetext LizSurfPikachuGossipText
+.SurfEKikuri:
+	farwritetext LizSurfEKikuriGossipText
 	promptbutton
 	sjump PhoneScript_HangupText_Female
 

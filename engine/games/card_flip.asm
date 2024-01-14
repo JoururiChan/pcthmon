@@ -700,7 +700,7 @@ CardFlip_CheckWinCondition:
 
 	dw .Impossible
 	dw .Impossible
-	dw .Pikachu
+	dw .EKikuri
 	dw .Jigglypuff
 	dw .Poliwag
 	dw .Oddish
@@ -792,7 +792,7 @@ CardFlip_CheckWinCondition:
 	ld de, SFX_2ND_PLACE
 	jmp .Payout
 
-.Pikachu:
+.EKikuri:
 	ld a, [wCardFlipFaceUpCard]
 	and $3
 	jr z, .WinTwelve

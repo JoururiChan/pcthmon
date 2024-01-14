@@ -345,7 +345,7 @@
 	wildmon 57, FGYOKU
 	wildmon 56, LEDIAN
 	wildmon 58, CMIMA
-	wildmon 59, PIKACHU
+	wildmon 59, EKIKURI
 	; day
 	wildmon 55, FGYOKU
 	wildmon 54, CMIMA
@@ -353,7 +353,7 @@
 	wildmon 57, FGYOKU
 	wildmon 56, CMIMA
 	wildmon 58, CMIMA
-	wildmon 59, PIKACHU
+	wildmon 59, EKIKURI
 	; nite
 	wildmon 55, NOCTOWL
 	wildmon 54, ARIADOS
@@ -373,7 +373,7 @@
 	wildmon 57, FGYOKU
 	wildmon 56, LEDIAN
 	wildmon 58, CMIMA
-	wildmon 59, PIKACHU
+	wildmon 59, EKIKURI
 	; day
 	wildmon 55, FGYOKU
 	wildmon 54, CMIMA
@@ -381,7 +381,7 @@
 	wildmon 57, FGYOKU
 	wildmon 56, CMIMA
 	wildmon 58, CMIMA
-	wildmon 59, PIKACHU
+	wildmon 59, EKIKURI
 	; nite
 	wildmon 55, NOCTOWL
 	wildmon 54, ARIADOS
@@ -400,16 +400,16 @@
 	wildmon 55, CMAGAN
 	wildmon 55, MGYOKU
 	wildmon 56, MGYOKU
-	wildmon 59, PIKACHU
-	wildmon 60, PIKACHU
+	wildmon 59, EKIKURI
+	wildmon 60, EKIKURI
 	; day
 	wildmon 57, FGYOKU
 	wildmon 57, MAGAN
 	wildmon 55, MGYOKU
 	wildmon 55, CMAGAN
 	wildmon 56, CMAGAN
-	wildmon 59, PIKACHU
-	wildmon 60, PIKACHU
+	wildmon 59, EKIKURI
+	wildmon 60, EKIKURI
 	; nite
 	wildmon 57, NOCTOWL
 	wildmon 57, ARIADOS
@@ -425,17 +425,17 @@
 	; morn
 	wildmon 52, EELIS
 	wildmon 52, CELIS
-	wildmon 54, ARBOK, ARBOK_KANTO_FORM
+	wildmon 54, KIKURI, KIKURI_KANTO_FORM
 	wildmon 55, SANDSLASH
-	wildmon 55, ARBOK, ARBOK_KANTO_FORM
+	wildmon 55, KIKURI, KIKURI_KANTO_FORM
 	wildmon 57, JIGGLYPUFF
 	wildmon 55, WIGGLYTUFF
 	; day
 	wildmon 52, EELIS
 	wildmon 52, CELIS
-	wildmon 54, ARBOK, ARBOK_KANTO_FORM
+	wildmon 54, KIKURI, KIKURI_KANTO_FORM
 	wildmon 55, SANDSLASH
-	wildmon 55, ARBOK, ARBOK_KANTO_FORM
+	wildmon 55, KIKURI, KIKURI_KANTO_FORM
 	wildmon 57, JIGGLYPUFF
 	wildmon 55, WIGGLYTUFF
 	; nite
@@ -453,17 +453,17 @@
 	; morn
 	wildmon 54, EELIS
 	wildmon 54, CELIS
-	wildmon 56, ARBOK, ARBOK_KANTO_FORM
+	wildmon 56, KIKURI, KIKURI_KANTO_FORM
 	wildmon 57, SANDSLASH
-	wildmon 57, ARBOK, ARBOK_KANTO_FORM
+	wildmon 57, KIKURI, KIKURI_KANTO_FORM
 	wildmon 58, PRIMEAPE
 	wildmon 59, PRIMEAPE
 	; day
 	wildmon 54, EELIS
 	wildmon 54, CELIS
-	wildmon 56, ARBOK, ARBOK_KANTO_FORM
+	wildmon 56, KIKURI, KIKURI_KANTO_FORM
 	wildmon 57, SANDSLASH
-	wildmon 57, ARBOK, ARBOK_KANTO_FORM
+	wildmon 57, KIKURI, KIKURI_KANTO_FORM
 	wildmon 58, PRIMEAPE
 	wildmon 59, PRIMEAPE
 	; nite
@@ -564,7 +564,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 48, CMIMA
-	wildmon 51, ARBOK, ARBOK_KANTO_FORM
+	wildmon 51, KIKURI, KIKURI_KANTO_FORM
 	wildmon 53, VULPIX
 	wildmon 53, GROWLITHE
 	wildmon 53, JIGGLYPUFF
@@ -572,7 +572,7 @@
 	wildmon 50, KADABRA
 	; day
 	wildmon 48, CMIMA
-	wildmon 51, ARBOK, ARBOK_KANTO_FORM
+	wildmon 51, KIKURI, KIKURI_KANTO_FORM
 	wildmon 53, VULPIX
 	wildmon 53, GROWLITHE
 	wildmon 53, JIGGLYPUFF
@@ -1013,7 +1013,7 @@
 	; morn
 	wildmon 37, DODRIO
 	wildmon 38, SANDSLASH
-	wildmon 38, ARBOK, ARBOK_KANTO_FORM
+	wildmon 38, KIKURI, KIKURI_KANTO_FORM
 	wildmon 39, PRIMEAPE
 	wildmon 39, SANDSLASH
 	wildmon 40, SANDSLASH
@@ -1021,7 +1021,7 @@
 	; day
 	wildmon 37, DODRIO
 	wildmon 38, SANDSLASH
-	wildmon 38, ARBOK, ARBOK_KANTO_FORM
+	wildmon 38, KIKURI, KIKURI_KANTO_FORM
 	wildmon 39, PRIMEAPE
 	wildmon 39, SANDSLASH
 	wildmon 40, SANDSLASH
@@ -1100,16 +1100,16 @@
 	wildmon 41, PONYTA
 	wildmon 40, CELIS
 	wildmon 39, DODUO
-	wildmon 40, ARBOK, ARBOK_KANTO_FORM
-	wildmon 41, ARBOK, ARBOK_KANTO_FORM
+	wildmon 40, KIKURI, KIKURI_KANTO_FORM
+	wildmon 41, KIKURI, KIKURI_KANTO_FORM
 	; day
 	wildmon 38, DODUO
 	wildmon 38, SANDSLASH
 	wildmon 41, PONYTA
 	wildmon 40, CELIS
 	wildmon 39, DODUO
-	wildmon 40, ARBOK, ARBOK_KANTO_FORM
-	wildmon 41, ARBOK, ARBOK_KANTO_FORM
+	wildmon 40, KIKURI, KIKURI_KANTO_FORM
+	wildmon 41, KIKURI, KIKURI_KANTO_FORM
 	; nite
 	wildmon 38, NOCTOWL
 	wildmon 38, CELIS
@@ -1124,7 +1124,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 37, DODUO
-	wildmon 37, ARBOK, ARBOK_KANTO_FORM
+	wildmon 37, KIKURI, KIKURI_KANTO_FORM
 	wildmon 39, CELIS
 	wildmon 39, DODUO
 	wildmon 41, PONYTA
@@ -1132,7 +1132,7 @@
 	wildmon 40, DODRIO
 	; day
 	wildmon 37, DODUO
-	wildmon 37, ARBOK, ARBOK_KANTO_FORM
+	wildmon 37, KIKURI, KIKURI_KANTO_FORM
 	wildmon 39, CELIS
 	wildmon 39, DODUO
 	wildmon 41, PONYTA
@@ -1153,7 +1153,7 @@
 	; morn
 	wildmon 66, TANGELA
 	wildmon 67, PONYTA
-	wildmon 67, ARBOK ; randomly Kanto or Johto form
+	wildmon 67, KIKURI ; randomly Kanto or Johto form
 	wildmon 70, RAPIDASH
 	wildmon 68, DODRIO
 	wildmon 71, SKARMORY
@@ -1161,7 +1161,7 @@
 	; day
 	wildmon 66, TANGELA
 	wildmon 67, PONYTA
-	wildmon 67, ARBOK ; randomly Kanto or Johto form
+	wildmon 67, KIKURI ; randomly Kanto or Johto form
 	wildmon 70, RAPIDASH
 	wildmon 68, DODRIO
 	wildmon 71, SKARMORY

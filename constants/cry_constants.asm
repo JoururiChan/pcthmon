@@ -25,7 +25,7 @@
 	const CRY_CMIMA
 	const CRY_OGYOKU
 	const CRY_CGYOKU
-	const CRY_EKANS
+	const CRY_CKIKURI
 	const CRY_SHELLDER
 	const CRY_CLEFAIRY
 	const CRY_VENONAT

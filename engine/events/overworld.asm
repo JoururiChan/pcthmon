@@ -138,15 +138,15 @@ CheckPartyMove:
 	scf
 	ret
 
-CheckForSurfingPikachu:
+CheckForSurfingEKikuri:
 	lb de, SURF, HM_SURF
 	call CheckPartyMove
 	jr c, .no
 	ld a, MON_SPECIES
 	call GetPartyParamLocationAndValue
-	cp LOW(PIKACHU)
+	cp LOW(EKIKURI)
 	jr nz, .no
-	assert !HIGH(PIKACHU)
+	assert !HIGH(EKIKURI)
 	ld de, MON_EXTSPECIES - MON_SPECIES
 	add hl, de
 	ld a, [hl]
@@ -555,21 +555,21 @@ AlreadySurfingText:
 	text_end
 
 GetSurfType:
-; Surfing on Pikachu uses an alternate sprite.
+; Surfing on EKikuri uses an alternate sprite.
 ; This is done by using a separate movement type.
 
 	ld a, MON_SPECIES
 	call GetPartyParamLocationAndValue
-	cp LOW(PIKACHU)
-	jr nz, .not_pikachu
-	assert !HIGH(PIKACHU)
+	cp LOW(EKIKURI)
+	jr nz, .not_ekikuri
+	assert !HIGH(EKIKURI)
 	ld de, MON_EXTSPECIES - MON_SPECIES
 	add hl, de
 	ld a, [hl]
 	and 1 << MON_EXTSPECIES_F
 	ld a, PLAYER_SURF_PIKA
 	ret z
-.not_pikachu
+.not_ekikuri
 	ld a, PLAYER_SURF
 	ret
 

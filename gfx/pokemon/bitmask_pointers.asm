@@ -22,9 +22,9 @@ BitmasksPointers:
 	dw CElisPlainBitmasks
 	dw ElisBitmasks
 	dw EElisBitmasks
-	dw EkansBitmasks
-	dw ArbokJohtoBitmasks
-	dw PikachuPlainBitmasks
+	dw CKikuriBitmasks
+	dw KikuriJohtoBitmasks
+	dw EKikuriPlainBitmasks
 	dw RaichuPlainBitmasks
 	dw SandshrewPlainBitmasks
 	dw SandslashPlainBitmasks
@@ -321,16 +321,16 @@ BitmasksPointers:
 	dw UnownExclamationBitmasks
 	dw UnownQuestionBitmasks
 
-	dw ArbokKantoBitmasks
-	dw ArbokKogaBitmasks
-	dw ArbokAgathaBitmasks
-	dw ArbokArianaBitmasks
+	dw KikuriKantoBitmasks
+	dw KikuriKogaBitmasks
+	dw KikuriAgathaBitmasks
+	dw KikuriArianaBitmasks
 
-	dw PikachuFlyBitmasks
-	dw PikachuSurfBitmasks
-	dw PikachuPikaBitmasks
-	dw PikachuChuchuBitmasks
-	dw PikachuSparkBitmasks
+	dw EKikuriFlyBitmasks
+	dw EKikuriSurfBitmasks
+	dw EKikuriPikaBitmasks
+	dw EKikuriChuchuBitmasks
+	dw EKikuriSparkBitmasks
 
 	dw PichuSpikyBitmasks
 

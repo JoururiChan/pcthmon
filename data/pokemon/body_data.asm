@@ -29,9 +29,9 @@ PokemonBodyData:
 	body_data   7,  185, QUADRUPED,    BROWN  ; CELIS
 	body_data   3,   20, WINGS,        BROWN  ; ELIS
 	body_data  12,  380, WINGS,        BROWN  ; EELIS
-	body_data  20,   69, SERPENTINE,   PURPLE ; EKANS
-	body_data  35,  650, SERPENTINE,   PURPLE ; ARBOK
-	body_data   4,   60, QUADRUPED,    YELLOW ; PIKACHU
+	body_data  20,   69, SERPENTINE,   PURPLE ; CKIKURI
+	body_data  35,  650, SERPENTINE,   PURPLE ; KIKURI
+	body_data   4,   60, QUADRUPED,    YELLOW ; EKIKURI
 	body_data   8,  300, BIPEDAL_TAIL, YELLOW ; RAICHU
 	body_data   6,  120, BIPEDAL_TAIL, YELLOW ; SANDSHREW
 	body_data  10,  295, BIPEDAL_TAIL, YELLOW ; SANDSLASH

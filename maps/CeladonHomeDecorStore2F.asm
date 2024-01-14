@@ -27,7 +27,7 @@ CeladonHomeDecorStore2FClerkScript:
 	closewindow
 	ifequalfwd $1, .PinkBed
 	ifequalfwd $2, .PolkaDotBed
-	ifequalfwd $3, .PikachuBed
+	ifequalfwd $3, .EKikuriBed
 	endtext
 
 .PinkBed:
@@ -58,17 +58,17 @@ CeladonHomeDecorStore2FClerkScript:
 	waitbutton
 	sjump .Start
 
-.PikachuBed:
+.EKikuriBed:
 	checkmoney $0, 126000
 	ifequalfwd $2, .NotEnoughMoney
 	checkevent EVENT_DECO_BED_4
 	iftruefwd .AlreadyBought
 	takemoney $0, 126000
 	setevent EVENT_DECO_BED_4
-	writetext BoughtPikachuBedText
+	writetext BoughtEKikuriBedText
 	playsound SFX_TRANSACTION
 	waitbutton
-	writetext PikachuBedSentText
+	writetext EKikuriBedSentText
 	waitbutton
 	sjump .Start
 
@@ -93,7 +93,7 @@ CeladonHomeDecorStore2FClerkScript:
 	db 4 ; items
 	db "Pink      ¥62000@"
 	db "PolkaDot  ¥94000@"
-	db "Pikachu  ¥126000@"
+	db "EKikuri  ¥126000@"
 	db "Cancel@"
 
 CeladonHomeDecorStore2FClerkText:
@@ -122,13 +122,13 @@ PolkaDotBedSentText:
 	line "was sent home."
 	done
 
-BoughtPikachuBedText:
+BoughtEKikuriBedText:
 	text "<PLAYER> bought"
-	line "Pikachu Bed."
+	line "EKikuri Bed."
 	done
 
-PikachuBedSentText:
-	text "Pikachu Bed"
+EKikuriBedSentText:
+	text "EKikuri Bed"
 	line "was sent home."
 	done
 
@@ -147,7 +147,7 @@ CeladonHomeDecorStore2FPokefanfText:
 	line "cost more than"
 	cont "generic ones."
 
-	para "But the Pikachu"
+	para "But the EKikuri"
 	line "Bed is so cute…"
 	done
 

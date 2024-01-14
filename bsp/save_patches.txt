@@ -491,15 +491,15 @@ ConvertMonIndexesTo9Bit:
 	unlockpos
 
 .done_loop
-	; Special case for Pikachu, need to set fly form or surf form
-	ifne #result, 0x19, .not_pikachu ; mons like Sirfetch'd ($119) didn't exist yet, so there's no conflicts
-	jumpz #4, .not_pikachu ; HoF mons don't have move data
+	; Special case for EKikuri, need to set fly form or surf form
+	ifne #result, 0x19, .not_ekikuri ; mons like Sirfetch'd ($119) didn't exist yet, so there's no conflicts
+	jumpz #4, .not_ekikuri ; HoF mons don't have move data
 	pushpos
 	readhalfword #temp ; species -> moves
 	readword #temp ; all four moves
 .move_loop
 	and #1, #temp, 0xff
-	jumpz #1, .not_pikachu_form
+	jumpz #1, .not_ekikuri_form
 	set #2, 2 ; FLY_FORM
 	ifeq #1, 0x13, .got_form
 	increment #2 ; SURF_FORM
@@ -511,10 +511,10 @@ ConvertMonIndexesTo9Bit:
 	and #1, 0xe0 ; ~FORM_MASK
 	or #1, #2
 	writebyte #1
-.not_pikachu_form
+.not_ekikuri_form
 	poppos
 
-.not_pikachu
+.not_ekikuri
 	ifne #result, 0x82, .not_gyarados
 	pushpos
 	seekfwd FORM_OFFSET
@@ -640,15 +640,15 @@ ConvertMonIndexesTo9Bit:
 	dh -1
 
 .mon_forms:
-	db 0x18, 2 ; ARBOK, KANTO
-	db 0x18, 3 ; ARBOK, KOGA
-	db 0x18, 4 ; ARBOK, AGATHA
-	db 0x18, 5 ; ARBOK, ARIANA
-	db 0x19, 2 ; PIKACHU, FLY
-	db 0x19, 3 ; PIKACHU, SURF
-	db 0x19, 4 ; PIKACHU, RED
-	db 0x19, 5 ; PIKACHU, YELLOW
-	db 0x19, 6 ; PIKACHU, SPARK
+	db 0x18, 2 ; KIKURI, KANTO
+	db 0x18, 3 ; KIKURI, KOGA
+	db 0x18, 4 ; KIKURI, AGATHA
+	db 0x18, 5 ; KIKURI, ARIANA
+	db 0x19, 2 ; EKIKURI, FLY
+	db 0x19, 3 ; EKIKURI, SURF
+	db 0x19, 4 ; EKIKURI, RED
+	db 0x19, 5 ; EKIKURI, YELLOW
+	db 0x19, 6 ; EKIKURI, SPARK
 	db 0xac, 2 ; PICHU, SPIKY_EARED
 	db 0x81, 2 ; MAGIKARP, SKELLY
 	db 0x81, 3 ; MAGIKARP, CALICO1

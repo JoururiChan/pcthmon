@@ -26,9 +26,9 @@ OverworldMonIconColors::
 	iconpal BROWN, RED ; CELIS
 	iconpal BROWN, ORANGE ; ELIS
 	iconpal BROWN, PINK ; EELIS
-	iconpal PURPLE, BROWN ; EKANS
-	iconpal PURPLE, BROWN ; ARBOK
-	iconpal RED, AZURE ; PIKACHU
+	iconpal PURPLE, BROWN ; CKIKURI
+	iconpal PURPLE, BROWN ; KIKURI
+	iconpal RED, AZURE ; EKIKURI
 	iconpal ORANGE, AZURE ; RAICHU
 	iconpal BROWN, TEAL ; SANDSHREW
 	iconpal BROWN, RED ; SANDSLASH
@@ -301,11 +301,11 @@ rept NUM_UNOWN - 1
 	iconpal GRAY, BLUE
 endr
 
-rept NUM_ARBOK - 1
+rept NUM_KIKURI - 1
 	iconpal PURPLE, BROWN
 endr
 
-rept NUM_PIKACHU - 1
+rept NUM_EKIKURI - 1
 	iconpal RED, BLUE
 endr
 

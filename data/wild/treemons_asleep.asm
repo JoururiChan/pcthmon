@@ -16,7 +16,7 @@ AsleepTreeMons:
 	dp CMAGAN
 	dp MAGAN
 	dp ELIS
-	dp EKANS
+	dp CKIKURI
 	dp EXEGGCUTE
 	dp LEDYBA
 	db 0 ; end

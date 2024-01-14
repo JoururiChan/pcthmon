@@ -162,7 +162,7 @@ Some of these may never be added; they're just suggestions.
 * Rarely wild Tohomon know an egg move (could be a bonus for DexNav or Poké Radar use)
 * Use the [Japanese GS Ball event quiz](https://www.pokecommunity.com/showthread.php?p=9739072#post9739072) ([original](http://www.geocities.co.jp/Playtown-Darts/9915/serebi.htm))
 * Restore [unused memory game](http://iimarckus.org/i/memory/) ([more info](https://tcrf.net/Pok%C3%A9mon_Gold_and_Silver#Unused_Memory_Game))
-* Restore the Pikachu's Beach minigame
+* Restore the EKikuri's Beach minigame
 * Level ranges for wild Tohomon, instead of single values
 * Championship title defense like in Gen VII (challengers: rival, Lyra, Lance, Prof.Oak, Prof.Elm, Clair, Blue, Eusine, Kimono Girl Naoko, Palmer, Lorelei, Agatha, Steven, Cynthia, Caitlin, and Lawrence)
 * Make more trainers rematchable

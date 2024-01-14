@@ -417,7 +417,7 @@ GetBugCatchingContestMusic:
 GetPlayerStateMusic:
 	ld a, [wPlayerState]
 	cp PLAYER_SURF_PIKA
-	ld e, MUSIC_SURFING_PIKACHU
+	ld e, MUSIC_SURFING_EKIKURI
 	ret z
 	cp PLAYER_SURF
 	jmp nz, GetMapMusic

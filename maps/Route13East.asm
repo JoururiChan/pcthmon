@@ -170,18 +170,18 @@ GenericTrainerPokefanmJoshua:
 	text "You look like you"
 	line "have many #mon,"
 
-	para "but Pikachu is"
+	para "but EKikuri is"
 	line "still the best."
 	done
 
 PokefanmJoshuaSeenText:
 	text "Nihihi! Would you"
 	line "like to battle my"
-	cont "Pikachu gang?"
+	cont "EKikuri gang?"
 	done
 
 PokefanmJoshuaBeatenText:
-	text "Pi-Pikachu!"
+	text "Pi-EKikuri!"
 	done
 
 Route13EastGrampsScript:

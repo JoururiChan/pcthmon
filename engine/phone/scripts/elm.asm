@@ -88,7 +88,7 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveCrit
 	dw .EvolveParty
 	dw .EvolveEgg
-	dw .EvolvePikachu
+	dw .EvolveEKikuri
 	dw .EvolveGloom
 	dw .EvolvePoliwhirl
 	dw .EvolveSlowpokePlain
@@ -155,8 +155,8 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveEgg:
 	farwritetext ElmPhoneEvoText_Egg
 	end
-.EvolvePikachu:
-	farwritetext ElmPhoneEvoText_Pikachu
+.EvolveEKikuri:
+	farwritetext ElmPhoneEvoText_EKikuri
 	end
 .EvolveGloom:
 	farwritetext ElmPhoneEvoText_Gloom

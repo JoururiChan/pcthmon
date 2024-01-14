@@ -37,30 +37,30 @@ ReadTrainerParty:
 	ld [wCurForm], a
 	ld b, a
 
-; NPC trainers should appear to have Kantonian Arbok in Kanto,
+; NPC trainers should appear to have Kantonian Kikuri in Kanto,
 ; so form 0 becomes 1 (Johto) or 2 (Kanto), non-zero forms remain unchanged
-	assert !HIGH(ARBOK)
+	assert !HIGH(KIKURI)
 	and SPECIESFORM_MASK
-	jr nz, .not_arbok
+	jr nz, .not_kikuri
 	ld a, c
-	cp LOW(ARBOK)
-	jr nz, .not_arbok
+	cp LOW(KIKURI)
+	jr nz, .not_kikuri
 
 	push bc
 	call RegionCheck
 	ld a, e
 	pop bc
 	and a
-	assert ARBOK_JOHTO_FORM == ARBOK_KANTO_FORM - 1
-	ld c, ARBOK_KANTO_FORM
-	jr nz, .got_arbok_form
+	assert KIKURI_JOHTO_FORM == KIKURI_KANTO_FORM - 1
+	ld c, KIKURI_KANTO_FORM
+	jr nz, .got_kikuri_form
 	dec c
-.got_arbok_form
+.got_kikuri_form
 	ld a, b
 	or c
 	ld [wCurForm], a
 
-.not_arbok
+.not_kikuri
 	ld a, OTPARTYMON
 	ld [wMonType], a
 

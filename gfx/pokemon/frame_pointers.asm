@@ -22,9 +22,9 @@ FramesPointers:
 	dw CElisPlainFrames
 	dw ElisFrames
 	dw EElisFrames
-	dw EkansFrames
-	dw ArbokJohtoFrames
-	dw PikachuPlainFrames
+	dw CKikuriFrames
+	dw KikuriJohtoFrames
+	dw EKikuriPlainFrames
 	dw RaichuPlainFrames
 	dw SandshrewPlainFrames
 	dw SandslashPlainFrames
@@ -321,16 +321,16 @@ FramesPointers:
 	dw UnownExclamationFrames
 	dw UnownQuestionFrames
 
-	dw ArbokKantoFrames
-	dw ArbokKogaFrames
-	dw ArbokAgathaFrames
-	dw ArbokArianaFrames
+	dw KikuriKantoFrames
+	dw KikuriKogaFrames
+	dw KikuriAgathaFrames
+	dw KikuriArianaFrames
 
-	dw PikachuFlyFrames
-	dw PikachuSurfFrames
-	dw PikachuPikaFrames
-	dw PikachuChuchuFrames
-	dw PikachuSparkFrames
+	dw EKikuriFlyFrames
+	dw EKikuriSurfFrames
+	dw EKikuriPikaFrames
+	dw EKikuriChuchuFrames
+	dw EKikuriSparkFrames
 
 	dw PichuSpikyFrames
 

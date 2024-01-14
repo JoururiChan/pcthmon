@@ -1,17 +1,17 @@
-	db  35,  60,  44,  55,  40,  54 ; 288 BST
+	db  55,  25,  65,  22,  65,  65 ; 288 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db POISON, POISON ; type
-	db 255 ; catch rate
-	db 62 ; base exp
+	db PSYCHIC, ROCK ; type
+	db 100 ; catch rate
+	db 110 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for EKANS, INTIMIDATE, SHED_SKIN, UNNERVE
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_DRAGON ; egg groups
+	abilities_for CKIKURI, LEVITATE, LEVITATE, LEVITATE
+	db GROWTH_FAST ; growth rate
+	dn EGG_MINERAL, EGG_INDETERMINATE ; egg groups
 
-	ev_yield 1 Atk
+	ev_yield 1 Def
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, BULK_UP, HIDDEN_POWER, SUNNY_DAY, PROTECT, RAIN_DANCE, GIGA_DRAIN, BULLDOZE, IRON_TAIL, EARTHQUAKE, RETURN, DIG, DOUBLE_TEAM, SLUDGE_BOMB, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROCK_SLIDE, LEECH_LIFE, DARK_PULSE, POISON_JAB, STRENGTH, AQUA_TAIL, BODY_SLAM, DOUBLE_EDGE, ENDURE, HEADBUTT, SEED_BOMB, SLEEP_TALK, SWAGGER

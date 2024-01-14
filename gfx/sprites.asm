@@ -503,8 +503,8 @@ MewSpriteGFX:: INCBIN "gfx/sprites/mew.2bpp.lz"
 SECTION "CelebiSpriteGFX", ROMX
 CelebiSpriteGFX:: INCBIN "gfx/sprites/celebi.2bpp.lz"
 
-SECTION "SurfingPikachuSpriteGFX", ROMX
-SurfingPikachuSpriteGFX:: INCBIN "gfx/sprites/surf_pikachu.2bpp.lz"
+SECTION "SurfingEKikuriSpriteGFX", ROMX
+SurfingEKikuriSpriteGFX:: INCBIN "gfx/sprites/surf_ekikuri.2bpp.lz"
 
 SECTION "ArmoredMewtwoSpriteGFX", ROMX
 ArmoredMewtwoSpriteGFX:: INCBIN "gfx/sprites/armored_mewtwo.2bpp.lz"

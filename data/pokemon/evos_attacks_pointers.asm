@@ -26,9 +26,9 @@ EvosAttacksPointers::
 	dw CElisPlainEvosAttacks
 	dw ElisEvosAttacks
 	dw EElisEvosAttacks
-	dw EkansEvosAttacks
-	dw ArbokEvosAttacks
-	dw PikachuEvosAttacks
+	dw CKikuriEvosAttacks
+	dw KikuriEvosAttacks
+	dw EKikuriEvosAttacks
 	dw RaichuPlainEvosAttacks
 	dw SandshrewPlainEvosAttacks
 	dw SandslashPlainEvosAttacks

@@ -1,22 +1,17 @@
-if DEF(FAITHFUL)
-	db  55,  81,  60,  97,  50,  70 ; 413 BST
+	db  40,  58,  40,  60,  65,  45 ; 443 BST
 	;   hp  atk  def  spe  sat  sdf
-else
-	db  65,  91,  60, 107,  50,  70 ; 443 BST
-	;   hp  atk  def  spe  sat  sdf
-endc
 
-	db NORMAL, NORMAL ; type
-	db 90 ; catch rate
-	db 116 ; base exp
+	db DARK, DARK ; type
+	db 140 ; catch rate
+	db 98 ; base exp
 	db NO_ITEM, LANSAT_BERRY ; held items
-	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for CELIS, RUN_AWAY, GUTS, HUSTLE
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for CELIS, PRESSURE, PRESSURE, PRESSURE
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_MONSTER, EGG_FLYING ; egg groups
 
-	ev_yield 2 Spe
+	ev_yield 1 SAt
 
 	; tm/hm learnset
 	tmhm CURSE, ROAR, TOXIC, HIDDEN_POWER, SUNNY_DAY, ICE_BEAM, BLIZZARD, MASTER_SPARK, PROTECT, RAIN_DANCE, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, SHADOW_BALL, ROCK_SMASH, DOUBLE_TEAM, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, BLAZE_STAR, GIGA_IMPACT, U_TURN, THUNDER_WAVE, SWORDS_DANCE, CUT, STRENGTH, BODY_SLAM, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, ENDURE, HEADBUTT, ICY_WIND, SLEEP_TALK, SUCKER_PUNCH, SWAGGER, ZEN_HEADBUTT

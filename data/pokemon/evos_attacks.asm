@@ -381,7 +381,6 @@ EMimaEvosAttacks:
 	db -1 ; no more level-up moves
 
 EMimaAlolanEvosAttacks:
-	evo_data EVOLVE_LEVEL, 20, CELIS, ALOLAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER ; Tail Whip → similar move
@@ -400,17 +399,16 @@ EMimaAlolanEvosAttacks:
 
 CElisPlainEvosAttacks:
 CElisAlolanEvosAttacks:
+	evo_data EVOLVE_LEVEL, 26, ELIS
 	db -1 ; no more evolutions
-	db 1, SCARY_FACE ; evolution move
-	db 1, SWORDS_DANCE
-	db 1, TACKLE
-	db 1, LEER ; Tail Whip → similar move
-	db 4, QUICK_ATTACK
-	db 7, FOCUS_ENERGY
-	db 10, BITE
-	db 13, PURSUIT
-	db 16, HYPER_FANG
-	db 19, SUCKER_PUNCH
+	db 1, ASTONISH
+	db 1, SAFEGUARD ; Tail Whip → similar move
+	db 6, GUST
+	db 9, PURSUIT
+	db 14, HEALINGLIGHT
+	db 18, WING_ATTACK
+	db 22, TRICK
+	db 25, SLEEP_POWDER
 	db 24, CRUNCH
 	db 29, FEINT_ATTACK ; Assurance → similar move
 	db 34, SUPER_FANG
@@ -419,20 +417,21 @@ CElisAlolanEvosAttacks:
 	db -1 ; no more level-up moves
 
 ElisEvosAttacks:
-	evo_data EVOLVE_LEVEL, 20, EELIS
+	evo_data EVOLVE_LEVEL, 47, EELIS
 	db -1 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL
+	db 1, ACROBATICS ; evo move
 	db 4, LEER
 	db 8, PURSUIT
 	db 11, FURY_STRIKES ; Fury Attack → similar move
 	db 15, AERIAL_ACE
 	db 18, SWIFT ; Mirror Move → TM move
-	db 22, FEINT_ATTACK ; Assurance → similar move
-	db 25, SAKUYA_WORLD
-	db 29, FOCUS_ENERGY
-	db 32, ROOST
-	db 36, DRILL_PECK
+	db 28, FEINT_ATTACK
+	db 32, VOLT_SWITCH
+	db 35, ROOST
+	db 40, ENERGY_LIGHT
+	db 44, STEEL_WING
 	db -1 ; no more level-up moves
 
 EElisEvosAttacks:
@@ -451,19 +450,22 @@ EElisEvosAttacks:
 	db 36, ROOST
 	db 41, DRILL_PECK
 	db 45, DOUBLE_EDGE ; Drill Run → tutor move
+	db 49, SHADOW_HIT
+	db 52, HURRICANE
+	db 56, AEROBLAST
 	db -1 ; no more level-up moves
 
-EkansEvosAttacks:
-	evo_data EVOLVE_LEVEL, 22, ARBOK, NO_FORM ; preserve pre-evo form
+CKikuriEvosAttacks:
+	evo_data EVOLVE_LEVEL, 29, KIKURI
 	db -1 ; no more evolutions
-	db 1, WRAP
-	db 1, LEER
-	db 4, SEAL_NEEDLE
-	db 9, BITE
-	db 12, GLARE
-	db 17, SCREECH
-	db 20, ACID
-	db 25, DISABLE ; Stockpile + Spit Up + Swallow → egg move
+	db 1, PSYSHOT
+	db 1, DEFENSE_CURL
+	db 6, HEALINGLIGHT
+	db 10, SCREECH
+	db 14, ROCK_BLAST
+	db 19, PSYBEAM
+	db 23, HEX
+	db 27, REFLECT ; Stockpile + Spit Up + Swallow → egg move
 	db 28, PURSUIT ; Acid Spray → egg move
 	db 35, POISON_JAB ; Mud Bomb → TM move
 	db 36, LEECH_LIFE ; Gastro Acid → TM move
@@ -473,29 +475,27 @@ EkansEvosAttacks:
 	db 49, GUNK_SHOT
 	db -1 ; no more level-up moves
 
-ArbokEvosAttacks:
+KikuriEvosAttacks:
+	evo_data EVOLVE_LEVEL, 48, EKIKURI
 	db -1 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 1, CRUNCH ; evolution move
 	db 4, SEAL_NEEDLE
 	db 9, BITE
 	db 12, GLARE
 	db 17, SCREECH
 	db 20, ACID
 	db 27, DISABLE ; Stockpile + Spit Up + Swallow → egg move
-	db 32, PURSUIT ; Acid Spray → egg move
-	db 39, POISON_JAB ; Mud Bomb → TM move
-	db 44, LEECH_LIFE ; Gastro Acid → TM move
-	db 48, IRON_TAIL ; Belch → TM move
+	db 31, ANCIENTPOWER ; Acid Spray → egg move
+	db 35, LIGHT_SCREEN ; Mud Bomb → TM move
+	db 40, MOONBLAST ; Gastro Acid → TM move
+	db 44, POWER_GEM ; Belch → TM move
 	db 51, HAZE
 	db 56, BULK_UP ; Coil → TM move
 	db 63, GUNK_SHOT
 	db -1 ; no more level-up moves
 
-PikachuEvosAttacks:
-	evo_data EVOLVE_ITEM, THUNDERSTONE, RAICHU, PLAIN_FORM
-	evo_data EVOLVE_ITEM, ODD_SOUVENIR, RAICHU, ALOLAN_FORM
+EKikuriEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, LEER ; Tail Whip → similar move
@@ -512,9 +512,9 @@ PikachuEvosAttacks:
 	db 37, BODY_SLAM ; Slam → TM move
 	db 42, THUNDERBOLT
 	db 45, SAKUYA_WORLD
-	db 50, BLAZE_STAR
-	db 53, LIGHT_SCREEN
-	db 58, THUNDER
+	db 49, AURA_SPHERE
+	db 53, PSYCHIC_M
+	db 58, FOCUS_BLAST
 	db -1 ; no more level-up moves
 
 RaichuPlainEvosAttacks:
@@ -4084,7 +4084,7 @@ LanturnEvosAttacks:
 	db -1 ; no more level-up moves
 
 PichuEvosAttacks:
-	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
+	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, EKIKURI
 	db -1 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, CHARM

@@ -61,7 +61,7 @@ ElisEggMoves:
 	db TRI_ATTACK
 	db $ff
 
-EkansEggMoves:
+CKikuriEggMoves:
 	db CRUNCH
 	db DISABLE
 	db PURSUIT

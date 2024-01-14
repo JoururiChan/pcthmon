@@ -23,9 +23,9 @@ PokedexDataPointerTable:
 	dba CElisPlainPokedexEntry
 	dba ElisPokedexEntry
 	dba EElisPokedexEntry
-	dba EkansPokedexEntry
-	dba ArbokPokedexEntry
-	dba PikachuPokedexEntry
+	dba CKikuriPokedexEntry
+	dba KikuriPokedexEntry
+	dba EKikuriPokedexEntry
 	dba RaichuPlainPokedexEntry
 	dba SandshrewPlainPokedexEntry
 	dba SandslashPlainPokedexEntry

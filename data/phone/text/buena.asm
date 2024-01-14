@@ -249,14 +249,14 @@ BuenaPhoneRadioCardQuestionsText:
 	line "again!"
 	done
 
-BuenaPhonePikachuFanClubText:
+BuenaPhoneEKikuriFanClubText:
 	text "I'm elated that"
 	line "more people are"
 
 	para "taking part in my"
 	line "Password show."
 
-	para "But when Pikachu"
+	para "But when EKikuri"
 	line "was the password,"
 
 	para "it was uh… whew…"
@@ -266,7 +266,7 @@ BuenaPhonePikachuFanClubText:
 	line "came in out in"
 
 	para "droves, shouting"
-	line "“Pikachu!” over"
+	line "“EKikuri!” over"
 
 	para "and over. I mean,"
 	line "they were loud."

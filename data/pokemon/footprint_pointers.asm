@@ -22,9 +22,9 @@ FootprintPointers::
 	dw CElisFootprint
 	dw ElisFootprint
 	dw EElisFootprint
-	dw EkansFootprint
-	dw ArbokFootprint
-	dw PikachuFootprint
+	dw CKikuriFootprint
+	dw KikuriFootprint
+	dw EKikuriFootprint
 	dw RaichuFootprint
 	dw SandshrewFootprint
 	dw SandslashFootprint

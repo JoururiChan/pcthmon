@@ -143,10 +143,10 @@ FalknerGroup:
 		db NO_ITEM
 		ev_spread 32 HP
 		db TACKLE, HYPNOSIS, PECK, PSYSHOT
-	dbp 13, CMIMA
+	dbp 13, CELIS
 		db PECHA_BERRY
 		ev_spread 32 HP
-		db ASTONISH, CONFUSE_RAY, PSYSHOT, ROOST
+		db ASTONISH, GUST, PURSUIT, ROOST
 	db -1 ; end
 
 	; FALKNER
@@ -693,7 +693,7 @@ KogaGroup:
 	dbp 71, FORRETRESS, MALE
 		db SILK_SCARF, ABILITY_1 | NAT_NEUTRAL
 		db PROTECT, TOXIC, EXPLOSION, SPIKES
-	dbp 69, ARBOK, MALE | ARBOK_KOGA_FORM
+	dbp 69, KIKURI, MALE | KIKURI_KOGA_FORM
 		db SOFT_SAND, ABILITY_1 | NAT_NEUTRAL
 		db SLUDGE_BOMB, GLARE, EARTHQUAKE, SCREECH
 	dbp 70, MUK, MALE
@@ -1376,8 +1376,8 @@ RedGroup:
 	db "Red@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp 90, PIKACHU, MALE | PIKACHU_RED_FORM
-		db LIGHT_BALL, ABIL_PIKACHU_STATIC | NAT_SPE_UP_SDEF_DOWN
+	dbp 90, EKIKURI, MALE | EKIKURI_RED_FORM
+		db LIGHT_BALL, ABIL_EKIKURI_LEVITATE | NAT_SPE_UP_SDEF_DOWN
 		db THUNDERBOLT, SURF, IRON_TAIL, BLAZE_STAR
 	dbp 84, ESPEON, MALE
 		db TWISTEDSPOON, ABIL_ESPEON_MAGIC_BOUNCE | NAT_SATK_UP_ATK_DOWN
@@ -1444,7 +1444,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 4, CMIMA
+	dbp 4, CKIKURI
 		db NO_ITEM
 	dbp 5, CSAKUYA
 		db ORAN_BERRY
@@ -1454,7 +1454,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 4, CMIMA
+	dbp 4, CKIKURI
 		db NO_ITEM
 	dbp 5, CREIMU
 		db ORAN_BERRY
@@ -1464,7 +1464,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 4, CMIMA
+	dbp 4, CKIKURI
 		db NO_ITEM
 	dbp 5, CMARISA
 		db ORAN_BERRY
@@ -2234,7 +2234,7 @@ YoungsterGroup:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
 	dbp 25, CELIS, MALE
-		db ORAN_BERRY, FAKE_PERFECT_DVS, ABIL_CELIS_GUTS | NAT_ATK_UP_SATK_DOWN
+		db ORAN_BERRY, FAKE_PERFECT_DVS, ABIL_CELIS_PRESSURE | NAT_ATK_UP_SATK_DOWN
 		ev_spread 80 Atk, 80 Spe
 		db LEER, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
 	db -1 ; end
@@ -2244,7 +2244,7 @@ YoungsterGroup:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
 	dbp 30, CELIS, MALE
-		db SITRUS_BERRY, FAKE_PERFECT_DVS, ABIL_CELIS_GUTS | NAT_ATK_UP_SATK_DOWN
+		db SITRUS_BERRY, FAKE_PERFECT_DVS, ABIL_CELIS_PRESSURE | NAT_ATK_UP_SATK_DOWN
 		ev_spread 112 Atk, 112 Spe
 		db LEER, QUICK_ATTACK, HYPER_FANG, PURSUIT
 	db -1 ; end
@@ -2254,7 +2254,7 @@ YoungsterGroup:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
 	dbp 40, CELIS, MALE
-		db SITRUS_BERRY, FAKE_PERFECT_DVS, ABIL_CELIS_GUTS | NAT_ATK_UP_SATK_DOWN
+		db SITRUS_BERRY, FAKE_PERFECT_DVS, ABIL_CELIS_PRESSURE | NAT_ATK_UP_SATK_DOWN
 		ev_spread 160 Atk, 160 Spe
 		db MASTER_SPARK, QUICK_ATTACK, HYPER_FANG, PURSUIT
 	db -1 ; end
@@ -2295,7 +2295,7 @@ YoungsterGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 60, CELIS
-	dbp 60, ARBOK
+	dbp 60, KIKURI
 	dbp 60, PARASECT
 	db -1 ; end
 
@@ -2374,7 +2374,7 @@ BugCatcherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 2, CGYOKU
-	dbp 2, CGYOKU
+	dbp 2, CMARISA
 	dbp 3, CREIMU
 	dbp 2, CGYOKU
 	db -1 ; end
@@ -2384,8 +2384,8 @@ BugCatcherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 9, CMARISA
-	dbp 9, CMARISA
-	dbp 10, CMAGAN
+	dbp 9, CGYOKU
+	dbp 10, CGYOKU
 	dbp 9, CREIMU
 	db -1 ; end
 
@@ -2395,8 +2395,8 @@ BugCatcherGroup:
 	; party
 	dbp 14, CGYOKU
 	dbp 14, CGYOKU
-	dbp 15, CMAGAN
-	dbp 14, CGYOKU
+	dbp 15, CREIMU
+	dbp 14, CMARISA
 	db -1 ; end
 
 	; BUG_CATCHER
@@ -2478,8 +2478,8 @@ BugCatcherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 7, CREIMU
-	dbp 10, CMAGAN
-	dbp 12, CMAGAN
+	dbp 10, CGYOKU
+	dbp 12, CGYOKU
 	db -1 ; end
 
 	; BUG_CATCHER
@@ -2728,7 +2728,7 @@ PicnickerGroup:
 	db "Liz@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, NIDORAN_F
+	dbp 10, CELIS
 	db -1 ; end
 
 	; PICNICKER
@@ -2736,7 +2736,7 @@ PicnickerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 15, WEEPINBELL
-	dbp 15, NIDORINA
+	dbp 15, CELIS
 	db -1 ; end
 
 	; PICNICKER
@@ -3073,16 +3073,16 @@ TwinsGroup:
 	db "Day & Dani@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 51, PIKACHU
-	dbp 51, PIKACHU
+	dbp 51, EKIKURI
+	dbp 51, EKIKURI
 	db -1 ; end
 
 	; TWINS
 	db "Day & Dani@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 51, PIKACHU
-	dbp 51, PIKACHU
+	dbp 51, EKIKURI
+	dbp 51, EKIKURI
 	db -1 ; end
 
 	; TWINS
@@ -3109,14 +3109,14 @@ FisherGroup:
 	db "Ralph@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 11, GOLDEEN
+	dbp 11, CSANAE
 	db -1 ; end
 
 	; FISHER
 	db "Ralph@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, GOLDEEN
+	dbp 17, CSANAE
 	db -1 ; end
 
 	; FISHER
@@ -3511,18 +3511,18 @@ BirdKeeperGroup:
 	db "Abe@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, ELIS
+	dbp 9, CELIS
 	db -1 ; end
 
 	; BIRD_KEEPER
 	db "Theo@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, CREIMU
+	dbp 17, REIMU
 	dbp 16, HOOTHOOT
-	dbp 19, CMIMA
+	dbp 19, CELIS
 	dbp 17, HOOTHOOT
-	dbp 16, CREIMU
+	dbp 16, REIMU
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3538,9 +3538,9 @@ BirdKeeperGroup:
 	db "Denis@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, ELIS
-	dbp 20, EELIS
-	dbp 18, ELIS
+	dbp 18, CELIS
+	dbp 20, ELIS
+	dbp 18, CELIS
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3548,7 +3548,7 @@ BirdKeeperGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 13, CREIMU
-	dbp 56, MIMA
+	dbp 56, EREIMU
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3792,7 +3792,7 @@ HikerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 6, GEODUDE
-	dbp 8, GEODUDE
+	dbp 8, CKIKURI
 	dbp 10, GEODUDE
 	db -1 ; end
 
@@ -3904,7 +3904,7 @@ HikerGroup:
 	db "Daniel@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 12, ONIX
+	dbp 12, CGYOKU
 	db -1 ; end
 
 	; HIKER
@@ -4296,7 +4296,7 @@ GruntMGroup:
 	; party
 	dbp 25, GOLBAT
 	dbp 25, GOLBAT
-	dbp 30, ARBOK
+	dbp 30, KIKURI
 	db -1 ; end
 
 	; GRUNTM
@@ -4317,14 +4317,14 @@ GruntFGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 10, ZUBAT
-	dbp 12, EKANS
+	dbp 12, CKIKURI
 	db -1 ; end
 
 	; GRUNTF
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 35, ARBOK
+	dbp 35, KIKURI
 	db -1 ; end
 
 	; GRUNTF
@@ -4339,9 +4339,9 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 33, EKANS
+	dbp 33, CKIKURI
 	dbp 34, ODDISH
-	dbp 35, ARBOK
+	dbp 35, KIKURI
 	dbp 36, GLOOM
 	db -1 ; end
 
@@ -4349,7 +4349,7 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 29, ARBOK
+	dbp 29, KIKURI
 		db GLARE, SCREECH, ACID, CRUNCH
 	dbp 28, QWILFISH
 		db DEFENSE_CURL, MINIMIZE, WATER_GUN, ROLLOUT
@@ -4361,8 +4361,8 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 22, EKANS
-	dbp 23, ARBOK
+	dbp 22, CKIKURI
+	dbp 23, KIKURI
 	dbp 23, GLOOM
 	db -1 ; end
 
@@ -4374,7 +4374,7 @@ PokefanMGroup:
 	db "Derek@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 18, PIKACHU
+	dbp 18, CKIKURI
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4382,7 +4382,7 @@ PokefanMGroup:
 	db "Derek@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 19, PIKACHU
+	dbp 19, CKIKURI
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4390,7 +4390,7 @@ PokefanMGroup:
 	db "Derek@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 36, PIKACHU
+	dbp 36, EKIKURI
 		db SITRUS_BERRY
 	db -1 ; end
 
@@ -4414,17 +4414,17 @@ PokefanMGroup:
 	db "Joshua@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 54, PIKACHU
+	dbp 54, EKIKURI
 		db SITRUS_BERRY
-	dbp 54, PIKACHU
+	dbp 54, EKIKURI
 		db SITRUS_BERRY
-	dbp 54, PIKACHU
+	dbp 54, EKIKURI
 		db SITRUS_BERRY
-	dbp 54, PIKACHU
+	dbp 54, EKIKURI
 		db SITRUS_BERRY
-	dbp 54, PIKACHU
+	dbp 54, EKIKURI
 		db SITRUS_BERRY
-	dbp 54, PIKACHU
+	dbp 54, EKIKURI
 		db SITRUS_BERRY
 	db -1 ; end
 
@@ -4538,7 +4538,7 @@ PokefanFGroup:
 	db "Ruth@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 20, PIKACHU
+	dbp 20, CSANAE
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4562,7 +4562,7 @@ PokefanFGroup:
 	db "Jaime@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 16, MEOWTH
+	dbp 16, CLEIS
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4623,7 +4623,7 @@ OfficerFGroup:
 	db "Mara@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, GROWLITHE
+	dbp 17, CMARISA
 	db -1 ; end
 
 	; OFFICERF
@@ -4707,7 +4707,7 @@ PokemaniacGroup:
 	db "Larry@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 12, SLOWPOKE
+	dbp 12, CSANAE
 	db -1 ; end
 
 	; POKEMANIAC
@@ -4813,7 +4813,7 @@ CosplayerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp LEVEL_FROM_BADGES + 5, VULPIX
-	dbp LEVEL_FROM_BADGES + 5, PIKACHU
+	dbp LEVEL_FROM_BADGES + 5, EKIKURI
 	dbp LEVEL_FROM_BADGES + 5, VULPIX
 	db -1 ; end
 
@@ -4850,7 +4850,7 @@ SuperNerdGroup:
 	db "Eric@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 13, GRIMER
+	dbp 13, CKIKURI
 	dbp 14, PORYGON
 	db -1 ; end
 
@@ -5076,7 +5076,7 @@ endc
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 57, GLOOM
-	dbp 60, ARBOK
+	dbp 60, KIKURI
 	dbp 57, GLOOM
 	db -1 ; end
 
@@ -5246,7 +5246,7 @@ BeautyGroup:
 	; party
 	dbp 9, SENTRET
 	dbp 13, SENTRET
-	dbp 17, SENTRET
+	dbp 17, REIMU
 	db -1 ; end
 
 	; BEAUTY
@@ -5441,7 +5441,7 @@ BugManiacGroup:
 	; party
 	dbp 59, FGYOKU
 	dbp 59, MAGAN
-	dbp 59, PIKACHU
+	dbp 59, EKIKURI
 	db -1 ; end
 
 	; BUG_MANIAC
@@ -5560,7 +5560,7 @@ FirebreatherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 16, KOFFING
-	dbp 17, GROWLITHE
+	dbp 17, CMARISA
 	dbp 16, KOFFING
 	db -1 ; end
 
@@ -6007,7 +6007,7 @@ SchoolgirlGroup:
 		db "Turtle@"
 	dbp LEVEL_FROM_BADGES + 0, CREIMU
 		db "@"
-	dbp LEVEL_FROM_BADGES + 1, PIKACHU
+	dbp LEVEL_FROM_BADGES + 1, EKIKURI
 		db "@"
 	db -1 ; end
 
@@ -6548,7 +6548,7 @@ CoupleGroup:
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 15, MARILL, MALE
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp 15, PIKACHU, FEMALE
+	dbp 15, EKIKURI, FEMALE
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 13, POLIWAG, FEMALE
 		db ABILITY_1 | NAT_NEUTRAL
@@ -6558,7 +6558,7 @@ CoupleGroup:
 	db "Gail & Eli@"
 	db TRAINERTYPE_PERSONALITY
 	; party
-	dbp 15, PIKACHU, FEMALE
+	dbp 15, EKIKURI, FEMALE
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 13, POLIWAG, FEMALE
 		db ABILITY_1 | NAT_NEUTRAL
@@ -6711,7 +6711,7 @@ GentlemanGroup:
 	db "Gregory@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 56, PIKACHU
+	dbp 56, EKIKURI
 	dbp 53, FLAAFFY
 	dbp 53, CHINCHOU
 	db -1 ; end
@@ -6865,7 +6865,7 @@ BreederGroup:
 	; party
 	dbp LEVEL_FROM_BADGES + 2, PICHU
 		db EVIOLITE
-	dbp LEVEL_FROM_BADGES + 3, PIKACHU
+	dbp LEVEL_FROM_BADGES + 3, EKIKURI
 		db LIGHT_BALL
 	dbp LEVEL_FROM_BADGES + 4, RAICHU
 		db DESTINY_KNOT
@@ -8410,7 +8410,7 @@ GuitaristFGroup:
 	db "Janet@"
 	db TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp 56, PIKACHU, FEMALE | PIKACHU_SURF_FORM
+	dbp 56, EKIKURI, FEMALE | EKIKURI_SURF_FORM
 		db ABILITY_1 | NAT_NEUTRAL
 		db IRON_TAIL, EXTREMESPEED, SURF, THUNDERBOLT
 	dbp 54, ELECTABUZZ, FEMALE
@@ -8552,7 +8552,7 @@ BikerGroup:
 	db "Teddy@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 58, ARBOK
+	dbp 58, KIKURI
 	db -1 ; end
 
 	; BIKER
@@ -8590,7 +8590,7 @@ RoughneckGroup:
 	db "Markey@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 57, ARBOK
+	dbp 57, KIKURI
 	dbp 56, HOUNDOOM
 	db -1 ; end
 
@@ -8602,7 +8602,7 @@ TamerGroup:
 	db "Brett@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 8, ARBOK
+	dbp LEVEL_FROM_BADGES + 8, KIKURI
 	dbp LEVEL_FROM_BADGES + 8, TAUROS
 	dbp LEVEL_FROM_BADGES + 9, URSARING
 	db -1 ; end
@@ -9307,7 +9307,7 @@ endc
 	db "Joyce@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 37, PIKACHU
+	dbp 37, EKIKURI
 		db QUICK_ATTACK, DOUBLE_TEAM, THUNDERBOLT, THUNDER
 	dbp 38, ESAKUYA
 		db BITE, CURSE, SURF, RAIN_DANCE
@@ -9913,7 +9913,7 @@ ArianaGroup:
 	db "Ariana@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp 40, ARBOK, FEMALE | ARBOK_ARIANA_FORM
+	dbp 40, KIKURI, FEMALE | KIKURI_ARIANA_FORM
 		db POISON_BARB, ABILITY_1 | NAT_NEUTRAL
 		db GLARE, SCREECH, ACID, CRUNCH
 	dbp 41, GLOOM, FEMALE
@@ -9928,7 +9928,7 @@ ArianaGroup:
 	db "Ariana@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp 35, ARBOK, FEMALE | ARBOK_ARIANA_FORM
+	dbp 35, KIKURI, FEMALE | KIKURI_ARIANA_FORM
 		db BLACKGLASSES, ABILITY_1 | NAT_NEUTRAL
 		db WRAP, ACID, CRUNCH, GLARE
 	dbp 36, VILEPLUME, FEMALE
@@ -10188,7 +10188,7 @@ JessieJamesGroup:
 	; TODO: movesets, etc
 	dbp 26, WEEZING, MALE
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp 26, ARBOK, FEMALE | ARBOK_KANTO_FORM
+	dbp 26, KIKURI, FEMALE | KIKURI_KANTO_FORM
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 24, VICTREEBEL, FEMALE
 		db ABILITY_1 | NAT_NEUTRAL
@@ -10317,7 +10317,7 @@ else
 		ev_spread 108 Atk, 252 Spe
 		db SWORDS_DANCE, BONEMERANG, FIRE_PUNCH, SHADOW_HIT
 endc
-	dbp 63, ARBOK, FEMALE | ARBOK_AGATHA_FORM
+	dbp 63, KIKURI, FEMALE | KIKURI_AGATHA_FORM
 		db KINGS_ROCK, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 108 SAt, 252 Spe
 		db SLUDGE_BOMB, GLARE, CRUNCH, BODY_SLAM
@@ -10349,7 +10349,7 @@ else
 		db THICK_CLUB, ABILITY_1 | NAT_NEUTRAL
 		db SWORDS_DANCE, BONEMERANG, ROCK_SMASH, SHADOW_HIT
 endc
-	dbp 74, ARBOK, FEMALE | ARBOK_AGATHA_FORM
+	dbp 74, KIKURI, FEMALE | KIKURI_AGATHA_FORM
 		db KINGS_ROCK, ABILITY_1 | NAT_NEUTRAL
 		db SLUDGE_BOMB, GLARE, CRUNCH, BODY_SLAM
 	dbp 75, GENGAR, FEMALE
@@ -10803,7 +10803,7 @@ SparkGroup:
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 	dbp 61, SNORLAX, MALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
-	dbp 64, PIKACHU, MALE | PIKACHU_SPARK_FORM
+	dbp 64, EKIKURI, MALE | EKIKURI_SPARK_FORM
 		db LIGHT_BALL, ABILITY_1 | NAT_NEUTRAL
 	dbp 65, ZAPDOS, MALE
 		db MAGNET, ABILITY_1 | NAT_NEUTRAL
@@ -11148,8 +11148,8 @@ VictorGroup:
 	db "Victor@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_NICKNAME | TRAINERTYPE_MOVES
 	; party
-	dbp 69, PIKACHU, MALE | PIKACHU_SURF_FORM
-		db LIGHT_BALL, ABIL_PIKACHU_STATIC | NAT_SATK_UP_ATK_DOWN, "Puka@"
+	dbp 69, EKIKURI, MALE | EKIKURI_SURF_FORM
+		db LIGHT_BALL, ABIL_EKIKURI_LEVITATE | NAT_SATK_UP_ATK_DOWN, "Puka@"
 		db SURF, THUNDERBOLT, THUNDER_WAVE, EXTREMESPEED
 	db -1 ; end
 
@@ -11209,8 +11209,8 @@ YellowGroup:
 		db SITRUS_BERRY, ABIL_OMANYTE_SHELL_ARMOR | NAT_NEUTRAL, "Omny@"
 		ev_spread 240 HP
 		db SURF, PROTECT, ANCIENTPOWER, AURORA_BEAM
-	dbp LEVEL_FROM_BADGES + 8, PIKACHU, FEMALE | PIKACHU_YELLOW_FORM
-		db LIGHT_BALL, ABIL_PIKACHU_STATIC | NAT_SPE_UP_DEF_DOWN, "Chuchu@"
+	dbp LEVEL_FROM_BADGES + 8, EKIKURI, FEMALE | EKIKURI_YELLOW_FORM
+		db LIGHT_BALL, ABIL_EKIKURI_LEVITATE | NAT_SPE_UP_DEF_DOWN, "Chuchu@"
 		ev_spread 240 SAt
 		db SURF, FLY, THUNDERBOLT, QUICK_ATTACK
 	db -1 ; end
@@ -11223,7 +11223,7 @@ YellowGroup:
 		db WISE_GLASSES, ABIL_OMASTAR_SHELL_ARMOR | NAT_NEUTRAL, "Omny@"
 		db SCALD, ANCIENTPOWER, SPIKES, ICE_BEAM
 	dbp 73, CELIS, FEMALE
-		db KINGS_ROCK, ABIL_CELIS_GUTS | NAT_ATK_UP_SATK_DOWN, "Ratty@"
+		db KINGS_ROCK, ABIL_CELIS_PRESSURE | NAT_ATK_UP_SATK_DOWN, "Ratty@"
 		db SWORDS_DANCE, QUICK_ATTACK, SUPER_FANG, CRUNCH
 	dbp 71, FGYOKU, FEMALE
 		db BRIGHTPOWDER, ABIL_FGYOKU_PRESSURE | NAT_SATK_UP_ATK_DOWN, "Free@"
@@ -11234,8 +11234,8 @@ YellowGroup:
 	dbp 73, GOLEM, FEMALE
 		db MUSCLE_BAND, ABIL_GOLEM_STURDY | NAT_ATK_UP_SATK_DOWN, "Gravvy@"
 		db ROLLOUT, DEFENSE_CURL, EARTHQUAKE, STONE_EDGE
-	dbp 75, PIKACHU, FEMALE | PIKACHU_YELLOW_FORM
-		db LIGHT_BALL, ABIL_PIKACHU_STATIC | NAT_SPE_UP_DEF_DOWN, "Chuchu@"
+	dbp 75, EKIKURI, FEMALE | EKIKURI_YELLOW_FORM
+		db LIGHT_BALL, ABIL_EKIKURI_LEVITATE | NAT_SPE_UP_DEF_DOWN, "Chuchu@"
 		db SURF, FLY, THUNDERBOLT, EXTREMESPEED
 	db -1 ; end
 

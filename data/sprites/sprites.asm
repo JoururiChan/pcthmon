@@ -175,7 +175,7 @@ SpriteHeaders:
 	overworld_sprite DragoniteSpriteGFX, WALKING_SPRITE, PAL_OW_ORANGE
 	overworld_sprite MewSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite CelebiSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite SurfingPikachuSpriteGFX, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite SurfingEKikuriSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite ArmoredMewtwoSpriteGFX, WALKING_SPRITE, PAL_OW_GRAY
 	overworld_sprite BigSnorlaxSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BigLaprasSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE

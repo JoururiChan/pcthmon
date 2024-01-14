@@ -992,11 +992,11 @@ Cry_CGyoku:
 	channel 6, Cry_CGyoku_Ch6
 	channel 8, Cry_CGyoku_Ch8
 
-Cry_Ekans:
+Cry_CKikuri:
 	channel_count 3
-	channel 5, Cry_Ekans_Ch5
-	channel 6, Cry_Ekans_Ch6
-	channel 8, Cry_Ekans_Ch8
+	channel 5, Cry_CKikuri_Ch5
+	channel 6, Cry_CKikuri_Ch6
+	channel 8, Cry_CKikuri_Ch8
 
 Cry_Shellder:
 	channel_count 3
@@ -1843,7 +1843,7 @@ Cry_OGyoku_Ch8:
 	noise_note 8, 11, 1, 108
 	sound_ret
 
-Cry_Ekans_Ch5:
+Cry_CKikuri_Ch5:
 	duty_cycle_pattern 0, 0, 3, 3
 	square_note 15, 15, 7, 1280
 	square_note 15, 14, 7, 1288
@@ -1851,7 +1851,7 @@ Cry_Ekans_Ch5:
 	square_note 15, 10, 2, 1120
 	sound_ret
 
-Cry_Ekans_Ch6:
+Cry_CKikuri_Ch6:
 	duty_cycle_pattern 1, 0, 1, 0
 	square_note 14, 13, 7, 1153
 	square_note 14, 12, 7, 1161
@@ -1859,7 +1859,7 @@ Cry_Ekans_Ch6:
 	square_note 15, 12, 2, 993
 	sound_ret
 
-Cry_Ekans_Ch8:
+Cry_CKikuri_Ch8:
 	noise_note 14, 15, 7, 124
 	noise_note 12, 15, 6, 108
 	noise_note 9, 14, 4, 124

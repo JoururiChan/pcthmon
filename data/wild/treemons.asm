@@ -41,7 +41,7 @@ TreeMonSet_Canyon:
 
 TreeMonSet_Town:
 	tree_mon 65, ELIS,    10
-	tree_mon 15, EKANS,      10
+	tree_mon 15, CKIKURI,      10
 	tree_mon 20, AIPOM,      10
 	db -1
 	; rare
@@ -64,7 +64,7 @@ TreeMonSet_Route:
 
 TreeMonSet_Kanto:
 	tree_mon 65, HOOTHOOT,   10
-	tree_mon 15, EKANS,      10
+	tree_mon 15, CKIKURI,      10
 	tree_mon 20, EXEGGCUTE,  10
 	db -1
 	; rare
@@ -101,7 +101,7 @@ TreeMonSet_Forest:
 
 TreeMonSet_Apricorns:
 	tree_mon 50, ELIS,               10
-	tree_mon 20, EKANS,                 10
+	tree_mon 20, CKIKURI,                 10
 	tree_mon 20, AIPOM,                 10
 	tree_mon 10, VOLTORB, HISUIAN_FORM, 10
 	db -1

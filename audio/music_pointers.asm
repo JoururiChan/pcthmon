@@ -68,7 +68,7 @@ Music:
 	dba Music_Route47HGSS
 	dba Music_LookJessieJames
 	dba Music_SafariZoneGateHGSS
-	dba Music_SurfingPikachu
+	dba Music_SurfingEKikuri
 	dba Music_LakeOfRage
 	dba Music_StarkMountainDPPt
 	dba Music_LakeOfRageRocketRadio

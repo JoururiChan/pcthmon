@@ -89,6 +89,6 @@ LyrasHousePCText:
 
 LyrasHouseN64Text:
 	text "It's a limited-"
-	line "edition Pikachu"
+	line "edition EKikuri"
 	cont "N64!"
 	done

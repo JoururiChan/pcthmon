@@ -36,7 +36,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Money loss formula from Gen V.
 * Shiny Tohomon now have an odd Attack DV, 2, 3, 7, or 11 Defense, 5 or 13 Speed, and a perfect 15 Special; so 1 in 1,024 Tohomon is shiny.
 * Type-enhancing items raise by 20%, not 10%.
-* Light Ball doubles Pikachu's Attack as well as Special Attack.
+* Light Ball doubles EKikuri's Attack as well as Special Attack.
 * Critical hits do 150% damage, not 200%, but are more likely.
 * Electric-type Tohomon are immune to paralysis, even from Tri Attack.
 * Ice-type Tohomon are immune to freezing, even from Tri Attack.
@@ -224,7 +224,7 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * Unown isn't the only Tohomon with variant forms…
 * Color-coded starter Poké Balls.
 * Item balls for TMs are blue (inspired by Gen VI's yellow).
-* Surfing on Pikachu uses the minigame music from Yellow version.
+* Surfing on EKikuri uses the minigame music from Yellow version.
 
 
 ## More Tweaks

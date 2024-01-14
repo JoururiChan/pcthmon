@@ -1,4 +1,4 @@
-; Unique icons by Blue Emerald, Soloo993, Chamber, Lake, Neslug, Pikachu253, and Ryta
+; Unique icons by Blue Emerald, Soloo993, Chamber, Lake, Neslug, EKikuri253, and Ryta
 ; http://www.pokecommunity.com/showthread.php?t=338470
 
 SECTION "CReimu Mini Icon", ROMX
@@ -97,40 +97,40 @@ EMimaMiniMask:: INCBIN "gfx/minis/rattata_mask.1bpp.lz"
 EMimaIcon::     INCBIN "gfx/icons/rattata.2bpp.lz"
 
 SECTION "CElis Mini Icon", ROMX
-CElisMini::     INCBIN "gfx/minis/raticate.2bpp.lz"
-CElisMiniMask:: INCBIN "gfx/minis/raticate_mask.1bpp.lz"
-CElisIcon::     INCBIN "gfx/icons/raticate.2bpp.lz"
+CElisMini::     INCBIN "gfx/minis/celis.2bpp.lz"
+CElisMiniMask:: INCBIN "gfx/minis/celis_mask.1bpp.lz"
+CElisIcon::     INCBIN "gfx/icons/celis.2bpp.lz"
 
 SECTION "Elis Mini Icon", ROMX
-ElisMini::     INCBIN "gfx/minis/spearow.2bpp.lz"
-ElisMiniMask:: INCBIN "gfx/minis/spearow_mask.1bpp.lz"
-ElisIcon::     INCBIN "gfx/icons/spearow.2bpp.lz"
+ElisMini::     INCBIN "gfx/minis/elis.2bpp.lz"
+ElisMiniMask:: INCBIN "gfx/minis/elis_mask.1bpp.lz"
+ElisIcon::     INCBIN "gfx/icons/elis.2bpp.lz"
 
 SECTION "EElis Mini Icon", ROMX
-EElisMini::     INCBIN "gfx/minis/fearow.2bpp.lz"
-EElisMiniMask:: INCBIN "gfx/minis/fearow_mask.1bpp.lz"
-EElisIcon::     INCBIN "gfx/icons/fearow.2bpp.lz"
+EElisMini::     INCBIN "gfx/minis/eelis.2bpp.lz"
+EElisMiniMask:: INCBIN "gfx/minis/eelis_mask.1bpp.lz"
+EElisIcon::     INCBIN "gfx/icons/eelis.2bpp.lz"
 
-SECTION "Ekans Mini Icon", ROMX
-EkansMini::     INCBIN "gfx/minis/ekans.2bpp.lz"
-EkansMiniMask:: INCBIN "gfx/minis/ekans_mask.1bpp.lz"
-EkansIcon::     INCBIN "gfx/icons/ekans.2bpp.lz"
+SECTION "CKikuri Mini Icon", ROMX
+CKikuriMini::     INCBIN "gfx/minis/ckikuri.2bpp.lz"
+CKikuriMiniMask:: INCBIN "gfx/minis/ckikuri_mask.1bpp.lz"
+CKikuriIcon::     INCBIN "gfx/icons/ckikuri.2bpp.lz"
 
-SECTION "Arbok Mini Icon", ROMX
-ArbokMini::     INCBIN "gfx/minis/arbok.2bpp.lz"
-ArbokMiniMask:: INCBIN "gfx/minis/arbok_mask.1bpp.lz"
-ArbokIcon::     INCBIN "gfx/icons/arbok.2bpp.lz"
+SECTION "Kikuri Mini Icon", ROMX
+KikuriMini::     INCBIN "gfx/minis/kikuri.2bpp.lz"
+KikuriMiniMask:: INCBIN "gfx/minis/kikuri_mask.1bpp.lz"
+KikuriIcon::     INCBIN "gfx/icons/kikuri.2bpp.lz"
 
-SECTION "Pikachu Mini Icon", ROMX
-PikachuMini::         INCBIN "gfx/minis/pikachu.2bpp.lz"
-PikachuFlyMini::      INCBIN "gfx/minis/pikachu_fly.2bpp.lz"
-PikachuSurfMini::     INCBIN "gfx/minis/pikachu_surf.2bpp.lz"
-PikachuMiniMask::     INCBIN "gfx/minis/pikachu_mask.1bpp.lz"
-PikachuFlyMiniMask::  INCBIN "gfx/minis/pikachu_fly_mask.1bpp.lz"
-PikachuSurfMiniMask:: INCBIN "gfx/minis/pikachu_surf_mask.1bpp.lz"
-PikachuIcon::
-PikachuFlyIcon::
-PikachuSurfIcon::     INCBIN "gfx/icons/pikachu.2bpp.lz"
+SECTION "EKikuri Mini Icon", ROMX
+EKikuriMini::         INCBIN "gfx/minis/ekikuri.2bpp.lz"
+EKikuriFlyMini::      INCBIN "gfx/minis/ekikuri_fly.2bpp.lz"
+EKikuriSurfMini::     INCBIN "gfx/minis/ekikuri_surf.2bpp.lz"
+EKikuriMiniMask::     INCBIN "gfx/minis/ekikuri_mask.1bpp.lz"
+EKikuriFlyMiniMask::  INCBIN "gfx/minis/ekikuri_fly_mask.1bpp.lz"
+EKikuriSurfMiniMask:: INCBIN "gfx/minis/ekikuri_surf_mask.1bpp.lz"
+EKikuriIcon::
+EKikuriFlyIcon::
+EKikuriSurfIcon::     INCBIN "gfx/icons/ekikuri.2bpp.lz"
 
 SECTION "Raichu Mini Icon", ROMX
 RaichuMini::     INCBIN "gfx/minis/raichu.2bpp.lz"
@@ -1608,9 +1608,9 @@ EMimaAlolanMiniMask:: INCBIN "gfx/minis/rattata_alolan_mask.1bpp.lz"
 EMimaAlolanIcon::     INCBIN "gfx/icons/rattata_alolan.2bpp.lz"
 
 SECTION "CElisAlolan Mini Icon", ROMX
-CElisAlolanMini::     INCBIN "gfx/minis/raticate_alolan.2bpp.lz"
-CElisAlolanMiniMask:: INCBIN "gfx/minis/raticate_alolan_mask.1bpp.lz"
-CElisAlolanIcon::     INCBIN "gfx/icons/raticate_alolan.2bpp.lz"
+CElisAlolanMini::     INCBIN "gfx/minis/celis_alolan.2bpp.lz"
+CElisAlolanMiniMask:: INCBIN "gfx/minis/celis_alolan_mask.1bpp.lz"
+CElisAlolanIcon::     INCBIN "gfx/icons/celis_alolan.2bpp.lz"
 
 SECTION "RaichuAlolan Mini Icon", ROMX
 RaichuAlolanMini::     INCBIN "gfx/minis/raichu_alolan.2bpp.lz"

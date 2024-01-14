@@ -15,9 +15,9 @@ MACRO multi_evo
 ENDM
 
 MultipleEvolutions:
-	multi_evo PIKACHU
-	multi_evo PIKACHU, PIKACHU_FLY_FORM, EVOLVE_PIKACHU
-	multi_evo PIKACHU, PIKACHU_SURF_FORM, EVOLVE_PIKACHU
+	multi_evo EKIKURI
+	multi_evo EKIKURI, EKIKURI_FLY_FORM, EVOLVE_EKIKURI
+	multi_evo EKIKURI, EKIKURI_SURF_FORM, EVOLVE_EKIKURI
 	multi_evo GLOOM
 	multi_evo POLIWHIRL
 	multi_evo SLOWPOKE

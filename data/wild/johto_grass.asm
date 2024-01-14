@@ -538,7 +538,7 @@
 	wildmon 21, ZUBAT
 	wildmon 21, GOLBAT
 	wildmon 21, ZUBAT
-	wildmon 20, CELIS
+	wildmon 20, CKIKURI
 	wildmon 19, GEODUDE
 	wildmon 22, ONIX
 	wildmon 22, ONIX
@@ -546,7 +546,7 @@
 	wildmon 21, ZUBAT
 	wildmon 21, GOLBAT
 	wildmon 21, ZUBAT
-	wildmon 20, CELIS
+	wildmon 20, CKIKURI
 	wildmon 19, GEODUDE
 	wildmon 22, ONIX
 	wildmon 22, ONIX
@@ -554,7 +554,7 @@
 	wildmon 21, ZUBAT
 	wildmon 21, GOLBAT
 	wildmon 21, QUAGSIRE
-	wildmon 20, CELIS
+	wildmon 20, CKIKURI
 	wildmon 19, GEODUDE
 	wildmon 22, ONIX
 	wildmon 22, ONIX
@@ -566,7 +566,7 @@
 	wildmon 22, ZUBAT
 	wildmon 22, GOLBAT
 	wildmon 22, ZUBAT
-	wildmon 21, CELIS
+	wildmon 21, CKIKURI
 	wildmon 20, GEODUDE
 	wildmon 23, ONIX
 	wildmon 23, ONIX
@@ -574,7 +574,7 @@
 	wildmon 22, ZUBAT
 	wildmon 22, GOLBAT
 	wildmon 22, ZUBAT
-	wildmon 21, CELIS
+	wildmon 21, CKIKURI
 	wildmon 20, GEODUDE
 	wildmon 23, ONIX
 	wildmon 23, ONIX
@@ -582,7 +582,7 @@
 	wildmon 22, ZUBAT
 	wildmon 22, GOLBAT
 	wildmon 22, QUAGSIRE
-	wildmon 21, CELIS
+	wildmon 21, CKIKURI
 	wildmon 20, GEODUDE
 	wildmon 23, ONIX
 	wildmon 23, ONIX
@@ -678,7 +678,7 @@
 	wildmon 9, CGYOKU
 	wildmon 9, CREIMU
 	wildmon 10, CMARISA
-	wildmon 10, CMAGAN
+	wildmon 10, CELIS
 	wildmon 10, CREIMU
 	wildmon 9, PARAS
 	wildmon 10, PARAS
@@ -686,7 +686,7 @@
 	wildmon 9, CGYOKU
 	wildmon 9, CREIMU
 	wildmon 10, CMARISA
-	wildmon 10, CMAGAN
+	wildmon 10, CELIS
 	wildmon 9, PARAS
 	wildmon 8, ODDISH
 	wildmon 10, CREIMU
@@ -1431,7 +1431,7 @@
 	def_grass_wildmons ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 5, EKANS, ARBOK_JOHTO_FORM
+	wildmon 5, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon 6, CSANAE
 	wildmon 8, BELLSPROUT
 	wildmon 7, MAREEP
@@ -1439,7 +1439,7 @@
 	wildmon 7, HOPPIP
 	wildmon 8, HOPPIP
 	; day
-	wildmon 5, EKANS, ARBOK_JOHTO_FORM
+	wildmon 5, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon 6, CSANAE
 	wildmon 8, BELLSPROUT
 	wildmon 7, MAREEP
@@ -1463,7 +1463,7 @@
 	wildmon 9, ELIS
 	wildmon 9, GEODUDE
 	wildmon 10, HOPPIP
-	wildmon 10, EKANS, ARBOK_JOHTO_FORM
+	wildmon 10, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon 9, SUNKERN
 	wildmon 10, SUNKERN
 	; day
@@ -1471,7 +1471,7 @@
 	wildmon 9, ELIS
 	wildmon 9, GEODUDE
 	wildmon 10, HOPPIP
-	wildmon 10, EKANS, ARBOK_JOHTO_FORM
+	wildmon 10, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon 9, SUNKERN
 	wildmon 10, SUNKERN
 	; nite
@@ -1489,7 +1489,7 @@
 	; morn
 	wildmon 12, SNUBBULL
 	wildmon 12, CMIMA
-	wildmon 13, CMAGAN
+	wildmon 13, CELIS
 	wildmon 10, ABRA
 	wildmon 13, JIGGLYPUFF
 	wildmon 10, DITTO
@@ -1497,7 +1497,7 @@
 	; day
 	wildmon 12, SNUBBULL
 	wildmon 12, CMIMA
-	wildmon 13, CMAGAN
+	wildmon 13, CELIS
 	wildmon 10, ABRA
 	wildmon 13, JIGGLYPUFF
 	wildmon 10, DITTO
@@ -1508,7 +1508,7 @@
 	wildmon 13, HOOTHOOT
 	wildmon 10, ABRA
 	wildmon 13, JIGGLYPUFF
-	wildmon 10, DITTO
+	wildmon 10, CELIS
 	wildmon 10, DITTO
 	end_grass_wildmons
 
@@ -1516,7 +1516,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 13, SNUBBULL
-	wildmon 14, CMAGAN
+	wildmon 14, CKIKURI
 	wildmon 14, NIDORAN_F
 	wildmon 14, NIDORAN_M
 	wildmon 12, JIGGLYPUFF
@@ -1524,7 +1524,7 @@
 	wildmon 13, YANMA
 	; day
 	wildmon 13, SNUBBULL
-	wildmon 14, CMAGAN
+	wildmon 14, CKIKURI
 	wildmon 14, NIDORAN_M
 	wildmon 14, NIDORAN_F
 	wildmon 12, JIGGLYPUFF
@@ -1532,7 +1532,7 @@
 	wildmon 13, YANMA
 	; nite
 	wildmon 13, DROWZEE
-	wildmon 14, HOOTHOOT
+	wildmon 14, CKIKURI
 	wildmon 14, PSYDUCK
 	wildmon 14, HOOTHOOT
 	wildmon 12, JIGGLYPUFF
@@ -1655,20 +1655,20 @@
 	def_grass_wildmons ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 20, EKANS, ARBOK_JOHTO_FORM
+	wildmon 20, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon 22, MANKEY
 	wildmon 22, EMIMA
 	wildmon 23, CELIS
 	wildmon 21, ELIS
-	wildmon 24, ARBOK, ARBOK_JOHTO_FORM
+	wildmon 24, KIKURI, KIKURI_JOHTO_FORM
 	wildmon 24, PRIMEAPE
 	; day
-	wildmon 20, EKANS, ARBOK_JOHTO_FORM
+	wildmon 20, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon 22, MANKEY
 	wildmon 22, EMIMA
 	wildmon 23, CELIS
 	wildmon 21, ELIS
-	wildmon 24, ARBOK, ARBOK_JOHTO_FORM
+	wildmon 24, KIKURI, KIKURI_JOHTO_FORM
 	wildmon 24, PRIMEAPE
 	; nite
 	wildmon 20, EMIMA
@@ -1881,7 +1881,7 @@
 	; morn
 	wildmon 69, TANGELA
 	wildmon 70, PONYTA
-	wildmon 71, ARBOK ; randomly Kanto or Johto form
+	wildmon 71, KIKURI ; randomly Kanto or Johto form
 	wildmon 74, RAPIDASH
 	wildmon 73, DODRIO
 	wildmon 75, SKARMORY
@@ -1889,7 +1889,7 @@
 	; day
 	wildmon 69, TANGELA
 	wildmon 70, PONYTA
-	wildmon 71, ARBOK ; randomly Kanto or Johto form
+	wildmon 71, KIKURI ; randomly Kanto or Johto form
 	wildmon 74, RAPIDASH
 	wildmon 73, DODRIO
 	wildmon 75, SKARMORY
@@ -1935,7 +1935,7 @@
 	def_grass_wildmons CHERRYGROVE_BAY
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon LEVEL_FROM_BADGES - 1, SENTRET
 	wildmon LEVEL_FROM_BADGES + 1, CGYOKU
 	wildmon LEVEL_FROM_BADGES + 0, MAREEP
@@ -1943,7 +1943,7 @@
 	wildmon LEVEL_FROM_BADGES + 0, SUNKERN
 	wildmon LEVEL_FROM_BADGES + 1, SUNKERN
 	; day
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon LEVEL_FROM_BADGES - 1, SENTRET
 	wildmon LEVEL_FROM_BADGES + 1, CGYOKU
 	wildmon LEVEL_FROM_BADGES + 0, MAREEP
@@ -1963,7 +1963,7 @@
 	def_grass_wildmons ROUTE_32_COAST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon LEVEL_FROM_BADGES + 1, CELIS
 	wildmon LEVEL_FROM_BADGES - 1, BELLSPROUT
 	wildmon LEVEL_FROM_BADGES - 1, MAREEP
@@ -1971,7 +1971,7 @@
 	wildmon LEVEL_FROM_BADGES + 1, SKIPLOOM
 	wildmon LEVEL_FROM_BADGES + 3, SKIPLOOM
 	; day
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon LEVEL_FROM_BADGES + 1, CELIS
 	wildmon LEVEL_FROM_BADGES - 1, BELLSPROUT
 	wildmon LEVEL_FROM_BADGES - 1, MAREEP
@@ -1993,7 +1993,7 @@
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, SENTRET
 	wildmon LEVEL_FROM_BADGES + 0, SNUBBULL
-	wildmon LEVEL_FROM_BADGES - 4, PIKACHU
+	wildmon LEVEL_FROM_BADGES - 4, EKIKURI
 	wildmon LEVEL_FROM_BADGES - 2, LEDYBA
 	wildmon LEVEL_FROM_BADGES - 4, MARILL
 	wildmon LEVEL_FROM_BADGES - 3, MARILL
@@ -2001,7 +2001,7 @@
 	; day
 	wildmon LEVEL_FROM_BADGES - 2, SENTRET
 	wildmon LEVEL_FROM_BADGES + 0, SNUBBULL
-	wildmon LEVEL_FROM_BADGES - 4, PIKACHU
+	wildmon LEVEL_FROM_BADGES - 4, EKIKURI
 	wildmon LEVEL_FROM_BADGES - 2, PARAS
 	wildmon LEVEL_FROM_BADGES - 2, MARILL
 	wildmon LEVEL_FROM_BADGES - 3, MARILL
@@ -2132,7 +2132,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 1, WOOPER
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon LEVEL_FROM_BADGES + 0, GLOOM
 	wildmon LEVEL_FROM_BADGES + 1, CELIS
 	wildmon LEVEL_FROM_BADGES + 1, QUAGSIRE
@@ -2140,7 +2140,7 @@
 	wildmon LEVEL_FROM_BADGES + 3, YANMA
 	; day
 	wildmon LEVEL_FROM_BADGES - 1, WOOPER
-	wildmon LEVEL_FROM_BADGES - 2, EKANS, ARBOK_JOHTO_FORM
+	wildmon LEVEL_FROM_BADGES - 2, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon LEVEL_FROM_BADGES + 0, GLOOM
 	wildmon LEVEL_FROM_BADGES + 1, CELIS
 	wildmon LEVEL_FROM_BADGES + 1, QUAGSIRE

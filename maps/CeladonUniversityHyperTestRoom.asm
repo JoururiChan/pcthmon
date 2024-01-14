@@ -431,7 +431,7 @@ CeladonUniversityHyperTestRoomBookshelf2Text:
 	text "It's a copy of"
 	line "Nintendo Power!"
 
-	para "A Pikachu picture"
+	para "A EKikuri picture"
 	line "fills the front"
 	cont "cover."
 	done

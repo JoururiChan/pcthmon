@@ -26,9 +26,9 @@ MiniIconPointers:
 	mini_icon CElis
 	mini_icon Elis
 	mini_icon EElis
-	mini_icon Ekans
-	mini_icon Arbok
-	mini_icon Pikachu
+	mini_icon CKikuri
+	mini_icon Kikuri
+	mini_icon EKikuri
 	mini_icon Raichu
 	mini_icon Sandshrew
 	mini_icon Sandslash
@@ -325,16 +325,16 @@ MiniIconPointers:
 	mini_icon UnownExclamation
 	mini_icon UnownQuestion
 
-	mini_icon Arbok ; Kanto
-	mini_icon Arbok ; Koga
-	mini_icon Arbok ; Agatha
-	mini_icon Arbok ; Ariana
+	mini_icon Kikuri ; Kanto
+	mini_icon Kikuri ; Koga
+	mini_icon Kikuri ; Agatha
+	mini_icon Kikuri ; Ariana
 
-	mini_icon PikachuFly ; Fly
-	mini_icon PikachuSurf ; Surf
-	mini_icon Pikachu ; Pika
-	mini_icon Pikachu ; Chuchu
-	mini_icon Pikachu ; Spark
+	mini_icon EKikuriFly ; Fly
+	mini_icon EKikuriSurf ; Surf
+	mini_icon EKikuri ; Pika
+	mini_icon EKikuri ; Chuchu
+	mini_icon EKikuri ; Spark
 
 	mini_icon Pichu ; Spiky
 

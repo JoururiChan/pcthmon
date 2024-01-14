@@ -22,9 +22,9 @@ AnimationExtraPointers:
 	dw CElisPlainAnimationExtra
 	dw ElisAnimationExtra
 	dw EElisAnimationExtra
-	dw EkansAnimationExtra
-	dw ArbokJohtoAnimationExtra
-	dw PikachuPlainAnimationExtra
+	dw CKikuriAnimationExtra
+	dw KikuriJohtoAnimationExtra
+	dw EKikuriPlainAnimationExtra
 	dw RaichuPlainAnimationExtra
 	dw SandshrewPlainAnimationExtra
 	dw SandslashPlainAnimationExtra
@@ -321,16 +321,16 @@ AnimationExtraPointers:
 	dw UnownExclamationAnimationExtra
 	dw UnownQuestionAnimationExtra
 
-	dw ArbokKantoAnimationExtra
-	dw ArbokKogaAnimationExtra
-	dw ArbokAgathaAnimationExtra
-	dw ArbokArianaAnimationExtra
+	dw KikuriKantoAnimationExtra
+	dw KikuriKogaAnimationExtra
+	dw KikuriAgathaAnimationExtra
+	dw KikuriArianaAnimationExtra
 
-	dw PikachuFlyAnimationExtra
-	dw PikachuSurfAnimationExtra
-	dw PikachuPikaAnimationExtra
-	dw PikachuChuchuAnimationExtra
-	dw PikachuSparkAnimationExtra
+	dw EKikuriFlyAnimationExtra
+	dw EKikuriSurfAnimationExtra
+	dw EKikuriPikaAnimationExtra
+	dw EKikuriChuchuAnimationExtra
+	dw EKikuriSparkAnimationExtra
 
 	dw PichuSpikyAnimationExtra
 

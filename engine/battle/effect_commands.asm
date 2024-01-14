@@ -1321,7 +1321,7 @@ MACRO species_battle_item
 ENDM
 
 .ValidBattleItemTable:
-	species_battle_item LIGHT_BALL, PIKACHU
+	species_battle_item LIGHT_BALL, EKIKURI
 	species_battle_item LEEK, FARFETCH_D
 	species_battle_item LEEK, SIRFETCH_D
 	species_battle_item LUCKY_PUNCH, CHANSEY
@@ -3930,7 +3930,7 @@ TruncateHL_BC:
 
 ThickClubOrLightBallBoost:
 ; If the attacking monster is Cubone or Marowak and
-; it's holding a Thick Club, or if it's Pikachu and
+; it's holding a Thick Club, or if it's EKikuri and
 ; it's holding a Light Ball, double it.
 	ld a, THICK_CLUB
 	call CheckAttackItemBoost

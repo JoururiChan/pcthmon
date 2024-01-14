@@ -1,26 +1,17 @@
-if DEF(FAITHFUL)
-	db  35,  55,  40,  90,  50,  50 ; 320 BST
+	db 107,  49, 130,  51, 140, 130 ; 345 BST
 	;   hp  atk  def  spe  sat  sdf
-else
-	db  35,  65,  40,  95,  60,  50 ; 345 BST
-	;   hp  atk  def  spe  sat  sdf
-endc
 
-	db ELECTRIC, ELECTRIC ; type
-	db 190 ; catch rate
-if DEF(FAITHFUL)
-	db 82 ; base exp
-else
-	db 92 ; base exp
-endc
+	db PSYCHIC, ROCK ; type
+	db 100 ; catch rate
+	db 212 ; base exp
 	db ORAN_BERRY, LIGHT_BALL ; held items
-	dn GENDER_F50, HATCH_FASTER ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for PIKACHU, STATIC, STATIC, LIGHTNING_ROD
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_FAIRY ; egg groups
+	abilities_for EKIKURI, LEVITATE, LEVITATE, LEVITATE
+	db GROWTH_FAST ; growth rate
+	dn EGG_MINERAL, EGG_INDETERMINATE ; egg groups
 
-	ev_yield 2 Spe
+	ev_yield 2 Def, 1 SDf
 
 	; tm/hm learnset
 	tmhm DYNAMICPUNCH, CURSE, CALM_MIND, TOXIC, HIDDEN_POWER, LIGHT_SCREEN, PROTECT, RAIN_DANCE, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, ROCK_SMASH, DOUBLE_TEAM, REFLECT, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, BLAZE_STAR, FLASH, VOLT_SWITCH, THUNDER_WAVE, STRENGTH, SAKUYA_WORLD, BODY_SLAM, CHARM, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, ENDURE, HEADBUTT, KNOCK_OFF, PAY_DAY, ROLLOUT, SEISMIC_TOSS, SLEEP_TALK, SWAGGER, THUNDERPUNCH, ZAP_CANNON

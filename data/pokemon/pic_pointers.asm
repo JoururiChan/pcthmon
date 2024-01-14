@@ -26,9 +26,9 @@ PokemonPicPointers::
 	pics CElisPlain
 	pics Elis
 	pics EElis
-	pics Ekans
-	pics ArbokJohto
-	pics PikachuPlain
+	pics CKikuri
+	pics KikuriJohto
+	pics EKikuriPlain
 	pics RaichuPlain
 	pics SandshrewPlain
 	pics SandslashPlain
@@ -325,16 +325,16 @@ PokemonPicPointers::
 	pics UnownExclamation
 	pics UnownQuestion
 
-	pics ArbokKanto
-	pics ArbokKoga
-	pics ArbokAgatha
-	pics ArbokAriana
+	pics KikuriKanto
+	pics KikuriKoga
+	pics KikuriAgatha
+	pics KikuriAriana
 
-	pics PikachuFly
-	pics PikachuSurf
-	pics PikachuPika
-	pics PikachuChuchu
-	pics PikachuSpark
+	pics EKikuriFly
+	pics EKikuriSurf
+	pics EKikuriPika
+	pics EKikuriChuchu
+	pics EKikuriSpark
 
 	pics PichuSpiky
 

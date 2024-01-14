@@ -50,8 +50,8 @@ TrainerPokefanmDerek1:
 	iftruefwd .HasNugget
 	checkcellnum PHONE_POKEFANM_DEREK
 	iftruefwd .NumberAccepted
-	checkpoke PIKACHU
-	iffalsefwd .WantsPikachu
+	checkpoke EKIKURI
+	iffalsefwd .WantsEKikuri
 	checkevent EVENT_DEREK_ASKED_FOR_PHONE_NUMBER
 	iftruefwd .AskedAlready
 	writetext PokefanMDerekText_NotBragging
@@ -80,8 +80,8 @@ TrainerPokefanmDerek1:
 .NoRoom:
 	sjumpfwd .PackFull
 
-.WantsPikachu:
-	jumpopenedtext PokefanMDerekPikachuIsItText
+.WantsEKikuri:
+	jumpopenedtext PokefanMDerekEKikuriIsItText
 
 .AskNumber1:
 	jumpstd asknumber1m
@@ -307,12 +307,12 @@ SailorEugeneBeatenText:
 PokefanmDerek1SeenText:
 	text "This is a good"
 	line "time to brag about"
-	cont "my Pikachu!"
+	cont "my EKikuri!"
 	done
 
 PokefanmDerek1BeatenText:
 	text "I had no time to"
-	line "show off Pikachu…"
+	line "show off EKikuri…"
 	done
 
 PokefanMDerekText_NotBragging:
@@ -340,8 +340,8 @@ PokefanfRuthBeatenText:
 	line "losing."
 	done
 
-PokefanMDerekPikachuIsItText:
-	text "Pikachu is it!"
+PokefanMDerekEKikuriIsItText:
+	text "EKikuri is it!"
 	line "Don't you agree?"
 	done
 

@@ -99,40 +99,40 @@ LearnMove:
 .pp_ok
 	ld [hl], b
 
-; Changes Pikachu's form if it learns Fly or Surf. Several assumptions:
-;   -- Pikachu can't forget Fly or Surf outside a move deleter, so we only care if it learns one of those moves
-;   -- player Pikachu cannot legally learn both Fly and Surf
-;   -- Pikachu can't learn Fly or Surf during a battle
+; Changes EKikuri's form if it learns Fly or Surf. Several assumptions:
+;   -- EKikuri can't forget Fly or Surf outside a move deleter, so we only care if it learns one of those moves
+;   -- player EKikuri cannot legally learn both Fly and Surf
+;   -- EKikuri can't learn Fly or Surf during a battle
 	ld a, MON_SPECIES
 	call GetPartyParamLocationAndValue
-	cp LOW(PIKACHU)
-	jr nz, .done_pikachu
-	assert !HIGH(PIKACHU)
+	cp LOW(EKIKURI)
+	jr nz, .done_ekikuri
+	assert !HIGH(EKIKURI)
 	ld bc, MON_FORM - MON_SPECIES
 	add hl, bc
 	ld a, [hl]
 	and EXTSPECIES_MASK
-	jr nz, .done_pikachu
+	jr nz, .done_ekikuri
 	ld a, [wPutativeTMHMMove]
-	ld b, PIKACHU_FLY_FORM
+	ld b, EKIKURI_FLY_FORM
 	cp FLY
 	jr z, .got_form
-	assert PIKACHU_FLY_FORM + 1 == PIKACHU_SURF_FORM
+	assert EKIKURI_FLY_FORM + 1 == EKIKURI_SURF_FORM
 	inc b
 	cp SURF
-	jr nz, .done_pikachu
+	jr nz, .done_ekikuri
 .got_form
 	ld a, [hl]
 	and ~FORM_MASK
 	or b
 	ld [hl], a
 
-	ld c, PIKACHU
+	ld c, EKIKURI
 	push de
 	call SetSeenAndCaughtMon
 	pop de
 
-.done_pikachu
+.done_ekikuri
 	ld a, [wBattleMode]
 	and a
 	jr z, .learned

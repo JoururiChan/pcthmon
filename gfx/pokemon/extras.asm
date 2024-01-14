@@ -16,9 +16,9 @@ MaganAnimationExtra:   INCLUDE "gfx/pokemon/magan/anim_idle.asm"
 EMaganAnimationExtra:     INCLUDE "gfx/pokemon/emagan/anim_idle.asm"
 CMimaAnimationExtra:  INCLUDE "gfx/pokemon/cmima/anim_idle.asm"
 MimaAnimationExtra:    INCLUDE "gfx/pokemon/mima/anim_idle.asm"
-ElisAnimationExtra:    INCLUDE "gfx/pokemon/spearow/anim_idle.asm"
-EElisAnimationExtra:     INCLUDE "gfx/pokemon/fearow/anim_idle.asm"
-EkansAnimationExtra:      INCLUDE "gfx/pokemon/ekans/anim_idle.asm"
+ElisAnimationExtra:    INCLUDE "gfx/pokemon/elis/anim_idle.asm"
+EElisAnimationExtra:     INCLUDE "gfx/pokemon/eelis/anim_idle.asm"
+CKikuriAnimationExtra:      INCLUDE "gfx/pokemon/ckikuri/anim_idle.asm"
 NidoranFAnimationExtra:   INCLUDE "gfx/pokemon/nidoran_f/anim_idle.asm"
 NidorinaAnimationExtra:   INCLUDE "gfx/pokemon/nidorina/anim_idle.asm"
 NidoqueenAnimationExtra:  INCLUDE "gfx/pokemon/nidoqueen/anim_idle.asm"
@@ -275,18 +275,18 @@ UnownQuestionAnimationExtra:    INCLUDE "gfx/pokemon/unown_question/anim_idle.as
 PichuPlainAnimationExtra: INCLUDE "gfx/pokemon/pichu_plain/anim_idle.asm"
 PichuSpikyAnimationExtra: INCLUDE "gfx/pokemon/pichu_spiky/anim_idle.asm"
 
-PikachuSparkAnimationExtra:
-PikachuPlainAnimationExtra:  INCLUDE "gfx/pokemon/pikachu_plain/anim_idle.asm"
-PikachuFlyAnimationExtra:    INCLUDE "gfx/pokemon/pikachu_fly/anim_idle.asm"
-PikachuSurfAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_surf/anim_idle.asm"
-PikachuPikaAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_pika/anim_idle.asm"
-PikachuChuchuAnimationExtra: INCLUDE "gfx/pokemon/pikachu_chuchu/anim_idle.asm"
+EKikuriSparkAnimationExtra:
+EKikuriPlainAnimationExtra:  INCLUDE "gfx/pokemon/ekikuri_plain/anim_idle.asm"
+EKikuriFlyAnimationExtra:    INCLUDE "gfx/pokemon/ekikuri_fly/anim_idle.asm"
+EKikuriSurfAnimationExtra:   INCLUDE "gfx/pokemon/ekikuri_surf/anim_idle.asm"
+EKikuriPikaAnimationExtra:   INCLUDE "gfx/pokemon/ekikuri_pika/anim_idle.asm"
+EKikuriChuchuAnimationExtra: INCLUDE "gfx/pokemon/ekikuri_chuchu/anim_idle.asm"
 
-ArbokJohtoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_johto/anim_idle.asm"
-ArbokKantoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_kanto/anim_idle.asm"
-ArbokKogaAnimationExtra:   INCLUDE "gfx/pokemon/arbok_koga/anim_idle.asm"
-ArbokAgathaAnimationExtra: INCLUDE "gfx/pokemon/arbok_agatha/anim_idle.asm"
-ArbokArianaAnimationExtra: INCLUDE "gfx/pokemon/arbok_ariana/anim_idle.asm"
+KikuriJohtoAnimationExtra:  INCLUDE "gfx/pokemon/kikuri_johto/anim_idle.asm"
+KikuriKantoAnimationExtra:  INCLUDE "gfx/pokemon/kikuri_kanto/anim_idle.asm"
+KikuriKogaAnimationExtra:   INCLUDE "gfx/pokemon/kikuri_koga/anim_idle.asm"
+KikuriAgathaAnimationExtra: INCLUDE "gfx/pokemon/kikuri_agatha/anim_idle.asm"
+KikuriArianaAnimationExtra: INCLUDE "gfx/pokemon/kikuri_ariana/anim_idle.asm"
 
 MagikarpPlainAnimationExtra:
 MagikarpSkellyAnimationExtra:
@@ -321,8 +321,8 @@ MewtwoArmoredAnimationExtra: INCLUDE "gfx/pokemon/mewtwo_armored/anim_idle.asm"
 EMimaAnimationExtra:  INCLUDE "gfx/pokemon/rattata_plain/anim_idle.asm"
 EMimaAlolanAnimationExtra: INCLUDE "gfx/pokemon/rattata_alolan/anim_idle.asm"
 
-CElisPlainAnimationExtra:  INCLUDE "gfx/pokemon/raticate_plain/anim_idle.asm"
-CElisAlolanAnimationExtra: INCLUDE "gfx/pokemon/raticate_alolan/anim_idle.asm"
+CElisPlainAnimationExtra:  INCLUDE "gfx/pokemon/celis_plain/anim_idle.asm"
+CElisAlolanAnimationExtra: INCLUDE "gfx/pokemon/celis_alolan/anim_idle.asm"
 
 RaichuPlainAnimationExtra:  INCLUDE "gfx/pokemon/raichu_plain/anim_idle.asm"
 RaichuAlolanAnimationExtra: INCLUDE "gfx/pokemon/raichu_alolan/anim_idle.asm"

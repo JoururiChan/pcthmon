@@ -25,7 +25,7 @@ Cries:
 	fardw Cry_CMima
 	fardw Cry_OGyoku
 	fardw Cry_CGyoku
-	fardw Cry_Ekans
+	fardw Cry_CKikuri
 	fardw Cry_Shellder
 	fardw Cry_Clefairy
 	fardw Cry_Venonat

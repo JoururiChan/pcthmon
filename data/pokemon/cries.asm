@@ -28,9 +28,9 @@ PokemonCries::
 	mon_cry CRY_EMIMA,     $020,  $17f ; CElis
 	mon_cry CRY_FARFETCH_D,  $000,  $100 ; Elis
 	mon_cry CRY_SHELLDER,    $040,  $120 ; EElis
-	mon_cry CRY_EKANS,       $012,  $0c0 ; Ekans
-	mon_cry CRY_EKANS,       $0e0,  $090 ; Arbok
-	mon_cry CRY_CREIMU,   $0ee,  $081 ; Pikachu
+	mon_cry CRY_CKIKURI,       $012,  $0c0 ; CKikuri
+	mon_cry CRY_CKIKURI,       $0e0,  $090 ; Kikuri
+	mon_cry CRY_CREIMU,   $0ee,  $081 ; EKikuri
 	mon_cry CRY_RAICHU,      $0ee,  $088 ; Raichu
 	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; Sandshrew
 	mon_cry CRY_NIDORAN_M,   $0ff,  $17f ; Sandslash
@@ -100,7 +100,7 @@ PokemonCries::
 	mon_cry CRY_MGYOKU,     $000,  $100 ; Gastly
 	mon_cry CRY_MGYOKU,     $030,  $0c0 ; Haunter
 	mon_cry CRY_MUK,         $000,  $17f ; Gengar
-	mon_cry CRY_EKANS,       $0ff,  $140 ; Onix
+	mon_cry CRY_CKIKURI,       $0ff,  $140 ; Onix
 	mon_cry CRY_DROWZEE,     $088,  $0a0 ; Drowzee
 	mon_cry CRY_DROWZEE,     $0ee,  $0c0 ; Hypno
 	mon_cry CRY_KRABBY,      $020,  $160 ; Krabby
@@ -134,8 +134,8 @@ PokemonCries::
 	mon_cry CRY_CMARISA,  $0ff,  $0b0 ; Magmar
 	mon_cry CRY_CMIMA,   $000,  $100 ; Pinsir
 	mon_cry CRY_CSAKUYA,    $011,  $0c0 ; Tauros
-	mon_cry CRY_EKANS,       $080,  $080 ; Magikarp
-	mon_cry CRY_EKANS,       $000,  $100 ; Gyarados
+	mon_cry CRY_CKIKURI,       $080,  $080 ; Magikarp
+	mon_cry CRY_CKIKURI,       $000,  $100 ; Gyarados
 	mon_cry CRY_LAPRAS,      $000,  $100 ; Lapras
 	mon_cry CRY_EMAGAN,      $0ff,  $17f ; Ditto
 	mon_cry CRY_VENONAT,     $088,  $0e0 ; Eevee

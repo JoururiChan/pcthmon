@@ -15,13 +15,13 @@ LeafeonFootprint::
 GlaceonFootprint:: INCBIN "gfx/footprints/umbreon_leafeon_glaceon.1bpp.lz"
 
 EMaganFootprint::
-ElisFootprint:: INCBIN "gfx/footprints/emagan_spearow.1bpp.lz"
+ElisFootprint:: INCBIN "gfx/footprints/emagan_elis.1bpp.lz"
 
 CorsolaFootprint::
 CursolaFootprint:: INCBIN "gfx/footprints/corsola_cursola.1bpp.lz"
 
 BlankFootprint::
-ArbokFootprint::
+KikuriFootprint::
 BellossomFootprint::
 ChinchouFootprint::
 CloysterFootprint::
@@ -34,7 +34,7 @@ DratiniFootprint::
 DudunsparceFootprint::
 DugtrioFootprint::
 DunsparceFootprint::
-EkansFootprint::
+CKikuriFootprint::
 ElectrodeFootprint::
 ExeggcuteFootprint::
 ForretressFootprint::
@@ -96,9 +96,9 @@ MaganFootprint:: INCBIN "gfx/footprints/magan.1bpp.lz"
 CMimaFootprint:: INCBIN "gfx/footprints/cmima.1bpp.lz"
 MimaFootprint:: INCBIN "gfx/footprints/mima.1bpp.lz"
 EMimaFootprint:: INCBIN "gfx/footprints/rattata.1bpp.lz"
-CElisFootprint:: INCBIN "gfx/footprints/raticate.1bpp.lz"
-EElisFootprint:: INCBIN "gfx/footprints/fearow.1bpp.lz"
-PikachuFootprint:: INCBIN "gfx/footprints/pikachu.1bpp.lz"
+CElisFootprint:: INCBIN "gfx/footprints/celis.1bpp.lz"
+EElisFootprint:: INCBIN "gfx/footprints/eelis.1bpp.lz"
+EKikuriFootprint:: INCBIN "gfx/footprints/ekikuri.1bpp.lz"
 RaichuFootprint:: INCBIN "gfx/footprints/raichu.1bpp.lz"
 SandshrewFootprint:: INCBIN "gfx/footprints/sandshrew.1bpp.lz"
 SandslashFootprint:: INCBIN "gfx/footprints/sandslash.1bpp.lz"

@@ -119,7 +119,7 @@ BuenaPhoneScript_Random2:
 	sjumpfwd .finish
 
 .seven
-	writetext BuenaPhonePikachuFanClubText
+	writetext BuenaPhoneEKikuriFanClubText
 	sjumpfwd .finish
 
 .eight

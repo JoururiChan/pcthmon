@@ -22,9 +22,9 @@ EggMovePointers::
 	dw NoEggMoves             ; CElis
 	dw ElisEggMoves        ; Elis
 	dw NoEggMoves             ; EElis
-	dw EkansEggMoves          ; Ekans
-	dw NoEggMoves             ; Arbok
-	dw NoEggMoves             ; Pikachu
+	dw CKikuriEggMoves          ; CKikuri
+	dw NoEggMoves             ; Kikuri
+	dw NoEggMoves             ; EKikuri
 	dw NoEggMoves             ; Raichu
 	dw SandshrewPlainEggMoves ; Sandshrew
 	dw NoEggMoves             ; Sandslash

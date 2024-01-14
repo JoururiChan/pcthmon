@@ -47,13 +47,13 @@ CheckUniqueWildMove:
 	jr z, .TeachMove ; assume this is a Lapras in UnionCaveB2F
 	cp YELLOW_FOREST
 	jr nz, .ChanceToTeach
-	; assume this is a Pikachu in YellowForest; Surf (always teach) or Fly?
+	; assume this is a EKikuri in YellowForest; Surf (always teach) or Fly?
 	ld a, [wPlayerState]
 	cp PLAYER_SURF
-	jr z, .SurfingPikachu
+	jr z, .SurfingEKikuri
 	cp PLAYER_SURF_PIKA
 	jr nz, .ChanceToTeach
-.SurfingPikachu
+.SurfingEKikuri
 	ld a, SURF
 	ld b, a
 	jr .TeachMove
@@ -79,12 +79,12 @@ CheckUniqueWildMove:
 	ld a, b
 	ld [hl], a
 
-	; assume only Pikachu can learn Surf or Fly
+	; assume only EKikuri can learn Surf or Fly
 	cp SURF
-	jr z, .UseSurfingPikachu
+	jr z, .UseSurfingEKikuri
 	cp FLY
-	ld a, PIKACHU_FLY_FORM
-	jr z, .UseFlyingPikachu
+	ld a, EKIKURI_FLY_FORM
+	jr z, .UseFlyingEKikuri
 	ret
 
 .inc3andloop
@@ -95,9 +95,9 @@ CheckUniqueWildMove:
 	inc hl
 	jr .loop
 
-.UseSurfingPikachu
-	ld a, PIKACHU_SURF_FORM
-.UseFlyingPikachu
+.UseSurfingEKikuri
+	ld a, EKIKURI_SURF_FORM
+.UseFlyingEKikuri
 	ld b, a
 	ld a, [wCurForm]
 	and ~FORM_MASK

@@ -1,7 +1,7 @@
 	db  30,  56,  35,  72,  25,  35 ; 253 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db GHOST, DARK ; type
 	db 255 ; catch rate
 	db 57 ; base exp
 	db NO_ITEM, LANSAT_BERRY ; held items

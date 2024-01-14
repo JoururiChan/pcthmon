@@ -99,7 +99,7 @@ ShamoutiIslandYoungsterScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "A shiny Pikachu"
+	text "A shiny EKikuri"
 	line "would be a real"
 	cont "Pikablu."
 

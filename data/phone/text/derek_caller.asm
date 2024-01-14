@@ -15,7 +15,7 @@ DerekCheekPinchingText:
 
 DerekDefeatedMonText:
 	text "Oh, and recently,"
-	line "my Pikachu beat a"
+	line "my EKikuri beat a"
 	cont "wild "
 	text_ram wStringBuffer4
 	text "!"
@@ -28,10 +28,10 @@ DerekDefeatedMonText:
 	para "Don't you think"
 	line "that's astounding?"
 
-	para "My Pikachu is"
+	para "My EKikuri is"
 	line "awesome!"
 
-	para "My Pikachu is the"
+	para "My EKikuri is the"
 	line "greatest!"
 	done
 
@@ -68,7 +68,7 @@ DerekBugCatchingContestText:
 	para "I think I'll"
 	line "participate with"
 
-	para "Pikachu to show"
+	para "EKikuri to show"
 	line "off its cuteness."
 	done
 
@@ -76,21 +76,21 @@ DerekFoundItemText:
 	text "I'd like you to"
 	line "have a Nugget."
 
-	para "My Pikachu just"
+	para "My EKikuri just"
 	line "loves it."
 
 	para "I'm certain your"
-	line "Pikachu will love"
+	line "EKikuri will love"
 	cont "it too!"
 	done
 
 DerekLetsGetTogetherText:
 	text "How is your"
-	line "Pikachu doing?"
+	line "EKikuri doing?"
 
 	para "Let's get together"
 	line "and brag about our"
-	cont "Pikachu!"
+	cont "EKikuri!"
 	done
 
 DerekComePickUpText:

@@ -354,7 +354,7 @@ ElmPhoneEvoText_Egg:
 	line "they hatch!"
 	prompt
 
-ElmPhoneEvoText_Pikachu:
+ElmPhoneEvoText_EKikuri:
 	text_ram wStringBuffer3
 	line "evolves when it's"
 

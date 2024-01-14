@@ -30,7 +30,7 @@ UniqueWildMoves:
 	unique_moves BURNED_TOWER,     0,          0
 	unique_moves WHIRL_ISLANDS,    0,          0
 	unique_moves CLIFF_CAVE,       0,          0
-	unique_moves YELLOW_FOREST,    PIKACHU,    FLY          ; replaced with Surf if Surfing
+	unique_moves YELLOW_FOREST,    EKIKURI,    FLY          ; replaced with Surf if Surfing
 	unique_moves QUIET_CAVE,       MUNCHLAX,   GIGA_IMPACT  ; Snorlax move
 	unique_moves MT_MORTAR,        0,          0
 	unique_moves LAKE_OF_RAGE,     MAGIKARP,   HYDRO_PUMP   ; Pokéwalker move
@@ -38,7 +38,7 @@ UniqueWildMoves:
 	unique_moves DRAGONS_DEN,      0,          0
 	unique_moves DARK_CAVE,        0,          0
 	unique_moves SILVER_CAVE,      TYRANITAR,  DRAGON_DANCE ; event move
-	unique_moves VIRIDIAN_FOREST,  PIKACHU,    DISARM_VOICE ; Sketch-breed move
+	unique_moves VIRIDIAN_FOREST,  EKIKURI,    DISARM_VOICE ; Sketch-breed move
 	unique_moves MT_MOON,          0,          0
 	unique_moves CERULEAN_CAVE,    MACHAMP,    METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAVE,    GOLEM,      METRONOME    ; RBY TM move

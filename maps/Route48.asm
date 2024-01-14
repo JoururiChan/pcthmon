@@ -116,7 +116,7 @@ Route48JessieJamesSeenText:
 	para "You know what"
 	line "#mon lives in"
 	cont "that forest?"
-	cont "Pikachu!"
+	cont "EKikuri!"
 
 	para "The boss will be"
 	line "pleased if we"
@@ -180,7 +180,7 @@ Route48NurseText1:
 
 	para "You drove away"
 	line "Team Rocket and"
-	cont "saved the Pikachu!"
+	cont "saved the EKikuri!"
 
 	para "Thank you so much!"
 

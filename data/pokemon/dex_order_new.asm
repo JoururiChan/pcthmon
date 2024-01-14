@@ -23,7 +23,7 @@ NewPokedexOrder:
 	dp SENTRET
 	dp FURRET
 	dp PICHU
-	dp PIKACHU
+	dp EKIKURI
 	dp RAICHU
 	dp CGYOKU
 	dp MGYOKU
@@ -52,8 +52,8 @@ NewPokedexOrder:
 	dp TOGEKISS
 	dp SANDSHREW
 	dp SANDSLASH
-	dp EKANS
-	dp ARBOK
+	dp CKIKURI
+	dp KIKURI
 	dp DUNSPARCE
 	dp DUDUNSPARCE
 	dp MAREEP

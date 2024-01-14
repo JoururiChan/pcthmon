@@ -68,7 +68,7 @@
 	const MUSIC_ROUTE_47_HGSS                  ; 40
 	const MUSIC_JESSIE_JAMES_ENCOUNTER         ; 41
 	const MUSIC_SAFARI_ZONE_GATE_HGSS          ; 42
-	const MUSIC_SURFING_PIKACHU                ; 43
+	const MUSIC_SURFING_EKIKURI                ; 43
 	const MUSIC_LAKE_OF_RAGE                   ; 44
 	const MUSIC_STARK_MOUNTAIN_DPPT            ; 45
 	const MUSIC_LAKE_OF_RAGE_ROCKET_RADIO      ; 46

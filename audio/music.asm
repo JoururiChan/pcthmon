@@ -315,8 +315,8 @@ INCLUDE "audio/music/rby/pokemontower.asm"
 SECTION "Song - rby/surfing", ROMX
 INCLUDE "audio/music/rby/surfing.asm"
 
-SECTION "Song - rby/surfingpikachu", ROMX
-INCLUDE "audio/music/rby/surfingpikachu.asm"
+SECTION "Song - rby/surfingekikuri", ROMX
+INCLUDE "audio/music/rby/surfingekikuri.asm"
 
 SECTION "Song - rse/surfing", ROMX
 INCLUDE "audio/music/rse/surfing.asm"

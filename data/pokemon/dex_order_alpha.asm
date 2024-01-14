@@ -9,7 +9,7 @@ AlphabeticalPokedexOrder:
 	dp AMBIPOM
 	dp AMPHAROS
 	dp ANNIHILAPE
-	dp ARBOK
+	dp KIKURI
 	dp ARCANINE
 	dp ARIADOS
 	dp ARTICUNO
@@ -58,7 +58,7 @@ AlphabeticalPokedexOrder:
 	dp DUGTRIO
 	dp DUNSPARCE
 	dp EEVEE
-	dp EKANS
+	dp CKIKURI
 	dp ELECTABUZZ
 	dp ELECTIVIRE
 	dp ELECTRODE
@@ -188,7 +188,7 @@ AlphabeticalPokedexOrder:
 	dp MIMA
 	dp CMIMA
 	dp EMAGAN
-	dp PIKACHU
+	dp EKIKURI
 	dp PILOSWINE
 	dp PINECO
 	dp PINSIR

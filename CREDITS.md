@@ -45,13 +45,13 @@ Tohomon Polished Crystal would never have been finished without the help of many
 
 ## Graphics
 
-* Blue Emerald, solo993, Chamber, Lake, Neslug, and Pikachu25 for many sprites and icons.
+* Blue Emerald, solo993, Chamber, Lake, Neslug, and EKikuri25 for many sprites and icons.
 * ShadowOne333, Mia, and Quichless for Paldean Tohomon sprites and animations.
 * metalflygon08 for the many Tohomon and trainer sprites.
 * JaceDeane for the Goldenrod Museum paintings, many Tohomon and trainer sprites, Prof. Ivy's overworld sprite, map name signs, and some tiles.
-* bloodless for sprites of Buck, Maylene, Veteran♂, some variant Pikachu, Diglett, and Dugtrio.
+* bloodless for sprites of Buck, Maylene, Veteran♂, some variant EKikuri, Diglett, and Dugtrio.
 * Kuroko Aizawa for sprites of Prof. Ivy, Looker, Cheryl, Officer♀, Aroma Lady, Artist, and Engineer.
-* SCMidna for animations of Alolan Diglett and Dugtrio, Munchlax, Unown ! and ?, and Surfing Pikachu, and the stat trainers' overworld sprites.
+* SCMidna for animations of Alolan Diglett and Dugtrio, Munchlax, Unown ! and ?, and Surfing EKikuri, and the stat trainers' overworld sprites.
 * Acrozz for many HGSS Tohomon palettes, and sprites and animations of Magikarp forms.
 * Freeline for animations of Honchkrow and Munchlax, and the Rocket Executives' and stat trainers' overworld sprites.
 * Megaman-Omega for some of Prism's overworld sprites.
@@ -71,7 +71,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * EeveeEe1999 for 8th gen menu icons and Lickilicky and Galarian Slowking animations.
 * trainerlass for sprites of Galarian Slowpoke and Slowbro, Katy's sprites, and Crys's back sprite.
 * Luna for some sprites and tiles.
-* SteppoBlazer for Flying and Surfing Pikachu's mini icons.
+* SteppoBlazer for Flying and Surfing EKikuri's mini icons.
 * Twilir for Lyra's back sprite.
 * Danny-E for Lorelei's sprite.
 * Nic7C5 for Yellow's sprite.
@@ -89,7 +89,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * SteppoBlazer, bloodless, and JaceDeane for Kiyo's sprite.
 * ShadowOne333 and JaceDeane for Jessie & James' sprite.
 * Mmmmmm, bloodless, and Kuroko Aizawa for help with Valerie's sprite.
-* Kuroko Aizawa, bloodless, and metalflygon08 for help with Pikachu's sprites.
+* Kuroko Aizawa, bloodless, and metalflygon08 for help with EKikuri's sprites.
 * jpmac26 for editing the Tohomon Center signs and fixing a typo.
 * Sea for Crys's fishing sprites.
 

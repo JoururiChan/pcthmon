@@ -44,9 +44,9 @@
 	const CELIS   ; 14
 	const ELIS    ; 15
 	const EELIS     ; 16
-	const EKANS      ; 17
-	const ARBOK      ; 18
-	const PIKACHU    ; 19
+	const CKIKURI      ; 17
+	const KIKURI      ; 18
+	const EKIKURI    ; 19
 	const RAICHU     ; 1a
 	const SANDSHREW  ; 1b
 	const SANDSLASH  ; 1c
@@ -377,22 +377,22 @@ DEF FIRST_COSMETIC_FORM_MON EQU const_value ; 124
 	ext_const UNOWN_QUESTION_FORM    ; 13e (1c)
 DEF NUM_UNOWN EQU ext_const_value - 1
 
-; arbok
-	ext_const_def 1, ARBOK_JOHTO_FORM ; (1)
-	ext_const ARBOK_KANTO_FORM    ; 13f (2)
-	ext_const ARBOK_KOGA_FORM     ; 140 (3)
-	ext_const ARBOK_AGATHA_FORM   ; 141 (4)
-	ext_const ARBOK_ARIANA_FORM   ; 142 (5)
-DEF NUM_ARBOK EQU ext_const_value - 1
+; kikuri
+	ext_const_def 1, KIKURI_JOHTO_FORM ; (1)
+	ext_const KIKURI_KANTO_FORM    ; 13f (2)
+	ext_const KIKURI_KOGA_FORM     ; 140 (3)
+	ext_const KIKURI_AGATHA_FORM   ; 141 (4)
+	ext_const KIKURI_ARIANA_FORM   ; 142 (5)
+DEF NUM_KIKURI EQU ext_const_value - 1
 
-; pikachu
+; ekikuri
 	ext_const_def 2
-	ext_const PIKACHU_FLY_FORM    ; 143 (2)
-	ext_const PIKACHU_SURF_FORM   ; 144 (3)
-	ext_const PIKACHU_RED_FORM    ; 145 (4)
-	ext_const PIKACHU_YELLOW_FORM ; 146 (5)
-	ext_const PIKACHU_SPARK_FORM  ; 147 (6)
-DEF NUM_PIKACHU EQU ext_const_value - 1
+	ext_const EKIKURI_FLY_FORM    ; 143 (2)
+	ext_const EKIKURI_SURF_FORM   ; 144 (3)
+	ext_const EKIKURI_RED_FORM    ; 145 (4)
+	ext_const EKIKURI_YELLOW_FORM ; 146 (5)
+	ext_const EKIKURI_SPARK_FORM  ; 147 (6)
+DEF NUM_EKIKURI EQU ext_const_value - 1
 
 ; pichu
 	ext_const_def 2
@@ -440,7 +440,7 @@ DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 ; alolan forms
 DEF ALOLAN_FORM EQU 2
 	const_skip ; 15f rattata
-	const_skip ; 160 raticate
+	const_skip ; 160 celis
 	const_skip ; 161 raichu
 	const_skip ; 162 sandshrew
 	const_skip ; 163 sandslash
