@@ -372,7 +372,7 @@ DSTChecks:
 	text_end
 
 .Text_LostInstructionBooklet:
-	; I lost the instruction booklet for the POKéGEAR.
+	; I lost the instruction booklet for the TOHOGEAR.
 	; Come back again in a while.
 	text_far _MomLostGearBookletText
 	text_end

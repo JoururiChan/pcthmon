@@ -8,7 +8,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 
 
 * Add: Medicine and Berry pockets in the Bag.
-* Add: Store up to 30 phone numbers in Pokégear.
+* Add: Store up to 30 phone numbers in Tohogear.
 * Add: Always keep the option to Teleport away from Indigo Plateau.
 * Add: Portrait for the meteorite in Pewter Museum.
 * Add: Special sprite for Red's Pikachu.
@@ -155,7 +155,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: ABC or QWERTY keyboard.
 * Add: Item icons in the Bag.
 * Add: Thrown Balls use individual icons.
-* Add: Pokédex shows shiny palettes after getting the Shiny Charm.
+* Add: Tohodex shows shiny palettes after getting the Shiny Charm.
 * Add: New Game+ preserves your money, Battle Points, and PC Tohomon.
 * Add: Phone call trainers ask automatically for your number.
 * Add: Replace Jigglypuff Poster with Marill Poster.

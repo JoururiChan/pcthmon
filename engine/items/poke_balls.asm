@@ -403,7 +403,7 @@ DoLevelBallMultiplier:
 	ret
 
 RepeatBallMultiplier:
-; multiply catch rate by 3.5 if enemy mon is already in Pokédex
+; multiply catch rate by 3.5 if enemy mon is already in Tohodex
 	push bc
 	ld a, [wTempEnemyMonSpecies]
 	ld c, a

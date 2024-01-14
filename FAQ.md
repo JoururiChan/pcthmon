@@ -67,7 +67,7 @@ The game's [data files](data/) do a fairly good job of listing things you'll wan
 
 For information that's not all in one file, like [faithful version differences](https://github.com/Rangi42/polishedcrystal/search?q=DEF+FAITHFUL), you can use GitHub's search in this repository.
 
-You can also just use in-game features! The Pokédex has a lot more information, including base stats and detailed wild locations.
+You can also just use in-game features! The Tohodex has a lot more information, including base stats and detailed wild locations.
 
 
 ### Why is shiny Gyarados gold? Is the red Gyarados shiny?

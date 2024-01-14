@@ -132,7 +132,7 @@ Var_CountTrainerStars:
 	jr z, .nostar2
 	inc b
 .nostar2
-	; star for completing the Pokédex
+	; star for completing the Tohodex
 	push bc
 	farcall Pokedex_CountSeenOwn
 	ld hl, wTempDexOwn

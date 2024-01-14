@@ -641,7 +641,7 @@ Pokedex_UnsafeSetHBlankFunction:
 	ld [wPokedex_HBlankFunction + 1], a
 	ret
 
-; Pokédex HBlank/VBlank functions.
+; Tohodex HBlank/VBlank functions.
 
 ; All PHB functions are timing-critical down to single cycles. Do not optimize
 ; for space unless you align the cycles exactly the same (Don't optimize for

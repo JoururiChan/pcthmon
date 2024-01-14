@@ -9,7 +9,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 ## Tohomon
 
-* The entire Pokédex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Murkrow, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
+* The entire Tohodex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Murkrow, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
 * Added: Leafeon, Glaceon, Sylveon, Togekiss, Weavile, Honchkrow, Mismagius, Electivire, Magmortar, Magnezone, Tangrowth, Rhyperior, Porygon-Z, Yanmega, Gliscor, Mamoswine, and Munchlax.
 * Removed: Spearow, Fearow, Lickitung, Goldeen, Seaking, Hoppip, Skiploom, Jumpluff, Shuckle, Aipom, Stantler, Cleffa, Igglybuff, Smoochum, and Delibird.
 * New evolution methods work, like Eevee evolving into Glaceon near Ice Rock, or Yanma evolving into Yanmega when knowing AncientPower.
@@ -115,7 +115,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Revised Game Corner prizes.
 * Revised Buena's Password prizes.
 * The Odd Egg is always shiny, with an equal chance to be either gender.
-* Three of Prof. Oak's aides give you items as you complete the Pokédex.
+* Three of Prof. Oak's aides give you items as you complete the Tohodex.
 * Bill's grandpa gives you one of each evolutionary stone in Goldenrod City. Later they can be bought in Celadon Dept. Store.
 * Eusine shows you the legendary beasts in Celadon City in case you haven't found them roaming.
 * Respawn any fainted legendaries (except for Celebi) after beating the Elite Four. (Suicune roams instead of appearing in Bell Tower.) (Also respawns Sudowodo.)
@@ -244,4 +244,4 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * Fly to the Rock Tunnel/Power Plant Tohomon Center.
 * Fishing works 75% of the time, not 50%.
 * Nidorina and Nidoqueen can breed, and will produce eggs of either Nidoran gender.
-* Always show numbers in Pokédex, even in Johto order.
+* Always show numbers in Tohodex, even in Johto order.

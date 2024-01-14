@@ -11,7 +11,7 @@ HallOfFame::
 	ld b, a
 	farcall SetCreditsSpawn
 
-	; Enable the Pokégear map to cycle through all of Kanto
+	; Enable the Tohogear map to cycle through all of Kanto
 	ld hl, wStatusFlags
 	set STATUSFLAGS_HALL_OF_FAME_F, [hl]
 

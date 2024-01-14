@@ -670,7 +670,7 @@ wAmuletCoin:: db
 wDVAndPersonalityBuffer:: ds 5
 wBattleEnd::
 
-; Pokédex data.
+; Tohodex data.
 
 ; For setting up a new HBlank trigger
 wPokedex_PendingLYC:: db

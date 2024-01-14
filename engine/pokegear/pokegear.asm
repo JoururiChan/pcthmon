@@ -1,4 +1,4 @@
-; Pokégear cards
+; Tohogear cards
 	const_def
 	const POKEGEARCARD_CLOCK ; 0
 	const POKEGEARCARD_MAP   ; 1
@@ -964,7 +964,7 @@ RadioChannels:
 	db -1
 
 .PkmnTalkAndPokedexShow:
-; Pokédex Show in the morning
+; Tohodex Show in the morning
 
 ; Oak's Tohomon Talk in the afternoon and evening
 	call .InJohto

@@ -1040,7 +1040,7 @@ Pokedex_GetPosData:
 
 Pokedex_GetDexNumber:
 ; Optimized version of GetDexNumber for the benefit of the pokédex, which needs
-; to query several Pokédex numbers in quick succession for things like the list.
+; to query several Tohodex numbers in quick succession for things like the list.
 ; Instead of iterating NewPokedexOrder in case we're in johto mode, it checks a
 ; conversion table (wDexConversionTable) after figuring out the national dex No.
 ; Do not use this function outside the pokédex, because the conversion table

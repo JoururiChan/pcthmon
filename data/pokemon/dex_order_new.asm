@@ -1,4 +1,4 @@
-; Every Tohomon sorted in New Pokédex Order.
+; Every Tohomon sorted in New Tohodex Order.
 
 NewPokedexOrder:
 	table_width 2, NewPokedexOrder
