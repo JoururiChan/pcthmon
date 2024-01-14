@@ -96,20 +96,20 @@ EMimaMini::     INCBIN "gfx/minis/rattata.2bpp.lz"
 EMimaMiniMask:: INCBIN "gfx/minis/rattata_mask.1bpp.lz"
 EMimaIcon::     INCBIN "gfx/icons/rattata.2bpp.lz"
 
-SECTION "Raticate Mini Icon", ROMX
-RaticateMini::     INCBIN "gfx/minis/raticate.2bpp.lz"
-RaticateMiniMask:: INCBIN "gfx/minis/raticate_mask.1bpp.lz"
-RaticateIcon::     INCBIN "gfx/icons/raticate.2bpp.lz"
+SECTION "CElis Mini Icon", ROMX
+CElisMini::     INCBIN "gfx/minis/raticate.2bpp.lz"
+CElisMiniMask:: INCBIN "gfx/minis/raticate_mask.1bpp.lz"
+CElisIcon::     INCBIN "gfx/icons/raticate.2bpp.lz"
 
-SECTION "Spearow Mini Icon", ROMX
-SpearowMini::     INCBIN "gfx/minis/spearow.2bpp.lz"
-SpearowMiniMask:: INCBIN "gfx/minis/spearow_mask.1bpp.lz"
-SpearowIcon::     INCBIN "gfx/icons/spearow.2bpp.lz"
+SECTION "Elis Mini Icon", ROMX
+ElisMini::     INCBIN "gfx/minis/spearow.2bpp.lz"
+ElisMiniMask:: INCBIN "gfx/minis/spearow_mask.1bpp.lz"
+ElisIcon::     INCBIN "gfx/icons/spearow.2bpp.lz"
 
-SECTION "Fearow Mini Icon", ROMX
-FearowMini::     INCBIN "gfx/minis/fearow.2bpp.lz"
-FearowMiniMask:: INCBIN "gfx/minis/fearow_mask.1bpp.lz"
-FearowIcon::     INCBIN "gfx/icons/fearow.2bpp.lz"
+SECTION "EElis Mini Icon", ROMX
+EElisMini::     INCBIN "gfx/minis/fearow.2bpp.lz"
+EElisMiniMask:: INCBIN "gfx/minis/fearow_mask.1bpp.lz"
+EElisIcon::     INCBIN "gfx/icons/fearow.2bpp.lz"
 
 SECTION "Ekans Mini Icon", ROMX
 EkansMini::     INCBIN "gfx/minis/ekans.2bpp.lz"
@@ -1607,10 +1607,10 @@ EMimaAlolanMini::     INCBIN "gfx/minis/rattata_alolan.2bpp.lz"
 EMimaAlolanMiniMask:: INCBIN "gfx/minis/rattata_alolan_mask.1bpp.lz"
 EMimaAlolanIcon::     INCBIN "gfx/icons/rattata_alolan.2bpp.lz"
 
-SECTION "RaticateAlolan Mini Icon", ROMX
-RaticateAlolanMini::     INCBIN "gfx/minis/raticate_alolan.2bpp.lz"
-RaticateAlolanMiniMask:: INCBIN "gfx/minis/raticate_alolan_mask.1bpp.lz"
-RaticateAlolanIcon::     INCBIN "gfx/icons/raticate_alolan.2bpp.lz"
+SECTION "CElisAlolan Mini Icon", ROMX
+CElisAlolanMini::     INCBIN "gfx/minis/raticate_alolan.2bpp.lz"
+CElisAlolanMiniMask:: INCBIN "gfx/minis/raticate_alolan_mask.1bpp.lz"
+CElisAlolanIcon::     INCBIN "gfx/icons/raticate_alolan.2bpp.lz"
 
 SECTION "RaichuAlolan Mini Icon", ROMX
 RaichuAlolanMini::     INCBIN "gfx/minis/raichu_alolan.2bpp.lz"

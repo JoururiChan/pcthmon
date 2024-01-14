@@ -840,13 +840,13 @@ SECTION "HoOh Pics", ROMX
 HoOhFrontpic: INCBIN "gfx/pokemon/ho_oh/front.animated.2bpp.lz"
 HoOhBackpic:  INCBIN "gfx/pokemon/ho_oh/back.2bpp.lz"
 
-SECTION "Spearow Pics", ROMX
-SpearowFrontpic: INCBIN "gfx/pokemon/spearow/front.animated.2bpp.lz"
-SpearowBackpic:  INCBIN "gfx/pokemon/spearow/back.2bpp.lz"
+SECTION "Elis Pics", ROMX
+ElisFrontpic: INCBIN "gfx/pokemon/spearow/front.animated.2bpp.lz"
+ElisBackpic:  INCBIN "gfx/pokemon/spearow/back.2bpp.lz"
 
-SECTION "Fearow Pics", ROMX
-FearowFrontpic: INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lz"
-FearowBackpic:  INCBIN "gfx/pokemon/fearow/back.2bpp.lz"
+SECTION "EElis Pics", ROMX
+EElisFrontpic: INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lz"
+EElisBackpic:  INCBIN "gfx/pokemon/fearow/back.2bpp.lz"
 
 SECTION "Goldeen Pics", ROMX
 GoldeenFrontpic: INCBIN "gfx/pokemon/goldeen/front.animated.2bpp.lz"
@@ -1191,17 +1191,17 @@ SECTION "EMima Pics", ROMX
 EMimaFrontpic: INCBIN "gfx/pokemon/rattata_plain/front.animated.2bpp.lz"
 EMimaBackpic:  INCBIN "gfx/pokemon/rattata_plain/back.2bpp.lz"
 
-SECTION "RaticatePlain Pics", ROMX
-RaticatePlainFrontpic: INCBIN "gfx/pokemon/raticate_plain/front.animated.2bpp.lz"
-RaticatePlainBackpic:  INCBIN "gfx/pokemon/raticate_plain/back.2bpp.lz"
+SECTION "CElisPlain Pics", ROMX
+CElisPlainFrontpic: INCBIN "gfx/pokemon/raticate_plain/front.animated.2bpp.lz"
+CElisPlainBackpic:  INCBIN "gfx/pokemon/raticate_plain/back.2bpp.lz"
 
 SECTION "EMimaAlolan Pics", ROMX
 EMimaAlolanFrontpic: INCBIN "gfx/pokemon/rattata_alolan/front.animated.2bpp.lz"
 EMimaAlolanBackpic:  INCBIN "gfx/pokemon/rattata_alolan/back.2bpp.lz"
 
-SECTION "RaticateAlolan Pics", ROMX
-RaticateAlolanFrontpic: INCBIN "gfx/pokemon/raticate_alolan/front.animated.2bpp.lz"
-RaticateAlolanBackpic:  INCBIN "gfx/pokemon/raticate_alolan/back.2bpp.lz"
+SECTION "CElisAlolan Pics", ROMX
+CElisAlolanFrontpic: INCBIN "gfx/pokemon/raticate_alolan/front.animated.2bpp.lz"
+CElisAlolanBackpic:  INCBIN "gfx/pokemon/raticate_alolan/back.2bpp.lz"
 
 SECTION "SandshrewPlain Pics", ROMX
 SandshrewPlainFrontpic: INCBIN "gfx/pokemon/sandshrew_plain/front.animated.2bpp.lz"

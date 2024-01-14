@@ -7,7 +7,7 @@ ENDM
 PokemonBodyData:
 ; entries correspond to constants/pokemon_constants.asm
 	table_width BODY_DATA_SIZE, PokemonBodyData
-	body_data   7,   69, QUADRUPED,    GREEN  ; CREIMU
+	body_data   7,   69, QUADRUPED,    RED    ; CREIMU
 	body_data  10,  130, QUADRUPED,    GREEN  ; REIMU
 	body_data  20, 1000, QUADRUPED,    GREEN  ; EREIMU
 	body_data   6,   85, BIPEDAL_TAIL, RED    ; CMARISA
@@ -26,9 +26,9 @@ PokemonBodyData:
 	body_data  11,  300, WINGS,        BROWN  ; CMIMA
 	body_data  15,  395, WINGS,        BROWN  ; MIMA
 	body_data   3,   35, QUADRUPED,    PURPLE ; EMIMA
-	body_data   7,  185, QUADRUPED,    BROWN  ; RATICATE
-	body_data   3,   20, WINGS,        BROWN  ; SPEAROW
-	body_data  12,  380, WINGS,        BROWN  ; FEAROW
+	body_data   7,  185, QUADRUPED,    BROWN  ; CELIS
+	body_data   3,   20, WINGS,        BROWN  ; ELIS
+	body_data  12,  380, WINGS,        BROWN  ; EELIS
 	body_data  20,   69, SERPENTINE,   PURPLE ; EKANS
 	body_data  35,  650, SERPENTINE,   PURPLE ; ARBOK
 	body_data   4,   60, QUADRUPED,    YELLOW ; PIKACHU
@@ -307,7 +307,7 @@ PokemonBodyData:
 	body_data  45,  474, SERPENTINE,   YELLOW ; DUDUNSPARCE (DUDUNSPARCE_THREE_SEGMENT_FORM)
 
 	body_data   3,   38, QUADRUPED,    BLACK  ; EMIMA (ALOLAN_FORM)
-	body_data   7,  255, QUADRUPED,    BLACK  ; RATICATE (ALOLAN_FORM)
+	body_data   7,  255, QUADRUPED,    BLACK  ; CELIS (ALOLAN_FORM)
 	body_data   7,  210, BIPEDAL_TAIL, BROWN  ; RAICHU (ALOLAN_FORM)
 	body_data   7,  400, BIPEDAL_TAIL, WHITE  ; SANDSHREW (ALOLAN_FORM)
 	body_data  12,  550, BIPEDAL_TAIL, BLUE   ; SANDSLASH (ALOLAN_FORM)

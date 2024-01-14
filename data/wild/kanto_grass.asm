@@ -284,7 +284,7 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 22, ZUBAT
-	wildmon 22, RATICATE
+	wildmon 22, CELIS
 	wildmon 24, GOLBAT
 	wildmon 21, SLOWPOKE
 	wildmon 20, EMIMA
@@ -292,7 +292,7 @@
 	wildmon 23, SLOWPOKE
 	; day
 	wildmon 22, ZUBAT
-	wildmon 22, RATICATE
+	wildmon 22, CELIS
 	wildmon 24, GOLBAT
 	wildmon 21, SLOWPOKE
 	wildmon 20, EMIMA
@@ -300,7 +300,7 @@
 	wildmon 23, SLOWPOKE
 	; nite
 	wildmon 22, ZUBAT
-	wildmon 22, RATICATE
+	wildmon 22, CELIS
 	wildmon 24, GOLBAT
 	wildmon 21, SLOWPOKE
 	wildmon 20, EMIMA
@@ -312,7 +312,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 56, CMIMA
-	wildmon 56, RATICATE
+	wildmon 56, CELIS
 	wildmon 57, FURRET
 	wildmon 57, CMIMA
 	wildmon 59, FURRET
@@ -320,7 +320,7 @@
 	wildmon 60, MIMA
 	; day
 	wildmon 56, CMIMA
-	wildmon 56, RATICATE
+	wildmon 56, CELIS
 	wildmon 57, FURRET
 	wildmon 57, CMIMA
 	wildmon 59, FURRET
@@ -328,10 +328,10 @@
 	wildmon 60, MIMA
 	; nite
 	wildmon 56, NOCTOWL
-	wildmon 56, RATICATE
-	wildmon 57, RATICATE
+	wildmon 56, CELIS
+	wildmon 57, CELIS
 	wildmon 57, NOCTOWL
-	wildmon 59, RATICATE
+	wildmon 59, CELIS
 	wildmon 60, NOCTOWL
 	wildmon 60, NOCTOWL
 	end_grass_wildmons
@@ -423,27 +423,27 @@
 	def_grass_wildmons ROUTE_3
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 52, FEAROW
-	wildmon 52, RATICATE
+	wildmon 52, EELIS
+	wildmon 52, CELIS
 	wildmon 54, ARBOK, ARBOK_KANTO_FORM
 	wildmon 55, SANDSLASH
 	wildmon 55, ARBOK, ARBOK_KANTO_FORM
 	wildmon 57, JIGGLYPUFF
 	wildmon 55, WIGGLYTUFF
 	; day
-	wildmon 52, FEAROW
-	wildmon 52, RATICATE
+	wildmon 52, EELIS
+	wildmon 52, CELIS
 	wildmon 54, ARBOK, ARBOK_KANTO_FORM
 	wildmon 55, SANDSLASH
 	wildmon 55, ARBOK, ARBOK_KANTO_FORM
 	wildmon 57, JIGGLYPUFF
 	wildmon 55, WIGGLYTUFF
 	; nite
-	wildmon 52, RATICATE
-	wildmon 52, RATICATE
-	wildmon 54, RATICATE
+	wildmon 52, CELIS
+	wildmon 52, CELIS
+	wildmon 54, CELIS
 	wildmon 55, GOLBAT
-	wildmon 55, RATICATE
+	wildmon 55, CELIS
 	wildmon 57, CLEFAIRY
 	wildmon 55, CLEFABLE
 	end_grass_wildmons
@@ -451,27 +451,27 @@
 	def_grass_wildmons ROUTE_4
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 54, FEAROW
-	wildmon 54, RATICATE
+	wildmon 54, EELIS
+	wildmon 54, CELIS
 	wildmon 56, ARBOK, ARBOK_KANTO_FORM
 	wildmon 57, SANDSLASH
 	wildmon 57, ARBOK, ARBOK_KANTO_FORM
 	wildmon 58, PRIMEAPE
 	wildmon 59, PRIMEAPE
 	; day
-	wildmon 54, FEAROW
-	wildmon 54, RATICATE
+	wildmon 54, EELIS
+	wildmon 54, CELIS
 	wildmon 56, ARBOK, ARBOK_KANTO_FORM
 	wildmon 57, SANDSLASH
 	wildmon 57, ARBOK, ARBOK_KANTO_FORM
 	wildmon 58, PRIMEAPE
 	wildmon 59, PRIMEAPE
 	; nite
-	wildmon 54, RATICATE
-	wildmon 54, RATICATE
-	wildmon 56, RATICATE
+	wildmon 54, CELIS
+	wildmon 54, CELIS
+	wildmon 56, CELIS
 	wildmon 57, GOLBAT
-	wildmon 57, RATICATE
+	wildmon 57, CELIS
 	wildmon 58, CLEFAIRY
 	wildmon 59, CLEFABLE
 	end_grass_wildmons
@@ -507,7 +507,7 @@
 	def_grass_wildmons ROUTE_6
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 45, RATICATE
+	wildmon 45, CELIS
 	wildmon 45, GRANBULL
 	wildmon 46, MAGNETON
 	wildmon 47, PRIMEAPE
@@ -515,7 +515,7 @@
 	wildmon 47, GRANBULL
 	wildmon 47, WIGGLYTUFF
 	; day
-	wildmon 45, RATICATE
+	wildmon 45, CELIS
 	wildmon 45, GRANBULL
 	wildmon 46, MAGNETON
 	wildmon 47, PRIMEAPE
@@ -528,27 +528,27 @@
 	wildmon 46, MAGNETON
 	wildmon 47, PSYDUCK
 	wildmon 50, JIGGLYPUFF
-	wildmon 47, RATICATE
+	wildmon 47, CELIS
 	wildmon 47, WIGGLYTUFF
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_7
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 49, RATICATE
-	wildmon 49, FEAROW
+	wildmon 49, CELIS
+	wildmon 49, EELIS
 	wildmon 51, GRANBULL
 	wildmon 54, VULPIX
 	wildmon 54, JIGGLYPUFF
-	wildmon 52, RATICATE
+	wildmon 52, CELIS
 	wildmon 51, WIGGLYTUFF
 	; day
-	wildmon 49, RATICATE
-	wildmon 49, FEAROW
+	wildmon 49, CELIS
+	wildmon 49, EELIS
 	wildmon 51, GRANBULL
 	wildmon 54, VULPIX
 	wildmon 54, JIGGLYPUFF
-	wildmon 52, RATICATE
+	wildmon 52, CELIS
 	wildmon 51, WIGGLYTUFF
 	; nite
 	wildmon 49, PERSIAN
@@ -591,45 +591,45 @@
 	def_grass_wildmons ROUTE_9
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 48, RATICATE
-	wildmon 47, FEAROW
+	wildmon 48, CELIS
+	wildmon 47, EELIS
 	wildmon 49, PRIMEAPE
 	wildmon 50, NIDORINA
 	wildmon 50, NIDORINO
 	wildmon 52, MAROWAK
 	wildmon 52, PRIMEAPE
 	; day
-	wildmon 48, RATICATE
-	wildmon 47, FEAROW
+	wildmon 48, CELIS
+	wildmon 47, EELIS
 	wildmon 49, PRIMEAPE
 	wildmon 50, NIDORINA
 	wildmon 50, NIDORINO
 	wildmon 52, MAROWAK
 	wildmon 52, PRIMEAPE
 	; nite
-	wildmon 48, RATICATE
+	wildmon 48, CELIS
 	wildmon 47, VENOMOTH
-	wildmon 49, RATICATE
+	wildmon 49, CELIS
 	wildmon 50, VENOMOTH
 	wildmon 50, GOLBAT
 	wildmon 52, MAROWAK
-	wildmon 52, RATICATE
+	wildmon 52, CELIS
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_10_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 47, FEAROW
+	wildmon 47, EELIS
 	wildmon 49, ELECTRODE
-	wildmon 47, RATICATE
+	wildmon 47, CELIS
 	wildmon 48, MAGNETON
 	wildmon 49, MAROWAK
 	wildmon 50, ELECTABUZZ
 	wildmon 52, ELECTABUZZ
 	; day
-	wildmon 47, FEAROW
+	wildmon 47, EELIS
 	wildmon 49, ELECTRODE
-	wildmon 47, RATICATE
+	wildmon 47, CELIS
 	wildmon 48, MAGNETON
 	wildmon 49, MAROWAK
 	wildmon 50, ELECTABUZZ
@@ -637,7 +637,7 @@
 	; nite
 	wildmon 47, VENOMOTH
 	wildmon 49, ELECTRODE
-	wildmon 47, RATICATE
+	wildmon 47, CELIS
 	wildmon 48, MAGNETON
 	wildmon 49, GOLBAT
 	wildmon 50, ELECTABUZZ
@@ -648,7 +648,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 53, SKIPLOOM
-	wildmon 48, RATICATE
+	wildmon 48, CELIS
 	wildmon 50, MAGNETON
 	wildmon 51, CMIMA
 	wildmon 51, SANDSLASH
@@ -656,7 +656,7 @@
 	wildmon 53, SUNFLORA
 	; day
 	wildmon 53, SKIPLOOM
-	wildmon 48, RATICATE
+	wildmon 48, CELIS
 	wildmon 50, MAGNETON
 	wildmon 51, CMIMA
 	wildmon 51, SANDSLASH
@@ -667,7 +667,7 @@
 	wildmon 48, MEOWTH
 	wildmon 50, MAGNEMITE
 	wildmon 51, NOCTOWL
-	wildmon 51, RATICATE
+	wildmon 51, CELIS
 	wildmon 51, HYPNO
 	wildmon 51, HYPNO
 	end_grass_wildmons
@@ -816,17 +816,17 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 53, GRIMER
-	wildmon 50, FEAROW
+	wildmon 50, EELIS
 	wildmon 54, SLUGMA
-	wildmon 52, FEAROW
+	wildmon 52, EELIS
 	wildmon 53, MAGCARGO
 	wildmon 54, MUK
 	wildmon 55, MUK
 	; day
 	wildmon 53, GRIMER
-	wildmon 50, FEAROW
+	wildmon 50, EELIS
 	wildmon 54, SLUGMA
-	wildmon 52, FEAROW
+	wildmon 52, EELIS
 	wildmon 53, MAGCARGO
 	wildmon 54, MUK
 	wildmon 55, MUK
@@ -844,17 +844,17 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 53, GRIMER
-	wildmon 50, FEAROW
+	wildmon 50, EELIS
 	wildmon 54, SLUGMA
-	wildmon 52, FEAROW
+	wildmon 52, EELIS
 	wildmon 53, MAGCARGO
 	wildmon 54, MUK
 	wildmon 55, MUK
 	; day
 	wildmon 53, GRIMER
-	wildmon 50, FEAROW
+	wildmon 50, EELIS
 	wildmon 54, SLUGMA
-	wildmon 52, FEAROW
+	wildmon 52, EELIS
 	wildmon 53, MAGCARGO
 	wildmon 54, MUK
 	wildmon 55, MUK
@@ -871,18 +871,18 @@
 	def_grass_wildmons ROUTE_17
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 51, FEAROW
+	wildmon 51, EELIS
 	wildmon 55, SLUGMA
 	wildmon 55, GRIMER
-	wildmon 53, FEAROW
+	wildmon 53, EELIS
 	wildmon 53, MAGCARGO
 	wildmon 54, MUK
 	wildmon 56, MUK
 	; day
-	wildmon 51, FEAROW
+	wildmon 51, EELIS
 	wildmon 55, SLUGMA
 	wildmon 55, GRIMER
-	wildmon 53, FEAROW
+	wildmon 53, EELIS
 	wildmon 53, MAGCARGO
 	wildmon 54, MUK
 	wildmon 56, MUK
@@ -899,25 +899,25 @@
 	def_grass_wildmons ROUTE_18_EAST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 52, FEAROW
+	wildmon 52, EELIS
 	wildmon 56, DODUO
-	wildmon 53, FEAROW
+	wildmon 53, EELIS
 	wildmon 54, DODRIO
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; day
-	wildmon 52, FEAROW
+	wildmon 52, EELIS
 	wildmon 56, DODUO
-	wildmon 53, FEAROW
+	wildmon 53, EELIS
 	wildmon 54, DODRIO
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; nite
-	wildmon 52, RATICATE
+	wildmon 52, CELIS
 	wildmon 56, NOCTOWL
-	wildmon 53, RATICATE
+	wildmon 53, CELIS
 	wildmon 54, MURKROW
 	wildmon 54, MURKROW
 	wildmon 55, MUK
@@ -927,25 +927,25 @@
 	def_grass_wildmons ROUTE_18_WEST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 52, FEAROW
+	wildmon 52, EELIS
 	wildmon 56, DODUO
-	wildmon 53, FEAROW
+	wildmon 53, EELIS
 	wildmon 54, DODRIO
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; day
-	wildmon 52, FEAROW
+	wildmon 52, EELIS
 	wildmon 56, DODUO
-	wildmon 53, FEAROW
+	wildmon 53, EELIS
 	wildmon 54, DODRIO
 	wildmon 54, MAGCARGO
 	wildmon 55, MUK
 	wildmon 57, MUK
 	; nite
-	wildmon 52, RATICATE
+	wildmon 52, CELIS
 	wildmon 56, NOCTOWL
-	wildmon 53, RATICATE
+	wildmon 53, CELIS
 	wildmon 54, MURKROW
 	wildmon 54, MURKROW
 	wildmon 55, MUK
@@ -956,25 +956,25 @@
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 57, TANGELA
-	wildmon 55, RATICATE
+	wildmon 55, CELIS
 	wildmon 58, TANGELA
-	wildmon 56, RATICATE
+	wildmon 56, CELIS
 	wildmon 58, MR__MIME
 	wildmon 59, MR__MIME
 	wildmon 60, MR__MIME
 	; day
 	wildmon 57, TANGELA
-	wildmon 55, RATICATE
+	wildmon 55, CELIS
 	wildmon 58, TANGELA
-	wildmon 56, RATICATE
+	wildmon 56, CELIS
 	wildmon 58, MR__MIME
 	wildmon 59, MR__MIME
 	wildmon 60, MR__MIME
 	; nite
 	wildmon 57, TANGELA
-	wildmon 55, RATICATE
+	wildmon 55, CELIS
 	wildmon 58, TANGELA
-	wildmon 56, RATICATE
+	wildmon 56, CELIS
 	wildmon 58, TANGELA
 	wildmon 59, TANGELA
 	wildmon 60, TANGELA
@@ -983,28 +983,28 @@
 	def_grass_wildmons ROUTE_22
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 56, RATICATE
-	wildmon 56, FEAROW
+	wildmon 56, CELIS
+	wildmon 56, EELIS
 	wildmon 58, NIDORINO
 	wildmon 58, NIDORINA
 	wildmon 59, PONYTA
 	wildmon 59, PONYTA
 	wildmon 60, PONYTA
 	; day
-	wildmon 56, RATICATE
-	wildmon 56, FEAROW
+	wildmon 56, CELIS
+	wildmon 56, EELIS
 	wildmon 58, NIDORINO
 	wildmon 58, NIDORINA
 	wildmon 59, PONYTA
 	wildmon 59, PONYTA
 	wildmon 60, PONYTA
 	; nite
-	wildmon 56, RATICATE
+	wildmon 56, CELIS
 	wildmon 56, POLIWHIRL
 	wildmon 58, NIDORINO
 	wildmon 58, NIDORINA
-	wildmon 59, RATICATE
-	wildmon 59, RATICATE
+	wildmon 59, CELIS
+	wildmon 59, CELIS
 	wildmon 60, POLIWHIRL
 	end_grass_wildmons
 
@@ -1028,8 +1028,8 @@
 	wildmon 42, DITTO
 	; nite
 	wildmon 37, NOCTOWL
-	wildmon 38, RATICATE
-	wildmon 38, RATICATE
+	wildmon 38, CELIS
+	wildmon 38, CELIS
 	wildmon 39, QUAGSIRE
 	wildmon 39, QUAGSIRE
 	wildmon 40, QUAGSIRE
@@ -1098,7 +1098,7 @@
 	wildmon 38, DODUO
 	wildmon 38, SANDSLASH
 	wildmon 41, PONYTA
-	wildmon 40, RATICATE
+	wildmon 40, CELIS
 	wildmon 39, DODUO
 	wildmon 40, ARBOK, ARBOK_KANTO_FORM
 	wildmon 41, ARBOK, ARBOK_KANTO_FORM
@@ -1106,15 +1106,15 @@
 	wildmon 38, DODUO
 	wildmon 38, SANDSLASH
 	wildmon 41, PONYTA
-	wildmon 40, RATICATE
+	wildmon 40, CELIS
 	wildmon 39, DODUO
 	wildmon 40, ARBOK, ARBOK_KANTO_FORM
 	wildmon 41, ARBOK, ARBOK_KANTO_FORM
 	; nite
 	wildmon 38, NOCTOWL
-	wildmon 38, RATICATE
+	wildmon 38, CELIS
 	wildmon 41, NOCTOWL
-	wildmon 40, RATICATE
+	wildmon 40, CELIS
 	wildmon 39, QUAGSIRE
 	wildmon 40, QUAGSIRE
 	wildmon 41, QUAGSIRE
@@ -1125,7 +1125,7 @@
 	; morn
 	wildmon 37, DODUO
 	wildmon 37, ARBOK, ARBOK_KANTO_FORM
-	wildmon 39, RATICATE
+	wildmon 39, CELIS
 	wildmon 39, DODUO
 	wildmon 41, PONYTA
 	wildmon 39, DODRIO
@@ -1133,7 +1133,7 @@
 	; day
 	wildmon 37, DODUO
 	wildmon 37, ARBOK, ARBOK_KANTO_FORM
-	wildmon 39, RATICATE
+	wildmon 39, CELIS
 	wildmon 39, DODUO
 	wildmon 41, PONYTA
 	wildmon 39, DODRIO
@@ -1141,7 +1141,7 @@
 	; nite
 	wildmon 37, QUAGSIRE
 	wildmon 37, NOCTOWL
-	wildmon 39, RATICATE
+	wildmon 39, CELIS
 	wildmon 39, QUAGSIRE
 	wildmon 41, NOCTOWL
 	wildmon 39, NOCTOWL
@@ -1851,7 +1851,7 @@
 	def_grass_wildmons POKEMON_MANSION_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 58, RATICATE
+	wildmon 58, CELIS
 	wildmon 56, WEEZING
 	wildmon 57, MUK
 	wildmon 59, ARCANINE
@@ -1859,7 +1859,7 @@
 	wildmon 60, RAPIDASH
 	wildmon 60, RAPIDASH
 	; day
-	wildmon 58, RATICATE
+	wildmon 58, CELIS
 	wildmon 56, WEEZING
 	wildmon 57, MUK
 	wildmon 59, ARCANINE
@@ -1879,7 +1879,7 @@
 	def_grass_wildmons POKEMON_MANSION_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 58, RATICATE
+	wildmon 58, CELIS
 	wildmon 56, WEEZING
 	wildmon 57, MUK
 	wildmon 59, ARCANINE
@@ -1887,7 +1887,7 @@
 	wildmon 60, DITTO
 	wildmon 60, DITTO
 	; day
-	wildmon 58, RATICATE
+	wildmon 58, CELIS
 	wildmon 56, WEEZING
 	wildmon 57, MUK
 	wildmon 59, ARCANINE

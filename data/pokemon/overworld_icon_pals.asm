@@ -4,7 +4,7 @@ ENDM
 
 OverworldMonIconColors::
 	table_width 1, OverworldMonIconColors
-	iconpal TEAL, GREEN ; CREIMU
+	iconpal RED, GREEN ; CREIMU
 	iconpal TEAL, GREEN ; REIMU
 	iconpal TEAL, GREEN ; EREIMU
 	iconpal ORANGE, PINK ; CMARISA
@@ -23,9 +23,9 @@ OverworldMonIconColors::
 	iconpal BROWN, RED ; CMIMA
 	iconpal BROWN, RED ; MIMA
 	iconpal PURPLE, GRAY ; EMIMA
-	iconpal BROWN, RED ; RATICATE
-	iconpal BROWN, ORANGE ; SPEAROW
-	iconpal BROWN, PINK ; FEAROW
+	iconpal BROWN, RED ; CELIS
+	iconpal BROWN, ORANGE ; ELIS
+	iconpal BROWN, PINK ; EELIS
 	iconpal PURPLE, BROWN ; EKANS
 	iconpal PURPLE, BROWN ; ARBOK
 	iconpal RED, AZURE ; PIKACHU
@@ -324,7 +324,7 @@ endr
 	iconpal AZURE, RED ; DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
 
 	iconpal BLACK, RED ; EMIMA, ALOLAN_FORM
-	iconpal BLACK, RED ; RATICATE, ALOLAN_FORM
+	iconpal BLACK, RED ; CELIS, ALOLAN_FORM
 	iconpal ORANGE, BROWN ; RAICHU, ALOLAN_FORM
 	iconpal WHITE, GREEN ; SANDSHREW, ALOLAN_FORM
 	iconpal WHITE, GREEN ; SANDSLASH, ALOLAN_FORM

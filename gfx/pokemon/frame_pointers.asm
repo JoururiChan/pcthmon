@@ -19,9 +19,9 @@ FramesPointers:
 	dw CMimaFrames
 	dw MimaFrames
 	dw EMimaFrames
-	dw RaticatePlainFrames
-	dw SpearowFrames
-	dw FearowFrames
+	dw CElisPlainFrames
+	dw ElisFrames
+	dw EElisFrames
 	dw EkansFrames
 	dw ArbokJohtoFrames
 	dw PikachuPlainFrames
@@ -363,7 +363,7 @@ FramesPointers:
 	dw DudunsparceThreeSegmentFrames
 
 	dw EMimaAlolanFrames
-	dw RaticateAlolanFrames
+	dw CElisAlolanFrames
 	dw RaichuAlolanFrames
 	dw SandshrewAlolanFrames
 	dw SandslashAlolanFrames

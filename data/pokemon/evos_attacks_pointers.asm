@@ -23,9 +23,9 @@ EvosAttacksPointers::
 	dw CMimaEvosAttacks
 	dw MimaEvosAttacks
 	dw EMimaEvosAttacks
-	dw RaticatePlainEvosAttacks
-	dw SpearowEvosAttacks
-	dw FearowEvosAttacks
+	dw CElisPlainEvosAttacks
+	dw ElisEvosAttacks
+	dw EElisEvosAttacks
 	dw EkansEvosAttacks
 	dw ArbokEvosAttacks
 	dw PikachuEvosAttacks
@@ -304,7 +304,7 @@ EvosAttacksPointers::
 	dw DudunsparceEvosAttacks
 
 	dw EMimaAlolanEvosAttacks
-	dw RaticateAlolanEvosAttacks
+	dw CElisAlolanEvosAttacks
 	dw RaichuAlolanEvosAttacks
 	dw SandshrewAlolanEvosAttacks
 	dw SandslashAlolanEvosAttacks

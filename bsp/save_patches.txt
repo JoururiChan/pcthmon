@@ -602,7 +602,7 @@ ConvertMonIndexesTo9Bit:
 	; upper bound, offset
 	; note that while upper bounds are usually exclusive here, for dex flags,
 	; we do need to convert mon indexes to be 0-indexed, so it's effectively inclusive
-	dh 0x14, 0   ; RATICATE
+	dh 0x14, 0   ; CELIS
 	dh 0x16, 162 ; AZUMARILL
 	dh 0x6b, 0   ; HITMONCHAN
 	dh 0x74, 1   ; SEADRA
@@ -673,7 +673,7 @@ ConvertMonIndexesTo9Bit:
 	db 0x96, 2 ; MEWTWO, ARMORED
 	db 0x96, 2 ; this is actually Dudunsparce, here just to preserve flag order
 	db 0x13, 2 ; EMIMA, ALOLAN
-	db 0x14, 2 ; RATICATE, ALOLAN
+	db 0x14, 2 ; CELIS, ALOLAN
 	db 0x1a, 2 ; RAICHU, ALOLAN
 	db 0x1b, 2 ; SANDSHREW, ALOLAN
 	db 0x1c, 2 ; SANDSLASH, ALOLAN
@@ -708,8 +708,8 @@ ConvertMonIndexesTo9Bit:
 .new_indexes
 ; terimated with zero, not -1
 ; converted to 0-indexed
-	db 0x14 ; SPEAROW
-	db 0x15 ; FEAROW
+	db 0x14 ; ELIS
+	db 0x15 ; EELIS
 	db 0x6b ; LICKITUNG
 	db 0x75 ; GOLDEEN
 	db 0x76 ; SEAKING

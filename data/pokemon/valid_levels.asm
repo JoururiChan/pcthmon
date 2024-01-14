@@ -20,9 +20,9 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  27 ; CMima
 	db  28,  49 ; Mima
 	db  50, 100 ; EMima
-	db  20, 100 ; Raticate
-	db   1,  19 ; Spearow
-	db  20, 100 ; Fearow
+	db  20, 100 ; CElis
+	db   1,  19 ; Elis
+	db  20, 100 ; EElis
 	db   1,  21 ; Ekans
 	db  22, 100 ; Arbok
 	db   1,  19 ; Pikachu

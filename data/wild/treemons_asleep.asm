@@ -15,7 +15,7 @@ AsleepTreeMons:
 	dp CSAKUYA
 	dp CMAGAN
 	dp MAGAN
-	dp SPEAROW
+	dp ELIS
 	dp EKANS
 	dp EXEGGCUTE
 	dp LEDYBA

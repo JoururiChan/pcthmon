@@ -19,9 +19,9 @@ EggMovePointers::
 	dw NoEggMoves             ; CMima
 	dw NoEggMoves             ; Mima
 	dw EMimaEggMoves   ; EMima
-	dw NoEggMoves             ; Raticate
-	dw SpearowEggMoves        ; Spearow
-	dw NoEggMoves             ; Fearow
+	dw NoEggMoves             ; CElis
+	dw ElisEggMoves        ; Elis
+	dw NoEggMoves             ; EElis
 	dw EkansEggMoves          ; Ekans
 	dw NoEggMoves             ; Arbok
 	dw NoEggMoves             ; Pikachu
@@ -300,7 +300,7 @@ EggMovePointers::
 	dw NoEggMoves                ; Dundunsparse (Three Segment Form)
 
 	dw EMimaAlolanEggMoves     ; EMima (Alolan Form)
-	dw NoEggMoves                ; Raticate (Alolan Form)
+	dw NoEggMoves                ; CElis (Alolan Form)
 	dw NoEggMoves                ; Raichu (Alolan Form)
 	dw SandshrewAlolanEggMoves   ; Sandshrew (Alolan Form)
 	dw NoEggMoves                ; Sandslash (Alolan Form)

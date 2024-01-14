@@ -53,7 +53,7 @@ EMimaAlolanEggMoves:
 	db COUNTER
 	db $ff
 
-SpearowEggMoves:
+ElisEggMoves:
 	db ASTONISH
 	db FEINT_ATTACK
 	db QUICK_ATTACK

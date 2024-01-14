@@ -381,7 +381,7 @@ EMimaEvosAttacks:
 	db -1 ; no more level-up moves
 
 EMimaAlolanEvosAttacks:
-	evo_data EVOLVE_LEVEL, 20, RATICATE, ALOLAN_FORM
+	evo_data EVOLVE_LEVEL, 20, CELIS, ALOLAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER ; Tail Whip → similar move
@@ -398,8 +398,8 @@ EMimaAlolanEvosAttacks:
 	db 34, COUNTER ; Endeavor → egg move
 	db -1 ; no more level-up moves
 
-RaticatePlainEvosAttacks:
-RaticateAlolanEvosAttacks:
+CElisPlainEvosAttacks:
+CElisAlolanEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SCARY_FACE ; evolution move
 	db 1, SWORDS_DANCE
@@ -418,8 +418,8 @@ RaticateAlolanEvosAttacks:
 	db 44, COUNTER ; Endeavor → egg move
 	db -1 ; no more level-up moves
 
-SpearowEvosAttacks:
-	evo_data EVOLVE_LEVEL, 20, FEAROW
+ElisEvosAttacks:
+	evo_data EVOLVE_LEVEL, 20, EELIS
 	db -1 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL
@@ -435,7 +435,7 @@ SpearowEvosAttacks:
 	db 36, DRILL_PECK
 	db -1 ; no more level-up moves
 
-FearowEvosAttacks:
+EElisEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, QUICK_ATTACK ; Pluck → egg move
 	db 1, PECK

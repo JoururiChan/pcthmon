@@ -19,9 +19,9 @@ BitmasksPointers:
 	dw CMimaBitmasks
 	dw MimaBitmasks
 	dw EMimaBitmasks
-	dw RaticatePlainBitmasks
-	dw SpearowBitmasks
-	dw FearowBitmasks
+	dw CElisPlainBitmasks
+	dw ElisBitmasks
+	dw EElisBitmasks
 	dw EkansBitmasks
 	dw ArbokJohtoBitmasks
 	dw PikachuPlainBitmasks
@@ -363,7 +363,7 @@ BitmasksPointers:
 	dw DudunsparceThreeSegmentBitmasks
 
 	dw EMimaAlolanBitmasks
-	dw RaticateAlolanBitmasks
+	dw CElisAlolanBitmasks
 	dw RaichuAlolanBitmasks
 	dw SandshrewAlolanBitmasks
 	dw SandslashAlolanBitmasks

@@ -23,9 +23,9 @@ MiniIconPointers:
 	mini_icon CMima
 	mini_icon Mima
 	mini_icon EMima
-	mini_icon Raticate
-	mini_icon Spearow
-	mini_icon Fearow
+	mini_icon CElis
+	mini_icon Elis
+	mini_icon EElis
 	mini_icon Ekans
 	mini_icon Arbok
 	mini_icon Pikachu
@@ -351,7 +351,7 @@ endr
 	mini_icon DudunsparceThreeSegment
 
 	mini_icon EMimaAlolan
-	mini_icon RaticateAlolan
+	mini_icon CElisAlolan
 	mini_icon RaichuAlolan
 	mini_icon SandshrewAlolan
 	mini_icon SandslashAlolan

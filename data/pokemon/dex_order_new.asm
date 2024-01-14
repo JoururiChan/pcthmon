@@ -14,12 +14,12 @@ NewPokedexOrder:
 	dp EMAGAN
 	dp CMIMA
 	dp MIMA
-	dp SPEAROW
-	dp FEAROW
+	dp ELIS
+	dp EELIS
 	dp HOOTHOOT
 	dp NOCTOWL
 	dp EMIMA
-	dp RATICATE
+	dp CELIS
 	dp SENTRET
 	dp FURRET
 	dp PICHU

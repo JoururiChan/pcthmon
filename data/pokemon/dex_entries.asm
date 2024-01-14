@@ -192,8 +192,8 @@ EMimaPokedexEntry::
 	next "also multiplies"
 	next "very quickly.@"
 
-SECTION "RaticatePlainPokedexEntry", ROMX
-RaticatePlainPokedexEntry::
+SECTION "CElisPlainPokedexEntry", ROMX
+CElisPlainPokedexEntry::
 	db "Rat@"
 	db   "The webs on its"
 	next "hind legs enable"
@@ -202,8 +202,8 @@ RaticatePlainPokedexEntry::
 	next "es wide areas for"
 	next "food.@"
 
-SECTION "SpearowPokedexEntry", ROMX
-SpearowPokedexEntry::
+SECTION "ElisPokedexEntry", ROMX
+ElisPokedexEntry::
 	db "Tiny Bird@"
 	db   "To protect its"
 	next "territory, it"
@@ -212,8 +212,8 @@ SpearowPokedexEntry::
 	next "making high-"
 	next "pitched cries.@"
 
-SECTION "FearowPokedexEntry", ROMX
-FearowPokedexEntry::
+SECTION "EElisPokedexEntry", ROMX
+EElisPokedexEntry::
 	db "Beak@"
 	db   "It uses its long"
 	next "beak to attack. It"
@@ -2925,8 +2925,8 @@ EMimaAlolanPokedexEntry::
 	next "with you, it'll help"
 	next "pick ingredients.@"
 
-SECTION "RaticateAlolanPokedexEntry", ROMX
-RaticateAlolanPokedexEntry::
+SECTION "CElisAlolanPokedexEntry", ROMX
+CElisAlolanPokedexEntry::
 	db "Mouse@"
 	db   "It makes its Rat-"
 	next "tata underlings"

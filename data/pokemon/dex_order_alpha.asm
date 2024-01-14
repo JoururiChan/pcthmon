@@ -69,7 +69,7 @@ AlphabeticalPokedexOrder:
 	dp EXEGGUTOR
 	dp FARIGIRAF
 	dp FARFETCH_D
-	dp FEAROW
+	dp EELIS
 	dp ESANAE
 	dp FLAAFFY
 	dp FLAREON
@@ -209,7 +209,7 @@ AlphabeticalPokedexOrder:
 	dp RAICHU
 	dp RAIKOU
 	dp RAPIDASH
-	dp RATICATE
+	dp CELIS
 	dp EMIMA
 	dp REMORAID
 	dp RHYDON
@@ -238,7 +238,7 @@ AlphabeticalPokedexOrder:
 	dp SNEASLER
 	dp SNORLAX
 	dp SNUBBULL
-	dp SPEAROW
+	dp ELIS
 	dp SPINARAK
 	dp CSAKUYA
 	dp STANTLER

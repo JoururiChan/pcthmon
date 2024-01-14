@@ -38,8 +38,8 @@ RandyScript:
 	writetext Route35GoldenrodGatePlayerReceivedAMonWithMailText
 	playsound SFX_KEY_ITEM
 	waitsfx
-	givepoke SPEAROW, FEMALE | PLAIN_FORM, 10, NO_ITEM, NET_BALL, NO_MOVE, GiftSpearowName, GiftSpearowOTName, 01001
-	givepokemail GiftSpearowMail
+	givepoke ELIS, FEMALE | PLAIN_FORM, 10, NO_ITEM, NET_BALL, NO_MOVE, GiftElisName, GiftElisOTName, 01001
+	givepokemail GiftElisMail
 	setevent EVENT_GOT_KENYA
 .alreadyhavekenya
 	jumpopenedtext Route35GoldenrodGateRandyWeirdTreeBlockingRoadText
@@ -62,15 +62,15 @@ RandyScript:
 .bagfull
 	endtext
 
-GiftSpearowMail:
+GiftElisMail:
 	db   FLOWER_MAIL
 	db   "Dark Cave leads"
 	next "to another road@"
 
-GiftSpearowName:
+GiftElisName:
 	rawchar "Kenya@"
 
-GiftSpearowOTName:
+GiftElisOTName:
 	rawchar "Randy@"
 
 Route35GoldenrodGatePokefanFScript:

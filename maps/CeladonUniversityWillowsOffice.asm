@@ -55,7 +55,7 @@ CeladonUniversityWillowsOfficeScientistText:
 	cont "of Route 7."
 
 	para "Today I saw 42"
-	line "Raticate and"
+	line "CElis and"
 	cont "37 CMima…"
 	cont "and one Vulpix!"
 	done

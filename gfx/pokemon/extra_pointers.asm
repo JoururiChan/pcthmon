@@ -19,9 +19,9 @@ AnimationExtraPointers:
 	dw CMimaAnimationExtra
 	dw MimaAnimationExtra
 	dw EMimaAnimationExtra
-	dw RaticatePlainAnimationExtra
-	dw SpearowAnimationExtra
-	dw FearowAnimationExtra
+	dw CElisPlainAnimationExtra
+	dw ElisAnimationExtra
+	dw EElisAnimationExtra
 	dw EkansAnimationExtra
 	dw ArbokJohtoAnimationExtra
 	dw PikachuPlainAnimationExtra
@@ -363,7 +363,7 @@ AnimationExtraPointers:
 	dw DudunsparceThreeSegmentAnimationExtra
 
 	dw EMimaAlolanAnimationExtra
-	dw RaticateAlolanAnimationExtra
+	dw CElisAlolanAnimationExtra
 	dw RaichuAlolanAnimationExtra
 	dw SandshrewAlolanAnimationExtra
 	dw SandslashAlolanAnimationExtra

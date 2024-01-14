@@ -3,8 +3,8 @@ FuryAttackUsers:
 	dp CSAKUYA
 	dp SAKUYA
 	dp ESAKUYA
-	dp SPEAROW
-	dp FEAROW
+	dp ELIS
+	dp EELIS
 	dp NIDORAN_M
 	dp NIDORINO
 	dp NIDOKING

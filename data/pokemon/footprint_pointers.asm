@@ -19,9 +19,9 @@ FootprintPointers::
 	dw CMimaFootprint
 	dw MimaFootprint
 	dw EMimaFootprint
-	dw RaticateFootprint
-	dw SpearowFootprint
-	dw FearowFootprint
+	dw CElisFootprint
+	dw ElisFootprint
+	dw EElisFootprint
 	dw EkansFootprint
 	dw ArbokFootprint
 	dw PikachuFootprint
@@ -300,7 +300,7 @@ FootprintPointers::
 	dw DudunsparceFootprint
 
 	dw EMimaFootprint
-	dw RaticateFootprint
+	dw CElisFootprint
 	dw RaichuFootprint
 	dw SandshrewFootprint
 	dw SandslashFootprint

@@ -141,7 +141,7 @@ Victory: DOGGONE IT!
 
 After: I think I heard about you from my son... (gives HP up)
 
-Team: Raticate (high level)
+Team: CElis (high level)
 
 
 Birdkeeper Jethro 
@@ -179,7 +179,7 @@ Rando NPC: Whuzzat? Team Galatic did what? Huh? Get outta here, kid! I'm trying 
 
 Rando NPC: Aww yeah! Some doofus gave me their Bidoof for my Mewtwo! Ya can't find those here!
 
-Rando NPC: Such a shame...I was hoping to observe the migratory pattern of Spearow and Fearow, but it seems they're all gone...
+Rando NPC: Such a shame...I was hoping to observe the migratory pattern of Elis and EElis, but it seems they're all gone...
 
 Supernerd: Hey, kid! I need some serious juice for my experiments! Get me a Magneton and I'll give you my spare Porygon2! (Nickname: Gent2, shiny, holding dubious disk or whatever evolves it to Z, OT: rms)
 

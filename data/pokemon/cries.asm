@@ -25,9 +25,9 @@ PokemonCries::
 	mon_cry CRY_CMIMA,   $028,  $140 ; CMima
 	mon_cry CRY_CMIMA,   $011,  $17f ; Mima
 	mon_cry CRY_EMIMA,     $000,  $100 ; EMima
-	mon_cry CRY_EMIMA,     $020,  $17f ; Raticate
-	mon_cry CRY_FARFETCH_D,  $000,  $100 ; Spearow
-	mon_cry CRY_SHELLDER,    $040,  $120 ; Fearow
+	mon_cry CRY_EMIMA,     $020,  $17f ; CElis
+	mon_cry CRY_FARFETCH_D,  $000,  $100 ; Elis
+	mon_cry CRY_SHELLDER,    $040,  $120 ; EElis
 	mon_cry CRY_EKANS,       $012,  $0c0 ; Ekans
 	mon_cry CRY_EKANS,       $0e0,  $090 ; Arbok
 	mon_cry CRY_CREIMU,   $0ee,  $081 ; Pikachu

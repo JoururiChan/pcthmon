@@ -41,9 +41,9 @@
 	const CMIMA  ; 11
 	const MIMA    ; 12
 	const EMIMA    ; 13
-	const RATICATE   ; 14
-	const SPEAROW    ; 15
-	const FEAROW     ; 16
+	const CELIS   ; 14
+	const ELIS    ; 15
+	const EELIS     ; 16
 	const EKANS      ; 17
 	const ARBOK      ; 18
 	const PIKACHU    ; 19
