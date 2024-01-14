@@ -21,7 +21,7 @@ BattleAnimations::
 	dw BattleAnim_WingAttack
 	dw BattleAnim_SuckerPunch
 	dw BattleAnim_Fly
-	dw BattleAnim_Energy Light
+	dw BattleAnim_EnergyLight
 	dw BattleAnim_VoltSwitch
 	dw BattleAnim_VineWhip
 	dw BattleAnim_Stomp
@@ -2790,7 +2790,7 @@ BattleAnim_NightSlash:
 	anim_bgp $e4
 	anim_ret
 
-BattleAnim_Energy Light:
+BattleAnim_EnergyLight:
 	anim_1gfx ANIM_GFX_SPEED
 	anim_sound 0, 1, SFX_MOONLIGHT
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
