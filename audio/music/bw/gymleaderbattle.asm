@@ -1,4 +1,4 @@
-; Pokémon B/W - Battle! Gym Leader
+; Tohomon B/W - Battle! Gym Leader
 ; Demixed by Pum
 ; https://hax.iimarckus.org/topic/6443/
 

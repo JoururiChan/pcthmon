@@ -1,4 +1,4 @@
-; Pokémon Go - Battle! Gym Leader
+; Tohomon Go - Battle! Gym Leader
 ; Demixed by ShockSlayer
 ; https://soundcloud.com/user-927422935-571023782/pokemon-go-gym-battle-8-bit/s-nRFXX
 

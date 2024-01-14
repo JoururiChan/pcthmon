@@ -1,4 +1,4 @@
-; Pokémon Go - Battle! Wild Pokémon
+; Tohomon Go - Battle! Wild Tohomon
 ; Demixed by ShockSlayer
 ; https://soundcloud.com/user-927422935-571023782/pokemon-go-wild-battle-8-bit-1/s-4NapJ
 

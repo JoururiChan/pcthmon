@@ -99,7 +99,7 @@ HandleBetweenTurnEffects:
 	ret
 
 .player_not_fleeing
-	; figure out which Pokémon fainted
+	; figure out which Tohomon fainted
 	ld e, 0
 	call HasPlayerFainted
 	jr nz, .player_not_fainted

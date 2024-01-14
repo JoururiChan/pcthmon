@@ -1,4 +1,4 @@
-; Pokémon Stadium - Battle! Mewtwo
+; Tohomon Stadium - Battle! Mewtwo
 ; Demixed by ShockSlayer
 ; https://soundcloud.com/user-927422935-571023782/battle-with-mewtwo-8-bit
 

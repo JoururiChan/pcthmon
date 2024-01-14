@@ -45,7 +45,7 @@ GetPokeBallWobble:
 
 .ok
 	; Check how many wobbles we've done so far. If this would've been our 4th,
-	; we've successfully caught the Pokémon.
+	; we've successfully caught the Tohomon.
 	ld c, 0 ; shake
 	ld a, [wBuffer2]
 	inc a

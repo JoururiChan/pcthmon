@@ -1,4 +1,4 @@
-; Pokémon OR/AS - Battle! Zinnia
+; Tohomon OR/AS - Battle! Zinnia
 ; Demixed by Mmmmmm
 ; https://pastebin.com/fsqpcGL3
 ; https://hax.iimarckus.org/topic/6777/4/

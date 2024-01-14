@@ -1,4 +1,4 @@
-; Pokémon Prism - Battle! Trainer
+; Tohomon Prism - Battle! Trainer
 ; Composed by GACT
 ; Revised by NotFroggestSpirit
 

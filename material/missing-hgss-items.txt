@@ -116,7 +116,7 @@ PP Max	On a ledge at the southern end of the route (requires Rock Climb)
 ----- Kanto -----
 
 route 3:
-Hyper Potion	On a boulder west of the Pokémon Center (requires Rock Smash)
+Hyper Potion	On a boulder west of the Tohomon Center (requires Rock Smash)
 
 route 4:
 Big Mushroom	Southeast of Bird Keeper Hank

@@ -12,7 +12,7 @@ pre-battle - “I'm a one-man band, baby. Let the music play!”
 win battle - “Rock on!”
 post-battle - “Feel those rocking notes!”
 
-Can I take a selfie with your Pokémon?
+Can I take a selfie with your Tohomon?
 Snap!
 I've dropped my phone, like, five times. The screen's cracked, but the camera works!
 

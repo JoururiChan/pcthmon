@@ -1,4 +1,4 @@
-; Pokémon D/P/Pt - Stark Mountain
+; Tohomon D/P/Pt - Stark Mountain
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/pokecrystal/blob/master/Demixes.zip
 

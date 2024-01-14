@@ -1,4 +1,4 @@
-; Kanto Pokémon in grass
+; Kanto Tohomon in grass
 
 	def_grass_wildmons DIGLETTS_CAVE
 	db 4 percent, 2 percent, 8 percent ; encounter rates: morn/day/nite

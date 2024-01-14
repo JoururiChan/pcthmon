@@ -321,7 +321,7 @@ PCGiveItem:
 	call _GetItemToGive
 	ret z
 
-	; Ensure that we aren't trying to give Mail to a Pokémon in storage.
+	; Ensure that we aren't trying to give Mail to a Tohomon in storage.
 	ld a, [wCurItem]
 	ld d, a
 	call ItemIsMail

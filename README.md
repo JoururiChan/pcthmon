@@ -1,10 +1,10 @@
-# Pokémon Polished Crystal
+# Tohomon Polished Crystal
 
-This is a custom Pokémon game based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal).
+This is a custom Tohomon game based on [the Tohomon Crystal disassembly](https://github.com/pret/pokecrystal).
 
-My goal is to create what the title says: an improved, polished version of Pokémon Crystal. It fixes bugs, takes into account the official game changes since 2001, and adds some new ideas of my own. Many features restore what was removed from R/B/Y, or original to HG/SS.
+My goal is to create what the title says: an improved, polished version of Tohomon Crystal. It fixes bugs, takes into account the official game changes since 2001, and adds some new ideas of my own. Many features restore what was removed from R/B/Y, or original to HG/SS.
 
-I've had vague plans to make a Pokémon game for years. I'm very impressed by the effort that's gone into disassembling Pokémon Crystal and making the code so well-organized. Thanks to making it open-source (and to the ROM hackers that inspired me), I'm finally making this game a reality.
+I've had vague plans to make a Tohomon game for years. I'm very impressed by the effort that's gone into disassembling Tohomon Crystal and making the code so well-organized. Thanks to making it open-source (and to the ROM hackers that inspired me), I'm finally making this game a reality.
 
 > There are many ways to create games but the way we work at Game Freak may be a little different from other companies. That is, we constantly change and tweak what we have come up with. To make a fun game even more fun and polish it up, we take what we have made and start thinking about it from scratch. And to make the game the most fun to play we make endless changes and tweaks no matter how long it takes. It may not be the best way, but I think these tweaks are important to make our games fun and better.
 >
@@ -26,7 +26,7 @@ If you want to do a [Nuzlocke Challenge](http://bulbapedia.bulbagarden.net/wiki/
 
 A full list of features is in [FEATURES.md](FEATURES.md). Features new to the beta are in [CHANGELOG.md](CHANGELOG.md). Some highlights:
 
-* 253 Pokémon, including some new evolutions.
+* 253 Tohomon, including some new evolutions.
 * 48 new moves.
 * 65 TMs and 21 move tutors.
 * Many new mechanics, including the Fairy type, Physical/Special split, Natures, unlimited TMs, Running Shoes, and continuous Repel.
@@ -48,7 +48,7 @@ You can post questions or comments on any of these sites. But please read the [F
 * [Romhack.me](http://www.romhack.me/polishedcrystal/wall/)
 * [/r/PokemonROMHacks](https://www.reddit.com/r/PokemonROMhacks/comments/51kbcn/pok%C3%A9mon_polished_crystal_200/)
 * [Nuzlocke Forums](http://s7.zetaboards.com/Nuzlocke_Forum/topic/11003710/)
-* [Pokémon Hackers Online](http://www.pokemonhackersonline.com/showthread.php?t=15811)
+* [Tohomon Hackers Online](http://www.pokemonhackersonline.com/showthread.php?t=15811)
 
 
 ## Screenshots

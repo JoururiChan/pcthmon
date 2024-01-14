@@ -1,4 +1,4 @@
-; Pokémon Prism - Battle! Palette Ranger
+; Tohomon Prism - Battle! Palette Ranger
 ; Composed by Cat333Pokemon
 ; Revised by NotFroggestSpirit
 

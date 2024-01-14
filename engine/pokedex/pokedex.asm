@@ -2817,11 +2817,11 @@ INCLUDE "gfx/pokedex/body_colors.pal"
 	assert_table_length NUM_BODY_COLORS
 
 Pokedex_InitData:
-; Initializes the list of Pokémon seen and owned.
+; Initializes the list of Tohomon seen and owned.
 	; Reset cursor positioning and wTempDex data.
 	call Pokedex_ResetDexMonsAndTemp
 
-	; Then populate the list with seen/captured Pokémon. Do seen first, because
+	; Then populate the list with seen/captured Tohomon. Do seen first, because
 	; a captured altform takes predecence over a seen regular form.
 	ld hl, .SpeciesCallback
 	call Pokedex_IterateSpeciesWithMode
@@ -2916,7 +2916,7 @@ Pokedex_HandleSeenOwn:
 ; is used as main callback (and not chained with another that messes with
 ; the way it handles things). Not that the one invoking this callback has to
 ; clear wTempDex-wTempDexEnd itself.
-	; First, check if we own the Pokémon.
+	; First, check if we own the Tohomon.
 	ld hl, wPokedexCaught
 	call .CheckDexFlag
 	jr z, .check_seen

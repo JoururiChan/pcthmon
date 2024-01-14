@@ -1629,7 +1629,7 @@ LinkTrade:
 	call SetTradeRoomBGPals
 	call Link_WaitBGMap
 
-; Check if either of the Pokémon sent was a Mew or Celebi, and send a different
+; Check if either of the Tohomon sent was a Mew or Celebi, and send a different
 ; byte depending on that. Presumably this would've been some prevention against
 ; illicit trade machines, but it doesn't seem like a very effective one.
 ; Removing this code breaks link compatibility with the vanilla gen2 games, but

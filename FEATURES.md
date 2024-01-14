@@ -4,12 +4,12 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 > We've been greedy in the amount of gameplay elements we've squeezed in there. There's so much included that I even had colleagues saying to me: "Are you sure you should be going this far with a remake?" In that sense, it's not simply a remake—I think it's more than that. For that reason, I would like to see these games enjoyed by as large a number of people as possible.
 >
-> — Shigeki Morimoto, "[Iwata Asks – Pokémon HeartGold Version & SoulSilver Version](https://www.nintendo.co.uk/Iwata-Asks/Iwata-Asks-Pokemon-HeartGold-Version-SoulSilver-Version/Iwata-Asks-Pokemon-HeartGold-Version-SoulSilver-Version/6-Pokemon-Players-Past-and-Present/6-Pokemon-Players-Past-and-Present-226100.html)"
+> — Shigeki Morimoto, "[Iwata Asks – Tohomon HeartGold Version & SoulSilver Version](https://www.nintendo.co.uk/Iwata-Asks/Iwata-Asks-Pokemon-HeartGold-Version-SoulSilver-Version/Iwata-Asks-Pokemon-HeartGold-Version-SoulSilver-Version/6-Pokemon-Players-Past-and-Present/6-Pokemon-Players-Past-and-Present-226100.html)"
 
 
-## Pokémon
+## Tohomon
 
-* The entire Pokédex of 253 Pokémon can be caught in one game. Some Pokémon, like Houndour, Murkrow, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
+* The entire Pokédex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Murkrow, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
 * Added: Leafeon, Glaceon, Sylveon, Togekiss, Weavile, Honchkrow, Mismagius, Electivire, Magmortar, Magnezone, Tangrowth, Rhyperior, Porygon-Z, Yanmega, Gliscor, Mamoswine, and Munchlax.
 * Removed: Spearow, Fearow, Lickitung, Goldeen, Seaking, Hoppip, Skiploom, Jumpluff, Shuckle, Aipom, Stantler, Cleffa, Igglybuff, Smoochum, and Delibird.
 * New evolution methods work, like Eevee evolving into Glaceon near Ice Rock, or Yanma evolving into Yanmega when knowing AncientPower.
@@ -31,18 +31,18 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Type chart, base stats, and move attributes all updated to Gen VI.
 * Physical/Special/Status split.
 * Natures (determined from DVs since personality values don't exist in Gen II) thanks to FredrIQ.
-* Gain experience from catching Pokémon.
-* Play low-pitched cries when a player or foe Pokémon faints.
+* Gain experience from catching Tohomon.
+* Play low-pitched cries when a player or foe Tohomon faints.
 * Money loss formula from Gen V.
-* Shiny Pokémon now have an odd Attack DV, 2, 3, 7, or 11 Defense, 5 or 13 Speed, and a perfect 15 Special; so 1 in 1,024 Pokémon is shiny.
+* Shiny Tohomon now have an odd Attack DV, 2, 3, 7, or 11 Defense, 5 or 13 Speed, and a perfect 15 Special; so 1 in 1,024 Tohomon is shiny.
 * Type-enhancing items raise by 20%, not 10%.
 * Light Ball doubles Pikachu's Attack as well as Special Attack.
 * Critical hits do 150% damage, not 200%, but are more likely.
-* Electric-type Pokémon are immune to paralysis, even from Tri Attack.
-* Ice-type Pokémon are immune to freezing, even from Tri Attack.
-* Fire-type Pokémon are immune to burns, even from Tri Attack.
-* Steel-type Pokémon are immune to poisoning.
-* Poison-type Pokémon always hit with Toxic.
+* Electric-type Tohomon are immune to paralysis, even from Tri Attack.
+* Ice-type Tohomon are immune to freezing, even from Tri Attack.
+* Fire-type Tohomon are immune to burns, even from Tri Attack.
+* Steel-type Tohomon are immune to poisoning.
+* Poison-type Tohomon always hit with Toxic.
 * Curse is Ghost-type.
 * Roar, Whirlwind, and Struggle are unaffected by accuracy or evasion, like Swift.
 * Growth raises Attack and Special Attack, by two stages in sunlight.
@@ -61,8 +61,8 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Leppa Berry (formerly MysteryBerry) restores 10 PP, not 5.
 * Sitrus Berry (formerly Gold Berry) restores 25% of max HP, not 30 HP.
 * Paralyze and Freeze animations play each turn.
-* Rock-type Pokémon get Sp.Def boosted by 50% in a sandstorm.
-* Wild Pokémon have more common held items (50% chance for a common one and 5% for a rare one). Giving an Amulet Coin to your lead Pokémon increases this to 60% and 10%.
+* Rock-type Tohomon get Sp.Def boosted by 50% in a sandstorm.
+* Wild Tohomon have more common held items (50% chance for a common one and 5% for a rare one). Giving an Amulet Coin to your lead Tohomon increases this to 60% and 10%.
 
 
 ## Overworld Mechanics
@@ -82,18 +82,18 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 ## Nuzlocke Mode
 
 * Available in the Option menu at any time.
-* A fainted Pokémon can't be revived, by items, Pokémon Centers, or events. The only exception is your first rival battle, when you just have your starter. (Also when you deposit them into the PC, since current HP is not stored.)
-* You can only catch the first Pokémon you encounter in a new location. "Location" is defined with the Town Map mechanics, so Sprout Tower is separate from Violet City, but multiple floors of Union Cave or multiple sections of the Safari Zone count as one location. And nothing is counted until you receive your first five Poké Balls.
-* Every Pokémon gets a nickname, no asking whether you want to or not. Of course, you can cancel out to give the default name.
+* A fainted Tohomon can't be revived, by items, Tohomon Centers, or events. The only exception is your first rival battle, when you just have your starter. (Also when you deposit them into the PC, since current HP is not stored.)
+* You can only catch the first Tohomon you encounter in a new location. "Location" is defined with the Town Map mechanics, so Sprout Tower is separate from Violet City, but multiple floors of Union Cave or multiple sections of the Safari Zone count as one location. And nothing is counted until you receive your first five Poké Balls.
+* Every Tohomon gets a nickname, no asking whether you want to or not. Of course, you can cancel out to give the default name.
 * The dupes clause is in effect. If you've caught a EMagan and encounter one on a new route, it won't count unless you catch it.
 * The shiny clause is also in effect. Shinies can always be caught.
-* Gift Pokémon do not count as encounters. Static encounters like Sudowoodo, Snorlax, and Suicune do.
+* Gift Tohomon do not count as encounters. Static encounters like Sudowoodo, Snorlax, and Suicune do.
 
 
 ## Maps
 
-* Restored locations from R/B/Y and HG/SS: Viridian Forest, Pewter Museum, Celadon Hotel, Silph Co., Pokémon Mansion, Seafoam Islands, Cerulean Cave, Goldenrod PokéCom Center, and Bellchime Trail.
-* Original locations, including Cinnabar Volcano, a new floor of Rock Tunnel, Cherrygrove Bay, Goldenrod Harbor, Route 35 Coast, the Ecruteak Shrine from [Pokémon Christmas](http://www.pokemonhackersonline.com/showthread.php?t=14172), custom-designed PokéWalker routes, and others.
+* Restored locations from R/B/Y and HG/SS: Viridian Forest, Pewter Museum, Celadon Hotel, Silph Co., Tohomon Mansion, Seafoam Islands, Cerulean Cave, Goldenrod PokéCom Center, and Bellchime Trail.
+* Original locations, including Cinnabar Volcano, a new floor of Rock Tunnel, Cherrygrove Bay, Goldenrod Harbor, Route 35 Coast, the Ecruteak Shrine from [Tohomon Christmas](http://www.pokemonhackersonline.com/showthread.php?t=14172), custom-designed PokéWalker routes, and others.
 * Decorative features added to cities and routes, often from HG/SS.
 * HG/SS-style Town Map.
 
@@ -106,7 +106,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Move Reminder in the same house as the Move Deleter. (Code borrowed from TPP Anniversary Crystal, thanks to its developers graciously making [their source code](https://github.com/TwitchPlaysPokemon/tppcrystal251pub/) public.)
 * 21 move tutors throughout Johto and Kanto.
 * Falkner is in Dark Cave, encouraging you to beat Sprout Tower first.
-* Photographing your Pokémon at the Cianwood Photo Studio once a day now makes it happier, like haircuts or massages. (No more GameBoy Printer support.)
+* Photographing your Tohomon at the Cianwood Photo Studio once a day now makes it happier, like haircuts or massages. (No more GameBoy Printer support.)
 * The Mystery Gift girl in Goldenrod Dept. Store gives you a random Berry once a day. (No more Mystery Gift support.)
 * The Poké Seer is replaced by the Stats Judge.
 * Lt. Surge's electric fences are back.
@@ -131,7 +131,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Rematch the Elite Four at higher levels after earning all 16 badges.
 * Rematch Gym Leaders and other special trainers in the Fighting Dojo after earning all 16 badges.
 * Battle Tower has new trainers.
-* A few NPC trainers have shiny Pokémon.
+* A few NPC trainers have shiny Tohomon.
 * Breeders can be rebattled like in B2/W2.
 
 
@@ -151,7 +151,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Burn/Poison/Paralyze improve catch rate.
 * Moon Ball catches Moon Stone evolvers.
 * Love Ball catches opposite sex.
-* Fast Ball catches flee-prone Pokémon.
+* Fast Ball catches flee-prone Tohomon.
 * Medium-Slow growth rate experience underflow at level 1.
 * HP bar lowers at the same speed even for high HP.
 * Belly Drum needs to cut HP to raise Attack.
@@ -172,7 +172,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 ## Changes and Buffs
 
-### Pokémon
+### Tohomon
 
 * Many base stat changes, mostly based on [Drayano's Sacred Gold/Storm Silver](https://gbatemp.net/threads/pok%C3%A9mon-sacred-gold-storm-silver.327567/).
 * ESakuya is Water/Steel.
@@ -211,7 +211,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Metronome is ???-type.
 * Life Balance is Ghost-type.
 
-I know that not everyone likes this kind of change, so I've provided two ROM patches. The "Faithful" patch keeps the canon Pokémon stats and move attributes.
+I know that not everyone likes this kind of change, so I've provided two ROM patches. The "Faithful" patch keeps the canon Tohomon stats and move attributes.
 
 
 ## Graphics and Music
@@ -219,9 +219,9 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * Restored original Japanese sprites for Beauty, Fisher, Medium, Sage, and Swimmer♀.
 * Replaced Twins sprite with a devamped one from B/W.
 * New music ported from RBY and devamped from future generations.
-* Unique mini sprites for each Pokémon (thanks to [this patch](http://www.pokecommunity.com/showthread.php?t=338470)).
+* Unique mini sprites for each Tohomon (thanks to [this patch](http://www.pokecommunity.com/showthread.php?t=338470)).
 * Revised some shiny palettes (Dragonite is blue like Dragonair, Nidoqueen is pink like Nidoking, Scizor is silver, Espeon is sky blue, Electabuzz is red, etc).
-* Unown isn't the only Pokémon with variant forms…
+* Unown isn't the only Tohomon with variant forms…
 * Color-coded starter Poké Balls.
 * Item balls for TMs are blue (inspired by Gen VI's yellow).
 * Surfing on Pikachu uses the minigame music from Yellow version.
@@ -229,19 +229,19 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 
 ## More Tweaks
 
-* Lowercase Pokémon, moves, items, types, names, etc.
+* Lowercase Tohomon, moves, items, types, names, etc.
 * Fast text by default.
 * Stereo sound by default.
 * Third Trainer Card page for Kanto badges.
 * Fourth stats page for capture data formerly told by the Poké Seer.
 * Move stats include type, category, power, and accuracy.
-* The Mineral Badge, not Storm Badge, makes Pokémon up to L70 obey, like in HG/SS.
-* The Zephyr Badge lets you use traded Pokémon up to level 20, like in HG/SS.
+* The Mineral Badge, not Storm Badge, makes Tohomon up to L70 obey, like in HG/SS.
+* The Zephyr Badge lets you use traded Tohomon up to level 20, like in HG/SS.
 * Flash does not require the Zephyr Badge.
 * Updated language (Pack → Bag, Enemy → Foe, Cooltrainer → Ace Trainer, Fisher → Fisherman, Elixer → Elixir, Pink Bow → Silk Scarf, new Berry names, etc).
 * Brass Tower → Gong Tower (かね *kane* can mean 金 "metal" or 鉦, a gong-like bell).
 * Janine's pink badge is called the Marsh Badge; Sabrina's gold badge is called the Soul Badge.
-* Fly to the Rock Tunnel/Power Plant Pokémon Center.
+* Fly to the Rock Tunnel/Power Plant Tohomon Center.
 * Fishing works 75% of the time, not 50%.
 * Nidorina and Nidoqueen can breed, and will produce eggs of either Nidoran gender.
 * Always show numbers in Pokédex, even in Johto order.

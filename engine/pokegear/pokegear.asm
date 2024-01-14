@@ -966,7 +966,7 @@ RadioChannels:
 .PkmnTalkAndPokedexShow:
 ; Pokédex Show in the morning
 
-; Oak's Pokémon Talk in the afternoon and evening
+; Oak's Tohomon Talk in the afternoon and evening
 	call .InJohto
 	jr nc, NoRadioStation
 	ld a, [wTimeOfDay]

@@ -21,7 +21,7 @@ JudgeMachine:
 	call PrintText
 	call YesNoBox
 	jr c, .cancel
-; Choose a party Pokémon
+; Choose a party Tohomon
 	ld hl, NewsMachineWhichMonText
 	call PrintText
 	farcall SelectMonFromParty

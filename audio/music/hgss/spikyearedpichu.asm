@@ -1,4 +1,4 @@
-; Pokémon HG/SS - Spiky-Eared Pichu
+; Tohomon HG/SS - Spiky-Eared Pichu
 ; Demixed by Mmmmmm
 ; https://pastebin.com/stpKurZA
 ; https://hax.iimarckus.org/topic/6777/3/

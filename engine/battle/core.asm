@@ -739,7 +739,7 @@ ResolveFaints:
 	call HasEnemyFainted
 	call z, GiveExperience
 
-	; Figure out if any side is out of Pokémon
+	; Figure out if any side is out of Tohomon
 	call .check_battle_over
 	xor a
 	ld [wWhichMonFaintedFirst], a
@@ -872,7 +872,7 @@ ForceDeferredSwitch:
 	bit SWITCH_EXPLICIT, [hl]
 	jr z, .no_explicit_withdraw
 
-	; Enemy always uses "Trainer withdrew Pokémon!" Player has several messages.
+	; Enemy always uses "Trainer withdrew Tohomon!" Player has several messages.
 	ldh a, [hBattleTurn]
 	and a
 	ld hl, BattleText_EnemyWithdrew
@@ -1122,7 +1122,7 @@ GetUserSwitchTarget:
 	ret
 
 SendInUserPkmn:
-; sends in the new pokémon
+; sends in the new tohomon
 	; volatile statuses that baton pass doesn't preserve
 	call BreakAttractionAndResetMirrorHerb
 	ld a, BATTLE_VARS_SUBSTATUS1
@@ -1303,7 +1303,7 @@ endr
 .enemy_ability
 	call ResetEnemyAbility
 .done_ability
-	; Wild Pokémon are already out
+	; Wild Tohomon are already out
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .sendout_text
@@ -1814,7 +1814,7 @@ HandleUserHealingItems:
 	ret
 
 _SubtractHP:
-; Subtracts HP. If HP drops to zero, marks this Pokémon as first fainted mon.
+; Subtracts HP. If HP drops to zero, marks this Tohomon as first fainted mon.
 	call .do_subtract
 	ld a, [hli]
 	or [hl]
@@ -2703,15 +2703,15 @@ FinalPkmnMusicAndAnimation:
 	; ...and this trainer has final text...
 	farcall GetFinalPkmnTextPointer
 	ret nc
-	; ...and this is their last Pokémon...
+	; ...and this is their last Tohomon...
 	farcall CheckAnyOtherAliveEnemyMons
 	ret nz
-	; ...then hide the Pokémon...
+	; ...then hide the Tohomon...
 	call EmptyBattleTextbox
 	ld c, 20
 	call DelayFrames
 	call SlideEnemyPicOut
-	; ...play the final Pokémon music...
+	; ...play the final Tohomon music...
 	ld a, COND_FINAL_MON
 	call SetVariableBattleMusicCondition
 	call IsJohtoGymLeader
@@ -2732,7 +2732,7 @@ FinalPkmnMusicAndAnimation:
 	call StdBattleTextbox
 	pop af
 	ld [wTempEnemyMonSpecies], a
-	; ...and return the Pokémon
+	; ...and return the Tohomon
 	call EmptyBattleTextbox
 	call ApplyTilemapInVBlank
 	call SlideEnemyPicOut
@@ -3142,8 +3142,8 @@ PostBattleTasks::
 	ret
 
 RunBothActivationAbilities:
-; runs both pokémon's activation abilities (Intimidate, etc.).
-; The faster Pokémon activates abilities first. This mostly
+; runs both tohomon's activation abilities (Intimidate, etc.).
+; The faster Tohomon activates abilities first. This mostly
 ; just matter for weather abilities.
 	; Only show Neutralizing Gas message once.
 	call GetTrueUserAbility
@@ -3170,7 +3170,7 @@ RunBothActivationAbilities:
 	ret
 
 RunActivationAbilities:
-; Trace will, on failure, copy a later switched in Pokémon's
+; Trace will, on failure, copy a later switched in Tohomon's
 ; Ability. To handle this correctly without redundancy except
 ; on double switch-ins or similar, we need to do some extra
 ; handling around it.
@@ -3191,7 +3191,7 @@ RunActivationAbilities:
 	jmp SwitchTurn
 
 SpikesDamage_CheckMoldBreaker:
-; Called when a Pokémon with Mold Breaker uses Roar/Whirlwind.
+; Called when a Tohomon with Mold Breaker uses Roar/Whirlwind.
 ; This is neccessary because it negates Levitate (but not Magic Guard for some reason),
 ; but can't be checked unconditionally since other kind of switches ignore MB as usual.
 	call SwitchTurn
@@ -6038,7 +6038,7 @@ CheckSleepingTreeMon:
 	cp BATTLETYPE_TREE
 	jr nz, .NotSleeping
 
-; Nor if the Pokémon has Insomnia/Vital Spirit
+; Nor if the Tohomon has Insomnia/Vital Spirit
 	ld hl, wEnemyMonPersonality ; ability is properly updated at this point, so OK to check
 	ld a, [wTempEnemyMonSpecies]
 	ld c, a

@@ -478,7 +478,7 @@ wBattleAnimParam:: db
 
 wPartyBackupItems::
 ; Back up of party items before a battle. Modified in-battle for consumed/harvested.
-; Berries and items stolen from wild Pokémon since those changes are retained.
+; Berries and items stolen from wild Tohomon since those changes are retained.
 	ds PARTY_LENGTH
 
 wPartyUsedItems::
@@ -693,7 +693,7 @@ wPokedex_Row3Pals:: ds PAL_COLOR_SIZE * 3 * 5
 wPokedex_PalsEnd::
 ENDU
 
-; Pokémon info (frontpic, types, etc) is stored in either vbk0 or vbk1. This is
+; Tohomon info (frontpic, types, etc) is stored in either vbk0 or vbk1. This is
 ; cycled each time we move the cursor. The reason for this is so that we can
 ; update the entire display smoothly in a single frame without noticeable delay.
 wPokedex_MonInfoBank:: db

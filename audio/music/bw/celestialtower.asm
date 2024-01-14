@@ -1,4 +1,4 @@
-; Pokémon B/W - Celestial Tower
+; Tohomon B/W - Celestial Tower
 ; Demixed by Mmmmmm
 ; https://pastebin.com/GbzJ6dUH
 ; https://hax.iimarckus.org/topic/6777/9/

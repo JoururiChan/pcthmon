@@ -310,7 +310,7 @@ UseBillsPC:
 	ld hl, rIE
 	set LCD_STAT, [hl]
 
-	; Display data about current Pokémon pointed to by cursor
+	; Display data about current Tohomon pointed to by cursor
 	call GetCursorMon
 
 	; Begin storage system interaction
@@ -905,7 +905,7 @@ CheckPartyShift:
 	ret
 
 GetCursorMon:
-; Prints data about Pokémon at cursor if nothing is held (underline to force).
+; Prints data about Tohomon at cursor if nothing is held (underline to force).
 ; Returns z if cursor is on an empty pkmn slot.
 	; Only handle box arrows if we're holding a mon
 	call BillsPC_GetCursorHeldSlot
@@ -1505,7 +1505,7 @@ ManageBoxes:
 
 BillsPC_MenuStrings:
 	db "Cancel@"
-	; pokémon management options
+	; tohomon management options
 	db "Withdraw@"
 	db "Deposit@"
 	db "Stats@"

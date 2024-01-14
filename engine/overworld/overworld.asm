@@ -181,10 +181,10 @@ GetMonSprite:
 
 .MonIcon:
 ; Everything that calls GetMonSprite either points to a map_object struct in bc,
-; or will not be used for Pokémon icons, so this SPRITE_MON_ICON can assume
+; or will not be used for Tohomon icons, so this SPRITE_MON_ICON can assume
 ; that bc takes MAPOBJECT_* offsets.
 ; (That means the player, Battle Tower trainers, and variable sprites cannot
-;  use Pokémon icons.)
+;  use Tohomon icons.)
 	ldh a, [hIsMapObject]
 	and a
 	ld hl, OBJECT_RADIUS - OBJECT_SPRITE
@@ -252,7 +252,7 @@ GetMonSprite:
 
 DoesSpriteHaveFacings::
 ; Checks to see whether we can apply a facing to a sprite.
-; Returns zero for Pokémon sprites, carry for the rest.
+; Returns zero for Tohomon sprites, carry for the rest.
 	cp SPRITE_POKEMON
 	jr c, .facings
 	cp SPRITE_VARS

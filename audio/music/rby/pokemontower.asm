@@ -1,4 +1,4 @@
-; Pokémon R/B/Y - Pokémon Tower
+; Tohomon R/B/Y - Tohomon Tower
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/RBY/pokemontower.asm
 

@@ -921,7 +921,7 @@ BattleAnim_Ember:
 	anim_wait 32
 	anim_ret
 
-; Will-O-Wisp animation from Pokémon Prism
+; Will-O-Wisp animation from Tohomon Prism
 BattleAnim_WillOWisp:
 	anim_1gfx ANIM_GFX_FIRE
 	anim_bgp $1b
@@ -1616,7 +1616,7 @@ BattleAnim_AuroraBeam:
 	anim_wait 64
 	anim_ret
 
-; Dragon Pulse animation from Pokémon Prism
+; Dragon Pulse animation from Tohomon Prism
 BattleAnim_DragonPulse:
 	anim_1gfx ANIM_GFX_EGG
 ;	anim_call BattleAnim_TargetObj_1Row
@@ -1642,7 +1642,7 @@ BattleAnim_DragonPulse:
 	anim_bgp $e4
 	anim_ret
 
-; X-Scissor animation from Pokémon Prism
+; X-Scissor animation from Tohomon Prism
 BattleAnim_XScissor:
 	anim_1gfx ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
@@ -2330,7 +2330,7 @@ BattleAnim_Headbutt:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-; Zen Headbutt animation from Pokémon Prism
+; Zen Headbutt animation from Tohomon Prism
 BattleAnim_ZenHeadbutt:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
@@ -2670,7 +2670,7 @@ BattleAnim_PayDay:
 	anim_wait 64
 	anim_ret
 
-; Drain Kiss animation from Pokémon Prism
+; Drain Kiss animation from Tohomon Prism
 BattleAnim_DrainKiss:
 	anim_3gfx ANIM_GFX_OBJECTS, ANIM_GFX_ANGELS, ANIM_GFX_BUBBLE
 	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
@@ -2777,7 +2777,7 @@ BattleAnim_DrillPeck:
 	anim_wait 16
 	anim_ret
 
-; Night Slash animation from Pokémon Prism
+; Night Slash animation from Tohomon Prism
 BattleAnim_NightSlash:
 	anim_1gfx ANIM_GFX_CUT
 	anim_bgp $1b
@@ -3013,7 +3013,7 @@ BattleAnim_Psybeam:
 	anim_wait 48
 	anim_ret
 
-; Dark Pulse animation from Pokémon Prism
+; Dark Pulse animation from Tohomon Prism
 BattleAnim_DarkPulse:
 	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_EGG
 	anim_sound 0, 0, SFX_RAGE
@@ -3183,7 +3183,7 @@ BattleAnim_SwordsDance:
 	anim_wait 56
 	anim_ret
 
-; Dragon Dance animation from Pokémon Prism
+; Dragon Dance animation from Tohomon Prism
 BattleAnim_DragonDance:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
@@ -3234,7 +3234,7 @@ BattleAnim_QuickAttack:
 	anim_wait 16
 	anim_ret
 
-; Bulk Up animation from Pokémon Prism
+; Bulk Up animation from Tohomon Prism
 BattleAnim_BulkUp:
 	anim_2gfx ANIM_GFX_MISC, ANIM_GFX_WIND
 .loop
@@ -3741,7 +3741,7 @@ BattleAnim_Aeroblast:
 	anim_bgp $e4
 	anim_ret
 
-; Seed Bomb animation from Pokémon Prism
+; Seed Bomb animation from Tohomon Prism
 BattleAnim_SeedBomb:
 	anim_2gfx ANIM_GFX_PLANT, ANIM_GFX_EXPLOSION
 	anim_sound 16, 2, SFX_VINE_WHIP
@@ -3761,7 +3761,7 @@ BattleAnim_SeedBomb:
 	anim_bgp $e4
 	anim_ret
 
-; Dream Heaven animation from Pokémon Prism
+; Dream Heaven animation from Tohomon Prism
 BattleAnim_DreamHeaven:
 	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_GREEN
 	anim_2gfx ANIM_GFX_CHARGE, ANIM_GFX_EGG
@@ -4154,7 +4154,7 @@ BattleAnim_FlashCannon:
 	anim_wait 16
 	anim_ret
 
-; Aura Sphere animation from Pokémon Prism
+; Aura Sphere animation from Tohomon Prism
 BattleAnim_AuraSphere:
 	anim_2gfx ANIM_GFX_BEAM, ANIM_GFX_WIND
 	anim_call BattleAnim_TargetObj_1Row
@@ -5199,7 +5199,7 @@ BattleAnim_CrossChop:
 	anim_wait 16
 	anim_ret
 
-; Aqua Jet animation from Pokémon Prism
+; Aqua Jet animation from Tohomon Prism
 BattleAnim_AquaJet:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_WATER
 	anim_3gfx ANIM_GFX_SPEED, ANIM_GFX_HIT, ANIM_GFX_WATER

@@ -624,7 +624,7 @@ wTempWildMonSpecies:: db
 
 wOtherTrainerClass::
 ; class (Youngster, Bug Catcher, etc.) of opposing trainer
-; 0 if opponent is a wild Pokémon, not a trainer
+; 0 if opponent is a wild Tohomon, not a trainer
 	db
 
 wBattleType::
@@ -1330,7 +1330,7 @@ SECTION "Party", WRAMX
 
 wPokemonData::
 
-wPartyCount::   db ; number of Pokémon in party
+wPartyCount::   db ; number of Tohomon in party
 
 	ds 7 ; unused
 
@@ -1399,8 +1399,8 @@ wBreedMon2OT:: ds PLAYER_NAME_LENGTH
 wBreedMon2Extra:: ds 3
 wBreedMon2:: breed_struct wBreedMon2
 
-; TODO: space for a Day-Care on Route 5 which just levels up one Pokémon;
-; Route 34 will have a Nursery that breeds with two Pokémon.
+; TODO: space for a Day-Care on Route 5 which just levels up one Tohomon;
+; Route 34 will have a Nursery that breeds with two Tohomon.
 wLevelUpMonNickname:: ds MON_NAME_LENGTH
 wLevelUpMonOT:: ds PLAYER_NAME_LENGTH
 wLevelUpMonExtra:: ds 3
@@ -1639,7 +1639,7 @@ wDecompressedAttributes:: ds 256 tiles
 
 SECTION UNION "Attributes", WRAMX
 
-; Array of Pokémon in the pokédex list.
+; Array of Tohomon in the pokédex list.
 wDexMons::
 for n, 1, NUM_SPECIES + 1
 wDexMon{d:n}::

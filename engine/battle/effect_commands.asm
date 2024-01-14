@@ -1554,7 +1554,7 @@ BattleCheckTypeMatchup:
 	; fallthrough
 CheckTypeMatchup:
 ; Wrapper that handles ability immunities, because type matchups take predecence,
-; this matters for Ground pokémon with Lightning Rod (and Trace edge-cases).
+; this matters for Ground tohomon with Lightning Rod (and Trace edge-cases).
 ; Yes, Lightning Rod is useless on ground types since GSC has no doubles.
 	push hl
 	push de
@@ -4774,7 +4774,7 @@ BattleCommand_sleep:
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVarAddr
 
-	; 1-3 turns of sleep, rnd(0-2) + 2 since Pokémon wake up once it ticks to 0.
+	; 1-3 turns of sleep, rnd(0-2) + 2 since Tohomon wake up once it ticks to 0.
 	push hl
 	ld a, 3
 	call BattleRandomRange

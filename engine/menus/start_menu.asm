@@ -385,7 +385,7 @@ StartMenu_Pokemon:
 	call FadeToMenu
 .choosemenu
 	xor a
-	ld [wPartyMenuActionText], a ; Choose a POKéMON.
+	ld [wPartyMenuActionText], a ; Choose a TOHOMON.
 	call ClearBGPalettes
 .menu
 	farcall LoadPartyMenuGFX

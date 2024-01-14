@@ -1,4 +1,4 @@
-; Pokémon R/B/Y - Cinnabar Mansion
+; Tohomon R/B/Y - Cinnabar Mansion
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/RBY/cinnabarmansion.asm
 

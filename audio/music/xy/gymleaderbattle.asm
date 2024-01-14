@@ -1,4 +1,4 @@
-; Pokémon X/Y - Battle! Gym Leader
+; Tohomon X/Y - Battle! Gym Leader
 ; Demixed by Pum
 ; https://hax.iimarckus.org/topic/6443/
 

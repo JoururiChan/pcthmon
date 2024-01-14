@@ -449,7 +449,7 @@ _ForYourMonWillTradeText::
 	text "."
 	done
 
-; Oak's Pokémon Talk
+; Oak's Tohomon Talk
 
 SECTION "_OPT_IntroText1", ROMX
 _OPT_IntroText1::
@@ -702,7 +702,7 @@ _PokedexShowText::
 	text_ram wStringBuffer1
 	text_end
 
-; Pokémon Music Channel / Pokémusic
+; Tohomon Music Channel / Pokémusic
 
 SECTION "_BenIntroText1", ROMX
 _BenIntroText1::

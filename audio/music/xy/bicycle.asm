@@ -1,4 +1,4 @@
-; Pokémon X/Y - Bicycle
+; Tohomon X/Y - Bicycle
 ; Demixed by ShantyTown
 ; https://github.com/huderlem/pokestyle-music-devamps/blob/master/music/kalos_bicycle.asm
 

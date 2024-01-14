@@ -1,4 +1,4 @@
-; Pokémon R/S/E - Meteor Falls
+; Tohomon R/S/E - Meteor Falls
 ; Demixed by Mmmmmm
 ; https://pastebin.com/k2wCKcMC
 ; https://hax.iimarckus.org/topic/6777/

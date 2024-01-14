@@ -56,7 +56,7 @@ StatsScreenMain:
 	ret
 
 StatsScreenPointerTable:
-	dw MonStatsInit       ; regular pokémon
+	dw MonStatsInit       ; regular tohomon
 	dw EggStatsInit       ; egg
 	dw EggStatsJoypad
 	dw StatsScreen_LoadPage

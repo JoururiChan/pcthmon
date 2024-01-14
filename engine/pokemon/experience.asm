@@ -38,7 +38,7 @@ CalcExpAtLevel:
 	ld a, d
 	dec a
 	jr nz, .UseExpFormula
-; Pokémon have 0 experience at level 1
+; Tohomon have 0 experience at level 1
 	ld hl, hProduct
 	ld [hli], a
 	ld [hli], a

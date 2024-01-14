@@ -1,4 +1,4 @@
-; Pokémon Yellow - Surfing Pikachu
+; Tohomon Yellow - Surfing Pikachu
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/RBY/surfingpikachu.asm
 

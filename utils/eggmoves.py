@@ -6,13 +6,13 @@ Find egg moves that require chain-breeding, Sketch-breeding, or that cannot be
 legitimately bred.
 
 False positive conditions:
- * If a Pokémon can only learn a move in special circumstances (with an RBY TM,
-   from an event giveaway, etc) it does not count for that Pokémon's learnset.
- * Baby Pokémon are in the NO_EGGS group, so their moves are misread. Try
+ * If a Tohomon can only learn a move in special circumstances (with an RBY TM,
+   from an event giveaway, etc) it does not count for that Tohomon's learnset.
+ * Baby Tohomon are in the NO_EGGS group, so their moves are misread. Try
    temporarily putting them in their evolved forms' egg groups.
 
 False negative conditions:
- * If two Pokémon in an egg group share an egg move, that move may be reported
+ * If two Tohomon in an egg group share an egg move, that move may be reported
    as chain-breedable but not actually be learnable by either one.
 """
 
@@ -41,14 +41,14 @@ def get_ordered_mons():
 	# Read constants/pokemon_constants.asm
 	with open('constants/pokemon_constants.asm', 'r') as file:
 		for line in file:
-			# Assume that Pokémon constants are defined first in this file
+			# Assume that Tohomon constants are defined first in this file
 			if line.startswith('\tconst '):
 				# '\tconst MR__MIME   ; $7a' => 'mr__mime'
 				mon = line[7:].split(';')[0].strip().lower()
 				ordered_mons.append(mon)
 				simple_name = mon.replace('_', '')
 				underscore_names[simple_name] = mon
-			# Assume that NUM_SPECIES is defined right after all the Pokémon
+			# Assume that NUM_SPECIES is defined right after all the Tohomon
 			if line.startswith('NUM_SPECIES'):
 				break
 
@@ -145,7 +145,7 @@ def get_egg_moves():
 			egg_moves[current_mon].add(move)
 
 def get_sketchable_groups():
-	# A Pokémon with Sketch can breed any move into its egg groups
+	# A Tohomon with Sketch can breed any move into its egg groups
 	for mon, moves in learnset_moves.items():
 		if 'SKETCH' in moves:
 			for group in mon_groups[mon]:

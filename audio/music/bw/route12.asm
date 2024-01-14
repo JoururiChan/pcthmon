@@ -1,4 +1,4 @@
-; Pokémon B/W - Route 12
+; Tohomon B/W - Route 12
 ; Demixed by Mmmmmm
 ; https://pastebin.com/JK83UjgF
 ; https://hax.iimarckus.org/topic/6777/2/

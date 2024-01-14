@@ -1,4 +1,4 @@
-; Pokémon R/S/E - Mount Pyre / Shoal Cave
+; Tohomon R/S/E - Mount Pyre / Shoal Cave
 ; Demixed by Mmmmmm
 ; https://pastebin.com/3iAgGV4u
 ; https://hax.iimarckus.org/topic/6777/

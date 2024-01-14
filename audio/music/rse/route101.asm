@@ -1,4 +1,4 @@
-; Pokémon R/S/E - Route 101
+; Tohomon R/S/E - Route 101
 ; Demixed by Mmmmmm
 ; https://pastebin.com/VstjfaGf
 ; https://hax.iimarckus.org/topic/6777/

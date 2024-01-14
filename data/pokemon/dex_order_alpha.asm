@@ -1,4 +1,4 @@
-; Every Pokémon sorted alphabetically by name.
+; Every Tohomon sorted alphabetically by name.
 
 AlphabeticalPokedexOrder:
 	table_width 2, AlphabeticalPokedexOrder

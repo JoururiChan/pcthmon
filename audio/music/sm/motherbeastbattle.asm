@@ -1,4 +1,4 @@
-; Pokémon S/M - Battle! Mother Beast
+; Tohomon S/M - Battle! Mother Beast
 ; Demixed by Mmmmmm
 ; https://pastebin.com/zWajMT3c
 ; https://hax.iimarckus.org/topic/6777/5/

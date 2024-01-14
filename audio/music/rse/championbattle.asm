@@ -1,4 +1,4 @@
-; Pokémon R/S/E - Battle! Champion
+; Tohomon R/S/E - Battle! Champion
 ; Demixed by Mmmmmm
 ; https://pastebin.com/qyNUWZfz
 ; https://hax.iimarckus.org/topic/6777/4/

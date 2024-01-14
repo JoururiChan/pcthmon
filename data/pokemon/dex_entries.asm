@@ -1,12 +1,12 @@
 SECTION "CReimuPokedexEntry", ROMX
 CReimuPokedexEntry::
-	db "Seed@"
-	db   "While it is young,"
-	next "it uses the"
-	next "nutrients that are"
-	page "stored in the"
-	next "seeds on its back"
-	next "in order to grow.@"
+	db "Apprentice@"
+	db   "As a beginner at"
+	next "it's practice,"
+	next "it has learned"
+	page "much but treats"
+	next "the God's faith"
+	next "like a joke.@"
 
 SECTION "ReimuPokedexEntry", ROMX
 ReimuPokedexEntry::

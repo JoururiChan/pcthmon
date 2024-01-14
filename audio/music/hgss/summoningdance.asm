@@ -1,4 +1,4 @@
-; Pokémon HG/SS - Summoning Dance
+; Tohomon HG/SS - Summoning Dance
 ; Demixed by Mmmmmm
 ; https://pastebin.com/ANhCKGUS
 ; https://hax.iimarckus.org/topic/6777/3/

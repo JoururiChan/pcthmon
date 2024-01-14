@@ -919,7 +919,7 @@ Text_RoarOutro: ; text > text
 	text "WROOOAR!"
 	line "IT'S ROAR!"
 
-	para "EVEN POKéMON RUN"
+	para "EVEN TOHOMON RUN"
 	line "FROM A GOOD ROAR!"
 	done
 

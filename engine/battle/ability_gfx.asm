@@ -374,7 +374,7 @@ AbilityVWF:
 	jr c, .center_text
 
 	; Regular length calculation
-	lb bc, 0, SLIDEOUT_TEXT_WIDTH ; left+right edges, for pokémon name + ability
+	lb bc, 0, SLIDEOUT_TEXT_WIDTH ; left+right edges, for tohomon name + ability
 	jr .got_offsets
 
 .center_text

@@ -1006,7 +1006,7 @@ UpdatePkmnStats:
 	cp $80
 	jr nc, .set_hp_to_one
 
-	; Don't faint Pokémon who used to not be fainted
+	; Don't faint Tohomon who used to not be fainted
 	or [hl]
 	ret nz
 .set_hp_to_one

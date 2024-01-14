@@ -1,4 +1,4 @@
-; Johto Pokémon in grass
+; Johto Tohomon in grass
 
 	def_grass_wildmons SPROUT_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite

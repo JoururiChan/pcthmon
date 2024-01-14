@@ -1,4 +1,4 @@
-; Kanto Pokémon in water
+; Kanto Tohomon in water
 
 	def_water_wildmons TOHJO_FALLS
 	db 4 percent ; encounter rate

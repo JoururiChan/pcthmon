@@ -1,4 +1,4 @@
-; Pokémon R/B/Y - Diglett's Cave
+; Tohomon R/B/Y - Diglett's Cave
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/RBY/dungeon2.asm
 

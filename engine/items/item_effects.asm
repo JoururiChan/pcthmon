@@ -2973,7 +2973,7 @@ AbilityPatch:
 ; Switch between regular and hidden ability
 	; fallthrough (most code is shared with Ability Capsule)
 AbilityCap:
-; If a pokémon doesn't have its hidden ability, switch between its
+; If a tohomon doesn't have its hidden ability, switch between its
 ; 1st and 2nd ability
 	ld a, [wCurItem]
 	ld [wTempItem], a

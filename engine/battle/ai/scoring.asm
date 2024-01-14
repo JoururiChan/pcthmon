@@ -1930,7 +1930,7 @@ AI_Smart_MirrorCoat:
 
 AI_Smart_JumpKick:
 ; Greatly discourage this move if the player is semi-invulnerable and the enemy
-; is faster and neither Pokémon has No Guard.
+; is faster and neither Tohomon has No Guard.
 	; Do nothing if anyone has No Guard.
 	call GetOpponentAbilityAfterMoldBreaker
 	cp NO_GUARD

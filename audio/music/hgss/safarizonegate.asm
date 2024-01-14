@@ -1,4 +1,4 @@
-; Pokémon HG/SS - Safari Zone Gate
+; Tohomon HG/SS - Safari Zone Gate
 ; Demixed by Mmmmmm
 ; https://pastebin.com/KtZQwniZ
 ; https://hax.iimarckus.org/topic/6777/4/

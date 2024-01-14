@@ -1,4 +1,4 @@
-; Pokémon X/Y - Battle! Rival
+; Tohomon X/Y - Battle! Rival
 ; Demixed by Mmmmmm
 ; https://pastebin.com/KvYS4SPR
 ; https://hax.iimarckus.org/topic/6777/3/

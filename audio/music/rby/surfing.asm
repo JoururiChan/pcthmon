@@ -1,4 +1,4 @@
-; Pokémon R/B/Y - Surfing Pikachu
+; Tohomon R/B/Y - Surfing Pikachu
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/RBY/surfing.asm
 

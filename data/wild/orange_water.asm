@@ -1,4 +1,4 @@
-; Orange Pokémon in water
+; Orange Tohomon in water
 
 	def_water_wildmons SHAMOUTI_ISLAND
 	db 6 percent ; encounter rate

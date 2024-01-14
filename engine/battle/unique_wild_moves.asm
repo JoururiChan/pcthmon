@@ -39,7 +39,7 @@ CheckUniqueWildMove:
 	and a
 	ret z
 
-	; always teach moves for certain Pokémon
+	; always teach moves for certain Tohomon
 	ld a, c
 	cp MAHOGANY_TOWN
 	jr z, .TeachMove ; assume this is for Explosion in TeamRocketBaseB1F

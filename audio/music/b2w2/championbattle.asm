@@ -1,4 +1,4 @@
-; Pokémon B2/W2 - Battle! Champion Iris
+; Tohomon B2/W2 - Battle! Champion Iris
 ; Demixed by Mmmmmm
 ; https://pastebin.com/1TeQ2sMe
 ; https://hax.iimarckus.org/topic/6777/2/

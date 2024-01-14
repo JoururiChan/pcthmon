@@ -1,4 +1,4 @@
-; Pokémon OR/AS - Battle! Wally
+; Tohomon OR/AS - Battle! Wally
 ; Demixed by Mmmmmm
 ; https://pastebin.com/7vneX9pj
 ; https://hax.iimarckus.org/topic/6777/4/

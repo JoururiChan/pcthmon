@@ -1,4 +1,4 @@
-; Pokémon D/P/Pt - Route 205
+; Tohomon D/P/Pt - Route 205
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/DPPt/sinnohtrainer.asm
 

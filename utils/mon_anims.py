@@ -10,7 +10,7 @@ Frame = namedtuple('Frame', ('bitmask', 'offsets'))
 def chunk(s, n):
 	return [s[i:i+n] for i in range(0, len(s), n)]
 
-# Process each Pokémon's animation data
+# Process each Tohomon's animation data
 
 for front_name in iglob('gfx/pokemon/*/front.2bpp'):
 	mon_name = front_name[len('gfx/pokemon/'):-len('/front.2bpp')]
