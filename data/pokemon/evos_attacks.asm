@@ -3841,7 +3841,7 @@ ESanaeEvosAttacks:
 	db 15, SCARY_FACE
 	db 21, METAL_CLAW ; Ice Fang → egg move
 	db 24, REVERSAL ; Flail → similar move
-	db 33, TWISTER
+	db 33, ICY_WIND
 	db 37, AIR_SLASH
 	db 40, ENERGY_LIGHT ; Chip Away → HGSS tutor move
 	db 44, WATERFALL
