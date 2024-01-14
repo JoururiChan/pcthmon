@@ -159,7 +159,7 @@ EvolutionMoves::
 	db NO_MOVE   ; EREISEN
 	db NO_MOVE      ; CSANAE
 	db NO_MOVE      ; SANAE
-	db NIGHT_SLASH  ; ESANAE
+	db NO_MOVE  ; ESANAE
 	db NO_MOVE      ; SENTRET
 	db SAKUYA_WORLD      ; FURRET
 	db NO_MOVE      ; HOOTHOOT
