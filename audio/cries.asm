@@ -48,11 +48,11 @@ Cry_Mareep:
 	channel 5, Cry_Mareep_Ch5
 	channel 6, Cry_Mareep_Ch6
 
-Cry_Cyndaquil:
+Cry_CYoumu:
 	channel_count 3
-	channel 5, Cry_Cyndaquil_Ch5
-	channel 6, Cry_Cyndaquil_Ch6
-	channel 8, Cry_Cyndaquil_Ch8
+	channel 5, Cry_CYoumu_Ch5
+	channel 6, Cry_CYoumu_Ch6
+	channel 8, Cry_CYoumu_Ch8
 
 Cry_Chikorita:
 	channel_count 3
@@ -94,11 +94,11 @@ Cry_Donphan:
 	channel 6, Cry_Donphan_Ch6
 	channel 8, Cry_Donphan_Ch8
 
-Cry_Typhlosion:
+Cry_EYoumu:
 	channel_count 3
-	channel 5, Cry_Typhlosion_Ch5
-	channel 6, Cry_Typhlosion_Ch6
-	channel 8, Cry_Typhlosion_Ch8
+	channel 5, Cry_EYoumu_Ch5
+	channel 6, Cry_EYoumu_Ch6
+	channel 8, Cry_EYoumu_Ch8
 
 Cry_Natu:
 	channel_count 3
@@ -481,22 +481,22 @@ Cry_Gligar_branch_f3145:
 	square_note 6, 15, 1, 1886
 	sound_ret
 
-Cry_Cyndaquil_Ch5:
+Cry_CYoumu_Ch5:
 	pitch_offset 32
-Cry_Cyndaquil_Ch6:
+Cry_CYoumu_Ch6:
 	duty_cycle 2
 	square_note 8, 2, -7, 263
-Cry_Cyndaquil_branch_f315f:
+Cry_CYoumu_branch_f315f:
 	square_note 0, 14, 1, 1155
 	square_note 0, 5, 1, 1102
-	sound_loop 4, Cry_Cyndaquil_branch_f315f
-Cry_Cyndaquil_branch_f316b:
+	sound_loop 4, Cry_CYoumu_branch_f315f
+Cry_CYoumu_branch_f316b:
 	square_note 0, 14, 1, 986
 	square_note 1, 5, 1, 786
-	sound_loop 4, Cry_Cyndaquil_branch_f316b
+	sound_loop 4, Cry_CYoumu_branch_f316b
 	sound_ret
 
-Cry_Cyndaquil_Ch8:
+Cry_CYoumu_Ch8:
 Cry_Gligar_Ch8:
 	noise_note 8, 3, -7, 82
 	noise_note 32, 9, 3, 79
@@ -624,30 +624,30 @@ Cry_Donphan_Ch8:
 	noise_note 16, 9, 2, 108
 	sound_ret
 
-Cry_Typhlosion_Ch5:
+Cry_EYoumu_Ch5:
 Cry_Teddiursa_Ch5:
 	duty_cycle_pattern 0, 1, 0, 2
-Cry_Typhlosion_branch_f3286:
+Cry_EYoumu_branch_f3286:
 	square_note 3, 12, 1, 1937
-	sound_loop 3, Cry_Typhlosion_branch_f3286
-Cry_Typhlosion_branch_f328e:
+	sound_loop 3, Cry_EYoumu_branch_f3286
+Cry_EYoumu_branch_f328e:
 	square_note 3, 13, 1, 1201
-	sound_loop 6, Cry_Typhlosion_branch_f328e
-Cry_Typhlosion_branch_f3296:
+	sound_loop 6, Cry_EYoumu_branch_f328e
+Cry_EYoumu_branch_f3296:
 	square_note 1, 13, 1, 1169
 	square_note 1, 11, 1, 1105
-	sound_loop 6, Cry_Typhlosion_branch_f3296
-Cry_Typhlosion_branch_f32a2:
+	sound_loop 6, Cry_EYoumu_branch_f3296
+Cry_EYoumu_branch_f32a2:
 	square_note 1, 10, 3, 1137
 	square_note 1, 8, 1, 1089
-	sound_loop 6, Cry_Typhlosion_branch_f32a2
-Cry_Typhlosion_branch_f32ae:
+	sound_loop 6, Cry_EYoumu_branch_f32a2
+Cry_EYoumu_branch_f32ae:
 	square_note 1, 4, 1, 1057
 	square_note 1, 2, 1, 1025
-	sound_loop 4, Cry_Typhlosion_branch_f32ae
+	sound_loop 4, Cry_EYoumu_branch_f32ae
 	sound_ret
 
-Cry_Typhlosion_Ch6:
+Cry_EYoumu_Ch6:
 Cry_Teddiursa_Ch6:
 	duty_cycle_pattern 1, 3, 2, 0
 	square_note 8, 9, -1, 1856
@@ -659,7 +659,7 @@ Cry_Teddiursa_Ch6:
 	square_note 24, 14, 2, 1923
 	sound_ret
 
-Cry_Typhlosion_Ch8:
+Cry_EYoumu_Ch8:
 	noise_note 16, 10, 6, 22
 	noise_note 24, 9, 8, 61
 	noise_note 32, 9, 8, 92

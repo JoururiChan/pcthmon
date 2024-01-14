@@ -154,9 +154,9 @@ FootprintPointers::
 	dw ChikoritaFootprint
 	dw BayleefFootprint
 	dw MeganiumFootprint
-	dw CyndaquilFootprint
-	dw QuilavaFootprint
-	dw TyphlosionFootprint
+	dw CYoumuFootprint
+	dw YoumuFootprint
+	dw EYoumuFootprint
 	dw TotodileFootprint
 	dw CroconawFootprint
 	dw FeraligatrFootprint
@@ -336,7 +336,7 @@ FootprintPointers::
 	dw ArcanineFootprint
 	dw VoltorbFootprint
 	dw ElectrodeFootprint
-	dw TyphlosionFootprint
+	dw EYoumuFootprint
 	dw QwilfishFootprint
 	dw SneaselFootprint
 

@@ -75,7 +75,7 @@ endc
 	add_tm ROOST        ; $32
 	add_tm FOCUS_BLAST  ; $33
 	add_tm DREAM_HEAVEN  ; $34
-	add_tm FALSE_SWIPE  ; $35
+	add_tm BLADE_FLASH  ; $35
 	add_tm SCALD        ; $36
 	add_tm X_SCISSOR    ; $37
 	add_tm BLAZE_STAR  ; $38
@@ -86,7 +86,7 @@ endc
 	add_tm ACROBATICS   ; $3d
 	add_tm WATER_PULSE  ; $3e
 	add_tm EXPLOSION    ; $3f
-	add_tm SHADOW_CLAW  ; $40
+	add_tm SHADOW_HIT  ; $40
 	add_tm POISON_JAB   ; $41
 	add_tm AVALANCHE    ; $42
 	add_tm GIGA_IMPACT  ; $43

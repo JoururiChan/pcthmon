@@ -154,9 +154,9 @@ EggMovePointers::
 	dw ChikoritaEggMoves      ; Chikorita
 	dw NoEggMoves             ; Bayleef
 	dw NoEggMoves             ; Meganium
-	dw CyndaquilEggMoves      ; Cyndaquil
-	dw NoEggMoves             ; Quilava
-	dw NoEggMoves             ; Typhlosion
+	dw CYoumuEggMoves      ; CYoumu
+	dw NoEggMoves             ; Youmu
+	dw NoEggMoves             ; EYoumu
 	dw TotodileEggMoves       ; Totodile
 	dw NoEggMoves             ; Croconaw
 	dw NoEggMoves             ; Feraligatr
@@ -336,7 +336,7 @@ EggMovePointers::
 	dw NoEggMoves                ; Arcanine (Hisuian Form)
 	dw NoEggMoves                ; Voltorb (Hisuian Form)
 	dw NoEggMoves                ; Electrode (Hisuian Form)
-	dw NoEggMoves                ; Typhlosion (Hisuian Form)
+	dw NoEggMoves                ; EYoumu (Hisuian Form)
 	dw QwilfishHisuianEggMoves   ; Qwilfish (Hisuian Form)
 	dw SneaselHisuianEggMoves    ; Sneasel (Hisuian Form)
 

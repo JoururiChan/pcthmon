@@ -85,7 +85,7 @@
 	const TOXIC_GAS ; $4d
 	const STUN_SPORE   ; $4e
 	const SLEEP_POWDER ; $4f
-	const PETAL_DANCE  ; $50
+	const PETAL_SLASH  ; $50
 	const STRING_SHOT  ; $51
 	const DRAGON_RAGE  ; $52
 	const FIRE_SPIN    ; $53
@@ -211,7 +211,7 @@
 	const ENDURE       ; $cb
 	const CHARM        ; $cc
 	const ROLLOUT      ; $cd
-	const FALSE_SWIPE  ; $ce
+	const BLADE_FLASH  ; $ce
 	const SWAGGER      ; $cf
 	const SHELL_SMASH  ; $d0
 	const SPARK        ; $d1
@@ -235,7 +235,7 @@
 	const ENCORE       ; $e3
 	const PURSUIT      ; $e4
 	const RAPID_SPIN   ; $e5
-	const SHADOW_CLAW  ; $e6
+	const SHADOW_HIT  ; $e6
 	const IRON_TAIL    ; $e7
 	const METAL_CLAW   ; $e8
 	const AURA_SPHERE  ; $e9

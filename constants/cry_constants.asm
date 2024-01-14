@@ -52,7 +52,7 @@
 	const CRY_HOOTHOOT
 	const CRY_SENTRET
 	const CRY_SLOWKING
-	const CRY_CYNDAQUIL
+	const CRY_CYOUMU
 	const CRY_CHIKORITA
 	const CRY_TOTODILE
 	const CRY_GLIGAR
@@ -62,7 +62,7 @@
 	const CRY_ENTEI
 	const CRY_WOOPER
 	const CRY_MANTINE
-	const CRY_TYPHLOSION
+	const CRY_EYOUMU
 	const CRY_NATU
 	const CRY_TEDDIURSA
 	const CRY_REMORAID

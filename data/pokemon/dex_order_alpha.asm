@@ -42,7 +42,7 @@ AlphabeticalPokedexOrder:
 	dp CROCONAW
 	dp CUBONE
 	dp CURSOLA
-	dp CYNDAQUIL
+	dp CYOUMU
 	dp DELIBIRD
 	dp DEWGONG
 	dp DIGLETT
@@ -204,7 +204,7 @@ AlphabeticalPokedexOrder:
 	dp PSYDUCK
 	dp PUPITAR
 	dp QUAGSIRE
-	dp QUILAVA
+	dp YOUMU
 	dp QWILFISH
 	dp RAICHU
 	dp RAIKOU
@@ -261,7 +261,7 @@ AlphabeticalPokedexOrder:
 	dp TOGEPI
 	dp TOGETIC
 	dp TOTODILE
-	dp TYPHLOSION
+	dp EYOUMU
 	dp TYRANITAR
 	dp TYROGUE
 	dp UMBREON
