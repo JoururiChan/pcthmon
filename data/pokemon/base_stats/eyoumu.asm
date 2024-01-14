@@ -1,25 +1,17 @@
-	db  80,  82, 100,  80,  83, 100 ; 525 BST
+	db  78, 140, 100, 140,  76,  74 ; 525 BST
 	;   hp  atk  def  spe  sat  sdf
-
-if DEF(FAITHFUL)
-	db GRASS, GRASS ; type
-else
-	db GRASS, FAIRY ; type
-endc
-	db 45 ; catch rate
-	db 208 ; base exp
+ 
+	db GHOST, STEEL ; type
+	db 100 ; catch rate
+	db 145 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F87_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
-	abilities_for MEGANIUM, OVERGROW, OVERGROW, LEAF_GUARD
-else
-	abilities_for MEGANIUM, OVERGROW, NATURAL_CURE, LEAF_GUARD
-endc
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_MONSTER, EGG_PLANT ; egg groups
+	abilities_for EYOUMU, INNER_FOCUS, EARLY_BIRD, INSOMNIA
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_HUMANSHAPE, EGG_INDETERMINATE ; egg groups
 
-	ev_yield 1 Def, 2 SDf
+	ev_yield 2 Atk, 1 Spe
 
 	; tm/hm learnset
 	tmhm CURSE, CALM_MIND, TOXIC, HIDDEN_POWER, SUNNY_DAY, MASTER_SPARK, LIGHT_SCREEN, PROTECT, GIGA_DRAIN, SAFEGUARD, BULLDOZE, SOLAR_BEAM, IRON_TAIL, EARTHQUAKE, RETURN, ROCK_SMASH, DOUBLE_TEAM, REFLECT, SUBSTITUTE, FACADE, REST, ATTRACT, DAZZLINGLEAM, DREAM_HEAVEN, GIGA_IMPACT, FLASH, SWORDS_DANCE, CUT, STRENGTH, BODY_SLAM, COUNTER, DOUBLE_EDGE, EARTH_POWER, ENDURE, HEADBUTT, SEED_BOMB, SLEEP_TALK, SWAGGER

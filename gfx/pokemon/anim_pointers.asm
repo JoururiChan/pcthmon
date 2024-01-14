@@ -151,9 +151,9 @@ AnimationPointers:
 	dw DragoniteAnimation
 	dw MewtwoPlainAnimation
 	dw MewAnimation
-	dw ChikoritaAnimation
-	dw BayleefAnimation
-	dw MeganiumAnimation
+	dw CYoumuAnimation
+	dw YoumuAnimation
+	dw EYoumuAnimation
 	dw CyndaquilAnimation
 	dw QuilavaAnimation
 	dw TyphlosionPlainAnimation

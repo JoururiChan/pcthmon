@@ -1,8 +1,8 @@
 JohtoFrames:
 
-ChikoritaFrames:  INCLUDE "gfx/pokemon/chikorita/frames.asm"
-BayleefFrames:    INCLUDE "gfx/pokemon/bayleef/frames.asm"
-MeganiumFrames:   INCLUDE "gfx/pokemon/meganium/frames.asm"
+CYoumuFrames:  INCLUDE "gfx/pokemon/cyoumu/frames.asm"
+YoumuFrames:    INCLUDE "gfx/pokemon/youmu/frames.asm"
+EYoumuFrames:   INCLUDE "gfx/pokemon/eyoumu/frames.asm"
 CyndaquilFrames:  INCLUDE "gfx/pokemon/cyndaquil/frames.asm"
 QuilavaFrames:    INCLUDE "gfx/pokemon/quilava/frames.asm"
 TotodileFrames:   INCLUDE "gfx/pokemon/totodile/frames.asm"

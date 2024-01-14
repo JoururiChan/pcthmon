@@ -464,17 +464,17 @@ SECTION "Mew Pics", ROMX
 MewFrontpic: INCBIN "gfx/pokemon/mew/front.animated.2bpp.lz"
 MewBackpic:  INCBIN "gfx/pokemon/mew/back.2bpp.lz"
 
-SECTION "Chikorita Pics", ROMX
-ChikoritaFrontpic: INCBIN "gfx/pokemon/chikorita/front.animated.2bpp.lz"
-ChikoritaBackpic:  INCBIN "gfx/pokemon/chikorita/back.2bpp.lz"
+SECTION "CYoumu Pics", ROMX
+CYoumuFrontpic: INCBIN "gfx/pokemon/cyoumu/front.animated.2bpp.lz"
+CYoumuBackpic:  INCBIN "gfx/pokemon/cyoumu/back.2bpp.lz"
 
-SECTION "Bayleef Pics", ROMX
-BayleefFrontpic: INCBIN "gfx/pokemon/bayleef/front.animated.2bpp.lz"
-BayleefBackpic:  INCBIN "gfx/pokemon/bayleef/back.2bpp.lz"
+SECTION "Youmu Pics", ROMX
+YoumuFrontpic: INCBIN "gfx/pokemon/youmu/front.animated.2bpp.lz"
+YoumuBackpic:  INCBIN "gfx/pokemon/youmu/back.2bpp.lz"
 
-SECTION "Meganium Pics", ROMX
-MeganiumFrontpic: INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz"
-MeganiumBackpic:  INCBIN "gfx/pokemon/meganium/back.2bpp.lz"
+SECTION "EYoumu Pics", ROMX
+EYoumuFrontpic: INCBIN "gfx/pokemon/eyoumu/front.animated.2bpp.lz"
+EYoumuBackpic:  INCBIN "gfx/pokemon/eyoumu/back.2bpp.lz"
 
 SECTION "Cyndaquil Pics", ROMX
 CyndaquilFrontpic: INCBIN "gfx/pokemon/cyndaquil/front.animated.2bpp.lz"

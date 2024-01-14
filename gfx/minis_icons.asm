@@ -762,20 +762,20 @@ MewMini::     INCBIN "gfx/minis/mew.2bpp.lz"
 MewMiniMask:: INCBIN "gfx/minis/mew_mask.1bpp.lz"
 MewIcon::     INCBIN "gfx/icons/mew.2bpp.lz"
 
-SECTION "Chikorita Mini Icon", ROMX
-ChikoritaMini::     INCBIN "gfx/minis/chikorita.2bpp.lz"
-ChikoritaMiniMask:: INCBIN "gfx/minis/chikorita_mask.1bpp.lz"
-ChikoritaIcon::     INCBIN "gfx/icons/chikorita.2bpp.lz"
+SECTION "CYoumu Mini Icon", ROMX
+CYoumuMini::     INCBIN "gfx/minis/cyoumu.2bpp.lz"
+CYoumuMiniMask:: INCBIN "gfx/minis/cyoumu_mask.1bpp.lz"
+CYoumuIcon::     INCBIN "gfx/icons/cyoumu.2bpp.lz"
 
-SECTION "Bayleef Mini Icon", ROMX
-BayleefMini::     INCBIN "gfx/minis/bayleef.2bpp.lz"
-BayleefMiniMask:: INCBIN "gfx/minis/bayleef_mask.1bpp.lz"
-BayleefIcon::     INCBIN "gfx/icons/bayleef.2bpp.lz"
+SECTION "Youmu Mini Icon", ROMX
+YoumuMini::     INCBIN "gfx/minis/youmu.2bpp.lz"
+YoumuMiniMask:: INCBIN "gfx/minis/youmu_mask.1bpp.lz"
+YoumuIcon::     INCBIN "gfx/icons/youmu.2bpp.lz"
 
-SECTION "Meganium Mini Icon", ROMX
-MeganiumMini::     INCBIN "gfx/minis/meganium.2bpp.lz"
-MeganiumMiniMask:: INCBIN "gfx/minis/meganium_mask.1bpp.lz"
-MeganiumIcon::     INCBIN "gfx/icons/meganium.2bpp.lz"
+SECTION "EYoumu Mini Icon", ROMX
+EYoumuMini::     INCBIN "gfx/minis/eyoumu.2bpp.lz"
+EYoumuMiniMask:: INCBIN "gfx/minis/eyoumu_mask.1bpp.lz"
+EYoumuIcon::     INCBIN "gfx/icons/eyoumu.2bpp.lz"
 
 SECTION "Cyndaquil Mini Icon", ROMX
 CyndaquilMini::     INCBIN "gfx/minis/cyndaquil.2bpp.lz"

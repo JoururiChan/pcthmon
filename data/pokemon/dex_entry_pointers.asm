@@ -152,9 +152,9 @@ PokedexDataPointerTable:
 	dba DragonitePokedexEntry
 	dba MewtwoPlainPokedexEntry
 	dba MewPokedexEntry
-	dba ChikoritaPokedexEntry
-	dba BayleefPokedexEntry
-	dba MeganiumPokedexEntry
+	dba CYoumuPokedexEntry
+	dba YoumuPokedexEntry
+	dba EYoumuPokedexEntry
 	dba CyndaquilPokedexEntry
 	dba QuilavaPokedexEntry
 	dba TyphlosionPlainPokedexEntry

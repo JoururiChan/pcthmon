@@ -1,0 +1,18 @@
+	db  47,  70,  55,  70,  45,  45 ; 318 BST
+	;   hp  atk  def  spe  sat  sdf
+
+	db GHOST, GHOST ; type
+	db 100 ; catch rate
+	db 58 ; base exp
+	db NO_ITEM, NO_ITEM ; held items
+	dn GENDER_F87_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+
+	abilities_for CYOUMU, INNER_FOCUS, EARLY_BIRD, INSOMNIA
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_HUMANSHAPE, EGG_INDETERMINATE ; egg groups
+
+	ev_yield 1 Atk
+
+	; tm/hm learnset
+	tmhm CURSE, CALM_MIND, TOXIC, HIDDEN_POWER, SUNNY_DAY, LIGHT_SCREEN, PROTECT, GIGA_DRAIN, SAFEGUARD, SOLAR_BEAM, IRON_TAIL, RETURN, DOUBLE_TEAM, REFLECT, SUBSTITUTE, FACADE, REST, ATTRACT, DREAM_HEAVEN, FLASH, SWORDS_DANCE, CUT, BODY_SLAM, COUNTER, DOUBLE_EDGE, ENDURE, HEADBUTT, SEED_BOMB, SLEEP_TALK, SWAGGER
+	; end

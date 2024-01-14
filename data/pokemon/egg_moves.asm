@@ -6,7 +6,7 @@ EggMoves::
 
 CReimuEggMoves:
 	db CHARM
-	db PETAL_DANCE
+	db PETAL_SLASH
 	db LIGHT_SCREEN
 	db SAFEGUARD
 	db POWER_WHIP
@@ -153,7 +153,7 @@ ParasEggMoves:
 	db PSYBEAM
 	db PURSUIT
 	db SCREECH
-	db SHADOW_CLAW
+	db SHADOW_HIT
 	db $ff
 
 VenonatEggMoves:
@@ -338,7 +338,7 @@ GrimerPlainEggMoves:
 	db LICK
 	db MEAN_LOOK
 	db SCARY_FACE
-	db SHADOW_CLAW
+	db SHADOW_HIT
 	db $ff
 
 GrimerAlolanEggMoves:
@@ -530,7 +530,7 @@ DratiniEggMoves:
 	db AQUA_JET
 	db $ff
 
-ChikoritaEggMoves:
+CYoumuEggMoves:
 	db LEECH_SEED
 	db VINE_WHIP
 	db ANCIENTPOWER

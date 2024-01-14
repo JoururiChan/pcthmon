@@ -1516,8 +1516,8 @@ MewPokedexEntry::
 	next "it is the ancestor"
 	next "of all #mon.@"
 
-SECTION "ChikoritaPokedexEntry", ROMX
-ChikoritaPokedexEntry::
+SECTION "CYoumuPokedexEntry", ROMX
+CYoumuPokedexEntry::
 	db "Leaf@"
 	db   "It loves to bask"
 	next "in the sunlight."
@@ -1526,8 +1526,8 @@ ChikoritaPokedexEntry::
 	next "seek out warm"
 	next "places.@"
 
-SECTION "BayleefPokedexEntry", ROMX
-BayleefPokedexEntry::
+SECTION "YoumuPokedexEntry", ROMX
+YoumuPokedexEntry::
 	db "Leaf@"
 	db   "The scent that"
 	next "wafts from the"
@@ -1536,8 +1536,8 @@ BayleefPokedexEntry::
 	next "smells it to"
 	next "become energetic.@"
 
-SECTION "MeganiumPokedexEntry", ROMX
-MeganiumPokedexEntry::
+SECTION "EYoumuPokedexEntry", ROMX
+EYoumuPokedexEntry::
 	db "Herb@"
 	db   "Anyone who stands"
 	next "beside it becomes"

@@ -151,9 +151,9 @@ FramesPointers:
 	dw DragoniteFrames
 	dw MewtwoPlainFrames
 	dw MewFrames
-	dw ChikoritaFrames
-	dw BayleefFrames
-	dw MeganiumFrames
+	dw CYoumuFrames
+	dw YoumuFrames
+	dw EYoumuFrames
 	dw CyndaquilFrames
 	dw QuilavaFrames
 	dw TyphlosionPlainFrames

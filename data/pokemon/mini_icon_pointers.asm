@@ -155,9 +155,9 @@ MiniIconPointers:
 	mini_icon Dragonite
 	mini_icon Mewtwo
 	mini_icon Mew
-	mini_icon Chikorita
-	mini_icon Bayleef
-	mini_icon Meganium
+	mini_icon CYoumu
+	mini_icon Youmu
+	mini_icon EYoumu
 	mini_icon Cyndaquil
 	mini_icon Quilava
 	mini_icon Typhlosion

@@ -2,9 +2,9 @@
 
 NewPokedexOrder:
 	table_width 2, NewPokedexOrder
-	dp CHIKORITA
-	dp BAYLEEF
-	dp MEGANIUM
+	dp CYOUMU
+	dp YOUMU
+	dp EYOUMU
 	dp CYNDAQUIL
 	dp QUILAVA
 	dp TYPHLOSION

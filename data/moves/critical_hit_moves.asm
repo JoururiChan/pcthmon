@@ -6,6 +6,6 @@ CriticalHitMoves:
 	db SLASH
 	db AEROBLAST
 	db CROSS_CHOP
-	db SHADOW_CLAW
+	db SHADOW_HIT
 	db STONE_EDGE
 	db -1

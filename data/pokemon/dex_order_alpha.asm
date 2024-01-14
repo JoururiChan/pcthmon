@@ -15,7 +15,7 @@ AlphabeticalPokedexOrder:
 	dp ARTICUNO
 	dp AZUMARILL
 	dp AZURILL
-	dp BAYLEEF
+	dp YOUMU
 	dp MAGAN
 	dp BELLOSSOM
 	dp BELLSPROUT
@@ -30,7 +30,7 @@ AlphabeticalPokedexOrder:
 	dp EMARISA
 	dp CMARISA
 	dp MARISA
-	dp CHIKORITA
+	dp CYOUMU
 	dp CHINCHOU
 	dp CLEFABLE
 	dp CLEFAIRY
@@ -149,7 +149,7 @@ AlphabeticalPokedexOrder:
 	dp MAREEP
 	dp MARILL
 	dp MAROWAK
-	dp MEGANIUM
+	dp EYOUMU
 	dp MEOWTH
 	dp MGYOKU
 	dp MEW
