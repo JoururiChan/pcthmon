@@ -4,15 +4,15 @@
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 3, CMIMA
-	wildmon 4, CMIMA
-	wildmon 5, CMIMA
+	wildmon 4, CYOUMU
+	wildmon 5, CYOUMU
 	wildmon 3, BELLSPROUT
 	wildmon 6, CMIMA
 	wildmon 5, BELLSPROUT
 	wildmon 6, BELLSPROUT
 	; day
-	wildmon 3, CMIMA
-	wildmon 4, CMIMA
+	wildmon 3, CYOUMU
+	wildmon 4, CYOUMU
 	wildmon 5, CMIMA
 	wildmon 3, BELLSPROUT
 	wildmon 6, CMIMA
@@ -20,7 +20,7 @@
 	wildmon 6, BELLSPROUT
 	; nite
 	wildmon 3, CMIMA
-	wildmon 4, CMIMA
+	wildmon 4, CYOUMU
 	wildmon 5, GASTLY
 	wildmon 3, BELLSPROUT
 	wildmon 6, GASTLY
@@ -31,23 +31,23 @@
 	def_grass_wildmons SPROUT_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 4, CMIMA
-	wildmon 5, CMIMA
+	wildmon 4, CYOUMU
+	wildmon 5, CYOUMU
 	wildmon 6, CMIMA
 	wildmon 4, BELLSPROUT
 	wildmon 7, CMIMA
 	wildmon 6, BELLSPROUT
 	wildmon 7, BELLSPROUT
 	; day
-	wildmon 4, CMIMA
-	wildmon 5, CMIMA
+	wildmon 4, CYOUMU
+	wildmon 5, CYOUMU
 	wildmon 6, CMIMA
 	wildmon 4, BELLSPROUT
 	wildmon 7, CMIMA
 	wildmon 6, BELLSPROUT
 	wildmon 7, BELLSPROUT
 	; nite
-	wildmon 4, CMIMA
+	wildmon 4, CYOUMU
 	wildmon 5, CMIMA
 	wildmon 6, GASTLY
 	wildmon 4, BELLSPROUT
@@ -1432,7 +1432,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 5, EKANS, ARBOK_JOHTO_FORM
-	wildmon 6, CMIMA
+	wildmon 6, CYOUMU
 	wildmon 8, BELLSPROUT
 	wildmon 7, MAREEP
 	wildmon 8, MAREEP
@@ -1440,7 +1440,7 @@
 	wildmon 8, HOPPIP
 	; day
 	wildmon 5, EKANS, ARBOK_JOHTO_FORM
-	wildmon 6, CMIMA
+	wildmon 6, CYOUMU
 	wildmon 8, BELLSPROUT
 	wildmon 7, MAREEP
 	wildmon 8, MAREEP
@@ -1448,7 +1448,7 @@
 	wildmon 8, HOPPIP
 	; nite
 	wildmon 5, WOOPER
-	wildmon 6, CMIMA
+	wildmon 6, CYOUMU
 	wildmon 8, BELLSPROUT
 	wildmon 8, HOOTHOOT
 	wildmon 7, MAREEP
@@ -1475,11 +1475,11 @@
 	wildmon 9, SUNKERN
 	wildmon 10, SUNKERN
 	; nite
-	wildmon 9, CMIMA
+	wildmon 9, CYOUMU
 	wildmon 9, ZUBAT
 	wildmon 9, GEODUDE
 	wildmon 10, ZUBAT
-	wildmon 10, CMIMA
+	wildmon 10, CYOUMU
 	wildmon 9, ODDISH
 	wildmon 10, ODDISH
 	end_grass_wildmons
