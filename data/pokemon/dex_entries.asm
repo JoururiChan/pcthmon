@@ -1546,8 +1546,8 @@ MeganiumPokedexEntry::
 	next "relaxing in a"
 	next "sunny forest.@"
 
-SECTION "CYoumuPokedexEntry", ROMX
-CYoumuPokedexEntry::
+SECTION "CyndaquilPokedexEntry", ROMX
+CyndaquilPokedexEntry::
 	db "Fire Mouse@"
 	db   "The fire that"
 	next "spouts from its"
@@ -1556,8 +1556,8 @@ CYoumuPokedexEntry::
 	next "The flaring flames"
 	next "intimidate foes.@"
 
-SECTION "YoumuPokedexEntry", ROMX
-YoumuPokedexEntry::
+SECTION "QuilavaPokedexEntry", ROMX
+QuilavaPokedexEntry::
 	db "Volcano@"
 	db   "Before battle, it"
 	next "turns its back on"
@@ -1566,8 +1566,8 @@ YoumuPokedexEntry::
 	next "ferociously its"
 	next "fire blazes.@"
 
-SECTION "EYoumuPlainPokedexEntry", ROMX
-EYoumuPlainPokedexEntry::
+SECTION "TyphlosionPlainPokedexEntry", ROMX
+TyphlosionPlainPokedexEntry::
 	db "Volcano@"
 	db   "When heat from its"
 	next "body causes the"
@@ -3268,8 +3268,8 @@ ElectrodeHisuianPokedexEntry::
 	next "composition to an"
 	next "Apricorn.@"
 
-SECTION "EYoumuHisuianPokedexEntry", ROMX
-EYoumuHisuianPokedexEntry::
+SECTION "TyphlosionHisuianPokedexEntry", ROMX
+TyphlosionHisuianPokedexEntry::
 	db "Ghost Flame@"
 	db   "Said to purify"
 	next "lost, forsaken"

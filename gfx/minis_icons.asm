@@ -777,20 +777,20 @@ MeganiumMini::     INCBIN "gfx/minis/meganium.2bpp.lz"
 MeganiumMiniMask:: INCBIN "gfx/minis/meganium_mask.1bpp.lz"
 MeganiumIcon::     INCBIN "gfx/icons/meganium.2bpp.lz"
 
-SECTION "CYoumu Mini Icon", ROMX
-CYoumuMini::     INCBIN "gfx/minis/cyndaquil.2bpp.lz"
-CYoumuMiniMask:: INCBIN "gfx/minis/cyndaquil_mask.1bpp.lz"
-CYoumuIcon::     INCBIN "gfx/icons/cyndaquil.2bpp.lz"
+SECTION "Cyndaquil Mini Icon", ROMX
+CyndaquilMini::     INCBIN "gfx/minis/cyndaquil.2bpp.lz"
+CyndaquilMiniMask:: INCBIN "gfx/minis/cyndaquil_mask.1bpp.lz"
+CyndaquilIcon::     INCBIN "gfx/icons/cyndaquil.2bpp.lz"
 
-SECTION "Youmu Mini Icon", ROMX
-YoumuMini::     INCBIN "gfx/minis/quilava.2bpp.lz"
-YoumuMiniMask:: INCBIN "gfx/minis/quilava_mask.1bpp.lz"
-YoumuIcon::     INCBIN "gfx/icons/quilava.2bpp.lz"
+SECTION "Quilava Mini Icon", ROMX
+QuilavaMini::     INCBIN "gfx/minis/quilava.2bpp.lz"
+QuilavaMiniMask:: INCBIN "gfx/minis/quilava_mask.1bpp.lz"
+QuilavaIcon::     INCBIN "gfx/icons/quilava.2bpp.lz"
 
-SECTION "EYoumu Mini Icon", ROMX
-EYoumuMini::     INCBIN "gfx/minis/typhlosion.2bpp.lz"
-EYoumuMiniMask:: INCBIN "gfx/minis/typhlosion_mask.1bpp.lz"
-EYoumuIcon::     INCBIN "gfx/icons/typhlosion.2bpp.lz"
+SECTION "Typhlosion Mini Icon", ROMX
+TyphlosionMini::     INCBIN "gfx/minis/typhlosion.2bpp.lz"
+TyphlosionMiniMask:: INCBIN "gfx/minis/typhlosion_mask.1bpp.lz"
+TyphlosionIcon::     INCBIN "gfx/icons/typhlosion.2bpp.lz"
 
 SECTION "Totodile Mini Icon", ROMX
 TotodileMini::     INCBIN "gfx/minis/totodile.2bpp.lz"
@@ -1777,10 +1777,10 @@ ElectrodeHisuianMini::     INCBIN "gfx/minis/electrode_hisuian.2bpp.lz"
 ElectrodeHisuianMiniMask:: INCBIN "gfx/minis/electrode_hisuian_mask.1bpp.lz"
 ElectrodeHisuianIcon::     INCBIN "gfx/icons/electrode_hisuian.2bpp.lz"
 
-SECTION "EYoumuHisuian Mini Icon", ROMX
-EYoumuHisuianMini::     INCBIN "gfx/minis/typhlosion_hisuian.2bpp.lz"
-EYoumuHisuianMiniMask:: INCBIN "gfx/minis/typhlosion_hisuian_mask.1bpp.lz"
-EYoumuHisuianIcon::     INCBIN "gfx/icons/typhlosion_hisuian.2bpp.lz"
+SECTION "TyphlosionHisuian Mini Icon", ROMX
+TyphlosionHisuianMini::     INCBIN "gfx/minis/typhlosion_hisuian.2bpp.lz"
+TyphlosionHisuianMiniMask:: INCBIN "gfx/minis/typhlosion_hisuian_mask.1bpp.lz"
+TyphlosionHisuianIcon::     INCBIN "gfx/icons/typhlosion_hisuian.2bpp.lz"
 
 SECTION "QwilfishHisuian Mini Icon", ROMX
 QwilfishHisuianMini::     INCBIN "gfx/minis/qwilfish_hisuian.2bpp.lz"

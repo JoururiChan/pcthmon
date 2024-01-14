@@ -155,9 +155,9 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  15 ; Chikorita
 	db  16,  31 ; Bayleef
 	db  32, 100 ; Meganium
-	db   1,  13 ; CYoumu
-	db  14,  35 ; Youmu
-	db  36, 100 ; EYoumu
+	db   1,  13 ; Cyndaquil
+	db  14,  35 ; Quilava
+	db  36, 100 ; Typhlosion
 	db   1,  17 ; Totodile
 	db  18,  29 ; Croconaw
 	db  30, 100 ; Feraligatr

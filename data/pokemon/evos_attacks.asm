@@ -63,7 +63,7 @@ ReimuEvosAttacks:
 
 EReimuEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, PETAL_SLASH ; evolution move
+	db 1, PETAL_DANCE ; evolution move
 	db 1, OUTRAGE ; HGSS tutor move
 	db 1, TACKLE
 	db 3, GROWL
@@ -125,7 +125,7 @@ EMarisaEvosAttacks:
 	db 1, FLARE_BLITZ
 	db 1, DRAGONBREATH
 	db 1, DRAGON_CLAW
-	db 1, SHADOW_HIT
+	db 1, SHADOW_CLAW
 	db 1, AIR_SLASH
 	db 1, OUTRAGE ; HGSS tutor move
 	db 1, SCRATCH
@@ -916,7 +916,7 @@ OddishEvosAttacks:
 	db 39, HYPER_VOICE ; Natural Gift → tutor move
 	db 43, MOONBLAST
 	db 47, GROWTH ; Grassy Terrain → GSC move
-	db 51, PETAL_SLASH
+	db 51, PETAL_DANCE
 	db -1 ; no more level-up moves
 
 GloomEvosAttacks:
@@ -937,7 +937,7 @@ GloomEvosAttacks:
 	db 44, HYPER_VOICE ; Natural Gift → tutor move
 	db 49, MOONBLAST
 	db 54, GROWTH ; Grassy Terrain → Crystal move
-	db 59, PETAL_SLASH
+	db 59, PETAL_DANCE
 	db -1 ; no more level-up moves
 
 VileplumeEvosAttacks:
@@ -948,7 +948,7 @@ VileplumeEvosAttacks:
 	db 1, STUN_SPORE
 	db 39, GROWTH
 	db 49, MOONBLAST ; Petal Blizzard → Gloom move
-	db 59, PETAL_SLASH
+	db 59, PETAL_DANCE
 	db 69, SOLAR_BEAM
 	db -1 ; no more level-up moves
 
@@ -972,7 +972,7 @@ ParasEvosAttacks:
 
 ParasectEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SHADOW_HIT ; evolution move
+	db 1, SHADOW_CLAW ; evolution move
 	db 1, SCRATCH
 	db 2, SLEEP_POWDER ; LGPE move
 	db 4, STUN_SPORE
@@ -1977,7 +1977,7 @@ FarfetchDPlainEvosAttacks:
 	db 33, NIGHT_SLASH
 	db 37, ACROBATICS
 	db 43, HI_JUMP_KICK ; Feint → new move
-	db 45, BLADE_FLASH
+	db 45, FALSE_SWIPE
 	db 49, AIR_SLASH
 	db 55, DIVE_KICK
 	db -1 ; no more level-up moves
@@ -2238,7 +2238,7 @@ GastlyEvosAttacks:
 HaunterEvosAttacks:
 	evo_data EVOLVE_ITEM, LINKING_CORD, GENGAR
 	db -1 ; no more evolutions
-	db 1, SHADOW_HIT ; Shadow Punch → TM move ; evolution move
+	db 1, SHADOW_CLAW ; Shadow Punch → TM move ; evolution move
 	db 1, HYPNOSIS
 	db 1, LICK
 	db 5, DISABLE ; Spite → egg move
@@ -2258,7 +2258,7 @@ HaunterEvosAttacks:
 
 GengarEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SHADOW_HIT ; Shadow Punch → TM move ; evolution move
+	db 1, SHADOW_CLAW ; Shadow Punch → TM move ; evolution move
 	db 1, HYPNOSIS
 	db 1, LICK
 	db 5, DISABLE ; Spite → egg move
@@ -2499,7 +2499,7 @@ ExeggutorPlainEvosAttacks:
 	db 17, LOW_KICK ; Psyshock → HGSS tutor move
 	db 27, ZEN_HEADBUTT ; Egg Bomb → tutor move
 	db 37, POWER_WHIP ; Wood Hammer → new move
-	db 47, PETAL_SLASH ; Leaf Storm → new move
+	db 47, PETAL_DANCE ; Leaf Storm → new move
 	db -1 ; no more level-up moves
 
 ExeggutorAlolanEvosAttacks:
@@ -2526,8 +2526,8 @@ CuboneEvosAttacks:
 	db 17, FOCUS_ENERGY
 	db 21, BONEMERANG
 	db 23, RAGE
-	db 27, LOW_KICK ; Blade Flash → HGSS tutor move
-	db 31, BLADE_FLASH ; Thrash → Blade Flash
+	db 27, LOW_KICK ; False Swipe → HGSS tutor move
+	db 31, FALSE_SWIPE ; Thrash → False Swipe
 	db 33, THRASH ; Fling → Thrash
 	db 37, MAGNITUDE ; Stomping Tantrum → new move
 	db 41, ROCK_SMASH ; Endeavor → TM move
@@ -2547,7 +2547,7 @@ MarowakPlainEvosAttacks:
 	db 17, FOCUS_ENERGY
 	db 21, BONEMERANG
 	db 23, RAGE
-	db 27, LOW_KICK ; Blade Flash → HGSS tutor move
+	db 27, LOW_KICK ; False Swipe → HGSS tutor move
 	db 33, THRASH
 	db 37, KNOCK_OFF ; Fling → TM move
 	db 43, MAGNITUDE ; Stomping Tantrum → new move
@@ -2568,7 +2568,7 @@ MarowakAlolanEvosAttacks:
 	db 17, HEX
 	db 21, BONEMERANG
 	db 23, WILL_O_WISP
-	db 27, SHADOW_HIT ; Shadow Bone → similar move
+	db 27, SHADOW_CLAW ; Shadow Bone → similar move
 	db 33, THRASH
 	db 37, KNOCK_OFF ; Fling → TM move
 	db 43, ACROBATICS ; Stomping Tantrum → new move
@@ -2947,7 +2947,7 @@ ScytherEvosAttacks:
 	db 1, LEER
 	db 5, FOCUS_ENERGY
 	db 9, PURSUIT
-	db 13, BLADE_FLASH
+	db 13, FALSE_SWIPE
 	db 17, SAKUYA_WORLD
 	db 21, WING_ATTACK
 	db 25, BUG_BITE ; Fury Cutter → similar move
@@ -2963,7 +2963,7 @@ ScytherEvosAttacks:
 
 JynxEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, PETAL_SLASH ; event move
+	db 1, PETAL_DANCE ; event move
 	db 1, TACKLE ; Pound → similar move
 	db 1, LICK
 	db 1, PSYSHOT ; Smoochum move
@@ -3683,7 +3683,7 @@ BayleefEvosAttacks:
 
 MeganiumEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, PETAL_SLASH ; evolution move
+	db 1, PETAL_DANCE ; evolution move
 	db 1, TACKLE
 	db 1, GROWL
 	db 6, RAZOR_LEAF
@@ -3704,13 +3704,14 @@ MeganiumEvosAttacks:
 	db 80, MOONBLAST ; new move
 	db -1 ; no more level-up moves
 
-CYoumuEvosAttacks:
-	evo_data EVOLVE_LEVEL, 14, YOUMU
+CyndaquilEvosAttacks:
+	evo_data EVOLVE_LEVEL, 14, QUILAVA
 	db -1 ; no more evolutions
-	db 1, SCRATCH
-	db 1, DEFENSE_CURL
-	db 7, BLADE_FLASH
-	db 11, DOUBLE_TEAM
+	db 1, TACKLE
+	db 1, LEER
+	db 6, SMOKESCREEN
+	db 10, EMBER
+	db 13, QUICK_ATTACK
 	db 19, DEFENSE_CURL ; Flame Wheel → Defense Curl
 	db 22, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 28, DIG ; Flame Charge → TM move
@@ -3724,20 +3725,19 @@ CYoumuEvosAttacks:
 	db 64, FLARE_BLITZ ; Eruption → egg move
 	db -1 ; no more level-up moves
 
-YoumuEvosAttacks:
-	evo_data EVOLVE_LEVEL, 32, EYOUMU
+QuilavaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 36, TYPHLOSION
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
-	db 1, AERIAL_ACE ; evomove
 	db 6, SMOKESCREEN
 	db 10, EMBER
 	db 13, QUICK_ATTACK
-	db 18, NIGHT_SLASH ; Flame Wheel → Defense Curl
-	db 22, SUBSTITUTE ; Defense Curl → Flame Charge
-	db 25, SHADOW_HIT
-	db 29, PROTECT ; Flame Charge → TM move
-	db 33, REVERSAL ; Lava Plume → egg move
+	db 20, DEFENSE_CURL ; Flame Wheel → Defense Curl
+	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
+	db 31, SWIFT
+	db 35, DIG ; Flame Charge → TM move
+	db 42, REVERSAL ; Lava Plume → egg move
 	db 46, METEOR_FALL
 	db 53, EARTH_POWER ; Inferno → new move
 	db 57, ROLLOUT
@@ -3746,7 +3746,7 @@ YoumuEvosAttacks:
 	db 75, FLARE_BLITZ ; Eruption → egg move
 	db -1 ; no more level-up moves
 
-EYoumuPlainEvosAttacks:
+TyphlosionPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, FIRE_PUNCH ; evolution move
 	db 1, TACKLE
@@ -3757,20 +3757,19 @@ EYoumuPlainEvosAttacks:
 	db 20, DEFENSE_CURL ; Flame Wheel → Defense Curl
 	db 24, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 31, SWIFT
-	db 33, HI_JUMP_KICK ; Flame Charge → TM move
-	db 36, ENDURE ; Lava Plume → egg move
-	db 41, SUCKER_PUNCH
-	db 45, FORESIGHT ; Inferno → new move
-	db 49, PETAL_SLASH
-	db 52, ENDURE
+	db 35, DIG ; Flame Charge → TM move
+	db 43, REVERSAL ; Lava Plume → egg move
+	db 48, METEOR_FALL
+	db 56, EARTH_POWER ; Inferno → new move
+	db 61, ROLLOUT
 	db 69, DOUBLE_EDGE
 	db 74, EARTHQUAKE ; Burn Up → TM move
 	db 81, FLARE_BLITZ ; Eruption → egg move
 	db -1 ; no more level-up moves
 
-EYoumuHisuianEvosAttacks:
+TyphlosionHisuianEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SHADOW_HIT ; evolution move
+	db 1, SHADOW_CLAW ; evolution move
 	db 1, ASTONISH ; new move
 	db 1, TACKLE
 	db 1, LEER
@@ -4098,7 +4097,7 @@ PichuEvosAttacks:
 	db 18, THUNDER_WAVE
 	db 23, SCARY_FACE ; event move
 	db 28, SING ; event move
-	db 38, PETAL_SLASH ; event move
+	db 38, PETAL_DANCE ; event move
 	db -1 ; no more level-up moves
 
 CleffaEvosAttacks:
@@ -4284,7 +4283,7 @@ BellossomEvosAttacks:
 	db 1, STUN_SPORE
 	db 39, GROWTH ; Quiver Dance → Growth
 	db 49, MOONBLAST ; Petal Blizzard → Gloom move
-	db 59, PETAL_SLASH ; evolution move
+	db 59, PETAL_DANCE ; evolution move
 	db 69, PLAY_ROUGH ; Leaf Storm → Sw/Sh move
 	db -1 ; no more level-up moves
 
@@ -4487,7 +4486,7 @@ endc
 	db 19, PROTECT ; Worry Seed → TM move
 	db 22, GIGA_DRAIN
 	db 25, SAKUYA_WORLD ; Bullet Seed → TM move
-	db 28, PETAL_SLASH
+	db 28, PETAL_DANCE
 if DEF(FAITHFUL)
 	db 31, EARTH_POWER ; Natural Gift → tutor move
 else
@@ -4967,7 +4966,7 @@ ScizorEvosAttacks:
 	db 1, LEER
 	db 5, FOCUS_ENERGY
 	db 9, PURSUIT
-	db 13, BLADE_FLASH
+	db 13, FALSE_SWIPE
 	db 17, SAKUYA_WORLD
 	db 21, WING_ATTACK
 	db 25, BUG_BITE ; Fury Cutter → similar move
@@ -6390,7 +6389,7 @@ KleavorEvosAttacks:
 	db 1, LEER
 	db 5, FOCUS_ENERGY
 	db 9, PURSUIT
-	db 13, BLADE_FLASH
+	db 13, FALSE_SWIPE
 	db 17, SAKUYA_WORLD
 	db 21, AERIAL_ACE
 	db 25, BUG_BITE ; Fury Cutter → similar move
@@ -6519,7 +6518,7 @@ ClodsireEvosAttacks:
 
 AnnihilapeEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SHADOW_HIT ; Shadow Punch → similar move ; evolution move
+	db 1, SHADOW_CLAW ; Shadow Punch → similar move ; evolution move
 	db 1, OUTRAGE
 	db 1, RAGE
 	db 1, SCRATCH

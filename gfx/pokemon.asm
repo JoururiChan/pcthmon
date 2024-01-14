@@ -476,21 +476,21 @@ SECTION "Meganium Pics", ROMX
 MeganiumFrontpic: INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz"
 MeganiumBackpic:  INCBIN "gfx/pokemon/meganium/back.2bpp.lz"
 
-SECTION "CYoumu Pics", ROMX
-CYoumuFrontpic: INCBIN "gfx/pokemon/cyndaquil/front.animated.2bpp.lz"
-CYoumuBackpic:  INCBIN "gfx/pokemon/cyndaquil/back.2bpp.lz"
+SECTION "Cyndaquil Pics", ROMX
+CyndaquilFrontpic: INCBIN "gfx/pokemon/cyndaquil/front.animated.2bpp.lz"
+CyndaquilBackpic:  INCBIN "gfx/pokemon/cyndaquil/back.2bpp.lz"
 
-SECTION "Youmu Pics", ROMX
-YoumuFrontpic: INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
-YoumuBackpic:  INCBIN "gfx/pokemon/quilava/back.2bpp.lz"
+SECTION "Quilava Pics", ROMX
+QuilavaFrontpic: INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
+QuilavaBackpic:  INCBIN "gfx/pokemon/quilava/back.2bpp.lz"
 
-SECTION "EYoumuPlain Pics", ROMX
-EYoumuPlainFrontpic: INCBIN "gfx/pokemon/typhlosion_plain/front.animated.2bpp.lz"
-EYoumuPlainBackpic:  INCBIN "gfx/pokemon/typhlosion_plain/back.2bpp.lz"
+SECTION "TyphlosionPlain Pics", ROMX
+TyphlosionPlainFrontpic: INCBIN "gfx/pokemon/typhlosion_plain/front.animated.2bpp.lz"
+TyphlosionPlainBackpic:  INCBIN "gfx/pokemon/typhlosion_plain/back.2bpp.lz"
 
-SECTION "EYoumuHisuian Pics", ROMX
-EYoumuHisuianFrontpic: INCBIN "gfx/pokemon/typhlosion_hisuian/front.animated.2bpp.lz"
-EYoumuHisuianBackpic:  INCBIN "gfx/pokemon/typhlosion_hisuian/back.2bpp.lz"
+SECTION "TyphlosionHisuian Pics", ROMX
+TyphlosionHisuianFrontpic: INCBIN "gfx/pokemon/typhlosion_hisuian/front.animated.2bpp.lz"
+TyphlosionHisuianBackpic:  INCBIN "gfx/pokemon/typhlosion_hisuian/back.2bpp.lz"
 
 SECTION "Totodile Pics", ROMX
 TotodileFrontpic: INCBIN "gfx/pokemon/totodile/front.animated.2bpp.lz"

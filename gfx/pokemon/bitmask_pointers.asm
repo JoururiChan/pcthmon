@@ -154,9 +154,9 @@ BitmasksPointers:
 	dw ChikoritaBitmasks
 	dw BayleefBitmasks
 	dw MeganiumBitmasks
-	dw CYoumuBitmasks
-	dw YoumuBitmasks
-	dw EYoumuPlainBitmasks
+	dw CyndaquilBitmasks
+	dw QuilavaBitmasks
+	dw TyphlosionPlainBitmasks
 	dw TotodileBitmasks
 	dw CroconawBitmasks
 	dw FeraligatrBitmasks
@@ -399,7 +399,7 @@ BitmasksPointers:
 	dw ArcanineHisuianBitmasks
 	dw VoltorbHisuianBitmasks
 	dw ElectrodeHisuianBitmasks
-	dw EYoumuHisuianBitmasks
+	dw TyphlosionHisuianBitmasks
 	dw QwilfishHisuianBitmasks
 	dw SneaselHisuianBitmasks
 

@@ -55,18 +55,18 @@ Route34IlexForestGateCelebiEvent:
 Route34IlexForestGateTeacherScript:
 	checkevent EVENT_FOREST_IS_RESTLESS
 	iftrue_jumptextfaceplayer Route34IlexForestGateTeacher_ForestIsRestless
-	checkevent EVENT_GOT_TM54_BLADE_FLASH
+	checkevent EVENT_GOT_TM54_FALSE_SWIPE
 	iftrue_jumptextfaceplayer Route34IlexForestGateTeacher_GotSweetScent
 	faceplayer
 	opentext
 	writetext Route34IlexForestGateTeacherText
 	promptbutton
-	verbosegivetmhm TM_BLADE_FLASH
-	setevent EVENT_GOT_TM54_BLADE_FLASH
+	verbosegivetmhm TM_FALSE_SWIPE
+	setevent EVENT_GOT_TM54_FALSE_SWIPE
 	jumpthisopenedtext
 
 Route34IlexForestGateTeacher_GotSweetScent:
-	text "It's Blade Flash."
+	text "It's False Swipe."
 
 	para "It won't knock"
 	line "out wild #mon,"

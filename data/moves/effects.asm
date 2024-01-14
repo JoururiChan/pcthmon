@@ -1489,7 +1489,7 @@ Reversal:
 	posthiteffects
 	endmove
 
-BladeFlash:
+FalseSwipe:
 	checkobedience
 	usedmovetext
 	doturn

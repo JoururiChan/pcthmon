@@ -39,8 +39,8 @@ AgathaScript:
 	opentext
 	writetext AgathaRewardText
 	promptbutton
-	verbosegivetmhm TM_SHADOW_HIT
-	setevent EVENT_GOT_TM65_SHADOW_HIT_FROM_AGATHA
+	verbosegivetmhm TM_SHADOW_CLAW
+	setevent EVENT_GOT_TM65_SHADOW_CLAW_FROM_AGATHA
 AgathaAfterScript:
 	jumpopenedtext AgathaAfterText
 

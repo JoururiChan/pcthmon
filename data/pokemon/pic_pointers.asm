@@ -158,9 +158,9 @@ PokemonPicPointers::
 	pics Chikorita
 	pics Bayleef
 	pics Meganium
-	pics CYoumu
-	pics Youmu
-	pics EYoumuPlain
+	pics Cyndaquil
+	pics Quilava
+	pics TyphlosionPlain
 	pics Totodile
 	pics Croconaw
 	pics Feraligatr
@@ -403,7 +403,7 @@ PokemonPicPointers::
 	pics ArcanineHisuian
 	pics VoltorbHisuian
 	pics ElectrodeHisuian
-	pics EYoumuHisuian
+	pics TyphlosionHisuian
 	pics QwilfishHisuian
 	pics SneaselHisuian
 

@@ -176,9 +176,9 @@
 	const CHIKORITA  ; 98
 	const BAYLEEF    ; 99
 	const MEGANIUM   ; 9a
-	const CYOUMU  ; 9b
-	const YOUMU    ; 9c
-	const EYOUMU ; 9d
+	const CYNDAQUIL  ; 9b
+	const QUILAVA    ; 9c
+	const TYPHLOSION ; 9d
 	const TOTODILE   ; 9e
 	const CROCONAW   ; 9f
 	const FERALIGATR ; a0

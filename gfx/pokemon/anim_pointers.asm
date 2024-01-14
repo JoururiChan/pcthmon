@@ -154,9 +154,9 @@ AnimationPointers:
 	dw ChikoritaAnimation
 	dw BayleefAnimation
 	dw MeganiumAnimation
-	dw CYoumuAnimation
-	dw YoumuAnimation
-	dw EYoumuPlainAnimation
+	dw CyndaquilAnimation
+	dw QuilavaAnimation
+	dw TyphlosionPlainAnimation
 	dw TotodileAnimation
 	dw CroconawAnimation
 	dw FeraligatrAnimation
@@ -399,7 +399,7 @@ AnimationPointers:
 	dw ArcanineHisuianAnimation
 	dw VoltorbHisuianAnimation
 	dw ElectrodeHisuianAnimation
-	dw EYoumuHisuianAnimation
+	dw TyphlosionHisuianAnimation
 	dw QwilfishHisuianAnimation
 	dw SneaselHisuianAnimation
 

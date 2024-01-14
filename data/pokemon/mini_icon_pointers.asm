@@ -158,9 +158,9 @@ MiniIconPointers:
 	mini_icon Chikorita
 	mini_icon Bayleef
 	mini_icon Meganium
-	mini_icon CYoumu
-	mini_icon Youmu
-	mini_icon EYoumu
+	mini_icon Cyndaquil
+	mini_icon Quilava
+	mini_icon Typhlosion
 	mini_icon Totodile
 	mini_icon Croconaw
 	mini_icon Feraligatr
@@ -387,7 +387,7 @@ endr
 	mini_icon ArcanineHisuian
 	mini_icon VoltorbHisuian
 	mini_icon ElectrodeHisuian
-	mini_icon EYoumuHisuian
+	mini_icon TyphlosionHisuian
 	mini_icon QwilfishHisuian
 	mini_icon SneaselHisuian
 

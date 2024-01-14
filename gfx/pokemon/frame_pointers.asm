@@ -154,9 +154,9 @@ FramesPointers:
 	dw ChikoritaFrames
 	dw BayleefFrames
 	dw MeganiumFrames
-	dw CYoumuFrames
-	dw YoumuFrames
-	dw EYoumuPlainFrames
+	dw CyndaquilFrames
+	dw QuilavaFrames
+	dw TyphlosionPlainFrames
 	dw TotodileFrames
 	dw CroconawFrames
 	dw FeraligatrFrames
@@ -399,7 +399,7 @@ FramesPointers:
 	dw ArcanineHisuianFrames
 	dw VoltorbHisuianFrames
 	dw ElectrodeHisuianFrames
-	dw EYoumuHisuianFrames
+	dw TyphlosionHisuianFrames
 	dw QwilfishHisuianFrames
 	dw SneaselHisuianFrames
 

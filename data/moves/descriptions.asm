@@ -80,7 +80,7 @@ MoveDescriptions::
 	dw ToxicGasDescription
 	dw StunSporeDescription
 	dw SleepPowderDescription
-	dw PetalSlashDescription
+	dw PetalDanceDescription
 	dw StringShotDescription
 	dw DragonRageDescription
 	dw FireSpinDescription
@@ -206,7 +206,7 @@ MoveDescriptions::
 	dw EndureDescription
 	dw CharmDescription
 	dw RolloutDescription
-	dw BladeFlashDescription
+	dw FalseSwipeDescription
 	dw SwaggerDescription
 	dw ShellSmashDescription
 	dw SparkDescription
@@ -230,7 +230,7 @@ MoveDescriptions::
 	dw EncoreDescription
 	dw PursuitDescription
 	dw RapidSpinDescription
-	dw ShadowHitDescription
+	dw ShadowClawDescription
 	dw IronTailDescription
 	dw MetalClawDescription
 	dw AuraSphereDescription
@@ -276,7 +276,7 @@ SlashDescription:
 AeroblastDescription:
 CrossChopDescription:
 NightSlashDescription:
-ShadowHitDescription:
+ShadowClawDescription:
 StoneEdgeDescription:
 	text "Has a high criti-"
 	next "cal hit ratio."
@@ -696,7 +696,7 @@ RoostDescription:
 	done
 
 ThrashDescription:
-PetalSlashDescription:
+PetalDanceDescription:
 OutrageDescription:
 	text "Works 2-3 turns"
 	next "and confuses user."
@@ -724,7 +724,7 @@ EndureDescription:
 	next "with at least 1HP."
 	done
 
-BladeFlashDescription:
+FalseSwipeDescription:
 	text "Leaves the foe"
 	next "with at least 1HP."
 	done

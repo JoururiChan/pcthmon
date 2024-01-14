@@ -52,7 +52,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_PoisonGas
 	dw BattleAnimFunction_Horn
 	dw BattleAnimFunction_Needle
-	dw BattleAnimFunction_PetalSlash
+	dw BattleAnimFunction_PetalDance
 	dw BattleAnimFunction_ThiefPayday
 	dw BattleAnimFunction_AbsorbCircle
 	dw BattleAnimFunction_Bonemerang
@@ -2715,7 +2715,7 @@ BattleAnimFunction_SpiralDescent:
 .delete
 	jmp DeinitBattleAnimation
 
-BattleAnimFunction_PetalSlash:
+BattleAnimFunction_PetalDance:
 	ld hl, BATTLEANIMSTRUCT_VAR1
 	add hl, bc
 	ld a, [hl]

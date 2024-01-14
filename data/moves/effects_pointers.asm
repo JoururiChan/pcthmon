@@ -101,7 +101,7 @@ MoveEffectsPointers:
 	dw SleepTalk
 	dw DestinyBond
 	dw Reversal
-	dw BladeFlash
+	dw FalseSwipe
 	dw HealBell
 	dw Thief
 	dw MeanLook

@@ -81,7 +81,7 @@ BattleAnimations::
 	dw BattleAnim_ToxicGas
 	dw BattleAnim_StunSpore
 	dw BattleAnim_SleepPowder
-	dw BattleAnim_PetalSlash
+	dw BattleAnim_PetalDance
 	dw BattleAnim_StringShot
 	dw BattleAnim_DragonRage
 	dw BattleAnim_FireSpin
@@ -207,7 +207,7 @@ BattleAnimations::
 	dw BattleAnim_Endure
 	dw BattleAnim_Charm
 	dw BattleAnim_Rollout
-	dw BattleAnim_BladeFlash
+	dw BattleAnim_FalseSwipe
 	dw BattleAnim_Swagger
 	dw BattleAnim_ShellSmash
 	dw BattleAnim_Spark
@@ -231,7 +231,7 @@ BattleAnimations::
 	dw BattleAnim_Encore
 	dw BattleAnim_Pursuit
 	dw BattleAnim_RapidSpin
-	dw BattleAnim_ShadowHit
+	dw BattleAnim_ShadowClaw
 	dw BattleAnim_IronTail
 	dw BattleAnim_MetalClaw
 	dw BattleAnim_AuraSphere
@@ -2635,12 +2635,12 @@ BattleAnim_Transform:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_PetalSlash:
+BattleAnim_PetalDance:
 	anim_2gfx ANIM_GFX_FLOWER, ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_GAME_FREAK_LOGO_GS
 	anim_bgeffect ANIM_BG_CYCLE_MON_LIGHT_DARK_REPEATING, $0, $1, $20
 .loop
-	anim_obj ANIM_OBJ_PETAL_SLASH, 48, 56, $5
+	anim_obj ANIM_OBJ_PETAL_DANCE, 48, 56, $5
 	anim_wait 11
 	anim_loop 8, .loop
 	anim_wait 128
@@ -4469,7 +4469,7 @@ BattleAnim_Rollout:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_BladeFlash:
+BattleAnim_FalseSwipe:
 	anim_2gfx ANIM_GFX_SHINE, ANIM_GFX_CUT
 	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
 	anim_sound 0, 1, SFX_CUT
@@ -5032,7 +5032,7 @@ BattleAnim_DragonClaw:
 	anim_wait 32
 	anim_ret
 
-BattleAnim_ShadowHit:
+BattleAnim_ShadowClaw:
 	anim_2gfx ANIM_GFX_CUT, ANIM_GFX_SPEED
 	anim_obp0 $ef
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0

@@ -155,9 +155,9 @@ PokedexDataPointerTable:
 	dba ChikoritaPokedexEntry
 	dba BayleefPokedexEntry
 	dba MeganiumPokedexEntry
-	dba CYoumuPokedexEntry
-	dba YoumuPokedexEntry
-	dba EYoumuPlainPokedexEntry
+	dba CyndaquilPokedexEntry
+	dba QuilavaPokedexEntry
+	dba TyphlosionPlainPokedexEntry
 	dba TotodilePokedexEntry
 	dba CroconawPokedexEntry
 	dba FeraligatrPokedexEntry
@@ -337,7 +337,7 @@ PokedexDataPointerTable:
 	dba ArcanineHisuianPokedexEntry
 	dba VoltorbHisuianPokedexEntry
 	dba ElectrodeHisuianPokedexEntry
-	dba EYoumuHisuianPokedexEntry
+	dba TyphlosionHisuianPokedexEntry
 	dba QwilfishHisuianPokedexEntry
 	dba SneaselHisuianPokedexEntry
 
