@@ -4562,7 +4562,7 @@ PokefanFGroup:
 	db "Jaime@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 16, CLEIS
+	dbp 16, CELIS
 		db ORAN_BERRY
 	db -1 ; end
 
