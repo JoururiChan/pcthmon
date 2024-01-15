@@ -7,6 +7,7 @@ ContactMoves:
 	db AVALANCHE
 	db BITE
 	db BODY_SLAM
+	db BLADE_FLASH
 	db BLAZE_STAR
 	db BUG_BITE
 	db BULLET_PUNCH
