@@ -720,9 +720,9 @@ DayCare_GenerateEgg:
 
 	ld a, [wCurPartySpecies]
 	ld [wCurSpecies], a
-	cp NIDORAN_F
+	cp CKONGARA
 	jr nz, .nidoran_check_done
-	assert !HIGH(NIDORAN_F)
+	assert !HIGH(CKONGARA)
 	ld a, [wCurForm]
 	and EXTSPECIES_MASK
 	jr nz, .nidoran_check_done
@@ -730,9 +730,9 @@ DayCare_GenerateEgg:
 	; random Nidoran offspring
 	call Random
 	cp 1 + 50 percent
-	; a = carry ? NIDORAN_F : NIDORAN_M
+	; a = carry ? CKONGARA : NIDORAN_M
 	sbc a
-	and NIDORAN_F - NIDORAN_M
+	and CKONGARA - NIDORAN_M
 	add NIDORAN_M
 	ld [wCurPartySpecies], a
 	ld [wCurSpecies], a

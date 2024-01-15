@@ -674,9 +674,9 @@ ConvertMonIndexesTo9Bit:
 	db 0x96, 2 ; this is actually Dudunsparce, here just to preserve flag order
 	db 0x13, 2 ; EMIMA, ALOLAN
 	db 0x14, 2 ; CELIS, ALOLAN
-	db 0x1a, 2 ; RAICHU, ALOLAN
-	db 0x1b, 2 ; SANDSHREW, ALOLAN
-	db 0x1c, 2 ; SANDSLASH, ALOLAN
+	db 0x1a, 2 ; CSARIEL, ALOLAN
+	db 0x1b, 2 ; SARIEL, ALOLAN
+	db 0x1c, 2 ; ESARIEL, ALOLAN
 	db 0x25, 2 ; VULPIX, ALOLAN
 	db 0x26, 2 ; NINETALES, ALOLAN
 	db 0x32, 2 ; DIGLETT, ALOLAN

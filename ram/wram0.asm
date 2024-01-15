@@ -428,7 +428,7 @@ wPlayerSubStatus4::
 ; 6 rage
 ; 5 flinched
 ; 4 substitute
-; 3 roost
+; 3 whitebird
 ; 2 focus energy
 ; 1 unused
 ; 0 curled

@@ -116,7 +116,7 @@ ENDM
 ; FindOwnedOrnaments.ornaments values (see engine/overworld/decorations.asm)
 	const DOLLS
 	deco  EKIKURI_DOLL
-	deco  RAICHU_DOLL
+	deco  CSARIEL_DOLL
 	deco  SURF_EKIKURI_DOLL
 	deco  CLEFAIRY_DOLL
 	deco  JIGGLYPUFF_DOLL

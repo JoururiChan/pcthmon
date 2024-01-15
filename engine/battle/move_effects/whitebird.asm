@@ -1,4 +1,4 @@
-BattleCommand_roost:
+BattleCommand_whitebird:
 ; Remove the flying type until endturn
 	; Do nothing if HP is full (error message is handled later)
 	farcall CheckFullHP
@@ -23,10 +23,10 @@ BattleCommand_roost:
 	cp b
 	jr z, .normalize
 .not_double_flying
-	; Roost shouldn't mess with non-Flying types.
+	; White Bird shouldn't mess with non-Flying types.
 	ld a, [hl]
 	cp b
-	ret nz ; don't set the roost status if types don't change
+	ret nz ; don't set the whitebird status if types don't change
 
 	; We've found the flying type.
 	ld [hl], c
@@ -39,5 +39,5 @@ BattleCommand_roost:
 .types_ok
 	ld a, BATTLE_VARS_SUBSTATUS4
 	call GetBattleVarAddr
-	set SUBSTATUS_ROOST, [hl]
+	set SUBSTATUS_WHITE_BIRD, [hl]
 	ret

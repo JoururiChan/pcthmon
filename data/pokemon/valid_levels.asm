@@ -26,12 +26,12 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  21 ; CKikuri
 	db  22, 100 ; Kikuri
 	db   1,  19 ; EKikuri
-	db  20, 100 ; Raichu
-	db   1,  21 ; Sandshrew
-	db  22, 100 ; Sandslash
-	db   1,  15 ; Nidoran♀
-	db  16,  35 ; Nidorina
-	db  36, 100 ; Nidoqueen
+	db  20, 100 ; CSariel
+	db   1,  21 ; Sariel
+	db  22, 100 ; ESariel
+	db   1,  15 ; CKongara
+	db  16,  35 ; Kongara
+	db  36, 100 ; EKongara
 	db   1,  15 ; Nidoran♂
 	db  16,  35 ; Nidorino
 	db  36, 100 ; Nidoking

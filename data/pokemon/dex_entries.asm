@@ -6,47 +6,47 @@ CReimuPokedexEntry::
 	next "it has learned"
 	page "much but treats"
 	next "the God's faith"
-	next "like a joke.@"
+	next "as a joke.@"
 
 SECTION "ReimuPokedexEntry", ROMX
 ReimuPokedexEntry::
-	db "Seed@"
-	db   "The bulb on its"
-	next "back grows as it"
-	next "absorbs nutrients."
-	page "The bulb gives off"
-	next "a pleasant aroma"
-	next "when it blooms.@"
+	db "Miko@"
+	db   "It's become superb"
+	next "at it's usage of"
+	next "power, but the God"
+	page "continues it's an-"
+	next "ger towards it for"
+	next "being a slacker.@"
 
 SECTION "EReimuPokedexEntry", ROMX
 EReimuPokedexEntry::
-	db "Seed@"
-	db   "As it warms it-"
-	next "self and absorbs"
-	next "the sunlight, its"
-	page "flower petals"
-	next "release a pleasant"
-	next "fragrance.@"
+	db "Miko@"
+	db   "Despite still not"
+	next "tending to the"
+	next "God's faith, it"
+	page "has mastered it's"
+	next "fate as well as"
+	next "usage of power.@"
 
 SECTION "CMarisaPokedexEntry", ROMX
 CMarisaPokedexEntry::
-	db "Lizard@"
-	db   "If it's healthy,"
-	next "the flame on the"
-	next "tip of its tail"
-	page "will burn vigor-"
-	next "ously, even if it"
-	next "gets a bit wet.@"
+	db "Novice@"
+	db   "It is known"
+	next "to cause mischief"
+	next "as it has natural"
+	page "born motive to"
+	next "thief valuables"
+	next "from strangers.@"
 
 SECTION "MarisaPokedexEntry", ROMX
 MarisaPokedexEntry::
-	db "Flame@"
-	db   "If it becomes"
-	next "agitated during"
-	next "battle, it spouts"
-	page "intense flames,"
-	next "incinerating its"
-	next "surroundings.@"
+	db "Witch@"
+	db   "It takes pleasure"
+	next "in mirroring it's"
+	next "opponents' moves,"
+	page "taking their"
+	next "magic ideas and"
+	next "using them.@"
 
 SECTION "EMarisaPokedexEntry", ROMX
 EMarisaPokedexEntry::
@@ -252,8 +252,8 @@ EKikuriPokedexEntry::
 	next "the pouches in its"
 	next "cheeks.@"
 
-SECTION "RaichuPlainPokedexEntry", ROMX
-RaichuPlainPokedexEntry::
+SECTION "CSarielPlainPokedexEntry", ROMX
+CSarielPlainPokedexEntry::
 	db "Mouse@"
 	db   "If its electric"
 	next "pouches run empty,"
@@ -262,8 +262,8 @@ RaichuPlainPokedexEntry::
 	next "city from the"
 	next "atmosphere.@"
 
-SECTION "SandshrewPlainPokedexEntry", ROMX
-SandshrewPlainPokedexEntry::
+SECTION "SarielPlainPokedexEntry", ROMX
+SarielPlainPokedexEntry::
 	db "Mouse@"
 	db   "It prefers dry,"
 	next "sandy places"
@@ -272,8 +272,8 @@ SandshrewPlainPokedexEntry::
 	next "protect itself"
 	next "when threatened.@"
 
-SECTION "SandslashPlainPokedexEntry", ROMX
-SandslashPlainPokedexEntry::
+SECTION "ESarielPlainPokedexEntry", ROMX
+ESarielPlainPokedexEntry::
 	db "Mouse@"
 	db   "Adept at climbing"
 	next "trees, it rolls"
@@ -282,8 +282,8 @@ SandslashPlainPokedexEntry::
 	next "enemies from"
 	next "above.@"
 
-SECTION "NidoranFPokedexEntry", ROMX
-NidoranFPokedexEntry::
+SECTION "CKongaraPokedexEntry", ROMX
+CKongaraPokedexEntry::
 	db "Poison Pin@"
 	db   "Small and very"
 	next "docile, it pro-"
@@ -292,8 +292,8 @@ NidoranFPokedexEntry::
 	next "ous horn when"
 	next "attacked.@"
 
-SECTION "NidorinaPokedexEntry", ROMX
-NidorinaPokedexEntry::
+SECTION "KongaraPokedexEntry", ROMX
+KongaraPokedexEntry::
 	db "Poison Pin@"
 	db   "It has a docile"
 	next "nature. If it is"
@@ -302,8 +302,8 @@ NidorinaPokedexEntry::
 	next "the barbs that are"
 	next "all over its body.@"
 
-SECTION "NidoqueenPokedexEntry", ROMX
-NidoqueenPokedexEntry::
+SECTION "EKongaraPokedexEntry", ROMX
+EKongaraPokedexEntry::
 	db "Drill@"
 	db   "The hard scales"
 	next "that cover its"
@@ -2935,8 +2935,8 @@ CElisAlolanPokedexEntry::
 	next "most nutritious"
 	next "and delicious fare.@"
 
-SECTION "RaichuAlolanPokedexEntry", ROMX
-RaichuAlolanPokedexEntry::
+SECTION "CSarielAlolanPokedexEntry", ROMX
+CSarielAlolanPokedexEntry::
 	db "Mouse@"
 	db   "When you rub its"
 	next "cheeks, a sweet"
@@ -2945,8 +2945,8 @@ RaichuAlolanPokedexEntry::
 	next "ever, you'll also"
 	next "get a light shock!@"
 
-SECTION "SandshrewAlolanPokedexEntry", ROMX
-SandshrewAlolanPokedexEntry::
+SECTION "SarielAlolanPokedexEntry", ROMX
+SarielAlolanPokedexEntry::
 	db "Mouse@"
 	db   "It lives on snowy"
 	next "mountains. Its"
@@ -2955,8 +2955,8 @@ SandshrewAlolanPokedexEntry::
 	next "roll its body up"
 	next "into a ball.@"
 
-SECTION "SandslashAlolanPokedexEntry", ROMX
-SandslashAlolanPokedexEntry::
+SECTION "ESarielAlolanPokedexEntry", ROMX
+ESarielAlolanPokedexEntry::
 	db "Mouse@"
 	db   "Many people climb"
 	next "snowy mountains,"

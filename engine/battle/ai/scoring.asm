@@ -377,7 +377,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_SOLAR_BEAM,        AI_Smart_SolarBeam
 	dbw EFFECT_THUNDER,           AI_Smart_Thunder
 	dbw EFFECT_FLY,               AI_Smart_Fly
-	dbw EFFECT_ROOST,             AI_Smart_Roost
+	dbw EFFECT_WHITE_BIRD,             AI_Smart_White Bird
 	dbw EFFECT_TRICK_ROOM,        AI_Smart_TrickRoom
 	db -1 ; end
 
@@ -773,7 +773,7 @@ AI_Smart_HealingLight:
 	ret
 
 AI_Smart_Heal:
-AI_Smart_Roost:
+AI_Smart_White Bird:
 ; Score the move as follows (lower is better):
 ; <33%: -2
 ; 33-50%: -1

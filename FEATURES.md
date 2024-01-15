@@ -220,7 +220,7 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * Replaced Twins sprite with a devamped one from B/W.
 * New music ported from RBY and devamped from future generations.
 * Unique mini sprites for each Tohomon (thanks to [this patch](http://www.pokecommunity.com/showthread.php?t=338470)).
-* Revised some shiny palettes (Dragonite is blue like Dragonair, Nidoqueen is pink like Nidoking, Scizor is silver, Espeon is sky blue, Electabuzz is red, etc).
+* Revised some shiny palettes (Dragonite is blue like Dragonair, EKongara is pink like Nidoking, Scizor is silver, Espeon is sky blue, Electabuzz is red, etc).
 * Unown isn't the only Tohomon with variant forms…
 * Color-coded starter Poké Balls.
 * Item balls for TMs are blue (inspired by Gen VI's yellow).
@@ -243,5 +243,5 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * Janine's pink badge is called the Marsh Badge; Sabrina's gold badge is called the Soul Badge.
 * Fly to the Rock Tunnel/Power Plant Tohomon Center.
 * Fishing works 75% of the time, not 50%.
-* Nidorina and Nidoqueen can breed, and will produce eggs of either Nidoran gender.
+* Kongara and EKongara can breed, and will produce eggs of either Nidoran gender.
 * Always show numbers in Tohodex, even in Johto order.

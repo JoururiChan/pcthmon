@@ -166,10 +166,10 @@ AlphabeticalPokedexOrder:
 	dp MURKROW
 	dp NATU
 	dp NIDOKING
-	dp NIDOQUEEN
-	dp NIDORAN_F
+	dp EKONGARA
+	dp CKONGARA
 	dp NIDORAN_M
-	dp NIDORINA
+	dp KONGARA
 	dp NIDORINO
 	dp NINETALES
 	dp NOCTOWL
@@ -206,7 +206,7 @@ AlphabeticalPokedexOrder:
 	dp QUAGSIRE
 	dp REISEN
 	dp QWILFISH
-	dp RAICHU
+	dp CSARIEL
 	dp RAIKOU
 	dp RAPIDASH
 	dp CELIS
@@ -215,8 +215,8 @@ AlphabeticalPokedexOrder:
 	dp RHYDON
 	dp RHYHORN
 	dp RHYPERIOR
-	dp SANDSHREW
-	dp SANDSLASH
+	dp SARIEL
+	dp ESARIEL
 	dp SCIZOR
 	dp SCYTHER
 	dp SEADRA

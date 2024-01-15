@@ -31,15 +31,15 @@ PokemonCries::
 	mon_cry CRY_CKIKURI,       $012,  $0c0 ; CKikuri
 	mon_cry CRY_CKIKURI,       $0e0,  $090 ; Kikuri
 	mon_cry CRY_CREIMU,   $0ee,  $081 ; EKikuri
-	mon_cry CRY_RAICHU,      $0ee,  $088 ; Raichu
-	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; Sandshrew
-	mon_cry CRY_NIDORAN_M,   $0ff,  $17f ; Sandslash
-	mon_cry CRY_NIDORAN_F,   $000,  $100 ; NidoranF
-	mon_cry CRY_NIDORAN_F,   $02c,  $160 ; Nidorina
-	mon_cry CRY_NIDOQUEEN,   $000,  $100 ; Nidoqueen
+	mon_cry CRY_CSARIEL,      $0ee,  $088 ; CSariel
+	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; Sariel
+	mon_cry CRY_NIDORAN_M,   $0ff,  $17f ; ESariel
+	mon_cry CRY_CKONGARA,   $000,  $100 ; CKongara
+	mon_cry CRY_CKONGARA,   $02c,  $160 ; Kongara
+	mon_cry CRY_EKONGARA,   $000,  $100 ; EKongara
 	mon_cry CRY_NIDORAN_M,   $000,  $100 ; NidoranM
 	mon_cry CRY_NIDORAN_M,   $02c,  $140 ; Nidorino
-	mon_cry CRY_RAICHU,      $000,  $100 ; Nidoking
+	mon_cry CRY_CSARIEL,      $000,  $100 ; Nidoking
 	mon_cry CRY_CLEFAIRY,    $0cc,  $081 ; Clefairy
 	mon_cry CRY_CLEFAIRY,    $0aa,  $0a0 ; Clefable
 	mon_cry CRY_VULPIX,      $04f,  $090 ; Vulpix
@@ -61,8 +61,8 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    $099,  $17f ; Persian
 	mon_cry CRY_PSYDUCK,     $020,  $0e0 ; Psyduck
 	mon_cry CRY_PSYDUCK,     $0ff,  $0c0 ; Golduck
-	mon_cry CRY_NIDOQUEEN,   $0dd,  $0e0 ; Mankey
-	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Primeape
+	mon_cry CRY_EKONGARA,   $0dd,  $0e0 ; Mankey
+	mon_cry CRY_EKONGARA,   $0af,  $0c0 ; Primeape
 	mon_cry CRY_GROWLITHE,   $020,  $0c0 ; Growlithe
 	mon_cry CRY_OGYOKU,      $000,  $100 ; Arcanine
 	mon_cry CRY_EMAGAN,      $0ff,  $17f ; Poliwag
@@ -149,9 +149,9 @@ PokemonCries::
 	mon_cry CRY_SHELLDER,    $0ee,  $081 ; Kabutops
 	mon_cry CRY_VILEPLUME,   $020,  $170 ; Aerodactyl
 	mon_cry CRY_GRIMER,      $055,  $081 ; Snorlax
-	mon_cry CRY_RAICHU,      $080,  $0c0 ; Articuno
+	mon_cry CRY_CSARIEL,      $080,  $0c0 ; Articuno
 	mon_cry CRY_SHELLDER,    $0ff,  $100 ; Zapdos
-	mon_cry CRY_RAICHU,      $0f8,  $0c0 ; Moltres
+	mon_cry CRY_CSARIEL,      $0f8,  $0c0 ; Moltres
 	mon_cry CRY_CREIMU,   $060,  $0c0 ; Dratini
 	mon_cry CRY_CREIMU,   $040,  $100 ; Dragonair
 	mon_cry CRY_CREIMU,   $03c,  $140 ; Dragonite
@@ -296,5 +296,5 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dudunsparce
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Farigiraf
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
-	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
+	mon_cry CRY_EKONGARA,   $0af,  $0c0 ; Annihilape
 	assert_table_length NUM_SPECIES

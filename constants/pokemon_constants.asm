@@ -47,12 +47,12 @@
 	const CKIKURI      ; 17
 	const KIKURI      ; 18
 	const EKIKURI    ; 19
-	const RAICHU     ; 1a
-	const SANDSHREW  ; 1b
-	const SANDSLASH  ; 1c
-	const NIDORAN_F  ; 1d
-	const NIDORINA   ; 1e
-	const NIDOQUEEN  ; 1f
+	const CSARIEL     ; 1a
+	const SARIEL  ; 1b
+	const ESARIEL  ; 1c
+	const CKONGARA  ; 1d
+	const KONGARA   ; 1e
+	const EKONGARA  ; 1f
 	const NIDORAN_M  ; 20
 	const NIDORINO   ; 21
 	const NIDOKING   ; 22

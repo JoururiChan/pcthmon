@@ -51,7 +51,7 @@ TMHMMoves:
 	db ROCK_SLIDE   ; TM48 (Brock)
 	db ENERGY_LIGHT ; TM49 (Bellchime Trail)
 	db LEECH_LIFE   ; TM50 (Yellow Forest)
-	db ROOST        ; TM51 (Falkner)
+	db WHITE_BIRD        ; TM51 (Falkner)
 	db FOCUS_BLAST  ; TM52 (Quiet Cave)
 	db DREAM_HEAVEN  ; TM53 (Olivine Lighthouse)
 	db BLADE_FLASH  ; TM54 (Ilex Forest Gate)

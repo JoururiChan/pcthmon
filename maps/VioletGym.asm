@@ -57,7 +57,7 @@ VioletGymFalknerScript:
 	waitsfx
 	setflag ENGINE_ZEPHYRBADGE
 .FightDone:
-	checkevent EVENT_GOT_TM31_ROOST
+	checkevent EVENT_GOT_TM31_WHITE_BIRD
 	iftrue_jumpopenedtext FalknerFightDoneText
 	setevent EVENT_BEAT_BIRD_KEEPER_ROD
 	setevent EVENT_BEAT_BIRD_KEEPER_ABE
@@ -65,8 +65,8 @@ VioletGymFalknerScript:
 	specialphonecall SPECIALCALL_ASSISTANT
 	writetext FalknerZephyrBadgeText
 	promptbutton
-	verbosegivetmhm TM_ROOST
-	setevent EVENT_GOT_TM31_ROOST
+	verbosegivetmhm TM_WHITE_BIRD
+	setevent EVENT_GOT_TM31_WHITE_BIRD
 	jumpopenedtext FalknerTMMudSlapText
 
 GenericTrainerBird_keeperRod:
@@ -170,7 +170,7 @@ FalknerTMMudSlapText:
 	cont "you want."
 
 	para "TM51 contains"
-	line "Roost."
+	line "White Bird."
 
 	para "It lands on the"
 	line "ground to restore"

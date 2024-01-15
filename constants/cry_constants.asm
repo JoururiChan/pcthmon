@@ -3,7 +3,7 @@
 
 ; gen 1
 	const CRY_NIDORAN_M
-	const CRY_NIDORAN_F
+	const CRY_CKONGARA
 	const CRY_SLOWPOKE
 	const CRY_KANGASKHAN
 	const CRY_CMARISA
@@ -11,8 +11,8 @@
 	const CRY_VOLTORB
 	const CRY_MUK
 	const CRY_ODDISH
-	const CRY_RAICHU
-	const CRY_NIDOQUEEN
+	const CRY_CSARIEL
+	const CRY_EKONGARA
 	const CRY_DIGLETT
 	const CRY_SEEL
 	const CRY_DROWZEE

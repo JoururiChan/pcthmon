@@ -24,7 +24,7 @@ NewPokedexOrder:
 	dp FURRET
 	dp PICHU
 	dp EKIKURI
-	dp RAICHU
+	dp CSARIEL
 	dp CGYOKU
 	dp MGYOKU
 	dp FGYOKU
@@ -50,8 +50,8 @@ NewPokedexOrder:
 	dp TOGEPI
 	dp TOGETIC
 	dp TOGEKISS
-	dp SANDSHREW
-	dp SANDSLASH
+	dp SARIEL
+	dp ESARIEL
 	dp CKIKURI
 	dp KIKURI
 	dp DUNSPARCE
@@ -101,9 +101,9 @@ NewPokedexOrder:
 	dp DITTO
 	dp PINECO
 	dp FORRETRESS
-	dp NIDORAN_F
-	dp NIDORINA
-	dp NIDOQUEEN
+	dp CKONGARA
+	dp KONGARA
+	dp EKONGARA
 	dp NIDORAN_M
 	dp NIDORINO
 	dp NIDOKING

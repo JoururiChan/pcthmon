@@ -1092,11 +1092,11 @@ Heal:
 	heal
 	endmove
 
-Roost:
+White Bird:
 	checkobedience
 	usedmovetext
 	doturn
-	roost
+	whitebird
 	heal
 	endmove
 

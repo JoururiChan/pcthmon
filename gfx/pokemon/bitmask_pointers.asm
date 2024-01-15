@@ -25,12 +25,12 @@ BitmasksPointers:
 	dw CKikuriBitmasks
 	dw KikuriJohtoBitmasks
 	dw EKikuriPlainBitmasks
-	dw RaichuPlainBitmasks
-	dw SandshrewPlainBitmasks
-	dw SandslashPlainBitmasks
-	dw NidoranFBitmasks
-	dw NidorinaBitmasks
-	dw NidoqueenBitmasks
+	dw CSarielPlainBitmasks
+	dw SarielPlainBitmasks
+	dw ESarielPlainBitmasks
+	dw CKongaraBitmasks
+	dw KongaraBitmasks
+	dw EKongaraBitmasks
 	dw NidoranMBitmasks
 	dw NidorinoBitmasks
 	dw NidokingBitmasks
@@ -364,9 +364,9 @@ BitmasksPointers:
 
 	dw EMimaAlolanBitmasks
 	dw CElisAlolanBitmasks
-	dw RaichuAlolanBitmasks
-	dw SandshrewAlolanBitmasks
-	dw SandslashAlolanBitmasks
+	dw CSarielAlolanBitmasks
+	dw SarielAlolanBitmasks
+	dw ESarielAlolanBitmasks
 	dw VulpixAlolanBitmasks
 	dw NinetalesAlolanBitmasks
 	dw DiglettAlolanBitmasks

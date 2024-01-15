@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F100, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for NIDORAN_F, POISON_POINT, RIVALRY, HUSTLE
+	abilities_for CKONGARA, POISON_POINT, RIVALRY, HUSTLE
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 

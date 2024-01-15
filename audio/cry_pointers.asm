@@ -11,8 +11,8 @@ Cries:
 	fardw Cry_Voltorb
 	fardw Cry_Muk
 	fardw Cry_Oddish
-	fardw Cry_Raichu
-	fardw Cry_Nidoqueen
+	fardw Cry_CSariel
+	fardw Cry_EKongara
 	fardw Cry_Diglett
 	fardw Cry_Seel
 	fardw Cry_Drowzee

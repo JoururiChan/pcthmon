@@ -92,17 +92,17 @@ SECTION "CKikuri Pics", ROMX
 CKikuriFrontpic: INCBIN "gfx/pokemon/ckikuri/front.animated.2bpp.lz"
 CKikuriBackpic:  INCBIN "gfx/pokemon/ckikuri/back.2bpp.lz"
 
-SECTION "NidoranF Pics", ROMX
-NidoranFFrontpic: INCBIN "gfx/pokemon/nidoran_f/front.animated.2bpp.lz"
-NidoranFBackpic:  INCBIN "gfx/pokemon/nidoran_f/back.2bpp.lz"
+SECTION "CKongara Pics", ROMX
+CKongaraFrontpic: INCBIN "gfx/pokemon/nidoran_f/front.animated.2bpp.lz"
+CKongaraBackpic:  INCBIN "gfx/pokemon/nidoran_f/back.2bpp.lz"
 
-SECTION "Nidorina Pics", ROMX
-NidorinaFrontpic: INCBIN "gfx/pokemon/nidorina/front.animated.2bpp.lz"
-NidorinaBackpic:  INCBIN "gfx/pokemon/nidorina/back.2bpp.lz"
+SECTION "Kongara Pics", ROMX
+KongaraFrontpic: INCBIN "gfx/pokemon/nidorina/front.animated.2bpp.lz"
+KongaraBackpic:  INCBIN "gfx/pokemon/nidorina/back.2bpp.lz"
 
-SECTION "Nidoqueen Pics", ROMX
-NidoqueenFrontpic: INCBIN "gfx/pokemon/nidoqueen/front.animated.2bpp.lz"
-NidoqueenBackpic:  INCBIN "gfx/pokemon/nidoqueen/back.2bpp.lz"
+SECTION "EKongara Pics", ROMX
+EKongaraFrontpic: INCBIN "gfx/pokemon/nidoqueen/front.animated.2bpp.lz"
+EKongaraBackpic:  INCBIN "gfx/pokemon/nidoqueen/back.2bpp.lz"
 
 SECTION "NidoranM Pics", ROMX
 NidoranMFrontpic: INCBIN "gfx/pokemon/nidoran_m/front.animated.2bpp.lz"
@@ -1203,21 +1203,21 @@ SECTION "CElisAlolan Pics", ROMX
 CElisAlolanFrontpic: INCBIN "gfx/pokemon/celis_alolan/front.animated.2bpp.lz"
 CElisAlolanBackpic:  INCBIN "gfx/pokemon/celis_alolan/back.2bpp.lz"
 
-SECTION "SandshrewPlain Pics", ROMX
-SandshrewPlainFrontpic: INCBIN "gfx/pokemon/sandshrew_plain/front.animated.2bpp.lz"
-SandshrewPlainBackpic:  INCBIN "gfx/pokemon/sandshrew_plain/back.2bpp.lz"
+SECTION "SarielPlain Pics", ROMX
+SarielPlainFrontpic: INCBIN "gfx/pokemon/sandshrew_plain/front.animated.2bpp.lz"
+SarielPlainBackpic:  INCBIN "gfx/pokemon/sandshrew_plain/back.2bpp.lz"
 
-SECTION "SandslashPlain Pics", ROMX
-SandslashPlainFrontpic: INCBIN "gfx/pokemon/sandslash_plain/front.animated.2bpp.lz"
-SandslashPlainBackpic:  INCBIN "gfx/pokemon/sandslash_plain/back.2bpp.lz"
+SECTION "ESarielPlain Pics", ROMX
+ESarielPlainFrontpic: INCBIN "gfx/pokemon/sandslash_plain/front.animated.2bpp.lz"
+ESarielPlainBackpic:  INCBIN "gfx/pokemon/sandslash_plain/back.2bpp.lz"
 
-SECTION "SandshrewAlolan Pics", ROMX
-SandshrewAlolanFrontpic: INCBIN "gfx/pokemon/sandshrew_alolan/front.animated.2bpp.lz"
-SandshrewAlolanBackpic:  INCBIN "gfx/pokemon/sandshrew_alolan/back.2bpp.lz"
+SECTION "SarielAlolan Pics", ROMX
+SarielAlolanFrontpic: INCBIN "gfx/pokemon/sandshrew_alolan/front.animated.2bpp.lz"
+SarielAlolanBackpic:  INCBIN "gfx/pokemon/sandshrew_alolan/back.2bpp.lz"
 
-SECTION "SandslashAlolan Pics", ROMX
-SandslashAlolanFrontpic: INCBIN "gfx/pokemon/sandslash_alolan/front.animated.2bpp.lz"
-SandslashAlolanBackpic:  INCBIN "gfx/pokemon/sandslash_alolan/back.2bpp.lz"
+SECTION "ESarielAlolan Pics", ROMX
+ESarielAlolanFrontpic: INCBIN "gfx/pokemon/sandslash_alolan/front.animated.2bpp.lz"
+ESarielAlolanBackpic:  INCBIN "gfx/pokemon/sandslash_alolan/back.2bpp.lz"
 
 SECTION "VulpixPlain Pics", ROMX
 VulpixPlainFrontpic: INCBIN "gfx/pokemon/vulpix_plain/front.animated.2bpp.lz"
@@ -1315,13 +1315,13 @@ SECTION "MukAlolan Pics", ROMX
 MukAlolanFrontpic: INCBIN "gfx/pokemon/muk_alolan/front.animated.2bpp.lz"
 MukAlolanBackpic:  INCBIN "gfx/pokemon/muk_alolan/back.2bpp.lz"
 
-SECTION "RaichuPlain Pics", ROMX
-RaichuPlainFrontpic: INCBIN "gfx/pokemon/raichu_plain/front.animated.2bpp.lz"
-RaichuPlainBackpic:  INCBIN "gfx/pokemon/raichu_plain/back.2bpp.lz"
+SECTION "CSarielPlain Pics", ROMX
+CSarielPlainFrontpic: INCBIN "gfx/pokemon/raichu_plain/front.animated.2bpp.lz"
+CSarielPlainBackpic:  INCBIN "gfx/pokemon/raichu_plain/back.2bpp.lz"
 
-SECTION "RaichuAlolan Pics", ROMX
-RaichuAlolanFrontpic: INCBIN "gfx/pokemon/raichu_alolan/front.animated.2bpp.lz"
-RaichuAlolanBackpic:  INCBIN "gfx/pokemon/raichu_alolan/back.2bpp.lz"
+SECTION "CSarielAlolan Pics", ROMX
+CSarielAlolanFrontpic: INCBIN "gfx/pokemon/raichu_alolan/front.animated.2bpp.lz"
+CSarielAlolanBackpic:  INCBIN "gfx/pokemon/raichu_alolan/back.2bpp.lz"
 
 SECTION "ExeggutorPlain Pics", ROMX
 ExeggutorPlainFrontpic: INCBIN "gfx/pokemon/exeggutor_plain/front.animated.2bpp.lz"

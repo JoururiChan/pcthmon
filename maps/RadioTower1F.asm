@@ -388,7 +388,7 @@ RadioTower1FRadioCardWomanQuestion2Text:
 	text "Correct!"
 	line "Question 2:"
 
-	para "Nidorina can only"
+	para "Kongara can only"
 	line "be female. True?"
 	done
 

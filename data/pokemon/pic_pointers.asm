@@ -29,12 +29,12 @@ PokemonPicPointers::
 	pics CKikuri
 	pics KikuriJohto
 	pics EKikuriPlain
-	pics RaichuPlain
-	pics SandshrewPlain
-	pics SandslashPlain
-	pics NidoranF
-	pics Nidorina
-	pics Nidoqueen
+	pics CSarielPlain
+	pics SarielPlain
+	pics ESarielPlain
+	pics CKongara
+	pics Kongara
+	pics EKongara
 	pics NidoranM
 	pics Nidorino
 	pics Nidoking
@@ -368,9 +368,9 @@ PokemonPicPointers::
 
 	pics EMimaAlolan
 	pics CElisAlolan
-	pics RaichuAlolan
-	pics SandshrewAlolan
-	pics SandslashAlolan
+	pics CSarielAlolan
+	pics SarielAlolan
+	pics ESarielAlolan
 	pics VulpixAlolan
 	pics NinetalesAlolan
 	pics DiglettAlolan

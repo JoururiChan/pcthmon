@@ -34,7 +34,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 12, NIDORAN_M
-	wildmon 12, NIDORAN_F
+	wildmon 12, CKONGARA
 	wildmon 12, YANMA
 	wildmon 14, YANMA
 	wildmon 14, CMAGAN
@@ -42,7 +42,7 @@
 	wildmon 10, DITTO
 	; day
 	wildmon 12, NIDORAN_M
-	wildmon 12, NIDORAN_F
+	wildmon 12, CKONGARA
 	wildmon 12, YANMA
 	wildmon 14, YANMA
 	wildmon 14, CMAGAN
@@ -50,7 +50,7 @@
 	wildmon 10, DITTO
 	; nite
 	wildmon 12, NIDORAN_M
-	wildmon 12, NIDORAN_F
+	wildmon 12, CKONGARA
 	wildmon 12, YANMA
 	wildmon 14, YANMA
 	wildmon 14, HOOTHOOT

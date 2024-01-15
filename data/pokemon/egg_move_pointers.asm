@@ -25,12 +25,12 @@ EggMovePointers::
 	dw CKikuriEggMoves          ; CKikuri
 	dw NoEggMoves             ; Kikuri
 	dw NoEggMoves             ; EKikuri
-	dw NoEggMoves             ; Raichu
-	dw SandshrewPlainEggMoves ; Sandshrew
-	dw NoEggMoves             ; Sandslash
-	dw NidoranFEggMoves       ; NidoranF
-	dw NoEggMoves             ; Nidorina
-	dw NoEggMoves             ; Nidoqueen
+	dw NoEggMoves             ; CSariel
+	dw SarielPlainEggMoves ; Sariel
+	dw NoEggMoves             ; ESariel
+	dw CKongaraEggMoves       ; CKongara
+	dw NoEggMoves             ; Kongara
+	dw NoEggMoves             ; EKongara
 	dw NidoranMEggMoves       ; NidoranM
 	dw NoEggMoves             ; Nidorino
 	dw NoEggMoves             ; Nidoking
@@ -301,9 +301,9 @@ EggMovePointers::
 
 	dw EMimaAlolanEggMoves     ; EMima (Alolan Form)
 	dw NoEggMoves                ; CElis (Alolan Form)
-	dw NoEggMoves                ; Raichu (Alolan Form)
-	dw SandshrewAlolanEggMoves   ; Sandshrew (Alolan Form)
-	dw NoEggMoves                ; Sandslash (Alolan Form)
+	dw NoEggMoves                ; CSariel (Alolan Form)
+	dw SarielAlolanEggMoves   ; Sariel (Alolan Form)
+	dw NoEggMoves                ; ESariel (Alolan Form)
 	dw VulpixAlolanEggMoves      ; Vulpix (Alolan Form)
 	dw NoEggMoves                ; Ninetales (Alolan Form)
 	dw DiglettAlolanEggMoves     ; Diglett (Alolan Form)

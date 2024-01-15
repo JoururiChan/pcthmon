@@ -25,12 +25,12 @@ FootprintPointers::
 	dw CKikuriFootprint
 	dw KikuriFootprint
 	dw EKikuriFootprint
-	dw RaichuFootprint
-	dw SandshrewFootprint
-	dw SandslashFootprint
-	dw NidoranFFootprint
-	dw NidorinaFootprint
-	dw NidoqueenFootprint
+	dw CSarielFootprint
+	dw SarielFootprint
+	dw ESarielFootprint
+	dw CKongaraFootprint
+	dw KongaraFootprint
+	dw EKongaraFootprint
 	dw NidoranMFootprint
 	dw NidorinoFootprint
 	dw NidokingFootprint
@@ -301,9 +301,9 @@ FootprintPointers::
 
 	dw EMimaFootprint
 	dw CElisFootprint
-	dw RaichuFootprint
-	dw SandshrewFootprint
-	dw SandslashFootprint
+	dw CSarielFootprint
+	dw SarielFootprint
+	dw ESarielFootprint
 	dw VulpixFootprint
 	dw NinetalesFootprint
 	dw DiglettFootprint

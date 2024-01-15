@@ -7,12 +7,12 @@ ENDM
 PokemonBodyData:
 ; entries correspond to constants/pokemon_constants.asm
 	table_width BODY_DATA_SIZE, PokemonBodyData
-	body_data   7,   69, QUADRUPED,    RED    ; CREIMU
-	body_data  10,  130, QUADRUPED,    GREEN  ; REIMU
-	body_data  20, 1000, QUADRUPED,    GREEN  ; EREIMU
-	body_data   6,   85, BIPEDAL_TAIL, RED    ; CMARISA
-	body_data  11,  190, BIPEDAL_TAIL, RED    ; MARISA
-	body_data  17,  905, BIPEDAL_TAIL, RED    ; EMARISA
+	body_data   7,   69, WINGS,    	   RED    ; CREIMU
+	body_data  10,  130, WINGS,    RED  ; REIMU
+	body_data  20, 1000, WINGS,    RED  ; EREIMU
+	body_data   6,   85, BIPEDAL_TAIL, YELLOW    ; CMARISA
+	body_data  11,  190, BIPEDAL_TAIL, YELLOW    ; MARISA
+	body_data  17,  905, BIPEDAL_TAIL, YELLOW    ; EMARISA
 	body_data   5,   90, BIPEDAL_TAIL, BLUE   ; CSAKUYA
 	body_data  10,  225, BIPEDAL_TAIL, BLUE   ; SAKUYA
 	body_data  16,  855, BIPEDAL_TAIL, BLUE   ; ESAKUYA
@@ -32,12 +32,12 @@ PokemonBodyData:
 	body_data  20,   69, SERPENTINE,   PURPLE ; CKIKURI
 	body_data  35,  650, SERPENTINE,   PURPLE ; KIKURI
 	body_data   4,   60, QUADRUPED,    YELLOW ; EKIKURI
-	body_data   8,  300, BIPEDAL_TAIL, YELLOW ; RAICHU
-	body_data   6,  120, BIPEDAL_TAIL, YELLOW ; SANDSHREW
-	body_data  10,  295, BIPEDAL_TAIL, YELLOW ; SANDSLASH
-	body_data   4,   70, QUADRUPED,    BLUE   ; NIDORAN_F
-	body_data   8,  200, QUADRUPED,    BLUE   ; NIDORINA
-	body_data  13,  600, BIPEDAL_TAIL, BLUE   ; NIDOQUEEN
+	body_data   8,  300, BIPEDAL_TAIL, YELLOW ; CSARIEL
+	body_data   6,  120, BIPEDAL_TAIL, YELLOW ; SARIEL
+	body_data  10,  295, BIPEDAL_TAIL, YELLOW ; ESARIEL
+	body_data   4,   70, QUADRUPED,    BLUE   ; CKONGARA
+	body_data   8,  200, QUADRUPED,    BLUE   ; KONGARA
+	body_data  13,  600, BIPEDAL_TAIL, BLUE   ; EKONGARA
 	body_data   5,   90, QUADRUPED,    PURPLE ; NIDORAN_M
 	body_data   9,  195, QUADRUPED,    PURPLE ; NIDORINO
 	body_data  14,  620, BIPEDAL_TAIL, PURPLE ; NIDOKING
@@ -308,9 +308,9 @@ PokemonBodyData:
 
 	body_data   3,   38, QUADRUPED,    BLACK  ; EMIMA (ALOLAN_FORM)
 	body_data   7,  255, QUADRUPED,    BLACK  ; CELIS (ALOLAN_FORM)
-	body_data   7,  210, BIPEDAL_TAIL, BROWN  ; RAICHU (ALOLAN_FORM)
-	body_data   7,  400, BIPEDAL_TAIL, WHITE  ; SANDSHREW (ALOLAN_FORM)
-	body_data  12,  550, BIPEDAL_TAIL, BLUE   ; SANDSLASH (ALOLAN_FORM)
+	body_data   7,  210, BIPEDAL_TAIL, BROWN  ; CSARIEL (ALOLAN_FORM)
+	body_data   7,  400, BIPEDAL_TAIL, WHITE  ; SARIEL (ALOLAN_FORM)
+	body_data  12,  550, BIPEDAL_TAIL, BLUE   ; ESARIEL (ALOLAN_FORM)
 	body_data   6,   99, QUADRUPED,    WHITE  ; VULPIX (ALOLAN_FORM)
 	body_data  11,  199, QUADRUPED,    BLUE   ; NINETALES (ALOLAN_FORM)
 	body_data   2,   10, HEAD_BASE,    BROWN  ; DIGLETT (ALOLAN_FORM)

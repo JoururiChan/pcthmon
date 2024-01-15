@@ -5,31 +5,29 @@ INCLUDE "data/pokemon/egg_move_pointers.asm"
 EggMoves::
 
 CReimuEggMoves:
-	db CHARM
-	db PETAL_SLASH
-	db LIGHT_SCREEN
+	db PSYSHOT
 	db SAFEGUARD
-	db POWER_WHIP
+	db PSYBEAM
+	db HI_JUMP_KICK
+	db ACROBATICS
 	db $ff
 
 CMarisaEggMoves:
-	db ANCIENTPOWER
-	db BELLY_DRUM
-	db BITE
-	db CRUNCH
-	db DRAGON_DANCE
-	db DRAGONBREATH
-	db FLARE_BLITZ
-	db OUTRAGE
+	db SEED_BOMB
+	db SHADOW_DANCE
+	db TRICK_ROOM
+	db AURA_SPHERE
+	db TOXIC_SPIKES
+	db VOLT_SWITCH
 	db $ff
 
 CSakuyaEggMoves:
-	db PSYSHOT
-	db CRUNCH
-	db FORESIGHT
-	db HAZE
+	db CONFUSE_RAY
+	db TELEPORT
+	db SLASH
 	db MIRROR_COAT
-	db AQUA_JET
+	db REVERSAL
+	db MACH_PUNCH
 	db $ff
 
 EMaganEggMoves:
@@ -68,7 +66,7 @@ CKikuriEggMoves:
 	db SCARY_FACE
 	db $ff
 
-SandshrewPlainEggMoves:
+SarielPlainEggMoves:
 	db METAL_CLAW
 	db RAPID_SPIN
 	db SAFEGUARD
@@ -76,7 +74,7 @@ SandshrewPlainEggMoves:
 	db NIGHT_SLASH
 	db $ff
 
-SandshrewAlolanEggMoves:
+SarielAlolanEggMoves:
 	db AMNESIA
 	db RAPID_SPIN
 	db SAFEGUARD
@@ -86,7 +84,7 @@ SandshrewAlolanEggMoves:
 	db NIGHT_SLASH
 	db $ff
 
-NidoranFEggMoves:
+CKongaraEggMoves:
 	db CHARM
 	db DISABLE
 	db FOCUS_ENERGY
@@ -312,7 +310,7 @@ FarfetchDPlainEggMoves:
 	db QUICK_ATTACK
 	db STEEL_WING
 	db NIGHT_SLASH
-	db ROOST
+	db WHITE_BIRD
 	db $ff
 
 DoduoEggMoves:
@@ -519,7 +517,7 @@ AerodactylEggMoves:
 	db FORESIGHT
 	db PURSUIT
 	db STEEL_WING
-	db ROOST
+	db WHITE_BIRD
 	db $ff
 
 DratiniEggMoves:
@@ -652,7 +650,7 @@ NatuEggMoves:
 	db QUICK_ATTACK
 	db STEEL_WING
 	db ZEN_HEADBUTT
-	db ROOST
+	db WHITE_BIRD
 	db $ff
 
 MareepEggMoves:
@@ -704,7 +702,7 @@ MurkrowEggMoves:
 	db SCREECH
 	db WING_ATTACK
 	db DIVE_KICK
-	db ROOST
+	db WHITE_BIRD
 	db $ff
 
 MisdreavusEggMoves:

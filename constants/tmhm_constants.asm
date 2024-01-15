@@ -26,13 +26,13 @@ ENDM
 	add_tm TOXIC        ; $05
 	add_tm HAIL         ; $06
 	add_tm BULK_UP      ; $07
-	add_tm VENOSHOCK    ; $08
+	add_tm SHADOW_DANCE    ; $08
 	add_tm HIDDEN_POWER ; $09
 	add_tm SUNNY_DAY    ; $0a
 	add_tm HONE_TOOLS   ; $0b
 	add_tm ICE_BEAM     ; $0c
 	add_tm BLIZZARD     ; $0d
-	add_tm MASTER_SPARK   ; $0e
+	add_tm AEROBLAST   ; $0e
 	add_tm LIGHT_SCREEN ; $0f
 	add_tm PROTECT      ; $10
 	add_tm RAIN_DANCE   ; $11
@@ -72,13 +72,13 @@ endc
 	add_tm ROCK_SLIDE   ; $2f
 	add_tm ENERGY_LIGHT ; $30
 	add_tm LEECH_LIFE   ; $31
-	add_tm ROOST        ; $32
+	add_tm WHITE_BIRD        ; $32
 	add_tm FOCUS_BLAST  ; $33
-	add_tm DREAM_HEAVEN  ; $34
+	add_tm SPORE  ; $34
 	add_tm BLADE_FLASH  ; $35
 	add_tm SCALD        ; $36
 	add_tm X_SCISSOR    ; $37
-	add_tm BLAZE_STAR  ; $38
+	add_tm KNIFE_THROW  ; $38
 	add_tm DARK_PULSE   ; $39
 	add_tm DRAGON_PULSE ; $3a
 	add_tm DRAIN_PUNCH  ; $3b

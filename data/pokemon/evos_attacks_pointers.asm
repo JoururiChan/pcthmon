@@ -29,12 +29,12 @@ EvosAttacksPointers::
 	dw CKikuriEvosAttacks
 	dw KikuriEvosAttacks
 	dw EKikuriEvosAttacks
-	dw RaichuPlainEvosAttacks
-	dw SandshrewPlainEvosAttacks
-	dw SandslashPlainEvosAttacks
-	dw NidoranFEvosAttacks
-	dw NidorinaEvosAttacks
-	dw NidoqueenEvosAttacks
+	dw CSarielPlainEvosAttacks
+	dw SarielPlainEvosAttacks
+	dw ESarielPlainEvosAttacks
+	dw CKongaraEvosAttacks
+	dw KongaraEvosAttacks
+	dw EKongaraEvosAttacks
 	dw NidoranMEvosAttacks
 	dw NidorinoEvosAttacks
 	dw NidokingEvosAttacks
@@ -305,9 +305,9 @@ EvosAttacksPointers::
 
 	dw EMimaAlolanEvosAttacks
 	dw CElisAlolanEvosAttacks
-	dw RaichuAlolanEvosAttacks
-	dw SandshrewAlolanEvosAttacks
-	dw SandslashAlolanEvosAttacks
+	dw CSarielAlolanEvosAttacks
+	dw SarielAlolanEvosAttacks
+	dw ESarielAlolanEvosAttacks
 	dw VulpixAlolanEvosAttacks
 	dw NinetalesAlolanEvosAttacks
 	dw DiglettAlolanEvosAttacks

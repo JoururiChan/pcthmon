@@ -26,12 +26,12 @@ PokedexDataPointerTable:
 	dba CKikuriPokedexEntry
 	dba KikuriPokedexEntry
 	dba EKikuriPokedexEntry
-	dba RaichuPlainPokedexEntry
-	dba SandshrewPlainPokedexEntry
-	dba SandslashPlainPokedexEntry
-	dba NidoranFPokedexEntry
-	dba NidorinaPokedexEntry
-	dba NidoqueenPokedexEntry
+	dba CSarielPlainPokedexEntry
+	dba SarielPlainPokedexEntry
+	dba ESarielPlainPokedexEntry
+	dba CKongaraPokedexEntry
+	dba KongaraPokedexEntry
+	dba EKongaraPokedexEntry
 	dba NidoranMPokedexEntry
 	dba NidorinoPokedexEntry
 	dba NidokingPokedexEntry
@@ -302,9 +302,9 @@ PokedexDataPointerTable:
 
 	dba EMimaAlolanPokedexEntry
 	dba CElisAlolanPokedexEntry
-	dba RaichuAlolanPokedexEntry
-	dba SandshrewAlolanPokedexEntry
-	dba SandslashAlolanPokedexEntry
+	dba CSarielAlolanPokedexEntry
+	dba SarielAlolanPokedexEntry
+	dba ESarielAlolanPokedexEntry
 	dba VulpixAlolanPokedexEntry
 	dba NinetalesAlolanPokedexEntry
 	dba DiglettAlolanPokedexEntry

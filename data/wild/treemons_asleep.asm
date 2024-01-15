@@ -14,8 +14,8 @@ AsleepTreeMons:
 	dp CMARISA
 	dp CSAKUYA
 	dp CMAGAN
-	dp MAGAN
-	dp ELIS
+	dp CMAGAN
+	dp CELIS
 	dp CKIKURI
 	dp EXEGGCUTE
 	dp LEDYBA

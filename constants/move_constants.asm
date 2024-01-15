@@ -139,7 +139,7 @@
 	const ICICLE_SPEAR ; $83
 	const BULLDOZE     ; $84
 	const AMNESIA      ; $85
-	const ROOST        ; $86
+	const WHITE_BIRD        ; $86
 	const FRESH_SNACK  ; $87
 	const HI_JUMP_KICK ; $88
 	const GLARE        ; $89

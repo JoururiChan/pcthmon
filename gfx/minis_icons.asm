@@ -132,35 +132,35 @@ EKikuriIcon::
 EKikuriFlyIcon::
 EKikuriSurfIcon::     INCBIN "gfx/icons/ekikuri.2bpp.lz"
 
-SECTION "Raichu Mini Icon", ROMX
-RaichuMini::     INCBIN "gfx/minis/raichu.2bpp.lz"
-RaichuMiniMask:: INCBIN "gfx/minis/raichu_mask.1bpp.lz"
-RaichuIcon::     INCBIN "gfx/icons/raichu.2bpp.lz"
+SECTION "CSariel Mini Icon", ROMX
+CSarielMini::     INCBIN "gfx/minis/raichu.2bpp.lz"
+CSarielMiniMask:: INCBIN "gfx/minis/raichu_mask.1bpp.lz"
+CSarielIcon::     INCBIN "gfx/icons/raichu.2bpp.lz"
 
-SECTION "Sandshrew Mini Icon", ROMX
-SandshrewMini::     INCBIN "gfx/minis/sandshrew.2bpp.lz"
-SandshrewMiniMask:: INCBIN "gfx/minis/sandshrew_mask.1bpp.lz"
-SandshrewIcon::     INCBIN "gfx/icons/sandshrew.2bpp.lz"
+SECTION "Sariel Mini Icon", ROMX
+SarielMini::     INCBIN "gfx/minis/sandshrew.2bpp.lz"
+SarielMiniMask:: INCBIN "gfx/minis/sandshrew_mask.1bpp.lz"
+SarielIcon::     INCBIN "gfx/icons/sandshrew.2bpp.lz"
 
-SECTION "Sandslash Mini Icon", ROMX
-SandslashMini::     INCBIN "gfx/minis/sandslash.2bpp.lz"
-SandslashMiniMask:: INCBIN "gfx/minis/sandslash_mask.1bpp.lz"
-SandslashIcon::     INCBIN "gfx/icons/sandslash.2bpp.lz"
+SECTION "ESariel Mini Icon", ROMX
+ESarielMini::     INCBIN "gfx/minis/sandslash.2bpp.lz"
+ESarielMiniMask:: INCBIN "gfx/minis/sandslash_mask.1bpp.lz"
+ESarielIcon::     INCBIN "gfx/icons/sandslash.2bpp.lz"
 
-SECTION "NidoranF Mini Icon", ROMX
-NidoranFMini::     INCBIN "gfx/minis/nidoran_f.2bpp.lz"
-NidoranFMiniMask:: INCBIN "gfx/minis/nidoran_f_mask.1bpp.lz"
-NidoranFIcon::     INCBIN "gfx/icons/nidoran_f.2bpp.lz"
+SECTION "CKongara Mini Icon", ROMX
+CKongaraMini::     INCBIN "gfx/minis/nidoran_f.2bpp.lz"
+CKongaraMiniMask:: INCBIN "gfx/minis/nidoran_f_mask.1bpp.lz"
+CKongaraIcon::     INCBIN "gfx/icons/nidoran_f.2bpp.lz"
 
-SECTION "Nidorina Mini Icon", ROMX
-NidorinaMini::     INCBIN "gfx/minis/nidorina.2bpp.lz"
-NidorinaMiniMask:: INCBIN "gfx/minis/nidorina_mask.1bpp.lz"
-NidorinaIcon::     INCBIN "gfx/icons/nidorina.2bpp.lz"
+SECTION "Kongara Mini Icon", ROMX
+KongaraMini::     INCBIN "gfx/minis/nidorina.2bpp.lz"
+KongaraMiniMask:: INCBIN "gfx/minis/nidorina_mask.1bpp.lz"
+KongaraIcon::     INCBIN "gfx/icons/nidorina.2bpp.lz"
 
-SECTION "Nidoqueen Mini Icon", ROMX
-NidoqueenMini::     INCBIN "gfx/minis/nidoqueen.2bpp.lz"
-NidoqueenMiniMask:: INCBIN "gfx/minis/nidoqueen_mask.1bpp.lz"
-NidoqueenIcon::     INCBIN "gfx/icons/nidoqueen.2bpp.lz"
+SECTION "EKongara Mini Icon", ROMX
+EKongaraMini::     INCBIN "gfx/minis/nidoqueen.2bpp.lz"
+EKongaraMiniMask:: INCBIN "gfx/minis/nidoqueen_mask.1bpp.lz"
+EKongaraIcon::     INCBIN "gfx/icons/nidoqueen.2bpp.lz"
 
 SECTION "NidoranM Mini Icon", ROMX
 NidoranMMini::     INCBIN "gfx/minis/nidoran_m.2bpp.lz"
@@ -1612,20 +1612,20 @@ CElisAlolanMini::     INCBIN "gfx/minis/celis_alolan.2bpp.lz"
 CElisAlolanMiniMask:: INCBIN "gfx/minis/celis_alolan_mask.1bpp.lz"
 CElisAlolanIcon::     INCBIN "gfx/icons/celis_alolan.2bpp.lz"
 
-SECTION "RaichuAlolan Mini Icon", ROMX
-RaichuAlolanMini::     INCBIN "gfx/minis/raichu_alolan.2bpp.lz"
-RaichuAlolanMiniMask:: INCBIN "gfx/minis/raichu_alolan_mask.1bpp.lz"
-RaichuAlolanIcon::     INCBIN "gfx/icons/raichu_alolan.2bpp.lz"
+SECTION "CSarielAlolan Mini Icon", ROMX
+CSarielAlolanMini::     INCBIN "gfx/minis/raichu_alolan.2bpp.lz"
+CSarielAlolanMiniMask:: INCBIN "gfx/minis/raichu_alolan_mask.1bpp.lz"
+CSarielAlolanIcon::     INCBIN "gfx/icons/raichu_alolan.2bpp.lz"
 
-SECTION "SandshrewAlolan Mini Icon", ROMX
-SandshrewAlolanMini::     INCBIN "gfx/minis/sandshrew_alolan.2bpp.lz"
-SandshrewAlolanMiniMask:: INCBIN "gfx/minis/sandshrew_alolan_mask.1bpp.lz"
-SandshrewAlolanIcon::     INCBIN "gfx/icons/sandshrew_alolan.2bpp.lz"
+SECTION "SarielAlolan Mini Icon", ROMX
+SarielAlolanMini::     INCBIN "gfx/minis/sandshrew_alolan.2bpp.lz"
+SarielAlolanMiniMask:: INCBIN "gfx/minis/sandshrew_alolan_mask.1bpp.lz"
+SarielAlolanIcon::     INCBIN "gfx/icons/sandshrew_alolan.2bpp.lz"
 
-SECTION "SandslashAlolan Mini Icon", ROMX
-SandslashAlolanMini::     INCBIN "gfx/minis/sandslash_alolan.2bpp.lz"
-SandslashAlolanMiniMask:: INCBIN "gfx/minis/sandslash_alolan_mask.1bpp.lz"
-SandslashAlolanIcon::     INCBIN "gfx/icons/sandslash_alolan.2bpp.lz"
+SECTION "ESarielAlolan Mini Icon", ROMX
+ESarielAlolanMini::     INCBIN "gfx/minis/sandslash_alolan.2bpp.lz"
+ESarielAlolanMiniMask:: INCBIN "gfx/minis/sandslash_alolan_mask.1bpp.lz"
+ESarielAlolanIcon::     INCBIN "gfx/icons/sandslash_alolan.2bpp.lz"
 
 SECTION "VulpixAlolan Mini Icon", ROMX
 VulpixAlolanMini::     INCBIN "gfx/minis/vulpix_alolan.2bpp.lz"

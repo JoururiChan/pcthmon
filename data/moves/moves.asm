@@ -182,7 +182,7 @@ endc
 	move ICICLE_SPEAR, EFFECT_MULTI_HIT,          25, ICE,       100, 30,   0, PHYSICAL
 	move BULLDOZE,     EFFECT_SPEED_DOWN_HIT,     60, GROUND,    100, 20, 100, PHYSICAL
 	move AMNESIA,      EFFECT_SP_DEF_UP_2,         0, PSYCHIC,    -1, 20,   0, STATUS
-	move ROOST,        EFFECT_ROOST,               0, FLYING,     -1, 5,    0, STATUS
+	move WHITE_BIRD,   EFFECT_ACCURACY_DOWN_HIT,  80, FLYING,     90, 10, 100, SPECIAL
 	move FRESH_SNACK,  EFFECT_HEAL,                0, NORMAL,     -1, 10,   0, STATUS
 	move HI_JUMP_KICK, EFFECT_JUMP_KICK,         130, FIGHTING,   90, 10,   0, PHYSICAL
 	move GLARE,        EFFECT_PARALYZE,            0, NORMAL,    100, 30,   0, STATUS

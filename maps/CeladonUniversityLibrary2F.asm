@@ -182,7 +182,7 @@ CeladonUniversityLibrary2FBookshelf6Text:
 	line "erences."
 
 	para "There's a picture"
-	line "of a Raichu that"
+	line "of a CSariel that"
 	cont "looks a little"
 	cont "strange…"
 	done

@@ -25,12 +25,12 @@ FramesPointers:
 	dw CKikuriFrames
 	dw KikuriJohtoFrames
 	dw EKikuriPlainFrames
-	dw RaichuPlainFrames
-	dw SandshrewPlainFrames
-	dw SandslashPlainFrames
-	dw NidoranFFrames
-	dw NidorinaFrames
-	dw NidoqueenFrames
+	dw CSarielPlainFrames
+	dw SarielPlainFrames
+	dw ESarielPlainFrames
+	dw CKongaraFrames
+	dw KongaraFrames
+	dw EKongaraFrames
 	dw NidoranMFrames
 	dw NidorinoFrames
 	dw NidokingFrames
@@ -364,9 +364,9 @@ FramesPointers:
 
 	dw EMimaAlolanFrames
 	dw CElisAlolanFrames
-	dw RaichuAlolanFrames
-	dw SandshrewAlolanFrames
-	dw SandslashAlolanFrames
+	dw CSarielAlolanFrames
+	dw SarielAlolanFrames
+	dw ESarielAlolanFrames
 	dw VulpixAlolanFrames
 	dw NinetalesAlolanFrames
 	dw DiglettAlolanFrames

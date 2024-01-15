@@ -368,14 +368,14 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 12, NIDORAN_M
-	wildmon 13, NIDORAN_F
+	wildmon 13, CKONGARA
 	wildmon 14, LEDYBA
 	wildmon 14, CREISEN
 	wildmon 10, CGYOKU
 	wildmon 12, CREIMU
 	wildmon 12, CREIMU
 	; day
-	wildmon 12, NIDORAN_F
+	wildmon 12, CKONGARA
 	wildmon 13, NIDORAN_M
 	wildmon 14, SUNKERN
 	wildmon 14, CREISEN
@@ -480,7 +480,7 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 8, GEODUDE
-	wildmon 8, SANDSHREW
+	wildmon 8, SARIEL
 	wildmon 7, ZUBAT
 	wildmon 6, CREISEN
 	wildmon 9, ZUBAT
@@ -488,7 +488,7 @@
 	wildmon 8, ONIX
 	; day
 	wildmon 8, GEODUDE
-	wildmon 8, SANDSHREW
+	wildmon 8, SARIEL
 	wildmon 7, ZUBAT
 	wildmon 6, CREISEN
 	wildmon 9, ZUBAT
@@ -1517,7 +1517,7 @@
 	; morn
 	wildmon 13, SNUBBULL
 	wildmon 14, CKIKURI
-	wildmon 14, NIDORAN_F
+	wildmon 14, CKONGARA
 	wildmon 14, NIDORAN_M
 	wildmon 12, JIGGLYPUFF
 	wildmon 10, DITTO
@@ -1526,7 +1526,7 @@
 	wildmon 13, SNUBBULL
 	wildmon 14, CKIKURI
 	wildmon 14, NIDORAN_M
-	wildmon 14, NIDORAN_F
+	wildmon 14, CKONGARA
 	wildmon 12, JIGGLYPUFF
 	wildmon 10, DITTO
 	wildmon 13, YANMA

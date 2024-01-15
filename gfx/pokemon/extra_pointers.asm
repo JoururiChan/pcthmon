@@ -25,12 +25,12 @@ AnimationExtraPointers:
 	dw CKikuriAnimationExtra
 	dw KikuriJohtoAnimationExtra
 	dw EKikuriPlainAnimationExtra
-	dw RaichuPlainAnimationExtra
-	dw SandshrewPlainAnimationExtra
-	dw SandslashPlainAnimationExtra
-	dw NidoranFAnimationExtra
-	dw NidorinaAnimationExtra
-	dw NidoqueenAnimationExtra
+	dw CSarielPlainAnimationExtra
+	dw SarielPlainAnimationExtra
+	dw ESarielPlainAnimationExtra
+	dw CKongaraAnimationExtra
+	dw KongaraAnimationExtra
+	dw EKongaraAnimationExtra
 	dw NidoranMAnimationExtra
 	dw NidorinoAnimationExtra
 	dw NidokingAnimationExtra
@@ -364,9 +364,9 @@ AnimationExtraPointers:
 
 	dw EMimaAlolanAnimationExtra
 	dw CElisAlolanAnimationExtra
-	dw RaichuAlolanAnimationExtra
-	dw SandshrewAlolanAnimationExtra
-	dw SandslashAlolanAnimationExtra
+	dw CSarielAlolanAnimationExtra
+	dw SarielAlolanAnimationExtra
+	dw ESarielAlolanAnimationExtra
 	dw VulpixAlolanAnimationExtra
 	dw NinetalesAlolanAnimationExtra
 	dw DiglettAlolanAnimationExtra

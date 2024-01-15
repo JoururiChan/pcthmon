@@ -352,7 +352,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db 4 ; items
 	db "Parasect@"
 	db "Magmar@"
-	db "Sandslash@"
+	db "ESariel@"
 	db "Victreebel@"
 
 .Question5MenuData:

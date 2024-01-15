@@ -51,7 +51,7 @@ HandleBetweenTurnEffects:
 	call HandlePerishSong
 	call CheckFaint
 	ret c
-	call HandleRoost
+	call HandleWhite Bird
 	call HandleReflect
 	call HandleLightScreen
 	call HandleSafeguard
@@ -1033,7 +1033,7 @@ HandleStatusOrbs:
 	pop hl
 	jmp StdBattleTextbox
 
-HandleRoost:
+HandleWhite Bird:
 	call SetFastestTurn
 	call .do_it
 	call SwitchTurn
@@ -1044,8 +1044,8 @@ HandleRoost:
 
 	ld a, BATTLE_VARS_SUBSTATUS4
 	call GetBattleVarAddr
-	bit SUBSTATUS_ROOST, [hl]
-	res SUBSTATUS_ROOST, [hl]
+	bit SUBSTATUS_WHITE_BIRD, [hl]
+	res SUBSTATUS_WHITE_BIRD, [hl]
 	ret z
 
 	ldh a, [hBattleTurn]

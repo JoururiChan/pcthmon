@@ -29,12 +29,12 @@ MiniIconPointers:
 	mini_icon CKikuri
 	mini_icon Kikuri
 	mini_icon EKikuri
-	mini_icon Raichu
-	mini_icon Sandshrew
-	mini_icon Sandslash
-	mini_icon NidoranF
-	mini_icon Nidorina
-	mini_icon Nidoqueen
+	mini_icon CSariel
+	mini_icon Sariel
+	mini_icon ESariel
+	mini_icon CKongara
+	mini_icon Kongara
+	mini_icon EKongara
 	mini_icon NidoranM
 	mini_icon Nidorino
 	mini_icon Nidoking
@@ -352,9 +352,9 @@ endr
 
 	mini_icon EMimaAlolan
 	mini_icon CElisAlolan
-	mini_icon RaichuAlolan
-	mini_icon SandshrewAlolan
-	mini_icon SandslashAlolan
+	mini_icon CSarielAlolan
+	mini_icon SarielAlolan
+	mini_icon ESarielAlolan
 	mini_icon VulpixAlolan
 	mini_icon NinetalesAlolan
 	mini_icon DiglettAlolan
