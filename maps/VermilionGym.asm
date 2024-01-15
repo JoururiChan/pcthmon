@@ -101,7 +101,7 @@ VermilionGymSurgeScript:
 	iftrue_jumpopenedtext LtSurgeFightDoneText
 	writetext LtSurgeThunderBadgeText
 	promptbutton
-	verbosegivetmhm TM_BLAZE_STAR
+	verbosegivetmhm TM_KNIFE_THROW
 	setevent EVENT_GOT_TM43_BLAZE_STAR
 	jumpopenedtext SurgeOutroText
 
