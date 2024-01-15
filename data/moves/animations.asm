@@ -135,7 +135,7 @@ BattleAnimations::
 	dw BattleAnim_IcicleSpear
 	dw BattleAnim_Bulldoze
 	dw BattleAnim_Amnesia
-	dw BattleAnim_White Bird
+	dw BattleAnim_WhiteBird
 	dw BattleAnim_FreshSnack
 	dw BattleAnim_HiJumpKick
 	dw BattleAnim_Glare
@@ -1843,7 +1843,7 @@ BattleAnim_HeldItemTrigger:
 	anim_incbgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING
 	anim_ret
 
-BattleAnim_White Bird:
+BattleAnim_WhiteBird:
 	anim_2gfx ANIM_GFX_MISC, ANIM_GFX_SHINE
 	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
 	anim_wait 16

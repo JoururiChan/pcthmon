@@ -134,7 +134,7 @@ MoveDescriptions::
 	dw IcicleSpearDescription
 	dw BulldozeDescription
 	dw AmnesiaDescription
-	dw White BirdDescription
+	dw WhiteBirdDescription
 	dw FreshSnackDescription
 	dw HiJumpKickDescription
 	dw GlareDescription
@@ -690,7 +690,7 @@ FreshSnackDescription:
 	next "the user's max HP."
 	done
 
-White BirdDescription:
+WhiteBirdDescription:
 	text "Lands to restore"
 	next "1/2 the max HP."
 	done

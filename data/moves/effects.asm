@@ -1092,7 +1092,7 @@ Heal:
 	heal
 	endmove
 
-White Bird:
+WhiteBird:
 	checkobedience
 	usedmovetext
 	doturn

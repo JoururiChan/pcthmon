@@ -51,7 +51,7 @@ HandleBetweenTurnEffects:
 	call HandlePerishSong
 	call CheckFaint
 	ret c
-	call HandleWhite Bird
+	call HandleWhiteBird
 	call HandleReflect
 	call HandleLightScreen
 	call HandleSafeguard
@@ -1033,7 +1033,7 @@ HandleStatusOrbs:
 	pop hl
 	jmp StdBattleTextbox
 
-HandleWhite Bird:
+HandleWhiteBird:
 	call SetFastestTurn
 	call .do_it
 	call SwitchTurn

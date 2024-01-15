@@ -143,7 +143,7 @@ MoveEffectsPointers:
 	dw SwitchHit
 	dw SuckerPunch
 	dw ToxicSpikes
-	dw White Bird
+	dw WhiteBird
 	dw Sculpture
 	dw SkillSwap
 	dw Trick
