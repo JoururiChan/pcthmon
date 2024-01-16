@@ -640,7 +640,7 @@ CKongaraEvosAttacks:
 	db -1 ; no more level-up moves
 
 KongaraEvosAttacks:
-	evo_data EVOLVE_LEVEL 55, EKONGARA
+	evo_data EVOLVE_LEVEL, 55, EKONGARA
 	db -1 ; no more evolutions
 	db 1, PURSUIT
 	db 1, HAZE
