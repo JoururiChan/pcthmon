@@ -1036,7 +1036,7 @@ _CGB_TrainerCard3:
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, ERIKA ; LT_SURGE
+	ld a, ERIKA_T ; LT_SURGE
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 

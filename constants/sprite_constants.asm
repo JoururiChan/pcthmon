@@ -28,7 +28,7 @@
 	const SPRITE_BROCK ; 18
 	const SPRITE_MISTY ; 19
 	const SPRITE_SURGE ; 1a
-	const SPRITE_ERIKA ; 1b
+	const SPRITE_ERIKA_T ; 1b
 	const SPRITE_JANINE ; 1c
 	const SPRITE_SABRINA ; 1d
 	const SPRITE_BLAINE ; 1e

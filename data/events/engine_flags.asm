@@ -242,7 +242,7 @@ EngineFlags:
 	engine_flag wPokemonJournals, BROCK_JOURNAL
 	engine_flag wPokemonJournals, MISTY_JOURNAL
 	engine_flag wPokemonJournals, LT_SURGE_JOURNAL
-	engine_flag wPokemonJournals, ERIKA_JOURNAL
+	engine_flag wPokemonJournals, ERIKA_T_JOURNAL
 	engine_flag wPokemonJournals, JANINE_JOURNAL
 	engine_flag wPokemonJournals, SABRINA_JOURNAL
 	engine_flag wPokemonJournals, BLAINE_JOURNAL

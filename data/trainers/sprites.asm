@@ -20,7 +20,7 @@ BTTrainerClassSprites:
 	db SPRITE_BROCK         ; BROCK
 	db SPRITE_MISTY         ; MISTY
 	db SPRITE_SURGE         ; LT_SURGE
-	db SPRITE_ERIKA         ; ERIKA
+	db SPRITE_ERIKA_T         ; ERIKA_T
 	db SPRITE_JANINE        ; JANINE
 	db SPRITE_SABRINA       ; SABRINA
 	db SPRITE_BLAINE        ; BLAINE

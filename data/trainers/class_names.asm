@@ -20,7 +20,7 @@ TrainerClassNames::
 	li "Leader"           ; BROCK
 	li "Leader"           ; MISTY
 	li "Leader"           ; LT_SURGE
-	li "Leader"           ; ERIKA
+	li "Leader"           ; ERIKA_T
 	li "Leader"           ; JANINE
 	li "Leader"           ; SABRINA
 	li "Leader"           ; BLAINE

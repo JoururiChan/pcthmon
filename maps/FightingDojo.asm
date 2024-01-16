@@ -75,7 +75,7 @@ ENDM
 	iftruefwd .SundayNight
 .SundayMorningAndDay
 	rematch_left REMATCH_RED_1, SPRITE_BIG_DOLL, SPRITE_JASMINE
-	rematch_right REMATCH_GREEN_2, SPRITE_COPYCAT, SPRITE_ERIKA
+	rematch_right REMATCH_GREEN_2, SPRITE_COPYCAT, SPRITE_ERIKA_T
 	endcallback
 .SundayNight
 	rematch REMATCH_RED_1, SPRITE_BIG_DOLL, SPRITE_SABRINA, 4, 6, DOWN
@@ -384,7 +384,7 @@ RematchSurgeScript:
 	rematch_script Surge, LT_SURGE, ENGINE_GYM_LEADER_REMATCH_1
 
 RematchErikaScript:
-	rematch_script Erika, ERIKA, ENGINE_GYM_LEADER_REMATCH_2
+	rematch_script Erika, ERIKA_T, ENGINE_GYM_LEADER_REMATCH_2
 
 RematchJanineScript:
 	rematch_script Janine, JANINE, ENGINE_GYM_LEADER_REMATCH_2

@@ -70,7 +70,7 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass LT_SURGE ; 13
 
-	trainerclass ERIKA ; 14
+	trainerclass ERIKA_T ; 14
 
 	trainerclass JANINE ; 15
 

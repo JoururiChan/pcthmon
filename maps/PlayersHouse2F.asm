@@ -166,7 +166,7 @@ endr
 	setevent EVENT_BEAT_BROCK
 	setevent EVENT_BEAT_MISTY
 	setevent EVENT_BEAT_LTSURGE
-	setevent EVENT_BEAT_ERIKA
+	setevent EVENT_BEAT_ERIKA_T
 	setevent EVENT_BEAT_JANINE
 	setevent EVENT_BEAT_SABRINA
 	setevent EVENT_BEAT_BLAINE

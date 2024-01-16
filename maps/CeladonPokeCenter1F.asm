@@ -21,7 +21,7 @@ CeladonPokeCenter1F_MapScriptHeader:
 	object_event 11,  6, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonPokeCenter1FLassText, -1
 
 PokemonJournalErikaScript:
-	setflag ENGINE_READ_ERIKA_JOURNAL
+	setflag ENGINE_READ_ERIKA_T_JOURNAL
 	jumpthistext
 
 	text "#mon Journal"

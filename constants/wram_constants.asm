@@ -362,7 +362,7 @@ DEF DAYCARELADY_ACTIVE_F         EQU 7
 	const BROCK_JOURNAL ; Pewter Tohomon Center
 	const MISTY_JOURNAL ; Cerulean Tohomon Center
 	const LT_SURGE_JOURNAL ; Vermilion Tohomon Center
-	const ERIKA_JOURNAL ; Celadon Tohomon Center
+	const ERIKA_T_JOURNAL ; Celadon Tohomon Center
 	const JANINE_JOURNAL ; Fuchsia Tohomon Center
 	const SABRINA_JOURNAL ; Saffron Tohomon Center
 	const BLAINE_JOURNAL ; Cinnabar Tohomon Center
