@@ -31,12 +31,12 @@ FramesPointers:
 	dw CKongaraFrames
 	dw KongaraFrames
 	dw EKongaraFrames
-	dw NidoranMFrames
-	dw NidorinoFrames
-	dw NidokingFrames
-	dw ClefairyFrames
-	dw ClefableFrames
-	dw VulpixPlainFrames
+	dw CRikaFrames
+	dw RikaFrames
+	dw ERikaFrames
+	dw CMeiraFrames
+	dw MeiraFrames
+	dw EMeiraPlainFrames
 	dw NinetalesPlainFrames
 	dw JigglypuffFrames
 	dw WigglytuffFrames
@@ -367,7 +367,7 @@ FramesPointers:
 	dw CSarielAlolanFrames
 	dw SarielAlolanFrames
 	dw ESarielAlolanFrames
-	dw VulpixAlolanFrames
+	dw EMeiraAlolanFrames
 	dw NinetalesAlolanFrames
 	dw DiglettAlolanFrames
 	dw DugtrioAlolanFrames

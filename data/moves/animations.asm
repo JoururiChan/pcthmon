@@ -77,7 +77,7 @@ BattleAnimations::
 	dw BattleAnim_LeechSeed
 	dw BattleAnim_Growth
 	dw BattleAnim_RazorLeaf
-	dw BattleAnim_SolarBeam
+	dw BattleAnim_FlowerShoot
 	dw BattleAnim_ToxicGas
 	dw BattleAnim_StunSpore
 	dw BattleAnim_SleepPowder
@@ -191,7 +191,7 @@ BattleAnimations::
 	dw BattleAnim_BellyDrum
 	dw BattleAnim_SludgeBomb
 	dw BattleAnim_MudSlap
-	dw BattleAnim_Octazooka
+	dw BattleAnim_BlackRipple
 	dw BattleAnim_Spikes
 	dw BattleAnim_ZapCannon
 	dw BattleAnim_Foresight
@@ -1295,27 +1295,27 @@ BattleAnim_RazorLeaf:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_SolarBeam:
-	anim_jumpif $0, .FireSolarBeam
+BattleAnim_FlowerShoot:
+	anim_jumpif $0, .FireFlowerShoot
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
 	anim_1gfx ANIM_GFX_CHARGE
 	anim_sound 0, 0, SFX_CHARGE
 	anim_obj ANIM_OBJ_ABSORB_CENTER,   6, 0,  10, 4, $0
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,   6, 0,  10, 4, $0
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,   6, 0,  10, 4, $8
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,   6, 0,  10, 4, $10
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,   6, 0,  10, 4, $18
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,   6, 0,  10, 4, $20
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,   6, 0,  10, 4, $28
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,   6, 0,  10, 4, $30
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,   6, 0,  10, 4, $38
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,   6, 0,  10, 4, $0
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,   6, 0,  10, 4, $8
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,   6, 0,  10, 4, $10
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,   6, 0,  10, 4, $18
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,   6, 0,  10, 4, $20
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,   6, 0,  10, 4, $28
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,   6, 0,  10, 4, $30
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,   6, 0,  10, 4, $38
 	anim_wait 104
 	anim_bgeffect ANIM_BG_FLASH_WHITE, $0, $4, $2
 	anim_wait 64
 	anim_ret
 
-.FireSolarBeam
+.FireFlowerShoot
 	anim_1gfx ANIM_GFX_BEAM
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $1, $0
@@ -3766,14 +3766,14 @@ BattleAnim_DreamHeaven:
 	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_GREEN
 	anim_2gfx ANIM_GFX_CHARGE, ANIM_GFX_EGG
 	anim_sound 0, 0, SFX_GIGA_DRAIN
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 0
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 8
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 16
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 24
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 32
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 40
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 48
-	anim_obj ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 56
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,  6, 0, 10, 4, 0
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,  6, 0, 10, 4, 8
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,  6, 0, 10, 4, 16
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,  6, 0, 10, 4, 24
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,  6, 0, 10, 4, 32
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,  6, 0, 10, 4, 40
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,  6, 0, 10, 4, 48
+	anim_obj ANIM_OBJ_FLOWER_SHOOT_CHARGE,  6, 0, 10, 4, 56
 	anim_wait 8
 	anim_obj ANIM_OBJ_ABSORB_CENTER,  6, 0, 10, 4, $0
 	anim_wait 64
@@ -4046,10 +4046,10 @@ BattleAnim_MudSlap:
 	anim_call BattleAnimSub_SandOrMud
 	anim_ret
 
-BattleAnim_Octazooka:
+BattleAnim_BlackRipple:
 	anim_3gfx ANIM_GFX_HAZE, ANIM_GFX_EGG, ANIM_GFX_SMOKE
 	anim_sound 6, 2, SFX_SLUDGE_BOMB
-	anim_obj ANIM_OBJ_OCTAZOOKA,   8, 0,  11, 4, $4
+	anim_obj ANIM_OBJ_BLACK_RIPPLE,   8, 0,  11, 4, $4
 	anim_wait 16
 	anim_obj ANIM_OBJ_BALL_POOF, -16, 4,   7, 0, $10
 	anim_wait 8

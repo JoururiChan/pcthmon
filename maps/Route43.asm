@@ -366,8 +366,8 @@ PicnickerTiffany1Script:
 	iftruefwd .HasPinkBow
 	checkcellnum PHONE_PICNICKER_TIFFANY
 	iftruefwd .NumberAccepted
-	checkpoke CLEFAIRY
-	iffalsefwd .NoClefairy
+	checkpoke CMEIRA
+	iffalsefwd .NoCMeira
 	checkevent EVENT_TIFFANY_ASKED_FOR_PHONE_NUMBER
 	iftruefwd .AskedAlready
 	writetext PicnickerTiffanyWantsPicnicText
@@ -445,8 +445,8 @@ PicnickerTiffany1Script:
 .NoRoom:
 	sjumpfwd .PackFull
 
-.NoClefairy:
-	jumpopenedtext PicnickerTiffanyClefairyText
+.NoCMeira:
+	jumpopenedtext PicnickerTiffanyCMeiraText
 
 .AskNumber1:
 	jumpstd asknumber1f
@@ -519,7 +519,7 @@ PokemaniacRonSeenText:
 	done
 
 PokemaniacRonBeatenText:
-	text "My Nidoking did"
+	text "My ERika did"
 	line "pretty right on!"
 	done
 
@@ -568,8 +568,8 @@ PicnickerTiffanyWantsPicnicText:
 	para "Won't you join us?"
 	done
 
-PicnickerTiffanyClefairyText:
-	text "Isn't my Clefairy"
+PicnickerTiffanyCMeiraText:
+	text "Isn't my CMeira"
 	line "just the most"
 	cont "adorable thing?"
 	done

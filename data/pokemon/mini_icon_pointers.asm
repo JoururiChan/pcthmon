@@ -35,12 +35,12 @@ MiniIconPointers:
 	mini_icon CKongara
 	mini_icon Kongara
 	mini_icon EKongara
-	mini_icon NidoranM
-	mini_icon Nidorino
-	mini_icon Nidoking
-	mini_icon Clefairy
-	mini_icon Clefable
-	mini_icon Vulpix
+	mini_icon CRika
+	mini_icon Rika
+	mini_icon ERika
+	mini_icon CMeira
+	mini_icon Meira
+	mini_icon EMeira
 	mini_icon Ninetales
 	mini_icon Jigglypuff
 	mini_icon Wigglytuff
@@ -355,7 +355,7 @@ endr
 	mini_icon CSarielAlolan
 	mini_icon SarielAlolan
 	mini_icon ESarielAlolan
-	mini_icon VulpixAlolan
+	mini_icon EMeiraAlolan
 	mini_icon NinetalesAlolan
 	mini_icon DiglettAlolan
 	mini_icon DugtrioAlolan

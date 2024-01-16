@@ -2011,7 +2011,7 @@ Stomp:
 	flinchtarget
 	endmove
 
-SolarBeam:
+FlowerShoot:
 	checkobedience
 	usedmovetext
 	doturn

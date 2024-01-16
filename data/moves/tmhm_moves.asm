@@ -22,7 +22,7 @@ TMHMMoves:
 	db GIGA_DRAIN   ; TM19 (Erika)
 	db SAFEGUARD    ; TM20 (Celadon Dept. Store)
 	db BULLDOZE     ; TM21 (Route 39)
-	db SOLAR_BEAM   ; TM22 (Goldenrod Dept. Store)
+	db FLOWER_SHOOT   ; TM22 (Goldenrod Dept. Store)
 	db IRON_TAIL    ; TM23 (Jasmine)
 	db THUNDERBOLT  ; TM24 (Goldenrod Game Corner)
 	db THUNDER      ; TM25 (Goldenrod Dept. Store)

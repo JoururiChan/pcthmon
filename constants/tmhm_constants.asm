@@ -39,7 +39,7 @@ ENDM
 	add_tm GIGA_DRAIN   ; $12
 	add_tm SAFEGUARD    ; $13
 	add_tm BULLDOZE     ; $14
-	add_tm SOLAR_BEAM   ; $15
+	add_tm FLOWER_SHOOT   ; $15
 	add_tm IRON_TAIL    ; $16
 	add_tm THUNDERBOLT  ; $17
 	add_tm THUNDER      ; $18

@@ -53,12 +53,12 @@
 	const CKONGARA  ; 1d
 	const KONGARA   ; 1e
 	const EKONGARA  ; 1f
-	const NIDORAN_M  ; 20
-	const NIDORINO   ; 21
-	const NIDOKING   ; 22
-	const CLEFAIRY   ; 23
-	const CLEFABLE   ; 24
-	const VULPIX     ; 25
+	const CRIKA  ; 20
+	const RIKA   ; 21
+	const ERIKA   ; 22
+	const CMEIRA   ; 23
+	const MEIRA   ; 24
+	const EMEIRA     ; 25
 	const NINETALES  ; 26
 	const JIGGLYPUFF ; 27
 	const WIGGLYTUFF ; 28
@@ -441,10 +441,10 @@ DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 DEF ALOLAN_FORM EQU 2
 	const_skip ; 15f rattata
 	const_skip ; 160 celis
-	const_skip ; 161 raichu
-	const_skip ; 162 sandshrew
-	const_skip ; 163 sandslash
-	const_skip ; 164 vulpix
+	const_skip ; 161 csariel
+	const_skip ; 162 sariel
+	const_skip ; 163 esariel
+	const_skip ; 164 emeira
 	const_skip ; 165 ninetales
 	const_skip ; 166 diglett
 	const_skip ; 167 dugtrio

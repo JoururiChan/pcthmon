@@ -19,6 +19,6 @@ MountMoonGiftShop_MapScriptHeader:
 
 MountMoonGiftShopLassText:
 	text "When the sun goes"
-	line "down, Clefairy"
+	line "down, CMeira"
 	cont "come out to play."
 	done

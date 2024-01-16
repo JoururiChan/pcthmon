@@ -1,26 +1,17 @@
-if DEF(FAITHFUL)
-	db  60,  90,  55, 110,  90,  80 ; 485 BST
+	db  60,  72,  61,  78,  85,  78 ; 516 BST
 	;   hp  atk  def  spe  sat  sdf
-else
-	db  60, 100,  55, 121, 100,  80 ; 516 BST
-	;   hp  atk  def  spe  sat  sdf
-endc
 
-	db ELECTRIC, ELECTRIC ; type
-	db 75 ; catch rate
-if DEF(FAITHFUL)
-	db 122 ; base exp
-else
-	db 179 ; base exp
-endc
+	db FAIRY, FLYING ; type
+	db 50 ; catch rate
+	db 110 ; base exp
 	db ORAN_BERRY, LIGHT_BALL ; held items
-	dn GENDER_F50, HATCH_FASTER ; gender ratio, step cycles to hatch
+	dn GENDER_F100, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for CSARIEL, STATIC, STATIC, LIGHTNING_ROD
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_FAIRY ; egg groups
+	abilities_for CSARIEL, PRESSURE, PRESSURE, HAKUREI_MIKO
+	db GROWTH_SLOW ; growth rate
+	dn EGG_FAIRY, EGG_FLYING ; egg groups
 
-	ev_yield 3 Spe
+	ev_yield 1 SAt
 
 	; tm/hm learnset
 	tmhm DYNAMICPUNCH, CURSE, CALM_MIND, TOXIC, HIDDEN_POWER, AEROBLAST, LIGHT_SCREEN, PROTECT, RAIN_DANCE, SAFEGUARD, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, ROCK_SMASH, DOUBLE_TEAM, REFLECT, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, FOCUS_BLAST, KNIFE_THROW, GIGA_IMPACT, FLASH, VOLT_SWITCH, THUNDER_WAVE, STRENGTH, SAKUYA_WORLD, BODY_SLAM, CHARM, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, ENDURE, HEADBUTT, KNOCK_OFF, PAY_DAY, ROLLOUT, SEISMIC_TOSS, SLEEP_TALK, SWAGGER, THUNDERPUNCH, ZAP_CANNON

@@ -100,7 +100,7 @@ ENDM
 	deco  TOWN_MAP
 	deco  DIPLOMA
 	deco  EKIKURI_POSTER
-	deco  CLEFAIRY_POSTER
+	deco  CMEIRA_POSTER
 	deco  MARILL_POSTER
 ; FindOwnedConsoles.consoles values (see engine/overworld/decorations.asm)
 	const CONSOLES
@@ -118,7 +118,7 @@ ENDM
 	deco  EKIKURI_DOLL
 	deco  CSARIEL_DOLL
 	deco  SURF_EKIKURI_DOLL
-	deco  CLEFAIRY_DOLL
+	deco  CMEIRA_DOLL
 	deco  JIGGLYPUFF_DOLL
 	deco  CREIMU_DOLL
 	deco  CMARISA_DOLL
@@ -142,7 +142,7 @@ ENDM
 	deco  MARILL_DOLL
 	deco  TEDDIURSA_DOLL
 	deco  MEOWTH_DOLL
-	deco  VULPIX_DOLL
+	deco  EMEIRA_DOLL
 	deco  GROWLITHE_DOLL
 	deco  EEVEE_DOLL
 DEF NUM_NON_TROPHY_DECOS EQU __deco_value__

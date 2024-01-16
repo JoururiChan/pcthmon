@@ -35,12 +35,12 @@ EvosAttacksPointers::
 	dw CKongaraEvosAttacks
 	dw KongaraEvosAttacks
 	dw EKongaraEvosAttacks
-	dw NidoranMEvosAttacks
-	dw NidorinoEvosAttacks
-	dw NidokingEvosAttacks
-	dw ClefairyEvosAttacks
-	dw ClefableEvosAttacks
-	dw VulpixPlainEvosAttacks
+	dw CRikaEvosAttacks
+	dw RikaEvosAttacks
+	dw ERikaEvosAttacks
+	dw CMeiraEvosAttacks
+	dw MeiraEvosAttacks
+	dw EMeiraPlainEvosAttacks
 	dw NinetalesPlainEvosAttacks
 	dw JigglypuffEvosAttacks
 	dw WigglytuffEvosAttacks
@@ -308,7 +308,7 @@ EvosAttacksPointers::
 	dw CSarielAlolanEvosAttacks
 	dw SarielAlolanEvosAttacks
 	dw ESarielAlolanEvosAttacks
-	dw VulpixAlolanEvosAttacks
+	dw EMeiraAlolanEvosAttacks
 	dw NinetalesAlolanEvosAttacks
 	dw DiglettAlolanEvosAttacks
 	dw DugtrioAlolanEvosAttacks

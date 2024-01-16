@@ -150,7 +150,7 @@ CeladonUniversityLoungeLassText:
 	cont "to Mt.Moon."
 
 	para "Maybe I'll see a"
-	line "Clefairy!"
+	line "CMeira!"
 	done
 
 CeladonUniversityLoungeRichBoyText:

@@ -3,7 +3,7 @@ DEF GOLDENRODGAMECORNER_TM24_COINS EQU 4000
 DEF GOLDENRODGAMECORNER_TM13_COINS EQU 4000
 DEF GOLDENRODGAMECORNER_ABRA_COINS     EQU 200
 DEF GOLDENRODGAMECORNER_CUBONE_COINS   EQU 800
-DEF GOLDENRODGAMECORNER_CLEFAIRY_COINS EQU 1500
+DEF GOLDENRODGAMECORNER_CMEIRA_COINS EQU 1500
 
 GoldenrodGameCorner_MapScriptHeader:
 	def_scene_scripts
@@ -200,7 +200,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	closewindow
 	ifequalfwd $1, .abra
 	ifequalfwd $2, .cubone
-	ifequalfwd $3, .clefairy
+	ifequalfwd $3, .cmeira
 	jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 
 .abra
@@ -237,21 +237,21 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	takecoins GOLDENRODGAMECORNER_CUBONE_COINS
 	sjump .loop
 
-.clefairy
-	checkcoins GOLDENRODGAMECORNER_CLEFAIRY_COINS
+.cmeira
+	checkcoins GOLDENRODGAMECORNER_CMEIRA_COINS
 	ifequal $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getmonname CLEFAIRY, $0
+	getmonname CMEIRA, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	givepoke CLEFAIRY, 15
+	givepoke CMEIRA, 15
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorNoMoreRoomText
-	setmonval CLEFAIRY
+	setmonval CMEIRA
 	special Special_GameCornerPrizeMonCheckDex
-	takecoins GOLDENRODGAMECORNER_CLEFAIRY_COINS
+	takecoins GOLDENRODGAMECORNER_CMEIRA_COINS
 	sjump .loop
 
 .MenuDataHeader:
@@ -265,7 +265,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db 4 ; items
 	db "Abra        {d:GOLDENRODGAMECORNER_ABRA_COINS}@"
 	db "Cubone      {d:GOLDENRODGAMECORNER_CUBONE_COINS}@"
-	db "Clefairy   {d:GOLDENRODGAMECORNER_CLEFAIRY_COINS}@"
+	db "CMeira   {d:GOLDENRODGAMECORNER_CMEIRA_COINS}@"
 	db "Cancel@"
 
 GoldenrodGameCornerPharmacistScript:

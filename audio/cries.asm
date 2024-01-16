@@ -854,17 +854,17 @@ Cry_Tyrogue_branch_f3460:
 	noise_note 20, 10, 3, 76
 	sound_ret
 
-Cry_Nidoran_M:
+Cry_CRika:
 	channel_count 3
-	channel 5, Cry_Nidoran_M_Ch5
-	channel 6, Cry_Nidoran_M_Ch6
-	channel 8, Cry_Nidoran_M_Ch8
+	channel 5, Cry_CRika_Ch5
+	channel 6, Cry_CRika_Ch6
+	channel 8, Cry_CRika_Ch8
 
-Cry_Nidoran_F:
+Cry_CKongara:
 	channel_count 3
-	channel 5, Cry_Nidoran_F_Ch5
-	channel 6, Cry_Nidoran_F_Ch6
-	channel 8, Cry_Nidoran_F_Ch8
+	channel 5, Cry_CKongara_Ch5
+	channel 6, Cry_CKongara_Ch6
+	channel 8, Cry_CKongara_Ch8
 
 Cry_Slowpoke:
 	channel_count 3
@@ -1004,11 +1004,11 @@ Cry_Shellder:
 	channel 6, Cry_Shellder_Ch6
 	channel 8, Cry_Shellder_Ch8
 
-Cry_Clefairy:
+Cry_CMeira:
 	channel_count 3
-	channel 5, Cry_Clefairy_Ch5
-	channel 6, Cry_Clefairy_Ch6
-	channel 8, Cry_Clefairy_Ch8
+	channel 5, Cry_CMeira_Ch5
+	channel 6, Cry_CMeira_Ch6
+	channel 8, Cry_CMeira_Ch8
 
 Cry_Venonat:
 	channel_count 3
@@ -1070,11 +1070,11 @@ Cry_Vileplume:
 	channel 6, Cry_Vileplume_Ch6
 	channel 8, Cry_Vileplume_Ch8
 
-Cry_Vulpix:
+Cry_EMeira:
 	channel_count 3
-	channel 5, Cry_Vulpix_Ch5
-	channel 6, Cry_Vulpix_Ch6
-	channel 8, Cry_Vulpix_Ch8
+	channel 5, Cry_EMeira_Ch5
+	channel 6, Cry_EMeira_Ch6
+	channel 8, Cry_EMeira_Ch8
 
 Cry_Weepinbell:
 	channel_count 3
@@ -1140,7 +1140,7 @@ Cry_Vileplume_Ch8:
 	noise_note 8, 12, 1, 44
 	sound_ret
 
-Cry_Vulpix_Ch5:
+Cry_EMeira_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 15, 15, 7, 1664
 	square_note 10, 14, 6, 1668
@@ -1152,7 +1152,7 @@ Cry_Vulpix_Ch5:
 	square_note 8, 12, 1, 1600
 	sound_ret
 
-Cry_Vulpix_Ch6:
+Cry_EMeira_Ch6:
 	duty_cycle_pattern 0, 0, 1, 1
 	square_note 15, 11, 7, 1601
 	square_note 10, 9, 6, 1602
@@ -1164,7 +1164,7 @@ Cry_Vulpix_Ch6:
 	square_note 8, 7, 1, 1537
 	sound_ret
 
-Cry_Vulpix_Ch8:
+Cry_EMeira_Ch8:
 	noise_note 15, 14, 4, 60
 	noise_note 10, 12, 7, 76
 	noise_note 10, 12, 7, 60
@@ -1317,21 +1317,21 @@ Cry_Farfetch_d_Ch8:
 	noise_note 4, 7, 1, 32
 	sound_ret
 
-Cry_Nidoran_M_Ch5:
+Cry_CRika_Ch5:
 	duty_cycle_pattern 3, 3, 1, 1
 	square_note 4, 15, 3, 1816
 	square_note 15, 14, 5, 1944
 	square_note 8, 9, 1, 1880
 	sound_ret
 
-Cry_Nidoran_M_Ch6:
+Cry_CRika_Ch6:
 	duty_cycle_pattern 2, 2, 0, 0
 	square_note 5, 11, 3, 1800
 	square_note 15, 12, 5, 1928
 	square_note 8, 7, 1, 1864
 	sound_ret
 
-Cry_Nidoran_M_Ch8:
+Cry_CRika_Ch8:
 	noise_note 3, 10, 1, 28
 	noise_note 14, 9, 4, 44
 	noise_note 8, 8, 1, 28
@@ -1534,7 +1534,7 @@ Cry_Drowzee_Ch8:
 	noise_note 4, 10, 1, 60
 	sound_ret
 
-Cry_Nidoran_F_Ch5:
+Cry_CKongara_Ch5:
 	duty_cycle_pattern 2, 2, 0, 0
 	square_note 4, 15, 3, 1536
 	square_note 8, 13, 5, 1888
@@ -1542,7 +1542,7 @@ Cry_Nidoran_F_Ch5:
 	square_note 8, 13, 1, 1808
 	sound_ret
 
-Cry_Nidoran_F_Ch6:
+Cry_CKongara_Ch6:
 	duty_cycle_pattern 1, 1, 2, 2
 	square_note 5, 11, 3, 1777
 	square_note 7, 12, 5, 1874
@@ -1550,7 +1550,7 @@ Cry_Nidoran_F_Ch6:
 	square_note 8, 11, 1, 1537
 	sound_ret
 
-Cry_Nidoran_F_Ch8:
+Cry_CKongara_Ch8:
 	noise_note 3, 10, 2, 60
 	noise_note 12, 9, 4, 44
 	noise_note 3, 8, 2, 28
@@ -1644,20 +1644,20 @@ Cry_CMarisa_Ch8:
 	noise_note 8, 10, 1, 92
 	sound_ret
 
-Cry_Clefairy_Ch5:
+Cry_CMeira_Ch5:
 	duty_cycle_pattern 0, 1, 2, 3
 	square_note 7, 13, 2, 1856
 	square_note 15, 14, 5, 1888
 	square_note 24, 12, 1, 1840
 	sound_ret
 
-Cry_Clefairy_Ch6:
+Cry_CMeira_Ch6:
 	duty_cycle_pattern 2, 0, 0, 1
 	square_note 2, 12, 2, 1793
 	square_note 4, 12, 2, 1800
 	square_note 15, 13, 7, 1857
 	square_note 24, 10, 2, 1793
-Cry_Clefairy_Ch8:
+Cry_CMeira_Ch8:
 	sound_ret
 
 Cry_CGyoku_Ch5:

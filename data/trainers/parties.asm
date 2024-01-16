@@ -94,7 +94,7 @@ CalGroup:
 	dbp 60, WEAVILE
 		db LEFTOVERS
 		db CONFUSE_RAY, CURSE, FEINT_ATTACK, PROTECT
-	dbp 60, CLEFABLE
+	dbp 60, MEIRA
 		db PINK_BOW
 		db SING, HEALINGLIGHT, METRONOME, MOONBLAST
 	db -1 ; end
@@ -235,7 +235,7 @@ WhitneyGroup:
 	db "Whitney@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp 19, CLEFAIRY, FEMALE
+	dbp 19, CMEIRA, FEMALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 96 HP
 		db METRONOME, DISARM_VOICE, DOUBLE_SLAP, ATTRACT
@@ -260,7 +260,7 @@ WhitneyGroup:
 	dbp 71, STANTLER, FEMALE
 		db LIGHT_CLAY, ABILITY_1 | NAT_NEUTRAL
 		db REFLECT, LIGHT_SCREEN, DOUBLE_EDGE, ZEN_HEADBUTT
-	dbp 72, CLEFABLE, FEMALE
+	dbp 72, MEIRA, FEMALE
 		db PINK_BOW, ABILITY_1 | NAT_NEUTRAL
 		db CALM_MIND, MOONBLAST, FRESH_SNACK, THUNDER_WAVE
 	dbp 70, URSARING, FEMALE
@@ -880,7 +880,7 @@ endc
 if DEF(FAITHFUL)
 	dbp 75, EMARISA, MALE
 		db LEFTOVERS, ABIL_EMARISA_DROUGHT | NAT_SATK_UP_ATK_DOWN
-		db FIRE_BLAST, SOLAR_BEAM, FOCUS_BLAST, AIR_SLASH
+		db FIRE_BLAST, FLOWER_SHOOT, FOCUS_BLAST, AIR_SLASH
 else
 	dbp 75, EMARISA, MALE
 		db LEFTOVERS, ABIL_EMARISA_BLAZE | NAT_ATK_UP_SATK_DOWN
@@ -1103,11 +1103,11 @@ endc
 	dbp 65, VILEPLUME
 		db NO_ITEM
 		ev_spread 252 SAt, 132 Spe
-		db SUNNY_DAY, HEALINGLIGHT, PETAL_SLASH, SOLAR_BEAM
+		db SUNNY_DAY, HEALINGLIGHT, PETAL_SLASH, FLOWER_SHOOT
 	dbp 65, BELLOSSOM
 		db SITRUS_BERRY
 		ev_spread 132 SAt, 252 Spe
-		db SUNNY_DAY, HEALINGLIGHT, PETAL_SLASH, SOLAR_BEAM
+		db SUNNY_DAY, HEALINGLIGHT, PETAL_SLASH, FLOWER_SHOOT
 	db -1 ; end
 
 	; ERIKA
@@ -2579,7 +2579,7 @@ CamperGroup:
 	db "Roland@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, NIDORAN_M
+	dbp 10, CRIKA
 	db -1 ; end
 
 	; CAMPER
@@ -2595,14 +2595,14 @@ CamperGroup:
 	db "Barry@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 60, NIDOKING
+	dbp 60, ERIKA
 	db -1 ; end
 
 	; CAMPER
 	db "Lloyd@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 56, NIDOKING
+	dbp 56, ERIKA
 	db -1 ; end
 
 	; CAMPER
@@ -2715,7 +2715,7 @@ CamperGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp LEVEL_FROM_BADGES + 8, DODRIO
-	dbp LEVEL_FROM_BADGES + 7, NIDORINO
+	dbp LEVEL_FROM_BADGES + 7, RIKA
 	dbp LEVEL_FROM_BADGES + 7, KONGARA
 	dbp LEVEL_FROM_BADGES + 9, TAUROS
 	db -1 ; end
@@ -2744,7 +2744,7 @@ PicnickerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 19, WEEPINBELL
-	dbp 19, NIDORINO
+	dbp 19, RIKA
 	dbp 21, EKONGARA
 	db -1 ; end
 
@@ -2753,7 +2753,7 @@ PicnickerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 24, WEEPINBELL
-	dbp 26, NIDORINO
+	dbp 26, RIKA
 	dbp 26, EKONGARA
 	db -1 ; end
 
@@ -2763,7 +2763,7 @@ PicnickerGroup:
 	; party
 	dbp 30, WEEPINBELL
 		db SLEEP_POWDER, TOXIC_GAS, STUN_SPORE, SLUDGE_BOMB
-	dbp 32, NIDOKING
+	dbp 32, ERIKA
 		db EARTHQUAKE, DOUBLE_KICK, SEAL_NEEDLE, IRON_TAIL
 	dbp 32, EKONGARA
 		db EARTHQUAKE, DOUBLE_KICK, LEER, BODY_SLAM
@@ -2818,7 +2818,7 @@ endc
 	dbp 34, JUMPLUFF
 		db ACROBATICS, SLEEP_POWDER, STUN_SPORE, MEGA_DRAIN
 	dbp 38, EREIMU
-		db SOLAR_BEAM, RAZOR_LEAF, HEADBUTT, MUD_SLAP
+		db FLOWER_SHOOT, RAZOR_LEAF, HEADBUTT, MUD_SLAP
 	db -1 ; end
 
 	; PICNICKER
@@ -2853,7 +2853,7 @@ endc
 	db "Tiffany@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 31, CLEFAIRY
+	dbp 31, CMEIRA
 		db ENCORE, SING, TRI_ATTACK, MINIMIZE
 	db -1 ; end
 
@@ -2861,7 +2861,7 @@ endc
 	db "Tiffany@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 40, CLEFAIRY
+	dbp 40, CMEIRA
 		db REFLECT, TRI_ATTACK, MINIMIZE, METRONOME
 	db -1 ; end
 
@@ -2869,7 +2869,7 @@ endc
 	db "Tiffany@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 44, CLEFABLE
+	dbp 44, MEIRA
 		db METRONOME, ENCORE, HEALINGLIGHT, MINIMIZE
 	db -1 ; end
 
@@ -2877,7 +2877,7 @@ endc
 	db "Tiffany@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 49, CLEFABLE
+	dbp 49, MEIRA
 		db HEALINGLIGHT, TRI_ATTACK, MINIMIZE, METRONOME
 	db -1 ; end
 
@@ -2885,7 +2885,7 @@ endc
 	db "Kim@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, VULPIX
+	dbp 17, EMEIRA
 	db -1 ; end
 
 	; PICNICKER
@@ -3210,7 +3210,7 @@ FisherGroup:
 	dbp 40, SEAKING
 		db WATERFALL, BODY_SLAM, POISON_JAB, SAKUYA_WORLD
 	dbp 42, OCTILLERY
-		db PSYBEAM, AURORA_BEAM, OCTAZOOKA, MASTER_SPARK
+		db PSYBEAM, AURORA_BEAM, BLACK_RIPPLE, MASTER_SPARK
 	db -1 ; end
 
 	; FISHER
@@ -3975,7 +3975,7 @@ HikerGroup:
 	; party
 	dbp 57, GRAVELER
 	dbp 62, RHYDON
-	dbp 63, CLEFAIRY
+	dbp 63, CMEIRA
 	db -1 ; end
 
 	; HIKER
@@ -3990,7 +3990,7 @@ HikerGroup:
 	db "Lester@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 55, CLEFABLE
+	dbp 55, MEIRA
 	dbp 53, SCYTHER
 	dbp 54, MACHOKE
 	db -1 ; end
@@ -4482,7 +4482,7 @@ PokefanMGroup:
 	db "Alex@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 56, NIDOKING
+	dbp 56, ERIKA
 		db KINGS_ROCK
 	dbp 56, SLOWKING
 		db KINGS_ROCK
@@ -4582,7 +4582,7 @@ PokefanFGroup:
 	; party
 	dbp 57, GRANBULL
 		db SITRUS_BERRY
-	dbp 55, CLEFABLE
+	dbp 55, MEIRA
 		db SITRUS_BERRY
 	db -1 ; end
 
@@ -4730,7 +4730,7 @@ PokemaniacGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 20, KONGARA
-	dbp 20, NIDORINO
+	dbp 20, RIKA
 	db -1 ; end
 
 	; POKEMANIAC
@@ -4744,7 +4744,7 @@ PokemaniacGroup:
 	db "Ron@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 30, NIDOKING
+	dbp 30, ERIKA
 	db -1 ; end
 
 	; POKEMANIAC
@@ -4768,7 +4768,7 @@ PokemaniacGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 13, SLOWPOKE
-	dbp 13, NIDORAN_M
+	dbp 13, CRIKA
 	db -1 ; end
 
 	; POKEMANIAC
@@ -4782,7 +4782,7 @@ PokemaniacGroup:
 	db "Miller@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 7, NIDOKING
+	dbp LEVEL_FROM_BADGES + 7, ERIKA
 	dbp LEVEL_FROM_BADGES + 7, EKONGARA
 	db -1 ; end
 
@@ -4804,17 +4804,17 @@ CosplayerGroup:
 	db "Clara@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 14, VULPIX
-	dbp 14, VULPIX
+	dbp 14, EMEIRA
+	dbp 14, EMEIRA
 	db -1 ; end
 
 	; COSPLAYER
 	db "Chloe@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 5, VULPIX
+	dbp LEVEL_FROM_BADGES + 5, EMEIRA
 	dbp LEVEL_FROM_BADGES + 5, EKIKURI
-	dbp LEVEL_FROM_BADGES + 5, VULPIX
+	dbp LEVEL_FROM_BADGES + 5, EMEIRA
 	db -1 ; end
 
 	; COSPLAYER
@@ -4822,14 +4822,14 @@ CosplayerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 62, NINETALES
-	dbp 60, VULPIX
+	dbp 60, EMEIRA
 	db -1 ; end
 
 	; COSPLAYER
 	db "Kuroko@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 60, VULPIX
+	dbp 60, EMEIRA
 		db EVIOLITE
 	dbp 62, NINETALES
 		db CHARCOAL
@@ -5157,8 +5157,8 @@ endc
 	db "Miriam@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 59, CLEFAIRY
-	dbp 61, CLEFABLE
+	dbp 59, CMEIRA
+	dbp 61, MEIRA
 	dbp 59, JIGGLYPUFF
 	dbp 61, WIGGLYTUFF
 	db -1 ; end
@@ -5167,7 +5167,7 @@ endc
 	db "Layla@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 5, CLEFAIRY
+	dbp LEVEL_FROM_BADGES + 5, CMEIRA
 	dbp LEVEL_FROM_BADGES + 5, TOGETIC
 	db -1 ; end
 
@@ -5194,9 +5194,9 @@ endc
 	db "Jennifer@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 52, CLEFAIRY
+	dbp 52, CMEIRA
 	dbp 52, MARILL
-	dbp 54, CLEFABLE
+	dbp 54, MEIRA
 	dbp 54, AZUMARILL
 	db -1 ; end
 
@@ -5296,7 +5296,7 @@ BeautyGroup:
 	db "Callie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 16, CLEFABLE
+	dbp 16, MEIRA
 	dbp 16, WIGGLYTUFF
 	db -1 ; end
 
@@ -5304,7 +5304,7 @@ BeautyGroup:
 	db "Cassandra@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 16, CLEFABLE
+	dbp 16, MEIRA
 	dbp 16, WIGGLYTUFF
 	db -1 ; end
 
@@ -5330,7 +5330,7 @@ BeautyGroup:
 	; party
 	dbp 54, WIGGLYTUFF
 	dbp 54, MILTANK
-	dbp 56, CLEFABLE
+	dbp 56, MEIRA
 	db -1 ; end
 
 	; BEAUTY
@@ -5351,7 +5351,7 @@ BeautyGroup:
 	; party
 	dbp LEVEL_FROM_BADGES + 9, MACHAMP, MALE
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp LEVEL_FROM_BADGES + 7, CLEFABLE, FEMALE
+	dbp LEVEL_FROM_BADGES + 7, MEIRA, FEMALE
 		db ABILITY_1 | NAT_NEUTRAL
 	db -1 ; end
 
@@ -5592,7 +5592,7 @@ FirebreatherGroup:
 	db "Ray@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 11, VULPIX
+	dbp 11, EMEIRA
 	db -1 ; end
 
 	; FIREBREATHER
@@ -5743,7 +5743,7 @@ SchoolboyGroup:
 	dbp 35, GROWLITHE
 		db SUNNY_DAY, LEER, TAKE_DOWN, FLAME_CHARGE
 	dbp 37, VILEPLUME
-		db SOLAR_BEAM, SLEEP_POWDER, ACID, HEALINGLIGHT
+		db FLOWER_SHOOT, SLEEP_POWDER, ACID, HEALINGLIGHT
 	db -1 ; end
 
 	; SCHOOLBOY
@@ -6281,7 +6281,7 @@ SageGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 22, HAUNTER
-	dbp 21, VULPIX
+	dbp 21, EMEIRA
 	db -1 ; end
 
 	; SAGE
@@ -6875,7 +6875,7 @@ BreederGroup:
 	db "Brenda@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 55, CLEFABLE
+	dbp 55, MEIRA
 		db PINK_BOW
 	dbp 54, WIGGLYTUFF
 		db SITRUS_BERRY
@@ -8314,7 +8314,7 @@ TeacherGroup:
 	db "Colette@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 60, CLEFAIRY
+	dbp 60, CMEIRA
 	db -1 ; end
 
 	; TEACHER
@@ -8650,7 +8650,7 @@ ArtistGroup:
 	; party
 	dbp 57, SMEARGLE
 		db MIRACLE_SEED, DVS_HP_GRASS ; green
-		db SPORE, METEOR_FALL, SOLAR_BEAM, GIGA_DRAIN
+		db SPORE, METEOR_FALL, FLOWER_SHOOT, GIGA_DRAIN
 	db -1 ; end
 
 	; ARTIST
@@ -8695,9 +8695,9 @@ AromaLadyGroup:
 	db TRAINERTYPE_MOVES
 	; party
 	dbp 55, BELLOSSOM
-		db SOLAR_BEAM, SUNNY_DAY, STUN_SPORE, GROWTH
+		db FLOWER_SHOOT, SUNNY_DAY, STUN_SPORE, GROWTH
 	dbp 55, BELLOSSOM
-		db SOLAR_BEAM, SUNNY_DAY, STUN_SPORE, GROWTH
+		db FLOWER_SHOOT, SUNNY_DAY, STUN_SPORE, GROWTH
 	db -1 ; end
 
 	; AROMA_LADY
@@ -8985,7 +8985,7 @@ CooltrainerMGroup:
 	dbp 36, QUAGSIRE
 		db WATER_GUN, HEADBUTT, AMNESIA, EARTHQUAKE
 	dbp 36, EXEGGCUTE
-		db LEECH_SEED, PSYSHOT, SLEEP_POWDER, SOLAR_BEAM
+		db LEECH_SEED, PSYSHOT, SLEEP_POWDER, FLOWER_SHOOT
 	db -1 ; end
 
 	; COOLTRAINERM
@@ -9793,7 +9793,7 @@ ProtonGroup:
 		db MINIMIZE, BUBBLE_BEAM, LIFE_BALANCE, ROLLOUT
 	dbp 40, OCTILLERY
 		db LUM_BERRY
-		db OCTAZOOKA, POWER_WHIP, METEOR_FALL, ICE_BEAM
+		db BLACK_RIPPLE, POWER_WHIP, METEOR_FALL, ICE_BEAM
 	dbp 41, WEEZING
 		db CHARCOAL
 		db FIRE_BLAST, EXPLOSION, SLUDGE_BOMB, SMOKESCREEN
@@ -9956,8 +9956,8 @@ GiovanniGroup:
 	db "Giovanni@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp 64, NIDOKING, MALE
-		db LIFE_ORB, ABIL_NIDOKING_SHEER_FORCE | NAT_SPE_UP_ATK_DOWN
+	dbp 64, ERIKA, MALE
+		db LIFE_ORB, ABIL_ERIKA_SHEER_FORCE | NAT_SPE_UP_ATK_DOWN
 		db SLUDGE_BOMB, EARTH_POWER, ICE_BEAM, METEOR_FALL
 	dbp 62, DUGTRIO, MALE
 		db CHOICE_BAND, ABIL_DUGTRIO_ARENA_TRAP | NAT_SPE_UP_SATK_DOWN
@@ -10012,8 +10012,8 @@ endc
 	dbp 80, ESAKUYA, MALE
 		db WHITE_HERB, ABIL_ESAKUYA_CONCENTRATE | NAT_SDEF_UP_SATK_DOWN
 		db WATERFALL, IRON_HEAD, SCULPTURE, SHELL_SMASH
-	dbp 82, NIDOKING, MALE
-		db LIFE_ORB, ABIL_NIDOKING_SHEER_FORCE | NAT_SPE_UP_SATK_DOWN
+	dbp 82, ERIKA, MALE
+		db LIFE_ORB, ABIL_ERIKA_SHEER_FORCE | NAT_SPE_UP_SATK_DOWN
 		db POISON_JAB, EARTHQUAKE, ICE_PUNCH, THUNDERPUNCH
 	db -1 ; end
 
@@ -10494,7 +10494,7 @@ CherylGroup:
 		ev_spread 136 HP ; maybe 252 since these are "stat trainers"?
 	dbp LEVEL_FROM_BADGES + 7, KONGARA
 		ev_spread 136 HP
-	dbp LEVEL_FROM_BADGES + 4, CLEFABLE
+	dbp LEVEL_FROM_BADGES + 4, MEIRA
 		ev_spread 136 HP
 	dbp LEVEL_FROM_BADGES + 6, AZUMARILL
 		ev_spread 136 HP
@@ -10509,7 +10509,7 @@ CherylGroup:
 	; TODO: movesets, etc
 	dbp 60, BLISSEY
 	dbp 59, EKONGARA
-	dbp 56, CLEFABLE
+	dbp 56, MEIRA
 	dbp 56, WIGGLYTUFF
 	dbp 58, AZUMARILL
 	dbp 57, WOBBUFFET
@@ -10522,7 +10522,7 @@ CherylGroup:
 	; TODO: movesets, etc
 	dbp 75, BLISSEY
 	dbp 74, EKONGARA
-	dbp 71, CLEFABLE
+	dbp 71, MEIRA
 	dbp 71, WIGGLYTUFF
 	dbp 73, AZUMARILL
 	dbp 72, WOBBUFFET
@@ -10540,7 +10540,7 @@ RileyGroup:
 	dbp 58, MACHAMP
 	dbp 57, DRAGONITE
 	dbp 56, RHYPERIOR
-	dbp 55, NIDOKING
+	dbp 55, ERIKA
 	dbp 56, ELECTIVIRE
 	dbp 55, MAMOSWINE
 	db -1 ; end
@@ -10553,7 +10553,7 @@ RileyGroup:
 	dbp 75, MACHAMP
 	dbp 74, DRAGONITE
 	dbp 73, RHYPERIOR
-	dbp 72, NIDOKING
+	dbp 72, ERIKA
 	dbp 73, ELECTIVIRE
 	dbp 72, MAMOSWINE
 	db -1 ; end
@@ -10954,7 +10954,7 @@ ValerieGroup:
 	db "Valerie@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_MOVES
 	; party
-	dbp 37, CLEFABLE
+	dbp 37, MEIRA
 		db NO_ITEM
 		ev_spread 224 HP
 		db DISARM_VOICE, MINIMIZE, BATON_PASS, METRONOME
@@ -10980,7 +10980,7 @@ ValerieGroup:
 	db "Valerie@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp 57, CLEFABLE, FEMALE
+	dbp 57, MEIRA, FEMALE
 		db LEFTOVERS, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 252 HP, 68 Def
 		db MOONBLAST, CALM_MIND, HEALINGLIGHT, METRONOME
@@ -11010,7 +11010,7 @@ ValerieGroup:
 	db "Valerie@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp 73, CLEFABLE, FEMALE
+	dbp 73, MEIRA, FEMALE
 		db LEFTOVERS, ABILITY_1 | NAT_NEUTRAL
 		db MOONBLAST, CALM_MIND, FRESH_SNACK, THUNDER_WAVE
 	dbp 73, MR__MIME, FEMALE

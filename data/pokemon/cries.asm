@@ -32,18 +32,18 @@ PokemonCries::
 	mon_cry CRY_CKIKURI,       $0e0,  $090 ; Kikuri
 	mon_cry CRY_CREIMU,   $0ee,  $081 ; EKikuri
 	mon_cry CRY_CSARIEL,      $0ee,  $088 ; CSariel
-	mon_cry CRY_NIDORAN_M,   $020,  $0c0 ; Sariel
-	mon_cry CRY_NIDORAN_M,   $0ff,  $17f ; ESariel
+	mon_cry CRY_CRIKA,   $020,  $0c0 ; Sariel
+	mon_cry CRY_CRIKA,   $0ff,  $17f ; ESariel
 	mon_cry CRY_CKONGARA,   $000,  $100 ; CKongara
 	mon_cry CRY_CKONGARA,   $02c,  $160 ; Kongara
 	mon_cry CRY_EKONGARA,   $000,  $100 ; EKongara
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; NidoranM
-	mon_cry CRY_NIDORAN_M,   $02c,  $140 ; Nidorino
-	mon_cry CRY_CSARIEL,      $000,  $100 ; Nidoking
-	mon_cry CRY_CLEFAIRY,    $0cc,  $081 ; Clefairy
-	mon_cry CRY_CLEFAIRY,    $0aa,  $0a0 ; Clefable
-	mon_cry CRY_VULPIX,      $04f,  $090 ; Vulpix
-	mon_cry CRY_VULPIX,      $088,  $0e0 ; Ninetales
+	mon_cry CRY_CRIKA,   $000,  $100 ; CRika
+	mon_cry CRY_CRIKA,   $02c,  $140 ; Rika
+	mon_cry CRY_CSARIEL,      $000,  $100 ; ERika
+	mon_cry CRY_CMEIRA,    $0cc,  $081 ; CMeira
+	mon_cry CRY_CMEIRA,    $0aa,  $0a0 ; Meira
+	mon_cry CRY_EMEIRA,      $04f,  $090 ; EMeira
+	mon_cry CRY_EMEIRA,      $088,  $0e0 ; Ninetales
 	mon_cry CRY_EMAGAN,      $0ff,  $0b5 ; Jigglypuff
 	mon_cry CRY_EMAGAN,      $068,  $0e0 ; Wigglytuff
 	mon_cry CRY_CSAKUYA,    $0e0,  $100 ; Zubat
@@ -57,8 +57,8 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $029,  $100 ; Venomoth
 	mon_cry CRY_DIGLETT,     $0aa,  $081 ; Diglett
 	mon_cry CRY_DIGLETT,     $02a,  $090 ; Dugtrio
-	mon_cry CRY_CLEFAIRY,    $077,  $090 ; Meowth
-	mon_cry CRY_CLEFAIRY,    $099,  $17f ; Persian
+	mon_cry CRY_CMEIRA,    $077,  $090 ; Meowth
+	mon_cry CRY_CMEIRA,    $099,  $17f ; Persian
 	mon_cry CRY_PSYDUCK,     $020,  $0e0 ; Psyduck
 	mon_cry CRY_PSYDUCK,     $0ff,  $0c0 ; Golduck
 	mon_cry CRY_EKONGARA,   $0dd,  $0e0 ; Mankey
@@ -79,8 +79,8 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,  $066,  $14c ; Victreebel
 	mon_cry CRY_VENONAT,     $000,  $100 ; Tentacool
 	mon_cry CRY_VENONAT,     $0ee,  $17f ; Tentacruel
-	mon_cry CRY_VULPIX,      $0f0,  $090 ; Geodude
-	mon_cry CRY_VULPIX,      $000,  $100 ; Graveler
+	mon_cry CRY_EMEIRA,      $0f0,  $090 ; Geodude
+	mon_cry CRY_EMEIRA,      $000,  $100 ; Graveler
 	mon_cry CRY_GOLEM,       $0e0,  $0c0 ; Golem
 	mon_cry CRY_WEEPINBELL,  $000,  $100 ; Ponyta
 	mon_cry CRY_WEEPINBELL,  $020,  $140 ; Rapidash
@@ -109,7 +109,7 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     $0a8,  $110 ; Electrode
 	mon_cry CRY_DIGLETT,     $000,  $100 ; Exeggcute
 	mon_cry CRY_DROWZEE,     $000,  $100 ; Exeggutor
-	mon_cry CRY_CLEFAIRY,    $000,  $100 ; Cubone
+	mon_cry CRY_CMEIRA,    $000,  $100 ; Cubone
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; Marowak
 	mon_cry CRY_GOLEM,       $080,  $140 ; Hitmonlee
 	mon_cry CRY_SEEL,        $0ee,  $140 ; Hitmonchan
@@ -121,8 +121,8 @@ PokemonCries::
 	mon_cry CRY_CMIMA,   $00a,  $140 ; Chansey
 	mon_cry CRY_GOLEM,       $000,  $100 ; Tangela
 	mon_cry CRY_KANGASKHAN,  $000,  $100 ; Kangaskhan
-	mon_cry CRY_CLEFAIRY,    $099,  $090 ; Horsea
-	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; Seadra
+	mon_cry CRY_CMEIRA,    $099,  $090 ; Horsea
+	mon_cry CRY_CMEIRA,    $03c,  $081 ; Seadra
 	mon_cry CRY_CGYOKU,    $080,  $0c0 ; Goldeen
 	mon_cry CRY_CGYOKU,    $010,  $17f ; Seaking
 	mon_cry CRY_PARAS,       $002,  $0a0 ; Staryu
@@ -260,8 +260,8 @@ PokemonCries::
 	mon_cry CRY_MARILL,      $11b,  $120 ; Azurill
 	mon_cry CRY_AMPHAROS,    $27b,  $144 ; Wynaut
 	mon_cry CRY_TYROGUE,    -$051,  $0e8 ; Ambipom
-	mon_cry CRY_NIDORAN_M,      0,     0 ; Egg
-	mon_cry CRY_NIDORAN_M,      0,     0 ; $100
+	mon_cry CRY_CRIKA,      0,     0 ; Egg
+	mon_cry CRY_CRIKA,      0,     0 ; $100
 	mon_cry CRY_HOOTHOOT,    $130,  $0e8 ; Mismagius
 	mon_cry CRY_MARILL,     -$01f,  $180 ; Honchkrow
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; Bonsly
@@ -284,7 +284,7 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,   -$109,  $100 ; Mamoswine
 	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PorygonZ
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; Sylveon
-	mon_cry CRY_CLEFAIRY,    $077,  $090 ; Perrserker
+	mon_cry CRY_CMEIRA,    $077,  $090 ; Perrserker
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Cursola
 	mon_cry CRY_FARFETCH_D,  $0dd,  $081 ; SirfetchD
 	mon_cry CRY_KRABBY,      $008,  $0c0 ; Mr.Rime

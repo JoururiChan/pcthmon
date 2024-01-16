@@ -204,7 +204,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Whirlpool and Fire Spin have 90% accuracy.
 * Hail boosts Defense of Ice-types by 50%.
 * Submission and Take Down have 90 power, 100% accuracy, and 15 PP to match Blaze Star.
-* Crabhammer and Octazooka have 95% accuracy.
+* Crabhammer and Black Ripple have 95% accuracy.
 * Sing has 75% accuracy to match Lovely Kiss.
 * Supersonic has 65% accuracy and 20 PP.
 * Hidden Power is ???-type and has 70 power.
@@ -220,7 +220,7 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * Replaced Twins sprite with a devamped one from B/W.
 * New music ported from RBY and devamped from future generations.
 * Unique mini sprites for each Tohomon (thanks to [this patch](http://www.pokecommunity.com/showthread.php?t=338470)).
-* Revised some shiny palettes (Dragonite is blue like Dragonair, EKongara is pink like Nidoking, Scizor is silver, Espeon is sky blue, Electabuzz is red, etc).
+* Revised some shiny palettes (Dragonite is blue like Dragonair, EKongara is pink like ERika, Scizor is silver, Espeon is sky blue, Electabuzz is red, etc).
 * Unown isn't the only Tohomon with variant forms…
 * Color-coded starter Poké Balls.
 * Item balls for TMs are blue (inspired by Gen VI's yellow).

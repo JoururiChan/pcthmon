@@ -2,7 +2,7 @@
 	const_def
 
 ; gen 1
-	const CRY_NIDORAN_M
+	const CRY_CRIKA
 	const CRY_CKONGARA
 	const CRY_SLOWPOKE
 	const CRY_KANGASKHAN
@@ -27,7 +27,7 @@
 	const CRY_CGYOKU
 	const CRY_CKIKURI
 	const CRY_SHELLDER
-	const CRY_CLEFAIRY
+	const CRY_CMEIRA
 	const CRY_VENONAT
 	const CRY_LAPRAS
 	const CRY_MGYOKU
@@ -38,7 +38,7 @@
 	const CRY_PSYDUCK
 	const CRY_EMIMA
 	const CRY_VILEPLUME
-	const CRY_VULPIX
+	const CRY_EMEIRA
 	const CRY_WEEPINBELL
 
 ; gen 2

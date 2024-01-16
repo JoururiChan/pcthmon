@@ -15,15 +15,15 @@ PokemonFanClub_MapScriptHeader:
 	bg_event  0,  1, BGEVENT_READ, PokemonJournalGreenScript
 
 	def_object_events
-	object_event  3,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, CLEFAIRY, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, NO_FORM, ClefairyDollScript, EVENT_VERMILION_FAN_CLUB_DOLL
+	object_event  3,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, CMEIRA, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, NO_FORM, CMeiraDollScript, EVENT_VERMILION_FAN_CLUB_DOLL
 	object_event  5,  1, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubChairmanScript, -1
 	object_event  6,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, PokemonFanClubReceptionistText, -1
-	object_event  3,  4, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubClefairyGuyScript, -1
+	object_event  3,  4, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubCMeiraGuyScript, -1
 	object_event  7,  2, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, PokemonFanClubTeacherText, -1
 	pokemon_event  7,  3, ODDISH, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GREEN, FanClubOddishText, -1
 
 	object_const_def
-	const POKEMONFANCLUB_CLEFAIRY_DOLL
+	const POKEMONFANCLUB_CMEIRA_DOLL
 
 PokemonFanClubChairmanScript:
 	checkevent EVENT_LISTENED_TO_FAN_CLUB_PRESIDENT
@@ -45,23 +45,23 @@ PokemonFanClubChairmanScript:
 	setevent EVENT_LISTENED_TO_FAN_CLUB_PRESIDENT
 	jumpopenedtext PokemonFanClubChairmanItsARareCandyText
 
-PokemonFanClubClefairyGuyScript:
+PokemonFanClubCMeiraGuyScript:
 	checkevent EVENT_GOT_LOST_ITEM_FROM_FAN_CLUB
-	iftrue_jumptextfaceplayer PokemonFanClubClefairyGuyGoingToGetARealClefairyText
+	iftrue_jumptextfaceplayer PokemonFanClubCMeiraGuyGoingToGetARealCMeiraText
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
-	iffalse_jumptextfaceplayer PokemonFanClubClefairyGuyClefairyIsSoAdorableText
+	iffalse_jumptextfaceplayer PokemonFanClubCMeiraGuyCMeiraIsSoAdorableText
 	faceplayer
 	opentext
-	writetext PokemonFanClubClefairyGuyMakingDoWithADollIFoundText
+	writetext PokemonFanClubCMeiraGuyMakingDoWithADollIFoundText
 	checkevent EVENT_MET_COPYCAT_FOUND_OUT_ABOUT_LOST_ITEM
-	iftruefwd .FoundClefairyDoll
+	iftruefwd .FoundCMeiraDoll
 	waitendtext
-.FoundClefairyDoll:
+.FoundCMeiraDoll:
 	promptbutton
-	writetext PokemonFanClubClefairyGuyTakeThisDollBackToGirlText
+	writetext PokemonFanClubCMeiraGuyTakeThisDollBackToGirlText
 	promptbutton
 	waitsfx
-	disappear POKEMONFANCLUB_CLEFAIRY_DOLL
+	disappear POKEMONFANCLUB_CMEIRA_DOLL
 	verbosegivekeyitem LOST_ITEM
 	setevent EVENT_GOT_LOST_ITEM_FROM_FAN_CLUB
 	endtext
@@ -84,14 +84,14 @@ PokemonJournalGreenScript:
 	cont "#mon."
 	done
 
-ClefairyDollScript:
+CMeiraDollScript:
 	jumpthistext
 
-	text "It's a Clefairy!"
+	text "It's a CMeira!"
 	line "Huh?"
 
 	para "Oh, right. It's a"
-	line "Clefairy #"
+	line "CMeira #"
 	cont "Doll."
 	done
 
@@ -180,9 +180,9 @@ PokemonFanClubReceptionistText:
 	cont "comes to #mon…"
 	done
 
-PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
+PokemonFanClubCMeiraGuyCMeiraIsSoAdorableText:
 	text "I love the way"
-	line "Clefairy waggles"
+	line "CMeira waggles"
 
 	para "its finger when"
 	line "it's trying to use"
@@ -191,8 +191,8 @@ PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
 	line "It's so adorable!"
 	done
 
-PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
-	text "I love Clefairy,"
+PokemonFanClubCMeiraGuyMakingDoWithADollIFoundText:
+	text "I love CMeira,"
 	line "but I could never"
 
 	para "catch one. So I'm"
@@ -202,7 +202,7 @@ PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 	line "found."
 	done
 
-PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
+PokemonFanClubCMeiraGuyTakeThisDollBackToGirlText:
 	text "Oh, I see now. The"
 	line "girl who lost this"
 
@@ -215,17 +215,17 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 	line "little girl?"
 
 	para "I'll befriend a"
-	line "real Clefairy on"
+	line "real CMeira on"
 
 	para "my own one day."
 	line "No worries!"
 	done
 
-PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
+PokemonFanClubCMeiraGuyGoingToGetARealCMeiraText:
 	text "You watch. I'm"
 	line "going to get a"
 
-	para "real Clefairy as"
+	para "real CMeira as"
 	line "my friend."
 	done
 

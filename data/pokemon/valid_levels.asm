@@ -32,12 +32,12 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  15 ; CKongara
 	db  16,  35 ; Kongara
 	db  36, 100 ; EKongara
-	db   1,  15 ; Nidoran♂
-	db  16,  35 ; Nidorino
-	db  36, 100 ; Nidoking
-	db   5,  19 ; Clefairy
-	db  20, 100 ; Clefable
-	db   1,  19 ; Vulpix
+	db   1,  15 ; CRika
+	db  16,  35 ; Rika
+	db  36, 100 ; ERika
+	db   5,  19 ; CMeira
+	db  20, 100 ; Meira
+	db   1,  19 ; EMeira
 	db  20, 100 ; Ninetales
 	db   5,  19 ; Jigglypuff
 	db  20, 100 ; Wigglytuff

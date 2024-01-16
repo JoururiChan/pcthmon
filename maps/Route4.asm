@@ -65,7 +65,7 @@ GenericTrainerBird_keeperHank:
 GenericTrainerPicnickerHope:
 	generictrainer PICNICKER, HOPE, EVENT_BEAT_PICNICKER_HOPE, PicnickerHopeSeenText, PicnickerHopeBeatenText
 
-	text "I heard Clefairy"
+	text "I heard CMeira"
 	line "appear at Mt.Moon."
 
 	para "But where could"

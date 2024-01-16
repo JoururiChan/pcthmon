@@ -1,17 +1,17 @@
-	db  70,  62,  67,  56,  55,  55 ; 365 BST
+	db  60, 100,  50,  75,  78,  95 ; 365 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db POISON, POISON ; type
-	db 120 ; catch rate
-	db 117 ; base exp
+	db DARK, FIGHTING ; type
+	db 50 ; catch rate
+	db 151 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F100, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for KONGARA, POISON_POINT, RIVALRY, HUSTLE
+	abilities_for KONGARA, PRESSURE, PRESSURE, STURDY
 	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_MONSTER, EGG_GROUND ; egg groups
+	dn EGG_MONSTER, EGG_INDETERMINATE ; egg groups
 
-	ev_yield 2 HP
+	ev_yield 2 Atk
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, HONE_TOOLS, ICE_BEAM, BLIZZARD, PROTECT, RAIN_DANCE, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, ROCK_SMASH, DOUBLE_TEAM, SLUDGE_BOMB, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, WATER_PULSE, SHADOW_HIT, POISON_JAB, CUT, STRENGTH, BODY_SLAM, CHARM, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, ENDURE, HEADBUTT, SLEEP_TALK, SUCKER_PUNCH, SWAGGER

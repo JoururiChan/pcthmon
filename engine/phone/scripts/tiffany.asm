@@ -67,29 +67,29 @@ TiffanysFamilyMembers:
 
 .Grandma:
 	getstring Phone_GrandmaString, $1
-	sjumpfwd .PoorClefairy
+	sjumpfwd .PoorCMeira
 
 .Grandpa:
 	getstring Phone_GrandpaString, $1
-	sjumpfwd .PoorClefairy
+	sjumpfwd .PoorCMeira
 
 .Mom:
 	getstring Phone_MomString, $1
-	sjumpfwd .PoorClefairy
+	sjumpfwd .PoorCMeira
 
 .Dad:
 	getstring Phone_DadString, $1
-	sjumpfwd .PoorClefairy
+	sjumpfwd .PoorCMeira
 
 .Sister:
 	getstring Phone_SisterString, $1
-	sjumpfwd .PoorClefairy
+	sjumpfwd .PoorCMeira
 
 .Brother:
 	getstring Phone_BrotherString, $1
 	; fallthrough
 
-.PoorClefairy:
+.PoorCMeira:
 	farsjump TiffanyItsAwful
 
 TiffanyHasPinkBow:

@@ -93,7 +93,7 @@ SaffronCityLass1Text_ReturnedMachinePart:
 
 	para "She said she lost"
 	line "her favorite #"
-	cont "Doll--Clefairy."
+	cont "Doll--CMeira."
 	done
 
 SaffronCityPokefanMText:

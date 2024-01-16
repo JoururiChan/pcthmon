@@ -93,7 +93,7 @@ CKongaraEggMoves:
 	db TAKE_DOWN
 	db $ff
 
-NidoranMEggMoves:
+CRikaEggMoves:
 	db AMNESIA
 	db PSYSHOT
 	db DISABLE
@@ -103,7 +103,7 @@ NidoranMEggMoves:
 	db COUNTER
 	db $ff
 
-VulpixPlainEggMoves:
+EMeiraPlainEggMoves:
 	db FLAME_CHARGE
 	db DISABLE
 	db FLARE_BLITZ
@@ -115,7 +115,7 @@ VulpixPlainEggMoves:
 	db ROAR
 	db $ff
 
-VulpixAlolanEggMoves:
+EMeiraAlolanEggMoves:
 	db DISABLE
 	db BLIZZARD
 	db HYPNOSIS
@@ -448,7 +448,7 @@ HorseaEggMoves:
 	db DISABLE
 	db DRAGON_RAGE
 	db DRAGONBREATH
-	db OCTAZOOKA
+	db BLACK_RIPPLE
 	db SPLASH
 	db HAZE
 	db WATER_PULSE
@@ -845,7 +845,7 @@ CorsolaGalarianEggMoves:
 RemoraidEggMoves:
 	db SPLASH
 	db HAZE
-	db OCTAZOOKA
+	db BLACK_RIPPLE
 	db ROCK_BLAST
 	db SCREECH
 	db SUPERSONIC

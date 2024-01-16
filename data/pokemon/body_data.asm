@@ -38,12 +38,12 @@ PokemonBodyData:
 	body_data   4,   70, QUADRUPED,    BLUE   ; CKONGARA
 	body_data   8,  200, QUADRUPED,    BLUE   ; KONGARA
 	body_data  13,  600, BIPEDAL_TAIL, BLUE   ; EKONGARA
-	body_data   5,   90, QUADRUPED,    PURPLE ; NIDORAN_M
-	body_data   9,  195, QUADRUPED,    PURPLE ; NIDORINO
-	body_data  14,  620, BIPEDAL_TAIL, PURPLE ; NIDOKING
-	body_data   6,   75, BIPEDAL_TAIL, PINK   ; CLEFAIRY
-	body_data  13,  400, BIPEDAL_TAIL, PINK   ; CLEFABLE
-	body_data   6,   99, QUADRUPED,    BROWN  ; VULPIX
+	body_data   5,   90, QUADRUPED,    PURPLE ; CRIKA
+	body_data   9,  195, QUADRUPED,    PURPLE ; RIKA
+	body_data  14,  620, BIPEDAL_TAIL, PURPLE ; ERIKA
+	body_data   6,   75, BIPEDAL_TAIL, PINK   ; CMEIRA
+	body_data  13,  400, BIPEDAL_TAIL, PINK   ; MEIRA
+	body_data   6,   99, QUADRUPED,    BROWN  ; EMEIRA
 	body_data  11,  199, QUADRUPED,    YELLOW ; NINETALES
 	body_data   5,   55, BIPEDAL,      PINK   ; JIGGLYPUFF
 	body_data  10,  120, BIPEDAL,      PINK   ; WIGGLYTUFF
@@ -311,7 +311,7 @@ PokemonBodyData:
 	body_data   7,  210, BIPEDAL_TAIL, BROWN  ; CSARIEL (ALOLAN_FORM)
 	body_data   7,  400, BIPEDAL_TAIL, WHITE  ; SARIEL (ALOLAN_FORM)
 	body_data  12,  550, BIPEDAL_TAIL, BLUE   ; ESARIEL (ALOLAN_FORM)
-	body_data   6,   99, QUADRUPED,    WHITE  ; VULPIX (ALOLAN_FORM)
+	body_data   6,   99, QUADRUPED,    WHITE  ; EMEIRA (ALOLAN_FORM)
 	body_data  11,  199, QUADRUPED,    BLUE   ; NINETALES (ALOLAN_FORM)
 	body_data   2,   10, HEAD_BASE,    BROWN  ; DIGLETT (ALOLAN_FORM)
 	body_data   7,  666, MULTIBODY,    BROWN  ; DUGTRIO (ALOLAN_FORM)

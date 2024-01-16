@@ -31,12 +31,12 @@ BitmasksPointers:
 	dw CKongaraBitmasks
 	dw KongaraBitmasks
 	dw EKongaraBitmasks
-	dw NidoranMBitmasks
-	dw NidorinoBitmasks
-	dw NidokingBitmasks
-	dw ClefairyBitmasks
-	dw ClefableBitmasks
-	dw VulpixPlainBitmasks
+	dw CRikaBitmasks
+	dw RikaBitmasks
+	dw ERikaBitmasks
+	dw CMeiraBitmasks
+	dw MeiraBitmasks
+	dw EMeiraPlainBitmasks
 	dw NinetalesPlainBitmasks
 	dw JigglypuffBitmasks
 	dw WigglytuffBitmasks
@@ -367,7 +367,7 @@ BitmasksPointers:
 	dw CSarielAlolanBitmasks
 	dw SarielAlolanBitmasks
 	dw ESarielAlolanBitmasks
-	dw VulpixAlolanBitmasks
+	dw EMeiraAlolanBitmasks
 	dw NinetalesAlolanBitmasks
 	dw DiglettAlolanBitmasks
 	dw DugtrioAlolanBitmasks

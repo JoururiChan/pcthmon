@@ -374,7 +374,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_GUST,              AI_Smart_Gust
 	dbw EFFECT_STOMP,             AI_Smart_Stomp
 	dbw EFFECT_BODY_SLAM,         AI_Smart_Stomp
-	dbw EFFECT_SOLAR_BEAM,        AI_Smart_SolarBeam
+	dbw EFFECT_FLOWER_SHOOT,        AI_Smart_FlowerShoot
 	dbw EFFECT_THUNDER,           AI_Smart_Thunder
 	dbw EFFECT_FLY,               AI_Smart_Fly
 	dbw EFFECT_WHITE_BIRD,             AI_Smart_WhiteBird
@@ -2009,7 +2009,7 @@ AI_Smart_Stomp:
 	dec [hl]
 	ret
 
-AI_Smart_SolarBeam:
+AI_Smart_FlowerShoot:
 ; Discourage if we have Sunny Day and weather isn't sunny.
 	ld a, [wBattleWeather]
 	cp WEATHER_SUN

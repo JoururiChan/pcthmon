@@ -31,7 +31,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_ThunderWave
 	dw BattleAnimFunction_Clamp_Encore
 	dw BattleAnimFunction_Bite
-	dw BattleAnimFunction_SolarBeam
+	dw BattleAnimFunction_FlowerShoot
 	dw BattleAnimFunction_Gust
 	dw BattleAnimFunction_RazorWind
 	dw BattleAnimFunction_Kick
@@ -1524,7 +1524,7 @@ BattleAnimFunction_Bite:
 	ld [hl], $1
 	ret
 
-BattleAnimFunction_SolarBeam:
+BattleAnimFunction_FlowerShoot:
 	call BattleAnim_AnonJumptable
 .anon_dw
 	dw .zero

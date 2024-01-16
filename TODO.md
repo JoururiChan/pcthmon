@@ -61,7 +61,7 @@ Maps need signs, NPCs, trainers (with [dialog](https://docs.google.com/document/
 
 * Connect the Magnet Train track south to Cherrygrove Bay
 * Soul House
-* Lavender Radio Tower (use Reina, DJ Fern, DJ Lily, and a Clefable+Gengar Couple)
+* Lavender Radio Tower (use Reina, DJ Fern, DJ Lily, and a Meira+Gengar Couple)
 * Saffron City Trainer Fan Club
 * Valencia Island (signs and NPCs)
 * Route 49 (wild Tohomon and unique wild moves)

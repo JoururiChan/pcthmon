@@ -311,10 +311,10 @@ _LookEKikuriPosterText::
 	line "cute EKikuri."
 	done
 
-SECTION "_LookClefairyPosterText", ROMX
-_LookClefairyPosterText::
+SECTION "_LookCMeiraPosterText", ROMX
+_LookCMeiraPosterText::
 	text "It's a poster of a"
-	line "cute Clefairy."
+	line "cute CMeira."
 	done
 
 SECTION "_LookJigglypuffPosterText", ROMX

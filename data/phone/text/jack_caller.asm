@@ -75,11 +75,11 @@ JackRolloutTriviaText:
 	line "past normal."
 	done
 
-JackSolarbeamTriviaText:
+JackFlowerShootTriviaText:
 	text "Did you know…?"
 
 	para "If the sunlight is"
-	line "harsh, Solar Beam"
+	line "harsh, Flower Shoot"
 
 	para "doesn't need to be"
 	line "charged up."

@@ -32,12 +32,12 @@ PokedexDataPointerTable:
 	dba CKongaraPokedexEntry
 	dba KongaraPokedexEntry
 	dba EKongaraPokedexEntry
-	dba NidoranMPokedexEntry
-	dba NidorinoPokedexEntry
-	dba NidokingPokedexEntry
-	dba ClefairyPokedexEntry
-	dba ClefablePokedexEntry
-	dba VulpixPlainPokedexEntry
+	dba CRikaPokedexEntry
+	dba RikaPokedexEntry
+	dba ERikaPokedexEntry
+	dba CMeiraPokedexEntry
+	dba MeiraPokedexEntry
+	dba EMeiraPlainPokedexEntry
 	dba NinetalesPlainPokedexEntry
 	dba JigglypuffPokedexEntry
 	dba WigglytuffPokedexEntry
@@ -305,7 +305,7 @@ PokedexDataPointerTable:
 	dba CSarielAlolanPokedexEntry
 	dba SarielAlolanPokedexEntry
 	dba ESarielAlolanPokedexEntry
-	dba VulpixAlolanPokedexEntry
+	dba EMeiraAlolanPokedexEntry
 	dba NinetalesAlolanPokedexEntry
 	dba DiglettAlolanPokedexEntry
 	dba DugtrioAlolanPokedexEntry

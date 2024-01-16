@@ -31,12 +31,12 @@ AnimationExtraPointers:
 	dw CKongaraAnimationExtra
 	dw KongaraAnimationExtra
 	dw EKongaraAnimationExtra
-	dw NidoranMAnimationExtra
-	dw NidorinoAnimationExtra
-	dw NidokingAnimationExtra
-	dw ClefairyAnimationExtra
-	dw ClefableAnimationExtra
-	dw VulpixPlainAnimationExtra
+	dw CRikaAnimationExtra
+	dw RikaAnimationExtra
+	dw ERikaAnimationExtra
+	dw CMeiraAnimationExtra
+	dw MeiraAnimationExtra
+	dw EMeiraPlainAnimationExtra
 	dw NinetalesPlainAnimationExtra
 	dw JigglypuffAnimationExtra
 	dw WigglytuffAnimationExtra
@@ -367,7 +367,7 @@ AnimationExtraPointers:
 	dw CSarielAlolanAnimationExtra
 	dw SarielAlolanAnimationExtra
 	dw ESarielAlolanAnimationExtra
-	dw VulpixAlolanAnimationExtra
+	dw EMeiraAlolanAnimationExtra
 	dw NinetalesAlolanAnimationExtra
 	dw DiglettAlolanAnimationExtra
 	dw DugtrioAlolanAnimationExtra

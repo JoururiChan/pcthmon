@@ -31,12 +31,12 @@ FootprintPointers::
 	dw CKongaraFootprint
 	dw KongaraFootprint
 	dw EKongaraFootprint
-	dw NidoranMFootprint
-	dw NidorinoFootprint
-	dw NidokingFootprint
-	dw ClefairyFootprint
-	dw ClefableFootprint
-	dw VulpixFootprint
+	dw CRikaFootprint
+	dw RikaFootprint
+	dw ERikaFootprint
+	dw CMeiraFootprint
+	dw MeiraFootprint
+	dw EMeiraFootprint
 	dw NinetalesFootprint
 	dw JigglypuffFootprint
 	dw WigglytuffFootprint
@@ -304,7 +304,7 @@ FootprintPointers::
 	dw CSarielFootprint
 	dw SarielFootprint
 	dw ESarielFootprint
-	dw VulpixFootprint
+	dw EMeiraFootprint
 	dw NinetalesFootprint
 	dw DiglettFootprint
 	dw DugtrioFootprint

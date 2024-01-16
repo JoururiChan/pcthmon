@@ -31,12 +31,12 @@ EggMovePointers::
 	dw CKongaraEggMoves       ; CKongara
 	dw NoEggMoves             ; Kongara
 	dw NoEggMoves             ; EKongara
-	dw NidoranMEggMoves       ; NidoranM
-	dw NoEggMoves             ; Nidorino
-	dw NoEggMoves             ; Nidoking
-	dw NoEggMoves             ; Clefairy
-	dw NoEggMoves             ; Clefable
-	dw VulpixPlainEggMoves    ; Vulpix
+	dw CRikaEggMoves       ; CRika
+	dw NoEggMoves             ; Rika
+	dw NoEggMoves             ; ERika
+	dw NoEggMoves             ; CMeira
+	dw NoEggMoves             ; Meira
+	dw EMeiraPlainEggMoves    ; EMeira
 	dw NoEggMoves             ; Ninetales
 	dw NoEggMoves             ; Jigglypuff
 	dw NoEggMoves             ; Wigglytuff
@@ -304,7 +304,7 @@ EggMovePointers::
 	dw NoEggMoves                ; CSariel (Alolan Form)
 	dw SarielAlolanEggMoves   ; Sariel (Alolan Form)
 	dw NoEggMoves                ; ESariel (Alolan Form)
-	dw VulpixAlolanEggMoves      ; Vulpix (Alolan Form)
+	dw EMeiraAlolanEggMoves      ; EMeira (Alolan Form)
 	dw NoEggMoves                ; Ninetales (Alolan Form)
 	dw DiglettAlolanEggMoves     ; Diglett (Alolan Form)
 	dw NoEggMoves                ; Dugtrio (Alolan Form)

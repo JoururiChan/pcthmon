@@ -677,7 +677,7 @@ ConvertMonIndexesTo9Bit:
 	db 0x1a, 2 ; CSARIEL, ALOLAN
 	db 0x1b, 2 ; SARIEL, ALOLAN
 	db 0x1c, 2 ; ESARIEL, ALOLAN
-	db 0x25, 2 ; VULPIX, ALOLAN
+	db 0x25, 2 ; EMEIRA, ALOLAN
 	db 0x26, 2 ; NINETALES, ALOLAN
 	db 0x32, 2 ; DIGLETT, ALOLAN
 	db 0x33, 2 ; DUGTRIO, ALOLAN

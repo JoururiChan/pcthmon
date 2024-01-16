@@ -168,7 +168,7 @@ SpriteHeaders:
 	overworld_sprite SafariOfficerSpriteGFX, STANDING_SPRITE, PAL_OW_GRAY
 	overworld_sprite SwimmingOfficerSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite SwimmingOfficerFSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
-	overworld_sprite ClefairyWalkSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
+	overworld_sprite CMeiraWalkSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite FarfetchDSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite LaprasSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite EeveeSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN

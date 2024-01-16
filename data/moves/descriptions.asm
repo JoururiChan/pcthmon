@@ -76,7 +76,7 @@ MoveDescriptions::
 	dw LeechSeedDescription
 	dw GrowthDescription
 	dw RazorLeafDescription
-	dw SolarBeamDescription
+	dw FlowerShootDescription
 	dw ToxicGasDescription
 	dw StunSporeDescription
 	dw SleepPowderDescription
@@ -190,7 +190,7 @@ MoveDescriptions::
 	dw BellyDrumDescription
 	dw SludgeBombDescription
 	dw MudSlapDescription
-	dw OctazookaDescription
+	dw BlackRippleDescription
 	dw SpikesDescription
 	dw ZapCannonDescription
 	dw ForesightDescription
@@ -492,7 +492,7 @@ MudSlapDescription:
 	next "lowers accuracy."
 	done
 
-OctazookaDescription:
+BlackRippleDescription:
 	text "An attack that may"
 	next "lower accuracy."
 	done
@@ -729,7 +729,7 @@ BladeFlashDescription:
 	next "with at least 1HP."
 	done
 
-SolarBeamDescription:
+FlowerShootDescription:
 	text "1st turn: Prepare"
 	next "2nd turn: Attack"
 	done

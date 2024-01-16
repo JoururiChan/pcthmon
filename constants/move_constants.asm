@@ -81,7 +81,7 @@
 	const LEECH_SEED   ; $49
 	const GROWTH       ; $4a
 	const RAZOR_LEAF   ; $4b
-	const SOLAR_BEAM   ; $4c
+	const FLOWER_SHOOT   ; $4c
 	const TOXIC_GAS ; $4d
 	const STUN_SPORE   ; $4e
 	const SLEEP_POWDER ; $4f
@@ -195,7 +195,7 @@
 	const BELLY_DRUM   ; $bb
 	const SLUDGE_BOMB  ; $bc
 	const MUD_SLAP     ; $bd
-	const OCTAZOOKA    ; $be
+	const BLACK_RIPPLE    ; $be
 	const SPIKES       ; $bf
 	const ZAP_CANNON   ; $c0
 	const FORESIGHT    ; $c1

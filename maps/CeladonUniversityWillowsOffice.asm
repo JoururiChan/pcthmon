@@ -57,7 +57,7 @@ CeladonUniversityWillowsOfficeScientistText:
 	para "Today I saw 42"
 	line "CElis and"
 	cont "37 CMima…"
-	cont "and one Vulpix!"
+	cont "and one EMeira!"
 	done
 
 CeladonUniversityWillowsOfficeBlackboardText:

@@ -10,20 +10,20 @@ MountMoonSquare_MapScriptHeader:
 	warp_event 13,  7, MOUNT_MOON_GIFT_SHOP, 1
 
 	def_coord_events
-	coord_event  7, 11, 0, ClefairyDance
+	coord_event  7, 11, 0, CMeiraDance
 
 	def_bg_events
 	bg_event  7,  7, BGEVENT_ITEM + MOON_STONE, EVENT_MOUNT_MOON_SQUARE_HIDDEN_MOON_STONE
 	bg_event 17,  7, BGEVENT_JUMPTEXT, DontLitterSignText
 
 	def_object_events
-	object_event  6,  6, SPRITE_CLEFAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_SQUARE_CLEFAIRY
-	object_event  7,  6, SPRITE_CLEFAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_SQUARE_CLEFAIRY
+	object_event  6,  6, SPRITE_CMEIRA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_SQUARE_CMEIRA
+	object_event  7,  6, SPRITE_CMEIRA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_SQUARE_CMEIRA
 	object_event  7,  7, SPRITE_N64, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, PAL_NPC_COPY_BG_GRAY, OBJECTTYPE_COMMAND, jumpstd, smashrock, 0, EVENT_MT_MOON_SQUARE_ROCK
 
 	object_const_def
-	const MOUNTMOONSQUARE_CLEFAIRY1
-	const MOUNTMOONSQUARE_CLEFAIRY2
+	const MOUNTMOONSQUARE_CMEIRA1
+	const MOUNTMOONSQUARE_CMEIRA2
 	const MOUNTMOONSQUARE_ROCK
 
 MountMoonSquareDisappearMoonStoneCallback:
@@ -34,64 +34,64 @@ MountMoonSquareDisappearRockCallback:
 	disappear MOUNTMOONSQUARE_ROCK
 	endcallback
 
-ClefairyDance:
-	checkflag ENGINE_MT_MOON_SQUARE_CLEFAIRY
+CMeiraDance:
+	checkflag ENGINE_MT_MOON_SQUARE_CMEIRA
 	iftrue DoNothingScript
 	readvar VAR_WEEKDAY
 	ifnotequal MONDAY, DoNothingScript
 	checktime 1 << NITE
 	iffalse DoNothingScript
-	appear MOUNTMOONSQUARE_CLEFAIRY1
-	appear MOUNTMOONSQUARE_CLEFAIRY2
+	appear MOUNTMOONSQUARE_CMEIRA1
+	appear MOUNTMOONSQUARE_CMEIRA2
 	applyonemovement PLAYER, step_up
 	pause 15
 	appear MOUNTMOONSQUARE_ROCK
-	turnobject MOUNTMOONSQUARE_CLEFAIRY1, RIGHT
-	cry CLEFAIRY
+	turnobject MOUNTMOONSQUARE_CMEIRA1, RIGHT
+	cry CMEIRA
 	waitsfx
 	pause 30
-	follow MOUNTMOONSQUARE_CLEFAIRY1, MOUNTMOONSQUARE_CLEFAIRY2
-	cry CLEFAIRY
-	applymovement MOUNTMOONSQUARE_CLEFAIRY1, ClefairyDanceStep1
-	cry CLEFAIRY
-	applyonemovement MOUNTMOONSQUARE_CLEFAIRY1, slow_jump_step_right
-	cry CLEFAIRY
-	applymovement MOUNTMOONSQUARE_CLEFAIRY1, ClefairyDanceStep3
-	cry CLEFAIRY
-	applyonemovement MOUNTMOONSQUARE_CLEFAIRY1, slow_jump_step_left
-	cry CLEFAIRY
-	applymovement MOUNTMOONSQUARE_CLEFAIRY1, ClefairyDanceStep1
+	follow MOUNTMOONSQUARE_CMEIRA1, MOUNTMOONSQUARE_CMEIRA2
+	cry CMEIRA
+	applymovement MOUNTMOONSQUARE_CMEIRA1, CMeiraDanceStep1
+	cry CMEIRA
+	applyonemovement MOUNTMOONSQUARE_CMEIRA1, slow_jump_step_right
+	cry CMEIRA
+	applymovement MOUNTMOONSQUARE_CMEIRA1, CMeiraDanceStep3
+	cry CMEIRA
+	applyonemovement MOUNTMOONSQUARE_CMEIRA1, slow_jump_step_left
+	cry CMEIRA
+	applymovement MOUNTMOONSQUARE_CMEIRA1, CMeiraDanceStep1
 	stopfollow
-	applyonemovement MOUNTMOONSQUARE_CLEFAIRY2, slow_step_down
-	follow MOUNTMOONSQUARE_CLEFAIRY1, MOUNTMOONSQUARE_CLEFAIRY2
-	applyonemovement MOUNTMOONSQUARE_CLEFAIRY1, slow_step_right
+	applyonemovement MOUNTMOONSQUARE_CMEIRA2, slow_step_down
+	follow MOUNTMOONSQUARE_CMEIRA1, MOUNTMOONSQUARE_CMEIRA2
+	applyonemovement MOUNTMOONSQUARE_CMEIRA1, slow_step_right
 	stopfollow
-	turnobject MOUNTMOONSQUARE_CLEFAIRY1, DOWN
+	turnobject MOUNTMOONSQUARE_CMEIRA1, DOWN
 	pause 10
-	showemote EMOTE_SHOCK, MOUNTMOONSQUARE_CLEFAIRY1, 15
-	turnobject MOUNTMOONSQUARE_CLEFAIRY1, DOWN
-	cry CLEFAIRY
+	showemote EMOTE_SHOCK, MOUNTMOONSQUARE_CMEIRA1, 15
+	turnobject MOUNTMOONSQUARE_CMEIRA1, DOWN
+	cry CMEIRA
 	pause 15
-	follow MOUNTMOONSQUARE_CLEFAIRY1, MOUNTMOONSQUARE_CLEFAIRY2
-	applymovement MOUNTMOONSQUARE_CLEFAIRY1, ClefairyFleeMovement
-	disappear MOUNTMOONSQUARE_CLEFAIRY1
-	disappear MOUNTMOONSQUARE_CLEFAIRY2
+	follow MOUNTMOONSQUARE_CMEIRA1, MOUNTMOONSQUARE_CMEIRA2
+	applymovement MOUNTMOONSQUARE_CMEIRA1, CMeiraFleeMovement
+	disappear MOUNTMOONSQUARE_CMEIRA1
+	disappear MOUNTMOONSQUARE_CMEIRA2
 	stopfollow
 	clearevent EVENT_MOUNT_MOON_SQUARE_HIDDEN_MOON_STONE
-	setflag ENGINE_MT_MOON_SQUARE_CLEFAIRY
+	setflag ENGINE_MT_MOON_SQUARE_CMEIRA
 	end
 
-ClefairyDanceStep1:
+CMeiraDanceStep1:
 	slow_step_down
 	slow_jump_step_down
 	step_end
 
-ClefairyDanceStep3:
+CMeiraDanceStep3:
 	slow_step_up
 	slow_jump_step_up
 	step_end
 
-ClefairyFleeMovement:
+CMeiraFleeMovement:
 	step_right
 	step_right
 	step_right

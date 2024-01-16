@@ -32,8 +32,8 @@ AlphabeticalPokedexOrder:
 	dp MARISA
 	dp CYOUMU
 	dp CHINCHOU
-	dp CLEFABLE
-	dp CLEFAIRY
+	dp MEIRA
+	dp CMEIRA
 	dp CLEFFA
 	dp CLODSIRE
 	dp CLOYSTER
@@ -165,12 +165,12 @@ AlphabeticalPokedexOrder:
 	dp MUNCHLAX
 	dp MURKROW
 	dp NATU
-	dp NIDOKING
+	dp ERIKA
 	dp EKONGARA
 	dp CKONGARA
-	dp NIDORAN_M
+	dp CRIKA
 	dp KONGARA
-	dp NIDORINO
+	dp RIKA
 	dp NINETALES
 	dp NOCTOWL
 	dp OCTILLERY
@@ -275,7 +275,7 @@ AlphabeticalPokedexOrder:
 	dp VICTREEBEL
 	dp VILEPLUME
 	dp VOLTORB
-	dp VULPIX
+	dp EMEIRA
 	dp SAKUYA
 	dp WEAVILE
 	dp OGYOKU

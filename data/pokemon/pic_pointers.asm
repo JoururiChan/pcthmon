@@ -35,12 +35,12 @@ PokemonPicPointers::
 	pics CKongara
 	pics Kongara
 	pics EKongara
-	pics NidoranM
-	pics Nidorino
-	pics Nidoking
-	pics Clefairy
-	pics Clefable
-	pics VulpixPlain
+	pics CRika
+	pics Rika
+	pics ERika
+	pics CMeira
+	pics Meira
+	pics EMeiraPlain
 	pics NinetalesPlain
 	pics Jigglypuff
 	pics Wigglytuff
@@ -371,7 +371,7 @@ PokemonPicPointers::
 	pics CSarielAlolan
 	pics SarielAlolan
 	pics ESarielAlolan
-	pics VulpixAlolan
+	pics EMeiraAlolan
 	pics NinetalesAlolan
 	pics DiglettAlolan
 	pics DugtrioAlolan

@@ -1,17 +1,17 @@
-	db  50,  75,  85,  40,  20,  30 ; 300 BST
+	db  86,  98,  82, 105, 120, 105 ; 300 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GROUND, GROUND ; type
-	db 255 ; catch rate
-	db 93 ; base exp
-	db NO_ITEM, QUICK_CLAW ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db FAIRY, FLYING ; type
+	db 50 ; catch rate
+	db 190 ; base exp
+	db ORAN_BERRY, LIGHT_BALL ; held items
+	dn GENDER_F100, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for SARIEL, SAND_VEIL, SAND_VEIL, SAND_RUSH
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for SARIEL, PRESSURE, PRESSURE, HAKUREI_MIKO
+	db GROWTH_SLOW ; growth rate
+	dn EGG_FAIRY, EGG_FLYING ; egg groups
 
-	ev_yield 1 Def
+	ev_yield 2 SAt
 
 	; tm/hm learnset
 	tmhm DYNAMICPUNCH, CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, HONE_TOOLS, PROTECT, SAFEGUARD, BULLDOZE, IRON_TAIL, EARTHQUAKE, RETURN, DIG, ROCK_SMASH, DOUBLE_TEAM, SANDSTORM, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROCK_SLIDE, X_SCISSOR, SHADOW_HIT, POISON_JAB, GYRO_BALL, SWORDS_DANCE, CUT, STRENGTH, SAKUYA_WORLD, BODY_SLAM, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, EARTH_POWER, ENDURE, HEADBUTT, KNOCK_OFF, ROLLOUT, SEISMIC_TOSS, SLEEP_TALK, SWAGGER

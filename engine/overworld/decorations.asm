@@ -256,7 +256,7 @@ FindOwnedPosters:
 	db DECO_TOWN_MAP ; 10
 	db DECO_DIPLOMA ; 11
 	db DECO_EKIKURI_POSTER ; 12
-	db DECO_CLEFAIRY_POSTER ; 13
+	db DECO_CMEIRA_POSTER ; 13
 	db DECO_MARILL_POSTER ; 14
 	db -1
 
@@ -293,7 +293,7 @@ FindOwnedOrnaments:
 	db DECO_EKIKURI_DOLL ; 1e
 	db DECO_CSARIEL_DOLL ; 1f
 	db DECO_SURF_EKIKURI_DOLL ; 20
-	db DECO_CLEFAIRY_DOLL ; 21
+	db DECO_CMEIRA_DOLL ; 21
 	db DECO_JIGGLYPUFF_DOLL ; 22
 	db DECO_CREIMU_DOLL ; 23
 	db DECO_CMARISA_DOLL ; 24
@@ -317,7 +317,7 @@ FindOwnedOrnaments:
 	db DECO_MARILL_DOLL ; 36
 	db DECO_TEDDIURSA_DOLL ; 37
 	db DECO_MEOWTH_DOLL ; 38
-	db DECO_VULPIX_DOLL ; 39
+	db DECO_EMEIRA_DOLL ; 39
 	db DECO_GROWLITHE_DOLL ; 3a
 	db DECO_EEVEE_DOLL ; 3b
 	db DECO_GOLD_TROPHY_DOLL ; 3c
@@ -978,7 +978,7 @@ DecorationDesc_PosterPointers:
 	dbw DECO_TOWN_MAP, DecorationDesc_TownMapPoster
 	dbw DECO_DIPLOMA, DecorationDesc_Diploma
 	dbw DECO_EKIKURI_POSTER, DecorationDesc_EKikuriPoster
-	dbw DECO_CLEFAIRY_POSTER, DecorationDesc_ClefairyPoster
+	dbw DECO_CMEIRA_POSTER, DecorationDesc_CMeiraPoster
 	dbw DECO_MARILL_POSTER, DecorationDesc_MarillPoster
 	db -1
 
@@ -1001,8 +1001,8 @@ DecorationDesc_Diploma:
 DecorationDesc_EKikuriPoster:
 	farjumptext _LookEKikuriPosterText
 
-DecorationDesc_ClefairyPoster:
-	farjumptext _LookClefairyPosterText
+DecorationDesc_CMeiraPoster:
+	farjumptext _LookCMeiraPosterText
 
 DecorationDesc_MarillPoster:
 	farjumptext _LookJigglypuffPosterText

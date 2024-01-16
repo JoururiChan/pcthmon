@@ -20,7 +20,7 @@ TiffanyDefeatedMonText:
 	text " a while"
 	line "ago…"
 
-	para "My Clefairy came"
+	para "My CMeira came"
 	line "close to fainting!"
 
 	para "Isn't that awful?"
@@ -40,7 +40,7 @@ TiffanyLostAMonText:
 	text " a while"
 	line "ago…"
 
-	para "My Clefairy got"
+	para "My CMeira got"
 	line "frightened, so we"
 
 	para "ran away as fast"
@@ -48,7 +48,7 @@ TiffanyLostAMonText:
 
 	para "I just can't help"
 	line "feeling protective"
-	cont "of my Clefairy."
+	cont "of my CMeira."
 	done
 
 TiffanyBattleRematchText:
@@ -59,7 +59,7 @@ TiffanyBattleRematchText:
 	line "battle?"
 
 	para "I'll be waiting"
-	line "with Clefairy on"
+	line "with CMeira on"
 	cont ""
 	text_ram wStringBuffer5
 	text "."
@@ -70,7 +70,7 @@ TiffanyItsAwfulText:
 	text "!"
 
 	para "It's awful."
-	line "My Clefairy…"
+	line "My CMeira…"
 
 	para "Huh? <PLAYER>?"
 
@@ -90,7 +90,7 @@ TiffanyFoundItemText:
 	line "Bows at Goldenrod"
 
 	para "Dept.Store for my"
-	line "Clefairy."
+	line "CMeira."
 
 	para "I got too many, so"
 	line "I'll give you one!"
@@ -103,14 +103,14 @@ TiffanyFoundItemText:
 
 TiffanyNoItemText:
 	text "I love dressing up"
-	line "my Clefairy!"
+	line "my CMeira!"
 	done
 
 TiffanyAsleepText:
 	text "What's wrong?"
 	line "Can't you visit?"
 
-	para "Clefairy got tired"
+	para "CMeira got tired"
 	line "and fell asleep."
 
 	para "I'm not sure if I"
@@ -128,7 +128,7 @@ TiffanyHurryText:
 
 	para "I'm sure this will"
 	line "look good on your"
-	cont "Clefairy."
+	cont "CMeira."
 
 	para "Please hurry to"
 	line ""

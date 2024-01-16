@@ -730,10 +730,10 @@ DayCare_GenerateEgg:
 	; random Nidoran offspring
 	call Random
 	cp 1 + 50 percent
-	; a = carry ? CKONGARA : NIDORAN_M
+	; a = carry ? CKONGARA : CRIKA
 	sbc a
-	and CKONGARA - NIDORAN_M
-	add NIDORAN_M
+	and CKONGARA - CRIKA
+	add CRIKA
 	ld [wCurPartySpecies], a
 	ld [wCurSpecies], a
 

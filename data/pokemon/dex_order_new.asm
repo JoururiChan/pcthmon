@@ -42,8 +42,8 @@ NewPokedexOrder:
 	dp GOLBAT
 	dp CROBAT
 	dp CLEFFA
-	dp CLEFAIRY
-	dp CLEFABLE
+	dp CMEIRA
+	dp MEIRA
 	dp IGGLYBUFF
 	dp JIGGLYPUFF
 	dp WIGGLYTUFF
@@ -104,9 +104,9 @@ NewPokedexOrder:
 	dp CKONGARA
 	dp KONGARA
 	dp EKONGARA
-	dp NIDORAN_M
-	dp NIDORINO
-	dp NIDOKING
+	dp CRIKA
+	dp RIKA
+	dp ERIKA
 	dp YANMA
 	dp YANMEGA
 	dp SUNKERN
@@ -135,7 +135,7 @@ NewPokedexOrder:
 	dp AMBIPOM
 	dp SNUBBULL
 	dp GRANBULL
-	dp VULPIX
+	dp EMEIRA
 	dp NINETALES
 	dp GROWLITHE
 	dp ARCANINE

@@ -367,7 +367,7 @@
 	def_grass_wildmons NATIONAL_PARK
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 12, NIDORAN_M
+	wildmon 12, CRIKA
 	wildmon 13, CKONGARA
 	wildmon 14, LEDYBA
 	wildmon 14, CREISEN
@@ -376,7 +376,7 @@
 	wildmon 12, CREIMU
 	; day
 	wildmon 12, CKONGARA
-	wildmon 13, NIDORAN_M
+	wildmon 13, CRIKA
 	wildmon 14, SUNKERN
 	wildmon 14, CREISEN
 	wildmon 10, CGYOKU
@@ -817,19 +817,19 @@
 	; morn
 	wildmon 30, SWINUB
 	wildmon 32, ZUBAT
-	wildmon 32, VULPIX, ALOLAN_FORM
+	wildmon 32, EMEIRA, ALOLAN_FORM
 	wildmon 32, SWINUB
 	wildmon 34, GOLBAT
 	wildmon 32, GOLBAT
-	wildmon 34, VULPIX, ALOLAN_FORM
+	wildmon 34, EMEIRA, ALOLAN_FORM
 	; day
 	wildmon 30, SWINUB
 	wildmon 32, ZUBAT
-	wildmon 32, VULPIX, ALOLAN_FORM
+	wildmon 32, EMEIRA, ALOLAN_FORM
 	wildmon 32, SWINUB
 	wildmon 34, GOLBAT
 	wildmon 32, GOLBAT
-	wildmon 34, VULPIX, ALOLAN_FORM
+	wildmon 34, EMEIRA, ALOLAN_FORM
 	; nite
 	wildmon 30, DELIBIRD
 	wildmon 31, ZUBAT
@@ -845,18 +845,18 @@
 	; morn
 	wildmon 32, SWINUB
 	wildmon 33, ZUBAT
-	wildmon 33, VULPIX, ALOLAN_FORM
+	wildmon 33, EMEIRA, ALOLAN_FORM
 	wildmon 34, SWINUB
 	wildmon 35, GOLBAT
-	wildmon 35, VULPIX, ALOLAN_FORM
+	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 32, JYNX
 	; day
 	wildmon 32, SWINUB
 	wildmon 33, ZUBAT
-	wildmon 33, VULPIX, ALOLAN_FORM
+	wildmon 33, EMEIRA, ALOLAN_FORM
 	wildmon 34, SWINUB
 	wildmon 35, GOLBAT
-	wildmon 35, VULPIX, ALOLAN_FORM
+	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 32, JYNX
 	; nite
 	wildmon 32, DELIBIRD
@@ -873,17 +873,17 @@
 	; morn
 	wildmon 33, SWINUB
 	wildmon 34, ZUBAT
-	wildmon 34, VULPIX, ALOLAN_FORM
+	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
-	wildmon 35, VULPIX, ALOLAN_FORM
+	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 32, JYNX
 	wildmon 34, JYNX
 	; day
 	wildmon 33, SWINUB
 	wildmon 34, ZUBAT
-	wildmon 34, VULPIX, ALOLAN_FORM
+	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
-	wildmon 35, VULPIX, ALOLAN_FORM
+	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 32, JYNX
 	wildmon 34, JYNX
 	; nite
@@ -901,17 +901,17 @@
 	; morn
 	wildmon 33, SWINUB
 	wildmon 34, ZUBAT
-	wildmon 34, VULPIX, ALOLAN_FORM
+	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
-	wildmon 35, VULPIX, ALOLAN_FORM
+	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 32, JYNX
 	wildmon 34, JYNX
 	; day
 	wildmon 33, SWINUB
 	wildmon 34, ZUBAT
-	wildmon 34, VULPIX, ALOLAN_FORM
+	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
-	wildmon 35, VULPIX, ALOLAN_FORM
+	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 32, JYNX
 	wildmon 34, JYNX
 	; nite
@@ -929,7 +929,7 @@
 	; morn
 	wildmon 34, SWINUB
 	wildmon 35, ZUBAT
-	wildmon 35, VULPIX, ALOLAN_FORM
+	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
 	wildmon 32, JYNX
 	wildmon 34, JYNX
@@ -937,7 +937,7 @@
 	; day
 	wildmon 34, SWINUB
 	wildmon 35, ZUBAT
-	wildmon 35, VULPIX, ALOLAN_FORM
+	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
 	wildmon 32, JYNX
 	wildmon 34, JYNX
@@ -1518,14 +1518,14 @@
 	wildmon 13, SNUBBULL
 	wildmon 14, CKIKURI
 	wildmon 14, CKONGARA
-	wildmon 14, NIDORAN_M
+	wildmon 14, CRIKA
 	wildmon 12, JIGGLYPUFF
 	wildmon 10, DITTO
 	wildmon 13, YANMA
 	; day
 	wildmon 13, SNUBBULL
 	wildmon 14, CKIKURI
-	wildmon 14, NIDORAN_M
+	wildmon 14, CRIKA
 	wildmon 14, CKONGARA
 	wildmon 12, JIGGLYPUFF
 	wildmon 10, DITTO
@@ -1562,7 +1562,7 @@
 	wildmon 5, SPINARAK
 	wildmon 5, HOOTHOOT
 	wildmon 6, BELLSPROUT
-	wildmon 7, VULPIX
+	wildmon 7, EMEIRA
 	wildmon 6, HOOTHOOT
 	wildmon 7, GASTLY
 	wildmon 7, GASTLY
@@ -1842,7 +1842,7 @@
 	wildmon LEVEL_FROM_BADGES + 1, HOUNDOUR
 	wildmon LEVEL_FROM_BADGES + 0, TAUROS
 	wildmon LEVEL_FROM_BADGES - 2, GLOOM
-	wildmon LEVEL_FROM_BADGES - 2, VULPIX
+	wildmon LEVEL_FROM_BADGES - 2, EMEIRA
 	wildmon LEVEL_FROM_BADGES - 3, NOCTOWL
 	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
 	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
@@ -1926,7 +1926,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, CMIMA, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES - 2, HOOTHOOT
 	wildmon LEVEL_FROM_BADGES - 0, GASTLY
-	wildmon LEVEL_FROM_BADGES - 3, VULPIX
+	wildmon LEVEL_FROM_BADGES - 3, EMEIRA
 	wildmon LEVEL_FROM_BADGES - 1, NOCTOWL
 	wildmon LEVEL_FROM_BADGES - 3, CELIS, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES - 1, CELIS, ALOLAN_FORM

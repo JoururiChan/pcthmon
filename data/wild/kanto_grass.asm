@@ -36,24 +36,24 @@
 	wildmon 56, ESARIEL
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
-	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 58, CMEIRA
+	wildmon 60, MEIRA
 	; day
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
 	wildmon 56, ESARIEL
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
-	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 58, CMEIRA
+	wildmon 60, MEIRA
 	; nite
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
-	wildmon 56, CLEFAIRY
+	wildmon 56, CMEIRA
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
-	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 58, CMEIRA
+	wildmon 60, MEIRA
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MOON_B1F
@@ -64,24 +64,24 @@
 	wildmon 56, ESARIEL
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
-	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 58, CMEIRA
+	wildmon 60, MEIRA
 	; day
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
 	wildmon 56, ESARIEL
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
-	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 58, CMEIRA
+	wildmon 60, MEIRA
 	; nite
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
-	wildmon 56, CLEFAIRY
+	wildmon 56, CMEIRA
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
-	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 58, CMEIRA
+	wildmon 60, MEIRA
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MOON_B2F
@@ -92,24 +92,24 @@
 	wildmon 56, ESARIEL
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
-	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 58, CMEIRA
+	wildmon 60, MEIRA
 	; day
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
 	wildmon 56, ESARIEL
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
-	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 58, CMEIRA
+	wildmon 60, MEIRA
 	; nite
 	wildmon 55, GOLBAT
 	wildmon 56, GRAVELER
-	wildmon 56, CLEFAIRY
+	wildmon 56, CMEIRA
 	wildmon 56, PARASECT
 	wildmon 57, GRAVELER
-	wildmon 58, CLEFAIRY
-	wildmon 60, CLEFABLE
+	wildmon 58, CMEIRA
+	wildmon 60, MEIRA
 	end_grass_wildmons
 
 	def_grass_wildmons ROCK_TUNNEL_1F
@@ -444,8 +444,8 @@
 	wildmon 54, CELIS
 	wildmon 55, GOLBAT
 	wildmon 55, CELIS
-	wildmon 57, CLEFAIRY
-	wildmon 55, CLEFABLE
+	wildmon 57, CMEIRA
+	wildmon 55, MEIRA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_4
@@ -472,8 +472,8 @@
 	wildmon 56, CELIS
 	wildmon 57, GOLBAT
 	wildmon 57, CELIS
-	wildmon 58, CLEFAIRY
-	wildmon 59, CLEFABLE
+	wildmon 58, CMEIRA
+	wildmon 59, MEIRA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_5
@@ -538,7 +538,7 @@
 	wildmon 49, CELIS
 	wildmon 49, EELIS
 	wildmon 51, GRANBULL
-	wildmon 54, VULPIX
+	wildmon 54, EMEIRA
 	wildmon 54, JIGGLYPUFF
 	wildmon 52, CELIS
 	wildmon 51, WIGGLYTUFF
@@ -546,7 +546,7 @@
 	wildmon 49, CELIS
 	wildmon 49, EELIS
 	wildmon 51, GRANBULL
-	wildmon 54, VULPIX
+	wildmon 54, EMEIRA
 	wildmon 54, JIGGLYPUFF
 	wildmon 52, CELIS
 	wildmon 51, WIGGLYTUFF
@@ -554,7 +554,7 @@
 	wildmon 49, PERSIAN
 	wildmon 49, MURKROW
 	wildmon 51, HOUNDOUR
-	wildmon 54, VULPIX
+	wildmon 54, EMEIRA
 	wildmon 54, JIGGLYPUFF
 	wildmon 52, PERSIAN
 	wildmon 51, WIGGLYTUFF
@@ -565,7 +565,7 @@
 	; morn
 	wildmon 48, CMIMA
 	wildmon 51, KIKURI, KIKURI_KANTO_FORM
-	wildmon 53, VULPIX
+	wildmon 53, EMEIRA
 	wildmon 53, GROWLITHE
 	wildmon 53, JIGGLYPUFF
 	wildmon 50, KADABRA
@@ -573,7 +573,7 @@
 	; day
 	wildmon 48, CMIMA
 	wildmon 51, KIKURI, KIKURI_KANTO_FORM
-	wildmon 53, VULPIX
+	wildmon 53, EMEIRA
 	wildmon 53, GROWLITHE
 	wildmon 53, JIGGLYPUFF
 	wildmon 50, KADABRA
@@ -583,7 +583,7 @@
 	wildmon 51, NOCTOWL
 	wildmon 53, KADABRA
 	wildmon 53, HAUNTER
-	wildmon 53, VULPIX
+	wildmon 53, EMEIRA
 	wildmon 50, KADABRA
 	wildmon 50, KADABRA
 	end_grass_wildmons
@@ -595,7 +595,7 @@
 	wildmon 47, EELIS
 	wildmon 49, PRIMEAPE
 	wildmon 50, KONGARA
-	wildmon 50, NIDORINO
+	wildmon 50, RIKA
 	wildmon 52, MAROWAK
 	wildmon 52, PRIMEAPE
 	; day
@@ -603,7 +603,7 @@
 	wildmon 47, EELIS
 	wildmon 49, PRIMEAPE
 	wildmon 50, KONGARA
-	wildmon 50, NIDORINO
+	wildmon 50, RIKA
 	wildmon 52, MAROWAK
 	wildmon 52, PRIMEAPE
 	; nite
@@ -675,7 +675,7 @@
 	def_grass_wildmons ROUTE_12_SOUTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 50, NIDORINO
+	wildmon 50, RIKA
 	wildmon 50, KONGARA
 	wildmon 50, CMIMA
 	wildmon 51, WEEPINBELL
@@ -683,7 +683,7 @@
 	wildmon 52, FARFETCH_D
 	wildmon 54, FARFETCH_D
 	; day
-	wildmon 50, NIDORINO
+	wildmon 50, RIKA
 	wildmon 50, KONGARA
 	wildmon 50, CMIMA
 	wildmon 51, WEEPINBELL
@@ -703,7 +703,7 @@
 	def_grass_wildmons ROUTE_13_EAST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 50, NIDORINO
+	wildmon 50, RIKA
 	wildmon 50, KONGARA
 	wildmon 51, CMIMA
 	wildmon 52, WEEPINBELL
@@ -711,7 +711,7 @@
 	wildmon 53, SUNFLORA
 	wildmon 55, SUNFLORA
 	; day
-	wildmon 50, NIDORINO
+	wildmon 50, RIKA
 	wildmon 50, KONGARA
 	wildmon 51, CMIMA
 	wildmon 52, WEEPINBELL
@@ -731,7 +731,7 @@
 	def_grass_wildmons ROUTE_14
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 52, NIDORINO
+	wildmon 52, RIKA
 	wildmon 52, KONGARA
 	wildmon 53, CMIMA
 	wildmon 51, WEEPINBELL
@@ -739,7 +739,7 @@
 	wildmon 54, SUNFLORA
 	wildmon 56, SUNFLORA
 	; day
-	wildmon 52, NIDORINO
+	wildmon 52, RIKA
 	wildmon 52, KONGARA
 	wildmon 53, CMIMA
 	wildmon 51, WEEPINBELL
@@ -787,7 +787,7 @@
 	def_grass_wildmons ROUTE_15
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 52, NIDORINO
+	wildmon 52, RIKA
 	wildmon 52, KONGARA
 	wildmon 54, CMIMA
 	wildmon 54, WEEPINBELL
@@ -795,7 +795,7 @@
 	wildmon 55, SUNFLORA
 	wildmon 57, SUNFLORA
 	; day
-	wildmon 52, NIDORINO
+	wildmon 52, RIKA
 	wildmon 52, KONGARA
 	wildmon 54, CMIMA
 	wildmon 54, WEEPINBELL
@@ -985,7 +985,7 @@
 	; morn
 	wildmon 56, CELIS
 	wildmon 56, EELIS
-	wildmon 58, NIDORINO
+	wildmon 58, RIKA
 	wildmon 58, KONGARA
 	wildmon 59, PONYTA
 	wildmon 59, PONYTA
@@ -993,7 +993,7 @@
 	; day
 	wildmon 56, CELIS
 	wildmon 56, EELIS
-	wildmon 58, NIDORINO
+	wildmon 58, RIKA
 	wildmon 58, KONGARA
 	wildmon 59, PONYTA
 	wildmon 59, PONYTA
@@ -1001,7 +1001,7 @@
 	; nite
 	wildmon 56, CELIS
 	wildmon 56, POLIWHIRL
-	wildmon 58, NIDORINO
+	wildmon 58, RIKA
 	wildmon 58, KONGARA
 	wildmon 59, CELIS
 	wildmon 59, CELIS
@@ -1490,7 +1490,7 @@
 	wildmon 49, GASTLY
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
-	wildmon 49, VULPIX
+	wildmon 49, EMEIRA
 	wildmon 51, MAROWAK
 	wildmon 52, NINETALES
 	wildmon 52, MISMAGIUS
@@ -1498,7 +1498,7 @@
 	wildmon 49, GASTLY
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
-	wildmon 49, VULPIX
+	wildmon 49, EMEIRA
 	wildmon 51, MAROWAK
 	wildmon 52, NINETALES
 	wildmon 52, MISMAGIUS
@@ -1506,7 +1506,7 @@
 	wildmon 49, GASTLY
 	wildmon 50, HAUNTER
 	wildmon 50, MISDREAVUS
-	wildmon 49, VULPIX
+	wildmon 49, EMEIRA
 	wildmon 51, MAROWAK
 	wildmon 52, NINETALES
 	wildmon 52, MISMAGIUS
@@ -1545,25 +1545,25 @@
 	; morn
 	wildmon 55, PARAS
 	wildmon 57, KONGARA
-	wildmon 57, NIDORINO
+	wildmon 57, RIKA
 	wildmon 59, TAUROS, PALDEAN_FORM
-	wildmon 60, NIDOKING
+	wildmon 60, ERIKA
 	wildmon 60, EKONGARA
 	wildmon 50, PARASECT
 	; day
 	wildmon 55, PARAS
 	wildmon 57, KONGARA
-	wildmon 57, NIDORINO
+	wildmon 57, RIKA
 	wildmon 59, TAUROS, PALDEAN_FORM
-	wildmon 60, NIDOKING
+	wildmon 60, ERIKA
 	wildmon 60, EKONGARA
 	wildmon 50, PARASECT
 	; nite
 	wildmon 55, PARAS
 	wildmon 57, KONGARA
-	wildmon 57, NIDORINO
+	wildmon 57, RIKA
 	wildmon 59, TAUROS, PALDEAN_FORM
-	wildmon 60, NIDOKING
+	wildmon 60, ERIKA
 	wildmon 60, EKONGARA
 	wildmon 50, PARASECT
 	end_grass_wildmons
@@ -1601,7 +1601,7 @@
 	; morn
 	wildmon 55, VENONAT
 	wildmon 58, KONGARA
-	wildmon 58, NIDORINO
+	wildmon 58, RIKA
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
 	wildmon 59, VENOMOTH
 	wildmon 60, KANGASKHAN
@@ -1609,14 +1609,14 @@
 	; day
 	wildmon 55, VENONAT
 	wildmon 58, KONGARA
-	wildmon 58, NIDORINO
+	wildmon 58, RIKA
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
 	wildmon 59, VENOMOTH
 	wildmon 60, KANGASKHAN
 	wildmon 60, MAROWAK
 	; nite
 	wildmon 55, VENONAT
-	wildmon 58, NIDORINO
+	wildmon 58, RIKA
 	wildmon 58, KONGARA
 	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
 	wildmon 59, VENOMOTH

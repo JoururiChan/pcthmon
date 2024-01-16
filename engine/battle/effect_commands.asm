@@ -551,15 +551,15 @@ CheckPowerHerb:
 
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
-	cp EFFECT_SOLAR_BEAM
-	jr nz, .no_solar_beam
+	cp EFFECT_FLOWER_SHOOT
+	jr nz, .no_flower_shoot
 
 	; check for sun
 	call GetWeatherAfterUserUmbrella
 	cp WEATHER_SUN
 	jr z, .chargeup
 
-.no_solar_beam
+.no_flower_shoot
 	predef GetUserItemAfterUnnerve
 	ld a, b
 	cp HELD_POWER_HERB
@@ -568,7 +568,7 @@ CheckPowerHerb:
 	; Raise sub if we're using Solar Beam
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
-	cp EFFECT_SOLAR_BEAM
+	cp EFFECT_FLOWER_SHOOT
 	ret nz
 	jmp BattleCommand_raisesub
 
@@ -1080,7 +1080,7 @@ BattleCommand_hastarget:
 	call GetBattleVar
 	cp EFFECT_FLY
 	jr z, .chargeup_move
-	cp EFFECT_SOLAR_BEAM
+	cp EFFECT_FLOWER_SHOOT
 	jr nz, .regular
 .chargeup_move
 	; We should still allow chargeup even if user is fainted
@@ -5786,8 +5786,8 @@ BattleCommand_charge:
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
 
-	ld hl, .SolarBeam
-	cp SOLAR_BEAM
+	ld hl, .FlowerShoot
+	cp FLOWER_SHOOT
 	ret z
 
 	ld hl, .Fly
@@ -5798,7 +5798,7 @@ BattleCommand_charge:
 	cp DIG
 	ret
 
-.SolarBeam:
+.FlowerShoot:
 ; 'took in sunlight!'
 	text_far _BattleTookSunlightText
 	text_end

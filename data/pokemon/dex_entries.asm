@@ -312,8 +312,8 @@ EKongaraPokedexEntry::
 	next "protection from"
 	next "any attack.@"
 
-SECTION "NidoranMPokedexEntry", ROMX
-NidoranMPokedexEntry::
+SECTION "CRikaPokedexEntry", ROMX
+CRikaPokedexEntry::
 	db "Poison Pin@"
 	db   "It constantly"
 	next "moves its large"
@@ -322,8 +322,8 @@ NidoranMPokedexEntry::
 	next "order to detect"
 	next "danger right away.@"
 
-SECTION "NidorinoPokedexEntry", ROMX
-NidorinoPokedexEntry::
+SECTION "RikaPokedexEntry", ROMX
+RikaPokedexEntry::
 	db "Poison Pin@"
 	db   "It is easily"
 	next "agitated and uses"
@@ -332,8 +332,8 @@ NidorinoPokedexEntry::
 	next "it notices an"
 	next "attacker.@"
 
-SECTION "NidokingPokedexEntry", ROMX
-NidokingPokedexEntry::
+SECTION "ERikaPokedexEntry", ROMX
+ERikaPokedexEntry::
 	db "Drill@"
 	db   "It uses its thick"
 	next "arms, legs and"
@@ -342,8 +342,8 @@ NidokingPokedexEntry::
 	next "combat is its"
 	next "specialty.@"
 
-SECTION "ClefairyPokedexEntry", ROMX
-ClefairyPokedexEntry::
+SECTION "CMeiraPokedexEntry", ROMX
+CMeiraPokedexEntry::
 	db "Fairy@"
 	db   "Though rarely"
 	next "seen, it becomes"
@@ -352,8 +352,8 @@ ClefairyPokedexEntry::
 	next "on the night of a"
 	next "full moon.@"
 
-SECTION "ClefablePokedexEntry", ROMX
-ClefablePokedexEntry::
+SECTION "MeiraPokedexEntry", ROMX
+MeiraPokedexEntry::
 	db "Fairy@"
 	db   "Said to live in"
 	next "quiet, remote"
@@ -362,8 +362,8 @@ ClefablePokedexEntry::
 	next "a strong aversion"
 	next "to being seen.@"
 
-SECTION "VulpixPlainPokedexEntry", ROMX
-VulpixPlainPokedexEntry::
+SECTION "EMeiraPlainPokedexEntry", ROMX
+EMeiraPlainPokedexEntry::
 	db "Fox@"
 	db   "As its body grows"
 	next "larger, its six"
@@ -2965,8 +2965,8 @@ ESarielAlolanPokedexEntry::
 	next "#mon glisten in"
 	next "the light of dawn.@"
 
-SECTION "VulpixAlolanPokedexEntry", ROMX
-VulpixAlolanPokedexEntry::
+SECTION "EMeiraAlolanPokedexEntry", ROMX
+EMeiraAlolanPokedexEntry::
 	db "Fox@"
 	db   "If you observe its"
 	next "curly hairs thr-"

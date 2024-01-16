@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, ASPEAR_BERRY ; held items
 	dn GENDER_F75, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for VULPIX_ALOLAN, SNOW_CLOAK, SNOW_CLOAK, SNOW_WARNING
+	abilities_for EMEIRA_ALOLAN, SNOW_CLOAK, SNOW_CLOAK, SNOW_WARNING
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

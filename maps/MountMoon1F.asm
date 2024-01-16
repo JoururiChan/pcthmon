@@ -134,7 +134,7 @@ GenericTrainerLassIris:
 
 	text "I come here every"
 	line "day just to catch"
-	cont "a Clefairy, but"
+	cont "a CMeira, but"
 
 	para "I haven't seen a"
 	line "single one…"
@@ -291,7 +291,7 @@ BugManiacRobbyBeatenText:
 
 LassIrisSeenText:
 	text "Have you seen a"
-	line "Clefairy?"
+	line "CMeira?"
 
 	para "They're so cute!"
 	done

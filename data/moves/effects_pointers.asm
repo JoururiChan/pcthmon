@@ -133,7 +133,7 @@ MoveEffectsPointers:
 	dw FutureSight
 	dw Gust
 	dw Stomp
-	dw SolarBeam
+	dw FlowerShoot
 	dw Thunder
 	dw Teleport
 	dw Fly

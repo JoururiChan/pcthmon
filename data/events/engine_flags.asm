@@ -152,7 +152,7 @@ EngineFlags:
 	engine_flag wDailyFlags4, 6 ; unused
 	engine_flag wDailyFlags4, 7 ; unused
 
-	engine_flag wWeeklyFlags, WEEKLYFLAGS_MT_MOON_SQUARE_CLEFAIRY_F
+	engine_flag wWeeklyFlags, WEEKLYFLAGS_MT_MOON_SQUARE_CMEIRA_F
 	engine_flag wWeeklyFlags, WEEKLYFLAGS_UNION_CAVE_LAPRAS_F
 	engine_flag wWeeklyFlags, WEEKLYFLAGS_GOLDENROD_UNDERGROUND_GOT_HAIRCUT_F
 	engine_flag wWeeklyFlags, WEEKLYFLAGS_GOLDENROD_MALL_5F_HAPPINESS_EVENT_F

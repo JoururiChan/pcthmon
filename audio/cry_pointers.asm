@@ -2,8 +2,8 @@ Cries:
 ; entries correspond to CRY_* constants (see constants/cry_constants.asm)
 	table_width 2, Cries
 	farbank "Cries"
-	fardw Cry_Nidoran_M
-	fardw Cry_Nidoran_F
+	fardw Cry_CRika
+	fardw Cry_CKongara
 	fardw Cry_Slowpoke
 	fardw Cry_Kangaskhan
 	fardw Cry_CMarisa
@@ -27,7 +27,7 @@ Cries:
 	fardw Cry_CGyoku
 	fardw Cry_CKikuri
 	fardw Cry_Shellder
-	fardw Cry_Clefairy
+	fardw Cry_CMeira
 	fardw Cry_Venonat
 	fardw Cry_Lapras
 	fardw Cry_MGyoku
@@ -38,7 +38,7 @@ Cries:
 	fardw Cry_Psyduck
 	fardw Cry_EMima
 	fardw Cry_Vileplume
-	fardw Cry_Vulpix
+	fardw Cry_EMeira
 	fardw Cry_Weepinbell
 	fardw Cry_Marill
 	fardw Cry_Spinarak

@@ -12,7 +12,7 @@ Loss: Argh! Screw you, leatherhead!
 Team: Hitmontop, Hitmonlee, Hitmonchan
 After: Leather club's two blocks down. 
 
-Winston: Hello there! My name is Winston Cheston Wambler! Show me some Electric-type love and I'll give you something great! (gifts a shiny raichu if spoken to with an all electric team)
+Winston: Hello there! My name is Winston Cheston Wambler! Show me some Electric-type love and I'll give you something great! (gifts a shiny csariel if spoken to with an all electric team)
 Condition Fulfilled: Shocking! Now go, trainer, and take this! With it, you may soar to even greaterheights, and zap to the extreme! 
 
 Raoh: Hmph. I'll only recognize your strength if you beat Kiyo, the Karate King. I hear he trains even now in the depths of Mt. Mortar, in Johto.
