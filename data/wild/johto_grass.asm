@@ -709,7 +709,7 @@
 	wildmon 22, GEODUDE
 	wildmon 20, CUBONE
 	wildmon 25, CELIS
-	wildmon 24, EMIMA
+	wildmon 24, CMIMA
 	; day
 	wildmon 21, ZUBAT
 	wildmon 22, MACHOP
@@ -717,7 +717,7 @@
 	wildmon 22, GEODUDE
 	wildmon 22, CUBONE
 	wildmon 25, CELIS
-	wildmon 24, EMIMA
+	wildmon 24, CMIMA
 	; nite
 	wildmon 21, ZUBAT
 	wildmon 22, MARILL
@@ -725,7 +725,7 @@
 	wildmon 22, GEODUDE
 	wildmon 20, CUBONE
 	wildmon 25, CELIS
-	wildmon 24, EMIMA
+	wildmon 24, CMIMA
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_INSIDE
@@ -1406,7 +1406,7 @@
 	wildmon 4, LEDYBA
 	wildmon 4, CGYOKU
 	wildmon 5, BELLSPROUT
-	wildmon 5, CMAGAN
+	wildmon 5, CRIKA
 	wildmon 4, CSANAE
 	wildmon 5, HOPPIP
 	wildmon 5, HOPPIP
@@ -1414,7 +1414,7 @@
 	wildmon 4, CMAGAN
 	wildmon 4, CGYOKU
 	wildmon 5, BELLSPROUT
-	wildmon 5, CMAGAN
+	wildmon 5, CRIKA
 	wildmon 4, CREIMU
 	wildmon 5, HOPPIP
 	wildmon 5, HOPPIP
@@ -1627,7 +1627,7 @@
 	def_grass_wildmons ROUTE_39
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 16, EMIMA
+	wildmon 16, CMIMA
 	wildmon 16, CELIS
 	wildmon 16, MAGNEMITE
 	wildmon 16, CMIMA
@@ -1635,7 +1635,7 @@
 	wildmon 15, TAUROS
 	wildmon 15, TAUROS
 	; day
-	wildmon 16, EMIMA
+	wildmon 16, CMIMA
 	wildmon 16, CELIS
 	wildmon 16, MAGNEMITE
 	wildmon 16, CMIMA
@@ -1768,7 +1768,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 2, GEODUDE
-	wildmon 2, ELIS
+	wildmon 2, CELIS
 	wildmon 3, GEODUDE
 	wildmon 2, PHANPY
 	wildmon 2, CMIMA
@@ -1776,7 +1776,7 @@
 	wildmon 3, CMIMA
 	; day
 	wildmon 2, GEODUDE
-	wildmon 2, ELIS
+	wildmon 2, CELIS
 	wildmon 3, GEODUDE
 	wildmon 2, JIGGLYPUFF
 	wildmon 2, CMIMA
@@ -1784,7 +1784,7 @@
 	wildmon 3, CMIMA
 	; nite
 	wildmon 2, GEODUDE
-	wildmon 2, CMIMA
+	wildmon 2, CRIKA
 	wildmon 3, GEODUDE
 	wildmon 2, CMIMA
 	wildmon 2, CMIMA
@@ -1926,7 +1926,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, CMIMA, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES - 2, HOOTHOOT
 	wildmon LEVEL_FROM_BADGES - 0, GASTLY
-	wildmon LEVEL_FROM_BADGES - 3, EMEIRA
+	wildmon LEVEL_FROM_BADGES - 3, CMEIRA
 	wildmon LEVEL_FROM_BADGES - 1, NOCTOWL
 	wildmon LEVEL_FROM_BADGES - 3, CELIS, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES - 1, CELIS, ALOLAN_FORM

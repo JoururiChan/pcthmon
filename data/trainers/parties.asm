@@ -139,14 +139,14 @@ FalknerGroup:
 		db NO_ITEM
 		ev_spread 32 HP
 		db TACKLE, GROWL, SEAL_NEEDLE, NO_MOVE
-	dbp 11, HOOTHOOT
+	dbp 11, CELIS
 		db NO_ITEM
 		ev_spread 32 HP
-		db TACKLE, HYPNOSIS, PECK, PSYSHOT
-	dbp 13, CELIS
+		db ASTONISH, GUST, SAFEGUARD, PURSUIT
+	dbp 13, CSARIEL
 		db PECHA_BERRY
 		ev_spread 32 HP
-		db ASTONISH, GUST, PURSUIT, WHITE_BIRD
+		db PSYSHOT, GUST, HEALINGLIGHT, WHITE_BIRD
 	db -1 ; end
 
 	; FALKNER
@@ -238,7 +238,7 @@ WhitneyGroup:
 	dbp 19, CMEIRA, FEMALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 96 HP
-		db METRONOME, DISARM_VOICE, DOUBLE_SLAP, ATTRACT
+		db BLADE_FLASH, SUCKER_PUNCH, FORESIGHT, ATTRACT
 	dbp 20, TEDDIURSA, FEMALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 32 HP, 32 Atk, 32 Spe
@@ -285,10 +285,10 @@ MortyGroup:
 	db "Morty@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp 24, HAUNTER, MALE
-		db NO_ITEM, ABIL_HAUNTER_LEVITATE | NAT_NEUTRAL
+	dbp 24, CMIMA, MALE
+		db NO_ITEM, ABIL_CMIMA_PRESSURE | NAT_NEUTRAL
 		ev_spread 64 Atk, 64 Spe
-		db HYPNOSIS, ICE_PUNCH, NIGHT_SHADE, SHADOW_HIT
+		db PSYSHOT, DESTINY_BOND, FEINT_ATTACK, SHADOW_HIT
 if DEF(FAITHFUL)
 	dbp 24, HAUNTER, MALE
 		db NO_ITEM, ABIL_HAUNTER_LEVITATE | NAT_NEUTRAL
@@ -2530,7 +2530,7 @@ CamperGroup:
 	db "Todd@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 14, PSYDUCK
+	dbp 14, CSANAE
 	db -1 ; end
 
 	; CAMPER
@@ -2539,7 +2539,7 @@ CamperGroup:
 	; party
 	dbp 17, GEODUDE
 	dbp 17, GEODUDE
-	dbp 23, PSYDUCK
+	dbp 23, SANAE
 	db -1 ; end
 
 	; CAMPER
@@ -2548,7 +2548,7 @@ CamperGroup:
 	; party
 	dbp 23, GEODUDE
 	dbp 23, GEODUDE
-	dbp 26, PSYDUCK
+	dbp 26, SANAE
 	db -1 ; end
 
 	; CAMPER
@@ -2558,7 +2558,7 @@ CamperGroup:
 	dbp 30, GRAVELER
 	dbp 30, GRAVELER
 	dbp 30, SLUGMA
-	dbp 32, PSYDUCK
+	dbp 32, CSANAE
 	db -1 ; end
 
 	; CAMPER
@@ -2571,7 +2571,7 @@ CamperGroup:
 		db DEFENSE_CURL, ROLLOUT, MAGNITUDE, ROCK_SLIDE
 	dbp 36, MAGCARGO
 		db ROCK_THROW, DEFENSE_CURL, CALM_MIND, METEOR_FALL
-	dbp 34, GOLDUCK
+	dbp 34, SANAE
 		db DISABLE, PSYCHIC_M, SURF, CALM_MIND
 	db -1 ; end
 
@@ -2587,7 +2587,7 @@ CamperGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 11, DIGLETT
-	dbp 11, ZUBAT
+	dbp 11, CSARIEL
 	dbp 15, DIGLETT
 	db -1 ; end
 
@@ -2626,7 +2626,7 @@ CamperGroup:
 	db "Ted@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, MANKEY
+	dbp 18, CKONGARA
 	db -1 ; end
 
 	; CAMPER
@@ -2659,7 +2659,7 @@ CamperGroup:
 	db "Quentin@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 30, EELIS
+	dbp 30, ELIS
 	dbp 30, PRIMEAPE
 	dbp 30, TAUROS
 	db -1 ; end
@@ -2744,8 +2744,8 @@ PicnickerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 19, WEEPINBELL
-	dbp 19, RIKA
-	dbp 21, EKONGARA
+	dbp 19, CELIS
+	dbp 21, CKONGARA
 	db -1 ; end
 
 	; PICNICKER
@@ -2753,8 +2753,8 @@ PicnickerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 24, WEEPINBELL
-	dbp 26, RIKA
-	dbp 26, EKONGARA
+	dbp 26, ELIS
+	dbp 26, CKONGARA
 	db -1 ; end
 
 	; PICNICKER
@@ -2885,7 +2885,7 @@ endc
 	db "Kim@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, EMEIRA
+	dbp 17, CMEIRA
 	db -1 ; end
 
 	; PICNICKER
@@ -3248,7 +3248,7 @@ FisherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 9, POLIWAG
-	dbp 9, POLIWAG
+	dbp 9, CSANAE
 	db -1 ; end
 
 	; FISHER
@@ -3539,7 +3539,7 @@ BirdKeeperGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 18, CELIS
-	dbp 20, ELIS
+	dbp 20, CELIS
 	dbp 18, CELIS
 	db -1 ; end
 
@@ -3581,7 +3581,7 @@ BirdKeeperGroup:
 	; party
 	dbp 7, CREIMU
 	dbp 8, CREIMU
-	dbp 10, ELIS
+	dbp 10, CELIS
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3719,7 +3719,7 @@ HikerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 12, GEODUDE
-	dbp 12, MACHOP
+	dbp 12, CKONGARA
 	db -1 ; end
 
 	; HIKER
@@ -3727,7 +3727,7 @@ HikerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 16, GEODUDE
-	dbp 18, MACHOKE
+	dbp 18, CKONGARA
 	db -1 ; end
 
 	; HIKER
@@ -3736,7 +3736,7 @@ HikerGroup:
 	; party
 	dbp 25, GRAVELER
 	dbp 27, GRAVELER
-	dbp 29, MACHOKE
+	dbp 29, CKONGARA
 	db -1 ; end
 
 	; HIKER
@@ -3745,7 +3745,7 @@ HikerGroup:
 	; party
 	dbp 30, GRAVELER
 	dbp 30, GRAVELER
-	dbp 32, MACHOKE
+	dbp 32, KONGARA
 	db -1 ; end
 
 	; HIKER
@@ -3810,7 +3810,7 @@ HikerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 23, GEODUDE
-	dbp 25, MACHOP
+	dbp 25, CKONGARA
 	db -1 ; end
 
 	; HIKER
@@ -4454,7 +4454,7 @@ PokefanMGroup:
 	; party
 	dbp 13, SNUBBULL
 		db ORAN_BERRY
-	dbp 13, MAREEP
+	dbp 13, CSARIEL
 		db NO_ITEM
 	db -1 ; end
 
@@ -4562,7 +4562,7 @@ PokefanFGroup:
 	db "Jaime@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 16, CELIS
+	dbp 16, CRIKA
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4603,7 +4603,7 @@ OfficerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 15, GROWLITHE
-	dbp 15, MACHOP
+	dbp 15, CMEIRA
 	db -1 ; end
 
 
@@ -4729,8 +4729,8 @@ PokemaniacGroup:
 	db "Shane@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, KONGARA
-	dbp 20, RIKA
+	dbp 20, CKONGARA
+	dbp 20, CRIKA
 	db -1 ; end
 
 	; POKEMANIAC
@@ -4744,7 +4744,7 @@ PokemaniacGroup:
 	db "Ron@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 30, ERIKA
+	dbp 30, RIKA
 	db -1 ; end
 
 	; POKEMANIAC
@@ -4851,7 +4851,7 @@ SuperNerdGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 13, CKIKURI
-	dbp 14, PORYGON
+	dbp 14, CSARIEL
 	db -1 ; end
 
 	; SUPER_NERD
@@ -5067,8 +5067,8 @@ endc
 	db "Cathy@"
 	db TRAINERTYPE_MOVES
 	; party
-	dbp 18, SNUBBULL
-		db SCARY_FACE, CHARM, BITE, LICK
+	dbp 18, CRIKA
+		db BUBBLE_BEAM, SMOKESCREEN, THUNDERSHOCK, BLACK_RIPPLE
 	db -1 ; end
 
 	; LASS
@@ -5296,7 +5296,7 @@ BeautyGroup:
 	db "Callie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 16, MEIRA
+	dbp 16, CMEIRA
 	dbp 16, WIGGLYTUFF
 	db -1 ; end
 
@@ -5304,7 +5304,7 @@ BeautyGroup:
 	db "Cassandra@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 16, MEIRA
+	dbp 16, CMEIRA
 	dbp 16, WIGGLYTUFF
 	db -1 ; end
 
@@ -5592,7 +5592,7 @@ FirebreatherGroup:
 	db "Ray@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 11, EMEIRA
+	dbp 11, CMEIRA
 	db -1 ; end
 
 	; FIREBREATHER
@@ -5957,7 +5957,7 @@ SchoolgirlGroup:
 	db "Molly@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 7, TEDDIURSA
+	dbp 7, CRIKA
 		db "Teddy@"
 	dbp 6, PHANPY
 		db "@"
@@ -6162,7 +6162,7 @@ HexManiacGroup:
 	db "Tamara@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 16, GASTLY
+	dbp 16, CMIMA
 	dbp 18, MISDREAVUS
 	db -1 ; end
 
@@ -6273,7 +6273,7 @@ SageGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 7, BELLSPROUT
-	dbp 7, GASTLY
+	dbp 7, CYOUMU
 	db -1 ; end
 
 	; SAGE
@@ -6281,7 +6281,7 @@ SageGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 22, HAUNTER
-	dbp 21, EMEIRA
+	dbp 21, CYOUMU
 	db -1 ; end
 
 	; SAGE
@@ -6308,7 +6308,7 @@ SageGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 6, BELLSPROUT
-	dbp 6, HOOTHOOT
+	dbp 6, CYOUMU
 	db -1 ; end
 
 
@@ -6453,7 +6453,7 @@ ElderGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 7, HOOTHOOT
-	dbp 7, GASTLY
+	dbp 7, CYOUMU
 	dbp 10, BELLSPROUT
 	db -1 ; end
 
@@ -6544,11 +6544,11 @@ CoupleGroup:
 	db "Gail & Eli@"
 	db TRAINERTYPE_PERSONALITY
 	; party
-	dbp 13, SARIEL, MALE
+	dbp 13, CSARIEL, MALE
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 15, MARILL, MALE
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp 15, EKIKURI, FEMALE
+	dbp 15, CKIKURI, FEMALE
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 13, POLIWAG, FEMALE
 		db ABILITY_1 | NAT_NEUTRAL
@@ -6558,11 +6558,11 @@ CoupleGroup:
 	db "Gail & Eli@"
 	db TRAINERTYPE_PERSONALITY
 	; party
-	dbp 15, EKIKURI, FEMALE
+	dbp 15, CKIKURI, FEMALE
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 13, POLIWAG, FEMALE
 		db ABILITY_1 | NAT_NEUTRAL
-	dbp 13, SARIEL, MALE
+	dbp 13, CSARIEL, MALE
 		db ABILITY_1 | NAT_NEUTRAL
 	dbp 15, MARILL, MALE
 		db ABILITY_1 | NAT_NEUTRAL
@@ -6865,7 +6865,7 @@ BreederGroup:
 	; party
 	dbp LEVEL_FROM_BADGES + 2, PICHU
 		db EVIOLITE
-	dbp LEVEL_FROM_BADGES + 3, EKIKURI
+	dbp LEVEL_FROM_BADGES + 3, CKIKURI
 		db LIGHT_BALL
 	dbp LEVEL_FROM_BADGES + 4, CSARIEL
 		db DESTINY_KNOT
@@ -6966,7 +6966,7 @@ SailorGroup:
 	db "Huey@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, POLIWAG
+	dbp 18, CRIKA
 	dbp 20, POLIWHIRL
 	db -1 ; end
 
@@ -7373,7 +7373,7 @@ SwimmerFGroup:
 	db "Elaine@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 21, STARYU
+	dbp 21, SANAE
 	db -1 ; end
 
 	; SWIMMERF
@@ -8020,7 +8020,7 @@ BlackbeltGroup:
 	db "Lung@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 23, MANKEY
+	dbp 23, CMEIRA
 	dbp 23, MANKEY
 	dbp 25, PRIMEAPE
 	db -1 ; end
@@ -9807,7 +9807,7 @@ ProtonGroup:
 		ev_spread 32 Spe
 	dbp 12, QWILFISH
 		ev_spread 32 Spe
-	dbp 14, KOFFING
+	dbp 14, CMAGAN
 		ev_spread 32 Spe
 	db -1 ; end
 
@@ -9957,7 +9957,7 @@ GiovanniGroup:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
 	dbp 64, ERIKA, MALE
-		db LIFE_ORB, ABIL_ERIKA_SHEER_FORCE | NAT_SPE_UP_ATK_DOWN
+		db LIFE_ORB, ABIL_ERIKA_STURDY | NAT_SPE_UP_ATK_DOWN
 		db SLUDGE_BOMB, EARTH_POWER, ICE_BEAM, METEOR_FALL
 	dbp 62, DUGTRIO, MALE
 		db CHOICE_BAND, ABIL_DUGTRIO_ARENA_TRAP | NAT_SPE_UP_SATK_DOWN
@@ -9981,7 +9981,7 @@ else
 endc
 		db ROCK_SLIDE, EARTHQUAKE, AVALANCHE, SWORDS_DANCE
 	dbp 64, EKONGARA, FEMALE
-		db LIFE_ORB, ABIL_EKONGARA_SHEER_FORCE | NAT_SPE_UP_DEF_DOWN
+		db LIFE_ORB, ABIL_EKONGARA_STURDY | NAT_SPE_UP_DEF_DOWN
 		db SLUDGE_BOMB, EARTH_POWER, STONE_EDGE, SCULPTURE
 	db -1 ; end
 
@@ -10013,7 +10013,7 @@ endc
 		db WHITE_HERB, ABIL_ESAKUYA_CONCENTRATE | NAT_SDEF_UP_SATK_DOWN
 		db WATERFALL, IRON_HEAD, SCULPTURE, SHELL_SMASH
 	dbp 82, ERIKA, MALE
-		db LIFE_ORB, ABIL_ERIKA_SHEER_FORCE | NAT_SPE_UP_SATK_DOWN
+		db LIFE_ORB, ABIL_ERIKA_SNIPER | NAT_SPE_UP_SATK_DOWN
 		db POISON_JAB, EARTHQUAKE, ICE_PUNCH, THUNDERPUNCH
 	db -1 ; end
 
