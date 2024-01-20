@@ -383,7 +383,7 @@ ConvertMonIndexesTo9Bit:
 	getfilebyte #1
 	writebyte #zero
 	jumpz #1, .unown_loop_skip
-	add #1, 0x121 ; NUM_SPECIES + unown form - 2 (wPokedexCaught is 1-indexed, first variant Unown is form 2)
+	add #1, 0x121 ; NUM_SPECIES + unown form - 2 (wTohodexCaught is 1-indexed, first variant Unown is form 2)
 	pushpos
 	ifgt #1, 0x122, .unown_loop_cont
 	set #1, 0xc5 ; special case for form A, since it is not a variant
@@ -544,7 +544,7 @@ ConvertMonIndexesTo9Bit:
 	poppos
 
 .not_magikarp
-	; Galarian form indexes shift from 2 to 3, and Pokedex flags need to be set
+	; Galarian form indexes shift from 2 to 3, and Tohodex flags need to be set
 	set #address, #r1
 	seekfwd #length
 .form_loop

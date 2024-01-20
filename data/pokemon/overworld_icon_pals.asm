@@ -7,40 +7,40 @@ OverworldMonIconColors::
 	iconpal RED, ORANGE ; CREIMU
 	iconpal RED, ORANGE ; REIMU
 	iconpal RED, ORANGE ; EREIMU
-	iconpal ORANGE, PINK ; CMARISA
-	iconpal RED, PINK ; MARISA
-	iconpal ORANGE, BLACK ; EMARISA
-	iconpal AZURE, TEAL ; CSAKUYA
-	iconpal BLUE, TEAL ; SAKUYA
-	iconpal BLUE, TEAL ; ESAKUYA
-	iconpal GREEN, PINK ; CGYOKU
-	iconpal GREEN, ORANGE ; MGYOKU
-	iconpal BLUE, PINK ; FGYOKU
-	iconpal BROWN, PINK ; OGYOKU
-	iconpal BROWN, GREEN ; CMAGAN
-	iconpal BROWN, TEAL ; MAGAN
-	iconpal BROWN, RED ; EMAGAN
-	iconpal BROWN, RED ; CMIMA
-	iconpal BROWN, RED ; MIMA
-	iconpal PURPLE, GRAY ; EMIMA
-	iconpal BROWN, RED ; CELIS
-	iconpal BROWN, ORANGE ; ELIS
-	iconpal BROWN, PINK ; EELIS
-	iconpal PURPLE, BROWN ; CKIKURI
-	iconpal PURPLE, BROWN ; KIKURI
-	iconpal RED, AZURE ; EKIKURI
-	iconpal ORANGE, AZURE ; CSARIEL
-	iconpal BROWN, TEAL ; SARIEL
-	iconpal BROWN, RED ; ESARIEL
-	iconpal TEAL, PURPLE ; CKONGARA
-	iconpal TEAL, PURPLE ; KONGARA
-	iconpal TEAL, PURPLE ; EKONGARA
-	iconpal PURPLE, TEAL ; CRIKA
-	iconpal PURPLE, TEAL ; RIKA
-	iconpal PURPLE, TEAL ; ERIKA
-	iconpal PINK, RED ; CMEIRA
-	iconpal PINK, RED ; MEIRA
-	iconpal RED, ORANGE ; EMEIRA
+	iconpal YELLOW, BLACK ; CMARISA
+	iconpal YELLOW, BLACK ; MARISA
+	iconpal YELLOW, BLACK ; EMARISA
+	iconpal BLUE, GRAY ; CSAKUYA
+	iconpal BLUE, GRAY ; SAKUYA
+	iconpal BLUE, GRAY ; ESAKUYA
+	iconpal BLUE, RED ; CGYOKU
+	iconpal BLUE, WHITE ; MGYOKU
+	iconpal BLUE, RED ; FGYOKU
+	iconpal RED, WHITE ; OGYOKU
+	iconpal YELLOW, PURPLE ; CMAGAN
+	iconpal YELLOW, PURPLE ; MAGAN
+	iconpal YELLOW, PURPLE ; EMAGAN
+	iconpal GREEN, BLUE ; CMIMA
+	iconpal GREEN, BLUE ; MIMA
+	iconpal GREEN, BLUE ; EMIMA
+	iconpal PURPLE, RED ; CELIS
+	iconpal PURPLE, RED ; ELIS
+	iconpal PURPLE, RED ; EELIS
+	iconpal BROWN, PURPLE ; CKIKURI
+	iconpal BROWN, PURPLE ; KIKURI
+	iconpal BROWN, PURPLE ; EKIKURI
+	iconpal WHITE, BLUE ; CSARIEL
+	iconpal WHITE, BLUE ; SARIEL
+	iconpal WHITE, BLUE ; ESARIEL
+	iconpal RED, BLACK ; CKONGARA
+	iconpal RED, BLACK ; KONGARA
+	iconpal RED, BLACK ; EKONGARA
+	iconpal RED, WHITE ; CRIKA
+	iconpal RED, WHITE ; RIKA
+	iconpal PURPLE, BLACK ; ERIKA
+	iconpal RED, WHITE ; CMEIRA
+	iconpal RED, WHITE ; MEIRA
+	iconpal RED, WHITE ; EMEIRA
 	iconpal RED, GRAY ; NINETALES
 	iconpal PINK, RED ; JIGGLYPUFF
 	iconpal PINK, RED ; WIGGLYTUFF
@@ -155,15 +155,15 @@ OverworldMonIconColors::
 	iconpal ORANGE, BLUE ; DRAGONITE
 	iconpal PURPLE, GREEN ; MEWTWO
 	iconpal PINK, AZURE ; MEW
-	iconpal GREEN, RED ; CYOUMU
-	iconpal GREEN, RED ; YOUMU
-	iconpal GREEN, RED ; EYOUMU
-	iconpal RED, PINK ; CREISEN
-	iconpal RED, PINK ; REISEN
-	iconpal RED, PINK ; EREISEN
-	iconpal AZURE, TEAL ; CSANAE
-	iconpal AZURE, TEAL ; SANAE
-	iconpal AZURE, TEAL ; ESANAE
+	iconpal GREEN, WHITE ; CYOUMU
+	iconpal GREEN, WHITE ; YOUMU
+	iconpal GREEN, WHITE ; EYOUMU
+	iconpal PURPLE, PINK ; CREISEN
+	iconpal PURPLE, PINK ; REISEN
+	iconpal PURPLE, PINK ; EREISEN
+	iconpal AZURE, GREEN ; CSANAE
+	iconpal AZURE, GREEN ; SANAE
+	iconpal AZURE, GREEN ; ESANAE
 	iconpal BROWN, PURPLE ; SENTRET
 	iconpal BROWN, RED ; FURRET
 	iconpal BROWN, RED ; HOOTHOOT

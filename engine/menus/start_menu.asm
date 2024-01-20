@@ -154,7 +154,7 @@ StartMenu::
 	dw .Items
 
 .Items:
-	dw StartMenu_Pokedex,  .PokedexString
+	dw StartMenu_Tohodex,  .TohodexString
 	dw StartMenu_Pokemon,  .PartyString
 	dw StartMenu_Pack,     .PackString
 	dw StartMenu_Status,   .StatusString
@@ -164,7 +164,7 @@ StartMenu::
 	dw StartMenu_Pokegear, .PokegearString
 	dw StartMenu_Quit,     .QuitString
 
-.PokedexString:  db "#dex@"
+.TohodexString:  db "#dex@"
 .PartyString:    db "#mon@"
 .PackString:     db "Bag@"
 .StatusString:   db "<PLAYER>@"
@@ -338,12 +338,12 @@ StartMenu_Status:
 	xor a
 	ret
 
-StartMenu_Pokedex:
+StartMenu_Tohodex:
 	ld a, [wPartyCount]
 	and a
 	jr z, .empty
 	call FadeToMenu
-	farcall Pokedex
+	farcall Tohodex
 	call CloseSubmenu
 .empty
 	xor a

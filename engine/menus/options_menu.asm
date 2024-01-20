@@ -124,7 +124,7 @@ GetOptionPointer:
 	dw Options_Done
 
 	dw Options_ClockFormat
-	dw Options_PokedexUnits
+	dw Options_TohodexUnits
 	dw Options_TextAutoscroll
 	dw Options_TurningSpeed
 	dw Options_Typeface
@@ -390,7 +390,7 @@ Options_ClockFormat:
 .TwentyFour:
 	db "24-hour@"
 
-Options_PokedexUnits:
+Options_TohodexUnits:
 	ld hl, wOptions2
 	ldh a, [hJoyPressed]
 	and D_LEFT | D_RIGHT

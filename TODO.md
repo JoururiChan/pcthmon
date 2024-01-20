@@ -66,7 +66,7 @@ Maps need signs, NPCs, trainers (with [dialog](https://docs.google.com/document/
 * Valencia Island (signs and NPCs)
 * Route 49 (wild Tohomon and unique wild moves)
 * Safari Zone rest houses (NPCs and maybe trainers)
-* Reference the Pokéathlon Dome with workers/engineers inside the Route 35 gate and Route 35 Coast
+* Reference the Tohoathlon Dome with workers/engineers inside the Route 35 gate and Route 35 Coast
 * Goldenrod Museum
 * Violet Outskirts with haunted house (EVENT_SAW_HAUNTED_ROOM)
 
@@ -158,8 +158,8 @@ Some of these may never be added; they're just suggestions.
 * Medals for achievements
 * Take photos with your team against backdrops
 * Something like Habitat Lists or DexNav via the Town Map
-* Something like Poké Radar or Pokéwalker
-* Rarely wild Tohomon know an egg move (could be a bonus for DexNav or Poké Radar use)
+* Something like Toho Radar or Tohowalker
+* Rarely wild Tohomon know an egg move (could be a bonus for DexNav or Toho Radar use)
 * Use the [Japanese GS Ball event quiz](https://www.pokecommunity.com/showthread.php?p=9739072#post9739072) ([original](http://www.geocities.co.jp/Playtown-Darts/9915/serebi.htm))
 * Restore [unused memory game](http://iimarckus.org/i/memory/) ([more info](https://tcrf.net/Pok%C3%A9mon_Gold_and_Silver#Unused_Memory_Game))
 * Restore the EKikuri's Beach minigame

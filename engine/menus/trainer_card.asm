@@ -362,7 +362,7 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 	push af
 	xor a
 	ldh [hBGMapMode], a
-	farcall Pokedex_CountSeenOwn
+	farcall Tohodex_CountSeenOwn
 	ld de, wTempDexOwn
 	hlcoord 15, 10
 	lb bc, 2, 3

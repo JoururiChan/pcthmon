@@ -1325,7 +1325,7 @@ GetContestLocations:
 .found_mon
 	lb de, GROUP_NATIONAL_PARK, MAP_NATIONAL_PARK
 	xor a ; ld a, JOHTO_REGION
-	farjp Pokedex_SetWildLandmark
+	farjp Tohodex_SetWildLandmark
 
 _TryWildEncounter_BugContest:
 	call TryWildEncounter_BugContest

@@ -353,7 +353,7 @@ DEF DAYCARELADY_ACTIVE_F         EQU 7
 	const_def
 	const FALKNER_JOURNAL ; Violet Tohomon Center
 	const BUGSY_JOURNAL ; Azalea Tohomon Center
-	const WHITNEY_JOURNAL ; Goldenrod PokéCom Center
+	const WHITNEY_JOURNAL ; Goldenrod TohoCom Center
 	const MORTY_JOURNAL ; Ecruteak Tohomon Center
 	const CHUCK_JOURNAL ; Cianwood Tohomon Center
 	const JASMINE_JOURNAL ; Olivine Tohomon Center

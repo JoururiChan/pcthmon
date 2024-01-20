@@ -85,7 +85,7 @@ ROMX $0F
 	"Math"
 
 ROMX $10
-	"Pokedex"
+	"Tohodex"
 
 ROMX $11
 	"bank11"

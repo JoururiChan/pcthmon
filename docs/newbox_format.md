@@ -105,7 +105,7 @@ following data:
 * 0x14-0x15: Personality data
 * 0x16: PP Up data
 * 0x17: Friendship/Egg cycles
-* 0x18: Pokérus data
+* 0x18: Tohorus data
 * 0x19: OT gender, caught ball, caught time
 * 0x1A: Caught level
 * 0x1B: Caught location

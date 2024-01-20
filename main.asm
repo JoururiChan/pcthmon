@@ -200,7 +200,7 @@ SECTION "Math", ROMX
 INCLUDE "engine/math/math.asm"
 
 
-SECTION "Pokedex", ROMX
+SECTION "Tohodex", ROMX
 
 INCLUDE "engine/pokedex/area.asm"
 INCLUDE "engine/pokedex/lcd.asm"
@@ -214,7 +214,7 @@ INCLUDE "data/pokemon/footprint_pointers.asm"
 INCLUDE "gfx/pokemon/footprints.asm"
 
 
-SECTION "Pokedex Shapes", ROMX
+SECTION "Tohodex Shapes", ROMX
 
 INCLUDE "gfx/shapes.asm"
 

@@ -228,7 +228,7 @@ CloudNineDescription:
 	done
 
 ConcentrateDescription:
-	text  "Boosts the Poké-"
+	text  "Boosts the Toho-"
 	next1 "mon's accuracy."
 	done
 
@@ -706,7 +706,7 @@ WeakArmorDescription:
 	done
 
 LightMetalDescription:
-	text  "Halves the Poké-"
+	text  "Halves the Toho-"
 	next1 "mon's weight."
 	done
 

@@ -18,8 +18,8 @@ LoadCGBLayout::
 	dw _CGB_BattleColors
 	dw _CGB_PokegearPals
 	dw _CGB_StatsScreenHPPals
-	dw _CGB_Pokedex
-	dw _CGB_Pokedex_PrepareOnly
+	dw _CGB_Tohodex
+	dw _CGB_Tohodex_PrepareOnly
 	dw _CGB_SlotMachine
 	dw _CGB_Plain
 	dw _CGB_MapPals
@@ -447,12 +447,12 @@ _CGB_StatsScreenHPPals:
 StatsScreenPals:
 INCLUDE "gfx/stats/pages.pal"
 
-_CGB_Pokedex:
-	call _CGB_Pokedex_PrepareOnly
+_CGB_Tohodex:
+	call _CGB_Tohodex_PrepareOnly
 	jmp _CGB_FinishLayout
 
-_CGB_Pokedex_PrepareOnly:
-	ld hl, PokedexPals
+_CGB_Tohodex_PrepareOnly:
+	ld hl, TohodexPals
 	ld de, wBGPals1
 	ld c, 2 palettes
 	call LoadPalettes
@@ -463,7 +463,7 @@ _CGB_Pokedex_PrepareOnly:
 	ld c, 4 palettes - 2
 	jmp LoadPalettes
 
-PokedexPals:
+TohodexPals:
 INCLUDE "gfx/pokedex/pokedex.pal"
 
 _CGB_SlotMachine:

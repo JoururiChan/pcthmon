@@ -162,7 +162,7 @@ BillsPC_LoadUI:
 	lb bc, BANK(BattleExtrasGFX), 3
 	call DecompressRequest2bpp
 
-	; Box frame tiles and Pokérus symbol
+	; Box frame tiles and Tohorus symbol
 	ld hl, BillsPC_TileGFX
 	ld de, vTiles2 tile $31
 	lb bc, BANK(BillsPC_TileGFX), 16
@@ -1130,7 +1130,7 @@ _GetCursorMon:
 	; Clear text
 	call .clear
 
-	; Poképic tilemap
+	; Tohopic tilemap
 	hlcoord 0, 0
 	call PlaceFrontpicAtHL
 

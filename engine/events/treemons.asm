@@ -311,7 +311,7 @@ GetTreeOrRockLocations:
 	pop af
 
 	; Resets carry if insertion succeeded.
-	call Pokedex_SetWildLandmark_MaintainNoCarry
+	call Tohodex_SetWildLandmark_MaintainNoCarry
 	push af
 	jr .loop
 

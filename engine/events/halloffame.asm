@@ -456,7 +456,7 @@ DisplayHOFMon:
 	ld a, b
 	bit MON_IS_EGG_F, a
 	jr nz, .print_id_no
-	call GetPokedexNumber
+	call GetTohodexNumber
 	ld d, b
 	ld e, c
 	hlcoord 1, 13

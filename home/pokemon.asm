@@ -345,32 +345,32 @@ GetDexEntryPointer::
 ; input: c = species, b = extspecies+form
 ; output: a = bank, hl = address
 ; clobbers d
-	ld hl, PokedexDataPointerTable
+	ld hl, TohodexDataPointerTable
 	add hl, bc
 	add hl, bc
 	add hl, bc
-	ld a, BANK(PokedexDataPointerTable)
+	ld a, BANK(TohodexDataPointerTable)
 	call GetFarByte
 	ld d, a
 	inc hl
-	ld a, BANK(PokedexDataPointerTable)
+	ld a, BANK(TohodexDataPointerTable)
 	call GetFarWord
 	ld a, d
 	ret
 
-GetPokedexNumber::
+GetTohodexNumber::
 ; input: c = species, b = extspecies+form
 ; output bc = de = pokedex number ((256*extspecies + c) - (2*extspecies))
 ; this reflects how c = $00 and c = $ff don't have a pokédex number.
-	ld a, [wPokedexMode]
+	ld a, [wTohodexMode]
 	and a
 	jr nz, GetNationalDexNumber
 
-	ld a, BANK(NewPokedexOrder)
+	ld a, BANK(NewTohodexOrder)
 	call StackCallInBankA
 .Function:
 	push hl
-	ld hl, NewPokedexOrder
+	ld hl, NewTohodexOrder
 .loop
 	ld a, [hli]
 	cp c
@@ -381,7 +381,7 @@ GetPokedexNumber::
 	jr nz, .loop
 	srl h
 	rr l
-	ld bc, -(NewPokedexOrder / 2)
+	ld bc, -(NewTohodexOrder / 2)
 	add hl, bc
 	ld b, h
 	ld c, l

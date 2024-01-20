@@ -625,7 +625,7 @@ AgathaText_Greeting:
 	text "Hello, child."
 
 	para "You're still"
-	line "filling a Pokedex"
+	line "filling a Tohodex"
 
 	para "for that old duff"
 	line "Oak?"

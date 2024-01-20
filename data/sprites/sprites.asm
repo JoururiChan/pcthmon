@@ -187,7 +187,7 @@ SpriteHeaders:
 	overworld_sprite WeirdTreeSpriteGFX, STANDING_SPRITE, PAL_OW_GREEN
 	overworld_sprite BallCutFruitSpriteGFX, STANDING_SPRITE, PAL_OW_COPY_BG_GREEN
 	overworld_sprite BoulderRockFossilSpriteGFX, STANDING_SPRITE, PAL_OW_COPY_BG_BROWN
-	overworld_sprite BookPaperPokedexSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
+	overworld_sprite BookPaperTohodexSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite SnesSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite N64SpriteGFX, STANDING_SPRITE, PAL_OW_GRAY
 	overworld_sprite GameCubeSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE

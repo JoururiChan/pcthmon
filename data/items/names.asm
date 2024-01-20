@@ -5,7 +5,7 @@ ItemNames::
 	list_start ItemNames
 	li "Park Ball"
 
-	li "Poké Ball"
+	li "Toho Ball"
 	li "Great Ball"
 	li "Ultra Ball"
 	li "Master Ball"
@@ -128,7 +128,7 @@ endc
 	li "Max Repel"
 
 	li "Escape Rope"
-	li "Poké Doll"
+	li "Toho Doll"
 
 	li "Mulch"
 

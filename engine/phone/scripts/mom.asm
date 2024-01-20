@@ -6,7 +6,7 @@ MomPhoneScript:
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftruefwd MomPhoneNoGymQuestScript
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftruefwd MomPhoneNoPokedexScript
+	iftruefwd MomPhoneNoTohodexScript
 	sjumpfwd MomPhoneNoPokemonScript
 
 .bcec5
@@ -124,8 +124,8 @@ MomPhoneNoPokemonScript:
 	farwritetext MomPhoneNoPokemonText
 	end
 
-MomPhoneNoPokedexScript:
-	farwritetext MomPhoneNoPokedexText
+MomPhoneNoTohodexScript:
+	farwritetext MomPhoneNoTohodexText
 	end
 
 MomPhoneNoGymQuestScript:

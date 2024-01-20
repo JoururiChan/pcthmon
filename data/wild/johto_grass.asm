@@ -480,7 +480,7 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 8, GEODUDE
-	wildmon 8, SARIEL
+	wildmon 8, CSARIEL
 	wildmon 7, ZUBAT
 	wildmon 6, CREISEN
 	wildmon 9, ZUBAT
@@ -488,7 +488,7 @@
 	wildmon 8, ONIX
 	; day
 	wildmon 8, GEODUDE
-	wildmon 8, SARIEL
+	wildmon 8, CSARIEL
 	wildmon 7, ZUBAT
 	wildmon 6, CREISEN
 	wildmon 9, ZUBAT

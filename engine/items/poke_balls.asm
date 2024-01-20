@@ -128,7 +128,7 @@ CheckCriticalCapture:
 	ld a, [wBuffer1]
 	ld [hl], a
 
-	farcall Pokedex_CountSeenOwn
+	farcall Tohodex_CountSeenOwn
 	ld hl, wTempDexOwn
 	ld a, [hli]
 	ld c, [hl]

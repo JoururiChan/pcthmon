@@ -762,7 +762,7 @@ AnimSeq_DexCursor:
 	push bc
 	ld hl, SPRITEANIMSTRUCT_YOFFSET
 	add hl, bc
-	ld a, [wPokedex_DisplayMode]
+	ld a, [wTohodex_DisplayMode]
 	cp DEXDISP_SPRITEANIM_OK
 	ld [hl], 160
 	jr nc, .done
@@ -771,10 +771,10 @@ AnimSeq_DexCursor:
 	ld hl, SPRITEANIMSTRUCT_XOFFSET
 	add hl, bc
 	and a ; cp DEXDISP_MAIN
-	ld a, [wPokedex_CursorPos]
+	ld a, [wTohodex_CursorPos]
 	lb de, 30, 24
 	jr z, .got_cursor_info
-	ld a, [wPokedex_UnownCursor]
+	ld a, [wTohodex_UnownCursor]
 	lb de, 16, 16
 .got_cursor_info
 	ld b, a

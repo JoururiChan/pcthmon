@@ -134,7 +134,7 @@ Var_CountTrainerStars:
 .nostar2
 	; star for completing the Tohodex
 	push bc
-	farcall Pokedex_CountSeenOwn
+	farcall Tohodex_CountSeenOwn
 	ld hl, wTempDexOwn
 	ld a, [hli]
 	cp HIGH(NUM_POKEMON)

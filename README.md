@@ -44,7 +44,7 @@ You can post questions or comments on any of these sites. But please read the [F
 
 * [Discord](https://discord.gg/ZK5pqK8)
 * [Skeetendo](https://hax.iimarckus.org/topic/6874/)
-* [PokéCommunity](http://www.pokecommunity.com/showthread.php?t=373172)
+* [TohoCommunity](http://www.pokecommunity.com/showthread.php?t=373172)
 * [Romhack.me](http://www.romhack.me/polishedcrystal/wall/)
 * [/r/PokemonROMHacks](https://www.reddit.com/r/PokemonROMhacks/comments/51kbcn/pok%C3%A9mon_polished_crystal_200/)
 * [Nuzlocke Forums](http://s7.zetaboards.com/Nuzlocke_Forum/topic/11003710/)

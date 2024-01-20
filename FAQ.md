@@ -184,7 +184,7 @@ Daily blessings in Ecruteak City and photographs in Cianwood City make your Toho
 
 ### What is the Judge Machine?
 
-The Judge Machine in Goldenrod City's PokéCom Center shows your Tohomon's EVs (effort) and IVs (potential). To unlock it, breed at least one Egg and then talk to the engineer working on it.
+The Judge Machine in Goldenrod City's TohoCom Center shows your Tohomon's EVs (effort) and IVs (potential). To unlock it, breed at least one Egg and then talk to the engineer working on it.
 
 
 ### What are the "door-shaped grooves" in the Ruins of Alph and Route 47?

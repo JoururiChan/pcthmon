@@ -98,7 +98,7 @@ MrPokemonsHouse_OakScript:
 	showtext MrPokemonsHouse_OakText1
 	turnobject MRPOKEMONSHOUSE_OAK, UP
 	pause 10
-	applymovement MRPOKEMONSHOUSE_POKEDEX, MrPokemonsHouse_OakTakesPokedex
+	applymovement MRPOKEMONSHOUSE_POKEDEX, MrPokemonsHouse_OakTakesTohodex
 	disappear MRPOKEMONSHOUSE_POKEDEX
 	pause 10
 	turnobject MRPOKEMONSHOUSE_OAK, LEFT
@@ -174,7 +174,7 @@ MrPokemonsHouse_OakWalksToPlayer:
 	step_left
 	step_end
 
-MrPokemonsHouse_OakTakesPokedex:
+MrPokemonsHouse_OakTakesTohodex:
 	fix_facing
 	slide_step_down
 	remove_fixed_facing

@@ -539,8 +539,8 @@ BallCutFruitSpriteGFX:: INCBIN "gfx/sprites/ball_cut_fruit.2bpp.lz"
 SECTION "BoulderRockFossilSpriteGFX", ROMX
 BoulderRockFossilSpriteGFX:: INCBIN "gfx/sprites/boulder_rock_fossil.2bpp.lz"
 
-SECTION "BookPaperPokedexSpriteGFX", ROMX
-BookPaperPokedexSpriteGFX:: INCBIN "gfx/sprites/book_paper_pokedex.2bpp.lz"
+SECTION "BookPaperTohodexSpriteGFX", ROMX
+BookPaperTohodexSpriteGFX:: INCBIN "gfx/sprites/book_paper_pokedex.2bpp.lz"
 
 SECTION "SnesSpriteGFX", ROMX
 SnesSpriteGFX:: INCBIN "gfx/sprites/snes.2bpp.lz"

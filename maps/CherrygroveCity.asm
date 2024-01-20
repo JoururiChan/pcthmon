@@ -155,7 +155,7 @@ CherrygroveRivalTriggerNorth:
 
 CherrygroveYoungsterScript:
 	checkflag ENGINE_POKEDEX
-	iftrue_jumptextfaceplayer CherrygroveYoungsterText_HavePokedex
+	iftrue_jumptextfaceplayer CherrygroveYoungsterText_HaveTohodex
 	jumpthistextfaceplayer
 
 	text "Mr.#mon's house"
@@ -427,7 +427,7 @@ CherrygroveTeacherText_HaveMapCard:
 	cont "anywhere is fun."
 	done
 
-CherrygroveYoungsterText_HavePokedex:
+CherrygroveYoungsterText_HaveTohodex:
 	text "I battled the"
 	line "trainers on the"
 	cont "road."

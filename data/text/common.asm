@@ -695,14 +695,14 @@ _OPT_PokemonChannelText::
 	text "#mon"
 	done
 
-SECTION "_PokedexShowText", ROMX
-_PokedexShowText::
+SECTION "_TohodexShowText", ROMX
+_TohodexShowText::
 	text_start
 	line ""
 	text_ram wStringBuffer1
 	text_end
 
-; Tohomon Music Channel / Pokémusic
+; Tohomon Music Channel / Tohomusic
 
 SECTION "_BenIntroText1", ROMX
 _BenIntroText1::

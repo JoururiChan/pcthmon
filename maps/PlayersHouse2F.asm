@@ -252,7 +252,7 @@ endr
 	givepoke DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM, 50
 	givepoke FARIGIRAF, 50
 	; fill pokedex
-	callasm FillPokedex
+	callasm FillTohodex
 ;	; new bark events
 	addcellnum PHONE_MOM
 	setmapscene PLAYERS_HOUSE_1F, $1
@@ -302,10 +302,10 @@ endr
 	warpfacing DOWN, GOLDENROD_CITY, 13, 14
 	end
 
-FillPokedex:
-	ld hl, wPokedexSeen
+FillTohodex:
+	ld hl, wTohodexSeen
 	call .Fill
-	ld hl, wPokedexCaught
+	ld hl, wTohodexCaught
 .Fill:
 	ld a, %11111111
 	ld bc, NUM_UNIQUE_POKEMON / 8

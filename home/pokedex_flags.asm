@@ -19,14 +19,14 @@ CountSetBits::
 	inc c
 	jr .zerocheck
 
-Pokedex_SetWildLandmark_MaintainNoCarry:
+Tohodex_SetWildLandmark_MaintainNoCarry:
 ; Calls SetWildLandmark. If carry is currently set, calls it directly.
 ; Otherwise, reset carry no matter what it returns for the carry flag.
 	jr nc, .no_carry
-	farjp Pokedex_SetWildLandmark
+	farjp Tohodex_SetWildLandmark
 .no_carry
 	push af
-	farcall Pokedex_SetWildLandmark
+	farcall Tohodex_SetWildLandmark
 	pop af
 	ret
 
@@ -43,7 +43,7 @@ CheckCosmeticCaughtMon:
 ; Counts species c form b as caught if the player has caught any other
 ; mon of the same species if the mon is cosmetic.
 	push bc
-	farcall _Pokedex_MonHasCosmeticForms
+	farcall _Tohodex_MonHasCosmeticForms
 	pop bc
 	jr c, CheckCaughtMon
 
@@ -83,32 +83,32 @@ CheckCosmeticCaughtMon:
 	jr nz, .loop
 	ret ; should return z if no variants have been caught
 
-; Pokedex Flag Actions:
+; Tohodex Flag Actions:
 ; Input: bc = form, species
 SetSeenAndCaughtMon::
 	push bc
-	ld hl, wPokedexCaught
+	ld hl, wTohodexCaught
 	call SetDexMon
 	pop bc
 	; fallthrough
 
 SetSeenMon::
-	ld hl, wPokedexSeen
+	ld hl, wTohodexSeen
 SetDexMon::
 	ld a, SET_FLAG
-	jr PokedexFlagAction
+	jr TohodexFlagAction
 
 CheckCaughtMon::
-	ld hl, wPokedexCaught
+	ld hl, wTohodexCaught
 	jr CheckDexMon
 
 CheckSeenMon::
-	ld hl, wPokedexSeen
+	ld hl, wTohodexSeen
 CheckDexMon::
 	ld a, CHECK_FLAG
 	; fallthrough
 
-PokedexFlagAction::
+TohodexFlagAction::
 	; Unless we're just checking dex flags, invalidate the dex cache.
 	cp CHECK_FLAG
 	jr z, .cache_done

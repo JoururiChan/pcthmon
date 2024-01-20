@@ -32,7 +32,7 @@ OaksLab_MapScriptHeader:
 	object_event  1,  8, SPRITE_AROMA_LADY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OaksAssistant1Text, -1
 	object_event  8,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OaksAssistant2Text, -1
 	object_event  1,  4, SPRITE_SCIENTIST, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OaksAssistant3Text, -1
-	object_event  2,  1, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, OaksLabPokedexText, -1
+	object_event  2,  1, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, OaksLabTohodexText, -1
 
 	object_const_def
 	const OAKSLAB_OAK
@@ -82,7 +82,7 @@ Oak:
 	waitbutton
 .CheckBadges:
 	checkevent EVENT_OPENED_MT_SILVER
-	iftruefwd .CheckPokedex
+	iftruefwd .CheckTohodex
 	checkevent EVENT_BEAT_ELITE_FOUR_AGAIN
 	iftruefwd .BattleOak
 	readvar VAR_BADGES
@@ -90,7 +90,7 @@ Oak:
 	ifequalfwd  8, .Complain2
 	writetext OakYesKantoBadgesText
 	promptbutton
-.CheckPokedex:
+.CheckTohodex:
 	checkevent EVENT_GOT_CATCH_CHARM_FROM_OAK
 	iftruefwd .GotCatchCharm
 	writetext OakLabCatchMoreText
@@ -152,22 +152,22 @@ Oak:
 	promptbutton
 	setevent EVENT_BEAT_PROF_OAK
 	setevent EVENT_OPENED_MT_SILVER
-	sjump .CheckPokedex
+	sjump .CheckTohodex
 
 .NotReady:
 	writetext OakRefusedText
 	promptbutton
-	sjump .CheckPokedex
+	sjump .CheckTohodex
 
 .Complain1:
 	writetext OakNoEliteFourRematchText
 	promptbutton
-	sjump .CheckPokedex
+	sjump .CheckTohodex
 
 .Complain2:
 	writetext OakNoKantoBadgesText
 	promptbutton
-	sjump .CheckPokedex
+	sjump .CheckTohodex
 
 EeveeDollScript:
 	turnobject OAKSLAB_OAK, RIGHT
@@ -573,7 +573,7 @@ ProfOakAfterTradeText:
 	cont "appreciate it!"
 	done
 
-OaksLabPokedexText:
+OaksLabTohodexText:
 	text "It's Prof.Oak's"
 	line "#dex."
 	done

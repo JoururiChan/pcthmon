@@ -92,7 +92,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Strength is Fighting-type (non-Faithful).
 * Add: Submission has 120 power (non-Faithful).
 * Add: Trainers have max happiness for Return.
-* Add: 1/2048 chance for Wonder Traded Tohomon to have Pokérus.
+* Add: 1/2048 chance for Wonder Traded Tohomon to have Tohorus.
 * Add: Buy 12 Moomoo Milk at once.
 * Add: Show TM names before buying them and when picking them up.
 * Add: Say which pocket is full if an item can't be picked up.
@@ -118,7 +118,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Cosplayer, Bug Maniac, Ruin Maniac, Lady, Baker, Tamer, Artist, Aroma Lady, Sightseer♂, and Sightseer♀ trainer classes.
 * Add: New Trainer Card based on the Name Cards from the Mobile Adapter system.
 * Add: Show PC box quantity.
-* Add: Tohomon stats show caught Poké Ball.
+* Add: Tohomon stats show caught Toho Ball.
 * Add: Nest, Net, Dive, Luxury, and Heal Balls.
 * Add: Cerulean Bike Shop from HGSS.
 * Add: Elite 4 rooms have floor arenas.

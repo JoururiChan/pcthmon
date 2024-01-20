@@ -501,7 +501,7 @@ endc
 	call CheckReceivedDex
 	jr z, .skip_pokedex
 
-	ld hl, Text_AddedToPokedex
+	ld hl, Text_AddedToTohodex
 	call PrintText
 
 	call ClearSprites
@@ -510,7 +510,7 @@ endc
 	ld [wTempSpecies], a
 	ld a, [wOTPartyMon1Form]
 	ld [wTempForm], a ; is any of this necessary?
-	farcall NewPokedexEntry
+	farcall NewTohodexEntry
 
 .skip_pokedex
 	ld a, [wBattleType]
@@ -846,7 +846,7 @@ Text_SentToBillsPC:
 	text_far _MonSentToPCText
 	text_end
 
-Text_AddedToPokedex:
+Text_AddedToTohodex:
 	; 's data was newly added to the #DEX.@ @
 	text_far _NewDexDataText
 	text_end

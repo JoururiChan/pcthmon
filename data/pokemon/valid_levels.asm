@@ -20,24 +20,24 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  27 ; CMima
 	db  28,  49 ; Mima
 	db  50, 100 ; EMima
-	db  20, 100 ; CElis
-	db   1,  19 ; Elis
-	db  20, 100 ; EElis
-	db   1,  21 ; CKikuri
-	db  22, 100 ; Kikuri
-	db   1,  19 ; EKikuri
-	db  20, 100 ; CSariel
-	db   1,  21 ; Sariel
-	db  22, 100 ; ESariel
-	db   1,  15 ; CKongara
-	db  16,  35 ; Kongara
-	db  36, 100 ; EKongara
-	db   1,  15 ; CRika
-	db  16,  35 ; Rika
-	db  36, 100 ; ERika
-	db   5,  19 ; CMeira
-	db  20, 100 ; Meira
-	db   1,  19 ; EMeira
+	db  1, 25 ; CElis
+	db   26,  46 ; Elis
+	db  47, 100 ; EElis
+	db   1,  28 ; CKikuri
+	db  29, 47 ; Kikuri
+	db   48, 100 ; EKikuri
+	db  1, 29 ; CSariel
+	db   30, 54 ; Sariel
+	db  55, 100 ; ESariel
+	db   1,  29 ; CKongara
+	db  30,  54 ; Kongara
+	db  55, 100 ; EKongara
+	db   1,  19 ; CRika
+	db  20,  100 ; Rika
+	db  20, 100 ; ERika
+	db   1, 21 ; CMeira
+	db  22, 37 ; Meira
+	db   38, 100 ; EMeira
 	db  20, 100 ; Ninetales
 	db   5,  19 ; Jigglypuff
 	db  20, 100 ; Wigglytuff
@@ -152,15 +152,15 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  55, 100 ; Dragonite
 	db 255, 255 ; Mewtwo
 	db 255, 255 ; Mew
-	db   1,  15 ; CYoumu
-	db  16,  31 ; Youmu
-	db  32, 100 ; EYoumu
-	db   1,  13 ; CReisen
-	db  14,  35 ; Reisen
+	db   1,  13 ; CYoumu
+	db  14,  33 ; Youmu
+	db  34, 100 ; EYoumu
+	db   1,  17 ; CReisen
+	db  18,  35 ; Reisen
 	db  36, 100 ; EReisen
-	db   1,  17 ; CSanae
-	db  18,  29 ; Sanae
-	db  30, 100 ; ESanae
+	db   1,  15 ; CSanae
+	db  16,  31 ; Sanae
+	db  32, 100 ; ESanae
 	db   1,  14 ; Sentret
 	db  15, 100 ; Furret
 	db   1,  19 ; Hoothoot

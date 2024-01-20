@@ -7962,7 +7962,7 @@ HandleNuzlockeFlags:
 	call CheckCosmeticCaughtMon
 	ret nz
 
-	; Only flag landmarks for Nuzlocke runs after getting Poké Balls
+	; Only flag landmarks for Nuzlocke runs after getting Toho Balls
 	eventflagcheck EVENT_LEARNED_TO_CATCH_POKEMON
 	ret z
 

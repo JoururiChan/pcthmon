@@ -1,5 +1,5 @@
-Pokedex_AreaTypeLists:
-	list_start Pokedex_AreaTypeLists
+Tohodex_AreaTypeLists:
+	list_start Tohodex_AreaTypeLists
 	setcharmap no_ngrams
 	li "Morning"
 	li "Day"
@@ -19,7 +19,7 @@ endc
 	setcharmap default
 	assert_list_length NUM_DEXAREAS
 
-Pokedex_Area:
+Tohodex_Area:
 	ldh a, [rSVBK]
 	push af
 	ld a, $1
@@ -42,12 +42,12 @@ Pokedex_Area:
 	ld a, BANK(wDexAreaLastMode)
 	ldh [rSVBK], a
 	ld a, e
-	ldh [hPokedexAreaMode], a
+	ldh [hTohodexAreaMode], a
 	ld [wDexAreaLastMode], a
 	pop af
 	ldh [rSVBK], a
 	; fallthrough
-Pokedex_Area_ResetLocationData:
+Tohodex_Area_ResetLocationData:
 ; For when scrolling to a new species or form.
 	; Write palette data. Not redundant, because scrolling reloads
 	; BG7, i.e. type icon palettes.
@@ -62,13 +62,13 @@ Pokedex_Area_ResetLocationData:
 	pop af
 	ldh [rSVBK], a
 
-	call Pokedex_ReloadValidLocations
+	call Tohodex_ReloadValidLocations
 	; fallthrough
-_Pokedex_Area:
+_Tohodex_Area:
 	ld a, DEXDISP_AREA
-	ld [wPokedex_DisplayMode], a
+	ld [wTohodex_DisplayMode], a
 
-	call Pokedex_GetAreaMode
+	call Tohodex_GetAreaMode
 	push de
 
 	; Retrieve the area tilemap
@@ -80,17 +80,17 @@ _Pokedex_Area:
 	jr z, .got_tilemap
 	ld hl, DexTilemap_Johto
 .got_tilemap
-	call Pokedex_LoadTilemapWithIconAndForm
+	call Tohodex_LoadTilemapWithIconAndForm
 
 	pop de
-	call Pokedex_GetMonLocations
-	call Pokedex_SortAreaMons
+	call Tohodex_GetMonLocations
+	call Tohodex_SortAreaMons
 
 	ld a, 11
 	ld de, PHB_AreaSwitchTileMode
-	call Pokedex_ScheduleScreenUpdateWithHBlank
+	call Tohodex_ScheduleScreenUpdateWithHBlank
 .joypad_loop
-	call Pokedex_GetInput
+	call Tohodex_GetInput
 	rrca
 	jr c, .pressed_a
 	rrca
@@ -111,9 +111,9 @@ _Pokedex_Area:
 
 .pressed_a
 	; Switch area type displayed
-	call Pokedex_GetAreaMode
-	call Pokedex_GetRegionAreaFlag
-	call Pokedex_CountLocations
+	call Tohodex_GetAreaMode
+	call Tohodex_GetRegionAreaFlag
+	call Tohodex_CountLocations
 	jr z, .joypad_loop
 
 	; Block 1 valid location too, to avoid updating wDexAreaLastMode.
@@ -121,7 +121,7 @@ _Pokedex_Area:
 	jr z, .joypad_loop
 
 	ld b, 1 ; update lastmode if applicable
-	ld hl, hPokedexAreaMode
+	ld hl, hTohodexAreaMode
 	inc [hl]
 	ld a, [hl]
 	and DEXAREA_TYPE_MASK
@@ -133,12 +133,12 @@ _Pokedex_Area:
 	ld [hl], a
 .cycle_area
 	push bc
-	call Pokedex_CycleToKnownArea
+	call Tohodex_CycleToKnownArea
 	pop bc
-	ld hl, hPokedexAreaMode
+	ld hl, hTohodexAreaMode
 	jr c, .unknown
 	dec b
-	jr nz, _Pokedex_Area
+	jr nz, _Tohodex_Area
 	ldh a, [rSVBK]
 	push af
 	ld a, BANK(wDexAreaLastMode)
@@ -147,25 +147,25 @@ _Pokedex_Area:
 	ld [wDexAreaLastMode], a
 	pop af
 	ldh [rSVBK], a
-	jmp _Pokedex_Area
+	jmp _Tohodex_Area
 
 .unknown
 	set DEXAREA_UNKNOWN_F, [hl]
-	jmp _Pokedex_Area
+	jmp _Tohodex_Area
 
 .pressed_b
-	ld hl, Pokedex_Main
+	ld hl, Tohodex_Main
 	jr .switch_dex_screen
 
 .pressed_select
 	; Check if there's at least one region with a valid nest.
 	ld b, -1 ; all regions
-	call Pokedex_CountLocations
+	call Tohodex_CountLocations
 	jr z, .joypad_loop
 	ld b, 0 ; don't update lastmode
 
 	; Switch displayed region
-	ld hl, hPokedexAreaMode
+	ld hl, hTohodexAreaMode
 	ld a, [hl]
 	add $10
 	ld [hl], a
@@ -192,43 +192,43 @@ _Pokedex_Area:
 
 .pressed_start
 	ld a, 1
-	call Pokedex_ChangeForm
+	call Tohodex_ChangeForm
 	jmp c, .joypad_loop
-	call Pokedex_GetCursorMon
-	jmp Pokedex_Area_ResetLocationData
+	call Tohodex_GetCursorMon
+	jmp Tohodex_Area_ResetLocationData
 
 .pressed_right
-	ld hl, _Pokedex_Description
+	ld hl, _Tohodex_Description
 	jr .switch_dex_screen
 
 .pressed_left
-	ld a, [wPokedexOAM_IsCaught]
+	ld a, [wTohodexOAM_IsCaught]
 	and a
 	jr z, .pressed_right
-	ld hl, Pokedex_Stats
+	ld hl, Tohodex_Stats
 .switch_dex_screen
 	; Restore previous palettes.
 	push hl
 	ld a, CGB_POKEDEX_PREPARE_ONLY
 	call GetCGBLayout
-	call Pokedex_GetCursorMon
+	call Tohodex_GetCursorMon
 	pop hl
 	jp hl
 
 .pressed_up
-	call Pokedex_PrevPageMon
+	call Tohodex_PrevPageMon
 	jmp nz, .joypad_loop
 	jr .reload_position
 
 .pressed_down
-	call Pokedex_NextPageMon
+	call Tohodex_NextPageMon
 	jmp nz, .joypad_loop
 .reload_position
-	call Pokedex_GetFirstIconTile
-	call Pokedex_GetCursorMon
-	jmp Pokedex_Area_ResetLocationData
+	call Tohodex_GetFirstIconTile
+	call Tohodex_GetCursorMon
+	jmp Tohodex_Area_ResetLocationData
 
-Pokedex_ReloadValidLocations:
+Tohodex_ReloadValidLocations:
 	ld a, BANK(wDexAreaRegionLocations)
 	call StackCallInWRAMBankA
 .Function:
@@ -238,7 +238,7 @@ Pokedex_ReloadValidLocations:
 	rst ByteFill
 
 	; Clear "Area Unknown" marker.
-	ld hl, hPokedexAreaMode
+	ld hl, hTohodexAreaMode
 	res DEXAREA_UNKNOWN_F, [hl]
 	push hl
 
@@ -252,7 +252,7 @@ Pokedex_ReloadValidLocations:
 	push hl
 	push de
 	push bc
-	call Pokedex_GetMonLocations
+	call Tohodex_GetMonLocations
 	pop bc
 	pop de
 	pop hl
@@ -303,13 +303,13 @@ Pokedex_ReloadValidLocations:
 	and DEXAREA_TYPE_MASK
 	or [hl]
 	ld [hl], a
-	call Pokedex_CycleToKnownArea
+	call Tohodex_CycleToKnownArea
 	pop hl
 	ret nc
 	set DEXAREA_UNKNOWN_F, [hl]
 	ret
 
-Pokedex_GetRegionAreaFlag:
+Tohodex_GetRegionAreaFlag:
 ; Set b to the bitflag for region in d.
 	ld a, $80
 	inc d
@@ -320,7 +320,7 @@ Pokedex_GetRegionAreaFlag:
 	ld b, a
 	ret
 
-Pokedex_CountLocations:
+Tohodex_CountLocations:
 ; Count valid locations for region bitflags in b.
 ; Returns amount in e. Returns z if no valid locations were found.
 	ld a, BANK(wDexAreaRegionLocations)
@@ -341,14 +341,14 @@ Pokedex_CountLocations:
 	or e
 	ret
 
-Pokedex_CycleToKnownArea:
-; Cycles hPokedexAreaMode to a location type with at least one nest.
+Tohodex_CycleToKnownArea:
+; Cycles hTohodexAreaMode to a location type with at least one nest.
 ; Returns carry if the current region doesn't have one.
 	ld a, BANK(wDexAreaRegionLocations)
 	call StackCallInWRAMBankA
 .Function:
-	call Pokedex_GetAreaMode
-	call Pokedex_GetRegionAreaFlag
+	call Tohodex_GetAreaMode
+	call Tohodex_GetRegionAreaFlag
 
 	; Set hl to wDexAreaRegionLocations+e (e=current type)
 	ld a, e
@@ -385,18 +385,18 @@ Pokedex_CycleToKnownArea:
 	scf
 	ret
 .found_location
-	ldh a, [hPokedexAreaMode]
+	ldh a, [hTohodexAreaMode]
 
 	; Resets carry, so we don't need to "xor a" later.
 	and DEXAREA_REGION_MASK
 	or e
-	ldh [hPokedexAreaMode], a
+	ldh [hTohodexAreaMode], a
 	ret
 
-Pokedex_GetAreaMode:
+Tohodex_GetAreaMode:
 ; Returns region displayed in d, location type in e.
 ; Returns nz if area is "unknown" (unavailable).
-	ldh a, [hPokedexAreaMode]
+	ldh a, [hTohodexAreaMode]
 	ld d, a
 	and DEXAREA_TYPE_MASK
 	ld e, a
@@ -409,17 +409,17 @@ Pokedex_GetAreaMode:
 	bit DEXAREA_UNKNOWN_F, a
 	ret
 
-Pokedex_GetAreaOAM:
+Tohodex_GetAreaOAM:
 ; Handles OAM data for the area screen.
 ; Caution: runs in the wDex* WRAMX bank.
 	; Write Area Unknown
 	lb de, 9, 10
 	lb hl, VRAM_BANK_1 | 0, $34
 	lb bc, 52, 91 ; x, y
-	ldh a, [hPokedexAreaMode]
+	ldh a, [hTohodexAreaMode]
 	bit DEXAREA_UNKNOWN_F, a
 	push af
-	call nz, Pokedex_WriteOAM
+	call nz, Tohodex_WriteOAM
 	pop af
 	jr nz, .a_highlight_done
 
@@ -430,7 +430,7 @@ Pokedex_GetAreaOAM:
 	ld c, a
 	lb de, 1, 6
 	lb hl, VRAM_BANK_1 | 2, $3f
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 
 	; Write nest OAM tiles + attributes. Set y to 0 because we don't want to
 	; render any by default.
@@ -438,7 +438,7 @@ Pokedex_GetAreaOAM:
 	lb de, 15, 10 ; the other 15 slots is dealt with as part of hblank
 	; e (OAM slot) is kept from previous writing
 	lb hl, VRAM_BANK_1 | 3, $3f
-	call Pokedex_WriteOAMSingleTile
+	call Tohodex_WriteOAMSingleTile
 	; We want to print a VWF string. To do this, we must first clear the tiles.
 	xor a
 	ld hl, wDexAreaTypeTiles
@@ -447,9 +447,9 @@ Pokedex_GetAreaOAM:
 	rst ByteFill
 
 	; Get a pointer to location type string for printing.
-	call Pokedex_GetAreaMode
+	call Tohodex_GetAreaMode
 	ld a, e
-	ld hl, Pokedex_AreaTypeLists
+	ld hl, Tohodex_AreaTypeLists
 	call GetNthString
 	ld d, h
 	ld e, l
@@ -466,31 +466,31 @@ Pokedex_GetAreaOAM:
 	pop hl
 	ld de, vTiles0 tile $20
 	lb bc, 0, 7
-	call Pokedex_Get2bpp
+	call Tohodex_Get2bpp
 
 	lb bc, 94, 29
 	lb de, 7, 27
 	lb hl, 0, $20
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 
 	; Write (A) button
-	call Pokedex_GetAreaMode
-	call Pokedex_GetRegionAreaFlag
-	call Pokedex_CountLocations
+	call Tohodex_GetAreaMode
+	call Tohodex_GetRegionAreaFlag
+	call Tohodex_CountLocations
 	dec a
 	jr z, .a_highlight_done
 	lb de, 2, 25
 	lb hl, VRAM_BANK_1 | 1, $3d
 	lb bc, 146, 30 ; x, y
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 
 .a_highlight_done
 	; Write (SEL) button
 	ld b, -1
-	call Pokedex_CountLocations
+	call Tohodex_CountLocations
 	ret z
 
-	ldh a, [hPokedexAreaMode]
+	ldh a, [hTohodexAreaMode]
 	and DEXAREA_REGION_MASK
 	cp ORANGE_REGION << 4
 	lb de, 1, 7
@@ -499,17 +499,17 @@ Pokedex_GetAreaOAM:
 	jr nz, .not_orange
 	ld b, 107
 .not_orange
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 	ld d, 1
 	ld l, $11
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 	ld d, 1
 	ld l, $10
 	dec b
 	dec b
-	jmp Pokedex_WriteOAM
+	jmp Tohodex_WriteOAM
 
-Pokedex_GetMonLocations:
+Tohodex_GetMonLocations:
 ; Creates a table of nest coordinates for the given area mode.
 ; Parameters: d = region, e = type
 ; Returns carry if area is unknown.
@@ -533,10 +533,10 @@ Pokedex_GetMonLocations:
 	ld [wDexAreaHighlight], a
 
 	push de
-	call Pokedex_MonHasCosmeticForms
+	call Tohodex_MonHasCosmeticForms
 	pop de
 	push af
-	call Pokedex_GetCursorSpecies
+	call Tohodex_GetCursorSpecies
 	pop af
 
 	; Don't let this interfere with gender when checking locations
@@ -586,7 +586,7 @@ Pokedex_GetMonLocations:
 	ld a, BANK(wDexAreaMons)
 	ldh [rSVBK], a
 	pop af
-	call Pokedex_SetWildLandmark_MaintainNoCarry
+	call Tohodex_SetWildLandmark_MaintainNoCarry
 	push af
 
 .next
@@ -610,7 +610,7 @@ Pokedex_GetMonLocations:
 .rock_smash
 	farjp GetRockSmashLocations
 
-Pokedex_SetWildLandmark:
+Tohodex_SetWildLandmark:
 ; Add landmark for map group d, map number e.
 ; Parameters: a = allowed region, or -1 if any region is allowed.
 ; Returns carry if insertion failed (a != -1).
@@ -692,7 +692,7 @@ Pokedex_SetWildLandmark:
 	add c
 	ret
 
-Pokedex_SortAreaMons:
+Tohodex_SortAreaMons:
 ; Sorts area mons for the benefit of hblank processing
 	ld a, BANK(wDexAreaMons)
 	call StackCallInWRAMBankA
@@ -736,14 +736,14 @@ Pokedex_SortAreaMons:
 	add hl, bc
 	ld [hl], 1
 	push hl
-	ld hl, Pokedex_GetAreaMonIndex
-	ld de, Pokedex_DoAreaInsertSort
+	ld hl, Tohodex_GetAreaMonIndex
+	ld de, Tohodex_DoAreaInsertSort
 	call SortItems
 	pop hl
 	dec [hl]
 	ret
 
-Pokedex_GetAreaMonIndex:
+Tohodex_GetAreaMonIndex:
 	push hl
 	push bc
 	ld a, [wDexAreaMonOffset]
@@ -760,7 +760,7 @@ Pokedex_GetAreaMonIndex:
 	sub 2
 	ret
 
-Pokedex_DoAreaInsertSort:
+Tohodex_DoAreaInsertSort:
 ; Assumes b>a.
 	push af
 	ld a, [wDexAreaMonOffset]
@@ -833,7 +833,7 @@ PHB_AreaSwitchTileMode:
 	; Don't mess with the "Area Unknown" icon if applicable.
 	ld a, $86
 	ld de, PHB_AreaSwitchTileMode2
-	call Pokedex_UnsafeSetHBlankFunction
+	call Tohodex_UnsafeSetHBlankFunction
 
 	ld c, 173
 	call PHB_BusyLoop2
@@ -915,7 +915,7 @@ PHB_AreaSwitchTileMode2:
 	ldh [rSCY], a
 	ld a, 11
 	ld de, PHB_AreaSwitchTileMode
-	call Pokedex_UnsafeSetHBlankFunction
+	call Tohodex_UnsafeSetHBlankFunction
 
 	ldh a, [rSVBK]
 	push af
@@ -1066,11 +1066,11 @@ endr
 
 	; conditional needs to take the same time.
 	push af
-	call nc, Pokedex_UnsafeSetHBlankFunction
+	call nc, Tohodex_UnsafeSetHBlankFunction
 	pop af
 	ld a, $86
 	ld de, PHB_AreaSwitchTileMode2
-	call c, Pokedex_UnsafeSetHBlankFunction
+	call c, Tohodex_UnsafeSetHBlankFunction
 	pop af
 	ldh [rSVBK], a
 	jmp PopBCDEHL

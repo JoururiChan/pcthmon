@@ -251,7 +251,7 @@ DoWonderTrade:
 	call CopyTradeOT
 
 	; Random Ball
-	; 2/3 chance of Poké Ball, 1/3 chance of other
+	; 2/3 chance of Toho Ball, 1/3 chance of other
 .random_ball
 	ld a, PREMIER_BALL * 2 - 2
 	call RandomRange

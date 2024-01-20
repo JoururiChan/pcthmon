@@ -729,8 +729,8 @@ wTrainerGroupBank:: db
 
 SECTION "Enemy Party", WRAMX
 
-wPokedexShowPointerAddr:: dw
-wPokedexShowPointerBank:: db
+wTohodexShowPointerAddr:: dw
+wTohodexShowPointerBank:: db
 
 wEnemyFleeing:: db
 wNumFleeAttempts:: db
@@ -1022,7 +1022,7 @@ wPokegearFlags::
 ; bit 7: on/off
 	db
 wRadioTuningKnob:: db
-wPokedexMode:: db
+wTohodexMode:: db
 
 wTMHMPocketScrollPosition:: db
 wTMHMPocketCursor::
@@ -1355,15 +1355,15 @@ wPartyMonNicknamesEnd::
 
 	ds 1 ; unused
 
-wPokedexFlags::
-wPokedexCaught:: flag_array NUM_UNIQUE_POKEMON
-wEndPokedexCaught::
+wTohodexFlags::
+wTohodexCaught:: flag_array NUM_UNIQUE_POKEMON
+wEndTohodexCaught::
 
 	ds 1 ; unused
 
-wPokedexSeen:: flag_array NUM_UNIQUE_POKEMON
-wEndPokedexSeen::
-wEndPokedexFlags::
+wTohodexSeen:: flag_array NUM_UNIQUE_POKEMON
+wEndTohodexSeen::
+wEndTohodexFlags::
 
 	ds 1 ; unused
 
@@ -1558,7 +1558,7 @@ wDexNoStrBall:: db ; ball if caught, $7f otherwise
 wDexNoStrNo:: ds 2 ; "No."
 wDexNoStrNumber:: ds 3 ; the dex number
 
-; These are for the list view. For the "No.123", see wPokedexOAM_DexNo in wram0.
+; These are for the list view. For the "No.123", see wTohodexOAM_DexNo in wram0.
 wDexNumber:: dw
 wDexNumberString:: ds 4 ; 3 numbers including leading zeroes + terminator
 
@@ -1613,7 +1613,7 @@ wDexAreaRegionLocations:: ds NUM_DEXAREAS
 ; Things handled by hblank
 wDexAreaMonOffset:: db ; current area mon index to process in h-blank
 wDexAreaSpriteSlot:: db ; LOW(address) to oamSprite to use.
-wDexAreaModeCopy:: db ; written to from hPokedexAreaMode on screen reload
+wDexAreaModeCopy:: db ; written to from hTohodexAreaMode on screen reload
 
 	; Used to align wDexAreaMons2. Feel free to add more data here, just don't
 	; let wDexAreaMons2 be misaligned (an assert will tell you if you do).

@@ -16,7 +16,7 @@ Lionel	Do you know the skill of these Tohomon?!
 Elaine	Never crumble, no matter what happens! That’s the kind of friendship we’ve got!
 Mari	That kind of tenacity is common in everyone! That spirit! That gutsiness!
 Irvin	On the mountain five years together... The friendship is everlasting!
-Mandu	Master fighting! Live for fighting! And live for the Pokéathlon!
+Mandu	Master fighting! Live for fighting! And live for the Tohoathlon!
 Hudson	I can see victory! That’s because I don’t think there’s any way I’ll lose!
 Krise	I can fly with these Tohomon so far! Over the rainbow!
 Pia	Jump to victory! Jump to the other side of victory!
@@ -28,7 +28,7 @@ Whitney	Finally here! The amazingly persistent Gym Leader! How much true power?
 Susie	Cuteness, strength, and speed! A girl with sparkle!
 Heath	Nothing in front of this guy... Even a bolt of lightning can come from behind!
 Rory	Run! The thing beyond that--the goal is called friendship!
-Primo	The famous guy on the TV all the time is now participating in the Pokéathlon!
+Primo	The famous guy on the TV all the time is now participating in the Tohoathlon!
 Maylene	All right! The cute and energetic Gym Leader from the Sinnoh region!
 Aven	Power... That is cuteness! Could you possibly believe that power?
 Antonio	Abandon common sense! This is reality!
@@ -37,7 +37,7 @@ Gilmore	I’ve got innate talent! This genius is going to seize victory!
 Nick	Friendship? We don’t need it. That’s because we are already one.
 Allie	My Tohomon are always protecting me, so there’s no way we can lose!
 Kuni	Such splendid dancing and splendid winning! I’ve come from Ecruteak City!
-Neil	Are we looking at an illusion? The most skilled Pokéathlete!
+Neil	Are we looking at an illusion? The most skilled Tohoathlete!
 Jasmine	Gym Leader of steel is participating! I’ll show you steely determination!
 Madge	I’m so full of energy! What’s fatigue? Where’s this stamina coming from?!
 Hudson	Chance of victory: 100%! No doubt! I just came up with that calculation!

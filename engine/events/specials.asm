@@ -30,7 +30,7 @@ Special_GameCornerPrizeMonCheckDex:
 	ld [hli], a
 	ldh a, [hScriptVar+1]
 	ld [hl], a
-	farcall NewPokedexEntry
+	farcall NewTohodexEntry
 	jmp ExitAllMenus
 
 SpecialSeenMon:
@@ -277,7 +277,7 @@ Special_ResetLuckyNumberShowFlag:
 	farjp LoadOrRegenerateLuckyIDNumber
 
 SpecialSnorlaxAwake:
-; Check if the Poké Flute channel is playing.
+; Check if the Toho Flute channel is playing.
 
 ; outputs:
 ; hScriptVar is 1 if the conditions are met, otherwise 0.

@@ -497,7 +497,7 @@ Continue_DisplayBadgesDexPlayerName:
 	push hl
 	decoord 12, 6, 0
 	add hl, de
-	call Continue_DisplayPokedexNumCaught
+	call Continue_DisplayTohodexNumCaught
 	pop hl
 	push hl
 	decoord 8, 2, 0
@@ -535,11 +535,11 @@ Continue_DisplayBadgeCount:
 	lb bc, 1, 2
 	jmp PrintNum
 
-Continue_DisplayPokedexNumCaught:
+Continue_DisplayTohodexNumCaught:
 	ld a, [wStatusFlags]
 	bit STATUSFLAGS_POKEDEX_F, a
 	ret z
-	farcall Pokedex_CountSeenOwn
+	farcall Tohodex_CountSeenOwn
 	ld de, wTempDexOwn
 	lb bc, 2, 3
 	jmp PrintNum

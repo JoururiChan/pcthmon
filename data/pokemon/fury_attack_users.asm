@@ -5,9 +5,6 @@ FuryAttackUsers:
 	dp ESAKUYA
 	dp ELIS
 	dp EELIS
-	dp CRIKA
-	dp RIKA
-	dp ERIKA
 	dp FARFETCH_D
 	dp DODUO
 	dp DODRIO

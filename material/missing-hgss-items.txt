@@ -42,7 +42,7 @@ Full Heal	Left path
 ----- Johto -----
 
 dark cave:
-Poké Ball	In a rock northeast of the Potion
+Toho Ball	In a rock northeast of the Potion
 Max Ether	Southeast of Hyper Potion (requires Rock Smash)
 Elixir	Southwest of entrance from Route 45
 Max Revive	On a rock, north of the man who gives BlackGlasses (requires Surf)
@@ -157,7 +157,7 @@ Revive	On a ledge northeast of Psychic Eli
 Big Mushroom	On a rock near the eastern end of the route, above a ledge only accessible from Route 26
 
 viridian city:
-Nugget	Near the trees northeast of the Poké Mart
+Nugget	Near the trees northeast of the Toho Mart
 
 pewter city:
 Guard Spec.	In the flower garden

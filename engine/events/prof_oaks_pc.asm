@@ -1,5 +1,5 @@
 CountCaught:
-	farcall Pokedex_CountSeenOwn
+	farcall Tohodex_CountSeenOwn
 	ld hl, wTempDexOwn
 	ld a, [hli]
 	ld b, a
@@ -20,7 +20,7 @@ CountCaught:
 	ret
 
 CountSeen:
-	farcall Pokedex_CountSeenOwn
+	farcall Tohodex_CountSeenOwn
 	ld hl, wTempDexSeen
 	ld a, [hli]
 	ld b, a
@@ -70,7 +70,7 @@ ProfOaksPCRating:
 
 Rate:
 ; calculate Seen/Owned
-	farcall Pokedex_CountSeenOwn
+	farcall Tohodex_CountSeenOwn
 
 	ld hl, OakPCText3
 	call PrintText

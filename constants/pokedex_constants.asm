@@ -24,7 +24,7 @@ DEF DEXDISP_SPRITEANIM_OK EQU const_value ; Display modes with sprite anim curso
 	const DEXPOS_ATTRMAP
 	const DEXPOS_PALCOPY
 
-	; Note that wPokedex_SearchData starts with Type1.
+	; Note that wTohodex_SearchData starts with Type1.
 	const_def
 	const DEXSEARCH_ORDER
 	const DEXSEARCH_TYPE1

@@ -1,10 +1,10 @@
-Pokedex_Unown:
+Tohodex_Unown:
 	ld a, DEXDISP_UNOWN
-	ld [wPokedex_DisplayMode], a
+	ld [wTohodex_DisplayMode], a
 
 	; Reset the cursor for Unown Mode.
 	xor a
-	ld [wPokedex_UnownCursor], a
+	ld [wTohodex_UnownCursor], a
 
 	; Writes interface palettes. Pokepic is handled seperately.
 	ld hl, UnownModePals
@@ -19,12 +19,12 @@ Pokedex_Unown:
 	call InitSpriteAnimStruct
 
 	; fallthrough
-_Pokedex_Unown:
+_Tohodex_Unown:
 	; Load current unown pic.
-	call Pokedex_LoadUnownPic
+	call Tohodex_LoadUnownPic
 	push af
 	ld hl, DexTilemap_Unown
-	call Pokedex_LoadTilemapWithPokepic
+	call Tohodex_LoadTilemapWithPokepic
 
 	; If we have caught the current Unown, we want to
 	; display the relevant letter and a word alongside.
@@ -33,7 +33,7 @@ _Pokedex_Unown:
 	jr z, .not_caught
 
 	; Since Unown forms are 1-indexed, load table from UnownWords-1.
-	call Pokedex_GetUnownCursorForm
+	call Tohodex_GetUnownCursorForm
 	ld a, b
 	push af
 	ld e, a
@@ -47,7 +47,7 @@ _Pokedex_Unown:
 	hlcoord 10, 5
 	rst PlaceString
 	pop af
-	call Pokedex_GetPrintableUnownChar
+	call Tohodex_GetPrintableUnownChar
 
 	hlcoord 16, 3
 	ld [hl], a
@@ -80,7 +80,7 @@ _Pokedex_Unown:
 
 	; Print character
 	ld a, b
-	call Pokedex_GetPrintableUnownChar
+	call Tohodex_GetPrintableUnownChar
 	ld [hl], a
 .next
 	inc b
@@ -97,9 +97,9 @@ _Pokedex_Unown:
 	jr nz, .outer_loop
 
 	ld a, -1
-	call Pokedex_ScheduleScreenUpdateWithHBlank
+	call Tohodex_ScheduleScreenUpdateWithHBlank
 .joypad_loop
-	call Pokedex_GetInput
+	call Tohodex_GetInput
 	rrca ; ignore A press
 	rrca
 	jr c, .pressed_b
@@ -118,11 +118,11 @@ _Pokedex_Unown:
 
 .pressed_b
 	call ClearSpriteAnims
-	jmp Pokedex_Mode_ReloadPals
+	jmp Tohodex_Mode_ReloadPals
 
 .pressed_select
-	call Pokedex_SwitchNormalOrShinyPalette
-	call Pokedex_ScheduleScreenUpdate
+	call Tohodex_SwitchNormalOrShinyPalette
+	call Tohodex_ScheduleScreenUpdate
 	jr .joypad_loop
 
 .pressed_right
@@ -137,18 +137,18 @@ _Pokedex_Unown:
 .pressed_down
 	ld b, $10
 .move_cursor
-	ld a, [wPokedex_UnownCursor]
+	ld a, [wTohodex_UnownCursor]
 	add b
 	and $37
-	ld [wPokedex_UnownCursor], a
+	ld [wTohodex_UnownCursor], a
 
 	; There's 7 columns, not 8.
 	maskbits $7
 	cp $7
 	jr z, .move_cursor
-	jmp _Pokedex_Unown
+	jmp _Tohodex_Unown
 
-Pokedex_GetPrintableUnownChar:
+Tohodex_GetPrintableUnownChar:
 ; Convert unown form in a to printable character.
 	add "A" - 1
 
@@ -163,36 +163,36 @@ Pokedex_GetPrintableUnownChar:
 	dec a
 	ret
 
-Pokedex_LoadUnownPic:
+Tohodex_LoadUnownPic:
 ; Returns z if the Unown form we are hovering isn't captured.
 	; Cycle pokepic VRAM. Pointless on initial setup, but necessary after.
-	call Pokedex_SwitchMonInfoBank
+	call Tohodex_SwitchMonInfoBank
 
 	; Get relevant Unown.
-	call Pokedex_GetUnownCursorForm
+	call Tohodex_GetUnownCursorForm
 
 	; Have we captured this Unown?
 	push bc
 	call CheckCaughtMon
 	pop bc
-	jmp z, Pokedex_LoadUndiscoveredPokepic
+	jmp z, Tohodex_LoadUndiscoveredPokepic
 
 	; We've captured it. Load the relevant pokepic and pal.
 	; Load pokepic.
 	ld a, b
 	ld [wCurForm], a
-	ld [wPokedex_Form], a
+	ld [wTohodex_Form], a
 	ld a, c
 	ld [wCurPartySpecies], a
 	call GetBaseData
 	farcall PrepareFrontpic
 
 	; Schedule a write of frontpic in VBlank.
-	ld hl, wPokedex_GFXFlags
+	ld hl, wTohodex_GFXFlags
 	set DEXGFX_FRONTPIC, [hl]
 
 	; Load palette.
-	ld bc, wPokedex_Personality
+	ld bc, wTohodex_Personality
 	ld a, [wCurPartySpecies]
 	farcall GetMonNormalOrShinyPalettePointer
 	ld de, wBGPals1 palette 6 + 2
@@ -204,9 +204,9 @@ Pokedex_LoadUnownPic:
 	or 1
 	ret
 
-Pokedex_GetUnownCursorForm:
+Tohodex_GetUnownCursorForm:
 ; Returns given Unown form in bc from what the cursor is hovering.
-	ld a, [wPokedex_UnownCursor]
+	ld a, [wTohodex_UnownCursor]
 	ld c, a
 
 	; Unown form is (vertical pos * 7 + horizontal pos + 1)

@@ -23,7 +23,7 @@ RadioJumptable:
 ; entries correspond to constants/radio_constants.asm
 	table_width 2, RadioJumptable
 	dw OaksPkmnTalk1  ; $00
-	dw PokedexShow1 ; $01
+	dw TohodexShow1 ; $01
 	dw BenMonMusic1  ; $02
 	dw LuckyNumberShow1 ; $03
 	dw BuenasPassword1 ; $04
@@ -43,10 +43,10 @@ RadioJumptable:
 	dw OaksPkmnTalk7  ; $10
 	dw OaksPkmnTalk8  ; $11
 	dw OaksPkmnTalk9  ; $12
-	dw PokedexShow2 ; $13
-	dw PokedexShow3 ; $14
-	dw PokedexShow4 ; $15
-	dw PokedexShow5 ; $16
+	dw TohodexShow2 ; $13
+	dw TohodexShow3 ; $14
+	dw TohodexShow4 ; $15
+	dw TohodexShow5 ; $16
 ; Ben Music
 	dw BenMonMusic2  ; $17
 	dw BenMonMusic3  ; $18
@@ -116,9 +116,9 @@ RadioJumptable:
 	dw BuenasPassword21 ; $53
 	dw RadioScroll ; $54
 ; More Pokemon Channel stuff
-	dw PokedexShow6 ; $55
-	dw PokedexShow7 ; $56
-	dw PokedexShow8 ; $57
+	dw TohodexShow6 ; $55
+	dw TohodexShow7 ; $56
+	dw TohodexShow8 ; $57
 	assert_table_length NUM_RADIO_SEGMENTS
 
 NextRadioLine:
@@ -663,7 +663,7 @@ ClearBottomLine:
 	rst ByteFill
 	ret
 
-PokedexShow1:
+TohodexShow1:
 	call StartRadioStation
 .loop
 	ld bc, NUM_SPECIES
@@ -690,11 +690,11 @@ PokedexShow1:
 	ld [wCurForm], a
 	ld [hl], a
 	call GetPokemonName
-	ld hl, PokedexShowText
+	ld hl, TohodexShowText
 	ld a, POKEDEX_SHOW_2
 	jmp NextRadioLine
 
-PokedexShow2:
+TohodexShow2:
 	ld a, [wCurPartySpecies]
 	ld c, a
 	ld a, [wCurForm]
@@ -705,49 +705,49 @@ PokedexShow2:
 	ld a, POKEDEX_SHOW_3
 	jmp PrintRadioLine
 
-PokedexShow3:
+TohodexShow3:
 	call CopyDexEntry
 	ld a, POKEDEX_SHOW_4
 	jmp PrintRadioLine
 
-PokedexShow4:
+TohodexShow4:
 	call CopyDexEntry
 	ld a, POKEDEX_SHOW_5
 	jmp PrintRadioLine
 
-PokedexShow5:
+TohodexShow5:
 	call CopyDexEntry
 	ld a, POKEDEX_SHOW_6
 	jmp PrintRadioLine
 
-PokedexShow6:
+TohodexShow6:
 	call CopyDexEntry
 	ld a, POKEDEX_SHOW_7
 	jmp PrintRadioLine
 
-PokedexShow7:
+TohodexShow7:
 	call CopyDexEntry
 	ld a, POKEDEX_SHOW_8
 	jmp PrintRadioLine
 
-PokedexShow8:
+TohodexShow8:
 	call CopyDexEntry
 	ld a, POKEDEX_SHOW
 	jmp PrintRadioLine
 
 CopyDexEntry:
-	ld hl, wPokedexShowPointerAddr
+	ld hl, wTohodexShowPointerAddr
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
-	ld a, [wPokedexShowPointerBank]
+	ld a, [wTohodexShowPointerBank]
 CopyDexEntryParts:
 	push af
 	push hl
-	ld de, wPokedexShowPointerBank
+	ld de, wTohodexShowPointerBank
 	ld bc, SCREEN_WIDTH - 1
 	call FarCopyBytes
-	ld hl, wPokedexShowPointerAddr
+	ld hl, wTohodexShowPointerAddr
 	ld a, "<START>"
 	ld [hli], a
 	ld a, "<LINE>"
@@ -756,18 +756,18 @@ CopyDexEntryParts:
 	call .CopyLine
 	dec hl
 	ld [hl], "<DONE>"
-	ld hl, wPokedexShowPointerAddr
+	ld hl, wTohodexShowPointerAddr
 	call CopyRadioTextToRAM
 	pop hl
 	pop af
 	ld d, a
 	call .CopyLine
 	ld a, l
-	ld [wPokedexShowPointerAddr], a
+	ld [wTohodexShowPointerAddr], a
 	ld a, h
-	ld [wPokedexShowPointerAddr + 1], a
+	ld [wTohodexShowPointerAddr + 1], a
 	ld a, d
-	ld [wPokedexShowPointerBank], a
+	ld [wTohodexShowPointerBank], a
 	ret
 
 .CopyLine:
@@ -780,9 +780,9 @@ CopyDexEntryParts:
 	ret z
 	jr .CopyLine
 
-PokedexShowText:
+TohodexShowText:
 	; @ @
-	text_far _PokedexShowText
+	text_far _TohodexShowText
 	text_end
 
 BenMonMusic1:

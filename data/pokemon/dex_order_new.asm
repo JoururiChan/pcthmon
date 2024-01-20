@@ -1,7 +1,7 @@
 ; Every Tohomon sorted in New Tohodex Order.
 
-NewPokedexOrder:
-	table_width 2, NewPokedexOrder
+NewTohodexOrder:
+	table_width 2, NewTohodexOrder
 	dp CYOUMU
 	dp YOUMU
 	dp EYOUMU

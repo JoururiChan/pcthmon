@@ -94,7 +94,7 @@ CreditsStringsPointers:
 	dw .Producers
 	dw .ExecutiveProducer
 	dw .PokemonAnimation
-	dw .PokedexText
+	dw .TohodexText
 	dw .MobilePrjLeader
 	dw .MobileSystemAd
 	dw .MobileStadiumDir
@@ -203,7 +203,7 @@ CreditsStringsPointers:
 .Producers:           db "     Producers@"
 .ExecutiveProducer:   db " Executive Producer@"
 .PokemonAnimation:    db " #mon Animation@"
-.PokedexText:         db "    #dex Text@"
+.TohodexText:         db "    #dex Text@"
 .MobilePrjLeader:     db " Mobile Prj. Leader@"
 .MobileSystemAd:      db " Mobile System Ad.@"
 .MobileStadiumDir:    db "Mobile Stadium Dir.@"

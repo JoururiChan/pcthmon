@@ -83,7 +83,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 * Available in the Option menu at any time.
 * A fainted Tohomon can't be revived, by items, Tohomon Centers, or events. The only exception is your first rival battle, when you just have your starter. (Also when you deposit them into the PC, since current HP is not stored.)
-* You can only catch the first Tohomon you encounter in a new location. "Location" is defined with the Town Map mechanics, so Sprout Tower is separate from Violet City, but multiple floors of Union Cave or multiple sections of the Safari Zone count as one location. And nothing is counted until you receive your first five Poké Balls.
+* You can only catch the first Tohomon you encounter in a new location. "Location" is defined with the Town Map mechanics, so Sprout Tower is separate from Violet City, but multiple floors of Union Cave or multiple sections of the Safari Zone count as one location. And nothing is counted until you receive your first five Toho Balls.
 * Every Tohomon gets a nickname, no asking whether you want to or not. Of course, you can cancel out to give the default name.
 * The dupes clause is in effect. If you've caught a EMagan and encounter one on a new route, it won't count unless you catch it.
 * The shiny clause is also in effect. Shinies can always be caught.
@@ -92,8 +92,8 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 ## Maps
 
-* Restored locations from R/B/Y and HG/SS: Viridian Forest, Pewter Museum, Celadon Hotel, Silph Co., Tohomon Mansion, Seafoam Islands, Cerulean Cave, Goldenrod PokéCom Center, and Bellchime Trail.
-* Original locations, including Cinnabar Volcano, a new floor of Rock Tunnel, Cherrygrove Bay, Goldenrod Harbor, Route 35 Coast, the Ecruteak Shrine from [Tohomon Christmas](http://www.pokemonhackersonline.com/showthread.php?t=14172), custom-designed PokéWalker routes, and others.
+* Restored locations from R/B/Y and HG/SS: Viridian Forest, Pewter Museum, Celadon Hotel, Silph Co., Tohomon Mansion, Seafoam Islands, Cerulean Cave, Goldenrod TohoCom Center, and Bellchime Trail.
+* Original locations, including Cinnabar Volcano, a new floor of Rock Tunnel, Cherrygrove Bay, Goldenrod Harbor, Route 35 Coast, the Ecruteak Shrine from [Tohomon Christmas](http://www.pokemonhackersonline.com/showthread.php?t=14172), custom-designed TohoWalker routes, and others.
 * Decorative features added to cities and routes, often from HG/SS.
 * HG/SS-style Town Map.
 
@@ -101,14 +101,14 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 ## Events
 
 * Team Rocket has another plan to thwart.
-* Random Wonder Trades in the Goldenrod PokéCom Center, including random held items and original trainers.
+* Random Wonder Trades in the Goldenrod TohoCom Center, including random held items and original trainers.
 * Catching all 26 Unown is worthwhile…
 * Move Reminder in the same house as the Move Deleter. (Code borrowed from TPP Anniversary Crystal, thanks to its developers graciously making [their source code](https://github.com/TwitchPlaysPokemon/tppcrystal251pub/) public.)
 * 21 move tutors throughout Johto and Kanto.
 * Falkner is in Dark Cave, encouraging you to beat Sprout Tower first.
 * Photographing your Tohomon at the Cianwood Photo Studio once a day now makes it happier, like haircuts or massages. (No more GameBoy Printer support.)
 * The Mystery Gift girl in Goldenrod Dept. Store gives you a random Berry once a day. (No more Mystery Gift support.)
-* The Poké Seer is replaced by the Stats Judge.
+* The Toho Seer is replaced by the Stats Judge.
 * Lt. Surge's electric fences are back.
 * Celadon Dept. Store now has a TV Game floor and a Home Decor wing.
 * Revised in-game trades.
@@ -138,7 +138,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 ## Items
 
 * Revised set of 65 TMs and 8 HMs.
-* Four new Poké Balls from Devon Corp.
+* Four new Toho Balls from Devon Corp.
 * Dome Fossil, Helix Fossil, and Old Amber. Revive them in the now-open Pewter Museum of Science.
 * All of the decorations for your room are available in different places.
 * Earn a Silver Trophy when you beat the Elite 4 and a Gold Trophy when you rematch them at higher levels.
@@ -222,7 +222,7 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * Unique mini sprites for each Tohomon (thanks to [this patch](http://www.pokecommunity.com/showthread.php?t=338470)).
 * Revised some shiny palettes (Dragonite is blue like Dragonair, EKongara is pink like ERika, Scizor is silver, Espeon is sky blue, Electabuzz is red, etc).
 * Unown isn't the only Tohomon with variant forms…
-* Color-coded starter Poké Balls.
+* Color-coded starter Toho Balls.
 * Item balls for TMs are blue (inspired by Gen VI's yellow).
 * Surfing on EKikuri uses the minigame music from Yellow version.
 
@@ -233,7 +233,7 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * Fast text by default.
 * Stereo sound by default.
 * Third Trainer Card page for Kanto badges.
-* Fourth stats page for capture data formerly told by the Poké Seer.
+* Fourth stats page for capture data formerly told by the Toho Seer.
 * Move stats include type, category, power, and accuracy.
 * The Mineral Badge, not Storm Badge, makes Tohomon up to L70 obey, like in HG/SS.
 * The Zephyr Badge lets you use traded Tohomon up to level 20, like in HG/SS.

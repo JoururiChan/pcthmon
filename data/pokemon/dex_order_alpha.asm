@@ -1,7 +1,7 @@
 ; Every Tohomon sorted alphabetically by name.
 
-AlphabeticalPokedexOrder:
-	table_width 2, AlphabeticalPokedexOrder
+AlphabeticalTohodexOrder:
+	table_width 2, AlphabeticalTohodexOrder
 	dp ABRA
 	dp AERODACTYL
 	dp AIPOM

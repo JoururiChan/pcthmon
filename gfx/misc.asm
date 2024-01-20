@@ -222,15 +222,15 @@ BillsPC_TileGFX::   INCBIN "gfx/pc/pc.2bpp.lz"
 BillsPC_ObjGFX::    INCBIN "gfx/pc/obj.2bpp.lz"
 
 
-SECTION "Pokedex Graphics", ROMX
+SECTION "Tohodex Graphics", ROMX
 
-PokedexTileLZ::     INCBIN "gfx/pokedex/pokedex.2bpp.lz"
-PokedexSlowpokeLZ:: INCBIN "gfx/pokedex/slowpoke.2bpp.lz"
+TohodexTileLZ::     INCBIN "gfx/pokedex/pokedex.2bpp.lz"
+TohodexSlowpokeLZ:: INCBIN "gfx/pokedex/slowpoke.2bpp.lz"
 QuestionMarkLZ::    INCBIN "gfx/pokedex/question_mark.2bpp.lz"
-PokedexObjLZ::      INCBIN "gfx/pokedex/oam.2bpp.lz"
+TohodexObjLZ::      INCBIN "gfx/pokedex/oam.2bpp.lz"
 
 
-SECTION "Pokedex Tilemaps", ROMX
+SECTION "Tohodex Tilemaps", ROMX
 
 DexTilemaps:
 DexTilemap_Main::        INCBIN "gfx/pokedex/main.bin.lz"

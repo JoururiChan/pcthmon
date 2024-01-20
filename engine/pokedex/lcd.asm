@@ -1,4 +1,4 @@
-Pokedex_Copy1bpp:
+Tohodex_Copy1bpp:
 ; Copies c tiles from b:hl to de. Avoids running Copy1bpp during HBlank.
 	push bc
 .loop
@@ -14,7 +14,7 @@ Pokedex_Copy1bpp:
 	call Copy1bpp
 	reti
 
-Pokedex_Get2bpp:
+Tohodex_Get2bpp:
 ; Copies c tiles from b:hl to de. Avoids running Copy2bpp during HBlank.
 	push bc
 .loop
@@ -32,7 +32,7 @@ Pokedex_Get2bpp:
 	call Get2bpp
 	reti
 
-Pokedex_SetTilemap:
+Tohodex_SetTilemap:
 ; Copies between wDexTilemap+wDexAttrmap (32x21) and wTilemap/wAttrmap (20x18).
 ; b controls the following:
 ; If bit 0 is set, copy from wDex*map instead of to it.
@@ -65,26 +65,26 @@ Pokedex_SetTilemap:
 	pop bc
 	ret
 
-Pokedex_RefreshScreen:
+Tohodex_RefreshScreen:
 ; Refreshes the screen. Prefer ScheduleScreenUpdate to reduce on needless
-; screen updates, which defers the refresh until Pokedex_GetInput.
+; screen updates, which defers the refresh until Tohodex_GetInput.
 	; Copy the normal tilemap to the larger dex tilemap.
 	ld b, 0
-	call Pokedex_SetTilemap
+	call Tohodex_SetTilemap
 
 	ld a, BANK(wDexTilemap)
 	call StackCallInWRAMBankA
 .Function:
 	; Reload dex number ball display
 	; Don't display a ball if mon isn't caught.
-	ld a, [wPokedexOAM_IsCaught]
+	ld a, [wTohodexOAM_IsCaught]
 	and a
 	ld a, $7f
 	ld [wDexNoStrBall], a
 	jr z, .dexno_ball_done
 
 	; Never display it in Bio/Stats/Area pages.
-	ld a, [wPokedex_DisplayMode]
+	ld a, [wTohodex_DisplayMode]
 	cp DEXDISP_BIO
 	jr nc, .dexno_ball_done
 
@@ -93,10 +93,10 @@ Pokedex_RefreshScreen:
 	ld [wDexNoStrBall], a
 
 .dexno_ball_done
-	call Pokedex_RefreshOAM
+	call Tohodex_RefreshOAM
 
 	call SetPalettes
-	ld hl, wPokedex_GFXFlags
+	ld hl, wTohodex_GFXFlags
 	set DEXGFX_TILEMAP, [hl]
 .tilemap_delay
 	call DelayFrame
@@ -104,7 +104,7 @@ Pokedex_RefreshScreen:
 	jr nz, .tilemap_delay
 	ret
 
-Pokedex_WriteOAMFromHL:
+Tohodex_WriteOAMFromHL:
 ; Writes d sprites starting from OAM sprite e.
 ; Input: bc = xy, d = length, e = starting OAM, [hl] = tiles, a = attributes
 	push de
@@ -114,13 +114,13 @@ Pokedex_WriteOAMFromHL:
 	ld l, a
 	ld h, d
 	ld d, 1
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 	ld a, h
 	pop hl
 	pop de
 	inc e
 	dec d
-	jr nz, Pokedex_WriteOAMFromHL
+	jr nz, Tohodex_WriteOAMFromHL
 	ret
 
 StackDexGraphics:
@@ -149,7 +149,7 @@ StackDexGraphics:
 
 	xor a
 	ldh [hBGMapMode], a
-	ld [wPokedex_PendingLYC], a
+	ld [wTohodex_PendingLYC], a
 
 	; Set up tile graphics
 	ldh a, [rSVBK]
@@ -159,9 +159,9 @@ StackDexGraphics:
 
 	; The reason we copy like this is because we want to copy some of the tiles
 	; to a template to write out VWF dex numbers later.
-	ld hl, PokedexTileLZ
+	ld hl, TohodexTileLZ
 	ld de, wDex2bpp
-	ld a, BANK(PokedexTileLZ)
+	ld a, BANK(TohodexTileLZ)
 	call FarDecompressToDE
 
 	; pokedex0
@@ -198,9 +198,9 @@ StackDexGraphics:
 	call Get1bpp
 
 	; slowpoke oam
-	ld hl, PokedexSlowpokeLZ
+	ld hl, TohodexSlowpokeLZ
 	ld de, vTiles3 tile $40
-	lb bc, BANK(PokedexSlowpokeLZ), $2d
+	lb bc, BANK(TohodexSlowpokeLZ), $2d
 	call DecompressRequest2bpp
 	xor a
 	ldh [rVBK], a
@@ -219,12 +219,12 @@ StackDexGraphics:
 	rst ByteFill
 	pop de
 	ld hl, vTiles0 tile $7f
-	lb bc, BANK(PokedexTileLZ), 1
+	lb bc, BANK(TohodexTileLZ), 1
 	call Get2bpp
 
-	ld hl, PokedexObjLZ
+	ld hl, TohodexObjLZ
 	ld de, vTiles0
-	lb bc, BANK(PokedexObjLZ), 31
+	lb bc, BANK(TohodexObjLZ), 31
 	call DecompressRequest2bpp
 
 	; Gender symbols
@@ -240,7 +240,7 @@ StackDexGraphics:
 	ld bc, NUM_POKEMON + $100 ; "+ $100" simplifies loop iteration
 .conversion_loop
 	push bc
-	ld hl, NewPokedexOrder
+	ld hl, NewTohodexOrder
 	add hl, de
 	add hl, de
 	ld a, [hli]
@@ -262,24 +262,24 @@ StackDexGraphics:
 	pop af
 	ldh [rSVBK], a
 
-	call Pokedex_InitData
+	call Tohodex_InitData
 
 	; Reset shininess and palettes for minis
 	xor a
-	ld [wPokedex_Personality], a
+	ld [wTohodex_Personality], a
 	dec a
-	ld hl, wPokedex_Pals
-	ld bc, wPokedex_PalsEnd - wPokedex_Pals
+	ld hl, wTohodex_Pals
+	ld bc, wTohodex_PalsEnd - wTohodex_Pals
 	rst ByteFill
 
 	; Prepare H-blank code.
 	ld hl, PHB_LCDCode
-	ld de, wLCDPokedex
+	ld de, wLCDTohodex
 	ld bc, PHB_LCDCode.End - PHB_LCDCode
 	rst CopyBytes
-	ld a, LOW(wLCDPokedex)
+	ld a, LOW(wLCDTohodex)
 	ldh [hFunctionTargetLo], a
-	ld a, HIGH(wLCDPokedex)
+	ld a, HIGH(wLCDTohodex)
 	ldh [hFunctionTargetHi], a
 
 	ld a, CGB_POKEDEX
@@ -295,7 +295,7 @@ StackDexGraphics:
 	call ClearPalettes
 	call ClearSprites
 	call ClearSpriteAnims
-	ld hl, wPokedex_GFXFlags
+	ld hl, wTohodex_GFXFlags
 	set DEXGFX_TILEMAP, [hl]
 .loop
 	bit DEXGFX_TILEMAP, [hl]
@@ -325,7 +325,7 @@ StackDexGraphics:
 	farcall _DecompressMetatiles
 
 	; If we're in "new dex description" mode, do a couple of more things.
-	ld a, [wPokedex_DisplayMode]
+	ld a, [wTohodex_DisplayMode]
 	cp DEXDISP_NEWDESC
 	ret nz
 
@@ -342,23 +342,23 @@ StackDexGraphics:
 	ld b, 2
 	jmp SafeCopyTilemapAtOnce
 
-Pokedex_RefreshOAM:
+Tohodex_RefreshOAM:
 ; Reloads OAM data.
 	; We really only use sprite anims for the list cursor, but calling this
 	; unconditionally also wipes the sprite table. Convenient!
 	farcall PlaySpriteAnimations
 
 	; Add "*No.123" back.
-	ld a, [wPokedexOAM_DexNoX]
+	ld a, [wTohodexOAM_DexNoX]
 	ld b, a
-	ld a, [wPokedexOAM_DexNoY]
+	ld a, [wTohodexOAM_DexNoY]
 	ld c, a
 	ld hl, wDexNoStr
 	lb de, 6, 34 ; length, OAM index
 	xor a ; attributes
-	call Pokedex_WriteOAMFromHL
+	call Tohodex_WriteOAMFromHL
 
-	ld a, [wPokedex_DisplayMode]
+	ld a, [wTohodex_DisplayMode]
 	sub DEXDISP_SEARCH
 	jr c, .indicator_done
 
@@ -385,22 +385,22 @@ Pokedex_RefreshOAM:
 	push hl
 	lb de, 1, 0 ; length, oam number
 	lb hl, 0, $17 ; attributes, tile id
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 
 	; Don't draw the middle menu options if mon isn't caught§
-	ld a, [wPokedexOAM_IsCaught]
+	ld a, [wTohodexOAM_IsCaught]
 	and a
 	jr z, .pop_hl_indicator_oam
 
 	; Bio
 	ld b, $42
 	ld d, 2
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 
 	; Stats
 	ld b, $5b
 	ld d, 3
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 
 .pop_hl_indicator_oam
 	pop hl
@@ -417,7 +417,7 @@ Pokedex_RefreshOAM:
 	jr nz, .indicator_ok
 	jr .indicator_done
 .fix_indicator
-	ld a, [wPokedex_OtherForm]
+	ld a, [wTohodex_OtherForm]
 	rra
 	jr nc, .indicator_done
 
@@ -434,11 +434,11 @@ Pokedex_RefreshOAM:
 	ld l, a
 	ld h, 1
 	ld e, 9
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 
 .indicator_done
 	; These need additional sprite handling, handled seperately.
-	ld a, [wPokedex_DisplayMode]
+	ld a, [wTohodex_DisplayMode]
 	cp DEXDISP_STATS
 	jr nz, .not_stats
 
@@ -447,31 +447,31 @@ Pokedex_RefreshOAM:
 	lb de, 1, 15
 	lb hl, 0, $1d
 
-	ldh a, [hPokedexStatsCurAbil]
+	ldh a, [hTohodexStatsCurAbil]
 	cp 2 ; 0/1/2 -> 1/2/H
 	jr z, .got_ability
 	add "1"
 	ld l, a
 .got_ability
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 
 	; (A) button for ability display
 	ld b, 92
 	ld d, 2
 	lb hl, VRAM_BANK_1 | 1, $3d
-	jr Pokedex_WriteOAM
+	jr Tohodex_WriteOAM
 
 .not_stats
 	cp DEXDISP_SEARCH
 	jr z, .search
 	cp DEXDISP_AREA
-	jmp z, Pokedex_GetAreaOAM
+	jmp z, Tohodex_GetAreaOAM
 	and a ; cp DEXDISP_MAIN
-	jr z, Pokedex_GetMainOAM
+	jr z, Tohodex_GetMainOAM
 	ret
 
 .search
-	ld a, [wPokedex_SearchInProgress]
+	ld a, [wTohodex_SearchInProgress]
 	and a
 	ret nz
 
@@ -484,7 +484,7 @@ Pokedex_RefreshOAM:
 	ld b, 120
 	ld d, 3
 	push af
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 	ld a, l
 	add 12
 	ld l, a
@@ -496,20 +496,20 @@ Pokedex_RefreshOAM:
 	jr nz, .search_loop
 	ret
 
-Pokedex_WriteOAMSingleTile:
+Tohodex_WriteOAMSingleTile:
 ; Writes a line of sprites, all with the same tile ID.
 	ld a, d
 .loop
 	push af
 	ld d, 1
-	call Pokedex_WriteOAM
+	call Tohodex_WriteOAM
 	dec l
 	pop af
 	dec a
 	jr nz, .loop
 	ret
 
-Pokedex_WriteOAM:
+Tohodex_WriteOAM:
 ; Writes d sprites starting from OAM sprite e.
 ; Input: bc = xy, d = length, e = starting OAM, h = attributes, l = tile ID
 	push de
@@ -537,11 +537,11 @@ Pokedex_WriteOAM:
 	inc l ; next tile
 	inc e ; next OAM
 	dec d
-	jr nz, Pokedex_WriteOAM
+	jr nz, Tohodex_WriteOAM
 	ret
 
-Pokedex_GetMainOAM:
-	; Poké balls
+Tohodex_GetMainOAM:
+	; Toho balls
 	ld hl, wShadowOAMSprite12
 	lb bc, 12, 5
 	xor a
@@ -592,13 +592,13 @@ Pokedex_GetMainOAM:
 	ld hl, hMultiplicand
 	ld [hli], a
 	ld [hli], a
-	ld a, [wPokedex_Offset]
+	ld a, [wTohodex_Offset]
 	ld [hli], a
 	ld a, 55
 	ldh [hMultiplier], a
 	farcall Multiply
 	ld b, 4
-	ld a, [wPokedex_Rows]
+	ld a, [wTohodex_Rows]
 	sub 3
 	ldh [hDivisor], a
 	ld a, 0 ; no-optimize a = 0
@@ -619,7 +619,7 @@ Pokedex_GetMainOAM:
 	ld [hli], a
 	ret
 
-Pokedex_SetHBlankFunction:
+Tohodex_SetHBlankFunction:
 	; Don't run this 1 scanline before the LYC to be set.
 	push de
 	ld d, a
@@ -631,14 +631,14 @@ Pokedex_SetHBlankFunction:
 	ld a, d
 	pop de
 	; fallthrough
-Pokedex_UnsafeSetHBlankFunction:
+Tohodex_UnsafeSetHBlankFunction:
 ; Can be used by H-blank functions for sequential triggers, since those use
 ; consistent timings and don't require the error-checking.
 	ldh [rLYC], a
 	ld a, e
-	ld [wPokedex_HBlankFunction], a
+	ld [wTohodex_HBlankFunction], a
 	ld a, d
-	ld [wPokedex_HBlankFunction + 1], a
+	ld [wTohodex_HBlankFunction + 1], a
 	ret
 
 ; Tohodex HBlank/VBlank functions.
@@ -651,19 +651,19 @@ Pokedex_UnsafeSetHBlankFunction:
 ; doublespeed while worst-case mode0 is 37 after factoring in interrupt latency.
 PHB_LCDCode:
 LOAD UNION "Misc 404", WRAM0
-wLCDPokedex::
+wLCDTohodex::
 	ldh a, [hROMBank]
 	ldh [hROMBankBackup], a
 	ld a, BANK(PHB_LCDCode)
 	rst Bankswitch
 	db $cd ; call
-wPokedex_HBlankFunction::
+wTohodex_HBlankFunction::
 	dw DoNothing ; replaced with the actual function
 	ldh a, [hROMBankBackup]
 	rst Bankswitch
 	pop af
 	reti
-wLCDPokedexEnd::
+wLCDTohodexEnd::
 ENDL
 .End:
 
@@ -719,7 +719,7 @@ PHB_DoSwitchSCY:
 	ld a, h
 	ldh [rSCY], a
 	ld a, l
-	call Pokedex_UnsafeSetHBlankFunction
+	call Tohodex_UnsafeSetHBlankFunction
 	jmp PopBCDEHL
 
 PHB_DescSwitchSCY:
@@ -760,15 +760,15 @@ PHB_SearchSetOAM:
 	push hl
 	push de
 	push bc
-	ld a, [wPokedex_SearchInProgress]
+	ld a, [wTohodex_SearchInProgress]
 	and a
 	jr z, .oam_done
-	call Pokedex_RefreshOAM
+	call Tohodex_RefreshOAM
 	call ForcePushOAM
 .oam_done
 	ld a, $88
 	ld de, PHB_SearchSwitchSCY2
-	call Pokedex_UnsafeSetHBlankFunction
+	call Tohodex_UnsafeSetHBlankFunction
 	jmp PopBCDEHL
 
 PHB_SearchSwitchSCY2:
@@ -790,39 +790,39 @@ PHB_Row1:
 	push hl
 	push de
 	push bc
-	ld hl, wPokedex_Row1
+	ld hl, wTohodex_Row1
 	ld d, 80
 	call PHB_LoadRow
 
 	ld a, $57
 	ld de, PHB_Row2
-	call Pokedex_UnsafeSetHBlankFunction
+	call Tohodex_UnsafeSetHBlankFunction
 	jmp PopBCDEHL
 
 PHB_Row2:
 	push hl
 	push de
 	push bc
-	ld hl, wPokedex_Row2
+	ld hl, wTohodex_Row2
 	ld d, 104
 	call PHB_LoadRow
 
 	ld a, $6f
 	ld de, PHB_Row3
-	call Pokedex_UnsafeSetHBlankFunction
+	call Tohodex_UnsafeSetHBlankFunction
 	jmp PopBCDEHL
 
 PHB_Row3:
 	push hl
 	push de
 	push bc
-	ld hl, wPokedex_Row3
+	ld hl, wTohodex_Row3
 	ld d, 128
 	call PHB_LoadRow
 
 	ld a, $87
 	ld de, PHB_MainResetLCDC
-	call Pokedex_UnsafeSetHBlankFunction
+	call Tohodex_UnsafeSetHBlankFunction
 	jmp PopBCDEHL
 
 PHB_MainResetLCDC:
@@ -831,7 +831,7 @@ PHB_MainResetLCDC:
 	push bc
 	ld a, $3f
 	ld de, PHB_Row1
-	call Pokedex_UnsafeSetHBlankFunction
+	call Tohodex_UnsafeSetHBlankFunction
 .loop
 	ldh a, [rSTAT]
 	and rSTAT_MODE_MASK ; wait until mode 0
@@ -999,8 +999,8 @@ endr
 	ret
 
 PVB_UpdateDexMap::
-; Reloads dex gfx data depending on wPokedex_GFXFlags.
-	ld hl, wPokedex_GFXFlags
+; Reloads dex gfx data depending on wTohodex_GFXFlags.
+	ld hl, wTohodex_GFXFlags
 	ld a, [hl]
 	and a
 	ret z
@@ -1036,7 +1036,7 @@ PVB_UpdateDexMap::
 
 	; done with time-critical activities
 
-	ld a, [wPokedex_DisplayMode]
+	ld a, [wTohodex_DisplayMode]
 	cp DEXDISP_AREA
 	jr nz, .no_area
 
@@ -1045,7 +1045,7 @@ PVB_UpdateDexMap::
 	ld [wDexAreaMonOffset], a
 
 	; wDexAreaModeCopy is used by h-blank
-	ldh a, [hPokedexAreaMode]
+	ldh a, [hTohodexAreaMode]
 	ld [wDexAreaModeCopy], a
 
 	ld hl, wShadowOAM
@@ -1058,20 +1058,20 @@ PVB_UpdateDexMap::
 	and a ; cp DEXDISP_MAIN
 	jr nz, .done_copy
 	ld hl, wDexPalCopy
-	ld de, wPokedex_Pals
-	ld bc, wPokedex_PalsEnd - wPokedex_Pals
+	ld de, wTohodex_Pals
+	ld bc, wTohodex_PalsEnd - wTohodex_Pals
 	rst CopyBytes
 
 .done_copy
 	; update HBlank trigger if applicable
-	ld a, [wPokedex_PendingLYC]
+	ld a, [wTohodex_PendingLYC]
 	and a
 	jmp z, .done
 	ldh [rLYC], a
 	xor a
-	ld [wPokedex_PendingLYC], a
-	ld hl, wPokedex_PendingHBlankFunction
-	ld de, wPokedex_HBlankFunction
+	ld [wTohodex_PendingLYC], a
+	ld hl, wTohodex_PendingHBlankFunction
+	ld de, wTohodex_HBlankFunction
 	ld a, [hli]
 	ld [de], a
 	inc de
@@ -1084,7 +1084,7 @@ PVB_UpdateDexMap::
 	res DEXGFX_FRONTPIC, [hl]
 	jr z, .frontpic_done
 
-	ld a, [wPokedex_MonInfoBank]
+	ld a, [wTohodex_MonInfoBank]
 	ldh [rVBK], a
 	ld a, BANK(wDecompressScratch)
 	ldh [rSVBK], a
@@ -1099,7 +1099,7 @@ PVB_UpdateDexMap::
 	bit DEXGFX_POKEINFO, [hl]
 	res DEXGFX_POKEINFO, [hl]
 	jr z, .pokeinfo_done
-	ld a, [wPokedex_MonInfoBank]
+	ld a, [wTohodex_MonInfoBank]
 	ldh [rVBK], a
 	ld de, wDexMonType1Tiles
 	ld bc, vTiles2 tile $71
@@ -1113,11 +1113,11 @@ PVB_UpdateDexMap::
 	res DEXGFX_ICONSHAPE, [hl]
 	jr z, .iconshape_done
 
-	ld a, [wPokedex_MonInfoBank]
+	ld a, [wTohodex_MonInfoBank]
 	swap a
 	rrca
 	ld c, a
-	ld a, [wPokedex_FirstIconTile]
+	ld a, [wTohodex_FirstIconTile]
 	add c
 	swap a
 	ld c, a
@@ -1126,7 +1126,7 @@ PVB_UpdateDexMap::
 	ld b, a
 	ld a, c
 	and $f0
-	ld c, a ; ld bc, vTiles4 tile (wPokedex_FirstIconTile + wPokedex_MonInfoBank * 8)
+	ld c, a ; ld bc, vTiles4 tile (wTohodex_FirstIconTile + wTohodex_MonInfoBank * 8)
 	ld de, wDexMonIconTiles
 	ld a, 7
 	call GDMACopy

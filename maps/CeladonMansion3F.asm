@@ -31,12 +31,12 @@ GameFreakGameDesignerScript:
 	writetext GameFreakGameDesignerText
 	setval16 NUM_POKEMON
 	special CountCaught
-	iftruefwd .CompletedPokedex
+	iftruefwd .CompletedTohodex
 	waitendtext
 
-.CompletedPokedex:
+.CompletedTohodex:
 	promptbutton
-	writetext GameFreakGameDesignerCompletedPokedexText
+	writetext GameFreakGameDesignerCompletedTohodexText
 	playsound SFX_DEX_FANFARE_230_PLUS
 	waitsfx
 	writetext GameFreakGameDesignerPauseForDiplomaText
@@ -74,7 +74,7 @@ GameFreakGameDesignerText:
 	cont "but don't give up!"
 	done
 
-GameFreakGameDesignerCompletedPokedexText:
+GameFreakGameDesignerCompletedTohodexText:
 	text "Wow! Excellent!"
 	line "You completed your"
 	cont "#dex!"

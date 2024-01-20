@@ -129,7 +129,7 @@ MomPhoneNoPokemonText:
 	cont "waiting for you?"
 	done
 
-MomPhoneNoPokedexText:
+MomPhoneNoTohodexText:
 	text "Hello?"
 
 	para "Oh, hi, <PLAYER>!"

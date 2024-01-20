@@ -113,7 +113,7 @@ GetWildLocations:
 	ld a, [hld]
 	ld e, a
 	ld a, -1
-	farcall Pokedex_SetWildLandmark
+	farcall Tohodex_SetWildLandmark
 	pop af
 	ld d, a
 	xor a ; set zero flag to mark at least one capture

@@ -235,7 +235,7 @@ StatsScreen_InitUpperHalf:
 	ld c, a
 	ld a, [wCurForm]
 	ld b, a
-	call GetPokedexNumber
+	call GetTohodexNumber
 	ld d, b
 	ld e, c
 	hlcoord 8, 0
