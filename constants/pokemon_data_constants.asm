@@ -322,7 +322,7 @@ DEF NUM_HOF_TEAMS EQU 10
 ; multi_evo types for Lyra's info (used in data/pokemon/multi_evos.asm)
 	const EVOLVE_EGG
 	const EVOLVE_EKIKURI
-	const EVOLVE_GLOOM
+	const EVOLVE_CKANA
 	const EVOLVE_POLIWHIRL
 	const EVOLVE_SLOWPOKE
 	const EVOLVE_SLOWPOKE_GALARIAN

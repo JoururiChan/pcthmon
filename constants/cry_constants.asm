@@ -10,10 +10,10 @@
 	const CRY_GRIMER
 	const CRY_VOLTORB
 	const CRY_MUK
-	const CRY_ODDISH
+	const CRY_EKOTOHIME
 	const CRY_CSARIEL
 	const CRY_EKONGARA
-	const CRY_DIGLETT
+	const CRY_CCHIYURI
 	const CRY_SEEL
 	const CRY_DROWZEE
 	const CRY_EMAGAN
@@ -28,16 +28,16 @@
 	const CRY_CKIKURI
 	const CRY_SHELLDER
 	const CRY_CMEIRA
-	const CRY_VENONAT
+	const CRY_RIKAKO
 	const CRY_LAPRAS
 	const CRY_MGYOKU
 	const CRY_CSAKUYA
-	const CRY_PARAS
+	const CRY_EKANA
 	const CRY_GROWLITHE
 	const CRY_KRABBY
-	const CRY_PSYDUCK
+	const CRY_YUMEMI
 	const CRY_EMIMA
-	const CRY_VILEPLUME
+	const CRY_KANA
 	const CRY_EMEIRA
 	const CRY_WEEPINBELL
 

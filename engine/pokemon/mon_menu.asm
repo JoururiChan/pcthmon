@@ -1234,7 +1234,7 @@ MoveScreenLoop:
 	; So swapping in the moves screen swap our original moves, while
 	; swapping in the battle interface swaps our temporary moves.
 	ld a, [wPlayerSubStatus2]
-	bit SUBSTATUS_TRANSFORMED, a
+	bit SUBSTATUS_RECOLLECTED, a
 	jr nz, .regular_swap_move
 	ld a, [wMoveScreenCursor]
 	inc a

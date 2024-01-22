@@ -51,9 +51,9 @@
 
 	def_water_wildmons ILEX_FOREST
 	db 2 percent ; encounter rate
-	wildmon 15, PSYDUCK
-	wildmon 10, PSYDUCK
-	wildmon 15, GOLDUCK
+	wildmon 15, YUMEMI
+	wildmon 10, YUMEMI
+	wildmon 15, EYUMEMI
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -101,7 +101,7 @@
 	def_water_wildmons SILVER_CAVE_ROOM_2
 	db 2 percent ; encounter rate
 	wildmon 75, SEADRA
-	wildmon 75, GOLDUCK
+	wildmon 75, EYUMEMI
 	wildmon 75, KINGDRA
 	end_water_wildmons
 
@@ -121,9 +121,9 @@
 
 	def_water_wildmons GOLDENROD_HARBOR
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, PSYDUCK
-	wildmon LEVEL_FROM_BADGES - 5, PSYDUCK
-	wildmon LEVEL_FROM_BADGES + 0, GOLDUCK
+	wildmon LEVEL_FROM_BADGES + 0, YUMEMI
+	wildmon LEVEL_FROM_BADGES - 5, YUMEMI
+	wildmon LEVEL_FROM_BADGES + 0, EYUMEMI
 	end_water_wildmons
 
 	def_water_wildmons DRAGONS_DEN_B1F
@@ -170,9 +170,9 @@
 
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
-	wildmon 20, PSYDUCK
-	wildmon 15, PSYDUCK
-	wildmon 20, GOLDUCK
+	wildmon 20, YUMEMI
+	wildmon 15, YUMEMI
+	wildmon 20, EYUMEMI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_40
@@ -261,9 +261,9 @@
 
 	def_water_wildmons GOLDENROD_CITY
 	db 4 percent ; encounter rate
-	wildmon 20, PSYDUCK
-	wildmon 15, PSYDUCK
-	wildmon 20, GOLDUCK
+	wildmon 20, YUMEMI
+	wildmon 15, YUMEMI
+	wildmon 20, EYUMEMI
 	end_water_wildmons
 
 	def_water_wildmons OLIVINE_CITY
@@ -283,7 +283,7 @@
 	def_water_wildmons ECRUTEAK_SHRINE_OUTSIDE
 	db 2 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, POLIWAG
-	wildmon LEVEL_FROM_BADGES - 5, PSYDUCK
+	wildmon LEVEL_FROM_BADGES - 5, YUMEMI
 	wildmon LEVEL_FROM_BADGES + 0, POLIWHIRL
 	end_water_wildmons
 
@@ -354,7 +354,7 @@
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 4, MARILL
 	wildmon LEVEL_FROM_BADGES - 4, EKIKURI
-	wildmon LEVEL_FROM_BADGES - 4, PSYDUCK
+	wildmon LEVEL_FROM_BADGES - 4, YUMEMI
 	end_water_wildmons
 
 	def_water_wildmons QUIET_CAVE_B1F

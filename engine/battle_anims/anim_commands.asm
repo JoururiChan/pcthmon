@@ -274,7 +274,7 @@ BattleAnimCommands::
 	dw BattleAnimCmd_BattlerGFX_1Row
 	dw BattleAnimCmd_BattlerGFX_2Row
 	dw BattleAnimCmd_CheckPokeball
-	dw BattleAnimCmd_Transform
+	dw BattleAnimCmd_Recollect
 	dw BattleAnimCmd_RaiseSub
 	dw BattleAnimCmd_DropSub
 	dw BattleAnimCmd_ResetObp0
@@ -805,7 +805,7 @@ BattleAnimCmd_CheckPokeball:
 	ld [wBattleAnimVar], a
 	ret
 
-BattleAnimCmd_Transform:
+BattleAnimCmd_Recollect:
 	ldh a, [rSVBK]
 	push af
 	ld a, 1

@@ -1157,7 +1157,7 @@ CoinsScatteredText:
 	line "everywhere!"
 	prompt
 
-TransformedTypeText:
+RecollectedTypeText:
 	text "<USER>"
 	line "became the"
 	cont ""
@@ -1170,7 +1170,7 @@ EliminatedStatsText:
 	line "were eliminated!"
 	prompt
 
-TransformedText:
+RecollectedText:
 	text "<USER>"
 	line "transformed into"
 	cont ""

@@ -16,7 +16,7 @@ BattleCommand_sketch:
 	; If the user is transformed, fail.
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVarAddr
-	bit SUBSTATUS_TRANSFORMED, [hl]
+	bit SUBSTATUS_RECOLLECTED, [hl]
 	jr nz, .fail
 
 	; Get the battle move structs.

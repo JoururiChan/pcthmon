@@ -59,7 +59,7 @@ endc
 	add_tm METEOR_FALL ; $22
 	add_tm SLUDGE_BOMB  ; $23
 	add_tm SANDSTORM    ; $24
-	add_tm FIRE_BLAST   ; $25
+	add_tm HELL_TOKAMAK   ; $25
 	add_tm SWIFT        ; $26
 	add_tm AERIAL_ACE   ; $27
 	add_tm SUBSTITUTE   ; $28
@@ -77,7 +77,7 @@ endc
 	add_tm SPORE  ; $34
 	add_tm BLADE_FLASH  ; $35
 	add_tm SCALD        ; $36
-	add_tm X_SCISSOR    ; $37
+	add_tm ICHIGO_CROSS    ; $37
 	add_tm KNIFE_THROW  ; $38
 	add_tm DARK_PULSE   ; $39
 	add_tm DRAGON_PULSE ; $3a
@@ -89,7 +89,7 @@ endc
 	add_tm SHADOW_HIT  ; $40
 	add_tm POISON_JAB   ; $41
 	add_tm AVALANCHE    ; $42
-	add_tm GIGA_IMPACT  ; $43
+	add_tm GUNGNIR  ; $43
 	add_tm U_TURN       ; $44
 	add_tm FLASH        ; $45
 	add_tm STONE_EDGE   ; $46

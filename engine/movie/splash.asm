@@ -200,7 +200,7 @@ GameFreakLogoScenes:
 	dw GameFreakLogo_Init
 	dw GameFreakLogo_Bounce
 	dw GameFreakLogo_Ditto
-	dw GameFreakLogo_Transform
+	dw GameFreakLogo_Recollect
 	dw DoNothing
 
 GameFreakLogo_Init:
@@ -278,10 +278,10 @@ GameFreakLogo_Ditto:
 	ld hl, SPRITEANIMSTRUCT_VAR2
 	add hl, bc
 	ld [hl], 0
-	ld de, SFX_DITTO_TRANSFORM
+	ld de, SFX_DITTO_RECOLLECT
 	jmp PlaySFX
 
-GameFreakLogo_Transform:
+GameFreakLogo_Recollect:
 	ld hl, SPRITEANIMSTRUCT_VAR2
 	add hl, bc
 	ld a, [hl]

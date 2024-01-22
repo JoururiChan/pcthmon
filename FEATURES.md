@@ -20,7 +20,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 ## Moves
 
-* Added: Aerial Ace, Air Slash, Aqua Tail, Astonish, Avalanche, Bug Buzz, Bulk Up, Bullet Punch, Calm Mind, Dark Pulse, Energy Light, Disarm Voice, Dragon Claw, Dragon Dance, Dragon Pulse, Drain Kiss, Earth Power, Dream Heaven, Extrasensory, Fairy Wind, Flare Blitz, Flash Cannon, Focus Blast, Gunk Shot, Hail, Hex, Hone Tools, Hurricane, Hyper Voice, Ice Shard, Icicle Crash, Iron Head, Metal Sound, Moonblast, Nasty Plot, Night Slash, Play Rough, Poison Jab, Power Gem, Psystrike, Scald, Seed Bomb, Shadow Hit, Stone Edge, Water Pulse, Blaze Star, Will-O-Wisp, X-Scissor, and Zen Headbutt.
+* Added: Aerial Ace, Air Slash, Aqua Tail, Astonish, Avalanche, Bug Buzz, Bulk Up, Steel Fist, Calm Mind, Dark Pulse, Energy Light, Disarm Voice, Dragon Claw, Dragon Dance, Dragon Pulse, Drain Kiss, Earth Power, Dream Heaven, Extrasensory, Fairy Wind, Lavatein, Flash Cannon, Focus Blast, Gunk Shot, Hail, Hex, Hone Tools, Hurricane, Hyper Voice, Ice Shard, Icicle Crash, Iron Head, Metal Sound, Moonblast, Nasty Plot, Night Slash, Play Rough, Poison Jab, Power Gem, Psystrike, Scald, Seed Bomb, Shadow Hit, Stone Edge, Water Pulse, Blaze Star, Will-O-Wisp, Ichigo Cross, and Zen Headbutt.
 * Removed: Acid Armor, Amnesia, Barrage, Beat Up, Bide, Bind, Bone Club, Bone Rush, Bubble, Clamp, Comet Punch, Constrict, Conversion2, Cotton Spore, Detect, Fissure, Frustration, Guillotine, Horn Drill, Jump Kick, Kinesis, Lovely Kiss, Meditate, Mega Kick, Mega Punch, Mimic, Mind Reader, Mirror Move, Poison Gas, Powder Snow, Present, Psych Up, Psywave, Razor Wind, Rolling Kick, Sharpen, Skull Bash, Smog, Snore, Spider Web, Spite, Sweet Scent, Synthesis, Tail Whip, Vice Grip, and Withdraw.
 * Learnsets have been updated close to Gen VI, with missing moves replaced by similar, egg, TM, or event-exclusive moves.
 
@@ -38,19 +38,19 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Type-enhancing items raise by 20%, not 10%.
 * Light Ball doubles EKikuri's Attack as well as Special Attack.
 * Critical hits do 150% damage, not 200%, but are more likely.
-* Electric-type Tohomon are immune to paralysis, even from Tri Attack.
-* Ice-type Tohomon are immune to freezing, even from Tri Attack.
-* Fire-type Tohomon are immune to burns, even from Tri Attack.
+* Electric-type Tohomon are immune to paralysis, even from Five Elements.
+* Ice-type Tohomon are immune to freezing, even from Five Elements.
+* Fire-type Tohomon are immune to burns, even from Five Elements.
 * Steel-type Tohomon are immune to poisoning.
 * Poison-type Tohomon always hit with Toxic.
 * Curse is Ghost-type.
 * Roar, Whirlwind, and Struggle are unaffected by accuracy or evasion, like Swift.
 * Growth raises Attack and Special Attack, by two stages in sunlight.
 * Hidden Power is always 70 power.
-* Double-Edge and Flare Blitz do 33% recoil damage.
+* Double-Edge and Lavatein do 33% recoil damage.
 * Twineedle checks for poison after each hit.
 * Sandstorm does 1/16 damage per turn.
-* Substitute blocks Transform, Swagger, and trapping moves; does not block draining moves; and prevents gaining money from Pay Day.
+* Substitute blocks Recollect, Swagger, and trapping moves; does not block draining moves; and prevents gaining money from Pay Day.
 * Protect works from behind a Substitute.
 * Struggle does 25% of max HP recoil damage.
 * Sleep lasts 1-3 turns, not 1-7.
@@ -177,11 +177,11 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Many base stat changes, mostly based on [Drayano's Sacred Gold/Storm Silver](https://gbatemp.net/threads/pok%C3%A9mon-sacred-gold-storm-silver.327567/).
 * ESakuya is Water/Steel.
 * FGyoku is Bug/Psychic.
-* Meowth and Persian are Dark.
+* EChiyuri and CYumemi are Dark.
 * Grimer and Muk are Poison/Dark.
 * Farfetch'd is Fighting/Flying.
-* Ninetales is Fire/Ghost.
-* Golduck is Water/Psychic.
+* CEllen is Fire/Ghost.
+* EYumemi is Water/Psychic.
 * EYoumu is Grass/Fairy.
 * EReisen is Fire/Ground.
 * ESanae is Water/Dark.

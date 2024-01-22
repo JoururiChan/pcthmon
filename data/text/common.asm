@@ -317,8 +317,8 @@ _LookCMeiraPosterText::
 	line "cute CMeira."
 	done
 
-SECTION "_LookJigglypuffPosterText", ROMX
-_LookJigglypuffPosterText::
+SECTION "_LookEllenPosterText", ROMX
+_LookEllenPosterText::
 	text "It's a poster of a"
 	line "cute Marill."
 	done

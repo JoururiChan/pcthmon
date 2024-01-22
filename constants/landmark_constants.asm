@@ -88,7 +88,7 @@ DEF KANTO_LANDMARK EQU const_value
 	const UNDERGROUND        ; 53
 	const ROUTE_6            ; 54
 	const VERMILION_CITY     ; 55
-	const DIGLETTS_CAVE      ; 56
+	const CCHIYURIS_CAVE      ; 56
 	const ROUTE_7            ; 57
 	const ROUTE_8            ; 58
 	const ROUTE_9            ; 59

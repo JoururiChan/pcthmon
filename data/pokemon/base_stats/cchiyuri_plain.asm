@@ -1,15 +1,15 @@
-	db  10,  55,  25,  95,  35,  45 ; 265 BST
+	db  30,  40,  25,  43,  55,  20 ; 265 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GROUND, GROUND ; type
-	db 255 ; catch rate
-	db 81 ; base exp
+	db WATER, ELECTRIC ; type
+	db 125 ; catch rate
+	db 115 ; base exp
 	db NO_ITEM, SOFT_SAND ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for DIGLETT, SAND_VEIL, ARENA_TRAP, SAND_FORCE
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for CCHIYURI, STATIC, SWIFT_SWIM, SWIFT_SWIM
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_WATER_1, EGG_GROUND ; egg groups
 
 	ev_yield 1 Spe
 

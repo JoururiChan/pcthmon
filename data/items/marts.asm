@@ -166,7 +166,7 @@ Goldenrod5FTMMart:
 	dbw TM_LIGHT_SCREEN,  10000
 	dbw TM_FLOWER_SHOOT,    25000
 	dbw TM_THUNDER,       30000
-	dbw TM_FIRE_BLAST,    30000
+	dbw TM_HELL_TOKAMAK,    30000
 	dbw TM_BLIZZARD,      30000
 	dbw TM_AEROBLAST,    50000
 	db -1

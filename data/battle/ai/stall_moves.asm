@@ -24,9 +24,9 @@ StallMoves:
 	db SCREECH
 	db SKILL_SWAP
 	db SPLASH
-	db STRING_SHOT
+	db DOLL_STRINGS
 	db SUBSTITUTE
 	db SWORDS_DANCE
-	db TRANSFORM
+	db RECOLLECT
 	db TRICK
 	db -1 ; end

@@ -17,7 +17,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_Drop
 	dw BattleAnimFunction_MoveFromUserToTargetSpinAround
 	dw BattleAnimFunction_Shake
-	dw BattleAnimFunction_FireBlast
+	dw BattleAnimFunction_HellTokamak
 	dw BattleAnimFunction_RazorLeaf
 	dw BattleAnimFunction_Bubble
 	dw BattleAnimFunction_Surf
@@ -677,7 +677,7 @@ BattleAnimFunction_Shake:
 	ld [hl], a
 	ret
 
-BattleAnimFunction_FireBlast:
+BattleAnimFunction_HellTokamak:
 	call BattleAnim_AnonJumptable
 .anon_dw
 	dw .zero

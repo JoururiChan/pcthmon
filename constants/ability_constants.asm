@@ -56,10 +56,10 @@
 	const PICKUP
 	const HUSTLE
 	const CUTE_CHARM
-	const STICKY_HOLD
+	const COLLECTOR
 	const SHED_SKIN
 	const GUTS
-	const MARVEL_SCALE
+	const SPRING_CHARM
 	const LIQUID_OOZE
 	const OVERGROW
 	const BLAZE

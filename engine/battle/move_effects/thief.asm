@@ -9,7 +9,7 @@ BattleCommand_thief:
 	ret nc
 	; Can't due to an ability. Maybe do ability display.
 
-	call CheckStickyHold
+	call CheckCollector
 	ret nz
 
 .ok
@@ -43,12 +43,12 @@ BattleCommand_thief:
 	ld [hl], a
 	ret
 
-CheckStickyHold:
-; Returns nz if opponent Sticky Hold is in effect.
+CheckCollector:
+; Returns nz if opponent Collector is in effect.
 	call HasOpponentFainted
 	ret z
 	call GetOpponentAbilityAfterMoldBreaker
-	cp STICKY_HOLD
+	cp COLLECTOR
 	jr nz, .no_sticky_hold
 
 	; Don't display anything if we're in Pickpocket
@@ -77,9 +77,9 @@ CanStealItem:
 	and a
 	ret nz
 
-	; Sticky Hold prevents item theft
+	; Collector prevents item theft
 	call GetOpponentAbilityAfterMoldBreaker
-	cp STICKY_HOLD
+	cp COLLECTOR
 	jr z, .cant_ability
 
 	call OpponentCanLoseItem

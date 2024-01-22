@@ -50,7 +50,7 @@ PokefanmTrevorSeenText:
 
 PokefanmTrevorBeatenText:
 	text "Where did I meet"
-	line "this Psyduck?"
+	line "this Yumemi?"
 	done
 
 GenericTrainerPokefanmCarter:

@@ -65,8 +65,8 @@ INCBIN "gfx/mail/sentret.1bpp"
 PortraitMailLargePokeballGFX:
 INCBIN "gfx/mail/large_pokeball.1bpp"
 
-MailOddishGFX:
-INCBIN "gfx/mail/oddish.1bpp"
+MailEKotohimeGFX:
+INCBIN "gfx/mail/ekotohime.1bpp"
 
 SurfLiteBlueMailLargeShapesGFX:
 INCBIN "gfx/mail/large_triangle.1bpp"

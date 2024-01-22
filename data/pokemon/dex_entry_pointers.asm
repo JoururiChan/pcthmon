@@ -38,24 +38,24 @@ TohodexDataPointerTable:
 	dba CMeiraTohodexEntry
 	dba MeiraTohodexEntry
 	dba EMeiraPlainTohodexEntry
-	dba NinetalesPlainTohodexEntry
-	dba JigglypuffTohodexEntry
-	dba WigglytuffTohodexEntry
-	dba ZubatTohodexEntry
-	dba GolbatTohodexEntry
-	dba OddishTohodexEntry
-	dba GloomTohodexEntry
-	dba VileplumeTohodexEntry
-	dba ParasTohodexEntry
-	dba ParasectTohodexEntry
-	dba VenonatTohodexEntry
-	dba VenomothTohodexEntry
-	dba DiglettPlainTohodexEntry
-	dba DugtrioPlainTohodexEntry
-	dba MeowthPlainTohodexEntry
-	dba PersianPlainTohodexEntry
-	dba PsyduckTohodexEntry
-	dba GolduckTohodexEntry
+	dba CEllenPlainTohodexEntry
+	dba EllenTohodexEntry
+	dba EEllenTohodexEntry
+	dba CKotohimeTohodexEntry
+	dba KotohimeTohodexEntry
+	dba EKotohimeTohodexEntry
+	dba CKanaTohodexEntry
+	dba KanaTohodexEntry
+	dba EKanaTohodexEntry
+	dba CRikakoTohodexEntry
+	dba RikakoTohodexEntry
+	dba ERikakoTohodexEntry
+	dba CChiyuriPlainTohodexEntry
+	dba ChiyuriPlainTohodexEntry
+	dba EChiyuriPlainTohodexEntry
+	dba CYumemiPlainTohodexEntry
+	dba YumemiTohodexEntry
+	dba EYumemiTohodexEntry
 	dba MankeyTohodexEntry
 	dba PrimeapeTohodexEntry
 	dba GrowlitheTohodexEntry
@@ -306,11 +306,11 @@ TohodexDataPointerTable:
 	dba SarielAlolanTohodexEntry
 	dba ESarielAlolanTohodexEntry
 	dba EMeiraAlolanTohodexEntry
-	dba NinetalesAlolanTohodexEntry
-	dba DiglettAlolanTohodexEntry
-	dba DugtrioAlolanTohodexEntry
-	dba MeowthAlolanTohodexEntry
-	dba PersianAlolanTohodexEntry
+	dba CEllenAlolanTohodexEntry
+	dba CChiyuriAlolanTohodexEntry
+	dba ChiyuriAlolanTohodexEntry
+	dba EChiyuriAlolanTohodexEntry
+	dba CYumemiAlolanTohodexEntry
 	dba GeodudeAlolanTohodexEntry
 	dba GravelerAlolanTohodexEntry
 	dba GolemAlolanTohodexEntry
@@ -319,7 +319,7 @@ TohodexDataPointerTable:
 	dba ExeggutorAlolanTohodexEntry
 	dba MarowakAlolanTohodexEntry
 
-	dba MeowthGalarianTohodexEntry
+	dba EChiyuriGalarianTohodexEntry
 	dba PonytaGalarianTohodexEntry
 	dba RapidashGalarianTohodexEntry
 	dba SlowpokeGalarianTohodexEntry

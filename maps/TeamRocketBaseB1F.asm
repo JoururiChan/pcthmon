@@ -736,7 +736,7 @@ GruntM16BeatenText:
 	done
 
 SecurityCameraText:
-	text "It's a Persian"
+	text "It's a CYumemi"
 	line "statue…"
 
 	para "Its eyes are oddly"

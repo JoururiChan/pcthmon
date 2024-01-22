@@ -374,7 +374,7 @@ PokefanfJaimeBeatenText:
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met my Meowth at"
+	text "I met my EChiyuri at"
 	line "night, right here"
 	cont "on Route 39."
 

@@ -37,24 +37,24 @@ AnimationPointers:
 	dw CMeiraAnimation
 	dw MeiraAnimation
 	dw EMeiraPlainAnimation
-	dw NinetalesPlainAnimation
-	dw JigglypuffAnimation
-	dw WigglytuffAnimation
-	dw ZubatAnimation
-	dw GolbatAnimation
-	dw OddishAnimation
-	dw GloomAnimation
-	dw VileplumeAnimation
-	dw ParasAnimation
-	dw ParasectAnimation
-	dw VenonatAnimation
-	dw VenomothAnimation
-	dw DiglettPlainAnimation
-	dw DugtrioPlainAnimation
-	dw MeowthPlainAnimation
-	dw PersianPlainAnimation
-	dw PsyduckAnimation
-	dw GolduckAnimation
+	dw CEllenPlainAnimation
+	dw EllenAnimation
+	dw EEllenAnimation
+	dw CKotohimeAnimation
+	dw KotohimeAnimation
+	dw EKotohimeAnimation
+	dw CKanaAnimation
+	dw KanaAnimation
+	dw EKanaAnimation
+	dw CRikakoAnimation
+	dw RikakoAnimation
+	dw ERikakoAnimation
+	dw CChiyuriPlainAnimation
+	dw ChiyuriPlainAnimation
+	dw EChiyuriPlainAnimation
+	dw CYumemiPlainAnimation
+	dw YumemiAnimation
+	dw EYumemiAnimation
 	dw MankeyAnimation
 	dw PrimeapeAnimation
 	dw GrowlithePlainAnimation
@@ -368,11 +368,11 @@ AnimationPointers:
 	dw SarielAlolanAnimation
 	dw ESarielAlolanAnimation
 	dw EMeiraAlolanAnimation
-	dw NinetalesAlolanAnimation
-	dw DiglettAlolanAnimation
-	dw DugtrioAlolanAnimation
-	dw MeowthAlolanAnimation
-	dw PersianAlolanAnimation
+	dw CEllenAlolanAnimation
+	dw CChiyuriAlolanAnimation
+	dw ChiyuriAlolanAnimation
+	dw EChiyuriAlolanAnimation
+	dw CYumemiAlolanAnimation
 	dw GeodudeAlolanAnimation
 	dw GravelerAlolanAnimation
 	dw GolemAlolanAnimation
@@ -381,7 +381,7 @@ AnimationPointers:
 	dw ExeggutorAlolanAnimation
 	dw MarowakAlolanAnimation
 
-	dw MeowthGalarianAnimation
+	dw EChiyuriGalarianAnimation
 	dw PonytaGalarianAnimation
 	dw RapidashGalarianAnimation
 	dw SlowpokeGalarianAnimation

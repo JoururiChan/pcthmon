@@ -5,5 +5,5 @@ SlicingMoves:
 	db NIGHT_SLASH
 	db RAZOR_LEAF
 	db SLASH
-	db X_SCISSOR
+	db ICHIGO_CROSS
 	db -1

@@ -432,7 +432,7 @@ LoadFlowerMailGFX:
 	ld de, FlowerMailBorderGFX
 	ld c, 8 * 8
 	call LoadMailGFX_Color1
-	ld de, MailOddishGFX
+	ld de, MailEKotohimeGFX
 	ld c, 4 * 8
 	call LoadMailGFX_Color3
 	ld de, FlowerMailBorderGFX + 6 * 8
@@ -448,7 +448,7 @@ LoadFlowerMailGFX:
 	hlcoord 2, 15
 	ld a, $3d ; underline
 	call Mail_Draw16TileRow
-	ld a, $39 ; oddish
+	ld a, $39 ; ekotohime
 	hlcoord 16, 13
 	call Mail_Draw2x2Graphic
 	hlcoord 2, 13

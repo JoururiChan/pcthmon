@@ -20,10 +20,10 @@ UniqueWildMoves:
 	unique_moves SLOWPOKE_WELL,    SLOWPOKE,   GROWTH       ; Prism tutor move
 	unique_moves ILEX_FOREST,      0,          0
 	unique_moves ROUTE_34_COAST,   STARYU,     DREAM_EATER  ; new move
-	unique_moves STORMY_BEACH,     VENOMOTH,   0
+	unique_moves STORMY_BEACH,     ERIKAKO,   0
 	unique_moves MURKY_SWAMP,      MISDREAVUS, SUCKER_PUNCH ; HGSS tutor move
 	unique_moves MAGNET_TUNNEL,    MAGNEMITE,  PSYBEAM      ; new move
-	unique_moves GOLDENROD_HARBOR, PSYDUCK,    ENCORE       ; Dream World move
+	unique_moves GOLDENROD_HARBOR, YUMEMI,    ENCORE       ; Dream World move
 	unique_moves ROUTE_35_COAST,   0,          0
 	unique_moves NATIONAL_PARK,    0,          0
 	unique_moves TIN_TOWER,        0,          0
@@ -31,7 +31,7 @@ UniqueWildMoves:
 	unique_moves WHIRL_ISLANDS,    0,          0
 	unique_moves CLIFF_CAVE,       0,          0
 	unique_moves YELLOW_FOREST,    EKIKURI,    FLY          ; replaced with Surf if Surfing
-	unique_moves QUIET_CAVE,       MUNCHLAX,   GIGA_IMPACT  ; Snorlax move
+	unique_moves QUIET_CAVE,       MUNCHLAX,   GUNGNIR  ; Snorlax move
 	unique_moves MT_MORTAR,        0,          0
 	unique_moves LAKE_OF_RAGE,     MAGIKARP,   HYDRO_PUMP   ; Tohowalker move
 	unique_moves ICE_PATH,         0,          0
@@ -45,21 +45,21 @@ UniqueWildMoves:
 	unique_moves CERULEAN_CAVE,    GENGAR,     METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAVE,    ALAKAZAM,   METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAPE,    POLIWHIRL,  METRONOME    ; RBY TM move
-	unique_moves DIGLETTS_CAVE,    DUGTRIO,    SCREECH      ; Sw/Sh move
+	unique_moves CCHIYURIS_CAVE,    CHIYURI,    SCREECH      ; Sw/Sh move
 	unique_moves ROCK_TUNNEL,      ELECTABUZZ, METRONOME    ; RBY TM move
 	unique_moves DIM_CAVE,         GRAVELER,   SUCKER_PUNCH ; HGSS tutor move
 	unique_moves DIM_CAVE,         RHYDON,     CRUNCH       ; Prism tutor move
 	unique_moves SOUL_HOUSE,       HAUNTER,    MOONBLAST    ; Prism tutor move
 	unique_moves SOUL_HOUSE,       MISDREAVUS, HEAL_BELL    ; HGSS tutor move
 	unique_moves LAV_RADIO_TOWER,  MAROWAK,    SHADOW_DANCE  ; Dream World move
-	unique_moves LUCKY_ISLAND,     CHANSEY,    TRI_ATTACK   ; RBY TM move
+	unique_moves LUCKY_ISLAND,     CHANSEY,    FIVEELEMENTS   ; RBY TM move
 	unique_moves LUCKY_ISLAND,     TOGETIC,    0
 	unique_moves SAFARI_ZONE,      TANGELA,    LEECH_SEED   ; Dream World move (hub)
 	unique_moves SAFARI_ZONE,      TAUROS,     STOMP        ; RBY move (east)
 	unique_moves SAFARI_ZONE,      PINSIR,     SLASH        ; RBY move (north)
 	unique_moves SAFARI_ZONE,      KANGASKHAN, 0            ; (west)
 	unique_moves URAGA_CHANNEL,    TENTACRUEL, RECOVER      ; TCG move
-	unique_moves SCARY_CAVE,       GOLBAT,     HYPNOSIS     ; Dream World move
+	unique_moves SCARY_CAVE,       KOTOHIME,     HYPNOSIS     ; Dream World move
 	unique_moves SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves SEAFOAM_ISLANDS,  JYNX,       METRONOME    ; RBY TM move
 	unique_moves POKEMON_MANSION,  WEEZING,    CRUNCH       ; Prism tutor move
@@ -73,7 +73,7 @@ UniqueWildMoves:
 	unique_moves NOISY_FOREST,     SCIZOR,     CRABHAMMER   ; new move
 	unique_moves NOISY_FOREST,     PINECO,     LIFE_BALANCE   ; HGSS tutor move
 	unique_moves SHRINE_RUINS,     HYPNO,      METRONOME    ; RBY TM move
-	unique_moves SHAMOUTI_TUNNEL,  GOLBAT,     OUTRAGE      ; Prism tutor move
+	unique_moves SHAMOUTI_TUNNEL,  KOTOHIME,     OUTRAGE      ; Prism tutor move
 	unique_moves WARM_BEACH,       SEADRA,     METEOR_FALL ; new move
 	unique_moves SHAMOUTI_COAST,   0,          0
 	unique_moves FIRE_ISLAND,      HOUNDOOM,   SUCKER_PUNCH ; HGSS tutor move
@@ -81,5 +81,5 @@ UniqueWildMoves:
 	unique_moves LIGHTNING_ISLAND, ELECTRODE,  SUCKER_PUNCH ; HGSS tutor move
 	unique_moves ROUTE_23,         GYARADOS,   POWER_WHIP   ; Sw/Sh TR move
 	unique_moves ROUTE_44,         AIPOM,      ROCK_BLAST   ; new move
-	unique_moves ROUTE_49,         PARASECT,   CONFUSE_RAY  ; Prism tutor move
+	unique_moves ROUTE_49,         CRIKAKO,   CONFUSE_RAY  ; Prism tutor move
 	db -1

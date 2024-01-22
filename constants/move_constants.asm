@@ -16,7 +16,7 @@
 	const ICE_PUNCH    ; $08
 	const THUNDERPUNCH ; $09
 	const SCRATCH      ; $0a
-	const X_SCISSOR    ; $0b
+	const ICHIGO_CROSS    ; $0b
 	const NIGHT_SLASH  ; $0c
 	const AIR_SLASH    ; $0d
 	const SWORDS_DANCE ; $0e
@@ -30,7 +30,7 @@
 	const VINE_WHIP    ; $16
 	const STOMP        ; $17
 	const DOUBLE_KICK  ; $18
-	const FLARE_BLITZ  ; $19
+	const LAVATEIN  ; $19
 	const STONE_EDGE   ; $1a
 	const FOCUS_BLAST  ; $1b
 	const TOXIC_SPIKES ; $1c
@@ -70,7 +70,7 @@
 	const AURORA_BEAM  ; $3e
 	const MASTER_SPARK   ; $3f
 	const PECK         ; $40
-	const DRILL_PECK   ; $41
+	const DRAGON_DRILL   ; $41
 	const SCULPTURE ; $42
 	const LOW_KICK     ; $43
 	const COUNTER      ; $44
@@ -86,7 +86,7 @@
 	const STUN_SPORE   ; $4e
 	const SLEEP_POWDER ; $4f
 	const PETAL_SLASH  ; $50
-	const STRING_SHOT  ; $51
+	const DOLL_STRINGS  ; $51
 	const DRAGON_RAGE  ; $52
 	const FIRE_SPIN    ; $53
 	const THUNDERSHOCK ; $54
@@ -131,7 +131,7 @@
 	const GUNK_SHOT    ; $7b
 	const VENOSHOCK    ; $7c
 	const EARTH_POWER  ; $7d
-	const FIRE_BLAST   ; $7e
+	const HELL_TOKAMAK   ; $7e
 	const WATERFALL    ; $7f
 	const ICICLE_CRASH ; $80
 	const SWIFT        ; $81
@@ -141,15 +141,15 @@
 	const AMNESIA      ; $85
 	const WHITE_BIRD        ; $86
 	const FRESH_SNACK  ; $87
-	const HI_JUMP_KICK ; $88
+	const TENSION_KICK ; $88
 	const GLARE        ; $89
 	const DREAM_EATER  ; $8a
 	const POISON_JAB   ; $8b
-	const BULLET_PUNCH ; $8c
+	const STEEL_FIST ; $8c
 	const LEECH_LIFE   ; $8d
 	const DRAIN_KISS   ; $8e
 	const DIVE_KICK   ; $8f
-	const TRANSFORM    ; $90
+	const RECOLLECT    ; $90
 	const WATER_PULSE  ; $91
 	const DIZZY_PUNCH  ; $92
 	const SPORE        ; $93
@@ -163,14 +163,14 @@
 	const BONEMERANG   ; $9b
 	const REST         ; $9c
 	const ROCK_SLIDE   ; $9d
-	const HYPER_FANG   ; $9e
+	const POWER_BITE   ; $9e
 	const BULK_UP      ; $9f
 	const CONVERSION   ; $a0
-	const TRI_ATTACK   ; $a1
-	const SUPER_FANG   ; $a2
+	const FIVEELEMENTS   ; $a1
+	const LIFE_COUNTER   ; $a2
 	const SLASH        ; $a3
 	const SUBSTITUTE   ; $a4
-	const GIGA_IMPACT  ; $a5
+	const GUNGNIR  ; $a5
 	const SKETCH       ; $a6
 	const DRAIN_PUNCH  ; $a7
 	const THIEF        ; $a8

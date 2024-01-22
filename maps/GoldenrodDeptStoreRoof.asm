@@ -95,22 +95,22 @@ PokeDollVendingMachine:
 	loadmenu .MenuData
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .JigglypuffDoll
+	ifequalfwd $1, .EllenDoll
 	ifequalfwd $2, .DittoDoll
-	ifequalfwd $3, .MeowthDoll
+	ifequalfwd $3, .EChiyuriDoll
 	endtext
 
-.JigglypuffDoll:
+.EllenDoll:
 	checkmoney $0, 2400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_JIGGLYPUFF_DOLL
+	checkevent EVENT_DECO_ELLEN_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 2400
-	setevent EVENT_DECO_JIGGLYPUFF_DOLL
-	writetext BoughtJigglypuffDollText
+	setevent EVENT_DECO_ELLEN_DOLL
+	writetext BoughtEllenDollText
 	playsound SFX_TRANSACTION
 	waitbutton
-	writetext JigglypuffDollSentText
+	writetext EllenDollSentText
 	waitbutton
 	sjump .Start
 
@@ -128,17 +128,17 @@ PokeDollVendingMachine:
 	waitbutton
 	sjump .Start
 
-.MeowthDoll:
+.EChiyuriDoll:
 	checkmoney $0, 2400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_MEOWTH_DOLL
+	checkevent EVENT_DECO_ECHIYURI_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 2400
-	setevent EVENT_DECO_MEOWTH_DOLL
-	writetext BoughtMeowthDollText
+	setevent EVENT_DECO_ECHIYURI_DOLL
+	writetext BoughtEChiyuriDollText
 	playsound SFX_TRANSACTION
 	waitbutton
-	writetext MeowthDollSentText
+	writetext EChiyuriDollSentText
 	waitbutton
 	sjump .Start
 
@@ -161,9 +161,9 @@ PokeDollVendingMachine:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Jigglypuff  ¥2400@"
+	db "Ellen  ¥2400@"
 	db "Ditto       ¥2400@"
-	db "Meowth      ¥2400@"
+	db "EChiyuri      ¥2400@"
 	db "Cancel@"
 
 GoldenrodDeptStoreRoofPokefanFText:
@@ -306,13 +306,13 @@ PokeDollVendingMachineAlreadyBoughtText:
 	text "It's a duplicate!"
 	done
 
-BoughtJigglypuffDollText:
+BoughtEllenDollText:
 	text "<PLAYER> bought"
-	line "Jigglypuff Doll."
+	line "Ellen Doll."
 	done
 
-JigglypuffDollSentText:
-	text "Jigglypuff Doll"
+EllenDollSentText:
+	text "Ellen Doll"
 	line "was sent home."
 	done
 
@@ -326,12 +326,12 @@ DittoDollSentText:
 	line "was sent home."
 	done
 
-BoughtMeowthDollText:
+BoughtEChiyuriDollText:
 	text "<PLAYER> bought"
-	line "Meowth Doll."
+	line "EChiyuri Doll."
 	done
 
-MeowthDollSentText:
-	text "Meowth Doll"
+EChiyuriDollSentText:
+	text "EChiyuri Doll"
 	line "was sent home."
 	done

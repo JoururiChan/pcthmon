@@ -113,7 +113,7 @@
 	const MUSIC_ROUTE_210_DPPT                 ; 6d
 	const MUSIC_ROUTE_225_DPPT                 ; 6e
 	const MUSIC_WILD_BATTLE_GO                 ; 6f
-	const MUSIC_DIGLETTS_CAVE_RBY              ; 70
+	const MUSIC_CCHIYURIS_CAVE_RBY              ; 70
 	const MUSIC_VIRIDIAN_FOREST                ; 71
 	const MUSIC_HIKER_ENCOUNTER                ; 72
 	const MUSIC_VIRIDIAN_CITY                  ; 73

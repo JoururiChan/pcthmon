@@ -14,7 +14,7 @@ MrFujisHouse_MapScriptHeader:
 	def_object_events
 	object_event  4,  1, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, MrFujisHouseSuperNerdText, -1
 	object_event  3,  4, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, MrFujisHouseLassText, -1
-	pokemon_event  8,  4, PSYDUCK, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MrFujisPsyduckText, -1
+	pokemon_event  8,  4, YUMEMI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MrFujisYumemiText, -1
 	pokemon_event  5,  5, RIKA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PURPLE, MrFujisRikaText, -1
 	pokemon_event  1,  3, EMAGAN, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MrFujisEMaganText, -1
 
@@ -39,8 +39,8 @@ MrFujisHouseLassText:
 	line "care of them."
 	done
 
-MrFujisPsyduckText:
-	text "Psyduck: Gu-guwa?"
+MrFujisYumemiText:
+	text "Yumemi: Gu-guwa?"
 	done
 
 MrFujisRikaText:

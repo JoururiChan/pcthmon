@@ -38,24 +38,24 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1, 21 ; CMeira
 	db  22, 37 ; Meira
 	db   38, 100 ; EMeira
-	db  20, 100 ; Ninetales
-	db   5,  19 ; Jigglypuff
-	db  20, 100 ; Wigglytuff
-	db   1,  21 ; Zubat
-	db  22, 100 ; Golbat
-	db   1,  20 ; Oddish
-	db  21,  31 ; Gloom
-	db  32, 100 ; Vileplume
-	db   1,  23 ; Paras
-	db  24, 100 ; Parasect
-	db   1,  30 ; Venonat
-	db  31, 100 ; Venomoth
-	db   1,  25 ; Diglett
-	db  26, 100 ; Dugtrio
-	db   1,  27 ; Meowth
-	db  28, 100 ; Persian
-	db   1,  32 ; Psyduck
-	db  33, 100 ; Golduck
+	db  20, 100 ; CEllen
+	db   5,  19 ; Ellen
+	db  20, 100 ; EEllen
+	db   1,  21 ; CKotohime
+	db  22, 100 ; Kotohime
+	db   1,  20 ; EKotohime
+	db  21,  31 ; CKana
+	db  32, 100 ; Kana
+	db   1,  23 ; EKana
+	db  24, 100 ; CRikako
+	db   1,  30 ; Rikako
+	db  31, 100 ; ERikako
+	db   1,  25 ; CChiyuri
+	db  26, 100 ; Chiyuri
+	db   1,  27 ; EChiyuri
+	db  28, 100 ; CYumemi
+	db   1,  32 ; Yumemi
+	db  33, 100 ; EYumemi
 	db   1,  27 ; Mankey
 	db  28,  55 ; Primeape
 	db   1,  19 ; Growlithe

@@ -37,13 +37,13 @@ Rich Boy 1 (Rupert):
 pre-battle - “You believe you can best me? What a load of old tosh.”
 win battle - “I'm gobsmacked!”
 post-battle - “How did we lose, father? These Pokemon cost a fortune!”
-party - Porygon2, Blissey, Ninetales
+party - Porygon2, Blissey, CEllen
 
 Gentleman 1 (Bernard):
 pre-battle - “Enough of this argy-bargy. I shall see to you myself!”
 win battle - “What a corker!”
 post-battle “Don't worry Rupert, we'll buy better Pokemon.”
-party - Ampharos, Golduck, Arcanine
+party - Ampharos, EYumemi, Arcanine
 
 Schoolgirl 1 (Rachel):
 pre-battle - “I've been learning about Shamouti Island at school.”

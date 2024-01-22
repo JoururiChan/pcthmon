@@ -128,7 +128,7 @@ ENDM
 	map_const DRAGON_SHRINE,                               5,  5 ; 72
 	map_const TOHJO_FALLS,                                15,  9 ; 73
 	map_const GIOVANNIS_CAVE,                             10, 24 ; 74
-	map_const DIGLETTS_CAVE,                              21, 19 ; 75
+	map_const CCHIYURIS_CAVE,                              21, 19 ; 75
 	map_const MOUNT_MOON_1F,                              15, 13 ; 76
 	map_const MOUNT_MOON_B1F,                             16, 14 ; 77
 	map_const MOUNT_MOON_B2F,                             16, 17 ; 78
@@ -297,7 +297,7 @@ ENDM
 	map_const POKEMON_FAN_CLUB,                            5,  4 ;  6
 	map_const VERMILION_MAGNET_TRAIN_SPEECH_HOUSE,         4,  4 ;  7
 	map_const VERMILION_MART,                              6,  4 ;  8
-	map_const VERMILION_HOUSE_DIGLETTS_CAVE_SPEECH_HOUSE,  4,  4 ;  9
+	map_const VERMILION_HOUSE_CCHIYURIS_CAVE_SPEECH_HOUSE,  4,  4 ;  9
 	map_const VERMILION_GYM,                               5,  9 ; 10
 	map_const ROUTE_6_SAFFRON_GATE,                        5,  4 ; 11
 	map_const ROUTE_6_UNDERGROUND_ENTRANCE,                4,  4 ; 12

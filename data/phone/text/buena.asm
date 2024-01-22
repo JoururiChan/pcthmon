@@ -379,7 +379,7 @@ BuenaPhoneStarterPokemonText:
 	line "job, so she traded"
 
 	para "with a fan for a"
-	line "Meowth."
+	line "EChiyuri."
 
 	para "Let's chat about"
 	line "#mon again!"

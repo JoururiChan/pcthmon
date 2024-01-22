@@ -61,7 +61,7 @@ GenericTrainerBug_maniacStacey:
 	text "Has anyone ever"
 	line "told you that from"
 	cont "behind you look"
-	cont "like a Venonat?"
+	cont "like a Rikako?"
 	done
 
 GenericTrainerBug_maniacEllis:

@@ -17,7 +17,7 @@ SpecialGiveShinyDitto:
 	call GetBaseData
 	ld a, EVERSTONE
 	ld [hli], a
-	ld a, TRANSFORM
+	ld a, RECOLLECT
 	ld [hli], a
 	xor a
 rept NUM_MOVES - 1

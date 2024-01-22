@@ -12,11 +12,11 @@ VermilionCity_MapScriptHeader:
 	warp_event  7, 17, POKEMON_FAN_CLUB, 1
 	warp_event 13, 17, VERMILION_MAGNET_TRAIN_SPEECH_HOUSE, 1
 	warp_event 21, 17, VERMILION_MART, 2
-	warp_event 21, 21, VERMILION_HOUSE_DIGLETTS_CAVE_SPEECH_HOUSE, 1
+	warp_event 21, 21, VERMILION_HOUSE_CCHIYURIS_CAVE_SPEECH_HOUSE, 1
 	warp_event 10, 23, VERMILION_GYM, 1
 	warp_event 18, 35, VERMILION_PORT, 1
 	warp_event 19, 35, VERMILION_PORT, 3
-	warp_event 36, 17, DIGLETTS_CAVE, 1
+	warp_event 36, 17, CCHIYURIS_CAVE, 1
 	warp_event 28, 35, SEAGALLOP_FERRY_VERMILION_GATE, 1
 	warp_event 29, 35, SEAGALLOP_FERRY_VERMILION_GATE, 1
 	warp_event 13,  5, VERMILION_POLLUTION_SPEECH_HOUSE, 1
@@ -30,7 +30,7 @@ VermilionCity_MapScriptHeader:
 	bg_event 19,  9, BGEVENT_JUMPTEXT, VermilionCitySignText
 	bg_event  5, 23, BGEVENT_JUMPTEXT, VermilionGymSignText
 	bg_event  5, 17, BGEVENT_JUMPTEXT, PokemonFanClubSignText
-	bg_event 33, 17, BGEVENT_JUMPTEXT, VermilionCityDiglettsCaveSignText
+	bg_event 33, 17, BGEVENT_JUMPTEXT, VermilionCityCChiyurisCaveSignText
 	bg_event 27, 19, BGEVENT_JUMPTEXT, VermilionCityPortSignText
 	bg_event 23, 13, BGEVENT_JUMPTEXT, VermilionCityBattleFactorySignText
 	bg_event 11, 27, BGEVENT_JUMPTEXT, VermilionCityAdvancedTipsSignText
@@ -430,8 +430,8 @@ PokemonFanClubSignText:
 	line "Welcome!"
 	done
 
-VermilionCityDiglettsCaveSignText:
-	text "Diglett's Cave"
+VermilionCityCChiyurisCaveSignText:
+	text "CChiyuri's Cave"
 	done
 
 VermilionCityPortSignText:

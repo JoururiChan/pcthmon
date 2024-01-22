@@ -40,7 +40,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Replace Whirlwind with Sucker Punch.
 * Add: Replace Vital Throw with Aura Sphere.
 * Add: Replace Nightmare with Facade.
-* Add: Replace Submission with Close Combat.
+* Add: Replace Submission with Sculpture.
 * Add: Replace Sand-Attack with Toxic Spikes.
 * Add: Replace Fairy Wind with Bulldoze.
 * Add: Replace Metal Sound with White Bird.
@@ -57,7 +57,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Replace Flame Wheel with Flame Charge.
 * Add: Replace Moonlight and Morning Sun with Knock Off and "HealingLight".
 * Add: Replace Fury Attack and Fury Cutter with Trick and "Fury Strikes".
-* Add: Giga Impact.
+* Add: Gungnir.
 * Add: NPC trainers can have nicknamed Tohomon.
 * Add: NPC trainers can have custom EVs.
 * Add: Accuracy and evasion work like in Gen VI.
@@ -158,7 +158,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Tohodex shows shiny palettes after getting the Shiny Charm.
 * Add: New Game+ preserves your money, Battle Points, and PC Tohomon.
 * Add: Phone call trainers ask automatically for your number.
-* Add: Replace Jigglypuff Poster with Marill Poster.
+* Add: Replace Ellen Poster with Marill Poster.
 * Add: Briefly beep to warn of low HP.
 * Add: Play B/W final Tohomon music for Gym Leaders and Elite 4.
 * Add: New title music after beating the Elite 4.

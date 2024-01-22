@@ -25,7 +25,7 @@ NationalPark_MapScriptHeader:
 	object_event 13, 41, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerSchoolgirlEliza, -1
 	object_event 12, 41, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerSchoolboyJohnny, -1
 	object_event 19, 41, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, NationalParkTeacher2Text, -1
-	pokemon_event 28, 40, PERSIAN, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, NationalParkPersianText, -1
+	pokemon_event 28, 40, CYUMEMI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, NationalParkCYumemiText, -1
 	object_event 29, 23, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerSchoolboyJack1, -1
 	object_event 20, 29, SPRITE_POKEFAN_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerPokefanfBeverly1, -1
 	object_event 18,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerPokefanmWilliam, -1
@@ -85,7 +85,7 @@ GenericTrainerSchoolgirlEliza:
 
 	text "I don't care!"
 	line "I still love"
-	cont "Oddish."
+	cont "EKotohime."
 	done
 
 GenericTrainerSchoolboyJohnny:
@@ -339,14 +339,14 @@ NationalParkTeacher1Text_GotQuickClaw:
 	done
 
 SchoolgirlElizaSeenText:
-	text "Oddish is just"
+	text "EKotohime is just"
 	line "the cutest!"
 
 	para "Don't you agree?"
 	done
 
 SchoolgirlElizaBeatenText:
-	text "My poor Oddish…"
+	text "My poor EKotohime…"
 	done
 
 SchoolboyJohnnySeenText:
@@ -369,8 +369,8 @@ NationalParkTeacher2Text:
 	line "my quiet walk…"
 	done
 
-NationalParkPersianText:
-	text "Persian: Fufushaa!"
+NationalParkCYumemiText:
+	text "CYumemi: Fufushaa!"
 	done
 
 NationalParkGameboyKidText:

@@ -93,7 +93,7 @@ Landmarks:
 	landmark 114,  66, UndergroundName
 	landmark 108,  68, Route6Name
 	landmark 108,  76, VermilionCityName
-	landmark 116,  68, DiglettsCaveName
+	landmark 116,  68, CChiyurisCaveName
 	landmark  96,  60, Route7Name
 	landmark 124,  60, Route8Name
 	landmark 124,  44, Route9Name
@@ -259,7 +259,7 @@ IlexForestName:        rawchar "Ilex¯Forest@"
 BurnedTowerName:       rawchar "Burned¯Tower@"
 FastShipName:          rawchar "Fast Ship@"
 ViridianForestName:    rawchar "Viridian¯Forest@"
-DiglettsCaveName:      rawchar "Diglett's¯Cave@"
+CChiyurisCaveName:      rawchar "CChiyuri's¯Cave@"
 TohjoFallsName:        rawchar "Tohjo Falls@"
 UndergroundName:       rawchar "Underground@"
 BattleTowerName:       rawchar "Battle¯Tower@"

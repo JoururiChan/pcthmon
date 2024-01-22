@@ -33,10 +33,10 @@ BillsGrandpa:
 	iftrue .ShowedTogepi
 	checkevent EVENT_SHOWED_MURKROW_TO_BILLS_GRANDPA
 	iftrue .ShowedMurkrow
-	checkevent EVENT_SHOWED_ODDISH_TO_BILLS_GRANDPA
-	iftrue .ShowedOddish
-	checkevent EVENT_SHOWED_JIGGLYPUFF_TO_BILLS_GRANDPA
-	iftrue .ShowedJigglypuff
+	checkevent EVENT_SHOWED_EKOTOHIME_TO_BILLS_GRANDPA
+	iftrue .ShowedEKotohime
+	checkevent EVENT_SHOWED_ELLEN_TO_BILLS_GRANDPA
+	iftrue .ShowedEllen
 	checkevent EVENT_SHOWED_PICHU_TO_BILLS_GRANDPA
 	iftrue .ShowedPichu
 	checkevent EVENT_SHOWED_GROWLITHE_TO_BILLS_GRANDPA
@@ -117,7 +117,7 @@ BillsGrandpa:
 	sjumpfwd .ShowedPichu
 
 .GotThunderstone:
-	writetext BillsGrandpaJigglypuffText
+	writetext BillsGrandpaEllenText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -125,13 +125,13 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal JIGGLYPUFF, .WrongPokemon
+	ifnotequal ELLEN, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_JIGGLYPUFF_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedJigglypuff
+	setevent EVENT_SHOWED_ELLEN_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedEllen
 
 .GotMoonStone:
-	writetext BillsGrandpaOddishText
+	writetext BillsGrandpaEKotohimeText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -139,10 +139,10 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal ODDISH, .WrongPokemon
+	ifnotequal EKOTOHIME, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_ODDISH_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedOddish
+	setevent EVENT_SHOWED_EKOTOHIME_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedEKotohime
 
 .GotSunStone:
 	writetext BillsGrandpaMurkrowText
@@ -222,7 +222,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedJigglypuff:
+.ShowedEllen:
 	checkevent EVENT_GOT_MOON_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotMoonStone
 	scall .ReceiveItem
@@ -232,7 +232,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedOddish:
+.ShowedEKotohime:
 	checkevent EVENT_GOT_SUN_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotSunStone
 	scall .ReceiveItem
@@ -421,7 +421,7 @@ BillsGrandpaMurkrowText:
 	line "like to see it."
 	done
 
-BillsGrandpaOddishText:
+BillsGrandpaEKotohimeText:
 	text "Ah, my grandson"
 	line "mentioned a round,"
 
@@ -430,7 +430,7 @@ BillsGrandpaOddishText:
 	cont "on its head."
 	done
 
-BillsGrandpaJigglypuffText:
+BillsGrandpaEllenText:
 	text "Bill told me about"
 	line "a pink #mon"
 

@@ -37,24 +37,24 @@ AnimationExtraPointers:
 	dw CMeiraAnimationExtra
 	dw MeiraAnimationExtra
 	dw EMeiraPlainAnimationExtra
-	dw NinetalesPlainAnimationExtra
-	dw JigglypuffAnimationExtra
-	dw WigglytuffAnimationExtra
-	dw ZubatAnimationExtra
-	dw GolbatAnimationExtra
-	dw OddishAnimationExtra
-	dw GloomAnimationExtra
-	dw VileplumeAnimationExtra
-	dw ParasAnimationExtra
-	dw ParasectAnimationExtra
-	dw VenonatAnimationExtra
-	dw VenomothAnimationExtra
-	dw DiglettPlainAnimationExtra
-	dw DugtrioPlainAnimationExtra
-	dw MeowthPlainAnimationExtra
-	dw PersianPlainAnimationExtra
-	dw PsyduckAnimationExtra
-	dw GolduckAnimationExtra
+	dw CEllenPlainAnimationExtra
+	dw EllenAnimationExtra
+	dw EEllenAnimationExtra
+	dw CKotohimeAnimationExtra
+	dw KotohimeAnimationExtra
+	dw EKotohimeAnimationExtra
+	dw CKanaAnimationExtra
+	dw KanaAnimationExtra
+	dw EKanaAnimationExtra
+	dw CRikakoAnimationExtra
+	dw RikakoAnimationExtra
+	dw ERikakoAnimationExtra
+	dw CChiyuriPlainAnimationExtra
+	dw ChiyuriPlainAnimationExtra
+	dw EChiyuriPlainAnimationExtra
+	dw CYumemiPlainAnimationExtra
+	dw YumemiAnimationExtra
+	dw EYumemiAnimationExtra
 	dw MankeyAnimationExtra
 	dw PrimeapeAnimationExtra
 	dw GrowlithePlainAnimationExtra
@@ -368,11 +368,11 @@ AnimationExtraPointers:
 	dw SarielAlolanAnimationExtra
 	dw ESarielAlolanAnimationExtra
 	dw EMeiraAlolanAnimationExtra
-	dw NinetalesAlolanAnimationExtra
-	dw DiglettAlolanAnimationExtra
-	dw DugtrioAlolanAnimationExtra
-	dw MeowthAlolanAnimationExtra
-	dw PersianAlolanAnimationExtra
+	dw CEllenAlolanAnimationExtra
+	dw CChiyuriAlolanAnimationExtra
+	dw ChiyuriAlolanAnimationExtra
+	dw EChiyuriAlolanAnimationExtra
+	dw CYumemiAlolanAnimationExtra
 	dw GeodudeAlolanAnimationExtra
 	dw GravelerAlolanAnimationExtra
 	dw GolemAlolanAnimationExtra
@@ -381,7 +381,7 @@ AnimationExtraPointers:
 	dw ExeggutorAlolanAnimationExtra
 	dw MarowakAlolanAnimationExtra
 
-	dw MeowthGalarianAnimationExtra
+	dw EChiyuriGalarianAnimationExtra
 	dw PonytaGalarianAnimationExtra
 	dw RapidashGalarianAnimationExtra
 	dw SlowpokeGalarianAnimationExtra

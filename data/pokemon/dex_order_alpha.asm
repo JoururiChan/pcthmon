@@ -45,7 +45,7 @@ AlphabeticalTohodexOrder:
 	dp CREISEN
 	dp DELIBIRD
 	dp DEWGONG
-	dp DIGLETT
+	dp CCHIYURI
 	dp DITTO
 	dp DODRIO
 	dp DODUO
@@ -55,7 +55,7 @@ AlphabeticalTohodexOrder:
 	dp DRATINI
 	dp DROWZEE
 	dp DUDUNSPARCE
-	dp DUGTRIO
+	dp CHIYURI
 	dp DUNSPARCE
 	dp EEVEE
 	dp CKIKURI
@@ -82,10 +82,10 @@ AlphabeticalTohodexOrder:
 	dp GLACEON
 	dp GLIGAR
 	dp GLISCOR
-	dp GLOOM
-	dp GOLBAT
+	dp CKANA
+	dp KOTOHIME
 	dp GOLDEEN
-	dp GOLDUCK
+	dp EYUMEMI
 	dp GOLEM
 	dp GRANBULL
 	dp GRAVELER
@@ -108,7 +108,7 @@ AlphabeticalTohodexOrder:
 	dp HYPNO
 	dp IGGLYBUFF
 	dp REIMU
-	dp JIGGLYPUFF
+	dp ELLEN
 	dp JOLTEON
 	dp JUMPLUFF
 	dp JYNX
@@ -150,7 +150,7 @@ AlphabeticalTohodexOrder:
 	dp MARILL
 	dp MAROWAK
 	dp EYOUMU
-	dp MEOWTH
+	dp ECHIYURI
 	dp MGYOKU
 	dp MEW
 	dp MEWTWO
@@ -171,18 +171,18 @@ AlphabeticalTohodexOrder:
 	dp CRIKA
 	dp KONGARA
 	dp RIKA
-	dp NINETALES
+	dp CELLEN
 	dp NOCTOWL
 	dp OCTILLERY
-	dp ODDISH
+	dp EKOTOHIME
 	dp OMANYTE
 	dp OMASTAR
 	dp ONIX
 	dp OVERQWIL
-	dp PARAS
-	dp PARASECT
+	dp EKANA
+	dp CRIKAKO
 	dp PERRSERKER
-	dp PERSIAN
+	dp CYUMEMI
 	dp PHANPY
 	dp PICHU
 	dp MIMA
@@ -201,7 +201,7 @@ AlphabeticalTohodexOrder:
 	dp PORYGON_Z
 	dp PORYGON2
 	dp PRIMEAPE
-	dp PSYDUCK
+	dp YUMEMI
 	dp PUPITAR
 	dp QUAGSIRE
 	dp REISEN
@@ -269,11 +269,11 @@ AlphabeticalTohodexOrder:
 	dp URSALUNA
 	dp URSARING
 	dp VAPOREON
-	dp VENOMOTH
-	dp VENONAT
+	dp ERIKAKO
+	dp RIKAKO
 	dp EREIMU
 	dp VICTREEBEL
-	dp VILEPLUME
+	dp KANA
 	dp VOLTORB
 	dp EMEIRA
 	dp SAKUYA
@@ -281,7 +281,7 @@ AlphabeticalTohodexOrder:
 	dp OGYOKU
 	dp WEEPINBELL
 	dp WEEZING
-	dp WIGGLYTUFF
+	dp EELLEN
 	dp WOBBUFFET
 	dp WOOPER
 	dp WYNAUT
@@ -290,5 +290,5 @@ AlphabeticalTohodexOrder:
 	dp YANMA
 	dp YANMEGA
 	dp ZAPDOS
-	dp ZUBAT
+	dp CKOTOHIME
 	assert_table_length NUM_POKEMON

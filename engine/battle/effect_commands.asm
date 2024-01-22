@@ -310,14 +310,14 @@ BattleCommand_checkturn:
 	bit FRZ, [hl]
 	jr z, .not_frozen
 
-	; Sacred Fire, Scald, and Flare Blitz thaw the user.
+	; Sacred Fire, Scald, and Lavatein thaw the user.
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
 	cp SACRED_FIRE
 	jr z, .thaw
 	cp SCALD
 	jr z, .thaw
-	cp FLARE_BLITZ
+	cp LAVATEIN
 	jr z, .thaw
 
 	; Check for defrosting
@@ -1147,7 +1147,7 @@ BattleConsumePP:
 	dec [hl]
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVar
-	bit SUBSTATUS_TRANSFORMED, a
+	bit SUBSTATUS_RECOLLECTED, a
 	ret nz
 	ld a, [hl]
 	ld [de], a
@@ -4409,7 +4409,7 @@ BattleCommand_constantdamage:
 
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
-	cp EFFECT_SUPER_FANG
+	cp EFFECT_LIFE_COUNTER
 	jr z, .super_fang
 
 	cp EFFECT_REVERSAL
@@ -5892,7 +5892,7 @@ BattleCommand_recoil:
 	ld a, b
 	cp DOUBLE_EDGE
 	jr z, .OneThirdRecoil
-	cp FLARE_BLITZ
+	cp LAVATEIN
 	jr z, .OneThirdRecoil
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar

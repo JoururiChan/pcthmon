@@ -78,7 +78,7 @@ BugCatchingContestant1AText:
 	done
 
 BugCatchingContestant2AText:
-	text "Lou: My Parasect"
+	text "Lou: My CRikako"
 	line "puts #mon to"
 	cont "sleep with Spore."
 	done

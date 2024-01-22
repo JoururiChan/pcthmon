@@ -48,7 +48,7 @@ VermilionPokeCenter1FSightseerMScript:
 
 	text "A sleeping #mon"
 	line "is lying in front"
-	cont "of Diglett's Cave."
+	cont "of CChiyuri's Cave."
 
 	para "It's a fantastic"
 	line "opportunity to get"
@@ -62,7 +62,7 @@ VermilionPokeCenter1FSightseerMScript:
 	line "sleeping #mon"
 
 	para "lying in front of"
-	line "Diglett's Cave."
+	line "CChiyuri's Cave."
 
 	para "But it seems to"
 	line "have disappeared."

@@ -294,8 +294,8 @@ INCLUDE "audio/music/rby/ceruleancave.asm"
 SECTION "Song - rby/cinnabarmansion", ROMX
 INCLUDE "audio/music/rby/cinnabarmansion.asm"
 
-SECTION "Song - rby/diglettscave", ROMX
-INCLUDE "audio/music/rby/diglettscave.asm"
+SECTION "Song - rby/cchiyuriscave", ROMX
+INCLUDE "audio/music/rby/cchiyuriscave.asm"
 
 SECTION "Song - rby/indigoplateau", ROMX
 INCLUDE "audio/music/rby/indigoplateau.asm"

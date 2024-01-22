@@ -59,24 +59,24 @@
 	const CMEIRA   ; 23
 	const MEIRA   ; 24
 	const EMEIRA     ; 25
-	const NINETALES  ; 26
-	const JIGGLYPUFF ; 27
-	const WIGGLYTUFF ; 28
-	const ZUBAT      ; 29
-	const GOLBAT     ; 2a
-	const ODDISH     ; 2b
-	const GLOOM      ; 2c
-	const VILEPLUME  ; 2d
-	const PARAS      ; 2e
-	const PARASECT   ; 2f
-	const VENONAT    ; 30
-	const VENOMOTH   ; 31
-	const DIGLETT    ; 32
-	const DUGTRIO    ; 33
-	const MEOWTH     ; 34
-	const PERSIAN    ; 35
-	const PSYDUCK    ; 36
-	const GOLDUCK    ; 37
+	const CELLEN  ; 26
+	const ELLEN ; 27
+	const EELLEN ; 28
+	const CKOTOHIME      ; 29
+	const KOTOHIME     ; 2a
+	const EKOTOHIME     ; 2b
+	const CKANA      ; 2c
+	const KANA  ; 2d
+	const EKANA      ; 2e
+	const CRIKAKO   ; 2f
+	const RIKAKO    ; 30
+	const ERIKAKO   ; 31
+	const CCHIYURI    ; 32
+	const CHIYURI    ; 33
+	const ECHIYURI     ; 34
+	const CYUMEMI    ; 35
+	const YUMEMI    ; 36
+	const EYUMEMI    ; 37
 	const MANKEY     ; 38
 	const PRIMEAPE   ; 39
 	const GROWLITHE  ; 3a
@@ -445,11 +445,11 @@ DEF ALOLAN_FORM EQU 2
 	const_skip ; 162 sariel
 	const_skip ; 163 esariel
 	const_skip ; 164 emeira
-	const_skip ; 165 ninetales
-	const_skip ; 166 diglett
-	const_skip ; 167 dugtrio
-	const_skip ; 168 meowth
-	const_skip ; 169 persian
+	const_skip ; 165 cellen
+	const_skip ; 166 cchiyuri
+	const_skip ; 167 chiyuri
+	const_skip ; 168 echiyuri
+	const_skip ; 169 cyumemi
 	const_skip ; 16a geodude
 	const_skip ; 16b graveler
 	const_skip ; 16c golem
@@ -460,7 +460,7 @@ DEF ALOLAN_FORM EQU 2
 
 ; galarian forms
 DEF GALARIAN_FORM EQU 3
-	const_skip ; 171 meowth
+	const_skip ; 171 echiyuri
 	const_skip ; 172 ponyta
 	const_skip ; 173 rapidash
 	const_skip ; 174 slowpoke

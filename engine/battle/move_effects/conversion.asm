@@ -187,7 +187,7 @@ BattleCommand_conversion:
 	ld [wNamedObjectIndex], a
 	farcall GetTypeName
 	call AnimateCurrentMove
-	ld hl, TransformedTypeText
+	ld hl, RecollectedTypeText
 	jmp StdBattleTextbox
 .invalid_selection
 	; If the player chose an invalid move, give an appropriate message.

@@ -195,7 +195,7 @@
 	const SFX_INTRO_UNOWN_2               ; bf
 	const SFX_INTRO_UNOWN_3               ; c0
 	const SFX_DITTO_POP_UP                ; c1
-	const SFX_DITTO_TRANSFORM             ; c2
+	const SFX_DITTO_RECOLLECT             ; c2
 	const SFX_INTRO_SUICUNE_1             ; c3
 	const SFX_INTRO_PICHU                 ; c4
 	const SFX_INTRO_SUICUNE_2             ; c5

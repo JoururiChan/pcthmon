@@ -191,7 +191,7 @@ BattleAnimFrameData:
 	dw .Frameset_HyperVoice ; bc
 	dw .Frameset_BugBuzzL ; bd
 	dw .Frameset_BugBuzzR ; be
-	dw .Frameset_BulletPunch ; bf
+	dw .Frameset_SteelFist ; bf
 	dw .Frameset_LongPunch ; c0
 	dw .Frameset_FlashCannon ; c1
 	dw .Frameset_FocusBlast ; c1
@@ -1317,14 +1317,14 @@ BattleAnimFrameData:
 	oamframe BATTLEANIMOAMSET_BUG_BUZZ2,  4, OAM_X_FLIP
 	oamdelete
 
-.Frameset_BulletPunch:
-	oamframe BATTLEANIMOAMSET_BULLET_PUNCH,  4
+.Frameset_SteelFist:
+	oamframe BATTLEANIMOAMSET_STEEL_FIST,  4
 	oamframe BATTLEANIMOAMSET_02,  1
-	oamframe BATTLEANIMOAMSET_BULLET_PUNCH,  4
+	oamframe BATTLEANIMOAMSET_STEEL_FIST,  4
 	oamframe BATTLEANIMOAMSET_02,  1
-	oamframe BATTLEANIMOAMSET_BULLET_PUNCH,  4
+	oamframe BATTLEANIMOAMSET_STEEL_FIST,  4
 	oamframe BATTLEANIMOAMSET_02,  1
-	oamframe BATTLEANIMOAMSET_BULLET_PUNCH,  4
+	oamframe BATTLEANIMOAMSET_STEEL_FIST,  4
 	oamframe BATTLEANIMOAMSET_02,  1
 	oamdelete
 

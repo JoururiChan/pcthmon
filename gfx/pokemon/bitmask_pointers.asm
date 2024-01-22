@@ -37,24 +37,24 @@ BitmasksPointers:
 	dw CMeiraBitmasks
 	dw MeiraBitmasks
 	dw EMeiraPlainBitmasks
-	dw NinetalesPlainBitmasks
-	dw JigglypuffBitmasks
-	dw WigglytuffBitmasks
-	dw ZubatBitmasks
-	dw GolbatBitmasks
-	dw OddishBitmasks
-	dw GloomBitmasks
-	dw VileplumeBitmasks
-	dw ParasBitmasks
-	dw ParasectBitmasks
-	dw VenonatBitmasks
-	dw VenomothBitmasks
-	dw DiglettPlainBitmasks
-	dw DugtrioPlainBitmasks
-	dw MeowthPlainBitmasks
-	dw PersianPlainBitmasks
-	dw PsyduckBitmasks
-	dw GolduckBitmasks
+	dw CEllenPlainBitmasks
+	dw EllenBitmasks
+	dw EEllenBitmasks
+	dw CKotohimeBitmasks
+	dw KotohimeBitmasks
+	dw EKotohimeBitmasks
+	dw CKanaBitmasks
+	dw KanaBitmasks
+	dw EKanaBitmasks
+	dw CRikakoBitmasks
+	dw RikakoBitmasks
+	dw ERikakoBitmasks
+	dw CChiyuriPlainBitmasks
+	dw ChiyuriPlainBitmasks
+	dw EChiyuriPlainBitmasks
+	dw CYumemiPlainBitmasks
+	dw YumemiBitmasks
+	dw EYumemiBitmasks
 	dw MankeyBitmasks
 	dw PrimeapeBitmasks
 	dw GrowlithePlainBitmasks
@@ -368,11 +368,11 @@ BitmasksPointers:
 	dw SarielAlolanBitmasks
 	dw ESarielAlolanBitmasks
 	dw EMeiraAlolanBitmasks
-	dw NinetalesAlolanBitmasks
-	dw DiglettAlolanBitmasks
-	dw DugtrioAlolanBitmasks
-	dw MeowthAlolanBitmasks
-	dw PersianAlolanBitmasks
+	dw CEllenAlolanBitmasks
+	dw CChiyuriAlolanBitmasks
+	dw ChiyuriAlolanBitmasks
+	dw EChiyuriAlolanBitmasks
+	dw CYumemiAlolanBitmasks
 	dw GeodudeAlolanBitmasks
 	dw GravelerAlolanBitmasks
 	dw GolemAlolanBitmasks
@@ -381,7 +381,7 @@ BitmasksPointers:
 	dw ExeggutorAlolanBitmasks
 	dw MarowakAlolanBitmasks
 
-	dw MeowthGalarianBitmasks
+	dw EChiyuriGalarianBitmasks
 	dw PonytaGalarianBitmasks
 	dw RapidashGalarianBitmasks
 	dw SlowpokeGalarianBitmasks

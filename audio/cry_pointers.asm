@@ -10,10 +10,10 @@ Cries:
 	fardw Cry_Grimer
 	fardw Cry_Voltorb
 	fardw Cry_Muk
-	fardw Cry_Oddish
+	fardw Cry_EKotohime
 	fardw Cry_CSariel
 	fardw Cry_EKongara
-	fardw Cry_Diglett
+	fardw Cry_CChiyuri
 	fardw Cry_Seel
 	fardw Cry_Drowzee
 	fardw Cry_EMagan
@@ -28,16 +28,16 @@ Cries:
 	fardw Cry_CKikuri
 	fardw Cry_Shellder
 	fardw Cry_CMeira
-	fardw Cry_Venonat
+	fardw Cry_Rikako
 	fardw Cry_Lapras
 	fardw Cry_MGyoku
 	fardw Cry_CSakuya
-	fardw Cry_Paras
+	fardw Cry_EKana
 	fardw Cry_Growlithe
 	fardw Cry_Krabby
-	fardw Cry_Psyduck
+	fardw Cry_Yumemi
 	fardw Cry_EMima
-	fardw Cry_Vileplume
+	fardw Cry_Kana
 	fardw Cry_EMeira
 	fardw Cry_Weepinbell
 	fardw Cry_Marill

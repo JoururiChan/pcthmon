@@ -7,7 +7,7 @@ BattleCommand_trick:
 	jr nz, .failed
 
 	call GetOpponentAbilityAfterMoldBreaker
-	cp STICKY_HOLD
+	cp COLLECTOR
 	jr z, .ability_failed
 
 	; Forbid wildmons from using Trick

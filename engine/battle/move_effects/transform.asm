@@ -3,7 +3,7 @@ BattleCommand_transform:
 
 	ld a, BATTLE_VARS_SUBSTATUS2_OPP
 	call GetBattleVarAddr
-	bit SUBSTATUS_TRANSFORMED, [hl]
+	bit SUBSTATUS_RECOLLECTED, [hl]
 	jmp nz, BattleEffect_ButItFailed
 
 	ldh a, [hBattleTurn]
@@ -52,7 +52,7 @@ BattleCommand_transform:
 .mimic_substitute
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVarAddr
-	set SUBSTATUS_TRANSFORMED, [hl]
+	set SUBSTATUS_RECOLLECTED, [hl]
 	call ResetActorDisable
 	ld hl, wBattleMonSpecies
 	ld de, wEnemyMonSpecies
@@ -143,7 +143,7 @@ BattleCommand_transform:
 	jr nz, .mimic_anims
 	; Animation is done "raw" to allow Imposter
 	; to use the correct animation
-	ld de, TRANSFORM
+	ld de, RECOLLECT
 	call FarPlayBattleAnimation
 	jr .after_anim
 
@@ -159,7 +159,7 @@ BattleCommand_transform:
 	pop af
 	ld a, SUBSTITUTE
 	call nz, LoadAnim
-	ld hl, TransformedText
+	ld hl, RecollectedText
 	call StdBattleTextbox
 	pop de
 	farcall SetDisableEncoreMoves

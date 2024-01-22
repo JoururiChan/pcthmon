@@ -47,7 +47,7 @@ TreeMonSet_Town:
 	; rare
 	tree_mon 60, ELIS,    10
 	tree_mon 30, HERACROSS,  10
-	tree_mon 10, MEOWTH,     10
+	tree_mon 10, ECHIYURI,     10
 	db -1
 
 TreeMonSet_Route:
@@ -75,7 +75,7 @@ TreeMonSet_Kanto:
 
 TreeMonSet_Lake:
 	tree_mon 65, HOOTHOOT,   10
-	tree_mon 15, VENONAT,    10
+	tree_mon 15, RIKAKO,    10
 	tree_mon 20, EXEGGCUTE,  10
 	db -1
 	; rare
@@ -109,7 +109,7 @@ TreeMonSet_Apricorns:
 	tree_mon 40, ELIS,               10
 	tree_mon 20, VOLTORB, HISUIAN_FORM, 10
 	tree_mon 20, HERACROSS,             10
-	tree_mon 20, MEOWTH,                10
+	tree_mon 20, ECHIYURI,                10
 	db -1
 
 TreeMonSet_NoisyForest:

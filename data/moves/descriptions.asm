@@ -11,7 +11,7 @@ MoveDescriptions::
 	dw IcePunchDescription
 	dw ThunderpunchDescription
 	dw ScratchDescription
-	dw XScissorDescription
+	dw IchigoCrossDescription
 	dw NightSlashDescription
 	dw AirSlashDescription
 	dw SwordsDanceDescription
@@ -25,7 +25,7 @@ MoveDescriptions::
 	dw VineWhipDescription
 	dw StompDescription
 	dw DoubleKickDescription
-	dw FlareBlitzDescription
+	dw LavateinDescription
 	dw StoneEdgeDescription
 	dw FocusBlastDescription
 	dw ToxicSpikesDescription
@@ -65,7 +65,7 @@ MoveDescriptions::
 	dw AuroraBeamDescription
 	dw MasterSparkDescription
 	dw PeckDescription
-	dw DrillPeckDescription
+	dw DragonDrillDescription
 	dw SculptureDescription
 	dw LowKickDescription
 	dw CounterDescription
@@ -81,7 +81,7 @@ MoveDescriptions::
 	dw StunSporeDescription
 	dw SleepPowderDescription
 	dw PetalSlashDescription
-	dw StringShotDescription
+	dw DollStringsDescription
 	dw DragonRageDescription
 	dw FireSpinDescription
 	dw ThundershockDescription
@@ -126,7 +126,7 @@ MoveDescriptions::
 	dw GunkShotDescription
 	dw VenoshockDescription
 	dw EarthPowerDescription
-	dw FireBlastDescription
+	dw HellTokamakDescription
 	dw WaterfallDescription
 	dw IcicleCrashDescription
 	dw SwiftDescription
@@ -136,15 +136,15 @@ MoveDescriptions::
 	dw AmnesiaDescription
 	dw WhiteBirdDescription
 	dw FreshSnackDescription
-	dw HiJumpKickDescription
+	dw TensionKickDescription
 	dw GlareDescription
 	dw DreamEaterDescription
 	dw PoisonJabDescription
-	dw BulletPunchDescription
+	dw SteelFistDescription
 	dw LeechLifeDescription
 	dw DrainKissDescription
 	dw DiveKickDescription
-	dw TransformDescription
+	dw RecollectDescription
 	dw WaterPulseDescription
 	dw DizzyPunchDescription
 	dw SporeDescription
@@ -158,14 +158,14 @@ MoveDescriptions::
 	dw BonemerangDescription
 	dw RestDescription
 	dw RockSlideDescription
-	dw HyperFangDescription
+	dw PowerBiteDescription
 	dw BulkUpDescription
 	dw ConversionDescription
-	dw TriAttackDescription
-	dw SuperFangDescription
+	dw FiveElementsDescription
+	dw LifeCounterDescription
 	dw SlashDescription
 	dw SubstituteDescription
-	dw GigaImpactDescription
+	dw GungnirDescription
 	dw SketchDescription
 	dw DrainPunchDescription
 	dw ThiefDescription
@@ -336,7 +336,7 @@ DoubleEdgeDescription:
 	next "hurts the user."
 	done
 
-FlareBlitzDescription:
+LavateinDescription:
 BlazeStarDescription:
 DiveKickDescription:
 	text "A charge that also"
@@ -348,7 +348,7 @@ HeadbuttDescription:
 BiteDescription:
 WaterfallDescription:
 RockSlideDescription:
-HyperFangDescription:
+PowerBiteDescription:
 AirSlashDescription:
 IronHeadDescription:
 ZenHeadbuttDescription:
@@ -370,7 +370,7 @@ GunkShotDescription:
 
 EmberDescription:
 MeteorFallDescription:
-FireBlastDescription:
+HellTokamakDescription:
 SacredFireDescription:
 ScaldDescription:
 	text "An attack that may"
@@ -634,7 +634,7 @@ LeerDescription:
 	next "the foe's Defense."
 	done
 
-StringShotDescription:
+DollStringsDescription:
 	text "A move that lowers"
 	next "the foe's Speed."
 	done
@@ -740,7 +740,7 @@ FlyDescription:
 	done
 
 MasterSparkDescription:
-GigaImpactDescription:
+GungnirDescription:
 	text "1st turn: Attack"
 	next "2nd turn: Rest"
 	done
@@ -847,7 +847,7 @@ MachPunchDescription:
 	next "always goes first."
 	done
 
-BulletPunchDescription:
+SteelFistDescription:
 	text "A tough punch that"
 	next "always goes first."
 	done
@@ -882,7 +882,7 @@ CutDescription:
 	next "scythes, etc."
 	done
 
-XScissorDescription:
+IchigoCrossDescription:
 	text "Slashes foe with"
 	next "scythes or claws."
 	done
@@ -952,7 +952,7 @@ HydroPumpDescription:
 	next "type attack."
 	done
 
-DrillPeckDescription:
+DragonDrillDescription:
 	text "A strong, spin-"
 	next "ning-peck attack."
 	done
@@ -1007,7 +1007,7 @@ SkillSwapDescription:
 	next "with the foe."
 	done
 
-HiJumpKickDescription:
+TensionKickDescription:
 	text "May miss and hurt"
 	next "the user."
 	done
@@ -1017,7 +1017,7 @@ DreamEaterDescription:
 	next "sleeping victim."
 	done
 
-TransformDescription:
+RecollectDescription:
 	text "The user assumes"
 	next "the foe's guise."
 	done
@@ -1042,12 +1042,12 @@ ConversionDescription:
 	next "to a move's type."
 	done
 
-TriAttackDescription:
+FiveElementsDescription:
 	text "Fires three kinds"
 	next "of beams at once."
 	done
 
-SuperFangDescription:
+LifeCounterDescription:
 	text "Cuts the foe's HP"
 	next "by 1/2."
 	done

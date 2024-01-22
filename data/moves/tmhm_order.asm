@@ -25,7 +25,7 @@ endc
 	db TM_EXPLOSION
 	db TM_FACADE
 	db TM_BLADE_FLASH
-	db TM_FIRE_BLAST
+	db TM_HELL_TOKAMAK
 	db TM_FLAME_CHARGE
 	db TM_METEOR_FALL
 	db TM_FLASH
@@ -33,7 +33,7 @@ endc
 	db HM_FLY
 	db TM_FOCUS_BLAST
 	db TM_GIGA_DRAIN
-	db TM_GIGA_IMPACT
+	db TM_GUNGNIR
 	db TM_GYRO_BALL
 	db TM_HAIL
 	db TM_HIDDEN_POWER
@@ -84,7 +84,7 @@ endc
 	db HM_WHIRLPOOL
 	db TM_KNIFE_THROW
 	db TM_WILL_O_WISP
-	db TM_X_SCISSOR
+	db TM_ICHIGO_CROSS
 	db NUM_TMS + NUM_HMS
 TMHMListAlphaEnd:
 	assert (TMHMListAlphaEnd - TMHMListAlpha) <= NUM_TMS + NUM_HMS + 1, "Too many A-Z TMs"

@@ -1644,7 +1644,7 @@ OffensiveDamageAbilities:
 
 DefensiveDamageAbilities:
 	dbw MULTISCALE, EnemyMultiscaleAbility
-	dbw MARVEL_SCALE, EnemyMarvelScaleAbility
+	dbw SPRING_CHARM, EnemySpringCharmAbility
 	dbw THICK_FAT, EnemyThickFatAbility
 	dbw DRY_SKIN, EnemyDrySkinAbility
 	dbw FUR_COAT, EnemyFurCoatAbility
@@ -1871,7 +1871,7 @@ EnemyMultiscaleAbility:
 	ln a, 1, 2 ; x0.5
 	jmp MultiplyAndDivide
 
-EnemyMarvelScaleAbility:
+EnemySpringCharmAbility:
 ; 150% physical Defense if statused
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVar

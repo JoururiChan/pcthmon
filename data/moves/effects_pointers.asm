@@ -84,9 +84,9 @@ MoveEffectsPointers:
 	dw Roar
 	dw Conversion
 	dw PayDay
-	dw TriAttack
+	dw FiveElements
 	dw StaticDamage
-	dw Transform
+	dw Recollect
 	dw Substitute
 	dw MasterSpark
 	dw Rage
@@ -137,7 +137,7 @@ MoveEffectsPointers:
 	dw Thunder
 	dw Teleport
 	dw Fly
-	dw FlareBlitz
+	dw Lavatein
 	dw NormalHit
 	dw NormalHit
 	dw SwitchHit

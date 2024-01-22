@@ -1294,7 +1294,7 @@ BugBite:
 	posthiteffects
 	endmove
 
-TriAttack:
+FiveElements:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1316,7 +1316,7 @@ TriAttack:
 	tristatuschance
 	endmove
 
-Transform:
+Recollect:
 	checkobedience
 	usedmovetext
 	doturn
@@ -2088,7 +2088,7 @@ Dig:
 	posthiteffects
 	endmove
 
-FlareBlitz:
+Lavatein:
 	checkobedience
 	usedmovetext
 	doturn

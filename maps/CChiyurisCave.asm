@@ -1,33 +1,33 @@
-DiglettsCave_MapScriptHeader:
+CChiyurisCave_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
 
 	def_warp_events
 	warp_event 37, 15, VERMILION_CITY, 10
-	warp_event 39, 13, DIGLETTS_CAVE, 5
+	warp_event 39, 13, CCHIYURIS_CAVE, 5
 	warp_event 37,  5, ROUTE_2_NORTH, 4
-	warp_event 39,  3, DIGLETTS_CAVE, 6
-	warp_event 37, 31, DIGLETTS_CAVE, 2
-	warp_event  5,  5, DIGLETTS_CAVE, 4
+	warp_event 39,  3, CCHIYURIS_CAVE, 6
+	warp_event 37, 31, CCHIYURIS_CAVE, 2
+	warp_event  5,  5, CCHIYURIS_CAVE, 4
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  8, 15, BGEVENT_ITEM + MAX_REVIVE, EVENT_DIGLETTS_CAVE_HIDDEN_MAX_REVIVE
-	bg_event 34, 33, BGEVENT_ITEM + MAX_REPEL, EVENT_DIGLETTS_CAVE_HIDDEN_MAX_REPEL
+	bg_event  8, 15, BGEVENT_ITEM + MAX_REVIVE, EVENT_CCHIYURIS_CAVE_HIDDEN_MAX_REVIVE
+	bg_event 34, 33, BGEVENT_ITEM + MAX_REPEL, EVENT_CCHIYURIS_CAVE_HIDDEN_MAX_REPEL
 
 	def_object_events
-	object_event 11, 15, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, DiglettsCaveFossilManiacScript, -1
+	object_event 11, 15, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CChiyurisCaveFossilManiacScript, -1
 	object_event  5, 13, SPRITE_HIKER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerHikerGerard, -1
 	object_event 25, 31, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerHikerDent, -1
 	object_event 16, 21, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBlackbeltInigo, -1
 	object_event  9, 20, SPRITE_ENGINEER, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerEngineerSmith, -1
-	object_event 37, 13, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, DiglettsCavePokefanMText, -1
-	object_event 20, 27, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, DiglettsCaveCooltrainerfText, -1
-	itemball_event 13, 28, RARE_BONE, 1, EVENT_DIGLETTS_CAVE_RARE_BONE
+	object_event 37, 13, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CChiyurisCavePokefanMText, -1
+	object_event 20, 27, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CChiyurisCaveCooltrainerfText, -1
+	itemball_event 13, 28, RARE_BONE, 1, EVENT_CCHIYURIS_CAVE_RARE_BONE
 
-DiglettsCaveFossilManiacScript:
+CChiyurisCaveFossilManiacScript:
 	faceplayer
 	opentext
 	writetext .GreetingText
@@ -106,7 +106,7 @@ GenericTrainerHikerGerard:
 	text "This place makes"
 	line "me so nervous."
 
-	para "What if a Diglett"
+	para "What if a CChiyuri"
 	line "attacks me out of"
 	cont "nowhere?"
 	done
@@ -168,13 +168,13 @@ GenericTrainerBlackbeltInigo:
 GenericTrainerEngineerSmith:
 	generictrainer ENGINEER, SMITH, EVENT_BEAT_ENGINEER_SMITH, .SeenText, .BeatenText
 
-	text "Those Diglett are"
+	text "Those CChiyuri are"
 	line "just natural"
 	cont "engineers."
 	done
 
 .SeenText:
-	text "How did Diglett"
+	text "How did CChiyuri"
 	line "create such a long"
 	cont "tunnel?"
 	done
@@ -183,16 +183,16 @@ GenericTrainerEngineerSmith:
 	text "Amazing!"
 	done
 
-DiglettsCaveCooltrainerfText:
+CChiyurisCaveCooltrainerfText:
 	text "Look at all these"
-	line "cute Diglett!"
+	line "cute CChiyuri!"
 
 	para "I swear I saw one"
 	line "with a blue nose!"
 	done
 
-DiglettsCavePokefanMText:
-	text "A bunch of Diglett"
+CChiyurisCavePokefanMText:
+	text "A bunch of CChiyuri"
 	line "popped out of the"
 
 	para "ground! That was"

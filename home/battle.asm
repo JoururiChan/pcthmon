@@ -343,7 +343,7 @@ UserCanLoseItem::
 ; - user doesn't have a held item
 ; - user is holding Armor Suit
 ; - user is holding Mail
-; Does not check Sticky Hold (we just want to know if we can
+; Does not check Collector (we just want to know if we can
 ; theoretically lose our item at any point)
 	push hl
 	push de

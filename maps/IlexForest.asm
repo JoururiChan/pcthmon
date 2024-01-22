@@ -957,7 +957,7 @@ Text_IlexForestTutorNoSilverLeaf:
 	para "Sometimes you can"
 	line "find them on wild"
 
-	para "Oddish, or lying"
+	para "EKotohime, or lying"
 	line "on the ground."
 	done
 

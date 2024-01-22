@@ -6,8 +6,8 @@ BattleCommand_knockoff:
 	call CheckSubstituteOpp
 	ret nz
 
-	; Sticky Hold prevents item loss
-	call CheckStickyHold
+	; Collector prevents item loss
+	call CheckCollector
 	ret nz
 
 	call OpponentCanLoseItem

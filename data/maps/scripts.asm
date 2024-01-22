@@ -563,7 +563,7 @@ SECTION "Vermilion Scripts", ROMX
 INCLUDE "maps/VermilionCity.asm"
 INCLUDE "maps/VermilionMart.asm"
 INCLUDE "maps/VermilionGym.asm"
-INCLUDE "maps/VermilionHouseDiglettsCaveSpeechHouse.asm"
+INCLUDE "maps/VermilionHouseCChiyurisCaveSpeechHouse.asm"
 INCLUDE "maps/VermilionHouseFishingSpeechHouse.asm"
 INCLUDE "maps/VermilionMagnetTrainSpeechHouse.asm"
 INCLUDE "maps/VermilionPollutionSpeechHouse.asm"
@@ -572,9 +572,9 @@ INCLUDE "maps/VermilionSSAnneSpeechHouse.asm"
 INCLUDE "maps/PokemonFanClub.asm"
 
 
-SECTION "Diglett's Cave Scripts", ROMX
+SECTION "CChiyuri's Cave Scripts", ROMX
 
-INCLUDE "maps/DiglettsCave.asm"
+INCLUDE "maps/CChiyurisCave.asm"
 
 
 SECTION "Rock Tunnel Scripts", ROMX

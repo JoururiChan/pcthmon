@@ -12,7 +12,7 @@ BattleAnimations::
 	dw BattleAnim_IcePunch
 	dw BattleAnim_Thunderpunch
 	dw BattleAnim_Scratch
-	dw BattleAnim_XScissor
+	dw BattleAnim_IchigoCross
 	dw BattleAnim_NightSlash
 	dw BattleAnim_AirSlash
 	dw BattleAnim_SwordsDance
@@ -26,7 +26,7 @@ BattleAnimations::
 	dw BattleAnim_VineWhip
 	dw BattleAnim_Stomp
 	dw BattleAnim_DoubleKick
-	dw BattleAnim_FlareBlitz
+	dw BattleAnim_Lavatein
 	dw BattleAnim_StoneEdge
 	dw BattleAnim_FocusBlast
 	dw BattleAnim_ToxicSpikes
@@ -66,7 +66,7 @@ BattleAnimations::
 	dw BattleAnim_AuroraBeam
 	dw BattleAnim_MasterSpark
 	dw BattleAnim_Peck
-	dw BattleAnim_DrillPeck
+	dw BattleAnim_DragonDrill
 	dw BattleAnim_Sculpture
 	dw BattleAnim_LowKick
 	dw BattleAnim_Counter
@@ -82,7 +82,7 @@ BattleAnimations::
 	dw BattleAnim_StunSpore
 	dw BattleAnim_SleepPowder
 	dw BattleAnim_PetalSlash
-	dw BattleAnim_StringShot
+	dw BattleAnim_DollStrings
 	dw BattleAnim_DragonRage
 	dw BattleAnim_FireSpin
 	dw BattleAnim_Thundershock
@@ -127,7 +127,7 @@ BattleAnimations::
 	dw BattleAnim_GunkShot
 	dw BattleAnim_Venoshock
 	dw BattleAnim_EarthPower
-	dw BattleAnim_FireBlast
+	dw BattleAnim_HellTokamak
 	dw BattleAnim_Waterfall
 	dw BattleAnim_IcicleCrash
 	dw BattleAnim_Swift
@@ -137,15 +137,15 @@ BattleAnimations::
 	dw BattleAnim_Amnesia
 	dw BattleAnim_WhiteBird
 	dw BattleAnim_FreshSnack
-	dw BattleAnim_HiJumpKick
+	dw BattleAnim_TensionKick
 	dw BattleAnim_Glare
 	dw BattleAnim_DreamEater
 	dw BattleAnim_PoisonJab
-	dw BattleAnim_BulletPunch
+	dw BattleAnim_SteelFist
 	dw BattleAnim_LeechLife
 	dw BattleAnim_DrainKiss
 	dw BattleAnim_DiveKick
-	dw BattleAnim_Transform
+	dw BattleAnim_Recollect
 	dw BattleAnim_WaterPulse
 	dw BattleAnim_DizzyPunch
 	dw BattleAnim_Spore
@@ -159,14 +159,14 @@ BattleAnimations::
 	dw BattleAnim_Bonemerang
 	dw BattleAnim_Rest
 	dw BattleAnim_RockSlide
-	dw BattleAnim_HyperFang
+	dw BattleAnim_PowerBite
 	dw BattleAnim_BulkUp
 	dw BattleAnim_Conversion
-	dw BattleAnim_TriAttack
-	dw BattleAnim_SuperFang
+	dw BattleAnim_FiveElements
+	dw BattleAnim_LifeCounter
 	dw BattleAnim_Slash
 	dw BattleAnim_Substitute
-	dw BattleAnim_GigaImpact
+	dw BattleAnim_Gungnir
 	dw BattleAnim_Sketch
 	dw BattleAnim_DrainPunch
 	dw BattleAnim_Thief
@@ -824,7 +824,7 @@ BattleAnim_DoubleKick:
 	anim_wait 8
 	anim_ret
 
-BattleAnim_HiJumpKick:
+BattleAnim_TensionKick:
 	anim_1gfx ANIM_GFX_HIT
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $40, $2, $0
 	anim_jumpif $1, .alternate
@@ -874,7 +874,7 @@ BattleAnim_FocusBlast:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_HyperFang:
+BattleAnim_PowerBite:
 	anim_1gfx ANIM_GFX_HIT
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $20, $1, $0
 	anim_sound 0, 1, SFX_BITE
@@ -884,7 +884,7 @@ BattleAnim_HyperFang:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_SuperFang:
+BattleAnim_LifeCounter:
 	anim_1gfx ANIM_GFX_HIT
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $40, $2, $0
 	anim_wait 48
@@ -936,11 +936,11 @@ BattleAnim_WillOWisp:
 	anim_loop 4, .loop
 	anim_wait 16
 	anim_sound 0, 0, SFX_BURN
-	anim_obj ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $1
-	anim_obj ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $2
-	anim_obj ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $3
-	anim_obj ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $4
-	anim_obj ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $5
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, 17, 0,  6, 0, $1
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, 17, 0,  6, 0, $2
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, 17, 0,  6, 0, $3
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, 17, 0,  6, 0, $4
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, 17, 0,  6, 0, $5
 	anim_wait 32
 	anim_bgp $e4
 	anim_ret
@@ -1010,12 +1010,12 @@ BattleAnim_MeteorFall:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_FireBlast:
+BattleAnim_HellTokamak:
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_1gfx ANIM_GFX_FIRE
 .loop1
 	anim_sound 6, 2, SFX_EMBER
-	anim_obj ANIM_OBJ_FIRE_BLAST,   8, 0,  11, 4, $7
+	anim_obj ANIM_OBJ_HELL_TOKAMAK,   8, 0,  11, 4, $7
 	anim_wait 6
 	anim_loop 10, .loop1
 .loop2
@@ -1035,11 +1035,11 @@ BattleAnim_FireBlast:
 	anim_wait 2
 .loop3
 	anim_sound 0, 1, SFX_EMBER
-	anim_obj ANIM_OBJ_FIRE_BLAST, -15, 0,   7, 0, $1
-	anim_obj ANIM_OBJ_FIRE_BLAST, -15, 0,   7, 0, $2
-	anim_obj ANIM_OBJ_FIRE_BLAST, -15, 0,   7, 0, $3
-	anim_obj ANIM_OBJ_FIRE_BLAST, -15, 0,   7, 0, $4
-	anim_obj ANIM_OBJ_FIRE_BLAST, -15, 0,   7, 0, $5
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, -15, 0,   7, 0, $1
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, -15, 0,   7, 0, $2
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, -15, 0,   7, 0, $3
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, -15, 0,   7, 0, $4
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, -15, 0,   7, 0, $5
 	anim_wait 16
 	anim_loop 2, .loop3
 	anim_wait 32
@@ -1642,8 +1642,8 @@ BattleAnim_DragonPulse:
 	anim_bgp $e4
 	anim_ret
 
-; X-Scissor animation from Tohomon Prism
-BattleAnim_XScissor:
+; Ichigo Cross animation from Tohomon Prism
+BattleAnim_IchigoCross:
 	anim_1gfx ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
 	anim_obj ANIM_OBJ_CUT_LONG_DOWN_LEFT, 18, 0,  6, 0, $0
@@ -1987,27 +1987,27 @@ BattleAnim_FocusEnergy:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_BulletPunch:
+BattleAnim_SteelFist:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_UserObj_1Row
 	anim_resetobp0
 	anim_bgeffect ANIM_BG_VIBRATE_MON, $0, $0, $0
-	anim_obj ANIM_OBJ_BULLET_PUNCH, 140, 44, $0
+	anim_obj ANIM_OBJ_STEEL_FIST, 140, 44, $0
 	anim_sound 0, 1, SFX_TACKLE
 	anim_wait 3
-	anim_obj ANIM_OBJ_BULLET_PUNCH, 112, 46, $0
+	anim_obj ANIM_OBJ_STEEL_FIST, 112, 46, $0
 	anim_sound 0, 1, SFX_TACKLE
 	anim_wait 3
-	anim_obj ANIM_OBJ_BULLET_PUNCH, 148, 60, $0
+	anim_obj ANIM_OBJ_STEEL_FIST, 148, 60, $0
 	anim_sound 0, 1, SFX_TACKLE
 	anim_wait 3
-	anim_obj ANIM_OBJ_BULLET_PUNCH, 120, 30, $0
+	anim_obj ANIM_OBJ_STEEL_FIST, 120, 30, $0
 	anim_sound 0, 1, SFX_TACKLE
 	anim_wait 3
-	anim_obj ANIM_OBJ_BULLET_PUNCH, 116, 64, $0
+	anim_obj ANIM_OBJ_STEEL_FIST, 116, 64, $0
 	anim_sound 0, 1, SFX_TACKLE
 	anim_wait 3
-	anim_obj ANIM_OBJ_BULLET_PUNCH, 132, 68, $0
+	anim_obj ANIM_OBJ_STEEL_FIST, 132, 68, $0
 	anim_sound 0, 1, SFX_TACKLE
 	anim_wait 3
 	anim_wait 32
@@ -2294,26 +2294,26 @@ BattleAnim_Dig:
 	anim_wait 32
 	anim_ret
 
-BattleAnim_StringShot:
+BattleAnim_DollStrings:
 	anim_1gfx ANIM_GFX_WEB
 	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_sound 6, 2, SFX_MENU
-	anim_obj ANIM_OBJ_STRING_SHOT,   8, 0,  10, 0, $0
+	anim_obj ANIM_OBJ_DOLL_STRINGS,   8, 0,  10, 0, $0
 	anim_wait 4
 	anim_sound 0, 1, SFX_MENU
-	anim_obj ANIM_OBJ_STRING_SHOT, -16, 4,   6, 0, $1
+	anim_obj ANIM_OBJ_DOLL_STRINGS, -16, 4,   6, 0, $1
 	anim_wait 4
 	anim_sound 6, 2, SFX_MENU
-	anim_obj ANIM_OBJ_STRING_SHOT,   8, 0,  11, 0, $0
+	anim_obj ANIM_OBJ_DOLL_STRINGS,   8, 0,  11, 0, $0
 	anim_wait 4
 	anim_sound 0, 1, SFX_MENU
-	anim_obj ANIM_OBJ_STRING_SHOT, -16, 4,   8, 0, $1
+	anim_obj ANIM_OBJ_DOLL_STRINGS, -16, 4,   8, 0, $1
 	anim_wait 4
 	anim_sound 6, 2, SFX_MENU
-	anim_obj ANIM_OBJ_STRING_SHOT,   8, 0,  10, 4, $0
+	anim_obj ANIM_OBJ_DOLL_STRINGS,   8, 0,  10, 4, $0
 	anim_wait 4
 	anim_sound 0, 1, SFX_MENU
-	anim_obj ANIM_OBJ_STRING_SHOT, -16, 4,   7, 0, $2
+	anim_obj ANIM_OBJ_DOLL_STRINGS, -16, 4,   7, 0, $2
 	anim_wait 64
 	anim_ret
 
@@ -2622,7 +2622,7 @@ BattleAnim_IcicleSpear:
 	anim_wait 8
 	anim_ret
 
-BattleAnim_Transform:
+BattleAnim_Recollect:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_2Row
 	anim_transform
@@ -2758,7 +2758,7 @@ BattleAnim_Peck:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_DrillPeck:
+BattleAnim_DragonDrill:
 	anim_1gfx ANIM_GFX_HIT
 .loop
 	anim_sound 0, 1, SFX_PECK
@@ -2989,7 +2989,7 @@ BattleAnim_Lick:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_TriAttack:
+BattleAnim_FiveElements:
 	anim_3gfx ANIM_GFX_FIRE, ANIM_GFX_ICE, ANIM_GFX_LIGHTNING
 	anim_call BattleAnimSub_Fire
 	anim_wait 16
@@ -3630,9 +3630,9 @@ BattleAnim_FlameCharge: ; formerly Flame Wheel
 	anim_wait 4
 	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $3
 	anim_sound 0, 1, SFX_EMBER
-	anim_obj ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $1
-	anim_obj ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $4
-	anim_obj ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $5
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, -15, 0,   6, 0, $1
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, -15, 0,   6, 0, $4
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, -15, 0,   6, 0, $5
 	anim_wait 8
 	anim_bgeffect ANIM_BG_SHOW_MON, $0, $0, $0
 	anim_wait 4
@@ -4785,9 +4785,9 @@ BattleAnim_SacredFire:
 	anim_bgeffect ANIM_BG_TACKLE, $0, $1, $0
 	anim_wait 4
 	anim_sound 0, 1, SFX_EMBER
-	anim_obj ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $1
-	anim_obj ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $4
-	anim_obj ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $5
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, -15, 0,   6, 0, $1
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, -15, 0,   6, 0, $4
+	anim_obj ANIM_OBJ_HELL_TOKAMAK, -15, 0,   6, 0, $5
 	anim_wait 8
 	anim_bgeffect ANIM_BG_SHOW_MON, $0, $0, $0
 	anim_wait 4
@@ -4795,27 +4795,27 @@ BattleAnim_SacredFire:
 	anim_wait 8
 	anim_ret
 
-BattleAnim_FlareBlitz:
+BattleAnim_Lavatein:
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_2gfx ANIM_GFX_FIRE, ANIM_GFX_HIT
 	anim_battlergfx_2row
 .loop
 	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 44, 108, $6
+	anim_obj ANIM_OBJ_LAVATEIN, 44, 108, $6
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 36, 108, $6
-	anim_wait 2
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 52, 108, $8
-	anim_wait 2
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 28, 108, $8
+	anim_obj ANIM_OBJ_LAVATEIN, 36, 108, $6
 	anim_wait 2
 	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 60, 108, $6
+	anim_obj ANIM_OBJ_LAVATEIN, 52, 108, $8
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 20, 108, $8
+	anim_obj ANIM_OBJ_LAVATEIN, 28, 108, $8
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 68, 108, $8
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj ANIM_OBJ_LAVATEIN, 60, 108, $6
+	anim_wait 2
+	anim_obj ANIM_OBJ_LAVATEIN, 20, 108, $8
+	anim_wait 2
+	anim_obj ANIM_OBJ_LAVATEIN, 68, 108, $8
 	anim_wait 2
 	anim_loop 3, .loop
 	anim_wait 16
@@ -5005,19 +5005,19 @@ BattleAnim_DragonClaw:
 	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
 	anim_sound 0, 1, SFX_MEGA_PUNCH
 .loop
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 44, 108, $6
+	anim_obj ANIM_OBJ_LAVATEIN, 44, 108, $6
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 36, 108, $6
+	anim_obj ANIM_OBJ_LAVATEIN, 36, 108, $6
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 52, 108, $8
+	anim_obj ANIM_OBJ_LAVATEIN, 52, 108, $8
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 28, 108, $8
+	anim_obj ANIM_OBJ_LAVATEIN, 28, 108, $8
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 60, 108, $6
+	anim_obj ANIM_OBJ_LAVATEIN, 60, 108, $6
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 20, 108, $8
+	anim_obj ANIM_OBJ_LAVATEIN, 20, 108, $8
 	anim_wait 2
-	anim_obj ANIM_OBJ_FLARE_BLITZ, 68, 108, $8
+	anim_obj ANIM_OBJ_LAVATEIN, 68, 108, $8
 	anim_wait 2
 	anim_loop 2, .loop
 	anim_wait 16
@@ -5922,7 +5922,7 @@ BattleAnim_SuckerPunch:
 	anim_wait 4
 	anim_ret
 
-BattleAnim_GigaImpact:
+BattleAnim_Gungnir:
 	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_CHARGE
 	anim_bgeffect ANIM_BG_WHITE_HUES, $0, $8, $0
 	anim_sound 0, 0, SFX_OUTRAGE
@@ -6255,11 +6255,11 @@ BattleAnim_StatDown:
 ;	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 ;	anim_obj ANIM_OBJ_SPIDER_WEB, -16, 4,   6, 0, $0
 ;	anim_sound 6, 2, SFX_SPIDER_WEB
-;	anim_obj ANIM_OBJ_STRING_SHOT,   8, 0,  10, 0, $0
+;	anim_obj ANIM_OBJ_DOLL_STRINGS,   8, 0,  10, 0, $0
 ;	anim_wait 4
-;	anim_obj ANIM_OBJ_STRING_SHOT,   8, 0,  11, 0, $0
+;	anim_obj ANIM_OBJ_DOLL_STRINGS,   8, 0,  11, 0, $0
 ;	anim_wait 4
-;	anim_obj ANIM_OBJ_STRING_SHOT,   8, 0,  10, 4, $0
+;	anim_obj ANIM_OBJ_DOLL_STRINGS,   8, 0,  10, 4, $0
 ;	anim_wait 64
 ;	anim_ret
 

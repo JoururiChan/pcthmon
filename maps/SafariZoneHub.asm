@@ -28,7 +28,7 @@ SafariZoneHub_MapScriptHeader:
 GenericTrainerBug_maniacKai:
 	generictrainer BUG_MANIAC, KAI, EVENT_BEAT_BUG_MANIAC_KAI, Bug_maniacKaiSeenText, Bug_maniacKaiBeatenText
 
-	text "Venonat is so"
+	text "Rikako is so"
 	line "similar to"
 	cont "FGyoku!"
 
@@ -41,8 +41,8 @@ GenericTrainerBug_maniacKai:
 	done
 
 Bug_maniacKaiSeenText:
-	text "My Venonat evolved"
-	line "into a Venomoth?!"
+	text "My Rikako evolved"
+	line "into a ERikako?!"
 	done
 
 Bug_maniacKaiBeatenText:

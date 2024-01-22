@@ -7,14 +7,14 @@ Route2North_MapScriptHeader:
 	warp_event 15, 19, ROUTE_2_NUGGET_SPEECH_HOUSE, 1
 	warp_event 16, 35, ROUTE_2_GATE, 1
 	warp_event 17, 35, ROUTE_2_GATE, 2
-	warp_event 12,  9, DIGLETTS_CAVE, 3
+	warp_event 12,  9, CCHIYURIS_CAVE, 3
 	warp_event  1, 11, VIRIDIAN_FOREST_PEWTER_GATE, 3
 	warp_event  2, 11, VIRIDIAN_FOREST_PEWTER_GATE, 4
 
 	def_coord_events
 
 	def_bg_events
-	bg_event 11, 11, BGEVENT_JUMPTEXT, Route2DiglettsCaveSignText
+	bg_event 11, 11, BGEVENT_JUMPTEXT, Route2CChiyurisCaveSignText
 
 	def_object_events
 	object_event  6,  6, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBug_maniacEd, -1
@@ -45,7 +45,7 @@ Bug_maniacEdBeatenText:
 	done
 
 Route2NorthCooltrainermText:
-	text "Diglett's Cave is"
+	text "CChiyuri's Cave is"
 	line "just a dead end."
 
 	para "The Vermilion City"
@@ -55,6 +55,6 @@ Route2NorthCooltrainermText:
 	line "Snorlax."
 	done
 
-Route2DiglettsCaveSignText:
-	text "Diglett's Cave"
+Route2CChiyurisCaveSignText:
+	text "CChiyuri's Cave"
 	done

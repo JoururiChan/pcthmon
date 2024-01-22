@@ -162,7 +162,7 @@ Their animations in battle still depend on the Tohomon using them, e.g. Chansey'
 
 ### Where do I get Silver/Gold Leaves?
 
-Silver Leaves are like Shards in future generations: they can be given to Move Tutors to learn moves. Wild Oddish have a 50% chance of holding Silver Leaves, and there are some hidden on the ground in Ilex Forest.
+Silver Leaves are like Shards in future generations: they can be given to Move Tutors to learn moves. Wild EKotohime have a 50% chance of holding Silver Leaves, and there are some hidden on the ground in Ilex Forest.
 
 Gold Leaves can be given to the Move Maniac in Cianwood City to relearn moves. Wild Bellsprout have a 50% chance of holding Gold Leaves, and there are some hidden on the ground in Yellow Forest.
 

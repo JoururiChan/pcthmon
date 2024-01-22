@@ -529,7 +529,7 @@ ENDM
 	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0
 	map_attributes Route42EcruteakGate, ROUTE_42_ECRUTEAK_GATE, $0, 0
-	map_attributes DiglettsCave, DIGLETTS_CAVE, $9, 0
+	map_attributes CChiyurisCave, CCHIYURIS_CAVE, $9, 0
 	map_attributes MountMoon1F, MOUNT_MOON_1F, $9, 0
 	map_attributes MountMoonB1F, MOUNT_MOON_B1F, $9, 0
 	map_attributes MountMoonB2F, MOUNT_MOON_B2F, $9, 0
@@ -642,7 +642,7 @@ ENDM
 	map_attributes PokemonFanClub, POKEMON_FAN_CLUB, $0, 0
 	map_attributes VermilionMagnetTrainSpeechHouse, VERMILION_MAGNET_TRAIN_SPEECH_HOUSE, $0, 0
 	map_attributes VermilionMart, VERMILION_MART, $0, 0
-	map_attributes VermilionHouseDiglettsCaveSpeechHouse, VERMILION_HOUSE_DIGLETTS_CAVE_SPEECH_HOUSE, $0, 0
+	map_attributes VermilionHouseCChiyurisCaveSpeechHouse, VERMILION_HOUSE_CCHIYURIS_CAVE_SPEECH_HOUSE, $0, 0
 	map_attributes VermilionGym, VERMILION_GYM, $0, 0
 	map_attributes Route6SaffronGate, ROUTE_6_SAFFRON_GATE, $0, 0
 	map_attributes Route6UndergroundEntrance, ROUTE_6_UNDERGROUND_ENTRANCE, $0, 0

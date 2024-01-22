@@ -17,7 +17,7 @@ AI_Redundant:
 	dbw EFFECT_LIGHT_SCREEN,  .LightScreen
 	dbw EFFECT_FOCUS_ENERGY,  .FocusEnergy
 	dbw EFFECT_CONFUSE,       .Confuse
-	dbw EFFECT_TRANSFORM,     .Transform
+	dbw EFFECT_RECOLLECT,     .Recollect
 	dbw EFFECT_REFLECT,       .Reflect
 	dbw EFFECT_SUBSTITUTE,    .Substitute
 	dbw EFFECT_LEECH_SEED,    .LeechSeed
@@ -132,9 +132,9 @@ AI_Redundant:
 	bit SUBSTATUS_CONFUSED, a
 	ret
 
-.Transform:
+.Recollect:
 	ld a, [wEnemySubStatus2]
-	bit SUBSTATUS_TRANSFORMED, a
+	bit SUBSTATUS_RECOLLECTED, a
 	ret
 
 .SleepTalk:

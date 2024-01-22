@@ -1,17 +1,17 @@
-	db  40,  45,  35,  90,  40,  40 ; 290 BST
+	db  55, 100, 50,  108, 130,  50 ; 290 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db NORMAL, NORMAL ; type
-	db 255 ; catch rate
-	db 69 ; base exp
-	db NO_ITEM, AMULET_COIN ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db WATER, ELECTRIC ; type
+	db 125 ; catch rate
+	db 115 ; base exp
+	db NO_ITEM, SOFT_SAND ; held items
+	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for MEOWTH, PICKUP, TECHNICIAN, UNNERVE
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for ECHIYURI, STATIC, SWIFT_SWIM, SWIFT_SWIM
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_WATER_1, EGG_GROUND ; egg groups
 
-	ev_yield 1 Spe
+	ev_yield 2 Spe, 1 Atk
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, HONE_TOOLS, PROTECT, RAIN_DANCE, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, BLADE_FLASH, DARK_PULSE, WATER_PULSE, SHADOW_HIT, U_TURN, FLASH, CUT, SAKUYA_WORLD, BODY_SLAM, CHARM, DEFENSE_CURL, DOUBLE_EDGE, DREAM_EATER, ENDURE, HEADBUTT, HYPER_VOICE, ICY_WIND, KNOCK_OFF, PAY_DAY, SEED_BOMB, SLEEP_TALK, SWAGGER, ZAP_CANNON

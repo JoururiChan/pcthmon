@@ -37,24 +37,24 @@ EggMovePointers::
 	dw NoEggMoves             ; CMeira
 	dw NoEggMoves             ; Meira
 	dw EMeiraPlainEggMoves    ; EMeira
-	dw NoEggMoves             ; Ninetales
-	dw NoEggMoves             ; Jigglypuff
-	dw NoEggMoves             ; Wigglytuff
-	dw ZubatEggMoves          ; Zubat
-	dw NoEggMoves             ; Golbat
-	dw OddishEggMoves         ; Oddish
-	dw NoEggMoves             ; Gloom
-	dw NoEggMoves             ; Vileplume
-	dw ParasEggMoves          ; Paras
-	dw NoEggMoves             ; Parasect
-	dw VenonatEggMoves        ; Venonat
-	dw NoEggMoves             ; Venomoth
-	dw DiglettPlainEggMoves   ; Diglett
-	dw NoEggMoves             ; Dugtrio
-	dw MeowthPlainEggMoves    ; Meowth
-	dw NoEggMoves             ; Persian
-	dw PsyduckEggMoves        ; Psyduck
-	dw NoEggMoves             ; Golduck
+	dw NoEggMoves             ; CEllen
+	dw NoEggMoves             ; Ellen
+	dw NoEggMoves             ; EEllen
+	dw CKotohimeEggMoves          ; CKotohime
+	dw NoEggMoves             ; Kotohime
+	dw EKotohimeEggMoves         ; EKotohime
+	dw NoEggMoves             ; CKana
+	dw NoEggMoves             ; Kana
+	dw EKanaEggMoves          ; EKana
+	dw NoEggMoves             ; CRikako
+	dw RikakoEggMoves        ; Rikako
+	dw NoEggMoves             ; ERikako
+	dw CChiyuriPlainEggMoves   ; CChiyuri
+	dw NoEggMoves             ; Chiyuri
+	dw EChiyuriPlainEggMoves    ; EChiyuri
+	dw NoEggMoves             ; CYumemi
+	dw YumemiEggMoves        ; Yumemi
+	dw NoEggMoves             ; EYumemi
 	dw MankeyEggMoves         ; Mankey
 	dw NoEggMoves             ; Primeape
 	dw GrowlitheEggMoves      ; Growlithe
@@ -305,11 +305,11 @@ EggMovePointers::
 	dw SarielAlolanEggMoves   ; Sariel (Alolan Form)
 	dw NoEggMoves                ; ESariel (Alolan Form)
 	dw EMeiraAlolanEggMoves      ; EMeira (Alolan Form)
-	dw NoEggMoves                ; Ninetales (Alolan Form)
-	dw DiglettAlolanEggMoves     ; Diglett (Alolan Form)
-	dw NoEggMoves                ; Dugtrio (Alolan Form)
-	dw MeowthAlolanEggMoves      ; Meowth (Alolan Form)
-	dw NoEggMoves                ; Persian (Alolan Form)
+	dw NoEggMoves                ; CEllen (Alolan Form)
+	dw CChiyuriAlolanEggMoves     ; CChiyuri (Alolan Form)
+	dw NoEggMoves                ; Chiyuri (Alolan Form)
+	dw EChiyuriAlolanEggMoves      ; EChiyuri (Alolan Form)
+	dw NoEggMoves                ; CYumemi (Alolan Form)
 	dw GeodudeAlolanEggMoves     ; Geodude (Alolan Form)
 	dw NoEggMoves                ; Graveler (Alolan Form)
 	dw NoEggMoves                ; Golem (Alolan Form)
@@ -318,7 +318,7 @@ EggMovePointers::
 	dw NoEggMoves                ; Exeggutor (Alolan Form)
 	dw NoEggMoves                ; Marowak (Alolan Form)
 
-	dw MeowthGalarianEggMoves    ; Meowth (Galarian Form)
+	dw EChiyuriGalarianEggMoves    ; EChiyuri (Galarian Form)
 	dw PonytaGalarianEggMoves    ; Ponyta (Galarian Form)
 	dw NoEggMoves                ; Rapidash (Galarian Form)
 	dw SlowpokeGalarianEggMoves  ; Slowpoke (Galarian Form)

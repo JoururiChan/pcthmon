@@ -10,5 +10,5 @@ ResidualMoves:
 	db SUBSTITUTE
 	db THUNDER_WAVE
 	db TOXIC_SPIKES
-	db TRANSFORM
+	db RECOLLECT
 	db -1 ; end

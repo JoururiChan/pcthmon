@@ -41,24 +41,24 @@ PokemonPicPointers::
 	pics CMeira
 	pics Meira
 	pics EMeiraPlain
-	pics NinetalesPlain
-	pics Jigglypuff
-	pics Wigglytuff
-	pics Zubat
-	pics Golbat
-	pics Oddish
-	pics Gloom
-	pics Vileplume
-	pics Paras
-	pics Parasect
-	pics Venonat
-	pics Venomoth
-	pics DiglettPlain
-	pics DugtrioPlain
-	pics MeowthPlain
-	pics PersianPlain
-	pics Psyduck
-	pics Golduck
+	pics CEllenPlain
+	pics Ellen
+	pics EEllen
+	pics CKotohime
+	pics Kotohime
+	pics EKotohime
+	pics CKana
+	pics Kana
+	pics EKana
+	pics CRikako
+	pics Rikako
+	pics ERikako
+	pics CChiyuriPlain
+	pics ChiyuriPlain
+	pics EChiyuriPlain
+	pics CYumemiPlain
+	pics Yumemi
+	pics EYumemi
 	pics Mankey
 	pics Primeape
 	pics GrowlithePlain
@@ -372,11 +372,11 @@ PokemonPicPointers::
 	pics SarielAlolan
 	pics ESarielAlolan
 	pics EMeiraAlolan
-	pics NinetalesAlolan
-	pics DiglettAlolan
-	pics DugtrioAlolan
-	pics MeowthAlolan
-	pics PersianAlolan
+	pics CEllenAlolan
+	pics CChiyuriAlolan
+	pics ChiyuriAlolan
+	pics EChiyuriAlolan
+	pics CYumemiAlolan
 	pics GeodudeAlolan
 	pics GravelerAlolan
 	pics GolemAlolan
@@ -385,7 +385,7 @@ PokemonPicPointers::
 	pics ExeggutorAlolan
 	pics MarowakAlolan
 
-	pics MeowthGalarian
+	pics EChiyuriGalarian
 	pics PonytaGalarian
 	pics RapidashGalarian
 	pics SlowpokeGalarian

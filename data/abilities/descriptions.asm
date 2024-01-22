@@ -53,10 +53,10 @@ AbilityDescriptions:
 	dw PickupDescription
 	dw HustleDescription
 	dw CuteCharmDescription
-	dw StickyHoldDescription
+	dw CollectorDescription
 	dw ShedSkinDescription
 	dw GutsDescription
-	dw MarvelScaleDescription
+	dw SpringCharmDescription
 	dw LiquidOozeDescription
 	dw OvergrowDescription
 	dw BlazeDescription
@@ -425,7 +425,7 @@ CuteCharmDescription:
 	next1 "infatuation."
 	done
 
-StickyHoldDescription:
+CollectorDescription:
 	text  "Protects it from"
 	next1 "item theft."
 	done
@@ -440,7 +440,7 @@ GutsDescription:
 	next1 "status problems."
 	done
 
-MarvelScaleDescription:
+SpringCharmDescription:
 	text  "Boosts Defense on"
 	next1 "status problems."
 	done
@@ -761,7 +761,7 @@ AnalyticDescription:
 	done
 
 ImposterDescription:
-	text  "Transforms itself"
+	text  "Recollects itself"
 	next1 "into the foe."
 	done
 

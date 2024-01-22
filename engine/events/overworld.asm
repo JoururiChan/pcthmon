@@ -1594,13 +1594,13 @@ FishFunction:
 	ld a, [wBuffer2]
 	ld e, a
 
-	; Suction Cups and Sticky Hold boost bite rate. This is done
+	; Suction Cups and Collector boost bite rate. This is done
 	; by having these abilities result in 2 attempts being made
 	; for getting an encounter.
 	call GetLeadAbility
 	cp SUCTION_CUPS
 	jr z, .fish_attempt1
-	cp STICKY_HOLD
+	cp COLLECTOR
 	jr nz, .fish_attempt2
 .fish_attempt1
 	push bc

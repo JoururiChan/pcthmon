@@ -310,7 +310,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db 4 ; items
 	db "Umbreon@"
 	db "Glaceon@"
-	db "Persian@"
+	db "CYumemi@"
 	db "Girafarig@"
 
 .Question2MenuData:
@@ -325,7 +325,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db "Blissey@"
 	db "Qwilfish@"
 	db "Slowking@"
-	db "Venomoth@"
+	db "ERikako@"
 
 .Question3MenuData:
 	db MENU_BACKUP_TILES
@@ -350,7 +350,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .Question4MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Parasect@"
+	db "CRikako@"
 	db "Magmar@"
 	db "ESariel@"
 	db "Victreebel@"

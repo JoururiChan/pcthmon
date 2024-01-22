@@ -5374,7 +5374,7 @@ Sfx_DittoPopUp:
 	sound_ret
 
 
-Sfx_DittoTransform:
+Sfx_DittoRecollect:
 	channel_count 1
 	channel 5, .Ch5
 

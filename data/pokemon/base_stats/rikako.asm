@@ -1,0 +1,18 @@
+	db  37, 105,  32, 110,  50,  80 ; 305 BST
+	;   hp  atk  def  spe  sat  sdf
+
+	db PSYCHIC, FLYING ; type
+	db 105 ; catch rate
+	db 160 ; base exp
+	db TINYMUSHROOM, BIG_MUSHROOM ; held items
+	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
+
+	abilities_for RIKAKO, INSOMNIA, INSOMNIA, INSOMNIA
+	db GROWTH_FAST ; growth rate
+	dn EGG_MINERAL, EGG_FLYING ; egg groups
+
+	ev_yield 2 SAt
+
+	; tm/hm learnset
+	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, PROTECT, GIGA_DRAIN, FLOWER_SHOOT, RETURN, PSYCHIC, DOUBLE_TEAM, SLUDGE_BOMB, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, LEECH_LIFE, FLASH, SAKUYA_WORLD, BATON_PASS, DOUBLE_EDGE, ENDURE, SKILL_SWAP, SLEEP_TALK, SWAGGER, ZEN_HEADBUTT
+	; end

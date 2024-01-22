@@ -41,24 +41,24 @@ EvosAttacksPointers::
 	dw CMeiraEvosAttacks
 	dw MeiraEvosAttacks
 	dw EMeiraPlainEvosAttacks
-	dw NinetalesPlainEvosAttacks
-	dw JigglypuffEvosAttacks
-	dw WigglytuffEvosAttacks
-	dw ZubatEvosAttacks
-	dw GolbatEvosAttacks
-	dw OddishEvosAttacks
-	dw GloomEvosAttacks
-	dw VileplumeEvosAttacks
-	dw ParasEvosAttacks
-	dw ParasectEvosAttacks
-	dw VenonatEvosAttacks
-	dw VenomothEvosAttacks
-	dw DiglettPlainEvosAttacks
-	dw DugtrioPlainEvosAttacks
-	dw MeowthPlainEvosAttacks
-	dw PersianPlainEvosAttacks
-	dw PsyduckEvosAttacks
-	dw GolduckEvosAttacks
+	dw CEllenPlainEvosAttacks
+	dw EllenEvosAttacks
+	dw EEllenEvosAttacks
+	dw CKotohimeEvosAttacks
+	dw KotohimeEvosAttacks
+	dw EKotohimeEvosAttacks
+	dw CKanaEvosAttacks
+	dw KanaEvosAttacks
+	dw EKanaEvosAttacks
+	dw CRikakoEvosAttacks
+	dw RikakoEvosAttacks
+	dw ERikakoEvosAttacks
+	dw CChiyuriPlainEvosAttacks
+	dw ChiyuriPlainEvosAttacks
+	dw EChiyuriPlainEvosAttacks
+	dw CYumemiPlainEvosAttacks
+	dw YumemiEvosAttacks
+	dw EYumemiEvosAttacks
 	dw MankeyEvosAttacks
 	dw PrimeapeEvosAttacks
 	dw GrowlithePlainEvosAttacks
@@ -309,11 +309,11 @@ EvosAttacksPointers::
 	dw SarielAlolanEvosAttacks
 	dw ESarielAlolanEvosAttacks
 	dw EMeiraAlolanEvosAttacks
-	dw NinetalesAlolanEvosAttacks
-	dw DiglettAlolanEvosAttacks
-	dw DugtrioAlolanEvosAttacks
-	dw MeowthAlolanEvosAttacks
-	dw PersianAlolanEvosAttacks
+	dw CEllenAlolanEvosAttacks
+	dw CChiyuriAlolanEvosAttacks
+	dw ChiyuriAlolanEvosAttacks
+	dw EChiyuriAlolanEvosAttacks
+	dw CYumemiAlolanEvosAttacks
 	dw GeodudeAlolanEvosAttacks
 	dw GravelerAlolanEvosAttacks
 	dw GolemAlolanEvosAttacks
@@ -322,7 +322,7 @@ EvosAttacksPointers::
 	dw ExeggutorAlolanEvosAttacks
 	dw MarowakAlolanEvosAttacks
 
-	dw MeowthGalarianEvosAttacks
+	dw EChiyuriGalarianEvosAttacks
 	dw PonytaGalarianEvosAttacks
 	dw RapidashGalarianEvosAttacks
 	dw SlowpokeGalarianEvosAttacks

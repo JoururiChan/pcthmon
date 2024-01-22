@@ -144,7 +144,7 @@ LearnMove:
 	jr nz, .learned
 
 	ld a, [wPlayerSubStatus2]
-	bit SUBSTATUS_TRANSFORMED, a
+	bit SUBSTATUS_RECOLLECTED, a
 	jr nz, .learned
 
 	ld h, d

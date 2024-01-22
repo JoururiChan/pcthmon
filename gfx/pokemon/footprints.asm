@@ -1,6 +1,6 @@
 Footprints:: ; needed for BANK(Footprints)
 
-VenomothFootprint::
+ERikakoFootprint::
 KabutoFootprint::
 SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lz"
 
@@ -27,12 +27,12 @@ ChinchouFootprint::
 CloysterFootprint::
 CrobatFootprint::
 DewgongFootprint::
-DiglettFootprint::
+CChiyuriFootprint::
 DittoFootprint::
 DragonairFootprint::
 DratiniFootprint::
 DudunsparceFootprint::
-DugtrioFootprint::
+ChiyuriFootprint::
 DunsparceFootprint::
 CKikuriFootprint::
 ElectrodeFootprint::
@@ -80,7 +80,7 @@ VictreebelFootprint::
 VoltorbFootprint::
 WeepinbellFootprint::
 WeezingFootprint::
-ZubatFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
+CKotohimeFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 
 CReimuFootprint:: INCBIN "gfx/footprints/creimu.1bpp.lz"
 ReimuFootprint:: INCBIN "gfx/footprints/reimu.1bpp.lz"
@@ -111,20 +111,20 @@ ERikaFootprint:: INCBIN "gfx/footprints/erika.1bpp.lz"
 CMeiraFootprint:: INCBIN "gfx/footprints/cmeira.1bpp.lz"
 MeiraFootprint:: INCBIN "gfx/footprints/meira.1bpp.lz"
 EMeiraFootprint:: INCBIN "gfx/footprints/emeira.1bpp.lz"
-NinetalesFootprint:: INCBIN "gfx/footprints/ninetales.1bpp.lz"
-JigglypuffFootprint:: INCBIN "gfx/footprints/jigglypuff.1bpp.lz"
-WigglytuffFootprint:: INCBIN "gfx/footprints/wigglytuff.1bpp.lz"
-GolbatFootprint:: INCBIN "gfx/footprints/golbat.1bpp.lz"
-OddishFootprint:: INCBIN "gfx/footprints/oddish.1bpp.lz"
-GloomFootprint:: INCBIN "gfx/footprints/gloom.1bpp.lz"
-VileplumeFootprint:: INCBIN "gfx/footprints/vileplume.1bpp.lz"
-ParasFootprint:: INCBIN "gfx/footprints/paras.1bpp.lz"
-ParasectFootprint:: INCBIN "gfx/footprints/parasect.1bpp.lz"
-VenonatFootprint:: INCBIN "gfx/footprints/venonat.1bpp.lz"
-MeowthFootprint:: INCBIN "gfx/footprints/meowth.1bpp.lz"
-PersianFootprint:: INCBIN "gfx/footprints/persian.1bpp.lz"
-PsyduckFootprint:: INCBIN "gfx/footprints/psyduck.1bpp.lz"
-GolduckFootprint:: INCBIN "gfx/footprints/golduck.1bpp.lz"
+CEllenFootprint:: INCBIN "gfx/footprints/cellen.1bpp.lz"
+EllenFootprint:: INCBIN "gfx/footprints/ellen.1bpp.lz"
+EEllenFootprint:: INCBIN "gfx/footprints/eellen.1bpp.lz"
+KotohimeFootprint:: INCBIN "gfx/footprints/kotohime.1bpp.lz"
+EKotohimeFootprint:: INCBIN "gfx/footprints/ekotohime.1bpp.lz"
+CKanaFootprint:: INCBIN "gfx/footprints/ckana.1bpp.lz"
+KanaFootprint:: INCBIN "gfx/footprints/kana.1bpp.lz"
+EKanaFootprint:: INCBIN "gfx/footprints/ekana.1bpp.lz"
+CRikakoFootprint:: INCBIN "gfx/footprints/crikako.1bpp.lz"
+RikakoFootprint:: INCBIN "gfx/footprints/rikako.1bpp.lz"
+EChiyuriFootprint:: INCBIN "gfx/footprints/echiyuri.1bpp.lz"
+CYumemiFootprint:: INCBIN "gfx/footprints/cyumemi.1bpp.lz"
+YumemiFootprint:: INCBIN "gfx/footprints/yumemi.1bpp.lz"
+EYumemiFootprint:: INCBIN "gfx/footprints/eyumemi.1bpp.lz"
 MankeyFootprint:: INCBIN "gfx/footprints/mankey.1bpp.lz"
 PrimeapeFootprint:: INCBIN "gfx/footprints/primeape.1bpp.lz"
 GrowlitheFootprint:: INCBIN "gfx/footprints/growlithe.1bpp.lz"

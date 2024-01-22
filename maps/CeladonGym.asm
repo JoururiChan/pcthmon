@@ -97,7 +97,7 @@ GenericTrainerBeautyJulia:
 GenericTrainerAroma_ladyDahlia:
 	generictrainer AROMA_LADY, DAHLIA, EVENT_BEAT_AROMA_LADY_DAHLIA, Aroma_ladyDahliaSeenText, Aroma_ladyDahliaBeatenText
 
-	text "Gloom releases a"
+	text "CKana releases a"
 	line "foul fragrance,"
 
 	para "but Erika knows"

@@ -8,7 +8,7 @@ CReimuEggMoves:
 	db PSYSHOT
 	db SAFEGUARD
 	db PSYBEAM
-	db HI_JUMP_KICK
+	db TENSION_KICK
 	db ACROBATICS
 	db $ff
 
@@ -56,7 +56,7 @@ ElisEggMoves:
 	db FEINT_ATTACK
 	db QUICK_ATTACK
 	db SCARY_FACE
-	db TRI_ATTACK
+	db FIVEELEMENTS
 	db $ff
 
 CKikuriEggMoves:
@@ -106,7 +106,7 @@ CRikaEggMoves:
 EMeiraPlainEggMoves:
 	db FLAME_CHARGE
 	db DISABLE
-	db FLARE_BLITZ
+	db LAVATEIN
 	db HYPNOSIS
 	db FEINT_ATTACK
 	db EXTRASENSORY
@@ -126,7 +126,7 @@ EMeiraAlolanEggMoves:
 	db ROAR
 	db $ff
 
-ZubatEggMoves:
+CKotohimeEggMoves:
 	db FEINT_ATTACK
 	db GUST
 	db HYPNOSIS
@@ -137,14 +137,14 @@ ZubatEggMoves:
 	db DIVE_KICK
 	db $ff
 
-OddishEggMoves:
+EKotohimeEggMoves:
 	db CHARM
 	db RAZOR_LEAF
 	db HEALINGLIGHT
 	db SWORDS_DANCE
 	db $ff
 
-ParasEggMoves:
+EKanaEggMoves:
 	db SAKUYA_WORLD
 	db LEECH_SEED
 	db METAL_CLAW
@@ -154,7 +154,7 @@ ParasEggMoves:
 	db SHADOW_HIT
 	db $ff
 
-VenonatEggMoves:
+RikakoEggMoves:
 	db SAKUYA_WORLD
 	db BATON_PASS
 	db HEALINGLIGHT
@@ -162,8 +162,8 @@ VenonatEggMoves:
 	db TOXIC_SPIKES
 	db $ff
 
-DiglettPlainEggMoves:
-DiglettAlolanEggMoves:
+CChiyuriPlainEggMoves:
+CChiyuriAlolanEggMoves:
 	db ANCIENTPOWER
 	db FEINT_ATTACK
 	db HEADBUTT
@@ -172,9 +172,9 @@ DiglettAlolanEggMoves:
 	db SCREECH
 	db $ff
 
-MeowthPlainEggMoves:
-MeowthAlolanEggMoves:
-MeowthGalarianEggMoves:
+EChiyuriPlainEggMoves:
+EChiyuriAlolanEggMoves:
+EChiyuriGalarianEggMoves:
 	db CHARM
 	db HYPNOSIS
 	db AMNESIA
@@ -182,7 +182,7 @@ MeowthGalarianEggMoves:
 	db NIGHT_SLASH
 	db $ff
 
-PsyduckEggMoves:
+YumemiEggMoves:
 	db CONFUSE_RAY
 	db CROSS_CHOP
 	db ENCORE
@@ -214,7 +214,7 @@ GrowlitheHisuianEggMoves:
 	db HEALINGLIGHT
 	db THRASH
 	db CRUNCH
-	db FLARE_BLITZ
+	db LAVATEIN
 	db BODY_SLAM
 	db SAFEGUARD
 	db SCULPTURE
@@ -236,7 +236,7 @@ AbraEggMoves:
 	db $ff
 
 MachopEggMoves:
-	db BULLET_PUNCH
+	db STEEL_FIST
 	db ENCORE
 	db BULK_UP
 	db LIGHT_SCREEN
@@ -541,7 +541,7 @@ CYoumuEggMoves:
 CReisenEggMoves:
 	db DOUBLE_KICK
 	db EXTRASENSORY
-	db FLARE_BLITZ
+	db LAVATEIN
 	db FORESIGHT
 	db FURY_STRIKES
 	db REVERSAL
@@ -644,7 +644,7 @@ TogepiEggMoves:
 	db $ff
 
 NatuEggMoves:
-	db DRILL_PECK
+	db DRAGON_DRILL
 	db FEINT_ATTACK
 	db HAZE
 	db QUICK_ATTACK
@@ -696,7 +696,7 @@ WooperPaldeanEggMoves:
 
 MurkrowEggMoves:
 	db CONFUSE_RAY
-	db DRILL_PECK
+	db DRAGON_DRILL
 	db SHADOW_DANCE
 	db QUICK_ATTACK
 	db SCREECH
@@ -865,7 +865,7 @@ DelibirdEggMoves:
 	db $ff
 
 SkarmoryEggMoves:
-	db DRILL_PECK
+	db DRAGON_DRILL
 	db PURSUIT
 	db DIVE_KICK
 	db $ff
@@ -899,8 +899,8 @@ StantlerEggMoves:
 	db $ff
 
 TyrogueEggMoves:
-	db BULLET_PUNCH
-	db HI_JUMP_KICK
+	db STEEL_FIST
+	db TENSION_KICK
 	db MACH_PUNCH
 	db PURSUIT
 	db RAPID_SPIN
@@ -922,7 +922,7 @@ MagbyEggMoves:
 	db BARRIER
 	db BELLY_DRUM
 	db CROSS_CHOP
-	db FLARE_BLITZ
+	db LAVATEIN
 	db FOCUS_ENERGY
 	db KARATE_CHOP
 	db MACH_PUNCH

@@ -1679,7 +1679,7 @@ LeppaRestorePP:
 	; restore PP of party struct unless transformed
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVar
-	bit SUBSTATUS_TRANSFORMED, a
+	bit SUBSTATUS_RECOLLECTED, a
 	ret nz
 
 	ldh a, [hBattleTurn]
@@ -2086,7 +2086,7 @@ FaintUserPokemon:
 	call LoadTileMapToTempTileMap
 
 SuppressUserNeutralizingGas:
-; Use -1 as sentinel, not 0. This is because Transform (via Imposter) should
+; Use -1 as sentinel, not 0. This is because Recollect (via Imposter) should
 ; regain Neutralizing Gas in case it procs.
 	ld a, BATTLE_VARS_ABILITY
 	call GetBattleVarAddr
@@ -5314,7 +5314,7 @@ SwapBattleMoves:
 
 ; Fixes the COOLTRAINER glitch
 	ld a, [wPlayerSubStatus2]
-	bit SUBSTATUS_TRANSFORMED, a
+	bit SUBSTATUS_RECOLLECTED, a
 	ret nz
 	ld hl, wPartyMon1Moves
 	ld a, [wCurBattleMon]
@@ -6590,7 +6590,7 @@ GiveExperiencePoints:
 	ld bc, PARTYMON_STRUCT_LENGTH - MON_MAXHP
 	jr nz, .got_copy_length
 	ld a, [wPlayerSubStatus2]
-	bit SUBSTATUS_TRANSFORMED, a
+	bit SUBSTATUS_RECOLLECTED, a
 	jr z, .got_copy_length
 	ld bc, 2
 .got_copy_length

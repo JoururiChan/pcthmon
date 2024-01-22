@@ -21,7 +21,7 @@ MoldBreakerSuppressedAbilities:
 	db LIMBER
 	db MAGIC_BOUNCE
 	db MAGMA_ARMOR
-	db MARVEL_SCALE
+	db SPRING_CHARM
 	db MOTOR_DRIVE
 	db MULTISCALE
 	db OBLIVIOUS
@@ -35,7 +35,7 @@ MoldBreakerSuppressedAbilities:
 	db SNOW_CLOAK
 	db SOLID_ROCK
 	db SOUNDPROOF
-	db STICKY_HOLD
+	db COLLECTOR
 	db STURDY
 	db SUCTION_CUPS
 	db TANGLED_FEET

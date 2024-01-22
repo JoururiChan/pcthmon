@@ -41,24 +41,24 @@ MiniIconPointers:
 	mini_icon CMeira
 	mini_icon Meira
 	mini_icon EMeira
-	mini_icon Ninetales
-	mini_icon Jigglypuff
-	mini_icon Wigglytuff
-	mini_icon Zubat
-	mini_icon Golbat
-	mini_icon Oddish
-	mini_icon Gloom
-	mini_icon Vileplume
-	mini_icon Paras
-	mini_icon Parasect
-	mini_icon Venonat
-	mini_icon Venomoth
-	mini_icon Diglett
-	mini_icon Dugtrio
-	mini_icon Meowth
-	mini_icon Persian
-	mini_icon Psyduck
-	mini_icon Golduck
+	mini_icon CEllen
+	mini_icon Ellen
+	mini_icon EEllen
+	mini_icon CKotohime
+	mini_icon Kotohime
+	mini_icon EKotohime
+	mini_icon CKana
+	mini_icon Kana
+	mini_icon EKana
+	mini_icon CRikako
+	mini_icon Rikako
+	mini_icon ERikako
+	mini_icon CChiyuri
+	mini_icon Chiyuri
+	mini_icon EChiyuri
+	mini_icon CYumemi
+	mini_icon Yumemi
+	mini_icon EYumemi
 	mini_icon Mankey
 	mini_icon Primeape
 	mini_icon Growlithe
@@ -356,11 +356,11 @@ endr
 	mini_icon SarielAlolan
 	mini_icon ESarielAlolan
 	mini_icon EMeiraAlolan
-	mini_icon NinetalesAlolan
-	mini_icon DiglettAlolan
-	mini_icon DugtrioAlolan
-	mini_icon MeowthAlolan
-	mini_icon PersianAlolan
+	mini_icon CEllenAlolan
+	mini_icon CChiyuriAlolan
+	mini_icon ChiyuriAlolan
+	mini_icon EChiyuriAlolan
+	mini_icon CYumemiAlolan
 	mini_icon GeodudeAlolan
 	mini_icon GravelerAlolan
 	mini_icon GolemAlolan
@@ -369,7 +369,7 @@ endr
 	mini_icon ExeggutorAlolan
 	mini_icon MarowakAlolan
 
-	mini_icon MeowthGalarian
+	mini_icon EChiyuriGalarian
 	mini_icon PonytaGalarian
 	mini_icon RapidashGalarian
 	mini_icon SlowpokeGalarian

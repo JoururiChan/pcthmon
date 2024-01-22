@@ -2356,7 +2356,7 @@ BattleRestorePP:
 	cp b
 	jr nz, .not_in_battle
 	ld a, [wPlayerSubStatus2]
-	bit SUBSTATUS_TRANSFORMED, a
+	bit SUBSTATUS_RECOLLECTED, a
 	call z, .UpdateBattleMonPP
 .not_in_battle
 	call Play_SFX_FULL_HEAL

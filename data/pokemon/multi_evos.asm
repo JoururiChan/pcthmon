@@ -18,7 +18,7 @@ MultipleEvolutions:
 	multi_evo EKIKURI
 	multi_evo EKIKURI, EKIKURI_FLY_FORM, EVOLVE_EKIKURI
 	multi_evo EKIKURI, EKIKURI_SURF_FORM, EVOLVE_EKIKURI
-	multi_evo GLOOM
+	multi_evo CKANA
 	multi_evo POLIWHIRL
 	multi_evo SLOWPOKE
 	multi_evo SLOWPOKE, GALARIAN_FORM, EVOLVE_SLOWPOKE_GALARIAN

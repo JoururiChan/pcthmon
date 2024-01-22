@@ -215,7 +215,7 @@ Route4SuperNerd2Text:
 	text "#mon with long"
 	line "tails are best!"
 
-	para "Slowbro, Golduck,"
+	para "Slowbro, EYumemi,"
 	line "ESanae!"
 
 	para "Don't you agree?"

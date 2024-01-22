@@ -363,7 +363,7 @@ ElmPhoneEvoText_EKikuri:
 	cont "an Odd Souvenir."
 	prompt
 
-ElmPhoneEvoText_Gloom:
+ElmPhoneEvoText_CKana:
 	text_ram wStringBuffer3
 	line "evolves when it's"
 

@@ -53,10 +53,10 @@ AbilityNames:
 	dw Pickup
 	dw Hustle
 	dw CuteCharm
-	dw StickyHold
+	dw Collector
 	dw ShedSkin
 	dw Guts
-	dw MarvelScale
+	dw SpringCharm
 	dw LiquidOoze
 	dw Overgrow
 	dw Blaze
@@ -209,10 +209,10 @@ HyperCutter:     rawchar "Hyper Cutter@"
 Pickup:          rawchar "Pickup@"
 Hustle:          rawchar "Hustle@"
 CuteCharm:       rawchar "Cute Charm@"
-StickyHold:      rawchar "Sticky Hold@"
+Collector:      rawchar "Collector@"
 ShedSkin:        rawchar "Shed Skin@"
 Guts:            rawchar "Guts@"
-MarvelScale:     rawchar "Marvel Scale@"
+SpringCharm:     rawchar "Spring Charm@"
 LiquidOoze:      rawchar "Liquid Ooze@"
 Overgrow:        rawchar "Overgrow@"
 Blaze:           rawchar "Blaze@"

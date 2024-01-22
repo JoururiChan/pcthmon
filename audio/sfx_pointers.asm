@@ -196,7 +196,7 @@ SFX:
 	fardw Sfx_IntroUnown2
 	fardw Sfx_IntroUnown3
 	fardw Sfx_DittoPopUp
-	fardw Sfx_DittoTransform
+	fardw Sfx_DittoRecollect
 	fardw Sfx_IntroSuicune1
 	fardw Sfx_IntroPichu
 	fardw Sfx_IntroSuicune2

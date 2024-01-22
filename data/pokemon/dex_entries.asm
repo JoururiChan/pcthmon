@@ -368,8 +368,8 @@ EMeiraPlainTohodexEntry::
 	next "This #mon is a very"
 	next "bold #mon.@"
 
-SECTION "NinetalesPlainTohodexEntry", ROMX
-NinetalesPlainTohodexEntry::
+SECTION "CEllenPlainTohodexEntry", ROMX
+CEllenPlainTohodexEntry::
 	db "Fox@"
 	db   "It is said to live"
 	next "a thousand years,"
@@ -378,8 +378,8 @@ NinetalesPlainTohodexEntry::
 	next "with supernatural"
 	next "powers.@"
 
-SECTION "JigglypuffTohodexEntry", ROMX
-JigglypuffTohodexEntry::
+SECTION "EllenTohodexEntry", ROMX
+EllenTohodexEntry::
 	db "Balloon@"
 	db   "It rolls its cute"
 	next "eyes as it sings a"
@@ -388,8 +388,8 @@ JigglypuffTohodexEntry::
 	next "puts anyone who"
 	next "hears it to sleep.@"
 
-SECTION "WigglytuffTohodexEntry", ROMX
-WigglytuffTohodexEntry::
+SECTION "EEllenTohodexEntry", ROMX
+EEllenTohodexEntry::
 	db "Balloon@"
 	db   "The rich, fluffy"
 	next "fur that covers"
@@ -398,8 +398,8 @@ WigglytuffTohodexEntry::
 	next "who feels it can't"
 	next "stop touching it.@"
 
-SECTION "ZubatTohodexEntry", ROMX
-ZubatTohodexEntry::
+SECTION "CKotohimeTohodexEntry", ROMX
+CKotohimeTohodexEntry::
 	db "Bat@"
 	db   "During the day, it"
 	next "gathers with"
@@ -408,8 +408,8 @@ ZubatTohodexEntry::
 	next "of old buildings"
 	next "and caves.@"
 
-SECTION "GolbatTohodexEntry", ROMX
-GolbatTohodexEntry::
+SECTION "KotohimeTohodexEntry", ROMX
+KotohimeTohodexEntry::
 	db "Bat@"
 	db   "However hard its"
 	next "victim's hide may"
@@ -418,8 +418,8 @@ GolbatTohodexEntry::
 	next "and gorges itself"
 	next "with blood.@"
 
-SECTION "OddishTohodexEntry", ROMX
-OddishTohodexEntry::
+SECTION "EKotohimeTohodexEntry", ROMX
+EKotohimeTohodexEntry::
 	db "Weed@"
 	db   "During the day, it"
 	next "stays in the cold"
@@ -428,8 +428,8 @@ OddishTohodexEntry::
 	next "It grows by bath-"
 	next "ing in moonlight.@"
 
-SECTION "GloomTohodexEntry", ROMX
-GloomTohodexEntry::
+SECTION "CKanaTohodexEntry", ROMX
+CKanaTohodexEntry::
 	db "Weed@"
 	db   "The smell from its"
 	next "drool-like syrup"
@@ -438,8 +438,8 @@ GloomTohodexEntry::
 	next "bad, it may make"
 	next "opponents faint.@"
 
-SECTION "VileplumeTohodexEntry", ROMX
-VileplumeTohodexEntry::
+SECTION "KanaTohodexEntry", ROMX
+KanaTohodexEntry::
 	db "Flower@"
 	db   "By shaking its big"
 	next "petals, it scat-"
@@ -448,8 +448,8 @@ VileplumeTohodexEntry::
 	next "turning the air"
 	next "yellow.@"
 
-SECTION "ParasTohodexEntry", ROMX
-ParasTohodexEntry::
+SECTION "EKanaTohodexEntry", ROMX
+EKanaTohodexEntry::
 	db "Mushroom@"
 	db   "The tochukaso"
 	next "growing on this"
@@ -458,8 +458,8 @@ ParasTohodexEntry::
 	next "extract juice from"
 	next "tree trunks.@"
 
-SECTION "ParasectTohodexEntry", ROMX
-ParasectTohodexEntry::
+SECTION "CRikakoTohodexEntry", ROMX
+CRikakoTohodexEntry::
 	db "Mushroom@"
 	db   "When nothing's"
 	next "left to extract"
@@ -468,8 +468,8 @@ ParasectTohodexEntry::
 	next "back leave spores"
 	next "on the bug's egg.@"
 
-SECTION "VenonatTohodexEntry", ROMX
-VenonatTohodexEntry::
+SECTION "RikakoTohodexEntry", ROMX
+RikakoTohodexEntry::
 	db "Insect@"
 	db   "The small bugs it"
 	next "eats appear only"
@@ -478,8 +478,8 @@ VenonatTohodexEntry::
 	next "in a tree until"
 	next "night falls.@"
 
-SECTION "VenomothTohodexEntry", ROMX
-VenomothTohodexEntry::
+SECTION "ERikakoTohodexEntry", ROMX
+ERikakoTohodexEntry::
 	db "Poison Moth@"
 	db   "The scales it"
 	next "scatters will"
@@ -488,8 +488,8 @@ VenomothTohodexEntry::
 	next "making that person"
 	next "unable to stand.@"
 
-SECTION "DiglettPlainTohodexEntry", ROMX
-DiglettPlainTohodexEntry::
+SECTION "CChiyuriPlainTohodexEntry", ROMX
+CChiyuriPlainTohodexEntry::
 	db "Mole@"
 	db   "It digs under-"
 	next "ground and chews"
@@ -498,8 +498,8 @@ DiglettPlainTohodexEntry::
 	next "out only when the"
 	next "sun isn't bright.@"
 
-SECTION "DugtrioPlainTohodexEntry", ROMX
-DugtrioPlainTohodexEntry::
+SECTION "ChiyuriPlainTohodexEntry", ROMX
+ChiyuriPlainTohodexEntry::
 	db "Mole@"
 	db   "Its three heads"
 	next "bob separately up"
@@ -508,8 +508,8 @@ DugtrioPlainTohodexEntry::
 	next "making it easier"
 	next "for it to burrow.@"
 
-SECTION "MeowthPlainTohodexEntry", ROMX
-MeowthPlainTohodexEntry::
+SECTION "EChiyuriPlainTohodexEntry", ROMX
+EChiyuriPlainTohodexEntry::
 	db "Scratch Cat@"
 	db   "It loves things"
 	next "that sparkle. When"
@@ -518,8 +518,8 @@ MeowthPlainTohodexEntry::
 	next "coin on its head"
 	next "shines too.@"
 
-SECTION "PersianPlainTohodexEntry", ROMX
-PersianPlainTohodexEntry::
+SECTION "CYumemiPlainTohodexEntry", ROMX
+CYumemiPlainTohodexEntry::
 	db "Classy Cat@"
 	db   "Behind its lithe,"
 	next "elegant appearance"
@@ -528,8 +528,8 @@ PersianPlainTohodexEntry::
 	next "apart its prey on"
 	next "a mere whim.@"
 
-SECTION "PsyduckTohodexEntry", ROMX
-PsyduckTohodexEntry::
+SECTION "YumemiTohodexEntry", ROMX
+YumemiTohodexEntry::
 	db "Duck@"
 	db   "The only time it"
 	next "can use its psy-"
@@ -538,8 +538,8 @@ PsyduckTohodexEntry::
 	next "cells happen to"
 	next "wake.@"
 
-SECTION "GolduckTohodexEntry", ROMX
-GolduckTohodexEntry::
+SECTION "EYumemiTohodexEntry", ROMX
+EYumemiTohodexEntry::
 	db "Duck@"
 	db   "It swims grace-"
 	next "fully along on the"
@@ -1314,7 +1314,7 @@ LaprasTohodexEntry::
 
 SECTION "DittoTohodexEntry", ROMX
 DittoTohodexEntry::
-	db "Transform@"
+	db "Recollect@"
 	db   "When it encounters"
 	next "another Ditto,"
 	next "it will move"
@@ -1979,7 +1979,7 @@ MurkrowTohodexEntry::
 	next "object it finds in"
 	next "a secret location."
 	page "Murkrow and"
-	next "Meowth loot one"
+	next "EChiyuri loot one"
 	next "another's stashes.@"
 
 SECTION "SlowkingPlainTohodexEntry", ROMX
@@ -2971,8 +2971,8 @@ EMeiraAlolanTohodexEntry::
 	next "ice particles"
 	next "springing up.@"
 
-SECTION "NinetalesAlolanTohodexEntry", ROMX
-NinetalesAlolanTohodexEntry::
+SECTION "CEllenAlolanTohodexEntry", ROMX
+CEllenAlolanTohodexEntry::
 	db "Fox@"
 	db   "The reason it"
 	next "guides people all"
@@ -2981,8 +2981,8 @@ NinetalesAlolanTohodexEntry::
 	next "so that they hurry"
 	next "up and leave.@"
 
-SECTION "DiglettAlolanTohodexEntry", ROMX
-DiglettAlolanTohodexEntry::
+SECTION "CChiyuriAlolanTohodexEntry", ROMX
+CChiyuriAlolanTohodexEntry::
 	db "Mole@"
 	db   "The metal-rich"
 	next "geology of this"
@@ -2991,8 +2991,8 @@ DiglettAlolanTohodexEntry::
 	next "velop steel whis-"
 	next "kers on its head.@"
 
-SECTION "DugtrioAlolanTohodexEntry", ROMX
-DugtrioAlolanTohodexEntry::
+SECTION "ChiyuriAlolanTohodexEntry", ROMX
+ChiyuriAlolanTohodexEntry::
 	db "Mole@"
 	db   "Its metallic whis-"
 	next "kers are heavy, so"
@@ -3001,8 +3001,8 @@ DugtrioAlolanTohodexEntry::
 	next "power to dig"
 	next "through bedrock.@"
 
-SECTION "MeowthAlolanTohodexEntry", ROMX
-MeowthAlolanTohodexEntry::
+SECTION "EChiyuriAlolanTohodexEntry", ROMX
+EChiyuriAlolanTohodexEntry::
 	db "Scratch Cat@"
 	db   "Highly intelligent"
 	next "and prideful, it's"
@@ -3051,18 +3051,18 @@ MarowakAlolanTohodexEntry::
 	next "as a way to mourn"
 	next "its fallen allies.@"
 
-SECTION "MeowthGalarianTohodexEntry", ROMX
-MeowthGalarianTohodexEntry::
+SECTION "EChiyuriGalarianTohodexEntry", ROMX
+EChiyuriGalarianTohodexEntry::
 	db "Scratch Cat@"
 	db   "These daring #-"
 	next "mon have coins on"
 	next "their foreheads."
 	page "Harder coins gar-"
 	next "ner more respect"
-	next "among Meowth.@"
+	next "among EChiyuri.@"
 
-SECTION "PersianAlolanTohodexEntry", ROMX
-PersianAlolanTohodexEntry::
+SECTION "CYumemiAlolanTohodexEntry", ROMX
+CYumemiAlolanTohodexEntry::
 	db "Classy Cat@"
 	db   "It has the classi-"
 	next "est coat. The"

@@ -337,7 +337,7 @@ Bug_catcherArnie1BeatenText:
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "My Venonat won me"
+	text "My Rikako won me"
 	line "the Bug-Catching"
 
 	para "Contest at the"

@@ -902,11 +902,11 @@ Cry_Muk:
 	channel 6, Cry_Muk_Ch6
 	channel 8, Cry_Muk_Ch8
 
-Cry_Oddish:
+Cry_EKotohime:
 	channel_count 3
-	channel 5, Cry_Oddish_Ch5
-	channel 6, Cry_Oddish_Ch6
-	channel 8, Cry_Oddish_Ch8
+	channel 5, Cry_EKotohime_Ch5
+	channel 6, Cry_EKotohime_Ch6
+	channel 8, Cry_EKotohime_Ch8
 
 Cry_CSariel:
 	channel_count 3
@@ -920,11 +920,11 @@ Cry_EKongara:
 	channel 6, Cry_EKongara_Ch6
 	channel 8, Cry_EKongara_Ch8
 
-Cry_Diglett:
+Cry_CChiyuri:
 	channel_count 3
-	channel 5, Cry_Diglett_Ch5
-	channel 6, Cry_Diglett_Ch6
-	channel 8, Cry_Diglett_Ch8
+	channel 5, Cry_CChiyuri_Ch5
+	channel 6, Cry_CChiyuri_Ch6
+	channel 8, Cry_CChiyuri_Ch8
 
 Cry_Seel:
 	channel_count 3
@@ -1010,11 +1010,11 @@ Cry_CMeira:
 	channel 6, Cry_CMeira_Ch6
 	channel 8, Cry_CMeira_Ch8
 
-Cry_Venonat:
+Cry_Rikako:
 	channel_count 3
-	channel 5, Cry_Venonat_Ch5
-	channel 6, Cry_Venonat_Ch6
-	channel 8, Cry_Venonat_Ch8
+	channel 5, Cry_Rikako_Ch5
+	channel 6, Cry_Rikako_Ch6
+	channel 8, Cry_Rikako_Ch8
 
 Cry_Lapras:
 	channel_count 3
@@ -1034,11 +1034,11 @@ Cry_CSakuya:
 	channel 6, Cry_CSakuya_Ch6
 	channel 8, Cry_CSakuya_Ch8
 
-Cry_Paras:
+Cry_EKana:
 	channel_count 3
-	channel 5, Cry_Paras_Ch5
-	channel 6, Cry_Paras_Ch6
-	channel 8, Cry_Paras_Ch8
+	channel 5, Cry_EKana_Ch5
+	channel 6, Cry_EKana_Ch6
+	channel 8, Cry_EKana_Ch8
 
 Cry_Growlithe:
 	channel_count 3
@@ -1052,11 +1052,11 @@ Cry_Krabby:
 	channel 6, Cry_Krabby_Ch6
 	channel 8, Cry_Krabby_Ch8
 
-Cry_Psyduck:
+Cry_Yumemi:
 	channel_count 3
-	channel 5, Cry_Psyduck_Ch5
-	channel 6, Cry_Psyduck_Ch6
-	channel 8, Cry_Psyduck_Ch8
+	channel 5, Cry_Yumemi_Ch5
+	channel 6, Cry_Yumemi_Ch6
+	channel 8, Cry_Yumemi_Ch8
 
 Cry_EMima:
 	channel_count 3
@@ -1064,11 +1064,11 @@ Cry_EMima:
 	channel 6, Cry_EMima_Ch6
 	channel 8, Cry_EMima_Ch8
 
-Cry_Vileplume:
+Cry_Kana:
 	channel_count 3
-	channel 5, Cry_Vileplume_Ch5
-	channel 6, Cry_Vileplume_Ch6
-	channel 8, Cry_Vileplume_Ch8
+	channel 5, Cry_Kana_Ch5
+	channel 6, Cry_Kana_Ch6
+	channel 8, Cry_Kana_Ch8
 
 Cry_EMeira:
 	channel_count 3
@@ -1116,7 +1116,7 @@ Cry_CSariel_Ch8:
 	noise_note 8, 12, 1, 59
 	sound_ret
 
-Cry_Vileplume_Ch5:
+Cry_Kana_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 15, 15, 7, 1984
 	square_note 6, 14, 4, 1985
@@ -1125,7 +1125,7 @@ Cry_Vileplume_Ch5:
 	square_note 8, 12, 1, 1984
 	sound_ret
 
-Cry_Vileplume_Ch6:
+Cry_Kana_Ch6:
 	duty_cycle_pattern 1, 1, 3, 3
 	square_note 15, 9, 7, 1921
 	square_note 6, 8, 4, 1920
@@ -1133,7 +1133,7 @@ Cry_Vileplume_Ch6:
 	square_note 15, 8, 3, 1921
 	sound_ret
 
-Cry_Vileplume_Ch8:
+Cry_Kana_Ch8:
 	noise_note 3, 15, 2, 60
 	noise_note 13, 14, 6, 44
 	noise_note 15, 13, 7, 60
@@ -1416,7 +1416,7 @@ Cry_Grimer_Ch6:
 Cry_Grimer_Ch8:
 	sound_ret
 
-Cry_Diglett_Ch5:
+Cry_CChiyuri_Ch5:
 	duty_cycle_pattern 3, 0, 3, 0
 	square_note 4, 15, 1, 1792
 	square_note 4, 14, 1, 1920
@@ -1430,7 +1430,7 @@ Cry_Diglett_Ch5:
 	square_note 8, 11, 1, 1857
 	sound_ret
 
-Cry_Diglett_Ch6:
+Cry_CChiyuri_Ch6:
 	duty_cycle_pattern 1, 0, 1, 0
 	square_note 12, 0, 8, 0
 	square_note 4, 15, 1, 1793
@@ -1441,7 +1441,7 @@ Cry_Diglett_Ch6:
 	square_note 8, 13, 1, 1793
 	sound_ret
 
-Cry_Diglett_Ch8:
+Cry_CChiyuri_Ch8:
 	noise_note 15, 0, 8, 0
 	noise_note 4, 0, 8, 0
 	noise_note 4, 13, 1, 76
@@ -1591,7 +1591,7 @@ Cry_EKongara_Ch8:
 	noise_note 8, 9, 1, 60
 	sound_ret
 
-Cry_Oddish_Ch5:
+Cry_EKotohime_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 15, 15, 6, 1381
 	square_note 10, 14, 4, 1404
@@ -1599,7 +1599,7 @@ Cry_Oddish_Ch5:
 	square_note 15, 11, 2, 1340
 	sound_ret
 
-Cry_Oddish_Ch6:
+Cry_EKotohime_Ch6:
 	duty_cycle_pattern 1, 1, 2, 2
 	square_note 14, 13, 6, 1283
 	square_note 9, 11, 4, 1307
@@ -1607,7 +1607,7 @@ Cry_Oddish_Ch6:
 	square_note 15, 10, 2, 1243
 	sound_ret
 
-Cry_Oddish_Ch8:
+Cry_EKotohime_Ch8:
 	noise_note 12, 14, 6, 76
 	noise_note 11, 13, 7, 92
 	noise_note 15, 12, 2, 76
@@ -1777,7 +1777,7 @@ Cry_CMima_Ch8:
 	noise_note 8, 13, 1, 44
 	sound_ret
 
-Cry_Paras_Ch5:
+Cry_EKana_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 6, 15, 2, 1536
 	square_note 6, 14, 2, 1600
@@ -1789,7 +1789,7 @@ Cry_Paras_Ch5:
 	square_note 8, 10, 1, 1984
 	sound_ret
 
-Cry_Paras_Ch6:
+Cry_EKana_Ch6:
 	duty_cycle_pattern 0, 1, 0, 1
 	square_note 3, 0, 8, 1
 	square_note 6, 12, 2, 1473
@@ -1802,7 +1802,7 @@ Cry_Paras_Ch6:
 	square_note 8, 8, 1, 1921
 	sound_ret
 
-Cry_Paras_Ch8:
+Cry_EKana_Ch8:
 	noise_note 6, 0, 8, 1
 	noise_note 5, 14, 2, 92
 	noise_note 5, 12, 2, 76
@@ -1896,7 +1896,7 @@ Cry_MGyoku_Ch8:
 	noise_note 15, 11, 3, 92
 	sound_ret
 
-Cry_Venonat_Ch5:
+Cry_Rikako_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 6, 15, 7, 1856
 	square_note 12, 14, 6, 1860
@@ -1906,7 +1906,7 @@ Cry_Venonat_Ch5:
 	square_note 8, 13, 1, 1952
 	sound_ret
 
-Cry_Venonat_Ch6:
+Cry_Rikako_Ch6:
 	duty_cycle_pattern 0, 0, 2, 2
 	square_note 6, 12, 7, 1793
 	square_note 11, 11, 6, 1794
@@ -1916,7 +1916,7 @@ Cry_Venonat_Ch6:
 	square_note 8, 9, 1, 1890
 	sound_ret
 
-Cry_Venonat_Ch8:
+Cry_Rikako_Ch8:
 	noise_note 3, 14, 2, 60
 	noise_note 8, 13, 6, 76
 	noise_note 5, 13, 4, 60
@@ -2032,7 +2032,7 @@ Cry_Krabby_Ch8:
 	noise_note 8, 13, 1, 102
 	sound_ret
 
-Cry_Psyduck_Ch5:
+Cry_Yumemi_Ch5:
 	duty_cycle_pattern 0, 1, 2, 3
 	square_note 3, 15, 3, 1380
 	square_note 2, 14, 2, 1348
@@ -2044,7 +2044,7 @@ Cry_Psyduck_Ch5:
 	square_note 8, 13, 1, 1282
 	sound_ret
 
-Cry_Psyduck_Ch6:
+Cry_Yumemi_Ch6:
 	duty_cycle_pattern 3, 0, 3, 0
 	square_note 3, 13, 3, 1376
 	square_note 2, 12, 2, 1344
@@ -2054,7 +2054,7 @@ Cry_Psyduck_Ch6:
 	square_note 3, 13, 3, 1312
 	square_note 3, 12, 4, 1248
 	square_note 8, 12, 1, 1280
-Cry_Psyduck_Ch8:
+Cry_Yumemi_Ch8:
 	sound_ret
 
 Cry_EMima_Ch5:

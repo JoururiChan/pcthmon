@@ -3,7 +3,7 @@ BattleCommand_bugbite:
 	call GetOpponentAbilityAfterMoldBreaker
 	cp UNNERVE
 	ret z
-	call CheckStickyHold
+	call CheckCollector
 	ret nz
 
 	; these held item effects prevent us from eating it

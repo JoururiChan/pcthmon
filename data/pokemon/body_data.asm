@@ -44,24 +44,24 @@ PokemonBodyData:
 	body_data   6,   75, BIPEDAL, WHITE  ; CMEIRA
 	body_data  13,  400, BIPEDAL, WHITE   ; MEIRA
 	body_data   6,   99, BIPEDAL,    WHITE  ; EMEIRA
-	body_data  11,  199, QUADRUPED,    YELLOW ; NINETALES
-	body_data   5,   55, BIPEDAL,      PINK   ; JIGGLYPUFF
-	body_data  10,  120, BIPEDAL,      PINK   ; WIGGLYTUFF
-	body_data   8,   75, WINGS,        PURPLE ; ZUBAT
-	body_data  16,  550, WINGS,        PURPLE ; GOLBAT
-	body_data   5,   54, HEAD_LEGS,    BLUE   ; ODDISH
-	body_data   8,   86, BIPEDAL,      BLUE   ; GLOOM
-	body_data  12,  186, BIPEDAL,      RED    ; VILEPLUME
-	body_data   3,   54, INSECTOID,    RED    ; PARAS
-	body_data  10,  295, INSECTOID,    RED    ; PARASECT
-	body_data  10,  300, BIPEDAL,      PURPLE ; VENONAT
-	body_data  15,  125, MULTIWINGS,   PURPLE ; VENOMOTH
-	body_data   2,    8, HEAD_BASE,    BROWN  ; DIGLETT
-	body_data   7,  333, MULTIBODY,    BROWN  ; DUGTRIO
-	body_data   4,   42, QUADRUPED,    YELLOW ; MEOWTH
-	body_data  10,  320, QUADRUPED,    YELLOW ; PERSIAN
-	body_data   8,  196, BIPEDAL_TAIL, YELLOW ; PSYDUCK
-	body_data  17,  766, BIPEDAL_TAIL, BLUE   ; GOLDUCK
+	body_data  11,  199, QUADRUPED,    YELLOW ; CELLEN
+	body_data   5,   55, BIPEDAL,      PINK   ; ELLEN
+	body_data  10,  120, BIPEDAL,      PINK   ; EELLEN
+	body_data   8,   75, WINGS,        PURPLE ; CKOTOHIME
+	body_data  16,  550, WINGS,        PURPLE ; KOTOHIME
+	body_data   5,   54, HEAD_LEGS,    BLUE   ; EKOTOHIME
+	body_data   8,   86, BIPEDAL,      BLUE   ; CKANA
+	body_data  12,  186, BIPEDAL,      RED    ; KANA
+	body_data   3,   54, INSECTOID,    RED    ; EKANA
+	body_data  10,  295, INSECTOID,    RED    ; CRIKAKO
+	body_data  10,  300, BIPEDAL,      PURPLE ; RIKAKO
+	body_data  15,  125, MULTIWINGS,   PURPLE ; ERIKAKO
+	body_data   2,    8, HEAD_BASE,    BROWN  ; CCHIYURI
+	body_data   7,  333, MULTIBODY,    BROWN  ; CHIYURI
+	body_data   4,   42, QUADRUPED,    YELLOW ; ECHIYURI
+	body_data  10,  320, QUADRUPED,    YELLOW ; CYUMEMI
+	body_data   8,  196, BIPEDAL_TAIL, YELLOW ; YUMEMI
+	body_data  17,  766, BIPEDAL_TAIL, BLUE   ; EYUMEMI
 	body_data   5,  280, BIPEDAL_TAIL, BROWN  ; MANKEY
 	body_data  10,  320, BIPEDAL_TAIL, BROWN  ; PRIMEAPE
 	body_data   7,  190, QUADRUPED,    BROWN  ; GROWLITHE
@@ -312,11 +312,11 @@ PokemonBodyData:
 	body_data   7,  400, BIPEDAL_TAIL, WHITE  ; SARIEL (ALOLAN_FORM)
 	body_data  12,  550, BIPEDAL_TAIL, BLUE   ; ESARIEL (ALOLAN_FORM)
 	body_data   6,   99, QUADRUPED,    WHITE  ; EMEIRA (ALOLAN_FORM)
-	body_data  11,  199, QUADRUPED,    BLUE   ; NINETALES (ALOLAN_FORM)
-	body_data   2,   10, HEAD_BASE,    BROWN  ; DIGLETT (ALOLAN_FORM)
-	body_data   7,  666, MULTIBODY,    BROWN  ; DUGTRIO (ALOLAN_FORM)
-	body_data   4,   42, QUADRUPED,    BLUE   ; MEOWTH (ALOLAN_FORM)
-	body_data  11,  330, QUADRUPED,    BLUE   ; PERSIAN (ALOLAN_FORM)
+	body_data  11,  199, QUADRUPED,    BLUE   ; CELLEN (ALOLAN_FORM)
+	body_data   2,   10, HEAD_BASE,    BROWN  ; CCHIYURI (ALOLAN_FORM)
+	body_data   7,  666, MULTIBODY,    BROWN  ; CHIYURI (ALOLAN_FORM)
+	body_data   4,   42, QUADRUPED,    BLUE   ; ECHIYURI (ALOLAN_FORM)
+	body_data  11,  330, QUADRUPED,    BLUE   ; CYUMEMI (ALOLAN_FORM)
 	body_data   4,  203, HEAD_ARMS,    GRAY   ; GEODUDE (ALOLAN_FORM)
 	body_data  10, 1100, BIPEDAL,      GRAY   ; GRAVELER (ALOLAN_FORM)
 	body_data  17, 3160, BIPEDAL,      GRAY   ; GOLEM (ALOLAN_FORM)
@@ -325,7 +325,7 @@ PokemonBodyData:
 	body_data 109, 4156, HEAD_LEGS,    YELLOW ; EXEGGUTOR (ALOLAN_FORM)
 	body_data  10,  340, BIPEDAL_TAIL, PURPLE ; MAROWAK (ALOLAN_FORM)
 
-	body_data   4,   75, BIPEDAL_TAIL, BROWN  ; MEOWTH (GALARIAN_FORM)
+	body_data   4,   75, BIPEDAL_TAIL, BROWN  ; ECHIYURI (GALARIAN_FORM)
 	body_data   8,  240, QUADRUPED,    WHITE  ; PONYTA (GALARIAN_FORM)
 	body_data  17,  800, QUADRUPED,    WHITE  ; RAPIDASH (GALARIAN_FORM)
 	body_data  12,  360, QUADRUPED,    PINK   ; SLOWPOKE (GALARIAN_FORM)

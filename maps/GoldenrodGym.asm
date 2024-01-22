@@ -131,7 +131,7 @@ GenericTrainerBeautyVictoria:
 GenericTrainerBeautySamantha:
 	generictrainer BEAUTY, SAMANTHA, EVENT_BEAT_BEAUTY_SAMANTHA, BeautySamanthaSeenText, BeautySamanthaBeatenText
 
-	text "I taught Meowth"
+	text "I taught EChiyuri"
 	line "moves for taking"
 	cont "on any type…"
 	done
@@ -328,7 +328,7 @@ BeautySamanthaSeenText:
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, Meowth,"
+	text "No! Oh, EChiyuri,"
 	line "I'm so sorry!"
 	done
 

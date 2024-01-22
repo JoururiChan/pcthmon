@@ -162,7 +162,7 @@ CeladonUniversityLibrary1FBookshelf1Text:
 
 	para "smile are posing"
 	line "happily alongside"
-	cont "an Oddish."
+	cont "an EKotohime."
 	done
 
 CeladonUniversityLibrary1FBookshelf2Text:
@@ -262,7 +262,7 @@ CeladonUniversityLibrary1FBookshelf10Text:
 	line "full of #mon-"
 	cont "themed recipes!"
 
-	para "Jigglypuff Jello,"
+	para "Ellen Jello,"
 	line "CMarisa Chut-"
 	cont "ney, Munchlax"
 	cont "Snacks…"

@@ -130,7 +130,7 @@ HikerDanielBeatenText:
 	done
 
 FirebreatherBillSeenText:
-	text "Zubat's Supersonic"
+	text "CKotohime's Supersonic"
 	line "keeps confusing"
 	cont "my #mon."
 

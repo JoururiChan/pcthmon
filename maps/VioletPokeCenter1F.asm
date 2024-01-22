@@ -187,7 +187,7 @@ VioletPokeCenter1FSageText:
 	line "are found with"
 	cont "Gold Leaves."
 
-	para "And some Oddish"
+	para "And some EKotohime"
 	line "are found with"
 	cont "Silver Leaves."
 

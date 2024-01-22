@@ -294,7 +294,7 @@ FindOwnedOrnaments:
 	db DECO_CSARIEL_DOLL ; 1f
 	db DECO_SURF_EKIKURI_DOLL ; 20
 	db DECO_CMEIRA_DOLL ; 21
-	db DECO_JIGGLYPUFF_DOLL ; 22
+	db DECO_ELLEN_DOLL ; 22
 	db DECO_CREIMU_DOLL ; 23
 	db DECO_CMARISA_DOLL ; 24
 	db DECO_CSAKUYA_DOLL ; 25
@@ -305,7 +305,7 @@ FindOwnedOrnaments:
 	db DECO_MAREEP_DOLL ; 2a
 	db DECO_TOGEPI_DOLL ; 2b
 	db DECO_MAGIKARP_DOLL ; 2c
-	db DECO_ODDISH_DOLL ; 2d
+	db DECO_EKOTOHIME_DOLL ; 2d
 	db DECO_GENGAR_DOLL ; 2e
 	db DECO_OCTILLERY_DOLL ; 2f
 	db DECO_DITTO_DOLL ; 30
@@ -316,7 +316,7 @@ FindOwnedOrnaments:
 	db DECO_PINECO_DOLL ; 35
 	db DECO_MARILL_DOLL ; 36
 	db DECO_TEDDIURSA_DOLL ; 37
-	db DECO_MEOWTH_DOLL ; 38
+	db DECO_ECHIYURI_DOLL ; 38
 	db DECO_EMEIRA_DOLL ; 39
 	db DECO_GROWLITHE_DOLL ; 3a
 	db DECO_EEVEE_DOLL ; 3b
@@ -1005,7 +1005,7 @@ DecorationDesc_CMeiraPoster:
 	farjumptext _LookCMeiraPosterText
 
 DecorationDesc_MarillPoster:
-	farjumptext _LookJigglypuffPosterText
+	farjumptext _LookEllenPosterText
 
 DecorationDesc_NullPoster:
 	end

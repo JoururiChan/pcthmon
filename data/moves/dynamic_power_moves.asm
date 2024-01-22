@@ -11,5 +11,5 @@ DynamicPowerMoves::
 	db REVERSAL
 	db SEISMIC_TOSS
 	db SONIC_BOOM
-	db SUPER_FANG
+	db LIFE_COUNTER
 	db -1

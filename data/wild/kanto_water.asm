@@ -23,9 +23,9 @@
 
 	def_water_wildmons ROUTE_6
 	db 2 percent ; encounter rate
-	wildmon  45, PSYDUCK
-	wildmon  50, GOLDUCK
-	wildmon  45, PSYDUCK
+	wildmon  45, YUMEMI
+	wildmon  50, EYUMEMI
+	wildmon  45, YUMEMI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_9
@@ -248,35 +248,35 @@
 	def_water_wildmons CERULEAN_CAVE_1F
 	db 6 percent ; encounter rate
 	wildmon  60, SLOWBRO
-	wildmon  63, GOLDUCK
+	wildmon  63, EYUMEMI
 	wildmon  66, GYARADOS
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CAVE_B1F
 	db 6 percent ; encounter rate
 	wildmon  60, SLOWKING
-	wildmon  63, GOLDUCK
+	wildmon  63, EYUMEMI
 	wildmon  66, GYARADOS
 	end_water_wildmons
 
 	def_water_wildmons SAFARI_ZONE_HUB
 	db 6 percent ; encounter rate
 	wildmon  55, SLOWBRO
-	wildmon  55, GOLDUCK
+	wildmon  55, EYUMEMI
 	wildmon  55, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons SAFARI_ZONE_EAST
 	db 6 percent ; encounter rate
 	wildmon  55, SLOWBRO
-	wildmon  55, GOLDUCK
+	wildmon  55, EYUMEMI
 	wildmon  55, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons SAFARI_ZONE_NORTH
 	db 6 percent ; encounter rate
 	wildmon  55, SLOWBRO
-	wildmon  55, GOLDUCK
+	wildmon  55, EYUMEMI
 	wildmon  40, DRAGONAIR
 	end_water_wildmons
 

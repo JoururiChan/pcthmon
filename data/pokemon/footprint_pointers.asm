@@ -37,24 +37,24 @@ FootprintPointers::
 	dw CMeiraFootprint
 	dw MeiraFootprint
 	dw EMeiraFootprint
-	dw NinetalesFootprint
-	dw JigglypuffFootprint
-	dw WigglytuffFootprint
-	dw ZubatFootprint
-	dw GolbatFootprint
-	dw OddishFootprint
-	dw GloomFootprint
-	dw VileplumeFootprint
-	dw ParasFootprint
-	dw ParasectFootprint
-	dw VenonatFootprint
-	dw VenomothFootprint
-	dw DiglettFootprint
-	dw DugtrioFootprint
-	dw MeowthFootprint
-	dw PersianFootprint
-	dw PsyduckFootprint
-	dw GolduckFootprint
+	dw CEllenFootprint
+	dw EllenFootprint
+	dw EEllenFootprint
+	dw CKotohimeFootprint
+	dw KotohimeFootprint
+	dw EKotohimeFootprint
+	dw CKanaFootprint
+	dw KanaFootprint
+	dw EKanaFootprint
+	dw CRikakoFootprint
+	dw RikakoFootprint
+	dw ERikakoFootprint
+	dw CChiyuriFootprint
+	dw ChiyuriFootprint
+	dw EChiyuriFootprint
+	dw CYumemiFootprint
+	dw YumemiFootprint
+	dw EYumemiFootprint
 	dw MankeyFootprint
 	dw PrimeapeFootprint
 	dw GrowlitheFootprint
@@ -305,11 +305,11 @@ FootprintPointers::
 	dw SarielFootprint
 	dw ESarielFootprint
 	dw EMeiraFootprint
-	dw NinetalesFootprint
-	dw DiglettFootprint
-	dw DugtrioFootprint
-	dw MeowthFootprint
-	dw PersianFootprint
+	dw CEllenFootprint
+	dw CChiyuriFootprint
+	dw ChiyuriFootprint
+	dw EChiyuriFootprint
+	dw CYumemiFootprint
 	dw GeodudeFootprint
 	dw GravelerFootprint
 	dw GolemFootprint
@@ -318,7 +318,7 @@ FootprintPointers::
 	dw ExeggutorFootprint
 	dw MarowakFootprint
 
-	dw MeowthFootprint
+	dw EChiyuriFootprint
 	dw PonytaFootprint
 	dw RapidashFootprint
 	dw SlowpokeFootprint

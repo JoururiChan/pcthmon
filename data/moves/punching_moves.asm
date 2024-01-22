@@ -1,5 +1,5 @@
 PunchingMoves:
-	db BULLET_PUNCH
+	db STEEL_FIST
 	db DIZZY_PUNCH
 	db DRAIN_PUNCH
 	db DYNAMICPUNCH

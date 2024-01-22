@@ -37,24 +37,24 @@ FramesPointers:
 	dw CMeiraFrames
 	dw MeiraFrames
 	dw EMeiraPlainFrames
-	dw NinetalesPlainFrames
-	dw JigglypuffFrames
-	dw WigglytuffFrames
-	dw ZubatFrames
-	dw GolbatFrames
-	dw OddishFrames
-	dw GloomFrames
-	dw VileplumeFrames
-	dw ParasFrames
-	dw ParasectFrames
-	dw VenonatFrames
-	dw VenomothFrames
-	dw DiglettPlainFrames
-	dw DugtrioPlainFrames
-	dw MeowthPlainFrames
-	dw PersianPlainFrames
-	dw PsyduckFrames
-	dw GolduckFrames
+	dw CEllenPlainFrames
+	dw EllenFrames
+	dw EEllenFrames
+	dw CKotohimeFrames
+	dw KotohimeFrames
+	dw EKotohimeFrames
+	dw CKanaFrames
+	dw KanaFrames
+	dw EKanaFrames
+	dw CRikakoFrames
+	dw RikakoFrames
+	dw ERikakoFrames
+	dw CChiyuriPlainFrames
+	dw ChiyuriPlainFrames
+	dw EChiyuriPlainFrames
+	dw CYumemiPlainFrames
+	dw YumemiFrames
+	dw EYumemiFrames
 	dw MankeyFrames
 	dw PrimeapeFrames
 	dw GrowlithePlainFrames
@@ -368,11 +368,11 @@ FramesPointers:
 	dw SarielAlolanFrames
 	dw ESarielAlolanFrames
 	dw EMeiraAlolanFrames
-	dw NinetalesAlolanFrames
-	dw DiglettAlolanFrames
-	dw DugtrioAlolanFrames
-	dw MeowthAlolanFrames
-	dw PersianAlolanFrames
+	dw CEllenAlolanFrames
+	dw CChiyuriAlolanFrames
+	dw ChiyuriAlolanFrames
+	dw EChiyuriAlolanFrames
+	dw CYumemiAlolanFrames
 	dw GeodudeAlolanFrames
 	dw GravelerAlolanFrames
 	dw GolemAlolanFrames
@@ -381,7 +381,7 @@ FramesPointers:
 	dw ExeggutorAlolanFrames
 	dw MarowakAlolanFrames
 
-	dw MeowthGalarianFrames
+	dw EChiyuriGalarianFrames
 	dw PonytaGalarianFrames
 	dw RapidashGalarianFrames
 	dw SlowpokeGalarianFrames
