@@ -37,8 +37,8 @@ MACRO fishentry
 ENDM
 
 .Shore_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, CCHIYURI,   10
+	fishentry  85 percent + 1, CCHIYURI,   10
 	fishentry 100 percent,     KRABBY,     10
 .Shore_Good:
 	fishentry  35 percent,     MAGIKARP,   20
@@ -52,8 +52,8 @@ ENDM
 	fishentry 100 percent,     KINGLER,    40
 
 .Ocean_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, CCHIYURI,   10
+	fishentry  85 percent + 1, CCHIYURI,   10
 	fishentry 100 percent,     TENTACOOL,  10
 .Ocean_Good:
 	fishentry  35 percent,     MAGIKARP,   20
@@ -93,8 +93,8 @@ ENDM
 	fishentry 100 percent,     SEAKING,    40
 
 .Pond_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  70 percent + 1, CCHIYURI,   10
+	fishentry  85 percent + 1, CCHIYURI,   10
 	fishentry 100 percent,     POLIWAG,    10
 .Pond_Good:
 	fishentry  35 percent,     MAGIKARP,   20

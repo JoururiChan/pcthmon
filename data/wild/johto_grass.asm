@@ -387,9 +387,9 @@
 	wildmon 13, HOOTHOOT
 	wildmon 14, SPINARAK
 	wildmon 14, HOOTHOOT
-	wildmon 10, RIKAKO
-	wildmon 12, RIKAKO
-	wildmon 12, RIKAKO
+	wildmon 10, CRIKAKO
+	wildmon 12, CRIKAKO
+	wildmon 12, CRIKAKO
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
@@ -480,7 +480,7 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 8, GEODUDE
-	wildmon 8, CSARIEL
+	wildmon 8, CMEIRA
 	wildmon 7, CKOTOHIME
 	wildmon 6, CREISEN
 	wildmon 9, CKOTOHIME
@@ -488,7 +488,7 @@
 	wildmon 8, ONIX
 	; day
 	wildmon 8, GEODUDE
-	wildmon 8, CSARIEL
+	wildmon 8, CMEIRA
 	wildmon 7, CKOTOHIME
 	wildmon 6, CREISEN
 	wildmon 9, CKOTOHIME
@@ -496,7 +496,7 @@
 	wildmon 8, ONIX
 	; nite
 	wildmon 8, GEODUDE
-	wildmon 8, CREISEN
+	wildmon 8, CSARIEL
 	wildmon 7, WOOPER
 	wildmon 6, CMIMA
 	wildmon 9, CKOTOHIME
@@ -536,7 +536,7 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 21, CKOTOHIME
-	wildmon 21, KOTOHIME
+	wildmon 21, CMEIRA
 	wildmon 21, CKOTOHIME
 	wildmon 20, CKIKURI
 	wildmon 19, GEODUDE
@@ -544,7 +544,7 @@
 	wildmon 22, ONIX
 	; day
 	wildmon 21, CKOTOHIME
-	wildmon 21, KOTOHIME
+	wildmon 21, CMEIRA
 	wildmon 21, CKOTOHIME
 	wildmon 20, CKIKURI
 	wildmon 19, GEODUDE
@@ -552,7 +552,7 @@
 	wildmon 22, ONIX
 	; nite
 	wildmon 21, CKOTOHIME
-	wildmon 21, KOTOHIME
+	wildmon 21, CMEIRA
 	wildmon 21, QUAGSIRE
 	wildmon 20, CKIKURI
 	wildmon 19, GEODUDE
@@ -564,23 +564,23 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 22, CKOTOHIME
-	wildmon 22, KOTOHIME
 	wildmon 22, CKOTOHIME
-	wildmon 21, CKIKURI
+	wildmon 22, CKOTOHIME
+	wildmon 21, CMEIRA
 	wildmon 20, GEODUDE
 	wildmon 23, ONIX
 	wildmon 23, ONIX
 	; day
 	wildmon 22, CKOTOHIME
-	wildmon 22, KOTOHIME
 	wildmon 22, CKOTOHIME
-	wildmon 21, CKIKURI
+	wildmon 22, CKOTOHIME
+	wildmon 21, CMEIRA
 	wildmon 20, GEODUDE
 	wildmon 23, ONIX
 	wildmon 23, ONIX
 	; nite
 	wildmon 22, CKOTOHIME
-	wildmon 22, KOTOHIME
+	wildmon 22, CMEIRA
 	wildmon 22, QUAGSIRE
 	wildmon 21, CKIKURI
 	wildmon 20, GEODUDE
@@ -621,7 +621,7 @@
 	; morn
 	wildmon 5, CKOTOHIME
 	wildmon 6, CKOTOHIME
-	wildmon 7, CKOTOHIME
+	wildmon 7, CELLEN
 	wildmon 6, SLOWPOKE
 	wildmon 8, CKOTOHIME
 	wildmon 8, SLOWPOKE
@@ -629,7 +629,7 @@
 	; day
 	wildmon 5, CKOTOHIME
 	wildmon 6, CKOTOHIME
-	wildmon 7, CKOTOHIME
+	wildmon 7, CELLEN
 	wildmon 6, SLOWPOKE
 	wildmon 8, CKOTOHIME
 	wildmon 8, SLOWPOKE
@@ -637,7 +637,7 @@
 	; nite
 	wildmon 5, CKOTOHIME
 	wildmon 6, CKOTOHIME
-	wildmon 7, CKOTOHIME
+	wildmon 7, CELLEN
 	wildmon 6, SLOWPOKE
 	wildmon 8, CKOTOHIME
 	wildmon 8, SLOWPOKE
@@ -680,24 +680,24 @@
 	wildmon 10, CMARISA
 	wildmon 10, CELIS
 	wildmon 10, CREIMU
-	wildmon 9, EKANA
-	wildmon 10, EKANA
+	wildmon 9, CKANA
+	wildmon 10, CKANA
 	; day
 	wildmon 9, CGYOKU
 	wildmon 9, CREIMU
 	wildmon 10, CMARISA
 	wildmon 10, CELIS
-	wildmon 9, EKANA
-	wildmon 8, EKOTOHIME
+	wildmon 9, CKANA
+	wildmon 8, CKANA
 	wildmon 10, CREIMU
 	; nite
-	wildmon 9, EKOTOHIME
-	wildmon 9, RIKAKO
-	wildmon 10, EKOTOHIME
-	wildmon 10, YUMEMI
+	wildmon 9, CKOTOHIME
+	wildmon 9, CRIKAKO
+	wildmon 10, CRIKAKO
+	wildmon 10, CYUMEMI
 	wildmon 10, HOOTHOOT
-	wildmon 9, EKANA
-	wildmon 10, EKANA
+	wildmon 9, CKANA
+	wildmon 10, CKANA
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -721,7 +721,7 @@
 	; nite
 	wildmon 21, CKOTOHIME
 	wildmon 22, MARILL
-	wildmon 21, KOTOHIME
+	wildmon 21, CKOTOHIME
 	wildmon 22, GEODUDE
 	wildmon 20, CUBONE
 	wildmon 25, CELIS
@@ -736,24 +736,24 @@
 	wildmon 23, CKOTOHIME
 	wildmon 22, CELIS
 	wildmon 20, CUBONE
-	wildmon 25, KOTOHIME
-	wildmon 25, KOTOHIME
+	wildmon 25, CMEIRA
+	wildmon 25, CMEIRA
 	; day
 	wildmon 21, GEODUDE
 	wildmon 23, MACHOP
 	wildmon 23, CKOTOHIME
 	wildmon 22, CELIS
 	wildmon 20, CUBONE
-	wildmon 25, KOTOHIME
-	wildmon 25, KOTOHIME
+	wildmon 25, CMEIRA
+	wildmon 25, CMEIRA
 	; nite
 	wildmon 21, GEODUDE
 	wildmon 23, MARILL
 	wildmon 22, CKOTOHIME
 	wildmon 23, CELIS
 	wildmon 20, CUBONE
-	wildmon 25, KOTOHIME
-	wildmon 25, KOTOHIME
+	wildmon 25, CMEIRA
+	wildmon 25, CMEIRA
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_2F_INSIDE
@@ -789,7 +789,7 @@
 	; morn
 	wildmon 15, CKOTOHIME
 	wildmon 16, MACHOP
-	wildmon 17, KOTOHIME
+	wildmon 17, CKOTOHIME
 	wildmon 16, GEODUDE
 	wildmon 17, CUBONE
 	wildmon 18, CELIS
@@ -797,7 +797,7 @@
 	; day
 	wildmon 15, CKOTOHIME
 	wildmon 16, MACHOP
-	wildmon 17, KOTOHIME
+	wildmon 17, CKOTOHIME
 	wildmon 16, GEODUDE
 	wildmon 17, CUBONE
 	wildmon 18, CELIS
@@ -805,7 +805,7 @@
 	; nite
 	wildmon 15, CKOTOHIME
 	wildmon 16, GEODUDE
-	wildmon 17, KOTOHIME
+	wildmon 17, CKOTOHIME
 	wildmon 16, MARILL
 	wildmon 17, CUBONE
 	wildmon 18, CELIS
@@ -1408,7 +1408,7 @@
 	wildmon 5, BELLSPROUT
 	wildmon 5, CRIKA
 	wildmon 4, CSANAE
-	wildmon 5, HOPPIP
+	wildmon 5, CCHIYURI
 	wildmon 5, HOPPIP
 	; day
 	wildmon 4, CMAGAN
@@ -1416,7 +1416,7 @@
 	wildmon 5, BELLSPROUT
 	wildmon 5, CRIKA
 	wildmon 4, CREIMU
-	wildmon 5, HOPPIP
+	wildmon 5, CCHIYURI
 	wildmon 5, HOPPIP
 	; nite
 	wildmon 4, SPINARAK
@@ -1424,7 +1424,7 @@
 	wildmon 5, BELLSPROUT
 	wildmon 5, HOOTHOOT
 	wildmon 4, CKOTOHIME
-	wildmon 5, GASTLY
+	wildmon 5, CCHIYURI
 	wildmon 5, GASTLY
 	end_grass_wildmons
 
@@ -1460,7 +1460,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 9, CSAKUYA
-	wildmon 9, ELIS
+	wildmon 9, CELIS
 	wildmon 9, GEODUDE
 	wildmon 10, HOPPIP
 	wildmon 10, CKIKURI, KIKURI_JOHTO_FORM
@@ -1468,7 +1468,7 @@
 	wildmon 10, SUNKERN
 	; day
 	wildmon 9, CSAKUYA
-	wildmon 9, ELIS
+	wildmon 9, CELIS
 	wildmon 9, GEODUDE
 	wildmon 10, HOPPIP
 	wildmon 10, CKIKURI, KIKURI_JOHTO_FORM
@@ -1480,8 +1480,8 @@
 	wildmon 9, GEODUDE
 	wildmon 10, CKOTOHIME
 	wildmon 10, CYOUMU
-	wildmon 9, EKOTOHIME
-	wildmon 10, EKOTOHIME
+	wildmon 9, CMEIRA
+	wildmon 10, CMEIRA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_34
@@ -1491,7 +1491,7 @@
 	wildmon 12, CMIMA
 	wildmon 13, CELIS
 	wildmon 10, ABRA
-	wildmon 13, ELLEN
+	wildmon 13, CELLEN
 	wildmon 10, DITTO
 	wildmon 10, DITTO
 	; day
@@ -1499,7 +1499,7 @@
 	wildmon 12, CMIMA
 	wildmon 13, CELIS
 	wildmon 10, ABRA
-	wildmon 13, ELLEN
+	wildmon 13, CELLEN
 	wildmon 10, DITTO
 	wildmon 10, DITTO
 	; nite
@@ -1507,7 +1507,7 @@
 	wildmon 12, CMIMA
 	wildmon 13, HOOTHOOT
 	wildmon 10, ABRA
-	wildmon 13, ELLEN
+	wildmon 13, CELLEN
 	wildmon 10, CELIS
 	wildmon 10, DITTO
 	end_grass_wildmons
@@ -1519,7 +1519,7 @@
 	wildmon 14, CKIKURI
 	wildmon 14, CKONGARA
 	wildmon 14, CRIKA
-	wildmon 12, ELLEN
+	wildmon 12, CELLEN
 	wildmon 10, DITTO
 	wildmon 13, YANMA
 	; day
@@ -1527,15 +1527,15 @@
 	wildmon 14, CKIKURI
 	wildmon 14, CRIKA
 	wildmon 14, CKONGARA
-	wildmon 12, ELLEN
+	wildmon 12, CELLEN
 	wildmon 10, DITTO
 	wildmon 13, YANMA
 	; nite
 	wildmon 13, DROWZEE
 	wildmon 14, CKIKURI
-	wildmon 14, YUMEMI
+	wildmon 14, CYUMEMI
 	wildmon 14, HOOTHOOT
-	wildmon 12, ELLEN
+	wildmon 12, CELLEN
 	wildmon 10, DITTO
 	wildmon 13, YANMA
 	end_grass_wildmons
@@ -1562,7 +1562,7 @@
 	wildmon 5, SPINARAK
 	wildmon 5, HOOTHOOT
 	wildmon 6, BELLSPROUT
-	wildmon 7, EMEIRA
+	wildmon 7, CMEIRA
 	wildmon 6, HOOTHOOT
 	wildmon 7, GASTLY
 	wildmon 7, GASTLY
@@ -1615,11 +1615,11 @@
 	wildmon 13, MILTANK
 	wildmon 13, MILTANK
 	; nite
-	wildmon 16, ECHIYURI
+	wildmon 16, CCHIYURI
 	wildmon 16, CELIS
 	wildmon 16, MAGNEMITE
 	wildmon 16, NOCTOWL
-	wildmon 16, ECHIYURI
+	wildmon 16, CCHIYURI
 	wildmon 16, MURKROW
 	wildmon 16, MURKROW
 	end_grass_wildmons
@@ -1772,7 +1772,7 @@
 	wildmon 3, GEODUDE
 	wildmon 2, PHANPY
 	wildmon 2, CMIMA
-	wildmon 3, CMIMA
+	wildmon 3, CKANA
 	wildmon 3, CMIMA
 	; day
 	wildmon 2, GEODUDE
@@ -1780,7 +1780,7 @@
 	wildmon 3, GEODUDE
 	wildmon 2, ELLEN
 	wildmon 2, CMIMA
-	wildmon 3, CMIMA
+	wildmon 3, CKANA
 	wildmon 3, CMIMA
 	; nite
 	wildmon 2, GEODUDE
@@ -1788,7 +1788,7 @@
 	wildmon 3, GEODUDE
 	wildmon 2, CMIMA
 	wildmon 2, CMIMA
-	wildmon 3, CMIMA
+	wildmon 3, CKANA
 	wildmon 3, CMIMA
 	end_grass_wildmons
 
@@ -1993,7 +1993,7 @@
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, SENTRET
 	wildmon LEVEL_FROM_BADGES + 0, SNUBBULL
-	wildmon LEVEL_FROM_BADGES - 4, EKIKURI
+	wildmon LEVEL_FROM_BADGES - 4, CELLEN
 	wildmon LEVEL_FROM_BADGES - 2, LEDYBA
 	wildmon LEVEL_FROM_BADGES - 4, MARILL
 	wildmon LEVEL_FROM_BADGES - 3, MARILL
@@ -2001,15 +2001,15 @@
 	; day
 	wildmon LEVEL_FROM_BADGES - 2, SENTRET
 	wildmon LEVEL_FROM_BADGES + 0, SNUBBULL
-	wildmon LEVEL_FROM_BADGES - 4, EKIKURI
-	wildmon LEVEL_FROM_BADGES - 2, EKANA
+	wildmon LEVEL_FROM_BADGES - 4, CELLEN
+	wildmon LEVEL_FROM_BADGES - 2, CKANA
 	wildmon LEVEL_FROM_BADGES - 2, MARILL
 	wildmon LEVEL_FROM_BADGES - 3, MARILL
 	wildmon LEVEL_FROM_BADGES - 14, PICHU
 	; nite
 	wildmon LEVEL_FROM_BADGES - 1, HOOTHOOT
-	wildmon LEVEL_FROM_BADGES - 4, ECHIYURI
-	wildmon LEVEL_FROM_BADGES - 2, EKANA
+	wildmon LEVEL_FROM_BADGES - 4, CCHIYURI
+	wildmon LEVEL_FROM_BADGES - 2, CKANA
 	wildmon LEVEL_FROM_BADGES - 1, SPINARAK
 	wildmon LEVEL_FROM_BADGES + 0, YUMEMI
 	wildmon LEVEL_FROM_BADGES + 1, NOCTOWL
@@ -2181,7 +2181,7 @@
 	wildmon LEVEL_FROM_BADGES - 2, GASTLY
 	wildmon LEVEL_FROM_BADGES + 1, HAUNTER
 	wildmon LEVEL_FROM_BADGES + 1, MISDREAVUS
-	wildmon LEVEL_FROM_BADGES + 5, ERIKAKO
+	wildmon LEVEL_FROM_BADGES + 5, RIKAKO
 	end_grass_wildmons
 
 	def_grass_wildmons MAGNET_TUNNEL_INSIDE

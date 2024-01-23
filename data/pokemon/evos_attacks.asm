@@ -843,6 +843,16 @@ CEllenPlainEvosAttacks:
 	db 11, RAPID_SPIN
 	db 14, CHARM
 	db 17, QUICK_ATTACK
+	db 20, MACH_PUNCH
+	db 24, FUTURE_SIGHT
+	db 28, HEX
+	db 31, MIRROR_COAT
+	db 35, BODY_SLAM
+	db 39, PSYCHIC_M
+	db 42, SUCKER_PUNCH
+	db 45, AURA_SPHERE
+	db 48, REVERSAL
+	db 52, HEALINGLIGHT
 	db -1 ; no more level-up moves
 
 CEllenAlolanEvosAttacks:
@@ -868,6 +878,12 @@ EllenEvosAttacks:
 	db 24, FUTURE_SIGHT
 	db 28, HEX
 	db 31, MIRROR_COAT
+	db 35, BODY_SLAM
+	db 39, PSYCHIC_M
+	db 42, SUCKER_PUNCH
+	db 45, AURA_SPHERE
+	db 48, REVERSAL
+	db 52, HEALINGLIGHT
 	db -1 ; no more level-up moves
 
 EEllenEvosAttacks:
@@ -899,6 +915,15 @@ CKotohimeEvosAttacks:
 	db 11, FEINT_ATTACK
 	db 15, MACH_PUNCH ; Wing Attack → egg move
 	db 18, CHARM
+	db 22, DOUBLE_KICK
+	db 25, DIZZY_PUNCH
+	db 28, HEADBUTT
+	db 32, SING
+	db 37, ENCORE
+	db 41, COUNTER
+	db 44, REVERSAL
+	db 48, PLAY_ROUGH
+	db 52, ATTRACT
 	db -1 ; no more level-up moves
 
 KotohimeEvosAttacks:
@@ -914,6 +939,11 @@ KotohimeEvosAttacks:
 	db 25, DIZZY_PUNCH
 	db 28, HEADBUTT
 	db 32, SING
+	db 37, ENCORE
+	db 41, COUNTER
+	db 44, REVERSAL
+	db 48, PLAY_ROUGH
+	db 52, ATTRACT
 	db -1 ; no more level-up moves
 
 EKotohimeEvosAttacks:
@@ -943,16 +973,16 @@ CKanaEvosAttacks:
 	db 7, DISABLE
 	db 11, REST
 	db 14, DOUBLE_SLAP
-	db 18, FEINT_ATTACK
+	db 18, DISARM_VOICE
 	db 21, TRICK
-	db 24, CHARM ; Lucky Chant → egg move
-	db 29, HEALINGLIGHT ; Moonlight → similar move
-	db 34, GIGA_DRAIN
-	db 39, TOXIC
-	db 44, HYPER_VOICE ; Natural Gift → tutor move
-	db 49, MOONBLAST
-	db 54, GROWTH ; Grassy Terrain → Crystal move
-	db 59, PETAL_SLASH
+	db 25, HEX
+	db 29, SING
+	db 32, SHADOW_BALL
+	db 35, SHADOW_DANCE
+	db 39, NASTY_PLOT
+	db 43, MOONBLAST
+	db 48, CURSE
+	db 52, DESTINY_BOND
 	db -1 ; no more level-up moves
 
 KanaEvosAttacks:
@@ -963,12 +993,16 @@ KanaEvosAttacks:
 	db 7, DISABLE
 	db 11, REST
 	db 14, DOUBLE_SLAP
-	db 18, FEINT_ATTACK
+	db 18, DISARM_VOICE
 	db 21, TRICK
 	db 25, HEX
 	db 29, SING
 	db 32, SHADOW_BALL
 	db 35, SHADOW_DANCE
+	db 39, NASTY_PLOT
+	db 43, MOONBLAST
+	db 48, CURSE
+	db 52, DESTINY_BOND
 	db -1 ; no more level-up moves
 
 EKanaEvosAttacks:
@@ -1000,11 +1034,13 @@ CRikakoEvosAttacks:
 	db 16, PSYBEAM ; Fury Cutter → egg move
 	db 20, TOXIC_GAS
 	db 23, TAKE_DOWN
-	db 37, GROWTH
-	db 44, GIGA_DRAIN
-	db 51, LEECH_LIFE ; Aromatherapy → TM move
-	db 59, HEALINGLIGHT ; Rage Powder → new move
-	db 66, ICHIGO_CROSS
+	db 27, CALM_MIND
+	db 31, TELEPORT
+	db 34, PSYCHIC_M
+	db 38, HURRICANE
+	db 42, EXPLOSION
+	db 46, METEOR_FALL
+	db 51, ZAP_CANNON
 	db -1 ; no more level-up moves
 
 RikakoEvosAttacks:
@@ -1022,6 +1058,9 @@ RikakoEvosAttacks:
 	db 31, TELEPORT
 	db 34, PSYCHIC_M
 	db 38, HURRICANE
+	db 42, EXPLOSION
+	db 46, METEOR_FALL
+	db 51, ZAP_CANNON
 	db -1 ; no more level-up moves
 
 ERikakoEvosAttacks:
@@ -1054,6 +1093,14 @@ CChiyuriPlainEvosAttacks:
 	db 17, SCALD
 	db 22, HONE_TOOLS
 	db 25, FOCUS_ENERGY
+	db 28, BULK_UP
+	db 32, THUNDERBOLT
+	db 35, ICE_BEAM
+	db 39, DIVE_KICK
+	db 42, SPIKES
+	db 46, THUNDERPUNCH
+	db 50, ZEN_HEADBUTT
+	db 53, HYDRO_PUMP
 	db -1 ; no more level-up moves
 
 CChiyuriAlolanEvosAttacks:
@@ -1091,6 +1138,10 @@ ChiyuriPlainEvosAttacks:
 	db 32, THUNDERBOLT
 	db 35, ICE_BEAM
 	db 39, DIVE_KICK
+	db 42, SPIKES
+	db 46, THUNDERPUNCH
+	db 50, ZEN_HEADBUTT
+	db 53, HYDRO_PUMP
 	db -1 ; no more level-up moves
 
 ChiyuriAlolanEvosAttacks:
@@ -1183,6 +1234,13 @@ CYumemiPlainEvosAttacks:
 	db 17, ICY_WIND
 	db 21, HAIL
 	db 25, FIRE_PUNCH
+	db 29, TRICK_ROOM
+	db 32, SPARK
+	db 36, ICICLE_CRASH
+	db 40, ICHIGO_CROSS
+	db 44, ICE_BEAM
+	db 48, THUNDER_WAVE
+	db 52, EXTRASENSORY
 	db -1 ; no more level-up moves
 
 CYumemiAlolanEvosAttacks:
@@ -1222,6 +1280,9 @@ YumemiEvosAttacks:
 	db 32, SPARK
 	db 36, ICICLE_CRASH
 	db 40, ICHIGO_CROSS
+	db 44, ICE_BEAM
+	db 48, THUNDER_WAVE
+	db 52, EXTRASENSORY
 	db -1 ; no more level-up moves
 
 EYumemiEvosAttacks:
