@@ -30,7 +30,7 @@ VermilionCity_MapScriptHeader:
 	bg_event 19,  9, BGEVENT_JUMPTEXT, VermilionCitySignText
 	bg_event  5, 23, BGEVENT_JUMPTEXT, VermilionGymSignText
 	bg_event  5, 17, BGEVENT_JUMPTEXT, PokemonFanClubSignText
-	bg_event 33, 17, BGEVENT_JUMPTEXT, VermilionCityCChiyurisCaveSignText
+	bg_event 33, 17, BGEVENT_JUMPTEXT, VermilionCityDiglettsCaveSignText
 	bg_event 27, 19, BGEVENT_JUMPTEXT, VermilionCityPortSignText
 	bg_event 23, 13, BGEVENT_JUMPTEXT, VermilionCityBattleFactorySignText
 	bg_event 11, 27, BGEVENT_JUMPTEXT, VermilionCityAdvancedTipsSignText
@@ -430,7 +430,7 @@ PokemonFanClubSignText:
 	line "Welcome!"
 	done
 
-VermilionCityCChiyurisCaveSignText:
+VermilionCityDiglettsCaveSignText:
 	text "CChiyuri's Cave"
 	done
 

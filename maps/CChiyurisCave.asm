@@ -1,4 +1,4 @@
-CChiyurisCave_MapScriptHeader:
+DiglettsCave_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -18,16 +18,16 @@ CChiyurisCave_MapScriptHeader:
 	bg_event 34, 33, BGEVENT_ITEM + MAX_REPEL, EVENT_CCHIYURIS_CAVE_HIDDEN_MAX_REPEL
 
 	def_object_events
-	object_event 11, 15, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CChiyurisCaveFossilManiacScript, -1
+	object_event 11, 15, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, DiglettsCaveFossilManiacScript, -1
 	object_event  5, 13, SPRITE_HIKER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerHikerGerard, -1
 	object_event 25, 31, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerHikerDent, -1
 	object_event 16, 21, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBlackbeltInigo, -1
 	object_event  9, 20, SPRITE_ENGINEER, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerEngineerSmith, -1
-	object_event 37, 13, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CChiyurisCavePokefanMText, -1
-	object_event 20, 27, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CChiyurisCaveCooltrainerfText, -1
+	object_event 37, 13, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, DiglettsCavePokefanMText, -1
+	object_event 20, 27, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, DiglettsCaveCooltrainerfText, -1
 	itemball_event 13, 28, RARE_BONE, 1, EVENT_CCHIYURIS_CAVE_RARE_BONE
 
-CChiyurisCaveFossilManiacScript:
+DiglettsCaveFossilManiacScript:
 	faceplayer
 	opentext
 	writetext .GreetingText
@@ -183,7 +183,7 @@ GenericTrainerEngineerSmith:
 	text "Amazing!"
 	done
 
-CChiyurisCaveCooltrainerfText:
+DiglettsCaveCooltrainerfText:
 	text "Look at all these"
 	line "cute CChiyuri!"
 
@@ -191,7 +191,7 @@ CChiyurisCaveCooltrainerfText:
 	line "with a blue nose!"
 	done
 
-CChiyurisCavePokefanMText:
+DiglettsCavePokefanMText:
 	text "A bunch of CChiyuri"
 	line "popped out of the"
 

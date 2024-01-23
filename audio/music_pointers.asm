@@ -113,7 +113,7 @@ Music:
 	dba Music_Route210DPPt
 	dba Music_Route225DPPt
 	dba Music_WildBattleGo
-	dba Music_CChiyurisCaveRBY
+	dba Music_DiglettsCaveRBY
 	dba Music_ViridianForest
 	dba Music_LookHiker
 	dba Music_ViridianCity
