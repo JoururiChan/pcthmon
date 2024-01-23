@@ -10,6 +10,7 @@ CReimuEggMoves:
 	db PSYBEAM
 	db TENSION_KICK
 	db ACROBATICS
+	db PAY_DAY
 	db $ff
 
 CMarisaEggMoves:
@@ -19,6 +20,7 @@ CMarisaEggMoves:
 	db AURA_SPHERE
 	db TOXIC_SPIKES
 	db VOLT_SWITCH
+	db FIVEELEMENTS
 	db $ff
 
 CSakuyaEggMoves:
@@ -28,6 +30,7 @@ CSakuyaEggMoves:
 	db MIRROR_COAT
 	db REVERSAL
 	db MACH_PUNCH
+	db STEEL_FIST
 	db $ff
 
 EMaganEggMoves:
