@@ -36,7 +36,7 @@ GenericTrainerSchoolboyDudley:
 	done
 
 GenericTrainerLassEllen:
-	generictrainer LASS, ELLEN, EVENT_BEAT_LASS_ELLEN, LassEllenSeenText, LassEllenBeatenText
+	generictrainer LASS, ELLEN_T, EVENT_BEAT_LASS_ELLEN_T, LassEllenSeenText, LassEllenBeatenText
 
 	text "I did my best."
 	line "I have no regrets."

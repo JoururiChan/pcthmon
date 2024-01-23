@@ -443,7 +443,7 @@ DEF CRYS EQU __trainer_class__
 	const LAURA
 	const SHANNON
 	const MICHELLE
-	const ELLEN
+	const ELLEN_T
 	const IRIS
 	const MIRIAM
 	const LAYLA
