@@ -179,7 +179,7 @@ PsychicInversHouse_BlockData:
 SECTION "Route26DayofWeekSiblingsHouse_BlockData", ROMX
 Route26DayofWeekSiblingsHouse_BlockData:
 VermilionMagnetTrainSpeechHouse_BlockData:
-VermilionHouseDiglettsCaveSpeechHouse_BlockData:
+VermilionHouseCChiyurisCaveSpeechHouse_BlockData:
 VermilionSSAnneSpeechHouse_BlockData:
 LavenderNameRater_BlockData:
 SaffronHitmontopKidHouse_BlockData:
@@ -1074,9 +1074,9 @@ PokemonFanClub_BlockData:
 SafariZoneWardensHome_BlockData:
 	INCBIN "maps/PokemonFanClub.ablk.lz"
 
-SECTION "DiglettsCave_BlockData", ROMX
-DiglettsCave_BlockData:
-	INCBIN "maps/DiglettsCave.ablk.lz"
+SECTION "CChiyurisCave_BlockData", ROMX
+CChiyurisCave_BlockData:
+	INCBIN "maps/CChiyurisCave.ablk.lz"
 
 SECTION "RockTunnel1F_BlockData", ROMX
 RockTunnel1F_BlockData:

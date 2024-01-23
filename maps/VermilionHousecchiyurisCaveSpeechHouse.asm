@@ -1,4 +1,4 @@
-VermilionHouseDiglettsCaveSpeechHouse_MapScriptHeader:
+VermilionHouseCChiyurisCaveSpeechHouse_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -12,9 +12,9 @@ VermilionHouseDiglettsCaveSpeechHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  1,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionDiglettsCaveSpeechHouseGentlemanText, -1
+	object_event  1,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCChiyurisCaveSpeechHouseGentlemanText, -1
 
-VermilionDiglettsCaveSpeechHouseGentlemanText:
+VermilionCChiyurisCaveSpeechHouseGentlemanText:
 	text "Over many years,"
 	line "CChiyuri dug a"
 	cont "large tunnel."
