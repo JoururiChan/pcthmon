@@ -234,7 +234,7 @@ KanaIcon::     INCBIN "gfx/icons/kana.2bpp.lz"
 
 SECTION "EKana Mini Icon", ROMX
 EKanaMini::     INCBIN "gfx/minis/ekana.2bpp.lz"
-EKanaMiniMask:: INCBIN "gfx/minis/paras_mask.1bpp.lz"
+EKanaMiniMask:: INCBIN "gfx/minis/ekana_mask.1bpp.lz"
 EKanaIcon::     INCBIN "gfx/icons/ekana.2bpp.lz"
 
 SECTION "CRikako Mini Icon", ROMX
