@@ -1,13 +1,13 @@
 	db  90, 110,  80,  95, 100,  80 ; 555 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIRE, FIRE ; type
+	db DARK, DARK ; type
 	db 75 ; catch rate
 	db 213 ; base exp
 	db NO_ITEM, ASPEAR_BERRY ; held items
 	dn GENDER_F25, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for ARCANINE, INTIMIDATE, FLASH_FIRE, JUSTIFIED
+	abilities_for KURUMI, INTIMIDATE, FLASH_FIRE, JUSTIFIED
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

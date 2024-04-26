@@ -13,7 +13,7 @@ UniqueWildMoves:
 	unique_moves UNION_CAVE,       LAPRAS,     SHELL_SMASH  ; UnionCaveB2F, Fridays
 	; wild mons
 	unique_moves CHERRYGROVE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
-	unique_moves SPROUT_TOWER,     BELLSPROUT, GROWTH       ; knows Growth early
+	unique_moves SPROUT_TOWER,     MUGETSU, GROWTH       ; knows Growth early
 	unique_moves ROUTE_32_COAST,   FLAAFFY,    PURSUIT      ; Prism tutor move
 	unique_moves RUINS_OF_ALPH,    SHUCKLE,    ANCIENTPOWER ; Sw/Sh move
 	unique_moves RUINS_OF_ALPH,    SMEARGLE,   SKETCH       ; knows Sketch twice
@@ -40,11 +40,11 @@ UniqueWildMoves:
 	unique_moves SILVER_CAVE,      TYRANITAR,  DRAGON_DANCE ; event move
 	unique_moves VIRIDIAN_FOREST,  EKIKURI,    DISARM_VOICE ; Sketch-breed move
 	unique_moves MT_MOON,          0,          0
-	unique_moves CERULEAN_CAVE,    MACHAMP,    METRONOME    ; RBY TM move
+	unique_moves CERULEAN_CAVE,    CMUGETSU,    METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAVE,    GOLEM,      METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAVE,    GENGAR,     METRONOME    ; RBY TM move
-	unique_moves CERULEAN_CAVE,    ALAKAZAM,   METRONOME    ; RBY TM move
-	unique_moves CERULEAN_CAPE,    POLIWHIRL,  METRONOME    ; RBY TM move
+	unique_moves CERULEAN_CAVE,    CYUKA,   METRONOME    ; RBY TM move
+	unique_moves CERULEAN_CAPE,    EKURUMI,  METRONOME    ; RBY TM move
 	unique_moves CCHIYURIS_CAVE,    CHIYURI,    SCREECH      ; Sw/Sh move
 	unique_moves ROCK_TUNNEL,      ELECTABUZZ, METRONOME    ; RBY TM move
 	unique_moves DIM_CAVE,         GRAVELER,   SUCKER_PUNCH ; HGSS tutor move
@@ -58,7 +58,7 @@ UniqueWildMoves:
 	unique_moves SAFARI_ZONE,      TAUROS,     STOMP        ; RBY move (east)
 	unique_moves SAFARI_ZONE,      PINSIR,     SLASH        ; RBY move (north)
 	unique_moves SAFARI_ZONE,      KANGASKHAN, 0            ; (west)
-	unique_moves URAGA_CHANNEL,    TENTACRUEL, RECOVER      ; TCG move
+	unique_moves URAGA_CHANNEL,    EGENGETSU, RECOVER      ; TCG move
 	unique_moves SCARY_CAVE,       KOTOHIME,     HYPNOSIS     ; Dream World move
 	unique_moves SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves SEAFOAM_ISLANDS,  JYNX,       METRONOME    ; RBY TM move

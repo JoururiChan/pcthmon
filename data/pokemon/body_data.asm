@@ -62,24 +62,24 @@ PokemonBodyData:
 	body_data  10,  320, QUADRUPED,    YELLOW ; CYUMEMI
 	body_data   8,  196, BIPEDAL_TAIL, YELLOW ; YUMEMI
 	body_data  17,  766, BIPEDAL_TAIL, BLUE   ; EYUMEMI
-	body_data   5,  280, BIPEDAL_TAIL, BROWN  ; MANKEY
-	body_data  10,  320, BIPEDAL_TAIL, BROWN  ; PRIMEAPE
-	body_data   7,  190, QUADRUPED,    BROWN  ; GROWLITHE
-	body_data  19, 1550, QUADRUPED,    BROWN  ; ARCANINE
-	body_data   6,  124, HEAD_LEGS,    BLUE   ; POLIWAG
-	body_data  10,  200, BIPEDAL,      BLUE   ; POLIWHIRL
-	body_data  13,  540, BIPEDAL,      BLUE   ; POLIWRATH
-	body_data   9,  195, BIPEDAL_TAIL, BROWN  ; ABRA
-	body_data  13,  565, BIPEDAL_TAIL, BROWN  ; KADABRA
-	body_data  15,  480, BIPEDAL,      BROWN  ; ALAKAZAM
-	body_data   8,  195, BIPEDAL_TAIL, GRAY   ; MACHOP
-	body_data  15,  705, BIPEDAL,      GRAY   ; MACHOKE
-	body_data  16, 1300, BIPEDAL,      GRAY   ; MACHAMP
-	body_data   7,   40, BIPEDAL,      GREEN  ; BELLSPROUT
-	body_data  10,   64, HEAD_BASE,    GREEN  ; WEEPINBELL
-	body_data  17,  155, HEAD_BASE,    GREEN  ; VICTREEBEL
-	body_data   9,  455, TENTACLES,    BLUE   ; TENTACOOL
-	body_data  16,  550, TENTACLES,    BLUE   ; TENTACRUEL
+	body_data   5,  280, BIPEDAL_TAIL, BROWN  ; CORANGE
+	body_data  10,  320, BIPEDAL_TAIL, BROWN  ; ORANGE
+	body_data   7,  190, QUADRUPED,    BROWN  ; EORANGE
+	body_data  19, 1550, QUADRUPED,    BROWN  ; KURUMI
+	body_data   6,  124, HEAD_LEGS,    BLUE   ; KURUMI
+	body_data  10,  200, BIPEDAL,      BLUE   ; EKURUMI
+	body_data  13,  540, BIPEDAL,      BLUE   ; CELLY
+	body_data   9,  195, BIPEDAL_TAIL, BROWN  ; ELLY
+	body_data  13,  565, BIPEDAL_TAIL, BROWN  ; EELLY
+	body_data  15,  480, BIPEDAL,      BROWN  ; CYUKA
+	body_data   8,  195, BIPEDAL_TAIL, GRAY   ; YUKA
+	body_data  15,  705, BIPEDAL,      GRAY   ; EYUKA
+	body_data  16, 1300, BIPEDAL,      GRAY   ; CMUGETSU
+	body_data   7,   40, BIPEDAL,      GREEN  ; MUGETSU
+	body_data  10,   64, HEAD_BASE,    GREEN  ; EMUGETSU
+	body_data  17,  155, HEAD_BASE,    GREEN  ; CGENGETSU
+	body_data   9,  455, TENTACLES,    BLUE   ; GENGETSU
+	body_data  16,  550, TENTACLES,    BLUE   ; EGENGETSU
 	body_data   4,  200, HEAD_ARMS,    BROWN  ; GEODUDE
 	body_data  10, 1050, BIPEDAL,      BROWN  ; GRAVELER
 	body_data  14, 3000, BIPEDAL,      BROWN  ; GOLEM
@@ -339,8 +339,8 @@ PokemonBodyData:
 	body_data  18,  795, BIPEDAL_TAIL, PINK   ; SLOWKING (GALARIAN_FORM)
 	body_data   6,    5, INSECTOID,    WHITE  ; CORSOLA (GALARIAN_FORM)
 
-	body_data   8,  227, QUADRUPED,    RED    ; GROWLITHE (HISUIAN_FORM)
-	body_data  20, 1680, QUADRUPED,    RED    ; ARCANINE (HISUIAN_FORM)
+	body_data   8,  227, QUADRUPED,    RED    ; EORANGE (HISUIAN_FORM)
+	body_data  20, 1680, QUADRUPED,    RED    ; KURUMI (HISUIAN_FORM)
 	body_data   5,  130, HEAD,         BROWN  ; VOLTORB (HISUIAN_FORM)
 	body_data  12,  710, HEAD,         BROWN  ; ELECTRODE (HISUIAN_FORM)
 	body_data  16,  698, QUADRUPED,    YELLOW ; EREISEN (HISUIAN_FORM)

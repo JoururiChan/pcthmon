@@ -37,7 +37,7 @@ PokemonJournalBillScript:
 	line "first one he"
 
 	para "caught was an"
-	line "Abra."
+	line "Elly."
 	done
 
 BillsHousePCText:

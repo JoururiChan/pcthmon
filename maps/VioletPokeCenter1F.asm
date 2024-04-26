@@ -183,7 +183,7 @@ VioletPokeCenter1FGentlemanText:
 	done
 
 VioletPokeCenter1FSageText:
-	text "Some Bellsprout"
+	text "Some Mugetsu"
 	line "are found with"
 	cont "Gold Leaves."
 

@@ -24,7 +24,7 @@ IndigoPlateauPokecenter1F_MapScriptHeader:
 	pc_nurse_event  9, 7
 	mart_clerk_event  1,  9, MARTTYPE_STANDARD, MART_INDIGO_PLATEAU
 	object_event  6,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, IndigoPlateauTeleportGuyScript, EVENT_TELEPORT_GUY
-	pokemon_event  5,  9, ABRA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, IndigoPlateauAbraText, EVENT_TELEPORT_GUY
+	pokemon_event  5,  9, ELLY, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, IndigoPlateauEllyText, EVENT_TELEPORT_GUY
 	object_event  5, 12, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, IndigoPlateauCooltrainermText, -1
 
 	object_const_def
@@ -496,7 +496,7 @@ IndigoPlateauTeleportGuyScript:
 	para "If you need to"
 	line "train some more,"
 
-	para "my Abra can help"
+	para "my Elly can help"
 	line "you."
 
 	para "It can Teleport"
@@ -517,8 +517,8 @@ IndigoPlateauTeleportGuyScript:
 	line "of luck to you!"
 	done
 
-IndigoPlateauAbraText:
-	text "Abra: Aabra…"
+IndigoPlateauEllyText:
+	text "Elly: Aelly…"
 	done
 
 IndigoPlateauCooltrainermText:

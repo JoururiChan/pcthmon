@@ -110,7 +110,7 @@ Their animations in battle still depend on the Tohomon using them, e.g. Chansey'
 ### How do I evolve my Tohomon?
 
 * Ask Lyra! She gives you her phone number when you reach the Day-Care on Route 34.
-* Gen 1's trade evolutions now evolve by having at least five vitamins' worth of EVs in the right stat: Machoke into Machamp with Attack EVs (from Protein), Graveler into Golem with Defense (from Iron), Haunter into Gengar with Speed (from Carbos), and Kadabra into Alakazam with Special Attack (from Calcium).
+* Gen 1's trade evolutions now evolve by having at least five vitamins' worth of EVs in the right stat: EYuka into CMugetsu with Attack EVs (from Protein), Graveler into Golem with Defense (from Iron), Haunter into Gengar with Speed (from Carbos), and EElly into CYuka with Special Attack (from Calcium).
 * Item trade evolutions (like Seadra into Kingdra while holding a Dragon Scale) now evolve while holding the item.
 * Yanma, Tangela, and Piloswine evolve while knowing AncientPower.
 * Eevee evolves into Leafeon in Ilex Forest, site of the Moss Rock.
@@ -149,7 +149,7 @@ Their animations in battle still depend on the Tohomon using them, e.g. Chansey'
 * Protector is in Mt. Mortar, or held by some wild Rhyhorn/Rhydon.
 * Up-Grade is given to you in Silph Co. after fixing the Power Plant generator.
 * Dubious Disc is in Celadon City.
-* King's Rock is in Slowpoke Well, or held by some wild Slowpoke family and Poliwhirl/Poliwrath/Politoed.
+* King's Rock is in Slowpoke Well, or held by some wild Slowpoke family and EKurumi/CElly/Politoed.
 * Metal Coat is in the Goldenrod Dept. Store basement, or held by some wild Magnemite family and Steelix.
 * Dragon Scale is in Mt. Mortar, or held by some wild Horsea family and Dratini family.
   * (2.2.0) Also in Dragon's Den.
@@ -164,7 +164,7 @@ Their animations in battle still depend on the Tohomon using them, e.g. Chansey'
 
 Silver Leaves are like Shards in future generations: they can be given to Move Tutors to learn moves. Wild EKotohime have a 50% chance of holding Silver Leaves, and there are some hidden on the ground in Ilex Forest.
 
-Gold Leaves can be given to the Move Maniac in Cianwood City to relearn moves. Wild Bellsprout have a 50% chance of holding Gold Leaves, and there are some hidden on the ground in Yellow Forest.
+Gold Leaves can be given to the Move Maniac in Cianwood City to relearn moves. Wild Mugetsu have a 50% chance of holding Gold Leaves, and there are some hidden on the ground in Yellow Forest.
 
 (3.0.0-beta) Both Leaves may also drop from Headbutt trees.
 

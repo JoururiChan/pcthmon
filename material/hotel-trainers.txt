@@ -12,7 +12,7 @@ victory: Ken: Impressive. Yuria: Wow! That was great.
 
 after: Ken: Phew. I bet you'd give my brothers a run for their money. Yuria: We won't be back to Ransei for a while. If you want another battle, we'll be here! 
 
-Team: hitmonchan, machamp, blissey, rapidash
+Team: hitmonchan, cmugetsu, blissey, rapidash
 
 Juggler Luke:
 Oohohoh man! Who's a man and a half?! Guess who struck it big?!
@@ -31,7 +31,7 @@ Victory: Oh ship...
 
 After: Good stuff, kid! You'd make a fine sailor.
 
-Team: Qwilfish, Kingler x2, Tentacruel 
+Team: Qwilfish, Kingler x2, EGengetsu 
 
 Supernerd Not'im 
 Fire me from the Dept Store, will you?! Ngh...I'll show them! I'll show them all! ...Huh? Hey! Get over here! I need something to take my anger out on.
@@ -173,7 +173,7 @@ Rando NPC: Enjoying yourself?
 
 Rando NPC: That woman over there has such beautiful hands but such an ugly heart...
 
-Rando NPC: Urgh...that's the last time I take a bath with my Tentacool...
+Rando NPC: Urgh...that's the last time I take a bath with my Gengetsu...
 
 Rando NPC: Whuzzat? Team Galatic did what? Huh? Get outta here, kid! I'm trying to take a call here!
 

@@ -2,15 +2,15 @@ NPCTrades:
 	table_width NPCTRADE_STRUCT_LENGTH, NPCTrades
 ; NPC_TRADE_MIKE in Goldenrod City
 	db TRADE_DIALOGSET_COLLECTOR
-	dp ABRA, NO_FORM  ; wants
-	dp MACHOP, FEMALE ; gives
+	dp ELLY, NO_FORM  ; wants
+	dp YUKA, FEMALE ; gives
 	rawchar "Muscle@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_ATK_UP_SATK_DOWN,  LEVEL_BALL,   SITRUS_BERRY
 	dw 37460
 	rawchar "Mike@@@@", $00
 ; NPC_TRADE_KYLE in Violet City
 	db TRADE_DIALOGSET_COLLECTOR
-	dp POLIWAG, NO_FORM ; wants
+	dp KURUMI, NO_FORM ; wants
 	dp VOLTORB, MALE    ; gives
 	rawchar "Mimic@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_DEF_DOWN,   PREMIER_BALL, PERSIM_BERRY
@@ -50,7 +50,7 @@ NPCTrades:
 	rawchar "Kim@@@@@", $00
 ; NPC_TRADE_JACQUES in Goldenrod Harbor
 	db TRADE_DIALOGSET_HAPPY
-	dp TENTACOOL, NO_FORM ; wants
+	dp GENGETSU, NO_FORM ; wants
 	dp GRIMER, FEMALE     ; gives
 	rawchar "Gail@@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SDEF_UP_SATK_DOWN, LURE_BALL,    EVIOLITE

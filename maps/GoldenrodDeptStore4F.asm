@@ -40,8 +40,8 @@ GoldenrodDeptStore4FBugCatcherText:
 	para "evolve if exposed"
 	line "to a Linking Cord:"
 
-	para "Machoke, Graveler,"
-	line "Kadabra, and"
+	para "EYuka, Graveler,"
+	line "EElly, and"
 	cont "Haunter!"
 	done
 
@@ -53,7 +53,7 @@ GoldenrodDeptStore4FGameboyKidText:
 	line "a certain item."
 
 	para "I know of four:"
-	line "Poliwhirl, Onix,"
+	line "EKurumi, Onix,"
 
 	para "Slowpoke and, um,"
 	line "Scyther."

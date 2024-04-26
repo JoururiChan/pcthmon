@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for POLIWAG, WATER_ABSORB, DAMP, SWIFT_SWIM
+	abilities_for KURUMI, WATER_ABSORB, DAMP, SWIFT_SWIM
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_WATER_1, EGG_WATER_1 ; egg groups
 

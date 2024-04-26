@@ -548,8 +548,8 @@ EYumemiTohodexEntry::
 	next "of which it is so"
 	next "fond.@"
 
-SECTION "MankeyTohodexEntry", ROMX
-MankeyTohodexEntry::
+SECTION "COrangeTohodexEntry", ROMX
+COrangeTohodexEntry::
 	db "Pig Monkey@"
 	db   "It lives in groups"
 	next "in the treetops."
@@ -558,8 +558,8 @@ MankeyTohodexEntry::
 	next "becomes infuriated"
 	next "by its loneliness.@"
 
-SECTION "PrimeapeTohodexEntry", ROMX
-PrimeapeTohodexEntry::
+SECTION "OrangeTohodexEntry", ROMX
+OrangeTohodexEntry::
 	db "Pig Monkey@"
 	db   "It will beat up"
 	next "anyone who makes"
@@ -568,8 +568,8 @@ PrimeapeTohodexEntry::
 	next "until the end of"
 	next "the world.@"
 
-SECTION "GrowlitheTohodexEntry", ROMX
-GrowlitheTohodexEntry::
+SECTION "EOrangeTohodexEntry", ROMX
+EOrangeTohodexEntry::
 	db "Puppy@"
 	db   "It controls a big"
 	next "territory. If it"
@@ -578,8 +578,8 @@ GrowlitheTohodexEntry::
 	next "loudly to force"
 	next "out the intruder.@"
 
-SECTION "ArcanineTohodexEntry", ROMX
-ArcanineTohodexEntry::
+SECTION "CKurumiTohodexEntry", ROMX
+CKurumiTohodexEntry::
 	db "Legendary@"
 	db   "An ancient picture"
 	next "scroll shows that"
@@ -588,8 +588,8 @@ ArcanineTohodexEntry::
 	next "movement as it ran"
 	next "through prairies.@"
 
-SECTION "PoliwagTohodexEntry", ROMX
-PoliwagTohodexEntry::
+SECTION "KurumiTohodexEntry", ROMX
+KurumiTohodexEntry::
 	db "Tadpole@"
 	db   "The swirl on its"
 	next "belly is its"
@@ -598,8 +598,8 @@ PoliwagTohodexEntry::
 	next "It looks clearer"
 	next "after it eats.@"
 
-SECTION "PoliwhirlTohodexEntry", ROMX
-PoliwhirlTohodexEntry::
+SECTION "EKurumiTohodexEntry", ROMX
+EKurumiTohodexEntry::
 	db "Tadpole@"
 	db   "Though it is"
 	next "skilled at walk-"
@@ -608,8 +608,8 @@ PoliwhirlTohodexEntry::
 	next "where there is"
 	next "less danger.@"
 
-SECTION "PoliwrathTohodexEntry", ROMX
-PoliwrathTohodexEntry::
+SECTION "CEllyTohodexEntry", ROMX
+CEllyTohodexEntry::
 	db "Tadpole@"
 	db   "It can use its"
 	next "well-developed"
@@ -618,8 +618,8 @@ PoliwrathTohodexEntry::
 	next "of the water for a"
 	next "split second.@"
 
-SECTION "AbraTohodexEntry", ROMX
-AbraTohodexEntry::
+SECTION "EllyTohodexEntry", ROMX
+EllyTohodexEntry::
 	db "Psi@"
 	db   "It hypnotizes"
 	next "itself so that it"
@@ -628,8 +628,8 @@ AbraTohodexEntry::
 	next "danger, even"
 	next "if it is asleep.@"
 
-SECTION "KadabraTohodexEntry", ROMX
-KadabraTohodexEntry::
+SECTION "EEllyTohodexEntry", ROMX
+EEllyTohodexEntry::
 	db "Psi@"
 	db   "When it closes its"
 	next "eyes, twice as"
@@ -638,8 +638,8 @@ KadabraTohodexEntry::
 	next "the surface of its"
 	next "body.@"
 
-SECTION "AlakazamTohodexEntry", ROMX
-AlakazamTohodexEntry::
+SECTION "CYukaTohodexEntry", ROMX
+CYukaTohodexEntry::
 	db "Psi@"
 	db   "It has an IQ of"
 	next "5000. It calcu-"
@@ -648,8 +648,8 @@ AlakazamTohodexEntry::
 	next "the edge in every"
 	next "battle.@"
 
-SECTION "MachopTohodexEntry", ROMX
-MachopTohodexEntry::
+SECTION "YukaTohodexEntry", ROMX
+YukaTohodexEntry::
 	db "Superpower@"
 	db   "It trains by"
 	next "lifting rocks in"
@@ -658,8 +658,8 @@ MachopTohodexEntry::
 	next "Graveler with"
 	next "ease.@"
 
-SECTION "MachokeTohodexEntry", ROMX
-MachokeTohodexEntry::
+SECTION "EYukaTohodexEntry", ROMX
+EYukaTohodexEntry::
 	db "Superpower@"
 	db   "This tough #mon"
 	next "always stays in"
@@ -668,8 +668,8 @@ MachokeTohodexEntry::
 	next "thicker after"
 	next "every battle.@"
 
-SECTION "MachampTohodexEntry", ROMX
-MachampTohodexEntry::
+SECTION "CMugetsuTohodexEntry", ROMX
+CMugetsuTohodexEntry::
 	db "Superpower@"
 	db   "With four arms"
 	next "that react more"
@@ -678,8 +678,8 @@ MachampTohodexEntry::
 	next "execute many"
 	next "punches at once.@"
 
-SECTION "BellsproutTohodexEntry", ROMX
-BellsproutTohodexEntry::
+SECTION "MugetsuTohodexEntry", ROMX
+MugetsuTohodexEntry::
 	db "Flower@"
 	db   "If it notices"
 	next "anything that"
@@ -688,8 +688,8 @@ BellsproutTohodexEntry::
 	next "its vine at the"
 	next "object.@"
 
-SECTION "WeepinbellTohodexEntry", ROMX
-WeepinbellTohodexEntry::
+SECTION "EMugetsuTohodexEntry", ROMX
+EMugetsuTohodexEntry::
 	db "Flycatcher@"
 	db   "When it's hungry,"
 	next "it swings its"
@@ -698,8 +698,8 @@ WeepinbellTohodexEntry::
 	next "any unlucky object"
 	next "nearby for food.@"
 
-SECTION "VictreebelTohodexEntry", ROMX
-VictreebelTohodexEntry::
+SECTION "CGengetsuTohodexEntry", ROMX
+CGengetsuTohodexEntry::
 	db "Flycatcher@"
 	db   "Once ingested into"
 	next "this #mon's"
@@ -708,8 +708,8 @@ VictreebelTohodexEntry::
 	next "will melt into"
 	next "nothing.@"
 
-SECTION "TentacoolTohodexEntry", ROMX
-TentacoolTohodexEntry::
+SECTION "GengetsuTohodexEntry", ROMX
+GengetsuTohodexEntry::
 	db "Jellyfish@"
 	db   "As it floats along"
 	next "on the waves, it"
@@ -718,8 +718,8 @@ TentacoolTohodexEntry::
 	next "anything it"
 	next "touches.@"
 
-SECTION "TentacruelTohodexEntry", ROMX
-TentacruelTohodexEntry::
+SECTION "EGengetsuTohodexEntry", ROMX
+EGengetsuTohodexEntry::
 	db "Jellyfish@"
 	db   "When its 80 feel-"
 	next "ers absorb water,"
@@ -1858,8 +1858,8 @@ PolitoedTohodexEntry::
 	db   "When it expands"
 	next "its throat to"
 	next "croak out a tune,"
-	page "nearby Poliwag and"
-	next "Poliwhirl gather"
+	page "nearby Kurumi and"
+	next "EKurumi gather"
 	next "immediately.@"
 
 SECTION "HoppipTohodexEntry", ROMX
@@ -3224,8 +3224,8 @@ CorsolaGalarianTohodexEntry::
 	next "life-force through"
 	next "its branches.@"
 
-SECTION "GrowlitheHisuianTohodexEntry", ROMX
-GrowlitheHisuianTohodexEntry::
+SECTION "EOrangeHisuianTohodexEntry", ROMX
+EOrangeHisuianTohodexEntry::
 	db "Scout@"
 	db   "They patrol their"
 	next "territory in"
@@ -3234,8 +3234,8 @@ GrowlitheHisuianTohodexEntry::
 	next "components from"
 	next "volcanic activity.@"
 
-SECTION "ArcanineHisuianTohodexEntry", ROMX
-ArcanineHisuianTohodexEntry::
+SECTION "CKurumiHisuianTohodexEntry", ROMX
+CKurumiHisuianTohodexEntry::
 	db "Legendary@"
 	db   "Despite its bulk,"
 	next "it deftly feints"

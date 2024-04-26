@@ -56,24 +56,24 @@ TohodexDataPointerTable:
 	dba CYumemiPlainTohodexEntry
 	dba YumemiTohodexEntry
 	dba EYumemiTohodexEntry
-	dba MankeyTohodexEntry
-	dba PrimeapeTohodexEntry
-	dba GrowlitheTohodexEntry
-	dba ArcanineTohodexEntry
-	dba PoliwagTohodexEntry
-	dba PoliwhirlTohodexEntry
-	dba PoliwrathTohodexEntry
-	dba AbraTohodexEntry
-	dba KadabraTohodexEntry
-	dba AlakazamTohodexEntry
-	dba MachopTohodexEntry
-	dba MachokeTohodexEntry
-	dba MachampTohodexEntry
-	dba BellsproutTohodexEntry
-	dba WeepinbellTohodexEntry
-	dba VictreebelTohodexEntry
-	dba TentacoolTohodexEntry
-	dba TentacruelTohodexEntry
+	dba COrangeTohodexEntry
+	dba OrangeTohodexEntry
+	dba EOrangeTohodexEntry
+	dba CKurumiTohodexEntry
+	dba KurumiTohodexEntry
+	dba EKurumiTohodexEntry
+	dba CEllyTohodexEntry
+	dba EllyTohodexEntry
+	dba EEllyTohodexEntry
+	dba CYukaTohodexEntry
+	dba YukaTohodexEntry
+	dba EYukaTohodexEntry
+	dba CMugetsuTohodexEntry
+	dba MugetsuTohodexEntry
+	dba EMugetsuTohodexEntry
+	dba CGengetsuTohodexEntry
+	dba GengetsuTohodexEntry
+	dba EGengetsuTohodexEntry
 	dba GeodudePlainTohodexEntry
 	dba GravelerPlainTohodexEntry
 	dba GolemPlainTohodexEntry
@@ -333,8 +333,8 @@ TohodexDataPointerTable:
 	dba SlowkingGalarianTohodexEntry
 	dba CorsolaGalarianTohodexEntry
 
-	dba GrowlitheHisuianTohodexEntry
-	dba ArcanineHisuianTohodexEntry
+	dba EOrangeHisuianTohodexEntry
+	dba CKurumiHisuianTohodexEntry
 	dba VoltorbHisuianTohodexEntry
 	dba ElectrodeHisuianTohodexEntry
 	dba EReisenHisuianTohodexEntry

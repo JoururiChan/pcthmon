@@ -55,24 +55,24 @@ EggMovePointers::
 	dw NoEggMoves             ; CYumemi
 	dw YumemiEggMoves        ; Yumemi
 	dw NoEggMoves             ; EYumemi
-	dw MankeyEggMoves         ; Mankey
-	dw NoEggMoves             ; Primeape
-	dw GrowlitheEggMoves      ; Growlithe
-	dw NoEggMoves             ; Arcanine
-	dw PoliwagEggMoves        ; Poliwag
-	dw NoEggMoves             ; Poliwhirl
-	dw NoEggMoves             ; Poliwrath
-	dw AbraEggMoves           ; Abra
-	dw NoEggMoves             ; Kadabra
-	dw NoEggMoves             ; Alakazam
-	dw MachopEggMoves         ; Machop
-	dw NoEggMoves             ; Machoke
-	dw NoEggMoves             ; Machamp
-	dw BellsproutEggMoves     ; Bellsprout
-	dw NoEggMoves             ; Weepinbell
-	dw NoEggMoves             ; Victreebel
-	dw TentacoolEggMoves      ; Tentacool
-	dw NoEggMoves             ; Tentacruel
+	dw COrangeEggMoves         ; COrange
+	dw NoEggMoves             ; Orange
+	dw EOrangeEggMoves      ; EOrange
+	dw NoEggMoves             ; CKurumi
+	dw KurumiEggMoves        ; Kurumi
+	dw NoEggMoves             ; EKurumi
+	dw NoEggMoves             ; CElly
+	dw EllyEggMoves           ; Elly
+	dw NoEggMoves             ; EElly
+	dw NoEggMoves             ; CYuka
+	dw YukaEggMoves         ; Yuka
+	dw NoEggMoves             ; EYuka
+	dw NoEggMoves             ; CMugetsu
+	dw MugetsuEggMoves     ; Mugetsu
+	dw NoEggMoves             ; EMugetsu
+	dw NoEggMoves             ; CGengetsu
+	dw GengetsuEggMoves      ; Gengetsu
+	dw NoEggMoves             ; EGengetsu
 	dw GeodudePlainEggMoves   ; Geodude
 	dw NoEggMoves             ; Graveler
 	dw NoEggMoves             ; Golem
@@ -332,8 +332,8 @@ EggMovePointers::
 	dw NoEggMoves                ; Slowking (Galarian Form)
 	dw CorsolaGalarianEggMoves   ; Corsola (Galarian Form)
 
-	dw GrowlitheHisuianEggMoves  ; Growlithe (Hisuian Form)
-	dw NoEggMoves                ; Arcanine (Hisuian Form)
+	dw EOrangeHisuianEggMoves  ; EOrange (Hisuian Form)
+	dw NoEggMoves                ; CKurumi (Hisuian Form)
 	dw NoEggMoves                ; Voltorb (Hisuian Form)
 	dw NoEggMoves                ; Electrode (Hisuian Form)
 	dw NoEggMoves                ; EReisen (Hisuian Form)

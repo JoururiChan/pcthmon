@@ -33,7 +33,7 @@ GenericTrainerSageEdmond:
 	generictrainer SAGE, EDMOND, EVENT_BEAT_SAGE_EDMOND, SageEdmondSeenText, SageEdmondBeatenText
 
 	text "I tried to copy"
-	line "Bellsprout's"
+	line "Mugetsu's"
 
 	para "gentle movements"
 	line "for battle…"

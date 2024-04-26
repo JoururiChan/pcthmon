@@ -139,7 +139,7 @@ GenericTrainerPsychicUri:
 	cont "with ESP awoke in"
 
 	para "bed transformed"
-	line "into Kadabra!"
+	line "into EElly!"
 	done
 
 .BeatenText:

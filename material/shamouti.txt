@@ -43,7 +43,7 @@ Gentleman 1 (Bernard):
 pre-battle - “Enough of this argy-bargy. I shall see to you myself!”
 win battle - “What a corker!”
 post-battle “Don't worry Rupert, we'll buy better Pokemon.”
-party - Ampharos, EYumemi, Arcanine
+party - Ampharos, EYumemi, CKurumi
 
 Schoolgirl 1 (Rachel):
 pre-battle - “I've been learning about Shamouti Island at school.”

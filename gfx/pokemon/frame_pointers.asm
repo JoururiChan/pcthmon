@@ -55,24 +55,24 @@ FramesPointers:
 	dw CYumemiPlainFrames
 	dw YumemiFrames
 	dw EYumemiFrames
-	dw MankeyFrames
-	dw PrimeapeFrames
-	dw GrowlithePlainFrames
-	dw ArcaninePlainFrames
-	dw PoliwagFrames
-	dw PoliwhirlFrames
-	dw PoliwrathFrames
-	dw AbraFrames
-	dw KadabraFrames
-	dw AlakazamFrames
-	dw MachopFrames
-	dw MachokeFrames
-	dw MachampFrames
-	dw BellsproutFrames
-	dw WeepinbellFrames
-	dw VictreebelFrames
-	dw TentacoolFrames
-	dw TentacruelFrames
+	dw COrangeFrames
+	dw OrangeFrames
+	dw EOrangePlainFrames
+	dw CKurumiPlainFrames
+	dw KurumiFrames
+	dw EKurumiFrames
+	dw CEllyFrames
+	dw EllyFrames
+	dw EEllyFrames
+	dw CYukaFrames
+	dw YukaFrames
+	dw EYukaFrames
+	dw CMugetsuFrames
+	dw MugetsuFrames
+	dw EMugetsuFrames
+	dw CGengetsuFrames
+	dw GengetsuFrames
+	dw EGengetsuFrames
 	dw GeodudePlainFrames
 	dw GravelerPlainFrames
 	dw GolemPlainFrames
@@ -395,8 +395,8 @@ FramesPointers:
 	dw SlowkingGalarianFrames
 	dw CorsolaGalarianFrames
 
-	dw GrowlitheHisuianFrames
-	dw ArcanineHisuianFrames
+	dw EOrangeHisuianFrames
+	dw CKurumiHisuianFrames
 	dw VoltorbHisuianFrames
 	dw ElectrodeHisuianFrames
 	dw EReisenHisuianFrames

@@ -2,15 +2,15 @@
 
 AlphabeticalTohodexOrder:
 	table_width 2, AlphabeticalTohodexOrder
-	dp ABRA
+	dp ELLY
 	dp AERODACTYL
 	dp AIPOM
-	dp ALAKAZAM
+	dp CYUKA
 	dp AMBIPOM
 	dp AMPHAROS
 	dp ANNIHILAPE
 	dp KIKURI
-	dp ARCANINE
+	dp KURUMI
 	dp ARIADOS
 	dp ARTICUNO
 	dp AZUMARILL
@@ -18,7 +18,7 @@ AlphabeticalTohodexOrder:
 	dp YOUMU
 	dp MAGAN
 	dp BELLOSSOM
-	dp BELLSPROUT
+	dp MUGETSU
 	dp ESAKUYA
 	dp BLISSEY
 	dp BONSLY
@@ -90,7 +90,7 @@ AlphabeticalTohodexOrder:
 	dp GRANBULL
 	dp GRAVELER
 	dp GRIMER
-	dp GROWLITHE
+	dp EORANGE
 	dp GYARADOS
 	dp HAPPINY
 	dp HAUNTER
@@ -114,7 +114,7 @@ AlphabeticalTohodexOrder:
 	dp JYNX
 	dp KABUTO
 	dp KABUTOPS
-	dp KADABRA
+	dp EELLY
 	dp CMAGAN
 	dp KANGASKHAN
 	dp KINGDRA
@@ -131,9 +131,9 @@ AlphabeticalTohodexOrder:
 	dp LICKILICKY
 	dp LICKITUNG
 	dp LUGIA
-	dp MACHAMP
-	dp MACHOKE
-	dp MACHOP
+	dp CMUGETSU
+	dp EYUKA
+	dp YUKA
 	dp MAGBY
 	dp MAGCARGO
 	dp MAGIKARP
@@ -143,7 +143,7 @@ AlphabeticalTohodexOrder:
 	dp MAGNETON
 	dp MAGNEZONE
 	dp MAMOSWINE
-	dp MANKEY
+	dp CORANGE
 	dp MANTINE
 	dp MANTYKE
 	dp MAREEP
@@ -193,14 +193,14 @@ AlphabeticalTohodexOrder:
 	dp PINECO
 	dp PINSIR
 	dp POLITOED
-	dp POLIWAG
-	dp POLIWHIRL
-	dp POLIWRATH
+	dp KURUMI
+	dp EKURUMI
+	dp CELLY
 	dp PONYTA
 	dp PORYGON
 	dp PORYGON_Z
 	dp PORYGON2
-	dp PRIMEAPE
+	dp ORANGE
 	dp YUMEMI
 	dp PUPITAR
 	dp QUAGSIRE
@@ -255,8 +255,8 @@ AlphabeticalTohodexOrder:
 	dp TANGROWTH
 	dp TAUROS
 	dp TEDDIURSA
-	dp TENTACOOL
-	dp TENTACRUEL
+	dp GENGETSU
+	dp EGENGETSU
 	dp TOGEKISS
 	dp TOGEPI
 	dp TOGETIC
@@ -272,14 +272,14 @@ AlphabeticalTohodexOrder:
 	dp ERIKAKO
 	dp RIKAKO
 	dp EREIMU
-	dp VICTREEBEL
+	dp CGENGETSU
 	dp KANA
 	dp VOLTORB
 	dp EMEIRA
 	dp SAKUYA
 	dp WEAVILE
 	dp OGYOKU
-	dp WEEPINBELL
+	dp EMUGETSU
 	dp WEEZING
 	dp EELLEN
 	dp WOBBUFFET

@@ -702,7 +702,7 @@ CardFlip_CheckWinCondition:
 	dw .Impossible
 	dw .EKikuri
 	dw .Ellen
-	dw .Poliwag
+	dw .Kurumi
 	dw .EKotohime
 
 	dw .OneTwo
@@ -805,7 +805,7 @@ CardFlip_CheckWinCondition:
 	jr z, .WinTwelve
 	jmp .Lose
 
-.Poliwag:
+.Kurumi:
 	ld a, [wCardFlipFaceUpCard]
 	and $3
 	cp $2

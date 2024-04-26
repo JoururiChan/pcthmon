@@ -90,7 +90,7 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveEgg
 	dw .EvolveEKikuri
 	dw .EvolveCKana
-	dw .EvolvePoliwhirl
+	dw .EvolveEKurumi
 	dw .EvolveSlowpokePlain
 	dw .EvolveSlowpokeGalarian
 	dw .EvolveMagneton
@@ -161,8 +161,8 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveCKana:
 	farwritetext ElmPhoneEvoText_CKana
 	end
-.EvolvePoliwhirl:
-	farwritetext ElmPhoneEvoText_Poliwhirl
+.EvolveEKurumi:
+	farwritetext ElmPhoneEvoText_EKurumi
 	end
 .EvolveSlowpokePlain:
 	farwritetext ElmPhoneEvoText_SlowpokePlain

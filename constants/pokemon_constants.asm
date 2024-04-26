@@ -77,24 +77,24 @@
 	const CYUMEMI    ; 35
 	const YUMEMI    ; 36
 	const EYUMEMI    ; 37
-	const MANKEY     ; 38
-	const PRIMEAPE   ; 39
-	const GROWLITHE  ; 3a
-	const ARCANINE   ; 3b
-	const POLIWAG    ; 3c
-	const POLIWHIRL  ; 3d
-	const POLIWRATH  ; 3e
-	const ABRA       ; 3f
-	const KADABRA    ; 40
-	const ALAKAZAM   ; 41
-	const MACHOP     ; 42
-	const MACHOKE    ; 43
-	const MACHAMP    ; 44
-	const BELLSPROUT ; 45
-	const WEEPINBELL ; 46
-	const VICTREEBEL ; 47
-	const TENTACOOL  ; 48
-	const TENTACRUEL ; 49
+	const CORANGE     ; 38
+	const ORANGE   ; 39
+	const EORANGE  ; 3a
+	const KURUMI   ; 3b
+	const KURUMI    ; 3c
+	const EKURUMI  ; 3d
+	const CELLY  ; 3e
+	const ELLY       ; 3f
+	const EELLY    ; 40
+	const CYUKA   ; 41
+	const YUKA     ; 42
+	const EYUKA    ; 43
+	const CMUGETSU    ; 44
+	const MUGETSU ; 45
+	const EMUGETSU ; 46
+	const CGENGETSU ; 47
+	const GENGETSU  ; 48
+	const EGENGETSU ; 49
 	const GEODUDE    ; 4a
 	const GRAVELER   ; 4b
 	const GOLEM      ; 4c
@@ -476,8 +476,8 @@ DEF GALARIAN_FORM EQU 3
 
 ; hisuian forms
 DEF HISUIAN_FORM EQU 4
-	const_skip ; 17e growlithe
-	const_skip ; 17f arcanine
+	const_skip ; 17e eorange
+	const_skip ; 17f ckurumi
 	const_skip ; 180 voltorb
 	const_skip ; 181 electrode
 	const_skip ; 182 ereisen

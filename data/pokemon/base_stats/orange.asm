@@ -1,19 +1,15 @@
-	db  65, 105,  60,  95,  60,  70 ; 455 BST
+	db  36, 100,  60,  67,  41,  44 ; 455 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db FIGHTING, FIGHTING ; type
-	db 75 ; catch rate
-	db 149 ; base exp
+	db 235 ; catch rate
+	db 75 ; base exp
 	db NO_ITEM, KEE_BERRY ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
-	abilities_for PRIMEAPE, VITAL_SPIRIT, ANGER_POINT, DEFIANT
-else
-	abilities_for PRIMEAPE, GORILLA_TACTICS, ANGER_POINT, DEFIANT
-endc
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for ORANGE, HUGE_POWER, HUGE_POWER, IMMUNITY
+	db GROWTH_FAST ; growth rate
+	dn EGG_GROUND, EGG_HUMANSHAPE ; egg groups
 
 	ev_yield 2 Atk
 

@@ -1040,11 +1040,11 @@ Cry_EKana:
 	channel 6, Cry_EKana_Ch6
 	channel 8, Cry_EKana_Ch8
 
-Cry_Growlithe:
+Cry_EOrange:
 	channel_count 3
-	channel 5, Cry_Growlithe_Ch5
-	channel 6, Cry_Growlithe_Ch6
-	channel 8, Cry_Growlithe_Ch8
+	channel 5, Cry_EOrange_Ch5
+	channel 6, Cry_EOrange_Ch6
+	channel 8, Cry_EOrange_Ch8
 
 Cry_Krabby:
 	channel_count 3
@@ -1076,11 +1076,11 @@ Cry_EMeira:
 	channel 6, Cry_EMeira_Ch6
 	channel 8, Cry_EMeira_Ch8
 
-Cry_Weepinbell:
+Cry_EMugetsu:
 	channel_count 3
-	channel 5, Cry_Weepinbell_Ch5
-	channel 6, Cry_Weepinbell_Ch6
-	channel 8, Cry_Weepinbell_Ch8
+	channel 5, Cry_EMugetsu_Ch5
+	channel 6, Cry_EMugetsu_Ch6
+	channel 8, Cry_EMugetsu_Ch8
 
 Cry_CSariel_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
@@ -1205,7 +1205,7 @@ Cry_Rhydon_Ch8:
 	noise_note 8, 13, 1, 44
 	sound_ret
 
-Cry_Weepinbell_Ch5:
+Cry_EMugetsu_Ch5:
 	duty_cycle_pattern 2, 2, 1, 1
 	square_note 6, 15, 4, 1856
 	square_note 15, 14, 3, 1840
@@ -1214,7 +1214,7 @@ Cry_Weepinbell_Ch5:
 	square_note 8, 13, 1, 1872
 	sound_ret
 
-Cry_Weepinbell_Ch6:
+Cry_EMugetsu_Ch6:
 	duty_cycle_pattern 1, 3, 1, 3
 	square_note 6, 12, 3, 1810
 	square_note 15, 11, 3, 1796
@@ -1223,7 +1223,7 @@ Cry_Weepinbell_Ch6:
 	square_note 8, 11, 1, 1842
 	sound_ret
 
-Cry_Weepinbell_Ch8:
+Cry_EMugetsu_Ch8:
 	noise_note 8, 13, 6, 44
 	noise_note 12, 12, 6, 60
 	noise_note 10, 11, 6, 44
@@ -1986,7 +1986,7 @@ Cry_Shellder_Ch8:
 	noise_note 8, 12, 1, 44
 	sound_ret
 
-Cry_Growlithe_Ch5:
+Cry_EOrange_Ch5:
 	duty_cycle_pattern 2, 2, 1, 1
 	square_note 3, 15, 4, 1601
 	square_note 13, 13, 6, 1825
@@ -1994,7 +1994,7 @@ Cry_Growlithe_Ch5:
 	square_note 8, 12, 1, 1818
 	sound_ret
 
-Cry_Growlithe_Ch6:
+Cry_EOrange_Ch6:
 	duty_cycle_pattern 3, 0, 3, 0
 	square_note 4, 15, 4, 1408
 	square_note 14, 14, 6, 1760
@@ -2002,7 +2002,7 @@ Cry_Growlithe_Ch6:
 	square_note 8, 13, 1, 1756
 	sound_ret
 
-Cry_Growlithe_Ch8:
+Cry_EOrange_Ch8:
 	noise_note 5, 12, 4, 70
 	noise_note 13, 10, 5, 68
 	noise_note 8, 12, 4, 69

@@ -55,24 +55,24 @@ FootprintPointers::
 	dw CYumemiFootprint
 	dw YumemiFootprint
 	dw EYumemiFootprint
-	dw MankeyFootprint
-	dw PrimeapeFootprint
-	dw GrowlitheFootprint
-	dw ArcanineFootprint
-	dw PoliwagFootprint
-	dw PoliwhirlFootprint
-	dw PoliwrathFootprint
-	dw AbraFootprint
-	dw KadabraFootprint
-	dw AlakazamFootprint
-	dw MachopFootprint
-	dw MachokeFootprint
-	dw MachampFootprint
-	dw BellsproutFootprint
-	dw WeepinbellFootprint
-	dw VictreebelFootprint
-	dw TentacoolFootprint
-	dw TentacruelFootprint
+	dw COrangeFootprint
+	dw OrangeFootprint
+	dw EOrangeFootprint
+	dw CKurumiFootprint
+	dw KurumiFootprint
+	dw EKurumiFootprint
+	dw CEllyFootprint
+	dw EllyFootprint
+	dw EEllyFootprint
+	dw CYukaFootprint
+	dw YukaFootprint
+	dw EYukaFootprint
+	dw CMugetsuFootprint
+	dw MugetsuFootprint
+	dw EMugetsuFootprint
+	dw CGengetsuFootprint
+	dw GengetsuFootprint
+	dw EGengetsuFootprint
 	dw GeodudeFootprint
 	dw GravelerFootprint
 	dw GolemFootprint
@@ -332,8 +332,8 @@ FootprintPointers::
 	dw SlowkingFootprint
 	dw CorsolaFootprint
 
-	dw GrowlitheFootprint
-	dw ArcanineFootprint
+	dw EOrangeFootprint
+	dw CKurumiFootprint
 	dw VoltorbFootprint
 	dw ElectrodeFootprint
 	dw EReisenFootprint

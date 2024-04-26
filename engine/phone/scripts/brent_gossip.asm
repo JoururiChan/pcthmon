@@ -4,7 +4,7 @@ BrentBillTriviaScript:
 	ifequalfwd 1, .Grandpa
 	ifequalfwd 2, .Goldenrod
 	ifequalfwd 3, .Route25
-	ifequalfwd 4, .Abra
+	ifequalfwd 4, .Elly
 	ifequalfwd 5, .Sister
 	ifequalfwd 6, .Milk
 	ifequalfwd 7, .Battling
@@ -31,8 +31,8 @@ BrentBillTriviaScript:
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 
-.Abra:
-	farwritetext BrentAbraGossipText
+.Elly:
+	farwritetext BrentEllyGossipText
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 

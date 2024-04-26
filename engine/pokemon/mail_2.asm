@@ -210,7 +210,7 @@ LoadLovelyMailGFX:
 	ld de, LovelyMailBorderGFX
 	ld c, 5 * 8
 	call LoadMailGFX_Color2
-	ld de, MailPoliwagGFX
+	ld de, MailKurumiGFX
 	ld c, 6 * 8
 	call LoadMailGFX_Color3
 	ld de, LovelyMailUnderlineGFX

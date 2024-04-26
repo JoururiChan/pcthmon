@@ -1304,90 +1304,89 @@ EYumemiEvosAttacks:
 	db 52, EXTRASENSORY
 	db -1 ; no more level-up moves
 
-MankeyEvosAttacks:
-	evo_data EVOLVE_LEVEL, 28, PRIMEAPE
+COrangeEvosAttacks:
+	evo_data EVOLVE_LEVEL, 18, ORANGE
 	db -1 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LOW_KICK
-	db 1, LEER
-	db 1, FOCUS_ENERGY
-	db 5, FURY_STRIKES ; Fury Swipes → similar move
-	db 8, KARATE_CHOP
-	db 12, PURSUIT
-	db 15, SEISMIC_TOSS
-	db 19, SWAGGER
-	db 22, CROSS_CHOP
-	db 26, REVERSAL ; Assurance → egg move
-	db 29, FEINT_ATTACK ; Punishment → new move
-	db 33, THRASH
-	db 36, SCULPTURE
-	db 40, SCREECH
-	db 43, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
-	db 47, OUTRAGE
+	db 1, KARATE_CHOP
+	db 4, LEER ; Fury Swipes → similar move
+	db 8, TACKLE
+	db 12, BULK_UP
+	db 15, DIZZY_PUNCH
+	db 19, ROCK_THROW
+	db 23, KNOCK_OFF
+	db 27, BATON_PASS ; Assurance → egg move
+	db 31, PURSUIT ; Punishment → new move
+	db 35, TENSION_KICK
+	db 39, STEEL_FIST
+	db 43, DIVE_KICK
+	db 47, CROSS_CHOP ; Stomping Tantrum → HGSS tutor move
+	db 51, ENDURE
+	db 54, BULLDOZE
 	db -1 ; no more level-up moves
 
-PrimeapeEvosAttacks:
-	evo_data EVOLVE_MOVE, OUTRAGE, ANNIHILAPE
+OrangeEvosAttacks:
+	evo_data EVOLVE_LEVEL, 34, EORANGE
 	db -1 ; no more evolutions
-	db 1, OUTRAGE
-	db 1, RAGE
-	db 1, SCRATCH
-	db 1, LOW_KICK
-	db 1, LEER
-	db 1, FOCUS_ENERGY
-	db 5, FURY_STRIKES ; Fury Swipes → similar move
-	db 8, KARATE_CHOP
-	db 12, PURSUIT
-	db 15, SEISMIC_TOSS
-	db 19, SWAGGER
-	db 22, CROSS_CHOP
-	db 26, REVERSAL ; Assurance → egg move
-	db 30, FEINT_ATTACK ; Punishment → new move
-	db 35, THRASH
-	db 39, SCULPTURE
-	db 44, SCREECH
-	db 48, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
-	db 53, OUTRAGE
+	db 1, KARATE_CHOP
+	db 4, LEER ; Fury Swipes → similar move
+	db 8, TACKLE
+	db 12, BULK_UP
+	db 15, DIZZY_PUNCH
+	db 19, ROCK_THROW
+	db 23, KNOCK_OFF
+	db 27, BATON_PASS ; Assurance → egg move
+	db 31, PURSUIT ; Punishment → new move
+	db 35, TENSION_KICK
+	db 39, STEEL_FIST
+	db 43, DIVE_KICK
+	db 47, CROSS_CHOP ; Stomping Tantrum → HGSS tutor move
+	db 51, ENDURE
+	db 54, BULLDOZE
 	db -1 ; no more level-up moves
 
-GrowlithePlainEvosAttacks:
-	evo_data EVOLVE_ITEM, FIRE_STONE, ARCANINE
+EOrangePlainEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, GROWL
-	db 1, BITE
-	db 1, ROAR
-	db 6, EMBER
-	db 8, LEER
-	db 10, SAFEGUARD ; Odor Sleuth → egg move
-	db 12, BATON_PASS ; Helping Hand → new move
-	db 17, FIRE_SPIN ; Flame Wheel → egg move
-	db 19, REVERSAL
-	db 21, DOUBLE_KICK ; Fire Fang → egg move
-	db 23, TAKE_DOWN
-	db 28, FLAME_CHARGE ; Flame Burst → TM move
-	db 30, SAKUYA_WORLD
-	db 32, THRASH ; Retaliate → egg move
-	db 34, METEOR_FALL
-	db 39, CRUNCH
-	db 41, SUNNY_DAY ; Heat Wave → TM move
-	db 43, OUTRAGE
-	db 45, PLAY_ROUGH ; Lavatein → LGPE move
-	db 49, LAVATEIN
+	db 1, KARATE_CHOP
+	db 4, LEER ; Fury Swipes → similar move
+	db 8, TACKLE
+	db 12, BULK_UP
+	db 15, DIZZY_PUNCH
+	db 19, ROCK_THROW
+	db 23, KNOCK_OFF
+	db 27, BATON_PASS ; Assurance → egg move
+	db 31, PURSUIT ; Punishment → new move
+	db 35, TENSION_KICK
+	db 39, STEEL_FIST
+	db 43, DIVE_KICK
+	db 47, CROSS_CHOP ; Stomping Tantrum → HGSS tutor move
+	db 51, ENDURE
+	db 54, BULLDOZE
 	db -1 ; no more level-up moves
 
-ArcaninePlainEvosAttacks:
+CKurumiPlainEvosAttacks:
+	evo_data EVOLVE_LEVEL, 20, KURUMI
 	db -1 ; no more evolutions
-	db 1, DRAGON_DANCE ; new move
-	db 1, GROWL
-	db 1, BITE
-	db 1, ROAR
-	db 1, FLAME_CHARGE
-	db 1, TAKE_DOWN
-	db 1, EXTREMESPEED ; evolution move
+	db 1, GUST
+	db 1, DEFENSE_CURL
+	db 5, GROWL
+	db 9, SONIC_BOOM
+	db 13, SCREECH
+	db 16, ROAR
+	db 20, BITE
+	db 24, WING_ATTACK
+	db 29, LEECH_LIFE
+	db 33, BLACK_RIPPLE
+	db 37, HYPNOSIS
+	db 37, DREAM_EATER
+	db 41, STEEL_WING
+	db 44, REFLECT
+	db 47, FRESH_SNACK
+	db 51, POWER_BITE
+	db 54, NASTY_PLOT
 	db -1 ; no more level-up moves
 
-GrowlitheHisuianEvosAttacks:
-	evo_data EVOLVE_ITEM, FIRE_STONE, ARCANINE, HISUIAN_FORM
+EOrangeHisuianEvosAttacks:
+	evo_data EVOLVE_ITEM, FIRE_STONE, KURUMI, HISUIAN_FORM
 	db -1 ; no more evolutions
 	db 1, GROWL
 	db 1, BITE
@@ -1411,7 +1410,7 @@ GrowlitheHisuianEvosAttacks:
 	db 49, LAVATEIN
 	db -1 ; no more level-up moves
 
-ArcanineHisuianEvosAttacks:
+CKurumiHisuianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, BULK_UP ; new move
 	db 1, GROWL
@@ -1422,257 +1421,302 @@ ArcanineHisuianEvosAttacks:
 	db 1, EXTREMESPEED ; evolution move
 	db -1 ; no more level-up moves
 
-PoliwagEvosAttacks:
-	evo_data EVOLVE_LEVEL, 25, POLIWHIRL
+KurumiEvosAttacks:
+	evo_data EVOLVE_LEVEL, 36, EKURUMI
 	db -1 ; no more evolutions
-	db 1, SWEET_KISS ; event move
-	db 1, WATER_GUN ; Water Sport → Water Gun
-	db 5, HYPNOSIS ; Water Gun → Hypnosis
-	db 8, DOUBLE_SLAP ; Hypnosis → Double Slap
-	db 11, AQUA_JET ; Bubble → new move
-	db 15, MUD_SLAP ; Double Slap → TM move
-	db 18, RAIN_DANCE
-	db 21, BODY_SLAM
-	db 25, BUBBLE_BEAM
-	db 28, LOW_KICK ; Mud Shot → LGPE move
-	db 31, BELLY_DRUM
-	db 35, GROWTH ; Wake-Up Slap → event move
-	db 38, HYDRO_PUMP
-	db 41, EARTH_POWER ; Mud Bomb → similar move
+	db 1, GUST
+	db 1, DEFENSE_CURL
+	db 5, GROWL
+	db 9, SONIC_BOOM
+	db 13, SCREECH
+	db 16, ROAR
+	db 20, BITE
+	db 24, WING_ATTACK
+	db 29, LEECH_LIFE
+	db 33, BLACK_RIPPLE
+	db 37, HYPNOSIS
+	db 37, DREAM_EATER
+	db 41, STEEL_WING
+	db 44, REFLECT
+	db 47, FRESH_SNACK
+	db 51, POWER_BITE
+	db 54, NASTY_PLOT
 	db -1 ; no more level-up moves
 
-PoliwhirlEvosAttacks:
-	evo_data EVOLVE_ITEM, WATER_STONE, POLIWRATH
-	evo_data EVOLVE_HOLDING, KINGS_ROCK, TR_ANYTIME, POLITOED
+EKurumiEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SWEET_KISS ; event move
-	db 1, WATER_GUN ; Water Sport → Water Gun
-	db 5, HYPNOSIS ; Water Gun → Hypnosis
-	db 8, DOUBLE_SLAP ; Hypnosis → Double Slap
-	db 11, AQUA_JET ; Bubble → new move
-	db 15, MUD_SLAP ; Double Slap → TM move
-	db 18, RAIN_DANCE
-	db 21, BODY_SLAM
-	db 27, BUBBLE_BEAM
-	db 28, LOW_KICK ; Mud Shot → LGPE move
-	db 37, BELLY_DRUM
-	db 43, GROWTH ; Wake-Up Slap → event move
-	db 48, HYDRO_PUMP
-	db 53, EARTH_POWER ; Mud Bomb → similar move
+	db 1, GUST
+	db 1, DEFENSE_CURL
+	db 5, GROWL
+	db 9, SONIC_BOOM
+	db 13, SCREECH
+	db 16, ROAR
+	db 20, BITE
+	db 24, WING_ATTACK
+	db 29, LEECH_LIFE
+	db 33, BLACK_RIPPLE
+	db 37, HYPNOSIS
+	db 37, DREAM_EATER
+	db 41, STEEL_WING
+	db 44, REFLECT
+	db 47, FRESH_SNACK
+	db 51, POWER_BITE
+	db 54, NASTY_PLOT
 	db -1 ; no more level-up moves
 
-PoliwrathEvosAttacks:
+CEllyEvosAttacks:
+	evo_data EVOLVE_LEVEL, 22, ELLY
 	db -1 ; no more evolutions
-	db 1, BUBBLE_BEAM
-	db 1, HYPNOSIS
-	db 1, DOUBLE_SLAP
-	db 1, SCULPTURE ; evolution move
-	db 32, DYNAMICPUNCH
-	db 43, EARTH_POWER ; Mind Reader → Poliwhirl move
-	db 53, CROSS_CHOP ; Circle Throw → similar move
+	db 1, SCRATCH
+	db 1, HONE_TOOLS
+	db 6, MACH_PUNCH
+	db 10, FOCUS_ENERGY
+	db 14, BLADE_FLASH
+	db 18, KNOCK_OFF
+	db 21, SPIKES
+	db 25, RAPID_SPIN
+	db 29, AERIAL_ACE
+	db 33, REFLECT
+	db 37, TRICK_ROOM
+	db 40, PETAL_SLASH
+	db 44, SWORDS_DANCE
+	db 48, CROSS_CHOP
+	db 52, EXTREMESPEED
+	db 56, MOONBLAST
 	db -1 ; no more level-up moves
 
-AbraEvosAttacks:
-	evo_data EVOLVE_LEVEL, 16, KADABRA
+EllyEvosAttacks:
+	evo_data EVOLVE_LEVEL, 38, EELLY
 	db -1 ; no more evolutions
-	db 1, TELEPORT
+	db 1, SCRATCH
+	db 1, HONE_TOOLS
+	db 6, MACH_PUNCH
+	db 10, FOCUS_ENERGY
+	db 14, BLADE_FLASH
+	db 18, KNOCK_OFF
+	db 21, SPIKES
+	db 25, RAPID_SPIN
+	db 29, AERIAL_ACE
+	db 33, REFLECT
+	db 37, TRICK_ROOM
+	db 40, PETAL_SLASH
+	db 44, SWORDS_DANCE
+	db 48, CROSS_CHOP
+	db 52, EXTREMESPEED
+	db 56, MOONBLAST
 	db -1 ; no more level-up moves
 
-KadabraEvosAttacks:
-	evo_data EVOLVE_ITEM, LINKING_CORD, ALAKAZAM
+EEllyEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, TELEPORT
-	db 1, FORESIGHT ; evolution move
-	db 16, PSYSHOT
-	db 18, DISABLE
-	db 21, PSYBEAM
-	db 23, NIGHT_SHADE ; Miracle Eye → LGPE move
-	db 26, REFLECT
-	db 28, LIGHT_SCREEN ; Psycho Cut → egg move
-	db 31, RECOVER
-	db 33, BARRIER ; Telekinesis → egg move
-	db 36, BATON_PASS ; Ally Switch → new move
-	db 38, PSYCHIC_M
-	db 41, CALM_MIND
-	db 43, CONFUSE_RAY ; Role Play → new move
-	db 46, FUTURE_SIGHT
+	db 1, SCRATCH
+	db 1, HONE_TOOLS
+	db 6, MACH_PUNCH
+	db 10, FOCUS_ENERGY
+	db 14, BLADE_FLASH
+	db 18, KNOCK_OFF
+	db 21, SPIKES
+	db 25, RAPID_SPIN
+	db 29, AERIAL_ACE
+	db 33, REFLECT
+	db 37, TRICK_ROOM
+	db 40, PETAL_SLASH
+	db 44, SWORDS_DANCE
+	db 48, CROSS_CHOP
+	db 52, EXTREMESPEED
+	db 56, MOONBLAST
 	db -1 ; no more level-up moves
 
-AlakazamEvosAttacks:
-	db -1 ; no more evolutions
-	db 1, FIVEELEMENTS ; RBY TM move
-	db 1, TELEPORT
-	db 1, FORESIGHT ; evolution move
-	db 16, PSYSHOT
-	db 18, DISABLE
-	db 21, PSYBEAM
-	db 23, NIGHT_SHADE ; Miracle Eye → LGPE move
-	db 26, REFLECT
-	db 28, LIGHT_SCREEN ; Psycho Cut → egg move
-	db 31, RECOVER
-	db 33, BARRIER ; Telekinesis → egg move
-	db 36, BATON_PASS ; Ally Switch → new move
-	db 38, PSYCHIC_M
-	db 41, CALM_MIND
-	db 43, CONFUSE_RAY ; Role Play → new move
-	db 46, FUTURE_SIGHT
-	db -1 ; no more level-up moves
-
-MachopEvosAttacks:
-	evo_data EVOLVE_LEVEL, 28, MACHOKE
-	db -1 ; no more evolutions
-	db 1, LOW_KICK
-	db 1, LEER
-	db 3, FOCUS_ENERGY
-	db 7, KARATE_CHOP
-	db 9, FORESIGHT
-	db 13, RAGE ; Low Sweep → RBY TM move
-	db 15, SEISMIC_TOSS
-	db 19, REVERSAL ; Revenge → Sw/Sh move
-	db 21, KNOCK_OFF
-	db 25, MACH_PUNCH ; Vital Throw → egg move
-	db 27, STEEL_FIST ; Wake-Up Slap → egg move
-	db 31, THRASH ; Dual Chop → event move
-	db 33, SCULPTURE ; Submission → new move
-	db 37, BULK_UP
-	db 39, CROSS_CHOP
-	db 43, SCARY_FACE
-	db 45, DYNAMICPUNCH
-	db -1 ; no more level-up moves
-
-MachokeEvosAttacks:
-	evo_data EVOLVE_ITEM, LINKING_CORD, MACHAMP
-	db -1 ; no more evolutions
-	db 1, LOW_KICK
-	db 1, LEER
-	db 3, FOCUS_ENERGY
-	db 7, KARATE_CHOP
-	db 9, FORESIGHT
-	db 13, RAGE ; Low Sweep → RBY TM move
-	db 15, SEISMIC_TOSS
-	db 19, REVERSAL ; Revenge → Sw/Sh move
-	db 21, KNOCK_OFF
-	db 25, MACH_PUNCH ; Vital Throw → egg move
-	db 27, STEEL_FIST ; Wake-Up Slap → egg move
-	db 33, THRASH ; Dual Chop → event move
-	db 37, SCULPTURE ; Submission → new move
-	db 43, BULK_UP
-	db 47, CROSS_CHOP
-	db 53, SCARY_FACE
-	db 57, DYNAMICPUNCH
-	db -1 ; no more level-up moves
-
-MachampEvosAttacks:
-	db -1 ; no more evolutions
-	db 1, STRENGTH ; evolution move
-	db 1, ROCK_BLAST ; Sw/Sh move
-	db 1, LOW_KICK
-	db 1, LEER
-	db 3, FOCUS_ENERGY
-	db 7, KARATE_CHOP
-	db 9, FORESIGHT
-	db 13, RAGE ; Low Sweep → RBY TM move
-	db 15, SEISMIC_TOSS
-	db 19, REVERSAL ; Revenge → Sw/Sh TM move
-	db 21, KNOCK_OFF
-	db 25, MACH_PUNCH ; Vital Throw → egg move
-	db 27, STEEL_FIST ; Wake-Up Slap → egg move
-	db 33, THRASH ; Dual Chop → event move
-	db 37, SCULPTURE ; Submission → new move
-	db 43, BULK_UP
-	db 47, CROSS_CHOP
-	db 53, SCARY_FACE
-	db 57, DYNAMICPUNCH
-	db -1 ; no more level-up moves
-
-BellsproutEvosAttacks:
-	evo_data EVOLVE_LEVEL, 21, WEEPINBELL
+CYukaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, VINE_WHIP
-	db 7, GROWTH
-	db 11, WRAP
+	db 1, LEER
+	db 5, SPORE
+	db 9, PURSUIT
+	db 14, LEECH_SEED
+	db 17, RAZOR_LEAF
+	db 21, SLEEP_POWDER
+	db 25, ENERGY_LIGHT
+	db 29, NASTY_PLOT
+	db 33, DARK_PULSE
+	db 36, SEED_BOMB
+	db 39, GROWTH
+	db 43, FLOWER_SHOOT
+	db 47, EARTH_POWER
+	db 51, SWAGGER
+	db 54, PLAY_ROUGH
+	db 58, MASTER_SPARK
+	db -1 ; no more level-up moves
+
+YukaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 28, EYUKA
+	db -1 ; no more evolutions
+	db 1, VINE_WHIP
+	db 1, LEER
+	db 5, SPORE
+	db 9, PURSUIT
+	db 14, LEECH_SEED
+	db 17, RAZOR_LEAF
+	db 21, SLEEP_POWDER
+	db 25, ENERGY_LIGHT
+	db 29, NASTY_PLOT
+	db 33, DARK_PULSE
+	db 36, SEED_BOMB
+	db 39, GROWTH
+	db 43, FLOWER_SHOOT
+	db 47, EARTH_POWER
+	db 51, SWAGGER
+	db 54, PLAY_ROUGH
+	db 58, MASTER_SPARK
+	db -1 ; no more level-up moves
+
+EYukaEvosAttacks:
+	evo_data EVOLVE_ITEM, LINKING_CORD, CMUGETSU
+	db -1 ; no more evolutions
+	db 1, VINE_WHIP
+	db 1, LEER
+	db 5, SPORE
+	db 9, PURSUIT
+	db 14, LEECH_SEED
+	db 17, RAZOR_LEAF
+	db 21, SLEEP_POWDER
+	db 25, ENERGY_LIGHT
+	db 29, NASTY_PLOT
+	db 33, DARK_PULSE
+	db 36, SEED_BOMB
+	db 39, GROWTH
+	db 43, FLOWER_SHOOT
+	db 47, EARTH_POWER
+	db 51, SWAGGER
+	db 54, PLAY_ROUGH
+	db 58, MASTER_SPARK
+	db -1 ; no more level-up moves
+
+CMugetsuEvosAttacks:
+	evo_data EVOLVE_LEVEL, 30, MUGETSU
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db 1, SWEET_KISS
+	db 5, DOUBLE_TEAM
+	db 9, HYPNOSIS
+	db 13, DOUBLE_SLAP
+	db 17, HEADBUTT
+	db 21, DRAIN_KISS
+	db 24, SING
+	db 28, LIGHT_SCREEN
+	db 32, DREAM_EATER
+	db 36, TAKE_DOWN
+	db 39, LEECH_LIFE
+	db 43, HAZE
+	db 47, EXTRASENSORY
+	db 52, REST
+	db 56, LIFE_COUNTER
+	db -1 ; no more level-up moves
+
+MugetsuEvosAttacks:
+	evo_data EVOLVE_LEVEL, 45, EMUGETSU
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db 1, SWEET_KISS
+	db 5, DOUBLE_TEAM
+	db 9, HYPNOSIS
+	db 13, DOUBLE_SLAP
+	db 17, HEADBUTT
+	db 21, DRAIN_KISS
+	db 24, SING
+	db 28, LIGHT_SCREEN
+	db 32, DREAM_EATER
+	db 36, TAKE_DOWN
+	db 39, LEECH_LIFE
+	db 43, HAZE
+	db 47, EXTRASENSORY
+	db 52, REST
+	db 56, LIFE_COUNTER
+	db -1 ; no more level-up moves
+
+EMugetsuEvosAttacks:
+	evo_data EVOLVE_LEVEL, 21, EMUGETSU
+	db -1 ; no more evolutions
+	db 1, TACKLE
+	db 1, SWEET_KISS
+	db 5, DOUBLE_TEAM
+	db 9, HYPNOSIS
+	db 13, DOUBLE_SLAP
+	db 17, HEADBUTT
+	db 21, DRAIN_KISS
+	db 24, SING
+	db 28, LIGHT_SCREEN
+	db 32, DREAM_EATER
+	db 36, TAKE_DOWN
+	db 39, LEECH_LIFE
+	db 43, HAZE
+	db 47, EXTRASENSORY
+	db 52, REST
+	db 56, LIFE_COUNTER
+	db -1 ; no more level-up moves
+
+CGengetsuEvosAttacks:
+	evo_data EVOLVE_LEVEL, 30, GENGETSU
+	db -1 ; no more evolutions
+	db 1, GUST
+	db 1, TELEPORT
+	db 6, DOUBLE_SLAP
+	db 10, SONIC_BOOM
 	db 13, SLEEP_POWDER
-	db 15, TOXIC_GAS
-	db 17, STUN_SPORE
-	db 23, ACID
-	db 27, KNOCK_OFF
-	db 29, SWEET_KISS ; Sweet Scent → event move
-	db 35, HEALINGLIGHT ; Gastro Acid → new move
-	db 39, RAZOR_LEAF
-	db 41, POISON_JAB
-	db 47, SUCKER_PUNCH ; Slam → HGSS tutor move
-	db 50, SWORDS_DANCE ; Wring Out → egg move
+	db 17, SWEET_KISS
+	db 21, WING_ATTACK
+	db 25, BLACK_RIPPLE
+	db 29, HEALINGLIGHT
+	db 34, DREAM_EATER
+	db 39, WHITE_BIRD
+	db 42, NIGHT_SLASH
+	db 46, CHARM
+	db 46, ATTRACT
+	db 50, SAFEGUARD
+	db 53, LIFE_BALANCE
+	db 57, AEROBLAST
 	db -1 ; no more level-up moves
 
-WeepinbellEvosAttacks:
-	evo_data EVOLVE_ITEM, LEAF_STONE, VICTREEBEL
+GengetsuEvosAttacks:
+	evo_data EVOLVE_LEVEL, 45, EGENGETSU
 	db -1 ; no more evolutions
-	db 1, VINE_WHIP
-	db 7, GROWTH
-	db 11, WRAP
+	db 1, GUST
+	db 1, TELEPORT
+	db 6, DOUBLE_SLAP
+	db 10, SONIC_BOOM
 	db 13, SLEEP_POWDER
-	db 15, TOXIC_GAS
-	db 17, STUN_SPORE
-	db 24, ACID
-	db 29, KNOCK_OFF
-	db 32, SWEET_KISS ; Sweet Scent → event move
-	db 39, HEALINGLIGHT ; Gastro Acid → new move
-	db 44, RAZOR_LEAF
-	db 47, POISON_JAB
-	db 54, SUCKER_PUNCH ; Slam → HGSS tutor move
-	db 58, SWORDS_DANCE ; Wring Out → egg move
+	db 17, SWEET_KISS
+	db 21, WING_ATTACK
+	db 25, BLACK_RIPPLE
+	db 29, HEALINGLIGHT
+	db 34, DREAM_EATER
+	db 39, WHITE_BIRD
+	db 42, NIGHT_SLASH
+	db 46, CHARM
+	db 46, ATTRACT
+	db 50, SAFEGUARD
+	db 53, LIFE_BALANCE
+	db 57, AEROBLAST
 	db -1 ; no more level-up moves
 
-VictreebelEvosAttacks:
+EGengetsuEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, VINE_WHIP
-	db 1, SLEEP_POWDER
-	db 1, HEALINGLIGHT ; Sweet Scent → new move
-	db 1, RAZOR_LEAF
-	db 32, SUCKER_PUNCH ; Leaf Storm → prior move
-	db 44, SWORDS_DANCE ; Leaf Blade → prior move
-	db -1 ; no more level-up moves
-
-TentacoolEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, TENTACRUEL
-	db -1 ; no more evolutions
-	db 1, SEAL_NEEDLE
-	db 4, SUPERSONIC
-	db 7, WATER_GUN ; Constrict → new move
-	db 10, ACID
-	db 13, TOXIC_SPIKES
-	db 16, WATER_PULSE
-	db 19, WRAP
-	db 22, CONFUSE_RAY ; Acid Spray → event move
-	db 25, BUBBLE_BEAM
-	db 28, BARRIER
-	db 31, POISON_JAB
-	db 34, VENOSHOCK ; Brine → tutor move
-	db 37, SCREECH
-	db 40, HEX
-	db 43, SLUDGE_BOMB ; Sludge Wave → TM move
-	db 46, HYDRO_PUMP
-	db -1 ; no more level-up moves
-
-TentacruelEvosAttacks:
-	db -1 ; no more evolutions
-	db 1, POWER_WHIP ; evolution move
-	db 1, SEAL_NEEDLE
-	db 4, SUPERSONIC
-	db 7, WATER_GUN ; Constrict → new move
-	db 10, ACID
-	db 13, TOXIC_SPIKES
-	db 16, WATER_PULSE
-	db 19, WRAP
-	db 22, CONFUSE_RAY ; Acid Spray → event move
-	db 25, BUBBLE_BEAM
-	db 28, BARRIER
-	db 32, POISON_JAB
-	db 36, VENOSHOCK ; Brine → tutor move
-	db 40, SCREECH
-	db 44, HEX
-	db 48, SLUDGE_BOMB ; Sludge Wave → TM move
-	db 52, HYDRO_PUMP
+	db 1, GUST
+	db 1, TELEPORT
+	db 6, DOUBLE_SLAP
+	db 10, SONIC_BOOM
+	db 13, SLEEP_POWDER
+	db 17, SWEET_KISS
+	db 21, WING_ATTACK
+	db 25, BLACK_RIPPLE
+	db 29, HEALINGLIGHT
+	db 34, DREAM_EATER
+	db 39, WHITE_BIRD
+	db 42, NIGHT_SLASH
+	db 46, CHARM
+	db 46, ATTRACT
+	db 50, SAFEGUARD
+	db 53, LIFE_BALANCE
+	db 57, AEROBLAST
 	db -1 ; no more level-up moves
 
 GeodudePlainEvosAttacks:

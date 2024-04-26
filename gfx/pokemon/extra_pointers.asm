@@ -55,24 +55,24 @@ AnimationExtraPointers:
 	dw CYumemiPlainAnimationExtra
 	dw YumemiAnimationExtra
 	dw EYumemiAnimationExtra
-	dw MankeyAnimationExtra
-	dw PrimeapeAnimationExtra
-	dw GrowlithePlainAnimationExtra
-	dw ArcaninePlainAnimationExtra
-	dw PoliwagAnimationExtra
-	dw PoliwhirlAnimationExtra
-	dw PoliwrathAnimationExtra
-	dw AbraAnimationExtra
-	dw KadabraAnimationExtra
-	dw AlakazamAnimationExtra
-	dw MachopAnimationExtra
-	dw MachokeAnimationExtra
-	dw MachampAnimationExtra
-	dw BellsproutAnimationExtra
-	dw WeepinbellAnimationExtra
-	dw VictreebelAnimationExtra
-	dw TentacoolAnimationExtra
-	dw TentacruelAnimationExtra
+	dw COrangeAnimationExtra
+	dw OrangeAnimationExtra
+	dw EOrangePlainAnimationExtra
+	dw CKurumiPlainAnimationExtra
+	dw KurumiAnimationExtra
+	dw EKurumiAnimationExtra
+	dw CEllyAnimationExtra
+	dw EllyAnimationExtra
+	dw EEllyAnimationExtra
+	dw CYukaAnimationExtra
+	dw YukaAnimationExtra
+	dw EYukaAnimationExtra
+	dw CMugetsuAnimationExtra
+	dw MugetsuAnimationExtra
+	dw EMugetsuAnimationExtra
+	dw CGengetsuAnimationExtra
+	dw GengetsuAnimationExtra
+	dw EGengetsuAnimationExtra
 	dw GeodudePlainAnimationExtra
 	dw GravelerPlainAnimationExtra
 	dw GolemPlainAnimationExtra
@@ -395,8 +395,8 @@ AnimationExtraPointers:
 	dw SlowkingGalarianAnimationExtra
 	dw CorsolaGalarianAnimationExtra
 
-	dw GrowlitheHisuianAnimationExtra
-	dw ArcanineHisuianAnimationExtra
+	dw EOrangeHisuianAnimationExtra
+	dw CKurumiHisuianAnimationExtra
 	dw VoltorbHisuianAnimationExtra
 	dw ElectrodeHisuianAnimationExtra
 	dw EReisenHisuianAnimationExtra

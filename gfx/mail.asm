@@ -40,8 +40,8 @@ INCBIN "gfx/mail/natu.1bpp"
 MailDratiniGFX:
 INCBIN "gfx/mail/dratini.1bpp"
 
-MailPoliwagGFX:
-INCBIN "gfx/mail/poliwag.1bpp"
+MailKurumiGFX:
+INCBIN "gfx/mail/kurumi.1bpp"
 
 MailLaprasGFX:
 INCBIN "gfx/mail/lapras.1bpp"

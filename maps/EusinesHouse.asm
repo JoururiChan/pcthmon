@@ -94,7 +94,7 @@ EusinesHouseGrampsScript:
 	iffalse_jumptextfaceplayer EusinesHouseGrampsGrandsonHomeText
 	checkevent EVENT_FOUGHT_SUICUNE
 	iffalse_jumptextfaceplayer EusinesHouseGrampsEusineSearchingForSuicuneText
-	checkevent EVENT_DECO_ABRA_DOLL
+	checkevent EVENT_DECO_ELLY_DOLL
 	iftrue_jumptextfaceplayer EusinesHouseGrampsEusineTravelingWorldText
 	checkevent EVENT_FOUGHT_HO_OH
 	iftruefwd .AfterHoOhFight
@@ -105,23 +105,23 @@ EusinesHouseGrampsScript:
 	opentext
 	writetext EusinesHouseGrampsThankYouGiftText
 	waitbutton
-	writetext ReceivedAbraDollText
+	writetext ReceivedEllyDollText
 	playsound SFX_ITEM
 	pause 60
 	waitbutton
-	writetext AbraDollSentHomeText
-	setevent EVENT_DECO_ABRA_DOLL
+	writetext EllyDollSentHomeText
+	setevent EVENT_DECO_ELLY_DOLL
 	waitbutton
 	closetext
 	end
 
-ReceivedAbraDollText:
+ReceivedEllyDollText:
 	text "<PLAYER> received"
-	line "Abra Doll."
+	line "Elly Doll."
 	done
 
-AbraDollSentHomeText:
-	text "Abra Doll"
+EllyDollSentHomeText:
+	text "Elly Doll"
 	line "was sent home."
 	done
 

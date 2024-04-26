@@ -7,7 +7,7 @@
 	db NO_ITEM, TWISTEDSPOON ; held items
 	dn GENDER_F25, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for ABRA, SYNCHRONIZE, MAGIC_GUARD, TRACE
+	abilities_for ELLY, SYNCHRONIZE, MAGIC_GUARD, TRACE
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 

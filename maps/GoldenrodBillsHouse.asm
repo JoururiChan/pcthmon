@@ -39,12 +39,12 @@ BillsGrandpa:
 	iftrue .ShowedEllen
 	checkevent EVENT_SHOWED_PICHU_TO_BILLS_GRANDPA
 	iftrue .ShowedPichu
-	checkevent EVENT_SHOWED_GROWLITHE_TO_BILLS_GRANDPA
-	iftrue .ShowedGrowlithe
+	checkevent EVENT_SHOWED_EORANGE_TO_BILLS_GRANDPA
+	iftrue .ShowedEOrange
 	checkevent EVENT_SHOWED_STARYU_TO_BILLS_GRANDPA
 	iftrue .ShowedStaryu
-	checkevent EVENT_SHOWED_BELLSPROUT_TO_BILLS_GRANDPA
-	iftrue .ShowedBellsprout
+	checkevent EVENT_SHOWED_MUGETSU_TO_BILLS_GRANDPA
+	iftrue .ShowedMugetsu
 	checkevent EVENT_SHOWED_SNUBBULL_TO_BILLS_GRANDPA
 	iftrue .ShowedSnubbull
 	writetext BillsGrandpaSnubbullText
@@ -61,7 +61,7 @@ BillsGrandpa:
 	sjumpfwd .ShowedSnubbull
 
 .GotEverstone:
-	writetext BillsGrandpaBellsproutText
+	writetext BillsGrandpaMugetsuText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -69,10 +69,10 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal BELLSPROUT, .WrongPokemon
+	ifnotequal MUGETSU, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_BELLSPROUT_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedBellsprout
+	setevent EVENT_SHOWED_MUGETSU_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedMugetsu
 
 .GotLeafStone:
 	writetext BillsGrandpaStaryuText
@@ -89,7 +89,7 @@ BillsGrandpa:
 	sjumpfwd .ShowedStaryu
 
 .GotWaterStone:
-	writetext BillsGrandpaGrowlitheText
+	writetext BillsGrandpaEOrangeText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -97,10 +97,10 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal GROWLITHE, .WrongPokemon
+	ifnotequal EORANGE, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_GROWLITHE_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedGrowlithe
+	setevent EVENT_SHOWED_EORANGE_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedEOrange
 
 .GotFireStone:
 	writetext BillsGrandpaPichuText
@@ -182,7 +182,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedBellsprout:
+.ShowedMugetsu:
 	checkevent EVENT_GOT_LEAF_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotLeafStone
 	scall .ReceiveItem
@@ -202,7 +202,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedGrowlithe:
+.ShowedEOrange:
 	checkevent EVENT_GOT_FIRE_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotFireStone
 	scall .ReceiveItem
@@ -438,7 +438,7 @@ BillsGrandpaEllenText:
 	line "singing voice."
 	done
 
-BillsGrandpaBellsproutText:
+BillsGrandpaMugetsuText:
 	text "My grandson Bill"
 	line "mentioned a green"
 
@@ -464,7 +464,7 @@ BillsGrandpaStaryuText:
 	line "like to see it."
 	done
 
-BillsGrandpaGrowlitheText:
+BillsGrandpaEOrangeText:
 	text "Bill told me about"
 	line "a #mon that is"
 

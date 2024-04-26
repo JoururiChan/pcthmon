@@ -59,24 +59,24 @@ MiniIconPointers:
 	mini_icon CYumemi
 	mini_icon Yumemi
 	mini_icon EYumemi
-	mini_icon Mankey
-	mini_icon Primeape
-	mini_icon Growlithe
-	mini_icon Arcanine
-	mini_icon Poliwag
-	mini_icon Poliwhirl
-	mini_icon Poliwrath
-	mini_icon Abra
-	mini_icon Kadabra
-	mini_icon Alakazam
-	mini_icon Machop
-	mini_icon Machoke
-	mini_icon Machamp
-	mini_icon Bellsprout
-	mini_icon Weepinbell
-	mini_icon Victreebel
-	mini_icon Tentacool
-	mini_icon Tentacruel
+	mini_icon COrange
+	mini_icon Orange
+	mini_icon EOrange
+	mini_icon CKurumi
+	mini_icon Kurumi
+	mini_icon EKurumi
+	mini_icon CElly
+	mini_icon Elly
+	mini_icon EElly
+	mini_icon CYuka
+	mini_icon Yuka
+	mini_icon EYuka
+	mini_icon CMugetsu
+	mini_icon Mugetsu
+	mini_icon EMugetsu
+	mini_icon CGengetsu
+	mini_icon Gengetsu
+	mini_icon EGengetsu
 	mini_icon Geodude
 	mini_icon Graveler
 	mini_icon Golem
@@ -383,8 +383,8 @@ endr
 	mini_icon SlowkingGalarian
 	mini_icon CorsolaGalarian
 
-	mini_icon GrowlitheHisuian
-	mini_icon ArcanineHisuian
+	mini_icon EOrangeHisuian
+	mini_icon CKurumiHisuian
 	mini_icon VoltorbHisuian
 	mini_icon ElectrodeHisuian
 	mini_icon EReisenHisuian

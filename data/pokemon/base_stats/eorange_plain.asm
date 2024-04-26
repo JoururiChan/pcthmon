@@ -1,15 +1,15 @@
-	db  55,  70,  45,  60,  70,  50 ; 350 BST
+	db  55,  115,  80,  88,  50, 52 ; 350 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIRE, FIRE ; type
-	db 190 ; catch rate
-	db 91 ; base exp
-	db ALWAYS_ITEM_2, ASPEAR_BERRY ; held items
-	dn GENDER_F25, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db FIGHTING, FIGHTING ; type
+	db 235 ; catch rate
+	db 75 ; base exp
+	db NO_ITEM, KEE_BERRY ; held items
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for GROWLITHE, INTIMIDATE, FLASH_FIRE, JUSTIFIED
-	db GROWTH_SLOW ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for ORANGE, HUGE_POWER, HUGE_POWER, IMMUNITY
+	db GROWTH_FAST ; growth rate
+	dn EGG_GROUND, EGG_HUMANSHAPE ; egg groups
 
 	ev_yield 1 Atk
 

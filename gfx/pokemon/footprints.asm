@@ -73,12 +73,12 @@ ShellderFootprint::
 SlugmaFootprint::
 SteelixFootprint::
 SunkernFootprint::
-TentacoolFootprint::
-TentacruelFootprint::
+GengetsuFootprint::
+EGengetsuFootprint::
 UnownFootprint::
-VictreebelFootprint::
+CGengetsuFootprint::
 VoltorbFootprint::
-WeepinbellFootprint::
+EMugetsuFootprint::
 WeezingFootprint::
 CKotohimeFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 
@@ -125,20 +125,20 @@ EChiyuriFootprint:: INCBIN "gfx/footprints/echiyuri.1bpp.lz"
 CYumemiFootprint:: INCBIN "gfx/footprints/cyumemi.1bpp.lz"
 YumemiFootprint:: INCBIN "gfx/footprints/yumemi.1bpp.lz"
 EYumemiFootprint:: INCBIN "gfx/footprints/eyumemi.1bpp.lz"
-MankeyFootprint:: INCBIN "gfx/footprints/mankey.1bpp.lz"
-PrimeapeFootprint:: INCBIN "gfx/footprints/primeape.1bpp.lz"
-GrowlitheFootprint:: INCBIN "gfx/footprints/growlithe.1bpp.lz"
-ArcanineFootprint:: INCBIN "gfx/footprints/arcanine.1bpp.lz"
-PoliwagFootprint:: INCBIN "gfx/footprints/poliwag.1bpp.lz"
-PoliwhirlFootprint:: INCBIN "gfx/footprints/poliwhirl.1bpp.lz"
-PoliwrathFootprint:: INCBIN "gfx/footprints/poliwrath.1bpp.lz"
-AbraFootprint:: INCBIN "gfx/footprints/abra.1bpp.lz"
-KadabraFootprint:: INCBIN "gfx/footprints/kadabra.1bpp.lz"
-AlakazamFootprint:: INCBIN "gfx/footprints/alakazam.1bpp.lz"
-MachopFootprint:: INCBIN "gfx/footprints/machop.1bpp.lz"
-MachokeFootprint:: INCBIN "gfx/footprints/machoke.1bpp.lz"
-MachampFootprint:: INCBIN "gfx/footprints/machamp.1bpp.lz"
-BellsproutFootprint:: INCBIN "gfx/footprints/bellsprout.1bpp.lz"
+COrangeFootprint:: INCBIN "gfx/footprints/corange.1bpp.lz"
+OrangeFootprint:: INCBIN "gfx/footprints/orange.1bpp.lz"
+EOrangeFootprint:: INCBIN "gfx/footprints/eorange.1bpp.lz"
+CKurumiFootprint:: INCBIN "gfx/footprints/ckurumi.1bpp.lz"
+KurumiFootprint:: INCBIN "gfx/footprints/kurumi.1bpp.lz"
+EKurumiFootprint:: INCBIN "gfx/footprints/ekurumi.1bpp.lz"
+CEllyFootprint:: INCBIN "gfx/footprints/celly.1bpp.lz"
+EllyFootprint:: INCBIN "gfx/footprints/elly.1bpp.lz"
+EEllyFootprint:: INCBIN "gfx/footprints/eelly.1bpp.lz"
+CYukaFootprint:: INCBIN "gfx/footprints/cyuka.1bpp.lz"
+YukaFootprint:: INCBIN "gfx/footprints/yuka.1bpp.lz"
+EYukaFootprint:: INCBIN "gfx/footprints/eyuka.1bpp.lz"
+CMugetsuFootprint:: INCBIN "gfx/footprints/cmugetsu.1bpp.lz"
+MugetsuFootprint:: INCBIN "gfx/footprints/mugetsu.1bpp.lz"
 GravelerFootprint:: INCBIN "gfx/footprints/graveler.1bpp.lz"
 GolemFootprint:: INCBIN "gfx/footprints/golem.1bpp.lz"
 PonytaFootprint:: INCBIN "gfx/footprints/ponyta.1bpp.lz"

@@ -9,9 +9,9 @@
 
 	def_water_wildmons VERMILION_PORT
 	db 2 percent ; encounter rate
-	wildmon  45, TENTACOOL
-	wildmon  40, TENTACOOL
-	wildmon  45, TENTACRUEL
+	wildmon  45, GENGETSU
+	wildmon  40, GENGETSU
+	wildmon  45, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_4
@@ -44,77 +44,77 @@
 
 	def_water_wildmons ROUTE_12_NORTH
 	db 6 percent ; encounter rate
-	wildmon  48, TENTACOOL
+	wildmon  48, GENGETSU
 	wildmon  52, QUAGSIRE
-	wildmon  54, TENTACRUEL
+	wildmon  54, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_12_SOUTH
 	db 6 percent ; encounter rate
-	wildmon  48, TENTACOOL
+	wildmon  48, GENGETSU
 	wildmon  52, QUAGSIRE
-	wildmon  54, TENTACRUEL
+	wildmon  54, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_13_EAST
 	db 6 percent ; encounter rate
-	wildmon  49, TENTACOOL
+	wildmon  49, GENGETSU
 	wildmon  53, QUAGSIRE
-	wildmon  55, TENTACRUEL
+	wildmon  55, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_14
 	db 6 percent ; encounter rate
-	wildmon  49, TENTACOOL
+	wildmon  49, GENGETSU
 	wildmon  53, QUAGSIRE
-	wildmon  55, TENTACRUEL
+	wildmon  55, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons LUCKY_ISLAND
 	db 6 percent ; encounter rate
-	wildmon  49, TENTACOOL
+	wildmon  49, GENGETSU
 	wildmon  53, QUAGSIRE
-	wildmon  55, TENTACRUEL
+	wildmon  55, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_18_WEST
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, GENGETSU
+	wildmon  56, GENGETSU
+	wildmon  58, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_19
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, GENGETSU
+	wildmon  56, GENGETSU
+	wildmon  58, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_20
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, GENGETSU
+	wildmon  56, GENGETSU
+	wildmon  58, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_21
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, GENGETSU
+	wildmon  56, GENGETSU
+	wildmon  58, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_22
 	db 2 percent ; encounter rate
 	wildmon  54, MAGIKARP
-	wildmon  56, POLIWAG
-	wildmon  58, POLIWHIRL
+	wildmon  56, KURUMI
+	wildmon  58, EKURUMI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_23
 	db 6 percent ; encounter rate
-	wildmon  35, TENTACRUEL
+	wildmon  35, EGENGETSU
 	wildmon  35, KINGLER
 	wildmon  35, GYARADOS
 	end_water_wildmons
@@ -135,37 +135,37 @@
 
 	def_water_wildmons ROUTE_26
 	db 6 percent ; encounter rate
-	wildmon  35, TENTACOOL
-	wildmon  30, TENTACOOL
-	wildmon  35, TENTACRUEL
+	wildmon  35, GENGETSU
+	wildmon  30, GENGETSU
+	wildmon  35, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_27
 	db 6 percent ; encounter rate
-	wildmon  20, TENTACOOL
-	wildmon  15, TENTACOOL
-	wildmon  20, TENTACRUEL
+	wildmon  20, GENGETSU
+	wildmon  15, GENGETSU
+	wildmon  20, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_28
 	db 2 percent ; encounter rate
-	wildmon  60, POLIWHIRL
-	wildmon  65, POLIWHIRL
-	wildmon  65, POLIWRATH
+	wildmon  60, EKURUMI
+	wildmon  65, EKURUMI
+	wildmon  65, CELLY
 	end_water_wildmons
 
 	def_water_wildmons PALLET_TOWN
 	db 6 percent ; encounter rate
-	wildmon  55, TENTACOOL
-	wildmon  50, TENTACOOL
-	wildmon  55, TENTACRUEL
+	wildmon  55, GENGETSU
+	wildmon  50, GENGETSU
+	wildmon  55, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons VIRIDIAN_CITY
 	db 2 percent ; encounter rate
-	wildmon  55, POLIWAG
-	wildmon  50, POLIWAG
-	wildmon  55, POLIWHIRL
+	wildmon  55, KURUMI
+	wildmon  50, KURUMI
+	wildmon  55, EKURUMI
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CITY
@@ -177,9 +177,9 @@
 
 	def_water_wildmons VERMILION_CITY
 	db 6 percent ; encounter rate
-	wildmon  45, TENTACOOL
-	wildmon  40, TENTACOOL
-	wildmon  45, TENTACRUEL
+	wildmon  45, GENGETSU
+	wildmon  40, GENGETSU
+	wildmon  45, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons CELADON_CITY
@@ -198,36 +198,36 @@
 
 	def_water_wildmons CINNABAR_ISLAND
 	db 6 percent ; encounter rate
-	wildmon  55, TENTACOOL
-	wildmon  50, TENTACOOL
-	wildmon  55, TENTACRUEL
+	wildmon  55, GENGETSU
+	wildmon  50, GENGETSU
+	wildmon  55, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CAPE
 	db 4 percent ; encounter rate
 	wildmon  48, MAGIKARP
-	wildmon  52, POLIWHIRL
+	wildmon  52, EKURUMI
 	wildmon  54, KINGLER
 	end_water_wildmons
 
 	def_water_wildmons URAGA_CHANNEL_EAST
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, GENGETSU
+	wildmon  56, GENGETSU
+	wildmon  58, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons SCARY_CAVE_1F
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACRUEL
+	wildmon  54, GENGETSU
+	wildmon  56, EGENGETSU
 	wildmon  58, LANTURN
 	end_water_wildmons
 
 	def_water_wildmons SCARY_CAVE_B1F
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACRUEL
+	wildmon  54, GENGETSU
+	wildmon  56, EGENGETSU
 	wildmon  58, LANTURN
 	end_water_wildmons
 
@@ -240,9 +240,9 @@
 
 	def_water_wildmons URAGA_CHANNEL_WEST
 	db 6 percent ; encounter rate
-	wildmon  54, TENTACOOL
-	wildmon  56, TENTACOOL
-	wildmon  58, TENTACRUEL
+	wildmon  54, GENGETSU
+	wildmon  56, GENGETSU
+	wildmon  58, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CAVE_1F

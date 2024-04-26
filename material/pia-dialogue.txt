@@ -99,7 +99,7 @@ Gentleman1DefeatText:
 	done
 
 Gentleman1AfterText:
-	text "Arcanine is one of"
+	text "CKurumi is one of"
 	line "the few #mon"
 	cont "that can use Extr-"
 

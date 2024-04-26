@@ -30,9 +30,9 @@
 
 	def_water_wildmons UNION_CAVE_B2F
 	db 4 percent ; encounter rate
-	wildmon 15, TENTACOOL
+	wildmon 15, GENGETSU
 	wildmon 20, QUAGSIRE
-	wildmon 20, TENTACRUEL
+	wildmon 20, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons SLOWPOKE_WELL_B1F
@@ -80,14 +80,14 @@
 	def_water_wildmons WHIRL_ISLAND_SW
 	db 4 percent ; encounter rate
 	wildmon 20, HORSEA
-	wildmon 25, TENTACOOL
+	wildmon 25, GENGETSU
 	wildmon 30, OCTILLERY
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_B2F
 	db 4 percent ; encounter rate
 	wildmon 20, HORSEA
-	wildmon 25, TENTACRUEL
+	wildmon 25, EGENGETSU
 	wildmon 30, OCTILLERY
 	end_water_wildmons
 
@@ -135,37 +135,37 @@
 
 	def_water_wildmons OLIVINE_PORT
 	db 2 percent ; encounter rate
-	wildmon 20, TENTACOOL
-	wildmon 15, TENTACOOL
-	wildmon 20, TENTACRUEL
+	wildmon 20, GENGETSU
+	wildmon 15, GENGETSU
+	wildmon 20, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_30
 	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
-	wildmon 20, POLIWHIRL
+	wildmon 20, KURUMI
+	wildmon 15, KURUMI
+	wildmon 20, EKURUMI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_31
 	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
-	wildmon 20, POLIWHIRL
+	wildmon 20, KURUMI
+	wildmon 15, KURUMI
+	wildmon 20, EKURUMI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_32
 	db 4 percent ; encounter rate
-	wildmon 15, TENTACOOL
+	wildmon 15, GENGETSU
 	wildmon 20, QUAGSIRE
-	wildmon 20, TENTACRUEL
+	wildmon 20, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_34
 	db 4 percent ; encounter rate
-	wildmon 20, TENTACOOL
-	wildmon 15, TENTACOOL
-	wildmon 20, TENTACRUEL
+	wildmon 20, GENGETSU
+	wildmon 15, GENGETSU
+	wildmon 20, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35
@@ -177,14 +177,14 @@
 
 	def_water_wildmons ROUTE_40
 	db 3 percent ; encounter rate
-	wildmon 20, TENTACOOL
+	wildmon 20, GENGETSU
 	wildmon 20, STARYU
-	wildmon 20, TENTACRUEL
+	wildmon 20, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_41
 	db 3 percent ; encounter rate
-	wildmon 20, TENTACOOL
+	wildmon 20, GENGETSU
 	wildmon 20, MANTINE
 	wildmon 20, REMORAID
 	end_water_wildmons
@@ -205,9 +205,9 @@
 
 	def_water_wildmons ROUTE_44
 	db 2 percent ; encounter rate
-	wildmon 25, POLIWAG
-	wildmon 30, POLIWAG
-	wildmon 30, POLIWHIRL
+	wildmon 25, KURUMI
+	wildmon 30, KURUMI
+	wildmon 30, EKURUMI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_45
@@ -219,7 +219,7 @@
 
 	def_water_wildmons ROUTE_47
 	db 3 percent ; encounter rate
-	wildmon 20, TENTACOOL
+	wildmon 20, GENGETSU
 	wildmon 20, SEEL
 	wildmon 25, STARYU
 	end_water_wildmons
@@ -233,28 +233,28 @@
 
 	def_water_wildmons NEW_BARK_TOWN
 	db 6 percent ; encounter rate
-	wildmon 20, TENTACOOL
-	wildmon 15, TENTACOOL
-	wildmon 20, TENTACRUEL
+	wildmon 20, GENGETSU
+	wildmon 15, GENGETSU
+	wildmon 20, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons CHERRYGROVE_CITY
 	db 6 percent ; encounter rate
-	wildmon 20, TENTACOOL
-	wildmon 15, TENTACOOL
-	wildmon 20, TENTACRUEL
+	wildmon 20, GENGETSU
+	wildmon 15, GENGETSU
+	wildmon 20, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons VIOLET_CITY
 	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
-	wildmon 20, POLIWHIRL
+	wildmon 20, KURUMI
+	wildmon 15, KURUMI
+	wildmon 20, EKURUMI
 	end_water_wildmons
 
 	def_water_wildmons CIANWOOD_CITY
 	db 6 percent ; encounter rate
-	wildmon 20, TENTACOOL
+	wildmon 20, GENGETSU
 	wildmon 20, MANTINE
 	wildmon 20, REMORAID
 	end_water_wildmons
@@ -268,23 +268,23 @@
 
 	def_water_wildmons OLIVINE_CITY
 	db 6 percent ; encounter rate
-	wildmon 20, TENTACOOL
-	wildmon 15, TENTACOOL
-	wildmon 20, TENTACRUEL
+	wildmon 20, GENGETSU
+	wildmon 15, GENGETSU
+	wildmon 20, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ECRUTEAK_CITY
 	db 2 percent ; encounter rate
-	wildmon 20, POLIWAG
-	wildmon 15, POLIWAG
-	wildmon 20, POLIWHIRL
+	wildmon 20, KURUMI
+	wildmon 15, KURUMI
+	wildmon 20, EKURUMI
 	end_water_wildmons
 
 	def_water_wildmons ECRUTEAK_SHRINE_OUTSIDE
 	db 2 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, POLIWAG
+	wildmon LEVEL_FROM_BADGES + 0, KURUMI
 	wildmon LEVEL_FROM_BADGES - 5, YUMEMI
-	wildmon LEVEL_FROM_BADGES + 0, POLIWHIRL
+	wildmon LEVEL_FROM_BADGES + 0, EKURUMI
 	end_water_wildmons
 
 	def_water_wildmons LAKE_OF_RAGE
@@ -303,50 +303,50 @@
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE
 	db 2 percent ; encounter rate
-	wildmon 70, POLIWHIRL
-	wildmon 75, POLIWRATH
-	wildmon 70, POLIWHIRL
+	wildmon 70, EKURUMI
+	wildmon 75, CELLY
+	wildmon 70, EKURUMI
 	end_water_wildmons
 
 	def_water_wildmons CHERRYGROVE_BAY
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
-	wildmon LEVEL_FROM_BADGES - 5, TENTACOOL
+	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
+	wildmon LEVEL_FROM_BADGES - 5, GENGETSU
 	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_32_COAST
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
-	wildmon LEVEL_FROM_BADGES - 5, TENTACOOL
+	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
+	wildmon LEVEL_FROM_BADGES - 5, GENGETSU
 	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_34_COAST
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
+	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
 	wildmon LEVEL_FROM_BADGES - 5, STARYU
-	wildmon LEVEL_FROM_BADGES + 0, TENTACRUEL
+	wildmon LEVEL_FROM_BADGES + 0, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons STORMY_BEACH
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
+	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
 	wildmon LEVEL_FROM_BADGES - 5, STARYU
-	wildmon LEVEL_FROM_BADGES + 0, TENTACRUEL
+	wildmon LEVEL_FROM_BADGES + 0, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35_COAST_SOUTH
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
-	wildmon LEVEL_FROM_BADGES + 0, TENTACRUEL
+	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
+	wildmon LEVEL_FROM_BADGES + 0, EGENGETSU
 	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35_COAST_NORTH
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, TENTACOOL
-	wildmon LEVEL_FROM_BADGES + 0, TENTACRUEL
+	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
+	wildmon LEVEL_FROM_BADGES + 0, EGENGETSU
 	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
 	end_water_wildmons
 

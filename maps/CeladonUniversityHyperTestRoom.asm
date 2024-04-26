@@ -353,7 +353,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db "CRikako@"
 	db "Magmar@"
 	db "ESariel@"
-	db "Victreebel@"
+	db "CGengetsu@"
 
 .Question5MenuData:
 	db MENU_BACKUP_TILES

@@ -285,10 +285,10 @@ FisherWilton1Script:
 	iftruefwd .AskedAlready
 	checkunits
 	iftruefwd .metric
-	writetext FisherWiltonHugePoliwagText_Imperial
+	writetext FisherWiltonHugeKurumiText_Imperial
 	sjumpfwd .ok
 .metric
-	writetext FisherWiltonHugePoliwagText_Metric
+	writetext FisherWiltonHugeKurumiText_Metric
 .ok
 	promptbutton
 	setevent EVENT_WILTON_ASKED_FOR_PHONE_NUMBER
@@ -425,7 +425,7 @@ GenericTrainerCooltrainermAllen:
 
 FisherWilton1SeenText:
 	text "Aack! You made me"
-	line "lose a Poliwag!"
+	line "lose a Kurumi!"
 
 	para "What are you going"
 	line "to do about it?"
@@ -436,8 +436,8 @@ FisherWilton1BeatenText:
 	line "it."
 	done
 
-FisherWiltonHugePoliwagText_Imperial:
-	text "That Poliwag that"
+FisherWiltonHugeKurumiText_Imperial:
+	text "That Kurumi that"
 	line "got away…"
 	cont "It was huge."
 
@@ -445,8 +445,8 @@ FisherWiltonHugePoliwagText_Imperial:
 	line "been 16 feet long!"
 	done
 
-FisherWiltonHugePoliwagText_Metric:
-	text "That Poliwag that"
+FisherWiltonHugeKurumiText_Metric:
+	text "That Kurumi that"
 	line "got away…"
 	cont "It was huge."
 

@@ -33,13 +33,13 @@ Cries:
 	fardw Cry_MGyoku
 	fardw Cry_CSakuya
 	fardw Cry_EKana
-	fardw Cry_Growlithe
+	fardw Cry_EOrange
 	fardw Cry_Krabby
 	fardw Cry_Yumemi
 	fardw Cry_EMima
 	fardw Cry_Kana
 	fardw Cry_EMeira
-	fardw Cry_Weepinbell
+	fardw Cry_EMugetsu
 	fardw Cry_Marill
 	fardw Cry_Spinarak
 	fardw Cry_Togepi

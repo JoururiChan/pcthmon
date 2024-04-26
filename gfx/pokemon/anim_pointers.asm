@@ -55,24 +55,24 @@ AnimationPointers:
 	dw CYumemiPlainAnimation
 	dw YumemiAnimation
 	dw EYumemiAnimation
-	dw MankeyAnimation
-	dw PrimeapeAnimation
-	dw GrowlithePlainAnimation
-	dw ArcaninePlainAnimation
-	dw PoliwagAnimation
-	dw PoliwhirlAnimation
-	dw PoliwrathAnimation
-	dw AbraAnimation
-	dw KadabraAnimation
-	dw AlakazamAnimation
-	dw MachopAnimation
-	dw MachokeAnimation
-	dw MachampAnimation
-	dw BellsproutAnimation
-	dw WeepinbellAnimation
-	dw VictreebelAnimation
-	dw TentacoolAnimation
-	dw TentacruelAnimation
+	dw COrangeAnimation
+	dw OrangeAnimation
+	dw EOrangePlainAnimation
+	dw CKurumiPlainAnimation
+	dw KurumiAnimation
+	dw EKurumiAnimation
+	dw CEllyAnimation
+	dw EllyAnimation
+	dw EEllyAnimation
+	dw CYukaAnimation
+	dw YukaAnimation
+	dw EYukaAnimation
+	dw CMugetsuAnimation
+	dw MugetsuAnimation
+	dw EMugetsuAnimation
+	dw CGengetsuAnimation
+	dw GengetsuAnimation
+	dw EGengetsuAnimation
 	dw GeodudePlainAnimation
 	dw GravelerPlainAnimation
 	dw GolemPlainAnimation
@@ -395,8 +395,8 @@ AnimationPointers:
 	dw SlowkingGalarianAnimation
 	dw CorsolaGalarianAnimation
 
-	dw GrowlitheHisuianAnimation
-	dw ArcanineHisuianAnimation
+	dw EOrangeHisuianAnimation
+	dw CKurumiHisuianAnimation
 	dw VoltorbHisuianAnimation
 	dw ElectrodeHisuianAnimation
 	dw EReisenHisuianAnimation

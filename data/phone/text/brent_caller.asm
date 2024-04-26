@@ -93,9 +93,9 @@ BrentRoute25GossipText:
 	line "in Kanto."
 	done
 
-BrentAbraGossipText:
+BrentEllyGossipText:
 	text "Did you know…?"
-	line "Abra was the first"
+	line "Elly was the first"
 
 	para "#mon that Bill"
 	line "ostensibly caught."

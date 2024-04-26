@@ -59,24 +59,24 @@ EvosAttacksPointers::
 	dw CYumemiPlainEvosAttacks
 	dw YumemiEvosAttacks
 	dw EYumemiEvosAttacks
-	dw MankeyEvosAttacks
-	dw PrimeapeEvosAttacks
-	dw GrowlithePlainEvosAttacks
-	dw ArcaninePlainEvosAttacks
-	dw PoliwagEvosAttacks
-	dw PoliwhirlEvosAttacks
-	dw PoliwrathEvosAttacks
-	dw AbraEvosAttacks
-	dw KadabraEvosAttacks
-	dw AlakazamEvosAttacks
-	dw MachopEvosAttacks
-	dw MachokeEvosAttacks
-	dw MachampEvosAttacks
-	dw BellsproutEvosAttacks
-	dw WeepinbellEvosAttacks
-	dw VictreebelEvosAttacks
-	dw TentacoolEvosAttacks
-	dw TentacruelEvosAttacks
+	dw COrangeEvosAttacks
+	dw OrangeEvosAttacks
+	dw EOrangePlainEvosAttacks
+	dw CKurumiPlainEvosAttacks
+	dw KurumiEvosAttacks
+	dw EKurumiEvosAttacks
+	dw CEllyEvosAttacks
+	dw EllyEvosAttacks
+	dw EEllyEvosAttacks
+	dw CYukaEvosAttacks
+	dw YukaEvosAttacks
+	dw EYukaEvosAttacks
+	dw CMugetsuEvosAttacks
+	dw MugetsuEvosAttacks
+	dw EMugetsuEvosAttacks
+	dw CGengetsuEvosAttacks
+	dw GengetsuEvosAttacks
+	dw EGengetsuEvosAttacks
 	dw GeodudePlainEvosAttacks
 	dw GravelerPlainEvosAttacks
 	dw GolemPlainEvosAttacks
@@ -336,8 +336,8 @@ EvosAttacksPointers::
 	dw SlowkingGalarianEvosAttacks
 	dw CorsolaGalarianEvosAttacks
 
-	dw GrowlitheHisuianEvosAttacks
-	dw ArcanineHisuianEvosAttacks
+	dw EOrangeHisuianEvosAttacks
+	dw CKurumiHisuianEvosAttacks
 	dw VoltorbHisuianEvosAttacks
 	dw ElectrodeHisuianEvosAttacks
 	dw EReisenHisuianEvosAttacks

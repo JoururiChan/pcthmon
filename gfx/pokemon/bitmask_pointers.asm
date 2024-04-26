@@ -55,24 +55,24 @@ BitmasksPointers:
 	dw CYumemiPlainBitmasks
 	dw YumemiBitmasks
 	dw EYumemiBitmasks
-	dw MankeyBitmasks
-	dw PrimeapeBitmasks
-	dw GrowlithePlainBitmasks
-	dw ArcaninePlainBitmasks
-	dw PoliwagBitmasks
-	dw PoliwhirlBitmasks
-	dw PoliwrathBitmasks
-	dw AbraBitmasks
-	dw KadabraBitmasks
-	dw AlakazamBitmasks
-	dw MachopBitmasks
-	dw MachokeBitmasks
-	dw MachampBitmasks
-	dw BellsproutBitmasks
-	dw WeepinbellBitmasks
-	dw VictreebelBitmasks
-	dw TentacoolBitmasks
-	dw TentacruelBitmasks
+	dw COrangeBitmasks
+	dw OrangeBitmasks
+	dw EOrangePlainBitmasks
+	dw CKurumiPlainBitmasks
+	dw KurumiBitmasks
+	dw EKurumiBitmasks
+	dw CEllyBitmasks
+	dw EllyBitmasks
+	dw EEllyBitmasks
+	dw CYukaBitmasks
+	dw YukaBitmasks
+	dw EYukaBitmasks
+	dw CMugetsuBitmasks
+	dw MugetsuBitmasks
+	dw EMugetsuBitmasks
+	dw CGengetsuBitmasks
+	dw GengetsuBitmasks
+	dw EGengetsuBitmasks
 	dw GeodudePlainBitmasks
 	dw GravelerPlainBitmasks
 	dw GolemPlainBitmasks
@@ -395,8 +395,8 @@ BitmasksPointers:
 	dw SlowkingGalarianBitmasks
 	dw CorsolaGalarianBitmasks
 
-	dw GrowlitheHisuianBitmasks
-	dw ArcanineHisuianBitmasks
+	dw EOrangeHisuianBitmasks
+	dw CKurumiHisuianBitmasks
 	dw VoltorbHisuianBitmasks
 	dw ElectrodeHisuianBitmasks
 	dw EReisenHisuianBitmasks

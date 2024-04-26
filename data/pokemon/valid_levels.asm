@@ -56,24 +56,24 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  28, 100 ; CYumemi
 	db   1,  32 ; Yumemi
 	db  33, 100 ; EYumemi
-	db   1,  27 ; Mankey
-	db  28,  55 ; Primeape
-	db   1,  19 ; Growlithe
-	db  20, 100 ; Arcanine
-	db   1,  24 ; Poliwag
-	db  25,  35 ; Poliwhirl
-	db  36, 100 ; Poliwrath
-	db   1,  15 ; Abra
-	db  16,  35 ; Kadabra
-	db  36, 100 ; Alakazam
-	db   1,  27 ; Machop
-	db  28,  45 ; Machoke
-	db  46, 100 ; Machamp
-	db   1,  20 ; Bellsprout
-	db  21,  31 ; Weepinbell
-	db  32, 100 ; Victreebel
-	db   1,  29 ; Tentacool
-	db  30, 100 ; Tentacruel
+	db   1,  27 ; COrange
+	db  28,  55 ; Orange
+	db   1,  19 ; EOrange
+	db  20, 100 ; CKurumi
+	db   1,  24 ; Kurumi
+	db  25,  35 ; EKurumi
+	db  36, 100 ; CElly
+	db   1,  15 ; Elly
+	db  16,  35 ; EElly
+	db  36, 100 ; CYuka
+	db   1,  27 ; Yuka
+	db  28,  45 ; EYuka
+	db  46, 100 ; CMugetsu
+	db   1,  20 ; Mugetsu
+	db  21,  31 ; EMugetsu
+	db  32, 100 ; CGengetsu
+	db   1,  29 ; Gengetsu
+	db  30, 100 ; EGengetsu
 	db   1,  24 ; Geodude
 	db  25,  44 ; Graveler
 	db  45, 100 ; Golem

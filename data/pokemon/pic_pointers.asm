@@ -59,24 +59,24 @@ PokemonPicPointers::
 	pics CYumemiPlain
 	pics Yumemi
 	pics EYumemi
-	pics Mankey
-	pics Primeape
-	pics GrowlithePlain
-	pics ArcaninePlain
-	pics Poliwag
-	pics Poliwhirl
-	pics Poliwrath
-	pics Abra
-	pics Kadabra
-	pics Alakazam
-	pics Machop
-	pics Machoke
-	pics Machamp
-	pics Bellsprout
-	pics Weepinbell
-	pics Victreebel
-	pics Tentacool
-	pics Tentacruel
+	pics COrange
+	pics Orange
+	pics EOrangePlain
+	pics CKurumiPlain
+	pics Kurumi
+	pics EKurumi
+	pics CElly
+	pics Elly
+	pics EElly
+	pics CYuka
+	pics Yuka
+	pics EYuka
+	pics CMugetsu
+	pics Mugetsu
+	pics EMugetsu
+	pics CGengetsu
+	pics Gengetsu
+	pics EGengetsu
 	pics GeodudePlain
 	pics GravelerPlain
 	pics GolemPlain
@@ -399,8 +399,8 @@ PokemonPicPointers::
 	pics SlowkingGalarian
 	pics CorsolaGalarian
 
-	pics GrowlitheHisuian
-	pics ArcanineHisuian
+	pics EOrangeHisuian
+	pics CKurumiHisuian
 	pics VoltorbHisuian
 	pics ElectrodeHisuian
 	pics EReisenHisuian

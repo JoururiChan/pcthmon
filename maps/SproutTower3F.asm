@@ -270,7 +270,7 @@ SageNealBeatenText:
 SproutTower3FPaintingText:
 	text "It's a powerful"
 	line "painting of a"
-	cont "Bellsprout."
+	cont "Mugetsu."
 	done
 
 SproutTower3FStatueText:

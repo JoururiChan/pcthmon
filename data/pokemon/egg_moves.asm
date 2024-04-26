@@ -198,7 +198,7 @@ YumemiEggMoves:
 	db PSYCHIC_M
 	db $ff
 
-MankeyEggMoves:
+COrangeEggMoves:
 	db ENCORE
 	db FORESIGHT
 	db BULK_UP
@@ -210,8 +210,8 @@ MankeyEggMoves:
 	db SCULPTURE
 	db $ff
 
-GrowlitheEggMoves:
-GrowlitheHisuianEggMoves:
+EOrangeEggMoves:
+EOrangeHisuianEggMoves:
 	db DOUBLE_KICK
 	db FIRE_SPIN
 	db HEALINGLIGHT
@@ -223,7 +223,7 @@ GrowlitheHisuianEggMoves:
 	db SCULPTURE
 	db $ff
 
-PoliwagEggMoves:
+KurumiEggMoves:
 	db ENCORE
 	db HAZE
 	db SPLASH
@@ -231,14 +231,14 @@ PoliwagEggMoves:
 	db WATER_PULSE
 	db $ff
 
-AbraEggMoves:
+EllyEggMoves:
 	db BARRIER
 	db ENCORE
 	db LIGHT_SCREEN
 	db KNOCK_OFF
 	db $ff
 
-MachopEggMoves:
+YukaEggMoves:
 	db STEEL_FIST
 	db ENCORE
 	db BULK_UP
@@ -248,7 +248,7 @@ MachopEggMoves:
 	db KNOCK_OFF
 	db $ff
 
-BellsproutEggMoves:
+MugetsuEggMoves:
 	db ENCORE
 	db LEECH_LIFE
 	db SWORDS_DANCE
@@ -257,7 +257,7 @@ BellsproutEggMoves:
 	db POWER_WHIP
 	db $ff
 
-TentacoolEggMoves:
+GengetsuEggMoves:
 	db AURORA_BEAM
 	db CONFUSE_RAY
 	db HAZE

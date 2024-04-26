@@ -93,7 +93,7 @@ GenericTrainerSchoolboyJohnny:
 
 	text "Yeah, well, I"
 	line "still prefer"
-	cont "Bellsprout."
+	cont "Mugetsu."
 	done
 
 NationalParkGameboyKidScript:
@@ -350,14 +350,14 @@ SchoolgirlElizaBeatenText:
 	done
 
 SchoolboyJohnnySeenText:
-	text "Bellsprout is just"
+	text "Mugetsu is just"
 	line "the coolest!"
 
 	para "Aren't I right?"
 	done
 
 SchoolboyJohnnyBeatenText:
-	text "Bellsprout, no…"
+	text "Mugetsu, no…"
 	done
 
 NationalParkTeacher2Text:

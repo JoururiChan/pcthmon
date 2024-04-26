@@ -70,7 +70,7 @@ MoveReminderNoGoldLeafText::
 
 	para "Sometimes you can"
 	line "find them on wild"
-	cont "Bellsprout."
+	cont "Mugetsu."
 	done
 
 MoveReminderNoMovesText::

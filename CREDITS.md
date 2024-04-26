@@ -61,8 +61,8 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * Scarlax for many new Tohomon animations.
 * ShadowOne333 for the Alolan, Galarian, and Hisuian mini icons, many new Tohomon animations, and Chris's overworld sprites.
 * octorox for Galarian Rapidash and Galarian Slowking's backpics.
-* Cure for sprites of Ursaluna, Kleavor, Hisuian Growlithe, and Hisuian Arcanine.
-* Sea for Hisuian Growlithe's animation.
+* Cure for sprites of Ursaluna, Kleavor, Hisuian EOrange, and Hisuian CKurumi.
+* Sea for Hisuian EOrange's animation.
 * ShadowOne333 and Sea for Annihilape's front and back sprites.
 * spritershawn for sprites of Red, Blue, and Green.
 * isamuakai01 for sprites of Steven and Cynthia.

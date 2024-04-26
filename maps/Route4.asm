@@ -205,7 +205,7 @@ Route4SuperNerd1Text:
 	text "#mon with tough"
 	line "heads are best!"
 
-	para "Arcanine, Golem,"
+	para "CKurumi, Golem,"
 	line "Snorlax!"
 
 	para "Don't you agree?"

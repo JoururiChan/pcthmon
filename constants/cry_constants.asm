@@ -33,13 +33,13 @@
 	const CRY_MGYOKU
 	const CRY_CSAKUYA
 	const CRY_EKANA
-	const CRY_GROWLITHE
+	const CRY_EORANGE
 	const CRY_KRABBY
 	const CRY_YUMEMI
 	const CRY_EMIMA
 	const CRY_KANA
 	const CRY_EMEIRA
-	const CRY_WEEPINBELL
+	const CRY_EMUGETSU
 
 ; gen 2
 	const CRY_MARILL
