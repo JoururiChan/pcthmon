@@ -1,17 +1,17 @@
-	db  90, 110,  80,  95, 100,  80 ; 555 BST
+	db  55, 38,  38, 40, 50,  30 ; 555 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db DARK, DARK ; type
-	db 75 ; catch rate
-	db 213 ; base exp
+	db 190 ; catch rate
+	db 56 ; base exp
 	db NO_ITEM, ASPEAR_BERRY ; held items
-	dn GENDER_F25, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for KURUMI, INTIMIDATE, FLASH_FIRE, JUSTIFIED
-	db GROWTH_SLOW ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for CKURUMI, SYNCHRONIZE, SYNCHRONIZE, SYNCHRONIZE
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_MONSTER, EGG_FLYING ; egg groups
 
-	ev_yield 2 Atk
+	ev_yield 1 SAt
 
 	; tm/hm learnset
 	tmhm CURSE, ROAR, TOXIC, HIDDEN_POWER, SUNNY_DAY, AEROBLAST, PROTECT, SAFEGUARD, BULLDOZE, FLOWER_SHOOT, IRON_TAIL, RETURN, DIG, ROCK_SMASH, DOUBLE_TEAM, METEOR_FALL, HELL_TOKAMAK, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, FLAME_CHARGE, REST, ATTRACT, THIEF, KNIFE_THROW, DRAGON_PULSE, WILL_O_WISP, GUNGNIR, STRENGTH, SAKUYA_WORLD, BODY_SLAM, CHARM, DOUBLE_EDGE, ENDURE, HEADBUTT, HYPER_VOICE, IRON_HEAD, SLEEP_TALK, SWAGGER
