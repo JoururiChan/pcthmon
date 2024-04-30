@@ -80,7 +80,7 @@
 	const CORANGE     ; 38
 	const ORANGE   ; 39
 	const EORANGE  ; 3a
-	const KURUMI   ; 3b
+	const CKURUMI   ; 3b
 	const KURUMI    ; 3c
 	const EKURUMI  ; 3d
 	const CELLY  ; 3e
