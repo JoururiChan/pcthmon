@@ -315,7 +315,7 @@ OlivinePortFridayShipText:
 	done
 
 OlivinePortFishingGuru1Text:
-	text "Shellder are easy"
+	text "Yumeko are easy"
 	line "to catch here."
 
 	para "They're kind of"

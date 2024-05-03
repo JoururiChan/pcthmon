@@ -73,34 +73,34 @@ FramesPointers:
 	dw CGengetsuFrames
 	dw GengetsuFrames
 	dw EGengetsuFrames
-	dw GeodudePlainFrames
-	dw GravelerPlainFrames
-	dw GolemPlainFrames
-	dw PonytaPlainFrames
-	dw RapidashPlainFrames
-	dw SlowpokePlainFrames
-	dw SlowbroPlainFrames
-	dw MagnemiteFrames
-	dw MagnetonFrames
+	dw CSaraPlainFrames
+	dw SaraPlainFrames
+	dw ESaraPlainFrames
+	dw CLuizePlainFrames
+	dw LuizePlainFrames
+	dw ELuizePlainFrames
+	dw CAlicePlainFrames
+	dw AliceFrames
+	dw EAliceFrames
 	dw FarfetchDPlainFrames
-	dw DoduoFrames
-	dw DodrioFrames
-	dw SeelFrames
-	dw DewgongFrames
-	dw GrimerPlainFrames
-	dw MukPlainFrames
-	dw ShellderFrames
-	dw CloysterFrames
-	dw GastlyFrames
-	dw HaunterFrames
-	dw GengarFrames
-	dw OnixFrames
-	dw DrowzeeFrames
-	dw HypnoFrames
-	dw KrabbyFrames
-	dw KinglerFrames
-	dw VoltorbPlainFrames
-	dw ElectrodePlainFrames
+	dw MaiFrames
+	dw EMaiFrames
+	dw CYukiFrames
+	dw YukiFrames
+	dw EYukiPlainFrames
+	dw CYumekoPlainFrames
+	dw YumekoFrames
+	dw EYumekoFrames
+	dw CShinkiFrames
+	dw ShinkiFrames
+	dw EShinkiFrames
+	dw CRumiaFrames
+	dw RumiaFrames
+	dw ERumiaFrames
+	dw CDaichanFrames
+	dw DaichanFrames
+	dw EDaichanPlainFrames
+	dw CCirnoPlainFrames
 	dw ExeggcuteFrames
 	dw ExeggutorPlainFrames
 	dw CuboneFrames
@@ -373,19 +373,19 @@ FramesPointers:
 	dw ChiyuriAlolanFrames
 	dw EChiyuriAlolanFrames
 	dw CYumemiAlolanFrames
-	dw GeodudeAlolanFrames
-	dw GravelerAlolanFrames
-	dw GolemAlolanFrames
-	dw GrimerAlolanFrames
-	dw MukAlolanFrames
+	dw CSaraAlolanFrames
+	dw SaraAlolanFrames
+	dw ESaraAlolanFrames
+	dw EYukiAlolanFrames
+	dw CYumekoAlolanFrames
 	dw ExeggutorAlolanFrames
 	dw MarowakAlolanFrames
 
 	dw EChiyuriGalarianFrames
-	dw PonytaGalarianFrames
-	dw RapidashGalarianFrames
-	dw SlowpokeGalarianFrames
-	dw SlowbroGalarianFrames
+	dw CLuizeGalarianFrames
+	dw LuizeGalarianFrames
+	dw ELuizeGalarianFrames
+	dw CAliceGalarianFrames
 	dw FarfetchDGalarianFrames
 	dw WeezingGalarianFrames
 	dw MrMimeGalarianFrames
@@ -397,8 +397,8 @@ FramesPointers:
 
 	dw EOrangeHisuianFrames
 	dw CKurumiHisuianFrames
-	dw VoltorbHisuianFrames
-	dw ElectrodeHisuianFrames
+	dw EDaichanHisuianFrames
+	dw CCirnoHisuianFrames
 	dw EReisenHisuianFrames
 	dw QwilfishHisuianFrames
 	dw SneaselHisuianFrames

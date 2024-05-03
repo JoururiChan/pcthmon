@@ -24,7 +24,7 @@ KurtsHouse_MapScriptHeader:
 	object_event  5,  3, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, KurtsGranddaughter1, EVENT_KURTS_HOUSE_GRANDDAUGHTER_1
 	object_event 14,  3, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Kurt2, EVENT_KURTS_HOUSE_KURT_2
 	object_event 11,  4, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, KurtsGranddaughter2, EVENT_KURTS_HOUSE_GRANDDAUGHTER_2
-	pokemon_event  6,  3, SLOWPOKE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, KurtsHouseSlowpokeText, EVENT_KURTS_HOUSE_SLOWPOKE
+	pokemon_event  6,  3, ELUIZE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, KurtsHouseELuizeText, EVENT_KURTS_HOUSE_ELUIZE
 
 	object_const_def
 	const KURTSHOUSE_KURT1
@@ -33,7 +33,7 @@ KurtsHouse_MapScriptHeader:
 	const KURTSHOUSE_TWIN2
 
 KurtsHouseKurtCallback:
-	checkevent EVENT_CLEARED_SLOWPOKE_WELL
+	checkevent EVENT_CLEARED_ELUIZE_WELL
 	iffalsefwd .Done
 	checkevent EVENT_FOREST_IS_RESTLESS
 	iftruefwd .Done
@@ -58,13 +58,13 @@ Kurt1:
 	opentext
 	checkevent EVENT_KURT_GAVE_YOU_APRICORN_BOX
 	iftruefwd .GotApricornBox
-	checkevent EVENT_CLEARED_SLOWPOKE_WELL
-	iftruefwd .ClearedSlowpokeWell
+	checkevent EVENT_CLEARED_ELUIZE_WELL
+	iftruefwd .ClearedELuizeWell
 	writetext KurtsHouseKurtMakingBallsMustWaitText
 	waitbutton
 	closetext
 	special Special_FadeOutMusic
-	setevent EVENT_AZALEA_TOWN_SLOWPOKETAIL_ROCKET
+	setevent EVENT_AZALEA_TOWN_ELUIZETAIL_ROCKET
 	readvar VAR_FACING
 	ifequalfwd UP, .RunAround
 	turnobject PLAYER, DOWN
@@ -86,7 +86,7 @@ Kurt1:
 	special RestartMapMusic
 	end
 
-.ClearedSlowpokeWell:
+.ClearedELuizeWell:
 	writetext KurtsHouseKurtHonoredToMakeBallsText
 	promptbutton
 	verbosegivekeyitem APRICORN_BOX
@@ -355,11 +355,11 @@ KurtsGranddaughter1:
 	iftrue_jumptext KurtsGranddaughterLonelyText
 	checkevent EVENT_FAST_SHIP_FIRST_TIME
 	iftrue_jumptext KurtsGranddaughterDadText
-	checkevent EVENT_CLEARED_SLOWPOKE_WELL
-	iftrue_jumptext KurtsGranddaughterSlowpokeBackText
-	checkevent EVENT_AZALEA_TOWN_SLOWPOKETAIL_ROCKET
+	checkevent EVENT_CLEARED_ELUIZE_WELL
+	iftrue_jumptext KurtsGranddaughterELuizeBackText
+	checkevent EVENT_AZALEA_TOWN_ELUIZETAIL_ROCKET
 	iftrue_jumptext KurtsGranddaughterLonelyText
-	jumptext KurtsGranddaughterSlowpokeGoneText
+	jumptext KurtsGranddaughterELuizeGoneText
 
 KurtsGranddaughter2:
 	faceplayer
@@ -465,14 +465,14 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	para "Anyway, they're at"
 	line "the well, cutting"
 
-	para "off SlowpokeTails"
+	para "off ELuizeTails"
 	line "for sale!"
 
 	para "So I'm going to"
 	line "go give them a"
 	cont "lesson in pain!"
 
-	para "Hang on, Slowpoke!"
+	para "Hang on, ELuize!"
 	line "Old Kurt is on his"
 	cont "way!"
 	done
@@ -601,8 +601,8 @@ KurtsHouseKurtThisBallStartedToShakeText:
 	line "something to this!"
 	done
 
-KurtsGranddaughterSlowpokeGoneText:
-	text "The Slowpoke are"
+KurtsGranddaughterELuizeGoneText:
+	text "The ELuize are"
 	line "gone… Were they"
 
 	para "taken away by bad"
@@ -614,8 +614,8 @@ KurtsGranddaughterLonelyText:
 	line "I'm so lonely…"
 	done
 
-KurtsGranddaughterSlowpokeBackText:
-	text "The Slowpoke my"
+KurtsGranddaughterELuizeBackText:
+	text "The ELuize my"
 	line "dad gave me came"
 
 	para "back! Its tail is"
@@ -629,7 +629,7 @@ KurtsGranddaughterDadText:
 
 	para "I have to stay"
 	line "home with Grandpa"
-	cont "and Slowpoke."
+	cont "and ELuize."
 	done
 
 KurtsGranddaughterHelpText:
@@ -654,8 +654,8 @@ KurtsGranddaughterGSBallText:
 	line "till he's done."
 	done
 
-KurtsHouseSlowpokeText:
-	text "Slowpoke: …"
+KurtsHouseELuizeText:
+	text "ELuize: …"
 	line "Yawn?"
 	done
 

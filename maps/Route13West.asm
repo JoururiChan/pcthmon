@@ -78,7 +78,7 @@ GenericTrainerHikerKenny:
 HikerKennySeenText:
 	text "I should go to"
 	line "Rock Tunnel to get"
-	cont "myself an Onix."
+	cont "myself an CRumia."
 	done
 
 HikerKennyBeatenText:

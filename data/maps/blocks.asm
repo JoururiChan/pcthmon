@@ -159,7 +159,7 @@ EcruteakItemfinderHouse_BlockData:
 EcruteakCherishBallHouse_BlockData:
 EcruteakDestinyKnotHouse_BlockData:
 VioletNicknameSpeechHouse_BlockData:
-VioletOnixTradeHouse_BlockData:
+VioletCRumiaTradeHouse_BlockData:
 ValeriesHouse_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lz"
 
@@ -390,17 +390,17 @@ SECTION "KurtsHouse_BlockData", ROMX
 KurtsHouse_BlockData:
 	INCBIN "maps/KurtsHouse.ablk.lz"
 
-SECTION "SlowpokeWellEntrance_BlockData", ROMX
-SlowpokeWellEntrance_BlockData:
-	INCBIN "maps/SlowpokeWellEntrance.ablk.lz"
+SECTION "ELuizeWellEntrance_BlockData", ROMX
+ELuizeWellEntrance_BlockData:
+	INCBIN "maps/ELuizeWellEntrance.ablk.lz"
 
-SECTION "SlowpokeWellB1F_BlockData", ROMX
-SlowpokeWellB1F_BlockData:
-	INCBIN "maps/SlowpokeWellB1F.ablk.lz"
+SECTION "ELuizeWellB1F_BlockData", ROMX
+ELuizeWellB1F_BlockData:
+	INCBIN "maps/ELuizeWellB1F.ablk.lz"
 
-SECTION "SlowpokeWellB2F_BlockData", ROMX
-SlowpokeWellB2F_BlockData:
-	INCBIN "maps/SlowpokeWellB2F.ablk.lz"
+SECTION "ELuizeWellB2F_BlockData", ROMX
+ELuizeWellB2F_BlockData:
+	INCBIN "maps/ELuizeWellB2F.ablk.lz"
 
 SECTION "IlexForest_BlockData", ROMX
 IlexForest_BlockData:

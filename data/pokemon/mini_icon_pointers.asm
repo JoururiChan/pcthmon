@@ -77,34 +77,34 @@ MiniIconPointers:
 	mini_icon CGengetsu
 	mini_icon Gengetsu
 	mini_icon EGengetsu
-	mini_icon Geodude
-	mini_icon Graveler
-	mini_icon Golem
-	mini_icon Ponyta
-	mini_icon Rapidash
-	mini_icon Slowpoke
-	mini_icon Slowbro
-	mini_icon Magnemite
-	mini_icon Magneton
+	mini_icon CSara
+	mini_icon Sara
+	mini_icon ESara
+	mini_icon CLuize
+	mini_icon Luize
+	mini_icon ELuize
+	mini_icon CAlice
+	mini_icon Alice
+	mini_icon EAlice
 	mini_icon FarfetchD
-	mini_icon Doduo
-	mini_icon Dodrio
-	mini_icon Seel
-	mini_icon Dewgong
-	mini_icon Grimer
-	mini_icon Muk
-	mini_icon Shellder
-	mini_icon Cloyster
-	mini_icon Gastly
-	mini_icon Haunter
-	mini_icon Gengar
-	mini_icon Onix
-	mini_icon Drowzee
-	mini_icon Hypno
-	mini_icon Krabby
-	mini_icon Kingler
-	mini_icon Voltorb
-	mini_icon Electrode
+	mini_icon Mai
+	mini_icon EMai
+	mini_icon CYuki
+	mini_icon Yuki
+	mini_icon EYuki
+	mini_icon CYumeko
+	mini_icon Yumeko
+	mini_icon EYumeko
+	mini_icon CShinki
+	mini_icon Shinki
+	mini_icon EShinki
+	mini_icon CRumia
+	mini_icon Rumia
+	mini_icon ERumia
+	mini_icon CDaichan
+	mini_icon Daichan
+	mini_icon EDaichan
+	mini_icon CCirno
 	mini_icon Exeggcute
 	mini_icon Exeggutor
 	mini_icon Cubone
@@ -361,19 +361,19 @@ endr
 	mini_icon ChiyuriAlolan
 	mini_icon EChiyuriAlolan
 	mini_icon CYumemiAlolan
-	mini_icon GeodudeAlolan
-	mini_icon GravelerAlolan
-	mini_icon GolemAlolan
-	mini_icon GrimerAlolan
-	mini_icon MukAlolan
+	mini_icon CSaraAlolan
+	mini_icon SaraAlolan
+	mini_icon ESaraAlolan
+	mini_icon EYukiAlolan
+	mini_icon CYumekoAlolan
 	mini_icon ExeggutorAlolan
 	mini_icon MarowakAlolan
 
 	mini_icon EChiyuriGalarian
-	mini_icon PonytaGalarian
-	mini_icon RapidashGalarian
-	mini_icon SlowpokeGalarian
-	mini_icon SlowbroGalarian
+	mini_icon CLuizeGalarian
+	mini_icon LuizeGalarian
+	mini_icon ELuizeGalarian
+	mini_icon CAliceGalarian
 	mini_icon FarfetchDGalarian
 	mini_icon WeezingGalarian
 	mini_icon MrMimeGalarian
@@ -385,8 +385,8 @@ endr
 
 	mini_icon EOrangeHisuian
 	mini_icon CKurumiHisuian
-	mini_icon VoltorbHisuian
-	mini_icon ElectrodeHisuian
+	mini_icon EDaichanHisuian
+	mini_icon CCirnoHisuian
 	mini_icon EReisenHisuian
 	mini_icon QwilfishHisuian
 	mini_icon SneaselHisuian

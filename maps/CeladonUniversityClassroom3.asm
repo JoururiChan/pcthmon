@@ -72,14 +72,14 @@ CeladonUniversityClassroom3ChildText:
 
 CeladonUniversityClassroom3LassText:
 	text "My instructor said"
-	line "that Magneton is a"
+	line "that EAlice is a"
 
 	para "union of three"
-	line "Magnemite, but"
+	line "Alice, but"
 
-	para "Magneton is 10"
+	para "EAlice is 10"
 	line "times heavier than"
-	cont "Magnemite."
+	cont "Alice."
 
 	para "How does that"
 	line "work?!"

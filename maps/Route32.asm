@@ -18,7 +18,7 @@ Route32_MapScriptHeader:
 	coord_event 11, 24, 1, Route32LyraIntroducesHiddenGrottoes2
 	coord_event 12, 24, 1, Route32LyraIntroducesHiddenGrottoes3
 	coord_event 13, 24, 1, Route32LyraIntroducesHiddenGrottoes4
-	coord_event  7, 71, 2, Route32WannaBuyASlowpokeTailScript
+	coord_event  7, 71, 2, Route32WannaBuyAELuizeTailScript
 
 	def_bg_events
 	bg_event 13,  5, BGEVENT_JUMPTEXT, Route32SignText
@@ -36,7 +36,7 @@ Route32_MapScriptHeader:
 
 	def_object_events
 	object_event 19,  8, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route32CooltrainermPetrieScript, -1
-	object_event  7, 70, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, SlowpokeTailSalesmanScript, EVENT_SLOWPOKE_WELL_ROCKETS
+	object_event  7, 70, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ELuizeTailSalesmanScript, EVENT_ELUIZE_WELL_ROCKETS
 	object_event 12, 67, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, FriedaScript, EVENT_ROUTE_32_FRIEDA_OF_FRIDAY
 	object_event 13, 29, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LYRA_ROUTE_32
 	object_event  8, 49, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerFisherJustin, -1
@@ -409,23 +409,23 @@ Route32LyraIntroducesHiddenGrottoesOutroScript:
 	step_down
 	step_end
 
-Route32WannaBuyASlowpokeTailScript:
+Route32WannaBuyAELuizeTailScript:
 	turnobject ROUTE32_FISHER4, DOWN
 	turnobject PLAYER, UP
-	sjumpfwd _OfferToSellSlowpokeTail
+	sjumpfwd _OfferToSellELuizeTail
 
-SlowpokeTailSalesmanScript:
+ELuizeTailSalesmanScript:
 	faceplayer
-_OfferToSellSlowpokeTail:
+_OfferToSellELuizeTail:
 	setscene $3
 	opentext
-	writetext Text_MillionDollarSlowpokeTail
+	writetext Text_MillionDollarELuizeTail
 	yesorno
 	iffalsefwd .refused
 	jumpopenedtext Text_ThoughtKidsWereLoaded
 
 .refused
-	jumpopenedtext Text_RefusedToBuySlowpokeTail
+	jumpopenedtext Text_RefusedToBuyELuizeTail
 
 Route32RoarTMGuyScript:
 	faceplayer
@@ -758,12 +758,12 @@ Route32CooltrainerMText_VioletGym:
 	cont "trainers!"
 	done
 
-Text_MillionDollarSlowpokeTail:
+Text_MillionDollarELuizeTail:
 	text "How would you like"
 	line "to have this"
 
 	para "tasty, nutritious"
-	line "SlowpokeTail?"
+	line "ELuizeTail?"
 
 	para "For you right now,"
 	line "just ¥10,000,000!"
@@ -777,7 +777,7 @@ Text_ThoughtKidsWereLoaded:
 	cont "were loaded…"
 	done
 
-Text_RefusedToBuySlowpokeTail:
+Text_RefusedToBuyELuizeTail:
 	text "You don't want it?"
 	line "Then scram. Shoo!"
 	done

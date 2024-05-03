@@ -1322,7 +1322,7 @@ ENDM
 
 .ValidBattleItemTable:
 	species_battle_item LIGHT_BALL, EKIKURI
-	species_battle_item LEEK, FARFETCH_D
+	species_battle_item LEEK, CMAI
 	species_battle_item LEEK, SIRFETCH_D
 	species_battle_item LUCKY_PUNCH, CHANSEY
 	species_battle_item QUICK_POWDER, DITTO

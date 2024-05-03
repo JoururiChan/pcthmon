@@ -13,7 +13,7 @@ SpriteAnimFrameData:
 	dw .Frameset_TextEntryCursorBlue
 	dw .Frameset_TextEntryCursorBlueBig
 	dw .Frameset_GameFreakLogo
-	dw .Frameset_SlotsGolem
+	dw .Frameset_SlotsESara
 	dw .Frameset_SlotsChansey
 	dw .Frameset_SlotsChansey2
 	dw .Frameset_SlotsEgg
@@ -60,7 +60,7 @@ SpriteAnimFrameData:
 	dw .Frameset_PcPack
 	dw .Frameset_DexCursor
 	dw .Frameset_DexUnownCursor
-	dw .Frameset_DexSlowpoke
+	dw .Frameset_DexELuize
 	dw .Frameset_TownMapFly
 	dw .Frameset_GreenWalk
 	assert_table_length NUM_SPRITE_ANIM_FRAMESETS
@@ -158,11 +158,11 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_GAMEFREAK_LOGO_11,  7
 	oamend
 
-.Frameset_SlotsGolem:
-	oamframe SPRITE_ANIM_OAMSET_SLOTS_GOLEM_1,  7
-	oamframe SPRITE_ANIM_OAMSET_SLOTS_GOLEM_2,  7
-	oamframe SPRITE_ANIM_OAMSET_SLOTS_GOLEM_1,  7, OAM_Y_FLIP
-	oamframe SPRITE_ANIM_OAMSET_SLOTS_GOLEM_2,  7, OAM_X_FLIP
+.Frameset_SlotsESara:
+	oamframe SPRITE_ANIM_OAMSET_SLOTS_ESARA_1,  7
+	oamframe SPRITE_ANIM_OAMSET_SLOTS_ESARA_2,  7
+	oamframe SPRITE_ANIM_OAMSET_SLOTS_ESARA_1,  7, OAM_Y_FLIP
+	oamframe SPRITE_ANIM_OAMSET_SLOTS_ESARA_2,  7, OAM_X_FLIP
 	oamrestart
 
 .Frameset_SlotsChansey:
@@ -389,12 +389,12 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_DEX_UNOWN_CURSOR, 32
 	oamrestart
 
-.Frameset_DexSlowpoke:
-	oamframe SPRITE_ANIM_OAMSET_DEX_SLOWPOKE_1, 3
-	oamframe SPRITE_ANIM_OAMSET_DEX_SLOWPOKE_2, 3
-	oamframe SPRITE_ANIM_OAMSET_DEX_SLOWPOKE_3, 3
-	oamframe SPRITE_ANIM_OAMSET_DEX_SLOWPOKE_4, 3
-	oamframe SPRITE_ANIM_OAMSET_DEX_SLOWPOKE_5, 3
+.Frameset_DexELuize:
+	oamframe SPRITE_ANIM_OAMSET_DEX_ELUIZE_1, 3
+	oamframe SPRITE_ANIM_OAMSET_DEX_ELUIZE_2, 3
+	oamframe SPRITE_ANIM_OAMSET_DEX_ELUIZE_3, 3
+	oamframe SPRITE_ANIM_OAMSET_DEX_ELUIZE_4, 3
+	oamframe SPRITE_ANIM_OAMSET_DEX_ELUIZE_5, 3
 	oamrestart
 
 .Frameset_TownMapFly:

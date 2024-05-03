@@ -22,7 +22,7 @@ Route25_MapScriptHeader:
 	itemball_event 25,  4, PROTEIN, 1, EVENT_ROUTE_25_PROTEIN
 	cuttree_event 28,  6, EVENT_ROUTE_25_CUT_TREE
 	object_event 20,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route25MewYoungsterText, -1
-	object_event 21,  4, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, SLOWPOKE, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, Route25SlowpokeScript, -1
+	object_event 21,  4, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ELUIZE, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, Route25ELuizeScript, -1
 
 	object_const_def
 	const ROUTE25_COOLTRAINERM_BEFORE
@@ -77,12 +77,12 @@ GenericTrainerSupernerdPat:
 	line "cheat anymore…"
 	done
 
-Route25SlowpokeScript:
+Route25ELuizeScript:
 	opentext
-	writetext Route25SlowpokeText1
+	writetext Route25ELuizeText1
 	pause 60
-	writetext Route25SlowpokeText2
-	cry SLOWPOKE
+	writetext Route25ELuizeText2
+	cry ELUIZE
 	waitendtext
 
 TrainerCooltrainermKevin:
@@ -202,17 +202,17 @@ Route25MewYoungsterText:
 	line "Mew around here!"
 
 	para "You don't believe"
-	line "me? Slowpoke saw"
+	line "me? ELuize saw"
 	cont "it too!"
 	done
 
-Route25SlowpokeText1:
-	text "Slowpoke: …"
+Route25ELuizeText1:
+	text "ELuize: …"
 
 	para "…… …… ……"
 	done
 
-Route25SlowpokeText2:
+Route25ELuizeText2:
 	text "…… ……Yawn?"
 	done
 

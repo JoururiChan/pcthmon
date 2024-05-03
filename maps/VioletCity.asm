@@ -10,7 +10,7 @@ VioletCity_MapScriptHeader:
 	warp_event 30, 17, EARLS_POKEMON_ACADEMY, 1
 	warp_event  3, 15, VIOLET_NICKNAME_SPEECH_HOUSE, 1
 	warp_event 31, 25, VIOLET_POKECENTER_1F, 1
-	warp_event 21, 29, VIOLET_ONIX_TRADE_HOUSE, 1
+	warp_event 21, 29, VIOLET_CRUMIA_TRADE_HOUSE, 1
 	warp_event 23,  1, SPROUT_TOWER_1F, 1
 	warp_event 39, 24, ROUTE_31_VIOLET_GATE, 1
 	warp_event 39, 25, ROUTE_31_VIOLET_GATE, 2

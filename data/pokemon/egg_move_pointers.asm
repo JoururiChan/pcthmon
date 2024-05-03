@@ -73,34 +73,34 @@ EggMovePointers::
 	dw NoEggMoves             ; CGengetsu
 	dw GengetsuEggMoves      ; Gengetsu
 	dw NoEggMoves             ; EGengetsu
-	dw GeodudePlainEggMoves   ; Geodude
-	dw NoEggMoves             ; Graveler
-	dw NoEggMoves             ; Golem
-	dw PonytaPlainEggMoves    ; Ponyta
-	dw NoEggMoves             ; Rapidash
-	dw SlowpokePlainEggMoves  ; Slowpoke
-	dw NoEggMoves             ; Slowbro
-	dw NoEggMoves             ; Magnemite
-	dw NoEggMoves             ; Magneton
+	dw CSaraPlainEggMoves   ; CSara
+	dw NoEggMoves             ; Sara
+	dw NoEggMoves             ; ESara
+	dw CLuizePlainEggMoves    ; CLuize
+	dw NoEggMoves             ; Luize
+	dw ELuizePlainEggMoves  ; ELuize
+	dw NoEggMoves             ; CAlice
+	dw NoEggMoves             ; Alice
+	dw NoEggMoves             ; EAlice
 	dw FarfetchDPlainEggMoves ; FarfetchD
-	dw DoduoEggMoves          ; Doduo
-	dw NoEggMoves             ; Dodrio
-	dw SeelEggMoves           ; Seel
-	dw NoEggMoves             ; Dewgong
-	dw GrimerPlainEggMoves    ; Grimer
-	dw NoEggMoves             ; Muk
-	dw ShellderEggMoves       ; Shellder
-	dw NoEggMoves             ; Cloyster
-	dw GastlyEggMoves         ; Gastly
-	dw NoEggMoves             ; Haunter
-	dw NoEggMoves             ; Gengar
-	dw OnixEggMoves           ; Onix
-	dw DrowzeeEggMoves        ; Drowzee
-	dw NoEggMoves             ; Hypno
-	dw KrabbyEggMoves         ; Krabby
-	dw NoEggMoves             ; Kingler
-	dw NoEggMoves             ; Voltorb
-	dw NoEggMoves             ; Electrode
+	dw MaiEggMoves          ; Mai
+	dw NoEggMoves             ; EMai
+	dw CYukiEggMoves           ; CYuki
+	dw NoEggMoves             ; Yuki
+	dw EYukiPlainEggMoves    ; EYuki
+	dw NoEggMoves             ; CYumeko
+	dw YumekoEggMoves       ; Yumeko
+	dw NoEggMoves             ; EYumeko
+	dw CShinkiEggMoves         ; CShinki
+	dw NoEggMoves             ; Shinki
+	dw NoEggMoves             ; EShinki
+	dw CRumiaEggMoves           ; CRumia
+	dw RumiaEggMoves        ; Rumia
+	dw NoEggMoves             ; ERumia
+	dw CDaichanEggMoves         ; CDaichan
+	dw NoEggMoves             ; Daichan
+	dw NoEggMoves             ; EDaichan
+	dw NoEggMoves             ; CCirno
 	dw ExeggcuteEggMoves      ; Exeggcute
 	dw NoEggMoves             ; Exeggutor
 	dw CuboneEggMoves         ; Cubone
@@ -310,19 +310,19 @@ EggMovePointers::
 	dw NoEggMoves                ; Chiyuri (Alolan Form)
 	dw EChiyuriAlolanEggMoves      ; EChiyuri (Alolan Form)
 	dw NoEggMoves                ; CYumemi (Alolan Form)
-	dw GeodudeAlolanEggMoves     ; Geodude (Alolan Form)
-	dw NoEggMoves                ; Graveler (Alolan Form)
-	dw NoEggMoves                ; Golem (Alolan Form)
-	dw GrimerAlolanEggMoves      ; Grimer (Alolan Form)
-	dw NoEggMoves                ; Muk (Alolan Form)
+	dw CSaraAlolanEggMoves     ; CSara (Alolan Form)
+	dw NoEggMoves                ; Sara (Alolan Form)
+	dw NoEggMoves                ; ESara (Alolan Form)
+	dw EYukiAlolanEggMoves      ; EYuki (Alolan Form)
+	dw NoEggMoves                ; CYumeko (Alolan Form)
 	dw NoEggMoves                ; Exeggutor (Alolan Form)
 	dw NoEggMoves                ; Marowak (Alolan Form)
 
 	dw EChiyuriGalarianEggMoves    ; EChiyuri (Galarian Form)
-	dw PonytaGalarianEggMoves    ; Ponyta (Galarian Form)
-	dw NoEggMoves                ; Rapidash (Galarian Form)
-	dw SlowpokeGalarianEggMoves  ; Slowpoke (Galarian Form)
-	dw NoEggMoves                ; Slowbro (Galarian Form)
+	dw CLuizeGalarianEggMoves    ; CLuize (Galarian Form)
+	dw NoEggMoves                ; Luize (Galarian Form)
+	dw ELuizeGalarianEggMoves  ; ELuize (Galarian Form)
+	dw NoEggMoves                ; CAlice (Galarian Form)
 	dw FarfetchDGalarianEggMoves ; Farfetch'D (Galarian Form)
 	dw NoEggMoves                ; Weezing (Galarian Form)
 	dw NoEggMoves                ; Mr.Mime (Galarian Form)
@@ -334,8 +334,8 @@ EggMovePointers::
 
 	dw EOrangeHisuianEggMoves  ; EOrange (Hisuian Form)
 	dw NoEggMoves                ; CKurumi (Hisuian Form)
-	dw NoEggMoves                ; Voltorb (Hisuian Form)
-	dw NoEggMoves                ; Electrode (Hisuian Form)
+	dw NoEggMoves                ; EDaichan (Hisuian Form)
+	dw NoEggMoves                ; CCirno (Hisuian Form)
 	dw NoEggMoves                ; EReisen (Hisuian Form)
 	dw QwilfishHisuianEggMoves   ; Qwilfish (Hisuian Form)
 	dw SneaselHisuianEggMoves    ; Sneasel (Hisuian Form)

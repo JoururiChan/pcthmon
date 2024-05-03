@@ -76,7 +76,7 @@ SetFacingMicrophone:
 
 SetFacingBigDoll:
 	ld a, [wVariableSprites + SPRITE_BIG_DOLL - SPRITE_VARS]
-	cp SPRITE_BIG_ONIX
+	cp SPRITE_BIG_CRUMIA
 	ld a, FACING_BIG_DOLL_ASYM
 	jr z, SetFixedFacing
 SetFacingBigDollSym:

@@ -229,7 +229,7 @@ GenericTrainerBug_catcherJosh:
 
 .SeenText:
 	text "You saved all the"
-	line "Slowpoke? Whew,"
+	line "ELuize? Whew,"
 	cont "you're mighty!"
 
 	para "But my grown-up"

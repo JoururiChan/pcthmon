@@ -3,7 +3,7 @@
 	def_water_wildmons TOHJO_FALLS
 	db 4 percent ; encounter rate
 	wildmon  20, GOLDEEN
-	wildmon  20, SLOWPOKE
+	wildmon  20, ELUIZE
 	wildmon  20, SEAKING
 	end_water_wildmons
 
@@ -115,7 +115,7 @@
 	def_water_wildmons ROUTE_23
 	db 6 percent ; encounter rate
 	wildmon  35, EGENGETSU
-	wildmon  35, KINGLER
+	wildmon  35, DAICHAN
 	wildmon  35, GYARADOS
 	end_water_wildmons
 
@@ -184,9 +184,9 @@
 
 	def_water_wildmons CELADON_CITY
 	db 2 percent ; encounter rate
-	wildmon  55, GRIMER
-	wildmon  50, GRIMER
-	wildmon  55, MUK
+	wildmon  55, EYUKI
+	wildmon  50, EYUKI
+	wildmon  55, CYUMEKO
 	end_water_wildmons
 
 	def_water_wildmons FUCHSIA_CITY
@@ -207,7 +207,7 @@
 	db 4 percent ; encounter rate
 	wildmon  48, MAGIKARP
 	wildmon  52, EKURUMI
-	wildmon  54, KINGLER
+	wildmon  54, DAICHAN
 	end_water_wildmons
 
 	def_water_wildmons URAGA_CHANNEL_EAST
@@ -234,7 +234,7 @@
 	def_water_wildmons SCARY_CAVE_SHIPWRECK
 	db 6 percent ; encounter rate
 	wildmon  54, MISDREAVUS
-	wildmon  56, HAUNTER
+	wildmon  56, SHINKI
 	wildmon  58, LANTURN
 	end_water_wildmons
 
@@ -247,7 +247,7 @@
 
 	def_water_wildmons CERULEAN_CAVE_1F
 	db 6 percent ; encounter rate
-	wildmon  60, SLOWBRO
+	wildmon  60, CALICE
 	wildmon  63, EYUMEMI
 	wildmon  66, GYARADOS
 	end_water_wildmons
@@ -261,30 +261,30 @@
 
 	def_water_wildmons SAFARI_ZONE_HUB
 	db 6 percent ; encounter rate
-	wildmon  55, SLOWBRO
+	wildmon  55, CALICE
 	wildmon  55, EYUMEMI
-	wildmon  55, KINGLER
+	wildmon  55, DAICHAN
 	end_water_wildmons
 
 	def_water_wildmons SAFARI_ZONE_EAST
 	db 6 percent ; encounter rate
-	wildmon  55, SLOWBRO
+	wildmon  55, CALICE
 	wildmon  55, EYUMEMI
-	wildmon  55, KINGLER
+	wildmon  55, DAICHAN
 	end_water_wildmons
 
 	def_water_wildmons SAFARI_ZONE_NORTH
 	db 6 percent ; encounter rate
-	wildmon  55, SLOWBRO
+	wildmon  55, CALICE
 	wildmon  55, EYUMEMI
 	wildmon  40, DRAGONAIR
 	end_water_wildmons
 
 	def_water_wildmons SEAFOAM_ISLANDS_B4F
 	db 6 percent ; encounter rate
-	wildmon  55, SEEL
+	wildmon  55, CYUKI
 	wildmon  55, HORSEA
-	wildmon  60, SLOWBRO
+	wildmon  60, CALICE
 	end_water_wildmons
 
 	db -1 ; end

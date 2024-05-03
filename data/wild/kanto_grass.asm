@@ -32,26 +32,26 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 55, KOTOHIME
-	wildmon 56, GRAVELER
+	wildmon 56, SARA
 	wildmon 56, ESARIEL
 	wildmon 56, CRIKAKO
-	wildmon 57, GRAVELER
+	wildmon 57, SARA
 	wildmon 58, CMEIRA
 	wildmon 60, MEIRA
 	; day
 	wildmon 55, KOTOHIME
-	wildmon 56, GRAVELER
+	wildmon 56, SARA
 	wildmon 56, ESARIEL
 	wildmon 56, CRIKAKO
-	wildmon 57, GRAVELER
+	wildmon 57, SARA
 	wildmon 58, CMEIRA
 	wildmon 60, MEIRA
 	; nite
 	wildmon 55, KOTOHIME
-	wildmon 56, GRAVELER
+	wildmon 56, SARA
 	wildmon 56, CMEIRA
 	wildmon 56, CRIKAKO
-	wildmon 57, GRAVELER
+	wildmon 57, SARA
 	wildmon 58, CMEIRA
 	wildmon 60, MEIRA
 	end_grass_wildmons
@@ -60,26 +60,26 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 55, KOTOHIME
-	wildmon 56, GRAVELER
+	wildmon 56, SARA
 	wildmon 56, ESARIEL
 	wildmon 56, CRIKAKO
-	wildmon 57, GRAVELER
+	wildmon 57, SARA
 	wildmon 58, CMEIRA
 	wildmon 60, MEIRA
 	; day
 	wildmon 55, KOTOHIME
-	wildmon 56, GRAVELER
+	wildmon 56, SARA
 	wildmon 56, ESARIEL
 	wildmon 56, CRIKAKO
-	wildmon 57, GRAVELER
+	wildmon 57, SARA
 	wildmon 58, CMEIRA
 	wildmon 60, MEIRA
 	; nite
 	wildmon 55, KOTOHIME
-	wildmon 56, GRAVELER
+	wildmon 56, SARA
 	wildmon 56, CMEIRA
 	wildmon 56, CRIKAKO
-	wildmon 57, GRAVELER
+	wildmon 57, SARA
 	wildmon 58, CMEIRA
 	wildmon 60, MEIRA
 	end_grass_wildmons
@@ -88,26 +88,26 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 55, KOTOHIME
-	wildmon 56, GRAVELER
+	wildmon 56, SARA
 	wildmon 56, ESARIEL
 	wildmon 56, CRIKAKO
-	wildmon 57, GRAVELER
+	wildmon 57, SARA
 	wildmon 58, CMEIRA
 	wildmon 60, MEIRA
 	; day
 	wildmon 55, KOTOHIME
-	wildmon 56, GRAVELER
+	wildmon 56, SARA
 	wildmon 56, ESARIEL
 	wildmon 56, CRIKAKO
-	wildmon 57, GRAVELER
+	wildmon 57, SARA
 	wildmon 58, CMEIRA
 	wildmon 60, MEIRA
 	; nite
 	wildmon 55, KOTOHIME
-	wildmon 56, GRAVELER
+	wildmon 56, SARA
 	wildmon 56, CMEIRA
 	wildmon 56, CRIKAKO
-	wildmon 57, GRAVELER
+	wildmon 57, SARA
 	wildmon 58, CMEIRA
 	wildmon 60, MEIRA
 	end_grass_wildmons
@@ -116,26 +116,26 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 49, MAROWAK
-	wildmon 50, GRAVELER
-	wildmon 51, GRAVELER
-	wildmon 51, ONIX
+	wildmon 50, SARA
+	wildmon 51, SARA
+	wildmon 51, CRUMIA
 	wildmon 51, KOTOHIME
 	wildmon 54, EYUKA
 	wildmon 51, MAROWAK
 	; day
 	wildmon 49, MAROWAK
-	wildmon 50, GRAVELER
-	wildmon 51, GRAVELER
-	wildmon 51, ONIX
+	wildmon 50, SARA
+	wildmon 51, SARA
+	wildmon 51, CRUMIA
 	wildmon 51, KOTOHIME
 	wildmon 54, EYUKA
 	wildmon 51, MAROWAK
 	; nite
 	wildmon 49, MAROWAK
-	wildmon 50, GRAVELER
-	wildmon 51, GRAVELER
-	wildmon 51, ONIX
-	wildmon 54, HAUNTER
+	wildmon 50, SARA
+	wildmon 51, SARA
+	wildmon 51, CRUMIA
+	wildmon 54, SHINKI
 	wildmon 51, KOTOHIME
 	wildmon 51, KOTOHIME
 	end_grass_wildmons
@@ -144,27 +144,27 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 50, MAROWAK
-	wildmon 51, GRAVELER
-	wildmon 52, ONIX
+	wildmon 51, SARA
+	wildmon 52, CRUMIA
 	wildmon 52, KOTOHIME
 	wildmon 55, EYUKA
-	wildmon 52, GRAVELER
+	wildmon 52, SARA
 	wildmon 52, STEELIX
 	; day
 	wildmon 50, MAROWAK
-	wildmon 51, GRAVELER
-	wildmon 52, ONIX
+	wildmon 51, SARA
+	wildmon 52, CRUMIA
 	wildmon 52, KOTOHIME
 	wildmon 55, EYUKA
-	wildmon 52, GRAVELER
+	wildmon 52, SARA
 	wildmon 52, STEELIX
 	; nite
 	wildmon 50, MAROWAK
-	wildmon 51, GRAVELER
-	wildmon 52, ONIX
-	wildmon 52, HAUNTER
+	wildmon 51, SARA
+	wildmon 52, CRUMIA
+	wildmon 52, SHINKI
 	wildmon 55, KOTOHIME
-	wildmon 52, GRAVELER
+	wildmon 52, SARA
 	wildmon 52, STEELIX
 	end_grass_wildmons
 
@@ -172,54 +172,54 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 52, MAROWAK
-	wildmon 54, GRAVELER
+	wildmon 54, SARA
 	wildmon 52, KOTOHIME
 	wildmon 54, EYUKA
-	wildmon 55, GRAVELER
+	wildmon 55, SARA
 	wildmon 55, KANGASKHAN
 	wildmon 56, KANGASKHAN
 	; day
 	wildmon 52, MAROWAK
-	wildmon 54, GRAVELER
+	wildmon 54, SARA
 	wildmon 52, KOTOHIME
 	wildmon 54, EYUKA
-	wildmon 55, GRAVELER
+	wildmon 55, SARA
 	wildmon 55, KANGASKHAN
 	wildmon 56, KANGASKHAN
 	; nite
 	wildmon 52, KOTOHIME
-	wildmon 54, GRAVELER
-	wildmon 52, GRAVELER
+	wildmon 54, SARA
+	wildmon 52, SARA
 	wildmon 54, EYUKA
 	wildmon 55, KOTOHIME
-	wildmon 55, HAUNTER
-	wildmon 56, HAUNTER
+	wildmon 55, SHINKI
+	wildmon 56, SHINKI
 	end_grass_wildmons
 
 	def_grass_wildmons VICTORY_ROAD_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 43, GRAVELER
+	wildmon 43, SARA
 	wildmon 42, RHYHORN
-	wildmon 41, ONIX
+	wildmon 41, CRUMIA
 	wildmon 42, KOTOHIME
 	wildmon 44, ESARIEL
 	wildmon 46, RHYDON
 	wildmon 45, STEELIX
 	; day
-	wildmon 43, GRAVELER
+	wildmon 43, SARA
 	wildmon 42, RHYHORN
-	wildmon 41, ONIX
+	wildmon 41, CRUMIA
 	wildmon 42, KOTOHIME
 	wildmon 44, ESARIEL
 	wildmon 46, RHYDON
 	wildmon 45, STEELIX
 	; nite
 	wildmon 43, KOTOHIME
-	wildmon 42, GRAVELER
-	wildmon 41, ONIX
-	wildmon 42, GRAVELER
-	wildmon 44, HAUNTER
+	wildmon 42, SARA
+	wildmon 41, CRUMIA
+	wildmon 42, SARA
+	wildmon 44, SHINKI
 	wildmon 46, STEELIX
 	wildmon 45, RHYDON
 	end_grass_wildmons
@@ -227,27 +227,27 @@
 	def_grass_wildmons VICTORY_ROAD_2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 46, GRAVELER
+	wildmon 46, SARA
 	wildmon 45, RHYHORN
-	wildmon 44, ONIX
+	wildmon 44, CRUMIA
 	wildmon 45, KOTOHIME
 	wildmon 47, ESARIEL
 	wildmon 49, RHYDON
 	wildmon 48, STEELIX
 	; day
-	wildmon 46, GRAVELER
+	wildmon 46, SARA
 	wildmon 45, RHYHORN
-	wildmon 44, ONIX
+	wildmon 44, CRUMIA
 	wildmon 45, KOTOHIME
 	wildmon 47, ESARIEL
 	wildmon 49, RHYDON
 	wildmon 48, STEELIX
 	; nite
 	wildmon 46, KOTOHIME
-	wildmon 45, GRAVELER
-	wildmon 44, ONIX
-	wildmon 45, GRAVELER
-	wildmon 47, HAUNTER
+	wildmon 45, SARA
+	wildmon 44, CRUMIA
+	wildmon 45, SARA
+	wildmon 47, SHINKI
 	wildmon 49, STEELIX
 	wildmon 48, RHYDON
 	end_grass_wildmons
@@ -255,27 +255,27 @@
 	def_grass_wildmons VICTORY_ROAD_3F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 48, GRAVELER
+	wildmon 48, SARA
 	wildmon 47, RHYHORN
-	wildmon 46, ONIX
+	wildmon 46, CRUMIA
 	wildmon 47, KOTOHIME
 	wildmon 48, ESARIEL
 	wildmon 51, RHYDON
 	wildmon 50, STEELIX
 	; day
-	wildmon 48, GRAVELER
+	wildmon 48, SARA
 	wildmon 47, RHYHORN
-	wildmon 46, ONIX
+	wildmon 46, CRUMIA
 	wildmon 47, KOTOHIME
 	wildmon 48, ESARIEL
 	wildmon 51, RHYDON
 	wildmon 50, STEELIX
 	; nite
 	wildmon 48, KOTOHIME
-	wildmon 47, GRAVELER
-	wildmon 46, ONIX
-	wildmon 47, GRAVELER
-	wildmon 48, HAUNTER
+	wildmon 47, SARA
+	wildmon 46, CRUMIA
+	wildmon 47, SARA
+	wildmon 48, SHINKI
 	wildmon 51, STEELIX
 	wildmon 50, RHYDON
 	end_grass_wildmons
@@ -286,26 +286,26 @@
 	wildmon 22, CKOTOHIME
 	wildmon 22, CELIS
 	wildmon 24, KOTOHIME
-	wildmon 21, SLOWPOKE
+	wildmon 21, ELUIZE
 	wildmon 20, EMIMA
-	wildmon 23, SLOWPOKE
-	wildmon 23, SLOWPOKE
+	wildmon 23, ELUIZE
+	wildmon 23, ELUIZE
 	; day
 	wildmon 22, CKOTOHIME
 	wildmon 22, CELIS
 	wildmon 24, KOTOHIME
-	wildmon 21, SLOWPOKE
+	wildmon 21, ELUIZE
 	wildmon 20, EMIMA
-	wildmon 23, SLOWPOKE
-	wildmon 23, SLOWPOKE
+	wildmon 23, ELUIZE
+	wildmon 23, ELUIZE
 	; nite
 	wildmon 22, CKOTOHIME
 	wildmon 22, CELIS
 	wildmon 24, KOTOHIME
-	wildmon 21, SLOWPOKE
+	wildmon 21, ELUIZE
 	wildmon 20, EMIMA
-	wildmon 23, SLOWPOKE
-	wildmon 23, SLOWPOKE
+	wildmon 23, ELUIZE
+	wildmon 23, ELUIZE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_1
@@ -509,7 +509,7 @@
 	; morn
 	wildmon 45, CELIS
 	wildmon 45, GRANBULL
-	wildmon 46, MAGNETON
+	wildmon 46, EALICE
 	wildmon 47, ORANGE
 	wildmon 50, ELLEN
 	wildmon 47, GRANBULL
@@ -517,15 +517,15 @@
 	; day
 	wildmon 45, CELIS
 	wildmon 45, GRANBULL
-	wildmon 46, MAGNETON
+	wildmon 46, EALICE
 	wildmon 47, ORANGE
 	wildmon 50, ELLEN
 	wildmon 47, GRANBULL
 	wildmon 47, EELLEN
 	; nite
 	wildmon 45, CYUMEMI
-	wildmon 45, HYPNO
-	wildmon 46, MAGNETON
+	wildmon 45, ERUMIA
+	wildmon 46, EALICE
 	wildmon 47, YUMEMI
 	wildmon 50, ELLEN
 	wildmon 47, CELIS
@@ -582,7 +582,7 @@
 	wildmon 48, CYUMEMI
 	wildmon 51, NOCTOWL
 	wildmon 53, EELLY
-	wildmon 53, HAUNTER
+	wildmon 53, SHINKI
 	wildmon 53, EMEIRA
 	wildmon 50, EELLY
 	wildmon 50, EELLY
@@ -620,25 +620,25 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 47, EELIS
-	wildmon 49, ELECTRODE
+	wildmon 49, CCIRNO
 	wildmon 47, CELIS
-	wildmon 48, MAGNETON
+	wildmon 48, EALICE
 	wildmon 49, MAROWAK
 	wildmon 50, ELECTABUZZ
 	wildmon 52, ELECTABUZZ
 	; day
 	wildmon 47, EELIS
-	wildmon 49, ELECTRODE
+	wildmon 49, CCIRNO
 	wildmon 47, CELIS
-	wildmon 48, MAGNETON
+	wildmon 48, EALICE
 	wildmon 49, MAROWAK
 	wildmon 50, ELECTABUZZ
 	wildmon 52, ELECTABUZZ
 	; nite
 	wildmon 47, ERIKAKO
-	wildmon 49, ELECTRODE
+	wildmon 49, CCIRNO
 	wildmon 47, CELIS
-	wildmon 48, MAGNETON
+	wildmon 48, EALICE
 	wildmon 49, KOTOHIME
 	wildmon 50, ELECTABUZZ
 	wildmon 52, ELECTABUZZ
@@ -649,7 +649,7 @@
 	; morn
 	wildmon 53, SKIPLOOM
 	wildmon 48, CELIS
-	wildmon 50, MAGNETON
+	wildmon 50, EALICE
 	wildmon 51, CMIMA
 	wildmon 51, ESARIEL
 	wildmon 51, SUNFLORA
@@ -657,19 +657,19 @@
 	; day
 	wildmon 53, SKIPLOOM
 	wildmon 48, CELIS
-	wildmon 50, MAGNETON
+	wildmon 50, EALICE
 	wildmon 51, CMIMA
 	wildmon 51, ESARIEL
 	wildmon 51, SUNFLORA
 	wildmon 53, SUNFLORA
 	; nite
-	wildmon 53, DROWZEE
+	wildmon 53, RUMIA
 	wildmon 48, ECHIYURI
-	wildmon 50, MAGNEMITE
+	wildmon 50, ALICE
 	wildmon 51, NOCTOWL
 	wildmon 51, CELIS
-	wildmon 51, HYPNO
-	wildmon 51, HYPNO
+	wildmon 51, ERUMIA
+	wildmon 51, ERUMIA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_12_SOUTH
@@ -680,16 +680,16 @@
 	wildmon 50, CMIMA
 	wildmon 51, EMUGETSU
 	wildmon 53, EMUGETSU
-	wildmon 52, FARFETCH_D
-	wildmon 54, FARFETCH_D
+	wildmon 52, CMAI
+	wildmon 54, CMAI
 	; day
 	wildmon 50, RIKA
 	wildmon 50, KONGARA
 	wildmon 50, CMIMA
 	wildmon 51, EMUGETSU
 	wildmon 53, EMUGETSU
-	wildmon 52, FARFETCH_D
-	wildmon 54, FARFETCH_D
+	wildmon 52, CMAI
+	wildmon 54, CMAI
 	; nite
 	wildmon 50, ERIKAKO
 	wildmon 50, NOCTOWL
@@ -815,57 +815,57 @@
 	def_grass_wildmons ROUTE_16_WEST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 53, GRIMER
+	wildmon 53, EYUKI
 	wildmon 50, EELIS
 	wildmon 54, SLUGMA
 	wildmon 52, EELIS
 	wildmon 53, MAGCARGO
-	wildmon 54, MUK
-	wildmon 55, MUK
+	wildmon 54, CYUMEKO
+	wildmon 55, CYUMEKO
 	; day
-	wildmon 53, GRIMER
+	wildmon 53, EYUKI
 	wildmon 50, EELIS
 	wildmon 54, SLUGMA
 	wildmon 52, EELIS
 	wildmon 53, MAGCARGO
-	wildmon 54, MUK
-	wildmon 55, MUK
+	wildmon 54, CYUMEKO
+	wildmon 55, CYUMEKO
 	; nite
-	wildmon 53, GRIMER
-	wildmon 50, GRIMER
-	wildmon 54, GRIMER
+	wildmon 53, EYUKI
+	wildmon 50, EYUKI
+	wildmon 54, EYUKI
 	wildmon 52, MURKROW
 	wildmon 53, MURKROW
-	wildmon 54, MUK
-	wildmon 55, MUK
+	wildmon 54, CYUMEKO
+	wildmon 55, CYUMEKO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_16_NORTHWEST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 53, GRIMER
+	wildmon 53, EYUKI
 	wildmon 50, EELIS
 	wildmon 54, SLUGMA
 	wildmon 52, EELIS
 	wildmon 53, MAGCARGO
-	wildmon 54, MUK
-	wildmon 55, MUK
+	wildmon 54, CYUMEKO
+	wildmon 55, CYUMEKO
 	; day
-	wildmon 53, GRIMER
+	wildmon 53, EYUKI
 	wildmon 50, EELIS
 	wildmon 54, SLUGMA
 	wildmon 52, EELIS
 	wildmon 53, MAGCARGO
-	wildmon 54, MUK
-	wildmon 55, MUK
+	wildmon 54, CYUMEKO
+	wildmon 55, CYUMEKO
 	; nite
-	wildmon 53, GRIMER
-	wildmon 50, GRIMER
-	wildmon 54, GRIMER
+	wildmon 53, EYUKI
+	wildmon 50, EYUKI
+	wildmon 54, EYUKI
 	wildmon 52, MURKROW
 	wildmon 53, MURKROW
-	wildmon 54, MUK
-	wildmon 55, MUK
+	wildmon 54, CYUMEKO
+	wildmon 55, CYUMEKO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_17
@@ -873,83 +873,83 @@
 	; morn
 	wildmon 51, EELIS
 	wildmon 55, SLUGMA
-	wildmon 55, GRIMER
+	wildmon 55, EYUKI
 	wildmon 53, EELIS
 	wildmon 53, MAGCARGO
-	wildmon 54, MUK
-	wildmon 56, MUK
+	wildmon 54, CYUMEKO
+	wildmon 56, CYUMEKO
 	; day
 	wildmon 51, EELIS
 	wildmon 55, SLUGMA
-	wildmon 55, GRIMER
+	wildmon 55, EYUKI
 	wildmon 53, EELIS
 	wildmon 53, MAGCARGO
-	wildmon 54, MUK
-	wildmon 56, MUK
+	wildmon 54, CYUMEKO
+	wildmon 56, CYUMEKO
 	; nite
-	wildmon 51, GRIMER
-	wildmon 55, GRIMER
-	wildmon 55, GRIMER
+	wildmon 51, EYUKI
+	wildmon 55, EYUKI
+	wildmon 55, EYUKI
 	wildmon 53, MURKROW
 	wildmon 53, MURKROW
-	wildmon 54, MUK
-	wildmon 56, MUK
+	wildmon 54, CYUMEKO
+	wildmon 56, CYUMEKO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_18_EAST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 52, EELIS
-	wildmon 56, DODUO
+	wildmon 56, MAI
 	wildmon 53, EELIS
-	wildmon 54, DODRIO
+	wildmon 54, EMAI
 	wildmon 54, MAGCARGO
-	wildmon 55, MUK
-	wildmon 57, MUK
+	wildmon 55, CYUMEKO
+	wildmon 57, CYUMEKO
 	; day
 	wildmon 52, EELIS
-	wildmon 56, DODUO
+	wildmon 56, MAI
 	wildmon 53, EELIS
-	wildmon 54, DODRIO
+	wildmon 54, EMAI
 	wildmon 54, MAGCARGO
-	wildmon 55, MUK
-	wildmon 57, MUK
+	wildmon 55, CYUMEKO
+	wildmon 57, CYUMEKO
 	; nite
 	wildmon 52, CELIS
 	wildmon 56, NOCTOWL
 	wildmon 53, CELIS
 	wildmon 54, MURKROW
 	wildmon 54, MURKROW
-	wildmon 55, MUK
-	wildmon 57, MUK
+	wildmon 55, CYUMEKO
+	wildmon 57, CYUMEKO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_18_WEST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 52, EELIS
-	wildmon 56, DODUO
+	wildmon 56, MAI
 	wildmon 53, EELIS
-	wildmon 54, DODRIO
+	wildmon 54, EMAI
 	wildmon 54, MAGCARGO
-	wildmon 55, MUK
-	wildmon 57, MUK
+	wildmon 55, CYUMEKO
+	wildmon 57, CYUMEKO
 	; day
 	wildmon 52, EELIS
-	wildmon 56, DODUO
+	wildmon 56, MAI
 	wildmon 53, EELIS
-	wildmon 54, DODRIO
+	wildmon 54, EMAI
 	wildmon 54, MAGCARGO
-	wildmon 55, MUK
-	wildmon 57, MUK
+	wildmon 55, CYUMEKO
+	wildmon 57, CYUMEKO
 	; nite
 	wildmon 52, CELIS
 	wildmon 56, NOCTOWL
 	wildmon 53, CELIS
 	wildmon 54, MURKROW
 	wildmon 54, MURKROW
-	wildmon 55, MUK
-	wildmon 57, MUK
+	wildmon 55, CYUMEKO
+	wildmon 57, CYUMEKO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_21
@@ -987,17 +987,17 @@
 	wildmon 56, EELIS
 	wildmon 58, RIKA
 	wildmon 58, KONGARA
-	wildmon 59, PONYTA
-	wildmon 59, PONYTA
-	wildmon 60, PONYTA
+	wildmon 59, CLUIZE
+	wildmon 59, CLUIZE
+	wildmon 60, CLUIZE
 	; day
 	wildmon 56, CELIS
 	wildmon 56, EELIS
 	wildmon 58, RIKA
 	wildmon 58, KONGARA
-	wildmon 59, PONYTA
-	wildmon 59, PONYTA
-	wildmon 60, PONYTA
+	wildmon 59, CLUIZE
+	wildmon 59, CLUIZE
+	wildmon 60, CLUIZE
 	; nite
 	wildmon 56, CELIS
 	wildmon 56, EKURUMI
@@ -1011,7 +1011,7 @@
 	def_grass_wildmons ROUTE_23
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 37, DODRIO
+	wildmon 37, EMAI
 	wildmon 38, ESARIEL
 	wildmon 38, KIKURI, KIKURI_KANTO_FORM
 	wildmon 39, ORANGE
@@ -1019,7 +1019,7 @@
 	wildmon 40, ESARIEL
 	wildmon 42, DITTO
 	; day
-	wildmon 37, DODRIO
+	wildmon 37, EMAI
 	wildmon 38, ESARIEL
 	wildmon 38, KIKURI, KIKURI_KANTO_FORM
 	wildmon 39, ORANGE
@@ -1095,19 +1095,19 @@
 	def_grass_wildmons ROUTE_26
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 38, DODUO
+	wildmon 38, MAI
 	wildmon 38, ESARIEL
-	wildmon 41, PONYTA
+	wildmon 41, CLUIZE
 	wildmon 40, CELIS
-	wildmon 39, DODUO
+	wildmon 39, MAI
 	wildmon 40, KIKURI, KIKURI_KANTO_FORM
 	wildmon 41, KIKURI, KIKURI_KANTO_FORM
 	; day
-	wildmon 38, DODUO
+	wildmon 38, MAI
 	wildmon 38, ESARIEL
-	wildmon 41, PONYTA
+	wildmon 41, CLUIZE
 	wildmon 40, CELIS
-	wildmon 39, DODUO
+	wildmon 39, MAI
 	wildmon 40, KIKURI, KIKURI_KANTO_FORM
 	wildmon 41, KIKURI, KIKURI_KANTO_FORM
 	; nite
@@ -1123,21 +1123,21 @@
 	def_grass_wildmons ROUTE_27
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 37, DODUO
+	wildmon 37, MAI
 	wildmon 37, KIKURI, KIKURI_KANTO_FORM
 	wildmon 39, CELIS
-	wildmon 39, DODUO
-	wildmon 41, PONYTA
-	wildmon 39, DODRIO
-	wildmon 40, DODRIO
+	wildmon 39, MAI
+	wildmon 41, CLUIZE
+	wildmon 39, EMAI
+	wildmon 40, EMAI
 	; day
-	wildmon 37, DODUO
+	wildmon 37, MAI
 	wildmon 37, KIKURI, KIKURI_KANTO_FORM
 	wildmon 39, CELIS
-	wildmon 39, DODUO
-	wildmon 41, PONYTA
-	wildmon 39, DODRIO
-	wildmon 40, DODRIO
+	wildmon 39, MAI
+	wildmon 41, CLUIZE
+	wildmon 39, EMAI
+	wildmon 40, EMAI
 	; nite
 	wildmon 37, QUAGSIRE
 	wildmon 37, NOCTOWL
@@ -1152,18 +1152,18 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 66, TANGELA
-	wildmon 67, PONYTA
+	wildmon 67, CLUIZE
 	wildmon 67, KIKURI ; randomly Kanto or Johto form
-	wildmon 70, RAPIDASH
-	wildmon 68, DODRIO
+	wildmon 70, LUIZE
+	wildmon 68, EMAI
 	wildmon 71, SKARMORY
 	wildmon 71, URSARING
 	; day
 	wildmon 66, TANGELA
-	wildmon 67, PONYTA
+	wildmon 67, CLUIZE
 	wildmon 67, KIKURI ; randomly Kanto or Johto form
-	wildmon 70, RAPIDASH
-	wildmon 68, DODRIO
+	wildmon 70, LUIZE
+	wildmon 68, EMAI
 	wildmon 71, SKARMORY
 	wildmon 71, URSARING
 	; nite
@@ -1184,24 +1184,24 @@
 	wildmon 51, CMIMA
 	wildmon 50, EMUGETSU
 	wildmon 49, CMIMA
-	wildmon 53, KINGLER
-	wildmon 52, KINGLER
+	wildmon 53, DAICHAN
+	wildmon 52, DAICHAN
 	; day
 	wildmon 48, FGYOKU
 	wildmon 48, MAGAN
 	wildmon 51, CMIMA
 	wildmon 50, EMUGETSU
 	wildmon 49, CMIMA
-	wildmon 53, KINGLER
-	wildmon 52, KINGLER
+	wildmon 53, DAICHAN
+	wildmon 52, DAICHAN
 	; nite
 	wildmon 48, ERIKAKO
 	wildmon 48, ERIKAKO
 	wildmon 51, NOCTOWL
 	wildmon 50, CKANA
 	wildmon 49, CKANA
-	wildmon 53, KINGLER
-	wildmon 52, KINGLER
+	wildmon 53, DAICHAN
+	wildmon 52, DAICHAN
 	end_grass_wildmons
 
 	def_grass_wildmons CERULEAN_CAVE_1F
@@ -1212,7 +1212,7 @@
 	wildmon 66, ORANGE
 	wildmon 67, TANGROWTH
 	wildmon 68, CMUGETSU
-	wildmon 67, ELECTRODE
+	wildmon 67, CCIRNO
 	wildmon 70, DITTO
 	; day
 	wildmon 65, CROBAT
@@ -1220,7 +1220,7 @@
 	wildmon 66, ORANGE
 	wildmon 67, TANGROWTH
 	wildmon 68, CMUGETSU
-	wildmon 67, ELECTRODE
+	wildmon 67, CCIRNO
 	wildmon 70, DITTO
 	; nite
 	wildmon 65, CROBAT
@@ -1228,7 +1228,7 @@
 	wildmon 66, ORANGE
 	wildmon 67, TANGROWTH
 	wildmon 68, CMUGETSU
-	wildmon 67, ELECTRODE
+	wildmon 67, CCIRNO
 	wildmon 70, DITTO
 	end_grass_wildmons
 
@@ -1240,7 +1240,7 @@
 	wildmon 68, CMUGETSU
 	wildmon 69, MAGNEZONE
 	wildmon 70, CYUKA
-	wildmon 69, ELECTRODE
+	wildmon 69, CCIRNO
 	wildmon 72, DITTO
 	; day
 	wildmon 67, CROBAT
@@ -1248,15 +1248,15 @@
 	wildmon 68, CMUGETSU
 	wildmon 69, MAGNEZONE
 	wildmon 70, CYUKA
-	wildmon 69, ELECTRODE
+	wildmon 69, CCIRNO
 	wildmon 72, DITTO
 	; nite
 	wildmon 67, CROBAT
 	wildmon 67, CRIKAKO
 	wildmon 68, CMUGETSU
 	wildmon 69, MAGNEZONE
-	wildmon 70, GENGAR
-	wildmon 69, ELECTRODE
+	wildmon 70, ESHINKI
+	wildmon 69, CCIRNO
 	wildmon 72, DITTO
 	end_grass_wildmons
 
@@ -1266,7 +1266,7 @@
 	wildmon 69, CRIKAKO
 	wildmon 69, MAGNEZONE
 	wildmon 70, CMUGETSU
-	wildmon 71, GOLEM
+	wildmon 71, ESARA
 	wildmon 72, CYUKA
 	wildmon 71, CSARIEL
 	wildmon 74, DITTO
@@ -1274,7 +1274,7 @@
 	wildmon 69, CRIKAKO
 	wildmon 69, MAGNEZONE
 	wildmon 70, CMUGETSU
-	wildmon 71, GOLEM
+	wildmon 71, ESARA
 	wildmon 72, CYUKA
 	wildmon 71, CSARIEL
 	wildmon 74, DITTO
@@ -1282,8 +1282,8 @@
 	wildmon 69, CRIKAKO
 	wildmon 69, MAGNEZONE
 	wildmon 70, CMUGETSU
-	wildmon 71, GOLEM
-	wildmon 72, GENGAR
+	wildmon 71, ESARA
+	wildmon 72, ESHINKI
 	wildmon 71, CSARIEL
 	wildmon 74, DITTO
 	end_grass_wildmons
@@ -1291,166 +1291,166 @@
 	def_grass_wildmons DIM_CAVE_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 49, GRAVELER, ALOLAN_FORM
+	wildmon 49, SARA, ALOLAN_FORM
 	wildmon 50, KOTOHIME
-	wildmon 50, MAGNETON
+	wildmon 50, EALICE
 	wildmon 51, ELECTABUZZ
-	wildmon 51, GRAVELER, ALOLAN_FORM
+	wildmon 51, SARA, ALOLAN_FORM
 	wildmon 54, DUNSPARCE
 	wildmon 51, STEELIX
 	; day
-	wildmon 49, GRAVELER, ALOLAN_FORM
+	wildmon 49, SARA, ALOLAN_FORM
 	wildmon 50, KOTOHIME
-	wildmon 50, MAGNETON
+	wildmon 50, EALICE
 	wildmon 51, ELECTABUZZ
-	wildmon 51, GRAVELER, ALOLAN_FORM
+	wildmon 51, SARA, ALOLAN_FORM
 	wildmon 54, DUNSPARCE
 	wildmon 51, STEELIX
 	; nite
 	wildmon 49, KOTOHIME
-	wildmon 50, GRAVELER, ALOLAN_FORM
-	wildmon 50, MAGNETON
-	wildmon 51, HAUNTER
+	wildmon 50, SARA, ALOLAN_FORM
+	wildmon 50, EALICE
+	wildmon 51, SHINKI
 	wildmon 51, KOTOHIME
 	wildmon 54, DUNSPARCE
-	wildmon 51, HAUNTER
+	wildmon 51, SHINKI
 	end_grass_wildmons
 
 	def_grass_wildmons DIM_CAVE_2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 51, KOTOHIME
-	wildmon 50, GRAVELER, ALOLAN_FORM
-	wildmon 52, MAGNETON
+	wildmon 50, SARA, ALOLAN_FORM
+	wildmon 52, EALICE
 	wildmon 52, ELECTABUZZ
 	wildmon 51, DUNSPARCE
-	wildmon 55, GRAVELER, ALOLAN_FORM
+	wildmon 55, SARA, ALOLAN_FORM
 	wildmon 52, STEELIX
 	; day
 	wildmon 51, KOTOHIME
-	wildmon 50, GRAVELER, ALOLAN_FORM
-	wildmon 52, MAGNETON
+	wildmon 50, SARA, ALOLAN_FORM
+	wildmon 52, EALICE
 	wildmon 52, ELECTABUZZ
 	wildmon 51, DUNSPARCE
-	wildmon 55, GRAVELER, ALOLAN_FORM
+	wildmon 55, SARA, ALOLAN_FORM
 	wildmon 52, STEELIX
 	; nite
 	wildmon 51, KOTOHIME
-	wildmon 50, GRAVELER, ALOLAN_FORM
+	wildmon 50, SARA, ALOLAN_FORM
 	wildmon 52, KOTOHIME
-	wildmon 52, HAUNTER
+	wildmon 52, SHINKI
 	wildmon 51, DUNSPARCE
 	wildmon 55, KOTOHIME
-	wildmon 52, HAUNTER
+	wildmon 52, SHINKI
 	end_grass_wildmons
 
 	def_grass_wildmons DIM_CAVE_3F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 52, GRAVELER, ALOLAN_FORM
+	wildmon 52, SARA, ALOLAN_FORM
 	wildmon 54, KOTOHIME
-	wildmon 52, MAGNETON
-	wildmon 54, ONIX
+	wildmon 52, EALICE
+	wildmon 54, CRUMIA
 	wildmon 55, DUNSPARCE
-	wildmon 56, GRAVELER, ALOLAN_FORM
+	wildmon 56, SARA, ALOLAN_FORM
 	wildmon 56, STEELIX
 	; day
-	wildmon 52, GRAVELER, ALOLAN_FORM
+	wildmon 52, SARA, ALOLAN_FORM
 	wildmon 54, KOTOHIME
-	wildmon 52, MAGNETON
-	wildmon 54, ONIX
+	wildmon 52, EALICE
+	wildmon 54, CRUMIA
 	wildmon 55, DUNSPARCE
-	wildmon 56, GRAVELER, ALOLAN_FORM
+	wildmon 56, SARA, ALOLAN_FORM
 	wildmon 56, STEELIX
 	; nite
 	wildmon 52, KOTOHIME
-	wildmon 54, GRAVELER, ALOLAN_FORM
+	wildmon 54, SARA, ALOLAN_FORM
 	wildmon 52, KOTOHIME
 	wildmon 54, DUNSPARCE
-	wildmon 55, HAUNTER
+	wildmon 55, SHINKI
 	wildmon 56, KOTOHIME
-	wildmon 56, HAUNTER
+	wildmon 56, SHINKI
 	end_grass_wildmons
 
 	def_grass_wildmons DIM_CAVE_4F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 51, KOTOHIME
-	wildmon 50, GRAVELER, ALOLAN_FORM
-	wildmon 52, MAGNETON
+	wildmon 50, SARA, ALOLAN_FORM
+	wildmon 52, EALICE
 	wildmon 52, ELECTABUZZ
-	wildmon 51, GRAVELER, ALOLAN_FORM
-	wildmon 55, ELECTRODE
+	wildmon 51, SARA, ALOLAN_FORM
+	wildmon 55, CCIRNO
 	wildmon 52, DUNSPARCE
 	; day
 	wildmon 51, KOTOHIME
-	wildmon 50, GRAVELER, ALOLAN_FORM
-	wildmon 52, MAGNETON
+	wildmon 50, SARA, ALOLAN_FORM
+	wildmon 52, EALICE
 	wildmon 52, ELECTABUZZ
-	wildmon 51, GRAVELER, ALOLAN_FORM
-	wildmon 55, ELECTRODE
+	wildmon 51, SARA, ALOLAN_FORM
+	wildmon 55, CCIRNO
 	wildmon 52, DUNSPARCE
 	; nite
 	wildmon 51, SNEASEL, HISUIAN_FORM
 	wildmon 50, KOTOHIME
-	wildmon 52, GRAVELER, ALOLAN_FORM
-	wildmon 52, HAUNTER
+	wildmon 52, SARA, ALOLAN_FORM
+	wildmon 52, SHINKI
 	wildmon 51, DUNSPARCE
 	wildmon 55, KOTOHIME
-	wildmon 52, HAUNTER
+	wildmon 52, SHINKI
 	end_grass_wildmons
 
 	def_grass_wildmons DIM_CAVE_5F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 49, GRAVELER, ALOLAN_FORM
+	wildmon 49, SARA, ALOLAN_FORM
 	wildmon 50, SNEASEL, HISUIAN_FORM
 	wildmon 50, KOTOHIME
-	wildmon 51, MAGNETON
-	wildmon 51, ELECTRODE
-	wildmon 54, GRAVELER, ALOLAN_FORM
+	wildmon 51, EALICE
+	wildmon 51, CCIRNO
+	wildmon 54, SARA, ALOLAN_FORM
 	wildmon 51, DUNSPARCE
 	; day
-	wildmon 49, GRAVELER, ALOLAN_FORM
+	wildmon 49, SARA, ALOLAN_FORM
 	wildmon 50, SNEASEL, HISUIAN_FORM
 	wildmon 50, KOTOHIME
-	wildmon 51, MAGNETON
-	wildmon 51, ELECTRODE
-	wildmon 54, GRAVELER, ALOLAN_FORM
+	wildmon 51, EALICE
+	wildmon 51, CCIRNO
+	wildmon 54, SARA, ALOLAN_FORM
 	wildmon 51, DUNSPARCE
 	; nite
 	wildmon 49, KOTOHIME
 	wildmon 50, SNEASEL, HISUIAN_FORM
-	wildmon 50, GRAVELER, ALOLAN_FORM
-	wildmon 51, HAUNTER
+	wildmon 50, SARA, ALOLAN_FORM
+	wildmon 51, SHINKI
 	wildmon 51, KOTOHIME
-	wildmon 54, HAUNTER
+	wildmon 54, SHINKI
 	wildmon 51, DUNSPARCE
 	end_grass_wildmons
 
 	def_grass_wildmons SOUL_HOUSE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 47, GASTLY
-	wildmon 48, GASTLY
-	wildmon 48, HAUNTER
-	wildmon 49, HAUNTER
+	wildmon 47, CSHINKI
+	wildmon 48, CSHINKI
+	wildmon 48, SHINKI
+	wildmon 49, SHINKI
 	wildmon 49, MISDREAVUS
 	wildmon 49, MAROWAK
 	wildmon 50, MISMAGIUS
 	; day
-	wildmon 47, GASTLY
-	wildmon 48, GASTLY
-	wildmon 48, HAUNTER
-	wildmon 49, HAUNTER
+	wildmon 47, CSHINKI
+	wildmon 48, CSHINKI
+	wildmon 48, SHINKI
+	wildmon 49, SHINKI
 	wildmon 49, MISDREAVUS
 	wildmon 49, MAROWAK
 	wildmon 50, MISMAGIUS
 	; nite
-	wildmon 47, GASTLY
-	wildmon 48, GASTLY
-	wildmon 48, HAUNTER
-	wildmon 49, HAUNTER
+	wildmon 47, CSHINKI
+	wildmon 48, CSHINKI
+	wildmon 48, SHINKI
+	wildmon 49, SHINKI
 	wildmon 49, MISDREAVUS
 	wildmon 49, MAROWAK
 	wildmon 50, MISMAGIUS
@@ -1459,26 +1459,26 @@
 	def_grass_wildmons SOUL_HOUSE_B2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 48, GASTLY
-	wildmon 49, GASTLY
-	wildmon 49, HAUNTER
-	wildmon 50, HAUNTER
+	wildmon 48, CSHINKI
+	wildmon 49, CSHINKI
+	wildmon 49, SHINKI
+	wildmon 50, SHINKI
 	wildmon 50, MISDREAVUS
 	wildmon 50, MAROWAK
 	wildmon 51, MISMAGIUS
 	; day
-	wildmon 48, GASTLY
-	wildmon 49, GASTLY
-	wildmon 49, HAUNTER
-	wildmon 50, HAUNTER
+	wildmon 48, CSHINKI
+	wildmon 49, CSHINKI
+	wildmon 49, SHINKI
+	wildmon 50, SHINKI
 	wildmon 50, MISDREAVUS
 	wildmon 50, MAROWAK
 	wildmon 51, MISMAGIUS
 	; nite
-	wildmon 48, GASTLY
-	wildmon 49, GASTLY
-	wildmon 49, HAUNTER
-	wildmon 50, HAUNTER
+	wildmon 48, CSHINKI
+	wildmon 49, CSHINKI
+	wildmon 49, SHINKI
+	wildmon 50, SHINKI
 	wildmon 50, MISDREAVUS
 	wildmon 50, MAROWAK
 	wildmon 51, MISMAGIUS
@@ -1487,24 +1487,24 @@
 	def_grass_wildmons SOUL_HOUSE_B3F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 49, GASTLY
-	wildmon 50, HAUNTER
+	wildmon 49, CSHINKI
+	wildmon 50, SHINKI
 	wildmon 50, MISDREAVUS
 	wildmon 49, EMEIRA
 	wildmon 51, MAROWAK
 	wildmon 52, CELLEN
 	wildmon 52, MISMAGIUS
 	; day
-	wildmon 49, GASTLY
-	wildmon 50, HAUNTER
+	wildmon 49, CSHINKI
+	wildmon 50, SHINKI
 	wildmon 50, MISDREAVUS
 	wildmon 49, EMEIRA
 	wildmon 51, MAROWAK
 	wildmon 52, CELLEN
 	wildmon 52, MISMAGIUS
 	; nite
-	wildmon 49, GASTLY
-	wildmon 50, HAUNTER
+	wildmon 49, CSHINKI
+	wildmon 50, SHINKI
 	wildmon 50, MISDREAVUS
 	wildmon 49, EMEIRA
 	wildmon 51, MAROWAK
@@ -1515,24 +1515,24 @@
 	def_grass_wildmons SAFARI_ZONE_HUB
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 55, DODUO
-	wildmon 58, DODRIO
+	wildmon 55, MAI
+	wildmon 58, EMAI
 	wildmon 55, EXEGGCUTE
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
 	wildmon 50, SCYTHER
 	; day
-	wildmon 55, DODUO
-	wildmon 58, DODRIO
+	wildmon 55, MAI
+	wildmon 58, EMAI
 	wildmon 55, EXEGGCUTE
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
 	wildmon 50, SCYTHER
 	; nite
-	wildmon 55, DODUO
-	wildmon 58, DODRIO
+	wildmon 55, MAI
+	wildmon 58, EMAI
 	wildmon 55, EXEGGCUTE
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR
@@ -1629,26 +1629,26 @@
 	; morn
 	wildmon 56, CKOTOHIME
 	wildmon 59, KOTOHIME
-	wildmon 57, KRABBY
+	wildmon 57, CDAICHAN
 	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 60, KINGLER
-	wildmon 61, KINGLER
+	wildmon 60, DAICHAN
+	wildmon 61, DAICHAN
 	wildmon 62, CORSOLA, GALARIAN_FORM
 	; day
 	wildmon 56, CKOTOHIME
 	wildmon 59, KOTOHIME
-	wildmon 57, KRABBY
+	wildmon 57, CDAICHAN
 	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 60, KINGLER
-	wildmon 61, KINGLER
+	wildmon 60, DAICHAN
+	wildmon 61, DAICHAN
 	wildmon 62, CORSOLA, GALARIAN_FORM
 	; nite
 	wildmon 56, CKOTOHIME
 	wildmon 59, KOTOHIME
-	wildmon 57, KRABBY
+	wildmon 57, CDAICHAN
 	wildmon 58, CORSOLA, GALARIAN_FORM
-	wildmon 60, KINGLER
-	wildmon 61, KINGLER
+	wildmon 60, DAICHAN
+	wildmon 61, DAICHAN
 	wildmon 62, CORSOLA, GALARIAN_FORM
 	end_grass_wildmons
 
@@ -1656,28 +1656,28 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 57, KOTOHIME
-	wildmon 60, KINGLER
+	wildmon 60, DAICHAN
 	wildmon 58, CORSOLA, GALARIAN_FORM
 	wildmon 59, CORSOLA, GALARIAN_FORM
-	wildmon 59, HAUNTER
-	wildmon 61, KINGLER
-	wildmon 62, KINGLER
+	wildmon 59, SHINKI
+	wildmon 61, DAICHAN
+	wildmon 62, DAICHAN
 	; day
 	wildmon 57, KOTOHIME
-	wildmon 60, KINGLER
+	wildmon 60, DAICHAN
 	wildmon 58, CORSOLA, GALARIAN_FORM
 	wildmon 59, CORSOLA, GALARIAN_FORM
-	wildmon 59, HAUNTER
-	wildmon 61, KINGLER
-	wildmon 62, KINGLER
+	wildmon 59, SHINKI
+	wildmon 61, DAICHAN
+	wildmon 62, DAICHAN
 	; nite
 	wildmon 57, KOTOHIME
-	wildmon 60, KINGLER
+	wildmon 60, DAICHAN
 	wildmon 58, CORSOLA, GALARIAN_FORM
 	wildmon 59, CORSOLA, GALARIAN_FORM
-	wildmon 59, HAUNTER
-	wildmon 61, KINGLER
-	wildmon 62, KINGLER
+	wildmon 59, SHINKI
+	wildmon 61, DAICHAN
+	wildmon 62, DAICHAN
 	end_grass_wildmons
 
 	def_grass_wildmons SCARY_CAVE_SHIPWRECK
@@ -1685,7 +1685,7 @@
 	; morn
 	wildmon 57, MISDREAVUS
 	wildmon 60, CORSOLA, GALARIAN_FORM
-	wildmon 58, HAUNTER
+	wildmon 58, SHINKI
 	wildmon 59, KOTOHIME
 	wildmon 61, KOTOHIME
 	wildmon 62, CURSOLA
@@ -1693,7 +1693,7 @@
 	; day
 	wildmon 57, MISDREAVUS
 	wildmon 60, CORSOLA, GALARIAN_FORM
-	wildmon 58, HAUNTER
+	wildmon 58, SHINKI
 	wildmon 59, KOTOHIME
 	wildmon 61, KOTOHIME
 	wildmon 62, CURSOLA
@@ -1701,7 +1701,7 @@
 	; nite
 	wildmon 57, MISDREAVUS
 	wildmon 60, CORSOLA, GALARIAN_FORM
-	wildmon 58, HAUNTER
+	wildmon 58, SHINKI
 	wildmon 59, KOTOHIME
 	wildmon 61, KOTOHIME
 	wildmon 62, CURSOLA
@@ -1739,7 +1739,7 @@
 	def_grass_wildmons SEAFOAM_ISLANDS_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 57, SEEL
+	wildmon 57, CYUKI
 	wildmon 60, KOTOHIME
 	wildmon 58, SARIEL, ALOLAN_FORM
 	wildmon 59, ESARIEL, ALOLAN_FORM
@@ -1747,7 +1747,7 @@
 	wildmon 62, KOTOHIME
 	wildmon 63, KOTOHIME
 	; day
-	wildmon 57, SEEL
+	wildmon 57, CYUKI
 	wildmon 60, KOTOHIME
 	wildmon 58, SARIEL, ALOLAN_FORM
 	wildmon 59, ESARIEL, ALOLAN_FORM
@@ -1755,7 +1755,7 @@
 	wildmon 62, KOTOHIME
 	wildmon 63, KOTOHIME
 	; nite
-	wildmon 57, SEEL
+	wildmon 57, CYUKI
 	wildmon 60, KOTOHIME
 	wildmon 58, SARIEL, ALOLAN_FORM
 	wildmon 59, ESARIEL, ALOLAN_FORM
@@ -1767,7 +1767,7 @@
 	def_grass_wildmons SEAFOAM_ISLANDS_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 58, SEEL
+	wildmon 58, CYUKI
 	wildmon 61, KOTOHIME
 	wildmon 59, YUMEMI
 	wildmon 60, EYUMEMI
@@ -1775,7 +1775,7 @@
 	wildmon 63, KOTOHIME
 	wildmon 64, KOTOHIME
 	; day
-	wildmon 58, SEEL
+	wildmon 58, CYUKI
 	wildmon 61, KOTOHIME
 	wildmon 59, YUMEMI
 	wildmon 60, EYUMEMI
@@ -1783,7 +1783,7 @@
 	wildmon 63, KOTOHIME
 	wildmon 64, KOTOHIME
 	; nite
-	wildmon 58, SEEL
+	wildmon 58, CYUKI
 	wildmon 61, KOTOHIME
 	wildmon 59, YUMEMI
 	wildmon 60, EYUMEMI
@@ -1796,56 +1796,56 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 59, KOTOHIME
-	wildmon 62, DEWGONG
+	wildmon 62, YUKI
 	wildmon 60, EYUMEMI
 	wildmon 61, YUMEMI
 	wildmon 63, CKOTOHIME
-	wildmon 64, SEEL
-	wildmon 65, DEWGONG
+	wildmon 64, CYUKI
+	wildmon 65, YUKI
 	; day
 	wildmon 59, KOTOHIME
-	wildmon 62, DEWGONG
+	wildmon 62, YUKI
 	wildmon 60, EYUMEMI
 	wildmon 61, YUMEMI
 	wildmon 63, CKOTOHIME
-	wildmon 64, SEEL
-	wildmon 65, SEEL
+	wildmon 64, CYUKI
+	wildmon 65, CYUKI
 	; nite
 	wildmon 59, KOTOHIME
-	wildmon 62, DEWGONG
+	wildmon 62, YUKI
 	wildmon 60, EYUMEMI
 	wildmon 61, YUMEMI
 	wildmon 63, CKOTOHIME
-	wildmon 64, SEEL
-	wildmon 65, SEEL
+	wildmon 64, CYUKI
+	wildmon 65, CYUKI
 	end_grass_wildmons
 
 	def_grass_wildmons SEAFOAM_ISLANDS_B4F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 60, KOTOHIME
-	wildmon 63, DEWGONG
+	wildmon 63, YUKI
 	wildmon 61, EYUMEMI
 	wildmon 62, JYNX
 	wildmon 64, YUMEMI
-	wildmon 65, SEEL
-	wildmon 66, DEWGONG
+	wildmon 65, CYUKI
+	wildmon 66, YUKI
 	; day
 	wildmon 60, KOTOHIME
-	wildmon 63, DEWGONG
+	wildmon 63, YUKI
 	wildmon 61, EYUMEMI
 	wildmon 62, JYNX
 	wildmon 64, YUMEMI
-	wildmon 65, SEEL
-	wildmon 66, DEWGONG
+	wildmon 65, CYUKI
+	wildmon 66, YUKI
 	; nite
 	wildmon 60, KOTOHIME
-	wildmon 63, DEWGONG
+	wildmon 63, YUKI
 	wildmon 61, EYUMEMI
 	wildmon 62, JYNX
 	wildmon 64, YUMEMI
-	wildmon 65, SEEL
-	wildmon 66, DEWGONG
+	wildmon 65, CYUKI
+	wildmon 66, YUKI
 	end_grass_wildmons
 
 	def_grass_wildmons POKEMON_MANSION_1F
@@ -1853,27 +1853,27 @@
 	; morn
 	wildmon 58, CELIS
 	wildmon 56, WEEZING
-	wildmon 57, MUK
+	wildmon 57, CYUMEKO
 	wildmon 59, KURUMI
-	wildmon 59, RAPIDASH
-	wildmon 60, RAPIDASH
-	wildmon 60, RAPIDASH
+	wildmon 59, LUIZE
+	wildmon 60, LUIZE
+	wildmon 60, LUIZE
 	; day
 	wildmon 58, CELIS
 	wildmon 56, WEEZING
-	wildmon 57, MUK
+	wildmon 57, CYUMEKO
 	wildmon 59, KURUMI
-	wildmon 59, RAPIDASH
-	wildmon 60, RAPIDASH
-	wildmon 60, RAPIDASH
+	wildmon 59, LUIZE
+	wildmon 60, LUIZE
+	wildmon 60, LUIZE
 	; nite
-	wildmon 58, HAUNTER
+	wildmon 58, SHINKI
 	wildmon 56, WEEZING
-	wildmon 57, MUK
+	wildmon 57, CYUMEKO
 	wildmon 59, HOUNDOOM
-	wildmon 59, RAPIDASH
-	wildmon 60, RAPIDASH
-	wildmon 60, RAPIDASH
+	wildmon 59, LUIZE
+	wildmon 60, LUIZE
+	wildmon 60, LUIZE
 	end_grass_wildmons
 
 	def_grass_wildmons POKEMON_MANSION_B1F
@@ -1881,23 +1881,23 @@
 	; morn
 	wildmon 58, CELIS
 	wildmon 56, WEEZING
-	wildmon 57, MUK
+	wildmon 57, CYUMEKO
 	wildmon 59, KURUMI
-	wildmon 59, RAPIDASH
+	wildmon 59, LUIZE
 	wildmon 60, DITTO
 	wildmon 60, DITTO
 	; day
 	wildmon 58, CELIS
 	wildmon 56, WEEZING
-	wildmon 57, MUK
+	wildmon 57, CYUMEKO
 	wildmon 59, KURUMI
-	wildmon 59, RAPIDASH
+	wildmon 59, LUIZE
 	wildmon 60, DITTO
 	wildmon 60, DITTO
 	; nite
-	wildmon 58, HAUNTER
+	wildmon 58, SHINKI
 	wildmon 56, WEEZING
-	wildmon 57, MUK
+	wildmon 57, CYUMEKO
 	wildmon 59, MAGMAR
 	wildmon 59, HOUNDOOM
 	wildmon 60, DITTO
@@ -1908,7 +1908,7 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 56, KOFFING
-	wildmon 58, GRAVELER
+	wildmon 58, SARA
 	wildmon 57, SLUGMA
 	wildmon 59, MAGCARGO
 	wildmon 60, CCHIYURI, ALOLAN_FORM
@@ -1916,7 +1916,7 @@
 	wildmon 62, MAGMAR
 	; day
 	wildmon 56, KOFFING
-	wildmon 58, GRAVELER
+	wildmon 58, SARA
 	wildmon 57, SLUGMA
 	wildmon 59, MAGCARGO
 	wildmon 60, CCHIYURI, ALOLAN_FORM
@@ -1924,8 +1924,8 @@
 	wildmon 62, MAGMAR
 	; nite
 	wildmon 56, KOFFING
-	wildmon 58, GASTLY
-	wildmon 57, GRAVELER
+	wildmon 58, CSHINKI
+	wildmon 57, SARA
 	wildmon 59, SLUGMA
 	wildmon 60, MAGCARGO
 	wildmon 61, CCHIYURI, ALOLAN_FORM
@@ -1935,7 +1935,7 @@
 	def_grass_wildmons CINNABAR_VOLCANO_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 58, GRAVELER
+	wildmon 58, SARA
 	wildmon 60, WEEZING
 	wildmon 59, MAGCARGO
 	wildmon 61, CCHIYURI, ALOLAN_FORM
@@ -1943,7 +1943,7 @@
 	wildmon 63, STEELIX
 	wildmon 64, STEELIX
 	; day
-	wildmon 58, GRAVELER
+	wildmon 58, SARA
 	wildmon 60, WEEZING
 	wildmon 59, MAGCARGO
 	wildmon 61, CCHIYURI, ALOLAN_FORM
@@ -1951,8 +1951,8 @@
 	wildmon 63, STEELIX
 	wildmon 64, STEELIX
 	; nite
-	wildmon 58, HAUNTER
-	wildmon 60, GRAVELER
+	wildmon 58, SHINKI
+	wildmon 60, SARA
 	wildmon 59, WEEZING
 	wildmon 61, MAGCARGO
 	wildmon 62, CCHIYURI, ALOLAN_FORM
@@ -1984,8 +1984,8 @@
 	wildmon 61, CHIYURI, ALOLAN_FORM
 	wildmon 63, MAGMAR
 	wildmon 64, STEELIX
-	wildmon 65, GENGAR
-	wildmon 66, GENGAR
+	wildmon 65, ESHINKI
+	wildmon 66, ESHINKI
 	end_grass_wildmons
 
 	db -1 ; end

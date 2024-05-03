@@ -74,34 +74,34 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  32, 100 ; CGengetsu
 	db   1,  29 ; Gengetsu
 	db  30, 100 ; EGengetsu
-	db   1,  24 ; Geodude
-	db  25,  44 ; Graveler
-	db  45, 100 ; Golem
-	db   1,  39 ; Ponyta
-	db  40, 100 ; Rapidash
-	db   1,  36 ; Slowpoke
-	db  37, 100 ; Slowbro
-	db   1,  29 ; Magnemite
-	db  30,  49 ; Magneton
-	db   1,  20 ; Farfetch'd
-	db   1,  30 ; Doduo
-	db  31, 100 ; Dodrio
-	db   1,  33 ; Seel
-	db  34, 100 ; Dewgong
-	db   1,  37 ; Grimer
-	db  38, 100 ; Muk
-	db   1,  33 ; Shellder
-	db  34, 100 ; Cloyster
-	db   1,  24 ; Gastly
-	db  25,  44 ; Haunter
-	db  45, 100 ; Gengar
-	db   1, 100 ; Onix
-	db   1,  25 ; Drowzee
-	db  26, 100 ; Hypno
-	db   1,  27 ; Krabby
-	db  28, 100 ; Kingler
-	db   1,  29 ; Voltorb
-	db  30, 100 ; Electrode
+	db   1,  24 ; CSara
+	db  25,  44 ; Sara
+	db  45, 100 ; ESara
+	db   1,  39 ; CLuize
+	db  40, 100 ; Luize
+	db   1,  36 ; ELuize
+	db  37, 100 ; CAlice
+	db   1,  29 ; Alice
+	db  30,  49 ; EAlice
+	db   1,  20 ; CMai
+	db   1,  30 ; Mai
+	db  31, 100 ; EMai
+	db   1,  33 ; CYuki
+	db  34, 100 ; Yuki
+	db   1,  37 ; EYuki
+	db  38, 100 ; CYumeko
+	db   1,  33 ; Yumeko
+	db  34, 100 ; EYumeko
+	db   1,  24 ; CShinki
+	db  25,  44 ; Shinki
+	db  45, 100 ; EShinki
+	db   1, 100 ; CRumia
+	db   1,  25 ; Rumia
+	db  26, 100 ; ERumia
+	db   1,  27 ; CDaichan
+	db  28, 100 ; Daichan
+	db   1,  29 ; EDaichan
+	db  30, 100 ; CCirno
 	db   1,  29 ; Exeggcute
 	db  30, 100 ; Exeggutor
 	db   1,  27 ; Cubone

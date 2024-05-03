@@ -35,18 +35,18 @@
 	wildmon 20, EGENGETSU
 	end_water_wildmons
 
-	def_water_wildmons SLOWPOKE_WELL_B1F
+	def_water_wildmons ELUIZE_WELL_B1F
 	db 2 percent ; encounter rate
-	wildmon 15, SLOWPOKE
-	wildmon 20, SLOWPOKE
-	wildmon 10, SLOWPOKE
+	wildmon 15, ELUIZE
+	wildmon 20, ELUIZE
+	wildmon 10, ELUIZE
 	end_water_wildmons
 
-	def_water_wildmons SLOWPOKE_WELL_B2F
+	def_water_wildmons ELUIZE_WELL_B2F
 	db 2 percent ; encounter rate
-	wildmon 15, SLOWPOKE
-	wildmon 20, SLOWPOKE
-	wildmon 20, SLOWBRO
+	wildmon 15, ELUIZE
+	wildmon 20, ELUIZE
+	wildmon 20, CALICE
 	end_water_wildmons
 
 	def_water_wildmons ILEX_FOREST
@@ -220,7 +220,7 @@
 	def_water_wildmons ROUTE_47
 	db 3 percent ; encounter rate
 	wildmon 20, GENGETSU
-	wildmon 20, SEEL
+	wildmon 20, CYUKI
 	wildmon 25, STARYU
 	end_water_wildmons
 

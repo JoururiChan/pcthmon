@@ -1,17 +1,17 @@
-	db  65,  90,  50,  55,  85,  45 ; 390 BST
+	db  150, 62,  61,  135, 140,  88 ; 505 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GRASS, POISON ; type
-	db 120 ; catch rate
-	db 151 ; base exp
-	db GOLD_LEAF, GOLD_LEAF ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db DARK, FAIRY ; type
+	db 66 ; catch rate
+	db 150 ; base exp
+	db NO_ITEM, FOCUS_BAND ; held items
+	dn GENDER_F75, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for EMUGETSU, CHLOROPHYLL, CHLOROPHYLL, GLUTTONY
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_PLANT, EGG_PLANT ; egg groups
+	abilities_for MUGETSU, LIMBER, LIMBER, PRESSURE
+	db GROWTH_FAST ; growth rate
+	dn EGG_INDETERMINATE, EGG_FAIRY ; egg groups
 
-	ev_yield 2 Atk
+	ev_yield 3 HP
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, PROTECT, GIGA_DRAIN, FLOWER_SHOOT, RETURN, DOUBLE_TEAM, REFLECT, SLUDGE_BOMB, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, LEECH_LIFE,  POISON_JAB, FLASH, SWORDS_DANCE, CUT, DOUBLE_EDGE, ENDURE, KNOCK_OFF, SEED_BOMB, SLEEP_TALK, SUCKER_PUNCH, SWAGGER

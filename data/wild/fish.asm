@@ -39,17 +39,17 @@ ENDM
 .Shore_Old:
 	fishentry  70 percent + 1, CCHIYURI,   10
 	fishentry  85 percent + 1, CCHIYURI,   10
-	fishentry 100 percent,     KRABBY,     10
+	fishentry 100 percent,     CDAICHAN,     10
 .Shore_Good:
 	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     KRABBY,     20
-	fishentry  90 percent + 1, KRABBY,     20
+	fishentry  70 percent,     CDAICHAN,     20
+	fishentry  90 percent + 1, CDAICHAN,     20
 	fishentry 100 percent,     0,          20 ; corsola morn/day, staryu eve/night
 .Shore_Super:
-	fishentry  40 percent,     KRABBY,     40
+	fishentry  40 percent,     CDAICHAN,     40
 	fishentry  70 percent,     0,          40 ; corsola morn/day, staryu eve/night
-	fishentry  90 percent + 1, KRABBY,     40
-	fishentry 100 percent,     KINGLER,    40
+	fishentry  90 percent + 1, CDAICHAN,     40
+	fishentry 100 percent,     DAICHAN,    40
 
 .Ocean_Old:
 	fishentry  70 percent + 1, CCHIYURI,   10
@@ -59,10 +59,10 @@ ENDM
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     GENGETSU,  20
 	fishentry  90 percent + 1, CHINCHOU,   20
-	fishentry 100 percent,     SHELLDER,   20
+	fishentry 100 percent,     YUMEKO,   20
 .Ocean_Super:
 	fishentry  40 percent,     CHINCHOU,   40
-	fishentry  70 percent,     SHELLDER,   40
+	fishentry  70 percent,     YUMEKO,   40
 	fishentry  90 percent + 1, EGENGETSU, 40
 	fishentry 100 percent,     LANTURN,    40
 
@@ -89,7 +89,7 @@ ENDM
 .Well_Super:
 	fishentry  40 percent,     GOLDEEN,    40
 	fishentry  70 percent,     GOLDEEN,    40
-	fishentry  90 percent + 1, SHELLDER,   40
+	fishentry  90 percent + 1, YUMEKO,   40
 	fishentry 100 percent,     SEAKING,    40
 
 .Pond_Old:
@@ -185,16 +185,16 @@ ENDM
 .WhirlIslands_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
 	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     KRABBY,     10
+	fishentry 100 percent,     CDAICHAN,     10
 .WhirlIslands_Good:
 	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     KRABBY,     20
-	fishentry  90 percent + 1, KRABBY,     20
+	fishentry  70 percent,     CDAICHAN,     20
+	fishentry  90 percent + 1, CDAICHAN,     20
 	fishentry 100 percent,     HORSEA,     20
 .WhirlIslands_Super:
-	fishentry  40 percent,     KRABBY,     40
+	fishentry  40 percent,     CDAICHAN,     40
 	fishentry  70 percent,     HORSEA,     40
-	fishentry  90 percent + 1, KINGLER,    40
+	fishentry  90 percent + 1, DAICHAN,    40
 	fishentry 100 percent,     SEADRA,     40
 
 .Qwilfish_Old:

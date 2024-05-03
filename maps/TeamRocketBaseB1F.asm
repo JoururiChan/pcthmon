@@ -22,7 +22,7 @@ TeamRocketBaseB1F_MapScriptHeader:
 	coord_event 22, 16, 0, SecurityCamera4
 	coord_event  8, 16, 0, SecurityCamera5
 	; There are spots on the floor that trigger a Tohomon battle.
-	; Each Tohomon (Voltorb, Koffing, Geodude) knows Explosion as a unique wild move.
+	; Each Tohomon (EDaichan, Koffing, CSara) knows Explosion as a unique wild move.
 	coord_event  2,  7, 0, ExplodingTrap1
 	coord_event  3,  7, 0, ExplodingTrap2
 	coord_event  4,  7, 0, ExplodingTrap3
@@ -342,7 +342,7 @@ ExplodingTrap1:
 ExplodingTrap2:
 	checkevent EVENT_EXPLODING_TRAP_2
 	iftrue NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall EDaichanExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_2
 	end
@@ -350,7 +350,7 @@ ExplodingTrap2:
 ExplodingTrap3:
 	checkevent EVENT_EXPLODING_TRAP_3
 	iftrue NoExplodingTrap
-	scall GeodudeExplodingTrap
+	scall CSaraExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_3
 	end
@@ -358,7 +358,7 @@ ExplodingTrap3:
 ExplodingTrap4:
 	checkevent EVENT_EXPLODING_TRAP_4
 	iftrue NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall EDaichanExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_4
 	end
@@ -366,7 +366,7 @@ ExplodingTrap4:
 ExplodingTrap5:
 	checkevent EVENT_EXPLODING_TRAP_5
 	iftrue NoExplodingTrap
-	scall GeodudeExplodingTrap
+	scall CSaraExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_5
 	end
@@ -382,7 +382,7 @@ ExplodingTrap6:
 ExplodingTrap7:
 	checkevent EVENT_EXPLODING_TRAP_7
 	iftrue NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall EDaichanExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_7
 	end
@@ -406,7 +406,7 @@ ExplodingTrap9:
 ExplodingTrap10:
 	checkevent EVENT_EXPLODING_TRAP_10
 	iftruefwd NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall EDaichanExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_10
 	end
@@ -414,7 +414,7 @@ ExplodingTrap10:
 ExplodingTrap11:
 	checkevent EVENT_EXPLODING_TRAP_11
 	iftruefwd NoExplodingTrap
-	scall GeodudeExplodingTrap
+	scall CSaraExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_11
 	end
@@ -422,7 +422,7 @@ ExplodingTrap11:
 ExplodingTrap12:
 	checkevent EVENT_EXPLODING_TRAP_12
 	iftruefwd NoExplodingTrap
-	scall GeodudeExplodingTrap
+	scall CSaraExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_12
 	end
@@ -430,7 +430,7 @@ ExplodingTrap12:
 ExplodingTrap13:
 	checkevent EVENT_EXPLODING_TRAP_13
 	iftruefwd NoExplodingTrap
-	scall GeodudeExplodingTrap
+	scall CSaraExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_13
 	end
@@ -446,7 +446,7 @@ ExplodingTrap14:
 ExplodingTrap15:
 	checkevent EVENT_EXPLODING_TRAP_15
 	iftruefwd NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall EDaichanExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_15
 	end
@@ -462,7 +462,7 @@ ExplodingTrap16:
 ExplodingTrap17:
 	checkevent EVENT_EXPLODING_TRAP_17
 	iftruefwd NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall EDaichanExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_17
 	end
@@ -470,7 +470,7 @@ ExplodingTrap17:
 ExplodingTrap18:
 	checkevent EVENT_EXPLODING_TRAP_18
 	iftruefwd NoExplodingTrap
-	scall GeodudeExplodingTrap
+	scall CSaraExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_18
 	end
@@ -478,7 +478,7 @@ ExplodingTrap18:
 ExplodingTrap19:
 	checkevent EVENT_EXPLODING_TRAP_19
 	iftruefwd NoExplodingTrap
-	scall GeodudeExplodingTrap
+	scall CSaraExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_19
 	end
@@ -486,7 +486,7 @@ ExplodingTrap19:
 ExplodingTrap20:
 	checkevent EVENT_EXPLODING_TRAP_20
 	iftruefwd NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall EDaichanExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_20
 	end
@@ -502,30 +502,30 @@ ExplodingTrap21:
 ExplodingTrap22:
 	checkevent EVENT_EXPLODING_TRAP_22
 	iftruefwd NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall EDaichanExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_22
 	end
 
-VoltorbExplodingTrap:
+EDaichanExplodingTrap:
 	special FadeOutPalettes
 	special LoadMapPalettes
-	cry VOLTORB
+	cry EDAICHAN
 	special FadeInPalettes_EnableDynNoApply
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon VOLTORB, 30
+	loadwildmon EDAICHAN, 30
 	startbattle
 	end
 
-GeodudeExplodingTrap:
+CSaraExplodingTrap:
 	special FadeOutPalettes
 	special LoadMapPalettes
-	cry GEODUDE
+	cry CSARA
 	special FadeInPalettes_EnableDynNoApply
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon GEODUDE, 28
+	loadwildmon CSARA, 28
 	startbattle
 	end
 

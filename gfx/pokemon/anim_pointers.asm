@@ -73,34 +73,34 @@ AnimationPointers:
 	dw CGengetsuAnimation
 	dw GengetsuAnimation
 	dw EGengetsuAnimation
-	dw GeodudePlainAnimation
-	dw GravelerPlainAnimation
-	dw GolemPlainAnimation
-	dw PonytaPlainAnimation
-	dw RapidashPlainAnimation
-	dw SlowpokePlainAnimation
-	dw SlowbroPlainAnimation
-	dw MagnemiteAnimation
-	dw MagnetonAnimation
+	dw CSaraPlainAnimation
+	dw SaraPlainAnimation
+	dw ESaraPlainAnimation
+	dw CLuizePlainAnimation
+	dw LuizePlainAnimation
+	dw ELuizePlainAnimation
+	dw CAlicePlainAnimation
+	dw AliceAnimation
+	dw EAliceAnimation
 	dw FarfetchDPlainAnimation
-	dw DoduoAnimation
-	dw DodrioAnimation
-	dw SeelAnimation
-	dw DewgongAnimation
-	dw GrimerPlainAnimation
-	dw MukPlainAnimation
-	dw ShellderAnimation
-	dw CloysterAnimation
-	dw GastlyAnimation
-	dw HaunterAnimation
-	dw GengarAnimation
-	dw OnixAnimation
-	dw DrowzeeAnimation
-	dw HypnoAnimation
-	dw KrabbyAnimation
-	dw KinglerAnimation
-	dw VoltorbPlainAnimation
-	dw ElectrodePlainAnimation
+	dw MaiAnimation
+	dw EMaiAnimation
+	dw CYukiAnimation
+	dw YukiAnimation
+	dw EYukiPlainAnimation
+	dw CYumekoPlainAnimation
+	dw YumekoAnimation
+	dw EYumekoAnimation
+	dw CShinkiAnimation
+	dw ShinkiAnimation
+	dw EShinkiAnimation
+	dw CRumiaAnimation
+	dw RumiaAnimation
+	dw ERumiaAnimation
+	dw CDaichanAnimation
+	dw DaichanAnimation
+	dw EDaichanPlainAnimation
+	dw CCirnoPlainAnimation
 	dw ExeggcuteAnimation
 	dw ExeggutorPlainAnimation
 	dw CuboneAnimation
@@ -373,19 +373,19 @@ AnimationPointers:
 	dw ChiyuriAlolanAnimation
 	dw EChiyuriAlolanAnimation
 	dw CYumemiAlolanAnimation
-	dw GeodudeAlolanAnimation
-	dw GravelerAlolanAnimation
-	dw GolemAlolanAnimation
-	dw GrimerAlolanAnimation
-	dw MukAlolanAnimation
+	dw CSaraAlolanAnimation
+	dw SaraAlolanAnimation
+	dw ESaraAlolanAnimation
+	dw EYukiAlolanAnimation
+	dw CYumekoAlolanAnimation
 	dw ExeggutorAlolanAnimation
 	dw MarowakAlolanAnimation
 
 	dw EChiyuriGalarianAnimation
-	dw PonytaGalarianAnimation
-	dw RapidashGalarianAnimation
-	dw SlowpokeGalarianAnimation
-	dw SlowbroGalarianAnimation
+	dw CLuizeGalarianAnimation
+	dw LuizeGalarianAnimation
+	dw ELuizeGalarianAnimation
+	dw CAliceGalarianAnimation
 	dw FarfetchDGalarianAnimation
 	dw WeezingGalarianAnimation
 	dw MrMimeGalarianAnimation
@@ -397,8 +397,8 @@ AnimationPointers:
 
 	dw EOrangeHisuianAnimation
 	dw CKurumiHisuianAnimation
-	dw VoltorbHisuianAnimation
-	dw ElectrodeHisuianAnimation
+	dw EDaichanHisuianAnimation
+	dw CCirnoHisuianAnimation
 	dw EReisenHisuianAnimation
 	dw QwilfishHisuianAnimation
 	dw SneaselHisuianAnimation

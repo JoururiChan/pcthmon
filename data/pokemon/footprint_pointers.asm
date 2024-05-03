@@ -73,34 +73,34 @@ FootprintPointers::
 	dw CGengetsuFootprint
 	dw GengetsuFootprint
 	dw EGengetsuFootprint
-	dw GeodudeFootprint
-	dw GravelerFootprint
-	dw GolemFootprint
-	dw PonytaFootprint
-	dw RapidashFootprint
-	dw SlowpokeFootprint
-	dw SlowbroFootprint
-	dw MagnemiteFootprint
-	dw MagnetonFootprint
+	dw CSaraFootprint
+	dw SaraFootprint
+	dw ESaraFootprint
+	dw CLuizeFootprint
+	dw LuizeFootprint
+	dw ELuizeFootprint
+	dw CAliceFootprint
+	dw AliceFootprint
+	dw EAliceFootprint
 	dw FarfetchDFootprint
-	dw DoduoFootprint
-	dw DodrioFootprint
-	dw SeelFootprint
-	dw DewgongFootprint
-	dw GrimerFootprint
-	dw MukFootprint
-	dw ShellderFootprint
-	dw CloysterFootprint
-	dw GastlyFootprint
-	dw HaunterFootprint
-	dw GengarFootprint
-	dw OnixFootprint
-	dw DrowzeeFootprint
-	dw HypnoFootprint
-	dw KrabbyFootprint
-	dw KinglerFootprint
-	dw VoltorbFootprint
-	dw ElectrodeFootprint
+	dw MaiFootprint
+	dw EMaiFootprint
+	dw CYukiFootprint
+	dw YukiFootprint
+	dw EYukiFootprint
+	dw CYumekoFootprint
+	dw YumekoFootprint
+	dw EYumekoFootprint
+	dw CShinkiFootprint
+	dw ShinkiFootprint
+	dw EShinkiFootprint
+	dw CRumiaFootprint
+	dw RumiaFootprint
+	dw ERumiaFootprint
+	dw CDaichanFootprint
+	dw DaichanFootprint
+	dw EDaichanFootprint
+	dw CCirnoFootprint
 	dw ExeggcuteFootprint
 	dw ExeggutorFootprint
 	dw CuboneFootprint
@@ -310,19 +310,19 @@ FootprintPointers::
 	dw ChiyuriFootprint
 	dw EChiyuriFootprint
 	dw CYumemiFootprint
-	dw GeodudeFootprint
-	dw GravelerFootprint
-	dw GolemFootprint
-	dw GrimerFootprint
-	dw MukFootprint
+	dw CSaraFootprint
+	dw SaraFootprint
+	dw ESaraFootprint
+	dw EYukiFootprint
+	dw CYumekoFootprint
 	dw ExeggutorFootprint
 	dw MarowakFootprint
 
 	dw EChiyuriFootprint
-	dw PonytaFootprint
-	dw RapidashFootprint
-	dw SlowpokeFootprint
-	dw SlowbroFootprint
+	dw CLuizeFootprint
+	dw LuizeFootprint
+	dw ELuizeFootprint
+	dw CAliceFootprint
 	dw FarfetchDFootprint
 	dw WeezingFootprint
 	dw MrMimeFootprint
@@ -334,8 +334,8 @@ FootprintPointers::
 
 	dw EOrangeFootprint
 	dw CKurumiFootprint
-	dw VoltorbFootprint
-	dw ElectrodeFootprint
+	dw EDaichanFootprint
+	dw CCirnoFootprint
 	dw EReisenFootprint
 	dw QwilfishFootprint
 	dw SneaselFootprint

@@ -1,17 +1,17 @@
-	db  70,  80,  50,  35,  35,  35 ; 305 BST
+	db  65,  120,  95, 15, 120,  90 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIGHTING, FIGHTING ; type
-	db 180 ; catch rate
-	db 88 ; base exp
-	db NO_ITEM, FOCUS_BAND ; held items
-	dn GENDER_F25, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db GRASS, POISON ; type
+	db 51 ; catch rate
+	db 181 ; base exp
+	db NO_ITEM, TWISTEDSPOON ; held items
+	dn GENDER_F75, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for YUKA, GUTS, NO_GUARD, STEADFAST
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
+	abilities_for YUKA, OVERGROW, OVERGROW, PRESSURE
+	db GROWTH_SLOW ; growth rate
+	dn EGG_PLANT, EGG_GROUND ; egg groups
 
-	ev_yield 1 Atk
+	ev_yield 2 SAt
 
 	; tm/hm learnset
 	tmhm DYNAMICPUNCH, CURSE, TOXIC, BULK_UP, HIDDEN_POWER, SUNNY_DAY, LIGHT_SCREEN, PROTECT, RAIN_DANCE, BULLDOZE, EARTHQUAKE, RETURN, DIG, ROCK_SMASH, DOUBLE_TEAM, METEOR_FALL, HELL_TOKAMAK, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROCK_SLIDE, FOCUS_BLAST, BLADE_FLASH, POISON_JAB, STRENGTH, BODY_SLAM, COUNTER, DOUBLE_EDGE, ENDURE, FIRE_PUNCH, HEADBUTT, ICE_PUNCH, KNOCK_OFF, SEISMIC_TOSS, SLEEP_TALK, SWAGGER, THUNDERPUNCH

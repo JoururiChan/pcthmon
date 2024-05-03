@@ -461,7 +461,7 @@ Slots_StopReel3:
 	cp 120
 	jr nc, .slow_advance
 	cp 60
-	jr nc, .golem
+	jr nc, .esara
 	ld a, $15
 	ret
 
@@ -471,7 +471,7 @@ Slots_StopReel3:
 	jr nc, .stop
 	cp 80
 	jr nc, .slow_advance
-.golem
+.esara
 	ld a, $12
 	ret
 
@@ -689,9 +689,9 @@ ReelActionJumptable:
 	dw ReelAction_WaitDropReel                ; 0f
 	dw ReelAction_StartSlowAdvanceReel3       ; 10
 	dw ReelAction_WaitSlowAdvanceReel3        ; 11
-	dw ReelAction_InitGolem                   ; 12
-	dw ReelAction_WaitGolem                   ; 13
-	dw ReelAction_EndGolem                    ; 14
+	dw ReelAction_InitESara                   ; 12
+	dw ReelAction_WaitESara                   ; 13
+	dw ReelAction_EndESara                    ; 14
 	dw Slots_InitChansey                      ; 15
 	dw ReelAction_WaitChansey                 ; 16
 	dw ReelAction_WaitEgg                     ; 17
@@ -878,7 +878,7 @@ ReelAction_FastSpinReel2UntilLinedUp7s:
 	ret z
 	jmp Slots_StopReel
 
-ReelAction_InitGolem:
+ReelAction_InitESara:
 	call Slots_CheckMatchedAllThreeReels
 	ret c
 	ld a, SFX_STOP_SLOT
@@ -890,11 +890,11 @@ ReelAction_InitGolem:
 	ld hl, wReel1SpinRate - wReel1
 	add hl, bc
 	ld [hl], $0
-	call Slots_GetNumberOfGolems
+	call Slots_GetNumberOfESaras
 	push bc
 	push af
 	depixel 12, 13
-	ld a, SPRITE_ANIM_INDEX_SLOTS_GOLEM
+	ld a, SPRITE_ANIM_INDEX_SLOTS_ESARA
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_VAR3
 	add hl, bc
@@ -903,7 +903,7 @@ ReelAction_InitGolem:
 	pop bc
 	xor a
 	ld [wSlotsDelay], a
-ReelAction_WaitGolem:
+ReelAction_WaitESara:
 	ld a, [wSlotsDelay]
 	cp 2
 	jr z, .two
@@ -924,7 +924,7 @@ ReelAction_WaitGolem:
 	ld [hl], $8
 	ret
 
-ReelAction_EndGolem:
+ReelAction_EndESara:
 	xor a
 	ld [wSlotsDelay], a
 	ld hl, wReel1ReelAction - wReel1
@@ -1017,7 +1017,7 @@ ReelAction_BoringReelDrops:
 	ld hl, wReel1ReelAction - wReel1
 	add hl, bc
 	inc [hl]
-	call Slots_GetNumberOfGolems
+	call Slots_GetNumberOfESaras
 	ld hl, wReel1Slot0a - wReel1
 	add hl, bc
 	ld [hl], a
@@ -1294,7 +1294,7 @@ Slots_CopyReelState:
 	ld [de], a
 	ret
 
-Slots_GetNumberOfGolems:
+Slots_GetNumberOfESaras:
 	ld hl, wReel1Position - wReel1
 	add hl, bc
 	ld a, [hl]
@@ -1661,7 +1661,7 @@ endr
 	call Slots_PlaySFX
 	jmp WaitSFX
 
-SlotMachine_AnimateGolem:
+SlotMachine_AnimateESara:
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc
 	ld a, [hl]

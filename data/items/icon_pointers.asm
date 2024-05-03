@@ -241,7 +241,7 @@ ItemIconPointers:
 	dba StarPieceIcon
 	dba BrickPieceIcon
 	dba RareBoneIcon
-	dba SlowpokeTailIcon
+	dba ELuizeTailIcon
 	dba HelixFossilIcon
 	dba DomeFossilIcon
 	dba OldAmberIcon

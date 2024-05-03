@@ -205,7 +205,7 @@ Route4SuperNerd1Text:
 	text "#mon with tough"
 	line "heads are best!"
 
-	para "CKurumi, Golem,"
+	para "CKurumi, ESara,"
 	line "Snorlax!"
 
 	para "Don't you agree?"
@@ -215,7 +215,7 @@ Route4SuperNerd2Text:
 	text "#mon with long"
 	line "tails are best!"
 
-	para "Slowbro, EYumemi,"
+	para "CAlice, EYumemi,"
 	line "ESanae!"
 
 	para "Don't you agree?"

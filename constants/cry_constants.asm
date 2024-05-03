@@ -4,29 +4,29 @@
 ; gen 1
 	const CRY_CRIKA
 	const CRY_CKONGARA
-	const CRY_SLOWPOKE
+	const CRY_ELUIZE
 	const CRY_KANGASKHAN
 	const CRY_CMARISA
-	const CRY_GRIMER
-	const CRY_VOLTORB
-	const CRY_MUK
+	const CRY_EYUKI
+	const CRY_EDAICHAN
+	const CRY_CYUMEKO
 	const CRY_EKOTOHIME
 	const CRY_CSARIEL
 	const CRY_EKONGARA
 	const CRY_CCHIYURI
-	const CRY_SEEL
-	const CRY_DROWZEE
+	const CRY_CYUKI
+	const CRY_RUMIA
 	const CRY_EMAGAN
 	const CRY_CREIMU
-	const CRY_FARFETCH_D
+	const CRY_CMAI
 	const CRY_RHYDON
-	const CRY_GOLEM
+	const CRY_ESARA
 	const CRY_ESAKUYA
 	const CRY_CMIMA
 	const CRY_OGYOKU
 	const CRY_CGYOKU
 	const CRY_CKIKURI
-	const CRY_SHELLDER
+	const CRY_YUMEKO
 	const CRY_CMEIRA
 	const CRY_RIKAKO
 	const CRY_LAPRAS
@@ -34,7 +34,7 @@
 	const CRY_CSAKUYA
 	const CRY_EKANA
 	const CRY_EORANGE
-	const CRY_KRABBY
+	const CRY_CDAICHAN
 	const CRY_YUMEMI
 	const CRY_EMIMA
 	const CRY_KANA

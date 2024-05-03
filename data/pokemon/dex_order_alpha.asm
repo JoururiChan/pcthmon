@@ -36,7 +36,7 @@ AlphabeticalTohodexOrder:
 	dp CMEIRA
 	dp CLEFFA
 	dp CLODSIRE
-	dp CLOYSTER
+	dp EYUMEKO
 	dp CORSOLA
 	dp CROBAT
 	dp SANAE
@@ -44,16 +44,16 @@ AlphabeticalTohodexOrder:
 	dp CURSOLA
 	dp CREISEN
 	dp DELIBIRD
-	dp DEWGONG
+	dp YUKI
 	dp CCHIYURI
 	dp DITTO
-	dp DODRIO
-	dp DODUO
+	dp EMAI
+	dp MAI
 	dp DONPHAN
 	dp DRAGONAIR
 	dp DRAGONITE
 	dp DRATINI
-	dp DROWZEE
+	dp RUMIA
 	dp DUDUNSPARCE
 	dp CHIYURI
 	dp DUNSPARCE
@@ -61,23 +61,23 @@ AlphabeticalTohodexOrder:
 	dp CKIKURI
 	dp ELECTABUZZ
 	dp ELECTIVIRE
-	dp ELECTRODE
+	dp CCIRNO
 	dp ELEKID
 	dp ENTEI
 	dp ESPEON
 	dp EXEGGCUTE
 	dp EXEGGUTOR
 	dp FARIGIRAF
-	dp FARFETCH_D
+	dp CMAI
 	dp EELIS
 	dp ESANAE
 	dp FLAAFFY
 	dp FLAREON
 	dp FORRETRESS
 	dp FURRET
-	dp GASTLY
-	dp GENGAR
-	dp GEODUDE
+	dp CSHINKI
+	dp ESHINKI
+	dp CSARA
 	dp GIRAFARIG
 	dp GLACEON
 	dp GLIGAR
@@ -86,14 +86,14 @@ AlphabeticalTohodexOrder:
 	dp KOTOHIME
 	dp GOLDEEN
 	dp EYUMEMI
-	dp GOLEM
+	dp ESARA
 	dp GRANBULL
-	dp GRAVELER
-	dp GRIMER
+	dp SARA
+	dp EYUKI
 	dp EORANGE
 	dp GYARADOS
 	dp HAPPINY
-	dp HAUNTER
+	dp SHINKI
 	dp HERACROSS
 	dp HITMONCHAN
 	dp HITMONLEE
@@ -105,7 +105,7 @@ AlphabeticalTohodexOrder:
 	dp HORSEA
 	dp HOUNDOOM
 	dp HOUNDOUR
-	dp HYPNO
+	dp ERUMIA
 	dp IGGLYBUFF
 	dp REIMU
 	dp ELLEN
@@ -118,10 +118,10 @@ AlphabeticalTohodexOrder:
 	dp CMAGAN
 	dp KANGASKHAN
 	dp KINGDRA
-	dp KINGLER
+	dp DAICHAN
 	dp KLEAVOR
 	dp KOFFING
-	dp KRABBY
+	dp CDAICHAN
 	dp LANTURN
 	dp LAPRAS
 	dp LARVITAR
@@ -139,8 +139,8 @@ AlphabeticalTohodexOrder:
 	dp MAGIKARP
 	dp MAGMAR
 	dp MAGMORTAR
-	dp MAGNEMITE
-	dp MAGNETON
+	dp ALICE
+	dp EALICE
 	dp MAGNEZONE
 	dp MAMOSWINE
 	dp CORANGE
@@ -161,7 +161,7 @@ AlphabeticalTohodexOrder:
 	dp MOLTRES
 	dp MR__MIME
 	dp MR__RIME
-	dp MUK
+	dp CYUMEKO
 	dp MUNCHLAX
 	dp MURKROW
 	dp NATU
@@ -177,7 +177,7 @@ AlphabeticalTohodexOrder:
 	dp EKOTOHIME
 	dp OMANYTE
 	dp OMASTAR
-	dp ONIX
+	dp CRUMIA
 	dp OVERQWIL
 	dp EKANA
 	dp CRIKAKO
@@ -196,7 +196,7 @@ AlphabeticalTohodexOrder:
 	dp KURUMI
 	dp EKURUMI
 	dp CELLY
-	dp PONYTA
+	dp CLUIZE
 	dp PORYGON
 	dp PORYGON_Z
 	dp PORYGON2
@@ -208,7 +208,7 @@ AlphabeticalTohodexOrder:
 	dp QWILFISH
 	dp CSARIEL
 	dp RAIKOU
-	dp RAPIDASH
+	dp LUIZE
 	dp CELIS
 	dp EMIMA
 	dp REMORAID
@@ -221,16 +221,16 @@ AlphabeticalTohodexOrder:
 	dp SCYTHER
 	dp SEADRA
 	dp SEAKING
-	dp SEEL
+	dp CYUKI
 	dp SENTRET
-	dp SHELLDER
+	dp YUMEKO
 	dp SHUCKLE
 	dp SIRFETCH_D
 	dp SKARMORY
 	dp SKIPLOOM
-	dp SLOWBRO
+	dp CALICE
 	dp SLOWKING
-	dp SLOWPOKE
+	dp ELUIZE
 	dp SLUGMA
 	dp SMEARGLE
 	dp SMOOCHUM
@@ -274,7 +274,7 @@ AlphabeticalTohodexOrder:
 	dp EREIMU
 	dp CGENGETSU
 	dp KANA
-	dp VOLTORB
+	dp EDAICHAN
 	dp EMEIRA
 	dp SAKUYA
 	dp WEAVILE

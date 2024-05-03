@@ -2,21 +2,21 @@
 
 WithdrawUsers:
 ; Defense Curl += Withdraw
-	dp SLOWBRO
-	dp SHELLDER
-	dp CLOYSTER
+	dp CALICE
+	dp YUMEKO
+	dp EYUMEKO
 	dp OMANYTE
 	dp OMASTAR
 	db 0
 
 HardenUsers:
 ; Defense Curl += Harden
-	dp GRIMER
-	dp MUK
-	dp ONIX
+	dp EYUKI
+	dp CYUMEKO
+	dp CRUMIA
 	dp STEELIX
-	dp KRABBY
-	dp KINGLER
+	dp CDAICHAN
+	dp DAICHAN
 	dp STARYU
 	dp STARMIE
 	dp KABUTO

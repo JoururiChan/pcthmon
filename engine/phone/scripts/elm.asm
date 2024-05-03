@@ -91,9 +91,9 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveEKikuri
 	dw .EvolveCKana
 	dw .EvolveEKurumi
-	dw .EvolveSlowpokePlain
-	dw .EvolveSlowpokeGalarian
-	dw .EvolveMagneton
+	dw .EvolveELuizePlain
+	dw .EvolveELuizeGalarian
+	dw .EvolveEAlice
 	dw .EvolveExeggcute
 	dw .EvolveKoffing
 	dw .EvolveCubone
@@ -164,14 +164,14 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveEKurumi:
 	farwritetext ElmPhoneEvoText_EKurumi
 	end
-.EvolveSlowpokePlain:
-	farwritetext ElmPhoneEvoText_SlowpokePlain
+.EvolveELuizePlain:
+	farwritetext ElmPhoneEvoText_ELuizePlain
 	end
-.EvolveSlowpokeGalarian:
-	farwritetext ElmPhoneEvoText_SlowpokeGalarian
+.EvolveELuizeGalarian:
+	farwritetext ElmPhoneEvoText_ELuizeGalarian
 	end
-.EvolveMagneton:
-	farwritetext ElmPhoneEvoText_Magneton
+.EvolveEAlice:
+	farwritetext ElmPhoneEvoText_EAlice
 	end
 .EvolveExeggcute:
 	farwritetext ElmPhoneEvoText_Exeggcute

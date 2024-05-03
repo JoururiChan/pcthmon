@@ -95,7 +95,7 @@ MoveNames::
 	li "Toxic"
 	li "Psyshot"
 	li "Psychic"
-	li "Hypnosis"
+	li "ERumiasis"
 	li "Hone Tools"
 	li "SakuyaWorld"
 	li "Quick Attack"

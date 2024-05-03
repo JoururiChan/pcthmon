@@ -467,9 +467,9 @@ ENDM
 	map_attributes UnionCaveB1FNorth, UNION_CAVE_B1F_NORTH, $9, 0
 	map_attributes UnionCaveB1FSouth, UNION_CAVE_B1F_SOUTH, $9, 0
 	map_attributes UnionCaveB2F, UNION_CAVE_B2F, $9, 0
-	map_attributes SlowpokeWellEntrance, SLOWPOKE_WELL_ENTRANCE, $9, 0
-	map_attributes SlowpokeWellB1F, SLOWPOKE_WELL_B1F, $9, 0
-	map_attributes SlowpokeWellB2F, SLOWPOKE_WELL_B2F, $9, 0
+	map_attributes ELuizeWellEntrance, ELUIZE_WELL_ENTRANCE, $9, 0
+	map_attributes ELuizeWellB1F, ELUIZE_WELL_B1F, $9, 0
+	map_attributes ELuizeWellB2F, ELUIZE_WELL_B2F, $9, 0
 	map_attributes OlivineLighthouse1F, OLIVINE_LIGHTHOUSE_1F, $0, 0
 	map_attributes OlivineLighthouse2F, OLIVINE_LIGHTHOUSE_2F, $0, 0
 	map_attributes OlivineLighthouse3F, OLIVINE_LIGHTHOUSE_3F, $0, 0
@@ -600,7 +600,7 @@ ENDM
 	map_attributes EarlsPokemonAcademy, EARLS_POKEMON_ACADEMY, $0, 0
 	map_attributes VioletNicknameSpeechHouse, VIOLET_NICKNAME_SPEECH_HOUSE, $0, 0
 	map_attributes VioletPokeCenter1F, VIOLET_POKECENTER_1F, $0, 0
-	map_attributes VioletOnixTradeHouse, VIOLET_ONIX_TRADE_HOUSE, $0, 0
+	map_attributes VioletCRumiaTradeHouse, VIOLET_CRUMIA_TRADE_HOUSE, $0, 0
 	map_attributes Route32RuinsOfAlphGate, ROUTE_32_RUINS_OF_ALPH_GATE, $0, 0
 	map_attributes Route32PokeCenter1F, ROUTE_32_POKECENTER_1F, $0, 0
 	map_attributes Route32CoastHouse, ROUTE_32_COAST_HOUSE, $0, 0

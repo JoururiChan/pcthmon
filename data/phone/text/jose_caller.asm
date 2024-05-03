@@ -13,13 +13,13 @@ JoseMonsStickHasADeliciousAromaText:
 
 JoseDefeatedMonText:
 	text "A while ago, my"
-	line "Farfetch'd KO'd"
+	line "CMai KO'd"
 	cont "this "
 	text_ram wStringBuffer4
 	text "."
 
 	para "You should have"
-	line "seen Farfetch'd"
+	line "seen CMai"
 
 	para "wield that stick."
 	line "Amazing stuff!"
@@ -46,7 +46,7 @@ JoseBattleRematchText:
 	line "again?"
 
 	para "For some reason,"
-	line "my Farfetch'd is"
+	line "my CMai is"
 
 	para "all worked up and"
 	line "raring to go."
@@ -65,7 +65,7 @@ JoseHangUpText:
 	done
 
 JoseFoundItemText:
-	text "My Farfetch'd had"
+	text "My CMai had"
 	line "something pretty"
 	cont "in its beak."
 
@@ -97,7 +97,7 @@ JoseReminderText:
 	text "<PLAYER>, could you"
 	line "hurry over?"
 
-	para "Farfetch'd is"
+	para "CMai is"
 	line "agitated."
 
 	para "If you don't come"

@@ -1,17 +1,17 @@
-	db  90, 130,  80,  55,  65,  85 ; 505 BST
+	db  67, 25,  32,  55,  60,  40 ; 505 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIGHTING, FIGHTING ; type
-	db 45 ; catch rate
-	db 193 ; base exp
+	db DARK, FAIRY ; type
+	db 66 ; catch rate
+	db 75 ; base exp
 	db NO_ITEM, FOCUS_BAND ; held items
-	dn GENDER_F25, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F75, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for CMUGETSU, GUTS, NO_GUARD, STEADFAST
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
+	abilities_for CMUGETSU, LIMBER, LIMBER, PRESSURE
+	db GROWTH_FAST ; growth rate
+	dn EGG_INDETERMINATE, EGG_FAIRY ; egg groups
 
-	ev_yield 3 Atk
+	ev_yield 1 HP
 
 	; tm/hm learnset
 	tmhm DYNAMICPUNCH, CURSE, TOXIC, BULK_UP, HIDDEN_POWER, SUNNY_DAY, AEROBLAST, LIGHT_SCREEN, PROTECT, RAIN_DANCE, BULLDOZE, EARTHQUAKE, RETURN, DIG, ROCK_SMASH, DOUBLE_TEAM, METEOR_FALL, HELL_TOKAMAK, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROCK_SLIDE, FOCUS_BLAST, BLADE_FLASH, POISON_JAB, GUNGNIR, STONE_EDGE, STRENGTH, BODY_SLAM, COUNTER, DOUBLE_EDGE, ENDURE, FIRE_PUNCH, HEADBUTT, ICE_PUNCH, KNOCK_OFF, SEISMIC_TOSS, SLEEP_TALK, SWAGGER, THUNDERPUNCH

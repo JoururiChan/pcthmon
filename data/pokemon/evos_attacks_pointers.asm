@@ -77,34 +77,34 @@ EvosAttacksPointers::
 	dw CGengetsuEvosAttacks
 	dw GengetsuEvosAttacks
 	dw EGengetsuEvosAttacks
-	dw GeodudePlainEvosAttacks
-	dw GravelerPlainEvosAttacks
-	dw GolemPlainEvosAttacks
-	dw PonytaPlainEvosAttacks
-	dw RapidashPlainEvosAttacks
-	dw SlowpokePlainEvosAttacks
-	dw SlowbroPlainEvosAttacks
-	dw MagnemiteEvosAttacks
-	dw MagnetonEvosAttacks
+	dw CSaraPlainEvosAttacks
+	dw SaraPlainEvosAttacks
+	dw ESaraPlainEvosAttacks
+	dw CLuizePlainEvosAttacks
+	dw LuizePlainEvosAttacks
+	dw ELuizePlainEvosAttacks
+	dw CAlicePlainEvosAttacks
+	dw AliceEvosAttacks
+	dw EAliceEvosAttacks
 	dw FarfetchDPlainEvosAttacks
-	dw DoduoEvosAttacks
-	dw DodrioEvosAttacks
-	dw SeelEvosAttacks
-	dw DewgongEvosAttacks
-	dw GrimerPlainEvosAttacks
-	dw MukPlainEvosAttacks
-	dw ShellderEvosAttacks
-	dw CloysterEvosAttacks
-	dw GastlyEvosAttacks
-	dw HaunterEvosAttacks
-	dw GengarEvosAttacks
-	dw OnixEvosAttacks
-	dw DrowzeeEvosAttacks
-	dw HypnoEvosAttacks
-	dw KrabbyEvosAttacks
-	dw KinglerEvosAttacks
-	dw VoltorbPlainEvosAttacks
-	dw ElectrodePlainEvosAttacks
+	dw MaiEvosAttacks
+	dw EMaiEvosAttacks
+	dw CYukiEvosAttacks
+	dw YukiEvosAttacks
+	dw EYukiPlainEvosAttacks
+	dw CYumekoPlainEvosAttacks
+	dw YumekoEvosAttacks
+	dw EYumekoEvosAttacks
+	dw CShinkiEvosAttacks
+	dw ShinkiEvosAttacks
+	dw EShinkiEvosAttacks
+	dw CRumiaEvosAttacks
+	dw RumiaEvosAttacks
+	dw ERumiaEvosAttacks
+	dw CDaichanEvosAttacks
+	dw DaichanEvosAttacks
+	dw EDaichanPlainEvosAttacks
+	dw CCirnoPlainEvosAttacks
 	dw ExeggcuteEvosAttacks
 	dw ExeggutorPlainEvosAttacks
 	dw CuboneEvosAttacks
@@ -314,19 +314,19 @@ EvosAttacksPointers::
 	dw ChiyuriAlolanEvosAttacks
 	dw EChiyuriAlolanEvosAttacks
 	dw CYumemiAlolanEvosAttacks
-	dw GeodudeAlolanEvosAttacks
-	dw GravelerAlolanEvosAttacks
-	dw GolemAlolanEvosAttacks
-	dw GrimerAlolanEvosAttacks
-	dw MukAlolanEvosAttacks
+	dw CSaraAlolanEvosAttacks
+	dw SaraAlolanEvosAttacks
+	dw ESaraAlolanEvosAttacks
+	dw EYukiAlolanEvosAttacks
+	dw CYumekoAlolanEvosAttacks
 	dw ExeggutorAlolanEvosAttacks
 	dw MarowakAlolanEvosAttacks
 
 	dw EChiyuriGalarianEvosAttacks
-	dw PonytaGalarianEvosAttacks
-	dw RapidashGalarianEvosAttacks
-	dw SlowpokeGalarianEvosAttacks
-	dw SlowbroGalarianEvosAttacks
+	dw CLuizeGalarianEvosAttacks
+	dw LuizeGalarianEvosAttacks
+	dw ELuizeGalarianEvosAttacks
+	dw CAliceGalarianEvosAttacks
 	dw FarfetchDGalarianEvosAttacks
 	dw WeezingGalarianEvosAttacks
 	dw MrMimeGalarianEvosAttacks
@@ -338,8 +338,8 @@ EvosAttacksPointers::
 
 	dw EOrangeHisuianEvosAttacks
 	dw CKurumiHisuianEvosAttacks
-	dw VoltorbHisuianEvosAttacks
-	dw ElectrodeHisuianEvosAttacks
+	dw EDaichanHisuianEvosAttacks
+	dw CCirnoHisuianEvosAttacks
 	dw EReisenHisuianEvosAttacks
 	dw QwilfishHisuianEvosAttacks
 	dw SneaselHisuianEvosAttacks

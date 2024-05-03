@@ -225,7 +225,7 @@ BillsPC_ObjGFX::    INCBIN "gfx/pc/obj.2bpp.lz"
 SECTION "Tohodex Graphics", ROMX
 
 TohodexTileLZ::     INCBIN "gfx/pokedex/pokedex.2bpp.lz"
-TohodexSlowpokeLZ:: INCBIN "gfx/pokedex/slowpoke.2bpp.lz"
+TohodexELuizeLZ:: INCBIN "gfx/pokedex/eluize.2bpp.lz"
 QuestionMarkLZ::    INCBIN "gfx/pokedex/question_mark.2bpp.lz"
 TohodexObjLZ::      INCBIN "gfx/pokedex/oam.2bpp.lz"
 

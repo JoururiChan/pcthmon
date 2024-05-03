@@ -168,13 +168,13 @@ CeladonCityTeacher1Text:
 	done
 
 CeladonCityGramps1Text:
-	text "Grimer have been"
+	text "EYuki have been"
 	line "appearing lately."
 
 	para "See that pond out"
 	line "in front of the"
 
-	para "house? Grimer live"
+	para "house? EYuki live"
 	line "there now."
 
 	para "Where did they"

@@ -115,7 +115,7 @@ INCLUDE "maps/VioletCity.asm"
 INCLUDE "maps/VioletMart.asm"
 INCLUDE "maps/VioletGym.asm"
 INCLUDE "maps/VioletNicknameSpeechHouse.asm"
-INCLUDE "maps/VioletOnixTradeHouse.asm"
+INCLUDE "maps/VioletCRumiaTradeHouse.asm"
 INCLUDE "maps/EarlsPokemonAcademy.asm"
 
 
@@ -180,11 +180,11 @@ INCLUDE "maps/CharcoalKiln.asm"
 INCLUDE "maps/KurtsHouse.asm"
 
 
-SECTION "Slowpoke Well Scripts", ROMX
+SECTION "ELuize Well Scripts", ROMX
 
-INCLUDE "maps/SlowpokeWellEntrance.asm"
-INCLUDE "maps/SlowpokeWellB1F.asm"
-INCLUDE "maps/SlowpokeWellB2F.asm"
+INCLUDE "maps/ELuizeWellEntrance.asm"
+INCLUDE "maps/ELuizeWellB1F.asm"
+INCLUDE "maps/ELuizeWellB2F.asm"
 
 
 SECTION "Ilex Forest Scripts", ROMX

@@ -20,9 +20,9 @@ MultipleEvolutions:
 	multi_evo EKIKURI, EKIKURI_SURF_FORM, EVOLVE_EKIKURI
 	multi_evo CKANA
 	multi_evo EKURUMI
-	multi_evo SLOWPOKE
-	multi_evo SLOWPOKE, GALARIAN_FORM, EVOLVE_SLOWPOKE_GALARIAN
-	multi_evo MAGNETON
+	multi_evo ELUIZE
+	multi_evo ELUIZE, GALARIAN_FORM, EVOLVE_ELUIZE_GALARIAN
+	multi_evo EALICE
 	multi_evo EXEGGCUTE
 	multi_evo KOFFING
 	multi_evo CUBONE

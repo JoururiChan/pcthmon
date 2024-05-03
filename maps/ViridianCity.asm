@@ -146,7 +146,7 @@ ViridianCityDreamEaterFisherText:
 	line "off in the sun."
 
 	para "…I had this dream"
-	line "about a Drowzee"
+	line "about a Rumia"
 
 	para "eating my dream."
 	line "And…"

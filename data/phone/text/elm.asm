@@ -384,8 +384,8 @@ ElmPhoneEvoText_EKurumi:
 	cont "ing a King's Rock."
 	prompt
 
-ElmPhoneEvoText_SlowpokePlain:
-ElmPhoneEvoText_SlowpokeGalarian:
+ElmPhoneEvoText_ELuizePlain:
+ElmPhoneEvoText_ELuizeGalarian:
 	text_ram wStringBuffer3
 	line "evolves at level"
 	cont "37, or when it"
@@ -395,7 +395,7 @@ ElmPhoneEvoText_SlowpokeGalarian:
 	cont "a King's Rock."
 	prompt
 
-ElmPhoneEvoText_Magneton:
+ElmPhoneEvoText_EAlice:
 	text_ram wStringBuffer3
 	line "evolves when it's"
 

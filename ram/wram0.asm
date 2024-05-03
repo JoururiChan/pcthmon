@@ -466,7 +466,7 @@ wEnemyEncoreCount:: db
 wEnemyPerishCount:: db
 wEnemyProtectCount:: db
 
-wCriticalCount:: ds PARTY_LENGTH ; for g-Farfetch'd evolution
+wCriticalCount:: ds PARTY_LENGTH ; for g-CMai evolution
 wBattleSubStatusWRAMEnd::
 
 wDamageTaken::

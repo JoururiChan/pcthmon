@@ -17,14 +17,14 @@ Qwilfish: Selfdestruct
 
 Scyther/Kleavor: Razor Leaf
 
-Slowbro: Metronome
+CAlice: Metronome
 Lanturn: Earthquake
 Blissey: Reflect
-Drowzee: Strength
+Rumia: Strength
 CMugetsu: Swords Dance
 Skarmory: Master Spark
 Celebi: Fly
-Gengar: Quick Attack
+EShinki: Quick Attack
 Togepi: Drain Kiss
 Ellen: Play Rough
 Chansey: Psybeam
@@ -32,14 +32,14 @@ Staryu: Quick Attack
 Staryu: Psybeam
 
 Misdreavus: Screech
-Whirlpool: Sariel/ESariel, Geodude/Graveler/Golem, Pineco/Forretress, Donphan, Hitmontop (Whirlpool users)
+Whirlpool: Sariel/ESariel, CSara/Sara/ESara, Pineco/Forretress, Donphan, Hitmontop (Whirlpool users)
 
 Eevee: Focus Energy (RBY learnset), Charm (purified)
 Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
 EOrange/CKurumi: Dragon Rage (RBY TM), Charm (purified)
 Houndour/Houndoom: Charm (purified), Night Slash (Prism tutor)
 Ellen/EEllen: Five Elements (RBY TM), Life Balance (HGSS tutor)
-EChiyuri/CYumemi: Hypnosis (Dream World), Gunk Shot (HGSS tutor)
+EChiyuri/CYumemi: ERumiasis (Dream World), Gunk Shot (HGSS tutor)
 Yumemi/EYumemi: Charm (purified), Low Kick (HGSS tutor)
 
 Sw/Sh:
@@ -50,12 +50,12 @@ EMeira: Encore
 CEllen: SakuyaWorld
 CKurumi: Scary Face
 Bellossom: Baton Pass
-Gengar: Nasty Plot, Encore
-Farfetch'd: Sculpture, Baton Pass
-Rapidash: Baton Pass
-Onix: Dragon Dance
+EShinki: Nasty Plot, Encore
+CMai: Sculpture, Baton Pass
+Luize: Baton Pass
+CRumia: Dragon Dance
 Steelix: Dragon Dance, Scary Face
-Kingler: Hydro Pump
+Daichan: Hydro Pump
 Mr. Mime: Dazzling Gleam
 Lapras: Sparkling Aria, Charm
 Umbreon: Crunch, Thief
@@ -76,12 +76,12 @@ S/V:
 Mewtwo: Power Gem
 
 Egg:
-Geodude/Graveler/Golem: Rock Slide
+CSara/Sara/ESara: Rock Slide
 Rhyhorn/Rhydon/Rhyperior: Crunch
 
 RBY TM:
 COrange/Orange: Metronome
-Slowpoke/Slowbro: Five Elements
+ELuize/CAlice: Five Elements
 
 GSC TM:
 EOrange/CKurumi: Dragonbreath
@@ -103,12 +103,12 @@ Snubbull/Granbull: Heal Bell, Low Kick, Metronome, Life Counter
 Teddiursa/Ursaring: Metronome
 
 Dream World:
-Drowzee/Hypno: Drain Punch
+Rumia/ERumia: Drain Punch
 Kangaskhan: Drain Punch
 
 Purified:
-Drowzee/Hypno: Baton Pass
-Ponyta/Rapidash: Baton Pass
+Rumia/ERumia: Baton Pass
+CLuize/Luize: Baton Pass
 Swinub/Piloswine/Mamoswine: Charm
 OGyoku/CMagan/Magan: Baton Pass
 Wobbuffet: Charm

@@ -11,10 +11,10 @@ CeladonHomeDecorStore4F_MapScriptHeader:
 
 	def_bg_events
 	bg_event  8,  0, BGEVENT_JUMPTEXT, CeladonHomeDecorStore4FDirectoryText
-	bg_event  2,  5, BGEVENT_READ, BigOnixDollScript
-	bg_event  3,  5, BGEVENT_READ, BigOnixDollScript
-	bg_event  2,  6, BGEVENT_READ, BigOnixDollScript
-	bg_event  3,  6, BGEVENT_READ, BigOnixDollScript
+	bg_event  2,  5, BGEVENT_READ, BigCRumiaDollScript
+	bg_event  3,  5, BGEVENT_READ, BigCRumiaDollScript
+	bg_event  2,  6, BGEVENT_READ, BigCRumiaDollScript
+	bg_event  3,  6, BGEVENT_READ, BigCRumiaDollScript
 
 	def_object_events
 	object_event  9,  5, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, BigDollClerkText, -1
@@ -64,22 +64,22 @@ BigSnorlaxDollScript:
 	waitbutton
 	jumpopenedtext BigSnorlaxDollSentText
 
-BigOnixDollScript:
-	checkevent EVENT_DECO_BIG_ONIX_DOLL
-	iftrue_jumptext BigOnixDollText
+BigCRumiaDollScript:
+	checkevent EVENT_DECO_BIG_CRUMIA_DOLL
+	iftrue_jumptext BigCRumiaDollText
 	opentext
-	writetext BigDollClerkSellOnixText
+	writetext BigDollClerkSellCRumiaText
 	special PlaceMoneyTopRight
 	yesorno
 	iffalse_jumpopenedtext BigDollClerkNoSaleText
 	checkmoney $0, 250000
 	ifequal $2, BigDollClerkNoMoneyScript
 	takemoney $0, 250000
-	setevent EVENT_DECO_BIG_ONIX_DOLL
-	writetext BoughtBigOnixDollText
+	setevent EVENT_DECO_BIG_CRUMIA_DOLL
+	writetext BoughtBigCRumiaDollText
 	playsound SFX_TRANSACTION
 	waitbutton
-	jumpopenedtext BigOnixDollSentText
+	jumpopenedtext BigCRumiaDollSentText
 
 BigDollClerkText:
 	text "Aren't our jumbo"
@@ -116,9 +116,9 @@ BigDollClerkSellSnorlaxText:
 	line "¥200,000."
 	done
 
-BigDollClerkSellOnixText:
+BigDollClerkSellCRumiaText:
 	text "Clerk: You like"
-	line "the Onix doll?"
+	line "the CRumia doll?"
 
 	para "It'll cost you"
 	line "¥250,000."
@@ -144,13 +144,13 @@ BigSnorlaxDollSentText:
 	line "was sent home."
 	done
 
-BoughtBigOnixDollText:
+BoughtBigCRumiaDollText:
 	text "<PLAYER> bought"
-	line "Big Onix Doll."
+	line "Big CRumia Doll."
 	done
 
-BigOnixDollSentText:
-	text "Big Onix Doll"
+BigCRumiaDollSentText:
+	text "Big CRumia Doll"
 	line "was sent home."
 	done
 
@@ -164,9 +164,9 @@ BigSnorlaxDollText:
 	line "Snorlax Doll!"
 	done
 
-BigOnixDollText:
+BigCRumiaDollText:
 	text "It's a jumbo-size"
-	line "Onix Doll!"
+	line "CRumia Doll!"
 	done
 
 CeladonHomeDecorStore4FDirectoryText:

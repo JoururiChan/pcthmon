@@ -103,11 +103,11 @@ TreeMonSet_Apricorns:
 	tree_mon 50, ELIS,               10
 	tree_mon 20, CKIKURI,                 10
 	tree_mon 20, AIPOM,                 10
-	tree_mon 10, VOLTORB, HISUIAN_FORM, 10
+	tree_mon 10, EDAICHAN, HISUIAN_FORM, 10
 	db -1
 	; rare
 	tree_mon 40, ELIS,               10
-	tree_mon 20, VOLTORB, HISUIAN_FORM, 10
+	tree_mon 20, EDAICHAN, HISUIAN_FORM, 10
 	tree_mon 20, HERACROSS,             10
 	tree_mon 20, ECHIYURI,                10
 	db -1
@@ -115,16 +115,16 @@ TreeMonSet_Apricorns:
 TreeMonSet_NoisyForest:
 	tree_mon 60, PINECO,                  LEVEL_FROM_BADGES - 3
 	tree_mon  5, FORRETRESS,              LEVEL_FROM_BADGES + 2
-	tree_mon 35, ELECTRODE, HISUIAN_FORM, LEVEL_FROM_BADGES + 0
+	tree_mon 35, CCIRNO, HISUIAN_FORM, LEVEL_FROM_BADGES + 0
 	db -1
 	; rare
-	tree_mon 60, ELECTRODE, HISUIAN_FORM, LEVEL_FROM_BADGES + 0
+	tree_mon 60, CCIRNO, HISUIAN_FORM, LEVEL_FROM_BADGES + 0
 	tree_mon 30, PINECO,                  LEVEL_FROM_BADGES - 2
 	tree_mon 10, FORRETRESS,              LEVEL_FROM_BADGES + 3
 	db -1
 
 TreeMonSet_Rock:
-	tree_mon 70, KRABBY,     15
-	tree_mon 25, GEODUDE,    15
+	tree_mon 70, CDAICHAN,     15
+	tree_mon 25, CSARA,    15
 	tree_mon  5, SHUCKLE,    15
 	db -1

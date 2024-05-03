@@ -111,7 +111,7 @@ ENDM
 ; FindOwnedBigDolls.big_dolls values (see engine/overworld/decorations.asm)
 	const BIG_DOLLS
 	deco  BIG_SNORLAX_DOLL
-	deco  BIG_ONIX_DOLL
+	deco  BIG_CRUMIA_DOLL
 	deco  BIG_LAPRAS_DOLL
 ; FindOwnedOrnaments.ornaments values (see engine/overworld/decorations.asm)
 	const DOLLS
@@ -131,13 +131,13 @@ ENDM
 	deco  TOGEPI_DOLL
 	deco  MAGIKARP_DOLL
 	deco  EKOTOHIME_DOLL
-	deco  GENGAR_DOLL
+	deco  ESHINKI_DOLL
 	deco  OCTILLERY_DOLL
 	deco  DITTO_DOLL
-	deco  VOLTORB_DOLL
+	deco  EDAICHAN_DOLL
 	deco  ELLY_DOLL
 	deco  UNOWN_DOLL
-	deco  GEODUDE_DOLL
+	deco  CSARA_DOLL
 	deco  PINECO_DOLL
 	deco  MARILL_DOLL
 	deco  TEDDIURSA_DOLL

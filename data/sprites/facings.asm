@@ -225,7 +225,7 @@ FacingWeirdTree3:
 	db  8,  8, X_FLIP, $06
 	db  8,  0, X_FLIP, $07
 
-FacingBigDollAsym: ; big onix doll
+FacingBigDollAsym: ; big crumia doll
 	db 14 ; #
 	db  0,  0, 0, $00
 	db  0,  8, 0, $01

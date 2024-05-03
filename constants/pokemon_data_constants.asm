@@ -317,16 +317,16 @@ DEF NUM_HOF_TEAMS EQU 10
 	const EVOLVE_STAT ; only for Tyrogue (no need for "EVOLVE_TYROGUE")
 	const EVOLVE_LOCATION
 	const EVOLVE_MOVE
-	const EVOLVE_CRIT ; only for Galarian Farfetch'd
+	const EVOLVE_CRIT ; only for Galarian CMai
 	const EVOLVE_PARTY ; only for Mantyke
 ; multi_evo types for Lyra's info (used in data/pokemon/multi_evos.asm)
 	const EVOLVE_EGG
 	const EVOLVE_EKIKURI
 	const EVOLVE_CKANA
 	const EVOLVE_EKURUMI
-	const EVOLVE_SLOWPOKE
-	const EVOLVE_SLOWPOKE_GALARIAN
-	const EVOLVE_MAGNETON
+	const EVOLVE_ELUIZE
+	const EVOLVE_ELUIZE_GALARIAN
+	const EVOLVE_EALICE
 	const EVOLVE_EXEGGCUTE
 	const EVOLVE_KOFFING
 	const EVOLVE_CUBONE

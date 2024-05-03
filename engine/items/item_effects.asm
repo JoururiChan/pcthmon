@@ -252,7 +252,7 @@ ItemEffects:
 	dw IsntTheTimeMessage ; STAR_PIECE
 	dw IsntTheTimeMessage ; BRICK_PIECE
 	dw IsntTheTimeMessage ; RARE_BONE
-	dw IsntTheTimeMessage ; SLOWPOKETAIL
+	dw IsntTheTimeMessage ; ELUIZETAIL
 	dw IsntTheTimeMessage ; HELIX_FOSSIL
 	dw IsntTheTimeMessage ; DOME_FOSSIL
 	dw IsntTheTimeMessage ; OLD_AMBER

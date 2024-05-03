@@ -31,7 +31,7 @@ GenericTrainerSupernerdHugh:
 	para "Have you seen a"
 	line "trainer who has a"
 
-	para "Slowpoke that can"
+	para "ELuize that can"
 	line "use Strength?"
 	done
 

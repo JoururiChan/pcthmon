@@ -12,7 +12,7 @@ victory: Ken: Impressive. Yuria: Wow! That was great.
 
 after: Ken: Phew. I bet you'd give my brothers a run for their money. Yuria: We won't be back to Ransei for a while. If you want another battle, we'll be here! 
 
-Team: hitmonchan, cmugetsu, blissey, rapidash
+Team: hitmonchan, cmugetsu, blissey, luize
 
 Juggler Luke:
 Oohohoh man! Who's a man and a half?! Guess who struck it big?!
@@ -21,7 +21,7 @@ Victory: ...Not me.  (should give only $1)
 
 After: I'm completely wiped out. The guy next to me hit the jackpot last night. My wife's gonna be so mad...
 
-Team: Golem, Electrode, Azumarill
+Team: ESara, CCirno, Azumarill
 
 Sailor Valter
 
@@ -31,7 +31,7 @@ Victory: Oh ship...
 
 After: Good stuff, kid! You'd make a fine sailor.
 
-Team: Qwilfish, Kingler x2, EGengetsu 
+Team: Qwilfish, Daichan x2, EGengetsu 
 
 Supernerd Not'im 
 Fire me from the Dept Store, will you?! Ngh...I'll show them! I'll show them all! ...Huh? Hey! Get over here! I need something to take my anger out on.
@@ -40,7 +40,7 @@ Victory: Grr...you're next on my list...
 
 After: Get out of my face! 
 
-Team: Electrode (3x)
+Team: CCirno (3x)
 
 Cosplayer Lucy
 I'm so excited for the convention! There's gonna be so many cute girls...
@@ -162,7 +162,7 @@ Victory: Oh, you card!
 
 After: Well, them's the breaks! La-di-da-di-da... (drops berserk gene)
 
-Team: Slowbro, EYumemi, Hypno
+Team: CAlice, EYumemi, ERumia
 
 
 
@@ -181,7 +181,7 @@ Rando NPC: Aww yeah! Some doofus gave me their Bidoof for my Mewtwo! Ya can't fi
 
 Rando NPC: Such a shame...I was hoping to observe the migratory pattern of Elis and EElis, but it seems they're all gone...
 
-Supernerd: Hey, kid! I need some serious juice for my experiments! Get me a Magneton and I'll give you my spare Porygon2! (Nickname: Gent2, shiny, holding dubious disk or whatever evolves it to Z, OT: rms)
+Supernerd: Hey, kid! I need some serious juice for my experiments! Get me a EAlice and I'll give you my spare Porygon2! (Nickname: Gent2, shiny, holding dubious disk or whatever evolves it to Z, OT: rms)
 
 Thief: Hey, kid! Check it out! I got this super top-of-the-line ultra rare pokemon that I st--found after it fell off the back of a truck. Gimme a Sneasel and it's all yours! (Dunsparce, Nickname: Simon, OT: Genbu)
 

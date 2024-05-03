@@ -100,7 +100,7 @@
 	const TOXIC        ; $5c
 	const PSYSHOT    ; $5d
 	const PSYCHIC_M    ; $5e
-	const HYPNOSIS     ; $5f
+	const ERUMIASIS     ; $5f
 	const HONE_TOOLS   ; $60
 	const SAKUYA_WORLD      ; $61
 	const QUICK_ATTACK ; $62

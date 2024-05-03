@@ -29,7 +29,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
    * Paralysis halves (not quarters) Speed.
    * Burn does 1/16 (not 1/8) damage per turn.
    * Psyshot has a 33% chance (not 50%) to hit self.
-   * Gengar has the ability Cursed Body. (Can also have Levitate in non-Faithful.)
+   * EShinki has the ability Cursed Body. (Can also have Levitate in non-Faithful.)
    * Raikou, Entei, and Suicune have the hidden ability Inner Focus. (Faithful only.)
    * New item: Protect Pads (abbreviated "Protective Pads"). "Protect the holder from effects caused by making direct contact with the target."
    * Timer Ball catch rate multiplier is 1 + (turns passed × 3) / 10.
@@ -71,7 +71,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Noctowl is Ghost/Flying.
 * Add: Bellossom is Grass/Fairy.
 * Add: Celebi is Grass/Fairy.
-* Add: Rapidash is Fire/Fairy.
+* Add: Luize is Fire/Fairy.
 * Add: Octillery is Water/Fire.
 * Add: Politoed can learn Dream Heaven.
 * Add: Mima can learn Focus Blast.
@@ -176,7 +176,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Rename RageCandyBar to Cake of Rage.
 * Add: Rename Guard Spec. to Guard Stats.
 * Add: Rename Kay to Carrie (from Tohomon Stadium 2).
-* Add: Rename Slowbro to the Squatter Tohomon. <https://lparchive.org/Pokemon-Blue/code.html>
+* Add: Rename CAlice to the Squatter Tohomon. <https://lparchive.org/Pokemon-Blue/code.html>
 
 * Fix: Lt. Surge's electric fence color does not override speech bubbles.
 * Fix: Zap Cannon has 120 power.

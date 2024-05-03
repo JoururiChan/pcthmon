@@ -94,7 +94,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .UnionCave ; no calls
 	dw .Route33
 	dw .AzaleaTown
-	dw .SlowpokeWell ; no calls
+	dw .ELuizeWell ; no calls
 	dw .IlexForest
 	dw .Route34
 	dw .Route34Coast
@@ -163,7 +163,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 .UnionCave:
 .Route33:
 .AzaleaTown:
-.SlowpokeWell:
+.ELuizeWell:
 .IlexForest:
 .Route34:
 .Route34Coast:

@@ -100,7 +100,7 @@ endc
 	line "was undamaged."
 
 	para "It turned out to"
-	line "be a Geodude that"
+	line "be a CSara that"
 	cont "used Defense Curl!"
 	done
 

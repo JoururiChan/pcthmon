@@ -1,26 +1,17 @@
-if DEF(FAITHFUL)
-	db  80, 105,  65,  70, 100,  70 ; 490 BST
+	db  50, 34,  30,  65, 75,  60 ; 510 BST
 	;   hp  atk  def  spe  sat  sdf
-else
-	db  80, 115,  65,  70, 110,  70 ; 510 BST
-	;   hp  atk  def  spe  sat  sdf
-endc
 
-	db GRASS, POISON ; type
-	db 45 ; catch rate
-if DEF(FAITHFUL)
-	db 191 ; base exp
-else
-	db 199 ; base exp
-endc
+	db DARK, FLYING ; type
+	db 41 ; catch rate
+	db 100 ; base exp
 	db ALWAYS_ITEM_2, BIG_ROOT ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F75, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for CGENGETSU, CHLOROPHYLL, CHLOROPHYLL, GLUTTONY
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_PLANT, EGG_PLANT ; egg groups
+	abilities_for CGENGETSU, IMMUNITY, IMMUNITY, PRESSURE
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_INDETERMINATE, EGG_FAIRY ; egg groups
 
-	ev_yield 3 Atk
+	ev_yield 1 SAt
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, AEROBLAST, PROTECT, GIGA_DRAIN, FLOWER_SHOOT, RETURN, DOUBLE_TEAM, REFLECT, SLUDGE_BOMB, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, LEECH_LIFE,  POISON_JAB, GUNGNIR, FLASH, SWORDS_DANCE, CUT, BODY_SLAM, DOUBLE_EDGE, EARTH_POWER, ENDURE, KNOCK_OFF, SEED_BOMB, SLEEP_TALK, SUCKER_PUNCH, SWAGGER

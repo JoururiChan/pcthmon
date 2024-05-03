@@ -266,6 +266,6 @@ PokemonJournalProfIvyScript:
 	line "with Brock of Pew-"
 	cont "ter City to study"
 
-	para "a shiny Onix's"
+	para "a shiny CRumia's"
 	line "crystalline body."
 	done

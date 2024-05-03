@@ -73,34 +73,34 @@ BitmasksPointers:
 	dw CGengetsuBitmasks
 	dw GengetsuBitmasks
 	dw EGengetsuBitmasks
-	dw GeodudePlainBitmasks
-	dw GravelerPlainBitmasks
-	dw GolemPlainBitmasks
-	dw PonytaPlainBitmasks
-	dw RapidashPlainBitmasks
-	dw SlowpokePlainBitmasks
-	dw SlowbroPlainBitmasks
-	dw MagnemiteBitmasks
-	dw MagnetonBitmasks
+	dw CSaraPlainBitmasks
+	dw SaraPlainBitmasks
+	dw ESaraPlainBitmasks
+	dw CLuizePlainBitmasks
+	dw LuizePlainBitmasks
+	dw ELuizePlainBitmasks
+	dw CAlicePlainBitmasks
+	dw AliceBitmasks
+	dw EAliceBitmasks
 	dw FarfetchDPlainBitmasks
-	dw DoduoBitmasks
-	dw DodrioBitmasks
-	dw SeelBitmasks
-	dw DewgongBitmasks
-	dw GrimerPlainBitmasks
-	dw MukPlainBitmasks
-	dw ShellderBitmasks
-	dw CloysterBitmasks
-	dw GastlyBitmasks
-	dw HaunterBitmasks
-	dw GengarBitmasks
-	dw OnixBitmasks
-	dw DrowzeeBitmasks
-	dw HypnoBitmasks
-	dw KrabbyBitmasks
-	dw KinglerBitmasks
-	dw VoltorbPlainBitmasks
-	dw ElectrodePlainBitmasks
+	dw MaiBitmasks
+	dw EMaiBitmasks
+	dw CYukiBitmasks
+	dw YukiBitmasks
+	dw EYukiPlainBitmasks
+	dw CYumekoPlainBitmasks
+	dw YumekoBitmasks
+	dw EYumekoBitmasks
+	dw CShinkiBitmasks
+	dw ShinkiBitmasks
+	dw EShinkiBitmasks
+	dw CRumiaBitmasks
+	dw RumiaBitmasks
+	dw ERumiaBitmasks
+	dw CDaichanBitmasks
+	dw DaichanBitmasks
+	dw EDaichanPlainBitmasks
+	dw CCirnoPlainBitmasks
 	dw ExeggcuteBitmasks
 	dw ExeggutorPlainBitmasks
 	dw CuboneBitmasks
@@ -373,19 +373,19 @@ BitmasksPointers:
 	dw ChiyuriAlolanBitmasks
 	dw EChiyuriAlolanBitmasks
 	dw CYumemiAlolanBitmasks
-	dw GeodudeAlolanBitmasks
-	dw GravelerAlolanBitmasks
-	dw GolemAlolanBitmasks
-	dw GrimerAlolanBitmasks
-	dw MukAlolanBitmasks
+	dw CSaraAlolanBitmasks
+	dw SaraAlolanBitmasks
+	dw ESaraAlolanBitmasks
+	dw EYukiAlolanBitmasks
+	dw CYumekoAlolanBitmasks
 	dw ExeggutorAlolanBitmasks
 	dw MarowakAlolanBitmasks
 
 	dw EChiyuriGalarianBitmasks
-	dw PonytaGalarianBitmasks
-	dw RapidashGalarianBitmasks
-	dw SlowpokeGalarianBitmasks
-	dw SlowbroGalarianBitmasks
+	dw CLuizeGalarianBitmasks
+	dw LuizeGalarianBitmasks
+	dw ELuizeGalarianBitmasks
+	dw CAliceGalarianBitmasks
 	dw FarfetchDGalarianBitmasks
 	dw WeezingGalarianBitmasks
 	dw MrMimeGalarianBitmasks
@@ -397,8 +397,8 @@ BitmasksPointers:
 
 	dw EOrangeHisuianBitmasks
 	dw CKurumiHisuianBitmasks
-	dw VoltorbHisuianBitmasks
-	dw ElectrodeHisuianBitmasks
+	dw EDaichanHisuianBitmasks
+	dw CCirnoHisuianBitmasks
 	dw EReisenHisuianBitmasks
 	dw QwilfishHisuianBitmasks
 	dw SneaselHisuianBitmasks

@@ -47,7 +47,7 @@ The final, non-beta 3.0 release should include all of these.
 * Red goes back home after you battle him, and returns to Mt. Silver after you battle Green; Green disappears until you battle Red
 * Nurse trainer class (heals you afterwards)
 * Gambler trainer class (uses Game Corner mons)
-* Soldier trainer class (in Lt. Surge's Gym; also ones elsewhere with Remoraid, Octillery, Forretress, Skarmory, Electrode, Donphan)
+* Soldier trainer class (in Lt. Surge's Gym; also ones elsewhere with Remoraid, Octillery, Forretress, Skarmory, CCirno, Donphan)
 
 Shamouti Island:
 
@@ -61,7 +61,7 @@ Maps need signs, NPCs, trainers (with [dialog](https://docs.google.com/document/
 
 * Connect the Magnet Train track south to Cherrygrove Bay
 * Soul House
-* Lavender Radio Tower (use Reina, DJ Fern, DJ Lily, and a Meira+Gengar Couple)
+* Lavender Radio Tower (use Reina, DJ Fern, DJ Lily, and a Meira+EShinki Couple)
 * Saffron City Trainer Fan Club
 * Valencia Island (signs and NPCs)
 * Route 49 (wild Tohomon and unique wild moves)

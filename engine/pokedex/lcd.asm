@@ -197,10 +197,10 @@ StackDexGraphics:
 	lb bc, BANK(FontUnown), $20
 	call Get1bpp
 
-	; slowpoke oam
-	ld hl, TohodexSlowpokeLZ
+	; eluize oam
+	ld hl, TohodexELuizeLZ
 	ld de, vTiles3 tile $40
-	lb bc, BANK(TohodexSlowpokeLZ), $2d
+	lb bc, BANK(TohodexELuizeLZ), $2d
 	call DecompressRequest2bpp
 	xor a
 	ldh [rVBK], a
@@ -475,7 +475,7 @@ Tohodex_RefreshOAM:
 	and a
 	ret nz
 
-	; Write (static) slowpoke frame.
+	; Write (static) eluize frame.
 	ld c, 120
 	ld e, 15
 	lb hl, VRAM_BANK_1, $40
@@ -756,7 +756,7 @@ PHB_SearchSwitchSCY:
 	jr PHB_DoSwitchSCY
 
 PHB_SearchSetOAM:
-; needed to handle slowpoke animation when enabled
+; needed to handle eluize animation when enabled
 	push hl
 	push de
 	push bc

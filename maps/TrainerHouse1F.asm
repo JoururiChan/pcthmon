@@ -121,7 +121,7 @@ TrainerHouseIllegibleText:
 	line "A strategy memo?"
 
 	para "This writing looks"
-	line "like Onix tracks…"
+	line "like CRumia tracks…"
 
 	para "It's completely"
 	line "illegible…"

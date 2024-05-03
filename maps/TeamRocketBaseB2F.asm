@@ -52,12 +52,12 @@ TeamRocketBaseB2F_MapScriptHeader:
 	object_event 20, 16, SPRITE_ARIANA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_ARIANA
 	object_event  5, 13, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_LANCE
 	object_event  9, 13, SPRITE_DRAGONITE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_DRAGONITE
-	object_event  7,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ELECTRODE, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, NO_FORM, RocketElectrode1, EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_1
-	object_event  7,  7, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ELECTRODE, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, NO_FORM, RocketElectrode2, EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_2
-	object_event  7,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ELECTRODE, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, NO_FORM, RocketElectrode3, EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
-	pokemon_event 22,  5, ELECTRODE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_1
-	pokemon_event 22,  7, ELECTRODE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_2
-	pokemon_event 22,  9, ELECTRODE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
+	object_event  7,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCIRNO, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, NO_FORM, RocketCCirno1, EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_1
+	object_event  7,  7, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCIRNO, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, NO_FORM, RocketCCirno2, EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_2
+	object_event  7,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCIRNO, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, NO_FORM, RocketCCirno3, EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_3
+	pokemon_event 22,  5, CCIRNO, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_1
+	pokemon_event 22,  7, CCIRNO, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_2
+	pokemon_event 22,  9, CCIRNO, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_3
 	object_event 25, 13, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM17, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event  4,  1, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerGruntM18, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event 21, 14, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerGruntM19, EVENT_TEAM_ROCKET_BASE_POPULATION
@@ -68,12 +68,12 @@ TeamRocketBaseB2F_MapScriptHeader:
 	const TEAMROCKETBASEB2F_ARIANA
 	const TEAMROCKETBASEB2F_LANCE
 	const TEAMROCKETBASEB2F_DRAGONITE
-	const TEAMROCKETBASEB2F_ELECTRODE1
-	const TEAMROCKETBASEB2F_ELECTRODE2
-	const TEAMROCKETBASEB2F_ELECTRODE3
-	const TEAMROCKETBASEB2F_ELECTRODE4
-	const TEAMROCKETBASEB2F_ELECTRODE5
-	const TEAMROCKETBASEB2F_ELECTRODE6
+	const TEAMROCKETBASEB2F_CCIRNO1
+	const TEAMROCKETBASEB2F_CCIRNO2
+	const TEAMROCKETBASEB2F_CCIRNO3
+	const TEAMROCKETBASEB2F_CCIRNO4
+	const TEAMROCKETBASEB2F_CCIRNO5
+	const TEAMROCKETBASEB2F_CCIRNO6
 	const TEAMROCKETBASEB2F_ROCKET1
 	const TEAMROCKETBASEB2F_ROCKET2
 	const TEAMROCKETBASEB2F_ROCKET3
@@ -155,12 +155,12 @@ RocketBaseBossFScript:
 	applymovement TEAMROCKETBASEB2F_LANCE, RocketBaseLanceApproachesMachineMovement
 	stopfollow
 	applymovement TEAMROCKETBASEB2F_LANCE, RocketBaseLancePacesMovement
-	showtext RockerBaseLanceElectrodeFaintText
-	applymovement TEAMROCKETBASEB2F_LANCE, RocketBaseLanceApproachesElectrodesMovement
+	showtext RockerBaseLanceCCirnoFaintText
+	applymovement TEAMROCKETBASEB2F_LANCE, RocketBaseLanceApproachesCCirnosMovement
 	disappear TEAMROCKETBASEB2F_LANCE
 
 RocketBaseCantLeaveScript:
-	applymovement PLAYER, RocketBasePlayerCantLeaveElectrodesMovement
+	applymovement PLAYER, RocketBasePlayerCantLeaveCCirnosMovement
 	end
 
 RocketBaseLancesSideScript:
@@ -231,71 +231,71 @@ GenericTrainerGruntM19:
 	cont "for yourself."
 	done
 
-RocketElectrode1:
-	cry ELECTRODE
-	loadwildmon ELECTRODE, 33
+RocketCCirno1:
+	cry CCIRNO
+	loadwildmon CCIRNO, 33
 	startbattle
 	iftruefwd TeamRocketBaseB2FReloadMap
-	disappear TEAMROCKETBASEB2F_ELECTRODE1
-	disappear TEAMROCKETBASEB2F_ELECTRODE4
-	checkevent EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_1
+	disappear TEAMROCKETBASEB2F_CCIRNO1
+	disappear TEAMROCKETBASEB2F_CCIRNO4
+	checkevent EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_1
 	iffalsefwd TeamRocketBaseB2FReloadMap
-	checkevent EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_2
+	checkevent EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_2
 	iffalsefwd TeamRocketBaseB2FReloadMap
-	checkevent EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
+	checkevent EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_3
 	iffalsefwd TeamRocketBaseB2FReloadMap
 	reloadmapafterbattle
 	special PlayMapMusic
-	applymovement PLAYER, RocketBasePlayerLeavesElectrodesMovement1
-	sjumpfwd RocketBaseElectrodeScript
+	applymovement PLAYER, RocketBasePlayerLeavesCCirnosMovement1
+	sjumpfwd RocketBaseCCirnoScript
 
-RocketElectrode2:
-	cry ELECTRODE
-	loadwildmon ELECTRODE, 33
+RocketCCirno2:
+	cry CCIRNO
+	loadwildmon CCIRNO, 33
 	startbattle
 	iftruefwd TeamRocketBaseB2FReloadMap
-	disappear TEAMROCKETBASEB2F_ELECTRODE2
-	disappear TEAMROCKETBASEB2F_ELECTRODE5
-	checkevent EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_1
+	disappear TEAMROCKETBASEB2F_CCIRNO2
+	disappear TEAMROCKETBASEB2F_CCIRNO5
+	checkevent EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_1
 	iffalsefwd TeamRocketBaseB2FReloadMap
-	checkevent EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_2
+	checkevent EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_2
 	iffalsefwd TeamRocketBaseB2FReloadMap
-	checkevent EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
+	checkevent EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_3
 	iffalsefwd TeamRocketBaseB2FReloadMap
 	reloadmapafterbattle
 	special PlayMapMusic
-	applymovement PLAYER, RocketBasePlayerLeavesElectrodesMovement2
-	sjumpfwd RocketBaseElectrodeScript
+	applymovement PLAYER, RocketBasePlayerLeavesCCirnosMovement2
+	sjumpfwd RocketBaseCCirnoScript
 
-RocketElectrode3:
-	cry ELECTRODE
-	loadwildmon ELECTRODE, 33
+RocketCCirno3:
+	cry CCIRNO
+	loadwildmon CCIRNO, 33
 	startbattle
 	iftruefwd TeamRocketBaseB2FReloadMap
-	disappear TEAMROCKETBASEB2F_ELECTRODE3
-	disappear TEAMROCKETBASEB2F_ELECTRODE6
-	checkevent EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_1
+	disappear TEAMROCKETBASEB2F_CCIRNO3
+	disappear TEAMROCKETBASEB2F_CCIRNO6
+	checkevent EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_1
 	iffalsefwd TeamRocketBaseB2FReloadMap
-	checkevent EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_2
+	checkevent EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_2
 	iffalsefwd TeamRocketBaseB2FReloadMap
-	checkevent EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
+	checkevent EVENT_TEAM_ROCKET_BASE_B2F_CCIRNO_3
 	iffalsefwd TeamRocketBaseB2FReloadMap
 	reloadmapafterbattle
 	special PlayMapMusic
-	applymovement PLAYER, RocketBasePlayerLeavesElectrodesMovement3
-	sjumpfwd RocketBaseElectrodeScript
+	applymovement PLAYER, RocketBasePlayerLeavesCCirnosMovement3
+	sjumpfwd RocketBaseCCirnoScript
 
 TeamRocketBaseB2FReloadMap:
 	reloadmapafterbattle
 	end
 
-RocketBaseElectrodeScript:
+RocketBaseCCirnoScript:
 	moveobject TEAMROCKETBASEB2F_LANCE, 18, 6
 	appear TEAMROCKETBASEB2F_LANCE
-	applymovement TEAMROCKETBASEB2F_LANCE, RocketBaseLanceLeavesElectrodesMovement
+	applymovement TEAMROCKETBASEB2F_LANCE, RocketBaseLanceLeavesCCirnosMovement
 	turnobject PLAYER, RIGHT
 	opentext
-	writetext RocketBaseLanceElectrodeDoneText
+	writetext RocketBaseLanceCCirnoDoneText
 	promptbutton
 	verbosegivetmhm TM_THIEF
 	setevent EVENT_GOT_TM46_THIEF_FROM_LANCE
@@ -459,7 +459,7 @@ RocketBaseLancePacesMovement:
 	turn_head_down
 	step_end
 
-RocketBaseLanceApproachesElectrodesMovement:
+RocketBaseLanceApproachesCCirnosMovement:
 	step_right
 	step_right
 	step_right
@@ -471,7 +471,7 @@ RocketBaseLanceApproachesElectrodesMovement:
 	step_up
 	step_end
 
-RocketBasePlayerCantLeaveElectrodesMovement:
+RocketBasePlayerCantLeaveCCirnosMovement:
 	step_up
 	step_left
 	step_left
@@ -480,7 +480,7 @@ RocketBasePlayerCantLeaveElectrodesMovement:
 	turn_head_up
 	step_end
 
-RocketBaseLanceLeavesElectrodesMovement:
+RocketBaseLanceLeavesCCirnosMovement:
 	step_down
 	step_down
 	step_down
@@ -502,7 +502,7 @@ RocketBaseLanceLeavesBaseMovement:
 	step_left
 	step_end
 
-RocketBasePlayerLeavesElectrodesMovement1:
+RocketBasePlayerLeavesCCirnosMovement1:
 	step_right
 	step_right
 	step_down
@@ -517,7 +517,7 @@ RocketBasePlayerLeavesElectrodesMovement1:
 	step_right
 	step_end
 
-RocketBasePlayerLeavesElectrodesMovement2:
+RocketBasePlayerLeavesCCirnosMovement2:
 	step_right
 	step_right
 	step_down
@@ -530,7 +530,7 @@ RocketBasePlayerLeavesElectrodesMovement2:
 	step_right
 	step_end
 
-RocketBasePlayerLeavesElectrodesMovement3:
+RocketBasePlayerLeavesCCirnosMovement3:
 	step_right
 	step_right
 	step_down
@@ -658,7 +658,7 @@ RocketBaseLancePowerOffText:
 	line "radio signal."
 	done
 
-RockerBaseLanceElectrodeFaintText:
+RockerBaseLanceCCirnoFaintText:
 	text "It's this machine"
 	line "that's causing all"
 	cont "the problems."
@@ -669,7 +669,7 @@ RockerBaseLanceElectrodeFaintText:
 	para "We have no choice."
 	line "We have to make"
 
-	para "all the Electrode"
+	para "all the CCirno"
 	line "faint."
 
 	para "That should stop"
@@ -693,7 +693,7 @@ RocketBaseLancesSideText:
 	line "side to me."
 	done
 
-RocketBaseLanceElectrodeDoneText:
+RocketBaseLanceCCirnoDoneText:
 	text "Lance: That odd"
 	line "signal has finally"
 	cont "stopped."

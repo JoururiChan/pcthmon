@@ -486,7 +486,7 @@ SECTION "CMeiraWalkSpriteGFX", ROMX
 CMeiraWalkSpriteGFX:: INCBIN "gfx/sprites/cmeira.2bpp.lz"
 
 SECTION "FarfetchDSpriteGFX", ROMX
-FarfetchDSpriteGFX:: INCBIN "gfx/sprites/farfetch_d.2bpp.lz"
+FarfetchDSpriteGFX:: INCBIN "gfx/sprites/cmai.2bpp.lz"
 
 SECTION "LaprasSpriteGFX", ROMX
 LaprasSpriteGFX:: INCBIN "gfx/sprites/lapras.2bpp.lz"
@@ -515,14 +515,14 @@ BigSnorlaxSpriteGFX:: INCBIN "gfx/sprites/big_snorlax.2bpp.lz"
 SECTION "BigLaprasSpriteGFX", ROMX
 BigLaprasSpriteGFX:: INCBIN "gfx/sprites/big_lapras.2bpp.lz"
 
-SECTION "BigOnixSpriteGFX", ROMX
-BigOnixSpriteGFX:: INCBIN "gfx/sprites/big_onix.2bpp.lz"
+SECTION "BigCRumiaSpriteGFX", ROMX
+BigCRumiaSpriteGFX:: INCBIN "gfx/sprites/big_crumia.2bpp.lz"
 
 SECTION "BigGyaradosSpriteGFX", ROMX
 BigGyaradosSpriteGFX:: INCBIN "gfx/sprites/big_gyarados.2bpp.lz"
 
-SECTION "SlowpoketailSpriteGFX", ROMX
-SlowpoketailSpriteGFX:: INCBIN "gfx/sprites/slowpoketail.2bpp.lz"
+SECTION "ELuizetailSpriteGFX", ROMX
+ELuizetailSpriteGFX:: INCBIN "gfx/sprites/eluizetail.2bpp.lz"
 
 SECTION "CMimaSideSpriteGFX", ROMX
 CMimaSideSpriteGFX:: INCBIN "gfx/sprites/cmima_side.2bpp.lz"

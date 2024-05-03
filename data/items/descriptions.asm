@@ -240,7 +240,7 @@ ItemDescriptions:
 	dw StarPieceDesc
 	dw BrickPieceDesc
 	dw RareBoneDesc
-	dw SlowpokeTailDesc
+	dw ELuizeTailDesc
 	dw HelixFossilDesc
 	dw DomeFossilDesc
 	dw OldAmberDesc
@@ -1364,7 +1364,7 @@ GoldLeafDesc:
 	next "colored leaf."
 	done
 
-SlowpokeTailDesc:
+ELuizeTailDesc:
 	text "Very tasty. Sell"
 	next "high."
 	done

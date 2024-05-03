@@ -14,8 +14,8 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Removed: Elis, EElis, Lickitung, Goldeen, Seaking, Hoppip, Skiploom, Jumpluff, Shuckle, Aipom, Stantler, Cleffa, Igglybuff, Smoochum, and Delibird.
 * New evolution methods work, like Eevee evolving into Glaceon near Ice Rock, or Yanma evolving into Yanmega when knowing AncientPower.
 * Item trade evolutions (like Seadra holding a Dragon Scale) now evolve by leveling up while holding the item.
-* EYuka, Graveler, Haunter, and EElly evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
-* Magneton evolves into Magnezone near the Lodestone in Rock Tunnel.
+* EYuka, Sara, Shinki, and EElly evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
+* EAlice evolves into Magnezone near the Lodestone in Rock Tunnel.
 
 
 ## Moves
@@ -178,8 +178,8 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * ESakuya is Water/Steel.
 * FGyoku is Bug/Psychic.
 * EChiyuri and CYumemi are Dark.
-* Grimer and Muk are Poison/Dark.
-* Farfetch'd is Fighting/Flying.
+* EYuki and CYumeko are Poison/Dark.
+* CMai is Fighting/Flying.
 * CEllen is Fire/Ghost.
 * EYumemi is Water/Psychic.
 * EYoumu is Grass/Fairy.

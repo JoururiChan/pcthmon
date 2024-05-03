@@ -5,9 +5,9 @@ FuryAttackUsers:
 	dp ESAKUYA
 	dp ELIS
 	dp EELIS
-	dp FARFETCH_D
-	dp DODUO
-	dp DODRIO
+	dp CMAI
+	dp MAI
+	dp EMAI
 	dp RHYHORN
 	dp RHYDON
 	dp GOLDEEN

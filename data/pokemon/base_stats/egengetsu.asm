@@ -1,17 +1,17 @@
-	db  80,  70,  65, 100,  80, 120 ; 515 BST
+	db  110, 58,  53,  120, 140,  105 ; 510 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, POISON ; type
-	db 60 ; catch rate
-	db 205 ; base exp
-	db NO_ITEM, POISON_BARB ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db DARK, FLYING ; type
+	db 41 ; catch rate
+	db 165 ; base exp
+	db ALWAYS_ITEM_2, BIG_ROOT ; held items
+	dn GENDER_F75, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for EGENGETSU, HAKUREI_MIKO, LIQUID_OOZE, RAIN_DISH
-	db GROWTH_SLOW ; growth rate
-	dn EGG_WATER_3, EGG_WATER_3 ; egg groups
+	abilities_for GENGETSU, IMMUNITY, IMMUNITY, PRESSURE
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_INDETERMINATE, EGG_FAIRY ; egg groups
 
-	ev_yield 2 SDf
+	ev_yield 3 SAt
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HAIL, HIDDEN_POWER, ICE_BEAM, BLIZZARD, AEROBLAST, PROTECT, RAIN_DANCE, GIGA_DRAIN, SAFEGUARD, RETURN, DOUBLE_TEAM, SLUDGE_BOMB, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ENERGY_LIGHT, LEECH_LIFE, SCALD, WATER_PULSE, POISON_JAB, GUNGNIR, SWORDS_DANCE, CUT, SURF, WHIRLPOOL, WATERFALL, DOUBLE_EDGE, ENDURE, ICY_WIND, KNOCK_OFF, SLEEP_TALK, SWAGGER

@@ -683,19 +683,19 @@ ConvertMonIndexesTo9Bit:
 	db 0x33, 2 ; CHIYURI, ALOLAN
 	db 0x34, 2 ; ECHIYURI, ALOLAN
 	db 0x35, 2 ; CYUMEMI, ALOLAN
-	db 0x4a, 2 ; GEODUDE, ALOLAN
-	db 0x4b, 2 ; GRAVELER, ALOLAN
-	db 0x4c, 2 ; GOLEM, ALOLAN
-	db 0x58, 2 ; GRIMER, ALOLAN
-	db 0x59, 2 ; MUK, ALOLAN
+	db 0x4a, 2 ; CSARA, ALOLAN
+	db 0x4b, 2 ; SARA, ALOLAN
+	db 0x4c, 2 ; ESARA, ALOLAN
+	db 0x58, 2 ; EYUKI, ALOLAN
+	db 0x59, 2 ; CYUMEKO, ALOLAN
 	db 0x67, 2 ; EXEGGUTOR, ALOLAN
 	db 0x69, 2 ; MAROWAK, ALOLAN
 	db 0x34, 3 ; ECHIYURI, GALARIAN
-	db 0x4d, 3 ; PONYTA, GALARIAN
-	db 0x4e, 3 ; RAPIDASH, GALARIAN
-	db 0x4f, 3 ; SLOWPOKE, GALARIAN
-	db 0x50, 3 ; SLOWBRO, GALARIAN
-	db 0x53, 3 ; FARFETCH_D, GALARIAN
+	db 0x4d, 3 ; CLUIZE, GALARIAN
+	db 0x4e, 3 ; LUIZE, GALARIAN
+	db 0x4f, 3 ; ELUIZE, GALARIAN
+	db 0x50, 3 ; CALICE, GALARIAN
+	db 0x53, 3 ; CMAI, GALARIAN
 	db 0x6e, 3 ; WEEZING, GALARIAN
 	db 0x7a, 3 ; MR__MIME, GALARIAN
 	db 0x90, 3 ; ARTICUNO, GALARIAN
@@ -1014,7 +1014,7 @@ AdjustItemIndexesToBuild8:
 	db 0xde, 1    ; ODD_SOUVENIR
 	db 0xea, 6    ; RARE_BONE
 	db 0xec, -10  ; GOLD_LEAF
-	db 0xed, 4    ; SLOWPOKETAIL
+	db 0xed, 4    ; ELUIZETAIL
 	db 0xee, -10  ; BOTTLE_CAP
 	db 0xf1, 3    ; OLD_AMBER
 	db 0xf3, -144 ; SWEET_HONEY

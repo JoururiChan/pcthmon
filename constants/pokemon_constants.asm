@@ -95,34 +95,34 @@
 	const CGENGETSU ; 47
 	const GENGETSU  ; 48
 	const EGENGETSU ; 49
-	const GEODUDE    ; 4a
-	const GRAVELER   ; 4b
-	const GOLEM      ; 4c
-	const PONYTA     ; 4d
-	const RAPIDASH   ; 4e
-	const SLOWPOKE   ; 4f
-	const SLOWBRO    ; 50
-	const MAGNEMITE  ; 51
-	const MAGNETON   ; 52
-	const FARFETCH_D ; 53
-	const DODUO      ; 54
-	const DODRIO     ; 55
-	const SEEL       ; 56
-	const DEWGONG    ; 57
-	const GRIMER     ; 58
-	const MUK        ; 59
-	const SHELLDER   ; 5a
-	const CLOYSTER   ; 5b
-	const GASTLY     ; 5c
-	const HAUNTER    ; 5d
-	const GENGAR     ; 5e
-	const ONIX       ; 5f
-	const DROWZEE    ; 60
-	const HYPNO      ; 61
-	const KRABBY     ; 62
-	const KINGLER    ; 63
-	const VOLTORB    ; 64
-	const ELECTRODE  ; 65
+	const CSARA    ; 4a
+	const SARA   ; 4b
+	const ESARA      ; 4c
+	const CLUIZE     ; 4d
+	const LUIZE   ; 4e
+	const ELUIZE   ; 4f
+	const CALICE    ; 50
+	const ALICE  ; 51
+	const EALICE   ; 52
+	const CMAI ; 53
+	const MAI      ; 54
+	const EMAI     ; 55
+	const CYUKI       ; 56
+	const YUKI    ; 57
+	const EYUKI     ; 58
+	const CYUMEKO        ; 59
+	const YUMEKO   ; 5a
+	const EYUMEKO   ; 5b
+	const CSHINKI     ; 5c
+	const SHINKI    ; 5d
+	const ESHINKI     ; 5e
+	const CRUMIA       ; 5f
+	const RUMIA    ; 60
+	const ERUMIA      ; 61
+	const CDAICHAN     ; 62
+	const DAICHAN    ; 63
+	const EDAICHAN    ; 64
+	const CCIRNO  ; 65
 	const EXEGGCUTE  ; 66
 	const EXEGGUTOR  ; 67
 	const CUBONE     ; 68
@@ -450,21 +450,21 @@ DEF ALOLAN_FORM EQU 2
 	const_skip ; 167 chiyuri
 	const_skip ; 168 echiyuri
 	const_skip ; 169 cyumemi
-	const_skip ; 16a geodude
-	const_skip ; 16b graveler
-	const_skip ; 16c golem
-	const_skip ; 16d grimer
-	const_skip ; 16e muk
+	const_skip ; 16a csara
+	const_skip ; 16b sara
+	const_skip ; 16c esara
+	const_skip ; 16d eyuki
+	const_skip ; 16e cyumeko
 	const_skip ; 16f exeggutor
 	const_skip ; 170 marowak
 
 ; galarian forms
 DEF GALARIAN_FORM EQU 3
 	const_skip ; 171 echiyuri
-	const_skip ; 172 ponyta
-	const_skip ; 173 rapidash
-	const_skip ; 174 slowpoke
-	const_skip ; 175 slowbro
+	const_skip ; 172 cluize
+	const_skip ; 173 luize
+	const_skip ; 174 eluize
+	const_skip ; 175 calice
 	const_skip ; 176 farfetch'd
 	const_skip ; 177 weezing
 	const_skip ; 178 mr. mime
@@ -478,8 +478,8 @@ DEF GALARIAN_FORM EQU 3
 DEF HISUIAN_FORM EQU 4
 	const_skip ; 17e eorange
 	const_skip ; 17f ckurumi
-	const_skip ; 180 voltorb
-	const_skip ; 181 electrode
+	const_skip ; 180 edaichan
+	const_skip ; 181 ccirno
 	const_skip ; 182 ereisen
 	const_skip ; 183 qwilfish
 	const_skip ; 184 sneasel

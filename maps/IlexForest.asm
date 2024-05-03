@@ -28,7 +28,7 @@ IlexForest_MapScriptHeader:
 	bg_event 26, 23, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ILEX_FOREST
 
 	def_object_events
-	object_event 16, 33, SPRITE_FARFETCH_D, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestFarfetchdScript, EVENT_ILEX_FOREST_FARFETCHD
+	object_event 16, 33, SPRITE_CMAI, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestFarfetchdScript, EVENT_ILEX_FOREST_FARFETCHD
 	object_event  7, 30, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalMasterScript, EVENT_ILEX_FOREST_CHARCOAL_MASTER
 	object_event 10, 31, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ILEX_FOREST_KURT
 	object_event  5, 26, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_IlexForestLass, EVENT_ILEX_FOREST_LASS
@@ -135,7 +135,7 @@ IlexForestFarfetchdScript:
 	faceplayer
 	readmem wFarfetchdPosition
 	ifequalfwd  0, .Position1
-	showcrytext Text_Kwaaaa, FARFETCH_D
+	showcrytext Text_Kwaaaa, CMAI
 	readmem wFarfetchdPosition
 	ifequalfwd  2, .Position2
 	ifequalfwd  3, .Position3
@@ -153,7 +153,7 @@ IlexForestFarfetchdScript:
 	writetext Text_ItsTheMissingPokemon
 	promptbutton
 	writetext Text_Kwaaaa
-	cry FARFETCH_D
+	cry CMAI
 	waitbutton
 	closetext
 	applymovement ILEXFOREST_FARFETCHD, MovementData_Farfetchd_Pos1_Pos2
@@ -362,7 +362,7 @@ IlexForestCharcoalMasterScript:
 	setevent EVENT_ILEX_FOREST_FARFETCHD
 	setevent EVENT_ILEX_FOREST_APPRENTICE
 	setevent EVENT_ILEX_FOREST_CHARCOAL_MASTER
-	clearevent EVENT_CHARCOAL_KILN_FARFETCH_D
+	clearevent EVENT_CHARCOAL_KILN_CMAI
 	clearevent EVENT_CHARCOAL_KILN_APPRENTICE
 	clearevent EVENT_CHARCOAL_KILN_BOSS
 	end
@@ -819,7 +819,7 @@ IlexForestApprenticeIntroText:
 	line "is going to be"
 	cont "steaming…"
 
-	para "The Farfetch'd"
+	para "The CMai"
 	line "that Cuts trees"
 
 	para "for charcoal took"
@@ -849,11 +849,11 @@ Text_ItsTheMissingPokemon:
 	done
 
 Text_Kwaaaa:
-	text "Farfetch'd: Kwaa!"
+	text "CMai: Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My Farfetch'd!"
+	text "Ah! My CMai!"
 
 	para "You found it for"
 	line "us, kid?"

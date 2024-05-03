@@ -77,34 +77,34 @@ PokemonPicPointers::
 	pics CGengetsu
 	pics Gengetsu
 	pics EGengetsu
-	pics GeodudePlain
-	pics GravelerPlain
-	pics GolemPlain
-	pics PonytaPlain
-	pics RapidashPlain
-	pics SlowpokePlain
-	pics SlowbroPlain
-	pics Magnemite
-	pics Magneton
+	pics CSaraPlain
+	pics SaraPlain
+	pics ESaraPlain
+	pics CLuizePlain
+	pics LuizePlain
+	pics ELuizePlain
+	pics CAlicePlain
+	pics Alice
+	pics EAlice
 	pics FarfetchDPlain
-	pics Doduo
-	pics Dodrio
-	pics Seel
-	pics Dewgong
-	pics GrimerPlain
-	pics MukPlain
-	pics Shellder
-	pics Cloyster
-	pics Gastly
-	pics Haunter
-	pics Gengar
-	pics Onix
-	pics Drowzee
-	pics Hypno
-	pics Krabby
-	pics Kingler
-	pics VoltorbPlain
-	pics ElectrodePlain
+	pics Mai
+	pics EMai
+	pics CYuki
+	pics Yuki
+	pics EYukiPlain
+	pics CYumekoPlain
+	pics Yumeko
+	pics EYumeko
+	pics CShinki
+	pics Shinki
+	pics EShinki
+	pics CRumia
+	pics Rumia
+	pics ERumia
+	pics CDaichan
+	pics Daichan
+	pics EDaichanPlain
+	pics CCirnoPlain
 	pics Exeggcute
 	pics ExeggutorPlain
 	pics Cubone
@@ -377,19 +377,19 @@ PokemonPicPointers::
 	pics ChiyuriAlolan
 	pics EChiyuriAlolan
 	pics CYumemiAlolan
-	pics GeodudeAlolan
-	pics GravelerAlolan
-	pics GolemAlolan
-	pics GrimerAlolan
-	pics MukAlolan
+	pics CSaraAlolan
+	pics SaraAlolan
+	pics ESaraAlolan
+	pics EYukiAlolan
+	pics CYumekoAlolan
 	pics ExeggutorAlolan
 	pics MarowakAlolan
 
 	pics EChiyuriGalarian
-	pics PonytaGalarian
-	pics RapidashGalarian
-	pics SlowpokeGalarian
-	pics SlowbroGalarian
+	pics CLuizeGalarian
+	pics LuizeGalarian
+	pics ELuizeGalarian
+	pics CAliceGalarian
 	pics FarfetchDGalarian
 	pics WeezingGalarian
 	pics MrMimeGalarian
@@ -401,8 +401,8 @@ PokemonPicPointers::
 
 	pics EOrangeHisuian
 	pics CKurumiHisuian
-	pics VoltorbHisuian
-	pics ElectrodeHisuian
+	pics EDaichanHisuian
+	pics CCirnoHisuian
 	pics EReisenHisuian
 	pics QwilfishHisuian
 	pics SneaselHisuian

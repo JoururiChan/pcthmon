@@ -637,8 +637,8 @@ SECTION "LeafIcon", ROMX
 SilverLeafIcon::
 GoldLeafIcon:: INCBIN "gfx/items/leaf.2bpp.lz"
 
-SECTION "SlowpokeTailIcon", ROMX
-SlowpokeTailIcon:: INCBIN "gfx/items/slowpoketail.2bpp.lz"
+SECTION "ELuizeTailIcon", ROMX
+ELuizeTailIcon:: INCBIN "gfx/items/eluizetail.2bpp.lz"
 
 SECTION "BottleCapIcon", ROMX
 BottleCapIcon:: INCBIN "gfx/items/bottle_cap.2bpp.lz"

@@ -53,7 +53,7 @@ GenericTrainerHikerDaniel:
 	generictrainer HIKER, DANIEL, EVENT_BEAT_HIKER_DANIEL, HikerDanielSeenText, HikerDanielBeatenText
 
 	text "I was conned into"
-	line "buying a Slowpoke-"
+	line "buying a ELuize-"
 	cont "Tail."
 
 	para "I feel sorry for"

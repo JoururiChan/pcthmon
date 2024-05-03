@@ -157,7 +157,7 @@ GenericTrainerGentlemanPreston:
 
 	text "Jasmine used to"
 	line "use Rock #mon"
-	cont "like Onix."
+	cont "like CRumia."
 	done
 
 GenericTrainerSailorTerrell:

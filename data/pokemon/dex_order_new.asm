@@ -35,9 +35,9 @@ NewTohodexOrder:
 	dp LEDIAN
 	dp SPINARAK
 	dp ARIADOS
-	dp GEODUDE
-	dp GRAVELER
-	dp GOLEM
+	dp CSARA
+	dp SARA
+	dp ESARA
 	dp CKOTOHIME
 	dp KOTOHIME
 	dp CROBAT
@@ -62,13 +62,13 @@ NewTohodexOrder:
 	dp WOOPER
 	dp QUAGSIRE
 	dp CLODSIRE
-	dp GASTLY
-	dp HAUNTER
-	dp GENGAR
+	dp CSHINKI
+	dp SHINKI
+	dp ESHINKI
 	dp UNOWN
 	dp WYNAUT
 	dp WOBBUFFET
-	dp ONIX
+	dp CRUMIA
 	dp STEELIX
 	dp MUGETSU
 	dp EMUGETSU
@@ -86,15 +86,15 @@ NewTohodexOrder:
 	dp GYARADOS
 	dp GOLDEEN
 	dp SEAKING
-	dp SLOWPOKE
-	dp SLOWBRO
+	dp ELUIZE
+	dp CALICE
 	dp SLOWKING
 	dp EKOTOHIME
 	dp CKANA
 	dp KANA
 	dp BELLOSSOM
-	dp DROWZEE
-	dp HYPNO
+	dp RUMIA
+	dp ERUMIA
 	dp ELLY
 	dp EELLY
 	dp CYUKA
@@ -124,13 +124,13 @@ NewTohodexOrder:
 	dp HERACROSS
 	dp KOFFING
 	dp WEEZING
-	dp GRIMER
-	dp MUK
-	dp MAGNEMITE
-	dp MAGNETON
+	dp EYUKI
+	dp CYUMEKO
+	dp ALICE
+	dp EALICE
 	dp MAGNEZONE
-	dp VOLTORB
-	dp ELECTRODE
+	dp EDAICHAN
+	dp CCIRNO
 	dp AIPOM
 	dp AMBIPOM
 	dp SNUBBULL
@@ -177,7 +177,7 @@ NewTohodexOrder:
 	dp MR__MIME
 	dp MR__RIME
 	dp SMEARGLE
-	dp FARFETCH_D
+	dp CMAI
 	dp SIRFETCH_D
 	dp NATU
 	dp XATU
@@ -185,21 +185,21 @@ NewTohodexOrder:
 	dp OVERQWIL
 	dp GENGETSU
 	dp EGENGETSU
-	dp KRABBY
-	dp KINGLER
+	dp CDAICHAN
+	dp DAICHAN
 	dp SHUCKLE
 	dp STARYU
 	dp STARMIE
-	dp SHELLDER
-	dp CLOYSTER
+	dp YUMEKO
+	dp EYUMEKO
 	dp CORSOLA
 	dp CURSOLA
 	dp REMORAID
 	dp OCTILLERY
 	dp CHINCHOU
 	dp LANTURN
-	dp SEEL
-	dp DEWGONG
+	dp CYUKI
+	dp YUKI
 	dp LICKITUNG
 	dp LICKILICKY
 	dp TANGELA
@@ -230,10 +230,10 @@ NewTohodexOrder:
 	dp MANTYKE
 	dp MANTINE
 	dp SKARMORY
-	dp DODUO
-	dp DODRIO
-	dp PONYTA
-	dp RAPIDASH
+	dp MAI
+	dp EMAI
+	dp CLUIZE
+	dp LUIZE
 	dp CUBONE
 	dp MAROWAK
 	dp KANGASKHAN

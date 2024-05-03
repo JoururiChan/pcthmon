@@ -95,7 +95,7 @@ MoveDescriptions::
 	dw ToxicDescription
 	dw PsyshotDescription
 	dw PsychicMDescription
-	dw HypnosisDescription
+	dw ERumiasisDescription
 	dw HoneToolsDescription
 	dw SakuyaWorldDescription
 	dw QuickAttackDescription
@@ -532,7 +532,7 @@ GlareDescription:
 
 SingDescription:
 SleepPowderDescription:
-HypnosisDescription:
+ERumiasisDescription:
 	text "May cause the foe"
 	next "to fall asleep."
 	done

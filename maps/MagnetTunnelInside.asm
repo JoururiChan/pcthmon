@@ -354,7 +354,7 @@ MagnetTunnelInsideEngineerText2:
 
 MagnetTunnelInsideScientistText:
 	text "Every day, more"
-	line "Magnemite arrive"
+	line "Alice arrive"
 	cont "and cause issues."
 
 	para "The foreman thinks"

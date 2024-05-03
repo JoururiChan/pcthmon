@@ -60,7 +60,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * ShockSlayer for the Gen 1 and 2 mini icons and for Yellow's overworld sprite.
 * Scarlax for many new Tohomon animations.
 * ShadowOne333 for the Alolan, Galarian, and Hisuian mini icons, many new Tohomon animations, and Chris's overworld sprites.
-* octorox for Galarian Rapidash and Galarian Slowking's backpics.
+* octorox for Galarian Luize and Galarian Slowking's backpics.
 * Cure for sprites of Ursaluna, Kleavor, Hisuian EOrange, and Hisuian CKurumi.
 * Sea for Hisuian EOrange's animation.
 * ShadowOne333 and Sea for Annihilape's front and back sprites.
@@ -69,7 +69,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * Maddalena for sprites of Imakuni and the Ghost.
 * Nuuk for the sprite and animation of Farigiraf.
 * EeveeEe1999 for 8th gen menu icons and Lickilicky and Galarian Slowking animations.
-* trainerlass for sprites of Galarian Slowpoke and Slowbro, Katy's sprites, and Crys's back sprite.
+* trainerlass for sprites of Galarian ELuize and CAlice, Katy's sprites, and Crys's back sprite.
 * Luna for some sprites and tiles.
 * SteppoBlazer for Flying and Surfing EKikuri's mini icons.
 * Twilir for Lyra's back sprite.

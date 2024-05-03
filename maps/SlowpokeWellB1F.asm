@@ -1,33 +1,33 @@
-SlowpokeWellB1F_MapScriptHeader:
+ELuizeWellB1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
 
 	def_warp_events
-	warp_event 17, 15, SLOWPOKE_WELL_ENTRANCE, 2
-	warp_event  7, 11, SLOWPOKE_WELL_B2F, 1
+	warp_event 17, 15, ELUIZE_WELL_ENTRANCE, 2
+	warp_event  7, 11, ELUIZE_WELL_B2F, 1
 
 	def_coord_events
 
 	def_bg_events
 
 	def_object_events
-	object_event  5,  2, SPRITE_PROTON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerProton2, EVENT_SLOWPOKE_WELL_ROCKETS
-	object_event 15,  7, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM29, EVENT_SLOWPOKE_WELL_ROCKETS
-	object_event  5,  6, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerGruntM2, EVENT_SLOWPOKE_WELL_ROCKETS
-	object_event 10,  4, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerGruntF1, EVENT_SLOWPOKE_WELL_ROCKETS
-	object_event  0, 17, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, end, NULL, EVENT_SLOWPOKE_WELL_KURT
-	object_event  7,  4, SPRITE_SLOWPOKETAIL, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SlowpokeWellB1FSlowpokeWithMailScript, EVENT_SLOWPOKE_WELL_SLOWPOKES
-	object_event  6,  2, SPRITE_SLOWPOKETAIL, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SlowpokeWellB1FTaillessSlowpokeScript, EVENT_SLOWPOKE_WELL_SLOWPOKES
+	object_event  5,  2, SPRITE_PROTON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerProton2, EVENT_ELUIZE_WELL_ROCKETS
+	object_event 15,  7, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM29, EVENT_ELUIZE_WELL_ROCKETS
+	object_event  5,  6, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerGruntM2, EVENT_ELUIZE_WELL_ROCKETS
+	object_event 10,  4, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerGruntF1, EVENT_ELUIZE_WELL_ROCKETS
+	object_event  0, 17, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, end, NULL, EVENT_ELUIZE_WELL_KURT
+	object_event  7,  4, SPRITE_ELUIZETAIL, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ELuizeWellB1FELuizeWithMailScript, EVENT_ELUIZE_WELL_ELUIZES
+	object_event  6,  2, SPRITE_ELUIZETAIL, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ELuizeWellB1FTaillessELuizeScript, EVENT_ELUIZE_WELL_ELUIZES
 	strengthboulder_event  3, 2
-	itemball_event 10,  3, SUPER_POTION, 1, EVENT_SLOWPOKE_WELL_B1F_SUPER_POTION
+	itemball_event 10,  3, SUPER_POTION, 1, EVENT_ELUIZE_WELL_B1F_SUPER_POTION
 
 	object_const_def
-	const SLOWPOKEWELLB1F_PROTON
-	const SLOWPOKEWELLB1F_ROCKET1
-	const SLOWPOKEWELLB1F_ROCKET2
-	const SLOWPOKEWELLB1F_ROCKET_GIRL
-	const SLOWPOKEWELLB1F_KURT
+	const ELUIZEWELLB1F_PROTON
+	const ELUIZEWELLB1F_ROCKET1
+	const ELUIZEWELLB1F_ROCKET2
+	const ELUIZEWELLB1F_ROCKET_GIRL
+	const ELUIZEWELLB1F_KURT
 
 GenericTrainerGruntM29:
 	generictrainer GRUNTM, 29, EVENT_BEAT_ROCKET_GRUNTM_29, GruntM29SeenText, GruntM29BeatenText
@@ -35,7 +35,7 @@ GenericTrainerGruntM29:
 	text "Sure, we've been"
 	line "hacking the tails"
 
-	para "off Slowpoke and"
+	para "off ELuize and"
 	line "selling them."
 
 	para "Everything we do"
@@ -55,28 +55,28 @@ Proton2Script:
 	showtext TrainerProton2WhenTalkText
 	special Special_FadeBlackQuickly
 	special Special_ReloadSpritesNoPalettes
-	disappear SLOWPOKEWELLB1F_PROTON
-	disappear SLOWPOKEWELLB1F_ROCKET1
-	disappear SLOWPOKEWELLB1F_ROCKET2
-	disappear SLOWPOKEWELLB1F_ROCKET_GIRL
+	disappear ELUIZEWELLB1F_PROTON
+	disappear ELUIZEWELLB1F_ROCKET1
+	disappear ELUIZEWELLB1F_ROCKET2
+	disappear ELUIZEWELLB1F_ROCKET_GIRL
 	pause 15
 	special Special_FadeInQuickly
-	disappear SLOWPOKEWELLB1F_KURT
-	moveobject SLOWPOKEWELLB1F_KURT, 11, 6
-	appear SLOWPOKEWELLB1F_KURT
-	applymovement SLOWPOKEWELLB1F_KURT, KurtSlowpokeWellVictoryMovementData
+	disappear ELUIZEWELLB1F_KURT
+	moveobject ELUIZEWELLB1F_KURT, 11, 6
+	appear ELUIZEWELLB1F_KURT
+	applymovement ELUIZEWELLB1F_KURT, KurtELuizeWellVictoryMovementData
 	turnobject PLAYER, RIGHT
-	showtext KurtLeaveSlowpokeWellText
-	setevent EVENT_CLEARED_SLOWPOKE_WELL
+	showtext KurtLeaveELuizeWellText
+	setevent EVENT_CLEARED_ELUIZE_WELL
 	setmapscene ILEX_FOREST, $2
 	clearevent EVENT_ILEX_FOREST_APPRENTICE
 	clearevent EVENT_ILEX_FOREST_FARFETCHD
-	setevent EVENT_CHARCOAL_KILN_FARFETCH_D
+	setevent EVENT_CHARCOAL_KILN_CMAI
 	setevent EVENT_CHARCOAL_KILN_APPRENTICE
-	setevent EVENT_SLOWPOKE_WELL_SLOWPOKES
-	setevent EVENT_SLOWPOKE_WELL_KURT
-	clearevent EVENT_AZALEA_TOWN_SLOWPOKES
-	clearevent EVENT_KURTS_HOUSE_SLOWPOKE
+	setevent EVENT_ELUIZE_WELL_ELUIZES
+	setevent EVENT_ELUIZE_WELL_KURT
+	clearevent EVENT_AZALEA_TOWN_ELUIZES
+	clearevent EVENT_KURTS_HOUSE_ELUIZE
 	clearevent EVENT_KURTS_HOUSE_KURT_1
 	special FadeOutPalettes
 	special HealParty
@@ -98,27 +98,27 @@ GenericTrainerGruntM2:
 GenericTrainerGruntF1:
 	generictrainer GRUNTF, 1, EVENT_BEAT_ROCKET_GRUNTF_1, GruntF1SeenText, GruntF1BeatenText
 
-	text "SlowpokeTails"
+	text "ELuizeTails"
 	line "grow back fast!"
 
 	para "What's wrong with"
 	line "selling them?"
 	done
 
-SlowpokeWellB1FSlowpokeWithMailScript:
+ELuizeWellB1FELuizeWithMailScript:
 	faceplayer
 	opentext
-	cry SLOWPOKE
-	writetext SlowpokeWellB1FSlowpokeWithMailText
+	cry ELUIZE
+	writetext ELuizeWellB1FELuizeWithMailText
 	yesorno
-	iftrue_jumpopenedtext SlowpokeWellB1FSlowpokeMailText
+	iftrue_jumpopenedtext ELuizeWellB1FELuizeMailText
 	endtext
 
-SlowpokeWellB1FTaillessSlowpokeScript:
-	showcrytext SlowpokeWellB1FTaillessSlowpokeText, SLOWPOKE
+ELuizeWellB1FTaillessELuizeScript:
+	showcrytext ELuizeWellB1FTaillessELuizeText, ELUIZE
 	end
 
-KurtSlowpokeWellVictoryMovementData:
+KurtELuizeWellVictoryMovementData:
 	step_left
 	step_left
 	step_left
@@ -136,7 +136,7 @@ KurtSlowpokeWellVictoryMovementData:
 	turn_head_left
 	step_end
 
-KurtLeaveSlowpokeWellText:
+KurtLeaveELuizeWellText:
 	text "Kurt: Way to go,"
 	line "<PLAYER>!"
 
@@ -228,15 +228,15 @@ GruntF1BeatenText:
 	text "You rotten brat!"
 	done
 
-SlowpokeWellB1FSlowpokeWithMailText:
-	text "A Slowpoke with"
+ELuizeWellB1FELuizeWithMailText:
+	text "A ELuize with"
 	line "its tail cut off…"
 
 	para "Huh? It has Mail."
 	line "Read it?"
 	done
 
-SlowpokeWellB1FSlowpokeMailText:
+ELuizeWellB1FELuizeMailText:
 	text "<PLAYER> read the"
 	line "Mail."
 
@@ -244,12 +244,12 @@ SlowpokeWellB1FSlowpokeMailText:
 	line "after the house"
 
 	para "with Grandpa and"
-	line "Slowpoke."
+	line "ELuize."
 
 	para "Love, Dad"
 	done
 
-SlowpokeWellB1FTaillessSlowpokeText:
-	text "A Slowpoke with"
+ELuizeWellB1FTaillessELuizeText:
+	text "A ELuize with"
 	line "its tail cut off…"
 	done

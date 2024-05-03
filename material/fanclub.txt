@@ -1,9 +1,9 @@
-Reformed Rocket: Hey! Just 'cause I used to be in Team Rocket doesn't mean I can't love and appreciate Pokemon! Plus...hey...I think I know you! We battled in Slowpoke Well! How about a rematch?
-Team: CElis, Crobat, Slowbro
+Reformed Rocket: Hey! Just 'cause I used to be in Team Rocket doesn't mean I can't love and appreciate Pokemon! Plus...hey...I think I know you! We battled in ELuize Well! How about a rematch?
+Team: CElis, Crobat, CAlice
 Victory: Wow! You got strong!
 After: I'm so poor I can't afford a new change of clothes...
 
-Rando NPC: The things I've seen the president do with his Rapidash...heh! I'm sure he'll pay me to be nice and quiet about that...
+Rando NPC: The things I've seen the president do with his Luize...heh! I'm sure he'll pay me to be nice and quiet about that...
 
 Pokemon Imitator: <imitates cry of lead pokemon in party> Heh! Pretty good, am I right?
 
@@ -17,7 +17,7 @@ Condition Fulfilled: Shocking! Now go, trainer, and take this! With it, you may 
 
 Raoh: Hmph. I'll only recognize your strength if you beat Kiyo, the Karate King. I hear he trains even now in the depths of Mt. Mortar, in Johto.
 Condition Fulfilled: Splendid! Now, prepare for battle!
-Team: Heracross, CMugetsu, Rapidash 
+Team: Heracross, CMugetsu, Luize 
 Defeat: To think that you could defeat me, Raoh! 
 After: Truly an amazing battle. You would do well not to squander your strength. Crush all who oppose you with it! 
 

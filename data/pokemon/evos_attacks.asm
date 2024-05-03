@@ -365,7 +365,7 @@ EMimaEvosAttacks:
 	db 28, LIFE_COUNTER
 	db 31, DOUBLE_EDGE
 	db 34, COUNTER ; Endeavor → egg move
-	db 54, HYPNOSIS
+	db 54, ERUMIASIS
 	db 58, DREAM_EATER
 	db -1 ; no more level-up moves
 
@@ -518,7 +518,7 @@ CSarielPlainEvosAttacks:
 	db 25, PWJ_NEEDLE
 	db 28, DRAIN_KISS
 	db 32, PSYBEAM
-	db 36, HYPNOSIS
+	db 36, ERUMIASIS
 	db 41, WHITE_BIRD
 	db 45, DREAM_EATER
 	db 49, STEEL_WING
@@ -551,7 +551,7 @@ SarielPlainEvosAttacks:
 	db 25, PWJ_NEEDLE
 	db 28, DRAIN_KISS
 	db 32, PSYBEAM
-	db 36, HYPNOSIS
+	db 36, ERUMIASIS
 	db 41, WHITE_BIRD
 	db 45, DREAM_EATER
 	db 49, STEEL_WING
@@ -573,7 +573,7 @@ SarielAlolanEvosAttacks:
 	db 25, PWJ_NEEDLE
 	db 28, DRAIN_KISS
 	db 32, PSYBEAM
-	db 36, HYPNOSIS
+	db 36, ERUMIASIS
 	db 41, WHITE_BIRD
 	db 45, DREAM_EATER
 	db 49, STEEL_WING
@@ -594,7 +594,7 @@ ESarielPlainEvosAttacks:
 	db 25, PWJ_NEEDLE
 	db 28, DRAIN_KISS
 	db 32, PSYBEAM
-	db 36, HYPNOSIS
+	db 36, ERUMIASIS
 	db 41, WHITE_BIRD
 	db 45, DREAM_EATER
 	db 49, STEEL_WING
@@ -826,7 +826,7 @@ EMeiraAlolanEvosAttacks:
 	db 31, EXTRASENSORY
 	db 34, SAFEGUARD
 	db 36, ICE_BEAM
-	db 39, HYPNOSIS ; Imprison → egg move
+	db 39, ERUMIASIS ; Imprison → egg move
 	db 42, BLIZZARD
 	db 44, SHADOW_BALL ; Grudge → TM move
 	db 47, DISABLE ; Captivate → egg move
@@ -986,7 +986,7 @@ CKanaEvosAttacks:
 	db -1 ; no more level-up moves
 
 KanaEvosAttacks:
-	evo_data EVOLVE_LEVEL, 38, KANA
+	evo_data EVOLVE_LEVEL, 38, EKANA
 	db -1 ; no more evolutions
 	db 1, LICK
 	db 1, ASTONISH ; Sweet Scent → event move
@@ -1376,7 +1376,7 @@ CKurumiPlainEvosAttacks:
 	db 24, WING_ATTACK
 	db 29, LEECH_LIFE
 	db 33, BLACK_RIPPLE
-	db 37, HYPNOSIS
+	db 37, ERUMIASIS
 	db 37, DREAM_EATER
 	db 41, STEEL_WING
 	db 44, REFLECT
@@ -1434,7 +1434,7 @@ KurumiEvosAttacks:
 	db 24, WING_ATTACK
 	db 29, LEECH_LIFE
 	db 33, BLACK_RIPPLE
-	db 37, HYPNOSIS
+	db 37, ERUMIASIS
 	db 37, DREAM_EATER
 	db 41, STEEL_WING
 	db 44, REFLECT
@@ -1455,7 +1455,7 @@ EKurumiEvosAttacks:
 	db 24, WING_ATTACK
 	db 29, LEECH_LIFE
 	db 33, BLACK_RIPPLE
-	db 37, HYPNOSIS
+	db 37, ERUMIASIS
 	db 37, DREAM_EATER
 	db 41, STEEL_WING
 	db 44, REFLECT
@@ -1597,7 +1597,7 @@ CMugetsuEvosAttacks:
 	db 1, TACKLE
 	db 1, SWEET_KISS
 	db 5, DOUBLE_TEAM
-	db 9, HYPNOSIS
+	db 9, ERUMIASIS
 	db 13, DOUBLE_SLAP
 	db 17, HEADBUTT
 	db 21, DRAIN_KISS
@@ -1618,7 +1618,7 @@ MugetsuEvosAttacks:
 	db 1, TACKLE
 	db 1, SWEET_KISS
 	db 5, DOUBLE_TEAM
-	db 9, HYPNOSIS
+	db 9, ERUMIASIS
 	db 13, DOUBLE_SLAP
 	db 17, HEADBUTT
 	db 21, DRAIN_KISS
@@ -1639,7 +1639,7 @@ EMugetsuEvosAttacks:
 	db 1, TACKLE
 	db 1, SWEET_KISS
 	db 5, DOUBLE_TEAM
-	db 9, HYPNOSIS
+	db 9, ERUMIASIS
 	db 13, DOUBLE_SLAP
 	db 17, HEADBUTT
 	db 21, DRAIN_KISS
@@ -1719,8 +1719,8 @@ EGengetsuEvosAttacks:
 	db 57, AEROBLAST
 	db -1 ; no more level-up moves
 
-GeodudePlainEvosAttacks:
-	evo_data EVOLVE_LEVEL, 25, GRAVELER, PLAIN_FORM
+CSaraPlainEvosAttacks:
+	evo_data EVOLVE_LEVEL, 25, SARA, PLAIN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
@@ -1740,8 +1740,8 @@ GeodudePlainEvosAttacks:
 	db 42, STONE_EDGE
 	db -1 ; no more level-up moves
 
-GravelerPlainEvosAttacks:
-	evo_data EVOLVE_ITEM, LINKING_CORD, GOLEM, PLAIN_FORM
+SaraPlainEvosAttacks:
+	evo_data EVOLVE_ITEM, LINKING_CORD, ESARA, PLAIN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
@@ -1761,7 +1761,7 @@ GravelerPlainEvosAttacks:
 	db 54, STONE_EDGE
 	db -1 ; no more level-up moves
 
-GolemPlainEvosAttacks:
+ESaraPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
@@ -1782,8 +1782,8 @@ GolemPlainEvosAttacks:
 	db 60, GYRO_BALL ; Heavy Slam → similar move
 	db -1 ; no more level-up moves
 
-GeodudeAlolanEvosAttacks:
-	evo_data EVOLVE_LEVEL, 25, GRAVELER, ALOLAN_FORM
+CSaraAlolanEvosAttacks:
+	evo_data EVOLVE_LEVEL, 25, SARA, ALOLAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
@@ -1803,8 +1803,8 @@ GeodudeAlolanEvosAttacks:
 	db 42, STONE_EDGE
 	db -1 ; no more level-up moves
 
-GravelerAlolanEvosAttacks:
-	evo_data EVOLVE_ITEM, LINKING_CORD, GOLEM, ALOLAN_FORM
+SaraAlolanEvosAttacks:
+	evo_data EVOLVE_ITEM, LINKING_CORD, ESARA, ALOLAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
@@ -1824,7 +1824,7 @@ GravelerAlolanEvosAttacks:
 	db 54, STONE_EDGE
 	db -1 ; no more level-up moves
 
-GolemAlolanEvosAttacks:
+ESaraAlolanEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
@@ -1845,8 +1845,8 @@ GolemAlolanEvosAttacks:
 	db 60, GYRO_BALL ; Heavy Slam → similar move
 	db -1 ; no more level-up moves
 
-PonytaPlainEvosAttacks:
-	evo_data EVOLVE_LEVEL, 40, RAPIDASH, PLAIN_FORM
+CLuizePlainEvosAttacks:
+	evo_data EVOLVE_LEVEL, 40, LUIZE, PLAIN_FORM
 	db -1 ; no more evolutions
 	db 1, GROWL
 	db 1, TACKLE
@@ -1864,8 +1864,8 @@ PonytaPlainEvosAttacks:
 	db 49, LAVATEIN
 	db -1 ; no more level-up moves
 
-PonytaGalarianEvosAttacks:
-	evo_data EVOLVE_LEVEL, 40, RAPIDASH, GALARIAN_FORM
+CLuizeGalarianEvosAttacks:
+	evo_data EVOLVE_LEVEL, 40, LUIZE, GALARIAN_FORM
 	db -1 ; no more evolutions
 	db 1, GROWL
 	db 1, TACKLE
@@ -1883,7 +1883,7 @@ PonytaGalarianEvosAttacks:
 	db 49, MOONBLAST ; Healing Wish → new move
 	db -1 ; no more level-up moves
 
-RapidashPlainEvosAttacks:
+LuizePlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PLAY_ROUGH ; evolution move
 	db 1, POISON_JAB
@@ -1904,7 +1904,7 @@ RapidashPlainEvosAttacks:
 	db 49, LAVATEIN
 	db -1 ; no more level-up moves
 
-RapidashGalarianEvosAttacks:
+LuizeGalarianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PLAY_ROUGH ; evolution move
 	db 1, MEGAHORN
@@ -1924,9 +1924,9 @@ RapidashGalarianEvosAttacks:
 	db 49, MOONBLAST ; Healing Wish → new move
 	db -1 ; no more level-up moves
 
-SlowpokePlainEvosAttacks:
+ELuizePlainEvosAttacks:
 	evo_data EVOLVE_HOLDING, KINGS_ROCK, TR_ANYTIME, SLOWKING, PLAIN_FORM
-	evo_data EVOLVE_LEVEL, 37, SLOWBRO, PLAIN_FORM
+	evo_data EVOLVE_LEVEL, 37, CALICE, PLAIN_FORM
 	db -1 ; no more evolutions
 	db 1, CURSE
 	db 1, TACKLE
@@ -1945,9 +1945,9 @@ SlowpokePlainEvosAttacks:
 	db 58, RECOVER ; Heal Pulse → similar move
 	db -1 ; no more level-up moves
 
-SlowpokeGalarianEvosAttacks:
+ELuizeGalarianEvosAttacks:
 	evo_data EVOLVE_HOLDING, KINGS_ROCK, TR_ANYTIME, SLOWKING, GALARIAN_FORM
-	evo_data EVOLVE_LEVEL, 37, SLOWBRO, GALARIAN_FORM
+	evo_data EVOLVE_LEVEL, 37, CALICE, GALARIAN_FORM
 	db -1 ; no more evolutions
 	db 1, CURSE
 	db 1, TACKLE
@@ -1966,7 +1966,7 @@ SlowpokeGalarianEvosAttacks:
 	db 58, RECOVER ; Heal Pulse → similar move
 	db -1 ; no more level-up moves
 
-SlowbroPlainEvosAttacks:
+CAlicePlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, DEFENSE_CURL ; Withdraw → similar move ; evolution move
 	db 1, CURSE
@@ -1986,7 +1986,7 @@ SlowbroPlainEvosAttacks:
 	db 68, RECOVER ; Heal Pulse → similar move
 	db -1 ; no more level-up moves
 
-SlowbroGalarianEvosAttacks:
+CAliceGalarianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GUNK_SHOT ; Shell Side Arm → similar move ; evolution move
 	db 1, CURSE
@@ -2006,8 +2006,8 @@ SlowbroGalarianEvosAttacks:
 	db 68, RECOVER ; Heal Pulse → similar move
 	db -1 ; no more level-up moves
 
-MagnemiteEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, MAGNETON
+AliceEvosAttacks:
+	evo_data EVOLVE_LEVEL, 30, EALICE
 	db -1 ; no more evolutions
 	db 1, SUPERSONIC
 	db 1, TACKLE
@@ -2029,7 +2029,7 @@ MagnemiteEvosAttacks:
 	db 49, ZAP_CANNON
 	db -1 ; no more level-up moves
 
-MagnetonEvosAttacks:
+EAliceEvosAttacks:
 	evo_data EVOLVE_ITEM, THUNDERSTONE, MAGNEZONE
 	evo_data EVOLVE_LOCATION, MAGNET_TUNNEL, MAGNEZONE
 	evo_data EVOLVE_LOCATION, DIM_CAVE, MAGNEZONE
@@ -2106,8 +2106,8 @@ endc
 	db 65, DIVE_KICK
 	db -1 ; no more level-up moves
 
-DoduoEvosAttacks:
-	evo_data EVOLVE_LEVEL, 31, DODRIO
+MaiEvosAttacks:
+	evo_data EVOLVE_LEVEL, 31, EMAI
 	db -1 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL
@@ -2127,7 +2127,7 @@ DoduoEvosAttacks:
 	db 50, THRASH
 	db -1 ; no more level-up moves
 
-DodrioEvosAttacks:
+EMaiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, FIVEELEMENTS ; evolution move
 	db 1, PECK
@@ -2148,8 +2148,8 @@ DodrioEvosAttacks:
 	db 56, THRASH
 	db -1 ; no more level-up moves
 
-SeelEvosAttacks:
-	evo_data EVOLVE_LEVEL, 34, DEWGONG
+CYukiEvosAttacks:
+	evo_data EVOLVE_LEVEL, 34, YUKI
 	db -1 ; no more evolutions
 	db 1, HEADBUTT
 	db 3, GROWL
@@ -2170,7 +2170,7 @@ SeelEvosAttacks:
 	db 53, HAIL
 	db -1 ; no more level-up moves
 
-DewgongEvosAttacks:
+YukiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, ICICLE_SPEAR ; Sheer Cold → egg move ; evolution move
 	db 1, HEADBUTT
@@ -2193,8 +2193,8 @@ DewgongEvosAttacks:
 	db 69, MEGAHORN ; LGPE move
 	db -1 ; no more level-up moves
 
-GrimerPlainEvosAttacks:
-	evo_data EVOLVE_LEVEL, 38, MUK, PLAIN_FORM
+EYukiPlainEvosAttacks:
+	evo_data EVOLVE_LEVEL, 38, CYUMEKO, PLAIN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE ; Pound → similar move
 	db 1, ACID ; Poison Gas → new move
@@ -2213,8 +2213,8 @@ GrimerPlainEvosAttacks:
 	db 46, TOXIC_SPIKES ; Belch → SV TM move
 	db -1 ; no more level-up moves
 
-GrimerAlolanEvosAttacks:
-	evo_data EVOLVE_LEVEL, 38, MUK, ALOLAN_FORM
+EYukiAlolanEvosAttacks:
+	evo_data EVOLVE_LEVEL, 38, CYUMEKO, ALOLAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE ; Pound → similar move
 	db 1, ACID ; Poison Gas → new move
@@ -2233,7 +2233,7 @@ GrimerAlolanEvosAttacks:
 	db 46, TOXIC_SPIKES ; Belch → SV TM move
 	db -1 ; no more level-up moves
 
-MukPlainEvosAttacks:
+CYumekoPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, MOONBLAST ; LGPE move
 	db 1, TACKLE ; Pound → similar move
@@ -2253,7 +2253,7 @@ MukPlainEvosAttacks:
 	db 52, TOXIC_SPIKES ; Belch → SV TM move
 	db -1 ; no more level-up moves
 
-MukAlolanEvosAttacks:
+CYumekoAlolanEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, MOONBLAST ; LGPE move
 	db 1, TACKLE ; Pound → similar move
@@ -2273,8 +2273,8 @@ MukAlolanEvosAttacks:
 	db 52, TOXIC_SPIKES ; Belch → SV TM move
 	db -1 ; no more level-up moves
 
-ShellderEvosAttacks:
-	evo_data EVOLVE_ITEM, WATER_STONE, CLOYSTER
+YumekoEvosAttacks:
+	evo_data EVOLVE_ITEM, WATER_STONE, EYUMEKO
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 4, DEFENSE_CURL ; Withdraw → similar move
@@ -2294,7 +2294,7 @@ ShellderEvosAttacks:
 	db 61, HYDRO_PUMP
 	db -1 ; no more level-up moves
 
-CloysterEvosAttacks:
+EYumekoEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, HYDRO_PUMP
 	db 1, SHELL_SMASH
@@ -2311,10 +2311,10 @@ CloysterEvosAttacks:
 	db 50, ICICLE_CRASH
 	db -1 ; no more level-up moves
 
-GastlyEvosAttacks:
-	evo_data EVOLVE_LEVEL, 25, HAUNTER
+CShinkiEvosAttacks:
+	evo_data EVOLVE_LEVEL, 25, SHINKI
 	db -1 ; no more evolutions
-	db 1, HYPNOSIS
+	db 1, ERUMIASIS
 	db 1, LICK
 	db 5, DISABLE ; Spite → egg move
 	db 8, MEAN_LOOK
@@ -2331,11 +2331,11 @@ GastlyEvosAttacks:
 	db 47, SHADOW_DANCE ; Nightmare → new move
 	db -1 ; no more level-up moves
 
-HaunterEvosAttacks:
-	evo_data EVOLVE_ITEM, LINKING_CORD, GENGAR
+ShinkiEvosAttacks:
+	evo_data EVOLVE_ITEM, LINKING_CORD, ESHINKI
 	db -1 ; no more evolutions
 	db 1, SHADOW_HIT ; Shadow Punch → TM move ; evolution move
-	db 1, HYPNOSIS
+	db 1, ERUMIASIS
 	db 1, LICK
 	db 5, DISABLE ; Spite → egg move
 	db 8, MEAN_LOOK
@@ -2352,10 +2352,10 @@ HaunterEvosAttacks:
 	db 61, SHADOW_DANCE ; Nightmare → new move
 	db -1 ; no more level-up moves
 
-GengarEvosAttacks:
+EShinkiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SHADOW_HIT ; Shadow Punch → TM move ; evolution move
-	db 1, HYPNOSIS
+	db 1, ERUMIASIS
 	db 1, LICK
 	db 5, DISABLE ; Spite → egg move
 	db 8, MEAN_LOOK
@@ -2372,7 +2372,7 @@ GengarEvosAttacks:
 	db 61, SHADOW_DANCE ; Nightmare → new move
 	db -1 ; no more level-up moves
 
-OnixEvosAttacks:
+CRumiaEvosAttacks:
 	evo_data EVOLVE_HOLDING, METAL_COAT, TR_ANYTIME, STEELIX
 	db -1 ; no more evolutions
 	db 1, TACKLE
@@ -2397,11 +2397,11 @@ OnixEvosAttacks:
 	db 52, EARTHQUAKE ; Sandstorm → TM move
 	db -1 ; no more level-up moves
 
-DrowzeeEvosAttacks:
-	evo_data EVOLVE_LEVEL, 26, HYPNO
+RumiaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 26, ERUMIA
 	db -1 ; no more evolutions
 	db 1, TACKLE ; Pound → similar move
-	db 1, HYPNOSIS
+	db 1, ERUMIASIS
 	db 5, DISABLE
 	db 9, PSYSHOT
 	db 13, HEADBUTT
@@ -2419,10 +2419,10 @@ DrowzeeEvosAttacks:
 	db 61, FUTURE_SIGHT
 	db -1 ; no more level-up moves
 
-HypnoEvosAttacks:
+ERumiaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE ; Pound → similar move
-	db 1, HYPNOSIS
+	db 1, ERUMIASIS
 	db 5, DISABLE
 	db 9, PSYSHOT
 	db 13, HEADBUTT
@@ -2440,8 +2440,8 @@ HypnoEvosAttacks:
 	db 61, FUTURE_SIGHT
 	db -1 ; no more level-up moves
 
-KrabbyEvosAttacks:
-	evo_data EVOLVE_LEVEL, 28, KINGLER
+CDaichanEvosAttacks:
+	evo_data EVOLVE_LEVEL, 28, DAICHAN
 	db -1 ; no more evolutions
 	db 1, AQUA_JET ; Bubble → new move
 	db 5, SCRATCH ; Vice Grip → new move
@@ -2459,7 +2459,7 @@ KrabbyEvosAttacks:
 	db 45, REVERSAL ; Flail → similar move
 	db -1 ; no more level-up moves
 
-KinglerEvosAttacks:
+DaichanEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, AQUA_JET ; Bubble → new move
 	db 5, SCRATCH ; Vice Grip → new move
@@ -2477,8 +2477,8 @@ KinglerEvosAttacks:
 	db 63, REVERSAL ; Flail → new move
 	db -1 ; no more level-up moves
 
-VoltorbPlainEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, ELECTRODE
+EDaichanPlainEvosAttacks:
+	evo_data EVOLVE_LEVEL, 30, CCIRNO
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, THUNDERSHOCK ; LGPE move
@@ -2499,7 +2499,7 @@ VoltorbPlainEvosAttacks:
 	db 48, MIRROR_COAT
 	db -1 ; no more level-up moves
 
-ElectrodePlainEvosAttacks:
+CCirnoPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, THUNDERSHOCK ; LGPE move
@@ -2520,8 +2520,8 @@ ElectrodePlainEvosAttacks:
 	db 58, MIRROR_COAT
 	db -1 ; no more level-up moves
 
-VoltorbHisuianEvosAttacks:
-	evo_data EVOLVE_ITEM, LEAF_STONE, ELECTRODE, HISUIAN_FORM
+EDaichanHisuianEvosAttacks:
+	evo_data EVOLVE_ITEM, LEAF_STONE, CCIRNO, HISUIAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, THUNDERSHOCK ; LGPE move
@@ -2543,7 +2543,7 @@ VoltorbHisuianEvosAttacks:
 	db 48, MIRROR_COAT
 	db -1 ; no more level-up moves
 
-ElectrodeHisuianEvosAttacks:
+CCirnoHisuianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, THUNDERSHOCK ; LGPE move
@@ -2570,7 +2570,7 @@ ExeggcuteEvosAttacks:
 	evo_data EVOLVE_ITEM, ODD_SOUVENIR, EXEGGUTOR, ALOLAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE ; Barrage → new move
-	db 1, HYPNOSIS
+	db 1, ERUMIASIS
 	db 7, REFLECT
 	db 11, LEECH_SEED
 	db 14, PSYSHOT
@@ -2589,7 +2589,7 @@ ExeggcuteEvosAttacks:
 ExeggutorPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE ; Barrage → new move
-	db 1, HYPNOSIS
+	db 1, ERUMIASIS
 	db 1, PSYSHOT
 	db 1, STOMP ; evolution move
 	db 17, LOW_KICK ; Psyshock → HGSS tutor move
@@ -2601,7 +2601,7 @@ ExeggutorPlainEvosAttacks:
 ExeggutorAlolanEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE ; Barrage → new move
-	db 1, HYPNOSIS
+	db 1, ERUMIASIS
 	db 1, PSYSHOT
 	db 1, DRAGON_PULSE ; evolution move
 	db 17, DRAGON_RAGE ; Psyshock → new move
@@ -2987,7 +2987,7 @@ StaryuEvosAttacks:
 	db 4, WATER_GUN
 	db 7, RAPID_SPIN
 	db 10, RECOVER
-	db 13, HYPNOSIS ; Psywave → new move
+	db 13, ERUMIASIS ; Psywave → new move
 	db 16, SWIFT
 	db 18, BUBBLE_BEAM
 	db 22, SAKUYA_WORLD ; Camouflage → new move
@@ -3017,7 +3017,7 @@ MrMimePlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, BARRIER
 	db 1, PSYSHOT
-	db 4, HYPNOSIS ; Copycat → egg move
+	db 4, ERUMIASIS ; Copycat → egg move
 	db 8, CALM_MIND ; Meditate → TM move
 	db 11, DOUBLE_SLAP
 	db 13, PROTECT ; Mimic → event move
@@ -3529,7 +3529,7 @@ ArticunoGalarianEvosAttacks:
 	db 1, PSYSHOT
 	db 1, LEER ; LGPE move
 	db 8, SAFEGUARD ; Psycho Shift → new move
-	db 15, HYPNOSIS
+	db 15, ERUMIASIS
 	db 22, EXTRASENSORY ; Mind Reader → event move
 	db 29, ANCIENTPOWER
 	db 36, SAKUYA_WORLD
@@ -3802,7 +3802,7 @@ CReisenEvosAttacks:
 	db 1, GROWL
 	db 6, PSYSHOT
 	db 10, CONFUSE_RAY
-	db 13, HYPNOSIS
+	db 13, ERUMIASIS
 	db 17, PSYBEAM
 	db 22, FLAME_CHARGE ; Defense Curl → Flame Charge
 	db 28, DIG ; Flame Charge → TM move
@@ -3993,7 +3993,7 @@ HoothootEvosAttacks:
 	db 1, TACKLE
 	db 1, GROWL
 	db 1, FORESIGHT
-	db 4, HYPNOSIS
+	db 4, ERUMIASIS
 	db 7, PECK
 	db 10, PSYSHOT
 	db 13, NIGHT_SHADE ; Echoed Voice → event move
@@ -4016,7 +4016,7 @@ NoctowlEvosAttacks:
 	db 1, TACKLE
 	db 1, GROWL
 	db 1, FORESIGHT
-	db 4, HYPNOSIS
+	db 4, ERUMIASIS
 	db 7, PECK
 	db 10, PSYSHOT
 	db 13, NIGHT_SHADE ; Echoed Voice → event move
@@ -4268,7 +4268,7 @@ NatuEvosAttacks:
 	db 6, NIGHT_SHADE
 	db 9, TELEPORT
 	db 12, SAFEGUARD ; Lucky Chant → event move
-	db 17, HYPNOSIS ; Stored Power → new move
+	db 17, ERUMIASIS ; Stored Power → new move
 	db 20, LIFE_BALANCE ; Ominous Wind → HGSS tutor move
 	db 23, CONFUSE_RAY
 	db 28, RECOVER ; Wish → similar move
@@ -4288,7 +4288,7 @@ XatuEvosAttacks:
 	db 6, NIGHT_SHADE
 	db 9, TELEPORT
 	db 12, SAFEGUARD ; Lucky Chant → event move
-	db 17, HYPNOSIS ; Stored Power → new move
+	db 17, ERUMIASIS ; Stored Power → new move
 	db 20, LIFE_BALANCE ; Ominous Wind → HGSS tutor move
 	db 23, CONFUSE_RAY
 	db 29, RECOVER ; Wish → similar move
@@ -4442,7 +4442,7 @@ PolitoedEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GIGA_DRAIN ; Bounce → TM move ; evolution move
 	db 1, BUBBLE_BEAM
-	db 1, HYPNOSIS
+	db 1, ERUMIASIS
 	db 1, DOUBLE_SLAP
 	db 1, SHADOW_DANCE
 	db 27, SWAGGER
@@ -4612,7 +4612,7 @@ if DEF(FAITHFUL)
 else
 	db 35, ANCIENTPOWER
 endc
-	db 38, HYPNOSIS
+	db 38, ERUMIASIS
 	db 43, WING_ATTACK
 	db 46, SCREECH
 	db 49, U_TURN
@@ -5553,7 +5553,7 @@ StantlerEvosAttacks:
 	db 1, TACKLE
 	db 3, LEER
 	db 7, ASTONISH
-	db 10, HYPNOSIS
+	db 10, ERUMIASIS
 	db 13, STOMP
 	db 16, MUD_SLAP ; Sand-Attack → similar move
 	db 21, HEADBUTT ; Take Down → tutor move
@@ -5993,7 +5993,7 @@ MimeJrEvosAttacks:
 	db 1, BARRIER
 	db 1, PSYSHOT
 	db 1, TACKLE  ; Pound → similar move
-	db 4, HYPNOSIS ; Copycat → egg move
+	db 4, ERUMIASIS ; Copycat → egg move
 	db 8, CALM_MIND ; Meditate → TM move
 	db 11, DOUBLE_SLAP
 	db 13, PROTECT ; Mimic → event move
@@ -6446,7 +6446,7 @@ MrRimeEvosAttacks:
 	db 20, ICY_WIND
 	db 24, DOUBLE_KICK
 	db 28, PSYBEAM
-	db 32, HYPNOSIS
+	db 32, ERUMIASIS
 	db 36, MIRROR_COAT
 	db 40, SUCKER_PUNCH
 	db 44, ICE_BEAM ; Freeze-Dry → TR move
@@ -6460,7 +6460,7 @@ WyrdeerEvosAttacks:
 	db 1, TACKLE
 	db 3, LEER
 	db 7, ASTONISH
-	db 10, HYPNOSIS
+	db 10, ERUMIASIS
 	db 13, STOMP
 	db 16, MUD_SLAP ; Sand-Attack → similar move
 	db 21, HEADBUTT ; Take Down → tutor move

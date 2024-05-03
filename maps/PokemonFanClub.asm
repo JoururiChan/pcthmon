@@ -35,7 +35,7 @@ PokemonFanClubChairmanScript:
 	writetext PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText
 	yesorno
 	iffalse_jumpopenedtext PokemonFanClubChairmanHowDisappointingText
-	writetext PokemonFanClubChairmanRapidashText
+	writetext PokemonFanClubChairmanLuizeText
 	promptbutton
 .HeardSpeech:
 	writetext PokemonFanClubChairmanIWantYouToHaveThisText
@@ -112,12 +112,12 @@ PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
 	cont "#mon?"
 	done
 
-PokemonFanClubChairmanRapidashText:
+PokemonFanClubChairmanLuizeText:
 	text "Good!"
 	line "Then listen up!"
 
 	para "So… my favorite"
-	line "Rapidash…"
+	line "Luize…"
 
 	para "It… cute… lovely…"
 	line "smart… unbearably…"

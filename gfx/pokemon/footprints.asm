@@ -24,9 +24,9 @@ BlankFootprint::
 KikuriFootprint::
 BellossomFootprint::
 ChinchouFootprint::
-CloysterFootprint::
+EYumekoFootprint::
 CrobatFootprint::
-DewgongFootprint::
+YukiFootprint::
 CChiyuriFootprint::
 DittoFootprint::
 DragonairFootprint::
@@ -35,15 +35,15 @@ DudunsparceFootprint::
 ChiyuriFootprint::
 DunsparceFootprint::
 CKikuriFootprint::
-ElectrodeFootprint::
+CCirnoFootprint::
 ExeggcuteFootprint::
 ForretressFootprint::
-GastlyFootprint::
-GeodudeFootprint::
+CShinkiFootprint::
+CSaraFootprint::
 GoldeenFootprint::
-GrimerFootprint::
+EYukiFootprint::
 GyaradosFootprint::
-HaunterFootprint::
+ShinkiFootprint::
 HorseaFootprint::
 JynxFootprint::
 CMaganFootprint::
@@ -59,8 +59,8 @@ MantykeFootprint::
 MGyokuFootprint::
 MisdreavusFootprint::
 MismagiusFootprint::
-MukFootprint::
-OnixFootprint::
+CYumekoFootprint::
+CRumiaFootprint::
 OverqwilFootprint::
 PinecoFootprint::
 PupitarFootprint::
@@ -68,8 +68,8 @@ QwilfishFootprint::
 RemoraidFootprint::
 SeadraFootprint::
 SeakingFootprint::
-SeelFootprint::
-ShellderFootprint::
+CYukiFootprint::
+YumekoFootprint::
 SlugmaFootprint::
 SteelixFootprint::
 SunkernFootprint::
@@ -77,7 +77,7 @@ GengetsuFootprint::
 EGengetsuFootprint::
 UnownFootprint::
 CGengetsuFootprint::
-VoltorbFootprint::
+EDaichanFootprint::
 EMugetsuFootprint::
 WeezingFootprint::
 CKotohimeFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
@@ -139,22 +139,22 @@ YukaFootprint:: INCBIN "gfx/footprints/yuka.1bpp.lz"
 EYukaFootprint:: INCBIN "gfx/footprints/eyuka.1bpp.lz"
 CMugetsuFootprint:: INCBIN "gfx/footprints/cmugetsu.1bpp.lz"
 MugetsuFootprint:: INCBIN "gfx/footprints/mugetsu.1bpp.lz"
-GravelerFootprint:: INCBIN "gfx/footprints/graveler.1bpp.lz"
-GolemFootprint:: INCBIN "gfx/footprints/golem.1bpp.lz"
-PonytaFootprint:: INCBIN "gfx/footprints/ponyta.1bpp.lz"
-RapidashFootprint:: INCBIN "gfx/footprints/rapidash.1bpp.lz"
-SlowpokeFootprint:: INCBIN "gfx/footprints/slowpoke.1bpp.lz"
-SlowbroFootprint:: INCBIN "gfx/footprints/slowbro.1bpp.lz"
-MagnemiteFootprint:: INCBIN "gfx/footprints/magnemite.1bpp.lz"
-MagnetonFootprint:: INCBIN "gfx/footprints/magneton.1bpp.lz"
-FarfetchDFootprint:: INCBIN "gfx/footprints/farfetch_d.1bpp.lz"
-DoduoFootprint:: INCBIN "gfx/footprints/doduo.1bpp.lz"
-DodrioFootprint:: INCBIN "gfx/footprints/dodrio.1bpp.lz"
-GengarFootprint:: INCBIN "gfx/footprints/gengar.1bpp.lz"
-DrowzeeFootprint:: INCBIN "gfx/footprints/drowzee.1bpp.lz"
-HypnoFootprint:: INCBIN "gfx/footprints/hypno.1bpp.lz"
-KrabbyFootprint:: INCBIN "gfx/footprints/krabby.1bpp.lz"
-KinglerFootprint:: INCBIN "gfx/footprints/kingler.1bpp.lz"
+SaraFootprint:: INCBIN "gfx/footprints/sara.1bpp.lz"
+ESaraFootprint:: INCBIN "gfx/footprints/esara.1bpp.lz"
+CLuizeFootprint:: INCBIN "gfx/footprints/cluize.1bpp.lz"
+LuizeFootprint:: INCBIN "gfx/footprints/luize.1bpp.lz"
+ELuizeFootprint:: INCBIN "gfx/footprints/eluize.1bpp.lz"
+CAliceFootprint:: INCBIN "gfx/footprints/calice.1bpp.lz"
+AliceFootprint:: INCBIN "gfx/footprints/alice.1bpp.lz"
+EAliceFootprint:: INCBIN "gfx/footprints/ealice.1bpp.lz"
+FarfetchDFootprint:: INCBIN "gfx/footprints/cmai.1bpp.lz"
+MaiFootprint:: INCBIN "gfx/footprints/mai.1bpp.lz"
+EMaiFootprint:: INCBIN "gfx/footprints/emai.1bpp.lz"
+EShinkiFootprint:: INCBIN "gfx/footprints/eshinki.1bpp.lz"
+RumiaFootprint:: INCBIN "gfx/footprints/rumia.1bpp.lz"
+ERumiaFootprint:: INCBIN "gfx/footprints/erumia.1bpp.lz"
+CDaichanFootprint:: INCBIN "gfx/footprints/cdaichan.1bpp.lz"
+DaichanFootprint:: INCBIN "gfx/footprints/daichan.1bpp.lz"
 ExeggutorFootprint:: INCBIN "gfx/footprints/exeggutor.1bpp.lz"
 CuboneFootprint:: INCBIN "gfx/footprints/cubone.1bpp.lz"
 MarowakFootprint:: INCBIN "gfx/footprints/marowak.1bpp.lz"

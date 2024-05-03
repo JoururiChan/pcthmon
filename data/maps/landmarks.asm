@@ -22,7 +22,7 @@ Landmarks:
 	landmark  84, 124, UnionCaveName
 	landmark  76, 124, Route33Name
 	landmark  68, 124, AzaleaTownName
-	landmark  76, 116, SlowpokeWellName
+	landmark  76, 116, ELuizeWellName
 	landmark  52, 124, IlexForestName
 	landmark  52, 108, Route34Name
 	landmark  36, 120, Route34CoastName
@@ -170,7 +170,7 @@ SproutTowerName:       rawchar "Sprout¯Tower@"
 VioletOutskirtsName:   rawchar "Violet¯Outskirts@"
 RuinsOfAlphName:       rawchar "Ruins¯of Alph@"
 UnionCaveName:         rawchar "Union Cave@"
-SlowpokeWellName:      rawchar "Slowpoke¯Well@"
+ELuizeWellName:      rawchar "ELuize¯Well@"
 RadioTowerName:        rawchar "Radio Tower@"
 PowerPlantName:        rawchar "Power Plant@"
 NationalParkName:      rawchar "National¯Park@"

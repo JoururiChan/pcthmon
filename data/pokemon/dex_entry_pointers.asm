@@ -74,34 +74,34 @@ TohodexDataPointerTable:
 	dba CGengetsuTohodexEntry
 	dba GengetsuTohodexEntry
 	dba EGengetsuTohodexEntry
-	dba GeodudePlainTohodexEntry
-	dba GravelerPlainTohodexEntry
-	dba GolemPlainTohodexEntry
-	dba PonytaPlainTohodexEntry
-	dba RapidashPlainTohodexEntry
-	dba SlowpokePlainTohodexEntry
-	dba SlowbroPlainTohodexEntry
-	dba MagnemiteTohodexEntry
-	dba MagnetonTohodexEntry
+	dba CSaraPlainTohodexEntry
+	dba SaraPlainTohodexEntry
+	dba ESaraPlainTohodexEntry
+	dba CLuizePlainTohodexEntry
+	dba LuizePlainTohodexEntry
+	dba ELuizePlainTohodexEntry
+	dba CAlicePlainTohodexEntry
+	dba AliceTohodexEntry
+	dba EAliceTohodexEntry
 	dba FarfetchDPlainTohodexEntry
-	dba DoduoTohodexEntry
-	dba DodrioTohodexEntry
-	dba SeelTohodexEntry
-	dba DewgongTohodexEntry
-	dba GrimerPlainTohodexEntry
-	dba MukPlainTohodexEntry
-	dba ShellderTohodexEntry
-	dba CloysterTohodexEntry
-	dba GastlyTohodexEntry
-	dba HaunterTohodexEntry
-	dba GengarTohodexEntry
-	dba OnixTohodexEntry
-	dba DrowzeeTohodexEntry
-	dba HypnoTohodexEntry
-	dba KrabbyTohodexEntry
-	dba KinglerTohodexEntry
-	dba VoltorbTohodexEntry
-	dba ElectrodeTohodexEntry
+	dba MaiTohodexEntry
+	dba EMaiTohodexEntry
+	dba CYukiTohodexEntry
+	dba YukiTohodexEntry
+	dba EYukiPlainTohodexEntry
+	dba CYumekoPlainTohodexEntry
+	dba YumekoTohodexEntry
+	dba EYumekoTohodexEntry
+	dba CShinkiTohodexEntry
+	dba ShinkiTohodexEntry
+	dba EShinkiTohodexEntry
+	dba CRumiaTohodexEntry
+	dba RumiaTohodexEntry
+	dba ERumiaTohodexEntry
+	dba CDaichanTohodexEntry
+	dba DaichanTohodexEntry
+	dba EDaichanTohodexEntry
+	dba CCirnoTohodexEntry
 	dba ExeggcuteTohodexEntry
 	dba ExeggutorPlainTohodexEntry
 	dba CuboneTohodexEntry
@@ -311,19 +311,19 @@ TohodexDataPointerTable:
 	dba ChiyuriAlolanTohodexEntry
 	dba EChiyuriAlolanTohodexEntry
 	dba CYumemiAlolanTohodexEntry
-	dba GeodudeAlolanTohodexEntry
-	dba GravelerAlolanTohodexEntry
-	dba GolemAlolanTohodexEntry
-	dba GrimerAlolanTohodexEntry
-	dba MukAlolanTohodexEntry
+	dba CSaraAlolanTohodexEntry
+	dba SaraAlolanTohodexEntry
+	dba ESaraAlolanTohodexEntry
+	dba EYukiAlolanTohodexEntry
+	dba CYumekoAlolanTohodexEntry
 	dba ExeggutorAlolanTohodexEntry
 	dba MarowakAlolanTohodexEntry
 
 	dba EChiyuriGalarianTohodexEntry
-	dba PonytaGalarianTohodexEntry
-	dba RapidashGalarianTohodexEntry
-	dba SlowpokeGalarianTohodexEntry
-	dba SlowbroGalarianTohodexEntry
+	dba CLuizeGalarianTohodexEntry
+	dba LuizeGalarianTohodexEntry
+	dba ELuizeGalarianTohodexEntry
+	dba CAliceGalarianTohodexEntry
 	dba FarfetchDGalarianTohodexEntry
 	dba WeezingGalarianTohodexEntry
 	dba MrMimeGalarianTohodexEntry
@@ -335,8 +335,8 @@ TohodexDataPointerTable:
 
 	dba EOrangeHisuianTohodexEntry
 	dba CKurumiHisuianTohodexEntry
-	dba VoltorbHisuianTohodexEntry
-	dba ElectrodeHisuianTohodexEntry
+	dba EDaichanHisuianTohodexEntry
+	dba CCirnoHisuianTohodexEntry
 	dba EReisenHisuianTohodexEntry
 	dba QwilfishHisuianTohodexEntry
 	dba SneaselHisuianTohodexEntry

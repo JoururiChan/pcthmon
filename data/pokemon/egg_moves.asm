@@ -110,7 +110,7 @@ EMeiraPlainEggMoves:
 	db FLAME_CHARGE
 	db DISABLE
 	db LAVATEIN
-	db HYPNOSIS
+	db ERUMIASIS
 	db FEINT_ATTACK
 	db EXTRASENSORY
 	db CHARM
@@ -121,7 +121,7 @@ EMeiraPlainEggMoves:
 EMeiraAlolanEggMoves:
 	db DISABLE
 	db BLIZZARD
-	db HYPNOSIS
+	db ERUMIASIS
 	db FEINT_ATTACK
 	db EXTRASENSORY
 	db CHARM
@@ -132,7 +132,7 @@ EMeiraAlolanEggMoves:
 CKotohimeEggMoves:
 	db FEINT_ATTACK
 	db GUST
-	db HYPNOSIS
+	db ERUMIASIS
 	db NASTY_PLOT
 	db PURSUIT
 	db QUICK_ATTACK
@@ -179,7 +179,7 @@ EChiyuriPlainEggMoves:
 EChiyuriAlolanEggMoves:
 EChiyuriGalarianEggMoves:
 	db CHARM
-	db HYPNOSIS
+	db ERUMIASIS
 	db AMNESIA
 	db LEER
 	db NIGHT_SLASH
@@ -191,7 +191,7 @@ YumemiEggMoves:
 	db ENCORE
 	db FORESIGHT
 	db FUTURE_SIGHT
-	db HYPNOSIS
+	db ERUMIASIS
 	db PSYBEAM
 	db ICE_BEAM
 	db LIGHT_SCREEN
@@ -267,15 +267,15 @@ GengetsuEggMoves:
 	db KNOCK_OFF
 	db $ff
 
-GeodudePlainEggMoves:
-GeodudeAlolanEggMoves:
+CSaraPlainEggMoves:
+CSaraAlolanEggMoves:
 	db ROCK_SLIDE
 	db $ff
 
-PonytaPlainEggMoves:
+CLuizePlainEggMoves:
 	db CHARM
 	db DOUBLE_KICK
-	db HYPNOSIS
+	db ERUMIASIS
 	db HEALINGLIGHT
 	db THRASH
 	db QUICK_ATTACK
@@ -283,10 +283,10 @@ PonytaPlainEggMoves:
 	db PLAY_ROUGH
 	db $ff
 
-PonytaGalarianEggMoves:
+CLuizeGalarianEggMoves:
 	db CHARM
 	db DOUBLE_KICK
-	db HYPNOSIS
+	db ERUMIASIS
 	db HEALINGLIGHT
 	db THRASH
 	db QUICK_ATTACK
@@ -296,8 +296,8 @@ PonytaGalarianEggMoves:
 	db PLAY_ROUGH
 	db $ff
 
-SlowpokePlainEggMoves:
-SlowpokeGalarianEggMoves:
+ELuizePlainEggMoves:
+ELuizeGalarianEggMoves:
 	db BELLY_DRUM
 	db FUTURE_SIGHT
 	db STOMP
@@ -316,7 +316,7 @@ FarfetchDPlainEggMoves:
 	db WHITE_BIRD
 	db $ff
 
-DoduoEggMoves:
+MaiEggMoves:
 	db FEINT_ATTACK
 	db HAZE
 	db SUPERSONIC
@@ -324,7 +324,7 @@ DoduoEggMoves:
 	db DIVE_KICK
 	db $ff
 
-SeelEggMoves:
+CYukiEggMoves:
 	db DISABLE
 	db LICK
 	db PECK
@@ -334,7 +334,7 @@ SeelEggMoves:
 	db ICICLE_SPEAR
 	db $ff
 
-GrimerPlainEggMoves:
+EYukiPlainEggMoves:
 	db HAZE
 	db LICK
 	db MEAN_LOOK
@@ -342,7 +342,7 @@ GrimerPlainEggMoves:
 	db SHADOW_HIT
 	db $ff
 
-GrimerAlolanEggMoves:
+EYukiAlolanEggMoves:
 	db HAZE
 	db LICK
 	db MEAN_LOOK
@@ -350,7 +350,7 @@ GrimerAlolanEggMoves:
 	db PURSUIT
 	db $ff
 
-ShellderEggMoves:
+YumekoEggMoves:
 	db BARRIER
 	db BUBBLE_BEAM
 	db RAPID_SPIN
@@ -361,7 +361,7 @@ ShellderEggMoves:
 	db ROCK_BLAST
 	db $ff
 
-GastlyEggMoves:
+CShinkiEggMoves:
 	db ASTONISH
 	db DISABLE
 	db HAZE
@@ -371,20 +371,20 @@ GastlyEggMoves:
 	db FEINT_ATTACK
 	db $ff
 
-OnixEggMoves:
+CRumiaEggMoves:
 	db DEFENSE_CURL
 	db ROCK_SLIDE
 	db EARTHQUAKE
 	db ROCK_BLAST
 	db $ff
 
-DrowzeeEggMoves:
+RumiaEggMoves:
 	db BARRIER
 	db LIGHT_SCREEN
 	db BELLY_DRUM
 	db $ff
 
-KrabbyEggMoves:
+CDaichanEggMoves:
 	db SAKUYA_WORLD
 	db HAZE
 	db AMNESIA
@@ -972,7 +972,7 @@ BonslyEggMoves:
 MimeJrEggMoves:
 	db CONFUSE_RAY
 	db FUTURE_SIGHT
-	db HYPNOSIS
+	db ERUMIASIS
 	db NASTY_PLOT
 	db TRICK
 	db $ff

@@ -73,34 +73,34 @@ AnimationExtraPointers:
 	dw CGengetsuAnimationExtra
 	dw GengetsuAnimationExtra
 	dw EGengetsuAnimationExtra
-	dw GeodudePlainAnimationExtra
-	dw GravelerPlainAnimationExtra
-	dw GolemPlainAnimationExtra
-	dw PonytaPlainAnimationExtra
-	dw RapidashPlainAnimationExtra
-	dw SlowpokePlainAnimationExtra
-	dw SlowbroPlainAnimationExtra
-	dw MagnemiteAnimationExtra
-	dw MagnetonAnimationExtra
+	dw CSaraPlainAnimationExtra
+	dw SaraPlainAnimationExtra
+	dw ESaraPlainAnimationExtra
+	dw CLuizePlainAnimationExtra
+	dw LuizePlainAnimationExtra
+	dw ELuizePlainAnimationExtra
+	dw CAlicePlainAnimationExtra
+	dw AliceAnimationExtra
+	dw EAliceAnimationExtra
 	dw FarfetchDPlainAnimationExtra
-	dw DoduoAnimationExtra
-	dw DodrioAnimationExtra
-	dw SeelAnimationExtra
-	dw DewgongAnimationExtra
-	dw GrimerPlainAnimationExtra
-	dw MukPlainAnimationExtra
-	dw ShellderAnimationExtra
-	dw CloysterAnimationExtra
-	dw GastlyAnimationExtra
-	dw HaunterAnimationExtra
-	dw GengarAnimationExtra
-	dw OnixAnimationExtra
-	dw DrowzeeAnimationExtra
-	dw HypnoAnimationExtra
-	dw KrabbyAnimationExtra
-	dw KinglerAnimationExtra
-	dw VoltorbPlainAnimationExtra
-	dw ElectrodePlainAnimationExtra
+	dw MaiAnimationExtra
+	dw EMaiAnimationExtra
+	dw CYukiAnimationExtra
+	dw YukiAnimationExtra
+	dw EYukiPlainAnimationExtra
+	dw CYumekoPlainAnimationExtra
+	dw YumekoAnimationExtra
+	dw EYumekoAnimationExtra
+	dw CShinkiAnimationExtra
+	dw ShinkiAnimationExtra
+	dw EShinkiAnimationExtra
+	dw CRumiaAnimationExtra
+	dw RumiaAnimationExtra
+	dw ERumiaAnimationExtra
+	dw CDaichanAnimationExtra
+	dw DaichanAnimationExtra
+	dw EDaichanPlainAnimationExtra
+	dw CCirnoPlainAnimationExtra
 	dw ExeggcuteAnimationExtra
 	dw ExeggutorPlainAnimationExtra
 	dw CuboneAnimationExtra
@@ -373,19 +373,19 @@ AnimationExtraPointers:
 	dw ChiyuriAlolanAnimationExtra
 	dw EChiyuriAlolanAnimationExtra
 	dw CYumemiAlolanAnimationExtra
-	dw GeodudeAlolanAnimationExtra
-	dw GravelerAlolanAnimationExtra
-	dw GolemAlolanAnimationExtra
-	dw GrimerAlolanAnimationExtra
-	dw MukAlolanAnimationExtra
+	dw CSaraAlolanAnimationExtra
+	dw SaraAlolanAnimationExtra
+	dw ESaraAlolanAnimationExtra
+	dw EYukiAlolanAnimationExtra
+	dw CYumekoAlolanAnimationExtra
 	dw ExeggutorAlolanAnimationExtra
 	dw MarowakAlolanAnimationExtra
 
 	dw EChiyuriGalarianAnimationExtra
-	dw PonytaGalarianAnimationExtra
-	dw RapidashGalarianAnimationExtra
-	dw SlowpokeGalarianAnimationExtra
-	dw SlowbroGalarianAnimationExtra
+	dw CLuizeGalarianAnimationExtra
+	dw LuizeGalarianAnimationExtra
+	dw ELuizeGalarianAnimationExtra
+	dw CAliceGalarianAnimationExtra
 	dw FarfetchDGalarianAnimationExtra
 	dw WeezingGalarianAnimationExtra
 	dw MrMimeGalarianAnimationExtra
@@ -397,8 +397,8 @@ AnimationExtraPointers:
 
 	dw EOrangeHisuianAnimationExtra
 	dw CKurumiHisuianAnimationExtra
-	dw VoltorbHisuianAnimationExtra
-	dw ElectrodeHisuianAnimationExtra
+	dw EDaichanHisuianAnimationExtra
+	dw CCirnoHisuianAnimationExtra
 	dw EReisenHisuianAnimationExtra
 	dw QwilfishHisuianAnimationExtra
 	dw SneaselHisuianAnimationExtra

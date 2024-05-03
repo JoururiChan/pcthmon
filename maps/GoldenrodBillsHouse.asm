@@ -434,7 +434,7 @@ BillsGrandpaEllenText:
 	text "Bill told me about"
 	line "a pink #mon"
 
-	para "with a hypnotic"
+	para "with a erumiatic"
 	line "singing voice."
 	done
 
