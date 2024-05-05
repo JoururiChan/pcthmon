@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, BIG_ROOT ; held items
 	dn GENDER_F75, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for GENGETSU, IMMUNITY, IMMUNITY, PRESSURE
+	abilities_for EGENGETSU, IMMUNITY, IMMUNITY, PRESSURE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_INDETERMINATE, EGG_FAIRY ; egg groups
 

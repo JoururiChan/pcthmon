@@ -7,7 +7,7 @@
 	db NO_ITEM, FOCUS_BAND ; held items
 	dn GENDER_F75, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for MUGETSU, LIMBER, LIMBER, PRESSURE
+	abilities_for EMUGETSU, LIMBER, LIMBER, PRESSURE
 	db GROWTH_FAST ; growth rate
 	dn EGG_INDETERMINATE, EGG_FAIRY ; egg groups
 
