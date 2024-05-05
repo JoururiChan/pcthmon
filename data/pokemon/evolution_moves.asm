@@ -84,7 +84,7 @@ EvolutionMoves::
 	db BLAZE_STAR   ; EALICE
 	db NO_MOVE      ; CMAI
 	db NO_MOVE      ; MAI
-	db MOON_BLAST   ; EMAI
+	db MOONBLAST   ; EMAI
 	db NO_MOVE      ; CYUKI
 	db NO_MOVE ; YUKI
 	db SACRED_FIRE      ; EYUKI
