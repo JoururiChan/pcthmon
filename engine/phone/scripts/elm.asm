@@ -94,7 +94,7 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveELuizePlain
 	dw .EvolveELuizeGalarian
 	dw .EvolveEAlice
-	dw .EvolveExeggcute
+	dw .EvolveCirno
 	dw .EvolveKoffing
 	dw .EvolveCubone
 	dw .EvolveScyther
@@ -173,8 +173,8 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveEAlice:
 	farwritetext ElmPhoneEvoText_EAlice
 	end
-.EvolveExeggcute:
-	farwritetext ElmPhoneEvoText_Exeggcute
+.EvolveCirno:
+	farwritetext ElmPhoneEvoText_Cirno
 	end
 .EvolveKoffing:
 	farwritetext ElmPhoneEvoText_Koffing

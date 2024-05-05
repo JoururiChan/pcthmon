@@ -54,34 +54,34 @@ TreeMonSet_Route:
 	tree_mon 50, HOOTHOOT,   10
 	tree_mon 15, SPINARAK,   10
 	tree_mon 15, LEDYBA,     10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, CIRNO,  10
 	db -1
 	; rare
 	tree_mon 40, MURKROW,    10
 	tree_mon 40, PINECO,     10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, CIRNO,  10
 	db -1
 
 TreeMonSet_Kanto:
 	tree_mon 65, HOOTHOOT,   10
 	tree_mon 15, CKIKURI,      10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, CIRNO,  10
 	db -1
 	; rare
 	tree_mon 40, MURKROW,    10
 	tree_mon 40, PINECO,     10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, CIRNO,  10
 	db -1
 
 TreeMonSet_Lake:
 	tree_mon 65, HOOTHOOT,   10
 	tree_mon 15, RIKAKO,    10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, CIRNO,  10
 	db -1
 	; rare
 	tree_mon 50, HOOTHOOT,   10
 	tree_mon 30, PINECO,     10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, CIRNO,  10
 	db -1
 
 TreeMonSet_Forest:

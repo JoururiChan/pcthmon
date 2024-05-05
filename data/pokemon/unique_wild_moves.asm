@@ -59,7 +59,7 @@ UniqueWildMoves:
 	unique_moves SAFARI_ZONE,      PINSIR,     SLASH        ; RBY move (north)
 	unique_moves SAFARI_ZONE,      KANGASKHAN, 0            ; (west)
 	unique_moves URAGA_CHANNEL,    EGENGETSU, RECOVER      ; TCG move
-	unique_moves SCARY_CAVE,       KOTOHIME,     ERUMIASIS     ; Dream World move
+	unique_moves SCARY_CAVE,       KOTOHIME,     HYPNOSIS     ; Dream World move
 	unique_moves SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves SEAFOAM_ISLANDS,  JYNX,       METRONOME    ; RBY TM move
 	unique_moves POKEMON_MANSION,  WEEZING,    CRUNCH       ; Prism tutor move

@@ -411,7 +411,7 @@ ElmPhoneEvoText_EAlice:
 	cont "Cave have that."
 	prompt
 
-ElmPhoneEvoText_Exeggcute:
+ElmPhoneEvoText_Cirno:
 	text_ram wStringBuffer3
 	line "evolves when it's"
 

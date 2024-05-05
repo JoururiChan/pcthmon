@@ -17,7 +17,7 @@ AsleepTreeMons:
 	dp CMAGAN
 	dp CELIS
 	dp CKIKURI
-	dp EXEGGCUTE
+	dp CIRNO
 	dp LEDYBA
 	db 0 ; end
 

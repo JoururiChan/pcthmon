@@ -83,7 +83,7 @@ TohodexDataPointerTable:
 	dba CAlicePlainTohodexEntry
 	dba AliceTohodexEntry
 	dba EAliceTohodexEntry
-	dba FarfetchDPlainTohodexEntry
+	dba CMaiPlainTohodexEntry
 	dba MaiTohodexEntry
 	dba EMaiTohodexEntry
 	dba CYukiTohodexEntry
@@ -102,7 +102,7 @@ TohodexDataPointerTable:
 	dba DaichanTohodexEntry
 	dba EDaichanTohodexEntry
 	dba CCirnoTohodexEntry
-	dba ExeggcuteTohodexEntry
+	dba CirnoTohodexEntry
 	dba ExeggutorPlainTohodexEntry
 	dba CuboneTohodexEntry
 	dba MarowakPlainTohodexEntry
@@ -324,7 +324,7 @@ TohodexDataPointerTable:
 	dba LuizeGalarianTohodexEntry
 	dba ELuizeGalarianTohodexEntry
 	dba CAliceGalarianTohodexEntry
-	dba FarfetchDGalarianTohodexEntry
+	dba CMaiGalarianTohodexEntry
 	dba WeezingGalarianTohodexEntry
 	dba MrMimeGalarianTohodexEntry
 	dba ArticunoGalarianTohodexEntry

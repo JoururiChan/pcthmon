@@ -417,10 +417,10 @@ EAliceMini::     INCBIN "gfx/minis/ealice.2bpp.lz"
 EAliceMiniMask:: INCBIN "gfx/minis/ealice_mask.1bpp.lz"
 EAliceIcon::     INCBIN "gfx/icons/ealice.2bpp.lz"
 
-SECTION "FarfetchD Mini Icon", ROMX
-FarfetchDMini::     INCBIN "gfx/minis/cmai.2bpp.lz"
-FarfetchDMiniMask:: INCBIN "gfx/minis/cmai_mask.1bpp.lz"
-FarfetchDIcon::     INCBIN "gfx/icons/cmai.2bpp.lz"
+SECTION "CMai Mini Icon", ROMX
+CMaiMini::     INCBIN "gfx/minis/cmai.2bpp.lz"
+CMaiMiniMask:: INCBIN "gfx/minis/cmai_mask.1bpp.lz"
+CMaiIcon::     INCBIN "gfx/icons/cmai.2bpp.lz"
 
 SECTION "Mai Mini Icon", ROMX
 MaiMini::     INCBIN "gfx/minis/mai.2bpp.lz"
@@ -512,10 +512,10 @@ CCirnoMini::     INCBIN "gfx/minis/ccirno.2bpp.lz"
 CCirnoMiniMask:: INCBIN "gfx/minis/ccirno_mask.1bpp.lz"
 CCirnoIcon::     INCBIN "gfx/icons/ccirno.2bpp.lz"
 
-SECTION "Exeggcute Mini Icon", ROMX
-ExeggcuteMini::     INCBIN "gfx/minis/exeggcute.2bpp.lz"
-ExeggcuteMiniMask:: INCBIN "gfx/minis/exeggcute_mask.1bpp.lz"
-ExeggcuteIcon::     INCBIN "gfx/icons/exeggcute.2bpp.lz"
+SECTION "Cirno Mini Icon", ROMX
+CirnoMini::     INCBIN "gfx/minis/cirno.2bpp.lz"
+CirnoMiniMask:: INCBIN "gfx/minis/cirno_mask.1bpp.lz"
+CirnoIcon::     INCBIN "gfx/icons/cirno.2bpp.lz"
 
 SECTION "Exeggutor Mini Icon", ROMX
 ExeggutorMini::     INCBIN "gfx/minis/exeggutor.2bpp.lz"
@@ -1717,10 +1717,10 @@ CAliceGalarianMini::     INCBIN "gfx/minis/calice_galarian.2bpp.lz"
 CAliceGalarianMiniMask:: INCBIN "gfx/minis/calice_galarian_mask.1bpp.lz"
 CAliceGalarianIcon::     INCBIN "gfx/icons/calice_galarian.2bpp.lz"
 
-SECTION "FarfetchDGalarian Mini Icon", ROMX
-FarfetchDGalarianMini::     INCBIN "gfx/minis/cmai_galarian.2bpp.lz"
-FarfetchDGalarianMiniMask:: INCBIN "gfx/minis/cmai_galarian_mask.1bpp.lz"
-FarfetchDGalarianIcon::     INCBIN "gfx/icons/cmai_galarian.2bpp.lz"
+SECTION "CMaiGalarian Mini Icon", ROMX
+CMaiGalarianMini::     INCBIN "gfx/minis/cmai_galarian.2bpp.lz"
+CMaiGalarianMiniMask:: INCBIN "gfx/minis/cmai_galarian_mask.1bpp.lz"
+CMaiGalarianIcon::     INCBIN "gfx/icons/cmai_galarian.2bpp.lz"
 
 SECTION "WeezingGalarian Mini Icon", ROMX
 WeezingGalarianMini::     INCBIN "gfx/minis/weezing_galarian.2bpp.lz"

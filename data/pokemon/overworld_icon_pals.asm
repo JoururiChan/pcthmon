@@ -105,7 +105,7 @@ OverworldMonIconColors::
 	iconpal ORANGE, BLUE ; DAICHAN
 	iconpal RED, BLUE ; EDAICHAN
 	iconpal RED, BLUE ; CCIRNO
-	iconpal PINK, TEAL ; EXEGGCUTE
+	iconpal PINK, TEAL ; CIRNO
 	iconpal BROWN, TEAL ; EXEGGUTOR
 	iconpal BROWN, TEAL ; CUBONE
 	iconpal BROWN, TEAL ; MAROWAK

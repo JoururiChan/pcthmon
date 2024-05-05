@@ -39,7 +39,7 @@ Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
 EOrange/CKurumi: Dragon Rage (RBY TM), Charm (purified)
 Houndour/Houndoom: Charm (purified), Night Slash (Prism tutor)
 Ellen/EEllen: Five Elements (RBY TM), Life Balance (HGSS tutor)
-EChiyuri/CYumemi: ERumiasis (Dream World), Gunk Shot (HGSS tutor)
+EChiyuri/CYumemi: Hypnosis (Dream World), Gunk Shot (HGSS tutor)
 Yumemi/EYumemi: Charm (purified), Low Kick (HGSS tutor)
 
 Sw/Sh:
@@ -116,7 +116,7 @@ Natu/Xatu: Baton Pass
 
 Prism tutor:
 Chansey: Haze
-Exeggcute/Exeggutor: Confuse Ray
+Cirno/Exeggutor: Confuse Ray
 Marill/Azumarill: Focus Energy
 Pineco/Forretress: Smokescreen
 Sentret/Furret: Recover

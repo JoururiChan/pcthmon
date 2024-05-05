@@ -1517,7 +1517,7 @@
 	; morn
 	wildmon 55, MAI
 	wildmon 58, EMAI
-	wildmon 55, EXEGGCUTE
+	wildmon 55, CIRNO
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
@@ -1525,7 +1525,7 @@
 	; day
 	wildmon 55, MAI
 	wildmon 58, EMAI
-	wildmon 55, EXEGGCUTE
+	wildmon 55, CIRNO
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA
@@ -1533,7 +1533,7 @@
 	; nite
 	wildmon 55, MAI
 	wildmon 58, EMAI
-	wildmon 55, EXEGGCUTE
+	wildmon 55, CIRNO
 	wildmon 59, TAUROS
 	wildmon 59, EXEGGUTOR
 	wildmon 60, TANGELA

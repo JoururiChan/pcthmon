@@ -86,7 +86,7 @@ EvosAttacksPointers::
 	dw CAlicePlainEvosAttacks
 	dw AliceEvosAttacks
 	dw EAliceEvosAttacks
-	dw FarfetchDPlainEvosAttacks
+	dw CMaiPlainEvosAttacks
 	dw MaiEvosAttacks
 	dw EMaiEvosAttacks
 	dw CYukiEvosAttacks
@@ -105,7 +105,7 @@ EvosAttacksPointers::
 	dw DaichanEvosAttacks
 	dw EDaichanPlainEvosAttacks
 	dw CCirnoPlainEvosAttacks
-	dw ExeggcuteEvosAttacks
+	dw CirnoEvosAttacks
 	dw ExeggutorPlainEvosAttacks
 	dw CuboneEvosAttacks
 	dw MarowakPlainEvosAttacks
@@ -327,7 +327,7 @@ EvosAttacksPointers::
 	dw LuizeGalarianEvosAttacks
 	dw ELuizeGalarianEvosAttacks
 	dw CAliceGalarianEvosAttacks
-	dw FarfetchDGalarianEvosAttacks
+	dw CMaiGalarianEvosAttacks
 	dw WeezingGalarianEvosAttacks
 	dw MrMimeGalarianEvosAttacks
 	dw ArticunoGalarianEvosAttacks

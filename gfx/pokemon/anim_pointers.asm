@@ -82,7 +82,7 @@ AnimationPointers:
 	dw CAlicePlainAnimation
 	dw AliceAnimation
 	dw EAliceAnimation
-	dw FarfetchDPlainAnimation
+	dw CMaiPlainAnimation
 	dw MaiAnimation
 	dw EMaiAnimation
 	dw CYukiAnimation
@@ -101,7 +101,7 @@ AnimationPointers:
 	dw DaichanAnimation
 	dw EDaichanPlainAnimation
 	dw CCirnoPlainAnimation
-	dw ExeggcuteAnimation
+	dw CirnoAnimation
 	dw ExeggutorPlainAnimation
 	dw CuboneAnimation
 	dw MarowakPlainAnimation
@@ -386,7 +386,7 @@ AnimationPointers:
 	dw LuizeGalarianAnimation
 	dw ELuizeGalarianAnimation
 	dw CAliceGalarianAnimation
-	dw FarfetchDGalarianAnimation
+	dw CMaiGalarianAnimation
 	dw WeezingGalarianAnimation
 	dw MrMimeGalarianAnimation
 	dw ArticunoGalarianAnimation

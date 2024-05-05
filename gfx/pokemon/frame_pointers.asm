@@ -82,7 +82,7 @@ FramesPointers:
 	dw CAlicePlainFrames
 	dw AliceFrames
 	dw EAliceFrames
-	dw FarfetchDPlainFrames
+	dw CMaiPlainFrames
 	dw MaiFrames
 	dw EMaiFrames
 	dw CYukiFrames
@@ -101,7 +101,7 @@ FramesPointers:
 	dw DaichanFrames
 	dw EDaichanPlainFrames
 	dw CCirnoPlainFrames
-	dw ExeggcuteFrames
+	dw CirnoFrames
 	dw ExeggutorPlainFrames
 	dw CuboneFrames
 	dw MarowakPlainFrames
@@ -386,7 +386,7 @@ FramesPointers:
 	dw LuizeGalarianFrames
 	dw ELuizeGalarianFrames
 	dw CAliceGalarianFrames
-	dw FarfetchDGalarianFrames
+	dw CMaiGalarianFrames
 	dw WeezingGalarianFrames
 	dw MrMimeGalarianFrames
 	dw ArticunoGalarianFrames

@@ -36,7 +36,7 @@ ChiyuriFootprint::
 DunsparceFootprint::
 CKikuriFootprint::
 CCirnoFootprint::
-ExeggcuteFootprint::
+CirnoFootprint::
 ForretressFootprint::
 CShinkiFootprint::
 CSaraFootprint::
@@ -147,7 +147,7 @@ ELuizeFootprint:: INCBIN "gfx/footprints/eluize.1bpp.lz"
 CAliceFootprint:: INCBIN "gfx/footprints/calice.1bpp.lz"
 AliceFootprint:: INCBIN "gfx/footprints/alice.1bpp.lz"
 EAliceFootprint:: INCBIN "gfx/footprints/ealice.1bpp.lz"
-FarfetchDFootprint:: INCBIN "gfx/footprints/cmai.1bpp.lz"
+CMaiFootprint:: INCBIN "gfx/footprints/cmai.1bpp.lz"
 MaiFootprint:: INCBIN "gfx/footprints/mai.1bpp.lz"
 EMaiFootprint:: INCBIN "gfx/footprints/emai.1bpp.lz"
 EShinkiFootprint:: INCBIN "gfx/footprints/eshinki.1bpp.lz"

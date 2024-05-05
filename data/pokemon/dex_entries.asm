@@ -822,8 +822,8 @@ EAliceTohodexEntry::
 	next "storm disrupts"
 	next "radio waves.@"
 
-SECTION "FarfetchDPlainTohodexEntry", ROMX
-FarfetchDPlainTohodexEntry::
+SECTION "CMaiPlainTohodexEntry", ROMX
+CMaiPlainTohodexEntry::
 	db "Wild Duck@"
 	db   "In order to"
 	next "prevent their"
@@ -954,7 +954,7 @@ CRumiaTohodexEntry::
 
 SECTION "RumiaTohodexEntry", ROMX
 RumiaTohodexEntry::
-	db "ERumiasis@"
+	db "Hypnosis@"
 	db   "When it twitches"
 	next "its nose, it can"
 	next "tell where someone"
@@ -964,12 +964,12 @@ RumiaTohodexEntry::
 
 SECTION "ERumiaTohodexEntry", ROMX
 ERumiaTohodexEntry::
-	db "ERumiasis@"
+	db "Hypnosis@"
 	db   "The longer it"
 	next "swings its"
 	next "pendulum, the"
 	page "longer the effects"
-	next "of its erumiasis"
+	next "of its hypnosis"
 	next "last.@"
 
 SECTION "CDaichanTohodexEntry", ROMX
@@ -1012,8 +1012,8 @@ CCirnoTohodexEntry::
 	next "makes it more"
 	next "likely to explode.@"
 
-SECTION "ExeggcuteTohodexEntry", ROMX
-ExeggcuteTohodexEntry::
+SECTION "CirnoTohodexEntry", ROMX
+CirnoTohodexEntry::
 	db "Egg@"
 	db   "If even one is"
 	next "separated from the"
@@ -1030,7 +1030,7 @@ ExeggutorPlainTohodexEntry::
 	next "it grow lots of"
 	page "heads. A head that"
 	next "drops off becomes"
-	next "an Exeggcute.@"
+	next "an Cirno.@"
 
 SECTION "CuboneTohodexEntry", ROMX
 CuboneTohodexEntry::
@@ -3145,8 +3145,8 @@ endc
 	next "making CAlice a"
 	next "Poison-type.@"
 
-SECTION "FarfetchDGalarianTohodexEntry", ROMX
-FarfetchDGalarianTohodexEntry::
+SECTION "CMaiGalarianTohodexEntry", ROMX
+CMaiGalarianTohodexEntry::
 	db "Wild Duck@"
 	db   "These unique Far-"
 	next "fetch'd are brave"

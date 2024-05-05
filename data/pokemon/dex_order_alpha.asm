@@ -65,7 +65,7 @@ AlphabeticalTohodexOrder:
 	dp ELEKID
 	dp ENTEI
 	dp ESPEON
-	dp EXEGGCUTE
+	dp CIRNO
 	dp EXEGGUTOR
 	dp FARIGIRAF
 	dp CMAI

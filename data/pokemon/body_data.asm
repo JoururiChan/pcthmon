@@ -108,7 +108,7 @@ PokemonBodyData:
 	body_data  13,  600, INSECTOID,    RED    ; DAICHAN
 	body_data   5,  104, HEAD,         RED    ; EDAICHAN
 	body_data  12,  666, HEAD,         RED    ; CCIRNO
-	body_data   4,   25, MULTIBODY,    PINK   ; EXEGGCUTE
+	body_data   4,   25, MULTIBODY,    PINK   ; CIRNO
 	body_data  20, 1200, HEAD_LEGS,    YELLOW ; EXEGGUTOR
 	body_data   4,   65, BIPEDAL_TAIL, BROWN  ; CUBONE
 	body_data  10,  450, BIPEDAL_TAIL, BROWN  ; MAROWAK

@@ -96,7 +96,7 @@ BattleAnimations::
 	dw BattleAnim_Toxic
 	dw BattleAnim_Psyshot
 	dw BattleAnim_PsychicM
-	dw BattleAnim_ERumiasis
+	dw BattleAnim_Hypnosis
 	dw BattleAnim_HoneTools
 	dw BattleAnim_SakuyaWorld
 	dw BattleAnim_QuickAttack
@@ -2497,7 +2497,7 @@ BattleAnim_KnockOff:
 	anim_wait 8
 	anim_ret
 
-BattleAnim_ERumiasis:
+BattleAnim_Hypnosis:
 	anim_1gfx ANIM_GFX_PSYCHIC
 .loop
 	anim_sound 6, 2, SFX_SUPERSONIC

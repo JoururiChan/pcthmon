@@ -44,7 +44,7 @@ GenericTrainerLassGina:
 	done
 
 GenericTrainerLassAlice:
-	generictrainer LASS, ALICE, EVENT_BEAT_LASS_ALICE, .SeenText, .BeatenText
+	generictrainer LASS, ALICE_T, EVENT_BEAT_LASS_ALICE_T, .SeenText, .BeatenText
 
 	text "I'm really a guy…"
 	line "Don't tell anyone!"

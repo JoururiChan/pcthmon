@@ -111,7 +111,7 @@ NewTohodexOrder:
 	dp YANMEGA
 	dp SUNKERN
 	dp SUNFLORA
-	dp EXEGGCUTE
+	dp CIRNO
 	dp EXEGGUTOR
 	dp BONSLY
 	dp SUDOWOODO

@@ -61,36 +61,36 @@ EvolutionMoves::
 	db NO_MOVE ; KURUMI
 	db NO_MOVE      ; KURUMI
 	db NO_MOVE      ; EKURUMI
-	db SCULPTURE ; CELLY
+	db NO_MOVE ; CELLY
 	db NO_MOVE      ; ELLY
-	db FORESIGHT    ; EELLY
-	db FORESIGHT    ; CYUKA
+	db NO_MOVE    ; EELLY
+	db NO_MOVE    ; CYUKA
 	db NO_MOVE      ; YUKA
 	db NO_MOVE      ; EYUKA
-	db STRENGTH     ; CMUGETSU
+	db NO_MOVE     ; CMUGETSU
 	db NO_MOVE      ; MUGETSU
 	db NO_MOVE      ; EMUGETSU
 	db NO_MOVE      ; CGENGETSU
 	db NO_MOVE      ; GENGETSU
-	db POWER_WHIP   ; EGENGETSU
+	db NO_MOVE   ; EGENGETSU
 	db NO_MOVE      ; CSARA
 	db NO_MOVE      ; SARA
-	db NO_MOVE      ; ESARA
+	db FIRE_PUNCH      ; ESARA
 	db NO_MOVE      ; CLUIZE
-	db PLAY_ROUGH   ; LUIZE
-	db NO_MOVE      ; ELUIZE
-	db DEFENSE_CURL ; CALICE
-	db NO_MOVE      ; ALICE
-	db FIVEELEMENTS   ; EALICE
+	db NO_MOVE   ; LUIZE
+	db WILL_O_WISP      ; ELUIZE
+	db NO_MOVE ; CALICE
+	db FLAME_CHARGE      ; ALICE
+	db BLAZE_STAR   ; EALICE
 	db NO_MOVE      ; CMAI
 	db NO_MOVE      ; MAI
-	db FIVEELEMENTS   ; EMAI
+	db MOON_BLAST   ; EMAI
 	db NO_MOVE      ; CYUKI
-	db ICICLE_SPEAR ; YUKI
-	db NO_MOVE      ; EYUKI
+	db NO_MOVE ; YUKI
+	db SACRED_FIRE      ; EYUKI
 	db NO_MOVE      ; CYUMEKO
-	db NO_MOVE      ; YUMEKO
-	db SPIKES       ; EYUMEKO
+	db FIRE_PUNCH     ; YUMEKO
+	db NO_MOVE       ; EYUMEKO
 	db NO_MOVE      ; CSHINKI
 	db SHADOW_HIT  ; SHINKI
 	db SHADOW_HIT  ; ESHINKI
@@ -101,7 +101,7 @@ EvolutionMoves::
 	db NO_MOVE      ; DAICHAN
 	db NO_MOVE      ; EDAICHAN
 	db NO_MOVE      ; CCIRNO
-	db NO_MOVE      ; EXEGGCUTE
+	db NO_MOVE      ; CIRNO
 	db STOMP        ; EXEGGUTOR
 	db NO_MOVE      ; CUBONE
 	db SWORDS_DANCE ; MAROWAK

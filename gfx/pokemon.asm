@@ -304,9 +304,9 @@ SECTION "Daichan Pics", ROMX
 DaichanFrontpic: INCBIN "gfx/pokemon/daichan/front.animated.2bpp.lz"
 DaichanBackpic:  INCBIN "gfx/pokemon/daichan/back.2bpp.lz"
 
-SECTION "Exeggcute Pics", ROMX
-ExeggcuteFrontpic: INCBIN "gfx/pokemon/exeggcute/front.animated.2bpp.lz"
-ExeggcuteBackpic:  INCBIN "gfx/pokemon/exeggcute/back.2bpp.lz"
+SECTION "Cirno Pics", ROMX
+CirnoFrontpic: INCBIN "gfx/pokemon/cirno/front.animated.2bpp.lz"
+CirnoBackpic:  INCBIN "gfx/pokemon/cirno/back.2bpp.lz"
 
 SECTION "Cubone Pics", ROMX
 CuboneFrontpic: INCBIN "gfx/pokemon/cubone/front.animated.2bpp.lz"
@@ -1379,13 +1379,13 @@ SECTION "SlowkingGalarian Pics", ROMX
 SlowkingGalarianFrontpic: INCBIN "gfx/pokemon/slowking_galarian/front.animated.2bpp.lz"
 SlowkingGalarianBackpic:  INCBIN "gfx/pokemon/slowking_galarian/back.2bpp.lz"
 
-SECTION "FarfetchDPlain Pics", ROMX
-FarfetchDPlainFrontpic: INCBIN "gfx/pokemon/cmai_plain/front.animated.2bpp.lz"
-FarfetchDPlainBackpic:  INCBIN "gfx/pokemon/cmai_plain/back.2bpp.lz"
+SECTION "CMaiPlain Pics", ROMX
+CMaiPlainFrontpic: INCBIN "gfx/pokemon/cmai_plain/front.animated.2bpp.lz"
+CMaiPlainBackpic:  INCBIN "gfx/pokemon/cmai_plain/back.2bpp.lz"
 
-SECTION "FarfetchDGalarian Pics", ROMX
-FarfetchDGalarianFrontpic: INCBIN "gfx/pokemon/cmai_galarian/front.animated.2bpp.lz"
-FarfetchDGalarianBackpic:  INCBIN "gfx/pokemon/cmai_galarian/back.2bpp.lz"
+SECTION "CMaiGalarian Pics", ROMX
+CMaiGalarianFrontpic: INCBIN "gfx/pokemon/cmai_galarian/front.animated.2bpp.lz"
+CMaiGalarianBackpic:  INCBIN "gfx/pokemon/cmai_galarian/back.2bpp.lz"
 
 SECTION "SirfetchD Pics", ROMX
 SirfetchDFrontpic: INCBIN "gfx/pokemon/sirfetch_d/front.animated.2bpp.lz"

@@ -86,7 +86,7 @@ PokemonPicPointers::
 	pics CAlicePlain
 	pics Alice
 	pics EAlice
-	pics FarfetchDPlain
+	pics CMaiPlain
 	pics Mai
 	pics EMai
 	pics CYuki
@@ -105,7 +105,7 @@ PokemonPicPointers::
 	pics Daichan
 	pics EDaichanPlain
 	pics CCirnoPlain
-	pics Exeggcute
+	pics Cirno
 	pics ExeggutorPlain
 	pics Cubone
 	pics MarowakPlain
@@ -390,7 +390,7 @@ PokemonPicPointers::
 	pics LuizeGalarian
 	pics ELuizeGalarian
 	pics CAliceGalarian
-	pics FarfetchDGalarian
+	pics CMaiGalarian
 	pics WeezingGalarian
 	pics MrMimeGalarian
 	pics ArticunoGalarian

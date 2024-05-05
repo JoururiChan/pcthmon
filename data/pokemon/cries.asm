@@ -88,7 +88,7 @@ PokemonCries::
 	mon_cry CRY_EORANGE,   $000,  $100 ; CAlice
 	mon_cry CRY_MGYOKU,     $080,  $0e0 ; Alice
 	mon_cry CRY_MGYOKU,     $020,  $140 ; EAlice
-	mon_cry CRY_CMAI,  $0dd,  $081 ; FarfetchD
+	mon_cry CRY_CMAI,  $0dd,  $081 ; CMai
 	mon_cry CRY_CCHIYURI,     $0bb,  $081 ; Mai
 	mon_cry CRY_CCHIYURI,     $099,  $0a0 ; EMai
 	mon_cry CRY_CYUKI,        $088,  $140 ; CYuki
@@ -107,7 +107,7 @@ PokemonCries::
 	mon_cry CRY_CDAICHAN,      $0ee,  $160 ; Daichan
 	mon_cry CRY_EDAICHAN,     $0ed,  $100 ; EDaichan
 	mon_cry CRY_EDAICHAN,     $0a8,  $110 ; CCirno
-	mon_cry CRY_CCHIYURI,     $000,  $100 ; Exeggcute
+	mon_cry CRY_CCHIYURI,     $000,  $100 ; Cirno
 	mon_cry CRY_RUMIA,     $000,  $100 ; Exeggutor
 	mon_cry CRY_CMEIRA,    $000,  $100 ; Cubone
 	mon_cry CRY_EKOTOHIME,      $04f,  $0e0 ; Marowak

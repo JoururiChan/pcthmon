@@ -102,7 +102,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  28, 100 ; Daichan
 	db   1,  29 ; EDaichan
 	db  30, 100 ; CCirno
-	db   1,  29 ; Exeggcute
+	db   1,  29 ; Cirno
 	db  30, 100 ; Exeggutor
 	db   1,  27 ; Cubone
 	db  28, 100 ; Marowak

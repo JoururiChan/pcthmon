@@ -110,7 +110,7 @@ EMeiraPlainEggMoves:
 	db FLAME_CHARGE
 	db DISABLE
 	db LAVATEIN
-	db ERUMIASIS
+	db HYPNOSIS
 	db FEINT_ATTACK
 	db EXTRASENSORY
 	db CHARM
@@ -121,7 +121,7 @@ EMeiraPlainEggMoves:
 EMeiraAlolanEggMoves:
 	db DISABLE
 	db BLIZZARD
-	db ERUMIASIS
+	db HYPNOSIS
 	db FEINT_ATTACK
 	db EXTRASENSORY
 	db CHARM
@@ -132,7 +132,7 @@ EMeiraAlolanEggMoves:
 CKotohimeEggMoves:
 	db FEINT_ATTACK
 	db GUST
-	db ERUMIASIS
+	db HYPNOSIS
 	db NASTY_PLOT
 	db PURSUIT
 	db QUICK_ATTACK
@@ -179,7 +179,7 @@ EChiyuriPlainEggMoves:
 EChiyuriAlolanEggMoves:
 EChiyuriGalarianEggMoves:
 	db CHARM
-	db ERUMIASIS
+	db HYPNOSIS
 	db AMNESIA
 	db LEER
 	db NIGHT_SLASH
@@ -191,7 +191,7 @@ YumemiEggMoves:
 	db ENCORE
 	db FORESIGHT
 	db FUTURE_SIGHT
-	db ERUMIASIS
+	db HYPNOSIS
 	db PSYBEAM
 	db ICE_BEAM
 	db LIGHT_SCREEN
@@ -275,7 +275,7 @@ CSaraAlolanEggMoves:
 CLuizePlainEggMoves:
 	db CHARM
 	db DOUBLE_KICK
-	db ERUMIASIS
+	db HYPNOSIS
 	db HEALINGLIGHT
 	db THRASH
 	db QUICK_ATTACK
@@ -286,7 +286,7 @@ CLuizePlainEggMoves:
 CLuizeGalarianEggMoves:
 	db CHARM
 	db DOUBLE_KICK
-	db ERUMIASIS
+	db HYPNOSIS
 	db HEALINGLIGHT
 	db THRASH
 	db QUICK_ATTACK
@@ -305,9 +305,9 @@ ELuizeGalarianEggMoves:
 	db ZEN_HEADBUTT
 	db $ff
 
-FarfetchDGalarianEggMoves:
+CMaiGalarianEggMoves:
 	db COUNTER
-FarfetchDPlainEggMoves:
+CMaiPlainEggMoves:
 	db FORESIGHT
 	db GUST
 	db QUICK_ATTACK
@@ -393,7 +393,7 @@ CDaichanEggMoves:
 	db KNOCK_OFF
 	db $ff
 
-ExeggcuteEggMoves:
+CirnoEggMoves:
 	db MEGA_DRAIN
 	db HEALINGLIGHT
 	db ANCIENTPOWER
@@ -972,7 +972,7 @@ BonslyEggMoves:
 MimeJrEggMoves:
 	db CONFUSE_RAY
 	db FUTURE_SIGHT
-	db ERUMIASIS
+	db HYPNOSIS
 	db NASTY_PLOT
 	db TRICK
 	db $ff

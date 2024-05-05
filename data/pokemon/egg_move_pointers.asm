@@ -82,7 +82,7 @@ EggMovePointers::
 	dw NoEggMoves             ; CAlice
 	dw NoEggMoves             ; Alice
 	dw NoEggMoves             ; EAlice
-	dw FarfetchDPlainEggMoves ; FarfetchD
+	dw CMaiPlainEggMoves ; CMai
 	dw MaiEggMoves          ; Mai
 	dw NoEggMoves             ; EMai
 	dw CYukiEggMoves           ; CYuki
@@ -101,7 +101,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Daichan
 	dw NoEggMoves             ; EDaichan
 	dw NoEggMoves             ; CCirno
-	dw ExeggcuteEggMoves      ; Exeggcute
+	dw CirnoEggMoves      ; Cirno
 	dw NoEggMoves             ; Exeggutor
 	dw CuboneEggMoves         ; Cubone
 	dw NoEggMoves             ; Marowak
@@ -323,7 +323,7 @@ EggMovePointers::
 	dw NoEggMoves                ; Luize (Galarian Form)
 	dw ELuizeGalarianEggMoves  ; ELuize (Galarian Form)
 	dw NoEggMoves                ; CAlice (Galarian Form)
-	dw FarfetchDGalarianEggMoves ; Farfetch'D (Galarian Form)
+	dw CMaiGalarianEggMoves ; Farfetch'D (Galarian Form)
 	dw NoEggMoves                ; Weezing (Galarian Form)
 	dw NoEggMoves                ; Mr.Mime (Galarian Form)
 	dw NoEggMoves                ; Articuno (Galarian Form)

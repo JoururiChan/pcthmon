@@ -86,7 +86,7 @@ MiniIconPointers:
 	mini_icon CAlice
 	mini_icon Alice
 	mini_icon EAlice
-	mini_icon FarfetchD
+	mini_icon CMai
 	mini_icon Mai
 	mini_icon EMai
 	mini_icon CYuki
@@ -105,7 +105,7 @@ MiniIconPointers:
 	mini_icon Daichan
 	mini_icon EDaichan
 	mini_icon CCirno
-	mini_icon Exeggcute
+	mini_icon Cirno
 	mini_icon Exeggutor
 	mini_icon Cubone
 	mini_icon Marowak
@@ -374,7 +374,7 @@ endr
 	mini_icon LuizeGalarian
 	mini_icon ELuizeGalarian
 	mini_icon CAliceGalarian
-	mini_icon FarfetchDGalarian
+	mini_icon CMaiGalarian
 	mini_icon WeezingGalarian
 	mini_icon MrMimeGalarian
 	mini_icon ArticunoGalarian

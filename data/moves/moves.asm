@@ -139,7 +139,7 @@ endc
 	move TOXIC,        EFFECT_TOXIC,               0, POISON,     90, 10,   0, STATUS
 	move PSYSHOT,      EFFECT_CONFUSE_HIT,        50, PSYCHIC,   100, 25,  10, SPECIAL
 	move PSYCHIC_M,    EFFECT_SP_DEF_DOWN_HIT,    90, PSYCHIC,   100, 10,  10, SPECIAL
-	move ERUMIASIS,     EFFECT_SLEEP,               0, PSYCHIC,    60, 20,   0, STATUS
+	move HYPNOSIS,     EFFECT_SLEEP,               0, PSYCHIC,    60, 20,   0, STATUS
 	move HONE_TOOLS,   EFFECT_HONE_TOOLS,          0, STEEL,      -1, 40,   0, STATUS
 	move SAKUYA_WORLD, EFFECT_FREEZE_HIT,         40, ICE,        50,  5, 100, SPECIAL
 	move QUICK_ATTACK, EFFECT_PRIORITY_HIT,       40, NORMAL,    100, 30,   0, PHYSICAL

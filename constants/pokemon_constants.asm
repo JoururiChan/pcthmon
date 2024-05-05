@@ -123,7 +123,7 @@
 	const DAICHAN    ; 63
 	const EDAICHAN    ; 64
 	const CCIRNO  ; 65
-	const EXEGGCUTE  ; 66
+	const CIRNO  ; 66
 	const EXEGGUTOR  ; 67
 	const CUBONE     ; 68
 	const MAROWAK    ; 69

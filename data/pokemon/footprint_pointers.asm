@@ -82,7 +82,7 @@ FootprintPointers::
 	dw CAliceFootprint
 	dw AliceFootprint
 	dw EAliceFootprint
-	dw FarfetchDFootprint
+	dw CMaiFootprint
 	dw MaiFootprint
 	dw EMaiFootprint
 	dw CYukiFootprint
@@ -101,7 +101,7 @@ FootprintPointers::
 	dw DaichanFootprint
 	dw EDaichanFootprint
 	dw CCirnoFootprint
-	dw ExeggcuteFootprint
+	dw CirnoFootprint
 	dw ExeggutorFootprint
 	dw CuboneFootprint
 	dw MarowakFootprint
@@ -323,7 +323,7 @@ FootprintPointers::
 	dw LuizeFootprint
 	dw ELuizeFootprint
 	dw CAliceFootprint
-	dw FarfetchDFootprint
+	dw CMaiFootprint
 	dw WeezingFootprint
 	dw MrMimeFootprint
 	dw ArticunoFootprint

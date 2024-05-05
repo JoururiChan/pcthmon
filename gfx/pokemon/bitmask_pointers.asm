@@ -82,7 +82,7 @@ BitmasksPointers:
 	dw CAlicePlainBitmasks
 	dw AliceBitmasks
 	dw EAliceBitmasks
-	dw FarfetchDPlainBitmasks
+	dw CMaiPlainBitmasks
 	dw MaiBitmasks
 	dw EMaiBitmasks
 	dw CYukiBitmasks
@@ -101,7 +101,7 @@ BitmasksPointers:
 	dw DaichanBitmasks
 	dw EDaichanPlainBitmasks
 	dw CCirnoPlainBitmasks
-	dw ExeggcuteBitmasks
+	dw CirnoBitmasks
 	dw ExeggutorPlainBitmasks
 	dw CuboneBitmasks
 	dw MarowakPlainBitmasks
@@ -386,7 +386,7 @@ BitmasksPointers:
 	dw LuizeGalarianBitmasks
 	dw ELuizeGalarianBitmasks
 	dw CAliceGalarianBitmasks
-	dw FarfetchDGalarianBitmasks
+	dw CMaiGalarianBitmasks
 	dw WeezingGalarianBitmasks
 	dw MrMimeGalarianBitmasks
 	dw ArticunoGalarianBitmasks

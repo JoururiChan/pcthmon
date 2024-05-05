@@ -16,7 +16,7 @@ UsefulMoves:
 	db EARTHQUAKE
 	db TOXIC
 	db PSYCHIC_M
-	db ERUMIASIS
+	db HYPNOSIS
 	db WILL_O_WISP
 	db RECOVER
 	db HELL_TOKAMAK
