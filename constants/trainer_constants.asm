@@ -451,7 +451,7 @@ DEF CRYS EQU __trainer_class__
 	const MEADOW
 	const JENNIFER
 	const GINA
-	const ALICE
+	const ALICE_T
 	const DUPLICA
 
 	trainerclass BEAUTY ; 33
