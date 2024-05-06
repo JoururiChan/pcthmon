@@ -20,7 +20,7 @@ AbilityNames:
 	dw FlashFire
 	dw ShieldDust
 	dw OwnTempo
-	dw SuctionCups
+	dw GateKeeper
 	dw Intimidate
 	dw ShadowTag
 	dw Levitate
@@ -176,7 +176,7 @@ Immunity:        rawchar "Immunity@"
 FlashFire:       rawchar "Flash Fire@"
 ShieldDust:      rawchar "Shield Dust@"
 OwnTempo:        rawchar "Own Tempo@"
-SuctionCups:     rawchar "Suction Cups@"
+GateKeeper:     rawchar "Gate Keeper@"
 Intimidate:      rawchar "Intimidate@"
 ShadowTag:       rawchar "Shadow Tag@"
 Levitate:        rawchar "Levitate@"

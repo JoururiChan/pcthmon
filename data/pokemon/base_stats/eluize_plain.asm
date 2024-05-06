@@ -1,7 +1,7 @@
 	db  90,  65,  65,  15,  40,  40 ; 315 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, PSYCHIC ; type
+	db NORMAL, GHOST ; type
 	db 190 ; catch rate
 	db 99 ; base exp
 	db NO_ITEM, KINGS_ROCK ; held items

@@ -3,7 +3,7 @@ BattleCommand_roar:
 	cp BATTLETYPE_TRAP ; or BATTLETYPE_FORCEITEM, BATTLETYPE_RED_GYARADOS, BATTLETYPE_LEGENDARY
 	jr nc, .but_it_failed
 	call GetOpponentAbilityAfterMoldBreaker
-	cp SUCTION_CUPS
+	cp GATE_KEEPER
 	ld a, ATKFAIL_ABILITY
 	jr z, .fail
 	ld a, [wAttackMissed]

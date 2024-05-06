@@ -64,7 +64,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Substitute blocks sound-based moves.
 * Add: Gen III critical hit mechanics (ignore -Atk and +Def stat changes, don't ignore burn).
 * Add: Grass-type Tohomon are immune to Toxic Gas, Stun Spore, Sleep Powder, and Spore.
-* Add: Marowak is Ground/Ghost.
+* Add: Meiling is Ground/Ghost.
 * Add: EMarisa is Fire/Dragon.
 * Add: Yanmega is Bug/Dragon.
 * Add: Ampharos is Electric/Dragon.

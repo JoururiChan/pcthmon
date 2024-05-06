@@ -158,7 +158,7 @@ TrainerPicPointers::
 	dba OmastarFossilPic
 	dba KabutopsFossilPic
 	dba AerodactylFossilPic
-	dba CuboneArmorPic
+	dba CMeilingArmorPic
 	dba MeteoritePic
 	dba SilhouettePic
 	assert_table_length NUM_TRAINER_CLASS_PICS

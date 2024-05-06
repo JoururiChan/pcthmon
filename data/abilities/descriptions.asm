@@ -20,7 +20,7 @@ AbilityDescriptions:
 	dw FlashFireDescription
 	dw ShieldDustDescription
 	dw OwnTempoDescription
-	dw SuctionCupsDescription
+	dw GateKeeperDescription
 	dw IntimidateDescription
 	dw ShadowTagDescription
 	dw LevitateDescription
@@ -259,7 +259,7 @@ OwnTempoDescription:
 	next1 "becoming confused."
 	done
 
-SuctionCupsDescription:
+GateKeeperDescription:
 	text  "Negates forced"
 	next1 "switch-outs."
 	done

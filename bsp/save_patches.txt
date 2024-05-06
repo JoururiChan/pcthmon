@@ -604,8 +604,8 @@ ConvertMonIndexesTo9Bit:
 	; we do need to convert mon indexes to be 0-indexed, so it's effectively inclusive
 	dh 0x14, 0   ; CELIS
 	dh 0x16, 162 ; AZUMARILL
-	dh 0x6b, 0   ; HITMONCHAN
-	dh 0x74, 1   ; SEADRA
+	dh 0x6b, 0   ; CKOAKUMA
+	dh 0x74, 1   ; FLANDRE
 	dh 0x76, 58  ; TOGETIC
 	dh 0x77, 152 ; TOGEKISS
 	dh 0xac, 0   ; PICHU
@@ -688,15 +688,15 @@ ConvertMonIndexesTo9Bit:
 	db 0x4c, 2 ; ESARA, ALOLAN
 	db 0x58, 2 ; EYUKI, ALOLAN
 	db 0x59, 2 ; CYUMEKO, ALOLAN
-	db 0x67, 2 ; EXEGGUTOR, ALOLAN
-	db 0x69, 2 ; MAROWAK, ALOLAN
+	db 0x67, 2 ; ECIRNO, ALOLAN
+	db 0x69, 2 ; MEILING, ALOLAN
 	db 0x34, 3 ; ECHIYURI, GALARIAN
 	db 0x4d, 3 ; CLUIZE, GALARIAN
 	db 0x4e, 3 ; LUIZE, GALARIAN
 	db 0x4f, 3 ; ELUIZE, GALARIAN
 	db 0x50, 3 ; CALICE, GALARIAN
 	db 0x53, 3 ; CMAI, GALARIAN
-	db 0x6e, 3 ; WEEZING, GALARIAN
+	db 0x6e, 3 ; CPATCHOULI, GALARIAN
 	db 0x7a, 3 ; MR__MIME, GALARIAN
 	db 0x90, 3 ; ARTICUNO, GALARIAN
 	db 0x91, 3 ; ZAPDOS, GALARIAN
@@ -710,8 +710,8 @@ ConvertMonIndexesTo9Bit:
 ; converted to 0-indexed
 	db 0x14 ; ELIS
 	db 0x15 ; EELIS
-	db 0x6b ; LICKITUNG
-	db 0x75 ; GOLDEEN
+	db 0x6b ; KOAKUMA
+	db 0x75 ; EFLANDRE
 	db 0x76 ; SEAKING
 	db 0xac ; IGGLYBUFF
 	db 0xad ; CLEFFA

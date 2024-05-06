@@ -108,22 +108,22 @@ PokemonCries::
 	mon_cry CRY_EDAICHAN,     $0ed,  $100 ; EDaichan
 	mon_cry CRY_EDAICHAN,     $0a8,  $110 ; CCirno
 	mon_cry CRY_CCHIYURI,     $000,  $100 ; Cirno
-	mon_cry CRY_RUMIA,     $000,  $100 ; Exeggutor
-	mon_cry CRY_CMEIRA,    $000,  $100 ; Cubone
-	mon_cry CRY_EKOTOHIME,      $04f,  $0e0 ; Marowak
-	mon_cry CRY_ESARA,       $080,  $140 ; Hitmonlee
-	mon_cry CRY_CYUKI,        $0ee,  $140 ; Hitmonchan
-	mon_cry CRY_CYUKI,        $000,  $100 ; Lickitung
-	mon_cry CRY_ESARA,       $0e6,  $15d ; Koffing
-	mon_cry CRY_ESARA,       $0ff,  $17f ; Weezing
-	mon_cry CRY_CMARISA,  $000,  $100 ; Rhyhorn
-	mon_cry CRY_RHYDON,      $000,  $100 ; Rhydon
-	mon_cry CRY_CMIMA,   $00a,  $140 ; Chansey
-	mon_cry CRY_ESARA,       $000,  $100 ; Tangela
-	mon_cry CRY_KANGASKHAN,  $000,  $100 ; Kangaskhan
-	mon_cry CRY_CMEIRA,    $099,  $090 ; Horsea
-	mon_cry CRY_CMEIRA,    $03c,  $081 ; Seadra
-	mon_cry CRY_CGYOKU,    $080,  $0c0 ; Goldeen
+	mon_cry CRY_RUMIA,     $000,  $100 ; ECirno
+	mon_cry CRY_CMEIRA,    $000,  $100 ; CMeiling
+	mon_cry CRY_EKOTOHIME,      $04f,  $0e0 ; Meiling
+	mon_cry CRY_ESARA,       $080,  $140 ; EMeiling
+	mon_cry CRY_CYUKI,        $0ee,  $140 ; CKoakuma
+	mon_cry CRY_CYUKI,        $000,  $100 ; Koakuma
+	mon_cry CRY_ESARA,       $0e6,  $15d ; EKoakuma
+	mon_cry CRY_ESARA,       $0ff,  $17f ; CPatchouli
+	mon_cry CRY_CMARISA,  $000,  $100 ; Patchouli
+	mon_cry CRY_EPATCHOULI,      $000,  $100 ; EPatchouli
+	mon_cry CRY_CMIMA,   $00a,  $140 ; CRemilia
+	mon_cry CRY_ESARA,       $000,  $100 ; Remilia
+	mon_cry CRY_EREMILIA,  $000,  $100 ; ERemilia
+	mon_cry CRY_CMEIRA,    $099,  $090 ; CFlandre
+	mon_cry CRY_CMEIRA,    $03c,  $081 ; Flandre
+	mon_cry CRY_CGYOKU,    $080,  $0c0 ; EFlandre
 	mon_cry CRY_CGYOKU,    $010,  $17f ; Seaking
 	mon_cry CRY_EKANA,       $002,  $0a0 ; Staryu
 	mon_cry CRY_EKANA,       $000,  $100 ; Starmie
@@ -272,7 +272,7 @@ PokemonCries::
 	mon_cry CRY_WOOPER,      $053,  $0af ; Weavile
 	mon_cry CRY_MGYOKU,     $020,  $140 ; Magnezone
 	mon_cry CRY_CYUKI,        $000,  $100 ; Lickilicky
-	mon_cry CRY_RHYDON,      $000,  $100 ; Rhyperior
+	mon_cry CRY_EPATCHOULI,      $000,  $100 ; Rhyperior
 	mon_cry CRY_ESARA,       $000,  $100 ; Tangrowth
 	mon_cry CRY_EDAICHAN,     $08f,  $17f ; Electivire
 	mon_cry CRY_CMARISA,  $0ff,  $0b0 ; Magmortar

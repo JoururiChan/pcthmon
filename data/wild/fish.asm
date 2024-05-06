@@ -71,24 +71,24 @@ ENDM
 .Well_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
 	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     GOLDEEN,    10
+	fishentry 100 percent,     EFLANDRE,    10
 .Lake_Good:
 .River_Good:
 .Well_Good:
 	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     GOLDEEN,    20
-	fishentry  90 percent + 1, GOLDEEN,    20
-	fishentry 100 percent,     GOLDEEN,    20
+	fishentry  70 percent,     EFLANDRE,    20
+	fishentry  90 percent + 1, EFLANDRE,    20
+	fishentry 100 percent,     EFLANDRE,    20
 .Lake_Super:
 .River_Super:
-	fishentry  40 percent,     GOLDEEN,    40
-	fishentry  70 percent,     GOLDEEN,    40
+	fishentry  40 percent,     EFLANDRE,    40
+	fishentry  70 percent,     EFLANDRE,    40
 	fishentry  90 percent + 1, MAGIKARP,   40
 	fishentry 100 percent,     SEAKING,    40
 
 .Well_Super:
-	fishentry  40 percent,     GOLDEEN,    40
-	fishentry  70 percent,     GOLDEEN,    40
+	fishentry  40 percent,     EFLANDRE,    40
+	fishentry  70 percent,     EFLANDRE,    40
 	fishentry  90 percent + 1, YUMEKO,   40
 	fishentry 100 percent,     SEAKING,    40
 
@@ -190,12 +190,12 @@ ENDM
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     CDAICHAN,     20
 	fishentry  90 percent + 1, CDAICHAN,     20
-	fishentry 100 percent,     HORSEA,     20
+	fishentry 100 percent,     CFLANDRE,     20
 .WhirlIslands_Super:
 	fishentry  40 percent,     CDAICHAN,     40
-	fishentry  70 percent,     HORSEA,     40
+	fishentry  70 percent,     CFLANDRE,     40
 	fishentry  90 percent + 1, DAICHAN,    40
-	fishentry 100 percent,     SEADRA,     40
+	fishentry 100 percent,     FLANDRE,     40
 
 .Qwilfish_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
@@ -234,11 +234,11 @@ ENDM
 .Hisuian_Qwilfish_Good:
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     GENGETSU,  20
-	fishentry  90 percent + 1, HORSEA,     20
+	fishentry  90 percent + 1, CFLANDRE,     20
 	fishentry 100 percent,     QWILFISH,   HISUIAN_FORM,   20
 .Hisuian_Qwilfish_Super:
 	fishentry  40 percent,     EGENGETSU, 40
-	fishentry  70 percent,     SEADRA,     40
+	fishentry  70 percent,     FLANDRE,     40
 	fishentry  90 percent + 1, QWILFISH,   HISUIAN_FORM,   40
 	fishentry 100 percent,     OVERQWIL,   40
 

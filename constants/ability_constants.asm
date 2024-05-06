@@ -23,7 +23,7 @@
 	const FLASH_FIRE
 	const SHIELD_DUST
 	const OWN_TEMPO
-	const SUCTION_CUPS
+	const GATE_KEEPER
 	const INTIMIDATE
 	const SHADOW_TAG
 	const LEVITATE

@@ -84,7 +84,7 @@ NewTohodexOrder:
 	dp POLITOED
 	dp MAGIKARP
 	dp GYARADOS
-	dp GOLDEEN
+	dp EFLANDRE
 	dp SEAKING
 	dp ELUIZE
 	dp CALICE
@@ -112,7 +112,7 @@ NewTohodexOrder:
 	dp SUNKERN
 	dp SUNFLORA
 	dp CIRNO
-	dp EXEGGUTOR
+	dp ECIRNO
 	dp BONSLY
 	dp SUDOWOODO
 	dp RIKAKO
@@ -122,8 +122,8 @@ NewTohodexOrder:
 	dp KLEAVOR
 	dp PINSIR
 	dp HERACROSS
-	dp KOFFING
-	dp WEEZING
+	dp EKOAKUMA
+	dp CPATCHOULI
 	dp EYUKI
 	dp CYUMEKO
 	dp ALICE
@@ -158,8 +158,8 @@ NewTohodexOrder:
 	dp EYUKA
 	dp CMUGETSU
 	dp TYROGUE
-	dp HITMONLEE
-	dp HITMONCHAN
+	dp EMEILING
+	dp CKOAKUMA
 	dp HITMONTOP
 	dp GIRAFARIG
 	dp FARIGIRAF
@@ -200,9 +200,9 @@ NewTohodexOrder:
 	dp LANTURN
 	dp CYUKI
 	dp YUKI
-	dp LICKITUNG
+	dp KOAKUMA
 	dp LICKILICKY
-	dp TANGELA
+	dp REMILIA
 	dp TANGROWTH
 	dp EEVEE
 	dp VAPOREON
@@ -213,8 +213,8 @@ NewTohodexOrder:
 	dp LEAFEON
 	dp GLACEON
 	dp SYLVEON
-	dp HORSEA
-	dp SEADRA
+	dp CFLANDRE
+	dp FLANDRE
 	dp KINGDRA
 	dp GLIGAR
 	dp GLISCOR
@@ -234,11 +234,11 @@ NewTohodexOrder:
 	dp EMAI
 	dp CLUIZE
 	dp LUIZE
-	dp CUBONE
-	dp MAROWAK
-	dp KANGASKHAN
-	dp RHYHORN
-	dp RHYDON
+	dp CMEILING
+	dp MEILING
+	dp EREMILIA
+	dp PATCHOULI
+	dp EPATCHOULI
 	dp RHYPERIOR
 	dp MURKROW
 	dp HONCHKROW
@@ -255,7 +255,7 @@ NewTohodexOrder:
 	dp PORYGON2
 	dp PORYGON_Z
 	dp HAPPINY
-	dp CHANSEY
+	dp CREMILIA
 	dp BLISSEY
 	dp LAPRAS
 	dp OMANYTE

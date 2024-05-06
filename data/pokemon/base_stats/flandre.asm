@@ -7,7 +7,7 @@
 	db NO_ITEM, DRAGON_SCALE ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for SEADRA, POISON_POINT, SNIPER, DAMP
+	abilities_for FLANDRE, POISON_POINT, SNIPER, DAMP
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_1, EGG_DRAGON ; egg groups
 

@@ -1,11 +1,7 @@
 	db  65, 100,  70, 105,  80,  80 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 
-if DEF(FAITHFUL)
-	db FIRE, FIRE ; type
-else
-	db FIRE, FAIRY ; type
-endc
+	db NORMAL, NORMAL ; type
 	db 60 ; catch rate
 	db 192 ; base exp
 	db NO_ITEM, MARANGABERRY ; held items

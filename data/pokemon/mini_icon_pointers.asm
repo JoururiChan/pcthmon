@@ -106,22 +106,22 @@ MiniIconPointers:
 	mini_icon EDaichan
 	mini_icon CCirno
 	mini_icon Cirno
-	mini_icon Exeggutor
-	mini_icon Cubone
-	mini_icon Marowak
-	mini_icon Hitmonlee
-	mini_icon Hitmonchan
-	mini_icon Lickitung
-	mini_icon Koffing
-	mini_icon Weezing
-	mini_icon Rhyhorn
-	mini_icon Rhydon
-	mini_icon Chansey
-	mini_icon Tangela
-	mini_icon Kangaskhan
-	mini_icon Horsea
-	mini_icon Seadra
-	mini_icon Goldeen
+	mini_icon ECirno
+	mini_icon CMeiling
+	mini_icon Meiling
+	mini_icon EMeiling
+	mini_icon CKoakuma
+	mini_icon Koakuma
+	mini_icon EKoakuma
+	mini_icon CPatchouli
+	mini_icon Patchouli
+	mini_icon EPatchouli
+	mini_icon CRemilia
+	mini_icon Remilia
+	mini_icon ERemilia
+	mini_icon CFlandre
+	mini_icon Flandre
+	mini_icon EFlandre
 	mini_icon Seaking
 	mini_icon Staryu
 	mini_icon Starmie
@@ -366,8 +366,8 @@ endr
 	mini_icon ESaraAlolan
 	mini_icon EYukiAlolan
 	mini_icon CYumekoAlolan
-	mini_icon ExeggutorAlolan
-	mini_icon MarowakAlolan
+	mini_icon ECirnoAlolan
+	mini_icon MeilingAlolan
 
 	mini_icon EChiyuriGalarian
 	mini_icon CLuizeGalarian
@@ -375,7 +375,7 @@ endr
 	mini_icon ELuizeGalarian
 	mini_icon CAliceGalarian
 	mini_icon CMaiGalarian
-	mini_icon WeezingGalarian
+	mini_icon CPatchouliGalarian
 	mini_icon MrMimeGalarian
 	mini_icon ArticunoGalarian
 	mini_icon ZapdosGalarian

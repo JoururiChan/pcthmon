@@ -1011,7 +1011,7 @@ ThickClubDesc:
 
 LuckyPunchDesc:
 	text "Ups critical hit"
-	next "ratio of Chansey."
+	next "ratio of CRemilia."
 	done
 
 MetalPowderDesc:

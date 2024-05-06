@@ -453,8 +453,8 @@ KabutopsFossilPic: INCBIN "gfx/trainers/kabutops_fossil.2bpp.lz"
 SECTION "AerodactylFossilPic", ROMX
 AerodactylFossilPic: INCBIN "gfx/trainers/aerodactyl_fossil.2bpp.lz"
 
-SECTION "CuboneArmorPic", ROMX
-CuboneArmorPic: INCBIN "gfx/trainers/cubone_armor.2bpp.lz"
+SECTION "CMeilingArmorPic", ROMX
+CMeilingArmorPic: INCBIN "gfx/trainers/cmeiling_armor.2bpp.lz"
 
 SECTION "MeteoritePic", ROMX
 MeteoritePic: INCBIN "gfx/trainers/meteorite.2bpp.lz"

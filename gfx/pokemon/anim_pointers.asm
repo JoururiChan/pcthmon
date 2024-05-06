@@ -102,22 +102,22 @@ AnimationPointers:
 	dw EDaichanPlainAnimation
 	dw CCirnoPlainAnimation
 	dw CirnoAnimation
-	dw ExeggutorPlainAnimation
-	dw CuboneAnimation
-	dw MarowakPlainAnimation
-	dw HitmonleeAnimation
-	dw HitmonchanAnimation
-	dw LickitungAnimation
-	dw KoffingAnimation
-	dw WeezingPlainAnimation
-	dw RhyhornAnimation
-	dw RhydonAnimation
-	dw ChanseyAnimation
-	dw TangelaAnimation
-	dw KangaskhanAnimation
-	dw HorseaAnimation
-	dw SeadraAnimation
-	dw GoldeenAnimation
+	dw ECirnoPlainAnimation
+	dw CMeilingAnimation
+	dw MeilingPlainAnimation
+	dw EMeilingAnimation
+	dw CKoakumaAnimation
+	dw KoakumaAnimation
+	dw EKoakumaAnimation
+	dw CPatchouliPlainAnimation
+	dw PatchouliAnimation
+	dw EPatchouliAnimation
+	dw CRemiliaAnimation
+	dw RemiliaAnimation
+	dw ERemiliaAnimation
+	dw CFlandreAnimation
+	dw FlandreAnimation
+	dw EFlandreAnimation
 	dw SeakingAnimation
 	dw StaryuAnimation
 	dw StarmieAnimation
@@ -378,8 +378,8 @@ AnimationPointers:
 	dw ESaraAlolanAnimation
 	dw EYukiAlolanAnimation
 	dw CYumekoAlolanAnimation
-	dw ExeggutorAlolanAnimation
-	dw MarowakAlolanAnimation
+	dw ECirnoAlolanAnimation
+	dw MeilingAlolanAnimation
 
 	dw EChiyuriGalarianAnimation
 	dw CLuizeGalarianAnimation
@@ -387,7 +387,7 @@ AnimationPointers:
 	dw ELuizeGalarianAnimation
 	dw CAliceGalarianAnimation
 	dw CMaiGalarianAnimation
-	dw WeezingGalarianAnimation
+	dw CPatchouliGalarianAnimation
 	dw MrMimeGalarianAnimation
 	dw ArticunoGalarianAnimation
 	dw ZapdosGalarianAnimation

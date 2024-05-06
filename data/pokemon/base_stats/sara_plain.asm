@@ -1,17 +1,17 @@
-	db  55,  95, 115,  35,  45,  45 ; 390 BST
+	db  35,  80, 39,  57,  23,  23 ; 300 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db FIGHTING, FIGHTING ; type
-	db 120 ; catch rate
-	db 134 ; base exp
+	db 230 ; catch rate
+	db 89 ; base exp
 	db NO_ITEM, EVERSTONE ; held items
-	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-	abilities_for SARA, ROCK_HEAD, STURDY, SAND_VEIL
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_MINERAL, EGG_MINERAL ; egg groups
+	abilities_for SARA, GATE_KEEPER, GATE_KEEPER, GUTS
+	db GROWTH_FAST ; growth rate
+	dn EGG_MONSTER, EGG_FIELD ; egg groups
 
-	ev_yield 2 Def
+	ev_yield 2 Atk
 
 	; tm/hm learnset
 	tmhm DYNAMICPUNCH, CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, PROTECT, BULLDOZE, EARTHQUAKE, RETURN, DIG, ROCK_SMASH, DOUBLE_TEAM, METEOR_FALL, SANDSTORM, HELL_TOKAMAK, SUBSTITUTE, FACADE, REST, ATTRACT, ROCK_SLIDE, EXPLOSION, STONE_EDGE, GYRO_BALL, STRENGTH, BODY_SLAM, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, EARTH_POWER, ENDURE, FIRE_PUNCH, HEADBUTT, ROLLOUT, SEISMIC_TOSS, SLEEP_TALK, SUCKER_PUNCH, SWAGGER, THUNDERPUNCH

@@ -7,7 +7,7 @@
 	db NO_ITEM, MARANGABERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for EXEGGUTOR, CHLOROPHYLL, CHLOROPHYLL, HARVEST
+	abilities_for ECIRNO, CHLOROPHYLL, CHLOROPHYLL, HARVEST
 	db GROWTH_SLOW ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 

@@ -103,22 +103,22 @@ TohodexDataPointerTable:
 	dba EDaichanTohodexEntry
 	dba CCirnoTohodexEntry
 	dba CirnoTohodexEntry
-	dba ExeggutorPlainTohodexEntry
-	dba CuboneTohodexEntry
-	dba MarowakPlainTohodexEntry
-	dba HitmonleeTohodexEntry
-	dba HitmonchanTohodexEntry
-	dba LickitungTohodexEntry
-	dba KoffingTohodexEntry
-	dba WeezingPlainTohodexEntry
-	dba RhyhornTohodexEntry
-	dba RhydonTohodexEntry
-	dba ChanseyTohodexEntry
-	dba TangelaTohodexEntry
-	dba KangaskhanTohodexEntry
-	dba HorseaTohodexEntry
-	dba SeadraTohodexEntry
-	dba GoldeenTohodexEntry
+	dba ECirnoPlainTohodexEntry
+	dba CMeilingTohodexEntry
+	dba MeilingPlainTohodexEntry
+	dba EMeilingTohodexEntry
+	dba CKoakumaTohodexEntry
+	dba KoakumaTohodexEntry
+	dba EKoakumaTohodexEntry
+	dba CPatchouliPlainTohodexEntry
+	dba PatchouliTohodexEntry
+	dba EPatchouliTohodexEntry
+	dba CRemiliaTohodexEntry
+	dba RemiliaTohodexEntry
+	dba ERemiliaTohodexEntry
+	dba CFlandreTohodexEntry
+	dba FlandreTohodexEntry
+	dba EFlandreTohodexEntry
 	dba SeakingTohodexEntry
 	dba StaryuTohodexEntry
 	dba StarmieTohodexEntry
@@ -316,8 +316,8 @@ TohodexDataPointerTable:
 	dba ESaraAlolanTohodexEntry
 	dba EYukiAlolanTohodexEntry
 	dba CYumekoAlolanTohodexEntry
-	dba ExeggutorAlolanTohodexEntry
-	dba MarowakAlolanTohodexEntry
+	dba ECirnoAlolanTohodexEntry
+	dba MeilingAlolanTohodexEntry
 
 	dba EChiyuriGalarianTohodexEntry
 	dba CLuizeGalarianTohodexEntry
@@ -325,7 +325,7 @@ TohodexDataPointerTable:
 	dba ELuizeGalarianTohodexEntry
 	dba CAliceGalarianTohodexEntry
 	dba CMaiGalarianTohodexEntry
-	dba WeezingGalarianTohodexEntry
+	dba CPatchouliGalarianTohodexEntry
 	dba MrMimeGalarianTohodexEntry
 	dba ArticunoGalarianTohodexEntry
 	dba ZapdosGalarianTohodexEntry

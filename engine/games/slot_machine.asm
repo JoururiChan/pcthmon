@@ -692,8 +692,8 @@ ReelActionJumptable:
 	dw ReelAction_InitESara                   ; 12
 	dw ReelAction_WaitESara                   ; 13
 	dw ReelAction_EndESara                    ; 14
-	dw Slots_InitChansey                      ; 15
-	dw ReelAction_WaitChansey                 ; 16
+	dw Slots_InitCRemilia                      ; 15
+	dw ReelAction_WaitCRemilia                 ; 16
 	dw ReelAction_WaitEgg                     ; 17
 	dw ReelAction_DropReel                    ; 18
 
@@ -935,7 +935,7 @@ ReelAction_EndESara:
 	ld [hl], $0
 	ret
 
-Slots_InitChansey:
+Slots_InitCRemilia:
 	call Slots_CheckMatchedAllThreeReels
 	ret c
 	ld a, SFX_STOP_SLOT
@@ -949,14 +949,14 @@ Slots_InitChansey:
 	ld [hl], $0
 	push bc
 	depixel 12, 0
-	ld a, SPRITE_ANIM_INDEX_SLOTS_CHANSEY
+	ld a, SPRITE_ANIM_INDEX_SLOTS_CREMILIA
 	call InitSpriteAnimStruct
 	pop bc
 	xor a
 	ld [wSlotsDelay], a
 	ret
 
-ReelAction_WaitChansey:
+ReelAction_WaitCRemilia:
 	ld a, [wSlotsDelay]
 	and a
 	ret z
@@ -1750,7 +1750,7 @@ SlotMachine_AnimateESara:
 	ldh [hSCY], a
 	ret
 
-Slots_AnimateChansey:
+Slots_AnimateCRemilia:
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc
 	ld a, [hl]

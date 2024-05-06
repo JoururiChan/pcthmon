@@ -7,7 +7,7 @@
 	db NO_ITEM, SITRUS_BERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for EXEGGUTOR_ALOLAN, FRISK, FRISK, HARVEST
+	abilities_for ECIRNO_ALOLAN, FRISK, FRISK, HARVEST
 	db GROWTH_SLOW ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 

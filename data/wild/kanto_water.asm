@@ -2,7 +2,7 @@
 
 	def_water_wildmons TOHJO_FALLS
 	db 4 percent ; encounter rate
-	wildmon  20, GOLDEEN
+	wildmon  20, EFLANDRE
 	wildmon  20, ELUIZE
 	wildmon  20, SEAKING
 	end_water_wildmons
@@ -16,9 +16,9 @@
 
 	def_water_wildmons ROUTE_4
 	db 4 percent ; encounter rate
-	wildmon  55, GOLDEEN
+	wildmon  55, EFLANDRE
 	wildmon  60, SEAKING
-	wildmon  55, GOLDEEN
+	wildmon  55, EFLANDRE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_6
@@ -30,15 +30,15 @@
 
 	def_water_wildmons ROUTE_9
 	db 4 percent ; encounter rate
-	wildmon  47, GOLDEEN
-	wildmon  42, GOLDEEN
+	wildmon  47, EFLANDRE
+	wildmon  42, EFLANDRE
 	wildmon  47, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_10_NORTH
 	db 4 percent ; encounter rate
-	wildmon  47, GOLDEEN
-	wildmon  47, GOLDEEN
+	wildmon  47, EFLANDRE
+	wildmon  47, EFLANDRE
 	wildmon  52, SEAKING
 	end_water_wildmons
 
@@ -122,14 +122,14 @@
 	def_water_wildmons ROUTE_24
 	db 4 percent ; encounter rate
 	wildmon  48, MAGIKARP
-	wildmon  50, GOLDEEN
+	wildmon  50, EFLANDRE
 	wildmon  52, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_25
 	db 4 percent ; encounter rate
 	wildmon  48, MAGIKARP
-	wildmon  50, GOLDEEN
+	wildmon  50, EFLANDRE
 	wildmon  52, SEAKING
 	end_water_wildmons
 
@@ -170,8 +170,8 @@
 
 	def_water_wildmons CERULEAN_CITY
 	db 4 percent ; encounter rate
-	wildmon  55, GOLDEEN
-	wildmon  50, GOLDEEN
+	wildmon  55, EFLANDRE
+	wildmon  50, EFLANDRE
 	wildmon  55, SEAKING
 	end_water_wildmons
 
@@ -283,7 +283,7 @@
 	def_water_wildmons SEAFOAM_ISLANDS_B4F
 	db 6 percent ; encounter rate
 	wildmon  55, CYUKI
-	wildmon  55, HORSEA
+	wildmon  55, CFLANDRE
 	wildmon  60, CALICE
 	end_water_wildmons
 

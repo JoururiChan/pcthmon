@@ -584,8 +584,8 @@ PiersSpriteGFX:: INCBIN "gfx/sprites/piers.2bpp.lz"
 SECTION "KatySpriteGFX", ROMX
 KatySpriteGFX:: INCBIN "gfx/sprites/katy.2bpp.lz"
 
-SECTION "AlolanExeggutorSpriteGFX", ROMX
-AlolanExeggutorSpriteGFX:: INCBIN "gfx/sprites/alolan_exeggutor.2bpp.lz"
+SECTION "AlolanECirnoSpriteGFX", ROMX
+AlolanECirnoSpriteGFX:: INCBIN "gfx/sprites/alolan_ecirno.2bpp.lz"
 
 SECTION "CrysSpriteGFX", ROMX
 CrysSpriteGFX:: INCBIN "gfx/sprites/crys.2bpp.lz"

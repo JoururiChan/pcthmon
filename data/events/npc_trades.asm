@@ -19,7 +19,7 @@ NPCTrades:
 ; NPC_TRADE_TIM in Olivine City
 	db TRADE_DIALOGSET_HAPPY
 	dp STEELIX, NO_FORM ; wants
-	dp KANGASKHAN, MALE ; gives
+	dp EREMILIA, MALE ; gives
 	rawchar "Joey@@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_ATK_UP_SPE_DOWN,   HEAVY_BALL,   SILK_SCARF
 	dw 29189
@@ -43,7 +43,7 @@ NPCTrades:
 ; NPC_TRADE_KIM in Route 14
 	db TRADE_DIALOGSET_GIRL
 	dp WOBBUFFET, NO_FORM ; wants
-	dp CHANSEY, FEMALE    ; gives
+	dp CREMILIA, FEMALE    ; gives
 	rawchar "Chance@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SDEF_UP_ATK_DOWN,  HEAL_BALL,    LUCKY_EGG
 	dw 26491
@@ -67,7 +67,7 @@ NPCTrades:
 ; NPC_TRADE_JEEVES
 	db TRADE_DIALOGSET_COLLECTOR
 	dp CLUIZE, NO_FORM               ; wants
-	dp WEEZING, GALARIAN_FORM | MALE ; gives
+	dp CPATCHOULI, GALARIAN_FORM | MALE ; gives
 	rawchar "Batty@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_DEF_UP_ATK_DOWN,   DREAM_BALL,   CHARCOAL
 	dw 08922

@@ -400,7 +400,7 @@ CirnoEggMoves:
 	db REFLECT
 	db $ff
 
-CuboneEggMoves:
+CMeilingEggMoves:
 	db ANCIENTPOWER
 	db BELLY_DRUM
 	db DOUBLE_KICK
@@ -411,18 +411,18 @@ CuboneEggMoves:
 	db IRON_HEAD
 	db $ff
 
-LickitungEggMoves:
+KoakumaEggMoves:
 	db THRASH
 	db $ff
 
-KoffingEggMoves:
+EKoakumaEggMoves:
 	db PSYBEAM
 	db SCREECH
 	db DESTINY_BOND
 	db LIFE_BALANCE
 	db $ff
 
-RhyhornEggMoves:
+PatchouliEggMoves:
 	db CRUNCH
 	db MAGNITUDE
 	db PURSUIT
@@ -432,13 +432,13 @@ RhyhornEggMoves:
 	db COUNTER
 	db $ff
 
-TangelaEggMoves:
+RemiliaEggMoves:
 	db PSYSHOT
 	db AMNESIA
 	db LEECH_SEED
 	db $ff
 
-KangaskhanEggMoves:
+ERemiliaEggMoves:
 	db DISABLE
 	db FOCUS_ENERGY
 	db FORESIGHT
@@ -446,7 +446,7 @@ KangaskhanEggMoves:
 	db SAFEGUARD
 	db $ff
 
-HorseaEggMoves:
+CFlandreEggMoves:
 	db AURORA_BEAM
 	db DISABLE
 	db DRAGON_RAGE
@@ -457,7 +457,7 @@ HorseaEggMoves:
 	db WATER_PULSE
 	db $ff
 
-GoldeenEggMoves:
+EFlandreEggMoves:
 	db AQUA_TAIL
 	db HYDRO_PUMP
 	db PSYBEAM

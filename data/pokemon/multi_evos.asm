@@ -24,8 +24,8 @@ MultipleEvolutions:
 	multi_evo ELUIZE, GALARIAN_FORM, EVOLVE_ELUIZE_GALARIAN
 	multi_evo EALICE
 	multi_evo CIRNO
-	multi_evo KOFFING
-	multi_evo CUBONE
+	multi_evo EKOAKUMA
+	multi_evo CMEILING
 	multi_evo SCYTHER
 	multi_evo EEVEE
 	multi_evo MIME_JR_

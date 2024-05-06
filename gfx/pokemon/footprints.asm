@@ -40,15 +40,15 @@ CirnoFootprint::
 ForretressFootprint::
 CShinkiFootprint::
 CSaraFootprint::
-GoldeenFootprint::
+EFlandreFootprint::
 EYukiFootprint::
 GyaradosFootprint::
 ShinkiFootprint::
-HorseaFootprint::
+CFlandreFootprint::
 JynxFootprint::
 CMaganFootprint::
 KingdraFootprint::
-KoffingFootprint::
+EKoakumaFootprint::
 LanturnFootprint::
 LaprasFootprint::
 MagcargoFootprint::
@@ -66,7 +66,7 @@ PinecoFootprint::
 PupitarFootprint::
 QwilfishFootprint::
 RemoraidFootprint::
-SeadraFootprint::
+FlandreFootprint::
 SeakingFootprint::
 CYukiFootprint::
 YumekoFootprint::
@@ -79,7 +79,7 @@ UnownFootprint::
 CGengetsuFootprint::
 EDaichanFootprint::
 EMugetsuFootprint::
-WeezingFootprint::
+CPatchouliFootprint::
 CKotohimeFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
 
 CReimuFootprint:: INCBIN "gfx/footprints/creimu.1bpp.lz"
@@ -155,17 +155,17 @@ RumiaFootprint:: INCBIN "gfx/footprints/rumia.1bpp.lz"
 ERumiaFootprint:: INCBIN "gfx/footprints/erumia.1bpp.lz"
 CDaichanFootprint:: INCBIN "gfx/footprints/cdaichan.1bpp.lz"
 DaichanFootprint:: INCBIN "gfx/footprints/daichan.1bpp.lz"
-ExeggutorFootprint:: INCBIN "gfx/footprints/exeggutor.1bpp.lz"
-CuboneFootprint:: INCBIN "gfx/footprints/cubone.1bpp.lz"
-MarowakFootprint:: INCBIN "gfx/footprints/marowak.1bpp.lz"
-HitmonleeFootprint:: INCBIN "gfx/footprints/hitmonlee.1bpp.lz"
-HitmonchanFootprint:: INCBIN "gfx/footprints/hitmonchan.1bpp.lz"
-LickitungFootprint:: INCBIN "gfx/footprints/lickitung.1bpp.lz"
-RhyhornFootprint:: INCBIN "gfx/footprints/rhyhorn.1bpp.lz"
-RhydonFootprint:: INCBIN "gfx/footprints/rhydon.1bpp.lz"
-ChanseyFootprint:: INCBIN "gfx/footprints/chansey.1bpp.lz"
-TangelaFootprint:: INCBIN "gfx/footprints/tangela.1bpp.lz"
-KangaskhanFootprint:: INCBIN "gfx/footprints/kangaskhan.1bpp.lz"
+ECirnoFootprint:: INCBIN "gfx/footprints/ecirno.1bpp.lz"
+CMeilingFootprint:: INCBIN "gfx/footprints/cmeiling.1bpp.lz"
+MeilingFootprint:: INCBIN "gfx/footprints/meiling.1bpp.lz"
+EMeilingFootprint:: INCBIN "gfx/footprints/emeiling.1bpp.lz"
+CKoakumaFootprint:: INCBIN "gfx/footprints/ckoakuma.1bpp.lz"
+KoakumaFootprint:: INCBIN "gfx/footprints/koakuma.1bpp.lz"
+PatchouliFootprint:: INCBIN "gfx/footprints/patchouli.1bpp.lz"
+EPatchouliFootprint:: INCBIN "gfx/footprints/epatchouli.1bpp.lz"
+CRemiliaFootprint:: INCBIN "gfx/footprints/cremilia.1bpp.lz"
+RemiliaFootprint:: INCBIN "gfx/footprints/remilia.1bpp.lz"
+ERemiliaFootprint:: INCBIN "gfx/footprints/eremilia.1bpp.lz"
 MrMimeFootprint:: INCBIN "gfx/footprints/mr__mime.1bpp.lz"
 ScytherFootprint:: INCBIN "gfx/footprints/scyther.1bpp.lz"
 ElectabuzzFootprint:: INCBIN "gfx/footprints/electabuzz.1bpp.lz"

@@ -102,22 +102,22 @@ FootprintPointers::
 	dw EDaichanFootprint
 	dw CCirnoFootprint
 	dw CirnoFootprint
-	dw ExeggutorFootprint
-	dw CuboneFootprint
-	dw MarowakFootprint
-	dw HitmonleeFootprint
-	dw HitmonchanFootprint
-	dw LickitungFootprint
-	dw KoffingFootprint
-	dw WeezingFootprint
-	dw RhyhornFootprint
-	dw RhydonFootprint
-	dw ChanseyFootprint
-	dw TangelaFootprint
-	dw KangaskhanFootprint
-	dw HorseaFootprint
-	dw SeadraFootprint
-	dw GoldeenFootprint
+	dw ECirnoFootprint
+	dw CMeilingFootprint
+	dw MeilingFootprint
+	dw EMeilingFootprint
+	dw CKoakumaFootprint
+	dw KoakumaFootprint
+	dw EKoakumaFootprint
+	dw CPatchouliFootprint
+	dw PatchouliFootprint
+	dw EPatchouliFootprint
+	dw CRemiliaFootprint
+	dw RemiliaFootprint
+	dw ERemiliaFootprint
+	dw CFlandreFootprint
+	dw FlandreFootprint
+	dw EFlandreFootprint
 	dw SeakingFootprint
 	dw StaryuFootprint
 	dw StarmieFootprint
@@ -315,8 +315,8 @@ FootprintPointers::
 	dw ESaraFootprint
 	dw EYukiFootprint
 	dw CYumekoFootprint
-	dw ExeggutorFootprint
-	dw MarowakFootprint
+	dw ECirnoFootprint
+	dw MeilingFootprint
 
 	dw EChiyuriFootprint
 	dw CLuizeFootprint
@@ -324,7 +324,7 @@ FootprintPointers::
 	dw ELuizeFootprint
 	dw CAliceFootprint
 	dw CMaiFootprint
-	dw WeezingFootprint
+	dw CPatchouliFootprint
 	dw MrMimeFootprint
 	dw ArticunoFootprint
 	dw ZapdosFootprint

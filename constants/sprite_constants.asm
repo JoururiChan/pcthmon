@@ -197,7 +197,7 @@
 	const SPRITE_BEACH_GIRL ; c1
 	const SPRITE_PIERS ; c2
 	const SPRITE_KATY ; c3
-	const SPRITE_ALOLAN_EXEGGUTOR ; c4
+	const SPRITE_ALOLAN_ECIRNO ; c4
 	const SPRITE_SOLDIER ; c5
 	const SPRITE_CRYS ; c6
 	const SPRITE_CRYS_BIKE ; c7

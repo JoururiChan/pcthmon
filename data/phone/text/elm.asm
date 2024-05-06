@@ -420,7 +420,7 @@ ElmPhoneEvoText_Cirno:
 	cont "an Odd Souvenir."
 	prompt
 
-ElmPhoneEvoText_Koffing:
+ElmPhoneEvoText_EKoakuma:
 	text_ram wStringBuffer3
 	line "evolves when it"
 	cont "reaches level 35,"
@@ -430,7 +430,7 @@ ElmPhoneEvoText_Koffing:
 	cont "ing Charcoal."
 	prompt
 
-ElmPhoneEvoText_Cubone:
+ElmPhoneEvoText_CMeiling:
 	text_ram wStringBuffer3
 	line "evolves at level"
 	cont "28, or when it's"

@@ -515,9 +515,9 @@ MACRO stairs_step_right
 	db movement_stairs_step_right ; $65
 ENDM
 
-	const movement_exeggutor_shake
-MACRO exeggutor_shake
-	db movement_exeggutor_shake ; $66
+	const movement_ecirno_shake
+MACRO ecirno_shake
+	db movement_ecirno_shake ; $66
 ENDM
 
 	const movement_paired_step_right

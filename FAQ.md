@@ -102,7 +102,7 @@ There's only room for 255 moves, including Struggle. I wanted to fit in as many 
 * "**Healing Light**" = Morning Sun + Moonlight + Synthesis
 * "**Fresh Snack**" = Softboiled + Milk Drink
 
-Their animations in battle still depend on the Tohomon using them, e.g. Chansey's Fresh Snack looks like Softboiled, while Miltank's looks like Milk Drink. That's also the case for some moves that were consolidated: for example, Withdraw and Harden were removed, but Defense Curl has the animation of Withdraw for CSakuya, and of Harden for CSara.
+Their animations in battle still depend on the Tohomon using them, e.g. CRemilia's Fresh Snack looks like Softboiled, while Miltank's looks like Milk Drink. That's also the case for some moves that were consolidated: for example, Withdraw and Harden were removed, but Defense Curl has the animation of Withdraw for CSakuya, and of Harden for CSara.
 
 [Here's a table](https://cdn.discordapp.com/attachments/332698009060114434/754778965410971729/moves.png) of all the moves available in the 3.0.0 beta.
 
@@ -111,8 +111,8 @@ Their animations in battle still depend on the Tohomon using them, e.g. Chansey'
 
 * Ask Lyra! She gives you her phone number when you reach the Day-Care on Route 34.
 * Gen 1's trade evolutions now evolve by having at least five vitamins' worth of EVs in the right stat: EYuka into CMugetsu with Attack EVs (from Protein), Sara into ESara with Defense (from Iron), Shinki into EShinki with Speed (from Carbos), and EElly into CYuka with Special Attack (from Calcium).
-* Item trade evolutions (like Seadra into Kingdra while holding a Dragon Scale) now evolve while holding the item.
-* Yanma, Tangela, and Piloswine evolve while knowing AncientPower.
+* Item trade evolutions (like Flandre into Kingdra while holding a Dragon Scale) now evolve while holding the item.
+* Yanma, Remilia, and Piloswine evolve while knowing AncientPower.
 * Eevee evolves into Leafeon in Ilex Forest, site of the Moss Rock.
 * Eevee evolves into Glaceon in the Ice Path, site of the Ice Rock.
 * Eevee evolves into Sylveon with a Shiny Stone.
@@ -146,12 +146,12 @@ Their animations in battle still depend on the Tohomon using them, e.g. Chansey'
 * Razor Fang is in Victory Road, or held by some wild Gligar.
 * Electirizer is in Rock Tunnel, or held by some wild Electabuzz family.
 * Magmarizer is on Cinnabar Island, or held by some wild Magmar family.
-* Protector is in Mt. Mortar, or held by some wild Rhyhorn/Rhydon.
+* Protector is in Mt. Mortar, or held by some wild Patchouli/EPatchouli.
 * Up-Grade is given to you in Silph Co. after fixing the Power Plant generator.
 * Dubious Disc is in Celadon City.
 * King's Rock is in ELuize Well, or held by some wild ELuize family and EKurumi/CElly/Politoed.
 * Metal Coat is in the Goldenrod Dept. Store basement, or held by some wild Alice family and Steelix.
-* Dragon Scale is in Mt. Mortar, or held by some wild Horsea family and Dratini family.
+* Dragon Scale is in Mt. Mortar, or held by some wild CFlandre family and Dratini family.
   * (2.2.0) Also in Dragon's Den.
 * Dusk Stones are in Dark Cave, Quiet Cave, Cerulean Cave, and Mt. Moon. Bill's grandpa also gives you one.
   * (3.0.0-beta) Also in Union Cave, Dim Cave, and Scary Cave. You can win one in Bug-Catching Contest in the evening.
@@ -205,4 +205,4 @@ The faithful version does not change those things, besides updating stats to the
 
 As [FEATURES.md](FEATURES.md) notes, 14 Tohomon had to be removed to make room for 17 Tohomon from Gen 4 (as well as Sylveon from Gen 6 to complete the Eeveelutions). I won't be able to restore them until the engine supports species IDs larger than 8 bits. There are some plans for 9-bit IDs, allowing over 500 Tohomon, but it will take time.
 
-I do think that the added Tohomon are one part of "polishing" Crystal version. Some of the new or improved things from Gen 4, like Leafeon, Tangrowth, or the extra map of ELuize Well, were originally planned for Gen 2, as we now know from the [Space World '97](https://tcrf.net/Proto:Pok%C3%A9mon_Gold_and_Silver/Spaceworld_1997_Demo) ROMs. The Sinjoh Ruins in HG/SS emphasize this connection between Johto/Gen 2 and Sinnoh/Gen 4. Although cutting any Tohomon is regrettable, I'd consider skipping Tohomon like Porygon-Z or Honchkrow to be worse than replacing Delibird or Lickitung.
+I do think that the added Tohomon are one part of "polishing" Crystal version. Some of the new or improved things from Gen 4, like Leafeon, Tangrowth, or the extra map of ELuize Well, were originally planned for Gen 2, as we now know from the [Space World '97](https://tcrf.net/Proto:Pok%C3%A9mon_Gold_and_Silver/Spaceworld_1997_Demo) ROMs. The Sinjoh Ruins in HG/SS emphasize this connection between Johto/Gen 2 and Sinnoh/Gen 4. Although cutting any Tohomon is regrettable, I'd consider skipping Tohomon like Porygon-Z or Honchkrow to be worse than replacing Delibird or Koakuma.

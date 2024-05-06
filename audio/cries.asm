@@ -872,11 +872,11 @@ Cry_ELuize:
 	channel 6, Cry_ELuize_Ch6
 	channel 8, Cry_ELuize_Ch8
 
-Cry_Kangaskhan:
+Cry_ERemilia:
 	channel_count 3
-	channel 5, Cry_Kangaskhan_Ch5
-	channel 6, Cry_Kangaskhan_Ch6
-	channel 8, Cry_Kangaskhan_Ch8
+	channel 5, Cry_ERemilia_Ch5
+	channel 6, Cry_ERemilia_Ch6
+	channel 8, Cry_ERemilia_Ch8
 
 Cry_CMarisa:
 	channel_count 3
@@ -956,11 +956,11 @@ Cry_Farfetch_d:
 	channel 6, Cry_Farfetch_d_Ch6
 	channel 8, Cry_Farfetch_d_Ch8
 
-Cry_Rhydon:
+Cry_EPatchouli:
 	channel_count 3
-	channel 5, Cry_Rhydon_Ch5
-	channel 6, Cry_Rhydon_Ch6
-	channel 8, Cry_Rhydon_Ch8
+	channel 5, Cry_EPatchouli_Ch5
+	channel 6, Cry_EPatchouli_Ch6
+	channel 8, Cry_EPatchouli_Ch8
 
 Cry_ESara:
 	channel_count 3
@@ -1172,7 +1172,7 @@ Cry_EMeira_Ch8:
 	noise_note 15, 10, 2, 92
 	sound_ret
 
-Cry_Rhydon_Ch5:
+Cry_EPatchouli_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 6, 15, 7, 1952
 	square_note 8, 14, 6, 1956
@@ -1183,7 +1183,7 @@ Cry_Rhydon_Ch5:
 	square_note 8, 11, 1, 1840
 	sound_ret
 
-Cry_Rhydon_Ch6:
+Cry_EPatchouli_Ch6:
 	duty_cycle_pattern 0, 0, 2, 2
 	square_note 4, 0, 8, 0
 	square_note 6, 10, 7, 1857
@@ -1195,7 +1195,7 @@ Cry_Rhydon_Ch6:
 	square_note 8, 7, 1, 1752
 	sound_ret
 
-Cry_Rhydon_Ch8:
+Cry_EPatchouli_Ch8:
 	noise_note 2, 15, 2, 76
 	noise_note 6, 14, 6, 58
 	noise_note 4, 13, 7, 58
@@ -1230,7 +1230,7 @@ Cry_EMugetsu_Ch8:
 	noise_note 8, 9, 1, 28
 	sound_ret
 
-Cry_Kangaskhan_Ch5:
+Cry_ERemilia_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 4, 15, 7, 1544
 	square_note 6, 14, 6, 1536
@@ -1241,7 +1241,7 @@ Cry_Kangaskhan_Ch5:
 	square_note 8, 14, 1, 1408
 	sound_ret
 
-Cry_Kangaskhan_Ch6:
+Cry_ERemilia_Ch6:
 	duty_cycle_pattern 0, 0, 2, 2
 	square_note 4, 12, 7, 1284
 	square_note 6, 10, 6, 1282
@@ -1252,7 +1252,7 @@ Cry_Kangaskhan_Ch6:
 	square_note 8, 12, 1, 1154
 	sound_ret
 
-Cry_Kangaskhan_Ch8:
+Cry_ERemilia_Ch8:
 	noise_note 12, 14, 4, 76
 	noise_note 10, 12, 7, 92
 	noise_note 12, 11, 6, 76

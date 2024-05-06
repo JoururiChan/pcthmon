@@ -102,22 +102,22 @@ EggMovePointers::
 	dw NoEggMoves             ; EDaichan
 	dw NoEggMoves             ; CCirno
 	dw CirnoEggMoves      ; Cirno
-	dw NoEggMoves             ; Exeggutor
-	dw CuboneEggMoves         ; Cubone
-	dw NoEggMoves             ; Marowak
-	dw NoEggMoves             ; Hitmonlee
-	dw NoEggMoves             ; Hitmonchan
-	dw LickitungEggMoves      ; Lickitung
-	dw KoffingEggMoves        ; Koffing
-	dw NoEggMoves             ; Weezing
-	dw RhyhornEggMoves        ; Rhyhorn
-	dw NoEggMoves             ; Rhydon
-	dw NoEggMoves             ; Chansey
-	dw TangelaEggMoves        ; Tangela
-	dw KangaskhanEggMoves     ; Kangaskhan
-	dw HorseaEggMoves         ; Horsea
-	dw NoEggMoves             ; Seadra
-	dw GoldeenEggMoves        ; Goldeen
+	dw NoEggMoves             ; ECirno
+	dw CMeilingEggMoves         ; CMeiling
+	dw NoEggMoves             ; Meiling
+	dw NoEggMoves             ; EMeiling
+	dw NoEggMoves             ; CKoakuma
+	dw KoakumaEggMoves      ; Koakuma
+	dw EKoakumaEggMoves        ; EKoakuma
+	dw NoEggMoves             ; CPatchouli
+	dw PatchouliEggMoves        ; Patchouli
+	dw NoEggMoves             ; EPatchouli
+	dw NoEggMoves             ; CRemilia
+	dw RemiliaEggMoves        ; Remilia
+	dw ERemiliaEggMoves     ; ERemilia
+	dw CFlandreEggMoves         ; CFlandre
+	dw NoEggMoves             ; Flandre
+	dw EFlandreEggMoves        ; EFlandre
 	dw NoEggMoves             ; Seaking
 	dw NoEggMoves             ; Staryu
 	dw NoEggMoves             ; Starmie
@@ -315,8 +315,8 @@ EggMovePointers::
 	dw NoEggMoves                ; ESara (Alolan Form)
 	dw EYukiAlolanEggMoves      ; EYuki (Alolan Form)
 	dw NoEggMoves                ; CYumeko (Alolan Form)
-	dw NoEggMoves                ; Exeggutor (Alolan Form)
-	dw NoEggMoves                ; Marowak (Alolan Form)
+	dw NoEggMoves                ; ECirno (Alolan Form)
+	dw NoEggMoves                ; Meiling (Alolan Form)
 
 	dw EChiyuriGalarianEggMoves    ; EChiyuri (Galarian Form)
 	dw CLuizeGalarianEggMoves    ; CLuize (Galarian Form)
@@ -324,7 +324,7 @@ EggMovePointers::
 	dw ELuizeGalarianEggMoves  ; ELuize (Galarian Form)
 	dw NoEggMoves                ; CAlice (Galarian Form)
 	dw CMaiGalarianEggMoves ; Farfetch'D (Galarian Form)
-	dw NoEggMoves                ; Weezing (Galarian Form)
+	dw NoEggMoves                ; CPatchouli (Galarian Form)
 	dw NoEggMoves                ; Mr.Mime (Galarian Form)
 	dw NoEggMoves                ; Articuno (Galarian Form)
 	dw NoEggMoves                ; Zapdos (Galarian Form)

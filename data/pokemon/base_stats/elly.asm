@@ -7,7 +7,7 @@
 	db NO_ITEM, KINGS_ROCK ; held items
 	dn GENDER_F50, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-	abilities_for ELLY, SUCTION_CUPS, SUCTION_CUPS, SUCTION_CUPS
+	abilities_for ELLY, GATE_KEEPER, GATE_KEEPER, GATE_KEEPER
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_GROUND ; egg groups
 

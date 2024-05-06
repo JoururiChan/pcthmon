@@ -1130,7 +1130,7 @@ DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 
 	trainerclass AERODACTYL_FOSSIL ; 9c
 
-	trainerclass CUBONE_ARMOR ; 9d
+	trainerclass CMEILING_ARMOR ; 9d
 
 	trainerclass METEORITE ; 9e
 

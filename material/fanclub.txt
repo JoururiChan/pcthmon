@@ -9,7 +9,7 @@ Pokemon Imitator: <imitates cry of lead pokemon in party> Heh! Pretty good, am I
 
 Blackbelt Darkholme: Hey! I'll show you the boss of this fanclub!
 Loss: Argh! Screw you, leatherhead!
-Team: Hitmontop, Hitmonlee, Hitmonchan
+Team: Hitmontop, EMeiling, CKoakuma
 After: Leather club's two blocks down. 
 
 Winston: Hello there! My name is Winston Cheston Wambler! Show me some Electric-type love and I'll give you something great! (gifts a shiny csariel if spoken to with an all electric team)

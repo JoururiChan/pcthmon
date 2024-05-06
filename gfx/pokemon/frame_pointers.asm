@@ -102,22 +102,22 @@ FramesPointers:
 	dw EDaichanPlainFrames
 	dw CCirnoPlainFrames
 	dw CirnoFrames
-	dw ExeggutorPlainFrames
-	dw CuboneFrames
-	dw MarowakPlainFrames
-	dw HitmonleeFrames
-	dw HitmonchanFrames
-	dw LickitungFrames
-	dw KoffingFrames
-	dw WeezingPlainFrames
-	dw RhyhornFrames
-	dw RhydonFrames
-	dw ChanseyFrames
-	dw TangelaFrames
-	dw KangaskhanFrames
-	dw HorseaFrames
-	dw SeadraFrames
-	dw GoldeenFrames
+	dw ECirnoPlainFrames
+	dw CMeilingFrames
+	dw MeilingPlainFrames
+	dw EMeilingFrames
+	dw CKoakumaFrames
+	dw KoakumaFrames
+	dw EKoakumaFrames
+	dw CPatchouliPlainFrames
+	dw PatchouliFrames
+	dw EPatchouliFrames
+	dw CRemiliaFrames
+	dw RemiliaFrames
+	dw ERemiliaFrames
+	dw CFlandreFrames
+	dw FlandreFrames
+	dw EFlandreFrames
 	dw SeakingFrames
 	dw StaryuFrames
 	dw StarmieFrames
@@ -378,8 +378,8 @@ FramesPointers:
 	dw ESaraAlolanFrames
 	dw EYukiAlolanFrames
 	dw CYumekoAlolanFrames
-	dw ExeggutorAlolanFrames
-	dw MarowakAlolanFrames
+	dw ECirnoAlolanFrames
+	dw MeilingAlolanFrames
 
 	dw EChiyuriGalarianFrames
 	dw CLuizeGalarianFrames
@@ -387,7 +387,7 @@ FramesPointers:
 	dw ELuizeGalarianFrames
 	dw CAliceGalarianFrames
 	dw CMaiGalarianFrames
-	dw WeezingGalarianFrames
+	dw CPatchouliGalarianFrames
 	dw MrMimeGalarianFrames
 	dw ArticunoGalarianFrames
 	dw ZapdosGalarianFrames

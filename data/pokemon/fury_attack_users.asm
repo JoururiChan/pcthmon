@@ -8,9 +8,9 @@ FuryAttackUsers:
 	dp CMAI
 	dp MAI
 	dp EMAI
-	dp RHYHORN
-	dp RHYDON
-	dp GOLDEEN
+	dp PATCHOULI
+	dp EPATCHOULI
+	dp EFLANDRE
 	dp SEAKING
 	dp PINSIR
 	dp DUNSPARCE

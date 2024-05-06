@@ -1022,8 +1022,8 @@ CirnoTohodexEntry::
 	next "six will make them"
 	next "rejoin instantly.@"
 
-SECTION "ExeggutorPlainTohodexEntry", ROMX
-ExeggutorPlainTohodexEntry::
+SECTION "ECirnoPlainTohodexEntry", ROMX
+ECirnoPlainTohodexEntry::
 	db "Coconut@"
 	db   "Living in a good"
 	next "environment makes"
@@ -1032,8 +1032,8 @@ ExeggutorPlainTohodexEntry::
 	next "drops off becomes"
 	next "an Cirno.@"
 
-SECTION "CuboneTohodexEntry", ROMX
-CuboneTohodexEntry::
+SECTION "CMeilingTohodexEntry", ROMX
+CMeilingTohodexEntry::
 	db "Lonely@"
 	db   "It lost its mother"
 	next "after its birth."
@@ -1042,18 +1042,18 @@ CuboneTohodexEntry::
 	next "never revealing"
 	next "its true face.@"
 
-SECTION "MarowakPlainTohodexEntry", ROMX
-MarowakPlainTohodexEntry::
+SECTION "MeilingPlainTohodexEntry", ROMX
+MeilingPlainTohodexEntry::
 	db "Bone Keeper@"
 	db   "Somewhere in the"
 	next "world is a ceme-"
 	next "tery just for"
-	page "Marowak. It gets"
+	page "Meiling. It gets"
 	next "its bones from"
 	next "those graves.@"
 
-SECTION "HitmonleeTohodexEntry", ROMX
-HitmonleeTohodexEntry::
+SECTION "EMeilingTohodexEntry", ROMX
+EMeilingTohodexEntry::
 	db "Kicking@"
 	db   "It is also called"
 	next "the Kick Master."
@@ -1062,8 +1062,8 @@ HitmonleeTohodexEntry::
 	next "execute every"
 	next "known kick.@"
 
-SECTION "HitmonchanTohodexEntry", ROMX
-HitmonchanTohodexEntry::
+SECTION "CKoakumaTohodexEntry", ROMX
+CKoakumaTohodexEntry::
 	db "Punching@"
 	db   "To increase the"
 	next "strength of all"
@@ -1072,8 +1072,8 @@ HitmonchanTohodexEntry::
 	next "just before making"
 	next "contact.@"
 
-SECTION "LickitungTohodexEntry", ROMX
-LickitungTohodexEntry::
+SECTION "KoakumaTohodexEntry", ROMX
+KoakumaTohodexEntry::
 	db "Licking@"
 	db   "Its tongue has"
 	next "well-developed"
@@ -1082,8 +1082,8 @@ LickitungTohodexEntry::
 	next "it can be deftly"
 	next "manipulated.@"
 
-SECTION "KoffingTohodexEntry", ROMX
-KoffingTohodexEntry::
+SECTION "EKoakumaTohodexEntry", ROMX
+EKoakumaTohodexEntry::
 	db "Poison Gas@"
 	db   "If one gets close"
 	next "enough to it when"
@@ -1092,8 +1092,8 @@ KoffingTohodexEntry::
 	next "swirling inside it"
 	next "can be seen.@"
 
-SECTION "WeezingPlainTohodexEntry", ROMX
-WeezingPlainTohodexEntry::
+SECTION "CPatchouliPlainTohodexEntry", ROMX
+CPatchouliPlainTohodexEntry::
 	db "Poison Gas@"
 	db   "When it inhales"
 	next "poisonous gases"
@@ -1102,8 +1102,8 @@ WeezingPlainTohodexEntry::
 	next "its insides smell"
 	next "much worse.@"
 
-SECTION "RhyhornTohodexEntry", ROMX
-RhyhornTohodexEntry::
+SECTION "PatchouliTohodexEntry", ROMX
+PatchouliTohodexEntry::
 	db "Spikes@"
 	db   "It can remember"
 	next "only one thing at"
@@ -1112,8 +1112,8 @@ RhyhornTohodexEntry::
 	next "forgets why it"
 	next "started.@"
 
-SECTION "RhydonTohodexEntry", ROMX
-RhydonTohodexEntry::
+SECTION "EPatchouliTohodexEntry", ROMX
+EPatchouliTohodexEntry::
 	db "Drill@"
 	db   "By lightly spin-"
 	next "ning its drill-"
@@ -1122,8 +1122,8 @@ RhydonTohodexEntry::
 	next "even a diamond in"
 	next "the rough.@"
 
-SECTION "ChanseyTohodexEntry", ROMX
-ChanseyTohodexEntry::
+SECTION "CRemiliaTohodexEntry", ROMX
+CRemiliaTohodexEntry::
 	db "Egg@"
 	db   "People try to"
 	next "catch it for its"
@@ -1132,8 +1132,8 @@ ChanseyTohodexEntry::
 	next "but it rarely can"
 	next "be found.@"
 
-SECTION "TangelaTohodexEntry", ROMX
-TangelaTohodexEntry::
+SECTION "RemiliaTohodexEntry", ROMX
+RemiliaTohodexEntry::
 	db "Vine@"
 	db   "During battle, it"
 	next "constantly moves"
@@ -1142,8 +1142,8 @@ TangelaTohodexEntry::
 	next "order to annoy its"
 	next "opponent.@"
 
-SECTION "KangaskhanTohodexEntry", ROMX
-KangaskhanTohodexEntry::
+SECTION "ERemiliaTohodexEntry", ROMX
+ERemiliaTohodexEntry::
 	db "Parent@"
 	db   "To avoid"
 	next "crushing the"
@@ -1152,8 +1152,8 @@ KangaskhanTohodexEntry::
 	next "always sleeps"
 	next "standing up.@"
 
-SECTION "HorseaTohodexEntry", ROMX
-HorseaTohodexEntry::
+SECTION "CFlandreTohodexEntry", ROMX
+CFlandreTohodexEntry::
 	db "Dragon@"
 	db   "When they're in a"
 	next "safe location,"
@@ -1162,8 +1162,8 @@ HorseaTohodexEntry::
 	next "their tails"
 	next "together.@"
 
-SECTION "SeadraTohodexEntry", ROMX
-SeadraTohodexEntry::
+SECTION "FlandreTohodexEntry", ROMX
+FlandreTohodexEntry::
 	db "Dragon@"
 	db   "The male raises"
 	next "the young. If it"
@@ -1172,8 +1172,8 @@ SeadraTohodexEntry::
 	next "spikes to fend off"
 	next "the intruder.@"
 
-SECTION "GoldeenTohodexEntry", ROMX
-GoldeenTohodexEntry::
+SECTION "EFlandreTohodexEntry", ROMX
+EFlandreTohodexEntry::
 	db "Goldfish@"
 	db   "During spawning"
 	next "season, they swim"
@@ -3031,18 +3031,18 @@ CYumekoAlolanTohodexEntry::
 	next "its favorite"
 	next "dish--trash.@"
 
-SECTION "ExeggutorAlolanTohodexEntry", ROMX
-ExeggutorAlolanTohodexEntry::
+SECTION "ECirnoAlolanTohodexEntry", ROMX
+ECirnoAlolanTohodexEntry::
 	db "Coconut@"
 	db   "It swings its long"
 	next "neck like a whip"
 	next "and smacks its"
 	page "opponents. This"
-	next "makes Exeggutor"
+	next "makes ECirno"
 	next "itself dizzy, too.@"
 
-SECTION "MarowakAlolanTohodexEntry", ROMX
-MarowakAlolanTohodexEntry::
+SECTION "MeilingAlolanTohodexEntry", ROMX
+MeilingAlolanTohodexEntry::
 	db "Bone Keeper@"
 	db   "It sets the bone"
 	next "it holds on fire"
@@ -3154,8 +3154,8 @@ CMaiGalarianTohodexEntry::
 	page "wield thick, tough"
 	next "leeks in battle.@"
 
-SECTION "WeezingGalarianTohodexEntry", ROMX
-WeezingGalarianTohodexEntry::
+SECTION "CPatchouliGalarianTohodexEntry", ROMX
+CPatchouliGalarianTohodexEntry::
 	db "Poison Gas@"
 	db   "It consumes par-"
 	next "ticles that con-"

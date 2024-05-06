@@ -106,22 +106,22 @@ EvosAttacksPointers::
 	dw EDaichanPlainEvosAttacks
 	dw CCirnoPlainEvosAttacks
 	dw CirnoEvosAttacks
-	dw ExeggutorPlainEvosAttacks
-	dw CuboneEvosAttacks
-	dw MarowakPlainEvosAttacks
-	dw HitmonleeEvosAttacks
-	dw HitmonchanEvosAttacks
-	dw LickitungEvosAttacks
-	dw KoffingEvosAttacks
-	dw WeezingPlainEvosAttacks
-	dw RhyhornEvosAttacks
-	dw RhydonEvosAttacks
-	dw ChanseyEvosAttacks
-	dw TangelaEvosAttacks
-	dw KangaskhanEvosAttacks
-	dw HorseaEvosAttacks
-	dw SeadraEvosAttacks
-	dw GoldeenEvosAttacks
+	dw ECirnoPlainEvosAttacks
+	dw CMeilingEvosAttacks
+	dw MeilingPlainEvosAttacks
+	dw EMeilingEvosAttacks
+	dw CKoakumaEvosAttacks
+	dw KoakumaEvosAttacks
+	dw EKoakumaEvosAttacks
+	dw CPatchouliPlainEvosAttacks
+	dw PatchouliEvosAttacks
+	dw EPatchouliEvosAttacks
+	dw CRemiliaEvosAttacks
+	dw RemiliaEvosAttacks
+	dw ERemiliaEvosAttacks
+	dw CFlandreEvosAttacks
+	dw FlandreEvosAttacks
+	dw EFlandreEvosAttacks
 	dw SeakingEvosAttacks
 	dw StaryuEvosAttacks
 	dw StarmieEvosAttacks
@@ -319,8 +319,8 @@ EvosAttacksPointers::
 	dw ESaraAlolanEvosAttacks
 	dw EYukiAlolanEvosAttacks
 	dw CYumekoAlolanEvosAttacks
-	dw ExeggutorAlolanEvosAttacks
-	dw MarowakAlolanEvosAttacks
+	dw ECirnoAlolanEvosAttacks
+	dw MeilingAlolanEvosAttacks
 
 	dw EChiyuriGalarianEvosAttacks
 	dw CLuizeGalarianEvosAttacks
@@ -328,7 +328,7 @@ EvosAttacksPointers::
 	dw ELuizeGalarianEvosAttacks
 	dw CAliceGalarianEvosAttacks
 	dw CMaiGalarianEvosAttacks
-	dw WeezingGalarianEvosAttacks
+	dw CPatchouliGalarianEvosAttacks
 	dw MrMimeGalarianEvosAttacks
 	dw ArticunoGalarianEvosAttacks
 	dw ZapdosGalarianEvosAttacks

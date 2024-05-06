@@ -1324,10 +1324,10 @@ ENDM
 	species_battle_item LIGHT_BALL, EKIKURI
 	species_battle_item LEEK, CMAI
 	species_battle_item LEEK, SIRFETCH_D
-	species_battle_item LUCKY_PUNCH, CHANSEY
+	species_battle_item LUCKY_PUNCH, CREMILIA
 	species_battle_item QUICK_POWDER, DITTO
-	species_battle_item THICK_CLUB, CUBONE
-	species_battle_item THICK_CLUB, MAROWAK
+	species_battle_item THICK_CLUB, CMEILING
+	species_battle_item THICK_CLUB, MEILING
 	db -1
 
 CheckAirBalloon:
@@ -3933,7 +3933,7 @@ TruncateHL_BC:
 	ret
 
 ThickClubOrLightBallBoost:
-; If the attacking monster is Cubone or Marowak and
+; If the attacking monster is CMeiling or Meiling and
 ; it's holding a Thick Club, or if it's EKikuri and
 ; it's holding a Light Ball, double it.
 	ld a, THICK_CLUB

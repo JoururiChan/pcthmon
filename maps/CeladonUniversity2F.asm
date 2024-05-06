@@ -22,7 +22,7 @@ CeladonUniversity2F_MapScriptHeader:
 	bg_event  6,  8, BGEVENT_JUMPTEXT, CeladonUniversity2FNursesOfficeSignText
 	bg_event 18,  8, BGEVENT_JUMPTEXT, CeladonUniversity2FWestwoodsOfficeSignText
 	bg_event 16,  1, BGEVENT_READ, CeladonUniversity2FMagikarpSign
-	bg_event 24,  1, BGEVENT_READ, CeladonUniversity2FCuboneSign
+	bg_event 24,  1, BGEVENT_READ, CeladonUniversity2FCMeilingSign
 
 	def_object_events
 	object_event  2,  3, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, CeladonUniversity2FCooltrainerfScript, -1
@@ -198,14 +198,14 @@ CeladonUniversity2FMagikarpSign:
 	line "swimming around."
 	done
 
-CeladonUniversity2FCuboneSign:
+CeladonUniversity2FCMeilingSign:
 	refreshscreen
-	trainerpic CUBONE_ARMOR
+	trainerpic CMEILING_ARMOR
 	waitbutton
 	closepokepic
 	jumpthistext
 
 	text "It's the Thick Club"
 	line "and skull helmet"
-	cont "of a Cubone."
+	cont "of a CMeiling."
 	done

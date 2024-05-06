@@ -1594,11 +1594,11 @@ FishFunction:
 	ld a, [wBuffer2]
 	ld e, a
 
-	; Suction Cups and Collector boost bite rate. This is done
+	; Gate Keeper and Collector boost bite rate. This is done
 	; by having these abilities result in 2 attempts being made
 	; for getting an encounter.
 	call GetLeadAbility
-	cp SUCTION_CUPS
+	cp GATE_KEEPER
 	jr z, .fish_attempt1
 	cp COLLECTOR
 	jr nz, .fish_attempt2

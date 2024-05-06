@@ -15,8 +15,8 @@ DoAnimFrame:
 	dw AnimSeq_MailCursor         ; SPRITE_ANIM_SEQ_COMPOSE_MAIL_CURSOR
 	dw AnimSeq_GameFreakLogo      ; SPRITE_ANIM_SEQ_GAMEFREAK_LOGO
 	dw AnimSeq_SlotsESara         ; SPRITE_ANIM_SEQ_SLOTS_ESARA
-	dw AnimSeq_SlotsChansey       ; SPRITE_ANIM_SEQ_SLOTS_CHANSEY
-	dw AnimSeq_SlotsChanseyEgg    ; SPRITE_ANIM_SEQ_SLOTS_EGG
+	dw AnimSeq_SlotsCRemilia       ; SPRITE_ANIM_SEQ_SLOTS_CREMILIA
+	dw AnimSeq_SlotsCRemiliaEgg    ; SPRITE_ANIM_SEQ_SLOTS_EGG
 	;dw AnimSeq_MemoryGameCursor   ; SPRITE_ANIM_SEQ_MEMORY_GAME_CURSOR
 	dw AnimSeq_PokegearArrow      ; SPRITE_ANIM_SEQ_POKEGEAR_MODE_ARROW
 	dw AnimSeq_TradePokeBall      ; SPRITE_ANIM_SEQ_TRADE_POKE_BALL
@@ -131,17 +131,17 @@ AnimSeq_GameFreakLogo:
 AnimSeq_SlotsESara:
 	farjp SlotMachine_AnimateESara
 
-AnimSeq_SlotsChansey:
-	farcall Slots_AnimateChansey
+AnimSeq_SlotsCRemilia:
+	farcall Slots_AnimateCRemilia
 	ld hl, wSlotsDelay
 	ld a, [hl]
 	cp 2
 	ret nz
 	ld [hl], 3
-	ld a, SPRITE_ANIM_FRAMESET_SLOTS_CHANSEY_2
+	ld a, SPRITE_ANIM_FRAMESET_SLOTS_CREMILIA_2
 	jmp _ReinitSpriteAnimFrame
 
-AnimSeq_SlotsChanseyEgg:
+AnimSeq_SlotsCRemiliaEgg:
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc
 	ld a, [hl]

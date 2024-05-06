@@ -26,7 +26,7 @@ AlphabeticalTohodexOrder:
 	dp FGYOKU
 	dp CGYOKU
 	dp CELEBI
-	dp CHANSEY
+	dp CREMILIA
 	dp EMARISA
 	dp CMARISA
 	dp MARISA
@@ -40,7 +40,7 @@ AlphabeticalTohodexOrder:
 	dp CORSOLA
 	dp CROBAT
 	dp SANAE
-	dp CUBONE
+	dp CMEILING
 	dp CURSOLA
 	dp CREISEN
 	dp DELIBIRD
@@ -66,7 +66,7 @@ AlphabeticalTohodexOrder:
 	dp ENTEI
 	dp ESPEON
 	dp CIRNO
-	dp EXEGGUTOR
+	dp ECIRNO
 	dp FARIGIRAF
 	dp CMAI
 	dp EELIS
@@ -84,7 +84,7 @@ AlphabeticalTohodexOrder:
 	dp GLISCOR
 	dp CKANA
 	dp KOTOHIME
-	dp GOLDEEN
+	dp EFLANDRE
 	dp EYUMEMI
 	dp ESARA
 	dp GRANBULL
@@ -95,14 +95,14 @@ AlphabeticalTohodexOrder:
 	dp HAPPINY
 	dp SHINKI
 	dp HERACROSS
-	dp HITMONCHAN
-	dp HITMONLEE
+	dp CKOAKUMA
+	dp EMEILING
 	dp HITMONTOP
 	dp HO_OH
 	dp HONCHKROW
 	dp HOOTHOOT
 	dp HOPPIP
-	dp HORSEA
+	dp CFLANDRE
 	dp HOUNDOOM
 	dp HOUNDOUR
 	dp ERUMIA
@@ -116,11 +116,11 @@ AlphabeticalTohodexOrder:
 	dp KABUTOPS
 	dp EELLY
 	dp CMAGAN
-	dp KANGASKHAN
+	dp EREMILIA
 	dp KINGDRA
 	dp DAICHAN
 	dp KLEAVOR
-	dp KOFFING
+	dp EKOAKUMA
 	dp CDAICHAN
 	dp LANTURN
 	dp LAPRAS
@@ -129,7 +129,7 @@ AlphabeticalTohodexOrder:
 	dp LEDIAN
 	dp LEDYBA
 	dp LICKILICKY
-	dp LICKITUNG
+	dp KOAKUMA
 	dp LUGIA
 	dp CMUGETSU
 	dp EYUKA
@@ -148,7 +148,7 @@ AlphabeticalTohodexOrder:
 	dp MANTYKE
 	dp MAREEP
 	dp MARILL
-	dp MAROWAK
+	dp MEILING
 	dp EYOUMU
 	dp ECHIYURI
 	dp MGYOKU
@@ -212,14 +212,14 @@ AlphabeticalTohodexOrder:
 	dp CELIS
 	dp EMIMA
 	dp REMORAID
-	dp RHYDON
-	dp RHYHORN
+	dp EPATCHOULI
+	dp PATCHOULI
 	dp RHYPERIOR
 	dp SARIEL
 	dp ESARIEL
 	dp SCIZOR
 	dp SCYTHER
-	dp SEADRA
+	dp FLANDRE
 	dp SEAKING
 	dp CYUKI
 	dp SENTRET
@@ -251,7 +251,7 @@ AlphabeticalTohodexOrder:
 	dp SUNKERN
 	dp SWINUB
 	dp SYLVEON
-	dp TANGELA
+	dp REMILIA
 	dp TANGROWTH
 	dp TAUROS
 	dp TEDDIURSA
@@ -280,7 +280,7 @@ AlphabeticalTohodexOrder:
 	dp WEAVILE
 	dp OGYOKU
 	dp EMUGETSU
-	dp WEEZING
+	dp CPATCHOULI
 	dp EELLEN
 	dp WOBBUFFET
 	dp WOOPER

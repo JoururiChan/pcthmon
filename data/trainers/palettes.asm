@@ -163,7 +163,7 @@ INCLUDE "gfx/trainers/rei.pal"
 INCLUDE "gfx/trainers/omastar_fossil.pal"
 INCLUDE "gfx/trainers/kabutops_fossil.pal"
 INCLUDE "gfx/trainers/aerodactyl_fossil.pal"
-INCLUDE "gfx/trainers/cubone_armor.pal"
+INCLUDE "gfx/trainers/cmeiling_armor.pal"
 INCLUDE "gfx/trainers/meteorite.pal"
 INCLUDE "gfx/trainers/silhouette.pal"
 

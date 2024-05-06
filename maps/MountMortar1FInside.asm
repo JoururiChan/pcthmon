@@ -59,7 +59,7 @@ GenericTrainerSupernerdMarkus:
 	para "Did you run into a"
 	line "trainer who uses a"
 
-	para "Seadra that knows"
+	para "Flandre that knows"
 	line "Waterfall?"
 	done
 

@@ -37,7 +37,7 @@ MoldBreakerSuppressedAbilities:
 	db SOUNDPROOF
 	db COLLECTOR
 	db STURDY
-	db SUCTION_CUPS
+	db GATE_KEEPER
 	db TANGLED_FEET
 	db THICK_FAT
 	db UNAWARE

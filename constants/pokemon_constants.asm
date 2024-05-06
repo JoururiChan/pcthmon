@@ -124,22 +124,22 @@
 	const EDAICHAN    ; 64
 	const CCIRNO  ; 65
 	const CIRNO  ; 66
-	const EXEGGUTOR  ; 67
-	const CUBONE     ; 68
-	const MAROWAK    ; 69
-	const HITMONLEE  ; 6a
-	const HITMONCHAN ; 6b
-	const LICKITUNG  ; 6c
-	const KOFFING    ; 6d
-	const WEEZING    ; 6e
-	const RHYHORN    ; 6f
-	const RHYDON     ; 70
-	const CHANSEY    ; 71
-	const TANGELA    ; 72
-	const KANGASKHAN ; 73
-	const HORSEA     ; 74
-	const SEADRA     ; 75
-	const GOLDEEN    ; 76
+	const ECIRNO  ; 67
+	const CMEILING     ; 68
+	const MEILING    ; 69
+	const EMEILING  ; 6a
+	const CKOAKUMA ; 6b
+	const KOAKUMA  ; 6c
+	const EKOAKUMA    ; 6d
+	const CPATCHOULI    ; 6e
+	const PATCHOULI    ; 6f
+	const EPATCHOULI     ; 70
+	const CREMILIA    ; 71
+	const REMILIA    ; 72
+	const EREMILIA ; 73
+	const CFLANDRE     ; 74
+	const FLANDRE     ; 75
+	const EFLANDRE    ; 76
 	const SEAKING    ; 77
 	const STARYU     ; 78
 	const STARMIE    ; 79
@@ -455,8 +455,8 @@ DEF ALOLAN_FORM EQU 2
 	const_skip ; 16c esara
 	const_skip ; 16d eyuki
 	const_skip ; 16e cyumeko
-	const_skip ; 16f exeggutor
-	const_skip ; 170 marowak
+	const_skip ; 16f ecirno
+	const_skip ; 170 meiling
 
 ; galarian forms
 DEF GALARIAN_FORM EQU 3

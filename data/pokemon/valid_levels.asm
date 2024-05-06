@@ -103,22 +103,22 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  29 ; EDaichan
 	db  30, 100 ; CCirno
 	db   1,  29 ; Cirno
-	db  30, 100 ; Exeggutor
-	db   1,  27 ; Cubone
-	db  28, 100 ; Marowak
-	db  20, 100 ; Hitmonlee
-	db  20, 100 ; Hitmonchan
-	db  10, 100 ; Lickitung
-	db   1,  34 ; Koffing
-	db  35, 100 ; Weezing
-	db   1,  41 ; Rhyhorn
-	db  42,  54 ; Rhydon
-	db  20, 100 ; Chansey
-	db   1,  38 ; Tangela
-	db  20, 100 ; Kangaskhan
-	db   1,  31 ; Horsea
-	db  32,  54 ; Seadra
-	db   1,  32 ; Goldeen
+	db  30, 100 ; ECirno
+	db   1,  27 ; CMeiling
+	db  28, 100 ; Meiling
+	db  20, 100 ; EMeiling
+	db  20, 100 ; CKoakuma
+	db  10, 100 ; Koakuma
+	db   1,  34 ; EKoakuma
+	db  35, 100 ; CPatchouli
+	db   1,  41 ; Patchouli
+	db  42,  54 ; EPatchouli
+	db  20, 100 ; CRemilia
+	db   1,  38 ; Remilia
+	db  20, 100 ; ERemilia
+	db   1,  31 ; CFlandre
+	db  32,  54 ; Flandre
+	db   1,  32 ; EFlandre
 	db  33, 100 ; Seaking
 	db   1,  32 ; Staryu
 	db  33, 100 ; Starmie

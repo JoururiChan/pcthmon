@@ -5,7 +5,7 @@ Cries:
 	fardw Cry_CRika
 	fardw Cry_CKongara
 	fardw Cry_ELuize
-	fardw Cry_Kangaskhan
+	fardw Cry_ERemilia
 	fardw Cry_CMarisa
 	fardw Cry_EYuki
 	fardw Cry_EDaichan
@@ -19,7 +19,7 @@ Cries:
 	fardw Cry_EMagan
 	fardw Cry_CReimu
 	fardw Cry_Farfetch_d
-	fardw Cry_Rhydon
+	fardw Cry_EPatchouli
 	fardw Cry_ESara
 	fardw Cry_ESakuya
 	fardw Cry_CMima

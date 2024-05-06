@@ -102,22 +102,22 @@ BitmasksPointers:
 	dw EDaichanPlainBitmasks
 	dw CCirnoPlainBitmasks
 	dw CirnoBitmasks
-	dw ExeggutorPlainBitmasks
-	dw CuboneBitmasks
-	dw MarowakPlainBitmasks
-	dw HitmonleeBitmasks
-	dw HitmonchanBitmasks
-	dw LickitungBitmasks
-	dw KoffingBitmasks
-	dw WeezingPlainBitmasks
-	dw RhyhornBitmasks
-	dw RhydonBitmasks
-	dw ChanseyBitmasks
-	dw TangelaBitmasks
-	dw KangaskhanBitmasks
-	dw HorseaBitmasks
-	dw SeadraBitmasks
-	dw GoldeenBitmasks
+	dw ECirnoPlainBitmasks
+	dw CMeilingBitmasks
+	dw MeilingPlainBitmasks
+	dw EMeilingBitmasks
+	dw CKoakumaBitmasks
+	dw KoakumaBitmasks
+	dw EKoakumaBitmasks
+	dw CPatchouliPlainBitmasks
+	dw PatchouliBitmasks
+	dw EPatchouliBitmasks
+	dw CRemiliaBitmasks
+	dw RemiliaBitmasks
+	dw ERemiliaBitmasks
+	dw CFlandreBitmasks
+	dw FlandreBitmasks
+	dw EFlandreBitmasks
 	dw SeakingBitmasks
 	dw StaryuBitmasks
 	dw StarmieBitmasks
@@ -378,8 +378,8 @@ BitmasksPointers:
 	dw ESaraAlolanBitmasks
 	dw EYukiAlolanBitmasks
 	dw CYumekoAlolanBitmasks
-	dw ExeggutorAlolanBitmasks
-	dw MarowakAlolanBitmasks
+	dw ECirnoAlolanBitmasks
+	dw MeilingAlolanBitmasks
 
 	dw EChiyuriGalarianBitmasks
 	dw CLuizeGalarianBitmasks
@@ -387,7 +387,7 @@ BitmasksPointers:
 	dw ELuizeGalarianBitmasks
 	dw CAliceGalarianBitmasks
 	dw CMaiGalarianBitmasks
-	dw WeezingGalarianBitmasks
+	dw CPatchouliGalarianBitmasks
 	dw MrMimeGalarianBitmasks
 	dw ArticunoGalarianBitmasks
 	dw ZapdosGalarianBitmasks

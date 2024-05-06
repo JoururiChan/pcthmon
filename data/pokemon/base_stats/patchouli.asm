@@ -8,9 +8,9 @@
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for RHYHORN, LIGHTNING_ROD, ROCK_HEAD, RECKLESS
+	abilities_for PATCHOULI, LIGHTNING_ROD, ROCK_HEAD, RECKLESS
 else
-	abilities_for RHYHORN, ROCK_HEAD, SOLID_ROCK, RECKLESS
+	abilities_for PATCHOULI, ROCK_HEAD, SOLID_ROCK, RECKLESS
 endc
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups

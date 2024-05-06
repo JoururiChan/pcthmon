@@ -27,7 +27,7 @@ Celebi: Fly
 EShinki: Quick Attack
 Togepi: Drain Kiss
 Ellen: Play Rough
-Chansey: Psybeam
+CRemilia: Psybeam
 Staryu: Quick Attack
 Staryu: Psybeam
 
@@ -77,7 +77,7 @@ Mewtwo: Power Gem
 
 Egg:
 CSara/Sara/ESara: Rock Slide
-Rhyhorn/Rhydon/Rhyperior: Crunch
+Patchouli/EPatchouli/Rhyperior: Crunch
 
 RBY TM:
 COrange/Orange: Metronome
@@ -104,7 +104,7 @@ Teddiursa/Ursaring: Metronome
 
 Dream World:
 Rumia/ERumia: Drain Punch
-Kangaskhan: Drain Punch
+ERemilia: Drain Punch
 
 Purified:
 Rumia/ERumia: Baton Pass
@@ -115,8 +115,8 @@ Wobbuffet: Charm
 Natu/Xatu: Baton Pass
 
 Prism tutor:
-Chansey: Haze
-Cirno/Exeggutor: Confuse Ray
+CRemilia: Haze
+Cirno/ECirno: Confuse Ray
 Marill/Azumarill: Focus Energy
 Pineco/Forretress: Smokescreen
 Sentret/Furret: Recover

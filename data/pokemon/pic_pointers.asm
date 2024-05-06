@@ -106,22 +106,22 @@ PokemonPicPointers::
 	pics EDaichanPlain
 	pics CCirnoPlain
 	pics Cirno
-	pics ExeggutorPlain
-	pics Cubone
-	pics MarowakPlain
-	pics Hitmonlee
-	pics Hitmonchan
-	pics Lickitung
-	pics Koffing
-	pics WeezingPlain
-	pics Rhyhorn
-	pics Rhydon
-	pics Chansey
-	pics Tangela
-	pics Kangaskhan
-	pics Horsea
-	pics Seadra
-	pics Goldeen
+	pics ECirnoPlain
+	pics CMeiling
+	pics MeilingPlain
+	pics EMeiling
+	pics CKoakuma
+	pics Koakuma
+	pics EKoakuma
+	pics CPatchouliPlain
+	pics Patchouli
+	pics EPatchouli
+	pics CRemilia
+	pics Remilia
+	pics ERemilia
+	pics CFlandre
+	pics Flandre
+	pics EFlandre
 	pics Seaking
 	pics Staryu
 	pics Starmie
@@ -382,8 +382,8 @@ PokemonPicPointers::
 	pics ESaraAlolan
 	pics EYukiAlolan
 	pics CYumekoAlolan
-	pics ExeggutorAlolan
-	pics MarowakAlolan
+	pics ECirnoAlolan
+	pics MeilingAlolan
 
 	pics EChiyuriGalarian
 	pics CLuizeGalarian
@@ -391,7 +391,7 @@ PokemonPicPointers::
 	pics ELuizeGalarian
 	pics CAliceGalarian
 	pics CMaiGalarian
-	pics WeezingGalarian
+	pics CPatchouliGalarian
 	pics MrMimeGalarian
 	pics ArticunoGalarian
 	pics ZapdosGalarian

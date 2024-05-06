@@ -58,49 +58,49 @@
 
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 4 percent ; encounter rate
-	wildmon 20, GOLDEEN
+	wildmon 20, EFLANDRE
 	wildmon 20, MARILL
 	wildmon 20, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_2F_INSIDE
 	db 2 percent ; encounter rate
-	wildmon 20, GOLDEEN
+	wildmon 20, EFLANDRE
 	wildmon 25, MARILL
 	wildmon 25, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_B1F
 	db 2 percent ; encounter rate
-	wildmon 15, GOLDEEN
+	wildmon 15, EFLANDRE
 	wildmon 20, MARILL
 	wildmon 20, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_SW
 	db 4 percent ; encounter rate
-	wildmon 20, HORSEA
+	wildmon 20, CFLANDRE
 	wildmon 25, GENGETSU
 	wildmon 30, OCTILLERY
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_B2F
 	db 4 percent ; encounter rate
-	wildmon 20, HORSEA
+	wildmon 20, CFLANDRE
 	wildmon 25, EGENGETSU
 	wildmon 30, OCTILLERY
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 4 percent ; encounter rate
-	wildmon 25, HORSEA
-	wildmon 30, SEADRA
+	wildmon 25, CFLANDRE
+	wildmon 30, FLANDRE
 	wildmon 30, OCTILLERY
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_ROOM_2
 	db 2 percent ; encounter rate
-	wildmon 75, SEADRA
+	wildmon 75, FLANDRE
 	wildmon 75, EYUMEMI
 	wildmon 75, KINGDRA
 	end_water_wildmons
@@ -191,8 +191,8 @@
 
 	def_water_wildmons ROUTE_42
 	db 4 percent ; encounter rate
-	wildmon 20, GOLDEEN
-	wildmon 20, GOLDEEN
+	wildmon 20, EFLANDRE
+	wildmon 20, EFLANDRE
 	wildmon 20, SEAKING
 	end_water_wildmons
 
@@ -394,7 +394,7 @@
 
 	def_water_wildmons RUGGED_ROAD_SOUTH
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, GOLDEEN
+	wildmon LEVEL_FROM_BADGES - 5, EFLANDRE
 	wildmon LEVEL_FROM_BADGES + 0, SEAKING
 	wildmon LEVEL_FROM_BADGES + 5, QWILFISH, HISUIAN_FORM
 	end_water_wildmons

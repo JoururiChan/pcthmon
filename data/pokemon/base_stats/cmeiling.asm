@@ -8,9 +8,9 @@
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for CUBONE, ROCK_HEAD, LIGHTNING_ROD, BATTLE_ARMOR
+	abilities_for CMEILING, ROCK_HEAD, LIGHTNING_ROD, BATTLE_ARMOR
 else
-	abilities_for CUBONE, ROCK_HEAD, CURSED_BODY, BATTLE_ARMOR
+	abilities_for CMEILING, ROCK_HEAD, CURSED_BODY, BATTLE_ARMOR
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups

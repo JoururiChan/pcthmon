@@ -5,7 +5,7 @@
 	const CRY_CRIKA
 	const CRY_CKONGARA
 	const CRY_ELUIZE
-	const CRY_KANGASKHAN
+	const CRY_EREMILIA
 	const CRY_CMARISA
 	const CRY_EYUKI
 	const CRY_EDAICHAN
@@ -19,7 +19,7 @@
 	const CRY_EMAGAN
 	const CRY_CREIMU
 	const CRY_CMAI
-	const CRY_RHYDON
+	const CRY_EPATCHOULI
 	const CRY_ESARA
 	const CRY_ESAKUYA
 	const CRY_CMIMA
