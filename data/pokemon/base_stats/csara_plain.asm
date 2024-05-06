@@ -9,7 +9,7 @@
 
 	abilities_for CSARA, GATE_KEEPER, GATE_KEEPER, GUTS
 	db GROWTH_FAST ; growth rate
-	dn EGG_MONSTER, EGG_FIELD ; egg groups
+	dn EGG_MONSTER, EGG_GROUND ; egg groups
 
 	ev_yield 1 Atk
 
