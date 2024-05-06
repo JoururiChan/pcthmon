@@ -389,8 +389,8 @@ CAliceGalarianAnimation: INCLUDE "gfx/pokemon/calice_galarian/anim.asm"
 CMaiPlainAnimation:    INCLUDE "gfx/pokemon/cmai_plain/anim.asm"
 CMaiGalarianAnimation: INCLUDE "gfx/pokemon/cmai_galarian/anim.asm"
 
-CPatchouliPlainAnimation:    INCLUDE "gfx/pokemon/weezing_plain/anim.asm"
-CPatchouliGalarianAnimation: INCLUDE "gfx/pokemon/weezing_galarian/anim.asm"
+CPatchouliPlainAnimation:    INCLUDE "gfx/pokemon/cpatchouli_plain/anim.asm"
+CPatchouliGalarianAnimation: INCLUDE "gfx/pokemon/cpatchouli_galarian/anim.asm"
 
 MrMimePlainAnimation:    INCLUDE "gfx/pokemon/mr__mime_plain/anim.asm"
 MrMimeGalarianAnimation: INCLUDE "gfx/pokemon/mr__mime_galarian/anim.asm"

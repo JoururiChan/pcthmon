@@ -553,9 +553,9 @@ EKoakumaMiniMask:: INCBIN "gfx/minis/ekoakuma_mask.1bpp.lz"
 EKoakumaIcon::     INCBIN "gfx/icons/ekoakuma.2bpp.lz"
 
 SECTION "CPatchouli Mini Icon", ROMX
-CPatchouliMini::     INCBIN "gfx/minis/weezing.2bpp.lz"
-CPatchouliMiniMask:: INCBIN "gfx/minis/weezing_mask.1bpp.lz"
-CPatchouliIcon::     INCBIN "gfx/icons/weezing.2bpp.lz"
+CPatchouliMini::     INCBIN "gfx/minis/cpatchouli.2bpp.lz"
+CPatchouliMiniMask:: INCBIN "gfx/minis/cpatchouli_mask.1bpp.lz"
+CPatchouliIcon::     INCBIN "gfx/icons/cpatchouli.2bpp.lz"
 
 SECTION "Patchouli Mini Icon", ROMX
 PatchouliMini::     INCBIN "gfx/minis/patchouli.2bpp.lz"
@@ -1723,9 +1723,9 @@ CMaiGalarianMiniMask:: INCBIN "gfx/minis/cmai_galarian_mask.1bpp.lz"
 CMaiGalarianIcon::     INCBIN "gfx/icons/cmai_galarian.2bpp.lz"
 
 SECTION "CPatchouliGalarian Mini Icon", ROMX
-CPatchouliGalarianMini::     INCBIN "gfx/minis/weezing_galarian.2bpp.lz"
-CPatchouliGalarianMiniMask:: INCBIN "gfx/minis/weezing_galarian_mask.1bpp.lz"
-CPatchouliGalarianIcon::     INCBIN "gfx/icons/weezing_galarian.2bpp.lz"
+CPatchouliGalarianMini::     INCBIN "gfx/minis/cpatchouli_galarian.2bpp.lz"
+CPatchouliGalarianMiniMask:: INCBIN "gfx/minis/cpatchouli_galarian_mask.1bpp.lz"
+CPatchouliGalarianIcon::     INCBIN "gfx/icons/cpatchouli_galarian.2bpp.lz"
 
 SECTION "MrMimeGalarian Mini Icon", ROMX
 MrMimeGalarianMini::     INCBIN "gfx/minis/mr__mime_galarian.2bpp.lz"

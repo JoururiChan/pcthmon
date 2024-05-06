@@ -388,8 +388,8 @@ CAliceGalarianAnimationExtra: INCLUDE "gfx/pokemon/calice_galarian/anim_idle.asm
 CMaiPlainAnimationExtra:     INCLUDE "gfx/pokemon/cmai_plain/anim_idle.asm"
 CMaiGalarianAnimationExtra:  INCLUDE "gfx/pokemon/cmai_galarian/anim_idle.asm"
 
-CPatchouliPlainAnimationExtra:    INCLUDE "gfx/pokemon/weezing_plain/anim_idle.asm"
-CPatchouliGalarianAnimationExtra: INCLUDE "gfx/pokemon/weezing_galarian/anim_idle.asm"
+CPatchouliPlainAnimationExtra:    INCLUDE "gfx/pokemon/cpatchouli_plain/anim_idle.asm"
+CPatchouliGalarianAnimationExtra: INCLUDE "gfx/pokemon/cpatchouli_galarian/anim_idle.asm"
 
 MrMimePlainAnimationExtra:    INCLUDE "gfx/pokemon/mr__mime_plain/anim_idle.asm"
 MrMimeGalarianAnimationExtra: INCLUDE "gfx/pokemon/mr__mime_galarian/anim_idle.asm"

@@ -388,8 +388,8 @@ CAliceGalarianBitmasks: INCLUDE "gfx/pokemon/calice_galarian/bitmask.asm"
 CMaiPlainBitmasks:     INCLUDE "gfx/pokemon/cmai_plain/bitmask.asm"
 CMaiGalarianBitmasks:  INCLUDE "gfx/pokemon/cmai_galarian/bitmask.asm"
 
-CPatchouliPlainBitmasks:    INCLUDE "gfx/pokemon/weezing_plain/bitmask.asm"
-CPatchouliGalarianBitmasks: INCLUDE "gfx/pokemon/weezing_galarian/bitmask.asm"
+CPatchouliPlainBitmasks:    INCLUDE "gfx/pokemon/cpatchouli_plain/bitmask.asm"
+CPatchouliGalarianBitmasks: INCLUDE "gfx/pokemon/cpatchouli_galarian/bitmask.asm"
 
 MrMimePlainBitmasks:    INCLUDE "gfx/pokemon/mr__mime_plain/bitmask.asm"
 MrMimeGalarianBitmasks: INCLUDE "gfx/pokemon/mr__mime_galarian/bitmask.asm"

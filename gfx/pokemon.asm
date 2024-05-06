@@ -1392,12 +1392,12 @@ SirfetchDFrontpic: INCBIN "gfx/pokemon/sirfetch_d/front.animated.2bpp.lz"
 SirfetchDBackpic:  INCBIN "gfx/pokemon/sirfetch_d/back.2bpp.lz"
 
 SECTION "CPatchouliPlain Pics", ROMX
-CPatchouliPlainFrontpic: INCBIN "gfx/pokemon/weezing_plain/front.animated.2bpp.lz"
-CPatchouliPlainBackpic:  INCBIN "gfx/pokemon/weezing_plain/back.2bpp.lz"
+CPatchouliPlainFrontpic: INCBIN "gfx/pokemon/cpatchouli_plain/front.animated.2bpp.lz"
+CPatchouliPlainBackpic:  INCBIN "gfx/pokemon/cpatchouli_plain/back.2bpp.lz"
 
 SECTION "CPatchouliGalarian Pics", ROMX
-CPatchouliGalarianFrontpic: INCBIN "gfx/pokemon/weezing_galarian/front.animated.2bpp.lz"
-CPatchouliGalarianBackpic:  INCBIN "gfx/pokemon/weezing_galarian/back.2bpp.lz"
+CPatchouliGalarianFrontpic: INCBIN "gfx/pokemon/cpatchouli_galarian/front.animated.2bpp.lz"
+CPatchouliGalarianBackpic:  INCBIN "gfx/pokemon/cpatchouli_galarian/back.2bpp.lz"
 
 SECTION "MrMimePlain Pics", ROMX
 MrMimePlainFrontpic: INCBIN "gfx/pokemon/mr__mime_plain/front.animated.2bpp.lz"

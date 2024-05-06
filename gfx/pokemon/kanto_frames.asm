@@ -224,8 +224,8 @@ CAliceGalarianFrames: INCLUDE "gfx/pokemon/calice_galarian/frames.asm"
 CMaiPlainFrames:    INCLUDE "gfx/pokemon/cmai_plain/frames.asm"
 CMaiGalarianFrames: INCLUDE "gfx/pokemon/cmai_galarian/frames.asm"
 
-CPatchouliPlainFrames:    INCLUDE "gfx/pokemon/weezing_plain/frames.asm"
-CPatchouliGalarianFrames: INCLUDE "gfx/pokemon/weezing_galarian/frames.asm"
+CPatchouliPlainFrames:    INCLUDE "gfx/pokemon/cpatchouli_plain/frames.asm"
+CPatchouliGalarianFrames: INCLUDE "gfx/pokemon/cpatchouli_galarian/frames.asm"
 
 MrMimePlainFrames:    INCLUDE "gfx/pokemon/mr__mime_plain/frames.asm"
 MrMimeGalarianFrames: INCLUDE "gfx/pokemon/mr__mime_galarian/frames.asm"

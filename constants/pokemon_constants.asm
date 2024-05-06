@@ -466,7 +466,7 @@ DEF GALARIAN_FORM EQU 3
 	const_skip ; 174 eluize
 	const_skip ; 175 calice
 	const_skip ; 176 farfetch'd
-	const_skip ; 177 weezing
+	const_skip ; 177 cpatchouli
 	const_skip ; 178 mr. mime
 	const_skip ; 179 articuno
 	const_skip ; 17a zapdos
