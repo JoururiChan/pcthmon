@@ -2290,7 +2290,7 @@ EYumekoEvosAttacks:
 CShinkiEvosAttacks:
 	evo_data EVOLVE_LEVEL, 28, SHINKI
 	db -1 ; no more evolutions
-	db 1, CONFUSION
+	db 1, PSYSHOT
 	db 1, ENDURE
 	db 6, ABSORB
 	db 11, TOXIC_GAS
@@ -2312,7 +2312,7 @@ CShinkiEvosAttacks:
 ShinkiEvosAttacks:
 	evo_data EVOLVE_LEVEL, 44, ESHINKI
 	db -1 ; no more evolutions
-	db 1, CONFUSION
+	db 1, PSYSHOT
 	db 1, ENDURE
 	db 6, ABSORB
 	db 11, TOXIC_GAS
@@ -2333,7 +2333,7 @@ ShinkiEvosAttacks:
 
 EShinkiEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, CONFUSION
+	db 1, PSYSHOT
 	db 1, ENDURE
 	db 6, ABSORB
 	db 11, TOXIC_GAS
