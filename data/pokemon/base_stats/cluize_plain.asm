@@ -1,17 +1,17 @@
-	db  50,  85,  55,  90,  65,  65 ; 410 BST
+	db  39,  25,  25,  40,  50,  40 ; 410 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db NORMAL, NORMAL ; type
-	db 190 ; catch rate
-	db 152 ; base exp
+	db 255 ; catch rate
+	db 59 ; base exp
 	db NO_ITEM, MARANGABERRY ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for CLUIZE, RUN_AWAY, FLASH_FIRE, FLAME_BODY
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for CLUIZE, IMMUNITY, OWN_TEMPO, THICK_FAT
+	db GROWTH_FAST ; growth rate
+	dn EGG_INDETERMINATE, EGG_FAIRY ; egg groups
 
-	ev_yield 1 Spe
+	ev_yield 1 SDf
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, PROTECT, FLOWER_SHOOT, IRON_TAIL, RETURN, DOUBLE_TEAM, REFLECT, METEOR_FALL, HELL_TOKAMAK, SWIFT, SUBSTITUTE, FACADE, FLAME_CHARGE, REST, ATTRACT, KNIFE_THROW, WILL_O_WISP, STRENGTH, SAKUYA_WORLD, BODY_SLAM, CHARM, DOUBLE_EDGE, ENDURE, HEADBUTT, PAY_DAY, SLEEP_TALK, SWAGGER

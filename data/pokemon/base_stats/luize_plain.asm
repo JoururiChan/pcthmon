@@ -1,17 +1,17 @@
-	db  65, 100,  70, 105,  80,  80 ; 500 BST
+	db  57,  31,  30,  60,  75,  57 ; 410 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db NORMAL, NORMAL ; type
-	db 60 ; catch rate
-	db 192 ; base exp
+	db 255 ; catch rate
+	db 91 ; base exp
 	db NO_ITEM, MARANGABERRY ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for LUIZE, RUN_AWAY, FLASH_FIRE, FLAME_BODY
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	abilities_for LUIZE, IMMUNITY, OWN_TEMPO, THICK_FAT
+	db GROWTH_FAST ; growth rate
+	dn EGG_INDETERMINATE, EGG_FAIRY ; egg groups
 
-	ev_yield 2 Spe
+	ev_yield 2 SDf
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, AEROBLAST, PROTECT, FLOWER_SHOOT, IRON_TAIL, RETURN, DOUBLE_TEAM, REFLECT, METEOR_FALL, HELL_TOKAMAK, SWIFT, SUBSTITUTE, FACADE, FLAME_CHARGE, REST, ATTRACT, KNIFE_THROW, WILL_O_WISP, POISON_JAB, GUNGNIR, SWORDS_DANCE, STRENGTH, SAKUYA_WORLD, BATON_PASS, BODY_SLAM, CHARM, DOUBLE_EDGE, ENDURE, HEADBUTT, PAY_DAY, SLEEP_TALK, SWAGGER

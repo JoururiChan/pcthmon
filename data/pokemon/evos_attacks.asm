@@ -1760,6 +1760,7 @@ SaraPlainEvosAttacks:
 	db -1 ; no more level-up moves
 
 ESaraPlainEvosAttacks:
+	db -1 ; no more evolutions
 	db 1, RAGE
 	db 1, FIRE_PUNCH ; evo move
 	db 1, LEER
@@ -2289,62 +2290,66 @@ EYumekoEvosAttacks:
 CShinkiEvosAttacks:
 	evo_data EVOLVE_LEVEL, 28, SHINKI
 	db -1 ; no more evolutions
-	db 1, HYPNOSIS
-	db 1, LICK
-	db 5, DISABLE ; Spite → egg move
-	db 8, MEAN_LOOK
-	db 12, CURSE
-	db 15, NIGHT_SHADE
-	db 19, CONFUSE_RAY
-	db 22, SUCKER_PUNCH
-	db 26, LIFE_BALANCE ; Payback → HGSS tutor move
-	db 29, SHADOW_BALL
-	db 33, DREAM_EATER
-	db 36, DARK_PULSE
-	db 40, DESTINY_BOND
-	db 43, HEX
-	db 47, SHADOW_DANCE ; Nightmare → new move
+	db 1, CONFUSION
+	db 1, ENDURE
+	db 6, ABSORB
+	db 11, TOXIC_GAS
+	db 15, BARRIER
+	db 18, SLEEP_POWDER
+	db 21, PSYBEAM
+	db 25, BLACK_RIPPLE
+	db 29, TELEPORT
+	db 33, HAZE
+	db 37, THUNDER_WAVE
+	db 41, CONFUSE_RAY
+	db 45, PSYCHIC_M
+	db 48, DARK_PULSE
+	db 52, DREAM_EATER
+	db 55, EXTRASENSORY
+	db 59, HELL_TOKAMAK 
 	db -1 ; no more level-up moves
 
 ShinkiEvosAttacks:
 	evo_data EVOLVE_LEVEL, 44, ESHINKI
 	db -1 ; no more evolutions
-	db 1, SHADOW_HIT ; Shadow Punch → TM move ; evolution move
-	db 1, HYPNOSIS
-	db 1, LICK
-	db 5, DISABLE ; Spite → egg move
-	db 8, MEAN_LOOK
-	db 12, CURSE
-	db 15, NIGHT_SHADE
-	db 19, CONFUSE_RAY
-	db 22, SUCKER_PUNCH
-	db 28, LIFE_BALANCE ; Payback → HGSS tutor move
-	db 33, SHADOW_BALL
-	db 39, DREAM_EATER
-	db 44, DARK_PULSE
-	db 50, DESTINY_BOND
-	db 55, HEX
-	db 61, SHADOW_DANCE ; Nightmare → new move
+	db 1, CONFUSION
+	db 1, ENDURE
+	db 6, ABSORB
+	db 11, TOXIC_GAS
+	db 15, BARRIER
+	db 18, SLEEP_POWDER
+	db 21, PSYBEAM
+	db 25, BLACK_RIPPLE
+	db 29, TELEPORT
+	db 33, HAZE
+	db 37, THUNDER_WAVE
+	db 41, CONFUSE_RAY
+	db 45, PSYCHIC_M
+	db 48, DARK_PULSE
+	db 52, DREAM_EATER
+	db 55, EXTRASENSORY
+	db 59, HELL_TOKAMAK 
 	db -1 ; no more level-up moves
 
 EShinkiEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, SHADOW_HIT ; Shadow Punch → TM move ; evolution move
-	db 1, HYPNOSIS
-	db 1, LICK
-	db 5, DISABLE ; Spite → egg move
-	db 8, MEAN_LOOK
-	db 12, CURSE
-	db 15, NIGHT_SHADE
-	db 19, CONFUSE_RAY
-	db 22, SUCKER_PUNCH
-	db 28, LIFE_BALANCE ; Payback → HGSS tutor move
-	db 33, SHADOW_BALL
-	db 39, DREAM_EATER
-	db 44, DARK_PULSE
-	db 50, DESTINY_BOND
-	db 55, HEX
-	db 61, SHADOW_DANCE ; Nightmare → new move
+	db 1, CONFUSION
+	db 1, ENDURE
+	db 6, ABSORB
+	db 11, TOXIC_GAS
+	db 15, BARRIER
+	db 18, SLEEP_POWDER
+	db 21, PSYBEAM
+	db 25, BLACK_RIPPLE
+	db 29, TELEPORT
+	db 33, HAZE
+	db 37, THUNDER_WAVE
+	db 41, CONFUSE_RAY
+	db 45, PSYCHIC_M
+	db 48, DARK_PULSE
+	db 52, DREAM_EATER
+	db 55, EXTRASENSORY
+	db 59, HELL_TOKAMAK 
 	db -1 ; no more level-up moves
 
 CRumiaEvosAttacks:

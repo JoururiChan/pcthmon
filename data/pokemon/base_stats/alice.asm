@@ -1,21 +1,17 @@
-	db  25,  35,  70,  45,  95,  55 ; 325 BST
+	db  90,  55,  100,  30, 50,  100 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ELECTRIC, STEEL ; type
-	db 190 ; catch rate
-	db 89 ; base exp
-	db NO_ITEM, METAL_COAT ; held items
-	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db STEEL, FIRE ; type
+	db 160 ; catch rate
+	db 190 ; base exp
+	db NO_ITEM, KINGS_ROCK ; held items
+	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
-	abilities_for ALICE, MAGNET_PULL, STURDY, ANALYTIC
-else
-	abilities_for ALICE, MAGNET_PULL, LEVITATE, ANALYTIC
-endc
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_MINERAL, EGG_MINERAL ; egg groups
+	abilities_for ALICE, MAGIC_BARRIER, MAGIC_BARRIER, MAGIC_BARRIER
+	db GROWTH_SLOW ; growth rate
+	dn EGG_FAIRY, EGG_MINERAL ; egg groups
 
-	ev_yield 1 SAt
+	ev_yield 2 Def
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, LIGHT_SCREEN, PROTECT, RAIN_DANCE, THUNDERBOLT, THUNDER, RETURN, DOUBLE_TEAM, REFLECT, FLASH_CANNON, SWIFT, SUBSTITUTE, FACADE, REST, KNIFE_THROW, EXPLOSION, FLASH, VOLT_SWITCH, THUNDER_WAVE, GYRO_BALL, SAKUYA_WORLD, DOUBLE_EDGE, ENDURE, ROLLOUT, SLEEP_TALK, SWAGGER, ZAP_CANNON

@@ -1,17 +1,17 @@
-	db  30,  65, 100,  40,  45,  25 ; 305 BST
+	db  49, 110,  45,  110,  35,  39 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, WATER ; type
-	db 190 ; catch rate
-	db 97 ; base exp
-	db PEARL, BIG_PEARL ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db STEEL, FIRE ; type
+	db 60 ; catch rate
+	db 171 ; base exp
+	db BLACK_SLUDGE, NUGGET ; held items
+	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for YUMEKO, SHELL_ARMOR, SKILL_LINK, OVERCOAT
-	db GROWTH_SLOW ; growth rate
-	dn EGG_WATER_3, EGG_WATER_3 ; egg groups
+	abilities_for YUMEKO, BATTLE_ARMOR, BATTLE_ARMOR, TECHNICIAN
+	db GROWTH_FAST ; growth rate
+	dn EGG_MINERAL, EGG_MONSTER ; egg groups
 
-	ev_yield 1 Def
+	ev_yield 2 Atk
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HAIL, HIDDEN_POWER, ICE_BEAM, BLIZZARD, PROTECT, RAIN_DANCE, RETURN, DOUBLE_TEAM, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, WATER_PULSE, EXPLOSION, AVALANCHE, SURF, WHIRLPOOL, WATERFALL, DOUBLE_EDGE, ENDURE, ICY_WIND, ROLLOUT, SLEEP_TALK, SWAGGER

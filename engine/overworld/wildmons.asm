@@ -481,7 +481,7 @@ ApplyAbilityEffectsOnEncounterMon:
 	dbw STATIC,        .Static
 	dbw STENCH,        .Stench
 	dbw VITAL_SPIRIT,  .VitalSpirit
-	dbw WHITE_SMOKE,   .WhiteSmoke
+	dbw MAGIC_BARRIER,   .MagicBarrier
 	dbw -1, -1
 
 .ArenaTrap:
@@ -496,7 +496,7 @@ ApplyAbilityEffectsOnEncounterMon:
 .Infiltrator:
 .QuickFeet:
 .Stench:
-.WhiteSmoke:
+.MagicBarrier:
 .halve_encounter_rate
 	srl b
 .avoid_rate_underflow

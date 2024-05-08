@@ -1,17 +1,17 @@
-	db  80,  80,  50,  25,  40,  50 ; 325 BST
+	db  70,  130,  40,  115,  125,  90 ; 325 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db POISON, POISON ; type
-	db 190 ; catch rate
-	db 90 ; base exp
-	db BLACK_SLUDGE, NUGGET ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db FIRE, FIRE ; type
+	db 105 ; catch rate
+	db 220 ; base exp
+	db NO_ITEM, RAWST_BERRY ; held items
+	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for EYUKI, STENCH, COLLECTOR, POISON_TOUCH
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
+	abilities_for EYUKI, BLAZE, BLAZE, INTIMIDATE
+	db GROWTH_FAST ; growth rate
+	dn EGG_MONSTER, EGG_GROUND ; egg groups
 
-	ev_yield 1 HP
+	ev_yield 3 SAt
 
 	; tm/hm learnset
 	tmhm DYNAMICPUNCH, CURSE, TOXIC,  HIDDEN_POWER, SUNNY_DAY, PROTECT, RAIN_DANCE, GIGA_DRAIN, THUNDERBOLT, THUNDER, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, METEOR_FALL, SLUDGE_BOMB, HELL_TOKAMAK, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROCK_SLIDE, EXPLOSION, POISON_JAB, STRENGTH, BODY_SLAM, ENDURE, FIRE_PUNCH, ICE_PUNCH, SLEEP_TALK, SWAGGER, THUNDERPUNCH, ZAP_CANNON

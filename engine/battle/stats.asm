@@ -96,7 +96,7 @@ FarChangeStat:
 	call GetOpponentAbilityAfterMoldBreaker
 	cp HAKUREI_MIKO
 	jr z, .ability_immune
-	cp WHITE_SMOKE
+	cp MAGIC_BARRIER
 	jr z, .ability_immune
 	cp HYPER_CUTTER
 	ld c, ATTACK

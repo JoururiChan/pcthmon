@@ -1,21 +1,17 @@
-	db  50,  60,  95,  70, 120,  70 ; 465 BST
+	db  115,  75,  110,  55, 90, 140 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ELECTRIC, STEEL ; type
-	db 60 ; catch rate
-	db 161 ; base exp
-	db NO_ITEM, METAL_COAT ; held items
-	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db STEEL, FIRE ; type
+	db 160 ; catch rate
+	db 240 ; base exp
+	db NO_ITEM, KINGS_ROCK ; held items
+	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-if DEF(FAITHFUL)
-	abilities_for EALICE, MAGNET_PULL, STURDY, ANALYTIC
-else
-	abilities_for EALICE, MAGNET_PULL, LEVITATE, ANALYTIC
-endc
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_MINERAL, EGG_MINERAL ; egg groups
+	abilities_for EALICE, MAGIC_BARRIER, MAGIC_BARRIER, MAGIC_BARRIER
+	db GROWTH_SLOW ; growth rate
+	dn EGG_FAIRY, EGG_MINERAL ; egg groups
 
-	ev_yield 2 SAt
+	ev_yield 1 Def
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, AEROBLAST, LIGHT_SCREEN, PROTECT, RAIN_DANCE, THUNDERBOLT, THUNDER, RETURN, DOUBLE_TEAM, REFLECT, FLASH_CANNON, SWIFT, SUBSTITUTE, FACADE, REST, KNIFE_THROW, EXPLOSION, GUNGNIR, FLASH, VOLT_SWITCH, THUNDER_WAVE, GYRO_BALL, SAKUYA_WORLD, DOUBLE_EDGE, ENDURE, ROLLOUT, SLEEP_TALK, SWAGGER, ZAP_CANNON

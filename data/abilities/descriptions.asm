@@ -66,7 +66,7 @@ AbilityDescriptions:
 	dw DroughtDescription
 	dw ArenaTrapDescription
 	dw VitalSpiritDescription
-	dw WhiteSmokeDescription
+	dw MagicBarrierDescription
 	dw ShellArmorDescription
 	dw TangledFeetDescription
 	dw MotorDriveDescription
@@ -290,7 +290,7 @@ SynchronizeDescription:
 	done
 
 HakureiMikoDescription:
-WhiteSmokeDescription:
+MagicBarrierDescription:
 	text  "Prevents foes from"
 	next1 "lowering stats."
 	done

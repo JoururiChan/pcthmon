@@ -30,49 +30,49 @@
 
 	def_water_wildmons UNION_CAVE_B2F
 	db 4 percent ; encounter rate
-	wildmon 15, GENGETSU
+	wildmon 15, CSANAE
 	wildmon 20, QUAGSIRE
-	wildmon 20, EGENGETSU
+	wildmon 20, SANAE
 	end_water_wildmons
 
 	def_water_wildmons ELUIZE_WELL_B1F
 	db 2 percent ; encounter rate
-	wildmon 15, ELUIZE
-	wildmon 20, ELUIZE
-	wildmon 10, ELUIZE
+	wildmon 15, CSANAE
+	wildmon 20, SANAE
+	wildmon 10, CSANAE
 	end_water_wildmons
 
 	def_water_wildmons ELUIZE_WELL_B2F
 	db 2 percent ; encounter rate
-	wildmon 15, ELUIZE
-	wildmon 20, ELUIZE
-	wildmon 20, CALICE
+	wildmon 15, CCHIYURI
+	wildmon 20, CCHIYURI
+	wildmon 20, CCHIYURI
 	end_water_wildmons
 
 	def_water_wildmons ILEX_FOREST
 	db 2 percent ; encounter rate
-	wildmon 15, YUMEMI
-	wildmon 10, YUMEMI
-	wildmon 15, EYUMEMI
+	wildmon 15, CYUMEMI
+	wildmon 10, CYUMEMI
+	wildmon 15, CYUMEMI
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 4 percent ; encounter rate
-	wildmon 20, EFLANDRE
+	wildmon 20, CCIRNO
 	wildmon 20, MARILL
 	wildmon 20, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_2F_INSIDE
 	db 2 percent ; encounter rate
-	wildmon 20, EFLANDRE
+	wildmon 20, CCIRNO
 	wildmon 25, MARILL
 	wildmon 25, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_B1F
 	db 2 percent ; encounter rate
-	wildmon 15, EFLANDRE
+	wildmon 15, CCIRNO
 	wildmon 20, MARILL
 	wildmon 20, SEAKING
 	end_water_wildmons
@@ -123,7 +123,7 @@
 	db 3 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, YUMEMI
 	wildmon LEVEL_FROM_BADGES - 5, YUMEMI
-	wildmon LEVEL_FROM_BADGES + 0, EYUMEMI
+	wildmon LEVEL_FROM_BADGES + 0, YUMEMI
 	end_water_wildmons
 
 	def_water_wildmons DRAGONS_DEN_B1F
@@ -135,51 +135,51 @@
 
 	def_water_wildmons OLIVINE_PORT
 	db 2 percent ; encounter rate
-	wildmon 20, GENGETSU
-	wildmon 15, GENGETSU
-	wildmon 20, EGENGETSU
+	wildmon 20, CPATCHOULI
+	wildmon 15, CPATCHOULI
+	wildmon 20, CPATCHOULI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_30
 	db 2 percent ; encounter rate
-	wildmon 20, KURUMI
-	wildmon 15, KURUMI
-	wildmon 20, EKURUMI
+	wildmon 20, CMAI
+	wildmon 15, CMAI
+	wildmon 20, CMAI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_31
 	db 2 percent ; encounter rate
-	wildmon 20, KURUMI
-	wildmon 15, KURUMI
-	wildmon 20, EKURUMI
+	wildmon 20, CMAI
+	wildmon 15, CMAI
+	wildmon 20, CMAI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_32
 	db 4 percent ; encounter rate
-	wildmon 15, GENGETSU
+	wildmon 15, CMAI
 	wildmon 20, QUAGSIRE
-	wildmon 20, EGENGETSU
+	wildmon 20, CMAI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_34
 	db 4 percent ; encounter rate
-	wildmon 20, GENGETSU
-	wildmon 15, GENGETSU
-	wildmon 20, EGENGETSU
+	wildmon 20, CCIRNO
+	wildmon 15, CCIRNO
+	wildmon 20, CCIRNO
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
-	wildmon 20, YUMEMI
-	wildmon 15, YUMEMI
-	wildmon 20, EYUMEMI
+	wildmon 20, CYUMEMI
+	wildmon 15, CYUMEMI
+	wildmon 20, CYUMEMI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_40
 	db 3 percent ; encounter rate
-	wildmon 20, GENGETSU
-	wildmon 20, STARYU
-	wildmon 20, EGENGETSU
+	wildmon 20, CYUMEMI
+	wildmon 20, CYUMEMI
+	wildmon 20, CMAI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_41
