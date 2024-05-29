@@ -156,9 +156,9 @@
 
 	def_water_wildmons ROUTE_32
 	db 4 percent ; encounter rate
-	wildmon 15, CMAI
+	wildmon 15, CCIRNO
 	wildmon 20, QUAGSIRE
-	wildmon 20, CMAI
+	wildmon 20, CCIRNO
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_34

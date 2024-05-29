@@ -1977,7 +1977,7 @@ Lyra1Group:
 	dbp 16, CMAGAN
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 Spe
-	dbp 17, EORANGE
+	dbp 17, CORANGE
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 Atk
 	dbp 15, MAREEP
@@ -2346,10 +2346,10 @@ BugCatcherGroup:
 	db "Wade@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 2, CKOTOHIME
-	dbp 2, CKOTOHIME
+	dbp 2, CDAICHAN
+	dbp 2, CDAICHAN
 	dbp 3, CKANA
-	dbp 2, CKOTOHIME
+	dbp 2, CCIRNO
 	db -1 ; end
 
 	; BUG_CATCHER
@@ -2411,7 +2411,7 @@ BugCatcherGroup:
 	db "Arnie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CKOTOHIME
+	dbp 20, CSARIEL
 	db -1 ; end
 
 	; BUG_CATCHER
@@ -2559,9 +2559,9 @@ CamperGroup:
 	db "Ivan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 11, CCHIYURI
+	dbp 11, CKOAKUMA
 	dbp 11, CMEIRA
-	dbp 15, CCHIYURI
+	dbp 15, CKOAKUMA
 	db -1 ; end
 
 	; CAMPER
@@ -2701,7 +2701,7 @@ PicnickerGroup:
 	db "Liz@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, CSANAE
+	dbp 10, CKOAKUMA
 	db -1 ; end
 
 	; PICNICKER
@@ -2746,8 +2746,8 @@ PicnickerGroup:
 	db "Gina@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, SANAE
-	dbp 9, SANAE
+	dbp 9, CDAICHAN
+	dbp 9, CDAICHAN
 	dbp 12, CYUKA
 	db -1 ; end
 
@@ -3217,7 +3217,7 @@ FisherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 9, CCHIYURI
-	dbp 9, CSANAE
+	dbp 9, CCIRNO
 	db -1 ; end
 
 	; FISHER
@@ -3480,7 +3480,7 @@ BirdKeeperGroup:
 	db "Abe@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, CELIS
+	dbp 9, CREMILIA
 	db -1 ; end
 
 	; BIRD_KEEPER
@@ -3500,15 +3500,15 @@ BirdKeeperGroup:
 	; party
 	dbp 16, CSHINKI
 	dbp 17, CRIKAKO
-	dbp 18, CSARIEL
+	dbp 18, CREMILIA
 	db -1 ; end
 
 	; BIRD_KEEPER
 	db "Denis@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, CELIS
-	dbp 20, CELIS
+	dbp 18, CREMILIA
+	dbp 20, CFLANDRE
 	dbp 18, CRIKAKO
 	db -1 ; end
 
@@ -3762,7 +3762,7 @@ HikerGroup:
 	; party
 	dbp 6, CSARA
 	dbp 8, CRUMIA
-	dbp 10, CSARA
+	dbp 10, CMEILING
 	db -1 ; end
 
 	; HIKER
@@ -3771,7 +3771,7 @@ HikerGroup:
 	; party
 	dbp 23, SARA
 	dbp 23, SARA
-	dbp 25, SARA
+	dbp 25, MEILING
 	db -1 ; end
 
 	; HIKER
@@ -3822,7 +3822,7 @@ HikerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 15, CSARA
-	dbp 15, CSARA
+	dbp 15, CMEILING
 	dbp 15, CYUMEKO
 	dbp 17, CMEIRA
 	db -1 ; end
@@ -3873,7 +3873,7 @@ HikerGroup:
 	db "Daniel@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 12, CMEIRA
+	dbp 12, CMEILING
 	db -1 ; end
 
 	; HIKER
@@ -4013,7 +4013,7 @@ GruntMGroup:
 	; party
 	dbp 8, CMEIRA
 	dbp 9, CRIKA
-	dbp 10, CMAI
+	dbp 10, CKOAKUMA
 	db -1 ; end
 
 	; GRUNTM
@@ -4256,7 +4256,7 @@ GruntMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 10, CMIMA
-	dbp 10, CCHIYURI
+	dbp 10, CRUMIA
 	db -1 ; end
 
 	; GRUNTM
@@ -4285,7 +4285,7 @@ GruntFGroup:
 	db "Grunt@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, CYUMEMI
+	dbp 10, CRUMIA
 	dbp 12, CYUKI
 	db -1 ; end
 
@@ -4343,7 +4343,7 @@ PokefanMGroup:
 	db "Derek@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 18, CKANA
+	dbp 18, CPATCHOULI
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4351,7 +4351,7 @@ PokefanMGroup:
 	db "Derek@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 19, CKANA
+	dbp 19, CPATCHOULI
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4563,7 +4563,7 @@ OfficerMGroup:
 	db "Keith@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 15, CKURUMI
+	dbp 15, CMEILING
 	dbp 15, CKOTOHIME
 	db -1 ; end
 
@@ -4592,7 +4592,7 @@ OfficerFGroup:
 	db "Mara@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, CSARA
+	dbp 17, CMEILING
 	db -1 ; end
 
 	; OFFICERF
@@ -5207,8 +5207,8 @@ BeautyGroup:
 	db "Victoria@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, SENTRET
-	dbp 13, SENTRET
+	dbp 9, CFLANDRE
+	dbp 13, CFLANDRE
 	dbp 17, CRIKA
 	db -1 ; end
 
@@ -5252,7 +5252,7 @@ BeautyGroup:
 	db "Olivia@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 19, CYUMEKO
+	dbp 19, CPATCHOULI
 	db -1 ; end
 
 	; BEAUTY
@@ -5570,7 +5570,7 @@ FirebreatherGroup:
 	db "Jay@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 26, ALICE
+	dbp 26, YUKI
 	db -1 ; end
 
 	; FIREBREATHER
@@ -5667,7 +5667,7 @@ SchoolboyGroup:
 	db "Jack@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 12, CMEIRA
+	dbp 12, CRUMIA
 	dbp 15, CRUMIA
 	db -1 ; end
 
@@ -5675,7 +5675,7 @@ SchoolboyGroup:
 	db "Jack@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 14, CKOTOHIME
+	dbp 14, CCIRNO
 	dbp 17, CDAICHAN
 	db -1 ; end
 
@@ -5768,7 +5768,7 @@ SchoolboyGroup:
 	db "Chad@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, MR__MIME
+	dbp 20, CREMILIA
 	dbp 20, ALICE
 	db -1 ; end
 
@@ -6029,8 +6029,8 @@ PsychicGroup:
 	db "Norman@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, CRIKAKO
-	dbp 20, CRIKAKO
+	dbp 17, CKOAKUMA
+	dbp 20, CPATCHOULI
 	db -1 ; end
 
 	; PSYCHIC_T
@@ -6919,7 +6919,7 @@ SailorGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 18, CCHIYURI
-	dbp 20, SANAE
+	dbp 20, CIRNO
 	db -1 ; end
 
 	; SAILOR
@@ -8238,9 +8238,9 @@ EngineerGroup:
 	db TRAINERTYPE_PERSONALITY
 	; party
 	dbp LEVEL_FROM_BADGES + 1, EDAICHAN, MALE
-		db ABIL_EDAICHAN_AFTERMATH | NAT_NEUTRAL
+		db ABIL_EDAICHAN_SERENE_GRACE | NAT_NEUTRAL
 	dbp LEVEL_FROM_BADGES + 1, EDAICHAN, MALE
-		db ABIL_EDAICHAN_AFTERMATH | NAT_NEUTRAL
+		db ABIL_EDAICHAN_SERENE_GRACE | NAT_NEUTRAL
 	dbp LEVEL_FROM_BADGES + 3, ALICE, MALE
 		db ABILITY_2 | NAT_NEUTRAL
 	db -1 ; end
@@ -8250,9 +8250,9 @@ EngineerGroup:
 	db TRAINERTYPE_PERSONALITY
 	; party
 	dbp LEVEL_FROM_BADGES + 1, EDAICHAN, MALE
-		db ABIL_EDAICHAN_AFTERMATH | NAT_NEUTRAL
+		db ABIL_EDAICHAN_SERENE_GRACE | NAT_NEUTRAL
 	dbp LEVEL_FROM_BADGES + 1, EDAICHAN, MALE
-		db ABIL_EDAICHAN_AFTERMATH | NAT_NEUTRAL
+		db ABIL_EDAICHAN_SERENE_GRACE | NAT_NEUTRAL
 	dbp LEVEL_FROM_BADGES + 3, ALICE, MALE
 		db ABILITY_2 | NAT_NEUTRAL
 	db -1 ; end
@@ -10042,13 +10042,13 @@ MysticalmanGroup:
 	db TRAINERTYPE_ITEM | TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
 	dbp 27, RUMIA, MALE
-		db EVIOLITE, FAKE_PERFECT_DVS, ABIL_RUMIA_INSOMNIA | NAT_NEUTRAL
+		db EVIOLITE, FAKE_PERFECT_DVS, ABIL_RUMIA_LEVITATE | NAT_NEUTRAL
 		db DREAM_EATER, HYPNOSIS, DISABLE, PSYBEAM
 	dbp 27, SHINKI, MALE
 		db SPELL_TAG, FAKE_PERFECT_DVS, ABIL_SHINKI_PRESSURE | NAT_NEUTRAL
 		db SHADOW_BALL, HYPNOSIS, CONFUSE_RAY, CURSE
 	dbp 28, CCIRNO, MALE
-		db MAGNET, FAKE_PERFECT_DVS, SHINY_MASK | ABIL_CCIRNO_AFTERMATH | NAT_NEUTRAL
+		db MAGNET, FAKE_PERFECT_DVS, SHINY_MASK | ABIL_CCIRNO_SPEED_BOOST | NAT_NEUTRAL
 		db THUNDER, SCREECH, SONIC_BOOM, ROLLOUT
 	dbp 29, CYUKA, MALE
 		db TWISTEDSPOON, DVS_HP_FIGHTING, ABIL_CYUKA_OVERGROW | NAT_NEUTRAL

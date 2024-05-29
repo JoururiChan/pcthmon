@@ -410,53 +410,53 @@ CKotohimeTohodexEntry::
 
 SECTION "KotohimeTohodexEntry", ROMX
 KotohimeTohodexEntry::
-	db "Bat@"
-	db   "However hard its"
-	next "victim's hide may"
-	next "be, it punctures"
-	page "with sharp fangs"
-	next "and gorges itself"
-	next "with blood.@"
+	db "Princess@"
+	db   "It excels at"
+	next "being a princess"
+	next "at this time, but"
+	page "is still training"
+	next "to become a"
+	next "police officer.@"
 
 SECTION "EKotohimeTohodexEntry", ROMX
 EKotohimeTohodexEntry::
-	db "Weed@"
-	db   "During the day, it"
-	next "stays in the cold"
-	next "underground to"
-	page "avoid the sun."
-	next "It grows by bath-"
-	next "ing in moonlight.@"
+	db "Hardworker@"
+	db   "It is now both a"
+	next "princess and part"
+	next "of the police."
+	page "No one usually"
+	next "takes them"
+	next "seriously though.@"
 
 SECTION "CKanaTohodexEntry", ROMX
 CKanaTohodexEntry::
-	db "Weed@"
-	db   "The smell from its"
-	next "drool-like syrup"
-	next "and the pollen on"
-	page "its petals is so"
-	next "bad, it may make"
-	next "opponents faint.@"
+	db "Tiny Ghost@"
+	db   "These #mon"
+	next "were known in"
+	next "the past to be"
+	page "nuisances for"
+	next "haunting newly-"
+	next "made mansions.@"
 
 SECTION "KanaTohodexEntry", ROMX
 KanaTohodexEntry::
-	db "Flower@"
-	db   "By shaking its big"
-	next "petals, it scat-"
-	next "ters toxic pollen"
-	page "into the air,"
-	next "turning the air"
-	next "yellow.@"
+	db "Poltergeist@"
+	db   "Kana #mon are"
+	next "very close to"
+	next "all the band"
+	page "poltergeist"
+	next "#mon due to"
+	next "similar history.@"
 
 SECTION "EKanaTohodexEntry", ROMX
 EKanaTohodexEntry::
-	db "Mushroom@"
-	db   "The tochukaso"
-	next "growing on this"
-	next "#mon's back"
-	page "orders it to"
-	next "extract juice from"
-	next "tree trunks.@"
+	db "Poltergeist@"
+	db   "Though not as"
+	next "adept at music,"
+	next "it is very good"
+	page "at inducing fear"
+	next "on those it chooses"
+	next "to do so on.@"
 
 SECTION "CRikakoTohodexEntry", ROMX
 CRikakoTohodexEntry::
