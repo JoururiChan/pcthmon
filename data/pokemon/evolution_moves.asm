@@ -92,31 +92,31 @@ EvolutionMoves::
 	db FIRE_PUNCH     ; YUMEKO
 	db NO_MOVE       ; EYUMEKO
 	db NO_MOVE      ; CSHINKI
-	db SHADOW_HIT  ; SHINKI
-	db SHADOW_HIT  ; ESHINKI
+	db NO_MOVE  ; SHINKI
+	db NO_MOVE  ; ESHINKI
 	db NO_MOVE      ; CRUMIA
-	db NO_MOVE      ; RUMIA
+	db TOXIC_GAS      ; RUMIA
 	db NO_MOVE      ; ERUMIA
 	db NO_MOVE      ; CDAICHAN
 	db NO_MOVE      ; DAICHAN
 	db NO_MOVE      ; EDAICHAN
 	db NO_MOVE      ; CCIRNO
-	db NO_MOVE      ; CIRNO
-	db STOMP        ; ECIRNO
+	db ACROBATICS     ; CIRNO
+	db NO_MOVE       ; ECIRNO
 	db NO_MOVE      ; CMEILING
-	db SWORDS_DANCE ; MEILING
-	db DOUBLE_KICK  ; EMEILING
-	db DIZZY_PUNCH  ; CKOAKUMA
-	db NO_MOVE      ; KOAKUMA
+	db NO_MOVE ; MEILING
+	db OUTRAGE ; EMEILING
+	db NO_MOVE  ; CKOAKUMA
+	db WING_ATTACK      ; KOAKUMA
 	db NO_MOVE      ; EKOAKUMA
 	db NO_MOVE      ; CPATCHOULI
 	db NO_MOVE      ; PATCHOULI
-	db OUTRAGE      ; EPATCHOULI
+	db NO_MOVE      ; EPATCHOULI
 	db NO_MOVE      ; CREMILIA
-	db NO_MOVE      ; REMILIA
+	db WING_ATTACK      ; REMILIA
 	db NO_MOVE      ; EREMILIA
 	db NO_MOVE      ; CFLANDRE
-	db NO_MOVE      ; FLANDRE
+	db FIRE_PUNCH      ; FLANDRE
 	db NO_MOVE      ; EFLANDRE
 	db NO_MOVE      ; SEAKING
 	db NO_MOVE      ; STARYU

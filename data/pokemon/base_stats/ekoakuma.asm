@@ -1,17 +1,17 @@
-	db  40,  65,  95,  35,  60,  45 ; 340 BST
+	db  67,  40,  47,  130,  135, 110 ; 455 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db POISON, POISON ; type
-	db 190 ; catch rate
-	db 114 ; base exp
-	db NO_ITEM, SMOKE_BALL ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	db PSYCHIC, FLYING ; type
+	db 223 ; catch rate
+	db 191 ; base exp
+	db NO_ITEM, NO_ITEM ; held items
+	dn GENDER_F50, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for EKOAKUMA, LEVITATE, NEUTRALIZING_GAS, STENCH
+	abilities_for EKOAKUMA, SYNCHRONIZE, SYNCHRONIZE, SYNCHRONIZE
 	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
+	dn EGG_MONSTER, EGG_FLYING ; egg groups
 
-	ev_yield 1 Def
+	ev_yield 3 SAt
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, PROTECT, RAIN_DANCE, THUNDERBOLT, THUNDER, RETURN, SHADOW_BALL, DOUBLE_TEAM, METEOR_FALL, SLUDGE_BOMB, HELL_TOKAMAK, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, DARK_PULSE, WILL_O_WISP, EXPLOSION, FLASH, GYRO_BALL, ENDURE, ROLLOUT, SLEEP_TALK, SWAGGER, ZAP_CANNON

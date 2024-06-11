@@ -1,15 +1,15 @@
-	db  30,  40,  70,  60,  70,  25 ; 295 BST
+	db  15,  100,  10,  50,  100, 10 ; 295 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, WATER ; type
-	db 225 ; catch rate
-	db 83 ; base exp
+	db DARK, DARK ; type
+	db 33 ; catch rate
+	db 160 ; base exp
 	db NO_ITEM, DRAGON_SCALE ; held items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for CFLANDRE, SWIFT_SWIM, SNIPER, DAMP
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_WATER_1, EGG_DRAGON ; egg groups
+	abilities_for CFLANDRE, HUSTLE, HUSTLE, RECKLESS
+	db GROWTH_FAST ; growth rate
+	dn EGG_MONSTER, EGG_FLYING ; egg groups
 
 	ev_yield 1 SAt
 

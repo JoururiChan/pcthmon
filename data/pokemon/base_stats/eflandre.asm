@@ -1,17 +1,17 @@
-	db  45,  67,  60,  63,  35,  50 ; 320 BST
+	db  46,  205,  21, 125, 205, 21 ; 295 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, WATER ; type
-	db 225 ; catch rate
-	db 111 ; base exp
-	db NO_ITEM, NO_ITEM ; items
-	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio
+	db DARK, FIRE ; type
+	db 33 ; catch rate
+	db 255 ; base exp
+	db NO_ITEM, DRAGON_SCALE ; held items
+	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for EFLANDRE, SWIFT_SWIM, WATER_VEIL, LIGHTNING_ROD
-	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_WATER_2, EGG_WATER_2 ; egg groups
+	abilities_for EFLANDRE, HUSTLE, HUSTLE, RECKLESS
+	db GROWTH_FAST ; growth rate
+	dn EGG_MONSTER, EGG_FLYING ; egg groups
 
-	ev_yield 1 Atk
+	ev_yield 3 SAt
 
 	; tm/hm learnset
 	tmhm CURSE, TOXIC, HAIL, HIDDEN_POWER, ICE_BEAM, BLIZZARD, PROTECT, RAIN_DANCE, RETURN, DOUBLE_TEAM, SWIFT, SUBSTITUTE, FACADE, REST, ATTRACT, SCALD, WATER_PULSE, POISON_JAB, SWORDS_DANCE, SURF, WHIRLPOOL, WATERFALL, SAKUYA_WORLD, AQUA_TAIL, BODY_SLAM, DOUBLE_EDGE, ENDURE, HEADBUTT, ICY_WIND, KNOCK_OFF, SLEEP_TALK, SWAGGER
