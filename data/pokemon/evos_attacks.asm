@@ -2434,7 +2434,7 @@ CDaichanEvosAttacks:
 	db -1 ; no more level-up moves
 
 DaichanEvosAttacks:
-	evo_data EVOLVE_LEVEL, 35, DAICHAN
+	evo_data EVOLVE_LEVEL, 35, EDAICHAN
 	db -1 ; no more evolutions
 	db 1, VINE_WHIP
 	db 1, GROWL
