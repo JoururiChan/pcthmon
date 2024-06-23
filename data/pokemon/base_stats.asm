@@ -53,7 +53,7 @@ INCLUDE "data/pokemon/base_stats/magan.asm"
 INCLUDE "data/pokemon/base_stats/emagan.asm"
 INCLUDE "data/pokemon/base_stats/cmima.asm"
 INCLUDE "data/pokemon/base_stats/mima.asm"
-INCLUDE "data/pokemon/base_stats/rattata_plain.asm"
+INCLUDE "data/pokemon/base_stats/emima_plain.asm"
 INCLUDE "data/pokemon/base_stats/celis_plain.asm"
 INCLUDE "data/pokemon/base_stats/elis.asm"
 INCLUDE "data/pokemon/base_stats/eelis.asm"
@@ -334,7 +334,7 @@ INCLUDE "data/pokemon/base_stats/mewtwo_armored.asm"
 
 INCLUDE "data/pokemon/base_stats/dudunsparce.asm" ; three segment
 
-INCLUDE "data/pokemon/base_stats/rattata_alolan.asm"
+INCLUDE "data/pokemon/base_stats/emima_alolan.asm"
 INCLUDE "data/pokemon/base_stats/celis_alolan.asm"
 INCLUDE "data/pokemon/base_stats/csariel_alolan.asm"
 INCLUDE "data/pokemon/base_stats/sariel_alolan.asm"

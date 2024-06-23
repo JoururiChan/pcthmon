@@ -92,9 +92,9 @@ MimaMiniMask:: INCBIN "gfx/minis/mima_mask.1bpp.lz"
 MimaIcon::     INCBIN "gfx/icons/mima.2bpp.lz"
 
 SECTION "EMima Mini Icon", ROMX
-EMimaMini::     INCBIN "gfx/minis/rattata.2bpp.lz"
-EMimaMiniMask:: INCBIN "gfx/minis/rattata_mask.1bpp.lz"
-EMimaIcon::     INCBIN "gfx/icons/rattata.2bpp.lz"
+EMimaMini::     INCBIN "gfx/minis/emima.2bpp.lz"
+EMimaMiniMask:: INCBIN "gfx/minis/emima_mask.1bpp.lz"
+EMimaIcon::     INCBIN "gfx/icons/emima.2bpp.lz"
 
 SECTION "CElis Mini Icon", ROMX
 CElisMini::     INCBIN "gfx/minis/celis.2bpp.lz"
@@ -1603,9 +1603,9 @@ MewtwoArmoredMiniMask:: INCBIN "gfx/minis/mewtwo_armored_mask.1bpp.lz"
 MewtwoArmoredIcon::     INCBIN "gfx/icons/mewtwo_armored.2bpp.lz"
 
 SECTION "EMimaAlolan Mini Icon", ROMX
-EMimaAlolanMini::     INCBIN "gfx/minis/rattata_alolan.2bpp.lz"
-EMimaAlolanMiniMask:: INCBIN "gfx/minis/rattata_alolan_mask.1bpp.lz"
-EMimaAlolanIcon::     INCBIN "gfx/icons/rattata_alolan.2bpp.lz"
+EMimaAlolanMini::     INCBIN "gfx/minis/emima_alolan.2bpp.lz"
+EMimaAlolanMiniMask:: INCBIN "gfx/minis/emima_alolan_mask.1bpp.lz"
+EMimaAlolanIcon::     INCBIN "gfx/icons/emima_alolan.2bpp.lz"
 
 SECTION "CElisAlolan Mini Icon", ROMX
 CElisAlolanMini::     INCBIN "gfx/minis/celis_alolan.2bpp.lz"

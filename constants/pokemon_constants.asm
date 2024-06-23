@@ -439,7 +439,7 @@ DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 
 ; alolan forms
 DEF ALOLAN_FORM EQU 2
-	const_skip ; 15f rattata
+	const_skip ; 15f emima
 	const_skip ; 160 celis
 	const_skip ; 161 csariel
 	const_skip ; 162 sariel

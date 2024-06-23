@@ -1188,16 +1188,16 @@ GyaradosPlainBackpic:
 GyaradosRedBackpic:    INCBIN "gfx/pokemon/gyarados/back.2bpp.lz"
 
 SECTION "EMima Pics", ROMX
-EMimaFrontpic: INCBIN "gfx/pokemon/rattata_plain/front.animated.2bpp.lz"
-EMimaBackpic:  INCBIN "gfx/pokemon/rattata_plain/back.2bpp.lz"
+EMimaFrontpic: INCBIN "gfx/pokemon/emima_plain/front.animated.2bpp.lz"
+EMimaBackpic:  INCBIN "gfx/pokemon/emima_plain/back.2bpp.lz"
 
 SECTION "CElisPlain Pics", ROMX
 CElisPlainFrontpic: INCBIN "gfx/pokemon/celis_plain/front.animated.2bpp.lz"
 CElisPlainBackpic:  INCBIN "gfx/pokemon/celis_plain/back.2bpp.lz"
 
 SECTION "EMimaAlolan Pics", ROMX
-EMimaAlolanFrontpic: INCBIN "gfx/pokemon/rattata_alolan/front.animated.2bpp.lz"
-EMimaAlolanBackpic:  INCBIN "gfx/pokemon/rattata_alolan/back.2bpp.lz"
+EMimaAlolanFrontpic: INCBIN "gfx/pokemon/emima_alolan/front.animated.2bpp.lz"
+EMimaAlolanBackpic:  INCBIN "gfx/pokemon/emima_alolan/back.2bpp.lz"
 
 SECTION "CElisAlolan Pics", ROMX
 CElisAlolanFrontpic: INCBIN "gfx/pokemon/celis_alolan/front.animated.2bpp.lz"
