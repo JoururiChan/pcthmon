@@ -50,7 +50,7 @@ OlivineGymJasmineScript:
 
 	text "…You could use"
 	line "that TM to teach"
-	cont "Iron Tail."
+	cont "Braver."
 	done
 
 OlivineGymGuyScript:

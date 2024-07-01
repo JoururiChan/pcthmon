@@ -41,7 +41,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Replace Vital Throw with Aura Sphere.
 * Add: Replace Nightmare with Facade.
 * Add: Replace Submission with Sculpture.
-* Add: Replace Sand-Attack with Toxic Spikes.
+* Add: Replace Sand-Attack with Poison Nail.
 * Add: Replace Fairy Wind with Bulldoze.
 * Add: Replace Metal Sound with White Bird.
 * Add: Replace Sky Attack with Dive Kick.

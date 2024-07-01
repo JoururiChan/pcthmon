@@ -4834,7 +4834,7 @@ CanSleepTarget:
 CanStatusTarget:
 ; Input:
 ; a=0: Check Mold Breaker and Substitute (user directly poisoning foe)
-; a=1: Ignore MB and sub (Toxic Spikes, target on-contact abilities)
+; a=1: Ignore MB and sub (Poison Nail, target on-contact abilities)
 ; a=2: Ignore MB and sub, check victim for Corrosion (Toxic Orb)
 ; bc: Type immunities
 ; d: Ability immunity
@@ -4869,7 +4869,7 @@ CanStatusTarget:
 
 .check_psn_status_move
 	; We can't check if the move is a status move in general, because
-	; this causes problems with Roar + Corrosion into Toxic Spikes,
+	; this causes problems with Roar + Corrosion into Poison Nail,
 	; which shouldn't poison Poison/Steel-types. Instead, we have to
 	; specifically check for status moves that cause poisoning.
 	ld a, BATTLE_VARS_MOVE_EFFECT

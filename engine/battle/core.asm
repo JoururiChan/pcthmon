@@ -3281,7 +3281,7 @@ SpikesDamage_GotAbility:
 	jr nz, .no_poison_type
 	pop af
 
-	; Grounded Poison types absorb the Toxic Spikes
+	; Grounded Poison types absorb the Poison Nail
 	xor [hl]
 	ld [hl], a
 	ret
