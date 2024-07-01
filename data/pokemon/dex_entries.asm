@@ -645,7 +645,7 @@ CYukaTohodexEntry::
 	next "example of the"
 	next "accomplishing the"
 	page "impossible in my"
-	next "sleep" statement"
+	next "sleep statement"
 	next "so commonly known.@"
 
 SECTION "YukaTohodexEntry", ROMX
@@ -793,7 +793,7 @@ CAlicePlainTohodexEntry::
 	db "Bookworm@"
 	db   "It always carries"
 	next "a book named the"
-	next ""Grimoire of Alice"."
+	next "Grimoire of Alice."
 	page "It is said this book"
 	next "contains magic of an"
 	next "innate power.@"
@@ -996,7 +996,7 @@ EDaichanTohodexEntry::
 	next "this #mon has"
 	page "classified it as"
 	next "part of the #mon"
-	next "group "Team 9".@"
+	next "group Team 9.@"
 
 SECTION "CCirnoTohodexEntry", ROMX
 CCirnoTohodexEntry::
