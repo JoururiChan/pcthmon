@@ -34,20 +34,20 @@ GoldenrodHarbor_MapScriptHeader:
 GoldenrodHarborFisherScript:
 	faceplayer
 	opentext
-	checkevent EVENT_LISTENED_TO_HYPER_VOICE_INTRO
-	iftruefwd GoldenrodHarborTutorHyperVoiceScript
+	checkevent EVENT_LISTENED_TO_VOICE_BIND_INTRO
+	iftruefwd GoldenrodHarborTutorVoiceBindScript
 	writetext GoldenrodHarborFisherText
 	waitbutton
-	setevent EVENT_LISTENED_TO_HYPER_VOICE_INTRO
-GoldenrodHarborTutorHyperVoiceScript:
-	writetext Text_GoldenrodHarborTutorHyperVoice
+	setevent EVENT_LISTENED_TO_VOICE_BIND_INTRO
+GoldenrodHarborTutorVoiceBindScript:
+	writetext Text_GoldenrodHarborTutorVoiceBind
 	waitbutton
 	checkitem SILVER_LEAF
 	iffalsefwd .NoSilverLeaf
 	writetext Text_GoldenrodHarborTutorQuestion
 	yesorno
 	iffalsefwd .TutorRefused
-	setval HYPER_VOICE
+	setval VOICE_BIND
 	writetext ClearText
 	special Special_MoveTutor
 	ifequalfwd $0, .TeachMove
@@ -274,7 +274,7 @@ GoldenrodHarborFisherText:
 	line "things LOUD!"
 	done
 
-Text_GoldenrodHarborTutorHyperVoice:
+Text_GoldenrodHarborTutorVoiceBind:
 	text "I can teach your"
 	line "#mon how to"
 

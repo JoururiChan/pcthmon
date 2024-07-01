@@ -47,7 +47,7 @@ FGyoku: Hurricane, Baton Pass, Draining Kiss
 CSariel: Draining Kiss, Play Rough, Safeguard
 CMeira/Meira: Baton Pass
 EMeira: Encore
-CEllen: SakuyaWorld
+CEllen: SpidersNest
 CKurumi: Scary Face
 Bellossom: Baton Pass
 EShinki: Nasty Plot, Encore

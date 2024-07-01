@@ -40,12 +40,12 @@ OlivineGymJasmineScript:
 	clearevent EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
 	setmapscene ROUTE_42, $1
 .FightDone:
-	checkevent EVENT_GOT_TM23_IRON_TAIL
+	checkevent EVENT_GOT_TM23_BRAVER
 	iftrue_jumpopenedtext Jasmine_GoodLuck
 	writetext Jasmine_BadgeSpeech
 	promptbutton
-	verbosegivetmhm TM_IRON_TAIL
-	setevent EVENT_GOT_TM23_IRON_TAIL
+	verbosegivetmhm TM_BRAVER
+	setevent EVENT_GOT_TM23_BRAVER
 	jumpthisopenedtext
 
 	text "…You could use"

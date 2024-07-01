@@ -10,7 +10,7 @@
 	const KARATE_CHOP  ; $02
 	const DOUBLE_SLAP  ; $03
 	const AERIAL_ACE   ; $04
-	const DRAGON_CLAW  ; $05
+	const SPIRIT_VOICE  ; $05
 	const PAY_DAY      ; $06
 	const FIRE_PUNCH   ; $07
 	const ICE_PUNCH    ; $08
@@ -33,7 +33,7 @@
 	const LAVATEIN  ; $19
 	const STONE_EDGE   ; $1a
 	const FOCUS_BLAST  ; $1b
-	const TOXIC_SPIKES ; $1c
+	const POISON_NAIL ; $1c
 	const HEADBUTT     ; $1d
 	const KNIFE_THROW  ; $1e
 	const TRICK        ; $1f
@@ -102,7 +102,7 @@
 	const PSYCHIC_M    ; $5e
 	const HYPNOSIS     ; $5f
 	const HONE_TOOLS   ; $60
-	const SAKUYA_WORLD      ; $61
+	const SPIDERS_NEST      ; $61
 	const QUICK_ATTACK ; $62
 	const RAGE         ; $63
 	const TELEPORT     ; $64
@@ -151,13 +151,13 @@
 	const DIVE_KICK   ; $8f
 	const RECOLLECT    ; $90
 	const WATER_PULSE  ; $91
-	const DIZZY_PUNCH  ; $92
+	const LUNAR_BULLET  ; $92
 	const SPORE        ; $93
 	const FLASH        ; $94
-	const EXTRASENSORY ; $95
+	const LUNACY_EYES ; $95
 	const SPLASH       ; $96
 	const DRAGON_DANCE ; $97
-	const CRABHAMMER   ; $98
+	const BUG_STRIKES   ; $98
 	const EXPLOSION    ; $99
 	const FURY_STRIKES ; $9a
 	const BONEMERANG   ; $9b
@@ -175,10 +175,10 @@
 	const DRAIN_PUNCH  ; $a7
 	const THIEF        ; $a8
 	const WILL_O_WISP  ; $a9
-	const ZEN_HEADBUTT ; $aa
+	const LUNAR_BASH ; $aa
 	const FACADE       ; $ab
 	const FLAME_CHARGE ; $ac
-	const HYPER_VOICE  ; $ad
+	const VOICE_BIND  ; $ad
 	const CURSE        ; $ae
 	const GYRO_BALL    ; $af
 	const DREAM_HEAVEN  ; $b0
@@ -213,7 +213,7 @@
 	const ROLLOUT      ; $cd
 	const BLADE_FLASH  ; $ce
 	const SWAGGER      ; $cf
-	const SHELL_SMASH  ; $d0
+	const POWER_TRICK  ; $d0
 	const SPARK        ; $d1
 	const BUG_BITE     ; $d2
 	const STEEL_WING   ; $d3
@@ -226,17 +226,17 @@
 	const BUG_BUZZ     ; $da
 	const SAFEGUARD    ; $db
 	const LIFE_BALANCE   ; $dc
-	const SACRED_FIRE  ; $dd
+	const SHINY_FIRE  ; $dd
 	const MAGNITUDE    ; $de
 	const DYNAMICPUNCH ; $df
-	const MEGAHORN     ; $e0
+	const DRAGON_BASH     ; $e0
 	const DRAGONBREATH ; $e1
 	const BATON_PASS   ; $e2
 	const ENCORE       ; $e3
 	const PURSUIT      ; $e4
 	const RAPID_SPIN   ; $e5
 	const SHADOW_HIT  ; $e6
-	const IRON_TAIL    ; $e7
+	const BRAVER    ; $e7
 	const METAL_CLAW   ; $e8
 	const AURA_SPHERE  ; $e9
 	const HEALINGLIGHT ; $ea
@@ -247,7 +247,7 @@
 	const AQUA_JET     ; $ef
 	const RAIN_DANCE   ; $f0
 	const SUNNY_DAY    ; $f1
-	const CRUNCH       ; $f2
+	const AVARICE_BITE       ; $f2
 	const MIRROR_COAT  ; $f3
 	const NASTY_PLOT   ; $f4
 	const EXTREMESPEED ; $f5

@@ -1,7 +1,7 @@
 ; AI_SMART encourages these moves with Encore.
 
 EncoreMoves:
-	db SAKUYA_WORLD
+	db SPIDERS_NEST
 	db CONVERSION
 	db DISABLE
 	db DREAM_EATER

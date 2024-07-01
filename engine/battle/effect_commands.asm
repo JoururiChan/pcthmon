@@ -313,7 +313,7 @@ BattleCommand_checkturn:
 	; Sacred Fire, Scald, and Lavatein thaw the user.
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
-	cp SACRED_FIRE
+	cp SHINY_FIRE
 	jr z, .thaw
 	cp SCALD
 	jr z, .thaw

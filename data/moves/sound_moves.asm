@@ -2,7 +2,7 @@ SoundMoves::
 	db BUG_BUZZ
 	db DISARM_VOICE
 	db GROWL
-	db HYPER_VOICE
+	db VOICE_BIND
 	db SHADOW_DANCE
 	db ROAR
 	db SCREECH

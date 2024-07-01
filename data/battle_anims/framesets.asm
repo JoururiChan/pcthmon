@@ -188,7 +188,7 @@ BattleAnimFrameData:
 	dw .Frameset_b9 ; b9
 	dw .Frameset_StoneEdge ; ba
 	dw .Frameset_BrickBreak ; bb
-	dw .Frameset_HyperVoice ; bc
+	dw .Frameset_VoiceBind ; bc
 	dw .Frameset_BugBuzzL ; bd
 	dw .Frameset_BugBuzzR ; be
 	dw .Frameset_SteelFist ; bf
@@ -1296,13 +1296,13 @@ BattleAnimFrameData:
 	oamframe BATTLEANIMOAMSET_BRICK_BREAK, 8
 	oamend
 
-.Frameset_HyperVoice:
+.Frameset_VoiceBind:
 	oamframe BATTLEANIMOAMSET_18,  0
 	oamframe BATTLEANIMOAMSET_70,  0
 	oamframe BATTLEANIMOAMSET_71,  0
 	oamframe BATTLEANIMOAMSET_72,  0
 	oamframe BATTLEANIMOAMSET_73,  0
-	oamframe BATTLEANIMOAMSET_HYPER_VOICE,  0
+	oamframe BATTLEANIMOAMSET_VOICE_BIND,  0
 	oamdelete
 
 .Frameset_BugBuzzL:

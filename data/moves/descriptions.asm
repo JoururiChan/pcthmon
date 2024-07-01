@@ -5,7 +5,7 @@ MoveDescriptions::
 	dw KarateChopDescription
 	dw DoubleSlapDescription
 	dw AerialAceDescription
-	dw DragonClawDescription
+	dw SpiritVoiceDescription
 	dw PayDayDescription
 	dw FirePunchDescription
 	dw IcePunchDescription
@@ -28,7 +28,7 @@ MoveDescriptions::
 	dw LavateinDescription
 	dw StoneEdgeDescription
 	dw FocusBlastDescription
-	dw ToxicSpikesDescription
+	dw PoisonNailDescription
 	dw HeadbuttDescription
 	dw KnifeThrowDescription
 	dw TrickDescription
@@ -97,7 +97,7 @@ MoveDescriptions::
 	dw PsychicMDescription
 	dw HypnosisDescription
 	dw HoneToolsDescription
-	dw SakuyaWorldDescription
+	dw SpidersNestDescription
 	dw QuickAttackDescription
 	dw RageDescription
 	dw TeleportDescription
@@ -146,13 +146,13 @@ MoveDescriptions::
 	dw DiveKickDescription
 	dw RecollectDescription
 	dw WaterPulseDescription
-	dw DizzyPunchDescription
+	dw LunarBulletDescription
 	dw SporeDescription
 	dw FlashDescription
-	dw ExtrasensoryDescription
+	dw Lunacy_EyesDescription
 	dw SplashDescription
 	dw DragonDanceDescription
-	dw CrabhammerDescription
+	dw BugStrikesDescription
 	dw ExplosionDescription
 	dw FuryStrikesDescription
 	dw BonemerangDescription
@@ -170,10 +170,10 @@ MoveDescriptions::
 	dw DrainPunchDescription
 	dw ThiefDescription
 	dw WillOWispDescription
-	dw ZenHeadbuttDescription
+	dw LunarBashDescription
 	dw FacadeDescription
 	dw FlameChargeDescription
-	dw HyperVoiceDescription
+	dw VoiceBindDescription
 	dw CurseDescription
 	dw GyroBallDescription
 	dw DreamHeavenDescription
@@ -208,7 +208,7 @@ MoveDescriptions::
 	dw RolloutDescription
 	dw BladeFlashDescription
 	dw SwaggerDescription
-	dw ShellSmashDescription
+	dw PowerTrickDescription
 	dw SparkDescription
 	dw BugBiteDescription
 	dw SteelWingDescription
@@ -221,17 +221,17 @@ MoveDescriptions::
 	dw BugBuzzDescription
 	dw SafeguardDescription
 	dw LifeBalanceDescription
-	dw SacredFireDescription
+	dw ShinyFireDescription
 	dw MagnitudeDescription
 	dw DynamicpunchDescription
-	dw MegahornDescription
+	dw DragonBashDescription
 	dw DragonbreathDescription
 	dw BatonPassDescription
 	dw EncoreDescription
 	dw PursuitDescription
 	dw RapidSpinDescription
 	dw ShadowHitDescription
-	dw IronTailDescription
+	dw BraverDescription
 	dw MetalClawDescription
 	dw AuraSphereDescription
 	dw HealingLightDescription
@@ -242,7 +242,7 @@ MoveDescriptions::
 	dw AquaJetDescription
 	dw RainDanceDescription
 	dw SunnyDayDescription
-	dw CrunchDescription
+	dw AvariceBiteDescription
 	dw MirrorCoatDescription
 	dw NastyPlotDescription
 	dw ExtremespeedDescription
@@ -271,7 +271,7 @@ LowKickDescription:
 
 KarateChopDescription:
 RazorLeafDescription:
-CrabhammerDescription:
+BugStrikesDescription:
 SlashDescription:
 AeroblastDescription:
 CrossChopDescription:
@@ -351,8 +351,8 @@ RockSlideDescription:
 PowerBiteDescription:
 AirSlashDescription:
 IronHeadDescription:
-ZenHeadbuttDescription:
-ExtrasensoryDescription:
+LunarBashDescription:
+Lunacy_EyesDescription:
 DarkPulseDescription:
 AstonishDescription:
 IcicleCrashDescription:
@@ -371,7 +371,7 @@ GunkShotDescription:
 EmberDescription:
 MeteorFallDescription:
 HellTokamakDescription:
-SacredFireDescription:
+ShinyFireDescription:
 ScaldDescription:
 	text "An attack that may"
 	next "inflict a burn."
@@ -400,7 +400,7 @@ BlizzardDescription:
 
 PsybeamDescription:
 PsyshotDescription:
-DizzyPunchDescription:
+LunarBulletDescription:
 WaterPulseDescription:
 HurricaneDescription:
 	text "An attack that may"
@@ -449,8 +449,8 @@ if !DEF(FAITHFUL)
 	next "and Light Screen."
 	done
 endc
-CrunchDescription:
-IronTailDescription:
+AvariceBiteDescription:
+BraverDescription:
 	text "An attack that may"
 	next "lower Defense."
 	done
@@ -579,7 +579,7 @@ BarrierDescription:
 	next "user's Defense."
 	done
 
-SakuyaWorldDescription:
+SpidersNestDescription:
 	text "Sharply raises the"
 	next "user's Speed."
 	done
@@ -822,7 +822,7 @@ SpikesDescription:
 	next "they switch in."
 	done
 
-ToxicSpikesDescription:
+PoisonNailDescription:
 	text "Poisons foes when"
 	next "they switch in."
 	done
@@ -872,7 +872,7 @@ VineWhipDescription:
 	next "slender vines."
 	done
 
-DragonClawDescription:
+SpiritVoiceDescription:
 	text "Slashes the foe"
 	next "with sharp claws."
 	done
@@ -1077,7 +1077,7 @@ FacadeDescription:
 	next "Psn, Brn, or Prz."
 	done
 
-HyperVoiceDescription:
+VoiceBindDescription:
 	text "Attack the foe"
 	next "with sound waves."
 	done
@@ -1137,7 +1137,7 @@ SwaggerDescription:
 	next "but raises Attack."
 	done
 
-ShellSmashDescription:
+PowerTrickDescription:
 	text "Lowers defenses,"
 	next "raises offenses."
 	done
@@ -1187,7 +1187,7 @@ MagnitudeDescription:
 	next "with random power."
 	done
 
-MegahornDescription:
+DragonBashDescription:
 	text "A powerful charge"
 	next "attack."
 	done

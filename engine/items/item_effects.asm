@@ -67,7 +67,7 @@ ItemEffects:
 	dw RestoreHPEffect    ; LEMONADE
 	dw RestoreHPEffect    ; MOOMOO_MILK
 	dw HealStatusEffect   ; RAGECANDYBAR
-	dw HealStatusEffect   ; PEWTERCRUNCH
+	dw HealStatusEffect   ; PEWTERAVARICE_BITE
 	dw EnergyPowder       ; ENERGYPOWDER
 	dw EnergyRoot         ; ENERGY_ROOT
 	dw HealPowder         ; HEAL_POWDER

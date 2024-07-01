@@ -66,8 +66,8 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_Sludge
 	dw BattleAnimFunction_MetronomeHand
 	dw BattleAnimFunction_MetronomeSparkleSketch
-	dw BattleAnimFunction_SakuyaWorld
-	dw BattleAnimFunction_SacredFire
+	dw BattleAnimFunction_SpidersNest
+	dw BattleAnimFunction_ShinyFire
 	dw BattleAnimFunction_SafeguardProtect
 	dw BattleAnimFunction_LockOnMindReader
 	dw BattleAnimFunction_Spikes
@@ -2831,7 +2831,7 @@ BattleAnimFunction_SmokeFlameWheel:
 .done
 	jmp DeinitBattleAnimation
 
-BattleAnimFunction_SacredFire:
+BattleAnimFunction_ShinyFire:
 	ld hl, BATTLEANIMSTRUCT_PARAM
 	add hl, bc
 	ld a, [hl]
@@ -3528,7 +3528,7 @@ BattleAnimFunction_MetronomeSparkleSketch:
 	inc [hl]
 	ret
 
-BattleAnimFunction_SakuyaWorld:
+BattleAnimFunction_SpidersNest:
 	call BattleAnim_AnonJumptable
 .anon_dw
 	dw .zero

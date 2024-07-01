@@ -28,11 +28,11 @@ BattleCommand_clearhazards:
 	pop hl
 .no_spikes
 	ld a, [hl]
-	and HAZARDS_TOXIC_SPIKES
+	and HAZARDS_POISON_NAIL
 	jr z, .no_toxic_spikes
 	xor a
 	ld [hl], a
-	ld hl, BlewToxicSpikesText
+	ld hl, BlewPoisonNailText
 	call StdBattleTextbox
 .no_toxic_spikes
 	pop de

@@ -1,6 +1,6 @@
 PunchingMoves:
 	db STEEL_FIST
-	db DIZZY_PUNCH
+	db LUNAR_BULLET
 	db DRAIN_PUNCH
 	db DYNAMICPUNCH
 	db FIRE_PUNCH

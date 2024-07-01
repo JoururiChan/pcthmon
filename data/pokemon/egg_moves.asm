@@ -18,7 +18,7 @@ CMarisaEggMoves:
 	db SHADOW_DANCE
 	db TRICK_ROOM
 	db AURA_SPHERE
-	db TOXIC_SPIKES
+	db POISON_NAIL
 	db VOLT_SWITCH
 	db FIVEELEMENTS
 	db $ff
@@ -63,7 +63,7 @@ ElisEggMoves:
 	db $ff
 
 CKikuriEggMoves:
-	db CRUNCH
+	db AVARICE_BITE
 	db DISABLE
 	db PURSUIT
 	db SCARY_FACE
@@ -112,7 +112,7 @@ EMeiraPlainEggMoves:
 	db LAVATEIN
 	db HYPNOSIS
 	db FEINT_ATTACK
-	db EXTRASENSORY
+	db LUNACY_EYES
 	db CHARM
 	db DREAM_HEAVEN
 	db ROAR
@@ -123,7 +123,7 @@ EMeiraAlolanEggMoves:
 	db BLIZZARD
 	db HYPNOSIS
 	db FEINT_ATTACK
-	db EXTRASENSORY
+	db LUNACY_EYES
 	db CHARM
 	db ICE_BEAM
 	db ROAR
@@ -136,7 +136,7 @@ CKotohimeEggMoves:
 	db NASTY_PLOT
 	db PURSUIT
 	db QUICK_ATTACK
-	db ZEN_HEADBUTT
+	db LUNAR_BASH
 	db DIVE_KICK
 	db $ff
 
@@ -148,7 +148,7 @@ EKotohimeEggMoves:
 	db $ff
 
 EKanaEggMoves:
-	db SAKUYA_WORLD
+	db SPIDERS_NEST
 	db LEECH_SEED
 	db METAL_CLAW
 	db PSYBEAM
@@ -158,11 +158,11 @@ EKanaEggMoves:
 	db $ff
 
 RikakoEggMoves:
-	db SAKUYA_WORLD
+	db SPIDERS_NEST
 	db BATON_PASS
 	db HEALINGLIGHT
 	db SCREECH
-	db TOXIC_SPIKES
+	db POISON_NAIL
 	db $ff
 
 CChiyuriPlainEggMoves:
@@ -216,7 +216,7 @@ EOrangeHisuianEggMoves:
 	db FIRE_SPIN
 	db HEALINGLIGHT
 	db THRASH
-	db CRUNCH
+	db AVARICE_BITE
 	db LAVATEIN
 	db BODY_SLAM
 	db SAFEGUARD
@@ -302,7 +302,7 @@ ELuizeGalarianEggMoves:
 	db FUTURE_SIGHT
 	db STOMP
 	db SAFEGUARD
-	db ZEN_HEADBUTT
+	db LUNAR_BASH
 	db $ff
 
 CMaiGalarianEggMoves:
@@ -385,7 +385,7 @@ RumiaEggMoves:
 	db $ff
 
 CDaichanEggMoves:
-	db SAKUYA_WORLD
+	db SPIDERS_NEST
 	db HAZE
 	db AMNESIA
 	db DIG
@@ -423,7 +423,7 @@ EKoakumaEggMoves:
 	db $ff
 
 PatchouliEggMoves:
-	db CRUNCH
+	db AVARICE_BITE
 	db MAGNITUDE
 	db PURSUIT
 	db REVERSAL
@@ -498,7 +498,7 @@ OmanyteEggMoves:
 	db BUBBLE_BEAM
 	db HAZE
 	db SPIKES
-	db TOXIC_SPIKES
+	db POISON_NAIL
 	db SUPERSONIC
 	db WATER_PULSE
 	db KNOCK_OFF
@@ -543,7 +543,7 @@ CYoumuEggMoves:
 
 CReisenEggMoves:
 	db DOUBLE_KICK
-	db EXTRASENSORY
+	db LUNACY_EYES
 	db LAVATEIN
 	db FORESIGHT
 	db FURY_STRIKES
@@ -556,7 +556,7 @@ CReisenEggMoves:
 CSanaeEggMoves:
 	db DRAGON_DANCE
 	db METAL_CLAW
-	db CRUNCH
+	db AVARICE_BITE
 	db THRASH
 	db HYDRO_PUMP
 	db ANCIENTPOWER
@@ -576,7 +576,7 @@ SentretEggMoves:
 	db $ff
 
 HoothootEggMoves:
-	db SAKUYA_WORLD
+	db SPIDERS_NEST
 	db FEINT_ATTACK
 	db NIGHT_SHADE
 	db SUPERSONIC
@@ -586,7 +586,7 @@ HoothootEggMoves:
 	db $ff
 
 LedybaEggMoves:
-	db DIZZY_PUNCH
+	db LUNAR_BULLET
 	db ENCORE
 	db PSYBEAM
 	db SCREECH
@@ -598,17 +598,17 @@ LedybaEggMoves:
 SpinarakEggMoves:
 	db BATON_PASS
 	db DISABLE
-	db MEGAHORN
+	db DRAGON_BASH
 	db PSYBEAM
 	db PURSUIT
 	db SONIC_BOOM
 	db POISON_JAB
 	db NIGHT_SLASH
-	db TOXIC_SPIKES
+	db POISON_NAIL
 	db $ff
 
 ChinchouEggMoves:
-	db SAKUYA_WORLD
+	db SPIDERS_NEST
 	db HAZE
 	db PSYBEAM
 	db SCREECH
@@ -638,7 +638,7 @@ IgglybuffEggMoves:
 	db $ff
 
 TogepiEggMoves:
-	db EXTRASENSORY
+	db LUNACY_EYES
 	db FORESIGHT
 	db FUTURE_SIGHT
 	db HEALINGLIGHT
@@ -652,12 +652,12 @@ NatuEggMoves:
 	db HAZE
 	db QUICK_ATTACK
 	db STEEL_WING
-	db ZEN_HEADBUTT
+	db LUNAR_BASH
 	db WHITE_BIRD
 	db $ff
 
 MareepEggMoves:
-	db SAKUYA_WORLD
+	db SPIDERS_NEST
 	db REFLECT
 	db MUD_SLAP
 	db SCREECH
@@ -729,11 +729,11 @@ PinecoEggMoves:
 	db PWJ_NEEDLE
 	db SWIFT
 	db REFLECT
-	db TOXIC_SPIKES
+	db POISON_NAIL
 	db $ff
 
 DunsparceEggMoves:
-	db SAKUYA_WORLD
+	db SPIDERS_NEST
 	db ASTONISH
 	db BITE
 	db RAGE
@@ -743,7 +743,7 @@ DunsparceEggMoves:
 	db $ff
 
 GligarEggMoves:
-	db SAKUYA_WORLD
+	db SPIDERS_NEST
 	db BATON_PASS
 	db METAL_CLAW
 	db WING_ATTACK
@@ -756,7 +756,7 @@ SnubbullEggMoves:
 	db LEER
 	db METRONOME
 	db REFLECT
-	db CRUNCH
+	db AVARICE_BITE
 	db HEAL_BELL
 	db LICK
 	db SCULPTURE
@@ -803,7 +803,7 @@ SneaselHisuianEggMoves:
 TeddiursaEggMoves:
 	db BELLY_DRUM
 	db CROSS_CHOP
-	db CRUNCH
+	db AVARICE_BITE
 	db FOCUS_ENERGY
 	db METAL_CLAW
 	db PLAY_ROUGH
@@ -897,7 +897,7 @@ PhanpyEggMoves:
 StantlerEggMoves:
 	db BITE
 	db DOUBLE_KICK
-	db EXTRASENSORY
+	db LUNACY_EYES
 	db RAGE
 	db $ff
 
@@ -933,7 +933,7 @@ MagbyEggMoves:
 	db $ff
 
 MiltankEggMoves:
-	db DIZZY_PUNCH
+	db LUNAR_BULLET
 	db REVERSAL
 	db SEISMIC_TOSS
 	db $ff

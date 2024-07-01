@@ -3241,7 +3241,7 @@ SpikesDamage_GotAbility:
 	push hl
 	call .Spikes
 	pop hl
-	jr .ToxicSpikes
+	jr .PoisonNail
 
 .Spikes:
 	ld a, b
@@ -3267,9 +3267,9 @@ SpikesDamage_GotAbility:
 	ld hl, BattleText_UserHurtBySpikes
 	jmp StdBattleTextbox
 
-.ToxicSpikes:
+.PoisonNail:
 	ld a, [hl]
-	and HAZARDS_TOXIC_SPIKES
+	and HAZARDS_POISON_NAIL
 	ret z
 
 	push af
@@ -3301,8 +3301,8 @@ SpikesDamage_GotAbility:
 	ret nz
 
 	ld a, [hl]
-	and HAZARDS_TOXIC_SPIKES
-	cp (HAZARDS_TOXIC_SPIKES / 3) * 2
+	and HAZARDS_POISON_NAIL
+	cp (HAZARDS_POISON_NAIL / 3) * 2
 	ld a, 1 << PSN
 	ld hl, WasPoisonedText
 	jr nz, .no_toxic

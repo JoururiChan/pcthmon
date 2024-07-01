@@ -27,7 +27,7 @@ AI_Redundant:
 	dbw EFFECT_MEAN_LOOK,     .MeanLook
 	dbw EFFECT_CURSE,         .Curse
 	dbw EFFECT_SPIKES,        .Spikes
-	dbw EFFECT_TOXIC_SPIKES,  .ToxicSpikes
+	dbw EFFECT_POISON_NAIL,  .PoisonNail
 	dbw EFFECT_FORESIGHT,     .Foresight
 	dbw EFFECT_SHADOW_DANCE,   .PerishSong
 	dbw EFFECT_SANDSTORM,     .Sandstorm
@@ -148,10 +148,10 @@ AI_Redundant:
 	inc a
 	jr .InvertZero
 
-.ToxicSpikes:
+.PoisonNail:
 	ld a, [wPlayerHazards]
-	and HAZARDS_TOXIC_SPIKES
-	cp (HAZARDS_TOXIC_SPIKES / 3) * 2
+	and HAZARDS_POISON_NAIL
+	cp (HAZARDS_POISON_NAIL / 3) * 2
 	jr .InvertZero
 
 .Sandstorm:

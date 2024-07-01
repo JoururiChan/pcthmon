@@ -951,7 +951,7 @@ AdjustItemIndexesToBuild8:
 	; old index, offset
 	db 0x0c, 0    ; LOVE_BALL
 	db 0x0d, 96   ; ABILITYPATCH
-	db 0x39, -1   ; PEWTERCRUNCH
+	db 0x39, -1   ; PEWTERAVARICE_BITE
 	db 0x3a, 3    ; SACRED_ASH
 	db 0x3e, -2   ; REVIVAL_HERB
 	db 0x46, 37   ; GUARD_SPEC

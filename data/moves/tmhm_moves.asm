@@ -2,7 +2,7 @@ TMHMMoves:
 ; entries correspond to *_TMNUM constants (see constants/item_constants.asm)
 	table_width 1, TMHMMoves
 	db DYNAMICPUNCH ; TM01 (Chuck)
-	db DRAGON_CLAW  ; TM02 (Route 27)
+	db SPIRIT_VOICE  ; TM02 (Route 27)
 	db CURSE        ; TM03 (Celadon Mansion)
 	db CALM_MIND    ; TM04 (Celadon Dept. Store)
 	db ROAR         ; TM05 (Route 32)
@@ -23,7 +23,7 @@ TMHMMoves:
 	db SAFEGUARD    ; TM20 (Celadon Dept. Store)
 	db BULLDOZE     ; TM21 (Route 39)
 	db FLOWER_SHOOT   ; TM22 (Goldenrod Dept. Store)
-	db IRON_TAIL    ; TM23 (Jasmine)
+	db BRAVER    ; TM23 (Jasmine)
 	db THUNDERBOLT  ; TM24 (Goldenrod Game Corner)
 	db THUNDER      ; TM25 (Goldenrod Dept. Store)
 	db EARTHQUAKE   ; TM26 (Victory Road)
@@ -84,7 +84,7 @@ TMHMMoves:
 	db WHIRLPOOL    ; HM05 (Route 42)
 	db WATERFALL    ; HM06 (Ice Path)
 	assert_table_length NUM_TMS + NUM_HMS
-	db SAKUYA_WORLD      ; MT01 (TODO)
+	db SPIDERS_NEST      ; MT01 (TODO)
 	db AQUA_TAIL    ; MT02 (Route 4)
 	db BATON_PASS   ; MT03 (Goldenrod Museum)
 	db BODY_SLAM    ; MT04 (Warm Beach)
@@ -97,7 +97,7 @@ TMHMMoves:
 	db ENDURE       ; MT11 (Warm Beach)
 	db FIRE_PUNCH   ; MT12 (Goldenrod City)
 	db HEADBUTT     ; MT13 (Ilex Forest)
-	db HYPER_VOICE  ; MT14 (Goldenrod Harbor)
+	db VOICE_BIND  ; MT14 (Goldenrod Harbor)
 	db ICE_PUNCH    ; MT15 (Goldenrod City)
 	db ICY_WIND     ; MT16 (Ice Path)
 	db IRON_HEAD    ; MT17 (Route 4)
@@ -114,7 +114,7 @@ TMHMMoves:
 	db TRICK        ; MT28 (Battle Tower)
 	db TRICK_ROOM   ; MT29 (TODO)
 	db ZAP_CANNON   ; MT30 (Power Plant)
-	db ZEN_HEADBUTT ; MT31 (Saffron City)
+	db LUNAR_BASH ; MT31 (Saffron City)
 	assert_table_length NUM_TM_HM_TUTOR
-; TODO: SakuyaWorld, Baton Pass, Charm, Trick Room
+; TODO: SpidersNest, Baton Pass, Charm, Trick Room
 	db 0 ; end

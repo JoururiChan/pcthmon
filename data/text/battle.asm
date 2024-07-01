@@ -1336,7 +1336,7 @@ SpikesText:
 	cont "<TARGET>!"
 	prompt
 
-ToxicSpikesText:
+PoisonNailText:
 	text "Toxic spikes"
 	line "scattered around"
 	cont "<TARGET>!"
@@ -1412,7 +1412,7 @@ BlewSpikesText:
 	line "blew away Spikes!"
 	prompt
 
-BlewToxicSpikesText:
+BlewPoisonNailText:
 	text "<USER>"
 	line "blew away Toxic"
 	cont "Spikes!"

@@ -892,7 +892,7 @@ Minimize:
 	minimize
 	endmove
 
-ShellSmash:
+PowerTrick:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1573,7 +1573,7 @@ Spikes:
 	spikes
 	endmove
 
-ToxicSpikes:
+PoisonNail:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1711,7 +1711,7 @@ Return:
 	posthiteffects
 	endmove
 
-SacredFire:
+ShinyFire:
 	checkobedience
 	usedmovetext
 	doturn

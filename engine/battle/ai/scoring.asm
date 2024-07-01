@@ -347,7 +347,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_PRIORITY_HIT,      AI_Smart_PriorityHit
 	dbw EFFECT_MEAN_LOOK,         AI_Smart_MeanLook
 	dbw EFFECT_LAVATEIN,       AI_Smart_Defrost
-	dbw EFFECT_SACRED_FIRE,       AI_Smart_Defrost
+	dbw EFFECT_SHINY_FIRE,       AI_Smart_Defrost
 	dbw EFFECT_CURSE,             AI_Smart_Curse
 	dbw EFFECT_PROTECT,           AI_Smart_Protect
 	dbw EFFECT_FORESIGHT,         AI_Smart_Foresight

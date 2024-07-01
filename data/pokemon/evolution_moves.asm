@@ -87,7 +87,7 @@ EvolutionMoves::
 	db MOONBLAST   ; EMAI
 	db NO_MOVE      ; CYUKI
 	db NO_MOVE ; YUKI
-	db SACRED_FIRE      ; EYUKI
+	db SHINY_FIRE      ; EYUKI
 	db NO_MOVE      ; CYUMEKO
 	db FIRE_PUNCH     ; YUMEKO
 	db NO_MOVE       ; EYUMEKO
@@ -161,7 +161,7 @@ EvolutionMoves::
 	db NO_MOVE      ; SANAE
 	db NO_MOVE  ; ESANAE
 	db NO_MOVE      ; SENTRET
-	db SAKUYA_WORLD      ; FURRET
+	db SPIDERS_NEST      ; FURRET
 	db NO_MOVE      ; HOOTHOOT
 	db NO_MOVE      ; NOCTOWL
 	db NO_MOVE      ; LEDYBA
@@ -211,7 +211,7 @@ endc
 	db FLASH_CANNON ; FORRETRESS
 	db NO_MOVE      ; DUNSPARCE
 	db NO_MOVE      ; GLIGAR
-	db IRON_TAIL    ; STEELIX
+	db BRAVER    ; STEELIX
 	db NO_MOVE      ; SNUBBULL
 	db NO_MOVE      ; GRANBULL
 	db NO_MOVE      ; QWILFISH
@@ -222,7 +222,7 @@ endc
 	db NO_MOVE      ; TEDDIURSA
 	db NO_MOVE      ; URSARING
 	db NO_MOVE      ; SLUGMA
-	db SHELL_SMASH  ; MAGCARGO
+	db POWER_TRICK  ; MAGCARGO
 	db NO_MOVE      ; SWINUB
 	db FURY_STRIKES ; PILOSWINE
 	db NO_MOVE      ; CORSOLA
@@ -286,14 +286,14 @@ endc
 	db NO_MOVE      ; CURSOLA
 	db COUNTER      ; SIRFETCH_D
 	db NO_MOVE      ; MR__RIME
-	db EXTRASENSORY ; WYRDEER
+	db LUNACY_EYES ; WYRDEER
 	db ROCK_THROW   ; KLEAVOR
 	db BULLDOZE     ; URSALUNA
 	db NO_MOVE      ; SNEASLER
 	db NO_MOVE      ; OVERQWIL
 	db NO_MOVE      ; DUDUNSPARCE
 	db NO_MOVE      ; FARIGIRAF
-	db MEGAHORN     ; CLODSIRE
+	db DRAGON_BASH     ; CLODSIRE
 	db SHADOW_HIT  ; ANNIHILAPE
 	assert_table_length NUM_SPECIES
 

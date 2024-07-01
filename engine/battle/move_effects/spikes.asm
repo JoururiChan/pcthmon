@@ -26,16 +26,16 @@ BattleCommand_toxicspikes:
 	ld hl, wPlayerHazards
 .got_screens
 	ld a, [hl]
-	and HAZARDS_TOXIC_SPIKES
-	cp (HAZARDS_TOXIC_SPIKES / 3) * 2
+	and HAZARDS_POISON_NAIL
+	cp (HAZARDS_POISON_NAIL / 3) * 2
 	jmp z, FailSpikes
-	ld a, HAZARDS_TOXIC_SPIKES / 3
+	ld a, HAZARDS_POISON_NAIL / 3
 	add [hl]
 	ld [hl], a
 
 	call AnimateCurrentMove
 
-	ld hl, ToxicSpikesText
+	ld hl, PoisonNailText
 	jmp StdBattleTextbox
 
 .failed

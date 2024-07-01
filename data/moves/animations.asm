@@ -6,7 +6,7 @@ BattleAnimations::
 	dw BattleAnim_KarateChop
 	dw BattleAnim_DoubleSlap
 	dw BattleAnim_AerialAce
-	dw BattleAnim_DragonClaw
+	dw BattleAnim_SpiritVoice
 	dw BattleAnim_PayDay
 	dw BattleAnim_FirePunch
 	dw BattleAnim_IcePunch
@@ -29,7 +29,7 @@ BattleAnimations::
 	dw BattleAnim_Lavatein
 	dw BattleAnim_StoneEdge
 	dw BattleAnim_FocusBlast
-	dw BattleAnim_ToxicSpikes
+	dw BattleAnim_PoisonNail
 	dw BattleAnim_Headbutt
 	dw BattleAnim_KnifeThrow
 	dw BattleAnim_Trick
@@ -98,7 +98,7 @@ BattleAnimations::
 	dw BattleAnim_PsychicM
 	dw BattleAnim_Hypnosis
 	dw BattleAnim_HoneTools
-	dw BattleAnim_SakuyaWorld
+	dw BattleAnim_SpidersNest
 	dw BattleAnim_QuickAttack
 	dw BattleAnim_Rage
 	dw BattleAnim_Teleport
@@ -147,13 +147,13 @@ BattleAnimations::
 	dw BattleAnim_DiveKick
 	dw BattleAnim_Recollect
 	dw BattleAnim_WaterPulse
-	dw BattleAnim_DizzyPunch
+	dw BattleAnim_LunarBullet
 	dw BattleAnim_Spore
 	dw BattleAnim_Flash
-	dw BattleAnim_Extrasensory
+	dw BattleAnim_Lunacy_Eyes
 	dw BattleAnim_Splash
 	dw BattleAnim_DragonDance
-	dw BattleAnim_Crabhammer
+	dw BattleAnim_BugStrikes
 	dw BattleAnim_Explosion
 	dw BattleAnim_FuryStrikes
 	dw BattleAnim_Bonemerang
@@ -171,10 +171,10 @@ BattleAnimations::
 	dw BattleAnim_DrainPunch
 	dw BattleAnim_Thief
 	dw BattleAnim_WillOWisp
-	dw BattleAnim_ZenHeadbutt
+	dw BattleAnim_LunarBash
 	dw BattleAnim_Facade
 	dw BattleAnim_FlameCharge
-	dw BattleAnim_HyperVoice
+	dw BattleAnim_VoiceBind
 	dw BattleAnim_Curse
 	dw BattleAnim_GyroBall
 	dw BattleAnim_DreamHeaven
@@ -209,7 +209,7 @@ BattleAnimations::
 	dw BattleAnim_Rollout
 	dw BattleAnim_BladeFlash
 	dw BattleAnim_Swagger
-	dw BattleAnim_ShellSmash
+	dw BattleAnim_PowerTrick
 	dw BattleAnim_Spark
 	dw BattleAnim_BugBite
 	dw BattleAnim_SteelWing
@@ -222,17 +222,17 @@ BattleAnimations::
 	dw BattleAnim_BugBuzz
 	dw BattleAnim_Safeguard
 	dw BattleAnim_LifeBalance
-	dw BattleAnim_SacredFire
+	dw BattleAnim_ShinyFire
 	dw BattleAnim_Magnitude
 	dw BattleAnim_Dynamicpunch
-	dw BattleAnim_Megahorn
+	dw BattleAnim_DragonBash
 	dw BattleAnim_Dragonbreath
 	dw BattleAnim_BatonPass
 	dw BattleAnim_Encore
 	dw BattleAnim_Pursuit
 	dw BattleAnim_RapidSpin
 	dw BattleAnim_ShadowHit
-	dw BattleAnim_IronTail
+	dw BattleAnim_Braver
 	dw BattleAnim_MetalClaw
 	dw BattleAnim_AuraSphere
 	dw BattleAnim_HealingLight
@@ -243,7 +243,7 @@ BattleAnimations::
 	dw BattleAnim_AquaJet
 	dw BattleAnim_RainDance
 	dw BattleAnim_SunnyDay
-	dw BattleAnim_Crunch
+	dw BattleAnim_AvariceBite
 	dw BattleAnim_MirrorCoat
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_Extremespeed
@@ -848,11 +848,11 @@ BattleAnim_TensionKick:
 BattleAnim_FocusBlast:
 	anim_2gfx ANIM_GFX_LEAF_STORM, ANIM_GFX_WIND
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 24, $10
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 88, $8
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 24, $10
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 88, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 32, $6
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 80, $4
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 32, $6
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 80, $4
 	anim_sound 6, 2, SFX_OUTRAGE
 	anim_obj ANIM_OBJ_VORTEX_YELLOW, 48, 96, $30
 	anim_wait 63
@@ -2203,7 +2203,7 @@ BattleAnim_MindReader: ; removed
 	anim_wait 32
 	anim_ret
 
-BattleAnim_DizzyPunch:
+BattleAnim_LunarBullet:
 	anim_2gfx ANIM_GFX_STATUS, ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_MEGA_PUNCH
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, -15, 0,   5, 0, $0
@@ -2331,7 +2331,7 @@ BattleAnim_Headbutt:
 	anim_ret
 
 ; Zen Headbutt animation from Tohomon Prism
-BattleAnim_ZenHeadbutt:
+BattleAnim_LunarBash:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
 	anim_sound 0, 0, SFX_PSYCHIC
@@ -2412,14 +2412,14 @@ BattleAnim_DoubleEdge:
 BattleAnim_Sculpture:
 	anim_2gfx ANIM_GFX_WIND, ANIM_GFX_HIT
 	anim_sound 0, 0, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 24, $10
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 48, $2
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 88, $8
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 24, $10
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 48, $2
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 88, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 32, $6
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 56, $c
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 80, $4
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 8, 104, $e
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 32, $6
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 56, $c
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 80, $4
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 104, $e
 	anim_wait 12
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $60, $2, $0
 	anim_bgp $90
@@ -2707,7 +2707,7 @@ BattleAnim_Swift:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_Crabhammer:
+BattleAnim_BugStrikes:
 	anim_1gfx ANIM_GFX_HIT
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $40, $2, $0
 	anim_wait 48
@@ -3079,7 +3079,7 @@ BattleAnim_LeechLife:
 	anim_wait 28
 	anim_ret
 
-BattleAnim_Extrasensory:
+BattleAnim_Lunacy_Eyes:
 	anim_1gfx ANIM_GFX_SHINE
 	anim_sound 0, 1, SFX_CUT
 	anim_bgp $1b
@@ -3338,19 +3338,19 @@ BattleAnim_Rage:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_SakuyaWorld:
+BattleAnim_SpidersNest:
 	anim_1gfx ANIM_GFX_WIND
 	anim_obp0 $fc
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   3, 0, $10
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   6, 0, $2
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  11, 0, $8
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,   3, 0, $10
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,   6, 0, $2
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,  11, 0, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   4, 0, $6
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   7, 0, $c
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  10, 0, $4
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  13, 0, $e
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,   4, 0, $6
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,   7, 0, $c
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,  10, 0, $4
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,  13, 0, $e
 .loop
 	anim_sound 0, 0, SFX_RAZOR_WIND
 	anim_wait 4
@@ -3602,7 +3602,7 @@ BattleAnim_BugBuzz:
 	anim_sound 6, 2, SFX_TINGLE
 	anim_obj ANIM_OBJ_BUG_BUZZ_L, 32, 84, $28
 	anim_obj ANIM_OBJ_BUG_BUZZ_R, 64, 84, $38
-	anim_obj ANIM_OBJ_HYPER_VOICE, 64, 88, $2
+	anim_obj ANIM_OBJ_VOICE_BIND, 64, 88, $2
 	anim_wait 2
 	anim_sound 6, 2, SFX_TINGLE
 	anim_wait 2
@@ -3640,7 +3640,7 @@ BattleAnim_FlameCharge: ; formerly Flame Wheel
 	anim_wait 8
 	anim_ret
 
-BattleAnim_HyperVoice:
+BattleAnim_VoiceBind:
 	anim_2gfx ANIM_GFX_NOISE, ANIM_GFX_PSYCHIC
 .loop
 	anim_cry $0
@@ -3649,9 +3649,9 @@ BattleAnim_HyperVoice:
 	anim_obj ANIM_OBJ_SOUND, 64, 76, $0
 	anim_obj ANIM_OBJ_SOUND, 64, 88, $1
 	anim_obj ANIM_OBJ_SOUND, 64, 100, $2
-	anim_obj ANIM_OBJ_HYPER_VOICE, 64, 88, $2
+	anim_obj ANIM_OBJ_VOICE_BIND, 64, 88, $2
 	anim_wait 2
-	anim_obj ANIM_OBJ_HYPER_VOICE, 64, 88, $2
+	anim_obj ANIM_OBJ_VOICE_BIND, 64, 88, $2
 	anim_wait 28
 	anim_obj ANIM_OBJ_SOUND, 64, 76, $0
 	anim_obj ANIM_OBJ_SOUND, 64, 88, $1
@@ -4075,7 +4075,7 @@ BattleAnim_Spikes:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_ToxicSpikes:
+BattleAnim_PoisonNail:
 	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_PURPLE
 	anim_1gfx ANIM_GFX_MISC
 	anim_sound 6, 2, SFX_MENU
@@ -4159,14 +4159,14 @@ BattleAnim_AuraSphere:
 	anim_2gfx ANIM_GFX_BEAM, ANIM_GFX_WIND
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 3, 0, $10
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 6, 0, $2
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 11, 0, $8
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 1, 0, 3, 0, $10
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 1, 0, 6, 0, $2
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 1, 0, 11, 0, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 4, 0, $6
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 7, 0, $c
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 10, 0, $4
-	anim_obj ANIM_OBJ_SAKUYA_WORLD, 1, 0, 13, 0, $e
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 1, 0, 4, 0, $6
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 1, 0, 7, 0, $c
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 1, 0, 10, 0, $4
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 1, 0, 13, 0, $e
 	anim_sound 0, 0, SFX_RAZOR_WIND
 	anim_wait 32
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $8, $2, $10
@@ -4492,12 +4492,12 @@ BattleAnim_Swagger:
 	anim_wait 40
 	anim_ret
 
-BattleAnim_ShellSmash:
+BattleAnim_PowerTrick:
 	anim_3gfx ANIM_GFX_REFLECT, ANIM_GFX_HIT, ANIM_GFX_ROCKS
 	anim_bgeffect ANIM_BG_RETURN_MON, $0, $1, $0
 	anim_wait 6
 	anim_sound 0, 0, SFX_SHINE
-	anim_obj ANIM_OBJ_SHELL_SMASH_SHELL, 48, 106, $0
+	anim_obj ANIM_OBJ_POWER_TRICK_SHELL, 48, 106, $0
 	anim_wait 16
 	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $58, $2, $0
@@ -4510,11 +4510,11 @@ BattleAnim_ShellSmash:
 	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $2
 	anim_bgeffect ANIM_BG_ENTER_MON, $0, $1, $0
 	anim_sound 0, 1, SFX_KARATE_CHOP
-	anim_obj ANIM_OBJ_SHELL_SMASH_HIT, 48, 106, $0
-	anim_obj ANIM_OBJ_SHELL_SMASH, 48, 106, $5c
-	anim_obj ANIM_OBJ_SHELL_SMASH, 48, 106, $e8
-	anim_obj ANIM_OBJ_SHELL_SMASH, 48, 106, $d0
-	anim_obj ANIM_OBJ_SHELL_SMASH, 48, 106, $50
+	anim_obj ANIM_OBJ_POWER_TRICK_HIT, 48, 106, $0
+	anim_obj ANIM_OBJ_POWER_TRICK, 48, 106, $5c
+	anim_obj ANIM_OBJ_POWER_TRICK, 48, 106, $e8
+	anim_obj ANIM_OBJ_POWER_TRICK, 48, 106, $d0
+	anim_obj ANIM_OBJ_POWER_TRICK, 48, 106, $50
 	anim_wait 12
 	anim_bgeffect ANIM_BG_FADE_MON_TO_BLACK_REPEATING, $0, $1, $40
 	anim_call BattleAnim_ShowMon_0
@@ -4770,14 +4770,14 @@ BattleAnim_LifeBalance:
 	anim_wait 1
 	anim_ret
 
-BattleAnim_SacredFire:
+BattleAnim_ShinyFire:
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_1gfx ANIM_GFX_FIRE
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
 .loop
 	anim_sound 0, 0, SFX_EMBER
-	anim_obj ANIM_OBJ_SACRED_FIRE,   6, 0,  13, 0, $0
+	anim_obj ANIM_OBJ_SHINY_FIRE,   6, 0,  13, 0, $0
 	anim_wait 8
 	anim_loop 8, .loop
 	anim_wait 96
@@ -4871,7 +4871,7 @@ BattleAnim_Dynamicpunch:
 	anim_bgp $e4
 	anim_ret
 
-BattleAnim_Megahorn:
+BattleAnim_DragonBash:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GRAY
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $40, $2, $0
@@ -4965,7 +4965,7 @@ BattleAnim_RapidSpin:
 	anim_wait 1
 	anim_ret
 
-BattleAnim_IronTail:
+BattleAnim_Braver:
 	anim_1gfx ANIM_GFX_REFLECT
 	anim_obp0 $0
 	anim_sound 0, 0, SFX_RAGE
@@ -4999,7 +4999,7 @@ BattleAnim_MetalClaw:
 	anim_wait 32
 	anim_ret
 
-BattleAnim_DragonClaw:
+BattleAnim_SpiritVoice:
 	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_DRAGON_FIRE
 	anim_2gfx ANIM_GFX_CUT, ANIM_GFX_FIRE
 	anim_bgeffect ANIM_BG_FADE_MON_TO_LIGHT_REPEATING, $0, $1, $40
@@ -5135,7 +5135,7 @@ BattleAnimSub_Glimmer2:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Crunch:
+BattleAnim_AvariceBite:
 	anim_2gfx ANIM_GFX_CUT, ANIM_GFX_HIT
 	anim_bgp $1b
 	anim_obp0 $c0
@@ -5434,14 +5434,14 @@ BattleAnim_FutureSight:
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
 	anim_bgeffect ANIM_BG_PSYCHIC, $0, $0, $0
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   3, 0, $10
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   6, 0, $2
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  11, 0, $8
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,   3, 0, $10
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,   6, 0, $2
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,  11, 0, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   4, 0, $6
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,   7, 0, $c
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  10, 0, $4
-	anim_obj ANIM_OBJ_SAKUYA_WORLD,   1, 0,  13, 0, $e
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,   4, 0, $6
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,   7, 0, $c
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,  10, 0, $4
+	anim_obj ANIM_OBJ_SPIDERS_NEST,   1, 0,  13, 0, $e
 .loop
 	anim_sound 0, 0, SFX_THROW_BALL
 	anim_wait 16

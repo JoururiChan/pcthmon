@@ -57,7 +57,7 @@ MoveEffectsPointers:
 	dw HoneTools
 	dw DefenseCurl
 	dw Minimize
-	dw ShellSmash
+	dw PowerTrick
 	dw AttackDown
 	dw DefenseDown
 	dw SpeedDown
@@ -118,7 +118,7 @@ MoveEffectsPointers:
 	dw ConditionalBoostHit
 	dw Attract
 	dw Return
-	dw SacredFire
+	dw ShinyFire
 	dw Magnitude
 	dw BatonPass
 	dw Pursuit
@@ -142,7 +142,7 @@ MoveEffectsPointers:
 	dw NormalHit
 	dw SwitchHit
 	dw SuckerPunch
-	dw ToxicSpikes
+	dw PoisonNail
 	dw WhiteBird
 	dw Sculpture
 	dw SkillSwap

@@ -19,7 +19,7 @@ MACRO add_tm
 ENDM
 
 	add_tm DYNAMICPUNCH ; $00
-	add_tm DRAGON_CLAW  ; $01
+	add_tm SPIRIT_VOICE  ; $01
 	add_tm CURSE        ; $02
 	add_tm CALM_MIND    ; $03
 	add_tm ROAR         ; $04
@@ -40,7 +40,7 @@ ENDM
 	add_tm SAFEGUARD    ; $13
 	add_tm BULLDOZE     ; $14
 	add_tm FLOWER_SHOOT   ; $15
-	add_tm IRON_TAIL    ; $16
+	add_tm BRAVER    ; $16
 	add_tm THUNDERBOLT  ; $17
 	add_tm THUNDER      ; $18
 	add_tm EARTHQUAKE   ; $19
@@ -122,7 +122,7 @@ MACRO add_mt
 	add_tmnum \1
 ENDM
 
-	add_mt SAKUYA_WORLD      ; $51
+	add_mt SPIDERS_NEST      ; $51
 	add_mt AQUA_TAIL    ; $52
 	add_mt BATON_PASS   ; $53
 	add_mt BODY_SLAM    ; $54
@@ -135,7 +135,7 @@ ENDM
 	add_mt ENDURE       ; $5b
 	add_mt FIRE_PUNCH   ; $5c
 	add_mt HEADBUTT     ; $5d
-	add_mt HYPER_VOICE  ; $5e
+	add_mt VOICE_BIND  ; $5e
 	add_mt ICE_PUNCH    ; $5f
 	add_mt ICY_WIND     ; $60
 	add_mt IRON_HEAD    ; $61
@@ -152,7 +152,7 @@ ENDM
 	add_mt TRICK        ; $6c
 	add_mt TRICK_ROOM   ; $6d
 	add_mt ZAP_CANNON   ; $6e
-	add_mt ZEN_HEADBUTT ; $6f
+	add_mt LUNAR_BASH ; $6f
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS
