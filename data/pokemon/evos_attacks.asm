@@ -1921,24 +1921,7 @@ LuizeGalarianEvosAttacks:
 	db 49, MOONBLAST ; Healing Wish → new move
 	db -1 ; no more level-up moves
 
-ELuizePlainEvosAttacks:
-	db -1 ; no more evolutions
-	db 1, WILL_O_WISP ; evo move
-	db 1, TACKLE
-	db 1, GROWL
-	db 5, ASTONISH ; Tail Whip → similar move
-	db 9, DEFENSE_CURL
-	db 13, SWIFT ; Flame Wheel → Stomp
-	db 18, BARRIER ; Stomp → Flame Charge
-	db 22, TRICK ; Flame Charge → event move
-	db 25, HEADBUTT
-	db 29, CONFUSE_RAY
-	db 33, CHARM ; Inferno → egg move
-	db 38, HEX
-	db 42, MOONBLAST
-	db 46, SHADOW_DANCE ; Bounce → new move
-	db 50, SPIRIT_VOICE
-	db 54, SHINY_FIRE
+c
 	db -1 ; no more level-up moves
 
 ELuizeGalarianEvosAttacks:
