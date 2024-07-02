@@ -487,6 +487,13 @@ INCLUDE "data/battle_anims/framesets.asm"
 INCLUDE "data/battle_anims/oam.asm"
 INCLUDE "data/battle_anims/object_gfx.asm"
 
+SECTION "bank34", ROMX
+
+SECTION "bank35", ROMX
+
+SECTION "bank36", ROMX
+
+SECTION "bank37", ROMX
 
 SECTION "bank38", ROMX
 
