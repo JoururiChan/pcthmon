@@ -243,6 +243,7 @@ WRAMX $2
 	"Music Player RAM"
 	align 8
 	"Sound Stack"
+	"Pic Animations RAM"
 
 WRAMX $3
 	org $d000
