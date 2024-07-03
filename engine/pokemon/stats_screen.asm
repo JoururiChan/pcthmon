@@ -62,24 +62,6 @@ StatsScreenPointerTable:
 	dw StatsScreen_LoadPage
 	dw MonStatsJoypad
 
-StatsScreen_WaitAnim:
-	ld hl, wStatsScreenFlags
-	bit 6, [hl]
-	jr nz, .try_anim
-	bit 5, [hl]
-	jr nz, .finish
-	jmp DelayFrame
-
-.try_anim
-	farcall SetUpPokeAnim
-	jr nc, .finish
-	ld hl, wStatsScreenFlags
-	res 6, [hl]
-.finish
-	ld hl, wStatsScreenFlags
-	res 5, [hl]
-	farjp HDMATransferTileMapToWRAMBank3
-
 MonStatsInit:
 	ld hl, wStatsScreenFlags
 	res 6, [hl]

@@ -26,9 +26,6 @@ PredefPointers::
 	add_predef GetFrontpic
 	add_predef GetBackpic
 	add_predef FrontpicPredef
-	add_predef LoadMonAnimation
-	add_predef AnimateFrontpic
-	add_predef HOF_AnimateFrontpic
 	add_predef DoKeyItemEffect
 	add_predef SubtractHPFromUser
 	add_predef GetUserItemAfterUnnerve
