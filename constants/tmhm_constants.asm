@@ -20,19 +20,19 @@ ENDM
 
 	add_tm DYNAMICPUNCH ; $00
 	add_tm SPIRIT_VOICE  ; $01
-	add_tm CURSE        ; $02
+	add_tm POWER_TRICK        ; $02
 	add_tm CALM_MIND    ; $03
 	add_tm ROAR         ; $04
 	add_tm TOXIC        ; $05
 	add_tm HAIL         ; $06
 	add_tm BULK_UP      ; $07
-	add_tm SHADOW_DANCE    ; $08
+	add_tm PAY_DAY    ; $08
 	add_tm HIDDEN_POWER ; $09
 	add_tm SUNNY_DAY    ; $0a
 	add_tm HONE_TOOLS   ; $0b
 	add_tm ICE_BEAM     ; $0c
 	add_tm BLIZZARD     ; $0d
-	add_tm AEROBLAST   ; $0e
+	add_tm TENSION_KICK   ; $0e
 	add_tm LIGHT_SCREEN ; $0f
 	add_tm PROTECT      ; $10
 	add_tm RAIN_DANCE   ; $11
@@ -40,7 +40,7 @@ ENDM
 	add_tm SAFEGUARD    ; $13
 	add_tm BULLDOZE     ; $14
 	add_tm FLOWER_SHOOT   ; $15
-	add_tm BRAVER    ; $16
+	add_tm SEAL_NEEDLE    ; $16
 	add_tm THUNDERBOLT  ; $17
 	add_tm THUNDER      ; $18
 	add_tm EARTHQUAKE   ; $19
@@ -74,11 +74,11 @@ endc
 	add_tm LEECH_LIFE   ; $31
 	add_tm WHITE_BIRD        ; $32
 	add_tm FOCUS_BLAST  ; $33
-	add_tm SPORE  ; $34
+	add_tm DREAM_HEAVEN  ; $34
 	add_tm BLADE_FLASH  ; $35
 	add_tm SCALD        ; $36
 	add_tm ICHIGO_CROSS    ; $37
-	add_tm KNIFE_THROW  ; $38
+	add_tm BLAZE_STAR  ; $38
 	add_tm DARK_PULSE   ; $39
 	add_tm DRAGON_PULSE ; $3a
 	add_tm DRAIN_PUNCH  ; $3b
@@ -123,7 +123,7 @@ MACRO add_mt
 ENDM
 
 	add_mt SPIDERS_NEST      ; $51
-	add_mt AQUA_TAIL    ; $52
+	add_mt KNIFE_THROW    ; $52
 	add_mt BATON_PASS   ; $53
 	add_mt BODY_SLAM    ; $54
 	add_mt CHARM        ; $55
@@ -140,7 +140,7 @@ ENDM
 	add_mt ICY_WIND     ; $60
 	add_mt IRON_HEAD    ; $61
 	add_mt KNOCK_OFF    ; $62
-	add_mt PAY_DAY      ; $63
+	add_mt STEEL_FIST      ; $63
 	add_mt ROLLOUT      ; $64
 	add_mt SEED_BOMB    ; $65
 	add_mt SEISMIC_TOSS ; $66
@@ -152,7 +152,7 @@ ENDM
 	add_mt TRICK        ; $6c
 	add_mt TRICK_ROOM   ; $6d
 	add_mt ZAP_CANNON   ; $6e
-	add_mt LUNAR_BASH ; $6f
+	add_mt LUNAR_BULLET ; $6f
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS
