@@ -33,6 +33,16 @@ CSakuyaEggMoves:
 	db STEEL_FIST
 	db $ff
 
+CGyokuEggMoves:
+	db LIFE_COUNTER
+	db FORESIGHT
+	db VENOSHOCK
+	db EXPLOSION
+	db TOXIC_GAS
+	db ROCK_BLAST
+	db GYRO_BALL
+	db $ff
+
 CMaganEggMoves:
 	db LIFE_COUNTER
 	db FORESIGHT
