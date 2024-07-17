@@ -168,7 +168,7 @@ Goldenrod5FTMMart:
 	dbw TM_THUNDER,       30000
 	dbw TM_HELL_TOKAMAK,    30000
 	dbw TM_BLIZZARD,      30000
-	dbw TM_AEROBLAST,    50000
+	dbw TM_TENSION_KICK,    50000
 	db -1
 
 GoldenrodHarborMart:

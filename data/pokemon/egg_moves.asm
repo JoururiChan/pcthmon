@@ -290,7 +290,7 @@ CShinkiEggMoves:
 	db $ff
 
 CRumiaEggMoves:
-	db CRUNCH
+	db AVARICE_BITE
 	db BITE
 	db ICICLE_SPEAR
 	db SCULPTURE

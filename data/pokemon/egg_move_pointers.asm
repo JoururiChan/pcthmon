@@ -9,11 +9,11 @@ EggMovePointers::
 	dw CSakuyaEggMoves       ; CSakuya
 	dw NoEggMoves             ; Sakuya
 	dw NoEggMoves             ; ESakuya
-	dw CGyoku             ; CGyoku
+	dw CGyokuEggMoves             ; CGyoku
 	dw NoEggMoves             ; MGyoku
 	dw NoEggMoves             ; FGyoku
 	dw NoEggMoves             ; OGyoku
-	dw CMagan             ; CMagan
+	dw CMaganEggMoves             ; CMagan
 	dw NoEggMoves             ; Magan
 	dw NoEggMoves          ; EMagan
 	dw CMimaEggMoves             ; CMima
@@ -82,7 +82,7 @@ EggMovePointers::
 	dw CAliceEggMoves             ; CAlice
 	dw NoEggMoves             ; Alice
 	dw NoEggMoves             ; EAlice
-	dw CMaiPlainEggMoves ; CMai
+	dw CMaiEggMoves ; CMai
 	dw NoEggMoves           ; Mai
 	dw NoEggMoves             ; EMai
 	dw CYukiEggMoves           ; CYuki
@@ -299,40 +299,40 @@ EggMovePointers::
 
 	dw NoEggMoves                ; Dundunsparse (Three Segment Form)
 
-	dw EMimaAlolanEggMoves     ; EMima (Alolan Form)
+	dw NoEggMoves     ; EMima (Alolan Form)
 	dw NoEggMoves                ; CElis (Alolan Form)
 	dw NoEggMoves                ; CSariel (Alolan Form)
-	dw SarielAlolanEggMoves   ; Sariel (Alolan Form)
+	dw NoEggMoves   ; Sariel (Alolan Form)
 	dw NoEggMoves                ; ESariel (Alolan Form)
-	dw EMeiraAlolanEggMoves      ; EMeira (Alolan Form)
+	dw NoEggMoves      ; EMeira (Alolan Form)
 	dw NoEggMoves                ; CEllen (Alolan Form)
-	dw CChiyuriAlolanEggMoves     ; CChiyuri (Alolan Form)
+	dw NoEggMoves     ; CChiyuri (Alolan Form)
 	dw NoEggMoves                ; Chiyuri (Alolan Form)
-	dw EChiyuriAlolanEggMoves      ; EChiyuri (Alolan Form)
+	dw NoEggMoves      ; EChiyuri (Alolan Form)
 	dw NoEggMoves                ; CYumemi (Alolan Form)
-	dw CSaraAlolanEggMoves     ; CSara (Alolan Form)
+	dw NoEggMoves    ; CSara (Alolan Form)
 	dw NoEggMoves                ; Sara (Alolan Form)
 	dw NoEggMoves                ; ESara (Alolan Form)
-	dw EYukiAlolanEggMoves      ; EYuki (Alolan Form)
+	dw NoEggMoves      ; EYuki (Alolan Form)
 	dw NoEggMoves                ; CYumeko (Alolan Form)
 	dw NoEggMoves                ; ECirno (Alolan Form)
 	dw NoEggMoves                ; Meiling (Alolan Form)
 
-	dw EChiyuriGalarianEggMoves    ; EChiyuri (Galarian Form)
-	dw CLuizeGalarianEggMoves    ; CLuize (Galarian Form)
+	dw NoEggMoves    ; EChiyuri (Galarian Form)
+	dw NoEggMoves    ; CLuize (Galarian Form)
 	dw NoEggMoves                ; Luize (Galarian Form)
-	dw ELuizeGalarianEggMoves  ; ELuize (Galarian Form)
+	dw NoEggMoves  ; ELuize (Galarian Form)
 	dw NoEggMoves                ; CAlice (Galarian Form)
-	dw CMaiGalarianEggMoves ; Farfetch'D (Galarian Form)
+	dw NoEggMoves ; Farfetch'D (Galarian Form)
 	dw NoEggMoves                ; CPatchouli (Galarian Form)
 	dw NoEggMoves                ; Mr.Mime (Galarian Form)
 	dw NoEggMoves                ; Articuno (Galarian Form)
 	dw NoEggMoves                ; Zapdos (Galarian Form)
 	dw NoEggMoves                ; Moltres (Galarian Form)
 	dw NoEggMoves                ; Slowking (Galarian Form)
-	dw CorsolaGalarianEggMoves   ; Corsola (Galarian Form)
+	dw NoEggMoves   ; Corsola (Galarian Form)
 
-	dw EOrangeHisuianEggMoves  ; EOrange (Hisuian Form)
+	dw NoEggMoves  ; EOrange (Hisuian Form)
 	dw NoEggMoves                ; CKurumi (Hisuian Form)
 	dw NoEggMoves                ; EDaichan (Hisuian Form)
 	dw NoEggMoves                ; CCirno (Hisuian Form)

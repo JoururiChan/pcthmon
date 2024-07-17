@@ -25,7 +25,7 @@ CeladonMansionRoofHousePharmacistScript:
 	iffalse_jumpopenedtext .NotNiteText
 	writetext .StoryText
 	promptbutton
-	verbosegivetmhm TM_CURSE
+	verbosegivetmhm TM_SPIRIT_VOICE
 	setevent EVENT_GOT_TM03_CURSE
 	jumpthisopenedtext
 

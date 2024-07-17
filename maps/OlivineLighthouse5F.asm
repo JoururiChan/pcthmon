@@ -22,7 +22,7 @@ OlivineLighthouse5F_MapScriptHeader:
 	object_event  8,  3, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerBird_keeperDenis, -1
 	itemball_event 15, 12, RARE_CANDY, 1, EVENT_OLIVINE_LIGHTHOUSE_5F_RARE_CANDY
 	itemball_event  6, 15, SUPER_REPEL, 1, EVENT_OLIVINE_LIGHTHOUSE_5F_SUPER_REPEL
-	tmhmball_event  2, 13, TM_SPORE, EVENT_OLIVINE_LIGHTHOUSE_5F_TM_SPORE
+	tmhmball_event  2, 13, TM_DREAM_HEAVEN, EVENT_OLIVINE_LIGHTHOUSE_5F_TM_SPORE
 
 GenericTrainerBird_keeperDenis:
 	generictrainer BIRD_KEEPER, DENIS, EVENT_BEAT_BIRD_KEEPER_DENIS, Bird_keeperDenisSeenText, Bird_keeperDenisBeatenText
