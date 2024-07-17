@@ -2376,7 +2376,7 @@ RumiaEvosAttacks:
 	evo_data EVOLVE_LEVEL, 34, ERUMIA
 	db -1 ; no more evolutions
 	db 1, LICK
-	db 1, TOXIC_GAS ; evo move
+	db 1, AVARICE_BITE ; evo move
 	db 1, GROWL
 	db 6, SCRATCH
 	db 9, ACID

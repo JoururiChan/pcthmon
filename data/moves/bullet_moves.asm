@@ -8,4 +8,8 @@ BulletMoves:
 	db SHADOW_BALL
 	db SLUDGE_BOMB
 	db ZAP_CANNON
+	db LUNAR_BULLET
+	db SEAL_NEEDLE
+	db PWJ_NEEDLE
+	db POISON_NAIL
 	db -1

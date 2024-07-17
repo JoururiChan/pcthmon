@@ -3,4 +3,6 @@ LauncherMoves:
 	db DARK_PULSE
 	db DRAGON_PULSE
 	db WATER_PULSE
+	db LUNAR_BULLET
+	db POISON_NAIL
 	db -1

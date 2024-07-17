@@ -19,11 +19,9 @@ ContactMoves:
 	db CUT
 	db DIG
 	db DIVE_KICK
-	db LUNAR_BULLET
 	db DOUBLE_KICK
 	db DOUBLE_EDGE
 	db DOUBLE_SLAP
-	db SPIRIT_VOICE
 	db DRAIN_KISS
 	db DRAIN_PUNCH
 	db DRAGON_DRILL
@@ -60,6 +58,7 @@ ContactMoves:
 	db PETAL_SLASH
 	db PLAY_ROUGH
 	db POISON_JAB
+	db POISON_NAIL
 	db POWER_WHIP
 	db PURSUIT
 	db QUICK_ATTACK
@@ -89,6 +88,5 @@ ContactMoves:
 	db WATERFALL
 	db WING_ATTACK
 	db WRAP
-	db ICHIGO_CROSS
 	db LUNAR_BASH
 	db STRUGGLE ; -1

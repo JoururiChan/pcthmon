@@ -9,24 +9,24 @@ EggMovePointers::
 	dw CSakuyaEggMoves       ; CSakuya
 	dw NoEggMoves             ; Sakuya
 	dw NoEggMoves             ; ESakuya
-	dw NoEggMoves             ; CGyoku
+	dw CGyoku             ; CGyoku
 	dw NoEggMoves             ; MGyoku
 	dw NoEggMoves             ; FGyoku
 	dw NoEggMoves             ; OGyoku
-	dw NoEggMoves             ; CMagan
+	dw CMagan             ; CMagan
 	dw NoEggMoves             ; Magan
-	dw EMaganEggMoves         ; EMagan
-	dw NoEggMoves             ; CMima
+	dw NoEggMoves          ; EMagan
+	dw CMimaEggMoves             ; CMima
 	dw NoEggMoves             ; Mima
-	dw EMimaEggMoves   ; EMima
-	dw NoEggMoves             ; CElis
-	dw ElisEggMoves        ; Elis
+	dw NoEggMoves    ; EMima
+	dw CElisEggMoves             ; CElis
+	dw NoEggMoves        ; Elis
 	dw NoEggMoves             ; EElis
 	dw CKikuriEggMoves          ; CKikuri
 	dw NoEggMoves             ; Kikuri
 	dw NoEggMoves             ; EKikuri
-	dw NoEggMoves             ; CSariel
-	dw SarielPlainEggMoves ; Sariel
+	dw CSarielEggMoves             ; CSariel
+	dw NoEggMoves 				; Sariel
 	dw NoEggMoves             ; ESariel
 	dw CKongaraEggMoves       ; CKongara
 	dw NoEggMoves             ; Kongara
@@ -34,90 +34,90 @@ EggMovePointers::
 	dw CRikaEggMoves       ; CRika
 	dw NoEggMoves             ; Rika
 	dw NoEggMoves             ; ERika
-	dw NoEggMoves             ; CMeira
+	dw CMeiraEggMoves             ; CMeira
 	dw NoEggMoves             ; Meira
-	dw EMeiraPlainEggMoves    ; EMeira
+	dw NoEggMoves 			    ; EMeira
 	dw NoEggMoves             ; CEllen
 	dw NoEggMoves             ; Ellen
 	dw NoEggMoves             ; EEllen
 	dw CKotohimeEggMoves          ; CKotohime
 	dw NoEggMoves             ; Kotohime
-	dw EKotohimeEggMoves         ; EKotohime
-	dw NoEggMoves             ; CKana
+	dw NoEggMoves         ; EKotohime
+	dw CKanaEggMoves             ; CKana
 	dw NoEggMoves             ; Kana
-	dw EKanaEggMoves          ; EKana
-	dw NoEggMoves             ; CRikako
-	dw RikakoEggMoves        ; Rikako
+	dw NoEggMoves	          ; EKana
+	dw CRikakoEggMoves             ; CRikako
+	dw NoEggMoves 		        ; Rikako
 	dw NoEggMoves             ; ERikako
-	dw CChiyuriPlainEggMoves   ; CChiyuri
+	dw CChiyuriEggMoves   ; CChiyuri
 	dw NoEggMoves             ; Chiyuri
-	dw EChiyuriPlainEggMoves    ; EChiyuri
-	dw NoEggMoves             ; CYumemi
-	dw YumemiEggMoves        ; Yumemi
+	dw NoEggMoves    ; EChiyuri
+	dw CYumemiEggMoves             ; CYumemi
+	dw NoEggMoves         ; Yumemi
 	dw NoEggMoves             ; EYumemi
 	dw COrangeEggMoves         ; COrange
 	dw NoEggMoves             ; Orange
-	dw EOrangeEggMoves      ; EOrange
-	dw NoEggMoves             ; CKurumi
-	dw KurumiEggMoves        ; Kurumi
+	dw NoEggMoves      ; EOrange
+	dw CKurumiEggMoves          ; CKurumi
+	dw NoEggMoves        ; Kurumi
 	dw NoEggMoves             ; EKurumi
-	dw NoEggMoves             ; CElly
-	dw EllyEggMoves           ; Elly
+	dw CEllyEggMoves             ; CElly
+	dw NoEggMoves            ; Elly
 	dw NoEggMoves             ; EElly
-	dw NoEggMoves             ; CYuka
-	dw YukaEggMoves         ; Yuka
+	dw CYukaEggMoves            ; CYuka
+	dw NoEggMoves          ; Yuka
 	dw NoEggMoves             ; EYuka
-	dw NoEggMoves             ; CMugetsu
-	dw MugetsuEggMoves     ; Mugetsu
+	dw CMugetsuEggMoves             ; CMugetsu
+	dw NoEggMoves     ; Mugetsu
 	dw NoEggMoves             ; EMugetsu
-	dw NoEggMoves             ; CGengetsu
-	dw GengetsuEggMoves      ; Gengetsu
+	dw CGengetsuEggMoves             ; CGengetsu
+	dw NoEggMoves      ; Gengetsu
 	dw NoEggMoves             ; EGengetsu
-	dw CSaraPlainEggMoves   ; CSara
+	dw CSaraEggMoves   ; CSara
 	dw NoEggMoves             ; Sara
 	dw NoEggMoves             ; ESara
-	dw CLuizePlainEggMoves    ; CLuize
+	dw CLuizeEggMoves    ; CLuize
 	dw NoEggMoves             ; Luize
-	dw ELuizePlainEggMoves  ; ELuize
-	dw NoEggMoves             ; CAlice
+	dw NoEggMoves   ; ELuize
+	dw CAliceEggMoves             ; CAlice
 	dw NoEggMoves             ; Alice
 	dw NoEggMoves             ; EAlice
 	dw CMaiPlainEggMoves ; CMai
-	dw MaiEggMoves          ; Mai
+	dw NoEggMoves           ; Mai
 	dw NoEggMoves             ; EMai
 	dw CYukiEggMoves           ; CYuki
 	dw NoEggMoves             ; Yuki
-	dw EYukiPlainEggMoves    ; EYuki
-	dw NoEggMoves             ; CYumeko
-	dw YumekoEggMoves       ; Yumeko
+	dw NoEggMoves    ; EYuki
+	dw CYumekoEggMoves             ; CYumeko
+	dw NoEggMoves       ; Yumeko
 	dw NoEggMoves             ; EYumeko
 	dw CShinkiEggMoves         ; CShinki
 	dw NoEggMoves             ; Shinki
 	dw NoEggMoves             ; EShinki
 	dw CRumiaEggMoves           ; CRumia
-	dw RumiaEggMoves        ; Rumia
+	dw NoEggMoves 		       ; Rumia
 	dw NoEggMoves             ; ERumia
 	dw CDaichanEggMoves         ; CDaichan
 	dw NoEggMoves             ; Daichan
 	dw NoEggMoves             ; EDaichan
-	dw NoEggMoves             ; CCirno
-	dw CirnoEggMoves      ; Cirno
+	dw CCirnoEggMoves             ; CCirno
+	dw NoEggMoves 		      ; Cirno
 	dw NoEggMoves             ; ECirno
 	dw CMeilingEggMoves         ; CMeiling
 	dw NoEggMoves             ; Meiling
 	dw NoEggMoves             ; EMeiling
-	dw NoEggMoves             ; CKoakuma
-	dw KoakumaEggMoves      ; Koakuma
-	dw EKoakumaEggMoves        ; EKoakuma
-	dw NoEggMoves             ; CPatchouli
-	dw PatchouliEggMoves        ; Patchouli
+	dw CKoakumaEggMoves             ; CKoakuma
+	dw NoEggMoves       ; Koakuma
+	dw NoEggMoves         ; EKoakuma
+	dw CPatchouliEggMoves             ; CPatchouli
+	dw NoEggMoves 	       ; Patchouli
 	dw NoEggMoves             ; EPatchouli
-	dw NoEggMoves             ; CRemilia
-	dw RemiliaEggMoves        ; Remilia
-	dw ERemiliaEggMoves     ; ERemilia
+	dw CRemiliaEggMoves             ; CRemilia
+	dw NoEggMoves       ; Remilia
+	dw NoEggMoves      ; ERemilia
 	dw CFlandreEggMoves         ; CFlandre
 	dw NoEggMoves             ; Flandre
-	dw EFlandreEggMoves        ; EFlandre
+	dw NoEggMoves         ; EFlandre
 	dw NoEggMoves             ; Seaking
 	dw NoEggMoves             ; Staryu
 	dw NoEggMoves             ; Starmie

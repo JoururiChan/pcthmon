@@ -3,10 +3,10 @@ SoundMoves::
 	db DISARM_VOICE
 	db GROWL
 	db VOICE_BIND
-	db SHADOW_DANCE
 	db ROAR
 	db SCREECH
 	db SING
 	db SUPERSONIC
 	db HEAL_BELL
+	db SPIRIT_VOICE
 	db -1

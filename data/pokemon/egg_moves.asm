@@ -18,7 +18,7 @@ CMarisaEggMoves:
 	db SHADOW_DANCE
 	db TRICK_ROOM
 	db AURA_SPHERE
-	db POISON_NAIL
+	db POWER_TRICK
 	db VOLT_SWITCH
 	db FIVEELEMENTS
 	db $ff
@@ -33,58 +33,53 @@ CSakuyaEggMoves:
 	db STEEL_FIST
 	db $ff
 
-EMaganEggMoves:
-	db PECK
-	db FEINT_ATTACK
+CMaganEggMoves:
+	db LIFE_COUNTER
 	db FORESIGHT
-	db PURSUIT
-	db AIR_SLASH
-	db STEEL_WING
-	db CHARM
-	db EXTREMESPEED
-	db DIVE_KICK
+	db VENOSHOCK
+	db EXPLOSION
+	db TOXIC_GAS
+	db ROCK_BLAST
+	db GYRO_BALL
 	db $ff
 
-EMimaEggMoves:
-EMimaAlolanEggMoves:
-	db FURY_STRIKES
-	db REVERSAL
-	db SCREECH
-	db BITE
-	db COUNTER
+CMimaEggMoves:
+	db VOICE_BIND
+	db LUNACY_EYES
+	db KNOCK_OFF
+	db LIFE_COUNTER
+	db LIFE_BALANCE
+	db DRAIN_KISS
+	db BLAZE_STAR
 	db $ff
 
-ElisEggMoves:
-	db ASTONISH
-	db FEINT_ATTACK
-	db QUICK_ATTACK
-	db SCARY_FACE
-	db FIVEELEMENTS
+CElisEggMoves:
+	db POWER_BITE
+	db VOICE_BIND
+	db SPIRIT_VOICE
+	db POWER_TRICK
+	db SKILL_SWAP
+	db DRAIN_KISS
+	db SWEET_KISS
 	db $ff
 
 CKikuriEggMoves:
-	db AVARICE_BITE
-	db DISABLE
-	db PURSUIT
-	db SCARY_FACE
+	db DRAGON_DANCE
+	db LUNAR_BULLET
+	db LUNACY_EYES
+	db ROCK_THROW
+	db BULLDOZE
+	db BARRIER
+	db TELEPORT
 	db $ff
 
-SarielPlainEggMoves:
-	db METAL_CLAW
-	db RAPID_SPIN
+CSarielEggMoves:
+	db TELEPORT
 	db SAFEGUARD
-	db COUNTER
-	db NIGHT_SLASH
-	db $ff
-
-SarielAlolanEggMoves:
-	db AMNESIA
-	db RAPID_SPIN
-	db SAFEGUARD
-	db REVERSAL ; Flail → similar move
-	db ICICLE_CRASH
-	db ICICLE_SPEAR
-	db NIGHT_SLASH
+	db PETAL_SLASH
+	db MIRROR_COAT
+	db DISARM_VOICE
+	db DRAGON_BASH
 	db $ff
 
 CKongaraEggMoves:
@@ -97,371 +92,274 @@ CKongaraEggMoves:
 	db $ff
 
 CRikaEggMoves:
-	db AMNESIA
-	db PSYSHOT
-	db DISABLE
+	db DRAGON_BASH
+	db TENSION_KICK
+	db MASTER_SPARK
 	db SUPERSONIC
-	db TAKE_DOWN
 	db CALM_MIND
-	db COUNTER
+	db GUNGNIR
+	db LUNAR_BULLET
 	db $ff
 
-EMeiraPlainEggMoves:
+CMeiraEggMoves:
 	db FLAME_CHARGE
-	db DISABLE
 	db LAVATEIN
-	db HYPNOSIS
-	db FEINT_ATTACK
-	db LUNACY_EYES
-	db CHARM
-	db DREAM_HEAVEN
+	db GUNGNIR
+	db PETAL_SLASH
+	db TENSION_KICK
+	db STRENGTH
 	db ROAR
 	db $ff
 
-EMeiraAlolanEggMoves:
-	db DISABLE
-	db BLIZZARD
+CEllenEggMoves:
+	db STEEL_FIST
+	db SWEET_KISS
 	db HYPNOSIS
-	db FEINT_ATTACK
-	db LUNACY_EYES
-	db CHARM
-	db ICE_BEAM
-	db ROAR
+	db POWER_TRICK
+	db LIFE_BALANCE
+	db BLAZE_STAR
 	db $ff
 
 CKotohimeEggMoves:
-	db FEINT_ATTACK
-	db GUST
-	db HYPNOSIS
-	db NASTY_PLOT
-	db PURSUIT
-	db QUICK_ATTACK
+	db MOONBLAST
+	db WRAP
+	db TENSION_KICK
+	db STRENGTH
+	db SWEET_KISS
+	db BLADE_FLASH
+	db $ff
+
+CKanaEggMoves:
+	db LIFE_COUNTER
+	db FLASH_CANNON
+	db FLASH
+	db SHINY_FIRE
+	db POWER_GEM
+	db HELL_TOKAMAK
+	db $ff
+
+CRikakoEggMoves:
+	db POWER_TRICK
+	db BLAZE_STAR
+	db PSYSTRIKE
 	db LUNAR_BASH
-	db DIVE_KICK
+	db DOUBLE_EDGE
+	db VOLT_SWITCH
 	db $ff
 
-EKotohimeEggMoves:
-	db CHARM
-	db RAZOR_LEAF
-	db HEALINGLIGHT
-	db SWORDS_DANCE
+CChiyuriEggMoves:
+	db WATERFALL
+	db LUNAR_BULLET
+	db TENSION_KICK
+	db AURA_SPHERE
+	db ICE_PUNCH
+	db POWER_GEM
 	db $ff
 
-EKanaEggMoves:
-	db SPIDERS_NEST
-	db LEECH_SEED
-	db METAL_CLAW
-	db PSYBEAM
-	db PURSUIT
-	db SCREECH
-	db SHADOW_HIT
-	db $ff
-
-RikakoEggMoves:
-	db SPIDERS_NEST
-	db BATON_PASS
-	db HEALINGLIGHT
-	db SCREECH
-	db POISON_NAIL
-	db $ff
-
-CChiyuriPlainEggMoves:
-CChiyuriAlolanEggMoves:
-	db ANCIENTPOWER
-	db FEINT_ATTACK
-	db HEADBUTT
-	db PURSUIT
-	db REVERSAL
-	db SCREECH
-	db $ff
-
-EChiyuriPlainEggMoves:
-EChiyuriAlolanEggMoves:
-EChiyuriGalarianEggMoves:
-	db CHARM
-	db HYPNOSIS
-	db AMNESIA
-	db LEER
-	db NIGHT_SLASH
-	db $ff
-
-YumemiEggMoves:
-	db CONFUSE_RAY
-	db CROSS_CHOP
-	db ENCORE
-	db FORESIGHT
-	db FUTURE_SIGHT
-	db HYPNOSIS
-	db PSYBEAM
-	db ICE_BEAM
-	db LIGHT_SCREEN
-	db PSYCHIC_M
+CYumemiEggMoves:
+	db FLAME_CHARGE
+	db GUNGNIR
+	db LAVATEIN
+	db VOLT_SWITCH
+	db FLASH_CANNON
+	db AURA_SPHERE
 	db $ff
 
 COrangeEggMoves:
 	db ENCORE
 	db FORESIGHT
-	db BULK_UP
-	db REVERSAL
-	db ROCK_SLIDE
-	db COUNTER
-	db GUNK_SHOT
-	db NIGHT_SLASH
-	db SCULPTURE
+	db DRAGON_RAGE
+	db DRAGON_BASH
+	db KNIFE_THROW
+	db POISON_NAIL
 	db $ff
 
-EOrangeEggMoves:
-EOrangeHisuianEggMoves:
-	db DOUBLE_KICK
-	db FIRE_SPIN
-	db HEALINGLIGHT
-	db THRASH
-	db AVARICE_BITE
-	db LAVATEIN
-	db BODY_SLAM
-	db SAFEGUARD
-	db SCULPTURE
+CKurumiEggMoves:
+	db GUNGNIR
+	db DARK_PULSE
+	db ABSORB
+	db MEGA_DRAIN
+	db LUNACY_EYES
+	db FURY_STRIKES
 	db $ff
 
-KurumiEggMoves:
-	db ENCORE
-	db HAZE
-	db SPLASH
-	db BUBBLE_BEAM
-	db WATER_PULSE
+CEllyEggMoves:
+	db ROCK_BLAST
+	db BRAVER
+	db BONEMERANG
+	db LIFE_COUNTER
+	db SUBSTITUTE
+	db PROTECT
+	db SLASH
 	db $ff
 
-EllyEggMoves:
-	db BARRIER
-	db ENCORE
-	db LIGHT_SCREEN
-	db KNOCK_OFF
-	db $ff
-
-YukaEggMoves:
-	db STEEL_FIST
-	db ENCORE
-	db BULK_UP
-	db LIGHT_SCREEN
-	db MACH_PUNCH
-	db SCULPTURE
-	db KNOCK_OFF
-	db $ff
-
-MugetsuEggMoves:
-	db ENCORE
-	db LEECH_LIFE
-	db SWORDS_DANCE
-	db REFLECT
-	db HEALINGLIGHT
+CYukaEggMoves:
+	db DOUBLE_TEAM
+	db THIEF
+	db SUNNY_DAY
+	db SHADOW_HIT
+	db MEGA_DRAIN
 	db POWER_WHIP
+	db OUTRAGE
 	db $ff
 
-GengetsuEggMoves:
-	db AURORA_BEAM
-	db CONFUSE_RAY
-	db HAZE
-	db MIRROR_COAT
-	db RAPID_SPIN
-	db SAFEGUARD
-	db KNOCK_OFF
-	db $ff
-
-CSaraPlainEggMoves:
-CSaraAlolanEggMoves:
-	db ROCK_SLIDE
-	db $ff
-
-CLuizePlainEggMoves:
-	db CHARM
-	db DOUBLE_KICK
-	db HYPNOSIS
+CMugetsuEggMoves:
 	db HEALINGLIGHT
-	db THRASH
+	db TELEPORT
 	db QUICK_ATTACK
-	db EXTREMESPEED
-	db PLAY_ROUGH
+	db ASTONISH
+	db SCARY_FACE
+	db HELL_TOKAMAK
+	db LIFE_BALANCE
 	db $ff
 
-CLuizeGalarianEggMoves:
-	db CHARM
-	db DOUBLE_KICK
-	db HYPNOSIS
+CGengetsuEggMoves:
+	db EXPLOSION
+	db DISARM_VOICE
+	db DRAIN_KISS
 	db HEALINGLIGHT
-	db THRASH
-	db QUICK_ATTACK
-	db PSYBEAM
-	db PSYCHIC_M
-	db EXTREMESPEED
-	db PLAY_ROUGH
+	db HYPNOSIS
+	db DISABLE
+	db LIFE_COUNTER
 	db $ff
 
-ELuizePlainEggMoves:
-ELuizeGalarianEggMoves:
-	db BELLY_DRUM
-	db FUTURE_SIGHT
-	db STOMP
-	db SAFEGUARD
-	db LUNAR_BASH
+CSaraEggMoves:
+	db FLAME_CHARGE
+	db DRAGON_BASH
+	db STONE_EDGE
+	db DRAGON_DRILL
+	db SEISMIC_TOSS
+	db QUICK_ATTACK
+	db TRICK_ROOM
 	db $ff
 
-CMaiGalarianEggMoves:
-	db COUNTER
-CMaiPlainEggMoves:
-	db FORESIGHT
-	db GUST
-	db QUICK_ATTACK
-	db STEEL_WING
-	db NIGHT_SLASH
-	db WHITE_BIRD
+CLuizeEggMoves:
+	db AMNESIA
+	db AURA_SPHERE
+	db SLEEP_POWDER
+	db CALM_MIND
+	db U_TURN
+	db DOUBLE_TEAM
+	db TELEPORT
+	db LIFE_COUNTER
 	db $ff
 
-MaiEggMoves:
-	db FEINT_ATTACK
-	db HAZE
-	db SUPERSONIC
+CAliceEggMoves:
+	db PWJ_NEEDLE
+	db POISON_NAIL
 	db QUICK_ATTACK
-	db DIVE_KICK
+	db PSYSTRIKE
+	db PETAL_SLASH
+	db BRAVER
+	db $ff
+
+CMaiEggMoves:
+	db ICICLE_SPEAR
+	db SEAL_NEEDLE
+	db BUBBLE_BEAM
+	db GROWTH
+	db SLEEP_POWDER
+	db HYPNOSIS
 	db $ff
 
 CYukiEggMoves:
-	db DISABLE
-	db LICK
-	db PECK
-	db SHADOW_DANCE
-	db ENCORE
-	db WATER_PULSE
-	db ICICLE_SPEAR
-	db $ff
-
-EYukiPlainEggMoves:
-	db HAZE
-	db LICK
-	db MEAN_LOOK
-	db SCARY_FACE
-	db SHADOW_HIT
-	db $ff
-
-EYukiAlolanEggMoves:
-	db HAZE
-	db LICK
-	db MEAN_LOOK
-	db SCARY_FACE
-	db PURSUIT
-	db $ff
-
-YumekoEggMoves:
-	db BARRIER
-	db BUBBLE_BEAM
-	db RAPID_SPIN
-	db SCREECH
+	db FIRE_PUNCH
+	db ICHIGO_CROSS
+	db HEADBUTT
 	db TAKE_DOWN
-	db WATER_PULSE
-	db ICICLE_SPEAR
-	db ROCK_BLAST
+	db DOUBLE_EDGE
+	db BODY_SLAM
+	db $ff
+
+CYumekoEggMoves:
+	db BRAVER
+	db TRICK
+	db POWER_WHIP
+	db DOUBLE_EDGE
+	db DOUBLE_KICK
+	db TENSION_KICK
 	db $ff
 
 CShinkiEggMoves:
-	db ASTONISH
-	db DISABLE
-	db HAZE
-	db SHADOW_DANCE
-	db SCARY_FACE
-	db NASTY_PLOT
-	db FEINT_ATTACK
+	db ICHIGO_CROSS
+	db NIGHT_SLASH
+	db ENERGY_LIGHT
+	db FOCUS_BLAST
+	db AURORA_BEAM
+	db DRAGON_PULSE
 	db $ff
 
 CRumiaEggMoves:
-	db DEFENSE_CURL
-	db ROCK_SLIDE
-	db EARTHQUAKE
-	db ROCK_BLAST
-	db $ff
-
-RumiaEggMoves:
-	db BARRIER
-	db LIGHT_SCREEN
-	db BELLY_DRUM
+	db CRUNCH
+	db BITE
+	db ICICLE_SPEAR
+	db SCULPTURE
+	db NASTY_PLOT
+	db KNOCK_OFF
 	db $ff
 
 CDaichanEggMoves:
 	db SPIDERS_NEST
-	db HAZE
-	db AMNESIA
-	db DIG
-	db CALM_MIND
-	db KNOCK_OFF
+	db POISON_NAIL
+	db GUST
+	db PWJ_NEEDLE
+	db ENCORE
+	db SUPERSONIC
 	db $ff
 
-CirnoEggMoves:
-	db MEGA_DRAIN
-	db HEALINGLIGHT
-	db ANCIENTPOWER
-	db REFLECT
+CCirnoEggMoves:
+	db HEADBUTT
+	db TAKE_DOWN
+	db DOUBLE_EDGE
+	db WATER_PULSE
+	db SWAGGER
+	db AVALANCHE
 	db $ff
 
 CMeilingEggMoves:
-	db ANCIENTPOWER
-	db BELLY_DRUM
-	db DOUBLE_KICK
-	db SHADOW_DANCE
-	db SCREECH
-	db ROCK_SLIDE
-	db SWORDS_DANCE
-	db IRON_HEAD
-	db $ff
-
-KoakumaEggMoves:
-	db THRASH
-	db $ff
-
-EKoakumaEggMoves:
-	db PSYBEAM
-	db SCREECH
-	db DESTINY_BOND
-	db LIFE_BALANCE
-	db $ff
-
-PatchouliEggMoves:
-	db AVARICE_BITE
+	db SEISMIC_TOSS
+	db ROCK_THROW
+	db SANDSTORM
 	db MAGNITUDE
-	db PURSUIT
-	db REVERSAL
-	db THRASH
 	db ROCK_SLIDE
-	db COUNTER
+	db GROWTH
+	db TAKE_DOWN
 	db $ff
 
-RemiliaEggMoves:
-	db PSYSHOT
-	db AMNESIA
+CKoakumaEggMoves:
+	db CURSE
+	db NIGHT_SLASH
+	db FLASH
+	db MIRROR_COAT
+	db BATON_PASS
+	db DESTINY_BOND
+	db $ff
+
+CPatchouliEggMoves:
+	db SCULPTURE
+	db REST
 	db LEECH_SEED
+	db MEGA_DRAIN
+	db LIFE_BALANCE
+	db FACADE
 	db $ff
 
-ERemiliaEggMoves:
-	db DISABLE
-	db FOCUS_ENERGY
-	db FORESIGHT
-	db STOMP
-	db SAFEGUARD
+CRemiliaEggMoves:
+	db DOUBLE_EDGE
+	db AEROBLAST
+	db ASTONISH
+	db MUD_SLAP
+	db POWER_GEM
+	db PSYSTRIKE
 	db $ff
 
 CFlandreEggMoves:
-	db AURORA_BEAM
-	db DISABLE
-	db DRAGON_RAGE
-	db DRAGONBREATH
-	db BLACK_RIPPLE
-	db SPLASH
-	db HAZE
-	db WATER_PULSE
-	db $ff
-
-EFlandreEggMoves:
-	db AQUA_TAIL
-	db HYDRO_PUMP
-	db PSYBEAM
 	db QUICK_ATTACK
+	db AERIAL_ACE
+	db SPIDERS_NEST
+	db LIFE_COUNTER
+	db DRAGON_BASH
+	db TACKLE
 	db $ff
 
 ScytherEggMoves:
@@ -532,37 +430,33 @@ DratiniEggMoves:
 	db $ff
 
 CYoumuEggMoves:
-	db LEECH_SEED
-	db VINE_WHIP
-	db ANCIENTPOWER
-	db COUNTER
-	db SWORDS_DANCE
-	db CHARM
-	db HEAL_BELL
+	db SCULPTURE
+	db LIFE_BALANCE
+	db TELEPORT
+	db SWIFT
+	db RAGE
+	db AURA_SPHERE
 	db $ff
 
 CReisenEggMoves:
-	db DOUBLE_KICK
-	db LUNACY_EYES
-	db LAVATEIN
-	db FORESIGHT
-	db FURY_STRIKES
-	db REVERSAL
-	db SCULPTURE
-	db THRASH
-	db QUICK_ATTACK
+	db SPIRIT_VOICE
+	db SONIC_BOOM
+	db SUPERSONIC
+	db HEX
+	db TRICK
+	db POWER_TRICK
+	db AURA_SPHERE
 	db $ff
 
 CSanaeEggMoves:
-	db DRAGON_DANCE
-	db METAL_CLAW
-	db AVARICE_BITE
-	db THRASH
-	db HYDRO_PUMP
-	db ANCIENTPOWER
-	db ROCK_SLIDE
-	db WATER_PULSE
+	db HIDDEN_POWER
 	db AQUA_JET
+	db PSYSHOT
+	db THUNDER_WAVE
+	db ANCIENTPOWER
+	db FLASH_CANNON
+	db METEOR_FALL
+	db BLAZE_STAR
 	db $ff
 
 SentretEggMoves:
