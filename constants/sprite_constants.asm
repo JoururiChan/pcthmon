@@ -177,7 +177,7 @@
 	const SPRITE_BIG_CRUMIA ; ad
 	const SPRITE_BIG_GYARADOS ; ae
 	const SPRITE_CMIMA_SIDE ; af
-	const SPRITE_EMIMA_BACK ; b0 (blank side frame)
+	const SPRITE_CGENGETSU_BACK ; b0 (blank side frame)
 	const SPRITE_WAKASAGITAIL ; b1
 	const SPRITE_WEIRD_TREE ; b2
 	const SPRITE_BALL_CUT_FRUIT ; b3
