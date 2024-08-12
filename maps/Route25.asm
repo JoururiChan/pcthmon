@@ -202,7 +202,7 @@ Route25MewYoungsterText:
 	line "Mew around here!"
 
 	para "You don't believe"
-	line "me? ELuize saw"
+	line "me? Wakasagi saw"
 	cont "it too!"
 	done
 

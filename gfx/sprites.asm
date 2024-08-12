@@ -521,8 +521,8 @@ BigCRumiaSpriteGFX:: INCBIN "gfx/sprites/big_crumia.2bpp.lz"
 SECTION "BigGyaradosSpriteGFX", ROMX
 BigGyaradosSpriteGFX:: INCBIN "gfx/sprites/big_gyarados.2bpp.lz"
 
-SECTION "ELuizetailSpriteGFX", ROMX
-ELuizetailSpriteGFX:: INCBIN "gfx/sprites/eluizetail.2bpp.lz"
+SECTION "WakasagitailSpriteGFX", ROMX
+WakasagitailSpriteGFX:: INCBIN "gfx/sprites/eluizetail.2bpp.lz"
 
 SECTION "CMimaSideSpriteGFX", ROMX
 CMimaSideSpriteGFX:: INCBIN "gfx/sprites/cmima_side.2bpp.lz"
