@@ -183,7 +183,7 @@ SpriteHeaders:
 	overworld_sprite BigGyaradosSpriteGFX, BIG_GYARADOS_SPRITE, PAL_OW_RED
 	overworld_sprite CMimaSideSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite EMimaBackSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE
-	overworld_sprite ELuizetailSpriteGFX, STANDING_SPRITE, PAL_OW_PINK
+	overworld_sprite WakasagitailSpriteGFX, STANDING_SPRITE, PAL_OW_PINK
 	overworld_sprite WeirdTreeSpriteGFX, STANDING_SPRITE, PAL_OW_GREEN
 	overworld_sprite BallCutFruitSpriteGFX, STANDING_SPRITE, PAL_OW_COPY_BG_GREEN
 	overworld_sprite BoulderRockFossilSpriteGFX, STANDING_SPRITE, PAL_OW_COPY_BG_BROWN

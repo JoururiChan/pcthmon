@@ -51,20 +51,20 @@ GoldenrodDeptStoreRoofCheckSaleChangeClerk:
 GoldenrodDeptStoreRoofFisherScript:
 	faceplayer
 	opentext
-	checkevent EVENT_DECO_EDAICHAN_DOLL
-	iftruefwd .AlreadyGotEDaichanDoll
+	checkevent EVENT_DECO_CDAICHAN_DOLL
+	iftruefwd .AlreadyGotCDaichanDoll
 	writetext GoldenrodDeptStoreRoofFisherText
 	waitbutton
 	writetext GoldenrodDeptStoreRoofFisherDuplicateText
 	waitbutton
-	setevent EVENT_DECO_EDAICHAN_DOLL
-	writetext GotEDaichanDollText
+	setevent EVENT_DECO_CDAICHAN_DOLL
+	writetext GotCDaichanDollText
 	playsound SFX_ITEM
 	pause 60
 	promptbutton
-	writetext EDaichanDollSentText
+	writetext CDaichanDollSentText
 	waitbutton
-.AlreadyGotEDaichanDoll
+.AlreadyGotCDaichanDoll
 	writetext GoldenrodDeptStoreRoofFisherCatchEmAllText
 	waitbutton
 	closetext
@@ -97,7 +97,7 @@ PokeDollVendingMachine:
 	closewindow
 	ifequalfwd $1, .EllenDoll
 	ifequalfwd $2, .DittoDoll
-	ifequalfwd $3, .EChiyuriDoll
+	ifequalfwd $3, .ChiyuriDoll
 	endtext
 
 .EllenDoll:
@@ -128,17 +128,17 @@ PokeDollVendingMachine:
 	waitbutton
 	sjump .Start
 
-.EChiyuriDoll:
+.ChiyuriDoll:
 	checkmoney $0, 2400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_ECHIYURI_DOLL
+	checkevent EVENT_DECO_CHIYURI_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 2400
-	setevent EVENT_DECO_ECHIYURI_DOLL
-	writetext BoughtEChiyuriDollText
+	setevent EVENT_DECO_CHIYURI_DOLL
+	writetext BoughtChiyuriDollText
 	playsound SFX_TRANSACTION
 	waitbutton
-	writetext EChiyuriDollSentText
+	writetext ChiyuriDollSentText
 	waitbutton
 	sjump .Start
 
@@ -163,7 +163,7 @@ PokeDollVendingMachine:
 	db 4 ; items
 	db "Ellen  ¥2400@"
 	db "Ditto       ¥2400@"
-	db "EChiyuri      ¥2400@"
+	db "Chiyuri      ¥2400@"
 	db "Cancel@"
 
 GoldenrodDeptStoreRoofPokefanFText:
@@ -194,13 +194,13 @@ GoldenrodDeptStoreRoofFisherDuplicateText:
 	cont "you can have it."
 	done
 
-GotEDaichanDollText:
+GotCDaichanDollText:
 	text "<PLAYER> received"
-	line "EDaichan Doll."
+	line "CDaichan Doll."
 	done
 
-EDaichanDollSentText:
-	text "EDaichan Doll"
+CDaichanDollSentText:
+	text "CDaichan Doll"
 	line "was sent home."
 	done
 
@@ -326,12 +326,12 @@ DittoDollSentText:
 	line "was sent home."
 	done
 
-BoughtEChiyuriDollText:
+BoughtChiyuriDollText:
 	text "<PLAYER> bought"
-	line "EChiyuri Doll."
+	line "Chiyuri Doll."
 	done
 
-EChiyuriDollSentText:
-	text "EChiyuri Doll"
+ChiyuriDollSentText:
+	text "Chiyuri Doll"
 	line "was sent home."
 	done

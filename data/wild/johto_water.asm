@@ -35,14 +35,14 @@
 	wildmon 20, SANAE
 	end_water_wildmons
 
-	def_water_wildmons ELUIZE_WELL_B1F
+	def_water_wildmons WAKASAGIHIME_WELL_B1F
 	db 2 percent ; encounter rate
 	wildmon 15, CSANAE
 	wildmon 20, SANAE
 	wildmon 10, CSANAE
 	end_water_wildmons
 
-	def_water_wildmons ELUIZE_WELL_B2F
+	def_water_wildmons WAKASAGIHIME_WELL_B2F
 	db 2 percent ; encounter rate
 	wildmon 15, CCHIYURI
 	wildmon 20, CCHIYURI

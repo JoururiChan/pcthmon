@@ -20,8 +20,8 @@ Route30_MapScriptHeader:
 
 	def_object_events
 	object_event  5, 26, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, YoungsterJoey_ImportantBattleScript, EVENT_ROUTE_30_BATTLE
-	pokemon_event 5, 24, EMAGAN, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_ROUTE_30_BATTLE
-	object_event  5, 25, SPRITE_EMIMA_BACK, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_30_BATTLE
+	pokemon_event 5, 24, CMUGETSU, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_ROUTE_30_BATTLE
+	object_event  5, 25, SPRITE_CGENGETSU_BACK, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_30_BATTLE
 	object_event  2, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJoey, EVENT_ROUTE_30_YOUNGSTER_JOEY
 	object_event  5, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerYoungsterMikey, -1
 	object_event  1,  7, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBug_catcherDon, -1
@@ -34,8 +34,8 @@ Route30_MapScriptHeader:
 
 	object_const_def
 	const ROUTE30_YOUNGSTER1
-	const ROUTE30_EMAGAN
-	const ROUTE30_EMIMA
+	const ROUTE30_CMUGETSU
+	const ROUTE30_CGENGETSU
 
 YoungsterJoey_ImportantBattleScript:
 	waitsfx
@@ -46,7 +46,7 @@ YoungsterJoey_ImportantBattleScript:
 	pause 30
 	closetext
 	playsound SFX_TACKLE
-	applymovement ROUTE30_EMIMA, Route30_JoeysEMimaAttacksMovement
+	applymovement ROUTE30_CGENGETSU, Route30_JoeysEMimaAttacksMovement
 	opentext
 	faceplayer
 	writetext Text_ThisIsABigBattle
@@ -54,7 +54,7 @@ YoungsterJoey_ImportantBattleScript:
 	turnobject ROUTE30_YOUNGSTER1, UP
 	closetext
 	playsound SFX_TACKLE
-	applymovement ROUTE30_EMAGAN, Route30_MikeysEMaganAttacksMovement
+	applymovement ROUTE30_CMUGETSU, Route30_MikeysCMugetsuAttacksMovement
 	special RestoreMusic
 	end
 
@@ -213,7 +213,7 @@ Route30_JoeysEMimaAttacksMovement:
 	run_step_down
 	step_end
 
-Route30_MikeysEMaganAttacksMovement:
+Route30_MikeysCMugetsuAttacksMovement:
 	run_step_down
 	run_step_up
 	step_end

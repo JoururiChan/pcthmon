@@ -390,17 +390,17 @@ SECTION "KurtsHouse_BlockData", ROMX
 KurtsHouse_BlockData:
 	INCBIN "maps/KurtsHouse.ablk.lz"
 
-SECTION "ELuizeWellEntrance_BlockData", ROMX
-ELuizeWellEntrance_BlockData:
-	INCBIN "maps/ELuizeWellEntrance.ablk.lz"
+SECTION "WakasagihimeWellEntrance_BlockData", ROMX
+WakasagihimeWellEntrance_BlockData:
+	INCBIN "maps/WakasagihimeWellEntrance.ablk.lz"
 
-SECTION "ELuizeWellB1F_BlockData", ROMX
-ELuizeWellB1F_BlockData:
-	INCBIN "maps/ELuizeWellB1F.ablk.lz"
+SECTION "WakasagihimeWellB1F_BlockData", ROMX
+WakasagihimeWellB1F_BlockData:
+	INCBIN "maps/WakasagihimeWellB1F.ablk.lz"
 
-SECTION "ELuizeWellB2F_BlockData", ROMX
-ELuizeWellB2F_BlockData:
-	INCBIN "maps/ELuizeWellB2F.ablk.lz"
+SECTION "WakasagihimeWellB2F_BlockData", ROMX
+WakasagihimeWellB2F_BlockData:
+	INCBIN "maps/WakasagihimeWellB2F.ablk.lz"
 
 SECTION "IlexForest_BlockData", ROMX
 IlexForest_BlockData:

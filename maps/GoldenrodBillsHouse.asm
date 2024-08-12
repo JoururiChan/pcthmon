@@ -29,25 +29,25 @@ BillsGrandpa:
 	promptbutton
 	setevent EVENT_MET_BILLS_GRANDPA
 .MetGrandpa:
-	checkevent EVENT_SHOWED_TOGEPI_TO_BILLS_GRANDPA
-	iftrue .ShowedTogepi
-	checkevent EVENT_SHOWED_MURKROW_TO_BILLS_GRANDPA
-	iftrue .ShowedMurkrow
-	checkevent EVENT_SHOWED_EKOTOHIME_TO_BILLS_GRANDPA
-	iftrue .ShowedEKotohime
-	checkevent EVENT_SHOWED_ELLEN_TO_BILLS_GRANDPA
-	iftrue .ShowedEllen
-	checkevent EVENT_SHOWED_PICHU_TO_BILLS_GRANDPA
-	iftrue .ShowedPichu
-	checkevent EVENT_SHOWED_EORANGE_TO_BILLS_GRANDPA
-	iftrue .ShowedEOrange
-	checkevent EVENT_SHOWED_STARYU_TO_BILLS_GRANDPA
-	iftrue .ShowedStaryu
-	checkevent EVENT_SHOWED_MUGETSU_TO_BILLS_GRANDPA
-	iftrue .ShowedMugetsu
-	checkevent EVENT_SHOWED_SNUBBULL_TO_BILLS_GRANDPA
-	iftrue .ShowedSnubbull
-	writetext BillsGrandpaSnubbullText
+	checkevent EVENT_SHOWED_CKIKURI_TO_BILLS_GRANDPA
+	iftrue .ShowedCKikuri
+	checkevent EVENT_SHOWED_CRUMIA_TO_BILLS_GRANDPA
+	iftrue .ShowedCRumia
+	checkevent EVENT_SHOWED_CDAICHAN_TO_BILLS_GRANDPA
+	iftrue .ShowedCDaichan
+	checkevent EVENT_SHOWED_CREISEN_TO_BILLS_GRANDPA
+	iftrue .ShowedCReisen
+	checkevent EVENT_SHOWED_CRIKA_TO_BILLS_GRANDPA
+	iftrue .ShowedCRika
+	checkevent EVENT_SHOWED_CSARA_TO_BILLS_GRANDPA
+	iftrue .ShowedCSara
+	checkevent EVENT_SHOWED_CCHIYURI_TO_BILLS_GRANDPA
+	iftrue .ShowedCChiyuri
+	checkevent EVENT_SHOWED_CYUKA_TO_BILLS_GRANDPA
+	iftrue .ShowedCYuka
+	checkevent EVENT_SHOWED_CGYOKU_TO_BILLS_GRANDPA
+	iftrue .ShowedCGyoku
+	writetext BillsGrandpaCGyokuText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -55,13 +55,13 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal SNUBBULL, .WrongPokemon
+	ifnotequal CGYOKU, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_SNUBBULL_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedSnubbull
+	setevent EVENT_SHOWED_CGYOKU_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedCGyoku
 
 .GotEverstone:
-	writetext BillsGrandpaMugetsuText
+	writetext BillsGrandpaCYukaText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -69,13 +69,13 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal MUGETSU, .WrongPokemon
+	ifnotequal CYUKA, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_MUGETSU_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedMugetsu
+	setevent EVENT_SHOWED_CYUKA_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedCYuka
 
 .GotLeafStone:
-	writetext BillsGrandpaStaryuText
+	writetext BillsGrandpaCChiyuriText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -83,13 +83,13 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal STARYU, .WrongPokemon
+	ifnotequal CCHIYURI, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_STARYU_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedStaryu
+	setevent EVENT_SHOWED_CCHIYURI_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedCChiyuri
 
 .GotWaterStone:
-	writetext BillsGrandpaEOrangeText
+	writetext BillsGrandpaCSaraText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -97,13 +97,13 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal EORANGE, .WrongPokemon
+	ifnotequal CSARA, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_EORANGE_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedEOrange
+	setevent EVENT_SHOWED_CSARA_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedCSara
 
 .GotFireStone:
-	writetext BillsGrandpaPichuText
+	writetext BillsGrandpaCRikaText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -111,13 +111,13 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal PICHU, .WrongPokemon
+	ifnotequal CRIKA, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_PICHU_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedPichu
+	setevent EVENT_SHOWED_CRIKA_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedCRika
 
 .GotThunderstone:
-	writetext BillsGrandpaEllenText
+	writetext BillsGrandpaCReisenText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -125,13 +125,13 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal ELLEN, .WrongPokemon
+	ifnotequal CREISEN, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_ELLEN_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedEllen
+	setevent EVENT_SHOWED_CREISEN_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedCReisen
 
 .GotMoonStone:
-	writetext BillsGrandpaEKotohimeText
+	writetext BillsGrandpaCDaichanText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -139,13 +139,13 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal EKOTOHIME, .WrongPokemon
+	ifnotequal CDAICHAN, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_EKOTOHIME_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedEKotohime
+	setevent EVENT_SHOWED_CDAICHAN_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedCDaichan
 
 .GotSunStone:
-	writetext BillsGrandpaMurkrowText
+	writetext BillsGrandpaCRumiaText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -153,13 +153,13 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal MURKROW, .WrongPokemon
+	ifnotequal CRUMIA, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_MURKROW_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedMurkrow
+	setevent EVENT_SHOWED_CRUMIA_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedCRumia
 
 .GotDuskStone:
-	writetext BillsGrandpaTogepiText
+	writetext BillsGrandpaCKikuriText
 	promptbutton
 	writetext BillsGrandpaAskToSeeMonText
 	yesorno
@@ -167,12 +167,12 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal TOGEPI, .WrongPokemon
+	ifnotequal CKIKURI, .WrongPokemon
 	scall .CorrectPokemon
-	setevent EVENT_SHOWED_TOGEPI_TO_BILLS_GRANDPA
-	sjumpfwd .ShowedTogepi
+	setevent EVENT_SHOWED_CKIKURI_TO_BILLS_GRANDPA
+	sjumpfwd .ShowedCKikuri
 
-.ShowedSnubbull:
+.ShowedCGyoku:
 	checkevent EVENT_GOT_EVERSTONE_FROM_BILLS_GRANDPA
 	iftrue .GotEverstone
 	scall .ReceiveItem
@@ -182,7 +182,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedMugetsu:
+.ShowedCYuka:
 	checkevent EVENT_GOT_LEAF_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotLeafStone
 	scall .ReceiveItem
@@ -192,7 +192,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedStaryu:
+.ShowedCChiyuri:
 	checkevent EVENT_GOT_WATER_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotWaterStone
 	scall .ReceiveItem
@@ -202,7 +202,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedEOrange:
+.ShowedCSara:
 	checkevent EVENT_GOT_FIRE_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotFireStone
 	scall .ReceiveItem
@@ -212,7 +212,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedPichu:
+.ShowedCRika:
 	checkevent EVENT_GOT_THUNDERSTONE_FROM_BILLS_GRANDPA
 	iftrue .GotThunderstone
 	scall .ReceiveItem
@@ -222,7 +222,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedEllen:
+.ShowedCReisen:
 	checkevent EVENT_GOT_MOON_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotMoonStone
 	scall .ReceiveItem
@@ -232,7 +232,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedEKotohime:
+.ShowedCDaichan:
 	checkevent EVENT_GOT_SUN_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotSunStone
 	scall .ReceiveItem
@@ -242,7 +242,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedMurkrow:
+.ShowedCRumia:
 	checkevent EVENT_GOT_DUSK_STONE_FROM_BILLS_GRANDPA
 	iftrue .GotDuskStone
 	scall .ReceiveItem
@@ -252,7 +252,7 @@ BillsGrandpa:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endtext
 
-.ShowedTogepi:
+.ShowedCKikuri:
 	scall .ReceiveItem
 	verbosegiveitem SHINY_STONE
 	iffalse_endtext
@@ -384,7 +384,7 @@ BillsGrandpaShownAllThePokemonText:
 	line "long life."
 	done
 
-BillsGrandpaSnubbullText:
+BillsGrandpaCGyokuText:
 	text "My grandson Bill"
 	line "told me about a"
 
@@ -393,7 +393,7 @@ BillsGrandpaSnubbullText:
 	cont "polka dots."
 	done
 
-BillsGrandpaTogepiText:
+BillsGrandpaCKikuriText:
 	text "Do you know of a"
 	line "#mon that has a"
 
@@ -406,7 +406,7 @@ BillsGrandpaTogepiText:
 	cont "good luck."
 	done
 
-BillsGrandpaMurkrowText:
+BillsGrandpaCRumiaText:
 	text "Do you know of a"
 	line "bird #mon that"
 
@@ -421,7 +421,7 @@ BillsGrandpaMurkrowText:
 	line "like to see it."
 	done
 
-BillsGrandpaEKotohimeText:
+BillsGrandpaCDaichanText:
 	text "Ah, my grandson"
 	line "mentioned a round,"
 
@@ -430,7 +430,7 @@ BillsGrandpaEKotohimeText:
 	cont "on its head."
 	done
 
-BillsGrandpaEllenText:
+BillsGrandpaCReisenText:
 	text "Bill told me about"
 	line "a pink #mon"
 
@@ -438,7 +438,7 @@ BillsGrandpaEllenText:
 	line "singing voice."
 	done
 
-BillsGrandpaMugetsuText:
+BillsGrandpaCYukaText:
 	text "My grandson Bill"
 	line "mentioned a green"
 
@@ -446,7 +446,7 @@ BillsGrandpaMugetsuText:
 	line "on its roots."
 	done
 
-BillsGrandpaStaryuText:
+BillsGrandpaCChiyuriText:
 	text "Do you know of a"
 	line "sea #mon that"
 
@@ -464,7 +464,7 @@ BillsGrandpaStaryuText:
 	line "like to see it."
 	done
 
-BillsGrandpaEOrangeText:
+BillsGrandpaCSaraText:
 	text "Bill told me about"
 	line "a #mon that is"
 
@@ -475,7 +475,7 @@ BillsGrandpaEOrangeText:
 	line "Roar well."
 	done
 
-BillsGrandpaPichuText:
+BillsGrandpaCRikaText:
 	text "Do you know that"
 	line "hugely popular"
 	cont "#mon?"

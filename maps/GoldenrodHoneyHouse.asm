@@ -155,5 +155,5 @@ endc
 	db "Cancel@"
 
 GoldenrodHoneyHouseFGyokuText:
-	text "FGyoku: Freeh!"
+	text "FGyoku: The flames."
 	done

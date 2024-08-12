@@ -11,7 +11,7 @@ AzaleaTown_MapScriptHeader:
 	warp_event 21,  5, AZALEA_MART, 2
 	warp_event  9,  5, KURTS_HOUSE, 1
 	warp_event 10, 15, AZALEA_GYM, 1
-	warp_event 31,  7, ELUIZE_WELL_ENTRANCE, 1
+	warp_event 31,  7, WAKASAGIHIME_WELL_ENTRANCE, 1
 	warp_event  2, 10, ILEX_FOREST_AZALEA_GATE, 3
 	warp_event  2, 11, ILEX_FOREST_AZALEA_GATE, 4
 
@@ -24,7 +24,7 @@ AzaleaTown_MapScriptHeader:
 	bg_event 19,  9, BGEVENT_JUMPTEXT, AzaleaTownSignText
 	bg_event 10,  9, BGEVENT_JUMPTEXT, KurtsHouseSignText
 	bg_event 14, 15, BGEVENT_JUMPTEXT, AzaleaGymSignText
-	bg_event 29,  8, BGEVENT_JUMPTEXT, ELuizeWellSignText
+	bg_event 29,  8, BGEVENT_JUMPTEXT, WakasagihimeWellSignText
 	bg_event 19, 13, BGEVENT_JUMPTEXT, CharcoalKilnSignText
 	bg_event  3,  9, BGEVENT_JUMPTEXT, AzaleaTownIlexForestSignText
 	bg_event 29, 14, BGEVENT_JUMPTEXT, AzaleaTownAdvancedTipsSignText
@@ -36,14 +36,14 @@ AzaleaTown_MapScriptHeader:
 	object_event 21,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownGrampsScript, -1
 	object_event 15, 13, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AzaleaTownTeacherScript, -1
 	object_event  7,  9, SPRITE_CAMPER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownYoungsterText, -1
-	object_event 31,  9, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownRocket1Text, EVENT_AZALEA_TOWN_ELUIZETAIL_ROCKET
-	object_event 10, 16, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownRocket2Text, EVENT_ELUIZE_WELL_ROCKETS
-	object_event  8, 17, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ELUIZE, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownELuizeScript, EVENT_AZALEA_TOWN_ELUIZES
-	object_event 18,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ELUIZE, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownELuizeScript, EVENT_AZALEA_TOWN_ELUIZES
-	object_event 29,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ELUIZE, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownELuizeScript, EVENT_AZALEA_TOWN_ELUIZES
-	object_event 15, 15, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ELUIZE, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownELuizeScript, EVENT_AZALEA_TOWN_ELUIZES
-	pokemon_event 14, 12, WOOPER, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_ELUIZE_WELL_ELUIZES
-	pokemon_event 14, 12, QUAGSIRE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_AZALEA_TOWN_ELUIZES
+	object_event 31,  9, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownRocket1Text, EVENT_AZALEA_TOWN_WAKASAGITAIL_ROCKET
+	object_event 10, 16, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownRocket2Text, EVENT_WAKASAGIHIME_WELL_ROCKETS
+	object_event  8, 17, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
+	object_event 18,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
+	object_event 29,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
+	object_event 15, 15, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
+	pokemon_event 14, 12, WOOPER, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_WAKASAGIHIME_WELL_ELUIZES
+	pokemon_event 14, 12, QUAGSIRE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_AZALEA_TOWN_WAKASAGIS
 	fruittree_event  8,  2, FRUITTREE_AZALEA_TOWN, WHT_APRICORN, PAL_NPC_WHITE
 
 	object_const_def
@@ -255,21 +255,27 @@ AzaleaGymSignText:
 	cont "Encyclopedia"
 	done
 
-ELuizeWellSignText:
-	text "ELuize Well"
+WakasagihimeWellSignText:
+	text "Wakasagihime Well"
 
 	para "Also known as the"
-	line "Rainmaker Well."
+	line "Mermaid Well."
 
 	para "Locals believe"
-	line "that a ELuize's"
-	cont "yawn summons rain."
+	line "that a Wakasagi"
+	cont "become more"
+
+	para "strong while"
+	line "underwater."
 
 	para "Records show that"
-	line "a ELuize's yawn"
+	line "a Wakasagi can"
 
-	para "ended a drought"
-	line "400 years ago."
+	para "sing an ear-"
+	line "piercing song"
+	
+	para "after going"
+	line "underwater."
 	done
 
 CharcoalKilnSignText:
@@ -298,11 +304,11 @@ AzaleaTownAdvancedTipsSignText:
 	done
 
 AzaleaTownGrampsScript:
-	checkevent EVENT_CLEARED_ELUIZE_WELL
+	checkevent EVENT_CLEARED_WAKASAGIHIME_WELL
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "The ELuize have"
+	text "The Wakasagi have"
 	line "disappeared from"
 	cont "town…"
 
@@ -312,7 +318,7 @@ AzaleaTownGrampsScript:
 	done
 
 .Text2:
-	text "The ELuize have"
+	text "The Wakasagi have"
 	line "returned."
 
 	para "Knowing them, they"
@@ -323,7 +329,7 @@ AzaleaTownGrampsScript:
 	done
 
 AzaleaTownTeacherScript:
-	checkevent EVENT_CLEARED_ELUIZE_WELL
+	checkevent EVENT_CLEARED_WAKASAGIHIME_WELL
 	iffalse_jumptextfaceplayer .Text1
 	checkevent EVENT_GOT_CLEAR_AMULET_IN_AZALEA
 	iftrue_jumptextfaceplayer .Text2
@@ -360,7 +366,7 @@ AzaleaTownTeacherScript:
 	cont "evolved!"
 
 	para "Oh? You brought"
-	line "the ELuize back?"
+	line "the Wakasagi back?"
 
 	para "They brought the"
 	line "rain with them!"
@@ -403,23 +409,17 @@ AzaleaTownRocket1Text:
 
 AzaleaTownRocket2Text:
 	text "Do you know about"
-	line "ELuizeTail? I"
+	line "WakasagiTail? I"
 	cont "heard it's tasty!"
 
 	para "Aren't you glad I"
 	line "told you that?"
 	done
 
-AzaleaTownELuizeScript:
+AzaleaTownWakasagiScript:
 	opentext
 	writethistext
-		text "ELuize: …"
-
-		para "…… …… ……"
-		done
-	pause 60
-	writethistext
-		text "…… ……Yawn?"
+		text "Wakasagi: Mist!"
 		done
 	cry ELUIZE
 	waitendtext

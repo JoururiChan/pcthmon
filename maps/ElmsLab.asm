@@ -220,19 +220,19 @@ CReimuPokeBallScript:
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksCSakuyaMovement
+	applymovement ELMSLAB_LYRA, LyraPicksCMarisaMovement
 	pause 15
-	disappear ELMSLAB_POKE_BALL3
+	disappear ELMSLAB_POKE_BALL2
 	opentext
 	getmonname CSAKUYA, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	writetext LyraNicknamedCSakuyaText
+	writetext LyraNicknamedCMarisaText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraAfterCSakuyaMovement
+	applymovement ELMSLAB_LYRA, LyraAfterCMarisaMovement
 	readvar VAR_FACING
 	ifequalfwd RIGHT, ElmDirectionsScript
 	applymovement PLAYER, AfterCReimuMovement
@@ -260,19 +260,19 @@ CMarisaPokeBallScript:
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksCReimuMovement
+	applymovement ELMSLAB_LYRA, LyraPicksCSakuyaMovement
 	pause 15
-	disappear ELMSLAB_POKE_BALL1
+	disappear ELMSLAB_POKE_BALL3
 	opentext
-	getmonname CREIMU, STRING_BUFFER_3
+	getmonname CSAKUYA, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	writetext LyraNicknamedCReimuText
+	writetext LyraNicknamedCSakuyaText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraAfterCReimuMovement
+	applymovement ELMSLAB_LYRA, LyraAfterCSakuyaMovement
 	applymovement PLAYER, AfterCMarisaMovement
 	sjumpfwd ElmDirectionsScript
 
@@ -298,19 +298,19 @@ CSakuyaPokeBallScript:
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksCMarisaMovement
+	applymovement ELMSLAB_LYRA, LyraPicksCReimuMovement
 	pause 15
-	disappear ELMSLAB_POKE_BALL2
+	disappear ELMSLAB_POKE_BALL1
 	opentext
 	getmonname CMARISA, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	writetext LyraNicknamedCMarisaText
+	writetext LyraNicknamedCReimuText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraAfterCMarisaMovement
+	applymovement ELMSLAB_LYRA, LyraAfterCReimuMovement
 	applymovement PLAYER, AfterCSakuyaMovement
 	; fallthrough
 
@@ -1023,19 +1023,19 @@ LabWhereGoingText:
 TakeCReimuText:
 	text "Elm: You'll take"
 	line "CReimu, the"
-	cont "fire #mon?"
+	cont "Miko #mon?"
 	done
 
 TakeCMarisaText:
 	text "Elm: Do you want"
 	line "CMarisa, the"
-	cont "water #mon?"
+	cont "Witch #mon?"
 	done
 
 TakeCSakuyaText:
 	text "Elm: So, you like"
 	line "CSakuya, the"
-	cont "grass #mon?"
+	cont "Maid #mon?"
 	done
 
 DidntChooseStarterText:
@@ -1636,19 +1636,19 @@ LyraReceivedStarterText:
 LyraNicknamedCSakuyaText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Chicory!"
+	cont "name it Sculpture!"
 	done
 
 LyraNicknamedCReimuText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Cinder!"
+	cont "name it Sendai!"
 	done
 
 LyraNicknamedCMarisaText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Toto!"
+	cont "name it Starfire!"
 	done
 
 ElmsLabLyraGoodChoiceText:

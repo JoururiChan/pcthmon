@@ -57,14 +57,14 @@ DecorationAttributes:
 	decoration DECO_DOLL,     ESHINKI,            SET_UP_DOLL,        EVENT_DECO_ESHINKI_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     OCTILLERY,         SET_UP_DOLL,        EVENT_DECO_OCTILLERY_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     DITTO,             SET_UP_DOLL,        EVENT_DECO_DITTO_DOLL,              SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     EDAICHAN,           SET_UP_DOLL,        EVENT_DECO_EDAICHAN_DOLL,            SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     CDAICHAN,           SET_UP_DOLL,        EVENT_DECO_CDAICHAN_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     ELLY,              SET_UP_DOLL,        EVENT_DECO_ELLY_DOLL,               SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     UNOWN,             SET_UP_DOLL,        EVENT_DECO_UNOWN_DOLL,              SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CSARA,           SET_UP_DOLL,        EVENT_DECO_CSARA_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     PINECO,            SET_UP_DOLL,        EVENT_DECO_PINECO_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     MARILL,            SET_UP_DOLL,        EVENT_DECO_MARILL_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     TEDDIURSA,         SET_UP_DOLL,        EVENT_DECO_TEDDIURSA_DOLL,          SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     ECHIYURI,            SET_UP_DOLL,        EVENT_DECO_ECHIYURI_DOLL,             SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     CHIYURI,            SET_UP_DOLL,        EVENT_DECO_CHIYURI_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     EMEIRA,            SET_UP_DOLL,        EVENT_DECO_EMEIRA_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     EORANGE,         SET_UP_DOLL,        EVENT_DECO_EORANGE_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     EEVEE,             SET_UP_DOLL,        EVENT_DECO_EEVEE_DOLL,              SPRITE_MON_DOLL_1

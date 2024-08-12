@@ -305,7 +305,7 @@ endc
 	li "Star Piece"
 	li "Brick Piece"
 	li "Rare Bone"
-	li "ELuizeTail"
+	li "WakasagiTail"
 
 	li "Helix Fossil"
 	li "Dome Fossil"

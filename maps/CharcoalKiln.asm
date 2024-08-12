@@ -19,11 +19,11 @@ CharcoalKiln_MapScriptHeader:
 CharcoalKilnBoss:
 	checkevent EVENT_GOT_HM01_CUT
 	iftrue_jumptextfaceplayer .Text3
-	checkevent EVENT_CLEARED_ELUIZE_WELL
+	checkevent EVENT_CLEARED_WAKASAGIHIME_WELL
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "All the ELuize"
+	text "All the Wakasagi"
 	line "have disappeared"
 	cont "from the town."
 
@@ -37,7 +37,7 @@ CharcoalKilnBoss:
 	done
 
 .Text2:
-	text "The ELuize have"
+	text "The Wakasagi have"
 	line "returned…"
 
 	para "But my Apprentice"
@@ -76,7 +76,7 @@ CharcoalKilnApprentice:
 
 .Text1:
 	text "Where have all the"
-	line "ELuize gone?"
+	line "Wakasagi gone?"
 
 	para "Are they out play-"
 	line "ing somewhere?"
@@ -95,9 +95,9 @@ CharcoalKilnApprentice:
 	done
 
 .Text3:
-	text "The ELuize came"
+	text "The Wakasagi came"
 	line "back, and you even"
-	cont "found CMai."
+	cont "found CTsukasa."
 
 	para "You're the cool-"
 	line "est, man!"
@@ -109,5 +109,5 @@ CharcoalKilnFarfetchdScript:
 	end
 
 .Text:
-	text "CMai: Kwaa!"
+	text "CTsukasa: Jump!"
 	done

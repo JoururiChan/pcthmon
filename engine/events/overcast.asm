@@ -19,8 +19,8 @@ GetOvercastIndex::
 	cp MAP_ROUTE_33
 	jr nz, .not_overcast
 .azalea_town
-; Not overcast until ELuizes appear (Team Rocket beaten)
-	eventflagcheck EVENT_AZALEA_TOWN_ELUIZES
+; Not overcast until Wakasagis appear (Team Rocket beaten)
+	eventflagcheck EVENT_AZALEA_TOWN_WAKASAGIS
 	jr nz, .not_overcast
 ; Overcast on Sunday, Tuesday, Thursday, and Saturday
 	call GetWeekday

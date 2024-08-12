@@ -180,11 +180,11 @@ INCLUDE "maps/CharcoalKiln.asm"
 INCLUDE "maps/KurtsHouse.asm"
 
 
-SECTION "ELuize Well Scripts", ROMX
+SECTION "Wakasagihime Well Scripts", ROMX
 
-INCLUDE "maps/ELuizeWellEntrance.asm"
-INCLUDE "maps/ELuizeWellB1F.asm"
-INCLUDE "maps/ELuizeWellB2F.asm"
+INCLUDE "maps/WakasagihimeWellEntrance.asm"
+INCLUDE "maps/WakasagihimeWellB1F.asm"
+INCLUDE "maps/WakasagihimeWellB2F.asm"
 
 
 SECTION "Ilex Forest Scripts", ROMX

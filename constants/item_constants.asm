@@ -304,7 +304,7 @@ DEF NUM_STONES EQU const_value - FIRST_STONE
 	const STAR_PIECE   ; ee
 	const BRICK_PIECE  ; ef
 	const RARE_BONE    ; f0
-	const ELUIZETAIL ; f1
+	const WAKASAGITAIL ; f1
 
 	const HELIX_FOSSIL ; f2
 	const DOME_FOSSIL  ; f3
@@ -555,7 +555,7 @@ endc
 	const NAM_SILVER_LEAF
 	const NAM_SILVERPOWDER
 	const NAM_SITRUS_BERRY
-	const NAM_ELUIZETAIL
+	const NAM_WAKASAGITAIL
 	const NAM_SMOKE_BALL
 	const NAM_SMOOTH_ROCK
 	const NAM_SODA_POP

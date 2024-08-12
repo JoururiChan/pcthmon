@@ -307,7 +307,7 @@ RadioTower2FTeacherText_Rockets:
 
 RadioTowerEllenText:
 	text "Ellen:"
-	line "Jiggly…"
+	line "I don't get it?"
 	done
 
 RadioTower2FBlackBelt1Text:

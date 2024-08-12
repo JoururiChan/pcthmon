@@ -819,7 +819,7 @@ IlexForestApprenticeIntroText:
 	line "is going to be"
 	cont "steaming…"
 
-	para "The CMai"
+	para "The CTsukasa"
 	line "that Cuts trees"
 
 	para "for charcoal took"
@@ -849,11 +849,11 @@ Text_ItsTheMissingPokemon:
 	done
 
 Text_Kwaaaa:
-	text "CMai: Kwaa!"
+	text "CTsukasa: Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My CMai!"
+	text "Ah! My CTsukasa!"
 
 	para "You found it for"
 	line "us, kid?"
@@ -957,7 +957,7 @@ Text_IlexForestTutorNoSilverLeaf:
 	para "Sometimes you can"
 	line "find them on wild"
 
-	para "EKotohime, or lying"
+	para "CKaguya, or lying"
 	line "on the ground."
 	done
 

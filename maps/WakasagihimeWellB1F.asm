@@ -1,33 +1,33 @@
-ELuizeWellB1F_MapScriptHeader:
+WakasagihimeWellB1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
 
 	def_warp_events
-	warp_event 17, 15, ELUIZE_WELL_ENTRANCE, 2
-	warp_event  7, 11, ELUIZE_WELL_B2F, 1
+	warp_event 17, 15, WAKASAGIHIME_WELL_ENTRANCE, 2
+	warp_event  7, 11, WAKASAGIHIME_WELL_B2F, 1
 
 	def_coord_events
 
 	def_bg_events
 
 	def_object_events
-	object_event  5,  2, SPRITE_PROTON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerProton2, EVENT_ELUIZE_WELL_ROCKETS
-	object_event 15,  7, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM29, EVENT_ELUIZE_WELL_ROCKETS
-	object_event  5,  6, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerGruntM2, EVENT_ELUIZE_WELL_ROCKETS
-	object_event 10,  4, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerGruntF1, EVENT_ELUIZE_WELL_ROCKETS
-	object_event  0, 17, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, end, NULL, EVENT_ELUIZE_WELL_KURT
-	object_event  7,  4, SPRITE_ELUIZETAIL, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ELuizeWellB1FELuizeWithMailScript, EVENT_ELUIZE_WELL_ELUIZES
-	object_event  6,  2, SPRITE_ELUIZETAIL, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ELuizeWellB1FTaillessELuizeScript, EVENT_ELUIZE_WELL_ELUIZES
+	object_event  5,  2, SPRITE_PROTON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerProton2, EVENT_WAKASAGIHIME_WELL_ROCKETS
+	object_event 15,  7, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM29, EVENT_WAKASAGIHIME_WELL_ROCKETS
+	object_event  5,  6, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerGruntM2, EVENT_WAKASAGIHIME_WELL_ROCKETS
+	object_event 10,  4, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerGruntF1, EVENT_WAKASAGIHIME_WELL_ROCKETS
+	object_event  0, 17, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, end, NULL, EVENT_WAKASAGIHIME_WELL_KURT
+	object_event  7,  4, SPRITE_WAKASAGITAIL, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WakasagihimeWellB1FWakasagiWithMailScript, EVENT_WAKASAGIHIME_WELL_ELUIZES
+	object_event  6,  2, SPRITE_WAKASAGITAIL, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WakasagihimeWellB1FTaillessWakasagiScript, EVENT_WAKASAGIHIME_WELL_ELUIZES
 	strengthboulder_event  3, 2
-	itemball_event 10,  3, SUPER_POTION, 1, EVENT_ELUIZE_WELL_B1F_SUPER_POTION
+	itemball_event 10,  3, SUPER_POTION, 1, EVENT_WAKASAGIHIME_WELL_B1F_SUPER_POTION
 
 	object_const_def
-	const ELUIZEWELLB1F_PROTON
-	const ELUIZEWELLB1F_ROCKET1
-	const ELUIZEWELLB1F_ROCKET2
-	const ELUIZEWELLB1F_ROCKET_GIRL
-	const ELUIZEWELLB1F_KURT
+	const WAKASAGIHIMEWELLB1F_PROTON
+	const WAKASAGIHIMEWELLB1F_ROCKET1
+	const WAKASAGIHIMEWELLB1F_ROCKET2
+	const WAKASAGIHIMEWELLB1F_ROCKET_GIRL
+	const WAKASAGIHIMEWELLB1F_KURT
 
 GenericTrainerGruntM29:
 	generictrainer GRUNTM, 29, EVENT_BEAT_ROCKET_GRUNTM_29, GruntM29SeenText, GruntM29BeatenText
@@ -35,7 +35,7 @@ GenericTrainerGruntM29:
 	text "Sure, we've been"
 	line "hacking the tails"
 
-	para "off ELuize and"
+	para "off Wakasagi and"
 	line "selling them."
 
 	para "Everything we do"
@@ -55,28 +55,28 @@ Proton2Script:
 	showtext TrainerProton2WhenTalkText
 	special Special_FadeBlackQuickly
 	special Special_ReloadSpritesNoPalettes
-	disappear ELUIZEWELLB1F_PROTON
-	disappear ELUIZEWELLB1F_ROCKET1
-	disappear ELUIZEWELLB1F_ROCKET2
-	disappear ELUIZEWELLB1F_ROCKET_GIRL
+	disappear WAKASAGIHIMEWELLB1F_PROTON
+	disappear WAKASAGIHIMEWELLB1F_ROCKET1
+	disappear WAKASAGIHIMEWELLB1F_ROCKET2
+	disappear WAKASAGIHIMEWELLB1F_ROCKET_GIRL
 	pause 15
 	special Special_FadeInQuickly
-	disappear ELUIZEWELLB1F_KURT
-	moveobject ELUIZEWELLB1F_KURT, 11, 6
-	appear ELUIZEWELLB1F_KURT
-	applymovement ELUIZEWELLB1F_KURT, KurtELuizeWellVictoryMovementData
+	disappear WAKASAGIHIMEWELLB1F_KURT
+	moveobject WAKASAGIHIMEWELLB1F_KURT, 11, 6
+	appear WAKASAGIHIMEWELLB1F_KURT
+	applymovement WAKASAGIHIMEWELLB1F_KURT, KurtWakasagihimeWellVictoryMovementData
 	turnobject PLAYER, RIGHT
-	showtext KurtLeaveELuizeWellText
-	setevent EVENT_CLEARED_ELUIZE_WELL
+	showtext KurtLeaveWakasagihimeWellText
+	setevent EVENT_CLEARED_WAKASAGIHIME_WELL
 	setmapscene ILEX_FOREST, $2
 	clearevent EVENT_ILEX_FOREST_APPRENTICE
 	clearevent EVENT_ILEX_FOREST_FARFETCHD
 	setevent EVENT_CHARCOAL_KILN_CMAI
 	setevent EVENT_CHARCOAL_KILN_APPRENTICE
-	setevent EVENT_ELUIZE_WELL_ELUIZES
-	setevent EVENT_ELUIZE_WELL_KURT
-	clearevent EVENT_AZALEA_TOWN_ELUIZES
-	clearevent EVENT_KURTS_HOUSE_ELUIZE
+	setevent EVENT_WAKASAGIHIME_WELL_ELUIZES
+	setevent EVENT_WAKASAGIHIME_WELL_KURT
+	clearevent EVENT_AZALEA_TOWN_WAKASAGIS
+	clearevent EVENT_KURTS_HOUSE_WAKASAGI
 	clearevent EVENT_KURTS_HOUSE_KURT_1
 	special FadeOutPalettes
 	special HealParty
@@ -98,27 +98,27 @@ GenericTrainerGruntM2:
 GenericTrainerGruntF1:
 	generictrainer GRUNTF, 1, EVENT_BEAT_ROCKET_GRUNTF_1, GruntF1SeenText, GruntF1BeatenText
 
-	text "ELuizeTails"
+	text "WakasagiTails"
 	line "grow back fast!"
 
 	para "What's wrong with"
 	line "selling them?"
 	done
 
-ELuizeWellB1FELuizeWithMailScript:
+WakasagihimeWellB1FWakasagiWithMailScript:
 	faceplayer
 	opentext
 	cry ELUIZE
-	writetext ELuizeWellB1FELuizeWithMailText
+	writetext WakasagihimeWellB1FWakasagiWithMailText
 	yesorno
-	iftrue_jumpopenedtext ELuizeWellB1FELuizeMailText
+	iftrue_jumpopenedtext WakasagihimeWellB1FWakasagiMailText
 	endtext
 
-ELuizeWellB1FTaillessELuizeScript:
-	showcrytext ELuizeWellB1FTaillessELuizeText, ELUIZE
+WakasagihimeWellB1FTaillessWakasagiScript:
+	showcrytext WakasagihimeWellB1FTaillessWakasagiText, ELUIZE
 	end
 
-KurtELuizeWellVictoryMovementData:
+KurtWakasagihimeWellVictoryMovementData:
 	step_left
 	step_left
 	step_left
@@ -136,7 +136,7 @@ KurtELuizeWellVictoryMovementData:
 	turn_head_left
 	step_end
 
-KurtLeaveELuizeWellText:
+KurtLeaveWakasagihimeWellText:
 	text "Kurt: Way to go,"
 	line "<PLAYER>!"
 
@@ -228,15 +228,15 @@ GruntF1BeatenText:
 	text "You rotten brat!"
 	done
 
-ELuizeWellB1FELuizeWithMailText:
-	text "A ELuize with"
+WakasagihimeWellB1FWakasagiWithMailText:
+	text "A Wakasagi with"
 	line "its tail cut off…"
 
 	para "Huh? It has Mail."
 	line "Read it?"
 	done
 
-ELuizeWellB1FELuizeMailText:
+WakasagihimeWellB1FWakasagiMailText:
 	text "<PLAYER> read the"
 	line "Mail."
 
@@ -244,12 +244,12 @@ ELuizeWellB1FELuizeMailText:
 	line "after the house"
 
 	para "with Grandpa and"
-	line "ELuize."
+	line "Wakasagi."
 
 	para "Love, Dad"
 	done
 
-ELuizeWellB1FTaillessELuizeText:
-	text "A ELuize with"
+WakasagihimeWellB1FTaillessWakasagiText:
+	text "A Wakasagi with"
 	line "its tail cut off…"
 	done

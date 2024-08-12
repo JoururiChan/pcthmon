@@ -24,7 +24,7 @@ KurtsHouse_MapScriptHeader:
 	object_event  5,  3, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, KurtsGranddaughter1, EVENT_KURTS_HOUSE_GRANDDAUGHTER_1
 	object_event 14,  3, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Kurt2, EVENT_KURTS_HOUSE_KURT_2
 	object_event 11,  4, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, KurtsGranddaughter2, EVENT_KURTS_HOUSE_GRANDDAUGHTER_2
-	pokemon_event  6,  3, ELUIZE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, KurtsHouseELuizeText, EVENT_KURTS_HOUSE_ELUIZE
+	pokemon_event  6,  3, ELUIZE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, KurtsHouseELuizeText, EVENT_KURTS_HOUSE_WAKASAGI
 
 	object_const_def
 	const KURTSHOUSE_KURT1
@@ -33,7 +33,7 @@ KurtsHouse_MapScriptHeader:
 	const KURTSHOUSE_TWIN2
 
 KurtsHouseKurtCallback:
-	checkevent EVENT_CLEARED_ELUIZE_WELL
+	checkevent EVENT_CLEARED_WAKASAGIHIME_WELL
 	iffalsefwd .Done
 	checkevent EVENT_FOREST_IS_RESTLESS
 	iftruefwd .Done
@@ -58,13 +58,13 @@ Kurt1:
 	opentext
 	checkevent EVENT_KURT_GAVE_YOU_APRICORN_BOX
 	iftruefwd .GotApricornBox
-	checkevent EVENT_CLEARED_ELUIZE_WELL
-	iftruefwd .ClearedELuizeWell
+	checkevent EVENT_CLEARED_WAKASAGIHIME_WELL
+	iftruefwd .ClearedWakasagihimeWell
 	writetext KurtsHouseKurtMakingBallsMustWaitText
 	waitbutton
 	closetext
 	special Special_FadeOutMusic
-	setevent EVENT_AZALEA_TOWN_ELUIZETAIL_ROCKET
+	setevent EVENT_AZALEA_TOWN_WAKASAGITAIL_ROCKET
 	readvar VAR_FACING
 	ifequalfwd UP, .RunAround
 	turnobject PLAYER, DOWN
@@ -86,7 +86,7 @@ Kurt1:
 	special RestartMapMusic
 	end
 
-.ClearedELuizeWell:
+.ClearedWakasagihimeWell:
 	writetext KurtsHouseKurtHonoredToMakeBallsText
 	promptbutton
 	verbosegivekeyitem APRICORN_BOX
@@ -355,9 +355,9 @@ KurtsGranddaughter1:
 	iftrue_jumptext KurtsGranddaughterLonelyText
 	checkevent EVENT_FAST_SHIP_FIRST_TIME
 	iftrue_jumptext KurtsGranddaughterDadText
-	checkevent EVENT_CLEARED_ELUIZE_WELL
+	checkevent EVENT_CLEARED_WAKASAGIHIME_WELL
 	iftrue_jumptext KurtsGranddaughterELuizeBackText
-	checkevent EVENT_AZALEA_TOWN_ELUIZETAIL_ROCKET
+	checkevent EVENT_AZALEA_TOWN_WAKASAGITAIL_ROCKET
 	iftrue_jumptext KurtsGranddaughterLonelyText
 	jumptext KurtsGranddaughterELuizeGoneText
 
@@ -465,14 +465,14 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	para "Anyway, they're at"
 	line "the well, cutting"
 
-	para "off ELuizeTails"
+	para "off WakasagiTails"
 	line "for sale!"
 
 	para "So I'm going to"
 	line "go give them a"
 	cont "lesson in pain!"
 
-	para "Hang on, ELuize!"
+	para "Hang on, Wakasagi!"
 	line "Old Kurt is on his"
 	cont "way!"
 	done
@@ -601,8 +601,8 @@ KurtsHouseKurtThisBallStartedToShakeText:
 	line "something to this!"
 	done
 
-KurtsGranddaughterELuizeGoneText:
-	text "The ELuize are"
+KurtsGranddaughterWakasagiGoneText:
+	text "The Wakasagi are"
 	line "gone… Were they"
 
 	para "taken away by bad"
@@ -614,8 +614,8 @@ KurtsGranddaughterLonelyText:
 	line "I'm so lonely…"
 	done
 
-KurtsGranddaughterELuizeBackText:
-	text "The ELuize my"
+KurtsGranddaughterWakasagiBackText:
+	text "The Wakasagi my"
 	line "dad gave me came"
 
 	para "back! Its tail is"
@@ -629,7 +629,7 @@ KurtsGranddaughterDadText:
 
 	para "I have to stay"
 	line "home with Grandpa"
-	cont "and ELuize."
+	cont "and Wakasagi."
 	done
 
 KurtsGranddaughterHelpText:
@@ -654,8 +654,8 @@ KurtsGranddaughterGSBallText:
 	line "till he's done."
 	done
 
-KurtsHouseELuizeText:
-	text "ELuize: …"
+KurtsHouseWakasagiText:
+	text "Wakasagi: …"
 	line "Yawn?"
 	done
 

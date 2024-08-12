@@ -40,23 +40,23 @@ GoldenrodDeptStore4FBugCatcherText:
 	para "evolve if exposed"
 	line "to a Linking Cord:"
 
-	para "EYuka, Sara,"
-	line "EElly, and"
-	cont "Shinki!"
+	para "CYuka, CSara,"
+	line "CElly, and"
+	cont "CShinki!"
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
 	text "Some #mon"
-	line "evolve only"
+	line "can evolve"
 
-	para "when they hold"
-	line "a certain item."
+	para "when a certain"
+	line "item is used."
 
 	para "I know of four:"
-	line "EKurumi, CRumia,"
+	line "Rika, Keine,"
 
-	para "ELuize and, um,"
-	line "Scyther."
+	para "Hecatia, and, um,"
+	line "Remilia."
 
 	para "I heard there are"
 	line "others too."

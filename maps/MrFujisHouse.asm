@@ -16,7 +16,7 @@ MrFujisHouse_MapScriptHeader:
 	object_event  3,  4, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, MrFujisHouseLassText, -1
 	pokemon_event  8,  4, YUMEMI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MrFujisYumemiText, -1
 	pokemon_event  5,  5, RIKA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PURPLE, MrFujisRikaText, -1
-	pokemon_event  1,  3, EMAGAN, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MrFujisEMaganText, -1
+	pokemon_event  1,  3, CMUGETSU, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, MrFujisCMugetsuText, -1
 
 MrFujisHouseSuperNerdText:
 	text "Mr.Fuji does live"
@@ -47,6 +47,6 @@ MrFujisRikaText:
 	text "Rika: Gyun!"
 	done
 
-MrFujisEMaganText:
-	text "EMagan: Pijji!"
+MrFujisCMugetsuText:
+	text "CMugetsu: Pijji!"
 	done

@@ -79,7 +79,7 @@ Route29Tutorial2:
 	applymovement ROUTE29_LYRA, LyraMovementData2b
 Route29TutorialScript:
 	stopfollow
-	loadwildmon EMAGAN, 5
+	loadwildmon CMUGETSU, 5
 	catchtutorial BATTLETYPE_TUTORIAL
 	special DeleteSavedMusic
 	playmusic MUSIC_LYRA_DEPARTURE_HGSS

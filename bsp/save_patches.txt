@@ -1014,7 +1014,7 @@ AdjustItemIndexesToBuild8:
 	db 0xde, 1    ; ODD_SOUVENIR
 	db 0xea, 6    ; RARE_BONE
 	db 0xec, -10  ; GOLD_LEAF
-	db 0xed, 4    ; ELUIZETAIL
+	db 0xed, 4    ; WAKASAGITAIL
 	db 0xee, -10  ; BOTTLE_CAP
 	db 0xf1, 3    ; OLD_AMBER
 	db 0xf3, -144 ; SWEET_HONEY
