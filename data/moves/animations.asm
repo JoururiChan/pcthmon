@@ -2946,7 +2946,7 @@ BattleAnim_DiveKick:
 	anim_ret
 
 .turn1
-	anim_1gfx ANIM_GFX_OUTRAGE
+	anim_1gfx ANIM_GFX_SPEED
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $1, $0
 	anim_bgeffect ANIM_BG_HIDE_MON, $0, $1, $0
 	anim_call BattleAnimSub_WarpAway
