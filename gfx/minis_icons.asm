@@ -928,9 +928,9 @@ AzumarillMiniMask:: INCBIN "gfx/minis/azumarill_mask.1bpp.lz"
 AzumarillIcon::     INCBIN "gfx/icons/azumarill.2bpp.lz"
 
 SECTION "Sudowoodo Mini Icon", ROMX
-SudowoodoMini::     INCBIN "gfx/minis/sudowoodo.2bpp.lz"
-SudowoodoMiniMask:: INCBIN "gfx/minis/sudowoodo_mask.1bpp.lz"
-SudowoodoIcon::     INCBIN "gfx/icons/sudowoodo.2bpp.lz"
+SudowoodoMini::     INCBIN "gfx/minis/cyoumu.2bpp.lz"
+SudowoodoMiniMask:: INCBIN "gfx/minis/cyoumu_mask.1bpp.lz"
+SudowoodoIcon::     INCBIN "gfx/icons/cyoumu.2bpp.lz"
 
 SECTION "Politoed Mini Icon", ROMX
 PolitoedMini::     INCBIN "gfx/minis/politoed.2bpp.lz"
