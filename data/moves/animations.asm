@@ -2930,22 +2930,27 @@ BattleAnim_Minimize:
 	anim_ret
 
 BattleAnim_DiveKick:
-	anim_1gfx ANIM_GFX_SKY_ATTACK
-	anim_bgeffect ANIM_BG_HIDE_MON, $0, $1, $0
-	anim_bgeffect ANIM_BG_REMOVE_MON, $0, $1, $0
-	anim_wait 8
-	anim_bgeffect ANIM_BG_CYCLE_BGPALS_INVERTED, $0, $4, $0
-	anim_obp0 $30
-	anim_sound 0, 0, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_DIVE_KICK, 48, 88, $0
-	anim_wait 16
-	anim_clearobjs
-	anim_sound 0, 0, SFX_MASTER_SPARK
-	anim_obj ANIM_OBJ_DIVE_KICK, 48, 88, $18
-	anim_wait 16
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
-	anim_wait 64
+	anim_jumpif $1, .turn1
+	anim_jumpif $2, .miss
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $24, $2, $0
+;	anim_1gfx ANIM_GFX_HIT
+;	anim_sound 0, 1, SFX_KARATE_CHOP
+;	anim_obj ANIM_OBJ_KICK,  14, 0,   7, 0, $0
+;	anim_setobj $1, $3
+;	anim_wait 12
+;	anim_obj ANIM_OBJ_HIT_YFIX, -15, 0,   6, 0, $0
+;	anim_wait 16
+.miss
 	anim_bgeffect ANIM_BG_SHOW_MON, $0, $1, $0
+	anim_wait 32
+	anim_ret
+
+.turn1
+	anim_1gfx ANIM_GFX_OUTRAGE
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $1, $0
+	anim_bgeffect ANIM_BG_HIDE_MON, $0, $1, $0
+	anim_call BattleAnimSub_WarpAway
+	anim_wait 64
 	anim_ret
 
 BattleAnim_NightShade:

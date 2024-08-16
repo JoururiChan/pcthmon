@@ -154,7 +154,7 @@ RadioTower1FRadioCardWomanScript:
 	waitsfx
 	writetext RadioTower1FRadioCardWomanQuestion3Text
 	yesorno
-	iftruefwd .WrongAnswer
+	iffalsefwd .WrongAnswer
 	playsound SFX_ELEVATOR_END
 	waitsfx
 	writetext RadioTower1FRadioCardWomanQuestion4Text
@@ -388,16 +388,17 @@ RadioTower1FRadioCardWomanQuestion2Text:
 	text "Correct!"
 	line "Question 2:"
 
-	para "Kongara can only"
-	line "be female. True?"
+	para "Yachie removes"
+	line "your will to"
+	cont "fight. True?"
 	done
 
 RadioTower1FRadioCardWomanQuestion3Text:
 	text "Bull's-eye!"
 	line "Question 3:"
 
-	para "Can Magikarp learn"
-	line "any moves via TM?"
+	para "Can Satori"
+	line "change it's form?"
 	done
 
 RadioTower1FRadioCardWomanQuestion4Text:
@@ -416,11 +417,11 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	line "Here's the final"
 	cont "question:"
 
-	para "Do Goldenrod Game"
-	line "Corner's slots"
+	para "Are Daichan"
+	line "#mon both Grass"
 
-	para "have CMarisa"
-	line "on their reels?"
+	para "and Psychic-type"
+	line "#mon?"
 	done
 
 RadioTower1FRadioCardWomanYouWinText:

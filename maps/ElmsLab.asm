@@ -224,7 +224,7 @@ CReimuPokeBallScript:
 	pause 15
 	disappear ELMSLAB_POKE_BALL2
 	opentext
-	getmonname CSAKUYA, STRING_BUFFER_3
+	getmonname CMARISA, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
@@ -302,7 +302,7 @@ CSakuyaPokeBallScript:
 	pause 15
 	disappear ELMSLAB_POKE_BALL1
 	opentext
-	getmonname CMARISA, STRING_BUFFER_3
+	getmonname CREIMU, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx

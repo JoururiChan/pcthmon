@@ -31,7 +31,7 @@ PokemonBodyData:
 	body_data  12,  380, WINGS,        YELLOW  ; EELIS
 	body_data  20,   69, HEAD,   BROWN ; CKIKURI
 	body_data  35,  650, HEAD_ARMS,   PURPLE ; KIKURI
-	body_data   4,   60, HEAD_ARMS,    PURPLE ; EKIKURI
+	body_data   4,   60, BIPEDAL,    PURPLE ; EKIKURI
 	body_data   8,  300, WINGS, WHITE ; CSARIEL
 	body_data   6,  120, WINGS, WHITE ; SARIEL
 	body_data  10,  295, WINGS, WHITE ; ESARIEL
@@ -44,9 +44,9 @@ PokemonBodyData:
 	body_data   6,   75, BIPEDAL, WHITE  ; CMEIRA
 	body_data  13,  400, BIPEDAL, WHITE   ; MEIRA
 	body_data   6,   99, BIPEDAL,    WHITE  ; EMEIRA
-	body_data  11,  199, QUADRUPED,    YELLOW ; CELLEN
-	body_data   5,   55, BIPEDAL,      PINK   ; ELLEN
-	body_data  10,  120, BIPEDAL,      PINK   ; EELLEN
+	body_data  11,  199, QUADRUPED,    RED ; CELLEN
+	body_data   5,   55, BIPEDAL,      RED   ; ELLEN
+	body_data  10,  120, BIPEDAL,      RED   ; EELLEN
 	body_data   8,   75, WINGS,        PURPLE ; CKOTOHIME
 	body_data  16,  550, WINGS,        PURPLE ; KOTOHIME
 	body_data   5,   54, HEAD_LEGS,    BLUE   ; EKOTOHIME

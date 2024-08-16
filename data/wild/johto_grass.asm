@@ -1348,68 +1348,68 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 2, CMAGAN
-	wildmon 2, SENTRET
+	wildmon 2, CCIRNO
 	wildmon 3, CMAGAN
-	wildmon 3, SENTRET
+	wildmon 3, CCIRNO
 	wildmon 2, CGYOKU
 	wildmon 3, CDAICHAN
 	wildmon 3, CDAICHAN
 	; day
 	wildmon 2, CMAGAN
-	wildmon 2, SENTRET
+	wildmon 2, CCIRNO
 	wildmon 3, CMAGAN
-	wildmon 3, SENTRET
+	wildmon 3, CCIRNO
 	wildmon 2, CGYOKU
 	wildmon 3, CDAICHAN
 	wildmon 3, CDAICHAN
 	; nite
-	wildmon 2, HOOTHOOT
+	wildmon 2, CKANA
 	wildmon 2, CMIMA
-	wildmon 3, HOOTHOOT
+	wildmon 3, CKANA
 	wildmon 3, CMIMA
 	wildmon 2, CMARISA
-	wildmon 3, HOOTHOOT
-	wildmon 3, HOOTHOOT
+	wildmon 3, CCIRNO
+	wildmon 3, CCIRNO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 3, LEDYBA
+	wildmon 3, CSANAE
 	wildmon 3, CGYOKU
 	wildmon 4, CGYOKU
 	wildmon 4, CMAGAN
 	wildmon 3, CMARISA
-	wildmon 4, HOPPIP
-	wildmon 4, HOPPIP
+	wildmon 4, CSANAE
+	wildmon 4, CSANAE
 	; day
 	wildmon 3, CMAGAN
 	wildmon 3, CGYOKU
 	wildmon 4, CGYOKU
 	wildmon 4, CMAGAN
 	wildmon 3, CMARISA
-	wildmon 4, HOPPIP
-	wildmon 4, HOPPIP
+	wildmon 4, CSANAE
+	wildmon 4, CSANAE
 	; nite
 	wildmon 3, SPINARAK
-	wildmon 3, HOOTHOOT
+	wildmon 3, CELIS
 	wildmon 4, CKURUMI
-	wildmon 4, HOOTHOOT
+	wildmon 4, CELIS
 	wildmon 3, CKOTOHIME
-	wildmon 4, HOOTHOOT
-	wildmon 4, HOOTHOOT
+	wildmon 4, CELLY
+	wildmon 4, CELLY
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 4, LEDYBA
+	wildmon 4, CKONGARA
 	wildmon 4, CGYOKU
 	wildmon 5, CRIKA
 	wildmon 5, CRIKA
 	wildmon 4, CSANAE
 	wildmon 5, CCHIYURI
-	wildmon 5, HOPPIP
+	wildmon 5, CKONGARA
 	; day
 	wildmon 4, CMAGAN
 	wildmon 4, CGYOKU
@@ -1417,9 +1417,9 @@
 	wildmon 5, CRIKA
 	wildmon 4, CREIMU
 	wildmon 5, CCHIYURI
-	wildmon 5, HOPPIP
+	wildmon 5, CKONGARA
 	; nite
-	wildmon 4, SPINARAK
+	wildmon 4, CKURUMI
 	wildmon 4, CKURUMI
 	wildmon 4, CMUGETSU
 	wildmon 5, CMUGETSU
@@ -1447,10 +1447,10 @@
 	wildmon 7, CMEILING
 	wildmon 8, CMEILING
 	; nite
-	wildmon 5, WOOPER
+	wildmon 5, CYUMEKO
 	wildmon 6, CSANAE
 	wildmon 8, CYUKA
-	wildmon 8, HOOTHOOT
+	wildmon 8, CCIRNO
 	wildmon 7, CELLY
 	wildmon 7, CSHINKI
 	wildmon 7, CSHINKI

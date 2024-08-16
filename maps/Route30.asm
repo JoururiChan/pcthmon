@@ -219,9 +219,9 @@ Route30_MikeysCMugetsuAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, EMima!"
+	text "Go, CGengetsu!"
 
-	para "Tackle!"
+	para "Gust!"
 	done
 
 Text_ThisIsABigBattle:

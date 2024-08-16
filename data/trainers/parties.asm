@@ -142,7 +142,7 @@ FalknerGroup:
 	dbp 11, CELIS
 		db NO_ITEM
 		ev_spread 32 HP
-		db ASTONISH, GUST, SAFEGUARD, WHITE_BIRD
+		db ASTONISH, GUST, SAFEGUARD, AERIAL_ACE
 	dbp 13, CRIKAKO
 		db PECHA_BERRY
 		ev_spread 32 HP
@@ -1423,6 +1423,16 @@ Rival0Group:
 	; party
 	dbp 4, CKIKURI
 		db NO_ITEM
+	dbp 5, CSAKUYA
+		db ORAN_BERRY
+	db -1 ; end
+
+	; RIVAL0
+	db "boy@"
+	db TRAINERTYPE_ITEM
+	; party
+	dbp 4, CKIKURI
+		db NO_ITEM
 	dbp 5, CREIMU
 		db ORAN_BERRY
 	db -1 ; end
@@ -1434,16 +1444,6 @@ Rival0Group:
 	dbp 4, CKIKURI
 		db NO_ITEM
 	dbp 5, CMARISA
-		db ORAN_BERRY
-	db -1 ; end
-
-	; RIVAL0
-	db "boy@"
-	db TRAINERTYPE_ITEM
-	; party
-	dbp 4, CKIKURI
-		db NO_ITEM
-	dbp 5, CSAKUYA
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -1465,7 +1465,7 @@ Rival1Group:
 	dbp 15, CKIKURI
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, REIMU
+	dbp 18, SAKUYA
 		db ORAN_BERRY
 		ev_spread 72 Atk
 	db -1 ; end
@@ -1483,7 +1483,7 @@ Rival1Group:
 	dbp 15, CSARA
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, MARISA
+	dbp 18, REIMU
 		db ORAN_BERRY
 		ev_spread 72 SAt
 	db -1 ; end
@@ -1501,7 +1501,7 @@ Rival1Group:
 	dbp 15, CSARA
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, SAKUYA
+	dbp 18, MARISA
 		db ORAN_BERRY
 		ev_spread 72 Spe
 	db -1 ; end
@@ -1910,16 +1910,8 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 5, CREIMU
-		db "Chicory@"
-	db -1 ; end
-
-	; LYRA1
-	db "Lyra@"
-	db TRAINERTYPE_NICKNAME
-	; party
 	dbp 5, CMARISA
-		db "Cinder@"
+		db "Starfire@"
 	db -1 ; end
 
 	; LYRA1
@@ -1927,7 +1919,15 @@ Lyra1Group:
 	db TRAINERTYPE_NICKNAME
 	; party
 	dbp 5, CSAKUYA
-		db "Toto@"
+		db "Sculpture@"
+	db -1 ; end
+
+	; LYRA1
+	db "Lyra@"
+	db TRAINERTYPE_NICKNAME
+	; party
+	dbp 5, CREIMU
+		db "Sendai@"
 	db -1 ; end
 
 	; LYRA1
@@ -2252,7 +2252,7 @@ YoungsterGroup:
 	db "Gordon@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 11, CCHIYURI
+	dbp 11, CMEIRA
 	db -1 ; end
 
 	; YOUNGSTER
@@ -2552,7 +2552,7 @@ CamperGroup:
 	db "Roland@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 10, CRIKA
+	dbp 10, CYUKI
 	db -1 ; end
 
 	; CAMPER
@@ -2708,8 +2708,8 @@ PicnickerGroup:
 	db "Liz@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 15, CMUGETSU
-	dbp 15, CRIKAKO
+	dbp 15, CKOAKUMA
+	dbp 15, CPATCHOULI
 	db -1 ; end
 
 	; PICNICKER
@@ -3186,13 +3186,13 @@ FisherGroup:
 	db "Justin@"
 	db TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY
 	; party
-	dbp 5, MAGIKARP, MALE | PLAIN_FORM
+	dbp 5, CSANAE, MALE
 		db $87, $78, $77, ABILITY_1 | NAT_NEUTRAL
-	dbp 5, MAGIKARP, MALE | MAGIKARP_FOREHEAD1_FORM
+	dbp 5, CSANAE, MALE 
 		db $88, $B8, $8B, ABILITY_1 | NAT_NEUTRAL
-	dbp 15, MAGIKARP, MALE | MAGIKARP_CALICO3_FORM
+	dbp 15, CSANAE, MALE
 		db $A2, $AA, $2A, ABILITY_1 | NAT_NEUTRAL
-	dbp 5, MAGIKARP, MALE | MAGIKARP_ORCA_FORM
+	dbp 5, CSANAE, MALE
 		db $39, $93, $99, ABILITY_1 | NAT_NEUTRAL
 	db -1 ; end
 
@@ -9017,29 +9017,29 @@ CooltrainerMGroup:
 	dbp LEVEL_FROM_BADGES + 4, CSARA, MALE
 		db AIR_BALLOON, $DD, $DD, $DD, ABIL_CSARA_GATE_KEEPER | NAT_DEF_UP_SPE_DOWN
 		ev_spread 12 HP
-		db TACKLE, DEFENSE_CURL, MUD_SLAP, ROLLOUT
-	dbp LEVEL_FROM_BADGES + 5, MAREEP, MALE
-		db AIR_BALLOON, $DD, $DD, $DD, ABIL_MAREEP_STATIC | NAT_SATK_UP_SDEF_DOWN
+		db RAGE, LEER, KARATE_CHOP, SWAGGER
+	dbp LEVEL_FROM_BADGES + 5, CKONGARA, MALE
+		db AIR_BALLOON, $DD, $DD, $DD, ABIL_CKONGARA_PRESSURE | NAT_SATK_UP_SDEF_DOWN
 		ev_spread 12 HP
-		db TACKLE, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
+		db PURSUIT, MINIMIZE, SEISMIC_TOSS, KNOCK_OFF
 	db -1 ; end
 
 	; COOLTRAINERM
 	db "Petrie@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 	; party
-	dbp LEVEL_FROM_BADGES + 3, MUGETSU, MALE
+	dbp LEVEL_FROM_BADGES + 3, CSANAE, MALE
 		db MIRACLE_SEED, $EE, $EE, $EE, ABIL_MUGETSU_LIMBER | NAT_ATK_UP_SATK_DOWN
 		ev_spread 20 Atk
-		db VINE_WHIP, GROWTH, WRAP, SLEEP_POWDER
-	dbp LEVEL_FROM_BADGES + 3, CKOTOHIME, MALE
+		db WATER_GUN, MEGA_DRAIN, RAIN_DANCE, SAFEGUARD
+	dbp LEVEL_FROM_BADGES + 3, CDAICHAN, MALE
 		db MIRACLE_SEED, $EE, $EE, $EE, ABIL_CKOTOHIME_COLLECTOR | NAT_SATK_UP_SDEF_DOWN
 		ev_spread 20 HP
-		db MACH_PUNCH, CHARM, DISARM_VOICE, SWEET_KISS
-	dbp LEVEL_FROM_BADGES + 6, CREIMU, MALE
+		db ENERGY_LIGHT, SLEEP_POWDER, DISARM_VOICE, SPORE
+	dbp LEVEL_FROM_BADGES + 6, CYUKA, MALE
 		db MIRACLE_SEED, $EE, $EE, $EE, ABIL_CREIMU_OWN_TEMPO | NAT_SPE_UP_DEF_DOWN
 		ev_spread 20 HP
-		db LEECH_SEED, VINE_WHIP, SLEEP_POWDER, MUD_SLAP
+		db RAZOR_LEAF, LEECH_SEED, POISON_NAIL, LEER
 	db -1 ; end
 
 	; COOLTRAINERM
@@ -9751,7 +9751,7 @@ ProtonGroup:
 	; party
 	dbp 11, CMEIRA
 		ev_spread 32 Spe
-	dbp 12, QWILFISH
+	dbp 12, CMIMA
 		ev_spread 32 Spe
 	dbp 14, CMAGAN
 		ev_spread 32 Spe

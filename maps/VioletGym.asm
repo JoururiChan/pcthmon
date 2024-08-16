@@ -57,7 +57,7 @@ VioletGymFalknerScript:
 	waitsfx
 	setflag ENGINE_ZEPHYRBADGE
 .FightDone:
-	checkevent EVENT_GOT_TM31_WHITE_BIRD
+	checkevent EVENT_GOT_TM26_AERIAL_ACE
 	iftrue_jumpopenedtext FalknerFightDoneText
 	setevent EVENT_BEAT_BIRD_KEEPER_ROD
 	setevent EVENT_BEAT_BIRD_KEEPER_ABE
@@ -65,8 +65,8 @@ VioletGymFalknerScript:
 	specialphonecall SPECIALCALL_ASSISTANT
 	writetext FalknerZephyrBadgeText
 	promptbutton
-	verbosegivetmhm TM_WHITE_BIRD
-	setevent EVENT_GOT_TM31_WHITE_BIRD
+	verbosegivetmhm TM26_AERIAL_ACE
+	setevent EVENT_GOT_TM26_AERIAL_ACE
 	jumpopenedtext FalknerTMMudSlapText
 
 GenericTrainerBird_keeperRod:
@@ -169,12 +169,12 @@ FalknerTMMudSlapText:
 	line "as many times as"
 	cont "you want."
 
-	para "TM51 contains"
-	line "White Bird."
+	para "TM40 contains"
+	line "Aerial Ace."
 
-	para "It lands on the"
-	line "ground to restore"
-	cont "half the max HP."
+	para "It's an aerial"
+	line "strike that will"
+	cont "never miss."
 	done
 
 FalknerFightDoneText:
