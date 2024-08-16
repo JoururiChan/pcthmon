@@ -123,11 +123,11 @@ KikuriIcon::     INCBIN "gfx/icons/ckaguya.2bpp.lz"
 
 SECTION "EKikuri Mini Icon", ROMX
 EKikuriMini::         INCBIN "gfx/minis/ckaguya.2bpp.lz"
-EKikuriFlyMini::      INCBIN "gfx/minis/ckaguya_fly.2bpp.lz"
-EKikuriSurfMini::     INCBIN "gfx/minis/ckaguya_surf.2bpp.lz"
+EKikuriFlyMini::      INCBIN "gfx/minis/ckaguya.2bpp.lz"
+EKikuriSurfMini::     INCBIN "gfx/minis/ckaguya.2bpp.lz"
 EKikuriMiniMask::     INCBIN "gfx/minis/ckaguya_mask.1bpp.lz"
-EKikuriFlyMiniMask::  INCBIN "gfx/minis/ckaguya_fly_mask.1bpp.lz"
-EKikuriSurfMiniMask:: INCBIN "gfx/minis/ckaguya_surf_mask.1bpp.lz"
+EKikuriFlyMiniMask::  INCBIN "gfx/minis/ckaguya_mask.1bpp.lz"
+EKikuriSurfMiniMask:: INCBIN "gfx/minis/ckaguya_mask.1bpp.lz"
 EKikuriIcon::
 EKikuriFlyIcon::
 EKikuriSurfIcon::     INCBIN "gfx/icons/ckaguya.2bpp.lz"
