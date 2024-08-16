@@ -65,7 +65,7 @@ VioletGymFalknerScript:
 	specialphonecall SPECIALCALL_ASSISTANT
 	writetext FalknerZephyrBadgeText
 	promptbutton
-	verbosegivetmhm TM26_AERIAL_ACE
+	verbosegivetmhm TM_AERIAL_ACE
 	setevent EVENT_GOT_TM26_AERIAL_ACE
 	jumpopenedtext FalknerTMMudSlapText
 
