@@ -196,7 +196,7 @@ BattleAnimations::
 	dw BattleAnim_ZapCannon
 	dw BattleAnim_Foresight
 	dw BattleAnim_DestinyBond
-	dw BattleAnim_PerishSong
+	dw BattleAnim_ShadowDance
 	dw BattleAnim_IcyWind
 	dw BattleAnim_PowerGem
 	dw BattleAnim_BlazeStar
@@ -4234,7 +4234,7 @@ BattleAnim_DestinyBond:
 	anim_bgp $e4
 	anim_ret
 
-BattleAnim_PerishSong:
+BattleAnim_ShadowDance:
 	anim_1gfx ANIM_GFX_NOISE
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0

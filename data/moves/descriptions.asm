@@ -195,7 +195,7 @@ MoveDescriptions::
 	dw ZapCannonDescription
 	dw ForesightDescription
 	dw DestinyBondDescription
-	dw PerishSongDescription
+	dw ShadowDanceDescription
 	dw IcyWindDescription
 	dw PowerGemDescription
 	dw BlazeStarDescription
@@ -271,7 +271,6 @@ LowKickDescription:
 
 KarateChopDescription:
 RazorLeafDescription:
-BugStrikesDescription:
 SlashDescription:
 AeroblastDescription:
 CrossChopDescription:
@@ -287,6 +286,7 @@ FeintAttackDescription:
 DisarmVoiceDescription:
 AerialAceDescription:
 AuraSphereDescription:
+SpidersNestDescription:
 	text "An attack that"
 	next "never misses."
 	done
@@ -296,6 +296,7 @@ MegaDrainDescription:
 LeechLifeDescription:
 GigaDrainDescription:
 DrainPunchDescription:
+AvariceBiteDescription:
 	text "Steals 1/2 of the"
 	next "damage inflicted."
 	done
@@ -316,7 +317,7 @@ FuryStrikesDescription:
 	done
 
 PWJNeedleDescription:
-	text "Fires pins that"
+	text "Shot needles that"
 	next "strike 2-5 times."
 	done
 
@@ -336,10 +337,13 @@ DoubleEdgeDescription:
 	next "hurts the user."
 	done
 
-LavateinDescription:
 BlazeStarDescription:
-DiveKickDescription:
 	text "A charge that also"
+	next "hurts the user."
+	done
+
+GungnirDescription:
+	text "A strong jab that"
 	next "hurts the user."
 	done
 
@@ -352,15 +356,14 @@ PowerBiteDescription:
 AirSlashDescription:
 IronHeadDescription:
 LunarBashDescription:
-Lunacy_EyesDescription:
 DarkPulseDescription:
 AstonishDescription:
 IcicleCrashDescription:
+DragonDrillDescription:
 	text "An attack that may"
 	next "cause flinching."
 	done
 
-SealNeedleDescription:
 SludgeBombDescription:
 PoisonJabDescription:
 GunkShotDescription:
@@ -383,6 +386,7 @@ ThunderboltDescription:
 ThunderDescription:
 LickDescription:
 SparkDescription:
+SealNeedleDescription:
 	text "An attack that may"
 	next "cause paralysis."
 	done
@@ -400,7 +404,6 @@ BlizzardDescription:
 
 PsybeamDescription:
 PsyshotDescription:
-LunarBulletDescription:
 WaterPulseDescription:
 HurricaneDescription:
 	text "An attack that may"
@@ -408,11 +411,15 @@ HurricaneDescription:
 	done
 
 DynamicpunchDescription:
+SporeDescription:
+Lunacy_EyesDescription:
+DollStringsDescription:
 	text "An attack that"
 	next "confuses the foe."
 	done
 
 MetalClawDescription:
+PetalSlashDescription:
 	text "An attack that may"
 	next "up user's Attack."
 	done
@@ -444,18 +451,20 @@ PlayRoughDescription:
 	done
 
 RockSmashDescription:
+LavateinDescription:
 if !DEF(FAITHFUL)
 	text "Removes Reflect"
 	next "and Light Screen."
 	done
 endc
-AvariceBiteDescription:
 BraverDescription:
+BugStrikesDescription:
 	text "An attack that may"
 	next "lower Defense."
 	done
 
 BubbleBeamDescription:
+TensionKickDescription:
 	text "An attack that may"
 	next "lower Speed."
 	done
@@ -480,9 +489,9 @@ PsychicMDescription:
 ShadowBallDescription:
 BugBuzzDescription:
 EarthPowerDescription:
-DreamHeavenDescription:
 FlashCannonDescription:
 FocusBlastDescription:
+LunarBulletDescription:
 	text "An attack that may"
 	next "lower Sp.Def."
 	done
@@ -493,6 +502,8 @@ MudSlapDescription:
 	done
 
 BlackRippleDescription:
+FlashDescription:
+WhiteBirdDescription:
 	text "An attack that may"
 	next "lower accuracy."
 	done
@@ -514,8 +525,8 @@ NightShadeDescription:
 	done
 
 ToxicGasDescription:
-	text "A move that may"
-	next "poison the foe."
+	text "An attack that"
+	next "may cause Psn."
 	done
 
 WillOWispDescription:
@@ -535,11 +546,6 @@ SleepPowderDescription:
 HypnosisDescription:
 	text "May cause the foe"
 	next "to fall asleep."
-	done
-
-SporeDescription:
-	text "A move that puts"
-	next "the foe to sleep."
 	done
 
 ToxicDescription:
@@ -579,10 +585,6 @@ BarrierDescription:
 	next "user's Defense."
 	done
 
-SpidersNestDescription:
-	text "Sharply raises the"
-	next "user's Speed."
-	done
 
 NastyPlotDescription:
 	text "Sharply raises the"
@@ -634,13 +636,7 @@ LeerDescription:
 	next "the foe's Defense."
 	done
 
-DollStringsDescription:
-	text "A move that lowers"
-	next "the foe's Speed."
-	done
-
 SmokescreenDescription:
-FlashDescription:
 	text "A move that lowers"
 	next "the foe's accuracy."
 	done
@@ -690,13 +686,9 @@ FreshSnackDescription:
 	next "the user's max HP."
 	done
 
-WhiteBirdDescription:
-	text "Lands to restore"
-	next "1/2 the max HP."
-	done
 
 ThrashDescription:
-PetalSlashDescription:
+ShadowDanceDescription:
 OutrageDescription:
 	text "Works 2-3 turns"
 	next "and confuses user."
@@ -724,12 +716,8 @@ EndureDescription:
 	next "with at least 1HP."
 	done
 
-BladeFlashDescription:
-	text "Leaves the foe"
-	next "with at least 1HP."
-	done
-
 FlowerShootDescription:
+DiveKickDescription:
 	text "1st turn: Prepare"
 	next "2nd turn: Attack"
 	done
@@ -740,7 +728,6 @@ FlyDescription:
 	done
 
 MasterSparkDescription:
-GungnirDescription:
 	text "1st turn: Attack"
 	next "2nd turn: Rest"
 	done
@@ -823,8 +810,8 @@ SpikesDescription:
 	done
 
 PoisonNailDescription:
-	text "Poisons foes when"
-	next "they switch in."
+	text "Attacks with"
+	next "poisonous nails."
 	done
 
 QuickAttackDescription:
@@ -834,6 +821,11 @@ QuickAttackDescription:
 
 AquaJetDescription:
 	text "A speedy lunge."
+	next "Always goes first."
+	done
+
+BladeFlashDescription:
+	text "A quick cut."
 	next "Always goes first."
 	done
 
@@ -848,8 +840,8 @@ MachPunchDescription:
 	done
 
 SteelFistDescription:
-	text "A tough punch that"
-	next "always goes first."
+	text "A punch that may"
+	next "lower Defense."
 	done
 
 ExtremespeedDescription:
@@ -873,8 +865,8 @@ VineWhipDescription:
 	done
 
 SpiritVoiceDescription:
-	text "Slashes the foe"
-	next "with sharp claws."
+	text "Emits a ghostly"
+	next "screech."
 	done
 
 CutDescription:
@@ -883,8 +875,8 @@ CutDescription:
 	done
 
 IchigoCrossDescription:
-	text "Slashes foe with"
-	next "scythes or claws."
+	text "An attack that"
+	next "causes a burn."
 	done
 
 GustDescription:
@@ -904,7 +896,7 @@ TackleDescription:
 
 KnifeThrowDescription:
 	text "An attack using a"
-	next "horn to jab."
+	next "thrown knife."
 	done
 
 DoubleKickDescription:
@@ -923,8 +915,8 @@ SuckerPunchDescription:
 	done
 
 EnergyLightDescription:
-	text "Dazzles with a"
-	next "powerful flash."
+	text "Sizzles with a"
+	next "natural light."
 	done
 
 RoarDescription:
@@ -950,11 +942,6 @@ SurfDescription:
 HydroPumpDescription:
 	text "A powerful Water-"
 	next "type attack."
-	done
-
-DragonDrillDescription:
-	text "A strong, spin-"
-	next "ning-peck attack."
 	done
 
 StrengthDescription:
@@ -1007,11 +994,6 @@ SkillSwapDescription:
 	next "with the foe."
 	done
 
-TensionKickDescription:
-	text "May miss and hurt"
-	next "the user."
-	done
-
 DreamEaterDescription:
 	text "Steals HP from a"
 	next "sleeping victim."
@@ -1043,8 +1025,8 @@ ConversionDescription:
 	done
 
 FiveElementsDescription:
-	text "Fires three kinds"
-	next "of beams at once."
+	text "Attacks with five"
+	next "colored crystals."
 	done
 
 LifeCounterDescription:
@@ -1073,13 +1055,14 @@ ThiefDescription:
 	done
 
 FacadeDescription:
+DreamHeavenDescription:
 	text "Double damage with"
 	next "Psn, Brn, or Prz."
 	done
 
 VoiceBindDescription:
-	text "Attack the foe"
-	next "with sound waves."
+	text "Emits a draconic"
+	next "intimidating yell."
 	done
 
 CurseDescription:
@@ -1117,11 +1100,6 @@ DestinyBondDescription:
 	next "the user does."
 	done
 
-PerishSongDescription:
-	text "Both user and foe"
-	next "faint in 3 turns."
-	done
-
 PowerGemDescription:
 	text "Attacks with a ray"
 	next "of gem-like light."
@@ -1138,8 +1116,8 @@ SwaggerDescription:
 	done
 
 PowerTrickDescription:
-	text "Lowers defenses,"
-	next "raises offenses."
+	text "Swaps offenses"
+	next "and defenses."
 	done
 
 BugBiteDescription:
@@ -1188,8 +1166,8 @@ MagnitudeDescription:
 	done
 
 DragonBashDescription:
-	text "A powerful charge"
-	next "attack."
+	text "A regular draco-"
+	next "nic smash."
 	done
 
 PowerWhipDescription:

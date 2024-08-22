@@ -78,7 +78,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_SwaggerMorningSun
 	dw BattleAnimFunction_HiddenPower
 	dw BattleAnimFunction_Curse
-	dw BattleAnimFunction_PerishSong
+	dw BattleAnimFunction_ShadowDance
 	dw BattleAnimFunction_RapidSpin
 	dw BattleAnimFunction_BetaPursuit
 	dw BattleAnimFunction_RainSandstorm
@@ -3824,7 +3824,7 @@ BattleAnimFunction_Curse:
 	inc [hl]
 	ret
 
-BattleAnimFunction_PerishSong:
+BattleAnimFunction_ShadowDance:
 	ld d, $50
 	ld hl, BATTLEANIMSTRUCT_PARAM
 	add hl, bc

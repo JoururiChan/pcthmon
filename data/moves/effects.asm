@@ -1593,7 +1593,7 @@ Foresight:
 	foresight
 	endmove
 
-PerishSong:
+ShadowDance:
 	checkobedience
 	usedmovetext
 	doturn

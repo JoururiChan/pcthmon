@@ -3990,7 +3990,7 @@ Sfx_Outrage:
 	sound_ret
 
 
-Sfx_PerishSong:
+Sfx_ShadowDance:
 	channel_count 2
 	channel 5, .Ch5
 	channel 6, .Ch6

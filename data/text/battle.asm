@@ -1348,7 +1348,7 @@ IdentifiedText:
 	cont "<TARGET>!"
 	prompt
 
-StartPerishSongText:
+StartShadowDanceText:
 	text "#mon that heard"
 	line "the song will"
 	cont "faint in 3 turns!"

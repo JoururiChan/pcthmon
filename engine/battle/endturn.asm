@@ -48,7 +48,7 @@ HandleBetweenTurnEffects:
 	; heal block
 	; embargo
 	; yawn
-	call HandlePerishSong
+	call HandleShadowDance
 	call CheckFaint
 	ret c
 	call HandleWhiteBird
@@ -816,7 +816,7 @@ HandleDisable:
 	ld hl, wEnemyDisableCount
 	jr EndturnEncoreDisable
 
-HandlePerishSong:
+HandleShadowDance:
 	call SetFastestTurn
 	call .do_it
 	call SwitchTurn

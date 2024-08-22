@@ -29,7 +29,7 @@ AI_Redundant:
 	dbw EFFECT_SPIKES,        .Spikes
 	dbw EFFECT_POISON_NAIL,  .PoisonNail
 	dbw EFFECT_FORESIGHT,     .Foresight
-	dbw EFFECT_SHADOW_DANCE,   .PerishSong
+	dbw EFFECT_SHADOW_DANCE,   .ShadowDance
 	dbw EFFECT_SANDSTORM,     .Sandstorm
 	dbw EFFECT_HAIL,          .Hail
 	dbw EFFECT_ATTRACT,       .Attract
@@ -94,7 +94,7 @@ AI_Redundant:
 	bit SUBSTATUS_CANT_RUN, a
 	ret
 
-.PerishSong:
+.ShadowDance:
 	ld a, [wPlayerPerishCount]
 	and a
 	ret

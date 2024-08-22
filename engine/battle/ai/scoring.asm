@@ -351,7 +351,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_CURSE,             AI_Smart_Curse
 	dbw EFFECT_PROTECT,           AI_Smart_Protect
 	dbw EFFECT_FORESIGHT,         AI_Smart_Foresight
-	dbw EFFECT_SHADOW_DANCE,       AI_Smart_PerishSong
+	dbw EFFECT_SHADOW_DANCE,       AI_Smart_ShadowDance
 	dbw EFFECT_ENDURE,            AI_Smart_Endure
 	dbw EFFECT_ROLLOUT,           AI_Smart_Rollout
 	dbw EFFECT_SWAGGER,           AI_Smart_Swagger
@@ -1526,7 +1526,7 @@ AI_Smart_Foresight:
 	dec [hl]
 	ret
 
-AI_Smart_PerishSong:
+AI_Smart_ShadowDance:
 	push hl
 
 	; Strongly discourage if useless or if we can't switch out

@@ -134,7 +134,7 @@ SFX:
 	fardw Sfx_Foresight
 	fardw Sfx_Spite
 	fardw Sfx_Outrage
-	fardw Sfx_PerishSong
+	fardw Sfx_ShadowDance
 	fardw Sfx_GigaDrain
 	fardw Sfx_Attract
 	fardw Sfx_Kinesis2
