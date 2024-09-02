@@ -9,11 +9,11 @@ EngineFlags:
 	table_width 3, EngineFlags
 
 	; pokegear
-	engine_flag wPokegearFlags, POKEGEAR_RADIO_CARD_F
-	engine_flag wPokegearFlags, POKEGEAR_MAP_CARD_F
-	engine_flag wPokegearFlags, POKEGEAR_PHONE_CARD_F
-	engine_flag wPokegearFlags, POKEGEAR_EXPN_CARD_F
-	engine_flag wPokegearFlags, POKEGEAR_OBTAINED_F
+	engine_flag wTohogearFlags, TOHOGEAR_RADIO_CARD_F
+	engine_flag wTohogearFlags, TOHOGEAR_MAP_CARD_F
+	engine_flag wTohogearFlags, TOHOGEAR_PHONE_CARD_F
+	engine_flag wTohogearFlags, TOHOGEAR_EXPN_CARD_F
+	engine_flag wTohogearFlags, TOHOGEAR_OBTAINED_F
 
 	;   wDayCareMan, DAYCAREMAN_ACTIVE_F ; daycare 1 on
 	engine_flag wDayCareMan, DAYCAREMAN_HAS_EGG_F ; egg is ready

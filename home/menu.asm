@@ -276,7 +276,7 @@ GetMenu2::
 	ret
 
 GetYesNoBoxPosition:
-	ld a, [wInPokegear]
+	ld a, [wInTohogear]
 	and a
 	lb bc, SCREEN_WIDTH - 6, 7
 	ret z

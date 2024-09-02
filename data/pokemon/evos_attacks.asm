@@ -61,7 +61,6 @@ ReimuEvosAttacks:
 
 EReimuEvosAttacks:
 	db -1 ; no more evolutions
-	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
 	db 1, AERIAL_ACE
@@ -262,7 +261,7 @@ OGyokuEvosAttacks:
 	db -1 ; no more level-up moves
 
 CMaganEvosAttacks:
-	evo_data EVOLVE_LEVEL, 25, MAGAN
+	evo_data EVOLVE_LEVEL, 20, MAGAN
 	db -1 ; no more evolutions
 	db 1, ACID ; OGyoku move
 	db 1, LEER ; OGyoku move
@@ -274,7 +273,7 @@ CMaganEvosAttacks:
 	db -1 ; no more level-up moves
 
 MaganEvosAttacks:
-	evo_data EVOLVE_LEVEL, 43, EMAGAN
+	evo_data EVOLVE_LEVEL, 36, EMAGAN
 	db -1 ; no more evolutions
 	db 1, SEAL_NEEDLE ; OGyoku move
 	db 1, DOLL_STRINGS ; OGyoku move
@@ -331,7 +330,7 @@ CMimaEvosAttacks:
 	db -1 ; no more level-up moves
 
 MimaEvosAttacks:
-	evo_data EVOLVE_LEVEL, 50, EMIMA
+	evo_data EVOLVE_LEVEL, 44, EMIMA
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 5, MUD_SLAP ; Sand Attack → similar move
@@ -388,7 +387,7 @@ EMimaAlolanEvosAttacks:
 
 CElisPlainEvosAttacks:
 CElisAlolanEvosAttacks:
-	evo_data EVOLVE_LEVEL, 26, ELIS
+	evo_data EVOLVE_LEVEL, 24, ELIS
 	db -1 ; no more evolutions
 	db 1, ASTONISH
 	db 1, SAFEGUARD ; Tail Whip → similar move
@@ -405,7 +404,7 @@ CElisAlolanEvosAttacks:
 	db -1 ; no more level-up moves
 
 ElisEvosAttacks:
-	evo_data EVOLVE_LEVEL, 47, EELIS
+	evo_data EVOLVE_LEVEL, 40, EELIS
 	db -1 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL
@@ -444,7 +443,7 @@ EElisEvosAttacks:
 	db -1 ; no more level-up moves
 
 CKikuriEvosAttacks:
-	evo_data EVOLVE_LEVEL, 29, KIKURI
+	evo_data EVOLVE_LEVEL, 26, KIKURI
 	db -1 ; no more evolutions
 	db 1, PSYSHOT
 	db 1, DEFENSE_CURL
@@ -464,7 +463,7 @@ CKikuriEvosAttacks:
 	db -1 ; no more level-up moves
 
 KikuriEvosAttacks:
-	evo_data EVOLVE_LEVEL, 48, EKIKURI
+	evo_data EVOLVE_LEVEL, 42, EKIKURI
 	db -1 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
@@ -506,7 +505,7 @@ EKikuriEvosAttacks:
 	db -1 ; no more level-up moves
 
 CSarielPlainEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, SARIEL, PLAIN_FORM
+	evo_data EVOLVE_LEVEL, 28, SARIEL, PLAIN_FORM
 	db -1 ; no more evolutions
 	db 1, GUST
 	db 1, PSYSHOT ; Tail Whip → similar move
@@ -528,7 +527,7 @@ CSarielPlainEvosAttacks:
 	db -1 ; no more level-up moves
 
 CSarielAlolanEvosAttacks:
-	evo_data EVOLVE_LEVEL, 55, ESARIEL, PLAIN_FORM
+	evo_data EVOLVE_LEVEL, 28, ESARIEL, PLAIN_FORM
 	db -1 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, LEER ; Tail Whip → similar move
@@ -539,7 +538,7 @@ CSarielAlolanEvosAttacks:
 	db -1 ; no more level-up moves
 
 SarielPlainEvosAttacks:
-	evo_data EVOLVE_LEVEL, 55, ESARIEL, PLAIN_FORM
+	evo_data EVOLVE_LEVEL, 44, ESARIEL, PLAIN_FORM
 	db -1 ; no more evolutions
 	db 1, GUST
 	db 1, PSYSHOT ; Tail Whip → similar move
@@ -618,7 +617,7 @@ ESarielAlolanEvosAttacks:
 	db -1 ; no more level-up moves
 
 CKongaraEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, KONGARA
+	evo_data EVOLVE_LEVEL, 28, KONGARA
 	db -1 ; no more evolutions
 	db 1, PURSUIT
 	db 1, HAZE
@@ -640,7 +639,7 @@ CKongaraEvosAttacks:
 	db -1 ; no more level-up moves
 
 KongaraEvosAttacks:
-	evo_data EVOLVE_LEVEL, 55, EKONGARA
+	evo_data EVOLVE_LEVEL, 44, EKONGARA
 	db -1 ; no more evolutions
 	db 1, PURSUIT
 	db 1, HAZE

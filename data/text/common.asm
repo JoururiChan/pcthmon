@@ -4067,20 +4067,20 @@ _GearOutOfServiceText::
 	line "service area."
 	prompt
 
-SECTION "_PokegearAskWhoCallText", ROMX
-_PokegearAskWhoCallText::
+SECTION "_TohogearAskWhoCallText", ROMX
+_TohogearAskWhoCallText::
 	text "Whom do you want"
 	line "to call?"
 	done
 
-SECTION "_PokegearPressButtonText", ROMX
-_PokegearPressButtonText::
+SECTION "_TohogearPressButtonText", ROMX
+_TohogearPressButtonText::
 	text "Press any button"
 	line "to exit."
 	done
 
-SECTION "_PokegearAskDeleteText", ROMX
-_PokegearAskDeleteText::
+SECTION "_TohogearAskDeleteText", ROMX
+_TohogearAskDeleteText::
 	text "Delete this stored"
 	line "phone number?"
 	done

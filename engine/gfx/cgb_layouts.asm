@@ -16,7 +16,7 @@ LoadCGBLayout::
 	table_width 2, LoadCGBLayout.Jumptable
 	dw _CGB_BattleGrayscale
 	dw _CGB_BattleColors
-	dw _CGB_PokegearPals
+	dw _CGB_TohogearPals
 	dw _CGB_StatsScreenHPPals
 	dw _CGB_Tohodex
 	dw _CGB_Tohodex_PrepareOnly
@@ -339,14 +339,14 @@ GenderAndExpBarPals:
 INCLUDE "gfx/battle/exp_bar.pal"
 
 _CGB_FlyMap:
-	ld hl, PokegearOBPals
+	ld hl, TohogearOBPals
 	ld de, wOBPals1
 	ld c, 3 palettes
 	call LoadPalettes
 	; fallthrough
 
-_CGB_PokegearPals:
-	ld hl, PokegearPals
+_CGB_TohogearPals:
+	ld hl, TohogearPals
 	ld de, wBGPals1
 	ld c, 8 palettes
 	call LoadPalettes
@@ -356,10 +356,10 @@ _CGB_PokegearPals:
 	jr z, .done
 
 	dec a ; PLAYER_FEMALE
-	ld hl, FemalePokegearInterfacePalette
+	ld hl, FemaleTohogearInterfacePalette
 	jr z, .got_interface_palette
 	; PLAYER_ENBY
-	ld hl, EnbyPokegearInterfacePalette
+	ld hl, EnbyTohogearInterfacePalette
 .got_interface_palette
 	ld de, wBGPals1 palette 0
 	call LoadOnePalette
@@ -370,13 +370,13 @@ _CGB_PokegearPals:
 	ldh [hCGBPalUpdate], a
 	ret
 
-PokegearPals:
+TohogearPals:
 INCLUDE "gfx/pokegear/pokegear.pal"
 
-FemalePokegearInterfacePalette:
+FemaleTohogearInterfacePalette:
 INCLUDE "gfx/pokegear/pokegear_f.pal"
 
-EnbyPokegearInterfacePalette:
+EnbyTohogearInterfacePalette:
 INCLUDE "gfx/pokegear/pokegear_x.pal"
 
 _CGB_StatsScreenHPPals:
@@ -539,7 +539,7 @@ _CGB_Plain:
 	jr nz, .loop
 
 	; de == wOBPals1
-	ld hl, PokegearOBPals
+	ld hl, TohogearOBPals
 	ld c, 8 palettes
 	call LoadPalettes
 
@@ -585,7 +585,7 @@ _CGB_NamingScreen:
 	pop af
 	ldh [rSVBK], a
 
-	ld hl, PokegearOBPals
+	ld hl, TohogearOBPals
 	ld de, wOBPals1
 	ld c, 8 palettes
 	call LoadPalettes
@@ -663,7 +663,7 @@ _CGB_Mail:
 	ld de, wBGPals1 palette 2 + 6
 	call LoadOneColor
 
-	ld hl, PokegearOBPals
+	ld hl, TohogearOBPals
 	ld de, wOBPals1
 	ld c, 8 palettes
 	call LoadColorBytes
@@ -1208,7 +1208,7 @@ BillsPC_PreviewTheme:
 
 .ob_pals
 	ld de, wOBPals1
-	ld hl, PokegearOBPals
+	ld hl, TohogearOBPals
 	ld c, 8 palettes
 	call LoadPalettes
 	ld de, wOBPals1 palette 1

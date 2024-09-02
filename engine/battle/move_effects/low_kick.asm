@@ -11,7 +11,7 @@ BattleCommand_lowkick:
 	ld de, wBattleMonForm - wBattleMonSpecies
 	add hl, de
 	ld b, [hl]
-	farcall GetSpeciesWeight
+	farcall GetSpeciesCost
 	ld d, h
 	ld e, l
 
@@ -22,7 +22,7 @@ BattleCommand_lowkick:
 	rr e
 
 .not_light_metal
-	ld hl, LowKickPowerByWeight
+	ld hl, LowKickPowerByCost
 .loop2
 	ld a, [hli]
 	ld c, a

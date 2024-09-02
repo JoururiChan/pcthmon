@@ -228,28 +228,28 @@ ParkBallMultiplier:
 	ln a, 3, 2 ; x1.5
 	jmp MultiplyAndDivide
 
-GetSpeciesWeight::
+GetSpeciesCost::
 ; input: bc = species+form
-; output: hl = weight
+; output: hl = cost
 	call GetSpeciesAndFormIndex
 	ld hl, PokemonBodyData + 1 ; skip height
 rept 4
 	add hl, bc
 endr
 	ld a, BANK(PokemonBodyData)
-	jmp GetFarWord ; get weight
+	jmp GetFarWord ; get cost
 
 HeavyBallMultiplier:
-; subtract 20 from base catch rate if weight < 102.4 kg
-; else add 0 to base catch rate if weight < 204.8 kg
-; else add 20 to base catch rate if weight < 307.2 kg
-; else add 30 to base catch rate if weight < 409.6 kg
+; subtract 20 from base catch rate if cost < 102.4 kg
+; else add 0 to base catch rate if cost < 204.8 kg
+; else add 20 to base catch rate if cost < 307.2 kg
+; else add 30 to base catch rate if cost < 409.6 kg
 ; else add 40 to base catch rate
 	ld a, [wEnemyMonSpecies]
 	ld c, a
 	ld a, [wEnemyMonForm]
 	ld b, a
-	call GetSpeciesWeight
+	call GetSpeciesCost
 
 	ld b, h
 	ld hl, wEnemyMonCatchRate
@@ -258,7 +258,7 @@ HeavyBallMultiplier:
 	cp HIGH(1024) ; 102.4 kg
 	jr c, .lightmon
 
-	ld de, .WeightsTable
+	ld de, .CostsTable
 .lookup
 	ld a, [de]
 	cp b
@@ -284,8 +284,8 @@ HeavyBallMultiplier:
 	ld [hl], 1
 	ret
 
-.WeightsTable:
-; weight factor, boost
+.CostsTable:
+; cost factor, boost
 	db HIGH(2048),   0
 	db HIGH(3072),  20
 	db HIGH(4096),  30

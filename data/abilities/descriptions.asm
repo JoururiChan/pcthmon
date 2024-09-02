@@ -707,7 +707,7 @@ WeakArmorDescription:
 
 LightMetalDescription:
 	text  "Halves the Toho-"
-	next1 "mon's weight."
+	next1 "mon's cost."
 	done
 
 MultiscaleDescription:

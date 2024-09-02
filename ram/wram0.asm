@@ -784,19 +784,19 @@ SECTION UNION "Misc 404", WRAM0
 ; pokegear
 	ds 172
 
-wPokegearPhoneLoadNameBuffer:: db
-wPokegearPhoneCursorPosition:: db
-wPokegearPhoneScrollPosition:: db
-wPokegearPhoneSelectedPerson:: db
-wPokegearPhoneSubmenuCursor:: db
-wPokegearMapCursorObjectPointer:: dw
-wPokegearMapCursorLandmark:: db
-wPokegearMapPlayerIconLandmark:: db
-wPokegearRadioChannelBank:: db
-wPokegearRadioChannelAddr:: dw
-wPokegearRadioMusicPlaying:: db
-wPokegearNumberBuffer:: db
-wPokegearMapCursorSpawnpoint:: db
+wTohogearPhoneLoadNameBuffer:: db
+wTohogearPhoneCursorPosition:: db
+wTohogearPhoneScrollPosition:: db
+wTohogearPhoneSelectedPerson:: db
+wTohogearPhoneSubmenuCursor:: db
+wTohogearMapCursorObjectPointer:: dw
+wTohogearMapCursorLandmark:: db
+wTohogearMapPlayerIconLandmark:: db
+wTohogearRadioChannelBank:: db
+wTohogearRadioChannelAddr:: dw
+wTohogearRadioMusicPlaying:: db
+wTohogearNumberBuffer:: db
+wTohogearMapCursorSpawnpoint:: db
 
 
 SECTION UNION "Misc 404", WRAM0
@@ -1113,8 +1113,8 @@ wPrevDexEntryBackup:: db
 
 NEXTU
 ; pokegear
-wPokegearCard:: db
-wPokegearMapRegion:: db
+wTohogearCard:: db
+wTohogearMapRegion:: db
 wTownMapCanFlyHere:: db
 
 NEXTU

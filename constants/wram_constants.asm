@@ -278,14 +278,14 @@ DEF NUM_JOHTO_BADGES EQU const_value
 DEF NUM_KANTO_BADGES EQU const_value
 DEF NUM_BADGES EQU NUM_JOHTO_BADGES + NUM_KANTO_BADGES
 
-; wPokegearFlags::
+; wTohogearFlags::
 	const_def
-	const POKEGEAR_MAP_CARD_F   ; 0
-	const POKEGEAR_RADIO_CARD_F ; 1
-	const POKEGEAR_PHONE_CARD_F ; 2
-	const POKEGEAR_EXPN_CARD_F  ; 3
+	const TOHOGEAR_MAP_CARD_F   ; 0
+	const TOHOGEAR_RADIO_CARD_F ; 1
+	const TOHOGEAR_PHONE_CARD_F ; 2
+	const TOHOGEAR_EXPN_CARD_F  ; 3
 	const_skip 3
-	const POKEGEAR_OBTAINED_F   ; 7
+	const TOHOGEAR_OBTAINED_F   ; 7
 
 ; wRegisteredItemFlags::
 	const_def

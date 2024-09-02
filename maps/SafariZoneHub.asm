@@ -32,7 +32,7 @@ GenericTrainerBug_maniacKai:
 	line "similar to"
 	cont "FGyoku!"
 
-	para "Their weight,"
+	para "Their cost,"
 	line "their eyes,"
 	cont "their abilities…"
 

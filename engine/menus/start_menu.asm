@@ -7,7 +7,7 @@
 	const STARTMENUITEM_SAVE     ; 4
 	const STARTMENUITEM_OPTION   ; 5
 	const STARTMENUITEM_EXIT     ; 6
-	const STARTMENUITEM_POKEGEAR ; 7
+	const STARTMENUITEM_TOHOGEAR ; 7
 	const STARTMENUITEM_QUIT     ; 8
 
 StartMenu::
@@ -161,7 +161,7 @@ StartMenu::
 	dw StartMenu_Save,     .SaveString
 	dw StartMenu_Option,   .OptionString
 	dw StartMenu_Exit,     .ExitString
-	dw StartMenu_Pokegear, .PokegearString
+	dw StartMenu_Tohogear, .TohogearString
 	dw StartMenu_Quit,     .QuitString
 
 .TohodexString:  db "#dex@"
@@ -171,7 +171,7 @@ StartMenu::
 .SaveString:     db "Save@"
 .OptionString:   db "Options@"
 .ExitString:     db "Exit@"
-.PokegearString: db "<PO><KE>gear@"
+.TohogearString: db "<PO><KE>gear@"
 .QuitString:     db "Quit@"
 
 .OpenMenu:
@@ -233,10 +233,10 @@ endr
 	call .AppendMenuList
 .no_pack
 
-	ld hl, wPokegearFlags
-	bit POKEGEAR_OBTAINED_F, [hl]
+	ld hl, wTohogearFlags
+	bit TOHOGEAR_OBTAINED_F, [hl]
 	jr z, .no_pokegear
-	ld a, STARTMENUITEM_POKEGEAR
+	ld a, STARTMENUITEM_TOHOGEAR
 	call .AppendMenuList
 .no_pokegear
 
@@ -349,9 +349,9 @@ StartMenu_Tohodex:
 	xor a
 	ret
 
-StartMenu_Pokegear:
+StartMenu_Tohogear:
 	call FadeToMenu
-	farcall InitPokegearPalettes
+	farcall InitTohogearPalettes
 	farcall PokeGear
 	ld a, [wDefaultSpawnpoint]
 	and a

@@ -1014,7 +1014,7 @@ wPCItemsEnd::
 
 wApricorns:: ds NUM_APRICORNS
 
-wPokegearFlags::
+wTohogearFlags::
 ; bit 0: map
 ; bit 1: radio
 ; bit 2: phone
@@ -1259,7 +1259,7 @@ wBlueCardBalance:: db
 
 wBugContestOfficerPrize:: db
 
-wInPokegear:: db
+wInTohogear:: db
 wWalkingOnBridge:: db
 
 wDailyRematchFlags:: ds 4

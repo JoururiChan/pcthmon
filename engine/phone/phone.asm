@@ -229,7 +229,7 @@ SpecialCallWhereverYouAre:
 	scf
 	ret
 
-MakePhoneCallFromPokegear:
+MakePhoneCallFromTohogear:
 	; Don't do the call if you're in a link communication
 	ld a, [wLinkMode]
 	and a

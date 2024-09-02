@@ -93,7 +93,7 @@ DEF NUM_EGG_GROUPS EQU const_value - 1
 ; body data struct members (see data/pokemon/body_data.asm)
 rsreset
 DEF BODY_HEIGHT rb
-DEF BODY_WEIGHT rw
+DEF BODY_COST rw
 DEF BODY_COLOR  rb
 DEF BODY_SHAPE EQU BODY_COLOR
 DEF BODY_DATA_SIZE EQU _RS

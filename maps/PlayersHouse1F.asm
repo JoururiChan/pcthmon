@@ -68,13 +68,13 @@ MomEventScript:
 	promptbutton
 	getstring GearName, $1
 	callstd receiveitem
-	setflag ENGINE_POKEGEAR
+	setflag ENGINE_TOHOGEAR
 	setflag ENGINE_PHONE_CARD
 	addcellnum PHONE_MOM
 	setscene $1
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
-	writetext MomPokegearText
+	writetext MomTohogearText
 	promptbutton
 	special Special_SetDayOfWeek
 .InitialSetDSTFlag:
@@ -200,7 +200,7 @@ else
 	done
 endc
 
-MomPokegearText:
+MomTohogearText:
 	text "#mon Gear, or"
 	line "just #gear."
 

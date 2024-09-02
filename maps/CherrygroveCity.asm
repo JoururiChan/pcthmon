@@ -72,7 +72,7 @@ CherrygroveCityGuideGent:
 	setflag ENGINE_MAP_CARD
 	writetext GotMapCardText
 	promptbutton
-	writetext GuideGentPokegearText
+	writetext GuideGentTohogearText
 	waitbutton
 	closetext
 	stopfollow
@@ -358,7 +358,7 @@ GotMapCardText:
 	line "now has a Map!"
 	done
 
-GuideGentPokegearText:
+GuideGentTohogearText:
 	text "#gear becomes"
 	line "more useful as you"
 	cont "add Cards."

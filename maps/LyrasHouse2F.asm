@@ -53,7 +53,7 @@ LyrasHouseLyraText:
 	para "Hmm… My #mon"
 	line "may be putting"
 
-	para "on some weight"
+	para "on some cost"
 	line "lately…"
 	done
 

@@ -171,7 +171,7 @@ RadioTower1FRadioCardWomanScript:
 	promptbutton
 	getstring .RadioCardText, $1
 	callstd receiveitem
-	writetext RadioTower1FPokegearIsARadioText
+	writetext RadioTower1FTohogearIsARadioText
 	promptbutton
 	setflag ENGINE_RADIO_CARD
 	writetext RadioTower1FRadioCardWomanTuneInText
@@ -432,7 +432,7 @@ RadioTower1FRadioCardWomanYouWinText:
 	line "a Radio Card!"
 	done
 
-RadioTower1FPokegearIsARadioText:
+RadioTower1FTohogearIsARadioText:
 	text "<PLAYER>'s #gear"
 	line "can now double as"
 	cont "a radio!"

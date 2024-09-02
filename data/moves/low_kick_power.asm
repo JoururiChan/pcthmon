@@ -1,5 +1,5 @@
-LowKickPowerByWeight:
-	;    BP, weight
+LowKickPowerByCost:
+	;    BP, cost
 	dbw 120, 2000
 	dbw 100, 1000
 	dbw  80, 50

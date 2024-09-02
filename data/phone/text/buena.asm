@@ -484,7 +484,7 @@ BuenaPhoneFavoriteSlotMachineAnswerText:
 	para "Catch you later!"
 	done
 
-BuenaPhonePokegearAnswerText:
+BuenaPhoneTohogearAnswerText:
 	text "Hey, <PLAYER>. You"
 	line "use your #gear"
 

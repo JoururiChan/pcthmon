@@ -2136,7 +2136,7 @@ HeracrossTohodexEntry::
 	next "easily throw arou-"
 	page "nd an object that"
 	next "is 100 times its"
-	next "own weight.@"
+	next "own cost.@"
 
 SECTION "SneaselTohodexEntry", ROMX
 SneaselTohodexEntry::

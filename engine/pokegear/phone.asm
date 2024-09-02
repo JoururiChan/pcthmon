@@ -1,21 +1,21 @@
-PokegearPhone_Init:
+TohogearPhone_Init:
 	ld hl, wJumptableIndex
 	inc [hl]
 	xor a
-	ld [wPokegearPhoneScrollPosition], a
-	ld [wPokegearPhoneCursorPosition], a
-	ld [wPokegearPhoneSelectedPerson], a
+	ld [wTohogearPhoneScrollPosition], a
+	ld [wTohogearPhoneCursorPosition], a
+	ld [wTohogearPhoneSelectedPerson], a
 
-	ld a, CGB_POKEGEAR_PALS
+	ld a, CGB_TOHOGEAR_PALS
 	call GetCGBLayout
 	call SetPalettes
 
-	call InitPokegearTilemap
-	call ExitPokegearRadio_HandleMusic
-	ld hl, PokegearText_WhomToCall
+	call InitTohogearTilemap
+	call ExitTohogearRadio_HandleMusic
+	ld hl, TohogearText_WhomToCall
 	jmp PrintText
 
-PokegearPhone_Joypad:
+TohogearPhone_Joypad:
 	ld hl, hJoyPressed
 	ld a, [hl]
 	and B_BUTTON
@@ -30,26 +30,26 @@ PokegearPhone_Joypad:
 	ld a, [hl]
 	and D_RIGHT
 	jr nz, .right
-	jmp PokegearPhone_GetDPad
+	jmp TohogearPhone_GetDPad
 
 .left
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_MAP_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_MAP_CARD_F, a
 	jr z, .no_map
-	lb bc, POKEGEARCARD_MAP, POKEGEARSTATE_MAPCHECKREGION
+	lb bc, TOHOGEARCARD_MAP, TOHOGEARSTATE_MAPCHECKREGION
 	jr .switch_page
 
 .no_map
-	lb bc, POKEGEARCARD_CLOCK, POKEGEARSTATE_CLOCKINIT
+	lb bc, TOHOGEARCARD_CLOCK, TOHOGEARSTATE_CLOCKINIT
 	jr .switch_page
 
 .right
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_RADIO_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_RADIO_CARD_F, a
 	ret z
-	lb bc, POKEGEARCARD_RADIO, POKEGEARSTATE_RADIOINIT
+	lb bc, TOHOGEARCARD_RADIO, TOHOGEARSTATE_RADIOINIT
 .switch_page
-	jmp Pokegear_SwitchPage
+	jmp Tohogear_SwitchPage
 
 .b
 	ld hl, wJumptableIndex
@@ -57,28 +57,28 @@ PokegearPhone_Joypad:
 	ret
 
 .a
-	call PokegearPhone_GetCellNumber
+	call TohogearPhone_GetCellNumber
 	ld a, c
 	and a
 	ret z
-	ld [wPokegearPhoneSelectedPerson], a
+	ld [wTohogearPhoneSelectedPerson], a
 	hlcoord 1, 4
-	ld a, [wPokegearPhoneCursorPosition]
+	ld a, [wTohogearPhoneCursorPosition]
 	ld bc, 20 * 2
 	rst AddNTimes
 	ld [hl], "▷"
-	call PokegearPhoneContactSubmenu
+	call TohogearPhoneContactSubmenu
 	jr c, .quit_submenu
 	ld hl, wJumptableIndex
 	inc [hl]
 	ret
 
 .quit_submenu
-	ld a, POKEGEARSTATE_PHONEJOYPAD
+	ld a, TOHOGEARSTATE_PHONEJOYPAD
 	ld [wJumptableIndex], a
 	ret
 
-PokegearPhone_MakePhoneCall:
+TohogearPhone_MakePhoneCall:
 	call GetMapPhoneService
 	and a
 	jr nz, .no_service
@@ -96,16 +96,16 @@ PokegearPhone_MakePhoneCall:
 	ld hl, .dotdotdot
 	call PrintText
 	call WaitSFX
-	ld a, [wPokegearPhoneSelectedPerson]
+	ld a, [wTohogearPhoneSelectedPerson]
 	ld b, a
-	call MakePhoneCallFromPokegear
+	call MakePhoneCallFromTohogear
 	ld c, 10
 	call DelayFrames
 	ld hl, wOptions1
 	set NO_TEXT_SCROLL, [hl]
 	ld a, $1
 	ldh [hInMenu], a
-	call PokegearPhone_UpdateCursor
+	call TohogearPhone_UpdateCursor
 	ld hl, wJumptableIndex
 	inc [hl]
 	ret
@@ -114,9 +114,9 @@ PokegearPhone_MakePhoneCall:
 	call Phone_NoSignal
 	ld hl, .OutOfServiceArea
 	call PrintText
-	ld a, POKEGEARSTATE_PHONEJOYPAD
+	ld a, TOHOGEARSTATE_PHONEJOYPAD
 	ld [wJumptableIndex], a
-	ld hl, PokegearText_WhomToCall
+	ld hl, TohogearText_WhomToCall
 	jmp PrintText
 
 .dotdotdot
@@ -129,17 +129,17 @@ PokegearPhone_MakePhoneCall:
 	text_far _GearOutOfServiceText
 	text_end
 
-PokegearPhone_FinishPhoneCall:
+TohogearPhone_FinishPhoneCall:
 	ldh a, [hJoyPressed]
 	and A_BUTTON | B_BUTTON
 	ret z
 	call HangUp
-	ld a, POKEGEARSTATE_PHONEJOYPAD
+	ld a, TOHOGEARSTATE_PHONEJOYPAD
 	ld [wJumptableIndex], a
-	ld hl, PokegearText_WhomToCall
+	ld hl, TohogearText_WhomToCall
 	jmp PrintText
 
-PokegearPhone_GetDPad:
+TohogearPhone_GetDPad:
 	ld hl, hJoyLast
 	ld a, [hl]
 	and D_UP
@@ -150,7 +150,7 @@ PokegearPhone_GetDPad:
 	ret
 
 .up
-	ld hl, wPokegearPhoneCursorPosition
+	ld hl, wTohogearPhoneCursorPosition
 	ld a, [hl]
 	and a
 	jr z, .scroll_page_up
@@ -158,7 +158,7 @@ PokegearPhone_GetDPad:
 	jr .done_joypad_same_page
 
 .scroll_page_up
-	ld hl, wPokegearPhoneScrollPosition
+	ld hl, wTohogearPhoneScrollPosition
 	ld a, [hl]
 	and a
 	ret z
@@ -166,7 +166,7 @@ PokegearPhone_GetDPad:
 	jr .done_joypad_update_page
 
 .down
-	ld hl, wPokegearPhoneCursorPosition
+	ld hl, wTohogearPhoneCursorPosition
 	ld a, [hl]
 	cp $3
 	jr nc, .scroll_page_down
@@ -174,7 +174,7 @@ PokegearPhone_GetDPad:
 	jr .done_joypad_same_page
 
 .scroll_page_down
-	ld hl, wPokegearPhoneScrollPosition
+	ld hl, wTohogearPhoneScrollPosition
 	ld a, [wNumSetBits]
 	sub 4
 	ret c
@@ -186,16 +186,16 @@ PokegearPhone_GetDPad:
 .done_joypad_same_page
 	xor a
 	ldh [hBGMapMode], a
-	call PokegearPhone_UpdateCursor
+	call TohogearPhone_UpdateCursor
 	jmp ApplyTilemapInVBlank
 
 .done_joypad_update_page
 	xor a
 	ldh [hBGMapMode], a
-	call PokegearPhone_UpdateDisplayList
+	call TohogearPhone_UpdateDisplayList
 	jmp ApplyTilemapInVBlank
 
-PokegearPhone_UpdateDisplayList:
+TohogearPhone_UpdateDisplayList:
 	hlcoord 1, 3
 	ld b, 9
 	ld a, " "
@@ -209,16 +209,16 @@ PokegearPhone_UpdateDisplayList:
 	inc hl
 	dec b
 	jr nz, .row
-	ld a, [wPokegearPhoneScrollPosition]
+	ld a, [wTohogearPhoneScrollPosition]
 	ld e, a
 	xor a
-	ld [wPokegearPhoneLoadNameBuffer], a
+	ld [wTohogearPhoneLoadNameBuffer], a
 .loop
 	push de
-	call PokegearPhone_GetCellNumberFromE
+	call TohogearPhone_GetCellNumberFromE
 	ld d, c
 	hlcoord 2, 4
-	ld a, [wPokegearPhoneLoadNameBuffer]
+	ld a, [wTohogearPhoneLoadNameBuffer]
 	ld bc, 2 * SCREEN_WIDTH
 	rst AddNTimes
 	ld b, d
@@ -227,13 +227,13 @@ PokegearPhone_UpdateDisplayList:
 	call GetCallerClassAndName
 	pop de
 	inc e
-	ld hl, wPokegearPhoneLoadNameBuffer
+	ld hl, wTohogearPhoneLoadNameBuffer
 	inc [hl]
 	ld a, [hl]
 	cp 4 ; 4 entries fit on the screen
 	jr c, .loop
 	; fallthrough
-PokegearPhone_UpdateCursor:
+TohogearPhone_UpdateCursor:
 	ld a, " "
 	hlcoord 1, 4
 	ld [hl], a
@@ -244,42 +244,42 @@ PokegearPhone_UpdateCursor:
 	hlcoord 1, 10
 	ld [hl], a
 	hlcoord 1, 4
-	ld a, [wPokegearPhoneCursorPosition]
+	ld a, [wTohogearPhoneCursorPosition]
 	ld bc, 2 * SCREEN_WIDTH
 	rst AddNTimes
 	ld [hl], "▶"
 	ret
 
-PokegearPhone_DeletePhoneNumber:
-	call PokegearPhone_GetCellNumber
+TohogearPhone_DeletePhoneNumber:
+	call TohogearPhone_GetCellNumber
 	call DelCellNum
 ; Check if scroll position should be decremented as a result
 	ld hl, wNumSetBits
 	dec [hl]
-	ld a, [wPokegearPhoneScrollPosition]
+	ld a, [wTohogearPhoneScrollPosition]
 	and a
 	ret z
 	add 3 ; assume cursor position is at the bottom for this calculation
 	cp [hl]
 	ret c
 	sub 4
-	ld [wPokegearPhoneScrollPosition], a
+	ld [wTohogearPhoneScrollPosition], a
 	ret
 
-PokegearPhone_GetCellNumber:
+TohogearPhone_GetCellNumber:
 ; Returns nth contact from wPhoneList in c, c=0 for invalid contact
-; Input: wPokegearPhoneCursorPosition + wPokegearPhoneCursorPosition
-	ld a, [wPokegearPhoneScrollPosition]
+; Input: wTohogearPhoneCursorPosition + wTohogearPhoneCursorPosition
+	ld a, [wTohogearPhoneScrollPosition]
 	ld e, a
-	ld a, [wPokegearPhoneCursorPosition]
+	ld a, [wTohogearPhoneCursorPosition]
 	add e
 	ld e, a
 	;fallthrough
-PokegearPhone_GetCellNumberFromE:
+TohogearPhone_GetCellNumberFromE:
 ; Returns e-th contact from wPhoneList in c, c=0 for invalid contact
 ; Input: e
 	inc e
-	call PokegearPhone_CountSetBits
+	call TohogearPhone_CountSetBits
 	cp e ; result is returned in a
 	ld c, 0
 	ret c
@@ -291,14 +291,14 @@ PokegearPhone_GetCellNumberFromE:
 	jr nz, .loop
 	ret
 
-PokegearPhone_CountSetBits:
+TohogearPhone_CountSetBits:
 ; Returns result in wNumSetBits
 	ld hl, wPhoneList
 	ld b, wPhoneListEnd - wPhoneList
 	jmp CountSetBits
 
-PokegearPhoneContactSubmenu:
-	call PokegearPhone_GetCellNumber
+TohogearPhoneContactSubmenu:
+	call TohogearPhone_GetCellNumber
 	call CheckCanDeletePhoneNumber
 	ld a, c
 	and a
@@ -337,7 +337,7 @@ PokegearPhoneContactSubmenu:
 	rst PlaceString
 	pop de
 	xor a
-	ld [wPokegearPhoneSubmenuCursor], a
+	ld [wTohogearPhoneSubmenuCursor], a
 	call .UpdateCursor
 	call ApplyTilemapInVBlank
 .loop
@@ -358,7 +358,7 @@ PokegearPhoneContactSubmenu:
 	jr .loop
 
 .d_up
-	ld hl, wPokegearPhoneSubmenuCursor
+	ld hl, wTohogearPhoneSubmenuCursor
 	ld a, [hl]
 	and a
 	jr z, .loop
@@ -369,44 +369,44 @@ PokegearPhoneContactSubmenu:
 .d_down
 	ld hl, 2
 	add hl, de
-	ld a, [wPokegearPhoneSubmenuCursor]
+	ld a, [wTohogearPhoneSubmenuCursor]
 	inc a
 	cp [hl]
 	jr nc, .loop
-	ld [wPokegearPhoneSubmenuCursor], a
+	ld [wTohogearPhoneSubmenuCursor], a
 	call .UpdateCursor
 	jr .loop
 
 .a_b
 	xor a
 	ldh [hBGMapMode], a
-	call PokegearPhone_UpdateDisplayList
+	call TohogearPhone_UpdateDisplayList
 	ld a, $1
 	ldh [hBGMapMode], a
 	pop hl
 	ldh a, [hJoyPressed]
 	and B_BUTTON
 	jr nz, .Cancel
-	ld a, [wPokegearPhoneSubmenuCursor]
+	ld a, [wTohogearPhoneSubmenuCursor]
 	jmp JumpTable
 
 .Cancel:
-	ld hl, PokegearText_WhomToCall
+	ld hl, TohogearText_WhomToCall
 	call PrintText
 	scf
 	ret
 
 .Delete:
-	ld hl, PokegearText_DeleteStoredNumber
+	ld hl, TohogearText_DeleteStoredNumber
 	call MenuTextbox
 	call YesNoBox
 	call ExitMenu
 	jr c, .CancelDelete
-	call PokegearPhone_DeletePhoneNumber
+	call TohogearPhone_DeletePhoneNumber
 	xor a
 	ldh [hBGMapMode], a
-	call PokegearPhone_UpdateDisplayList
-	ld hl, PokegearText_WhomToCall
+	call TohogearPhone_UpdateDisplayList
+	ld hl, TohogearText_WhomToCall
 	call PrintText
 	call ApplyTilemapInVBlank
 .CancelDelete:
@@ -436,7 +436,7 @@ PokegearPhoneContactSubmenu:
 	dec c
 	jr nz, .clear_column
 	pop hl
-	ld a, [wPokegearPhoneSubmenuCursor]
+	ld a, [wTohogearPhoneSubmenuCursor]
 	ld bc, SCREEN_WIDTH  * 2
 	rst AddNTimes
 	ld [hl], "▶"

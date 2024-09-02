@@ -1228,12 +1228,12 @@ endr
 	pop hl
 	inc hl
 
-	; Weight
+	; Cost
 	ld a, BANK(PokemonBodyData)
 	call GetFarWord
 	ld a, [wOptions2]
 	bit POKEDEX_UNITS, a
-	jr nz, .metric_weight
+	jr nz, .metric_cost
 
 	; Approximate as follows: lbs = ((kg * 43 * 35 * 192) + (kg * 4)) >> 17.
 	push hl
@@ -1277,16 +1277,16 @@ endr
 	hlcoord 12, 9
 	ln bc, 0, 2, 4, 5
 	call PrintNumFromReg
-	jr .weight_done
+	jr .cost_done
 
-.metric_weight
+.metric_cost
 	ld d, h
 	ld e, l
 	hlcoord 12, 9
 	ln bc, 0, 2, 4, 5
 	call PrintNumFromReg
 
-.weight_done
+.cost_done
 	pop bc
 
 	; Category
@@ -3421,7 +3421,7 @@ endc
 
 	call Tohodex_GetCursorSpecies
 	call GetSpeciesAndFormIndex
-	ld hl, PokemonBodyData + 3 ; skip height and weight
+	ld hl, PokemonBodyData + 3 ; skip height and cost
 rept 4
 	add hl, bc
 endr

@@ -1,30 +1,30 @@
 ; Tohogear cards
 	const_def
-	const POKEGEARCARD_CLOCK ; 0
-	const POKEGEARCARD_MAP   ; 1
-	const POKEGEARCARD_PHONE ; 2
-	const POKEGEARCARD_RADIO ; 3
-DEF NUM_POKEGEAR_CARDS EQU const_value
+	const TOHOGEARCARD_CLOCK ; 0
+	const TOHOGEARCARD_MAP   ; 1
+	const TOHOGEARCARD_PHONE ; 2
+	const TOHOGEARCARD_RADIO ; 3
+DEF NUM_TOHOGEAR_CARDS EQU const_value
 
 DEF PHONE_DISPLAY_HEIGHT EQU 4
 
-; PokegearJumptable.Jumptable indexes
+; TohogearJumptable.Jumptable indexes
 	const_def
-	const POKEGEARSTATE_CLOCKINIT       ; 0
-	const POKEGEARSTATE_CLOCKJOYPAD     ; 1
-	const POKEGEARSTATE_MAPCHECKREGION  ; 2
-	const POKEGEARSTATE_JOHTOMAPINIT    ; 3
-	const POKEGEARSTATE_JOHTOMAPJOYPAD  ; 4
-	const POKEGEARSTATE_KANTOMAPINIT    ; 5
-	const POKEGEARSTATE_KANTOMAPJOYPAD  ; 6
-	const POKEGEARSTATE_ORANGEMAPINIT   ; 7
-	const POKEGEARSTATE_ORANGEMAPJOYPAD ; 8
-	const POKEGEARSTATE_PHONEINIT       ; 9
-	const POKEGEARSTATE_PHONEJOYPAD     ; a
-	const POKEGEARSTATE_MAKEPHONECALL   ; b
-	const POKEGEARSTATE_FINISHPHONECALL ; c
-	const POKEGEARSTATE_RADIOINIT       ; d
-	const POKEGEARSTATE_RADIOJOYPAD     ; e
+	const TOHOGEARSTATE_CLOCKINIT       ; 0
+	const TOHOGEARSTATE_CLOCKJOYPAD     ; 1
+	const TOHOGEARSTATE_MAPCHECKREGION  ; 2
+	const TOHOGEARSTATE_JOHTOMAPINIT    ; 3
+	const TOHOGEARSTATE_JOHTOMAPJOYPAD  ; 4
+	const TOHOGEARSTATE_KANTOMAPINIT    ; 5
+	const TOHOGEARSTATE_KANTOMAPJOYPAD  ; 6
+	const TOHOGEARSTATE_ORANGEMAPINIT   ; 7
+	const TOHOGEARSTATE_ORANGEMAPJOYPAD ; 8
+	const TOHOGEARSTATE_PHONEINIT       ; 9
+	const TOHOGEARSTATE_PHONEJOYPAD     ; a
+	const TOHOGEARSTATE_MAKEPHONECALL   ; b
+	const TOHOGEARSTATE_FINISHPHONECALL ; c
+	const TOHOGEARSTATE_RADIOINIT       ; d
+	const TOHOGEARSTATE_RADIOJOYPAD     ; e
 
 PokeGear:
 	ld hl, wOptions1
@@ -35,7 +35,7 @@ PokeGear:
 	push af
 	ld a, $1
 	ldh [hInMenu], a
-	ld [wInPokegear], a
+	ld [wInTohogear], a
 	ld a, [wVramState]
 	push af
 	xor a
@@ -48,7 +48,7 @@ PokeGear:
 	ld a, [wJumptableIndex]
 	bit 7, a
 	jr nz, .done
-	call PokegearJumptable
+	call TohogearJumptable
 	farcall PlaySpriteAnimations
 	call DelayFrame
 	jr .loop
@@ -66,12 +66,12 @@ PokeGear:
 	call ClearBGPalettes
 	xor a ; LOW(vBGMap0)
 	ldh [hBGMapAddress], a
-	ld [wInPokegear], a
+	ld [wInTohogear], a
 	ld a, HIGH(vBGMap0)
 	ldh [hBGMapAddress + 1], a
 	ld a, $90
 	ldh [hWY], a
-	jmp ExitPokegearRadio_HandleMusic
+	jmp ExitTohogearRadio_HandleMusic
 
 .InitTilemap:
 	call ClearBGPalettes
@@ -83,45 +83,45 @@ PokeGear:
 	ldh [hSCX], a
 	ld a, $7
 	ldh [hWX], a
-	call Pokegear_LoadGFX
+	call Tohogear_LoadGFX
 	call ClearSpriteAnims
-	call InitPokegearModeIndicatorArrow
+	call InitTohogearModeIndicatorArrow
 	ld a, 8
 	call SkipMusic
 	ld a, LCDC_DEFAULT
 	ldh [rLCDC], a
 	call TownMap_InitCursorAndPlayerIconPositions
 	xor a
-	ld [wJumptableIndex], a ; POKEGEARSTATE_CLOCKINIT
-	ld [wPokegearCard], a ; POKEGEARCARD_CLOCK
-	ld [wPokegearMapRegion], a ; JOHTO_REGION
-	ld [wPokegearPhoneScrollPosition], a
-	ld [wPokegearPhoneCursorPosition], a
-	ld [wPokegearPhoneSelectedPerson], a
-	ld [wPokegearRadioChannelBank], a
-	ld [wPokegearRadioChannelAddr], a
-	ld [wPokegearRadioChannelAddr + 1], a
+	ld [wJumptableIndex], a ; TOHOGEARSTATE_CLOCKINIT
+	ld [wTohogearCard], a ; TOHOGEARCARD_CLOCK
+	ld [wTohogearMapRegion], a ; JOHTO_REGION
+	ld [wTohogearPhoneScrollPosition], a
+	ld [wTohogearPhoneCursorPosition], a
+	ld [wTohogearPhoneSelectedPerson], a
+	ld [wTohogearRadioChannelBank], a
+	ld [wTohogearRadioChannelAddr], a
+	ld [wTohogearRadioChannelAddr + 1], a
 	ld [wDefaultSpawnpoint], a
-	call InitPokegearTilemap
-	ld a, CGB_POKEGEAR_PALS
+	call InitTohogearTilemap
+	ld a, CGB_TOHOGEAR_PALS
 	call GetCGBLayout
 	call SetPalettes
 	ld a, %11100100
 	jmp DmgToCgbObjPal0
 
-Pokegear_LoadGFX:
+Tohogear_LoadGFX:
 	call ClearVBank1
 	ld hl, TownMapGFX
 	ld de, vTiles2
 	ld a, BANK(TownMapGFX)
 	call FarDecompressToDE
-	ld hl, PokegearGFX
+	ld hl, TohogearGFX
 	ld de, vTiles2 tile $50
-	ld a, BANK(PokegearGFX)
+	ld a, BANK(TohogearGFX)
 	call Decompress
-	ld hl, PokegearSpritesGFX
+	ld hl, TohogearSpritesGFX
 	ld de, vTiles0
-	ld a, BANK(PokegearSpritesGFX)
+	ld a, BANK(TohogearSpritesGFX)
 	call Decompress
 	ld a, [wMapGroup]
 	ld b, a
@@ -173,17 +173,17 @@ INCBIN "gfx/town_map/fast_ship.2bpp.lz"
 SinjohRuinsArrowGFX:
 INCBIN "gfx/town_map/arrow.2bpp.lz"
 
-InitPokegearModeIndicatorArrow:
+InitTohogearModeIndicatorArrow:
 	depixel 4, 2, 4, 0
-	ld a, SPRITE_ANIM_INDEX_POKEGEAR_MODE_ARROW
+	ld a, SPRITE_ANIM_INDEX_TOHOGEAR_MODE_ARROW
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_TILE_ID
 	add hl, bc
 	ld [hl], $0
 	ret
 
-AnimatePokegearModeIndicatorArrow:
-	ld a, [wPokegearCard]
+AnimateTohogearModeIndicatorArrow:
+	ld a, [wTohogearCard]
 	swap a ; x coord = card id * $10
 	ld hl, SPRITEANIMSTRUCT_XOFFSET
 	add hl, bc
@@ -192,18 +192,18 @@ AnimatePokegearModeIndicatorArrow:
 
 TownMap_InitCursorAndPlayerIconPositions:
 	call GetCurrentLandmark
-	ld [wPokegearMapPlayerIconLandmark], a
-	ld [wPokegearMapCursorLandmark], a
+	ld [wTohogearMapPlayerIconLandmark], a
+	ld [wTohogearMapCursorLandmark], a
 	ret
 
-InitPokegearTilemap:
+InitTohogearTilemap:
 	xor a
 	ldh [hBGMapMode], a
 	hlcoord 0, 0
 	ld bc, wTilemapEnd - wTilemap
 	ld a, "<BLACK>"
 	rst ByteFill
-	ld a, [wPokegearCard]
+	ld a, [wTohogearCard]
 	and $3
 	add a
 	ld e, a
@@ -214,10 +214,10 @@ InitPokegearTilemap:
 	ld h, [hl]
 	ld l, a
 	call _hl_
-	call Pokegear_FinishTilemap
+	call Tohogear_FinishTilemap
 	call TownMapPals
-	ld a, [wPokegearCard]
-	cp POKEGEARCARD_MAP
+	ld a, [wTohogearCard]
+	cp TOHOGEARCARD_MAP
 	jr nz, .not_town_map
 	ld a, [wJumptableIndex]
 	cp 3 ; Johto
@@ -229,7 +229,7 @@ InitPokegearTilemap:
 	cp 7 ; Orange
 	call z, TownMapOrangeFlips
 .not_town_map
-	ld a, [wPokegearMapRegion]
+	ld a, [wTohogearMapRegion]
 	and a
 	jr nz, .transition
 	xor a ; LOW(vBGMap0)
@@ -249,10 +249,10 @@ InitPokegearTilemap:
 	xor a
 .finish
 	ldh [hWY], a
-	ld a, [wPokegearMapRegion]
+	ld a, [wTohogearMapRegion]
 	and 1
 	xor 1
-	ld [wPokegearMapRegion], a
+	ld [wTohogearMapRegion], a
 	ret
 
 .UpdateBGMap:
@@ -270,20 +270,20 @@ InitPokegearTilemap:
 
 .Clock:
 	ld hl, ClockTilemapRLE
-	call Pokegear_LoadTilemapRLE
+	call Tohogear_LoadTilemapRLE
 	hlcoord 12, 1
 	ld de, .switch
 	rst PlaceString
 	hlcoord 0, 12
 	lb bc, 4, 18
 	call Textbox
-	jmp Pokegear_UpdateClock
+	jmp Tohogear_UpdateClock
 
 .switch
 	db " Switch▶@"
 
 .Map:
-	call PokegearMap
+	call TohogearMap
 	ld a, $07
 	ld bc, 18
 	hlcoord 1, 2
@@ -292,24 +292,24 @@ InitPokegearTilemap:
 	ld [hl], $06
 	hlcoord 19, 2
 	ld [hl], $17
-	ld a, [wPokegearMapCursorLandmark]
-	jmp PokegearMap_UpdateLandmarkName
+	ld a, [wTohogearMapCursorLandmark]
+	jmp TohogearMap_UpdateLandmarkName
 
 .Radio:
 	ld hl, RadioTilemapRLE
-	call Pokegear_LoadTilemapRLE
+	call Tohogear_LoadTilemapRLE
 	hlcoord 0, 12
 	lb bc, 4, 18
 	jmp Textbox
 
 .Phone:
 	ld hl, PhoneTilemapRLE
-	call Pokegear_LoadTilemapRLE
+	call Tohogear_LoadTilemapRLE
 	hlcoord 0, 12
 	lb bc, 4, 18
 	call Textbox
 	call .PlacePhoneBars
-	jmp PokegearPhone_UpdateDisplayList
+	jmp TohogearPhone_UpdateDisplayList
 
 .PlacePhoneBars:
 	hlcoord 17, 1
@@ -327,7 +327,7 @@ InitPokegearTilemap:
 	ld [hl], $6b
 	ret
 
-Pokegear_FinishTilemap:
+Tohogear_FinishTilemap:
 	hlcoord 0, 0
 	ld bc, $8
 	ld a, "<BLACK>"
@@ -336,34 +336,34 @@ Pokegear_FinishTilemap:
 	ld bc, $8
 	ld a, "<BLACK>"
 	rst ByteFill
-	ld de, wPokegearFlags
+	ld de, wTohogearFlags
 	ld a, [de]
-	bit POKEGEAR_MAP_CARD_F, a
+	bit TOHOGEAR_MAP_CARD_F, a
 	call nz, .PlaceMapIcon
 	ld a, [de]
-	bit POKEGEAR_PHONE_CARD_F, a
+	bit TOHOGEAR_PHONE_CARD_F, a
 	call nz, .PlacePhoneIcon
 	ld a, [de]
-	bit POKEGEAR_RADIO_CARD_F, a
+	bit TOHOGEAR_RADIO_CARD_F, a
 	call nz, .PlaceRadioIcon
 	hlcoord 0, 0
 	ld a, $56
-	jr .PlacePokegearCardIcon
+	jr .PlaceTohogearCardIcon
 
 .PlaceMapIcon:
 	hlcoord 2, 0
 	ld a, $50
-	jr .PlacePokegearCardIcon
+	jr .PlaceTohogearCardIcon
 
 .PlacePhoneIcon:
 	hlcoord 4, 0
 	ld a, $54
-	jr .PlacePokegearCardIcon
+	jr .PlaceTohogearCardIcon
 
 .PlaceRadioIcon:
 	hlcoord 6, 0
 	ld a, $52
-.PlacePokegearCardIcon:
+.PlaceTohogearCardIcon:
 	ld [hli], a
 	inc a
 	ld [hld], a
@@ -375,35 +375,35 @@ Pokegear_FinishTilemap:
 	ld [hld], a
 	ret
 
-PokegearJumptable:
+TohogearJumptable:
 	call StandardStackJumpTable
 
 .Jumptable:
-	dw PokegearClock_Init
-	dw PokegearClock_Joypad
-	dw PokegearMap_CheckRegion
-	dw PokegearMap_Init
-	dw PokegearMap_JohtoMap
-	dw PokegearMap_Init
-	dw PokegearMap_KantoMap
-	dw PokegearMap_Init
-	dw PokegearMap_OrangeMap
-	dw PokegearPhone_Init
-	dw PokegearPhone_Joypad
-	dw PokegearPhone_MakePhoneCall
-	dw PokegearPhone_FinishPhoneCall
-	dw PokegearRadio_Init
-	dw PokegearRadio_Joypad
+	dw TohogearClock_Init
+	dw TohogearClock_Joypad
+	dw TohogearMap_CheckRegion
+	dw TohogearMap_Init
+	dw TohogearMap_JohtoMap
+	dw TohogearMap_Init
+	dw TohogearMap_KantoMap
+	dw TohogearMap_Init
+	dw TohogearMap_OrangeMap
+	dw TohogearPhone_Init
+	dw TohogearPhone_Joypad
+	dw TohogearPhone_MakePhoneCall
+	dw TohogearPhone_FinishPhoneCall
+	dw TohogearRadio_Init
+	dw TohogearRadio_Joypad
 
-PokegearClock_Init:
-	call InitPokegearTilemap
-	ld hl, PokegearText_PressAnyButtonToExit
+TohogearClock_Init:
+	call InitTohogearTilemap
+	ld hl, TohogearText_PressAnyButtonToExit
 	call PrintText
 	ld hl, wJumptableIndex
 	inc [hl]
-	jmp ExitPokegearRadio_HandleMusic
+	jmp ExitTohogearRadio_HandleMusic
 
-PokegearClock_Joypad:
+TohogearClock_Joypad:
 	call .UpdateClock
 	ld hl, hJoyLast
 	ld a, [hl]
@@ -415,26 +415,26 @@ PokegearClock_Joypad:
 	ld a, [hl]
 	and D_RIGHT
 	ret z
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_MAP_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_MAP_CARD_F, a
 	jr z, .no_map_card
-	lb bc, POKEGEARCARD_MAP, POKEGEARSTATE_MAPCHECKREGION
+	lb bc, TOHOGEARCARD_MAP, TOHOGEARSTATE_MAPCHECKREGION
 	jr .done
 
 .no_map_card
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_PHONE_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_PHONE_CARD_F, a
 	jr z, .no_phone_card
-	lb bc, POKEGEARCARD_PHONE, POKEGEARSTATE_PHONEINIT
+	lb bc, TOHOGEARCARD_PHONE, TOHOGEARSTATE_PHONEINIT
 	jr .done
 
 .no_phone_card
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_RADIO_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_RADIO_CARD_F, a
 	ret z
-	lb bc, POKEGEARCARD_RADIO, POKEGEARSTATE_RADIOINIT
+	lb bc, TOHOGEARCARD_RADIO, TOHOGEARSTATE_RADIOINIT
 .done
-	jmp Pokegear_SwitchPage
+	jmp Tohogear_SwitchPage
 
 .quit
 	ld hl, wJumptableIndex
@@ -444,12 +444,12 @@ PokegearClock_Joypad:
 .UpdateClock:
 	xor a
 	ldh [hBGMapMode], a
-	call Pokegear_UpdateClock
+	call Tohogear_UpdateClock
 	ld a, $1
 	ldh [hBGMapMode], a
 	ret
 
-Pokegear_UpdateClock:
+Tohogear_UpdateClock:
 	hlcoord 3, 5
 	lb bc, 5, 14
 	call ClearBox
@@ -472,8 +472,8 @@ Pokegear_UpdateClock:
 	text_far _GearTodayText
 	text_end
 
-PokegearMap_CheckRegion:
-	ld a, [wPokegearMapPlayerIconLandmark]
+TohogearMap_CheckRegion:
+	ld a, [wTohogearMapPlayerIconLandmark]
 	cp SHAMOUTI_LANDMARK
 	jr nc, .orange
 	cp KANTO_LANDMARK
@@ -482,26 +482,26 @@ PokegearMap_CheckRegion:
 	sbc -5
 	jr .done
 .orange
-	ld a, POKEGEARSTATE_ORANGEMAPINIT
+	ld a, TOHOGEARSTATE_ORANGEMAPINIT
 .done
 	ld [wJumptableIndex], a
-	jmp ExitPokegearRadio_HandleMusic
+	jmp ExitTohogearRadio_HandleMusic
 
-PokegearMap_Init:
-	call InitPokegearTilemap
+TohogearMap_Init:
+	call InitTohogearTilemap
 	call TownMap_InitFlyPossible
-	ld a, [wPokegearMapPlayerIconLandmark]
-	call PokegearMap_InitPlayerIcon
-	ld a, [wPokegearMapCursorLandmark]
-	call PokegearMap_InitCursor
+	ld a, [wTohogearMapPlayerIconLandmark]
+	call TohogearMap_InitPlayerIcon
+	ld a, [wTohogearMapCursorLandmark]
+	call TohogearMap_InitCursor
 	ld a, c
-	ld [wPokegearMapCursorObjectPointer], a
+	ld [wTohogearMapCursorObjectPointer], a
 	ld a, b
-	ld [wPokegearMapCursorObjectPointer + 1], a
+	ld [wTohogearMapCursorObjectPointer + 1], a
 	ld a, [wTownMapCanShowFly]
 	and a
 	jr z, .no_fly
-	ld a, [wPokegearMapPlayerIconLandmark]
+	ld a, [wTohogearMapPlayerIconLandmark]
 	cp SHAMOUTI_LANDMARK
 	depixel 18, 12, 0, 0
 	jr nc, .got_coords
@@ -514,17 +514,17 @@ PokegearMap_Init:
 	inc [hl]
 	ret
 
-PokegearMap_JohtoMap:
+TohogearMap_JohtoMap:
 	call TownMap_GetJohtoLandmarkLimits
-	jr PokegearMap_ContinueMap
+	jr TohogearMap_ContinueMap
 
-PokegearMap_KantoMap:
+TohogearMap_KantoMap:
 	call TownMap_GetKantoLandmarkLimits
-	jr PokegearMap_ContinueMap
+	jr TohogearMap_ContinueMap
 
-PokegearMap_OrangeMap:
+TohogearMap_OrangeMap:
 	call TownMap_GetOrangeLandmarkLimits
-PokegearMap_ContinueMap:
+TohogearMap_ContinueMap:
 	ld hl, hJoyLast
 	ld a, [hl]
 	and A_BUTTON
@@ -541,29 +541,29 @@ PokegearMap_ContinueMap:
 	jr .DPad
 
 .right
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_PHONE_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_PHONE_CARD_F, a
 	jr z, .no_phone
-	lb bc, POKEGEARCARD_PHONE, POKEGEARSTATE_PHONEINIT
+	lb bc, TOHOGEARCARD_PHONE, TOHOGEARSTATE_PHONEINIT
 	jr .done
 
 .no_phone
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_RADIO_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_RADIO_CARD_F, a
 	ret z
-	lb bc, POKEGEARCARD_RADIO, POKEGEARSTATE_RADIOINIT
+	lb bc, TOHOGEARCARD_RADIO, TOHOGEARSTATE_RADIOINIT
 	jr .done
 
 .left
-	lb bc, POKEGEARCARD_CLOCK, POKEGEARSTATE_CLOCKINIT
+	lb bc, TOHOGEARCARD_CLOCK, TOHOGEARSTATE_CLOCKINIT
 .done
-	jmp Pokegear_SwitchPage
+	jmp Tohogear_SwitchPage
 
 .fly
 	ld a, [wTownMapCanFlyHere]
 	and a
 	ret z
-	ld a, [wPokegearMapCursorSpawnpoint]
+	ld a, [wTohogearMapCursorSpawnpoint]
 	ld [wDefaultSpawnpoint], a
 	ld a, BANK(FlyFunction.FlyScript)
 	ld hl, FlyFunction.FlyScript
@@ -585,7 +585,7 @@ PokegearMap_ContinueMap:
 	ret
 
 .up
-	ld hl, wPokegearMapCursorLandmark
+	ld hl, wTohogearMapCursorLandmark
 	ld a, [hl]
 	cp d
 	jr c, .wrap_around_up
@@ -598,7 +598,7 @@ PokegearMap_ContinueMap:
 	jr .done_dpad
 
 .down
-	ld hl, wPokegearMapCursorLandmark
+	ld hl, wTohogearMapCursorLandmark
 	ld a, [hl]
 	cp e
 	jr nz, .wrap_around_down
@@ -610,14 +610,14 @@ PokegearMap_ContinueMap:
 	call SkipHiddenOrangeIslandsDown
 
 .done_dpad
-	ld a, [wPokegearMapCursorLandmark]
-	call PokegearMap_UpdateLandmarkName
-	ld a, [wPokegearMapCursorObjectPointer]
+	ld a, [wTohogearMapCursorLandmark]
+	call TohogearMap_UpdateLandmarkName
+	ld a, [wTohogearMapCursorObjectPointer]
 	ld c, a
-	ld a, [wPokegearMapCursorObjectPointer + 1]
+	ld a, [wTohogearMapCursorObjectPointer + 1]
 	ld b, a
-	ld a, [wPokegearMapCursorLandmark]
-	jmp PokegearMap_UpdateCursorPosition
+	ld a, [wTohogearMapCursorLandmark]
+	jmp TohogearMap_UpdateCursorPosition
 
 SkipHiddenOrangeIslandsUp:
 	call CheckSkipNavelRock
@@ -662,9 +662,9 @@ CheckSkipFarawayIsland:
 	pop hl
 	ret
 
-PokegearMap_InitPlayerIcon:
+TohogearMap_InitPlayerIcon:
 	push af
-	call InitializePokegearPlayerIcon
+	call InitializeTohogearPlayerIcon
 	pop af
 	ld e, a
 	push bc
@@ -678,10 +678,10 @@ PokegearMap_InitPlayerIcon:
 	ld [hl], d
 	ret
 
-PokegearMap_InitCursor:
+TohogearMap_InitCursor:
 	push af
 	depixel 0, 0
-	ld a, SPRITE_ANIM_INDEX_POKEGEAR_MODE_ARROW
+	ld a, SPRITE_ANIM_INDEX_TOHOGEAR_MODE_ARROW
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_TILE_ID
 	add hl, bc
@@ -691,7 +691,7 @@ PokegearMap_InitCursor:
 	ld [hl], SPRITE_ANIM_SEQ_NULL
 	pop af
 	push bc
-	call PokegearMap_UpdateCursorPosition
+	call TohogearMap_UpdateCursorPosition
 	pop bc
 	ret
 
@@ -699,7 +699,7 @@ TownMap_UpdateLandmarkName:
 	hlcoord 0, 0
 	jr _UpdateLandmarkName
 
-PokegearMap_UpdateLandmarkName:
+TohogearMap_UpdateLandmarkName:
 	hlcoord 8, 0
 	; fallthrough
 _UpdateLandmarkName:
@@ -734,7 +734,7 @@ _UpdateLandmarkName:
 	rst PlaceString
 	ret
 
-PokegearMap_UpdateCursorPosition:
+TohogearMap_UpdateCursorPosition:
 	push bc
 	ld e, a
 	farcall GetLandmarkCoords
@@ -763,8 +763,8 @@ TownMap_GetOrangeLandmarkLimits:
 	lb de, FARAWAY_ISLAND, SHAMOUTI_ISLAND
 	ret
 
-PokegearRadio_Init:
-	call InitPokegearTilemap
+TohogearRadio_Init:
+	call InitTohogearTilemap
 	depixel 4, 10, 4, 4
 	ld a, SPRITE_ANIM_INDEX_RADIO_TUNING_KNOB
 	call InitSpriteAnimStruct
@@ -776,7 +776,7 @@ PokegearRadio_Init:
 	inc [hl]
 	ret
 
-PokegearRadio_Joypad:
+TohogearRadio_Joypad:
 	ld hl, hJoyLast
 	ld a, [hl]
 	and B_BUTTON
@@ -784,45 +784,45 @@ PokegearRadio_Joypad:
 	ld a, [hl]
 	and D_LEFT
 	jr nz, .left
-	ld hl, wPokegearRadioChannelAddr
+	ld hl, wTohogearRadioChannelAddr
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
-	ld a, [wPokegearRadioChannelBank]
+	ld a, [wTohogearRadioChannelBank]
 	and a
 	ret z
 	jmp FarCall_hl
 
 .left
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_PHONE_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_PHONE_CARD_F, a
 	jr z, .no_phone
-	lb bc, POKEGEARCARD_PHONE, POKEGEARSTATE_PHONEINIT
-	jr Pokegear_SwitchPage
+	lb bc, TOHOGEARCARD_PHONE, TOHOGEARSTATE_PHONEINIT
+	jr Tohogear_SwitchPage
 
 .no_phone
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_MAP_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_MAP_CARD_F, a
 	jr z, .no_map
-	lb bc, POKEGEARCARD_MAP, POKEGEARSTATE_MAPCHECKREGION
-	jr Pokegear_SwitchPage
+	lb bc, TOHOGEARCARD_MAP, TOHOGEARSTATE_MAPCHECKREGION
+	jr Tohogear_SwitchPage
 
 .no_map
-	lb bc, POKEGEARCARD_CLOCK, POKEGEARSTATE_CLOCKINIT
-	jr Pokegear_SwitchPage
+	lb bc, TOHOGEARCARD_CLOCK, TOHOGEARSTATE_CLOCKINIT
+	jr Tohogear_SwitchPage
 
 .cancel
 	ld hl, wJumptableIndex
 	set 7, [hl]
 	ret
 
-Pokegear_SwitchPage:
+Tohogear_SwitchPage:
 	ld de, SFX_READ_TEXT_2
 	call PlaySFX
 	ld a, c
 	ld [wJumptableIndex], a
 	ld a, b
-	ld [wPokegearCard], a
+	ld [wTohogearCard], a
 	ld hl, wSpriteAnim2
 	ld bc, wSpriteAnimationStructsEnd - wSpriteAnim2
 	xor a
@@ -831,44 +831,44 @@ Pokegear_SwitchPage:
 	ld [wSpriteAnimCount], a
 	ret
 
-ExitPokegearRadio_HandleMusic:
-	ld a, [wPokegearRadioMusicPlaying]
+ExitTohogearRadio_HandleMusic:
+	ld a, [wTohogearRadioMusicPlaying]
 	cp $fe
 	jr z, .restart_map_music
 	cp $ff
 	call z, PlayMapMusicBike
 	xor a
-	ld [wPokegearRadioMusicPlaying], a
+	ld [wTohogearRadioMusicPlaying], a
 	ret
 
 .restart_map_music
 	call RestartMapMusic
 	xor a
-	ld [wPokegearRadioMusicPlaying], a
+	ld [wTohogearRadioMusicPlaying], a
 	ret
 
-Pokegear_LoadTilemapRLE:
+Tohogear_LoadTilemapRLE:
 	; Format: repeat count, tile ID
 	; Terminated with $ff
 	decoord 0, 0
 	jmp CopyRLE
 
-PokegearText_WhomToCall:
+TohogearText_WhomToCall:
 	; Whom do you want to call?
-	text_far _PokegearAskWhoCallText
+	text_far _TohogearAskWhoCallText
 	text_end
 
-PokegearText_PressAnyButtonToExit:
+TohogearText_PressAnyButtonToExit:
 	; Press any button to exit.
-	text_far _PokegearPressButtonText
+	text_far _TohogearPressButtonText
 	text_end
 
-PokegearText_DeleteStoredNumber:
+TohogearText_DeleteStoredNumber:
 	; Delete this stored phone number?
-	text_far _PokegearAskDeleteText
+	text_far _TohogearAskDeleteText
 	text_end
 
-PokegearSpritesGFX:
+TohogearSpritesGFX:
 INCBIN "gfx/pokegear/pokegear_sprites.2bpp.lz"
 
 RadioTilemapRLE:
@@ -937,7 +937,7 @@ UpdateRadioStation:
 	ld h, [hl]
 	ld l, a
 	call _hl_
-	ld a, [wPokegearRadioChannelBank]
+	ld a, [wTohogearRadioChannelBank]
 	and a
 	ret z
 	xor a
@@ -990,7 +990,7 @@ RadioChannels:
 	jmp LoadStation_BuenasPassword
 
 .RuinsOfAlphRadio:
-	ld a, [wPokegearMapPlayerIconLandmark]
+	ld a, [wTohogearMapPlayerIconLandmark]
 	cp RUINS_OF_ALPH
 	jr nz, NoRadioStation
 	jmp LoadStation_UnownRadio
@@ -998,24 +998,24 @@ RadioChannels:
 .PlacesAndPeople:
 	call .InJohto
 	jr c, NoRadioStation
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_EXPN_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_EXPN_CARD_F, a
 	jr z, NoRadioStation
 	jmp LoadStation_PlacesAndPeople
 
 .LetsAllSing:
 	call .InJohto
 	jr c, NoRadioStation
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_EXPN_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_EXPN_CARD_F, a
 	jr z, NoRadioStation
 	jmp LoadStation_LetsAllSing
 
 .PokeFluteRadio:
 	call .InJohto
 	jr c, NoRadioStation
-	ld a, [wPokegearFlags]
-	bit POKEGEAR_EXPN_CARD_F, a
+	ld a, [wTohogearFlags]
+	bit TOHOGEAR_EXPN_CARD_F, a
 	jr z, NoRadioStation
 	jmp LoadStation_PokeFluteRadio
 
@@ -1024,7 +1024,7 @@ RadioChannels:
 	ld a, [wStatusFlags]
 	bit STATUSFLAGS_ROCKET_SIGNAL_F, a
 	jr z, NoRadioStation
-	ld a, [wPokegearMapPlayerIconLandmark]
+	ld a, [wTohogearMapPlayerIconLandmark]
 	cp MAHOGANY_TOWN
 	jr z, .ok
 	cp ROUTE_43
@@ -1037,7 +1037,7 @@ RadioChannels:
 .InJohto:
 ; if in Johto or on the S.S. Aqua, set carry
 ; otherwise clear carry
-	ld a, [wPokegearMapPlayerIconLandmark]
+	ld a, [wTohogearMapPlayerIconLandmark]
 	cp KANTO_LANDMARK
 	jr nc, .kanto_or_orange
 	scf
@@ -1051,9 +1051,9 @@ NoRadioStation:
 	call NoRadioMusic
 	call NoRadioName
 	xor a
-	ld [wPokegearRadioChannelBank], a
-	ld [wPokegearRadioChannelAddr], a
-	ld [wPokegearRadioChannelAddr + 1], a
+	ld [wTohogearRadioChannelBank], a
+	ld [wTohogearRadioChannelAddr], a
+	ld [wTohogearRadioChannelAddr + 1], a
 	ld a, $1
 	ldh [hBGMapMode], a
 	ret
@@ -1065,7 +1065,7 @@ LoadRadioStation:
 	ld [wCurRadioLine], a
 	xor a
 	ld [wNumRadioLinesPrinted], a
-	ld hl, wPokegearRadioChannelBank
+	ld hl, wTohogearRadioChannelBank
 	ld a, BANK(PlayRadioShow)
 	ld [hli], a
 	ld a, LOW(PlayRadioShow)
@@ -1134,7 +1134,7 @@ LoadStation_EvolutionRadio:
 RadioMusicRestart:
 	push de
 	ld a, e
-	ld [wPokegearRadioMusicPlaying], a
+	ld [wTohogearRadioMusicPlaying], a
 	ld e, MUSIC_NONE
 	call PlayMusic
 	pop de
@@ -1145,7 +1145,7 @@ RadioMusicRestart:
 RadioMusicRestartPokemonChannel:
 	push de
 	ld a, $fe
-	ld [wPokegearRadioMusicPlaying], a
+	ld [wTohogearRadioMusicPlaying], a
 	ld e, MUSIC_NONE
 	call PlayMusic
 	pop de
@@ -1156,7 +1156,7 @@ NoRadioMusic:
 	ld e, MUSIC_NONE
 	call PlayMusic
 	ld a, $ff
-	ld [wPokegearRadioMusicPlaying], a
+	ld [wTohogearRadioMusicPlaying], a
 	ret
 
 NoRadioName:
@@ -1199,8 +1199,8 @@ _TownMap:
 	call ClearTileMap
 	call ClearSprites
 	call DisableLCD
-	farcall InitPokegearPalettes
-	call Pokegear_LoadGFX
+	farcall InitTohogearPalettes
+	call Tohogear_LoadGFX
 	call ClearSpriteAnims
 	ld a, 8
 	call SkipMusic
@@ -1214,14 +1214,14 @@ _TownMap:
 	call .InitTilemap
 	call ApplyAttrAndTilemapInVBlank
 	ld a, [wTownMapPlayerIconLandmark]
-	call PokegearMap_InitPlayerIcon
+	call TohogearMap_InitPlayerIcon
 	ld a, [wTownMapCursorLandmark]
-	call PokegearMap_InitCursor
+	call TohogearMap_InitCursor
 	ld a, c
 	ld [wTownMapCursorObjectPointer], a
 	ld a, b
 	ld [wTownMapCursorObjectPointer + 1], a
-	ld a, CGB_POKEGEAR_PALS
+	ld a, CGB_TOHOGEAR_PALS
 	call GetCGBLayout
 	call SetPalettes
 	ld a, %11100100
@@ -1310,12 +1310,12 @@ _TownMap:
 	ld a, [wTownMapCursorObjectPointer + 1]
 	ld b, a
 	ld a, [wTownMapCursorLandmark]
-	call PokegearMap_UpdateCursorPosition
+	call TohogearMap_UpdateCursorPosition
 	pop de
 	jr .loop2
 
 .InitTilemap:
-	call PokegearMap
+	call TohogearMap
 	ld a, $06
 	hlcoord 12, 0
 	ld [hl], a
@@ -1359,7 +1359,7 @@ TownMap_InitFlyPossible:
 
 AnimateTownMapFly:
 	push bc
-	ld a, [wPokegearMapCursorLandmark]
+	ld a, [wTohogearMapCursorLandmark]
 	ld b, a
 	ld hl, Flypoints
 .loop
@@ -1371,7 +1371,7 @@ AnimateTownMapFly:
 	jr nz, .skip
 	ld a, [hli]
 	ld c, a
-	ld [wPokegearMapCursorSpawnpoint], a
+	ld [wTohogearMapCursorSpawnpoint], a
 	call HasVisitedSpawn
 	and a
 	jr z, .loop
@@ -1401,11 +1401,11 @@ PlayRadio:
 	ldh a, [hJoyPressed]
 	and A_BUTTON | B_BUTTON
 	jr nz, .stop
-	ld hl, wPokegearRadioChannelAddr
+	ld hl, wTohogearRadioChannelAddr
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
-	ld a, [wPokegearRadioChannelBank]
+	ld a, [wTohogearRadioChannelBank]
 	and a
 	call nz, FarCall_hl
 	call DelayFrame
@@ -1414,11 +1414,11 @@ PlayRadio:
 .stop
 	pop af
 	ld [wOptions1], a
-	jmp ExitPokegearRadio_HandleMusic
+	jmp ExitTohogearRadio_HandleMusic
 
 .PlayStation:
 	ld a, -1
-	ld [wPokegearRadioMusicPlaying], a
+	ld [wTohogearRadioMusicPlaying], a
 	ld hl, PlayRadioStationPointers
 	ld d, $0
 	add hl, de
@@ -1468,9 +1468,9 @@ LoadStation_PokemonChannel:
 .kanto_or_orange:
 	jmp LoadStation_PlacesAndPeople
 
-PokegearMap:
+TohogearMap:
 	call LoadTownMapGFX
-	ld a, [wPokegearMapPlayerIconLandmark]
+	ld a, [wTohogearMapPlayerIconLandmark]
 	cp SHAMOUTI_LANDMARK
 	jmp nc, FillOrangeMap
 	cp KANTO_LANDMARK
@@ -1998,7 +1998,7 @@ TownMapPlayerIcon:
 	ld hl, vTiles0 tile $14
 	call Request2bppInWRA6
 ; Animation/palette
-	call InitializePokegearPlayerIcon
+	call InitializeTohogearPlayerIcon
 	pop af
 	ld e, a
 	push bc
@@ -2012,7 +2012,7 @@ TownMapPlayerIcon:
 	ld [hl], d
 	ret
 
-InitializePokegearPlayerIcon:
+InitializeTohogearPlayerIcon:
 	depixel 0, 0
 	ld a, [wPlayerGender]
 	ld b, SPRITE_ANIM_INDEX_RED_WALK
@@ -2048,5 +2048,5 @@ INCBIN "gfx/town_map/kanto.bin"
 OrangeMap:
 INCBIN "gfx/town_map/orange.bin"
 
-PokegearGFX:
+TohogearGFX:
 INCBIN "gfx/pokegear/pokegear.2bpp.lz"

@@ -273,7 +273,7 @@ IsKantoRadioOffAir:
 	ld a, e
 	cp KANTO_REGION
 	jr nz, .no
-	ld a, [wPokegearFlags]
+	ld a, [wTohogearFlags]
 	bit 3, a
 	ld a, TRUE
 	jr z, .ok
