@@ -2,293 +2,293 @@
 
 AlphabeticalTohodexOrder:
 	table_width 2, AlphabeticalTohodexOrder
-	dp ELLY
-	dp AERODACTYL
-	dp AIPOM
-	dp CYUKA
-	dp AMBIPOM
-	dp AMPHAROS
-	dp ANNIHILAPE
-	dp KIKURI
-	dp KURUMI
-	dp ARIADOS
-	dp ARTICUNO
-	dp AZUMARILL
-	dp AZURILL
-	dp YOUMU
-	dp MAGAN
-	dp BELLOSSOM
-	dp MUGETSU
-	dp ESAKUYA
-	dp BLISSEY
-	dp BONSLY
-	dp CREIMU
-	dp FGYOKU
-	dp CGYOKU
-	dp CELEBI
-	dp CREMILIA
-	dp EMARISA
-	dp CMARISA
-	dp MARISA
-	dp CYOUMU
-	dp CHINCHOU
-	dp MEIRA
-	dp CMEIRA
-	dp CLEFFA
-	dp CLODSIRE
-	dp EYUMEKO
-	dp CORSOLA
-	dp CROBAT
-	dp SANAE
-	dp CMEILING
-	dp CURSOLA
-	dp CREISEN
-	dp DELIBIRD
-	dp YUKI
-	dp CCHIYURI
-	dp DITTO
-	dp EMAI
-	dp MAI
-	dp DONPHAN
-	dp DRAGONAIR
-	dp DRAGONITE
-	dp DRATINI
-	dp RUMIA
-	dp DUDUNSPARCE
-	dp CHIYURI
-	dp DUNSPARCE
-	dp EEVEE
-	dp CKIKURI
-	dp ELECTABUZZ
-	dp ELECTIVIRE
-	dp CCIRNO
-	dp ELEKID
-	dp ENTEI
-	dp ESPEON
-	dp CIRNO
-	dp ECIRNO
-	dp FARIGIRAF
-	dp CMAI
-	dp EELIS
-	dp ESANAE
-	dp FLAAFFY
-	dp FLAREON
-	dp FORRETRESS
-	dp FURRET
-	dp CSHINKI
-	dp ESHINKI
-	dp CSARA
-	dp GIRAFARIG
-	dp GLACEON
-	dp GLIGAR
-	dp GLISCOR
-	dp CKANA
-	dp KOTOHIME
-	dp EFLANDRE
-	dp EYUMEMI
-	dp ESARA
-	dp GRANBULL
-	dp SARA
-	dp EYUKI
-	dp EORANGE
-	dp GYARADOS
-	dp HAPPINY
-	dp SHINKI
-	dp HERACROSS
-	dp CKOAKUMA
-	dp EMEILING
-	dp HITMONTOP
-	dp HO_OH
-	dp HONCHKROW
-	dp HOOTHOOT
-	dp HOPPIP
-	dp CFLANDRE
-	dp HOUNDOOM
-	dp HOUNDOUR
-	dp ERUMIA
-	dp IGGLYBUFF
-	dp REIMU
-	dp ELLEN
-	dp JOLTEON
-	dp JUMPLUFF
-	dp JYNX
-	dp KABUTO
-	dp KABUTOPS
-	dp EELLY
-	dp CMAGAN
-	dp EREMILIA
-	dp KINGDRA
-	dp DAICHAN
-	dp KLEAVOR
-	dp EKOAKUMA
-	dp CDAICHAN
-	dp LANTURN
-	dp LAPRAS
-	dp LARVITAR
-	dp LEAFEON
-	dp LEDIAN
-	dp LEDYBA
-	dp LICKILICKY
-	dp KOAKUMA
-	dp LUGIA
-	dp CMUGETSU
-	dp EYUKA
-	dp YUKA
-	dp MAGBY
-	dp MAGCARGO
-	dp MAGIKARP
-	dp MAGMAR
-	dp MAGMORTAR
-	dp ALICE
-	dp EALICE
-	dp MAGNEZONE
-	dp MAMOSWINE
-	dp CORANGE
-	dp MANTINE
-	dp MANTYKE
-	dp MAREEP
-	dp MARILL
-	dp MEILING
-	dp EYOUMU
-	dp ECHIYURI
-	dp MGYOKU
-	dp MEW
-	dp MEWTWO
-	dp MILTANK
-	dp MIME_JR_
-	dp MISDREAVUS
-	dp MISMAGIUS
-	dp MOLTRES
-	dp MR__MIME
-	dp MR__RIME
-	dp CYUMEKO
-	dp MUNCHLAX
-	dp MURKROW
-	dp NATU
-	dp ERIKA
-	dp EKONGARA
-	dp CKONGARA
-	dp CRIKA
-	dp KONGARA
-	dp RIKA
-	dp CELLEN
-	dp NOCTOWL
-	dp OCTILLERY
-	dp EKOTOHIME
-	dp OMANYTE
-	dp OMASTAR
-	dp CRUMIA
-	dp OVERQWIL
-	dp EKANA
-	dp CRIKAKO
-	dp PERRSERKER
-	dp CYUMEMI
-	dp PHANPY
-	dp PICHU
-	dp MIMA
-	dp CMIMA
-	dp EMAGAN
-	dp EKIKURI
-	dp PILOSWINE
-	dp PINECO
-	dp PINSIR
-	dp POLITOED
-	dp KURUMI
-	dp EKURUMI
-	dp CELLY
-	dp CLUIZE
-	dp PORYGON
-	dp PORYGON_Z
-	dp PORYGON2
-	dp ORANGE
-	dp YUMEMI
-	dp PUPITAR
-	dp QUAGSIRE
-	dp REISEN
-	dp QWILFISH
-	dp CSARIEL
-	dp RAIKOU
-	dp LUIZE
-	dp CELIS
-	dp EMIMA
-	dp REMORAID
-	dp EPATCHOULI
-	dp PATCHOULI
-	dp RHYPERIOR
-	dp SARIEL
-	dp ESARIEL
-	dp SCIZOR
-	dp SCYTHER
-	dp FLANDRE
-	dp SEAKING
-	dp CYUKI
-	dp SENTRET
-	dp YUMEKO
-	dp SHUCKLE
-	dp SIRFETCH_D
-	dp SKARMORY
-	dp SKIPLOOM
-	dp CALICE
-	dp SLOWKING
-	dp ELUIZE
-	dp SLUGMA
-	dp SMEARGLE
-	dp SMOOCHUM
-	dp SNEASEL
-	dp SNEASLER
-	dp SNORLAX
-	dp SNUBBULL
-	dp ELIS
-	dp SPINARAK
-	dp CSAKUYA
-	dp STANTLER
-	dp STARMIE
-	dp STARYU
-	dp STEELIX
-	dp SUDOWOODO
-	dp SUICUNE
-	dp SUNFLORA
-	dp SUNKERN
-	dp SWINUB
-	dp SYLVEON
-	dp REMILIA
-	dp TANGROWTH
-	dp TAUROS
-	dp TEDDIURSA
-	dp GENGETSU
-	dp EGENGETSU
-	dp TOGEKISS
-	dp TOGEPI
-	dp TOGETIC
-	dp CSANAE
-	dp EREISEN
-	dp TYRANITAR
-	dp TYROGUE
-	dp UMBREON
-	dp UNOWN
-	dp URSALUNA
-	dp URSARING
-	dp VAPOREON
-	dp ERIKAKO
-	dp RIKAKO
-	dp EREIMU
-	dp CGENGETSU
-	dp KANA
-	dp EDAICHAN
-	dp EMEIRA
-	dp SAKUYA
-	dp WEAVILE
-	dp OGYOKU
-	dp EMUGETSU
-	dp CPATCHOULI
-	dp EELLEN
-	dp WOBBUFFET
-	dp WOOPER
-	dp WYNAUT
-	dp WYRDEER
-	dp XATU
-	dp YANMA
-	dp YANMEGA
-	dp ZAPDOS
-	dp CKOTOHIME
+	dp CREIMU  ; 01
+	dp REIMU    ; 02
+	dp EREIMU   ; 03
+	dp CMARISA ; 04
+	dp MARISA ; 05
+	dp EMARISA  ; 06
+	dp CSAKUYA   ; 07
+	dp SAKUYA  ; 08
+	dp ESAKUYA  ; 09
+	dp CGYOKU   ; 0a
+	dp MGYOKU    ; 0b
+	dp FGYOKU ; 0c
+	dp OGYOKU     ; 0d
+	dp CMAGAN     ; 0e
+	dp MAGAN   ; 0f
+	dp EMAGAN     ; 10
+	dp CMIMA  ; 11
+	dp MIMA    ; 12
+	dp EMIMA    ; 13
+	dp CELIS   ; 14
+	dp ELIS    ; 15
+	dp EELIS     ; 16
+	dp CKIKURI      ; 17
+	dp KIKURI      ; 18
+	dp EKIKURI    ; 19
+	dp CSARIEL     ; 1a
+	dp SARIEL  ; 1b
+	dp ESARIEL  ; 1c
+	dp CKONGARA  ; 1d
+	dp KONGARA   ; 1e
+	dp EKONGARA  ; 1f
+	dp CRIKA  ; 20
+	dp RIKA   ; 21
+	dp ERIKA   ; 22
+	dp CMEIRA   ; 23
+	dp MEIRA   ; 24
+	dp EMEIRA     ; 25
+	dp CELLEN  ; 26
+	dp ELLEN ; 27
+	dp EELLEN ; 28
+	dp CKOTOHIME      ; 29
+	dp KOTOHIME     ; 2a
+	dp EKOTOHIME     ; 2b
+	dp CKANA      ; 2c
+	dp KANA  ; 2d
+	dp EKANA      ; 2e
+	dp CRIKAKO   ; 2f
+	dp RIKAKO    ; 30
+	dp ERIKAKO   ; 31
+	dp CCHIYURI    ; 32
+	dp CHIYURI    ; 33
+	dp ECHIYURI     ; 34
+	dp CYUMEMI    ; 35
+	dp YUMEMI    ; 36
+	dp EYUMEMI    ; 37
+	dp CORANGE     ; 38
+	dp ORANGE   ; 39
+	dp EORANGE  ; 3a
+	dp CKURUMI   ; 3b
+	dp KURUMI    ; 3c
+	dp EKURUMI  ; 3d
+	dp CELLY  ; 3e
+	dp ELLY       ; 3f
+	dp EELLY    ; 40
+	dp CYUKA   ; 41
+	dp YUKA     ; 42
+	dp EYUKA    ; 43
+	dp CMUGETSU    ; 44
+	dp MUGETSU ; 45
+	dp EMUGETSU ; 46
+	dp CGENGETSU ; 47
+	dp GENGETSU  ; 48
+	dp EGENGETSU ; 49
+	dp CSARA    ; 4a
+	dp SARA   ; 4b
+	dp ESARA      ; 4c
+	dp CLUIZE     ; 4d
+	dp LUIZE   ; 4e
+	dp ELUIZE   ; 4f
+	dp CALICE    ; 50
+	dp ALICE  ; 51
+	dp EALICE   ; 52
+	dp CMAI ; 53
+	dp MAI      ; 54
+	dp EMAI     ; 55
+	dp CYUKI       ; 56
+	dp YUKI    ; 57
+	dp EYUKI     ; 58
+	dp CYUMEKO        ; 59
+	dp YUMEKO   ; 5a
+	dp EYUMEKO   ; 5b
+	dp CSHINKI     ; 5c
+	dp SHINKI    ; 5d
+	dp ESHINKI     ; 5e
+	dp CRUMIA       ; 5f
+	dp RUMIA    ; 60
+	dp ERUMIA      ; 61
+	dp CDAICHAN     ; 62
+	dp DAICHAN    ; 63
+	dp EDAICHAN    ; 64
+	dp CCIRNO  ; 65
+	dp CIRNO  ; 66
+	dp ECIRNO  ; 67
+	dp CMEILING     ; 68
+	dp MEILING    ; 69
+	dp EMEILING  ; 6a
+	dp CKOAKUMA ; 6b
+	dp KOAKUMA  ; 6c
+	dp EKOAKUMA    ; 6d
+	dp CPATCHOULI    ; 6e
+	dp PATCHOULI    ; 6f
+	dp EPATCHOULI     ; 70
+	dp CREMILIA    ; 71
+	dp REMILIA    ; 72
+	dp EREMILIA ; 73
+	dp CFLANDRE     ; 74
+	dp FLANDRE     ; 75
+	dp EFLANDRE    ; 76
+	dp SEAKING    ; 77
+	dp STARYU     ; 78
+	dp STARMIE    ; 79
+	dp MR__MIME   ; 7a
+	dp SCYTHER    ; 7b
+	dp JYNX       ; 7c
+	dp ELECTABUZZ ; 7d
+	dp MAGMAR     ; 7e
+	dp PINSIR     ; 7f
+	dp TAUROS     ; 80
+	dp MAGIKARP   ; 81
+	dp GYARADOS   ; 82
+	dp LAPRAS     ; 83
+	dp DITTO      ; 84
+	dp EEVEE      ; 85
+	dp VAPOREON   ; 86
+	dp JOLTEON    ; 87
+	dp FLAREON    ; 88
+	dp PORYGON    ; 89
+	dp OMANYTE    ; 8a
+	dp OMASTAR    ; 8b
+	dp KABUTO     ; 8c
+	dp KABUTOPS   ; 8d
+	dp AERODACTYL ; 8e
+	dp SNORLAX    ; 8f
+	dp ARTICUNO   ; 90
+	dp ZAPDOS     ; 91
+	dp MOLTRES    ; 92
+	dp DRATINI    ; 93
+	dp DRAGONAIR  ; 94
+	dp DRAGONITE  ; 95
+	dp MEWTWO     ; 96
+	dp MEW        ; 97
+	dp CYOUMU  ; 98
+	dp YOUMU    ; 99
+	dp EYOUMU   ; 9a
+	dp CREISEN  ; 9b
+	dp REISEN    ; 9c
+	dp EREISEN ; 9d
+	dp CSANAE   ; 9e
+	dp SANAE   ; 9f
+	dp ESANAE ; a0
+	dp SENTRET    ; a1
+	dp FURRET     ; a2
+	dp HOOTHOOT   ; a3
+	dp NOCTOWL    ; a4
+	dp LEDYBA     ; a5
+	dp LEDIAN     ; a6
+	dp SPINARAK   ; a7
+	dp ARIADOS    ; a8
+	dp CROBAT     ; a9
+	dp CHINCHOU   ; aa
+	dp LANTURN    ; ab
+	dp PICHU      ; ac
+	dp CLEFFA     ; ad
+	dp IGGLYBUFF  ; ae
+	dp TOGEPI     ; af
+	dp TOGETIC    ; b0
+	dp NATU       ; b1
+	dp XATU       ; b2
+	dp MAREEP     ; b3
+	dp FLAAFFY    ; b4
+	dp AMPHAROS   ; b5
+	dp BELLOSSOM  ; b6
+	dp MARILL     ; b7
+	dp AZUMARILL  ; b8
+	dp SUDOWOODO  ; b9
+	dp POLITOED   ; ba
+	dp HOPPIP     ; bb
+	dp SKIPLOOM   ; bc
+	dp JUMPLUFF   ; bd
+	dp AIPOM      ; be
+	dp SUNKERN    ; bf
+	dp SUNFLORA   ; c0
+	dp YANMA      ; c1
+	dp WOOPER     ; c2
+	dp QUAGSIRE   ; c3
+	dp ESPEON     ; c4
+	dp UMBREON    ; c5
+	dp MURKROW    ; c6
+	dp SLOWKING   ; c7
+	dp MISDREAVUS ; c8
+	dp UNOWN      ; c9
+	dp WOBBUFFET  ; ca
+	dp GIRAFARIG  ; cb
+	dp PINECO     ; cc
+	dp FORRETRESS ; cd
+	dp DUNSPARCE  ; ce
+	dp GLIGAR     ; cf
+	dp STEELIX    ; d0
+	dp SNUBBULL   ; d1
+	dp GRANBULL   ; d2
+	dp QWILFISH   ; d3
+	dp SCIZOR     ; d4
+	dp SHUCKLE    ; d5
+	dp HERACROSS  ; d6
+	dp SNEASEL    ; d7
+	dp TEDDIURSA  ; d8
+	dp URSARING   ; d9
+	dp SLUGMA     ; da
+	dp MAGCARGO   ; db
+	dp SWINUB     ; dc
+	dp PILOSWINE  ; dd
+	dp CORSOLA    ; de
+	dp REMORAID   ; df
+	dp OCTILLERY  ; e0
+	dp DELIBIRD   ; e1
+	dp MANTINE    ; e2
+	dp SKARMORY   ; e3
+	dp HOUNDOUR   ; e4
+	dp HOUNDOOM   ; e5
+	dp KINGDRA    ; e6
+	dp PHANPY     ; e7
+	dp DONPHAN    ; e8
+	dp PORYGON2   ; e9
+	dp STANTLER   ; ea
+	dp SMEARGLE   ; eb
+	dp TYROGUE    ; ec
+	dp HITMONTOP  ; ed
+	dp SMOOCHUM   ; ee
+	dp ELEKID     ; ef
+	dp MAGBY      ; f0
+	dp MILTANK    ; f1
+	dp BLISSEY    ; f2
+	dp RAIKOU     ; f3
+	dp ENTEI      ; f4
+	dp SUICUNE    ; f5
+	dp LARVITAR   ; f6
+	dp PUPITAR    ; f7
+	dp TYRANITAR  ; f8
+	dp LUGIA      ; f9
+	dp HO_OH      ; fa
+	dp CELEBI     ; fb
+	dp AZURILL    ; fc
+	dp WYNAUT     ; fd
+	dp AMBIPOM    ; fe
+	dp MISMAGIUS  ; 101
+	dp HONCHKROW  ; 102
+	dp BONSLY     ; 103
+	dp MIME_JR_   ; 104
+	dp HAPPINY    ; 105
+	dp MUNCHLAX   ; 106
+	dp MANTYKE    ; 107
+	dp WEAVILE    ; 108
+	dp MAGNEZONE  ; 109
+	dp LICKILICKY ; 10a
+	dp RHYPERIOR  ; 10b
+	dp TANGROWTH  ; 10c
+	dp ELECTIVIRE ; 10d
+	dp MAGMORTAR  ; 10e
+	dp TOGEKISS   ; 10f
+	dp YANMEGA    ; 110
+	dp LEAFEON    ; 111
+	dp GLACEON    ; 112
+	dp GLISCOR    ; 113
+	dp MAMOSWINE  ; 114
+	dp PORYGON_Z  ; 115
+	dp SYLVEON    ; 116
+	dp PERRSERKER ; 117
+	dp CURSOLA    ; 118
+	dp SIRFETCH_D ; 119
+	dp MR__RIME   ; 11a
+	dp WYRDEER    ; 11b
+	dp KLEAVOR    ; 11c
+	dp URSALUNA   ; 11d
+	dp SNEASLER   ; 11e
+	dp OVERQWIL   ; 11f
+	dp DUDUNSPARCE ; 120
+	dp FARIGIRAF  ; 121
+	dp CLODSIRE   ; 122
+	dp ANNIHILAPE ; 123
 	assert_table_length NUM_POKEMON
