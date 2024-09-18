@@ -62,7 +62,7 @@ if DEF(DEBUG)
 	setflag ENGINE_RADIO_CARD
 	setflag ENGINE_EXPN_CARD
 	; tohodex
-	setflag ENGINE_TOHODEX
+	setflag ENGINE_POKEDEX
 ;	setflag ENGINE_UNOWN_DEX
 	; judge machine
 	setflag ENGINE_JUDGE_MACHINE

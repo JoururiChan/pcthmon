@@ -2476,7 +2476,7 @@ Script_checkdarkness:
 
 Script_checkunits:
 	ld a, [wOptions2]
-	bit TOHODEX_UNITS, a
+	bit POKEDEX_UNITS, a
 	ldh [hScriptVar], a
 	ret
 

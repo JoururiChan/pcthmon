@@ -5,7 +5,7 @@
 ; - RadioChannels (see engine/pokegear/pokegear.asm)
 	const_def
 	const OAKS_POKEMON_TALK      ; 00
-	const TOHODEX_SHOW           ; 01
+	const POKEDEX_SHOW           ; 01
 	const POKEMON_MUSIC          ; 02
 	const LUCKY_CHANNEL          ; 03
 	const BUENAS_PASSWORD        ; 04
@@ -25,10 +25,10 @@ DEF NUM_RADIO_CHANNELS EQU const_value
 	const OAKS_POKEMON_TALK_7    ; 10
 	const OAKS_POKEMON_TALK_8    ; 11
 	const OAKS_POKEMON_TALK_9    ; 12
-	const TOHODEX_SHOW_2         ; 13
-	const TOHODEX_SHOW_3         ; 14
-	const TOHODEX_SHOW_4         ; 15
-	const TOHODEX_SHOW_5         ; 16
+	const POKEDEX_SHOW_2         ; 13
+	const POKEDEX_SHOW_3         ; 14
+	const POKEDEX_SHOW_4         ; 15
+	const POKEDEX_SHOW_5         ; 16
 	const POKEMON_MUSIC_2        ; 17
 	const POKEMON_MUSIC_3        ; 18
 	const POKEMON_MUSIC_4        ; 19
@@ -91,16 +91,16 @@ DEF NUM_RADIO_CHANNELS EQU const_value
 	const BUENAS_PASSWORD_20     ; 52
 	const BUENAS_PASSWORD_21     ; 53
 	const RADIO_SCROLL           ; 54
-	const TOHODEX_SHOW_6         ; 55
-	const TOHODEX_SHOW_7         ; 56
-	const TOHODEX_SHOW_8         ; 57
+	const POKEDEX_SHOW_6         ; 55
+	const POKEDEX_SHOW_7         ; 56
+	const POKEDEX_SHOW_8         ; 57
 DEF NUM_RADIO_SEGMENTS EQU const_value
 
 ; PlayRadioStationPointers indexes (see engine/pokegear/pokegear.asm)
 	const_def
 	const MAPRADIO_POKEMON_CHANNEL
 	const MAPRADIO_OAKS_POKEMON_TALK
-	const MAPRADIO_TOHODEX_SHOW
+	const MAPRADIO_POKEDEX_SHOW
 	const MAPRADIO_POKEMON_MUSIC
 	const MAPRADIO_LUCKY_CHANNEL
 	const MAPRADIO_UNOWN

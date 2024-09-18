@@ -698,7 +698,7 @@ BattleAnim_WillOWisp:
 	anim_wait 40
 	anim_sound 0, 0, SFX_CURSE
 .loop
-	anim_obj ANIM_OBJ_SHINY_FIRE, 132, 68, $0
+	anim_obj ANIM_OBJ_SACRED_FIRE, 132, 68, $0
 	anim_wait 8
 	anim_loop 4, .loop
 	anim_wait 48
@@ -2130,13 +2130,13 @@ BattleAnim_LunarBash:
 	anim_obj ANIM_OBJ_LUNAR_BASH, 44, 104, $30
 	anim_wait 8
 .loop
-	anim_obj ANIM_OBJ_LUNAR_BASH_PARTICLE,  44, 96, $5c
+	anim_obj ANIM_OBJ_ZEN_HEADBUTT_PARTICLE,  44, 96, $5c
 	anim_wait 8
-	anim_obj ANIM_OBJ_LUNAR_BASH_PARTICLE,  44, 96, $e8
+	anim_obj ANIM_OBJ_ZEN_HEADBUTT_PARTICLE,  44, 96, $e8
 	anim_wait 8
-	anim_obj ANIM_OBJ_LUNAR_BASH_PARTICLE,  44, 96, $d0
+	anim_obj ANIM_OBJ_ZEN_HEADBUTT_PARTICLE,  44, 96, $d0
 	anim_wait 8
-	anim_obj ANIM_OBJ_LUNAR_BASH_PARTICLE,  44, 96, $50
+	anim_obj ANIM_OBJ_ZEN_HEADBUTT_PARTICLE,  44, 96, $50
 	anim_wait 8
 	anim_loop 2, .loop
 	anim_clearobjs
@@ -3176,18 +3176,18 @@ BattleAnim_HoneTools:
 	anim_2gfx ANIM_GFX_CUT, ANIM_GFX_SPEED
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_sound 0, 1, SFX_SCRATCH
-	anim_obj ANIM_OBJ_HONE_TOOLS_RIGHT, 24, 84, $0
+	anim_obj ANIM_OBJ_HONE_CLAWS_RIGHT, 24, 84, $0
 	anim_wait 7
 	anim_sound 0, 1, SFX_SHINE
 	anim_wait 5
 	anim_sound 0, 1, SFX_SCRATCH
-	anim_obj ANIM_OBJ_HONE_TOOLS_LEFT, 72, 84, $0
+	anim_obj ANIM_OBJ_HONE_CLAWS_LEFT, 72, 84, $0
 	anim_wait 7
 	anim_sound 0, 1, SFX_SHINE
 	anim_wait 5
 .loop
 	anim_sound 0, 1, SFX_SCRATCH
-	anim_obj ANIM_OBJ_HONE_TOOLS_RIGHT, 24, 84, $0
+	anim_obj ANIM_OBJ_HONE_CLAWS_RIGHT, 24, 84, $0
 	anim_wait 2
 	anim_obj ANIM_OBJ_PULSING_SPARKLE_YFIX, 20, 72, $0
 	anim_wait 5
@@ -3195,7 +3195,7 @@ BattleAnim_HoneTools:
 	anim_obj ANIM_OBJ_PULSING_SPARKLE_YFIX, 28, 104, $0
 	anim_wait 5
 	anim_sound 0, 1, SFX_SCRATCH
-	anim_obj ANIM_OBJ_HONE_TOOLS_LEFT, 72, 84, $0
+	anim_obj ANIM_OBJ_HONE_CLAWS_LEFT, 72, 84, $0
 	anim_wait 2
 	anim_obj ANIM_OBJ_PULSING_SPARKLE_YFIX, 76, 72, $0
 	anim_wait 5

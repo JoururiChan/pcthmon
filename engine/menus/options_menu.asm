@@ -395,18 +395,18 @@ Options_TohodexUnits:
 	ldh a, [hJoyPressed]
 	and D_LEFT | D_RIGHT
 	jr nz, .Toggle
-	bit TOHODEX_UNITS, [hl]
+	bit POKEDEX_UNITS, [hl]
 	jr z, .SetImperial
 	jr .SetMetric
 .Toggle
-	bit TOHODEX_UNITS, [hl]
+	bit POKEDEX_UNITS, [hl]
 	jr z, .SetMetric
 .SetImperial:
-	res TOHODEX_UNITS, [hl]
+	res POKEDEX_UNITS, [hl]
 	ld de, .Imperial
 	jr .Display
 .SetMetric:
-	set TOHODEX_UNITS, [hl]
+	set POKEDEX_UNITS, [hl]
 	ld de, .Metric
 .Display:
 	hlcoord 11, 5

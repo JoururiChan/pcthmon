@@ -58,7 +58,7 @@ FlagAction::
 	ret
 
 CheckReceivedDex::
-	ld de, ENGINE_TOHODEX
+	ld de, ENGINE_POKEDEX
 	ld b, CHECK_FLAG
 	farcall EngineFlagAction
 	ld a, c

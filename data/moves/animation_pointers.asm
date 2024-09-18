@@ -99,7 +99,7 @@ BattleAnimations::
 	fardw BattleAnim_PsychicM
 	fardw BattleAnim_Hypnosis
 	fardw BattleAnim_HoneClaws
-	fardw BattleAnim_SpidersNest
+	fardw BattleAnim_Agility
 	fardw BattleAnim_QuickAttack
 	fardw BattleAnim_Rage
 	fardw BattleAnim_Teleport

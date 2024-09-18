@@ -468,7 +468,7 @@ Continue_LoadMenuHeader:
 	ldh [hBGMapMode], a
 	ld hl, .MenuDataHeader_Dex
 	ld a, [wStatusFlags]
-	bit STATUSFLAGS_TOHODEX_F, a
+	bit STATUSFLAGS_POKEDEX_F, a
 	jr nz, .tohodex_header
 	ld hl, .MenuDataHeader_NoDex
 
@@ -555,7 +555,7 @@ Continue_DisplayBadgeCount:
 
 Continue_DisplayTohodexNumCaught:
 	ld a, [wStatusFlags]
-	bit STATUSFLAGS_TOHODEX_F, a
+	bit STATUSFLAGS_POKEDEX_F, a
 	ret z
 	farcall Tohodex_CountSeenOwn
 	ld de, wTempDexOwn

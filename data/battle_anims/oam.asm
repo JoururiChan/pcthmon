@@ -285,10 +285,10 @@ BattleAnimOAMData:
 	battleanimoam $00, 16, .OAMData_VoltSwitch6   ; BATTLEANIMOAMSET_VOLT_SWITCH_6
 	battleanimoam $0f,  1, .OAMData_0f            ; BATTLEANIMOAMSET_DISCHARGE_SPARKS_N_1
 	battleanimoam $0e,  1, .OAMData_0f            ; BATTLEANIMOAMSET_DISCHARGE_SPARKS_N_2
-	battleanimoam $01, 15, .OAMData_HoneTools1    ; BATTLEANIMOAMSET_HONE_TOOLS_1
-	battleanimoam $01, 18, .OAMData_HoneTools2    ; BATTLEANIMOAMSET_HONE_TOOLS_2
-	battleanimoam $01, 21, .OAMData_HoneTools3    ; BATTLEANIMOAMSET_HONE_TOOLS_3
-	battleanimoam $01,  9, .OAMData_HoneTools3    ; BATTLEANIMOAMSET_HONE_TOOLS_4
+	battleanimoam $01, 15, .OAMData_HoneTools1    ; BATTLEANIMOAMSET_HONE_CLAWS_1
+	battleanimoam $01, 18, .OAMData_HoneTools2    ; BATTLEANIMOAMSET_HONE_CLAWS_2
+	battleanimoam $01, 21, .OAMData_HoneTools3    ; BATTLEANIMOAMSET_HONE_CLAWS_3
+	battleanimoam $01,  9, .OAMData_HoneTools3    ; BATTLEANIMOAMSET_HONE_CLAWS_4
 	battleanimoam $00, 18, .OAMData_Hurricane  ; BATTLEANIMOAMSET_HURRICANE
 	assert_table_length NUM_BATTLEANIMOAMSETS
 

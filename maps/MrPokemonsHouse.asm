@@ -21,12 +21,12 @@ MrPokemonsHouse_MapScriptHeader:
 	def_object_events
 	object_event  3,  5, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MrPokemonsHouse_MrPokemonScript, -1
 	object_event  6,  5, SPRITE_OAK, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MR_POKEMONS_HOUSE_OAK
-	object_event  4,  4, SPRITE_BOOK_PAPER_TOHODEX, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOT_TOHODEX_FROM_OAK
+	object_event  4,  4, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOT_POKEDEX_FROM_OAK
 
 	object_const_def
 	const MRPOKEMONSHOUSE_GENTLEMAN
 	const MRPOKEMONSHOUSE_OAK
-	const MRPOKEMONSHOUSE_TOHODEX
+	const MRPOKEMONSHOUSE_POKEDEX
 
 MrPokemonsHouseTrigger0:
 	sdefer .MrPokemonEvent
@@ -98,8 +98,8 @@ MrPokemonsHouse_OakScript:
 	showtext MrPokemonsHouse_OakText1
 	turnobject MRPOKEMONSHOUSE_OAK, UP
 	pause 10
-	applymovement MRPOKEMONSHOUSE_TOHODEX, MrPokemonsHouse_OakTakesTohodex
-	disappear MRPOKEMONSHOUSE_TOHODEX
+	applymovement MRPOKEMONSHOUSE_POKEDEX, MrPokemonsHouse_OakTakesTohodex
+	disappear MRPOKEMONSHOUSE_POKEDEX
 	pause 10
 	turnobject MRPOKEMONSHOUSE_OAK, LEFT
 	pause 10
@@ -107,7 +107,7 @@ MrPokemonsHouse_OakScript:
 	writetext MrPokemonsHouse_GetDexText
 	playsound SFX_ITEM
 	waitsfx
-	setflag ENGINE_TOHODEX
+	setflag ENGINE_POKEDEX
 	writetext MrPokemonsHouse_OakText2
 	waitbutton
 	closetext

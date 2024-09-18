@@ -1,6 +1,6 @@
 ; StartMenu.Items indexes
 	const_def
-	const STARTMENUITEM_TOHODEX  ; 0
+	const STARTMENUITEM_POKEDEX  ; 0
 	const STARTMENUITEM_POKEMON  ; 1
 	const STARTMENUITEM_PACK     ; 2
 	const STARTMENUITEM_STATUS   ; 3
@@ -218,7 +218,7 @@ endr
 	ld hl, wStatusFlags
 	bit 0, [hl]
 	jr z, .no_tohodex
-	xor a ; STARTMENUITEM_TOHODEX
+	xor a ; STARTMENUITEM_POKEDEX
 	call .AppendMenuList
 .no_tohodex
 
