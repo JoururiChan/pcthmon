@@ -282,7 +282,7 @@ StackDexGraphics:
 	ld a, HIGH(wLCDTohodex)
 	ldh [hFunctionTargetHi], a
 
-	ld a, CGB_POKEDEX
+	ld a, CGB_TOHODEX
 	call GetCGBLayout
 
 	ld a, 4

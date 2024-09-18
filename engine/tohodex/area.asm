@@ -209,7 +209,7 @@ _Tohodex_Area:
 .switch_dex_screen
 	; Restore previous palettes.
 	push hl
-	ld a, CGB_POKEDEX_PREPARE_ONLY
+	ld a, CGB_TOHODEX_PREPARE_ONLY
 	call GetCGBLayout
 	call Tohodex_GetCursorMon
 	pop hl

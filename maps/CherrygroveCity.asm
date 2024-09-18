@@ -154,7 +154,7 @@ CherrygroveRivalTriggerNorth:
 	end
 
 CherrygroveYoungsterScript:
-	checkflag ENGINE_POKEDEX
+	checkflag ENGINE_TOHODEX
 	iftrue_jumptextfaceplayer CherrygroveYoungsterText_HaveTohodex
 	jumpthistextfaceplayer
 

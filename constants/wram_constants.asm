@@ -73,7 +73,7 @@ DEF NUM_FRAMES EQU const_value
 	const_def 3
 	const RUNNING_SHOES  ; 3
 	const CLOCK_FORMAT   ; 4
-	const POKEDEX_UNITS  ; 5
+	const TOHODEX_UNITS  ; 5
 	const BATTLE_SWITCH  ; 6
 	const BATTLE_PREDICT ; 7
 DEF FONT_MASK EQU %00000111
@@ -228,7 +228,7 @@ DEF SPAWN_LEAF  EQU 2
 
 ; wStatusFlags::
 	const_def
-	const STATUSFLAGS_POKEDEX_F                  ; 0
+	const STATUSFLAGS_TOHODEX_F                  ; 0
 	const STATUSFLAGS_UNOWN_DEX_F                ; 1
 	const STATUSFLAGS_FLASH_F                    ; 2
 	const STATUSFLAGS_CAUGHT_POKERUS_F           ; 3

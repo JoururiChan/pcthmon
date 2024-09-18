@@ -224,7 +224,7 @@ BattleAnimFrameData:
 	dw .Frameset_FlashCannonSparks       ; BATTLEANIMFRAMESET_FLASH_CANNON_SPARKS
 	dw .Frameset_TinyGlow                ; BATTLEANIMFRAMESET_TINY_GLOW
 	dw .Frameset_PulsingGlow             ; BATTLEANIMFRAMESET_PULSING_SPARKLE
-	dw .Frameset_OctazookaSmoke          ; BATTLEANIMFRAMESET_OCTAZOOKA_SMOKE
+	dw .Frameset_OctazookaSmoke          ; BATTLEANIMFRAMESET_BLACK_RIPPLE_SMOKE
 	dw .Frameset_InkSplash               ; BATTLEANIMFRAMESET_INK_SPLASH
 	dw .Frameset_SmokePuff               ; BATTLEANIMFRAMESET_SMOKE_PUFF
 	dw .Frameset_BubbleSplash            ; BATTLEANIMFRAMESET_BUBBLE_SPLASH
@@ -240,8 +240,8 @@ BattleAnimFrameData:
 	dw .Frameset_EnergyOrbLong           ; BATTLEANIMFRAMESET_ENERGY_ORB_LONG
 	dw .Frameset_VoltSwitch              ; BATTLEANIMFRAMESET_VOLT_SWITCH
 	dw .Frameset_DischargeSparksN        ; BATTLEANIMFRAMESET_DISCHARGE_SPARKS_N
-	dw .Frameset_HoneClawsLeft           ; BATTLEANIMFRAMESET_HONE_CLAWS_LEFT
-	dw .Frameset_HoneClawsRight          ; BATTLEANIMFRAMESET_HONE_CLAWS_RIGHT
+	dw .Frameset_HoneClawsLeft           ; BATTLEANIMFRAMESET_HONE_TOOLS_LEFT
+	dw .Frameset_HoneClawsRight          ; BATTLEANIMFRAMESET_HONE_TOOLS_RIGHT
 	dw .Frameset_Hurricane               ; BATTLEANIMFRAMESET_HURRICANE
 	dw .Frameset_GrowingHeart            ; BATTLEANIMFRAMESET_GROWING_HEART
 
@@ -1702,17 +1702,17 @@ BattleAnimFrameData:
 	battleoamend
 
 .Frameset_HoneClawsLeft:
-	battleoamframe BATTLEANIMOAMSET_HONE_CLAWS_1,  1
-	battleoamframe BATTLEANIMOAMSET_HONE_CLAWS_2,  1
-	battleoamframe BATTLEANIMOAMSET_HONE_CLAWS_3,  2
-	battleoamframe BATTLEANIMOAMSET_HONE_CLAWS_4,  1
+	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_1,  1
+	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_2,  1
+	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_3,  2
+	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_4,  1
 	battleoamdelete
 
 .Frameset_HoneClawsRight:
-	battleoamframe BATTLEANIMOAMSET_HONE_CLAWS_1,  1, OAM_X_FLIP
-	battleoamframe BATTLEANIMOAMSET_HONE_CLAWS_2,  1, OAM_X_FLIP
-	battleoamframe BATTLEANIMOAMSET_HONE_CLAWS_3,  2, OAM_X_FLIP
-	battleoamframe BATTLEANIMOAMSET_HONE_CLAWS_4,  1, OAM_X_FLIP
+	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_1,  1, OAM_X_FLIP
+	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_2,  1, OAM_X_FLIP
+	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_3,  2, OAM_X_FLIP
+	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_4,  1, OAM_X_FLIP
 	battleoamdelete
 
 .Frameset_Hurricane:
