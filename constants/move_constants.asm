@@ -3,7 +3,7 @@
 ; - Moves (see data/moves/moves.asm)
 ; - MoveNames (see data/moves/names.asm)
 ; - MoveDescriptions (see data/moves/descriptions.asm)
-; - BattleAnimations (see data/moves/animations.asm)
+; - BattleAnimations (see data/moves/animation_pointers.asm)
 	const_def
 	const NO_MOVE      ; $00
 	const ACROBATICS   ; $01
@@ -258,41 +258,41 @@
 if !DEF(FAITHFUL)
 DEF BRICK_BREAK EQU ROCK_SMASH
 endc
-	const WHIRLPOOL    ; $fa
-	const DARK_PULSE   ; $fb
-	const MOONBLAST    ; $fc
-	const PLAY_ROUGH   ; $fd
-	const DISARM_VOICE ; $fe
-	const STRUGGLE     ; $ff
+	const WHIRLPOOL     ; $fa
+	const DARK_PULSE    ; $fb
+	const MOONBLAST     ; $fc
+	const PLAY_ROUGH    ; $fd
+	const DISARM_VOICE  ; $fe
+	const STRUGGLE      ; $ff
 DEF NUM_ATTACKS EQU const_value - 1
 ; Battle animations use the same constants as the moves up to this point
 	; These animations don't play if battle anims are disabled.
 	const_next $100
 	; Pseudo-moves (replaces default move anim for certain species)
-	const ANIM_FURY_ATTACK       ; $100
-	const ANIM_MILK_DRINK        ; $101
-	const ANIM_WITHDRAW          ; $102
-	const ANIM_HARDEN            ; $103
+	const ANIM_FURY_ATTACK        ; $100
+	const ANIM_MILK_DRINK         ; $101
+	const ANIM_WITHDRAW           ; $102
+	const ANIM_HARDEN             ; $103
 
-	const ANIM_SLP               ; $104
-	const ANIM_BRN               ; $105
-	const ANIM_PSN               ; $106
-	const ANIM_SAP               ; $107
-	const ANIM_FRZ               ; $108
-	const ANIM_PAR               ; $109
-	const ANIM_IN_LOVE           ; $10a
-	const ANIM_IN_SANDSTORM      ; $10b
-	const ANIM_IN_HAIL           ; $10c
-	const ANIM_UNDER_CURSE       ; $10d
-	const ANIM_CONFUSED          ; $10e
-	const ANIM_STAT_UP           ; $10f
-	const ANIM_STAT_DOWN         ; $110
-	const ANIM_SHARPEN           ; $111
+	const ANIM_SLP                ; $104
+	const ANIM_BRN                ; $105
+	const ANIM_PSN                ; $106
+	const ANIM_SAP                ; $107
+	const ANIM_FRZ                ; $108
+	const ANIM_PAR                ; $109
+	const ANIM_IN_LOVE            ; $10a
+	const ANIM_IN_SANDSTORM       ; $10b
+	const ANIM_IN_HAIL            ; $10c
+	const ANIM_UNDER_CURSE        ; $10d
+	const ANIM_CONFUSED           ; $10e
+	const ANIM_STAT_UP            ; $10f
+	const ANIM_STAT_DOWN          ; $110
+	const ANIM_SHARPEN            ; $111
 
 	; These animations play no matter the battle animation settings
-	const ANIM_THROW_POKE_BALL   ; $112
-	const ANIM_SEND_OUT_MON      ; $113
-	const ANIM_RETURN_MON        ; $114
+	const ANIM_THROW_POKE_BALL    ; $112
+	const ANIM_SEND_OUT_MON       ; $113
+	const ANIM_RETURN_MON         ; $114
 
 	; Generic "hit" animations
 	const ANIM_MISS              ; $115

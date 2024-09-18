@@ -97,12 +97,12 @@ VermilionGymSurgeScript:
 .LyrasEgg:
 	specialphonecall SPECIALCALL_LYRASEGG
 .FightDone:
-	checkevent EVENT_GOT_TM43_BLAZE_STAR
+	checkevent EVENT_GOT_TM57_BLAZE_STAR
 	iftrue_jumpopenedtext LtSurgeFightDoneText
 	writetext LtSurgeThunderBadgeText
 	promptbutton
 	verbosegivetmhm TM_BLAZE_STAR
-	setevent EVENT_GOT_TM43_BLAZE_STAR
+	setevent EVENT_GOT_TM57_BLAZE_STAR
 	jumpopenedtext SurgeOutroText
 
 GenericTrainerGentlemanGregory:

@@ -23,8 +23,8 @@ PosterClerkScript:
 	faceplayer
 	opentext
 	writetext PosterClerkText
-.Start:
 	special PlaceMoneyTopRight
+.Start:
 	loadmenu .MenuData
 	verticalmenu
 	closewindow
@@ -42,6 +42,7 @@ PosterClerkScript:
 	setevent EVENT_DECO_POSTER_3
 	writetext BoughtMarillPosterText
 	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
 	waitbutton
 	writetext MarillPosterSentText
 	waitbutton
@@ -56,6 +57,7 @@ PosterClerkScript:
 	setevent EVENT_DECO_POSTER_2
 	writetext BoughtCMeiraPosterText
 	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
 	waitbutton
 	writetext CMeiraPosterSentText
 	waitbutton
@@ -70,6 +72,7 @@ PosterClerkScript:
 	setevent EVENT_DECO_POSTER_1
 	writetext BoughtEKikuriPosterText
 	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
 	waitbutton
 	writetext EKikuriPosterSentText
 	waitbutton

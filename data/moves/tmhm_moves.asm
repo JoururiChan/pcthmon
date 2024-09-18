@@ -65,7 +65,7 @@ TMHMMoves:
 	db ACROBATICS   ; TM62 (Route 39 Farmhouse)
 	db WATER_PULSE  ; TM63 (Misty)
 	db EXPLOSION    ; TM64 (Underground)
-	db SHADOW_HIT  ; TM65 (Lake of Rage)
+	db SHADOW_HIT  ; TM65 (Lavender Soul House)
 	db POISON_JAB   ; TM66 (Janine)
 	db AVALANCHE    ; TM67 (Pryce)
 	db GUNGNIR  ; TM68 (Celadon Game Corner)

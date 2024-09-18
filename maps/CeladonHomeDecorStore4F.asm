@@ -44,6 +44,7 @@ BigLaprasDollScript:
 	setevent EVENT_DECO_BIG_LAPRAS_DOLL
 	writetext BoughtBigLaprasDollText
 	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
 	waitbutton
 	jumpopenedtext BigLaprasDollSentText
 
@@ -61,6 +62,7 @@ BigSnorlaxDollScript:
 	setevent EVENT_DECO_BIG_SNORLAX_DOLL
 	writetext BoughtBigSnorlaxDollText
 	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
 	waitbutton
 	jumpopenedtext BigSnorlaxDollSentText
 
@@ -78,6 +80,7 @@ BigCRumiaDollScript:
 	setevent EVENT_DECO_BIG_CRUMIA_DOLL
 	writetext BoughtBigCRumiaDollText
 	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
 	waitbutton
 	jumpopenedtext BigCRumiaDollSentText
 

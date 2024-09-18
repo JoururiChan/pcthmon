@@ -202,7 +202,7 @@ CReimuPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
-	refreshscreen
+	reanchormap
 	pokepic CREIMU
 	cry CREIMU
 	waitbutton
@@ -242,7 +242,7 @@ CMarisaPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
-	refreshscreen
+	reanchormap
 	pokepic CMARISA
 	cry CMARISA
 	waitbutton
@@ -280,7 +280,7 @@ CSakuyaPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
-	refreshscreen
+	reanchormap
 	pokepic CSAKUYA
 	cry CSAKUYA
 	waitbutton
@@ -457,7 +457,7 @@ ElmAskBattleScript:
 	setevent EVENT_BATTLED_PROF_ELM
 	startbattle
 	reloadmap
-	special HealPartyEvenForNuzlocke
+	special HealParty
 	jumptextfaceplayer ElmAfterBattleText
 
 ElmGiveTicketScript:
@@ -623,7 +623,7 @@ LyraBattleScript:
 	turnobject PLAYER, DOWN
 	applymovement ELMSLAB_LYRA, LyraLeavesMovement
 	disappear ELMSLAB_LYRA
-	special HealPartyEvenForNuzlocke
+	special HealParty
 	setscene $5
 	playmapmusic
 	end

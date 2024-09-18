@@ -1,16 +1,22 @@
 Tohodex:
-	xor a
+	ld a, [wDexPrevCursorPos]
 	ld [wTohodex_CursorPos], a
+	ld a, [wDexPrevOffset]
 	ld [wTohodex_Offset], a
-	call StackDexGraphics
 
+	call StackDexGraphics
 	call Tohodex_Main
 
-	xor a
+	ld a, [wDexPrevCursorPos]
 	ld [wTohodex_CursorPos], a
 
-	jmp Tohodex_MainLoop
+	call Tohodex_MainLoop
 
+	ld a, [wTohodex_CursorPos]
+	ld [wDexPrevCursorPos], a
+	ld a, [wTohodex_Offset]
+	ld [wDexPrevOffset], a
+	ret
 
 Tohodex_LoadTilemap:
 	ld a, BANK(wDexTilemap)
@@ -639,9 +645,9 @@ Tohodex_SetCursorMon:
 	ld c, SCREEN_WIDTH * 6 - 2
 	call .ShiftRowData
 	hlcoord 19, 9
-	ld [hl], POKEDEX_SCROLLTILE_TOP
+	ld [hl], Tohodex_SCROLLTILE_TOP
 	hlcoord 19, 12
-	ld [hl], POKEDEX_SCROLLTILE_BAR
+	ld [hl], Tohodex_SCROLLTILE_BAR
 	ld c, b
 	call Tohodex_UpdateRow
 	xor a
@@ -1116,7 +1122,7 @@ _Tohodex_Description:
 
 	; Possibly adjust units of display.
 	ld a, [wOptions2]
-	bit POKEDEX_UNITS, a
+	bit Tohodex_UNITS, a
 	jr nz, .units_ok
 
 	hlcoord 15, 7
@@ -1174,7 +1180,7 @@ endr
 	ldh [hMultiplier], a
 	ld e, a
 	ld a, [wOptions2]
-	bit POKEDEX_UNITS, a
+	bit Tohodex_UNITS, a
 	jr nz, .metric_height
 
 	; Multiply by 500/127
@@ -1232,7 +1238,7 @@ endr
 	ld a, BANK(PokemonBodyData)
 	call GetFarWord
 	ld a, [wOptions2]
-	bit POKEDEX_UNITS, a
+	bit Tohodex_UNITS, a
 	jr nz, .metric_cost
 
 	; Approximate as follows: lbs = ((kg * 43 * 35 * 192) + (kg * 4)) >> 17.
@@ -1686,7 +1692,7 @@ Tohodex_Bio:
 	ld e, a
 	ld d, 0
 	ld a, [wInitialOptions]
-	bit SCALED_EXP, a ; should we use gen 5+ formula?
+	bit SCALED_EXP_OPT, a ; should we use gen 5+ formula?
 	jr z, .got_exp
 	ld a, [wCurPartySpecies]
 	ld c, a
@@ -1842,7 +1848,7 @@ Tohodex_Bio:
 .AllString:
 	db "100%@"
 
-INCLUDE "data/pokedex_bio.asm"
+INCLUDE "data/Tohodex_bio.asm"
 
 Tohodex_Stats:
 	xor a
@@ -2813,7 +2819,7 @@ else
 endc
 BodyColorPals:
 	table_width 2, BodyColorPals
-INCLUDE "gfx/pokedex/body_colors.pal"
+INCLUDE "gfx/Tohodex/body_colors.pal"
 	assert_table_length NUM_BODY_COLORS
 
 Tohodex_InitData:
@@ -3151,7 +3157,7 @@ Tohodex_LoadUndiscoveredPokepic:
 	ret
 
 Tohodex_QuestionMarkPal:
-INCLUDE "gfx/pokedex/question_mark.pal"
+INCLUDE "gfx/Tohodex/question_mark.pal"
 
 Tohodex_SwitchMonInfoBank:
 ; Switch which bank to store tile data in. Tiles are loaded as follows:
@@ -3535,4 +3541,4 @@ Tohodex_GetDexEntryPointer:
 	ret
 
 DexModeSearchPals:
-INCLUDE "gfx/pokedex/mode_search.pal"
+INCLUDE "gfx/Tohodex/mode_search.pal"

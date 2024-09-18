@@ -297,7 +297,7 @@ EggMovePointers::
 
 	dw NoEggMoves                ; Mewtwo (Armored Form)
 
-	dw NoEggMoves                ; Dundunsparse (Three Segment Form)
+	dw DunsparceEggMoves         ; Dundunsparse (Three Segment Form)
 
 	dw NoEggMoves     ; EMima (Alolan Form)
 	dw NoEggMoves                ; CElis (Alolan Form)

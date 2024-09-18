@@ -457,6 +457,11 @@ EndTurn:
 	jmp ResetDamage
 
 CantMove:
+	; Reset Destiny Bond state.
+	ld a, BATTLE_VARS_SUBSTATUS2
+	call GetBattleVarAddr
+	res SUBSTATUS_DESTINY_BOND, [hl]
+
 	call .cancel_fly_dig
 	call CheckRampageStatusAndGetRolloutCount ; hl becomes pointer to user substatus3
 	jr z, .rampage_done
@@ -627,6 +632,11 @@ CheckOpponentAffection:
 CheckAffection:
 ; Returns an Affection level between 0-3.
 ; If affection level is 0, also return z.
+	; Affection has to be enabled.
+	ld a, [wInitialOptions]
+	bit AFFECTION_OPT, a
+	jr z, .no_affection
+
 	; Affection doesn't function in Link or Battle Tower battles.
 	ld a, [wLinkMode]
 	and a
@@ -2219,7 +2229,21 @@ BattleCommand_checkpriority:
 .check_prankster
 	call GetTrueUserAbility
 	cp PRANKSTER
+	jr z, .prankster
+	call GetOpponentAbilityAfterMoldBreaker
+	cp SOUNDPROOF
 	ret nz
+
+	; Soundproof vs status moves is handled here.
+	ld a, BATTLE_VARS_MOVE_ANIM
+	call GetBattleVar
+	ld hl, SoundMoves
+	call IsInByteArray
+	ld b, ATKFAIL_ABILITY
+	jr c, .attack_fails
+	ret
+
+.prankster
 	ld a, BATTLE_VARS_MOVE_CATEGORY
 	call GetBattleVar
 	cp STATUS
@@ -2347,6 +2371,8 @@ BattleCommand_moveanimnosub:
 	; We hit, mark physical/special damage on opponent.
 	ld a, BATTLE_VARS_MOVE_CATEGORY
 	call GetBattleVar
+	cp STATUS
+	jr z, .movestate_done
 	cp PHYSICAL
 	ld a, 1 << PHYSICAL
 	jr z, .got_cat
@@ -2367,6 +2393,7 @@ BattleCommand_moveanimnosub:
 	ld [hl], a
 	pop hl
 
+.movestate_done
 	ldh a, [hBattleTurn]
 	and a
 	ld de, wPlayerRolloutCount
@@ -3378,7 +3405,7 @@ CheckThroatSpray:
 	ld a, [wAttackMissed]
 	and a
 	ret nz
-	
+
 	call HasUserFainted
 	ret z
 
@@ -3386,7 +3413,7 @@ CheckThroatSpray:
 	ld a, b
 	cp HELD_THROAT_SPRAY
 	ret nz
-	
+
 	push bc
 	call GetCurItemName
 	ld a, BATTLE_VARS_MOVE_ANIM
@@ -3972,7 +3999,7 @@ WeatherDefenseBoost:
 	cp b
 	ld a, c
 	pop bc
-	ret z
+	ret nz
 	push bc
 	push de
 	push hl
@@ -5023,8 +5050,8 @@ SapHealth:
 	; for Drain Kiss, we want 75% drain instead of 50%
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
-	cp DRAIN_KISS
-	jr nz, .skip_drain_kiss
+	cp DRAINING_KISS
+	jr nz, .skip_draining_kiss
 	ld h, b
 	ld l, c
 	srl b
@@ -5033,7 +5060,7 @@ SapHealth:
 	ld b, h
 	ld c, l
 
-.skip_drain_kiss
+.skip_draining_kiss
 	call GetHPAbsorption
 
 	; check for Liquid Ooze
@@ -5710,6 +5737,22 @@ FlinchTarget:
 	set SUBSTATUS_FLINCHED, [hl]
 	jmp EndRechargeOpp
 
+HasOpponentDamagedUs:
+; Check if the opponent has damaged us for the given category bits in a
+; this turn. Returns nz if they have.
+	push bc
+	ld b, a
+	ldh a, [hBattleTurn]
+	and a
+	ld a, b
+	pop bc
+	jr nz, .got_cat_opp_side
+	swap a
+.got_cat_opp_side
+	ld hl, wMoveState
+	and [hl]
+	ret z
+	; fallthrough
 CheckOpponentWentFirst:
 ; Returns a=0, z if user went first
 ; Returns a=1, nz if opponent went first
@@ -6312,7 +6355,8 @@ BattleCommand_conditionalboost:
 	jmp BattleJumptable
 
 DoAvalanche:
-	call CheckOpponentWentFirst
+	ld a, 1 << PHYSICAL | 1 << SPECIAL
+	call HasOpponentDamagedUs
 	jr DoubleDamageIfNZ
 
 DoAcrobatics:

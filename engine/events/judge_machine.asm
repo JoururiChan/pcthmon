@@ -24,6 +24,8 @@ JudgeMachine:
 ; Choose a party Tohomon
 	ld hl, NewsMachineWhichMonText
 	call PrintText
+	call BackupSprites
+	call ClearSprites
 	farcall SelectMonFromParty
 	jr c, .cancel
 ; Can't judge an Egg

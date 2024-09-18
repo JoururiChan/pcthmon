@@ -125,8 +125,11 @@ DrawEnemyHUDBorder:
 	ld a, [wBattleMode]
 	dec a
 	ret nz
-	call DoesNuzlockeModePreventCapture
-	jr c, .nuzlocke
+	call CheckNuzlockeFlags
+	jr nc, .no_nuzlocke
+	hlcoord 0, 1
+	ld [hl], "<NONO>"
+.no_nuzlocke
 	ld a, [wOTPartyMon1Species]
 	ld c, a
 	ld a, [wOTPartyMon1Form]
@@ -135,11 +138,6 @@ DrawEnemyHUDBorder:
 	ret z
 	hlcoord 1, 1
 	ld [hl], "<BALL>"
-	ret
-
-.nuzlocke
-	hlcoord 1, 1
-	ld [hl], "<NONO>"
 	ret
 
 PlaceHUDBorderTiles:
@@ -232,17 +230,12 @@ _ShowLinkBattleParticipants:
 	call LinkBattle_TrainerHuds
 	ld a, CGB_PLAIN
 	call GetCGBLayout
-	call SetPalettes
+	call SetDefaultBGPAndOBP
 	ld a, $e4
 	ldh [rOBP0], a
 	ret
 
-DoesNuzlockeModePreventCapture:
-	; Is nuzlocke mode on?
-	ld a, [wInitialOptions]
-	bit NUZLOCKE_MODE, a
-	jr z, .no
-
+CheckNuzlockeFlags:
 	; Is tutorial battle?
 	ld a, [wBattleType]
 	cp BATTLETYPE_TUTORIAL

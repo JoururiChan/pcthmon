@@ -46,8 +46,8 @@ CeladonHomeDecorStore1FClerkScript:
 	faceplayer
 	opentext
 	writetext CeladonHomeDecorStore1FClerkText
-.Start:
 	special PlaceMoneyTopRight
+.Start:
 	loadmenu .MenuData
 	verticalmenu
 	closewindow
@@ -65,6 +65,7 @@ CeladonHomeDecorStore1FClerkScript:
 	setevent EVENT_DECO_CREIMU_DOLL
 	writetext BoughtCReimuDollText
 	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
 	waitbutton
 	writetext CReimuDollSentText
 	waitbutton
@@ -79,6 +80,7 @@ CeladonHomeDecorStore1FClerkScript:
 	setevent EVENT_DECO_CMARISA_DOLL
 	writetext BoughtCMarisaDollText
 	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
 	waitbutton
 	writetext CMarisaDollSentText
 	waitbutton
@@ -93,6 +95,7 @@ CeladonHomeDecorStore1FClerkScript:
 	setevent EVENT_DECO_CSAKUYA_DOLL
 	writetext BoughtCSakuyaDollText
 	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
 	waitbutton
 	writetext CSakuyaDollSentText
 	waitbutton

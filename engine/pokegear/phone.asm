@@ -8,7 +8,7 @@ TohogearPhone_Init:
 
 	ld a, CGB_TOHOGEAR_PALS
 	call GetCGBLayout
-	call SetPalettes
+	call SetDefaultBGPAndOBP
 
 	call InitTohogearTilemap
 	call ExitTohogearRadio_HandleMusic

@@ -69,6 +69,8 @@ HandleBetweenTurnEffects:
 	; gravity
 	; terrain (dissipating, grass terrain recovery is elsewhere)
 	call HandleEndturnBlockB
+	call CheckFaint
+	ret c
 	; Things below do not exist in 7gen -- it's here to avoid some quirks
 	call HandleLeppaBerry
 	call HandleHealingItems
@@ -189,14 +191,14 @@ HandleBetweenTurnEffects:
 	jr nz, .not_both2
 
 	farcall SpikesDamageBoth
-	farcall RunBothActivationAbilities
+	farcall RunBothEntryAbilities
 	jmp .endturn_loop
 .not_both2
 	call SetEnemyTurn
 	dec e
 	call z, SetPlayerTurn
 	farcall SpikesDamage
-	farcall RunActivationAbilities
+	farcall RunEntryAbilities
 	jmp .endturn_loop
 
 HandleEndturnBlockA:
@@ -262,7 +264,7 @@ HandleWeather:
 	and a ; cp WEATHER_NONE
 	ret z
 
-; sandstorm/hail damage, abilities like rain dish, etc.
+	; sandstorm/hail damage, abilities like rain dish, etc.
 	xor a
 	ld [wAlreadySawWeather], a
 	call SetFastestTurn

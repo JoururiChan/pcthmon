@@ -1264,12 +1264,13 @@ KnockOff:
 	conditionalboost
 	moveanim
 	failuretext
+	knockoff FALSE
 	applydamage
 	criticaltext
 	supereffectivetext
-	knockoff
 	postfainteffects
 	posthiteffects
+	knockoff TRUE
 	endmove
 
 BugBite:
@@ -1286,10 +1287,11 @@ BugBite:
 	damagevariation
 	moveanim
 	failuretext
-	bugbite ; before applydamage to steal HP berries before they take effect
+	bugbite FALSE
 	applydamage
 	criticaltext
 	supereffectivetext
+	bugbite TRUE
 	postfainteffects
 	posthiteffects
 	endmove
@@ -1479,6 +1481,7 @@ Reversal:
 	hastarget
 	checkhit
 	checkpriority
+	critical
 	constantdamage
 	stab
 	moveanim
@@ -1597,7 +1600,6 @@ ShadowDance:
 	checkobedience
 	usedmovetext
 	doturn
-	checkpriority
 	perishsong
 	endmove
 
