@@ -1122,7 +1122,7 @@ _Tohodex_Description:
 
 	; Possibly adjust units of display.
 	ld a, [wOptions2]
-	bit TOHODEX_UNITS, a
+	bit Tohodex_Units, a
 	jr nz, .units_ok
 
 	hlcoord 15, 7
@@ -1180,7 +1180,7 @@ endr
 	ldh [hMultiplier], a
 	ld e, a
 	ld a, [wOptions2]
-	bit TOHODEX_UNITS, a
+	bit Tohodex_Units, a
 	jr nz, .metric_height
 
 	; Multiply by 500/127
@@ -1238,7 +1238,7 @@ endr
 	ld a, BANK(PokemonBodyData)
 	call GetFarWord
 	ld a, [wOptions2]
-	bit TOHODEX_UNITS, a
+	bit Tohodex_Units, a
 	jr nz, .metric_cost
 
 	; Approximate as follows: lbs = ((kg * 43 * 35 * 192) + (kg * 4)) >> 17.

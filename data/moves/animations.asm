@@ -2271,12 +2271,12 @@ BattleAnim_Hurricane:
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $4, $0
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $4, $0
 	anim_obj ANIM_OBJ_HURRICANE, 132, 56, $38
-	anim_obj ANIM_OBJ_SpidersNest, 8, 24, $10
-	anim_obj ANIM_OBJ_SpidersNest, 8, 48, $2
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 24, $10
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 48, $2
 	anim_wait 4
-	anim_obj ANIM_OBJ_SpidersNest, 8, 56, $c
-	anim_obj ANIM_OBJ_SpidersNest, 8, 80, $4
-	anim_obj ANIM_OBJ_SpidersNest, 8, 104, $e
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 56, $c
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 80, $4
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 104, $e
 .loop
 	anim_sound 0, 1, SFX_THUNDER
 	anim_wait 4
@@ -2677,11 +2677,11 @@ BattleAnim_NightSlash:
 	anim_2gfx ANIM_GFX_CUT, ANIM_GFX_WIND_BG
 	anim_bgp $1b
 	anim_obp0 $c0
-	anim_obj ANIM_OBJ_SpidersNest, 8, 24, $10
-	anim_obj ANIM_OBJ_SpidersNest, 8, 88, $8
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 24, $10
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 88, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_SpidersNest, 8, 32, $6
-	anim_obj ANIM_OBJ_SpidersNest, 8, 80, $4
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 32, $6
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 80, $4
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $08, $2, $0
 	anim_sound 0, 1, SFX_CUT
 	anim_obj ANIM_OBJ_CUT_HORIZONTAL, 112, 48, $0
@@ -5327,23 +5327,23 @@ BattleAnimSub_QuickAttack:
 	anim_ret
 
 BattleAnimSub_SpidersNest:
-	anim_obj ANIM_OBJ_SpidersNest, 8, 24, $10
-	anim_obj ANIM_OBJ_SpidersNest, 8, 48, $2
-	anim_obj ANIM_OBJ_SpidersNest, 8, 88, $8
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 24, $10
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 48, $2
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 88, $8
 	anim_wait 4
-	anim_obj ANIM_OBJ_SpidersNest, 8, 32, $6
-	anim_obj ANIM_OBJ_SpidersNest, 8, 56, $c
-	anim_obj ANIM_OBJ_SpidersNest, 8, 80, $4
-	anim_obj ANIM_OBJ_SpidersNest, 8, 104, $e
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 32, $6
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 56, $c
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 80, $4
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 104, $e
 	anim_ret
 
 BattleAnimSub_SpidersNestMinor:
-	anim_obj ANIM_OBJ_SpidersNest, 8, 24, $10
-	anim_obj ANIM_OBJ_SpidersNest, 8, 48, $2
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 24, $10
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 48, $2
 	anim_wait 4
-	anim_obj ANIM_OBJ_SpidersNest, 8, 56, $c
-	anim_obj ANIM_OBJ_SpidersNest, 8, 80, $4
-	anim_obj ANIM_OBJ_SpidersNest, 8, 104, $e
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 56, $c
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 80, $4
+	anim_obj ANIM_OBJ_SPIDERS_NEST, 8, 104, $e
 	anim_ret
 
 BattleAnimSub_EnergyOrb:
