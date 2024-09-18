@@ -3055,7 +3055,7 @@ BattleAnim_LeechLife:
 	anim_wait 28
 	anim_ret
 
-BattleAnim_Lunacy_Eyes:
+BattleAnim_LunacyEyes:
 	anim_1gfx ANIM_GFX_SHINE
 	anim_call BattleAnim_UserObj_2Row
 	anim_sound 0, 1, SFX_CUT

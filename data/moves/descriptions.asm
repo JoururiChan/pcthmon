@@ -149,7 +149,7 @@ MoveDescriptions::
 	dw LunarBulletDescription
 	dw SporeDescription
 	dw FlashDescription
-	dw Lunacy_EyesDescription
+	dw LunacyEyesDescription
 	dw SplashDescription
 	dw DragonDanceDescription
 	dw BugStrikesDescription
@@ -412,7 +412,7 @@ HurricaneDescription:
 
 DynamicpunchDescription:
 SporeDescription:
-Lunacy_EyesDescription:
+LunacyEyesDescription:
 DollStringsDescription:
 	text "An attack that"
 	next "confuses the foe."
