@@ -122,7 +122,7 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db         POKEDEX_TEXT, 1
+	db         TOHODEX_TEXT, 1
 	db  TOSHINOBU_MATSUMIYA, 2
 
 	db CREDITS_WAIT, 12

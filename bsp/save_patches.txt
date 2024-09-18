@@ -348,7 +348,7 @@ ConvertMonIndexesTo9Bit:
 ; then we need to shift caught data/unown dex forward to account for the bigger seen flag array
 ; (we've already converted unown dex to a flag array, so we have a buffer to work with).
 ; We'll handle caught data for forms later.
-	set #1, POKEDEX_CAUGHT_OFFSET
+	set #1, TOHODEX_CAUGHT_OFFSET
 	call GetGameDataPointer
 	seek #result
 	set #1, 32
@@ -569,7 +569,7 @@ ConvertMonIndexesTo9Bit:
 	increment #temp
 	writebyte #temp
 .set_tohodex
-	set #1, POKEDEX_CAUGHT_OFFSET
+	set #1, TOHODEX_CAUGHT_OFFSET
 	call GetGameDataPointer
 	seek #result
 	add #1, #5, 0x13d ; note that #5 is off by +1 for actual index, since #address is +2 bytes ahead of form actually being checked
@@ -1230,7 +1230,7 @@ AddSnowtopMountainLandmark:
 	dh -1
 
 SetPlayerCaughtData:
-	set #1, POKEDEX_CAUGHT_OFFSET
+	set #1, TOHODEX_CAUGHT_OFFSET
 	call GetGameDataPointer
 	set #3, #result
 

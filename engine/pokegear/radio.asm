@@ -691,7 +691,7 @@ TohodexShow1:
 	ld [hl], a
 	call GetPokemonName
 	ld hl, TohodexShowText
-	ld a, POKEDEX_SHOW_2
+	ld a, TOHODEX_SHOW_2
 	jmp NextRadioLine
 
 TohodexShow2:
@@ -702,37 +702,37 @@ TohodexShow2:
 	call GetSpeciesAndFormIndex
 	call GetDexEntryPointer
 	call CopyDexEntryParts
-	ld a, POKEDEX_SHOW_3
+	ld a, TOHODEX_SHOW_3
 	jmp PrintRadioLine
 
 TohodexShow3:
 	call CopyDexEntry
-	ld a, POKEDEX_SHOW_4
+	ld a, TOHODEX_SHOW_4
 	jmp PrintRadioLine
 
 TohodexShow4:
 	call CopyDexEntry
-	ld a, POKEDEX_SHOW_5
+	ld a, TOHODEX_SHOW_5
 	jmp PrintRadioLine
 
 TohodexShow5:
 	call CopyDexEntry
-	ld a, POKEDEX_SHOW_6
+	ld a, TOHODEX_SHOW_6
 	jmp PrintRadioLine
 
 TohodexShow6:
 	call CopyDexEntry
-	ld a, POKEDEX_SHOW_7
+	ld a, TOHODEX_SHOW_7
 	jmp PrintRadioLine
 
 TohodexShow7:
 	call CopyDexEntry
-	ld a, POKEDEX_SHOW_8
+	ld a, TOHODEX_SHOW_8
 	jmp PrintRadioLine
 
 TohodexShow8:
 	call CopyDexEntry
-	ld a, POKEDEX_SHOW
+	ld a, TOHODEX_SHOW
 	jmp PrintRadioLine
 
 CopyDexEntry:

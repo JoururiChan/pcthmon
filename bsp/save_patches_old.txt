@@ -380,7 +380,7 @@ AdjustVariableSprites:
 	return
 
 LegendaryDogStatus:
-	set #1, POKEDEX_CAUGHT_OFFSET_v7
+	set #1, TOHODEX_CAUGHT_OFFSET_v7
 	call GetGameDataPointer
 	seek #result
 

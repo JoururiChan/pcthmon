@@ -83,7 +83,7 @@ CheckMagikarpLength:
 
 PrintMagikarpLength:
 	ld a, [wOptions2]
-	bit POKEDEX_UNITS, a
+	bit TOHODEX_UNITS, a
 	jr z, .imperial
 	ld hl, wStringBuffer1
 	ld de, wMagikarpLengthMm

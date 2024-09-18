@@ -1075,7 +1075,7 @@ LoadRadioStation:
 	ret
 
 LoadStation_TohodexShow:
-	ld a, POKEDEX_SHOW
+	ld a, TOHODEX_SHOW
 	ld de, TohodexShowName
 	jr LoadRadioStation
 
