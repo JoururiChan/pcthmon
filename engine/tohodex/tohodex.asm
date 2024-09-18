@@ -645,9 +645,9 @@ Tohodex_SetCursorMon:
 	ld c, SCREEN_WIDTH * 6 - 2
 	call .ShiftRowData
 	hlcoord 19, 9
-	ld [hl], Tohodex_SCROLLTILE_TOP
+	ld [hl], TOHODEX_SCROLLTILE_TOP
 	hlcoord 19, 12
-	ld [hl], Tohodex_SCROLLTILE_BAR
+	ld [hl], TOHODEX_SCROLLTILE_BAR
 	ld c, b
 	call Tohodex_UpdateRow
 	xor a

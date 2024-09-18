@@ -147,7 +147,7 @@
 	const POISON_JAB   ; $8b
 	const STEEL_FIST ; $8c
 	const LEECH_LIFE   ; $8d
-	const DRAIN_KISS   ; $8e
+	const DRAINING_KISS   ; $8e
 	const DIVE_KICK   ; $8f
 	const RECOLLECT    ; $90
 	const WATER_PULSE  ; $91

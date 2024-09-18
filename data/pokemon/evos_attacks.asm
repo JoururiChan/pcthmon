@@ -515,7 +515,7 @@ CSarielPlainEvosAttacks:
 	db 19, WING_ATTACK
 	db 22, HAIL
 	db 25, PWJ_NEEDLE
-	db 28, DRAIN_KISS
+	db 28, DRAINING_KISS
 	db 32, PSYBEAM
 	db 36, HYPNOSIS
 	db 41, WHITE_BIRD
@@ -548,7 +548,7 @@ SarielPlainEvosAttacks:
 	db 19, WING_ATTACK
 	db 22, HAIL
 	db 25, PWJ_NEEDLE
-	db 28, DRAIN_KISS
+	db 28, DRAINING_KISS
 	db 32, PSYBEAM
 	db 36, HYPNOSIS
 	db 41, WHITE_BIRD
@@ -570,7 +570,7 @@ SarielAlolanEvosAttacks:
 	db 19, WING_ATTACK
 	db 22, HAIL
 	db 25, PWJ_NEEDLE
-	db 28, DRAIN_KISS
+	db 28, DRAINING_KISS
 	db 32, PSYBEAM
 	db 36, HYPNOSIS
 	db 41, WHITE_BIRD
@@ -591,7 +591,7 @@ ESarielPlainEvosAttacks:
 	db 19, WING_ATTACK
 	db 22, HAIL
 	db 25, PWJ_NEEDLE
-	db 28, DRAIN_KISS
+	db 28, DRAINING_KISS
 	db 32, PSYBEAM
 	db 36, HYPNOSIS
 	db 41, WHITE_BIRD
@@ -1599,7 +1599,7 @@ CMugetsuEvosAttacks:
 	db 9, HYPNOSIS
 	db 13, DOUBLE_SLAP
 	db 17, HEADBUTT
-	db 21, DRAIN_KISS
+	db 21, DRAINING_KISS
 	db 24, SING
 	db 28, LIGHT_SCREEN
 	db 32, DREAM_EATER
@@ -1620,7 +1620,7 @@ MugetsuEvosAttacks:
 	db 9, HYPNOSIS
 	db 13, DOUBLE_SLAP
 	db 17, HEADBUTT
-	db 21, DRAIN_KISS
+	db 21, DRAINING_KISS
 	db 24, SING
 	db 28, LIGHT_SCREEN
 	db 32, DREAM_EATER
@@ -1641,7 +1641,7 @@ EMugetsuEvosAttacks:
 	db 9, HYPNOSIS
 	db 13, DOUBLE_SLAP
 	db 17, HEADBUTT
-	db 21, DRAIN_KISS
+	db 21, DRAINING_KISS
 	db 24, SING
 	db 28, LIGHT_SCREEN
 	db 32, DREAM_EATER
@@ -2054,7 +2054,7 @@ CMaiPlainEvosAttacks:
 	db 18, ICY_WIND
 	db 22, ENCORE
 	db 26, ATTRACT
-	db 29, DRAIN_KISS
+	db 29, DRAINING_KISS
 	db 33, WHITE_BIRD
 	db 37, ICE_BEAM
 	db 44, TRICK_ROOM
@@ -2101,7 +2101,7 @@ MaiEvosAttacks:
 	db 18, ICY_WIND
 	db 22, ENCORE
 	db 26, ATTRACT
-	db 29, DRAIN_KISS
+	db 29, DRAINING_KISS
 	db 33, WHITE_BIRD
 	db 37, ICE_BEAM
 	db 44, TRICK_ROOM
@@ -2120,7 +2120,7 @@ EMaiEvosAttacks:
 	db 18, ICY_WIND
 	db 22, ENCORE
 	db 26, ATTRACT
-	db 29, DRAIN_KISS
+	db 29, DRAINING_KISS
 	db 33, WHITE_BIRD
 	db 37, ICE_BEAM
 	db 44, TRICK_ROOM
@@ -2422,7 +2422,7 @@ CDaichanEvosAttacks:
 	db 14, RAZOR_LEAF
 	db 18, GROWTH
 	db 21, SPORE
-	db 25, DRAIN_KISS
+	db 25, DRAINING_KISS
 	db 29, U_TURN
 	db 33, LIGHT_SCREEN
 	db 37, FLOWER_SHOOT
@@ -2442,7 +2442,7 @@ DaichanEvosAttacks:
 	db 14, RAZOR_LEAF
 	db 18, GROWTH
 	db 21, SPORE
-	db 25, DRAIN_KISS
+	db 25, DRAINING_KISS
 	db 29, U_TURN
 	db 33, LIGHT_SCREEN
 	db 37, FLOWER_SHOOT
@@ -2461,7 +2461,7 @@ EDaichanPlainEvosAttacks:
 	db 14, RAZOR_LEAF
 	db 18, GROWTH
 	db 21, SPORE
-	db 25, DRAIN_KISS
+	db 25, DRAINING_KISS
 	db 29, U_TURN
 	db 33, LIGHT_SCREEN
 	db 37, FLOWER_SHOOT

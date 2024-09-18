@@ -59,7 +59,7 @@ CMimaEggMoves:
 	db KNOCK_OFF
 	db LIFE_COUNTER
 	db LIFE_BALANCE
-	db DRAIN_KISS
+	db DRAINING_KISS
 	db BLAZE_STAR
 	db $ff
 
@@ -69,7 +69,7 @@ CElisEggMoves:
 	db SPIRIT_VOICE
 	db POWER_TRICK
 	db SKILL_SWAP
-	db DRAIN_KISS
+	db DRAINING_KISS
 	db SWEET_KISS
 	db $ff
 
@@ -226,7 +226,7 @@ CMugetsuEggMoves:
 CGengetsuEggMoves:
 	db EXPLOSION
 	db DISARM_VOICE
-	db DRAIN_KISS
+	db DRAINING_KISS
 	db HEALINGLIGHT
 	db HYPNOSIS
 	db DISABLE

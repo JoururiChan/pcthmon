@@ -108,7 +108,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_RadialMoveOut_Spore
 	dw BattleAnimFunction_RadialMoveOut_Stats
 	dw BattleAnimFunction_PowerUp
-	dw BattleAnimFunction_Roost
+	dw BattleAnimFunction_WhiteBird
 	dw BattleAnimFunction_LastResort
 	dw BattleAnimFunction_DarkPulse
 	dw BattleAnimFunction_SpiralDescent_Fast
@@ -4350,7 +4350,7 @@ BattleAnimFunc_RadialInit:
 	ld [hl], a ; initial position = 0
 	jmp BattleAnim_IncAnonJumptableIndex
 
-BattleAnimFunction_Roost:
+BattleAnimFunction_WhiteBird:
 ; Moves object in a circle where the height is 1/8 the width, while also moving downward 1 pixel per frame
 ; Obj Param: Defines where the object starts in the circle
 	ld hl, BATTLEANIMSTRUCT_PARAM

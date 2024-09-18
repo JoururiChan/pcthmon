@@ -136,7 +136,7 @@ BattleAnimFrameData:
 	dw .Frameset_85 ; 85
 	dw .Frameset_86 ; 86
 	dw .Frameset_MetronomeHand           ; BATTLEANIMFRAMESET_METRONOME_HAND
-	dw .Frameset_Agility                 ; BATTLEANIMFRAMESET_AGILITY
+	dw .Frameset_SpidersNest                 ; BATTLEANIMFRAMESET_AGILITY
 	dw .Frameset_Cotton                  ; BATTLEANIMFRAMESET_COTTON
 	dw .Frameset_8a ; 8a
 	dw .Frameset_8b ; 8b
@@ -224,7 +224,7 @@ BattleAnimFrameData:
 	dw .Frameset_FlashCannonSparks       ; BATTLEANIMFRAMESET_FLASH_CANNON_SPARKS
 	dw .Frameset_TinyGlow                ; BATTLEANIMFRAMESET_TINY_GLOW
 	dw .Frameset_PulsingGlow             ; BATTLEANIMFRAMESET_PULSING_SPARKLE
-	dw .Frameset_OctazookaSmoke          ; BATTLEANIMFRAMESET_BLACK_RIPPLE_SMOKE
+	dw .Frameset_BlackRippleSmoke          ; BATTLEANIMFRAMESET_BLACK_RIPPLE_SMOKE
 	dw .Frameset_InkSplash               ; BATTLEANIMFRAMESET_INK_SPLASH
 	dw .Frameset_SmokePuff               ; BATTLEANIMFRAMESET_SMOKE_PUFF
 	dw .Frameset_BubbleSplash            ; BATTLEANIMFRAMESET_BUBBLE_SPLASH
@@ -240,8 +240,8 @@ BattleAnimFrameData:
 	dw .Frameset_EnergyOrbLong           ; BATTLEANIMFRAMESET_ENERGY_ORB_LONG
 	dw .Frameset_VoltSwitch              ; BATTLEANIMFRAMESET_VOLT_SWITCH
 	dw .Frameset_DischargeSparksN        ; BATTLEANIMFRAMESET_DISCHARGE_SPARKS_N
-	dw .Frameset_HoneClawsLeft           ; BATTLEANIMFRAMESET_HONE_TOOLS_LEFT
-	dw .Frameset_HoneClawsRight          ; BATTLEANIMFRAMESET_HONE_TOOLS_RIGHT
+	dw .Frameset_HoneToolsLeft           ; BATTLEANIMFRAMESET_HONE_TOOLS_LEFT
+	dw .Frameset_HoneToolsRight          ; BATTLEANIMFRAMESET_HONE_TOOLS_RIGHT
 	dw .Frameset_Hurricane               ; BATTLEANIMFRAMESET_HURRICANE
 	dw .Frameset_GrowingHeart            ; BATTLEANIMFRAMESET_GROWING_HEART
 
@@ -1091,7 +1091,7 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_1B,  8
 	battleoamend
 
-.Frameset_Agility:
+.Frameset_SpidersNest:
 	battleoamframe BATTLEANIMOAMSET_AC,  8
 	battleoamend
 
@@ -1583,7 +1583,7 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_14,  1
 	battleoamdelete
 
-.Frameset_OctazookaSmoke:
+.Frameset_BlackRippleSmoke:
 	battleoamframe BATTLEANIMOAMSET_20,  2
 	battleoamframe BATTLEANIMOAMSET_21,  2
 	battleoamframe BATTLEANIMOAMSET_1B,  2
@@ -1701,14 +1701,14 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_FC,  8, OAM_X_FLIP
 	battleoamend
 
-.Frameset_HoneClawsLeft:
+.Frameset_HoneToolsLeft:
 	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_1,  1
 	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_2,  1
 	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_3,  2
 	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_4,  1
 	battleoamdelete
 
-.Frameset_HoneClawsRight:
+.Frameset_HoneToolsRight:
 	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_1,  1, OAM_X_FLIP
 	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_2,  1, OAM_X_FLIP
 	battleoamframe BATTLEANIMOAMSET_HONE_TOOLS_3,  2, OAM_X_FLIP
