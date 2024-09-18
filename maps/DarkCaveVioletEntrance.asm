@@ -16,7 +16,7 @@ DarkCaveVioletEntrance_MapScriptHeader:
 
 	def_object_events
 	pokemon_event 10, 2, URSARING, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_DARK_CAVE_URSARING
-	object_event  9,  2, SPRITE_CMIMA_SIDE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_CMIMA
+	object_event  9,  2, SPRITE_CMIMA_SIDE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_CRIKAKO
 	object_event  8,  2, SPRITE_FALKNER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_FALKNER
 	itemball_event  6,  8, POTION, 1, EVENT_DARK_CAVE_VIOLET_ENTRANCE_POTION
 	smashrock_event 16, 14
@@ -29,7 +29,7 @@ DarkCaveVioletEntrance_MapScriptHeader:
 
 	object_const_def
 	const DARKCAVEVIOLETENTRANCE_URSARING
-	const DARKCAVEVIOLETENTRANCE_CMIMA
+	const DARKCAVEVIOLETENTRANCE_CRIKAKO
 	const DARKCAVEVIOLETENTRANCE_FALKNER
 
 DarkCaveVioletEntranceFalknerTrigger:
@@ -78,10 +78,10 @@ DarkCaveVioletEntranceFalknerTrigger:
 	writetext DarkCaveVioletEntranceFalknerAttackText
 	pause 30
 	closetext
-	cry CMIMA
+	cry CRIKAKO
 	waitsfx
 	playsound SFX_TACKLE
-	applymovement DARKCAVEVIOLETENTRANCE_CMIMA, DarkCaveVioletEntranceMovementData_CMimaAttack
+	applymovement DARKCAVEVIOLETENTRANCE_CRIKAKO, DarkCaveVioletEntranceMovementData_CRikakoAttack
 	waitsfx
 	pause 30
 	cry URSARING
@@ -93,12 +93,12 @@ DarkCaveVioletEntranceFalknerTrigger:
 	writetext DarkCaveVioletEntranceFalknerReturnText
 	pause 30
 	closetext
-	disappear DARKCAVEVIOLETENTRANCE_CMIMA
+	disappear DARKCAVEVIOLETENTRANCE_CRIKAKO
 	pause 20
 	applyonemovement DARKCAVEVIOLETENTRANCE_FALKNER, step_left
 	end
 
-DarkCaveVioletEntranceMovementData_CMimaAttack:
+DarkCaveVioletEntranceMovementData_CRikakoAttack:
 	run_step_right
 	run_step_left
 	step_end
@@ -120,12 +120,12 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 
 DarkCaveVioletEntranceFalknerAttackText:
 	text "Falkner: Use Wing"
-	line "Attack, CMima!"
+	line "Attack, CRikako!"
 	done
 
 DarkCaveVioletEntranceFalknerReturnText:
 	text "Good job,"
-	line "CMima."
+	line "CRikako."
 	done
 
 DarkCaveVioletEntranceFalknerIntroText:
