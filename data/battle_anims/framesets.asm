@@ -136,7 +136,7 @@ BattleAnimFrameData:
 	dw .Frameset_85 ; 85
 	dw .Frameset_86 ; 86
 	dw .Frameset_MetronomeHand           ; BATTLEANIMFRAMESET_METRONOME_HAND
-	dw .Frameset_SpidersNest                 ; BATTLEANIMFRAMESET_AGILITY
+	dw .Frameset_SpidersNest                 ; BATTLEANIMFRAMESET_SPIDERSNEST
 	dw .Frameset_Cotton                  ; BATTLEANIMFRAMESET_COTTON
 	dw .Frameset_8a ; 8a
 	dw .Frameset_8b ; 8b
