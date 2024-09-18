@@ -469,10 +469,10 @@ Continue_LoadMenuHeader:
 	ld hl, .MenuDataHeader_Dex
 	ld a, [wStatusFlags]
 	bit STATUSFLAGS_POKEDEX_F, a
-	jr nz, .pokedex_header
+	jr nz, .tohodex_header
 	ld hl, .MenuDataHeader_NoDex
 
-.pokedex_header
+.tohodex_header
 	call _OffsetMenuDataHeader
 	call MenuBox
 	jmp PlaceVerticalMenuItems

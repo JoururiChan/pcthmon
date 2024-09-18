@@ -348,7 +348,7 @@ wLinkPolishedMiscBuffer:: ds 10
 SECTION UNION "Misc 404", WRAM0
 ; battle + pokédex (merged because pokédex can be called from battle)
 
-; wLCDTohodex is defined in a LOAD UNION block in engine/pokedex/lcd.asm
+; wLCDTohodex is defined in a LOAD UNION block in engine/tohodex/lcd.asm
 ; Reserve space for it at the beginning of this LOAD UNION
 	ds 15
 	assert wLCDTohodexEnd - wLCDTohodex == @ - STARTOF("Misc 404")
@@ -1111,7 +1111,7 @@ wCreditsBorderMon:: db
 wCreditsLYOverride:: db
 
 NEXTU
-; pokedex
+; tohodex
 wPrevDexEntryJumptableIndex:: db
 wPrevDexEntryBackup:: db
 

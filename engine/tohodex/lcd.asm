@@ -164,7 +164,7 @@ StackDexGraphics:
 	ld a, BANK(TohodexTileLZ)
 	call FarDecompressToDE
 
-	; pokedex0
+	; tohodex0
 	ld de, wDex2bpp
 	push de
 	ld hl, vTiles2 tile $00
@@ -177,7 +177,7 @@ StackDexGraphics:
 	ld c, $8
 	call Get2bpp
 
-	; pokedex1
+	; tohodex1
 	ld a, 1
 	ldh [rVBK], a
 	ld de, wDex2bpp tile $40

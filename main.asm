@@ -202,10 +202,10 @@ INCLUDE "engine/math/math.asm"
 
 SECTION "Tohodex", ROMX
 
-INCLUDE "engine/pokedex/area.asm"
-INCLUDE "engine/pokedex/lcd.asm"
-INCLUDE "engine/pokedex/pokedex.asm"
-INCLUDE "engine/pokedex/unown_dex.asm"
+INCLUDE "engine/tohodex/area.asm"
+INCLUDE "engine/tohodex/lcd.asm"
+INCLUDE "engine/tohodex/tohodex.asm"
+INCLUDE "engine/tohodex/unown_dex.asm"
 
 
 SECTION "Tohodex Footprints", ROMX
@@ -234,7 +234,7 @@ SECTION "bank11", ROMX
 INCLUDE "engine/battle/ai/move.asm"
 INCLUDE "engine/pokemon/mail.asm"
 INCLUDE "engine/events/hidden_grottoes.asm"
-INCLUDE "engine/pokedex/pokedex_2.asm"
+INCLUDE "engine/tohodex/tohodex_2.asm"
 
 
 SECTION "Crystal Features 1", ROMX

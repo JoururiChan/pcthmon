@@ -87,7 +87,7 @@ Rate:
 	ret
 
 FindOakRating:
-; get pokedex caught count in bc
+; get tohodex caught count in bc
 ; return sound effect in de
 ; return text pointer in hl
 	ld a, [hli]
@@ -115,7 +115,7 @@ endr
 	ld l, a
 	ret
 
-INCLUDE "data/events/pokedex_ratings.asm"
+INCLUDE "data/events/tohodex_ratings.asm"
 
 OakPCText1:
 	text_far _OakPCText1

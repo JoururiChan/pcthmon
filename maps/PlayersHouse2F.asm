@@ -61,7 +61,7 @@ if DEF(DEBUG)
 	setflag ENGINE_MAP_CARD
 	setflag ENGINE_RADIO_CARD
 	setflag ENGINE_EXPN_CARD
-	; pokedex
+	; tohodex
 	setflag ENGINE_POKEDEX
 ;	setflag ENGINE_UNOWN_DEX
 	; judge machine
@@ -251,7 +251,7 @@ endr
 	givepoke WYRDEER, 50
 	givepoke DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM, 50
 	givepoke FARIGIRAF, 50
-	; fill pokedex
+	; fill tohodex
 	callasm FillTohodex
 ;	; new bark events
 	addcellnum PHONE_MOM

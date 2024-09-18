@@ -480,10 +480,10 @@ PokeBallEffect:
 	push af ; assumes flags are returned from CheckCosmeticCaughtMon
 	call SetSeenAndCaughtMon
 	pop af
-	jr nz, .skip_pokedex
+	jr nz, .skip_tohodex
 
 	call CheckReceivedDex
-	jr z, .skip_pokedex
+	jr z, .skip_tohodex
 
 	ld hl, Text_AddedToTohodex
 	call PrintText
@@ -496,7 +496,7 @@ PokeBallEffect:
 	ld [wTempForm], a ; is any of this necessary?
 	farcall NewTohodexEntry
 
-.skip_pokedex
+.skip_tohodex
 	ld a, [wBattleType]
 	cp BATTLETYPE_CONTEST
 	jmp z, .catch_bug_contest_mon

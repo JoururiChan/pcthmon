@@ -952,7 +952,7 @@ wCurTimeOfDay:: db
 wSecretID:: dw
 
 wStatusFlags::
-	; bit 0: pokedex
+	; bit 0: tohodex
 	; bit 1: unown dex
 	; bit 2: flash
 	; bit 3: caught pokerus

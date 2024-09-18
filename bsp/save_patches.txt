@@ -355,7 +355,7 @@ ConvertMonIndexesTo9Bit:
 	set #2, 8
 	call ShiftSaveDataBack
 	fillbyte #2, #zero
-	pos #3 ; file pointer is at pokedex seen
+	pos #3 ; file pointer is at tohodex seen
 	set #4, #result
 
 ; Since Unown data is becoming part of the main seen/caught array, wUnownDex must be converted
@@ -414,7 +414,7 @@ ConvertMonIndexesTo9Bit:
 	set #3, 5 ; unown variant flags cover bit 7 of byte 0 to bit 2 of byte 5 (no other bits are set)
 	call CopyFrom1To2
 
-; modify pokedex flags
+; modify tohodex flags
 ; caught
 	seek #4
 	set #1, 393
@@ -428,7 +428,7 @@ ConvertMonIndexesTo9Bit:
 	set #2, #r0
 	call ShiftFlags
 	call .ClearNewIndexes
-; convert HoF mon indexes to 9bit and add entries to the pokedex
+; convert HoF mon indexes to 9bit and add entries to the tohodex
 ; (only the first 10 entries need to be converted)
 ; TODO: generalize this for v4
 	set #1, sHallOfFame_v7
@@ -561,14 +561,14 @@ ConvertMonIndexesTo9Bit:
 	decrement #temp
 	jumpz #temp, .done ; form indexes 0 and 1 already have dex flags set
 	increment #temp
-	subtract #5, #address, #r1 ; get the form+species index of the current variant form, needed for pokedex flags
+	subtract #5, #address, #r1 ; get the form+species index of the current variant form, needed for tohodex flags
 	shiftright #5, 1
-	ifeq #temp, #2, .set_pokedex
+	ifeq #temp, #2, .set_tohodex
 	iflt #5, 50, .form_loop ; index of first Galarian form in .mon_forms table + 1; if not Galarian (e.g. cosmetic), loop for matching form
 
 	increment #temp
 	writebyte #temp
-.set_pokedex
+.set_tohodex
 	set #1, POKEDEX_CAUGHT_OFFSET
 	call GetGameDataPointer
 	seek #result

@@ -465,7 +465,7 @@ _CGB_Tohodex_PrepareOnly:
 	jmp LoadPalettes
 
 TohodexPals:
-INCLUDE "gfx/pokedex/pokedex.pal"
+INCLUDE "gfx/tohodex/tohodex.pal"
 
 _CGB_SlotMachine:
 	ld hl, SlotMachinePals

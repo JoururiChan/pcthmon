@@ -217,10 +217,10 @@ endr
 
 	ld hl, wStatusFlags
 	bit 0, [hl]
-	jr z, .no_pokedex
+	jr z, .no_tohodex
 	xor a ; STARTMENUITEM_POKEDEX
 	call .AppendMenuList
-.no_pokedex
+.no_tohodex
 
 	ld a, [wPartyCount]
 	and a

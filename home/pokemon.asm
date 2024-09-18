@@ -360,7 +360,7 @@ GetDexEntryPointer::
 
 GetTohodexNumber::
 ; input: c = species, b = extspecies+form
-; output bc = de = pokedex number ((256*extspecies + c) - (2*extspecies))
+; output bc = de = tohodex number ((256*extspecies + c) - (2*extspecies))
 ; this reflects how c = $00 and c = $ff don't have a pokédex number.
 	ld a, [wTohodexMode]
 	and a

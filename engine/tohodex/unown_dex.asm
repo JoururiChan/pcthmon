@@ -239,4 +239,4 @@ Tohodex_GetUnownCursorForm:
 INCLUDE "data/pokemon/unown_words.asm"
 
 UnownModePals:
-INCLUDE "gfx/pokedex/unown.pal"
+INCLUDE "gfx/tohodex/unown.pal"

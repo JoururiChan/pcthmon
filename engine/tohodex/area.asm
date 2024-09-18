@@ -1091,4 +1091,4 @@ endr
 	ret
 
 DexAreaPals:
-INCLUDE "gfx/pokedex/area.pal"
+INCLUDE "gfx/tohodex/area.pal"

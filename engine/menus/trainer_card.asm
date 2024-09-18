@@ -377,13 +377,13 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 
 	call TrainerCard_Page1_PrintGameTime
 
-	ld a, [wStatusFlags] ; pokedex
+	ld a, [wStatusFlags] ; tohodex
 	bit 0, a
-	jr nz, .have_pokedex
+	jr nz, .have_tohodex
 	hlcoord 2, 10
 	lb bc, 1, 16
 	call ClearBox
-.have_pokedex
+.have_tohodex
 	ld a, [wBattlePoints]
 	ld c, a
 	ld a, [wBattlePoints + 1]

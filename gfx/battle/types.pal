@@ -37,7 +37,7 @@ if !DEF(MONOCHROME)
 	RGB 31, 20, 29
 ; UNKNOWN T
 	RGB 13, 19, 19
-; (hidden duplicate type for pokedex)
+; (hidden duplicate type for tohodex)
 	RGB 31, 31, 31
 else
 	RGB_MONOCHROME_LIGHT

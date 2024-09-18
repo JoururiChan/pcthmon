@@ -250,25 +250,25 @@ BillsPC_ObjGFX::    INCBIN "gfx/pc/obj.2bpp.lz"
 
 SECTION "Tohodex Graphics", ROMX
 
-TohodexTileLZ::     INCBIN "gfx/pokedex/pokedex.2bpp.lz"
-TohodexELuizeLZ:: INCBIN "gfx/pokedex/eluize.2bpp.lz"
-QuestionMarkLZ::    INCBIN "gfx/pokedex/question_mark.2bpp.lz"
-TohodexObjLZ::      INCBIN "gfx/pokedex/oam.2bpp.lz"
+TohodexTileLZ::     INCBIN "gfx/tohodex/tohodex.2bpp.lz"
+TohodexELuizeLZ:: INCBIN "gfx/tohodex/eluize.2bpp.lz"
+QuestionMarkLZ::    INCBIN "gfx/tohodex/question_mark.2bpp.lz"
+TohodexObjLZ::      INCBIN "gfx/tohodex/oam.2bpp.lz"
 
 
 SECTION "Tohodex Tilemaps", ROMX
 
 DexTilemaps:
-DexTilemap_Main::        INCBIN "gfx/pokedex/main.bin.lz"
-DexTilemap_Description:: INCBIN "gfx/pokedex/description.bin.lz"
-DexTilemap_Bio::         INCBIN "gfx/pokedex/bio.bin.lz"
-DexTilemap_Stats::       INCBIN "gfx/pokedex/stats.bin.lz"
-DexTilemap_Search::      INCBIN "gfx/pokedex/search.bin.lz"
-DexTilemap_Mode::        INCBIN "gfx/pokedex/mode.bin.lz"
-DexTilemap_Unown::       INCBIN "gfx/pokedex/unown.bin.lz"
-DexTilemap_Kanto::       INCBIN "gfx/pokedex/kanto.bin.lz"
-DexTilemap_Johto::       INCBIN "gfx/pokedex/johto.bin.lz"
-DexTilemap_Orange::      INCBIN "gfx/pokedex/orange.bin.lz"
+DexTilemap_Main::        INCBIN "gfx/tohodex/main.bin.lz"
+DexTilemap_Description:: INCBIN "gfx/tohodex/description.bin.lz"
+DexTilemap_Bio::         INCBIN "gfx/tohodex/bio.bin.lz"
+DexTilemap_Stats::       INCBIN "gfx/tohodex/stats.bin.lz"
+DexTilemap_Search::      INCBIN "gfx/tohodex/search.bin.lz"
+DexTilemap_Mode::        INCBIN "gfx/tohodex/mode.bin.lz"
+DexTilemap_Unown::       INCBIN "gfx/tohodex/unown.bin.lz"
+DexTilemap_Kanto::       INCBIN "gfx/tohodex/kanto.bin.lz"
+DexTilemap_Johto::       INCBIN "gfx/tohodex/johto.bin.lz"
+DexTilemap_Orange::      INCBIN "gfx/tohodex/orange.bin.lz"
 
 
 SECTION "SGB Border Graphics", ROMX
