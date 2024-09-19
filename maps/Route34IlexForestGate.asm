@@ -106,8 +106,9 @@ Route34IlexForestGateTeacher_ForestIsRestless:
 	done
 
 Route34IlexForestGateCKongaraText:
-	text "CKongara: I am only"
-	line "a dangerous entity."
+	text "CKongara: I will"
+	line "beface the"
+	cont "world."
 	done
 
 Route34IlexForestGateLassText:

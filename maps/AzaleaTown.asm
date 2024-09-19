@@ -42,6 +42,8 @@ AzaleaTown_MapScriptHeader:
 	object_event 18,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
 	object_event 29,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
 	object_event 15, 15, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
+	object_event 10, 10, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownDemoText, -1
+	object_event 10, 11, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownDemoText, -1
 	pokemon_event 14, 12, CCHIYURI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownTasuketeText, EVENT_WAKASAGIHIME_WELL_WAKASAGIS
 	pokemon_event 14, 12, CHIYURI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownTasuketeText, EVENT_AZALEA_TOWN_WAKASAGIS
 	fruittree_event  8,  2, FRUITTREE_AZALEA_TOWN, WHT_APRICORN, PAL_NPC_WHITE
@@ -434,4 +436,13 @@ AzaleaTownKurtText:
 	text "Could you go see"
 	line "why Ilex Forest is"
 	cont "so restless?"
+	done
+
+AzaleaTownDemoText:
+	text "I hope you enjoy-"
+	line "ed the demo of"
+	cont "Crystal Paradise!"
+
+	para "More will be to"
+	line "come later."
 	done

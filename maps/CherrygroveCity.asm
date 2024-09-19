@@ -154,7 +154,7 @@ CherrygroveRivalTriggerNorth:
 	end
 
 CherrygroveYoungsterScript:
-	checkflag ENGINE_TOHODEX
+	checkflag ENGINE_POKEDEX
 	iftrue_jumptextfaceplayer CherrygroveYoungsterText_HaveTohodex
 	jumpthistextfaceplayer
 
@@ -451,7 +451,8 @@ MysticWaterGuyTextBefore:
 	done
 
 CherrygroveCMugetsuText:
-	text "CMugetsu: Dream...!"
+	text "CMugetsu: It"
+	line "is a dream!"
 	done
 
 CherrygroveCitySignText:
