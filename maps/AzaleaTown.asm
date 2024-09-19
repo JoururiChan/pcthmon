@@ -42,8 +42,8 @@ AzaleaTown_MapScriptHeader:
 	object_event 18,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
 	object_event 29,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
 	object_event 15, 15, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
-	pokemon_event 14, 12, WOOPER, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_WAKASAGIHIME_WELL_WAKASAGIS
-	pokemon_event 14, 12, QUAGSIRE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_AZALEA_TOWN_WAKASAGIS
+	pokemon_event 14, 12, CCHIYURI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownTasuketeText, EVENT_WAKASAGIHIME_WELL_WAKASAGIS
+	pokemon_event 14, 12, CHIYURI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownTasuketeText, EVENT_AZALEA_TOWN_WAKASAGIS
 	fruittree_event  8,  2, FRUITTREE_AZALEA_TOWN, WHT_APRICORN, PAL_NPC_WHITE
 
 	object_const_def
@@ -343,10 +343,10 @@ AzaleaTownTeacherScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "He has changed,"
+	text "She has changed,"
 	line "but he'll always be"
 
-	para "my little Wooster"
+	para "my little Tasukete"
 	line "to me."
 	done
 
@@ -355,14 +355,14 @@ AzaleaTownTeacherScript:
 	line "since the Slow-"
 	cont "poke vanished."
 
-	para "My poor Wooster"
+	para "My poor Tasukete"
 	line "can't thrive in"
 	cont "this weather…"
 	done
 
 .Text3:
 	text "In a sudden down-"
-	line "pour, my Wooster"
+	line "pour, my Tasukete"
 	cont "evolved!"
 
 	para "Oh? You brought"
@@ -378,8 +378,9 @@ AzaleaTownTeacherScript:
 	line "you deserve it!"
 	done
 
-AzaleaTownWoosterText:
-	text "Wooster: Gugyoo…"
+AzaleaTownTasuketeText:
+	text "Tasukete: Leg-"
+	line "end of Hourai."
 	done
 
 AzaleaTownYoungsterText:
