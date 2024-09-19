@@ -1423,16 +1423,6 @@ Rival0Group:
 	; party
 	dbp 4, CKIKURI
 		db NO_ITEM
-	dbp 5, CSAKUYA
-		db ORAN_BERRY
-	db -1 ; end
-
-	; RIVAL0
-	db "boy@"
-	db TRAINERTYPE_ITEM
-	; party
-	dbp 4, CKIKURI
-		db NO_ITEM
 	dbp 5, CREIMU
 		db ORAN_BERRY
 	db -1 ; end
@@ -1444,6 +1434,16 @@ Rival0Group:
 	dbp 4, CKIKURI
 		db NO_ITEM
 	dbp 5, CMARISA
+		db ORAN_BERRY
+	db -1 ; end
+
+	; RIVAL0
+	db "boy@"
+	db TRAINERTYPE_ITEM
+	; party
+	dbp 4, CKIKURI
+		db NO_ITEM
+	dbp 5, CSAKUYA
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -1465,7 +1465,7 @@ Rival1Group:
 	dbp 15, CKIKURI
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, SAKUYA
+	dbp 18, REIMU
 		db ORAN_BERRY
 		ev_spread 72 Atk
 	db -1 ; end
@@ -1483,7 +1483,7 @@ Rival1Group:
 	dbp 15, CSARA
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, REIMU
+	dbp 18, SAKUYA
 		db ORAN_BERRY
 		ev_spread 72 SAt
 	db -1 ; end
