@@ -119,11 +119,11 @@ INCLUDE "maps/VioletCRumiaTradeHouse.asm"
 INCLUDE "maps/EarlsPokemonAcademy.asm"
 
 
-SECTION "Sprout Tower Scripts", ROMX
+SECTION "Autumn Tower Scripts", ROMX
 
-INCLUDE "maps/SproutTower1F.asm"
-INCLUDE "maps/SproutTower2F.asm"
-INCLUDE "maps/SproutTower3F.asm"
+INCLUDE "maps/AutumnTower1F.asm"
+INCLUDE "maps/AutumnTower2F.asm"
+INCLUDE "maps/AutumnTower3F.asm"
 
 
 SECTION "Violet Outskirts Scripts", ROMX

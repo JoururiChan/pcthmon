@@ -1,6 +1,6 @@
 ; Johto Tohomon in grass
 
-	def_grass_wildmons SPROUT_TOWER_2F
+	def_grass_wildmons AUTUMN_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 3, CMIMA
@@ -28,7 +28,7 @@
 	wildmon 6, CKANA
 	end_grass_wildmons
 
-	def_grass_wildmons SPROUT_TOWER_3F
+	def_grass_wildmons AUTUMN_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 4, CYOUMU

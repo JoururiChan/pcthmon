@@ -25,7 +25,7 @@ Music:
 	dba Music_TrainerVictory
 	dba Music_Route30
 	dba Music_VioletCity
-	dba Music_SproutTower
+	dba Music_AutumnTower
 	dba Music_LookSage
 	dba Music_MartHGSS
 	dba Music_HiddenGrottoB2W2

@@ -25,7 +25,7 @@
 	const MUSIC_TRAINER_VICTORY                ; 15
 	const MUSIC_ROUTE_30                       ; 16
 	const MUSIC_VIOLET_CITY                    ; 17
-	const MUSIC_SPROUT_TOWER                   ; 18
+	const MUSIC_AUTUMN_TOWER                   ; 18
 	const MUSIC_SAGE_ENCOUNTER                 ; 19
 	const MUSIC_MART_HGSS                      ; 1a
 	const MUSIC_HIDDEN_GROTTO_B2W2             ; 1b

@@ -13,7 +13,7 @@ UniqueWildMoves:
 	unique_moves UNION_CAVE,       LAPRAS,     POWER_TRICK  ; UnionCaveB2F, Fridays
 	; wild mons
 	unique_moves CHERRYGROVE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
-	unique_moves SPROUT_TOWER,     MUGETSU, GROWTH       ; knows Growth early
+	unique_moves AUTUMN_TOWER,     MUGETSU, GROWTH       ; knows Growth early
 	unique_moves ROUTE_32_COAST,   FLAAFFY,    PURSUIT      ; Prism tutor move
 	unique_moves RUINS_OF_ALPH,    SHUCKLE,    ANCIENTPOWER ; Sw/Sh move
 	unique_moves RUINS_OF_ALPH,    SMEARGLE,   SKETCH       ; knows Sketch twice

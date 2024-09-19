@@ -29,7 +29,7 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_HOME_DECOR_STORE     ; 1a
 	const TILESET_MUSEUM               ; 1b
 	const TILESET_HOTEL                ; 1c
-	const TILESET_SPROUT_TOWER         ; 1d
+	const TILESET_AUTUMN_TOWER         ; 1d
 	const TILESET_BATTLE_TOWER_INSIDE  ; 1e
 	const TILESET_RADIO_TOWER          ; 1f
 	const TILESET_LIGHTHOUSE           ; 20

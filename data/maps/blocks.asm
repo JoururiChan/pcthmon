@@ -275,17 +275,17 @@ SECTION "EarlsPokemonAcademy_BlockData", ROMX
 EarlsPokemonAcademy_BlockData:
 	INCBIN "maps/EarlsPokemonAcademy.ablk.lz"
 
-SECTION "SproutTower1F_BlockData", ROMX
-SproutTower1F_BlockData:
-	INCBIN "maps/SproutTower1F.ablk.lz"
+SECTION "AutumnTower1F_BlockData", ROMX
+AutumnTower1F_BlockData:
+	INCBIN "maps/AutumnTower1F.ablk.lz"
 
-SECTION "SproutTower2F_BlockData", ROMX
-SproutTower2F_BlockData:
-	INCBIN "maps/SproutTower2F.ablk.lz"
+SECTION "AutumnTower2F_BlockData", ROMX
+AutumnTower2F_BlockData:
+	INCBIN "maps/AutumnTower2F.ablk.lz"
 
-SECTION "SproutTower3F_BlockData", ROMX
-SproutTower3F_BlockData:
-	INCBIN "maps/SproutTower3F.ablk.lz"
+SECTION "AutumnTower3F_BlockData", ROMX
+AutumnTower3F_BlockData:
+	INCBIN "maps/AutumnTower3F.ablk.lz"
 
 SECTION "VioletOutskirts_BlockData", ROMX
 VioletOutskirts_BlockData:

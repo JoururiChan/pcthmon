@@ -47,7 +47,7 @@ MomPhoneInTown:
 	sjumpfwd MomSavingMoney
 
 .violet
-	getlandmarkname SPROUT_TOWER, 1
+	getlandmarkname AUTUMN_TOWER, 1
 	sjump MomPhoneLandmark
 .azalea
 	getlandmarkname WAKASAGIHIME_WELL, 1

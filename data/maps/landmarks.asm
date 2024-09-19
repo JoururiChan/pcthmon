@@ -14,7 +14,7 @@ Landmarks:
 	landmark 100,  80, Route30Name
 	landmark  96,  60, Route31Name
 	landmark  84,  60, VioletCityName
-	landmark  86,  58, SproutTowerName
+	landmark  86,  58, AutumnTowerName
 	landmark  84,  52, VioletOutskirtsName
 	landmark  76,  76, RuinsOfAlphName
 	landmark  84,  92, Route32Name
@@ -166,7 +166,7 @@ MahoganyTownName:      rawchar "Mahogany¯Town@"
 BlackthornCityName:    rawchar "Blackthorn¯City@"
 LakeOfRageName:        rawchar "Lake of¯Rage@"
 SilverCaveName:        rawchar "Silver Cave@"
-SproutTowerName:       rawchar "Sprout¯Tower@"
+AutumnTowerName:       rawchar "Autumn¯Tower@"
 VioletOutskirtsName:   rawchar "Violet¯Outskirts@"
 RuinsOfAlphName:       rawchar "Ruins¯of Alph@"
 UnionCaveName:         rawchar "Union Cave@"

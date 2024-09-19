@@ -178,7 +178,7 @@ Route32CooltrainerMTrigger:
 
 .SeenText:
 	text "My training in"
-	line "Sprout Tower over-"
+	line "Autumn Tower over-"
 	cont "came even Falkner."
 
 	para "Let's see how you"

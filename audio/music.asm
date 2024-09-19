@@ -57,8 +57,8 @@ INCLUDE "audio/music/route30.asm"
 SECTION "Song - violetcity", ROMX
 INCLUDE "audio/music/violetcity.asm"
 
-SECTION "Song - sprouttower", ROMX
-INCLUDE "audio/music/sprouttower.asm"
+SECTION "Song - autumntower", ROMX
+INCLUDE "audio/music/autumntower.asm"
 
 SECTION "Song - looksage", ROMX
 INCLUDE "audio/music/looksage.asm"

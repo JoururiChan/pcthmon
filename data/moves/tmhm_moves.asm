@@ -70,7 +70,7 @@ TMHMMoves:
 	db AVALANCHE    ; TM67 (Pryce)
 	db GUNGNIR  ; TM68 (Celadon Game Corner)
 	db U_TURN       ; TM69 (Bugsy)
-	db FLASH        ; TM70 (Sprout Tower)
+	db FLASH        ; TM70 (Autumn Tower)
 	db STONE_EDGE   ; TM71 (Blue)
 	db VOLT_SWITCH  ; TM72 (Route 10)
 	db THUNDER_WAVE ; TM73 (Rock Tunnel)

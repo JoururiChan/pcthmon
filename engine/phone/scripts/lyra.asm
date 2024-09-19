@@ -86,7 +86,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .Route30
 	dw .Route31
 	dw .VioletCity
-	dw .SproutTower
+	dw .AutumnTower
 	dw .VioletOutskirts
 	dw .RuinsOfAlph
 	dw .Route32
@@ -155,7 +155,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 .Route30:
 .Route31:
 .VioletCity:
-.SproutTower:
+.AutumnTower:
 .VioletOutskirts:
 .RuinsOfAlph:
 .Route32:

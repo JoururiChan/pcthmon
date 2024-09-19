@@ -83,7 +83,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 * Available in the Option menu at any time.
 * A fainted Tohomon can't be revived, by items, Tohomon Centers, or events. The only exception is your first rival battle, when you just have your starter. (Also when you deposit them into the PC, since current HP is not stored.)
-* You can only catch the first Tohomon you encounter in a new location. "Location" is defined with the Town Map mechanics, so Sprout Tower is separate from Violet City, but multiple floors of Union Cave or multiple sections of the Safari Zone count as one location. And nothing is counted until you receive your first five Toho Balls.
+* You can only catch the first Tohomon you encounter in a new location. "Location" is defined with the Town Map mechanics, so Autumn Tower is separate from Violet City, but multiple floors of Union Cave or multiple sections of the Safari Zone count as one location. And nothing is counted until you receive your first five Toho Balls.
 * Every Tohomon gets a nickname, no asking whether you want to or not. Of course, you can cancel out to give the default name.
 * The dupes clause is in effect. If you've caught a EMagan and encounter one on a new route, it won't count unless you catch it.
 * The shiny clause is also in effect. Shinies can always be caught.
@@ -105,7 +105,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Catching all 26 Unown is worthwhile…
 * Move Reminder in the same house as the Move Deleter. (Code borrowed from TPP Anniversary Crystal, thanks to its developers graciously making [their source code](https://github.com/TwitchPlaysPokemon/tppcrystal251pub/) public.)
 * 21 move tutors throughout Johto and Kanto.
-* Falkner is in Dark Cave, encouraging you to beat Sprout Tower first.
+* Falkner is in Dark Cave, encouraging you to beat Autumn Tower first.
 * Photographing your Tohomon at the Cianwood Photo Studio once a day now makes it happier, like haircuts or massages. (No more GameBoy Printer support.)
 * The Mystery Gift girl in Goldenrod Dept. Store gives you a random Berry once a day. (No more Mystery Gift support.)
 * The Toho Seer is replaced by the Stats Judge.

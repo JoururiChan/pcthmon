@@ -9,7 +9,7 @@
 	const ROUTE_30           ; 05
 	const ROUTE_31           ; 06
 	const VIOLET_CITY        ; 07
-	const SPROUT_TOWER       ; 08
+	const AUTUMN_TOWER       ; 08
 	const VIOLET_OUTSKIRTS   ; 09
 	const RUINS_OF_ALPH      ; 0a
 	const ROUTE_32           ; 0b

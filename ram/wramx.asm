@@ -1120,7 +1120,7 @@ wSeagallopFerryNavelGateSceneID:: db
 wSeagallopFerryShamoutiGateSceneID:: db
 wSeagallopFerryVermilionGateSceneID:: db
 wShamoutiHotelRestaurantSceneID:: db
-wSproutTower3FSceneID:: db
+wAutumnTower3FSceneID:: db
 wTeamRocketBaseB2FSceneID:: db
 wTeamRocketBaseB3FSceneID:: db
 wTinTower1FSceneID:: db

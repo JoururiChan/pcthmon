@@ -54,9 +54,9 @@ ENDM
 	map_const MAHOGANY_TOWN,                              10,  9 ;  7
 
 	newgroup                                                     ;  3
-	map_const SPROUT_TOWER_1F,                             8,  8 ;  1
-	map_const SPROUT_TOWER_2F,                             8,  8 ;  2
-	map_const SPROUT_TOWER_3F,                             8,  8 ;  3
+	map_const AUTUMN_TOWER_1F,                             8,  8 ;  1
+	map_const AUTUMN_TOWER_2F,                             8,  8 ;  2
+	map_const AUTUMN_TOWER_3F,                             8,  8 ;  3
 	map_const TIN_TOWER_1F,                                8,  8 ;  4
 	map_const TIN_TOWER_2F,                                8,  8 ;  5
 	map_const TIN_TOWER_3F,                                8,  8 ;  6
