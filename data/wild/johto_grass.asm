@@ -1391,7 +1391,7 @@
 	wildmon 4, CSANAE
 	wildmon 4, CSANAE
 	; nite
-	wildmon 3, SPINARAK
+	wildmon 3, CRIKAKO
 	wildmon 3, CELIS
 	wildmon 4, CKURUMI
 	wildmon 4, CELIS
@@ -1531,10 +1531,10 @@
 	wildmon 10, CKOAKUMA
 	wildmon 13, CKOAKUMA
 	; nite
-	wildmon 13, RUMIA
+	wildmon 13, CRUMIA
 	wildmon 14, CKIKURI
 	wildmon 14, CYUMEKO
-	wildmon 14, HOOTHOOT
+	wildmon 14, CSHINKI
 	wildmon 12, CELLEN
 	wildmon 10, CKOAKUMA
 	wildmon 13, CKOAKUMA
@@ -1543,7 +1543,7 @@
 	def_grass_wildmons ROUTE_36
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 5, LEDYBA
+	wildmon 5, CCHIYURI
 	wildmon 5, CMAGAN
 	wildmon 6, CYUKA
 	wildmon 7, CORANGE
@@ -1559,7 +1559,7 @@
 	wildmon 7, CMARISA
 	wildmon 7, CMIMA
 	; nite
-	wildmon 5, SPINARAK
+	wildmon 5, CRIKAKO
 	wildmon 5, HOOTHOOT
 	wildmon 6, CYUKA
 	wildmon 7, CMEIRA

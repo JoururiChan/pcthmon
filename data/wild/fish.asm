@@ -39,9 +39,9 @@ ENDM
 .Shore_Old:
 	fishentry  70 percent + 1, CCHIYURI,   10
 	fishentry  85 percent + 1, CCHIYURI,   10
-	fishentry 100 percent,     CDAICHAN,     10
+	fishentry 100 percent,     CMAI,     10
 .Shore_Good:
-	fishentry  35 percent,     MAGIKARP,   20
+	fishentry  35 percent,     CCHIYURI,   20
 	fishentry  70 percent,     CDAICHAN,     20
 	fishentry  90 percent + 1, CDAICHAN,     20
 	fishentry 100 percent,     0,          20 ; corsola morn/day, staryu eve/night
@@ -54,7 +54,7 @@ ENDM
 .Ocean_Old:
 	fishentry  70 percent + 1, CCHIYURI,   10
 	fishentry  85 percent + 1, CCHIYURI,   10
-	fishentry 100 percent,     GENGETSU,  10
+	fishentry 100 percent,     CSANAE,  10
 .Ocean_Good:
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     GENGETSU,  20
@@ -71,7 +71,7 @@ ENDM
 .Well_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
 	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     EFLANDRE,    10
+	fishentry 100 percent,     CSANAE,    10
 .Lake_Good:
 .River_Good:
 .Well_Good:
@@ -95,7 +95,7 @@ ENDM
 .Pond_Old:
 	fishentry  70 percent + 1, CCHIYURI,   10
 	fishentry  85 percent + 1, CCHIYURI,   10
-	fishentry 100 percent,     KURUMI,    10
+	fishentry 100 percent,     CMAI,    10
 .Pond_Good:
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     KURUMI,    20
