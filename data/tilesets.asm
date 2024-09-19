@@ -322,14 +322,14 @@ TilesetHotelAttr:: INCBIN "data/tilesets/hotel_attributes.bin.lz"
 TilesetHotelColl:: INCBIN "data/tilesets/hotel_collision.bin.lz"
 
 
-SECTION "Tileset Data - sprout_tower", ROMX
+SECTION "Tileset Data - autumn_tower", ROMX
 
-TilesetTowerGFX0:: INCBIN "gfx/tilesets/sprout_tower.2bpp.vram0.lz"
-TilesetTowerGFX1:: INCBIN "gfx/tilesets/sprout_tower.2bpp.vram1.lz"
+TilesetTowerGFX0:: INCBIN "gfx/tilesets/autumn_tower.2bpp.vram0.lz"
+TilesetTowerGFX1:: INCBIN "gfx/tilesets/autumn_tower.2bpp.vram1.lz"
 
-TilesetTowerMeta:: INCBIN "data/tilesets/sprout_tower_metatiles.bin.lz"
-TilesetTowerAttr:: INCBIN "data/tilesets/sprout_tower_attributes.bin.lz"
-TilesetTowerColl:: INCBIN "data/tilesets/sprout_tower_collision.bin.lz"
+TilesetTowerMeta:: INCBIN "data/tilesets/autumn_tower_metatiles.bin.lz"
+TilesetTowerAttr:: INCBIN "data/tilesets/autumn_tower_attributes.bin.lz"
+TilesetTowerColl:: INCBIN "data/tilesets/autumn_tower_collision.bin.lz"
 
 
 SECTION "Tileset Data - battle_tower_inside", ROMX
