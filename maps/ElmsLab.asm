@@ -147,11 +147,11 @@ ElmCheckMasterBall:
 ElmCheckOddSouvenir:
 	checkevent EVENT_GOT_ODD_SOUVENIR_FROM_ELM
 	iftrue ElmCheckBattleScript
-	checkevent EVENT_SHOWED_TOGEPI_TO_ELM
+	checkevent EVENT_SHOWED_CKONGARA_TO_ELM
 	iftrue ElmGiveOddSouvenirScript
-	checkevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
+	checkevent EVENT_TOLD_ELM_ABOUT_CKONGARA_OVER_THE_PHONE
 	iffalsefwd ElmCheckTogepiEgg
-	setmonval TOGEPI
+	setmonval CKONGARA
 	special Special_FindThatSpeciesYourTrainerID
 	iftrue ShowElmTogepiScript
 	setmonval TOGETIC
@@ -163,7 +163,7 @@ ElmCheckOddSouvenir:
 	jumpopenedtext ElmThoughtEggHatchedText
 
 ElmEggHatchedScript:
-	setmonval TOGEPI
+	setmonval CKONGARA
 	special Special_FindThatSpeciesYourTrainerID
 	iftrue ShowElmTogepiScript
 	setmonval TOGETIC
@@ -175,12 +175,12 @@ ElmEggHatchedScript:
 	sjumpfwd ElmCheckGotEggAgain
 
 ElmCheckTogepiEgg:
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_CKONGARA_EGG_FROM_ELMS_AIDE
 	iffalsefwd ElmCheckGotEggAgain
-	checkevent EVENT_TOGEPI_HATCHED
+	checkevent EVENT_CKONGARA_HATCHED
 	iftrue ElmEggHatchedScript
 ElmCheckGotEggAgain:
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE ; why are we checking it again?
+	checkevent EVENT_GOT_CKONGARA_EGG_FROM_ELMS_AIDE ; why are we checking it again?
 	iftrue_jumpopenedtext ElmWaitingEggHatchText
 	checkflag ENGINE_ZEPHYRBADGE
 	iftrue_jumpopenedtext ElmAideHasEggText
@@ -389,7 +389,7 @@ ShowElmTogepiScript:
 	waitbutton
 	closetext
 	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
-	setevent EVENT_SHOWED_TOGEPI_TO_ELM
+	setevent EVENT_SHOWED_CKONGARA_TO_ELM
 	opentext
 	writetext ShowElmTogepiText2
 	promptbutton
@@ -653,7 +653,7 @@ AideScript_GivePotions:
 ElmsAideScript:
 	checkevent EVENT_GOT_RIVALS_EGG
 	iftrue_jumptextfaceplayer AideText_AlwaysBusy
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_CKONGARA_EGG_FROM_ELMS_AIDE
 	iftrue_jumptextfaceplayer AideText_AfterTheft
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue_jumptextfaceplayer AideText_AlwaysBusy

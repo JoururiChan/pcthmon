@@ -1483,7 +1483,7 @@ Rival1Group:
 	dbp 15, CSARA
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, SAKUYA
+	dbp 18, MARISA
 		db ORAN_BERRY
 		ev_spread 72 SAt
 	db -1 ; end
@@ -1501,7 +1501,7 @@ Rival1Group:
 	dbp 15, CSARA
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, MARISA
+	dbp 18, SAKUYA
 		db ORAN_BERRY
 		ev_spread 72 Spe
 	db -1 ; end
