@@ -1,4 +1,4 @@
-SproutTower1F_MapScriptHeader:
+AutumnTower1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -6,29 +6,29 @@ SproutTower1F_MapScriptHeader:
 	def_warp_events
 	warp_event  7, 15, VIOLET_CITY, 7
 	warp_event  8, 15, VIOLET_CITY, 7
-	warp_event  4,  4, SPROUT_TOWER_2F, 1
-	warp_event  0,  6, SPROUT_TOWER_2F, 2
-	warp_event 15,  3, SPROUT_TOWER_2F, 3
+	warp_event  4,  4, AUTUMN_TOWER_2F, 1
+	warp_event  0,  6, AUTUMN_TOWER_2F, 2
+	warp_event 15,  3, AUTUMN_TOWER_2F, 3
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  5, 15, BGEVENT_JUMPTEXT, SproutTower1FStatueText
-	bg_event 10, 15, BGEVENT_JUMPTEXT, SproutTower1FStatueText
+	bg_event  5, 15, BGEVENT_JUMPTEXT, AutumnTower1FStatueText
+	bg_event 10, 15, BGEVENT_JUMPTEXT, AutumnTower1FStatueText
 
 	def_object_events
 	object_event 11,  4, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, KimonoGirlMakoScript, -1
-	object_event  5,  4, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SproutTower1FSage1Text, -1
-	object_event  4,  7, SPRITE_SAGE, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SproutTower1FSage2Text, -1
-	object_event  9, 12, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SproutTower1FGrannyScript, -1
-	object_event  7,  9, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SproutTower1FTeacherText, -1
+	object_event  5,  4, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AutumnTower1FSage1Text, -1
+	object_event  4,  7, SPRITE_SAGE, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AutumnTower1FSage2Text, -1
+	object_event  9, 12, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AutumnTower1FGrannyScript, -1
+	object_event  7,  9, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AutumnTower1FTeacherText, -1
 	object_event  1,  5, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerSageChow, -1
-	itemball_event 14,  7, PARALYZEHEAL, 1, EVENT_SPROUT_TOWER1F_PARALYZEHEAL
+	itemball_event 14,  7, PARALYZEHEAL, 1, EVENT_AUTUMN_TOWER1F_PARALYZEHEAL
 
 	object_const_def
 	const SPROUTTOWER1F_KIMONO_GIRL
 
-SproutTower1FGrannyScript:
+AutumnTower1FGrannyScript:
 	checkunits
 	iftrue_jumptextfaceplayer .MetricText
 	jumpthistextfaceplayer
@@ -74,13 +74,13 @@ SageChowBeatenText:
 	text "Th-Thank you!"
 	done
 
-SproutTower1FSage1Text:
+AutumnTower1FSage1Text:
 	text "Only if you reach"
 	line "the top will you"
 	cont "obtain a TM."
 	done
 
-SproutTower1FSage2Text:
+AutumnTower1FSage2Text:
 	text "Sprout Tower was"
 	line "built long ago"
 
@@ -88,7 +88,7 @@ SproutTower1FSage2Text:
 	line "#mon training."
 	done
 
-SproutTower1FTeacherText:
+AutumnTower1FTeacherText:
 	text "See the pillar"
 	line "shaking?"
 
@@ -96,7 +96,7 @@ SproutTower1FTeacherText:
 	line "ing upstairs."
 	done
 
-SproutTower1FStatueText:
+AutumnTower1FStatueText:
 	text "A #mon statue…"
 
 	para "It looks very"
