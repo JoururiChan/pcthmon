@@ -6214,7 +6214,7 @@ SageGroup:
 	; party
 	dbp 3, CYUKA
 	dbp 3, CYUKA
-	dbp 3, HOOTHOOT
+	dbp 3, CSARIEL
 	db -1 ; end
 
 	; SAGE
@@ -6408,7 +6408,7 @@ ElderGroup:
 	db "Li@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 7, HOOTHOOT
+	dbp 7, CSARIEL
 	dbp 7, CYOUMU
 	dbp 10, CYUKA
 	db -1 ; end
