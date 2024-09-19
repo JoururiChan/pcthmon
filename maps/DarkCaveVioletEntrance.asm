@@ -119,8 +119,8 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 	step_end
 
 DarkCaveVioletEntranceFalknerAttackText:
-	text "Falkner: Use Wing"
-	line "Attack, CRikako!"
+	text "Falkner: Use Aerial"
+	line "Ace, CRikako!"
 	done
 
 DarkCaveVioletEntranceFalknerReturnText:
@@ -147,7 +147,7 @@ DarkCaveVioletEntranceFalknerExplanationText:
 	para "I don't explore"
 	line "caves for fun,"
 
-	para "but that Ursaring"
+	para "but that Seija"
 	line "was attacking"
 
 	para "trainers too weak"
