@@ -88,7 +88,7 @@ Route29TutorialScript:
 	writetext CatchingTutorialDebriefText
 Route29FinishTutorial:
 	promptbutton
-	giveitem POKE_BALL, 5
+	giveitem POKE_BALL, 15
 	waitsfx
 	writetext CatchingTutorialPokeBallText
 	special ShowItemIcon
