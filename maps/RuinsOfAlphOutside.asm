@@ -8,9 +8,9 @@ RuinsOfAlphOutside_MapScriptHeader:
 
 	def_warp_events
 	warp_event  4, 23, RUINS_OF_ALPH_HO_OH_CHAMBER, 1
-	warp_event 16, 13, RUINS_OF_ALPH_KABUTO_CHAMBER, 1
-	warp_event  4, 35, RUINS_OF_ALPH_OMANYTE_CHAMBER, 1
-	warp_event 18, 39, RUINS_OF_ALPH_AERODACTYL_CHAMBER, 1
+	warp_event 16, 13, RUINS_OF_ALPH_CYUYUKO_CHAMBER, 1
+	warp_event  4, 35, RUINS_OF_ALPH_LUNASA_CHAMBER, 1
+	warp_event 18, 39, RUINS_OF_ALPH_EYUYUKO_CHAMBER, 1
 	warp_event 12, 19, RUINS_OF_ALPH_ENTRANCE_CHAMBER, 1
 	warp_event 19, 17, RUINS_OF_ALPH_RESEARCH_CENTER, 1
 	warp_event  8, 25, UNION_CAVE_B1F_NORTH, 1

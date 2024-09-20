@@ -97,8 +97,8 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveCirno
 	dw .EvolveEKoakuma
 	dw .EvolveCMeiling
-	dw .EvolveScyther
-	dw .EvolveEevee
+	dw .EvolveChen
+	dw .EvolveELyrica
 	dw .EvolveMimeJr
 	dw .EvolveUrsaring
 	dw .EvolveStantler
@@ -182,11 +182,11 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveCMeiling:
 	farwritetext ElmPhoneEvoText_CMeiling
 	end
-.EvolveScyther:
-	farwritetext ElmPhoneEvoText_Scyther
+.EvolveChen:
+	farwritetext ElmPhoneEvoText_Chen
 	end
-.EvolveEevee:
-	farwritetext ElmPhoneEvoText_Eevee
+.EvolveELyrica:
+	farwritetext ElmPhoneEvoText_ELyrica
 	end
 .EvolveMimeJr:
 	farwritetext ElmPhoneEvoText_MimeJr

@@ -202,7 +202,7 @@ endr
 	ld [wRoamMon3MapNumber], a
 
 	call LoadOrRegenerateLuckyIDNumber
-	call InitializeMagikarpHouse
+	call InitializeLilyBlackHouse
 
 	xor a
 	ld [wMonType], a
@@ -246,8 +246,8 @@ _ResetWRAM_InitList:
 	ld [hl], a
 	ret
 
-InitializeMagikarpHouse:
-	ld hl, wBestMagikarpLengthMmHi
+InitializeLilyBlackHouse:
+	ld hl, wBestLilyBlackLengthMmHi
 	ld a, $3
 	ld [hli], a
 	ld a, $6

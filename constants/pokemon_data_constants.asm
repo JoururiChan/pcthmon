@@ -85,7 +85,7 @@ DEF NUM_GROWTH_RATES EQU const_value
 	const EGG_MINERAL       ; a
 	const EGG_INDETERMINATE ; b (Amorphous)
 	const EGG_WATER_2       ; c (Fish)
-	const EGG_DITTO         ; d
+	const EGG_LYRICA         ; d
 	const EGG_DRAGON        ; e
 	const EGG_NONE          ; f (Undiscovered)
 DEF NUM_EGG_GROUPS EQU const_value - 1
@@ -330,8 +330,8 @@ DEF NUM_HOF_TEAMS EQU 10
 	const EVOLVE_CIRNO
 	const EVOLVE_EKOAKUMA
 	const EVOLVE_CMEILING
-	const EVOLVE_SCYTHER
-	const EVOLVE_EEVEE
+	const EVOLVE_CHEN
+	const EVOLVE_ELYRICA
 	const EVOLVE_MIME_JR_
 	const EVOLVE_URSARING
 	const EVOLVE_STANTLER

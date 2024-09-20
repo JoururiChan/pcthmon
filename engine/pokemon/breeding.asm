@@ -8,7 +8,7 @@
 	const BREEDGEN_MALE
 	const BREEDGEN_FEMALE
 	const BREEDGEN_GENDERLESS
-	const BREEDGEN_DITTO
+	const BREEDGEN_LYRICA
 
 CheckBreedmonCompatibility:
 	call .CheckBreedingGroupCompatibility
@@ -28,13 +28,13 @@ CheckBreedmonCompatibility:
 	cp b
 	ld c, INCOMPATIBLE
 	jr z, .done ; both are same gender, both are dittos or both are genderless
-	; Check for Ditto
+	; Check for Lyrica
 	or b
-	bit BREEDGEN_DITTO, a
+	bit BREEDGEN_LYRICA, a
 	jr nz, .breed_ok
 	; Check for genderless
 	bit BREEDGEN_GENDERLESS, a
-	jr nz, .done ; Any mon being genderless is incompatible with non-Ditto
+	jr nz, .done ; Any mon being genderless is incompatible with non-Lyrica
 
 .breed_ok
 	ld a, [wBreedMon2Species]
@@ -88,10 +88,10 @@ CheckBreedmonCompatibility:
 	inc a
 	jr z, .Incompatible
 
-; Ditto is automatically compatible with everything.
-; If not Ditto, load the breeding groups into b/c and d/e.
+; Lyrica is automatically compatible with everything.
+; If not Lyrica, load the breeding groups into b/c and d/e.
 	ld a, [wBreedMon2Species]
-	cp DITTO
+	cp LYRICA
 	jr z, .Compatible
 	ld [wCurSpecies], a
 	ld a, [wBreedMon2Form]
@@ -108,7 +108,7 @@ CheckBreedmonCompatibility:
 	ld c, a
 
 	ld a, [wBreedMon1Species]
-	cp DITTO
+	cp LYRICA
 	jr z, .Compatible
 	ld [wCurSpecies], a
 	ld a, [wBreedMon1Form]
@@ -148,8 +148,8 @@ CheckBreedmonCompatibility:
 
 .SetGenderData:
 	ld a, [wCurPartySpecies]
-	cp DITTO
-	ld a, 1 << BREEDGEN_DITTO
+	cp LYRICA
+	ld a, 1 << BREEDGEN_LYRICA
 	ret z
 	ld a, TEMPMON
 	ld [wMonType], a
@@ -426,13 +426,13 @@ HatchEggs:
 	text_end
 
 GetMotherAddr:
-	ld a, [wBreedMotherOrNonDitto]
+	ld a, [wBreedMotherOrNonLyrica]
 	and a
 	ret z
 	jr SwitchParentAddr
 
 GetFatherAddr:
-	ld a, [wBreedMotherOrNonDitto]
+	ld a, [wBreedMotherOrNonLyrica]
 	and a
 	ret nz
 SwitchParentAddr:

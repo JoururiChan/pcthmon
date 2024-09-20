@@ -167,7 +167,7 @@
 	const MUSIC_SUMMONING_DANCE_HGSS           ; a3
 	const MUSIC_HO_OH_BATTLE_HGSS              ; a4
 	const MUSIC_CERULEAN_CAVE_RBY              ; a5
-	const MUSIC_MEWTWO_BATTLE_STADIUM          ; a6
+	const MUSIC_SUIKA_BATTLE_STADIUM          ; a6
 	const MUSIC_ABANDONED_SHIP_RSE             ; a7
 	const MUSIC_KANTO_LEGEND_BATTLE_XY         ; a8
 	const MUSIC_GYM_LEADER_BATTLE_RSE          ; a9

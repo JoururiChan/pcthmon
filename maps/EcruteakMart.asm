@@ -17,17 +17,17 @@ EcruteakMart_MapScriptHeader:
 	object_event  6,  6, SPRITE_RICH_BOY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakMartGrannyText, -1
 
 EcruteakMartSuperNerdText:
-	text "My Eevee evolved"
+	text "My ELyrica evolved"
 	line "into an Espeon."
 
 	para "But my friend's"
-	line "Eevee turned into"
+	line "ELyrica turned into"
 	cont "an Umbreon."
 
 	para "I wonder why? We"
 	line "both were raising"
 
-	para "our Eevee in the"
+	para "our ELyrica in the"
 	line "same way…"
 	done
 

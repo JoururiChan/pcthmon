@@ -29,7 +29,7 @@ Cries:
 	fardw Cry_Yumeko
 	fardw Cry_CMeira
 	fardw Cry_Rikako
-	fardw Cry_Lapras
+	fardw Cry_CLyrica
 	fardw Cry_MGyoku
 	fardw Cry_CSakuya
 	fardw Cry_EKana

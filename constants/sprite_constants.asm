@@ -165,17 +165,17 @@
 	const SPRITE_SWIMMING_OFFICER_F ; a1
 	const SPRITE_CMEIRA ; a2
 	const SPRITE_CMAI ; a3
-	const SPRITE_LAPRAS ; a4
-	const SPRITE_EEVEE ; a5
-	const SPRITE_DRAGONITE ; a6
-	const SPRITE_MEW ; a7
+	const SPRITE_CLYRICA ; a4
+	const SPRITE_ELYRICA ; a5
+	const SPRITE_CSUIKA ; a6
+	const SPRITE_ESUIKA ; a7
 	const SPRITE_CELEBI ; a8
 	const SPRITE_SURFING_EKIKURI ; a9
-	const SPRITE_ARMORED_MEWTWO ; aa
-	const SPRITE_BIG_SNORLAX ; ab
-	const SPRITE_BIG_LAPRAS ; ac
+	const SPRITE_ARMORED_SUIKA ; aa
+	const SPRITE_BIG_CRAN ; ab
+	const SPRITE_BIG_CLYRICA ; ac
 	const SPRITE_BIG_CRUMIA ; ad
-	const SPRITE_BIG_GYARADOS ; ae
+	const SPRITE_BIG_ELILYBLACK ; ae
 	const SPRITE_CMIMA_SIDE ; af
 	const SPRITE_CGENGETSU_BACK ; b0 (blank side frame)
 	const SPRITE_WAKASAGITAIL ; b1

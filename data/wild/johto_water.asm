@@ -60,21 +60,21 @@
 	db 4 percent ; encounter rate
 	wildmon 20, CCIRNO
 	wildmon 20, MARILL
-	wildmon 20, SEAKING
+	wildmon 20, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_2F_INSIDE
 	db 2 percent ; encounter rate
 	wildmon 20, CCIRNO
 	wildmon 25, MARILL
-	wildmon 25, SEAKING
+	wildmon 25, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_B1F
 	db 2 percent ; encounter rate
 	wildmon 15, CCIRNO
 	wildmon 20, MARILL
-	wildmon 20, SEAKING
+	wildmon 20, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_SW
@@ -107,16 +107,16 @@
 
 	def_water_wildmons DARK_CAVE_VIOLET_ENTRANCE
 	db 2 percent ; encounter rate
-	wildmon 15, MAGIKARP
-	wildmon 10, MAGIKARP
-	wildmon 5, MAGIKARP
+	wildmon 15, LILYBLACK
+	wildmon 10, LILYBLACK
+	wildmon 5, LILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 2 percent ; encounter rate
-	wildmon 15, MAGIKARP
-	wildmon 10, MAGIKARP
-	wildmon 5, MAGIKARP
+	wildmon 15, LILYBLACK
+	wildmon 10, LILYBLACK
+	wildmon 5, LILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons GOLDENROD_HARBOR
@@ -128,9 +128,9 @@
 
 	def_water_wildmons DRAGONS_DEN_B1F
 	db 4 percent ; encounter rate
-	wildmon 25, MAGIKARP
-	wildmon 30, MAGIKARP
-	wildmon 20, DRATINI
+	wildmon 25, LILYBLACK
+	wildmon 30, LILYBLACK
+	wildmon 20, YUKARI
 	end_water_wildmons
 
 	def_water_wildmons OLIVINE_PORT
@@ -193,14 +193,14 @@
 	db 4 percent ; encounter rate
 	wildmon 20, EFLANDRE
 	wildmon 20, EFLANDRE
-	wildmon 20, SEAKING
+	wildmon 20, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_43
 	db 2 percent ; encounter rate
-	wildmon 25, MAGIKARP
-	wildmon 20, MAGIKARP
-	wildmon 10, MAGIKARP
+	wildmon 25, LILYBLACK
+	wildmon 20, LILYBLACK
+	wildmon 10, LILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_44
@@ -212,16 +212,16 @@
 
 	def_water_wildmons ROUTE_45
 	db 2 percent ; encounter rate
-	wildmon 20, MAGIKARP
-	wildmon 15, MAGIKARP
-	wildmon 5, MAGIKARP
+	wildmon 20, LILYBLACK
+	wildmon 15, LILYBLACK
+	wildmon 5, LILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_47
 	db 3 percent ; encounter rate
 	wildmon 20, GENGETSU
 	wildmon 20, CYUKI
-	wildmon 25, STARYU
+	wildmon 25, LETTY
 	end_water_wildmons
 
 	def_water_wildmons CLIFF_EDGE_GATE
@@ -289,16 +289,16 @@
 
 	def_water_wildmons LAKE_OF_RAGE
 	db 6 percent ; encounter rate
-	wildmon 25, MAGIKARP
-	wildmon 20, MAGIKARP
-	wildmon 25, GYARADOS
+	wildmon 25, LILYBLACK
+	wildmon 20, LILYBLACK
+	wildmon 25, ELILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons BLACKTHORN_CITY
 	db 4 percent ; encounter rate
-	wildmon 15, MAGIKARP
-	wildmon 10, MAGIKARP
-	wildmon 5, MAGIKARP
+	wildmon 15, LILYBLACK
+	wildmon 10, LILYBLACK
+	wildmon 5, LILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE
@@ -325,14 +325,14 @@
 	def_water_wildmons ROUTE_34_COAST
 	db 3 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
-	wildmon LEVEL_FROM_BADGES - 5, STARYU
+	wildmon LEVEL_FROM_BADGES - 5, LETTY
 	wildmon LEVEL_FROM_BADGES + 0, EGENGETSU
 	end_water_wildmons
 
 	def_water_wildmons STORMY_BEACH
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
-	wildmon LEVEL_FROM_BADGES - 5, STARYU
+	wildmon LEVEL_FROM_BADGES - 5, LETTY
 	wildmon LEVEL_FROM_BADGES + 0, EGENGETSU
 	end_water_wildmons
 
@@ -359,22 +359,22 @@
 
 	def_water_wildmons QUIET_CAVE_B1F
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, MAGIKARP
-	wildmon LEVEL_FROM_BADGES - 5, MAGIKARP
+	wildmon LEVEL_FROM_BADGES - 10, LILYBLACK
+	wildmon LEVEL_FROM_BADGES - 5, LILYBLACK
 	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons QUIET_CAVE_B2F
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, MAGIKARP
-	wildmon LEVEL_FROM_BADGES - 5, MAGIKARP
+	wildmon LEVEL_FROM_BADGES - 10, LILYBLACK
+	wildmon LEVEL_FROM_BADGES - 5, LILYBLACK
 	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons QUIET_CAVE_B3F
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 10, MAGIKARP
-	wildmon LEVEL_FROM_BADGES - 5, MAGIKARP
+	wildmon LEVEL_FROM_BADGES - 10, LILYBLACK
+	wildmon LEVEL_FROM_BADGES - 5, LILYBLACK
 	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
 	end_water_wildmons
 
@@ -395,7 +395,7 @@
 	def_water_wildmons RUGGED_ROAD_SOUTH
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 5, EFLANDRE
-	wildmon LEVEL_FROM_BADGES + 0, SEAKING
+	wildmon LEVEL_FROM_BADGES + 0, CLETTY
 	wildmon LEVEL_FROM_BADGES + 5, QWILFISH, HISUIAN_FORM
 	end_water_wildmons
 

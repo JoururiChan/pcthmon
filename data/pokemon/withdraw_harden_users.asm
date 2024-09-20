@@ -5,8 +5,8 @@ WithdrawUsers:
 	dp CALICE
 	dp YUMEKO
 	dp EYUMEKO
-	dp OMANYTE
-	dp OMASTAR
+	dp LUNASA
+	dp ELUNASA
 	db 0
 
 HardenUsers:
@@ -17,10 +17,10 @@ HardenUsers:
 	dp STEELIX
 	dp CDAICHAN
 	dp DAICHAN
-	dp STARYU
-	dp STARMIE
-	dp KABUTO
-	dp KABUTOPS
+	dp LETTY
+	dp ELETTY
+	dp CYUYUKO
+	dp YUYUKO
 	dp HERACROSS
 	dp GLIGAR
 	dp SLUGMA

@@ -447,20 +447,20 @@ ENDM
 	map_attributes RadioTower4F, RADIO_TOWER_4F, $0, 0
 	map_attributes RadioTower5F, RADIO_TOWER_5F, $0, 0
 	map_attributes RuinsOfAlphHoOhChamber, RUINS_OF_ALPH_HO_OH_CHAMBER, $0, 0
-	map_attributes RuinsOfAlphKabutoChamber, RUINS_OF_ALPH_KABUTO_CHAMBER, $0, 0
-	map_attributes RuinsOfAlphOmanyteChamber, RUINS_OF_ALPH_OMANYTE_CHAMBER, $0, 0
-	map_attributes RuinsOfAlphAerodactylChamber, RUINS_OF_ALPH_AERODACTYL_CHAMBER, $0, 0
+	map_attributes RuinsOfAlphCYuyukoChamber, RUINS_OF_ALPH_CYUYUKO_CHAMBER, $0, 0
+	map_attributes RuinsOfAlphLunasaChamber, RUINS_OF_ALPH_LUNASA_CHAMBER, $0, 0
+	map_attributes RuinsOfAlphEYuyukoChamber, RUINS_OF_ALPH_EYUYUKO_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphEntranceChamber, RUINS_OF_ALPH_ENTRANCE_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphInnerChamber, RUINS_OF_ALPH_INNER_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphResearchCenter, RUINS_OF_ALPH_RESEARCH_CENTER, $0, 0
 	map_attributes RuinsOfAlphHoOhItemRoom, RUINS_OF_ALPH_HO_OH_ITEM_ROOM, $0, 0
-	map_attributes RuinsOfAlphKabutoItemRoom, RUINS_OF_ALPH_KABUTO_ITEM_ROOM, $0, 0
-	map_attributes RuinsOfAlphOmanyteItemRoom, RUINS_OF_ALPH_OMANYTE_ITEM_ROOM, $0, 0
-	map_attributes RuinsOfAlphAerodactylItemRoom, RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM, $0, 0
+	map_attributes RuinsOfAlphCYuyukoItemRoom, RUINS_OF_ALPH_CYUYUKO_ITEM_ROOM, $0, 0
+	map_attributes RuinsOfAlphLunasaItemRoom, RUINS_OF_ALPH_LUNASA_ITEM_ROOM, $0, 0
+	map_attributes RuinsOfAlphEYuyukoItemRoom, RUINS_OF_ALPH_EYUYUKO_ITEM_ROOM, $0, 0
 	map_attributes RuinsOfAlphHoOhWordRoom, RUINS_OF_ALPH_HO_OH_WORD_ROOM, $0, 0
-	map_attributes RuinsOfAlphKabutoWordRoom, RUINS_OF_ALPH_KABUTO_WORD_ROOM, $0, 0
-	map_attributes RuinsOfAlphOmanyteWordRoom, RUINS_OF_ALPH_OMANYTE_WORD_ROOM, $0, 0
-	map_attributes RuinsOfAlphAerodactylWordRoom, RUINS_OF_ALPH_AERODACTYL_WORD_ROOM, $0, 0
+	map_attributes RuinsOfAlphCYuyukoWordRoom, RUINS_OF_ALPH_CYUYUKO_WORD_ROOM, $0, 0
+	map_attributes RuinsOfAlphLunasaWordRoom, RUINS_OF_ALPH_LUNASA_WORD_ROOM, $0, 0
+	map_attributes RuinsOfAlphEYuyukoWordRoom, RUINS_OF_ALPH_EYUYUKO_WORD_ROOM, $0, 0
 	map_attributes RuinsOfAlphSinjohChamber, RUINS_OF_ALPH_SINJOH_CHAMBER, $0, 0
 	map_attributes Route22Past, ROUTE_22_PAST, $2c, 0
 	map_attributes UnionCave1F, UNION_CAVE_1F, $9, 0
@@ -525,7 +525,7 @@ ENDM
 	map_attributes Route38EcruteakGate, ROUTE_38_ECRUTEAK_GATE, $0, 0
 	map_attributes Route39Barn, ROUTE_39_BARN, $0, 0
 	map_attributes Route39Farmhouse, ROUTE_39_FARMHOUSE, $0, 0
-	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $0, 0
+	map_attributes MahoganyRedELilyBlackSpeechHouse, MAHOGANY_RED_ELILYBLACK_SPEECH_HOUSE, $0, 0
 	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0
 	map_attributes Route42EcruteakGate, ROUTE_42_ECRUTEAK_GATE, $0, 0
@@ -588,7 +588,7 @@ ENDM
 	map_attributes KurtsHouse, KURTS_HOUSE, $0, 0
 	map_attributes AzaleaGym, AZALEA_GYM, $0, 0
 	map_attributes LakeOfRageHiddenPowerHouse, LAKE_OF_RAGE_HIDDEN_POWER_HOUSE, $0, 0
-	map_attributes LakeOfRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
+	map_attributes LakeOfRageLilyBlackHouse, LAKE_OF_RAGE_LILYBLACK_HOUSE, $0, 0
 	map_attributes Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0
 	map_attributes Route43Gate, ROUTE_43_GATE, $0, 0
 	map_attributes SinjohRuins, SINJOH_RUINS, $d5, 0

@@ -122,39 +122,39 @@ MiniIconPointers:
 	mini_icon CFlandre
 	mini_icon Flandre
 	mini_icon EFlandre
-	mini_icon Seaking
-	mini_icon Staryu
-	mini_icon Starmie
+	mini_icon CLetty
+	mini_icon Letty
+	mini_icon ELetty
 	mini_icon MrMime
-	mini_icon Scyther
-	mini_icon Jynx
-	mini_icon Electabuzz
-	mini_icon Magmar
-	mini_icon Pinsir
-	mini_icon Tauros
-	mini_icon Magikarp
-	mini_icon Gyarados
-	mini_icon Lapras
-	mini_icon Ditto
-	mini_icon Eevee
-	mini_icon Vaporeon
-	mini_icon Jolteon
-	mini_icon Flareon
-	mini_icon Porygon
-	mini_icon Omanyte
-	mini_icon Omastar
-	mini_icon Kabuto
-	mini_icon Kabutops
-	mini_icon Aerodactyl
-	mini_icon Snorlax
-	mini_icon Articuno
-	mini_icon Zapdos
-	mini_icon Moltres
-	mini_icon Dratini
-	mini_icon Dragonair
-	mini_icon Dragonite
-	mini_icon Mewtwo
-	mini_icon Mew
+	mini_icon Chen
+	mini_icon EChen
+	mini_icon CLilyWhite
+	mini_icon LilyWhite
+	mini_icon ELilyWhite
+	mini_icon CLilyBlack
+	mini_icon LilyBlack
+	mini_icon ELilyBlack
+	mini_icon CLyrica
+	mini_icon Lyrica
+	mini_icon ELyrica
+	mini_icon CMerlin
+	mini_icon Merlin
+	mini_icon EMerlin
+	mini_icon CLunasa
+	mini_icon Lunasa
+	mini_icon ELunasa
+	mini_icon CYuyuko
+	mini_icon Yuyuko
+	mini_icon EYuyuko
+	mini_icon CRan
+	mini_icon Ran
+	mini_icon ERan
+	mini_icon CYukari
+	mini_icon Yukari
+	mini_icon EYukari
+	mini_icon CSuika
+	mini_icon Suika
+	mini_icon ESuika
 	mini_icon CYoumu
 	mini_icon Youmu
 	mini_icon EYoumu
@@ -236,7 +236,7 @@ MiniIconPointers:
 	mini_icon Kingdra
 	mini_icon Phanpy
 	mini_icon Donphan
-	mini_icon Porygon2
+	mini_icon CLunasa2
 	mini_icon Stantler
 	mini_icon Smeargle
 	mini_icon Tyrogue
@@ -280,7 +280,7 @@ MiniIconPointers:
 	mini_icon Glaceon
 	mini_icon Gliscor
 	mini_icon Mamoswine
-	mini_icon PorygonZ
+	mini_icon CLunasaZ
 	mini_icon Sylveon
 	mini_icon Perrserker
 	mini_icon Cursola
@@ -338,15 +338,15 @@ MiniIconPointers:
 
 	mini_icon Pichu ; Spiky
 
-rept NUM_MAGIKARP - 1
-	mini_icon Magikarp
+rept NUM_LILYBLACK - 1
+	mini_icon LilyBlack
 endr
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
-	mini_icon Gyarados ; Red
+	mini_icon ELilyBlack ; Red
 
-	mini_icon MewtwoArmored
+	mini_icon SuikaArmored
 
 	mini_icon DudunsparceThreeSegment
 
@@ -377,9 +377,9 @@ endr
 	mini_icon CMaiGalarian
 	mini_icon CPatchouliGalarian
 	mini_icon MrMimeGalarian
-	mini_icon ArticunoGalarian
-	mini_icon ZapdosGalarian
-	mini_icon MoltresGalarian
+	mini_icon RanGalarian
+	mini_icon ERanGalarian
+	mini_icon CYukariGalarian
 	mini_icon SlowkingGalarian
 	mini_icon CorsolaGalarian
 
@@ -392,8 +392,8 @@ endr
 	mini_icon SneaselHisuian
 
 	mini_icon WooperPaldean
-	mini_icon TaurosPaldean
-	mini_icon TaurosPaldeanFire
-	mini_icon TaurosPaldeanWater
+	mini_icon CLilyBlackPaldean
+	mini_icon CLilyBlackPaldeanFire
+	mini_icon CLilyBlackPaldeanWater
 
 	assert_table_length NUM_UNIQUE_POKEMON

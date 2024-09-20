@@ -12,30 +12,30 @@ FarawayJungle_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event 12, 10, SPRITE_MEW, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FarawayJungleMew, EVENT_FARAWAY_JUNGLE_MEW
+	object_event 12, 10, SPRITE_ESUIKA, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FarawayJungleESuika, EVENT_FARAWAY_JUNGLE_ESUIKA
 
 	object_const_def
-	const FARAWAYJUNGLE_MEW
+	const FARAWAYJUNGLE_ESUIKA
 
-FarawayJungleMew:
+FarawayJungleESuika:
 	faceplayer
 	opentext
-	writetext MewText
-	cry MEW
+	writetext ESuikaText
+	cry ESUIKA
 	pause 15
 	closetext
-	loadwildmon MEW, 30
+	loadwildmon ESUIKA, 30
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
-	disappear FARAWAYJUNGLE_MEW
-	setevent EVENT_FARAWAY_JUNGLE_MEW
+	disappear FARAWAYJUNGLE_ESUIKA
+	setevent EVENT_FARAWAY_JUNGLE_ESUIKA
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_MEW
+	setflag ENGINE_PLAYER_CAUGHT_ESUIKA
 .nocatch
 	end
 
-MewText:
-	text "Mew!"
+ESuikaText:
+	text "ESuika!"
 	done

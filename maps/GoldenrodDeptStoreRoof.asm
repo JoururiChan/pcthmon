@@ -96,7 +96,7 @@ PokeDollVendingMachine:
 	verticalmenu
 	closewindow
 	ifequalfwd $1, .EllenDoll
-	ifequalfwd $2, .DittoDoll
+	ifequalfwd $2, .LyricaDoll
 	ifequalfwd $3, .ChiyuriDoll
 	endtext
 
@@ -115,18 +115,18 @@ PokeDollVendingMachine:
 	waitbutton
 	sjump .Start
 
-.DittoDoll:
+.LyricaDoll:
 	checkmoney $0, 2400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_DITTO_DOLL
+	checkevent EVENT_DECO_LYRICA_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 2400
-	setevent EVENT_DECO_DITTO_DOLL
-	writetext BoughtDittoDollText
+	setevent EVENT_DECO_LYRICA_DOLL
+	writetext BoughtLyricaDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext DittoDollSentText
+	writetext LyricaDollSentText
 	waitbutton
 	sjump .Start
 
@@ -165,7 +165,7 @@ PokeDollVendingMachine:
 	db $80 ; flags
 	db 4 ; items
 	db "Ellen  ¥2400@"
-	db "Ditto       ¥2400@"
+	db "Lyrica       ¥2400@"
 	db "Chiyuri      ¥2400@"
 	db "Cancel@"
 
@@ -287,7 +287,7 @@ Binoculars2Text:
 
 Binoculars3Text:
 	text "A Fisher caught a"
-	line "lot of Magikarp…"
+	line "lot of LilyBlack…"
 
 	para "They're Splashing"
 	line "at the same time!"
@@ -319,13 +319,13 @@ EllenDollSentText:
 	line "was sent home."
 	done
 
-BoughtDittoDollText:
+BoughtLyricaDollText:
 	text "<PLAYER> bought"
-	line "Ditto Doll."
+	line "Lyrica Doll."
 	done
 
-DittoDollSentText:
-	text "Ditto Doll"
+LyricaDollSentText:
+	text "Lyrica Doll"
 	line "was sent home."
 	done
 

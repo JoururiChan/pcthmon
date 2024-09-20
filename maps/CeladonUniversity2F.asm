@@ -21,7 +21,7 @@ CeladonUniversity2F_MapScriptHeader:
 	bg_event  2,  8, BGEVENT_JUMPTEXT, CeladonUniversity2FWillowsOfficeSignText
 	bg_event  6,  8, BGEVENT_JUMPTEXT, CeladonUniversity2FNursesOfficeSignText
 	bg_event 18,  8, BGEVENT_JUMPTEXT, CeladonUniversity2FWestwoodsOfficeSignText
-	bg_event 16,  1, BGEVENT_READ, CeladonUniversity2FMagikarpSign
+	bg_event 16,  1, BGEVENT_READ, CeladonUniversity2FLilyBlackSign
 	bg_event 24,  1, BGEVENT_READ, CeladonUniversity2FCMeilingSign
 
 	def_object_events
@@ -186,15 +186,15 @@ CeladonUniversity2FWestwoodsOfficeSignText:
 	line "Office"
 	done
 
-CeladonUniversity2FMagikarpSign:
+CeladonUniversity2FLilyBlackSign:
 	reanchormap
-	pokepic MAGIKARP, MAGIKARP_ORCA_FORM
-	cry MAGIKARP
+	pokepic LILYBLACK, LILYBLACK_ORCA_FORM
+	cry LILYBLACK
 	waitbutton
 	closepokepic
 	jumpthistext
 
-	text "A Magikarp is"
+	text "A LilyBlack is"
 	line "swimming around."
 	done
 

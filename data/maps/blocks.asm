@@ -134,11 +134,11 @@ CeladonOldManSpeechHouse_BlockData:
 CeladonDevelopmentSpeechHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 
-MahoganyRedGyaradosSpeechHouse_BlockData:
+MahoganyRedELilyBlackSpeechHouse_BlockData:
 BlackthornDragonSpeechHouse_BlockData:
 BlackthornEmysHouse_BlockData:
 MoveDeletersHouse_BlockData:
-LakeOfRageMagikarpHouse_BlockData:
+LakeOfRageLilyBlackHouse_BlockData:
 GoldenrodNameRater_BlockData:
 GoldenrodBandHouse_BlockData:
 ManiasHouse_BlockData:
@@ -311,35 +311,35 @@ SECTION "RuinsOfAlphSinjohChamber_BlockData", ROMX
 RuinsOfAlphSinjohChamber_BlockData:
 	INCBIN "maps/RuinsOfAlphSinjohChamber.ablk.lz"
 
-SECTION "RuinsOfAlphAerodactylChamber_BlockData", ROMX
-RuinsOfAlphAerodactylChamber_BlockData:
+SECTION "RuinsOfAlphEYuyukoChamber_BlockData", ROMX
+RuinsOfAlphEYuyukoChamber_BlockData:
 RuinsOfAlphHoOhChamber_BlockData:
-RuinsOfAlphKabutoChamber_BlockData:
-RuinsOfAlphOmanyteChamber_BlockData:
+RuinsOfAlphCYuyukoChamber_BlockData:
+RuinsOfAlphLunasaChamber_BlockData:
 	INCBIN "maps/RuinsOfAlphPuzzleChamber.ablk.lz"
 
-SECTION "RuinsOfAlphAerodactylItemRoom_BlockData", ROMX
-RuinsOfAlphAerodactylItemRoom_BlockData:
+SECTION "RuinsOfAlphEYuyukoItemRoom_BlockData", ROMX
+RuinsOfAlphEYuyukoItemRoom_BlockData:
 RuinsOfAlphHoOhItemRoom_BlockData:
-RuinsOfAlphKabutoItemRoom_BlockData:
-RuinsOfAlphOmanyteItemRoom_BlockData:
+RuinsOfAlphCYuyukoItemRoom_BlockData:
+RuinsOfAlphLunasaItemRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphItemRoom.ablk.lz"
 
-SECTION "RuinsOfAlphAerodactylWordRoom_BlockData", ROMX
-RuinsOfAlphAerodactylWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphAerodactylWordRoom.ablk.lz"
+SECTION "RuinsOfAlphEYuyukoWordRoom_BlockData", ROMX
+RuinsOfAlphEYuyukoWordRoom_BlockData:
+	INCBIN "maps/RuinsOfAlphEYuyukoWordRoom.ablk.lz"
 
 SECTION "RuinsOfAlphHoOhWordRoom_BlockData", ROMX
 RuinsOfAlphHoOhWordRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphHoOhWordRoom.ablk.lz"
 
-SECTION "RuinsOfAlphKabutoWordRoom_BlockData", ROMX
-RuinsOfAlphKabutoWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphKabutoWordRoom.ablk.lz"
+SECTION "RuinsOfAlphCYuyukoWordRoom_BlockData", ROMX
+RuinsOfAlphCYuyukoWordRoom_BlockData:
+	INCBIN "maps/RuinsOfAlphCYuyukoWordRoom.ablk.lz"
 
-SECTION "RuinsOfAlphOmanyteWordRoom_BlockData", ROMX
-RuinsOfAlphOmanyteWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphOmanyteWordRoom.ablk.lz"
+SECTION "RuinsOfAlphLunasaWordRoom_BlockData", ROMX
+RuinsOfAlphLunasaWordRoom_BlockData:
+	INCBIN "maps/RuinsOfAlphLunasaWordRoom.ablk.lz"
 
 SECTION "SinjohRuins_BlockData", ROMX
 SinjohRuins_BlockData:

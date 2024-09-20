@@ -21,11 +21,11 @@ CinnabarLab_MapScriptHeader:
 
 	def_object_events
 	object_event 15,  6, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
-	object_event 15,  4, SPRITE_ARMORED_MEWTWO, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
+	object_event 15,  4, SPRITE_ARMORED_SUIKA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event 11,  6, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event 20,  5, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_SCIENTIST1
 	object_event 11,  4, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_SCIENTIST2
-	pokemon_event 15,  7, MEWTWO, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_PURPLE, ClearText, EVENT_CINNABAR_LAB_MEWTWO
+	pokemon_event 15,  7, SUIKA, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_PURPLE, ClearText, EVENT_CINNABAR_LAB_SUIKA
 	object_event 14,  8, SPRITE_CELEBI, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_CELEBI
 	object_event 15,  8, SPRITE_CHRIS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_CHRIS
 	object_event 15,  8, SPRITE_KRIS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_KRIS
@@ -33,11 +33,11 @@ CinnabarLab_MapScriptHeader:
 
 	object_const_def
 	const CINNABARLAB_GIOVANNI
-	const CINNABARLAB_ARMORED_MEWTWO
+	const CINNABARLAB_ARMORED_SUIKA
 	const CINNABARLAB_SCIENTIST1
 	const CINNABARLAB_SCIENTIST2
 	const CINNABARLAB_SCIENTIST3
-	const CINNABARLAB_MEWTWO
+	const CINNABARLAB_SUIKA
 	const CINNABARLAB_CELEBI
 	const CINNABARLAB_CHRIS
 	const CINNABARLAB_KRIS
@@ -62,7 +62,7 @@ CinnabarLabCelebiEventScript:
 	special FadeOutPalettes
 	pause 15
 	setevent EVENT_CINNABAR_LAB_CELEBI
-	setevent EVENT_CINNABAR_LAB_MEWTWO
+	setevent EVENT_CINNABAR_LAB_SUIKA
 	setevent EVENT_CINNABAR_LAB_CHRIS
 	setevent EVENT_CINNABAR_LAB_KRIS
 	setevent EVENT_CINNABAR_LAB_CRYS
@@ -86,7 +86,7 @@ CinnabarLabCelebiEventScript:
 	applyonemovement PLAYER, slow_step_up
 	opentext
 	writetext CinnabarLabGiovanniAttackText
-	cry MEWTWO
+	cry SUIKA
 	waitsfx
 	closetext
 	clearevent EVENT_TIME_TRAVELING
@@ -100,10 +100,10 @@ CinnabarLabCelebiEventScript:
 	playmusic MUSIC_NONE
 	setevent EVENT_TIME_TRAVELING
 	showtext CinnabarLabGiovanniAfterText
-	showemote EMOTE_SHOCK, CINNABARLAB_ARMORED_MEWTWO, 15
+	showemote EMOTE_SHOCK, CINNABARLAB_ARMORED_SUIKA, 15
 	opentext
-	writetext CinnabarLabMewtwoText
-	cry MEWTWO
+	writetext CinnabarLabSuikaText
+	cry SUIKA
 	waitsfx
 	closetext
 	playmusic MUSIC_KANTO_LEGEND_BATTLE_XY
@@ -124,15 +124,15 @@ CinnabarLabCelebiEventScript:
 	earthquake 30
 	waitsfx
 	pause 15
-	applymovement CINNABARLAB_ARMORED_MEWTWO, CinnabarLabMewtwoFloatsDownMovementData
+	applymovement CINNABARLAB_ARMORED_SUIKA, CinnabarLabSuikaFloatsDownMovementData
 	applymovement PLAYER, CinnabarLabPlayerStepsBackMovementData
 	pause 15
 	scall CinnabarLabHidePlayer
 	waitsfx
 	showemote EMOTE_SHOCK, CINNABARLAB_GIOVANNI, 10
-	cry MEWTWO
+	cry SUIKA
 	waitsfx
-	turnobject CINNABARLAB_ARMORED_MEWTWO, LEFT
+	turnobject CINNABARLAB_ARMORED_SUIKA, LEFT
 	applymovement PLAYER, CinnabarLabPan1MovementData
 	playsound SFX_PSYCHIC
 	turnobject CINNABARLAB_SCIENTIST1, RIGHT
@@ -142,7 +142,7 @@ CinnabarLabCelebiEventScript:
 	applymovement CINNABARLAB_SCIENTIST1, CinnabarLabScientist1Thrown2MovementData
 	disappear CINNABARLAB_SCIENTIST1
 	appear CINNABARLAB_SCIENTIST3
-	turnobject CINNABARLAB_ARMORED_MEWTWO, RIGHT
+	turnobject CINNABARLAB_ARMORED_SUIKA, RIGHT
 	applymovement PLAYER, CinnabarLabPan2MovementData
 	playsound SFX_PSYCHIC
 	turnobject CINNABARLAB_SCIENTIST2, LEFT
@@ -157,7 +157,7 @@ CinnabarLabCelebiEventScript:
 	closetext
 	playsound SFX_PSYCHIC
 	applymovement CINNABARLAB_GIOVANNI, CinnabarLabGiovanniThrown1MovementData
-	turnobject CINNABARLAB_ARMORED_MEWTWO, UP
+	turnobject CINNABARLAB_ARMORED_SUIKA, UP
 	applymovement PLAYER, CinnabarLabPan3MovementData
 	waitsfx
 	playsound SFX_TACKLE
@@ -165,20 +165,20 @@ CinnabarLabCelebiEventScript:
 	waitsfx
 	applymovement PLAYER, CinnabarLabPan4MovementData
 	scall CinnabarLabShowPlayer
-	turnobject CINNABARLAB_ARMORED_MEWTWO, DOWN
+	turnobject CINNABARLAB_ARMORED_SUIKA, DOWN
 	pause 30
-	applyonemovement CINNABARLAB_ARMORED_MEWTWO, slow_step_down
+	applyonemovement CINNABARLAB_ARMORED_SUIKA, slow_step_down
 	playsound SFX_KINESIS
 	special FadeOutPalettes
 	special LoadMapPalettes
 	pause 15
-	disappear CINNABARLAB_ARMORED_MEWTWO
-	appear CINNABARLAB_MEWTWO
+	disappear CINNABARLAB_ARMORED_SUIKA
+	appear CINNABARLAB_SUIKA
 	waitsfx
 	special FadeInPalettes_EnableDynNoApply
 	opentext
-	writetext CinnabarLabMewtwoText
-	cry MEWTWO
+	writetext CinnabarLabSuikaText
+	cry SUIKA
 	waitsfx
 	closetext
 	playsound SFX_GAME_FREAK_LOGO_GS
@@ -253,7 +253,7 @@ CinnabarLabPanUpAndDownMovementData:
 	turn_head_up
 	step_end
 
-CinnabarLabMewtwoFloatsDownMovementData:
+CinnabarLabSuikaFloatsDownMovementData:
 	set_sliding
 	jump_step_down
 	remove_sliding
@@ -423,7 +423,7 @@ CinnabarLabGiovanniAfterText:
 	line "this useless!"
 	done
 
-CinnabarLabMewtwoText:
+CinnabarLabSuikaText:
 	text "???: Myuu!"
 	done
 

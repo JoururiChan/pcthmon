@@ -7,7 +7,7 @@ Man: "An old man told me that if you're lucky enough, you can see a rare island 
 
 Route 15 Gate:
 Lady: "Woah! You can see the Safari Zone from here. It's full of Tohomon I haven't seen before!"
-Fisher: "Do you like fishing? If you do, you should try to catch every Magikarp form. There's plenty of them!"
+Fisher: "Do you like fishing? If you do, you should try to catch every LilyBlack form. There's plenty of them!"
 
 Route 16 Gate:
 Old woman: "The cycling road. I used to go cycling there when I was younger. Have you visited it?"

@@ -82,11 +82,11 @@ MapScenes::
 	scene_var ROUTE_47,                               wRoute47SceneID
 	scene_var ROUTE_48,                               wRoute48SceneID
 	scene_var RUGGED_ROAD_SOUTH,                      wRuggedRoadSouthSceneID
-	scene_var RUINS_OF_ALPH_AERODACTYL_CHAMBER,       wRuinsOfAlphAerodactylChamberSceneID
+	scene_var RUINS_OF_ALPH_EYUYUKO_CHAMBER,       wRuinsOfAlphEYuyukoChamberSceneID
 	scene_var RUINS_OF_ALPH_HO_OH_CHAMBER,            wRuinsOfAlphHoOhChamberSceneID
 	scene_var RUINS_OF_ALPH_INNER_CHAMBER,            wRuinsOfAlphInnerChamberSceneID
-	scene_var RUINS_OF_ALPH_KABUTO_CHAMBER,           wRuinsOfAlphKabutoChamberSceneID
-	scene_var RUINS_OF_ALPH_OMANYTE_CHAMBER,          wRuinsOfAlphOmanyteChamberSceneID
+	scene_var RUINS_OF_ALPH_CYUYUKO_CHAMBER,           wRuinsOfAlphCYuyukoChamberSceneID
+	scene_var RUINS_OF_ALPH_LUNASA_CHAMBER,          wRuinsOfAlphLunasaChamberSceneID
 	scene_var RUINS_OF_ALPH_OUTSIDE,                  wRuinsOfAlphOutsideSceneID
 	scene_var RUINS_OF_ALPH_RESEARCH_CENTER,          wRuinsOfAlphResearchCenterSceneID
 	scene_var SAFFRON_TRAIN_STATION,                  wAlways0SceneID

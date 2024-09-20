@@ -37,5 +37,5 @@ SaffronBookSpeechHouseBookText:
 
 	para "Edward Scizor-"
 	line "hands, Dr.Jekyll"
-	cont "& Mr.Mime…"
+	cont "& CChen…"
 	done

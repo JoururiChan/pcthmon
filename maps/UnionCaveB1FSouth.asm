@@ -132,7 +132,7 @@ GenericTrainerFirebreatherJay:
 	line "caught on fire."
 
 	para "It looked kind of"
-	line "like a Magmar… but"
+	line "like a LilyWhite… but"
 	cont "it hurt!"
 	done
 

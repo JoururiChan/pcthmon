@@ -68,10 +68,10 @@ EcruteakPokeCenter1FBillScript:
 	waitsfx
 	readvar VAR_PARTYCOUNT
 	ifequalfwd PARTY_LENGTH, .NoRoom
-	givepoke EEVEE, PLAIN_FORM, 5, NO_ITEM, GREAT_BALL
-	givepokemail .GiftEeveeMail
-	callasm .SetEeveeMailOT
-	setevent EVENT_GOT_EEVEE
+	givepoke ELYRICA, PLAIN_FORM, 5, NO_ITEM, GREAT_BALL
+	givepokemail .GiftELyricaMail
+	callasm .SetELyricaMailOT
+	setevent EVENT_GOT_ELYRICA
 	writetext .GoodbyeText
 	waitbutton
 	closetext
@@ -111,7 +111,7 @@ EcruteakPokeCenter1FBillScript:
 	done
 
 .QuestionText:
-	text "Bill: This Eevee"
+	text "Bill: This ELyrica"
 	line "came over just"
 
 	para "before the Time"
@@ -144,7 +144,7 @@ EcruteakPokeCenter1FBillScript:
 
 .GoodbyeText:
 	text "Bill: Prof.Elm"
-	line "claims Eevee may"
+	line "claims ELyrica may"
 
 	para "evolve in new and"
 	line "unknown ways."
@@ -171,12 +171,12 @@ EcruteakPokeCenter1FBillScript:
 	step_down
 	step_end
 
-.GiftEeveeMail:
+.GiftELyricaMail:
 	db   EON_MAIL
 	db   "Please keep this"
 	next "#mon safe!@@@@@@"
 
-.SetEeveeMailOT:
+.SetELyricaMailOT:
 	ld hl, sPartyMon1MailAuthor
 	ld a, [wPartyCount]
 	dec a
@@ -184,17 +184,17 @@ EcruteakPokeCenter1FBillScript:
 	rst AddNTimes
 	push hl
 	pop de
-	ld hl, .EeveeMailOTID
-	ld bc, .EeveeMailOTIDEnd - .EeveeMailOTID
+	ld hl, .ELyricaMailOTID
+	ld bc, .ELyricaMailOTIDEnd - .ELyricaMailOTID
 	ld a, BANK(sPartyMail)
 	call GetSRAMBank
 	rst CopyBytes
 	jmp CloseSRAM
 
-.EeveeMailOTID:
+.ELyricaMailOTID:
 	rawchar "Prof.Oak@@"
 	bigdw 00001
-.EeveeMailOTIDEnd
+.ELyricaMailOTIDEnd
 
 EcruteakPokeCenter1FPokefanMScript:
 	checkevent EVENT_GOT_HM03_SURF
@@ -277,7 +277,7 @@ EcruteakPokeCenter1FGymGuyText:
 	text "Lake of Rage…"
 
 	para "The appearance of"
-	line "a Gyarados swarm…"
+	line "a ELilyBlack swarm…"
 
 	para "I smell a conspir-"
 	line "acy. I know it!"

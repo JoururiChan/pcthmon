@@ -261,8 +261,8 @@ BrentBillTriviaScript:
 IrwinRumorScript:
 	checkevent EVENT_OPENED_MT_SILVER
 	iftruefwd .MtSilver
-	checkevent EVENT_FOUGHT_SNORLAX
-	iftruefwd .Snorlax
+	checkevent EVENT_FOUGHT_CRAN
+	iftruefwd .CRan
 	checkevent EVENT_GOT_PASS_FROM_COPYCAT
 	iftruefwd .TrainPass
 	checkflag ENGINE_SOULBADGE
@@ -327,8 +327,8 @@ IrwinRumorScript:
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 
-.Snorlax:
-	farwritetext IrwinSnorlaxGossipText
+.CRan:
+	farwritetext IrwinCRanGossipText
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 

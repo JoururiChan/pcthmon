@@ -13,9 +13,9 @@ endc
 	dn GENDER_F100, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for JYNX, OBLIVIOUS, FOREWARN, DRY_SKIN
+	abilities_for ECHEN, OBLIVIOUS, FOREWARN, DRY_SKIN
 else
-	abilities_for JYNX, OBLIVIOUS, FILTER, DRY_SKIN
+	abilities_for ECHEN, OBLIVIOUS, FILTER, DRY_SKIN
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups

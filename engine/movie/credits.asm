@@ -569,7 +569,7 @@ Credits_LoadBorderGFX:
 	db  7,  7,  8,  8,  7,  7,  9,  9 ; Munchlax
 	db 10, 10, 11, 11, 10, 10, 12, 12 ; Togepi
 	db  0,  1,  0,  2,  0,  1,  0,  2 ; Smoochum
-	db  3,  4,  5,  6,  3,  4,  5,  6 ; Ditto
+	db  3,  4,  5,  6,  3,  4,  5,  6 ; Lyrica
 	db  7,  7,  8,  8,  7,  7,  9,  9 ; Elekid
 	db 10, 10, 11, 11, 12, 12, 11, 11 ; Bellossom
 

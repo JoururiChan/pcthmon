@@ -22,7 +22,7 @@ BluesHouse2FPCText:
 	cont "tle between a"
 
 	para "ESakuya and a"
-	line "Dragonite."
+	line "CSuika."
 	done
 
 BluesHouse2FSNESText:

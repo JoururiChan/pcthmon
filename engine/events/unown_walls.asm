@@ -17,8 +17,8 @@ SpecialHoOhChamber:
 	eventflagset EVENT_WALL_OPENED_IN_HO_OH_CHAMBER
 	ret
 
-SpecialOmanyteChamber:
-	eventflagcheck EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
+SpecialLunasaChamber:
+	eventflagcheck EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	ret nz
 
 	ld a, WATER_STONE
@@ -44,19 +44,19 @@ SpecialOmanyteChamber:
 	jr nz, .loop
 
 .open
-	eventflagset EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
+	eventflagset EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	ret
 
-SpecialAerodactylChamber:
+SpecialEYuyukoChamber:
 	call GetMapAttributesPointer
 	ld a, b
-	cp HIGH(RuinsOfAlphAerodactylChamber_MapAttributes)
+	cp HIGH(RuinsOfAlphEYuyukoChamber_MapAttributes)
 	jr nz, .nope
 	ld a, c
-	cp LOW(RuinsOfAlphAerodactylChamber_MapAttributes)
+	cp LOW(RuinsOfAlphEYuyukoChamber_MapAttributes)
 	jr nz, .nope
 
-	eventflagset EVENT_WALL_OPENED_IN_AERODACTYL_CHAMBER
+	eventflagset EVENT_WALL_OPENED_IN_EYUYUKO_CHAMBER
 	scf
 	ret
 
@@ -64,16 +64,16 @@ SpecialAerodactylChamber:
 	and a
 	ret
 
-SpecialKabutoChamber:
+SpecialCYuyukoChamber:
 	call GetMapAttributesPointer
 	ld a, b
-	cp HIGH(RuinsOfAlphKabutoChamber_MapAttributes)
+	cp HIGH(RuinsOfAlphCYuyukoChamber_MapAttributes)
 	ret nz
 	ld a, c
-	cp LOW(RuinsOfAlphKabutoChamber_MapAttributes)
+	cp LOW(RuinsOfAlphCYuyukoChamber_MapAttributes)
 	ret nz
 
-	eventflagset EVENT_WALL_OPENED_IN_KABUTO_CHAMBER
+	eventflagset EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
 	ret
 
 Special_DisplayUnownWords:

@@ -21,7 +21,7 @@ GoldenrodHarbor_MapScriptHeader:
 	itemball_event 13,  3, STAR_PIECE, 1, EVENT_GOLDENROD_HARBOR_STAR_PIECE
 	object_event 27, 15, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, pokemart, MARTTYPE_ADVENTURER, MART_GOLDENROD_HARBOR, -1
 	object_event 22, 15, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodHarborPokefanmScript, -1
-	object_event 21, 15, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, MAGIKARP, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, PLAIN_FORM, GoldenrodHarborMagikarpScript, -1
+	object_event 21, 15, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, LILYBLACK, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, PLAIN_FORM, GoldenrodHarborLilyBlackScript, -1
 	object_event 16, 15, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenrodHarborYoungsterScript, -1
 	object_event 16, 20, SPRITE_FISHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, trade, NPC_TRADE_JACQUES, -1
 	object_event 40, 16, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOLDENROD_CITY_ROCKET_SCOUT
@@ -91,7 +91,7 @@ GenericTrainerSwimmermJames:
 	done
 
 
-GoldenrodHarborMagikarpScript:
+GoldenrodHarborLilyBlackScript:
 	jumpthistext
 
 	text "This is a Fish"
@@ -109,23 +109,23 @@ GoldenrodHarborPokefanmScript:
 	loadmenu .MenuData
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .MagikarpDoll
+	ifequalfwd $1, .LilyBlackDoll
 	ifequalfwd $2, .MarillDoll
 	ifequalfwd $3, .OctilleryDoll
 	endtext
 
-.MagikarpDoll:
+.LilyBlackDoll:
 	checkmoney $0, 1400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_MAGIKARP_DOLL
+	checkevent EVENT_DECO_LILYBLACK_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 1400
-	setevent EVENT_DECO_MAGIKARP_DOLL
-	writetext GoldenrodHarborMagikarpDollText
+	setevent EVENT_DECO_LILYBLACK_DOLL
+	writetext GoldenrodHarborLilyBlackDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext GoldenrodHarborMagikarpDollSentText
+	writetext GoldenrodHarborLilyBlackDollSentText
 	waitbutton
 	sjump .Start
 
@@ -178,7 +178,7 @@ GoldenrodHarborPokefanmScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Magikarp    ¥1400@"
+	db "LilyBlack    ¥1400@"
 	db "Marill      ¥5600@"
 	db "Octillery  ¥11200@"
 	db "Cancel@"
@@ -347,13 +347,13 @@ GoldenrodHarborDollVendorText:
 	cont "dolls for sale."
 	done
 
-GoldenrodHarborMagikarpDollText:
+GoldenrodHarborLilyBlackDollText:
 	text "<PLAYER> bought"
-	line "Magikarp Doll."
+	line "LilyBlack Doll."
 	done
 
-GoldenrodHarborMagikarpDollSentText:
-	text "Magikarp Doll"
+GoldenrodHarborLilyBlackDollSentText:
+	text "LilyBlack Doll"
 	line "was sent home."
 	done
 

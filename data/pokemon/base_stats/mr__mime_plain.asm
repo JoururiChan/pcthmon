@@ -12,7 +12,7 @@ endc
 	db PERSIM_BERRY, PERSIM_BERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for MR__MIME, SOUNDPROOF, FILTER, TECHNICIAN
+	abilities_for CCHEN, SOUNDPROOF, FILTER, TECHNICIAN
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 

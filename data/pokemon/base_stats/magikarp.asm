@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for MAGIKARP, SWIFT_SWIM, SWIFT_SWIM, RATTLED
+	abilities_for LILYBLACK, SWIFT_SWIM, SWIFT_SWIM, RATTLED
 	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_2, EGG_DRAGON ; egg groups
 

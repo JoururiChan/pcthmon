@@ -1,43 +1,43 @@
-RuinsOfAlphOmanyteChamber_MapScriptHeader:
+RuinsOfAlphLunasaChamber_MapScriptHeader:
 	def_scene_scripts
-	scene_script RuinsofAlphOmanyteChamberTrigger0
+	scene_script RuinsofAlphLunasaChamberTrigger0
 
 	def_callbacks
-	callback MAPCALLBACK_TILES, RuinsofAlphOmanyteChamberHiddenDoorsCallback
+	callback MAPCALLBACK_TILES, RuinsofAlphLunasaChamberHiddenDoorsCallback
 
 	def_warp_events
 	warp_event  3,  9, RUINS_OF_ALPH_OUTSIDE, 3
 	warp_event  4,  9, RUINS_OF_ALPH_OUTSIDE, 3
 	warp_event  3,  3, RUINS_OF_ALPH_INNER_CHAMBER, 6
 	warp_event  4,  3, RUINS_OF_ALPH_INNER_CHAMBER, 7
-	warp_event  4,  0, RUINS_OF_ALPH_OMANYTE_ITEM_ROOM, 1
+	warp_event  4,  0, RUINS_OF_ALPH_LUNASA_ITEM_ROOM, 1
 
 	def_coord_events
 
 	def_bg_events
 	bg_event  2,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
 	bg_event  5,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
-	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphOmanyteChamberSignpost2Script
-	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphOmanyteChamberSignpost3Script
-	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphOmanyteChamberSignpost4Script
-	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphOmanyteChamberSignpost5Script
+	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost2Script
+	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost3Script
+	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost4Script
+	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost5Script
 
 	def_object_events
 
-RuinsofAlphOmanyteChamberTrigger0:
-	special SpecialOmanyteChamber
-	checkevent EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
+RuinsofAlphLunasaChamberTrigger0:
+	special SpecialLunasaChamber
+	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	iffalsefwd .End
-	sdefer RuinsOfAlphOmanyteChamberWallOpenScript
+	sdefer RuinsOfAlphLunasaChamberWallOpenScript
 .End
 	end
 
-RuinsofAlphOmanyteChamberHiddenDoorsCallback:
-	checkevent EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
+RuinsofAlphLunasaChamberHiddenDoorsCallback:
+	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	iftruefwd .WallOpen
 	changeblock 4, 0, $24
 .WallOpen:
-	checkevent EVENT_SOLVED_OMANYTE_PUZZLE
+	checkevent EVENT_SOLVED_LUNASA_PUZZLE
 	iffalsefwd .FloorClosed
 	endcallback
 
@@ -46,7 +46,7 @@ RuinsofAlphOmanyteChamberHiddenDoorsCallback:
 	changeblock 4, 2, $2
 	endcallback
 
-RuinsOfAlphOmanyteChamberWallOpenScript:
+RuinsOfAlphLunasaChamberWallOpenScript:
 	pause 30
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 20
@@ -58,7 +58,7 @@ RuinsOfAlphOmanyteChamberWallOpenScript:
 	setscene $1
 	endtext
 
-MapRuinsofAlphOmanyteChamberSignpost2Script:
+MapRuinsofAlphLunasaChamberSignpost2Script:
 	reanchormap
 	setval $1
 	special Special_UnownPuzzle
@@ -68,7 +68,7 @@ MapRuinsofAlphOmanyteChamberSignpost2Script:
 
 .PuzzleComplete:
 	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
-	setevent EVENT_SOLVED_OMANYTE_PUZZLE
+	setevent EVENT_SOLVED_LUNASA_PUZZLE
 	setflag ENGINE_UNLOCKED_UNOWNS_K_TO_Q
 	setmapscene RUINS_OF_ALPH_INNER_CHAMBER, $1
 	earthquake 30
@@ -85,33 +85,33 @@ MapRuinsofAlphOmanyteChamberSignpost2Script:
 	warpcheck
 	end
 
-MapRuinsofAlphOmanyteChamberSignpost3Script:
+MapRuinsofAlphLunasaChamberSignpost3Script:
 	opentext
 	unowntypeface
-	writetext RuinsOfAlphOmanyteChamberDescriptionText
+	writetext RuinsOfAlphLunasaChamberDescriptionText
 	waitbutton
 	closetext
 	restoretypeface
 	special RefreshSprites
 	end
 
-MapRuinsofAlphOmanyteChamberSignpost5Script:
-	checkevent EVENT_WALL_OPENED_IN_OMANYTE_CHAMBER
-	iftrue_jumptext RuinsOfAlphAerodactylChamberWallHoleText
-MapRuinsofAlphOmanyteChamberSignpost4Script:
+MapRuinsofAlphLunasaChamberSignpost5Script:
+	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
+	iftrue_jumptext RuinsOfAlphEYuyukoChamberWallHoleText
+MapRuinsofAlphLunasaChamberSignpost4Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
 	iftruefwd .unsolved
 	writetext RuinsOfAlphChambersItsUnownText
 	sjumpfwd .unownwords
 .unsolved
-	writetext RuinsOfAlphAerodactylChamberWallPatternLeftText
+	writetext RuinsOfAlphEYuyukoChamberWallPatternLeftText
 .unownwords
 	setval $2
 	special Special_DisplayUnownWords
 	endtext
 
-RuinsOfAlphOmanyteChamberDescriptionText:
+RuinsOfAlphLunasaChamberDescriptionText:
 	text "This #mon"
 	line "drifted in the"
 

@@ -118,39 +118,39 @@ AnimationPointers:
 	dw CFlandreAnimation
 	dw FlandreAnimation
 	dw EFlandreAnimation
-	dw SeakingAnimation
-	dw StaryuAnimation
-	dw StarmieAnimation
+	dw CLettyAnimation
+	dw LettyAnimation
+	dw ELettyAnimation
 	dw MrMimePlainAnimation
-	dw ScytherAnimation
-	dw JynxAnimation
-	dw ElectabuzzAnimation
-	dw MagmarAnimation
-	dw PinsirAnimation
-	dw TaurosPlainAnimation
-	dw MagikarpPlainAnimation
-	dw GyaradosPlainAnimation
-	dw LaprasAnimation
-	dw DittoAnimation
-	dw EeveeAnimation
-	dw VaporeonAnimation
-	dw JolteonAnimation
-	dw FlareonAnimation
-	dw PorygonAnimation
-	dw OmanyteAnimation
-	dw OmastarAnimation
-	dw KabutoAnimation
-	dw KabutopsAnimation
-	dw AerodactylAnimation
-	dw SnorlaxAnimation
-	dw ArticunoPlainAnimation
-	dw ZapdosPlainAnimation
-	dw MoltresPlainAnimation
-	dw DratiniAnimation
-	dw DragonairAnimation
-	dw DragoniteAnimation
-	dw MewtwoPlainAnimation
-	dw MewAnimation
+	dw ChenAnimation
+	dw EChenAnimation
+	dw CLilyWhiteAnimation
+	dw LilyWhiteAnimation
+	dw ELilyWhiteAnimation
+	dw CLilyBlackPlainAnimation
+	dw LilyBlackPlainAnimation
+	dw ELilyBlackPlainAnimation
+	dw CLyricaAnimation
+	dw LyricaAnimation
+	dw ELyricaAnimation
+	dw CMerlinAnimation
+	dw MerlinAnimation
+	dw EMerlinAnimation
+	dw CLunasaAnimation
+	dw LunasaAnimation
+	dw ELunasaAnimation
+	dw CYuyukoAnimation
+	dw YuyukoAnimation
+	dw EYuyukoAnimation
+	dw CRanAnimation
+	dw RanPlainAnimation
+	dw ERanPlainAnimation
+	dw CYukariPlainAnimation
+	dw YukariAnimation
+	dw EYukariAnimation
+	dw CSuikaAnimation
+	dw SuikaPlainAnimation
+	dw ESuikaAnimation
 	dw CYoumuAnimation
 	dw YoumuAnimation
 	dw EYoumuAnimation
@@ -232,7 +232,7 @@ AnimationPointers:
 	dw KingdraAnimation
 	dw PhanpyAnimation
 	dw DonphanAnimation
-	dw Porygon2Animation
+	dw CLunasa2Animation
 	dw StantlerAnimation
 	dw SmeargleAnimation
 	dw TyrogueAnimation
@@ -276,7 +276,7 @@ AnimationPointers:
 	dw GlaceonAnimation
 	dw GliscorAnimation
 	dw MamoswineAnimation
-	dw PorygonZAnimation
+	dw CLunasaZAnimation
 	dw SylveonAnimation
 	dw PerrserkerAnimation
 	dw CursolaAnimation
@@ -334,31 +334,31 @@ AnimationPointers:
 
 	dw PichuSpikyAnimation
 
-	dw MagikarpSkellyAnimation
-	dw MagikarpCalico1Animation
-	dw MagikarpCalico2Animation
-	dw MagikarpCalico3Animation
-	dw MagikarpTwoToneAnimation
-	dw MagikarpOrcaAnimation
-	dw MagikarpDapplesAnimation
-	dw MagikarpTigerAnimation
-	dw MagikarpZebraAnimation
-	dw MagikarpStripeAnimation
-	dw MagikarpBubblesAnimation
-	dw MagikarpDiamondsAnimation
-	dw MagikarpPatchesAnimation
-	dw MagikarpForehead1Animation
-	dw MagikarpMask1Animation
-	dw MagikarpForehead2Animation
-	dw MagikarpMask2Animation
-	dw MagikarpSaucyAnimation
-	dw MagikarpRaindropAnimation
+	dw LilyBlackSkellyAnimation
+	dw LilyBlackCalico1Animation
+	dw LilyBlackCalico2Animation
+	dw LilyBlackCalico3Animation
+	dw LilyBlackTwoToneAnimation
+	dw LilyBlackOrcaAnimation
+	dw LilyBlackDapplesAnimation
+	dw LilyBlackTigerAnimation
+	dw LilyBlackZebraAnimation
+	dw LilyBlackStripeAnimation
+	dw LilyBlackBubblesAnimation
+	dw LilyBlackDiamondsAnimation
+	dw LilyBlackPatchesAnimation
+	dw LilyBlackForehead1Animation
+	dw LilyBlackMask1Animation
+	dw LilyBlackForehead2Animation
+	dw LilyBlackMask2Animation
+	dw LilyBlackSaucyAnimation
+	dw LilyBlackRaindropAnimation
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
-	dw GyaradosRedAnimation
+	dw ELilyBlackRedAnimation
 
-	dw MewtwoArmoredAnimation
+	dw SuikaArmoredAnimation
 
 	dw DudunsparceThreeSegmentAnimation
 
@@ -389,9 +389,9 @@ AnimationPointers:
 	dw CMaiGalarianAnimation
 	dw CPatchouliGalarianAnimation
 	dw MrMimeGalarianAnimation
-	dw ArticunoGalarianAnimation
-	dw ZapdosGalarianAnimation
-	dw MoltresGalarianAnimation
+	dw RanGalarianAnimation
+	dw ERanGalarianAnimation
+	dw CYukariGalarianAnimation
 	dw SlowkingGalarianAnimation
 	dw CorsolaGalarianAnimation
 
@@ -404,8 +404,8 @@ AnimationPointers:
 	dw SneaselHisuianAnimation
 
 	dw WooperPaldeanAnimation
-	dw TaurosPaldeanAnimation
-	dw TaurosPaldeanFireAnimation
-	dw TaurosPaldeanWaterAnimation
+	dw CLilyBlackPaldeanAnimation
+	dw CLilyBlackPaldeanFireAnimation
+	dw CLilyBlackPaldeanWaterAnimation
 
 	assert_table_length NUM_UNIQUE_POKEMON

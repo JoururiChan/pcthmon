@@ -130,7 +130,7 @@ Route45Dragon_tamerScript:
 
 	para "dragons' unyield-"
 	line "ing focus."
-	cont "Go, Dragonite!"
+	cont "Go, CSuika!"
 	done
 
 .BeatenText:

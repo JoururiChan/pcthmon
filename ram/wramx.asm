@@ -575,10 +575,10 @@ wEvolutionPicOffset:: db
 wEvolutionCanceled:: db
 
 NEXTU
-; Magikarp length
-wMagikarpLengthMm::
-wMagikarpLengthMmHi:: db
-wMagikarpLengthMmLo:: db
+; LilyBlack length
+wLilyBlackLengthMm::
+wLilyBlackLengthMmHi:: db
+wLilyBlackLengthMmLo:: db
 
 NEXTU
 ; mint tea woman
@@ -1109,11 +1109,11 @@ wRoute42SceneID:: db
 wRoute43GateSceneID:: db
 wRoute47SceneID:: db
 wRoute48SceneID:: db
-wRuinsOfAlphAerodactylChamberSceneID:: db
+wRuinsOfAlphEYuyukoChamberSceneID:: db
 wRuinsOfAlphHoOhChamberSceneID:: db
 wRuinsOfAlphInnerChamberSceneID:: db
-wRuinsOfAlphKabutoChamberSceneID:: db
-wRuinsOfAlphOmanyteChamberSceneID:: db
+wRuinsOfAlphCYuyukoChamberSceneID:: db
+wRuinsOfAlphLunasaChamberSceneID:: db
 wRuinsOfAlphOutsideSceneID:: db
 wRuinsOfAlphResearchCenterSceneID:: db
 wSeagallopFerryNavelGateSceneID:: db
@@ -1392,7 +1392,7 @@ wDayCareLady::
 	db
 
 wStepsToEgg:: db
-wBreedMotherOrNonDitto::
+wBreedMotherOrNonLyrica::
 ;  z: yes
 ; nz: no
 	db
@@ -1425,10 +1425,10 @@ wRoamMons_CurMapGroup:: db
 wRoamMons_LastMapNumber:: db
 wRoamMons_LastMapGroup:: db
 
-wBestMagikarpLengthMm::
-wBestMagikarpLengthMmHi:: db
-wBestMagikarpLengthMmLo:: db
-wMagikarpRecordHoldersName:: ds NAME_LENGTH
+wBestLilyBlackLengthMm::
+wBestLilyBlackLengthMmHi:: db
+wBestLilyBlackLengthMmLo:: db
+wLilyBlackRecordHoldersName:: ds NAME_LENGTH
 
 wRegisteredItemFlags::
 	; 0 - wRegisteredItems key item flag

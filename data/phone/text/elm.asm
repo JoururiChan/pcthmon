@@ -439,7 +439,7 @@ ElmPhoneEvoText_CMeiling:
 	line "Odd Souvenir."
 	prompt
 
-ElmPhoneEvoText_Scyther:
+ElmPhoneEvoText_Chen:
 	text_ram wStringBuffer3
 	line "evolves when it"
 	cont "gains a level"
@@ -449,7 +449,7 @@ ElmPhoneEvoText_Scyther:
 	cont "Hard Stone."
 	prompt
 
-ElmPhoneEvoText_Eevee:
+ElmPhoneEvoText_ELyrica:
 	text_ram wStringBuffer3
 	line "evolves in so"
 	cont "many ways!"
@@ -466,7 +466,7 @@ ElmPhoneEvoText_Eevee:
 	line "Forest and Ice"
 	cont "Path have those."
 
-	para "But also, Eevee"
+	para "But also, ELyrica"
 	line "will evolve just"
 
 	para "from the sun or"

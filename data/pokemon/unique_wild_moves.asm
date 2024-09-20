@@ -10,7 +10,7 @@ UniqueWildMoves:
 	unique_moves MAHOGANY_TOWN,    EDAICHAN,    EXPLOSION    ; TeamRocketBaseB1F
 	unique_moves MAHOGANY_TOWN,    EKOAKUMA,    EXPLOSION    ; TeamRocketBaseB1F
 	unique_moves MAHOGANY_TOWN,    CSARA,    EXPLOSION    ; TeamRocketBaseB1F
-	unique_moves UNION_CAVE,       LAPRAS,     POWER_TRICK  ; UnionCaveB2F, Fridays
+	unique_moves UNION_CAVE,       CLYRICA,     POWER_TRICK  ; UnionCaveB2F, Fridays
 	; wild mons
 	unique_moves CHERRYGROVE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves AUTUMN_TOWER,     MUGETSU, GROWTH       ; knows Growth early
@@ -19,7 +19,7 @@ UniqueWildMoves:
 	unique_moves RUINS_OF_ALPH,    SMEARGLE,   SKETCH       ; knows Sketch twice
 	unique_moves WAKASAGIHIME_WELL,    ELUIZE,   GROWTH       ; Prism tutor move
 	unique_moves ILEX_FOREST,      0,          0
-	unique_moves ROUTE_34_COAST,   STARYU,     DREAM_EATER  ; new move
+	unique_moves ROUTE_34_COAST,   LETTY,     DREAM_EATER  ; new move
 	unique_moves STORMY_BEACH,     ERIKAKO,   0
 	unique_moves MURKY_SWAMP,      MISDREAVUS, SUCKER_PUNCH ; HGSS tutor move
 	unique_moves MAGNET_TUNNEL,    ALICE,  PSYBEAM      ; new move
@@ -31,9 +31,9 @@ UniqueWildMoves:
 	unique_moves WHIRL_ISLANDS,    0,          0
 	unique_moves CLIFF_CAVE,       0,          0
 	unique_moves YELLOW_FOREST,    EKIKURI,    FLY          ; replaced with Surf if Surfing
-	unique_moves QUIET_CAVE,       MUNCHLAX,   GUNGNIR  ; Snorlax move
+	unique_moves QUIET_CAVE,       MUNCHLAX,   GUNGNIR  ; CRan move
 	unique_moves MT_MORTAR,        0,          0
-	unique_moves LAKE_OF_RAGE,     MAGIKARP,   HYDRO_PUMP   ; Tohowalker move
+	unique_moves LAKE_OF_RAGE,     LILYBLACK,   HYDRO_PUMP   ; Tohowalker move
 	unique_moves ICE_PATH,         0,          0
 	unique_moves DRAGONS_DEN,      0,          0
 	unique_moves DARK_CAVE,        0,          0
@@ -46,7 +46,7 @@ UniqueWildMoves:
 	unique_moves CERULEAN_CAVE,    CYUKA,   METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAPE,    EKURUMI,  METRONOME    ; RBY TM move
 	unique_moves CCHIYURIS_CAVE,    CHIYURI,    SCREECH      ; Sw/Sh move
-	unique_moves ROCK_TUNNEL,      ELECTABUZZ, METRONOME    ; RBY TM move
+	unique_moves ROCK_TUNNEL,      CLILYWHITE, METRONOME    ; RBY TM move
 	unique_moves DIM_CAVE,         SARA,   SUCKER_PUNCH ; HGSS tutor move
 	unique_moves DIM_CAVE,         EPATCHOULI,     AVARICE_BITE       ; Prism tutor move
 	unique_moves SOUL_HOUSE,       SHINKI,    MOONBLAST    ; Prism tutor move
@@ -55,16 +55,16 @@ UniqueWildMoves:
 	unique_moves LUCKY_ISLAND,     CREMILIA,    FIVEELEMENTS   ; RBY TM move
 	unique_moves LUCKY_ISLAND,     TOGETIC,    0
 	unique_moves SAFARI_ZONE,      REMILIA,    LEECH_SEED   ; Dream World move (hub)
-	unique_moves SAFARI_ZONE,      TAUROS,     STOMP        ; RBY move (east)
-	unique_moves SAFARI_ZONE,      PINSIR,     SLASH        ; RBY move (north)
+	unique_moves SAFARI_ZONE,      CLILYBLACK,     STOMP        ; RBY move (east)
+	unique_moves SAFARI_ZONE,      ELILYWHITE,     SLASH        ; RBY move (north)
 	unique_moves SAFARI_ZONE,      EREMILIA, 0            ; (west)
 	unique_moves URAGA_CHANNEL,    EGENGETSU, RECOVER      ; TCG move
 	unique_moves SCARY_CAVE,       KOTOHIME,     HYPNOSIS     ; Dream World move
 	unique_moves SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move
-	unique_moves SEAFOAM_ISLANDS,  JYNX,       METRONOME    ; RBY TM move
+	unique_moves SEAFOAM_ISLANDS,  ECHEN,       METRONOME    ; RBY TM move
 	unique_moves POKEMON_MANSION,  CPATCHOULI,    AVARICE_BITE       ; Prism tutor move
 	unique_moves POKEMON_MANSION,  LUIZE,   NASTY_PLOT   ; Prism tutor move
-	unique_moves CINNABAR_VOLCANO, MAGMAR,     METRONOME    ; RBY TM move
+	unique_moves CINNABAR_VOLCANO, LILYWHITE,     METRONOME    ; RBY TM move
 	unique_moves TOHJO_FALLS,      0,          0
 	unique_moves VICTORY_ROAD,     0,          0
 	unique_moves SHAMOUTI_ISLAND,  0,          0
@@ -79,7 +79,7 @@ UniqueWildMoves:
 	unique_moves FIRE_ISLAND,      HOUNDOOM,   SUCKER_PUNCH ; HGSS tutor move
 	unique_moves ICE_ISLAND,       WEAVILE,    LOW_KICK     ; HGSS tutor move
 	unique_moves LIGHTNING_ISLAND, CCIRNO,  SUCKER_PUNCH ; HGSS tutor move
-	unique_moves ROUTE_23,         GYARADOS,   POWER_WHIP   ; Sw/Sh TR move
+	unique_moves ROUTE_23,         ELILYBLACK,   POWER_WHIP   ; Sw/Sh TR move
 	unique_moves ROUTE_44,         AIPOM,      ROCK_BLAST   ; new move
 	unique_moves ROUTE_49,         CRIKAKO,   CONFUSE_RAY  ; Prism tutor move
 	db -1

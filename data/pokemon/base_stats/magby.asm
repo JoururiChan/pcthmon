@@ -9,7 +9,7 @@ endc
 	db FIRE, FIRE ; type
 	db 45 ; catch rate
 	db 117 ; base exp
-	db ASPEAR_BERRY, MAGMARIZER ; held items
+	db ASPEAR_BERRY, LILYWHITEIZER ; held items
 	dn GENDER_F25, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
 	abilities_for MAGBY, FLAME_BODY, FLAME_BODY, VITAL_SPIRIT

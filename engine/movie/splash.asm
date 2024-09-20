@@ -69,9 +69,9 @@ GameFreakPresentsInit:
 	ld a, BANK(wDecompressScratch)
 	ldh [rSVBK], a
 
-	ld hl, GameFreakDittoGFX
+	ld hl, GameFreakLyricaGFX
 	ld de, wDecompressScratch
-	ld a, BANK(GameFreakDittoGFX)
+	ld a, BANK(GameFreakLyricaGFX)
 	call Decompress
 
 	ld hl, vTiles0
@@ -199,7 +199,7 @@ GameFreakLogoJumper:
 GameFreakLogoScenes:
 	dw GameFreakLogo_Init
 	dw GameFreakLogo_Bounce
-	dw GameFreakLogo_Ditto
+	dw GameFreakLogo_Lyrica
 	dw GameFreakLogo_Recollect
 	dw DoNothing
 
@@ -249,7 +249,7 @@ GameFreakLogo_Bounce:
 	ld a, [hl]
 	sub 48
 	ld [hl], a
-	ld de, SFX_DITTO_BOUNCE
+	ld de, SFX_LYRICA_BOUNCE
 	jmp PlaySFX
 
 .done
@@ -259,10 +259,10 @@ GameFreakLogo_Bounce:
 	ld hl, SPRITEANIMSTRUCT_VAR2 ; sine offset
 	add hl, bc
 	ld [hl], 0
-	ld de, SFX_DITTO_POP_UP
+	ld de, SFX_LYRICA_POP_UP
 	jmp PlaySFX
 
-GameFreakLogo_Ditto:
+GameFreakLogo_Lyrica:
 	ld hl, SPRITEANIMSTRUCT_VAR2 ; frame count
 	add hl, bc
 	ld a, [hl]
@@ -278,7 +278,7 @@ GameFreakLogo_Ditto:
 	ld hl, SPRITEANIMSTRUCT_VAR2
 	add hl, bc
 	ld [hl], 0
-	ld de, SFX_DITTO_RECOLLECT
+	ld de, SFX_LYRICA_RECOLLECT
 	jmp PlaySFX
 
 GameFreakLogo_Recollect:
@@ -289,7 +289,7 @@ GameFreakLogo_Recollect:
 	jr z, .done
 	inc [hl]
 
-; Fade Ditto's palettes while it's transforming
+; Fade Lyrica's palettes while it's transforming
 	srl a
 	srl a
 	ld e, a
@@ -324,5 +324,5 @@ GameFreakLogoGFX:
 INCBIN "gfx/splash/logo1.1bpp"
 INCBIN "gfx/splash/logo2.1bpp"
 
-GameFreakDittoGFX:
+GameFreakLyricaGFX:
 INCBIN "gfx/splash/ditto.2bpp.lz"

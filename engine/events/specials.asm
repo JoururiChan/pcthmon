@@ -276,7 +276,7 @@ StoreSwarmMapIndices::
 Special_ResetLuckyNumberShowFlag:
 	farjp LoadOrRegenerateLuckyIDNumber
 
-SpecialSnorlaxAwake:
+SpecialCRanAwake:
 ; Check if the Toho Flute channel is playing.
 
 ; outputs:
@@ -370,36 +370,36 @@ RespawnOneOffs:
 	eventflagreset EVENT_ROUTE_36_SUDOWOODO
 .CaughtSudowoodo
 
-	ld de, ENGINE_PLAYER_CAUGHT_ARTICUNO
+	ld de, ENGINE_PLAYER_CAUGHT_RAN
 	farcall EngineFlagAction
-	jr nz, .CaughtArticuno
-	eventflagreset EVENT_SEAFOAM_ISLANDS_ARTICUNO
-.CaughtArticuno
+	jr nz, .CaughtRan
+	eventflagreset EVENT_SEAFOAM_ISLANDS_RAN
+.CaughtRan
 
-	ld de, ENGINE_PLAYER_CAUGHT_ZAPDOS
+	ld de, ENGINE_PLAYER_CAUGHT_ERAN
 	farcall EngineFlagAction
-	jr nz, .CaughtZapdos
-	eventflagreset EVENT_ROUTE_10_ZAPDOS
-	eventflagreset EVENT_ZAPDOS_GONE
-.CaughtZapdos
+	jr nz, .CaughtERan
+	eventflagreset EVENT_ROUTE_10_ERAN
+	eventflagreset EVENT_ERAN_GONE
+.CaughtERan
 
-	ld de, ENGINE_PLAYER_CAUGHT_MOLTRES
+	ld de, ENGINE_PLAYER_CAUGHT_CYUKARI
 	farcall EngineFlagAction
-	jr nz, .CaughtMoltres
-	eventflagreset EVENT_CINNABAR_VOLCANO_MOLTRES
-.CaughtMoltres
+	jr nz, .CaughtCYukari
+	eventflagreset EVENT_CINNABAR_VOLCANO_CYUKARI
+.CaughtCYukari
 
-	ld de, ENGINE_PLAYER_CAUGHT_MEWTWO
+	ld de, ENGINE_PLAYER_CAUGHT_SUIKA
 	farcall EngineFlagAction
-	jr nz, .CaughtMewtwo
-	eventflagreset EVENT_CERULEAN_CAVE_MEWTWO
-.CaughtMewtwo
+	jr nz, .CaughtSuika
+	eventflagreset EVENT_CERULEAN_CAVE_SUIKA
+.CaughtSuika
 
-	ld de, ENGINE_PLAYER_CAUGHT_MEW
+	ld de, ENGINE_PLAYER_CAUGHT_ESUIKA
 	farcall EngineFlagAction
-	jr nz, .CaughtMew
-	eventflagreset EVENT_FARAWAY_JUNGLE_MEW
-.CaughtMew
+	jr nz, .CaughtESuika
+	eventflagreset EVENT_FARAWAY_JUNGLE_ESUIKA
+.CaughtESuika
 
 	ld de, ENGINE_PLAYER_CAUGHT_RAIKOU
 	farcall EngineFlagAction

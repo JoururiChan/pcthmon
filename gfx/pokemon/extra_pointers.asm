@@ -118,39 +118,39 @@ AnimationExtraPointers:
 	dw CFlandreAnimationExtra
 	dw FlandreAnimationExtra
 	dw EFlandreAnimationExtra
-	dw SeakingAnimationExtra
-	dw StaryuAnimationExtra
-	dw StarmieAnimationExtra
+	dw CLettyAnimationExtra
+	dw LettyAnimationExtra
+	dw ELettyAnimationExtra
 	dw MrMimePlainAnimationExtra
-	dw ScytherAnimationExtra
-	dw JynxAnimationExtra
-	dw ElectabuzzAnimationExtra
-	dw MagmarAnimationExtra
-	dw PinsirAnimationExtra
-	dw TaurosPlainAnimationExtra
-	dw MagikarpPlainAnimationExtra
-	dw GyaradosPlainAnimationExtra
-	dw LaprasAnimationExtra
-	dw DittoAnimationExtra
-	dw EeveeAnimationExtra
-	dw VaporeonAnimationExtra
-	dw JolteonAnimationExtra
-	dw FlareonAnimationExtra
-	dw PorygonAnimationExtra
-	dw OmanyteAnimationExtra
-	dw OmastarAnimationExtra
-	dw KabutoAnimationExtra
-	dw KabutopsAnimationExtra
-	dw AerodactylAnimationExtra
-	dw SnorlaxAnimationExtra
-	dw ArticunoPlainAnimationExtra
-	dw ZapdosPlainAnimationExtra
-	dw MoltresPlainAnimationExtra
-	dw DratiniAnimationExtra
-	dw DragonairAnimationExtra
-	dw DragoniteAnimationExtra
-	dw MewtwoPlainAnimationExtra
-	dw MewAnimationExtra
+	dw ChenAnimationExtra
+	dw EChenAnimationExtra
+	dw CLilyWhiteAnimationExtra
+	dw LilyWhiteAnimationExtra
+	dw ELilyWhiteAnimationExtra
+	dw CLilyBlackPlainAnimationExtra
+	dw LilyBlackPlainAnimationExtra
+	dw ELilyBlackPlainAnimationExtra
+	dw CLyricaAnimationExtra
+	dw LyricaAnimationExtra
+	dw ELyricaAnimationExtra
+	dw CMerlinAnimationExtra
+	dw MerlinAnimationExtra
+	dw EMerlinAnimationExtra
+	dw CLunasaAnimationExtra
+	dw LunasaAnimationExtra
+	dw ELunasaAnimationExtra
+	dw CYuyukoAnimationExtra
+	dw YuyukoAnimationExtra
+	dw EYuyukoAnimationExtra
+	dw CRanAnimationExtra
+	dw RanPlainAnimationExtra
+	dw ERanPlainAnimationExtra
+	dw CYukariPlainAnimationExtra
+	dw YukariAnimationExtra
+	dw EYukariAnimationExtra
+	dw CSuikaAnimationExtra
+	dw SuikaPlainAnimationExtra
+	dw ESuikaAnimationExtra
 	dw CYoumuAnimationExtra
 	dw YoumuAnimationExtra
 	dw EYoumuAnimationExtra
@@ -232,7 +232,7 @@ AnimationExtraPointers:
 	dw KingdraAnimationExtra
 	dw PhanpyAnimationExtra
 	dw DonphanAnimationExtra
-	dw Porygon2AnimationExtra
+	dw CLunasa2AnimationExtra
 	dw StantlerAnimationExtra
 	dw SmeargleAnimationExtra
 	dw TyrogueAnimationExtra
@@ -276,7 +276,7 @@ AnimationExtraPointers:
 	dw GlaceonAnimationExtra
 	dw GliscorAnimationExtra
 	dw MamoswineAnimationExtra
-	dw PorygonZAnimationExtra
+	dw CLunasaZAnimationExtra
 	dw SylveonAnimationExtra
 	dw PerrserkerAnimationExtra
 	dw CursolaAnimationExtra
@@ -334,31 +334,31 @@ AnimationExtraPointers:
 
 	dw PichuSpikyAnimationExtra
 
-	dw MagikarpSkellyAnimationExtra
-	dw MagikarpCalico1AnimationExtra
-	dw MagikarpCalico2AnimationExtra
-	dw MagikarpCalico3AnimationExtra
-	dw MagikarpTwoToneAnimationExtra
-	dw MagikarpOrcaAnimationExtra
-	dw MagikarpDapplesAnimationExtra
-	dw MagikarpTigerAnimationExtra
-	dw MagikarpZebraAnimationExtra
-	dw MagikarpStripeAnimationExtra
-	dw MagikarpBubblesAnimationExtra
-	dw MagikarpDiamondsAnimationExtra
-	dw MagikarpPatchesAnimationExtra
-	dw MagikarpForehead1AnimationExtra
-	dw MagikarpMask1AnimationExtra
-	dw MagikarpForehead2AnimationExtra
-	dw MagikarpMask2AnimationExtra
-	dw MagikarpSaucyAnimationExtra
-	dw MagikarpRaindropAnimationExtra
+	dw LilyBlackSkellyAnimationExtra
+	dw LilyBlackCalico1AnimationExtra
+	dw LilyBlackCalico2AnimationExtra
+	dw LilyBlackCalico3AnimationExtra
+	dw LilyBlackTwoToneAnimationExtra
+	dw LilyBlackOrcaAnimationExtra
+	dw LilyBlackDapplesAnimationExtra
+	dw LilyBlackTigerAnimationExtra
+	dw LilyBlackZebraAnimationExtra
+	dw LilyBlackStripeAnimationExtra
+	dw LilyBlackBubblesAnimationExtra
+	dw LilyBlackDiamondsAnimationExtra
+	dw LilyBlackPatchesAnimationExtra
+	dw LilyBlackForehead1AnimationExtra
+	dw LilyBlackMask1AnimationExtra
+	dw LilyBlackForehead2AnimationExtra
+	dw LilyBlackMask2AnimationExtra
+	dw LilyBlackSaucyAnimationExtra
+	dw LilyBlackRaindropAnimationExtra
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
-	dw GyaradosRedAnimationExtra
+	dw ELilyBlackRedAnimationExtra
 
-	dw MewtwoArmoredAnimationExtra
+	dw SuikaArmoredAnimationExtra
 
 	dw DudunsparceThreeSegmentAnimationExtra
 
@@ -389,9 +389,9 @@ AnimationExtraPointers:
 	dw CMaiGalarianAnimationExtra
 	dw CPatchouliGalarianAnimationExtra
 	dw MrMimeGalarianAnimationExtra
-	dw ArticunoGalarianAnimationExtra
-	dw ZapdosGalarianAnimationExtra
-	dw MoltresGalarianAnimationExtra
+	dw RanGalarianAnimationExtra
+	dw ERanGalarianAnimationExtra
+	dw CYukariGalarianAnimationExtra
 	dw SlowkingGalarianAnimationExtra
 	dw CorsolaGalarianAnimationExtra
 
@@ -404,8 +404,8 @@ AnimationExtraPointers:
 	dw SneaselHisuianAnimationExtra
 
 	dw WooperPaldeanAnimationExtra
-	dw TaurosPaldeanAnimationExtra
-	dw TaurosPaldeanFireAnimationExtra
-	dw TaurosPaldeanWaterAnimationExtra
+	dw CLilyBlackPaldeanAnimationExtra
+	dw CLilyBlackPaldeanFireAnimationExtra
+	dw CLilyBlackPaldeanWaterAnimationExtra
 
 	assert_table_length NUM_UNIQUE_POKEMON

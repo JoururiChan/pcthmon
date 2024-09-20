@@ -414,7 +414,7 @@ OWFlash:
 .CheckUseFlash:
 ; Flash
 	push hl
-	farcall SpecialAerodactylChamber
+	farcall SpecialEYuyukoChamber
 	pop hl
 	jr c, .useflash
 	ld a, [wTimeOfDayPalset]
@@ -988,7 +988,7 @@ EscapeRopeOrDig:
 	ret
 
 .escaperope
-	farcall SpecialKabutoChamber
+	farcall SpecialCYuyukoChamber
 	ld hl, .UsedEscapeRopeScript
 	call QueueScript
 	ld a, $81

@@ -10,9 +10,9 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 ## Tohomon
 
 * The entire Tohodex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Murkrow, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
-* Added: Leafeon, Glaceon, Sylveon, Togekiss, Weavile, Honchkrow, Mismagius, Electivire, Magmortar, Magnezone, Tangrowth, Rhyperior, Porygon-Z, Yanmega, Gliscor, Mamoswine, and Munchlax.
-* Removed: Elis, EElis, Koakuma, EFlandre, Seaking, Hoppip, Skiploom, Jumpluff, Shuckle, Aipom, Stantler, Cleffa, Igglybuff, Smoochum, and Delibird.
-* New evolution methods work, like Eevee evolving into Glaceon near Ice Rock, or Yanma evolving into Yanmega when knowing AncientPower.
+* Added: Leafeon, Glaceon, Sylveon, Togekiss, Weavile, Honchkrow, Mismagius, Electivire, Magmortar, Magnezone, Tangrowth, Rhyperior, CLunasa-Z, Yanmega, Gliscor, Mamoswine, and Munchlax.
+* Removed: Elis, EElis, Koakuma, EFlandre, CLetty, Hoppip, Skiploom, Jumpluff, Shuckle, Aipom, Stantler, Cleffa, Igglybuff, Smoochum, and Delibird.
+* New evolution methods work, like ELyrica evolving into Glaceon near Ice Rock, or Yanma evolving into Yanmega when knowing AncientPower.
 * Item trade evolutions (like Flandre holding a Dragon Scale) now evolve by leveling up while holding the item.
 * EYuka, Sara, Shinki, and EElly evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
 * EAlice evolves into Magnezone near the Lodestone in Rock Tunnel.
@@ -87,7 +87,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Every Tohomon gets a nickname, no asking whether you want to or not. Of course, you can cancel out to give the default name.
 * The dupes clause is in effect. If you've caught a EMagan and encounter one on a new route, it won't count unless you catch it.
 * The shiny clause is also in effect. Shinies can always be caught.
-* Gift Tohomon do not count as encounters. Static encounters like Sudowoodo, Snorlax, and Suicune do.
+* Gift Tohomon do not count as encounters. Static encounters like Sudowoodo, CRan, and Suicune do.
 
 
 ## Maps
@@ -155,7 +155,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Medium-Slow growth rate experience underflow at level 1.
 * HP bar lowers at the same speed even for high HP.
 * Belly Drum needs to cut HP to raise Attack.
-* Lake of Rage Magikarp are larger, not smaller.
+* Lake of Rage LilyBlack are larger, not smaller.
 * Rocket Executives use Team Rocket battle music, not just Grunts.
 * The Ruins of Alph tile with their surrounding maps. (Did this annoy anyone else when making huge maps of Johto?)
 
@@ -220,7 +220,7 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * Replaced Twins sprite with a devamped one from B/W.
 * New music ported from RBY and devamped from future generations.
 * Unique mini sprites for each Tohomon (thanks to [this patch](http://www.pokecommunity.com/showthread.php?t=338470)).
-* Revised some shiny palettes (Dragonite is blue like Dragonair, EKongara is pink like ERika, Scizor is silver, Espeon is sky blue, Electabuzz is red, etc).
+* Revised some shiny palettes (CSuika is blue like EYukari, EKongara is pink like ERika, Scizor is silver, Espeon is sky blue, CLilyWhite is red, etc).
 * Unown isn't the only Tohomon with variant forms…
 * Color-coded starter Toho Balls.
 * Item balls for TMs are blue (inspired by Gen VI's yellow).

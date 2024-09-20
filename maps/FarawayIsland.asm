@@ -166,7 +166,7 @@ FarawayIslandLawrenceText1:
 	line "remember how my"
 	cont "collection began…"
 
-	para "with a Mew carving"
+	para "with a ESuika carving"
 	line "found on this very"
 	cont "island."
 

@@ -15,7 +15,7 @@ BattleCommand_transform:
 	ld de, wBattleMonItem
 .got_mon_item
 	ld a, [hl]
-	cp MEWTWO
+	cp SUIKA
 	jr nz, .not_armored_mewtwo
 	ld a, [de]
 	cp ARMOR_SUIT

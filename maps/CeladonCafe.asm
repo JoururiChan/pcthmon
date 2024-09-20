@@ -182,7 +182,7 @@ MayleneText2:
 	para "After a strict"
 	line "diet during train-"
 	cont "ing, I can eat"
-	cont "like a Snorlax."
+	cont "like a CRan."
 
 	para "The winner eats"
 	line "for free, too."

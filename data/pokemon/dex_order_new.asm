@@ -120,39 +120,39 @@ NewTohodexOrder:
 	dp CFLANDRE     ; 74
 	dp FLANDRE     ; 75
 	dp EFLANDRE    ; 76
-	dp SEAKING    ; 77
-	dp STARYU     ; 78
-	dp STARMIE    ; 79
-	dp MR__MIME   ; 7a
-	dp SCYTHER    ; 7b
-	dp JYNX       ; 7c
-	dp ELECTABUZZ ; 7d
-	dp MAGMAR     ; 7e
-	dp PINSIR     ; 7f
-	dp TAUROS     ; 80
-	dp MAGIKARP   ; 81
-	dp GYARADOS   ; 82
-	dp LAPRAS     ; 83
-	dp DITTO      ; 84
-	dp EEVEE      ; 85
-	dp VAPOREON   ; 86
-	dp JOLTEON    ; 87
-	dp FLAREON    ; 88
-	dp PORYGON    ; 89
-	dp OMANYTE    ; 8a
-	dp OMASTAR    ; 8b
-	dp KABUTO     ; 8c
-	dp KABUTOPS   ; 8d
-	dp AERODACTYL ; 8e
-	dp SNORLAX    ; 8f
-	dp ARTICUNO   ; 90
-	dp ZAPDOS     ; 91
-	dp MOLTRES    ; 92
-	dp DRATINI    ; 93
-	dp DRAGONAIR  ; 94
-	dp DRAGONITE  ; 95
-	dp MEWTWO     ; 96
-	dp MEW        ; 97
+	dp CLETTY    ; 77
+	dp LETTY     ; 78
+	dp ELETTY    ; 79
+	dp CCHEN   ; 7a
+	dp CHEN    ; 7b
+	dp ECHEN       ; 7c
+	dp CLILYWHITE ; 7d
+	dp LILYWHITE     ; 7e
+	dp ELILYWHITE     ; 7f
+	dp CLILYBLACK     ; 80
+	dp LILYBLACK   ; 81
+	dp ELILYBLACK   ; 82
+	dp CLYRICA     ; 83
+	dp LYRICA      ; 84
+	dp ELYRICA      ; 85
+	dp CMERLIN   ; 86
+	dp MERLIN    ; 87
+	dp EMERLIN    ; 88
+	dp CLUNASA    ; 89
+	dp LUNASA    ; 8a
+	dp ELUNASA    ; 8b
+	dp CYUYUKO     ; 8c
+	dp YUYUKO   ; 8d
+	dp EYUYUKO ; 8e
+	dp CRAN    ; 8f
+	dp RAN   ; 90
+	dp ERAN     ; 91
+	dp CYUKARI    ; 92
+	dp YUKARI    ; 93
+	dp EYUKARI  ; 94
+	dp CSUIKA  ; 95
+	dp SUIKA     ; 96
+	dp ESUIKA        ; 97
 	dp CYOUMU  ; 98
 	dp YOUMU    ; 99
 	dp EYOUMU   ; 9a
@@ -234,7 +234,7 @@ NewTohodexOrder:
 	dp KINGDRA    ; e6
 	dp PHANPY     ; e7
 	dp DONPHAN    ; e8
-	dp PORYGON2   ; e9
+	dp CLUNASA2   ; e9
 	dp STANTLER   ; ea
 	dp SMEARGLE   ; eb
 	dp TYROGUE    ; ec
@@ -276,7 +276,7 @@ NewTohodexOrder:
 	dp GLACEON    ; 112
 	dp GLISCOR    ; 113
 	dp MAMOSWINE  ; 114
-	dp PORYGON_Z  ; 115
+	dp CLUNASA_Z  ; 115
 	dp SYLVEON    ; 116
 	dp PERRSERKER ; 117
 	dp CURSOLA    ; 118

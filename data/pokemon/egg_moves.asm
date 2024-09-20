@@ -372,7 +372,7 @@ CFlandreEggMoves:
 	db TACKLE
 	db $ff
 
-ScytherEggMoves:
+ChenEggMoves:
 	db BATON_PASS
 	db BUG_BUZZ
 	db REVERSAL
@@ -382,14 +382,14 @@ ScytherEggMoves:
 	db NIGHT_SLASH
 	db $ff
 
-PinsirEggMoves:
+ELilyWhiteEggMoves:
 	db FEINT_ATTACK
 	db FURY_STRIKES
 	db QUICK_ATTACK
 	db SCULPTURE
 	db $ff
 
-LaprasEggMoves:
+CLyricaEggMoves:
 	db AURORA_BEAM
 	db DRAGON_DANCE
 	db FORESIGHT
@@ -397,11 +397,11 @@ LaprasEggMoves:
 	db HEAL_BELL
 	db $ff
 
-EeveeEggMoves:
+ELyricaEggMoves:
 	db CHARM
 	db $ff
 
-OmanyteEggMoves:
+LunasaEggMoves:
 	db AURORA_BEAM
 	db BUBBLE_BEAM
 	db HAZE
@@ -412,7 +412,7 @@ OmanyteEggMoves:
 	db KNOCK_OFF
 	db $ff
 
-KabutoEggMoves:
+CYuyukoEggMoves:
 	db AURORA_BEAM
 	db BUBBLE_BEAM
 	db CONFUSE_RAY
@@ -424,15 +424,15 @@ KabutoEggMoves:
 	db KNOCK_OFF
 	db $ff
 
-AerodactylEggMoves:
+EYuyukoEggMoves:
 	db FORESIGHT
 	db PURSUIT
 	db STEEL_WING
 	db WHITE_BIRD
 	db $ff
 
-DratiniEggMoves:
-	db EXTREMESPEED ; requires Dragon Shrine Dratini
+YukariEggMoves:
+	db EXTREMESPEED ; requires Dragon Shrine Yukari
 	db HAZE
 	db SUPERSONIC
 	db WATER_PULSE

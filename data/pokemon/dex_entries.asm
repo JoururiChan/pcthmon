@@ -1178,8 +1178,8 @@ EFlandreTohodexEntry::
 	next "their abilities ca-"
 	next "ncel theirs.@"
 
-SECTION "SeakingTohodexEntry", ROMX
-SeakingTohodexEntry::
+SECTION "CLettyTohodexEntry", ROMX
+CLettyTohodexEntry::
 	db "Goldfish@"
 	db   "When autumn comes,"
 	next "the males patrol"
@@ -1188,8 +1188,8 @@ SeakingTohodexEntry::
 	next "order to protect"
 	next "their offspring.@"
 
-SECTION "StaryuTohodexEntry", ROMX
-StaryuTohodexEntry::
+SECTION "LettyTohodexEntry", ROMX
+LettyTohodexEntry::
 	db "Star Shape@"
 	db   "When the stars"
 	next "twinkle at night,"
@@ -1198,8 +1198,8 @@ StaryuTohodexEntry::
 	next "its body's center"
 	next "core flickers.@"
 
-SECTION "StarmieTohodexEntry", ROMX
-StarmieTohodexEntry::
+SECTION "ELettyTohodexEntry", ROMX
+ELettyTohodexEntry::
 	db "Mysterious@"
 	db   "It is said that it"
 	next "uses the seven-"
@@ -1218,8 +1218,8 @@ MrMimePlainTohodexEntry::
 	next "solidify air into"
 	next "an invisible wall.@"
 
-SECTION "ScytherTohodexEntry", ROMX
-ScytherTohodexEntry::
+SECTION "ChenTohodexEntry", ROMX
+ChenTohodexEntry::
 	db "Mantis@"
 	db   "It's very proud of"
 	next "its speed. It"
@@ -1228,8 +1228,8 @@ ScytherTohodexEntry::
 	next "not even know what"
 	next "knocked it down.@"
 
-SECTION "JynxTohodexEntry", ROMX
-JynxTohodexEntry::
+SECTION "EChenTohodexEntry", ROMX
+EChenTohodexEntry::
 	db "Human Shape@"
 	db   "It has several"
 	next "different cry"
@@ -1238,18 +1238,18 @@ JynxTohodexEntry::
 	next "have its own"
 	next "meaning.@"
 
-SECTION "ElectabuzzTohodexEntry", ROMX
-ElectabuzzTohodexEntry::
+SECTION "CLilyWhiteTohodexEntry", ROMX
+CLilyWhiteTohodexEntry::
 	db "Electric@"
 	db   "When two"
-	next "Electabuzz touch,"
+	next "CLilyWhite touch,"
 	next "they control the"
 	page "electric currents"
 	next "to communicate"
 	next "their feelings.@"
 
-SECTION "MagmarTohodexEntry", ROMX
-MagmarTohodexEntry::
+SECTION "LilyWhiteTohodexEntry", ROMX
+LilyWhiteTohodexEntry::
 	db "Spitfire@"
 	db   "It moves more"
 	next "frequently in hot"
@@ -1258,8 +1258,8 @@ MagmarTohodexEntry::
 	next "its wound into"
 	next "lava.@"
 
-SECTION "PinsirTohodexEntry", ROMX
-PinsirTohodexEntry::
+SECTION "ELilyWhiteTohodexEntry", ROMX
+ELilyWhiteTohodexEntry::
 	db "Stag Beetle@"
 	db   "When the tempera-"
 	next "ture drops at"
@@ -1268,8 +1268,8 @@ PinsirTohodexEntry::
 	next "among roots where"
 	next "it is well hidden.@"
 
-SECTION "TaurosPlainTohodexEntry", ROMX
-TaurosPlainTohodexEntry::
+SECTION "CLilyBlackPlainTohodexEntry", ROMX
+CLilyBlackPlainTohodexEntry::
 	db "Wild Bull@"
 	db   "These violent"
 	next "#mon fight with"
@@ -1278,8 +1278,8 @@ TaurosPlainTohodexEntry::
 	next "order to prove"
 	next "their strength.@"
 
-SECTION "MagikarpTohodexEntry", ROMX
-MagikarpTohodexEntry::
+SECTION "LilyBlackTohodexEntry", ROMX
+LilyBlackTohodexEntry::
 	db "Fish@"
 	db   "This weak and"
 	next "pathetic #mon"
@@ -1288,8 +1288,8 @@ MagikarpTohodexEntry::
 	next "there are strong"
 	next "currents.@"
 
-SECTION "GyaradosPlainTohodexEntry", ROMX
-GyaradosPlainTohodexEntry::
+SECTION "ELilyBlackPlainTohodexEntry", ROMX
+ELilyBlackPlainTohodexEntry::
 	db "Atrocious@"
 	db   "It appears when-"
 	next "ever there is"
@@ -1298,8 +1298,8 @@ GyaradosPlainTohodexEntry::
 	next "place it travels"
 	next "through.@"
 
-SECTION "LaprasTohodexEntry", ROMX
-LaprasTohodexEntry::
+SECTION "CLyricaTohodexEntry", ROMX
+CLyricaTohodexEntry::
 	db "Transport@"
 	db   "This gentle"
 	next "#mon loves to"
@@ -1308,18 +1308,18 @@ LaprasTohodexEntry::
 	next "ry comfortable way"
 	next "to get around.@"
 
-SECTION "DittoTohodexEntry", ROMX
-DittoTohodexEntry::
+SECTION "LyricaTohodexEntry", ROMX
+LyricaTohodexEntry::
 	db "Recollect@"
 	db   "When it encounters"
-	next "another Ditto,"
+	next "another Lyrica,"
 	next "it will move"
 	page "faster than normal"
 	next "to duplicate that"
 	next "opponent exactly.@"
 
-SECTION "EeveeTohodexEntry", ROMX
-EeveeTohodexEntry::
+SECTION "ELyricaTohodexEntry", ROMX
+ELyricaTohodexEntry::
 	db "Evolution@"
 	db   "Its ability to"
 	next "evolve into many"
@@ -1328,8 +1328,8 @@ EeveeTohodexEntry::
 	next "and perfectly to"
 	next "any environment.@"
 
-SECTION "VaporeonTohodexEntry", ROMX
-VaporeonTohodexEntry::
+SECTION "CMerlinTohodexEntry", ROMX
+CMerlinTohodexEntry::
 	db "Bubble Jet@"
 	db   "As it uses the"
 	next "fins on the tip"
@@ -1338,8 +1338,8 @@ VaporeonTohodexEntry::
 	next "with the water"
 	next "perfectly.@"
 
-SECTION "JolteonTohodexEntry", ROMX
-JolteonTohodexEntry::
+SECTION "MerlinTohodexEntry", ROMX
+MerlinTohodexEntry::
 	db "Lightning@"
 	db   "The negatively"
 	next "charged ions"
@@ -1348,8 +1348,8 @@ JolteonTohodexEntry::
 	next "constant sparking"
 	next "noise.@"
 
-SECTION "FlareonTohodexEntry", ROMX
-FlareonTohodexEntry::
+SECTION "EMerlinTohodexEntry", ROMX
+EMerlinTohodexEntry::
 	db "Flame@"
 	db   "Once it has stored"
 	next "up enough heat,"
@@ -1358,8 +1358,8 @@ FlareonTohodexEntry::
 	next "can reach up to"
 	next "1700 degrees.@"
 
-SECTION "PorygonTohodexEntry", ROMX
-PorygonTohodexEntry::
+SECTION "CLunasaTohodexEntry", ROMX
+CLunasaTohodexEntry::
 	db "Virtual@"
 	db   "An artificial"
 	next "#mon created"
@@ -1368,8 +1368,8 @@ PorygonTohodexEntry::
 	next "perform only what"
 	next "is in its program.@"
 
-SECTION "OmanyteTohodexEntry", ROMX
-OmanyteTohodexEntry::
+SECTION "LunasaTohodexEntry", ROMX
+LunasaTohodexEntry::
 	db "Spiral@"
 	db   "In prehistoric"
 	next "times, it swam on"
@@ -1378,8 +1378,8 @@ OmanyteTohodexEntry::
 	next "Its fossils are"
 	next "sometimes found.@"
 
-SECTION "OmastarTohodexEntry", ROMX
-OmastarTohodexEntry::
+SECTION "ELunasaTohodexEntry", ROMX
+ELunasaTohodexEntry::
 	db "Spiral@"
 	db   "Its heavy shell"
 	next "allowed it to"
@@ -1388,8 +1388,8 @@ OmastarTohodexEntry::
 	next "be the reason it"
 	next "is extinct.@"
 
-SECTION "KabutoTohodexEntry", ROMX
-KabutoTohodexEntry::
+SECTION "CYuyukoTohodexEntry", ROMX
+CYuyukoTohodexEntry::
 	db "Shellfish@"
 	db   "Three hundred"
 	next "million years ago,"
@@ -1398,8 +1398,8 @@ KabutoTohodexEntry::
 	next "eyes on its back"
 	next "that glow.@"
 
-SECTION "KabutopsTohodexEntry", ROMX
-KabutopsTohodexEntry::
+SECTION "YuyukoTohodexEntry", ROMX
+YuyukoTohodexEntry::
 	db "Shellfish@"
 	db   "It was able to"
 	next "swim quickly thro-"
@@ -1408,8 +1408,8 @@ KabutopsTohodexEntry::
 	next "up its razor-sharp"
 	next "sickles.@"
 
-SECTION "AerodactylTohodexEntry", ROMX
-AerodactylTohodexEntry::
+SECTION "EYuyukoTohodexEntry", ROMX
+EYuyukoTohodexEntry::
 	db "Fossil@"
 	db   "In prehistoric"
 	next "times, this"
@@ -1418,8 +1418,8 @@ AerodactylTohodexEntry::
 	next "fearlessly through"
 	next "the skies.@"
 
-SECTION "SnorlaxTohodexEntry", ROMX
-SnorlaxTohodexEntry::
+SECTION "CRanTohodexEntry", ROMX
+CRanTohodexEntry::
 	db "Sleeping@"
 	db   "This #mon's"
 	next "stomach is so"
@@ -1428,8 +1428,8 @@ SnorlaxTohodexEntry::
 	next "rotten food will"
 	next "not affect it.@"
 
-SECTION "ArticunoPlainTohodexEntry", ROMX
-ArticunoPlainTohodexEntry::
+SECTION "RanPlainTohodexEntry", ROMX
+RanPlainTohodexEntry::
 	db "Freeze@"
 	db   "Legendary bird"
 	next "#mon. As it"
@@ -1438,8 +1438,8 @@ ArticunoPlainTohodexEntry::
 	next "air, causing snow"
 	next "to fall.@"
 
-SECTION "ZapdosPlainTohodexEntry", ROMX
-ZapdosPlainTohodexEntry::
+SECTION "ERanPlainTohodexEntry", ROMX
+ERanPlainTohodexEntry::
 	db "Electric@"
 	db   "Legendary bird"
 	next "#mon. They say"
@@ -1448,8 +1448,8 @@ ZapdosPlainTohodexEntry::
 	next "its wings causes"
 	next "summer storms.@"
 
-SECTION "MoltresPlainTohodexEntry", ROMX
-MoltresPlainTohodexEntry::
+SECTION "CYukariPlainTohodexEntry", ROMX
+CYukariPlainTohodexEntry::
 	db "Flame@"
 	db   "Legendary bird"
 	next "#mon. It is"
@@ -1458,8 +1458,8 @@ MoltresPlainTohodexEntry::
 	next "along with the"
 	next "spring.@"
 
-SECTION "DratiniTohodexEntry", ROMX
-DratiniTohodexEntry::
+SECTION "YukariTohodexEntry", ROMX
+YukariTohodexEntry::
 	db "Dragon@"
 	db   "It sheds many lay-"
 	next "ers of skin as it"
@@ -1468,8 +1468,8 @@ DratiniTohodexEntry::
 	next "it is protected by"
 	next "a rapid waterfall.@"
 
-SECTION "DragonairTohodexEntry", ROMX
-DragonairTohodexEntry::
+SECTION "EYukariTohodexEntry", ROMX
+EYukariTohodexEntry::
 	db "Dragon@"
 	db   "It is called the"
 	next "divine #mon."
@@ -1478,8 +1478,8 @@ DragonairTohodexEntry::
 	next "slightly, the"
 	next "weather changes.@"
 
-SECTION "DragoniteTohodexEntry", ROMX
-DragoniteTohodexEntry::
+SECTION "CSuikaTohodexEntry", ROMX
+CSuikaTohodexEntry::
 	db "Dragon@"
 	db   "It is said that"
 	next "somewhere in the"
@@ -1488,8 +1488,8 @@ DragoniteTohodexEntry::
 	next "gather. Only they"
 	next "live there.@"
 
-SECTION "MewtwoPlainTohodexEntry", ROMX
-MewtwoPlainTohodexEntry::
+SECTION "SuikaPlainTohodexEntry", ROMX
+SuikaPlainTohodexEntry::
 	db "Genetic@"
 	db   "Said to rest"
 	next "quietly in an"
@@ -1498,8 +1498,8 @@ MewtwoPlainTohodexEntry::
 	next "created solely for"
 	next "battling.@"
 
-SECTION "MewTohodexEntry", ROMX
-MewTohodexEntry::
+SECTION "ESuikaTohodexEntry", ROMX
+ESuikaTohodexEntry::
 	db "New Species@"
 	db   "Because it can"
 	next "learn any move,"
@@ -2318,8 +2318,8 @@ DonphanTohodexEntry::
 	next "leave a scratch on"
 	next "it.@"
 
-SECTION "Porygon2TohodexEntry", ROMX
-Porygon2TohodexEntry::
+SECTION "CLunasa2TohodexEntry", ROMX
+CLunasa2TohodexEntry::
 	db "Virtual@"
 	db   "This man-made"
 	next "#mon evolved"
@@ -2738,8 +2738,8 @@ MamoswineTohodexEntry::
 	next "it turned warm"
 	next "after the ice age.@"
 
-SECTION "PorygonZTohodexEntry", ROMX
-PorygonZTohodexEntry::
+SECTION "CLunasaZTohodexEntry", ROMX
+CLunasaZTohodexEntry::
 	db "Virtual@"
 	db   "Its programming"
 	next "was modified to"
@@ -2887,24 +2887,24 @@ AnnihilapeTohodexEntry::
 	next "ttered by its"
 	next "physical body.@"
 
-SECTION "GyaradosRedTohodexEntry", ROMX
-GyaradosRedTohodexEntry::
+SECTION "ELilyBlackRedTohodexEntry", ROMX
+ELilyBlackRedTohodexEntry::
 	db "Atrocious@"
 	db   "Due to how rapidly"
 	next "it was forced to"
 	next "undergo evolution,"
-	page "this Gyarados re-"
+	page "this ELilyBlack re-"
 	next "tained its red"
-	next "Magikarp scales.@"
+	next "LilyBlack scales.@"
 
-SECTION "MewtwoArmoredTohodexEntry", ROMX
-MewtwoArmoredTohodexEntry::
+SECTION "SuikaArmoredTohodexEntry", ROMX
+SuikaArmoredTohodexEntry::
 	db "Genetic@"
 	db   "With its defenses"
 	next "bolstered and its"
 	next "psychic attacks"
 	page "amplified by its"
-	next "armor, Mewtwo's pow-"
+	next "armor, Suika's pow-"
 	next "er is unstoppable.@"
 
 SECTION "EMimaAlolanTohodexEntry", ROMX
@@ -3170,18 +3170,18 @@ MrMimeGalarianTohodexEntry::
 	next "dance all day on"
 	next "a frozen floor.@"
 
-SECTION "ArticunoGalarianTohodexEntry", ROMX
-ArticunoGalarianTohodexEntry::
+SECTION "RanGalarianTohodexEntry", ROMX
+RanGalarianTohodexEntry::
 	db "Cruel@"
-	db   "Known as Articuno,"
+	db   "Known as Ran,"
 	next "this #mon fires"
 	next "beams that can im-"
 	page "mobilize opponents"
 	next "as if they had"
 	next "been frozen solid.@"
 
-SECTION "ZapdosGalarianTohodexEntry", ROMX
-ZapdosGalarianTohodexEntry::
+SECTION "ERanGalarianTohodexEntry", ROMX
+ERanGalarianTohodexEntry::
 	db "Strong Legs@"
 	db   "When its feathers"
 	next "rub together,"
@@ -3190,15 +3190,15 @@ ZapdosGalarianTohodexEntry::
 	next "like the zapping"
 	next "of electricity.@"
 
-SECTION "MoltresGalarianTohodexEntry", ROMX
-MoltresGalarianTohodexEntry::
+SECTION "CYukariGalarianTohodexEntry", ROMX
+CYukariGalarianTohodexEntry::
 	db "Malevolent@"
 	db   "The sinister aura"
 	next "that blazes like"
 	next "molten fire around"
 	page "this #mon is"
 	next "what inspired the"
-	next "name Moltres.@"
+	next "name CYukari.@"
 
 SECTION "SlowkingGalarianTohodexEntry", ROMX
 SlowkingGalarianTohodexEntry::
@@ -3299,8 +3299,8 @@ WooperPaldeanTohodexEntry::
 	next "across the danger-"
 	next "ous wetlands.@"
 
-SECTION "TaurosPaldeanTohodexEntry", ROMX
-TaurosPaldeanTohodexEntry::
+SECTION "CLilyBlackPaldeanTohodexEntry", ROMX
+CLilyBlackPaldeanTohodexEntry::
 	db "Wild Bull@"
 	db   "The “Combat Breed”"
 	next "fights in close"
@@ -3309,8 +3309,8 @@ TaurosPaldeanTohodexEntry::
 	next "to strike the"
 	next "foe's weak spots.@"
 
-SECTION "TaurosPaldeanFireTohodexEntry", ROMX
-TaurosPaldeanFireTohodexEntry::
+SECTION "CLilyBlackPaldeanFireTohodexEntry", ROMX
+CLilyBlackPaldeanFireTohodexEntry::
 	db "Wild Bull@"
 	db   "The “Blaze Breed's”"
 	next "horns can reach"
@@ -3319,8 +3319,8 @@ TaurosPaldeanFireTohodexEntry::
 	next "them will suffer"
 	next "wounds and burns.@"
 
-SECTION "TaurosPaldeanWaterTohodexEntry", ROMX
-TaurosPaldeanWaterTohodexEntry::
+SECTION "CLilyBlackPaldeanWaterTohodexEntry", ROMX
+CLilyBlackPaldeanWaterTohodexEntry::
 	db "Wild Bull@"
 	db   "The “Aqua Breed”"
 	next "swims by jetting"

@@ -280,7 +280,7 @@ DEF NUM_STONES EQU const_value - FIRST_STONE
 	const DUBIOUS_DISC ; d8
 	const PROTECTOR    ; d9
 	const ELECTIRIZER  ; da
-	const MAGMARIZER   ; db
+	const LILYWHITEIZER   ; db
 	const RAZOR_FANG   ; dc
 	const RAZOR_CLAW   ; dd
 	const OVAL_STONE   ; de
@@ -461,7 +461,7 @@ endc
 	const NAM_LURE_BALL
 	const NAM_LUXURY_BALL
 	const NAM_MACHO_BRACE
-	const NAM_MAGMARIZER
+	const NAM_LILYWHITEIZER
 	const NAM_MAGNET
 	const NAM_MARANGABERRY
 	const NAM_MASTER_BALL

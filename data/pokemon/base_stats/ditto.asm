@@ -12,9 +12,9 @@ endc
 	db QUICK_POWDER, METAL_POWDER ; held items
 	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for DITTO, LIMBER, LIMBER, IMPOSTER
+	abilities_for LYRICA, LIMBER, LIMBER, IMPOSTER
 	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_DITTO, EGG_DITTO ; egg groups
+	dn EGG_LYRICA, EGG_LYRICA ; egg groups
 
 	ev_yield 1 HP
 

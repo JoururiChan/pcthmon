@@ -206,7 +206,7 @@ CeladonUniversityLibrary2FBookshelf8Text:
 	line "of this book."
 
 	para "“How to Train Your"
-	line "Dragonite” is"
+	line "CSuika” is"
 	cont "written in bold."
 	done
 
@@ -338,7 +338,7 @@ CeladonUniversityLibrary2FComputer1:
 	line "screen with a"
 
 	para "background image"
-	line "of a Magikarp."
+	line "of a LilyBlack."
 	done
 
 CeladonUniversityLibrary2FComputer2:

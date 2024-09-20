@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, LEFTOVERS ; held items
 	dn GENDER_F12_5, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for SNORLAX, IMMUNITY, THICK_FAT, GLUTTONY
+	abilities_for CRAN, IMMUNITY, THICK_FAT, GLUTTONY
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups
 

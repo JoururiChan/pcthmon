@@ -4,8 +4,8 @@ PaintingPicPointers::
 	fardw HoOhPaintingPic
 	fardw LugiaPaintingPic
 	fardw BellTowerPaintingPic
-	fardw KabutoPuzzlePic
-	fardw OmanytePuzzlePic
-	fardw AerodactylPuzzlePic
+	fardw CYuyukoPuzzlePic
+	fardw LunasaPuzzlePic
+	fardw EYuyukoPuzzlePic
 	fardw HoOhPuzzlePic
 	assert_table_length NUM_PAINTINGS

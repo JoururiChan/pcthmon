@@ -110,9 +110,9 @@ ENDM
 	deco  WII
 ; FindOwnedBigDolls.big_dolls values (see engine/overworld/decorations.asm)
 	const BIG_DOLLS
-	deco  BIG_SNORLAX_DOLL
+	deco  BIG_CRAN_DOLL
 	deco  BIG_CRUMIA_DOLL
-	deco  BIG_LAPRAS_DOLL
+	deco  BIG_CLYRICA_DOLL
 ; FindOwnedOrnaments.ornaments values (see engine/overworld/decorations.asm)
 	const DOLLS
 	deco  EKIKURI_DOLL
@@ -129,11 +129,11 @@ ENDM
 	deco  KURUMI_DOLL
 	deco  MAREEP_DOLL
 	deco  TOGEPI_DOLL
-	deco  MAGIKARP_DOLL
+	deco  LILYBLACK_DOLL
 	deco  EKOTOHIME_DOLL
 	deco  ESHINKI_DOLL
 	deco  OCTILLERY_DOLL
-	deco  DITTO_DOLL
+	deco  LYRICA_DOLL
 	deco  CDAICHAN_DOLL
 	deco  ELLY_DOLL
 	deco  UNOWN_DOLL
@@ -144,7 +144,7 @@ ENDM
 	deco  CHIYURI_DOLL
 	deco  EMEIRA_DOLL
 	deco  EORANGE_DOLL
-	deco  EEVEE_DOLL
+	deco  ELYRICA_DOLL
 DEF NUM_NON_TROPHY_DECOS EQU __deco_value__
 	deco  GOLD_TROPHY_DOLL
 	deco  SILVER_TROPHY_DOLL

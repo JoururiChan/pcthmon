@@ -230,7 +230,7 @@ ItemEffects:
 	dw IsntTheTimeMessage ; DUBIOUS_DISC
 	dw IsntTheTimeMessage ; PROTECTOR
 	dw IsntTheTimeMessage ; ELECTIRIZER
-	dw IsntTheTimeMessage ; MAGMARIZER
+	dw IsntTheTimeMessage ; LILYWHITEIZER
 	dw IsntTheTimeMessage ; RAZOR_FANG
 	dw IsntTheTimeMessage ; RAZOR_CLAW
 	dw IsntTheTimeMessage ; OVAL_STONE

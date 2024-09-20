@@ -140,39 +140,39 @@
 	const CFLANDRE     ; 74
 	const FLANDRE     ; 75
 	const EFLANDRE    ; 76
-	const SEAKING    ; 77
-	const STARYU     ; 78
-	const STARMIE    ; 79
-	const MR__MIME   ; 7a
-	const SCYTHER    ; 7b
-	const JYNX       ; 7c
-	const ELECTABUZZ ; 7d
-	const MAGMAR     ; 7e
-	const PINSIR     ; 7f
-	const TAUROS     ; 80
-	const MAGIKARP   ; 81
-	const GYARADOS   ; 82
-	const LAPRAS     ; 83
-	const DITTO      ; 84
-	const EEVEE      ; 85
-	const VAPOREON   ; 86
-	const JOLTEON    ; 87
-	const FLAREON    ; 88
-	const PORYGON    ; 89
-	const OMANYTE    ; 8a
-	const OMASTAR    ; 8b
-	const KABUTO     ; 8c
-	const KABUTOPS   ; 8d
-	const AERODACTYL ; 8e
-	const SNORLAX    ; 8f
-	const ARTICUNO   ; 90
-	const ZAPDOS     ; 91
-	const MOLTRES    ; 92
-	const DRATINI    ; 93
-	const DRAGONAIR  ; 94
-	const DRAGONITE  ; 95
-	const MEWTWO     ; 96
-	const MEW        ; 97
+	const CLETTY    ; 77
+	const LETTY     ; 78
+	const ELETTY    ; 79
+	const CCHEN   ; 7a
+	const CHEN    ; 7b
+	const ECHEN       ; 7c
+	const CLILYWHITE ; 7d
+	const LILYWHITE     ; 7e
+	const ELILYWHITE     ; 7f
+	const CLILYBLACK     ; 80
+	const LILYBLACK   ; 81
+	const ELILYBLACK   ; 82
+	const CLYRICA     ; 83
+	const LYRICA      ; 84
+	const ELYRICA      ; 85
+	const CMERLIN   ; 86
+	const MERLIN    ; 87
+	const EMERLIN    ; 88
+	const CLUNASA    ; 89
+	const LUNASA    ; 8a
+	const ELUNASA    ; 8b
+	const CYUYUKO     ; 8c
+	const YUYUKO   ; 8d
+	const EYUYUKO ; 8e
+	const CRAN    ; 8f
+	const RAN   ; 90
+	const ERAN     ; 91
+	const CYUKARI    ; 92
+	const YUKARI    ; 93
+	const EYUKARI  ; 94
+	const CSUIKA  ; 95
+	const SUIKA     ; 96
+	const ESUIKA        ; 97
 	const CYOUMU  ; 98
 	const YOUMU    ; 99
 	const EYOUMU   ; 9a
@@ -254,7 +254,7 @@
 	const KINGDRA    ; e6
 	const PHANPY     ; e7
 	const DONPHAN    ; e8
-	const PORYGON2   ; e9
+	const CLUNASA2   ; e9
 	const STANTLER   ; ea
 	const SMEARGLE   ; eb
 	const TYROGUE    ; ec
@@ -298,7 +298,7 @@
 	const GLACEON    ; 112
 	const GLISCOR    ; 113
 	const MAMOSWINE  ; 114
-	const PORYGON_Z  ; 115
+	const CLUNASA_Z  ; 115
 	const SYLVEON    ; 116
 	const PERRSERKER ; 117
 	const CURSOLA    ; 118
@@ -400,38 +400,38 @@ DEF NUM_EKIKURI EQU ext_const_value - 1
 
 ; magikarp
 	ext_const_def 2
-	ext_const MAGIKARP_SKELLY_FORM    ; 149 (02)
-	ext_const MAGIKARP_CALICO1_FORM   ; 14a (03)
-	ext_const MAGIKARP_CALICO2_FORM   ; 14b (04)
-	ext_const MAGIKARP_CALICO3_FORM   ; 14c (05)
-	ext_const MAGIKARP_TWO_TONE_FORM  ; 14d (06)
-	ext_const MAGIKARP_ORCA_FORM      ; 14e (07)
-	ext_const MAGIKARP_DAPPLES_FORM   ; 14f (08)
-	ext_const MAGIKARP_TIGER_FORM     ; 150 (09)
-	ext_const MAGIKARP_ZEBRA_FORM     ; 151 (0a)
-	ext_const MAGIKARP_STRIPE_FORM    ; 152 (0b)
-	ext_const MAGIKARP_BUBBLES_FORM   ; 153 (0c)
-	ext_const MAGIKARP_DIAMONDS_FORM  ; 154 (0d)
-	ext_const MAGIKARP_PATCHES_FORM   ; 155 (0e)
-	ext_const MAGIKARP_FOREHEAD1_FORM ; 156 (0f)
-	ext_const MAGIKARP_MASK1_FORM     ; 157 (10)
-	ext_const MAGIKARP_FOREHEAD2_FORM ; 158 (11)
-	ext_const MAGIKARP_MASK2_FORM     ; 159 (12)
-	ext_const MAGIKARP_SAUCY_FORM     ; 15a (13)
-	ext_const MAGIKARP_RAINDROP_FORM  ; 15b (14)
-DEF NUM_MAGIKARP EQU ext_const_value - 1 ; 14
+	ext_const LILYBLACK_SKELLY_FORM    ; 149 (02)
+	ext_const LILYBLACK_CALICO1_FORM   ; 14a (03)
+	ext_const LILYBLACK_CALICO2_FORM   ; 14b (04)
+	ext_const LILYBLACK_CALICO3_FORM   ; 14c (05)
+	ext_const LILYBLACK_TWO_TONE_FORM  ; 14d (06)
+	ext_const LILYBLACK_ORCA_FORM      ; 14e (07)
+	ext_const LILYBLACK_DAPPLES_FORM   ; 14f (08)
+	ext_const LILYBLACK_TIGER_FORM     ; 150 (09)
+	ext_const LILYBLACK_ZEBRA_FORM     ; 151 (0a)
+	ext_const LILYBLACK_STRIPE_FORM    ; 152 (0b)
+	ext_const LILYBLACK_BUBBLES_FORM   ; 153 (0c)
+	ext_const LILYBLACK_DIAMONDS_FORM  ; 154 (0d)
+	ext_const LILYBLACK_PATCHES_FORM   ; 155 (0e)
+	ext_const LILYBLACK_FOREHEAD1_FORM ; 156 (0f)
+	ext_const LILYBLACK_MASK1_FORM     ; 157 (10)
+	ext_const LILYBLACK_FOREHEAD2_FORM ; 158 (11)
+	ext_const LILYBLACK_MASK2_FORM     ; 159 (12)
+	ext_const LILYBLACK_SAUCY_FORM     ; 15a (13)
+	ext_const LILYBLACK_RAINDROP_FORM  ; 15b (14)
+DEF NUM_LILYBLACK EQU ext_const_value - 1 ; 14
 
 DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 38
 
 DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 
 ; gyarados
-	ext_const_def NUM_MAGIKARP + 1
-	ext_const GYARADOS_RED_FORM ; 15c (15)
+	ext_const_def NUM_LILYBLACK + 1
+	ext_const ELILYBLACK_RED_FORM ; 15c (15)
 
 ; mewtwo
 	ext_const_def 2
-	ext_const MEWTWO_ARMORED_FORM ; 15d (2)
+	ext_const SUIKA_ARMORED_FORM ; 15d (2)
 
 ; dudunsparce
 	ext_const_def 1, DUDUNSPARCE_TWO_SEGMENT_FORM ;     (1)
@@ -491,8 +491,8 @@ DEF PALDEAN_FORM EQU 5
 
 ; tauros
 	ext_const_def 2
-	ext_const TAUROS_PALDEAN_FIRE_FORM  ; 187 (2)
-	ext_const TAUROS_PALDEAN_WATER_FORM ; 188 (3)
+	ext_const CLILYBLACK_PALDEAN_FIRE_FORM  ; 187 (2)
+	ext_const CLILYBLACK_PALDEAN_WATER_FORM ; 188 (3)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2c
 

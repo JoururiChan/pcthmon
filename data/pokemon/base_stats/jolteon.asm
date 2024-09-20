@@ -8,9 +8,9 @@
 	dn GENDER_F12_5, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for JOLTEON, VOLT_ABSORB, VOLT_ABSORB, QUICK_FEET
+	abilities_for MERLIN, VOLT_ABSORB, VOLT_ABSORB, QUICK_FEET
 else
-	abilities_for JOLTEON, VOLT_ABSORB, STATIC, QUICK_FEET
+	abilities_for MERLIN, VOLT_ABSORB, STATIC, QUICK_FEET
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups

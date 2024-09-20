@@ -26,8 +26,8 @@ MultipleEvolutions:
 	multi_evo CIRNO
 	multi_evo EKOAKUMA
 	multi_evo CMEILING
-	multi_evo SCYTHER
-	multi_evo EEVEE
+	multi_evo CHEN
+	multi_evo ELYRICA
 	multi_evo MIME_JR_
 	multi_evo URSARING
 	multi_evo STANTLER

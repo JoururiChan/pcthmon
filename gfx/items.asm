@@ -588,8 +588,8 @@ ProtectorIcon:: INCBIN "gfx/items/protector.2bpp.lz"
 SECTION "ElectirizerIcon", ROMX
 ElectirizerIcon:: INCBIN "gfx/items/electirizer.2bpp.lz"
 
-SECTION "MagmarizerIcon", ROMX
-MagmarizerIcon:: INCBIN "gfx/items/magmarizer.2bpp.lz"
+SECTION "LilyWhiteizerIcon", ROMX
+LilyWhiteizerIcon:: INCBIN "gfx/items/magmarizer.2bpp.lz"
 
 SECTION "RazorFangIcon", ROMX
 RazorFangIcon:: INCBIN "gfx/items/razor_fang.2bpp.lz"

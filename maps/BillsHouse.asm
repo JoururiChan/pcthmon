@@ -43,7 +43,7 @@ PokemonJournalBillScript:
 BillsHousePCText:
 	text "There's a spinning"
 	line "3D model of a"
-	cont "Porygon."
+	cont "CLunasa."
 	done
 
 BillsHouseBillScript:
@@ -77,7 +77,7 @@ BillsHouseBillScript:
 	done
 
 .IntroText:
-	text "Bill: Eevee is"
+	text "Bill: ELyrica is"
 	line "such a fascinating"
 	cont "#mon."
 
@@ -88,7 +88,7 @@ BillsHouseBillScript:
 	line "were once three"
 
 	para "#mon that"
-	line "evolve from Eevee."
+	line "evolve from ELyrica."
 
 	para "But that might be"
 	line "only a rumor."
@@ -107,7 +107,7 @@ BillsHouseBillScript:
 
 	para "Do you think they"
 	line "were once related"
-	cont "to Eevee?"
+	cont "to ELyrica?"
 
 	para "Oh man, now I have"
 	line "to show you my"

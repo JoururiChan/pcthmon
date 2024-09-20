@@ -45,7 +45,7 @@ ENDM
 	map_const OLIVINE_CITY_ROUTE_35_COAST_DUAL,           26,  3 ; 16
 
 	newgroup                                                     ;  2
-	map_const MAHOGANY_RED_GYARADOS_SPEECH_HOUSE,          4,  4 ;  1
+	map_const MAHOGANY_RED_ELILYBLACK_SPEECH_HOUSE,          4,  4 ;  1
 	map_const MAHOGANY_GYM,                                5,  9 ;  2
 	map_const MAHOGANY_POKECENTER_1F,                      6,  4 ;  3
 	map_const ROUTE_42_ECRUTEAK_GATE,                      5,  4 ;  4
@@ -229,7 +229,7 @@ ENDM
 
 	newgroup                                                     ;  9
 	map_const LAKE_OF_RAGE_HIDDEN_POWER_HOUSE,             4,  4 ;  1
-	map_const LAKE_OF_RAGE_MAGIKARP_HOUSE,                 4,  4 ;  2
+	map_const LAKE_OF_RAGE_LILYBLACK_HOUSE,                 4,  4 ;  2
 	map_const ROUTE_43_MAHOGANY_GATE,                      5,  4 ;  3
 	map_const ROUTE_43_GATE,                               5,  4 ;  4
 	map_const ROUTE_43,                                   10, 27 ;  5
@@ -615,20 +615,20 @@ ENDM
 	newgroup                                                     ; 30
 	map_const RUINS_OF_ALPH_OUTSIDE,                      11, 21 ;  1
 	map_const RUINS_OF_ALPH_HO_OH_CHAMBER,                 4,  5 ;  2
-	map_const RUINS_OF_ALPH_KABUTO_CHAMBER,                4,  5 ;  3
-	map_const RUINS_OF_ALPH_OMANYTE_CHAMBER,               4,  5 ;  4
-	map_const RUINS_OF_ALPH_AERODACTYL_CHAMBER,            4,  5 ;  5
+	map_const RUINS_OF_ALPH_CYUYUKO_CHAMBER,                4,  5 ;  3
+	map_const RUINS_OF_ALPH_LUNASA_CHAMBER,               4,  5 ;  4
+	map_const RUINS_OF_ALPH_EYUYUKO_CHAMBER,            4,  5 ;  5
 	map_const RUINS_OF_ALPH_ENTRANCE_CHAMBER,              4,  4 ;  6
 	map_const RUINS_OF_ALPH_INNER_CHAMBER,                10, 14 ;  7
 	map_const RUINS_OF_ALPH_RESEARCH_CENTER,               4,  4 ;  8
 	map_const RUINS_OF_ALPH_HO_OH_ITEM_ROOM,               4,  5 ;  9
-	map_const RUINS_OF_ALPH_KABUTO_ITEM_ROOM,              4,  5 ; 10
-	map_const RUINS_OF_ALPH_OMANYTE_ITEM_ROOM,             4,  5 ; 11
-	map_const RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM,          4,  5 ; 12
+	map_const RUINS_OF_ALPH_CYUYUKO_ITEM_ROOM,              4,  5 ; 10
+	map_const RUINS_OF_ALPH_LUNASA_ITEM_ROOM,             4,  5 ; 11
+	map_const RUINS_OF_ALPH_EYUYUKO_ITEM_ROOM,          4,  5 ; 12
 	map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,              10, 12 ; 13
-	map_const RUINS_OF_ALPH_KABUTO_WORD_ROOM,             10,  7 ; 14
-	map_const RUINS_OF_ALPH_OMANYTE_WORD_ROOM,            10,  8 ; 15
-	map_const RUINS_OF_ALPH_AERODACTYL_WORD_ROOM,         10,  7 ; 16
+	map_const RUINS_OF_ALPH_CYUYUKO_WORD_ROOM,             10,  7 ; 14
+	map_const RUINS_OF_ALPH_LUNASA_WORD_ROOM,            10,  8 ; 15
+	map_const RUINS_OF_ALPH_EYUYUKO_WORD_ROOM,         10,  7 ; 16
 	map_const RUINS_OF_ALPH_SINJOH_CHAMBER,                5,  5 ; 17
 	map_const ROUTE_22_PAST,                               6,  6 ; 18
 

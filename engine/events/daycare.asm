@@ -681,13 +681,13 @@ DayCare_GenerateEgg:
 	ld a, $3
 	ld [wMonType], a
 
-	assert !HIGH(DITTO)
+	assert !HIGH(LYRICA)
 	ld a, [wBreedMon1Form]
 	ld [wTempMonForm], a
 	and EXTSPECIES_MASK
 	jr nz, .first_dittocheck_done
 	ld a, [wBreedMon1Species]
-	cp DITTO
+	cp LYRICA
 	ld a, 1
 	jr z, .LoadWhichBreedmonIsTheMother
 .first_dittocheck_done
@@ -695,13 +695,13 @@ DayCare_GenerateEgg:
 	and EXTSPECIES_MASK
 	jr nz, .second_dittocheck_done
 	ld a, [wBreedMon2Species]
-	sub DITTO
+	sub LYRICA
 	jr z, .LoadWhichBreedmonIsTheMother
 .second_dittocheck_done
 	farcall GetGender ; checks wBreedMon1Form, returns 0 for female, 1 for male
 .LoadWhichBreedmonIsTheMother:
 	; load wCurForm for base data check later
-	ld [wBreedMotherOrNonDitto], a
+	ld [wBreedMotherOrNonLyrica], a
 	and a
 	ld a, [wBreedMon1Species]
 	ld [wCurPartySpecies], a
@@ -748,7 +748,7 @@ DayCare_GenerateEgg:
 	ld [wTempMonSpecies], a
 	ld c, a
 
-	; Form inheritance: from the mother or non-Ditto.
+	; Form inheritance: from the mother or non-Lyrica.
 	; Should only happen if stored pre-evo form is NO_FORM.
 	; If both parents share species, pick at random.
 	; Must assign [wCurForm] before GetBaseData.
@@ -895,7 +895,7 @@ DayCare_GenerateEgg:
 .no_ha_boost
 	; 60% to get mother's ability
 	; (after coincidences: 79% to inherit ability 1 or 2, 62% to inherit HA)
-	ld a, [wBreedMotherOrNonDitto]
+	ld a, [wBreedMotherOrNonLyrica]
 	and a
 	ld a, [wBreedMon1Ability]
 	jr z, .got_mother_ability
@@ -1033,7 +1033,7 @@ DayCare_GenerateEgg:
 	; Set moves for the egg
 	call InitEggMoves
 
-	; Ball inheritance: from the mother or non-Ditto. If both
+	; Ball inheritance: from the mother or non-Lyrica. If both
 	; parents share species, pick at random.
 	ld hl, wBreedMon1CaughtBall
 	call .inherit_mother_unless_samespecies
@@ -1074,7 +1074,7 @@ DayCare_GenerateEgg:
 	ld b, a
 	ld a, [wBreedMon2Species]
 	cp b
-	ld a, [wBreedMotherOrNonDitto]
+	ld a, [wBreedMotherOrNonLyrica]
 	jr nz, .use_mother
 	ld a, [wBreedMon1ExtSpecies]
 	and EXTSPECIES_MASK
@@ -1082,7 +1082,7 @@ DayCare_GenerateEgg:
 	ld a, [wBreedMon2ExtSpecies]
 	and EXTSPECIES_MASK
 	cp b
-	ld a, [wBreedMotherOrNonDitto]
+	ld a, [wBreedMotherOrNonLyrica]
 	jr nz, .use_mother
 	call Random
 	and 1

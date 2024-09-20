@@ -155,11 +155,11 @@ IrwinTrainPassGossipText:
 	line "by Fly?"
 	done
 
-IrwinSnorlaxGossipText:
+IrwinCRanGossipText:
 	text "I saw, I saw!"
 
 	para "You waking up"
-	line "Snorlax!"
+	line "CRan!"
 
 	para "I was watching you"
 	line "from afar, so I"

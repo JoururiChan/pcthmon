@@ -13,7 +13,7 @@ else
 endc
 	db 30 ; catch rate
 	db 199 ; base exp
-	db ASPEAR_BERRY, MAGMARIZER ; held items
+	db ASPEAR_BERRY, LILYWHITEIZER ; held items
 	dn GENDER_F25, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
 	abilities_for MAGMORTAR, FLAME_BODY, FLAME_BODY, VITAL_SPIRIT

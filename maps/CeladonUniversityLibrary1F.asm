@@ -194,7 +194,7 @@ CeladonUniversityLibrary1FBookshelf4Text:
 	line "#mon palin-"
 	cont "dromes."
 
-	para "There's an Eevee"
+	para "There's an ELyrica"
 	line "and a Girafarig"
 	cont "on the cover."
 	done

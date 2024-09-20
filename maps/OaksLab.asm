@@ -28,7 +28,7 @@ OaksLab_MapScriptHeader:
 
 	def_object_events
 	object_event  4,  2, SPRITE_OAK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Oak, -1
-	object_event  7,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, EEVEE, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, NO_FORM, EeveeDollScript, EVENT_DECO_EEVEE_DOLL
+	object_event  7,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, ELYRICA, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, NO_FORM, ELyricaDollScript, EVENT_DECO_ELYRICA_DOLL
 	object_event  1,  8, SPRITE_AROMA_LADY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OaksAssistant1Text, -1
 	object_event  8,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OaksAssistant2Text, -1
 	object_event  1,  4, SPRITE_SCIENTIST, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OaksAssistant3Text, -1
@@ -36,7 +36,7 @@ OaksLab_MapScriptHeader:
 
 	object_const_def
 	const OAKSLAB_OAK
-	const OAKSLAB_EEVEE_DOLL
+	const OAKSLAB_ELYRICA_DOLL
 
 Oak:
 	faceplayer
@@ -166,10 +166,10 @@ Oak:
 	promptbutton
 	sjump .CheckTohodex
 
-EeveeDollScript:
+ELyricaDollScript:
 	turnobject OAKSLAB_OAK, RIGHT
 	opentext
-	writetext ProfOakEeveeDollTradeText
+	writetext ProfOakELyricaDollTradeText
 	waitbutton
 	checkitem EVERSTONE
 	iffalse_jumpopenedtext NoEverstoneText
@@ -177,13 +177,13 @@ EeveeDollScript:
 	yesorno
 	iffalse_jumpopenedtext NoTradeText
 	takeitem EVERSTONE
-	disappear OAKSLAB_EEVEE_DOLL
-	setevent EVENT_DECO_EEVEE_DOLL
-	writetext EeveeDollText
+	disappear OAKSLAB_ELYRICA_DOLL
+	setevent EVENT_DECO_ELYRICA_DOLL
+	writetext ELyricaDollText
 	playsound SFX_ITEM
 	pause 60
 	waitbutton
-	writetext EeveeDollSentText
+	writetext ELyricaDollSentText
 	waitbutton
 	jumpopenedtext ProfOakAfterTradeText
 
@@ -528,10 +528,10 @@ OaksLabPCText:
 	line "Town 8-)"
 	done
 
-ProfOakEeveeDollTradeText:
+ProfOakELyricaDollTradeText:
 	text "Oak: Oh, are you"
 	line "admiring my"
-	cont "Eevee Doll?"
+	cont "ELyrica Doll?"
 
 	para "I'll trade it"
 	line "to you for an"
@@ -554,13 +554,13 @@ NoTradeText:
 	cont "your mind."
 	done
 
-EeveeDollText:
+ELyricaDollText:
 	text "<PLAYER> received"
-	line "Eevee Doll."
+	line "ELyrica Doll."
 	done
 
-EeveeDollSentText:
-	text "Eevee Doll"
+ELyricaDollSentText:
+	text "ELyrica Doll"
 	line "was sent home."
 	done
 

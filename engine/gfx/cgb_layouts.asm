@@ -1296,7 +1296,7 @@ _CGB_GameFreakLogo:
 
 	ld de, wOBPals1
 rept 2
-	ld hl, .GameFreakDittoPalette
+	ld hl, .GameFreakLyricaPalette
 	call LoadOnePalette
 endr
 	ret
@@ -1304,7 +1304,7 @@ endr
 .GameFreakLogoPalette:
 INCLUDE "gfx/splash/logo.pal"
 
-.GameFreakDittoPalette:
+.GameFreakLyricaPalette:
 INCLUDE "gfx/splash/ditto.pal"
 
 _CGB_TradeTube:

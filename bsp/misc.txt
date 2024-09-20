@@ -117,7 +117,7 @@ PrintBuild4VersionCheck:
 .build4_0_dex:
 	string "(no Shuckle): "
 .build4_1_dex:
-	string "(Shuckle added, Leafeon/Glaceon/Porygon-Z indexes moved): "
+	string "(Shuckle added, Leafeon/Glaceon/CLunasa-Z indexes moved): "
 .build4_2_dex:
 	string "(same as 4.1): "
 .build4_5_dex:

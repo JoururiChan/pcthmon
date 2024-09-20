@@ -31,13 +31,13 @@ Guitarist(F) 1 (Colleen):
 pre-battle - “There's something magical about this island.”
 win battle - “There was nothing magical about that.”
 post-battle - “I'm feeling so inspired by this place, I already wrote a new song! Wanna listen? No? Aww… Too bad.”
-party - Electabuzz, Alice, EAlice
+party - CLilyWhite, Alice, EAlice
 
 Rich Boy 1 (Rupert):
 pre-battle - “You believe you can best me? What a load of old tosh.”
 win battle - “I'm gobsmacked!”
 post-battle - “How did we lose, father? These Pokemon cost a fortune!”
-party - Porygon2, Blissey, CEllen
+party - CLunasa2, Blissey, CEllen
 
 Gentleman 1 (Bernard):
 pre-battle - “Enough of this argy-bargy. I shall see to you myself!”

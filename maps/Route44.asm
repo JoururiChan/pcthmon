@@ -484,8 +484,8 @@ Bird_keeperVance1BeatenText:
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
-	text "Articuno, Zapdos"
-	line "and Moltres are"
+	text "Ran, ERan"
+	line "and CYukari are"
 
 	para "the three legend-"
 	line "ary bird #mon."

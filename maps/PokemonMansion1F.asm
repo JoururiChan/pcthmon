@@ -14,7 +14,7 @@ PokemonMansion1F_MapScriptHeader:
 	bg_event 21, 12, BGEVENT_ITEM + FULL_RESTORE, EVENT_POKEMON_MANSION_1F_HIDDEN_FULL_RESTORE
 	bg_event 14, 23, BGEVENT_ITEM + PP_UP, EVENT_POKEMON_MANSION_1F_HIDDEN_PP_UP
 	bg_event 14, 23, BGEVENT_JUMPTEXT, PokemonMansion1FFlowerPotText
-	bg_event  2,  5, BGEVENT_JUMPTEXT, PokemonMansion1FMewtwoStatueText
+	bg_event  2,  5, BGEVENT_JUMPTEXT, PokemonMansion1FSuikaStatueText
 	bg_event 15, 23, BGEVENT_JUMPTEXT, PokemonMansion1FFlowerPotText
 	bg_event 18, 23, BGEVENT_JUMPTEXT, PokemonMansion1FFlowerPotText
 	bg_event 19, 23, BGEVENT_JUMPTEXT, PokemonMansion1FFlowerPotText
@@ -66,7 +66,7 @@ BurglarLouisBeatenText:
 	text "Ayah!"
 	done
 
-PokemonMansion1FMewtwoStatueText:
+PokemonMansion1FSuikaStatueText:
 	text "A #mon statue…"
 
 	para "It looks very"

@@ -43,7 +43,7 @@ def get_ordered_mons():
 		for line in file:
 			# Assume that Tohomon constants are defined first in this file
 			if line.startswith('\tconst '):
-				# '\tconst MR__MIME   ; $7a' => 'mr__mime'
+				# '\tconst CCHEN   ; $7a' => 'mr__mime'
 				mon = line[7:].split(';')[0].strip().lower()
 				ordered_mons.append(mon)
 				simple_name = mon.replace('_', '')

@@ -281,7 +281,7 @@ endc
 	li "Dubious Disc"
 	li "Protector"
 	li "Electirizer"
-	li "Magmarizer"
+	li "LilyWhiteizer"
 	li "Razor Fang"
 	li "Razor Claw"
 	li "Oval Stone"

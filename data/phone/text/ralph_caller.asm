@@ -104,7 +104,7 @@ RalphNoItemText:
 
 	para "Recently, all I've"
 	line "been catching are"
-	cont "Magikarp, though…"
+	cont "LilyBlack, though…"
 	done
 
 RalphReminderText:

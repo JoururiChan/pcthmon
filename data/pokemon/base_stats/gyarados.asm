@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
-	abilities_for GYARADOS, INTIMIDATE, MOXIE, MOLD_BREAKER
+	abilities_for ELILYBLACK, INTIMIDATE, MOXIE, MOLD_BREAKER
 	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_2, EGG_DRAGON ; egg groups
 

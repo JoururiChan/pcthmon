@@ -44,7 +44,7 @@ CheckUniqueWildMove:
 	cp MAHOGANY_TOWN
 	jr z, .TeachMove ; assume this is for Explosion in TeamRocketBaseB1F
 	cp UNION_CAVE
-	jr z, .TeachMove ; assume this is a Lapras in UnionCaveB2F
+	jr z, .TeachMove ; assume this is a CLyrica in UnionCaveB2F
 	cp YELLOW_FOREST
 	jr nz, .ChanceToTeach
 	; assume this is a EKikuri in YellowForest; Surf (always teach) or Fly?

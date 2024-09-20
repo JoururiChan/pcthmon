@@ -11,7 +11,7 @@ ObjectActionPairPointers:
 	dw SetFacingFish,                  SetFacingFish              ; OBJECT_ACTION_FISHING
 	dw SetFacingShadow,                SetFacingStanding          ; OBJECT_ACTION_SHADOW
 	dw SetFacingEmote,                 SetFacingEmote             ; OBJECT_ACTION_EMOTE
-	dw SetFacingBigDollSym,            SetFacingBigDollSym        ; OBJECT_ACTION_BIG_SNORLAX
+	dw SetFacingBigDollSym,            SetFacingBigDollSym        ; OBJECT_ACTION_BIG_CRAN
 	dw SetFacingBounce,                SetFacingFreezeBounce      ; OBJECT_ACTION_BOUNCE
 	dw SetFacingWeirdTree,             SetFacingCurrent           ; OBJECT_ACTION_WEIRD_TREE
 	dw SetFacingBigDoll,               SetFacingBigDoll           ; OBJECT_ACTION_BIG_DOLL
@@ -21,7 +21,7 @@ ObjectActionPairPointers:
 	dw SetFacingCutTree,               SetFacingCutTree           ; OBJECT_ACTION_CUT_TREE
 	dw SetFacingSkyfall,               SetFacingCurrent           ; OBJECT_ACTION_SKYFALL
 	dw SetFacingFruit,                 SetFacingFruit             ; OBJECT_ACTION_FRUIT
-	dw SetFacingBigGyarados,           SetFacingFreezeBigGyarados ; OBJECT_ACTION_BIG_GYARADOS
+	dw SetFacingBigELilyBlack,           SetFacingFreezeBigELilyBlack ; OBJECT_ACTION_BIG_ELILYBLACK
 	dw SetFacingStandFlip,             SetFacingStandFlip         ; OBJECT_ACTION_STAND_FLIP
 	dw SetFacingPokecomNews,           SetFacingPokecomNews       ; OBJECT_ACTION_POKECOM_NEWS
 	dw SetFacingMuseumDrill,           SetFacingMuseumDrill       ; OBJECT_ACTION_MUSEUM_DRILL
@@ -250,7 +250,7 @@ SetFacingFruit:
 .ok
 	jmp SetFixedFacing
 
-SetFacingBigGyarados:
+SetFacingBigELilyBlack:
 	ld hl, OBJECT_STEP_FRAME
 	add hl, bc
 	ld a, [hl]
@@ -258,10 +258,10 @@ SetFacingBigGyarados:
 	and %00011111
 	ld [hl], a
 	and %00010000
-	ld a, FACING_BIG_GYARADOS_2
+	ld a, FACING_BIG_ELILYBLACK_2
 	jmp nz, SetFixedFacing
-SetFacingFreezeBigGyarados:
-	ld a, FACING_BIG_GYARADOS_1
+SetFacingFreezeBigELilyBlack:
+	ld a, FACING_BIG_ELILYBLACK_1
 	jmp SetFixedFacing
 
 SetFacingShakeECirno:

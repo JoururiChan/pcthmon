@@ -1,6 +1,6 @@
-SpecialGiveShinyDitto:
+SpecialGiveShinyLyrica:
 ; Adding to the party.
-; Level 5 Ditto.
+; Level 5 Lyrica.
 	ld hl, wTempMonNickname
 	ld de, .Nickname
 	call CopyName2
@@ -10,7 +10,7 @@ SpecialGiveShinyDitto:
 	rst CopyBytes
 
 	ld hl, wTempMonSpecies
-	ld a, DITTO
+	ld a, LYRICA
 	ld [hli], a
 	ld [wCurPartySpecies], a
 	ld [wCurSpecies], a
@@ -72,7 +72,7 @@ endr
 	ld [wTempMonSlot], a
 	ld a, b
 	ld [wTempMonBox], a
-	lp bc, DITTO
+	lp bc, LYRICA
 	call SetSeenAndCaughtMon
 	farcall UpdateStorageBoxMonFromTemp
 	ld a, 2

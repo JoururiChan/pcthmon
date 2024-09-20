@@ -80,7 +80,7 @@ GenericTrainerSuperNerdMiguel:
 	generictrainer SUPER_NERD, MIGUEL, EVENT_BEAT_SUPER_NERD_MIGUEL, SuperNerdMiguelSeenText, SuperNerdMiguelBeatenText
 
 	text "Maybe if I had"
-	line "an Aerodactyl…"
+	line "an EYuyuko…"
 	done
 
 YoungsterJoshSeenText:

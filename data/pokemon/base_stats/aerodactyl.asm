@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F12_5, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for AERODACTYL, ROCK_HEAD, UNNERVE, TOUGH_CLAWS
+	abilities_for EYUYUKO, ROCK_HEAD, UNNERVE, TOUGH_CLAWS
 	db GROWTH_SLOW ; growth rate
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 

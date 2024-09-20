@@ -2457,11 +2457,11 @@ _BillsPC_BagItem:
 	jr nc, BillsPC_PrintText
 	xor a
 	ld [wTempMonItem], a
-	call BillsPC_UpdateStorage_CheckMewtwo
+	call BillsPC_UpdateStorage_CheckSuika
 	jmp GetCursorMon
 
-BillsPC_UpdateStorage_CheckMewtwo:
-; Updates storage and potentially switches Mewtwo form if item changed.
+BillsPC_UpdateStorage_CheckSuika:
+; Updates storage and potentially switches Suika form if item changed.
 	push hl
 	push de
 	push bc
@@ -2472,7 +2472,7 @@ BillsPC_UpdateStorage_CheckMewtwo:
 	ld a, [hl]
 	ld b, a
 	push bc
-	farcall _UpdateMewtwoForm
+	farcall _UpdateSuikaForm
 	call UpdateStorageBoxMonFromTemp
 	pop bc
 	ld a, [wTempMonForm]
@@ -3253,7 +3253,7 @@ BillsPC_SwapStorage:
 .compose_check_done
 	ld [wTempMonItem], a
 	ld [wCurItem], a
-	call BillsPC_UpdateStorage_CheckMewtwo
+	call BillsPC_UpdateStorage_CheckSuika
 	ld a, 1
 	ld [wItemQuantityChangeBuffer], a
 	ld hl, wNumItems
@@ -3305,13 +3305,13 @@ BillsPC_SwapStorage:
 	; No mail is about to be sent to storage, so proceed with the item move.
 	ld [hl], e
 	push hl
-	call BillsPC_UpdateStorage_CheckMewtwo
+	call BillsPC_UpdateStorage_CheckSuika
 	pop hl
 	pop de
 	pop bc
 	call GetStorageBoxMon
 	ld [hl], d
-	call BillsPC_UpdateStorage_CheckMewtwo
+	call BillsPC_UpdateStorage_CheckSuika
 	xor a
 	jr .done
 

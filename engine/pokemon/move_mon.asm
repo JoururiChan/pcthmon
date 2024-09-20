@@ -262,7 +262,7 @@ endr
 	jr nz, .shiny_check
 
 	ld a, [wBattleType]
-	cp BATTLETYPE_RED_GYARADOS
+	cp BATTLETYPE_RED_ELILYBLACK
 	jr z, .not_shiny
 	cp BATTLETYPE_GROTTO
 	jr z, .not_shiny

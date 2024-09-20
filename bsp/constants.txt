@@ -60,7 +60,7 @@
 	define BREED_MON_2_NICK_OFFSET,            0xaa4
 	define BREED_MON_2_OT_OFFSET,              0xaaf
 	define EGG_MON_NICK_OFFSET,                0xada
-	define MAGIKARP_RECORD_HOLDER_NAME_OFFSET, 0xb6b
+	define LILYBLACK_RECORD_HOLDER_NAME_OFFSET, 0xb6b
 	define REGISTERED_ITEMS_OFFSET,            0xb77
 
 ; SRAM sizes
@@ -89,7 +89,7 @@
 	define EXTSPECIES_MASK, 0x20
 
 ; pokemon constants
-	define GYARADOS, 0x82
+	define ELILYBLACK, 0x82
 
 ; move constants
 	define RAGE,         0x63

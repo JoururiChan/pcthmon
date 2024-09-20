@@ -13,9 +13,9 @@ PewterMuseumOfScience1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  2,  3, BGEVENT_READ, KabutopsFossilSignpostScript
-	bg_event  6,  3, BGEVENT_READ, OmastarFossilSignpostScript
-	bg_event  3,  6, BGEVENT_READ, AerodactylFossilSignpostScript
+	bg_event  2,  3, BGEVENT_READ, YuyukoFossilSignpostScript
+	bg_event  6,  3, BGEVENT_READ, ELunasaFossilSignpostScript
+	bg_event  3,  6, BGEVENT_READ, EYuyukoFossilSignpostScript
 	bg_event 12,  1, BGEVENT_JUMPTEXT, Museum1FBookshelfSignpostText
 	bg_event 13,  1, BGEVENT_JUMPTEXT, Museum1FBookshelfSignpostText
 	bg_event 14,  1, BGEVENT_JUMPTEXT, Museum1FBookshelfSignpostText
@@ -162,19 +162,19 @@ HelixDomeAmberMenuDataHeader:
 ResurrectHelixFossil:
 	takeitem HELIX_FOSSIL
 	scall ResurrectAFossilScript
-	givepoke OMANYTE, 20
+	givepoke LUNASA, 20
 	sjumpfwd FinishResurrect
 
 ResurrectDomeFossil:
 	takeitem DOME_FOSSIL
 	scall ResurrectAFossilScript
-	givepoke KABUTO, 20
+	givepoke CYUYUKO, 20
 	sjumpfwd FinishResurrect
 
 ResurrectOldAmber:
 	takeitem OLD_AMBER
 	scall ResurrectAFossilScript
-	givepoke AERODACTYL, 20
+	givepoke EYUYUKO, 20
 FinishResurrect:
 	iffalse_jumpopenedtext NoRoomForFossilPokemonText
 	jumpopenedtext TakeGoodCareOfItText
@@ -225,42 +225,42 @@ Museum1FReceptionistScript:
 	line "in the back way!"
 	done
 
-KabutopsFossilSignpostScript:
+YuyukoFossilSignpostScript:
 	reanchormap
-	trainerpic KABUTOPS_FOSSIL
+	trainerpic YUYUKO_FOSSIL
 	waitbutton
 	closepokepic
 	jumpthistext
 
-	text "Kabutops Fossil"
+	text "Yuyuko Fossil"
 	line "(Dome)"
 
 	para "A primitive and"
 	line "rare #mon."
 	done
 
-OmastarFossilSignpostScript:
+ELunasaFossilSignpostScript:
 	reanchormap
-	trainerpic OMASTAR_FOSSIL
+	trainerpic ELUNASA_FOSSIL
 	waitbutton
 	closepokepic
 	jumpthistext
 
-	text "Omastar Fossil"
+	text "ELunasa Fossil"
 	line "(Helix)"
 
 	para "A primitive and"
 	line "rare #mon."
 	done
 
-AerodactylFossilSignpostScript:
+EYuyukoFossilSignpostScript:
 	reanchormap
-	trainerpic AERODACTYL_FOSSIL
+	trainerpic EYUYUKO_FOSSIL
 	waitbutton
 	closepokepic
 	jumpthistext
 
-	text "Aerodactyl Fossil"
+	text "EYuyuko Fossil"
 
 	para "A primitive and"
 	line "rare #mon."

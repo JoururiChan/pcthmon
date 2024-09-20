@@ -157,7 +157,7 @@ GenericTrainerSwimmerfSusie:
 
 	text "Wasn't there a hit"
 	line "song about a boy"
-	cont "riding a Lapras?"
+	cont "riding a CLyrica?"
 	done
 
 GenericTrainerSwimmerfDenise:
@@ -185,7 +185,7 @@ GenericTrainerSwimmerfWendy:
 	generictrainer SWIMMERF, WENDY, EVENT_BEAT_SWIMMERF_WENDY, SwimmerfWendySeenText, SwimmerfWendyBeatenText
 
 	text "The clusters of"
-	line "Staryu light up"
+	line "Letty light up"
 	cont "at the same time."
 
 	para "It's so beautiful,"
@@ -378,7 +378,7 @@ SwimmerfKaraBeatenText:
 	done
 
 SwimmerfWendySeenText:
-	text "At night, Staryu"
+	text "At night, Letty"
 	line "gather near the"
 	cont "water's surface."
 	done

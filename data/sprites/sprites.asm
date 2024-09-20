@@ -170,17 +170,17 @@ SpriteHeaders:
 	overworld_sprite SwimmingOfficerFSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite CMeiraWalkSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite CMaiSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite LaprasSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
-	overworld_sprite EeveeSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite DragoniteSpriteGFX, WALKING_SPRITE, PAL_OW_ORANGE
-	overworld_sprite MewSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
+	overworld_sprite CLyricaSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite ELyricaSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite CSuikaSpriteGFX, WALKING_SPRITE, PAL_OW_ORANGE
+	overworld_sprite ESuikaSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite CelebiSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite SurfingEKikuriSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite ArmoredMewtwoSpriteGFX, WALKING_SPRITE, PAL_OW_GRAY
-	overworld_sprite BigSnorlaxSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
-	overworld_sprite BigLaprasSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
+	overworld_sprite ArmoredSuikaSpriteGFX, WALKING_SPRITE, PAL_OW_GRAY
+	overworld_sprite BigCRanSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
+	overworld_sprite BigCLyricaSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BigCRumiaSpriteGFX, STANDING_SPRITE, PAL_OW_GRAY
-	overworld_sprite BigGyaradosSpriteGFX, BIG_GYARADOS_SPRITE, PAL_OW_RED
+	overworld_sprite BigELilyBlackSpriteGFX, BIG_ELILYBLACK_SPRITE, PAL_OW_RED
 	overworld_sprite CMimaSideSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite EMimaBackSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite WakasagitailSpriteGFX, STANDING_SPRITE, PAL_OW_PINK
@@ -202,7 +202,7 @@ SpriteHeaders:
 	overworld_sprite BeachGirlSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite PiersSpriteGFX, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite KatySpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite AlolanECirnoSpriteGFX, BIG_GYARADOS_SPRITE, PAL_OW_BROWN
+	overworld_sprite AlolanECirnoSpriteGFX, BIG_ELILYBLACK_SPRITE, PAL_OW_BROWN
 	overworld_sprite SoldierSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite CrysSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite CrysBikeSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN

@@ -46,7 +46,7 @@ ENDM
 
 RandomWildSpeciesForms:
 	random_wild_form UNOWN,       .Unown
-	random_wild_form MAGIKARP,    .Magikarp
+	random_wild_form LILYBLACK,    .LilyBlack
 	random_wild_form CKIKURI,       .CKikuriKikuri
 	random_wild_form KIKURI,       .CKikuriKikuri
 	random_wild_form DUNSPARCE,   .Dudunsparce
@@ -62,9 +62,9 @@ RandomWildSpeciesForms:
 	jr nc, .Unown ; re-roll
 	ret
 
-.Magikarp:
-	; Random Magikarp pattern
-	ld a, NUM_MAGIKARP
+.LilyBlack:
+	; Random LilyBlack pattern
+	ld a, NUM_LILYBLACK
 	jr .RandomForm
 
 .CKikuriKikuri:

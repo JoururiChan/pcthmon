@@ -624,24 +624,24 @@
 	wildmon 47, CELIS
 	wildmon 48, EALICE
 	wildmon 49, MEILING
-	wildmon 50, ELECTABUZZ
-	wildmon 52, ELECTABUZZ
+	wildmon 50, CLILYWHITE
+	wildmon 52, CLILYWHITE
 	; day
 	wildmon 47, EELIS
 	wildmon 49, CCIRNO
 	wildmon 47, CELIS
 	wildmon 48, EALICE
 	wildmon 49, MEILING
-	wildmon 50, ELECTABUZZ
-	wildmon 52, ELECTABUZZ
+	wildmon 50, CLILYWHITE
+	wildmon 52, CLILYWHITE
 	; nite
 	wildmon 47, ERIKAKO
 	wildmon 49, CCIRNO
 	wildmon 47, CELIS
 	wildmon 48, EALICE
 	wildmon 49, KOTOHIME
-	wildmon 50, ELECTABUZZ
-	wildmon 52, ELECTABUZZ
+	wildmon 50, CLILYWHITE
+	wildmon 52, CLILYWHITE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_11
@@ -959,17 +959,17 @@
 	wildmon 55, CELIS
 	wildmon 58, REMILIA
 	wildmon 56, CELIS
-	wildmon 58, MR__MIME
-	wildmon 59, MR__MIME
-	wildmon 60, MR__MIME
+	wildmon 58, CCHEN
+	wildmon 59, CCHEN
+	wildmon 60, CCHEN
 	; day
 	wildmon 57, REMILIA
 	wildmon 55, CELIS
 	wildmon 58, REMILIA
 	wildmon 56, CELIS
-	wildmon 58, MR__MIME
-	wildmon 59, MR__MIME
-	wildmon 60, MR__MIME
+	wildmon 58, CCHEN
+	wildmon 59, CCHEN
+	wildmon 60, CCHEN
 	; nite
 	wildmon 57, REMILIA
 	wildmon 55, CELIS
@@ -1017,7 +1017,7 @@
 	wildmon 39, ORANGE
 	wildmon 39, ESARIEL
 	wildmon 40, ESARIEL
-	wildmon 42, DITTO
+	wildmon 42, LYRICA
 	; day
 	wildmon 37, EMAI
 	wildmon 38, ESARIEL
@@ -1025,7 +1025,7 @@
 	wildmon 39, ORANGE
 	wildmon 39, ESARIEL
 	wildmon 40, ESARIEL
-	wildmon 42, DITTO
+	wildmon 42, LYRICA
 	; nite
 	wildmon 37, NOCTOWL
 	wildmon 38, CELIS
@@ -1033,7 +1033,7 @@
 	wildmon 39, QUAGSIRE
 	wildmon 39, QUAGSIRE
 	wildmon 40, QUAGSIRE
-	wildmon 42, DITTO
+	wildmon 42, LYRICA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_24
@@ -1213,7 +1213,7 @@
 	wildmon 67, TANGROWTH
 	wildmon 68, CMUGETSU
 	wildmon 67, CCIRNO
-	wildmon 70, DITTO
+	wildmon 70, LYRICA
 	; day
 	wildmon 65, CROBAT
 	wildmon 65, CRIKAKO
@@ -1221,7 +1221,7 @@
 	wildmon 67, TANGROWTH
 	wildmon 68, CMUGETSU
 	wildmon 67, CCIRNO
-	wildmon 70, DITTO
+	wildmon 70, LYRICA
 	; nite
 	wildmon 65, CROBAT
 	wildmon 65, CRIKAKO
@@ -1229,7 +1229,7 @@
 	wildmon 67, TANGROWTH
 	wildmon 68, CMUGETSU
 	wildmon 67, CCIRNO
-	wildmon 70, DITTO
+	wildmon 70, LYRICA
 	end_grass_wildmons
 
 	def_grass_wildmons CERULEAN_CAVE_2F
@@ -1241,7 +1241,7 @@
 	wildmon 69, MAGNEZONE
 	wildmon 70, CYUKA
 	wildmon 69, CCIRNO
-	wildmon 72, DITTO
+	wildmon 72, LYRICA
 	; day
 	wildmon 67, CROBAT
 	wildmon 67, CRIKAKO
@@ -1249,7 +1249,7 @@
 	wildmon 69, MAGNEZONE
 	wildmon 70, CYUKA
 	wildmon 69, CCIRNO
-	wildmon 72, DITTO
+	wildmon 72, LYRICA
 	; nite
 	wildmon 67, CROBAT
 	wildmon 67, CRIKAKO
@@ -1257,7 +1257,7 @@
 	wildmon 69, MAGNEZONE
 	wildmon 70, ESHINKI
 	wildmon 69, CCIRNO
-	wildmon 72, DITTO
+	wildmon 72, LYRICA
 	end_grass_wildmons
 
 	def_grass_wildmons CERULEAN_CAVE_B1F
@@ -1269,7 +1269,7 @@
 	wildmon 71, ESARA
 	wildmon 72, CYUKA
 	wildmon 71, CSARIEL
-	wildmon 74, DITTO
+	wildmon 74, LYRICA
 	; day
 	wildmon 69, CRIKAKO
 	wildmon 69, MAGNEZONE
@@ -1277,7 +1277,7 @@
 	wildmon 71, ESARA
 	wildmon 72, CYUKA
 	wildmon 71, CSARIEL
-	wildmon 74, DITTO
+	wildmon 74, LYRICA
 	; nite
 	wildmon 69, CRIKAKO
 	wildmon 69, MAGNEZONE
@@ -1285,7 +1285,7 @@
 	wildmon 71, ESARA
 	wildmon 72, ESHINKI
 	wildmon 71, CSARIEL
-	wildmon 74, DITTO
+	wildmon 74, LYRICA
 	end_grass_wildmons
 
 	def_grass_wildmons DIM_CAVE_1F
@@ -1294,7 +1294,7 @@
 	wildmon 49, SARA, ALOLAN_FORM
 	wildmon 50, KOTOHIME
 	wildmon 50, EALICE
-	wildmon 51, ELECTABUZZ
+	wildmon 51, CLILYWHITE
 	wildmon 51, SARA, ALOLAN_FORM
 	wildmon 54, DUNSPARCE
 	wildmon 51, STEELIX
@@ -1302,7 +1302,7 @@
 	wildmon 49, SARA, ALOLAN_FORM
 	wildmon 50, KOTOHIME
 	wildmon 50, EALICE
-	wildmon 51, ELECTABUZZ
+	wildmon 51, CLILYWHITE
 	wildmon 51, SARA, ALOLAN_FORM
 	wildmon 54, DUNSPARCE
 	wildmon 51, STEELIX
@@ -1322,7 +1322,7 @@
 	wildmon 51, KOTOHIME
 	wildmon 50, SARA, ALOLAN_FORM
 	wildmon 52, EALICE
-	wildmon 52, ELECTABUZZ
+	wildmon 52, CLILYWHITE
 	wildmon 51, DUNSPARCE
 	wildmon 55, SARA, ALOLAN_FORM
 	wildmon 52, STEELIX
@@ -1330,7 +1330,7 @@
 	wildmon 51, KOTOHIME
 	wildmon 50, SARA, ALOLAN_FORM
 	wildmon 52, EALICE
-	wildmon 52, ELECTABUZZ
+	wildmon 52, CLILYWHITE
 	wildmon 51, DUNSPARCE
 	wildmon 55, SARA, ALOLAN_FORM
 	wildmon 52, STEELIX
@@ -1378,7 +1378,7 @@
 	wildmon 51, KOTOHIME
 	wildmon 50, SARA, ALOLAN_FORM
 	wildmon 52, EALICE
-	wildmon 52, ELECTABUZZ
+	wildmon 52, CLILYWHITE
 	wildmon 51, SARA, ALOLAN_FORM
 	wildmon 55, CCIRNO
 	wildmon 52, DUNSPARCE
@@ -1386,7 +1386,7 @@
 	wildmon 51, KOTOHIME
 	wildmon 50, SARA, ALOLAN_FORM
 	wildmon 52, EALICE
-	wildmon 52, ELECTABUZZ
+	wildmon 52, CLILYWHITE
 	wildmon 51, SARA, ALOLAN_FORM
 	wildmon 55, CCIRNO
 	wildmon 52, DUNSPARCE
@@ -1518,26 +1518,26 @@
 	wildmon 55, MAI
 	wildmon 58, EMAI
 	wildmon 55, CIRNO
-	wildmon 59, TAUROS
+	wildmon 59, CLILYBLACK
 	wildmon 59, ECIRNO
 	wildmon 60, REMILIA
-	wildmon 50, SCYTHER
+	wildmon 50, CHEN
 	; day
 	wildmon 55, MAI
 	wildmon 58, EMAI
 	wildmon 55, CIRNO
-	wildmon 59, TAUROS
+	wildmon 59, CLILYBLACK
 	wildmon 59, ECIRNO
 	wildmon 60, REMILIA
-	wildmon 50, SCYTHER
+	wildmon 50, CHEN
 	; nite
 	wildmon 55, MAI
 	wildmon 58, EMAI
 	wildmon 55, CIRNO
-	wildmon 59, TAUROS
+	wildmon 59, CLILYBLACK
 	wildmon 59, ECIRNO
 	wildmon 60, REMILIA
-	wildmon 50, SCYTHER
+	wildmon 50, CHEN
 	end_grass_wildmons
 
 	def_grass_wildmons SAFARI_ZONE_EAST
@@ -1546,7 +1546,7 @@
 	wildmon 55, EKANA
 	wildmon 57, KONGARA
 	wildmon 57, RIKA
-	wildmon 59, TAUROS, PALDEAN_FORM
+	wildmon 59, CLILYBLACK, PALDEAN_FORM
 	wildmon 60, ERIKA
 	wildmon 60, EKONGARA
 	wildmon 50, CRIKAKO
@@ -1554,7 +1554,7 @@
 	wildmon 55, EKANA
 	wildmon 57, KONGARA
 	wildmon 57, RIKA
-	wildmon 59, TAUROS, PALDEAN_FORM
+	wildmon 59, CLILYBLACK, PALDEAN_FORM
 	wildmon 60, ERIKA
 	wildmon 60, EKONGARA
 	wildmon 50, CRIKAKO
@@ -1562,7 +1562,7 @@
 	wildmon 55, EKANA
 	wildmon 57, KONGARA
 	wildmon 57, RIKA
-	wildmon 59, TAUROS, PALDEAN_FORM
+	wildmon 59, CLILYBLACK, PALDEAN_FORM
 	wildmon 60, ERIKA
 	wildmon 60, EKONGARA
 	wildmon 50, CRIKAKO
@@ -1574,24 +1574,24 @@
 	wildmon 55, RIKAKO
 	wildmon 58, ERIKAKO
 	wildmon 56, PATCHOULI
-	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
-	wildmon 59, PINSIR
+	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_FIRE_FORM
+	wildmon 59, ELILYWHITE
 	wildmon 60, EPATCHOULI
 	wildmon 60, CREMILIA
 	; day
 	wildmon 55, RIKAKO
 	wildmon 58, ERIKAKO
 	wildmon 56, PATCHOULI
-	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
-	wildmon 59, PINSIR
+	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_FIRE_FORM
+	wildmon 59, ELILYWHITE
 	wildmon 60, EPATCHOULI
 	wildmon 60, CREMILIA
 	; nite
 	wildmon 55, RIKAKO
 	wildmon 58, ERIKAKO
 	wildmon 56, PATCHOULI
-	wildmon 59, TAUROS, TAUROS_PALDEAN_FIRE_FORM
-	wildmon 59, PINSIR
+	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_FIRE_FORM
+	wildmon 59, ELILYWHITE
 	wildmon 60, EPATCHOULI
 	wildmon 60, EREMILIA
 	end_grass_wildmons
@@ -1602,7 +1602,7 @@
 	wildmon 55, RIKAKO
 	wildmon 58, KONGARA
 	wildmon 58, RIKA
-	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
+	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_WATER_FORM
 	wildmon 59, ERIKAKO
 	wildmon 60, EREMILIA
 	wildmon 60, MEILING
@@ -1610,7 +1610,7 @@
 	wildmon 55, RIKAKO
 	wildmon 58, KONGARA
 	wildmon 58, RIKA
-	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
+	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_WATER_FORM
 	wildmon 59, ERIKAKO
 	wildmon 60, EREMILIA
 	wildmon 60, MEILING
@@ -1618,7 +1618,7 @@
 	wildmon 55, RIKAKO
 	wildmon 58, RIKA
 	wildmon 58, KONGARA
-	wildmon 59, TAUROS, TAUROS_PALDEAN_WATER_FORM
+	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_WATER_FORM
 	wildmon 59, ERIKAKO
 	wildmon 60, EREMILIA
 	wildmon 60, MEILING
@@ -1826,7 +1826,7 @@
 	wildmon 60, KOTOHIME
 	wildmon 63, YUKI
 	wildmon 61, EYUMEMI
-	wildmon 62, JYNX
+	wildmon 62, ECHEN
 	wildmon 64, YUMEMI
 	wildmon 65, CYUKI
 	wildmon 66, YUKI
@@ -1834,7 +1834,7 @@
 	wildmon 60, KOTOHIME
 	wildmon 63, YUKI
 	wildmon 61, EYUMEMI
-	wildmon 62, JYNX
+	wildmon 62, ECHEN
 	wildmon 64, YUMEMI
 	wildmon 65, CYUKI
 	wildmon 66, YUKI
@@ -1842,7 +1842,7 @@
 	wildmon 60, KOTOHIME
 	wildmon 63, YUKI
 	wildmon 61, EYUMEMI
-	wildmon 62, JYNX
+	wildmon 62, ECHEN
 	wildmon 64, YUMEMI
 	wildmon 65, CYUKI
 	wildmon 66, YUKI
@@ -1884,24 +1884,24 @@
 	wildmon 57, CYUMEKO
 	wildmon 59, KURUMI
 	wildmon 59, LUIZE
-	wildmon 60, DITTO
-	wildmon 60, DITTO
+	wildmon 60, LYRICA
+	wildmon 60, LYRICA
 	; day
 	wildmon 58, CELIS
 	wildmon 56, CPATCHOULI
 	wildmon 57, CYUMEKO
 	wildmon 59, KURUMI
 	wildmon 59, LUIZE
-	wildmon 60, DITTO
-	wildmon 60, DITTO
+	wildmon 60, LYRICA
+	wildmon 60, LYRICA
 	; nite
 	wildmon 58, SHINKI
 	wildmon 56, CPATCHOULI
 	wildmon 57, CYUMEKO
-	wildmon 59, MAGMAR
+	wildmon 59, LILYWHITE
 	wildmon 59, HOUNDOOM
-	wildmon 60, DITTO
-	wildmon 60, DITTO
+	wildmon 60, LYRICA
+	wildmon 60, LYRICA
 	end_grass_wildmons
 
 	def_grass_wildmons CINNABAR_VOLCANO_1F
@@ -1912,16 +1912,16 @@
 	wildmon 57, SLUGMA
 	wildmon 59, MAGCARGO
 	wildmon 60, CCHIYURI, ALOLAN_FORM
-	wildmon 61, MAGMAR
-	wildmon 62, MAGMAR
+	wildmon 61, LILYWHITE
+	wildmon 62, LILYWHITE
 	; day
 	wildmon 56, EKOAKUMA
 	wildmon 58, SARA
 	wildmon 57, SLUGMA
 	wildmon 59, MAGCARGO
 	wildmon 60, CCHIYURI, ALOLAN_FORM
-	wildmon 61, MAGMAR
-	wildmon 62, MAGMAR
+	wildmon 61, LILYWHITE
+	wildmon 62, LILYWHITE
 	; nite
 	wildmon 56, EKOAKUMA
 	wildmon 58, CSHINKI
@@ -1929,7 +1929,7 @@
 	wildmon 59, SLUGMA
 	wildmon 60, MAGCARGO
 	wildmon 61, CCHIYURI, ALOLAN_FORM
-	wildmon 62, MAGMAR
+	wildmon 62, LILYWHITE
 	end_grass_wildmons
 
 	def_grass_wildmons CINNABAR_VOLCANO_B1F
@@ -1939,7 +1939,7 @@
 	wildmon 60, CPATCHOULI
 	wildmon 59, MAGCARGO
 	wildmon 61, CCHIYURI, ALOLAN_FORM
-	wildmon 62, MAGMAR
+	wildmon 62, LILYWHITE
 	wildmon 63, STEELIX
 	wildmon 64, STEELIX
 	; day
@@ -1947,7 +1947,7 @@
 	wildmon 60, CPATCHOULI
 	wildmon 59, MAGCARGO
 	wildmon 61, CCHIYURI, ALOLAN_FORM
-	wildmon 62, MAGMAR
+	wildmon 62, LILYWHITE
 	wildmon 63, STEELIX
 	wildmon 64, STEELIX
 	; nite
@@ -1956,7 +1956,7 @@
 	wildmon 59, CPATCHOULI
 	wildmon 61, MAGCARGO
 	wildmon 62, CCHIYURI, ALOLAN_FORM
-	wildmon 63, MAGMAR
+	wildmon 63, LILYWHITE
 	wildmon 64, STEELIX
 	end_grass_wildmons
 
@@ -1967,7 +1967,7 @@
 	wildmon 62, CPATCHOULI
 	wildmon 61, SLUGMA
 	wildmon 63, CHIYURI, ALOLAN_FORM
-	wildmon 64, MAGMAR
+	wildmon 64, LILYWHITE
 	wildmon 65, STEELIX
 	wildmon 66, STEELIX
 	; day
@@ -1975,14 +1975,14 @@
 	wildmon 62, CPATCHOULI
 	wildmon 61, SLUGMA
 	wildmon 63, CHIYURI, ALOLAN_FORM
-	wildmon 64, MAGMAR
+	wildmon 64, LILYWHITE
 	wildmon 65, STEELIX
 	wildmon 66, STEELIX
 	; nite
 	wildmon 60, MAGCARGO
 	wildmon 62, CPATCHOULI
 	wildmon 61, CHIYURI, ALOLAN_FORM
-	wildmon 63, MAGMAR
+	wildmon 63, LILYWHITE
 	wildmon 64, STEELIX
 	wildmon 65, ESHINKI
 	wildmon 66, ESHINKI

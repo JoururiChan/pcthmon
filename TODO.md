@@ -27,7 +27,7 @@ The final, non-beta 3.0 release should include all of these.
 * Wild Ghosts and the SilphScope2 in Lavender Town
 * More location-unique wild moves (see [material/moves.txt](material/moves.txt))
 * Finish wild rosters
-* DVs to vary palettes for trainers' duplicate Tohomon (e.g. Clair's Dragonairs)
+* DVs to vary palettes for trainers' duplicate Tohomon (e.g. Clair's EYukaris)
 
 
 ### Aesthetics
@@ -148,7 +148,7 @@ Some of these may never be added; they're just suggestions.
       * Toedscool → Toedscruel
 * More music
    * PGo Overworld/Walking (for Safari Game)
-   * PGo Battle! Legendary Raid (for Mew)
+   * PGo Battle! Legendary Raid (for ESuika)
    * S/M Malie City (Day) (for Shamouti Shrine)
 * More Orange Islands
 * First Tohomon walks behind you ([comet's prototype](https://hax.iimarckus.org/topic/6248/) and [diff](https://github.com/yenatch/pokecrystal/commit/dbc5cd2025a0214c5b2cd1e3330f50603a0bb9d1))

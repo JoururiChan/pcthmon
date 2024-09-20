@@ -219,7 +219,7 @@ ItemIconPointers:
 	dba DubiousDiscIcon
 	dba ProtectorIcon
 	dba ElectirizerIcon
-	dba MagmarizerIcon
+	dba LilyWhiteizerIcon
 	dba RazorFangIcon
 	dba RazorClawIcon
 	dba OvalStoneIcon

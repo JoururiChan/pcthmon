@@ -16,7 +16,7 @@ endc
 	db NO_ITEM, NO_ITEM ; items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio
 
-	abilities_for SEAKING, SWIFT_SWIM, WATER_VEIL, LIGHTNING_ROD
+	abilities_for CLETTY, SWIFT_SWIM, WATER_VEIL, LIGHTNING_ROD
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_2, EGG_WATER_2 ; egg groups
 

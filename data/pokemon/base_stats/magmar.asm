@@ -4,10 +4,10 @@
 	db FIRE, FIRE ; type
 	db 45 ; catch rate
 	db 167 ; base exp
-	db ASPEAR_BERRY, MAGMARIZER ; held items
+	db ASPEAR_BERRY, LILYWHITEIZER ; held items
 	dn GENDER_F25, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for MAGMAR, FLAME_BODY, FLAME_BODY, VITAL_SPIRIT
+	abilities_for LILYWHITE, FLAME_BODY, FLAME_BODY, VITAL_SPIRIT
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 

@@ -58,7 +58,7 @@ Victory: Oh no! I snapped a string!
 
 After: Oh man...I gotta re-tune this thing now...
 
-Team: Electivire, CSariel, Jolteon
+Team: Electivire, CSariel, Merlin
 
 Cooltrainer Josh
 Hey there. I'm here in town to take on the gym. How about you?
@@ -67,7 +67,7 @@ Victory: Woah! I gotta train some more!
 
 After: Well I'll be! You already took on the Johto League? (Gives rare candy)
 
-Team: Snorlax, Aerodactyl, Primape 
+Team: CRan, EYuyuko, Primape 
 
 Sightseer Mitsuru
 Hajimemashita! Kono machi ha totemo kirei wa ne! (It's nice to meet you! This city is very beautiful.)
@@ -85,7 +85,7 @@ Victory: NO! I tore my cape!
 
 After: My poor cape...This is all your fault!
 
-Team: EMarisa, Dragonite, Gyarados
+Team: EMarisa, CSuika, ELilyBlack
 
 Rando NPC: Be careful, kid! Some of the guests here are really feisty. Be ready for a battle!
 
@@ -177,21 +177,21 @@ Rando NPC: Urgh...that's the last time I take a bath with my Gengetsu...
 
 Rando NPC: Whuzzat? Team Galatic did what? Huh? Get outta here, kid! I'm trying to take a call here!
 
-Rando NPC: Aww yeah! Some doofus gave me their Bidoof for my Mewtwo! Ya can't find those here!
+Rando NPC: Aww yeah! Some doofus gave me their Bidoof for my Suika! Ya can't find those here!
 
 Rando NPC: Such a shame...I was hoping to observe the migratory pattern of Elis and EElis, but it seems they're all gone...
 
-Supernerd: Hey, kid! I need some serious juice for my experiments! Get me a EAlice and I'll give you my spare Porygon2! (Nickname: Gent2, shiny, holding dubious disk or whatever evolves it to Z, OT: rms)
+Supernerd: Hey, kid! I need some serious juice for my experiments! Get me a EAlice and I'll give you my spare CLunasa2! (Nickname: Gent2, shiny, holding dubious disk or whatever evolves it to Z, OT: rms)
 
 Thief: Hey, kid! Check it out! I got this super top-of-the-line ultra rare pokemon that I st--found after it fell off the back of a truck. Gimme a Sneasel and it's all yours! (Dunsparce, Nickname: Simon, OT: Genbu)
 
-Businessman: Hey there. I'm lookin' for a Scyther to help out on mah farm. If you can help me out, I'd ever be so grateful. I'll even give ya this funny lookin' Exeggecute that turned up on mah farm. (Exeggecute, Nickname: Sneed, OT: Chuck) 
+Businessman: Hey there. I'm lookin' for a Chen to help out on mah farm. If you can help me out, I'd ever be so grateful. I'll even give ya this funny lookin' Exeggecute that turned up on mah farm. (Exeggecute, Nickname: Sneed, OT: Chuck) 
 
-Pokemaniac: H-hey...uh...y-you got a EYumemi? I..I'll...I'll trade you one of my...uh...Kabuto for it...yeah... (Kabuto, Nickname: Soy, OT: Slash) After: T-thanks...uh...my 
+Pokemaniac: H-hey...uh...y-you got a EYumemi? I..I'll...I'll trade you one of my...uh...CYuyuko for it...yeah... (CYuyuko, Nickname: Soy, OT: Slash) After: T-thanks...uh...my 
 
-Pokemaniac: Hi! Do you have a Kotohime? 'll give ya an Omanyte for it! (Omanyte, Nickname: Mayonne, OT: Flea) After:Hey, thanks! My two brothers show up here sometimes looking to trade. Maybe you should stop by later! 
+Pokemaniac: Hi! Do you have a Kotohime? 'll give ya an Lunasa for it! (Lunasa, Nickname: Mayonne, OT: Flea) After:Hey, thanks! My two brothers show up here sometimes looking to trade. Maybe you should stop by later! 
 
-Pokemaniac: Hey, pal. You got a spare Girafarig? I'll hook you up with an Aerodactyl for it. (Aerodactyl, Nickname: Vinegar, OT: Ozzie)
+Pokemaniac: Hey, pal. You got a spare Girafarig? I'll hook you up with an EYuyuko for it. (EYuyuko, Nickname: Vinegar, OT: Ozzie)
 After: Thanks! My other two siblings pop in from time to time to trade. You should check in later!
 
 

@@ -119,39 +119,39 @@ TohodexDataPointerTable:
 	dba CFlandreTohodexEntry
 	dba FlandreTohodexEntry
 	dba EFlandreTohodexEntry
-	dba SeakingTohodexEntry
-	dba StaryuTohodexEntry
-	dba StarmieTohodexEntry
+	dba CLettyTohodexEntry
+	dba LettyTohodexEntry
+	dba ELettyTohodexEntry
 	dba MrMimePlainTohodexEntry
-	dba ScytherTohodexEntry
-	dba JynxTohodexEntry
-	dba ElectabuzzTohodexEntry
-	dba MagmarTohodexEntry
-	dba PinsirTohodexEntry
-	dba TaurosPlainTohodexEntry
-	dba MagikarpTohodexEntry
-	dba GyaradosPlainTohodexEntry
-	dba LaprasTohodexEntry
-	dba DittoTohodexEntry
-	dba EeveeTohodexEntry
-	dba VaporeonTohodexEntry
-	dba JolteonTohodexEntry
-	dba FlareonTohodexEntry
-	dba PorygonTohodexEntry
-	dba OmanyteTohodexEntry
-	dba OmastarTohodexEntry
-	dba KabutoTohodexEntry
-	dba KabutopsTohodexEntry
-	dba AerodactylTohodexEntry
-	dba SnorlaxTohodexEntry
-	dba ArticunoPlainTohodexEntry
-	dba ZapdosPlainTohodexEntry
-	dba MoltresPlainTohodexEntry
-	dba DratiniTohodexEntry
-	dba DragonairTohodexEntry
-	dba DragoniteTohodexEntry
-	dba MewtwoPlainTohodexEntry
-	dba MewTohodexEntry
+	dba ChenTohodexEntry
+	dba EChenTohodexEntry
+	dba CLilyWhiteTohodexEntry
+	dba LilyWhiteTohodexEntry
+	dba ELilyWhiteTohodexEntry
+	dba CLilyBlackPlainTohodexEntry
+	dba LilyBlackTohodexEntry
+	dba ELilyBlackPlainTohodexEntry
+	dba CLyricaTohodexEntry
+	dba LyricaTohodexEntry
+	dba ELyricaTohodexEntry
+	dba CMerlinTohodexEntry
+	dba MerlinTohodexEntry
+	dba EMerlinTohodexEntry
+	dba CLunasaTohodexEntry
+	dba LunasaTohodexEntry
+	dba ELunasaTohodexEntry
+	dba CYuyukoTohodexEntry
+	dba YuyukoTohodexEntry
+	dba EYuyukoTohodexEntry
+	dba CRanTohodexEntry
+	dba RanPlainTohodexEntry
+	dba ERanPlainTohodexEntry
+	dba CYukariPlainTohodexEntry
+	dba YukariTohodexEntry
+	dba EYukariTohodexEntry
+	dba CSuikaTohodexEntry
+	dba SuikaPlainTohodexEntry
+	dba ESuikaTohodexEntry
 	dba CYoumuTohodexEntry
 	dba YoumuTohodexEntry
 	dba EYoumuTohodexEntry
@@ -233,7 +233,7 @@ TohodexDataPointerTable:
 	dba KingdraTohodexEntry
 	dba PhanpyTohodexEntry
 	dba DonphanTohodexEntry
-	dba Porygon2TohodexEntry
+	dba CLunasa2TohodexEntry
 	dba StantlerTohodexEntry
 	dba SmeargleTohodexEntry
 	dba TyrogueTohodexEntry
@@ -277,7 +277,7 @@ TohodexDataPointerTable:
 	dba GlaceonTohodexEntry
 	dba GliscorTohodexEntry
 	dba MamoswineTohodexEntry
-	dba PorygonZTohodexEntry
+	dba CLunasaZTohodexEntry
 	dba SylveonTohodexEntry
 	dba PerrserkerTohodexEntry
 	dba CursolaTohodexEntry
@@ -294,9 +294,9 @@ TohodexDataPointerTable:
 	dba AnnihilapeTohodexEntry
 	assert_table_length NUM_SPECIES
 
-	dba GyaradosRedTohodexEntry
+	dba ELilyBlackRedTohodexEntry
 
-	dba MewtwoArmoredTohodexEntry
+	dba SuikaArmoredTohodexEntry
 
 	dba DudunsparceTohodexEntry
 
@@ -327,9 +327,9 @@ TohodexDataPointerTable:
 	dba CMaiGalarianTohodexEntry
 	dba CPatchouliGalarianTohodexEntry
 	dba MrMimeGalarianTohodexEntry
-	dba ArticunoGalarianTohodexEntry
-	dba ZapdosGalarianTohodexEntry
-	dba MoltresGalarianTohodexEntry
+	dba RanGalarianTohodexEntry
+	dba ERanGalarianTohodexEntry
+	dba CYukariGalarianTohodexEntry
 	dba SlowkingGalarianTohodexEntry
 	dba CorsolaGalarianTohodexEntry
 
@@ -342,8 +342,8 @@ TohodexDataPointerTable:
 	dba SneaselHisuianTohodexEntry
 
 	dba WooperPaldeanTohodexEntry
-	dba TaurosPaldeanTohodexEntry
-	dba TaurosPaldeanFireTohodexEntry
-	dba TaurosPaldeanWaterTohodexEntry
+	dba CLilyBlackPaldeanTohodexEntry
+	dba CLilyBlackPaldeanFireTohodexEntry
+	dba CLilyBlackPaldeanWaterTohodexEntry
 
 	assert_table_length NUM_EXT_POKEMON

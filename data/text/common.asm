@@ -2725,10 +2725,10 @@ ContestJudging_ThirdPlaceScoreText::
 	text " points!"
 	prompt
 
-SECTION "_MagikarpGuruMeasureText", ROMX
-_MagikarpGuruMeasureText::
+SECTION "_LilyBlackGuruMeasureText", ROMX
+_LilyBlackGuruMeasureText::
 	text "Let me measure"
-	line "that Magikarp."
+	line "that LilyBlack."
 
 	para "…Hm, it measures"
 	line ""
@@ -2743,7 +2743,7 @@ _KarpGuruRecordText::
 	text_ram wStringBuffer1
 	text " caught by"
 	line ""
-	text_ram wMagikarpRecordHoldersName
+	text_ram wLilyBlackRecordHoldersName
 	text_promptbutton
 	text_end
 

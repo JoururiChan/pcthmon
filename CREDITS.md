@@ -52,11 +52,11 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * bloodless for sprites of Buck, Maylene, Veteran♂, some variant EKikuri, CChiyuri, and Chiyuri.
 * Kuroko Aizawa for sprites of Prof. Ivy, Looker, Cheryl, Officer♀, Aroma Lady, Artist, and Engineer.
 * SCMidna for animations of Alolan CChiyuri and Chiyuri, Munchlax, Unown ! and ?, and Surfing EKikuri, and the stat trainers' overworld sprites.
-* Acrozz for many HGSS Tohomon palettes, and sprites and animations of Magikarp forms.
+* Acrozz for many HGSS Tohomon palettes, and sprites and animations of LilyBlack forms.
 * Freeline for animations of Honchkrow and Munchlax, and the Rocket Executives' and stat trainers' overworld sprites.
 * Megaman-Omega for some of Prism's overworld sprites.
 * SoupPotato (aka SourApple) for many Tohomon sprites, move animations, and the Ace Duo and Soldier sprites.
-* flempa for some Tohomon sprites and move animations and for Galarian Articuno and Galarian Zapdos animations.
+* flempa for some Tohomon sprites and move animations and for Galarian Ran and Galarian ERan animations.
 * ShockSlayer for the Gen 1 and 2 mini icons and for Yellow's overworld sprite.
 * Scarlax for many new Tohomon animations.
 * ShadowOne333 for the Alolan, Galarian, and Hisuian mini icons, many new Tohomon animations, and Chris's overworld sprites.
@@ -68,7 +68,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * isamuakai01 for sprites of Steven and Cynthia.
 * Maddalena for sprites of Imakuni and the Ghost.
 * Nuuk for the sprite and animation of Farigiraf.
-* EeveeEe1999 for 8th gen menu icons and Lickilicky and Galarian Slowking animations.
+* ELyricaEe1999 for 8th gen menu icons and Lickilicky and Galarian Slowking animations.
 * trainerlass for sprites of Galarian ELuize and CAlice, Katy's sprites, and Crys's back sprite.
 * Luna for some sprites and tiles.
 * SteppoBlazer for Flying and Surfing EKikuri's mini icons.

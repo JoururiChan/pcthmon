@@ -488,17 +488,17 @@ CMeiraWalkSpriteGFX:: INCBIN "gfx/sprites/cmeira.2bpp.lz"
 SECTION "CMaiSpriteGFX", ROMX
 CMaiSpriteGFX:: INCBIN "gfx/sprites/cmai.2bpp.lz"
 
-SECTION "LaprasSpriteGFX", ROMX
-LaprasSpriteGFX:: INCBIN "gfx/sprites/lapras.2bpp.lz"
+SECTION "CLyricaSpriteGFX", ROMX
+CLyricaSpriteGFX:: INCBIN "gfx/sprites/lapras.2bpp.lz"
 
-SECTION "EeveeSpriteGFX", ROMX
-EeveeSpriteGFX:: INCBIN "gfx/sprites/eevee.2bpp.lz"
+SECTION "ELyricaSpriteGFX", ROMX
+ELyricaSpriteGFX:: INCBIN "gfx/sprites/eevee.2bpp.lz"
 
-SECTION "DragoniteSpriteGFX", ROMX
-DragoniteSpriteGFX:: INCBIN "gfx/sprites/dragonite.2bpp.lz"
+SECTION "CSuikaSpriteGFX", ROMX
+CSuikaSpriteGFX:: INCBIN "gfx/sprites/dragonite.2bpp.lz"
 
-SECTION "MewSpriteGFX", ROMX
-MewSpriteGFX:: INCBIN "gfx/sprites/mew.2bpp.lz"
+SECTION "ESuikaSpriteGFX", ROMX
+ESuikaSpriteGFX:: INCBIN "gfx/sprites/mew.2bpp.lz"
 
 SECTION "CelebiSpriteGFX", ROMX
 CelebiSpriteGFX:: INCBIN "gfx/sprites/celebi.2bpp.lz"
@@ -506,20 +506,20 @@ CelebiSpriteGFX:: INCBIN "gfx/sprites/celebi.2bpp.lz"
 SECTION "SurfingEKikuriSpriteGFX", ROMX
 SurfingEKikuriSpriteGFX:: INCBIN "gfx/sprites/surf_ekikuri.2bpp.lz"
 
-SECTION "ArmoredMewtwoSpriteGFX", ROMX
-ArmoredMewtwoSpriteGFX:: INCBIN "gfx/sprites/armored_mewtwo.2bpp.lz"
+SECTION "ArmoredSuikaSpriteGFX", ROMX
+ArmoredSuikaSpriteGFX:: INCBIN "gfx/sprites/armored_mewtwo.2bpp.lz"
 
-SECTION "BigSnorlaxSpriteGFX", ROMX
-BigSnorlaxSpriteGFX:: INCBIN "gfx/sprites/big_snorlax.2bpp.lz"
+SECTION "BigCRanSpriteGFX", ROMX
+BigCRanSpriteGFX:: INCBIN "gfx/sprites/big_snorlax.2bpp.lz"
 
-SECTION "BigLaprasSpriteGFX", ROMX
-BigLaprasSpriteGFX:: INCBIN "gfx/sprites/big_lapras.2bpp.lz"
+SECTION "BigCLyricaSpriteGFX", ROMX
+BigCLyricaSpriteGFX:: INCBIN "gfx/sprites/big_lapras.2bpp.lz"
 
 SECTION "BigCRumiaSpriteGFX", ROMX
 BigCRumiaSpriteGFX:: INCBIN "gfx/sprites/big_crumia.2bpp.lz"
 
-SECTION "BigGyaradosSpriteGFX", ROMX
-BigGyaradosSpriteGFX:: INCBIN "gfx/sprites/big_gyarados.2bpp.lz"
+SECTION "BigELilyBlackSpriteGFX", ROMX
+BigELilyBlackSpriteGFX:: INCBIN "gfx/sprites/big_gyarados.2bpp.lz"
 
 SECTION "WakasagitailSpriteGFX", ROMX
 WakasagitailSpriteGFX:: INCBIN "gfx/sprites/eluizetail.2bpp.lz"

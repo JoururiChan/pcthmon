@@ -45,7 +45,7 @@
 	def_water_wildmons NAVEL_ROCK_OUTSIDE
 	db 6 percent ; encounter rate
 	wildmon 80, EGENGETSU
-	wildmon 80, STARMIE
+	wildmon 80, ELETTY
 	wildmon 80, LANTURN
 	end_water_wildmons
 

@@ -125,39 +125,39 @@ PokemonBodyData:
 	body_data   4,  500, MULTIWINGS,    RED   ; CFLANDRE
 	body_data  12,   800, MULTIWINGS,    RED   ; FLANDRE
 	body_data   6,  1200, MULTIWINGS,         RED    ; EFLANDRE
-	body_data  13,  390, FINS,         RED    ; SEAKING
-	body_data   8,  345, HEAD_BASE,    BROWN  ; STARYU
-	body_data  11,  800, HEAD_BASE,    PURPLE ; STARMIE
-	body_data  13,  545, BIPEDAL,      PINK   ; MR__MIME
-	body_data  15,  560, MULTIWINGS,   GREEN  ; SCYTHER
-	body_data  14,  406, BIPEDAL,      RED    ; JYNX
-	body_data  11,  300, BIPEDAL_TAIL, YELLOW ; ELECTABUZZ
-	body_data  13,  445, BIPEDAL_TAIL, RED    ; MAGMAR
-	body_data  15,  550, BIPEDAL,      BROWN  ; PINSIR
-	body_data  14,  884, QUADRUPED,    BROWN  ; TAUROS
-	body_data   9,  100, FINS,         RED    ; MAGIKARP
-	body_data  65, 2350, SERPENTINE,   BLUE   ; GYARADOS
-	body_data  25, 2200, FINS,         BLUE   ; LAPRAS
-	body_data   3,   40, HEAD,         PURPLE ; DITTO
-	body_data   3,   65, QUADRUPED,    BROWN  ; EEVEE
-	body_data  10,  290, QUADRUPED,    BLUE   ; VAPOREON
-	body_data   8,  245, QUADRUPED,    YELLOW ; JOLTEON
-	body_data   9,  250, QUADRUPED,    RED    ; FLAREON
-	body_data   8,  365, HEAD_LEGS,    PINK   ; PORYGON
-	body_data   4,   75, TENTACLES,    BLUE   ; OMANYTE
-	body_data  10,  350, TENTACLES,    BLUE   ; OMASTAR
-	body_data   5,  115, INSECTOID,    BROWN  ; KABUTO
-	body_data  13,  405, BIPEDAL_TAIL, BROWN  ; KABUTOPS
-	body_data  18,  590, WINGS,        PURPLE ; AERODACTYL
-	body_data  21, 4600, BIPEDAL,      BLACK  ; SNORLAX
-	body_data  17,  554, WINGS,        BLUE   ; ARTICUNO
-	body_data  16,  526, WINGS,        YELLOW ; ZAPDOS
-	body_data  20,  600, WINGS,        YELLOW ; MOLTRES
-	body_data  18,   33, SERPENTINE,   BLUE   ; DRATINI
-	body_data  40,  165, SERPENTINE,   BLUE   ; DRAGONAIR
-	body_data  22, 2100, BIPEDAL_TAIL, BROWN  ; DRAGONITE
-	body_data  20, 1220, BIPEDAL_TAIL, PURPLE ; MEWTWO
-	body_data   4,   40, BIPEDAL_TAIL, PINK   ; MEW
+	body_data  13,  390, FINS,         RED    ; CLETTY
+	body_data   8,  345, HEAD_BASE,    BROWN  ; LETTY
+	body_data  11,  800, HEAD_BASE,    PURPLE ; ELETTY
+	body_data  13,  545, BIPEDAL,      PINK   ; CCHEN
+	body_data  15,  560, MULTIWINGS,   GREEN  ; CHEN
+	body_data  14,  406, BIPEDAL,      RED    ; ECHEN
+	body_data  11,  300, BIPEDAL_TAIL, YELLOW ; CLILYWHITE
+	body_data  13,  445, BIPEDAL_TAIL, RED    ; LILYWHITE
+	body_data  15,  550, BIPEDAL,      BROWN  ; ELILYWHITE
+	body_data  14,  884, QUADRUPED,    BROWN  ; CLILYBLACK
+	body_data   9,  100, FINS,         RED    ; LILYBLACK
+	body_data  65, 2350, SERPENTINE,   BLUE   ; ELILYBLACK
+	body_data  25, 2200, FINS,         BLUE   ; CLYRICA
+	body_data   3,   40, HEAD,         PURPLE ; LYRICA
+	body_data   3,   65, QUADRUPED,    BROWN  ; ELYRICA
+	body_data  10,  290, QUADRUPED,    BLUE   ; CMERLIN
+	body_data   8,  245, QUADRUPED,    YELLOW ; MERLIN
+	body_data   9,  250, QUADRUPED,    RED    ; EMERLIN
+	body_data   8,  365, HEAD_LEGS,    PINK   ; CLUNASA
+	body_data   4,   75, TENTACLES,    BLUE   ; LUNASA
+	body_data  10,  350, TENTACLES,    BLUE   ; ELUNASA
+	body_data   5,  115, INSECTOID,    BROWN  ; CYUYUKO
+	body_data  13,  405, BIPEDAL_TAIL, BROWN  ; YUYUKO
+	body_data  18,  590, WINGS,        PURPLE ; EYUYUKO
+	body_data  21, 4600, BIPEDAL,      BLACK  ; CRAN
+	body_data  17,  554, WINGS,        BLUE   ; RAN
+	body_data  16,  526, WINGS,        YELLOW ; ERAN
+	body_data  20,  600, WINGS,        YELLOW ; CYUKARI
+	body_data  18,   33, SERPENTINE,   BLUE   ; YUKARI
+	body_data  40,  165, SERPENTINE,   BLUE   ; EYUKARI
+	body_data  22, 2100, BIPEDAL_TAIL, BROWN  ; CSUIKA
+	body_data  20, 1220, BIPEDAL_TAIL, PURPLE ; SUIKA
+	body_data   4,   40, BIPEDAL_TAIL, PINK   ; ESUIKA
 	body_data   9,   64, MULTIBODY,    GREEN  ; CYOUMU
 	body_data  12,  158, MULTIBODY,    GREEN  ; YOUMU
 	body_data  18, 1005, MULTIBODY,    GREEN  ; EYOUMU
@@ -239,7 +239,7 @@ PokemonBodyData:
 	body_data  18, 1520, HEAD_BASE,    BLUE   ; KINGDRA
 	body_data   5,  335, QUADRUPED,    BLUE   ; PHANPY
 	body_data  11, 1200, QUADRUPED,    GRAY   ; DONPHAN
-	body_data   6,  325, HEAD_LEGS,    RED    ; PORYGON2
+	body_data   6,  325, HEAD_LEGS,    RED    ; CLUNASA2
 	body_data  14,  712, QUADRUPED,    BROWN  ; STANTLER
 	body_data  12,  580, BIPEDAL_TAIL, WHITE  ; SMEARGLE
 	body_data   7,  210, BIPEDAL,      PURPLE ; TYROGUE
@@ -283,7 +283,7 @@ PokemonBodyData:
 	body_data   8,  259, QUADRUPED,    BLUE   ; GLACEON
 	body_data  20,  425, WINGS,        PURPLE ; GLISCOR
 	body_data  25, 2910, QUADRUPED,    BROWN  ; MAMOSWINE
-	body_data   9,  340, HEAD_ARMS,    RED    ; PORYGON_Z
+	body_data   9,  340, HEAD_ARMS,    RED    ; CLUNASA_Z
 	body_data  10,  235, QUADRUPED,    PINK   ; SYLVEON
 	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; PERRSERKER
 	body_data  10,    4, HEAD_ARMS,    WHITE  ; CURSOLA
@@ -300,9 +300,9 @@ PokemonBodyData:
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	assert_table_length NUM_SPECIES
 
-	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)
+	body_data  65, 2350, SERPENTINE,   RED    ; ELILYBLACK (ELILYBLACK_RED_FORM)
 
-	body_data  22, 1370, BIPEDAL_TAIL, GRAY   ; MEWTWO (MEWTWO_ARMORED_FORM)
+	body_data  22, 1370, BIPEDAL_TAIL, GRAY   ; SUIKA (SUIKA_ARMORED_FORM)
 
 	body_data  45,  474, SERPENTINE,   YELLOW ; DUDUNSPARCE (DUDUNSPARCE_THREE_SEGMENT_FORM)
 
@@ -332,10 +332,10 @@ PokemonBodyData:
 	body_data  16,  705, BIPEDAL_TAIL, PINK   ; CALICE (GALARIAN_FORM)
 	body_data   8,  420, WINGS,        BROWN  ; CMAI (GALARIAN_FORM)
 	body_data  30,  160, MULTIBODY,    GRAY   ; CPATCHOULI (GALARIAN_FORM)
-	body_data  14,  568, BIPEDAL,      WHITE  ; MR__MIME (GALARIAN_FORM)
-	body_data  17,  509, WINGS,        PURPLE ; ARTICUNO (GALARIAN_FORM)
-	body_data  16,  582, WINGS,        YELLOW ; ZAPDOS (GALARIAN_FORM)
-	body_data  20,  660, WINGS,        RED    ; MOLTRES (GALARIAN_FORM)
+	body_data  14,  568, BIPEDAL,      WHITE  ; CCHEN (GALARIAN_FORM)
+	body_data  17,  509, WINGS,        PURPLE ; RAN (GALARIAN_FORM)
+	body_data  16,  582, WINGS,        YELLOW ; ERAN (GALARIAN_FORM)
+	body_data  20,  660, WINGS,        RED    ; CYUKARI (GALARIAN_FORM)
 	body_data  18,  795, BIPEDAL_TAIL, PINK   ; SLOWKING (GALARIAN_FORM)
 	body_data   6,    5, INSECTOID,    WHITE  ; CORSOLA (GALARIAN_FORM)
 
@@ -348,8 +348,8 @@ PokemonBodyData:
 	body_data   9,  270, BIPEDAL_TAIL, GRAY   ; SNEASEL (HISUIAN_FORM)
 
 	body_data   4,  110, HEAD_LEGS,    BROWN  ; WOOPER (PALDEAN_FORM)
-	body_data  14, 1150, QUADRUPED,    BLACK  ; TAUROS (PALDEAN_FORM)
-	body_data  14,  850, QUADRUPED,    BLACK  ; TAUROS (TAUROS_PALDEAN_FIRE_FORM)
-	body_data  14, 1100, QUADRUPED,    BLACK  ; TAUROS (TAUROS_PALDEAN_WATER_FORM)
+	body_data  14, 1150, QUADRUPED,    BLACK  ; CLILYBLACK (PALDEAN_FORM)
+	body_data  14,  850, QUADRUPED,    BLACK  ; CLILYBLACK (CLILYBLACK_PALDEAN_FIRE_FORM)
+	body_data  14, 1100, QUADRUPED,    BLACK  ; CLILYBLACK (CLILYBLACK_PALDEAN_WATER_FORM)
 
 	assert_table_length NUM_EXT_POKEMON

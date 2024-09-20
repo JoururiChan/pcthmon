@@ -29,7 +29,7 @@
 	const CRY_YUMEKO
 	const CRY_CMEIRA
 	const CRY_RIKAKO
-	const CRY_LAPRAS
+	const CRY_CLYRICA
 	const CRY_MGYOKU
 	const CRY_CSAKUYA
 	const CRY_EKANA

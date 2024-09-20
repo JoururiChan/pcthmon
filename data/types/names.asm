@@ -39,7 +39,7 @@ EggGroupNames:
 	dr Mineral
 	dr Amorphous
 	dr Water2
-	dr Ditto
+	dr Lyrica
 	dr Dragon
 	dr Undiscovered
 	assert_table_length NUM_EGG_GROUPS
@@ -69,7 +69,7 @@ Field:        db "Field@"
 Humanlike:    db "Human-Like@"
 Mineral:      db "Mineral@"
 Amorphous:    db "Amorphous@"
-Ditto:        db "Ditto@"
+Lyrica:        db "Lyrica@"
 Undiscovered: db "Undiscovered@"
 if !DEF(FAITHFUL)
 Water1:       db "Amphibian@"

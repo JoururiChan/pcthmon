@@ -5,7 +5,7 @@ Route10North_MapScriptHeader:
 
 	def_callbacks
 	callback MAPCALLBACK_NEWMAP, Route10NorthFlyPoint
-	callback MAPCALLBACK_OBJECTS, Route10NorthZapdos
+	callback MAPCALLBACK_OBJECTS, Route10NorthERan
 
 	def_warp_events
 	warp_event 11, 35, ROUTE_10_POKECENTER_1F, 1
@@ -21,9 +21,9 @@ Route10North_MapScriptHeader:
 	bg_event  7, 35, BGEVENT_JUMPTEXT, RockTunnelSignText
 
 	def_object_events
-	object_event 13, 44, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ZAPDOS, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, PLAIN_FORM, Route10Zapdos, EVENT_ROUTE_10_ZAPDOS
+	object_event 13, 44, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ERAN, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, PLAIN_FORM, Route10ERan, EVENT_ROUTE_10_ERAN
 	object_event  6, 52, SPRITE_LAWRENCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LAWRENCE_ROUTE_10
-	object_event 14, 52, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ZAPDOS, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, PLAIN_FORM, ObjectEvent, EVENT_LAWRENCES_ZAPDOS_ROUTE_10
+	object_event 14, 52, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ERAN, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, PLAIN_FORM, ObjectEvent, EVENT_LAWRENCES_ERAN_ROUTE_10
 	object_event 12, 52, SPRITE_CHRIS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CHRIS_IN_NAVEL_ROCK
 	object_event 12, 52, SPRITE_KRIS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_KRIS_IN_NAVEL_ROCK
 	object_event 12, 52, SPRITE_CRYS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CRYS_IN_NAVEL_ROCK
@@ -37,9 +37,9 @@ Route10North_MapScriptHeader:
 ; player sprite, whatever gender they are.
 
 	object_const_def
-	const ROUTE10_ZAPDOS
+	const ROUTE10_ERAN
 	const ROUTE10_LAWRENCE
-	const ROUTE10_LAWRENCES_ZAPDOS
+	const ROUTE10_LAWRENCES_ERAN
 	const ROUTE10_CHRIS
 	const ROUTE10_KRIS
 	const ROUTE10_CRYS
@@ -53,16 +53,16 @@ Route10NorthFlyPoint:
 	setflag ENGINE_FLYPOINT_ROCK_TUNNEL
 	endcallback
 
-Route10NorthZapdos:
+Route10NorthERan:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iffalsefwd .NoAppear
-	checkevent EVENT_ZAPDOS_GONE
+	checkevent EVENT_ERAN_GONE
 	iffalsefwd .Appear
 .NoAppear
-	disappear ROUTE10_ZAPDOS
+	disappear ROUTE10_ERAN
 	endcallback
 .Appear:
-	appear ROUTE10_ZAPDOS
+	appear ROUTE10_ERAN
 	endcallback
 
 Route10NorthLawrenceEncounter1Script:
@@ -75,7 +75,7 @@ Route10NorthLawrenceEncounter1Script:
 	playmusic MUSIC_ZINNIA_ENCOUNTER_ORAS
 	showtext Route10NorthLawrenceGreetingText
 	follow ROUTE10_LAWRENCE, PLAYER
-	applymovement ROUTE10_LAWRENCE, Route10NorthMovementData_LawrenceShowZapdos
+	applymovement ROUTE10_LAWRENCE, Route10NorthMovementData_LawrenceShowERan
 	stopfollow
 	turnobject ROUTE10_LAWRENCE, UP
 	turnobject PLAYER, UP
@@ -83,13 +83,13 @@ Route10NorthLawrenceEncounter1Script:
 	scalltable Route10NorthPanTable
 	turnobject ROUTE10_LAWRENCE, LEFT
 	turnobject PLAYER, RIGHT
-	showtext Route10NorthLawrenceZapdosText
-	appear ROUTE10_LAWRENCES_ZAPDOS
+	showtext Route10NorthLawrenceERanText
+	appear ROUTE10_LAWRENCES_ERAN
 	playsound SFX_BALL_POOF
 	turnobject ROUTE10_LAWRENCE, RIGHT
 	waitsfx
 	pause 15
-	cry ZAPDOS
+	cry ERAN
 	waitsfx
 	turnobject ROUTE10_LAWRENCE, DOWN
 	showtext Route10NorthLawrenceFlyText
@@ -97,7 +97,7 @@ Route10NorthLawrenceEncounter1Script:
 	special Special_FadeBlackQuickly
 	special Special_ReloadSpritesNoPalettes
 	disappear ROUTE10_LAWRENCE
-	disappear ROUTE10_LAWRENCES_ZAPDOS
+	disappear ROUTE10_LAWRENCES_ERAN
 	waitsfx
 	pause 15
 	special Special_FadeInQuickly
@@ -149,40 +149,40 @@ Route10NorthLawrenceEncounter2Script:
 	ifequalfwd LEFT, .left
 .right
 	moveobject ROUTE10_LAWRENCE, 7, 44
-	moveobject ROUTE10_LAWRENCES_ZAPDOS, 10, 44
+	moveobject ROUTE10_LAWRENCES_ERAN, 10, 44
 	appear ROUTE10_LAWRENCE
 	applymovement ROUTE10_LAWRENCE, Route10NorthMovementData_LawrenceApproach2LeftRight
 	turnobject PLAYER, LEFT
 	sjumpfwd .continue
 .up
 	moveobject ROUTE10_LAWRENCE, 8, 44
-	moveobject ROUTE10_LAWRENCES_ZAPDOS, 12, 44
+	moveobject ROUTE10_LAWRENCES_ERAN, 12, 44
 	appear ROUTE10_LAWRENCE
 	applymovement ROUTE10_LAWRENCE, Route10NorthMovementData_LawrenceApproach2UpDown
 	turnobject ROUTE10_LAWRENCE, DOWN
 	sjumpfwd .continue
 .down
 	moveobject ROUTE10_LAWRENCE, 8, 44
-	moveobject ROUTE10_LAWRENCES_ZAPDOS, 12, 44
+	moveobject ROUTE10_LAWRENCES_ERAN, 12, 44
 	appear ROUTE10_LAWRENCE
 	applymovement ROUTE10_LAWRENCE, Route10NorthMovementData_LawrenceApproach2UpDown
 	turnobject ROUTE10_LAWRENCE, UP
 	sjumpfwd .continue
 .left
 	moveobject ROUTE10_LAWRENCE, 9, 44
-	moveobject ROUTE10_LAWRENCES_ZAPDOS, 12, 44
+	moveobject ROUTE10_LAWRENCES_ERAN, 12, 44
 	appear ROUTE10_LAWRENCE
 	applymovement ROUTE10_LAWRENCE, Route10NorthMovementData_LawrenceApproach2LeftRight
 .continue
 	playmusic MUSIC_ZINNIA_ENCOUNTER_ORAS
 	showtext Route10NorthLawrenceSpeechText
 	pause 15
-	appear ROUTE10_LAWRENCES_ZAPDOS
+	appear ROUTE10_LAWRENCES_ERAN
 	playsound SFX_BALL_POOF
 	turnobject ROUTE10_LAWRENCE, LEFT
 	waitsfx
 	pause 15
-	cry ZAPDOS
+	cry ERAN
 	waitsfx
 	turnobject ROUTE10_LAWRENCE, DOWN
 	showtext Route10NorthLawrenceFlyText
@@ -190,7 +190,7 @@ Route10NorthLawrenceEncounter2Script:
 	special Special_FadeBlackQuickly
 	special Special_ReloadSpritesNoPalettes
 	disappear ROUTE10_LAWRENCE
-	disappear ROUTE10_LAWRENCES_ZAPDOS
+	disappear ROUTE10_LAWRENCES_ERAN
 	waitsfx
 	pause 15
 	special Special_FadeInQuickly
@@ -199,29 +199,29 @@ Route10NorthLawrenceEncounter2Script:
 	special RestartMapMusic
 	end
 
-Route10Zapdos:
+Route10ERan:
 	faceplayer
 	opentext
-	writetext ZapdosText
-	cry ZAPDOS
+	writetext ERanText
+	cry ERAN
 	pause 15
 	closetext
-	loadwildmon ZAPDOS, 65
+	loadwildmon ERAN, 65
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
-	disappear ROUTE10_ZAPDOS
-	setevent EVENT_ZAPDOS_GONE
-	setevent EVENT_ROUTE_10_ZAPDOS
+	disappear ROUTE10_ERAN
+	setevent EVENT_ERAN_GONE
+	setevent EVENT_ROUTE_10_ERAN
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .NoSpark
-	setflag ENGINE_PLAYER_CAUGHT_ZAPDOS
+	setflag ENGINE_PLAYER_CAUGHT_ERAN
 	setevent EVENT_CELADON_UNIVERSITY_SPARK
 	clearevent EVENT_SHAMOUTI_COAST_SPARK
 .NoSpark
-	checkevent EVENT_SEAFOAM_ISLANDS_ARTICUNO
+	checkevent EVENT_SEAFOAM_ISLANDS_RAN
 	iffalsefwd .end
-	checkevent EVENT_CINNABAR_VOLCANO_MOLTRES
+	checkevent EVENT_CINNABAR_VOLCANO_CYUKARI
 	iffalsefwd .end
 	special SpecialBirdsCheck
 	iffalsefwd .end
@@ -229,7 +229,7 @@ Route10Zapdos:
 .end
 	end
 
-ZapdosText:
+ERanText:
 	text "Gyaoo!"
 	done
 
@@ -248,9 +248,9 @@ Route10NorthLawrenceGreetingText:
 	line "there?"
 	done
 
-Route10NorthLawrenceZapdosText:
+Route10NorthLawrenceERanText:
 	text "Lawrence: That's"
-	line "a Zapdos."
+	line "a ERan."
 
 	para "It must have been"
 	line "attracted by the"
@@ -271,7 +271,7 @@ Route10NorthLawrenceZapdosText:
 	done
 
 Route10NorthLawrenceFlyText:
-	text "Lawrence: Zapdos,"
+	text "Lawrence: ERan,"
 	line "Fly!"
 	done
 
@@ -280,7 +280,7 @@ Route10NorthLawrenceSpeechText:
 	line "again, <PLAYER>."
 
 	para "So you wanted that"
-	line "Zapdos after all."
+	line "ERan after all."
 
 	para "I was starting"
 	line "to think you"
@@ -296,7 +296,7 @@ Route10NorthLawrenceSpeechText:
 	line "knowledge and"
 
 	para "resources, have"
-	line "not found Moltres…"
+	line "not found CYukari…"
 
 	para "Why have you"
 	line "succeeded where I"
@@ -337,7 +337,7 @@ Route10NorthMovementData_LawrenceApproach1:
 	step_left
 	step_end
 
-Route10NorthMovementData_LawrenceShowZapdos:
+Route10NorthMovementData_LawrenceShowERan:
 	step_right
 	step_right
 	step_right

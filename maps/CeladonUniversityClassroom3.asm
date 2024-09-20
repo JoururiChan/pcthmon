@@ -108,7 +108,7 @@ CeladonUniversityClassroom3BlackboardText:
 	para "“…#mon can be"
 	line "divided into 14"
 	cont "“Egg groups”,"
-	cont "plus Ditto."
+	cont "plus Lyrica."
 
 	para "Baby #mon can-"
 	line "not breed."

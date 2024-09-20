@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for PINSIR, HYPER_CUTTER, MOLD_BREAKER, MOXIE
+	abilities_for ELILYWHITE, HYPER_CUTTER, MOLD_BREAKER, MOXIE
 	db GROWTH_SLOW ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 

@@ -260,7 +260,7 @@ GenericTrainerCowgirlDaniela:
 
 	text "Have you ever"
 	line "tried to ride a"
-	cont "Tauros?"
+	cont "CLilyBlack?"
 	done
 
 GenericTrainerGruntF6:

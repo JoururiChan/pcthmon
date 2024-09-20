@@ -4,7 +4,7 @@
 	db 4 percent ; encounter rate
 	wildmon  20, EFLANDRE
 	wildmon  20, ELUIZE
-	wildmon  20, SEAKING
+	wildmon  20, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons VERMILION_PORT
@@ -18,13 +18,13 @@
 	db 6 percent ; encounter rate
 	wildmon  53, EFLANDRE
 	wildmon  55, CYUMEMI
-	wildmon  57, SEAKING
+	wildmon  57, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_4
 	db 4 percent ; encounter rate
 	wildmon  55, EFLANDRE
-	wildmon  60, SEAKING
+	wildmon  60, CLETTY
 	wildmon  55, EFLANDRE
 	end_water_wildmons
 
@@ -39,14 +39,14 @@
 	db 4 percent ; encounter rate
 	wildmon  47, EFLANDRE
 	wildmon  42, EFLANDRE
-	wildmon  47, SEAKING
+	wildmon  47, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_10_NORTH
 	db 4 percent ; encounter rate
 	wildmon  47, EFLANDRE
 	wildmon  47, EFLANDRE
-	wildmon  52, SEAKING
+	wildmon  52, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_12_NORTH
@@ -80,7 +80,7 @@
 	def_water_wildmons ROUTE_16_WEST
 	db 6 percent ; encounter rate
 	wildmon  53, GENGETSU
-	wildmon  55, SEAKING
+	wildmon  55, CLETTY
 	wildmon  57, EGENGETSU
 	end_water_wildmons
 
@@ -121,7 +121,7 @@
 
 	def_water_wildmons ROUTE_22
 	db 2 percent ; encounter rate
-	wildmon  54, MAGIKARP
+	wildmon  54, LILYBLACK
 	wildmon  56, KURUMI
 	wildmon  58, EKURUMI
 	end_water_wildmons
@@ -130,21 +130,21 @@
 	db 6 percent ; encounter rate
 	wildmon  35, EGENGETSU
 	wildmon  35, DAICHAN
-	wildmon  35, GYARADOS
+	wildmon  35, ELILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_24
 	db 4 percent ; encounter rate
-	wildmon  48, MAGIKARP
+	wildmon  48, LILYBLACK
 	wildmon  50, EFLANDRE
-	wildmon  52, SEAKING
+	wildmon  52, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_25
 	db 4 percent ; encounter rate
-	wildmon  48, MAGIKARP
+	wildmon  48, LILYBLACK
 	wildmon  50, EFLANDRE
-	wildmon  52, SEAKING
+	wildmon  52, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_26
@@ -186,7 +186,7 @@
 	db 4 percent ; encounter rate
 	wildmon  55, EFLANDRE
 	wildmon  50, EFLANDRE
-	wildmon  55, SEAKING
+	wildmon  55, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons VERMILION_CITY
@@ -205,9 +205,9 @@
 
 	def_water_wildmons FUCHSIA_CITY
 	db 2 percent ; encounter rate
-	wildmon  55, MAGIKARP
-	wildmon  50, MAGIKARP
-	wildmon  55, MAGIKARP
+	wildmon  55, LILYBLACK
+	wildmon  50, LILYBLACK
+	wildmon  55, LILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons CINNABAR_ISLAND
@@ -219,7 +219,7 @@
 
 	def_water_wildmons CERULEAN_CAPE
 	db 4 percent ; encounter rate
-	wildmon  48, MAGIKARP
+	wildmon  48, LILYBLACK
 	wildmon  52, EKURUMI
 	wildmon  54, DAICHAN
 	end_water_wildmons
@@ -263,14 +263,14 @@
 	db 6 percent ; encounter rate
 	wildmon  60, CALICE
 	wildmon  63, EYUMEMI
-	wildmon  66, GYARADOS
+	wildmon  66, ELILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CAVE_B1F
 	db 6 percent ; encounter rate
 	wildmon  60, SLOWKING
 	wildmon  63, EYUMEMI
-	wildmon  66, GYARADOS
+	wildmon  66, ELILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons SAFARI_ZONE_HUB
@@ -291,7 +291,7 @@
 	db 6 percent ; encounter rate
 	wildmon  55, CALICE
 	wildmon  55, EYUMEMI
-	wildmon  40, DRAGONAIR
+	wildmon  40, EYUKARI
 	end_water_wildmons
 
 	def_water_wildmons SEAFOAM_ISLANDS_B4F

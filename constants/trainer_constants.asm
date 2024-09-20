@@ -1124,11 +1124,11 @@ DEF CRYS EQU __trainer_class__
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 
-	trainerclass OMASTAR_FOSSIL ; 9a
+	trainerclass ELUNASA_FOSSIL ; 9a
 
-	trainerclass KABUTOPS_FOSSIL ; 9b
+	trainerclass YUYUKO_FOSSIL ; 9b
 
-	trainerclass AERODACTYL_FOSSIL ; 9c
+	trainerclass EYUYUKO_FOSSIL ; 9c
 
 	trainerclass CMEILING_ARMOR ; 9d
 

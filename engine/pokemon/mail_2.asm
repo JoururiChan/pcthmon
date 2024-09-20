@@ -78,7 +78,7 @@ LoadSurfMailGFX:
 	ld de, SurfMailBorderGFX
 	ld c, 8 * 8
 	call LoadMailGFX_Color2
-	ld de, MailLaprasGFX
+	ld de, MailCLyricaGFX
 	ld c, 6 * 8
 	call LoadMailGFX_Color3
 	ld de, SurfMailWaveGFX
@@ -92,7 +92,7 @@ LoadLiteBlueMailGFX:
 	ld de, LiteBlueMailBorderGFX
 	ld c, 8 * 8
 	call LoadMailGFX_Color2
-	ld de, MailDratiniGFX
+	ld de, MailYukariGFX
 	ld c, 6 * 8
 	call LoadMailGFX_Color3
 	ld de, PortraitMailUnderlineGFX
@@ -173,7 +173,7 @@ LoadEonMailGFX:
 	ld de, SurfMailBorderGFX + 6 * 8
 	ld c, 1 * 8
 	call LoadMailGFX_Color2
-	ld de, MailEeveeGFX
+	ld de, MailELyricaGFX
 	ld c, 6 * 8
 	call LoadMailGFX_Color3
 	ld hl, vTiles2 tile $3d
@@ -285,7 +285,7 @@ LoadMorphMailGFX:
 	ld de, MorphMailDividerGFX
 	ld c, 1 * 8
 	call LoadMailGFX_Color2
-	ld de, MailDittoGFX
+	ld de, MailLyricaGFX
 	ld c, 6 * 8
 	call LoadMailGFX_Color3
 	call DrawMailBorder2
@@ -352,7 +352,7 @@ LoadBlueSkyMailGFX:
 	ld de, BlueSkyMailGrassGFX
 	ld c, 1 * 8
 	call LoadMailGFX_Color3
-	ld de, MailDragoniteGFX
+	ld de, MailCSuikaGFX
 	ld c, 23 * 8
 	call LoadMailGFX_Color3
 	ld de, MailCloudGFX
@@ -560,7 +560,7 @@ LoadMirageMailGFX:
 	ld de, BlueSkyMailGrassGFX
 	ld c, 1 * 8
 	call LoadMailGFX_Color2
-	ld de, MailMewGFX
+	ld de, MailESuikaGFX
 	ld c, 18 * 8
 	call LoadMailGFX_Color2
 	ld de, LiteBlueMailBorderGFX + 1 * 8

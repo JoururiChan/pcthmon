@@ -38,24 +38,24 @@
 	wildmon 12, YANMA
 	wildmon 14, YANMA
 	wildmon 14, CMAGAN
-	wildmon 10, DITTO
-	wildmon 10, DITTO
+	wildmon 10, LYRICA
+	wildmon 10, LYRICA
 	; day
 	wildmon 12, CRIKA
 	wildmon 12, CKONGARA
 	wildmon 12, YANMA
 	wildmon 14, YANMA
 	wildmon 14, CMAGAN
-	wildmon 10, DITTO
-	wildmon 10, DITTO
+	wildmon 10, LYRICA
+	wildmon 10, LYRICA
 	; nite
 	wildmon 12, CRIKA
 	wildmon 12, CKONGARA
 	wildmon 12, YANMA
 	wildmon 14, YANMA
 	wildmon 14, HOOTHOOT
-	wildmon 10, DITTO
-	wildmon 10, DITTO
+	wildmon 10, LYRICA
+	wildmon 10, LYRICA
 	end_grass_wildmons
 
 	db -1 ; end

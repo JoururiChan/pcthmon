@@ -42,7 +42,7 @@ Route3PokeCenter1FPokefanM1Text:
 	text "A few years ago"
 	line "I sold a weird-"
 
-	para "colored Magikarp"
+	para "colored LilyBlack"
 	line "to this boy…"
 
 	para "I thought there"

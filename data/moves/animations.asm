@@ -5976,7 +5976,7 @@ BattleAnim_ShowMon_1:
 	anim_wait 1
 	anim_ret
 
-BattleAnim_Sharpen: ; used in BoostGiovannisArmoredMewtwo
+BattleAnim_Sharpen: ; used in BoostGiovannisArmoredSuika
 	anim_1gfx ANIM_GFX_SHAPES
 	anim_obp0 $e4
 	anim_call BattleAnim_TargetObj_1Row

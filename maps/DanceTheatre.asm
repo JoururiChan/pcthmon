@@ -249,7 +249,7 @@ DanceTheatreGrannyText:
 	done
 
 DanceTheatreLadyText:
-	text "Eevee can evolve"
+	text "ELyrica can evolve"
 	line "into Leafeon, Gla-"
 	cont "ceon, or Sylveon,"
 

@@ -118,39 +118,39 @@ EggMovePointers::
 	dw CFlandreEggMoves         ; CFlandre
 	dw NoEggMoves             ; Flandre
 	dw NoEggMoves         ; EFlandre
-	dw NoEggMoves             ; Seaking
-	dw NoEggMoves             ; Staryu
-	dw NoEggMoves             ; Starmie
-	dw NoEggMoves             ; Mr.Mime
-	dw ScytherEggMoves        ; Scyther
-	dw NoEggMoves             ; Jynx
-	dw NoEggMoves             ; Electabuzz
-	dw NoEggMoves             ; Magmar
-	dw PinsirEggMoves         ; Pinsir
-	dw NoEggMoves             ; Tauros
-	dw NoEggMoves             ; Magikarp
-	dw NoEggMoves             ; Gyarados
-	dw LaprasEggMoves         ; Lapras
-	dw NoEggMoves             ; Ditto
-	dw EeveeEggMoves          ; Eevee
-	dw NoEggMoves             ; Vaporeon
-	dw NoEggMoves             ; Jolteon
-	dw NoEggMoves             ; Flareon
-	dw NoEggMoves             ; Porygon
-	dw OmanyteEggMoves        ; Omanyte
-	dw NoEggMoves             ; Omastar
-	dw KabutoEggMoves         ; Kabuto
-	dw NoEggMoves             ; Kabutops
-	dw AerodactylEggMoves     ; Aerodactyl
-	dw NoEggMoves             ; Snorlax
-	dw NoEggMoves             ; Articuno
-	dw NoEggMoves             ; Zapdos
-	dw NoEggMoves             ; Moltres
-	dw DratiniEggMoves        ; Dratini
-	dw NoEggMoves             ; Dragonair
-	dw NoEggMoves             ; Dragonite
-	dw NoEggMoves             ; Mewtwo
-	dw NoEggMoves             ; Mew
+	dw NoEggMoves             ; CLetty
+	dw NoEggMoves             ; Letty
+	dw NoEggMoves             ; ELetty
+	dw NoEggMoves             ; CChen
+	dw ChenEggMoves        ; Chen
+	dw NoEggMoves             ; EChen
+	dw NoEggMoves             ; CLilyWhite
+	dw NoEggMoves             ; LilyWhite
+	dw ELilyWhiteEggMoves         ; ELilyWhite
+	dw NoEggMoves             ; CLilyBlack
+	dw NoEggMoves             ; LilyBlack
+	dw NoEggMoves             ; ELilyBlack
+	dw CLyricaEggMoves         ; CLyrica
+	dw NoEggMoves             ; Lyrica
+	dw ELyricaEggMoves          ; ELyrica
+	dw NoEggMoves             ; CMerlin
+	dw NoEggMoves             ; Merlin
+	dw NoEggMoves             ; EMerlin
+	dw NoEggMoves             ; CLunasa
+	dw LunasaEggMoves        ; Lunasa
+	dw NoEggMoves             ; ELunasa
+	dw CYuyukoEggMoves         ; CYuyuko
+	dw NoEggMoves             ; Yuyuko
+	dw EYuyukoEggMoves     ; EYuyuko
+	dw NoEggMoves             ; CRan
+	dw NoEggMoves             ; Ran
+	dw NoEggMoves             ; ERan
+	dw NoEggMoves             ; CYukari
+	dw YukariEggMoves        ; Yukari
+	dw NoEggMoves             ; EYukari
+	dw NoEggMoves             ; CSuika
+	dw NoEggMoves             ; Suika
+	dw NoEggMoves             ; ESuika
 	dw CYoumuEggMoves      ; CYoumu
 	dw NoEggMoves             ; Youmu
 	dw NoEggMoves             ; EYoumu
@@ -232,7 +232,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Kingdra
 	dw PhanpyEggMoves         ; Phanpy
 	dw NoEggMoves             ; Donphan
-	dw NoEggMoves             ; Porygon2
+	dw NoEggMoves             ; CLunasa2
 	dw StantlerEggMoves       ; Stantler
 	dw NoEggMoves             ; Smeargle
 	dw TyrogueEggMoves        ; Tyrogue
@@ -276,7 +276,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Glaceon
 	dw NoEggMoves             ; Gliscor
 	dw NoEggMoves             ; Mamoswine
-	dw NoEggMoves             ; PorygonZ
+	dw NoEggMoves             ; CLunasaZ
 	dw NoEggMoves             ; Sylveon
 	dw NoEggMoves             ; Perrserker
 	dw NoEggMoves             ; Cursola
@@ -293,9 +293,9 @@ EggMovePointers::
 	dw NoEggMoves             ; Annihilape
 	assert_table_length NUM_SPECIES
 
-	dw NoEggMoves                ; Gyarados (Red Form)
+	dw NoEggMoves                ; ELilyBlack (Red Form)
 
-	dw NoEggMoves                ; Mewtwo (Armored Form)
+	dw NoEggMoves                ; Suika (Armored Form)
 
 	dw DunsparceEggMoves         ; Dundunsparse (Three Segment Form)
 
@@ -325,10 +325,10 @@ EggMovePointers::
 	dw NoEggMoves                ; CAlice (Galarian Form)
 	dw NoEggMoves ; Farfetch'D (Galarian Form)
 	dw NoEggMoves                ; CPatchouli (Galarian Form)
-	dw NoEggMoves                ; Mr.Mime (Galarian Form)
-	dw NoEggMoves                ; Articuno (Galarian Form)
-	dw NoEggMoves                ; Zapdos (Galarian Form)
-	dw NoEggMoves                ; Moltres (Galarian Form)
+	dw NoEggMoves                ; CChen (Galarian Form)
+	dw NoEggMoves                ; Ran (Galarian Form)
+	dw NoEggMoves                ; ERan (Galarian Form)
+	dw NoEggMoves                ; CYukari (Galarian Form)
 	dw NoEggMoves                ; Slowking (Galarian Form)
 	dw NoEggMoves   ; Corsola (Galarian Form)
 
@@ -341,8 +341,8 @@ EggMovePointers::
 	dw SneaselHisuianEggMoves    ; Sneasel (Hisuian Form)
 
 	dw WooperPaldeanEggMoves     ; Wooper (Paldean Form)
-	dw NoEggMoves                ; Tauros (Paldean Form)
-	dw NoEggMoves                ; Tauros (Paldean Fire Form)
-	dw NoEggMoves                ; Tauros (Paldean Water Form)
+	dw NoEggMoves                ; CLilyBlack (Paldean Form)
+	dw NoEggMoves                ; CLilyBlack (Paldean Fire Form)
+	dw NoEggMoves                ; CLilyBlack (Paldean Water Form)
 
 	assert_table_length NUM_EXT_POKEMON

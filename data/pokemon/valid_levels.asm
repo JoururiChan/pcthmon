@@ -119,39 +119,39 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  31 ; CFlandre
 	db  32,  54 ; Flandre
 	db   1,  32 ; EFlandre
-	db  33, 100 ; Seaking
-	db   1,  32 ; Staryu
-	db  33, 100 ; Starmie
+	db  33, 100 ; CLetty
+	db   1,  32 ; Letty
+	db  33, 100 ; ELetty
 	db  20, 100 ; Mr. Mime
-	db  10, 100 ; Scyther
-	db  20, 100 ; Jynx
-	db  20,  46 ; Electabuzz
-	db  20,  46 ; Magmar
-	db  10, 100 ; Pinsir
-	db  20, 100 ; Tauros
-	db   1,  19 ; Magikarp
-	db  20, 100 ; Gyarados
-	db  20, 100 ; Lapras
-	db   1, 100 ; Ditto
-	db   1,  19 ; Eevee
-	db  20, 100 ; Vaporeon
-	db  20, 100 ; Jolteon
-	db  20, 100 ; Flareon
-	db   1,  20 ; Porygon
-	db  15,  39 ; Omanyte
-	db  40, 100 ; Omastar
-	db  15,  39 ; Kabuto
-	db  40, 100 ; Kabutops
-	db  15, 100 ; Aerodactyl
-	db  20, 100 ; Snorlax
-	db 255, 255 ; Articuno
-	db 255, 255 ; Zapdos
-	db 255, 255 ; Moltres
-	db  20,  29 ; Dratini
-	db  30,  54 ; Dragonair
-	db  55, 100 ; Dragonite
-	db 255, 255 ; Mewtwo
-	db 255, 255 ; Mew
+	db  10, 100 ; Chen
+	db  20, 100 ; EChen
+	db  20,  46 ; CLilyWhite
+	db  20,  46 ; LilyWhite
+	db  10, 100 ; ELilyWhite
+	db  20, 100 ; CLilyBlack
+	db   1,  19 ; LilyBlack
+	db  20, 100 ; ELilyBlack
+	db  20, 100 ; CLyrica
+	db   1, 100 ; Lyrica
+	db   1,  19 ; ELyrica
+	db  20, 100 ; CMerlin
+	db  20, 100 ; Merlin
+	db  20, 100 ; EMerlin
+	db   1,  20 ; CLunasa
+	db  15,  39 ; Lunasa
+	db  40, 100 ; ELunasa
+	db  15,  39 ; CYuyuko
+	db  40, 100 ; Yuyuko
+	db  15, 100 ; EYuyuko
+	db  20, 100 ; CRan
+	db 255, 255 ; Ran
+	db 255, 255 ; ERan
+	db 255, 255 ; CYukari
+	db  20,  29 ; Yukari
+	db  30,  54 ; EYukari
+	db  55, 100 ; CSuika
+	db 255, 255 ; Suika
+	db 255, 255 ; ESuika
 	db   1,  13 ; CYoumu
 	db  14,  33 ; Youmu
 	db  34, 100 ; EYoumu
@@ -233,7 +233,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  55, 100 ; Kingdra
 	db   1,  24 ; Phanpy
 	db  25, 100 ; Donphan
-	db  20,  39 ; Porygon2
+	db  20,  39 ; CLunasa2
 	db   1,  29 ; Stantler
 	db   1, 100 ; Smeargle
 	db   1,  19 ; Tyrogue
@@ -277,7 +277,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; Glaceon
 	db  20, 100 ; Gliscor
 	db  45, 100 ; Mamoswine
-	db  40, 100 ; Porygon-Z
+	db  40, 100 ; CLunasa-Z
 	db  20, 100 ; Sylveon
 	db  28, 100 ; Perrserker
 	db  38, 100 ; Cursola

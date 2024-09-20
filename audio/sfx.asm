@@ -5372,7 +5372,7 @@ Sfx_IntroUnown3:
 	sound_ret
 
 
-Sfx_DittoPopUp:
+Sfx_LyricaPopUp:
 	channel_count 1
 	channel 5, .Ch5
 
@@ -5387,7 +5387,7 @@ Sfx_DittoPopUp:
 	sound_ret
 
 
-Sfx_DittoRecollect:
+Sfx_LyricaRecollect:
 	channel_count 1
 	channel 5, .Ch5
 
@@ -5462,7 +5462,7 @@ Sfx_IntroSuicune3:
 	sound_ret
 
 
-Sfx_DittoBounce:
+Sfx_LyricaBounce:
 	channel_count 1
 	channel 5, .Ch5
 

@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, LUM_BERRY ; held items
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
-	abilities_for MOLTRES_GALARIAN, BERSERK, BERSERK, BERSERK
+	abilities_for CYUKARI_GALARIAN, BERSERK, BERSERK, BERSERK
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

@@ -266,7 +266,7 @@ AdjustMonAndMoveIndexesPostBuild4:
 	dw DoNothing ; build4_5
 	
 .build4_0
-	call AdjustShuckleAndEeveelutionIndexes
+	call AdjustShuckleAndELyricalutionIndexes
 .build4_1
 	call ReplaceMilkDrink
 .build4_2
@@ -286,7 +286,7 @@ AdjustRhyperiorIndex:
 	dh 0xb6, -7 ; RHYPERIOR
 	dh -1
 
-AdjustShuckleAndEeveelutionIndexes:
+AdjustShuckleAndELyricalutionIndexes:
 	set #r0, .mon_adjust_table
 	call AdjustPokemonIndexes
 
@@ -304,10 +304,10 @@ AdjustShuckleAndEeveelutionIndexes:
 	dh 0xc0, 0   ; UMBREON
 	dh 0xc2, 59  ; LEAFEON/GLACEON
 	dh 0xd4, -2  ; SCIZOR
-	dh 0xe9, -1  ; PORYGON2
+	dh 0xe9, -1  ; CLUNASA2
 	dh 0xfb, 0   ; CELEBI
 	dh 0xfc, 2   ; SYLVEON
-	dh 0xfd, -20 ; PORYGON_Z
+	dh 0xfd, -20 ; CLUNASA_Z
 	dh -1
 
 RemovePikabluGuyFlag:
@@ -456,7 +456,7 @@ UpdateCharset:
 	call .replace_loop
 
 	; magikarp record holder OT
-	set #1, MAGIKARP_RECORD_HOLDER_NAME_OFFSET
+	set #1, LILYBLACK_RECORD_HOLDER_NAME_OFFSET
 	set #2, #length
 	decrement #3
 	call .fix_wram
@@ -588,7 +588,7 @@ UpdateCharset:
 .Randy
 	db 0x91, 0xa0, 0xad, 0xa3, 0xb8, 0x53, 0x53
 
-ChangeGyaradosForm:
+ChangeELilyBlackForm:
 	set #curbuild, 6
 	set #1, .mon_callback
 	call ApplyPartyPatchesOld
@@ -596,7 +596,7 @@ ChangeGyaradosForm:
 .mon_callback
 	seek #1
 	getfilebyte #temp
-	ifne #temp, GYARADOS, .done
+	ifne #temp, ELILYBLACK, .done
 	add #1, FORM_OFFSET
 	seek #1
 	getfilebyte #result

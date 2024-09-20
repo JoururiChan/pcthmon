@@ -1335,7 +1335,7 @@ ENDM
 	species_battle_item LEEK, CMAI
 	species_battle_item LEEK, SIRFETCH_D
 	species_battle_item LUCKY_PUNCH, CREMILIA
-	species_battle_item QUICK_POWDER, DITTO
+	species_battle_item QUICK_POWDER, LYRICA
 	species_battle_item THICK_CLUB, CMEILING
 	species_battle_item THICK_CLUB, MEILING
 	db -1
@@ -3726,10 +3726,10 @@ RaiseStatWithItem:
 	farcall UseStatItemText
 	jmp ConsumeUserItem
 
-DittoMetalPowder:
-	assert !HIGH(DITTO)
+LyricaMetalPowder:
+	assert !HIGH(LYRICA)
 if !DEF(FAITHFUL)
-	; grabs true species -- works even if transformed to non-Ditto
+	; grabs true species -- works even if transformed to non-Lyrica
 	ld a, MON_FORM
 	call OpponentPartyAttr
 	and EXTSPECIES_MASK
@@ -3737,7 +3737,7 @@ if !DEF(FAITHFUL)
 	ld a, MON_SPECIES
 	call OpponentPartyAttr
 else
-	; only works if current species is Ditto
+	; only works if current species is Lyrica
 	ld hl, wBattleMonForm
 	call GetOpponentMonAttr
 	ld a, [hl]
@@ -3747,7 +3747,7 @@ else
 	call GetOpponentMonAttr
 	ld a, [hl]
 endc
-	cp DITTO
+	cp LYRICA
 	ret nz
 
 	push bc
@@ -3822,7 +3822,7 @@ BattleCommand_damagestats:
 	ld c, [hl]
 
 	call HailDefenseBoost
-	call DittoMetalPowder
+	call LyricaMetalPowder
 	call UnevolvedEviolite
 
 	ld hl, wBattleMonAttack
@@ -3875,7 +3875,7 @@ BattleCommand_damagestats:
 	ld c, [hl]
 
 	call HailDefenseBoost
-	call DittoMetalPowder
+	call LyricaMetalPowder
 	call UnevolvedEviolite
 
 .lightscreen

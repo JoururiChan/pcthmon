@@ -33,9 +33,9 @@ BugContestant_BugCatcherEd:
 
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
-	contest_winner SCYTHER,    357
+	contest_winner CHEN,    357
 	contest_winner FGYOKU, 349
-	contest_winner PINSIR,     368
+	contest_winner ELILYWHITE,     368
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
@@ -51,7 +51,7 @@ BugContestant_BugCatcherBenny:
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
-	contest_winner PINSIR,     366
+	contest_winner ELILYWHITE,     366
 	contest_winner RIKAKO,    329
 	contest_winner CMAGAN,     314
 
@@ -63,14 +63,14 @@ BugContestant_PicnickerCindy:
 
 BugContestant_BugCatcherJosh:
 	db BUG_CATCHER, JOSH
-	contest_winner SCYTHER,    326
+	contest_winner CHEN,    326
 	contest_winner FGYOKU, 292
 	contest_winner MGYOKU,    282
 
 BugContestant_SchoolboyJohnny:
 	db SCHOOLBOY, JOHNNY
 	contest_winner OGYOKU,     270
-	contest_winner PINSIR,     282
+	contest_winner ELILYWHITE,     282
 	contest_winner CGYOKU,   251
 
 BugContestant_SchoolboyKipp:

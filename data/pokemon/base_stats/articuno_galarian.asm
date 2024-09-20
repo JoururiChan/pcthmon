@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, LUM_BERRY ; held items
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
-	abilities_for ARTICUNO_GALARIAN, COMPETITIVE, COMPETITIVE, COMPETITIVE
+	abilities_for RAN_GALARIAN, COMPETITIVE, COMPETITIVE, COMPETITIVE
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

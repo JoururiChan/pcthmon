@@ -138,22 +138,22 @@ INCLUDE "maps/RuinsOfAlphOutside.asm"
 
 SECTION "Ruins of Alph Scripts 2", ROMX
 
-INCLUDE "maps/RuinsOfAlphResearchCenter.asm"; shares text with RuinsOfAlphKabutoChamber.asm
+INCLUDE "maps/RuinsOfAlphResearchCenter.asm"; shares text with RuinsOfAlphCYuyukoChamber.asm
 INCLUDE "maps/RuinsOfAlphEntranceChamber.asm"
 INCLUDE "maps/RuinsOfAlphInnerChamber.asm"
 INCLUDE "maps/RuinsOfAlphSinjohChamber.asm"
-INCLUDE "maps/RuinsOfAlphAerodactylChamber.asm"
+INCLUDE "maps/RuinsOfAlphEYuyukoChamber.asm"
 INCLUDE "maps/RuinsOfAlphHoOhChamber.asm"
-INCLUDE "maps/RuinsOfAlphKabutoChamber.asm"
-INCLUDE "maps/RuinsOfAlphOmanyteChamber.asm"
-INCLUDE "maps/RuinsOfAlphAerodactylItemRoom.asm"
+INCLUDE "maps/RuinsOfAlphCYuyukoChamber.asm"
+INCLUDE "maps/RuinsOfAlphLunasaChamber.asm"
+INCLUDE "maps/RuinsOfAlphEYuyukoItemRoom.asm"
 INCLUDE "maps/RuinsOfAlphHoOhItemRoom.asm"
-INCLUDE "maps/RuinsOfAlphKabutoItemRoom.asm"
-INCLUDE "maps/RuinsOfAlphOmanyteItemRoom.asm"
-INCLUDE "maps/RuinsOfAlphAerodactylWordRoom.asm"
+INCLUDE "maps/RuinsOfAlphCYuyukoItemRoom.asm"
+INCLUDE "maps/RuinsOfAlphLunasaItemRoom.asm"
+INCLUDE "maps/RuinsOfAlphEYuyukoWordRoom.asm"
 INCLUDE "maps/RuinsOfAlphHoOhWordRoom.asm"
-INCLUDE "maps/RuinsOfAlphKabutoWordRoom.asm"
-INCLUDE "maps/RuinsOfAlphOmanyteWordRoom.asm"
+INCLUDE "maps/RuinsOfAlphCYuyukoWordRoom.asm"
+INCLUDE "maps/RuinsOfAlphLunasaWordRoom.asm"
 
 
 SECTION "Sinjoh Ruins Scripts", ROMX
@@ -397,14 +397,14 @@ SECTION "Mahogany Scripts", ROMX
 INCLUDE "maps/MahoganyTown.asm"
 INCLUDE "maps/MahoganyMart1F.asm"
 INCLUDE "maps/MahoganyGym.asm"
-INCLUDE "maps/MahoganyRedGyaradosSpeechHouse.asm"
+INCLUDE "maps/MahoganyRedELilyBlackSpeechHouse.asm"
 
 
 SECTION "Lake of Rage Scripts", ROMX
 
 INCLUDE "maps/LakeOfRage.asm"
 INCLUDE "maps/LakeOfRageHiddenPowerHouse.asm"
-INCLUDE "maps/LakeOfRageMagikarpHouse.asm"
+INCLUDE "maps/LakeOfRageLilyBlackHouse.asm"
 
 
 SECTION "Team Rocket Base Scripts", ROMX

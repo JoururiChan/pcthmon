@@ -560,7 +560,7 @@ endr
 	dw .FollowNotExact               ; SPRITEMOVEFN_FOLLOWNOTEXACT
 	dw .MovementShadow               ; SPRITEMOVEFN_SHADOW
 	dw .MovementEmote                ; SPRITEMOVEFN_EMOTE
-	dw .MovementBigStanding          ; SPRITEMOVEFN_BIG_SNORLAX
+	dw .MovementBigStanding          ; SPRITEMOVEFN_BIG_CRAN
 	dw .MovementBouncing             ; SPRITEMOVEFN_BOUNCE
 	dw .MovementScreenShake          ; SPRITEMOVEFN_SCREENSHAKE
 	dw .MovementSpinClockwise        ; SPRITEMOVEFN_SPIN_CLOCKWISE
@@ -570,7 +570,7 @@ endr
 	dw .MovementSplashingPuddle      ; SPRITEMOVEFN_PUDDLE
 	dw .MovementCutTree              ; SPRITEMOVEFN_CUT_TREE
 	dw .MovementFruit                ; SPRITEMOVEFN_FRUIT
-	dw .MovementBigGyarados          ; SPRITEMOVEFN_BIG_GYARADOS
+	dw .MovementBigELilyBlack          ; SPRITEMOVEFN_BIG_ELILYBLACK
 	dw .StandingFlip                 ; SPRITEMOVEFN_STANDING_FLIP
 	dw .MovementPokecomNews          ; SPRITEMOVEFN_POKECOM_NEWS
 	dw .MovementMuseumDrill          ; SPRITEMOVEFN_MUSEUM_DRILL
@@ -753,15 +753,15 @@ endr
 	ret
 
 .MovementBigStanding:
-	ld a, OBJECT_ACTION_BIG_SNORLAX
+	ld a, OBJECT_ACTION_BIG_CRAN
 	jr ._ActionA_StepFunction_Standing
 
 .MovementBouncing:
 	ld a, OBJECT_ACTION_BOUNCE
 	jr ._ActionA_StepFunction_Standing
 
-.MovementBigGyarados:
-	ld a, OBJECT_ACTION_BIG_GYARADOS
+.MovementBigELilyBlack:
+	ld a, OBJECT_ACTION_BIG_ELILYBLACK
 	jr ._ActionA_StepFunction_Standing
 
 .MovementPokecomNews:

@@ -122,39 +122,39 @@ EvosAttacksPointers::
 	dw CFlandreEvosAttacks
 	dw FlandreEvosAttacks
 	dw EFlandreEvosAttacks
-	dw SeakingEvosAttacks
-	dw StaryuEvosAttacks
-	dw StarmieEvosAttacks
+	dw CLettyEvosAttacks
+	dw LettyEvosAttacks
+	dw ELettyEvosAttacks
 	dw MrMimePlainEvosAttacks
-	dw ScytherEvosAttacks
-	dw JynxEvosAttacks
-	dw ElectabuzzEvosAttacks
-	dw MagmarEvosAttacks
-	dw PinsirEvosAttacks
-	dw TaurosPlainEvosAttacks
-	dw MagikarpEvosAttacks
-	dw GyaradosEvosAttacks
-	dw LaprasEvosAttacks
-	dw DittoEvosAttacks
-	dw EeveeEvosAttacks
-	dw VaporeonEvosAttacks
-	dw JolteonEvosAttacks
-	dw FlareonEvosAttacks
-	dw PorygonEvosAttacks
-	dw OmanyteEvosAttacks
-	dw OmastarEvosAttacks
-	dw KabutoEvosAttacks
-	dw KabutopsEvosAttacks
-	dw AerodactylEvosAttacks
-	dw SnorlaxEvosAttacks
-	dw ArticunoPlainEvosAttacks
-	dw ZapdosPlainEvosAttacks
-	dw MoltresPlainEvosAttacks
-	dw DratiniEvosAttacks
-	dw DragonairEvosAttacks
-	dw DragoniteEvosAttacks
-	dw MewtwoEvosAttacks
-	dw MewEvosAttacks
+	dw ChenEvosAttacks
+	dw EChenEvosAttacks
+	dw CLilyWhiteEvosAttacks
+	dw LilyWhiteEvosAttacks
+	dw ELilyWhiteEvosAttacks
+	dw CLilyBlackPlainEvosAttacks
+	dw LilyBlackEvosAttacks
+	dw ELilyBlackEvosAttacks
+	dw CLyricaEvosAttacks
+	dw LyricaEvosAttacks
+	dw ELyricaEvosAttacks
+	dw CMerlinEvosAttacks
+	dw MerlinEvosAttacks
+	dw EMerlinEvosAttacks
+	dw CLunasaEvosAttacks
+	dw LunasaEvosAttacks
+	dw ELunasaEvosAttacks
+	dw CYuyukoEvosAttacks
+	dw YuyukoEvosAttacks
+	dw EYuyukoEvosAttacks
+	dw CRanEvosAttacks
+	dw RanPlainEvosAttacks
+	dw ERanPlainEvosAttacks
+	dw CYukariPlainEvosAttacks
+	dw YukariEvosAttacks
+	dw EYukariEvosAttacks
+	dw CSuikaEvosAttacks
+	dw SuikaEvosAttacks
+	dw ESuikaEvosAttacks
 	dw CYoumuEvosAttacks
 	dw YoumuEvosAttacks
 	dw EYoumuEvosAttacks
@@ -236,7 +236,7 @@ EvosAttacksPointers::
 	dw KingdraEvosAttacks
 	dw PhanpyEvosAttacks
 	dw DonphanEvosAttacks
-	dw Porygon2EvosAttacks
+	dw CLunasa2EvosAttacks
 	dw StantlerEvosAttacks
 	dw SmeargleEvosAttacks
 	dw TyrogueEvosAttacks
@@ -280,7 +280,7 @@ EvosAttacksPointers::
 	dw GlaceonEvosAttacks
 	dw GliscorEvosAttacks
 	dw MamoswineEvosAttacks
-	dw PorygonZEvosAttacks
+	dw CLunasaZEvosAttacks
 	dw SylveonEvosAttacks
 	dw PerrserkerEvosAttacks
 	dw CursolaEvosAttacks
@@ -297,9 +297,9 @@ EvosAttacksPointers::
 	dw AnnihilapeEvosAttacks
 	assert_table_length NUM_SPECIES
 
-	dw GyaradosEvosAttacks
+	dw ELilyBlackEvosAttacks
 
-	dw MewtwoEvosAttacks
+	dw SuikaEvosAttacks
 
 	dw DudunsparceEvosAttacks
 
@@ -330,9 +330,9 @@ EvosAttacksPointers::
 	dw CMaiGalarianEvosAttacks
 	dw CPatchouliGalarianEvosAttacks
 	dw MrMimeGalarianEvosAttacks
-	dw ArticunoGalarianEvosAttacks
-	dw ZapdosGalarianEvosAttacks
-	dw MoltresGalarianEvosAttacks
+	dw RanGalarianEvosAttacks
+	dw ERanGalarianEvosAttacks
+	dw CYukariGalarianEvosAttacks
 	dw SlowkingGalarianEvosAttacks
 	dw CorsolaGalarianEvosAttacks
 
@@ -345,8 +345,8 @@ EvosAttacksPointers::
 	dw SneaselHisuianEvosAttacks
 
 	dw WooperPaldeanEvosAttacks
-	dw TaurosPaldeanEvosAttacks
-	dw TaurosPaldeanFireEvosAttacks
-	dw TaurosPaldeanWaterEvosAttacks
+	dw CLilyBlackPaldeanEvosAttacks
+	dw CLilyBlackPaldeanFireEvosAttacks
+	dw CLilyBlackPaldeanWaterEvosAttacks
 
 	assert_table_length NUM_EXT_POKEMON

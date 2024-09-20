@@ -74,8 +74,8 @@ ShamoutiShrineRuinsLawrenceScript:
 	line "across many"
 
 	para "regions to catch"
-	line "Articuno, Zapdos,"
-	cont "and Moltres."
+	line "Ran, ERan,"
+	cont "and CYukari."
 
 	para "Without the"
 	line "complete set, I"

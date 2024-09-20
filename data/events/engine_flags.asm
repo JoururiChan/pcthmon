@@ -153,7 +153,7 @@ EngineFlags:
 	engine_flag wDailyFlags4, 7 ; unused
 
 	engine_flag wWeeklyFlags, WEEKLYFLAGS_MT_MOON_SQUARE_CMEIRA_F
-	engine_flag wWeeklyFlags, WEEKLYFLAGS_UNION_CAVE_LAPRAS_F
+	engine_flag wWeeklyFlags, WEEKLYFLAGS_UNION_CAVE_CLYRICA_F
 	engine_flag wWeeklyFlags, WEEKLYFLAGS_GOLDENROD_UNDERGROUND_GOT_HAIRCUT_F
 	engine_flag wWeeklyFlags, WEEKLYFLAGS_GOLDENROD_MALL_5F_HAPPINESS_EVENT_F
 	engine_flag wWeeklyFlags, WEEKLYFLAGS_TEA_IN_BLUES_HOUSE_F
@@ -279,12 +279,12 @@ EngineFlags:
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_RAIKOU_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_ENTEI_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_SUICUNE_F
-	engine_flag wPlayerCaught, PLAYER_CAUGHT_ARTICUNO_F
-	engine_flag wPlayerCaught, PLAYER_CAUGHT_ZAPDOS_F
-	engine_flag wPlayerCaught, PLAYER_CAUGHT_MOLTRES_F
+	engine_flag wPlayerCaught, PLAYER_CAUGHT_RAN_F
+	engine_flag wPlayerCaught, PLAYER_CAUGHT_ERAN_F
+	engine_flag wPlayerCaught, PLAYER_CAUGHT_CYUKARI_F
 
-	engine_flag wPlayerCaught2, PLAYER_CAUGHT_MEW_F
-	engine_flag wPlayerCaught2, PLAYER_CAUGHT_MEWTWO_F
+	engine_flag wPlayerCaught2, PLAYER_CAUGHT_ESUIKA_F
+	engine_flag wPlayerCaught2, PLAYER_CAUGHT_SUIKA_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_CELEBI_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_SUDOWOODO_F
 

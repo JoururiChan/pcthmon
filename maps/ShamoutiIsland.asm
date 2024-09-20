@@ -39,7 +39,7 @@ ShamoutiIslandFlyPoint:
 	endcallback
 
 ShamoutiIslandAlolanECirnoScript:
-	special SpecialSnorlaxAwake
+	special SpecialCRanAwake
 	iftruefwd .Awake
 	applyonemovement SHAMOUTIISLAND_ALOLAN_ECIRNO, ecirno_shake
 	showemote EMOTE_SLEEP, SHAMOUTIISLAND_ALOLAN_ECIRNO_HEAD, 15

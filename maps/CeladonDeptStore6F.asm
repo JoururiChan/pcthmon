@@ -59,7 +59,7 @@ CeladonDeptStore3FGameboyKid1Text:
 
 CeladonDeptStore3FGameboyKid2Text:
 	text "Yay! I'm finally"
-	line "getting a Porygon!"
+	line "getting a CLunasa!"
 
 	para "I'm no good at the"
 	line "slots, so I could"

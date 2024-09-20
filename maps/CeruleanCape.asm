@@ -354,7 +354,7 @@ GenericTrainerFisherLeroy:
 	generictrainer FISHER, LEROY, EVENT_BEAT_FISHER_LEROY, .SeenText, .BeatenText
 
 	text "All I ever catch"
-	line "are Magikarp…"
+	line "are LilyBlack…"
 
 	para "At least they all"
 	line "look unique."

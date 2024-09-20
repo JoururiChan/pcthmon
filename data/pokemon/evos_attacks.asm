@@ -2939,7 +2939,7 @@ EFlandreEvosAttacks:
 	db 53, LAVATEIN
 	db -1 ; no more level-up moves
 
-SeakingEvosAttacks:
+CLettyEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, POISON_JAB
 	db 1, PECK
@@ -2958,8 +2958,8 @@ SeakingEvosAttacks:
 	db 54, DRAGON_BASH
 	db -1 ; no more level-up moves
 
-StaryuEvosAttacks:
-	evo_data EVOLVE_ITEM, WATER_STONE, STARMIE
+LettyEvosAttacks:
+	evo_data EVOLVE_ITEM, WATER_STONE, ELETTY
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL ; Harden → similar move
@@ -2981,7 +2981,7 @@ StaryuEvosAttacks:
 	db 49, HYDRO_PUMP ; Cosmic Power → Hydro Pump
 	db -1 ; no more level-up moves
 
-StarmieEvosAttacks:
+ELettyEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, HYDRO_PUMP
 	db 1, WATER_GUN
@@ -3014,7 +3014,7 @@ MrMimePlainEvosAttacks:
 	db 50, SAFEGUARD
 	db -1 ; no more level-up moves
 
-ScytherEvosAttacks:
+ChenEvosAttacks:
 	evo_data EVOLVE_HOLDING, METAL_COAT, TR_ANYTIME, SCIZOR
 	evo_data EVOLVE_HOLDING, HARD_STONE, TR_ANYTIME, KLEAVOR
 	db -1 ; no more evolutions
@@ -3036,7 +3036,7 @@ ScytherEvosAttacks:
 	db 57, SWORDS_DANCE
 	db -1 ; no more level-up moves
 
-JynxEvosAttacks:
+EChenEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PETAL_SLASH ; event move
 	db 1, TACKLE ; Pound → similar move
@@ -3059,7 +3059,7 @@ JynxEvosAttacks:
 	db 60, BLIZZARD
 	db -1 ; no more level-up moves
 
-ElectabuzzEvosAttacks:
+CLilyWhiteEvosAttacks:
 	evo_data EVOLVE_HOLDING, ELECTIRIZER, TR_ANYTIME, ELECTIVIRE
 	db -1 ; no more evolutions
 	db 1, QUICK_ATTACK
@@ -3078,8 +3078,8 @@ ElectabuzzEvosAttacks:
 	db 55, THUNDER
 	db -1 ; no more level-up moves
 
-MagmarEvosAttacks:
-	evo_data EVOLVE_HOLDING, MAGMARIZER, TR_ANYTIME, MAGMORTAR
+LilyWhiteEvosAttacks:
+	evo_data EVOLVE_HOLDING, LILYWHITEIZER, TR_ANYTIME, MAGMORTAR
 	db -1 ; no more evolutions
 	db 1, HAZE ; Smog → new move
 	db 1, LEER
@@ -3097,7 +3097,7 @@ MagmarEvosAttacks:
 	db 55, HELL_TOKAMAK
 	db -1 ; no more level-up moves
 
-PinsirEvosAttacks:
+ELilyWhiteEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, FURY_STRIKES ; Vice Grip → new move
 	db 1, FOCUS_ENERGY
@@ -3116,7 +3116,7 @@ PinsirEvosAttacks:
 	db 50, DRAGON_BASH ; Guillotine → new move
 	db -1 ; no more level-up moves
 
-TaurosPlainEvosAttacks:
+CLilyBlackPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 3, LEER ; Tail Whip → similar move
@@ -3136,7 +3136,7 @@ TaurosPlainEvosAttacks:
 	db 80, OUTRAGE ; HGSS tutor move
 	db -1 ; no more level-up moves
 
-TaurosPaldeanEvosAttacks:
+CLilyBlackPaldeanEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 3, LEER ; Tail Whip → similar move
@@ -3156,7 +3156,7 @@ TaurosPaldeanEvosAttacks:
 	db 80, OUTRAGE ; HGSS tutor move
 	db -1 ; no more level-up moves
 
-TaurosPaldeanFireEvosAttacks:
+CLilyBlackPaldeanFireEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 3, LEER ; Tail Whip → similar move
@@ -3176,7 +3176,7 @@ TaurosPaldeanFireEvosAttacks:
 	db 80, OUTRAGE ; HGSS tutor move
 	db -1 ; no more level-up moves
 
-TaurosPaldeanWaterEvosAttacks:
+CLilyBlackPaldeanWaterEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 3, LEER ; Tail Whip → similar move
@@ -3196,15 +3196,15 @@ TaurosPaldeanWaterEvosAttacks:
 	db 80, OUTRAGE ; HGSS tutor move
 	db -1 ; no more level-up moves
 
-MagikarpEvosAttacks:
-	evo_data EVOLVE_LEVEL, 20, GYARADOS, NO_FORM ; preserve pre-evo form
+LilyBlackEvosAttacks:
+	evo_data EVOLVE_LEVEL, 20, ELILYBLACK, NO_FORM ; preserve pre-evo form
 	db -1 ; no more evolutions
 	db 1, SPLASH
 	db 15, TACKLE
 	db 30, REVERSAL ; Flail → event move
 	db -1 ; no more level-up moves
 
-GyaradosEvosAttacks:
+ELilyBlackEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, WATERFALL ; HM move
 	db 1, BITE ; evolution move
@@ -3226,7 +3226,7 @@ GyaradosEvosAttacks:
 	db 57, OUTRAGE ; HGSS tutor move
 	db -1 ; no more level-up moves
 
-LaprasEvosAttacks:
+CLyricaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, ANCIENTPOWER ; HGSS tutor move
 	db 1, DRAGON_RAGE ; RBY TM move
@@ -3249,15 +3249,15 @@ LaprasEvosAttacks:
 	db 54, DRAGON_BASH ; LGPE TM move
 	db -1 ; no more level-up moves
 
-DittoEvosAttacks:
+LyricaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, RECOLLECT
 	db -1 ; no more level-up moves
 
-EeveeEvosAttacks:
-	evo_data EVOLVE_ITEM, THUNDERSTONE, JOLTEON
-	evo_data EVOLVE_ITEM, WATER_STONE, VAPOREON
-	evo_data EVOLVE_ITEM, FIRE_STONE, FLAREON
+ELyricaEvosAttacks:
+	evo_data EVOLVE_ITEM, THUNDERSTONE, MERLIN
+	evo_data EVOLVE_ITEM, WATER_STONE, CMERLIN
+	evo_data EVOLVE_ITEM, FIRE_STONE, EMERLIN
 	evo_data EVOLVE_ITEM, SUN_STONE, ESPEON
 	evo_data EVOLVE_ITEM, MOON_STONE, UMBREON
 	evo_data EVOLVE_ITEM, LEAF_STONE, LEAFEON
@@ -3286,7 +3286,7 @@ EeveeEvosAttacks:
 	db 45, REVERSAL ; Trump Card → new move
 	db -1 ; no more level-up moves
 
-VaporeonEvosAttacks:
+CMerlinEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GROWL
 	db 1, TACKLE
@@ -3305,7 +3305,7 @@ VaporeonEvosAttacks:
 	db 45, HYDRO_PUMP
 	db -1 ; no more level-up moves
 
-JolteonEvosAttacks:
+MerlinEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GROWL
 	db 1, TACKLE
@@ -3324,7 +3324,7 @@ JolteonEvosAttacks:
 	db 45, THUNDER
 	db -1 ; no more level-up moves
 
-FlareonEvosAttacks:
+EMerlinEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GROWL
 	db 1, TACKLE
@@ -3343,8 +3343,8 @@ FlareonEvosAttacks:
 	db 45, LAVATEIN
 	db -1 ; no more level-up moves
 
-PorygonEvosAttacks:
-	evo_data EVOLVE_HOLDING, UP_GRADE, TR_ANYTIME, PORYGON2
+CLunasaEvosAttacks:
+	evo_data EVOLVE_HOLDING, UP_GRADE, TR_ANYTIME, CLUNASA2
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, CONVERSION
@@ -3362,8 +3362,8 @@ PorygonEvosAttacks:
 	db 62, ZAP_CANNON
 	db -1 ; no more level-up moves
 
-OmanyteEvosAttacks:
-	evo_data EVOLVE_LEVEL, 40, OMASTAR
+LunasaEvosAttacks:
+	evo_data EVOLVE_LEVEL, 40, ELUNASA
 	db -1 ; no more evolutions
 	db 1, WRAP ; Constrict → similar move
 	db 1, DEFENSE_CURL ; Withdraw → similar move
@@ -3382,7 +3382,7 @@ OmanyteEvosAttacks:
 	db 61, POWER_GEM ; new move
 	db -1 ; no more level-up moves
 
-OmastarEvosAttacks:
+ELunasaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, WRAP ; Constrict → similar move
 	db 1, DEFENSE_CURL ; Withdraw → similar move
@@ -3402,8 +3402,8 @@ OmastarEvosAttacks:
 	db 86, POWER_GEM ; new move
 	db -1 ; no more level-up moves
 
-KabutoEvosAttacks:
-	evo_data EVOLVE_LEVEL, 40, KABUTOPS
+CYuyukoEvosAttacks:
+	evo_data EVOLVE_LEVEL, 40, YUYUKO
 	db -1 ; no more evolutions
 	db 1, SCRATCH
 	db 1, DEFENSE_CURL ; Harden → similar move
@@ -3421,7 +3421,7 @@ KabutoEvosAttacks:
 	db 61, POWER_TRICK ; new move
 	db -1 ; no more level-up moves
 
-KabutopsEvosAttacks:
+YuyukoEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SLASH ; evolution move
 	db 1, LOW_KICK ; HGSS tutor move
@@ -3441,7 +3441,7 @@ KabutopsEvosAttacks:
 	db 81, POWER_TRICK ; new move
 	db -1 ; no more level-up moves
 
-AerodactylEvosAttacks:
+EYuyukoEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, DRAGON_RAGE ; RBY TM move
 	db 1, DRAGONBREATH ; GSC TM move
@@ -3462,7 +3462,7 @@ AerodactylEvosAttacks:
 	db 81, GUNGNIR
 	db -1 ; no more level-up moves
 
-SnorlaxEvosAttacks:
+CRanEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 4, DEFENSE_CURL
@@ -3481,7 +3481,7 @@ SnorlaxEvosAttacks:
 	db 57, GUNGNIR
 	db -1 ; no more level-up moves
 
-ArticunoPlainEvosAttacks:
+RanPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GUST
 	db 1, ICY_WIND ; Powder Snow → similar move
@@ -3502,7 +3502,7 @@ ArticunoPlainEvosAttacks:
 	db 99, AEROBLAST ; new move
 	db -1 ; no more level-up moves
 
-ArticunoGalarianEvosAttacks:
+RanGalarianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GUST
 	db 1, PSYSHOT
@@ -3523,7 +3523,7 @@ ArticunoGalarianEvosAttacks:
 	db 99, AEROBLAST ; new move
 	db -1 ; no more level-up moves
 
-ZapdosPlainEvosAttacks:
+ERanPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PECK
 	db 1, THUNDERSHOCK
@@ -3544,7 +3544,7 @@ ZapdosPlainEvosAttacks:
 	db 99, ZAP_CANNON
 	db -1 ; no more level-up moves
 
-ZapdosGalarianEvosAttacks:
+ERanGalarianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PECK
 	db 1, LOW_KICK ; Rock Smash → TR move
@@ -3565,7 +3565,7 @@ ZapdosGalarianEvosAttacks:
 	db 99, REVERSAL
 	db -1 ; no more level-up moves
 
-MoltresPlainEvosAttacks:
+CYukariPlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, WING_ATTACK
 	db 1, EMBER
@@ -3586,7 +3586,7 @@ MoltresPlainEvosAttacks:
 	db 99, FLOWER_SHOOT
 	db -1 ; no more level-up moves
 
-MoltresGalarianEvosAttacks:
+CYukariGalarianEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GUST
 	db 1, PURSUIT ; Payback → new move
@@ -3607,8 +3607,8 @@ MoltresGalarianEvosAttacks:
 	db 99, NIGHT_SLASH ; new move
 	db -1 ; no more level-up moves
 
-DratiniEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, DRAGONAIR
+YukariEvosAttacks:
+	evo_data EVOLVE_LEVEL, 30, EYUKARI
 	db -1 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
@@ -3626,8 +3626,8 @@ DratiniEvosAttacks:
 	db 61, MASTER_SPARK
 	db -1 ; no more level-up moves
 
-DragonairEvosAttacks:
-	evo_data EVOLVE_LEVEL, 55, DRAGONITE
+EYukariEvosAttacks:
+	evo_data EVOLVE_LEVEL, 55, CSUIKA
 	db -1 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
@@ -3645,7 +3645,7 @@ DragonairEvosAttacks:
 	db 75, MASTER_SPARK
 	db -1 ; no more level-up moves
 
-DragoniteEvosAttacks:
+CSuikaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, HURRICANE
 	db 1, SCULPTURE
@@ -3671,7 +3671,7 @@ DragoniteEvosAttacks:
 	db 81, HURRICANE
 	db -1 ; no more level-up moves
 
-MewtwoEvosAttacks:
+SuikaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TELEPORT ; Psywave → RBY TM move
 	db 1, SPIDERS_NEST ; Sw/Sh move
@@ -3687,11 +3687,11 @@ MewtwoEvosAttacks:
 	db 64, POWER_GEM ; Barrier → SV TM move
 	db 73, AURA_SPHERE
 	db 82, AMNESIA
-	db 91, NASTY_PLOT ; Mist → Mew move
+	db 91, NASTY_PLOT ; Mist → ESuika move
 	db 100, PSYSTRIKE
 	db -1 ; no more level-up moves
 
-MewEvosAttacks:
+ESuikaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SKETCH ; Reflect Type → new move
 	db 1, TELEPORT ; event move
@@ -3704,7 +3704,7 @@ MewEvosAttacks:
 	db 40, BARRIER
 	db 50, ANCIENTPOWER
 	db 60, BATON_PASS ; Amnesia → Baton Pass
-	db 70, SAFEGUARD ; Me First → Mewtwo move
+	db 70, SAFEGUARD ; Me First → Suika move
 	db 80, AMNESIA ; Baton Pass → Amnesia
 	db 90, NASTY_PLOT
 	db 100, AURA_SPHERE
@@ -5503,8 +5503,8 @@ DonphanEvosAttacks:
 	db 50, GUNGNIR
 	db -1 ; no more level-up moves
 
-Porygon2EvosAttacks:
-	evo_data EVOLVE_HOLDING, DUBIOUS_DISC, TR_ANYTIME, PORYGON_Z
+CLunasa2EvosAttacks:
+	evo_data EVOLVE_HOLDING, DUBIOUS_DISC, TR_ANYTIME, CLUNASA_Z
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, CONVERSION
@@ -5591,12 +5591,12 @@ HitmontopEvosAttacks:
 	db -1 ; no more level-up moves
 
 SmoochumEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, JYNX
+	evo_data EVOLVE_LEVEL, 30, ECHEN
 	db -1 ; no more evolutions
 	db 1, LICK
 	db 1, TACKLE ; Pound → similar move
 	db 4, ICY_WIND ; Powder Snow → TM move
-	db 8, METRONOME ; Copycat → Jynx RBY TM move
+	db 8, METRONOME ; Copycat → EChen RBY TM move
 	db 12, PSYSHOT
 	db 16, THIEF ; Covet → similar move
 	db 20, SING
@@ -5610,7 +5610,7 @@ SmoochumEvosAttacks:
 	db -1 ; no more level-up moves
 
 ElekidEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, ELECTABUZZ
+	evo_data EVOLVE_LEVEL, 30, CLILYWHITE
 	db -1 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
@@ -5629,7 +5629,7 @@ ElekidEvosAttacks:
 	db -1 ; no more level-up moves
 
 MagbyEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, MAGMAR
+	evo_data EVOLVE_LEVEL, 30, LILYWHITE
 	db -1 ; no more evolutions
 	db 1, HAZE ; Smog → new move
 	db 1, LEER
@@ -5965,9 +5965,9 @@ BonslyEvosAttacks:
 	db -1 ; no more level-up moves
 
 MimeJrEvosAttacks:
-	evo_data EVOLVE_LOCATION, ICE_PATH, MR__MIME, GALARIAN_FORM
-	evo_data EVOLVE_LEVEL, 30, MR__MIME, PLAIN_FORM
-	evo_data EVOLVE_ITEM, ICE_STONE, MR__MIME, GALARIAN_FORM
+	evo_data EVOLVE_LOCATION, ICE_PATH, CCHEN, GALARIAN_FORM
+	evo_data EVOLVE_LEVEL, 30, CCHEN, PLAIN_FORM
+	evo_data EVOLVE_ITEM, ICE_STONE, CCHEN, GALARIAN_FORM
 	db -1 ; no more evolutions
 	db 1, BARRIER
 	db 1, PSYSHOT
@@ -6004,7 +6004,7 @@ HappinyEvosAttacks:
 	db -1 ; no more level-up moves
 
 MunchlaxEvosAttacks:
-	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, SNORLAX
+	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, CRAN
 	db -1 ; no more evolutions
 	db 1, SWEET_KISS ; Recycle → event move
 	db 1, METRONOME
@@ -6020,7 +6020,7 @@ MunchlaxEvosAttacks:
 	db 36, ROLLOUT
 	db 41, OUTRAGE ; Fling → HGSS tutor move
 	db 44, BELLY_DRUM
-	db 49, AVARICE_BITE ; Natural Gift → Snorlax move
+	db 49, AVARICE_BITE ; Natural Gift → CRan move
 	db 50, GUNK_SHOT ; Snatch → egg move
 	db 57, DOUBLE_EDGE ; Last Resort → egg move
 	db -1 ; no more level-up moves
@@ -6297,7 +6297,7 @@ MamoswineEvosAttacks:
 	db 58, SCARY_FACE
 	db -1 ; no more level-up moves
 
-PorygonZEvosAttacks:
+CLunasaZEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TRICK_ROOM
 	db 1, TACKLE

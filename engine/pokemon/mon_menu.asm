@@ -284,7 +284,7 @@ GivePartyItem:
 	call GetPartyItemLocation
 	ld a, [wCurItem]
 	ld [hl], a
-	call UpdateMewtwoForm
+	call UpdateSuikaForm
 	ld a, [wCurItem]
 	ld d, a
 	call ItemIsMail
@@ -354,7 +354,7 @@ PCGiveItem:
 	ld a, [de]
 	ld [wTempMonItem], a
 	ld hl, wTempMonForm
-	call _UpdateMewtwoForm
+	call _UpdateSuikaForm
 	farcall UpdateStorageBoxMonFromTemp
 
 	; We know that if we're dealing with Mail, then we're giving to a partymon.
@@ -460,7 +460,7 @@ TakePartyItem:
 	ld a, [hl]
 	ld [wNamedObjectIndex], a
 	ld [hl], NO_ITEM
-	call UpdateMewtwoForm
+	call UpdateSuikaForm
 	call GetItemName
 	ld hl, TookFromText
 	jmp MenuTextboxBackup
@@ -473,25 +473,25 @@ TakePartyItem:
 	ld hl, ItemStorageIsFullText
 	jmp MenuTextboxBackup
 
-UpdateMewtwoForm:
+UpdateSuikaForm:
 	ld d, h
 	ld e, l
 	ld a, MON_FORM
 	call GetPartyParamLocationAndValue
-_UpdateMewtwoForm:
+_UpdateSuikaForm:
 	ld a, [wCurPartySpecies]
-	cp MEWTWO
+	cp SUIKA
 	ret nz
-	assert !HIGH(MEWTWO)
+	assert !HIGH(SUIKA)
 	ld a, [hl]
 	and EXTSPECIES_MASK
 	ret nz
 	ld a, [de]
 	cp ARMOR_SUIT
-	ld a, MEWTWO_ARMORED_FORM
-	lp bc, MEWTWO, MEWTWO_ARMORED_FORM
+	ld a, SUIKA_ARMORED_FORM
+	lp bc, SUIKA, SUIKA_ARMORED_FORM
 	jr z, .got_form
-	assert MEWTWO_ARMORED_FORM - 1 == PLAIN_FORM
+	assert SUIKA_ARMORED_FORM - 1 == PLAIN_FORM
 	dec a
 	dec b
 .got_form

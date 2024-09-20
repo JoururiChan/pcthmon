@@ -118,39 +118,39 @@ FootprintPointers::
 	dw CFlandreFootprint
 	dw FlandreFootprint
 	dw EFlandreFootprint
-	dw SeakingFootprint
-	dw StaryuFootprint
-	dw StarmieFootprint
+	dw CLettyFootprint
+	dw LettyFootprint
+	dw ELettyFootprint
 	dw MrMimeFootprint
-	dw ScytherFootprint
-	dw JynxFootprint
-	dw ElectabuzzFootprint
-	dw MagmarFootprint
-	dw PinsirFootprint
-	dw TaurosFootprint
-	dw MagikarpFootprint
-	dw GyaradosFootprint
-	dw LaprasFootprint
-	dw DittoFootprint
-	dw EeveeFootprint
-	dw VaporeonFootprint
-	dw JolteonFootprint
-	dw FlareonFootprint
-	dw PorygonFootprint
-	dw OmanyteFootprint
-	dw OmastarFootprint
-	dw KabutoFootprint
-	dw KabutopsFootprint
-	dw AerodactylFootprint
-	dw SnorlaxFootprint
-	dw ArticunoFootprint
-	dw ZapdosFootprint
-	dw MoltresFootprint
-	dw DratiniFootprint
-	dw DragonairFootprint
-	dw DragoniteFootprint
-	dw MewtwoFootprint
-	dw MewFootprint
+	dw ChenFootprint
+	dw EChenFootprint
+	dw CLilyWhiteFootprint
+	dw LilyWhiteFootprint
+	dw ELilyWhiteFootprint
+	dw CLilyBlackFootprint
+	dw LilyBlackFootprint
+	dw ELilyBlackFootprint
+	dw CLyricaFootprint
+	dw LyricaFootprint
+	dw ELyricaFootprint
+	dw CMerlinFootprint
+	dw MerlinFootprint
+	dw EMerlinFootprint
+	dw CLunasaFootprint
+	dw LunasaFootprint
+	dw ELunasaFootprint
+	dw CYuyukoFootprint
+	dw YuyukoFootprint
+	dw EYuyukoFootprint
+	dw CRanFootprint
+	dw RanFootprint
+	dw ERanFootprint
+	dw CYukariFootprint
+	dw YukariFootprint
+	dw EYukariFootprint
+	dw CSuikaFootprint
+	dw SuikaFootprint
+	dw ESuikaFootprint
 	dw CYoumuFootprint
 	dw YoumuFootprint
 	dw EYoumuFootprint
@@ -232,7 +232,7 @@ FootprintPointers::
 	dw KingdraFootprint
 	dw PhanpyFootprint
 	dw DonphanFootprint
-	dw Porygon2Footprint
+	dw CLunasa2Footprint
 	dw StantlerFootprint
 	dw SmeargleFootprint
 	dw TyrogueFootprint
@@ -276,7 +276,7 @@ FootprintPointers::
 	dw GlaceonFootprint
 	dw GliscorFootprint
 	dw MamoswineFootprint
-	dw PorygonZFootprint
+	dw CLunasaZFootprint
 	dw SylveonFootprint
 	dw PerrserkerFootprint
 	dw CursolaFootprint
@@ -293,9 +293,9 @@ FootprintPointers::
 	dw AnnihilapeFootprint
 	assert_table_length NUM_SPECIES
 
-	dw GyaradosFootprint
+	dw ELilyBlackFootprint
 
-	dw MewtwoFootprint
+	dw SuikaFootprint
 
 	dw DudunsparceFootprint
 
@@ -326,9 +326,9 @@ FootprintPointers::
 	dw CMaiFootprint
 	dw CPatchouliFootprint
 	dw MrMimeFootprint
-	dw ArticunoFootprint
-	dw ZapdosFootprint
-	dw MoltresFootprint
+	dw RanFootprint
+	dw ERanFootprint
+	dw CYukariFootprint
 	dw SlowkingFootprint
 	dw CorsolaFootprint
 
@@ -341,8 +341,8 @@ FootprintPointers::
 	dw SneaselFootprint
 
 	dw WooperFootprint
-	dw TaurosFootprint
-	dw TaurosFootprint
-	dw TaurosFootprint
+	dw CLilyBlackFootprint
+	dw CLilyBlackFootprint
+	dw CLilyBlackFootprint
 
 	assert_table_length NUM_EXT_POKEMON

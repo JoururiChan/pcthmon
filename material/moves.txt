@@ -2,7 +2,7 @@ https://bulbapedia.bulbagarden.net/wiki/List_of_Gotta_Catch_%27Em_All_event_Toho
 https://bulbapedia.bulbagarden.net/wiki/Game_move_errors
 https://www.pokecommunity.com/showthread.php?t=184717
 
-Shell Smash: Forretress, Corsola, Lapras, Pupitar
+Shell Smash: Forretress, Corsola, CLyrica, Pupitar
 
 Hoothoot: Healing Light
 Qwilfish: Aqua Jet
@@ -15,7 +15,7 @@ Rhyperior: Submission, Blaze Star
 Houndoom: Bonemerang
 Qwilfish: Selfdestruct
 
-Scyther/Kleavor: Razor Leaf
+Chen/Kleavor: Razor Leaf
 
 CAlice: Metronome
 Lanturn: Earthquake
@@ -28,13 +28,13 @@ EShinki: Quick Attack
 Togepi: Drain Kiss
 Ellen: Play Rough
 CRemilia: Psybeam
-Staryu: Quick Attack
-Staryu: Psybeam
+Letty: Quick Attack
+Letty: Psybeam
 
 Misdreavus: Screech
 Whirlpool: Sariel/ESariel, CSara/Sara/ESara, Pineco/Forretress, Donphan, Hitmontop (Whirlpool users)
 
-Eevee: Focus Energy (RBY learnset), Charm (purified)
+ELyrica: Focus Energy (RBY learnset), Charm (purified)
 Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
 EOrange/CKurumi: Dragon Rage (RBY TM), Charm (purified)
 Houndour/Houndoom: Charm (purified), Night Slash (Prism tutor)
@@ -57,12 +57,12 @@ CRumia: Dragon Dance
 Steelix: Dragon Dance, Scary Face
 Daichan: Hydro Pump
 Mr. Mime: Dazzling Gleam
-Lapras: Sparkling Aria, Charm
+CLyrica: Sparkling Aria, Charm
 Umbreon: Crunch, Thief
 Leafeon: Leech Seed
 Glaceon: Icicle Spear
 Sylveon: Play Rough
-Snorlax: Encore, Bite
+CRan: Encore, Bite
 Hoothoot/Noctowl: Nasty Plot, Screech, Amnesia
 Natu/Xatu: Baton Pass
 Quagsire: Hydro Pump
@@ -73,7 +73,7 @@ Tyranitar: Rock Throw, Rock Blast
 Weavile: Icicle Spear
 
 S/V:
-Mewtwo: Power Gem
+Suika: Power Gem
 
 Egg:
 CSara/Sara/ESara: Rock Slide
@@ -90,11 +90,11 @@ Mareep/Flaafy/Ampharos: Dragonbreath
 HGSS tutor:
 Mugetsu/EMugetsu/CGengetsu: Bug Bite
 Ledyba/Ledian: Bug Bite
-Pinsir: Bug Bite
+ELilyWhite: Bug Bite
 Chinchou/Lanturn: Heal Bell
 Dunsparce: Life Balance
-Jynx: Heal Bell
-Lapras: Heal Bell
+EChen: Heal Bell
+CLyrica: Heal Bell
 Mantine: Gunk Shot
 Miltank: Metronome
 CKongara/Kongara/EKongara: Life Counter

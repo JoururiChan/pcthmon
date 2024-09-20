@@ -15,12 +15,12 @@ GoldenrodMuseum2F_MapScriptHeader:
 	bg_event  5,  0, BGEVENT_READ, BellTowerPaintingScript
 	bg_event  7,  0, BGEVENT_READ, HoOhPaintingScript
 	bg_event  8,  0, BGEVENT_READ, HoOhPaintingScript
-	bg_event  1,  4, BGEVENT_READ, KabutoPuzzleScript
-	bg_event  1,  5, BGEVENT_READ, KabutoPuzzleScript
-	bg_event  5,  4, BGEVENT_READ, OmanytePuzzleScript
-	bg_event  5,  5, BGEVENT_READ, OmanytePuzzleScript
-	bg_event  1,  6, BGEVENT_READ, AerodactylPuzzleScript
-	bg_event  1,  7, BGEVENT_READ, AerodactylPuzzleScript
+	bg_event  1,  4, BGEVENT_READ, CYuyukoPuzzleScript
+	bg_event  1,  5, BGEVENT_READ, CYuyukoPuzzleScript
+	bg_event  5,  4, BGEVENT_READ, LunasaPuzzleScript
+	bg_event  5,  5, BGEVENT_READ, LunasaPuzzleScript
+	bg_event  1,  6, BGEVENT_READ, EYuyukoPuzzleScript
+	bg_event  1,  7, BGEVENT_READ, EYuyukoPuzzleScript
 	bg_event  5,  6, BGEVENT_READ, HoOhPuzzleScript
 	bg_event  5,  7, BGEVENT_READ, HoOhPuzzleScript
 	bg_event 10,  1, BGEVENT_JUMPTEXT, TowerRelicText
@@ -72,43 +72,43 @@ BellTowerPaintingScript:
 	line "     and Hope"
 	done
 
-KabutoPuzzleScript:
-	checkevent EVENT_SOLVED_KABUTO_PUZZLE
+CYuyukoPuzzleScript:
+	checkevent EVENT_SOLVED_CYUYUKO_PUZZLE
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
-	paintingpic KABUTO_PUZZLE
+	paintingpic CYUYUKO_PUZZLE
 	waitbutton
 	closepokepic
 	jumpthistext
 
 	text "It's the completed"
-	line "Kabuto panel!"
+	line "CYuyuko panel!"
 	done
 
-OmanytePuzzleScript:
-	checkevent EVENT_SOLVED_OMANYTE_PUZZLE
+LunasaPuzzleScript:
+	checkevent EVENT_SOLVED_LUNASA_PUZZLE
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
-	paintingpic OMANYTE_PUZZLE
+	paintingpic LUNASA_PUZZLE
 	waitbutton
 	closepokepic
 	jumpthistext
 
 	text "It's the completed"
-	line "Omanyte panel!"
+	line "Lunasa panel!"
 	done
 
-AerodactylPuzzleScript:
-	checkevent EVENT_SOLVED_AERODACTYL_PUZZLE
+EYuyukoPuzzleScript:
+	checkevent EVENT_SOLVED_EYUYUKO_PUZZLE
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
-	paintingpic AERODACTYL_PUZZLE
+	paintingpic EYUYUKO_PUZZLE
 	waitbutton
 	closepokepic
 	jumpthistext
 
 	text "It's the completed"
-	line "Aerodactyl panel!"
+	line "EYuyuko panel!"
 	done
 
 HoOhPuzzleScript:
@@ -176,11 +176,11 @@ GoldenrodMuseum2FSmeargleText:
 	done
 
 GoldenrodMuseum2FScientistScript:
-	checkevent EVENT_SOLVED_KABUTO_PUZZLE
+	checkevent EVENT_SOLVED_CYUYUKO_PUZZLE
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FScientistNoArtifactsText
-	checkevent EVENT_SOLVED_OMANYTE_PUZZLE
+	checkevent EVENT_SOLVED_LUNASA_PUZZLE
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FScientistNoArtifactsText
-	checkevent EVENT_SOLVED_AERODACTYL_PUZZLE
+	checkevent EVENT_SOLVED_EYUYUKO_PUZZLE
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FScientistNoArtifactsText
 	checkevent EVENT_SOLVED_HO_OH_PUZZLE
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FScientistNoArtifactsText

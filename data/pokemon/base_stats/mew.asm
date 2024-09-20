@@ -8,9 +8,9 @@
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for MEW, SYNCHRONIZE, SYNCHRONIZE, SYNCHRONIZE
+	abilities_for ESUIKA, SYNCHRONIZE, SYNCHRONIZE, SYNCHRONIZE
 else
-	abilities_for MEW, SYNCHRONIZE, SYNCHRONIZE, MAGIC_GUARD
+	abilities_for ESUIKA, SYNCHRONIZE, SYNCHRONIZE, MAGIC_GUARD
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups

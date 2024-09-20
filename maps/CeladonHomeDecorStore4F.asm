@@ -18,53 +18,53 @@ CeladonHomeDecorStore4F_MapScriptHeader:
 
 	def_object_events
 	object_event  9,  5, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, BigDollClerkText, -1
-	object_event  1,  3, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigSnorlaxDollScript, -1
-	object_event  2,  3, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_STANDING_DOWN_FLIP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigSnorlaxDollScript, -1
-	object_event  1,  4, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigSnorlaxDollScript, -1
-	object_event  2,  4, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_STANDING_UP_FLIP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigSnorlaxDollScript, -1
-	object_event  4,  4, SPRITE_BIG_LAPRAS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigLaprasDollScript, -1
-	object_event  5,  4, SPRITE_BIG_LAPRAS, SPRITEMOVEDATA_STANDING_DOWN_FLIP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigLaprasDollScript, -1
-	object_event  4,  5, SPRITE_BIG_LAPRAS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigLaprasDollScript, -1
-	object_event  5,  5, SPRITE_BIG_LAPRAS, SPRITEMOVEDATA_STANDING_UP_FLIP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigLaprasDollScript, -1
+	object_event  1,  3, SPRITE_BIG_CRAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigCRanDollScript, -1
+	object_event  2,  3, SPRITE_BIG_CRAN, SPRITEMOVEDATA_STANDING_DOWN_FLIP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigCRanDollScript, -1
+	object_event  1,  4, SPRITE_BIG_CRAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigCRanDollScript, -1
+	object_event  2,  4, SPRITE_BIG_CRAN, SPRITEMOVEDATA_STANDING_UP_FLIP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigCRanDollScript, -1
+	object_event  4,  4, SPRITE_BIG_CLYRICA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigCLyricaDollScript, -1
+	object_event  5,  4, SPRITE_BIG_CLYRICA, SPRITEMOVEDATA_STANDING_DOWN_FLIP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigCLyricaDollScript, -1
+	object_event  4,  5, SPRITE_BIG_CLYRICA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigCLyricaDollScript, -1
+	object_event  5,  5, SPRITE_BIG_CLYRICA, SPRITEMOVEDATA_STANDING_UP_FLIP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigCLyricaDollScript, -1
 
 BigDollClerkNoMoneyScript:
 	jumpopenedtext BigDollClerkNoMoneyText
 
-BigLaprasDollScript:
-	checkevent EVENT_DECO_BIG_LAPRAS_DOLL
-	iftrue_jumptext BigLaprasDollText
+BigCLyricaDollScript:
+	checkevent EVENT_DECO_BIG_CLYRICA_DOLL
+	iftrue_jumptext BigCLyricaDollText
 	opentext
-	writetext BigDollClerkSellLaprasText
+	writetext BigDollClerkSellCLyricaText
 	special PlaceMoneyTopRight
 	yesorno
 	iffalse_jumpopenedtext BigDollClerkNoSaleText
 	checkmoney $0, 300000
 	ifequal $2, BigDollClerkNoMoneyScript
 	takemoney $0, 300000
-	setevent EVENT_DECO_BIG_LAPRAS_DOLL
-	writetext BoughtBigLaprasDollText
+	setevent EVENT_DECO_BIG_CLYRICA_DOLL
+	writetext BoughtBigCLyricaDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	jumpopenedtext BigLaprasDollSentText
+	jumpopenedtext BigCLyricaDollSentText
 
-BigSnorlaxDollScript:
-	checkevent EVENT_DECO_BIG_SNORLAX_DOLL
-	iftrue_jumptext BigSnorlaxDollText
+BigCRanDollScript:
+	checkevent EVENT_DECO_BIG_CRAN_DOLL
+	iftrue_jumptext BigCRanDollText
 	opentext
-	writetext BigDollClerkSellSnorlaxText
+	writetext BigDollClerkSellCRanText
 	special PlaceMoneyTopRight
 	yesorno
 	iffalse_jumpopenedtext BigDollClerkNoSaleText
 	checkmoney $0, 200000
 	ifequal $2, BigDollClerkNoMoneyScript
 	takemoney $0, 200000
-	setevent EVENT_DECO_BIG_SNORLAX_DOLL
-	writetext BoughtBigSnorlaxDollText
+	setevent EVENT_DECO_BIG_CRAN_DOLL
+	writetext BoughtBigCRanDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	jumpopenedtext BigSnorlaxDollSentText
+	jumpopenedtext BigCRanDollSentText
 
 BigCRumiaDollScript:
 	checkevent EVENT_DECO_BIG_CRUMIA_DOLL
@@ -103,17 +103,17 @@ BigDollClerkNoMoneyText:
 	line "afford it!"
 	done
 
-BigDollClerkSellLaprasText:
+BigDollClerkSellCLyricaText:
 	text "Clerk: You like"
-	line "the Lapras doll?"
+	line "the CLyrica doll?"
 
 	para "It'll cost you"
 	line "¥300,000."
 	done
 
-BigDollClerkSellSnorlaxText:
+BigDollClerkSellCRanText:
 	text "Clerk: You like"
-	line "the Snorlax doll?"
+	line "the CRan doll?"
 
 	para "It'll cost you"
 	line "¥200,000."
@@ -127,23 +127,23 @@ BigDollClerkSellCRumiaText:
 	line "¥250,000."
 	done
 
-BoughtBigLaprasDollText:
+BoughtBigCLyricaDollText:
 	text "<PLAYER> bought"
-	line "Big Lapras Doll."
+	line "Big CLyrica Doll."
 	done
 
-BigLaprasDollSentText:
-	text "Big Lapras Doll"
+BigCLyricaDollSentText:
+	text "Big CLyrica Doll"
 	line "was sent home."
 	done
 
-BoughtBigSnorlaxDollText:
+BoughtBigCRanDollText:
 	text "<PLAYER> bought"
-	line "Big Snorlax Doll."
+	line "Big CRan Doll."
 	done
 
-BigSnorlaxDollSentText:
-	text "Big Snorlax Doll"
+BigCRanDollSentText:
+	text "Big CRan Doll"
 	line "was sent home."
 	done
 
@@ -157,14 +157,14 @@ BigCRumiaDollSentText:
 	line "was sent home."
 	done
 
-BigLaprasDollText:
+BigCLyricaDollText:
 	text "It's a jumbo-size"
-	line "Lapras Doll!"
+	line "CLyrica Doll!"
 	done
 
-BigSnorlaxDollText:
+BigCRanDollText:
 	text "It's a jumbo-size"
-	line "Snorlax Doll!"
+	line "CRan Doll!"
 	done
 
 BigCRumiaDollText:

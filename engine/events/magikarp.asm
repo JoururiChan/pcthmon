@@ -1,20 +1,20 @@
-CheckMagikarpLength:
-	; Returns 3 if you select a Magikarp that beats the previous record.
-	; Returns 2 if you select a Magikarp, but the current record is longer.
+CheckLilyBlackLength:
+	; Returns 3 if you select a LilyBlack that beats the previous record.
+	; Returns 2 if you select a LilyBlack, but the current record is longer.
 	; Returns 1 if you press B in the Pokemon selection menu.
-	; Returns 0 if the Pokemon you select is not a Magikarp.
+	; Returns 0 if the Pokemon you select is not a LilyBlack.
 
-	; Let's start by selecting a Magikarp.
+	; Let's start by selecting a LilyBlack.
 	farcall SelectMonFromParty
 	jr c, .declined
 	ld a, [wCurPartySpecies]
-	cp LOW(MAGIKARP)
+	cp LOW(LILYBLACK)
 	jr nz, .not_magikarp
 	ld a, [wCurForm]
 	assert MON_IS_EGG == MON_FORM
 	and IS_EGG_MASK | EXTSPECIES_MASK
-	assert !HIGH(MAGIKARP)
-	and a ; cp HIGH(MAGIKARP) << MON_EXTSPECIES_F | IS_EGG_MASK
+	assert !HIGH(LILYBLACK)
+	and a ; cp HIGH(LILYBLACK) << MON_EXTSPECIES_F | IS_EGG_MASK
 	jr nz, .not_magikarp
 
 	; Now let's compute its length based on its DVs and ID.
@@ -32,21 +32,21 @@ CheckMagikarpLength:
 	add hl, bc
 	ld b, h
 	ld c, l
-	call CalcMagikarpLength
-	call PrintMagikarpLength
+	call CalcLilyBlackLength
+	call PrintLilyBlackLength
 	ld hl, .MeasureItText
 	call PrintText
 
 	; Did we beat the record?
-	ld hl, wMagikarpLengthMm
-	ld de, wBestMagikarpLengthMm
+	ld hl, wLilyBlackLengthMm
+	ld de, wBestLilyBlackLengthMm
 	ld c, 2
 	call StringCmp
 	jr nc, .not_long_enough
 
 	; NEW RECORD!!! Let's save that.
-	ld hl, wMagikarpLengthMm
-	ld de, wBestMagikarpLengthMm
+	ld hl, wLilyBlackLengthMm
+	ld de, wBestLilyBlackLengthMm
 	ld a, [hli]
 	ld [de], a
 	inc de
@@ -77,16 +77,16 @@ CheckMagikarpLength:
 	ret
 
 .MeasureItText:
-	; Let me measure that MAGIKARP. …Hm, it measures @ .
-	text_far _MagikarpGuruMeasureText
+	; Let me measure that LILYBLACK. …Hm, it measures @ .
+	text_far _LilyBlackGuruMeasureText
 	text_end
 
-PrintMagikarpLength:
+PrintLilyBlackLength:
 	ld a, [wOptions2]
 	bit TOHODEX_UNITS, a
 	jr z, .imperial
 	ld hl, wStringBuffer1
-	ld de, wMagikarpLengthMm
+	ld de, wLilyBlackLengthMm
 	lb bc, PRINTNUM_LEFTALIGN | 2, 4
 	call PrintNum
 	dec hl
@@ -102,9 +102,9 @@ PrintMagikarpLength:
 	ret
 
 .imperial
-	ld a, [wMagikarpLengthMmHi]
+	ld a, [wLilyBlackLengthMmHi]
 	ld b, a
-	ld a, [wMagikarpLengthMmLo]
+	ld a, [wLilyBlackLengthMmLo]
 	ld c, a
 	ld de, div(1.0q16, 25.4q16, 16) ; 1 in / 25.4 mm = 0.03937 in/mm
 	xor a
@@ -155,16 +155,16 @@ PrintMagikarpLength:
 	jr .inchloop
 .inchdone
 	ld a, e
-	ld [wMagikarpLengthMmHi], a
+	ld [wLilyBlackLengthMmHi], a
 	ld a, l
-	ld [wMagikarpLengthMmLo], a
+	ld [wLilyBlackLengthMmLo], a
 	ld hl, wStringBuffer1
-	ld de, wMagikarpLengthMmHi
+	ld de, wLilyBlackLengthMmHi
 	lb bc, PRINTNUM_LEFTALIGN | 1, 2
 	call PrintNum
 	ld a, "′"
 	ld [hli], a
-	ld de, wMagikarpLengthMmLo
+	ld de, wLilyBlackLengthMmLo
 	lb bc, PRINTNUM_LEFTALIGN | 1, 2
 	call PrintNum
 	ld a, "″"
@@ -172,8 +172,8 @@ PrintMagikarpLength:
 	ld [hl], "@"
 	ret
 
-CalcMagikarpLength:
-; Return Magikarp's length (in mm) at wMagikarpLengthMm (big endian).
+CalcLilyBlackLength:
+; Return LilyBlack's length (in mm) at wLilyBlackLengthMm (big endian).
 ;
 ; input:
 ;   de: wOTPartyMon1DVs
@@ -182,17 +182,17 @@ CalcMagikarpLength:
 ; This function is poorly commented.
 
 ; In short, it generates a value between 190 and 1786 using
-; a Magikarp's DVs and its trainer ID. This value is further
-; filtered in LoadEnemyMon to make longer Magikarp even rarer.
+; a LilyBlack's DVs and its trainer ID. This value is further
+; filtered in LoadEnemyMon to make longer LilyBlack even rarer.
 
 ; The value is generated from a lookup table.
 ; The index is determined by the dv xored with the player's trainer id.
 
 ; bc = rrc(dv[0]) ++ rrc(dv[1]) ^ rrc(id)
 
-; if bc < 10:    [wMagikarpLengthMm] = c + 190
-; if bc ≥ $ff00: [wMagikarpLengthMm] = c + 1370
-; else:          [wMagikarpLengthMm] = z × 100 + (bc − x) / y
+; if bc < 10:    [wLilyBlackLengthMm] = c + 190
+; if bc ≥ $ff00: [wLilyBlackLengthMm] = c + 1370
+; else:          [wLilyBlackLengthMm] = z × 100 + (bc − x) / y
 
 ; X, Y, and Z depend on the value of b as follows:
 
@@ -253,7 +253,7 @@ CalcMagikarpLength:
 
 .no
 
-	ld hl, MagikarpLengths
+	ld hl, LilyBlackLengths
 	ld a, 2
 	ld [wTempByteValue], a
 
@@ -340,7 +340,7 @@ CalcMagikarpLength:
 ;.ok
 ;	ld e, a
 
-	ld hl, wMagikarpLengthMm
+	ld hl, wLilyBlackLengthMm
 	ld a, d
 	ld [hli], a
 	ld [hl], e
@@ -367,12 +367,12 @@ CalcMagikarpLength:
 
 INCLUDE "data/events/magikarp_lengths.asm"
 
-Special_MagikarpHouseSign:
-	ld a, [wBestMagikarpLengthMmHi]
-	ld [wMagikarpLengthMmHi], a
-	ld a, [wBestMagikarpLengthMmLo]
-	ld [wMagikarpLengthMmLo], a
-	call PrintMagikarpLength
+Special_LilyBlackHouseSign:
+	ld a, [wBestLilyBlackLengthMmHi]
+	ld [wLilyBlackLengthMmHi], a
+	ld a, [wBestLilyBlackLengthMmLo]
+	ld [wLilyBlackLengthMmLo], a
+	call PrintLilyBlackLength
 	ld hl, .CurrentRecordtext
 	jmp PrintText
 

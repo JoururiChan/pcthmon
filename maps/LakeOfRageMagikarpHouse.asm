@@ -1,4 +1,4 @@
-LakeOfRageMagikarpHouse_MapScriptHeader:
+LakeOfRageLilyBlackHouse_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -13,48 +13,48 @@ LakeOfRageMagikarpHouse_MapScriptHeader:
 	bg_event  7,  1, BGEVENT_JUMPSTD, difficultbookshelf
 
 	def_object_events
-	object_event  2,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MagikarpLengthRaterScript, -1
+	object_event  2,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, LilyBlackLengthRaterScript, -1
 
-MagikarpLengthRaterScript:
+LilyBlackLengthRaterScript:
 	faceplayer
 	opentext
 	checkevent EVENT_LAKE_OF_RAGE_ELIXIR_ON_STANDBY
 	iftruefwd .GetReward
-	checkevent EVENT_LAKE_OF_RAGE_ASKED_FOR_MAGIKARP
-	iftruefwd .AskedForMagikarp
+	checkevent EVENT_LAKE_OF_RAGE_ASKED_FOR_LILYBLACK
+	iftruefwd .AskedForLilyBlack
 	checkevent EVENT_CLEARED_ROCKET_HIDEOUT
 	iftruefwd .ClearedRocketHideout
-	checkevent EVENT_LAKE_OF_RAGE_EXPLAINED_WEIRD_MAGIKARP
-	iftrue_jumpopenedtext MagikarpLengthRaterText_MenInBlack
-	writetext MagikarpLengthRaterText_LakeOfRageHistory
+	checkevent EVENT_LAKE_OF_RAGE_EXPLAINED_WEIRD_LILYBLACK
+	iftrue_jumpopenedtext LilyBlackLengthRaterText_MenInBlack
+	writetext LilyBlackLengthRaterText_LakeOfRageHistory
 	waitbutton
 	closetext
-	setevent EVENT_LAKE_OF_RAGE_EXPLAINED_WEIRD_MAGIKARP
+	setevent EVENT_LAKE_OF_RAGE_EXPLAINED_WEIRD_LILYBLACK
 	end
 
 .ClearedRocketHideout:
-	writetext MagikarpLengthRaterText_WorldsLargestMagikarp
+	writetext LilyBlackLengthRaterText_WorldsLargestLilyBlack
 	waitbutton
 	closetext
-	setevent EVENT_LAKE_OF_RAGE_ASKED_FOR_MAGIKARP
+	setevent EVENT_LAKE_OF_RAGE_ASKED_FOR_LILYBLACK
 	end
 
-.AskedForMagikarp:
-	setmonval MAGIKARP
+.AskedForLilyBlack:
+	setmonval LILYBLACK
 	special Special_FindThatSpecies
 	iffalse .ClearedRocketHideout
-	writetext MagikarpLengthRaterText_YouHaveAMagikarp
+	writetext LilyBlackLengthRaterText_YouHaveALilyBlack
 	waitbutton
-	special CheckMagikarpLength
-	iffalse_jumpopenedtext MagikarpLengthRaterText_NotMagikarp
+	special CheckLilyBlackLength
+	iffalse_jumpopenedtext LilyBlackLengthRaterText_NotLilyBlack
 	ifequalfwd $1, .Refused
 	ifequalfwd $2, .TooShort
 .GetReward:
-	writetext MagikarpLengthRaterText_Memento
+	writetext LilyBlackLengthRaterText_Memento
 	promptbutton
 	verbosegiveitem ELIXIR
 	iffalsefwd .NoRoom
-	writetext MagikarpLengthRaterText_Bonus
+	writetext LilyBlackLengthRaterText_Bonus
 	waitbutton
 	closetext
 	clearevent EVENT_LAKE_OF_RAGE_ELIXIR_ON_STANDBY
@@ -88,12 +88,12 @@ MagikarpLengthRaterScript:
 	line "Maybe next time."
 	done
 
-MagikarpLengthRaterText_LakeOfRageHistory:
+LilyBlackLengthRaterText_LakeOfRageHistory:
 	text "Lake of Rage is"
 	line "actually a crater"
 
 	para "made by rampaging"
-	line "Gyarados."
+	line "ELilyBlack."
 
 	para "The crater filled"
 	line "up with rainwater"
@@ -110,14 +110,14 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	para "It used to be that"
 	line "you could catch"
 
-	para "lively Magikarp"
+	para "lively LilyBlack"
 	line "there, but…"
 
 	para "I don't understand"
 	line "what's happening."
 	done
 
-MagikarpLengthRaterText_MenInBlack:
+LilyBlackLengthRaterText_MenInBlack:
 	text "The lake hasn't"
 	line "been normal since"
 
@@ -125,32 +125,32 @@ MagikarpLengthRaterText_MenInBlack:
 	line "black arrived."
 	done
 
-MagikarpLengthRaterText_WorldsLargestMagikarp:
+LilyBlackLengthRaterText_WorldsLargestLilyBlack:
 	text "Lake of Rage is"
 	line "back to normal."
 
-	para "The Magikarp have"
+	para "The LilyBlack have"
 	line "returned."
 
 	para "I may yet realize"
 	line "my dream of see-"
 	cont "ing the world's"
-	cont "largest Magikarp."
+	cont "largest LilyBlack."
 
 	para "Do you have a Rod?"
 	line "Please help me if"
 	cont "you do."
 	done
 
-MagikarpLengthRaterText_YouHaveAMagikarp:
+LilyBlackLengthRaterText_YouHaveALilyBlack:
 	text "Ah, you have a"
-	line "Magikarp! Let's"
+	line "LilyBlack! Let's"
 
 	para "see how big that"
 	line "baby is."
 	done
 
-MagikarpLengthRaterText_Memento:
+LilyBlackLengthRaterText_Memento:
 	text "Wow! This one is"
 	line "outstanding!"
 
@@ -161,7 +161,7 @@ MagikarpLengthRaterText_Memento:
 	line "memento!"
 	done
 
-MagikarpLengthRaterText_Bonus:
+LilyBlackLengthRaterText_Bonus:
 	text "The record is the"
 	line "important thing."
 
@@ -169,7 +169,7 @@ MagikarpLengthRaterText_Bonus:
 	line "a bonus!"
 	done
 
-MagikarpLengthRaterText_NotMagikarp:
+LilyBlackLengthRaterText_NotLilyBlack:
 	text "What? That's not a"
-	line "Magikarp!"
+	line "LilyBlack!"
 	done

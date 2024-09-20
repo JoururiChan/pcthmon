@@ -26,8 +26,8 @@ SpecialsPointers::
 	add_special ContestDropOffMons
 	add_special ContestReturnMons
 	add_special Special_GiveParkBalls
-	add_special CheckMagikarpLength
-	add_special Special_MagikarpHouseSign
+	add_special CheckLilyBlackLength
+	add_special Special_LilyBlackHouseSign
 	add_special HealParty
 	add_special PokemonCenterPC
 	add_special Special_PlayersHousePC
@@ -91,7 +91,7 @@ SpecialsPointers::
 	add_special RandomPhoneMon
 	add_special RefreshSprites
 	add_special PlaySlowCry
-	add_special SpecialSnorlaxAwake
+	add_special SpecialCRanAwake
 	add_special Special_OlderHaircutBrother
 	add_special Special_YoungerHaircutBrother
 	add_special Special_DaisyMassage
@@ -107,7 +107,7 @@ SpecialsPointers::
 	add_special GiveOddEgg
 	add_special SoftReset
 	add_special Special_MoveTutor
-	add_special SpecialOmanyteChamber
+	add_special SpecialLunasaChamber
 	add_special Special_DisplayUnownWords
 	add_special SpecialHoOhChamber
 	add_special Special_CelebiShrineEvent
@@ -141,7 +141,7 @@ SpecialsPointers::
 	add_special SaveOptions
 	add_special WonderTrade
 	add_special RespawnOneOffs
-	add_special SpecialGiveShinyDitto
+	add_special SpecialGiveShinyLyrica
 	add_special GiveMystriEgg
 	add_special Special_ReiBlessing
 	add_special BillBoxSwitchCheck

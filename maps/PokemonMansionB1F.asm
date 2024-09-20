@@ -12,8 +12,8 @@ PokemonMansionB1F_MapScriptHeader:
 	bg_event 26,  4, BGEVENT_ITEM + MAX_ELIXIR, EVENT_POKEMON_MANSION_B1F_HIDDEN_MAX_ELIXIR
 	bg_event  8, 13, BGEVENT_ITEM + RARE_CANDY, EVENT_POKEMON_MANSION_B1F_HIDDEN_RARE_CANDY
 	bg_event 20, 27, BGEVENT_ITEM + BERSERK_GENE, EVENT_POKEMON_MANSION_B1F_HIDDEN_BERSERK_GENE
-	bg_event 20, 27, BGEVENT_JUMPTEXT, PokemonMansion1FMewtwoStatueText
-	bg_event 22,  5, BGEVENT_JUMPTEXT, PokemonMansion1FMewtwoStatueText
+	bg_event 20, 27, BGEVENT_JUMPTEXT, PokemonMansion1FSuikaStatueText
+	bg_event 22,  5, BGEVENT_JUMPTEXT, PokemonMansion1FSuikaStatueText
 	bg_event  8, 13, BGEVENT_JUMPTEXT, PokemonMansion1FFlowerPotText
 	bg_event  9, 13, BGEVENT_JUMPTEXT, PokemonMansion1FFlowerPotText
 	bg_event  4, 17, BGEVENT_JUMPTEXT, PokemonMansion1FFlowerPotText
@@ -60,17 +60,17 @@ PokemonMansionDiaryText:
 
 	para "We christened the"
 	line "newly discovered"
-	cont "#mon, Mew."
+	cont "#mon, ESuika."
 
 	para "Diary: Feb. 6"
 
-	para "Mew gave birth."
+	para "ESuika gave birth."
 	line "We named the"
-	cont "newborn Mewtwo."
+	cont "newborn Suika."
 
 	para "Diary: Sept. 1"
 
-	para "Mewtwo is far"
+	para "Suika is far"
 	line "too powerful."
 
 	para "We have failed to"

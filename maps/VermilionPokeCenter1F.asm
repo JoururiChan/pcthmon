@@ -42,8 +42,8 @@ PokemonJournalLtSurgeScript:
 	done
 
 VermilionPokeCenter1FSightseerMScript:
-	checkevent EVENT_VERMILION_CITY_SNORLAX
-	iftrue_jumptextfaceplayer .SnorlaxText
+	checkevent EVENT_VERMILION_CITY_CRAN
+	iftrue_jumptextfaceplayer .CRanText
 	jumpthistextfaceplayer
 
 	text "A sleeping #mon"
@@ -57,7 +57,7 @@ VermilionPokeCenter1FSightseerMScript:
 	line "wake it up?"
 	done
 
-.SnorlaxText:
+.CRanText:
 	text "There used to be a"
 	line "sleeping #mon"
 

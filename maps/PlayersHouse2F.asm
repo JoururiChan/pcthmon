@@ -121,7 +121,7 @@ endr
 	giveitem BIG_NUGGET, 99
 	giveitem ARMOR_SUIT, 1
 	; all decorations except Diploma
-for x, EVENT_DECO_BED_1, EVENT_DECO_BIG_LAPRAS_DOLL + 1
+for x, EVENT_DECO_BED_1, EVENT_DECO_BIG_CLYRICA_DOLL + 1
 	setevent x
 endr
 	; max money
@@ -213,7 +213,7 @@ endr
 	; post-e4
 	setflag ENGINE_CREDITS_SKIP
 	; good party
-	givepoke MEWTWO, PLAIN_FORM, 100, BRIGHTPOWDER
+	givepoke SUIKA, PLAIN_FORM, 100, BRIGHTPOWDER
 	loadmem wPartyMon1EVs+0, 252
 	loadmem wPartyMon1EVs+1, 252
 	loadmem wPartyMon1EVs+2, 252
@@ -235,7 +235,7 @@ endr
 	loadmem wPartyMon1Stats+8, HIGH(999)
 	loadmem wPartyMon1Stats+9, LOW(999)
 	; hm slave
-	givepoke MEW, PLAIN_FORM, 100, LEFTOVERS
+	givepoke ESUIKA, PLAIN_FORM, 100, LEFTOVERS
 	loadmem wPartyMon2Moves+0, FLY
 	loadmem wPartyMon2Moves+1, HEADBUTT
 	loadmem wPartyMon2Moves+2, DIG

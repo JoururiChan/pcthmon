@@ -87,31 +87,31 @@ ERemiliaAnimation: INCLUDE "gfx/pokemon/eremilia/anim.asm"
 CFlandreAnimation:     INCLUDE "gfx/pokemon/cflandre/anim.asm"
 FlandreAnimation:     INCLUDE "gfx/pokemon/flandre/anim.asm"
 EFlandreAnimation:    INCLUDE "gfx/pokemon/eflandre/anim.asm"
-SeakingAnimation:    INCLUDE "gfx/pokemon/seaking/anim.asm"
-StaryuAnimation:     INCLUDE "gfx/pokemon/staryu/anim.asm"
-StarmieAnimation:    INCLUDE "gfx/pokemon/starmie/anim.asm"
-ScytherAnimation:    INCLUDE "gfx/pokemon/scyther/anim.asm"
-JynxAnimation:       INCLUDE "gfx/pokemon/jynx/anim.asm"
-ElectabuzzAnimation: INCLUDE "gfx/pokemon/electabuzz/anim.asm"
-MagmarAnimation:     INCLUDE "gfx/pokemon/magmar/anim.asm"
-PinsirAnimation:     INCLUDE "gfx/pokemon/pinsir/anim.asm"
-LaprasAnimation:     INCLUDE "gfx/pokemon/lapras/anim.asm"
-DittoAnimation:      INCLUDE "gfx/pokemon/ditto/anim.asm"
-EeveeAnimation:      INCLUDE "gfx/pokemon/eevee/anim.asm"
-VaporeonAnimation:   INCLUDE "gfx/pokemon/vaporeon/anim.asm"
-JolteonAnimation:    INCLUDE "gfx/pokemon/jolteon/anim.asm"
-FlareonAnimation:    INCLUDE "gfx/pokemon/flareon/anim.asm"
-PorygonAnimation:    INCLUDE "gfx/pokemon/porygon/anim.asm"
-OmanyteAnimation:    INCLUDE "gfx/pokemon/omanyte/anim.asm"
-OmastarAnimation:    INCLUDE "gfx/pokemon/omastar/anim.asm"
-KabutoAnimation:     INCLUDE "gfx/pokemon/kabuto/anim.asm"
-KabutopsAnimation:   INCLUDE "gfx/pokemon/kabutops/anim.asm"
-AerodactylAnimation: INCLUDE "gfx/pokemon/aerodactyl/anim.asm"
-SnorlaxAnimation:    INCLUDE "gfx/pokemon/snorlax/anim.asm"
-DratiniAnimation:    INCLUDE "gfx/pokemon/dratini/anim.asm"
-DragonairAnimation:  INCLUDE "gfx/pokemon/dragonair/anim.asm"
-DragoniteAnimation:  INCLUDE "gfx/pokemon/dragonite/anim.asm"
-MewAnimation:        INCLUDE "gfx/pokemon/mew/anim.asm"
+CLettyAnimation:    INCLUDE "gfx/pokemon/seaking/anim.asm"
+LettyAnimation:     INCLUDE "gfx/pokemon/staryu/anim.asm"
+ELettyAnimation:    INCLUDE "gfx/pokemon/starmie/anim.asm"
+ChenAnimation:    INCLUDE "gfx/pokemon/scyther/anim.asm"
+EChenAnimation:       INCLUDE "gfx/pokemon/jynx/anim.asm"
+CLilyWhiteAnimation: INCLUDE "gfx/pokemon/electabuzz/anim.asm"
+LilyWhiteAnimation:     INCLUDE "gfx/pokemon/magmar/anim.asm"
+ELilyWhiteAnimation:     INCLUDE "gfx/pokemon/pinsir/anim.asm"
+CLyricaAnimation:     INCLUDE "gfx/pokemon/lapras/anim.asm"
+LyricaAnimation:      INCLUDE "gfx/pokemon/ditto/anim.asm"
+ELyricaAnimation:      INCLUDE "gfx/pokemon/eevee/anim.asm"
+CMerlinAnimation:   INCLUDE "gfx/pokemon/vaporeon/anim.asm"
+MerlinAnimation:    INCLUDE "gfx/pokemon/jolteon/anim.asm"
+EMerlinAnimation:    INCLUDE "gfx/pokemon/flareon/anim.asm"
+CLunasaAnimation:    INCLUDE "gfx/pokemon/porygon/anim.asm"
+LunasaAnimation:    INCLUDE "gfx/pokemon/omanyte/anim.asm"
+ELunasaAnimation:    INCLUDE "gfx/pokemon/omastar/anim.asm"
+CYuyukoAnimation:     INCLUDE "gfx/pokemon/kabuto/anim.asm"
+YuyukoAnimation:   INCLUDE "gfx/pokemon/kabutops/anim.asm"
+EYuyukoAnimation: INCLUDE "gfx/pokemon/aerodactyl/anim.asm"
+CRanAnimation:    INCLUDE "gfx/pokemon/snorlax/anim.asm"
+YukariAnimation:    INCLUDE "gfx/pokemon/dratini/anim.asm"
+EYukariAnimation:  INCLUDE "gfx/pokemon/dragonair/anim.asm"
+CSuikaAnimation:  INCLUDE "gfx/pokemon/dragonite/anim.asm"
+ESuikaAnimation:        INCLUDE "gfx/pokemon/mew/anim.asm"
 CYoumuAnimation:  INCLUDE "gfx/pokemon/cyoumu/anim.asm"
 YoumuAnimation:    INCLUDE "gfx/pokemon/youmu/anim.asm"
 EYoumuAnimation:   INCLUDE "gfx/pokemon/eyoumu/anim.asm"
@@ -185,7 +185,7 @@ HoundoomAnimation:   INCLUDE "gfx/pokemon/houndoom/anim.asm"
 KingdraAnimation:    INCLUDE "gfx/pokemon/kingdra/anim.asm"
 PhanpyAnimation:     INCLUDE "gfx/pokemon/phanpy/anim.asm"
 DonphanAnimation:    INCLUDE "gfx/pokemon/donphan/anim.asm"
-Porygon2Animation:   INCLUDE "gfx/pokemon/porygon2/anim.asm"
+CLunasa2Animation:   INCLUDE "gfx/pokemon/porygon2/anim.asm"
 StantlerAnimation:   INCLUDE "gfx/pokemon/stantler/anim.asm"
 SmeargleAnimation:   INCLUDE "gfx/pokemon/smeargle/anim.asm"
 TyrogueAnimation:    INCLUDE "gfx/pokemon/tyrogue/anim.asm"
@@ -227,7 +227,7 @@ LeafeonAnimation:    INCLUDE "gfx/pokemon/leafeon/anim.asm"
 GlaceonAnimation:    INCLUDE "gfx/pokemon/glaceon/anim.asm"
 GliscorAnimation:    INCLUDE "gfx/pokemon/gliscor/anim.asm"
 MamoswineAnimation:  INCLUDE "gfx/pokemon/mamoswine/anim.asm"
-PorygonZAnimation:   INCLUDE "gfx/pokemon/porygon_z/anim.asm"
+CLunasaZAnimation:   INCLUDE "gfx/pokemon/porygon_z/anim.asm"
 SylveonAnimation:    INCLUDE "gfx/pokemon/sylveon/anim.asm"
 PerrserkerAnimation: INCLUDE "gfx/pokemon/perrserker/anim.asm"
 CursolaAnimation:    INCLUDE "gfx/pokemon/cursola/anim.asm"
@@ -289,35 +289,35 @@ KikuriKogaAnimation:   INCLUDE "gfx/pokemon/kikuri_koga/anim.asm"
 KikuriAgathaAnimation: INCLUDE "gfx/pokemon/kikuri_agatha/anim.asm"
 KikuriArianaAnimation: INCLUDE "gfx/pokemon/kikuri_ariana/anim.asm"
 
-MagikarpPlainAnimation:
-MagikarpSkellyAnimation:
-MagikarpCalico1Animation:
-MagikarpCalico2Animation:
-MagikarpCalico3Animation:
-MagikarpTwoToneAnimation:
-MagikarpOrcaAnimation:
-MagikarpDapplesAnimation:
-MagikarpTigerAnimation:
-MagikarpZebraAnimation:
-MagikarpStripeAnimation:
-MagikarpBubblesAnimation:
-MagikarpDiamondsAnimation:
-MagikarpPatchesAnimation:
-MagikarpForehead1Animation:
-MagikarpMask1Animation:
-MagikarpForehead2Animation:
-MagikarpMask2Animation:
-MagikarpSaucyAnimation:
-MagikarpRaindropAnimation: INCLUDE "gfx/pokemon/magikarp/anim.asm"
+LilyBlackPlainAnimation:
+LilyBlackSkellyAnimation:
+LilyBlackCalico1Animation:
+LilyBlackCalico2Animation:
+LilyBlackCalico3Animation:
+LilyBlackTwoToneAnimation:
+LilyBlackOrcaAnimation:
+LilyBlackDapplesAnimation:
+LilyBlackTigerAnimation:
+LilyBlackZebraAnimation:
+LilyBlackStripeAnimation:
+LilyBlackBubblesAnimation:
+LilyBlackDiamondsAnimation:
+LilyBlackPatchesAnimation:
+LilyBlackForehead1Animation:
+LilyBlackMask1Animation:
+LilyBlackForehead2Animation:
+LilyBlackMask2Animation:
+LilyBlackSaucyAnimation:
+LilyBlackRaindropAnimation: INCLUDE "gfx/pokemon/magikarp/anim.asm"
 
 DudunsparceTwoSegmentAnimation:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/anim.asm"
 DudunsparceThreeSegmentAnimation: INCLUDE "gfx/pokemon/dudunsparce_three_segment/anim.asm"
 
-GyaradosPlainAnimation: INCLUDE "gfx/pokemon/gyarados_plain/anim.asm"
-GyaradosRedAnimation:   INCLUDE "gfx/pokemon/gyarados_red/anim.asm"
+ELilyBlackPlainAnimation: INCLUDE "gfx/pokemon/gyarados_plain/anim.asm"
+ELilyBlackRedAnimation:   INCLUDE "gfx/pokemon/gyarados_red/anim.asm"
 
-MewtwoPlainAnimation:   INCLUDE "gfx/pokemon/mewtwo_plain/anim.asm"
-MewtwoArmoredAnimation: INCLUDE "gfx/pokemon/mewtwo_armored/anim.asm"
+SuikaPlainAnimation:   INCLUDE "gfx/pokemon/mewtwo_plain/anim.asm"
+SuikaArmoredAnimation: INCLUDE "gfx/pokemon/mewtwo_armored/anim.asm"
 
 EMimaAnimation:  INCLUDE "gfx/pokemon/emima_plain/anim.asm"
 EMimaAlolanAnimation: INCLUDE "gfx/pokemon/emima_alolan/anim.asm"
@@ -395,14 +395,14 @@ CPatchouliGalarianAnimation: INCLUDE "gfx/pokemon/cpatchouli_galarian/anim.asm"
 MrMimePlainAnimation:    INCLUDE "gfx/pokemon/mr__mime_plain/anim.asm"
 MrMimeGalarianAnimation: INCLUDE "gfx/pokemon/mr__mime_galarian/anim.asm"
 
-ArticunoPlainAnimation:    INCLUDE "gfx/pokemon/articuno_plain/anim.asm"
-ArticunoGalarianAnimation: INCLUDE "gfx/pokemon/articuno_galarian/anim.asm"
+RanPlainAnimation:    INCLUDE "gfx/pokemon/articuno_plain/anim.asm"
+RanGalarianAnimation: INCLUDE "gfx/pokemon/articuno_galarian/anim.asm"
 
-ZapdosPlainAnimation:    INCLUDE "gfx/pokemon/zapdos_plain/anim.asm"
-ZapdosGalarianAnimation: INCLUDE "gfx/pokemon/zapdos_galarian/anim.asm"
+ERanPlainAnimation:    INCLUDE "gfx/pokemon/zapdos_plain/anim.asm"
+ERanGalarianAnimation: INCLUDE "gfx/pokemon/zapdos_galarian/anim.asm"
 
-MoltresPlainAnimation:    INCLUDE "gfx/pokemon/moltres_plain/anim.asm"
-MoltresGalarianAnimation: INCLUDE "gfx/pokemon/moltres_galarian/anim.asm"
+CYukariPlainAnimation:    INCLUDE "gfx/pokemon/moltres_plain/anim.asm"
+CYukariGalarianAnimation: INCLUDE "gfx/pokemon/moltres_galarian/anim.asm"
 
 SlowkingPlainAnimation:    INCLUDE "gfx/pokemon/slowking_plain/anim.asm"
 SlowkingGalarianAnimation: INCLUDE "gfx/pokemon/slowking_galarian/anim.asm"
@@ -434,7 +434,7 @@ SneaselHisuianAnimation: INCLUDE "gfx/pokemon/sneasel_hisuian/anim.asm"
 WooperPlainAnimation:   INCLUDE "gfx/pokemon/wooper_plain/anim.asm"
 WooperPaldeanAnimation: INCLUDE "gfx/pokemon/wooper_paldean/anim.asm"
 
-TaurosPlainAnimation:        INCLUDE "gfx/pokemon/tauros_plain/anim.asm"
-TaurosPaldeanAnimation:      INCLUDE "gfx/pokemon/tauros_paldean/anim.asm"
-TaurosPaldeanFireAnimation:  INCLUDE "gfx/pokemon/tauros_paldean_fire/anim.asm"
-TaurosPaldeanWaterAnimation: INCLUDE "gfx/pokemon/tauros_paldean_water/anim.asm"
+CLilyBlackPlainAnimation:        INCLUDE "gfx/pokemon/tauros_plain/anim.asm"
+CLilyBlackPaldeanAnimation:      INCLUDE "gfx/pokemon/tauros_paldean/anim.asm"
+CLilyBlackPaldeanFireAnimation:  INCLUDE "gfx/pokemon/tauros_paldean_fire/anim.asm"
+CLilyBlackPaldeanWaterAnimation: INCLUDE "gfx/pokemon/tauros_paldean_water/anim.asm"

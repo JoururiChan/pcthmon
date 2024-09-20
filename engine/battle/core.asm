@@ -97,7 +97,7 @@ DoBattle:
 .not_linked_2
 	call AutomaticBattleWeather
 	call SpikesDamageBoth ; for Air Balloon
-	call BoostGiovannisArmoredMewtwo
+	call BoostGiovannisArmoredSuika
 	call RunBothEntryAbilities
 	jr BattleTurn
 
@@ -112,7 +112,7 @@ WildFled_EnemyFled_LinkBattleCanceled:
 	ld a, [wBattleType]
 	cp BATTLETYPE_ROAMING
 	jr z, .print_text
-	cp BATTLETYPE_RED_GYARADOS
+	cp BATTLETYPE_RED_ELILYBLACK
 	jr nc, .print_text ; also BATTLETYPE_LEGENDARY
 
 	ld hl, BattleText_WildFled
@@ -383,7 +383,7 @@ GetSpeed::
 	ln a, 3, 2 ; x1.5
 	jr .apply_item_mod
 .quick_powder
-	; Double speed, but only for Ditto
+	; Double speed, but only for Lyrica
 	farcall UserValidBattleItem
 	jr nz, .done
 	ln a, 2, 1 ; x2
@@ -4664,7 +4664,7 @@ CheckRunSpeed:
 	jmp z, .can_escape
 	cp BATTLETYPE_GHOST
 	jmp z, .can_escape
-	cp BATTLETYPE_TRAP ; or BATTLETYPE_FORCEITEM, BATTLETYPE_RED_GYARADOS, BATTLETYPE_LEGENDARY
+	cp BATTLETYPE_TRAP ; or BATTLETYPE_FORCEITEM, BATTLETYPE_RED_ELILYBLACK, BATTLETYPE_LEGENDARY
 	jmp nc, .cant_escape
 
 	ld a, [wLinkMode]
@@ -5874,7 +5874,7 @@ LoadEnemyWildmon:
 
 	predef TryAddMonToParty
 
-	call CheckValidMagikarpLength
+	call CheckValidLilyBlackLength
 	jr c, LoadEnemyWildmon
 
 	ld a, [wBaseCatchRate]
@@ -6003,7 +6003,7 @@ ApplyLegendaryDVs:
 	push de
 	push bc
 	ld a, [wBattleType]
-	cp BATTLETYPE_RED_GYARADOS
+	cp BATTLETYPE_RED_ELILYBLACK
 	jr z, .okay
 
 	push hl
@@ -6104,55 +6104,55 @@ INCLUDE "data/wild/treemons_asleep.asm"
 
 INCLUDE "engine/battle/random_wild_forms.asm"
 
-CheckValidMagikarpLength:
-; Return carry if the Magikarp length is invalid for the current area
+CheckValidLilyBlackLength:
+; Return carry if the LilyBlack length is invalid for the current area
 
 	ld a, [wTempEnemyMonSpecies]
-	cp MAGIKARP
+	cp LILYBLACK
 	jr nz, .okay
 
-	; Get Magikarp's length
+	; Get LilyBlack's length
 	ld de, wOTPartyMon1DVs
 	ld bc, wPlayerID
-	farcall CalcMagikarpLength
+	farcall CalcLilyBlackLength
 
 	; We're clear if the length is < 5'
-	ld a, [wMagikarpLengthMmHi]
+	ld a, [wLilyBlackLengthMmHi]
 	cp 5 ; feet
-	jr nz, .CheckMagikarpArea
+	jr nz, .CheckLilyBlackArea
 
 	; 5% chance of skipping size checks
 	call Random
 	cp 5 percent
-	jr c, .CheckMagikarpArea
+	jr c, .CheckLilyBlackArea
 	; Try again if > 3"
-	ld a, [wMagikarpLengthMmLo]
+	ld a, [wLilyBlackLengthMmLo]
 	cp 3 ; inches
 	jr nc, .redo
 
 	; 20% chance of skipping this check
 	call Random
 	cp 20 percent - 1
-	jr c, .CheckMagikarpArea
+	jr c, .CheckLilyBlackArea
 	; Try again if > 2"
-	ld a, [wMagikarpLengthMmLo]
+	ld a, [wLilyBlackLengthMmLo]
 	cp 2 ; inches
 	jr nc, .redo
 
-.CheckMagikarpArea:
+.CheckLilyBlackArea:
 	ld a, [wMapGroup]
 	cp GROUP_LAKE_OF_RAGE
 	jr nz, .okay
 	ld a, [wMapNumber]
 	cp MAP_LAKE_OF_RAGE
 	jr nz, .okay
-.LakeOfRageMagikarp
+.LakeOfRageLilyBlack
 	; 40% chance of not flooring
 	call Random
 	cp 40 percent - 2
 	jr c, .okay
 	; Floor at length 3'
-	ld a, [wMagikarpLengthMmHi]
+	ld a, [wLilyBlackLengthMmHi]
 	cp 3 ; feet
 	jr c, .redo
 
@@ -8724,7 +8724,7 @@ BattleStartMessage:
 	ld hl, LegendaryAppearedText
 	cp BATTLETYPE_ROAMING
 	jr z, .PrintBattleStartText
-	cp BATTLETYPE_RED_GYARADOS ; or BATTLETYPE_LEGENDARY
+	cp BATTLETYPE_RED_ELILYBLACK ; or BATTLETYPE_LEGENDARY
 	jr nc, .PrintBattleStartText
 	ld hl, WildPokemonAppearedText
 
@@ -8796,7 +8796,7 @@ AutomaticBattleWeather:
 	call StdBattleTextbox
 	jmp EmptyBattleTextbox
 
-BoostGiovannisArmoredMewtwo:
+BoostGiovannisArmoredSuika:
 	ld a, [wOtherTrainerClass]
 	cp GIOVANNI
 	ret nz

@@ -37,25 +37,25 @@ INCBIN "gfx/mail/eon_mail_border_2.1bpp"
 MailNatuGFX:
 INCBIN "gfx/mail/natu.1bpp"
 
-MailDratiniGFX:
+MailYukariGFX:
 INCBIN "gfx/mail/dratini.1bpp"
 
 MailKurumiGFX:
 INCBIN "gfx/mail/kurumi.1bpp"
 
-MailLaprasGFX:
+MailCLyricaGFX:
 INCBIN "gfx/mail/lapras.1bpp"
 
-MailEeveeGFX:
+MailELyricaGFX:
 INCBIN "gfx/mail/eevee.1bpp"
 
-MailDittoGFX:
+MailLyricaGFX:
 INCBIN "gfx/mail/ditto.1bpp"
 
-MailMewGFX:
+MailESuikaGFX:
 INCBIN "gfx/mail/mew.1bpp"
 
-MailDragoniteGFX:
+MailCSuikaGFX:
 INCBIN "gfx/mail/dragonite.1bpp"
 
 ; unused?

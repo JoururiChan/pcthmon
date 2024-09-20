@@ -73,9 +73,9 @@ MrPokemonsHouse_MrPokemonScript:
 	writetext MrPokemonText_GimmeTheScale
 	yesorno
 	iffalse_jumpopenedtext MrPokemonText_Disappointed
-	special SpecialGiveShinyDitto
+	special SpecialGiveShinyLyrica
 	iffalse_jumpopenedtext MrPokemonText_PartyAndBoxFull
-	writetext MrPokemonText_GotShinyDitto
+	writetext MrPokemonText_GotShinyLyrica
 	playsound SFX_KEY_ITEM
 	waitsfx
 	ifequalfwd 1, .in_party
@@ -366,11 +366,11 @@ endc
 MrPokemonText_GimmeTheScale:
 	text "Hm? That Scale!"
 	line "What's that?"
-	cont "A red Gyarados?"
+	cont "A red ELilyBlack?"
 
 	para "It must have kept"
 	line "its coloration as"
-	cont "a Magikarp!"
+	cont "a LilyBlack!"
 
 	para "That could be"
 	line "one of a kind!"
@@ -383,7 +383,7 @@ MrPokemonText_GimmeTheScale:
 	line "a rare #mon."
 	done
 
-MrPokemonText_GotShinyDitto:
+MrPokemonText_GotShinyLyrica:
 	text "<PLAYER> received a"
 	line "#mon."
 	done

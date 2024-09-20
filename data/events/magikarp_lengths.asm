@@ -1,5 +1,5 @@
-MagikarpLengths:
-; [wMagikarpLengthMm] = z * 100 + (bc - x) / y
+LilyBlackLengths:
+; [wLilyBlackLengthMm] = z * 100 + (bc - x) / y
 ; First argument is the bc threshold as well as x.
 ; Second argument is y.
 	dwb   110, 1

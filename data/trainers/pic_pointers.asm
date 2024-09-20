@@ -155,9 +155,9 @@ TrainerPicPointers::
 	dba LawrencePic
 	dba ReiPic
 	assert_table_length NUM_TRAINER_CLASSES
-	dba OmastarFossilPic
-	dba KabutopsFossilPic
-	dba AerodactylFossilPic
+	dba ELunasaFossilPic
+	dba YuyukoFossilPic
+	dba EYuyukoFossilPic
 	dba CMeilingArmorPic
 	dba MeteoritePic
 	dba SilhouettePic

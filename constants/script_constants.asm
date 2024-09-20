@@ -281,12 +281,12 @@ DEF NUM_DECODESCS EQU const_value
 	const FISHSWARM_QWILFISH ; 1
 	const FISHSWARM_REMORAID ; 2
 
-; CheckMagikarpLength return values
+; CheckLilyBlackLength return values
 	const_def
-	const MAGIKARPLENGTH_NOT_MAGIKARP ; 0
-	const MAGIKARPLENGTH_REFUSED      ; 1
-	const MAGIKARPLENGTH_TOO_SHORT    ; 2
-	const MAGIKARPLENGTH_BEAT_RECORD  ; 3
+	const LILYBLACKLENGTH_NOT_LILYBLACK ; 0
+	const LILYBLACKLENGTH_REFUSED      ; 1
+	const LILYBLACKLENGTH_TOO_SHORT    ; 2
+	const LILYBLACKLENGTH_BEAT_RECORD  ; 3
 
 ; ReturnShuckie return values
 	const_def
@@ -324,9 +324,9 @@ DEF BUG_CONTESTANT_SIZE EQU 4
 ; UnownPuzzle setval arguments
 ; LoadUnownPuzzlePiecesGFX.LZPointers indexes (see engine/games/unown_puzzle.asm)
 	const_def
-	const UNOWNPUZZLE_KABUTO     ; 0
-	const UNOWNPUZZLE_OMANYTE    ; 1
-	const UNOWNPUZZLE_AERODACTYL ; 2
+	const UNOWNPUZZLE_CYUYUKO     ; 0
+	const UNOWNPUZZLE_LUNASA    ; 1
+	const UNOWNPUZZLE_EYUYUKO ; 2
 	const UNOWNPUZZLE_HO_OH      ; 3
 DEF NUM_UNOWN_PUZZLES EQU const_value
 
@@ -345,9 +345,9 @@ DEF NUM_UNOWN_PUZZLES EQU const_value
 	const HO_OH_PAINTING
 	const LUGIA_PAINTING
 	const BELL_TOWER_PAINTING
-	const KABUTO_PUZZLE
-	const OMANYTE_PUZZLE
-	const AERODACTYL_PUZZLE
+	const CYUYUKO_PUZZLE
+	const LUNASA_PUZZLE
+	const EYUYUKO_PUZZLE
 	const HO_OH_PUZZLE
 DEF NUM_PAINTINGS EQU const_value
 

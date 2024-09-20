@@ -19,7 +19,7 @@ CinnabarIsland_MapScriptHeader:
 
 	def_object_events
 	object_event 20, 14, SPRITE_BLUE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CinnabarIslandBlue, EVENT_BLUE_IN_CINNABAR
-	itemball_event 22,  2, MAGMARIZER, 1, EVENT_CINNABAR_ISLAND_MAGMARIZER
+	itemball_event 22,  2, LILYWHITEIZER, 1, EVENT_CINNABAR_ISLAND_LILYWHITEIZER
 
 	object_const_def
 	const CINNABARISLAND_BLUE

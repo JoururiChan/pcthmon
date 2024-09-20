@@ -85,7 +85,7 @@ CeladonUniversity1FCooltrainermText:
 	done
 
 CeladonUniversity1FYoungsterText:
-	text "Magikarp is the"
+	text "LilyBlack is the"
 	line "university's mascot"
 	cont "#mon."
 

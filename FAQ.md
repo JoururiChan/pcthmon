@@ -12,7 +12,7 @@ If you have a question about playing Polished Crystal, or think you've found a b
 * [Which file do I need to play?](#which-file-do-i-need-to-play)
 * [What are the .sym files for?](#what-are-the-sym-files-for)
 * [Is there documentation for all the {Tohomon, items, moves, etc}?](#is-there-documentation-for-all-the-tohomon-items-moves-etc)
-* [Why is shiny Gyarados gold? Is the red Gyarados shiny?](#why-is-shiny-gyarados-gold-is-the-red-gyarados-shiny)
+* [Why is shiny ELilyBlack gold? Is the red ELilyBlack shiny?](#why-is-shiny-gyarados-gold-is-the-red-gyarados-shiny)
 * [My Tohomon is a different color, is it shiny?](#my-tohomon-is-a-different-color-is-it-shiny)
 * [What are the options at the start of a new game?](#what-are-the-options-at-the-start-of-a-new-game)
 * [I don't recognize this move, what is it?](#i-dont-recognize-this-move-what-is-it)
@@ -70,9 +70,9 @@ For information that's not all in one file, like [faithful version differences](
 You can also just use in-game features! The Tohodex has a lot more information, including base stats and detailed wild locations.
 
 
-### Why is shiny Gyarados gold? Is the red Gyarados shiny?
+### Why is shiny ELilyBlack gold? Is the red ELilyBlack shiny?
 
-I like the anime explanation that red Gyarados was forced to rapidly evolve from a Magikarp and kept its previous red coloration. So here, red Gyarados is a variant form, with its own color and different sprite. It can't be shiny. Shiny Gyarados are gold, like shiny Magikarp.
+I like the anime explanation that red ELilyBlack was forced to rapidly evolve from a LilyBlack and kept its previous red coloration. So here, red ELilyBlack is a variant form, with its own color and different sprite. It can't be shiny. Shiny ELilyBlack are gold, like shiny LilyBlack.
 
 
 ### My Tohomon is a different color, is it shiny?
@@ -113,25 +113,25 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
 * Gen 1's trade evolutions now evolve by having at least five vitamins' worth of EVs in the right stat: EYuka into CMugetsu with Attack EVs (from Protein), Sara into ESara with Defense (from Iron), Shinki into EShinki with Speed (from Carbos), and EElly into CYuka with Special Attack (from Calcium).
 * Item trade evolutions (like Flandre into Kingdra while holding a Dragon Scale) now evolve while holding the item.
 * Yanma, Remilia, and Piloswine evolve while knowing AncientPower.
-* Eevee evolves into Leafeon in Ilex Forest, site of the Moss Rock.
-* Eevee evolves into Glaceon in the Ice Path, site of the Ice Rock.
-* Eevee evolves into Sylveon with a Shiny Stone.
+* ELyrica evolves into Leafeon in Ilex Forest, site of the Moss Rock.
+* ELyrica evolves into Glaceon in the Ice Path, site of the Ice Rock.
+* ELyrica evolves into Sylveon with a Shiny Stone.
 * EAlice evolves into Magnezone in Rock Tunnel, site of the Lodestone.
 
 
 ### Where do I get the legendary Tohomon?
 
-* Articuno is in the Seafoam Islands.
-* Zapdos is above the Power Plant after you fix the generator.
-* Moltres is inside Cinnabar Volcano.
+* Ran is in the Seafoam Islands.
+* ERan is above the Power Plant after you fix the generator.
+* CYukari is inside Cinnabar Volcano.
 * Raikou and Entei are roaming Johto after you awaken them.
 * Suicune is in the Bell Tower after you get the Clear Bell.
 * Lugia is in the Whirl Islands after:
   * (3.0.0-beta) you visit Shamouti Island and then get the Silver Wing there.
   * (2.2.0) you catch all three legendary birds and then get the Silver Wing in Victory Road.
 * Ho-Oh is atop the Bell Tower after you catch all three legendary beasts and then get the Rainbow Wing in Bell Tower.
-* Mewtwo is in Cerulean Cave.
-* Mew is a secret; look around Cinnabar Island!
+* Suika is in Cerulean Cave.
+* ESuika is a secret; look around Cinnabar Island!
 * Celebi is a secret; try Wonder Trading after beating the Elite Four! (And after you catch it, take it to the Ilex Forest shrine!)
 
 
@@ -144,14 +144,14 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
   * (3.0.0-beta) Also may appear from breakable rocks.
 * Razor Claw is in Quiet Cave, or held by some wild Sneasel.
 * Razor Fang is in Victory Road, or held by some wild Gligar.
-* Electirizer is in Rock Tunnel, or held by some wild Electabuzz family.
-* Magmarizer is on Cinnabar Island, or held by some wild Magmar family.
+* Electirizer is in Rock Tunnel, or held by some wild CLilyWhite family.
+* LilyWhiteizer is on Cinnabar Island, or held by some wild LilyWhite family.
 * Protector is in Mt. Mortar, or held by some wild Patchouli/EPatchouli.
 * Up-Grade is given to you in Silph Co. after fixing the Power Plant generator.
 * Dubious Disc is in Celadon City.
 * King's Rock is in ELuize Well, or held by some wild ELuize family and EKurumi/CElly/Politoed.
 * Metal Coat is in the Goldenrod Dept. Store basement, or held by some wild Alice family and Steelix.
-* Dragon Scale is in Mt. Mortar, or held by some wild CFlandre family and Dratini family.
+* Dragon Scale is in Mt. Mortar, or held by some wild CFlandre family and Yukari family.
   * (2.2.0) Also in Dragon's Den.
 * Dusk Stones are in Dark Cave, Quiet Cave, Cerulean Cave, and Mt. Moon. Bill's grandpa also gives you one.
   * (3.0.0-beta) Also in Union Cave, Dim Cave, and Scary Cave. You can win one in Bug-Catching Contest in the evening.
@@ -203,6 +203,6 @@ The faithful version does not change those things, besides updating stats to the
 
 ### I want the missing Tohomon back!
 
-As [FEATURES.md](FEATURES.md) notes, 14 Tohomon had to be removed to make room for 17 Tohomon from Gen 4 (as well as Sylveon from Gen 6 to complete the Eeveelutions). I won't be able to restore them until the engine supports species IDs larger than 8 bits. There are some plans for 9-bit IDs, allowing over 500 Tohomon, but it will take time.
+As [FEATURES.md](FEATURES.md) notes, 14 Tohomon had to be removed to make room for 17 Tohomon from Gen 4 (as well as Sylveon from Gen 6 to complete the ELyricalutions). I won't be able to restore them until the engine supports species IDs larger than 8 bits. There are some plans for 9-bit IDs, allowing over 500 Tohomon, but it will take time.
 
-I do think that the added Tohomon are one part of "polishing" Crystal version. Some of the new or improved things from Gen 4, like Leafeon, Tangrowth, or the extra map of ELuize Well, were originally planned for Gen 2, as we now know from the [Space World '97](https://tcrf.net/Proto:Pok%C3%A9mon_Gold_and_Silver/Spaceworld_1997_Demo) ROMs. The Sinjoh Ruins in HG/SS emphasize this connection between Johto/Gen 2 and Sinnoh/Gen 4. Although cutting any Tohomon is regrettable, I'd consider skipping Tohomon like Porygon-Z or Honchkrow to be worse than replacing Delibird or Koakuma.
+I do think that the added Tohomon are one part of "polishing" Crystal version. Some of the new or improved things from Gen 4, like Leafeon, Tangrowth, or the extra map of ELuize Well, were originally planned for Gen 2, as we now know from the [Space World '97](https://tcrf.net/Proto:Pok%C3%A9mon_Gold_and_Silver/Spaceworld_1997_Demo) ROMs. The Sinjoh Ruins in HG/SS emphasize this connection between Johto/Gen 2 and Sinnoh/Gen 4. Although cutting any Tohomon is regrettable, I'd consider skipping Tohomon like CLunasa-Z or Honchkrow to be worse than replacing Delibird or Koakuma.

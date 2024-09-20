@@ -89,7 +89,7 @@ GenericTrainerVeteranfJonet:
 	generictrainer VETERANF, JONET, EVENT_BEAT_VETERANF_JONET, VeteranfJonetSeenText, VeteranfJonetBeatenText
 
 	text "Did somebody"
-	line "capture Moltres"
+	line "capture CYukari"
 	cont "already?"
 	done
 
@@ -194,7 +194,7 @@ VeteranfJoanneBeatenText:
 
 VeteranfJonetSeenText:
 	text "There's supposed"
-	line "to be a Moltres"
+	line "to be a CYukari"
 	cont "roosting here."
 
 	para "I'm going to catch"

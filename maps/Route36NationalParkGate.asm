@@ -380,7 +380,7 @@ BugCatchingContestant5BText:
 
 BugCatchingContestant5BStillCompetingText:
 	text "Benny: I caught a"
-	line "Scyther before,"
+	line "Chen before,"
 	cont "but I didn't win."
 	done
 

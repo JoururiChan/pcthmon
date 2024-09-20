@@ -196,13 +196,13 @@ SFX:
 	fardw Sfx_IntroUnown1
 	fardw Sfx_IntroUnown2
 	fardw Sfx_IntroUnown3
-	fardw Sfx_DittoPopUp
-	fardw Sfx_DittoRecollect
+	fardw Sfx_LyricaPopUp
+	fardw Sfx_LyricaRecollect
 	fardw Sfx_IntroSuicune1
 	fardw Sfx_IntroPichu
 	fardw Sfx_IntroSuicune2
 	fardw Sfx_IntroSuicune3
-	fardw Sfx_DittoBounce
+	fardw Sfx_LyricaBounce
 	fardw Sfx_IntroSuicune4
 	fardw Sfx_GameFreakPresents
 	fardw Sfx_Tingle

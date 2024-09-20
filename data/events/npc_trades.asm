@@ -26,15 +26,15 @@ NPCTrades:
 	rawchar "Tim@@@@@", $00
 ; NPC_TRADE_EMY in Blackthorn City
 	db TRADE_DIALOGSET_GIRL
-	dp JYNX, NO_FORM    ; wants
-	dp MR__MIME, FEMALE ; gives
+	dp ECHEN, NO_FORM    ; wants
+	dp CCHEN, FEMALE ; gives
 	rawchar "Doris@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_ATK_DOWN,   LOVE_BALL,    PINK_BOW
 	dw 00283
 	rawchar "Emy@@@@@", $00
 ; NPC_TRADE_CHRIS in Pewter City
 	db TRADE_DIALOGSET_NEWBIE
-	dp PINSIR, NO_FORM ; wants
+	dp ELILYWHITE, NO_FORM ; wants
 	dp HERACROSS, MALE ; gives
 	rawchar "Paul@@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_SATK_DOWN,  PARK_BALL,    SILVERPOWDER

@@ -849,7 +849,7 @@
 	wildmon 34, SWINUB
 	wildmon 35, KOTOHIME
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, JYNX
+	wildmon 32, ECHEN
 	; day
 	wildmon 32, SWINUB
 	wildmon 33, CKOTOHIME
@@ -857,7 +857,7 @@
 	wildmon 34, SWINUB
 	wildmon 35, KOTOHIME
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, JYNX
+	wildmon 32, ECHEN
 	; nite
 	wildmon 32, DELIBIRD
 	wildmon 33, CKOTOHIME
@@ -876,16 +876,16 @@
 	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, JYNX
-	wildmon 34, JYNX
+	wildmon 32, ECHEN
+	wildmon 34, ECHEN
 	; day
 	wildmon 33, SWINUB
 	wildmon 34, CKOTOHIME
 	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, JYNX
-	wildmon 34, JYNX
+	wildmon 32, ECHEN
+	wildmon 34, ECHEN
 	; nite
 	wildmon 33, DELIBIRD
 	wildmon 34, CKOTOHIME
@@ -904,16 +904,16 @@
 	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, JYNX
-	wildmon 34, JYNX
+	wildmon 32, ECHEN
+	wildmon 34, ECHEN
 	; day
 	wildmon 33, SWINUB
 	wildmon 34, CKOTOHIME
 	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, JYNX
-	wildmon 34, JYNX
+	wildmon 32, ECHEN
+	wildmon 34, ECHEN
 	; nite
 	wildmon 33, DELIBIRD
 	wildmon 34, CKOTOHIME
@@ -931,17 +931,17 @@
 	wildmon 35, CKOTOHIME
 	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
-	wildmon 32, JYNX
-	wildmon 34, JYNX
-	wildmon 36, JYNX
+	wildmon 32, ECHEN
+	wildmon 34, ECHEN
+	wildmon 36, ECHEN
 	; day
 	wildmon 34, SWINUB
 	wildmon 35, CKOTOHIME
 	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
-	wildmon 32, JYNX
-	wildmon 34, JYNX
-	wildmon 36, JYNX
+	wildmon 32, ECHEN
+	wildmon 34, ECHEN
+	wildmon 36, ECHEN
 	; nite
 	wildmon 34, DELIBIRD
 	wildmon 35, CKOTOHIME
@@ -1182,7 +1182,7 @@
 	wildmon 72, SARA
 	wildmon 72, URSARING
 	wildmon 70, CRUMIA
-	wildmon 74, MAGMAR
+	wildmon 74, LILYWHITE
 	wildmon 74, KOTOHIME
 	wildmon 75, PUPITAR
 	wildmon 75, PUPITAR
@@ -1190,7 +1190,7 @@
 	wildmon 72, SARA
 	wildmon 72, URSARING
 	wildmon 70, CRUMIA
-	wildmon 74, MAGMAR
+	wildmon 74, LILYWHITE
 	wildmon 74, KOTOHIME
 	wildmon 75, PUPITAR
 	wildmon 75, PUPITAR
@@ -1509,7 +1509,7 @@
 	wildmon 10, CELLY
 	wildmon 13, CPATCHOULI
 	wildmon 10, CELIS
-	wildmon 10, DITTO
+	wildmon 10, LYRICA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_35
@@ -1603,7 +1603,7 @@
 	wildmon 16, CELIS
 	wildmon 16, CALICE
 	wildmon 16, CMIMA
-	wildmon 13, TAUROS
+	wildmon 13, CLILYBLACK
 	wildmon 13, MILTANK
 	wildmon 13, MILTANK
 	; day
@@ -1611,7 +1611,7 @@
 	wildmon 16, CELIS
 	wildmon 16, CALICE
 	wildmon 16, CMIMA
-	wildmon 13, TAUROS
+	wildmon 13, CLILYBLACK
 	wildmon 13, MILTANK
 	wildmon 13, MILTANK
 	; nite
@@ -1632,16 +1632,16 @@
 	wildmon 16, CALICE
 	wildmon 16, CMIMA
 	wildmon 15, MILTANK
-	wildmon 15, TAUROS
-	wildmon 15, TAUROS
+	wildmon 15, CLILYBLACK
+	wildmon 15, CLILYBLACK
 	; day
 	wildmon 16, CMIMA
 	wildmon 16, CELIS
 	wildmon 16, CALICE
 	wildmon 16, CMIMA
 	wildmon 15, MILTANK
-	wildmon 15, TAUROS
-	wildmon 15, TAUROS
+	wildmon 15, CLILYBLACK
+	wildmon 15, CLILYBLACK
 	; nite
 	wildmon 16, CSHINKI
 	wildmon 16, CELIS
@@ -1795,7 +1795,7 @@
 	def_grass_wildmons ROUTE_47
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES + 1, DITTO
+	wildmon LEVEL_FROM_BADGES + 1, LYRICA
 	wildmon LEVEL_FROM_BADGES + 1, CMAI, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES + 0, MILTANK
 	wildmon LEVEL_FROM_BADGES - 3, CKANA
@@ -1803,7 +1803,7 @@
 	wildmon LEVEL_FROM_BADGES - 4, CMAI, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES - 1, CMAI, GALARIAN_FORM
 	; day
-	wildmon LEVEL_FROM_BADGES + 1, DITTO
+	wildmon LEVEL_FROM_BADGES + 1, LYRICA
 	wildmon LEVEL_FROM_BADGES + 1, CMAI, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES + 0, MILTANK
 	wildmon LEVEL_FROM_BADGES - 3, CKANA
@@ -1811,7 +1811,7 @@
 	wildmon LEVEL_FROM_BADGES - 4, CMAI, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES - 1, CMAI, GALARIAN_FORM
 	; nite
-	wildmon LEVEL_FROM_BADGES + 1, DITTO
+	wildmon LEVEL_FROM_BADGES + 1, LYRICA
 	wildmon LEVEL_FROM_BADGES + 1, NOCTOWL
 	wildmon LEVEL_FROM_BADGES + 0, MILTANK
 	wildmon LEVEL_FROM_BADGES - 3, CKANA
@@ -1824,7 +1824,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES + 1, CMAI, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 0, TAUROS
+	wildmon LEVEL_FROM_BADGES + 0, CLILYBLACK
 	wildmon LEVEL_FROM_BADGES - 2, SUNFLORA
 	wildmon LEVEL_FROM_BADGES - 2, EORANGE
 	wildmon LEVEL_FROM_BADGES - 3, CMAI, GALARIAN_FORM
@@ -1832,7 +1832,7 @@
 	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
 	; day
 	wildmon LEVEL_FROM_BADGES + 1, CMAI, GALARIAN_FORM
-	wildmon LEVEL_FROM_BADGES + 0, TAUROS
+	wildmon LEVEL_FROM_BADGES + 0, CLILYBLACK
 	wildmon LEVEL_FROM_BADGES - 2, CKANA
 	wildmon LEVEL_FROM_BADGES - 2, HOUNDOUR
 	wildmon LEVEL_FROM_BADGES - 3, CMAI, GALARIAN_FORM
@@ -1840,7 +1840,7 @@
 	wildmon LEVEL_FROM_BADGES - 4, GIRAFARIG
 	; nite
 	wildmon LEVEL_FROM_BADGES + 1, HOUNDOUR
-	wildmon LEVEL_FROM_BADGES + 0, TAUROS
+	wildmon LEVEL_FROM_BADGES + 0, CLILYBLACK
 	wildmon LEVEL_FROM_BADGES - 2, CKANA
 	wildmon LEVEL_FROM_BADGES - 2, EMEIRA
 	wildmon LEVEL_FROM_BADGES - 3, NOCTOWL
@@ -2245,7 +2245,7 @@
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, SWINUB
 	wildmon LEVEL_FROM_BADGES + 1, SWINUB
-	wildmon LEVEL_FROM_BADGES - 1, MR__MIME, GALARIAN_FORM
+	wildmon LEVEL_FROM_BADGES - 1, CCHEN, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES - 1, DELIBIRD
 	wildmon LEVEL_FROM_BADGES + 0, STANTLER
 	wildmon LEVEL_FROM_BADGES + 1, SNEASEL, HISUIAN_FORM
@@ -2253,7 +2253,7 @@
 	; day
 	wildmon LEVEL_FROM_BADGES - 2, SWINUB
 	wildmon LEVEL_FROM_BADGES + 1, SWINUB
-	wildmon LEVEL_FROM_BADGES - 1, MR__MIME, GALARIAN_FORM
+	wildmon LEVEL_FROM_BADGES - 1, CCHEN, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES - 1, DELIBIRD
 	wildmon LEVEL_FROM_BADGES + 0, STANTLER
 	wildmon LEVEL_FROM_BADGES + 1, SNEASEL, HISUIAN_FORM
@@ -2261,7 +2261,7 @@
 	; nite
 	wildmon LEVEL_FROM_BADGES - 2, SWINUB
 	wildmon LEVEL_FROM_BADGES + 1, SWINUB
-	wildmon LEVEL_FROM_BADGES - 1, MR__MIME, GALARIAN_FORM
+	wildmon LEVEL_FROM_BADGES - 1, CCHEN, GALARIAN_FORM
 	wildmon LEVEL_FROM_BADGES - 1, DELIBIRD
 	wildmon LEVEL_FROM_BADGES + 0, STANTLER
 	wildmon LEVEL_FROM_BADGES + 1, SNEASEL, HISUIAN_FORM

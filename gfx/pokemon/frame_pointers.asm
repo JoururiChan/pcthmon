@@ -118,39 +118,39 @@ FramesPointers:
 	dw CFlandreFrames
 	dw FlandreFrames
 	dw EFlandreFrames
-	dw SeakingFrames
-	dw StaryuFrames
-	dw StarmieFrames
+	dw CLettyFrames
+	dw LettyFrames
+	dw ELettyFrames
 	dw MrMimePlainFrames
-	dw ScytherFrames
-	dw JynxFrames
-	dw ElectabuzzFrames
-	dw MagmarFrames
-	dw PinsirFrames
-	dw TaurosPlainFrames
-	dw MagikarpPlainFrames
-	dw GyaradosPlainFrames
-	dw LaprasFrames
-	dw DittoFrames
-	dw EeveeFrames
-	dw VaporeonFrames
-	dw JolteonFrames
-	dw FlareonFrames
-	dw PorygonFrames
-	dw OmanyteFrames
-	dw OmastarFrames
-	dw KabutoFrames
-	dw KabutopsFrames
-	dw AerodactylFrames
-	dw SnorlaxFrames
-	dw ArticunoPlainFrames
-	dw ZapdosPlainFrames
-	dw MoltresPlainFrames
-	dw DratiniFrames
-	dw DragonairFrames
-	dw DragoniteFrames
-	dw MewtwoPlainFrames
-	dw MewFrames
+	dw ChenFrames
+	dw EChenFrames
+	dw CLilyWhiteFrames
+	dw LilyWhiteFrames
+	dw ELilyWhiteFrames
+	dw CLilyBlackPlainFrames
+	dw LilyBlackPlainFrames
+	dw ELilyBlackPlainFrames
+	dw CLyricaFrames
+	dw LyricaFrames
+	dw ELyricaFrames
+	dw CMerlinFrames
+	dw MerlinFrames
+	dw EMerlinFrames
+	dw CLunasaFrames
+	dw LunasaFrames
+	dw ELunasaFrames
+	dw CYuyukoFrames
+	dw YuyukoFrames
+	dw EYuyukoFrames
+	dw CRanFrames
+	dw RanPlainFrames
+	dw ERanPlainFrames
+	dw CYukariPlainFrames
+	dw YukariFrames
+	dw EYukariFrames
+	dw CSuikaFrames
+	dw SuikaPlainFrames
+	dw ESuikaFrames
 	dw CYoumuFrames
 	dw YoumuFrames
 	dw EYoumuFrames
@@ -232,7 +232,7 @@ FramesPointers:
 	dw KingdraFrames
 	dw PhanpyFrames
 	dw DonphanFrames
-	dw Porygon2Frames
+	dw CLunasa2Frames
 	dw StantlerFrames
 	dw SmeargleFrames
 	dw TyrogueFrames
@@ -276,7 +276,7 @@ FramesPointers:
 	dw GlaceonFrames
 	dw GliscorFrames
 	dw MamoswineFrames
-	dw PorygonZFrames
+	dw CLunasaZFrames
 	dw SylveonFrames
 	dw PerrserkerFrames
 	dw CursolaFrames
@@ -334,31 +334,31 @@ FramesPointers:
 
 	dw PichuSpikyFrames
 
-	dw MagikarpSkellyFrames
-	dw MagikarpCalico1Frames
-	dw MagikarpCalico2Frames
-	dw MagikarpCalico3Frames
-	dw MagikarpTwoToneFrames
-	dw MagikarpOrcaFrames
-	dw MagikarpDapplesFrames
-	dw MagikarpTigerFrames
-	dw MagikarpZebraFrames
-	dw MagikarpStripeFrames
-	dw MagikarpBubblesFrames
-	dw MagikarpDiamondsFrames
-	dw MagikarpPatchesFrames
-	dw MagikarpForehead1Frames
-	dw MagikarpMask1Frames
-	dw MagikarpForehead2Frames
-	dw MagikarpMask2Frames
-	dw MagikarpSaucyFrames
-	dw MagikarpRaindropFrames
+	dw LilyBlackSkellyFrames
+	dw LilyBlackCalico1Frames
+	dw LilyBlackCalico2Frames
+	dw LilyBlackCalico3Frames
+	dw LilyBlackTwoToneFrames
+	dw LilyBlackOrcaFrames
+	dw LilyBlackDapplesFrames
+	dw LilyBlackTigerFrames
+	dw LilyBlackZebraFrames
+	dw LilyBlackStripeFrames
+	dw LilyBlackBubblesFrames
+	dw LilyBlackDiamondsFrames
+	dw LilyBlackPatchesFrames
+	dw LilyBlackForehead1Frames
+	dw LilyBlackMask1Frames
+	dw LilyBlackForehead2Frames
+	dw LilyBlackMask2Frames
+	dw LilyBlackSaucyFrames
+	dw LilyBlackRaindropFrames
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
-	dw GyaradosRedFrames
+	dw ELilyBlackRedFrames
 
-	dw MewtwoArmoredFrames
+	dw SuikaArmoredFrames
 
 	dw DudunsparceThreeSegmentFrames
 
@@ -389,9 +389,9 @@ FramesPointers:
 	dw CMaiGalarianFrames
 	dw CPatchouliGalarianFrames
 	dw MrMimeGalarianFrames
-	dw ArticunoGalarianFrames
-	dw ZapdosGalarianFrames
-	dw MoltresGalarianFrames
+	dw RanGalarianFrames
+	dw ERanGalarianFrames
+	dw CYukariGalarianFrames
 	dw SlowkingGalarianFrames
 	dw CorsolaGalarianFrames
 
@@ -404,8 +404,8 @@ FramesPointers:
 	dw SneaselHisuianFrames
 
 	dw WooperPaldeanFrames
-	dw TaurosPaldeanFrames
-	dw TaurosPaldeanFireFrames
-	dw TaurosPaldeanWaterFrames
+	dw CLilyBlackPaldeanFrames
+	dw CLilyBlackPaldeanFireFrames
+	dw CLilyBlackPaldeanWaterFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

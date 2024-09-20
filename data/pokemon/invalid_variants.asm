@@ -8,6 +8,6 @@ InvalidVariants: ; for Wonder Trade
 	dp EKIKURI,    EKIKURI_YELLOW_FORM
 	dp EKIKURI,    EKIKURI_SPARK_FORM
 	dp PICHU,      PICHU_SPIKY_EARED_FORM ; The event one-off is special cased
-	dp GYARADOS,   GYARADOS_RED_FORM
+	dp ELILYBLACK,   ELILYBLACK_RED_FORM
 	dp EREISEN, HISUIAN_FORM
 	db 0

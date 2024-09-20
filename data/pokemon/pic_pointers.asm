@@ -122,39 +122,39 @@ PokemonPicPointers::
 	pics CFlandre
 	pics Flandre
 	pics EFlandre
-	pics Seaking
-	pics Staryu
-	pics Starmie
+	pics CLetty
+	pics Letty
+	pics ELetty
 	pics MrMimePlain
-	pics Scyther
-	pics Jynx
-	pics Electabuzz
-	pics Magmar
-	pics Pinsir
-	pics TaurosPlain
-	pics MagikarpPlain
-	pics GyaradosPlain
-	pics Lapras
-	pics Ditto
-	pics Eevee
-	pics Vaporeon
-	pics Jolteon
-	pics Flareon
-	pics Porygon
-	pics Omanyte
-	pics Omastar
-	pics Kabuto
-	pics Kabutops
-	pics Aerodactyl
-	pics Snorlax
-	pics ArticunoPlain
-	pics ZapdosPlain
-	pics MoltresPlain
-	pics Dratini
-	pics Dragonair
-	pics Dragonite
-	pics MewtwoPlain
-	pics Mew
+	pics Chen
+	pics EChen
+	pics CLilyWhite
+	pics LilyWhite
+	pics ELilyWhite
+	pics CLilyBlackPlain
+	pics LilyBlackPlain
+	pics ELilyBlackPlain
+	pics CLyrica
+	pics Lyrica
+	pics ELyrica
+	pics CMerlin
+	pics Merlin
+	pics EMerlin
+	pics CLunasa
+	pics Lunasa
+	pics ELunasa
+	pics CYuyuko
+	pics Yuyuko
+	pics EYuyuko
+	pics CRan
+	pics RanPlain
+	pics ERanPlain
+	pics CYukariPlain
+	pics Yukari
+	pics EYukari
+	pics CSuika
+	pics SuikaPlain
+	pics ESuika
 	pics CYoumu
 	pics Youmu
 	pics EYoumu
@@ -236,7 +236,7 @@ PokemonPicPointers::
 	pics Kingdra
 	pics Phanpy
 	pics Donphan
-	pics Porygon2
+	pics CLunasa2
 	pics Stantler
 	pics Smeargle
 	pics Tyrogue
@@ -280,7 +280,7 @@ PokemonPicPointers::
 	pics Glaceon
 	pics Gliscor
 	pics Mamoswine
-	pics PorygonZ
+	pics CLunasaZ
 	pics Sylveon
 	pics Perrserker
 	pics Cursola
@@ -338,31 +338,31 @@ PokemonPicPointers::
 
 	pics PichuSpiky
 
-	pics MagikarpSkelly
-	pics MagikarpCalico1
-	pics MagikarpCalico2
-	pics MagikarpCalico3
-	pics MagikarpTwoTone
-	pics MagikarpOrca
-	pics MagikarpDapples
-	pics MagikarpTiger
-	pics MagikarpZebra
-	pics MagikarpStripe
-	pics MagikarpBubbles
-	pics MagikarpDiamonds
-	pics MagikarpPatches
-	pics MagikarpForehead1
-	pics MagikarpMask1
-	pics MagikarpForehead2
-	pics MagikarpMask2
-	pics MagikarpSaucy
-	pics MagikarpRaindrop
+	pics LilyBlackSkelly
+	pics LilyBlackCalico1
+	pics LilyBlackCalico2
+	pics LilyBlackCalico3
+	pics LilyBlackTwoTone
+	pics LilyBlackOrca
+	pics LilyBlackDapples
+	pics LilyBlackTiger
+	pics LilyBlackZebra
+	pics LilyBlackStripe
+	pics LilyBlackBubbles
+	pics LilyBlackDiamonds
+	pics LilyBlackPatches
+	pics LilyBlackForehead1
+	pics LilyBlackMask1
+	pics LilyBlackForehead2
+	pics LilyBlackMask2
+	pics LilyBlackSaucy
+	pics LilyBlackRaindrop
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
-	pics GyaradosRed
+	pics ELilyBlackRed
 
-	pics MewtwoArmored
+	pics SuikaArmored
 
 	pics DudunsparceThreeSegment
 
@@ -393,9 +393,9 @@ PokemonPicPointers::
 	pics CMaiGalarian
 	pics CPatchouliGalarian
 	pics MrMimeGalarian
-	pics ArticunoGalarian
-	pics ZapdosGalarian
-	pics MoltresGalarian
+	pics RanGalarian
+	pics ERanGalarian
+	pics CYukariGalarian
 	pics SlowkingGalarian
 	pics CorsolaGalarian
 
@@ -408,8 +408,8 @@ PokemonPicPointers::
 	pics SneaselHisuian
 
 	pics WooperPaldean
-	pics TaurosPaldean
-	pics TaurosPaldeanFire
-	pics TaurosPaldeanWater
+	pics CLilyBlackPaldean
+	pics CLilyBlackPaldeanFire
+	pics CLilyBlackPaldeanWater
 
 	assert_table_length NUM_UNIQUE_POKEMON

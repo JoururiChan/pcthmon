@@ -35,7 +35,7 @@ SavePatches:
 	dw UpdateCharset ; implicit
 
 	dh 7 ; 6.2
-	dw ChangeGyaradosForm ; implicit
+	dw ChangeELilyBlackForm ; implicit
 
 	dh 7
 	dw ConvertToNewbox ; first build with version number

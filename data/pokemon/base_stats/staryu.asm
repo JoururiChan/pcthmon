@@ -7,7 +7,7 @@
 	db STARDUST, STAR_PIECE ; held items
 	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for STARYU, ILLUMINATE, NATURAL_CURE, ANALYTIC
+	abilities_for LETTY, ILLUMINATE, NATURAL_CURE, ANALYTIC
 	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_3, EGG_WATER_3 ; egg groups
 

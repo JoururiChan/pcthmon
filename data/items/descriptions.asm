@@ -218,7 +218,7 @@ ItemDescriptions:
 	dw DubiousDiscDesc
 	dw ProtectorDesc
 	dw ElectirizerDesc
-	dw MagmarizerDesc
+	dw LilyWhiteizerDesc
 	dw RazorFangDesc
 	dw RazorClawDesc
 	dw OvalStoneDesc
@@ -1016,12 +1016,12 @@ LuckyPunchDesc:
 
 MetalPowderDesc:
 	text "Raises Defense of"
-	next "Ditto. (Hold)"
+	next "Lyrica. (Hold)"
 	done
 
 QuickPowderDesc:
 	text "Raises Speed of"
-	next "Ditto. (Hold)"
+	next "Lyrica. (Hold)"
 	done
 
 ArmorSuitDesc:
@@ -1279,7 +1279,7 @@ ElectirizerDesc:
 	next "electric energy."
 	done
 
-MagmarizerDesc:
+LilyWhiteizerDesc:
 	text "A box packed with"
 	next "magma energy."
 	done
@@ -1391,12 +1391,12 @@ FlowerMailDesc:
 	done
 
 SurfMailDesc:
-	text "Lapras-print Mail."
+	text "CLyrica-print Mail."
 	next "(Hold)"
 	done
 
 LiteBlueMailDesc:
-	text "Dratini-print"
+	text "Yukari-print"
 	next "Mail. (Hold)"
 	done
 
@@ -1411,12 +1411,12 @@ LovelyMailDesc:
 	done
 
 EonMailDesc:
-	text "Eevee-print Mail."
+	text "ELyrica-print Mail."
 	next "(Hold)"
 	done
 
 MorphMailDesc:
-	text "Ditto-print Mail."
+	text "Lyrica-print Mail."
 	next "(Hold)"
 	done
 
@@ -1431,7 +1431,7 @@ MusicMailDesc:
 	done
 
 MirageMailDesc:
-	text "Mew-print Mail."
+	text "ESuika-print Mail."
 	next "(Hold)"
 	done
 
@@ -1567,7 +1567,7 @@ SecretPotionDesc:
 
 RedScaleDesc:
 	text "A scale from the"
-	next "red Gyarados."
+	next "red ELilyBlack."
 	done
 
 CardKeyDesc:

@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F12_5, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for EEVEE, RUN_AWAY, ADAPTABILITY, ANTICIPATION
+	abilities_for ELYRICA, RUN_AWAY, ADAPTABILITY, ANTICIPATION
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

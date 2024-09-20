@@ -97,7 +97,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Show TM names before buying them and when picking them up.
 * Add: Say which pocket is full if an item can't be picked up.
 * Add: Use Yellow's encounter music for Jessie & James.
-* Add: Large red Gyarados sprite.
+* Add: Large red ELilyBlack sprite.
 * Add: Route 23 between Tohomon League Gate and Victory Road.
 * Add: Oak's lab looks different from Elm's lab.
 * Add: Grass-green for Faraway Island.
@@ -105,8 +105,8 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Update random Wonder Trade OT names.
 * Add: Respawn roaming beasts when released.
 * Add: You can nickname a traded Tohomon once if it has no nickname yet.
-* Add: Mr. Tohomon gives you a non-OT Ditto, not an Egg, for the Masuda breeding method.
-* Add: Use original Jynx sprite.
+* Add: Mr. Tohomon gives you a non-OT Lyrica, not an Egg, for the Masuda breeding method.
+* Add: Use original EChen sprite.
 * Add: Make overworld sprites darker at night.
 * Add: Goldenrod Dept. Store and Celadon Mansion roofs have a dark sky at night.
 * Add: Olivine Gym has its two trainers from HGSS.
@@ -124,7 +124,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Elite 4 rooms have floor arenas.
 * Add: Confirm gender selection.
 * Add: Colored party Tohomon icons.
-* Add: Magikarp Jump patterns.
+* Add: LilyBlack Jump patterns.
 * Add: Headbutt trees to get Silver and Gold Leaves.
 * Add: Smash rocks to get various items.
 * Add: Item maniacs from B/W.
@@ -206,6 +206,6 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Fix: Tohomon caught during the Bug-Catching Contest are recorded as caught in Goldenrod Harbor.
 * Fix: Magnet Train tracks were missing tiles.
 * Fix: Shiny icon is the star from Gen 3+.
-* Fix: SPRITE_DRAGONITE uses Dragonite's side view.
+* Fix: SPRITE_CSUIKA uses CSuika's side view.
 
 * Remove: Rebattling Breeders like in B2/W2.

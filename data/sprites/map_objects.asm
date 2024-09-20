@@ -22,7 +22,7 @@ SpriteMovementData::
 	sprite_movement_data SPRITEMOVEFN_CUT_TREE,              DOWN,   OBJECT_ACTION_CUT_TREE,         $0c,    LOW_PRIORITY,    %0000 ; SPRITEMOVEDATA_CUTTABLE_TREE
 	sprite_movement_data SPRITEMOVEFN_FOLLOW,                DOWN,   OBJECT_ACTION_STAND,            $02,    $00,    %0000 ; SPRITEMOVEDATA_FOLLOWING
 	sprite_movement_data SPRITEMOVEFN_SCRIPTED,              DOWN,   OBJECT_ACTION_STAND,            $02,    $00,    %0000 ; SPRITEMOVEDATA_SCRIPTED
-	sprite_movement_data SPRITEMOVEFN_BIG_SNORLAX,           DOWN,   OBJECT_ACTION_BIG_SNORLAX,      $2e,    $01,    %1100 ; SPRITEMOVEDATA_SNORLAX
+	sprite_movement_data SPRITEMOVEFN_BIG_CRAN,           DOWN,   OBJECT_ACTION_BIG_CRAN,      $2e,    $01,    %1100 ; SPRITEMOVEDATA_CRAN
 	sprite_movement_data SPRITEMOVEFN_BOUNCE,                DOWN,   OBJECT_ACTION_BOUNCE,           $2e,    $00,    %0000 ; SPRITEMOVEDATA_POKEMON
 	sprite_movement_data SPRITEMOVEFN_STANDING,              DOWN,   OBJECT_ACTION_STAND,            $0c,    $00,    %0000 ; SPRITEMOVEDATA_SUDOWOODO
 	sprite_movement_data SPRITEMOVEFN_STANDING,              UP,     OBJECT_ACTION_STAND,            $2e,    $10,    %0000 ; SPRITEMOVEDATA_SMASHABLE_ROCK
@@ -41,7 +41,7 @@ SpriteMovementData::
 	sprite_movement_data SPRITEMOVEFN_RANDOM_WALK_Y,         DOWN,   OBJECT_ACTION_STAND,            $00,    $00,    %0010 ; SPRITEMOVEDATA_SWIM_UP_DOWN
 	sprite_movement_data SPRITEMOVEFN_RANDOM_WALK_X,         DOWN,   OBJECT_ACTION_STAND,            $00,    $00,    %0010 ; SPRITEMOVEDATA_SWIM_LEFT_RIGHT
 	sprite_movement_data SPRITEMOVEFN_FRUIT,                 DOWN,   OBJECT_ACTION_FRUIT,            $00,    $00,    %0000 ; SPRITEMOVEDATA_FRUIT
-	sprite_movement_data SPRITEMOVEFN_BIG_GYARADOS,          DOWN,   OBJECT_ACTION_BIG_GYARADOS,     $2e,    $01,    %1100 ; SPRITEMOVEDATA_BIG_GYARADOS
+	sprite_movement_data SPRITEMOVEFN_BIG_ELILYBLACK,          DOWN,   OBJECT_ACTION_BIG_ELILYBLACK,     $2e,    $01,    %1100 ; SPRITEMOVEDATA_BIG_ELILYBLACK
 	sprite_movement_data SPRITEMOVEFN_STANDING_FLIP,         DOWN,   OBJECT_ACTION_STAND_FLIP,       $00,    $00,    %0000 ; SPRITEMOVEDATA_STANDING_DOWN_FLIP
 	sprite_movement_data SPRITEMOVEFN_STANDING_FLIP,         UP,     OBJECT_ACTION_STAND_FLIP,       $00,    $00,    %0000 ; SPRITEMOVEDATA_STANDING_UP_FLIP
 	sprite_movement_data SPRITEMOVEFN_POKECOM_NEWS,          DOWN,   OBJECT_ACTION_POKECOM_NEWS,     $8e,    $02,    %0000 ; SPRITEMOVEDATA_POKECOM_NEWS
