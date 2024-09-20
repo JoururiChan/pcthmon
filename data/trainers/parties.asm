@@ -5921,7 +5921,7 @@ SchoolgirlGroup:
 	; party
 	dbp 7, CRIKA
 		db "Tank@"
-	dbp 6, PHANPY
+	dbp 6, CYUMEMI
 		db "@"
 	db -1 ; end
 
@@ -6255,7 +6255,7 @@ SageGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 3, CYUKA
-	dbp 3, HOOTHOOT
+	dbp 3, CSARIEL
 	dbp 3, CYUKA
 	db -1 ; end
 
