@@ -13,7 +13,6 @@ Route19BeachHouse_MapScriptHeader:
 
 	def_object_events
 	object_event  2,  3, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route19BeachHouseVictorScript, -1
-	object_event  6,  4, SPRITE_SURFING_EKIKURI, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route19BeachHouseSurfingEKikuriScript, -1
 
 	object_const_def
 	const ROUTE19BEACHHOUSE_VICTOR
