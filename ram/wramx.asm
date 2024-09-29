@@ -1527,7 +1527,7 @@ wDecompressedMetatiles:: ds 256 tiles
 SECTION UNION "Metatiles", WRAMX
 
 UNION
-wDex2bpp:: ds $59 tiles
+wDex2bpp:: ds $60 tiles
 
 NEXTU
 ; copied using hdma transfers (which is orders of magnitudes faster), so it uses
@@ -1538,14 +1538,14 @@ wDexMapEnd::
 
 UNION
 wDexVWFTiles:: ds 19 tiles ; 1 tile padding
-wDexIconTiles:: ds 24 tiles ; 4 tiles padding
+wDexIconTiles:: ds 23 tiles ; 4 tiles padding
 wDexRowTilesDest::
 wDexVWFTilesDest:: dw
 wDexIconTilesDest:: dw
 NEXTU
 ; Copied using GDMA in VBlank. Ideally we want to do GDMA as part of hblank,
 ; but there is some issues with that yet to be fully researched (issue #639).
-	ds 49 tiles
+	ds 48 tiles
 wDexMonTiles::
 wDexMonType1Tiles:: ds 4 tiles
 wDexMonType2Tiles:: ds 4 tiles
