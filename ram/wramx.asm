@@ -1538,7 +1538,7 @@ wDexMapEnd::
 
 UNION
 wDexVWFTiles:: ds 19 tiles ; 1 tile padding
-wDexIconTiles:: ds 23 tiles ; 4 tiles padding
+wDexIconTiles:: ds 24 tiles ; 4 tiles padding
 wDexRowTilesDest::
 wDexVWFTilesDest:: dw
 wDexIconTilesDest:: dw
@@ -1552,7 +1552,7 @@ wDexMonType2Tiles:: ds 4 tiles
 wDexMonFootprintTiles:: ds 4 tiles
 wDexMonIconTiles:: ds 4 tiles
 wDexMonShapeTiles:: ds 4 tiles
-wDexAreaTypeTiles:: ds 7 tiles
+wDexAreaTypeTiles:: ds 6 tiles
 wDexAreaTypeTilesEnd::
 ENDU
 
