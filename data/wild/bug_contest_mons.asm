@@ -13,8 +13,8 @@ ContestMons:
 	contest_mon  5, CGYOKU, 12, 15
 	contest_mon  5, CMAGAN,   12, 15
 	contest_mon 10, RIKAKO,    10, 16
-	contest_mon 10, EKANA,      10, 17
-	contest_mon  5, ERIKAKO,   12, 15
+	contest_mon 10, KANA,      10, 17
+	contest_mon  5, RIKAKO,   12, 15
 	contest_mon  5, YANMA,      13, 14
 	contest_mon  5, CHEN,    13, 14
 	contest_mon  5, ELILYWHITE,     13, 14

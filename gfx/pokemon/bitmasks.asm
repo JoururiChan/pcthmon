@@ -314,7 +314,6 @@ CSaraBitmasks:  INCLUDE "gfx/pokemon/csara/bitmask.asm"
 
 SaraBitmasks:  INCLUDE "gfx/pokemon/sara/bitmask.asm"
 
-EYukiBitmasks:  INCLUDE "gfx/pokemon/eyuki/bitmask.asm"
 
 CYumekoBitmasks:  INCLUDE "gfx/pokemon/cyumeko/bitmask.asm"
 

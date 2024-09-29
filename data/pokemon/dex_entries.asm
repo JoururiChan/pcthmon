@@ -478,16 +478,6 @@ EllyTohodexEntry::
 	next "use it as part of"
 	next "their combat.@"
 
-SECTION "EEllyTohodexEntry", ROMX
-EEllyTohodexEntry::
-	db "Gate Keeper"
-	db   "Even while becoming"
-	next "much more reliable,"
-	next "Yuka #mon still"
-	page "act as if they"
-	next "have no faith in"
-	next "Elly #mon.@"
-
 SECTION "CYukaTohodexEntry", ROMX
 CYukaTohodexEntry::
 	db "Dreams@"
@@ -1635,7 +1625,7 @@ PolitoedTohodexEntry::
 	next "its throat to"
 	next "croak out a tune,"
 	page "nearby Kurumi and"
-	next "EKurumi gather"
+	next "Kurumi gather"
 	next "immediately.@"
 
 SECTION "HoppipTohodexEntry", ROMX
@@ -1755,7 +1745,7 @@ MurkrowTohodexEntry::
 	next "object it finds in"
 	next "a secret location."
 	page "Murkrow and"
-	next "EChiyuri loot one"
+	next "Chiyuri loot one"
 	next "another's stashes.@"
 
 SECTION "SlowkingTohodexEntry", ROMX

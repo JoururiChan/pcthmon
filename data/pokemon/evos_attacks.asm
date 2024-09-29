@@ -272,7 +272,7 @@ CMaganEvosAttacks:
 	db 21, FEINT_ATTACK
 	db -1 ; no more level-up moves
 
-EMaganEvosAttacks:
+MaganEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 5, GUST ; Sand Attack → Gust
@@ -308,7 +308,7 @@ CMimaEvosAttacks:
 	db 62, HURRICANE
 	db -1 ; no more level-up moves
 
-EMimaEvosAttacks:
+MimaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, MASTER_SPARK ; EVO move
@@ -345,7 +345,7 @@ CElisEvosAttacks:
 	db 44, COUNTER ; Endeavor → egg move
 	db -1 ; no more level-up moves
 
-EElisEvosAttacks:
+ElisEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, QUICK_ATTACK ; Pluck → egg move
 	db 1, PECK
@@ -386,7 +386,7 @@ CKikuriEvosAttacks:
 	db 49, GUNK_SHOT
 	db -1 ; no more level-up moves
 
-EKikuriEvosAttacks:
+KikuriEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, LEER ; Tail Whip → similar move
@@ -430,7 +430,7 @@ CSarielEvosAttacks:
 	db 62, BLIZZARD
 	db -1 ; no more level-up moves
 
-ESarielEvosAttacks:
+SarielEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GUST
 	db 1, PSYSHOT ; Tail Whip → similar move
@@ -473,7 +473,7 @@ CKongaraEvosAttacks:
 	db 63, REVERSAL
 	db -1 ; no more level-up moves
 
-EKongaraEvosAttacks:
+KongaraEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PURSUIT
 	db 1, HAZE
@@ -577,7 +577,7 @@ CMeiraEvosAttacks:
 	db 55, BRAVER
 	db -1 ; no more level-up moves
 
-EMeiraEvosAttacks:
+MeiraEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
@@ -619,7 +619,7 @@ CEllenEvosAttacks:
 	db 52, HEALINGLIGHT
 	db -1 ; no more level-up moves
 
-EEllenEvosAttacks:
+EllenEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PSYSHOT ; evolution move
 	db 1, TRICK
@@ -659,7 +659,7 @@ CKotohimeEvosAttacks:
 	db 52, ATTRACT
 	db -1 ; no more level-up moves
 
-EKotohimeEvosAttacks:
+KotohimeEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, KARATE_CHOP
 	db 4, DISARM_VOICE
@@ -698,7 +698,7 @@ CKanaEvosAttacks:
 	db 52, DESTINY_BOND
 	db -1 ; no more level-up moves
 
-EKanaEvosAttacks:
+KanaEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, LICK
 	db 1, ASTONISH ; Sweet Scent → event move
@@ -736,7 +736,7 @@ CRikakoEvosAttacks:
 	db 51, ZAP_CANNON
 	db -1 ; no more level-up moves
 
-ARikakoEvosAttacks:
+RikakoEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, AERIAL_ACE ; evo move
 	db 1, PSYSHOT
@@ -776,7 +776,7 @@ CChiyuriEvosAttacks:
 	db 53, HYDRO_PUMP
 	db -1 ; no more level-up moves
 
-EChiyuriEvosAttacks:
+ChiyuriEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, AQUA_JET ; XD move
@@ -816,7 +816,7 @@ CYumemiEvosAttacks:
 	db 52, SHINY_FIRE
 	db -1 ; no more level-up moves
 
-EYumemiEvosAttacks:
+YumemiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, EMBER
 	db 1, PSYSHOT
@@ -855,7 +855,7 @@ COrangeEvosAttacks:
 	db 54, BULLDOZE
 	db -1 ; no more level-up moves
 
-EOrangeEvosAttacks:
+OrangeEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, KARATE_CHOP
 	db 4, LEER ; Fury Swipes → similar move
@@ -896,7 +896,7 @@ CKurumiEvosAttacks:
 	db 54, NASTY_PLOT
 	db -1 ; no more level-up moves
 
-EKurumiEvosAttacks:
+KurumiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GUST
 	db 1, DEFENSE_CURL
@@ -938,7 +938,7 @@ CEllyEvosAttacks:
 	db 56, POISON_NAIL
 	db -1 ; no more level-up moves
 
-EEllyEvosAttacks:
+EllyEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SCRATCH
 	db 1, HONE_TOOLS
@@ -1044,8 +1044,7 @@ CMugetsuEvosAttacks:
 	db 56, LIFE_COUNTER
 	db -1 ; no more level-up moves
 
-EMugetsuEvosAttacks:
-	evo_data EVOLVE_LEVEL, 21, EMUGETSU
+MugetsuEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, SWEET_KISS
@@ -1087,7 +1086,7 @@ CGengetsuEvosAttacks:
 	db 57, AEROBLAST
 	db -1 ; no more level-up moves
 
-EGengetsuEvosAttacks:
+GengetsuEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, GUST
 	db 1, TELEPORT
@@ -1128,7 +1127,7 @@ CSaraEvosAttacks:
 	db 52, PSYSTRIKE
 	db -1 ; no more level-up moves
 
-ESaraEvosAttacks:
+SaraEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, RAGE
 	db 1, FIRE_PUNCH ; evo move
@@ -1289,7 +1288,7 @@ CMaiEvosAttacks:
 	db 53, BLIZZARD
 	db -1 ; no more level-up moves
 
-EMaiEvosAttacks:
+MaiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, ICE_SHARD
 	db 1, LUNAR_BULLET ; evo-move
@@ -1327,7 +1326,7 @@ CYukiEvosAttacks:
 	db 53, MASTER_SPARK
 	db -1 ; no more level-up moves
 
-EYukiEvosAttacks:
+YukiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, EMBER
 	db 1, SHINY_FIRE ; evo move
@@ -1366,7 +1365,7 @@ CYumekoEvosAttacks:
 	db 51, PETAL_SLASH
 	db -1 ; no more level-up moves
 
-EYumekoEvosAttacks:
+YumekoEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, KNIFE_THROW
 	db 1, HONE_TOOLS
@@ -1408,7 +1407,7 @@ CShinkiEvosAttacks:
 	db 59, HELL_TOKAMAK 
 	db -1 ; no more level-up moves
 
-EShinkiEvosAttacks:
+ShinkiEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, PSYSHOT
 	db 1, ENDURE
@@ -2996,7 +2995,7 @@ LanturnEvosAttacks:
 	db -1 ; no more level-up moves
 
 PichuEvosAttacks:
-	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, EKIKURI
+	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, KIKURI
 	db -1 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, CHARM

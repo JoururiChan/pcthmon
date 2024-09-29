@@ -20,7 +20,7 @@ UniqueWildMoves:
 	unique_moves WAKASAGIHIME_WELL,    DLUIZE,   GROWTH       ; Prism tutor move
 	unique_moves ILEX_FOREST,      0,          0
 	unique_moves ROUTE_34_COAST,   LETTY,     DREAM_EATER  ; new move
-	unique_moves STORMY_BEACH,     ERIKAKO,   0
+	unique_moves STORMY_BEACH,     RIKAKO,   0
 	unique_moves MURKY_SWAMP,      MISDREAVUS, SUCKER_PUNCH ; HGSS tutor move
 	unique_moves MAGNET_TUNNEL,    ALICE,  PSYBEAM      ; new move
 	unique_moves GOLDENROD_HARBOR, YUMEMI,    ENCORE       ; Dream World move
@@ -30,7 +30,7 @@ UniqueWildMoves:
 	unique_moves BURNED_TOWER,     0,          0
 	unique_moves WHIRL_ISLANDS,    0,          0
 	unique_moves CLIFF_CAVE,       0,          0
-	unique_moves YELLOW_FOREST,    EKIKURI,    FLY          ; replaced with Surf if Surfing
+	unique_moves YELLOW_FOREST,    KIKURI,    FLY          ; replaced with Surf if Surfing
 	unique_moves QUIET_CAVE,       MUNCHLAX,   GUNGNIR  ; CRan move
 	unique_moves MT_MORTAR,        0,          0
 	unique_moves LAKE_OF_RAGE,     LILYBLACK,   HYDRO_PUMP   ; Tohowalker move
@@ -38,13 +38,13 @@ UniqueWildMoves:
 	unique_moves DRAGONS_DEN,      0,          0
 	unique_moves DARK_CAVE,        0,          0
 	unique_moves SILVER_CAVE,      TYRANITAR,  DRAGON_DANCE ; event move
-	unique_moves VIRIDIAN_FOREST,  EKIKURI,    DISARM_VOICE ; Sketch-breed move
+	unique_moves VIRIDIAN_FOREST,  KIKURI,    DISARM_VOICE ; Sketch-breed move
 	unique_moves MT_MOON,          0,          0
 	unique_moves CERULEAN_CAVE,    CMUGETSU,    METRONOME    ; RBY TM move
-	unique_moves CERULEAN_CAVE,    ESARA,      METRONOME    ; RBY TM move
-	unique_moves CERULEAN_CAVE,    ESHINKI,     METRONOME    ; RBY TM move
+	unique_moves CERULEAN_CAVE,    SARA,      METRONOME    ; RBY TM move
+	unique_moves CERULEAN_CAVE,    SHINKI,     METRONOME    ; RBY TM move
 	unique_moves CERULEAN_CAVE,    CYUKA,   METRONOME    ; RBY TM move
-	unique_moves CERULEAN_CAPE,    EKURUMI,  METRONOME    ; RBY TM move
+	unique_moves CERULEAN_CAPE,    KURUMI,  METRONOME    ; RBY TM move
 	unique_moves CCHIYURIS_CAVE,    CHIYURI,    SCREECH      ; Sw/Sh move
 	unique_moves ROCK_TUNNEL,      CLILYWHITE, METRONOME    ; RBY TM move
 	unique_moves DIM_CAVE,         SARA,   SUCKER_PUNCH ; HGSS tutor move
@@ -58,7 +58,7 @@ UniqueWildMoves:
 	unique_moves SAFARI_ZONE,      CLILYBLACK,     STOMP        ; RBY move (east)
 	unique_moves SAFARI_ZONE,      ELILYWHITE,     SLASH        ; RBY move (north)
 	unique_moves SAFARI_ZONE,      SREMILIA, 0            ; (west)
-	unique_moves URAGA_CHANNEL,    EGENGETSU, RECOVER      ; TCG move
+	unique_moves URAGA_CHANNEL,    GENGETSU, RECOVER      ; TCG move
 	unique_moves SCARY_CAVE,       KOTOHIME,     HYPNOSIS     ; Dream World move
 	unique_moves SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves SEAFOAM_ISLANDS,  HCHEN,       METRONOME    ; RBY TM move

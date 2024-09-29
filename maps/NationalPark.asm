@@ -85,7 +85,7 @@ GenericTrainerSchoolgirlEliza:
 
 	text "I don't care!"
 	line "I still love"
-	cont "EKotohime."
+	cont "Kotohime."
 	done
 
 GenericTrainerSchoolboyJohnny:
@@ -339,14 +339,14 @@ NationalParkTeacher1Text_GotQuickClaw:
 	done
 
 SchoolgirlElizaSeenText:
-	text "EKotohime is just"
+	text "Kotohime is just"
 	line "the cutest!"
 
 	para "Don't you agree?"
 	done
 
 SchoolgirlElizaBeatenText:
-	text "My poor EKotohime…"
+	text "My poor Kotohime…"
 	done
 
 SchoolboyJohnnySeenText:

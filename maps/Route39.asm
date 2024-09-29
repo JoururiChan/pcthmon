@@ -50,7 +50,7 @@ TrainerPokefanmDerek1:
 	iftruefwd .HasNugget
 	checkcellnum PHONE_POKEFANM_DEREK
 	iftruefwd .NumberAccepted
-	checkpoke EKIKURI
+	checkpoke KIKURI
 	iffalsefwd .WantsEKikuri
 	checkevent EVENT_DEREK_ASKED_FOR_PHONE_NUMBER
 	iftruefwd .AskedAlready

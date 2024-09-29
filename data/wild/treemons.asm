@@ -47,7 +47,7 @@ TreeMonSet_Town:
 	; rare
 	tree_mon 60, ELIS,    10
 	tree_mon 30, HERACROSS,  10
-	tree_mon 10, ECHIYURI,     10
+	tree_mon 10, CHIYURI,     10
 	db -1
 
 TreeMonSet_Route:
@@ -103,22 +103,22 @@ TreeMonSet_Apricorns:
 	tree_mon 50, ELIS,               10
 	tree_mon 20, CKIKURI,                 10
 	tree_mon 20, AIPOM,                 10
-	tree_mon 10, DDAICHAN, HISUIAN_FORM, 10
+	tree_mon 10, DDAICHAN, 10
 	db -1
 	; rare
 	tree_mon 40, ELIS,               10
-	tree_mon 20, DDAICHAN, HISUIAN_FORM, 10
+	tree_mon 20, DDAICHAN, 10
 	tree_mon 20, HERACROSS,             10
-	tree_mon 20, ECHIYURI,                10
+	tree_mon 20, CHIYURI,                10
 	db -1
 
 TreeMonSet_NoisyForest:
 	tree_mon 60, PINECO,                  LEVEL_FROM_BADGES - 3
 	tree_mon  5, FORRETRESS,              LEVEL_FROM_BADGES + 2
-	tree_mon 35, CCIRNO, HISUIAN_FORM, LEVEL_FROM_BADGES + 0
+	tree_mon 35, CCIRNO, LEVEL_FROM_BADGES + 0
 	db -1
 	; rare
-	tree_mon 60, CCIRNO, HISUIAN_FORM, LEVEL_FROM_BADGES + 0
+	tree_mon 60, CCIRNO, LEVEL_FROM_BADGES + 0
 	tree_mon 30, PINECO,                  LEVEL_FROM_BADGES - 2
 	tree_mon 10, FORRETRESS,              LEVEL_FROM_BADGES + 3
 	db -1

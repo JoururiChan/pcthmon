@@ -61,7 +61,7 @@ BillsPC_ThemeNames:
 .Steel:    db "Steel@"
 .Fire:     db "Fire@"
 .Water:    db "Water@"
-.Nature:    db "Nature@"
+.Nature2:    db "Nature@"
 .Wind: db "Wind@"
 .Psychic:  db "Psychic@"
 .Ice:      db "Ice@"

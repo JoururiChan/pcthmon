@@ -1331,7 +1331,7 @@ MACRO species_battle_item
 ENDM
 
 .ValidBattleItemTable:
-	species_battle_item LIGHT_BALL, EKIKURI
+	species_battle_item LIGHT_BALL, KIKURI
 	species_battle_item LEEK, CMAI
 	species_battle_item LEEK, SIRFETCH_D
 	species_battle_item LUCKY_PUNCH, CREMILIA

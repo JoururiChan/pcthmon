@@ -51,7 +51,7 @@ NPCTrades:
 ; NPC_TRADE_JACQUES in Goldenrod Harbor
 	db TRADE_DIALOGSET_HAPPY
 	dp GENGETSU, NO_FORM ; wants
-	dp EYUKI, FEMALE     ; gives
+	dp YUKI, FEMALE     ; gives
 	rawchar "Gail@@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SDEF_UP_SATK_DOWN, LURE_BALL,    EVIOLITE
 	dw 50082

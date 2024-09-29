@@ -39,7 +39,7 @@ BugContestant_CooltrainerMNick:
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
-	contest_winner ERIKAKO,   332
+	contest_winner RIKAKO,   332
 	contest_winner FGYOKU, 324
 	contest_winner RIKAKO,    321
 
@@ -76,5 +76,5 @@ BugContestant_SchoolboyJohnny:
 BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
 	contest_winner RIKAKO,    267
-	contest_winner EKANA,      254
+	contest_winner KANA,      254
 	contest_winner CMAGAN,     259

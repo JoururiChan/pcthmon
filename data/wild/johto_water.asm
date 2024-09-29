@@ -87,7 +87,7 @@
 	def_water_wildmons WHIRL_ISLAND_B2F
 	db 4 percent ; encounter rate
 	wildmon 20, CFLANDRE
-	wildmon 25, EGENGETSU
+	wildmon 25, GENGETSU
 	wildmon 30, OCTILLERY
 	end_water_wildmons
 
@@ -101,7 +101,7 @@
 	def_water_wildmons SILVER_CAVE_ROOM_2
 	db 2 percent ; encounter rate
 	wildmon 75, FLANDRE
-	wildmon 75, EYUMEMI
+	wildmon 75, YUMEMI
 	wildmon 75, KINGDRA
 	end_water_wildmons
 
@@ -207,7 +207,7 @@
 	db 2 percent ; encounter rate
 	wildmon 25, KURUMI
 	wildmon 30, KURUMI
-	wildmon 30, EKURUMI
+	wildmon 30, KURUMI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_45
@@ -235,21 +235,21 @@
 	db 6 percent ; encounter rate
 	wildmon 20, GENGETSU
 	wildmon 15, GENGETSU
-	wildmon 20, EGENGETSU
+	wildmon 20, GENGETSU
 	end_water_wildmons
 
 	def_water_wildmons CHERRYGROVE_CITY
 	db 6 percent ; encounter rate
 	wildmon 20, GENGETSU
 	wildmon 15, GENGETSU
-	wildmon 20, EGENGETSU
+	wildmon 20, GENGETSU
 	end_water_wildmons
 
 	def_water_wildmons VIOLET_CITY
 	db 2 percent ; encounter rate
 	wildmon 20, KURUMI
 	wildmon 15, KURUMI
-	wildmon 20, EKURUMI
+	wildmon 20, KURUMI
 	end_water_wildmons
 
 	def_water_wildmons CIANWOOD_CITY
@@ -263,28 +263,28 @@
 	db 4 percent ; encounter rate
 	wildmon 20, YUMEMI
 	wildmon 15, YUMEMI
-	wildmon 20, EYUMEMI
+	wildmon 20, YUMEMI
 	end_water_wildmons
 
 	def_water_wildmons OLIVINE_CITY
 	db 6 percent ; encounter rate
 	wildmon 20, GENGETSU
 	wildmon 15, GENGETSU
-	wildmon 20, EGENGETSU
+	wildmon 20, GENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ECRUTEAK_CITY
 	db 2 percent ; encounter rate
 	wildmon 20, KURUMI
 	wildmon 15, KURUMI
-	wildmon 20, EKURUMI
+	wildmon 20, KURUMI
 	end_water_wildmons
 
 	def_water_wildmons ECRUTEAK_SHRINE_OUTSIDE
 	db 2 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, KURUMI
 	wildmon LEVEL_FROM_BADGES - 5, YUMEMI
-	wildmon LEVEL_FROM_BADGES + 0, EKURUMI
+	wildmon LEVEL_FROM_BADGES + 0, KURUMI
 	end_water_wildmons
 
 	def_water_wildmons LAKE_OF_RAGE
@@ -303,9 +303,9 @@
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE
 	db 2 percent ; encounter rate
-	wildmon 70, EKURUMI
+	wildmon 70, KURUMI
 	wildmon 75, CELLY
-	wildmon 70, EKURUMI
+	wildmon 70, KURUMI
 	end_water_wildmons
 
 	def_water_wildmons CHERRYGROVE_BAY
@@ -326,34 +326,34 @@
 	db 3 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
 	wildmon LEVEL_FROM_BADGES - 5, LETTY
-	wildmon LEVEL_FROM_BADGES + 0, EGENGETSU
+	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
 	end_water_wildmons
 
 	def_water_wildmons STORMY_BEACH
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
 	wildmon LEVEL_FROM_BADGES - 5, LETTY
-	wildmon LEVEL_FROM_BADGES + 0, EGENGETSU
+	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35_COAST_SOUTH
 	db 3 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
-	wildmon LEVEL_FROM_BADGES + 0, EGENGETSU
+	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
 	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35_COAST_NORTH
 	db 3 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
-	wildmon LEVEL_FROM_BADGES + 0, EGENGETSU
+	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
 	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
 	end_water_wildmons
 
 	def_water_wildmons YELLOW_FOREST
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 4, MARILL
-	wildmon LEVEL_FROM_BADGES - 4, EKIKURI
+	wildmon LEVEL_FROM_BADGES - 4, KIKURI
 	wildmon LEVEL_FROM_BADGES - 4, YUMEMI
 	end_water_wildmons
 
@@ -396,7 +396,7 @@
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 5, AFLANDRE
 	wildmon LEVEL_FROM_BADGES + 0, CLETTY
-	wildmon LEVEL_FROM_BADGES + 5, QWILFISH, HISUIAN_FORM
+	wildmon LEVEL_FROM_BADGES + 5, QWILFISH
 	end_water_wildmons
 
 	db -1 ; end

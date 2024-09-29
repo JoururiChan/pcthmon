@@ -4,10 +4,8 @@ FuryAttackUsers:
 	dp SAKUYA
 	dp HSAKUYA
 	dp ELIS
-	dp EELIS
 	dp CMAI
 	dp MAI
-	dp EMAI
 	dp PATCHOULI
 	dp TPATCHOULI
 	dp AFLANDRE

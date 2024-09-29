@@ -25,7 +25,7 @@ BattleTower2F_MapScriptHeader:
 	object_event  7,  7, SPRITE_LADY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BattleTower2FLadyText, EVENT_DIM_CAVE_RILEY
 	object_event  9,  4, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BattleTower2FTwinText, EVENT_CINNABAR_VOLCANO_BUCK
 	object_event 17,  8, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BattleTower2FSuperNerdText, EVENT_QUIET_CAVE_MARLEY
-	pokemon_event 18,  8, EKIKURI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, BattleTower2FEKikuriText, EVENT_QUIET_CAVE_MARLEY
+	pokemon_event 18,  8, KIKURI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_RED, BattleTower2FKikuriText, EVENT_QUIET_CAVE_MARLEY
 	object_event 12,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BattleTower2FYoungsterText, EVENT_SCARY_CAVE_MIRA
 	object_event 15,  6, SPRITE_BLACK_BELT, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BattleTower2FBlackbeltText, EVENT_BATTLE_TOWER_OUTSIDE_ANABEL
 
@@ -461,11 +461,11 @@ BattleTower2FSuperNerdText:
 
 	para "Don't let your"
 	line "guard down,"
-	cont "EKikuri!"
+	cont "Kikuri!"
 	done
 
-BattleTower2FEKikuriText:
-	text "EKikuri: Pichuu!"
+BattleTower2FKikuriText:
+	text "Kikuri: Pichuu!"
 	done
 
 BattleTower2FYoungsterText:

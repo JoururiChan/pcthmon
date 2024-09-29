@@ -19,7 +19,7 @@ CeladonMansion1F_MapScriptHeader:
 
 	def_object_events
 	object_event  1,  5, SPRITE_GRANNY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CeladonMansionManagerScript, -1
-	pokemon_event  2,  6, ECHIYURI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, CeladonMansion1FEChiyuriText, -1
+	pokemon_event  2,  6, CHIYURI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, CeladonMansion1FEChiyuriText, -1
 	pokemon_event  3,  4, CMEIRA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, CeladonMansion1FCMeiraText, -1
 	pokemon_event  4,  4, CKONGARA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_TEAL, CeladonMansion1FCKongaraText, -1
 

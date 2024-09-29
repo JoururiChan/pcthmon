@@ -62,7 +62,7 @@ ENDM
 .Ocean_Super:
 	fishentry  40 percent,     CHINCHOU,   40
 	fishentry  70 percent,     YUMEKO,   40
-	fishentry  90 percent + 1, EGENGETSU, 40
+	fishentry  90 percent + 1, GENGETSU, 40
 	fishentry 100 percent,     LANTURN,    40
 
 .Lake_Old:

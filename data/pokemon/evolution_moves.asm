@@ -15,7 +15,6 @@ EvolutionMoves::
 	db ROCK_BLAST      ; OGYOKU
 	db NO_MOVE      ; CMAGAN
 	db TOXIC_GAS    ; MAGAN
-	db NO_MOVE      ; CMIMA
 	db MASTER_SPARK      ; EMIMA
 	db NO_MOVE   ; CELIS
 	db ACROBATICS      ; ELIS

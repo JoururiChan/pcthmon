@@ -4,14 +4,14 @@ WithdrawUsers:
 ; Defense Curl += Withdraw
 	dp CALICE
 	dp YUMEKO
-	dp EYUMEKO
+	dp YUMEKO
 	dp LUNASA
 	dp ALUNASA
 	db 0
 
 HardenUsers:
 ; Defense Curl += Harden
-	dp EYUKI
+	dp YUKI
 	dp CYUMEKO
 	dp CRUMIA
 	dp STEELIX
