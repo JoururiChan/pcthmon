@@ -121,7 +121,7 @@ Route19BeachHouseVictorScript:
 
 Route19BeachHouseSurfingEKikuriScript:
 	faceplayer
-	showcrytext .Text, EKIKURI
+	showcrytext .Text, KIKURI
 	end
 
 .Text:

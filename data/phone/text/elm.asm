@@ -354,6 +354,15 @@ ElmPhoneEvoText_Egg:
 	line "they hatch!"
 	prompt
 
+ElmPhoneEvoText_Kikuri:
+	text_ram wStringBuffer3
+	line "evolves when it's"
+
+	para "exposed to a"
+	line "ThunderStone or"
+	cont "an Odd Souvenir."
+	prompt
+
 ElmPhoneEvoText_CKana:
 	text_ram wStringBuffer3
 	line "evolves when it's"

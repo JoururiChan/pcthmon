@@ -170,7 +170,7 @@ EggMovePointers::
 	dw SunkernEggMoves        ; Sunkern
 	dw NoEggMoves             ; Sunflora
 	dw YanmaEggMoves          ; Yanma
-	dw WooperPlainEggMoves    ; Wooper
+	dw WooperEggMoves    ; Wooper
 	dw NoEggMoves             ; Quagsire
 	dw NoEggMoves             ; Espeon
 	dw NoEggMoves             ; Umbreon
@@ -198,7 +198,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Magcargo
 	dw SwinubEggMoves         ; Swinub
 	dw NoEggMoves             ; Piloswine
-	dw CorsolaPlainEggMoves   ; Corsola
+	dw CorsolaEggMoves   ; Corsola
 	dw RemoraidEggMoves       ; Remoraid
 	dw NoEggMoves             ; Octillery
 	dw DelibirdEggMoves       ; Delibird

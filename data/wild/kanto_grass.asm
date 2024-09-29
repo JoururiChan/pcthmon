@@ -1574,7 +1574,7 @@
 	wildmon 55, RIKAKO
 	wildmon 58, RIKAKO
 	wildmon 56, PATCHOULI
-	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
+	wildmon 59, CLILYBLACK
 	wildmon 59, ELILYWHITE
 	wildmon 60, TPATCHOULI
 	wildmon 60, CREMILIA
@@ -1582,7 +1582,7 @@
 	wildmon 55, RIKAKO
 	wildmon 58, RIKAKO
 	wildmon 56, PATCHOULI
-	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
+	wildmon 59, CLILYBLACK
 	wildmon 59, ELILYWHITE
 	wildmon 60, TPATCHOULI
 	wildmon 60, CREMILIA
@@ -1590,7 +1590,7 @@
 	wildmon 55, RIKAKO
 	wildmon 58, RIKAKO
 	wildmon 56, PATCHOULI
-	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
+	wildmon 59, CLILYBLACK
 	wildmon 59, ELILYWHITE
 	wildmon 60, TPATCHOULI
 	wildmon 60, SREMILIA
@@ -1602,7 +1602,7 @@
 	wildmon 55, RIKAKO
 	wildmon 58, KONGARA
 	wildmon 58, RIKA
-	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
+	wildmon 59, CLILYBLACK
 	wildmon 59, RIKAKO
 	wildmon 60, SREMILIA
 	wildmon 60, MEILING
@@ -1610,7 +1610,7 @@
 	wildmon 55, RIKAKO
 	wildmon 58, KONGARA
 	wildmon 58, RIKA
-	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
+	wildmon 59, CLILYBLACK
 	wildmon 59, RIKAKO
 	wildmon 60, SREMILIA
 	wildmon 60, MEILING
@@ -1618,7 +1618,7 @@
 	wildmon 55, RIKAKO
 	wildmon 58, RIKA
 	wildmon 58, KONGARA
-	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
+	wildmon 59, CLILYBLACK
 	wildmon 59, RIKAKO
 	wildmon 60, SREMILIA
 	wildmon 60, MEILING

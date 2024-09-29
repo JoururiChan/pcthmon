@@ -15,11 +15,11 @@ MACRO multi_evo
 ENDM
 
 MultipleEvolutions:
-	multi_evo EKIKURI
-	multi_evo EKIKURI, EKIKURI_FLY_FORM, EVOLVE_EKIKURI
-	multi_evo EKIKURI, EKIKURI_SURF_FORM, EVOLVE_EKIKURI
+	multi_evo CKIKURI
+	multi_evo KIKURI
+	multi_evo CELIS
 	multi_evo CKANA
-	multi_evo EKURUMI
+	multi_evo KURUMI
 	multi_evo DLUIZE
 	multi_evo AALICE
 	multi_evo CIRNO

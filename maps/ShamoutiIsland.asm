@@ -20,7 +20,6 @@ ShamoutiIsland_MapScriptHeader:
 	bg_event 32,  6, BGEVENT_JUMPTEXT, ShamoutiHotelSignText
 
 	def_object_events
-	object_event 16,  7, SPRITE_CGENGETSU_BACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_SHAMOUTI_ISLAND_SCIRNO
 	fruittree_event 34, 13, FRUITTREE_SHAMOUTI_ISLAND, FIGY_BERRY, PAL_NPC_BROWN
 	object_event 24, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandYoungsterScript, EVENT_SHAMOUTI_ISLAND_PIKABLU_GUY
 	pokemon_event 25, 14, MARILL, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, ShamoutiIslandPikabluText, EVENT_SHAMOUTI_ISLAND_PIKABLU_GUY
@@ -44,11 +43,11 @@ ShamoutiIslandFlyPoint:
 	applyonemovement SHAMOUTIISLAND_SCIRNO, scirno_shake
 	opentext
 	writetext .WokeUpText
-	cry SCIRNO, ALOLAN_FORM
+	cry SCIRNO
 	pause 15
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon SCIRNO, ALOLAN_FORM, 60
+	loadwildmon SCIRNO,  60
 	startbattle
 	disappear SHAMOUTIISLAND_SCIRNO
 	disappear SHAMOUTIISLAND_SCIRNO_HEAD

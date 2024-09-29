@@ -38,7 +38,7 @@ DecorationAttributes:
 	decoration DECO_BIGDOLL,  CRUMIA,              SET_UP_BIG_DOLL,    EVENT_DECO_BIG_CRUMIA_DOLL,           SPRITE_BIG_CRUMIA
 	decoration DECO_BIGDOLL,  CLYRICA,            SET_UP_BIG_DOLL,    EVENT_DECO_BIG_CLYRICA_DOLL,         SPRITE_BIG_CLYRICA
 	decoration DECO_PLANT,    PUT_IT_AWAY,       PUT_AWAY_DOLL,      EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1, 0
-	decoration DECO_DOLL,     EKIKURI,           SET_UP_DOLL,        EVENT_DECO_EKIKURI_DOLL,            SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     KIKURI,           SET_UP_DOLL,        EVENT_DECO_EKIKURI_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CSARIEL,            SET_UP_DOLL,        EVENT_DECO_CSARIEL_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_PLANT,    SURF_PIKA_DOLL,    SET_UP_DOLL,        EVENT_DECO_SURFING_EKIKURI_DOLL,    SPRITE_SURFING_EKIKURI
 	decoration DECO_DOLL,     CMEIRA,          SET_UP_DOLL,        EVENT_DECO_CMEIRA_DOLL,           SPRITE_MON_DOLL_1
@@ -53,8 +53,8 @@ DecorationAttributes:
 	decoration DECO_DOLL,     MAREEP,            SET_UP_DOLL,        EVENT_DECO_MAREEP_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     TOGEPI,            SET_UP_DOLL,        EVENT_DECO_TOGEPI_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     LILYBLACK,          SET_UP_DOLL,        EVENT_DECO_LILYBLACK_DOLL,           SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     EKOTOHIME,            SET_UP_DOLL,        EVENT_DECO_EKOTOHIME_DOLL,             SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     ESHINKI,            SET_UP_DOLL,        EVENT_DECO_ESHINKI_DOLL,             SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     KOTOHIME,            SET_UP_DOLL,        EVENT_DECO_EKOTOHIME_DOLL,             SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     SHINKI,            SET_UP_DOLL,        EVENT_DECO_ESHINKI_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     OCTILLERY,         SET_UP_DOLL,        EVENT_DECO_OCTILLERY_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     LYRICA,             SET_UP_DOLL,        EVENT_DECO_LYRICA_DOLL,              SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CDAICHAN,           SET_UP_DOLL,        EVENT_DECO_CDAICHAN_DOLL,            SPRITE_MON_DOLL_1
@@ -65,8 +65,8 @@ DecorationAttributes:
 	decoration DECO_DOLL,     MARILL,            SET_UP_DOLL,        EVENT_DECO_MARILL_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     TEDDIURSA,         SET_UP_DOLL,        EVENT_DECO_TEDDIURSA_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CHIYURI,            SET_UP_DOLL,        EVENT_DECO_CHIYURI_DOLL,             SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     EMEIRA,            SET_UP_DOLL,        EVENT_DECO_EMEIRA_DOLL,             SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     EORANGE,         SET_UP_DOLL,        EVENT_DECO_EORANGE_DOLL,          SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     MEIRA,            SET_UP_DOLL,        EVENT_DECO_EMEIRA_DOLL,             SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     ORANGE,         SET_UP_DOLL,        EVENT_DECO_EORANGE_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     TLYRICA,             SET_UP_DOLL,        EVENT_DECO_TLYRICA_DOLL,              SPRITE_MON_DOLL_1
 	decoration DECO_PLANT,    GOLD_TROPHY,       SET_UP_DOLL,        EVENT_DECO_GOLD_TROPHY,             SPRITE_GOLD_TROPHY
 	decoration DECO_PLANT,    SILVER_TROPHY,     SET_UP_DOLL,        EVENT_DECO_SILVER_TROPHY,           SPRITE_SILVER_TROPHY

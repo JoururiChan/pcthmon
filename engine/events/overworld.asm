@@ -134,6 +134,26 @@ CheckPartyMove:
 	xor a
 	ret
 
+.no
+	scf
+	ret
+
+CheckForSurfingPikachu:
+	ld d, SURF
+	call CheckPartyMove
+	jr c, .no
+	ld a, [wCurPartyMon]
+	ld e, a
+	ld d, 0
+	ld hl, wPartySpecies
+	add hl, de
+	ld a, [hl]
+	cp PIKACHU
+	jr nz, .no
+	ld a, TRUE
+	ldh [hScriptVar], a
+	ret
+
 .no:
 	xor a ; FALSE
 	ldh [hScriptVar], a
@@ -481,6 +501,7 @@ SurfFunction:
 	ret
 
 .DoSurf:
+	call GetSurfType
 	ld [wBuffer2], a
 	call GetPartyNickname
 	ld hl, SurfFromMenuScript
@@ -531,6 +552,24 @@ AlreadySurfingText:
 	text_far _AlreadySurfingText
 	text_end
 
+GetSurfType:
+; Surfing on Pikachu uses an alternate sprite.
+; This is done by using a separate movement type.
+
+	ld a, MON_SPECIES
+	call GetPartyParamLocationAndValue
+	cp LOW(KIKURI)
+	jr nz, .not_pikachu
+	assert !HIGH(KIKURI)
+	ld de, MON_EXTSPECIES - MON_SPECIES
+	add hl, de
+	ld a, [hl]
+	and 1 << MON_EXTSPECIES_F
+	ld a, PLAYER_SURF_PIKA
+	ret z
+.not_pikachu
+	ld a, PLAYER_SURF
+	ret
 
 
 CheckDirection:

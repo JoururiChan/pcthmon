@@ -107,7 +107,7 @@ SpecialsPointers::
 	add_special GiveOddEgg
 	add_special SoftReset
 	add_special Special_MoveTutor
-	add_special SpecialLunasaChamber
+	add_special SpecialKabutoChamber
 	add_special Special_DisplayUnownWords
 	add_special SpecialHoOhChamber
 	add_special Special_CelebiShrineEvent
@@ -154,7 +154,7 @@ SpecialsPointers::
 	add_special GetOreManiacPrice
 	add_special GetFossilManiacPrice
 	add_special Give_hMoneyTemp
-
+	add_special CheckForSurfingPikachu
 	add_special InitializeHiddenGrotto
 	add_special GetHiddenGrottoContents
 	add_special EmptiedHiddenGrotto

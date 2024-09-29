@@ -155,7 +155,7 @@ ElmPhoneScript_EvolutionMethodsTable:
 	farwritetext ElmPhoneEvoText_Egg
 	end
 .EvolveEKikuri:
-	farwritetext ElmPhoneEvoText_EKikuri
+	farwritetext ElmPhoneEvoText_Kikuri
 	end
 .EvolveCKana:
 	farwritetext ElmPhoneEvoText_CKana

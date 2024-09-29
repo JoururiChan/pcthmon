@@ -321,9 +321,11 @@ DEF NUM_HOF_TEAMS EQU 10
 	const EVOLVE_PARTY ; only for Mantyke
 ; multi_evo types for Lyra's info (used in data/pokemon/multi_evos.asm)
 	const EVOLVE_EGG
-	const EVOLVE_EKIKURI
+	const EVOLVE_CKIKURI
+	const EVOLVE_KIKURI
+	const EVOLVE_CELIS
 	const EVOLVE_CKANA
-	const EVOLVE_EKURUMI
+	const EVOLVE_KURUMI
 	const EVOLVE_DLUIZE
 	const EVOLVE_AALICE
 	const EVOLVE_CIRNO
