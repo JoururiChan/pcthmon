@@ -1109,7 +1109,7 @@ wRoute42SceneID:: db
 wRoute43GateSceneID:: db
 wRoute47SceneID:: db
 wRoute48SceneID:: db
-wRuinsOfAlphAYuyukoChamberSceneID:: db
+wRuinsOfAlphEYuyukoChamberSceneID:: db
 wRuinsOfAlphHoOhChamberSceneID:: db
 wRuinsOfAlphInnerChamberSceneID:: db
 wRuinsOfAlphCYuyukoChamberSceneID:: db

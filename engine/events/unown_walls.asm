@@ -47,13 +47,13 @@ SpecialLunasaChamber:
 	eventflagset EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	ret
 
-SpecialAYuyukoChamber:
+SpecialEYuyukoChamber:
 	call GetMapAttributesPointer
 	ld a, b
-	cp HIGH(RuinsOfAlphAYuyukoChamber_MapAttributes)
+	cp HIGH(RuinsOfAlphEYuyukoChamber_MapAttributes)
 	jr nz, .nope
 	ld a, c
-	cp LOW(RuinsOfAlphAYuyukoChamber_MapAttributes)
+	cp LOW(RuinsOfAlphEYuyukoChamber_MapAttributes)
 	jr nz, .nope
 
 	eventflagset EVENT_WALL_OPENED_IN_AYUYUKO_CHAMBER

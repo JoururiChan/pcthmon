@@ -19,8 +19,8 @@ GoldenrodMuseum2F_MapScriptHeader:
 	bg_event  1,  5, BGEVENT_READ, CYuyukoPuzzleScript
 	bg_event  5,  4, BGEVENT_READ, LunasaPuzzleScript
 	bg_event  5,  5, BGEVENT_READ, LunasaPuzzleScript
-	bg_event  1,  6, BGEVENT_READ, AYuyukoPuzzleScript
-	bg_event  1,  7, BGEVENT_READ, AYuyukoPuzzleScript
+	bg_event  1,  6, BGEVENT_READ, EYuyukoPuzzleScript
+	bg_event  1,  7, BGEVENT_READ, EYuyukoPuzzleScript
 	bg_event  5,  6, BGEVENT_READ, HoOhPuzzleScript
 	bg_event  5,  7, BGEVENT_READ, HoOhPuzzleScript
 	bg_event 10,  1, BGEVENT_JUMPTEXT, TowerRelicText
@@ -98,7 +98,7 @@ LunasaPuzzleScript:
 	line "Lunasa panel!"
 	done
 
-AYuyukoPuzzleScript:
+EYuyukoPuzzleScript:
 	checkevent EVENT_SOLVED_AYUYUKO_PUZZLE
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
@@ -108,7 +108,7 @@ AYuyukoPuzzleScript:
 	jumpthistext
 
 	text "It's the completed"
-	line "AYuyuko panel!"
+	line "EYuyuko panel!"
 	done
 
 HoOhPuzzleScript:
