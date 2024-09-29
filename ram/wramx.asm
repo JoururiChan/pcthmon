@@ -1630,7 +1630,7 @@ wDexAreaModeCopy:: db ; written to from hTohodexAreaMode on screen reload
 
 	; Used to align wDexAreaMons2. Feel free to add more data here, just don't
 	; let wDexAreaMons2 be misaligned (an assert will tell you if you do).
-	ds 43
+	ds 42
 
 ALIGN 8
 wDexAreaMons2:: ds (wDexAreaMonsEnd - wDexAreaMons)
