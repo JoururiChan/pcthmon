@@ -1550,9 +1550,9 @@ wDexMonTiles::
 wDexMonType1Tiles:: ds 4 tiles
 wDexMonType2Tiles:: ds 4 tiles
 wDexMonFootprintTiles:: ds 4 tiles
-wDexMonIconTiles:: ds 4 tiles
+wDexMonIconTiles:: ds 3 tiles
 wDexMonShapeTiles:: ds 4 tiles
-wDexAreaTypeTiles:: ds 8 tiles
+wDexAreaTypeTiles:: ds 7 tiles
 wDexAreaTypeTilesEnd::
 ENDU
 
