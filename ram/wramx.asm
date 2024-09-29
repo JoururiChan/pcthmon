@@ -1552,7 +1552,7 @@ wDexMonType2Tiles:: ds 4 tiles
 wDexMonFootprintTiles:: ds 4 tiles
 wDexMonIconTiles:: ds 4 tiles
 wDexMonShapeTiles:: ds 4 tiles
-wDexAreaTypeTiles:: ds 7 tiles
+wDexAreaTypeTiles:: ds 8 tiles
 wDexAreaTypeTilesEnd::
 ENDU
 
@@ -1630,7 +1630,7 @@ wDexAreaModeCopy:: db ; written to from hTohodexAreaMode on screen reload
 
 	; Used to align wDexAreaMons2. Feel free to add more data here, just don't
 	; let wDexAreaMons2 be misaligned (an assert will tell you if you do).
-	ds 44
+	ds 43
 
 ALIGN 8
 wDexAreaMons2:: ds (wDexAreaMonsEnd - wDexAreaMons)
