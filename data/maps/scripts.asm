@@ -736,7 +736,7 @@ INCLUDE "maps/SaffronTrainStation.asm"
 
 SECTION "Saffron Scripts 2", ROMX
 
-INCLUDE "maps/DreamDojo.asm"
+INCLUDE "maps/FightingDojo.asm"
 INCLUDE "maps/CopycatsHouse1F.asm"
 INCLUDE "maps/CopycatsHouse2F.asm"
 INCLUDE "maps/MrPsychicsHouse.asm"

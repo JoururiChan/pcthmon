@@ -31,7 +31,7 @@ SaffronCity_MapScriptHeader:
 	def_bg_events
 	bg_event 21,  5, BGEVENT_JUMPTEXT, SaffronCitySignText
 	bg_event 33,  5, BGEVENT_JUMPTEXT, SaffronGymSignText
-	bg_event 25,  5, BGEVENT_JUMPTEXT, DreamDojoSignText
+	bg_event 25,  5, BGEVENT_JUMPTEXT, FightingDojoSignText
 	bg_event 15, 21, BGEVENT_JUMPTEXT, SilphCoSignText
 	bg_event 25, 29, BGEVENT_JUMPTEXT, MrPsychicsHouseSignText
 	bg_event 11,  5, BGEVENT_JUMPTEXT, SaffronCityMagnetTrainStationSignText
@@ -269,7 +269,7 @@ SaffronGymSignText:
 	line "Psychic #mon!"
 	done
 
-DreamDojoSignText:
+FightingDojoSignText:
 	text "Everyone Welcome!"
 	line "Fighting Dojo"
 	done

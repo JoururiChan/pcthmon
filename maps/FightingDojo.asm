@@ -1,8 +1,8 @@
-DreamDojo_MapScriptHeader:
+FightingDojo_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_OBJECTS, DreamDojoSetupRematchesCallback
+	callback MAPCALLBACK_OBJECTS, FightingDojoSetupRematchesCallback
 
 	def_warp_events
 	warp_event  4, 11, SAFFRON_CITY, 1
@@ -11,9 +11,9 @@ DreamDojo_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  4,  0, BGEVENT_JUMPTEXT, DreamDojoSign1Text
-	bg_event  5,  0, BGEVENT_JUMPTEXT, DreamDojoSign2Text
-	bg_event  9,  0, BGEVENT_READ, MapDreamDojoSignpost2Script
+	bg_event  4,  0, BGEVENT_JUMPTEXT, FightingDojoSign1Text
+	bg_event  5,  0, BGEVENT_JUMPTEXT, FightingDojoSign2Text
+	bg_event  9,  0, BGEVENT_READ, MapFightingDojoSignpost2Script
 
 	def_object_events
 	object_event  0,  1, SPRITE_BIG_DOLL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RematchRed0Script, EVENT_REMATCH_GYM_LEADER_1
@@ -22,7 +22,7 @@ DreamDojo_MapScriptHeader:
 	object_event  0,  4, SPRITE_CONSOLE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, RematchBlue2Script, EVENT_REMATCH_GYM_LEADER_4
 	object_event  0,  5, SPRITE_COPYCAT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RematchBrown1Script, EVENT_REMATCH_GYM_LEADER_5
 	object_event  0,  6, SPRITE_CONSOLE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RematchBrown2Script, EVENT_REMATCH_GYM_LEADER_6
-	object_event  4,  4, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DreamDojoBlackBelt, -1
+	object_event  4,  4, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FightingDojoBlackBelt, -1
 
 	object_const_def
 	const REMATCH_RED_1
@@ -32,7 +32,7 @@ DreamDojo_MapScriptHeader:
 	const REMATCH_BROWN_2
 	const REMATCH_BROWN_3
 
-DreamDojoSetupRematchesCallback:
+FightingDojoSetupRematchesCallback:
 	disappear REMATCH_RED_1
 	disappear REMATCH_GREEN_2
 	disappear REMATCH_BLUE_2
@@ -182,66 +182,66 @@ ENDM
 .NoAgatha
 	endcallback
 
-DreamDojoBlackBelt:
+FightingDojoBlackBelt:
 	checkevent EVENT_BEAT_BLUE
 	iftruefwd .BlackBeltExplainsRematchesScript
-	jumptextfaceplayer DreamDojoBlackBeltText
+	jumptextfaceplayer FightingDojoBlackBeltText
 .BlackBeltExplainsRematchesScript
 	jumptextfaceplayer BlackBeltText_ExplainsRematches
 
-MapDreamDojoSignpost2Script:
+MapFightingDojoSignpost2Script:
 	opentext
-	writetext DreamDojoScheduleQuestionText
+	writetext FightingDojoScheduleQuestionText
 	yesorno
 	iffalse_endtext
 .sunday
-	writetext DreamDojoScheduleSundayText
+	writetext FightingDojoScheduleSundayText
 	waitbutton
 .monday
 	checkevent EVENT_BEAT_WALKER
 	iftruefwd .monday_walker
-	writetext DreamDojoScheduleMondayText
+	writetext FightingDojoScheduleMondayText
 	waitbutton
 	sjumpfwd .tuesday
 .monday_walker
-	writetext DreamDojoScheduleMondayWalkerText
+	writetext FightingDojoScheduleMondayWalkerText
 	waitbutton
 .tuesday
 	checkevent EVENT_BEAT_LORELEI_AGAIN
 	iftruefwd .tuesday_lorelei
-	writetext DreamDojoScheduleTuesdayText
+	writetext FightingDojoScheduleTuesdayText
 	waitbutton
 	sjumpfwd .wednesday
 .tuesday_lorelei
-	writetext DreamDojoScheduleTuesdayLoreleiText
+	writetext FightingDojoScheduleTuesdayLoreleiText
 	waitbutton
 .wednesday
-	writetext DreamDojoScheduleWednesdayText
+	writetext FightingDojoScheduleWednesdayText
 	waitbutton
 .thursday
 	checkevent EVENT_BEAT_PALMER
 	iftruefwd .thursday_palmer
-	writetext DreamDojoScheduleThursdayText
+	writetext FightingDojoScheduleThursdayText
 	waitbutton
 	sjumpfwd .friday
 .thursday_palmer
-	writetext DreamDojoScheduleThursdayPalmerText
+	writetext FightingDojoScheduleThursdayPalmerText
 	waitbutton
 .friday
 	checkevent EVENT_BEAT_YELLOW
 	iftruefwd .friday_yellow
-	writetext DreamDojoScheduleFridayText
+	writetext FightingDojoScheduleFridayText
 	waitbutton
 	sjumpfwd .saturday
 .friday_yellow
-	writetext DreamDojoScheduleFridayYellowText
+	writetext FightingDojoScheduleFridayYellowText
 	waitbutton
 .saturday
 	checkevent EVENT_BEAT_AGATHA
 	iftruefwd .saturday_agatha
-	jumpopenedtext DreamDojoScheduleSaturdayText
+	jumpopenedtext FightingDojoScheduleSaturdayText
 .saturday_agatha
-	jumpopenedtext DreamDojoScheduleSaturdayAgathaText
+	jumpopenedtext FightingDojoScheduleSaturdayAgathaText
 
 RematchRed0Script:
 	readvar VAR_WEEKDAY
@@ -322,7 +322,7 @@ RematchBrown2Script:
 .Brown2SaturdayNight
 	sjump RematchAgathaScript
 
-DreamDojoBlackBeltText:
+FightingDojoBlackBeltText:
 	text "Hello!"
 
 	para "Karate King, the"
@@ -345,12 +345,12 @@ BlackBeltText_ExplainsRematches:
 	line "them!"
 	done
 
-DreamDojoSign1Text:
+FightingDojoSign1Text:
 	text "What goes around"
 	line "comes around!"
 	done
 
-DreamDojoSign2Text:
+FightingDojoSign2Text:
 	text "Enemies on every"
 	line "side!"
 	done
@@ -817,67 +817,67 @@ YellowText_Done:
 	line "for today."
 	done
 
-DreamDojoScheduleQuestionText:
+FightingDojoScheduleQuestionText:
 	text "It's a training"
 	line "schedule! Read it?"
 	done
 
-DreamDojoScheduleSundayText:
+FightingDojoScheduleSundayText:
 	text "Sunday: Jasmine,"
 	line "Erika, Sabrina"
 	done
 
-DreamDojoScheduleMondayText:
+FightingDojoScheduleMondayText:
 	text "Monday: Falkner,"
 	line "Janine, ???"
 	done
 
-DreamDojoScheduleMondayWalkerText:
+FightingDojoScheduleMondayWalkerText:
 	text "Monday: Falkner,"
 	line "Janine, Walker"
 	done
 
-DreamDojoScheduleTuesdayText:
+FightingDojoScheduleTuesdayText:
 	text "Tuesday: Pryce,"
 	line "Blaine, ???"
 	done
 
-DreamDojoScheduleTuesdayLoreleiText:
+FightingDojoScheduleTuesdayLoreleiText:
 	text "Tuesday: Pryce,"
 	line "Blaine, Lorelei"
 	done
 
-DreamDojoScheduleWednesdayText:
+FightingDojoScheduleWednesdayText:
 	text "Wednesday: Brock,"
 	line "Misty, Blue"
 	done
 
-DreamDojoScheduleThursdayText:
+FightingDojoScheduleThursdayText:
 	text "Thursday: Bugsy,"
 	line "???, Morty"
 	done
 
-DreamDojoScheduleThursdayPalmerText:
+FightingDojoScheduleThursdayPalmerText:
 	text "Thursday: Bugsy,"
 	line "Palmer, Morty"
 	done
 
-DreamDojoScheduleFridayText:
+FightingDojoScheduleFridayText:
 	text "Friday: Lt.Surge,"
 	line "???, Clair"
 	done
 
-DreamDojoScheduleFridayYellowText:
+FightingDojoScheduleFridayYellowText:
 	text "Friday: Lt.Surge,"
 	line "Yellow, Clair"
 	done
 
-DreamDojoScheduleSaturdayText:
+FightingDojoScheduleSaturdayText:
 	text "Saturday: Whitney,"
 	line "Chuck, ???"
 	done
 
-DreamDojoScheduleSaturdayAgathaText:
+FightingDojoScheduleSaturdayAgathaText:
 	text "Saturday: Whitney,"
 	line "Chuck, Agatha"
 	done

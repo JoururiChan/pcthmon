@@ -815,7 +815,7 @@ ENDM
 	map_attributes Route26DayofWeekSiblingsHouse, ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE, $0, 0
 	map_attributes Route27RestHouse, ROUTE_27_REST_HOUSE, $0, 0
 	map_attributes Route2946Gate, ROUTE_29_46_GATE, $0, 0
-	map_attributes DreamDojo, DREAM_DOJO, $0, 0
+	map_attributes FightingDojo, DREAM_DOJO, $0, 0
 	map_attributes SaffronGym, SAFFRON_GYM, $0, 0
 	map_attributes SaffronMart, SAFFRON_MART, $0, 0
 	map_attributes SaffronPokeCenter1F, SAFFRON_POKECENTER_1F, $0, 0

@@ -1374,9 +1374,9 @@ SECTION "SaffronTrainStation_BlockData", ROMX
 SaffronTrainStation_BlockData:
 	INCBIN "maps/SaffronTrainStation.ablk.lz"
 
-SECTION "DreamDojo_BlockData", ROMX
-DreamDojo_BlockData:
-	INCBIN "maps/DreamDojo.ablk.lz"
+SECTION "FightingDojo_BlockData", ROMX
+FightingDojo_BlockData:
+	INCBIN "maps/FightingDojo.ablk.lz"
 
 SECTION "CopycatsHouse1F_BlockData", ROMX
 CopycatsHouse1F_BlockData:
