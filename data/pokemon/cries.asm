@@ -275,4 +275,5 @@ PokemonCries::
 	mon_cry CRY_TPATCHOULI,      $000,  $100 ; Rhyperior
 	mon_cry CRY_ESARA,       $000,  $100 ; Tangrowth
 	mon_cry CRY_DDAICHAN,     $08f,  $17f ; Electivire
+	mon_cry CRY_CMARISA,  $0ff,  $0b0 ; Magmortar
 	assert_table_length NUM_SPECIES
