@@ -72,6 +72,7 @@
 	const ELLY       ; 3f
 	const CYUKA   ; 41
 	const YUKA     ; 42
+	const AYUKA
 	const CMUGETSU    ; 44
 	const MUGETSU ; 45
 	const CGENGETSU ; 47
