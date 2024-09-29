@@ -1538,14 +1538,14 @@ wDexMapEnd::
 
 UNION
 wDexVWFTiles:: ds 19 tiles ; 1 tile padding
-wDexIconTiles:: ds 24 tiles ; 4 tiles padding
+wDexIconTiles:: ds 23 tiles ; 4 tiles padding
 wDexRowTilesDest::
 wDexVWFTilesDest:: dw
 wDexIconTilesDest:: dw
 NEXTU
 ; Copied using GDMA in VBlank. Ideally we want to do GDMA as part of hblank,
 ; but there is some issues with that yet to be fully researched (issue #639).
-	ds 50 tiles
+	ds 49 tiles
 wDexMonTiles::
 wDexMonType1Tiles:: ds 4 tiles
 wDexMonType2Tiles:: ds 4 tiles
