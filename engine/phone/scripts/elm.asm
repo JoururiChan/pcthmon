@@ -88,7 +88,7 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveCrit
 	dw .EvolveParty
 	dw .EvolveEgg
-	dw .EvolveEKikuri
+	dw .EvolveKikuri
 	dw .EvolveCKana
 	dw .EvolveEKurumi
 	dw .EvolveDLuize
