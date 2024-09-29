@@ -1,9 +1,9 @@
-RuinsOfAlphEYuyukoChamber_MapScriptHeader:
+RuinsOfAlphAYuyukoChamber_MapScriptHeader:
 	def_scene_scripts
-	scene_script RuinsofAlphEYuyukoChamberTrigger0
+	scene_script RuinsofAlphAYuyukoChamberTrigger0
 
 	def_callbacks
-	callback MAPCALLBACK_TILES, RuinsOfAlphEYuyukoChamberHiddenDoorsCallback
+	callback MAPCALLBACK_TILES, RuinsOfAlphAYuyukoChamberHiddenDoorsCallback
 
 	def_warp_events
 	warp_event  3,  9, RUINS_OF_ALPH_OUTSIDE, 4
@@ -17,21 +17,21 @@ RuinsOfAlphEYuyukoChamber_MapScriptHeader:
 	def_bg_events
 	bg_event  2,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
 	bg_event  5,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
-	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphEYuyukoChamberSignpost2Script
-	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphEYuyukoChamberSignpost3Script
-	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphEYuyukoChamberSignpost4Script
-	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphEYuyukoChamberSignpost5Script
+	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphAYuyukoChamberSignpost2Script
+	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphAYuyukoChamberSignpost3Script
+	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphAYuyukoChamberSignpost4Script
+	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphAYuyukoChamberSignpost5Script
 
 	def_object_events
 
-RuinsofAlphEYuyukoChamberTrigger0:
+RuinsofAlphAYuyukoChamberTrigger0:
 	checkevent EVENT_WALL_OPENED_IN_AYUYUKO_CHAMBER
 	iffalsefwd .End
-	sdefer RuinsOfAlphEYuyukoChamberWallOpenScript
+	sdefer RuinsOfAlphAYuyukoChamberWallOpenScript
 .End
 	end
 
-RuinsOfAlphEYuyukoChamberHiddenDoorsCallback:
+RuinsOfAlphAYuyukoChamberHiddenDoorsCallback:
 	checkevent EVENT_WALL_OPENED_IN_AYUYUKO_CHAMBER
 	iftruefwd .WallOpen
 	changeblock 4, 0, $24
@@ -45,7 +45,7 @@ RuinsOfAlphEYuyukoChamberHiddenDoorsCallback:
 	changeblock 4, 2, $2
 	endcallback
 
-RuinsOfAlphEYuyukoChamberWallOpenScript:
+RuinsOfAlphAYuyukoChamberWallOpenScript:
 	pause 30
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 20
@@ -57,7 +57,7 @@ RuinsOfAlphEYuyukoChamberWallOpenScript:
 	setscene $1
 	endtext
 
-MapRuinsofAlphEYuyukoChamberSignpost2Script:
+MapRuinsofAlphAYuyukoChamberSignpost2Script:
 	reanchormap
 	setval $2
 	special Special_UnownPuzzle
@@ -84,33 +84,33 @@ MapRuinsofAlphEYuyukoChamberSignpost2Script:
 	warpcheck
 	end
 
-MapRuinsofAlphEYuyukoChamberSignpost3Script:
+MapRuinsofAlphAYuyukoChamberSignpost3Script:
 	opentext
 	unowntypeface
-	writetext RuinsOfAlphEYuyukoChamberDescriptionText
+	writetext RuinsOfAlphAYuyukoChamberDescriptionText
 	waitbutton
 	closetext
 	restoretypeface
 	special RefreshSprites
 	end
 
-MapRuinsofAlphEYuyukoChamberSignpost5Script:
+MapRuinsofAlphAYuyukoChamberSignpost5Script:
 	checkevent EVENT_WALL_OPENED_IN_AYUYUKO_CHAMBER
-	iftrue_jumptext RuinsOfAlphEYuyukoChamberWallHoleText
-MapRuinsofAlphEYuyukoChamberSignpost4Script:
+	iftrue_jumptext RuinsOfAlphAYuyukoChamberWallHoleText
+MapRuinsofAlphAYuyukoChamberSignpost4Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
 	iftruefwd .unsolved
 	writetext RuinsOfAlphChambersItsUnownText
 	sjumpfwd .unownwords
 .unsolved
-	writetext RuinsOfAlphEYuyukoChamberWallPatternLeftText
+	writetext RuinsOfAlphAYuyukoChamberWallPatternLeftText
 .unownwords
 	setval $1
 	special Special_DisplayUnownWords
 	endtext
 
-RuinsOfAlphEYuyukoChamberWallPatternLeftText:
+RuinsOfAlphAYuyukoChamberWallPatternLeftText:
 	text "Patterns appeared"
 	line "on the walls…"
 	done
@@ -119,12 +119,12 @@ RuinsOfAlphChambersItsUnownText:
 	text "It's Unown text!"
 	done
 
-RuinsOfAlphEYuyukoChamberWallHoleText:
+RuinsOfAlphAYuyukoChamberWallHoleText:
 	text "There's a big hole"
 	line "in the wall!"
 	done
 
-RuinsOfAlphEYuyukoChamberDescriptionText:
+RuinsOfAlphAYuyukoChamberDescriptionText:
 	text "This flying #-"
 	line "mon attacked its"
 

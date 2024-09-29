@@ -781,7 +781,7 @@ LoadUnownPuzzlePiecesGFX:
 .LZPointers:
 	dw CYuyukoPuzzleLZ
 	dw LunasaPuzzleLZ
-	dw EYuyukoPuzzleLZ
+	dw AYuyukoPuzzleLZ
 	dw HoOhPuzzleLZ
 
 UnownPuzzleCursorGFX:
@@ -793,7 +793,7 @@ INCBIN "gfx/unown_puzzle/start_cancel.2bpp.lz"
 HoOhPuzzleLZ:
 INCBIN "gfx/unown_puzzle/hooh.2bpp.lz"
 
-EYuyukoPuzzleLZ:
+AYuyukoPuzzleLZ:
 INCBIN "gfx/unown_puzzle/aerodactyl.2bpp.lz"
 
 CYuyukoPuzzleLZ:

@@ -311,23 +311,23 @@ SECTION "RuinsOfAlphSinjohChamber_BlockData", ROMX
 RuinsOfAlphSinjohChamber_BlockData:
 	INCBIN "maps/RuinsOfAlphSinjohChamber.ablk.lz"
 
-SECTION "RuinsOfAlphEYuyukoChamber_BlockData", ROMX
-RuinsOfAlphEYuyukoChamber_BlockData:
+SECTION "RuinsOfAlphAYuyukoChamber_BlockData", ROMX
+RuinsOfAlphAYuyukoChamber_BlockData:
 RuinsOfAlphHoOhChamber_BlockData:
 RuinsOfAlphCYuyukoChamber_BlockData:
 RuinsOfAlphLunasaChamber_BlockData:
 	INCBIN "maps/RuinsOfAlphPuzzleChamber.ablk.lz"
 
-SECTION "RuinsOfAlphEYuyukoItemRoom_BlockData", ROMX
-RuinsOfAlphEYuyukoItemRoom_BlockData:
+SECTION "RuinsOfAlphAYuyukoItemRoom_BlockData", ROMX
+RuinsOfAlphAYuyukoItemRoom_BlockData:
 RuinsOfAlphHoOhItemRoom_BlockData:
 RuinsOfAlphCYuyukoItemRoom_BlockData:
 RuinsOfAlphLunasaItemRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphItemRoom.ablk.lz"
 
-SECTION "RuinsOfAlphEYuyukoWordRoom_BlockData", ROMX
-RuinsOfAlphEYuyukoWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphEYuyukoWordRoom.ablk.lz"
+SECTION "RuinsOfAlphAYuyukoWordRoom_BlockData", ROMX
+RuinsOfAlphAYuyukoWordRoom_BlockData:
+	INCBIN "maps/RuinsOfAlphAYuyukoWordRoom.ablk.lz"
 
 SECTION "RuinsOfAlphHoOhWordRoom_BlockData", ROMX
 RuinsOfAlphHoOhWordRoom_BlockData:

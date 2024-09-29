@@ -237,7 +237,7 @@ LugiaPaintingPic::     INCBIN "gfx/paintings/lugia_painting.2bpp.lz"
 BellTowerPaintingPic:: INCBIN "gfx/paintings/bell_tower_painting.2bpp.lz"
 CYuyukoPuzzlePic::      INCBIN "gfx/paintings/kabuto_puzzle.2bpp.lz"
 LunasaPuzzlePic::     INCBIN "gfx/paintings/omanyte_puzzle.2bpp.lz"
-EYuyukoPuzzlePic::  INCBIN "gfx/paintings/aerodactyl_puzzle.2bpp.lz"
+AYuyukoPuzzlePic::  INCBIN "gfx/paintings/aerodactyl_puzzle.2bpp.lz"
 HoOhPuzzlePic::        INCBIN "gfx/paintings/ho_oh_puzzle.2bpp.lz"
 
 
