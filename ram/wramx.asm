@@ -1532,8 +1532,8 @@ wDex2bpp:: ds $60 tiles
 NEXTU
 ; copied using hdma transfers (which is orders of magnitudes faster), so it uses
 ; 32x19 as opposed to only the 21x19 that we need.
-wDexTilemap:: ds BG_MAP_WIDTH * (SCREEN_HEIGHT + 1)
-wDexAttrmap:: ds BG_MAP_WIDTH * (SCREEN_HEIGHT + 1)
+wDexTilemap:: ds BG_MAP_WIDTH * (SCREEN_HEIGHT)
+wDexAttrmap:: ds BG_MAP_WIDTH * (SCREEN_HEIGHT)
 wDexMapEnd::
 
 UNION
@@ -1550,7 +1550,7 @@ wDexMonTiles::
 wDexMonType1Tiles:: ds 4 tiles
 wDexMonType2Tiles:: ds 4 tiles
 wDexMonFootprintTiles:: ds 4 tiles
-wDexMonIconTiles:: ds 3 tiles
+wDexMonIconTiles:: ds 4 tiles
 wDexMonShapeTiles:: ds 4 tiles
 wDexAreaTypeTiles:: ds 7 tiles
 wDexAreaTypeTilesEnd::
