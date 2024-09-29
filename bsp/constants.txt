@@ -16,11 +16,11 @@
 	define sBackupOptions,             0x1200
 	define sBackupCheckValue1,         0x1207
 	define sBackupGameData,            0x1208
-	define sGameData,                  0x1fe5
 	define sBackupChecksum,            0x1f0d
 	define sBackupCheckValue2,         0x1f0f
 	define sOptions,                   0x2000
 	define sCheckValue1,               0x2007
+	define sGameData,                  0x1fe5
 	define sChecksum,                  0x2d0d
 	define sCheckValue2,               0x2d0f
 	define sHallOfFame,                0x2d10
