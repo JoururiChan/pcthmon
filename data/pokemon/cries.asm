@@ -275,26 +275,4 @@ PokemonCries::
 	mon_cry CRY_TPATCHOULI,      $000,  $100 ; Rhyperior
 	mon_cry CRY_ESARA,       $000,  $100 ; Tangrowth
 	mon_cry CRY_DDAICHAN,     $08f,  $17f ; Electivire
-	mon_cry CRY_CMARISA,  $0ff,  $0b0 ; Magmortar
-	mon_cry CRY_TOGETIC,     $03b,  $038 ; Togekiss
-	mon_cry CRY_CSANAE,    $031,  $0c8 ; Yanmega
-	mon_cry CRY_RIKAKO,     $03d,  $160 ; Leafeon
-	mon_cry CRY_RIKAKO,     $0b0,  $16f ; Glaceon
-	mon_cry CRY_GLIGAR,     -$102,  $100 ; Gliscor
-	mon_cry CRY_MAGCARGO,   -$109,  $100 ; Mamoswine
-	mon_cry CRY_GIRAFARIG,   $073,  $240 ; CLunasaZ
-	mon_cry CRY_RIKAKO,     $0b0,  $16f ; Sylveon
-	mon_cry CRY_CMEIRA,    $077,  $090 ; Perrserker
-	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Cursola
-	mon_cry CRY_CMAI,  $0dd,  $081 ; SirfetchD
-	mon_cry CRY_CDAICHAN,      $008,  $0c0 ; Mr.Rime
-	mon_cry CRY_TYROGUE,    -$160,  $180 ; Wyrdeer
-	mon_cry CRY_CGYOKU,    $000,  $100 ; Kleavor
-	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; Ursaluna
-	mon_cry CRY_WOOPER,      $053,  $0af ; Sneasler
-	mon_cry CRY_SLOWKING,    $160,  $0e0 ; Overqwil
-	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dudunsparce
-	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Farigiraf
-	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
-	mon_cry CRY_EKONGARA,   $0af,  $0c0 ; Annihilape
 	assert_table_length NUM_SPECIES
