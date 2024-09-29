@@ -1545,7 +1545,7 @@ wDexIconTilesDest:: dw
 NEXTU
 ; Copied using GDMA in VBlank. Ideally we want to do GDMA as part of hblank,
 ; but there is some issues with that yet to be fully researched (issue #639).
-	ds 48 tiles
+	ds 50 tiles
 wDexMonTiles::
 wDexMonType1Tiles:: ds 4 tiles
 wDexMonType2Tiles:: ds 4 tiles
