@@ -9,128 +9,105 @@ PokemonBodyData:
 	table_width BODY_DATA_SIZE, PokemonBodyData
 	body_data   7,   30, WINGS,    RED    ; CREIMU
 	body_data  10,  60, WINGS,    RED  ; REIMU
-	body_data  20, 150, WINGS,    RED  ; EREIMU
+	body_data  20, 150, WINGS,    RED  ; TREIMU
 	body_data   6,  30, BIPEDAL, YELLOW    ; CMARISA
 	body_data  11,  60, BIPEDAL, YELLOW    ; MARISA
-	body_data  17,  150, BIPEDAL, YELLOW    ; EMARISA
+	body_data  17,  150, BIPEDAL, YELLOW    ; AMARISA
 	body_data   5,   30, HEAD, GRAY   ; CSAKUYA
 	body_data  10,  60, HEAD, GRAY   ; SAKUYA
-	body_data  16,  150, HEAD, GRAY   ; ESAKUYA
+	body_data  16,  150, HEAD, GRAY   ; HSAKUYA
 	body_data   3,   10, HEAD, PURPLE  ; CGYOKU
 	body_data   7,   90, BIPEDAL,   BLUE  ; MGYOKU
 	body_data  11,  90, BIPEDAL,   RED  ; FGYOKU
 	body_data   3,   90, HEAD,    PURPLE  ; OGYOKU
 	body_data   6,  20, MULTIBODY,   YELLOW ; CMAGAN
 	body_data  10,  50, MULTIBODY,   PURPLE ; MAGAN
-	body_data   3,   100, HEAD,        PURPLE  ; EMAGAN
 	body_data  11,   50, HEAD_ARMS,        GREEN  ; CMIMA
 	body_data  15,   110, HEAD_ARMS,        GREEN  ; MIMA
-	body_data   3,   190, HEAD_ARMS,    GREEN ; EMIMA
 	body_data   7,   30, WINGS,    YELLOW  ; CELIS
 	body_data   3,   70, WINGS,        YELLOW  ; ELIS
-	body_data  12,  140, WINGS,        YELLOW  ; EELIS
 	body_data  20,   70, HEAD,   BROWN ; CKIKURI
 	body_data  35,   120, HEAD_ARMS,   PURPLE ; KIKURI
-	body_data   4,   165, BIPEDAL,    PURPLE ; EKIKURI
 	body_data   8,   100, WINGS, WHITE ; CSARIEL
 	body_data   6,   200, WINGS, WHITE ; SARIEL
-	body_data  10,   300, WINGS, WHITE ; ESARIEL
 	body_data   4,   100, HEAD_ARMS,    RED   ; CKONGARA
 	body_data   8,  200, HEAD_ARMS,    RED   ; KONGARA
-	body_data  13,  300, HEAD_ARMS,    RED   ; EKONGARA
 	body_data   5,   20, HEAD_BASE,    RED ; CRIKA
 	body_data   9,  90, BIPEDAL,    RED ; RIKA
-	body_data  14,  180, MULTIBODY, PURPLE ; ERIKA
+	body_data  14,  180, MULTIBODY, PURPLE ; ARIKA
 	body_data   6,   20, BIPEDAL, WHITE  ; CMEIRA
 	body_data  13,   50, BIPEDAL, WHITE   ; MEIRA
-	body_data   6,   110, BIPEDAL,    WHITE  ; EMEIRA
 	body_data  11,   40, BIPEDAL,    RED ; CELLEN
 	body_data   5,   70, BIPEDAL,      RED   ; ELLEN
-	body_data  10,   100, BIPEDAL,      RED   ; EELLEN
 	body_data   8,   10, BIPEDAL,        PURPLE ; CKOTOHIME
 	body_data  16,   45, BIPEDAL,        PURPLE ; KOTOHIME
-	body_data   5,   105, BIPEDAL,    PURPLE   ; EKOTOHIME
 	body_data   8,   50, HEAD_ARMS,      BLUE   ; CKANA
 	body_data  12,   80, HEAD_ARMS,      BLUE    ; KANA
-	body_data   3,   105, HEAD_ARMS,    	 BLUE    ; EKANA
 	body_data  10,   10, WINGS,    WHITE    ; CRIKAKO
 	body_data  10,   30, WINGS,      WHITE ; RIKAKO
-	body_data  15,   60, WINGS,   WHITE ; ERIKAKO
 	body_data   2,    70, BIPEDAL,    BLUE  ; CCHIYURI
 	body_data   7,   130, BIPEDAL,    BLUE  ; CHIYURI
-	body_data   4,    170, QUADRUPED,    BLUE ; ECHIYURI
 	body_data  10,   100, MULTIBODY,    RED ; CYUMEMI
 	body_data   8,   210, MULTIBODY, RED ; YUMEMI
-	body_data  17,   305, MULTIBODY, RED   ; EYUMEMI
 	body_data   5,   20, QUADRUPED, YELLOW  ; CORANGE
 	body_data  10,  90, QUADRUPED, YELLOW  ; ORANGE
-	body_data   7,   130, QUADRUPED,    YELLOW  ; EORANGE
 	body_data  19,  40, WINGS,    PURPLE  ; CKURUMI
 	body_data   6,  90, WINGS,    PURPLE   ; KURUMI
-	body_data  10,  125, WINGS,      PURPLE   ; EKURUMI
 	body_data  13,   60, HEAD_ARMS,      GRAY   ; CELLY
 	body_data   9,   90, HEAD_ARMS, GRAY  ; ELLY
-	body_data  13,   150, HEAD_ARMS, GRAY  ; EELLY
 	body_data  15,   140, HEAD_BASE,      GREEN  ; CYUKA
 	body_data   8,   260, HEAD_BASE, GREEN   ; YUKA
-	body_data  15,   450, HEAD_BASE,      GREEN   ; EYUKA
+	body_data  15,   450, HEAD_BASE,      GREEN   ; AYUKA
 	body_data  16,  120, HEAD_LEGS,      BLUE  ; CMUGETSU
 	body_data   7,   160, HEAD_LEGS,      BLUE  ; MUGETSU
-	body_data  10,   200, HEAD_LEGS,    BLUE  ; EMUGETSU
 	body_data  17,   125, WINGS,    PINK  ; CGENGETSU
 	body_data   9,  170, WINGS,    PINK   ; GENGETSU
-	body_data  16,   240, WINGS,    PINK   ; EGENGETSU
 	body_data   4,   10, HEAD_ARMS,    RED  ; CSARA
 	body_data  10,   40, BIPEDAL,      RED  ; SARA
-	body_data  14,  100, BIPEDAL,      RED  ; ESARA
 	body_data  10,   20, HEAD_ARMS,    PURPLE ; CLUIZE
 	body_data  17,   70, HEAD_ARMS,    PURPLE ; LUIZE
-	body_data  12,   170, HEAD_ARMS,    BLUE   ; ELUIZE
+	body_data  12,   170, HEAD_ARMS,    BLUE   ; DLUIZE
 	body_data  16,   30, MULTIBODY,    RED   ; CALICE
 	body_data   3,   60, MULTIBODY,    BLUE   ; ALICE
-	body_data  10,  150, MULTIBODY,    GREEN   ; EALICE
+	body_data  10,  150, MULTIBODY,    GREEN   ; AALICE
 	body_data   8,   55, WINGS,        WHITE  ; CMAI
 	body_data  14,   90, WINGS,        WHITE  ; MAI
-	body_data  18,   160, WINGS,        WHITE  ; EMAI
 	body_data  11,   55, BIPEDAL,       BLACK  ; CYUKI
 	body_data  17,   90, BIPEDAL,         BLACK  ; YUKI
-	body_data   9,  160, BIPEDAL,    BLACK ; EYUKI
 	body_data  12,   100, HEAD,         RED ; CYUMEKO
 	body_data   3,   120, HEAD,         RED ; YUMEKO
-	body_data  15,  175, HEAD,         RED ; EYUMEKO
 	body_data  13,    130, MULTIWINGS,    RED ; CSHINKI
 	body_data  16,    230, MULTIWINGS,    RED ; SHINKI
-	body_data  15,   500, MULTIWINGS,    RED ; ESHINKI
 	body_data  88,   10, HEAD_BASE,    BLACK   ; CRUMIA
 	body_data  10,   40, BIPEDAL,      BLACK ; RUMIA
-	body_data  16,   90, BIPEDAL,      BLACK ; ERUMIA
+	body_data  16,   90, BIPEDAL,      BLACK ; ARUMIA
 	body_data   4,   30, WINGS,    GREEN    ; CDAICHAN
 	body_data  13,   70, WINGS,    GREEN    ; DAICHAN
-	body_data   5,   140, WINGS,      GREEN    ; EDAICHAN
+	body_data   5,   140, WINGS,      GREEN    ; DDAICHAN
 	body_data  12,   100, WINGS,         BLUE    ; CCIRNO
 	body_data   4,   160, WINGS,    BLUE   ; CIRNO
-	body_data  20,   250, WINGS,    BLUE ; ECIRNO
+	body_data  20,   250, WINGS,    BLUE ; SCIRNO
 	body_data   4,   100, BIPEDAL_TAIL, GREEN  ; CMEILING
 	body_data  10,   150, BIPEDAL_TAIL, GREEN  ; MEILING
-	body_data  15,   240, BIPEDAL_TAIL, GREEN  ; EMEILING
+	body_data  15,   240, BIPEDAL_TAIL, GREEN  ; AMEILING
 	body_data  14,   140, WINGS,      RED  ; CKOAKUMA
 	body_data  12,   210, WINGS,      RED   ; KOAKUMA
-	body_data   6,   270, WINGS,       RED ; EKOAKUMA
+	body_data   6,   270, WINGS,       RED ; HKOAKUMA
 	body_data  12,   200, HEAD_BASE,    PURPLE ; CPATCHOULI
 	body_data  10,   350, HEAD_BASE,    PURPLE   ; PATCHOULI
-	body_data  19,   500, HEAD_BASE, PURPLE   ; EPATCHOULI
+	body_data  19,   500, HEAD_BASE, PURPLE   ; TPATCHOULI
 	body_data  11,   210, WINGS, PINK   ; CREMILIA
 	body_data  10,   300, WINGS,    PINK   ; REMILIA
-	body_data  22,   600, WINGS, PINK  ; EREMILIA
+	body_data  22,   600, WINGS, PINK  ; SREMILIA
 	body_data   4,  500, MULTIWINGS,    RED   ; CFLANDRE
 	body_data  12,   800, MULTIWINGS,    RED   ; FLANDRE
-	body_data   6,  1200, MULTIWINGS,         RED    ; EFLANDRE
+	body_data   6,  1200, MULTIWINGS,         RED    ; AFLANDRE
 	body_data  13,  390, FINS,         RED    ; CLETTY
 	body_data   8,  345, HEAD_BASE,    BROWN  ; LETTY
-	body_data  11,  800, HEAD_BASE,    PURPLE ; ELETTY
+	body_data  11,  800, HEAD_BASE,    PURPLE ; DLETTY
 	body_data  13,  545, BIPEDAL,      PINK   ; CCHEN
 	body_data  15,  560, MULTIWINGS,   GREEN  ; CHEN
-	body_data  14,  406, BIPEDAL,      RED    ; ECHEN
+	body_data  14,  406, BIPEDAL,      RED    ; HCHEN
 	body_data  11,  300, BIPEDAL_TAIL, YELLOW ; CLILYWHITE
 	body_data  13,  445, BIPEDAL_TAIL, RED    ; LILYWHITE
 	body_data  15,  550, BIPEDAL,      BROWN  ; ELILYWHITE
@@ -139,34 +116,34 @@ PokemonBodyData:
 	body_data  65, 2350, SERPENTINE,   BLUE   ; ELILYBLACK
 	body_data  25, 2200, FINS,         BLUE   ; CLYRICA
 	body_data   3,   40, HEAD,         PURPLE ; LYRICA
-	body_data   3,   65, QUADRUPED,    BROWN  ; ELYRICA
+	body_data   3,   65, QUADRUPED,    BROWN  ; TLYRICA
 	body_data  10,  290, QUADRUPED,    BLUE   ; CMERLIN
 	body_data   8,  245, QUADRUPED,    YELLOW ; MERLIN
-	body_data   9,  250, QUADRUPED,    RED    ; EMERLIN
+	body_data   9,  250, QUADRUPED,    RED    ; SMERLIN
 	body_data   8,  365, HEAD_LEGS,    PINK   ; CLUNASA
 	body_data   4,   75, TENTACLES,    BLUE   ; LUNASA
-	body_data  10,  350, TENTACLES,    BLUE   ; ELUNASA
+	body_data  10,  350, TENTACLES,    BLUE   ; ALUNASA
 	body_data   5,  115, INSECTOID,    BROWN  ; CYUYUKO
 	body_data  13,  405, BIPEDAL_TAIL, BROWN  ; YUYUKO
-	body_data  18,  590, WINGS,        PURPLE ; EYUYUKO
+	body_data  18,  590, WINGS,        PURPLE ; AYUYUKO
 	body_data  21, 4600, BIPEDAL,      BLACK  ; CRAN
 	body_data  17,  554, WINGS,        BLUE   ; RAN
-	body_data  16,  526, WINGS,        YELLOW ; ERAN
+	body_data  16,  526, WINGS,        YELLOW ; TRAN
 	body_data  20,  600, WINGS,        YELLOW ; CYUKARI
 	body_data  18,   33, SERPENTINE,   BLUE   ; YUKARI
-	body_data  40,  165, SERPENTINE,   BLUE   ; EYUKARI
+	body_data  40,  165, SERPENTINE,   BLUE   ; TYUKARI
 	body_data  22, 2100, BIPEDAL_TAIL, BROWN  ; CSUIKA
 	body_data  20, 1220, BIPEDAL_TAIL, PURPLE ; SUIKA
-	body_data   4,   40, BIPEDAL_TAIL, PINK   ; ESUIKA
+	body_data   4,   40, BIPEDAL_TAIL, PINK   ; TSUIKA
 	body_data   9,   64, MULTIBODY,    GREEN  ; CYOUMU
 	body_data  12,  158, MULTIBODY,    GREEN  ; YOUMU
-	body_data  18, 1005, MULTIBODY,    GREEN  ; EYOUMU
+	body_data  18, 1005, MULTIBODY,    GREEN  ; SYOUMU
 	body_data   5,   79, BIPEDAL,      PINK ; CREISEN
 	body_data   9,  190, BIPEDAL,    PINK ; REISEN
-	body_data  17,  795, BIPEDAL,    PINK ; EREISEN
+	body_data  17,  795, BIPEDAL,    PINK ; TREISEN
 	body_data   6,   95, BIPEDAL, BLUE   ; CSANAE
 	body_data  11,  250, BIPEDAL, BLUE   ; SANAE
-	body_data  23,  888, BIPEDAL, BLUE   ; ESANAE
+	body_data  23,  888, BIPEDAL, BLUE   ; DSANAE
 	body_data   8,   60, QUADRUPED,    BROWN  ; SENTRET
 	body_data  18,  325, QUADRUPED,    BROWN  ; FURRET
 	body_data   7,  212, WINGS,        BROWN  ; HOOTHOOT
@@ -305,51 +282,5 @@ PokemonBodyData:
 	body_data  22, 1370, BIPEDAL_TAIL, GRAY   ; SUIKA (SUIKA_ARMORED_FORM)
 
 	body_data  45,  474, SERPENTINE,   YELLOW ; DUDUNSPARCE (DUDUNSPARCE_THREE_SEGMENT_FORM)
-
-	body_data   3,   38, QUADRUPED,    BLACK  ; EMIMA (ALOLAN_FORM)
-	body_data   7,  255, QUADRUPED,    BLACK  ; CELIS (ALOLAN_FORM)
-	body_data   7,  210, BIPEDAL_TAIL, BROWN  ; CSARIEL (ALOLAN_FORM)
-	body_data   7,  400, BIPEDAL_TAIL, WHITE  ; SARIEL (ALOLAN_FORM)
-	body_data  12,  550, BIPEDAL_TAIL, BLUE   ; ESARIEL (ALOLAN_FORM)
-	body_data   6,   99, QUADRUPED,    WHITE  ; EMEIRA (ALOLAN_FORM)
-	body_data  11,  199, QUADRUPED,    BLUE   ; CELLEN (ALOLAN_FORM)
-	body_data   2,   10, HEAD_BASE,    BROWN  ; CCHIYURI (ALOLAN_FORM)
-	body_data   7,  666, MULTIBODY,    BROWN  ; CHIYURI (ALOLAN_FORM)
-	body_data   4,   42, QUADRUPED,    BLUE   ; ECHIYURI (ALOLAN_FORM)
-	body_data  11,  330, QUADRUPED,    BLUE   ; CYUMEMI (ALOLAN_FORM)
-	body_data   4,  203, HEAD_ARMS,    GRAY   ; CSARA (ALOLAN_FORM)
-	body_data  10, 1100, BIPEDAL,      GRAY   ; SARA (ALOLAN_FORM)
-	body_data  17, 3160, BIPEDAL,      GRAY   ; ESARA (ALOLAN_FORM)
-	body_data   7,  420, HEAD_ARMS,    GREEN  ; EYUKI (ALOLAN_FORM)
-	body_data  10,  520, HEAD_ARMS,    GREEN  ; CYUMEKO (ALOLAN_FORM)
-	body_data 109, 4156, HEAD_LEGS,    YELLOW ; ECIRNO (ALOLAN_FORM)
-	body_data  10,  340, BIPEDAL_TAIL, PURPLE ; MEILING (ALOLAN_FORM)
-
-	body_data   4,   75, BIPEDAL_TAIL, BROWN  ; ECHIYURI (GALARIAN_FORM)
-	body_data   8,  240, QUADRUPED,    WHITE  ; CLUIZE (GALARIAN_FORM)
-	body_data  17,  800, QUADRUPED,    WHITE  ; LUIZE (GALARIAN_FORM)
-	body_data  12,  360, QUADRUPED,    PINK   ; ELUIZE (GALARIAN_FORM)
-	body_data  16,  705, BIPEDAL_TAIL, PINK   ; CALICE (GALARIAN_FORM)
-	body_data   8,  420, WINGS,        BROWN  ; CMAI (GALARIAN_FORM)
-	body_data  30,  160, MULTIBODY,    GRAY   ; CPATCHOULI (GALARIAN_FORM)
-	body_data  14,  568, BIPEDAL,      WHITE  ; CCHEN (GALARIAN_FORM)
-	body_data  17,  509, WINGS,        PURPLE ; RAN (GALARIAN_FORM)
-	body_data  16,  582, WINGS,        YELLOW ; ERAN (GALARIAN_FORM)
-	body_data  20,  660, WINGS,        RED    ; CYUKARI (GALARIAN_FORM)
-	body_data  18,  795, BIPEDAL_TAIL, PINK   ; SLOWKING (GALARIAN_FORM)
-	body_data   6,    5, INSECTOID,    WHITE  ; CORSOLA (GALARIAN_FORM)
-
-	body_data   8,  227, QUADRUPED,    RED    ; EORANGE (HISUIAN_FORM)
-	body_data  20, 1680, QUADRUPED,    RED    ; KURUMI (HISUIAN_FORM)
-	body_data   5,  130, HEAD,         BROWN  ; EDAICHAN (HISUIAN_FORM)
-	body_data  12,  710, HEAD,         BROWN  ; CCIRNO (HISUIAN_FORM)
-	body_data  16,  698, QUADRUPED,    YELLOW ; EREISEN (HISUIAN_FORM)
-	body_data   5,   39, FINS,         BLACK  ; QWILFISH (HISUIAN_FORM)
-	body_data   9,  270, BIPEDAL_TAIL, GRAY   ; SNEASEL (HISUIAN_FORM)
-
-	body_data   4,  110, HEAD_LEGS,    BROWN  ; WOOPER (PALDEAN_FORM)
-	body_data  14, 1150, QUADRUPED,    BLACK  ; CLILYBLACK (PALDEAN_FORM)
-	body_data  14,  850, QUADRUPED,    BLACK  ; CLILYBLACK (CLILYBLACK_PALDEAN_FIRE_FORM)
-	body_data  14, 1100, QUADRUPED,    BLACK  ; CLILYBLACK (CLILYBLACK_PALDEAN_WATER_FORM)
 
 	assert_table_length NUM_EXT_POKEMON

@@ -2,128 +2,105 @@ FootprintPointers::
 	table_width 2, FootprintPointers
 	dw CReimuFootprint
 	dw ReimuFootprint
-	dw EReimuFootprint
+	dw TReimuFootprint
 	dw CMarisaFootprint
 	dw MarisaFootprint
-	dw EMarisaFootprint
+	dw AMarisaFootprint
 	dw CSakuyaFootprint
 	dw SakuyaFootprint
-	dw ESakuyaFootprint
+	dw HSakuyaFootprint
 	dw CGyokuFootprint
 	dw MGyokuFootprint
 	dw FGyokuFootprint
 	dw OGyokuFootprint
 	dw CMaganFootprint
 	dw MaganFootprint
-	dw EMaganFootprint
 	dw CMimaFootprint
 	dw MimaFootprint
-	dw EMimaFootprint
 	dw CElisFootprint
 	dw ElisFootprint
-	dw EElisFootprint
 	dw CKikuriFootprint
 	dw KikuriFootprint
-	dw EKikuriFootprint
 	dw CSarielFootprint
 	dw SarielFootprint
-	dw ESarielFootprint
 	dw CKongaraFootprint
 	dw KongaraFootprint
-	dw EKongaraFootprint
 	dw CRikaFootprint
 	dw RikaFootprint
-	dw ERikaFootprint
+	dw ARikaFootprint
 	dw CMeiraFootprint
 	dw MeiraFootprint
-	dw EMeiraFootprint
 	dw CEllenFootprint
 	dw EllenFootprint
-	dw EEllenFootprint
 	dw CKotohimeFootprint
 	dw KotohimeFootprint
-	dw EKotohimeFootprint
 	dw CKanaFootprint
 	dw KanaFootprint
-	dw EKanaFootprint
 	dw CRikakoFootprint
 	dw RikakoFootprint
-	dw ERikakoFootprint
 	dw CChiyuriFootprint
 	dw ChiyuriFootprint
-	dw EChiyuriFootprint
 	dw CYumemiFootprint
 	dw YumemiFootprint
-	dw EYumemiFootprint
 	dw COrangeFootprint
 	dw OrangeFootprint
-	dw EOrangeFootprint
 	dw CKurumiFootprint
 	dw KurumiFootprint
-	dw EKurumiFootprint
 	dw CEllyFootprint
 	dw EllyFootprint
-	dw EEllyFootprint
 	dw CYukaFootprint
 	dw YukaFootprint
-	dw EYukaFootprint
+	dw AYukaFootprint
 	dw CMugetsuFootprint
 	dw MugetsuFootprint
-	dw EMugetsuFootprint
 	dw CGengetsuFootprint
 	dw GengetsuFootprint
-	dw EGengetsuFootprint
 	dw CSaraFootprint
 	dw SaraFootprint
-	dw ESaraFootprint
 	dw CLuizeFootprint
 	dw LuizeFootprint
-	dw ELuizeFootprint
+	dw DLuizeFootprint
 	dw CAliceFootprint
 	dw AliceFootprint
-	dw EAliceFootprint
+	dw AAliceFootprint
 	dw CMaiFootprint
 	dw MaiFootprint
-	dw EMaiFootprint
 	dw CYukiFootprint
 	dw YukiFootprint
-	dw EYukiFootprint
 	dw CYumekoFootprint
 	dw YumekoFootprint
-	dw EYumekoFootprint
 	dw CShinkiFootprint
 	dw ShinkiFootprint
-	dw EShinkiFootprint
 	dw CRumiaFootprint
 	dw RumiaFootprint
-	dw ERumiaFootprint
+	dw ARumiaFootprint
 	dw CDaichanFootprint
 	dw DaichanFootprint
-	dw EDaichanFootprint
+	dw DDaichanFootprint
 	dw CCirnoFootprint
 	dw CirnoFootprint
-	dw ECirnoFootprint
+	dw SCirnoFootprint
 	dw CMeilingFootprint
 	dw MeilingFootprint
-	dw EMeilingFootprint
+	dw AMeilingFootprint
 	dw CKoakumaFootprint
 	dw KoakumaFootprint
-	dw EKoakumaFootprint
+	dw HKoakumaFootprint
 	dw CPatchouliFootprint
 	dw PatchouliFootprint
-	dw EPatchouliFootprint
+	dw TPatchouliFootprint
 	dw CRemiliaFootprint
 	dw RemiliaFootprint
-	dw ERemiliaFootprint
+	dw SRemiliaFootprint
 	dw CFlandreFootprint
 	dw FlandreFootprint
-	dw EFlandreFootprint
+	dw AFlandreFootprint
 	dw CLettyFootprint
 	dw LettyFootprint
-	dw ELettyFootprint
+	dw DLettyFootprint
 	dw MrMimeFootprint
 	dw ChenFootprint
-	dw EChenFootprint
+	dw HChenFootprint
 	dw CLilyWhiteFootprint
 	dw LilyWhiteFootprint
 	dw ELilyWhiteFootprint
@@ -132,34 +109,34 @@ FootprintPointers::
 	dw ELilyBlackFootprint
 	dw CLyricaFootprint
 	dw LyricaFootprint
-	dw ELyricaFootprint
+	dw TLyricaFootprint
 	dw CMerlinFootprint
 	dw MerlinFootprint
-	dw EMerlinFootprint
+	dw SMerlinFootprint
 	dw CLunasaFootprint
 	dw LunasaFootprint
-	dw ELunasaFootprint
+	dw ALunasaFootprint
 	dw CYuyukoFootprint
 	dw YuyukoFootprint
-	dw EYuyukoFootprint
+	dw AYuyukoFootprint
 	dw CRanFootprint
 	dw RanFootprint
-	dw ERanFootprint
+	dw TRanFootprint
 	dw CYukariFootprint
 	dw YukariFootprint
-	dw EYukariFootprint
+	dw TYukariFootprint
 	dw CSuikaFootprint
 	dw SuikaFootprint
-	dw ESuikaFootprint
+	dw TSuikaFootprint
 	dw CYoumuFootprint
 	dw YoumuFootprint
-	dw EYoumuFootprint
+	dw SYoumuFootprint
 	dw CReisenFootprint
 	dw ReisenFootprint
-	dw EReisenFootprint
+	dw TReisenFootprint
 	dw CSanaeFootprint
 	dw SanaeFootprint
-	dw ESanaeFootprint
+	dw DSanaeFootprint
 	dw SentretFootprint
 	dw FurretFootprint
 	dw HoothootFootprint
@@ -298,51 +275,5 @@ FootprintPointers::
 	dw SuikaFootprint
 
 	dw DudunsparceFootprint
-
-	dw EMimaFootprint
-	dw CElisFootprint
-	dw CSarielFootprint
-	dw SarielFootprint
-	dw ESarielFootprint
-	dw EMeiraFootprint
-	dw CEllenFootprint
-	dw CChiyuriFootprint
-	dw ChiyuriFootprint
-	dw EChiyuriFootprint
-	dw CYumemiFootprint
-	dw CSaraFootprint
-	dw SaraFootprint
-	dw ESaraFootprint
-	dw EYukiFootprint
-	dw CYumekoFootprint
-	dw ECirnoFootprint
-	dw MeilingFootprint
-
-	dw EChiyuriFootprint
-	dw CLuizeFootprint
-	dw LuizeFootprint
-	dw ELuizeFootprint
-	dw CAliceFootprint
-	dw CMaiFootprint
-	dw CPatchouliFootprint
-	dw MrMimeFootprint
-	dw RanFootprint
-	dw ERanFootprint
-	dw CYukariFootprint
-	dw SlowkingFootprint
-	dw CorsolaFootprint
-
-	dw EOrangeFootprint
-	dw CKurumiFootprint
-	dw EDaichanFootprint
-	dw CCirnoFootprint
-	dw EReisenFootprint
-	dw QwilfishFootprint
-	dw SneaselFootprint
-
-	dw WooperFootprint
-	dw CLilyBlackFootprint
-	dw CLilyBlackFootprint
-	dw CLilyBlackFootprint
 
 	assert_table_length NUM_EXT_POKEMON

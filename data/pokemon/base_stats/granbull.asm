@@ -1,7 +1,7 @@
 	db  90, 120,  75,  45,  60,  60 ; 450 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FAIRY, FAIRY ; type
+	db HEART, HEART ; type
 	db 75 ; catch rate
 	db 178 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

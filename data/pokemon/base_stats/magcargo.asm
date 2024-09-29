@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db FIRE, ROCK ; type
+	db FIRE, BEAST ; type
 	db 75 ; catch rate
 if DEF(FAITHFUL)
 	db 154 ; base exp

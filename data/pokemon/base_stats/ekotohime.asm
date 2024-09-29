@@ -1,7 +1,7 @@
 	db  94,  118,  100,  86,  46,  31 ; 320 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FAIRY, FIGHTING ; type
+	db HEART, DREAM ; type
 	db 201 ; catch rate
 	db 101 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

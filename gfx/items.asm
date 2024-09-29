@@ -638,7 +638,7 @@ SilverLeafIcon::
 GoldLeafIcon:: INCBIN "gfx/items/leaf.2bpp.lz"
 
 SECTION "WakasagiTailIcon", ROMX
-WakasagiTailIcon:: INCBIN "gfx/items/eluizetail.2bpp.lz"
+WakasagiTailIcon:: INCBIN "gfx/items/dluizetail.2bpp.lz"
 
 SECTION "BottleCapIcon", ROMX
 BottleCapIcon:: INCBIN "gfx/items/bottle_cap.2bpp.lz"

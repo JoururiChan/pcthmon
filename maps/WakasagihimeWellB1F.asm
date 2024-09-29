@@ -23,11 +23,11 @@ WakasagihimeWellB1F_MapScriptHeader:
 	itemball_event 10,  3, SUPER_POTION, 1, EVENT_WAKASAGIHIME_WELL_B1F_SUPER_POTION
 
 	object_const_def
-	const WAKASAGIHIESUIKAELLB1F_PROTON
-	const WAKASAGIHIESUIKAELLB1F_ROCKET1
-	const WAKASAGIHIESUIKAELLB1F_ROCKET2
-	const WAKASAGIHIESUIKAELLB1F_ROCKET_GIRL
-	const WAKASAGIHIESUIKAELLB1F_KURT
+	const WAKASAGIHITSUIKAELLB1F_PROTON
+	const WAKASAGIHITSUIKAELLB1F_ROCKET1
+	const WAKASAGIHITSUIKAELLB1F_ROCKET2
+	const WAKASAGIHITSUIKAELLB1F_ROCKET_GIRL
+	const WAKASAGIHITSUIKAELLB1F_KURT
 
 GenericTrainerGruntM29:
 	generictrainer GRUNTM, 29, EVENT_BEAT_ROCKET_GRUNTM_29, GruntM29SeenText, GruntM29BeatenText
@@ -55,16 +55,16 @@ Proton2Script:
 	showtext TrainerProton2WhenTalkText
 	special Special_FadeBlackQuickly
 	special Special_ReloadSpritesNoPalettes
-	disappear WAKASAGIHIESUIKAELLB1F_PROTON
-	disappear WAKASAGIHIESUIKAELLB1F_ROCKET1
-	disappear WAKASAGIHIESUIKAELLB1F_ROCKET2
-	disappear WAKASAGIHIESUIKAELLB1F_ROCKET_GIRL
+	disappear WAKASAGIHITSUIKAELLB1F_PROTON
+	disappear WAKASAGIHITSUIKAELLB1F_ROCKET1
+	disappear WAKASAGIHITSUIKAELLB1F_ROCKET2
+	disappear WAKASAGIHITSUIKAELLB1F_ROCKET_GIRL
 	pause 15
 	special Special_FadeInQuickly
-	disappear WAKASAGIHIESUIKAELLB1F_KURT
-	moveobject WAKASAGIHIESUIKAELLB1F_KURT, 11, 6
-	appear WAKASAGIHIESUIKAELLB1F_KURT
-	applymovement WAKASAGIHIESUIKAELLB1F_KURT, KurtWakasagihimeWellVictoryMovementData
+	disappear WAKASAGIHITSUIKAELLB1F_KURT
+	moveobject WAKASAGIHITSUIKAELLB1F_KURT, 11, 6
+	appear WAKASAGIHITSUIKAELLB1F_KURT
+	applymovement WAKASAGIHITSUIKAELLB1F_KURT, KurtWakasagihimeWellVictoryMovementData
 	turnobject PLAYER, RIGHT
 	showtext KurtLeaveWakasagihimeWellText
 	setevent EVENT_CLEARED_WAKASAGIHIME_WELL
@@ -108,14 +108,14 @@ GenericTrainerGruntF1:
 WakasagihimeWellB1FWakasagiWithMailScript:
 	faceplayer
 	opentext
-	cry ELUIZE
+	cry DLUIZE
 	writetext WakasagihimeWellB1FWakasagiWithMailText
 	yesorno
 	iftrue_jumpopenedtext WakasagihimeWellB1FWakasagiMailText
 	endtext
 
 WakasagihimeWellB1FTaillessWakasagiScript:
-	showcrytext WakasagihimeWellB1FTaillessWakasagiText, ELUIZE
+	showcrytext WakasagihimeWellB1FTaillessWakasagiText, DLUIZE
 	end
 
 KurtWakasagihimeWellVictoryMovementData:

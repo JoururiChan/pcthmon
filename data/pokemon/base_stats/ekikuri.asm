@@ -1,7 +1,7 @@
 	db 107,  49, 130,  51, 140, 130 ; 345 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db PSYCHIC, ROCK ; type
+	db REASON, BEAST ; type
 	db 100 ; catch rate
 	db 212 ; base exp
 	db ORAN_BERRY, LIGHT_BALL ; held items

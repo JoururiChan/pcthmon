@@ -1,7 +1,7 @@
 	db  60, 115, 105,  80,  65,  70 ; 495 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ROCK, WATER ; type
+	db BEAST, WATER ; type
 	db 45 ; catch rate
 	db 201 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

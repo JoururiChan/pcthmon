@@ -1,7 +1,7 @@
 	db  62,  58,  55,  79, 120, 120 ; 405 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db PSYCHIC, PSYCHIC ; type
+	db REASON, REASON ; type
 	db 100 ; catch rate
 	db 156 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

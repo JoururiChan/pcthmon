@@ -34,7 +34,7 @@ Letty: Psybeam
 Misdreavus: Screech
 Whirlpool: Sariel/ESariel, CSara/Sara/ESara, Pineco/Forretress, Donphan, Hitmontop (Whirlpool users)
 
-ELyrica: Focus Energy (RBY learnset), Charm (purified)
+TLyrica: Focus Energy (RBY learnset), Charm (purified)
 Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
 EOrange/CKurumi: Dragon Rage (RBY TM), Charm (purified)
 Houndour/Houndoom: Charm (purified), Night Slash (Prism tutor)
@@ -77,11 +77,11 @@ Suika: Power Gem
 
 Egg:
 CSara/Sara/ESara: Rock Slide
-Patchouli/EPatchouli/Rhyperior: Crunch
+Patchouli/TPatchouli/Rhyperior: Crunch
 
 RBY TM:
 COrange/Orange: Metronome
-ELuize/CAlice: Five Elements
+DLuize/CAlice: Five Elements
 
 GSC TM:
 EOrange/CKurumi: Dragonbreath
@@ -93,21 +93,21 @@ Ledyba/Ledian: Bug Bite
 ELilyWhite: Bug Bite
 Chinchou/Lanturn: Heal Bell
 Dunsparce: Life Balance
-EChen: Heal Bell
+HChen: Heal Bell
 CLyrica: Heal Bell
 Mantine: Gunk Shot
 Miltank: Metronome
 CKongara/Kongara/EKongara: Life Counter
-CRika/Rika/ERika: Sucker Punch, Life Counter
+CRika/Rika/ARika: Sucker Punch, Life Counter
 Snubbull/Granbull: Heal Bell, Low Kick, Metronome, Life Counter
 Teddiursa/Ursaring: Metronome
 
 Dream World:
-Rumia/ERumia: Drain Punch
-ERemilia: Drain Punch
+Rumia/ARumia: Drain Punch
+SRemilia: Drain Punch
 
 Purified:
-Rumia/ERumia: Baton Pass
+Rumia/ARumia: Baton Pass
 CLuize/Luize: Baton Pass
 Swinub/Piloswine/Mamoswine: Charm
 OGyoku/CMagan/Magan: Baton Pass
@@ -116,9 +116,9 @@ Natu/Xatu: Baton Pass
 
 Prism tutor:
 CRemilia: Haze
-Cirno/ECirno: Confuse Ray
+Cirno/SCirno: Confuse Ray
 Marill/Azumarill: Focus Energy
 Pineco/Forretress: Smokescreen
 Sentret/Furret: Recover
-Rikako/ERikako: Night Shade
+Rikako/ARikako: Night Shade
 Yanma/Yanmega: Feint Attack

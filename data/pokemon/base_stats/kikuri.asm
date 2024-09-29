@@ -1,7 +1,7 @@
 	db  80,  37, 100,  35, 105, 100 ; 448 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db PSYCHIC, ROCK ; type
+	db REASON, BEAST ; type
 	db 100 ; catch rate
 	db 167 ; base exp
 	db NO_ITEM, POISON_BARB ; held items

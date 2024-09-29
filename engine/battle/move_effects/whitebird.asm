@@ -32,8 +32,8 @@ BattleCommand_whitebird:
 	ld [hl], c
 	jr .types_ok
 .normalize
-	; Pure Flying types become Normal
-	ld a, NORMAL
+	; Pure Flying types become Illusion
+	ld a, ILLUSION
 	ld [hli], a
 	ld [hl], a
 .types_ok

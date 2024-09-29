@@ -154,7 +154,7 @@ SpecialsPointers::
 	add_special GetOreManiacPrice
 	add_special GetFossilManiacPrice
 	add_special Give_hMoneyTemp
-	add_special CheckForSurfingEKikuri
+
 	add_special InitializeHiddenGrotto
 	add_special GetHiddenGrottoContents
 	add_special EmptiedHiddenGrotto

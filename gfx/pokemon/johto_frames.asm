@@ -2,12 +2,12 @@ JohtoFrames:
 
 CYoumuFrames:  INCLUDE "gfx/pokemon/cyoumu/frames.asm"
 YoumuFrames:    INCLUDE "gfx/pokemon/youmu/frames.asm"
-EYoumuFrames:   INCLUDE "gfx/pokemon/eyoumu/frames.asm"
+SYoumuFrames:   INCLUDE "gfx/pokemon/syoumu/frames.asm"
 CReisenFrames:  INCLUDE "gfx/pokemon/creisen/frames.asm"
 ReisenFrames:    INCLUDE "gfx/pokemon/reisen/frames.asm"
 CSanaeFrames:   INCLUDE "gfx/pokemon/csanae/frames.asm"
 SanaeFrames:   INCLUDE "gfx/pokemon/sanae/frames.asm"
-ESanaeFrames: INCLUDE "gfx/pokemon/esanae/frames.asm"
+DSanaeFrames: INCLUDE "gfx/pokemon/dsanae/frames.asm"
 SentretFrames:    INCLUDE "gfx/pokemon/sentret/frames.asm"
 FurretFrames:     INCLUDE "gfx/pokemon/furret/frames.asm"
 HoothootFrames:   INCLUDE "gfx/pokemon/hoothoot/frames.asm"
@@ -161,26 +161,20 @@ UnownZFrames: INCLUDE "gfx/pokemon/unown_z/frames.asm"
 UnownExclamationFrames: INCLUDE "gfx/pokemon/unown_exclamation/frames.asm"
 UnownQuestionFrames:    INCLUDE "gfx/pokemon/unown_question/frames.asm"
 
-PichuPlainFrames: INCLUDE "gfx/pokemon/pichu_plain/frames.asm"
+PichuFrames: INCLUDE "gfx/pokemon/pichu/frames.asm"
 PichuSpikyFrames: INCLUDE "gfx/pokemon/pichu_spiky/frames.asm"
 
-SlowkingPlainFrames:    INCLUDE "gfx/pokemon/slowking_plain/frames.asm"
-SlowkingGalarianFrames: INCLUDE "gfx/pokemon/slowking_galarian/frames.asm"
+SlowkingFrames:    INCLUDE "gfx/pokemon/slowking/frames.asm"
 
-CorsolaPlainFrames:    INCLUDE "gfx/pokemon/corsola_plain/frames.asm"
-CorsolaGalarianFrames: INCLUDE "gfx/pokemon/corsola_galarian/frames.asm"
+CorsolaFrames:    INCLUDE "gfx/pokemon/corsola/frames.asm"
 
-EReisenPlainFrames:   INCLUDE "gfx/pokemon/ereisen_plain/frames.asm"
-EReisenHisuianFrames: INCLUDE "gfx/pokemon/ereisen_hisuian/frames.asm"
+TReisenFrames:   INCLUDE "gfx/pokemon/treisen/frames.asm"
 
-QwilfishPlainFrames:   INCLUDE "gfx/pokemon/qwilfish_plain/frames.asm"
-QwilfishHisuianFrames: INCLUDE "gfx/pokemon/qwilfish_hisuian/frames.asm"
+QwilfishFrames:   INCLUDE "gfx/pokemon/qwilfish/frames.asm"
 
-SneaselPlainFrames:   INCLUDE "gfx/pokemon/sneasel_plain/frames.asm"
-SneaselHisuianFrames: INCLUDE "gfx/pokemon/sneasel_hisuian/frames.asm"
+SneaselFrames:   INCLUDE "gfx/pokemon/sneasel/frames.asm"
 
 DudunsparceTwoSegmentFrames:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/frames.asm"
 DudunsparceThreeSegmentFrames: INCLUDE "gfx/pokemon/dudunsparce_three_segment/frames.asm"
 
-WooperPlainFrames:   INCLUDE "gfx/pokemon/wooper_plain/frames.asm"
-WooperPaldeanFrames: INCLUDE "gfx/pokemon/wooper_paldean/frames.asm"
+WooperFrames:   INCLUDE "gfx/pokemon/wooper/frames.asm"

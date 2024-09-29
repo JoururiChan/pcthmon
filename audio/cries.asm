@@ -94,11 +94,11 @@ Cry_Donphan:
 	channel 6, Cry_Donphan_Ch6
 	channel 8, Cry_Donphan_Ch8
 
-Cry_EReisen:
+Cry_TReisen:
 	channel_count 3
-	channel 5, Cry_EReisen_Ch5
-	channel 6, Cry_EReisen_Ch6
-	channel 8, Cry_EReisen_Ch8
+	channel 5, Cry_TReisen_Ch5
+	channel 6, Cry_TReisen_Ch6
+	channel 8, Cry_TReisen_Ch8
 
 Cry_Natu:
 	channel_count 3
@@ -624,30 +624,30 @@ Cry_Donphan_Ch8:
 	noise_note 16, 9, 2, 108
 	sound_ret
 
-Cry_EReisen_Ch5:
+Cry_TReisen_Ch5:
 Cry_Teddiursa_Ch5:
 	duty_cycle_pattern 0, 1, 0, 2
-Cry_EReisen_branch_f3286:
+Cry_TReisen_branch_f3286:
 	square_note 3, 12, 1, 1937
-	sound_loop 3, Cry_EReisen_branch_f3286
-Cry_EReisen_branch_f328e:
+	sound_loop 3, Cry_TReisen_branch_f3286
+Cry_TReisen_branch_f328e:
 	square_note 3, 13, 1, 1201
-	sound_loop 6, Cry_EReisen_branch_f328e
-Cry_EReisen_branch_f3296:
+	sound_loop 6, Cry_TReisen_branch_f328e
+Cry_TReisen_branch_f3296:
 	square_note 1, 13, 1, 1169
 	square_note 1, 11, 1, 1105
-	sound_loop 6, Cry_EReisen_branch_f3296
-Cry_EReisen_branch_f32a2:
+	sound_loop 6, Cry_TReisen_branch_f3296
+Cry_TReisen_branch_f32a2:
 	square_note 1, 10, 3, 1137
 	square_note 1, 8, 1, 1089
-	sound_loop 6, Cry_EReisen_branch_f32a2
-Cry_EReisen_branch_f32ae:
+	sound_loop 6, Cry_TReisen_branch_f32a2
+Cry_TReisen_branch_f32ae:
 	square_note 1, 4, 1, 1057
 	square_note 1, 2, 1, 1025
-	sound_loop 4, Cry_EReisen_branch_f32ae
+	sound_loop 4, Cry_TReisen_branch_f32ae
 	sound_ret
 
-Cry_EReisen_Ch6:
+Cry_TReisen_Ch6:
 Cry_Teddiursa_Ch6:
 	duty_cycle_pattern 1, 3, 2, 0
 	square_note 8, 9, -1, 1856
@@ -659,7 +659,7 @@ Cry_Teddiursa_Ch6:
 	square_note 24, 14, 2, 1923
 	sound_ret
 
-Cry_EReisen_Ch8:
+Cry_TReisen_Ch8:
 	noise_note 16, 10, 6, 22
 	noise_note 24, 9, 8, 61
 	noise_note 32, 9, 8, 92
@@ -866,17 +866,17 @@ Cry_CKongara:
 	channel 6, Cry_CKongara_Ch6
 	channel 8, Cry_CKongara_Ch8
 
-Cry_ELuize:
+Cry_DLuize:
 	channel_count 3
-	channel 5, Cry_ELuize_Ch5
-	channel 6, Cry_ELuize_Ch6
-	channel 8, Cry_ELuize_Ch8
+	channel 5, Cry_DLuize_Ch5
+	channel 6, Cry_DLuize_Ch6
+	channel 8, Cry_DLuize_Ch8
 
-Cry_ERemilia:
+Cry_SRemilia:
 	channel_count 3
-	channel 5, Cry_ERemilia_Ch5
-	channel 6, Cry_ERemilia_Ch6
-	channel 8, Cry_ERemilia_Ch8
+	channel 5, Cry_SRemilia_Ch5
+	channel 6, Cry_SRemilia_Ch6
+	channel 8, Cry_SRemilia_Ch8
 
 Cry_CMarisa:
 	channel_count 3
@@ -890,11 +890,11 @@ Cry_EYuki:
 	channel 6, Cry_EYuki_Ch6
 	channel 8, Cry_EYuki_Ch8
 
-Cry_EDaichan:
+Cry_DDaichan:
 	channel_count 3
-	channel 5, Cry_EDaichan_Ch5
-	channel 6, Cry_EDaichan_Ch6
-	channel 8, Cry_EDaichan_Ch8
+	channel 5, Cry_DDaichan_Ch5
+	channel 6, Cry_DDaichan_Ch6
+	channel 8, Cry_DDaichan_Ch8
 
 Cry_CYumeko:
 	channel_count 3
@@ -956,11 +956,11 @@ Cry_Farfetch_d:
 	channel 6, Cry_Farfetch_d_Ch6
 	channel 8, Cry_Farfetch_d_Ch8
 
-Cry_EPatchouli:
+Cry_TPatchouli:
 	channel_count 3
-	channel 5, Cry_EPatchouli_Ch5
-	channel 6, Cry_EPatchouli_Ch6
-	channel 8, Cry_EPatchouli_Ch8
+	channel 5, Cry_TPatchouli_Ch5
+	channel 6, Cry_TPatchouli_Ch6
+	channel 8, Cry_TPatchouli_Ch8
 
 Cry_ESara:
 	channel_count 3
@@ -968,11 +968,11 @@ Cry_ESara:
 	channel 6, Cry_ESara_Ch6
 	channel 8, Cry_ESara_Ch8
 
-Cry_ESakuya:
+Cry_HSakuya:
 	channel_count 3
-	channel 5, Cry_ESakuya_Ch5
-	channel 6, Cry_ESakuya_Ch6
-	channel 8, Cry_ESakuya_Ch8
+	channel 5, Cry_HSakuya_Ch5
+	channel 6, Cry_HSakuya_Ch6
+	channel 8, Cry_HSakuya_Ch8
 
 Cry_CMima:
 	channel_count 3
@@ -1172,7 +1172,7 @@ Cry_EMeira_Ch8:
 	noise_note 15, 10, 2, 92
 	sound_ret
 
-Cry_EPatchouli_Ch5:
+Cry_TPatchouli_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 6, 15, 7, 1952
 	square_note 8, 14, 6, 1956
@@ -1183,7 +1183,7 @@ Cry_EPatchouli_Ch5:
 	square_note 8, 11, 1, 1840
 	sound_ret
 
-Cry_EPatchouli_Ch6:
+Cry_TPatchouli_Ch6:
 	duty_cycle_pattern 0, 0, 2, 2
 	square_note 4, 0, 8, 0
 	square_note 6, 10, 7, 1857
@@ -1195,7 +1195,7 @@ Cry_EPatchouli_Ch6:
 	square_note 8, 7, 1, 1752
 	sound_ret
 
-Cry_EPatchouli_Ch8:
+Cry_TPatchouli_Ch8:
 	noise_note 2, 15, 2, 76
 	noise_note 6, 14, 6, 58
 	noise_note 4, 13, 7, 58
@@ -1230,7 +1230,7 @@ Cry_EMugetsu_Ch8:
 	noise_note 8, 9, 1, 28
 	sound_ret
 
-Cry_ERemilia_Ch5:
+Cry_SRemilia_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 4, 15, 7, 1544
 	square_note 6, 14, 6, 1536
@@ -1241,7 +1241,7 @@ Cry_ERemilia_Ch5:
 	square_note 8, 14, 1, 1408
 	sound_ret
 
-Cry_ERemilia_Ch6:
+Cry_SRemilia_Ch6:
 	duty_cycle_pattern 0, 0, 2, 2
 	square_note 4, 12, 7, 1284
 	square_note 6, 10, 6, 1282
@@ -1252,7 +1252,7 @@ Cry_ERemilia_Ch6:
 	square_note 8, 12, 1, 1154
 	sound_ret
 
-Cry_ERemilia_Ch8:
+Cry_SRemilia_Ch8:
 	noise_note 12, 14, 4, 76
 	noise_note 10, 12, 7, 92
 	noise_note 12, 11, 6, 76
@@ -1359,7 +1359,7 @@ Cry_EMagan_Ch8:
 	noise_note 8, 6, 1, 17
 	sound_ret
 
-Cry_EDaichan_Ch5:
+Cry_DDaichan_Ch5:
 	duty_cycle_pattern 3, 3, 2, 2
 	square_note 6, 8, 3, 583
 	square_note 15, 6, 2, 550
@@ -1367,10 +1367,10 @@ Cry_EDaichan_Ch5:
 	square_note 9, 6, 3, 518
 	square_note 15, 8, 2, 549
 	square_note 15, 4, 2, 519
-Cry_EDaichan_Ch6:
+Cry_DDaichan_Ch6:
 	sound_ret
 
-Cry_EDaichan_Ch8:
+Cry_DDaichan_Ch8:
 	noise_note 8, 13, 4, 140
 	noise_note 4, 14, 2, 156
 	noise_note 15, 12, 6, 140
@@ -1479,19 +1479,19 @@ Cry_CYuki_Ch6:
 Cry_CYuki_Ch8:
 	sound_ret
 
-Cry_ELuize_Ch5:
+Cry_DLuize_Ch5:
 	duty_cycle 0
 	square_note 8, 15, 5, 1152
 	square_note 2, 14, 1, 1504
 	square_note 8, 13, 1, 1500
 	sound_ret
 
-Cry_ELuize_Ch6:
+Cry_DLuize_Ch6:
 	duty_cycle_pattern 2, 2, 1, 1
 	square_note 7, 9, 5, 1089
 	square_note 2, 8, 1, 1313
 	square_note 8, 6, 1, 1306
-Cry_ELuize_Ch8:
+Cry_DLuize_Ch8:
 	sound_ret
 
 Cry_Rumia_Ch5:
@@ -1728,7 +1728,7 @@ Cry_ESara_Ch8:
 	noise_note 8, 13, 1, 92
 	sound_ret
 
-Cry_ESakuya_Ch5:
+Cry_HSakuya_Ch5:
 	duty_cycle_pattern 0, 3, 0, 3
 	square_note 15, 15, 6, 1472
 	square_note 8, 14, 3, 1468
@@ -1738,7 +1738,7 @@ Cry_ESakuya_Ch5:
 	square_note 8, 11, 1, 1536
 	sound_ret
 
-Cry_ESakuya_Ch6:
+Cry_HSakuya_Ch6:
 	duty_cycle_pattern 2, 1, 2, 1
 	square_note 14, 12, 6, 1201
 	square_note 7, 12, 3, 1197
@@ -1748,7 +1748,7 @@ Cry_ESakuya_Ch6:
 	square_note 8, 9, 1, 1265
 	sound_ret
 
-Cry_ESakuya_Ch8:
+Cry_HSakuya_Ch8:
 	noise_note 10, 14, 6, 92
 	noise_note 10, 13, 6, 108
 	noise_note 4, 12, 2, 76

@@ -1,7 +1,7 @@
 	db  150, 62,  61,  135, 140,  88 ; 505 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DARK, FAIRY ; type
+	db DARK, HEART ; type
 	db 66 ; catch rate
 	db 150 ; base exp
 	db NO_ITEM, FOCUS_BAND ; held items

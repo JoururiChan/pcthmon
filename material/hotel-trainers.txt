@@ -67,7 +67,7 @@ Victory: Woah! I gotta train some more!
 
 After: Well I'll be! You already took on the Johto League? (Gives rare candy)
 
-Team: CRan, EYuyuko, Primape 
+Team: CRan, AYuyuko, Primape 
 
 Sightseer Mitsuru
 Hajimemashita! Kono machi ha totemo kirei wa ne! (It's nice to meet you! This city is very beautiful.)
@@ -85,7 +85,7 @@ Victory: NO! I tore my cape!
 
 After: My poor cape...This is all your fault!
 
-Team: EMarisa, CSuika, ELilyBlack
+Team: AMarisa, CSuika, ELilyBlack
 
 Rando NPC: Be careful, kid! Some of the guests here are really feisty. Be ready for a battle!
 
@@ -130,7 +130,7 @@ Kid, I can tell you got the eyes of a fisherman. How about a battle between fish
 
 Victory: Darn good stuff, kid. I like the cut of your jib. 
 
-Team: Lanturn, Slowking, ESakuya
+Team: Lanturn, Slowking, HSakuya
 
 
 Pokefan Joey Sr. 
@@ -162,7 +162,7 @@ Victory: Oh, you card!
 
 After: Well, them's the breaks! La-di-da-di-da... (drops berserk gene)
 
-Team: CAlice, EYumemi, ERumia
+Team: CAlice, EYumemi, ARumia
 
 
 
@@ -181,7 +181,7 @@ Rando NPC: Aww yeah! Some doofus gave me their Bidoof for my Suika! Ya can't fin
 
 Rando NPC: Such a shame...I was hoping to observe the migratory pattern of Elis and EElis, but it seems they're all gone...
 
-Supernerd: Hey, kid! I need some serious juice for my experiments! Get me a EAlice and I'll give you my spare CLunasa2! (Nickname: Gent2, shiny, holding dubious disk or whatever evolves it to Z, OT: rms)
+Supernerd: Hey, kid! I need some serious juice for my experiments! Get me a AAlice and I'll give you my spare CLunasa2! (Nickname: Gent2, shiny, holding dubious disk or whatever evolves it to Z, OT: rms)
 
 Thief: Hey, kid! Check it out! I got this super top-of-the-line ultra rare pokemon that I st--found after it fell off the back of a truck. Gimme a Sneasel and it's all yours! (Dunsparce, Nickname: Simon, OT: Genbu)
 
@@ -191,7 +191,7 @@ Pokemaniac: H-hey...uh...y-you got a EYumemi? I..I'll...I'll trade you one of my
 
 Pokemaniac: Hi! Do you have a Kotohime? 'll give ya an Lunasa for it! (Lunasa, Nickname: Mayonne, OT: Flea) After:Hey, thanks! My two brothers show up here sometimes looking to trade. Maybe you should stop by later! 
 
-Pokemaniac: Hey, pal. You got a spare Girafarig? I'll hook you up with an EYuyuko for it. (EYuyuko, Nickname: Vinegar, OT: Ozzie)
+Pokemaniac: Hey, pal. You got a spare Girafarig? I'll hook you up with an AYuyuko for it. (AYuyuko, Nickname: Vinegar, OT: Ozzie)
 After: Thanks! My other two siblings pop in from time to time to trade. You should check in later!
 
 

@@ -1,13 +1,13 @@
 	db  70,  60, 125,  55, 115,  70 ; 495 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ROCK, WATER ; type
+	db BEAST, WATER ; type
 	db 45 ; catch rate
 	db 199 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F12_5, HATCH_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for ELUNASA, SWIFT_SWIM, SHELL_ARMOR, WEAK_ARMOR
+	abilities_for ALUNASA, SWIFT_SWIM, SHELL_ARMOR, WEAK_ARMOR
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 

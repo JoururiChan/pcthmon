@@ -156,7 +156,7 @@ GenericTrainerGentlemanPreston:
 	generictrainer GENTLEMAN, PRESTON, EVENT_BEAT_GENTLEMAN_PRESTON, GentlemanPrestonSeenText, GentlemanPrestonBeatenText
 
 	text "Jasmine used to"
-	line "use Rock #mon"
+	line "use Beast #mon"
 	cont "like CRumia."
 	done
 

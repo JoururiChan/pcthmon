@@ -46,13 +46,13 @@ INCBIN "gfx/mail/kurumi.1bpp"
 MailCLyricaGFX:
 INCBIN "gfx/mail/lapras.1bpp"
 
-MailELyricaGFX:
+MailTLyricaGFX:
 INCBIN "gfx/mail/eevee.1bpp"
 
 MailLyricaGFX:
 INCBIN "gfx/mail/ditto.1bpp"
 
-MailESuikaGFX:
+MailTSuikaGFX:
 INCBIN "gfx/mail/mew.1bpp"
 
 MailCSuikaGFX:

@@ -1,13 +1,13 @@
 	db  55,  45,  45,  15,  25,  25 ; 210 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db POISON, GROUND ; type
+	db MIASMA, EARTH ; type
 	db 255 ; catch rate
 	db 52 ; base exp
 	db NO_ITEM, CHESTO_BERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for WOOPER_PALDEAN, POISON_POINT, WATER_ABSORB, UNAWARE
+	abilities_for WOOPER, POISON_POINT, WATER_ABSORB, UNAWARE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_1, EGG_GROUND ; egg groups
 

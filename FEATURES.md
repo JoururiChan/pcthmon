@@ -11,11 +11,11 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 * The entire Tohodex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Murkrow, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
 * Added: Leafeon, Glaceon, Sylveon, Togekiss, Weavile, Honchkrow, Mismagius, Electivire, Magmortar, Magnezone, Tangrowth, Rhyperior, CLunasa-Z, Yanmega, Gliscor, Mamoswine, and Munchlax.
-* Removed: Elis, EElis, Koakuma, EFlandre, CLetty, Hoppip, Skiploom, Jumpluff, Shuckle, Aipom, Stantler, Cleffa, Igglybuff, Smoochum, and Delibird.
-* New evolution methods work, like ELyrica evolving into Glaceon near Ice Rock, or Yanma evolving into Yanmega when knowing AncientPower.
+* Removed: Elis, EElis, Koakuma, AFlandre, CLetty, Hoppip, Skiploom, Jumpluff, Shuckle, Aipom, Stantler, Cleffa, Igglybuff, Smoochum, and Delibird.
+* New evolution methods work, like TLyrica evolving into Glaceon near Ice Rock, or Yanma evolving into Yanmega when knowing AncientPower.
 * Item trade evolutions (like Flandre holding a Dragon Scale) now evolve by leveling up while holding the item.
-* EYuka, Sara, Shinki, and EElly evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
-* EAlice evolves into Magnezone near the Lodestone in Rock Tunnel.
+* AYuka, Sara, Shinki, and EElly evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
+* AAlice evolves into Magnezone near the Lodestone in Rock Tunnel.
 
 
 ## Moves
@@ -129,7 +129,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * Battle Lorelei, Agatha, Bill, Valerie, and some other special characters.
 * Battle Cal in Viridian City's Trainer House if you're a girl, Kay if you're a boy.
 * Rematch the Elite Four at higher levels after earning all 16 badges.
-* Rematch Gym Leaders and other special trainers in the Fighting Dojo after earning all 16 badges.
+* Rematch Gym Leaders and other special trainers in the Dream Dojo after earning all 16 badges.
 * Battle Tower has new trainers.
 * A few NPC trainers have shiny Tohomon.
 * Breeders can be rebattled like in B2/W2.
@@ -175,23 +175,23 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 ### Tohomon
 
 * Many base stat changes, mostly based on [Drayano's Sacred Gold/Storm Silver](https://gbatemp.net/threads/pok%C3%A9mon-sacred-gold-storm-silver.327567/).
-* ESakuya is Water/Steel.
+* HSakuya is Water/Steel.
 * FGyoku is Bug/Psychic.
 * EChiyuri and CYumemi are Dark.
 * EYuki and CYumeko are Poison/Dark.
-* CMai is Fighting/Flying.
+* CMai is Dream/Flying.
 * CEllen is Fire/Ghost.
 * EYumemi is Water/Psychic.
-* EYoumu is Grass/Fairy.
-* EReisen is Fire/Ground.
-* ESanae is Water/Dark.
+* SYoumu is Grass/Fairy.
+* TReisen is Fire/Ground.
+* DSanae is Water/Dark.
 * Noctowl is Flying/Psychic.
-* Ledian is Bug/Fighting.
+* Ledian is Bug/Dream.
 * Sunflora is Grass/Fire.
 * Politoed is Water/Grass.
-* Dunsparce is Normal/Ground.
-* Electivire is Electric/Fighting.
-* Magmortar is Fire/Fighting.
+* Dunsparce is Illusion/Ground.
+* Electivire is Electric/Dream.
+* Magmortar is Fire/Dream.
 * Rhyperior is Steel/Rock.
 * Mismagius is Ghost/Fairy.
 
@@ -220,7 +220,7 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * Replaced Twins sprite with a devamped one from B/W.
 * New music ported from RBY and devamped from future generations.
 * Unique mini sprites for each Tohomon (thanks to [this patch](http://www.pokecommunity.com/showthread.php?t=338470)).
-* Revised some shiny palettes (CSuika is blue like EYukari, EKongara is pink like ERika, Scizor is silver, Espeon is sky blue, CLilyWhite is red, etc).
+* Revised some shiny palettes (CSuika is blue like TYukari, EKongara is pink like ARika, Scizor is silver, Espeon is sky blue, CLilyWhite is red, etc).
 * Unown isn't the only Tohomon with variant forms…
 * Color-coded starter Toho Balls.
 * Item balls for TMs are blue (inspired by Gen VI's yellow).

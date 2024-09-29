@@ -848,12 +848,12 @@ BerryJuiceDesc:
 	done
 
 SilkScarfDesc:
-	text "Powers up Normal-"
+	text "Powers up Illusion-"
 	next "type moves. (Hold)"
 	done
 
 BlackBeltDesc:
-	text "Boosts Fighting-"
+	text "Boosts Dream-"
 	next "type moves. (Hold)"
 	done
 
@@ -868,12 +868,12 @@ PoisonBarbDesc:
 	done
 
 SoftSandDesc:
-	text "Powers up Ground-"
+	text "Powers up Earth-"
 	next "type moves. (Hold)"
 	done
 
 HardStoneDesc:
-	text "Powers up Rock-"
+	text "Powers up Beast-"
 	next "type moves. (Hold)"
 	done
 
@@ -903,12 +903,12 @@ MysticWaterDesc:
 	done
 
 MiracleSeedDesc:
-	text "Powers up Grass-"
+	text "Powers up Nature-"
 	next "type moves. (Hold)"
 	done
 
 MagnetDesc:
-	text "Boosts Electric-"
+	text "Boosts Wind-"
 	next "type moves. (Hold)"
 	done
 
@@ -923,7 +923,7 @@ NeverMeltIceDesc:
 	done
 
 DragonFangDesc:
-	text "Powers up Dragon-"
+	text "Powers up Faith-"
 	next "type moves. (Hold)"
 	done
 
@@ -1030,7 +1030,7 @@ ArmorSuitDesc:
 	done
 
 AirBalloonDesc:
-	text "Avoids one Ground"
+	text "Avoids one Earth"
 	next "attack. (Hold)"
 	done
 
@@ -1255,7 +1255,7 @@ WiseGlassesDesc:
 	done
 
 DragonScaleDesc:
-	text "A rare Dragon-type"
+	text "A rare Faith-type"
 	next "item."
 	done
 
@@ -1411,7 +1411,7 @@ LovelyMailDesc:
 	done
 
 EonMailDesc:
-	text "ELyrica-print Mail."
+	text "TLyrica-print Mail."
 	next "(Hold)"
 	done
 
@@ -1431,7 +1431,7 @@ MusicMailDesc:
 	done
 
 MirageMailDesc:
-	text "ESuika-print Mail."
+	text "TSuika-print Mail."
 	next "(Hold)"
 	done
 

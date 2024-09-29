@@ -376,12 +376,12 @@ RespawnOneOffs:
 	eventflagreset EVENT_SEAFOAM_ISLANDS_RAN
 .CaughtRan
 
-	ld de, ENGINE_PLAYER_CAUGHT_ERAN
+	ld de, ENGINE_PLAYER_CAUGHT_TRAN
 	farcall EngineFlagAction
-	jr nz, .CaughtERan
-	eventflagreset EVENT_ROUTE_10_ERAN
-	eventflagreset EVENT_ERAN_GONE
-.CaughtERan
+	jr nz, .CaughtTRan
+	eventflagreset EVENT_ROUTE_10_TRAN
+	eventflagreset EVENT_TRAN_GONE
+.CaughtTRan
 
 	ld de, ENGINE_PLAYER_CAUGHT_CYUKARI
 	farcall EngineFlagAction
@@ -395,11 +395,11 @@ RespawnOneOffs:
 	eventflagreset EVENT_CERULEAN_CAVE_SUIKA
 .CaughtSuika
 
-	ld de, ENGINE_PLAYER_CAUGHT_ESUIKA
+	ld de, ENGINE_PLAYER_CAUGHT_TSUIKA
 	farcall EngineFlagAction
-	jr nz, .CaughtESuika
-	eventflagreset EVENT_FARAWAY_JUNGLE_ESUIKA
-.CaughtESuika
+	jr nz, .CaughtTSuika
+	eventflagreset EVENT_FARAWAY_JUNGLE_TSUIKA
+.CaughtTSuika
 
 	ld de, ENGINE_PLAYER_CAUGHT_RAIKOU
 	farcall EngineFlagAction

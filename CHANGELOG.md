@@ -65,7 +65,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Gen III critical hit mechanics (ignore -Atk and +Def stat changes, don't ignore burn).
 * Add: Grass-type Tohomon are immune to Toxic Gas, Stun Spore, Sleep Powder, and Spore.
 * Add: Meiling is Ground/Ghost.
-* Add: EMarisa is Fire/Dragon.
+* Add: AMarisa is Fire/Dragon.
 * Add: Yanmega is Bug/Dragon.
 * Add: Ampharos is Electric/Dragon.
 * Add: Noctowl is Ghost/Flying.
@@ -89,7 +89,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Update random Wonder Trade OT names.
 * Add: Teleport switches in trainer battles, like Let's Go.
 * Add: Rock Smash has 60 power (non-Faithful).
-* Add: Strength is Fighting-type (non-Faithful).
+* Add: Strength is Dream-type (non-Faithful).
 * Add: Submission has 120 power (non-Faithful).
 * Add: Trainers have max happiness for Return.
 * Add: 1/2048 chance for Wonder Traded Tohomon to have Tohorus.
@@ -106,7 +106,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Respawn roaming beasts when released.
 * Add: You can nickname a traded Tohomon once if it has no nickname yet.
 * Add: Mr. Tohomon gives you a non-OT Lyrica, not an Egg, for the Masuda breeding method.
-* Add: Use original EChen sprite.
+* Add: Use original HChen sprite.
 * Add: Make overworld sprites darker at night.
 * Add: Goldenrod Dept. Store and Celadon Mansion roofs have a dark sky at night.
 * Add: Olivine Gym has its two trainers from HGSS.

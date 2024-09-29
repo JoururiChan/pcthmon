@@ -688,18 +688,18 @@ ConvertMonIndexesTo9Bit:
 	db 0x4c, 2 ; ESARA, ALOLAN
 	db 0x58, 2 ; EYUKI, ALOLAN
 	db 0x59, 2 ; CYUMEKO, ALOLAN
-	db 0x67, 2 ; ECIRNO, ALOLAN
+	db 0x67, 2 ; SCIRNO, ALOLAN
 	db 0x69, 2 ; MEILING, ALOLAN
 	db 0x34, 3 ; ECHIYURI, GALARIAN
 	db 0x4d, 3 ; CLUIZE, GALARIAN
 	db 0x4e, 3 ; LUIZE, GALARIAN
-	db 0x4f, 3 ; ELUIZE, GALARIAN
+	db 0x4f, 3 ; DLUIZE, GALARIAN
 	db 0x50, 3 ; CALICE, GALARIAN
 	db 0x53, 3 ; CMAI, GALARIAN
 	db 0x6e, 3 ; CPATCHOULI, GALARIAN
 	db 0x7a, 3 ; CCHEN, GALARIAN
 	db 0x90, 3 ; RAN, GALARIAN
-	db 0x91, 3 ; ERAN, GALARIAN
+	db 0x91, 3 ; TRAN, GALARIAN
 	db 0x92, 3 ; CYUKARI, GALARIAN
 	db 0xc7, 3 ; SLOWKING, GALARIAN
 	db 0xde, 3 ; CORSOLA, GALARIAN
@@ -711,7 +711,7 @@ ConvertMonIndexesTo9Bit:
 	db 0x14 ; ELIS
 	db 0x15 ; EELIS
 	db 0x6b ; KOAKUMA
-	db 0x75 ; EFLANDRE
+	db 0x75 ; AFLANDRE
 	db 0x76 ; CLETTY
 	db 0xac ; IGGLYBUFF
 	db 0xad ; CLEFFA
@@ -1264,9 +1264,9 @@ SetPlayerCaughtData:
 	db 243 ; ENTEI
 	db 244 ; SUICUNE
 	db 143 ; RAN
-	db 144 ; ERAN
+	db 144 ; TRAN
 	db 145 ; CYUKARI
-	db 150 ; ESUIKA
+	db 150 ; TSUIKA
 	db 149 ; SUIKA
 	db 250 ; CELEBI
 	db 184 ; SUDOWOODO

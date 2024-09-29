@@ -111,7 +111,7 @@ SafariZoneWestTrainerTips1SignText:
 	para "Fire-type #mon"
 	line "cannot be burnt,"
 
-	para "Electric types"
+	para "Wind types"
 	line "can't be paralyzed,"
 
 	para "and Ice types can't"
@@ -122,7 +122,7 @@ SafariZoneWestTrainerTips2SignText:
 	text "Trainer Tips"
 
 	para "In a sandstorm,"
-	line "Rock-type #mon"
+	line "Beast-type #mon"
 
 	para "get a boost to"
 	line "their Sp.Def."

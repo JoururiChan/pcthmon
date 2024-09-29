@@ -171,11 +171,11 @@ SpriteHeaders:
 	overworld_sprite CMeiraWalkSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite CMaiSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite CLyricaSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
-	overworld_sprite ELyricaSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite TLyricaSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite CSuikaSpriteGFX, WALKING_SPRITE, PAL_OW_ORANGE
-	overworld_sprite ESuikaSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
+	overworld_sprite TSuikaSpriteGFX, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite CelebiSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite SurfingEKikuriSpriteGFX, WALKING_SPRITE, PAL_OW_RED
+
 	overworld_sprite ArmoredSuikaSpriteGFX, WALKING_SPRITE, PAL_OW_GRAY
 	overworld_sprite BigCRanSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BigCLyricaSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
@@ -202,7 +202,7 @@ SpriteHeaders:
 	overworld_sprite BeachGirlSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite PiersSpriteGFX, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite KatySpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite AlolanECirnoSpriteGFX, BIG_ELILYBLACK_SPRITE, PAL_OW_BROWN
+
 	overworld_sprite SoldierSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite CrysSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite CrysBikeSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN

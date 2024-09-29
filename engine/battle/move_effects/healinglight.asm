@@ -15,10 +15,10 @@ BattleCommand_healweather:
 	ld c, a
 .got_types
 	ld a, b
-	cp GRASS
+	cp NATURE
 	jr z, .synthesis_anim
 	ld a, c
-	cp GRASS
+	cp NATURE
 	jr z, .synthesis_anim
 	ld a, [wTimeOfDay]
 	cp NITE

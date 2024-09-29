@@ -6,128 +6,105 @@ MiniIconPointers:
 	table_width 7, MiniIconPointers
 	mini_icon CReimu
 	mini_icon Reimu
-	mini_icon EReimu
+	mini_icon TReimu
 	mini_icon CMarisa
 	mini_icon Marisa
-	mini_icon EMarisa
+	mini_icon AMarisa
 	mini_icon CSakuya
 	mini_icon Sakuya
-	mini_icon ESakuya
+	mini_icon HSakuya
 	mini_icon CGyoku
 	mini_icon MGyoku
 	mini_icon FGyoku
 	mini_icon OGyoku
 	mini_icon CMagan
 	mini_icon Magan
-	mini_icon EMagan
 	mini_icon CMima
 	mini_icon Mima
-	mini_icon EMima
 	mini_icon CElis
 	mini_icon Elis
-	mini_icon EElis
 	mini_icon CKikuri
 	mini_icon Kikuri
-	mini_icon EKikuri
 	mini_icon CSariel
 	mini_icon Sariel
-	mini_icon ESariel
 	mini_icon CKongara
 	mini_icon Kongara
-	mini_icon EKongara
 	mini_icon CRika
 	mini_icon Rika
-	mini_icon ERika
+	mini_icon ARika
 	mini_icon CMeira
 	mini_icon Meira
-	mini_icon EMeira
 	mini_icon CEllen
 	mini_icon Ellen
-	mini_icon EEllen
 	mini_icon CKotohime
 	mini_icon Kotohime
-	mini_icon EKotohime
 	mini_icon CKana
 	mini_icon Kana
-	mini_icon EKana
 	mini_icon CRikako
 	mini_icon Rikako
-	mini_icon ERikako
 	mini_icon CChiyuri
 	mini_icon Chiyuri
-	mini_icon EChiyuri
 	mini_icon CYumemi
 	mini_icon Yumemi
-	mini_icon EYumemi
 	mini_icon COrange
 	mini_icon Orange
-	mini_icon EOrange
 	mini_icon CKurumi
 	mini_icon Kurumi
-	mini_icon EKurumi
 	mini_icon CElly
 	mini_icon Elly
-	mini_icon EElly
 	mini_icon CYuka
 	mini_icon Yuka
-	mini_icon EYuka
+	mini_icon AYuka
 	mini_icon CMugetsu
 	mini_icon Mugetsu
-	mini_icon EMugetsu
 	mini_icon CGengetsu
 	mini_icon Gengetsu
-	mini_icon EGengetsu
 	mini_icon CSara
 	mini_icon Sara
-	mini_icon ESara
 	mini_icon CLuize
 	mini_icon Luize
-	mini_icon ELuize
+	mini_icon DLuize
 	mini_icon CAlice
 	mini_icon Alice
-	mini_icon EAlice
+	mini_icon AAlice
 	mini_icon CMai
 	mini_icon Mai
-	mini_icon EMai
 	mini_icon CYuki
 	mini_icon Yuki
-	mini_icon EYuki
 	mini_icon CYumeko
 	mini_icon Yumeko
-	mini_icon EYumeko
 	mini_icon CShinki
 	mini_icon Shinki
-	mini_icon EShinki
 	mini_icon CRumia
 	mini_icon Rumia
-	mini_icon ERumia
+	mini_icon ARumia
 	mini_icon CDaichan
 	mini_icon Daichan
-	mini_icon EDaichan
+	mini_icon DDaichan
 	mini_icon CCirno
 	mini_icon Cirno
-	mini_icon ECirno
+	mini_icon SCirno
 	mini_icon CMeiling
 	mini_icon Meiling
-	mini_icon EMeiling
+	mini_icon AMeiling
 	mini_icon CKoakuma
 	mini_icon Koakuma
-	mini_icon EKoakuma
+	mini_icon HKoakuma
 	mini_icon CPatchouli
 	mini_icon Patchouli
-	mini_icon EPatchouli
+	mini_icon TPatchouli
 	mini_icon CRemilia
 	mini_icon Remilia
-	mini_icon ERemilia
+	mini_icon SRemilia
 	mini_icon CFlandre
 	mini_icon Flandre
-	mini_icon EFlandre
+	mini_icon AFlandre
 	mini_icon CLetty
 	mini_icon Letty
-	mini_icon ELetty
+	mini_icon DLetty
 	mini_icon MrMime
 	mini_icon Chen
-	mini_icon EChen
+	mini_icon HChen
 	mini_icon CLilyWhite
 	mini_icon LilyWhite
 	mini_icon ELilyWhite
@@ -136,34 +113,34 @@ MiniIconPointers:
 	mini_icon ELilyBlack
 	mini_icon CLyrica
 	mini_icon Lyrica
-	mini_icon ELyrica
+	mini_icon TLyrica
 	mini_icon CMerlin
 	mini_icon Merlin
-	mini_icon EMerlin
+	mini_icon SMerlin
 	mini_icon CLunasa
 	mini_icon Lunasa
-	mini_icon ELunasa
+	mini_icon ALunasa
 	mini_icon CYuyuko
 	mini_icon Yuyuko
-	mini_icon EYuyuko
+	mini_icon AYuyuko
 	mini_icon CRan
 	mini_icon Ran
-	mini_icon ERan
+	mini_icon TRan
 	mini_icon CYukari
 	mini_icon Yukari
-	mini_icon EYukari
+	mini_icon TYukari
 	mini_icon CSuika
 	mini_icon Suika
-	mini_icon ESuika
+	mini_icon TSuika
 	mini_icon CYoumu
 	mini_icon Youmu
-	mini_icon EYoumu
+	mini_icon SYoumu
 	mini_icon CReisen
 	mini_icon Reisen
-	mini_icon EReisen
+	mini_icon TReisen
 	mini_icon CSanae
 	mini_icon Sanae
-	mini_icon ESanae
+	mini_icon DSanae
 	mini_icon Sentret
 	mini_icon Furret
 	mini_icon Hoothoot
@@ -330,12 +307,6 @@ MiniIconPointers:
 	mini_icon Kikuri ; Agatha
 	mini_icon Kikuri ; Ariana
 
-	mini_icon EKikuriFly ; Fly
-	mini_icon EKikuriSurf ; Surf
-	mini_icon EKikuri ; Pika
-	mini_icon EKikuri ; Chuchu
-	mini_icon EKikuri ; Spark
-
 	mini_icon Pichu ; Spiky
 
 rept NUM_LILYBLACK - 1
@@ -349,51 +320,5 @@ endr
 	mini_icon SuikaArmored
 
 	mini_icon DudunsparceThreeSegment
-
-	mini_icon EMimaAlolan
-	mini_icon CElisAlolan
-	mini_icon CSarielAlolan
-	mini_icon SarielAlolan
-	mini_icon ESarielAlolan
-	mini_icon EMeiraAlolan
-	mini_icon CEllenAlolan
-	mini_icon CChiyuriAlolan
-	mini_icon ChiyuriAlolan
-	mini_icon EChiyuriAlolan
-	mini_icon CYumemiAlolan
-	mini_icon CSaraAlolan
-	mini_icon SaraAlolan
-	mini_icon ESaraAlolan
-	mini_icon EYukiAlolan
-	mini_icon CYumekoAlolan
-	mini_icon ECirnoAlolan
-	mini_icon MeilingAlolan
-
-	mini_icon EChiyuriGalarian
-	mini_icon CLuizeGalarian
-	mini_icon LuizeGalarian
-	mini_icon ELuizeGalarian
-	mini_icon CAliceGalarian
-	mini_icon CMaiGalarian
-	mini_icon CPatchouliGalarian
-	mini_icon MrMimeGalarian
-	mini_icon RanGalarian
-	mini_icon ERanGalarian
-	mini_icon CYukariGalarian
-	mini_icon SlowkingGalarian
-	mini_icon CorsolaGalarian
-
-	mini_icon EOrangeHisuian
-	mini_icon CKurumiHisuian
-	mini_icon EDaichanHisuian
-	mini_icon CCirnoHisuian
-	mini_icon EReisenHisuian
-	mini_icon QwilfishHisuian
-	mini_icon SneaselHisuian
-
-	mini_icon WooperPaldean
-	mini_icon CLilyBlackPaldean
-	mini_icon CLilyBlackPaldeanFire
-	mini_icon CLilyBlackPaldeanWater
 
 	assert_table_length NUM_UNIQUE_POKEMON

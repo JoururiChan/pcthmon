@@ -16,7 +16,7 @@ Route27_MapScriptHeader:
 	bg_event 25,  7, BGEVENT_JUMPTEXT, TohjoFallsSignText
 
 	def_object_events
-	object_event 48, 12, SPRITE_VETERAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route27VeteranfScript, -1
+	object_event 48, 12, SPRITE_VETTRAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route27VeteranfScript, -1
 	object_event 21, 10, SPRITE_FAT_GUY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route27FisherText, -1
 	object_event 48,  7, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerCooltrainermBlake, -1
 	object_event 58,  6, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerAceDuoJakeandbri1, -1
@@ -30,7 +30,7 @@ Route27_MapScriptHeader:
 	fruittree_event 60, 12, FRUITTREE_ROUTE_27, LUM_BERRY, PAL_NPC_GREEN
 
 	object_const_def
-	const ROUTE27_VETERAN_F
+	const ROUTE27_VETTRAN_F
 	const ROUTE27_FISHER
 
 FirstStepIntoKantoLeftScene:
@@ -58,7 +58,7 @@ Route27VeteranfScript:
 	checkevent EVENT_GOT_CHOICE_SPECS_FROM_ROUTE_27_LEADER
 	iftrue_jumptextfaceplayer .AfterText2
 	faceplayer
-	checkevent EVENT_BEAT_VETERANF_LITVYAK
+	checkevent EVENT_BEAT_VETTRANF_LITVYAK
 	iftruefwd .Beaten
 	checkevent EVENT_BEAT_PSYCHIC_GILBERT
 	iffalse_jumptext .IntroText
@@ -96,11 +96,11 @@ Route27VeteranfScript:
 	waitbutton
 	closetext
 	winlosstext .BeatenText, 0
-	setlasttalked ROUTE27_VETERAN_F
-	loadtrainer VETERANF, LITVYAK
+	setlasttalked ROUTE27_VETTRAN_F
+	loadtrainer VETTRANF, LITVYAK
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_VETERANF_LITVYAK
+	setevent EVENT_BEAT_VETTRANF_LITVYAK
 .Beaten:
 	opentext
 	writetext .AfterText1

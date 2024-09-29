@@ -163,7 +163,7 @@ ViridianForestSignText2:
 ViridianForestSignText3:
 	text "Trainer Tips"
 
-	para "Grass-type #mon"
+	para "Nature-type #mon"
 	line "are unaffected by"
 
 	para "powder and spore"
@@ -179,7 +179,7 @@ ViridianForestSignText4:
 ViridianForestSignText5:
 	text "Trainer Tips"
 
-	para "Poison-type #-"
+	para "Miasma-type #-"
 	line "mon can't be poi-"
 	cont "soned themselves!"
 	done

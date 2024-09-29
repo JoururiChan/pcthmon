@@ -1,7 +1,7 @@
 	db  60,  30,  30,  50,  36,  56 ; 262 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db NORMAL, FLYING ; type
+	db ILLUSION, FLYING ; type
 	db 255 ; catch rate
 	db 58 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

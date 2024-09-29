@@ -1,13 +1,13 @@
 	db  65,  95,  85,  85,  55,  55 ; 440 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DARK, POISON ; type
+	db DARK, MIASMA ; type
 	db 45 ; catch rate
 	db 100 ; base exp
 	db NO_ITEM, POISON_BARB ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for QWILFISH_HISUIAN, POISON_POINT, SWIFT_SWIM, INTIMIDATE
+	abilities_for QWILFISH, POISON_POINT, SWIFT_SWIM, INTIMIDATE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_2, EGG_WATER_2 ; egg groups
 

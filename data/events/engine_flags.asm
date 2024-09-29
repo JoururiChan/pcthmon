@@ -280,10 +280,10 @@ EngineFlags:
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_ENTEI_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_SUICUNE_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_RAN_F
-	engine_flag wPlayerCaught, PLAYER_CAUGHT_ERAN_F
+	engine_flag wPlayerCaught, PLAYER_CAUGHT_TRAN_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_CYUKARI_F
 
-	engine_flag wPlayerCaught2, PLAYER_CAUGHT_ESUIKA_F
+	engine_flag wPlayerCaught2, PLAYER_CAUGHT_TSUIKA_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_SUIKA_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_CELEBI_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_SUDOWOODO_F

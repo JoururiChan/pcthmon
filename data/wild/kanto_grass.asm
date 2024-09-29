@@ -120,7 +120,7 @@
 	wildmon 51, SARA
 	wildmon 51, CRUMIA
 	wildmon 51, KOTOHIME
-	wildmon 54, EYUKA
+	wildmon 54, AYUKA
 	wildmon 51, MEILING
 	; day
 	wildmon 49, MEILING
@@ -128,7 +128,7 @@
 	wildmon 51, SARA
 	wildmon 51, CRUMIA
 	wildmon 51, KOTOHIME
-	wildmon 54, EYUKA
+	wildmon 54, AYUKA
 	wildmon 51, MEILING
 	; nite
 	wildmon 49, MEILING
@@ -147,7 +147,7 @@
 	wildmon 51, SARA
 	wildmon 52, CRUMIA
 	wildmon 52, KOTOHIME
-	wildmon 55, EYUKA
+	wildmon 55, AYUKA
 	wildmon 52, SARA
 	wildmon 52, STEELIX
 	; day
@@ -155,7 +155,7 @@
 	wildmon 51, SARA
 	wildmon 52, CRUMIA
 	wildmon 52, KOTOHIME
-	wildmon 55, EYUKA
+	wildmon 55, AYUKA
 	wildmon 52, SARA
 	wildmon 52, STEELIX
 	; nite
@@ -174,23 +174,23 @@
 	wildmon 52, MEILING
 	wildmon 54, SARA
 	wildmon 52, KOTOHIME
-	wildmon 54, EYUKA
+	wildmon 54, AYUKA
 	wildmon 55, SARA
-	wildmon 55, EREMILIA
-	wildmon 56, EREMILIA
+	wildmon 55, SREMILIA
+	wildmon 56, SREMILIA
 	; day
 	wildmon 52, MEILING
 	wildmon 54, SARA
 	wildmon 52, KOTOHIME
-	wildmon 54, EYUKA
+	wildmon 54, AYUKA
 	wildmon 55, SARA
-	wildmon 55, EREMILIA
-	wildmon 56, EREMILIA
+	wildmon 55, SREMILIA
+	wildmon 56, SREMILIA
 	; nite
 	wildmon 52, KOTOHIME
 	wildmon 54, SARA
 	wildmon 52, SARA
-	wildmon 54, EYUKA
+	wildmon 54, AYUKA
 	wildmon 55, KOTOHIME
 	wildmon 55, SHINKI
 	wildmon 56, SHINKI
@@ -204,7 +204,7 @@
 	wildmon 41, CRUMIA
 	wildmon 42, KOTOHIME
 	wildmon 44, ESARIEL
-	wildmon 46, EPATCHOULI
+	wildmon 46, TPATCHOULI
 	wildmon 45, STEELIX
 	; day
 	wildmon 43, SARA
@@ -212,7 +212,7 @@
 	wildmon 41, CRUMIA
 	wildmon 42, KOTOHIME
 	wildmon 44, ESARIEL
-	wildmon 46, EPATCHOULI
+	wildmon 46, TPATCHOULI
 	wildmon 45, STEELIX
 	; nite
 	wildmon 43, KOTOHIME
@@ -221,7 +221,7 @@
 	wildmon 42, SARA
 	wildmon 44, SHINKI
 	wildmon 46, STEELIX
-	wildmon 45, EPATCHOULI
+	wildmon 45, TPATCHOULI
 	end_grass_wildmons
 
 	def_grass_wildmons VICTORY_ROAD_2F
@@ -232,7 +232,7 @@
 	wildmon 44, CRUMIA
 	wildmon 45, KOTOHIME
 	wildmon 47, ESARIEL
-	wildmon 49, EPATCHOULI
+	wildmon 49, TPATCHOULI
 	wildmon 48, STEELIX
 	; day
 	wildmon 46, SARA
@@ -240,7 +240,7 @@
 	wildmon 44, CRUMIA
 	wildmon 45, KOTOHIME
 	wildmon 47, ESARIEL
-	wildmon 49, EPATCHOULI
+	wildmon 49, TPATCHOULI
 	wildmon 48, STEELIX
 	; nite
 	wildmon 46, KOTOHIME
@@ -249,7 +249,7 @@
 	wildmon 45, SARA
 	wildmon 47, SHINKI
 	wildmon 49, STEELIX
-	wildmon 48, EPATCHOULI
+	wildmon 48, TPATCHOULI
 	end_grass_wildmons
 
 	def_grass_wildmons VICTORY_ROAD_3F
@@ -260,7 +260,7 @@
 	wildmon 46, CRUMIA
 	wildmon 47, KOTOHIME
 	wildmon 48, ESARIEL
-	wildmon 51, EPATCHOULI
+	wildmon 51, TPATCHOULI
 	wildmon 50, STEELIX
 	; day
 	wildmon 48, SARA
@@ -268,7 +268,7 @@
 	wildmon 46, CRUMIA
 	wildmon 47, KOTOHIME
 	wildmon 48, ESARIEL
-	wildmon 51, EPATCHOULI
+	wildmon 51, TPATCHOULI
 	wildmon 50, STEELIX
 	; nite
 	wildmon 48, KOTOHIME
@@ -277,7 +277,7 @@
 	wildmon 47, SARA
 	wildmon 48, SHINKI
 	wildmon 51, STEELIX
-	wildmon 50, EPATCHOULI
+	wildmon 50, TPATCHOULI
 	end_grass_wildmons
 
 	def_grass_wildmons TOHJO_FALLS
@@ -286,26 +286,26 @@
 	wildmon 22, CKOTOHIME
 	wildmon 22, CELIS
 	wildmon 24, KOTOHIME
-	wildmon 21, ELUIZE
+	wildmon 21, DLUIZE
 	wildmon 20, EMIMA
-	wildmon 23, ELUIZE
-	wildmon 23, ELUIZE
+	wildmon 23, DLUIZE
+	wildmon 23, DLUIZE
 	; day
 	wildmon 22, CKOTOHIME
 	wildmon 22, CELIS
 	wildmon 24, KOTOHIME
-	wildmon 21, ELUIZE
+	wildmon 21, DLUIZE
 	wildmon 20, EMIMA
-	wildmon 23, ELUIZE
-	wildmon 23, ELUIZE
+	wildmon 23, DLUIZE
+	wildmon 23, DLUIZE
 	; nite
 	wildmon 22, CKOTOHIME
 	wildmon 22, CELIS
 	wildmon 24, KOTOHIME
-	wildmon 21, ELUIZE
+	wildmon 21, DLUIZE
 	wildmon 20, EMIMA
-	wildmon 23, ELUIZE
-	wildmon 23, ELUIZE
+	wildmon 23, DLUIZE
+	wildmon 23, DLUIZE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_1
@@ -509,7 +509,7 @@
 	; morn
 	wildmon 45, CELIS
 	wildmon 45, GRANBULL
-	wildmon 46, EALICE
+	wildmon 46, AALICE
 	wildmon 47, ORANGE
 	wildmon 50, ELLEN
 	wildmon 47, GRANBULL
@@ -517,15 +517,15 @@
 	; day
 	wildmon 45, CELIS
 	wildmon 45, GRANBULL
-	wildmon 46, EALICE
+	wildmon 46, AALICE
 	wildmon 47, ORANGE
 	wildmon 50, ELLEN
 	wildmon 47, GRANBULL
 	wildmon 47, EELLEN
 	; nite
 	wildmon 45, CYUMEMI
-	wildmon 45, ERUMIA
-	wildmon 46, EALICE
+	wildmon 45, ARUMIA
+	wildmon 46, AALICE
 	wildmon 47, YUMEMI
 	wildmon 50, ELLEN
 	wildmon 47, CELIS
@@ -622,7 +622,7 @@
 	wildmon 47, EELIS
 	wildmon 49, CCIRNO
 	wildmon 47, CELIS
-	wildmon 48, EALICE
+	wildmon 48, AALICE
 	wildmon 49, MEILING
 	wildmon 50, CLILYWHITE
 	wildmon 52, CLILYWHITE
@@ -630,7 +630,7 @@
 	wildmon 47, EELIS
 	wildmon 49, CCIRNO
 	wildmon 47, CELIS
-	wildmon 48, EALICE
+	wildmon 48, AALICE
 	wildmon 49, MEILING
 	wildmon 50, CLILYWHITE
 	wildmon 52, CLILYWHITE
@@ -638,7 +638,7 @@
 	wildmon 47, ERIKAKO
 	wildmon 49, CCIRNO
 	wildmon 47, CELIS
-	wildmon 48, EALICE
+	wildmon 48, AALICE
 	wildmon 49, KOTOHIME
 	wildmon 50, CLILYWHITE
 	wildmon 52, CLILYWHITE
@@ -649,7 +649,7 @@
 	; morn
 	wildmon 53, SKIPLOOM
 	wildmon 48, CELIS
-	wildmon 50, EALICE
+	wildmon 50, AALICE
 	wildmon 51, CMIMA
 	wildmon 51, ESARIEL
 	wildmon 51, SUNFLORA
@@ -657,7 +657,7 @@
 	; day
 	wildmon 53, SKIPLOOM
 	wildmon 48, CELIS
-	wildmon 50, EALICE
+	wildmon 50, AALICE
 	wildmon 51, CMIMA
 	wildmon 51, ESARIEL
 	wildmon 51, SUNFLORA
@@ -668,8 +668,8 @@
 	wildmon 50, ALICE
 	wildmon 51, NOCTOWL
 	wildmon 51, CELIS
-	wildmon 51, ERUMIA
-	wildmon 51, ERUMIA
+	wildmon 51, ARUMIA
+	wildmon 51, ARUMIA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_12_SOUTH
@@ -1293,7 +1293,7 @@
 	; morn
 	wildmon 49, SARA, ALOLAN_FORM
 	wildmon 50, KOTOHIME
-	wildmon 50, EALICE
+	wildmon 50, AALICE
 	wildmon 51, CLILYWHITE
 	wildmon 51, SARA, ALOLAN_FORM
 	wildmon 54, DUNSPARCE
@@ -1301,7 +1301,7 @@
 	; day
 	wildmon 49, SARA, ALOLAN_FORM
 	wildmon 50, KOTOHIME
-	wildmon 50, EALICE
+	wildmon 50, AALICE
 	wildmon 51, CLILYWHITE
 	wildmon 51, SARA, ALOLAN_FORM
 	wildmon 54, DUNSPARCE
@@ -1309,7 +1309,7 @@
 	; nite
 	wildmon 49, KOTOHIME
 	wildmon 50, SARA, ALOLAN_FORM
-	wildmon 50, EALICE
+	wildmon 50, AALICE
 	wildmon 51, SHINKI
 	wildmon 51, KOTOHIME
 	wildmon 54, DUNSPARCE
@@ -1321,7 +1321,7 @@
 	; morn
 	wildmon 51, KOTOHIME
 	wildmon 50, SARA, ALOLAN_FORM
-	wildmon 52, EALICE
+	wildmon 52, AALICE
 	wildmon 52, CLILYWHITE
 	wildmon 51, DUNSPARCE
 	wildmon 55, SARA, ALOLAN_FORM
@@ -1329,7 +1329,7 @@
 	; day
 	wildmon 51, KOTOHIME
 	wildmon 50, SARA, ALOLAN_FORM
-	wildmon 52, EALICE
+	wildmon 52, AALICE
 	wildmon 52, CLILYWHITE
 	wildmon 51, DUNSPARCE
 	wildmon 55, SARA, ALOLAN_FORM
@@ -1349,7 +1349,7 @@
 	; morn
 	wildmon 52, SARA, ALOLAN_FORM
 	wildmon 54, KOTOHIME
-	wildmon 52, EALICE
+	wildmon 52, AALICE
 	wildmon 54, CRUMIA
 	wildmon 55, DUNSPARCE
 	wildmon 56, SARA, ALOLAN_FORM
@@ -1357,7 +1357,7 @@
 	; day
 	wildmon 52, SARA, ALOLAN_FORM
 	wildmon 54, KOTOHIME
-	wildmon 52, EALICE
+	wildmon 52, AALICE
 	wildmon 54, CRUMIA
 	wildmon 55, DUNSPARCE
 	wildmon 56, SARA, ALOLAN_FORM
@@ -1377,7 +1377,7 @@
 	; morn
 	wildmon 51, KOTOHIME
 	wildmon 50, SARA, ALOLAN_FORM
-	wildmon 52, EALICE
+	wildmon 52, AALICE
 	wildmon 52, CLILYWHITE
 	wildmon 51, SARA, ALOLAN_FORM
 	wildmon 55, CCIRNO
@@ -1385,7 +1385,7 @@
 	; day
 	wildmon 51, KOTOHIME
 	wildmon 50, SARA, ALOLAN_FORM
-	wildmon 52, EALICE
+	wildmon 52, AALICE
 	wildmon 52, CLILYWHITE
 	wildmon 51, SARA, ALOLAN_FORM
 	wildmon 55, CCIRNO
@@ -1406,7 +1406,7 @@
 	wildmon 49, SARA, ALOLAN_FORM
 	wildmon 50, SNEASEL, HISUIAN_FORM
 	wildmon 50, KOTOHIME
-	wildmon 51, EALICE
+	wildmon 51, AALICE
 	wildmon 51, CCIRNO
 	wildmon 54, SARA, ALOLAN_FORM
 	wildmon 51, DUNSPARCE
@@ -1414,7 +1414,7 @@
 	wildmon 49, SARA, ALOLAN_FORM
 	wildmon 50, SNEASEL, HISUIAN_FORM
 	wildmon 50, KOTOHIME
-	wildmon 51, EALICE
+	wildmon 51, AALICE
 	wildmon 51, CCIRNO
 	wildmon 54, SARA, ALOLAN_FORM
 	wildmon 51, DUNSPARCE
@@ -1519,7 +1519,7 @@
 	wildmon 58, EMAI
 	wildmon 55, CIRNO
 	wildmon 59, CLILYBLACK
-	wildmon 59, ECIRNO
+	wildmon 59, SCIRNO
 	wildmon 60, REMILIA
 	wildmon 50, CHEN
 	; day
@@ -1527,7 +1527,7 @@
 	wildmon 58, EMAI
 	wildmon 55, CIRNO
 	wildmon 59, CLILYBLACK
-	wildmon 59, ECIRNO
+	wildmon 59, SCIRNO
 	wildmon 60, REMILIA
 	wildmon 50, CHEN
 	; nite
@@ -1535,7 +1535,7 @@
 	wildmon 58, EMAI
 	wildmon 55, CIRNO
 	wildmon 59, CLILYBLACK
-	wildmon 59, ECIRNO
+	wildmon 59, SCIRNO
 	wildmon 60, REMILIA
 	wildmon 50, CHEN
 	end_grass_wildmons
@@ -1574,26 +1574,26 @@
 	wildmon 55, RIKAKO
 	wildmon 58, ERIKAKO
 	wildmon 56, PATCHOULI
-	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_FIRE_FORM
+	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
 	wildmon 59, ELILYWHITE
-	wildmon 60, EPATCHOULI
+	wildmon 60, TPATCHOULI
 	wildmon 60, CREMILIA
 	; day
 	wildmon 55, RIKAKO
 	wildmon 58, ERIKAKO
 	wildmon 56, PATCHOULI
-	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_FIRE_FORM
+	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
 	wildmon 59, ELILYWHITE
-	wildmon 60, EPATCHOULI
+	wildmon 60, TPATCHOULI
 	wildmon 60, CREMILIA
 	; nite
 	wildmon 55, RIKAKO
 	wildmon 58, ERIKAKO
 	wildmon 56, PATCHOULI
-	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_FIRE_FORM
+	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
 	wildmon 59, ELILYWHITE
-	wildmon 60, EPATCHOULI
-	wildmon 60, EREMILIA
+	wildmon 60, TPATCHOULI
+	wildmon 60, SREMILIA
 	end_grass_wildmons
 
 	def_grass_wildmons SAFARI_ZONE_WEST
@@ -1602,25 +1602,25 @@
 	wildmon 55, RIKAKO
 	wildmon 58, KONGARA
 	wildmon 58, RIKA
-	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_WATER_FORM
+	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
 	wildmon 59, ERIKAKO
-	wildmon 60, EREMILIA
+	wildmon 60, SREMILIA
 	wildmon 60, MEILING
 	; day
 	wildmon 55, RIKAKO
 	wildmon 58, KONGARA
 	wildmon 58, RIKA
-	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_WATER_FORM
+	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
 	wildmon 59, ERIKAKO
-	wildmon 60, EREMILIA
+	wildmon 60, SREMILIA
 	wildmon 60, MEILING
 	; nite
 	wildmon 55, RIKAKO
 	wildmon 58, RIKA
 	wildmon 58, KONGARA
-	wildmon 59, CLILYBLACK, CLILYBLACK_PALDEAN_WATER_FORM
+	wildmon 59, CLILYBLACK, CLILYBLACK_FORM
 	wildmon 59, ERIKAKO
-	wildmon 60, EREMILIA
+	wildmon 60, SREMILIA
 	wildmon 60, MEILING
 	end_grass_wildmons
 
@@ -1826,7 +1826,7 @@
 	wildmon 60, KOTOHIME
 	wildmon 63, YUKI
 	wildmon 61, EYUMEMI
-	wildmon 62, ECHEN
+	wildmon 62, HCHEN
 	wildmon 64, YUMEMI
 	wildmon 65, CYUKI
 	wildmon 66, YUKI
@@ -1834,7 +1834,7 @@
 	wildmon 60, KOTOHIME
 	wildmon 63, YUKI
 	wildmon 61, EYUMEMI
-	wildmon 62, ECHEN
+	wildmon 62, HCHEN
 	wildmon 64, YUMEMI
 	wildmon 65, CYUKI
 	wildmon 66, YUKI
@@ -1842,7 +1842,7 @@
 	wildmon 60, KOTOHIME
 	wildmon 63, YUKI
 	wildmon 61, EYUMEMI
-	wildmon 62, ECHEN
+	wildmon 62, HCHEN
 	wildmon 64, YUMEMI
 	wildmon 65, CYUKI
 	wildmon 66, YUKI
@@ -1907,7 +1907,7 @@
 	def_grass_wildmons CINNABAR_VOLCANO_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 56, EKOAKUMA
+	wildmon 56, HKOAKUMA
 	wildmon 58, SARA
 	wildmon 57, SLUGMA
 	wildmon 59, MAGCARGO
@@ -1915,7 +1915,7 @@
 	wildmon 61, LILYWHITE
 	wildmon 62, LILYWHITE
 	; day
-	wildmon 56, EKOAKUMA
+	wildmon 56, HKOAKUMA
 	wildmon 58, SARA
 	wildmon 57, SLUGMA
 	wildmon 59, MAGCARGO
@@ -1923,7 +1923,7 @@
 	wildmon 61, LILYWHITE
 	wildmon 62, LILYWHITE
 	; nite
-	wildmon 56, EKOAKUMA
+	wildmon 56, HKOAKUMA
 	wildmon 58, CSHINKI
 	wildmon 57, SARA
 	wildmon 59, SLUGMA

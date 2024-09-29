@@ -1,7 +1,7 @@
 	db  61,  43,  58,  43,  65,  54 ; 314 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, GRASS ; type
+	db WATER, NATURE ; type
 	db 100 ; catch rate
 	db 90 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

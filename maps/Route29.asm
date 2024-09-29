@@ -291,7 +291,7 @@ TuscanyGaveGiftText:
 	cont "is most elegant?"
 
 	para "It strengthens"
-	line "Normal-type moves."
+	line "Illusion-type moves."
 
 	para "I am certain it"
 	line "will be of use."

@@ -1,7 +1,7 @@
 	db  80,  55,  30,  20,  85,  70 ; 270 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db PSYCHIC, FIGHTING ; type
+	db REASON, DREAM ; type
 	db 240 ; catch rate
 	db 106 ; base exp
 	db ALWAYS_ITEM_2, ASPEAR_BERRY ; held items

@@ -1,7 +1,7 @@
 	db  86, 62,  81,  99,  130,  110 ; 450 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ICE, FAIRY ; type
+	db ICE, HEART ; type
 	db 105 ; catch rate
 	db 220 ; base exp
 	db NO_ITEM, LEEK ; held items

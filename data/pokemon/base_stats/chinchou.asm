@@ -1,7 +1,7 @@
 	db  75,  38,  38,  67,  56,  56 ; 330 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, ELECTRIC ; type
+	db WATER, WIND ; type
 	db 190 ; catch rate
 	db 90 ; base exp
 	db NO_ITEM, BRIGHTPOWDER ; held items

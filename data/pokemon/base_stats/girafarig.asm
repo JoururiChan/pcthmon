@@ -7,9 +7,9 @@ else
 endc
 
 if DEF(FAITHFUL)
-	db NORMAL, PSYCHIC ; type
+	db ILLUSION, REASON ; type
 else
-	db PSYCHIC, DARK ; type
+	db REASON, DARK ; type
 endc
 	db 60 ; catch rate
 	db 149 ; base exp

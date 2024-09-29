@@ -554,7 +554,7 @@ ENDM
 	map_const ROUTE_29_46_GATE,                            5,  4 ; 15
 
 	newgroup                                                     ; 25
-	map_const FIGHTING_DOJO,                               5,  6 ;  1
+	map_const DREAM_DOJO,                               5,  6 ;  1
 	map_const SAFFRON_GYM,                                10,  9 ;  2
 	map_const SAFFRON_MART,                                6,  4 ;  3
 	map_const SAFFRON_POKECENTER_1F,                       6,  4 ;  4
@@ -617,18 +617,18 @@ ENDM
 	map_const RUINS_OF_ALPH_HO_OH_CHAMBER,                 4,  5 ;  2
 	map_const RUINS_OF_ALPH_CYUYUKO_CHAMBER,                4,  5 ;  3
 	map_const RUINS_OF_ALPH_LUNASA_CHAMBER,               4,  5 ;  4
-	map_const RUINS_OF_ALPH_EYUYUKO_CHAMBER,            4,  5 ;  5
+	map_const RUINS_OF_ALPH_AYUYUKO_CHAMBER,            4,  5 ;  5
 	map_const RUINS_OF_ALPH_ENTRANCE_CHAMBER,              4,  4 ;  6
 	map_const RUINS_OF_ALPH_INNER_CHAMBER,                10, 14 ;  7
 	map_const RUINS_OF_ALPH_RESEARCH_CENTER,               4,  4 ;  8
 	map_const RUINS_OF_ALPH_HO_OH_ITEM_ROOM,               4,  5 ;  9
 	map_const RUINS_OF_ALPH_CYUYUKO_ITEM_ROOM,              4,  5 ; 10
 	map_const RUINS_OF_ALPH_LUNASA_ITEM_ROOM,             4,  5 ; 11
-	map_const RUINS_OF_ALPH_EYUYUKO_ITEM_ROOM,          4,  5 ; 12
+	map_const RUINS_OF_ALPH_AYUYUKO_ITEM_ROOM,          4,  5 ; 12
 	map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,              10, 12 ; 13
 	map_const RUINS_OF_ALPH_CYUYUKO_WORD_ROOM,             10,  7 ; 14
 	map_const RUINS_OF_ALPH_LUNASA_WORD_ROOM,            10,  8 ; 15
-	map_const RUINS_OF_ALPH_EYUYUKO_WORD_ROOM,         10,  7 ; 16
+	map_const RUINS_OF_ALPH_AYUYUKO_WORD_ROOM,         10,  7 ; 16
 	map_const RUINS_OF_ALPH_SINJOH_CHAMBER,                5,  5 ; 17
 	map_const ROUTE_22_PAST,                               6,  6 ; 18
 

@@ -1,7 +1,7 @@
 	db  60, 100,  50,  75,  78,  95 ; 365 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DARK, FIGHTING ; type
+	db DARK, DREAM ; type
 	db 50 ; catch rate
 	db 151 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

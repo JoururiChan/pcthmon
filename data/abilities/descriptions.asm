@@ -209,7 +209,7 @@ StaticDescription:
 
 VoltAbsorbDescription:
 	text  "Restores HP if hit"
-	next1 "by Electric moves."
+	next1 "by Wind moves."
 	done
 
 WaterAbsorbDescription:
@@ -276,7 +276,7 @@ ShadowTagDescription:
 
 LevitateDescription:
 	text  "Gives immunity to"
-	next1 "Ground-type moves."
+	next1 "Earth-type moves."
 	done
 
 EffectSporeDescription:
@@ -301,7 +301,7 @@ NaturalCureDescription:
 	done
 
 LightningRodDescription:
-	text  "Electric moves"
+	text  "Wind moves"
 	next1 "boost Sp.Atk."
 	done
 
@@ -451,7 +451,7 @@ LiquidOozeDescription:
 	done
 
 OvergrowDescription:
-	text  "Boosts Grass moves"
+	text  "Boosts Nature moves"
 	next1 "in a pinch."
 	done
 
@@ -491,7 +491,7 @@ TangledFeetDescription:
 	done
 
 MotorDriveDescription:
-	text  "Electric moves"
+	text  "Wind moves"
 	next1 "boost Speed."
 	done
 
@@ -792,7 +792,7 @@ MagicBounceDescription:
 
 SapSipperDescription:
 	text  "Boosts Attack when"
-	next1 "hit by Grass."
+	next1 "hit by Nature."
 	done
 
 PranksterDescription:
@@ -831,7 +831,7 @@ ToughClawsDescription:
 	done
 
 PixilateDescription:
-	text  "Normal-type moves"
+	text  "Illusion-type moves"
 	next1 "become Fairy-type."
 	done
 
@@ -851,8 +851,8 @@ SlushRushDescription:
 	done
 
 GalvanizeDescription:
-	text  "Normal-type moves"
-	next1 "become Electric."
+	text  "Illusion-type moves"
+	next1 "become Wind."
 	done
 
 CorrosionDescription:

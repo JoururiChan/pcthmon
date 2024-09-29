@@ -1,7 +1,7 @@
 	db 255,  10,  10,  55,  75, 135 ; 540 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db ILLUSION, ILLUSION ; type
 	db 30 ; catch rate
 	db 255 ; base exp
 	db OVAL_STONE, LUCKY_EGG ; held items

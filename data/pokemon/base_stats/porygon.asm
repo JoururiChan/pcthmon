@@ -1,7 +1,7 @@
 	db  65,  60,  70,  40,  85,  75 ; 395 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db ILLUSION, ILLUSION ; type
 	db 45 ; catch rate
 	db 130 ; base exp
 	db NO_ITEM, UP_GRADE ; held items

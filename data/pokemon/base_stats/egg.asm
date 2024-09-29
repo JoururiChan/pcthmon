@@ -1,7 +1,7 @@
 	db  10,  10,  10,  10,  10,  10 ; 60 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db ILLUSION, ILLUSION ; type
 	db 255 ; catch rate
 	db 10 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

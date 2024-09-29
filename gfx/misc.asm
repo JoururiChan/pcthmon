@@ -237,7 +237,7 @@ LugiaPaintingPic::     INCBIN "gfx/paintings/lugia_painting.2bpp.lz"
 BellTowerPaintingPic:: INCBIN "gfx/paintings/bell_tower_painting.2bpp.lz"
 CYuyukoPuzzlePic::      INCBIN "gfx/paintings/kabuto_puzzle.2bpp.lz"
 LunasaPuzzlePic::     INCBIN "gfx/paintings/omanyte_puzzle.2bpp.lz"
-EYuyukoPuzzlePic::  INCBIN "gfx/paintings/aerodactyl_puzzle.2bpp.lz"
+AYuyukoPuzzlePic::  INCBIN "gfx/paintings/aerodactyl_puzzle.2bpp.lz"
 HoOhPuzzlePic::        INCBIN "gfx/paintings/ho_oh_puzzle.2bpp.lz"
 
 
@@ -251,7 +251,7 @@ BillsPC_ObjGFX::    INCBIN "gfx/pc/obj.2bpp.lz"
 SECTION "Tohodex Graphics", ROMX
 
 TohodexTileLZ::     INCBIN "gfx/tohodex/tohodex.2bpp.lz"
-TohodexELuizeLZ:: INCBIN "gfx/tohodex/eluize.2bpp.lz"
+TohodexDLuizeLZ:: INCBIN "gfx/tohodex/dluize.2bpp.lz"
 QuestionMarkLZ::    INCBIN "gfx/tohodex/question_mark.2bpp.lz"
 TohodexObjLZ::      INCBIN "gfx/tohodex/oam.2bpp.lz"
 

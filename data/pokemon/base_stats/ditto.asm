@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db NORMAL, NORMAL ; type
+	db ILLUSION, ILLUSION ; type
 	db 35 ; catch rate
 	db 61 ; base exp
 	db QUICK_POWDER, METAL_POWDER ; held items

@@ -1,7 +1,7 @@
 	db  70,  70, 115,  60, 130,  90 ; 535 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ELECTRIC, STEEL ; type
+	db WIND, STEEL ; type
 	db 30 ; catch rate
 	db 211 ; base exp
 	db NO_ITEM, METAL_COAT ; held items

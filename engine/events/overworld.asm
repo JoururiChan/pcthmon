@@ -138,23 +138,7 @@ CheckPartyMove:
 	scf
 	ret
 
-CheckForSurfingEKikuri:
-	lb de, SURF, HM_SURF
-	call CheckPartyMove
-	jr c, .no
-	ld a, MON_SPECIES
-	call GetPartyParamLocationAndValue
-	cp LOW(EKIKURI)
-	jr nz, .no
-	assert !HIGH(EKIKURI)
-	ld de, MON_EXTSPECIES - MON_SPECIES
-	add hl, de
-	ld a, [hl]
-	and 1 << MON_EXTSPECIES_F
-	jr nz, .no
-	ld a, TRUE
-	ldh [hScriptVar], a
-	ret
+
 
 .no:
 	xor a ; FALSE
@@ -414,7 +398,7 @@ OWFlash:
 .CheckUseFlash:
 ; Flash
 	push hl
-	farcall SpecialEYuyukoChamber
+	farcall SpecialAYuyukoChamber
 	pop hl
 	jr c, .useflash
 	ld a, [wTimeOfDayPalset]
@@ -503,7 +487,6 @@ SurfFunction:
 	ret
 
 .DoSurf:
-	call GetSurfType
 	ld [wBuffer2], a
 	call GetPartyNickname
 	ld hl, SurfFromMenuScript
@@ -554,24 +537,7 @@ AlreadySurfingText:
 	text_far _AlreadySurfingText
 	text_end
 
-GetSurfType:
-; Surfing on EKikuri uses an alternate sprite.
-; This is done by using a separate movement type.
 
-	ld a, MON_SPECIES
-	call GetPartyParamLocationAndValue
-	cp LOW(EKIKURI)
-	jr nz, .not_ekikuri
-	assert !HIGH(EKIKURI)
-	ld de, MON_EXTSPECIES - MON_SPECIES
-	add hl, de
-	ld a, [hl]
-	and 1 << MON_EXTSPECIES_F
-	ld a, PLAYER_SURF_PIKA
-	ret z
-.not_ekikuri
-	ld a, PLAYER_SURF
-	ret
 
 CheckDirection:
 ; Return carry if a tile permission prevents you

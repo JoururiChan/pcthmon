@@ -6,16 +6,16 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db ICE, PSYCHIC ; type
+	db ICE, REASON ; type
 	db 45 ; catch rate
 	db 137 ; base exp
 	db RAWST_BERRY, RAWST_BERRY ; held items
 	dn GENDER_F100, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for ECHEN, OBLIVIOUS, FOREWARN, DRY_SKIN
+	abilities_for HCHEN, OBLIVIOUS, FOREWARN, DRY_SKIN
 else
-	abilities_for ECHEN, OBLIVIOUS, FILTER, DRY_SKIN
+	abilities_for HCHEN, OBLIVIOUS, FILTER, DRY_SKIN
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups

@@ -45,7 +45,7 @@ GetHiddenPowerType::
 	jr nz, .loop
 	; b = %00fedcba (SDf, SAt, Spe, Def, Atk, HP)
 if DEF(FAITHFUL)
-; type = %fedcba * 15 / 63 + 1 (1-16, Fighting-Dark)
+; type = %fedcba * 15 / 63 + 1 (1-16, Dream-Dark)
 	inc c
 	ld e, c ; ld e, 1
 
@@ -63,7 +63,7 @@ if DEF(FAITHFUL)
 	inc e
 	jr .loop2
 else
-; type = %fedcba * 16 / 63 + 1 (1-17, Fighting-Fairy)
+; type = %fedcba * 16 / 63 + 1 (1-17, Dream-Fairy)
 	ld a, b
 	cp 63
 	ld e, 17

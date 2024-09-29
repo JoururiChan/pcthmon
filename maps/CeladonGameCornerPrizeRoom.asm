@@ -2,7 +2,7 @@ DEF CELADONGAMECORNERPRIZEROOM_TM32_COINS EQU 3500
 DEF CELADONGAMECORNERPRIZEROOM_TM06_COINS EQU 5500
 DEF CELADONGAMECORNERPRIZEROOM_TM68_COINS EQU 7500
 DEF CELADONGAMECORNERPRIZEROOM_CCHEN_COINS EQU 3333
-DEF CELADONGAMECORNERPRIZEROOM_ELYRICA_COINS    EQU 6666
+DEF CELADONGAMECORNERPRIZEROOM_TLYRICA_COINS    EQU 6666
 DEF CELADONGAMECORNERPRIZEROOM_CLUNASA_COINS  EQU 9999
 
 CeladonGameCornerPrizeRoom_MapScriptHeader:
@@ -153,20 +153,20 @@ CeladonGameCornerPokemonVendor:
 	sjump .loop
 
 .eevee
-	checkcoins CELADONGAMECORNERPRIZEROOM_ELYRICA_COINS
+	checkcoins CELADONGAMECORNERPRIZEROOM_TLYRICA_COINS
 	ifequal $2, CeladonPrizeRoom_notenoughcoins
-	getmonname ELYRICA, $0
+	getmonname TLYRICA, $0
 	scall CeladonPrizeRoom_askbuy
 	iffalse_jumpopenedtext CeladonPrizeRoom_ComeAgainText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext CeladonPrizeRoom_HereYouGoText
 	waitbutton
-	givepoke ELYRICA, 20
+	givepoke TLYRICA, 20
 	iffalse_jumpopenedtext CeladonPrizeRoom_NotEnoughRoomText
-	setmonval ELYRICA
+	setmonval TLYRICA
 	special Special_GameCornerPrizeMonCheckDex
-	takecoins CELADONGAMECORNERPRIZEROOM_ELYRICA_COINS
+	takecoins CELADONGAMECORNERPRIZEROOM_TLYRICA_COINS
 	sjump .loop
 
 .porygon
@@ -196,7 +196,7 @@ CeladonGameCornerPokemonVendor:
 	db $80 ; flags
 	db 4 ; items
 	db "CChen    {d:CELADONGAMECORNERPRIZEROOM_CCHEN_COINS}@"
-	db "ELyrica      {d:CELADONGAMECORNERPRIZEROOM_ELYRICA_COINS}@"
+	db "TLyrica      {d:CELADONGAMECORNERPRIZEROOM_TLYRICA_COINS}@"
 	db "CLunasa    {d:CELADONGAMECORNERPRIZEROOM_CLUNASA_COINS}@"
 	db "Cancel@"
 

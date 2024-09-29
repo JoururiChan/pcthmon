@@ -110,19 +110,19 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
 ### How do I evolve my Tohomon?
 
 * Ask Lyra! She gives you her phone number when you reach the Day-Care on Route 34.
-* Gen 1's trade evolutions now evolve by having at least five vitamins' worth of EVs in the right stat: EYuka into CMugetsu with Attack EVs (from Protein), Sara into ESara with Defense (from Iron), Shinki into EShinki with Speed (from Carbos), and EElly into CYuka with Special Attack (from Calcium).
+* Gen 1's trade evolutions now evolve by having at least five vitamins' worth of EVs in the right stat: AYuka into CMugetsu with Attack EVs (from Protein), Sara into ESara with Defense (from Iron), Shinki into EShinki with Speed (from Carbos), and EElly into CYuka with Special Attack (from Calcium).
 * Item trade evolutions (like Flandre into Kingdra while holding a Dragon Scale) now evolve while holding the item.
 * Yanma, Remilia, and Piloswine evolve while knowing AncientPower.
-* ELyrica evolves into Leafeon in Ilex Forest, site of the Moss Rock.
-* ELyrica evolves into Glaceon in the Ice Path, site of the Ice Rock.
-* ELyrica evolves into Sylveon with a Shiny Stone.
-* EAlice evolves into Magnezone in Rock Tunnel, site of the Lodestone.
+* TLyrica evolves into Leafeon in Ilex Forest, site of the Moss Rock.
+* TLyrica evolves into Glaceon in the Ice Path, site of the Ice Rock.
+* TLyrica evolves into Sylveon with a Shiny Stone.
+* AAlice evolves into Magnezone in Rock Tunnel, site of the Lodestone.
 
 
 ### Where do I get the legendary Tohomon?
 
 * Ran is in the Seafoam Islands.
-* ERan is above the Power Plant after you fix the generator.
+* TRan is above the Power Plant after you fix the generator.
 * CYukari is inside Cinnabar Volcano.
 * Raikou and Entei are roaming Johto after you awaken them.
 * Suicune is in the Bell Tower after you get the Clear Bell.
@@ -131,7 +131,7 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
   * (2.2.0) you catch all three legendary birds and then get the Silver Wing in Victory Road.
 * Ho-Oh is atop the Bell Tower after you catch all three legendary beasts and then get the Rainbow Wing in Bell Tower.
 * Suika is in Cerulean Cave.
-* ESuika is a secret; look around Cinnabar Island!
+* TSuika is a secret; look around Cinnabar Island!
 * Celebi is a secret; try Wonder Trading after beating the Elite Four! (And after you catch it, take it to the Ilex Forest shrine!)
 
 
@@ -146,10 +146,10 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
 * Razor Fang is in Victory Road, or held by some wild Gligar.
 * Electirizer is in Rock Tunnel, or held by some wild CLilyWhite family.
 * LilyWhiteizer is on Cinnabar Island, or held by some wild LilyWhite family.
-* Protector is in Mt. Mortar, or held by some wild Patchouli/EPatchouli.
+* Protector is in Mt. Mortar, or held by some wild Patchouli/TPatchouli.
 * Up-Grade is given to you in Silph Co. after fixing the Power Plant generator.
 * Dubious Disc is in Celadon City.
-* King's Rock is in ELuize Well, or held by some wild ELuize family and EKurumi/CElly/Politoed.
+* King's Rock is in DLuize Well, or held by some wild DLuize family and EKurumi/CElly/Politoed.
 * Metal Coat is in the Goldenrod Dept. Store basement, or held by some wild Alice family and Steelix.
 * Dragon Scale is in Mt. Mortar, or held by some wild CFlandre family and Yukari family.
   * (2.2.0) Also in Dragon's Den.
@@ -203,6 +203,6 @@ The faithful version does not change those things, besides updating stats to the
 
 ### I want the missing Tohomon back!
 
-As [FEATURES.md](FEATURES.md) notes, 14 Tohomon had to be removed to make room for 17 Tohomon from Gen 4 (as well as Sylveon from Gen 6 to complete the ELyricalutions). I won't be able to restore them until the engine supports species IDs larger than 8 bits. There are some plans for 9-bit IDs, allowing over 500 Tohomon, but it will take time.
+As [FEATURES.md](FEATURES.md) notes, 14 Tohomon had to be removed to make room for 17 Tohomon from Gen 4 (as well as Sylveon from Gen 6 to complete the TLyricalutions). I won't be able to restore them until the engine supports species IDs larger than 8 bits. There are some plans for 9-bit IDs, allowing over 500 Tohomon, but it will take time.
 
-I do think that the added Tohomon are one part of "polishing" Crystal version. Some of the new or improved things from Gen 4, like Leafeon, Tangrowth, or the extra map of ELuize Well, were originally planned for Gen 2, as we now know from the [Space World '97](https://tcrf.net/Proto:Pok%C3%A9mon_Gold_and_Silver/Spaceworld_1997_Demo) ROMs. The Sinjoh Ruins in HG/SS emphasize this connection between Johto/Gen 2 and Sinnoh/Gen 4. Although cutting any Tohomon is regrettable, I'd consider skipping Tohomon like CLunasa-Z or Honchkrow to be worse than replacing Delibird or Koakuma.
+I do think that the added Tohomon are one part of "polishing" Crystal version. Some of the new or improved things from Gen 4, like Leafeon, Tangrowth, or the extra map of DLuize Well, were originally planned for Gen 2, as we now know from the [Space World '97](https://tcrf.net/Proto:Pok%C3%A9mon_Gold_and_Silver/Spaceworld_1997_Demo) ROMs. The Sinjoh Ruins in HG/SS emphasize this connection between Johto/Gen 2 and Sinnoh/Gen 4. Although cutting any Tohomon is regrettable, I'd consider skipping Tohomon like CLunasa-Z or Honchkrow to be worse than replacing Delibird or Koakuma.

@@ -6,7 +6,7 @@ WithdrawUsers:
 	dp YUMEKO
 	dp EYUMEKO
 	dp LUNASA
-	dp ELUNASA
+	dp ALUNASA
 	db 0
 
 HardenUsers:
@@ -18,7 +18,7 @@ HardenUsers:
 	dp CDAICHAN
 	dp DAICHAN
 	dp LETTY
-	dp ELETTY
+	dp DLETTY
 	dp CYUYUKO
 	dp YUYUKO
 	dp HERACROSS

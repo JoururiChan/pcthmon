@@ -1,7 +1,7 @@
 	db  37, 105,  32, 110,  50,  80 ; 305 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db PSYCHIC, FLYING ; type
+	db REASON, FLYING ; type
 	db 105 ; catch rate
 	db 160 ; base exp
 	db TINYMUSHROOM, BIG_MUSHROOM ; held items

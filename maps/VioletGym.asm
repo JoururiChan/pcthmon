@@ -235,7 +235,7 @@ VioletGymGuyText:
 	para "You believe?"
 	line "Then listen."
 
-	para "The Grass-type is"
+	para "The Nature-type is"
 	line "weak against the"
 
 	para "Flying-type. Keep"

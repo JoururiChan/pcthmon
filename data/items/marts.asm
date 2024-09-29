@@ -6,7 +6,7 @@ Marts:
 	dw AzaleaMart
 	dw Goldenrod2FMart1
 	dw Goldenrod2FMart2
-	dw Goldenrod2FMart2ELyrica
+	dw Goldenrod2FMart2TLyrica
 	dw Goldenrod3FMart
 	dw Goldenrod4FMart
 	dw Goldenrod5FTMMart
@@ -120,7 +120,7 @@ Goldenrod2FMart2:
 	db MORPH_MAIL
 	db -1
 
-Goldenrod2FMart2ELyrica:
+Goldenrod2FMart2TLyrica:
 	db 11 ; # items
 	db POKE_BALL
 	db GREAT_BALL

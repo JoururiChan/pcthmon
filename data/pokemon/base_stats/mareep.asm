@@ -1,7 +1,7 @@
 	db  55,  40,  40,  35,  65,  45 ; 280 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ELECTRIC, ELECTRIC ; type
+	db WIND, WIND ; type
 	db 235 ; catch rate
 	db 59 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

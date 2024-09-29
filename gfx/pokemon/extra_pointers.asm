@@ -2,164 +2,141 @@ AnimationExtraPointers:
 	table_width 2, AnimationExtraPointers
 	dw CReimuAnimationExtra
 	dw ReimuAnimationExtra
-	dw EReimuAnimationExtra
+	dw TReimuAnimationExtra
 	dw CMarisaAnimationExtra
 	dw MarisaAnimationExtra
-	dw EMarisaAnimationExtra
+	dw AMarisaAnimationExtra
 	dw CSakuyaAnimationExtra
 	dw SakuyaAnimationExtra
-	dw ESakuyaAnimationExtra
+	dw HSakuyaAnimationExtra
 	dw CGyokuAnimationExtra
 	dw MGyokuAnimationExtra
 	dw FGyokuAnimationExtra
 	dw OGyokuAnimationExtra
 	dw CMaganAnimationExtra
 	dw MaganAnimationExtra
-	dw EMaganAnimationExtra
 	dw CMimaAnimationExtra
 	dw MimaAnimationExtra
-	dw EMimaAnimationExtra
-	dw CElisPlainAnimationExtra
+	dw CElisAnimationExtra
 	dw ElisAnimationExtra
-	dw EElisAnimationExtra
 	dw CKikuriAnimationExtra
 	dw KikuriJohtoAnimationExtra
-	dw EKikuriPlainAnimationExtra
-	dw CSarielPlainAnimationExtra
-	dw SarielPlainAnimationExtra
-	dw ESarielPlainAnimationExtra
+	dw CSarielAnimationExtra
+	dw SarielAnimationExtra
 	dw CKongaraAnimationExtra
 	dw KongaraAnimationExtra
-	dw EKongaraAnimationExtra
 	dw CRikaAnimationExtra
 	dw RikaAnimationExtra
-	dw ERikaAnimationExtra
+	dw ARikaAnimationExtra
 	dw CMeiraAnimationExtra
 	dw MeiraAnimationExtra
-	dw EMeiraPlainAnimationExtra
-	dw CEllenPlainAnimationExtra
+	dw CEllenAnimationExtra
 	dw EllenAnimationExtra
-	dw EEllenAnimationExtra
 	dw CKotohimeAnimationExtra
 	dw KotohimeAnimationExtra
-	dw EKotohimeAnimationExtra
 	dw CKanaAnimationExtra
 	dw KanaAnimationExtra
-	dw EKanaAnimationExtra
 	dw CRikakoAnimationExtra
 	dw RikakoAnimationExtra
-	dw ERikakoAnimationExtra
-	dw CChiyuriPlainAnimationExtra
-	dw ChiyuriPlainAnimationExtra
-	dw EChiyuriPlainAnimationExtra
-	dw CYumemiPlainAnimationExtra
+	dw CChiyuriAnimationExtra
+	dw ChiyuriAnimationExtra
+	dw CYumemiAnimationExtra
 	dw YumemiAnimationExtra
-	dw EYumemiAnimationExtra
 	dw COrangeAnimationExtra
 	dw OrangeAnimationExtra
-	dw EOrangePlainAnimationExtra
-	dw CKurumiPlainAnimationExtra
+	dw CKurumiAnimationExtra
 	dw KurumiAnimationExtra
-	dw EKurumiAnimationExtra
 	dw CEllyAnimationExtra
 	dw EllyAnimationExtra
-	dw EEllyAnimationExtra
 	dw CYukaAnimationExtra
 	dw YukaAnimationExtra
-	dw EYukaAnimationExtra
+	dw AYukaAnimationExtra
 	dw CMugetsuAnimationExtra
 	dw MugetsuAnimationExtra
-	dw EMugetsuAnimationExtra
 	dw CGengetsuAnimationExtra
 	dw GengetsuAnimationExtra
-	dw EGengetsuAnimationExtra
-	dw CSaraPlainAnimationExtra
-	dw SaraPlainAnimationExtra
-	dw ESaraPlainAnimationExtra
-	dw CLuizePlainAnimationExtra
-	dw LuizePlainAnimationExtra
-	dw ELuizePlainAnimationExtra
-	dw CAlicePlainAnimationExtra
+	dw CSaraAnimationExtra
+	dw SaraAnimationExtra
+	dw CLuizeAnimationExtra
+	dw LuizeAnimationExtra
+	dw DLuizeAnimationExtra
+	dw CAliceAnimationExtra
 	dw AliceAnimationExtra
-	dw EAliceAnimationExtra
-	dw CMaiPlainAnimationExtra
+	dw AAliceAnimationExtra
+	dw CMaiAnimationExtra
 	dw MaiAnimationExtra
-	dw EMaiAnimationExtra
 	dw CYukiAnimationExtra
 	dw YukiAnimationExtra
-	dw EYukiPlainAnimationExtra
-	dw CYumekoPlainAnimationExtra
+	dw CYumekoAnimationExtra
 	dw YumekoAnimationExtra
-	dw EYumekoAnimationExtra
 	dw CShinkiAnimationExtra
 	dw ShinkiAnimationExtra
-	dw EShinkiAnimationExtra
 	dw CRumiaAnimationExtra
 	dw RumiaAnimationExtra
-	dw ERumiaAnimationExtra
+	dw ARumiaAnimationExtra
 	dw CDaichanAnimationExtra
 	dw DaichanAnimationExtra
-	dw EDaichanPlainAnimationExtra
-	dw CCirnoPlainAnimationExtra
+	dw DDaichanAnimationExtra
+	dw CCirnoAnimationExtra
 	dw CirnoAnimationExtra
-	dw ECirnoPlainAnimationExtra
+	dw SCirnoAnimationExtra
 	dw CMeilingAnimationExtra
-	dw MeilingPlainAnimationExtra
-	dw EMeilingAnimationExtra
+	dw MeilingAnimationExtra
+	dw AMeilingAnimationExtra
 	dw CKoakumaAnimationExtra
 	dw KoakumaAnimationExtra
-	dw EKoakumaAnimationExtra
-	dw CPatchouliPlainAnimationExtra
+	dw HKoakumaAnimationExtra
+	dw CPatchouliAnimationExtra
 	dw PatchouliAnimationExtra
-	dw EPatchouliAnimationExtra
+	dw TPatchouliAnimationExtra
 	dw CRemiliaAnimationExtra
 	dw RemiliaAnimationExtra
-	dw ERemiliaAnimationExtra
+	dw SRemiliaAnimationExtra
 	dw CFlandreAnimationExtra
 	dw FlandreAnimationExtra
-	dw EFlandreAnimationExtra
+	dw AFlandreAnimationExtra
 	dw CLettyAnimationExtra
 	dw LettyAnimationExtra
-	dw ELettyAnimationExtra
-	dw MrMimePlainAnimationExtra
+	dw DLettyAnimationExtra
+	dw MrMimeAnimationExtra
 	dw ChenAnimationExtra
-	dw EChenAnimationExtra
+	dw HChenAnimationExtra
 	dw CLilyWhiteAnimationExtra
 	dw LilyWhiteAnimationExtra
 	dw ELilyWhiteAnimationExtra
-	dw CLilyBlackPlainAnimationExtra
-	dw LilyBlackPlainAnimationExtra
-	dw ELilyBlackPlainAnimationExtra
+	dw CLilyBlackAnimationExtra
+	dw LilyBlackAnimationExtra
+	dw ELilyBlackAnimationExtra
 	dw CLyricaAnimationExtra
 	dw LyricaAnimationExtra
-	dw ELyricaAnimationExtra
+	dw TLyricaAnimationExtra
 	dw CMerlinAnimationExtra
 	dw MerlinAnimationExtra
-	dw EMerlinAnimationExtra
+	dw SMerlinAnimationExtra
 	dw CLunasaAnimationExtra
 	dw LunasaAnimationExtra
-	dw ELunasaAnimationExtra
+	dw ALunasaAnimationExtra
 	dw CYuyukoAnimationExtra
 	dw YuyukoAnimationExtra
-	dw EYuyukoAnimationExtra
+	dw AYuyukoAnimationExtra
 	dw CRanAnimationExtra
-	dw RanPlainAnimationExtra
-	dw ERanPlainAnimationExtra
-	dw CYukariPlainAnimationExtra
+	dw RanAnimationExtra
+	dw TRanAnimationExtra
+	dw CYukariAnimationExtra
 	dw YukariAnimationExtra
-	dw EYukariAnimationExtra
+	dw TYukariAnimationExtra
 	dw CSuikaAnimationExtra
-	dw SuikaPlainAnimationExtra
-	dw ESuikaAnimationExtra
+	dw SuikaAnimationExtra
+	dw TSuikaAnimationExtra
 	dw CYoumuAnimationExtra
 	dw YoumuAnimationExtra
-	dw EYoumuAnimationExtra
+	dw SYoumuAnimationExtra
 	dw CReisenAnimationExtra
 	dw ReisenAnimationExtra
-	dw EReisenPlainAnimationExtra
+	dw TReisenAnimationExtra
 	dw CSanaeAnimationExtra
 	dw SanaeAnimationExtra
-	dw ESanaeAnimationExtra
+	dw DSanaeAnimationExtra
 	dw SentretAnimationExtra
 	dw FurretAnimationExtra
 	dw HoothootAnimationExtra
@@ -171,7 +148,7 @@ AnimationExtraPointers:
 	dw CrobatAnimationExtra
 	dw ChinchouAnimationExtra
 	dw LanturnAnimationExtra
-	dw PichuPlainAnimationExtra
+	dw PichuAnimationExtra
 	dw CleffaAnimationExtra
 	dw IgglybuffAnimationExtra
 	dw TogepiAnimationExtra
@@ -193,12 +170,12 @@ AnimationExtraPointers:
 	dw SunkernAnimationExtra
 	dw SunfloraAnimationExtra
 	dw YanmaAnimationExtra
-	dw WooperPlainAnimationExtra
+	dw WooperAnimationExtra
 	dw QuagsireAnimationExtra
 	dw EspeonAnimationExtra
 	dw UmbreonAnimationExtra
 	dw MurkrowAnimationExtra
-	dw SlowkingPlainAnimationExtra
+	dw SlowkingAnimationExtra
 	dw MisdreavusAnimationExtra
 	dw UnownAAnimationExtra
 	dw WobbuffetAnimationExtra
@@ -210,18 +187,18 @@ AnimationExtraPointers:
 	dw SteelixAnimationExtra
 	dw SnubbullAnimationExtra
 	dw GranbullAnimationExtra
-	dw QwilfishPlainAnimationExtra
+	dw QwilfishAnimationExtra
 	dw ScizorAnimationExtra
 	dw ShuckleAnimationExtra
 	dw HeracrossAnimationExtra
-	dw SneaselPlainAnimationExtra
+	dw SneaselAnimationExtra
 	dw TeddiursaAnimationExtra
 	dw UrsaringAnimationExtra
 	dw SlugmaAnimationExtra
 	dw MagcargoAnimationExtra
 	dw SwinubAnimationExtra
 	dw PiloswineAnimationExtra
-	dw CorsolaPlainAnimationExtra
+	dw CorsolaAnimationExtra
 	dw RemoraidAnimationExtra
 	dw OctilleryAnimationExtra
 	dw DelibirdAnimationExtra
@@ -326,11 +303,6 @@ AnimationExtraPointers:
 	dw KikuriAgathaAnimationExtra
 	dw KikuriArianaAnimationExtra
 
-	dw EKikuriFlyAnimationExtra
-	dw EKikuriSurfAnimationExtra
-	dw EKikuriPikaAnimationExtra
-	dw EKikuriChuchuAnimationExtra
-	dw EKikuriSparkAnimationExtra
 
 	dw PichuSpikyAnimationExtra
 
@@ -361,51 +333,5 @@ AnimationExtraPointers:
 	dw SuikaArmoredAnimationExtra
 
 	dw DudunsparceThreeSegmentAnimationExtra
-
-	dw EMimaAlolanAnimationExtra
-	dw CElisAlolanAnimationExtra
-	dw CSarielAlolanAnimationExtra
-	dw SarielAlolanAnimationExtra
-	dw ESarielAlolanAnimationExtra
-	dw EMeiraAlolanAnimationExtra
-	dw CEllenAlolanAnimationExtra
-	dw CChiyuriAlolanAnimationExtra
-	dw ChiyuriAlolanAnimationExtra
-	dw EChiyuriAlolanAnimationExtra
-	dw CYumemiAlolanAnimationExtra
-	dw CSaraAlolanAnimationExtra
-	dw SaraAlolanAnimationExtra
-	dw ESaraAlolanAnimationExtra
-	dw EYukiAlolanAnimationExtra
-	dw CYumekoAlolanAnimationExtra
-	dw ECirnoAlolanAnimationExtra
-	dw MeilingAlolanAnimationExtra
-
-	dw EChiyuriGalarianAnimationExtra
-	dw CLuizeGalarianAnimationExtra
-	dw LuizeGalarianAnimationExtra
-	dw ELuizeGalarianAnimationExtra
-	dw CAliceGalarianAnimationExtra
-	dw CMaiGalarianAnimationExtra
-	dw CPatchouliGalarianAnimationExtra
-	dw MrMimeGalarianAnimationExtra
-	dw RanGalarianAnimationExtra
-	dw ERanGalarianAnimationExtra
-	dw CYukariGalarianAnimationExtra
-	dw SlowkingGalarianAnimationExtra
-	dw CorsolaGalarianAnimationExtra
-
-	dw EOrangeHisuianAnimationExtra
-	dw CKurumiHisuianAnimationExtra
-	dw EDaichanHisuianAnimationExtra
-	dw CCirnoHisuianAnimationExtra
-	dw EReisenHisuianAnimationExtra
-	dw QwilfishHisuianAnimationExtra
-	dw SneaselHisuianAnimationExtra
-
-	dw WooperPaldeanAnimationExtra
-	dw CLilyBlackPaldeanAnimationExtra
-	dw CLilyBlackPaldeanFireAnimationExtra
-	dw CLilyBlackPaldeanWaterAnimationExtra
 
 	assert_table_length NUM_UNIQUE_POKEMON

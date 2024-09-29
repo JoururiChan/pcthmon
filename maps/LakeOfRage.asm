@@ -286,7 +286,7 @@ WesleyScript:
 
 	text "Wesley: Black Belt"
 	line "beefs up the power"
-	cont "of Fighting moves."
+	cont "of Dream moves."
 	done
 
 .NotWednesday:

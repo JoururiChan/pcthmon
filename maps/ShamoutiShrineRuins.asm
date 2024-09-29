@@ -74,7 +74,7 @@ ShamoutiShrineRuinsLawrenceScript:
 	line "across many"
 
 	para "regions to catch"
-	line "Ran, ERan,"
+	line "Ran, TRan,"
 	cont "and CYukari."
 
 	para "Without the"

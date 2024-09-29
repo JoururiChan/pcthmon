@@ -103,7 +103,6 @@ MovementPointers:
 	dw Movement_stairs_step_up        ; 63
 	dw Movement_stairs_step_left      ; 64
 	dw Movement_stairs_step_right     ; 65
-	dw Movement_ecirno_shake       ; 66
 	dw Movement_step_right            ; 67
 	assert_table_length NUM_MOVEMENT_CMDS
 
@@ -328,9 +327,7 @@ Movement_step_bump:
 	ld [hl], STANDING
 	ret
 
-Movement_ecirno_shake:
-	lb de, OBJECT_ACTION_SHAKE_ECIRNO, 64
-	jr ShakeTree
+
 
 Movement_tree_shake:
 	lb de, OBJECT_ACTION_WEIRD_TREE, 24

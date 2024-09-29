@@ -2,9 +2,9 @@
 	;   hp  atk  def  spe  sat  sdf
 
 if DEF(FAITHFUL)
-	db NORMAL, NORMAL ; type
+	db ILLUSION, ILLUSION ; type
 else
-	db NORMAL, DRAGON ; type
+	db ILLUSION, FAITH ; type
 endc
 	db 45 ; catch rate
 	db 115 ; base exp

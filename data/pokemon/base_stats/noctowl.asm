@@ -7,7 +7,7 @@ else
 endc
 
 if DEF(FAITHFUL)
-	db NORMAL, FLYING ; type
+	db ILLUSION, FLYING ; type
 	db 90 ; catch rate
 else
 	db GHOST, FLYING ; type

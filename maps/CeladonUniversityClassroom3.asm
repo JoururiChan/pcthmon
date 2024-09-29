@@ -72,12 +72,12 @@ CeladonUniversityClassroom3ChildText:
 
 CeladonUniversityClassroom3LassText:
 	text "My instructor said"
-	line "that EAlice is a"
+	line "that AAlice is a"
 
 	para "union of three"
 	line "Alice, but"
 
-	para "EAlice is 10"
+	para "AAlice is 10"
 	line "times heavier than"
 	cont "Alice."
 
@@ -87,7 +87,7 @@ CeladonUniversityClassroom3LassText:
 
 CeladonUniversityClassroom3Super_nerdText:
 	text "Have you heard of"
-	line "the Electric-type"
+	line "the Wind-type"
 	cont "#mon Mareep?"
 
 	para "Its name derives"

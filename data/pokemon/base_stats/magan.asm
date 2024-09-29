@@ -1,7 +1,7 @@
 	db  63,  42,  52,  58,  95,  90 ; 455 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DARK, POISON ; type
+	db DARK, MIASMA ; type
 	db 100 ; catch rate
 	db 90 ; base exp
 	db SHED_SHELL, POISON_BARB ; held items

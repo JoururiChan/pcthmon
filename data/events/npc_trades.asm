@@ -11,7 +11,7 @@ NPCTrades:
 ; NPC_TRADE_KYLE in Violet City
 	db TRADE_DIALOGSET_COLLECTOR
 	dp KURUMI, NO_FORM ; wants
-	dp EDAICHAN, MALE    ; gives
+	dp DDAICHAN, MALE    ; gives
 	rawchar "Mimic@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_DEF_DOWN,   PREMIER_BALL, PERSIM_BERRY
 	dw 48926
@@ -19,14 +19,14 @@ NPCTrades:
 ; NPC_TRADE_TIM in Olivine City
 	db TRADE_DIALOGSET_HAPPY
 	dp STEELIX, NO_FORM ; wants
-	dp EREMILIA, MALE ; gives
+	dp SREMILIA, MALE ; gives
 	rawchar "Joey@@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_ATK_UP_SPE_DOWN,   HEAVY_BALL,   SILK_SCARF
 	dw 29189
 	rawchar "Tim@@@@@", $00
 ; NPC_TRADE_EMY in Blackthorn City
 	db TRADE_DIALOGSET_GIRL
-	dp ECHEN, NO_FORM    ; wants
+	dp HCHEN, NO_FORM    ; wants
 	dp CCHEN, FEMALE ; gives
 	rawchar "Doris@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_ATK_DOWN,   LOVE_BALL,    PINK_BOW
@@ -67,7 +67,7 @@ NPCTrades:
 ; NPC_TRADE_JEEVES
 	db TRADE_DIALOGSET_COLLECTOR
 	dp CLUIZE, NO_FORM               ; wants
-	dp CPATCHOULI, GALARIAN_FORM | MALE ; gives
+	dp CPATCHOULI, MALE ; gives
 	rawchar "Batty@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_DEF_UP_ATK_DOWN,   DREAM_BALL,   CHARCOAL
 	dw 08922

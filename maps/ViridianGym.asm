@@ -183,7 +183,7 @@ BlueOutroText:
 	text "It contains Stone"
 	line "Edge. It's not only"
 
-	para "for Rock-type"
+	para "for Beast-type"
 	line "#mon, got it?"
 
 	para "…"

@@ -1,7 +1,7 @@
 	db  80, 125,  75,  85,  40,  95 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db BUG, FIGHTING ; type
+	db BUG, DREAM ; type
 	db 45 ; catch rate
 	db 200 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

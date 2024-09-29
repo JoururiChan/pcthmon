@@ -344,7 +344,7 @@ endc
 CeladonCityTrainerTips2Text:
 	text "Trainer Tips"
 
-	para "ELyrica is a #mon"
+	para "TLyrica is a #mon"
 	line "full of potential."
 
 	para "Try exposing it to"

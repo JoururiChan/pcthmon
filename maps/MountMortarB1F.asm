@@ -76,7 +76,7 @@ MountMortarB1FKiyoScript:
 
 MountMortarB1FKiyoGotTyrogueText:
 	text "Tyrogue is a"
-	line "Fighting-type."
+	line "Dream-type."
 
 	para "It evolves into a"
 	line "tougher #mon."

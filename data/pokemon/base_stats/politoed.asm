@@ -9,7 +9,7 @@ endc
 if DEF(FAITHFUL)
 	db WATER, WATER ; type
 else
-	db WATER, GRASS ; type
+	db WATER, NATURE ; type
 endc
 	db 45 ; catch rate
 	db 185 ; base exp

@@ -540,7 +540,7 @@ GetOpponentAbilityAfterMoldBreaker::
 
 ; These routines return z if the user is of the given type
 CheckIfTargetIsGrassType::
-	ld a, GRASS
+	ld a, NATURE
 	jr CheckIfTargetIsSomeType
 CheckIfTargetIsIceType::
 	ld a, ICE
@@ -558,16 +558,16 @@ CheckIfUserIsFlyingType::
 	ld a, FLYING
 	jr CheckIfUserIsSomeType
 CheckIfUserIsPoisonType::
-	ld a, POISON
+	ld a, MIASMA
 	jr CheckIfUserIsSomeType
 CheckIfUserIsGhostType::
 	ld a, GHOST
 	jr CheckIfUserIsSomeType
-CheckIfUserIsGroundType::
-	ld a, GROUND
+CheckIfUserIsEarthType::
+	ld a, EARTH
 	jr CheckIfUserIsSomeType
 CheckIfUserIsRockType::
-	ld a, ROCK
+	ld a, BEAST
 	jr CheckIfUserIsSomeType
 CheckIfUserIsSteelType::
 	ld a, STEEL

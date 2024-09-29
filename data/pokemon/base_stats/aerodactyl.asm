@@ -1,13 +1,13 @@
 	db  80, 105,  65, 130,  60,  75 ; 515 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ROCK, FLYING ; type
+	db BEAST, FLYING ; type
 	db 45 ; catch rate
 	db 202 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F12_5, HATCH_SLOWER ; gender ratio, step cycles to hatch
 
-	abilities_for EYUYUKO, ROCK_HEAD, UNNERVE, TOUGH_CLAWS
+	abilities_for AYUYUKO, ROCK_HEAD, UNNERVE, TOUGH_CLAWS
 	db GROWTH_SLOW ; growth rate
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 

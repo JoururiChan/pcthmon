@@ -2,9 +2,9 @@
 	;   hp  atk  def  spe  sat  sdf
 
 if DEF(FAITHFUL)
-	db PSYCHIC, GRASS ; type
+	db REASON, NATURE ; type
 else
-	db GRASS, FAIRY ; type
+	db NATURE, HEART ; type
 endc
 	db 45 ; catch rate
 	db 64 ; base exp

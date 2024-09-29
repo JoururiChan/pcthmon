@@ -18,8 +18,8 @@ ReimuTohodexEntry::
 	next "ger towards it for"
 	next "being a slacker.@"
 
-SECTION "EReimuTohodexEntry", ROMX
-EReimuTohodexEntry::
+SECTION "TReimuTohodexEntry", ROMX
+TReimuTohodexEntry::
 	db "Miko@"
 	db   "Despite still not"
 	next "tending to the"
@@ -48,8 +48,8 @@ MarisaTohodexEntry::
 	next "magic ideas and"
 	next "using them.@"
 
-SECTION "EMarisaTohodexEntry", ROMX
-EMarisaTohodexEntry::
+SECTION "AMarisaTohodexEntry", ROMX
+AMarisaTohodexEntry::
 	db "Sorcery@"
 	db   "While it's power"
 	next "spread is limited,"
@@ -78,8 +78,8 @@ SakuyaTohodexEntry::
 	next "of maid to"
 	next "benefit Remilia.@"
 
-SECTION "ESakuyaTohodexEntry", ROMX
-ESakuyaTohodexEntry::
+SECTION "HSakuyaTohodexEntry", ROMX
+HSakuyaTohodexEntry::
 	db "Time@"
 	db   "Not only is it"
 	next "quick-witted, "
@@ -148,16 +148,6 @@ MaganTohodexEntry::
 	next "remaining four"
 	next "eyes.@"
 
-SECTION "EMaganTohodexEntry", ROMX
-EMaganTohodexEntry::
-	db "Completion@"
-	db   "The five eyes"
-	next "managed to obtain"
-	next "enough power to"
-	page "bring the missing"
-	next "figure back into"
-	next "presence.@"
-
 SECTION "CMimaTohodexEntry", ROMX
 CMimaTohodexEntry::
 	db "Tiny Spirit@"
@@ -166,7 +156,7 @@ CMimaTohodexEntry::
 	next "Marisa #mon,"
 	page "some CMima even"
 	next "able to command"
-	next "EMarisa.@"
+	next "AMarisa.@"
 
 SECTION "MimaTohodexEntry", ROMX
 MimaTohodexEntry::
@@ -178,18 +168,8 @@ MimaTohodexEntry::
 	next "being a spirit of"
 	next "vengeance.@"
 
-SECTION "EMimaTohodexEntry", ROMX
-EMimaTohodexEntry::
-	db "Evil Spirit@"
-	db   "These #mon are"
-	next "supreme nuisances"
-	next "to Reimu #mon"
-	page "for reasons even"
-	next "scientists haven't"
-	next "found out yet.@"
-
-SECTION "CElisPlainTohodexEntry", ROMX
-CElisPlainTohodexEntry::
+SECTION "CElisTohodexEntry", ROMX
+CElisTohodexEntry::
 	db "Tiny Devil@"
 	db   "Despite it's"
 	next "cutesy appearance,"
@@ -207,16 +187,6 @@ ElisTohodexEntry::
 	page "as it is unable to"
 	next "suck blood from"
 	next "opponents.@"
-
-SECTION "EElisTohodexEntry", ROMX
-EElisTohodexEntry::
-	db "Devil@"
-	db   "It's dark magic"
-	next "has become highly"
-	next "profound as a re-"
-	page "sult of worldgo-"
-	next "ers unable to"
-	next "stop Elis #mon.@"
 
 SECTION "CKikuriTohodexEntry", ROMX
 CKikuriTohodexEntry::
@@ -238,18 +208,8 @@ KikuriTohodexEntry::
 	next "be sealed away"
 	next "into CKikuri.@"
 
-SECTION "EKikuriTohodexEntry", ROMX
-EKikuriTohodexEntry::
-	db "Sorcery@"
-	db   "At this time, it"
-	next "exists to serve"
-	next "Sariel #mon. The"
-	page "disc is now a thing"
-	next "of the past at this"
-	next "point in time.@"
-
-SECTION "CSarielPlainTohodexEntry", ROMX
-CSarielPlainTohodexEntry::
+SECTION "CSarielTohodexEntry", ROMX
+CSarielTohodexEntry::
 	db "Angel@"
 	db   "They are the low-"
 	next "est class underlings"
@@ -258,8 +218,8 @@ CSarielPlainTohodexEntry::
 	next "as angelic as they"
 	next "look.@"
 
-SECTION "SarielPlainTohodexEntry", ROMX
-SarielPlainTohodexEntry::
+SECTION "SarielTohodexEntry", ROMX
+SarielTohodexEntry::
 	db "Angel@"
 	db   "The original Sariel"
 	next "was a human warrior"
@@ -267,16 +227,6 @@ SarielPlainTohodexEntry::
 	page "Rocket protecting"
 	next "the entirety of"
 	next "all #mon.@"
-
-SECTION "ESarielPlainTohodexEntry", ROMX
-ESarielPlainTohodexEntry::
-	db "Hero@"
-	db   "It's anger towards"
-	next "evil became so su-"
-	next "preme, the shrine"
-	page "the original died"
-	next "at had succumbed"
-	next "to destruction.@"
 
 SECTION "CKongaraTohodexEntry", ROMX
 CKongaraTohodexEntry::
@@ -298,16 +248,6 @@ KongaraTohodexEntry::
 	next "yone that invades"
 	next "it's territory.@"
 
-SECTION "EKongaraTohodexEntry", ROMX
-EKongaraTohodexEntry::
-	db "Mountain Deva@"
-	db   "Even despite it's"
-	next "past connections,"
-	next "a popular theory is"
-	page "that it is one of"
-	next "the Four Mountain"
-	next "Devas.@"
-
 SECTION "CRikaTohodexEntry", ROMX
 CRikaTohodexEntry::
 	db "Turret@"
@@ -328,8 +268,8 @@ RikaTohodexEntry::
 	next "able to make organ-"
 	next "ic creations.@"
 
-SECTION "ERikaTohodexEntry", ROMX
-ERikaTohodexEntry::
+SECTION "ARikaTohodexEntry", ROMX
+ARikaTohodexEntry::
 	db "Hakutaku@"
 	db   "The hidden form of"
 	next "Rika #mon. Just like"
@@ -358,18 +298,8 @@ MeiraTohodexEntry::
 	next "ions are not the"
 	next "purest.@"
 
-SECTION "EMeiraPlainTohodexEntry", ROMX
-EMeiraPlainTohodexEntry::
-	db "Samurai@"
-	db   "If a kind of power"
-	next "lacks any historical"
-	next "value, it won't find"
-	page "it worth harnessing."
-	next "This #mon is a very"
-	next "bold #mon.@"
-
-SECTION "CEllenPlainTohodexEntry", ROMX
-CEllenPlainTohodexEntry::
+SECTION "CEllenTohodexEntry", ROMX
+CEllenTohodexEntry::
 	db "Youthful@"
 	db   "These #mon are"
 	next "known to never look"
@@ -387,16 +317,6 @@ EllenTohodexEntry::
 	page "However, they"
 	next "cannot upkeep with"
 	next "their prowess.@"
-
-SECTION "EEllenTohodexEntry", ROMX
-EEllenTohodexEntry::
-	db "Sorcery@"
-	db   "Their knowledge is"
-	next "so advanced that"
-	next "as #mon, they"
-	page "have become famous"
-	next "for opening up"
-	next "antique shops.@"
 
 SECTION "CKotohimeTohodexEntry", ROMX
 CKotohimeTohodexEntry::
@@ -418,16 +338,6 @@ KotohimeTohodexEntry::
 	next "to become a"
 	next "police officer.@"
 
-SECTION "EKotohimeTohodexEntry", ROMX
-EKotohimeTohodexEntry::
-	db "Hardworker@"
-	db   "It is now both a"
-	next "princess and part"
-	next "of the police."
-	page "No one usually"
-	next "takes them"
-	next "seriously though.@"
-
 SECTION "CKanaTohodexEntry", ROMX
 CKanaTohodexEntry::
 	db "Tiny Ghost@"
@@ -447,16 +357,6 @@ KanaTohodexEntry::
 	page "poltergeist"
 	next "#mon due to"
 	next "similar history.@"
-
-SECTION "EKanaTohodexEntry", ROMX
-EKanaTohodexEntry::
-	db "Poltergeist@"
-	db   "Though not as"
-	next "adept at music,"
-	next "it is very good"
-	page "at inducing fear"
-	next "on those it chooses"
-	next "to do so on.@"
 
 SECTION "CRikakoTohodexEntry", ROMX
 CRikakoTohodexEntry::
@@ -478,18 +378,8 @@ RikakoTohodexEntry::
 	next "and relies on"
 	next "inventions.@"
 
-SECTION "ERikakoTohodexEntry", ROMX
-ERikakoTohodexEntry::
-	db "Science@"
-	db   "A tale says that"
-	next "this #mon had"
-	next "made the first"
-	page "ever Ruukoto and"
-	next "Mimi-chan #mon"
-	next "come to exist.@"
-
-SECTION "CChiyuriPlainTohodexEntry", ROMX
-CChiyuriPlainTohodexEntry::
+SECTION "CChiyuriTohodexEntry", ROMX
+CChiyuriTohodexEntry::
 	db "Sailor@"
 	db   "It is almost"
 	next "as powerful as"
@@ -498,8 +388,8 @@ CChiyuriPlainTohodexEntry::
 	next "only similarities"
 	next "are their species.@"
 
-SECTION "ChiyuriPlainTohodexEntry", ROMX
-ChiyuriPlainTohodexEntry::
+SECTION "ChiyuriTohodexEntry", ROMX
+ChiyuriTohodexEntry::
 	db "Sailor@"
 	db   "Servants to all"
 	next "Yumemi #mon,"
@@ -508,18 +398,8 @@ ChiyuriPlainTohodexEntry::
 	next "ments and weapons"
 	next "for guarding.@"
 
-SECTION "EChiyuriPlainTohodexEntry", ROMX
-EChiyuriPlainTohodexEntry::
-	db "Time Sailor@"
-	db   "Being Sailors of"
-	next "Time, these #mon"
-	next "often engage in"
-	page "rivalrous combat"
-	next "with all Sakuya"
-	next "#mon.@"
-
-SECTION "CYumemiPlainTohodexEntry", ROMX
-CYumemiPlainTohodexEntry::
+SECTION "CYumemiTohodexEntry", ROMX
+CYumemiTohodexEntry::
 	db "Science@"
 	db   "These #mon are"
 	next "popular fan fav-"
@@ -537,16 +417,6 @@ YumemiTohodexEntry::
 	page "thing colored red"
 	next "is highly associa-"
 	next "ted with them.@"
-
-SECTION "EYumemiTohodexEntry", ROMX
-EYumemiTohodexEntry::
-	db "Strawberry@"
-	db   "When someone thinks"
-	next "of the Ichigo Cross"
-	next "move, typically it"
-	page "is EYumemi that"
-	next "first come to the-"
-	next "ir mind.@"
 
 SECTION "COrangeTohodexEntry", ROMX
 COrangeTohodexEntry::
@@ -568,16 +438,6 @@ OrangeTohodexEntry::
 	next "they can easily"
 	next "serve as decoys.@"
 
-SECTION "EOrangeTohodexEntry", ROMX
-EOrangeTohodexEntry::
-	db "Gate Keeper@"
-	db   "Extensive training"
-	next "via Meiling #mon"
-	next "has enabled it"
-	page "to serve effect-"
-	next "ively as a Gate"
-	next "Keeper #mon.@"
-
 SECTION "CKurumiTohodexEntry", ROMX
 CKurumiTohodexEntry::
 	db "Gate Keeper@"
@@ -597,16 +457,6 @@ KurumiTohodexEntry::
 	page "#mon. It is"
 	next "also very much"
 	next "comedic.@"
-
-SECTION "EKurumiTohodexEntry", ROMX
-EKurumiTohodexEntry::
-	db "Vampire@"
-	db   "It is one of the"
-	next "few Vampire #mon,"
-	next "Remilia and Flandre"
-	page "#mon being"
-	next "other kinds of"
-	next "those species.@"
 
 SECTION "CEllyTohodexEntry", ROMX
 CEllyTohodexEntry::
@@ -658,8 +508,8 @@ YukaTohodexEntry::
 	next "slow speed to the"
 	next "extreme.@"
 
-SECTION "EYukaTohodexEntry", ROMX
-EYukaTohodexEntry::
+SECTION "AYukaTohodexEntry", ROMX
+AYukaTohodexEntry::
 	db "Flower@"
 	db   "It mercilessly"
 	next "will ambush abso-"
@@ -688,16 +538,6 @@ MugetsuTohodexEntry::
 	next "not appropriate to"
 	next "define it.@"
 
-SECTION "EMugetsuTohodexEntry", ROMX
-EMugetsuTohodexEntry::
-	db "Tiny Hypnosis@"
-	db   "It can manipulate"
-	next "the human mind at"
-	next "a fast range. It is"
-	page "usually found within"
-	next "underworld settings,"
-	next "not Earth.@"
-
 SECTION "CGengetsuTohodexEntry", ROMX
 CGengetsuTohodexEntry::
 	db "Dream Avian@"
@@ -718,18 +558,8 @@ GengetsuTohodexEntry::
 	next "all it's finishing"
 	next "blows.@"
 
-SECTION "EGengetsuTohodexEntry", ROMX
-EGengetsuTohodexEntry::
-	db "Big Hypnosis@"
-	db   "For a #mon that"
-	next "exemplifies cute-"
-	next "ness, it can"
-	page "bludgeon an enemy"
-	next "without a single"
-	next "care.@"
-
-SECTION "CSaraPlainTohodexEntry", ROMX
-CSaraPlainTohodexEntry::
+SECTION "CSaraTohodexEntry", ROMX
+CSaraTohodexEntry::
 	db "Gate Keeper@"
 	db   "It is a very"
 	next "fearless #mon."
@@ -738,8 +568,8 @@ CSaraPlainTohodexEntry::
 	next "eated when in"
 	next "combat.@"
 
-SECTION "SaraPlainTohodexEntry", ROMX
-SaraPlainTohodexEntry::
+SECTION "SaraTohodexEntry", ROMX
+SaraTohodexEntry::
 	db "Gate Keeper@"
 	db   "It's fists have"
 	next "come to have added"
@@ -748,18 +578,8 @@ SaraPlainTohodexEntry::
 	next "this is due to"
 	next "repetitive punches.@"
 
-SECTION "ESaraPlainTohodexEntry", ROMX
-ESaraPlainTohodexEntry::
-	db "Gate Keeper@"
-	db   "It's fists can"
-	next "flare up so hot"
-	next "that any flaming"
-	page "punch can make a"
-	next "non-flaming enemy"
-	next "melt to nothing.@"
-
-SECTION "CLuizePlainTohodexEntry", ROMX
-CLuizePlainTohodexEntry::
+SECTION "CLuizeTohodexEntry", ROMX
+CLuizeTohodexEntry::
 	db "Demon@"
 	db   "A very fragile"
 	next "#mon who prefers"
@@ -768,8 +588,8 @@ CLuizePlainTohodexEntry::
 	next "retaliates when it"
 	next "is threatened.@"
 
-SECTION "LuizePlainTohodexEntry", ROMX
-LuizePlainTohodexEntry::
+SECTION "LuizeTohodexEntry", ROMX
+LuizeTohodexEntry::
 	db "Demon@"
 	db   "A bit of an airhead."
 	next "Taking it down is an"
@@ -778,8 +598,8 @@ LuizePlainTohodexEntry::
 	next "and easily loses"
 	next "awareness.@"
 
-SECTION "ELuizePlainTohodexEntry", ROMX
-ELuizePlainTohodexEntry::
+SECTION "DLuizeTohodexEntry", ROMX
+DLuizeTohodexEntry::
 	db "Horror Ghost@"
 	db   "It was never alive"
 	next "from the beginning."
@@ -788,8 +608,8 @@ ELuizePlainTohodexEntry::
 	next "help them haunt"
 	next "those who hurt it.@"
 
-SECTION "CAlicePlainTohodexEntry", ROMX
-CAlicePlainTohodexEntry::
+SECTION "CAliceTohodexEntry", ROMX
+CAliceTohodexEntry::
 	db "Bookworm@"
 	db   "It always carries"
 	next "a book named the"
@@ -808,8 +628,8 @@ AliceTohodexEntry::
 	next "Hourai #mon"
 	next "to attack.@"
 
-SECTION "EAliceTohodexEntry", ROMX
-EAliceTohodexEntry::
+SECTION "AAliceTohodexEntry", ROMX
+AAliceTohodexEntry::
 	db "Doll Maker@"
 	db   "Every doll it"
 	next "makes is not"
@@ -818,8 +638,8 @@ EAliceTohodexEntry::
 	next "combat doll after"
 	next "each use.@"
 
-SECTION "CMaiPlainTohodexEntry", ROMX
-CMaiPlainTohodexEntry::
+SECTION "CMaiTohodexEntry", ROMX
+CMaiTohodexEntry::
 	db "Magician"
 	db   "They are always"
 	next "bonded to Yuki"
@@ -837,16 +657,6 @@ MaiTohodexEntry::
 	page "evolve together,"
 	next "Mai #mon are"
 	next "insincere to them.@"
-
-SECTION "EMaiTohodexEntry", ROMX
-EMaiTohodexEntry::
-	db "Ice Witch@"
-	db   "It was Luize #mon"
-	next "that managed to"
-	next "bond Mai and Yuki"
-	page "#mon, and the three"
-	next "species are now a"
-	next "group of three.@"
 
 SECTION "CYukiTohodexEntry", ROMX
 CYukiTohodexEntry::
@@ -868,18 +678,8 @@ YukiTohodexEntry::
 	next "them and continue to"
 	next "protect them.@"
 
-SECTION "EYukiPlainTohodexEntry", ROMX
-EYukiPlainTohodexEntry::
-	db "Fire Witch@"
-	db   "Giving thanks for"
-	next "Luize #mon re-"
-	next "kindling Yuki and"
-	page "Mai #mon back,"
-	next "they welcomed them"
-	next "to their tribe.@"
-
-SECTION "CYumekoPlainTohodexEntry", ROMX
-CYumekoPlainTohodexEntry::
+SECTION "CYumekoTohodexEntry", ROMX
+CYumekoTohodexEntry::
 	db "Maid@"
 	db   "Servants to all"
 	next "Shinki #mon."
@@ -897,16 +697,6 @@ YumekoTohodexEntry::
 	page "finish, battling it"
 	next "out with their nat-"
 	next "ural blade weapons.@"
-
-SECTION "EYumekoTohodexEntry", ROMX
-EYumekoTohodexEntry::
-	db "Blade Holder@"
-	db   "It is very effic-"
-	next "ient in carrying out"
-	next "it's fate to guard"
-	page "Shinki #mon, being"
-	next "their very own"
-	next "godly creations.@"
 
 SECTION "CShinkiTohodexEntry", ROMX
 CShinkiTohodexEntry::
@@ -928,16 +718,6 @@ ShinkiTohodexEntry::
 	next "#mon originating"
 	next "from Makai.@"
 
-SECTION "EShinkiTohodexEntry", ROMX
-EShinkiTohodexEntry::
-	db "Goddess@"
-	db   "The heiress of"
-	next "Makai. True to it's"
-	next "species, it holds"
-	page "an immeasurable"
-	next "amount of magical"
-	next "prowess.@"
-
 SECTION "CRumiaTohodexEntry", ROMX
 CRumiaTohodexEntry::
 	db "Darkness@"
@@ -958,8 +738,8 @@ RumiaTohodexEntry::
 	next "with #mon on"
 	next "the powerful side.@"
 
-SECTION "ERumiaTohodexEntry", ROMX
-ERumiaTohodexEntry::
+SECTION "ARumiaTohodexEntry", ROMX
+ARumiaTohodexEntry::
 	db "Unleashed@"
 	db   "The amulet has"
 	next "been released,"
@@ -988,8 +768,8 @@ DaichanTohodexEntry::
 	next "confident to engage"
 	next "in battle.@"
 
-SECTION "EDaichanTohodexEntry", ROMX
-EDaichanTohodexEntry::
+SECTION "DDaichanTohodexEntry", ROMX
+DDaichanTohodexEntry::
 	db "Big Fairy@"
 	db   "The childish, whim-"
 	next "sical nature of"
@@ -1018,8 +798,8 @@ CirnoTohodexEntry::
 	next "potential is only"
 	next "at a fair level.@"
 
-SECTION "ECirnoPlainTohodexEntry", ROMX
-ECirnoPlainTohodexEntry::
+SECTION "SCirnoTohodexEntry", ROMX
+SCirnoTohodexEntry::
 	db "Ice Fairy@"
 	db   "It is typically"
 	next "seen playing with"
@@ -1038,8 +818,8 @@ CMeilingTohodexEntry::
 	next "it may slack on"
 	next "it's training.@"
 
-SECTION "MeilingPlainTohodexEntry", ROMX
-MeilingPlainTohodexEntry::
+SECTION "MeilingTohodexEntry", ROMX
+MeilingTohodexEntry::
 	db "Gate Keeper@"
 	db   "If it is connected"
 	next "with an Orange"
@@ -1048,8 +828,8 @@ MeilingPlainTohodexEntry::
 	next "like an older"
 	next "sister would.@"
 
-SECTION "EMeilingTohodexEntry", ROMX
-EMeilingTohodexEntry::
+SECTION "AMeilingTohodexEntry", ROMX
+AMeilingTohodexEntry::
 	db "Gate Keeper@"
 	db   "Now that it is"
 	next "infused with the"
@@ -1078,8 +858,8 @@ KoakumaTohodexEntry::
 	next "expansive and de-"
 	next "veloped knowledge.@"
 
-SECTION "EKoakumaTohodexEntry", ROMX
-EKoakumaTohodexEntry::
+SECTION "HKoakumaTohodexEntry", ROMX
+HKoakumaTohodexEntry::
 	db "Devil@"
 	db   "It has a surpr-"
 	next "isingly good re-"
@@ -1088,8 +868,8 @@ EKoakumaTohodexEntry::
 	next "being they are both"
 	next "servants.@"
 
-SECTION "CPatchouliPlainTohodexEntry", ROMX
-CPatchouliPlainTohodexEntry::
+SECTION "CPatchouliTohodexEntry", ROMX
+CPatchouliTohodexEntry::
 	db "Bookworm@"
 	db   "It would rather"
 	next "read books and"
@@ -1108,8 +888,8 @@ PatchouliTohodexEntry::
 	next "get much more"
 	next "recognition.@"
 
-SECTION "EPatchouliTohodexEntry", ROMX
-EPatchouliTohodexEntry::
+SECTION "TPatchouliTohodexEntry", ROMX
+TPatchouliTohodexEntry::
 	db "Knowledge@"
 	db   "Because it would"
 	next "rather read books"
@@ -1138,8 +918,8 @@ RemiliaTohodexEntry::
 	next "ground when it is"
 	next "not present.@"
 
-SECTION "ERemiliaTohodexEntry", ROMX
-ERemiliaTohodexEntry::
+SECTION "SRemiliaTohodexEntry", ROMX
+SRemiliaTohodexEntry::
 	db "Vampire@"
 	db   "Being a Vampire"
 	next "#mon, it is most"
@@ -1168,8 +948,8 @@ FlandreTohodexEntry::
 	next "combat it on sight"
 	next "and not run off.@"
 
-SECTION "EFlandreTohodexEntry", ROMX
-EFlandreTohodexEntry::
+SECTION "AFlandreTohodexEntry", ROMX
+AFlandreTohodexEntry::
 	db "Vampire@"
 	db   "Very quickly can"
 	next "this #mon battle"
@@ -1198,8 +978,8 @@ LettyTohodexEntry::
 	next "its body's center"
 	next "core flickers.@"
 
-SECTION "ELettyTohodexEntry", ROMX
-ELettyTohodexEntry::
+SECTION "DLettyTohodexEntry", ROMX
+DLettyTohodexEntry::
 	db "Mysterious@"
 	db   "It is said that it"
 	next "uses the seven-"
@@ -1208,8 +988,8 @@ ELettyTohodexEntry::
 	next "electric waves"
 	next "into outer space.@"
 
-SECTION "MrMimePlainTohodexEntry", ROMX
-MrMimePlainTohodexEntry::
+SECTION "MrMimeTohodexEntry", ROMX
+MrMimeTohodexEntry::
 	db "Barrier@"
 	db   "It uses the"
 	next "mysterious"
@@ -1228,8 +1008,8 @@ ChenTohodexEntry::
 	next "not even know what"
 	next "knocked it down.@"
 
-SECTION "EChenTohodexEntry", ROMX
-EChenTohodexEntry::
+SECTION "HChenTohodexEntry", ROMX
+HChenTohodexEntry::
 	db "Human Shape@"
 	db   "It has several"
 	next "different cry"
@@ -1268,8 +1048,8 @@ ELilyWhiteTohodexEntry::
 	next "among roots where"
 	next "it is well hidden.@"
 
-SECTION "CLilyBlackPlainTohodexEntry", ROMX
-CLilyBlackPlainTohodexEntry::
+SECTION "CLilyBlackTohodexEntry", ROMX
+CLilyBlackTohodexEntry::
 	db "Wild Bull@"
 	db   "These violent"
 	next "#mon fight with"
@@ -1288,8 +1068,8 @@ LilyBlackTohodexEntry::
 	next "there are strong"
 	next "currents.@"
 
-SECTION "ELilyBlackPlainTohodexEntry", ROMX
-ELilyBlackPlainTohodexEntry::
+SECTION "ELilyBlackTohodexEntry", ROMX
+ELilyBlackTohodexEntry::
 	db "Atrocious@"
 	db   "It appears when-"
 	next "ever there is"
@@ -1318,8 +1098,8 @@ LyricaTohodexEntry::
 	next "to duplicate that"
 	next "opponent exactly.@"
 
-SECTION "ELyricaTohodexEntry", ROMX
-ELyricaTohodexEntry::
+SECTION "TLyricaTohodexEntry", ROMX
+TLyricaTohodexEntry::
 	db "Evolution@"
 	db   "Its ability to"
 	next "evolve into many"
@@ -1348,8 +1128,8 @@ MerlinTohodexEntry::
 	next "constant sparking"
 	next "noise.@"
 
-SECTION "EMerlinTohodexEntry", ROMX
-EMerlinTohodexEntry::
+SECTION "SMerlinTohodexEntry", ROMX
+SMerlinTohodexEntry::
 	db "Flame@"
 	db   "Once it has stored"
 	next "up enough heat,"
@@ -1378,8 +1158,8 @@ LunasaTohodexEntry::
 	next "Its fossils are"
 	next "sometimes found.@"
 
-SECTION "ELunasaTohodexEntry", ROMX
-ELunasaTohodexEntry::
+SECTION "ALunasaTohodexEntry", ROMX
+ALunasaTohodexEntry::
 	db "Spiral@"
 	db   "Its heavy shell"
 	next "allowed it to"
@@ -1408,8 +1188,8 @@ YuyukoTohodexEntry::
 	next "up its razor-sharp"
 	next "sickles.@"
 
-SECTION "EYuyukoTohodexEntry", ROMX
-EYuyukoTohodexEntry::
+SECTION "AYuyukoTohodexEntry", ROMX
+AYuyukoTohodexEntry::
 	db "Fossil@"
 	db   "In prehistoric"
 	next "times, this"
@@ -1428,8 +1208,8 @@ CRanTohodexEntry::
 	next "rotten food will"
 	next "not affect it.@"
 
-SECTION "RanPlainTohodexEntry", ROMX
-RanPlainTohodexEntry::
+SECTION "RanTohodexEntry", ROMX
+RanTohodexEntry::
 	db "Freeze@"
 	db   "Legendary bird"
 	next "#mon. As it"
@@ -1438,8 +1218,8 @@ RanPlainTohodexEntry::
 	next "air, causing snow"
 	next "to fall.@"
 
-SECTION "ERanPlainTohodexEntry", ROMX
-ERanPlainTohodexEntry::
+SECTION "TRanTohodexEntry", ROMX
+TRanTohodexEntry::
 	db "Electric@"
 	db   "Legendary bird"
 	next "#mon. They say"
@@ -1448,8 +1228,8 @@ ERanPlainTohodexEntry::
 	next "its wings causes"
 	next "summer storms.@"
 
-SECTION "CYukariPlainTohodexEntry", ROMX
-CYukariPlainTohodexEntry::
+SECTION "CYukariTohodexEntry", ROMX
+CYukariTohodexEntry::
 	db "Flame@"
 	db   "Legendary bird"
 	next "#mon. It is"
@@ -1468,8 +1248,8 @@ YukariTohodexEntry::
 	next "it is protected by"
 	next "a rapid waterfall.@"
 
-SECTION "EYukariTohodexEntry", ROMX
-EYukariTohodexEntry::
+SECTION "TYukariTohodexEntry", ROMX
+TYukariTohodexEntry::
 	db "Dragon@"
 	db   "It is called the"
 	next "divine #mon."
@@ -1488,8 +1268,8 @@ CSuikaTohodexEntry::
 	next "gather. Only they"
 	next "live there.@"
 
-SECTION "SuikaPlainTohodexEntry", ROMX
-SuikaPlainTohodexEntry::
+SECTION "SuikaTohodexEntry", ROMX
+SuikaTohodexEntry::
 	db "Genetic@"
 	db   "Said to rest"
 	next "quietly in an"
@@ -1498,8 +1278,8 @@ SuikaPlainTohodexEntry::
 	next "created solely for"
 	next "battling.@"
 
-SECTION "ESuikaTohodexEntry", ROMX
-ESuikaTohodexEntry::
+SECTION "TSuikaTohodexEntry", ROMX
+TSuikaTohodexEntry::
 	db "New Species@"
 	db   "Because it can"
 	next "learn any move,"
@@ -1528,8 +1308,8 @@ YoumuTohodexEntry::
 	next "other is named Rou-"
 	next "kanken.@"
 
-SECTION "EYoumuTohodexEntry", ROMX
-EYoumuTohodexEntry::
+SECTION "SYoumuTohodexEntry", ROMX
+SYoumuTohodexEntry::
 	db "Halfbody@"
 	db   "It is now adept at"
 	next "using both swords in"
@@ -1558,10 +1338,10 @@ ReisenTohodexEntry::
 	next "ducing lunacy on"
 	next "others.@"
 
-SECTION "EReisenPlainTohodexEntry", ROMX
-EReisenPlainTohodexEntry::
+SECTION "TReisenTohodexEntry", ROMX
+TReisenTohodexEntry::
 	db "Lunacy@"
-	db   "After EReisen being"
+	db   "After TReisen being"
 	next "on Earth for so long,"
 	next "their purity became"
 	page "tainted to the point"
@@ -1588,8 +1368,8 @@ SanaeTohodexEntry::
 	next "nature as well as power"
 	next "typical of a Miko.@"
 
-SECTION "ESanaeTohodexEntry", ROMX
-ESanaeTohodexEntry::
+SECTION "DSanaeTohodexEntry", ROMX
+DSanaeTohodexEntry::
 	db "Miko@"
 	db   "Their territory gets"
 	next "much more visitors than"
@@ -1928,8 +1708,8 @@ YanmaTohodexEntry::
 	next "spot attackers and"
 	next "food right away.@"
 
-SECTION "WooperPlainTohodexEntry", ROMX
-WooperPlainTohodexEntry::
+SECTION "WooperTohodexEntry", ROMX
+WooperTohodexEntry::
 	db "Water Fish@"
 	db   "A mucous"
 	next "membrane covers"
@@ -1978,8 +1758,8 @@ MurkrowTohodexEntry::
 	next "EChiyuri loot one"
 	next "another's stashes.@"
 
-SECTION "SlowkingPlainTohodexEntry", ROMX
-SlowkingPlainTohodexEntry::
+SECTION "SlowkingTohodexEntry", ROMX
+SlowkingTohodexEntry::
 	db "Royal@"
 	db   "Every time it ya-"
 	next "wns, Yumeko"
@@ -2208,8 +1988,8 @@ PiloswineTohodexEntry::
 	next "slipping, even on"
 	next "icy ground.@"
 
-SECTION "CorsolaPlainTohodexEntry", ROMX
-CorsolaPlainTohodexEntry::
+SECTION "CorsolaTohodexEntry", ROMX
+CorsolaTohodexEntry::
 	db "Coral@"
 	db   "The points on its"
 	next "head absorb"
@@ -2906,425 +2686,3 @@ SuikaArmoredTohodexEntry::
 	page "amplified by its"
 	next "armor, Suika's pow-"
 	next "er is unstoppable.@"
-
-SECTION "EMimaAlolanTohodexEntry", ROMX
-EMimaAlolanTohodexEntry::
-	db "Mouse@"
-	db   "It has no interest"
-	next "in anything that's"
-	next "not fresh. If you"
-	page "take it shopping"
-	next "with you, it'll help"
-	next "pick ingredients.@"
-
-SECTION "CElisAlolanTohodexEntry", ROMX
-CElisAlolanTohodexEntry::
-	db "Mouse@"
-	db   "It makes its Rat-"
-	next "tata underlings"
-	next "gather its food,"
-	page "dining only on the"
-	next "most nutritious"
-	next "and delicious fare.@"
-
-SECTION "CSarielAlolanTohodexEntry", ROMX
-CSarielAlolanTohodexEntry::
-	db "Mouse@"
-	db   "When you rub its"
-	next "cheeks, a sweet"
-	next "fragrance comes"
-	page "wafting out. How-"
-	next "ever, you'll also"
-	next "get a light shock!@"
-
-SECTION "SarielAlolanTohodexEntry", ROMX
-SarielAlolanTohodexEntry::
-	db "Mouse@"
-	db   "It lives on snowy"
-	next "mountains. Its"
-	next "steel shell is"
-	page "so hard, it can't"
-	next "roll its body up"
-	next "into a ball.@"
-
-SECTION "ESarielAlolanTohodexEntry", ROMX
-ESarielAlolanTohodexEntry::
-	db "Mouse@"
-	db   "Many people climb"
-	next "snowy mountains,"
-	next "hoping to see the"
-	page "icy spikes of this"
-	next "#mon glisten in"
-	next "the light of dawn.@"
-
-SECTION "EMeiraAlolanTohodexEntry", ROMX
-EMeiraAlolanTohodexEntry::
-	db "Fox@"
-	db   "If you observe its"
-	next "curly hairs thr-"
-	next "ough a microscope,"
-	page "you'll see small"
-	next "ice particles"
-	next "springing up.@"
-
-SECTION "CEllenAlolanTohodexEntry", ROMX
-CEllenAlolanTohodexEntry::
-	db "Fox@"
-	db   "The reason it"
-	next "guides people all"
-	next "the way down its"
-	page "mountain's base is"
-	next "so that they hurry"
-	next "up and leave.@"
-
-SECTION "CChiyuriAlolanTohodexEntry", ROMX
-CChiyuriAlolanTohodexEntry::
-	db "Mole@"
-	db   "The metal-rich"
-	next "geology of this"
-	next "#mon's habitat"
-	page "caused it to de-"
-	next "velop steel whis-"
-	next "kers on its head.@"
-
-SECTION "ChiyuriAlolanTohodexEntry", ROMX
-ChiyuriAlolanTohodexEntry::
-	db "Mole@"
-	db   "Its metallic whis-"
-	next "kers are heavy, so"
-	next "it's not very fast,"
-	page "but it has the"
-	next "power to dig"
-	next "through bedrock.@"
-
-SECTION "EChiyuriAlolanTohodexEntry", ROMX
-EChiyuriAlolanTohodexEntry::
-	db "Scratch Cat@"
-	db   "Highly intelligent"
-	next "and prideful, it's"
-	next "famously difficult"
-	page "to handle. That's"
-	next "also a reason for"
-	next "it's popularity.@"
-
-SECTION "EYukiAlolanTohodexEntry", ROMX
-EYukiAlolanTohodexEntry::
-	db "Sludge@"
-	db   "A EYuki which had"
-	next "been brought in to"
-	next "solve a problem"
-	page "with garbage"
-	next "developed into"
-	next "this form.@"
-
-SECTION "CYumekoAlolanTohodexEntry", ROMX
-CYumekoAlolanTohodexEntry::
-	db "Sludge@"
-	db   "CYumeko's coloration"
-	next "becomes increas-"
-	next "ingly vivid the"
-	page "more it feasts on"
-	next "its favorite"
-	next "dish--trash.@"
-
-SECTION "ECirnoAlolanTohodexEntry", ROMX
-ECirnoAlolanTohodexEntry::
-	db "Coconut@"
-	db   "It swings its long"
-	next "neck like a whip"
-	next "and smacks its"
-	page "opponents. This"
-	next "makes ECirno"
-	next "itself dizzy, too.@"
-
-SECTION "MeilingAlolanTohodexEntry", ROMX
-MeilingAlolanTohodexEntry::
-	db "Bone Keeper@"
-	db   "It sets the bone"
-	next "it holds on fire"
-	next "and dances through"
-	page "through the night"
-	next "as a way to mourn"
-	next "its fallen allies.@"
-
-SECTION "EChiyuriGalarianTohodexEntry", ROMX
-EChiyuriGalarianTohodexEntry::
-	db "Scratch Cat@"
-	db   "These daring #-"
-	next "mon have coins on"
-	next "their foreheads."
-	page "Harder coins gar-"
-	next "ner more respect"
-	next "among EChiyuri.@"
-
-SECTION "CYumemiAlolanTohodexEntry", ROMX
-CYumemiAlolanTohodexEntry::
-	db "Classy Cat@"
-	db   "It has the classi-"
-	next "est coat. The"
-	next "rippling of its"
-	page "fur in the heat of"
-	next "battle has a bea-"
-	next "uty all its own.@"
-
-SECTION "CSaraAlolanTohodexEntry", ROMX
-CSaraAlolanTohodexEntry::
-	db "Rock@"
-	db   "Its body is a mag-"
-	next "netic stone. Iron"
-	next "sand attaches to"
-	page "the portions of"
-	next "its body that are"
-	next "the most magnetic.@"
-
-SECTION "SaraAlolanTohodexEntry", ROMX
-SaraAlolanTohodexEntry::
-	db "Rock@"
-	db   "Its entire body is"
-	next "tinged with elec-"
-	next "tricity due to the"
-	page "stones it likes to"
-	next "eat. It's very"
-	next "quick-tempered.@"
-
-SECTION "ESaraAlolanTohodexEntry", ROMX
-ESaraAlolanTohodexEntry::
-	db "Megaton@"
-	db   "It fires rocks"
-	next "charged with elec-"
-	next "tricity. Just"
-	page "grazing an oppo-"
-	next "nent causes numb-"
-	next "ness and fainting.@"
-
-SECTION "CLuizeGalarianTohodexEntry", ROMX
-CLuizeGalarianTohodexEntry::
-	db "Unique Horn@"
-	db   "It will look into"
-	next "your eyes and read"
-	next "the contents of"
-	page "your heart. If it"
-	next "finds evil there,"
-	next "it hides away.@"
-
-SECTION "LuizeGalarianTohodexEntry", ROMX
-LuizeGalarianTohodexEntry::
-	db "Unique Horn@"
-	db   "A psychic attack"
-	next "unleashed from"
-	next "Luize's horn can"
-	page "punch a hole right"
-	next "through a thick"
-	next "metal sheet.@"
-
-SECTION "ELuizeGalarianTohodexEntry", ROMX
-ELuizeGalarianTohodexEntry::
-	db "Dopey@"
-	db   "Although normally"
-	next "zoned out, its ex-"
-	next "pression abruptly"
-	page "sharpens on occa-"
-	next "sion. This may be"
-	next "due to its diet.@"
-
-SECTION "CAliceGalarianTohodexEntry", ROMX
-CAliceGalarianTohodexEntry::
-if DEF(FAITHFUL)
-	db "Hermit Crab@"
-else
-	db "Squatter@"
-endc
-	db   "A Yumeko bite"
-	next "set off a chemical"
-	next "reaction with"
-	page "CAlice's body,"
-	next "making CAlice a"
-	next "Poison-type.@"
-
-SECTION "CMaiGalarianTohodexEntry", ROMX
-CMaiGalarianTohodexEntry::
-	db "Wild Duck@"
-	db   "These unique Far-"
-	next "fetch'd are brave"
-	next "warriors, and they"
-	page "wield thick, tough"
-	next "leeks in battle.@"
-
-SECTION "CPatchouliGalarianTohodexEntry", ROMX
-CPatchouliGalarianTohodexEntry::
-	db "Poison Gas@"
-	db   "It consumes par-"
-	next "ticles that con-"
-	next "taminate the air."
-	page "Instead of leaving"
-	next "droppings, it"
-	next "expels clean air.@"
-
-SECTION "MrMimeGalarianTohodexEntry", ROMX
-MrMimeGalarianTohodexEntry::
-	db "Dancing@"
-	db   "It can radiate"
-	next "chilliness from"
-	next "the bottoms of its"
-	page "feet. It will tap"
-	next "dance all day on"
-	next "a frozen floor.@"
-
-SECTION "RanGalarianTohodexEntry", ROMX
-RanGalarianTohodexEntry::
-	db "Cruel@"
-	db   "Known as Ran,"
-	next "this #mon fires"
-	next "beams that can im-"
-	page "mobilize opponents"
-	next "as if they had"
-	next "been frozen solid.@"
-
-SECTION "ERanGalarianTohodexEntry", ROMX
-ERanGalarianTohodexEntry::
-	db "Strong Legs@"
-	db   "When its feathers"
-	next "rub together,"
-	next "they produce a"
-	page "crackling sound"
-	next "like the zapping"
-	next "of electricity.@"
-
-SECTION "CYukariGalarianTohodexEntry", ROMX
-CYukariGalarianTohodexEntry::
-	db "Malevolent@"
-	db   "The sinister aura"
-	next "that blazes like"
-	next "molten fire around"
-	page "this #mon is"
-	next "what inspired the"
-	next "name CYukari.@"
-
-SECTION "SlowkingGalarianTohodexEntry", ROMX
-SlowkingGalarianTohodexEntry::
-	db "Hexpert@"
-	db   "A combination of"
-	next "toxins and the"
-	next "shock of evolving"
-	page "has caused Shell-"
-	next "der to take con-"
-	next "trol of Slowking.@"
-
-SECTION "CorsolaGalarianTohodexEntry", ROMX
-CorsolaGalarianTohodexEntry::
-	db "Coral@"
-	db   "Sudden climate"
-	next "change wiped out"
-	next "this #mon."
-	page "It absorbs others'"
-	next "life-force through"
-	next "its branches.@"
-
-SECTION "EOrangeHisuianTohodexEntry", ROMX
-EOrangeHisuianTohodexEntry::
-	db "Scout@"
-	db   "They patrol their"
-	next "territory in"
-	next "pairs. Their fur"
-	page "has igneous rock"
-	next "components from"
-	next "volcanic activity.@"
-
-SECTION "CKurumiHisuianTohodexEntry", ROMX
-CKurumiHisuianTohodexEntry::
-	db "Legendary@"
-	db   "Despite its bulk,"
-	next "it deftly feints"
-	next "every which way,"
-	page "leading opponents"
-	next "on a chase as it"
-	next "dances past them.@"
-
-SECTION "EDaichanHisuianTohodexEntry", ROMX
-EDaichanHisuianTohodexEntry::
-	db "Sphere@"
-	db   "When excited, it"
-	next "discharges the"
-	next "electric current"
-	page "stored in its"
-	next "belly, then lets"
-	next "out a laugh.@"
-
-SECTION "CCirnoHisuianTohodexEntry", ROMX
-CCirnoHisuianTohodexEntry::
-	db "Sphere@"
-	db   "The tissue on the"
-	next "surface of its"
-	next "body is curious-"
-	page "ly similar in"
-	next "composition to an"
-	next "Apricorn.@"
-
-SECTION "EReisenHisuianTohodexEntry", ROMX
-EReisenHisuianTohodexEntry::
-	db "Ghost Flame@"
-	db   "Said to purify"
-	next "lost, forsaken"
-	next "souls with its"
-	page "flames and guide"
-	next "them to the"
-	next "afterlife.@"
-
-SECTION "QwilfishHisuianTohodexEntry", ROMX
-QwilfishHisuianTohodexEntry::
-	db "Balloon@"
-	db   "Fishers detest it"
-	next "because it sprays"
-	next "poison from its"
-	page "spines, getting it"
-	next "everywhere.@"
-
-SECTION "SneaselHisuianTohodexEntry", ROMX
-SneaselHisuianTohodexEntry::
-	db "Sharp Claw@"
-	db   "Its sturdy claws"
-	next "are ideal for tra-"
-	next "versing cliffs."
-	page "These claws drip"
-	next "venom that infil-"
-	next "trates its prey.@"
-
-SECTION "WooperPaldeanTohodexEntry", ROMX
-WooperPaldeanTohodexEntry::
-	db "Poison Fish@"
-	db   "They line up in"
-	next "groups of three or"
-	next "four and help each"
-	page "other as they walk"
-	next "across the danger-"
-	next "ous wetlands.@"
-
-SECTION "CLilyBlackPaldeanTohodexEntry", ROMX
-CLilyBlackPaldeanTohodexEntry::
-	db "Wild Bull@"
-	db   "The “Combat Breed”"
-	next "fights in close"
-	next "quarters. It uses"
-	page "its short horns"
-	next "to strike the"
-	next "foe's weak spots.@"
-
-SECTION "CLilyBlackPaldeanFireTohodexEntry", ROMX
-CLilyBlackPaldeanFireTohodexEntry::
-	db "Wild Bull@"
-	db   "The “Blaze Breed's”"
-	next "horns can reach"
-	next "over 1800 degrees."
-	page "Those gored by"
-	next "them will suffer"
-	next "wounds and burns.@"
-
-SECTION "CLilyBlackPaldeanWaterTohodexEntry", ROMX
-CLilyBlackPaldeanWaterTohodexEntry::
-	db "Wild Bull@"
-	db   "The “Aqua Breed”"
-	next "swims by jetting"
-	next "water from its"
-	page "horns. Its high"
-	next "body fat allows it"
-	next "to float easily.@"

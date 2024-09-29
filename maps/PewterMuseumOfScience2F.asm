@@ -83,7 +83,7 @@ Museum2FLassText:
 	text "#mon revived"
 	line "from fossils are"
 
-	para "all part Rock-"
+	para "all part Beast-"
 	line "type."
 
 	para "Were they always"

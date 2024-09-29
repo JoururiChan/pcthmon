@@ -20,14 +20,14 @@ MultipleEvolutions:
 	multi_evo EKIKURI, EKIKURI_SURF_FORM, EVOLVE_EKIKURI
 	multi_evo CKANA
 	multi_evo EKURUMI
-	multi_evo ELUIZE
-	multi_evo ELUIZE, GALARIAN_FORM, EVOLVE_ELUIZE_GALARIAN
-	multi_evo EALICE
+	multi_evo DLUIZE
+	multi_evo DLUIZE, GALARIAN_FORM, EVOLVE_DLUIZE
+	multi_evo AALICE
 	multi_evo CIRNO
-	multi_evo EKOAKUMA
+	multi_evo HKOAKUMA
 	multi_evo CMEILING
 	multi_evo CHEN
-	multi_evo ELYRICA
+	multi_evo TLYRICA
 	multi_evo MIME_JR_
 	multi_evo URSARING
 	multi_evo STANTLER

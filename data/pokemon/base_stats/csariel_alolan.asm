@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db ELECTRIC, PSYCHIC ; type
+	db WIND, REASON ; type
 	db 75 ; catch rate
 if DEF(FAITHFUL)
 	db 122 ; base exp
@@ -16,7 +16,7 @@ endc
 	db ORAN_BERRY, LIGHT_BALL ; held items
 	dn GENDER_F50, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-	abilities_for CSARIEL_ALOLAN, STATIC, STATIC, MOTOR_DRIVE
+	abilities_for CSARIEL, STATIC, STATIC, MOTOR_DRIVE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_FAIRY ; egg groups
 

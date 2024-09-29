@@ -73,7 +73,7 @@ CianwoodGymGuyScript:
 	line "vice: the Gym"
 
 	para "Leader uses the"
-	line "Fighting-type."
+	line "Dream-type."
 
 	para "So you should"
 	line "confound him with"

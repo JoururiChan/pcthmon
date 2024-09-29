@@ -1,9 +1,9 @@
-	db  30,  51,  32,  54,  65,  65 ; 318 BST
+	db  44,  63,  40,  66, 72, 73 ; 318 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db FAITH, FAITH ; type
 	db 100 ; catch rate
-	db 70 ; base exp
+	db 110 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F87_5, HATCH_SLOW ; gender ratio, step cycles to hatch
 

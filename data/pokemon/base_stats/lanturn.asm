@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db WATER, ELECTRIC ; type
+	db WATER, WIND ; type
 	db 75 ; catch rate
 	db 156 ; base exp
 	db NO_ITEM, BRIGHTPOWDER ; held items

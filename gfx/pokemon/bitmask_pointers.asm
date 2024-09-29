@@ -2,164 +2,141 @@ BitmasksPointers:
 	table_width 2, BitmasksPointers
 	dw CReimuBitmasks
 	dw ReimuBitmasks
-	dw EReimuBitmasks
+	dw TReimuBitmasks
 	dw CMarisaBitmasks
 	dw MarisaBitmasks
-	dw EMarisaBitmasks
+	dw AMarisaBitmasks
 	dw CSakuyaBitmasks
 	dw SakuyaBitmasks
-	dw ESakuyaBitmasks
+	dw HSakuyaBitmasks
 	dw CGyokuBitmasks
 	dw MGyokuBitmasks
 	dw FGyokuBitmasks
 	dw OGyokuBitmasks
 	dw CMaganBitmasks
 	dw MaganBitmasks
-	dw EMaganBitmasks
 	dw CMimaBitmasks
 	dw MimaBitmasks
-	dw EMimaBitmasks
-	dw CElisPlainBitmasks
+	dw CElisBitmasks
 	dw ElisBitmasks
-	dw EElisBitmasks
 	dw CKikuriBitmasks
 	dw KikuriJohtoBitmasks
-	dw EKikuriPlainBitmasks
-	dw CSarielPlainBitmasks
-	dw SarielPlainBitmasks
-	dw ESarielPlainBitmasks
+	dw CSarielBitmasks
+	dw SarielBitmasks
 	dw CKongaraBitmasks
 	dw KongaraBitmasks
-	dw EKongaraBitmasks
 	dw CRikaBitmasks
 	dw RikaBitmasks
-	dw ERikaBitmasks
+	dw ARikaBitmasks
 	dw CMeiraBitmasks
 	dw MeiraBitmasks
-	dw EMeiraPlainBitmasks
-	dw CEllenPlainBitmasks
+	dw CEllenBitmasks
 	dw EllenBitmasks
-	dw EEllenBitmasks
 	dw CKotohimeBitmasks
 	dw KotohimeBitmasks
-	dw EKotohimeBitmasks
 	dw CKanaBitmasks
 	dw KanaBitmasks
-	dw EKanaBitmasks
 	dw CRikakoBitmasks
 	dw RikakoBitmasks
-	dw ERikakoBitmasks
-	dw CChiyuriPlainBitmasks
-	dw ChiyuriPlainBitmasks
-	dw EChiyuriPlainBitmasks
-	dw CYumemiPlainBitmasks
+	dw CChiyuriBitmasks
+	dw ChiyuriBitmasks
+	dw CYumemiBitmasks
 	dw YumemiBitmasks
-	dw EYumemiBitmasks
 	dw COrangeBitmasks
 	dw OrangeBitmasks
-	dw EOrangePlainBitmasks
-	dw CKurumiPlainBitmasks
+	dw CKurumiBitmasks
 	dw KurumiBitmasks
-	dw EKurumiBitmasks
 	dw CEllyBitmasks
 	dw EllyBitmasks
-	dw EEllyBitmasks
 	dw CYukaBitmasks
 	dw YukaBitmasks
-	dw EYukaBitmasks
+	dw AYukaBitmasks
 	dw CMugetsuBitmasks
 	dw MugetsuBitmasks
-	dw EMugetsuBitmasks
 	dw CGengetsuBitmasks
 	dw GengetsuBitmasks
-	dw EGengetsuBitmasks
-	dw CSaraPlainBitmasks
-	dw SaraPlainBitmasks
-	dw ESaraPlainBitmasks
-	dw CLuizePlainBitmasks
-	dw LuizePlainBitmasks
-	dw ELuizePlainBitmasks
-	dw CAlicePlainBitmasks
+	dw CSaraBitmasks
+	dw SaraBitmasks
+	dw CLuizeBitmasks
+	dw LuizeBitmasks
+	dw DLuizeBitmasks
+	dw CAliceBitmasks
 	dw AliceBitmasks
-	dw EAliceBitmasks
-	dw CMaiPlainBitmasks
+	dw AAliceBitmasks
+	dw CMaiBitmasks
 	dw MaiBitmasks
-	dw EMaiBitmasks
 	dw CYukiBitmasks
 	dw YukiBitmasks
-	dw EYukiPlainBitmasks
-	dw CYumekoPlainBitmasks
+	dw CYumekoBitmasks
 	dw YumekoBitmasks
-	dw EYumekoBitmasks
 	dw CShinkiBitmasks
 	dw ShinkiBitmasks
-	dw EShinkiBitmasks
 	dw CRumiaBitmasks
 	dw RumiaBitmasks
-	dw ERumiaBitmasks
+	dw ARumiaBitmasks
 	dw CDaichanBitmasks
 	dw DaichanBitmasks
-	dw EDaichanPlainBitmasks
-	dw CCirnoPlainBitmasks
+	dw DDaichanBitmasks
+	dw CCirnoBitmasks
 	dw CirnoBitmasks
-	dw ECirnoPlainBitmasks
+	dw SCirnoBitmasks
 	dw CMeilingBitmasks
-	dw MeilingPlainBitmasks
-	dw EMeilingBitmasks
+	dw MeilingBitmasks
+	dw AMeilingBitmasks
 	dw CKoakumaBitmasks
 	dw KoakumaBitmasks
-	dw EKoakumaBitmasks
-	dw CPatchouliPlainBitmasks
+	dw HKoakumaBitmasks
+	dw CPatchouliBitmasks
 	dw PatchouliBitmasks
-	dw EPatchouliBitmasks
+	dw TPatchouliBitmasks
 	dw CRemiliaBitmasks
 	dw RemiliaBitmasks
-	dw ERemiliaBitmasks
+	dw SRemiliaBitmasks
 	dw CFlandreBitmasks
 	dw FlandreBitmasks
-	dw EFlandreBitmasks
+	dw AFlandreBitmasks
 	dw CLettyBitmasks
 	dw LettyBitmasks
-	dw ELettyBitmasks
-	dw MrMimePlainBitmasks
+	dw DLettyBitmasks
+	dw MrMimeBitmasks
 	dw ChenBitmasks
-	dw EChenBitmasks
+	dw HChenBitmasks
 	dw CLilyWhiteBitmasks
 	dw LilyWhiteBitmasks
 	dw ELilyWhiteBitmasks
-	dw CLilyBlackPlainBitmasks
-	dw LilyBlackPlainBitmasks
-	dw ELilyBlackPlainBitmasks
+	dw CLilyBlackBitmasks
+	dw LilyBlackBitmasks
+	dw ELilyBlackBitmasks
 	dw CLyricaBitmasks
 	dw LyricaBitmasks
-	dw ELyricaBitmasks
+	dw TLyricaBitmasks
 	dw CMerlinBitmasks
 	dw MerlinBitmasks
-	dw EMerlinBitmasks
+	dw SMerlinBitmasks
 	dw CLunasaBitmasks
 	dw LunasaBitmasks
-	dw ELunasaBitmasks
+	dw ALunasaBitmasks
 	dw CYuyukoBitmasks
 	dw YuyukoBitmasks
-	dw EYuyukoBitmasks
+	dw AYuyukoBitmasks
 	dw CRanBitmasks
-	dw RanPlainBitmasks
-	dw ERanPlainBitmasks
-	dw CYukariPlainBitmasks
+	dw RanBitmasks
+	dw TRanBitmasks
+	dw CYukariBitmasks
 	dw YukariBitmasks
-	dw EYukariBitmasks
+	dw TYukariBitmasks
 	dw CSuikaBitmasks
-	dw SuikaPlainBitmasks
-	dw ESuikaBitmasks
+	dw SuikaBitmasks
+	dw TSuikaBitmasks
 	dw CYoumuBitmasks
 	dw YoumuBitmasks
-	dw EYoumuBitmasks
+	dw SYoumuBitmasks
 	dw CReisenBitmasks
 	dw ReisenBitmasks
-	dw EReisenPlainBitmasks
+	dw TReisenBitmasks
 	dw CSanaeBitmasks
 	dw SanaeBitmasks
-	dw ESanaeBitmasks
+	dw DSanaeBitmasks
 	dw SentretBitmasks
 	dw FurretBitmasks
 	dw HoothootBitmasks
@@ -171,7 +148,7 @@ BitmasksPointers:
 	dw CrobatBitmasks
 	dw ChinchouBitmasks
 	dw LanturnBitmasks
-	dw PichuPlainBitmasks
+	dw PichuBitmasks
 	dw CleffaBitmasks
 	dw IgglybuffBitmasks
 	dw TogepiBitmasks
@@ -193,12 +170,12 @@ BitmasksPointers:
 	dw SunkernBitmasks
 	dw SunfloraBitmasks
 	dw YanmaBitmasks
-	dw WooperPlainBitmasks
+	dw WooperBitmasks
 	dw QuagsireBitmasks
 	dw EspeonBitmasks
 	dw UmbreonBitmasks
 	dw MurkrowBitmasks
-	dw SlowkingPlainBitmasks
+	dw SlowkingBitmasks
 	dw MisdreavusBitmasks
 	dw UnownABitmasks
 	dw WobbuffetBitmasks
@@ -210,18 +187,18 @@ BitmasksPointers:
 	dw SteelixBitmasks
 	dw SnubbullBitmasks
 	dw GranbullBitmasks
-	dw QwilfishPlainBitmasks
+	dw QwilfishBitmasks
 	dw ScizorBitmasks
 	dw ShuckleBitmasks
 	dw HeracrossBitmasks
-	dw SneaselPlainBitmasks
+	dw SneaselBitmasks
 	dw TeddiursaBitmasks
 	dw UrsaringBitmasks
 	dw SlugmaBitmasks
 	dw MagcargoBitmasks
 	dw SwinubBitmasks
 	dw PiloswineBitmasks
-	dw CorsolaPlainBitmasks
+	dw CorsolaBitmasks
 	dw RemoraidBitmasks
 	dw OctilleryBitmasks
 	dw DelibirdBitmasks
@@ -326,12 +303,6 @@ BitmasksPointers:
 	dw KikuriAgathaBitmasks
 	dw KikuriArianaBitmasks
 
-	dw EKikuriFlyBitmasks
-	dw EKikuriSurfBitmasks
-	dw EKikuriPikaBitmasks
-	dw EKikuriChuchuBitmasks
-	dw EKikuriSparkBitmasks
-
 	dw PichuSpikyBitmasks
 
 	dw LilyBlackSkellyBitmasks
@@ -361,51 +332,5 @@ BitmasksPointers:
 	dw SuikaArmoredBitmasks
 
 	dw DudunsparceThreeSegmentBitmasks
-
-	dw EMimaAlolanBitmasks
-	dw CElisAlolanBitmasks
-	dw CSarielAlolanBitmasks
-	dw SarielAlolanBitmasks
-	dw ESarielAlolanBitmasks
-	dw EMeiraAlolanBitmasks
-	dw CEllenAlolanBitmasks
-	dw CChiyuriAlolanBitmasks
-	dw ChiyuriAlolanBitmasks
-	dw EChiyuriAlolanBitmasks
-	dw CYumemiAlolanBitmasks
-	dw CSaraAlolanBitmasks
-	dw SaraAlolanBitmasks
-	dw ESaraAlolanBitmasks
-	dw EYukiAlolanBitmasks
-	dw CYumekoAlolanBitmasks
-	dw ECirnoAlolanBitmasks
-	dw MeilingAlolanBitmasks
-
-	dw EChiyuriGalarianBitmasks
-	dw CLuizeGalarianBitmasks
-	dw LuizeGalarianBitmasks
-	dw ELuizeGalarianBitmasks
-	dw CAliceGalarianBitmasks
-	dw CMaiGalarianBitmasks
-	dw CPatchouliGalarianBitmasks
-	dw MrMimeGalarianBitmasks
-	dw RanGalarianBitmasks
-	dw ERanGalarianBitmasks
-	dw CYukariGalarianBitmasks
-	dw SlowkingGalarianBitmasks
-	dw CorsolaGalarianBitmasks
-
-	dw EOrangeHisuianBitmasks
-	dw CKurumiHisuianBitmasks
-	dw EDaichanHisuianBitmasks
-	dw CCirnoHisuianBitmasks
-	dw EReisenHisuianBitmasks
-	dw QwilfishHisuianBitmasks
-	dw SneaselHisuianBitmasks
-
-	dw WooperPaldeanBitmasks
-	dw CLilyBlackPaldeanBitmasks
-	dw CLilyBlackPaldeanFireBitmasks
-	dw CLilyBlackPaldeanWaterBitmasks
 
 	assert_table_length NUM_UNIQUE_POKEMON

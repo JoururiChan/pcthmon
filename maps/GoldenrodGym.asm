@@ -145,17 +145,17 @@ GoldenrodGymGuyScript:
 	line "making!"
 
 	para "This Gym is home"
-	line "to Normal-type"
+	line "to Illusion-type"
 	cont "#mon trainers."
 
 	para "I recommend you"
-	line "use Fighting-type"
+	line "use Dream-type"
 	cont "#mon."
 
 	para "But be careful--"
 	line "Fairy #mon"
 
-	para "resist Fighting-"
+	para "resist Dream-"
 	line "type moves,"
 
 	para "and they're used"

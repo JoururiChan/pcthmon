@@ -91,14 +91,13 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveEKikuri
 	dw .EvolveCKana
 	dw .EvolveEKurumi
-	dw .EvolveELuizePlain
-	dw .EvolveELuizeGalarian
-	dw .EvolveEAlice
+	dw .EvolveDLuize
+	dw .EvolveAAlice
 	dw .EvolveCirno
-	dw .EvolveEKoakuma
+	dw .EvolveHKoakuma
 	dw .EvolveCMeiling
 	dw .EvolveChen
-	dw .EvolveELyrica
+	dw .EvolveTLyrica
 	dw .EvolveMimeJr
 	dw .EvolveUrsaring
 	dw .EvolveStantler
@@ -164,20 +163,17 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveEKurumi:
 	farwritetext ElmPhoneEvoText_EKurumi
 	end
-.EvolveELuizePlain:
-	farwritetext ElmPhoneEvoText_ELuizePlain
+.EvolveDLuize:
+	farwritetext ElmPhoneEvoText_DLuize
 	end
-.EvolveELuizeGalarian:
-	farwritetext ElmPhoneEvoText_ELuizeGalarian
-	end
-.EvolveEAlice:
-	farwritetext ElmPhoneEvoText_EAlice
+.EvolveAAlice:
+	farwritetext ElmPhoneEvoText_AAlice
 	end
 .EvolveCirno:
 	farwritetext ElmPhoneEvoText_Cirno
 	end
-.EvolveEKoakuma:
-	farwritetext ElmPhoneEvoText_EKoakuma
+.EvolveHKoakuma:
+	farwritetext ElmPhoneEvoText_HKoakuma
 	end
 .EvolveCMeiling:
 	farwritetext ElmPhoneEvoText_CMeiling
@@ -185,8 +181,8 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveChen:
 	farwritetext ElmPhoneEvoText_Chen
 	end
-.EvolveELyrica:
-	farwritetext ElmPhoneEvoText_ELyrica
+.EvolveTLyrica:
+	farwritetext ElmPhoneEvoText_TLyrica
 	end
 .EvolveMimeJr:
 	farwritetext ElmPhoneEvoText_MimeJr

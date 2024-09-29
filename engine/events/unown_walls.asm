@@ -7,10 +7,10 @@ SpecialHoOhChamber:
 	ld [wCurForm], a
 	call GetBaseData
 	ld a, [wBaseType1]
-	cp FAIRY
+	cp HEART
 	jr z, .open
 	ld a, [wBaseType2]
-	cp FAIRY
+	cp HEART
 	ret nz
 
 .open
@@ -47,16 +47,16 @@ SpecialLunasaChamber:
 	eventflagset EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	ret
 
-SpecialEYuyukoChamber:
+SpecialAYuyukoChamber:
 	call GetMapAttributesPointer
 	ld a, b
-	cp HIGH(RuinsOfAlphEYuyukoChamber_MapAttributes)
+	cp HIGH(RuinsOfAlphAYuyukoChamber_MapAttributes)
 	jr nz, .nope
 	ld a, c
-	cp LOW(RuinsOfAlphEYuyukoChamber_MapAttributes)
+	cp LOW(RuinsOfAlphAYuyukoChamber_MapAttributes)
 	jr nz, .nope
 
-	eventflagset EVENT_WALL_OPENED_IN_EYUYUKO_CHAMBER
+	eventflagset EVENT_WALL_OPENED_IN_AYUYUKO_CHAMBER
 	scf
 	ret
 

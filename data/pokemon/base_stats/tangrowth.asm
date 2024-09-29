@@ -1,7 +1,7 @@
 	db 100, 100, 125,  50, 110,  50 ; 535 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GRASS, GRASS ; type
+	db NATURE, NATURE ; type
 	db 30 ; catch rate
 	db 211 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

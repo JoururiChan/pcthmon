@@ -424,7 +424,7 @@ AzaleaTownWakasagiScript:
 	writethistext
 		text "Wakasagi: Mist!"
 		done
-	cry ELUIZE
+	cry DLUIZE
 	waitendtext
 
 AzaleaTownKurtScript:

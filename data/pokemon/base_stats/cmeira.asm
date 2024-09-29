@@ -1,7 +1,7 @@
 	db  25,  60,  40,  60,  45,  35 ; 323 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db STEEL, FIGHTING ; type
+	db STEEL, DREAM ; type
 	db 235 ; catch rate
 	db 75 ; base exp
 	db LEPPA_BERRY, MOON_STONE ; held items

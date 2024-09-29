@@ -56,7 +56,6 @@ CheckForUsedObjPals::
 	xor a
 	ld [wUsedObjectPals], a
 
-	call CheckAlolanECirnoPals
 
 	; Scan for active objects first and mark those pals still in use.
 	ld hl, wPalFlags
@@ -203,15 +202,7 @@ MarkUsedPal:
 .done
 	jmp PopBCDEHL
 
-CheckAlolanECirnoPals:
-	ld a, [wMapGroup]
-	cp GROUP_SHAMOUTI_ISLAND
-	ret nz
-	ld a, [wMapNumber]
-	cp MAP_SHAMOUTI_ISLAND
-	ret nz
-
-; Only Shamouti Island uses SPRITEMOVEDATA_ALOLAN_ECIRNO.
+; Only Shamouti Island uses SPRITEMOVEDATA_SCIRNO.
 ; This sprite movement's facing uses NEXT_PALETTE, and assumes
 ; that PAL_OW_BROWN exists right after PAL_OW_GREEN.
 

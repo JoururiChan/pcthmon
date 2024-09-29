@@ -332,7 +332,7 @@ Text_PowerPlantTutorTaught:
 	done
 
 PowerPlantForestText:
-	text "EAlice behaves"
+	text "AAlice behaves"
 	line "strangely in Rock"
 	cont "Tunnel."
 

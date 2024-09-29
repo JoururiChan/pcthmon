@@ -1,4 +1,4 @@
-AnimateDexSearchELuize:
+AnimateDexSearchDLuize:
 	ld hl, .FrameIDs
 	ld b, 25
 .loop
@@ -11,20 +11,20 @@ AnimateDexSearchELuize:
 	ld a, [hli]
 .ok
 
-;	ld [wDexSearchELuizeFrame], a
+;	ld [wDexSearchDLuizeFrame], a
 	ld a, [hli]
 	ld c, a
 	push bc
 	push hl
-	call DoDexSearchELuizeFrame
+	call DoDexSearchDLuizeFrame
 	pop hl
 	pop bc
 	call DelayFrames
 	dec b
 	jr nz, .loop
 	xor a
-;	ld [wDexSearchELuizeFrame], a
-	call DoDexSearchELuizeFrame
+;	ld [wDexSearchDLuizeFrame], a
+	call DoDexSearchDLuizeFrame
 	ld c, 32
 	jmp DelayFrames
 
@@ -37,8 +37,8 @@ AnimateDexSearchELuize:
 	db 4, 7
 	db -2
 
-DoDexSearchELuizeFrame:
-;	ld a, [wDexSearchELuizeFrame]
+DoDexSearchDLuizeFrame:
+;	ld a, [wDexSearchDLuizeFrame]
 	ld hl, .SpriteData
 	ld de, wShadowOAM
 .loop
@@ -50,7 +50,7 @@ DoDexSearchELuizeFrame:
 	ld a, [hli]
 	ld [de], a
 	inc de
-;	ld a, [wDexSearchELuizeFrame]
+;	ld a, [wDexSearchDLuizeFrame]
 	ld b, a
 	add a
 	add b

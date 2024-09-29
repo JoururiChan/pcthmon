@@ -266,7 +266,7 @@ AdjustMonAndMoveIndexesPostBuild4:
 	dw DoNothing ; build4_5
 	
 .build4_0
-	call AdjustShuckleAndELyricalutionIndexes
+	call AdjustShuckleAndTLyricalutionIndexes
 .build4_1
 	call ReplaceMilkDrink
 .build4_2
@@ -286,7 +286,7 @@ AdjustRhyperiorIndex:
 	dh 0xb6, -7 ; RHYPERIOR
 	dh -1
 
-AdjustShuckleAndELyricalutionIndexes:
+AdjustShuckleAndTLyricalutionIndexes:
 	set #r0, .mon_adjust_table
 	call AdjustPokemonIndexes
 

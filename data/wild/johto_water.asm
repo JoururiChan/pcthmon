@@ -191,8 +191,8 @@
 
 	def_water_wildmons ROUTE_42
 	db 4 percent ; encounter rate
-	wildmon 20, EFLANDRE
-	wildmon 20, EFLANDRE
+	wildmon 20, AFLANDRE
+	wildmon 20, AFLANDRE
 	wildmon 20, CLETTY
 	end_water_wildmons
 
@@ -394,7 +394,7 @@
 
 	def_water_wildmons RUGGED_ROAD_SOUTH
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, EFLANDRE
+	wildmon LEVEL_FROM_BADGES - 5, AFLANDRE
 	wildmon LEVEL_FROM_BADGES + 0, CLETTY
 	wildmon LEVEL_FROM_BADGES + 5, QWILFISH, HISUIAN_FORM
 	end_water_wildmons

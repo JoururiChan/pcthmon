@@ -1,13 +1,13 @@
 	db  52,  95,  55,  55,  58,  62 ; 377 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIGHTING, FIGHTING ; type
+	db DREAM, DREAM ; type
 	db 45 ; catch rate
 	db 94 ; base exp
 	db NO_ITEM, LEEK ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CMAI_GALARIAN, STEADFAST, STEADFAST, SCRAPPY
+	abilities_for CMAI, STEADFAST, STEADFAST, SCRAPPY
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_FLYING, EGG_GROUND ; egg groups
 

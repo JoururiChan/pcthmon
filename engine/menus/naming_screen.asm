@@ -294,9 +294,9 @@ NamingScreenJoypadLoop:
 	jr z, .got_cursor
 	cp THEME_FIRE
 	jr z, .got_cursor
-	cp THEME_ELECTRIC
+	cp THEME_WIND
 	jr z, .got_cursor
-	cp THEME_FAIRY
+	cp THEME_HEART2
 	jr z, .got_cursor
 	ld d, SPRITE_ANIM_INDEX_NAMING_SCREEN_CURSOR
 .got_cursor

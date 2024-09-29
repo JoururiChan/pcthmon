@@ -1,7 +1,7 @@
 	db  90, 130,  75,  55,  75,  75 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db ILLUSION, ILLUSION ; type
 	db 60 ; catch rate
 	db 189 ; base exp
 	db ALWAYS_ITEM_2, SITRUS_BERRY ; held items

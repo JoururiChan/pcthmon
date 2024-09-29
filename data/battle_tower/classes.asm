@@ -5,7 +5,7 @@ BattleTowerTrainers:
 	rawchar "Santiago@@", FISHER
 	rawchar "Mordecai@@", PI
 	rawchar "Newman@@@@", SAILOR
-	rawchar "Hamilton@@", VETERANF
+	rawchar "Hamilton@@", VETTRANF
 	rawchar "Angelica@@", BEAUTY
 	rawchar "Hare@@@@@@", RUIN_MANIAC
 	rawchar "Murray@@@@", SAILOR
@@ -52,10 +52,10 @@ BattleTowerTrainers:
 	rawchar "Hitesh@@@@", POKEMANIAC
 	rawchar "Abdul@@@@@", ENGINEER
 	rawchar "Emily@@@@@", LASS
-	rawchar "Hopper@@@@", VETERANF
+	rawchar "Hopper@@@@", VETTRANF
 	rawchar "Marc@@@@@@", HIKER
 	rawchar "Laura@@@@@", BATTLE_GIRL
-	rawchar "Swartz@@@@", VETERANM
+	rawchar "Swartz@@@@", VETTRANM
 	rawchar "Cobb@@@@@@", SCHOOLBOY
 	rawchar "Yufune@@@@", BLACKBELT_T
 	rawchar "Monica@@@@", WAITRESS
@@ -64,7 +64,7 @@ BattleTowerTrainers:
 	rawchar "Charlie@@@", JUGGLER
 	rawchar "Fagin@@@@@", BURGLAR
 	rawchar "Buckley@@@", RICH_BOY
-	rawchar "Mateo@@@@@", VETERANM
+	rawchar "Mateo@@@@@", VETTRANM
 	rawchar "Johnson@@@", SOLDIER
 	rawchar "Newandyke@", OFFICERM
 	rawchar "Rebecca@@@", SKIER
@@ -114,13 +114,13 @@ BattleTowerTrainers:
 	rawchar "Garrett@@@", JUGGLER
 	rawchar "Molly@@@@@", BAKER
 	rawchar "Salim@@@@@", ROUGHNECK
-	rawchar "Dijkstra@@", VETERANM
+	rawchar "Dijkstra@@", VETTRANM
 	rawchar "Raine@@@@@", COOLTRAINERF
 	rawchar "Dorothy@@@", SKIER
 	rawchar "Shirley@@@", POKEFANF
 	rawchar "Douglas@@@", SIGHTSEERM
 	rawchar "Armstrong@", BIKER
-	rawchar "Remy@@@@@@", VETERANF
+	rawchar "Remy@@@@@@", VETTRANF
 	rawchar "Drake@@@@@", RICH_BOY
 	rawchar "Mori@@@@@@", POKEFANF
 	rawchar "Jorge@@@@@", DRAGON_TAMER

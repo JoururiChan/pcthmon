@@ -7,9 +7,9 @@ else
 endc
 
 if DEF(FAITHFUL)
-	db GROUND, ROCK ; type
+	db EARTH, BEAST ; type
 else
-	db STEEL, ROCK ; type
+	db STEEL, BEAST ; type
 endc
 	db 30 ; catch rate
 	db 217 ; base exp

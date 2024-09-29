@@ -1,13 +1,13 @@
 	db  73,  67,  75, 109,  81, 100 ; 505 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ICE, FAIRY ; type
+	db ICE, HEART ; type
 	db 75 ; catch rate
 	db 178 ; base exp
 	db ALWAYS_ITEM_2, ASPEAR_BERRY ; held items
 	dn GENDER_F75, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CELLEN_ALOLAN, SNOW_CLOAK, SNOW_CLOAK, SNOW_WARNING
+	abilities_for CELLEN, SNOW_CLOAK, SNOW_CLOAK, SNOW_WARNING
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

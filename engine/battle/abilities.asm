@@ -871,7 +871,7 @@ _AfflictStatusAbility:
 
 CheckNullificationAbilities:
 ; Doesn't deal with the active effect of this, but just checking if they apply vs
-; an opponent's used attack (not Overcoat vs powder which is checked with Grass)
+; an opponent's used attack (not Overcoat vs powder which is checked with Nature)
 	; Most abilities depends on types and can use a lookup table, but a few
 	; don't. Check these first.
 	call GetOpponentAbilityAfterMoldBreaker
@@ -1671,7 +1671,7 @@ GorillaTacticsAbility:
 	jmp ApplyPhysicalAttackDamageMod
 
 OvergrowAbility:
-	ld b, GRASS
+	ld b, NATURE
 	jr PinchAbility
 BlazeAbility:
 	ld b, FIRE
@@ -1796,15 +1796,15 @@ MoveBoostAbility:
 	jmp MultiplyAndDivide
 
 SandForceAbility:
-; 130% damage for Ground/Rock/Steel-type moves in a sandstorm, not hurt by Sandstorm
+; 130% damage for Earth/Beast/Steel-type moves in a sandstorm, not hurt by Sandstorm
 	call GetWeatherAfterUserUmbrella
 	cp WEATHER_SANDSTORM
 	ret nz
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVar
-	cp GROUND
+	cp EARTH
 	jr z, .ok
-	cp ROCK
+	cp BEAST
 	jr z, .ok
 	cp STEEL
 	ret nz
@@ -1845,15 +1845,15 @@ GutsAbility:
 	jmp ApplyPhysicalAttackDamageMod
 
 PixilateAbility:
-	ld b, FAIRY
+	ld b, HEART
 	jr AteAbilities
 GalvanizeAbility:
-	ld b, ELECTRIC
+	ld b, WIND
 AteAbilities:
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVarAddr
 	ld a, [hl]
-	and a ; cp NORMAL
+	and a ; cp ILLUSION
 	ret nz
 
 	; change move type

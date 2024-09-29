@@ -449,18 +449,18 @@ ENDM
 	map_attributes RuinsOfAlphHoOhChamber, RUINS_OF_ALPH_HO_OH_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphCYuyukoChamber, RUINS_OF_ALPH_CYUYUKO_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphLunasaChamber, RUINS_OF_ALPH_LUNASA_CHAMBER, $0, 0
-	map_attributes RuinsOfAlphEYuyukoChamber, RUINS_OF_ALPH_EYUYUKO_CHAMBER, $0, 0
+	map_attributes RuinsOfAlphAYuyukoChamber, RUINS_OF_ALPH_AYUYUKO_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphEntranceChamber, RUINS_OF_ALPH_ENTRANCE_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphInnerChamber, RUINS_OF_ALPH_INNER_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphResearchCenter, RUINS_OF_ALPH_RESEARCH_CENTER, $0, 0
 	map_attributes RuinsOfAlphHoOhItemRoom, RUINS_OF_ALPH_HO_OH_ITEM_ROOM, $0, 0
 	map_attributes RuinsOfAlphCYuyukoItemRoom, RUINS_OF_ALPH_CYUYUKO_ITEM_ROOM, $0, 0
 	map_attributes RuinsOfAlphLunasaItemRoom, RUINS_OF_ALPH_LUNASA_ITEM_ROOM, $0, 0
-	map_attributes RuinsOfAlphEYuyukoItemRoom, RUINS_OF_ALPH_EYUYUKO_ITEM_ROOM, $0, 0
+	map_attributes RuinsOfAlphAYuyukoItemRoom, RUINS_OF_ALPH_AYUYUKO_ITEM_ROOM, $0, 0
 	map_attributes RuinsOfAlphHoOhWordRoom, RUINS_OF_ALPH_HO_OH_WORD_ROOM, $0, 0
 	map_attributes RuinsOfAlphCYuyukoWordRoom, RUINS_OF_ALPH_CYUYUKO_WORD_ROOM, $0, 0
 	map_attributes RuinsOfAlphLunasaWordRoom, RUINS_OF_ALPH_LUNASA_WORD_ROOM, $0, 0
-	map_attributes RuinsOfAlphEYuyukoWordRoom, RUINS_OF_ALPH_EYUYUKO_WORD_ROOM, $0, 0
+	map_attributes RuinsOfAlphAYuyukoWordRoom, RUINS_OF_ALPH_AYUYUKO_WORD_ROOM, $0, 0
 	map_attributes RuinsOfAlphSinjohChamber, RUINS_OF_ALPH_SINJOH_CHAMBER, $0, 0
 	map_attributes Route22Past, ROUTE_22_PAST, $2c, 0
 	map_attributes UnionCave1F, UNION_CAVE_1F, $9, 0
@@ -815,7 +815,7 @@ ENDM
 	map_attributes Route26DayofWeekSiblingsHouse, ROUTE_26_DAY_OF_WEEK_SIBLINGS_HOUSE, $0, 0
 	map_attributes Route27RestHouse, ROUTE_27_REST_HOUSE, $0, 0
 	map_attributes Route2946Gate, ROUTE_29_46_GATE, $0, 0
-	map_attributes FightingDojo, FIGHTING_DOJO, $0, 0
+	map_attributes DreamDojo, DREAM_DOJO, $0, 0
 	map_attributes SaffronGym, SAFFRON_GYM, $0, 0
 	map_attributes SaffronMart, SAFFRON_MART, $0, 0
 	map_attributes SaffronPokeCenter1F, SAFFRON_POKECENTER_1F, $0, 0

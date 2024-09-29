@@ -1,7 +1,7 @@
 	db  130,  68, 105, 80,  61,  98 ; 285 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GHOST, FAIRY ; type
+	db GHOST, HEART ; type
 	db 230 ; catch rate
 	db 201 ; base exp
 	db SILVER_LEAF, SILVER_LEAF ; held items

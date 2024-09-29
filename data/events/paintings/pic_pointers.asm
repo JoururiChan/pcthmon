@@ -6,6 +6,6 @@ PaintingPicPointers::
 	fardw BellTowerPaintingPic
 	fardw CYuyukoPuzzlePic
 	fardw LunasaPuzzlePic
-	fardw EYuyukoPuzzlePic
+	fardw AYuyukoPuzzlePic
 	fardw HoOhPuzzlePic
 	assert_table_length NUM_PAINTINGS

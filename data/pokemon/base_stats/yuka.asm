@@ -1,9 +1,9 @@
-	db  65,  120,  95, 15, 120,  90 ; 500 BST
+	db  85, 105,  100, 25, 130, 95 ; 540 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GRASS, POISON ; type
+	db NATURE, DARK ; type
 	db 51 ; catch rate
-	db 181 ; base exp
+	db 220 ; base exp
 	db NO_ITEM, TWISTEDSPOON ; held items
 	dn GENDER_F75, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 

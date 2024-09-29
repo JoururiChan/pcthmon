@@ -80,7 +80,7 @@ GenericTrainerBlackbeltYoshi:
 GenericTrainerBlackbeltLao:
 	generictrainer BLACKBELT_T, LAO, EVENT_BEAT_BLACKBELT_LAO, BlackbeltLaoSeenText, BlackbeltLaoBeatenText
 
-	text "Fighting #mon"
+	text "Dream #mon"
 	line "are afraid of psy-"
 	cont "chics…"
 	done

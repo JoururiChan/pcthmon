@@ -133,7 +133,7 @@ GenericTrainerHikerDent:
 	text "I'm headed to"
 	line "Pewter."
 
-	para "Its Rock-type Gym"
+	para "Its Beast-type Gym"
 	line "is perfect for a"
 	cont "buff guy like me!"
 	done

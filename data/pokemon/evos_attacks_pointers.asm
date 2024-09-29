@@ -6,164 +6,141 @@ EvosAttacksPointers::
 	table_width 2, EvosAttacksPointers
 	dw CReimuEvosAttacks
 	dw ReimuEvosAttacks
-	dw EReimuEvosAttacks
+	dw TReimuEvosAttacks
 	dw CMarisaEvosAttacks
 	dw MarisaEvosAttacks
-	dw EMarisaEvosAttacks
+	dw AMarisaEvosAttacks
 	dw CSakuyaEvosAttacks
 	dw SakuyaEvosAttacks
-	dw ESakuyaEvosAttacks
+	dw HSakuyaEvosAttacks
 	dw CGyokuEvosAttacks
 	dw MGyokuEvosAttacks
 	dw FGyokuEvosAttacks
 	dw OGyokuEvosAttacks
 	dw CMaganEvosAttacks
 	dw MaganEvosAttacks
-	dw EMaganEvosAttacks
 	dw CMimaEvosAttacks
 	dw MimaEvosAttacks
-	dw EMimaEvosAttacks
-	dw CElisPlainEvosAttacks
+	dw CElisEvosAttacks
 	dw ElisEvosAttacks
-	dw EElisEvosAttacks
 	dw CKikuriEvosAttacks
 	dw KikuriEvosAttacks
-	dw EKikuriEvosAttacks
-	dw CSarielPlainEvosAttacks
-	dw SarielPlainEvosAttacks
-	dw ESarielPlainEvosAttacks
+	dw CSarielEvosAttacks
+	dw SarielEvosAttacks
 	dw CKongaraEvosAttacks
 	dw KongaraEvosAttacks
-	dw EKongaraEvosAttacks
 	dw CRikaEvosAttacks
 	dw RikaEvosAttacks
-	dw ERikaEvosAttacks
+	dw ARikaEvosAttacks
 	dw CMeiraEvosAttacks
 	dw MeiraEvosAttacks
-	dw EMeiraPlainEvosAttacks
-	dw CEllenPlainEvosAttacks
+	dw CEllenEvosAttacks
 	dw EllenEvosAttacks
-	dw EEllenEvosAttacks
 	dw CKotohimeEvosAttacks
 	dw KotohimeEvosAttacks
-	dw EKotohimeEvosAttacks
 	dw CKanaEvosAttacks
 	dw KanaEvosAttacks
-	dw EKanaEvosAttacks
 	dw CRikakoEvosAttacks
 	dw RikakoEvosAttacks
-	dw ERikakoEvosAttacks
-	dw CChiyuriPlainEvosAttacks
-	dw ChiyuriPlainEvosAttacks
-	dw EChiyuriPlainEvosAttacks
-	dw CYumemiPlainEvosAttacks
+	dw CChiyuriEvosAttacks
+	dw ChiyuriEvosAttacks
+	dw CYumemiEvosAttacks
 	dw YumemiEvosAttacks
-	dw EYumemiEvosAttacks
 	dw COrangeEvosAttacks
 	dw OrangeEvosAttacks
-	dw EOrangePlainEvosAttacks
-	dw CKurumiPlainEvosAttacks
+	dw CKurumiEvosAttacks
 	dw KurumiEvosAttacks
-	dw EKurumiEvosAttacks
 	dw CEllyEvosAttacks
 	dw EllyEvosAttacks
-	dw EEllyEvosAttacks
 	dw CYukaEvosAttacks
 	dw YukaEvosAttacks
-	dw EYukaEvosAttacks
+	dw AYukaEvosAttacks
 	dw CMugetsuEvosAttacks
 	dw MugetsuEvosAttacks
-	dw EMugetsuEvosAttacks
 	dw CGengetsuEvosAttacks
 	dw GengetsuEvosAttacks
-	dw EGengetsuEvosAttacks
-	dw CSaraPlainEvosAttacks
-	dw SaraPlainEvosAttacks
-	dw ESaraPlainEvosAttacks
-	dw CLuizePlainEvosAttacks
-	dw LuizePlainEvosAttacks
-	dw ELuizePlainEvosAttacks
-	dw CAlicePlainEvosAttacks
+	dw CSaraEvosAttacks
+	dw SaraEvosAttacks
+	dw CLuizeEvosAttacks
+	dw LuizeEvosAttacks
+	dw DLuizeEvosAttacks
+	dw CAliceEvosAttacks
 	dw AliceEvosAttacks
-	dw EAliceEvosAttacks
-	dw CMaiPlainEvosAttacks
+	dw AAliceEvosAttacks
+	dw CMaiEvosAttacks
 	dw MaiEvosAttacks
-	dw EMaiEvosAttacks
 	dw CYukiEvosAttacks
 	dw YukiEvosAttacks
-	dw EYukiPlainEvosAttacks
-	dw CYumekoPlainEvosAttacks
+	dw CYumekoEvosAttacks
 	dw YumekoEvosAttacks
-	dw EYumekoEvosAttacks
 	dw CShinkiEvosAttacks
 	dw ShinkiEvosAttacks
-	dw EShinkiEvosAttacks
 	dw CRumiaEvosAttacks
 	dw RumiaEvosAttacks
-	dw ERumiaEvosAttacks
+	dw ARumiaEvosAttacks
 	dw CDaichanEvosAttacks
 	dw DaichanEvosAttacks
-	dw EDaichanPlainEvosAttacks
-	dw CCirnoPlainEvosAttacks
+	dw DDaichanEvosAttacks
+	dw CCirnoEvosAttacks
 	dw CirnoEvosAttacks
-	dw ECirnoPlainEvosAttacks
+	dw SCirnoEvosAttacks
 	dw CMeilingEvosAttacks
-	dw MeilingPlainEvosAttacks
-	dw EMeilingEvosAttacks
+	dw MeilingEvosAttacks
+	dw AMeilingEvosAttacks
 	dw CKoakumaEvosAttacks
 	dw KoakumaEvosAttacks
-	dw EKoakumaEvosAttacks
-	dw CPatchouliPlainEvosAttacks
+	dw HKoakumaEvosAttacks
+	dw CPatchouliEvosAttacks
 	dw PatchouliEvosAttacks
-	dw EPatchouliEvosAttacks
+	dw TPatchouliEvosAttacks
 	dw CRemiliaEvosAttacks
 	dw RemiliaEvosAttacks
-	dw ERemiliaEvosAttacks
+	dw SRemiliaEvosAttacks
 	dw CFlandreEvosAttacks
 	dw FlandreEvosAttacks
-	dw EFlandreEvosAttacks
+	dw AFlandreEvosAttacks
 	dw CLettyEvosAttacks
 	dw LettyEvosAttacks
-	dw ELettyEvosAttacks
-	dw MrMimePlainEvosAttacks
+	dw DLettyEvosAttacks
+	dw MrMimeEvosAttacks
 	dw ChenEvosAttacks
-	dw EChenEvosAttacks
+	dw HChenEvosAttacks
 	dw CLilyWhiteEvosAttacks
 	dw LilyWhiteEvosAttacks
 	dw ELilyWhiteEvosAttacks
-	dw CLilyBlackPlainEvosAttacks
+	dw CLilyBlackEvosAttacks
 	dw LilyBlackEvosAttacks
 	dw ELilyBlackEvosAttacks
 	dw CLyricaEvosAttacks
 	dw LyricaEvosAttacks
-	dw ELyricaEvosAttacks
+	dw TLyricaEvosAttacks
 	dw CMerlinEvosAttacks
 	dw MerlinEvosAttacks
-	dw EMerlinEvosAttacks
+	dw SMerlinEvosAttacks
 	dw CLunasaEvosAttacks
 	dw LunasaEvosAttacks
-	dw ELunasaEvosAttacks
+	dw ALunasaEvosAttacks
 	dw CYuyukoEvosAttacks
 	dw YuyukoEvosAttacks
-	dw EYuyukoEvosAttacks
+	dw AYuyukoEvosAttacks
 	dw CRanEvosAttacks
-	dw RanPlainEvosAttacks
-	dw ERanPlainEvosAttacks
-	dw CYukariPlainEvosAttacks
+	dw RanEvosAttacks
+	dw TRanEvosAttacks
+	dw CYukariEvosAttacks
 	dw YukariEvosAttacks
-	dw EYukariEvosAttacks
+	dw TYukariEvosAttacks
 	dw CSuikaEvosAttacks
 	dw SuikaEvosAttacks
-	dw ESuikaEvosAttacks
+	dw TSuikaEvosAttacks
 	dw CYoumuEvosAttacks
 	dw YoumuEvosAttacks
-	dw EYoumuEvosAttacks
+	dw SYoumuEvosAttacks
 	dw CReisenEvosAttacks
 	dw ReisenEvosAttacks
-	dw EReisenPlainEvosAttacks
+	dw TReisenEvosAttacks
 	dw CSanaeEvosAttacks
 	dw SanaeEvosAttacks
-	dw ESanaeEvosAttacks
+	dw DSanaeEvosAttacks
 	dw SentretEvosAttacks
 	dw FurretEvosAttacks
 	dw HoothootEvosAttacks
@@ -197,12 +174,12 @@ EvosAttacksPointers::
 	dw SunkernEvosAttacks
 	dw SunfloraEvosAttacks
 	dw YanmaEvosAttacks
-	dw WooperPlainEvosAttacks
+	dw WooperEvosAttacks
 	dw QuagsireEvosAttacks
 	dw EspeonEvosAttacks
 	dw UmbreonEvosAttacks
 	dw MurkrowEvosAttacks
-	dw SlowkingPlainEvosAttacks
+	dw SlowkingEvosAttacks
 	dw MisdreavusEvosAttacks
 	dw UnownEvosAttacks
 	dw WobbuffetEvosAttacks
@@ -214,18 +191,18 @@ EvosAttacksPointers::
 	dw SteelixEvosAttacks
 	dw SnubbullEvosAttacks
 	dw GranbullEvosAttacks
-	dw QwilfishPlainEvosAttacks
+	dw QwilfishEvosAttacks
 	dw ScizorEvosAttacks
 	dw ShuckleEvosAttacks
 	dw HeracrossEvosAttacks
-	dw SneaselPlainEvosAttacks
+	dw SneaselEvosAttacks
 	dw TeddiursaEvosAttacks
 	dw UrsaringEvosAttacks
 	dw SlugmaEvosAttacks
 	dw MagcargoEvosAttacks
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks
-	dw CorsolaPlainEvosAttacks
+	dw CorsolaEvosAttacks
 	dw RemoraidEvosAttacks
 	dw OctilleryEvosAttacks
 	dw DelibirdEvosAttacks
@@ -302,51 +279,5 @@ EvosAttacksPointers::
 	dw SuikaEvosAttacks
 
 	dw DudunsparceEvosAttacks
-
-	dw EMimaAlolanEvosAttacks
-	dw CElisAlolanEvosAttacks
-	dw CSarielAlolanEvosAttacks
-	dw SarielAlolanEvosAttacks
-	dw ESarielAlolanEvosAttacks
-	dw EMeiraAlolanEvosAttacks
-	dw CEllenAlolanEvosAttacks
-	dw CChiyuriAlolanEvosAttacks
-	dw ChiyuriAlolanEvosAttacks
-	dw EChiyuriAlolanEvosAttacks
-	dw CYumemiAlolanEvosAttacks
-	dw CSaraAlolanEvosAttacks
-	dw SaraAlolanEvosAttacks
-	dw ESaraAlolanEvosAttacks
-	dw EYukiAlolanEvosAttacks
-	dw CYumekoAlolanEvosAttacks
-	dw ECirnoAlolanEvosAttacks
-	dw MeilingAlolanEvosAttacks
-
-	dw EChiyuriGalarianEvosAttacks
-	dw CLuizeGalarianEvosAttacks
-	dw LuizeGalarianEvosAttacks
-	dw ELuizeGalarianEvosAttacks
-	dw CAliceGalarianEvosAttacks
-	dw CMaiGalarianEvosAttacks
-	dw CPatchouliGalarianEvosAttacks
-	dw MrMimeGalarianEvosAttacks
-	dw RanGalarianEvosAttacks
-	dw ERanGalarianEvosAttacks
-	dw CYukariGalarianEvosAttacks
-	dw SlowkingGalarianEvosAttacks
-	dw CorsolaGalarianEvosAttacks
-
-	dw EOrangeHisuianEvosAttacks
-	dw CKurumiHisuianEvosAttacks
-	dw EDaichanHisuianEvosAttacks
-	dw CCirnoHisuianEvosAttacks
-	dw EReisenHisuianEvosAttacks
-	dw QwilfishHisuianEvosAttacks
-	dw SneaselHisuianEvosAttacks
-
-	dw WooperPaldeanEvosAttacks
-	dw CLilyBlackPaldeanEvosAttacks
-	dw CLilyBlackPaldeanFireEvosAttacks
-	dw CLilyBlackPaldeanWaterEvosAttacks
 
 	assert_table_length NUM_EXT_POKEMON

@@ -21,7 +21,7 @@ BluesHouse2FPCText:
 	line "simulating a bat-"
 	cont "tle between a"
 
-	para "ESakuya and a"
+	para "HSakuya and a"
 	line "CSuika."
 	done
 

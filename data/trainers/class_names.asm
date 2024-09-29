@@ -109,8 +109,8 @@ TrainerClassNames::
 	li "Ace Trainer"      ; COOLTRAINERM
 	li "Ace Trainer"      ; COOLTRAINERF
 	li "Ace Duo"          ; ACE_DUO
-	li "Veteran"          ; VETERANM
-	li "Veteran"          ; VETERANF
+	li "Veteran"          ; VETTRANM
+	li "Veteran"          ; VETTRANF
 	li "Executive"        ; PROTON
 	li "Executive"        ; PETREL
 	li "Executive"        ; ARCHER

@@ -142,7 +142,7 @@ JackMagnitudeTriviaText:
 JackSandstormTriviaText:
 	text "Did you know…?"
 
-	para "The Rock, Ground"
+	para "The Beast, Earth"
 	line "and Steel types"
 
 	para "can't be hurt by"

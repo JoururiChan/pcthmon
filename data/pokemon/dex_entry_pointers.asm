@@ -3,164 +3,141 @@ TohodexDataPointerTable:
 	table_width 3, TohodexDataPointerTable
 	dba CReimuTohodexEntry
 	dba ReimuTohodexEntry
-	dba EReimuTohodexEntry
+	dba TReimuTohodexEntry
 	dba CMarisaTohodexEntry
 	dba MarisaTohodexEntry
-	dba EMarisaTohodexEntry
+	dba AMarisaTohodexEntry
 	dba CSakuyaTohodexEntry
 	dba SakuyaTohodexEntry
-	dba ESakuyaTohodexEntry
+	dba HSakuyaTohodexEntry
 	dba CGyokuTohodexEntry
 	dba MGyokuTohodexEntry
 	dba FGyokuTohodexEntry
 	dba OGyokuTohodexEntry
 	dba CMaganTohodexEntry
 	dba MaganTohodexEntry
-	dba EMaganTohodexEntry
 	dba CMimaTohodexEntry
 	dba MimaTohodexEntry
-	dba EMimaTohodexEntry
-	dba CElisPlainTohodexEntry
+	dba CElisTohodexEntry
 	dba ElisTohodexEntry
-	dba EElisTohodexEntry
 	dba CKikuriTohodexEntry
 	dba KikuriTohodexEntry
-	dba EKikuriTohodexEntry
-	dba CSarielPlainTohodexEntry
-	dba SarielPlainTohodexEntry
-	dba ESarielPlainTohodexEntry
+	dba CSarielTohodexEntry
+	dba SarielTohodexEntry
 	dba CKongaraTohodexEntry
 	dba KongaraTohodexEntry
-	dba EKongaraTohodexEntry
 	dba CRikaTohodexEntry
 	dba RikaTohodexEntry
-	dba ERikaTohodexEntry
+	dba ARikaTohodexEntry
 	dba CMeiraTohodexEntry
 	dba MeiraTohodexEntry
-	dba EMeiraPlainTohodexEntry
-	dba CEllenPlainTohodexEntry
+	dba CEllenTohodexEntry
 	dba EllenTohodexEntry
-	dba EEllenTohodexEntry
 	dba CKotohimeTohodexEntry
 	dba KotohimeTohodexEntry
-	dba EKotohimeTohodexEntry
 	dba CKanaTohodexEntry
 	dba KanaTohodexEntry
-	dba EKanaTohodexEntry
 	dba CRikakoTohodexEntry
 	dba RikakoTohodexEntry
-	dba ERikakoTohodexEntry
-	dba CChiyuriPlainTohodexEntry
-	dba ChiyuriPlainTohodexEntry
-	dba EChiyuriPlainTohodexEntry
-	dba CYumemiPlainTohodexEntry
+	dba CChiyuriTohodexEntry
+	dba ChiyuriTohodexEntry
+	dba CYumemiTohodexEntry
 	dba YumemiTohodexEntry
-	dba EYumemiTohodexEntry
 	dba COrangeTohodexEntry
 	dba OrangeTohodexEntry
-	dba EOrangeTohodexEntry
 	dba CKurumiTohodexEntry
 	dba KurumiTohodexEntry
-	dba EKurumiTohodexEntry
 	dba CEllyTohodexEntry
 	dba EllyTohodexEntry
-	dba EEllyTohodexEntry
 	dba CYukaTohodexEntry
 	dba YukaTohodexEntry
-	dba EYukaTohodexEntry
+	dba AYukaTohodexEntry
 	dba CMugetsuTohodexEntry
 	dba MugetsuTohodexEntry
-	dba EMugetsuTohodexEntry
 	dba CGengetsuTohodexEntry
 	dba GengetsuTohodexEntry
-	dba EGengetsuTohodexEntry
-	dba CSaraPlainTohodexEntry
-	dba SaraPlainTohodexEntry
-	dba ESaraPlainTohodexEntry
-	dba CLuizePlainTohodexEntry
-	dba LuizePlainTohodexEntry
-	dba ELuizePlainTohodexEntry
-	dba CAlicePlainTohodexEntry
+	dba CSaraTohodexEntry
+	dba SaraTohodexEntry
+	dba CLuizeTohodexEntry
+	dba LuizeTohodexEntry
+	dba DLuizeTohodexEntry
+	dba CAliceTohodexEntry
 	dba AliceTohodexEntry
-	dba EAliceTohodexEntry
-	dba CMaiPlainTohodexEntry
+	dba AAliceTohodexEntry
+	dba CMaiTohodexEntry
 	dba MaiTohodexEntry
-	dba EMaiTohodexEntry
 	dba CYukiTohodexEntry
 	dba YukiTohodexEntry
-	dba EYukiPlainTohodexEntry
-	dba CYumekoPlainTohodexEntry
+	dba CYumekoTohodexEntry
 	dba YumekoTohodexEntry
-	dba EYumekoTohodexEntry
 	dba CShinkiTohodexEntry
 	dba ShinkiTohodexEntry
-	dba EShinkiTohodexEntry
 	dba CRumiaTohodexEntry
 	dba RumiaTohodexEntry
-	dba ERumiaTohodexEntry
+	dba ARumiaTohodexEntry
 	dba CDaichanTohodexEntry
 	dba DaichanTohodexEntry
-	dba EDaichanTohodexEntry
+	dba DDaichanTohodexEntry
 	dba CCirnoTohodexEntry
 	dba CirnoTohodexEntry
-	dba ECirnoPlainTohodexEntry
+	dba SCirnoTohodexEntry
 	dba CMeilingTohodexEntry
-	dba MeilingPlainTohodexEntry
-	dba EMeilingTohodexEntry
+	dba MeilingTohodexEntry
+	dba AMeilingTohodexEntry
 	dba CKoakumaTohodexEntry
 	dba KoakumaTohodexEntry
-	dba EKoakumaTohodexEntry
-	dba CPatchouliPlainTohodexEntry
+	dba HKoakumaTohodexEntry
+	dba CPatchouliTohodexEntry
 	dba PatchouliTohodexEntry
-	dba EPatchouliTohodexEntry
+	dba TPatchouliTohodexEntry
 	dba CRemiliaTohodexEntry
 	dba RemiliaTohodexEntry
-	dba ERemiliaTohodexEntry
+	dba SRemiliaTohodexEntry
 	dba CFlandreTohodexEntry
 	dba FlandreTohodexEntry
-	dba EFlandreTohodexEntry
+	dba AFlandreTohodexEntry
 	dba CLettyTohodexEntry
 	dba LettyTohodexEntry
-	dba ELettyTohodexEntry
-	dba MrMimePlainTohodexEntry
+	dba DLettyTohodexEntry
+	dba MrMimeTohodexEntry
 	dba ChenTohodexEntry
-	dba EChenTohodexEntry
+	dba HChenTohodexEntry
 	dba CLilyWhiteTohodexEntry
 	dba LilyWhiteTohodexEntry
 	dba ELilyWhiteTohodexEntry
-	dba CLilyBlackPlainTohodexEntry
+	dba CLilyBlackTohodexEntry
 	dba LilyBlackTohodexEntry
-	dba ELilyBlackPlainTohodexEntry
+	dba ELilyBlackTohodexEntry
 	dba CLyricaTohodexEntry
 	dba LyricaTohodexEntry
-	dba ELyricaTohodexEntry
+	dba TLyricaTohodexEntry
 	dba CMerlinTohodexEntry
 	dba MerlinTohodexEntry
-	dba EMerlinTohodexEntry
+	dba SMerlinTohodexEntry
 	dba CLunasaTohodexEntry
 	dba LunasaTohodexEntry
-	dba ELunasaTohodexEntry
+	dba ALunasaTohodexEntry
 	dba CYuyukoTohodexEntry
 	dba YuyukoTohodexEntry
-	dba EYuyukoTohodexEntry
+	dba AYuyukoTohodexEntry
 	dba CRanTohodexEntry
-	dba RanPlainTohodexEntry
-	dba ERanPlainTohodexEntry
-	dba CYukariPlainTohodexEntry
+	dba RanTohodexEntry
+	dba TRanTohodexEntry
+	dba CYukariTohodexEntry
 	dba YukariTohodexEntry
-	dba EYukariTohodexEntry
+	dba TYukariTohodexEntry
 	dba CSuikaTohodexEntry
-	dba SuikaPlainTohodexEntry
-	dba ESuikaTohodexEntry
+	dba SuikaTohodexEntry
+	dba TSuikaTohodexEntry
 	dba CYoumuTohodexEntry
 	dba YoumuTohodexEntry
-	dba EYoumuTohodexEntry
+	dba SYoumuTohodexEntry
 	dba CReisenTohodexEntry
 	dba ReisenTohodexEntry
-	dba EReisenPlainTohodexEntry
+	dba TReisenTohodexEntry
 	dba CSanaeTohodexEntry
 	dba SanaeTohodexEntry
-	dba ESanaeTohodexEntry
+	dba DSanaeTohodexEntry
 	dba SentretTohodexEntry
 	dba FurretTohodexEntry
 	dba HoothootTohodexEntry
@@ -194,12 +171,12 @@ TohodexDataPointerTable:
 	dba SunkernTohodexEntry
 	dba SunfloraTohodexEntry
 	dba YanmaTohodexEntry
-	dba WooperPlainTohodexEntry
+	dba WooperTohodexEntry
 	dba QuagsireTohodexEntry
 	dba EspeonTohodexEntry
 	dba UmbreonTohodexEntry
 	dba MurkrowTohodexEntry
-	dba SlowkingPlainTohodexEntry
+	dba SlowkingTohodexEntry
 	dba MisdreavusTohodexEntry
 	dba UnownTohodexEntry
 	dba WobbuffetTohodexEntry
@@ -222,7 +199,7 @@ TohodexDataPointerTable:
 	dba MagcargoTohodexEntry
 	dba SwinubTohodexEntry
 	dba PiloswineTohodexEntry
-	dba CorsolaPlainTohodexEntry
+	dba CorsolaTohodexEntry
 	dba RemoraidTohodexEntry
 	dba OctilleryTohodexEntry
 	dba DelibirdTohodexEntry
@@ -299,51 +276,5 @@ TohodexDataPointerTable:
 	dba SuikaArmoredTohodexEntry
 
 	dba DudunsparceTohodexEntry
-
-	dba EMimaAlolanTohodexEntry
-	dba CElisAlolanTohodexEntry
-	dba CSarielAlolanTohodexEntry
-	dba SarielAlolanTohodexEntry
-	dba ESarielAlolanTohodexEntry
-	dba EMeiraAlolanTohodexEntry
-	dba CEllenAlolanTohodexEntry
-	dba CChiyuriAlolanTohodexEntry
-	dba ChiyuriAlolanTohodexEntry
-	dba EChiyuriAlolanTohodexEntry
-	dba CYumemiAlolanTohodexEntry
-	dba CSaraAlolanTohodexEntry
-	dba SaraAlolanTohodexEntry
-	dba ESaraAlolanTohodexEntry
-	dba EYukiAlolanTohodexEntry
-	dba CYumekoAlolanTohodexEntry
-	dba ECirnoAlolanTohodexEntry
-	dba MeilingAlolanTohodexEntry
-
-	dba EChiyuriGalarianTohodexEntry
-	dba CLuizeGalarianTohodexEntry
-	dba LuizeGalarianTohodexEntry
-	dba ELuizeGalarianTohodexEntry
-	dba CAliceGalarianTohodexEntry
-	dba CMaiGalarianTohodexEntry
-	dba CPatchouliGalarianTohodexEntry
-	dba MrMimeGalarianTohodexEntry
-	dba RanGalarianTohodexEntry
-	dba ERanGalarianTohodexEntry
-	dba CYukariGalarianTohodexEntry
-	dba SlowkingGalarianTohodexEntry
-	dba CorsolaGalarianTohodexEntry
-
-	dba EOrangeHisuianTohodexEntry
-	dba CKurumiHisuianTohodexEntry
-	dba EDaichanHisuianTohodexEntry
-	dba CCirnoHisuianTohodexEntry
-	dba EReisenHisuianTohodexEntry
-	dba QwilfishHisuianTohodexEntry
-	dba SneaselHisuianTohodexEntry
-
-	dba WooperPaldeanTohodexEntry
-	dba CLilyBlackPaldeanTohodexEntry
-	dba CLilyBlackPaldeanFireTohodexEntry
-	dba CLilyBlackPaldeanWaterTohodexEntry
 
 	assert_table_length NUM_EXT_POKEMON

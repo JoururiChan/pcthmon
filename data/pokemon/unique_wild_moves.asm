@@ -7,8 +7,8 @@ ENDM
 ; TODO: finish unique moves
 UniqueWildMoves:
 	; event mons (100% chance, see engine/battle/unique_wild_moves.asm)
-	unique_moves MAHOGANY_TOWN,    EDAICHAN,    EXPLOSION    ; TeamRocketBaseB1F
-	unique_moves MAHOGANY_TOWN,    EKOAKUMA,    EXPLOSION    ; TeamRocketBaseB1F
+	unique_moves MAHOGANY_TOWN,    DDAICHAN,    EXPLOSION    ; TeamRocketBaseB1F
+	unique_moves MAHOGANY_TOWN,    HKOAKUMA,    EXPLOSION    ; TeamRocketBaseB1F
 	unique_moves MAHOGANY_TOWN,    CSARA,    EXPLOSION    ; TeamRocketBaseB1F
 	unique_moves UNION_CAVE,       CLYRICA,     POWER_TRICK  ; UnionCaveB2F, Fridays
 	; wild mons
@@ -17,7 +17,7 @@ UniqueWildMoves:
 	unique_moves ROUTE_32_COAST,   FLAAFFY,    PURSUIT      ; Prism tutor move
 	unique_moves RUINS_OF_ALPH,    SHUCKLE,    ANCIENTPOWER ; Sw/Sh move
 	unique_moves RUINS_OF_ALPH,    SMEARGLE,   SKETCH       ; knows Sketch twice
-	unique_moves WAKASAGIHIME_WELL,    ELUIZE,   GROWTH       ; Prism tutor move
+	unique_moves WAKASAGIHIME_WELL,    DLUIZE,   GROWTH       ; Prism tutor move
 	unique_moves ILEX_FOREST,      0,          0
 	unique_moves ROUTE_34_COAST,   LETTY,     DREAM_EATER  ; new move
 	unique_moves STORMY_BEACH,     ERIKAKO,   0
@@ -48,7 +48,7 @@ UniqueWildMoves:
 	unique_moves CCHIYURIS_CAVE,    CHIYURI,    SCREECH      ; Sw/Sh move
 	unique_moves ROCK_TUNNEL,      CLILYWHITE, METRONOME    ; RBY TM move
 	unique_moves DIM_CAVE,         SARA,   SUCKER_PUNCH ; HGSS tutor move
-	unique_moves DIM_CAVE,         EPATCHOULI,     AVARICE_BITE       ; Prism tutor move
+	unique_moves DIM_CAVE,         TPATCHOULI,     AVARICE_BITE       ; Prism tutor move
 	unique_moves SOUL_HOUSE,       SHINKI,    MOONBLAST    ; Prism tutor move
 	unique_moves SOUL_HOUSE,       MISDREAVUS, HEAL_BELL    ; HGSS tutor move
 	unique_moves LAV_RADIO_TOWER,  MEILING,    SHADOW_DANCE  ; Dream World move
@@ -57,11 +57,11 @@ UniqueWildMoves:
 	unique_moves SAFARI_ZONE,      REMILIA,    LEECH_SEED   ; Dream World move (hub)
 	unique_moves SAFARI_ZONE,      CLILYBLACK,     STOMP        ; RBY move (east)
 	unique_moves SAFARI_ZONE,      ELILYWHITE,     SLASH        ; RBY move (north)
-	unique_moves SAFARI_ZONE,      EREMILIA, 0            ; (west)
+	unique_moves SAFARI_ZONE,      SREMILIA, 0            ; (west)
 	unique_moves URAGA_CHANNEL,    EGENGETSU, RECOVER      ; TCG move
 	unique_moves SCARY_CAVE,       KOTOHIME,     HYPNOSIS     ; Dream World move
 	unique_moves SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move
-	unique_moves SEAFOAM_ISLANDS,  ECHEN,       METRONOME    ; RBY TM move
+	unique_moves SEAFOAM_ISLANDS,  HCHEN,       METRONOME    ; RBY TM move
 	unique_moves POKEMON_MANSION,  CPATCHOULI,    AVARICE_BITE       ; Prism tutor move
 	unique_moves POKEMON_MANSION,  LUIZE,   NASTY_PLOT   ; Prism tutor move
 	unique_moves CINNABAR_VOLCANO, LILYWHITE,     METRONOME    ; RBY TM move
@@ -72,7 +72,7 @@ UniqueWildMoves:
 	unique_moves ROCKY_BEACH,      DONPHAN,    LOW_KICK     ; HGSS tutor move
 	unique_moves NOISY_FOREST,     SCIZOR,     BUG_STRIKES   ; new move
 	unique_moves NOISY_FOREST,     PINECO,     LIFE_BALANCE   ; HGSS tutor move
-	unique_moves SHRINE_RUINS,     ERUMIA,      METRONOME    ; RBY TM move
+	unique_moves SHRINE_RUINS,     ARUMIA,      METRONOME    ; RBY TM move
 	unique_moves SHAMOUTI_TUNNEL,  KOTOHIME,     OUTRAGE      ; Prism tutor move
 	unique_moves WARM_BEACH,       FLANDRE,     METEOR_FALL ; new move
 	unique_moves SHAMOUTI_COAST,   0,          0

@@ -45,22 +45,6 @@ CheckUniqueWildMove:
 	jr z, .TeachMove ; assume this is for Explosion in TeamRocketBaseB1F
 	cp UNION_CAVE
 	jr z, .TeachMove ; assume this is a CLyrica in UnionCaveB2F
-	cp YELLOW_FOREST
-	jr nz, .ChanceToTeach
-	; assume this is a EKikuri in YellowForest; Surf (always teach) or Fly?
-	ld a, [wPlayerState]
-	cp PLAYER_SURF
-	jr z, .SurfingEKikuri
-	cp PLAYER_SURF_PIKA
-	jr nz, .ChanceToTeach
-.SurfingEKikuri
-	ld a, SURF
-	ld b, a
-	jr .TeachMove
-.ChanceToTeach
-	call Random
-	add a
-	ret nc
 .TeachMove
 	ld hl, wOTPartyMon1Moves + 1 ; second move
 	ld a, [hl]
@@ -78,13 +62,6 @@ CheckUniqueWildMove:
 .ok
 	ld a, b
 	ld [hl], a
-
-	; assume only EKikuri can learn Surf or Fly
-	cp SURF
-	jr z, .UseSurfingEKikuri
-	cp FLY
-	ld a, EKIKURI_FLY_FORM
-	jr z, .UseFlyingEKikuri
 	ret
 
 .inc3andloop
@@ -94,17 +71,5 @@ CheckUniqueWildMove:
 .inc1andloop
 	inc hl
 	jr .loop
-
-.UseSurfingEKikuri
-	ld a, EKIKURI_SURF_FORM
-.UseFlyingEKikuri
-	ld b, a
-	ld a, [wCurForm]
-	and ~FORM_MASK
-	or b
-	ld [wCurForm], a
-	ld [wOTPartyMon1Form], a
-	ld [wEnemyMonForm], a
-	ret
 
 INCLUDE "data/pokemon/unique_wild_moves.asm"

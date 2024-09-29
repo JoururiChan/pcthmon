@@ -1,7 +1,7 @@
 	db  55,  40,  85,  40,  80, 105 ; 405 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FAIRY, FLYING ; type
+	db HEART, FLYING ; type
 	db 75 ; catch rate
 	db 114 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

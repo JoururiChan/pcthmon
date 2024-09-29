@@ -1517,7 +1517,7 @@ CheckAirborne:
 	call GetTrueUserAbility
 	ld b, a
 CheckAirborne_GotAbility:
-; d=1: Skip type checks (used for Inverse Battle Ground->Flying matchup)
+; d=1: Skip type checks (used for Inverse Battle Earth->Flying matchup)
 ; Returns a=0 and z if grounded. Returns nz if not.
 ; a contains ATKFAIL_MISSED for air balloon, ATKFAIL_IMMUNE for flying type,
 ; ATKFAIL_ABILITY for Levitate.
@@ -1564,7 +1564,7 @@ BattleCheckTypeMatchup:
 	; fallthrough
 CheckTypeMatchup:
 ; Wrapper that handles ability immunities, because type matchups take predecence,
-; this matters for Ground tohomon with Lightning Rod (and Trace edge-cases).
+; this matters for Earth tohomon with Lightning Rod (and Trace edge-cases).
 ; Yes, Lightning Rod is useless on ground types since GSC has no doubles.
 	push hl
 	push de
@@ -1575,10 +1575,10 @@ CheckTypeMatchup:
 	and a
 	jr z, .end
 
-	; check Ground-type attacks
+	; check Earth-type attacks
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVar
-	cp GROUND
+	cp EARTH
 	jr nz, .done_ground_type
 
 	call SwitchTurn
@@ -1629,10 +1629,10 @@ _CheckTypeMatchup:
 	pop hl
 	push hl
 	ld a, [hli]
-	cp GRASS
+	cp NATURE
 	jmp z, .Immune
 	ld a, [hl]
-	cp GRASS
+	cp NATURE
 	jmp z, .Immune
 	call GetOpponentAbilityAfterMoldBreaker
 	cp OVERCOAT
@@ -3989,7 +3989,7 @@ CheckAttackItemBoost:
 
 SandstormSpDefBoost:
 	push bc
-	lb bc, WEATHER_SANDSTORM, ROCK
+	lb bc, WEATHER_SANDSTORM, BEAST
 	jr WeatherDefenseBoost
 HailDefenseBoost:
 	push bc
@@ -4837,7 +4837,7 @@ BattleCommand_sleep:
 
 CanPoisonTarget:
 	ld a, b
-	lb bc, POISON, STEEL
+	lb bc, MIASMA, STEEL
 	lb de, IMMUNITY, HELD_PREVENT_POISON
 	ld h, 1 << PSN
 	jr CanStatusTarget
@@ -4849,7 +4849,7 @@ CanBurnTarget:
 	jr CanStatusTarget
 CanParalyzeTarget:
 	ld a, b
-	lb bc, ELECTRIC, ELECTRIC
+	lb bc, WIND, WIND
 	lb de, LIMBER, HELD_PREVENT_PARALYZE
 	ld h, 1 << PAR
 	jr CanStatusTarget

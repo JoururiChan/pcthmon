@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db POISON, GROUND ; type
+	db MIASMA, EARTH ; type
 	db 90 ; catch rate
 	db 137 ; base exp
 	db NO_ITEM, CHESTO_BERRY ; held items

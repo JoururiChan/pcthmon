@@ -173,7 +173,7 @@ LoadEonMailGFX:
 	ld de, SurfMailBorderGFX + 6 * 8
 	ld c, 1 * 8
 	call LoadMailGFX_Color2
-	ld de, MailELyricaGFX
+	ld de, MailTLyricaGFX
 	ld c, 6 * 8
 	call LoadMailGFX_Color3
 	ld hl, vTiles2 tile $3d
@@ -560,7 +560,7 @@ LoadMirageMailGFX:
 	ld de, BlueSkyMailGrassGFX
 	ld c, 1 * 8
 	call LoadMailGFX_Color2
-	ld de, MailESuikaGFX
+	ld de, MailTSuikaGFX
 	ld c, 18 * 8
 	call LoadMailGFX_Color2
 	ld de, LiteBlueMailBorderGFX + 1 * 8

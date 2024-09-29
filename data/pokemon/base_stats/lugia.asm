@@ -2,7 +2,7 @@
 	;   hp  atk  def  spe  sat  sdf
 
 if DEF(FAITHFUL)
-	db PSYCHIC, FLYING ; type
+	db REASON, FLYING ; type
 else
 	db WATER, FLYING ; type
 endc

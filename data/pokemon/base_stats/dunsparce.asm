@@ -2,9 +2,9 @@
 	;   hp  atk  def  spe  sat  sdf
 
 if DEF(FAITHFUL)
-	db NORMAL, NORMAL ; type
+	db ILLUSION, ILLUSION ; type
 else
-	db NORMAL, GROUND ; type
+	db ILLUSION, EARTH ; type
 endc
 	db 190 ; catch rate
 	db 75 ; base exp

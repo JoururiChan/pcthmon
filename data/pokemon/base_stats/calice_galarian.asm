@@ -6,13 +6,13 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db POISON, PSYCHIC ; type
+	db MIASMA, PSYCHIC ; type
 	db 75 ; catch rate
 	db 164 ; base exp
 	db NO_ITEM, KINGS_ROCK ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CALICE_GALARIAN, QUICK_DRAW, OWN_TEMPO, REGENERATOR
+	abilities_for CALICE, QUICK_DRAW, OWN_TEMPO, REGENERATOR
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MONSTER, EGG_WATER_1 ; egg groups
 

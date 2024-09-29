@@ -1,7 +1,7 @@
 	db  50,  50,  40,  50,  30,  30 ; 250 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ICE, GROUND ; type
+	db ICE, EARTH ; type
 	db 225 ; catch rate
 	db 78 ; base exp
 	db NO_ITEM, RAWST_BERRY ; held items

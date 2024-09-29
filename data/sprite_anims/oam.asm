@@ -92,11 +92,11 @@ SpriteAnimOAMData:
 	spriteanimoam $00, .OAMData_PcPack                 ; SPRITE_ANIM_OAMSET_PC_PACK
 	spriteanimoam $00, .OAMData_DexCursor              ; SPRITE_ANIM_OAMSET_DEX_CURSOR
 	spriteanimoam $1e, .OAMData_DexUnownCursor         ; SPRITE_ANIM_OAMSET_DEX_UNOWN_CURSOR
-	spriteanimoam $40, .OAMData_DexELuize            ; SPRITE_ANIM_OAMSET_DEX_ELUIZE_1
-	spriteanimoam $43, .OAMData_DexELuize            ; SPRITE_ANIM_OAMSET_DEX_ELUIZE_2
-	spriteanimoam $46, .OAMData_DexELuize            ; SPRITE_ANIM_OAMSET_DEX_ELUIZE_3
-	spriteanimoam $49, .OAMData_DexELuize            ; SPRITE_ANIM_OAMSET_DEX_ELUIZE_4
-	spriteanimoam $4c, .OAMData_DexELuize            ; SPRITE_ANIM_OAMSET_DEX_ELUIZE_5
+	spriteanimoam $40, .OAMData_DexDLuize            ; SPRITE_ANIM_OAMSET_DEX_DLUIZE_1
+	spriteanimoam $43, .OAMData_DexDLuize            ; SPRITE_ANIM_OAMSET_DEX_DLUIZE_2
+	spriteanimoam $46, .OAMData_DexDLuize            ; SPRITE_ANIM_OAMSET_DEX_DLUIZE_3
+	spriteanimoam $49, .OAMData_DexDLuize            ; SPRITE_ANIM_OAMSET_DEX_DLUIZE_4
+	spriteanimoam $4c, .OAMData_DexDLuize            ; SPRITE_ANIM_OAMSET_DEX_DLUIZE_5
 	spriteanimoam $09, .OAMData_TownMapFly             ; SPRITE_ANIM_OAMSET_TOWN_MAP_FLY
 	spriteanimoam $00, .OAMData_GreenWalk              ; SPRITE_ANIM_OAMSET_GREEN_WALK_1
 	spriteanimoam $04, .OAMData_GreenWalk              ; SPRITE_ANIM_OAMSET_GREEN_WALK_2
@@ -785,7 +785,7 @@ SpriteAnimOAMData:
 	dsprite  0,  0, -1,  7, $00, $2 | Y_FLIP
 	dsprite  0,  0,  0,  0, $00, $2 | X_FLIP | Y_FLIP
 
-.OAMData_DexELuize:
+.OAMData_DexDLuize:
 	db 9
 	; top row
 	dsprite  0,  0,  0,  0, $00, $0 | VRAM_BANK_1

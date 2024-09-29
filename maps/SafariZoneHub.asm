@@ -42,7 +42,7 @@ GenericTrainerBug_maniacKai:
 
 Bug_maniacKaiSeenText:
 	text "My Rikako evolved"
-	line "into a ERikako?!"
+	line "into a ARikako?!"
 	done
 
 Bug_maniacKaiBeatenText:

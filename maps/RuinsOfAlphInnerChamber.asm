@@ -13,8 +13,8 @@ RuinsOfAlphInnerChamber_MapScriptHeader:
 	warp_event 16,  3, RUINS_OF_ALPH_CYUYUKO_CHAMBER, 4
 	warp_event  3, 21, RUINS_OF_ALPH_LUNASA_CHAMBER, 3
 	warp_event  4, 21, RUINS_OF_ALPH_LUNASA_CHAMBER, 4
-	warp_event 15, 24, RUINS_OF_ALPH_EYUYUKO_CHAMBER, 3
-	warp_event 16, 24, RUINS_OF_ALPH_EYUYUKO_CHAMBER, 4
+	warp_event 15, 24, RUINS_OF_ALPH_AYUYUKO_CHAMBER, 3
+	warp_event 16, 24, RUINS_OF_ALPH_AYUYUKO_CHAMBER, 4
 
 	def_coord_events
 

@@ -188,7 +188,7 @@ GetFishLocations:
 	jr z, .got_iterator
 	inc d
 .got_iterator
-	; Figure out if Corsola or ELetty is the time of day encounter. We're not
+	; Figure out if Corsola or DLetty is the time of day encounter. We're not
 	; in WRAM1 so we need to use GetFarWRAM for time of day checking.
 	push hl
 	ld hl, wTimeOfDay

@@ -124,13 +124,13 @@ PewterCityCooltrainerFText:
 	para "What weakness,"
 	line "you ask?"
 
-	para "Rock-type attacks,"
+	para "Beast-type attacks,"
 	line "of course!"
 	done
 
 PewterCityCooltrainermText:
 	text "This gal thinks"
-	line "Rock-type #mon"
+	line "Beast-type #mon"
 	cont "are all that,"
 
 	para "but it's tied for"

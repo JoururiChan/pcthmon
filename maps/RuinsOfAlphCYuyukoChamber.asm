@@ -120,7 +120,7 @@ MapRuinsofAlphCYuyukoChamberSignpost3Script:
 
 MapRuinsofAlphCYuyukoChamberSignpost5Script:
 	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
-	iftrue_jumptext RuinsOfAlphEYuyukoChamberWallHoleText
+	iftrue_jumptext RuinsOfAlphAYuyukoChamberWallHoleText
 MapRuinsofAlphCYuyukoChamberSignpost4Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
@@ -128,7 +128,7 @@ MapRuinsofAlphCYuyukoChamberSignpost4Script:
 	writetext RuinsOfAlphChambersItsUnownText
 	sjumpfwd .unownwords
 .unsolved
-	writetext RuinsOfAlphEYuyukoChamberWallPatternLeftText
+	writetext RuinsOfAlphAYuyukoChamberWallPatternLeftText
 .unownwords
 	setval $0
 	special Special_DisplayUnownWords

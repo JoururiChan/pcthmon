@@ -1,7 +1,7 @@
 	db  50, 30,  35,  95,  100,  94 ; 455 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db PSYCHIC, FLYING ; type
+	db REASON, FLYING ; type
 	db 223 ; catch rate
 	db 152 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db STEEL, GROUND ; type
+	db STEEL, EARTH ; type
 	db 25 ; catch rate
 	db 196 ; base exp
 	db NO_ITEM, METAL_COAT ; held items

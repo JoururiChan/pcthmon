@@ -160,7 +160,7 @@
 	const BUG_STRIKES   ; $98
 	const EXPLOSION    ; $99
 	const FURY_STRIKES ; $9a
-	const BONEMERANG   ; $9b
+	const BONEMTRANG   ; $9b
 	const REST         ; $9c
 	const ROCK_SLIDE   ; $9d
 	const POWER_BITE   ; $9e

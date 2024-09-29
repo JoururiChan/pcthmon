@@ -1,13 +1,13 @@
 	db  30,  56,  35,  72,  25,  35 ; 253 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DARK, NORMAL ; type
+	db DARK, ILLUSION ; type
 	db 255 ; catch rate
 	db 57 ; base exp
 	db NO_ITEM, PECHA_BERRY ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for EMIMA_ALOLAN, GLUTTONY, HUSTLE, THICK_FAT
+	abilities_for EMIMA, GLUTTONY, HUSTLE, THICK_FAT
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

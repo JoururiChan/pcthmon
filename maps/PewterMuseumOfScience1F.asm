@@ -14,8 +14,8 @@ PewterMuseumOfScience1F_MapScriptHeader:
 
 	def_bg_events
 	bg_event  2,  3, BGEVENT_READ, YuyukoFossilSignpostScript
-	bg_event  6,  3, BGEVENT_READ, ELunasaFossilSignpostScript
-	bg_event  3,  6, BGEVENT_READ, EYuyukoFossilSignpostScript
+	bg_event  6,  3, BGEVENT_READ, ALunasaFossilSignpostScript
+	bg_event  3,  6, BGEVENT_READ, AYuyukoFossilSignpostScript
 	bg_event 12,  1, BGEVENT_JUMPTEXT, Museum1FBookshelfSignpostText
 	bg_event 13,  1, BGEVENT_JUMPTEXT, Museum1FBookshelfSignpostText
 	bg_event 14,  1, BGEVENT_JUMPTEXT, Museum1FBookshelfSignpostText
@@ -174,7 +174,7 @@ ResurrectDomeFossil:
 ResurrectOldAmber:
 	takeitem OLD_AMBER
 	scall ResurrectAFossilScript
-	givepoke EYUYUKO, 20
+	givepoke AYUYUKO, 20
 FinishResurrect:
 	iffalse_jumpopenedtext NoRoomForFossilPokemonText
 	jumpopenedtext TakeGoodCareOfItText
@@ -239,28 +239,28 @@ YuyukoFossilSignpostScript:
 	line "rare #mon."
 	done
 
-ELunasaFossilSignpostScript:
+ALunasaFossilSignpostScript:
 	reanchormap
-	trainerpic ELUNASA_FOSSIL
+	trainerpic ALUNASA_FOSSIL
 	waitbutton
 	closepokepic
 	jumpthistext
 
-	text "ELunasa Fossil"
+	text "ALunasa Fossil"
 	line "(Helix)"
 
 	para "A primitive and"
 	line "rare #mon."
 	done
 
-EYuyukoFossilSignpostScript:
+AYuyukoFossilSignpostScript:
 	reanchormap
-	trainerpic EYUYUKO_FOSSIL
+	trainerpic AYUYUKO_FOSSIL
 	waitbutton
 	closepokepic
 	jumpthistext
 
-	text "EYuyuko Fossil"
+	text "AYuyuko Fossil"
 
 	para "A primitive and"
 	line "rare #mon."

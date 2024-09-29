@@ -1,7 +1,7 @@
 	db  20,  10, 230,  05,  10, 230 ; 505 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db BUG, ROCK ; type
+	db BUG, BEAST ; type
 	db 190 ; catch rate
 	db 80 ; base exp
 	db ALWAYS_ITEM_2, BERRY_JUICE ; held items

@@ -1,7 +1,7 @@
 	db  90,  85,  75, 115, 115, 100 ; 580 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ELECTRIC, ELECTRIC ; type
+	db WIND, WIND ; type
 	db 3 ; catch rate
 	db 216 ; base exp
 	db ALWAYS_ITEM_2, MAGNET ; held items

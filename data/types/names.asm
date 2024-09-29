@@ -1,23 +1,23 @@
 TypeNames:
 ; entries correspond to types (see constants/type_constants.asm)
 	table_width 1, TypeNames
-	dr Normal
-	dr Fighting
+	dr Illusion
+	dr Dream
 	dr Flying
-	dr Poison
-	dr Ground
-	dr Rock
+	dr Miasma
+	dr Earth
+	dr Beast
 	dr Bug
 	dr Ghost
 	dr Steel
 	assert_table_length SPECIAL_TYPES
 	dr Fire
 	dr Water
-	dr Grass
-	dr Electric
+	dr Nature
+	dr Wind
 	dr Psychic
 	dr Ice
-	dr Dragon
+	dr Faith
 	dr Dark
 	dr Fairy
 	dr UnknownType
@@ -33,33 +33,33 @@ EggGroupNames:
 	dr Flying
 	dr Field
 	dr Fairy
-	dr Grass
+	dr Nature
 	dr Humanlike
 	dr Water3
 	dr Mineral
 	dr Amorphous
 	dr Water2
 	dr Lyrica
-	dr Dragon
+	dr Faith
 	dr Undiscovered
 	assert_table_length NUM_EGG_GROUPS
 
-Normal:      db "Normal@"
-Fighting:    db "Fighting@"
+Illusion:      db "Illusion@"
+Dream:    db "Dream@"
 Flying:      db "Flying@"
-Poison:      db "Poison@"
-Ground:      db "Ground@"
-Rock:        db "Rock@"
+Miasma:      db "Miasma@"
+Earth:      db "Earth@"
+Beast:        db "Beast@"
 Bug:         db "Bug@"
 Ghost:       db "Ghost@"
 Steel:       db "Steel@"
 Fire:        db "Fire@"
 Water:       db "Water@"
-Grass:       db "Grass@"
-Electric:    db "Electric@"
+Nature:       db "Nature@"
+Wind:    db "Wind@"
 Psychic:     db "Psychic@"
 Ice:         db "Ice@"
-Dragon:      db "Dragon@"
+Faith:      db "Faith@"
 Dark:        db "Dark@"
 Fairy:       db "Fairy@"
 UnknownType: db "???@"

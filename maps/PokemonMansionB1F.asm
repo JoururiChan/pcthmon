@@ -60,11 +60,11 @@ PokemonMansionDiaryText:
 
 	para "We christened the"
 	line "newly discovered"
-	cont "#mon, ESuika."
+	cont "#mon, TSuika."
 
 	para "Diary: Feb. 6"
 
-	para "ESuika gave birth."
+	para "TSuika gave birth."
 	line "We named the"
 	cont "newborn Suika."
 

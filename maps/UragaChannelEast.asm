@@ -43,7 +43,7 @@ GenericTrainerSwimmerfWoda:
 	done
 
 GenericTrainerCooltrainermKieran:
-	generictrainer COOLTRAINERM, KIERAN, EVENT_BEAT_COOLTRAINERM_KIERAN, .SeenText, .BeatenText
+	generictrainer COOLTRAINERM, KITRAN, EVENT_BEAT_COOLTRAINERM_KITRAN, .SeenText, .BeatenText
 
 	text "I couldn't get my"
 	line "#m-on."

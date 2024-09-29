@@ -7,9 +7,9 @@ else
 endc
 
 if DEF(FAITHFUL)
-	db GRASS, GRASS ; type
+	db NATURE, NATURE ; type
 else
-	db GRASS, FAIRY ; type
+	db NATURE, HEART ; type
 endc
 	db 45 ; catch rate
 if DEF(FAITHFUL)

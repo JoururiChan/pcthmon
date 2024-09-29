@@ -4,128 +4,105 @@ AlphabeticalTohodexOrder:
 	table_width 2, AlphabeticalTohodexOrder
 	dp CREIMU  ; 01
 	dp REIMU    ; 02
-	dp EREIMU   ; 03
+	dp TREIMU   ; 03
 	dp CMARISA ; 04
 	dp MARISA ; 05
-	dp EMARISA  ; 06
+	dp AMARISA  ; 06
 	dp CSAKUYA   ; 07
 	dp SAKUYA  ; 08
-	dp ESAKUYA  ; 09
+	dp HSAKUYA  ; 09
 	dp CGYOKU   ; 0a
 	dp MGYOKU    ; 0b
 	dp FGYOKU ; 0c
 	dp OGYOKU     ; 0d
 	dp CMAGAN     ; 0e
 	dp MAGAN   ; 0f
-	dp EMAGAN     ; 10
 	dp CMIMA  ; 11
 	dp MIMA    ; 12
-	dp EMIMA    ; 13
 	dp CELIS   ; 14
 	dp ELIS    ; 15
-	dp EELIS     ; 16
 	dp CKIKURI      ; 17
 	dp KIKURI      ; 18
-	dp EKIKURI    ; 19
 	dp CSARIEL     ; 1a
 	dp SARIEL  ; 1b
-	dp ESARIEL  ; 1c
 	dp CKONGARA  ; 1d
 	dp KONGARA   ; 1e
-	dp EKONGARA  ; 1f
 	dp CRIKA  ; 20
 	dp RIKA   ; 21
-	dp ERIKA   ; 22
+	dp ARIKA   ; 22
 	dp CMEIRA   ; 23
 	dp MEIRA   ; 24
-	dp EMEIRA     ; 25
 	dp CELLEN  ; 26
 	dp ELLEN ; 27
-	dp EELLEN ; 28
 	dp CKOTOHIME      ; 29
 	dp KOTOHIME     ; 2a
-	dp EKOTOHIME     ; 2b
 	dp CKANA      ; 2c
 	dp KANA  ; 2d
-	dp EKANA      ; 2e
 	dp CRIKAKO   ; 2f
 	dp RIKAKO    ; 30
-	dp ERIKAKO   ; 31
 	dp CCHIYURI    ; 32
 	dp CHIYURI    ; 33
-	dp ECHIYURI     ; 34
 	dp CYUMEMI    ; 35
 	dp YUMEMI    ; 36
-	dp EYUMEMI    ; 37
 	dp CORANGE     ; 38
 	dp ORANGE   ; 39
-	dp EORANGE  ; 3a
 	dp CKURUMI   ; 3b
 	dp KURUMI    ; 3c
-	dp EKURUMI  ; 3d
 	dp CELLY  ; 3e
 	dp ELLY       ; 3f
-	dp EELLY    ; 40
 	dp CYUKA   ; 41
 	dp YUKA     ; 42
-	dp EYUKA    ; 43
+	dp AYUKA    ; 43
 	dp CMUGETSU    ; 44
 	dp MUGETSU ; 45
-	dp EMUGETSU ; 46
 	dp CGENGETSU ; 47
 	dp GENGETSU  ; 48
-	dp EGENGETSU ; 49
 	dp CSARA    ; 4a
 	dp SARA   ; 4b
-	dp ESARA      ; 4c
 	dp CLUIZE     ; 4d
 	dp LUIZE   ; 4e
-	dp ELUIZE   ; 4f
+	dp DLUIZE   ; 4f
 	dp CALICE    ; 50
 	dp ALICE  ; 51
-	dp EALICE   ; 52
+	dp AALICE   ; 52
 	dp CMAI ; 53
 	dp MAI      ; 54
-	dp EMAI     ; 55
 	dp CYUKI       ; 56
 	dp YUKI    ; 57
-	dp EYUKI     ; 58
 	dp CYUMEKO        ; 59
 	dp YUMEKO   ; 5a
-	dp EYUMEKO   ; 5b
 	dp CSHINKI     ; 5c
 	dp SHINKI    ; 5d
-	dp ESHINKI     ; 5e
 	dp CRUMIA       ; 5f
 	dp RUMIA    ; 60
-	dp ERUMIA      ; 61
+	dp ARUMIA      ; 61
 	dp CDAICHAN     ; 62
 	dp DAICHAN    ; 63
-	dp EDAICHAN    ; 64
+	dp DDAICHAN    ; 64
 	dp CCIRNO  ; 65
 	dp CIRNO  ; 66
-	dp ECIRNO  ; 67
+	dp SCIRNO  ; 67
 	dp CMEILING     ; 68
 	dp MEILING    ; 69
-	dp EMEILING  ; 6a
+	dp AMEILING  ; 6a
 	dp CKOAKUMA ; 6b
 	dp KOAKUMA  ; 6c
-	dp EKOAKUMA    ; 6d
+	dp HKOAKUMA    ; 6d
 	dp CPATCHOULI    ; 6e
 	dp PATCHOULI    ; 6f
-	dp EPATCHOULI     ; 70
+	dp TPATCHOULI     ; 70
 	dp CREMILIA    ; 71
 	dp REMILIA    ; 72
-	dp EREMILIA ; 73
+	dp SREMILIA ; 73
 	dp CFLANDRE     ; 74
 	dp FLANDRE     ; 75
-	dp EFLANDRE    ; 76
+	dp AFLANDRE    ; 76
 	dp CLETTY    ; 77
 	dp LETTY     ; 78
-	dp ELETTY    ; 79
+	dp DLETTY    ; 79
 	dp CCHEN   ; 7a
 	dp CHEN    ; 7b
-	dp ECHEN       ; 7c
+	dp HCHEN       ; 7c
 	dp CLILYWHITE ; 7d
 	dp LILYWHITE     ; 7e
 	dp ELILYWHITE     ; 7f
@@ -134,34 +111,34 @@ AlphabeticalTohodexOrder:
 	dp ELILYBLACK   ; 82
 	dp CLYRICA     ; 83
 	dp LYRICA      ; 84
-	dp ELYRICA      ; 85
+	dp TLYRICA      ; 85
 	dp CMERLIN   ; 86
 	dp MERLIN    ; 87
-	dp EMERLIN    ; 88
+	dp SMERLIN    ; 88
 	dp CLUNASA    ; 89
 	dp LUNASA    ; 8a
-	dp ELUNASA    ; 8b
+	dp ALUNASA    ; 8b
 	dp CYUYUKO     ; 8c
 	dp YUYUKO   ; 8d
-	dp EYUYUKO ; 8e
+	dp AYUYUKO ; 8e
 	dp CRAN    ; 8f
 	dp RAN   ; 90
-	dp ERAN     ; 91
+	dp TRAN     ; 91
 	dp CYUKARI    ; 92
 	dp YUKARI    ; 93
-	dp EYUKARI  ; 94
+	dp TYUKARI  ; 94
 	dp CSUIKA  ; 95
 	dp SUIKA     ; 96
-	dp ESUIKA        ; 97
+	dp TSUIKA        ; 97
 	dp CYOUMU  ; 98
 	dp YOUMU    ; 99
-	dp EYOUMU   ; 9a
+	dp SYOUMU   ; 9a
 	dp CREISEN  ; 9b
 	dp REISEN    ; 9c
-	dp EREISEN ; 9d
+	dp TREISEN ; 9d
 	dp CSANAE   ; 9e
 	dp SANAE   ; 9f
-	dp ESANAE ; a0
+	dp DSANAE ; a0
 	dp SENTRET    ; a1
 	dp FURRET     ; a2
 	dp HOOTHOOT   ; a3

@@ -347,7 +347,7 @@ MagnetTunnelInsideEngineerText2:
 	para "on this tunnel,"
 	line "the number of wild"
 
-	para "Electric-type"
+	para "Wind-type"
 	line "#mon here has"
 	cont "more than doubled."
 	done

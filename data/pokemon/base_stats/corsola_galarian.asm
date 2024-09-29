@@ -4,14 +4,14 @@
 if DEF(FAITHFUL)
 	db GHOST, GHOST ; type
 else
-	db GHOST, ROCK ; type
+	db GHOST, BEAST ; type
 endc
 	db 60 ; catch rate
 	db 113 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F75, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CORSOLA_GALARIAN, WEAK_ARMOR, WEAK_ARMOR, CURSED_BODY
+	abilities_for CORSOLA, WEAK_ARMOR, WEAK_ARMOR, CURSED_BODY
 	db GROWTH_FAST ; growth rate
 	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 

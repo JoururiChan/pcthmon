@@ -7,7 +7,7 @@ else
 endc
 
 if DEF(FAITHFUL)
-	db BUG, POISON ; type
+	db BUG, MIASMA ; type
 else
 	db BUG, DARK ; type
 endc

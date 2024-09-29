@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db GRASS, FLYING ; type
+	db NATURE, FLYING ; type
 	db 120 ; catch rate
 	db 136 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

@@ -4,11 +4,11 @@ Cries:
 	farbank "Cries"
 	fardw Cry_CRika
 	fardw Cry_CKongara
-	fardw Cry_ELuize
-	fardw Cry_ERemilia
+	fardw Cry_DLuize
+	fardw Cry_SRemilia
 	fardw Cry_CMarisa
 	fardw Cry_EYuki
-	fardw Cry_EDaichan
+	fardw Cry_DDaichan
 	fardw Cry_CYumeko
 	fardw Cry_EKotohime
 	fardw Cry_CSariel
@@ -19,9 +19,9 @@ Cries:
 	fardw Cry_EMagan
 	fardw Cry_CReimu
 	fardw Cry_Farfetch_d
-	fardw Cry_EPatchouli
+	fardw Cry_TPatchouli
 	fardw Cry_ESara
-	fardw Cry_ESakuya
+	fardw Cry_HSakuya
 	fardw Cry_CMima
 	fardw Cry_OGyoku
 	fardw Cry_CGyoku
@@ -60,7 +60,7 @@ Cries:
 	fardw Cry_Entei
 	fardw Cry_Wooper
 	fardw Cry_Mantine
-	fardw Cry_EReisen
+	fardw Cry_TReisen
 	fardw Cry_Natu
 	fardw Cry_Teddiursa
 	fardw Cry_Remoraid

@@ -1,9 +1,9 @@
-	db  45,  60,  35,  75,  95,  90 ; 405 BST
+	db  70,  70, 50, 75, 105, 100 ; 525 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db NORMAL, FLYING ; type
+	db FAITH, FLYING ; type
 	db 100 ; catch rate
-	db 145 ; base exp
+	db 200 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F87_5, HATCH_SLOW ; gender ratio, step cycles to hatch
 
@@ -11,7 +11,7 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_GROUND, EGG_FLYING ; egg groups
 
-	ev_yield 2 SAt
+	ev_yield 2 SAt, 1 Spe
 
 	; tm/hm learnset
 	tmhm POWER_TRICK, TOXIC, HIDDEN_POWER, SUNNY_DAY, LIGHT_SCREEN, PAY_DAY, PROTECT, SAFEGUARD, RETURN, ROCK_SMASH, DOUBLE_TEAM, SUBSTITUTE, FACADE, REST, ATTRACT, TENSION_KICK, SEAL_NEEDLE, FLASH, SWORDS_DANCE, FLY, STRENGTH, BODY_SLAM, CHARM, DOUBLE_EDGE, ENDURE, HEADBUTT, STEEL_FIST, KNOCK_OFF, SLEEP_TALK, SWAGGER

@@ -1,13 +1,13 @@
 	db  60,  50,  70, 150,  80,  80 ; 490 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ELECTRIC, GRASS ; type
+	db WIND, NATURE ; type
 	db 60 ; catch rate
 	db 150 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_UNKNOWN, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CCIRNO_HISUIAN, SOUNDPROOF, STATIC, AFTERMATH
+	abilities_for CCIRNO, SOUNDPROOF, STATIC, AFTERMATH
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 

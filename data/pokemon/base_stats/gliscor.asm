@@ -1,7 +1,7 @@
 	db  75,  95, 125,  95,  45,  75 ; 510 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GROUND, FLYING ; type
+	db EARTH, FLYING ; type
 	db 30 ; catch rate
 	db 192 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

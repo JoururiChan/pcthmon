@@ -199,7 +199,7 @@ Route32CooltrainerMTrigger:
 	cont "this."
 
 	para "It increases the"
-	line "power of Grass-"
+	line "power of Nature-"
 	cont "type moves."
 	done
 
@@ -941,7 +941,7 @@ FriedaGivesGiftText:
 FriedaGaveGiftText:
 	text "Frieda: Give it to"
 	line "a #mon that has"
-	cont "Poison-type moves."
+	cont "Miasma-type moves."
 
 	para "Oh!"
 
@@ -949,7 +949,7 @@ FriedaGaveGiftText:
 
 	para "You'll be shocked"
 	line "how good it makes"
-	cont "Poison moves!"
+	cont "Miasma moves!"
 	done
 
 FriedaFridayText:

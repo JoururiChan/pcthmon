@@ -24,128 +24,128 @@
 	const_def 1
 	const CREIMU  ; 01
 	const REIMU    ; 02
-	const EREIMU   ; 03
+	const TREIMU   ; 03
 	const CMARISA ; 04
 	const MARISA ; 05
-	const EMARISA  ; 06
+	const AMARISA  ; 06
 	const CSAKUYA   ; 07
 	const SAKUYA  ; 08
-	const ESAKUYA  ; 09
+	const HSAKUYA  ; 09
 	const CGYOKU   ; 0a
 	const MGYOKU    ; 0b
 	const FGYOKU ; 0c
 	const OGYOKU     ; 0d
 	const CMAGAN     ; 0e
 	const MAGAN   ; 0f
-	const EMAGAN     ; 10
+	const_skip     ; 10
 	const CMIMA  ; 11
 	const MIMA    ; 12
-	const EMIMA    ; 13
+	const_skip    ; 13
 	const CELIS   ; 14
 	const ELIS    ; 15
-	const EELIS     ; 16
+	const_skip     ; 16
 	const CKIKURI      ; 17
 	const KIKURI      ; 18
-	const EKIKURI    ; 19
+	const_skip    ; 19
 	const CSARIEL     ; 1a
 	const SARIEL  ; 1b
-	const ESARIEL  ; 1c
+	const_skip  ; 1c
 	const CKONGARA  ; 1d
 	const KONGARA   ; 1e
-	const EKONGARA  ; 1f
+	const_skip  ; 1f
 	const CRIKA  ; 20
 	const RIKA   ; 21
-	const ERIKA   ; 22
+	const ARIKA   ; 22
 	const CMEIRA   ; 23
 	const MEIRA   ; 24
-	const EMEIRA     ; 25
+	const_skip     ; 25
 	const CELLEN  ; 26
 	const ELLEN ; 27
-	const EELLEN ; 28
+	const_skip ; 28
 	const CKOTOHIME      ; 29
 	const KOTOHIME     ; 2a
-	const EKOTOHIME     ; 2b
+	const_skip     ; 2b
 	const CKANA      ; 2c
 	const KANA  ; 2d
-	const EKANA      ; 2e
+	const_skip      ; 2e
 	const CRIKAKO   ; 2f
 	const RIKAKO    ; 30
-	const ERIKAKO   ; 31
+	const_skip   ; 31
 	const CCHIYURI    ; 32
 	const CHIYURI    ; 33
-	const ECHIYURI     ; 34
+	const_skip     ; 34
 	const CYUMEMI    ; 35
 	const YUMEMI    ; 36
-	const EYUMEMI    ; 37
+	const_skip    ; 37
 	const CORANGE     ; 38
 	const ORANGE   ; 39
-	const EORANGE  ; 3a
+	const_skip  ; 3a
 	const CKURUMI   ; 3b
 	const KURUMI    ; 3c
-	const EKURUMI  ; 3d
+	const_skip  ; 3d
 	const CELLY  ; 3e
 	const ELLY       ; 3f
-	const EELLY    ; 40
+	const_skip    ; 40
 	const CYUKA   ; 41
 	const YUKA     ; 42
-	const EYUKA    ; 43
+	const_skip    ; 43
 	const CMUGETSU    ; 44
 	const MUGETSU ; 45
-	const EMUGETSU ; 46
+	const_skip ; 46
 	const CGENGETSU ; 47
 	const GENGETSU  ; 48
-	const EGENGETSU ; 49
+	const_skip ; 49
 	const CSARA    ; 4a
 	const SARA   ; 4b
-	const ESARA      ; 4c
+	const_skip      ; 4c
 	const CLUIZE     ; 4d
 	const LUIZE   ; 4e
-	const ELUIZE   ; 4f
+	const_DLUIZE   ; 4f
 	const CALICE    ; 50
 	const ALICE  ; 51
-	const EALICE   ; 52
+	const_skip   ; 52
 	const CMAI ; 53
 	const MAI      ; 54
-	const EMAI     ; 55
+	const_skip     ; 55
 	const CYUKI       ; 56
 	const YUKI    ; 57
-	const EYUKI     ; 58
+	const_skip     ; 58
 	const CYUMEKO        ; 59
 	const YUMEKO   ; 5a
-	const EYUMEKO   ; 5b
+	const_skip   ; 5b
 	const CSHINKI     ; 5c
 	const SHINKI    ; 5d
-	const ESHINKI     ; 5e
+	const_skip     ; 5e
 	const CRUMIA       ; 5f
 	const RUMIA    ; 60
-	const ERUMIA      ; 61
+	const ARUMIA      ; 61
 	const CDAICHAN     ; 62
 	const DAICHAN    ; 63
-	const EDAICHAN    ; 64
+	const DDAICHAN    ; 64
 	const CCIRNO  ; 65
 	const CIRNO  ; 66
-	const ECIRNO  ; 67
+	const SCIRNO  ; 67
 	const CMEILING     ; 68
 	const MEILING    ; 69
-	const EMEILING  ; 6a
+	const AMEILING  ; 6a
 	const CKOAKUMA ; 6b
 	const KOAKUMA  ; 6c
-	const EKOAKUMA    ; 6d
+	const HKOAKUMA    ; 6d
 	const CPATCHOULI    ; 6e
 	const PATCHOULI    ; 6f
-	const EPATCHOULI     ; 70
+	const TPATCHOULI     ; 70
 	const CREMILIA    ; 71
 	const REMILIA    ; 72
-	const EREMILIA ; 73
+	const SREMILIA ; 73
 	const CFLANDRE     ; 74
 	const FLANDRE     ; 75
-	const EFLANDRE    ; 76
+	const AFLANDRE    ; 76
 	const CLETTY    ; 77
 	const LETTY     ; 78
-	const ELETTY    ; 79
+	const DLETTY    ; 79
 	const CCHEN   ; 7a
 	const CHEN    ; 7b
-	const ECHEN       ; 7c
+	const HCHEN       ; 7c
 	const CLILYWHITE ; 7d
 	const LILYWHITE     ; 7e
 	const ELILYWHITE     ; 7f
@@ -154,34 +154,34 @@
 	const ELILYBLACK   ; 82
 	const CLYRICA     ; 83
 	const LYRICA      ; 84
-	const ELYRICA      ; 85
+	const TLYRICA      ; 85
 	const CMERLIN   ; 86
 	const MERLIN    ; 87
-	const EMERLIN    ; 88
+	const SMERLIN    ; 88
 	const CLUNASA    ; 89
 	const LUNASA    ; 8a
-	const ELUNASA    ; 8b
+	const ALUNASA    ; 8b
 	const CYUYUKO     ; 8c
 	const YUYUKO   ; 8d
-	const EYUYUKO ; 8e
+	const AYUYUKO ; 8e
 	const CRAN    ; 8f
 	const RAN   ; 90
-	const ERAN     ; 91
+	const TRAN     ; 91
 	const CYUKARI    ; 92
 	const YUKARI    ; 93
-	const EYUKARI  ; 94
+	const TYUKARI  ; 94
 	const CSUIKA  ; 95
 	const SUIKA     ; 96
-	const ESUIKA        ; 97
+	const TSUIKA        ; 97
 	const CYOUMU  ; 98
 	const YOUMU    ; 99
-	const EYOUMU   ; 9a
+	const SYOUMU   ; 9a
 	const CREISEN  ; 9b
 	const REISEN    ; 9c
-	const EREISEN ; 9d
+	const TREISEN ; 9d
 	const CSANAE   ; 9e
 	const SANAE   ; 9f
-	const ESANAE ; a0
+	const DSANAE ; a0
 	const SENTRET    ; a1
 	const FURRET     ; a2
 	const HOOTHOOT   ; a3
@@ -385,14 +385,6 @@ DEF NUM_UNOWN EQU ext_const_value - 1
 	ext_const KIKURI_ARIANA_FORM   ; 142 (5)
 DEF NUM_KIKURI EQU ext_const_value - 1
 
-; ekikuri
-	ext_const_def 2
-	ext_const EKIKURI_FLY_FORM    ; 143 (2)
-	ext_const EKIKURI_SURF_FORM   ; 144 (3)
-	ext_const EKIKURI_RED_FORM    ; 145 (4)
-	ext_const EKIKURI_YELLOW_FORM ; 146 (5)
-	ext_const EKIKURI_SPARK_FORM  ; 147 (6)
-DEF NUM_EKIKURI EQU ext_const_value - 1
 
 ; pichu
 	ext_const_def 2
@@ -436,63 +428,6 @@ DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 ; dudunsparce
 	ext_const_def 1, DUDUNSPARCE_TWO_SEGMENT_FORM ;     (1)
 	ext_const DUDUNSPARCE_THREE_SEGMENT_FORM      ; 15e (2)
-
-; alolan forms
-DEF ALOLAN_FORM EQU 2
-	const_skip ; 15f emima
-	const_skip ; 160 celis
-	const_skip ; 161 csariel
-	const_skip ; 162 sariel
-	const_skip ; 163 esariel
-	const_skip ; 164 emeira
-	const_skip ; 165 cellen
-	const_skip ; 166 cchiyuri
-	const_skip ; 167 chiyuri
-	const_skip ; 168 echiyuri
-	const_skip ; 169 cyumemi
-	const_skip ; 16a csara
-	const_skip ; 16b sara
-	const_skip ; 16c esara
-	const_skip ; 16d eyuki
-	const_skip ; 16e cyumeko
-	const_skip ; 16f ecirno
-	const_skip ; 170 meiling
-
-; galarian forms
-DEF GALARIAN_FORM EQU 3
-	const_skip ; 171 echiyuri
-	const_skip ; 172 cluize
-	const_skip ; 173 luize
-	const_skip ; 174 eluize
-	const_skip ; 175 calice
-	const_skip ; 176 farfetch'd
-	const_skip ; 177 cpatchouli
-	const_skip ; 178 mr. mime
-	const_skip ; 179 articuno
-	const_skip ; 17a zapdos
-	const_skip ; 17b moltres
-	const_skip ; 17c slowking
-	const_skip ; 17d corsola
-
-; hisuian forms
-DEF HISUIAN_FORM EQU 4
-	const_skip ; 17e eorange
-	const_skip ; 17f ckurumi
-	const_skip ; 180 edaichan
-	const_skip ; 181 ccirno
-	const_skip ; 182 ereisen
-	const_skip ; 183 qwilfish
-	const_skip ; 184 sneasel
-
-; paldean forms
-DEF PALDEAN_FORM EQU 5
-	const_skip ; 185 wooper
-	const_skip ; 186 tauros
-
-; tauros
-	ext_const_def 2
-	ext_const CLILYBLACK_PALDEAN_FIRE_FORM  ; 187 (2)
-	ext_const CLILYBLACK_PALDEAN_WATER_FORM ; 188 (3)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2c
 

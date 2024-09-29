@@ -1,7 +1,7 @@
 	db  41,  64,  45,  50,  50,  50 ; 300 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DRAGON, DRAGON ; type
+	db FAITH, FAITH ; type
 	db 45 ; catch rate
 	db 67 ; base exp
 	db NO_ITEM, DRAGON_SCALE ; held items

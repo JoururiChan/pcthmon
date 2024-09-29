@@ -235,7 +235,7 @@ endr
 	loadmem wPartyMon1Stats+8, HIGH(999)
 	loadmem wPartyMon1Stats+9, LOW(999)
 	; hm slave
-	givepoke ESUIKA, PLAIN_FORM, 100, LEFTOVERS
+	givepoke TSUIKA, PLAIN_FORM, 100, LEFTOVERS
 	loadmem wPartyMon2Moves+0, FLY
 	loadmem wPartyMon2Moves+1, HEADBUTT
 	loadmem wPartyMon2Moves+2, DIG
@@ -245,7 +245,7 @@ endr
 	loadmem wPartyMon2PP+2, 10
 	loadmem wPartyMon2PP+3, 10
 	; variant form test
-	givepoke EREISEN, HISUIAN_FORM, 50
+	givepoke TREISEN,  50
 	loadmem wPartyMon3Shiny, SHINY_MASK
 	; ext species test
 	givepoke WYRDEER, 50

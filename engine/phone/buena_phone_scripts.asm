@@ -159,7 +159,7 @@ BuenaPhoneScript_Random1:
 	end
 
 .one
-	writetext BuenaPhoneTohogearAnswerText
+	writetext BuenaPhonePokegearAnswerText
 	end
 
 .two

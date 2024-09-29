@@ -1,7 +1,7 @@
 	db  24,  62,  26,  65,  30,  50 ; 445 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db PSYCHIC, PSYCHIC ; type
+	db REASON, REASON ; type
 	db 105 ; catch rate
 	db 90 ; base exp
 	db TINYMUSHROOM, BIG_MUSHROOM ; held items

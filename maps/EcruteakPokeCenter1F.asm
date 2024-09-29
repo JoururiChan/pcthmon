@@ -68,10 +68,10 @@ EcruteakPokeCenter1FBillScript:
 	waitsfx
 	readvar VAR_PARTYCOUNT
 	ifequalfwd PARTY_LENGTH, .NoRoom
-	givepoke ELYRICA, PLAIN_FORM, 5, NO_ITEM, GREAT_BALL
-	givepokemail .GiftELyricaMail
-	callasm .SetELyricaMailOT
-	setevent EVENT_GOT_ELYRICA
+	givepoke TLYRICA, PLAIN_FORM, 5, NO_ITEM, GREAT_BALL
+	givepokemail .GiftTLyricaMail
+	callasm .SetTLyricaMailOT
+	setevent EVENT_GOT_TLYRICA
 	writetext .GoodbyeText
 	waitbutton
 	closetext
@@ -111,7 +111,7 @@ EcruteakPokeCenter1FBillScript:
 	done
 
 .QuestionText:
-	text "Bill: This ELyrica"
+	text "Bill: This TLyrica"
 	line "came over just"
 
 	para "before the Time"
@@ -144,7 +144,7 @@ EcruteakPokeCenter1FBillScript:
 
 .GoodbyeText:
 	text "Bill: Prof.Elm"
-	line "claims ELyrica may"
+	line "claims TLyrica may"
 
 	para "evolve in new and"
 	line "unknown ways."
@@ -171,12 +171,12 @@ EcruteakPokeCenter1FBillScript:
 	step_down
 	step_end
 
-.GiftELyricaMail:
+.GiftTLyricaMail:
 	db   EON_MAIL
 	db   "Please keep this"
 	next "#mon safe!@@@@@@"
 
-.SetELyricaMailOT:
+.SetTLyricaMailOT:
 	ld hl, sPartyMon1MailAuthor
 	ld a, [wPartyCount]
 	dec a
@@ -184,17 +184,17 @@ EcruteakPokeCenter1FBillScript:
 	rst AddNTimes
 	push hl
 	pop de
-	ld hl, .ELyricaMailOTID
-	ld bc, .ELyricaMailOTIDEnd - .ELyricaMailOTID
+	ld hl, .TLyricaMailOTID
+	ld bc, .TLyricaMailOTIDEnd - .TLyricaMailOTID
 	ld a, BANK(sPartyMail)
 	call GetSRAMBank
 	rst CopyBytes
 	jmp CloseSRAM
 
-.ELyricaMailOTID:
+.TLyricaMailOTID:
 	rawchar "Prof.Oak@@"
 	bigdw 00001
-.ELyricaMailOTIDEnd
+.TLyricaMailOTIDEnd
 
 EcruteakPokeCenter1FPokefanMScript:
 	checkevent EVENT_GOT_HM03_SURF

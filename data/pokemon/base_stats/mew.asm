@@ -1,16 +1,16 @@
 	db 100, 100, 100, 100, 100, 100 ; 600 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db PSYCHIC, PSYCHIC ; type
+	db REASON, REASON ; type
 	db 45 ; catch rate
 	db 64 ; base exp
 	db ALWAYS_ITEM_2, LUM_BERRY ; held items
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for ESUIKA, SYNCHRONIZE, SYNCHRONIZE, SYNCHRONIZE
+	abilities_for TSUIKA, SYNCHRONIZE, SYNCHRONIZE, SYNCHRONIZE
 else
-	abilities_for ESUIKA, SYNCHRONIZE, SYNCHRONIZE, MAGIC_GUARD
+	abilities_for TSUIKA, SYNCHRONIZE, SYNCHRONIZE, MAGIC_GUARD
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups

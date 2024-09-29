@@ -114,7 +114,7 @@ SeafoamIslandsRan:
 	setevent EVENT_CELADON_UNIVERSITY_BLANCHE
 	clearevent EVENT_SHAMOUTI_COAST_BLANCHE
 .NoBlanche
-	checkevent EVENT_ROUTE_10_ERAN
+	checkevent EVENT_ROUTE_10_TRAN
 	iffalsefwd .end
 	checkevent EVENT_CINNABAR_VOLCANO_CYUKARI
 	iffalsefwd .end

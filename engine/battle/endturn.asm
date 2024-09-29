@@ -304,7 +304,7 @@ HandleWeather:
 	cp SAND_VEIL
 	ret z
 
-	call CheckIfUserIsGroundType
+	call CheckIfUserIsEarthType
 	ret z
 	call CheckIfUserIsRockType
 	ret z

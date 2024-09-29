@@ -1,7 +1,7 @@
 	db  35,  58, 35,  28,  50,  36 ; 515 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db STEEL, FIGHTING ; type
+	db STEEL, DREAM ; type
 	db 135 ; catch rate
 	db 67 ; base exp
 	db NO_ITEM, KINGS_ROCK ; held items

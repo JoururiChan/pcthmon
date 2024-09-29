@@ -1,13 +1,13 @@
 	db  60,  75,  45,  55,  65,  50 ; 350 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIRE, ROCK ; type
+	db FIRE, BEAST ; type
 	db 190 ; catch rate
 	db 91 ; base exp
 	db ALWAYS_ITEM_2, ASPEAR_BERRY ; held items
 	dn GENDER_F25, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for EORANGE_HISUIAN, INTIMIDATE, FLASH_FIRE, ROCK_HEAD
+	abilities_for EORANGE, INTIMIDATE, FLASH_FIRE, ROCK_HEAD
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

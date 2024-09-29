@@ -1,7 +1,7 @@
 	db 100, 134, 110,  61,  95, 100 ; 600 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ROCK, DARK ; type
+	db BEAST, DARK ; type
 	db 45 ; catch rate
 	db 218 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

@@ -1,7 +1,7 @@
 	db  60, 110,  88,  65, 110,  87 ; 520 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db PSYCHIC, FIRE ; type
+	db REASON, FIRE ; type
 	db 120 ; catch rate
 	db 80 ; base exp
 	db SHED_SHELL, SILVERPOWDER ; held items

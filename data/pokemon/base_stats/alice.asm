@@ -1,9 +1,9 @@
-	db  90,  55,  100,  30, 50,  100 ; 500 BST
+	db  105,  90,  70, 30,  125,  70 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db STEEL, FIRE ; type
+	db REASON, NATURE ; type
 	db 160 ; catch rate
-	db 190 ; base exp
+	db 230 ; base exp
 	db NO_ITEM, KINGS_ROCK ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 

@@ -1,7 +1,7 @@
 	db  50,  40,  45,  55, 70,  50 ; 310 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DARK, PSYCHIC ; type
+	db DARK, REASON ; type
 	db 40 ; catch rate
 	db 140 ; base exp
 	db NO_ITEM, SPELL_TAG ; held items

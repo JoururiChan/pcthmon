@@ -2,15 +2,15 @@ FuryAttackUsers:
 ; "Fury Strikes" = Fury Attack + Fury Swipes
 	dp CSAKUYA
 	dp SAKUYA
-	dp ESAKUYA
+	dp HSAKUYA
 	dp ELIS
 	dp EELIS
 	dp CMAI
 	dp MAI
 	dp EMAI
 	dp PATCHOULI
-	dp EPATCHOULI
-	dp EFLANDRE
+	dp TPATCHOULI
+	dp AFLANDRE
 	dp CLETTY
 	dp ELILYWHITE
 	dp DUNSPARCE

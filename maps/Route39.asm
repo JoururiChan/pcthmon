@@ -442,7 +442,7 @@ Route39AdvancedTips1Text:
 
 	para "Sandstorms boost"
 	line "Special Defense of"
-	cont "Rock-type #mon!"
+	cont "Beast-type #mon!"
 
 	para "And, Hail boosts"
 	line "the Defense of"

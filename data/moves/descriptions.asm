@@ -470,7 +470,7 @@ TensionKickDescription:
 	done
 
 BulldozeDescription:
-	text "A Ground attack"
+	text "A Earth attack"
 	next "that lowers Speed."
 	done
 
@@ -1161,7 +1161,7 @@ LifeBalanceDescription:
 	done
 
 MagnitudeDescription:
-	text "A Ground attack"
+	text "A Earth attack"
 	next "with random power."
 	done
 

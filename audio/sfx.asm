@@ -4413,7 +4413,7 @@ Sfx_EggHatch:
 	sound_ret
 
 
-Sfx_GsIntroEMarisaFireball:
+Sfx_GsIntroAMarisaFireball:
 	channel_count 1
 	channel 8, .Ch8
 

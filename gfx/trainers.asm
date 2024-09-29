@@ -444,14 +444,14 @@ LawrencePic: INCBIN "gfx/trainers/lawrence.2bpp.lz"
 SECTION "ReiPic", ROMX
 ReiPic: INCBIN "gfx/trainers/rei.2bpp.lz"
 
-SECTION "ELunasaFossilPic", ROMX
-ELunasaFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"
+SECTION "ALunasaFossilPic", ROMX
+ALunasaFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"
 
 SECTION "YuyukoFossilPic", ROMX
 YuyukoFossilPic: INCBIN "gfx/trainers/kabutops_fossil.2bpp.lz"
 
-SECTION "EYuyukoFossilPic", ROMX
-EYuyukoFossilPic: INCBIN "gfx/trainers/aerodactyl_fossil.2bpp.lz"
+SECTION "AYuyukoFossilPic", ROMX
+AYuyukoFossilPic: INCBIN "gfx/trainers/aerodactyl_fossil.2bpp.lz"
 
 SECTION "CMeilingArmorPic", ROMX
 CMeilingArmorPic: INCBIN "gfx/trainers/cmeiling_armor.2bpp.lz"

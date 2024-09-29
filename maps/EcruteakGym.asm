@@ -120,7 +120,7 @@ GenericTrainerSagePing:
 	text "We use only Ghost-"
 	line "type #mon."
 
-	para "No Normal-type"
+	para "No Illusion-type"
 	line "attack can harm"
 	cont "them!"
 	done

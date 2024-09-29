@@ -1,7 +1,7 @@
 	db  70,  20,  50,  40,  20,  50 ; 250 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, FAIRY ; type
+	db WATER, HEART ; type
 	db 190 ; catch rate
 	db 58 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

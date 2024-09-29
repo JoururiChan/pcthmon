@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db WATER, FAIRY ; type
+	db WATER, HEART ; type
 	db 75 ; catch rate
 if DEF(FAITHFUL)
 	db 153 ; base exp

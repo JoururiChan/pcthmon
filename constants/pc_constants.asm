@@ -15,24 +15,24 @@
 	const THEME_DARKNESS
 	const THEME_MATTE
 	const THEME_MATRIX
-	const THEME_NORMAL
-	const THEME_FIGHTING
+	const THEME_ILLUSION
+	const THEME_DREAM
 	const THEME_FLYING
-	const THEME_POISON
-	const THEME_GROUND
-	const THEME_ROCK
+	const THEME_MIASMA
+	const THEME_EARTH
+	const THEME_BEAST
 	const THEME_BUG
 	const THEME_GHOST
 	const THEME_STEEL
 	const THEME_FIRE
 	const THEME_WATER
-	const THEME_GRASS
-	const THEME_ELECTRIC
-	const THEME_PSYCHIC
+	const THEME_NATURE
+	const THEME_WIND
+	const THEME_REASON
 	const THEME_ICE
-	const THEME_DRAGON
+	const THEME_FAITH
 	const THEME_DARK
-	const THEME_FAIRY
+	const THEME_HEART2
 DEF NUM_BILLS_PC_THEMES EQU const_value
 
 ; BillsPC_CanReleaseMon constants

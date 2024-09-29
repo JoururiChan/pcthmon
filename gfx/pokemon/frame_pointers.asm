@@ -2,164 +2,141 @@ FramesPointers:
 	table_width 2, FramesPointers
 	dw CReimuFrames
 	dw ReimuFrames
-	dw EReimuFrames
+	dw TReimuFrames
 	dw CMarisaFrames
 	dw MarisaFrames
-	dw EMarisaFrames
+	dw AMarisaFrames
 	dw CSakuyaFrames
 	dw SakuyaFrames
-	dw ESakuyaFrames
+	dw HSakuyaFrames
 	dw CGyokuFrames
 	dw MGyokuFrames
 	dw FGyokuFrames
 	dw OGyokuFrames
 	dw CMaganFrames
 	dw MaganFrames
-	dw EMaganFrames
 	dw CMimaFrames
 	dw MimaFrames
-	dw EMimaFrames
-	dw CElisPlainFrames
+	dw CElisFrames
 	dw ElisFrames
-	dw EElisFrames
 	dw CKikuriFrames
 	dw KikuriJohtoFrames
-	dw EKikuriPlainFrames
-	dw CSarielPlainFrames
-	dw SarielPlainFrames
-	dw ESarielPlainFrames
+	dw CSarielFrames
+	dw SarielFrames
 	dw CKongaraFrames
 	dw KongaraFrames
-	dw EKongaraFrames
 	dw CRikaFrames
 	dw RikaFrames
-	dw ERikaFrames
+	dw ARikaFrames
 	dw CMeiraFrames
 	dw MeiraFrames
-	dw EMeiraPlainFrames
-	dw CEllenPlainFrames
+	dw CEllenFrames
 	dw EllenFrames
-	dw EEllenFrames
 	dw CKotohimeFrames
 	dw KotohimeFrames
-	dw EKotohimeFrames
 	dw CKanaFrames
 	dw KanaFrames
-	dw EKanaFrames
 	dw CRikakoFrames
 	dw RikakoFrames
-	dw ERikakoFrames
-	dw CChiyuriPlainFrames
-	dw ChiyuriPlainFrames
-	dw EChiyuriPlainFrames
-	dw CYumemiPlainFrames
+	dw CChiyuriFrames
+	dw ChiyuriFrames
+	dw CYumemiFrames
 	dw YumemiFrames
-	dw EYumemiFrames
 	dw COrangeFrames
 	dw OrangeFrames
-	dw EOrangePlainFrames
-	dw CKurumiPlainFrames
+	dw CKurumiFrames
 	dw KurumiFrames
-	dw EKurumiFrames
 	dw CEllyFrames
 	dw EllyFrames
-	dw EEllyFrames
 	dw CYukaFrames
 	dw YukaFrames
-	dw EYukaFrames
+	dw AYukaFrames
 	dw CMugetsuFrames
 	dw MugetsuFrames
-	dw EMugetsuFrames
 	dw CGengetsuFrames
 	dw GengetsuFrames
-	dw EGengetsuFrames
-	dw CSaraPlainFrames
-	dw SaraPlainFrames
-	dw ESaraPlainFrames
-	dw CLuizePlainFrames
-	dw LuizePlainFrames
-	dw ELuizePlainFrames
-	dw CAlicePlainFrames
+	dw CSaraFrames
+	dw SaraFrames
+	dw CLuizeFrames
+	dw LuizeFrames
+	dw DLuizeFrames
+	dw CAliceFrames
 	dw AliceFrames
-	dw EAliceFrames
-	dw CMaiPlainFrames
+	dw AAliceFrames
+	dw CMaiFrames
 	dw MaiFrames
-	dw EMaiFrames
 	dw CYukiFrames
 	dw YukiFrames
-	dw EYukiPlainFrames
-	dw CYumekoPlainFrames
+	dw CYumekoFrames
 	dw YumekoFrames
-	dw EYumekoFrames
 	dw CShinkiFrames
 	dw ShinkiFrames
-	dw EShinkiFrames
 	dw CRumiaFrames
 	dw RumiaFrames
-	dw ERumiaFrames
+	dw ARumiaFrames
 	dw CDaichanFrames
 	dw DaichanFrames
-	dw EDaichanPlainFrames
-	dw CCirnoPlainFrames
+	dw DDaichanFrames
+	dw CCirnoFrames
 	dw CirnoFrames
-	dw ECirnoPlainFrames
+	dw SCirnoFrames
 	dw CMeilingFrames
-	dw MeilingPlainFrames
-	dw EMeilingFrames
+	dw MeilingFrames
+	dw AMeilingFrames
 	dw CKoakumaFrames
 	dw KoakumaFrames
-	dw EKoakumaFrames
-	dw CPatchouliPlainFrames
+	dw HKoakumaFrames
+	dw CPatchouliFrames
 	dw PatchouliFrames
-	dw EPatchouliFrames
+	dw TPatchouliFrames
 	dw CRemiliaFrames
 	dw RemiliaFrames
-	dw ERemiliaFrames
+	dw SRemiliaFrames
 	dw CFlandreFrames
 	dw FlandreFrames
-	dw EFlandreFrames
+	dw AFlandreFrames
 	dw CLettyFrames
 	dw LettyFrames
-	dw ELettyFrames
-	dw MrMimePlainFrames
+	dw DLettyFrames
+	dw MrMimeFrames
 	dw ChenFrames
-	dw EChenFrames
+	dw HChenFrames
 	dw CLilyWhiteFrames
 	dw LilyWhiteFrames
 	dw ELilyWhiteFrames
-	dw CLilyBlackPlainFrames
-	dw LilyBlackPlainFrames
-	dw ELilyBlackPlainFrames
+	dw CLilyBlackFrames
+	dw LilyBlackFrames
+	dw ELilyBlackFrames
 	dw CLyricaFrames
 	dw LyricaFrames
-	dw ELyricaFrames
+	dw TLyricaFrames
 	dw CMerlinFrames
 	dw MerlinFrames
-	dw EMerlinFrames
+	dw SMerlinFrames
 	dw CLunasaFrames
 	dw LunasaFrames
-	dw ELunasaFrames
+	dw ALunasaFrames
 	dw CYuyukoFrames
 	dw YuyukoFrames
-	dw EYuyukoFrames
+	dw AYuyukoFrames
 	dw CRanFrames
-	dw RanPlainFrames
-	dw ERanPlainFrames
-	dw CYukariPlainFrames
+	dw RanFrames
+	dw TRanFrames
+	dw CYukariFrames
 	dw YukariFrames
-	dw EYukariFrames
+	dw TYukariFrames
 	dw CSuikaFrames
-	dw SuikaPlainFrames
-	dw ESuikaFrames
+	dw SuikaFrames
+	dw TSuikaFrames
 	dw CYoumuFrames
 	dw YoumuFrames
-	dw EYoumuFrames
+	dw SYoumuFrames
 	dw CReisenFrames
 	dw ReisenFrames
-	dw EReisenPlainFrames
+	dw TReisenFrames
 	dw CSanaeFrames
 	dw SanaeFrames
-	dw ESanaeFrames
+	dw DSanaeFrames
 	dw SentretFrames
 	dw FurretFrames
 	dw HoothootFrames
@@ -171,7 +148,7 @@ FramesPointers:
 	dw CrobatFrames
 	dw ChinchouFrames
 	dw LanturnFrames
-	dw PichuPlainFrames
+	dw PichuFrames
 	dw CleffaFrames
 	dw IgglybuffFrames
 	dw TogepiFrames
@@ -193,12 +170,12 @@ FramesPointers:
 	dw SunkernFrames
 	dw SunfloraFrames
 	dw YanmaFrames
-	dw WooperPlainFrames
+	dw WooperFrames
 	dw QuagsireFrames
 	dw EspeonFrames
 	dw UmbreonFrames
 	dw MurkrowFrames
-	dw SlowkingPlainFrames
+	dw SlowkingFrames
 	dw MisdreavusFrames
 	dw UnownAFrames
 	dw WobbuffetFrames
@@ -210,18 +187,18 @@ FramesPointers:
 	dw SteelixFrames
 	dw SnubbullFrames
 	dw GranbullFrames
-	dw QwilfishPlainFrames
+	dw QwilfishFrames
 	dw ScizorFrames
 	dw ShuckleFrames
 	dw HeracrossFrames
-	dw SneaselPlainFrames
+	dw SneaselFrames
 	dw TeddiursaFrames
 	dw UrsaringFrames
 	dw SlugmaFrames
 	dw MagcargoFrames
 	dw SwinubFrames
 	dw PiloswineFrames
-	dw CorsolaPlainFrames
+	dw CorsolaFrames
 	dw RemoraidFrames
 	dw OctilleryFrames
 	dw DelibirdFrames
@@ -326,11 +303,7 @@ FramesPointers:
 	dw KikuriAgathaFrames
 	dw KikuriArianaFrames
 
-	dw EKikuriFlyFrames
-	dw EKikuriSurfFrames
-	dw EKikuriPikaFrames
-	dw EKikuriChuchuFrames
-	dw EKikuriSparkFrames
+
 
 	dw PichuSpikyFrames
 
@@ -361,51 +334,5 @@ FramesPointers:
 	dw SuikaArmoredFrames
 
 	dw DudunsparceThreeSegmentFrames
-
-	dw EMimaAlolanFrames
-	dw CElisAlolanFrames
-	dw CSarielAlolanFrames
-	dw SarielAlolanFrames
-	dw ESarielAlolanFrames
-	dw EMeiraAlolanFrames
-	dw CEllenAlolanFrames
-	dw CChiyuriAlolanFrames
-	dw ChiyuriAlolanFrames
-	dw EChiyuriAlolanFrames
-	dw CYumemiAlolanFrames
-	dw CSaraAlolanFrames
-	dw SaraAlolanFrames
-	dw ESaraAlolanFrames
-	dw EYukiAlolanFrames
-	dw CYumekoAlolanFrames
-	dw ECirnoAlolanFrames
-	dw MeilingAlolanFrames
-
-	dw EChiyuriGalarianFrames
-	dw CLuizeGalarianFrames
-	dw LuizeGalarianFrames
-	dw ELuizeGalarianFrames
-	dw CAliceGalarianFrames
-	dw CMaiGalarianFrames
-	dw CPatchouliGalarianFrames
-	dw MrMimeGalarianFrames
-	dw RanGalarianFrames
-	dw ERanGalarianFrames
-	dw CYukariGalarianFrames
-	dw SlowkingGalarianFrames
-	dw CorsolaGalarianFrames
-
-	dw EOrangeHisuianFrames
-	dw CKurumiHisuianFrames
-	dw EDaichanHisuianFrames
-	dw CCirnoHisuianFrames
-	dw EReisenHisuianFrames
-	dw QwilfishHisuianFrames
-	dw SneaselHisuianFrames
-
-	dw WooperPaldeanFrames
-	dw CLilyBlackPaldeanFrames
-	dw CLilyBlackPaldeanFireFrames
-	dw CLilyBlackPaldeanWaterFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

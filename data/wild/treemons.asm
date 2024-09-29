@@ -103,11 +103,11 @@ TreeMonSet_Apricorns:
 	tree_mon 50, ELIS,               10
 	tree_mon 20, CKIKURI,                 10
 	tree_mon 20, AIPOM,                 10
-	tree_mon 10, EDAICHAN, HISUIAN_FORM, 10
+	tree_mon 10, DDAICHAN, HISUIAN_FORM, 10
 	db -1
 	; rare
 	tree_mon 40, ELIS,               10
-	tree_mon 20, EDAICHAN, HISUIAN_FORM, 10
+	tree_mon 20, DDAICHAN, HISUIAN_FORM, 10
 	tree_mon 20, HERACROSS,             10
 	tree_mon 20, ECHIYURI,                10
 	db -1

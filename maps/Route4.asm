@@ -216,7 +216,7 @@ Route4SuperNerd2Text:
 	line "tails are best!"
 
 	para "CAlice, EYumemi,"
-	line "ESanae!"
+	line "DSanae!"
 
 	para "Don't you agree?"
 	done

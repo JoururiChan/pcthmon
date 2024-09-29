@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db PSYCHIC, FLYING ; type
+	db REASON, FLYING ; type
 	db 75 ; catch rate
 	db 171 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

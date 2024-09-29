@@ -2559,11 +2559,11 @@ AI_Status:
 
 .poison
 	lb bc, IMMUNITY, HELD_PREVENT_POISON
-	lb de, POISON, 1
+	lb de, MIASMA, 1
 	jr .checkstatus
 .paralyze
 	lb bc, LIMBER, HELD_PREVENT_PARALYZE
-	lb de, ELECTRIC, 1
+	lb de, WIND, 1
 	jr .checkstatus
 .burn
 	lb bc, WATER_VEIL, HELD_PREVENT_BURN

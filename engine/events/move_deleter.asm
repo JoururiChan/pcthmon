@@ -145,28 +145,4 @@ MoveDeletion:
 .done
 	xor a
 	ld [hl], a
-	ld a, MON_SPECIES
-	call GetPartyParamLocationAndValue
-	cp LOW(EKIKURI)
 	ret nz
-	assert !HIGH(EKIKURI)
-	ld bc, MON_FORM - MON_SPECIES
-	add hl, bc
-	ld a, [hl]
-	and EXTSPECIES_MASK
-	ret nz
-	ld a, [wMoveScreenSelectedMove]
-	cp FLY
-	jr z, .reset_ekikuri_form
-	cp SURF
-	ret nz
-.reset_ekikuri_form
-	ld a, [hl]
-	and ~FORM_MASK
-	or PLAIN_FORM
-	ld [hl], a
-
-	; Register this EKikuri as seen+caught in the dex.
-	ld c, EKIKURI
-	ld b, a
-	jmp SetSeenAndCaughtMon

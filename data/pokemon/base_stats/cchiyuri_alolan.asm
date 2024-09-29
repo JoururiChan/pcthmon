@@ -1,13 +1,13 @@
 	db  10,  55,  30,  90,  35,  45 ; 265 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GROUND, STEEL ; type
+	db EARTH, STEEL ; type
 	db 255 ; catch rate
 	db 81 ; base exp
 	db NO_ITEM, SOFT_SAND ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CCHIYURI_ALOLAN, SAND_VEIL, TANGLING_HAIR, SAND_FORCE
+	abilities_for CCHIYURI, SAND_VEIL, TANGLING_HAIR, SAND_FORCE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

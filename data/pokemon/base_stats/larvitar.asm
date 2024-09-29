@@ -1,7 +1,7 @@
 	db  50,  64,  50,  41,  45,  50 ; 300 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ROCK, GROUND ; type
+	db BEAST, EARTH ; type
 	db 45 ; catch rate
 	db 67 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

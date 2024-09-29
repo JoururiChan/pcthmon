@@ -1,7 +1,7 @@
 	db  50,  25,  28,  15,  45,  55 ; 218 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FAIRY, FAIRY ; type
+	db HEART, HEART ; type
 	db 150 ; catch rate
 	db 37 ; base exp
 	db NO_ITEM, MOON_STONE ; held items

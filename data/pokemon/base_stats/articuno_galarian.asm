@@ -1,13 +1,13 @@
 	db  90,  85,  85,  95, 125, 100 ; 580 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db PSYCHIC, FLYING ; type
+	db REASON, FLYING ; type
 	db 3 ; catch rate
 	db 215 ; base exp
 	db ALWAYS_ITEM_2, LUM_BERRY ; held items
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
-	abilities_for RAN_GALARIAN, COMPETITIVE, COMPETITIVE, COMPETITIVE
+	abilities_for RAN, COMPETITIVE, COMPETITIVE, COMPETITIVE
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

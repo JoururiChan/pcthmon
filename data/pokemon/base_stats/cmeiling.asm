@@ -1,7 +1,7 @@
 	db  41,  70,  25,  60,  32,  38 ; 320 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIGHTING, FIGHTING ; type
+	db DREAM, DREAM ; type
 	db 160 ; catch rate
 	db 130 ; base exp
 	db NO_ITEM, THICK_CLUB ; held items

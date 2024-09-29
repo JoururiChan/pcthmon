@@ -964,7 +964,7 @@ DEF CRYS EQU __trainer_class__
 	const FRENCH
 	const HENRI
 	const CONNOR
-	const KIERAN
+	const KITRAN
 	const FINCH
 	const PETRIE
 	const COOLTRAINERM_COREY
@@ -1012,13 +1012,13 @@ DEF CRYS EQU __trainer_class__
 	const DANANDCARA1
 	const DANANDCARA2
 
-	trainerclass VETERANM ; 6d
+	trainerclass VETTRANM ; 6d
 	const MATT
 	const REMY
 	const BARKHORN
 	const EN
 
-	trainerclass VETERANF ; 6e
+	trainerclass VETTRANF ; 6e
 	const JOANNE
 	const JONET
 	const LITVYAK
@@ -1124,11 +1124,11 @@ DEF CRYS EQU __trainer_class__
 
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 
-	trainerclass ELUNASA_FOSSIL ; 9a
+	trainerclass ALUNASA_FOSSIL ; 9a
 
 	trainerclass YUYUKO_FOSSIL ; 9b
 
-	trainerclass EYUYUKO_FOSSIL ; 9c
+	trainerclass AYUYUKO_FOSSIL ; 9c
 
 	trainerclass CMEILING_ARMOR ; 9d
 

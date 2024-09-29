@@ -77,7 +77,7 @@ BillsHouseBillScript:
 	done
 
 .IntroText:
-	text "Bill: ELyrica is"
+	text "Bill: TLyrica is"
 	line "such a fascinating"
 	cont "#mon."
 
@@ -88,7 +88,7 @@ BillsHouseBillScript:
 	line "were once three"
 
 	para "#mon that"
-	line "evolve from ELyrica."
+	line "evolve from TLyrica."
 
 	para "But that might be"
 	line "only a rumor."
@@ -107,7 +107,7 @@ BillsHouseBillScript:
 
 	para "Do you think they"
 	line "were once related"
-	cont "to ELyrica?"
+	cont "to TLyrica?"
 
 	para "Oh man, now I have"
 	line "to show you my"

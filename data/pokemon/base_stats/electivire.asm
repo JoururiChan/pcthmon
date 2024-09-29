@@ -7,9 +7,9 @@ else
 endc
 
 if DEF(FAITHFUL)
-	db ELECTRIC, ELECTRIC ; type
+	db WIND, WIND ; type
 else
-	db ELECTRIC, FIGHTING ; type
+	db WIND, DREAM ; type
 endc
 	db 30 ; catch rate
 	db 199 ; base exp

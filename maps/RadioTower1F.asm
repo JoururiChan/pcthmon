@@ -418,7 +418,7 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	cont "question:"
 
 	para "Are Daichan"
-	line "#mon both Grass"
+	line "#mon both Nature"
 
 	para "and Psychic-type"
 	line "#mon?"

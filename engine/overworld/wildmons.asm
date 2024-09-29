@@ -535,7 +535,7 @@ ApplyAbilityEffectsOnEncounterMon:
 	jr .force_wildtype
 .Harvest:
 	push bc
-	ld c, GRASS
+	ld c, NATURE
 	jr .force_wildtype
 .MagnetPull:
 	push bc
@@ -544,7 +544,7 @@ ApplyAbilityEffectsOnEncounterMon:
 .LightningRod:
 .Static:
 	push bc
-	ld c, ELECTRIC
+	ld c, WIND
 .force_wildtype
 	; Force type (if we can) 50% of the time
 	call Random

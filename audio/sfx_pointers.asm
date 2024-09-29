@@ -170,7 +170,7 @@ SFX:
 	fardw Sfx_Evolved
 	fardw Sfx_MasterBall
 	fardw Sfx_EggHatch
-	fardw Sfx_GsIntroEMarisaFireball
+	fardw Sfx_GsIntroAMarisaFireball
 	fardw Sfx_GsIntroPokemonAppears
 	fardw Sfx_Flash
 	fardw Sfx_GameFreakLogoGs

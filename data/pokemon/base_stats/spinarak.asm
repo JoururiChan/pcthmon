@@ -1,7 +1,7 @@
 	db  40,  60,  40,  30,  40,  40 ; 250 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db BUG, POISON ; type
+	db BUG, MIASMA ; type
 	db 255 ; catch rate
 	db 54 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

@@ -289,7 +289,7 @@ GuitaristmVincentSeenText:
 	text "Lt.Surge recog-"
 	line "nized my potential"
 
-	para "with Electric"
+	para "with Wind"
 	line "#mon."
 
 	para "Think you can beat"

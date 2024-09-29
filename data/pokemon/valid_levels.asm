@@ -3,128 +3,105 @@ ValidPokemonLevels: ; for Wonder Trade
 	;  min, max
 	db   1,  15 ; CReimu
 	db  16,  34 ; Reimu
-	db  35, 100 ; EReimu
+	db  35, 100 ; TReimu
 	db   1,  17 ; CMarisa
 	db  18,  35 ; Marisa
-	db  36, 100 ; EMarisa
+	db  36, 100 ; AMarisa
 	db   1,  13 ; CSakuya
 	db  14,  31 ; Sakuya
-	db  32, 100 ; ESakuya
+	db  32, 100 ; HSakuya
 	db   1,  21 ; CGyoku
 	db  22, 100 ; MGyoku
 	db  22, 100 ; FGyoku
 	db  22, 100 ; OGyoku
 	db   1,  24 ; CMagan
 	db  25,  42 ; Magan
-	db  43, 100 ; EMagan
 	db   1,  27 ; CMima
 	db  28,  49 ; Mima
-	db  50, 100 ; EMima
 	db  1, 25 ; CElis
 	db   26,  46 ; Elis
-	db  47, 100 ; EElis
 	db   1,  28 ; CKikuri
 	db  29, 47 ; Kikuri
-	db   48, 100 ; EKikuri
 	db  1, 29 ; CSariel
 	db   30, 54 ; Sariel
-	db  55, 100 ; ESariel
 	db   1,  29 ; CKongara
 	db  30,  54 ; Kongara
-	db  55, 100 ; EKongara
 	db   1,  19 ; CRika
 	db  20,  100 ; Rika
-	db  20, 100 ; ERika
+	db  20, 100 ; ARika
 	db   1, 21 ; CMeira
 	db  22, 37 ; Meira
-	db   38, 100 ; EMeira
 	db  20, 100 ; CEllen
 	db   5,  19 ; Ellen
-	db  20, 100 ; EEllen
 	db   1,  21 ; CKotohime
 	db  22, 100 ; Kotohime
-	db   1,  20 ; EKotohime
 	db  21,  31 ; CKana
 	db  32, 100 ; Kana
-	db   1,  23 ; EKana
 	db  24, 100 ; CRikako
 	db   1,  30 ; Rikako
-	db  31, 100 ; ERikako
 	db   1,  25 ; CChiyuri
 	db  26, 100 ; Chiyuri
-	db   1,  27 ; EChiyuri
 	db  28, 100 ; CYumemi
 	db   1,  32 ; Yumemi
-	db  33, 100 ; EYumemi
 	db   1,  27 ; COrange
 	db  28,  55 ; Orange
-	db   1,  19 ; EOrange
 	db  20, 100 ; CKurumi
 	db   1,  24 ; Kurumi
-	db  25,  35 ; EKurumi
 	db  36, 100 ; CElly
 	db   1,  15 ; Elly
-	db  16,  35 ; EElly
 	db  36, 100 ; CYuka
 	db   1,  27 ; Yuka
-	db  28,  45 ; EYuka
+	db  28,  45 ; AYuka
 	db  46, 100 ; CMugetsu
 	db   1,  20 ; Mugetsu
-	db  21,  31 ; EMugetsu
 	db  32, 100 ; CGengetsu
 	db   1,  29 ; Gengetsu
-	db  30, 100 ; EGengetsu
 	db   1,  24 ; CSara
 	db  25,  44 ; Sara
-	db  45, 100 ; ESara
 	db   1,  39 ; CLuize
 	db  40, 100 ; Luize
-	db   1,  36 ; ELuize
+	db   1,  36 ; DLuize
 	db  37, 100 ; CAlice
 	db   1,  29 ; Alice
-	db  30,  49 ; EAlice
+	db  30,  49 ; AAlice
 	db   1,  20 ; CMai
 	db   1,  30 ; Mai
-	db  31, 100 ; EMai
 	db   1,  33 ; CYuki
 	db  34, 100 ; Yuki
-	db   1,  37 ; EYuki
 	db  38, 100 ; CYumeko
 	db   1,  33 ; Yumeko
-	db  34, 100 ; EYumeko
 	db   1,  24 ; CShinki
 	db  25,  44 ; Shinki
-	db  45, 100 ; EShinki
 	db   1, 100 ; CRumia
 	db   1,  25 ; Rumia
-	db  26, 100 ; ERumia
+	db  26, 100 ; ARumia
 	db   1,  27 ; CDaichan
 	db  28, 100 ; Daichan
-	db   1,  29 ; EDaichan
+	db   1,  29 ; DDaichan
 	db  30, 100 ; CCirno
 	db   1,  29 ; Cirno
-	db  30, 100 ; ECirno
+	db  30, 100 ; SCirno
 	db   1,  27 ; CMeiling
 	db  28, 100 ; Meiling
-	db  20, 100 ; EMeiling
+	db  20, 100 ; AMeiling
 	db  20, 100 ; CKoakuma
 	db  10, 100 ; Koakuma
-	db   1,  34 ; EKoakuma
+	db   1,  34 ; HKoakuma
 	db  35, 100 ; CPatchouli
 	db   1,  41 ; Patchouli
-	db  42,  54 ; EPatchouli
+	db  42,  54 ; TPatchouli
 	db  20, 100 ; CRemilia
 	db   1,  38 ; Remilia
-	db  20, 100 ; ERemilia
+	db  20, 100 ; SRemilia
 	db   1,  31 ; CFlandre
 	db  32,  54 ; Flandre
-	db   1,  32 ; EFlandre
+	db   1,  32 ; AFlandre
 	db  33, 100 ; CLetty
 	db   1,  32 ; Letty
-	db  33, 100 ; ELetty
+	db  33, 100 ; DLetty
 	db  20, 100 ; Mr. Mime
 	db  10, 100 ; Chen
-	db  20, 100 ; EChen
+	db  20, 100 ; HChen
 	db  20,  46 ; CLilyWhite
 	db  20,  46 ; LilyWhite
 	db  10, 100 ; ELilyWhite
@@ -133,34 +110,34 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; ELilyBlack
 	db  20, 100 ; CLyrica
 	db   1, 100 ; Lyrica
-	db   1,  19 ; ELyrica
+	db   1,  19 ; TLyrica
 	db  20, 100 ; CMerlin
 	db  20, 100 ; Merlin
-	db  20, 100 ; EMerlin
+	db  20, 100 ; SMerlin
 	db   1,  20 ; CLunasa
 	db  15,  39 ; Lunasa
-	db  40, 100 ; ELunasa
+	db  40, 100 ; ALunasa
 	db  15,  39 ; CYuyuko
 	db  40, 100 ; Yuyuko
-	db  15, 100 ; EYuyuko
+	db  15, 100 ; AYuyuko
 	db  20, 100 ; CRan
 	db 255, 255 ; Ran
-	db 255, 255 ; ERan
+	db 255, 255 ; TRan
 	db 255, 255 ; CYukari
 	db  20,  29 ; Yukari
-	db  30,  54 ; EYukari
+	db  30,  54 ; TYukari
 	db  55, 100 ; CSuika
 	db 255, 255 ; Suika
-	db 255, 255 ; ESuika
+	db 255, 255 ; TSuika
 	db   1,  13 ; CYoumu
 	db  14,  33 ; Youmu
-	db  34, 100 ; EYoumu
+	db  34, 100 ; SYoumu
 	db   1,  17 ; CReisen
 	db  18,  35 ; Reisen
-	db  36, 100 ; EReisen
+	db  36, 100 ; TReisen
 	db   1,  15 ; CSanae
 	db  16,  31 ; Sanae
-	db  32, 100 ; ESanae
+	db  32, 100 ; DSanae
 	db   1,  14 ; Sentret
 	db  15, 100 ; Furret
 	db   1,  19 ; Hoothoot

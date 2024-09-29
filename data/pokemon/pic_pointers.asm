@@ -6,164 +6,141 @@ PokemonPicPointers::
 	table_width 5, PokemonPicPointers
 	pics CReimu
 	pics Reimu
-	pics EReimu
+	pics TReimu
 	pics CMarisa
 	pics Marisa
-	pics EMarisa
+	pics AMarisa
 	pics CSakuya
 	pics Sakuya
-	pics ESakuya
+	pics HSakuya
 	pics CGyoku
 	pics MGyoku
 	pics FGyoku
 	pics OGyoku
 	pics CMagan
 	pics Magan
-	pics EMagan
 	pics CMima
 	pics Mima
-	pics EMima
-	pics CElisPlain
+	pics CElis
 	pics Elis
-	pics EElis
 	pics CKikuri
 	pics KikuriJohto
-	pics EKikuriPlain
-	pics CSarielPlain
-	pics SarielPlain
-	pics ESarielPlain
+	pics CSariel
+	pics Sariel
 	pics CKongara
 	pics Kongara
-	pics EKongara
 	pics CRika
 	pics Rika
-	pics ERika
+	pics ARika
 	pics CMeira
 	pics Meira
-	pics EMeiraPlain
-	pics CEllenPlain
+	pics CEllen
 	pics Ellen
-	pics EEllen
 	pics CKotohime
 	pics Kotohime
-	pics EKotohime
 	pics CKana
 	pics Kana
-	pics EKana
 	pics CRikako
 	pics Rikako
-	pics ERikako
-	pics CChiyuriPlain
-	pics ChiyuriPlain
-	pics EChiyuriPlain
-	pics CYumemiPlain
+	pics CChiyuri
+	pics Chiyuri
+	pics CYumemi
 	pics Yumemi
-	pics EYumemi
 	pics COrange
 	pics Orange
-	pics EOrangePlain
-	pics CKurumiPlain
+	pics CKurumi
 	pics Kurumi
-	pics EKurumi
 	pics CElly
 	pics Elly
-	pics EElly
 	pics CYuka
 	pics Yuka
-	pics EYuka
+	pics AYuka
 	pics CMugetsu
 	pics Mugetsu
-	pics EMugetsu
 	pics CGengetsu
 	pics Gengetsu
-	pics EGengetsu
-	pics CSaraPlain
-	pics SaraPlain
-	pics ESaraPlain
-	pics CLuizePlain
-	pics LuizePlain
-	pics ELuizePlain
-	pics CAlicePlain
+	pics CSara
+	pics Sara
+	pics CLuize
+	pics Luize
+	pics DLuize
+	pics CAlice
 	pics Alice
-	pics EAlice
-	pics CMaiPlain
+	pics AAlice
+	pics CMai
 	pics Mai
-	pics EMai
 	pics CYuki
 	pics Yuki
-	pics EYukiPlain
-	pics CYumekoPlain
+	pics CYumeko
 	pics Yumeko
-	pics EYumeko
 	pics CShinki
 	pics Shinki
-	pics EShinki
 	pics CRumia
 	pics Rumia
-	pics ERumia
+	pics ARumia
 	pics CDaichan
 	pics Daichan
-	pics EDaichanPlain
-	pics CCirnoPlain
+	pics DDaichan
+	pics CCirno
 	pics Cirno
-	pics ECirnoPlain
+	pics SCirno
 	pics CMeiling
-	pics MeilingPlain
-	pics EMeiling
+	pics Meiling
+	pics AMeiling
 	pics CKoakuma
 	pics Koakuma
-	pics EKoakuma
-	pics CPatchouliPlain
+	pics HKoakuma
+	pics CPatchouli
 	pics Patchouli
-	pics EPatchouli
+	pics TPatchouli
 	pics CRemilia
 	pics Remilia
-	pics ERemilia
+	pics SRemilia
 	pics CFlandre
 	pics Flandre
-	pics EFlandre
+	pics AFlandre
 	pics CLetty
 	pics Letty
-	pics ELetty
-	pics MrMimePlain
+	pics DLetty
+	pics MrMime
 	pics Chen
-	pics EChen
+	pics HChen
 	pics CLilyWhite
 	pics LilyWhite
 	pics ELilyWhite
-	pics CLilyBlackPlain
-	pics LilyBlackPlain
-	pics ELilyBlackPlain
+	pics CLilyBlack
+	pics LilyBlack
+	pics ELilyBlack
 	pics CLyrica
 	pics Lyrica
-	pics ELyrica
+	pics TLyrica
 	pics CMerlin
 	pics Merlin
-	pics EMerlin
+	pics SMerlin
 	pics CLunasa
 	pics Lunasa
-	pics ELunasa
+	pics ALunasa
 	pics CYuyuko
 	pics Yuyuko
-	pics EYuyuko
+	pics AYuyuko
 	pics CRan
-	pics RanPlain
-	pics ERanPlain
-	pics CYukariPlain
+	pics Ran
+	pics TRan
+	pics CYukari
 	pics Yukari
-	pics EYukari
+	pics TYukari
 	pics CSuika
-	pics SuikaPlain
-	pics ESuika
+	pics Suika
+	pics TSuika
 	pics CYoumu
 	pics Youmu
-	pics EYoumu
+	pics SYoumu
 	pics CReisen
 	pics Reisen
-	pics EReisenPlain
+	pics TReisen
 	pics CSanae
 	pics Sanae
-	pics ESanae
+	pics DSanae
 	pics Sentret
 	pics Furret
 	pics Hoothoot
@@ -175,7 +152,7 @@ PokemonPicPointers::
 	pics Crobat
 	pics Chinchou
 	pics Lanturn
-	pics PichuPlain
+	pics Pichu
 	pics Cleffa
 	pics Igglybuff
 	pics Togepi
@@ -197,12 +174,12 @@ PokemonPicPointers::
 	pics Sunkern
 	pics Sunflora
 	pics Yanma
-	pics WooperPlain
+	pics Wooper
 	pics Quagsire
 	pics Espeon
 	pics Umbreon
 	pics Murkrow
-	pics SlowkingPlain
+	pics Slowking
 	pics Misdreavus
 	pics UnownA
 	pics Wobbuffet
@@ -214,18 +191,18 @@ PokemonPicPointers::
 	pics Steelix
 	pics Snubbull
 	pics Granbull
-	pics QwilfishPlain
+	pics Qwilfish
 	pics Scizor
 	pics Shuckle
 	pics Heracross
-	pics SneaselPlain
+	pics Sneasel
 	pics Teddiursa
 	pics Ursaring
 	pics Slugma
 	pics Magcargo
 	pics Swinub
 	pics Piloswine
-	pics CorsolaPlain
+	pics Corsola
 	pics Remoraid
 	pics Octillery
 	pics Delibird
@@ -330,12 +307,6 @@ PokemonPicPointers::
 	pics KikuriAgatha
 	pics KikuriAriana
 
-	pics EKikuriFly
-	pics EKikuriSurf
-	pics EKikuriPika
-	pics EKikuriChuchu
-	pics EKikuriSpark
-
 	pics PichuSpiky
 
 	pics LilyBlackSkelly
@@ -365,51 +336,5 @@ PokemonPicPointers::
 	pics SuikaArmored
 
 	pics DudunsparceThreeSegment
-
-	pics EMimaAlolan
-	pics CElisAlolan
-	pics CSarielAlolan
-	pics SarielAlolan
-	pics ESarielAlolan
-	pics EMeiraAlolan
-	pics CEllenAlolan
-	pics CChiyuriAlolan
-	pics ChiyuriAlolan
-	pics EChiyuriAlolan
-	pics CYumemiAlolan
-	pics CSaraAlolan
-	pics SaraAlolan
-	pics ESaraAlolan
-	pics EYukiAlolan
-	pics CYumekoAlolan
-	pics ECirnoAlolan
-	pics MeilingAlolan
-
-	pics EChiyuriGalarian
-	pics CLuizeGalarian
-	pics LuizeGalarian
-	pics ELuizeGalarian
-	pics CAliceGalarian
-	pics CMaiGalarian
-	pics CPatchouliGalarian
-	pics MrMimeGalarian
-	pics RanGalarian
-	pics ERanGalarian
-	pics CYukariGalarian
-	pics SlowkingGalarian
-	pics CorsolaGalarian
-
-	pics EOrangeHisuian
-	pics CKurumiHisuian
-	pics EDaichanHisuian
-	pics CCirnoHisuian
-	pics EReisenHisuian
-	pics QwilfishHisuian
-	pics SneaselHisuian
-
-	pics WooperPaldean
-	pics CLilyBlackPaldean
-	pics CLilyBlackPaldeanFire
-	pics CLilyBlackPaldeanWater
 
 	assert_table_length NUM_UNIQUE_POKEMON

@@ -21,7 +21,6 @@ FishGroups:
 	fishgroup 60 percent, (60 + 3) percent, .WhirlIslands_Old,     .WhirlIslands_Good,     .WhirlIslands_Super
 	fishgroup 60 percent, (60 + 3) percent, .Qwilfish_Old,         .Qwilfish_Good,         .Qwilfish_Super
 	fishgroup 60 percent, (60 + 3) percent, .Remoraid_Old,         .Remoraid_Good,         .Remoraid_Super
-	fishgroup 65 percent, (65 + 5) percent, .Hisuian_Qwilfish_Old, .Hisuian_Qwilfish_Good, .Hisuian_Qwilfish_Super
 	assert_table_length NUM_FISHGROUPS
 
 MACRO fishentry
@@ -76,19 +75,19 @@ ENDM
 .River_Good:
 .Well_Good:
 	fishentry  35 percent,     LILYBLACK,   20
-	fishentry  70 percent,     EFLANDRE,    20
-	fishentry  90 percent + 1, EFLANDRE,    20
-	fishentry 100 percent,     EFLANDRE,    20
+	fishentry  70 percent,     AFLANDRE,    20
+	fishentry  90 percent + 1, AFLANDRE,    20
+	fishentry 100 percent,     AFLANDRE,    20
 .Lake_Super:
 .River_Super:
-	fishentry  40 percent,     EFLANDRE,    40
-	fishentry  70 percent,     EFLANDRE,    40
+	fishentry  40 percent,     AFLANDRE,    40
+	fishentry  70 percent,     AFLANDRE,    40
 	fishentry  90 percent + 1, LILYBLACK,   40
 	fishentry 100 percent,     CLETTY,    40
 
 .Well_Super:
-	fishentry  40 percent,     EFLANDRE,    40
-	fishentry  70 percent,     EFLANDRE,    40
+	fishentry  40 percent,     AFLANDRE,    40
+	fishentry  70 percent,     AFLANDRE,    40
 	fishentry  90 percent + 1, YUMEKO,   40
 	fishentry 100 percent,     CLETTY,    40
 
@@ -120,7 +119,7 @@ ENDM
 	fishentry  40 percent,     LILYBLACK,   40
 	fishentry  70 percent,     YUKARI,    40
 	fishentry  90 percent + 1, LILYBLACK,   40
-	fishentry 100 percent,     EYUKARI,  40
+	fishentry 100 percent,     TYUKARI,  40
 
 .Qwilfish_Swarm_Old:
 	fishentry  70 percent + 1, LILYBLACK,   5
@@ -180,7 +179,7 @@ ENDM
 	fishentry  40 percent,     LILYBLACK,   10
 	fishentry  70 percent,     YUKARI,    10
 	fishentry  90 percent + 1, LILYBLACK,   10
-	fishentry 100 percent,     EYUKARI,  10
+	fishentry 100 percent,     TYUKARI,  10
 
 .WhirlIslands_Old:
 	fishentry  70 percent + 1, LILYBLACK,   10
@@ -227,17 +226,3 @@ ENDM
 	fishentry  90 percent + 1, LILYBLACK,   40
 	fishentry 100 percent,     REMORAID,   40
 
-.Hisuian_Qwilfish_Old:
-	fishentry  70 percent + 1, LILYBLACK,   10
-	fishentry  85 percent + 1, LILYBLACK,   10
-	fishentry 100 percent,     GENGETSU,  10
-.Hisuian_Qwilfish_Good:
-	fishentry  35 percent,     LILYBLACK,   20
-	fishentry  70 percent,     GENGETSU,  20
-	fishentry  90 percent + 1, CFLANDRE,     20
-	fishentry 100 percent,     QWILFISH,   HISUIAN_FORM,   20
-.Hisuian_Qwilfish_Super:
-	fishentry  40 percent,     EGENGETSU, 40
-	fishentry  70 percent,     FLANDRE,     40
-	fishentry  90 percent + 1, QWILFISH,   HISUIAN_FORM,   40
-	fishentry 100 percent,     OVERQWIL,   40

@@ -196,7 +196,7 @@ CKurumiEggMoves:
 CEllyEggMoves:
 	db ROCK_BLAST
 	db BRAVER
-	db BONEMERANG
+	db BONEMTRANG
 	db LIFE_COUNTER
 	db SUBSTITUTE
 	db PROTECT
@@ -397,7 +397,7 @@ CLyricaEggMoves:
 	db HEAL_BELL
 	db $ff
 
-ELyricaEggMoves:
+TLyricaEggMoves:
 	db CHARM
 	db $ff
 
@@ -424,7 +424,7 @@ CYuyukoEggMoves:
 	db KNOCK_OFF
 	db $ff
 
-EYuyukoEggMoves:
+AYuyukoEggMoves:
 	db FORESIGHT
 	db PURSUIT
 	db STEEL_WING
@@ -590,8 +590,7 @@ YanmaEggMoves:
 	db REVERSAL
 	db $ff
 
-WooperPlainEggMoves:
-WooperPaldeanEggMoves:
+WooperEggMoves:
 	db COUNTER
 	db DOUBLE_KICK
 	db ENCORE
@@ -674,9 +673,6 @@ QwilfishEggMoves:
 	db WATER_PULSE
 	db $ff
 
-QwilfishHisuianEggMoves:
-	db $ff
-
 ShuckleEggMoves:
 	db ROLLOUT
 	db ACID
@@ -699,9 +695,6 @@ SneaselEggMoves:
 	db REFLECT
 	db ICICLE_CRASH
 	db ICE_SHARD
-	db $ff
-
-SneaselHisuianEggMoves:
 	db $ff
 
 TeddiursaEggMoves:
@@ -735,8 +728,7 @@ SwinubEggMoves:
 	db ICICLE_SPEAR
 	db $ff
 
-CorsolaPlainEggMoves:
-CorsolaGalarianEggMoves:
+CorsolaEggMoves:
 	db BARRIER
 	db CONFUSE_RAY
 	db HAZE

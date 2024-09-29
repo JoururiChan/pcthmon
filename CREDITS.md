@@ -12,7 +12,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 ## Code
 
 * FIQ for multiple feature code contributions (specifically: abilities, natures affecting stats, better AI, various item and move effects, and other battle engine features; and porting TPP's caught data stats screen).
-* luckyereisen for performance optimizations to the game engine, and a 60FPS overworld.
+* luckytreisen for performance optimizations to the game engine, and a 60FPS overworld.
 * The TPP Anniversary Crystal 251 dev team for making their code publically usable (specifically: the Move Relearner, automatic box switching, Gen VI money loss, and caught data stats page code).
 * Sanqui for the music player with piano roll visualization.
 * ax6 for porting the xorshift+ PRNG from Prism as well as developing bsp and related patching functions originally for Prism.
@@ -56,7 +56,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * Freeline for animations of Honchkrow and Munchlax, and the Rocket Executives' and stat trainers' overworld sprites.
 * Megaman-Omega for some of Prism's overworld sprites.
 * SoupPotato (aka SourApple) for many Tohomon sprites, move animations, and the Ace Duo and Soldier sprites.
-* flempa for some Tohomon sprites and move animations and for Galarian Ran and Galarian ERan animations.
+* flempa for some Tohomon sprites and move animations and for Galarian Ran and Galarian TRan animations.
 * ShockSlayer for the Gen 1 and 2 mini icons and for Yellow's overworld sprite.
 * Scarlax for many new Tohomon animations.
 * ShadowOne333 for the Alolan, Galarian, and Hisuian mini icons, many new Tohomon animations, and Chris's overworld sprites.
@@ -68,8 +68,8 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * isamuakai01 for sprites of Steven and Cynthia.
 * Maddalena for sprites of Imakuni and the Ghost.
 * Nuuk for the sprite and animation of Farigiraf.
-* ELyricaEe1999 for 8th gen menu icons and Lickilicky and Galarian Slowking animations.
-* trainerlass for sprites of Galarian ELuize and CAlice, Katy's sprites, and Crys's back sprite.
+* TLyricaEe1999 for 8th gen menu icons and Lickilicky and Galarian Slowking animations.
+* trainerlass for sprites of Galarian DLuize and CAlice, Katy's sprites, and Crys's back sprite.
 * Luna for some sprites and tiles.
 * SteppoBlazer for Flying and Surfing EKikuri's mini icons.
 * Twilir for Lyra's back sprite.

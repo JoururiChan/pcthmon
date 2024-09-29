@@ -1,13 +1,13 @@
 	db  50,  85,  55,  90,  65,  65 ; 410 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db PSYCHIC, PSYCHIC ; type
+	db REASON, REASON ; type
 	db 190 ; catch rate
 	db 152 ; base exp
 	db NO_ITEM, MARANGABERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CLUIZE_GALARIAN, RUN_AWAY, PASTEL_VEIL, ANTICIPATION
+	abilities_for CLUIZE, RUN_AWAY, PASTEL_VEIL, ANTICIPATION
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

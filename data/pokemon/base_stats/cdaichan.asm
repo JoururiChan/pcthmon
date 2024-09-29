@@ -1,7 +1,7 @@
 	db  52,  20,   22,  30,  70,  75 ; 325 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GRASS, FAIRY ; type
+	db NATURE, HEART ; type
 	db 251 ; catch rate
 	db 45 ; base exp
 	db NO_ITEM, NO_ITEM ; held items

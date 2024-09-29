@@ -1,13 +1,13 @@
 	db  75, 110, 105, 100,  30,  70 ; 490 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIGHTING, FIGHTING ; type
+	db DREAM, DREAM ; type
 	db 45 ; catch rate
 	db 211 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F0, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CLILYBLACK_PALDEAN, INTIMIDATE, ANGER_POINT, CUD_CHEW
+	abilities_for CLILYBLACK, INTIMIDATE, ANGER_POINT, CUD_CHEW
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

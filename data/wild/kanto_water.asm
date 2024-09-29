@@ -2,8 +2,8 @@
 
 	def_water_wildmons TOHJO_FALLS
 	db 4 percent ; encounter rate
-	wildmon  20, EFLANDRE
-	wildmon  20, ELUIZE
+	wildmon  20, AFLANDRE
+	wildmon  20, DLUIZE
 	wildmon  20, CLETTY
 	end_water_wildmons
 
@@ -16,16 +16,16 @@
 
 	def_water_wildmons ROUTE_2_SOUTH
 	db 6 percent ; encounter rate
-	wildmon  53, EFLANDRE
+	wildmon  53, AFLANDRE
 	wildmon  55, CYUMEMI
 	wildmon  57, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_4
 	db 4 percent ; encounter rate
-	wildmon  55, EFLANDRE
+	wildmon  55, AFLANDRE
 	wildmon  60, CLETTY
-	wildmon  55, EFLANDRE
+	wildmon  55, AFLANDRE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_6
@@ -37,15 +37,15 @@
 
 	def_water_wildmons ROUTE_9
 	db 4 percent ; encounter rate
-	wildmon  47, EFLANDRE
-	wildmon  42, EFLANDRE
+	wildmon  47, AFLANDRE
+	wildmon  42, AFLANDRE
 	wildmon  47, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_10_NORTH
 	db 4 percent ; encounter rate
-	wildmon  47, EFLANDRE
-	wildmon  47, EFLANDRE
+	wildmon  47, AFLANDRE
+	wildmon  47, AFLANDRE
 	wildmon  52, CLETTY
 	end_water_wildmons
 
@@ -136,14 +136,14 @@
 	def_water_wildmons ROUTE_24
 	db 4 percent ; encounter rate
 	wildmon  48, LILYBLACK
-	wildmon  50, EFLANDRE
+	wildmon  50, AFLANDRE
 	wildmon  52, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_25
 	db 4 percent ; encounter rate
 	wildmon  48, LILYBLACK
-	wildmon  50, EFLANDRE
+	wildmon  50, AFLANDRE
 	wildmon  52, CLETTY
 	end_water_wildmons
 
@@ -184,8 +184,8 @@
 
 	def_water_wildmons CERULEAN_CITY
 	db 4 percent ; encounter rate
-	wildmon  55, EFLANDRE
-	wildmon  50, EFLANDRE
+	wildmon  55, AFLANDRE
+	wildmon  50, AFLANDRE
 	wildmon  55, CLETTY
 	end_water_wildmons
 
@@ -291,7 +291,7 @@
 	db 6 percent ; encounter rate
 	wildmon  55, CALICE
 	wildmon  55, EYUMEMI
-	wildmon  40, EYUKARI
+	wildmon  40, TYUKARI
 	end_water_wildmons
 
 	def_water_wildmons SEAFOAM_ISLANDS_B4F

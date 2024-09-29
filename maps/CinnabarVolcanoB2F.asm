@@ -101,7 +101,7 @@ CinnabarVolcanoCYukari:
 .NoCandela
 	checkevent EVENT_SEAFOAM_ISLANDS_RAN
 	iffalsefwd .end
-	checkevent EVENT_ROUTE_10_ERAN
+	checkevent EVENT_ROUTE_10_TRAN
 	iffalsefwd .end
 	special SpecialBirdsCheck
 	iffalsefwd .end

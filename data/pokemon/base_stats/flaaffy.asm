@@ -6,7 +6,7 @@ else
 	;   hp  atk  def  spe  sat  sdf
 endc
 
-	db ELECTRIC, ELECTRIC ; type
+	db WIND, WIND ; type
 if DEF(FAITHFUL)
 	db 120 ; catch rate
 	db 117 ; base exp

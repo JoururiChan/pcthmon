@@ -60,7 +60,7 @@ SpriteAnimFrameData:
 	dw .Frameset_PcPack
 	dw .Frameset_DexCursor
 	dw .Frameset_DexUnownCursor
-	dw .Frameset_DexELuize
+	dw .Frameset_DexDLuize
 	dw .Frameset_TownMapFly
 	dw .Frameset_GreenWalk
 	dw .Frameset_FlyMon
@@ -390,12 +390,12 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_DEX_UNOWN_CURSOR, 32
 	oamrestart
 
-.Frameset_DexELuize:
-	oamframe SPRITE_ANIM_OAMSET_DEX_ELUIZE_1, 3
-	oamframe SPRITE_ANIM_OAMSET_DEX_ELUIZE_2, 3
-	oamframe SPRITE_ANIM_OAMSET_DEX_ELUIZE_3, 3
-	oamframe SPRITE_ANIM_OAMSET_DEX_ELUIZE_4, 3
-	oamframe SPRITE_ANIM_OAMSET_DEX_ELUIZE_5, 3
+.Frameset_DexDLuize:
+	oamframe SPRITE_ANIM_OAMSET_DEX_DLUIZE_1, 3
+	oamframe SPRITE_ANIM_OAMSET_DEX_DLUIZE_2, 3
+	oamframe SPRITE_ANIM_OAMSET_DEX_DLUIZE_3, 3
+	oamframe SPRITE_ANIM_OAMSET_DEX_DLUIZE_4, 3
+	oamframe SPRITE_ANIM_OAMSET_DEX_DLUIZE_5, 3
 	oamrestart
 
 .Frameset_TownMapFly:

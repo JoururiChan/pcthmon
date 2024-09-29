@@ -12,30 +12,30 @@ FarawayJungle_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event 12, 10, SPRITE_ESUIKA, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FarawayJungleESuika, EVENT_FARAWAY_JUNGLE_ESUIKA
+	object_event 12, 10, SPRITE_TSUIKA, SPRITEMOVEDATA_WANDER, 3, 3, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FarawayJungleTSuika, EVENT_FARAWAY_JUNGLE_TSUIKA
 
 	object_const_def
-	const FARAWAYJUNGLE_ESUIKA
+	const FARAWAYJUNGLE_TSUIKA
 
-FarawayJungleESuika:
+FarawayJungleTSuika:
 	faceplayer
 	opentext
-	writetext ESuikaText
-	cry ESUIKA
+	writetext TSuikaText
+	cry TSUIKA
 	pause 15
 	closetext
-	loadwildmon ESUIKA, 30
+	loadwildmon TSUIKA, 30
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
-	disappear FARAWAYJUNGLE_ESUIKA
-	setevent EVENT_FARAWAY_JUNGLE_ESUIKA
+	disappear FARAWAYJUNGLE_TSUIKA
+	setevent EVENT_FARAWAY_JUNGLE_TSUIKA
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_ESUIKA
+	setflag ENGINE_PLAYER_CAUGHT_TSUIKA
 .nocatch
 	end
 
-ESuikaText:
-	text "ESuika!"
+TSuikaText:
+	text "TSuika!"
 	done

@@ -325,7 +325,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db "Blissey@"
 	db "Qwilfish@"
 	db "Slowking@"
-	db "ERikako@"
+	db "ARikako@"
 
 .Question3MenuData:
 	db MENU_BACKUP_TILES

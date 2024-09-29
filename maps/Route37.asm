@@ -168,14 +168,14 @@ SunnyGaveGiftText:
 	line "now!"
 
 	para "A #mon that"
-	line "knows Electric"
+	line "knows Wind"
 
 	para "moves should hold"
 	line "it."
 
 	para "My sis Monica said"
 	line "it powers up"
-	cont "Electric moves!"
+	cont "Wind moves!"
 	done
 
 SunnySundayText:

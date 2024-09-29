@@ -2562,7 +2562,7 @@ BattleAnim_DrainKiss:
 BattleAnim_Bonemerang:
 	anim_2gfx ANIM_GFX_MISC, ANIM_GFX_HIT
 	anim_sound 6, 2, SFX_HYDRO_PUMP
-	anim_obj ANIM_OBJ_BONEMERANG,  11, 0,   7, 0, $1c
+	anim_obj ANIM_OBJ_BONEMTRANG,  11, 0,   7, 0, $1c
 	anim_wait 24
 	anim_sound 0, 1, SFX_MOVE_PUZZLE_PIECE
 	anim_obj ANIM_OBJ_HIT_YFIX, -15, 0,   7, 0, $0

@@ -1,7 +1,7 @@
 	db  75,  95,  95,  85,  95,  95 ; 540 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db WATER, DRAGON ; type
+	db WATER, FAITH ; type
 	db 45 ; catch rate
 	db 207 ; base exp
 	db NO_ITEM, DRAGON_SCALE ; held items

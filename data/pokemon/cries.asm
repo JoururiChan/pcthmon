@@ -8,19 +8,19 @@ PokemonCries::
 	table_width MON_CRY_LENGTH, PokemonCries
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $020,  $100 ; Reimu
-	mon_cry CRY_CREIMU,   $000,  $140 ; EReimu
+	mon_cry CRY_CREIMU,   $000,  $140 ; TReimu
 	mon_cry CRY_CMARISA,  $060,  $0c0 ; CMarisa
 	mon_cry CRY_CMARISA,  $020,  $0c0 ; Marisa
-	mon_cry CRY_CMARISA,  $000,  $100 ; EMarisa
+	mon_cry CRY_CMARISA,  $000,  $100 ; AMarisa
 	mon_cry CRY_CSAKUYA,    $060,  $0c0 ; CSakuya
 	mon_cry CRY_CSAKUYA,    $020,  $0c0 ; Sakuya
-	mon_cry CRY_ESAKUYA,   $000,  $100 ; ESakuya
+	mon_cry CRY_HSAKUYA,   $000,  $100 ; HSakuya
 	mon_cry CRY_CGYOKU,    $080,  $0a0 ; CGyoku
 	mon_cry CRY_MGYOKU,     $0cc,  $081 ; MGyoku
 	mon_cry CRY_CGYOKU,    $077,  $0c0 ; FGyoku
 	mon_cry CRY_OGYOKU,      $0ee,  $081 ; OGyoku
-	mon_cry CRY_ESAKUYA,   $0ff,  $081 ; CMagan
-	mon_cry CRY_ESAKUYA,   $060,  $100 ; Magan
+	mon_cry CRY_HSAKUYA,   $0ff,  $081 ; CMagan
+	mon_cry CRY_HSAKUYA,   $060,  $100 ; Magan
 	mon_cry CRY_EMAGAN,      $0df,  $084 ; EMagan
 	mon_cry CRY_CMIMA,   $028,  $140 ; CMima
 	mon_cry CRY_CMIMA,   $011,  $17f ; Mima
@@ -39,7 +39,7 @@ PokemonCries::
 	mon_cry CRY_EKONGARA,   $000,  $100 ; EKongara
 	mon_cry CRY_CRIKA,   $000,  $100 ; CRika
 	mon_cry CRY_CRIKA,   $02c,  $140 ; Rika
-	mon_cry CRY_CSARIEL,      $000,  $100 ; ERika
+	mon_cry CRY_CSARIEL,      $000,  $100 ; ARika
 	mon_cry CRY_CMEIRA,    $0cc,  $081 ; CMeira
 	mon_cry CRY_CMEIRA,    $0aa,  $0a0 ; Meira
 	mon_cry CRY_EMEIRA,      $04f,  $090 ; EMeira
@@ -54,7 +54,7 @@ PokemonCries::
 	mon_cry CRY_EKANA,       $020,  $160 ; EKana
 	mon_cry CRY_EKANA,       $042,  $17f ; CRikako
 	mon_cry CRY_RIKAKO,     $044,  $0c0 ; Rikako
-	mon_cry CRY_RIKAKO,     $029,  $100 ; ERikako
+	mon_cry CRY_RIKAKO,     $029,  $100 ; ARikako
 	mon_cry CRY_CCHIYURI,     $0aa,  $081 ; CChiyuri
 	mon_cry CRY_CCHIYURI,     $02a,  $090 ; Chiyuri
 	mon_cry CRY_CMEIRA,    $077,  $090 ; EChiyuri
@@ -72,7 +72,7 @@ PokemonCries::
 	mon_cry CRY_MGYOKU,     $0a8,  $140 ; EElly
 	mon_cry CRY_MGYOKU,     $098,  $17f ; CYuka
 	mon_cry CRY_EORANGE,   $0ee,  $081 ; Yuka
-	mon_cry CRY_EORANGE,   $048,  $0e0 ; EYuka
+	mon_cry CRY_EORANGE,   $048,  $0e0 ; AYuka
 	mon_cry CRY_EORANGE,   $008,  $140 ; CMugetsu
 	mon_cry CRY_YUMEMI,     $055,  $081 ; Mugetsu
 	mon_cry CRY_EMUGETSU,  $044,  $0a0 ; EMugetsu
@@ -84,10 +84,10 @@ PokemonCries::
 	mon_cry CRY_ESARA,       $0e0,  $0c0 ; ESara
 	mon_cry CRY_EMUGETSU,  $000,  $100 ; CLuize
 	mon_cry CRY_EMUGETSU,  $020,  $140 ; Luize
-	mon_cry CRY_ELUIZE,    $000,  $100 ; ELuize
+	mon_cry CRY_DLUIZE,    $000,  $100 ; DLuize
 	mon_cry CRY_EORANGE,   $000,  $100 ; CAlice
 	mon_cry CRY_MGYOKU,     $080,  $0e0 ; Alice
-	mon_cry CRY_MGYOKU,     $020,  $140 ; EAlice
+	mon_cry CRY_MGYOKU,     $020,  $140 ; AAlice
 	mon_cry CRY_CMAI,  $0dd,  $081 ; CMai
 	mon_cry CRY_CCHIYURI,     $0bb,  $081 ; Mai
 	mon_cry CRY_CCHIYURI,     $099,  $0a0 ; EMai
@@ -102,35 +102,35 @@ PokemonCries::
 	mon_cry CRY_CYUMEKO,         $000,  $17f ; EShinki
 	mon_cry CRY_CKIKURI,       $0ff,  $140 ; CRumia
 	mon_cry CRY_RUMIA,     $088,  $0a0 ; Rumia
-	mon_cry CRY_RUMIA,     $0ee,  $0c0 ; ERumia
+	mon_cry CRY_RUMIA,     $0ee,  $0c0 ; ARumia
 	mon_cry CRY_CDAICHAN,      $020,  $160 ; CDaichan
 	mon_cry CRY_CDAICHAN,      $0ee,  $160 ; Daichan
-	mon_cry CRY_EDAICHAN,     $0ed,  $100 ; EDaichan
-	mon_cry CRY_EDAICHAN,     $0a8,  $110 ; CCirno
+	mon_cry CRY_DDAICHAN,     $0ed,  $100 ; DDaichan
+	mon_cry CRY_DDAICHAN,     $0a8,  $110 ; CCirno
 	mon_cry CRY_CCHIYURI,     $000,  $100 ; Cirno
-	mon_cry CRY_RUMIA,     $000,  $100 ; ECirno
+	mon_cry CRY_RUMIA,     $000,  $100 ; SCirno
 	mon_cry CRY_CMEIRA,    $000,  $100 ; CMeiling
 	mon_cry CRY_EKOTOHIME,      $04f,  $0e0 ; Meiling
-	mon_cry CRY_ESARA,       $080,  $140 ; EMeiling
+	mon_cry CRY_ESARA,       $080,  $140 ; AMeiling
 	mon_cry CRY_CYUKI,        $0ee,  $140 ; CKoakuma
 	mon_cry CRY_CYUKI,        $000,  $100 ; Koakuma
-	mon_cry CRY_ESARA,       $0e6,  $15d ; EKoakuma
+	mon_cry CRY_ESARA,       $0e6,  $15d ; HKoakuma
 	mon_cry CRY_ESARA,       $0ff,  $17f ; CPatchouli
 	mon_cry CRY_CMARISA,  $000,  $100 ; Patchouli
-	mon_cry CRY_EPATCHOULI,      $000,  $100 ; EPatchouli
+	mon_cry CRY_TPATCHOULI,      $000,  $100 ; TPatchouli
 	mon_cry CRY_CMIMA,   $00a,  $140 ; CRemilia
 	mon_cry CRY_ESARA,       $000,  $100 ; Remilia
-	mon_cry CRY_EREMILIA,  $000,  $100 ; ERemilia
+	mon_cry CRY_SREMILIA,  $000,  $100 ; SRemilia
 	mon_cry CRY_CMEIRA,    $099,  $090 ; CFlandre
 	mon_cry CRY_CMEIRA,    $03c,  $081 ; Flandre
-	mon_cry CRY_CGYOKU,    $080,  $0c0 ; EFlandre
+	mon_cry CRY_CGYOKU,    $080,  $0c0 ; AFlandre
 	mon_cry CRY_CGYOKU,    $010,  $17f ; CLetty
 	mon_cry CRY_EKANA,       $002,  $0a0 ; Letty
-	mon_cry CRY_EKANA,       $000,  $100 ; ELetty
+	mon_cry CRY_EKANA,       $000,  $100 ; DLetty
 	mon_cry CRY_CDAICHAN,      $008,  $0c0 ; CChen
 	mon_cry CRY_CGYOKU,    $000,  $100 ; Chen
-	mon_cry CRY_RUMIA,     $0ff,  $17f ; EChen
-	mon_cry CRY_EDAICHAN,     $08f,  $17f ; CLilyWhite
+	mon_cry CRY_RUMIA,     $0ff,  $17f ; HChen
+	mon_cry CRY_DDAICHAN,     $08f,  $17f ; CLilyWhite
 	mon_cry CRY_CMARISA,  $0ff,  $0b0 ; LilyWhite
 	mon_cry CRY_CMIMA,   $000,  $100 ; ELilyWhite
 	mon_cry CRY_CSAKUYA,    $011,  $0c0 ; CLilyBlack
@@ -138,34 +138,34 @@ PokemonCries::
 	mon_cry CRY_CKIKURI,       $000,  $100 ; ELilyBlack
 	mon_cry CRY_CLYRICA,      $000,  $100 ; CLyrica
 	mon_cry CRY_EMAGAN,      $0ff,  $17f ; Lyrica
-	mon_cry CRY_RIKAKO,     $088,  $0e0 ; ELyrica
+	mon_cry CRY_RIKAKO,     $088,  $0e0 ; TLyrica
 	mon_cry CRY_RIKAKO,     $0aa,  $17f ; CMerlin
 	mon_cry CRY_RIKAKO,     $03d,  $100 ; Merlin
-	mon_cry CRY_RIKAKO,     $010,  $0a0 ; EMerlin
+	mon_cry CRY_RIKAKO,     $010,  $0a0 ; SMerlin
 	mon_cry CRY_EMUGETSU,  $0aa,  $17f ; CLunasa
 	mon_cry CRY_EORANGE,   $0f0,  $081 ; Lunasa
-	mon_cry CRY_EORANGE,   $0ff,  $0c0 ; ELunasa
+	mon_cry CRY_EORANGE,   $0ff,  $0c0 ; ALunasa
 	mon_cry CRY_CGYOKU,    $0bb,  $0c0 ; CYuyuko
 	mon_cry CRY_YUMEKO,    $0ee,  $081 ; Yuyuko
-	mon_cry CRY_KANA,   $020,  $170 ; EYuyuko
+	mon_cry CRY_KANA,   $020,  $170 ; AYuyuko
 	mon_cry CRY_EYUKI,      $055,  $081 ; CRan
 	mon_cry CRY_CSARIEL,      $080,  $0c0 ; Ran
-	mon_cry CRY_YUMEKO,    $0ff,  $100 ; ERan
+	mon_cry CRY_YUMEKO,    $0ff,  $100 ; TRan
 	mon_cry CRY_CSARIEL,      $0f8,  $0c0 ; CYukari
 	mon_cry CRY_CREIMU,   $060,  $0c0 ; Yukari
-	mon_cry CRY_CREIMU,   $040,  $100 ; EYukari
+	mon_cry CRY_CREIMU,   $040,  $100 ; TYukari
 	mon_cry CRY_CREIMU,   $03c,  $140 ; CSuika
 	mon_cry CRY_EKANA,       $099,  $17f ; Suika
-	mon_cry CRY_EKANA,       $0ee,  $17f ; ESuika
+	mon_cry CRY_EKANA,       $0ee,  $17f ; TSuika
 	mon_cry CRY_CYOUMU,  -$010,  $0b0 ; CYoumu
 	mon_cry CRY_CYOUMU,  -$022,  $120 ; Youmu
-	mon_cry CRY_CYOUMU,  -$0b7,  $200 ; EYoumu
+	mon_cry CRY_CYOUMU,  -$0b7,  $200 ; SYoumu
 	mon_cry CRY_CREISEN,   $347,  $080 ; CReisen
 	mon_cry CRY_CREISEN,   $321,  $120 ; Reisen
-	mon_cry CRY_EREISEN,  $f00,  $0d4 ; EReisen
+	mon_cry CRY_TREISEN,  $f00,  $0d4 ; TReisen
 	mon_cry CRY_CSANAE,    $46c,  $0e8 ; CSanae
 	mon_cry CRY_CSANAE,    $440,  $110 ; Sanae
-	mon_cry CRY_CSANAE,    $3fc,  $180 ; ESanae
+	mon_cry CRY_CSANAE,    $3fc,  $180 ; DSanae
 	mon_cry CRY_SENTRET,     $08a,  $0b8 ; Sentret
 	mon_cry CRY_SENTRET,     $06b,  $102 ; Furret
 	mon_cry CRY_HOOTHOOT,    $091,  $0d8 ; Hoothoot
@@ -213,7 +213,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    $000,  $180 ; Forretress
 	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dunsparce
 	mon_cry CRY_GLIGAR,     -$102,  $100 ; Gligar
-	mon_cry CRY_EREISEN,  $0ef,  $0f7 ; Steelix
+	mon_cry CRY_TREISEN,  $0ef,  $0f7 ; Steelix
 	mon_cry CRY_DUNSPARCE,   $112,  $0e8 ; Snubbull
 	mon_cry CRY_DUNSPARCE,   $000,  $180 ; Granbull
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; Qwilfish
@@ -254,7 +254,7 @@ PokemonCries::
 	mon_cry CRY_RAIKOU,      $05f,  $0d0 ; Larvitar
 	mon_cry CRY_SPINARAK,   -$1db,  $150 ; Pupitar
 	mon_cry CRY_RAIKOU,     -$100,  $180 ; Tyranitar
-	mon_cry CRY_EREISEN,  $000,  $100 ; Lugia
+	mon_cry CRY_TREISEN,  $000,  $100 ; Lugia
 	mon_cry CRY_TYROGUE,     $000,  $180 ; HoOh
 	mon_cry CRY_ENTEI,       $14a,  $111 ; Celebi
 	mon_cry CRY_MARILL,      $11b,  $120 ; Azurill
@@ -272,9 +272,9 @@ PokemonCries::
 	mon_cry CRY_WOOPER,      $053,  $0af ; Weavile
 	mon_cry CRY_MGYOKU,     $020,  $140 ; Magnezone
 	mon_cry CRY_CYUKI,        $000,  $100 ; Lickilicky
-	mon_cry CRY_EPATCHOULI,      $000,  $100 ; Rhyperior
+	mon_cry CRY_TPATCHOULI,      $000,  $100 ; Rhyperior
 	mon_cry CRY_ESARA,       $000,  $100 ; Tangrowth
-	mon_cry CRY_EDAICHAN,     $08f,  $17f ; Electivire
+	mon_cry CRY_DDAICHAN,     $08f,  $17f ; Electivire
 	mon_cry CRY_CMARISA,  $0ff,  $0b0 ; Magmortar
 	mon_cry CRY_TOGETIC,     $03b,  $038 ; Togekiss
 	mon_cry CRY_CSANAE,    $031,  $0c8 ; Yanmega

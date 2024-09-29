@@ -15,7 +15,7 @@ CeladonDeptStore3F_MapScriptHeader:
 	bg_event  2,  3, BGEVENT_JUMPTEXT, CeladonDeptStore3FRPGText
 	bg_event  5,  3, BGEVENT_JUMPTEXT, CeladonDeptStore3FSportsGameText
 	bg_event  2,  5, BGEVENT_JUMPTEXT, CeladonDeptStore3FPuzzleGameText
-	bg_event  5,  5, BGEVENT_JUMPTEXT, CeladonDeptStore3FFightingGameText
+	bg_event  5,  5, BGEVENT_JUMPTEXT, CeladonDeptStore3FDreamGameText
 
 	def_object_events
 	object_event  9,  1, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, pokemart, MARTTYPE_TM, MART_CELADON_3F_TM, -1
@@ -328,7 +328,7 @@ CeladonDeptStore3FPuzzleGameText:
 	line "Looks addictive!"
 	done
 
-CeladonDeptStore3FFightingGameText:
+CeladonDeptStore3FDreamGameText:
 	text "A fighting game!"
 	line "Looks tough!"
 	done

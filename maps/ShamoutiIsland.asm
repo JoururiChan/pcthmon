@@ -20,8 +20,7 @@ ShamoutiIsland_MapScriptHeader:
 	bg_event 32,  6, BGEVENT_JUMPTEXT, ShamoutiHotelSignText
 
 	def_object_events
-	object_event 16,  8, SPRITE_ALOLAN_ECIRNO, SPRITEMOVEDATA_ALOLAN_ECIRNO, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandAlolanECirnoScript, EVENT_SHAMOUTI_ISLAND_ALOLAN_ECIRNO
-	object_event 16,  7, SPRITE_CGENGETSU_BACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_SHAMOUTI_ISLAND_ALOLAN_ECIRNO
+	object_event 16,  7, SPRITE_CGENGETSU_BACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_SHAMOUTI_ISLAND_SCIRNO
 	fruittree_event 34, 13, FRUITTREE_SHAMOUTI_ISLAND, FIGY_BERRY, PAL_NPC_BROWN
 	object_event 24, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandYoungsterScript, EVENT_SHAMOUTI_ISLAND_PIKABLU_GUY
 	pokemon_event 25, 14, MARILL, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, ShamoutiIslandPikabluText, EVENT_SHAMOUTI_ISLAND_PIKABLU_GUY
@@ -31,39 +30,28 @@ ShamoutiIsland_MapScriptHeader:
 	object_event  9, 16, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, pokemart, MARTTYPE_BAZAAR, MART_SHAMOUTI_2, -1
 
 	object_const_def
-	const SHAMOUTIISLAND_ALOLAN_ECIRNO
-	const SHAMOUTIISLAND_ALOLAN_ECIRNO_HEAD
+	const SHAMOUTIISLAND_SCIRNO
+	const SHAMOUTIISLAND_SCIRNO_HEAD
 
 ShamoutiIslandFlyPoint:
 	setflag ENGINE_FLYPOINT_SHAMOUTI
 	endcallback
 
-ShamoutiIslandAlolanECirnoScript:
-	special SpecialCRanAwake
-	iftruefwd .Awake
-	applyonemovement SHAMOUTIISLAND_ALOLAN_ECIRNO, ecirno_shake
-	showemote EMOTE_SLEEP, SHAMOUTIISLAND_ALOLAN_ECIRNO_HEAD, 15
-	jumpthistext
 
-	text "The weird tree is…"
-	line "fast asleep?"
-
-	para "Is it a #mon?"
-	done
 
 .Awake:
 	showtext .PokeFluteText
-	applyonemovement SHAMOUTIISLAND_ALOLAN_ECIRNO, ecirno_shake
+	applyonemovement SHAMOUTIISLAND_SCIRNO, scirno_shake
 	opentext
 	writetext .WokeUpText
-	cry ECIRNO, ALOLAN_FORM
+	cry SCIRNO, ALOLAN_FORM
 	pause 15
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon ECIRNO, ALOLAN_FORM, 60
+	loadwildmon SCIRNO, ALOLAN_FORM, 60
 	startbattle
-	disappear SHAMOUTIISLAND_ALOLAN_ECIRNO
-	disappear SHAMOUTIISLAND_ALOLAN_ECIRNO_HEAD
+	disappear SHAMOUTIISLAND_SCIRNO
+	disappear SHAMOUTIISLAND_SCIRNO_HEAD
 	reloadmapafterbattle
 	end
 

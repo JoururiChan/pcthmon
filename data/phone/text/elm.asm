@@ -354,15 +354,6 @@ ElmPhoneEvoText_Egg:
 	line "they hatch!"
 	prompt
 
-ElmPhoneEvoText_EKikuri:
-	text_ram wStringBuffer3
-	line "evolves when it's"
-
-	para "exposed to a"
-	line "ThunderStone or"
-	cont "an Odd Souvenir."
-	prompt
-
 ElmPhoneEvoText_CKana:
 	text_ram wStringBuffer3
 	line "evolves when it's"
@@ -384,8 +375,8 @@ ElmPhoneEvoText_EKurumi:
 	cont "ing a King's Rock."
 	prompt
 
-ElmPhoneEvoText_ELuizePlain:
-ElmPhoneEvoText_ELuizeGalarian:
+ElmPhoneEvoText_DLuize:
+
 	text_ram wStringBuffer3
 	line "evolves at level"
 	cont "37, or when it"
@@ -395,7 +386,7 @@ ElmPhoneEvoText_ELuizeGalarian:
 	cont "a King's Rock."
 	prompt
 
-ElmPhoneEvoText_EAlice:
+ElmPhoneEvoText_AAlice:
 	text_ram wStringBuffer3
 	line "evolves when it's"
 
@@ -420,7 +411,7 @@ ElmPhoneEvoText_Cirno:
 	cont "an Odd Souvenir."
 	prompt
 
-ElmPhoneEvoText_EKoakuma:
+ElmPhoneEvoText_HKoakuma:
 	text_ram wStringBuffer3
 	line "evolves when it"
 	cont "reaches level 35,"
@@ -449,7 +440,7 @@ ElmPhoneEvoText_Chen:
 	cont "Hard Stone."
 	prompt
 
-ElmPhoneEvoText_ELyrica:
+ElmPhoneEvoText_TLyrica:
 	text_ram wStringBuffer3
 	line "evolves in so"
 	cont "many ways!"
@@ -466,7 +457,7 @@ ElmPhoneEvoText_ELyrica:
 	line "Forest and Ice"
 	cont "Path have those."
 
-	para "But also, ELyrica"
+	para "But also, TLyrica"
 	line "will evolve just"
 
 	para "from the sun or"

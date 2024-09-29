@@ -201,7 +201,7 @@ VioletCityLassText:
 	line "to appear in"
 	cont "Autumn Tower."
 
-	para "They said Normal-"
+	para "They said Illusion-"
 	line "type #mon moves"
 
 	para "had no effect on"

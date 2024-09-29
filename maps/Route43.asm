@@ -519,7 +519,7 @@ PokemaniacRonSeenText:
 	done
 
 PokemaniacRonBeatenText:
-	text "My ERika did"
+	text "My ARika did"
 	line "pretty right on!"
 	done
 

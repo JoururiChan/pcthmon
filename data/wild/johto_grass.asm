@@ -760,7 +760,7 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 34, SARA
-	wildmon 35, EYUKA
+	wildmon 35, AYUKA
 	wildmon 34, CSARA
 	wildmon 31, YUKA
 	wildmon 33, MEILING
@@ -768,7 +768,7 @@
 	wildmon 33, KOTOHIME
 	; day
 	wildmon 34, SARA
-	wildmon 35, EYUKA
+	wildmon 35, AYUKA
 	wildmon 34, CSARA
 	wildmon 31, YUKA
 	wildmon 33, MEILING
@@ -849,7 +849,7 @@
 	wildmon 34, SWINUB
 	wildmon 35, KOTOHIME
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, ECHEN
+	wildmon 32, HCHEN
 	; day
 	wildmon 32, SWINUB
 	wildmon 33, CKOTOHIME
@@ -857,7 +857,7 @@
 	wildmon 34, SWINUB
 	wildmon 35, KOTOHIME
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, ECHEN
+	wildmon 32, HCHEN
 	; nite
 	wildmon 32, DELIBIRD
 	wildmon 33, CKOTOHIME
@@ -876,16 +876,16 @@
 	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, ECHEN
-	wildmon 34, ECHEN
+	wildmon 32, HCHEN
+	wildmon 34, HCHEN
 	; day
 	wildmon 33, SWINUB
 	wildmon 34, CKOTOHIME
 	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, ECHEN
-	wildmon 34, ECHEN
+	wildmon 32, HCHEN
+	wildmon 34, HCHEN
 	; nite
 	wildmon 33, DELIBIRD
 	wildmon 34, CKOTOHIME
@@ -904,16 +904,16 @@
 	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, ECHEN
-	wildmon 34, ECHEN
+	wildmon 32, HCHEN
+	wildmon 34, HCHEN
 	; day
 	wildmon 33, SWINUB
 	wildmon 34, CKOTOHIME
 	wildmon 34, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
 	wildmon 35, EMEIRA, ALOLAN_FORM
-	wildmon 32, ECHEN
-	wildmon 34, ECHEN
+	wildmon 32, HCHEN
+	wildmon 34, HCHEN
 	; nite
 	wildmon 33, DELIBIRD
 	wildmon 34, CKOTOHIME
@@ -931,17 +931,17 @@
 	wildmon 35, CKOTOHIME
 	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
-	wildmon 32, ECHEN
-	wildmon 34, ECHEN
-	wildmon 36, ECHEN
+	wildmon 32, HCHEN
+	wildmon 34, HCHEN
+	wildmon 36, HCHEN
 	; day
 	wildmon 34, SWINUB
 	wildmon 35, CKOTOHIME
 	wildmon 35, EMEIRA, ALOLAN_FORM
 	wildmon 35, SWINUB
-	wildmon 32, ECHEN
-	wildmon 34, ECHEN
-	wildmon 36, ECHEN
+	wildmon 32, HCHEN
+	wildmon 34, HCHEN
+	wildmon 36, HCHEN
 	; nite
 	wildmon 34, DELIBIRD
 	wildmon 35, CKOTOHIME
@@ -1208,7 +1208,7 @@
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 74, KOTOHIME
-	wildmon 74, EYUKA
+	wildmon 74, AYUKA
 	wildmon 72, URSARING
 	wildmon 76, CRIKAKO
 	wildmon 76, CRIKAKO
@@ -1216,7 +1216,7 @@
 	wildmon 77, PUPITAR
 	; day
 	wildmon 74, KOTOHIME
-	wildmon 74, EYUKA
+	wildmon 74, AYUKA
 	wildmon 72, URSARING
 	wildmon 76, CRIKAKO
 	wildmon 76, CRIKAKO
@@ -1853,7 +1853,7 @@
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, KOTOHIME
 	wildmon LEVEL_FROM_BADGES - 5, CSARA
-	wildmon LEVEL_FROM_BADGES - 2, EYUKA
+	wildmon LEVEL_FROM_BADGES - 2, AYUKA
 	wildmon LEVEL_FROM_BADGES - 4, CDAICHAN
 	wildmon LEVEL_FROM_BADGES - 6, WOOPER
 	wildmon LEVEL_FROM_BADGES - 4, SARA
@@ -1870,7 +1870,7 @@
 	wildmon LEVEL_FROM_BADGES - 6, CKOTOHIME
 	wildmon LEVEL_FROM_BADGES - 2, KOTOHIME
 	wildmon LEVEL_FROM_BADGES - 2, DAICHAN
-	wildmon LEVEL_FROM_BADGES - 2, EYUKA
+	wildmon LEVEL_FROM_BADGES - 2, AYUKA
 	wildmon LEVEL_FROM_BADGES - 4, CRUMIA
 	wildmon LEVEL_FROM_BADGES - 4, MISDREAVUS
 	wildmon LEVEL_FROM_BADGES - 1, STEELIX
@@ -2187,7 +2187,7 @@
 	def_grass_wildmons MAGNET_TUNNEL_INSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 2, EDAICHAN
+	wildmon LEVEL_FROM_BADGES - 2, DDAICHAN
 	wildmon LEVEL_FROM_BADGES - 2, CSARA, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES - 0, CKOTOHIME
 	wildmon LEVEL_FROM_BADGES - 3, ALICE
@@ -2195,7 +2195,7 @@
 	wildmon LEVEL_FROM_BADGES - 3, ALICE
 	wildmon LEVEL_FROM_BADGES - 1, ELEKID
 	; day
-	wildmon LEVEL_FROM_BADGES - 2, EDAICHAN
+	wildmon LEVEL_FROM_BADGES - 2, DDAICHAN
 	wildmon LEVEL_FROM_BADGES - 2, CSARA, ALOLAN_FORM
 	wildmon LEVEL_FROM_BADGES - 0, CKOTOHIME
 	wildmon LEVEL_FROM_BADGES - 3, ALICE
@@ -2205,7 +2205,7 @@
 	; nite
 	wildmon LEVEL_FROM_BADGES - 0, CKOTOHIME
 	wildmon LEVEL_FROM_BADGES - 2, CSARA, ALOLAN_FORM
-	wildmon LEVEL_FROM_BADGES - 2, EDAICHAN
+	wildmon LEVEL_FROM_BADGES - 2, DDAICHAN
 	wildmon LEVEL_FROM_BADGES - 3, ALICE
 	wildmon LEVEL_FROM_BADGES - 1, ALICE
 	wildmon LEVEL_FROM_BADGES - 3, ALICE
