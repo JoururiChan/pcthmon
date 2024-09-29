@@ -1538,14 +1538,14 @@ wDexMapEnd::
 
 UNION
 wDexVWFTiles:: ds 19 tiles ; 1 tile padding
-wDexIconTiles:: ds 23 tiles ; 4 tiles padding
+wDexIconTiles:: ds 24 tiles ; 4 tiles padding
 wDexRowTilesDest::
 wDexVWFTilesDest:: dw
 wDexIconTilesDest:: dw
 NEXTU
 ; Copied using GDMA in VBlank. Ideally we want to do GDMA as part of hblank,
 ; but there is some issues with that yet to be fully researched (issue #639).
-	ds 48 tiles
+	ds 49 tiles
 wDexMonTiles::
 wDexMonType1Tiles:: ds 4 tiles
 wDexMonType2Tiles:: ds 4 tiles
@@ -1630,7 +1630,7 @@ wDexAreaModeCopy:: db ; written to from hTohodexAreaMode on screen reload
 
 	; Used to align wDexAreaMons2. Feel free to add more data here, just don't
 	; let wDexAreaMons2 be misaligned (an assert will tell you if you do).
-	ds 43
+	ds 44
 
 ALIGN 8
 wDexAreaMons2:: ds (wDexAreaMonsEnd - wDexAreaMons)
