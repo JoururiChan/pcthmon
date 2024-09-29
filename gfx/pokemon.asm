@@ -105,8 +105,8 @@ RikaFrontpic: INCBIN "gfx/pokemon/rika/front.animated.2bpp.lz"
 RikaBackpic:  INCBIN "gfx/pokemon/rika/back.2bpp.lz"
 
 SECTION "ARika Pics", ROMX
-ARikaFrontpic: INCBIN "gfx/pokemon/erika/front.animated.2bpp.lz"
-ARikaBackpic:  INCBIN "gfx/pokemon/erika/back.2bpp.lz"
+ARikaFrontpic: INCBIN "gfx/pokemon/arika/front.animated.2bpp.lz"
+ARikaBackpic:  INCBIN "gfx/pokemon/arika/back.2bpp.lz"
 
 SECTION "CMeira Pics", ROMX
 CMeiraFrontpic: INCBIN "gfx/pokemon/cmeira/front.animated.2bpp.lz"
