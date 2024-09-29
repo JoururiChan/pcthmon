@@ -15,9 +15,7 @@ MACRO multi_evo
 ENDM
 
 MultipleEvolutions:
-	multi_evo CKIKURI
 	multi_evo KIKURI
-	multi_evo CELIS
 	multi_evo CKANA
 	multi_evo KURUMI
 	multi_evo DLUIZE

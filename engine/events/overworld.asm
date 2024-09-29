@@ -138,17 +138,19 @@ CheckPartyMove:
 	scf
 	ret
 
-CheckForSurfingPikachu:
-	ld d, SURF
+CheckForSurfingEKikuri:
+	lb de, SURF, HM_SURF
 	call CheckPartyMove
 	jr c, .no
-	ld a, [wCurPartyMon]
-	ld e, a
-	ld d, 0
-	ld hl, wPartySpecies
+	ld a, MON_SPECIES
+	call GetPartyParamLocationAndValue
+	cp LOW(KIKURI)
+	jr nz, .no
+	assert !HIGH(KIKURI)
+	ld de, MON_EXTSPECIES - MON_SPECIES
 	add hl, de
 	ld a, [hl]
-	cp PIKACHU
+	and 1 << MON_EXTSPECIES_F
 	jr nz, .no
 	ld a, TRUE
 	ldh [hScriptVar], a

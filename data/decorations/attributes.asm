@@ -25,7 +25,7 @@ DecorationAttributes:
 	decoration DECO_PLANT,    PUT_IT_AWAY,       PUT_AWAY_POSTER,    EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1, 0
 	decoration DECO_PLANT,    TOWN_MAP_POSTER,   SET_UP_POSTER,      EVENT_DECO_POSTER_5,                $6c
 	decoration DECO_PLANT,    DIPLOMA,           SET_UP_POSTER,      EVENT_DECO_POSTER_4,                $9c
-	decoration DECO_POSTER,   EKIKURI,           SET_UP_POSTER,      EVENT_DECO_POSTER_1,                $6d
+	decoration DECO_POSTER,   KIKURI,           SET_UP_POSTER,      EVENT_DECO_POSTER_1,                $6d
 	decoration DECO_POSTER,   CMEIRA,          SET_UP_POSTER,      EVENT_DECO_POSTER_2,                $6e
 	decoration DECO_POSTER,   MARILL,            SET_UP_POSTER,      EVENT_DECO_POSTER_3,                $6f
 	decoration DECO_PLANT,    PUT_IT_AWAY,       PUT_AWAY_CONSOLE,   EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1, 0
@@ -40,7 +40,7 @@ DecorationAttributes:
 	decoration DECO_PLANT,    PUT_IT_AWAY,       PUT_AWAY_DOLL,      EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1, 0
 	decoration DECO_DOLL,     KIKURI,           SET_UP_DOLL,        EVENT_DECO_EKIKURI_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CSARIEL,            SET_UP_DOLL,        EVENT_DECO_CSARIEL_DOLL,             SPRITE_MON_DOLL_1
-	decoration DECO_PLANT,    SURF_PIKA_DOLL,    SET_UP_DOLL,        EVENT_DECO_SURFING_EKIKURI_DOLL,    SPRITE_SURFING_EKIKURI
+	decoration DECO_PLANT,    SURF_PIKA_DOLL,    SET_UP_DOLL,        EVENT_DECO_SURFING_EKIKURI_DOLL,    SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CMEIRA,          SET_UP_DOLL,        EVENT_DECO_CMEIRA_DOLL,           SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     ELLEN,        SET_UP_DOLL,        EVENT_DECO_ELLEN_DOLL,         SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CREIMU,         SET_UP_DOLL,        EVENT_DECO_CREIMU_DOLL,          SPRITE_MON_DOLL_1

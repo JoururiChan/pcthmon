@@ -1547,7 +1547,7 @@
 	wildmon 57, KONGARA
 	wildmon 57, RIKA
 	wildmon 59, CLILYBLACK
-	wildmon 60, ERIKA
+	wildmon 60, ARIKA
 	wildmon 60, KONGARA
 	wildmon 50, CRIKAKO
 	; day
@@ -1555,7 +1555,7 @@
 	wildmon 57, KONGARA
 	wildmon 57, RIKA
 	wildmon 59, CLILYBLACK
-	wildmon 60, ERIKA
+	wildmon 60, ARIKA
 	wildmon 60, KONGARA
 	wildmon 50, CRIKAKO
 	; nite
@@ -1563,7 +1563,7 @@
 	wildmon 57, KONGARA
 	wildmon 57, RIKA
 	wildmon 59, CLILYBLACK
-	wildmon 60, ERIKA
+	wildmon 60, ARIKA
 	wildmon 60, KONGARA
 	wildmon 50, CRIKAKO
 	end_grass_wildmons
