@@ -327,7 +327,7 @@ RuinsOfAlphLunasaItemRoom_BlockData:
 
 SECTION "RuinsOfAlphEYuyukoWordRoom_BlockData", ROMX
 RuinsOfAlphEYuyukoWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphEYuyukoWordRoom.ablk.lz"
+	INCBIN "maps/RuinsOfAlphAYuyukoWordRoom.ablk.lz"
 
 SECTION "RuinsOfAlphHoOhWordRoom_BlockData", ROMX
 RuinsOfAlphHoOhWordRoom_BlockData:
