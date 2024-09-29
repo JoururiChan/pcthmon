@@ -38,7 +38,7 @@ DEF SPRITEOAMSTRUCT_XCOORD     rb ; 1
 DEF SPRITEOAMSTRUCT_TILE_ID    rb ; 2
 DEF SPRITEOAMSTRUCT_ATTRIBUTES rb ; 3
 DEF SPRITEOAMSTRUCT_LENGTH EQU _RS
-DEF NUM_SPRITE_OAM_STRUCTS EQU 40 ; see wShadowOAM
+DEF NUM_SPRITE_OAM_STRUCTS EQU 39 ; see wShadowOAM
 
 ; Used to prevent updating the OAM's palette (0-7) during the next anim frame,
 ; useful when dynamically applying a palette, such as party menu sprites and overworld fly mon sprites.

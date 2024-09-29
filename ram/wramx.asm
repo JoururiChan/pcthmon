@@ -1527,7 +1527,7 @@ wDecompressedMetatiles:: ds 256 tiles
 SECTION UNION "Metatiles", WRAMX
 
 UNION
-wDex2bpp:: ds $59 tiles
+wDex2bpp:: ds $60 tiles
 
 NEXTU
 ; copied using hdma transfers (which is orders of magnitudes faster), so it uses
