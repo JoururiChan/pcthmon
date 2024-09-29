@@ -26,7 +26,7 @@ BillsPC_ThemeNames:
 	dr .Steel
 	dr .Fire
 	dr .Water
-	dr .Nature
+	dr .Nature2
 	dr .Wind
 	dr .Psychic
 	dr .Ice

@@ -282,9 +282,7 @@ rept NUM_KIKURI - 1
 	iconpal PURPLE, BROWN
 endr
 
-rept NUM_EKIKURI - 1
-	iconpal RED, BLUE
-endr
+
 
 	iconpal RED, BLUE ; PICHU, PICHU_SPIKY_EARED_FORM
 

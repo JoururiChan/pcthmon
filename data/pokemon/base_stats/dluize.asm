@@ -3,7 +3,7 @@
 
 	db GHOST, FIRE ; type
 	db 255 ; catch rate
-	db 1950 ; base exp
+	db 195 ; base exp
 	db NO_ITEM, MARANGABERRY ; held items
 	dn GENDER_F50, HATCH_SLOWER ; gender ratio, step cycles to hatch
 

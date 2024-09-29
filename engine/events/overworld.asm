@@ -134,12 +134,6 @@ CheckPartyMove:
 	xor a
 	ret
 
-.no
-	scf
-	ret
-
-
-
 .no:
 	xor a ; FALSE
 	ldh [hScriptVar], a

@@ -547,7 +547,7 @@ DEF CRYS EQU __trainer_class__
 	trainerclass SCHOOLGIRL ; 39
 	const MOLLY
 	const ELIZA
-	const FAITH
+	const FAITH_T
 	const SARAH
 	const ISABEL
 	const IMOGEN

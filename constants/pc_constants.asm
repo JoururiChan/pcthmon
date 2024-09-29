@@ -26,7 +26,7 @@
 	const THEME_STEEL
 	const THEME_FIRE
 	const THEME_WATER
-	const THEME_NATURE
+	const THEME_NATURE2
 	const THEME_WIND
 	const THEME_REASON
 	const THEME_ICE

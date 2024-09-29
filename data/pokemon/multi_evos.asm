@@ -21,7 +21,7 @@ MultipleEvolutions:
 	multi_evo CKANA
 	multi_evo EKURUMI
 	multi_evo DLUIZE
-	multi_evo DLUIZE, GALARIAN_FORM, EVOLVE_DLUIZE
+
 	multi_evo AALICE
 	multi_evo CIRNO
 	multi_evo HKOAKUMA

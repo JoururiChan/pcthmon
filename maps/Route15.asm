@@ -71,7 +71,7 @@ GenericTrainerSchoolboyBilly:
 	done
 
 GenericTrainerSchoolgirlFaith:
-	generictrainer SCHOOLGIRL, FAITH, EVENT_BEAT_SCHOOLGIRL_FAITH, SchoolgirlFaithSeenText, SchoolgirlFaithBeatenText
+	generictrainer SCHOOLGIRL, FAITH_T, EVENT_BEAT_SCHOOLGIRL_FAITH_T, SchoolgirlFaithSeenText, SchoolgirlFaithBeatenText
 
 	text "I'm tired of walk-"
 	line "ing. I need to"
