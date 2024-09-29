@@ -15,12 +15,12 @@ GoldenrodMuseum2F_MapScriptHeader:
 	bg_event  5,  0, BGEVENT_READ, BellTowerPaintingScript
 	bg_event  7,  0, BGEVENT_READ, HoOhPaintingScript
 	bg_event  8,  0, BGEVENT_READ, HoOhPaintingScript
-	bg_event  1,  4, BGEVENT_READ, CYuyukoPuzzleScript
-	bg_event  1,  5, BGEVENT_READ, CYuyukoPuzzleScript
-	bg_event  5,  4, BGEVENT_READ, LunasaPuzzleScript
-	bg_event  5,  5, BGEVENT_READ, LunasaPuzzleScript
-	bg_event  1,  6, BGEVENT_READ, AYuyukoPuzzleScript
-	bg_event  1,  7, BGEVENT_READ, AYuyukoPuzzleScript
+	bg_event  1,  4, BGEVENT_READ, OmanytePuzzleScript
+	bg_event  1,  5, BGEVENT_READ, OmanytePuzzleScript
+	bg_event  5,  4, BGEVENT_READ, KabutoPuzzleScript
+	bg_event  5,  5, BGEVENT_READ, KabutoPuzzleScript
+	bg_event  1,  6, BGEVENT_READ, AerodactylPuzzleScript
+	bg_event  1,  7, BGEVENT_READ, AerodactylPuzzleScript
 	bg_event  5,  6, BGEVENT_READ, HoOhPuzzleScript
 	bg_event  5,  7, BGEVENT_READ, HoOhPuzzleScript
 	bg_event 10,  1, BGEVENT_JUMPTEXT, TowerRelicText
@@ -72,7 +72,7 @@ BellTowerPaintingScript:
 	line "     and Hope"
 	done
 
-CYuyukoPuzzleScript:
+OmanytePuzzleScript:
 	checkevent EVENT_SOLVED_CYUYUKO_PUZZLE
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
@@ -82,10 +82,10 @@ CYuyukoPuzzleScript:
 	jumpthistext
 
 	text "It's the completed"
-	line "CYuyuko panel!"
+	line "Omanyte panel!"
 	done
 
-LunasaPuzzleScript:
+KabutoPuzzleScript:
 	checkevent EVENT_SOLVED_LUNASA_PUZZLE
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
@@ -95,10 +95,10 @@ LunasaPuzzleScript:
 	jumpthistext
 
 	text "It's the completed"
-	line "Lunasa panel!"
+	line "Kabuto panel!"
 	done
 
-AYuyukoPuzzleScript:
+AerodactylPuzzleScript:
 	checkevent EVENT_SOLVED_AYUYUKO_PUZZLE
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
@@ -108,7 +108,7 @@ AYuyukoPuzzleScript:
 	jumpthistext
 
 	text "It's the completed"
-	line "AYuyuko panel!"
+	line "Aerodactyl panel!"
 	done
 
 HoOhPuzzleScript:

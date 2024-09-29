@@ -17,7 +17,7 @@ SpecialHoOhChamber:
 	eventflagset EVENT_WALL_OPENED_IN_HO_OH_CHAMBER
 	ret
 
-SpecialLunasaChamber:
+SpecialKabutoChamber:
 	eventflagcheck EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	ret nz
 
@@ -47,13 +47,13 @@ SpecialLunasaChamber:
 	eventflagset EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	ret
 
-SpecialAYuyukoChamber:
+SpecialAerodactylChamber:
 	call GetMapAttributesPointer
 	ld a, b
-	cp HIGH(RuinsOfAlphAYuyukoChamber_MapAttributes)
+	cp HIGH(RuinsOfAlphAerodactylChamber_MapAttributes)
 	jr nz, .nope
 	ld a, c
-	cp LOW(RuinsOfAlphAYuyukoChamber_MapAttributes)
+	cp LOW(RuinsOfAlphAerodactylChamber_MapAttributes)
 	jr nz, .nope
 
 	eventflagset EVENT_WALL_OPENED_IN_AYUYUKO_CHAMBER
@@ -64,13 +64,13 @@ SpecialAYuyukoChamber:
 	and a
 	ret
 
-SpecialCYuyukoChamber:
+SpecialOmanyteChamber:
 	call GetMapAttributesPointer
 	ld a, b
-	cp HIGH(RuinsOfAlphCYuyukoChamber_MapAttributes)
+	cp HIGH(RuinsOfAlphOmanyteChamber_MapAttributes)
 	ret nz
 	ld a, c
-	cp LOW(RuinsOfAlphCYuyukoChamber_MapAttributes)
+	cp LOW(RuinsOfAlphOmanyteChamber_MapAttributes)
 	ret nz
 
 	eventflagset EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER

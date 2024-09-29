@@ -1,9 +1,9 @@
-RuinsOfAlphLunasaChamber_MapScriptHeader:
+RuinsOfAlphKabutoChamber_MapScriptHeader:
 	def_scene_scripts
-	scene_script RuinsofAlphLunasaChamberTrigger0
+	scene_script RuinsofAlphKabutoChamberTrigger0
 
 	def_callbacks
-	callback MAPCALLBACK_TILES, RuinsofAlphLunasaChamberHiddenDoorsCallback
+	callback MAPCALLBACK_TILES, RuinsofAlphKabutoChamberHiddenDoorsCallback
 
 	def_warp_events
 	warp_event  3,  9, RUINS_OF_ALPH_OUTSIDE, 3
@@ -17,22 +17,22 @@ RuinsOfAlphLunasaChamber_MapScriptHeader:
 	def_bg_events
 	bg_event  2,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
 	bg_event  5,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
-	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost2Script
-	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost3Script
-	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost4Script
-	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost5Script
+	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphKabutoChamberSignpost2Script
+	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphKabutoChamberSignpost3Script
+	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphKabutoChamberSignpost4Script
+	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphKabutoChamberSignpost5Script
 
 	def_object_events
 
-RuinsofAlphLunasaChamberTrigger0:
-	special SpecialLunasaChamber
+RuinsofAlphKabutoChamberTrigger0:
+	special SpecialKabutoChamber
 	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	iffalsefwd .End
-	sdefer RuinsOfAlphLunasaChamberWallOpenScript
+	sdefer RuinsOfAlphKabutoChamberWallOpenScript
 .End
 	end
 
-RuinsofAlphLunasaChamberHiddenDoorsCallback:
+RuinsofAlphKabutoChamberHiddenDoorsCallback:
 	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	iftruefwd .WallOpen
 	changeblock 4, 0, $24
@@ -46,7 +46,7 @@ RuinsofAlphLunasaChamberHiddenDoorsCallback:
 	changeblock 4, 2, $2
 	endcallback
 
-RuinsOfAlphLunasaChamberWallOpenScript:
+RuinsOfAlphKabutoChamberWallOpenScript:
 	pause 30
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 20
@@ -58,7 +58,7 @@ RuinsOfAlphLunasaChamberWallOpenScript:
 	setscene $1
 	endtext
 
-MapRuinsofAlphLunasaChamberSignpost2Script:
+MapRuinsofAlphKabutoChamberSignpost2Script:
 	reanchormap
 	setval $1
 	special Special_UnownPuzzle
@@ -85,33 +85,33 @@ MapRuinsofAlphLunasaChamberSignpost2Script:
 	warpcheck
 	end
 
-MapRuinsofAlphLunasaChamberSignpost3Script:
+MapRuinsofAlphKabutoChamberSignpost3Script:
 	opentext
 	unowntypeface
-	writetext RuinsOfAlphLunasaChamberDescriptionText
+	writetext RuinsOfAlphKabutoChamberDescriptionText
 	waitbutton
 	closetext
 	restoretypeface
 	special RefreshSprites
 	end
 
-MapRuinsofAlphLunasaChamberSignpost5Script:
+MapRuinsofAlphKabutoChamberSignpost5Script:
 	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
-	iftrue_jumptext RuinsOfAlphAYuyukoChamberWallHoleText
-MapRuinsofAlphLunasaChamberSignpost4Script:
+	iftrue_jumptext RuinsOfAlphAerodactylChamberWallHoleText
+MapRuinsofAlphKabutoChamberSignpost4Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
 	iftruefwd .unsolved
 	writetext RuinsOfAlphChambersItsUnownText
 	sjumpfwd .unownwords
 .unsolved
-	writetext RuinsOfAlphAYuyukoChamberWallPatternLeftText
+	writetext RuinsOfAlphAerodactylChamberWallPatternLeftText
 .unownwords
 	setval $2
 	special Special_DisplayUnownWords
 	endtext
 
-RuinsOfAlphLunasaChamberDescriptionText:
+RuinsOfAlphKabutoChamberDescriptionText:
 	text "This #mon"
 	line "drifted in the"
 

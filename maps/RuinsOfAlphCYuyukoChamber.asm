@@ -1,9 +1,9 @@
-RuinsOfAlphCYuyukoChamber_MapScriptHeader:
+RuinsOfAlphOmanyteChamber_MapScriptHeader:
 	def_scene_scripts
-	scene_script RuinsofAlphCYuyukoChamberTrigger0
+	scene_script RuinsofAlphOmanyteChamberTrigger0
 
 	def_callbacks
-	callback MAPCALLBACK_TILES, RuinsofAlphCYuyukoChamberHiddenDoorsCallback
+	callback MAPCALLBACK_TILES, RuinsofAlphOmanyteChamberHiddenDoorsCallback
 
 	def_warp_events
 	warp_event  3,  9, RUINS_OF_ALPH_OUTSIDE, 2
@@ -17,23 +17,23 @@ RuinsOfAlphCYuyukoChamber_MapScriptHeader:
 	def_bg_events
 	bg_event  2,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
 	bg_event  5,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
-	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphCYuyukoChamberSignpost2Script
-	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphCYuyukoChamberSignpost3Script
-	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphCYuyukoChamberSignpost4Script
-	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphCYuyukoChamberSignpost5Script
+	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphOmanyteChamberSignpost2Script
+	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphOmanyteChamberSignpost3Script
+	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphOmanyteChamberSignpost4Script
+	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphOmanyteChamberSignpost5Script
 
 	def_object_events
-	object_event  5,  5, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, RuinsOfAlphCYuyukoChamberReceptionistText, EVENT_RUINS_OF_ALPH_CYUYUKO_CHAMBER_RECEPTIONIST
-	object_event  3,  1, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphCYuyukoChamberScientistScript, -1
+	object_event  5,  5, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, RuinsOfAlphOmanyteChamberReceptionistText, EVENT_RUINS_OF_ALPH_CYUYUKO_CHAMBER_RECEPTIONIST
+	object_event  3,  1, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphOmanyteChamberScientistScript, -1
 
-RuinsofAlphCYuyukoChamberTrigger0:
+RuinsofAlphOmanyteChamberTrigger0:
 	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
 	iffalsefwd .End
-	sdefer RuinsofAlphCYuyukoChamberWallOpenScript
+	sdefer RuinsofAlphOmanyteChamberWallOpenScript
 .End
 	end
 
-RuinsofAlphCYuyukoChamberHiddenDoorsCallback:
+RuinsofAlphOmanyteChamberHiddenDoorsCallback:
 	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
 	iftruefwd .WallOpen
 	changeblock 4, 0, $24
@@ -47,7 +47,7 @@ RuinsofAlphCYuyukoChamberHiddenDoorsCallback:
 	changeblock 4, 2, $2
 	endcallback
 
-RuinsofAlphCYuyukoChamberWallOpenScript:
+RuinsofAlphOmanyteChamberWallOpenScript:
 	pause 30
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 20
@@ -59,7 +59,7 @@ RuinsofAlphCYuyukoChamberWallOpenScript:
 	setscene $1
 	endtext
 
-MapRuinsofAlphCYuyukoChamberSignpost2Script:
+MapRuinsofAlphOmanyteChamberSignpost2Script:
 	reanchormap
 	setval $0
 	special Special_UnownPuzzle
@@ -87,19 +87,19 @@ MapRuinsofAlphCYuyukoChamberSignpost2Script:
 	warpcheck
 	end
 
-RuinsOfAlphCYuyukoChamberScientistScript:
+RuinsOfAlphOmanyteChamberScientistScript:
 	readvar VAR_UNOWNCOUNT
 	ifequalfwd NUM_UNOWN, .AllUnownCaught
 	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
-	iftrue_jumptextfaceplayer RuinsOfAlphCYuyukoChamberScientistHoleText
+	iftrue_jumptextfaceplayer RuinsOfAlphOmanyteChamberScientistHoleText
 	faceplayer
 	opentext
 	checkevent EVENT_SOLVED_CYUYUKO_PUZZLE
 	iffalsefwd .PuzzleIncomplete
-	writetext RuinsOfAlphCYuyukoChamberScientistTremorText
+	writetext RuinsOfAlphOmanyteChamberScientistTremorText
 	promptbutton
 .PuzzleIncomplete:
-	writetext RuinsOfAlphCYuyukoChamberScientistCrypticText
+	writetext RuinsOfAlphOmanyteChamberScientistCrypticText
 	waitbutton
 	closetext
 	turnobject LAST_TALKED, UP
@@ -108,33 +108,33 @@ RuinsOfAlphCYuyukoChamberScientistScript:
 .AllUnownCaught:
 	jumptextfaceplayer RuinsOfAlphResearchCenterScientist1Text_GotAllUnown
 
-MapRuinsofAlphCYuyukoChamberSignpost3Script:
+MapRuinsofAlphOmanyteChamberSignpost3Script:
 	opentext
 	unowntypeface
-	writetext RuinsOfAlphCYuyukoChamberDescriptionText
+	writetext RuinsOfAlphOmanyteChamberDescriptionText
 	waitbutton
 	closetext
 	restoretypeface
 	special RefreshSprites
 	end
 
-MapRuinsofAlphCYuyukoChamberSignpost5Script:
+MapRuinsofAlphOmanyteChamberSignpost5Script:
 	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
-	iftrue_jumptext RuinsOfAlphAYuyukoChamberWallHoleText
-MapRuinsofAlphCYuyukoChamberSignpost4Script:
+	iftrue_jumptext RuinsOfAlphAerodactylChamberWallHoleText
+MapRuinsofAlphOmanyteChamberSignpost4Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
 	iftruefwd .unsolved
 	writetext RuinsOfAlphChambersItsUnownText
 	sjumpfwd .unownwords
 .unsolved
-	writetext RuinsOfAlphAYuyukoChamberWallPatternLeftText
+	writetext RuinsOfAlphAerodactylChamberWallPatternLeftText
 .unownwords
 	setval $0
 	special Special_DisplayUnownWords
 	endtext
 
-RuinsOfAlphCYuyukoChamberReceptionistText:
+RuinsOfAlphOmanyteChamberReceptionistText:
 	text "Welcome to this"
 	line "chamber."
 
@@ -159,7 +159,7 @@ RuinsOfAlphCYuyukoChamberReceptionistText:
 	line "patterns."
 	done
 
-RuinsOfAlphCYuyukoChamberScientistCrypticText:
+RuinsOfAlphOmanyteChamberScientistCrypticText:
 	text "Recently, strange,"
 	line "cryptic patterns"
 	cont "have appeared."
@@ -172,7 +172,7 @@ RuinsOfAlphCYuyukoChamberScientistCrypticText:
 	line "look at the walls."
 	done
 
-RuinsOfAlphCYuyukoChamberScientistHoleText:
+RuinsOfAlphOmanyteChamberScientistHoleText:
 	text "Ah! Here's another"
 	line "huge hole!"
 
@@ -180,7 +180,7 @@ RuinsOfAlphCYuyukoChamberScientistHoleText:
 	line "go through!"
 	done
 
-RuinsOfAlphCYuyukoChamberScientistTremorText:
+RuinsOfAlphOmanyteChamberScientistTremorText:
 	text "That tremor was"
 	line "pretty scary!"
 
@@ -189,7 +189,7 @@ RuinsOfAlphCYuyukoChamberScientistTremorText:
 	cont "this wall here…"
 	done
 
-RuinsOfAlphCYuyukoChamberDescriptionText:
+RuinsOfAlphOmanyteChamberDescriptionText:
 	text "A #mon that hid"
 	line "on the sea floor."
 

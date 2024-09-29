@@ -1109,11 +1109,11 @@ wRoute42SceneID:: db
 wRoute43GateSceneID:: db
 wRoute47SceneID:: db
 wRoute48SceneID:: db
-wRuinsOfAlphAYuyukoChamberSceneID:: db
+wRuinsOfAlphAerodactylChamberSceneID:: db
 wRuinsOfAlphHoOhChamberSceneID:: db
 wRuinsOfAlphInnerChamberSceneID:: db
-wRuinsOfAlphCYuyukoChamberSceneID:: db
-wRuinsOfAlphLunasaChamberSceneID:: db
+wRuinsOfAlphOmanyteChamberSceneID:: db
+wRuinsOfAlphKabutoChamberSceneID:: db
 wRuinsOfAlphOutsideSceneID:: db
 wRuinsOfAlphResearchCenterSceneID:: db
 wSeagallopFerryNavelGateSceneID:: db

@@ -779,9 +779,9 @@ LoadUnownPuzzlePiecesGFX:
 	jmp ConvertLoadedPuzzlePieces
 
 .LZPointers:
-	dw CYuyukoPuzzleLZ
-	dw LunasaPuzzleLZ
-	dw AYuyukoPuzzleLZ
+	dw OmanytePuzzleLZ
+	dw KabutoPuzzleLZ
+	dw AerodactylPuzzleLZ
 	dw HoOhPuzzleLZ
 
 UnownPuzzleCursorGFX:
@@ -793,11 +793,11 @@ INCBIN "gfx/unown_puzzle/start_cancel.2bpp.lz"
 HoOhPuzzleLZ:
 INCBIN "gfx/unown_puzzle/hooh.2bpp.lz"
 
-AYuyukoPuzzleLZ:
+AerodactylPuzzleLZ:
 INCBIN "gfx/unown_puzzle/aerodactyl.2bpp.lz"
 
-CYuyukoPuzzleLZ:
+OmanytePuzzleLZ:
 INCBIN "gfx/unown_puzzle/kabuto.2bpp.lz"
 
-LunasaPuzzleLZ:
+KabutoPuzzleLZ:
 INCBIN "gfx/unown_puzzle/omanyte.2bpp.lz"

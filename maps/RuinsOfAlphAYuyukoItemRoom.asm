@@ -1,4 +1,4 @@
-RuinsOfAlphAYuyukoItemRoom_MapScriptHeader:
+RuinsOfAlphAerodactylItemRoom_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks

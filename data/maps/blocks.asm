@@ -311,34 +311,34 @@ SECTION "RuinsOfAlphSinjohChamber_BlockData", ROMX
 RuinsOfAlphSinjohChamber_BlockData:
 	INCBIN "maps/RuinsOfAlphSinjohChamber.ablk.lz"
 
-SECTION "RuinsOfAlphAYuyukoChamber_BlockData", ROMX
-RuinsOfAlphAYuyukoChamber_BlockData:
+SECTION "RuinsOfAlphAerodactylChamber_BlockData", ROMX
+RuinsOfAlphAerodactylChamber_BlockData:
 RuinsOfAlphHoOhChamber_BlockData:
-RuinsOfAlphCYuyukoChamber_BlockData:
-RuinsOfAlphLunasaChamber_BlockData:
+RuinsOfAlphOmanyteChamber_BlockData:
+RuinsOfAlphKabutoChamber_BlockData:
 	INCBIN "maps/RuinsOfAlphPuzzleChamber.ablk.lz"
 
-SECTION "RuinsOfAlphAYuyukoItemRoom_BlockData", ROMX
-RuinsOfAlphAYuyukoItemRoom_BlockData:
+SECTION "RuinsOfAlphAerodactylItemRoom_BlockData", ROMX
+RuinsOfAlphAerodactylItemRoom_BlockData:
 RuinsOfAlphHoOhItemRoom_BlockData:
-RuinsOfAlphCYuyukoItemRoom_BlockData:
-RuinsOfAlphLunasaItemRoom_BlockData:
+RuinsOfAlphOmanyteItemRoom_BlockData:
+RuinsOfAlphKabutoItemRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphItemRoom.ablk.lz"
 
-SECTION "RuinsOfAlphAYuyukoWordRoom_BlockData", ROMX
-RuinsOfAlphAYuyukoWordRoom_BlockData:
+SECTION "RuinsOfAlphAerodactylWordRoom_BlockData", ROMX
+RuinsOfAlphAerodactylWordRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphAYuyukoWordRoom.ablk.lz"
 
 SECTION "RuinsOfAlphHoOhWordRoom_BlockData", ROMX
 RuinsOfAlphHoOhWordRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphHoOhWordRoom.ablk.lz"
 
-SECTION "RuinsOfAlphCYuyukoWordRoom_BlockData", ROMX
-RuinsOfAlphCYuyukoWordRoom_BlockData:
+SECTION "RuinsOfAlphOmanyteWordRoom_BlockData", ROMX
+RuinsOfAlphOmanyteWordRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphCYuyukoWordRoom.ablk.lz"
 
-SECTION "RuinsOfAlphLunasaWordRoom_BlockData", ROMX
-RuinsOfAlphLunasaWordRoom_BlockData:
+SECTION "RuinsOfAlphKabutoWordRoom_BlockData", ROMX
+RuinsOfAlphKabutoWordRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphLunasaWordRoom.ablk.lz"
 
 SECTION "SinjohRuins_BlockData", ROMX

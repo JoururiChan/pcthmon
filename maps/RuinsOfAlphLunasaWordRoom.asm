@@ -1,4 +1,4 @@
-RuinsOfAlphLunasaWordRoom_MapScriptHeader:
+RuinsOfAlphKabutoWordRoom_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
