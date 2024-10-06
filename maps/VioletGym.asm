@@ -67,7 +67,7 @@ VioletGymFalknerScript:
 	promptbutton
 	verbosegivetmhm TM_AERIAL_ACE
 	setevent EVENT_GOT_TM26_AERIAL_ACE
-	jumpopenedtext FalknerTMMudSlapText
+	jumpopenedtext FalknerTMPoisonGasText
 
 GenericTrainerBird_keeperRod:
 	generictrainer BIRD_KEEPER, ROD, EVENT_BEAT_BIRD_KEEPER_ROD, Bird_keeperRodSeenText, Bird_keeperRodBeatenText
@@ -158,7 +158,7 @@ FalknerZephyrBadgeText:
 	line "too."
 	done
 
-FalknerTMMudSlapText:
+FalknerTMPoisonGasText:
 	text "By using a TM, a"
 	line "#mon will"
 

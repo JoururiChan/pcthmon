@@ -65,11 +65,11 @@ JackThunderTriviaText:
 	cont "strike."
 	done
 
-JackRolloutTriviaText:
+JackTremorsTriviaText:
 	text "Did you know…?"
 
 	para "If you use Defense"
-	line "Curl, Rollout's"
+	line "Curl, Tremors's"
 
 	para "power goes way up"
 	line "past normal."

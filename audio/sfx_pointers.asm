@@ -96,7 +96,7 @@ SFX:
 	fardw Sfx_Sharpen
 	fardw Sfx_EggBomb
 	fardw Sfx_Sing
-	fardw Sfx_MasterSpark
+	fardw Sfx_PowerBeam
 	fardw Sfx_Shine
 	fardw Sfx_Unknown5F
 	fardw Sfx_Unknown60
@@ -134,7 +134,7 @@ SFX:
 	fardw Sfx_SludgeBomb
 	fardw Sfx_Foresight
 	fardw Sfx_Spite
-	fardw Sfx_Outrage
+	fardw Sfx_FlameHit
 	fardw Sfx_ShadowDance
 	fardw Sfx_GigaDrain
 	fardw Sfx_Attract

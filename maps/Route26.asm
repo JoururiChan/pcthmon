@@ -24,7 +24,7 @@ Route26_MapScriptHeader:
 	object_event 10, 92, SPRITE_DRAGON_TAMER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerDragonTamerErick, -1
 	fruittree_event 14, 54, FRUITTREE_ROUTE_26, SITRUS_BERRY, PAL_NPC_BROWN
 	itemball_event  9, 15, MAX_ELIXIR, 1, EVENT_ROUTE_26_MAX_ELIXIR
-	tmhmball_event 13, 34, TM_SPIRIT_VOICE, EVENT_ROUTE_26_TM_SPIRIT_VOICE
+	tmhmball_event 13, 34, TM_SHADOW_FORCE, EVENT_ROUTE_26_TM_SHADOW_FORCE
 
 GenericTrainerDragonTamerKazu:
 	generictrainer DRAGON_TAMER, KAZU, EVENT_BEAT_DRAGON_TAMER_KAZU, DragonTamerKazuSeenText, DragonTamerKazuBeatenText

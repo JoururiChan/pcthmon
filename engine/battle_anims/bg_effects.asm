@@ -118,7 +118,7 @@ BattleBGEffects:
 	dw BattleBGEffect_BetaSendOutMon2
 	dw BattleBGEffect_Flail
 	dw BattleBGEffect_BetaPursuit
-	dw BattleBGEffect_Rollout
+	dw BattleBGEffect_Tremors
 	dw BattleBGEffect_VitalThrow
 	dw BattleBGEffect_StartWater
 	dw BattleBGEffect_Water
@@ -1353,7 +1353,7 @@ Tackle_BGEffect25_2d_one:
 	cp 8
 .reached_limit
 	call z, BattleBGEffects_IncrementJumptable
-	call Rollout_FillLYOverridesBackup
+	call Tremors_FillLYOverridesBackup
 	ld hl, BG_EFFECT_STRUCT_BATTLE_TURN
 	add hl, bc
 	ld a, [hl]
@@ -1369,7 +1369,7 @@ Tackle_BGEffect25_2d_two:
 	ld a, [hl]
 	and a
 	call z, BattleBGEffects_IncrementJumptable
-	call Rollout_FillLYOverridesBackup
+	call Tremors_FillLYOverridesBackup
 	ld hl, BG_EFFECT_STRUCT_BATTLE_TURN
 	add hl, bc
 	ld a, [hl]
@@ -1381,13 +1381,13 @@ Tackle_BGEffect25_2d_two:
 	ld [hl], a
 	ret
 
-Rollout_FillLYOverridesBackup:
+Tremors_FillLYOverridesBackup:
 	push af
 	ld a, [wFXAnimIDHi]
 	or a
 	jr nz, .not_rollout
 	ld a, [wFXAnimIDLo]
-	cp ROLLOUT
+	cp TREMORS
 	jr z, .rollout
 .not_rollout
 	pop af
@@ -1912,7 +1912,7 @@ BattleBGEffect_WobblePlayer:
 	ld [hl], a
 	ret
 
-BattleBGEffect_Rollout:
+BattleBGEffect_Tremors:
 	call BattleBGEffects_GetShakeAmount
 	jr c, .xor_a
 	bit 7, a

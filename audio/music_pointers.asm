@@ -161,7 +161,7 @@ Music:
 	dba Music_FrostCavernXY
 	dba Music_PowerPlantXY
 	dba Music_ReversalMountainWhite2
-	dba Music_MeteorFallsRSE
+	dba Music_FireBreathsRSE
 	dba Music_LugiasSong2000_NoIntro
 	dba Music_LugiaBattleHGSS
 	dba Music_SummoningDanceHGSS

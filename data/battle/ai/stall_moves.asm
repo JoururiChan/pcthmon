@@ -2,7 +2,7 @@
 ; when the player's HP is low.
 
 StallMoves:
-	db SPIDERS_NEST
+	db LEAF_STORM
 	db BARRIER
 	db BULK_UP
 	db CALM_MIND
@@ -10,7 +10,7 @@ StallMoves:
 	db COUNTER
 	db DEFENSE_CURL
 	db DISABLE
-	db DRAGON_DANCE
+	db TAILWIND
 	db FOCUS_ENERGY
 	db GROWL
 	db GROWTH
@@ -24,7 +24,7 @@ StallMoves:
 	db SCREECH
 	db SKILL_SWAP
 	db SPLASH
-	db DOLL_STRINGS
+	db WIRE_WEB
 	db SUBSTITUTE
 	db SWORDS_DANCE
 	db RECOLLECT

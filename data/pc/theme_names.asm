@@ -28,11 +28,11 @@ BillsPC_ThemeNames:
 	dr .Water
 	dr .Nature2
 	dr .Wind
-	dr .Psychic
+	dr .Reason
 	dr .Ice
 	dr .Faith
 	dr .Dark
-	dr .Fairy
+	dr .Heart2
 	assert_table_length NUM_BILLS_PC_THEMES
 
 .Standard: db "Standard@"
@@ -63,8 +63,8 @@ BillsPC_ThemeNames:
 .Water:    db "Water@"
 .Nature2:    db "Nature@"
 .Wind: db "Wind@"
-.Psychic:  db "Psychic@"
+.Reason:  db "Reason@"
 .Ice:      db "Ice@"
 .Faith:   db "Faith@"
 .Dark:     db "Dark@"
-.Fairy:    db "Fairy@"
+.Heart2:    db "Heart@"

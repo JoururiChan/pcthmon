@@ -832,7 +832,7 @@ ToughClawsDescription:
 
 PixilateDescription:
 	text  "Illusion-type moves"
-	next1 "become Fairy-type."
+	next1 "become Heart-type."
 	done
 
 ParentalBondDescription:

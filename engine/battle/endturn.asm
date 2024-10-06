@@ -51,7 +51,7 @@ HandleBetweenTurnEffects:
 	call HandleShadowDance
 	call CheckFaint
 	ret c
-	call HandleWhiteBird
+	call HandleAuraWave
 	call HandleReflect
 	call HandleLightScreen
 	call HandleSafeguard
@@ -1035,7 +1035,7 @@ HandleStatusOrbs:
 	pop hl
 	jmp StdBattleTextbox
 
-HandleWhiteBird:
+HandleAuraWave:
 	call SetFastestTurn
 	call .do_it
 	call SwitchTurn
@@ -1046,8 +1046,8 @@ HandleWhiteBird:
 
 	ld a, BATTLE_VARS_SUBSTATUS4
 	call GetBattleVarAddr
-	bit SUBSTATUS_WHITE_BIRD, [hl]
-	res SUBSTATUS_WHITE_BIRD, [hl]
+	bit SUBSTATUS_AURA_WAVE, [hl]
+	res SUBSTATUS_AURA_WAVE, [hl]
 	ret z
 
 	ldh a, [hBattleTurn]

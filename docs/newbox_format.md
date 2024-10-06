@@ -88,7 +88,7 @@ The theme order is as follows:
 * Ice
 * Faith
 * Dark
-* Fairy
+* Heart
 
 ## Tohomon database format
 

@@ -69,9 +69,9 @@ DragonsDenB1FClairTrigger:
 	opentext
 	writetext .GiveTMText
 	promptbutton
-	verbosegivetmhm TM_DRAGON_PULSE
-	setevent EVENT_GOT_TM59_DRAGON_PULSE
-	writetext .DescribeDragonPulseText
+	verbosegivetmhm TM_ENIGMA_BURST
+	setevent EVENT_GOT_TM59_ENIGMA_BURST
+	writetext .DescribeEnigmaBurstText
 	promptbutton
 	writetext ClairPokemonLeagueDirectionsText ; in BlackthornGym1F.asm
 	waitbutton
@@ -98,9 +98,9 @@ DragonsDenB1FClairTrigger:
 	line "my apology."
 	done
 
-.DescribeDragonPulseText:
+.DescribeEnigmaBurstText:
 	text "That contains"
-	line "Dragon Pulse."
+	line "Enigma Burst."
 
 	para "If you don't want"
 	line "it, you don't have"

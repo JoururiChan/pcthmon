@@ -1652,7 +1652,7 @@ Sfx_Sing:
 	sound_ret
 
 
-Sfx_MasterSpark:
+Sfx_PowerBeam:
 	channel_count 3
 	channel 5, .Ch5
 	channel 6, .Ch6
@@ -3990,7 +3990,7 @@ Sfx_Spite:
 	sound_ret
 
 
-Sfx_Outrage:
+Sfx_FlameHit:
 	channel_count 1
 	channel 8, .Ch8
 

@@ -112,20 +112,20 @@ Route4TutorIronHeadScript:
 Route4SuperNerd2Script:
 	faceplayer
 	opentext
-	checkevent EVENT_LISTENED_TO_AQUA_TAIL_INTRO
-	iftruefwd Route4TutorAquaTailScript
+	checkevent EVENT_LISTENED_TO_AQUA_CUT_INTRO
+	iftruefwd Route4TutorAquaCutScript
 	writetext Route4SuperNerd2Text
 	waitbutton
-	setevent EVENT_LISTENED_TO_AQUA_TAIL_INTRO
-Route4TutorAquaTailScript:
-	writetext Text_Route4TutorAquaTail
+	setevent EVENT_LISTENED_TO_AQUA_CUT_INTRO
+Route4TutorAquaCutScript:
+	writetext Text_Route4TutorAquaCut
 	waitbutton
 	checkitem SILVER_LEAF
 	iffalsefwd .NoSilverLeaf
 	writetext Text_Route4Tutor2Question
 	yesorno
 	iffalsefwd .TutorRefused
-	setval AQUA_TAIL
+	setval AQUA_CUT
 	writetext ClearText
 	special Special_MoveTutor
 	ifequalfwd $0, .TeachMove
@@ -229,12 +229,12 @@ Text_Route4TutorIronHead:
 	line "to use Iron Head!"
 	done
 
-Text_Route4TutorAquaTail:
+Text_Route4TutorAquaCut:
 	text "If you give me a"
 	line "Silver Leaf, I'll"
 
 	para "teach your #mon"
-	line "to use Aqua Tail!"
+	line "to use Aqua Cut!"
 	done
 
 Text_Route4TutorsNoSilverLeaf:
@@ -251,12 +251,12 @@ Text_Route4Tutor1Question:
 Text_Route4Tutor2Question:
 	text "Should I teach"
 	line "your #mon"
-	cont "Aqua Tail?"
+	cont "Aqua Cut?"
 	done
 
 Text_Route4Tutor1Refused:
 	text "But it's better"
-	line "than Aqua Tail!"
+	line "than Aqua Cut!"
 	done
 
 Text_Route4Tutor2Refused:
@@ -273,7 +273,7 @@ Text_Route4Tutor1Taught:
 Text_Route4Tutor2Taught:
 	text "Now your #mon"
 	line "knows how to use"
-	cont "Aqua Tail!"
+	cont "Aqua Cut!"
 	done
 
 Route4EngineerText1:

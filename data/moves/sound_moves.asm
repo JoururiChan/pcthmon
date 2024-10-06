@@ -1,5 +1,5 @@
 SoundMoves::
-	db BUG_BUZZ
+	db SPIRIT_VOICE
 	db DISARM_VOICE
 	db GROWL
 	db VOICE_BIND
@@ -8,5 +8,5 @@ SoundMoves::
 	db SING
 	db SUPERSONIC
 	db HEAL_BELL
-	db SPIRIT_VOICE
+	db SHADOW_FORCE
 	db -1

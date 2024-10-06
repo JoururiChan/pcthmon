@@ -334,7 +334,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_PARALYZE,          AI_Smart_Paralyze
 	dbw EFFECT_SPEED_DOWN_HIT,    AI_Smart_SpeedDownHit
 	dbw EFFECT_SUBSTITUTE,        AI_Smart_Substitute
-	dbw EFFECT_MASTER_SPARK,        AI_Smart_MasterSpark
+	dbw EFFECT_POWER_BEAM,        AI_Smart_PowerBeam
 	dbw EFFECT_RAGE,              AI_Smart_Rage
 	dbw EFFECT_LEECH_SEED,        AI_Smart_LeechSeed
 	dbw EFFECT_DISABLE,           AI_Smart_Disable
@@ -346,14 +346,14 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_HEAL_BELL,         AI_Smart_HealBell
 	dbw EFFECT_PRIORITY_HIT,      AI_Smart_PriorityHit
 	dbw EFFECT_MEAN_LOOK,         AI_Smart_MeanLook
-	dbw EFFECT_LAVATEIN,       AI_Smart_Defrost
-	dbw EFFECT_SHINY_FIRE,       AI_Smart_Defrost
+	dbw EFFECT_HEAT_SMASH,       AI_Smart_Defrost
+	dbw EFFECT_SACRED_FIRE,       AI_Smart_Defrost
 	dbw EFFECT_CURSE,             AI_Smart_Curse
 	dbw EFFECT_PROTECT,           AI_Smart_Protect
 	dbw EFFECT_FORESIGHT,         AI_Smart_Foresight
 	dbw EFFECT_SHADOW_DANCE,       AI_Smart_ShadowDance
 	dbw EFFECT_ENDURE,            AI_Smart_Endure
-	dbw EFFECT_ROLLOUT,           AI_Smart_Rollout
+	dbw EFFECT_TREMORS,           AI_Smart_Tremors
 	dbw EFFECT_SWAGGER,           AI_Smart_Swagger
 	dbw EFFECT_ATTRACT,           AI_Smart_Attract
 	dbw EFFECT_SAFEGUARD,         AI_Smart_Safeguard
@@ -377,7 +377,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_FLOWER_SHOOT,        AI_Smart_FlowerShoot
 	dbw EFFECT_THUNDER,           AI_Smart_Thunder
 	dbw EFFECT_FLY,               AI_Smart_Fly
-	dbw EFFECT_WHITE_BIRD,             AI_Smart_WhiteBird
+	dbw EFFECT_AURA_WAVE,             AI_Smart_AuraWave
 	dbw EFFECT_TRICK_ROOM,        AI_Smart_TrickRoom
 	db -1 ; end
 
@@ -551,9 +551,9 @@ AI_Smart_EvasionUp:
 	cp b
 	jr c, .discourage
 
-; Greatly encourage this move if the player is in the middle of Rollout.
+; Greatly encourage this move if the player is in the middle of Tremors.
 	ld a, [wPlayerSubStatus3]
-	bit SUBSTATUS_ROLLOUT, a
+	bit SUBSTATUS_TREMORS, a
 	jr nz, .greatly_encourage
 
 .discourage
@@ -673,9 +673,9 @@ AI_Smart_AccuracyDown:
 	cp b
 	jr c, .discourage
 
-; Greatly encourage this move if the player is in the middle of Rollout.
+; Greatly encourage this move if the player is in the middle of Tremors.
 	ld a, [wPlayerSubStatus3]
-	bit SUBSTATUS_ROLLOUT, a
+	bit SUBSTATUS_TREMORS, a
 	jr nz, .greatly_encourage
 
 .discourage
@@ -773,7 +773,7 @@ AI_Smart_HealingLight:
 	ret
 
 AI_Smart_Heal:
-AI_Smart_WhiteBird:
+AI_Smart_AuraWave:
 ; Score the move as follows (lower is better):
 ; <33%: -2
 ; 33-50%: -1
@@ -835,7 +835,7 @@ AI_Smart_Bind:
 	jr z, .coinflip_discourage
 
 	; 50% chance to greatly encourage this move if player is either
-	; badly poisoned, in love, identified, or stuck in Rollout, or first turn.
+	; badly poisoned, in love, identified, or stuck in Tremors, or first turn.
 	; Don't encourage it if we're at low HP.
 	ld a, [wBattleMonStatus]
 	bit TOX, a
@@ -845,7 +845,7 @@ AI_Smart_Bind:
 	and 1 << SUBSTATUS_IN_LOVE | 1 << SUBSTATUS_IDENTIFIED
 	jr nz, .coinflip_encourage
 	ld a, [wPlayerSubStatus3]
-	and 1 << SUBSTATUS_ROLLOUT
+	and 1 << SUBSTATUS_TREMORS
 	jr nz, .coinflip_encourage
 	ld a, [wPlayerTurnsTaken]
 	and a
@@ -999,7 +999,7 @@ AI_Smart_Substitute:
 	ret c
 	jmp AIDiscourageMove
 
-AI_Smart_MasterSpark:
+AI_Smart_PowerBeam:
 	call AICheckEnemyHalfHP
 	jr c, .discourage
 
@@ -1346,12 +1346,12 @@ AI_Smart_MeanLook:
 	jr nz, .encourage
 
 ; 80% chance to greatly encourage this move if the player is either
-; in love, identified, or stuck in Rollout.
+; in love, identified, or stuck in Tremors.
 	ld a, [wPlayerSubStatus1]
 	and 1<<SUBSTATUS_IN_LOVE | 1<<SUBSTATUS_IDENTIFIED
 	jr nz, .encourage
 	ld a, [wPlayerSubStatus3]
-	and 1<<SUBSTATUS_ROLLOUT
+	and 1<<SUBSTATUS_TREMORS
 	jr nz, .encourage
 
 ; Otherwise, discourage this move unless the player only has not very effective moves against the enemy.
@@ -1457,7 +1457,7 @@ AI_Smart_Protect:
 	ld a, [wPlayerSubStatus3]
 	bit SUBSTATUS_CHARGED, a
 	jr nz, .encourage
-	bit SUBSTATUS_ROLLOUT, a
+	bit SUBSTATUS_TREMORS, a
 	jr z, .discourage
 
 	ld a, [wBattleMonStatus]
@@ -1470,7 +1470,7 @@ AI_Smart_Protect:
 	bit SUBSTATUS_CURSE, a
 	jr nz, .encourage
 
-	ld a, [wPlayerRolloutCount]
+	ld a, [wPlayerTremorsCount]
 	cp 3
 	jr c, .discourage
 
@@ -1636,7 +1636,7 @@ AI_Smart_Endure:
 	inc [hl]
 	ret
 
-AI_Smart_Rollout:
+AI_Smart_Tremors:
 ; 80% chance to discourage this move if the enemy is in love, confused, or paralyzed.
 	ld a, [wEnemySubStatus1]
 	bit SUBSTATUS_IN_LOVE, a

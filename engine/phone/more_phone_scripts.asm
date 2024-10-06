@@ -3,7 +3,7 @@
 JackTriviaScript:
 	random 11
 	ifequalfwd  0, .Thunder
-	ifequalfwd  1, .Rollout
+	ifequalfwd  1, .Tremors
 	ifequalfwd  2, .FlowerShoot
 	ifequalfwd  3, .Stomp
 	ifequalfwd  4, .Gust
@@ -19,8 +19,8 @@ JackTriviaScript:
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 
-.Rollout:
-	farwritetext JackRolloutTriviaText
+.Tremors:
+	farwritetext JackTremorsTriviaText
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 

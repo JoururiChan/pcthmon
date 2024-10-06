@@ -1,8 +1,8 @@
 LauncherMoves:
 	db AURA_SPHERE
 	db DARK_PULSE
-	db DRAGON_PULSE
+	db ENIGMA_BURST
 	db WATER_PULSE
-	db LUNAR_BULLET
+	db DIZZY_PUNCH
 	db POISON_NAIL
 	db -1

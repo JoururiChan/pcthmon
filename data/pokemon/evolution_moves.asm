@@ -5,7 +5,7 @@ EvolutionMoves::
 	db NO_MOVE      ; TREIMU
 	db NO_MOVE      ; CMARISA
 	db NO_MOVE      ; MARISA
-	db METEOR_FALL      ; AMARISA
+	db FIRE_BREATH      ; AMARISA
 	db NO_MOVE      ; CSAKUYA
 	db BLADE_FLASH      ; SAKUYA
 	db NO_MOVE      ; HSAKUYA
@@ -14,9 +14,9 @@ EvolutionMoves::
 	db FIRE_SPIN      ; FGYOKU
 	db ROCK_BLAST      ; OGYOKU
 	db NO_MOVE      ; CMAGAN
-	db TOXIC_GAS    ; MAGAN
+	db TOXIC_SPORE    ; MAGAN
 	db NO_MOVE      ; CMIMA
-	db MASTER_SPARK      ; EMIMA
+	db POWER_BEAM      ; EMIMA
 	db NO_MOVE   ; CELIS
 	db ACROBATICS      ; ELIS
 	db NO_MOVE      ; CKIKURI
@@ -62,7 +62,7 @@ EvolutionMoves::
 	db WILL_O_WISP      ; DLUIZE
 	db NO_MOVE ; CALICE
 	db FLAME_CHARGE      ; ALICE
-	db BLAZE_STAR   ; AALICE
+	db WILD_CHARGE   ; AALICE
 	db NO_MOVE      ; CMAI
 	db NO_MOVE      ; MAI
 	db NO_MOVE      ; CYUKI
@@ -72,7 +72,7 @@ EvolutionMoves::
 	db NO_MOVE      ; CSHINKI
 	db NO_MOVE  ; SHINKI
 	db NO_MOVE      ; CRUMIA
-	db TOXIC_GAS      ; RUMIA
+	db TOXIC_SPORE      ; RUMIA
 	db NO_MOVE      ; ARUMIA
 	db NO_MOVE      ; CDAICHAN
 	db NO_MOVE      ; DAICHAN
@@ -82,7 +82,7 @@ EvolutionMoves::
 	db NO_MOVE       ; SCIRNO
 	db NO_MOVE      ; CMEILING
 	db NO_MOVE ; MEILING
-	db OUTRAGE ; AMEILING
+	db FLAME_HIT ; AMEILING
 	db NO_MOVE  ; CKOAKUMA
 	db WING_ATTACK      ; KOAKUMA
 	db NO_MOVE      ; HKOAKUMA
@@ -138,14 +138,14 @@ EvolutionMoves::
 	db NO_MOVE      ; SANAE
 	db NO_MOVE  ; DSANAE
 	db NO_MOVE      ; SENTRET
-	db SPIDERS_NEST      ; FURRET
+	db LEAF_STORM      ; FURRET
 	db NO_MOVE      ; HOOTHOOT
 	db NO_MOVE      ; NOCTOWL
 	db NO_MOVE      ; LEDYBA
 	db SWORDS_DANCE ; LEDIAN
 	db NO_MOVE      ; SPINARAK
-	db BUG_BITE     ; ARIADOS
-	db ICHIGO_CROSS    ; CROBAT
+	db LEAF_SNIP     ; ARIADOS
+	db CRASH_CROSS    ; CROBAT
 	db NO_MOVE      ; CHINCHOU
 	db NO_MOVE      ; LANTURN
 	db NO_MOVE      ; PICHU
@@ -158,10 +158,10 @@ EvolutionMoves::
 	db NO_MOVE      ; MAREEP
 	db NO_MOVE      ; FLAAFFY
 	db THUNDERPUNCH ; AMPHAROS
-	db PETAL_SLASH  ; BELLOSSOM
+	db BATTLE_CHANT  ; BELLOSSOM
 	db NO_MOVE      ; MARILL
 	db NO_MOVE      ; AZUMARILL
-	db STONE_EDGE   ; SUDOWOODO
+	db STONE_RISE   ; SUDOWOODO
 	db GIGA_DRAIN   ; POLITOED
 	db NO_MOVE      ; HOPPIP
 	db NO_MOVE      ; SKIPLOOM
@@ -210,7 +210,7 @@ endc
 	db NO_MOVE      ; SKARMORY
 	db NO_MOVE      ; HOUNDOUR
 	db NO_MOVE      ; HOUNDOOM
-	db DRAGONBREATH ; KINGDRA
+	db SPIRIT_SWEEP ; KINGDRA
 	db NO_MOVE      ; PHANPY
 	db FURY_STRIKES ; DONPHAN
 	db NO_MOVE      ; CLUNASA2
@@ -247,12 +247,12 @@ endc
 	db NO_MOVE      ; WEAVILE
 	db FIVEELEMENTS   ; MAGNEZONE
 	db NO_MOVE      ; LICKILICKY
-	db OUTRAGE      ; RHYPERIOR
+	db FLAME_HIT      ; RHYPERIOR
 	db NO_MOVE      ; TANGROWTH
-	db SCULPTURE ; ELECTIVIRE
+	db COLOR_FIST ; ELECTIVIRE
 	db FLASH_CANNON ; MAGMORTAR
 	db DISARM_VOICE ; TOGEKISS
-	db DRAGONBREATH ; YANMEGA
+	db SPIRIT_SWEEP ; YANMEGA
 	db RAZOR_LEAF   ; LEAFEON
 	db ICY_WIND     ; GLACEON
 	db NO_MOVE      ; GLISCOR
@@ -263,14 +263,14 @@ endc
 	db NO_MOVE      ; CURSOLA
 	db COUNTER      ; SIRFETCH_D
 	db NO_MOVE      ; MR__RIME
-	db LUNACY_EYES ; WYRDEER
-	db ROCK_THROW   ; KLEAVOR
+	db EXTRASENSORY ; WYRDEER
+	db ROCK_BULLET   ; KLEAVOR
 	db BULLDOZE     ; URSALUNA
 	db NO_MOVE      ; SNEASLER
 	db NO_MOVE      ; OVERQWIL
 	db NO_MOVE      ; DUDUNSPARCE
 	db NO_MOVE      ; FARIGIRAF
-	db DRAGON_BASH     ; CLODSIRE
+	db CURSE_THORN     ; CLODSIRE
 	db SHADOW_HIT  ; ANNIHILAPE
 	assert_table_length NUM_SPECIES
 

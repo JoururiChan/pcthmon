@@ -41,7 +41,7 @@ AI_Redundant:
 	dbw EFFECT_SWAGGER,       .Swagger
 	dbw EFFECT_FUTURE_SIGHT,  .FutureSight
 	dbw EFFECT_BATON_PASS,    .BatonPass
-	dbw EFFECT_WHITE_BIRD,         .WhiteBird
+	dbw EFFECT_AURA_WAVE,         .AuraWave
 	dbw EFFECT_TRICK_ROOM,    .TrickRoom
 	dbw EFFECT_DESTINY_BOND,  .DestinyBond
 	db -1
@@ -209,7 +209,7 @@ AI_Redundant:
 
 .Heal:
 .HealingLight:
-.WhiteBird:
+.AuraWave:
 	farcall AICheckEnemyMaxHP
 	jr nc, .NotRedundant
 

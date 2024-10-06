@@ -31,13 +31,13 @@ UniqueWildMoves:
 	unique_moves WHIRL_ISLANDS,    0,          0
 	unique_moves CLIFF_CAVE,       0,          0
 	unique_moves YELLOW_FOREST,    KIKURI,    FLY          ; replaced with Surf if Surfing
-	unique_moves QUIET_CAVE,       MUNCHLAX,   GUNGNIR  ; CRan move
+	unique_moves QUIET_CAVE,       MUNCHLAX,   ULTICHARGE  ; CRan move
 	unique_moves MT_MORTAR,        0,          0
 	unique_moves LAKE_OF_RAGE,     LILYBLACK,   HYDRO_PUMP   ; Tohowalker move
 	unique_moves ICE_PATH,         0,          0
 	unique_moves DRAGONS_DEN,      0,          0
 	unique_moves DARK_CAVE,        0,          0
-	unique_moves SILVER_CAVE,      TYRANITAR,  DRAGON_DANCE ; event move
+	unique_moves SILVER_CAVE,      TYRANITAR,  TAILWIND ; event move
 	unique_moves VIRIDIAN_FOREST,  KIKURI,    DISARM_VOICE ; Sketch-breed move
 	unique_moves MT_MOON,          0,          0
 	unique_moves CERULEAN_CAVE,    CMUGETSU,    METRONOME    ; RBY TM move
@@ -70,11 +70,11 @@ UniqueWildMoves:
 	unique_moves SHAMOUTI_ISLAND,  0,          0
 	unique_moves BEAUTIFUL_BEACH,  0,          0
 	unique_moves ROCKY_BEACH,      DONPHAN,    LOW_KICK     ; HGSS tutor move
-	unique_moves NOISY_FOREST,     SCIZOR,     BUG_STRIKES   ; new move
+	unique_moves NOISY_FOREST,     SCIZOR,     AQUAHAMMER   ; new move
 	unique_moves NOISY_FOREST,     PINECO,     LIFE_BALANCE   ; HGSS tutor move
 	unique_moves SHRINE_RUINS,     ARUMIA,      METRONOME    ; RBY TM move
-	unique_moves SHAMOUTI_TUNNEL,  KOTOHIME,     OUTRAGE      ; Prism tutor move
-	unique_moves WARM_BEACH,       FLANDRE,     METEOR_FALL ; new move
+	unique_moves SHAMOUTI_TUNNEL,  KOTOHIME,     FLAME_HIT      ; Prism tutor move
+	unique_moves WARM_BEACH,       FLANDRE,     FIRE_BREATH ; new move
 	unique_moves SHAMOUTI_COAST,   0,          0
 	unique_moves FIRE_ISLAND,      HOUNDOOM,   SUCKER_PUNCH ; HGSS tutor move
 	unique_moves ICE_ISLAND,       WEAVILE,    LOW_KICK     ; HGSS tutor move

@@ -40,7 +40,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Replace Whirlwind with Sucker Punch.
 * Add: Replace Vital Throw with Aura Sphere.
 * Add: Replace Nightmare with Facade.
-* Add: Replace Submission with Sculpture.
+* Add: Replace Submission with Color Fist.
 * Add: Replace Sand-Attack with Poison Nail.
 * Add: Replace Fairy Wind with Bulldoze.
 * Add: Replace Metal Sound with White Bird.
@@ -49,7 +49,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Replace Sludge with Venoshock.
 * Add: Replace Egg Bomb with Skill Swap.
 * Add: Replace Mist with Amnesia.
-* Add: Replace Fury Cutter with Bug Bite.
+* Add: Replace Fury Cutter with Leaf Snip.
 * Add: Replace Harden with Rock Blast.
 * Add: Replace Triple Kick with Drain Punch.
 * Add: Replace Lock-On with Power Whip.
@@ -57,13 +57,13 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Replace Flame Wheel with Flame Charge.
 * Add: Replace Moonlight and Morning Sun with Knock Off and "HealingLight".
 * Add: Replace Fury Attack and Fury Cutter with Trick and "Fury Strikes".
-* Add: Gungnir.
+* Add: Ulticharge.
 * Add: NPC trainers can have nicknamed Tohomon.
 * Add: NPC trainers can have custom EVs.
 * Add: Accuracy and evasion work like in Gen VI.
 * Add: Substitute blocks sound-based moves.
 * Add: Gen III critical hit mechanics (ignore -Atk and +Def stat changes, don't ignore burn).
-* Add: Grass-type Tohomon are immune to Toxic Gas, Stun Spore, Sleep Powder, and Spore.
+* Add: Grass-type Tohomon are immune to Toxic Spore, Stun Spore, Sleep Powder, and Spore.
 * Add: Meiling is Ground/Ghost.
 * Add: AMarisa is Fire/Dragon.
 * Add: Yanmega is Bug/Dragon.
@@ -73,7 +73,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Celebi is Grass/Fairy.
 * Add: Luize is Fire/Fairy.
 * Add: Octillery is Water/Fire.
-* Add: Politoed can learn Dream Heaven.
+* Add: Politoed can learn Energy Ball.
 * Add: Mima can learn Focus Blast.
 * Add: Misdreavus can learn Disarm Voice.
 * Add: Espeon can learn Power Gem.

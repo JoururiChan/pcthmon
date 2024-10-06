@@ -28,20 +28,20 @@ Route46_MapScriptHeader:
 Route46HikerScript:
 	faceplayer
 	opentext
-	checkevent EVENT_LISTENED_TO_ROLLOUT_INTRO
+	checkevent EVENT_LISTENED_TO_TREMORS_INTRO
 	iftruefwd Route46TutorRoute46Script
 	writetext Route46HikerText
 	waitbutton
-	setevent EVENT_LISTENED_TO_ROLLOUT_INTRO
+	setevent EVENT_LISTENED_TO_TREMORS_INTRO
 Route46TutorRoute46Script:
-	writetext Text_Route46TutorRollout
+	writetext Text_Route46TutorTremors
 	waitbutton
 	checkitem SILVER_LEAF
 	iffalsefwd .NoSilverLeaf
 	writetext Text_Route46TutorQuestion
 	yesorno
 	iffalsefwd .TutorRefused
-	setval ROLLOUT
+	setval TREMORS
 	writetext ClearText
 	special Special_MoveTutor
 	ifequalfwd $0, .TeachMove
@@ -201,11 +201,11 @@ Route46HikerText:
 	line "angry #mon!"
 	done
 
-Text_Route46TutorRollout:
+Text_Route46TutorTremors:
 	text "I'll teach your"
 	line "#mon how to"
 
-	para "use Rollout for"
+	para "use Tremors for"
 	line "a Silver Leaf."
 	done
 
@@ -218,7 +218,7 @@ Text_Route46TutorNoSilverLeaf:
 Text_Route46TutorQuestion:
 	text "Should I teach"
 	line "your #mon"
-	cont "Rollout?"
+	cont "Tremors?"
 	done
 
 Text_Route46TutorRefused:
@@ -228,7 +228,7 @@ Text_Route46TutorRefused:
 Text_Route46TutorTaught:
 	text "All done! Your"
 	line "#mon learned"
-	cont "to use Rollout!"
+	cont "to use Tremors!"
 	done
 
 HikerBaileySeenText:

@@ -95,7 +95,7 @@ else
 endc
 
 	para "the newly disco-"
-	line "vered Fairy type!"
+	line "vered Heart type!"
 	done
 
 LakeOfRageFishingGuruSign:

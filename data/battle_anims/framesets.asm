@@ -136,7 +136,7 @@ BattleAnimFrameData:
 	dw .Frameset_85 ; 85
 	dw .Frameset_86 ; 86
 	dw .Frameset_MetronomeHand           ; BATTLEANIMFRAMESET_METRONOME_HAND
-	dw .Frameset_SpidersNest                 ; BATTLEANIMFRAMESET_AGILITY
+	dw .Frameset_LeafStorm                 ; BATTLEANIMFRAMESET_AGILITY
 	dw .Frameset_Cotton                  ; BATTLEANIMFRAMESET_COTTON
 	dw .Frameset_8a ; 8a
 	dw .Frameset_8b ; 8b
@@ -187,13 +187,13 @@ BattleAnimFrameData:
 	dw .Frameset_b8 ; b8
 	dw .Frameset_PowerGem                ; BATTLEANIMFRAMESET_POWER_GEM
 	dw .Frameset_GunkShot                ; BATTLEANIMFRAMESET_GUNK_SHOT
-	dw .Frameset_StoneEdge ; bb
+	dw .Frameset_StoneRise ; bb
 	dw .Frameset_AquaJet
 	dw .Frameset_BrickBreak ; bc
 	dw .Frameset_VoiceBind ; bd
 	dw .Frameset_SeedBomb                ; BATTLEANIMFRAMESET_SEED_BOMB
 	dw .Frameset_MidGlowShrinking ; bf
-	dw .Frameset_DragonPulse ; c0
+	dw .Frameset_EnigmaBurst ; c0
 	dw .Frameset_SteelFist ; c1
 	dw .Frameset_LongPunch ; c2
 	dw .Frameset_FocusBlast ; c3
@@ -246,7 +246,7 @@ BattleAnimFrameData:
 	dw .Frameset_GrowingHeart            ; BATTLEANIMFRAMESET_GROWING_HEART
 
 ; VAR3 animations start here -------
-	dw .Frameset_BugBuzz                 ; BATTLEANIMFRAMESET_BUG_BUZZ
+	dw .Frameset_SpiritVoice                 ; BATTLEANIMFRAMESET_SPIRIT_VOICE
 	dw .Frameset_PoisonJab               ; BATTLEANIMFRAMESET_POISON_JAB
 	dw .Frameset_CutHorizontal           ; BATTLEANIMFRAMESET_CUT_HORIZONTAL
 	dw .Frameset_SuckerPunch             ; BATTLEANIMFRAMESET_SUCKER_PUNCH
@@ -1091,7 +1091,7 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_1B,  8
 	battleoamend
 
-.Frameset_SpidersNest:
+.Frameset_LeafStorm:
 	battleoamframe BATTLEANIMOAMSET_AC,  8
 	battleoamend
 
@@ -1352,8 +1352,8 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_F3, 4
 	battleoamdelete
 
-.Frameset_StoneEdge:
-	battleoamframe BATTLEANIMOAMSET_STONE_EDGE,  50
+.Frameset_StoneRise:
+	battleoamframe BATTLEANIMOAMSET_STONE_RISE,  50
 	battleoamdelete
 
 .Frameset_AquaJet:
@@ -1385,7 +1385,7 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_F2,  1
 	battleoamdelete
 
-.Frameset_DragonPulse:
+.Frameset_EnigmaBurst:
 	battleoamframe BATTLEANIMOAMSET_1E,  3
 	battleoamframe BATTLEANIMOAMSET_55,  3
 	battleoamframe BATTLEANIMOAMSET_54,  3
@@ -1641,10 +1641,10 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_E1,  9
 	battleoamdelete
 
-.Frameset_BugBuzz:
+.Frameset_SpiritVoice:
 	battleoamframe BATTLEANIMOAMSET_14,         4, OAM_Y_FLIP
-	battleoamframe BATTLEANIMOAMSET_BUG_BUZZ1,  4, OAM_Y_FLIP
-	battleoamframe BATTLEANIMOAMSET_BUG_BUZZ2,  4, OAM_Y_FLIP
+	battleoamframe BATTLEANIMOAMSET_SPIRIT_VOICE1,  4, OAM_Y_FLIP
+	battleoamframe BATTLEANIMOAMSET_SPIRIT_VOICE2,  4, OAM_Y_FLIP
 	battleoamdelete
 
 .Frameset_PoisonJab:

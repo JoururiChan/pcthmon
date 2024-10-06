@@ -452,7 +452,7 @@ GetTurnsTaken:
 CheckLockedIn:
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
-	and 1 << SUBSTATUS_RECHARGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_ROLLOUT
+	and 1 << SUBSTATUS_RECHARGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_TREMORS
 	ret
 
 ParsePlayerAction:
@@ -3483,7 +3483,7 @@ _HeldStatBoostBerry:
 	farcall ShowPotentialAbilityActivation
 	farcall UseStatItemText
 
-	; Don't call CheckMirrorHerb; Bug Bite/Pluck needs to proc the copy later.
+	; Don't call CheckMirrorHerb; Leaf Snip/Pluck needs to proc the copy later.
 	xor a
 	ret
 .failed
@@ -3564,7 +3564,7 @@ _HeldHPHealingItem:
 	ret nz
 	ld b, 0 ; bc contains HP to restore unless Figy or Sitrus
 	ld a, [hl]
-	; for Bug Bite, treat Enigma Berry as Sitrus Berry
+	; for Leaf Snip, treat Enigma Berry as Sitrus Berry
 	cp ENIGMA_BERRY
 	jr z, .quarter_maxhp
 	cp SITRUS_BERRY
@@ -5711,7 +5711,7 @@ ParseEnemyAction:
 	ld [wCurEnemyMoveNum], a
 	ld c, a
 	ld a, [wEnemySubStatus3]
-	and 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_ROLLOUT
+	and 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_TREMORS
 	jr nz, .skip_load
 
 	call SetEnemyTurn

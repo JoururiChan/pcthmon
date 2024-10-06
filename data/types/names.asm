@@ -15,11 +15,11 @@ TypeNames:
 	dr Water
 	dr Nature
 	dr Wind
-	dr Psychic
+	dr Reason
 	dr Ice
 	dr Faith
 	dr Dark
-	dr Fairy
+	dr Heart
 	dr UnknownType
 	assert_table_length NUM_TYPES
 
@@ -57,11 +57,11 @@ Fire:        db "Fire@"
 Water:       db "Water@"
 Nature:       db "Nature@"
 Wind:    db "Wind@"
-Psychic:     db "Psychic@"
+Reason:     db "Reason@"
 Ice:         db "Ice@"
 Faith:      db "Faith@"
 Dark:        db "Dark@"
-Fairy:       db "Fairy@"
+Heart:       db "Heart@"
 UnknownType: db "???@"
 
 Monster:      db "Monster@"

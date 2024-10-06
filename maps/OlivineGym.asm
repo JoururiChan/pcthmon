@@ -44,7 +44,7 @@ OlivineGymJasmineScript:
 	iftrue_jumpopenedtext Jasmine_GoodLuck
 	writetext Jasmine_BadgeSpeech
 	promptbutton
-	verbosegivetmhm TM_BLAZE_STAR
+	verbosegivetmhm TM_WILD_CHARGE
 	setevent EVENT_GOT_TM23_BRAVER
 	jumpthisopenedtext
 

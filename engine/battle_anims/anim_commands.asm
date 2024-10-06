@@ -105,13 +105,13 @@ RunBattleAnimScript:
 	call PushLYOverrides
 	call BattleAnimRequestPals
 
-; Speed up Rollout's animation.
+; Speed up Tremors's animation.
 	ld a, [wFXAnimIDHi]
 	or a
 	jr nz, .not_rollout
 
 	ld a, [wFXAnimIDLo]
-	cp ROLLOUT
+	cp TREMORS
 	jr nz, .not_rollout
 
 	ld a, $2e

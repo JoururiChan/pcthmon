@@ -54,7 +54,7 @@ RadioTower4FDJMaryScript:
 	text "Mary: It's just"
 	line "right for #mon"
 
-	para "that know Fairy-"
+	para "that know Heart-"
 	line "type moves."
 	done
 

@@ -913,7 +913,7 @@ MagnetDesc:
 	done
 
 TwistedSpoonDesc:
-	text "Powers up Psychic-"
+	text "Powers up Reason-"
 	next "type moves. (Hold)"
 	done
 
@@ -933,7 +933,7 @@ BlackGlassesDesc:
 	done
 
 PinkBowDesc:
-	text "Powers up Fairy-"
+	text "Powers up Heart-"
 	next "type moves. (Hold)"
 	done
 

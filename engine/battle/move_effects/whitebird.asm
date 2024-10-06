@@ -39,5 +39,5 @@ BattleCommand_whitebird:
 .types_ok
 	ld a, BATTLE_VARS_SUBSTATUS4
 	call GetBattleVarAddr
-	set SUBSTATUS_WHITE_BIRD, [hl]
+	set SUBSTATUS_AURA_WAVE, [hl]
 	ret

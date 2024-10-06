@@ -34,39 +34,39 @@ CSakuyaEggMoves:
 	db $ff
 
 CGyokuEggMoves:
-	db LIFE_COUNTER
+	db ENIGMA_BURST
 	db FORESIGHT
 	db VENOSHOCK
 	db EXPLOSION
-	db TOXIC_GAS
+	db TOXIC_SPORE
 	db ROCK_BLAST
 	db GYRO_BALL
 	db $ff
 
 CMaganEggMoves:
-	db LIFE_COUNTER
+	db THUNDER
 	db FORESIGHT
 	db VENOSHOCK
 	db EXPLOSION
-	db TOXIC_GAS
+	db TOXIC_SPORE
 	db ROCK_BLAST
 	db GYRO_BALL
 	db $ff
 
 CMimaEggMoves:
 	db VOICE_BIND
-	db LUNACY_EYES
+	db EXTRASENSORY
 	db KNOCK_OFF
-	db LIFE_COUNTER
+	db ENIGMA_BURST
 	db LIFE_BALANCE
 	db DRAINING_KISS
-	db BLAZE_STAR
+	db EXTRASENSORY
 	db $ff
 
 CElisEggMoves:
 	db POWER_BITE
 	db VOICE_BIND
-	db SPIRIT_VOICE
+	db SHADOW_FORCE
 	db POWER_TRICK
 	db SKILL_SWAP
 	db DRAINING_KISS
@@ -74,10 +74,10 @@ CElisEggMoves:
 	db $ff
 
 CKikuriEggMoves:
-	db DRAGON_DANCE
-	db LUNAR_BULLET
-	db LUNACY_EYES
-	db ROCK_THROW
+	db TAILWIND
+	db DIZZY_PUNCH
+	db EXTRASENSORY
+	db ROCK_BULLET
 	db BULLDOZE
 	db BARRIER
 	db TELEPORT
@@ -86,10 +86,10 @@ CKikuriEggMoves:
 CSarielEggMoves:
 	db TELEPORT
 	db SAFEGUARD
-	db PETAL_SLASH
+	db BATTLE_CHANT
 	db MIRROR_COAT
 	db DISARM_VOICE
-	db DRAGON_BASH
+	db POWER_TRICK
 	db $ff
 
 CKongaraEggMoves:
@@ -102,20 +102,20 @@ CKongaraEggMoves:
 	db $ff
 
 CRikaEggMoves:
-	db DRAGON_BASH
+	db DYNAMICPUNCH
 	db TENSION_KICK
-	db MASTER_SPARK
+	db POWER_BEAM
 	db SUPERSONIC
 	db CALM_MIND
-	db GUNGNIR
-	db LUNAR_BULLET
+	db ULTICHARGE
+	db DIZZY_PUNCH
 	db $ff
 
 CMeiraEggMoves:
 	db FLAME_CHARGE
-	db LAVATEIN
-	db GUNGNIR
-	db PETAL_SLASH
+	db FLAME_HIT
+	db ULTICHARGE
+	db BATTLE_CHANT
 	db TENSION_KICK
 	db STRENGTH
 	db ROAR
@@ -127,7 +127,7 @@ CEllenEggMoves:
 	db HYPNOSIS
 	db POWER_TRICK
 	db LIFE_BALANCE
-	db BLAZE_STAR
+	db EXTREMESPEED
 	db $ff
 
 CKotohimeEggMoves:
@@ -140,26 +140,26 @@ CKotohimeEggMoves:
 	db $ff
 
 CKanaEggMoves:
-	db LIFE_COUNTER
+	db SPIRIT_SWEEP
 	db FLASH_CANNON
 	db FLASH
-	db SHINY_FIRE
+	db SACRED_FIRE
 	db POWER_GEM
-	db HELL_TOKAMAK
+	db HELLBLAZE
 	db $ff
 
 CRikakoEggMoves:
 	db POWER_TRICK
-	db BLAZE_STAR
+	db WILD_CHARGE
 	db PSYSTRIKE
-	db LUNAR_BASH
+	db TAKE_DOWN
 	db DOUBLE_EDGE
 	db VOLT_SWITCH
 	db $ff
 
 CChiyuriEggMoves:
 	db WATERFALL
-	db LUNAR_BULLET
+	db DIZZY_PUNCH
 	db TENSION_KICK
 	db AURA_SPHERE
 	db ICE_PUNCH
@@ -168,8 +168,8 @@ CChiyuriEggMoves:
 
 CYumemiEggMoves:
 	db FLAME_CHARGE
-	db GUNGNIR
-	db LAVATEIN
+	db ULTICHARGE
+	db HEAT_SMASH
 	db VOLT_SWITCH
 	db FLASH_CANNON
 	db AURA_SPHERE
@@ -178,26 +178,26 @@ CYumemiEggMoves:
 COrangeEggMoves:
 	db ENCORE
 	db FORESIGHT
-	db DRAGON_RAGE
-	db DRAGON_BASH
+	db HOLY_FLAME
+	db TENSION_KICK
 	db KNIFE_THROW
 	db POISON_NAIL
 	db $ff
 
 CKurumiEggMoves:
-	db GUNGNIR
+	db ULTICHARGE
 	db DARK_PULSE
 	db ABSORB
 	db MEGA_DRAIN
-	db LUNACY_EYES
+	db EXTRASENSORY
 	db FURY_STRIKES
 	db $ff
 
 CEllyEggMoves:
 	db ROCK_BLAST
 	db BRAVER
-	db BONEMTRANG
-	db LIFE_COUNTER
+	db BONEMERANG
+	db AQUA_CUT
 	db SUBSTITUTE
 	db PROTECT
 	db SLASH
@@ -210,7 +210,7 @@ CYukaEggMoves:
 	db SHADOW_HIT
 	db MEGA_DRAIN
 	db POWER_WHIP
-	db OUTRAGE
+	db ENERGY_LIGHT
 	db $ff
 
 CMugetsuEggMoves:
@@ -219,7 +219,7 @@ CMugetsuEggMoves:
 	db QUICK_ATTACK
 	db ASTONISH
 	db SCARY_FACE
-	db HELL_TOKAMAK
+	db HELLBLAZE
 	db LIFE_BALANCE
 	db $ff
 
@@ -230,13 +230,13 @@ CGengetsuEggMoves:
 	db HEALINGLIGHT
 	db HYPNOSIS
 	db DISABLE
-	db LIFE_COUNTER
+	db DIVE_KICK
 	db $ff
 
 CSaraEggMoves:
 	db FLAME_CHARGE
-	db DRAGON_BASH
-	db STONE_EDGE
+	db CURSE
+	db STONE_RISE
 	db DRAGON_DRILL
 	db SEISMIC_TOSS
 	db QUICK_ATTACK
@@ -251,15 +251,15 @@ CLuizeEggMoves:
 	db U_TURN
 	db DOUBLE_TEAM
 	db TELEPORT
-	db LIFE_COUNTER
+	db SPIRIT_SWEEP
 	db $ff
 
 CAliceEggMoves:
-	db PWJ_NEEDLE
+	db PIN_MISSILE
 	db POISON_NAIL
 	db QUICK_ATTACK
 	db PSYSTRIKE
-	db PETAL_SLASH
+	db BATTLE_CHANT
 	db BRAVER
 	db $ff
 
@@ -274,7 +274,7 @@ CMaiEggMoves:
 
 CYukiEggMoves:
 	db FIRE_PUNCH
-	db ICHIGO_CROSS
+	db CRASH_CROSS
 	db HEADBUTT
 	db TAKE_DOWN
 	db DOUBLE_EDGE
@@ -291,28 +291,28 @@ CYumekoEggMoves:
 	db $ff
 
 CShinkiEggMoves:
-	db ICHIGO_CROSS
+	db CRASH_CROSS
 	db NIGHT_SLASH
 	db ENERGY_LIGHT
 	db FOCUS_BLAST
 	db AURORA_BEAM
-	db DRAGON_PULSE
+	db ENIGMA_BURST
 	db $ff
 
 CRumiaEggMoves:
 	db AVARICE_BITE
 	db BITE
 	db ICICLE_SPEAR
-	db SCULPTURE
+	db COLOR_FIST
 	db NASTY_PLOT
 	db KNOCK_OFF
 	db $ff
 
 CDaichanEggMoves:
-	db SPIDERS_NEST
+	db LEAF_STORM
 	db POISON_NAIL
 	db GUST
-	db PWJ_NEEDLE
+	db PIN_MISSILE
 	db ENCORE
 	db SUPERSONIC
 	db $ff
@@ -328,7 +328,7 @@ CCirnoEggMoves:
 
 CMeilingEggMoves:
 	db SEISMIC_TOSS
-	db ROCK_THROW
+	db ROCK_BULLET
 	db SANDSTORM
 	db MAGNITUDE
 	db ROCK_SLIDE
@@ -346,7 +346,7 @@ CKoakumaEggMoves:
 	db $ff
 
 CPatchouliEggMoves:
-	db SCULPTURE
+	db SLASH
 	db REST
 	db LEECH_SEED
 	db MEGA_DRAIN
@@ -358,7 +358,7 @@ CRemiliaEggMoves:
 	db DOUBLE_EDGE
 	db AEROBLAST
 	db ASTONISH
-	db MUD_SLAP
+	db POISON_GAS
 	db POWER_GEM
 	db PSYSTRIKE
 	db $ff
@@ -366,15 +366,15 @@ CRemiliaEggMoves:
 CFlandreEggMoves:
 	db QUICK_ATTACK
 	db AERIAL_ACE
-	db SPIDERS_NEST
-	db LIFE_COUNTER
-	db DRAGON_BASH
+	db LEAF_STORM
+	db HEAT_CLAW
+	db CURSE_THORN
 	db TACKLE
 	db $ff
 
 ChenEggMoves:
 	db BATON_PASS
-	db BUG_BUZZ
+	db SPIRIT_VOICE
 	db REVERSAL
 	db COUNTER
 	db SAFEGUARD
@@ -386,12 +386,12 @@ ELilyWhiteEggMoves:
 	db FEINT_ATTACK
 	db FURY_STRIKES
 	db QUICK_ATTACK
-	db SCULPTURE
+	db COLOR_FIST
 	db $ff
 
 CLyricaEggMoves:
 	db AURORA_BEAM
-	db DRAGON_DANCE
+	db TAILWIND
 	db FORESIGHT
 	db FUTURE_SIGHT
 	db HEAL_BELL
@@ -428,7 +428,7 @@ AYuyukoEggMoves:
 	db FORESIGHT
 	db PURSUIT
 	db STEEL_WING
-	db WHITE_BIRD
+	db AURA_WAVE
 	db $ff
 
 YukariEggMoves:
@@ -440,7 +440,7 @@ YukariEggMoves:
 	db $ff
 
 CYoumuEggMoves:
-	db SCULPTURE
+	db COLOR_FIST
 	db LIFE_BALANCE
 	db TELEPORT
 	db SWIFT
@@ -449,7 +449,7 @@ CYoumuEggMoves:
 	db $ff
 
 CReisenEggMoves:
-	db SPIRIT_VOICE
+	db SHADOW_FORCE
 	db SONIC_BOOM
 	db SUPERSONIC
 	db HEX
@@ -465,8 +465,8 @@ CSanaeEggMoves:
 	db THUNDER_WAVE
 	db ANCIENTPOWER
 	db FLASH_CANNON
-	db METEOR_FALL
-	db BLAZE_STAR
+	db FIRE_BREATH
+	db WILD_CHARGE
 	db $ff
 
 SentretEggMoves:
@@ -480,7 +480,7 @@ SentretEggMoves:
 	db $ff
 
 HoothootEggMoves:
-	db SPIDERS_NEST
+	db LEAF_STORM
 	db FEINT_ATTACK
 	db NIGHT_SHADE
 	db SUPERSONIC
@@ -490,7 +490,7 @@ HoothootEggMoves:
 	db $ff
 
 LedybaEggMoves:
-	db LUNAR_BULLET
+	db DIZZY_PUNCH
 	db ENCORE
 	db PSYBEAM
 	db SCREECH
@@ -502,7 +502,7 @@ LedybaEggMoves:
 SpinarakEggMoves:
 	db BATON_PASS
 	db DISABLE
-	db DRAGON_BASH
+	db CURSE_THORN
 	db PSYBEAM
 	db PURSUIT
 	db SONIC_BOOM
@@ -512,7 +512,7 @@ SpinarakEggMoves:
 	db $ff
 
 ChinchouEggMoves:
-	db SPIDERS_NEST
+	db LEAF_STORM
 	db HAZE
 	db PSYBEAM
 	db SCREECH
@@ -542,7 +542,7 @@ IgglybuffEggMoves:
 	db $ff
 
 TogepiEggMoves:
-	db LUNACY_EYES
+	db EXTRASENSORY
 	db FORESIGHT
 	db FUTURE_SIGHT
 	db HEALINGLIGHT
@@ -556,14 +556,14 @@ NatuEggMoves:
 	db HAZE
 	db QUICK_ATTACK
 	db STEEL_WING
-	db LUNAR_BASH
-	db WHITE_BIRD
+	db HOLY_CHARGE
+	db AURA_WAVE
 	db $ff
 
 MareepEggMoves:
-	db SPIDERS_NEST
+	db LEAF_STORM
 	db REFLECT
-	db MUD_SLAP
+	db POISON_GAS
 	db SCREECH
 	db THUNDERBOLT
 	db TAKE_DOWN
@@ -608,7 +608,7 @@ MurkrowEggMoves:
 	db SCREECH
 	db WING_ATTACK
 	db DIVE_KICK
-	db WHITE_BIRD
+	db AURA_WAVE
 	db $ff
 
 MisdreavusEggMoves:
@@ -629,14 +629,14 @@ GirafarigEggMoves:
 	db $ff
 
 PinecoEggMoves:
-	db PWJ_NEEDLE
+	db PIN_MISSILE
 	db SWIFT
 	db REFLECT
 	db POISON_NAIL
 	db $ff
 
 DunsparceEggMoves:
-	db SPIDERS_NEST
+	db LEAF_STORM
 	db ASTONISH
 	db BITE
 	db RAGE
@@ -646,7 +646,7 @@ DunsparceEggMoves:
 	db $ff
 
 GligarEggMoves:
-	db SPIDERS_NEST
+	db LEAF_STORM
 	db BATON_PASS
 	db METAL_CLAW
 	db WING_ATTACK
@@ -662,7 +662,7 @@ SnubbullEggMoves:
 	db AVARICE_BITE
 	db HEAL_BELL
 	db LICK
-	db SCULPTURE
+	db COLOR_FIST
 	db $ff
 
 QwilfishEggMoves:
@@ -674,10 +674,10 @@ QwilfishEggMoves:
 	db $ff
 
 ShuckleEggMoves:
-	db ROLLOUT
+	db TREMORS
 	db ACID
 	db KNOCK_OFF
-	db MUD_SLAP
+	db POISON_GAS
 	db ROCK_BLAST
 	db $ff
 
@@ -709,7 +709,7 @@ TeddiursaEggMoves:
 	db COUNTER
 	db GUNK_SHOT
 	db NIGHT_SLASH
-	db SCULPTURE
+	db COLOR_FIST
 	db $ff
 
 SlugmaEggMoves:
@@ -793,7 +793,7 @@ PhanpyEggMoves:
 StantlerEggMoves:
 	db BITE
 	db DOUBLE_KICK
-	db LUNACY_EYES
+	db EXTRASENSORY
 	db RAGE
 	db $ff
 
@@ -821,7 +821,7 @@ MagbyEggMoves:
 	db BARRIER
 	db BELLY_DRUM
 	db CROSS_CHOP
-	db LAVATEIN
+	db HEAT_SMASH
 	db FOCUS_ENERGY
 	db KARATE_CHOP
 	db MACH_PUNCH
@@ -829,17 +829,17 @@ MagbyEggMoves:
 	db $ff
 
 MiltankEggMoves:
-	db LUNAR_BULLET
+	db DIZZY_PUNCH
 	db REVERSAL
 	db SEISMIC_TOSS
 	db $ff
 
 LarvitarEggMoves:
-	db DRAGON_DANCE
+	db TAILWIND
 	db FOCUS_ENERGY
 	db PURSUIT
 	db STOMP
-	db OUTRAGE
+	db FLAME_HIT
 	db ANCIENTPOWER
 	db IRON_HEAD
 	db $ff

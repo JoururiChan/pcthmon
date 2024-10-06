@@ -33,6 +33,6 @@ BuenasPasswordTable:
 .Pokemon2:      password_group BUENA_MON,    10, HOOTHOOT, SPINARAK, RUMIA
 .JohtoTowns:    password_group BUENA_STRING, 16, "New Bark Town@", "Cherrygrove City@", "Azalea Town@"
 .Types:         password_group BUENA_STRING,  6, "Flying@", "Bug@", "Nature@"
-.Moves:         password_group BUENA_MOVE,   12, TACKLE, GROWL, MUD_SLAP
+.Moves:         password_group BUENA_MOVE,   12, TACKLE, GROWL, POISON_GAS
 .XItems:        password_group BUENA_ITEM,   12, X_ATTACK, X_DEFEND, X_SPEED
 .RadioStations: password_group BUENA_STRING, 13, "#mon Talk@", "#mon Music@", "Lucky Channel@"

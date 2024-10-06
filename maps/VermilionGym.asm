@@ -97,12 +97,12 @@ VermilionGymSurgeScript:
 .LyrasEgg:
 	specialphonecall SPECIALCALL_LYRASEGG
 .FightDone:
-	checkevent EVENT_GOT_TM57_BLAZE_STAR
+	checkevent EVENT_GOT_TM57_WILD_CHARGE
 	iftrue_jumpopenedtext LtSurgeFightDoneText
 	writetext LtSurgeThunderBadgeText
 	promptbutton
-	verbosegivetmhm TM_BLAZE_STAR
-	setevent EVENT_GOT_TM57_BLAZE_STAR
+	verbosegivetmhm TM_WILD_CHARGE
+	setevent EVENT_GOT_TM57_WILD_CHARGE
 	jumpopenedtext SurgeOutroText
 
 GenericTrainerGentlemanGregory:
@@ -256,7 +256,7 @@ LtSurgeThunderBadgeText:
 
 SurgeOutroText:
 	text "That TM contains"
-	line "Blaze Star. Use"
+	line "Wild Charge. Use"
 
 	para "it to go like"
 	line "lightning!"

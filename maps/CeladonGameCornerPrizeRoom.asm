@@ -67,14 +67,14 @@ CeladonPrizeRoom_tmcounterloop:
 	sjumpfwd CeladonPrizeRoom_purchased
 
 .gigaimpact
-	checktmhm TM_GUNGNIR
+	checktmhm TM_ULTICHARGE
 	iftruefwd CeladonPrizeRoom_alreadyhavetm
 	checkcoins CELADONGAMECORNERPRIZEROOM_TM68_COINS
 	ifequalfwd $2, CeladonPrizeRoom_notenoughcoins
-	gettmhmname TM_GUNGNIR, $0
+	gettmhmname TM_ULTICHARGE, $0
 	scall CeladonPrizeRoom_askbuytm
 	iffalse_jumpopenedtext CeladonPrizeRoom_ComeAgainText
-	givetmhm TM_GUNGNIR
+	givetmhm TM_ULTICHARGE
 	takecoins CELADONGAMECORNERPRIZEROOM_TM68_COINS
 	sjumpfwd CeladonPrizeRoom_purchased
 

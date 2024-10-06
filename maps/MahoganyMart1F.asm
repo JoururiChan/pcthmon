@@ -56,7 +56,7 @@ MahoganyMart1FBlackBeltScript:
 MahoganyMart1FLanceUncoversStaircaseScript:
 	pause 15
 	opentext
-	writetext MahoganyMart1FLanceCSuikaMasterSparkText
+	writetext MahoganyMart1FLanceCSuikaPowerBeamText
 	pause 15
 	closetext
 	playsound SFX_TACKLE
@@ -155,9 +155,9 @@ MahoganyMart1FBlackBeltText_LanceEntered:
 	line "#mon are tough…"
 	done
 
-MahoganyMart1FLanceCSuikaMasterSparkText:
+MahoganyMart1FLanceCSuikaPowerBeamText:
 	text "Lance: CSuika,"
-	line "Master Spark."
+	line "Power Beam."
 	done
 
 MahoganyMart1FLanceRadioText:

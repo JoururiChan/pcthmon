@@ -603,7 +603,7 @@ EvasionDownHit:
 	posthiteffects
 	endmove
 
-Sculpture:
+Color Fist:
 	checkobedience
 	usedmovetext
 	doturn
@@ -860,7 +860,7 @@ Growth:
 	growth
 	endmove
 
-DragonDance:
+Tailwind:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1092,7 +1092,7 @@ Heal:
 	heal
 	endmove
 
-WhiteBird:
+AuraWave:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1273,7 +1273,7 @@ KnockOff:
 	knockoff TRUE
 	endmove
 
-BugBite:
+LeafSnip:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1333,7 +1333,7 @@ Substitute:
 	substitute
 	endmove
 
-MasterSpark:
+PowerBeam:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1624,7 +1624,7 @@ Endure:
 	endure
 	endmove
 
-Rollout:
+Tremors:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1713,7 +1713,7 @@ Return:
 	posthiteffects
 	endmove
 
-ShinyFire:
+SacredFire:
 	checkobedience
 	usedmovetext
 	doturn
@@ -2090,7 +2090,7 @@ Dig:
 	posthiteffects
 	endmove
 
-Lavatein:
+HeatSmash:
 	checkobedience
 	usedmovetext
 	doturn

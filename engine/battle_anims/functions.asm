@@ -23,7 +23,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_Drop
 	dw BattleAnimFunction_MoveFromUserToTargetSpinAround
 	dw BattleAnimFunction_Shake
-	dw BattleAnimFunction_HellTokamak
+	dw BattleAnimFunction_Hellblaze
 	dw BattleAnimFunction_RazorLeaf
 	dw BattleAnimFunction_Bubble
 	dw BattleAnimFunction_Surf
@@ -58,7 +58,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_PoisonGas
 	dw BattleAnimFunction_Horn
 	dw BattleAnimFunction_Needle
-	dw BattleAnimFunction_PetalSlash
+	dw BattleAnimFunction_BattleChant
 	dw BattleAnimFunction_ThiefPayday
 	dw BattleAnimFunction_AbsorbCircle
 	dw BattleAnimFunction_Bonemerang
@@ -72,8 +72,8 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_Sludge
 	dw BattleAnimFunction_MetronomeHand
 	dw BattleAnimFunction_MetronomeSparkleSketch
-	dw BattleAnimFunction_SpidersNest
-	dw BattleAnimFunction_ShinyFire
+	dw BattleAnimFunction_LeafStorm
+	dw BattleAnimFunction_SacredFire
 	dw BattleAnimFunction_SafeguardProtect
 	dw BattleAnimFunction_LockOnMindReader
 	dw BattleAnimFunction_Spikes
@@ -108,7 +108,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_RadialMoveOut_Spore
 	dw BattleAnimFunction_RadialMoveOut_Stats
 	dw BattleAnimFunction_PowerUp
-	dw BattleAnimFunction_WhiteBird
+	dw BattleAnimFunction_AuraWave
 	dw BattleAnimFunction_LastResort
 	dw BattleAnimFunction_DarkPulse
 	dw BattleAnimFunction_SpiralDescent_Fast
@@ -743,7 +743,7 @@ BattleAnimFunction_Shake:
 	ld [hl], a
 	ret
 
-BattleAnimFunction_HellTokamak:
+BattleAnimFunction_Hellblaze:
 	call BattleAnim_AnonJumptable
 .anon_dw
 	dw .zero
@@ -2763,7 +2763,7 @@ BattleAnimFunction_SpiralDescent:
 .delete
 	jmp FarDeinitBattleAnimation
 
-BattleAnimFunction_PetalSlash:
+BattleAnimFunction_BattleChant:
 	ld hl, BATTLEANIMSTRUCT_VAR1
 	add hl, bc
 	ld a, [hl]
@@ -2879,7 +2879,7 @@ BattleAnimFunction_SmokeFlameWheel:
 .done
 	jmp FarDeinitBattleAnimation
 
-BattleAnimFunction_ShinyFire:
+BattleAnimFunction_SacredFire:
 	ld hl, BATTLEANIMSTRUCT_PARAM
 	add hl, bc
 	ld a, [hl]
@@ -3576,7 +3576,7 @@ BattleAnimFunction_MetronomeSparkleSketch:
 	inc [hl]
 	ret
 
-BattleAnimFunction_SpidersNest:
+BattleAnimFunction_LeafStorm:
 	call BattleAnim_AnonJumptable
 .anon_dw
 	dw .zero
@@ -4350,7 +4350,7 @@ BattleAnimFunc_RadialInit:
 	ld [hl], a ; initial position = 0
 	jmp BattleAnim_IncAnonJumptableIndex
 
-BattleAnimFunction_WhiteBird:
+BattleAnimFunction_AuraWave:
 ; Moves object in a circle where the height is 1/8 the width, while also moving downward 1 pixel per frame
 ; Obj Param: Defines where the object starts in the circle
 	ld hl, BATTLEANIMSTRUCT_PARAM

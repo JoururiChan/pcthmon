@@ -153,7 +153,7 @@ GoldenrodGymGuyScript:
 	cont "#mon."
 
 	para "But be careful--"
-	line "Fairy #mon"
+	line "Heart #mon"
 
 	para "resist Dream-"
 	line "type moves,"

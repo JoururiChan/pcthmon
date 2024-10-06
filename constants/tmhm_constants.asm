@@ -19,7 +19,7 @@ MACRO add_tm
 ENDM
 
 	add_tm DYNAMICPUNCH ; $00
-	add_tm SPIRIT_VOICE  ; $01
+	add_tm SHADOW_FORCE  ; $01
 	add_tm POWER_TRICK        ; $02
 	add_tm CALM_MIND    ; $03
 	add_tm ROAR         ; $04
@@ -56,10 +56,10 @@ endc
 	add_tm DOUBLE_TEAM  ; $1f
 	add_tm REFLECT      ; $20
 	add_tm FLASH_CANNON ; $21
-	add_tm METEOR_FALL ; $22
+	add_tm FIRE_BREATH ; $22
 	add_tm SLUDGE_BOMB  ; $23
 	add_tm SANDSTORM    ; $24
-	add_tm HELL_TOKAMAK   ; $25
+	add_tm HELLBLAZE   ; $25
 	add_tm SWIFT        ; $26
 	add_tm AERIAL_ACE   ; $27
 	add_tm SUBSTITUTE   ; $28
@@ -72,15 +72,15 @@ endc
 	add_tm ROCK_SLIDE   ; $2f
 	add_tm ENERGY_LIGHT ; $30
 	add_tm LEECH_LIFE   ; $31
-	add_tm WHITE_BIRD        ; $32
+	add_tm AURA_WAVE        ; $32
 	add_tm FOCUS_BLAST  ; $33
-	add_tm DREAM_HEAVEN  ; $34
+	add_tm ENERGY_BALL  ; $34
 	add_tm BLADE_FLASH  ; $35
 	add_tm SCALD        ; $36
-	add_tm ICHIGO_CROSS    ; $37
-	add_tm BLAZE_STAR  ; $38
+	add_tm CRASH_CROSS    ; $37
+	add_tm WILD_CHARGE  ; $38
 	add_tm DARK_PULSE   ; $39
-	add_tm DRAGON_PULSE ; $3a
+	add_tm ENIGMA_BURST ; $3a
 	add_tm DRAIN_PUNCH  ; $3b
 	add_tm WILL_O_WISP  ; $3c
 	add_tm ACROBATICS   ; $3d
@@ -89,10 +89,10 @@ endc
 	add_tm SHADOW_HIT  ; $40
 	add_tm POISON_JAB   ; $41
 	add_tm AVALANCHE    ; $42
-	add_tm GUNGNIR  ; $43
+	add_tm ULTICHARGE  ; $43
 	add_tm U_TURN       ; $44
 	add_tm FLASH        ; $45
-	add_tm STONE_EDGE   ; $46
+	add_tm STONE_RISE   ; $46
 	add_tm VOLT_SWITCH  ; $47
 	add_tm THUNDER_WAVE ; $48
 	add_tm GYRO_BALL    ; $49
@@ -122,7 +122,7 @@ MACRO add_mt
 	add_tmnum \1
 ENDM
 
-	add_mt SPIDERS_NEST      ; $51
+	add_mt LEAF_STORM      ; $51
 	add_mt KNIFE_THROW    ; $52
 	add_mt BATON_PASS   ; $53
 	add_mt BODY_SLAM    ; $54
@@ -141,7 +141,7 @@ ENDM
 	add_mt IRON_HEAD    ; $61
 	add_mt KNOCK_OFF    ; $62
 	add_mt STEEL_FIST      ; $63
-	add_mt ROLLOUT      ; $64
+	add_mt TREMORS      ; $64
 	add_mt SEED_BOMB    ; $65
 	add_mt SEISMIC_TOSS ; $66
 	add_mt SKILL_SWAP   ; $67
@@ -152,7 +152,7 @@ ENDM
 	add_mt TRICK        ; $6c
 	add_mt TRICK_ROOM   ; $6d
 	add_mt ZAP_CANNON   ; $6e
-	add_mt LUNAR_BULLET ; $6f
+	add_mt DIZZY_PUNCH ; $6f
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS

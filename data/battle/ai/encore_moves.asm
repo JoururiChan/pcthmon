@@ -1,7 +1,7 @@
 ; AI_SMART encourages these moves with Encore.
 
 EncoreMoves:
-	db SPIDERS_NEST
+	db LEAF_STORM
 	db CONVERSION
 	db DISABLE
 	db DREAM_EATER
@@ -11,14 +11,14 @@ EncoreMoves:
 	db HONE_TOOLS
 	db LEECH_SEED
 	db LEER
-	db TOXIC_GAS
+	db TOXIC_SPORE
 	db ROAR
 	db SCREECH
 	db SKILL_SWAP
 	db SPLASH
-	db DOLL_STRINGS
+	db WIRE_WEB
 	db SUBSTITUTE
-	db LIFE_COUNTER
+	db HEAT_CLAW
 	db SWORDS_DANCE
 	db TELEPORT
 	db TRICK

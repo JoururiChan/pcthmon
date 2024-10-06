@@ -53,7 +53,7 @@ MoveEffectsPointers:
 	dw BulkUp
 	dw CalmMind
 	dw Growth
-	dw DragonDance
+	dw Tailwind
 	dw HoneTools
 	dw DefenseCurl
 	dw Minimize
@@ -88,7 +88,7 @@ MoveEffectsPointers:
 	dw StaticDamage
 	dw Recollect
 	dw Substitute
-	dw MasterSpark
+	dw PowerBeam
 	dw Rage
 	dw Metronome
 	dw LeechSeed
@@ -113,12 +113,12 @@ MoveEffectsPointers:
 	dw Sandstorm
 	dw Hail
 	dw Endure
-	dw Rollout
+	dw Tremors
 	dw Swagger
 	dw ConditionalBoostHit
 	dw Attract
 	dw Return
-	dw ShinyFire
+	dw SacredFire
 	dw Magnitude
 	dw BatonPass
 	dw Pursuit
@@ -137,18 +137,18 @@ MoveEffectsPointers:
 	dw Thunder
 	dw Teleport
 	dw Fly
-	dw Lavatein
+	dw HeatSmash
 	dw NormalHit
 	dw NormalHit
 	dw SwitchHit
 	dw SuckerPunch
 	dw PoisonNail
-	dw WhiteBird
-	dw Sculpture
+	dw AuraWave
+	dw Color Fist
 	dw SkillSwap
 	dw Trick
 	dw KnockOff
-	dw BugBite
+	dw LeafSnip
 	dw GyroBall
 	dw BodySlam
 	dw LowKick

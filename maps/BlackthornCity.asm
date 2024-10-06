@@ -255,7 +255,7 @@ BlackthornCooltrainerF1Text:
 	done
 
 BlackthornCooltrainerF2Text:
-	text "The Fairy type was"
+	text "The Heart type was"
 	line "discovered only"
 	cont "recently."
 

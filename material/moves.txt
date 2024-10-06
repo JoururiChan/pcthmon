@@ -10,7 +10,7 @@ Qwilfish: Astonish
 Heracross: Rock Blast
 Munchlax: Pursuit
 
-Rhyperior: Submission, Blaze Star
+Rhyperior: Submission, Wild Charge
 
 Houndoom: Bonemerang
 Qwilfish: Selfdestruct
@@ -22,7 +22,7 @@ Lanturn: Earthquake
 Blissey: Reflect
 Rumia: Strength
 CMugetsu: Swords Dance
-Skarmory: Master Spark
+Skarmory: Power Beam
 Celebi: Fly
 EShinki: Quick Attack
 Togepi: Drain Kiss
@@ -36,7 +36,7 @@ Whirlpool: Sariel/ESariel, CSara/Sara/ESara, Pineco/Forretress, Donphan, Hitmont
 
 TLyrica: Focus Energy (RBY learnset), Charm (purified)
 Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
-EOrange/CKurumi: Dragon Rage (RBY TM), Charm (purified)
+EOrange/CKurumi: Holy Flame (RBY TM), Charm (purified)
 Houndour/Houndoom: Charm (purified), Night Slash (Prism tutor)
 Ellen/EEllen: Five Elements (RBY TM), Life Balance (HGSS tutor)
 EChiyuri/CYumemi: Hypnosis (Dream World), Gunk Shot (HGSS tutor)
@@ -47,11 +47,11 @@ FGyoku: Hurricane, Baton Pass, Draining Kiss
 CSariel: Draining Kiss, Play Rough, Safeguard
 CMeira/Meira: Baton Pass
 EMeira: Encore
-CEllen: SpidersNest
+CEllen: LeafStorm
 CKurumi: Scary Face
 Bellossom: Baton Pass
 EShinki: Nasty Plot, Encore
-CMai: Sculpture, Baton Pass
+CMai: Color Fist, Baton Pass
 Luize: Baton Pass
 CRumia: Dragon Dance
 Steelix: Dragon Dance, Scary Face
@@ -69,7 +69,7 @@ Quagsire: Hydro Pump
 Togekiss: Five Elements, Fairy Wind, Swift, Draining Kiss, Amnesia
 Qwilfish: Hex, Scary Face
 Mantine: Hurricane, Rock Blast
-Tyranitar: Rock Throw, Rock Blast
+Tyranitar: Rock Bullet, Rock Blast
 Weavile: Icicle Spear
 
 S/V:
@@ -84,13 +84,13 @@ COrange/Orange: Metronome
 DLuize/CAlice: Five Elements
 
 GSC TM:
-EOrange/CKurumi: Dragonbreath
-Mareep/Flaafy/Ampharos: Dragonbreath
+EOrange/CKurumi: SpiritSweep
+Mareep/Flaafy/Ampharos: SpiritSweep
 
 HGSS tutor:
-Mugetsu/EMugetsu/CGengetsu: Bug Bite
-Ledyba/Ledian: Bug Bite
-ELilyWhite: Bug Bite
+Mugetsu/EMugetsu/CGengetsu: Leaf Snip
+Ledyba/Ledian: Leaf Snip
+ELilyWhite: Leaf Snip
 Chinchou/Lanturn: Heal Bell
 Dunsparce: Life Balance
 HChen: Heal Bell

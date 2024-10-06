@@ -272,7 +272,7 @@ Route36CooltrainerfChiaraScript:
 	iftruefwd .Beaten
 	checkevent EVENT_BEAT_SCHOOLBOY_ALAN
 	iffalse_jumptext .IntroText
-	checkevent EVENT_BEAT_PSYCHIC_MARK
+	checkevent EVENT_BEAT_PSYCHICMARK
 	iffalse_jumptext .IntroText
 	checkevent EVENT_BEAT_SCHOOLGIRL_MOLLY
 	iffalse_jumptext .IntroText
@@ -380,7 +380,7 @@ Route36CooltrainerfChiaraScript:
 	done
 
 GenericTrainerPsychicMark:
-	generictrainer PSYCHIC_T, MARK, EVENT_BEAT_PSYCHIC_MARK, PsychicMarkSeenText, PsychicMarkBeatenText
+	generictrainer PSYCHIC_T, MARK, EVENT_BEAT_PSYCHICMARK, PsychicMarkSeenText, PsychicMarkBeatenText
 
 	text "I'd be strong if"
 	line "only I could tell"

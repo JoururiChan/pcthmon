@@ -313,11 +313,11 @@ BattleCommand_checkturn:
 	; Sacred Fire, Scald, and Lavatein thaw the user.
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
-	cp SHINY_FIRE
+	cp SACRED_FIRE
 	jr z, .thaw
 	cp SCALD
 	jr z, .thaw
-	cp LAVATEIN
+	cp HEAT_SMASH
 	jr z, .thaw
 
 	; Check for defrosting
@@ -463,7 +463,7 @@ CantMove:
 	res SUBSTATUS_DESTINY_BOND, [hl]
 
 	call .cancel_fly_dig
-	call CheckRampageStatusAndGetRolloutCount ; hl becomes pointer to user substatus3
+	call CheckRampageStatusAndGetTremorsCount ; hl becomes pointer to user substatus3
 	jr z, .rampage_done
 	ld a, [de]
 	dec a
@@ -471,7 +471,7 @@ CantMove:
 	call z, HandleRampage_ConfuseUser ; confuses user on last turn of rampage
 	pop hl
 .rampage_done
-	ld a, ~(1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_ROLLOUT)
+	ld a, ~(1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_TREMORS)
 	and [hl]
 	ld [hl], a
 	ret
@@ -739,7 +739,7 @@ BattleCommand_checkobedience:
 
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
-	and 1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_ROLLOUT
+	and 1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_TREMORS
 	ret nz
 
 	; If we've already checked this turn
@@ -1062,7 +1062,7 @@ BattleCommand_doturn:
 	; check if we're locked in to a multi-turn move
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
-	and 1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_ROLLOUT
+	and 1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_TREMORS
 	ret nz
 
 	; Consume PP
@@ -1128,7 +1128,7 @@ BattleConsumePP:
 
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
-	and 1 << SUBSTATUS_IN_LOOP | 1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_ROLLOUT
+	and 1 << SUBSTATUS_IN_LOOP | 1 << SUBSTATUS_RAMPAGE | 1 << SUBSTATUS_CHARGED | 1 << SUBSTATUS_TREMORS
 	ret nz
 
 	ldh a, [hBattleTurn]
@@ -1746,7 +1746,7 @@ BattleCommand_checkpowder:
 	jr z, BattleCommand_resettypematchup
 	cp TOXIC
 	jr z, .check_corrosion
-	cp TOXIC_GAS
+	cp TOXIC_SPORE
 	jr nz, .powder
 .check_corrosion
 	ld b, a
@@ -2396,10 +2396,10 @@ BattleCommand_moveanimnosub:
 .movestate_done
 	ldh a, [hBattleTurn]
 	and a
-	ld de, wPlayerRolloutCount
+	ld de, wPlayerTremorsCount
 	ld a, BATTLEANIM_ENEMY_DAMAGE
 	jr z, .got_rollout_count
-	ld de, wEnemyRolloutCount
+	ld de, wEnemyTremorsCount
 	ld a, BATTLEANIM_PLAYER_DAMAGE
 
 .got_rollout_count
@@ -2850,9 +2850,9 @@ BattleCommand_startloop:
 
 	ldh a, [hBattleTurn]
 	and a
-	ld hl, wPlayerRolloutCount
+	ld hl, wPlayerTremorsCount
 	jr z, .got_counter
-	ld hl, wEnemyRolloutCount
+	ld hl, wEnemyTremorsCount
 .got_counter
 	ld de, wDamageTaken
 	; Reset hit counter
@@ -2908,9 +2908,9 @@ BattleCommand_supereffectivetext:
 	jr z, .continue
 	ldh a, [hBattleTurn]
 	and a
-	ld hl, wPlayerRolloutCount
+	ld hl, wPlayerTremorsCount
 	jr z, .got_multi_count
-	ld hl, wEnemyRolloutCount
+	ld hl, wEnemyTremorsCount
 .got_multi_count
 	ld a, [hl]
 	dec a
@@ -3016,7 +3016,7 @@ CheckSheerForceNegation:
 
 ConsumeStolenOpponentItem::
 ; Separate function, since used items/cud chew berry shouldn't (necessarily)
-; be updated when force-eating a berry via Bug Bite
+; be updated when force-eating a berry via Leaf Snip
 	call StackCallOpponentTurn
 .Function:
 	call GetConsumedItemVars
@@ -4440,7 +4440,7 @@ BattleCommand_constantdamage:
 
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
-	cp EFFECT_LIFE_COUNTER
+	cp EFFECT_HEAT_CLAW
 	jr z, .super_fang
 
 	cp EFFECT_REVERSAL
@@ -5491,7 +5491,7 @@ BattleCommand_rampage:
 	and SLP_MASK
 	ret nz
 
-	call CheckRampageStatusAndGetRolloutCount
+	call CheckRampageStatusAndGetTremorsCount
 	jr nz, .already_rampaging
 	set SUBSTATUS_RAMPAGE, [hl]
 ; Rampage for 1 or 2 more turns
@@ -5513,7 +5513,7 @@ HandleRampage:
 	call HasUserFainted
 	ret z
 
-	call CheckRampageStatusAndGetRolloutCount
+	call CheckRampageStatusAndGetTremorsCount
 	ret z
 	ld a, [de]
 	and a
@@ -5544,15 +5544,15 @@ HandleRampage_CheckMiss:
 	res SUBSTATUS_RAMPAGE, [hl]
 	ret
 
-CheckRampageStatusAndGetRolloutCount:
+CheckRampageStatusAndGetTremorsCount:
 ; returns z if not rampaging
 ; returns hl: address to user substatus 3
 ; returns de: user rampage count
-	ld de, wPlayerRolloutCount
+	ld de, wPlayerTremorsCount
 	ldh a, [hBattleTurn]
 	and a
 	jr z, .ok
-	ld de, wEnemyRolloutCount
+	ld de, wEnemyTremorsCount
 .ok
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVarAddr
@@ -5667,9 +5667,9 @@ EndMultihit:
 	push hl
 	ldh a, [hBattleTurn]
 	and a
-	ld hl, wPlayerRolloutCount
+	ld hl, wPlayerTremorsCount
 	jr z, .got_loop_counter
-	ld hl, wEnemyRolloutCount
+	ld hl, wEnemyTremorsCount
 .got_loop_counter
 	ld [hl], 1
 	pop hl
@@ -5678,9 +5678,9 @@ EndMultihit:
 BattleCommand_endloop:
 	ldh a, [hBattleTurn]
 	and a
-	ld hl, wPlayerRolloutCount
+	ld hl, wPlayerTremorsCount
 	jr z, .got_counter
-	ld hl, wEnemyRolloutCount
+	ld hl, wEnemyTremorsCount
 .got_counter
 	ld de, wDamageTaken
 	dec [hl]
@@ -5939,7 +5939,7 @@ BattleCommand_recoil:
 	ld a, b
 	cp DOUBLE_EDGE
 	jr z, .OneThirdRecoil
-	cp LAVATEIN
+	cp HEAT_SMASH
 	jr z, .OneThirdRecoil
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
@@ -6340,7 +6340,7 @@ BattleCommand_defrost:
 BoostJumptable:
 	dbw AVALANCHE,  DoAvalanche
 	dbw ACROBATICS, DoAcrobatics
-	dbw DREAM_HEAVEN, DoDreamHeaven
+	dbw ENERGY_BALL, DoEnergyBall
 	dbw FACADE,     DoFacade
 	dbw HEX,        DoHex
 	dbw VENOSHOCK,  DoVenoshock
@@ -6371,7 +6371,7 @@ DoAcrobatics:
 	ret nz
 	jr DoubleDamage
 
-DoDreamHeaven:
+DoEnergyBall:
 	ld a, BATTLE_VARS_STATUS_OPP
 	call GetBattleVar
 	bit PAR, a

@@ -94,7 +94,7 @@
 	const SFX_SHARPEN                     ; 5a
 	const SFX_EGG_BOMB                    ; 5b
 	const SFX_SING                        ; 5c
-	const SFX_MASTER_SPARK                  ; 5d
+	const SFX_POWER_BEAM                  ; 5d
 	const SFX_SHINE                       ; 5e
 	const SFX_UNKNOWN_5F                  ; 5f
 	const SFX_UNKNOWN_60                  ; 60
@@ -132,7 +132,7 @@
 	const SFX_SLUDGE_BOMB                 ; 80
 	const SFX_FORESIGHT                   ; 81
 	const SFX_SPITE                       ; 82
-	const SFX_OUTRAGE                     ; 83
+	const SFX_FLAME_HIT                     ; 83
 	const SFX_SHADOW_DANCE                 ; 84
 	const SFX_GIGA_DRAIN                  ; 85
 	const SFX_ATTRACT                     ; 86

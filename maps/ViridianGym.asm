@@ -47,12 +47,12 @@ ViridianGymBlueScript:
 	setflag ENGINE_EARTHBADGE
 	setevent EVENT_FINAL_BATTLE_WITH_LYRA
 .FightDone:
-	checkevent EVENT_GOT_TM71_STONE_EDGE
+	checkevent EVENT_GOT_TM71_STONE_RISE
 	iftrue_jumpopenedtext LeaderBlueEpilogueText
 	writetext LeaderBlueAfterText
 	promptbutton
-	verbosegivetmhm TM_STONE_EDGE
-	setevent EVENT_GOT_TM71_STONE_EDGE
+	verbosegivetmhm TM_STONE_RISE
+	setevent EVENT_GOT_TM71_STONE_RISE
 	jumpopenedtext BlueOutroText
 
 ViridianGymGuyScript:
