@@ -1203,6 +1203,7 @@ SCirnoEvosAttacks:
 CMeilingEvosAttacks:
 	evo_data EVOLVE_LEVEL, 32, MEILING
 	evo_data EVOLVE_ITEM, LEAF_STONE, AMEILING
+	db -1 ; no more evolutions
 	db 1, KARATE_CHOP
 	db 1, FORESIGHT
 	db 7, SAFEGUARD
