@@ -66,7 +66,7 @@ MoveDescriptions::
 	dw PowerBeamDescription
 	dw PeckDescription
 	dw DragonDrillDescription
-	dw Color FistDescription
+	dw ColorFistDescription
 	dw LowKickDescription
 	dw CounterDescription
 	dw SeismicTossDescription
@@ -439,7 +439,7 @@ AncientpowerDescription:
 	next "raise all stats."
 	done
 
-Color FistDescription:
+ColorFistDescription:
 	text "Lowers the user's"
 	next "Def and Sp.Def."
 	done

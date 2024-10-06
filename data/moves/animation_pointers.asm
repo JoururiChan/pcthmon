@@ -68,7 +68,7 @@ BattleAnimations::
 	fardw BattleAnim_HyperBeam
 	fardw BattleAnim_Peck
 	fardw BattleAnim_DragonDrill
-	fardw BattleAnim_Color Fist
+	fardw BattleAnim_ColorFist
 	fardw BattleAnim_LowKick
 	fardw BattleAnim_Counter
 	fardw BattleAnim_SeismicToss

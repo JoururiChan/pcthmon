@@ -144,7 +144,7 @@ MoveEffectsPointers:
 	dw SuckerPunch
 	dw PoisonNail
 	dw AuraWave
-	dw Color Fist
+	dw ColorFist
 	dw SkillSwap
 	dw Trick
 	dw KnockOff

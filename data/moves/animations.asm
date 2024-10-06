@@ -2226,7 +2226,7 @@ BattleAnim_DoubleEdge:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_Color Fist:
+BattleAnim_ColorFist:
 	anim_2gfx ANIM_GFX_WIND_BG, ANIM_GFX_HIT
 	anim_sound 0, 0, SFX_RAZOR_WIND
 	anim_call BattleAnimSub_LeafStorm

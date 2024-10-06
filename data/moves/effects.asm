@@ -603,7 +603,7 @@ EvasionDownHit:
 	posthiteffects
 	endmove
 
-Color Fist:
+ColorFist:
 	checkobedience
 	usedmovetext
 	doturn
