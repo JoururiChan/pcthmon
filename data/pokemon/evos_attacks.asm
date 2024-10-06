@@ -142,7 +142,7 @@ SakuyaEvosAttacks:
 	db 47, WILD_CHARGE
 	db 50, TRICK_ROOM ; Solar Beam → Sludge Bomb
 	db 53, SUPERSONIC
-	db 56, SCULPTURE
+	db 56, AQUA_CUT
 	db -1 ; no more level-up moves
 
 HSakuyaEvosAttacks:
@@ -156,7 +156,7 @@ HSakuyaEvosAttacks:
 	db 47, GLARE
 	db 50, SUPERSONIC ; Solar Beam → Sludge Bomb
 	db 53, ULTICHARGE
-	db 56, SCULPTURE
+	db 56, AQUA_CUT
 	db -1 ; no more level-up moves
 
 CGyokuEvosAttacks:

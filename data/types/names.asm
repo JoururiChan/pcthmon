@@ -40,7 +40,7 @@ EggGroupNames:
 	dr Amorphous
 	dr Water2
 	dr Lyrica
-	dr Faith
+	dr Dragon
 	dr Undiscovered
 	assert_table_length NUM_EGG_GROUPS
 
