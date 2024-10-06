@@ -32,7 +32,7 @@ EggGroupNames:
 	dr Bug
 	dr Flying
 	dr Field
-	dr Fairy
+	dr Heart
 	dr Nature
 	dr Humanlike
 	dr Water3
@@ -40,7 +40,7 @@ EggGroupNames:
 	dr Amorphous
 	dr Water2
 	dr Lyrica
-	dr Dragon
+	dr Faith
 	dr Undiscovered
 	assert_table_length NUM_EGG_GROUPS
 
