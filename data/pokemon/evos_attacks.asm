@@ -865,7 +865,7 @@ SaraEvosAttacks:
 
 CLuizeEvosAttacks:
 	evo_data EVOLVE_LEVEL, 30, LUIZE
-	evo_data EVOLVE_ITEM, DUSK_STONE, LUIZE
+	evo_data EVOLVE_ITEM, DUSK_STONE, DLUIZE
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
