@@ -72,7 +72,7 @@ TReimuEvosAttacks:
 
 CMarisaEvosAttacks:
 	evo_data EVOLVE_LEVEL, 36, MARISA
-	evo_data EVOLVE_ITEM, SUN_STONE, MARISA
+	evo_data EVOLVE_ITEM, SUN_STONE, AMARISA
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
