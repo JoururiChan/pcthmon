@@ -18,7 +18,7 @@ PewterMart_MapScriptHeader:
 
 PewterMartYoungsterText:
 	text "Hi! Check out my"
-	line "ELilyBlack!"
+	line "SLilyBlack!"
 
 	para "I raised it from a"
 	line "LilyBlack. I can't"

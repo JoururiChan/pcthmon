@@ -98,15 +98,15 @@ AnimationPointers:
 	dw CLettyAnimation
 	dw LettyAnimation
 	dw DLettyAnimation
-	dw MrMimeAnimation
+	dw CChenAnimation
 	dw ChenAnimation
 	dw HChenAnimation
 	dw CLilyWhiteAnimation
 	dw LilyWhiteAnimation
-	dw ELilyWhiteAnimation
+	dw DLilyWhiteAnimation
 	dw CLilyBlackAnimation
 	dw LilyBlackAnimation
-	dw ELilyBlackAnimation
+	dw SLilyBlackAnimation
 	dw CLyricaAnimation
 	dw LyricaAnimation
 	dw TLyricaAnimation
@@ -327,7 +327,7 @@ AnimationPointers:
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
-	dw ELilyBlackRedAnimation
+	dw SLilyBlackRedAnimation
 
 	dw SuikaArmoredAnimation
 

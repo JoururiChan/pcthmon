@@ -35,7 +35,7 @@ BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
 	contest_winner CHEN,    357
 	contest_winner FGYOKU, 349
-	contest_winner ELILYWHITE,     368
+	contest_winner DLILYWHITE,     368
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
@@ -51,7 +51,7 @@ BugContestant_BugCatcherBenny:
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
-	contest_winner ELILYWHITE,     366
+	contest_winner DLILYWHITE,     366
 	contest_winner RIKAKO,    329
 	contest_winner CMAGAN,     314
 
@@ -70,7 +70,7 @@ BugContestant_BugCatcherJosh:
 BugContestant_SchoolboyJohnny:
 	db SCHOOLBOY, JOHNNY
 	contest_winner OGYOKU,     270
-	contest_winner ELILYWHITE,     282
+	contest_winner DLILYWHITE,     282
 	contest_winner CGYOKU,   251
 
 BugContestant_SchoolboyKipp:

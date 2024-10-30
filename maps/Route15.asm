@@ -153,7 +153,7 @@ SchoolboyTommySeenText:
 
 SchoolboyTommyBeatenText:
 	text "I forgot to do my"
-	line "homework!"
+	line "hotsuikaork!"
 	done
 
 SchoolgirlFaithSeenText:

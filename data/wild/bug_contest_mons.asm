@@ -17,5 +17,5 @@ ContestMons:
 	contest_mon  5, RIKAKO,   12, 15
 	contest_mon  5, YANMA,      13, 14
 	contest_mon  5, CHEN,    13, 14
-	contest_mon  5, ELILYWHITE,     13, 14
+	contest_mon  5, DLILYWHITE,     13, 14
 ContestMonsEnd:

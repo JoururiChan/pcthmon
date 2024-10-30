@@ -1,4 +1,4 @@
-MahoganyRedELilyBlackSpeechHouse_MapScriptHeader:
+MahoganyRedSLilyBlackSpeechHouse_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -12,12 +12,12 @@ MahoganyRedELilyBlackSpeechHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  3, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyRedELilyBlackSpeechHouseBlackBeltText, -1
-	object_event  6,  5, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MahoganyRedELilyBlackSpeechHouseTeacherScript, -1
+	object_event  2,  3, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyRedSLilyBlackSpeechHouseBlackBeltText, -1
+	object_event  6,  5, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MahoganyRedSLilyBlackSpeechHouseTeacherScript, -1
 
-MahoganyRedELilyBlackSpeechHouseTeacherScript:
+MahoganyRedSLilyBlackSpeechHouseTeacherScript:
 	checkflag ENGINE_ROCKETS_IN_RADIO_TOWER
-	iftrue_jumptextfaceplayer MahoganyRedELilyBlackSpeechHouseTeacherText_RocketsInRadioTower
+	iftrue_jumptextfaceplayer MahoganyRedSLilyBlackSpeechHouseTeacherText_RocketsInRadioTower
 	jumpthistextfaceplayer
 
 	text "My favorite radio"
@@ -25,19 +25,19 @@ MahoganyRedELilyBlackSpeechHouseTeacherScript:
 	cont "#mon Music."
 	done
 
-MahoganyRedELilyBlackSpeechHouseBlackBeltText:
+MahoganyRedSLilyBlackSpeechHouseBlackBeltText:
 	text "I heard that a red"
-	line "ELilyBlack appeared"
+	line "SLilyBlack appeared"
 	cont "at the lake."
 
 	para "That's odd, since"
 	line "even ordinary"
 
-	para "ELilyBlack are rare"
+	para "SLilyBlack are rare"
 	line "in that lake…"
 	done
 
-MahoganyRedELilyBlackSpeechHouseTeacherText_RocketsInRadioTower:
+MahoganyRedSLilyBlackSpeechHouseTeacherText_RocketsInRadioTower:
 	text "I've been hearing"
 	line "laughter on the"
 

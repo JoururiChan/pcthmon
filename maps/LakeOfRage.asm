@@ -25,7 +25,7 @@ LakeOfRage_MapScriptHeader:
 
 	def_object_events
 	object_event 21, 28, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageLanceScript, EVENT_LAKE_OF_RAGE_LANCE
-	object_event 18, 22, SPRITE_BIG_ELILYBLACK, SPRITEMOVEDATA_BIG_ELILYBLACK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageRedELilyBlackScript, EVENT_LAKE_OF_RAGE_RED_ELILYBLACK
+	object_event 18, 22, SPRITE_BIG_SLILYBLACK, SPRITEMOVEDATA_BIG_SLILYBLACK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageRedSLilyBlackScript, EVENT_LAKE_OF_RAGE_RED_SLILYBLACK
 	object_event  4,  4, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WesleyScript, EVENT_LAKE_OF_RAGE_WESLEY_OF_WEDNESDAY
 	object_event 20, 29, SPRITE_ENGINEER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, LakeOfRageEngineerText, EVENT_LAKE_OF_RAGE_CIVILIANS
 	object_event  4, 15, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCooltrainermAaron, EVENT_LAKE_OF_RAGE_CIVILIANS
@@ -46,7 +46,7 @@ LakeOfRage_MapScriptHeader:
 
 	object_const_def
 	const LAKEOFRAGE_LANCE
-	const LAKEOFRAGE_RED_ELILYBLACK
+	const LAKEOFRAGE_RED_SLILYBLACK
 	const LAKEOFRAGE_WESLEY
 
 LakeOfRageFlyPoint:
@@ -80,7 +80,7 @@ LakeOfRageFloodScript:
 LakeOfRageSignText:
 	text "Lake of Rage,"
 	line "also known as"
-	cont "ELilyBlack Lake."
+	cont "SLilyBlack Lake."
 	done
 
 LakeOfRageAdvancedTipsSignText:
@@ -151,7 +151,7 @@ LakeOfRageLanceScript:
 
 .OverheardText:
 	text "This lake is full"
-	line "of ELilyBlack but"
+	line "of SLilyBlack but"
 	cont "nothing else…"
 
 	para "So the LilyBlack"
@@ -230,17 +230,17 @@ LakeOfRageEngineerText:
 	cont "project."
 	done
 
-LakeOfRageRedELilyBlackScript:
+LakeOfRageRedSLilyBlackScript:
 	opentext
-	writetext .ELilyBlackText
-	cry ELILYBLACK
+	writetext .SLilyBlackText
+	cry SLILYBLACK
 	pause 15
 	closetext
-	loadwildmon ELILYBLACK, ELILYBLACK_RED_FORM, 35
-	loadvar VAR_BATTLETYPE, BATTLETYPE_RED_ELILYBLACK
+	loadwildmon SLILYBLACK, SLILYBLACK_RED_FORM, 35
+	loadvar VAR_BATTLETYPE, BATTLETYPE_RED_SLILYBLACK
 	startbattle
 	ifequalfwd $1, .Continue
-	disappear LAKEOFRAGE_RED_ELILYBLACK
+	disappear LAKEOFRAGE_RED_SLILYBLACK
 .Continue:
 	reloadmapafterbattle
 	opentext
@@ -255,8 +255,8 @@ LakeOfRageRedELilyBlackScript:
 	appear LAKEOFRAGE_LANCE
 	end
 
-.ELilyBlackText:
-	text "ELilyBlack: Gyashaa!"
+.SLilyBlackText:
+	text "SLilyBlack: Gyashaa!"
 	done
 
 .RedScaleText:
@@ -361,7 +361,7 @@ GenericTrainerCooltrainerfLois:
 
 .SeenText:
 	text "What happened to"
-	line "the red ELilyBlack?"
+	line "the red SLilyBlack?"
 
 	para "It's gone?"
 
@@ -423,7 +423,7 @@ LakeOfRageGrampsScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "The ELilyBlack are"
+	text "The SLilyBlack are"
 	line "angry!"
 
 	para "It's a bad omen!"
@@ -437,7 +437,7 @@ LakeOfRageGrampsScript:
 LakeOfRageSuperNerdText:
 	text "I heard this lake"
 	line "was made by ram-"
-	cont "paging ELilyBlack."
+	cont "paging SLilyBlack."
 
 	para "I wonder if there"
 	line "is any connection"
@@ -450,10 +450,10 @@ LakeOfRageCooltrainerFText:
 	text "Did my eyes de-"
 	line "ceive me? I saw a"
 
-	para "red ELilyBlack in"
+	para "red SLilyBlack in"
 	line "the lake…"
 
 	para "But I thought"
-	line "ELilyBlack were"
+	line "SLilyBlack were"
 	cont "usually blue?"
 	done

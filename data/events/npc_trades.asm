@@ -34,7 +34,7 @@ NPCTrades:
 	rawchar "Emy@@@@@", $00
 ; NPC_TRADE_CHRIS in Pewter City
 	db TRADE_DIALOGSET_NEWBIE
-	dp ELILYWHITE, NO_FORM ; wants
+	dp DLILYWHITE, NO_FORM ; wants
 	dp HERACROSS, MALE ; gives
 	rawchar "Paul@@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_SATK_DOWN,  PARK_BALL,    SILVERPOWDER

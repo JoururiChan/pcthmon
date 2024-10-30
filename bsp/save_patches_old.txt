@@ -455,7 +455,7 @@ UpdateCharset:
 	increment #3
 	call .replace_loop
 
-	; magikarp record holder OT
+	; lilyblack record holder OT
 	set #1, LILYBLACK_RECORD_HOLDER_NAME_OFFSET
 	set #2, #length
 	decrement #3
@@ -588,7 +588,7 @@ UpdateCharset:
 .Randy
 	db 0x91, 0xa0, 0xad, 0xa3, 0xb8, 0x53, 0x53
 
-ChangeELilyBlackForm:
+ChangeSLilyBlackForm:
 	set #curbuild, 6
 	set #1, .mon_callback
 	call ApplyPartyPatchesOld
@@ -596,7 +596,7 @@ ChangeELilyBlackForm:
 .mon_callback
 	seek #1
 	getfilebyte #temp
-	ifne #temp, ELILYBLACK, .done
+	ifne #temp, SLILYBLACK, .done
 	add #1, FORM_OFFSET
 	seek #1
 	getfilebyte #result

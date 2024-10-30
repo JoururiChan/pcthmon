@@ -870,7 +870,7 @@ Route34SignText:
 	line "Azalea Town"
 
 	para "Ilex Forest"
-	line "Somewhere Between"
+	line "Sotsuikahere Between"
 	done
 
 Route34TrainerTipsText:

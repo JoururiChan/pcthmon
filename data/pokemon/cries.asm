@@ -132,10 +132,10 @@ PokemonCries::
 	mon_cry CRY_RUMIA,     $0ff,  $17f ; HChen
 	mon_cry CRY_DDAICHAN,     $08f,  $17f ; CLilyWhite
 	mon_cry CRY_CMARISA,  $0ff,  $0b0 ; LilyWhite
-	mon_cry CRY_CMIMA,   $000,  $100 ; ELilyWhite
+	mon_cry CRY_CMIMA,   $000,  $100 ; DLilyWhite
 	mon_cry CRY_CSAKUYA,    $011,  $0c0 ; CLilyBlack
 	mon_cry CRY_CKIKURI,       $080,  $080 ; LilyBlack
-	mon_cry CRY_CKIKURI,       $000,  $100 ; ELilyBlack
+	mon_cry CRY_CKIKURI,       $000,  $100 ; SLilyBlack
 	mon_cry CRY_CLYRICA,      $000,  $100 ; CLyrica
 	mon_cry CRY_EMAGAN,      $0ff,  $17f ; Lyrica
 	mon_cry CRY_RIKAKO,     $088,  $0e0 ; TLyrica

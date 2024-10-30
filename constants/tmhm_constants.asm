@@ -46,7 +46,7 @@ ENDM
 	add_tm EARTHQUAKE   ; $19
 	add_tm RETURN       ; $1a
 	add_tm DIG          ; $1b
-	add_tm PSYCHIC      ; $1c
+	add_tm MANA_BURST      ; $1c
 	add_tm SHADOW_BALL  ; $1d
 	add_tm ROCK_SMASH   ; $1e
 if !DEF(FAITHFUL)

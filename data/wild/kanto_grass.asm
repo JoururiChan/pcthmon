@@ -1575,7 +1575,7 @@
 	wildmon 58, RIKAKO
 	wildmon 56, PATCHOULI
 	wildmon 59, CLILYBLACK
-	wildmon 59, ELILYWHITE
+	wildmon 59, DLILYWHITE
 	wildmon 60, TPATCHOULI
 	wildmon 60, CREMILIA
 	; day
@@ -1583,7 +1583,7 @@
 	wildmon 58, RIKAKO
 	wildmon 56, PATCHOULI
 	wildmon 59, CLILYBLACK
-	wildmon 59, ELILYWHITE
+	wildmon 59, DLILYWHITE
 	wildmon 60, TPATCHOULI
 	wildmon 60, CREMILIA
 	; nite
@@ -1591,7 +1591,7 @@
 	wildmon 58, RIKAKO
 	wildmon 56, PATCHOULI
 	wildmon 59, CLILYBLACK
-	wildmon 59, ELILYWHITE
+	wildmon 59, DLILYWHITE
 	wildmon 60, TPATCHOULI
 	wildmon 60, SREMILIA
 	end_grass_wildmons

@@ -12,7 +12,7 @@ If you have a question about playing Polished Crystal, or think you've found a b
 * [Which file do I need to play?](#which-file-do-i-need-to-play)
 * [What are the .sym files for?](#what-are-the-sym-files-for)
 * [Is there documentation for all the {Tohomon, items, moves, etc}?](#is-there-documentation-for-all-the-tohomon-items-moves-etc)
-* [Why is shiny ELilyBlack gold? Is the red ELilyBlack shiny?](#why-is-shiny-gyarados-gold-is-the-red-gyarados-shiny)
+* [Why is shiny SLilyBlack gold? Is the red SLilyBlack shiny?](#why-is-shiny-slilyblack-gold-is-the-red-slilyblack-shiny)
 * [My Tohomon is a different color, is it shiny?](#my-tohomon-is-a-different-color-is-it-shiny)
 * [What are the options at the start of a new game?](#what-are-the-options-at-the-start-of-a-new-game)
 * [I don't recognize this move, what is it?](#i-dont-recognize-this-move-what-is-it)
@@ -70,9 +70,9 @@ For information that's not all in one file, like [faithful version differences](
 You can also just use in-game features! The Tohodex has a lot more information, including base stats and detailed wild locations.
 
 
-### Why is shiny ELilyBlack gold? Is the red ELilyBlack shiny?
+### Why is shiny SLilyBlack gold? Is the red SLilyBlack shiny?
 
-I like the anime explanation that red ELilyBlack was forced to rapidly evolve from a LilyBlack and kept its previous red coloration. So here, red ELilyBlack is a variant form, with its own color and different sprite. It can't be shiny. Shiny ELilyBlack are gold, like shiny LilyBlack.
+I like the anime explanation that red SLilyBlack was forced to rapidly evolve from a LilyBlack and kept its previous red coloration. So here, red SLilyBlack is a variant form, with its own color and different sprite. It can't be shiny. Shiny SLilyBlack are gold, like shiny LilyBlack.
 
 
 ### My Tohomon is a different color, is it shiny?

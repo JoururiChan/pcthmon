@@ -99,15 +99,15 @@ TohodexDataPointerTable:
 	dba CLettyTohodexEntry
 	dba LettyTohodexEntry
 	dba DLettyTohodexEntry
-	dba MrMimeTohodexEntry
+	dba CChenTohodexEntry
 	dba ChenTohodexEntry
 	dba HChenTohodexEntry
 	dba CLilyWhiteTohodexEntry
 	dba LilyWhiteTohodexEntry
-	dba ELilyWhiteTohodexEntry
+	dba DLilyWhiteTohodexEntry
 	dba CLilyBlackTohodexEntry
 	dba LilyBlackTohodexEntry
-	dba ELilyBlackTohodexEntry
+	dba SLilyBlackTohodexEntry
 	dba CLyricaTohodexEntry
 	dba LyricaTohodexEntry
 	dba TLyricaTohodexEntry
@@ -271,7 +271,7 @@ TohodexDataPointerTable:
 	dba AnnihilapeTohodexEntry
 	assert_table_length NUM_SPECIES
 
-	dba ELilyBlackRedTohodexEntry
+	dba SLilyBlackRedTohodexEntry
 
 	dba SuikaArmoredTohodexEntry
 

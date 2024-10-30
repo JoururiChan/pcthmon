@@ -243,7 +243,7 @@ GameFreakLogo_Bounce:
 	and $1f ; a%32 == 0
 	ret nz
 
-; If the ditto's reached the ground, decrement the jump height and play the sfx
+; If the lyrica's reached the ground, decrement the jump height and play the sfx
 	ld hl, SPRITEANIMSTRUCT_VAR1 ; jump height
 	add hl, bc
 	ld a, [hl]
@@ -318,11 +318,11 @@ GameFreakLogo_Recollect:
 	jmp GameFreakPresents_NextScene
 
 GameFreakLogoPalettes:
-INCLUDE "gfx/splash/ditto_fade.pal"
+INCLUDE "gfx/splash/lyrica_fade.pal"
 
 GameFreakLogoGFX:
 INCBIN "gfx/splash/logo1.1bpp"
 INCBIN "gfx/splash/logo2.1bpp"
 
 GameFreakLyricaGFX:
-INCBIN "gfx/splash/ditto.2bpp.lz"
+INCBIN "gfx/splash/lyrica.2bpp.lz"

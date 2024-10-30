@@ -33,7 +33,7 @@ ForretressFootprint::
 CShinkiFootprint::
 CSaraFootprint::
 AFlandreFootprint::
-ELilyBlackFootprint::
+SLilyBlackFootprint::
 ShinkiFootprint::
 CFlandreFootprint::
 HChenFootprint::
@@ -138,11 +138,11 @@ TPatchouliFootprint::
 CRemiliaFootprint:: 
 RemiliaFootprint:: 
 SRemiliaFootprint:: 
-MrMimeFootprint:: 
+CChenFootprint:: 
 ChenFootprint:: 
 CLilyWhiteFootprint:: 
 LilyWhiteFootprint:: 
-ELilyWhiteFootprint:: 
+DLilyWhiteFootprint:: 
 CLilyBlackFootprint:: 
 TLyricaFootprint:: 
 CMerlinFootprint:: 

@@ -445,13 +445,13 @@ SECTION "ReiPic", ROMX
 ReiPic: INCBIN "gfx/trainers/rei.2bpp.lz"
 
 SECTION "ALunasaFossilPic", ROMX
-ALunasaFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"
+ALunasaFossilPic: INCBIN "gfx/trainers/alunasa_fossil.2bpp.lz"
 
 SECTION "YuyukoFossilPic", ROMX
-YuyukoFossilPic: INCBIN "gfx/trainers/kabutops_fossil.2bpp.lz"
+YuyukoFossilPic: INCBIN "gfx/trainers/yuyuko_fossil.2bpp.lz"
 
 SECTION "AYuyukoFossilPic", ROMX
-AYuyukoFossilPic: INCBIN "gfx/trainers/aerodactyl_fossil.2bpp.lz"
+AYuyukoFossilPic: INCBIN "gfx/trainers/ayuyuko_fossil.2bpp.lz"
 
 SECTION "CMeilingArmorPic", ROMX
 CMeilingArmorPic: INCBIN "gfx/trainers/cmeiling_armor.2bpp.lz"

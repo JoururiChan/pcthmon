@@ -112,7 +112,7 @@ WildFled_EnemyFled_LinkBattleCanceled:
 	ld a, [wBattleType]
 	cp BATTLETYPE_ROAMING
 	jr z, .print_text
-	cp BATTLETYPE_RED_ELILYBLACK
+	cp BATTLETYPE_RED_SLILYBLACK
 	jr nc, .print_text ; also BATTLETYPE_LEGENDARY
 
 	ld hl, BattleText_WildFled
@@ -4664,7 +4664,7 @@ CheckRunSpeed:
 	jmp z, .can_escape
 	cp BATTLETYPE_GHOST
 	jmp z, .can_escape
-	cp BATTLETYPE_TRAP ; or BATTLETYPE_FORCEITEM, BATTLETYPE_RED_ELILYBLACK, BATTLETYPE_LEGENDARY
+	cp BATTLETYPE_TRAP ; or BATTLETYPE_FORCEITEM, BATTLETYPE_RED_SLILYBLACK, BATTLETYPE_LEGENDARY
 	jmp nc, .cant_escape
 
 	ld a, [wLinkMode]
@@ -6003,7 +6003,7 @@ ApplyLegendaryDVs:
 	push de
 	push bc
 	ld a, [wBattleType]
-	cp BATTLETYPE_RED_ELILYBLACK
+	cp BATTLETYPE_RED_SLILYBLACK
 	jr z, .okay
 
 	push hl
@@ -8724,7 +8724,7 @@ BattleStartMessage:
 	ld hl, LegendaryAppearedText
 	cp BATTLETYPE_ROAMING
 	jr z, .PrintBattleStartText
-	cp BATTLETYPE_RED_ELILYBLACK ; or BATTLETYPE_LEGENDARY
+	cp BATTLETYPE_RED_SLILYBLACK ; or BATTLETYPE_LEGENDARY
 	jr nc, .PrintBattleStartText
 	ld hl, WildPokemonAppearedText
 

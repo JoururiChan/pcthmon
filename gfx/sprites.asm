@@ -489,16 +489,16 @@ SECTION "CMaiSpriteGFX", ROMX
 CMaiSpriteGFX:: INCBIN "gfx/sprites/cmai.2bpp.lz"
 
 SECTION "CLyricaSpriteGFX", ROMX
-CLyricaSpriteGFX:: INCBIN "gfx/sprites/lapras.2bpp.lz"
+CLyricaSpriteGFX:: INCBIN "gfx/sprites/clyrica.2bpp.lz"
 
 SECTION "TLyricaSpriteGFX", ROMX
-TLyricaSpriteGFX:: INCBIN "gfx/sprites/eevee.2bpp.lz"
+TLyricaSpriteGFX:: INCBIN "gfx/sprites/tlyrica.2bpp.lz"
 
 SECTION "CSuikaSpriteGFX", ROMX
-CSuikaSpriteGFX:: INCBIN "gfx/sprites/dragonite.2bpp.lz"
+CSuikaSpriteGFX:: INCBIN "gfx/sprites/csuika.2bpp.lz"
 
 SECTION "TSuikaSpriteGFX", ROMX
-TSuikaSpriteGFX:: INCBIN "gfx/sprites/mew.2bpp.lz"
+TSuikaSpriteGFX:: INCBIN "gfx/sprites/tsuika.2bpp.lz"
 
 SECTION "CelebiSpriteGFX", ROMX
 CelebiSpriteGFX:: INCBIN "gfx/sprites/celebi.2bpp.lz"
@@ -506,19 +506,19 @@ CelebiSpriteGFX:: INCBIN "gfx/sprites/celebi.2bpp.lz"
 
 
 SECTION "ArmoredSuikaSpriteGFX", ROMX
-ArmoredSuikaSpriteGFX:: INCBIN "gfx/sprites/armored_mewtwo.2bpp.lz"
+ArmoredSuikaSpriteGFX:: INCBIN "gfx/sprites/armored_suika.2bpp.lz"
 
 SECTION "BigCRanSpriteGFX", ROMX
-BigCRanSpriteGFX:: INCBIN "gfx/sprites/big_snorlax.2bpp.lz"
+BigCRanSpriteGFX:: INCBIN "gfx/sprites/big_cran.2bpp.lz"
 
 SECTION "BigCLyricaSpriteGFX", ROMX
-BigCLyricaSpriteGFX:: INCBIN "gfx/sprites/big_lapras.2bpp.lz"
+BigCLyricaSpriteGFX:: INCBIN "gfx/sprites/big_clyrica.2bpp.lz"
 
 SECTION "BigCRumiaSpriteGFX", ROMX
 BigCRumiaSpriteGFX:: INCBIN "gfx/sprites/big_crumia.2bpp.lz"
 
-SECTION "BigELilyBlackSpriteGFX", ROMX
-BigELilyBlackSpriteGFX:: INCBIN "gfx/sprites/big_gyarados.2bpp.lz"
+SECTION "BigSLilyBlackSpriteGFX", ROMX
+BigSLilyBlackSpriteGFX:: INCBIN "gfx/sprites/big_slilyblack.2bpp.lz"
 
 SECTION "WakasagitailSpriteGFX", ROMX
 WakasagitailSpriteGFX:: INCBIN "gfx/sprites/dluizetail.2bpp.lz"

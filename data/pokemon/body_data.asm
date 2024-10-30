@@ -102,18 +102,18 @@ PokemonBodyData:
 	body_data   4,  500, MULTIWINGS,    RED   ; CFLANDRE
 	body_data  12,   800, MULTIWINGS,    RED   ; FLANDRE
 	body_data   6,  1200, MULTIWINGS,         RED    ; AFLANDRE
-	body_data  13,  390, FINS,         RED    ; CLETTY
-	body_data   8,  345, HEAD_BASE,    BROWN  ; LETTY
-	body_data  11,  800, HEAD_BASE,    PURPLE ; DLETTY
+	body_data  13,  390, MULTIBODY,         PURPLE    ; CLETTY
+	body_data   8,  345, MULTIBODY,    PURPLE  ; LETTY
+	body_data  11,  800, MULTIBODY,    PURPLE ; DLETTY
 	body_data  13,  545, BIPEDAL,      PINK   ; CCHEN
 	body_data  15,  560, MULTIWINGS,   GREEN  ; CHEN
 	body_data  14,  406, BIPEDAL,      RED    ; HCHEN
 	body_data  11,  300, BIPEDAL_TAIL, YELLOW ; CLILYWHITE
 	body_data  13,  445, BIPEDAL_TAIL, RED    ; LILYWHITE
-	body_data  15,  550, BIPEDAL,      BROWN  ; ELILYWHITE
+	body_data  15,  550, BIPEDAL,      BROWN  ; DLILYWHITE
 	body_data  14,  884, QUADRUPED,    BROWN  ; CLILYBLACK
 	body_data   9,  100, FINS,         RED    ; LILYBLACK
-	body_data  65, 2350, SERPENTINE,   BLUE   ; ELILYBLACK
+	body_data  65, 2350, SERPENTINE,   BLUE   ; SLILYBLACK
 	body_data  25, 2200, FINS,         BLUE   ; CLYRICA
 	body_data   3,   40, HEAD,         PURPLE ; LYRICA
 	body_data   3,   65, QUADRUPED,    BROWN  ; TLYRICA
@@ -277,7 +277,7 @@ PokemonBodyData:
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	assert_table_length NUM_SPECIES
 
-	body_data  65, 2350, SERPENTINE,   RED    ; ELILYBLACK (ELILYBLACK_RED_FORM)
+	body_data  65, 2350, SERPENTINE,   RED    ; SLILYBLACK (SLILYBLACK_RED_FORM)
 
 	body_data  22, 1370, BIPEDAL_TAIL, GRAY   ; SUIKA (SUIKA_ARMORED_FORM)
 

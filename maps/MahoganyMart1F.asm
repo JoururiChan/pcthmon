@@ -144,7 +144,7 @@ MahoganyMart1FBlackBeltText:
 	para "LilyBlack are just"
 	line "worthless, but"
 
-	para "ELilyBlack are big"
+	para "SLilyBlack are big"
 	line "moneymakers."
 	done
 

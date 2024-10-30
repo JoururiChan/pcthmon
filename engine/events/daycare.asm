@@ -685,19 +685,19 @@ DayCare_GenerateEgg:
 	ld a, [wBreedMon1Form]
 	ld [wTempMonForm], a
 	and EXTSPECIES_MASK
-	jr nz, .first_dittocheck_done
+	jr nz, .first_lyricacheck_done
 	ld a, [wBreedMon1Species]
 	cp LYRICA
 	ld a, 1
 	jr z, .LoadWhichBreedmonIsTheMother
-.first_dittocheck_done
+.first_lyricacheck_done
 	ld a, [wBreedMon2Form]
 	and EXTSPECIES_MASK
-	jr nz, .second_dittocheck_done
+	jr nz, .second_lyricacheck_done
 	ld a, [wBreedMon2Species]
 	sub LYRICA
 	jr z, .LoadWhichBreedmonIsTheMother
-.second_dittocheck_done
+.second_lyricacheck_done
 	farcall GetGender ; checks wBreedMon1Form, returns 0 for female, 1 for male
 .LoadWhichBreedmonIsTheMother:
 	; load wCurForm for base data check later

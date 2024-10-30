@@ -291,7 +291,7 @@
 	db 6 percent ; encounter rate
 	wildmon 25, LILYBLACK
 	wildmon 20, LILYBLACK
-	wildmon 25, ELILYBLACK
+	wildmon 25, SLILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons BLACKTHORN_CITY

@@ -366,7 +366,7 @@ endc
 MrPokemonText_GimmeTheScale:
 	text "Hm? That Scale!"
 	line "What's that?"
-	cont "A red ELilyBlack?"
+	cont "A red SLilyBlack?"
 
 	para "It must have kept"
 	line "its coloration as"

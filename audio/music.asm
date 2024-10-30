@@ -556,8 +556,8 @@ INCLUDE "audio/music/go/wildbattle.asm"
 SECTION "Song - go/gymbattle", ROMX
 INCLUDE "audio/music/go/gymbattle.asm"
 
-SECTION "Song - stadium/mewtwobattle", ROMX
-INCLUDE "audio/music/stadium/mewtwobattle.asm"
+SECTION "Song - stadium/suikabattle", ROMX
+INCLUDE "audio/music/stadium/suikabattle.asm"
 
 SECTION "Song - m02/lugiassong", ROMX
 INCLUDE "audio/music/m02/lugiassong.asm"

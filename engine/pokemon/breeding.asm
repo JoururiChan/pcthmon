@@ -27,7 +27,7 @@ CheckBreedmonCompatibility:
 	call .SetGenderData
 	cp b
 	ld c, INCOMPATIBLE
-	jr z, .done ; both are same gender, both are dittos or both are genderless
+	jr z, .done ; both are same gender, both are lyricas or both are genderless
 	; Check for Lyrica
 	or b
 	bit BREEDGEN_LYRICA, a

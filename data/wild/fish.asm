@@ -16,7 +16,7 @@ FishGroups:
 	fishgroup 60 percent, (60 + 3) percent, .Yukari_Old,          .Yukari_Good,          .Yukari_Super
 	fishgroup 60 percent, (65 + 5) percent, .Qwilfish_Swarm_Old,   .Qwilfish_Swarm_Good,   .Qwilfish_Swarm_Super
 	fishgroup 60 percent, (60 + 3) percent, .Remoraid_Swarm_Old,   .Remoraid_Swarm_Good,   .Remoraid_Swarm_Super
-	fishgroup 60 percent, (60 + 3) percent, .ELilyBlack_Old,         .ELilyBlack_Good,         .ELilyBlack_Super
+	fishgroup 60 percent, (60 + 3) percent, .SLilyBlack_Old,         .SLilyBlack_Good,         .SLilyBlack_Super
 	fishgroup 55 percent, (55 + 1) percent, .Yukari_2_Old,        .Yukari_2_Good,        .Yukari_2_Super
 	fishgroup 60 percent, (60 + 3) percent, .WhirlIslands_Old,     .WhirlIslands_Good,     .WhirlIslands_Super
 	fishgroup 60 percent, (60 + 3) percent, .Qwilfish_Old,         .Qwilfish_Good,         .Qwilfish_Super
@@ -43,10 +43,10 @@ ENDM
 	fishentry  35 percent,     CCHIYURI,   20
 	fishentry  70 percent,     CDAICHAN,     20
 	fishentry  90 percent + 1, CDAICHAN,     20
-	fishentry 100 percent,     0,          20 ; corsola morn/day, staryu eve/night
+	fishentry 100 percent,     0,          20 ; corsola morn/day, letty eve/night
 .Shore_Super:
 	fishentry  40 percent,     CDAICHAN,     40
-	fishentry  70 percent,     0,          40 ; corsola morn/day, staryu eve/night
+	fishentry  70 percent,     0,          40 ; corsola morn/day, letty eve/night
 	fishentry  90 percent + 1, CDAICHAN,     40
 	fishentry 100 percent,     DAICHAN,    40
 
@@ -151,18 +151,18 @@ ENDM
 	fishentry  90 percent + 1, REMORAID,   40
 	fishentry 100 percent,     REMORAID,   40
 
-.ELilyBlack_Old:
+.SLilyBlack_Old:
 	fishentry  70 percent + 1, LILYBLACK,   10
 	fishentry  85 percent + 1, LILYBLACK,   10
 	fishentry 100 percent,     LILYBLACK,   10
-.ELilyBlack_Good:
+.SLilyBlack_Good:
 	fishentry  35 percent,     LILYBLACK,   20
 	fishentry  70 percent,     LILYBLACK,   20
 	fishentry  90 percent + 1, LILYBLACK,   20
-	fishentry 100 percent,     ELILYBLACK,   20
-.ELilyBlack_Super:
+	fishentry 100 percent,     SLILYBLACK,   20
+.SLilyBlack_Super:
 	fishentry  40 percent,     LILYBLACK,   40
-	fishentry  70 percent,     ELILYBLACK,   40
+	fishentry  70 percent,     SLILYBLACK,   40
 	fishentry  90 percent + 1, LILYBLACK,   40
 	fishentry 100 percent,     LILYBLACK,   40
 

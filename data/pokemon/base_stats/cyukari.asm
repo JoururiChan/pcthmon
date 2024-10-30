@@ -1,0 +1,22 @@
+	db  90, 100,  90,  90, 125,  85 ; 580 BST
+	;   hp  atk  def  spe  sat  sdf
+
+	db REASON, REASON ; type
+	db 3 ; catch rate
+	db 217 ; base exp
+	db ALWAYS_ITEM_2, LUM_BERRY ; held items
+	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
+
+if DEF(FAITHFUL)
+	abilities_for CYUKARI, PRESSURE, PRESSURE, FLAME_BODY
+else
+	abilities_for CYUKARI, PRESSURE, DROUGHT, FLAME_BODY
+endc
+	db GROWTH_SLOW ; growth rate
+	dn EGG_NONE, EGG_NONE ; egg groups
+
+	ev_yield 3 SAt
+
+	; tm/hm learnset
+	tmhm SHADOW_FORCE, ROAR, TOXIC, HIDDEN_POWER, SUNNY_DAY,  FLOWER_SHOOT, RETURN, ROCK_SMASH, DOUBLE_TEAM, FIRE_BREATH, SANDSTORM, HELLBLAZE, SWIFT, AERIAL_ACE, SUBSTITUTE, FACADE, FLAME_CHARGE, REST, STEEL_WING, AURA_WAVE, WILL_O_WISP, ULTICHARGE, U_TURN, FLY, LEAF_STORM, DOUBLE_EDGE, ENDURE, SLEEP_TALK, SWAGGER
+	; end

@@ -102,15 +102,15 @@ PokemonPicPointers::
 	pics CLetty
 	pics Letty
 	pics DLetty
-	pics MrMime
+	pics CChen
 	pics Chen
 	pics HChen
 	pics CLilyWhite
 	pics LilyWhite
-	pics ELilyWhite
+	pics DLilyWhite
 	pics CLilyBlack
 	pics LilyBlack
-	pics ELilyBlack
+	pics SLilyBlack
 	pics CLyrica
 	pics Lyrica
 	pics TLyrica
@@ -331,7 +331,7 @@ PokemonPicPointers::
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
-	pics ELilyBlackRed
+	pics SLilyBlackRed
 
 	pics SuikaArmored
 

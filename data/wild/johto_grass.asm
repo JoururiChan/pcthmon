@@ -6,7 +6,7 @@
 	wildmon 3, CMIMA
 	wildmon 4, CYOUMU
 	wildmon 5, CYOUMU
-	wildmon 3, CKANA
+	wildmon 3, CMERLIN
 	wildmon 6, CMIMA
 	wildmon 5, CKANA
 	wildmon 6, CYOUMU
@@ -14,7 +14,7 @@
 	wildmon 3, CYOUMU
 	wildmon 4, CYOUMU
 	wildmon 5, CMIMA
-	wildmon 3, CKANA
+	wildmon 3, CLYRICA
 	wildmon 6, CMIMA
 	wildmon 5, CKANA
 	wildmon 6, CYOUMU
@@ -24,7 +24,7 @@
 	wildmon 5, CSHINKI
 	wildmon 3, CYOUMU
 	wildmon 6, CSHINKI
-	wildmon 5, CKANA
+	wildmon 3, CLUNASA
 	wildmon 6, CKANA
 	end_grass_wildmons
 
@@ -36,7 +36,7 @@
 	wildmon 6, CMIMA
 	wildmon 4, CKANA
 	wildmon 7, CMIMA
-	wildmon 6, CKANA
+	wildmon 6, CMERLIN
 	wildmon 7, CKANA
 	; day
 	wildmon 4, CYOUMU
@@ -44,7 +44,7 @@
 	wildmon 6, CMIMA
 	wildmon 4, CKANA
 	wildmon 7, CMIMA
-	wildmon 6, CKANA
+	wildmon 6, CLYRICA
 	wildmon 7, CKANA
 	; nite
 	wildmon 4, CYOUMU
@@ -52,7 +52,7 @@
 	wildmon 6, CLUIZE
 	wildmon 4, CKANA
 	wildmon 7, CLUIZE
-	wildmon 6, CKANA
+	wildmon 6, CLUNASA
 	wildmon 7, CKANA
 	end_grass_wildmons
 
@@ -1380,7 +1380,7 @@
 	wildmon 4, CGYOKU
 	wildmon 4, CMAGAN
 	wildmon 3, CMARISA
-	wildmon 4, CSANAE
+	wildmon 4, CCHEN
 	wildmon 4, CSANAE
 	; day
 	wildmon 3, CMAGAN
@@ -1388,7 +1388,7 @@
 	wildmon 4, CGYOKU
 	wildmon 4, CMAGAN
 	wildmon 3, CMARISA
-	wildmon 4, CSANAE
+	wildmon 4, CCHEN
 	wildmon 4, CSANAE
 	; nite
 	wildmon 3, CRIKAKO
@@ -1406,7 +1406,7 @@
 	wildmon 4, CKONGARA
 	wildmon 4, CGYOKU
 	wildmon 5, CRIKA
-	wildmon 5, CRIKA
+	wildmon 5, CLILYWHITE
 	wildmon 4, CSANAE
 	wildmon 5, CCHIYURI
 	wildmon 5, CKONGARA
@@ -1414,7 +1414,7 @@
 	wildmon 4, CMAGAN
 	wildmon 4, CGYOKU
 	wildmon 5, CRIKA
-	wildmon 5, CRIKA
+	wildmon 5, CLILYWHITE
 	wildmon 4, CREIMU
 	wildmon 5, CCHIYURI
 	wildmon 5, CKONGARA
@@ -1422,7 +1422,7 @@
 	wildmon 4, CKURUMI
 	wildmon 4, CKURUMI
 	wildmon 4, CMUGETSU
-	wildmon 5, CMUGETSU
+	wildmon 5, CLILYBLACK
 	wildmon 4, CKOTOHIME
 	wildmon 5, CCHIYURI
 	wildmon 5, CSHINKI
@@ -1435,7 +1435,7 @@
 	wildmon 6, CSANAE
 	wildmon 8, CYUKA
 	wildmon 7, CELLY
-	wildmon 8, CELLY
+	wildmon 8, CLILYWHITE
 	wildmon 7, CMEILING
 	wildmon 8, CMEILING
 	; day
@@ -1443,7 +1443,7 @@
 	wildmon 6, CSANAE
 	wildmon 8, CYUKA
 	wildmon 7, CELLY
-	wildmon 8, CELLY
+	wildmon 8, CLILYWHITE
 	wildmon 7, CMEILING
 	wildmon 8, CMEILING
 	; nite
@@ -1453,7 +1453,7 @@
 	wildmon 8, CCIRNO
 	wildmon 7, CELLY
 	wildmon 7, CSHINKI
-	wildmon 7, CSHINKI
+	wildmon 7, CLILYBLACK
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_33
@@ -1464,7 +1464,7 @@
 	wildmon 9, CSARA
 	wildmon 10, CMEILING
 	wildmon 10, CMEILING
-	wildmon 9, CMUGETSU
+	wildmon 9, CLETTY
 	wildmon 10, CMUGETSU
 	; day
 	wildmon 9, CSAKUYA
@@ -1472,7 +1472,7 @@
 	wildmon 9, CSARA
 	wildmon 10, CMEILING
 	wildmon 10, CMEILING
-	wildmon 9, CMUGETSU
+	wildmon 9, CLETTY
 	wildmon 10, CMUGETSU
 	; nite
 	wildmon 9, CYOUMU
@@ -1480,7 +1480,7 @@
 	wildmon 9, CSARA
 	wildmon 10, CMEILING
 	wildmon 10, CMEILING
-	wildmon 9, CMEIRA
+	wildmon 9, CLETTY
 	wildmon 10, CMEIRA
 	end_grass_wildmons
 

@@ -102,15 +102,15 @@ EvosAttacksPointers::
 	dw CLettyEvosAttacks
 	dw LettyEvosAttacks
 	dw DLettyEvosAttacks
-	dw MrMimeEvosAttacks
+	dw CChenEvosAttacks
 	dw ChenEvosAttacks
 	dw HChenEvosAttacks
 	dw CLilyWhiteEvosAttacks
 	dw LilyWhiteEvosAttacks
-	dw ELilyWhiteEvosAttacks
+	dw DLilyWhiteEvosAttacks
 	dw CLilyBlackEvosAttacks
 	dw LilyBlackEvosAttacks
-	dw ELilyBlackEvosAttacks
+	dw SLilyBlackEvosAttacks
 	dw CLyricaEvosAttacks
 	dw LyricaEvosAttacks
 	dw TLyricaEvosAttacks
@@ -274,7 +274,7 @@ EvosAttacksPointers::
 	dw AnnihilapeEvosAttacks
 	assert_table_length NUM_SPECIES
 
-	dw ELilyBlackEvosAttacks
+	dw SLilyBlackEvosAttacks
 
 	dw SuikaEvosAttacks
 

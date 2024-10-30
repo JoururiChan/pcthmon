@@ -21,7 +21,7 @@ ObjectActionPairPointers:
 	dw SetFacingCutTree,               SetFacingCutTree           ; OBJECT_ACTION_CUT_TREE
 	dw SetFacingSkyfall,               SetFacingCurrent           ; OBJECT_ACTION_SKYFALL
 	dw SetFacingFruit,                 SetFacingFruit             ; OBJECT_ACTION_FRUIT
-	dw SetFacingBigELilyBlack,           SetFacingFreezeBigELilyBlack ; OBJECT_ACTION_BIG_ELILYBLACK
+	dw SetFacingBigSLilyBlack,           SetFacingFreezeBigSLilyBlack ; OBJECT_ACTION_BIG_SLILYBLACK
 	dw SetFacingStandFlip,             SetFacingStandFlip         ; OBJECT_ACTION_STAND_FLIP
 	dw SetFacingPokecomNews,           SetFacingPokecomNews       ; OBJECT_ACTION_POKECOM_NEWS
 	dw SetFacingMuseumDrill,           SetFacingMuseumDrill       ; OBJECT_ACTION_MUSEUM_DRILL
@@ -244,7 +244,7 @@ SetFacingFruit:
 .ok
 	jmp SetFixedFacing
 
-SetFacingBigELilyBlack:
+SetFacingBigSLilyBlack:
 	ld hl, OBJECT_STEP_FRAME
 	add hl, bc
 	ld a, [hl]
@@ -252,10 +252,10 @@ SetFacingBigELilyBlack:
 	and %00011111
 	ld [hl], a
 	and %00010000
-	ld a, FACING_BIG_ELILYBLACK_2
+	ld a, FACING_BIG_SLILYBLACK_2
 	jmp nz, SetFixedFacing
-SetFacingFreezeBigELilyBlack:
-	ld a, FACING_BIG_ELILYBLACK_1
+SetFacingFreezeBigSLilyBlack:
+	ld a, FACING_BIG_SLILYBLACK_1
 	jmp SetFixedFacing
 
 SetFacingWeirdTree:

@@ -13,7 +13,7 @@ DEF SPRITEDATA_PALETTE_MASK EQU %00111111
 	const WALKING_SPRITE      ; 1
 	const STANDING_SPRITE     ; 2
 	const MON_SPRITE          ; 3
-	const BIG_ELILYBLACK_SPRITE ; 4
+	const BIG_SLILYBLACK_SPRITE ; 4
 
 ; object_events that set a pal value will override the sprite's default palette
 DEF PAL_NPC_DEFAULT EQU 0

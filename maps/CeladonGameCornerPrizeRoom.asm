@@ -130,12 +130,12 @@ CeladonGameCornerPokemonVendor:
 	loadmenu .MenuDataHeader
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .mr__mime
-	ifequalfwd $2, .eevee
-	ifequalfwd $3, .porygon
+	ifequalfwd $1, .cchen
+	ifequalfwd $2, .tlyrica
+	ifequalfwd $3, .clunasa
 	jumpopenedtext CeladonPrizeRoom_ComeAgainText
 
-.mr__mime
+.cchen
 	checkcoins CELADONGAMECORNERPRIZEROOM_CCHEN_COINS
 	ifequal $2, CeladonPrizeRoom_notenoughcoins
 	getmonname CCHEN, $0
@@ -152,7 +152,7 @@ CeladonGameCornerPokemonVendor:
 	takecoins CELADONGAMECORNERPRIZEROOM_CCHEN_COINS
 	sjump .loop
 
-.eevee
+.tlyrica
 	checkcoins CELADONGAMECORNERPRIZEROOM_TLYRICA_COINS
 	ifequal $2, CeladonPrizeRoom_notenoughcoins
 	getmonname TLYRICA, $0
@@ -169,7 +169,7 @@ CeladonGameCornerPokemonVendor:
 	takecoins CELADONGAMECORNERPRIZEROOM_TLYRICA_COINS
 	sjump .loop
 
-.porygon
+.clunasa
 	checkcoins CELADONGAMECORNERPRIZEROOM_CLUNASA_COINS
 	ifequal $2, CeladonPrizeRoom_notenoughcoins
 	getmonname CLUNASA, $0

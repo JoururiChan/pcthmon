@@ -1305,7 +1305,7 @@ endr
 INCLUDE "gfx/splash/logo.pal"
 
 .GameFreakLyricaPalette:
-INCLUDE "gfx/splash/ditto.pal"
+INCLUDE "gfx/splash/lyrica.pal"
 
 _CGB_TradeTube:
 	ld de, wBGPals1

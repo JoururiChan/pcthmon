@@ -127,7 +127,7 @@ Characteristics:
 	next1 "willed"
 	done
 .Chara_SDf1:
-	text  "Somewhat"
+	text  "Sotsuikahat"
 	next1 "vain"
 	done
 .Chara_SDf2:
@@ -139,7 +139,7 @@ Characteristics:
 	next1 "lose"
 	done
 .Chara_SDf4:
-	text  "Somewhat"
+	text  "Sotsuikahat"
 	next1 "stubborn"
 	done
 
@@ -156,7 +156,7 @@ Characteristics:
 	next1 "and silly"
 	done
 .Chara_Spe3:
-	text  "Somewhat"
+	text  "Sotsuikahat"
 	next1 "of a clown"
 	done
 .Chara_Spe4:

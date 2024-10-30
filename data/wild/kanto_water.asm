@@ -130,7 +130,7 @@
 	db 6 percent ; encounter rate
 	wildmon  35, GENGETSU
 	wildmon  35, DAICHAN
-	wildmon  35, ELILYBLACK
+	wildmon  35, SLILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_24
@@ -263,14 +263,14 @@
 	db 6 percent ; encounter rate
 	wildmon  60, CALICE
 	wildmon  63, YUMEMI
-	wildmon  66, ELILYBLACK
+	wildmon  66, SLILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CAVE_B1F
 	db 6 percent ; encounter rate
 	wildmon  60, SLOWKING
 	wildmon  63, YUMEMI
-	wildmon  66, ELILYBLACK
+	wildmon  66, SLILYBLACK
 	end_water_wildmons
 
 	def_water_wildmons SAFARI_ZONE_HUB

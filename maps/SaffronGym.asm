@@ -95,12 +95,12 @@ SaffronGymSabrinaScript:
 .LyrasEgg:
 	specialphonecall SPECIALCALL_LYRASEGG
 .FightDone:
-	checkevent EVENT_GOT_TM29_PSYCHIC
+	checkevent EVENT_GOT_TM29_MANA_BURST
 	iftrue_jumpopenedtext SabrinaFightDoneText
 	writetext SabrinaMarshBadgeText
 	promptbutton
-	verbosegivetmhm TM_PSYCHIC
-	setevent EVENT_GOT_TM29_PSYCHIC
+	verbosegivetmhm TM_MANA_BURST
+	setevent EVENT_GOT_TM29_MANA_BURST
 	jumpthisopenedtext
 
 	text "TM29 is Psychic."

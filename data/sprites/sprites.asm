@@ -179,7 +179,7 @@ SpriteHeaders:
 	overworld_sprite BigCRanSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BigCLyricaSpriteGFX, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BigCRumiaSpriteGFX, STANDING_SPRITE, PAL_OW_GRAY
-	overworld_sprite BigELilyBlackSpriteGFX, BIG_ELILYBLACK_SPRITE, PAL_OW_RED
+	overworld_sprite BigSLilyBlackSpriteGFX, BIG_SLILYBLACK_SPRITE, PAL_OW_RED
 	overworld_sprite CMimaSideSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite EMimaBackSpriteGFX, STANDING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite WakasagitailSpriteGFX, STANDING_SPRITE, PAL_OW_PINK

@@ -515,19 +515,19 @@ ConvertMonIndexesTo9Bit:
 	poppos
 
 .not_ekikuri
-	ifne #result, 0x82, .not_gyarados
+	ifne #result, 0x82, .not_slilyblack
 	pushpos
 	seekfwd FORM_OFFSET
 	getfilebyte #1
 	and #temp, #1, FORM_MASK
-	ifne #temp, 0x11, .not_gyarados_form
+	ifne #temp, 0x11, .not_slilyblack_form
 	add #1, 4
 	writebyte #1
-.not_gyarados_form
+.not_slilyblack_form
 	poppos
 
-.not_gyarados
-	ifne #result, 0x81, .not_magikarp
+.not_slilyblack
+	ifne #result, 0x81, .not_lilyblack
 	pushpos
 	seekfwd #length
 	getfilebyte #1
@@ -536,14 +536,14 @@ ConvertMonIndexesTo9Bit:
 	increment #1
 	increment #1
 .not_saucy_raindrop
-	iflt #temp, 0x0d, .not_magikarp_form
+	iflt #temp, 0x0d, .not_lilyblack_form
 	increment #1
 	increment #1
 	writebyte #1
-.not_magikarp_form
+.not_lilyblack_form
 	poppos
 
-.not_magikarp
+.not_lilyblack
 	; Galarian form indexes shift from 2 to 3, and Tohodex flags need to be set
 	set #address, #r1
 	seekfwd #length
@@ -669,7 +669,7 @@ ConvertMonIndexesTo9Bit:
 	db 0x81, 18 ; LILYBLACK, MASK2
 	db 0x81, 19 ; LILYBLACK, SAUCY
 	db 0x81, 20 ; LILYBLACK, RAINDROP
-	db 0x82, 21 ; ELILYBLACK, RED
+	db 0x82, 21 ; SLILYBLACK, RED
 	db 0x96, 2 ; SUIKA, ARMORED
 	db 0x96, 2 ; this is actually Dudunsparce, here just to preserve flag order
 	db 0x13, 2 ; EMIMA, ALOLAN

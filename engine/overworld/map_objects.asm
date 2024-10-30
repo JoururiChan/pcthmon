@@ -570,7 +570,7 @@ endr
 	dw .MovementSplashingPuddle      ; SPRITEMOVEFN_PUDDLE
 	dw .MovementCutTree              ; SPRITEMOVEFN_CUT_TREE
 	dw .MovementFruit                ; SPRITEMOVEFN_FRUIT
-	dw .MovementBigELilyBlack          ; SPRITEMOVEFN_BIG_ELILYBLACK
+	dw .MovementBigSLilyBlack          ; SPRITEMOVEFN_BIG_SLILYBLACK
 	dw .StandingFlip                 ; SPRITEMOVEFN_STANDING_FLIP
 	dw .MovementPokecomNews          ; SPRITEMOVEFN_POKECOM_NEWS
 	dw .MovementMuseumDrill          ; SPRITEMOVEFN_MUSEUM_DRILL
@@ -759,8 +759,8 @@ endr
 	ld a, OBJECT_ACTION_BOUNCE
 	jr ._ActionA_StepFunction_Standing
 
-.MovementBigELilyBlack:
-	ld a, OBJECT_ACTION_BIG_ELILYBLACK
+.MovementBigSLilyBlack:
+	ld a, OBJECT_ACTION_BIG_SLILYBLACK
 	jr ._ActionA_StepFunction_Standing
 
 .MovementPokecomNews:

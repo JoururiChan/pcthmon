@@ -103,10 +103,10 @@ EggMovePointers::
 	dw NoEggMoves             ; HChen
 	dw NoEggMoves             ; CLilyWhite
 	dw NoEggMoves             ; LilyWhite
-	dw ELilyWhiteEggMoves         ; ELilyWhite
+	dw DLilyWhiteEggMoves         ; DLilyWhite
 	dw NoEggMoves             ; CLilyBlack
 	dw NoEggMoves             ; LilyBlack
-	dw NoEggMoves             ; ELilyBlack
+	dw NoEggMoves             ; SLilyBlack
 	dw CLyricaEggMoves         ; CLyrica
 	dw NoEggMoves             ; Lyrica
 	dw TLyricaEggMoves          ; TLyrica
@@ -270,7 +270,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Annihilape
 	assert_table_length NUM_SPECIES
 
-	dw NoEggMoves                ; ELilyBlack (Red Form)
+	dw NoEggMoves                ; SLilyBlack (Red Form)
 
 	dw NoEggMoves                ; Suika (Armored Form)
 

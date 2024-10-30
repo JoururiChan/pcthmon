@@ -1567,7 +1567,7 @@ SecretPotionDesc:
 
 RedScaleDesc:
 	text "A scale from the"
-	next "red ELilyBlack."
+	next "red SLilyBlack."
 	done
 
 CardKeyDesc:

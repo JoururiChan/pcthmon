@@ -38,25 +38,25 @@ MailNatuGFX:
 INCBIN "gfx/mail/natu.1bpp"
 
 MailYukariGFX:
-INCBIN "gfx/mail/dratini.1bpp"
+INCBIN "gfx/mail/yukari.1bpp"
 
 MailKurumiGFX:
 INCBIN "gfx/mail/kurumi.1bpp"
 
 MailCLyricaGFX:
-INCBIN "gfx/mail/lapras.1bpp"
+INCBIN "gfx/mail/clyrica.1bpp"
 
 MailTLyricaGFX:
-INCBIN "gfx/mail/eevee.1bpp"
+INCBIN "gfx/mail/tlyrica.1bpp"
 
 MailLyricaGFX:
-INCBIN "gfx/mail/ditto.1bpp"
+INCBIN "gfx/mail/lyrica.1bpp"
 
 MailTSuikaGFX:
-INCBIN "gfx/mail/mew.1bpp"
+INCBIN "gfx/mail/tsuika.1bpp"
 
 MailCSuikaGFX:
-INCBIN "gfx/mail/dragonite.1bpp"
+INCBIN "gfx/mail/csuika.1bpp"
 
 ; unused?
 MailSentretGFX:

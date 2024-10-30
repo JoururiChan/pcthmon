@@ -22,10 +22,10 @@ GoldenrodDeptStore2F_MapScriptHeader:
 
 GoldenrodDeptStore2FClerk2Script:
 	checkevent EVENT_GOT_TLYRICA
-	iftruefwd .eevee
+	iftruefwd .tlyrica
 	pokemart MARTTYPE_STANDARD, MART_GOLDENROD_2F_2
 
-.eevee
+.tlyrica
 	pokemart MARTTYPE_STANDARD, MART_GOLDENROD_2F_2_TLYRICA
 
 GoldenrodDeptStore2FYoungsterText:

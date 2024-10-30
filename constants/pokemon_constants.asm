@@ -125,10 +125,10 @@
 	const HCHEN       ; 7c
 	const CLILYWHITE ; 7d
 	const LILYWHITE     ; 7e
-	const ELILYWHITE     ; 7f
+	const DLILYWHITE     ; 7f
 	const CLILYBLACK     ; 80
 	const LILYBLACK   ; 81
-	const ELILYBLACK   ; 82
+	const SLILYBLACK   ; 82
 	const CLYRICA     ; 83
 	const LYRICA      ; 84
 	const TLYRICA      ; 85
@@ -367,7 +367,7 @@ DEF NUM_KIKURI EQU ext_const_value - 1
 	ext_const_def 2
 	ext_const PICHU_SPIKY_EARED_FORM ; 148 (2)
 
-; magikarp
+; lilyblack
 	ext_const_def 2
 	ext_const LILYBLACK_SKELLY_FORM    ; 149 (02)
 	ext_const LILYBLACK_CALICO1_FORM   ; 14a (03)
@@ -394,11 +394,11 @@ DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 38
 
 DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 
-; gyarados
+; slilyblack
 	ext_const_def NUM_LILYBLACK + 1
-	ext_const ELILYBLACK_RED_FORM ; 15c (15)
+	ext_const SLILYBLACK_RED_FORM ; 15c (15)
 
-; mewtwo
+; suika
 	ext_const_def 2
 	ext_const SUIKA_ARMORED_FORM ; 15d (2)
 

@@ -98,15 +98,15 @@ BitmasksPointers:
 	dw CLettyBitmasks
 	dw LettyBitmasks
 	dw DLettyBitmasks
-	dw MrMimeBitmasks
+	dw CChenBitmasks
 	dw ChenBitmasks
 	dw HChenBitmasks
 	dw CLilyWhiteBitmasks
 	dw LilyWhiteBitmasks
-	dw ELilyWhiteBitmasks
+	dw DLilyWhiteBitmasks
 	dw CLilyBlackBitmasks
 	dw LilyBlackBitmasks
-	dw ELilyBlackBitmasks
+	dw SLilyBlackBitmasks
 	dw CLyricaBitmasks
 	dw LyricaBitmasks
 	dw TLyricaBitmasks
@@ -327,7 +327,7 @@ BitmasksPointers:
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
-	dw ELilyBlackRedBitmasks
+	dw SLilyBlackRedBitmasks
 
 	dw SuikaArmoredBitmasks
 

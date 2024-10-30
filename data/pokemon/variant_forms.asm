@@ -59,7 +59,7 @@ CosmeticSpeciesAndFormTable:
 
 VariantSpeciesAndFormTable:
 	table_width 2, VariantSpeciesAndFormTable
-	dp ELILYBLACK,   ELILYBLACK_RED_FORM
+	dp SLILYBLACK,   SLILYBLACK_RED_FORM
 	dp SUIKA,     SUIKA_ARMORED_FORM
 	dp DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
 	assert_table_length NUM_VARIANT_FORMS

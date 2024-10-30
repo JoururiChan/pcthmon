@@ -103,10 +103,10 @@ EvolutionMoves::
 	db NO_MOVE      ; HCHEN
 	db NO_MOVE      ; CLILYWHITE
 	db NO_MOVE      ; LILYWHITE
-	db NO_MOVE      ; ELILYWHITE
+	db NO_MOVE      ; DLILYWHITE
 	db NO_MOVE      ; CLILYBLACK
 	db NO_MOVE      ; LILYBLACK
-	db BITE         ; ELILYBLACK
+	db BITE         ; SLILYBLACK
 	db NO_MOVE      ; CLYRICA
 	db NO_MOVE      ; LYRICA
 	db NO_MOVE      ; TLYRICA
@@ -274,7 +274,7 @@ endc
 	db SHADOW_HIT  ; ANNIHILAPE
 	assert_table_length NUM_SPECIES
 
-	db BITE         ; ELILYBLACK, ELILYBLACK_RED_FORM
+	db BITE         ; SLILYBLACK, SLILYBLACK_RED_FORM
 
 	db NO_MOVE      ; SUIKA, SUIKA_ARMORED_FORM
 

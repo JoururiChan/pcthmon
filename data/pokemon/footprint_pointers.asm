@@ -98,15 +98,15 @@ FootprintPointers::
 	dw CLettyFootprint
 	dw LettyFootprint
 	dw DLettyFootprint
-	dw MrMimeFootprint
+	dw CChenFootprint
 	dw ChenFootprint
 	dw HChenFootprint
 	dw CLilyWhiteFootprint
 	dw LilyWhiteFootprint
-	dw ELilyWhiteFootprint
+	dw DLilyWhiteFootprint
 	dw CLilyBlackFootprint
 	dw LilyBlackFootprint
-	dw ELilyBlackFootprint
+	dw SLilyBlackFootprint
 	dw CLyricaFootprint
 	dw LyricaFootprint
 	dw TLyricaFootprint
@@ -270,7 +270,7 @@ FootprintPointers::
 	dw AnnihilapeFootprint
 	assert_table_length NUM_SPECIES
 
-	dw ELilyBlackFootprint
+	dw SLilyBlackFootprint
 
 	dw SuikaFootprint
 

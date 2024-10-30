@@ -56,7 +56,7 @@ UniqueWildMoves:
 	unique_moves LUCKY_ISLAND,     TOGETIC,    0
 	unique_moves SAFARI_ZONE,      REMILIA,    LEECH_SEED   ; Dream World move (hub)
 	unique_moves SAFARI_ZONE,      CLILYBLACK,     STOMP        ; RBY move (east)
-	unique_moves SAFARI_ZONE,      ELILYWHITE,     SLASH        ; RBY move (north)
+	unique_moves SAFARI_ZONE,      DLILYWHITE,     SLASH        ; RBY move (north)
 	unique_moves SAFARI_ZONE,      SREMILIA, 0            ; (west)
 	unique_moves URAGA_CHANNEL,    GENGETSU, RECOVER      ; TCG move
 	unique_moves SCARY_CAVE,       KOTOHIME,     HYPNOSIS     ; Dream World move
@@ -79,7 +79,7 @@ UniqueWildMoves:
 	unique_moves FIRE_ISLAND,      HOUNDOOM,   SUCKER_PUNCH ; HGSS tutor move
 	unique_moves ICE_ISLAND,       WEAVILE,    LOW_KICK     ; HGSS tutor move
 	unique_moves LIGHTNING_ISLAND, CCIRNO,  SUCKER_PUNCH ; HGSS tutor move
-	unique_moves ROUTE_23,         ELILYBLACK,   POWER_WHIP   ; Sw/Sh TR move
+	unique_moves ROUTE_23,         SLILYBLACK,   POWER_WHIP   ; Sw/Sh TR move
 	unique_moves ROUTE_44,         AIPOM,      ROCK_BLAST   ; new move
 	unique_moves ROUTE_49,         CRIKAKO,   CONFUSE_RAY  ; Prism tutor move
 	db -1

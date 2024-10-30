@@ -140,7 +140,7 @@ GetSprite::
 	ld h, b
 	; load the length into c
 	ld c, 15
-	cp BIG_ELILYBLACK_SPRITE
+	cp BIG_SLILYBLACK_SPRITE
 	ret z
 	ld c, 12
 	ret

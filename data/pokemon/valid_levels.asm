@@ -104,10 +104,10 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; HChen
 	db  20,  46 ; CLilyWhite
 	db  20,  46 ; LilyWhite
-	db  10, 100 ; ELilyWhite
+	db  10, 100 ; DLilyWhite
 	db  20, 100 ; CLilyBlack
 	db   1,  19 ; LilyBlack
-	db  20, 100 ; ELilyBlack
+	db  20, 100 ; SLilyBlack
 	db  20, 100 ; CLyrica
 	db   1, 100 ; Lyrica
 	db   1,  19 ; TLyrica

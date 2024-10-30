@@ -174,7 +174,7 @@
 	const SPRITE_BIG_CRAN ; ab
 	const SPRITE_BIG_CLYRICA ; ac
 	const SPRITE_BIG_CRUMIA ; ad
-	const SPRITE_BIG_ELILYBLACK ; ae
+	const SPRITE_BIG_SLILYBLACK ; ae
 	const SPRITE_CMIMA_SIDE ; af
 	const SPRITE_CGENGETSU_BACK ; b0 (blank side frame)
 	const SPRITE_WAKASAGITAIL ; b1

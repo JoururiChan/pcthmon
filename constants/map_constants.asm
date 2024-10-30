@@ -45,7 +45,7 @@ ENDM
 	map_const OLIVINE_CITY_ROUTE_35_COAST_DUAL,           26,  3 ; 16
 
 	newgroup                                                     ;  2
-	map_const MAHOGANY_RED_ELILYBLACK_SPEECH_HOUSE,          4,  4 ;  1
+	map_const MAHOGANY_RED_SLILYBLACK_SPEECH_HOUSE,          4,  4 ;  1
 	map_const MAHOGANY_GYM,                                5,  9 ;  2
 	map_const MAHOGANY_POKECENTER_1F,                      6,  4 ;  3
 	map_const ROUTE_42_ECRUTEAK_GATE,                      5,  4 ;  4

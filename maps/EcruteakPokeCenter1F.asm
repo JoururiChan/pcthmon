@@ -277,7 +277,7 @@ EcruteakPokeCenter1FGymGuyText:
 	text "Lake of Rage…"
 
 	para "The appearance of"
-	line "a ELilyBlack swarm…"
+	line "a SLilyBlack swarm…"
 
 	para "I smell a conspir-"
 	line "acy. I know it!"

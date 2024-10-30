@@ -2515,7 +2515,7 @@ def write_pnm(file, width, height, pixels, meta):
 def color_triple(color):
     """
     Convert a command line colour value to a RGB triple of integers.
-    FIXME: Somewhere we need support for greyscale backgrounds etc.
+    FIXME: Sotsuikahere we need support for greyscale backgrounds etc.
     """
     if color.startswith('#') and len(color) == 4:
         return (int(color[1], 16),

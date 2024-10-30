@@ -631,15 +631,15 @@ StartTrainerBattle_LoadPokeBallGraphics:
 	dec b
 	jr nz, .loop2
 
-	ld hl, .armored_mewtwo_pals
+	ld hl, .armored_suika_pals
 	ld a, [wOtherTrainerClass]
 	cp GIOVANNI
-	jr nz, .not_armored_mewtwo
+	jr nz, .not_armored_suika
 	ld a, [wOtherTrainerID]
 	cp GIOVANNI1
 	jr z, .got_palette
 
-.not_armored_mewtwo
+.not_armored_suika
 	ld hl, .timepals
 	call .timeofdaypal
 .got_palette
@@ -707,8 +707,8 @@ StartTrainerBattle_LoadPokeBallGraphics:
 .timepals
 INCLUDE "gfx/overworld/trainer_battle.pal"
 
-.armored_mewtwo_pals
-INCLUDE "gfx/overworld/mewtwo_battle.pal"
+.armored_suika_pals
+INCLUDE "gfx/overworld/suika_battle.pal"
 
 .black_pals
 INCLUDE "gfx/overworld/black.pal"

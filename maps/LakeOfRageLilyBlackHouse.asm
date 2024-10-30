@@ -93,7 +93,7 @@ LilyBlackLengthRaterText_LakeOfRageHistory:
 	line "actually a crater"
 
 	para "made by rampaging"
-	line "ELilyBlack."
+	line "SLilyBlack."
 
 	para "The crater filled"
 	line "up with rainwater"

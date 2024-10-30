@@ -98,15 +98,15 @@ FramesPointers:
 	dw CLettyFrames
 	dw LettyFrames
 	dw DLettyFrames
-	dw MrMimeFrames
+	dw CChenFrames
 	dw ChenFrames
 	dw HChenFrames
 	dw CLilyWhiteFrames
 	dw LilyWhiteFrames
-	dw ELilyWhiteFrames
+	dw DLilyWhiteFrames
 	dw CLilyBlackFrames
 	dw LilyBlackFrames
-	dw ELilyBlackFrames
+	dw SLilyBlackFrames
 	dw CLyricaFrames
 	dw LyricaFrames
 	dw TLyricaFrames
@@ -329,7 +329,7 @@ FramesPointers:
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
-	dw ELilyBlackRedFrames
+	dw SLilyBlackRedFrames
 
 	dw SuikaArmoredFrames
 

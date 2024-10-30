@@ -235,9 +235,9 @@ SECTION "Painting Pics", ROMX
 HoOhPaintingPic::      INCBIN "gfx/paintings/ho_oh_painting.2bpp.lz"
 LugiaPaintingPic::     INCBIN "gfx/paintings/lugia_painting.2bpp.lz"
 BellTowerPaintingPic:: INCBIN "gfx/paintings/bell_tower_painting.2bpp.lz"
-OmanytePuzzlePic::      INCBIN "gfx/paintings/kabuto_puzzle.2bpp.lz"
-KabutoPuzzlePic::     INCBIN "gfx/paintings/omanyte_puzzle.2bpp.lz"
-AerodactylPuzzlePic::  INCBIN "gfx/paintings/aerodactyl_puzzle.2bpp.lz"
+OmanytePuzzlePic::      INCBIN "gfx/paintings/cyuyuko_puzzle.2bpp.lz"
+KabutoPuzzlePic::     INCBIN "gfx/paintings/lunasa_puzzle.2bpp.lz"
+AerodactylPuzzlePic::  INCBIN "gfx/paintings/ayuyuko_puzzle.2bpp.lz"
 HoOhPuzzlePic::        INCBIN "gfx/paintings/ho_oh_puzzle.2bpp.lz"
 
 

@@ -105,10 +105,10 @@ NewTohodexOrder:
 	dp HCHEN       ; 7c
 	dp CLILYWHITE ; 7d
 	dp LILYWHITE     ; 7e
-	dp ELILYWHITE     ; 7f
+	dp DLILYWHITE     ; 7f
 	dp CLILYBLACK     ; 80
 	dp LILYBLACK   ; 81
-	dp ELILYBLACK   ; 82
+	dp SLILYBLACK   ; 82
 	dp CLYRICA     ; 83
 	dp LYRICA      ; 84
 	dp TLYRICA      ; 85

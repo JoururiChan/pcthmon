@@ -17,13 +17,13 @@ GetSpriteVTile::
 	pop bc
 	ld hl, wSpriteFlags
 	res 5, [hl]
-	; SPRITE_BIG_ELILYBLACK, SPRITE_SCIRNO, and SPRITE_SAILBOAT
+	; SPRITE_BIG_SLILYBLACK, SPRITE_SCIRNO, and SPRITE_SAILBOAT
 	; use the last object_struct
-	; (SPRITE_BIG_ELILYBLACK has more than 12 tiles, and SPRITE_SAILBOAT and
+	; (SPRITE_BIG_SLILYBLACK has more than 12 tiles, and SPRITE_SAILBOAT and
 	; SPRITE_SCIRNO need to be in VRAM1 so text won't overwrite
 	; their tiles)
 	ldh a, [hUsedSpriteIndex]
-	cp SPRITE_BIG_ELILYBLACK
+	cp SPRITE_BIG_SLILYBLACK
 	jr z, .use_last_struct
 	cp SPRITE_SAILBOAT
 	ldh a, [hObjectStructIndexBuffer]

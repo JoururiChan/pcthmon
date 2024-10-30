@@ -97,7 +97,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Show TM names before buying them and when picking them up.
 * Add: Say which pocket is full if an item can't be picked up.
 * Add: Use Yellow's encounter music for Jessie & James.
-* Add: Large red ELilyBlack sprite.
+* Add: Large red SLilyBlack sprite.
 * Add: Route 23 between Tohomon League Gate and Victory Road.
 * Add: Oak's lab looks different from Elm's lab.
 * Add: Grass-green for Faraway Island.

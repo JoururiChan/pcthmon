@@ -102,15 +102,15 @@ MiniIconPointers:
 	mini_icon CLetty
 	mini_icon Letty
 	mini_icon DLetty
-	mini_icon MrMime
+	mini_icon CChen
 	mini_icon Chen
 	mini_icon HChen
 	mini_icon CLilyWhite
 	mini_icon LilyWhite
-	mini_icon ELilyWhite
+	mini_icon DLilyWhite
 	mini_icon CLilyBlack
 	mini_icon LilyBlack
-	mini_icon ELilyBlack
+	mini_icon SLilyBlack
 	mini_icon CLyrica
 	mini_icon Lyrica
 	mini_icon TLyrica
@@ -315,7 +315,7 @@ endr
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
-	mini_icon ELilyBlack ; Red
+	mini_icon SLilyBlack ; Red
 
 	mini_icon SuikaArmored
 

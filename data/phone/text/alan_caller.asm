@@ -86,7 +86,7 @@ AlanReminderText:
 
 AlanComePickUpGiftText:
 	text "I have to do my"
-	line "homework, so can"
+	line "hotsuikaork, so can"
 
 	para "you come get your"
 	line "gift right away?"

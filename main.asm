@@ -10,7 +10,7 @@ INCLUDE "engine/pokemon/learn.asm"
 INCLUDE "data/items/attributes.asm"
 INCLUDE "engine/overworld/npc_movement.asm"
 INCLUDE "engine/events/happiness_egg.asm"
-INCLUDE "engine/events/shiny_ditto.asm"
+INCLUDE "engine/events/shiny_lyrica.asm"
 INCLUDE "engine/events/shuckle.asm"
 INCLUDE "engine/events/bills_grandfather.asm"
 INCLUDE "engine/events/hidden_power_guru.asm"
@@ -551,7 +551,7 @@ SECTION "bank3E", ROMX
 
 INCLUDE "engine/events/name_rater.asm"
 INCLUDE "engine/events/play_slow_cry.asm"
-INCLUDE "engine/events/magikarp.asm"
+INCLUDE "engine/events/lilyblack.asm"
 INCLUDE "engine/battle/hidden_power.asm"
 INCLUDE "engine/battle/misc.asm"
 

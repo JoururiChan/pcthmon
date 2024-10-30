@@ -89,7 +89,7 @@
 	define EXTSPECIES_MASK, 0x20
 
 ; pokemon constants
-	define ELILYBLACK, 0x82
+	define SLILYBLACK, 0x82
 
 ; move constants
 	define RAGE,         0x63

@@ -978,8 +978,8 @@ DLettyTohodexEntry::
 	next "electric waves"
 	next "into outer space.@"
 
-SECTION "MrMimeTohodexEntry", ROMX
-MrMimeTohodexEntry::
+SECTION "CChenTohodexEntry", ROMX
+CChenTohodexEntry::
 	db "Barrier@"
 	db   "It uses the"
 	next "mysterious"
@@ -1028,8 +1028,8 @@ LilyWhiteTohodexEntry::
 	next "its wound into"
 	next "lava.@"
 
-SECTION "ELilyWhiteTohodexEntry", ROMX
-ELilyWhiteTohodexEntry::
+SECTION "DLilyWhiteTohodexEntry", ROMX
+DLilyWhiteTohodexEntry::
 	db "Stag Beetle@"
 	db   "When the tempera-"
 	next "ture drops at"
@@ -1058,8 +1058,8 @@ LilyBlackTohodexEntry::
 	next "there are strong"
 	next "currents.@"
 
-SECTION "ELilyBlackTohodexEntry", ROMX
-ELilyBlackTohodexEntry::
+SECTION "SLilyBlackTohodexEntry", ROMX
+SLilyBlackTohodexEntry::
 	db "Atrocious@"
 	db   "It appears when-"
 	next "ever there is"
@@ -2657,13 +2657,13 @@ AnnihilapeTohodexEntry::
 	next "ttered by its"
 	next "physical body.@"
 
-SECTION "ELilyBlackRedTohodexEntry", ROMX
-ELilyBlackRedTohodexEntry::
+SECTION "SLilyBlackRedTohodexEntry", ROMX
+SLilyBlackRedTohodexEntry::
 	db "Atrocious@"
 	db   "Due to how rapidly"
 	next "it was forced to"
 	next "undergo evolution,"
-	page "this ELilyBlack re-"
+	page "this SLilyBlack re-"
 	next "tained its red"
 	next "LilyBlack scales.@"
 

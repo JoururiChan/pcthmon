@@ -397,7 +397,7 @@ SECTION "Mahogany Scripts", ROMX
 INCLUDE "maps/MahoganyTown.asm"
 INCLUDE "maps/MahoganyMart1F.asm"
 INCLUDE "maps/MahoganyGym.asm"
-INCLUDE "maps/MahoganyRedELilyBlackSpeechHouse.asm"
+INCLUDE "maps/MahoganyRedSLilyBlackSpeechHouse.asm"
 
 
 SECTION "Lake of Rage Scripts", ROMX

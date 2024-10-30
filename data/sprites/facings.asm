@@ -39,8 +39,8 @@ Facings:
 	dw FacingApricorn         ; FACING_APRICORN
 	dw FacingBerry            ; FACING_BERRY
 	dw FacingPickedFruit      ; FACING_PICKED_FRUIT
-	dw FacingBigELilyBlack1     ; FACING_BIG_ELILYBLACK_1
-	dw FacingBigELilyBlack2     ; FACING_BIG_ELILYBLACK_2
+	dw FacingBigSLilyBlack1     ; FACING_BIG_SLILYBLACK_1
+	dw FacingBigSLilyBlack2     ; FACING_BIG_SLILYBLACK_2
 	dw FacingStepDownFlip     ; FACING_STEP_DOWN_FLIP
 	dw FacingStepUpFlip       ; FACING_STEP_UP_FLIP
 	dw FacingPokecomNews      ; FACING_POKECOM_NEWS
@@ -188,7 +188,7 @@ FacingShadow:
 	db  0,  0, ABSOLUTE_TILE_ID, $7c
 	db  0,  8, ABSOLUTE_TILE_ID | X_FLIP, $7c
 
-FacingBigDollSym: ; big snorlax or lapras doll
+FacingBigDollSym: ; big cran or clyrica doll
 	db 16 ; #
 	db  0,  0, 0, $00
 	db  0,  8, 0, $01
@@ -291,7 +291,7 @@ FacingPickedFruit:
 	db 1 ; #
 	db  0,  0, 0, $0b
 
-FacingBigELilyBlack1:
+FacingBigSLilyBlack1:
 	db 16 ; #
 	db  0,  0, 0, $00
 	db  0,  8, 0, $01
@@ -310,7 +310,7 @@ FacingBigELilyBlack1:
 	db 24, 16, 0, $0e
 	db 24, 24, 0, $80
 
-FacingBigELilyBlack2:
+FacingBigSLilyBlack2:
 	db 16 ; #
 	db  0,  0, 0, $00
 	db  0,  8, 0, $01

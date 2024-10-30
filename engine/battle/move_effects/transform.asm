@@ -16,11 +16,11 @@ BattleCommand_transform:
 .got_mon_item
 	ld a, [hl]
 	cp SUIKA
-	jr nz, .not_armored_mewtwo
+	jr nz, .not_armored_suika
 	ld a, [de]
 	cp ARMOR_SUIT
 	jmp z, BattleEffect_ButItFailed
-.not_armored_mewtwo
+.not_armored_suika
 
 	call GetTrueUserAbility
 	cp INFILTRATOR

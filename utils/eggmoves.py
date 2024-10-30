@@ -22,9 +22,9 @@ import os
 import glob
 from collections import defaultdict
 
-# ['creimu', 'reimu', ..., 'mr__mime', ..., 'celebi']
+# ['creimu', 'reimu', ..., 'cchen', ..., 'celebi']
 ordered_mons = []
-# {'creimu': 'creimu', 'mrmime': 'mr__mime', ...}
+# {'creimu': 'creimu', 'mrmime': 'cchen', ...}
 underscore_names = {}
 # {'MONSTER': {'creimu', ...}, 'PLANT': {'creimu', ...}, ...}
 group_mons = defaultdict(lambda: set())
@@ -43,7 +43,7 @@ def get_ordered_mons():
 		for line in file:
 			# Assume that Tohomon constants are defined first in this file
 			if line.startswith('\tconst '):
-				# '\tconst CCHEN   ; $7a' => 'mr__mime'
+				# '\tconst CCHEN   ; $7a' => 'cchen'
 				mon = line[7:].split(';')[0].strip().lower()
 				ordered_mons.append(mon)
 				simple_name = mon.replace('_', '')
@@ -78,7 +78,7 @@ def get_level_up_moves():
 			line = line.rstrip()
 			# Assume that evo/attack data is labeled consistently
 			if line.endswith('EvosAttacks:'):
-				# 'MrMimeEvosAttacks:' => 'mrmime'
+				# 'CChenEvosAttacks:' => 'mrmime'
 				simple_name = line[:-12].lower()
 				if simple_name not in underscore_names:
 					raise RuntimeError('bad EvosAttacks name: %s' % simple_name)
@@ -125,7 +125,7 @@ def get_egg_moves():
 				continue
 			# Assume that egg move data is labeled consistently
 			if line.endswith('EggMoves:'):
-				# 'MrMimeEggMoves:' => 'mrmime'
+				# 'CChenEggMoves:' => 'mrmime'
 				simple_name = line[:-9].lower()
 				if simple_name not in underscore_names:
 					raise RuntimeError('bad EggMoves name: %s' % simple_name)

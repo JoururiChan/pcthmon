@@ -134,7 +134,7 @@ CeladonOldManSpeechHouse_BlockData:
 CeladonDevelopmentSpeechHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 
-MahoganyRedELilyBlackSpeechHouse_BlockData:
+MahoganyRedSLilyBlackSpeechHouse_BlockData:
 BlackthornDragonSpeechHouse_BlockData:
 BlackthornEmysHouse_BlockData:
 MoveDeletersHouse_BlockData:

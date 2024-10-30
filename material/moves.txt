@@ -90,7 +90,7 @@ Mareep/Flaafy/Ampharos: SpiritSweep
 HGSS tutor:
 Mugetsu/EMugetsu/CGengetsu: Leaf Snip
 Ledyba/Ledian: Leaf Snip
-ELilyWhite: Leaf Snip
+DLilyWhite: Leaf Snip
 Chinchou/Lanturn: Heal Bell
 Dunsparce: Life Balance
 HChen: Heal Bell

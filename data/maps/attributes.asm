@@ -525,7 +525,7 @@ ENDM
 	map_attributes Route38EcruteakGate, ROUTE_38_ECRUTEAK_GATE, $0, 0
 	map_attributes Route39Barn, ROUTE_39_BARN, $0, 0
 	map_attributes Route39Farmhouse, ROUTE_39_FARMHOUSE, $0, 0
-	map_attributes MahoganyRedELilyBlackSpeechHouse, MAHOGANY_RED_ELILYBLACK_SPEECH_HOUSE, $0, 0
+	map_attributes MahoganyRedSLilyBlackSpeechHouse, MAHOGANY_RED_SLILYBLACK_SPEECH_HOUSE, $0, 0
 	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
 	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0
 	map_attributes Route42EcruteakGate, ROUTE_42_ECRUTEAK_GATE, $0, 0

@@ -382,7 +382,7 @@ ChenEggMoves:
 	db NIGHT_SLASH
 	db $ff
 
-ELilyWhiteEggMoves:
+DLilyWhiteEggMoves:
 	db FEINT_ATTACK
 	db FURY_STRIKES
 	db QUICK_ATTACK
