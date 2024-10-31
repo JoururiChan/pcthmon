@@ -1470,7 +1470,7 @@ DLettyEvosAttacks:
 	db -1 ; no more level-up moves
 
 CChenEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, CCHEN
+	evo_data EVOLVE_LEVEL, 30, CHEN
 	evo_data EVOLVE_ITEM, SUN_STONE, HCHEN
 	db -1 ; no more evolutions
 	db 1, TACKLE
