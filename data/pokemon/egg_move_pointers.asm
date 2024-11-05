@@ -95,16 +95,16 @@ EggMovePointers::
 	dw CFlandreEggMoves         ; CFlandre
 	dw NoEggMoves             ; Flandre
 	dw NoEggMoves         ; AFlandre
-	dw NoEggMoves             ; CLetty
+	dw CLettyEggMoves             ; CLetty
 	dw NoEggMoves             ; Letty
 	dw NoEggMoves             ; DLetty
-	dw NoEggMoves             ; CChen
-	dw ChenEggMoves        ; Chen
+	dw CChenEggMoves             ; CChen
+	dw NoEggMoves       ; Chen
 	dw NoEggMoves             ; HChen
-	dw NoEggMoves             ; CLilyWhite
+	dw CLilyWhiteEggMoves             ; CLilyWhite
 	dw NoEggMoves             ; LilyWhite
-	dw DLilyWhiteEggMoves         ; DLilyWhite
-	dw NoEggMoves             ; CLilyBlack
+	dw NoEggMoves         ; DLilyWhite
+	dw CLilyBlackEggMoves             ; CLilyBlack
 	dw NoEggMoves             ; LilyBlack
 	dw NoEggMoves             ; SLilyBlack
 	dw CLyricaEggMoves         ; CLyrica

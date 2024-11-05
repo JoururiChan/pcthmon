@@ -372,21 +372,41 @@ CFlandreEggMoves:
 	db TACKLE
 	db $ff
 
-ChenEggMoves:
-	db BATON_PASS
-	db SPIRIT_VOICE
-	db REVERSAL
-	db COUNTER
-	db SAFEGUARD
-	db LIGHT_SCREEN
+CLettyEggMoves:
 	db NIGHT_SLASH
+	db ENERGY_LIGHT
+	db SUPERSONIC
+	db SCREECH
+	db CALM_MIND
+	db AURORA_BEAM
 	db $ff
 
-DLilyWhiteEggMoves:
-	db FEINT_ATTACK
-	db FURY_STRIKES
-	db QUICK_ATTACK
-	db COLOR_FIST
+CChenEggMoves:
+	db TELEPORT
+	db NIGHT_SLASH
+	db SONIC_BOOM
+	db U_TURN
+	db TAKE_DOWN
+	db SUCKER_PUNCH
+	db VOLT_SWITCH
+	db $ff
+
+CLilyWhiteEggMoves:
+	db VINE_WHIP
+	db FUTURE_SIGHT
+	db DISARM_VOICE
+	db HEAL_BELL
+	db ATTRACT
+	db CHARM
+	db $ff
+
+CLilyBlackEggMoves:
+	db ANCIENTPOWER
+	db FUTURE_SIGHT
+	db MIRROR_COAT
+	db SPIRIT_VOICE
+	db SPIRIT_SWEEP
+	db CURSE_THORN
 	db $ff
 
 CLyricaEggMoves:
