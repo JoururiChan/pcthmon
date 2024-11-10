@@ -4,7 +4,7 @@
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 3, CMIMA
-	wildmon 4, CYOUMU
+	wildmon 4, CYUYUKO
 	wildmon 5, CYOUMU
 	wildmon 3, CMERLIN
 	wildmon 6, CMIMA
@@ -12,7 +12,7 @@
 	wildmon 6, CYOUMU
 	; day
 	wildmon 3, CYOUMU
-	wildmon 4, CYOUMU
+	wildmon 4, CYUYUKO
 	wildmon 5, CMIMA
 	wildmon 3, CLYRICA
 	wildmon 6, CMIMA
@@ -20,7 +20,7 @@
 	wildmon 6, CYOUMU
 	; nite
 	wildmon 3, CMIMA
-	wildmon 4, CYOUMU
+	wildmon 4, CYUYUKO
 	wildmon 5, CSHINKI
 	wildmon 3, CYOUMU
 	wildmon 6, CSHINKI
@@ -483,7 +483,7 @@
 	wildmon 8, CMEIRA
 	wildmon 7, CKOTOHIME
 	wildmon 6, CREISEN
-	wildmon 9, CKOTOHIME
+	wildmon 9, CSUIKA
 	wildmon 8, CRUMIA
 	wildmon 8, CRUMIA
 	; day
@@ -491,13 +491,13 @@
 	wildmon 8, CMEIRA
 	wildmon 7, CKOTOHIME
 	wildmon 6, CREISEN
-	wildmon 9, CKOTOHIME
+	wildmon 9, CSUIKA
 	wildmon 8, CRUMIA
 	wildmon 8, CRUMIA
 	; nite
 	wildmon 8, CSARA
 	wildmon 8, CSARIEL
-	wildmon 7, WOOPER
+	wildmon 9, CSUIKA
 	wildmon 6, CMIMA
 	wildmon 9, CKOTOHIME
 	wildmon 8, CRUMIA
@@ -509,7 +509,7 @@
 	; morn
 	wildmon 8, CSARA
 	wildmon 6, CKOTOHIME
-	wildmon 8, CKOTOHIME
+	wildmon 9, CSUIKA
 	wildmon 8, CRUMIA
 	wildmon 6, CMIMA
 	wildmon 8, CMIMA
@@ -517,7 +517,7 @@
 	; day
 	wildmon 8, CSARA
 	wildmon 6, CKOTOHIME
-	wildmon 8, CKOTOHIME
+	wildmon 9, CSUIKA
 	wildmon 8, CRUMIA
 	wildmon 6, CMIMA
 	wildmon 8, CMIMA
@@ -525,7 +525,7 @@
 	; nite
 	wildmon 8, CSARA
 	wildmon 6, CKOTOHIME
-	wildmon 8, WOOPER
+	wildmon 9, CSUIKA
 	wildmon 8, CRUMIA
 	wildmon 6, CMIMA
 	wildmon 8, CMIMA
@@ -592,7 +592,7 @@
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 5, CKOTOHIME
-	wildmon 6, CKOTOHIME
+	wildmon 6, CRAN
 	wildmon 7, CKOTOHIME
 	wildmon 6, CKURUMI
 	wildmon 8, CKOTOHIME
@@ -600,7 +600,7 @@
 	wildmon 8, CLUIZE
 	; day
 	wildmon 5, CKOTOHIME
-	wildmon 6, CKOTOHIME
+	wildmon 6, CRAN
 	wildmon 7, CKOTOHIME
 	wildmon 6, CKURUMI
 	wildmon 8, CKOTOHIME
@@ -608,7 +608,7 @@
 	wildmon 8, CLUIZE
 	; nite
 	wildmon 5, CKOTOHIME
-	wildmon 6, CKOTOHIME
+	wildmon 6, CRAN
 	wildmon 7, CKOTOHIME
 	wildmon 6, CKURUMI
 	wildmon 8, CKOTOHIME
@@ -620,7 +620,7 @@
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 5, CKOTOHIME
-	wildmon 6, CKOTOHIME
+	wildmon 6, CRAN
 	wildmon 7, CELLEN
 	wildmon 6, CLUIZE
 	wildmon 8, CKOTOHIME
@@ -628,7 +628,7 @@
 	wildmon 8, CLUIZE
 	; day
 	wildmon 5, CKOTOHIME
-	wildmon 6, CKOTOHIME
+	wildmon 6, CRAN
 	wildmon 7, CELLEN
 	wildmon 6, CLUIZE
 	wildmon 8, CKOTOHIME
@@ -636,7 +636,7 @@
 	wildmon 8, CLUIZE
 	; nite
 	wildmon 5, CKOTOHIME
-	wildmon 6, CKOTOHIME
+	wildmon 6, CRAN
 	wildmon 7, CELLEN
 	wildmon 6, CLUIZE
 	wildmon 8, CKOTOHIME
@@ -681,14 +681,14 @@
 	wildmon 10, CELIS
 	wildmon 10, CREIMU
 	wildmon 9, CKANA
-	wildmon 10, CKANA
+	wildmon 10, CYUKARI
 	; day
 	wildmon 9, CREMILIA
 	wildmon 9, CREIMU
 	wildmon 10, CMARISA
 	wildmon 10, CELIS
 	wildmon 9, CKANA
-	wildmon 8, CKANA
+	wildmon 10, CYUKARI
 	wildmon 10, CREIMU
 	; nite
 	wildmon 9, CREMILIA
@@ -696,7 +696,7 @@
 	wildmon 10, CRIKAKO
 	wildmon 10, CYUMEMI
 	wildmon 10, HOOTHOOT
-	wildmon 9, CKANA
+	wildmon 10, CYUKARI
 	wildmon 10, CKANA
 	end_grass_wildmons
 
@@ -1437,7 +1437,7 @@
 	wildmon 7, CELLY
 	wildmon 8, CLILYWHITE
 	wildmon 7, CMEILING
-	wildmon 8, CMEILING
+	wildmon 8, CYUKARI
 	; day
 	wildmon 5, CKIKURI, KIKURI_JOHTO_FORM
 	wildmon 6, CSANAE
@@ -1445,10 +1445,10 @@
 	wildmon 7, CELLY
 	wildmon 8, CLILYWHITE
 	wildmon 7, CMEILING
-	wildmon 8, CMEILING
+	wildmon 8, CYUKARI
 	; nite
 	wildmon 5, CYUMEKO
-	wildmon 6, CSANAE
+	wildmon 8, CYUKARI
 	wildmon 8, CYUKA
 	wildmon 8, CCIRNO
 	wildmon 7, CELLY
@@ -1475,11 +1475,11 @@
 	wildmon 9, CLETTY
 	wildmon 10, CMUGETSU
 	; nite
-	wildmon 9, CYOUMU
+	wildmon 9, CYUYUKO
 	wildmon 9, CKOTOHIME
 	wildmon 9, CSARA
 	wildmon 10, CMEILING
-	wildmon 10, CMEILING
+	wildmon 10, CYUYUKO
 	wildmon 9, CLETTY
 	wildmon 10, CMEIRA
 	end_grass_wildmons

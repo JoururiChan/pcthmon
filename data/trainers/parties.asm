@@ -293,14 +293,14 @@ MortyGroup:
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 64 HP, 64 Spe
 		db DISARM_VOICE, REST, DISABLE, HEX
-	dbp 25, CLETTY, MALE
+	dbp 25, CLYRICA, MALE
 		db NO_ITEM, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 64 SAt, 64 Spe
-		db ICE_SHARD, BARRIER, ICE_BEAM, SPIRIT_SWEEP
-	dbp 26, CLYRICA, MALE
-		db WIDE_LENS, ABIL_CLYRICA_VOLT_ABSORB | NAT_NEUTRAL
+		db SWIFT, THUNDERSHOCK, CONFUSE_RAY, CURSE
+	dbp 26, DLETTY, MALE
+		db WIDE_LENS, ABILITY_1 | NAT_NEUTRAL
 		ev_spread 64 SAt, 64 Spe
-		db SPIRIT_VOICE, THUNDERSHOCK, CONFUSE_RAY, U_TURN
+		db SPIRIT_SWEEP, ICE_SHARD, BARRIER, SING
 	db -1 ; end
 
 	; MORTY
@@ -1946,10 +1946,10 @@ Lyra1Group:
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 SAt
 		db THUNDER_WAVE, THUNDERSHOCK, POISON_GAS, SPARK ; default for level
-	dbp 18, REIMU
-		db ORAN_BERRY, "Chicory@"
+	dbp 18, CREIMU
+		db ORAN_BERRY, "Sendai@"
 		ev_spread 72 HP
-		db KNIFE_THROW, LEER, DOUBLE_KICK, DISABLE ; No Light Screen
+		db SEAL_NEEDLE, GROWL, MACH_PUNCH, FORESIGHT ; No Light Screen
 	db -1 ; end
 
 	; LYRA1
@@ -1965,8 +1965,8 @@ Lyra1Group:
 	dbp 15, MAREEP
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 SAt
-	dbp 18, MARISA
-		db ORAN_BERRY, "Cinder@"
+	dbp 18, CMARISA
+		db ORAN_BERRY, "Starfire@"
 		ev_spread 72 Spe
 	db -1 ; end
 
@@ -1983,8 +1983,8 @@ Lyra1Group:
 	dbp 15, MAREEP
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 SAt
-	dbp 18, SAKUYA
-		db ORAN_BERRY, "Toto@"
+	dbp 18, CSAKUYA
+		db ORAN_BERRY, "Sculpture@"
 		ev_spread 72 Atk
 	db -1 ; end
 
@@ -2237,7 +2237,7 @@ YoungsterGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 2, CSARA
-	dbp 4, CMAGAN
+	dbp 4, CRAN
 	db -1 ; end
 
 	; YOUNGSTER
@@ -2348,7 +2348,7 @@ BugCatcherGroup:
 	; party
 	dbp 2, CDAICHAN
 	dbp 2, CDAICHAN
-	dbp 3, CKANA
+	dbp 3, CLILYWHITE
 	dbp 2, CCIRNO
 	db -1 ; end
 
@@ -2356,7 +2356,7 @@ BugCatcherGroup:
 	db "Wade@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, CMARISA
+	dbp 9, CSANAE
 	dbp 9, CGYOKU
 	dbp 10, CGYOKU
 	dbp 9, CREIMU
@@ -2451,7 +2451,7 @@ BugCatcherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 7, CMUGETSU
-	dbp 10, CCIRNO
+	dbp 10, CLILYWHITE
 	dbp 12, CCIRNO
 	db -1 ; end
 
@@ -2467,7 +2467,7 @@ BugCatcherGroup:
 	db "Josh@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 12, CCIRNO
+	dbp 12, CLILYBLACK
 	dbp 12, CDAICHAN
 	db -1 ; end
 
@@ -2511,7 +2511,7 @@ CamperGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 17, CSARA
-	dbp 17, CSARA
+	dbp 17, CSUIKA
 	dbp 23, MEILING
 	db -1 ; end
 
@@ -2520,8 +2520,8 @@ CamperGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 23, CSARA
-	dbp 23, CSARA
-	dbp 26, SANAE
+	dbp 23, CRAN
+	dbp 26, CSANAE
 	db -1 ; end
 
 	; CAMPER
@@ -2717,7 +2717,7 @@ PicnickerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 19, CRIKA
-	dbp 19, CMUGETSU
+	dbp 19, CLILYWHITE
 	dbp 21, CRIKAKO
 	db -1 ; end
 
@@ -3100,8 +3100,8 @@ FisherGroup:
 	db "Ralph@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 30, CHIYURI
-	dbp 32, CLETTY
+	dbp 30, CCHIYURI
+	dbp 32, CMAI
 	db -1 ; end
 
 	; FISHER
@@ -3127,7 +3127,7 @@ FisherGroup:
 	db "Tully@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 35, AFLANDRE
+	dbp 35, LETTY
 	dbp 35, QWILFISH
 	db -1 ; end
 
@@ -3186,13 +3186,13 @@ FisherGroup:
 	db "Justin@"
 	db TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY
 	; party
-	dbp 5, CSANAE, MALE
+	dbp 5, CLETTY, MALE
 		db $87, $78, $77, ABILITY_1 | NAT_NEUTRAL
-	dbp 5, CSANAE, MALE 
+	dbp 5, CLETTY, MALE 
 		db $88, $B8, $8B, ABILITY_1 | NAT_NEUTRAL
-	dbp 15, CSANAE, MALE
+	dbp 15, CLETTY, MALE
 		db $A2, $AA, $2A, ABILITY_1 | NAT_NEUTRAL
-	dbp 5, CSANAE, MALE
+	dbp 5, CLETTY, MALE
 		db $39, $93, $99, ABILITY_1 | NAT_NEUTRAL
 	db -1 ; end
 
@@ -6236,7 +6236,7 @@ SageGroup:
 	db "Jeffrey@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 22, CSHINKI
+	dbp 22, CYUYUKO
 	dbp 21, CYOUMU
 	db -1 ; end
 
@@ -6285,7 +6285,7 @@ MediumGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 20, CLUIZE
-	dbp 20, CLUNASA
+	dbp 20, CYUYUKO
 	db -1 ; end
 
 	; MEDIUM
