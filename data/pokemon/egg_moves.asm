@@ -410,26 +410,27 @@ CLilyBlackEggMoves:
 	db $ff
 
 CLyricaEggMoves:
-	db AURORA_BEAM
+	db NIGHT_SHADE
+	db BARRIER
+	db DOUBLE_TEAM
 	db TAILWIND
-	db FORESIGHT
-	db FUTURE_SIGHT
-	db HEAL_BELL
+	db EXTREMESPEED
 	db $ff
 
-TLyricaEggMoves:
-	db CHARM
+CMerlinEggMoves:
+	db NIGHT_SHADE
+	db BARRIER
+	db DOUBLE_TEAM
+	db LIFE_BALANCE
+	db FLAME_CHARGE
 	db $ff
 
-LunasaEggMoves:
-	db AURORA_BEAM
-	db BUBBLE_BEAM
-	db HAZE
-	db SPIKES
-	db POISON_NAIL
-	db SUPERSONIC
-	db WATER_PULSE
-	db KNOCK_OFF
+CLunasaEggMoves:
+	db NIGHT_SHADE
+	db BARRIER
+	db DOUBLE_TEAM
+	db GLARE
+	db LEECH_LIFE
 	db $ff
 
 CYuyukoEggMoves:
@@ -444,19 +445,31 @@ CYuyukoEggMoves:
 	db KNOCK_OFF
 	db $ff
 
-AYuyukoEggMoves:
-	db FORESIGHT
-	db PURSUIT
-	db STEEL_WING
-	db AURA_WAVE
+CRanEggMoves:
+	db SCRATCH
+	db BITE
+	db POWER_BEAM
+	db SEAL_NEEDLE
+	db PIN_MISSILE
+	db SUPERSONIC
 	db $ff
 
-YukariEggMoves:
-	db EXTREMESPEED ; requires Dragon Shrine Yukari
-	db HAZE
+CYukariEggMoves:
+	db NIGHT_SLASH
+	db SUCKER_PUNCH
+	db POISON_NAIL
+	db SEAL_NEEDLE
+	db PIN_MISSILE
 	db SUPERSONIC
-	db WATER_PULSE
-	db AQUA_JET
+	db $ff
+
+CSuikaEggMoves:
+	db COLOR_FIST
+	db SEISMIC_TOSS
+	db HOLY_FLAME
+	db ROCK_BULLET
+	db ROCK_BLAST
+	db BONEMERANG
 	db $ff
 
 CYoumuEggMoves:
@@ -485,8 +498,8 @@ CSanaeEggMoves:
 	db THUNDER_WAVE
 	db ANCIENTPOWER
 	db FLASH_CANNON
-	db FIRE_BREATH
-	db WILD_CHARGE
+	db AURA_WAVE
+	db HEALINGLIGHT
 	db $ff
 
 SentretEggMoves:

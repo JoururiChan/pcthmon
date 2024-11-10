@@ -109,23 +109,23 @@ EggMovePointers::
 	dw NoEggMoves             ; SLilyBlack
 	dw CLyricaEggMoves         ; CLyrica
 	dw NoEggMoves             ; Lyrica
-	dw TLyricaEggMoves          ; TLyrica
-	dw NoEggMoves             ; CMerlin
+	dw CLyricaEggMoves          ; TLyrica
+	dw CMerlinEggMoves              ; CMerlin
 	dw NoEggMoves             ; Merlin
 	dw NoEggMoves             ; SMerlin
-	dw NoEggMoves             ; CLunasa
-	dw LunasaEggMoves        ; Lunasa
+	dw CLunasaEggMoves             ; CLunasa
+	dw CLunasaEggMoves        ; Lunasa
 	dw NoEggMoves             ; ALunasa
 	dw CYuyukoEggMoves         ; CYuyuko
 	dw NoEggMoves             ; Yuyuko
-	dw AYuyukoEggMoves     ; AYuyuko
-	dw NoEggMoves             ; CRan
+	dw CYuyukoEggMoves     ; AYuyuko
+	dw CRanEggMoves              ; CRan
 	dw NoEggMoves             ; Ran
 	dw NoEggMoves             ; TRan
-	dw NoEggMoves             ; CYukari
-	dw YukariEggMoves        ; Yukari
+	dw CYukariEggMoves               ; CYukari
+	dw CYukariEggMoves        ; Yukari
 	dw NoEggMoves             ; TYukari
-	dw NoEggMoves             ; CSuika
+	dw CSuikaEggMoves               ; CSuika
 	dw NoEggMoves             ; Suika
 	dw NoEggMoves             ; TSuika
 	dw CYoumuEggMoves      ; CYoumu
