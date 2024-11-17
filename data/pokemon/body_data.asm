@@ -132,9 +132,9 @@ PokemonBodyData:
 	body_data  20,  600, HEAD,     PURPLE ; CYUKARI
 	body_data  18,  800, HEAD_ARMS,   PURPLE   ; YUKARI
 	body_data  40,  900, QUADRUPED,   PURPLE   ; TYUKARI
-	body_data  22, 200, BIPEDAL, ORANGE  ; CSUIKA
-	body_data  20, 500, BIPEDAL, ORANGE ; SUIKA
-	body_data   4,  500, BIPEDAL, ORANGE   ; TSUIKA
+	body_data  22, 200, BIPEDAL, PURPLE  ; CSUIKA
+	body_data  20, 500, BIPEDAL, PURPLE ; SUIKA
+	body_data   4,  500, BIPEDAL, PURPLE   ; TSUIKA
 	body_data   9,  150, MULTIBODY,    GREEN  ; CYOUMU
 	body_data  12,  350, MULTIBODY,    GREEN  ; YOUMU
 	body_data  18, 400, MULTIBODY,    GREEN  ; SYOUMU
