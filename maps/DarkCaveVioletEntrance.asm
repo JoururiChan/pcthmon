@@ -84,7 +84,7 @@ DarkCaveVioletEntranceFalknerTrigger:
 	applymovement DARKCAVEVIOLETENTRANCE_CRIKAKO, DarkCaveVioletEntranceMovementData_CRikakoAttack
 	waitsfx
 	pause 30
-	cry SEIJA
+	cry YUKA
 	pause 30
 	disappear DARKCAVEVIOLETENTRANCE_SEIJA
 	pause 15
