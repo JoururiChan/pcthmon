@@ -1,33 +1,33 @@
 EvolutionMoves::
 	table_width 1, EvolutionMoves
 	db NO_MOVE      ; CREIMU
-	db AERIAL_ACE      ; REIMU
+	db NO_MOVE      ; REIMU
 	db NO_MOVE      ; TREIMU
 	db NO_MOVE      ; CMARISA
 	db NO_MOVE      ; MARISA
-	db FIRE_BREATH      ; AMARISA
+	db NO_MOVE      ; AMARISA
 	db NO_MOVE      ; CSAKUYA
-	db BLADE_FLASH      ; SAKUYA
+	db NO_MOVE      ; SAKUYA
 	db NO_MOVE      ; HSAKUYA
 	db NO_MOVE      ; CGYOKU
-	db ICE_SHARD      ; MGYOKU
-	db FIRE_SPIN      ; FGYOKU
-	db ROCK_BLAST      ; OGYOKU
+	db NO_MOVE      ; MGYOKU
+	db NO_MOVE      ; FGYOKU
+	db NO_MOVE      ; OGYOKU
 	db NO_MOVE      ; CMAGAN
-	db TOXIC_SPORE    ; MAGAN
+	db NO_MOVE    ; MAGAN
 	db NO_MOVE      ; CMIMA
-	db POWER_BEAM      ; EMIMA
+	db NO_MOVE      ; EMIMA
 	db NO_MOVE   ; CELIS
-	db ACROBATICS      ; ELIS
+	db NO_MOVE      ; ELIS
 	db NO_MOVE      ; CKIKURI
 	db NO_MOVE       ; KIKURI
 	db NO_MOVE  ; CSARIEL
 	db NO_MOVE      ; SARIEL
 	db NO_MOVE      ; CKONGARA
-	db COUNTER      ; KONGARA
+	db NO_MOVE      ; KONGARA
 	db NO_MOVE      ; CRIKA
 	db NO_MOVE      ; RIKA
-	db DRAIN_PUNCH      ; ARIKA
+	db NO_MOVE      ; ARIKA
 	db NO_MOVE      ; CMEIRA
 	db NO_MOVE      ; MEIRA
 	db NO_MOVE   ; CELLEN
@@ -59,41 +59,41 @@ EvolutionMoves::
 	db NO_MOVE      ; SARA
 	db NO_MOVE      ; CLUIZE
 	db NO_MOVE   ; LUIZE
-	db WILL_O_WISP      ; DLUIZE
+	db NO_MOVE     ; DLUIZE
 	db NO_MOVE ; CALICE
-	db FLAME_CHARGE      ; ALICE
-	db WILD_CHARGE   ; AALICE
+	db NO_MOVE      ; ALICE
+	db NO_MOVE   ; AALICE
 	db NO_MOVE      ; CMAI
 	db NO_MOVE      ; MAI
 	db NO_MOVE      ; CYUKI
 	db NO_MOVE ; YUKI
 	db NO_MOVE      ; CYUMEKO
-	db FIRE_PUNCH     ; YUMEKO
+	db NO_MOVE     ; YUMEKO
 	db NO_MOVE      ; CSHINKI
 	db NO_MOVE  ; SHINKI
 	db NO_MOVE      ; CRUMIA
-	db TOXIC_SPORE      ; RUMIA
+	db NO_MOVE      ; RUMIA
 	db NO_MOVE      ; ARUMIA
 	db NO_MOVE      ; CDAICHAN
 	db NO_MOVE      ; DAICHAN
 	db NO_MOVE      ; DDAICHAN
 	db NO_MOVE      ; CCIRNO
-	db ACROBATICS     ; CIRNO
+	db NO_MOVE     ; CIRNO
 	db NO_MOVE       ; SCIRNO
 	db NO_MOVE      ; CMEILING
 	db NO_MOVE ; MEILING
-	db FLAME_HIT ; AMEILING
+	db NO_MOVE  ; AMEILING
 	db NO_MOVE  ; CKOAKUMA
-	db WING_ATTACK      ; KOAKUMA
+	db NO_MOVE      ; KOAKUMA
 	db NO_MOVE      ; HKOAKUMA
 	db NO_MOVE      ; CPATCHOULI
 	db NO_MOVE      ; PATCHOULI
 	db NO_MOVE      ; TPATCHOULI
 	db NO_MOVE      ; CREMILIA
-	db WING_ATTACK      ; REMILIA
+	db NO_MOVE      ; REMILIA
 	db NO_MOVE      ; SREMILIA
 	db NO_MOVE      ; CFLANDRE
-	db FIRE_PUNCH      ; FLANDRE
+	db NO_MOVE      ; FLANDRE
 	db NO_MOVE      ; AFLANDRE
 	db NO_MOVE      ; CLETTY
 	db NO_MOVE      ; LETTY
@@ -106,18 +106,18 @@ EvolutionMoves::
 	db NO_MOVE      ; DLILYWHITE
 	db NO_MOVE      ; CLILYBLACK
 	db NO_MOVE      ; LILYBLACK
-	db BITE         ; SLILYBLACK
+	db NO_MOVE        ; SLILYBLACK
 	db NO_MOVE      ; CLYRICA
 	db NO_MOVE      ; LYRICA
 	db NO_MOVE      ; TLYRICA
-	db WATER_GUN    ; CMERLIN
-	db THUNDERSHOCK ; MERLIN
-	db EMBER        ; SMERLIN
+	db NO_MOVE    ; CMERLIN
+	db NO_MOVE ; MERLIN
+	db NO_MOVE        ; SMERLIN
 	db NO_MOVE      ; CLUNASA
 	db NO_MOVE      ; LUNASA
-	db ICICLE_SPEAR ; ALUNASA
+	db NO_MOVE ; ALUNASA
 	db NO_MOVE      ; CYUYUKO
-	db SLASH        ; YUYUKO
+	db NO_MOVE        ; YUYUKO
 	db NO_MOVE      ; AYUYUKO
 	db NO_MOVE      ; CRAN
 	db NO_MOVE      ; RAN
@@ -125,11 +125,11 @@ EvolutionMoves::
 	db NO_MOVE      ; CYUKARI
 	db NO_MOVE      ; YUKARI
 	db NO_MOVE      ; TYUKARI
-	db WING_ATTACK  ; CSUIKA
+	db NO_MOVE  ; CSUIKA
 	db NO_MOVE      ; SUIKA
 	db NO_MOVE      ; TSUIKA
 	db NO_MOVE      ; CYOUMU
-	db BLADE_FLASH      ; YOUMU
+	db NO_MOVE     ; YOUMU
 	db NO_MOVE  ; SYOUMU
 	db NO_MOVE      ; CREISEN
 	db NO_MOVE      ; REISEN

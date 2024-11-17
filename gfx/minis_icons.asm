@@ -482,14 +482,14 @@ CLettyMiniMask:: INCBIN "gfx/minis/cletty_mask.1bpp.lz"
 CLettyIcon::     INCBIN "gfx/icons/cletty.2bpp.lz"
 
 SECTION "Letty Mini Icon", ROMX
-LettyMini::     INCBIN "gfx/minis/letty.2bpp.lz"
-LettyMiniMask:: INCBIN "gfx/minis/letty_mask.1bpp.lz"
-LettyIcon::     INCBIN "gfx/icons/letty.2bpp.lz"
+LettyMini::     INCBIN "gfx/minis/cletty.2bpp.lz"
+LettyMiniMask:: INCBIN "gfx/minis/cletty_mask.1bpp.lz"
+LettyIcon::     INCBIN "gfx/icons/cletty.2bpp.lz"
 
 SECTION "DLetty Mini Icon", ROMX
-DLettyMini::     INCBIN "gfx/minis/dletty.2bpp.lz"
-DLettyMiniMask:: INCBIN "gfx/minis/dletty_mask.1bpp.lz"
-DLettyIcon::     INCBIN "gfx/icons/dletty.2bpp.lz"
+DLettyMini::     INCBIN "gfx/minis/cletty.2bpp.lz"
+DLettyMiniMask:: INCBIN "gfx/minis/cletty_mask.1bpp.lz"
+DLettyIcon::     INCBIN "gfx/icons/cletty.2bpp.lz"
 
 SECTION "CChen Mini Icon", ROMX
 CChenMini::     INCBIN "gfx/minis/cchen.2bpp.lz"
@@ -497,14 +497,14 @@ CChenMiniMask:: INCBIN "gfx/minis/cchen_mask.1bpp.lz"
 CChenIcon::     INCBIN "gfx/icons/cchen.2bpp.lz"
 
 SECTION "Chen Mini Icon", ROMX
-ChenMini::     INCBIN "gfx/minis/chen.2bpp.lz"
-ChenMiniMask:: INCBIN "gfx/minis/chen_mask.1bpp.lz"
-ChenIcon::     INCBIN "gfx/icons/chen.2bpp.lz"
+ChenMini::     INCBIN "gfx/minis/cchen.2bpp.lz"
+ChenMiniMask:: INCBIN "gfx/minis/cchen_mask.1bpp.lz"
+ChenIcon::     INCBIN "gfx/icons/cchen.2bpp.lz"
 
 SECTION "HChen Mini Icon", ROMX
-HChenMini::     INCBIN "gfx/minis/hchen.2bpp.lz"
-HChenMiniMask:: INCBIN "gfx/minis/hchen_mask.1bpp.lz"
-HChenIcon::     INCBIN "gfx/icons/hchen.2bpp.lz"
+HChenMini::     INCBIN "gfx/minis/cchen.2bpp.lz"
+HChenMiniMask:: INCBIN "gfx/minis/cchen_mask.1bpp.lz"
+HChenIcon::     INCBIN "gfx/icons/cchen.2bpp.lz"
 
 SECTION "CLilyWhite Mini Icon", ROMX
 CLilyWhiteMini::     INCBIN "gfx/minis/clilywhite.2bpp.lz"
@@ -512,29 +512,29 @@ CLilyWhiteMiniMask:: INCBIN "gfx/minis/clilywhite_mask.1bpp.lz"
 CLilyWhiteIcon::     INCBIN "gfx/icons/clilywhite.2bpp.lz"
 
 SECTION "LilyWhite Mini Icon", ROMX
-LilyWhiteMini::     INCBIN "gfx/minis/lilywhite.2bpp.lz"
-LilyWhiteMiniMask:: INCBIN "gfx/minis/lilywhite_mask.1bpp.lz"
-LilyWhiteIcon::     INCBIN "gfx/icons/lilywhite.2bpp.lz"
+LilyWhiteMini::     INCBIN "gfx/minis/clilywhite.2bpp.lz"
+LilyWhiteMiniMask:: INCBIN "gfx/minis/clilywhite_mask.1bpp.lz"
+LilyWhiteIcon::     INCBIN "gfx/icons/clilywhite.2bpp.lz"
 
 SECTION "DLilyWhite Mini Icon", ROMX
-DLilyWhiteMini::     INCBIN "gfx/minis/dlilywhite.2bpp.lz"
-DLilyWhiteMiniMask:: INCBIN "gfx/minis/dlilywhite_mask.1bpp.lz"
-DLilyWhiteIcon::     INCBIN "gfx/icons/dlilywhite.2bpp.lz"
+DLilyWhiteMini::     INCBIN "gfx/minis/clilywhite.2bpp.lz"
+DLilyWhiteMiniMask:: INCBIN "gfx/minis/clilywhite_mask.1bpp.lz"
+DLilyWhiteIcon::     INCBIN "gfx/icons/clilywhite.2bpp.lz"
 
 SECTION "CLilyBlack Mini Icon", ROMX
-CLilyBlackMini::     INCBIN "gfx/minis/clilyblack.2bpp.lz"
-CLilyBlackMiniMask:: INCBIN "gfx/minis/clilyblack_mask.1bpp.lz"
-CLilyBlackIcon::     INCBIN "gfx/icons/clilyblack.2bpp.lz"
+CLilyBlackMini::     INCBIN "gfx/minis/clilywhite.2bpp.lz"
+CLilyBlackMiniMask:: INCBIN "gfx/minis/clilywhite_mask.1bpp.lz"
+CLilyBlackIcon::     INCBIN "gfx/icons/clilywhite.2bpp.lz"
 
 SECTION "LilyBlack Mini Icon", ROMX
-LilyBlackMini::     INCBIN "gfx/minis/lilyblack.2bpp.lz"
-LilyBlackMiniMask:: INCBIN "gfx/minis/lilyblack_mask.1bpp.lz"
-LilyBlackIcon::     INCBIN "gfx/icons/lilyblack.2bpp.lz"
+LilyBlackMini::     INCBIN "gfx/minis/clilywhite.2bpp.lz"
+LilyBlackMiniMask:: INCBIN "gfx/minis/clilywhite_mask.1bpp.lz"
+LilyBlackIcon::     INCBIN "gfx/icons/clilywhite.2bpp.lz"
 
 SECTION "SLilyBlack Mini Icon", ROMX
-SLilyBlackMini::     INCBIN "gfx/minis/slilyblack.2bpp.lz"
-SLilyBlackMiniMask:: INCBIN "gfx/minis/slilyblack_mask.1bpp.lz"
-SLilyBlackIcon::     INCBIN "gfx/icons/slilyblack.2bpp.lz"
+SLilyBlackMini::     INCBIN "gfx/minis/clilywhite.2bpp.lz"
+SLilyBlackMiniMask:: INCBIN "gfx/minis/clilywhite_mask.1bpp.lz"
+SLilyBlackIcon::     INCBIN "gfx/icons/clilywhite.2bpp.lz"
 
 SECTION "CLyrica Mini Icon", ROMX
 CLyricaMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
@@ -542,44 +542,44 @@ CLyricaMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
 CLyricaIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "Lyrica Mini Icon", ROMX
-LyricaMini::     INCBIN "gfx/minis/lyrica.2bpp.lz"
-LyricaMiniMask:: INCBIN "gfx/minis/lyrica_mask.1bpp.lz"
-LyricaIcon::     INCBIN "gfx/icons/lyrica.2bpp.lz"
+LyricaMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
+LyricaMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
+LyricaIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "TLyrica Mini Icon", ROMX
-TLyricaMini::     INCBIN "gfx/minis/tlyrica.2bpp.lz"
-TLyricaMiniMask:: INCBIN "gfx/minis/tlyrica_mask.1bpp.lz"
-TLyricaIcon::     INCBIN "gfx/icons/tlyrica.2bpp.lz"
+TLyricaMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
+TLyricaMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
+TLyricaIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "CMerlin Mini Icon", ROMX
-CMerlinMini::     INCBIN "gfx/minis/cmerlin.2bpp.lz"
-CMerlinMiniMask:: INCBIN "gfx/minis/cmerlin_mask.1bpp.lz"
-CMerlinIcon::     INCBIN "gfx/icons/cmerlin.2bpp.lz"
+CMerlinMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
+CMerlinMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
+CMerlinIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "Merlin Mini Icon", ROMX
-MerlinMini::     INCBIN "gfx/minis/merlin.2bpp.lz"
-MerlinMiniMask:: INCBIN "gfx/minis/merlin_mask.1bpp.lz"
-MerlinIcon::     INCBIN "gfx/icons/merlin.2bpp.lz"
+MerlinMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
+MerlinMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
+MerlinIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "SMerlin Mini Icon", ROMX
-SMerlinMini::     INCBIN "gfx/minis/smerlin.2bpp.lz"
-SMerlinMiniMask:: INCBIN "gfx/minis/smerlin_mask.1bpp.lz"
-SMerlinIcon::     INCBIN "gfx/icons/smerlin.2bpp.lz"
+SMerlinMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
+SMerlinMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
+SMerlinIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "CLunasa Mini Icon", ROMX
-CLunasaMini::     INCBIN "gfx/minis/clunasa.2bpp.lz"
-CLunasaMiniMask:: INCBIN "gfx/minis/clunasa_mask.1bpp.lz"
-CLunasaIcon::     INCBIN "gfx/icons/clunasa.2bpp.lz"
+CLunasaMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
+CLunasaMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
+CLunasaIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "Lunasa Mini Icon", ROMX
-LunasaMini::     INCBIN "gfx/minis/lunasa.2bpp.lz"
-LunasaMiniMask:: INCBIN "gfx/minis/lunasa_mask.1bpp.lz"
-LunasaIcon::     INCBIN "gfx/icons/lunasa.2bpp.lz"
+LunasaMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
+LunasaMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
+LunasaIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "ALunasa Mini Icon", ROMX
-ALunasaMini::     INCBIN "gfx/minis/alunasa.2bpp.lz"
-ALunasaMiniMask:: INCBIN "gfx/minis/alunasa_mask.1bpp.lz"
-ALunasaIcon::     INCBIN "gfx/icons/alunasa.2bpp.lz"
+ALunasaMini::     INCBIN "gfx/minis/clyrica.2bpp.lz"
+ALunasaMiniMask:: INCBIN "gfx/minis/clyrica_mask.1bpp.lz"
+ALunasaIcon::     INCBIN "gfx/icons/clyrica.2bpp.lz"
 
 SECTION "CYuyuko Mini Icon", ROMX
 CYuyukoMini::     INCBIN "gfx/minis/cyuyuko.2bpp.lz"
@@ -587,14 +587,14 @@ CYuyukoMiniMask:: INCBIN "gfx/minis/cyuyuko_mask.1bpp.lz"
 CYuyukoIcon::     INCBIN "gfx/icons/cyuyuko.2bpp.lz"
 
 SECTION "Yuyuko Mini Icon", ROMX
-YuyukoMini::     INCBIN "gfx/minis/yuyuko.2bpp.lz"
-YuyukoMiniMask:: INCBIN "gfx/minis/yuyuko_mask.1bpp.lz"
-YuyukoIcon::     INCBIN "gfx/icons/yuyuko.2bpp.lz"
+YuyukoMini::     INCBIN "gfx/minis/cyuyuko.2bpp.lz"
+YuyukoMiniMask:: INCBIN "gfx/minis/cyuyuko_mask.1bpp.lz"
+YuyukoIcon::     INCBIN "gfx/icons/cyuyuko.2bpp.lz"
 
 SECTION "AYuyuko Mini Icon", ROMX
-AYuyukoMini::     INCBIN "gfx/minis/ayuyuko.2bpp.lz"
-AYuyukoMiniMask:: INCBIN "gfx/minis/ayuyuko_mask.1bpp.lz"
-AYuyukoIcon::     INCBIN "gfx/icons/ayuyuko.2bpp.lz"
+AYuyukoMini::     INCBIN "gfx/minis/cyuyuko.2bpp.lz"
+AYuyukoMiniMask:: INCBIN "gfx/minis/cyuyuko_mask.1bpp.lz"
+AYuyukoIcon::     INCBIN "gfx/icons/cyuyuko.2bpp.lz"
 
 SECTION "CRan Mini Icon", ROMX
 CRanMini::     INCBIN "gfx/minis/cran.2bpp.lz"
@@ -602,14 +602,14 @@ CRanMiniMask:: INCBIN "gfx/minis/cran_mask.1bpp.lz"
 CRanIcon::     INCBIN "gfx/icons/cran.2bpp.lz"
 
 SECTION "Ran Mini Icon", ROMX
-RanMini::     INCBIN "gfx/minis/ran.2bpp.lz"
-RanMiniMask:: INCBIN "gfx/minis/ran_mask.1bpp.lz"
-RanIcon::     INCBIN "gfx/icons/ran.2bpp.lz"
+RanMini::     INCBIN "gfx/minis/cran.2bpp.lz"
+RanMiniMask:: INCBIN "gfx/minis/cran_mask.1bpp.lz"
+RanIcon::     INCBIN "gfx/icons/cran.2bpp.lz"
 
 SECTION "TRan Mini Icon", ROMX
-TRanMini::     INCBIN "gfx/minis/tran.2bpp.lz"
-TRanMiniMask:: INCBIN "gfx/minis/tran_mask.1bpp.lz"
-TRanIcon::     INCBIN "gfx/icons/tran.2bpp.lz"
+TRanMini::     INCBIN "gfx/minis/cran.2bpp.lz"
+TRanMiniMask:: INCBIN "gfx/minis/cran_mask.1bpp.lz"
+TRanIcon::     INCBIN "gfx/icons/cran.2bpp.lz"
 
 SECTION "CYukari Mini Icon", ROMX
 CYukariMini::     INCBIN "gfx/minis/cyukari.2bpp.lz"
@@ -617,14 +617,14 @@ CYukariMiniMask:: INCBIN "gfx/minis/cyukari_mask.1bpp.lz"
 CYukariIcon::     INCBIN "gfx/icons/cyukari.2bpp.lz"
 
 SECTION "Yukari Mini Icon", ROMX
-YukariMini::     INCBIN "gfx/minis/yukari.2bpp.lz"
-YukariMiniMask:: INCBIN "gfx/minis/yukari_mask.1bpp.lz"
-YukariIcon::     INCBIN "gfx/icons/yukari.2bpp.lz"
+YukariMini::     INCBIN "gfx/minis/cyukari.2bpp.lz"
+YukariMiniMask:: INCBIN "gfx/minis/cyukari_mask.1bpp.lz"
+YukariIcon::     INCBIN "gfx/icons/cyukari.2bpp.lz"
 
 SECTION "TYukari Mini Icon", ROMX
-TYukariMini::     INCBIN "gfx/minis/tyukari.2bpp.lz"
-TYukariMiniMask:: INCBIN "gfx/minis/tyukari_mask.1bpp.lz"
-TYukariIcon::     INCBIN "gfx/icons/tyukari.2bpp.lz"
+TYukariMini::     INCBIN "gfx/minis/cyukari.2bpp.lz"
+TYukariMiniMask:: INCBIN "gfx/minis/cyukari_mask.1bpp.lz"
+TYukariIcon::     INCBIN "gfx/icons/cyukari.2bpp.lz"
 
 SECTION "CSuika Mini Icon", ROMX
 CSuikaMini::     INCBIN "gfx/minis/csuika.2bpp.lz"
@@ -632,14 +632,14 @@ CSuikaMiniMask:: INCBIN "gfx/minis/csuika_mask.1bpp.lz"
 CSuikaIcon::     INCBIN "gfx/icons/csuika.2bpp.lz"
 
 SECTION "Suika Mini Icon", ROMX
-SuikaMini::     INCBIN "gfx/minis/suika.2bpp.lz"
-SuikaMiniMask:: INCBIN "gfx/minis/suika_mask.1bpp.lz"
-SuikaIcon::     INCBIN "gfx/icons/suika.2bpp.lz"
+SuikaMini::     INCBIN "gfx/minis/csuika.2bpp.lz"
+SuikaMiniMask:: INCBIN "gfx/minis/csuika_mask.1bpp.lz"
+SuikaIcon::     INCBIN "gfx/icons/csuika.2bpp.lz"
 
 SECTION "TSuika Mini Icon", ROMX
-TSuikaMini::     INCBIN "gfx/minis/tsuika.2bpp.lz"
-TSuikaMiniMask:: INCBIN "gfx/minis/tsuika_mask.1bpp.lz"
-TSuikaIcon::     INCBIN "gfx/icons/tsuika.2bpp.lz"
+TSuikaMini::     INCBIN "gfx/minis/csuika.2bpp.lz"
+TSuikaMiniMask:: INCBIN "gfx/minis/csuika_mask.1bpp.lz"
+TSuikaIcon::     INCBIN "gfx/icons/csuika.2bpp.lz"
 
 SECTION "CYoumu Mini Icon", ROMX
 CYoumuMini::     INCBIN "gfx/minis/cyoumu.2bpp.lz"

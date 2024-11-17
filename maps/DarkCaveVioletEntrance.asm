@@ -15,7 +15,7 @@ DarkCaveVioletEntrance_MapScriptHeader:
 	bg_event 26,  3, BGEVENT_ITEM + ELIXIR, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HIDDEN_ELIXIR
 
 	def_object_events
-	pokemon_event 10, 2, URSARING, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_DARK_CAVE_URSARING
+	pokemon_event 10, 2, YUKA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_DARK_CAVE_SEIJA
 	object_event  9,  2, SPRITE_CMIMA_SIDE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_CRIKAKO
 	object_event  8,  2, SPRITE_FALKNER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_FALKNER
 	itemball_event  6,  8, POTION, 1, EVENT_DARK_CAVE_VIOLET_ENTRANCE_POTION
@@ -28,7 +28,7 @@ DarkCaveVioletEntrance_MapScriptHeader:
 	itemball_event 30, 28, DIRE_HIT, 1, EVENT_DARK_CAVE_VIOLET_ENTRANCE_DIRE_HIT
 
 	object_const_def
-	const DARKCAVEVIOLETENTRANCE_URSARING
+	const DARKCAVEVIOLETENTRANCE_SEIJA
 	const DARKCAVEVIOLETENTRANCE_CRIKAKO
 	const DARKCAVEVIOLETENTRANCE_FALKNER
 
@@ -36,7 +36,7 @@ DarkCaveVioletEntranceFalknerTrigger:
 	waitsfx
 	checkdarkness
 	iftruefwd .Darkness
-	scall .BeatUrsaring
+	scall .BeatSeija 
 	showemote EMOTE_SHOCK, DARKCAVEVIOLETENTRANCE_FALKNER, 15
 	opentext
 	writetext DarkCaveVioletEntranceFalknerIntroText
@@ -65,12 +65,12 @@ DarkCaveVioletEntranceFalknerTrigger:
 
 .ProgressAnyway:
 	showtext DarkCaveVioletEntranceFalknerProgressAnywayText
-	scall .BeatUrsaring
+	scall .BeatSeija
 	opentext
 	writetext DarkCaveVioletEntranceFalknerDarkIntroText
 	sjump .Finish
 
-.BeatUrsaring:
+.BeatSeija:
 	special SaveMusic
 	playmusic MUSIC_JOHTO_TRAINER_BATTLE
 	pause 40
@@ -84,9 +84,9 @@ DarkCaveVioletEntranceFalknerTrigger:
 	applymovement DARKCAVEVIOLETENTRANCE_CRIKAKO, DarkCaveVioletEntranceMovementData_CRikakoAttack
 	waitsfx
 	pause 30
-	cry URSARING
+	cry SEIJA
 	pause 30
-	disappear DARKCAVEVIOLETENTRANCE_URSARING
+	disappear DARKCAVEVIOLETENTRANCE_SEIJA
 	pause 15
 	special RestoreMusic
 	opentext
