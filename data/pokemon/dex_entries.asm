@@ -630,7 +630,7 @@ AAliceTohodexEntry::
 
 SECTION "CMaiTohodexEntry", ROMX
 CMaiTohodexEntry::
-	db "Magician"
+	db "Magician@"
 	db   "They are always"
 	next "bonded to Yuki"
 	next "#mon, and prefer"
