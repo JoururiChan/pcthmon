@@ -15,19 +15,6 @@ DEF hldexcoord EQUS "dexcoord hl,"
 DEF bcdexcoord EQUS "dexcoord bc,"
 DEF dedexcoord EQUS "dexcoord de,"
 
-MACRO dexcoord
-; register, x, y[, origin]
-	if _NARG < 4
-		ld \1, (\3) * BG_MAP_WIDTH + (\2) + wDexTilemap
-	else
-		ld \1, (\3) * BG_MAP_WIDTH + (\2) + \4
-	endc
-ENDM
-
-DEF hlbgcoord EQUS "bgcoord hl,"
-DEF bcbgcoord EQUS "bgcoord bc,"
-DEF debgcoord EQUS "bgcoord de,"
-
 MACRO bgcoord
 ; register, x, y[, origin]
 	if _NARG < 4

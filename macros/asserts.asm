@@ -1,29 +1,5 @@
 ; Macros to verify assumptions about the data or code
 
-MACRO dbas
-	db BANK(\1)
-	dw \#
-	for x, 1, _NARG
-		for y, x + 1, _NARG + 1
-			assert BANK(\<x>) == BANK(\<y>) || !BANK(\<x>) || !BANK(\<y>), \
-				"\<x> and \<y> must be in the same bank"
-		endr
-	endr
-ENDM
-
-MACRO farbank
-	REDEF CURRENT_FAR_BANK EQUS "\1"
-ENDM
-
-MACRO fardw
-	rept _NARG
-		dw \1
-		assert BANK(\1) == BANK({CURRENT_FAR_BANK}) || !BANK(\1), \
-			"\1 must be in the bank of {CURRENT_FAR_BANK}"
-		shift
-	endr
-ENDM
-
 MACRO table_width
 	def CURRENT_TABLE_WIDTH = \1
 	if _NARG == 2
@@ -89,14 +65,20 @@ MACRO end_water_wildmons
 ENDM
 
 MACRO wildmon
-	db (\1)
-	shift
-	dp \#
+	if _NARG == 3
+		db \1
+		dp \2, \3
+	else
+		db \1
+		dp \2
+	endc
 ENDM
 
 MACRO jmp
-	jp \#
-	if DEF(DEBUG)
-		assert warn, (\<_NARG>) - @ > 127 || (\<_NARG>) - @ < -129, "jp can be jr"
+	if _NARG == 1
+		jp \1
+	else
+		jp \1, \2
+		shift
 	endc
 ENDM

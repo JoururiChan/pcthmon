@@ -1,10 +1,10 @@
 ; Pic animation arrangement.
 
-MACRO pokeanim
-	for i, 1, _NARG + 1
-		db (PokeAnim_\<i>_SetupCommand - PokeAnim_SetupCommands) / 2
-	endr
-	db (PokeAnim_Finish_SetupCommand - PokeAnim_SetupCommands) / 2
+MACRO POKEANIM
+for i, 1, _NARG + 1
+	db (PokeAnim_\<i>_ - PokeAnim_SetupCommands) / 2
+endr
+	db (PokeAnim_Finish_ - PokeAnim_SetupCommands) / 2
 ENDM
 
 PokeAnims:
@@ -125,9 +125,9 @@ SetUpPokeAnim:
 	scf
 	ret
 
-MACRO add_setup_command
-\1_SetupCommand:
-	dw \1
+PokeAnim_SetupCommands:
+MACRO setup_command
+\1_: dw \1
 ENDM
 
 PokeAnim_SetupCommands:
@@ -600,11 +600,11 @@ PokeAnim_GetFrame:
 	ret
 
 MACRO poke_anim_box
-	for y, 7, 7 * (\1 + 1), 7
-		for x, 7 - \1, 7
-			db x + y
-		endr
-	endr
+for y, 7, 7 * (\1 + 1), 7
+for x, 7 - \1, 7
+	db x + y
+endr
+endr
 ENDM
 
 ._5by5:

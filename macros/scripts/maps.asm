@@ -86,7 +86,6 @@ MACRO def_object_events
 ENDM
 
 MACRO object_event
-; TODO: Remove unused argument \7 (Old HOUR_1)
 	db \3 ; sprite
 	db \2 + 4 ; y
 	db \1 + 4 ; x
@@ -118,17 +117,15 @@ MACRO object_event
 ENDM
 
 MACRO itemball_event
-	object_event \1, \2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_ITEMBALL, PLAYEREVENT_ITEMBALL, \3, \4, \5
+	object_event \1, \2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_ITEMBALL, PLAYEREVENT_ITEMBALL, \3, \4, \5
 ENDM
 
 MACRO keyitemball_event
-	assert _NARG == 4, "No quantity needed for keyitemball_event"
-	object_event \1, \2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_ITEMBALL, PLAYEREVENT_KEYITEMBALL, \3, \4
+	object_event \1, \2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_ITEMBALL, PLAYEREVENT_KEYITEMBALL, \3, \4
 ENDM
 
 MACRO tmhmball_event
-	assert _NARG == 4, "No quantity needed for tmhmball_event"
-	object_event \1, \2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_YELLOW, OBJECTTYPE_ITEMBALL, PLAYEREVENT_TMHMBALL, \3, \4
+	object_event \1, \2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_ITEMBALL, PLAYEREVENT_TMHMBALL, \3, \4
 ENDM
 
 MACRO cuttree_event
@@ -160,11 +157,7 @@ MACRO smashrock_event
 ENDM
 
 MACRO pokemon_event
-	if _NARG == 9
-		object_event \1, \2, SPRITE_MON_ICON, \4, 0, \3, \5, \6, \7, OBJECTTYPE_POKEMON, NO_FORM, \8, \9
-	else
-		object_event \1, \2, SPRITE_MON_ICON, \5, 0, \3, \6, \7, \8, OBJECTTYPE_POKEMON, \4, \9, \<10>
-	endc
+	object_event \1, \2, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, \3, \4, \5, \6, OBJECTTYPE_POKEMON, \3, \7, \8
 ENDM
 
 MACRO pc_nurse_event
@@ -177,7 +170,7 @@ ENDM
 
 
 MACRO trainer
-	; flag, group, id, seen text, win text, lost text, after script
+	; flag, group, id, seen text, win text, lost text, talk-again text
 	dw \3
 	db \1, \2
 	dw \4, \5, \6, \7

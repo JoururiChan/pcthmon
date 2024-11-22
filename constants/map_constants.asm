@@ -1,6 +1,6 @@
 MACRO newgroup
-	DEF const_value += 1
-	DEF __map_value__ = 1
+const_value += 1
+__map_value__ = 1
 ENDM
 
 MACRO map_const

@@ -17,15 +17,15 @@ else
 RGBDS :=
 endif
 
-Q :=
+ifeq ($(filter $(shell echo 'print __RGBDS_MAJOR__ || (!__RGBDS_MAJOR__ && __RGBDS_MINOR__ < 6)' | $(RGBDS_DIR)rgbasm -),$$0),)
+RGBGFX_FLAGS := -h
+else
+RGBGFX_FLAGS := -Z
+endif
 
-.SECONDEXPANSION:
-
-RGBASM_FLAGS     = -E -Q8 -P includes.asm -Weverything -Wnumeric-string=2 -Wtruncation=1
-RGBASM_VC_FLAGS  = $(RGBASM_FLAGS) -DVIRTUAL_CONSOLE
-RGBLINK_FLAGS    = -M -n $(ROM_NAME).sym    -m $(ROM_NAME).map    -p $(FILLER)
-RGBLINK_VC_FLAGS = -M -n $(ROM_NAME)_vc.sym -m $(ROM_NAME)_vc.map -p $(FILLER)
-RGBFIX_FLAGS     = -csjv -t $(TITLE) -i $(MCODE) -n $(ROMVERSION) -p $(FILLER) -k 01 -l 0x33 -m 0x10 -r 3
+RGBASM_FLAGS = -E -Weverything -Wnumeric-string=2 -Wtruncation=1
+RGBLINK_FLAGS = -n $(ROM_NAME).sym -m $(ROM_NAME).map -l layout.link -p $(FILLER)
+RGBFIX_FLAGS = -csjv -t $(TITLE) -i $(MCODE) -n $(ROMVERSION) -p $(FILLER) -k 01 -l 0x33 -m 0x10 -r 3
 
 ifeq ($(filter faithful,$(MAKECMDGOALS)),faithful)
 MODIFIERS := $(MODIFIERS)-faithful
@@ -169,9 +169,7 @@ $(ROM_NAME)_vc.gbc: $(crystal_vc_obj) layout.link
 	$Qcd bsp; ../tools/bspcomp patch.txt ../$@; cd ..
 
 
-gfx/battle/lyra_back.2bpp: rgbgfx += -Z
-gfx/battle/substitute-back.2bpp: rgbgfx += -Z
-gfx/battle/substitute-front.2bpp: rgbgfx += -Z
+gfx/battle/lyra_back.2bpp: rgbgfx += $(RGBGFX_FLAGS)
 
 gfx/battle_anims/angels.2bpp: tools/gfx += --trim-whitespace
 gfx/battle_anims/beam.2bpp: tools/gfx += --remove-xflip --remove-yflip --remove-whitespace
@@ -205,28 +203,27 @@ gfx/mail/surf_mail_border.1bpp: tools/gfx += --remove-whitespace
 gfx/music_player/bg.2bpp: tools/gfx += --trim-whitespace
 gfx/music_player/music_player.2bpp: gfx/music_player/bg.2bpp gfx/music_player/ob.2bpp ; $Qcat $^ > $@
 
-gfx/new_game/shrink1.2bpp: rgbgfx += -Z
-gfx/new_game/shrink2.2bpp: rgbgfx += -Z
+gfx/new_game/shrink1.2bpp: rgbgfx += $(RGBGFX_FLAGS)
+gfx/new_game/shrink2.2bpp: rgbgfx += $(RGBGFX_FLAGS)
 
 gfx/overworld/overworld.2bpp: gfx/overworld/puddle_splash.2bpp gfx/overworld/cut_grass.2bpp gfx/overworld/cut_tree.2bpp gfx/overworld/heal_machine.2bpp gfx/overworld/fishing_rod.2bpp gfx/overworld/shadow.2bpp gfx/overworld/shaking_grass.2bpp gfx/overworld/boulder_dust.2bpp ; $Qcat $^ > $@
 
 gfx/pack/pack_left.2bpp: tools/gfx += --trim-whitespace
 gfx/pack/pack_top_left.2bpp: gfx/pack/pack_top.2bpp gfx/pack/pack_left.2bpp ; $Qcat $^ > $@
 
-gfx/paintings/%.2bpp: rgbgfx += -Z
+gfx/paintings/%.2bpp: rgbgfx += $(RGBGFX_FLAGS)
 
-gfx/player/chris_back.2bpp: rgbgfx += -Z
-gfx/player/kris_back.2bpp: rgbgfx += -Z
-gfx/player/crys_back.2bpp: rgbgfx += -Z
+gfx/player/chris_back.2bpp: rgbgfx += $(RGBGFX_FLAGS)
+gfx/player/kris_back.2bpp: rgbgfx += $(RGBGFX_FLAGS)
 
-gfx/tohodex/%.bin: gfx/tohodex/%.tilemap gfx/tohodex/%.attrmap ; $Qcat $^ > $@
-gfx/tohodex/tohodex.2bpp: gfx/tohodex/tohodex0.2bpp gfx/tohodex/tohodex1.2bpp gfx/tohodex/area.2bpp ; $Qcat $^ > $@
-gfx/tohodex/question_mark.2bpp: rgbgfx += -Z
+gfx/pokedex/pokedex.2bpp: tools/gfx += --trim-whitespace
+gfx/pokedex/question_mark.2bpp: rgbgfx += $(RGBGFX_FLAGS)
+gfx/pokedex/slowpoke.2bpp: tools/gfx += --trim-whitespace
 
 gfx/pokegear/pokegear.2bpp: tools/gfx += --trim-whitespace
 gfx/pokegear/pokegear_sprites.2bpp: tools/gfx += --trim-whitespace
 
-gfx/pokemon/%/back.2bpp: rgbgfx += -Z
+gfx/pokemon/%/back.2bpp: rgbgfx += $(RGBGFX_FLAGS)
 
 gfx/pc/obj.2bpp: gfx/pc/modes.2bpp gfx/pc/bags.2bpp ; $Qcat $^ > $@
 
@@ -249,11 +246,10 @@ gfx/trade/ball_poof_cable.2bpp: gfx/trade/ball.2bpp gfx/trade/poof.2bpp gfx/trad
 gfx/trade/game_boy_cable.2bpp: gfx/trade/game_boy.2bpp gfx/trade/link_cable.2bpp ; $Qcat $^ > $@
 gfx/trade/trade_screen.2bpp: gfx/trade/border.2bpp gfx/trade/textbox.2bpp ; $Qcat $^ > $@
 
-gfx/trainer_card/chris_card.2bpp: rgbgfx += -Z
-gfx/trainer_card/kris_card.2bpp: rgbgfx += -Z
-gfx/trainer_card/crys_card.2bpp: rgbgfx += -Z
+gfx/trainer_card/chris_card.2bpp: rgbgfx += $(RGBGFX_FLAGS)
+gfx/trainer_card/kris_card.2bpp: rgbgfx += $(RGBGFX_FLAGS)
 
-gfx/trainers/%.2bpp: rgbgfx += -Z
+gfx/trainers/%.2bpp: rgbgfx += $(RGBGFX_FLAGS)
 
 gfx/type_chart/bg.2bpp: tools/gfx += --remove-duplicates --remove-xflip --remove-yflip
 gfx/type_chart/bg0.2bpp: gfx/type_chart/bg.2bpp.vram1p gfx/type_chart/bg.2bpp.vram0p ; $Qcat $^ > $@

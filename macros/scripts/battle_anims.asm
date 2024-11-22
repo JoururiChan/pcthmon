@@ -15,9 +15,6 @@ ENDM
 
 	const anim_obj_command ; d0
 MACRO anim_obj
-if HIGH(\1)
-	db anim_hiobj_command
-else
 	db anim_obj_command
 endc
 	db LOW(\1) ; object
@@ -91,14 +88,14 @@ MACRO anim_incbgeffect
 	db \1 ; effect
 ENDM
 
-	const anim_battlergfx_2row_command ; d9
-MACRO anim_battlergfx_2row
-	db anim_battlergfx_2row_command
+	const anim_enemyfeetobj_command ; d9
+MACRO anim_enemyfeetobj
+	db anim_enemyfeetobj_command
 ENDM
 
-	const anim_battlergfx_1row_command ; da
-MACRO anim_battlergfx_1row
-	db anim_battlergfx_1row_command
+	const anim_playerheadobj_command ; da
+MACRO anim_playerheadobj
+	db anim_playerheadobj_command
 ENDM
 
 	const anim_checkpokeball_command ; db
@@ -139,9 +136,9 @@ MACRO anim_cry
 	db \1 ; pitch
 ENDM
 
-	const anim_checkcriticalcapture_command ; e2
-MACRO anim_checkcriticalcapture
-	db anim_checkcriticalcapture_command
+	const anim_minimizeopp_command ; e2
+MACRO anim_minimizeopp
+	db anim_minimizeopp_command
 ENDM
 
 	const anim_oamon_command ; e3
@@ -164,9 +161,9 @@ MACRO anim_beatup
 	db anim_beatup_command
 ENDM
 
-	const anim_clearopponenthud_command ; e7
-MACRO anim_clearopponenthud
-	db anim_clearopponenthud_command
+	const anim_0xe7_command ; e7
+MACRO anim_0xe7
+	db anim_0xe7_command
 ENDM
 
 	const anim_updateactorpic_command ; e8
@@ -174,26 +171,30 @@ MACRO anim_updateactorpic
 	db anim_updateactorpic_command
 ENDM
 
-	const anim_setbgpal_command ; e9
-MACRO anim_setbgpal
-	db anim_setbgpal_command
-	db \1 ; pal index to set (0-7)
-	db \2 ; battle pal
+	const anim_minimize_command ; e9
+MACRO anim_minimize
+	db anim_minimize_command
 ENDM
 
-	const anim_setobjpal_command ; ea
-MACRO anim_setobjpal
-	db anim_setobjpal_command
-	db \1 ; pal index to set (0-7)
-	db \2 ; battle pal
+	const anim_0xea_command ; ea
+MACRO anim_0xea
+	db anim_0xea_command
 ENDM
 
-	; eb is reserved for $1xx anim objects, don't use!
-	const anim_hiobj_command ; eb
+	const anim_0xeb_command ; eb
+MACRO anim_0xeb
+	db anim_0xeb_command
+ENDM
 
-	const_skip ; ec
+	const anim_0xec_command ; ec
+MACRO anim_0xec
+	db anim_0xec_command
+ENDM
 
-	const_skip ; ed
+	const anim_0xed_command ; ed
+MACRO anim_0xed
+	db anim_0xed_command
+ENDM
 
 	const anim_jumpand_command ; ee
 MACRO anim_jumpand
@@ -240,11 +241,20 @@ MACRO anim_clearsprites
 	db anim_clearsprites_command
 ENDM
 
-	const_skip ; f5
+	const anim_0xf5_command ; f5
+MACRO anim_0xf5
+	db anim_0xf5_command
+ENDM
 
-	const_skip ; f6
+	const anim_0xf6_command ; f6
+MACRO anim_0xf6
+	db anim_0xf6_command
+ENDM
 
-	const_skip ; f7
+	const anim_0xf7_command ; f7
+MACRO anim_0xf7
+	db anim_0xf7_command
+ENDM
 
 	const anim_jumpif_command ; f8
 MACRO anim_jumpif

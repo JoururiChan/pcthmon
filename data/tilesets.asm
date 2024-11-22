@@ -1,9 +1,9 @@
 SECTION "Tileset Headers", ROMX
 
 MACRO tileset
-	dbas \1GFX0, \1GFX1, \1Meta, \1Coll, \1Attr
-	dw \1GFX2 ; BANK("Tileset GFX2 Data")
-	dw \1Anim ; BANK(_AnimateTileset)
+	dba \1GFX0, \1GFX1, \1GFX2
+	dba \1Meta, \1Coll, \1Attr
+	dw \1Anim
 ENDM
 
 Tilesets::

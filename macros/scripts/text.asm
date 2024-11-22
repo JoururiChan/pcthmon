@@ -5,70 +5,44 @@ DEF _compressing_text = 0
 ; Add an "@" terminator to compressed 'text' which uncompressed does not need.
 DEF _compression_terminator = 0
 
-; Text commands
-
-MACRO text_start
-; Enter text writing mode.
-	stop_compressing_text
-	db "<START>"
-ENDM
-
 MACRO text_ram
-; Write text from a RAM address.
-	stop_compressing_text
 	db "<RAM>"
-	dw \1 ; address
+	dw \1
 ENDM
 
 MACRO text_promptbutton
-; Wait for button press; show arrow.
-	stop_compressing_text
 	db "<WAIT>"
 ENDM
 
 MACRO text_asm
-; Start interpreting assembly code.
-	stop_compressing_text
 	db "<ASM>"
 ENDM
 
 MACRO text_decimal
-; Read bytes from address and print them as a number.
-	stop_compressing_text
 	db "<NUM>"
 	dw \1 ; address
 	dn \2, \3 ; bytes, digits
 ENDM
 
 MACRO text_pause
-; Pause for 30 frames unless A or B is pressed.
-	stop_compressing_text
 	db "<PAUSE>"
 ENDM
 
 MACRO text_sound
-; Play a sound effect.
-	stop_compressing_text
 	db "<SOUND>"
 	db \1 ; sfx
 ENDM
 
 MACRO text_today
-; Print the weekday.
-	stop_compressing_text
 	db "<DAY>"
 ENDM
 
 MACRO text_far
-; Write text from a different bank.
-	stop_compressing_text
 	db "<FAR>"
 	dab \1 ; text_pointer
 ENDM
 
 MACRO text_end
-; Stops processing text commands.
-	stop_compressing_text
 	db "@"
 ENDM
 

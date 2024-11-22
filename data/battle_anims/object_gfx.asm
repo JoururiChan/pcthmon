@@ -1,10 +1,7 @@
-MACRO battleanimgfx
-	db \1 ; # tiles
-	if _NARG == 2
-		fardw \2 ; label
-	else
-		dw NULL
-	endc
+MACRO anim_obj_gfx
+; # tiles, label
+	db  \1
+	dba \2
 ENDM
 
 AnimObjGFX:

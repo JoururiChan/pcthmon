@@ -1,7 +1,6 @@
 MACRO add_predef
-\1Predef::
-	db LOW(\1), BANK(\1), HIGH(\1)
-	assert warn, BANK(\1) != 0, "Predef in ROM0 \1"
+	\1Predef::
+	dbw BANK(\1), \1
 ENDM
 
 MACRO predef
