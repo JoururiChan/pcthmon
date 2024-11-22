@@ -1,5 +1,5 @@
 MACRO fishgroup
-; mon chance, mon/item chance, old rod, good rod, super rod
+; mon chance, mon+item chance, old rod, good rod, super rod
 	db \1, \2
 	dw \3, \4, \5
 ENDM

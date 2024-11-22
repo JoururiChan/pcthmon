@@ -1,10 +1,5 @@
-NUM_ODD_EGGS EQU 5
-ODD_EGG_LENGTH EQU 10
-
-MACRO prob
-prob_total += \1
-	dw prob_total * $ffff / 100
-ENDM
+DEF NUM_ODD_EGGS EQU 10
+DEF ODD_EGG_LENGTH EQU 10
 
 OddEggProbabilities:
 	table_width 1, OddEggProbabilities

@@ -23,10 +23,10 @@ MACRO dn ; "nybbles"
 ENDM
 
 MACRO dc ; "crumbs"
-rept _NARG / 4
-	db ((\1) << 6) | ((\2) << 4) | ((\3) << 2) | (\4)
-	shift 4
-endr
+	rept _NARG / 4
+		db ((\1) << 6) | ((\2) << 4) | ((\3) << 2) | (\4)
+		shift 4
+	endr
 ENDM
 
 MACRO dx ; x-byte (big-endian)
@@ -59,12 +59,21 @@ MACRO dab ; dwb address, bank
 	endr
 ENDM
 
+MACRO dr ; relative offset
+	db \1 - @
+ENDM
+
 MACRO dbpixel
 	if _NARG >= 4
 		db \1 * 8 + \3, \2 * 8 + \4
 	else
 		db \1 * 8, \2 * 8
 	endc
+ENDM
+
+MACRO dbsprite
+; x tile, y tile, x pixel, y pixel, vtile offset, attributes
+	db (\2 * TILE_WIDTH) % $100 + \4, (\1 * TILE_WIDTH) % $100 + \3, \5, \6
 ENDM
 
 MACRO dsprite
