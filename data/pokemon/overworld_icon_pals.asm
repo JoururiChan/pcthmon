@@ -282,8 +282,6 @@ rept NUM_KIKURI - 1
 	iconpal PURPLE, BROWN
 endr
 
-
-
 	iconpal RED, BLUE ; PICHU, PICHU_SPIKY_EARED_FORM
 
 rept NUM_LILYBLACK - 1

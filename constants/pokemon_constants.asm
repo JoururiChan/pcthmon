@@ -44,7 +44,7 @@
 	const CKIKURI      ; 17
 	const KIKURI      ; 18
 	const CSARIEL     ; 1a
-	const SARIEL  ; 1b
+	const SARIEL  ; 1c
 	const CKONGARA  ; 1d
 	const KONGARA   ; 1e
 	const CRIKA  ; 20

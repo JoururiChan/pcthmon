@@ -1267,9 +1267,9 @@ CLunasaZMiniMask:: INCBIN "gfx/minis/clunasa_z_mask.1bpp.lz"
 CLunasaZIcon::     INCBIN "gfx/icons/clunasa_z.2bpp.lz"
 
 SECTION "Sylveon Mini Icon", ROMX
-SylveonMini::     INCBIN "gfx/minis/sylveon.2bpp.lz"
-SylveonMiniMask:: INCBIN "gfx/minis/sylveon_mask.1bpp.lz"
-SylveonIcon::     INCBIN "gfx/icons/sylveon.2bpp.lz"
+SylveonMini::     INCBIN "gfx/minis/egg.2bpp.lz"
+SylveonMiniMask:: INCBIN "gfx/minis/egg_mask.1bpp.lz"
+SylveonIcon::     INCBIN "gfx/icons/egg.2bpp.lz"
 
 SECTION "Perrserker Mini Icon", ROMX
 PerrserkerMini::     INCBIN "gfx/minis/perrserker.2bpp.lz"
