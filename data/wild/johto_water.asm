@@ -361,21 +361,21 @@
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 10, LILYBLACK
 	wildmon LEVEL_FROM_BADGES - 5, LILYBLACK
-	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
+	wildmon LEVEL_FROM_BADGES + 0, CTEI
 	end_water_wildmons
 
 	def_water_wildmons QUIET_CAVE_B2F
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 10, LILYBLACK
 	wildmon LEVEL_FROM_BADGES - 5, LILYBLACK
-	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
+	wildmon LEVEL_FROM_BADGES + 0, CTEI
 	end_water_wildmons
 
 	def_water_wildmons QUIET_CAVE_B3F
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 10, LILYBLACK
 	wildmon LEVEL_FROM_BADGES - 5, LILYBLACK
-	wildmon LEVEL_FROM_BADGES + 0, CHINCHOU
+	wildmon LEVEL_FROM_BADGES + 0, CTEI
 	end_water_wildmons
 
 	def_water_wildmons MURKY_SWAMP

@@ -316,7 +316,7 @@ BattleCommand_checkturn:
 	jr z, .thaw
 	cp SCALD
 	jr z, .thaw
-	cp HEAT_SMASH
+	cp FLARE_OUT
 	jr z, .thaw
 
 	; Check for defrosting
@@ -384,7 +384,7 @@ BattleCommand_checkturn:
 .not_confused
 	ld a, BATTLE_VARS_SUBSTATUS1
 	call GetBattleVar
-	add a ; bit SUBSTATUS_ATTRACT
+	add a ; bit SUBSTATUS_LUSTER_HEART
 	jr nc, .not_infatuated
 
 	ld hl, InLoveWithText
@@ -3017,7 +3017,7 @@ CheckSheerForceNegation:
 
 ConsumeStolenOpponentItem::
 ; Separate function, since used items/cud chew berry shouldn't (necessarily)
-; be updated when force-eating a berry via Leaf Snip
+; be updated when force-eating a berry via Seed Pelt
 	call StackCallOpponentTurn
 .Function:
 	call GetConsumedItemVars
@@ -5940,7 +5940,7 @@ BattleCommand_recoil:
 	ld a, b
 	cp DOUBLE_EDGE
 	jr z, .OneThirdRecoil
-	cp HEAT_SMASH
+	cp FLARE_OUT
 	jr z, .OneThirdRecoil
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
@@ -6245,7 +6245,7 @@ PrintButItFailed:
 	jmp StdBattleTextbox
 
 FailDisable:
-FailAttract:
+FailLusterHeart:
 FailForesight:
 FailSpikes:
 PrintDidntAffect2:

@@ -21,7 +21,7 @@ Route9_MapScriptHeader:
 	object_event 34,  3, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerHikerTim, -1
 	object_event 44, 15, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerHikerSidney, -1
 	itemball_event 26,  2, MAX_POTION, 1, EVENT_ROUTE_9_MAX_POTION
-	tmhmball_event 45,  2, TM_FLASH_CANNON, EVENT_ROUTE_9_TM_FLASH_CANNON
+	tmhmball_event 45,  2, TM_STAR_CANNON, EVENT_ROUTE_9_TM_STAR_CANNON
 	cuttree_event  4,  8, EVENT_ROUTE_9_CUT_TREE
 
 GenericTrainerCamperDean:

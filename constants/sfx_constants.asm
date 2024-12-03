@@ -132,10 +132,10 @@
 	const SFX_SLUDGE_BOMB                 ; 80
 	const SFX_FORESIGHT                   ; 81
 	const SFX_SPITE                       ; 82
-	const SFX_FLAME_HIT                     ; 83
+	const SFX_HOLY_LANCE                     ; 83
 	const SFX_SHADOW_DANCE                 ; 84
 	const SFX_GIGA_DRAIN                  ; 85
-	const SFX_ATTRACT                     ; 86
+	const SFX_LUSTER_HEART                     ; 86
 	const SFX_KINESIS_2                   ; 87
 	const SFX_ZAP_CANNON                  ; 88
 	const SFX_MEAN_LOOK                   ; 89
@@ -198,7 +198,7 @@
 	const SFX_LYRICA_POP_UP                ; c1
 	const SFX_LYRICA_RECOLLECT             ; c2
 	const SFX_INTRO_SUICUNE_1             ; c3
-	const SFX_INTRO_PICHU                 ; c4
+	const SFX_INTRO_TTEI                 ; c4
 	const SFX_INTRO_SUICUNE_2             ; c5
 	const SFX_INTRO_SUICUNE_3             ; c6
 	const SFX_LYRICA_BOUNCE                ; c7

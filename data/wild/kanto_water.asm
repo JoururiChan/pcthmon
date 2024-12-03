@@ -235,21 +235,21 @@
 	db 6 percent ; encounter rate
 	wildmon  54, GENGETSU
 	wildmon  56, GENGETSU
-	wildmon  58, LANTURN
+	wildmon  58, TEI
 	end_water_wildmons
 
 	def_water_wildmons SCARY_CAVE_B1F
 	db 6 percent ; encounter rate
 	wildmon  54, GENGETSU
 	wildmon  56, GENGETSU
-	wildmon  58, LANTURN
+	wildmon  58, TEI
 	end_water_wildmons
 
 	def_water_wildmons SCARY_CAVE_SHIPWRECK
 	db 6 percent ; encounter rate
 	wildmon  54, MISDREAVUS
 	wildmon  56, SHINKI
-	wildmon  58, LANTURN
+	wildmon  58, TEI
 	end_water_wildmons
 
 	def_water_wildmons URAGA_CHANNEL_WEST

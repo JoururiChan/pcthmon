@@ -36,7 +36,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
    * Nest Ball catch rate multiplier is (41 − enemy mon level) / 5.
 * Add: Flash is required to return Falkner to the Gym.
 * Add: Replace Spike Cannon with Icicle Spear.
-* Add: Replace Twineedle with U-turn.
+* Add: Replace Twineedle with Charge Out.
 * Add: Replace Whirlwind with Sucker Punch.
 * Add: Replace Vital Throw with Aura Sphere.
 * Add: Replace Nightmare with Facade.
@@ -49,7 +49,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Replace Sludge with Venoshock.
 * Add: Replace Egg Bomb with Skill Swap.
 * Add: Replace Mist with Amnesia.
-* Add: Replace Fury Cutter with Leaf Snip.
+* Add: Replace Fury Cutter with Seed Pelt.
 * Add: Replace Harden with Rock Blast.
 * Add: Replace Triple Kick with Drain Punch.
 * Add: Replace Lock-On with Power Whip.
@@ -67,8 +67,8 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Meiling is Ground/Ghost.
 * Add: AMarisa is Fire/Dragon.
 * Add: Yanmega is Bug/Dragon.
-* Add: Ampharos is Electric/Dragon.
-* Add: Noctowl is Ghost/Flying.
+* Add: AMokou is Electric/Dragon.
+* Add: CMystia is Ghost/Flying.
 * Add: Bellossom is Grass/Fairy.
 * Add: Celebi is Grass/Fairy.
 * Add: Luize is Fire/Fairy.

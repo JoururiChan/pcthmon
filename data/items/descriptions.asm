@@ -1426,7 +1426,7 @@ BlueSkyMailDesc:
 	done
 
 MusicMailDesc:
-	text "Natu-print Mail."
+	text "Kaguya-print Mail."
 	next "(Hold)"
 	done
 

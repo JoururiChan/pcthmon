@@ -43,12 +43,12 @@
 
 ; gen 2
 	const CRY_MARILL
-	const CRY_SPINARAK
-	const CRY_TOGEPI
+	const CRY_CKEINE
+	const CRY_TEIRIN
 	const CRY_GIRAFARIG
 	const CRY_RAIKOU
-	const CRY_MAREEP
-	const CRY_TOGETIC
+	const CRY_CMOKOU
+	const CRY_CKAGUYA
 	const CRY_HOOTHOOT
 	const CRY_SENTRET
 	const CRY_SLOWKING
@@ -58,17 +58,17 @@
 	const CRY_GLIGAR
 	const CRY_BELLOSSOM
 	const CRY_SLUGMA
-	const CRY_LEDYBA
+	const CRY_MYSTIA
 	const CRY_ENTEI
 	const CRY_WOOPER
 	const CRY_MANTINE
 	const CRY_TREISEN
-	const CRY_NATU
+	const CRY_KAGUYA
 	const CRY_TEDDIURSA
 	const CRY_REMORAID
-	const CRY_AMPHAROS
+	const CRY_AMOKOU
 	const CRY_MAGCARGO
-	const CRY_PICHU
+	const CRY_TTEI
 	const CRY_TYROGUE
 	const CRY_DUNSPARCE
 	const CRY_DONPHAN

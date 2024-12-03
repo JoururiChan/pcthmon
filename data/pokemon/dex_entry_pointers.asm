@@ -138,27 +138,27 @@ TohodexDataPointerTable:
 	dba CSanaeTohodexEntry
 	dba SanaeTohodexEntry
 	dba DSanaeTohodexEntry
-	dba SentretTohodexEntry
-	dba FurretTohodexEntry
-	dba HoothootTohodexEntry
-	dba NoctowlTohodexEntry
-	dba LedybaTohodexEntry
-	dba LedianTohodexEntry
-	dba SpinarakTohodexEntry
-	dba AriadosTohodexEntry
-	dba CrobatTohodexEntry
-	dba ChinchouTohodexEntry
-	dba LanturnTohodexEntry
-	dba PichuTohodexEntry
-	dba CleffaTohodexEntry
-	dba IgglybuffTohodexEntry
-	dba TogepiTohodexEntry
-	dba TogeticTohodexEntry
-	dba NatuTohodexEntry
-	dba XatuTohodexEntry
-	dba MareepTohodexEntry
-	dba FlaaffyTohodexEntry
-	dba AmpharosTohodexEntry
+	dba CWriggleTohodexEntry
+	dba WriggleTohodexEntry
+	dba SWriggleTohodexEntry
+	dba CMystiaTohodexEntry
+	dba MystiaTohodexEntry
+	dba TMystiaTohodexEntry
+	dba CKeineTohodexEntry
+	dba KeineTohodexEntry
+	dba AKeineTohodexEntry
+	dba CTeiTohodexEntry
+	dba TeiTohodexEntry
+	dba TTeiTohodexEntry
+	dba CEirinTohodexEntry
+	dba EirinTohodexEntry
+	dba TEirinTohodexEntry
+	dba CKaguyaTohodexEntry
+	dba KaguyaTohodexEntry
+	dba TKaguyaTohodexEntry
+	dba CMokouTohodexEntry
+	dba MokouTohodexEntry
+	dba AMokouTohodexEntry
 	dba BellossomTohodexEntry
 	dba MarillTohodexEntry
 	dba AzumarillTohodexEntry

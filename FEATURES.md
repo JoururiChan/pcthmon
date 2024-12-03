@@ -11,7 +11,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 * The entire Tohodex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Murkrow, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
 * Added: Leafeon, Glaceon, Sylveon, Togekiss, Weavile, Honchkrow, Mismagius, Electivire, Magmortar, Magnezone, Tangrowth, Rhyperior, CLunasa-Z, Yanmega, Gliscor, Mamoswine, and Munchlax.
-* Removed: Elis, EElis, Koakuma, AFlandre, CLetty, Hoppip, Skiploom, Jumpluff, Shuckle, Aipom, Stantler, Cleffa, Igglybuff, Smoochum, and Delibird.
+* Removed: Elis, EElis, Koakuma, AFlandre, CLetty, Hoppip, Skiploom, Jumpluff, Shuckle, Aipom, Stantler, CEirin, Eirin, Smoochum, and Delibird.
 * New evolution methods work, like TLyrica evolving into Glaceon near Ice Rock, or Yanma evolving into Yanmega when knowing AncientPower.
 * Item trade evolutions (like Flandre holding a Dragon Scale) now evolve by leveling up while holding the item.
 * AYuka, Sara, Shinki, and EElly evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
@@ -20,8 +20,8 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 ## Moves
 
-* Added: Aerial Ace, Air Slash, Aqua Cut, Astonish, Avalanche, Spirit Voice, Bulk Up, Steel Fist, Calm Mind, Dark Pulse, Energy Light, Disarm Voice, Shadow Force, Dragon Dance, Enigma Burst, Drain Kiss, Earth Power, Energy Ball, Lunacy_Eyes, Fairy Wind, Lavatein, Flash Cannon, Focus Blast, Gunk Shot, Hail, Hex, Hone Tools, Hurricane, Hyper Voice, Ice Shard, Icicle Crash, Iron Head, Metal Sound, Moonblast, Nasty Plot, Night Slash, Play Rough, Poison Jab, Power Gem, Psystrike, Scald, Seed Bomb, Shadow Hit, Stone Rise, Water Pulse, Wild Charge, Will-O-Wisp, Crash Cross, and Zen Headbutt.
-* Removed: Acid Armor, Amnesia, Barrage, Beat Up, Bide, Bind, Bone Club, Bone Rush, Bubble, Clamp, Comet Punch, Constrict, Conversion2, Cotton Spore, Detect, Fissure, Frustration, Guillotine, Horn Drill, Jump Kick, Kinesis, Lovely Kiss, Meditate, Mega Kick, Mega Punch, Mimic, Mind Reader, Mirror Move, Poison Gas, Powder Snow, Present, Psych Up, Psywave, Razor Wind, Rolling Kick, Sharpen, Skull Bash, Smog, Snore, Spider Web, Spite, Sweet Scent, Synthesis, Tail Whip, Vice Grip, and Withdraw.
+* Added: Aerial Ace, Air Slash, Aqua Cut, Astonish, Avalanche, Spirit Voice, Bulk Up, Steel Fist, Calm Mind, Dark Pulse, Energy Light, Disarm Voice, Poison Claw, Dragon Dance, Voice Burst, Drain Kiss, Earth Power, Energy Ball, Lunacy_Eyes, Fairy Wind, Lavatein, Star Cannon, Focus Blast, Gunk Shot, Hail, Hex, Hone Tools, Hurricane, Hyper Voice, Ice Shard, Icicle Crash, Iron Head, Metal Sound, Moonblast, Nasty Plot, Night Slash, Play Rough, Poison Jab, Power Gem, Psystrike, Scald, Seed Bomb, Shadow Hit, Stone Hit, Water Pulse, Wild Charge, Will-O-Wisp, Cross Jam, and Zen Headbutt.
+* Removed: PoisonTears Armor, Amnesia, Barrage, Beat Up, Bide, Bind, Bone Club, Bone Rush, Bubble, Clamp, Comet Punch, Constrict, Conversion2, Cotton Spore, Detect, Fissure, Frustration, Guillotine, Horn Drill, Jump Kick, Kinesis, Lovely Kiss, Meditate, Mega Kick, Mega Punch, Mimic, Mind Reader, Mirror Move, Poison Gas, Powder Snow, Present, Psych Up, Psywave, Razor Wind, Rolling Kick, Sharpen, Skull Bash, Smog, Snore, Spider Web, Spite, Sweet Scent, Synthesis, Tail Whip, Vice Grip, and Withdraw.
 * Learnsets have been updated close to Gen VI, with missing moves replaced by similar, egg, TM, or event-exclusive moves.
 
 
@@ -185,8 +185,8 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * SYoumu is Grass/Fairy.
 * TReisen is Fire/Ground.
 * DSanae is Water/Dark.
-* Noctowl is Flying/Psychic.
-* Ledian is Bug/Dream.
+* CMystia is Flying/Psychic.
+* TMystia is Bug/Dream.
 * Sunflora is Grass/Fire.
 * Politoed is Water/Grass.
 * Dunsparce is Illusion/Ground.

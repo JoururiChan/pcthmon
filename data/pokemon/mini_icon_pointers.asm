@@ -141,27 +141,27 @@ MiniIconPointers:
 	mini_icon CSanae
 	mini_icon Sanae
 	mini_icon DSanae
-	mini_icon Sentret
-	mini_icon Furret
-	mini_icon Hoothoot
-	mini_icon Noctowl
-	mini_icon Ledyba
-	mini_icon Ledian
-	mini_icon Spinarak
-	mini_icon Ariados
-	mini_icon Crobat
-	mini_icon Chinchou
-	mini_icon Lanturn
-	mini_icon Pichu
-	mini_icon Cleffa
-	mini_icon Igglybuff
-	mini_icon Togepi
-	mini_icon Togetic
-	mini_icon Natu
-	mini_icon Xatu
-	mini_icon Mareep
-	mini_icon Flaaffy
-	mini_icon Ampharos
+	mini_icon CWriggle
+	mini_icon Wriggle
+	mini_icon SWriggle
+	mini_icon CMystia
+	mini_icon Mystia
+	mini_icon TMystia
+	mini_icon CKeine
+	mini_icon Keine
+	mini_icon AKeine
+	mini_icon CTei
+	mini_icon Tei
+	mini_icon TTei
+	mini_icon CEirin
+	mini_icon Eirin
+	mini_icon TEirin
+	mini_icon CKaguya
+	mini_icon Kaguya
+	mini_icon TKaguya
+	mini_icon CMokou
+	mini_icon Mokou
+	mini_icon AMokou
 	mini_icon Bellossom
 	mini_icon Marill
 	mini_icon Azumarill
@@ -307,7 +307,7 @@ MiniIconPointers:
 	mini_icon Kikuri ; Agatha
 	mini_icon Kikuri ; Ariana
 
-	mini_icon Pichu ; Spiky
+	mini_icon TTei ; Spiky
 
 rept NUM_LILYBLACK - 1
 	mini_icon LilyBlack

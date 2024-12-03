@@ -39,7 +39,7 @@ SpriteAnimFrameData:
 	dw .Frameset_BlueWalk
 	dw .Frameset_IntroSuicune
 	dw .Frameset_IntroSuicune2
-	dw .Frameset_IntroPichu
+	dw .Frameset_IntroTTei
 	dw .Frameset_IntroWooper
 	dw .Frameset_IntroUnown1
 	dw .Frameset_IntroUnown2
@@ -289,10 +289,10 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_INTRO_SUICUNE_1,  7
 	oamend
 
-.Frameset_IntroPichu:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_PICHU_1, 32
-	oamframe SPRITE_ANIM_OAMSET_INTRO_PICHU_2,  7
-	oamframe SPRITE_ANIM_OAMSET_INTRO_PICHU_3,  7
+.Frameset_IntroTTei:
+	oamframe SPRITE_ANIM_OAMSET_INTRO_TTEI_1, 32
+	oamframe SPRITE_ANIM_OAMSET_INTRO_TTEI_2,  7
+	oamframe SPRITE_ANIM_OAMSET_INTRO_TTEI_3,  7
 	oamend
 
 .Frameset_IntroWooper:

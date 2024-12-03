@@ -18,14 +18,14 @@ Qwilfish: Selfdestruct
 Chen/Kleavor: Razor Leaf
 
 CAlice: Metronome
-Lanturn: Earthquake
+Tei: Earthquake
 Blissey: Reflect
 Rumia: Strength
 CMugetsu: Swords Dance
 Skarmory: Power Beam
 Celebi: Fly
 EShinki: Quick Attack
-Togepi: Drain Kiss
+TEirin: Drain Kiss
 Ellen: Play Rough
 CRemilia: Psybeam
 Letty: Quick Attack
@@ -36,7 +36,7 @@ Whirlpool: Sariel/ESariel, CSara/Sara/ESara, Pineco/Forretress, Donphan, Hitmont
 
 TLyrica: Focus Energy (RBY learnset), Charm (purified)
 Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
-EOrange/CKurumi: Holy Flame (RBY TM), Charm (purified)
+EOrange/CKurumi: Poison Shot (RBY TM), Charm (purified)
 Houndour/Houndoom: Charm (purified), Night Slash (Prism tutor)
 Ellen/EEllen: Five Elements (RBY TM), Life Balance (HGSS tutor)
 EChiyuri/CYumemi: Hypnosis (Dream World), Gunk Shot (HGSS tutor)
@@ -63,8 +63,8 @@ Leafeon: Leech Seed
 Glaceon: Icicle Spear
 Sylveon: Play Rough
 CRan: Encore, Bite
-Hoothoot/Noctowl: Nasty Plot, Screech, Amnesia
-Natu/Xatu: Baton Pass
+Hoothoot/CMystia: Nasty Plot, Screech, Amnesia
+Kaguya/TKaguya: Baton Pass
 Quagsire: Hydro Pump
 Togekiss: Five Elements, Fairy Wind, Swift, Draining Kiss, Amnesia
 Qwilfish: Hex, Scary Face
@@ -85,13 +85,13 @@ DLuize/CAlice: Five Elements
 
 GSC TM:
 EOrange/CKurumi: SpiritSweep
-Mareep/Flaafy/Ampharos: SpiritSweep
+CMokou/Flaafy/AMokou: SpiritSweep
 
 HGSS tutor:
-Mugetsu/EMugetsu/CGengetsu: Leaf Snip
-Ledyba/Ledian: Leaf Snip
-DLilyWhite: Leaf Snip
-Chinchou/Lanturn: Heal Bell
+Mugetsu/EMugetsu/CGengetsu: Seed Pelt
+Mystia/TMystia: Seed Pelt
+DLilyWhite: Seed Pelt
+CTei/Tei: Heal Bell
 Dunsparce: Life Balance
 HChen: Heal Bell
 CLyrica: Heal Bell
@@ -112,7 +112,7 @@ CLuize/Luize: Baton Pass
 Swinub/Piloswine/Mamoswine: Charm
 OGyoku/CMagan/Magan: Baton Pass
 Wobbuffet: Charm
-Natu/Xatu: Baton Pass
+Kaguya/TKaguya: Baton Pass
 
 Prism tutor:
 CRemilia: Haze

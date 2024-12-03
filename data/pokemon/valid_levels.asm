@@ -138,27 +138,27 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  15 ; CSanae
 	db  16,  31 ; Sanae
 	db  32, 100 ; DSanae
-	db   1,  14 ; Sentret
-	db  15, 100 ; Furret
-	db   1,  19 ; Hoothoot
-	db  20, 100 ; Noctowl
-	db   1,  17 ; Ledyba
-	db  18, 100 ; Ledian
-	db   1,  21 ; Spinarak
-	db  22, 100 ; Ariados
-	db  32, 100 ; Crobat
-	db   1,  26 ; Chinchou
-	db  27, 100 ; Lanturn
-	db   1,  19 ; Pichu
-	db   1,  19 ; Cleffa
-	db   1,  19 ; Igglybuff
-	db   1,  19 ; Togepi
-	db  20,  39 ; Togetic
-	db   1,  24 ; Natu
-	db  25, 100 ; Xatu
-	db   1,  14 ; Mareep
-	db  15,  29 ; Flaaffy
-	db  30, 100 ; Ampharos
+	db   1,  14 ; CWriggle
+	db  15, 100 ; Wriggle
+	db   1,  19 ; SWriggle
+	db  20, 100 ; CMystia
+	db   1,  17 ; Mystia
+	db  18, 100 ; TMystia
+	db   1,  21 ; CKeine
+	db  22, 100 ; Keine
+	db  32, 100 ; AKeine
+	db   1,  26 ; CTei
+	db  27, 100 ; Tei
+	db   1,  19 ; TTei
+	db   1,  19 ; CEirin
+	db   1,  19 ; Eirin
+	db   1,  19 ; TEirin
+	db  20,  39 ; CKaguya
+	db   1,  24 ; Kaguya
+	db  25, 100 ; TKaguya
+	db   1,  14 ; CMokou
+	db  15,  29 ; Mokou
+	db  30, 100 ; AMokou
 	db  32, 100 ; Bellossom
 	db   1,  17 ; Marill
 	db  18, 100 ; Azumarill

@@ -139,27 +139,27 @@ NewTohodexOrder:
 	dp CSANAE   ; 9e
 	dp SANAE   ; 9f
 	dp DSANAE ; a0
-	dp SENTRET    ; a1
-	dp FURRET     ; a2
-	dp HOOTHOOT   ; a3
-	dp NOCTOWL    ; a4
-	dp LEDYBA     ; a5
-	dp LEDIAN     ; a6
-	dp SPINARAK   ; a7
-	dp ARIADOS    ; a8
-	dp CROBAT     ; a9
-	dp CHINCHOU   ; aa
-	dp LANTURN    ; ab
-	dp PICHU      ; ac
-	dp CLEFFA     ; ad
-	dp IGGLYBUFF  ; ae
-	dp TOGEPI     ; af
-	dp TOGETIC    ; b0
-	dp NATU       ; b1
-	dp XATU       ; b2
-	dp MAREEP     ; b3
-	dp FLAAFFY    ; b4
-	dp AMPHAROS   ; b5
+	dp CWRIGGLE    ; a1
+	dp WRIGGLE     ; a2
+	dp SWRIGGLE   ; a3
+	dp CMYSTIA    ; a4
+	dp MYSTIA     ; a5
+	dp TMYSTIA     ; a6
+	dp CKEINE   ; a7
+	dp KEINE    ; a8
+	dp AKEINE     ; a9
+	dp CTEI   ; aa
+	dp TEI    ; ab
+	dp TTEI      ; ac
+	dp CEIRIN     ; ad
+	dp EIRIN  ; ae
+	dp TEIRIN     ; af
+	dp CKAGUYA    ; b0
+	dp KAGUYA       ; b1
+	dp TKAGUYA       ; b2
+	dp CMOKOU     ; b3
+	dp MOKOU    ; b4
+	dp AMOKOU   ; b5
 	dp BELLOSSOM  ; b6
 	dp MARILL     ; b7
 	dp AZUMARILL  ; b8

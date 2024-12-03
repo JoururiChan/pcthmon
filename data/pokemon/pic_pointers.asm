@@ -141,27 +141,27 @@ PokemonPicPointers::
 	pics CSanae
 	pics Sanae
 	pics DSanae
-	pics Sentret
-	pics Furret
-	pics Hoothoot
-	pics Noctowl
-	pics Ledyba
-	pics Ledian
-	pics Spinarak
-	pics Ariados
-	pics Crobat
-	pics Chinchou
-	pics Lanturn
-	pics Pichu
-	pics Cleffa
-	pics Igglybuff
-	pics Togepi
-	pics Togetic
-	pics Natu
-	pics Xatu
-	pics Mareep
-	pics Flaaffy
-	pics Ampharos
+	pics CWriggle
+	pics Wriggle
+	pics SWriggle
+	pics CMystia
+	pics Mystia
+	pics TMystia
+	pics CKeine
+	pics Keine
+	pics AKeine
+	pics CTei
+	pics Tei
+	pics TTei
+	pics CEirin
+	pics Eirin
+	pics TEirin
+	pics CKaguya
+	pics Kaguya
+	pics TKaguya
+	pics CMokou
+	pics Mokou
+	pics AMokou
 	pics Bellossom
 	pics Marill
 	pics Azumarill
@@ -307,7 +307,7 @@ PokemonPicPointers::
 	pics KikuriAgatha
 	pics KikuriAriana
 
-	pics PichuSpiky
+	pics TTeiSpiky
 
 	pics LilyBlackSkelly
 	pics LilyBlackCalico1

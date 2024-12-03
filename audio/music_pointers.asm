@@ -156,12 +156,12 @@ Music:
 	dba Music_ZinniaBattleORAS
 	dba Music_WallyEncounterORAS
 	dba Music_WallyBattleORAS
-	dba Music_SpikyEaredPichuHGSS
+	dba Music_SpikyEaredTTeiHGSS
 	dba Music_MotherBeastBattleSM
 	dba Music_FrostCavernXY
 	dba Music_PowerPlantXY
 	dba Music_ReversalMountainWhite2
-	dba Music_FireBreathsRSE
+	dba Music_FlameShootsRSE
 	dba Music_LugiasSong2000_NoIntro
 	dba Music_LugiaBattleHGSS
 	dba Music_SummoningDanceHGSS

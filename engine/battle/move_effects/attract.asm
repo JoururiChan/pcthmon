@@ -32,7 +32,7 @@ BattleCommand_attract:
 	and a
 	ret nz
 
-	jmp FailAttract
+	jmp FailLusterHeart
 
 .no_ability_protection
 	; maybe this was called by cute charm

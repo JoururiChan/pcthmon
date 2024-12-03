@@ -137,27 +137,27 @@ FootprintPointers::
 	dw CSanaeFootprint
 	dw SanaeFootprint
 	dw DSanaeFootprint
-	dw SentretFootprint
-	dw FurretFootprint
-	dw HoothootFootprint
-	dw NoctowlFootprint
-	dw LedybaFootprint
-	dw LedianFootprint
-	dw SpinarakFootprint
-	dw AriadosFootprint
-	dw CrobatFootprint
-	dw ChinchouFootprint
-	dw LanturnFootprint
-	dw PichuFootprint
-	dw CleffaFootprint
-	dw IgglybuffFootprint
-	dw TogepiFootprint
-	dw TogeticFootprint
-	dw NatuFootprint
-	dw XatuFootprint
-	dw MareepFootprint
-	dw FlaaffyFootprint
-	dw AmpharosFootprint
+	dw CWriggleFootprint
+	dw WriggleFootprint
+	dw SWriggleFootprint
+	dw CMystiaFootprint
+	dw MystiaFootprint
+	dw TMystiaFootprint
+	dw CKeineFootprint
+	dw KeineFootprint
+	dw AKeineFootprint
+	dw CTeiFootprint
+	dw TeiFootprint
+	dw TTeiFootprint
+	dw CEirinFootprint
+	dw EirinFootprint
+	dw TEirinFootprint
+	dw CKaguyaFootprint
+	dw KaguyaFootprint
+	dw TKaguyaFootprint
+	dw CMokouFootprint
+	dw MokouFootprint
+	dw AMokouFootprint
 	dw BellossomFootprint
 	dw MarillFootprint
 	dw AzumarillFootprint

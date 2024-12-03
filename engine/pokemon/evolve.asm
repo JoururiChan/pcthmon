@@ -149,14 +149,14 @@ EvolveAfterBattle_MasterLoop:
 	call IsMonHoldingEverstone
 	jmp z, .dont_evolve_2
 
-	; Spiky-eared Pichu cannot evolve
+	; Spiky-eared TTei cannot evolve
 	ld a, [wTempMonSpecies]
-	cp LOW(PICHU)
+	cp LOW(TTEI)
 	jr nz, .not_spiky_eared_pichu
 	ld a, [wTempMonForm]
-	assert !HIGH(PICHU)
+	assert !HIGH(TTEI)
 	and SPECIESFORM_MASK
-	cp PICHU_SPIKY_EARED_FORM
+	cp TTEI_SPIKY_EARED_FORM
 	jmp z, .dont_evolve_2
 
 .not_spiky_eared_pichu

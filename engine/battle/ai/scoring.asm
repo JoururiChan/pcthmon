@@ -346,7 +346,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_HEAL_BELL,         AI_Smart_HealBell
 	dbw EFFECT_PRIORITY_HIT,      AI_Smart_PriorityHit
 	dbw EFFECT_MEAN_LOOK,         AI_Smart_MeanLook
-	dbw EFFECT_HEAT_SMASH,       AI_Smart_Defrost
+	dbw EFFECT_FLARE_OUT,       AI_Smart_Defrost
 	dbw EFFECT_SACRED_FIRE,       AI_Smart_Defrost
 	dbw EFFECT_CURSE,             AI_Smart_Curse
 	dbw EFFECT_PROTECT,           AI_Smart_Protect
@@ -355,7 +355,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_ENDURE,            AI_Smart_Endure
 	dbw EFFECT_TREMORS,           AI_Smart_Tremors
 	dbw EFFECT_SWAGGER,           AI_Smart_Swagger
-	dbw EFFECT_ATTRACT,           AI_Smart_Attract
+	dbw EFFECT_LUSTER_HEART,           AI_Smart_LusterHeart
 	dbw EFFECT_SAFEGUARD,         AI_Smart_Safeguard
 	dbw EFFECT_MAGNITUDE,         AI_Smart_Magnitude
 	dbw EFFECT_BATON_PASS,        AI_Smart_BatonPass
@@ -1677,7 +1677,7 @@ AI_Smart_Tremors:
 	ret
 
 AI_Smart_Swagger:
-AI_Smart_Attract:
+AI_Smart_LusterHeart:
 ; 80% chance to encourage this move during the first turn of player's Pokemon.
 ; 80% chance to discourage this move otherwise.
 
@@ -2550,7 +2550,7 @@ AI_Status:
 	jr z, .sleep
 	cp EFFECT_CONFUSE
 	jr z, .confusion
-	cp EFFECT_ATTRACT
+	cp EFFECT_LUSTER_HEART
 	jr z, .attract
 	pop hl
 	pop de

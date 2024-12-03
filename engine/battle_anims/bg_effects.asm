@@ -92,7 +92,7 @@ BattleBGEffects:
 	dw BattleBGEffect_BattlerObj_1Row
 	dw BattleBGEffect_BattlerObj_2Row
 	dw BattleBGEffect_DoubleTeam
-	dw BattleBGEffect_AcidArmor
+	dw BattleBGEffect_PoisonTearsArmor
 	dw BattleBGEffect_RapidFlash
 	dw BattleBGEffect_FadeMonToLight
 	dw BattleBGEffect_FadeMonToBlack
@@ -1116,7 +1116,7 @@ BattleBGEffect_DoubleTeam:
 	ld [hl], e
 	ret
 
-BattleBGEffect_AcidArmor:
+BattleBGEffect_PoisonTearsArmor:
 	call BattleBGEffects_AnonJumptable
 .anon_dw
 	dw .zero

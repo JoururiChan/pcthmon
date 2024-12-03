@@ -313,37 +313,37 @@
 	; morn
 	wildmon 56, CMIMA
 	wildmon 56, CELIS
-	wildmon 57, FURRET
+	wildmon 57, WRIGGLE
 	wildmon 57, CMIMA
-	wildmon 59, FURRET
+	wildmon 59, WRIGGLE
 	wildmon 60, MIMA
 	wildmon 60, MIMA
 	; day
 	wildmon 56, CMIMA
 	wildmon 56, CELIS
-	wildmon 57, FURRET
+	wildmon 57, WRIGGLE
 	wildmon 57, CMIMA
-	wildmon 59, FURRET
+	wildmon 59, WRIGGLE
 	wildmon 60, MIMA
 	wildmon 60, MIMA
 	; nite
-	wildmon 56, NOCTOWL
+	wildmon 56, CMYSTIA
 	wildmon 56, CELIS
 	wildmon 57, CELIS
-	wildmon 57, NOCTOWL
+	wildmon 57, CMYSTIA
 	wildmon 59, CELIS
-	wildmon 60, NOCTOWL
-	wildmon 60, NOCTOWL
+	wildmon 60, CMYSTIA
+	wildmon 60, CMYSTIA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_2_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 55, FGYOKU
-	wildmon 54, LEDIAN
+	wildmon 54, TMYSTIA
 	wildmon 57, CMIMA
 	wildmon 57, FGYOKU
-	wildmon 56, LEDIAN
+	wildmon 56, TMYSTIA
 	wildmon 58, CMIMA
 	wildmon 59, KIKURI
 	; day
@@ -355,23 +355,23 @@
 	wildmon 58, CMIMA
 	wildmon 59, KIKURI
 	; nite
-	wildmon 55, NOCTOWL
-	wildmon 54, ARIADOS
-	wildmon 57, NOCTOWL
-	wildmon 57, NOCTOWL
-	wildmon 56, ARIADOS
-	wildmon 58, NOCTOWL
-	wildmon 59, NOCTOWL
+	wildmon 55, CMYSTIA
+	wildmon 54, KEINE
+	wildmon 57, CMYSTIA
+	wildmon 57, CMYSTIA
+	wildmon 56, KEINE
+	wildmon 58, CMYSTIA
+	wildmon 59, CMYSTIA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_2_SOUTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 55, FGYOKU
-	wildmon 54, LEDIAN
+	wildmon 54, TMYSTIA
 	wildmon 57, CMIMA
 	wildmon 57, FGYOKU
-	wildmon 56, LEDIAN
+	wildmon 56, TMYSTIA
 	wildmon 58, CMIMA
 	wildmon 59, KIKURI
 	; day
@@ -383,13 +383,13 @@
 	wildmon 58, CMIMA
 	wildmon 59, KIKURI
 	; nite
-	wildmon 55, NOCTOWL
-	wildmon 54, ARIADOS
-	wildmon 57, NOCTOWL
-	wildmon 57, NOCTOWL
-	wildmon 56, ARIADOS
-	wildmon 58, NOCTOWL
-	wildmon 59, NOCTOWL
+	wildmon 55, CMYSTIA
+	wildmon 54, KEINE
+	wildmon 57, CMYSTIA
+	wildmon 57, CMYSTIA
+	wildmon 56, KEINE
+	wildmon 58, CMYSTIA
+	wildmon 59, CMYSTIA
 	end_grass_wildmons
 
 	def_grass_wildmons VIRIDIAN_FOREST
@@ -411,13 +411,13 @@
 	wildmon 59, KIKURI
 	wildmon 60, KIKURI
 	; nite
-	wildmon 57, NOCTOWL
-	wildmon 57, ARIADOS
-	wildmon 55, NOCTOWL
-	wildmon 55, NOCTOWL
-	wildmon 56, ARIADOS
-	wildmon 59, NOCTOWL
-	wildmon 60, NOCTOWL
+	wildmon 57, CMYSTIA
+	wildmon 57, KEINE
+	wildmon 55, CMYSTIA
+	wildmon 55, CMYSTIA
+	wildmon 56, KEINE
+	wildmon 59, CMYSTIA
+	wildmon 60, CMYSTIA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_3
@@ -495,7 +495,7 @@
 	wildmon 51, ELLEN
 	wildmon 47, ELLEN
 	; nite
-	wildmon 46, NOCTOWL
+	wildmon 46, CMYSTIA
 	wildmon 46, CYUMEMI
 	wildmon 51, KOTOHIME
 	wildmon 47, CKANA
@@ -580,7 +580,7 @@
 	wildmon 50, ELLY
 	; nite
 	wildmon 48, CYUMEMI
-	wildmon 51, NOCTOWL
+	wildmon 51, CMYSTIA
 	wildmon 53, ELLY
 	wildmon 53, SHINKI
 	wildmon 53, MEIRA
@@ -666,7 +666,7 @@
 	wildmon 53, RUMIA
 	wildmon 48, CHIYURI
 	wildmon 50, ALICE
-	wildmon 51, NOCTOWL
+	wildmon 51, CMYSTIA
 	wildmon 51, CELIS
 	wildmon 51, ARUMIA
 	wildmon 51, ARUMIA
@@ -692,7 +692,7 @@
 	wildmon 54, CMAI
 	; nite
 	wildmon 50, RIKAKO
-	wildmon 50, NOCTOWL
+	wildmon 50, CMYSTIA
 	wildmon 50, QUAGSIRE
 	wildmon 51, CKANA
 	wildmon 53, RIKAKO
@@ -720,7 +720,7 @@
 	wildmon 55, SUNFLORA
 	; nite
 	wildmon 50, RIKAKO
-	wildmon 50, NOCTOWL
+	wildmon 50, CMYSTIA
 	wildmon 51, QUAGSIRE
 	wildmon 52, CKANA
 	wildmon 54, RIKAKO
@@ -748,7 +748,7 @@
 	wildmon 56, SUNFLORA
 	; nite
 	wildmon 52, RIKAKO
-	wildmon 52, NOCTOWL
+	wildmon 52, CMYSTIA
 	wildmon 53, QUAGSIRE
 	wildmon 51, CKANA
 	wildmon 56, RIKAKO
@@ -759,23 +759,23 @@
 	def_grass_wildmons LUCKY_ISLAND
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 1, TOGETIC
+	wildmon LEVEL_FROM_BADGES - 1, CKAGUYA
 	wildmon LEVEL_FROM_BADGES - 2, CREMILIA
 	wildmon LEVEL_FROM_BADGES + 0, CREMILIA
 	wildmon LEVEL_FROM_BADGES - 3, HAPPINY
 	wildmon LEVEL_FROM_BADGES - 3, HAPPINY
-	wildmon LEVEL_FROM_BADGES - 3, TOGEPI
+	wildmon LEVEL_FROM_BADGES - 3, TEIRIN
 	wildmon LEVEL_FROM_BADGES + 2, BLISSEY
 	; day
-	wildmon LEVEL_FROM_BADGES - 1, TOGETIC
+	wildmon LEVEL_FROM_BADGES - 1, CKAGUYA
 	wildmon LEVEL_FROM_BADGES - 2, CREMILIA
 	wildmon LEVEL_FROM_BADGES + 0, CREMILIA
 	wildmon LEVEL_FROM_BADGES - 3, HAPPINY
 	wildmon LEVEL_FROM_BADGES - 3, HAPPINY
-	wildmon LEVEL_FROM_BADGES - 3, TOGEPI
+	wildmon LEVEL_FROM_BADGES - 3, TEIRIN
 	wildmon LEVEL_FROM_BADGES + 2, BLISSEY
 	; nite
-	wildmon LEVEL_FROM_BADGES - 1, TOGETIC
+	wildmon LEVEL_FROM_BADGES - 1, CKAGUYA
 	wildmon LEVEL_FROM_BADGES - 2, CREMILIA
 	wildmon LEVEL_FROM_BADGES + 0, CREMILIA
 	wildmon LEVEL_FROM_BADGES - 3, CHIYURI
@@ -804,7 +804,7 @@
 	wildmon 57, SUNFLORA
 	; nite
 	wildmon 52, RIKAKO
-	wildmon 52, NOCTOWL
+	wildmon 52, CMYSTIA
 	wildmon 54, QUAGSIRE
 	wildmon 54, CKANA
 	wildmon 57, RIKAKO
@@ -916,7 +916,7 @@
 	wildmon 57, CYUMEKO
 	; nite
 	wildmon 52, CELIS
-	wildmon 56, NOCTOWL
+	wildmon 56, CMYSTIA
 	wildmon 53, CELIS
 	wildmon 54, MURKROW
 	wildmon 54, MURKROW
@@ -944,7 +944,7 @@
 	wildmon 57, CYUMEKO
 	; nite
 	wildmon 52, CELIS
-	wildmon 56, NOCTOWL
+	wildmon 56, CMYSTIA
 	wildmon 53, CELIS
 	wildmon 54, MURKROW
 	wildmon 54, MURKROW
@@ -1027,7 +1027,7 @@
 	wildmon 40, SARIEL
 	wildmon 42, LYRICA
 	; nite
-	wildmon 37, NOCTOWL
+	wildmon 37, CMYSTIA
 	wildmon 38, CELIS
 	wildmon 38, CELIS
 	wildmon 39, QUAGSIRE
@@ -1057,7 +1057,7 @@
 	; nite
 	wildmon 48, RIKAKO
 	wildmon 48, RIKAKO
-	wildmon 51, NOCTOWL
+	wildmon 51, CMYSTIA
 	wildmon 50, CKANA
 	wildmon 49, CKANA
 	wildmon 53, ELLY
@@ -1085,7 +1085,7 @@
 	; nite
 	wildmon 48, RIKAKO
 	wildmon 48, RIKAKO
-	wildmon 51, NOCTOWL
+	wildmon 51, CMYSTIA
 	wildmon 50, CKANA
 	wildmon 49, CKANA
 	wildmon 53, ELLY
@@ -1111,9 +1111,9 @@
 	wildmon 40, KIKURI, KIKURI_KANTO_FORM
 	wildmon 41, KIKURI, KIKURI_KANTO_FORM
 	; nite
-	wildmon 38, NOCTOWL
+	wildmon 38, CMYSTIA
 	wildmon 38, CELIS
-	wildmon 41, NOCTOWL
+	wildmon 41, CMYSTIA
 	wildmon 40, CELIS
 	wildmon 39, QUAGSIRE
 	wildmon 40, QUAGSIRE
@@ -1140,12 +1140,12 @@
 	wildmon 40, MAI
 	; nite
 	wildmon 37, QUAGSIRE
-	wildmon 37, NOCTOWL
+	wildmon 37, CMYSTIA
 	wildmon 39, CELIS
 	wildmon 39, QUAGSIRE
-	wildmon 41, NOCTOWL
-	wildmon 39, NOCTOWL
-	wildmon 40, NOCTOWL
+	wildmon 41, CMYSTIA
+	wildmon 39, CMYSTIA
+	wildmon 40, CMYSTIA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_28
@@ -1197,7 +1197,7 @@
 	; nite
 	wildmon 48, RIKAKO
 	wildmon 48, RIKAKO
-	wildmon 51, NOCTOWL
+	wildmon 51, CMYSTIA
 	wildmon 50, CKANA
 	wildmon 49, CKANA
 	wildmon 53, DAICHAN
@@ -1207,7 +1207,7 @@
 	def_grass_wildmons CERULEAN_CAVE_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 65, CROBAT
+	wildmon 65, AKEINE
 	wildmon 65, CRIKAKO
 	wildmon 66, ORANGE
 	wildmon 67, TANGROWTH
@@ -1215,7 +1215,7 @@
 	wildmon 67, CCIRNO
 	wildmon 70, LYRICA
 	; day
-	wildmon 65, CROBAT
+	wildmon 65, AKEINE
 	wildmon 65, CRIKAKO
 	wildmon 66, ORANGE
 	wildmon 67, TANGROWTH
@@ -1223,7 +1223,7 @@
 	wildmon 67, CCIRNO
 	wildmon 70, LYRICA
 	; nite
-	wildmon 65, CROBAT
+	wildmon 65, AKEINE
 	wildmon 65, CRIKAKO
 	wildmon 66, ORANGE
 	wildmon 67, TANGROWTH
@@ -1235,7 +1235,7 @@
 	def_grass_wildmons CERULEAN_CAVE_2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 67, CROBAT
+	wildmon 67, AKEINE
 	wildmon 67, CRIKAKO
 	wildmon 68, CMUGETSU
 	wildmon 69, MAGNEZONE
@@ -1243,7 +1243,7 @@
 	wildmon 69, CCIRNO
 	wildmon 72, LYRICA
 	; day
-	wildmon 67, CROBAT
+	wildmon 67, AKEINE
 	wildmon 67, CRIKAKO
 	wildmon 68, CMUGETSU
 	wildmon 69, MAGNEZONE
@@ -1251,7 +1251,7 @@
 	wildmon 69, CCIRNO
 	wildmon 72, LYRICA
 	; nite
-	wildmon 67, CROBAT
+	wildmon 67, AKEINE
 	wildmon 67, CRIKAKO
 	wildmon 68, CMUGETSU
 	wildmon 69, MAGNEZONE

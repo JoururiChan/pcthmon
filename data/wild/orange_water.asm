@@ -46,7 +46,7 @@
 	db 6 percent ; encounter rate
 	wildmon 80, GENGETSU
 	wildmon 80, DLETTY
-	wildmon 80, LANTURN
+	wildmon 80, TEI
 	end_water_wildmons
 
 	db -1 ; end

@@ -137,27 +137,27 @@ AnimationPointers:
 	dw CSanaeAnimation
 	dw SanaeAnimation
 	dw DSanaeAnimation
-	dw SentretAnimation
-	dw FurretAnimation
-	dw HoothootAnimation
-	dw NoctowlAnimation
-	dw LedybaAnimation
-	dw LedianAnimation
-	dw SpinarakAnimation
-	dw AriadosAnimation
-	dw CrobatAnimation
-	dw ChinchouAnimation
-	dw LanturnAnimation
-	dw PichuAnimation
-	dw CleffaAnimation
-	dw IgglybuffAnimation
-	dw TogepiAnimation
-	dw TogeticAnimation
-	dw NatuAnimation
-	dw XatuAnimation
-	dw MareepAnimation
-	dw FlaaffyAnimation
-	dw AmpharosAnimation
+	dw CWriggleAnimation
+	dw WriggleAnimation
+	dw SWriggleAnimation
+	dw CMystiaAnimation
+	dw MystiaAnimation
+	dw TMystiaAnimation
+	dw CKeineAnimation
+	dw KeineAnimation
+	dw AKeineAnimation
+	dw CTeiAnimation
+	dw TeiAnimation
+	dw TTeiAnimation
+	dw CEirinAnimation
+	dw EirinAnimation
+	dw TEirinAnimation
+	dw CKaguyaAnimation
+	dw KaguyaAnimation
+	dw TKaguyaAnimation
+	dw CMokouAnimation
+	dw MokouAnimation
+	dw AMokouAnimation
 	dw BellossomAnimation
 	dw MarillAnimation
 	dw AzumarillAnimation
@@ -303,7 +303,7 @@ AnimationPointers:
 	dw KikuriAgathaAnimation
 	dw KikuriArianaAnimation
 
-	dw PichuSpikyAnimation
+	dw TTeiSpikyAnimation
 
 	dw LilyBlackSkellyAnimation
 	dw LilyBlackCalico1Animation

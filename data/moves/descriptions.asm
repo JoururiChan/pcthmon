@@ -5,13 +5,13 @@ MoveDescriptions::
 	dw KarateChopDescription
 	dw DoubleSlapDescription
 	dw AerialAceDescription
-	dw ShadowForceDescription
+	dw PoisonClawDescription
 	dw PayDayDescription
 	dw FirePunchDescription
 	dw IcePunchDescription
 	dw ThunderpunchDescription
 	dw ScratchDescription
-	dw CrashCrossDescription
+	dw CrossJamDescription
 	dw NightSlashDescription
 	dw AirSlashDescription
 	dw SwordsDanceDescription
@@ -25,8 +25,8 @@ MoveDescriptions::
 	dw VineWhipDescription
 	dw StompDescription
 	dw DoubleKickDescription
-	dw HeatSmashDescription
-	dw StoneRiseDescription
+	dw FlareOutDescription
+	dw StoneHitDescription
 	dw FocusBlastDescription
 	dw PoisonNailDescription
 	dw HeadbuttDescription
@@ -41,7 +41,7 @@ MoveDescriptions::
 	dw DoubleEdgeDescription
 	dw HailDescription
 	dw SealNeedleDescription
-	dw UTurnDescription
+	dw ChargeOutDescription
 	dw PinMissileDescription
 	dw LeerDescription
 	dw BiteDescription
@@ -51,9 +51,9 @@ MoveDescriptions::
 	dw SupersonicDescription
 	dw SonicboomDescription
 	dw DisableDescription
-	dw AcidDescription
+	dw PoisonTearsDescription
 	dw EmberDescription
-	dw FireBreathDescription
+	dw FlameShootDescription
 	dw CalmMindDescription
 	dw WaterGunDescription
 	dw HydroPumpDescription
@@ -62,9 +62,9 @@ MoveDescriptions::
 	dw BlizzardDescription
 	dw PsybeamDescription
 	dw BubbleBeamDescription
-	dw AuroraBeamDescription
+	dw StarryBeamDescription
 	dw PowerBeamDescription
-	dw PeckDescription
+	dw FeatherJabDescription
 	dw DragonDrillDescription
 	dw ColorFistDescription
 	dw LowKickDescription
@@ -82,7 +82,7 @@ MoveDescriptions::
 	dw SleepPowderDescription
 	dw BattleChantDescription
 	dw WireWebDescription
-	dw HolyFlameDescription
+	dw PoisonShotDescription
 	dw FireSpinDescription
 	dw ThundershockDescription
 	dw ThunderboltDescription
@@ -102,7 +102,7 @@ MoveDescriptions::
 	dw RageDescription
 	dw TeleportDescription
 	dw NightShadeDescription
-	dw EnigmaBurstDescription
+	dw VoiceBurstDescription
 	dw ScreechDescription
 	dw DoubleTeamDescription
 	dw RecoverDescription
@@ -117,7 +117,7 @@ MoveDescriptions::
 	dw HazeDescription
 	dw ReflectDescription
 	dw FocusEnergyDescription
-	dw FlashCannonDescription
+	dw StarCannonDescription
 	dw MetronomeDescription
 	dw ScaldDescription
 	dw TrickRoomDescription
@@ -136,7 +136,7 @@ MoveDescriptions::
 	dw AmnesiaDescription
 	dw AuraWaveDescription
 	dw FreshSnackDescription
-	dw TensionKickDescription
+	dw JumpKickDescription
 	dw GlareDescription
 	dw DreamEaterDescription
 	dw PoisonJabDescription
@@ -170,7 +170,7 @@ MoveDescriptions::
 	dw DrainPunchDescription
 	dw ThiefDescription
 	dw WillOWispDescription
-	dw HolyChargeDescription
+	dw BlazeStarDescription
 	dw FacadeDescription
 	dw FlameChargeDescription
 	dw VoiceBindDescription
@@ -200,7 +200,7 @@ MoveDescriptions::
 	dw PowerGemDescription
 	dw WildChargeDescription
 	dw PowerWhipDescription
-	dw FlameHitDescription
+	dw HolyLanceDescription
 	dw SandstormDescription
 	dw GigaDrainDescription
 	dw EndureDescription
@@ -210,10 +210,10 @@ MoveDescriptions::
 	dw SwaggerDescription
 	dw PowerTrickDescription
 	dw SparkDescription
-	dw LeafSnipDescription
+	dw SeedPeltDescription
 	dw SteelWingDescription
 	dw MeanLookDescription
-	dw AttractDescription
+	dw LusterHeartDescription
 	dw SleepTalkDescription
 	dw HealBellDescription
 	dw ReturnDescription
@@ -224,7 +224,7 @@ MoveDescriptions::
 	dw SacredFireDescription
 	dw MagnitudeDescription
 	dw DynamicpunchDescription
-	dw CurseThornDescription
+	dw HornLeechDescription
 	dw SpiritSweepDescription
 	dw BatonPassDescription
 	dw EncoreDescription
@@ -276,7 +276,7 @@ AeroblastDescription:
 CrossChopDescription:
 NightSlashDescription:
 ShadowHitDescription:
-StoneRiseDescription:
+StoneHitDescription:
 	text "Has a high criti-"
 	next "cal hit ratio."
 	done
@@ -355,7 +355,7 @@ RockSlideDescription:
 PowerBiteDescription:
 AirSlashDescription:
 IronHeadDescription:
-HolyChargeDescription:
+BlazeStarDescription:
 DarkPulseDescription:
 AstonishDescription:
 IcicleCrashDescription:
@@ -372,7 +372,7 @@ GunkShotDescription:
 	done
 
 EmberDescription:
-FireBreathDescription:
+FlameShootDescription:
 HellblazeDescription:
 SacredFireDescription:
 ScaldDescription:
@@ -444,14 +444,14 @@ ColorFistDescription:
 	next "Def and Sp.Def."
 	done
 
-AuroraBeamDescription:
+StarryBeamDescription:
 PlayRoughDescription:
 	text "An attack that may"
 	next "lower Attack."
 	done
 
 RockSmashDescription:
-HeatSmashDescription:
+FlareOutDescription:
 if !DEF(FAITHFUL)
 	text "Removes Reflect"
 	next "and Light Screen."
@@ -464,7 +464,7 @@ AquahammerDescription:
 	done
 
 BubbleBeamDescription:
-TensionKickDescription:
+JumpKickDescription:
 	text "An attack that may"
 	next "lower Speed."
 	done
@@ -484,12 +484,12 @@ MoonblastDescription:
 	next "lower Sp.Atk."
 	done
 
-AcidDescription:
+PoisonTearsDescription:
 ManaBurstMDescription:
 ShadowBallDescription:
 SpiritVoiceDescription:
 EarthPowerDescription:
-FlashCannonDescription:
+StarCannonDescription:
 FocusBlastDescription:
 DizzyPunchDescription:
 	text "An attack that may"
@@ -513,7 +513,7 @@ SonicboomDescription:
 	next "20HP damage."
 	done
 
-HolyFlameDescription:
+PoisonShotDescription:
 	text "Always inflicts"
 	next "40HP damage."
 	done
@@ -689,7 +689,7 @@ FreshSnackDescription:
 
 ThrashDescription:
 ShadowDanceDescription:
-FlameHitDescription:
+HolyLanceDescription:
 	text "Works 2-3 turns"
 	next "and confuses user."
 	done
@@ -773,7 +773,7 @@ HailDescription:
 	next "every turn."
 	done
 
-UTurnDescription:
+ChargeOutDescription:
 VoltSwitchDescription:
 	text "Switches out after"
 	next "making its attack."
@@ -854,7 +854,7 @@ ScratchDescription:
 	next "sharp claws."
 	done
 
-PeckDescription:
+FeatherJabDescription:
 	text "Jabs the foe with"
 	next "a beak, etc."
 	done
@@ -864,7 +864,7 @@ VineWhipDescription:
 	next "slender vines."
 	done
 
-ShadowForceDescription:
+PoisonClawDescription:
 	text "Emits a ghostly"
 	next "screech."
 	done
@@ -874,7 +874,7 @@ CutDescription:
 	next "scythes, etc."
 	done
 
-CrashCrossDescription:
+CrossJamDescription:
 	text "An attack that"
 	next "causes a burn."
 	done
@@ -974,7 +974,7 @@ TeleportDescription:
 	next "from battle."
 	done
 
-EnigmaBurstDescription:
+VoiceBurstDescription:
 	text "Attacks foe with"
 	next "a shock wave."
 	done
@@ -1120,7 +1120,7 @@ PowerTrickDescription:
 	next "and defenses."
 	done
 
-LeafSnipDescription:
+SeedPeltDescription:
 	text "Bites the foe and"
 	next "eats a held Berry."
 	done
@@ -1130,7 +1130,7 @@ MeanLookDescription:
 	next "or switching."
 	done
 
-AttractDescription:
+LusterHeartDescription:
 	text "Makes the opposite"
 	next "gender infatuated."
 	done
@@ -1165,7 +1165,7 @@ MagnitudeDescription:
 	next "with random power."
 	done
 
-CurseThornDescription:
+HornLeechDescription:
 	text "A regular draco-"
 	next "nic smash."
 	done

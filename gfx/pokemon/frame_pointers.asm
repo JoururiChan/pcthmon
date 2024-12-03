@@ -137,27 +137,27 @@ FramesPointers:
 	dw CSanaeFrames
 	dw SanaeFrames
 	dw DSanaeFrames
-	dw SentretFrames
-	dw FurretFrames
-	dw HoothootFrames
-	dw NoctowlFrames
-	dw LedybaFrames
-	dw LedianFrames
-	dw SpinarakFrames
-	dw AriadosFrames
-	dw CrobatFrames
-	dw ChinchouFrames
-	dw LanturnFrames
-	dw PichuFrames
-	dw CleffaFrames
-	dw IgglybuffFrames
-	dw TogepiFrames
-	dw TogeticFrames
-	dw NatuFrames
-	dw XatuFrames
-	dw MareepFrames
-	dw FlaaffyFrames
-	dw AmpharosFrames
+	dw CWriggleFrames
+	dw WriggleFrames
+	dw SWriggleFrames
+	dw CMystiaFrames
+	dw MystiaFrames
+	dw TMystiaFrames
+	dw CKeineFrames
+	dw KeineFrames
+	dw AKeineFrames
+	dw CTeiFrames
+	dw TeiFrames
+	dw TTeiFrames
+	dw CEirinFrames
+	dw EirinFrames
+	dw TEirinFrames
+	dw CKaguyaFrames
+	dw KaguyaFrames
+	dw TKaguyaFrames
+	dw CMokouFrames
+	dw MokouFrames
+	dw AMokouFrames
 	dw BellossomFrames
 	dw MarillFrames
 	dw AzumarillFrames
@@ -305,7 +305,7 @@ FramesPointers:
 
 
 
-	dw PichuSpikyFrames
+	dw TTeiSpikyFrames
 
 	dw LilyBlackSkellyFrames
 	dw LilyBlackCalico1Frames

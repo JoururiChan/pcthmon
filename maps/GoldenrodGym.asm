@@ -49,7 +49,7 @@ GoldenrodGymWhitneyScript:
 	jumpopenedtext WhitneyYouMeanieText
 
 .StoppedCrying:
-	checkevent EVENT_GOT_TM45_ATTRACT
+	checkevent EVENT_GOT_TM45_LUSTER_HEART
 	iftrue_jumpopenedtext WhitneyGoodCryText
 	checkflag ENGINE_PLAINBADGE
 	iftruefwd .GotPlainBadge
@@ -63,11 +63,11 @@ GoldenrodGymWhitneyScript:
 .GotPlainBadge:
 	writetext WhitneyPlainBadgeText
 	promptbutton
-	verbosegivetmhm TM_ATTRACT
-	setevent EVENT_GOT_TM45_ATTRACT
+	verbosegivetmhm TM_LUSTER_HEART
+	setevent EVENT_GOT_TM45_LUSTER_HEART
 	jumpthisopenedtext
 
-	text "It's Attract!"
+	text "It's LusterHeart!"
 	line "It makes full use"
 
 	para "of a #mon's"

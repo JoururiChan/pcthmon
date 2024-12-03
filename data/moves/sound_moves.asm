@@ -8,5 +8,5 @@ SoundMoves::
 	db SING
 	db SUPERSONIC
 	db HEAL_BELL
-	db SHADOW_FORCE
+	db POISON_CLAW
 	db -1

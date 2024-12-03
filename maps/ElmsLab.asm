@@ -46,9 +46,9 @@ ElmsLab_MapScriptHeader:
 	def_object_events
 	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
 	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
-	object_event  6,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, CReimuPokeBallScript, EVENT_CREIMU_POKEBALL_IN_ELMS_LAB
-	object_event  7,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, CMarisaPokeBallScript, EVENT_CMARISA_POKEBALL_IN_ELMS_LAB
-	object_event  8,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, CSakuyaPokeBallScript, EVENT_CSAKUYA_POKEBALL_IN_ELMS_LAB
+	object_event  6,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, CAlicePokeBallScript, EVENT_CALICE_POKEBALL_IN_ELMS_LAB
+	object_event  7,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, CReisenPokeBallScript, EVENT_CREISEN_POKEBALL_IN_ELMS_LAB
+	object_event  8,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, CSanaePokeBallScript, EVENT_CSANAE_POKEBALL_IN_ELMS_LAB
 	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB
 	object_event  5, 11, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ElmsLabLyraScript, EVENT_LYRA_IN_ELMS_LAB
 
@@ -150,31 +150,31 @@ ElmCheckOddSouvenir:
 	checkevent EVENT_SHOWED_CKONGARA_TO_ELM
 	iftrue ElmGiveOddSouvenirScript
 	checkevent EVENT_TOLD_ELM_ABOUT_CKONGARA_OVER_THE_PHONE
-	iffalsefwd ElmCheckTogepiEgg
+	iffalsefwd ElmCheckTEirinEgg
 	setmonval CKONGARA
 	special Special_FindThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
-	setmonval TOGETIC
+	iftrue ShowElmTEirinScript
+	setmonval CKAGUYA
 	special Special_FindThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmTEirinScript
 	setmonval TOGEKISS
 	special Special_FindThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmTEirinScript
 	jumpopenedtext ElmThoughtEggHatchedText
 
 ElmEggHatchedScript:
 	setmonval CKONGARA
 	special Special_FindThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
-	setmonval TOGETIC
+	iftrue ShowElmTEirinScript
+	setmonval CKAGUYA
 	special Special_FindThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmTEirinScript
 	setmonval TOGEKISS
 	special Special_FindThatSpeciesYourTrainerID
-	iftrue ShowElmTogepiScript
+	iftrue ShowElmTEirinScript
 	sjumpfwd ElmCheckGotEggAgain
 
-ElmCheckTogepiEgg:
+ElmCheckTEirinEgg:
 	checkevent EVENT_GOT_CKONGARA_EGG_FROM_ELMS_AIDE
 	iffalsefwd ElmCheckGotEggAgain
 	checkevent EVENT_CKONGARA_HATCHED
@@ -198,120 +198,120 @@ LabTryToLeaveScript:
 	applyonemovement PLAYER, step_up
 	end
 
-CReimuPokeBallScript:
+CAlicePokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic CREIMU
-	cry CREIMU
+	pokepic CALICE
+	cry CALICE
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeCReimuText
+	writetext TakeCAliceText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
 	disappear ELMSLAB_POKE_BALL1
-	setevent EVENT_GOT_CREIMU_FROM_ELM
+	setevent EVENT_GOT_CALICE_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CREIMU, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke CALICE, PLAIN_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksCMarisaMovement
+	applymovement ELMSLAB_LYRA, LyraPicksCReisenMovement
 	pause 15
-	disappear ELMSLAB_POKE_BALL2
+	disappear ELMSLAB_POKE_BALL3
 	opentext
-	getmonname CMARISA, STRING_BUFFER_3
+	getmonname CSANAE, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	writetext LyraNicknamedCMarisaText
+	writetext LyraNicknamedCSanaeText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraAfterCMarisaMovement
+	applymovement ELMSLAB_LYRA, LyraAfterCSanaeMovement
 	readvar VAR_FACING
 	ifequalfwd RIGHT, ElmDirectionsScript
-	applymovement PLAYER, AfterCReimuMovement
+	applymovement PLAYER, AfterCAliceMovement
 	sjumpfwd ElmDirectionsScript
 
-CMarisaPokeBallScript:
+CReisenPokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic CMARISA
-	cry CMARISA
+	pokepic CREISEN
+	cry CREISEN
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeCMarisaText
+	writetext TakeCReisenText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
 	disappear ELMSLAB_POKE_BALL2
-	setevent EVENT_GOT_CMARISA_FROM_ELM
+	setevent EVENT_GOT_CREISEN_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CMARISA, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke CREISEN, PLAIN_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksCSakuyaMovement
+	applymovement ELMSLAB_LYRA, LyraPicksCAliceMovement
 	pause 15
-	disappear ELMSLAB_POKE_BALL3
+	disappear ELMSLAB_POKE_BALL1
 	opentext
-	getmonname CSAKUYA, STRING_BUFFER_3
+	getmonname CALICE, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	writetext LyraNicknamedCSakuyaText
+	writetext LyraNicknamedCAliceText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraAfterCSakuyaMovement
-	applymovement PLAYER, AfterCMarisaMovement
+	applymovement ELMSLAB_LYRA, LyraAfterCAliceMovement
+	applymovement PLAYER, AfterCReisenMovement
 	sjumpfwd ElmDirectionsScript
 
-CSakuyaPokeBallScript:
+CSanaePokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic CSAKUYA
-	cry CSAKUYA
+	pokepic CSANAE
+	cry CSANAE
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeCSakuyaText
+	writetext TakeCSanaeText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
 	disappear ELMSLAB_POKE_BALL3
-	setevent EVENT_GOT_CSAKUYA_FROM_ELM
+	setevent EVENT_GOT_CSANAE_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CSAKUYA, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke CSANAE, PLAIN_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksCReimuMovement
+	applymovement ELMSLAB_LYRA, LyraPicksCReisenMovement
 	pause 15
-	disappear ELMSLAB_POKE_BALL1
+	disappear ELMSLAB_POKE_BALL2
 	opentext
-	getmonname CREIMU, STRING_BUFFER_3
+	getmonname CREISEN, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	writetext LyraNicknamedCReimuText
+	writetext LyraNicknamedCReisenText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraAfterCReimuMovement
-	applymovement PLAYER, AfterCSakuyaMovement
+	applymovement ELMSLAB_LYRA, LyraAfterCReisenMovement
+	applymovement PLAYER, AfterCSanaeMovement
 	; fallthrough
 
 ElmDirectionsScript:
@@ -384,16 +384,16 @@ ElmAfterTheftScript:
 	setscene $2
 	jumpopenedtext ElmAfterTheftText6
 
-ShowElmTogepiScript:
-	writetext ShowElmTogepiText1
+ShowElmTEirinScript:
+	writetext ShowElmTEirinText1
 	waitbutton
 	closetext
 	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
 	setevent EVENT_SHOWED_CKONGARA_TO_ELM
 	opentext
-	writetext ShowElmTogepiText2
+	writetext ShowElmTEirinText2
 	promptbutton
-	writetext ShowElmTogepiText3
+	writetext ShowElmTEirinText3
 	promptbutton
 ElmGiveOddSouvenirScript:
 	writetext ElmGiveOddSouvenirText1
@@ -569,10 +569,10 @@ LyraBattleScript:
 	turnobject PLAYER, RIGHT
 	winlosstext ElmsLabLyraWinText, ElmsLabLyraLossText
 	setlasttalked ELMSLAB_LYRA
-	checkevent EVENT_GOT_CMARISA_FROM_ELM
-	iftruefwd .CMarisa
-	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
-	iftruefwd .CSakuya
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
+	iftruefwd .CReisen
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
+	iftruefwd .CSanae
 	loadtrainer LYRA1, LYRA1_1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
@@ -583,7 +583,7 @@ LyraBattleScript:
 	iftruefwd .AfterYourDefeat
 	sjumpfwd .AfterVictorious
 
-.CMarisa:
+.CReisen:
 	loadtrainer LYRA1, LYRA1_2
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
@@ -594,7 +594,7 @@ LyraBattleScript:
 	iftruefwd .AfterVictorious
 	sjumpfwd .AfterYourDefeat
 
-.CSakuya:
+.CSanae:
 	loadtrainer LYRA1, LYRA1_3
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
@@ -724,17 +724,17 @@ ElmsLab_WalkUpToElmMovement:
 	turn_head_left
 	step_end
 
-LyraPicksCSakuyaMovement:
+LyraPicksCSanaeMovement:
 	step_right
-LyraPicksCMarisaMovement:
+LyraPicksCReisenMovement:
 	step_right
-LyraPicksCReimuMovement:
+LyraPicksCAliceMovement:
 	step_right
 	step_right
 	step_up
 	step_end
 
-LyraAfterCSakuyaMovement:
+LyraAfterCSanaeMovement:
 	step_down
 	step_left
 	step_left
@@ -742,14 +742,14 @@ LyraAfterCSakuyaMovement:
 	turn_head_up
 	step_end
 
-LyraAfterCMarisaMovement:
+LyraAfterCReisenMovement:
 	step_down
 	step_left
 	step_left
 	turn_head_up
 	step_end
 
-LyraAfterCReimuMovement:
+LyraAfterCAliceMovement:
 	step_down
 	step_left
 	turn_head_up
@@ -870,20 +870,20 @@ ElmsLab_ElmToDefaultPositionMovement:
 	turn_head_down
 	step_end
 
-AfterCReimuMovement:
+AfterCAliceMovement:
 	step_left
 	step_up
 	turn_head_up
 	step_end
 
-AfterCMarisaMovement:
+AfterCReisenMovement:
 	step_left
 	step_left
 	step_up
 	turn_head_up
 	step_end
 
-AfterCSakuyaMovement:
+AfterCSanaeMovement:
 	step_left
 	step_left
 	step_left
@@ -1020,21 +1020,21 @@ LabWhereGoingText:
 	line "are you going?"
 	done
 
-TakeCReimuText:
+TakeCAliceText:
 	text "Elm: You'll take"
-	line "CReimu, the"
+	line "CAlice, the"
 	cont "Miko #mon?"
 	done
 
-TakeCMarisaText:
+TakeCReisenText:
 	text "Elm: Do you want"
-	line "CMarisa, the"
+	line "CReisen, the"
 	cont "Witch #mon?"
 	done
 
-TakeCSakuyaText:
+TakeCSanaeText:
 	text "Elm: So, you like"
-	line "CSakuya, the"
+	line "CSanae, the"
 	cont "Maid #mon?"
 	done
 
@@ -1247,17 +1247,17 @@ ElmThoughtEggHatchedText:
 	line "#mon?"
 	done
 
-ShowElmTogepiText1:
+ShowElmTEirinText1:
 	text "Elm: <PLAYER>, you"
 	line "look great!"
 	done
 
-ShowElmTogepiText2:
+ShowElmTEirinText2:
 	text "What?"
 	line "That #mon?!"
 	done
 
-ShowElmTogepiText3:
+ShowElmTEirinText3:
 	text "The Egg hatched!"
 	line "So, #mon are"
 	cont "born from Eggs…"
@@ -1633,22 +1633,22 @@ LyraReceivedStarterText:
 	text "!"
 	done
 
-LyraNicknamedCSakuyaText:
+LyraNicknamedCSanaeText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Sculpture!"
+	cont "name it Hisou!"
 	done
 
-LyraNicknamedCReimuText:
+LyraNicknamedCAliceText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Sendai!"
+	cont "name it Rozen!"
 	done
 
-LyraNicknamedCMarisaText:
+LyraNicknamedCReisenText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Starfire!"
+	cont "name it Tsukino!"
 	done
 
 ElmsLabLyraGoodChoiceText:

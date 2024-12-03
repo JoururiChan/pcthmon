@@ -321,7 +321,7 @@ HatchEggs:
 	call SetSeenAndCaughtMon
 	pop bc
 
-	; If we hatched a Togepi, set the relevant Prof Elm event flag.
+	; If we hatched a TEirin, set the relevant Prof Elm event flag.
 	ld de, CKONGARA
 	call CompareSpeciesWithDE
 	jr nz, .nottogepi

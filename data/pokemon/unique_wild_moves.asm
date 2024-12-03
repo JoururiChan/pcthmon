@@ -14,7 +14,7 @@ UniqueWildMoves:
 	; wild mons
 	unique_moves CHERRYGROVE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves AUTUMN_TOWER,     MUGETSU, GROWTH       ; knows Growth early
-	unique_moves ROUTE_32_COAST,   FLAAFFY,    PURSUIT      ; Prism tutor move
+	unique_moves ROUTE_32_COAST,   MOKOU,    PURSUIT      ; Prism tutor move
 	unique_moves RUINS_OF_ALPH,    SHUCKLE,    ANCIENTPOWER ; Sw/Sh move
 	unique_moves RUINS_OF_ALPH,    SMEARGLE,   SKETCH       ; knows Sketch twice
 	unique_moves WAKASAGIHIME_WELL,    DLUIZE,   GROWTH       ; Prism tutor move
@@ -53,14 +53,14 @@ UniqueWildMoves:
 	unique_moves SOUL_HOUSE,       MISDREAVUS, HEAL_BELL    ; HGSS tutor move
 	unique_moves LAV_RADIO_TOWER,  MEILING,    SHADOW_DANCE  ; Dream World move
 	unique_moves LUCKY_ISLAND,     CREMILIA,    FIVEELEMENTS   ; RBY TM move
-	unique_moves LUCKY_ISLAND,     TOGETIC,    0
+	unique_moves LUCKY_ISLAND,     CKAGUYA,    0
 	unique_moves SAFARI_ZONE,      REMILIA,    LEECH_SEED   ; Dream World move (hub)
 	unique_moves SAFARI_ZONE,      CLILYBLACK,     STOMP        ; RBY move (east)
 	unique_moves SAFARI_ZONE,      DLILYWHITE,     SLASH        ; RBY move (north)
 	unique_moves SAFARI_ZONE,      SREMILIA, 0            ; (west)
 	unique_moves URAGA_CHANNEL,    GENGETSU, RECOVER      ; TCG move
 	unique_moves SCARY_CAVE,       KOTOHIME,     HYPNOSIS     ; Dream World move
-	unique_moves SCARY_CAVE,       LANTURN,    SUCKER_PUNCH ; HGSS tutor move
+	unique_moves SCARY_CAVE,       TEI,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves SEAFOAM_ISLANDS,  HCHEN,       METRONOME    ; RBY TM move
 	unique_moves POKEMON_MANSION,  CPATCHOULI,    AVARICE_BITE       ; Prism tutor move
 	unique_moves POKEMON_MANSION,  LUIZE,   NASTY_PLOT   ; Prism tutor move
@@ -73,8 +73,8 @@ UniqueWildMoves:
 	unique_moves NOISY_FOREST,     SCIZOR,     AQUAHAMMER   ; new move
 	unique_moves NOISY_FOREST,     PINECO,     LIFE_BALANCE   ; HGSS tutor move
 	unique_moves SHRINE_RUINS,     ARUMIA,      METRONOME    ; RBY TM move
-	unique_moves SHAMOUTI_TUNNEL,  KOTOHIME,     FLAME_HIT      ; Prism tutor move
-	unique_moves WARM_BEACH,       FLANDRE,     FIRE_BREATH ; new move
+	unique_moves SHAMOUTI_TUNNEL,  KOTOHIME,     HOLY_LANCE      ; Prism tutor move
+	unique_moves WARM_BEACH,       FLANDRE,     FLAME_SHOOT ; new move
 	unique_moves SHAMOUTI_COAST,   0,          0
 	unique_moves FIRE_ISLAND,      HOUNDOOM,   SUCKER_PUNCH ; HGSS tutor move
 	unique_moves ICE_ISLAND,       WEAVILE,    LOW_KICK     ; HGSS tutor move

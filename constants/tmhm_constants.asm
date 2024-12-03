@@ -19,7 +19,7 @@ MACRO add_tm
 ENDM
 
 	add_tm DYNAMICPUNCH ; $00
-	add_tm SHADOW_FORCE  ; $01
+	add_tm POISON_CLAW  ; $01
 	add_tm POWER_TRICK        ; $02
 	add_tm CALM_MIND    ; $03
 	add_tm ROAR         ; $04
@@ -32,7 +32,7 @@ ENDM
 	add_tm HONE_TOOLS   ; $0b
 	add_tm ICE_BEAM     ; $0c
 	add_tm BLIZZARD     ; $0d
-	add_tm TENSION_KICK   ; $0e
+	add_tm JUMP_KICK   ; $0e
 	add_tm LIGHT_SCREEN ; $0f
 	add_tm PROTECT      ; $10
 	add_tm RAIN_DANCE   ; $11
@@ -55,8 +55,8 @@ DEF BRICK_BREAK_TMNUM EQU ROCK_SMASH_TMNUM
 endc
 	add_tm DOUBLE_TEAM  ; $1f
 	add_tm REFLECT      ; $20
-	add_tm FLASH_CANNON ; $21
-	add_tm FIRE_BREATH ; $22
+	add_tm STAR_CANNON ; $21
+	add_tm FLAME_SHOOT ; $22
 	add_tm SLUDGE_BOMB  ; $23
 	add_tm SANDSTORM    ; $24
 	add_tm HELLBLAZE   ; $25
@@ -66,7 +66,7 @@ endc
 	add_tm FACADE       ; $29
 	add_tm FLAME_CHARGE ; $2a
 	add_tm REST         ; $2b
-	add_tm ATTRACT      ; $2c
+	add_tm LUSTER_HEART      ; $2c
 	add_tm THIEF        ; $2d
 	add_tm STEEL_WING   ; $2e
 	add_tm ROCK_SLIDE   ; $2f
@@ -77,10 +77,10 @@ endc
 	add_tm ENERGY_BALL  ; $34
 	add_tm BLADE_FLASH  ; $35
 	add_tm SCALD        ; $36
-	add_tm CRASH_CROSS    ; $37
+	add_tm CROSS_JAM    ; $37
 	add_tm WILD_CHARGE  ; $38
 	add_tm DARK_PULSE   ; $39
-	add_tm ENIGMA_BURST ; $3a
+	add_tm VOICE_BURST ; $3a
 	add_tm DRAIN_PUNCH  ; $3b
 	add_tm WILL_O_WISP  ; $3c
 	add_tm ACROBATICS   ; $3d
@@ -90,9 +90,9 @@ endc
 	add_tm POISON_JAB   ; $41
 	add_tm AVALANCHE    ; $42
 	add_tm ULTICHARGE  ; $43
-	add_tm U_TURN       ; $44
+	add_tm CHARGE_OUT       ; $44
 	add_tm FLASH        ; $45
-	add_tm STONE_RISE   ; $46
+	add_tm STONE_HIT   ; $46
 	add_tm VOLT_SWITCH  ; $47
 	add_tm THUNDER_WAVE ; $48
 	add_tm GYRO_BALL    ; $49

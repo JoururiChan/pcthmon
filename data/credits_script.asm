@@ -16,7 +16,7 @@ CreditsScript:
 	db CREDITS_WAIT, 1
 
 ; Update the banner.
-	db CREDITS_SCENE, 0 ; Pichu or Smoochum
+	db CREDITS_SCENE, 0 ; TTei or Smoochum
 
 	db             DIRECTOR, 1
 	db       SATOSHI_TAJIRI, 2
@@ -188,7 +188,7 @@ CreditsScript:
 	db CREDITS_WAIT, 1
 
 ; Update the banner.
-	db CREDITS_SCENE, 3 ; Togepi or Bellossom
+	db CREDITS_SCENE, 3 ; TEirin or Bellossom
 
 	db     US_VERSION_STAFF, 2
 

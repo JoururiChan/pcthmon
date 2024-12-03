@@ -29,7 +29,7 @@ DoAnimFrame:
 	dw AnimSeq_FlyLeaf            ; SPRITE_ANIM_SEQ_FLY_LEAF
 	dw AnimSeq_FlyTo              ; SPRITE_ANIM_SEQ_FLY_TO
 	dw AnimSeq_IntroSuicune       ; SPRITE_ANIM_SEQ_INTRO_SUICUNE
-	dw AnimSeq_IntroPichuWooper   ; SPRITE_ANIM_SEQ_PICHU_WOOPER
+	dw AnimSeq_IntroTTeiWooper   ; SPRITE_ANIM_SEQ_TTEI_WOOPER
 	dw AnimSeq_IntroUnown         ; SPRITE_ANIM_SEQ_UNOWN
 	dw AnimSeq_IntroUnownF        ; SPRITE_ANIM_SEQ_UNOWN_F
 	dw AnimSeq_IntroSuicuneAway   ; SPRITE_ANIM_SEQ_SUICUNE_AWAY
@@ -522,7 +522,7 @@ AnimSeq_IntroSuicune:
 	ld a, SPRITE_ANIM_FRAMESET_INTRO_SUICUNE_2
 	jmp _ReinitSpriteAnimFrame
 
-AnimSeq_IntroPichuWooper:
+AnimSeq_IntroTTeiWooper:
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld a, [hl]

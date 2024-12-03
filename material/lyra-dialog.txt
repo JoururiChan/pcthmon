@@ -12,11 +12,11 @@ Lyra: Hi, <PLAYER>! How is your Tohomon? You can talk to it as you walk from tim
 What's up, <PLAYER>? Even though you're nearby, the phone makes you seem far away. Maybe if you shout, then you'll seem closer!
 
 
-Professor Elm: That is quite a rare Pichu! Can I take a look at it closely? 
+Professor Elm: That is quite a rare TTei! Can I take a look at it closely? 
 Hmm… One of the ears is spiky… That's strange. There seems to be something more to it. It really is a rare sight. 
 You met it at the Ilex Forest? A mysterious Tohomon called Celebi has been sighted there, or so I heard. 
 Speaking of that… 
 Professor Oak once wrote about Celebi and Time Travel in a research paper he presented at a conference! 
 Professor Elm: Celebi can use its mystic power called Time Travel… to travel to the past and future. 
-If this Pichu has traveled through time, perhaps you should take extra care of it, <PLAYER>. It seems that this Pichu has been affected by traveling so far through time with Celebi. I'll inform the Tohomon Center of it. The lady at the reception should be able to tell you if anything may affect that Pichu.
-Professor Elm: This Pichu doesn't seem like a regular Pichu. I'll find out more about it.
+If this TTei has traveled through time, perhaps you should take extra care of it, <PLAYER>. It seems that this TTei has been affected by traveling so far through time with Celebi. I'll inform the Tohomon Center of it. The lady at the reception should be able to tell you if anything may affect that TTei.
+Professor Elm: This TTei doesn't seem like a regular TTei. I'll find out more about it.

@@ -3990,7 +3990,7 @@ Sfx_Spite:
 	sound_ret
 
 
-Sfx_FlameHit:
+Sfx_HolyLance:
 	channel_count 1
 	channel 8, .Ch8
 
@@ -4062,7 +4062,7 @@ Sfx_GigaDrain:
 	sound_ret
 
 
-Sfx_Attract:
+Sfx_LusterHeart:
 	channel_count 1
 	channel 5, .Ch5
 
@@ -5411,7 +5411,7 @@ Sfx_IntroSuicune1:
 	sound_ret
 
 
-Sfx_IntroPichu:
+Sfx_IntroTTei:
 	channel_count 1
 	channel 5, .Ch5
 

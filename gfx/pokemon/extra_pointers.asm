@@ -137,27 +137,27 @@ AnimationExtraPointers:
 	dw CSanaeAnimationExtra
 	dw SanaeAnimationExtra
 	dw DSanaeAnimationExtra
-	dw SentretAnimationExtra
-	dw FurretAnimationExtra
-	dw HoothootAnimationExtra
-	dw NoctowlAnimationExtra
-	dw LedybaAnimationExtra
-	dw LedianAnimationExtra
-	dw SpinarakAnimationExtra
-	dw AriadosAnimationExtra
-	dw CrobatAnimationExtra
-	dw ChinchouAnimationExtra
-	dw LanturnAnimationExtra
-	dw PichuAnimationExtra
-	dw CleffaAnimationExtra
-	dw IgglybuffAnimationExtra
-	dw TogepiAnimationExtra
-	dw TogeticAnimationExtra
-	dw NatuAnimationExtra
-	dw XatuAnimationExtra
-	dw MareepAnimationExtra
-	dw FlaaffyAnimationExtra
-	dw AmpharosAnimationExtra
+	dw CWriggleAnimationExtra
+	dw WriggleAnimationExtra
+	dw SWriggleAnimationExtra
+	dw CMystiaAnimationExtra
+	dw MystiaAnimationExtra
+	dw TMystiaAnimationExtra
+	dw CKeineAnimationExtra
+	dw KeineAnimationExtra
+	dw AKeineAnimationExtra
+	dw CTeiAnimationExtra
+	dw TeiAnimationExtra
+	dw TTeiAnimationExtra
+	dw CEirinAnimationExtra
+	dw EirinAnimationExtra
+	dw TEirinAnimationExtra
+	dw CKaguyaAnimationExtra
+	dw KaguyaAnimationExtra
+	dw TKaguyaAnimationExtra
+	dw CMokouAnimationExtra
+	dw MokouAnimationExtra
+	dw AMokouAnimationExtra
 	dw BellossomAnimationExtra
 	dw MarillAnimationExtra
 	dw AzumarillAnimationExtra
@@ -304,7 +304,7 @@ AnimationExtraPointers:
 	dw KikuriArianaAnimationExtra
 
 
-	dw PichuSpikyAnimationExtra
+	dw TTeiSpikyAnimationExtra
 
 	dw LilyBlackSkellyAnimationExtra
 	dw LilyBlackCalico1AnimationExtra

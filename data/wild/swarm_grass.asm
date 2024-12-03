@@ -53,7 +53,7 @@
 	wildmon 12, CKONGARA
 	wildmon 12, YANMA
 	wildmon 14, YANMA
-	wildmon 14, HOOTHOOT
+	wildmon 14, SWRIGGLE
 	wildmon 10, LYRICA
 	wildmon 10, LYRICA
 	end_grass_wildmons

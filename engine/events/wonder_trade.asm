@@ -23,15 +23,15 @@ WonderTrade::
 .not_egg
 	ld a, MON_SPECIES
 	call GetPartyParamLocationAndValue
-	cp LOW(PICHU)
+	cp LOW(TTEI)
 	jr nz, .not_spiky_eared_pichu
 	assert MON_FORM == MON_EXTSPECIES
 	ld bc, MON_FORM - MON_SPECIES
 	add hl, bc
 	ld a, [hl]
 	and SPECIESFORM_MASK
-	cp HIGH(PICHU) << MON_EXTSPECIES_F | PICHU_SPIKY_EARED_FORM
-	ld hl, .Text_WonderTradeCantTradeSpikyEaredPichu
+	cp HIGH(TTEI) << MON_EXTSPECIES_F | TTEI_SPIKY_EARED_FORM
+	ld hl, .Text_WonderTradeCantTradeSpikyEaredTTei
 	jmp z, PrintText
 .not_spiky_eared_pichu
 	ld hl, wPartyMonNicknames
@@ -65,8 +65,8 @@ WonderTrade::
 	text_far WonderTradePromptText
 	text_end
 
-.Text_WonderTradeCantTradeSpikyEaredPichu
-	text_far WonderTradeCantTradeSpikyEaredPichuText
+.Text_WonderTradeCantTradeSpikyEaredTTei
+	text_far WonderTradeCantTradeSpikyEaredTTeiText
 	text_end
 
 ;.Text_WonderTradeCantTradeEgg:
@@ -95,11 +95,11 @@ DoWonderTrade:
 	; If you've beaten the Elite Four...
 	eventflagcheck EVENT_BEAT_ELITE_FOUR
 	jr z, .random_trademon
-	; ...and haven't gotten the GS Ball Pichu yet...
+	; ...and haven't gotten the GS Ball TTei yet...
 	eventflagcheck EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
 	jr nz, .random_trademon
-	; ...then receive a spiky-eared Pichu holding a GS Ball
-	call GetGSBallPichu
+	; ...then receive a spiky-eared TTei holding a GS Ball
+	call GetGSBallTTei
 	jmp .compute_trademon_stats
 
 .random_trademon
@@ -373,15 +373,15 @@ endr
 .EggString:
 	rawchar "Egg@@@@@@@@"
 
-GetGSBallPichu:
+GetGSBallTTei:
 	ld a, 2
 	ldh [hScriptVar], a
 
-	assert !HIGH(PICHU)
+	assert !HIGH(TTEI)
 
-	ld a, LOW(PICHU)
+	ld a, LOW(TTEI)
 	ld [wOTTrademonSpecies], a
-	ld a, FEMALE | PICHU_SPIKY_EARED_FORM ; spiky-eared variant
+	ld a, FEMALE | TTEI_SPIKY_EARED_FORM ; spiky-eared variant
 	ld [wOTTrademonForm], a
 
 	ld a, [wPlayerTrademonSpecies]

@@ -187,13 +187,13 @@ BattleAnimFrameData:
 	dw .Frameset_b8 ; b8
 	dw .Frameset_PowerGem                ; BATTLEANIMFRAMESET_POWER_GEM
 	dw .Frameset_GunkShot                ; BATTLEANIMFRAMESET_GUNK_SHOT
-	dw .Frameset_StoneRise ; bb
+	dw .Frameset_StoneHit ; bb
 	dw .Frameset_AquaJet
 	dw .Frameset_BrickBreak ; bc
 	dw .Frameset_VoiceBind ; bd
 	dw .Frameset_SeedBomb                ; BATTLEANIMFRAMESET_SEED_BOMB
 	dw .Frameset_MidGlowShrinking ; bf
-	dw .Frameset_EnigmaBurst ; c0
+	dw .Frameset_VoiceBurst ; c0
 	dw .Frameset_SteelFist ; c1
 	dw .Frameset_LongPunch ; c2
 	dw .Frameset_FocusBlast ; c3
@@ -210,7 +210,7 @@ BattleAnimFrameData:
 	dw .Frameset_GyroBall                ; BATTLEANIMFRAMESET_GYRO_BALL
 	dw .Frameset_RedStar ; cc
 	dw .Frameset_Hail ; cd
-	dw .Frameset_UTurn_Fall ; ce
+	dw .Frameset_ChargeOut_Fall ; ce
 	dw .Frameset_BigWhip                 ; BATTLEANIMFRAMESET_BIG_WHIP
 	dw .Frameset_SwirlShort ; d0
 	dw .Frameset_SmallGlow ; d1
@@ -219,9 +219,9 @@ BattleAnimFrameData:
 	dw .Frameset_StatUp ; d4
 	dw .Frameset_StatDown ; d5
 	dw .Frameset_SparkleLong             ; BATTLEANIMFRAMESET_SPARKLE_LONG
-	dw .Frameset_FlashCannonChargeOrb    ; BATTLEANIMFRAMESET_FLASH_CANNON_CHARGE_ORB
+	dw .Frameset_StarCannonChargeOrb    ; BATTLEANIMFRAMESET_STAR_CANNON_CHARGE_ORB
 	dw .Frameset_SlowGrowingGlow         ; BATTLEANIMFRAMESET_SLOW_GROWING_GLOW
-	dw .Frameset_FlashCannonSparks       ; BATTLEANIMFRAMESET_FLASH_CANNON_SPARKS
+	dw .Frameset_StarCannonSparks       ; BATTLEANIMFRAMESET_STAR_CANNON_SPARKS
 	dw .Frameset_TinyGlow                ; BATTLEANIMFRAMESET_TINY_GLOW
 	dw .Frameset_PulsingGlow             ; BATTLEANIMFRAMESET_PULSING_SPARKLE
 	dw .Frameset_BlackRippleSmoke          ; BATTLEANIMFRAMESET_BLACK_RIPPLE_SMOKE
@@ -1352,8 +1352,8 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_F3, 4
 	battleoamdelete
 
-.Frameset_StoneRise:
-	battleoamframe BATTLEANIMOAMSET_STONE_RISE,  50
+.Frameset_StoneHit:
+	battleoamframe BATTLEANIMOAMSET_STONE_HIT,  50
 	battleoamdelete
 
 .Frameset_AquaJet:
@@ -1385,7 +1385,7 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_F2,  1
 	battleoamdelete
 
-.Frameset_EnigmaBurst:
+.Frameset_VoiceBurst:
 	battleoamframe BATTLEANIMOAMSET_1E,  3
 	battleoamframe BATTLEANIMOAMSET_55,  3
 	battleoamframe BATTLEANIMOAMSET_54,  3
@@ -1496,8 +1496,8 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_0F,  2
 	battleoamrestart
 
-.Frameset_UTurn_Fall:
-	battleoamframe BATTLEANIMOAMSET_U_TURN_FALL, 32
+.Frameset_ChargeOut_Fall:
+	battleoamframe BATTLEANIMOAMSET_CHARGE_OUT_FALL, 32
 	battleoamend
 
 .Frameset_BigWhip:
@@ -1551,7 +1551,7 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_15,  3
 	battleoamrestart
 
-.Frameset_FlashCannonChargeOrb:
+.Frameset_StarCannonChargeOrb:
 	battleoamwait 24
 	battleoamframe BATTLEANIMOAMSET_20,  4
 	battleoamframe BATTLEANIMOAMSET_1F,  4
@@ -1564,7 +1564,7 @@ BattleAnimFrameData:
 	battleoamframe BATTLEANIMOAMSET_53,  24
 	battleoamend
 
-.Frameset_FlashCannonSparks:
+.Frameset_StarCannonSparks:
 	battleoamframe BATTLEANIMOAMSET_20,  4
 	battleoamframe BATTLEANIMOAMSET_1F,  4
 	battleoamframe BATTLEANIMOAMSET_1E,  8

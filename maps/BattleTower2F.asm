@@ -465,7 +465,7 @@ BattleTower2FSuperNerdText:
 	done
 
 BattleTower2FKikuriText:
-	text "Kikuri: Pichuu!"
+	text "Kikuri: TTeiu!"
 	done
 
 BattleTower2FYoungsterText:

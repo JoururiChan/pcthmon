@@ -1130,7 +1130,7 @@ GetUserSwitchTarget:
 SendInUserPkmn:
 ; sends in the new tohomon
 	; volatile statuses that baton pass doesn't preserve
-	call BreakAttractionAndResetMirrorHerb
+	call BreakLusterHeartionAndResetMirrorHerb
 	ld a, BATTLE_VARS_SUBSTATUS1
 	call GetBattleVarAddr
 	res SUBSTATUS_ENDURE, [hl]
@@ -2009,7 +2009,7 @@ FaintUserPokemon:
 	call HasUserFainted
 	ret nz
 
-	call BreakAttractionAndResetMirrorHerb
+	call BreakLusterHeartionAndResetMirrorHerb
 
 	xor a
 	ld [wPlayerWrapCount], a
@@ -3103,7 +3103,7 @@ endr
 	res SUBSTATUS_CANT_RUN, [hl]
 	jmp ResetPlayerAbility
 
-BreakAttractionAndResetMirrorHerb:
+BreakLusterHeartionAndResetMirrorHerb:
 	ld hl, wPlayerSubStatus1
 	res SUBSTATUS_IN_LOVE, [hl]
 	ld hl, wEnemySubStatus1
@@ -3483,7 +3483,7 @@ _HeldStatBoostBerry:
 	farcall ShowPotentialAbilityActivation
 	farcall UseStatItemText
 
-	; Don't call CheckMirrorHerb; Leaf Snip/Pluck needs to proc the copy later.
+	; Don't call CheckMirrorHerb; Seed Pelt/Pluck needs to proc the copy later.
 	xor a
 	ret
 .failed
@@ -3564,7 +3564,7 @@ _HeldHPHealingItem:
 	ret nz
 	ld b, 0 ; bc contains HP to restore unless Figy or Sitrus
 	ld a, [hl]
-	; for Leaf Snip, treat Enigma Berry as Sitrus Berry
+	; for Seed Pelt, treat Enigma Berry as Sitrus Berry
 	cp ENIGMA_BERRY
 	jr z, .quarter_maxhp
 	cp SITRUS_BERRY

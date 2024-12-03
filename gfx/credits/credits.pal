@@ -1,5 +1,5 @@
 if !DEF(MONOCHROME)
-; Pichu
+; TTei
 	RGB 31, 00, 31
 	RGB 31, 25, 00
 	RGB 11, 14, 31
@@ -47,7 +47,7 @@ if !DEF(MONOCHROME)
 	RGB 31, 31, 31
 	RGB 31, 31, 31
 
-; Togepi
+; TEirin
 	RGB 31, 31, 31
 	RGB 30, 26, 11
 	RGB 31, 11, 27

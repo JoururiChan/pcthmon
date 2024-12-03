@@ -57,13 +57,13 @@ ENDM
 .Ocean_Good:
 	fishentry  35 percent,     LILYBLACK,   20
 	fishentry  70 percent,     GENGETSU,  20
-	fishentry  90 percent + 1, CHINCHOU,   20
+	fishentry  90 percent + 1, CTEI,   20
 	fishentry 100 percent,     YUMEKO,   20
 .Ocean_Super:
-	fishentry  40 percent,     CHINCHOU,   40
+	fishentry  40 percent,     CTEI,   40
 	fishentry  70 percent,     YUMEKO,   40
 	fishentry  90 percent + 1, GENGETSU, 40
-	fishentry 100 percent,     LANTURN,    40
+	fishentry 100 percent,     TEI,    40
 
 .Lake_Old:
 .River_Old:

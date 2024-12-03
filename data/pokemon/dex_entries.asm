@@ -1368,8 +1368,8 @@ DSanaeTohodexEntry::
 	next "and have much more pur-"
 	next "ity to them.@"
 
-SECTION "SentretTohodexEntry", ROMX
-SentretTohodexEntry::
+SECTION "CWriggleTohodexEntry", ROMX
+CWriggleTohodexEntry::
 	db "Scout@"
 	db   "When acting as a"
 	next "lookout, it warns"
@@ -1378,8 +1378,8 @@ SentretTohodexEntry::
 	next "hitting the ground"
 	next "with its tail.@"
 
-SECTION "FurretTohodexEntry", ROMX
-FurretTohodexEntry::
+SECTION "WriggleTohodexEntry", ROMX
+WriggleTohodexEntry::
 	db "Long Body@"
 	db   "It lives in narrow"
 	next "burrows that fit"
@@ -1388,8 +1388,8 @@ FurretTohodexEntry::
 	next "go, the more maze-"
 	next "like they become.@"
 
-SECTION "HoothootTohodexEntry", ROMX
-HoothootTohodexEntry::
+SECTION "SWriggleTohodexEntry", ROMX
+SWriggleTohodexEntry::
 	db "Owl@"
 	db   "It begins to hoot"
 	next "at the same time"
@@ -1398,8 +1398,8 @@ HoothootTohodexEntry::
 	next "in place of"
 	next "clocks.@"
 
-SECTION "NoctowlTohodexEntry", ROMX
-NoctowlTohodexEntry::
+SECTION "CMystiaTohodexEntry", ROMX
+CMystiaTohodexEntry::
 	db "Owl@"
 	db   "Its extremely soft"
 	next "feathers make no"
@@ -1408,8 +1408,8 @@ NoctowlTohodexEntry::
 	next "up on prey without"
 	next "being detected.@"
 
-SECTION "LedybaTohodexEntry", ROMX
-LedybaTohodexEntry::
+SECTION "MystiaTohodexEntry", ROMX
+MystiaTohodexEntry::
 	db "Five Star@"
 	db   "It is timid and"
 	next "clusters together"
@@ -1418,8 +1418,8 @@ LedybaTohodexEntry::
 	next "its feet indicates"
 	next "its location.@"
 
-SECTION "LedianTohodexEntry", ROMX
-LedianTohodexEntry::
+SECTION "TMystiaTohodexEntry", ROMX
+TMystiaTohodexEntry::
 	db "Five Star@"
 	db   "In the daytime"
 	next "when it gets warm,"
@@ -1428,8 +1428,8 @@ LedianTohodexEntry::
 	next "drifts off into"
 	next "a deep slumber.@"
 
-SECTION "SpinarakTohodexEntry", ROMX
-SpinarakTohodexEntry::
+SECTION "CKeineTohodexEntry", ROMX
+CKeineTohodexEntry::
 	db "String Spit@"
 	db   "If prey becomes"
 	next "ensnared in its"
@@ -1438,8 +1438,8 @@ SpinarakTohodexEntry::
 	next "motionlessly until"
 	next "it becomes dark.@"
 
-SECTION "AriadosTohodexEntry", ROMX
-AriadosTohodexEntry::
+SECTION "KeineTohodexEntry", ROMX
+KeineTohodexEntry::
 	db "Long Leg@"
 	db   "Rather than making"
 	next "a nest in one"
@@ -1448,8 +1448,8 @@ AriadosTohodexEntry::
 	next "of food after"
 	next "darkness falls.@"
 
-SECTION "CrobatTohodexEntry", ROMX
-CrobatTohodexEntry::
+SECTION "AKeineTohodexEntry", ROMX
+AKeineTohodexEntry::
 	db "Bat@"
 	db   "As a result of its"
 	next "pursuit of faster,"
@@ -1458,8 +1458,8 @@ CrobatTohodexEntry::
 	next "of wings grew on"
 	next "its hind legs.@"
 
-SECTION "ChinchouTohodexEntry", ROMX
-ChinchouTohodexEntry::
+SECTION "CTeiTohodexEntry", ROMX
+CTeiTohodexEntry::
 	db "Angler@"
 	db   "Its antennae, whi-"
 	next "ch evolved from a"
@@ -1468,8 +1468,8 @@ ChinchouTohodexEntry::
 	next "ative charges flo-"
 	next "wing through them.@"
 
-SECTION "LanturnTohodexEntry", ROMX
-LanturnTohodexEntry::
+SECTION "TeiTohodexEntry", ROMX
+TeiTohodexEntry::
 	db "Light@"
 	db   "This #mon uses"
 	next "the bright part of"
@@ -1478,8 +1478,8 @@ LanturnTohodexEntry::
 	next "dorsal fin, to"
 	next "lure prey.@"
 
-SECTION "PichuTohodexEntry", ROMX
-PichuTohodexEntry::
+SECTION "TTeiTohodexEntry", ROMX
+TTeiTohodexEntry::
 	db "Tiny Mouse@"
 	db   "It is unskilled at"
 	next "storing electric"
@@ -1488,8 +1488,8 @@ PichuTohodexEntry::
 	next "discharge energy"
 	next "spontaneously.@"
 
-SECTION "CleffaTohodexEntry", ROMX
-CleffaTohodexEntry::
+SECTION "CEirinTohodexEntry", ROMX
+CEirinTohodexEntry::
 	db "Star Shape@"
 	db   "If the impact site"
 	next "of a meteorite is"
@@ -1498,8 +1498,8 @@ CleffaTohodexEntry::
 	next "to be within the"
 	next "immediate area.@"
 
-SECTION "IgglybuffTohodexEntry", ROMX
-IgglybuffTohodexEntry::
+SECTION "EirinTohodexEntry", ROMX
+EirinTohodexEntry::
 	db "Balloon@"
 	db   "Instead of walking"
 	next "with its short"
@@ -1508,8 +1508,8 @@ IgglybuffTohodexEntry::
 	next "on its soft,"
 	next "tender body.@"
 
-SECTION "TogepiTohodexEntry", ROMX
-TogepiTohodexEntry::
+SECTION "TEirinTohodexEntry", ROMX
+TEirinTohodexEntry::
 	db "Spike Ball@"
 	db   "It is considered"
 	next "to be a symbol of"
@@ -1518,8 +1518,8 @@ TogepiTohodexEntry::
 	next "be filled with"
 	next "happiness.@"
 
-SECTION "TogeticTohodexEntry", ROMX
-TogeticTohodexEntry::
+SECTION "CKaguyaTohodexEntry", ROMX
+CKaguyaTohodexEntry::
 	db "Happiness@"
 	db   "Although it does"
 	next "not flap its wings"
@@ -1528,8 +1528,8 @@ TogeticTohodexEntry::
 	next "as it tags along"
 	next "after its trainer.@"
 
-SECTION "NatuTohodexEntry", ROMX
-NatuTohodexEntry::
+SECTION "KaguyaTohodexEntry", ROMX
+KaguyaTohodexEntry::
 	db "Little Bird@"
 	db   "It is extremely"
 	next "good at climbing"
@@ -1538,8 +1538,8 @@ NatuTohodexEntry::
 	next "new sprouts on"
 	next "the trees.@"
 
-SECTION "XatuTohodexEntry", ROMX
-XatuTohodexEntry::
+SECTION "TKaguyaTohodexEntry", ROMX
+TKaguyaTohodexEntry::
 	db "Mystic@"
 	db   "Once it begins to"
 	next "meditate at sun-"
@@ -1548,8 +1548,8 @@ XatuTohodexEntry::
 	next "before it will"
 	next "move again.@"
 
-SECTION "MareepTohodexEntry", ROMX
-MareepTohodexEntry::
+SECTION "CMokouTohodexEntry", ROMX
+CMokouTohodexEntry::
 	db "Wool@"
 	db   "It stores lots of"
 	next "air in its soft"
@@ -1558,8 +1558,8 @@ MareepTohodexEntry::
 	next "summer and warm"
 	next "in winter.@"
 
-SECTION "FlaaffyTohodexEntry", ROMX
-FlaaffyTohodexEntry::
+SECTION "MokouTohodexEntry", ROMX
+MokouTohodexEntry::
 	db "Wool@"
 	db   "Because of its"
 	next "rubbery, electric-"
@@ -1568,8 +1568,8 @@ FlaaffyTohodexEntry::
 	next "lots of electric-"
 	next "ity in its fur.@"
 
-SECTION "AmpharosTohodexEntry", ROMX
-AmpharosTohodexEntry::
+SECTION "AMokouTohodexEntry", ROMX
+AMokouTohodexEntry::
 	db "Light@"
 	db   "When it gets dark,"
 	next "the light from its"

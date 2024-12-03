@@ -195,11 +195,11 @@ WonderTradeReceptionistScript:
 	ifnotequal 2, .done
 	setevent EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
 	setevent EVENT_CAN_GIVE_GS_BALL_TO_KURT
-	playmusic MUSIC_SPIKY_EARED_PICHU_HGSS
-	writetext WonderTradeForGSBallPichuText
+	playmusic MUSIC_SPIKY_EARED_TTEI_HGSS
+	writetext WonderTradeForGSBallTTeiText
 	promptbutton
 	verbosegivekeyitem GS_BALL
-	writetext WonderTradeForGSBallPichuText2
+	writetext WonderTradeForGSBallTTeiText2
 	waitbutton
 .done
 	jumpopenedtext WonderTradeGoodbyeText
@@ -234,7 +234,7 @@ WonderTradeGoodbyeText:
 	line "again."
 	done
 
-WonderTradeForGSBallPichuText:
+WonderTradeForGSBallTTeiText:
 	text "…But what's this?"
 	line "Is something wrong"
 
@@ -268,7 +268,7 @@ WonderTradeForGSBallPichuText:
 	para "Here, take a look…"
 	done
 
-WonderTradeForGSBallPichuText2:
+WonderTradeForGSBallTTeiText2:
 	text "It may be unusual,"
 	line "but a #mon"
 	cont "is a #mon."

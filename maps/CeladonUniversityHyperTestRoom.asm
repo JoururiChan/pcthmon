@@ -25,7 +25,7 @@ CeladonUniversityHyperTestRoom_MapScriptHeader:
 CeladonUniversityHyperTestRoomWestwoodScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_HOLY_FLAME_LILYBLACK
+	checkevent EVENT_GOT_POISON_SHOT_LILYBLACK
 	iftrue_jumpopenedtext .TestOverText
 	checkevent EVENT_PASSED_CELADON_HYPER_TEST
 	iftruefwd .GiveLilyBlack
@@ -133,9 +133,9 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	writetext .CongratulationsText
 	waitbutton
 
-	givepoke LILYBLACK, LILYBLACK_MASK1_FORM, 10, EVIOLITE, ULTRA_BALL, HOLY_FLAME
+	givepoke LILYBLACK, LILYBLACK_MASK1_FORM, 10, EVIOLITE, ULTRA_BALL, POISON_SHOT
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	setevent EVENT_GOT_HOLY_FLAME_LILYBLACK
+	setevent EVENT_GOT_POISON_SHOT_LILYBLACK
 	jumpopenedtext .TestOverText
 
 .WrongAnswer:
@@ -259,7 +259,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	line "a uniquely bred"
 
 	para "LilyBlack that"
-	line "knows Holy Flame!"
+	line "knows Poison Shot!"
 	done
 
 .TestOverText:

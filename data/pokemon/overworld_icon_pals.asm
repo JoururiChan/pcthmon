@@ -141,27 +141,27 @@ OverworldMonIconColors::
 	iconpal AZURE, GREEN ; CSANAE
 	iconpal AZURE, GREEN ; SANAE
 	iconpal AZURE, GREEN ; DSANAE
-	iconpal BROWN, PURPLE ; SENTRET
-	iconpal BROWN, RED ; FURRET
-	iconpal BROWN, RED ; HOOTHOOT
-	iconpal BROWN, GREEN ; NOCTOWL
-	iconpal RED, PINK ; LEDYBA
-	iconpal RED, PINK ; LEDIAN
-	iconpal GREEN, PURPLE ; SPINARAK
-	iconpal PURPLE, BLUE ; ARIADOS
-	iconpal PURPLE, RED ; CROBAT
-	iconpal BLUE, TEAL ; CHINCHOU
-	iconpal BLUE, TEAL ; LANTURN
-	iconpal RED, BLUE ; PICHU
-	iconpal RED, PINK ; CLEFFA
-	iconpal RED, PINK ; IGGLYBUFF
-	iconpal RED, AZURE ; TOGEPI
-	iconpal WHITE, AZURE ; TOGETIC
-	iconpal GREEN, RED ; NATU
-	iconpal GREEN, RED ; XATU
-	iconpal BLUE, PURPLE ; MAREEP
-	iconpal PINK, RED ; FLAAFFY
-	iconpal BROWN, RED ; AMPHAROS
+	iconpal BROWN, PURPLE ; CWRIGGLE
+	iconpal BROWN, RED ; WRIGGLE
+	iconpal BROWN, RED ; SWRIGGLE
+	iconpal BROWN, GREEN ; CMYSTIA
+	iconpal RED, PINK ; MYSTIA
+	iconpal RED, PINK ; TMYSTIA
+	iconpal GREEN, PURPLE ; CKEINE
+	iconpal PURPLE, BLUE ; KEINE
+	iconpal PURPLE, RED ; AKEINE
+	iconpal BLUE, TEAL ; CTEI
+	iconpal BLUE, TEAL ; TEI
+	iconpal RED, BLUE ; TTEI
+	iconpal RED, PINK ; CEIRIN
+	iconpal RED, PINK ; EIRIN
+	iconpal RED, AZURE ; TEIRIN
+	iconpal WHITE, AZURE ; CKAGUYA
+	iconpal GREEN, RED ; KAGUYA
+	iconpal GREEN, RED ; TKAGUYA
+	iconpal BLUE, PURPLE ; CMOKOU
+	iconpal PINK, RED ; MOKOU
+	iconpal BROWN, RED ; AMOKOU
 	iconpal GREEN, RED ; BELLOSSOM
 	iconpal BLUE, GREEN ; MARILL
 	iconpal BLUE, BROWN ; AZUMARILL
@@ -282,7 +282,7 @@ rept NUM_KIKURI - 1
 	iconpal PURPLE, BROWN
 endr
 
-	iconpal RED, BLUE ; PICHU, PICHU_SPIKY_EARED_FORM
+	iconpal RED, BLUE ; TTEI, TTEI_SPIKY_EARED_FORM
 
 rept NUM_LILYBLACK - 1
 	iconpal RED, BROWN

@@ -15,7 +15,7 @@ BattleCommand_bugbite:
 	push bc
 	call GetOpponentItem
 	ld a, b
-	cp HELD_NO_LEAF_SNIP
+	cp HELD_NO_SEED_PELT
 	pop bc
 	ret z
 

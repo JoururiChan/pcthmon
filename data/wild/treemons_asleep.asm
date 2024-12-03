@@ -18,14 +18,14 @@ AsleepTreeMons:
 	dp CELIS
 	dp CKIKURI
 	dp CIRNO
-	dp LEDYBA
+	dp MYSTIA
 	db 0 ; end
 
 .Morn
 .Day
 	dp RIKAKO
-	dp HOOTHOOT
-	dp NOCTOWL
-	dp SPINARAK
+	dp SWRIGGLE
+	dp CMYSTIA
+	dp CKEINE
 	dp HERACROSS
 	db 0 ; end

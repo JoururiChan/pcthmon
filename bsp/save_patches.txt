@@ -606,9 +606,9 @@ ConvertMonIndexesTo9Bit:
 	dh 0x16, 162 ; AZUMARILL
 	dh 0x6b, 0   ; CKOAKUMA
 	dh 0x74, 1   ; FLANDRE
-	dh 0x76, 58  ; TOGETIC
+	dh 0x76, 58  ; CKAGUYA
 	dh 0x77, 152 ; TOGEKISS
-	dh 0xac, 0   ; PICHU
+	dh 0xac, 0   ; TTEI
 	dh 0xad, 89  ; MUNCHLAX
 	dh 0xae, 91  ; MAGNEZONE
 	dh 0xb0, 92  ; TANGROWTH
@@ -649,7 +649,7 @@ ConvertMonIndexesTo9Bit:
 	db 0x19, 4 ; EKIKURI, RED
 	db 0x19, 5 ; EKIKURI, YELLOW
 	db 0x19, 6 ; EKIKURI, SPARK
-	db 0xac, 2 ; PICHU, SPIKY_EARED
+	db 0xac, 2 ; TTEI, SPIKY_EARED
 	db 0x81, 2 ; LILYBLACK, SKELLY
 	db 0x81, 3 ; LILYBLACK, CALICO1
 	db 0x81, 4 ; LILYBLACK, CALICO2
@@ -713,8 +713,8 @@ ConvertMonIndexesTo9Bit:
 	db 0x6b ; KOAKUMA
 	db 0x75 ; AFLANDRE
 	db 0x76 ; CLETTY
-	db 0xac ; IGGLYBUFF
-	db 0xad ; CLEFFA
+	db 0xac ; EIRIN
+	db 0xad ; CEIRIN
 	db 0xba ; HOPPIP
 	db 0xbb ; SKIPLOOM
 	db 0xbc ; JUMPLUFF

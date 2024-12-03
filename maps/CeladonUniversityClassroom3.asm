@@ -88,7 +88,7 @@ CeladonUniversityClassroom3LassText:
 CeladonUniversityClassroom3Super_nerdText:
 	text "Have you heard of"
 	line "the Wind-type"
-	cont "#mon Mareep?"
+	cont "#mon CMokou?"
 
 	para "Its name derives"
 	line "from the unit of"

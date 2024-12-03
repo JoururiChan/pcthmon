@@ -768,7 +768,7 @@ DayCare_GenerateEgg:
 	ld b, a
 
 ; it's useful for mons to have forms found only in CosmeticSpeciesAndFormTable (see: CKikuri)
-; but we don't want to breed mons that shouldn't be hatched (see: Spiky-eared Pichu)
+; but we don't want to breed mons that shouldn't be hatched (see: Spiky-eared TTei)
 	push bc
 	call GetCosmeticSpeciesAndFormIndex ; first, ensure the form even exists for this mon
 	pop bc

@@ -144,27 +144,27 @@ PokemonBodyData:
 	body_data   6,  150, BIPEDAL, BLUE   ; CSANAE
 	body_data  11,  350, BIPEDAL, BLUE   ; SANAE
 	body_data  23,  380, BIPEDAL, BLUE   ; DSANAE
-	body_data   8,   60, QUADRUPED,    BROWN  ; SENTRET
-	body_data  18,  325, QUADRUPED,    BROWN  ; FURRET
-	body_data   7,  212, WINGS,        BROWN  ; HOOTHOOT
-	body_data  16,  408, WINGS,        BROWN  ; NOCTOWL
-	body_data  10,  108, WINGS,        RED    ; LEDYBA
-	body_data  14,  356, WINGS,        RED    ; LEDIAN
-	body_data   5,   85, INSECTOID,    GREEN  ; SPINARAK
-	body_data  11,  335, INSECTOID,    RED    ; ARIADOS
-	body_data  18,  750, MULTIWINGS,   PURPLE ; CROBAT
-	body_data   5,  120, FINS,         BLUE   ; CHINCHOU
-	body_data  12,  225, FINS,         BLUE   ; LANTURN
-	body_data   3,   20, QUADRUPED,    YELLOW ; PICHU
-	body_data   3,   30, BIPEDAL_TAIL, PINK   ; CLEFFA
-	body_data   3,   10, BIPEDAL,      PINK   ; IGGLYBUFF
-	body_data   3,   15, BIPEDAL,      WHITE  ; TOGEPI
-	body_data   6,   32, BIPEDAL,      WHITE  ; TOGETIC
-	body_data   2,   20, WINGS,        GREEN  ; NATU
-	body_data  15,  150, WINGS,        GREEN  ; XATU
-	body_data   6,   78, QUADRUPED,    WHITE  ; MAREEP
-	body_data   8,  133, BIPEDAL_TAIL, PINK   ; FLAAFFY
-	body_data  14,  615, BIPEDAL_TAIL, YELLOW ; AMPHAROS
+	body_data   8,   60, QUADRUPED,    BROWN  ; CWRIGGLE
+	body_data  18,  325, QUADRUPED,    BROWN  ; WRIGGLE
+	body_data   7,  212, WINGS,        BROWN  ; SWRIGGLE
+	body_data  16,  408, WINGS,        BROWN  ; CMYSTIA
+	body_data  10,  108, WINGS,        RED    ; MYSTIA
+	body_data  14,  356, WINGS,        RED    ; TMYSTIA
+	body_data   5,   85, INSECTOID,    GREEN  ; CKEINE
+	body_data  11,  335, INSECTOID,    RED    ; KEINE
+	body_data  18,  750, MULTIWINGS,   PURPLE ; AKEINE
+	body_data   5,  120, FINS,         BLUE   ; CTEI
+	body_data  12,  225, FINS,         BLUE   ; TEI
+	body_data   3,   20, QUADRUPED,    YELLOW ; TTEI
+	body_data   3,   30, BIPEDAL_TAIL, PINK   ; CEIRIN
+	body_data   3,   10, BIPEDAL,      PINK   ; EIRIN
+	body_data   3,   15, BIPEDAL,      WHITE  ; TEIRIN
+	body_data   6,   32, BIPEDAL,      WHITE  ; CKAGUYA
+	body_data   2,   20, WINGS,        GREEN  ; KAGUYA
+	body_data  15,  150, WINGS,        GREEN  ; TKAGUYA
+	body_data   6,   78, QUADRUPED,    WHITE  ; CMOKOU
+	body_data   8,  133, BIPEDAL_TAIL, PINK   ; MOKOU
+	body_data  14,  615, BIPEDAL_TAIL, YELLOW ; AMOKOU
 	body_data   4,   58, BIPEDAL,      GREEN  ; BELLOSSOM
 	body_data   4,   85, BIPEDAL_TAIL, BLUE   ; MARILL
 	body_data   8,  285, BIPEDAL_TAIL, BLUE   ; AZUMARILL

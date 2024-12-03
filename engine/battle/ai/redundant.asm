@@ -32,7 +32,7 @@ AI_Redundant:
 	dbw EFFECT_SHADOW_DANCE,   .ShadowDance
 	dbw EFFECT_SANDSTORM,     .Sandstorm
 	dbw EFFECT_HAIL,          .Hail
-	dbw EFFECT_ATTRACT,       .Attract
+	dbw EFFECT_LUSTER_HEART,       .LusterHeart
 	dbw EFFECT_SAFEGUARD,     .Safeguard
 	dbw EFFECT_RAIN_DANCE,    .RainDance
 	dbw EFFECT_SUNNY_DAY,     .SunnyDay
@@ -164,7 +164,7 @@ AI_Redundant:
 	cp WEATHER_HAIL
 	jr .InvertZero
 
-.Attract:
+.LusterHeart:
 	farcall CheckOppositeGender
 	jr c, .Redundant
 	jr z, .Redundant

@@ -300,7 +300,7 @@ IntroScene7:
 	debgcoord 0, 0
 	call Intro_DecompressRequest2bpp_64Tiles
 
-	ld hl, IntroPichuWooperGFX
+	ld hl, IntroTTeiWooperGFX
 	ld de, vTiles0 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 
@@ -391,7 +391,7 @@ IntroScene9:
 	jmp NextIntroScene
 
 IntroScene10:
-; Wooper and Pichu enter.
+; Wooper and TTei enter.
 	call Intro_RustleGrass
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
@@ -404,7 +404,7 @@ IntroScene10:
 	ret nz
 ; pichu
 	depixel 21, 16, 1, 0
-	ld a, SPRITE_ANIM_INDEX_INTRO_PICHU
+	ld a, SPRITE_ANIM_INDEX_INTRO_TTEI
 	jr .got_anim
 
 .wooper
@@ -412,7 +412,7 @@ IntroScene10:
 	ld a, SPRITE_ANIM_INDEX_INTRO_WOOPER
 .got_anim
 	call InitSpriteAnimStruct
-	ld de, SFX_INTRO_PICHU
+	ld de, SFX_INTRO_TTEI
 	jmp PlaySFX
 
 IntroScene11:
@@ -1548,7 +1548,7 @@ Intro_PerspectiveScrollBG:
 IntroSuicuneRunGFX:
 INCBIN "gfx/intro/suicune_run.2bpp.lz"
 
-IntroPichuWooperGFX:
+IntroTTeiWooperGFX:
 INCBIN "gfx/intro/pichu_wooper.2bpp.lz"
 
 IntroTilemap003:

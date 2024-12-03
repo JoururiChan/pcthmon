@@ -156,12 +156,12 @@
 	const MUSIC_ZINNIA_BATTLE_ORAS             ; 98
 	const MUSIC_WALLY_ENCOUNTER_ORAS           ; 99
 	const MUSIC_WALLY_BATTLE_ORAS              ; 9a
-	const MUSIC_SPIKY_EARED_PICHU_HGSS         ; 9b
+	const MUSIC_SPIKY_EARED_TTEI_HGSS         ; 9b
 	const MUSIC_MOTHER_BEAST_BATTLE_SM         ; 9c
 	const MUSIC_FROST_CAVERN_XY                ; 9d
 	const MUSIC_POWER_PLANT_XY                 ; 9e
 	const MUSIC_REVERSAL_MOUNTAIN_W2           ; 9f
-	const MUSIC_FIRE_BREATHS_RSE               ; a0
+	const MUSIC_FLAME_SHOOTS_RSE               ; a0
 	const MUSIC_LUGIAS_SONG_2000               ; a1
 	const MUSIC_LUGIA_BATTLE_HGSS              ; a2
 	const MUSIC_SUMMONING_DANCE_HGSS           ; a3

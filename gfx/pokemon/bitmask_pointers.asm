@@ -137,27 +137,27 @@ BitmasksPointers:
 	dw CSanaeBitmasks
 	dw SanaeBitmasks
 	dw DSanaeBitmasks
-	dw SentretBitmasks
-	dw FurretBitmasks
-	dw HoothootBitmasks
-	dw NoctowlBitmasks
-	dw LedybaBitmasks
-	dw LedianBitmasks
-	dw SpinarakBitmasks
-	dw AriadosBitmasks
-	dw CrobatBitmasks
-	dw ChinchouBitmasks
-	dw LanturnBitmasks
-	dw PichuBitmasks
-	dw CleffaBitmasks
-	dw IgglybuffBitmasks
-	dw TogepiBitmasks
-	dw TogeticBitmasks
-	dw NatuBitmasks
-	dw XatuBitmasks
-	dw MareepBitmasks
-	dw FlaaffyBitmasks
-	dw AmpharosBitmasks
+	dw CWriggleBitmasks
+	dw WriggleBitmasks
+	dw SWriggleBitmasks
+	dw CMystiaBitmasks
+	dw MystiaBitmasks
+	dw TMystiaBitmasks
+	dw CKeineBitmasks
+	dw KeineBitmasks
+	dw AKeineBitmasks
+	dw CTeiBitmasks
+	dw TeiBitmasks
+	dw TTeiBitmasks
+	dw CEirinBitmasks
+	dw EirinBitmasks
+	dw TEirinBitmasks
+	dw CKaguyaBitmasks
+	dw KaguyaBitmasks
+	dw TKaguyaBitmasks
+	dw CMokouBitmasks
+	dw MokouBitmasks
+	dw AMokouBitmasks
 	dw BellossomBitmasks
 	dw MarillBitmasks
 	dw AzumarillBitmasks
@@ -303,7 +303,7 @@ BitmasksPointers:
 	dw KikuriAgathaBitmasks
 	dw KikuriArianaBitmasks
 
-	dw PichuSpikyBitmasks
+	dw TTeiSpikyBitmasks
 
 	dw LilyBlackSkellyBitmasks
 	dw LilyBlackCalico1Bitmasks

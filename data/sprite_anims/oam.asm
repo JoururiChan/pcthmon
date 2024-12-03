@@ -56,9 +56,9 @@ SpriteAnimOAMData:
 	spriteanimoam $08, .OAMData_IntroSuicune2          ; SPRITE_ANIM_OAMSET_INTRO_SUICUNE_2
 	spriteanimoam $60, .OAMData_IntroSuicune3          ; SPRITE_ANIM_OAMSET_INTRO_SUICUNE_3
 	spriteanimoam $68, .OAMData_IntroSuicune4          ; SPRITE_ANIM_OAMSET_INTRO_SUICUNE_4
-	spriteanimoam $00, .OAMData_IntroPichu             ; SPRITE_ANIM_OAMSET_INTRO_PICHU_1
-	spriteanimoam $05, .OAMData_IntroPichu             ; SPRITE_ANIM_OAMSET_INTRO_PICHU_2
-	spriteanimoam $0a, .OAMData_IntroPichu             ; SPRITE_ANIM_OAMSET_INTRO_PICHU_3
+	spriteanimoam $00, .OAMData_IntroTTei             ; SPRITE_ANIM_OAMSET_INTRO_TTEI_1
+	spriteanimoam $05, .OAMData_IntroTTei             ; SPRITE_ANIM_OAMSET_INTRO_TTEI_2
+	spriteanimoam $0a, .OAMData_IntroTTei             ; SPRITE_ANIM_OAMSET_INTRO_TTEI_3
 	spriteanimoam $50, .OAMData_IntroWooper            ; SPRITE_ANIM_OAMSET_INTRO_WOOPER
 	spriteanimoam $00, .OAMData_IntroUnown1            ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_1
 	spriteanimoam $01, .OAMData_IntroUnown2            ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_2
@@ -503,7 +503,7 @@ SpriteAnimOAMData:
 	dsprite  2,  0,  0,  0, $54, $0
 	dsprite  2,  0,  1,  0, $55, $0
 
-.OAMData_IntroPichu:
+.OAMData_IntroTTei:
 	db 25
 	dsprite -3,  4, -3,  4, $00, $1 | VRAM_BANK_1
 	dsprite -3,  4, -2,  4, $01, $1 | VRAM_BANK_1

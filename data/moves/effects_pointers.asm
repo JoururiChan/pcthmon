@@ -116,7 +116,7 @@ MoveEffectsPointers:
 	dw Tremors
 	dw Swagger
 	dw ConditionalBoostHit
-	dw Attract
+	dw LusterHeart
 	dw Return
 	dw SacredFire
 	dw Magnitude
@@ -137,7 +137,7 @@ MoveEffectsPointers:
 	dw Thunder
 	dw Teleport
 	dw Fly
-	dw HeatSmash
+	dw FlareOut
 	dw NormalHit
 	dw NormalHit
 	dw SwitchHit
@@ -148,7 +148,7 @@ MoveEffectsPointers:
 	dw SkillSwap
 	dw Trick
 	dw KnockOff
-	dw LeafSnip
+	dw SeedPelt
 	dw GyroBall
 	dw BodySlam
 	dw LowKick

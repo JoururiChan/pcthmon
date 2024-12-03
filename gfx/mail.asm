@@ -34,7 +34,7 @@ INCBIN "gfx/mail/eon_mail_border_1.1bpp"
 EonMailBorder2GFX:
 INCBIN "gfx/mail/eon_mail_border_2.1bpp"
 
-MailNatuGFX:
+MailKaguyaGFX:
 INCBIN "gfx/mail/natu.1bpp"
 
 MailYukariGFX:

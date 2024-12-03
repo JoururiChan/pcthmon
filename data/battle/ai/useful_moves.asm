@@ -4,7 +4,7 @@ UsefulMoves:
 ; Moves that are usable all-around.
 	db DOUBLE_EDGE
 	db SING
-	db FIRE_BREATH
+	db FLAME_SHOOT
 	db HYDRO_PUMP
 	db SURF
 	db ICE_BEAM

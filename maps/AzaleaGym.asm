@@ -77,12 +77,12 @@ AzaleaGymBugsyScript:
 		line "you to have this."
 		done
 	promptbutton
-	verbosegivetmhm TM_U_TURN
-	setevent EVENT_GOT_TM69_U_TURN
+	verbosegivetmhm TM_CHARGE_OUT
+	setevent EVENT_GOT_TM69_CHARGE_OUT
 	jumpthisopenedtext
 
 	text "TM69 contains"
-	line "U-turn."
+	line "Charge Out."
 
 	para "It lets your #-"
 	line "mon attack, then"

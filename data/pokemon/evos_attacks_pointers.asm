@@ -141,27 +141,27 @@ EvosAttacksPointers::
 	dw CSanaeEvosAttacks
 	dw SanaeEvosAttacks
 	dw DSanaeEvosAttacks
-	dw SentretEvosAttacks
-	dw FurretEvosAttacks
-	dw HoothootEvosAttacks
-	dw NoctowlEvosAttacks
-	dw LedybaEvosAttacks
-	dw LedianEvosAttacks
-	dw SpinarakEvosAttacks
-	dw AriadosEvosAttacks
-	dw CrobatEvosAttacks
-	dw ChinchouEvosAttacks
-	dw LanturnEvosAttacks
-	dw PichuEvosAttacks
-	dw CleffaEvosAttacks
-	dw IgglybuffEvosAttacks
-	dw TogepiEvosAttacks
-	dw TogeticEvosAttacks
-	dw NatuEvosAttacks
-	dw XatuEvosAttacks
-	dw MareepEvosAttacks
-	dw FlaaffyEvosAttacks
-	dw AmpharosEvosAttacks
+	dw CWriggleEvosAttacks
+	dw WriggleEvosAttacks
+	dw SWriggleEvosAttacks
+	dw CMystiaEvosAttacks
+	dw MystiaEvosAttacks
+	dw TMystiaEvosAttacks
+	dw CKeineEvosAttacks
+	dw KeineEvosAttacks
+	dw AKeineEvosAttacks
+	dw CTeiEvosAttacks
+	dw TeiEvosAttacks
+	dw TTeiEvosAttacks
+	dw CEirinEvosAttacks
+	dw EirinEvosAttacks
+	dw TEirinEvosAttacks
+	dw CKaguyaEvosAttacks
+	dw KaguyaEvosAttacks
+	dw TKaguyaEvosAttacks
+	dw CMokouEvosAttacks
+	dw MokouEvosAttacks
+	dw AMokouEvosAttacks
 	dw BellossomEvosAttacks
 	dw MarillEvosAttacks
 	dw AzumarillEvosAttacks

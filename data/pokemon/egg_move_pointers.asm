@@ -137,27 +137,27 @@ EggMovePointers::
 	dw CSanaeEggMoves       ; CSanae
 	dw NoEggMoves             ; Sanae
 	dw NoEggMoves             ; DSanae
-	dw SentretEggMoves        ; Sentret
-	dw NoEggMoves             ; Furret
-	dw HoothootEggMoves       ; Hoothoot
-	dw NoEggMoves             ; Noctowl
-	dw LedybaEggMoves         ; Ledyba
-	dw NoEggMoves             ; Ledian
-	dw SpinarakEggMoves       ; Spinarak
-	dw NoEggMoves             ; Ariados
-	dw NoEggMoves             ; Crobat
-	dw ChinchouEggMoves       ; Chinchou
-	dw NoEggMoves             ; Lanturn
-	dw PichuEggMoves          ; Pichu
-	dw CleffaEggMoves         ; Cleffa
-	dw IgglybuffEggMoves      ; Igglybuff
-	dw TogepiEggMoves         ; Togepi
-	dw NoEggMoves             ; Togetic
-	dw NatuEggMoves           ; Natu
-	dw NoEggMoves             ; Xatu
-	dw MareepEggMoves         ; Mareep
-	dw NoEggMoves             ; Flaaffy
-	dw NoEggMoves             ; Ampharos
+	dw CWriggleEggMoves        ; CWriggle
+	dw NoEggMoves             ; Wriggle
+	dw SWriggleEggMoves       ; SWriggle
+	dw NoEggMoves             ; CMystia
+	dw MystiaEggMoves         ; Mystia
+	dw NoEggMoves             ; TMystia
+	dw CKeineEggMoves       ; CKeine
+	dw NoEggMoves             ; Keine
+	dw NoEggMoves             ; AKeine
+	dw CTeiEggMoves       ; CTei
+	dw NoEggMoves             ; Tei
+	dw TTeiEggMoves          ; TTei
+	dw CEirinEggMoves         ; CEirin
+	dw EirinEggMoves      ; Eirin
+	dw TEirinEggMoves         ; TEirin
+	dw NoEggMoves             ; CKaguya
+	dw KaguyaEggMoves           ; Kaguya
+	dw NoEggMoves             ; TKaguya
+	dw CMokouEggMoves         ; CMokou
+	dw NoEggMoves             ; Mokou
+	dw NoEggMoves             ; AMokou
 	dw NoEggMoves             ; Bellossom
 	dw NoEggMoves             ; Marill
 	dw NoEggMoves             ; Azumarill

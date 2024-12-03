@@ -141,27 +141,27 @@ MenuMonIconColors::
 	iconpal AZURE, GREEN ; CSANAE
 	iconpal AZURE, GREEN ; SANAE
 	iconpal AZURE, GREEN ; DSANAE
-	iconpal BROWN, PURPLE ; SENTRET
-	iconpal BROWN, RED ; FURRET
-	iconpal BROWN, RED ; HOOTHOOT
-	iconpal BROWN, GREEN ; NOCTOWL
-	iconpal RED, PINK ; LEDYBA
-	iconpal RED, PINK ; LEDIAN
-	iconpal GREEN, PURPLE ; SPINARAK
-	iconpal PURPLE, BLUE ; ARIADOS
-	iconpal PURPLE, RED ; CROBAT
-	iconpal BLUE, TEAL ; CHINCHOU
-	iconpal BLUE, TEAL ; LANTURN
-	iconpal RED, BLUE ; PICHU
+	iconpal BROWN, PURPLE ; CWRIGGLE
+	iconpal BROWN, RED ; WRIGGLE
+	iconpal BROWN, RED ; SWRIGGLE
+	iconpal BROWN, GREEN ; CMYSTIA
+	iconpal RED, PINK ; MYSTIA
+	iconpal RED, PINK ; TMYSTIA
+	iconpal GREEN, PURPLE ; CKEINE
+	iconpal PURPLE, BLUE ; KEINE
+	iconpal PURPLE, RED ; AKEINE
+	iconpal BLUE, TEAL ; CTEI
+	iconpal BLUE, TEAL ; TEI
+	iconpal RED, BLUE ; TTEI
 	iconpal RED, BLUE ; MUNCHLAX
 	iconpal GRAY, BROWN ; MAGNEZONE
 	iconpal GRAY, RED ; RHYPERIOR
 	iconpal BLUE, GREEN ; TANGROWTH
-	iconpal GREEN, RED ; NATU
-	iconpal GREEN, RED ; XATU
-	iconpal BLUE, PURPLE ; MAREEP
-	iconpal PINK, RED ; FLAAFFY
-	iconpal BROWN, RED ; AMPHAROS
+	iconpal GREEN, RED ; KAGUYA
+	iconpal GREEN, RED ; TKAGUYA
+	iconpal BLUE, PURPLE ; CMOKOU
+	iconpal PINK, RED ; MOKOU
+	iconpal BROWN, RED ; AMOKOU
 	iconpal GREEN, RED ; BELLOSSOM
 	iconpal GREEN, RED ; SUDOWOODO
 	iconpal GREEN, TEAL ; POLITOED
@@ -251,7 +251,7 @@ rept 5
 	iconpal RED, BLUE ; PIKACHU
 endr
 
-	iconpal RED, BLUE ; PICHU
+	iconpal RED, BLUE ; TTEI
 
 rept NUM_MAGIKARP - 1
 	iconpal RED, BROWN ; MAGIKARP

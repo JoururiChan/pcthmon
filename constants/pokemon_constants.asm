@@ -159,27 +159,27 @@
 	const CSANAE   ; 9e
 	const SANAE   ; 9f
 	const DSANAE ; a0
-	const SENTRET    ; a1
-	const FURRET     ; a2
-	const HOOTHOOT   ; a3
-	const NOCTOWL    ; a4
-	const LEDYBA     ; a5
-	const LEDIAN     ; a6
-	const SPINARAK   ; a7
-	const ARIADOS    ; a8
-	const CROBAT     ; a9
-	const CHINCHOU   ; aa
-	const LANTURN    ; ab
-	const PICHU      ; ac
-	const CLEFFA     ; ad
-	const IGGLYBUFF  ; ae
-	const TOGEPI     ; af
-	const TOGETIC    ; b0
-	const NATU       ; b1
-	const XATU       ; b2
-	const MAREEP     ; b3
-	const FLAAFFY    ; b4
-	const AMPHAROS   ; b5
+	const CWRIGGLE    ; a1
+	const WRIGGLE     ; a2
+	const SWRIGGLE   ; a3
+	const CMYSTIA    ; a4
+	const MYSTIA     ; a5
+	const TMYSTIA     ; a6
+	const CKEINE   ; a7
+	const KEINE    ; a8
+	const AKEINE     ; a9
+	const CTEI   ; aa
+	const TEI    ; ab
+	const TTEI      ; ac
+	const CEIRIN     ; ad
+	const EIRIN  ; ae
+	const TEIRIN     ; af
+	const CKAGUYA    ; b0
+	const KAGUYA       ; b1
+	const TKAGUYA       ; b2
+	const CMOKOU     ; b3
+	const MOKOU    ; b4
+	const AMOKOU   ; b5
 	const BELLOSSOM  ; b6
 	const MARILL     ; b7
 	const AZUMARILL  ; b8
@@ -365,7 +365,7 @@ DEF NUM_KIKURI EQU ext_const_value - 1
 
 ; pichu
 	ext_const_def 2
-	ext_const PICHU_SPIKY_EARED_FORM ; 148 (2)
+	ext_const TTEI_SPIKY_EARED_FORM ; 148 (2)
 
 ; lilyblack
 	ext_const_def 2

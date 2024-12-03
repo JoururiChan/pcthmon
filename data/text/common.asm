@@ -4539,9 +4539,9 @@ WonderTradePromptText::
 	line "you want to trade?"
 	prompt
 
-SECTION "WonderTradeCantTradeSpikyEaredPichuText", ROMX
-WonderTradeCantTradeSpikyEaredPichuText::
-	text "This Pichu appears"
+SECTION "WonderTradeCantTradeSpikyEaredTTeiText", ROMX
+WonderTradeCantTradeSpikyEaredTTeiText::
+	text "This TTei appears"
 	line "to have traveled"
 	cont "through time."
 
@@ -4549,7 +4549,7 @@ WonderTradeCantTradeSpikyEaredPichuText::
 	line "to transfer it,"
 
 	para "so it's best for"
-	line "Pichu to stay"
+	line "TTei to stay"
 	cont "where it is."
 	prompt
 

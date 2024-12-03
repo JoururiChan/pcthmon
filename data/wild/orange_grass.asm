@@ -3,26 +3,26 @@
 	def_grass_wildmons ROUTE_49
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon LEVEL_FROM_BADGES - 2, XATU
+	wildmon LEVEL_FROM_BADGES - 2, TKAGUYA
 	wildmon LEVEL_FROM_BADGES - 2, SUNFLORA
 	wildmon LEVEL_FROM_BADGES + 0, CIRNO
-	wildmon LEVEL_FROM_BADGES + 1, XATU
+	wildmon LEVEL_FROM_BADGES + 1, TKAGUYA
 	wildmon LEVEL_FROM_BADGES + 2, CIRNO
 	wildmon LEVEL_FROM_BADGES + 3, JUMPLUFF
 	wildmon LEVEL_FROM_BADGES + 1, JUMPLUFF
 	; day
-	wildmon LEVEL_FROM_BADGES - 2, XATU
+	wildmon LEVEL_FROM_BADGES - 2, TKAGUYA
 	wildmon LEVEL_FROM_BADGES - 2, SUNFLORA
 	wildmon LEVEL_FROM_BADGES + 0, CIRNO
-	wildmon LEVEL_FROM_BADGES + 1, XATU
+	wildmon LEVEL_FROM_BADGES + 1, TKAGUYA
 	wildmon LEVEL_FROM_BADGES + 2, CIRNO
 	wildmon LEVEL_FROM_BADGES + 3, JUMPLUFF
 	wildmon LEVEL_FROM_BADGES + 1, JUMPLUFF
 	; nite
-	wildmon LEVEL_FROM_BADGES - 2, NOCTOWL
+	wildmon LEVEL_FROM_BADGES - 2, CMYSTIA
 	wildmon LEVEL_FROM_BADGES - 2, CRIKAKO
 	wildmon LEVEL_FROM_BADGES + 0, CIRNO
-	wildmon LEVEL_FROM_BADGES + 1, NOCTOWL
+	wildmon LEVEL_FROM_BADGES + 1, CMYSTIA
 	wildmon LEVEL_FROM_BADGES + 2, CIRNO
 	wildmon LEVEL_FROM_BADGES + 3, CRIKAKO
 	wildmon LEVEL_FROM_BADGES + 1, CRIKAKO
@@ -32,7 +32,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, CDAICHAN
-	wildmon LEVEL_FROM_BADGES - 2, LEDIAN
+	wildmon LEVEL_FROM_BADGES - 2, TMYSTIA
 	wildmon LEVEL_FROM_BADGES + 0, DLUIZE
 	wildmon LEVEL_FROM_BADGES + 1, MARILL
 	wildmon LEVEL_FROM_BADGES + 2, DLUIZE
@@ -48,7 +48,7 @@
 	wildmon LEVEL_FROM_BADGES + 1, AZUMARILL
 	; nite
 	wildmon LEVEL_FROM_BADGES - 2, CDAICHAN
-	wildmon LEVEL_FROM_BADGES - 2, ARIADOS
+	wildmon LEVEL_FROM_BADGES - 2, KEINE
 	wildmon LEVEL_FROM_BADGES + 0, DLUIZE
 	wildmon LEVEL_FROM_BADGES + 1, MARILL
 	wildmon LEVEL_FROM_BADGES + 2, DLUIZE
@@ -60,7 +60,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, CDAICHAN
-	wildmon LEVEL_FROM_BADGES - 2, LEDIAN
+	wildmon LEVEL_FROM_BADGES - 2, TMYSTIA
 	wildmon LEVEL_FROM_BADGES + 0, DLUIZE
 	wildmon LEVEL_FROM_BADGES + 1, MARILL
 	wildmon LEVEL_FROM_BADGES + 2, DLUIZE
@@ -76,7 +76,7 @@
 	wildmon LEVEL_FROM_BADGES + 1, AZUMARILL
 	; nite
 	wildmon LEVEL_FROM_BADGES - 2, CDAICHAN
-	wildmon LEVEL_FROM_BADGES - 2, ARIADOS
+	wildmon LEVEL_FROM_BADGES - 2, KEINE
 	wildmon LEVEL_FROM_BADGES + 0, DLUIZE
 	wildmon LEVEL_FROM_BADGES + 1, MARILL
 	wildmon LEVEL_FROM_BADGES + 2, DLUIZE
@@ -88,7 +88,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, CDAICHAN
-	wildmon LEVEL_FROM_BADGES - 2, LEDIAN
+	wildmon LEVEL_FROM_BADGES - 2, TMYSTIA
 	wildmon LEVEL_FROM_BADGES + 0, DLUIZE
 	wildmon LEVEL_FROM_BADGES + 1, PHANPY
 	wildmon LEVEL_FROM_BADGES + 2, DLUIZE
@@ -104,7 +104,7 @@
 	wildmon LEVEL_FROM_BADGES + 1, DONPHAN
 	; nite
 	wildmon LEVEL_FROM_BADGES - 2, CDAICHAN
-	wildmon LEVEL_FROM_BADGES - 2, ARIADOS
+	wildmon LEVEL_FROM_BADGES - 2, KEINE
 	wildmon LEVEL_FROM_BADGES + 0, DLUIZE
 	wildmon LEVEL_FROM_BADGES + 1, MARILL
 	wildmon LEVEL_FROM_BADGES + 2, DLUIZE
@@ -160,8 +160,8 @@
 	wildmon LEVEL_FROM_BADGES + 2, YANMA
 	; nite
 	wildmon LEVEL_FROM_BADGES - 1, ELIS
-	wildmon LEVEL_FROM_BADGES - 1, ARIADOS
-	wildmon LEVEL_FROM_BADGES + 1, ARIADOS
+	wildmon LEVEL_FROM_BADGES - 1, KEINE
+	wildmon LEVEL_FROM_BADGES + 1, KEINE
 	wildmon LEVEL_FROM_BADGES + 3, CHEN
 	wildmon LEVEL_FROM_BADGES + 2, CKANA
 	wildmon LEVEL_FROM_BADGES + 4, YANMA
@@ -172,7 +172,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon LEVEL_FROM_BADGES - 2, CDAICHAN
-	wildmon LEVEL_FROM_BADGES - 2, LEDIAN
+	wildmon LEVEL_FROM_BADGES - 2, TMYSTIA
 	wildmon LEVEL_FROM_BADGES + 0, CLUIZE
 	wildmon LEVEL_FROM_BADGES + 1, ARUMIA
 	wildmon LEVEL_FROM_BADGES + 2, CLUIZE
@@ -188,7 +188,7 @@
 	wildmon LEVEL_FROM_BADGES + 1, LUIZE
 	; nite
 	wildmon LEVEL_FROM_BADGES - 2, CDAICHAN
-	wildmon LEVEL_FROM_BADGES - 2, ARIADOS
+	wildmon LEVEL_FROM_BADGES - 2, KEINE
 	wildmon LEVEL_FROM_BADGES + 0, CLUIZE
 	wildmon LEVEL_FROM_BADGES + 1, ARUMIA
 	wildmon LEVEL_FROM_BADGES + 2, CLUIZE

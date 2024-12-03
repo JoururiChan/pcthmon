@@ -134,10 +134,10 @@ SFX:
 	fardw Sfx_SludgeBomb
 	fardw Sfx_Foresight
 	fardw Sfx_Spite
-	fardw Sfx_FlameHit
+	fardw Sfx_HolyLance
 	fardw Sfx_ShadowDance
 	fardw Sfx_GigaDrain
-	fardw Sfx_Attract
+	fardw Sfx_LusterHeart
 	fardw Sfx_Kinesis2
 	fardw Sfx_ZapCannon
 	fardw Sfx_MeanLook
@@ -199,7 +199,7 @@ SFX:
 	fardw Sfx_LyricaPopUp
 	fardw Sfx_LyricaRecollect
 	fardw Sfx_IntroSuicune1
-	fardw Sfx_IntroPichu
+	fardw Sfx_IntroTTei
 	fardw Sfx_IntroSuicune2
 	fardw Sfx_IntroSuicune3
 	fardw Sfx_LyricaBounce

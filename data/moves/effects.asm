@@ -1273,7 +1273,7 @@ KnockOff:
 	knockoff TRUE
 	endmove
 
-LeafSnip:
+SeedPelt:
 	checkobedience
 	usedmovetext
 	doturn
@@ -1680,7 +1680,7 @@ ConditionalBoostHit:
 	posthiteffects
 	endmove
 
-Attract:
+LusterHeart:
 	checkobedience
 	usedmovetext
 	doturn
@@ -2090,7 +2090,7 @@ Dig:
 	posthiteffects
 	endmove
 
-HeatSmash:
+FlareOut:
 	checkobedience
 	usedmovetext
 	doturn

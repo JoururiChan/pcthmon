@@ -41,12 +41,12 @@ Cries:
 	fardw Cry_EMeira
 	fardw Cry_EMugetsu
 	fardw Cry_Marill
-	fardw Cry_Spinarak
-	fardw Cry_Togepi
+	fardw Cry_CKeine
+	fardw Cry_TEirin
 	fardw Cry_Girafarig
 	fardw Cry_Raikou
-	fardw Cry_Mareep
-	fardw Cry_Togetic
+	fardw Cry_CMokou
+	fardw Cry_CKaguya
 	fardw Cry_Hoothoot
 	fardw Cry_Sentret
 	fardw Cry_Slowking
@@ -56,17 +56,17 @@ Cries:
 	fardw Cry_Gligar
 	fardw Cry_Bellossom
 	fardw Cry_Slugma
-	fardw Cry_Ledyba
+	fardw Cry_Mystia
 	fardw Cry_Entei
 	fardw Cry_Wooper
 	fardw Cry_Mantine
 	fardw Cry_TReisen
-	fardw Cry_Natu
+	fardw Cry_Kaguya
 	fardw Cry_Teddiursa
 	fardw Cry_Remoraid
-	fardw Cry_Ampharos
+	fardw Cry_AMokou
 	fardw Cry_Magcargo
-	fardw Cry_Pichu
+	fardw Cry_TTei
 	fardw Cry_Tyrogue
 	fardw Cry_Dunsparce
 	fardw Cry_Donphan
