@@ -37,9 +37,9 @@ VictoryRoadRivalLeft:
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext VictoryRoadRivalBeforeText
 	setevent EVENT_RIVAL_VICTORY_ROAD
-	checkevent EVENT_CREISEN_FROM_ELM
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
 	iftruefwd .GotCReisen
-	checkevent EVENT_CSANAE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .GotCSanae
 	winlosstext VictoryRoadRivalDefeatText, VictoryRoadRivalVictoryText
 	setlasttalked VICTORYROAD2F_RIVAL

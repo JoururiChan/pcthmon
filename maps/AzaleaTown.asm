@@ -80,9 +80,9 @@ AzaleaTownRivalBattleTrigger2:
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext .SeenText
 	setevent EVENT_RIVAL_AZALEA_TOWN
-	checkevent EVENT_CREISEN_FROM_ELM
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
 	iftruefwd .CReisen
-	checkevent EVENT_CSANAE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .CSanae
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL

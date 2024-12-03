@@ -56,9 +56,9 @@ Oak:
 	writetext OakLabGiveStarterText
 	promptbutton
 	waitsfx
-	checkevent EVENT_CALICE_FROM_IVY
+	checkevent EVENT_CREIMU_FROM_IVY
 	iftruefwd .CReisen
-	checkevent EVENT_CREISEN_FROM_IVY
+	checkevent EVENT_CMARISA_FROM_IVY
 	iftruefwd .CSanae
 	givepoke CREIMU, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalsefwd .PartyAndBoxFull

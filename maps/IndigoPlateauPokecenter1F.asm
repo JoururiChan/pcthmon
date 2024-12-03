@@ -88,9 +88,9 @@ PlateauRivalBattleTrigger2:
 	faceobject PLAYER, INDIGOPLATEAUPOKECENTER1F_RIVAL
 	showtext PlateauRivalText1
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
-	checkevent EVENT_CREISEN_FROM_ELM
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
 	iftruefwd .RivalCReisen
-	checkevent EVENT_CSANAE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .RivalCSanae
 	; CAlice
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
@@ -151,9 +151,9 @@ PlateauRivalBattleTrigger2:
 	waitbutton
 	closetext
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_LYRA
-	checkevent EVENT_CREISEN_FROM_ELM
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
 	iftruefwd .LyraCReisen
-	checkevent EVENT_CSANAE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .LyraCSanae
 	; CAlice
 	winlosstext PlateauLyraWinText, PlateauLyraLoseText
@@ -358,9 +358,9 @@ IndigoPlateauYellowScript:
 	writetext .GiveStarterText
 	promptbutton
 	waitsfx
-	checkevent EVENT_CALICE_FROM_IVY
+	checkevent EVENT_CREIMU_FROM_IVY
 	iftruefwd .CSanae
-	checkevent EVENT_CREISEN_FROM_IVY
+	checkevent EVENT_CMARISA_FROM_IVY
 	iftruefwd .CAlice
 	givepoke CMARISA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText

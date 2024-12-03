@@ -122,9 +122,9 @@ NewBarkTown_LyraFinalTrigger:
 	setevent EVENT_LYRA_NEW_BARK_TOWN
 	winlosstext Text_LyraGoodbyeWin, Text_LyraGoodbyeLoss
 	setlasttalked NEWBARKTOWN_LYRA
-	checkevent EVENT_CREISEN_FROM_ELM
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
 	iftruefwd .CReisen
-	checkevent EVENT_CSANAE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .CSanae
 	loadtrainer LYRA1, LYRA1_10
 	sjumpfwd .AfterBattle

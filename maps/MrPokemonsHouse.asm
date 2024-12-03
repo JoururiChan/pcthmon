@@ -138,7 +138,7 @@ MrPokemonsHouse_OakScript:
 	clearevent EVENT_COP_IN_ELMS_LAB
 	checkevent EVENT_GOT_CREISEN_FROM_ELM
 	iftruefwd .RivalTakesCSanae
-	checkevent EVENT_CSANAE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .RivalTakesCAlice
 	setevent EVENT_CREISEN_POKEBALL_IN_ELMS_LAB
 	end

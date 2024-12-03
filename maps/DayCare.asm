@@ -120,7 +120,7 @@ DayCareLadyScript:
 	promptbutton
 	checkevent EVENT_GOT_CREISEN_FROM_ELM
 	iftruefwd .GiveCReimuEgg
-	checkevent EVENT_CSANAE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .GiveCMarisaEgg
 	giveegg CSAKUYA
 	sjumpfwd .GotLyrasEgg

@@ -68,7 +68,7 @@ ShamoutiPokeCenter1FIvyScript:
 	givepoke CREIMU, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
 	getmonname CREIMU, STRING_BUFFER_3
-	setevent EVENT_CALICE_FROM_IVY
+	setevent EVENT_CREIMU_FROM_IVY
 	sjumpfwd .Finish
 
 .CMarisa:
@@ -78,7 +78,7 @@ ShamoutiPokeCenter1FIvyScript:
 	givepoke CMARISA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
 	getmonname CMARISA, STRING_BUFFER_3
-	setevent EVENT_CREISEN_FROM_IVY
+	setevent EVENT_CMARISA_FROM_IVY
 	sjumpfwd .Finish
 
 .CSakuya:
@@ -88,7 +88,7 @@ ShamoutiPokeCenter1FIvyScript:
 	givepoke CSAKUYA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
 	getmonname CSAKUYA, STRING_BUFFER_3
-	setevent EVENT_CSANAE_FROM_IVY
+	setevent EVENT_CSAKUYA_FROM_IVY
 .Finish:
 	writetext .GoodbyeText
 	waitbutton

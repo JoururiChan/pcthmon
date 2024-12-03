@@ -109,9 +109,9 @@ Route34LyraTrigger2:
 	pause 10
 	showtext Route34LyraChallengeText
 	setevent EVENT_LYRA_ROUTE_34
-	checkevent EVENT_CREISEN_FROM_ELM
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
 	iftruefwd .CReisen
-	checkevent EVENT_CSANAE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .CSanae
 	winlosstext Route34LyraWinText, Route34LyraLossText
 	setlasttalked ROUTE34_LYRA

@@ -43,9 +43,9 @@ MountMoon1FTrigger0:
 	turnobject PLAYER, LEFT
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext MountMoonRivalTextBefore
-	checkevent EVENT_CREISEN_FROM_ELM
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
 	iftruefwd .CReisen
-	checkevent EVENT_CSANAE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .CSanae
 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
 	setlasttalked MOUNTMOON1F_RIVAL
