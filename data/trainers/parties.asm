@@ -1949,7 +1949,7 @@ Lyra1Group:
 	dbp 18, CSANAE
 		db ORAN_BERRY, "Primal@"
 		ev_spread 72 HP
-		db SEAL_NEEDLE, GROWL, MACH_PUNCH, FORESIGHT ; No Light Screen
+		db SEAL_NEEDLE, GROWL, GUST, SAFEGUARD ; No Light Screen
 	db -1 ; end
 
 	; LYRA1
