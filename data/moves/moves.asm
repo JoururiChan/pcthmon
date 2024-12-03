@@ -269,7 +269,7 @@ endc
 	move SEED_PELT,    EFFECT_SEED_PELT,           60, NATURE,       100, 20,   0, PHYSICAL
 	move STEEL_WING,   EFFECT_DEFENSE_UP_HIT,     70, STEEL,      90, 25,  10, PHYSICAL
 	move MEAN_LOOK,    EFFECT_MEAN_LOOK,           0, DARK,     -1,  5,   0, STATUS
-	move LUSTER_HEART, EFFECT_NORMAL_HIT          95, HEART,    100, 15,   0, SPECIAL
+	move LUSTER_HEART, EFFECT_NORMAL_HIT,          95, HEART,    100, 15,   0, SPECIAL
 	move SLEEP_TALK,   EFFECT_SLEEP_TALK,          0, HEART,    100, 10,   0, STATUS
 	move HEAL_BELL,    EFFECT_HEAL_BELL,           0, FAITH,    100,  5,   0, STATUS
 	move RETURN,       EFFECT_RETURN,              1, ILLUSION,    100, 20,   0, PHYSICAL
