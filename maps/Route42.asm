@@ -103,18 +103,18 @@ Route42LyraScript:
 	setevent EVENT_LYRA_ROUTE_42
 	winlosstext Route42LyraWinText, Route42LyraLossText
 	setlasttalked ROUTE42_LYRA
-	checkevent EVENT_GOT_CMARISA_FROM_ELM
-	iftruefwd .CMarisa
-	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
-	iftruefwd .CSakuya
+	checkevent EVENT_CREISEN_FROM_ELM
+	iftruefwd .CReisen
+	checkevent EVENT_CSANAE_FROM_ELM
+	iftruefwd .CSanae
 	loadtrainer LYRA1, LYRA1_7
 	sjumpfwd .AfterBattle
 
-.CMarisa:
+.CReisen:
 	loadtrainer LYRA1, LYRA1_8
 	sjumpfwd .AfterBattle
 
-.CSakuya:
+.CSanae:
 	loadtrainer LYRA1, LYRA1_9
 .AfterBattle
 	startbattle

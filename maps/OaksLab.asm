@@ -56,22 +56,22 @@ Oak:
 	writetext OakLabGiveStarterText
 	promptbutton
 	waitsfx
-	checkevent EVENT_GOT_CREIMU_FROM_IVY
-	iftruefwd .CMarisa
-	checkevent EVENT_GOT_CMARISA_FROM_IVY
-	iftruefwd .CSakuya
+	checkevent EVENT_CALICE_FROM_IVY
+	iftruefwd .CReisen
+	checkevent EVENT_CREISEN_FROM_IVY
+	iftruefwd .CSanae
 	givepoke CREIMU, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalsefwd .PartyAndBoxFull
 	setevent EVENT_GOT_A_POKEMON_FROM_OAK
 	sjumpfwd .CheckBadges
 
-.CMarisa:
+.CReisen:
 	givepoke CMARISA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalsefwd .PartyAndBoxFull
 	setevent EVENT_GOT_A_POKEMON_FROM_OAK
 	sjumpfwd .CheckBadges
 
-.CSakuya:
+.CSanae:
 	givepoke CSAKUYA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalsefwd .PartyAndBoxFull
 	setevent EVENT_GOT_A_POKEMON_FROM_OAK

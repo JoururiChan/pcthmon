@@ -238,9 +238,9 @@ LyraPhoneScript2:
 	end
 
 .LyrasEgg:
-	checkevent EVENT_GOT_CMARISA_FROM_ELM
+	checkevent EVENT_CREISEN_FROM_ELM
 	iftruefwd .lyrasegg_cmarisa
-	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
+	checkevent EVENT_CSANAE_FROM_ELM
 	iftruefwd .lyrasegg_csakuya
 	getstring .Chicory, $1
 	sjumpfwd .lyrasegg_end

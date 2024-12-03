@@ -1423,7 +1423,7 @@ Rival0Group:
 	; party
 	dbp 4, CKIKURI
 		db NO_ITEM
-	dbp 5, CREIMU
+	dbp 5, CREISEN
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -1433,7 +1433,7 @@ Rival0Group:
 	; party
 	dbp 4, CKIKURI
 		db NO_ITEM
-	dbp 5, CMARISA
+	dbp 5, CSANAE
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -1443,7 +1443,7 @@ Rival0Group:
 	; party
 	dbp 4, CKIKURI
 		db NO_ITEM
-	dbp 5, CSAKUYA
+	dbp 5, CALICE
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -1465,7 +1465,7 @@ Rival1Group:
 	dbp 15, CKIKURI
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, CREIMU
+	dbp 18, CREISEN
 		db ORAN_BERRY
 		ev_spread 72 Atk
 	db -1 ; end
@@ -1483,7 +1483,7 @@ Rival1Group:
 	dbp 15, CSARA
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, CMARISA
+	dbp 18, CSANAE
 		db ORAN_BERRY
 		ev_spread 72 SAt
 	db -1 ; end
@@ -1501,7 +1501,7 @@ Rival1Group:
 	dbp 15, CSARA
 		db NO_ITEM
 		ev_spread 72 HP
-	dbp 18, CSAKUYA
+	dbp 18, CALICE
 		db ORAN_BERRY
 		ev_spread 72 Spe
 	db -1 ; end
@@ -1910,24 +1910,24 @@ Lyra1Group:
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 5, CMARISA
-		db "Starfire@"
+	dbp 5, CSANAE
+		db "Primal@"
 	db -1 ; end
 
 	; LYRA1
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 5, CSAKUYA
-		db "Sculpture@"
+	dbp 5, CALICE
+		db "Rozen@"
 	db -1 ; end
 
 	; LYRA1
 	db "Lyra@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 5, CREIMU
-		db "Sendai@"
+	dbp 5, CREISEN
+		db "Tsukino@"
 	db -1 ; end
 
 	; LYRA1
@@ -1946,8 +1946,8 @@ Lyra1Group:
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 SAt
 		db THUNDER_WAVE, THUNDERSHOCK, POISON_GAS, SPARK ; default for level
-	dbp 18, CREIMU
-		db ORAN_BERRY, "Sendai@"
+	dbp 18, CSANAE
+		db ORAN_BERRY, "Primal@"
 		ev_spread 72 HP
 		db SEAL_NEEDLE, GROWL, MACH_PUNCH, FORESIGHT ; No Light Screen
 	db -1 ; end
@@ -1965,8 +1965,8 @@ Lyra1Group:
 	dbp 15, CMOKOU
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 SAt
-	dbp 18, CMARISA
-		db ORAN_BERRY, "Starfire@"
+	dbp 18, CALICE
+		db ORAN_BERRY, "Rozen@"
 		ev_spread 72 Spe
 	db -1 ; end
 
@@ -1983,8 +1983,8 @@ Lyra1Group:
 	dbp 15, CMOKOU
 		db NO_ITEM, "@"
 		ev_spread 36 HP, 36 SAt
-	dbp 18, CSAKUYA
-		db ORAN_BERRY, "Sculpture@"
+	dbp 18, CREISEN
+		db ORAN_BERRY, "Tsukino@"
 		ev_spread 72 Atk
 	db -1 ; end
 

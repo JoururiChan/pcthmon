@@ -101,10 +101,10 @@ CherrygroveRivalTriggerNorth:
 	turnobject PLAYER, RIGHT
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext CherrygroveRivalText_Seen
-	checkevent EVENT_GOT_CMARISA_FROM_ELM
-	iftruefwd .CMarisa
-	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
-	iftruefwd .CSakuya
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
+	iftruefwd .CReisen
+	checkevent EVENT_CSANAE_FROM_ELM
+	iftruefwd .CSanae
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
 	loadtrainer RIVAL0, 3
@@ -114,7 +114,7 @@ CherrygroveRivalTriggerNorth:
 	reloadmap
 	sjumpfwd .FinishRival
 
-.CMarisa:
+.CReisen:
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
 	loadtrainer RIVAL0, 1
@@ -125,7 +125,7 @@ CherrygroveRivalTriggerNorth:
 	reloadmap
 	sjumpfwd .FinishRival
 
-.CSakuya:
+.CSanae:
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
 	loadtrainer RIVAL0, 2

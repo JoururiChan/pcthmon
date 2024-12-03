@@ -88,11 +88,11 @@ PlateauRivalBattleTrigger2:
 	faceobject PLAYER, INDIGOPLATEAUPOKECENTER1F_RIVAL
 	showtext PlateauRivalText1
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
-	checkevent EVENT_GOT_CMARISA_FROM_ELM
-	iftruefwd .RivalCMarisa
-	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
-	iftruefwd .RivalCSakuya
-	; CReimu
+	checkevent EVENT_CREISEN_FROM_ELM
+	iftruefwd .RivalCReisen
+	checkevent EVENT_CSANAE_FROM_ELM
+	iftruefwd .RivalCSanae
+	; CAlice
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
 	loadtrainer RIVAL2, 6
@@ -101,7 +101,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .RivalPostBattle
 
-.RivalCMarisa:
+.RivalCReisen:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
 	loadtrainer RIVAL2, 4
@@ -110,7 +110,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .RivalPostBattle
 
-.RivalCSakuya:
+.RivalCSanae:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
 	loadtrainer RIVAL2, 5
@@ -151,11 +151,11 @@ PlateauRivalBattleTrigger2:
 	waitbutton
 	closetext
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_LYRA
-	checkevent EVENT_GOT_CMARISA_FROM_ELM
-	iftruefwd .LyraCMarisa
-	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
-	iftruefwd .LyraCSakuya
-	; CReimu
+	checkevent EVENT_CREISEN_FROM_ELM
+	iftruefwd .LyraCReisen
+	checkevent EVENT_CSANAE_FROM_ELM
+	iftruefwd .LyraCSanae
+	; CAlice
 	winlosstext PlateauLyraWinText, PlateauLyraLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
 	loadtrainer LYRA2, 1
@@ -164,7 +164,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .LyraPostBattle
 
-.LyraCMarisa:
+.LyraCReisen:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
 	loadtrainer LYRA2, 2
@@ -173,7 +173,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .LyraPostBattle
 
-.LyraCSakuya:
+.LyraCSanae:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
 	loadtrainer LYRA2, 3
@@ -358,22 +358,22 @@ IndigoPlateauYellowScript:
 	writetext .GiveStarterText
 	promptbutton
 	waitsfx
-	checkevent EVENT_GOT_CREIMU_FROM_IVY
-	iftruefwd .CSakuya
-	checkevent EVENT_GOT_CMARISA_FROM_IVY
-	iftruefwd .CReimu
+	checkevent EVENT_CALICE_FROM_IVY
+	iftruefwd .CSanae
+	checkevent EVENT_CREISEN_FROM_IVY
+	iftruefwd .CAlice
 	givepoke CMARISA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
 	getmonname CMARISA, STRING_BUFFER_3
 	sjumpfwd .Finish
 
-.CReimu:
+.CAlice:
 	givepoke CREIMU, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
 	getmonname CREIMU, STRING_BUFFER_3
 	sjumpfwd .Finish
 
-.CSakuya:
+.CSanae:
 	givepoke CSAKUYA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
 	getmonname CSAKUYA, STRING_BUFFER_3

@@ -52,7 +52,7 @@ endc
 	move KNIFE_THROW,  EFFECT_NORMAL_HIT,         50, STEEL,      95, 25,   0, PHYSICAL
 	move TRICK,        EFFECT_TRICK,               0, REASON,   100, 10,   0, STATUS
 	move HEX,          EFFECT_CONDITIONAL_BOOST,  65, GHOST,     100, 10,   0, SPECIAL
-	move TACKLE,       EFFECT_NORMAL_HIT,         40, BEAST,    100, 35,   0, PHYSICAL
+	move TACKLE,       EFFECT_NORMAL_HIT,         40, ILLUSION,    100, 35,   0, PHYSICAL
 	move BODY_SLAM,    EFFECT_BODY_SLAM,          85, HEART,    100, 15,  30, PHYSICAL
 	move WRAP,         EFFECT_TRAP,               15, NATURE,     90, 20,   0, PHYSICAL
 if DEF(FAITHFUL)

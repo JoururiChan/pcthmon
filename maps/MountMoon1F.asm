@@ -43,10 +43,10 @@ MountMoon1FTrigger0:
 	turnobject PLAYER, LEFT
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext MountMoonRivalTextBefore
-	checkevent EVENT_GOT_CMARISA_FROM_ELM
-	iftruefwd .CMarisa
-	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
-	iftruefwd .CSakuya
+	checkevent EVENT_CREISEN_FROM_ELM
+	iftruefwd .CReisen
+	checkevent EVENT_CSANAE_FROM_ELM
+	iftruefwd .CSanae
 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
 	setlasttalked MOUNTMOON1F_RIVAL
 	loadtrainer RIVAL2, 3
@@ -55,7 +55,7 @@ MountMoon1FTrigger0:
 	reloadmapafterbattle
 	sjumpfwd .FinishBattle
 
-.CMarisa:
+.CReisen:
 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
 	setlasttalked MOUNTMOON1F_RIVAL
 	loadtrainer RIVAL2, 1
@@ -64,7 +64,7 @@ MountMoon1FTrigger0:
 	reloadmapafterbattle
 	sjumpfwd .FinishBattle
 
-.CSakuya:
+.CSanae:
 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
 	setlasttalked MOUNTMOON1F_RIVAL
 	loadtrainer RIVAL2, 2

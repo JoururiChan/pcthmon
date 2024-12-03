@@ -80,10 +80,10 @@ AzaleaTownRivalBattleTrigger2:
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext .SeenText
 	setevent EVENT_RIVAL_AZALEA_TOWN
-	checkevent EVENT_GOT_CMARISA_FROM_ELM
-	iftruefwd .CMarisa
-	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
-	iftruefwd .CSakuya
+	checkevent EVENT_CREISEN_FROM_ELM
+	iftruefwd .CReisen
+	checkevent EVENT_CSANAE_FROM_ELM
+	iftruefwd .CSanae
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL
 	loadtrainer RIVAL1, RIVAL1_6
@@ -92,7 +92,7 @@ AzaleaTownRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .AfterBattle
 
-.CMarisa:
+.CReisen:
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL
 	loadtrainer RIVAL1, RIVAL1_4
@@ -101,7 +101,7 @@ AzaleaTownRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .AfterBattle
 
-.CSakuya:
+.CSanae:
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL
 	loadtrainer RIVAL1, RIVAL1_5

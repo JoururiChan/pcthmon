@@ -136,19 +136,19 @@ MrPokemonsHouse_OakScript:
 	setmapscene ELMS_LAB, $3
 	specialphonecall SPECIALCALL_ROBBED
 	clearevent EVENT_COP_IN_ELMS_LAB
-	checkevent EVENT_GOT_CMARISA_FROM_ELM
-	iftruefwd .RivalTakesCSakuya
-	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
-	iftruefwd .RivalTakesCReimu
-	setevent EVENT_CMARISA_POKEBALL_IN_ELMS_LAB
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
+	iftruefwd .RivalTakesCSanae
+	checkevent EVENT_CSANAE_FROM_ELM
+	iftruefwd .RivalTakesCAlice
+	setevent EVENT_CREISEN_POKEBALL_IN_ELMS_LAB
 	end
 
-.RivalTakesCSakuya:
-	setevent EVENT_CSAKUYA_POKEBALL_IN_ELMS_LAB
+.RivalTakesCSanae:
+	setevent EVENT_CSANAE_POKEBALL_IN_ELMS_LAB
 	end
 
-.RivalTakesCReimu:
-	setevent EVENT_CREIMU_POKEBALL_IN_ELMS_LAB
+.RivalTakesCAlice:
+	setevent EVENT_CALICE_POKEBALL_IN_ELMS_LAB
 	end
 
 MrPokemonsHouse_CabinetScript:

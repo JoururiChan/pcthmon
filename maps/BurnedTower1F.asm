@@ -65,9 +65,9 @@ BurnedTowerRivalBattleScript:
 	applyonemovement BURNEDTOWER1F_RIVAL, step_right
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext BurnedTowerRival_BeforeText
-	checkevent EVENT_GOT_CMARISA_FROM_ELM
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
 	iftruefwd .cmarisa
-	checkevent EVENT_GOT_CSAKUYA_FROM_ELM
+	checkevent EVENT_CSANAE_FROM_ELM
 	iftruefwd .csakuya
 	winlosstext BurnedTowerRival_WinText, BurnedTowerRival_LossText
 	setlasttalked BURNEDTOWER1F_RIVAL

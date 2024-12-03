@@ -220,7 +220,7 @@ CAlicePokeBallScript:
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
-	applymovement ELMSLAB_LYRA, LyraPicksCReisenMovement
+	applymovement ELMSLAB_LYRA, LyraPicksCSanaeMovement
 	pause 15
 	disappear ELMSLAB_POKE_BALL3
 	opentext
@@ -1636,7 +1636,7 @@ LyraReceivedStarterText:
 LyraNicknamedCSanaeText:
 	text "Lyra: It's so"
 	line "cute! I'll nick-"
-	cont "name it Hisou!"
+	cont "name it Primal!"
 	done
 
 LyraNicknamedCAliceText:
