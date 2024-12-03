@@ -256,7 +256,7 @@ endr
 	loadmem wPartyMon6Exp+1, HIGH(165812)
 	loadmem wPartyMon6Exp+0, 165812 >> 16
 	; fill pokedex
-	callasm FillPokedex
+	callasm FillTohodex
 ;	; new bark events
 	addcellnum PHONE_MOM
 	setmapscene PLAYERS_HOUSE_1F, $1

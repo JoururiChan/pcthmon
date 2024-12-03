@@ -49,7 +49,7 @@
 	const CRY_RAIKOU
 	const CRY_CMOKOU
 	const CRY_CKAGUYA
-	const CRY_HOOTHOOT
+	const CRY_SWRIGGLE
 	const CRY_SENTRET
 	const CRY_SLOWKING
 	const CRY_CREISEN

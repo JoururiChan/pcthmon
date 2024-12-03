@@ -128,7 +128,7 @@ GetOptionPointer:
 	dw Options_RunningShoes
 	dw Options_TurningSpeed
 	dw Options_ClockFormat
-	dw Options_PokedexUnits
+	dw Options_TohodexUnits
 	dw Options_Previous
 	dw Options_Done
 

@@ -182,8 +182,8 @@ PokemonCries::
 	mon_cry CRY_CYOUMU,   $0e8,  $0e8 ; Eirin
 	mon_cry CRY_TEIRIN,      $010,  $100 ; TEirin
 	mon_cry CRY_CKAGUYA,     $03b,  $038 ; CKaguya
-	mon_cry CRY_NATU,       -$067,  $100 ; Kaguya
-	mon_cry CRY_NATU,       -$0a7,  $168 ; TKaguya
+	mon_cry CRY_KAGUYA,       -$067,  $100 ; Kaguya
+	mon_cry CRY_KAGUYA,       -$0a7,  $168 ; TKaguya
 	mon_cry CRY_CMOKOU,      $022,  $0d8 ; CMokou
 	mon_cry CRY_CMOKOU,     -$007,  $180 ; Mokou
 	mon_cry CRY_AMOKOU,   -$07c,  $0e8 ; AMokou
