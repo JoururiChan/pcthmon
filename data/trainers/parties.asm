@@ -1423,16 +1423,6 @@ Rival0Group:
 	; party
 	dbp 4, CKIKURI
 		db NO_ITEM
-	dbp 5, CREISEN
-		db ORAN_BERRY
-	db -1 ; end
-
-	; RIVAL0
-	db "boy@"
-	db TRAINERTYPE_ITEM
-	; party
-	dbp 4, CKIKURI
-		db NO_ITEM
 	dbp 5, CSANAE
 		db ORAN_BERRY
 	db -1 ; end
@@ -1444,6 +1434,16 @@ Rival0Group:
 	dbp 4, CKIKURI
 		db NO_ITEM
 	dbp 5, CALICE
+		db ORAN_BERRY
+	db -1 ; end
+
+	; RIVAL0
+	db "boy@"
+	db TRAINERTYPE_ITEM
+	; party
+	dbp 4, CKIKURI
+		db NO_ITEM
+	dbp 5, CREISEN
 		db ORAN_BERRY
 	db -1 ; end
 
