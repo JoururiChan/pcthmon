@@ -139,9 +139,9 @@ EggMovePointers::
 	dw NoEggMoves             ; DSanae
 	dw CWriggleEggMoves        ; CWriggle
 	dw NoEggMoves             ; Wriggle
-	dw SWriggleEggMoves       ; SWriggle
-	dw NoEggMoves             ; CMystia
-	dw MystiaEggMoves         ; Mystia
+	dw NoEggMoves      ; SWriggle
+	dw CMystiaEggMoves             ; CMystia
+	dw NoEggMoves         ; Mystia
 	dw NoEggMoves             ; TMystia
 	dw CKeineEggMoves       ; CKeine
 	dw NoEggMoves             ; Keine

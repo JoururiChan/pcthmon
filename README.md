@@ -91,7 +91,7 @@ You can post questions or comments on any of these sites. But please read the [F
 ![moves](screenshots/moves.png)
   
 ![sylveon-moonblast](screenshots/sylveon-moonblast.png)
-![togetic-fairy-wind](screenshots/togetic-fairy-wind.png)
+![ckaguya-fairy-wind](screenshots/ckaguya-fairy-wind.png)
 ![ayuyuko-fossil](screenshots/ayuyuko-fossil.png)
 ![cerulean-city](screenshots/cerulean-city.png)
   

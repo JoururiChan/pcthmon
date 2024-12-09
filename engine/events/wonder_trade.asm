@@ -24,7 +24,7 @@ WonderTrade::
 	ld a, MON_SPECIES
 	call GetPartyParamLocationAndValue
 	cp LOW(TTEI)
-	jr nz, .not_spiky_eared_pichu
+	jr nz, .not_spiky_eared_ttei
 	assert MON_FORM == MON_EXTSPECIES
 	ld bc, MON_FORM - MON_SPECIES
 	add hl, bc
@@ -33,7 +33,7 @@ WonderTrade::
 	cp HIGH(TTEI) << MON_EXTSPECIES_F | TTEI_SPIKY_EARED_FORM
 	ld hl, .Text_WonderTradeCantTradeSpikyEaredTTei
 	jmp z, PrintText
-.not_spiky_eared_pichu
+.not_spiky_eared_ttei
 	ld hl, wPartyMonNicknames
 	ld bc, MON_NAME_LENGTH
 	call Trade_GetAttributeOfCurrentPartymon

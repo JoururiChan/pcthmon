@@ -430,8 +430,8 @@ INCLUDE "audio/music/hgss/route47.asm"
 SECTION "Song - hgss/safarizonegate", ROMX
 INCLUDE "audio/music/hgss/safarizonegate.asm"
 
-SECTION "Song - hgss/spikyearedpichu", ROMX
-INCLUDE "audio/music/hgss/spikyearedpichu.asm"
+SECTION "Song - hgss/spikyearedttei", ROMX
+INCLUDE "audio/music/hgss/spikyearedttei.asm"
 
 SECTION "Song - hgss/summoningdance", ROMX
 INCLUDE "audio/music/hgss/summoningdance.asm"

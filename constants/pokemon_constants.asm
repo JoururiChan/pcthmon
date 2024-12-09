@@ -363,7 +363,7 @@ DEF NUM_UNOWN EQU ext_const_value - 1
 DEF NUM_KIKURI EQU ext_const_value - 1
 
 
-; pichu
+; ttei
 	ext_const_def 2
 	ext_const TTEI_SPIKY_EARED_FORM ; 148 (2)
 

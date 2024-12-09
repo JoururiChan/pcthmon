@@ -138,24 +138,24 @@ PokemonBodyData:
 	body_data   9,  150, MULTIBODY,    GREEN  ; CYOUMU
 	body_data  12,  350, MULTIBODY,    GREEN  ; YOUMU
 	body_data  18, 400, MULTIBODY,    GREEN  ; SYOUMU
-	body_data   5,  150, BIPEDAL,      PINK ; CREISEN
-	body_data   9,  350, BIPEDAL,    PINK ; REISEN
-	body_data  17,  380, BIPEDAL,    PINK ; TREISEN
+	body_data   5,  150, BIPEDAL_TAIL,      PINK ; CREISEN
+	body_data   9,  350, BIPEDAL_TAIL,    PINK ; REISEN
+	body_data  17,  380, BIPEDAL_TAIL,    PINK ; TREISEN
 	body_data   6,  150, BIPEDAL, BLUE   ; CSANAE
 	body_data  11,  350, BIPEDAL, BLUE   ; SANAE
 	body_data  23,  380, BIPEDAL, BLUE   ; DSANAE
-	body_data   8,   60, QUADRUPED,    BROWN  ; CWRIGGLE
-	body_data  18,  325, QUADRUPED,    BROWN  ; WRIGGLE
-	body_data   7,  212, WINGS,        BROWN  ; SWRIGGLE
-	body_data  16,  408, WINGS,        BROWN  ; CMYSTIA
-	body_data  10,  108, WINGS,        RED    ; MYSTIA
-	body_data  14,  356, WINGS,        RED    ; TMYSTIA
-	body_data   5,   85, INSECTOID,    GREEN  ; CKEINE
-	body_data  11,  335, INSECTOID,    RED    ; KEINE
-	body_data  18,  750, MULTIWINGS,   PURPLE ; AKEINE
-	body_data   5,  120, FINS,         BLUE   ; CTEI
-	body_data  12,  225, FINS,         BLUE   ; TEI
-	body_data   3,   20, QUADRUPED,    YELLOW ; TTEI
+	body_data   8,   40, INSECTOID,    GREEN  ; CWRIGGLE
+	body_data  18,   70, INSECTOID,    GREEN  ; WRIGGLE
+	body_data   7,   90, INSECTOID,      GREEN  ; SWRIGGLE
+	body_data  16,   50, WINGS,       PINK  ; CMYSTIA
+	body_data  10,  70, WINGS,        PINK    ; MYSTIA
+	body_data  14,  90, WINGS,        PINK    ; TMYSTIA
+	body_data   5,   80, BIPEDAL,    BLUE  ; CKEINE
+	body_data  11,   100, BIPEDAL,    BLUE    ; KEINE
+	body_data  18,   200, BIPEDAL_TAIL,   GREEN ; AKEINE
+	body_data   5,  120, BIPEDAL_TAIL,         PINK   ; CTEI
+	body_data  12,  225, BIPEDAL_TAIL,         PINK   ; TEI
+	body_data   3,   20, BIPEDAL_TAIL,    PINK ; TTEI
 	body_data   3,   30, BIPEDAL_TAIL, PINK   ; CEIRIN
 	body_data   3,   10, BIPEDAL,      PINK   ; EIRIN
 	body_data   3,   15, BIPEDAL,      WHITE  ; TEIRIN

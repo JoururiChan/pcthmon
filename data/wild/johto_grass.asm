@@ -484,7 +484,7 @@
 	wildmon 7, CKOTOHIME
 	wildmon 6, CREISEN
 	wildmon 9, CSUIKA
-	wildmon 8, CRUMIA
+	wildmon 8, CKEINE
 	wildmon 8, CRUMIA
 	; day
 	wildmon 8, CSARA
@@ -492,7 +492,7 @@
 	wildmon 7, CKOTOHIME
 	wildmon 6, CREISEN
 	wildmon 9, CSUIKA
-	wildmon 8, CRUMIA
+	wildmon 8, CKEINE
 	wildmon 8, CRUMIA
 	; nite
 	wildmon 8, CSARA
@@ -500,7 +500,7 @@
 	wildmon 9, CSUIKA
 	wildmon 6, CMIMA
 	wildmon 9, CKOTOHIME
-	wildmon 8, CRUMIA
+	wildmon 8, CKEINE
 	wildmon 8, CRUMIA
 	end_grass_wildmons
 
@@ -679,7 +679,7 @@
 	wildmon 9, CREIMU
 	wildmon 10, CMARISA
 	wildmon 10, CELIS
-	wildmon 10, CREIMU
+	wildmon 10, CMYSTIA
 	wildmon 9, CKANA
 	wildmon 10, CYUKARI
 	; day
@@ -689,13 +689,13 @@
 	wildmon 10, CELIS
 	wildmon 9, CKANA
 	wildmon 10, CYUKARI
-	wildmon 10, CREIMU
+	wildmon 10, CMYSTIA
 	; nite
 	wildmon 9, CREMILIA
-	wildmon 9, CRIKAKO
+	wildmon 9, CMYSTIA
 	wildmon 10, CRIKAKO
 	wildmon 10, CYUMEMI
-	wildmon 10, SWRIGGLE
+	wildmon 10, CWRIGGLE
 	wildmon 10, CYUKARI
 	wildmon 10, CKANA
 	end_grass_wildmons
@@ -1487,7 +1487,7 @@
 	def_grass_wildmons ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 12, SNUBBULL
+	wildmon 12, CMYSTIA
 	wildmon 12, CYUKI
 	wildmon 13, CELIS
 	wildmon 10, CELLY
@@ -1495,7 +1495,7 @@
 	wildmon 10, CPATCHOULI
 	wildmon 13, CPATCHOULI
 	; day
-	wildmon 12, SNUBBULL
+	wildmon 12, CMYSTIA
 	wildmon 12, CYUKI
 	wildmon 13, CELIS
 	wildmon 10, CELLY
@@ -1509,13 +1509,13 @@
 	wildmon 10, CELLY
 	wildmon 13, CPATCHOULI
 	wildmon 10, CELIS
-	wildmon 10, LYRICA
+	wildmon 10, CMYSTIA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 13, SNUBBULL
+	wildmon 13, CWRIGGLE
 	wildmon 14, CKIKURI
 	wildmon 14, CKONGARA
 	wildmon 14, CYUMEKO
@@ -1523,7 +1523,7 @@
 	wildmon 10, CKOAKUMA
 	wildmon 13, CKOAKUMA
 	; day
-	wildmon 13, SNUBBULL
+	wildmon 13, CWRIGGLE
 	wildmon 14, CKIKURI
 	wildmon 14, CYUMEKO
 	wildmon 14, CKONGARA

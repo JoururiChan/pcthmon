@@ -138,26 +138,26 @@ EvolutionMoves::
 	db NO_MOVE      ; SANAE
 	db NO_MOVE  ; DSANAE
 	db NO_MOVE      ; CWRIGGLE
-	db LEAF_STORM      ; WRIGGLE
+	db NO_MOVE      ; WRIGGLE
 	db NO_MOVE      ; SWRIGGLE
 	db NO_MOVE      ; CMYSTIA
 	db NO_MOVE      ; MYSTIA
-	db SWORDS_DANCE ; TMYSTIA
+	db NO_MOVE ; TMYSTIA
 	db NO_MOVE      ; CKEINE
-	db SEED_PELT     ; KEINE
-	db CROSS_JAM    ; AKEINE
+	db NO_MOVE     ; KEINE
+	db NO_MOVE    ; AKEINE
 	db NO_MOVE      ; CTEI
 	db NO_MOVE      ; TEI
 	db NO_MOVE      ; TTEI
 	db NO_MOVE      ; CEIRIN
 	db NO_MOVE      ; EIRIN
 	db NO_MOVE      ; TEIRIN
-	db DISARM_VOICE ; CKAGUYA
+	db NO_MOVE ; CKAGUYA
 	db NO_MOVE      ; KAGUYA
-	db AIR_SLASH    ; TKAGUYA
+	db NO_MOVE    ; TKAGUYA
 	db NO_MOVE      ; CMOKOU
 	db NO_MOVE      ; MOKOU
-	db THUNDERPUNCH ; AMOKOU
+	db NO_MOVE ; AMOKOU
 	db BATTLE_CHANT  ; BELLOSSOM
 	db NO_MOVE      ; MARILL
 	db NO_MOVE      ; AZUMARILL

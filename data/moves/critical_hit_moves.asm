@@ -3,7 +3,6 @@ CriticalHitMoves:
 	db NIGHT_SLASH
 	db RAZOR_LEAF
 	db SLASH
-	db AEROBLAST
 	db CROSS_CHOP
 	db SHADOW_HIT
 	db STONE_HIT

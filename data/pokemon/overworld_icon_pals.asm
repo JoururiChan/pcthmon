@@ -141,18 +141,18 @@ OverworldMonIconColors::
 	iconpal AZURE, GREEN ; CSANAE
 	iconpal AZURE, GREEN ; SANAE
 	iconpal AZURE, GREEN ; DSANAE
-	iconpal BROWN, PURPLE ; CWRIGGLE
-	iconpal BROWN, RED ; WRIGGLE
-	iconpal BROWN, RED ; SWRIGGLE
-	iconpal BROWN, GREEN ; CMYSTIA
-	iconpal RED, PINK ; MYSTIA
-	iconpal RED, PINK ; TMYSTIA
-	iconpal GREEN, PURPLE ; CKEINE
-	iconpal PURPLE, BLUE ; KEINE
-	iconpal PURPLE, RED ; AKEINE
-	iconpal BLUE, TEAL ; CTEI
-	iconpal BLUE, TEAL ; TEI
-	iconpal RED, BLUE ; TTEI
+	iconpal GREEN, GRAY ; CWRIGGLE
+	iconpal GREEN, WHITE ; WRIGGLE
+	iconpal GREEN, WHITE ; SWRIGGLE
+	iconpal PINK, BROWN ; CMYSTIA
+	iconpal PINK, BROWN ; MYSTIA
+	iconpal PINK, BROWN ; TMYSTIA
+	iconpal BLUE, WHITE ; CKEINE
+	iconpal BLUE, WHITE ; KEINE
+	iconpal GREEN, WHITE ; AKEINE
+	iconpal PINK, BLACK ; CTEI
+	iconpal PINK, BLACK ; TEI
+	iconpal PINK, BLACK ; TTEI
 	iconpal RED, PINK ; CEIRIN
 	iconpal RED, PINK ; EIRIN
 	iconpal RED, AZURE ; TEIRIN

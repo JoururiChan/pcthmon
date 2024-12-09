@@ -1,6 +1,7 @@
 SoundMoves::
 	db SPIRIT_VOICE
 	db DISARM_VOICE
+	db VOICE_BURST
 	db GROWL
 	db VOICE_BIND
 	db ROAR
@@ -8,5 +9,4 @@ SoundMoves::
 	db SING
 	db SUPERSONIC
 	db HEAL_BELL
-	db POISON_CLAW
 	db -1

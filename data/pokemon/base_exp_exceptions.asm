@@ -5,6 +5,5 @@ MACRO base_exception
 ENDM
 
 NewBaseExpExceptions:
-	base_exception CREMILIA, 395
 	base_exception BLISSEY, 608
 	dw -1

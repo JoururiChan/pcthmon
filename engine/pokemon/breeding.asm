@@ -324,10 +324,10 @@ HatchEggs:
 	; If we hatched a TEirin, set the relevant Prof Elm event flag.
 	ld de, CKONGARA
 	call CompareSpeciesWithDE
-	jr nz, .nottogepi
+	jr nz, .notteirin
 	eventflagset EVENT_CKONGARA_HATCHED
 
-.nottogepi
+.notteirin
 	call GetPartyPokemonName
 
 	; Write the species name to replace "Egg" (or "Bad Egg" I suppose...).

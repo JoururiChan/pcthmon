@@ -303,7 +303,7 @@ CRumiaEggMoves:
 	db AVARICE_BITE
 	db BITE
 	db ICICLE_SPEAR
-	db COLOR_FIST
+	db LEECH_LIFE
 	db NASTY_PLOT
 	db KNOCK_OFF
 	db $ff
@@ -368,7 +368,7 @@ CFlandreEggMoves:
 	db AERIAL_ACE
 	db LEAF_STORM
 	db HEAT_CLAW
-	db HORN_LEECH
+	db CHARGE_OUT
 	db TACKLE
 	db $ff
 
@@ -406,7 +406,7 @@ CLilyBlackEggMoves:
 	db MIRROR_COAT
 	db SPIRIT_VOICE
 	db SPIRIT_SWEEP
-	db HORN_LEECH
+	db COUNTER
 	db $ff
 
 CLyricaEggMoves:
@@ -503,45 +503,29 @@ CSanaeEggMoves:
 	db $ff
 
 CWriggleEggMoves:
-	db CHARM
-	db FOCUS_ENERGY
-	db PURSUIT
-	db REVERSAL
-	db SLASH
-	db DOUBLE_EDGE
-	db TRICK
+	db THUNDERPUNCH
+	db DOUBLE_KICK
+	db PLAY_ROUGH
+	db EXTREMESPEED
+	db HEALINGLIGHT
 	db $ff
 
-SWriggleEggMoves:
-	db LEAF_STORM
-	db FEINT_ATTACK
-	db NIGHT_SHADE
-	db SUPERSONIC
-	db WING_ATTACK
-	db DIVE_KICK
-	db HURRICANE
-	db $ff
-
-MystiaEggMoves:
-	db DIZZY_PUNCH
-	db ENCORE
-	db PSYBEAM
-	db SCREECH
-	db LIGHT_SCREEN
+CMystiaEggMoves:
 	db KNOCK_OFF
-	db DRAIN_PUNCH
+	db FURY_STRIKES
+	db SPIRIT_SWEEP
+	db MEAN_LOOK
+	db BLACK_RIPPLE
+	db SLASH
 	db $ff
 
 CKeineEggMoves:
-	db BATON_PASS
-	db DISABLE
-	db HORN_LEECH
-	db PSYBEAM
-	db PURSUIT
-	db SONIC_BOOM
-	db POISON_JAB
-	db NIGHT_SLASH
 	db POISON_NAIL
+	db CURSE
+	db PLAY_ROUGH
+	db MOONBLAST
+	db DOUBLE_KICK
+	db POWER_BITE
 	db $ff
 
 CTeiEggMoves:

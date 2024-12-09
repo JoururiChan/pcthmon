@@ -6,6 +6,7 @@ MovePriorities:
 	db EXTREMESPEED,  2
 	db AQUA_JET,      1
 	db BLADE_FLASH,   1
+	db ROCK_BULLET,   1
 	db ICE_SHARD,     1
 	db MACH_PUNCH,    1
 	db QUICK_ATTACK,  1

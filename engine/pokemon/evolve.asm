@@ -180,14 +180,14 @@ CheckHowToEvolve:
 	; Spiky-eared TTei cannot evolve
 	ld a, [wTempMonSpecies]
 	cp LOW(TTEI)
-	jr nz, .not_spiky_eared_pichu
+	jr nz, .not_spiky_eared_ttei
 	ld a, [wTempMonForm]
 	assert !HIGH(TTEI)
 	and SPECIESFORM_MASK
 	cp TTEI_SPIKY_EARED_FORM
 	jmp z, .dont_evolve_2
 
-.not_spiky_eared_pichu
+.not_spiky_eared_ttei
 	ld a, [hli]
 	cp TR_ANYTIME
 	jmp z, .proceed

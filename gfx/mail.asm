@@ -35,7 +35,7 @@ EonMailBorder2GFX:
 INCBIN "gfx/mail/eon_mail_border_2.1bpp"
 
 MailKaguyaGFX:
-INCBIN "gfx/mail/natu.1bpp"
+INCBIN "gfx/mail/kaguya.1bpp"
 
 MailYukariGFX:
 INCBIN "gfx/mail/yukari.1bpp"
@@ -60,7 +60,7 @@ INCBIN "gfx/mail/csuika.1bpp"
 
 ; unused?
 MailSentretGFX:
-INCBIN "gfx/mail/sentret.1bpp"
+INCBIN "gfx/mail/cwriggle.1bpp"
 
 PortraitMailLargePokeballGFX:
 INCBIN "gfx/mail/large_pokeball.1bpp"

@@ -402,7 +402,7 @@ IntroScene10:
 	jr z, .wooper
 	cp $40
 	ret nz
-; pichu
+; ttei
 	depixel 21, 16, 1, 0
 	ld a, SPRITE_ANIM_INDEX_INTRO_TTEI
 	jr .got_anim
@@ -1549,7 +1549,7 @@ IntroSuicuneRunGFX:
 INCBIN "gfx/intro/suicune_run.2bpp.lz"
 
 IntroTTeiWooperGFX:
-INCBIN "gfx/intro/pichu_wooper.2bpp.lz"
+INCBIN "gfx/intro/ttei_wooper.2bpp.lz"
 
 IntroTilemap003:
 INCBIN "gfx/intro/003.tilemap.lz"

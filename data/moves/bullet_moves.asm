@@ -8,8 +8,7 @@ BulletMoves:
 	db SHADOW_BALL
 	db SLUDGE_BOMB
 	db ZAP_CANNON
-	db DIZZY_PUNCH
 	db SEAL_NEEDLE
 	db PIN_MISSILE
-	db POISON_NAIL
+	db POISON_SHOT
 	db -1

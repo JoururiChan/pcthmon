@@ -273,10 +273,10 @@ ARikaTohodexEntry::
 	db "Hakutaku@"
 	db   "The hidden form of"
 	next "Rika #mon. Just like"
-	next "Keine #mon, they"
-	page "evolve to these on"
-	next "the night of a full"
-	next "moon.@"
+	next "Keine #mon, CRika"
+	page "evolve to these if"
+	next "they are exposed"
+	next "to a Moon Stone.@"
 
 SECTION "CMeiraTohodexEntry", ROMX
 CMeiraTohodexEntry::
@@ -1370,93 +1370,93 @@ DSanaeTohodexEntry::
 
 SECTION "CWriggleTohodexEntry", ROMX
 CWriggleTohodexEntry::
-	db "Scout@"
-	db   "When acting as a"
-	next "lookout, it warns"
-	next "others of danger"
-	page "by screeching and"
-	next "hitting the ground"
-	next "with its tail.@"
+	db "Firefly@"
+	db   "It belongs to one"
+	next "of four #mon"
+	next "families that are"
+	page "officially categ-"
+	next "orized to be inse-"
+	next "ctoids.@"
 
 SECTION "WriggleTohodexEntry", ROMX
 WriggleTohodexEntry::
-	db "Long Body@"
-	db   "It lives in narrow"
-	next "burrows that fit"
-	next "its slim body. The"
-	page "deeper the nests"
-	next "go, the more maze-"
-	next "like they become.@"
+	db "Bug@"
+	db   "It is overall mod-"
+	next "est in combat abi-"
+	next "lity. However, it's"
+	page "spirit on the other"
+	next "hand illuminates"
+	next "like it's own self.@"
 
 SECTION "SWriggleTohodexEntry", ROMX
 SWriggleTohodexEntry::
-	db "Owl@"
-	db   "It begins to hoot"
-	next "at the same time"
-	next "every day. Some"
-	page "trainers use them"
-	next "in place of"
-	next "clocks.@"
+	db "Bug@"
+	db   "It's best tactic"
+	next "when utilized in"
+	next "battle is it's"
+	page "high speed, ser-"
+	next "ving as it's only"
+	next "advantage.@"
 
 SECTION "CMystiaTohodexEntry", ROMX
 CMystiaTohodexEntry::
-	db "Owl@"
-	db   "Its extremely soft"
-	next "feathers make no"
-	next "sound in flight."
-	page "It silently sneaks"
-	next "up on prey without"
-	next "being detected.@"
+	db "Bird@"
+	db   "It is the first"
+	next "#mon to be"
+	next "discovered to be"
+	page "bird-like. It has"
+	next "a lasting desire"
+	next "to sing songs.@"
 
 SECTION "MystiaTohodexEntry", ROMX
 MystiaTohodexEntry::
-	db "Five Star@"
-	db   "It is timid and"
-	next "clusters together"
-	next "with others. The"
-	page "fluid secreted by"
-	next "its feet indicates"
-	next "its location.@"
+	db "Nightbird@"
+	db   "It's power is gr-"
+	next "eatest at night."
+	next "Once night falls,"
+	page "it can induce"
+	next "night blindness"
+	next "with little effort.@"
 
 SECTION "TMystiaTohodexEntry", ROMX
 TMystiaTohodexEntry::
-	db "Five Star@"
-	db   "In the daytime"
-	next "when it gets warm,"
-	next "it curls up inside"
-	page "a big leaf and"
-	next "drifts off into"
-	next "a deep slumber.@"
+	db "Nightbird@"
+	db   "It induces both"
+	next "night blindness"
+	next "and also insanity"
+	page "which is caused"
+	next "by it's lasting"
+	next "desire to sing.@"
 
 SECTION "CKeineTohodexEntry", ROMX
 CKeineTohodexEntry::
-	db "String Spit@"
-	db   "If prey becomes"
-	next "ensnared in its"
-	next "nest of spun"
-	page "string, it waits"
-	next "motionlessly until"
-	next "it becomes dark.@"
+	db "History@"
+	db   "They are powerful"
+	next "in the sense that"
+	next "they hide history,"
+	page "capable of convin-"
+	next "cing one an event"
+	next "never happened.@"
 
 SECTION "KeineTohodexEntry", ROMX
 KeineTohodexEntry::
-	db "Long Leg@"
-	db   "Rather than making"
-	next "a nest in one"
-	next "specific spot, it"
-	page "wanders in search"
-	next "of food after"
-	next "darkness falls.@"
+	db "History@"
+	db   "It is a well kn-"
+	next "own form of C-"
+	next "Keine. A-Keine are"
+	page "hidden forms of"
+	next "C-Keine, evolving"
+	next "by Moon Stone.@"
 
 SECTION "AKeineTohodexEntry", ROMX
 AKeineTohodexEntry::
-	db "Bat@"
-	db   "As a result of its"
-	next "pursuit of faster,"
-	next "yet more silent"
-	page "flight, a new set"
-	next "of wings grew on"
-	next "its hind legs.@"
+	db "Hakutaku@"
+	db   "They often team up"
+	next "with A-Rika as we-"
+	next "ll as Kagerou"
+	page "#mon, the th-"
+	next "ree becoming for-"
+	next "midable as one.@"
 
 SECTION "CTeiTohodexEntry", ROMX
 CTeiTohodexEntry::
