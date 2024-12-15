@@ -153,15 +153,15 @@ OverworldMonIconColors::
 	iconpal PINK, BLACK ; CTEI
 	iconpal PINK, BLACK ; TEI
 	iconpal PINK, BLACK ; TTEI
-	iconpal RED, PINK ; CEIRIN
-	iconpal RED, PINK ; EIRIN
-	iconpal RED, AZURE ; TEIRIN
-	iconpal WHITE, AZURE ; CKAGUYA
-	iconpal GREEN, RED ; KAGUYA
-	iconpal GREEN, RED ; TKAGUYA
-	iconpal BLUE, PURPLE ; CMOKOU
-	iconpal PINK, RED ; MOKOU
-	iconpal BROWN, RED ; AMOKOU
+	iconpal RED, BLUE ; CEIRIN
+	iconpal RED, BLUE ; EIRIN
+	iconpal RED, BLUE ; TEIRIN
+	iconpal RED, PINK ; CKAGUYA
+	iconpal RED, PINK ; KAGUYA
+	iconpal RED, PINK ; TKAGUYA
+	iconpal GRAY, RED ; CMOKOU
+	iconpal GRAY, RED ; MOKOU
+	iconpal GRAY, RED ; AMOKOU
 	iconpal GREEN, RED ; BELLOSSOM
 	iconpal BLUE, GREEN ; MARILL
 	iconpal BLUE, BROWN ; AZUMARILL

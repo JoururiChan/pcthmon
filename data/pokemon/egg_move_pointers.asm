@@ -147,13 +147,13 @@ EggMovePointers::
 	dw NoEggMoves             ; Keine
 	dw NoEggMoves             ; AKeine
 	dw CTeiEggMoves       ; CTei
-	dw NoEggMoves             ; Tei
-	dw TTeiEggMoves          ; TTei
+	dw CTeiEggMoves             ; Tei
+	dw CTeiEggMoves          ; TTei
 	dw CEirinEggMoves         ; CEirin
-	dw EirinEggMoves      ; Eirin
-	dw TEirinEggMoves         ; TEirin
-	dw NoEggMoves             ; CKaguya
-	dw KaguyaEggMoves           ; Kaguya
+	dw CEirinEggMoves      ; Eirin
+	dw CEirinEggMoves         ; TEirin
+	dw CKaguyaEggMoves             ; CKaguya
+	dw CKaguyaEggMoves           ; Kaguya
 	dw NoEggMoves             ; TKaguya
 	dw CMokouEggMoves         ; CMokou
 	dw NoEggMoves             ; Mokou

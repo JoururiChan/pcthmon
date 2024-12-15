@@ -1,164 +1,164 @@
 ValidPokemonLevels: ; for Wonder Trade
 	table_width 2, ValidPokemonLevels
 	;  min, max
-	db   1,  36 ; CReimu
+	db   1,  35 ; CReimu
 	db  36, 100 ; Reimu
 	db  36, 100 ; TReimu
-	db   1,  36 ; CMarisa
+	db   1,  35 ; CMarisa
 	db  36, 100 ; Marisa
 	db  36, 100 ; AMarisa
-	db   1,  36 ; CSakuya
+	db   1,  35 ; CSakuya
 	db  36, 100 ; Sakuya
 	db  36, 100 ; HSakuya
-	db   1,  42 ; CGyoku
+	db   1,  41 ; CGyoku
 	db  42, 100 ; MGyoku
 	db  42, 100 ; FGyoku
 	db  42, 100 ; OGyoku
-	db   1,  42 ; CMagan
+	db   1,  41 ; CMagan
 	db  42,  100 ; Magan
 	db  42,  100 ; CMima
-	db  1, 38 ; Mima
+	db  1, 37 ; Mima
 	db  38, 100 ; CElis
 	db   38, 100 ; Elis
-	db   1,  42 ; CKikuri
+	db   1,  41 ; CKikuri
 	db  42, 100 ; Kikuri
-	db  1, 42 ; CSariel
+	db  1, 41 ; CSariel
 	db   42, 100 ; Sariel
-	db   1,  42 ; CKongara
+	db   1,  41 ; CKongara
 	db  42, 100 ; Kongara
-	db   1,  36 ; CRika
+	db   1,  35 ; CRika
 	db  36,  100 ; Rika
 	db  36, 100 ; ARika
-	db   1, 32 ; CMeira
+	db   1, 31 ; CMeira
 	db  32, 100 ; Meira
-	db  1, 28 ; CEllen
+	db  1, 27 ; CEllen
 	db  28, 100 ; Ellen
-	db   1,  32 ; CKotohime
+	db   1,  31 ; CKotohime
 	db  32, 100 ; Kotohime
-	db  1,  34 ; CKana
+	db  1,  33 ; CKana
 	db  34, 100 ; Kana
-	db  1, 34 ; CRikako
+	db  1, 33 ; CRikako
 	db  34, 100 ; Rikako
-	db   1,  36 ; CChiyuri
+	db   1,  35 ; CChiyuri
 	db  36, 100 ; Chiyuri
-	db  1, 38 ; CYumemi
+	db  1, 37 ; CYumemi
 	db  38, 100 ; Yumemi
-	db   1,  25 ; COrange
+	db   1,  24 ; COrange
 	db  25, 100 ; Orange
-	db  1, 33 ; CKurumi
+	db  1, 32 ; CKurumi
 	db  33, 100 ; Kurumi
-	db  1, 34 ; CElly
+	db  1, 33 ; CElly
 	db  34, 100 ; Elly
-	db  1, 38 ; CYuka
+	db  1, 37 ; CYuka
 	db  38, 100 ; Yuka
 	db  38, 100 ; AYuka
-	db  1, 40 ; CMugetsu
+	db  1, 39 ; CMugetsu
 	db  40, 100 ; Mugetsu
-	db  1, 40 ; CGengetsu
+	db  1, 39 ; CGengetsu
 	db  40, 100 ; Gengetsu
-	db   1,  26 ; CSara
+	db   1,  25 ; CSara
 	db  26,  100 ; Sara
-	db   1,  32 ; CLuize
+	db   1,  31 ; CLuize
 	db  32, 100 ; Luize
 	db   32, 100 ; DLuize
-	db  1, 36 ; CAlice
+	db  1, 35 ; CAlice
 	db   36, 100 ; Alice
 	db  36, 100 ; AAlice
-	db   1,  34 ; CMai
+	db   1,  33 ; CMai
 	db   34, 100 ; Mai
-	db   1,  34 ; CYuki
+	db   1,  33 ; CYuki
 	db  34, 100 ; Yuki
-	db  1, 38 ; CYumeko
+	db  1, 37 ; CYumeko
 	db  38, 100 ; Yumeko
-	db   1, 40 ; CShinki
+	db   1, 39 ; CShinki
 	db  40, 100 ; Shinki
-	db   1, 32 ; CRumia
+	db   1, 31 ; CRumia
 	db  32, 100 ; Rumia
-	db  26, 100 ; ARumia
-	db   1,  23 ; CDaichan
+	db  32, 100 ; ARumia
+	db   1,  22 ; CDaichan
 	db  23, 100 ; Daichan
 	db  23,  100 ; DDaichan
-	db  1, 28 ; CCirno
+	db  1, 27 ; CCirno
 	db  28, 100 ; Cirno
 	db  28, 100 ; SCirno
-	db   1, 36 ; CMeiling
+	db   1, 35 ; CMeiling
 	db  36, 100 ; Meiling
 	db  36, 100 ; AMeiling
-	db  1, 32 ; CKoakuma
+	db  1, 31 ; CKoakuma
 	db  32, 100 ; Koakuma
 	db  32, 100 ; HKoakuma
-	db  1, 36 ; CPatchouli
+	db  1, 35 ; CPatchouli
 	db  36, 100 ; Patchouli
 	db  36, 10 ; TPatchouli
-	db  1,  38 ; CRemilia
+	db  1,  37 ; CRemilia
 	db  38, 100 ; Remilia
 	db  38, 100 ; SRemilia
-	db   1,  40 ; CFlandre
+	db   1,  39 ; CFlandre
 	db  40, 100 ; Flandre
 	db  40, 100 ; AFlandre
-	db  1, 26 ; CLetty
+	db  1, 25 ; CLetty
 	db  26, 100 ; Letty
 	db  26, 100 ; DLetty
-	db  1, 28 ; CChen
+	db  1, 27 ; CChen
 	db  28, 100 ; Chen
 	db  28, 100 ; HChen
-	db  1,  28 ; CLilyWhite
+	db  1,  27 ; CLilyWhite
 	db  28, 100 ; LilyWhite
 	db  28, 100 ; DLilyWhite
-	db  1, 28 ; CLilyBlack
+	db  1, 27 ; CLilyBlack
 	db  28, 100 ; LilyBlack
 	db  28, 100 ; SLilyBlack
-	db  1, 35 ; CLyrica
+	db  1, 34 ; CLyrica
 	db  35, 100 ; Lyrica
 	db  35, 100 ; TLyrica
-	db  1, 35 ; CMerlin
+	db  1, 34 ; CMerlin
 	db  35, 100 ; Merlin
 	db  35, 100 ; SMerlin
-	db   1,  35 ; CLunasa
+	db   1,  34 ; CLunasa
 	db  35, 100 ; Lunasa
-	db  40, 100 ; ALunasa
-	db  1,  38 ; CYuyuko
+	db  35, 100 ; ALunasa
+	db  1,  37 ; CYuyuko
 	db  38, 100 ; Yuyuko
 	db  38, 100 ; AYuyuko
-	db  1, 38 ; CRan
+	db  1, 37 ; CRan
 	db 38, 100 ; Ran
 	db 38, 100 ; TRan
-	db 1, 42 ; CYukari
+	db 1, 41 ; CYukari
 	db  42, 100 ; Yukari
 	db  42, 100 ; TYukari
-	db  1, 36 ; CSuika
+	db  1, 35 ; CSuika
 	db 36, 100 ; Suika
 	db 36, 100 ; TSuika
-	db   1,  36 ; CYoumu
+	db   1,  35 ; CYoumu
 	db  36,  100 ; Youmu
 	db  36, 100 ; SYoumu
-	db   1,  36 ; CReisen
+	db   1,  35 ; CReisen
 	db  36, 100 ; Reisen
 	db  36, 100 ; TReisen
-	db   1,  36 ; CSanae
+	db   1,  35 ; CSanae
 	db  36, 100 ; Sanae
 	db  36, 100 ; DSanae
 	db   1, 25 ; CWriggle
 	db  25, 100 ; Wriggle
 	db  25, 100 ; SWriggle
-	db  20, 100 ; CMystia
-	db   1,  17 ; Mystia
-	db  18, 100 ; TMystia
-	db   1,  21 ; CKeine
-	db  22, 100 ; Keine
+	db  1,  27 ; CMystia
+	db   28, 100 ; Mystia
+	db  28, 100 ; TMystia
+	db   1,  31 ; CKeine
+	db  32, 100 ; Keine
 	db  32, 100 ; AKeine
-	db   1,  26 ; CTei
-	db  27, 100 ; Tei
-	db   1,  19 ; TTei
-	db   1,  19 ; CEirin
-	db   1,  19 ; Eirin
-	db   1,  19 ; TEirin
-	db  20,  39 ; CKaguya
-	db   1,  24 ; Kaguya
-	db  25, 100 ; TKaguya
-	db   1,  14 ; CMokou
-	db  15,  29 ; Mokou
-	db  30, 100 ; AMokou
+	db   1,  25 ; CTei
+	db  26, 100 ; Tei
+	db   26, 100 ; TTei
+	db   1,  35 ; CEirin
+	db   36, 100 ; Eirin
+	db   36, 100 ; TEirin
+	db  1, 37 ; CKaguya
+	db   38, 100 ; Kaguya
+	db  38, 100 ; TKaguya
+	db   1,  39 ; CMokou
+	db  40, 100 ; Mokou
+	db  40, 100 ; AMokou
 	db  32, 100 ; Bellossom
 	db   1,  17 ; Marill
 	db  18, 100 ; Azumarill

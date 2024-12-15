@@ -529,63 +529,41 @@ CKeineEggMoves:
 	db $ff
 
 CTeiEggMoves:
-	db LEAF_STORM
-	db HAZE
-	db PSYBEAM
+	db HEAL_BELL
+	db PLAY_ROUGH
 	db SCREECH
-	db SUPERSONIC
-	db WATER_PULSE
-	db $ff
-
-TTeiEggMoves:
-	db DISARM_VOICE
-	db DOUBLE_SLAP
-	db ENCORE
-	db REVERSAL
+	db STARRY_BEAM
+	db COLOR_FIST
+	db MIRROR_COAT
+	db ROCK_BULLET
 	db $ff
 
 CEirinEggMoves:
-	db CALM_MIND
-	db BELLY_DRUM
-	db AMNESIA
-	db SPLASH
-	db FRESH_SNACK
+	db NIGHT_SHADE
+	db RECOVER
+	db VENOSHOCK
+	db AQUAHAMMER
+	db REVERSAL
+	db SLUDGE_BOMB
 	db $ff
 
-EirinEggMoves:
-	db FEINT_ATTACK
-	db SHADOW_DANCE
-	db MOONBLAST
-	db $ff
-
-TEirinEggMoves:
-	db EXTRASENSORY
-	db FORESIGHT
-	db FUTURE_SIGHT
-	db HEALINGLIGHT
-	db NASTY_PLOT
-	db FEATHER_JAB
-	db $ff
-
-KaguyaEggMoves:
-	db DRAGON_DRILL
-	db FEINT_ATTACK
-	db HAZE
-	db QUICK_ATTACK
-	db STEEL_WING
+CKaguyaEggMoves:
 	db BLAZE_STAR
-	db AURA_WAVE
+	db NIGHT_SHADE
+	db RECOVER
+	db HAZE
+	db POWER_GEM
+	db FEINT_ATTACK
 	db $ff
 
 CMokouEggMoves:
-	db LEAF_STORM
-	db REFLECT
-	db POISON_GAS
-	db SCREECH
-	db THUNDERBOLT
-	db TAKE_DOWN
-	db BODY_SLAM
-	db SAFEGUARD
+	db POWER_GEM
+	db POWER_WHIP
+	db EXTREMESPEED
+	db PLAY_ROUGH
+	db COLOR_FIST
+	db EXTRASENSORY
+	db TAILWIND
 	db $ff
 
 HoppipEggMoves:

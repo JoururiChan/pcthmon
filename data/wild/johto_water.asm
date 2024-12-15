@@ -30,9 +30,9 @@
 
 	def_water_wildmons UNION_CAVE_B2F
 	db 4 percent ; encounter rate
-	wildmon 15, CSANAE
-	wildmon 20, QUAGSIRE
-	wildmon 20, SANAE
+	wildmon 15, CCIRNO
+	wildmon 20, CEIRIN
+	wildmon 20, CEIRIN
 	end_water_wildmons
 
 	def_water_wildmons WAKASAGIHIME_WELL_B1F
@@ -51,9 +51,9 @@
 
 	def_water_wildmons ILEX_FOREST
 	db 2 percent ; encounter rate
-	wildmon 15, CYUMEMI
-	wildmon 10, CYUMEMI
-	wildmon 15, CYUMEMI
+	wildmon 15, CCHIYURI
+	wildmon 10, CCHIYURI
+	wildmon 15, CCHIYURI
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -107,9 +107,9 @@
 
 	def_water_wildmons DARK_CAVE_VIOLET_ENTRANCE
 	db 2 percent ; encounter rate
-	wildmon 15, LILYBLACK
-	wildmon 10, LILYBLACK
-	wildmon 5, LILYBLACK
+	wildmon 15, CMAI
+	wildmon 10, CMAI
+	wildmon 5, CMAI
 	end_water_wildmons
 
 	def_water_wildmons DARK_CAVE_BLACKTHORN_ENTRANCE
@@ -142,9 +142,9 @@
 
 	def_water_wildmons ROUTE_30
 	db 2 percent ; encounter rate
-	wildmon 20, CMAI
-	wildmon 15, CMAI
-	wildmon 20, CMAI
+	wildmon 20, CEIRIN
+	wildmon 15, CEIRIN
+	wildmon 20, CEIRIN
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_31
@@ -157,7 +157,7 @@
 	def_water_wildmons ROUTE_32
 	db 4 percent ; encounter rate
 	wildmon 15, CCIRNO
-	wildmon 20, QUAGSIRE
+	wildmon 20, CEIRIN
 	wildmon 20, CCIRNO
 	end_water_wildmons
 
@@ -170,23 +170,23 @@
 
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
-	wildmon 20, CYUMEMI
-	wildmon 15, CYUMEMI
-	wildmon 20, CYUMEMI
+	wildmon 20, CCHIYURI
+	wildmon 15, CCHIYURI
+	wildmon 20, CCHIYURI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_40
 	db 3 percent ; encounter rate
-	wildmon 20, CYUMEMI
-	wildmon 20, CYUMEMI
+	wildmon 20, CPATCHOULI
+	wildmon 20, CPATCHOULI
 	wildmon 20, CMAI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_41
 	db 3 percent ; encounter rate
-	wildmon 20, GENGETSU
-	wildmon 20, MANTINE
-	wildmon 20, REMORAID
+	wildmon 20, CPATCHOULI
+	wildmon 20, CEIRIN
+	wildmon 20, CEIRIN
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_42
@@ -310,44 +310,44 @@
 
 	def_water_wildmons CHERRYGROVE_BAY
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
-	wildmon LEVEL_FROM_BADGES - 5, GENGETSU
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon LEVEL_FROM_BADGES + 0, CPATCHOULI
+	wildmon LEVEL_FROM_BADGES - 5, CPATCHOULI
+	wildmon LEVEL_FROM_BADGES + 0, CEIRIN
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_32_COAST
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
-	wildmon LEVEL_FROM_BADGES - 5, GENGETSU
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon LEVEL_FROM_BADGES + 0, CEIRIN
+	wildmon LEVEL_FROM_BADGES - 5, CEIRIN
+	wildmon LEVEL_FROM_BADGES + 0, CEIRIN
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_34_COAST
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
-	wildmon LEVEL_FROM_BADGES - 5, LETTY
-	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
+	wildmon LEVEL_FROM_BADGES + 0, CLETTY
+	wildmon LEVEL_FROM_BADGES - 5, CLETTY
+	wildmon LEVEL_FROM_BADGES + 0, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons STORMY_BEACH
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
+	wildmon LEVEL_FROM_BADGES + 0, CLETTY
 	wildmon LEVEL_FROM_BADGES - 5, LETTY
-	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
+	wildmon LEVEL_FROM_BADGES + 0, CEIRIN
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35_COAST_SOUTH
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
-	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon LEVEL_FROM_BADGES + 0, CEIRIN
+	wildmon LEVEL_FROM_BADGES + 0, CPATCHOULI
+	wildmon LEVEL_FROM_BADGES + 0, CPATCHOULI
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_35_COAST_NORTH
 	db 3 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
-	wildmon LEVEL_FROM_BADGES + 0, GENGETSU
-	wildmon LEVEL_FROM_BADGES + 0, CORSOLA
+	wildmon LEVEL_FROM_BADGES + 0, CPATCHOULI
+	wildmon LEVEL_FROM_BADGES + 0, CPATCHOULI
+	wildmon LEVEL_FROM_BADGES + 0, CCHIYURI
 	end_water_wildmons
 
 	def_water_wildmons YELLOW_FOREST

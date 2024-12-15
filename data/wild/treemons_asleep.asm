@@ -17,14 +17,14 @@ AsleepTreeMons:
 	dp CMAGAN
 	dp CELIS
 	dp CKIKURI
-	dp CIRNO
-	dp MYSTIA
+	dp CCIRNO
+	dp CMYSTIA
 	db 0 ; end
 
 .Morn
 .Day
-	dp RIKAKO
-	dp SWRIGGLE
+	dp CRIKAKO
+	dp CWRIGGLE
 	dp CMYSTIA
 	dp CKEINE
 	dp HERACROSS

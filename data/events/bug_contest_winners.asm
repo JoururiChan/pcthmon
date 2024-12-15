@@ -22,59 +22,59 @@ ENDM
 BugContestant_BugCatcherDon:
 	db BUG_CATCHER, DON
 	contest_winner CMAGAN,     300
-	contest_winner MGYOKU,    285
+	contest_winner CRIKAKO,    285
 	contest_winner CGYOKU,   226
 
 BugContestant_BugCatcherEd:
 	db BUG_CATCHER, ED
 	contest_winner YANMA,      286
-	contest_winner FGYOKU, 251
+	contest_winner CRIKAKO, 251
 	contest_winner CGYOKU,   237
 
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
-	contest_winner CHEN,    357
-	contest_winner FGYOKU, 349
-	contest_winner DLILYWHITE,     368
+	contest_winner CCHEN,    357
+	contest_winner CCHEN, 349
+	contest_winner CLILYWHITE,     368
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
-	contest_winner RIKAKO,   332
-	contest_winner FGYOKU, 324
-	contest_winner RIKAKO,    321
+	contest_winner CMAGAN,   332
+	contest_winner CCHEN, 324
+	contest_winner CRIKAKO,    321
 
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BENNY
-	contest_winner FGYOKU, 318
-	contest_winner OGYOKU,     295
+	contest_winner CGYOKU, 318
+	contest_winner CGYOKU,     295
 	contest_winner CGYOKU,   285
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
-	contest_winner DLILYWHITE,     366
-	contest_winner RIKAKO,    329
+	contest_winner CLILYWHITE,     366
+	contest_winner CRIKAKO,    329
 	contest_winner CMAGAN,     314
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
-	contest_winner FGYOKU, 341
-	contest_winner MGYOKU,    301
+	contest_winner CKANA, 341
+	contest_winner CKANA,    301
 	contest_winner CGYOKU,   264
 
 BugContestant_BugCatcherJosh:
 	db BUG_CATCHER, JOSH
-	contest_winner CHEN,    326
-	contest_winner FGYOKU, 292
-	contest_winner MGYOKU,    282
+	contest_winner CCHEN,    326
+	contest_winner CMIMA, 292
+	contest_winner CWRIGGLE,    282
 
 BugContestant_SchoolboyJohnny:
 	db SCHOOLBOY, JOHNNY
-	contest_winner OGYOKU,     270
-	contest_winner DLILYWHITE,     282
+	contest_winner CLILYWHITE,     270
+	contest_winner CLILYWHITE,     282
 	contest_winner CGYOKU,   251
 
 BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
-	contest_winner RIKAKO,    267
-	contest_winner KANA,      254
+	contest_winner CRIKAKO,    267
+	contest_winner CKANA,      254
 	contest_winner CMAGAN,     259

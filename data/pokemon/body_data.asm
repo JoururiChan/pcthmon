@@ -156,15 +156,15 @@ PokemonBodyData:
 	body_data   5,  120, BIPEDAL_TAIL,         PINK   ; CTEI
 	body_data  12,  225, BIPEDAL_TAIL,         PINK   ; TEI
 	body_data   3,   20, BIPEDAL_TAIL,    PINK ; TTEI
-	body_data   3,   30, BIPEDAL_TAIL, PINK   ; CEIRIN
-	body_data   3,   10, BIPEDAL,      PINK   ; EIRIN
-	body_data   3,   15, BIPEDAL,      WHITE  ; TEIRIN
-	body_data   6,   32, BIPEDAL,      WHITE  ; CKAGUYA
-	body_data   2,   20, WINGS,        GREEN  ; KAGUYA
-	body_data  15,  150, WINGS,        GREEN  ; TKAGUYA
-	body_data   6,   78, QUADRUPED,    WHITE  ; CMOKOU
-	body_data   8,  133, BIPEDAL_TAIL, PINK   ; MOKOU
-	body_data  14,  615, BIPEDAL_TAIL, YELLOW ; AMOKOU
+	body_data   3,   110, BIPEDAL_TAIL, RED   ; CEIRIN
+	body_data   3,   180, BIPEDAL_TAIL,      RED  ; EIRIN
+	body_data   3,   290, BIPEDAL_TAIL,      RED  ; TEIRIN
+	body_data   6,   150, HEAD_ARMS,    PINK  ; CKAGUYA
+	body_data   2,   250, HEAD_ARMS,        PINK  ; KAGUYA
+	body_data  15,  350, HEAD_ARMS,        PINK  ; TKAGUYA
+	body_data   6,   150, BIPEDAL,    GRAY  ; CMOKOU
+	body_data   8,  250, BIPEDAL, GRAY   ; MOKOU
+	body_data  14,  350, BIPEDAL, GRAY ; AMOKOU
 	body_data   4,   58, BIPEDAL,      GREEN  ; BELLOSSOM
 	body_data   4,   85, BIPEDAL_TAIL, BLUE   ; MARILL
 	body_data   8,  285, BIPEDAL_TAIL, BLUE   ; AZUMARILL
