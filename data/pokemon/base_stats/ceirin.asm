@@ -8,7 +8,7 @@
 	dn GENDER_F75, HATCH_FASTEST ; gender ratio, step cycles to hatch
 
 	abilities_for CEIRIN, POISON_POINT, NATURAL_CURE, SHED_SKIN
-	db GROWTH_FASTEST ; growth rate
+	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_HUMANSHAPE ; egg groups
 
 	ev_yield 1 SDf
