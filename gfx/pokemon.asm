@@ -77,12 +77,12 @@ MimaFrontpic: INCBIN "gfx/pokemon/mima/front.animated.2bpp.lz"
 MimaBackpic:  INCBIN "gfx/pokemon/mima/back.2bpp.lz"
 
 SECTION "Aya Pics", ROMX
-AyaFrontpic: INCBIN "gfx/pokemon/marill/front.animated.2bpp.lz"
-AyaBackpic:  INCBIN "gfx/pokemon/marill/back.2bpp.lz"
+AyaFrontpic: INCBIN "gfx/pokemon/aya/front.animated.2bpp.lz"
+AyaBackpic:  INCBIN "gfx/pokemon/aya/back.2bpp.lz"
 
 SECTION "SAya Pics", ROMX
-SAyaFrontpic: INCBIN "gfx/pokemon/azumarill/front.animated.2bpp.lz"
-SAyaBackpic:  INCBIN "gfx/pokemon/azumarill/back.2bpp.lz"
+SAyaFrontpic: INCBIN "gfx/pokemon/saya/front.animated.2bpp.lz"
+SAyaBackpic:  INCBIN "gfx/pokemon/saya/back.2bpp.lz"
 
 SECTION "CKikuri Pics", ROMX
 CKikuriFrontpic: INCBIN "gfx/pokemon/ckikuri/front.animated.2bpp.lz"
@@ -531,28 +531,28 @@ AMokouFrontpic: INCBIN "gfx/pokemon/amokou/front.animated.2bpp.lz"
 AMokouBackpic:  INCBIN "gfx/pokemon/amokou/back.2bpp.lz"
 
 SECTION "CAya Pics", ROMX
-CAyaFrontpic: INCBIN "gfx/pokemon/bellossom/front.animated.2bpp.lz"
+CAyaFrontpic: INCBIN "gfx/pokemon/caya/front.animated.2bpp.lz"
 CAyaBackpic:  INCBIN "gfx/pokemon/bellossom/back.2bpp.lz"
 
 SECTION "CMedicine Pics", ROMX
-CMedicineFrontpic: INCBIN "gfx/pokemon/sudowoodo/front.animated.2bpp.lz"
-CMedicineBackpic:  INCBIN "gfx/pokemon/sudowoodo/back.2bpp.lz"
+CMedicineFrontpic: INCBIN "gfx/pokemon/cmedicine/front.animated.2bpp.lz"
+CMedicineBackpic:  INCBIN "gfx/pokemon/cmedicine/back.2bpp.lz"
 
 SECTION "Medicine Pics", ROMX
-MedicineFrontpic: INCBIN "gfx/pokemon/politoed/front.animated.2bpp.lz"
-MedicineBackpic:  INCBIN "gfx/pokemon/politoed/back.2bpp.lz"
+MedicineFrontpic: INCBIN "gfx/pokemon/medicine/front.animated.2bpp.lz"
+MedicineBackpic:  INCBIN "gfx/pokemon/medicine/back.2bpp.lz"
 
 SECTION "CEiki Pics", ROMX
-CEikiFrontpic: INCBIN "gfx/pokemon/sunkern/front.animated.2bpp.lz"
-CEikiBackpic:  INCBIN "gfx/pokemon/sunkern/back.2bpp.lz"
+CEikiFrontpic: INCBIN "gfx/pokemon/ceiki/front.animated.2bpp.lz"
+CEikiBackpic:  INCBIN "gfx/pokemon/ceiki/back.2bpp.lz"
 
 SECTION "Eiki Pics", ROMX
-EikiFrontpic: INCBIN "gfx/pokemon/sunflora/front.animated.2bpp.lz"
-EikiBackpic:  INCBIN "gfx/pokemon/sunflora/back.2bpp.lz"
+EikiFrontpic: INCBIN "gfx/pokemon/eiki/front.animated.2bpp.lz"
+EikiBackpic:  INCBIN "gfx/pokemon/eiki/back.2bpp.lz"
 
 SECTION "AEiki Pics", ROMX
-AEikiFrontpic: INCBIN "gfx/pokemon/yanma/front.animated.2bpp.lz"
-AEikiBackpic:  INCBIN "gfx/pokemon/yanma/back.2bpp.lz"
+AEikiFrontpic: INCBIN "gfx/pokemon/aeiki/front.animated.2bpp.lz"
+AEikiBackpic:  INCBIN "gfx/pokemon/aeiki/back.2bpp.lz"
 
 SECTION "Yanmega Pics", ROMX
 YanmegaFrontpic: INCBIN "gfx/pokemon/yanmega/front.animated.2bpp.lz"
@@ -801,20 +801,20 @@ EirinFrontpic: INCBIN "gfx/pokemon/eirin/front.animated.2bpp.lz"
 EirinBackpic:  INCBIN "gfx/pokemon/eirin/back.2bpp.lz"
 
 SECTION "AMedicine Pics", ROMX
-AMedicineFrontpic: INCBIN "gfx/pokemon/hoppip/front.animated.2bpp.lz"
-AMedicineBackpic:  INCBIN "gfx/pokemon/hoppip/back.2bpp.lz"
+AMedicineFrontpic: INCBIN "gfx/pokemon/amedicine/front.animated.2bpp.lz"
+AMedicineBackpic:  INCBIN "gfx/pokemon/amedicine/back.2bpp.lz"
 
 SECTION "CKomachi Pics", ROMX
-CKomachiFrontpic: INCBIN "gfx/pokemon/skiploom/front.animated.2bpp.lz"
-CKomachiBackpic:  INCBIN "gfx/pokemon/skiploom/back.2bpp.lz"
+CKomachiFrontpic: INCBIN "gfx/pokemon/ckomachi/front.animated.2bpp.lz"
+CKomachiBackpic:  INCBIN "gfx/pokemon/ckomachi/back.2bpp.lz"
 
 SECTION "Komachi Pics", ROMX
-KomachiFrontpic: INCBIN "gfx/pokemon/jumpluff/front.animated.2bpp.lz"
-KomachiBackpic:  INCBIN "gfx/pokemon/jumpluff/back.2bpp.lz"
+KomachiFrontpic: INCBIN "gfx/pokemon/komachi/front.animated.2bpp.lz"
+KomachiBackpic:  INCBIN "gfx/pokemon/komachi/back.2bpp.lz"
 
 SECTION "AKomachi Pics", ROMX
-AKomachiFrontpic: INCBIN "gfx/pokemon/aipom/front.animated.2bpp.lz"
-AKomachiBackpic:  INCBIN "gfx/pokemon/aipom/back.2bpp.lz"
+AKomachiFrontpic: INCBIN "gfx/pokemon/akomachi/front.animated.2bpp.lz"
+AKomachiBackpic:  INCBIN "gfx/pokemon/akomachi/back.2bpp.lz"
 
 SECTION "Stantler Pics", ROMX
 StantlerFrontpic: INCBIN "gfx/pokemon/stantler/front.animated.2bpp.lz"

@@ -258,7 +258,7 @@ Special_ActivateFishingSwarm:
 StoreSwarmMapIndices::
 	ld a, c
 	and a
-	jr nz, .yanma
+	jr nz, .aeiki
 ; swarm dark cave violet entrance
 	ld a, d
 	ld [wDunsparceMapGroup], a
@@ -266,7 +266,7 @@ StoreSwarmMapIndices::
 	ld [wDunsparceMapNumber], a
 	ret
 
-.yanma
+.aeiki
 	ld a, d
 	ld [wAEikiMapGroup], a
 	ld a, e

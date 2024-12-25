@@ -77,10 +77,10 @@ Route35GoldenrodGatePokefanFScript:
 	faceplayer
 	opentext
 	checkevent EVENT_FOUGHT_CMEDICINE
-	iftruefwd .aftersudowoodo
+	iftruefwd .aftercmedicine
 	jumpopenedtext Route35GoldenrodGatePokefanFText
 
-.aftersudowoodo
+.aftercmedicine
 	jumpopenedtext Route35GoldenrodGatePokefanFText_FoughtCMedicine
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
