@@ -532,7 +532,7 @@ AMokouBackpic:  INCBIN "gfx/pokemon/amokou/back.2bpp.lz"
 
 SECTION "CAya Pics", ROMX
 CAyaFrontpic: INCBIN "gfx/pokemon/caya/front.animated.2bpp.lz"
-CAyaBackpic:  INCBIN "gfx/pokemon/bellossom/back.2bpp.lz"
+CAyaBackpic:  INCBIN "gfx/pokemon/caya/back.2bpp.lz"
 
 SECTION "CMedicine Pics", ROMX
 CMedicineFrontpic: INCBIN "gfx/pokemon/cmedicine/front.animated.2bpp.lz"
