@@ -160,18 +160,18 @@ AlphabeticalTohodexOrder:
 	dp CMOKOU     ; b3
 	dp MOKOU    ; b4
 	dp AMOKOU   ; b5
-	dp BELLOSSOM  ; b6
-	dp MARILL     ; b7
-	dp AZUMARILL  ; b8
-	dp SUDOWOODO  ; b9
-	dp POLITOED   ; ba
-	dp HOPPIP     ; bb
-	dp SKIPLOOM   ; bc
-	dp JUMPLUFF   ; bd
-	dp AIPOM      ; be
-	dp SUNKERN    ; bf
-	dp SUNFLORA   ; c0
-	dp YANMA      ; c1
+	dp CAYA  ; b6
+	dp AYA     ; b7
+	dp SAYA  ; b8
+	dp CMEDICINE  ; b9
+	dp MEDICINE   ; ba
+	dp AMEDICINE     ; bb
+	dp CKOMACHI   ; bc
+	dp KOMACHI   ; bd
+	dp AKOMACHI      ; be
+	dp CEIKI    ; bf
+	dp EIKI   ; c0
+	dp AEIKI      ; c1
 	dp WOOPER     ; c2
 	dp QUAGSIRE   ; c3
 	dp ESPEON     ; c4

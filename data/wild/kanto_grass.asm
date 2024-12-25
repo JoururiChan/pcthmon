@@ -647,21 +647,21 @@
 	def_grass_wildmons ROUTE_11
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 53, SKIPLOOM
+	wildmon 53, CKOMACHI
 	wildmon 48, CELIS
 	wildmon 50, AALICE
 	wildmon 51, CMIMA
 	wildmon 51, SARIEL
-	wildmon 51, SUNFLORA
-	wildmon 53, SUNFLORA
+	wildmon 51, EIKI
+	wildmon 53, EIKI
 	; day
-	wildmon 53, SKIPLOOM
+	wildmon 53, CKOMACHI
 	wildmon 48, CELIS
 	wildmon 50, AALICE
 	wildmon 51, CMIMA
 	wildmon 51, SARIEL
-	wildmon 51, SUNFLORA
-	wildmon 53, SUNFLORA
+	wildmon 51, EIKI
+	wildmon 53, EIKI
 	; nite
 	wildmon 53, RUMIA
 	wildmon 48, CHIYURI
@@ -708,16 +708,16 @@
 	wildmon 51, CMIMA
 	wildmon 52, MUGETSU
 	wildmon 54, MUGETSU
-	wildmon 53, SUNFLORA
-	wildmon 55, SUNFLORA
+	wildmon 53, EIKI
+	wildmon 55, EIKI
 	; day
 	wildmon 50, RIKA
 	wildmon 50, KONGARA
 	wildmon 51, CMIMA
 	wildmon 52, MUGETSU
 	wildmon 54, MUGETSU
-	wildmon 53, SUNFLORA
-	wildmon 55, SUNFLORA
+	wildmon 53, EIKI
+	wildmon 55, EIKI
 	; nite
 	wildmon 50, RIKAKO
 	wildmon 50, CMYSTIA
@@ -736,16 +736,16 @@
 	wildmon 53, CMIMA
 	wildmon 51, MUGETSU
 	wildmon 56, MUGETSU
-	wildmon 54, SUNFLORA
-	wildmon 56, SUNFLORA
+	wildmon 54, EIKI
+	wildmon 56, EIKI
 	; day
 	wildmon 52, RIKA
 	wildmon 52, KONGARA
 	wildmon 53, CMIMA
 	wildmon 51, MUGETSU
 	wildmon 56, MUGETSU
-	wildmon 54, SUNFLORA
-	wildmon 56, SUNFLORA
+	wildmon 54, EIKI
+	wildmon 56, EIKI
 	; nite
 	wildmon 52, RIKAKO
 	wildmon 52, CMYSTIA
@@ -792,16 +792,16 @@
 	wildmon 54, CMIMA
 	wildmon 54, MUGETSU
 	wildmon 57, MUGETSU
-	wildmon 55, SUNFLORA
-	wildmon 57, SUNFLORA
+	wildmon 55, EIKI
+	wildmon 57, EIKI
 	; day
 	wildmon 52, RIKA
 	wildmon 52, KONGARA
 	wildmon 54, CMIMA
 	wildmon 54, MUGETSU
 	wildmon 57, MUGETSU
-	wildmon 55, SUNFLORA
-	wildmon 57, SUNFLORA
+	wildmon 55, EIKI
+	wildmon 57, EIKI
 	; nite
 	wildmon 52, RIKAKO
 	wildmon 52, CMYSTIA

@@ -110,7 +110,7 @@ GoldenrodHarborPokefanmScript:
 	verticalmenu
 	closewindow
 	ifequalfwd $1, .LilyBlackDoll
-	ifequalfwd $2, .MarillDoll
+	ifequalfwd $2, .AyaDoll
 	ifequalfwd $3, .OctilleryDoll
 	endtext
 
@@ -129,18 +129,18 @@ GoldenrodHarborPokefanmScript:
 	waitbutton
 	sjump .Start
 
-.MarillDoll:
+.AyaDoll:
 	checkmoney $0, 5600
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_MARILL_DOLL
+	checkevent EVENT_DECO_AYA_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 5600
-	setevent EVENT_DECO_MARILL_DOLL
-	writetext GoldenrodHarborMarillDollText
+	setevent EVENT_DECO_AYA_DOLL
+	writetext GoldenrodHarborAyaDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext GoldenrodHarborMarillDollSentText
+	writetext GoldenrodHarborAyaDollSentText
 	waitbutton
 	sjump .Start
 
@@ -179,7 +179,7 @@ GoldenrodHarborPokefanmScript:
 	db $80 ; flags
 	db 4 ; items
 	db "LilyBlack    ¥1400@"
-	db "Marill      ¥5600@"
+	db "Aya      ¥5600@"
 	db "Octillery  ¥11200@"
 	db "Cancel@"
 
@@ -357,13 +357,13 @@ GoldenrodHarborLilyBlackDollSentText:
 	line "was sent home."
 	done
 
-GoldenrodHarborMarillDollText:
+GoldenrodHarborAyaDollText:
 	text "<PLAYER> bought"
-	line "Marill Doll."
+	line "Aya Doll."
 	done
 
-GoldenrodHarborMarillDollSentText:
-	text "Marill Doll"
+GoldenrodHarborAyaDollSentText:
+	text "Aya Doll"
 	line "was sent home."
 	done
 

@@ -27,7 +27,7 @@ DecorationAttributes:
 	decoration DECO_PLANT,    DIPLOMA,           SET_UP_POSTER,      EVENT_DECO_POSTER_4,                $9c
 	decoration DECO_POSTER,   KIKURI,           SET_UP_POSTER,      EVENT_DECO_POSTER_1,                $6d
 	decoration DECO_POSTER,   CMEIRA,          SET_UP_POSTER,      EVENT_DECO_POSTER_2,                $6e
-	decoration DECO_POSTER,   MARILL,            SET_UP_POSTER,      EVENT_DECO_POSTER_3,                $6f
+	decoration DECO_POSTER,   AYA,            SET_UP_POSTER,      EVENT_DECO_POSTER_3,                $6f
 	decoration DECO_PLANT,    PUT_IT_AWAY,       PUT_AWAY_CONSOLE,   EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1, 0
 	decoration DECO_PLANT,    SUPER_NES,         SET_UP_CONSOLE,     EVENT_DECO_SNES,                    SPRITE_SNES
 	decoration DECO_PLANT,    NINTENDO_64,       SET_UP_CONSOLE,     EVENT_DECO_N64,                     SPRITE_N64
@@ -62,7 +62,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,     UNOWN,             SET_UP_DOLL,        EVENT_DECO_UNOWN_DOLL,              SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CSARA,           SET_UP_DOLL,        EVENT_DECO_CSARA_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     PINECO,            SET_UP_DOLL,        EVENT_DECO_PINECO_DOLL,             SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     MARILL,            SET_UP_DOLL,        EVENT_DECO_MARILL_DOLL,             SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     AYA,            SET_UP_DOLL,        EVENT_DECO_AYA_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     TEDDIURSA,         SET_UP_DOLL,        EVENT_DECO_TEDDIURSA_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CHIYURI,            SET_UP_DOLL,        EVENT_DECO_CHIYURI_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     MEIRA,            SET_UP_DOLL,        EVENT_DECO_EMEIRA_DOLL,             SPRITE_MON_DOLL_1

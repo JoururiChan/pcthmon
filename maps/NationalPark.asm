@@ -230,8 +230,8 @@ PokefanfBeverly1Script:
 	iftruefwd .GiveNugget
 	checkcellnum PHONE_POKEFAN_BEVERLY
 	iftruefwd .NumberAccepted
-	checkpoke MARILL
-	iffalsefwd .NoMarill
+	checkpoke AYA
+	iffalsefwd .NoAya
 	checkevent EVENT_BEVERLY_ASKED_FOR_PHONE_NUMBER
 	iftruefwd .AskAgain
 	writetext PokefanBeverlyCuteMonText
@@ -260,8 +260,8 @@ PokefanfBeverly1Script:
 .NoRoom:
 	sjumpfwd .PackFull
 
-.NoMarill:
-	jumpopenedtext PokefanFBeverlyMarillFriendText
+.NoAya:
+	jumpopenedtext PokefanFBeverlyAyaFriendText
 
 .AskNumber1:
 	jumpstd asknumber1f
@@ -446,15 +446,15 @@ PokefanmWilliamBeatenText:
 	text "M-my #mon!"
 	done
 
-PokefanFBeverlyMarillFriendText:
+PokefanFBeverlyAyaFriendText:
 	text "My friend keeps a"
-	line "Marill!"
+	line "Aya!"
 
 	para "I find them very"
 	line "endearing."
 
 	para "Oh, I wish for a"
-	line "Marill of my own…"
+	line "Aya of my own…"
 	done
 
 LassKriseSeenText:

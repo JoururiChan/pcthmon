@@ -320,7 +320,7 @@ _LookCMeiraPosterText::
 SECTION "_LookEllenPosterText", ROMX
 _LookEllenPosterText::
 	text "It's a poster of a"
-	line "cute Marill."
+	line "cute Aya."
 	done
 
 SECTION "_LookAdorableDecoText", ROMX

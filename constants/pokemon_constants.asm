@@ -180,18 +180,18 @@
 	const CMOKOU     ; b3
 	const MOKOU    ; b4
 	const AMOKOU   ; b5
-	const BELLOSSOM  ; b6
-	const MARILL     ; b7
-	const AZUMARILL  ; b8
-	const SUDOWOODO  ; b9
-	const POLITOED   ; ba
-	const HOPPIP     ; bb
-	const SKIPLOOM   ; bc
-	const JUMPLUFF   ; bd
-	const AIPOM      ; be
-	const SUNKERN    ; bf
-	const SUNFLORA   ; c0
-	const YANMA      ; c1
+	const CAYA  ; b6
+	const AYA     ; b7
+	const SAYA  ; b8
+	const CMEDICINE  ; b9
+	const MEDICINE   ; ba
+	const AMEDICINE     ; bb
+	const CKOMACHI   ; bc
+	const KOMACHI   ; bd
+	const AKOMACHI      ; be
+	const CEIKI    ; bf
+	const EIKI   ; c0
+	const AEIKI      ; c1
 	const WOOPER     ; c2
 	const QUAGSIRE   ; c3
 	const ESPEON     ; c4

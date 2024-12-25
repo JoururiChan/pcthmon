@@ -111,7 +111,7 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
 * Ask Lyra! She gives you her phone number when you reach the Day-Care on Route 34.
 * Gen 1's trade evolutions now evolve by having at least five vitamins' worth of EVs in the right stat: AYuka into CMugetsu with Attack EVs (from Protein), Sara into ESara with Defense (from Iron), Shinki into EShinki with Speed (from Carbos), and EElly into CYuka with Special Attack (from Calcium).
 * Item trade evolutions (like Flandre into Kingdra while holding a Dragon Scale) now evolve while holding the item.
-* Yanma, Remilia, and Piloswine evolve while knowing AncientPower.
+* AEiki, Remilia, and Piloswine evolve while knowing AncientPower.
 * TLyrica evolves into Leafeon in Ilex Forest, site of the Moss Rock.
 * TLyrica evolves into Glaceon in the Ice Path, site of the Ice Rock.
 * TLyrica evolves into Sylveon with a Shiny Stone.
@@ -148,7 +148,7 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
 * Protector is in Mt. Mortar, or held by some wild Patchouli/TPatchouli.
 * Up-Grade is given to you in Silph Co. after fixing the Power Plant generator.
 * Dubious Disc is in Celadon City.
-* King's Rock is in DLuize Well, or held by some wild DLuize family and EKurumi/CElly/Politoed.
+* King's Rock is in DLuize Well, or held by some wild DLuize family and EKurumi/CElly/Medicine.
 * Metal Coat is in the Goldenrod Dept. Store basement, or held by some wild Alice family and Steelix.
 * Dragon Scale is in Mt. Mortar, or held by some wild CFlandre family and Yukari family.
   * (2.2.0) Also in Dragon's Den.

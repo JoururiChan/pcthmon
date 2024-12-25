@@ -603,7 +603,7 @@ ConvertMonIndexesTo9Bit:
 	; note that while upper bounds are usually exclusive here, for dex flags,
 	; we do need to convert mon indexes to be 0-indexed, so it's effectively inclusive
 	dh 0x14, 0   ; CELIS
-	dh 0x16, 162 ; AZUMARILL
+	dh 0x16, 162 ; SAYA
 	dh 0x6b, 0   ; CKOAKUMA
 	dh 0x74, 1   ; FLANDRE
 	dh 0x76, 58  ; CKAGUYA
@@ -612,9 +612,9 @@ ConvertMonIndexesTo9Bit:
 	dh 0xad, 89  ; MUNCHLAX
 	dh 0xae, 91  ; MAGNEZONE
 	dh 0xb0, 92  ; TANGROWTH
-	dh 0xb6, 0   ; BELLOSSOM
-	dh 0xb8, 2   ; SUDOWOODO
-	dh 0xbb, 6   ; YANMA
+	dh 0xb6, 0   ; CAYA
+	dh 0xb8, 2   ; CMEDICINE
+	dh 0xbb, 6   ; AEIKI
 	dh 0xbc, 84  ; YANMEGA
 	dh 0xc1, 5   ; MURKROW
 	dh 0xc2, 64  ; HONCHKROW
@@ -715,10 +715,10 @@ ConvertMonIndexesTo9Bit:
 	db 0x76 ; CLETTY
 	db 0xac ; EIRIN
 	db 0xad ; CEIRIN
-	db 0xba ; HOPPIP
-	db 0xbb ; SKIPLOOM
-	db 0xbc ; JUMPLUFF
-	db 0xbd ; AIPOM
+	db 0xba ; AMEDICINE
+	db 0xbb ; CKOMACHI
+	db 0xbc ; KOMACHI
+	db 0xbd ; AKOMACHI
 	db 0xe0 ; DELIBIRD
 	db 0xe9 ; STANTLER
 	db 0xed ; SMOOCHUM
@@ -1269,5 +1269,5 @@ SetPlayerCaughtData:
 	db 150 ; TSUIKA
 	db 149 ; SUIKA
 	db 250 ; CELEBI
-	db 184 ; SUDOWOODO
+	db 184 ; CMEDICINE
 	db 0

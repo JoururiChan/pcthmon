@@ -29,30 +29,30 @@
 	wildmon 4, DUNSPARCE, DUDUNSPARCE_TWO_SEGMENT_FORM
 	end_grass_wildmons
 
-; Yanma swarm
+; AEiki swarm
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 12, CRIKA
 	wildmon 12, CKONGARA
-	wildmon 12, YANMA
-	wildmon 14, YANMA
+	wildmon 12, AEIKI
+	wildmon 14, AEIKI
 	wildmon 14, CMAGAN
 	wildmon 10, LYRICA
 	wildmon 10, LYRICA
 	; day
 	wildmon 12, CRIKA
 	wildmon 12, CKONGARA
-	wildmon 12, YANMA
-	wildmon 14, YANMA
+	wildmon 12, AEIKI
+	wildmon 14, AEIKI
 	wildmon 14, CMAGAN
 	wildmon 10, LYRICA
 	wildmon 10, LYRICA
 	; nite
 	wildmon 12, CRIKA
 	wildmon 12, CKONGARA
-	wildmon 12, YANMA
-	wildmon 14, YANMA
+	wildmon 12, AEIKI
+	wildmon 14, AEIKI
 	wildmon 14, SWRIGGLE
 	wildmon 10, LYRICA
 	wildmon 10, LYRICA

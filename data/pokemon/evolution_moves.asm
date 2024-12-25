@@ -158,22 +158,18 @@ EvolutionMoves::
 	db NO_MOVE      ; CMOKOU
 	db NO_MOVE      ; MOKOU
 	db NO_MOVE ; AMOKOU
-	db BATTLE_CHANT  ; BELLOSSOM
-	db NO_MOVE      ; MARILL
-	db NO_MOVE      ; AZUMARILL
-	db STONE_HIT   ; SUDOWOODO
-	db GIGA_DRAIN   ; POLITOED
-	db NO_MOVE      ; HOPPIP
-	db NO_MOVE      ; SKIPLOOM
-	db NO_MOVE      ; JUMPLUFF
-	db NO_MOVE      ; AIPOM
-	db NO_MOVE      ; SUNKERN
-if DEF(FAITHFUL)
-	db NO_MOVE      ; SUNFLORA
-else
-	db EMBER        ; SUNFLORA
-endc
-	db NO_MOVE      ; YANMA
+	db NO_MOVE  ; CAYA
+	db NO_MOVE      ; AYA
+	db NO_MOVE      ; SAYA
+	db NO_MOVE   ; CMEDICINE
+	db NO_MOVE   ; MEDICINE
+	db NO_MOVE      ; AMEDICINE
+	db NO_MOVE      ; CKOMACHI
+	db NO_MOVE      ; KOMACHI
+	db NO_MOVE      ; AKOMACHI
+	db NO_MOVE      ; CEIKI
+	db NO_MOVE        ; EIKI
+	db NO_MOVE      ; AEIKI
 	db NO_MOVE      ; WOOPER
 	db ANCIENTPOWER ; QUAGSIRE
 	db PSYSHOT    ; ESPEON

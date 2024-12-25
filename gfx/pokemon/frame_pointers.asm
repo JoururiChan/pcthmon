@@ -158,18 +158,18 @@ FramesPointers:
 	dw CMokouFrames
 	dw MokouFrames
 	dw AMokouFrames
-	dw BellossomFrames
-	dw MarillFrames
-	dw AzumarillFrames
-	dw SudowoodoFrames
-	dw PolitoedFrames
-	dw HoppipFrames
-	dw SkiploomFrames
-	dw JumpluffFrames
-	dw AipomFrames
-	dw SunkernFrames
-	dw SunfloraFrames
-	dw YanmaFrames
+	dw CAyaFrames
+	dw AyaFrames
+	dw SAyaFrames
+	dw CMedicineFrames
+	dw MedicineFrames
+	dw AMedicineFrames
+	dw CKomachiFrames
+	dw KomachiFrames
+	dw AKomachiFrames
+	dw CEikiFrames
+	dw EikiFrames
+	dw AEikiFrames
 	dw WooperFrames
 	dw QuagsireFrames
 	dw EspeonFrames

@@ -159,18 +159,18 @@ TohodexDataPointerTable:
 	dba CMokouTohodexEntry
 	dba MokouTohodexEntry
 	dba AMokouTohodexEntry
-	dba BellossomTohodexEntry
-	dba MarillTohodexEntry
-	dba AzumarillTohodexEntry
-	dba SudowoodoTohodexEntry
-	dba PolitoedTohodexEntry
-	dba HoppipTohodexEntry
-	dba SkiploomTohodexEntry
-	dba JumpluffTohodexEntry
-	dba AipomTohodexEntry
-	dba SunkernTohodexEntry
-	dba SunfloraTohodexEntry
-	dba YanmaTohodexEntry
+	dba CAyaTohodexEntry
+	dba AyaTohodexEntry
+	dba SAyaTohodexEntry
+	dba CMedicineTohodexEntry
+	dba MedicineTohodexEntry
+	dba AMedicineTohodexEntry
+	dba CKomachiTohodexEntry
+	dba KomachiTohodexEntry
+	dba AKomachiTohodexEntry
+	dba CEikiTohodexEntry
+	dba EikiTohodexEntry
+	dba AEikiTohodexEntry
 	dba WooperTohodexEntry
 	dba QuagsireTohodexEntry
 	dba EspeonTohodexEntry

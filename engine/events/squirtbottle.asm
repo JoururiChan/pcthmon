@@ -28,7 +28,7 @@ _Squirtbottle:
 	jr c, .nope
 
 	ld a, d
-	cp SPRITEMOVEDATA_SUDOWOODO
+	cp SPRITEMOVEDATA_CMEDICINE
 	jr nz, .nope
 
 	ld a, $1

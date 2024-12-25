@@ -1230,7 +1230,7 @@ endr
 	ln bc, 0, 2, 4, 5
 	call PrintNumFromReg
 
-.height_done
+.AEIKI_done
 	pop hl
 	inc hl
 

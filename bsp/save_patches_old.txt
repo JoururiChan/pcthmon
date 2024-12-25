@@ -282,7 +282,7 @@ AdjustRhyperiorIndex:
 	; upper bound, offset
 	; terminated by -1
 	dh 0xae, 0  ; MAGNEZONE
-	dh 0xb5, 1  ; BELLOSSOM
+	dh 0xb5, 1  ; CAYA
 	dh 0xb6, -7 ; RHYPERIOR
 	dh -1
 

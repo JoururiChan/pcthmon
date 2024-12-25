@@ -158,18 +158,18 @@ BitmasksPointers:
 	dw CMokouBitmasks
 	dw MokouBitmasks
 	dw AMokouBitmasks
-	dw BellossomBitmasks
-	dw MarillBitmasks
-	dw AzumarillBitmasks
-	dw SudowoodoBitmasks
-	dw PolitoedBitmasks
-	dw HoppipBitmasks
-	dw SkiploomBitmasks
-	dw JumpluffBitmasks
-	dw AipomBitmasks
-	dw SunkernBitmasks
-	dw SunfloraBitmasks
-	dw YanmaBitmasks
+	dw CAyaBitmasks
+	dw AyaBitmasks
+	dw SAyaBitmasks
+	dw CMedicineBitmasks
+	dw MedicineBitmasks
+	dw AMedicineBitmasks
+	dw CKomachiBitmasks
+	dw KomachiBitmasks
+	dw AKomachiBitmasks
+	dw CEikiBitmasks
+	dw EikiBitmasks
+	dw AEikiBitmasks
 	dw WooperBitmasks
 	dw QuagsireBitmasks
 	dw EspeonBitmasks

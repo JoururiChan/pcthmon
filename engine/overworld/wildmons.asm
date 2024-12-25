@@ -607,28 +607,28 @@ _SwarmWildmonCheck:
 	ld hl, wSwarmFlags
 	bit 2, [hl]
 	pop hl
-	jr z, .CheckYanma
+	jr z, .CheckAEiki
 	ld a, [wDunsparceMapGroup]
 	cp d
-	jr nz, .CheckYanma
+	jr nz, .CheckAEiki
 	ld a, [wDunsparceMapNumber]
 	cp e
-	jr nz, .CheckYanma
+	jr nz, .CheckAEiki
 	call LookUpWildmonsForMapDE
 	jr nc, _NoSwarmWildmon
 	scf
 	ret
 
-.CheckYanma:
+.CheckAEiki:
 	push hl
 	ld hl, wSwarmFlags
 	bit 3, [hl]
 	pop hl
 	jr z, _NoSwarmWildmon
-	ld a, [wYanmaMapGroup]
+	ld a, [wAEikiMapGroup]
 	cp d
 	jr nz, _NoSwarmWildmon
-	ld a, [wYanmaMapNumber]
+	ld a, [wAEikiMapNumber]
 	cp e
 	jr nz, _NoSwarmWildmon
 	call LookUpWildmonsForMapDE

@@ -121,8 +121,8 @@ BellchimeTrailValerieScript:
 	opentext
 	writetext .RewardText
 	promptbutton
-	verbosegivetmhm TM_ENERGY_LIGHT
-	setevent EVENT_GOT_TM49_ENERGY_LIGHT_FROM_VALERIE
+	verbosegivetmhm TM_CHARGE_OUT
+	setevent EVENT_GOT_TM69_CHARGE_OUT_FROM_VALERIE
 	writetext .FarewellText
 .Depart
 	waitbutton

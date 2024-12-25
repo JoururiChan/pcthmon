@@ -162,18 +162,18 @@ PokemonPicPointers::
 	pics CMokou
 	pics Mokou
 	pics AMokou
-	pics Bellossom
-	pics Marill
-	pics Azumarill
-	pics Sudowoodo
-	pics Politoed
-	pics Hoppip
-	pics Skiploom
-	pics Jumpluff
-	pics Aipom
-	pics Sunkern
-	pics Sunflora
-	pics Yanma
+	pics CAya
+	pics Aya
+	pics SAya
+	pics CMedicine
+	pics Medicine
+	pics AMedicine
+	pics CKomachi
+	pics Komachi
+	pics AKomachi
+	pics CEiki
+	pics Eiki
+	pics AEiki
 	pics Wooper
 	pics Quagsire
 	pics Espeon

@@ -40,7 +40,7 @@ Cries:
 	fardw Cry_Kana
 	fardw Cry_EMeira
 	fardw Cry_EMugetsu
-	fardw Cry_Marill
+	fardw Cry_Aya
 	fardw Cry_CKeine
 	fardw Cry_TEirin
 	fardw Cry_Girafarig
@@ -54,7 +54,7 @@ Cries:
 	fardw Cry_CYoumu
 	fardw Cry_CSanae
 	fardw Cry_Gligar
-	fardw Cry_Bellossom
+	fardw Cry_CAya
 	fardw Cry_Slugma
 	fardw Cry_Mystia
 	fardw Cry_Entei

@@ -99,7 +99,7 @@ ArnieHurryText:
 	line "coming or what?"
 
 	para "You're missing out"
-	line "on seeing Yanma!"
+	line "on seeing AEiki!"
 
 	para "Get down to Route"
 	line "35 right now!"

@@ -31,18 +31,18 @@ ENDM
 TreeMonSet_City:
 TreeMonSet_Canyon:
 	tree_mon 80, ELIS,    10
-	tree_mon 20, AIPOM,      10
+	tree_mon 20, AKOMACHI,      10
 	db -1
 	; rare
 	tree_mon 50, ELIS,    10
 	tree_mon 30, HERACROSS,  10
-	tree_mon 20, AIPOM,      10
+	tree_mon 20, AKOMACHI,      10
 	db -1
 
 TreeMonSet_Town:
 	tree_mon 65, ELIS,    10
 	tree_mon 15, CKIKURI,      10
-	tree_mon 20, AIPOM,      10
+	tree_mon 20, AKOMACHI,      10
 	db -1
 	; rare
 	tree_mon 60, ELIS,    10
@@ -102,7 +102,7 @@ TreeMonSet_Forest:
 TreeMonSet_Apricorns:
 	tree_mon 50, ELIS,               10
 	tree_mon 20, CKIKURI,                 10
-	tree_mon 20, AIPOM,                 10
+	tree_mon 20, AKOMACHI,                 10
 	tree_mon 10, DDAICHAN, 10
 	db -1
 	; rare

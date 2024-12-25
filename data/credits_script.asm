@@ -188,7 +188,7 @@ CreditsScript:
 	db CREDITS_WAIT, 1
 
 ; Update the banner.
-	db CREDITS_SCENE, 3 ; TEirin or Bellossom
+	db CREDITS_SCENE, 3 ; TEirin or CAya
 
 	db     US_VERSION_STAFF, 2
 

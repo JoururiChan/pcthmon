@@ -158,18 +158,18 @@ EggMovePointers::
 	dw CMokouEggMoves         ; CMokou
 	dw NoEggMoves             ; Mokou
 	dw NoEggMoves             ; AMokou
-	dw NoEggMoves             ; Bellossom
-	dw NoEggMoves             ; Marill
-	dw NoEggMoves             ; Azumarill
-	dw NoEggMoves             ; Sudowoodo
-	dw NoEggMoves             ; Politoed
-	dw HoppipEggMoves         ; Hoppip
-	dw NoEggMoves             ; Skiploom
-	dw NoEggMoves             ; Jumpluff
-	dw AipomEggMoves          ; Aipom
-	dw SunkernEggMoves        ; Sunkern
-	dw NoEggMoves             ; Sunflora
-	dw YanmaEggMoves          ; Yanma
+	dw CAyaEggMoves             ; CAya
+	dw CAyaEggMoves            ; Aya
+	dw CAyaEggMoves            ; SAya
+	dw CMedicineEggMoves ; CMedicine
+	dw CMedicineEggMoves              ; Medicine
+	dw CMedicineEggMoves         ; AMedicine
+	dw CKomachiEggMoves            ; CKomachi
+	dw CKomachiEggMoves            ; Komachi
+	dw CKomachiEggMoves          ; AKomachi
+	dw CEikiEggMoves        ; CEiki
+	dw CEikiEggMoves            ; Eiki
+	dw CEikiEggMoves          ; AEiki
 	dw WooperEggMoves    ; Wooper
 	dw NoEggMoves             ; Quagsire
 	dw NoEggMoves             ; Espeon

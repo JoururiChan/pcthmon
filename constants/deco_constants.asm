@@ -101,7 +101,7 @@ ENDM
 	deco  DIPLOMA
 	deco  EKIKURI_POSTER
 	deco  CMEIRA_POSTER
-	deco  MARILL_POSTER
+	deco  AYA_POSTER
 ; FindOwnedConsoles.consoles values (see engine/overworld/decorations.asm)
 	const CONSOLES
 	deco  SNES
@@ -139,7 +139,7 @@ ENDM
 	deco  UNOWN_DOLL
 	deco  CSARA_DOLL
 	deco  PINECO_DOLL
-	deco  MARILL_DOLL
+	deco  AYA_DOLL
 	deco  TEDDIURSA_DOLL
 	deco  CHIYURI_DOLL
 	deco  EMEIRA_DOLL

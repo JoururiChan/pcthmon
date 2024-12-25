@@ -1578,49 +1578,49 @@ AMokouTohodexEntry::
 	next "last so long they"
 	next "might never finish.@"
 
-SECTION "BellossomTohodexEntry", ROMX
-BellossomTohodexEntry::
-	db "Flower@"
-	db   "When these dance"
-	next "together, their"
-	next "petals rub against"
-	page "each other,"
-	next "making pretty,"
-	next "relaxing sounds.@"
+SECTION "CAyaTohodexEntry", ROMX
+CAyaTohodexEntry::
+	db "Crow@"
+	db   "It is often seen"
+	next "with a flock of C-"
+	next "Aya. It is known"
+	page "to be insanely f-"
+	next "ast, traveling at"
+	next "near speed of light.@"
 
-SECTION "MarillTohodexEntry", ROMX
-MarillTohodexEntry::
-	db "Aqua Mouse@"
-	db   "The fur on its"
-	next "body naturally"
-	next "repels water. It"
-	page "can stay dry, even"
-	next "when it plays in"
-	next "the water.@"
+SECTION "AyaTohodexEntry", ROMX
+AyaTohodexEntry::
+	db "Photography@"
+	db   "It is equipped with"
+	next "a camera which it"
+	next "uses to record ev-"
+	page "ents and then rep-"
+	next "ort them to their"
+	next "fellow #mon.@"
 
-SECTION "AzumarillTohodexEntry", ROMX
-AzumarillTohodexEntry::
-	db "Aqua Rabbit@"
-	db   "The bubble-like"
-	next "pattern on its"
-	next "stomach helps it"
-	page "camouflage itself"
-	next "when it's in the"
-	next "water.@"
+SECTION "SAyaTohodexEntry", ROMX
+SAyaTohodexEntry::
+	db "Photography@"
+	db   "It is extremely"
+	next "adept at speed and"
+	next "utilizing moves"
+	page "that use Wind so"
+	next "much that is now"
+	next "known for these.@"
 
-SECTION "SudowoodoTohodexEntry", ROMX
-SudowoodoTohodexEntry::
-	db "Imitation@"
+SECTION "CMedicineTohodexEntry", ROMX
+CMedicineTohodexEntry::
+	db "Doll@"
 	db   "If a tree branch"
 	next "shakes when there"
 	next "is no wind, it's a"
-	page "Sudowoodo, not a"
+	page "CMedicine, not a"
 	next "tree. It hides"
 	next "from the rain.@"
 
-SECTION "PolitoedTohodexEntry", ROMX
-PolitoedTohodexEntry::
-	db "Frog@"
+SECTION "MedicineTohodexEntry", ROMX
+MedicineTohodexEntry::
+	db "Poison@"
 	db   "When it expands"
 	next "its throat to"
 	next "croak out a tune,"
@@ -1628,9 +1628,9 @@ PolitoedTohodexEntry::
 	next "Kurumi gather"
 	next "immediately.@"
 
-SECTION "HoppipTohodexEntry", ROMX
-HoppipTohodexEntry::
-	db "Cottonweed@"
+SECTION "AMedicineTohodexEntry", ROMX
+AMedicineTohodexEntry::
+	db "Poison@"
 	db   "It can be carried"
 	next "away on even the"
 	next "gentlest breeze."
@@ -1638,8 +1638,8 @@ HoppipTohodexEntry::
 	next "all the way to the"
 	next "next town.@"
 
-SECTION "SkiploomTohodexEntry", ROMX
-SkiploomTohodexEntry::
+SECTION "CKomachiTohodexEntry", ROMX
+CKomachiTohodexEntry::
 	db "Cottonweed@"
 	db   "As soon as it"
 	next "rains, it closes"
@@ -1648,8 +1648,8 @@ SkiploomTohodexEntry::
 	next "of a tree to avoid"
 	next "getting wet.@"
 
-SECTION "JumpluffTohodexEntry", ROMX
-JumpluffTohodexEntry::
+SECTION "KomachiTohodexEntry", ROMX
+KomachiTohodexEntry::
 	db "Cottonweed@"
 	db   "Even in the fierc-"
 	next "est wind, it can"
@@ -1658,8 +1658,8 @@ JumpluffTohodexEntry::
 	next "any place in the"
 	next "world it wants.@"
 
-SECTION "AipomTohodexEntry", ROMX
-AipomTohodexEntry::
+SECTION "AKomachiTohodexEntry", ROMX
+AKomachiTohodexEntry::
 	db "Long Tail@"
 	db   "It uses its tail"
 	next "to hang on to tree"
@@ -1668,8 +1668,8 @@ AipomTohodexEntry::
 	next "swing from one"
 	next "branch to another.@"
 
-SECTION "SunkernTohodexEntry", ROMX
-SunkernTohodexEntry::
+SECTION "CEikiTohodexEntry", ROMX
+CEikiTohodexEntry::
 	db "Seed@"
 	db   "It is very weak."
 	next "Its only means of"
@@ -1678,8 +1678,8 @@ SunkernTohodexEntry::
 	next "desperately at its"
 	next "attacker.@"
 
-SECTION "SunfloraTohodexEntry", ROMX
-SunfloraTohodexEntry::
+SECTION "EikiTohodexEntry", ROMX
+EikiTohodexEntry::
 	db "Sun@"
 	db   "As the hot season"
 	next "approaches, the"
@@ -1688,8 +1688,8 @@ SunfloraTohodexEntry::
 	next "become more vivid"
 	next "and lively.@"
 
-SECTION "YanmaTohodexEntry", ROMX
-YanmaTohodexEntry::
+SECTION "AEikiTohodexEntry", ROMX
+AEikiTohodexEntry::
 	db "Clear Wing@"
 	db   "It can see in all"
 	next "directions without"

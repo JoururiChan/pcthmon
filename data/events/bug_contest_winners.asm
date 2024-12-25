@@ -27,7 +27,7 @@ BugContestant_BugCatcherDon:
 
 BugContestant_BugCatcherEd:
 	db BUG_CATCHER, ED
-	contest_winner YANMA,      286
+	contest_winner AEIKI,      286
 	contest_winner CRIKAKO, 251
 	contest_winner CGYOKU,   237
 

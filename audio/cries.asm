@@ -1,8 +1,8 @@
-Cry_Marill:
+Cry_Aya:
 	channel_count 3
-	channel 5, Cry_Marill_Ch5
-	channel 6, Cry_Marill_Ch6
-	channel 8, Cry_Marill_Ch8
+	channel 5, Cry_Aya_Ch5
+	channel 6, Cry_Aya_Ch6
+	channel 8, Cry_Aya_Ch8
 
 Cry_TEirin:
 	channel_count 2
@@ -130,11 +130,11 @@ Cry_CSanae:
 	channel 6, Cry_CSanae_Ch6
 	channel 8, Cry_CSanae_Ch8
 
-Cry_Bellossom:
+Cry_CAya:
 	channel_count 3
-	channel 5, Cry_Bellossom_Ch5
-	channel 6, Cry_Bellossom_Ch6
-	channel 8, Cry_Bellossom_Ch8
+	channel 5, Cry_CAya_Ch5
+	channel 6, Cry_CAya_Ch6
+	channel 8, Cry_CAya_Ch8
 
 Cry_TTei:
 	channel_count 3
@@ -315,7 +315,7 @@ Cry_TTei_Ch8:
 	noise_note 8, 12, 2, 24
 	sound_ret
 
-Cry_Marill_Ch5:
+Cry_Aya_Ch5:
 	duty_cycle_pattern 0, 2, 0, 2
 	square_note 2, 8, 8, 1752
 	square_note 8, 14, 2, 1760
@@ -326,7 +326,7 @@ Cry_Marill_Ch5:
 	square_note 8, 12, 1, 1706
 	sound_ret
 
-Cry_Marill_Ch6:
+Cry_Aya_Ch6:
 	duty_cycle_pattern 1, 2, 0, 3
 	square_note 2, 6, 8, 1713
 	square_note 5, 12, 1, 1721
@@ -336,7 +336,7 @@ Cry_Marill_Ch6:
 	square_note 10, 9, 2, 1659
 	sound_ret
 
-Cry_Marill_Ch8:
+Cry_Aya_Ch8:
 	noise_note 1, 9, -1, 108
 	noise_note 1, 9, 2, 92
 	noise_note 10, 6, 2, 76
@@ -784,7 +784,7 @@ Cry_CSanae_Ch8:
 	noise_note 40, 13, 3, 110
 	sound_ret
 
-Cry_Bellossom_Ch5:
+Cry_CAya_Ch5:
 	duty_cycle_pattern 0, 3, 2, 1
 	pitch_sweep 15, -7
 	square_note 2, 15, 8, 1824
@@ -799,7 +799,7 @@ Cry_Bellossom_Ch5:
 	pitch_sweep 8, 8
 	sound_ret
 
-Cry_Bellossom_Ch6:
+Cry_CAya_Ch6:
 	duty_cycle_pattern 0, 2, 0, 2
 	square_note 6, 11, 2, 1822
 	square_note 5, 9, 2, 1913
@@ -807,7 +807,7 @@ Cry_Bellossom_Ch6:
 	square_note 8, 10, 1, 1845
 	sound_ret
 
-Cry_Bellossom_Ch8:
+Cry_CAya_Ch8:
 	noise_note 2, 6, 4, 127
 	noise_note 2, 8, 4, 125
 	noise_note 2, 10, 4, 111

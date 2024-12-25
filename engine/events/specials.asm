@@ -268,9 +268,9 @@ StoreSwarmMapIndices::
 
 .yanma
 	ld a, d
-	ld [wYanmaMapGroup], a
+	ld [wAEikiMapGroup], a
 	ld a, e
-	ld [wYanmaMapNumber], a
+	ld [wAEikiMapNumber], a
 	ret
 
 Special_ResetLuckyNumberShowFlag:
@@ -364,11 +364,11 @@ RespawnOneOffs:
 
 	; Set CHECK_FLAG once to be used multiple times
 	ld b, CHECK_FLAG
-	ld de, ENGINE_PLAYER_CAUGHT_SUDOWOODO
+	ld de, ENGINE_PLAYER_CAUGHT_CMEDICINE
 	farcall EngineFlagAction
-	jr nz, .CaughtSudowoodo
-	eventflagreset EVENT_ROUTE_36_SUDOWOODO
-.CaughtSudowoodo
+	jr nz, .CaughtCMedicine
+	eventflagreset EVENT_ROUTE_36_CMEDICINE
+.CaughtCMedicine
 
 	ld de, ENGINE_PLAYER_CAUGHT_RAN
 	farcall EngineFlagAction

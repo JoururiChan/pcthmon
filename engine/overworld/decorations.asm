@@ -257,7 +257,7 @@ FindOwnedPosters:
 	db DECO_DIPLOMA ; 11
 	db DECO_EKIKURI_POSTER ; 12
 	db DECO_CMEIRA_POSTER ; 13
-	db DECO_MARILL_POSTER ; 14
+	db DECO_AYA_POSTER ; 14
 	db -1
 
 DecoConsoleMenu:
@@ -314,7 +314,7 @@ FindOwnedOrnaments:
 	db DECO_UNOWN_DOLL ; 33
 	db DECO_CSARA_DOLL ; 34
 	db DECO_PINECO_DOLL ; 35
-	db DECO_MARILL_DOLL ; 36
+	db DECO_AYA_DOLL ; 36
 	db DECO_TEDDIURSA_DOLL ; 37
 	db DECO_CHIYURI_DOLL ; 38
 	db DECO_EMEIRA_DOLL ; 39
@@ -979,7 +979,7 @@ DecorationDesc_PosterPointers:
 	dbw DECO_DIPLOMA, DecorationDesc_Diploma
 	dbw DECO_EKIKURI_POSTER, DecorationDesc_EKikuriPoster
 	dbw DECO_CMEIRA_POSTER, DecorationDesc_CMeiraPoster
-	dbw DECO_MARILL_POSTER, DecorationDesc_MarillPoster
+	dbw DECO_AYA_POSTER, DecorationDesc_AyaPoster
 	db -1
 
 DecorationDesc_TownMapPoster:
@@ -1004,7 +1004,7 @@ DecorationDesc_EKikuriPoster:
 DecorationDesc_CMeiraPoster:
 	farjumptext _LookCMeiraPosterText
 
-DecorationDesc_MarillPoster:
+DecorationDesc_AyaPoster:
 	farjumptext _LookEllenPosterText
 
 DecorationDesc_NullPoster:

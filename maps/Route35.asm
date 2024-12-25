@@ -134,8 +134,8 @@ TrainerBug_catcherArnie1:
 	opentext
 	checkflag ENGINE_ARNIE_READY_FOR_REMATCH
 	iftruefwd .WantsBattle
-	checkflag ENGINE_YANMA_SWARM
-	iftruefwd .YanmaSwarming
+	checkflag ENGINE_AEIKI_SWARM
+	iftruefwd .AEikiSwarming
 	checkcellnum PHONE_BUG_CATCHER_ARNIE
 	iftrue Route35NumberAcceptedM
 	checkevent EVENT_ARNIE_ASKED_FOR_PHONE_NUMBER
@@ -216,8 +216,8 @@ TrainerBug_catcherArnie1:
 	clearflag ENGINE_ARNIE_READY_FOR_REMATCH
 	end
 
-.YanmaSwarming:
-	jumpopenedtext BugCatcherArnieYanmaText
+.AEikiSwarming:
+	jumpopenedtext BugCatcherArnieAEikiText
 
 GenericTrainerFirebreatherWalt:
 	generictrainer FIREBREATHER, WALT, EVENT_BEAT_FIREBREATHER_WALT, FirebreatherWaltSeenText, FirebreatherWaltBeatenText
@@ -344,9 +344,9 @@ BugCatcherArnieAfterBattleText:
 	line "National Park."
 	done
 
-BugCatcherArnieYanmaText:
+BugCatcherArnieAEikiText:
 	text "Wow… Look at all"
-	line "those Yanma!"
+	line "those AEiki!"
 
 	para "I'm so blown away,"
 	line "I can't move."

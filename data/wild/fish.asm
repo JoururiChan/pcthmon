@@ -38,11 +38,11 @@ ENDM
 .Shore_Old:
 	fishentry  70 percent + 1, CCHIYURI,   10
 	fishentry  85 percent + 1, CCHIYURI,   10
-	fishentry 100 percent,     CMAI,     10
+	fishentry 100 percent,     CKOMACHI,     10
 .Shore_Good:
 	fishentry  35 percent,     CCHIYURI,   20
-	fishentry  70 percent,     CMAI,     20
-	fishentry  90 percent + 1, CMAI,     20
+	fishentry  70 percent,     CKOMACHI,     20
+	fishentry  90 percent + 1, CKOMACHI,     20
 	fishentry 100 percent,     0,          20 ; corsola morn/day, letty eve/night
 .Shore_Super:
 	fishentry  40 percent,     CDAICHAN,     40
@@ -57,7 +57,7 @@ ENDM
 .Ocean_Good:
 	fishentry  35 percent,     CCHIYURI,   20
 	fishentry  70 percent,     CEIRIN,  20
-	fishentry  90 percent + 1, CPATCHOULI,   20
+	fishentry  90 percent + 1, CKOMACHI,   20
 	fishentry 100 percent,     CEIRIN,   20
 .Ocean_Super:
 	fishentry  40 percent,     CTEI,   40
@@ -68,16 +68,16 @@ ENDM
 .Lake_Old:
 .River_Old:
 .Well_Old:
-	fishentry  70 percent + 1, CEIRIN,   10
-	fishentry  85 percent + 1, CEIRIN,   10
+	fishentry  70 percent + 1, CKOMACHI,   10
+	fishentry  85 percent + 1, CKOMACHI,   10
 	fishentry 100 percent,     CEIRIN,    10
 .Lake_Good:
 .River_Good:
 .Well_Good:
-	fishentry  35 percent,     LILYBLACK,   20
-	fishentry  70 percent,     AFLANDRE,    20
-	fishentry  90 percent + 1, AFLANDRE,    20
-	fishentry 100 percent,     AFLANDRE,    20
+	fishentry  35 percent,     CKOMACHI,   20
+	fishentry  70 percent,     CKOMACHI,    20
+	fishentry  90 percent + 1, CPATCHOULI,    20
+	fishentry 100 percent,     CPATCHOULI,    20
 .Lake_Super:
 .River_Super:
 	fishentry  40 percent,     AFLANDRE,    40
@@ -94,9 +94,9 @@ ENDM
 .Pond_Old:
 	fishentry  70 percent + 1, CCHIYURI,   10
 	fishentry  85 percent + 1, CCHIYURI,   10
-	fishentry 100 percent,     CMAI,    10
+	fishentry 100 percent,     CKOMACHI,    10
 .Pond_Good:
-	fishentry  35 percent,     CEIRIN,   20
+	fishentry  35 percent,     CKOMACHI,   20
 	fishentry  70 percent,     CEIRIN,    20
 	fishentry  90 percent + 1, CEIRIN,    20
 	fishentry 100 percent,     CPATCHOULI,    20

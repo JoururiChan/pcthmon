@@ -20,11 +20,11 @@ Route36VioletGate_MapScriptHeader:
 Route36VioletGateOfficerScript:
 	faceplayer
 	opentext
-	checkevent EVENT_FOUGHT_SUDOWOODO
-	iftruefwd .ClearedSudowoodo
+	checkevent EVENT_FOUGHT_CMEDICINE
+	iftruefwd .ClearedCMedicine
 	jumpopenedtext Route36VioletGateOfficerText1
 
-.ClearedSudowoodo
+.ClearedCMedicine
 	jumpopenedtext Route36VioletGateOfficerText2
 
 Route36VioletGateOfficerText1:

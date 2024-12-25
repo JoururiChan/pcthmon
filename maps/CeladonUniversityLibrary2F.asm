@@ -297,7 +297,7 @@ CeladonUniversityLibrary2FBookshelf17Text:
 	line "“Typecasting: The"
 
 	para "Mystery of"
-	line "Sudowoodo”."
+	line "CMedicine”."
 	done
 
 CeladonUniversityLibrary2FBookshelf18Text:

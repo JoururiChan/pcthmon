@@ -158,18 +158,18 @@ AnimationPointers:
 	dw CMokouAnimation
 	dw MokouAnimation
 	dw AMokouAnimation
-	dw BellossomAnimation
-	dw MarillAnimation
-	dw AzumarillAnimation
-	dw SudowoodoAnimation
-	dw PolitoedAnimation
-	dw HoppipAnimation
-	dw SkiploomAnimation
-	dw JumpluffAnimation
-	dw AipomAnimation
-	dw SunkernAnimation
-	dw SunfloraAnimation
-	dw YanmaAnimation
+	dw CAyaAnimation
+	dw AyaAnimation
+	dw SAyaAnimation
+	dw CMedicineAnimation
+	dw MedicineAnimation
+	dw AMedicineAnimation
+	dw CKomachiAnimation
+	dw KomachiAnimation
+	dw AKomachiAnimation
+	dw CEikiAnimation
+	dw EikiAnimation
+	dw AEikiAnimation
 	dw WooperAnimation
 	dw QuagsireAnimation
 	dw EspeonAnimation

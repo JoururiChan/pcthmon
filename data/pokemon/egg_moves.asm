@@ -566,23 +566,39 @@ CMokouEggMoves:
 	db TAILWIND
 	db $ff
 
-HoppipEggMoves:
+CAyaEggMoves:
 	db ENCORE
-	db SEED_BOMB
+	db SLASH
+	db BLAZE_STAR
+	db AURA_SPHERE
+	db RECOVER
 	db $ff
 
-AipomEggMoves:
-	db COUNTER
-	db PURSUIT
+CMedicineEggMoves:
+	db VINE_WHIP
+	db WRAP
+	db STUN_SPORE
+	db POISON_GAS
+	db SUPERSONIC
+	db NIGHT_SHADE
 	db $ff
 
-SunkernEggMoves:
+CKomachiEggMoves:
+	db NIGHT_SHADE
+	db RAGE
+	db NIGHT_SLASH
+	db AIR_SLASH
+	db CROSS_JAM
+	db EXTREMESPEED
 	db $ff
 
-YanmaEggMoves:
-	db FEINT_ATTACK
-	db LEECH_LIFE
-	db REVERSAL
+CEikiEggMoves:
+	db POWER_GEM
+	db HEAL_BELL
+	db CURSE
+	db WILL_O_WISP
+	db SKETCH
+	db RECOLLECT
 	db $ff
 
 WooperEggMoves:

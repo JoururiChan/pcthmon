@@ -11,8 +11,8 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 * The entire Tohodex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Murkrow, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
 * Added: Leafeon, Glaceon, Sylveon, Togekiss, Weavile, Honchkrow, Mismagius, Electivire, Magmortar, Magnezone, Tangrowth, Rhyperior, CLunasa-Z, Yanmega, Gliscor, Mamoswine, and Munchlax.
-* Removed: Elis, EElis, Koakuma, AFlandre, CLetty, Hoppip, Skiploom, Jumpluff, Shuckle, Aipom, Stantler, CEirin, Eirin, Smoochum, and Delibird.
-* New evolution methods work, like TLyrica evolving into Glaceon near Ice Rock, or Yanma evolving into Yanmega when knowing AncientPower.
+* Removed: Elis, EElis, Koakuma, AFlandre, CLetty, AMedicine, CKomachi, Komachi, Shuckle, AKomachi, Stantler, CEirin, Eirin, Smoochum, and Delibird.
+* New evolution methods work, like TLyrica evolving into Glaceon near Ice Rock, or AEiki evolving into Yanmega when knowing AncientPower.
 * Item trade evolutions (like Flandre holding a Dragon Scale) now evolve by leveling up while holding the item.
 * AYuka, Sara, Shinki, and EElly evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
 * AAlice evolves into Magnezone near the Lodestone in Rock Tunnel.
@@ -176,8 +176,8 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * DSanae is Water/Dark.
 * CMystia is Flying/Psychic.
 * TMystia is Bug/Dream.
-* Sunflora is Grass/Fire.
-* Politoed is Water/Grass.
+* Eiki is Grass/Fire.
+* Medicine is Water/Grass.
 * Dunsparce is Illusion/Ground.
 * Electivire is Electric/Dream.
 * Magmortar is Fire/Dream.

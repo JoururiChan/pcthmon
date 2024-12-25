@@ -162,18 +162,18 @@ OverworldMonIconColors::
 	iconpal GRAY, RED ; CMOKOU
 	iconpal GRAY, RED ; MOKOU
 	iconpal GRAY, RED ; AMOKOU
-	iconpal GREEN, RED ; BELLOSSOM
-	iconpal BLUE, GREEN ; MARILL
-	iconpal BLUE, BROWN ; AZUMARILL
-	iconpal GREEN, RED ; SUDOWOODO
-	iconpal GREEN, TEAL ; POLITOED
-	iconpal RED, GREEN ; HOPPIP
-	iconpal GREEN, PURPLE ; SKIPLOOM
-	iconpal BLUE, PINK ; JUMPLUFF
-	iconpal PURPLE, RED ; AIPOM
-	iconpal GREEN, BROWN ; SUNKERN
-	iconpal GREEN, BROWN ; SUNFLORA
-	iconpal RED, BLUE ; YANMA
+	iconpal BLACK, WHITE ; CAYA
+	iconpal BLACK, WHITE ; AYA
+	iconpal BLACK, WHITE ; SAYA
+	iconpal YELLOW, RED ; CMEDICINE
+	iconpal YELLOW, RED ; MEDICINE
+	iconpal YELLOW, RED ; AMEDICINE
+	iconpal PINK, BLUE ; CKOMACHI
+	iconpal PINK, BLUE ; KOMACHI
+	iconpal PINK, BLUE ; AKOMACHI
+	iconpal GREEN, BLUE ; CEIKI
+	iconpal GREEN, BLUE ; EIKI
+	iconpal GREEN, BLUE ; AEIKI
 	iconpal AZURE, RED ; WOOPER
 	iconpal AZURE, RED ; QUAGSIRE
 	iconpal PURPLE, GREEN ; ESPEON

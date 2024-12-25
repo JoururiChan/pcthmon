@@ -178,7 +178,7 @@ PokemonCries::
 	mon_cry CRY_CREISEN,   $3c9,  $140 ; CTei
 	mon_cry CRY_CREISEN,   $2d0,  $110 ; Tei
 	mon_cry CRY_TTEI,       $000,  $140 ; TTei
-	mon_cry CRY_BELLOSSOM,   $061,  $091 ; CEirin
+	mon_cry CRY_CAYA,   $061,  $091 ; CEirin
 	mon_cry CRY_CYOUMU,   $0e8,  $0e8 ; Eirin
 	mon_cry CRY_TEIRIN,      $010,  $100 ; TEirin
 	mon_cry CRY_CKAGUYA,     $03b,  $038 ; CKaguya
@@ -187,23 +187,23 @@ PokemonCries::
 	mon_cry CRY_CMOKOU,      $022,  $0d8 ; CMokou
 	mon_cry CRY_CMOKOU,     -$007,  $180 ; Mokou
 	mon_cry CRY_AMOKOU,   -$07c,  $0e8 ; AMokou
-	mon_cry CRY_BELLOSSOM,   $084,  $150 ; Bellossom
-	mon_cry CRY_MARILL,      $11b,  $120 ; Marill
-	mon_cry CRY_MARILL,      $0b6,  $180 ; Azumarill
-	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; Sudowoodo
-	mon_cry CRY_BELLOSSOM,  -$2a3,  $1c8 ; Politoed
-	mon_cry CRY_BELLOSSOM,   $03b,  $0c8 ; Hoppip
-	mon_cry CRY_BELLOSSOM,   $027,  $138 ; Skiploom
-	mon_cry CRY_BELLOSSOM,   $000,  $180 ; Jumpluff
-	mon_cry CRY_TYROGUE,    -$051,  $0e8 ; Aipom
-	mon_cry CRY_MARILL,      $12b,  $0b8 ; Sunkern
-	mon_cry CRY_REMORAID,   -$020,  $180 ; Sunflora
-	mon_cry CRY_CSANAE,    $031,  $0c8 ; Yanma
+	mon_cry CRY_CAYA,   $084,  $150 ; CAya
+	mon_cry CRY_AYA,      $11b,  $120 ; Aya
+	mon_cry CRY_AYA,      $0b6,  $180 ; SAya
+	mon_cry CRY_CAYA,   $f40,  $180 ; CMedicine
+	mon_cry CRY_CAYA,  -$2a3,  $1c8 ; Medicine
+	mon_cry CRY_CAYA,   $03b,  $0c8 ; AMedicine
+	mon_cry CRY_CAYA,   $027,  $138 ; CKomachi
+	mon_cry CRY_CAYA,   $000,  $180 ; Komachi
+	mon_cry CRY_TYROGUE,    -$051,  $0e8 ; AKomachi
+	mon_cry CRY_AYA,      $12b,  $0b8 ; CEiki
+	mon_cry CRY_REMORAID,   -$020,  $180 ; Eiki
+	mon_cry CRY_CSANAE,    $031,  $0c8 ; AEiki
 	mon_cry CRY_WOOPER,      $093,  $0af ; Wooper
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Quagsire
 	mon_cry CRY_TYROGUE,     $0a2,  $140 ; Espeon
 	mon_cry CRY_RIKAKO,    -$0e9,  $0f0 ; Umbreon
-	mon_cry CRY_MARILL,     -$01f,  $180 ; Murkrow
+	mon_cry CRY_AYA,     -$01f,  $180 ; Murkrow
 	mon_cry CRY_SLOWKING,    $104,  $200 ; Slowking
 	mon_cry CRY_SWRIGGLE,    $130,  $0e8 ; Misdreavus
 	mon_cry CRY_SWRIGGLE,    $162,  $100 ; Unown
@@ -243,7 +243,7 @@ PokemonCries::
 	mon_cry CRY_TTEI,      -$21a,  $1f0 ; Smeargle
 	mon_cry CRY_TYROGUE,     $02c,  $108 ; Tyrogue
 	mon_cry CRY_SLUGMA,      $000,  $100 ; Hitmontop
-	mon_cry CRY_MARILL,      $068,  $100 ; Smoochum
+	mon_cry CRY_AYA,      $068,  $100 ; Smoochum
 	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; Elekid
 	mon_cry CRY_TEDDIURSA,   $176,  $03a ; Magby
 	mon_cry CRY_GLIGAR,     -$1cd,  $1a0 ; Miltank
@@ -257,14 +257,14 @@ PokemonCries::
 	mon_cry CRY_TREISEN,  $000,  $100 ; Lugia
 	mon_cry CRY_TYROGUE,     $000,  $180 ; HoOh
 	mon_cry CRY_ENTEI,       $14a,  $111 ; Celebi
-	mon_cry CRY_MARILL,      $11b,  $120 ; Azurill
+	mon_cry CRY_AYA,      $11b,  $120 ; Azurill
 	mon_cry CRY_AMOKOU,    $27b,  $144 ; Wynaut
 	mon_cry CRY_TYROGUE,    -$051,  $0e8 ; Ambipom
 	mon_cry CRY_CRIKA,      0,     0 ; Egg
 	mon_cry CRY_CRIKA,      0,     0 ; $100
 	mon_cry CRY_SWRIGGLE,    $130,  $0e8 ; Mismagius
-	mon_cry CRY_MARILL,     -$01f,  $180 ; Honchkrow
-	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; Bonsly
+	mon_cry CRY_AYA,     -$01f,  $180 ; Honchkrow
+	mon_cry CRY_CAYA,   $f40,  $180 ; Bonsly
 	mon_cry CRY_CDAICHAN,      $008,  $0c0 ; Mime Jr.
 	mon_cry CRY_CMIMA,   $00a,  $140 ; Happiny
 	mon_cry CRY_EYUKI,      $055,  $081 ; Munchlax

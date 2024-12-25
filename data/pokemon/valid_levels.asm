@@ -159,18 +159,18 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  39 ; CMokou
 	db  40, 100 ; Mokou
 	db  40, 100 ; AMokou
-	db  32, 100 ; Bellossom
-	db   1,  17 ; Marill
-	db  18, 100 ; Azumarill
-	db  10, 100 ; Sudowoodo
-	db  36, 100 ; Politoed
-	db   1,  17 ; Hoppip
-	db  18,  26 ; Skiploom
-	db  27, 100 ; Jumpluff
-	db   1, 100 ; Aipom
-	db   1,  31 ; Sunkern
-	db  32, 100 ; Sunflora
-	db   1,  39 ; Yanma
+	db  1, 33 ; CAya
+	db   34, 100 ; Aya
+	db  34, 100 ; SAya
+	db  1, 29 ; CMedicine
+	db  30, 100 ; Medicine
+	db   30, 100 ; AMedicine
+	db  1,  35 ; CKomachi
+	db  36, 100 ; Komachi
+	db  36, 100 ; AKomachi
+	db   1,  39 ; CEiki
+	db  40, 100 ; Eiki
+	db   40, 100 ; AEiki
 	db   1,  19 ; Wooper
 	db  20, 100 ; Quagsire
 	db  20, 100 ; Espeon

@@ -162,18 +162,18 @@ MiniIconPointers:
 	mini_icon CMokou
 	mini_icon Mokou
 	mini_icon AMokou
-	mini_icon Bellossom
-	mini_icon Marill
-	mini_icon Azumarill
-	mini_icon Sudowoodo
-	mini_icon Politoed
-	mini_icon Hoppip
-	mini_icon Skiploom
-	mini_icon Jumpluff
-	mini_icon Aipom
-	mini_icon Sunkern
-	mini_icon Sunflora
-	mini_icon Yanma
+	mini_icon CAya
+	mini_icon Aya
+	mini_icon SAya
+	mini_icon CMedicine
+	mini_icon Medicine
+	mini_icon AMedicine
+	mini_icon CKomachi
+	mini_icon Komachi
+	mini_icon AKomachi
+	mini_icon CEiki
+	mini_icon Eiki
+	mini_icon AEiki
 	mini_icon Wooper
 	mini_icon Quagsire
 	mini_icon Espeon

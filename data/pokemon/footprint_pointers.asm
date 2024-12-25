@@ -158,18 +158,18 @@ FootprintPointers::
 	dw CMokouFootprint
 	dw MokouFootprint
 	dw AMokouFootprint
-	dw BellossomFootprint
-	dw MarillFootprint
-	dw AzumarillFootprint
-	dw SudowoodoFootprint
-	dw PolitoedFootprint
-	dw HoppipFootprint
-	dw SkiploomFootprint
-	dw JumpluffFootprint
-	dw AipomFootprint
-	dw SunkernFootprint
-	dw SunfloraFootprint
-	dw YanmaFootprint
+	dw CAyaFootprint
+	dw AyaFootprint
+	dw SAyaFootprint
+	dw CMedicineFootprint
+	dw MedicineFootprint
+	dw AMedicineFootprint
+	dw CKomachiFootprint
+	dw KomachiFootprint
+	dw AKomachiFootprint
+	dw CEikiFootprint
+	dw EikiFootprint
+	dw AEikiFootprint
 	dw WooperFootprint
 	dw QuagsireFootprint
 	dw EspeonFootprint

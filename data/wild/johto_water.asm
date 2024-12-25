@@ -59,21 +59,21 @@
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 4 percent ; encounter rate
 	wildmon 20, CCIRNO
-	wildmon 20, MARILL
+	wildmon 20, AYA
 	wildmon 20, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_2F_INSIDE
 	db 2 percent ; encounter rate
 	wildmon 20, CCIRNO
-	wildmon 25, MARILL
+	wildmon 25, AYA
 	wildmon 25, CLETTY
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_B1F
 	db 2 percent ; encounter rate
 	wildmon 15, CCIRNO
-	wildmon 20, MARILL
+	wildmon 20, AYA
 	wildmon 20, CLETTY
 	end_water_wildmons
 
@@ -352,7 +352,7 @@
 
 	def_water_wildmons YELLOW_FOREST
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 4, MARILL
+	wildmon LEVEL_FROM_BADGES - 4, AYA
 	wildmon LEVEL_FROM_BADGES - 4, KIKURI
 	wildmon LEVEL_FROM_BADGES - 4, YUMEMI
 	end_water_wildmons

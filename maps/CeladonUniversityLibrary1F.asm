@@ -132,7 +132,7 @@ CeladonUniversityLibrary1FBookText:
 	text "It's a book about"
 	line "flower arranging."
 
-	para "A Sunflora is on"
+	para "A Eiki is on"
 	line "the cover."
 	done
 

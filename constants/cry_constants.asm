@@ -42,7 +42,7 @@
 	const CRY_EMUGETSU
 
 ; gen 2
-	const CRY_MARILL
+	const CRY_AYA
 	const CRY_CKEINE
 	const CRY_TEIRIN
 	const CRY_GIRAFARIG
@@ -56,7 +56,7 @@
 	const CRY_CYOUMU
 	const CRY_CSANAE
 	const CRY_GLIGAR
-	const CRY_BELLOSSOM
+	const CRY_CAYA
 	const CRY_SLUGMA
 	const CRY_MYSTIA
 	const CRY_ENTEI

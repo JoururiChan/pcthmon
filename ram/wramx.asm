@@ -1269,8 +1269,8 @@ wDailyRematchFlags:: ds 4
 wDailyPhoneItemFlags:: ds 4
 wDailyPhoneTimeOfDayFlags:: ds 4
 wKenjiBreakTimer:: dw ; Kenji
-wYanmaMapGroup:: db
-wYanmaMapNumber:: db
+wAEikiMapGroup:: db
+wAEikiMapNumber:: db
 
 wVermilionGymTrashCan1:: db
 wVermilionGymTrashCan2:: db

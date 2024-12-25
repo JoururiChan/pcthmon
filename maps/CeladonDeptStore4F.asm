@@ -28,23 +28,23 @@ PosterClerkScript:
 	loadmenu .MenuData
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .MarillPoster
+	ifequalfwd $1, .AyaPoster
 	ifequalfwd $2, .CMeiraPoster
 	ifequalfwd $3, .EKikuriPoster
 	endtext
 
-.MarillPoster:
+.AyaPoster:
 	checkmoney $0, 3200
 	ifequalfwd $2, .NotEnoughMoney
 	checkevent EVENT_DECO_POSTER_3
 	iftruefwd .AlreadyBought
 	takemoney $0, 3200
 	setevent EVENT_DECO_POSTER_3
-	writetext BoughtMarillPosterText
+	writetext BoughtAyaPosterText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext MarillPosterSentText
+	writetext AyaPosterSentText
 	waitbutton
 	sjump .Start
 
@@ -97,7 +97,7 @@ PosterClerkScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Marill      ¥3200@"
+	db "Aya      ¥3200@"
 	db "CMeira    ¥4800@"
 	db "EKikuri     ¥6400@"
 	db "Cancel@"
@@ -117,13 +117,13 @@ PosterClerkAlreadyBoughtText:
 	line "already."
 	done
 
-BoughtMarillPosterText:
+BoughtAyaPosterText:
 	text "<PLAYER> bought"
-	line "Marill Poster."
+	line "Aya Poster."
 	done
 
-MarillPosterSentText:
-	text "Marill Poster"
+AyaPosterSentText:
+	text "Aya Poster"
 	line "was sent home."
 	done
 

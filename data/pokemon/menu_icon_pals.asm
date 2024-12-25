@@ -162,12 +162,18 @@ MenuMonIconColors::
 	iconpal GRAY, RED ; CMOKOU
 	iconpal GRAY, RED ; MOKOU
 	iconpal GRAY, RED ; AMOKOU
-	iconpal GREEN, RED ; BELLOSSOM
-	iconpal GREEN, RED ; SUDOWOODO
-	iconpal GREEN, TEAL ; POLITOED
-	iconpal GREEN, BROWN ; SUNKERN
-	iconpal GREEN, BROWN ; SUNFLORA
-	iconpal RED, BLUE ; YANMA
+	iconpal BLACK, WHITE ; CAYA
+	iconpal BLACK, WHITE ; AYA
+	iconpal BLACK, WHITE ; SAYA
+	iconpal YELLOW, RED ; CMEDICINE
+	iconpal YELLOW, RED ; MEDICINE
+	iconpal YELLOW, RED ; AMEDICINE
+	iconpal PINK, BLUE ; CKOMACHI
+	iconpal PINK, BLUE ; KOMACHI
+	iconpal PINK, BLUE ; AKOMACHI
+	iconpal GREEN, BLUE ; CEIKI
+	iconpal GREEN, BLUE ; EIKI
+	iconpal GREEN, BLUE ; AEIKI
 	iconpal RED, BLUE ; YANMEGA
 	iconpal BLUE, RED ; WOOPER
 	iconpal BLUE, RED ; QUAGSIRE

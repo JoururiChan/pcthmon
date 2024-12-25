@@ -77,18 +77,18 @@ AzaleaGymBugsyScript:
 		line "you to have this."
 		done
 	promptbutton
-	verbosegivetmhm TM_CHARGE_OUT
-	setevent EVENT_GOT_TM69_CHARGE_OUT
+	verbosegivetmhm TM_ENERGY_LIGHT
+	setevent EVENT_GOT_TM49_ENERGY_LIGHT
 	jumpthisopenedtext
 
-	text "TM69 contains"
-	line "Charge Out."
+	text "TM49 contains"
+	line "Energy Light."
 
-	para "It lets your #-"
-	line "mon attack, then"
+	para "It is a basic"
+	line "attack yet it's"
 
-	para "switch out right"
-	line "away."
+	para "powerful and"
+	line "full of nature."
 
 	para "Isn't that great?"
 	line "I discovered it!"

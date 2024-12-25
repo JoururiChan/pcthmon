@@ -20,7 +20,7 @@ NoisyForest_MapScriptHeader:
 
 	def_object_events
 	object_event 19, 36, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TOLD_ABOUT_PIKABLU
-	object_event 24, 31, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, MARILL, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, NoisyForestPikabluScript, EVENT_NOISY_FOREST_PIKABLU
+	object_event 24, 31, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, AYA, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, NoisyForestPikabluScript, EVENT_NOISY_FOREST_PIKABLU
 	object_event 20, 19, SPRITE_KATY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, KatyScript, -1
 	object_event 10, 15, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerBird_keeperTrent, -1
 	object_event 20,  4, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBug_maniacPierre, -1
@@ -38,7 +38,7 @@ NoisyForest_MapScriptHeader:
 
 	object_const_def
 	const NOISYFOREST_YOUNGSTER
-	const NOISYFOREST_MARILL
+	const NOISYFOREST_AYA
 	const NOISYFOREST_KATY
 
 GenericTrainerBug_maniacPierre:
@@ -176,12 +176,12 @@ NoisyForestChildText:
 	done
 
 NoisyForestPikabluScript:
-	showcrytext .PikabluText, MARILL
+	showcrytext .PikabluText, AYA
 	appear NOISYFOREST_YOUNGSTER
 	applymovement NOISYFOREST_YOUNGSTER, .WalkToYou
 	turnobject PLAYER, DOWN
 	showtext .OwnerText1
-	disappear NOISYFOREST_MARILL
+	disappear NOISYFOREST_AYA
 	opentext
 	writetext .OwnerText2
 	promptbutton
@@ -202,7 +202,7 @@ NoisyForestPikabluScript:
 	sjump .Leave
 
 .PikabluText:
-	text "Marill: Rill!"
+	text "Aya: Rill!"
 	done
 
 .OwnerText1:

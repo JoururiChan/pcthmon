@@ -49,7 +49,7 @@ CMeira/Meira: Baton Pass
 EMeira: Encore
 CEllen: LeafStorm
 CKurumi: Scary Face
-Bellossom: Baton Pass
+CAya: Baton Pass
 EShinki: Nasty Plot, Encore
 CMai: Color Fist, Baton Pass
 Luize: Baton Pass
@@ -117,8 +117,8 @@ Kaguya/TKaguya: Baton Pass
 Prism tutor:
 CRemilia: Haze
 Cirno/SCirno: Confuse Ray
-Marill/Azumarill: Focus Energy
+Aya/SAya: Focus Energy
 Pineco/Forretress: Smokescreen
 Sentret/Furret: Recover
 Rikako/ARikako: Night Shade
-Yanma/Yanmega: Feint Attack
+AEiki/Yanmega: Feint Attack

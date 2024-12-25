@@ -162,18 +162,18 @@ EvosAttacksPointers::
 	dw CMokouEvosAttacks
 	dw MokouEvosAttacks
 	dw AMokouEvosAttacks
-	dw BellossomEvosAttacks
-	dw MarillEvosAttacks
-	dw AzumarillEvosAttacks
-	dw SudowoodoEvosAttacks
-	dw PolitoedEvosAttacks
-	dw HoppipEvosAttacks
-	dw SkiploomEvosAttacks
-	dw JumpluffEvosAttacks
-	dw AipomEvosAttacks
-	dw SunkernEvosAttacks
-	dw SunfloraEvosAttacks
-	dw YanmaEvosAttacks
+	dw CAyaEvosAttacks
+	dw AyaEvosAttacks
+	dw SAyaEvosAttacks
+	dw CMedicineEvosAttacks
+	dw MedicineEvosAttacks
+	dw AMedicineEvosAttacks
+	dw CKomachiEvosAttacks
+	dw KomachiEvosAttacks
+	dw AKomachiEvosAttacks
+	dw CEikiEvosAttacks
+	dw EikiEvosAttacks
+	dw AEikiEvosAttacks
 	dw WooperEvosAttacks
 	dw QuagsireEvosAttacks
 	dw EspeonEvosAttacks

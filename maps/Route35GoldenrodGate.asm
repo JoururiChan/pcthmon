@@ -76,12 +76,12 @@ GiftElisOTName:
 Route35GoldenrodGatePokefanFScript:
 	faceplayer
 	opentext
-	checkevent EVENT_FOUGHT_SUDOWOODO
+	checkevent EVENT_FOUGHT_CMEDICINE
 	iftruefwd .aftersudowoodo
 	jumpopenedtext Route35GoldenrodGatePokefanFText
 
 .aftersudowoodo
-	jumpopenedtext Route35GoldenrodGatePokefanFText_FoughtSudowoodo
+	jumpopenedtext Route35GoldenrodGatePokefanFText_FoughtCMedicine
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
 	text "Excuse me, kid!"
@@ -164,7 +164,7 @@ Route35GoldenrodGatePokefanFText:
 	line "SquirtBottle."
 	done
 
-Route35GoldenrodGatePokefanFText_FoughtSudowoodo:
+Route35GoldenrodGatePokefanFText_FoughtCMedicine:
 	text "I like the #mon"
 	line "Lullaby they play"
 	cont "on the radio."

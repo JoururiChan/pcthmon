@@ -12,7 +12,7 @@ national park:
 Soothe Bell	North of the entrance to Route 36, on the other side of the fence
 
 route 36:
-Hyper Potion	Northwest of Sudowoodo, south of the small grove
+Hyper Potion	Northwest of CMedicine, south of the small grove
 
 route 38:
 Max Potion	In the grass along the southern path

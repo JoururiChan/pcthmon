@@ -849,7 +849,7 @@ Text_ItsTheMissingPokemon:
 	done
 
 Text_Kwaaaa:
-	text "CTsukasa: Kwaa!"
+	text "CTsukasa: Sneak!"
 	done
 
 Text_CharcoalMasterIntro:
