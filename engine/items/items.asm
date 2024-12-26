@@ -122,7 +122,7 @@ GetPocketCapacity:
 	ret z
 
 .not_items:
-	ld c, MAX_MEDICINE
+	ld c, MAX_MEDICINE_B
 	ld a, e
 	cp LOW(wNumMedicine)
 	jr nz, .not_medicine

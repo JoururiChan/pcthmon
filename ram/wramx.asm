@@ -999,7 +999,7 @@ wItems:: ds MAX_ITEMS * 2 + 1
 wItemsEnd::
 
 wNumMedicine:: db
-wMedicine:: ds MAX_MEDICINE * 2 + 1
+wMedicine:: ds MAX_MEDICINE_B * 2 + 1
 wMedicineEnd::
 
 wNumBalls:: db
