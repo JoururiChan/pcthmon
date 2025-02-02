@@ -255,7 +255,7 @@ endr
 	loadmem wPartyMon6Exp+2, LOW(207967)
 	loadmem wPartyMon6Exp+1, HIGH(207967)
 	loadmem wPartyMon6Exp+0, 207967 >> 16
-	; fill pokedex
+	; fill tohodex
 	callasm FillTohodex
 ;	; new bark events
 	addcellnum PHONE_MOM
