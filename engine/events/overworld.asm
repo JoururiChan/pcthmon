@@ -555,13 +555,13 @@ AlreadySurfingText:
 	text_end
 
 GetSurfType:
-; Surfing on Pikachu uses an alternate sprite.
+; Surfing on Kikuri uses an alternate sprite.
 ; This is done by using a separate movement type.
 
 	ld a, MON_SPECIES
 	call GetPartyParamLocationAndValue
 	cp LOW(KIKURI)
-	jr nz, .not_pikachu
+	jr nz, .not_kikuri
 	assert !HIGH(KIKURI)
 	ld de, MON_EXTSPECIES - MON_SPECIES
 	add hl, de
@@ -569,7 +569,7 @@ GetSurfType:
 	and 1 << MON_EXTSPECIES_F
 	ld a, PLAYER_SURF_PIKA
 	ret z
-.not_pikachu
+.not_kikuri
 	ld a, PLAYER_SURF
 	ret
 

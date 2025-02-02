@@ -1006,7 +1006,7 @@ BerserkGeneDesc:
 	done
 
 LightBallDesc:
-	text "Boost Pikachu's"
+	text "Boost Kikuri's"
 	next "Attack and Sp.Atk."
 	done
 
