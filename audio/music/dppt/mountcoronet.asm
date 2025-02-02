@@ -1,4 +1,4 @@
-; Tohomon D/P/Pt - Mount Coronet
+; Pokémon D/P/Pt - Mount Coronet
 ; Demixed by Mmmmmm
 ; https://pastebin.com/NeuV0aPD
 ; https://hax.iimarckus.org/topic/6777/

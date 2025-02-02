@@ -27,7 +27,7 @@ Route15_MapScriptHeader:
 	object_event 43,  6, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_CUTTABLE_TREE, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_14_CUT_TREE_3
 
 GenericTrainerTeacherColette:
-	generictrainer TEACHER_F, COLETTE, EVENT_BEAT_TEACHER_COLETTE, TeacherColetteSeenText, TeacherColetteBeatenText
+	generictrainer TEACHER, COLETTE, EVENT_BEAT_TEACHER_COLETTE, TeacherColetteSeenText, TeacherColetteBeatenText
 
 	text "Before I became a"
 	line "teacher, I used to"
@@ -37,7 +37,7 @@ GenericTrainerTeacherColette:
 	done
 
 GenericTrainerTeacherHillary:
-	generictrainer TEACHER_F, HILLARY, EVENT_BEAT_TEACHER_HILLARY, TeacherHillarySeenText, TeacherHillaryBeatenText
+	generictrainer TEACHER, HILLARY, EVENT_BEAT_TEACHER_HILLARY, TeacherHillarySeenText, TeacherHillaryBeatenText
 
 	text "Studying is impor-"
 	line "tant, but exercise"
@@ -71,7 +71,7 @@ GenericTrainerSchoolboyBilly:
 	done
 
 GenericTrainerSchoolgirlFaith:
-	generictrainer SCHOOLGIRL, FAITH_T, EVENT_BEAT_SCHOOLGIRL_FAITH_T, SchoolgirlFaithSeenText, SchoolgirlFaithBeatenText
+	generictrainer SCHOOLGIRL, FAITH, EVENT_BEAT_SCHOOLGIRL_FAITH, SchoolgirlFaithSeenText, SchoolgirlFaithBeatenText
 
 	text "I'm tired of walk-"
 	line "ing. I need to"
@@ -153,7 +153,7 @@ SchoolboyTommySeenText:
 
 SchoolboyTommyBeatenText:
 	text "I forgot to do my"
-	line "hotsuikaork!"
+	line "homework!"
 	done
 
 SchoolgirlFaithSeenText:

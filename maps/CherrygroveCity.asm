@@ -28,7 +28,7 @@ CherrygroveCity_MapScriptHeader:
 	object_event 25, 13, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygroveTeacherText_HaveMapCard, -1
 	object_event 23,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CherrygroveYoungsterScript, -1
 	object_event  7, 12, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MysticWaterGuy, -1
-	pokemon_event 26, 13, CMUGETSU, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, CherrygroveCMugetsuText, -1
+	pokemon_event 26, 13, PIDGEY, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, CherrygrovePidgeyText, -1
 
 	object_const_def
 	const CHERRYGROVECITY_GRAMPS
@@ -72,7 +72,7 @@ CherrygroveCityGuideGent:
 	setflag ENGINE_MAP_CARD
 	writetext GotMapCardText
 	promptbutton
-	writetext GuideGentTohogearText
+	writetext GuideGentPokegearText
 	waitbutton
 	closetext
 	stopfollow
@@ -101,10 +101,10 @@ CherrygroveRivalTriggerNorth:
 	turnobject PLAYER, RIGHT
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext CherrygroveRivalText_Seen
-	checkevent EVENT_GOT_CREISEN_FROM_ELM
-	iftruefwd .CReisen
-	checkevent EVENT_GOT_CSANAE_FROM_ELM
-	iftruefwd .CSanae
+	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	iftruefwd .Totodile
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	iftruefwd .Chikorita
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
 	loadtrainer RIVAL0, 3
@@ -114,7 +114,7 @@ CherrygroveRivalTriggerNorth:
 	reloadmap
 	sjumpfwd .FinishRival
 
-.CReisen:
+.Totodile:
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
 	loadtrainer RIVAL0, 1
@@ -125,7 +125,7 @@ CherrygroveRivalTriggerNorth:
 	reloadmap
 	sjumpfwd .FinishRival
 
-.CSanae:
+.Chikorita:
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
 	loadtrainer RIVAL0, 2
@@ -154,8 +154,8 @@ CherrygroveRivalTriggerNorth:
 	end
 
 CherrygroveYoungsterScript:
-	checkflag ENGINE_TOHODEX
-	iftrue_jumptextfaceplayer CherrygroveYoungsterText_HaveTohodex
+	checkflag ENGINE_POKEDEX
+	iftrue_jumptextfaceplayer CherrygroveYoungsterText_HavePokedex
 	jumpthistextfaceplayer
 
 	text "Mr.#mon's house"
@@ -358,7 +358,7 @@ GotMapCardText:
 	line "now has a Map!"
 	done
 
-GuideGentTohogearText:
+GuideGentPokegearText:
 	text "#gear becomes"
 	line "more useful as you"
 	cont "add Cards."
@@ -427,7 +427,7 @@ CherrygroveTeacherText_HaveMapCard:
 	cont "anywhere is fun."
 	done
 
-CherrygroveYoungsterText_HaveTohodex:
+CherrygroveYoungsterText_HavePokedex:
 	text "I battled the"
 	line "trainers on the"
 	cont "road."
@@ -450,9 +450,8 @@ MysticWaterGuyTextBefore:
 	line "so do you want it?"
 	done
 
-CherrygroveCMugetsuText:
-	text "CMugetsu: It"
-	line "is a dream!"
+CherrygrovePidgeyText:
+	text "Pidgey: Pijji!"
 	done
 
 CherrygroveCitySignText:

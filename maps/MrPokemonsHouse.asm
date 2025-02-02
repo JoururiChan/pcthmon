@@ -21,12 +21,12 @@ MrPokemonsHouse_MapScriptHeader:
 	def_object_events
 	object_event  3,  5, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MrPokemonsHouse_MrPokemonScript, -1
 	object_event  6,  5, SPRITE_OAK, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MR_POKEMONS_HOUSE_OAK
-	object_event  4,  4, SPRITE_BOOK_PAPER_TOHODEX, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOT_TOHODEX_FROM_OAK
+	object_event  4,  4, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOT_POKEDEX_FROM_OAK
 
 	object_const_def
 	const MRPOKEMONSHOUSE_GENTLEMAN
 	const MRPOKEMONSHOUSE_OAK
-	const MRPOKEMONSHOUSE_TOHODEX
+	const MRPOKEMONSHOUSE_POKEDEX
 
 MrPokemonsHouseTrigger0:
 	sdefer .MrPokemonEvent
@@ -73,9 +73,9 @@ MrPokemonsHouse_MrPokemonScript:
 	writetext MrPokemonText_GimmeTheScale
 	yesorno
 	iffalse_jumpopenedtext MrPokemonText_Disappointed
-	special SpecialGiveShinyLyrica
+	special SpecialGiveShinyDitto
 	iffalse_jumpopenedtext MrPokemonText_PartyAndBoxFull
-	writetext MrPokemonText_GotShinyLyrica
+	writetext MrPokemonText_GotShinyDitto
 	playsound SFX_KEY_ITEM
 	waitsfx
 	ifequalfwd 1, .in_party
@@ -98,8 +98,8 @@ MrPokemonsHouse_OakScript:
 	showtext MrPokemonsHouse_OakText1
 	turnobject MRPOKEMONSHOUSE_OAK, UP
 	pause 10
-	applymovement MRPOKEMONSHOUSE_TOHODEX, MrPokemonsHouse_OakTakesTohodex
-	disappear MRPOKEMONSHOUSE_TOHODEX
+	applymovement MRPOKEMONSHOUSE_POKEDEX, MrPokemonsHouse_OakTakesPokedex
+	disappear MRPOKEMONSHOUSE_POKEDEX
 	pause 10
 	turnobject MRPOKEMONSHOUSE_OAK, LEFT
 	pause 10
@@ -107,7 +107,7 @@ MrPokemonsHouse_OakScript:
 	writetext MrPokemonsHouse_GetDexText
 	playsound SFX_ITEM
 	waitsfx
-	setflag ENGINE_TOHODEX
+	setflag ENGINE_POKEDEX
 	writetext MrPokemonsHouse_OakText2
 	waitbutton
 	closetext
@@ -136,19 +136,19 @@ MrPokemonsHouse_OakScript:
 	setmapscene ELMS_LAB, $3
 	specialphonecall SPECIALCALL_ROBBED
 	clearevent EVENT_COP_IN_ELMS_LAB
-	checkevent EVENT_GOT_CREISEN_FROM_ELM
-	iftruefwd .RivalTakesCSanae
-	checkevent EVENT_GOT_CSANAE_FROM_ELM
-	iftruefwd .RivalTakesCAlice
-	setevent EVENT_CREISEN_POKEBALL_IN_ELMS_LAB
+	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	iftruefwd .RivalTakesChikorita
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	iftruefwd .RivalTakesCyndaquil
+	setevent EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
 	end
 
-.RivalTakesCSanae:
-	setevent EVENT_CSANAE_POKEBALL_IN_ELMS_LAB
+.RivalTakesChikorita:
+	setevent EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
 	end
 
-.RivalTakesCAlice:
-	setevent EVENT_CALICE_POKEBALL_IN_ELMS_LAB
+.RivalTakesCyndaquil:
+	setevent EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
 	end
 
 MrPokemonsHouse_CabinetScript:
@@ -174,7 +174,7 @@ MrPokemonsHouse_OakWalksToPlayer:
 	step_left
 	step_end
 
-MrPokemonsHouse_OakTakesTohodex:
+MrPokemonsHouse_OakTakesPokedex:
 	fix_facing
 	slide_step_down
 	remove_fixed_facing
@@ -366,11 +366,11 @@ endc
 MrPokemonText_GimmeTheScale:
 	text "Hm? That Scale!"
 	line "What's that?"
-	cont "A red SLilyBlack?"
+	cont "A red Gyarados?"
 
 	para "It must have kept"
 	line "its coloration as"
-	cont "a LilyBlack!"
+	cont "a Magikarp!"
 
 	para "That could be"
 	line "one of a kind!"
@@ -383,7 +383,7 @@ MrPokemonText_GimmeTheScale:
 	line "a rare #mon."
 	done
 
-MrPokemonText_GotShinyLyrica:
+MrPokemonText_GotShinyDitto:
 	text "<PLAYER> received a"
 	line "#mon."
 	done

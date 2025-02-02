@@ -11,7 +11,7 @@ AzaleaTown_MapScriptHeader:
 	warp_event 21,  5, AZALEA_MART, 2
 	warp_event  9,  5, KURTS_HOUSE, 1
 	warp_event 10, 15, AZALEA_GYM, 1
-	warp_event 31,  7, WAKASAGIHIME_WELL_ENTRANCE, 1
+	warp_event 31,  7, SLOWPOKE_WELL_ENTRANCE, 1
 	warp_event  2, 10, ILEX_FOREST_AZALEA_GATE, 3
 	warp_event  2, 11, ILEX_FOREST_AZALEA_GATE, 4
 
@@ -24,7 +24,7 @@ AzaleaTown_MapScriptHeader:
 	bg_event 19,  9, BGEVENT_JUMPTEXT, AzaleaTownSignText
 	bg_event 10,  9, BGEVENT_JUMPTEXT, KurtsHouseSignText
 	bg_event 14, 15, BGEVENT_JUMPTEXT, AzaleaGymSignText
-	bg_event 29,  8, BGEVENT_JUMPTEXT, WakasagihimeWellSignText
+	bg_event 29,  8, BGEVENT_JUMPTEXT, SlowpokeWellSignText
 	bg_event 19, 13, BGEVENT_JUMPTEXT, CharcoalKilnSignText
 	bg_event  3,  9, BGEVENT_JUMPTEXT, AzaleaTownIlexForestSignText
 	bg_event 29, 14, BGEVENT_JUMPTEXT, AzaleaTownAdvancedTipsSignText
@@ -36,14 +36,14 @@ AzaleaTown_MapScriptHeader:
 	object_event 21,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownGrampsScript, -1
 	object_event 15, 13, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AzaleaTownTeacherScript, -1
 	object_event  7,  9, SPRITE_CAMPER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownYoungsterText, -1
-	object_event 31,  9, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownRocket1Text, EVENT_AZALEA_TOWN_WAKASAGITAIL_ROCKET
-	object_event 10, 16, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownRocket2Text, EVENT_WAKASAGIHIME_WELL_ROCKETS
-	object_event  8, 17, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
-	object_event 18,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
-	object_event 29,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
-	object_event 15, 15, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CCHIYURI, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownWakasagiScript, EVENT_AZALEA_TOWN_WAKASAGIS
-	pokemon_event 14, 12, CCHIYURI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownTasuketeText, EVENT_WAKASAGIHIME_WELL_WAKASAGIS
-	pokemon_event 14, 12, CHIYURI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownTasuketeText, EVENT_AZALEA_TOWN_WAKASAGIS
+	object_event 31,  9, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownRocket1Text, EVENT_AZALEA_TOWN_SLOWPOKETAIL_ROCKET
+	object_event 10, 16, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTownRocket2Text, EVENT_SLOWPOKE_WELL_ROCKETS
+	object_event  8, 17, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, SLOWPOKE, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownSlowpokeScript, EVENT_AZALEA_TOWN_SLOWPOKES
+	object_event 18,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, SLOWPOKE, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownSlowpokeScript, EVENT_AZALEA_TOWN_SLOWPOKES
+	object_event 30,  9, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, SLOWPOKE, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownSlowpokeScript, EVENT_AZALEA_TOWN_SLOWPOKES
+	object_event 15, 15, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, SLOWPOKE, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, AzaleaTownSlowpokeScript, EVENT_AZALEA_TOWN_SLOWPOKES
+	pokemon_event 14, 12, WOOPER, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_SLOWPOKE_WELL_SLOWPOKES
+	pokemon_event 14, 12, QUAGSIRE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, AzaleaTownWoosterText, EVENT_AZALEA_TOWN_SLOWPOKES
 	fruittree_event  8,  2, FRUITTREE_AZALEA_TOWN, WHT_APRICORN, PAL_NPC_WHITE
 
 	object_const_def
@@ -78,10 +78,10 @@ AzaleaTownRivalBattleTrigger2:
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext .SeenText
 	setevent EVENT_RIVAL_AZALEA_TOWN
-	checkevent EVENT_GOT_CREISEN_FROM_ELM
-	iftruefwd .CReisen
-	checkevent EVENT_GOT_CSANAE_FROM_ELM
-	iftruefwd .CSanae
+	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	iftruefwd .Totodile
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	iftruefwd .Chikorita
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL
 	loadtrainer RIVAL1, RIVAL1_6
@@ -90,7 +90,7 @@ AzaleaTownRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .AfterBattle
 
-.CReisen:
+.Totodile:
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL
 	loadtrainer RIVAL1, RIVAL1_4
@@ -99,7 +99,7 @@ AzaleaTownRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .AfterBattle
 
-.CSanae:
+.Chikorita:
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL
 	loadtrainer RIVAL1, RIVAL1_5
@@ -255,27 +255,21 @@ AzaleaGymSignText:
 	cont "Encyclopedia"
 	done
 
-WakasagihimeWellSignText:
-	text "Wakasagihime Well"
+SlowpokeWellSignText:
+	text "Slowpoke Well"
 
 	para "Also known as the"
-	line "Mermaid Well."
+	line "Rainmaker Well."
 
 	para "Locals believe"
-	line "that a Wakasagi"
-	cont "become more"
-
-	para "strong while"
-	line "underwater."
+	line "that a Slowpoke's"
+	cont "yawn summons rain."
 
 	para "Records show that"
-	line "a Wakasagi can"
+	line "a Slowpoke's yawn"
 
-	para "sing an ear-"
-	line "piercing song"
-	
-	para "after going"
-	line "underwater."
+	para "ended a drought"
+	line "400 years ago."
 	done
 
 CharcoalKilnSignText:
@@ -304,11 +298,11 @@ AzaleaTownAdvancedTipsSignText:
 	done
 
 AzaleaTownGrampsScript:
-	checkevent EVENT_CLEARED_WAKASAGIHIME_WELL
+	checkevent EVENT_CLEARED_SLOWPOKE_WELL
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "The Wakasagi have"
+	text "The Slowpoke have"
 	line "disappeared from"
 	cont "town…"
 
@@ -318,7 +312,7 @@ AzaleaTownGrampsScript:
 	done
 
 .Text2:
-	text "The Wakasagi have"
+	text "The Slowpoke have"
 	line "returned."
 
 	para "Knowing them, they"
@@ -329,7 +323,7 @@ AzaleaTownGrampsScript:
 	done
 
 AzaleaTownTeacherScript:
-	checkevent EVENT_CLEARED_WAKASAGIHIME_WELL
+	checkevent EVENT_CLEARED_SLOWPOKE_WELL
 	iffalse_jumptextfaceplayer .Text1
 	checkevent EVENT_GOT_CLEAR_AMULET_IN_AZALEA
 	iftrue_jumptextfaceplayer .Text2
@@ -343,10 +337,10 @@ AzaleaTownTeacherScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "She has changed,"
+	text "He has changed,"
 	line "but he'll always be"
 
-	para "my little Tasukete"
+	para "my little Wooster"
 	line "to me."
 	done
 
@@ -355,18 +349,18 @@ AzaleaTownTeacherScript:
 	line "since the Slow-"
 	cont "poke vanished."
 
-	para "My poor Tasukete"
+	para "My poor Wooster"
 	line "can't thrive in"
 	cont "this weather…"
 	done
 
 .Text3:
 	text "In a sudden down-"
-	line "pour, my Tasukete"
+	line "pour, my Wooster"
 	cont "evolved!"
 
 	para "Oh? You brought"
-	line "the Wakasagi back?"
+	line "the Slowpoke back?"
 
 	para "They brought the"
 	line "rain with them!"
@@ -378,9 +372,8 @@ AzaleaTownTeacherScript:
 	line "you deserve it!"
 	done
 
-AzaleaTownTasuketeText:
-	text "Tasukete: Leg-"
-	line "end of Hourai."
+AzaleaTownWoosterText:
+	text "Wooster: Gugyoo…"
 	done
 
 AzaleaTownYoungsterText:
@@ -410,19 +403,25 @@ AzaleaTownRocket1Text:
 
 AzaleaTownRocket2Text:
 	text "Do you know about"
-	line "WakasagiTail? I"
+	line "SlowpokeTail? I"
 	cont "heard it's tasty!"
 
 	para "Aren't you glad I"
 	line "told you that?"
 	done
 
-AzaleaTownWakasagiScript:
+AzaleaTownSlowpokeScript:
 	opentext
 	writethistext
-		text "Wakasagi: Mist!"
+		text "Slowpoke: …"
+
+		para "…… …… ……"
 		done
-	cry DLUIZE
+	pause 60
+	writethistext
+		text "…… ……Yawn?"
+		done
+	cry SLOWPOKE
 	waitendtext
 
 AzaleaTownKurtScript:
@@ -434,14 +433,4 @@ AzaleaTownKurtText:
 	text "Could you go see"
 	line "why Ilex Forest is"
 	cont "so restless?"
-	done
-
-
-AzaleaTownDemoText:
-	text "I hope you enjoy-"
-	line "ed the demo of"
-	cont "Crystal Paradise!"
-
-	para "More will be to"
-	line "come later."
 	done

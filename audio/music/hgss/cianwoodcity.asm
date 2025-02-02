@@ -1,4 +1,4 @@
-; Tohomon HG/SS - Cianwood City
+; Pokémon HG/SS - Cianwood City
 ; Demixed by Mmmmmm
 ; https://pastebin.com/GguFiV8e
 

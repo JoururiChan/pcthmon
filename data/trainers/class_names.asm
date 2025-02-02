@@ -20,7 +20,7 @@ TrainerClassNames::
 	li "Leader"           ; BROCK
 	li "Leader"           ; MISTY
 	li "Leader"           ; LT_SURGE
-	li "Leader"           ; ERIKA_T
+	li "Leader"           ; ERIKA
 	li "Leader"           ; JANINE
 	li "Leader"           ; SABRINA
 	li "Leader"           ; BLAINE
@@ -92,8 +92,7 @@ TrainerClassNames::
 	li "Battle Girl"      ; BATTLE_GIRL
 	li "Dragon Tamer"     ; DRAGON_TAMER
 	li "Engineer"         ; ENGINEER
-	li "Teacher"          ; TEACHER_F
-	li "Teacher"          ; TEACHER_M
+	li "Teacher"          ; TEACHER
 	li "Guitarist"        ; GUITARISTM
 	li "Guitarist"        ; GUITARISTF
 	li "Biker"            ; BIKER
@@ -110,8 +109,8 @@ TrainerClassNames::
 	li "Ace Trainer"      ; COOLTRAINERM
 	li "Ace Trainer"      ; COOLTRAINERF
 	li "Ace Duo"          ; ACE_DUO
-	li "Veteran"          ; VETTRANM
-	li "Veteran"          ; VETTRANF
+	li "Veteran"          ; VETERANM
+	li "Veteran"          ; VETERANF
 	li "Executive"        ; PROTON
 	li "Executive"        ; PETREL
 	li "Executive"        ; ARCHER
@@ -138,9 +137,9 @@ TrainerClassNames::
 	li "<PK><MN> Trainer" ; ANABEL
 	li "Valet"            ; DARACH
 	li "Lady"             ; CAITLIN
-	li "Leader"           ; CANDELA
-	li "Leader"           ; BLANCHE
-	li "Leader"           ; SPARK_T
+	li "<PK><MN> Trainer" ; CANDELA
+	li "<PK><MN> Trainer" ; BLANCHE
+	li "<PK><MN> Trainer" ; SPARK_T
 	li "Trainer"          ; FLANNERY
 	li "Fighter"          ; MAYLENE
 	li "Swimmer"          ; MARLON

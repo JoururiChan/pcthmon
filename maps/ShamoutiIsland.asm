@@ -20,37 +20,50 @@ ShamoutiIsland_MapScriptHeader:
 	bg_event 32,  6, BGEVENT_JUMPTEXT, ShamoutiHotelSignText
 
 	def_object_events
+	object_event 16,  8, SPRITE_ALOLAN_EXEGGUTOR, SPRITEMOVEDATA_ALOLAN_EXEGGUTOR, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandAlolanExeggutorScript, EVENT_SHAMOUTI_ISLAND_ALOLAN_EXEGGUTOR
+	object_event 16,  7, SPRITE_RATTATA_BACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_SHAMOUTI_ISLAND_ALOLAN_EXEGGUTOR
 	fruittree_event 34, 13, FRUITTREE_SHAMOUTI_ISLAND, FIGY_BERRY, PAL_NPC_BROWN
 	object_event 24, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandYoungsterScript, EVENT_SHAMOUTI_ISLAND_PIKABLU_GUY
-	pokemon_event 25, 14, AYA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, ShamoutiIslandPikabluText, EVENT_SHAMOUTI_ISLAND_PIKABLU_GUY
+	pokemon_event 25, 14, MARILL, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, ShamoutiIslandPikabluText, EVENT_SHAMOUTI_ISLAND_PIKABLU_GUY
 	object_event 20,  2, SPRITE_FAT_GUY, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, (1 << DAY), PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, ShamoutiIslandFisherText, -1
 	object_event 23,  2, SPRITE_FAT_GUY, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, (1 << DAY), PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, ShamoutiIslandFisherText, -1
 	object_event 12, 15, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandGrampsScript, -1
 	object_event  9, 16, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, pokemart, MARTTYPE_BAZAAR, MART_SHAMOUTI_2, -1
 
 	object_const_def
-	const SHAMOUTIISLAND_SCIRNO
-	const SHAMOUTIISLAND_SCIRNO_HEAD
+	const SHAMOUTIISLAND_ALOLAN_EXEGGUTOR
+	const SHAMOUTIISLAND_ALOLAN_EXEGGUTOR_HEAD
 
 ShamoutiIslandFlyPoint:
 	setflag ENGINE_FLYPOINT_SHAMOUTI
 	endcallback
 
+ShamoutiIslandAlolanExeggutorScript:
+	special SpecialSnorlaxAwake
+	iftruefwd .Awake
+	applyonemovement SHAMOUTIISLAND_ALOLAN_EXEGGUTOR, exeggutor_shake
+	showemote EMOTE_SLEEP, SHAMOUTIISLAND_ALOLAN_EXEGGUTOR_HEAD, 15
+	jumpthistext
 
+	text "The weird tree is…"
+	line "fast asleep?"
+
+	para "Is it a #mon?"
+	done
 
 .Awake:
 	showtext .PokeFluteText
-	applyonemovement SHAMOUTIISLAND_SCIRNO, scirno_shake
+	applyonemovement SHAMOUTIISLAND_ALOLAN_EXEGGUTOR, exeggutor_shake
 	opentext
 	writetext .WokeUpText
-	cry SCIRNO
+	cry EXEGGUTOR, ALOLAN_FORM
 	pause 15
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon SCIRNO,  60
+	loadwildmon EXEGGUTOR, ALOLAN_FORM, 60
 	startbattle
-	disappear SHAMOUTIISLAND_SCIRNO
-	disappear SHAMOUTIISLAND_SCIRNO_HEAD
+	disappear SHAMOUTIISLAND_ALOLAN_EXEGGUTOR
+	disappear SHAMOUTIISLAND_ALOLAN_EXEGGUTOR_HEAD
 	reloadmapafterbattle
 	end
 
@@ -86,13 +99,13 @@ ShamoutiIslandYoungsterScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "A shiny EKikuri"
+	text "A shiny Pikachu"
 	line "would be a real"
 	cont "Pikablu."
 
 	para "I've never found"
 	line "one, but I'm happy"
-	cont "with my Aya."
+	cont "with my Marill."
 	done
 
 .Text1:

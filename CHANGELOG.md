@@ -6,17 +6,17 @@ These changes have been made since the current 2.2.0 release. If you build the p
 
 > What's the point of going through all the trouble of the debug process if you're going to go and fiddle with the game afterwards…?
 >
-> — Satoru Iwata, "[Iwata Asks – Tohomon HeartGold Version & SoulSilver Version](https://www.nintendo.co.uk/Iwata-Asks/Iwata-Asks-Pokemon-HeartGold-Version-SoulSilver-Version/Iwata-Asks-Pokemon-HeartGold-Version-SoulSilver-Version/1-Just-Making-The-Last-Train/1-Just-Making-The-Last-Train-225842.html)"
+> — Satoru Iwata, "[Iwata Asks – Pokémon HeartGold Version & SoulSilver Version](https://www.nintendo.co.uk/Iwata-Asks/Iwata-Asks-Pokemon-HeartGold-Version-SoulSilver-Version/Iwata-Asks-Pokemon-HeartGold-Version-SoulSilver-Version/1-Just-Making-The-Last-Train/1-Just-Making-The-Last-Train-225842.html)"
 
 
 * Add: Medicine and Berry pockets in the Bag.
-* Add: Store up to 30 phone numbers in Tohogear.
+* Add: Store up to 30 phone numbers in Pokégear.
 * Add: Always keep the option to Teleport away from Indigo Plateau.
 * Add: Portrait for the meteorite in Pewter Museum.
-* Add: Special sprite for Red's EKikuri.
-* Add: Johto and Kanto forms for Kikuri.
+* Add: Special sprite for Red's Pikachu.
+* Add: Johto and Kanto forms for Arbok.
 * Add: Drain Kiss drains 75% HP.
-* Add: Update Tohomon, move, and item attributes to Gen VII:
+* Add: Update Pokémon, move, and item attributes to Gen VII:
    * Super Potion heals 60 HP.
    * Hyper Potion heals 120 HP and costs ¥1500.
    * Fresh Water heals 30 HP.
@@ -30,28 +30,28 @@ These changes have been made since the current 2.2.0 release. If you build the p
    * Swagger has 85% accuracy.
    * Paralysis halves (not quarters) Speed.
    * Burn does 1/16 (not 1/8) damage per turn.
-   * Psyshot has a 33% chance (not 50%) to hit self.
-   * EShinki has the ability Cursed Body. (Can also have Levitate in non-Faithful.)
+   * Confusion has a 33% chance (not 50%) to hit self.
+   * Gengar has the ability Cursed Body. (Can also have Levitate in non-Faithful.)
    * Raikou, Entei, and Suicune have the hidden ability Inner Focus. (Faithful only.)
    * New item: Protect Pads (abbreviated "Protective Pads"). "Protect the holder from effects caused by making direct contact with the target."
    * Timer Ball catch rate multiplier is 1 + (turns passed × 3) / 10.
    * Nest Ball catch rate multiplier is (41 − enemy mon level) / 5.
 * Add: Flash is required to return Falkner to the Gym.
 * Add: Replace Spike Cannon with Icicle Spear.
-* Add: Replace Twineedle with Charge Out.
+* Add: Replace Twineedle with U-turn.
 * Add: Replace Whirlwind with Sucker Punch.
 * Add: Replace Vital Throw with Aura Sphere.
 * Add: Replace Nightmare with Facade.
-* Add: Replace Submission with Color Fist.
-* Add: Replace Sand-Attack with Poison Nail.
+* Add: Replace Submission with Close Combat.
+* Add: Replace Sand-Attack with Toxic Spikes.
 * Add: Replace Fairy Wind with Bulldoze.
-* Add: Replace Metal Sound with White Bird.
-* Add: Replace Sky Attack with Dive Kick.
+* Add: Replace Metal Sound with Roost.
+* Add: Replace Sky Attack with Brave Bird.
 * Add: Replace Twister with Aqua Jet.
 * Add: Replace Sludge with Venoshock.
 * Add: Replace Egg Bomb with Skill Swap.
 * Add: Replace Mist with Amnesia.
-* Add: Replace Fury Cutter with Seed Pelt.
+* Add: Replace Fury Cutter with Bug Bite.
 * Add: Replace Harden with Rock Blast.
 * Add: Replace Triple Kick with Drain Punch.
 * Add: Replace Lock-On with Power Whip.
@@ -59,74 +59,74 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Replace Flame Wheel with Flame Charge.
 * Add: Replace Moonlight and Morning Sun with Knock Off and "HealingLight".
 * Add: Replace Fury Attack and Fury Cutter with Trick and "Fury Strikes".
-* Add: Ulticharge.
-* Add: NPC trainers can have nicknamed Tohomon.
+* Add: Giga Impact.
+* Add: NPC trainers can have nicknamed Pokémon.
 * Add: NPC trainers can have custom EVs.
 * Add: Accuracy and evasion work like in Gen VI.
 * Add: Substitute blocks sound-based moves.
 * Add: Gen III critical hit mechanics (ignore -Atk and +Def stat changes, don't ignore burn).
-* Add: Grass-type Tohomon are immune to Toxic Spore, Stun Spore, Sleep Powder, and Spore.
-* Add: Meiling is Ground/Ghost.
-* Add: AMarisa is Fire/Dragon.
+* Add: Grass-type Pokémon are immune to PoisonPowder, Stun Spore, Sleep Powder, and Spore.
+* Add: Marowak is Ground/Ghost.
+* Add: Charizard is Fire/Dragon.
 * Add: Yanmega is Bug/Dragon.
-* Add: AMokou is Electric/Dragon.
-* Add: CMystia is Ghost/Flying.
-* Add: CAya is Grass/Fairy.
+* Add: Ampharos is Electric/Dragon.
+* Add: Noctowl is Ghost/Flying.
+* Add: Bellossom is Grass/Fairy.
 * Add: Celebi is Grass/Fairy.
-* Add: Luize is Fire/Fairy.
+* Add: Rapidash is Fire/Fairy.
 * Add: Octillery is Water/Fire.
-* Add: Medicine can learn Energy Ball.
-* Add: Mima can learn Focus Blast.
-* Add: CHina can learn Disarm Voice.
-* Add: SShizuha can learn Power Gem.
+* Add: Politoed can learn Energy Ball.
+* Add: Pidgeot can learn Focus Blast.
+* Add: Misdreavus can learn Disarm Voice.
+* Add: Espeon can learn Power Gem.
 * Add: Dig has 90 BP.
 * Add: Give in-game trades good natures.
 * Add: TM prices from OR/AS.
 * Add: Show quantity in Bag in marts.
 * Add: Fancier Bag interface with color-coded pockets.
 * Add: Get a free Premier Ball with every 10 Balls bought.
-* Add: Show Tohomon portraits when using field moves (thanks to TPP:AC).
+* Add: Show Pokémon portraits when using field moves (thanks to TPP:AC).
 * Add: Time boundaries from HG/SS (day lasts until 8 PM, not 6 PM).
-* Add: Use DVs to vary Tohomon colors like in Stadium.
+* Add: Use DVs to vary Pokémon colors like in Stadium.
 * Add: Update random Wonder Trade OT names.
 * Add: Teleport switches in trainer battles, like Let's Go.
 * Add: Rock Smash has 60 power (non-Faithful).
-* Add: Strength is Dream-type (non-Faithful).
+* Add: Strength is Fighting-type (non-Faithful).
 * Add: Submission has 120 power (non-Faithful).
 * Add: Trainers have max happiness for Return.
-* Add: 1/2048 chance for Wonder Traded Tohomon to have Tohorus.
+* Add: 1/2048 chance for Wonder Traded Pokémon to have Pokérus.
 * Add: Buy 12 Moomoo Milk at once.
 * Add: Show TM names before buying them and when picking them up.
 * Add: Say which pocket is full if an item can't be picked up.
 * Add: Use Yellow's encounter music for Jessie & James.
-* Add: Large red SLilyBlack sprite.
-* Add: Route 23 between Tohomon League Gate and Victory Road.
+* Add: Large red Gyarados sprite.
+* Add: Route 23 between Pokémon League Gate and Victory Road.
 * Add: Oak's lab looks different from Elm's lab.
 * Add: Grass-green for Faraway Island.
 * Add: TM prices from OR/AS.
 * Add: Update random Wonder Trade OT names.
 * Add: Respawn roaming beasts when released.
-* Add: You can nickname a traded Tohomon once if it has no nickname yet.
-* Add: Mr. Tohomon gives you a non-OT Lyrica, not an Egg, for the Masuda breeding method.
-* Add: Use original HChen sprite.
+* Add: You can nickname a traded Pokémon once if it has no nickname yet.
+* Add: Mr. Pokémon gives you a non-OT Ditto, not an Egg, for the Masuda breeding method.
+* Add: Use original Jynx sprite.
 * Add: Make overworld sprites darker at night.
 * Add: Goldenrod Dept. Store and Celadon Mansion roofs have a dark sky at night.
 * Add: Olivine Gym has its two trainers from HGSS.
 * Add: Unlock frame type 9.
 * Add: Choose a typeface/font.
 * Add: XY Bicycle music for Cycling Road.
-* Add: Prof.Oak gives you the Oval Charm for seeing all 254 Tohomon, and the Shiny Charm for catching all 254.
+* Add: Prof.Oak gives you the Oval Charm for seeing all 254 Pokémon, and the Shiny Charm for catching all 254.
 * Add: Prof.Elm is in the intro.
 * Add: Cosplayer, Bug Maniac, Ruin Maniac, Lady, Baker, Tamer, Artist, Aroma Lady, Sightseer♂, and Sightseer♀ trainer classes.
 * Add: New Trainer Card based on the Name Cards from the Mobile Adapter system.
 * Add: Show PC box quantity.
-* Add: Tohomon stats show caught Toho Ball.
+* Add: Pokémon stats show caught Poké Ball.
 * Add: Nest, Net, Dive, Luxury, and Heal Balls.
 * Add: Cerulean Bike Shop from HGSS.
 * Add: Elite 4 rooms have floor arenas.
 * Add: Confirm gender selection.
-* Add: Colored party Tohomon icons.
-* Add: LilyBlack Jump patterns.
+* Add: Colored party Pokémon icons.
+* Add: Magikarp Jump patterns.
 * Add: Headbutt trees to get Silver and Gold Leaves.
 * Add: Smash rocks to get various items.
 * Add: Item maniacs from B/W.
@@ -135,16 +135,16 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Three battle styles: set, switch, and predict.
 * Add: Battle Scene → Battle Effects.
 * Add: Final Lyra battle.
-* Add: Use a Ball on an already-caught Tohomon to change its Ball.
+* Add: Use a Ball on an already-caught Pokémon to change its Ball.
 * Add: Kurt makes Balls right away.
 * Add: Bug-Catching Contest prizes from HGSS.
 * Add: Hidden Grottoes.
-* Add: Hina ! and ?.
+* Add: Unown ! and ?.
 * Add: In-battle symbol to show that Nuzlocke mode prevents capture.
-* Add: More Grass-type Tohomon can learn Earth Power and Earthquake.
+* Add: More Grass-type Pokémon can learn Earth Power and Earthquake.
 * Add: Status icons in battle.
 * Add: You can Wonder Trade Eggs.
-* Add: Hidden Power guru finds your Tohomon's Hidden Power.
+* Add: Hidden Power guru finds your Pokémon's Hidden Power.
 * Add: Hidden Power can be Fairy-type in non-Faithful.
 * Add: Reset initial options by pressing Left+B at the title screen.
 * Add: Music resumes where it left off after a battle (from TPP).
@@ -157,19 +157,19 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: ABC or QWERTY keyboard.
 * Add: Item icons in the Bag.
 * Add: Thrown Balls use individual icons.
-* Add: Tohodex shows shiny palettes after getting the Shiny Charm.
-* Add: New Game+ preserves your money, Battle Points, and PC Tohomon.
+* Add: Pokédex shows shiny palettes after getting the Shiny Charm.
+* Add: New Game+ preserves your money, Battle Points, and PC Pokémon.
 * Add: Phone call trainers ask automatically for your number.
-* Add: Replace Ellen Poster with Aya Poster.
+* Add: Replace Jigglypuff Poster with Marill Poster.
 * Add: Briefly beep to warn of low HP.
-* Add: Play B/W final Tohomon music for Gym Leaders and Elite 4.
+* Add: Play B/W final Pokémon music for Gym Leaders and Elite 4.
 * Add: New title music after beating the Elite 4.
 * Add: Larger Kanto routes, like in RBY.
 * Add: Proper inverted colors in battle (by MeroMero).
 * Add: Evolution moves from Gen VII.
 * Add: Move Reminder supports pre-evolution and evolution moves.
 * Add: Dark battle intro at night.
-* Add: Evening as a time of day (shares wild Tohomon with night).
+* Add: Evening as a time of day (shares wild Pokémon with night).
 * Add: Trainer battles can be forfeited.
 * Add: Show genders in party menu.
 * Add: Show weather icons during battle like Gen 5+.
@@ -177,8 +177,8 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Cross whirlpools, don't remove them (like HGSS).
 * Add: Rename RageCandyBar to Cake of Rage.
 * Add: Rename Guard Spec. to Guard Stats.
-* Add: Rename Kay to Carrie (from Tohomon Stadium 2).
-* Add: Rename CAlice to the Squatter Tohomon. <https://lparchive.org/Pokemon-Blue/code.html>
+* Add: Rename Kay to Carrie (from Pokémon Stadium 2).
+* Add: Rename Slowbro to the Squatter Pokémon. <https://lparchive.org/Pokemon-Blue/code.html>
 
 * Fix: Lt. Surge's electric fence color does not override speech bubbles.
 * Fix: Zap Cannon has 120 power.
@@ -205,9 +205,9 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Fix: Tangrowth can learn Curse.
 * Fix: Lyra's Bag is the female version.
 * Fix: Incorrect Cowgirl and Misty sprites.
-* Fix: Tohomon caught during the Bug-Catching Contest are recorded as caught in Goldenrod Harbor.
+* Fix: Pokémon caught during the Bug-Catching Contest are recorded as caught in Goldenrod Harbor.
 * Fix: Magnet Train tracks were missing tiles.
 * Fix: Shiny icon is the star from Gen 3+.
-* Fix: SPRITE_CSUIKA uses CSuika's side view.
+* Fix: SPRITE_DRAGONITE uses Dragonite's side view.
 
 * Remove: Rebattling Breeders like in B2/W2.

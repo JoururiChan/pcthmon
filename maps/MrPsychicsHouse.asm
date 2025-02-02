@@ -18,20 +18,20 @@ MrPsychicsHouse_MapScriptHeader:
 MrPsychic:
 	faceplayer
 	opentext
-	checkevent EVENT_LISTENED_TO_BLAZE_STAR_INTRO
-	iftruefwd MrPsychicsHouseTutorBlazeStarScript
+	checkevent EVENT_LISTENED_TO_ZEN_HEADBUTT_INTRO
+	iftruefwd MrPsychicsHouseTutorZenHeadbuttScript
 	writetext MrPsychicText
 	waitbutton
-	setevent EVENT_LISTENED_TO_BLAZE_STAR_INTRO
-MrPsychicsHouseTutorBlazeStarScript:
-	writetext Text_MrPsychicsHouseTutorBlazeStar
+	setevent EVENT_LISTENED_TO_ZEN_HEADBUTT_INTRO
+MrPsychicsHouseTutorZenHeadbuttScript:
+	writetext Text_MrPsychicsHouseTutorZenHeadbutt
 	waitbutton
 	checkitem SILVER_LEAF
 	iffalsefwd .NoSilverLeaf
 	writetext Text_MrPsychicsHouseTutorQuestion
 	yesorno
 	iffalsefwd .TutorRefused
-	setval BLAZE_STAR
+	setval ZEN_HEADBUTT
 	writetext ClearText
 	special Special_MoveTutor
 	ifequalfwd $0, .TeachMove
@@ -58,7 +58,7 @@ MrPsychicText:
 	line "Zen Headbutt!"
 	done
 
-Text_MrPsychicsHouseTutorBlazeStar:
+Text_MrPsychicsHouseTutorZenHeadbutt:
 	text "I will teach your"
 	line "#mon to use Zen"
 

@@ -1,4 +1,4 @@
-; Tohomon R/S/E - Mount Chimney
+; Pokémon R/S/E - Mount Chimney
 ; Demixed by Mmmmmm
 ; https://pastebin.com/Yivqb9Tq
 ; https://hax.iimarckus.org/topic/6777/4/

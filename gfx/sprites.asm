@@ -482,52 +482,53 @@ SwimmingOfficerSpriteGFX:: INCBIN "gfx/sprites/swimming_officer.2bpp.lz"
 SECTION "SwimmingOfficerFSpriteGFX", ROMX
 SwimmingOfficerFSpriteGFX:: INCBIN "gfx/sprites/swimming_officer_f.2bpp.lz"
 
-SECTION "CMeiraWalkSpriteGFX", ROMX
-CMeiraWalkSpriteGFX:: INCBIN "gfx/sprites/cmeira.2bpp.lz"
+SECTION "ClefairyWalkSpriteGFX", ROMX
+ClefairyWalkSpriteGFX:: INCBIN "gfx/sprites/clefairy.2bpp.lz"
 
-SECTION "CMaiSpriteGFX", ROMX
-CMaiSpriteGFX:: INCBIN "gfx/sprites/cmai.2bpp.lz"
+SECTION "FarfetchDSpriteGFX", ROMX
+FarfetchDSpriteGFX:: INCBIN "gfx/sprites/farfetch_d.2bpp.lz"
 
-SECTION "CLyricaSpriteGFX", ROMX
-CLyricaSpriteGFX:: INCBIN "gfx/sprites/clyrica.2bpp.lz"
+SECTION "LaprasSpriteGFX", ROMX
+LaprasSpriteGFX:: INCBIN "gfx/sprites/lapras.2bpp.lz"
 
-SECTION "TLyricaSpriteGFX", ROMX
-TLyricaSpriteGFX:: INCBIN "gfx/sprites/tlyrica.2bpp.lz"
+SECTION "EeveeSpriteGFX", ROMX
+EeveeSpriteGFX:: INCBIN "gfx/sprites/eevee.2bpp.lz"
 
-SECTION "CSuikaSpriteGFX", ROMX
-CSuikaSpriteGFX:: INCBIN "gfx/sprites/csuika.2bpp.lz"
+SECTION "DragoniteSpriteGFX", ROMX
+DragoniteSpriteGFX:: INCBIN "gfx/sprites/dragonite.2bpp.lz"
 
-SECTION "TSuikaSpriteGFX", ROMX
-TSuikaSpriteGFX:: INCBIN "gfx/sprites/tsuika.2bpp.lz"
+SECTION "MewSpriteGFX", ROMX
+MewSpriteGFX:: INCBIN "gfx/sprites/mew.2bpp.lz"
 
 SECTION "CelebiSpriteGFX", ROMX
 CelebiSpriteGFX:: INCBIN "gfx/sprites/celebi.2bpp.lz"
 
+SECTION "SurfingPikachuSpriteGFX", ROMX
+SurfingPikachuSpriteGFX:: INCBIN "gfx/sprites/surf_pikachu.2bpp.lz"
 
+SECTION "ArmoredMewtwoSpriteGFX", ROMX
+ArmoredMewtwoSpriteGFX:: INCBIN "gfx/sprites/armored_mewtwo.2bpp.lz"
 
-SECTION "ArmoredSuikaSpriteGFX", ROMX
-ArmoredSuikaSpriteGFX:: INCBIN "gfx/sprites/armored_suika.2bpp.lz"
+SECTION "BigSnorlaxSpriteGFX", ROMX
+BigSnorlaxSpriteGFX:: INCBIN "gfx/sprites/big_snorlax.2bpp.lz"
 
-SECTION "BigCRanSpriteGFX", ROMX
-BigCRanSpriteGFX:: INCBIN "gfx/sprites/big_cran.2bpp.lz"
+SECTION "BigLaprasSpriteGFX", ROMX
+BigLaprasSpriteGFX:: INCBIN "gfx/sprites/big_lapras.2bpp.lz"
 
-SECTION "BigCLyricaSpriteGFX", ROMX
-BigCLyricaSpriteGFX:: INCBIN "gfx/sprites/big_clyrica.2bpp.lz"
+SECTION "BigOnixSpriteGFX", ROMX
+BigOnixSpriteGFX:: INCBIN "gfx/sprites/big_onix.2bpp.lz"
 
-SECTION "BigCRumiaSpriteGFX", ROMX
-BigCRumiaSpriteGFX:: INCBIN "gfx/sprites/big_crumia.2bpp.lz"
+SECTION "BigGyaradosSpriteGFX", ROMX
+BigGyaradosSpriteGFX:: INCBIN "gfx/sprites/big_gyarados.2bpp.lz"
 
-SECTION "BigSLilyBlackSpriteGFX", ROMX
-BigSLilyBlackSpriteGFX:: INCBIN "gfx/sprites/big_slilyblack.2bpp.lz"
+SECTION "SlowpoketailSpriteGFX", ROMX
+SlowpoketailSpriteGFX:: INCBIN "gfx/sprites/slowpoketail.2bpp.lz"
 
-SECTION "WakasagitailSpriteGFX", ROMX
-WakasagitailSpriteGFX:: INCBIN "gfx/sprites/dluizetail.2bpp.lz"
+SECTION "PidgeottoSideSpriteGFX", ROMX
+PidgeottoSideSpriteGFX:: INCBIN "gfx/sprites/pidgeotto_side.2bpp.lz"
 
-SECTION "CMimaSideSpriteGFX", ROMX
-CMimaSideSpriteGFX:: INCBIN "gfx/sprites/cmima_side.2bpp.lz"
-
-SECTION "EMimaBackSpriteGFX", ROMX
-EMimaBackSpriteGFX:: INCBIN "gfx/sprites/emima_back.2bpp.lz"
+SECTION "RattataBackSpriteGFX", ROMX
+RattataBackSpriteGFX:: INCBIN "gfx/sprites/rattata_back.2bpp.lz"
 
 SECTION "WeirdTreeSpriteGFX", ROMX
 WeirdTreeSpriteGFX:: INCBIN "gfx/sprites/weird_tree.2bpp.lz"
@@ -538,8 +539,8 @@ BallCutFruitSpriteGFX:: INCBIN "gfx/sprites/ball_cut_fruit.2bpp.lz"
 SECTION "BoulderRockFossilSpriteGFX", ROMX
 BoulderRockFossilSpriteGFX:: INCBIN "gfx/sprites/boulder_rock_fossil.2bpp.lz"
 
-SECTION "BookPaperTohodexSpriteGFX", ROMX
-BookPaperTohodexSpriteGFX:: INCBIN "gfx/sprites/book_paper_tohodex.2bpp.lz"
+SECTION "BookPaperPokedexSpriteGFX", ROMX
+BookPaperPokedexSpriteGFX:: INCBIN "gfx/sprites/book_paper_pokedex.2bpp.lz"
 
 SECTION "SnesSpriteGFX", ROMX
 SnesSpriteGFX:: INCBIN "gfx/sprites/snes.2bpp.lz"
@@ -582,6 +583,9 @@ PiersSpriteGFX:: INCBIN "gfx/sprites/piers.2bpp.lz"
 
 SECTION "KatySpriteGFX", ROMX
 KatySpriteGFX:: INCBIN "gfx/sprites/katy.2bpp.lz"
+
+SECTION "AlolanExeggutorSpriteGFX", ROMX
+AlolanExeggutorSpriteGFX:: INCBIN "gfx/sprites/alolan_exeggutor.2bpp.lz"
 
 SECTION "CrysSpriteGFX", ROMX
 CrysSpriteGFX:: INCBIN "gfx/sprites/crys.2bpp.lz"

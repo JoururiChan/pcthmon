@@ -1,24 +1,24 @@
-Tohodex:
+Pokedex:
 	ld a, [wDexPrevCursorPos]
-	ld [wTohodex_CursorPos], a
+	ld [wPokedex_CursorPos], a
 	ld a, [wDexPrevOffset]
-	ld [wTohodex_Offset], a
+	ld [wPokedex_Offset], a
 
 	call StackDexGraphics
-	call Tohodex_Main
+	call Pokedex_Main
 
 	ld a, [wDexPrevCursorPos]
-	ld [wTohodex_CursorPos], a
+	ld [wPokedex_CursorPos], a
 
-	call Tohodex_MainLoop
+	call Pokedex_MainLoop
 
-	ld a, [wTohodex_CursorPos]
+	ld a, [wPokedex_CursorPos]
 	ld [wDexPrevCursorPos], a
-	ld a, [wTohodex_Offset]
+	ld a, [wPokedex_Offset]
 	ld [wDexPrevOffset], a
 	ret
 
-Tohodex_LoadTilemap:
+Pokedex_LoadTilemap:
 	ld a, BANK(wDexTilemap)
 	call StackCallInWRAMBankA
 .Function:
@@ -27,9 +27,9 @@ Tohodex_LoadTilemap:
 	call FarDecompressToDE
 
 	ld b, DEXTILE_FROM_DEXMAP
-	jmp Tohodex_SetTilemap
+	jmp Pokedex_SetTilemap
 
-Tohodex_LoadTilemapWithPokepic:
+Pokedex_LoadTilemapWithPokepic:
 	ld a, BANK(wDexTilemap)
 	call StackCallInWRAMBankA
 .Function:
@@ -38,14 +38,14 @@ Tohodex_LoadTilemapWithPokepic:
 	call FarDecompressToDE
 
 	ld b, DEXTILE_FROM_DEXMAP
-	call Tohodex_SetTilemap
+	call Pokedex_SetTilemap
 
 	hlcoord 1, 1
 	ld a, $40
 	call _PlaceFrontpicAtHL
 
 	; Correct the pokepic vram bank if applicable.
-	ld a, [wTohodex_MonInfoBank]
+	ld a, [wPokedex_MonInfoBank]
 	and a
 	ret nz
 
@@ -65,7 +65,7 @@ Tohodex_LoadTilemapWithPokepic:
 	jr nz, .outer_loop
 	ret
 
-Tohodex_LoadTilemapWithIconAndForm:
+Pokedex_LoadTilemapWithIconAndForm:
 	ld a, BANK(wDexTilemap)
 	ldh [rSVBK], a
 	ld de, wDexTilemap
@@ -73,7 +73,7 @@ Tohodex_LoadTilemapWithIconAndForm:
 	call FarDecompressToDE
 
 	ld b, DEXTILE_FROM_DEXMAP
-	call Tohodex_SetTilemap
+	call Pokedex_SetTilemap
 	ld a, BANK(wStringBuffer1)
 	ldh [rSVBK], a
 
@@ -84,18 +84,18 @@ Tohodex_LoadTilemapWithIconAndForm:
 
 	; Set dex number display position
 	ld a, 116
-	ld [wTohodexOAM_DexNoX], a
+	ld [wPokedexOAM_DexNoX], a
 	ld a, 20
-	ld [wTohodexOAM_DexNoY], a
+	ld [wPokedexOAM_DexNoY], a
 
 	; Display mini
-	ld a, [wTohodex_MonInfoBank]
+	ld a, [wPokedex_MonInfoBank]
 	rlca
 	rlca
 	rlca
 	ld b, a
-	ld a, [wTohodex_FirstIconTile]
-	add b ; wTohodex_FirstIconTile + wTohodex_MonInfoBank * 8
+	ld a, [wPokedex_FirstIconTile]
+	add b ; wPokedex_FirstIconTile + wPokedex_MonInfoBank * 8
 	xor $80
 
 	hlcoord 1, 1
@@ -110,7 +110,7 @@ Tohodex_LoadTilemapWithIconAndForm:
 
 	ld b, a
 
-	ld a, [wTohodex_DisplayMode]
+	ld a, [wPokedex_DisplayMode]
 	assert DEXDISP_AREA > DEXDISP_STATS
 	cp DEXDISP_STATS ; stats+area pages shouldn't display shape
 	ret nc
@@ -128,15 +128,15 @@ Tohodex_LoadTilemapWithIconAndForm:
 	ld [hl], a
 	ret
 
-Tohodex_ChangeForm:
+Pokedex_ChangeForm:
 ; Input: a = 0 (check caught), 1 (check seen). For this function's purpose,
 ; any mon with cosmetic forms are considered caught even if only seen.
 	push af
-	call Tohodex_MonHasCosmeticForms
+	call Pokedex_MonHasCosmeticForms
 	jr c, .not_cosmetic
 	pop af
 	ld a, 1
-	call Tohodex_CheckForOtherForms
+	call Pokedex_CheckForOtherForms
 	ret c
 	ld a, BANK(wDexMons)
 	call StackCallInWRAMBankA
@@ -149,19 +149,19 @@ Tohodex_ChangeForm:
 
 .not_cosmetic
 	pop af
-	call Tohodex_CheckForOtherForms
+	call Pokedex_CheckForOtherForms
 	ret c
 	ld a, BANK(wDexMons)
 	call StackCallInWRAMBankA
 .StackCall2:
 	ld [hl], b
-	jmp Tohodex_ScheduleScreenUpdate
+	jmp Pokedex_ScheduleScreenUpdate
 
-Tohodex_MonHasCosmeticForms:
+Pokedex_MonHasCosmeticForms:
 ; Returns carry if the given mon on the cursor doesn't have cosmetic forms.
-	call Tohodex_GetCursorSpecies
+	call Pokedex_GetCursorSpecies
 	; fallthrough
-_Tohodex_MonHasCosmeticForms:
+_Pokedex_MonHasCosmeticForms:
 	; Used to track when we reach the end of the cosmetic table
 	ld de, -VariantSpeciesAndFormTable
 	ld hl, CosmeticSpeciesAndFormTable
@@ -180,7 +180,7 @@ _Tohodex_MonHasCosmeticForms:
 	jr nc, .loop
 	ret ; At this point, carry is set.
 
-Tohodex_CheckForOtherForms:
+Pokedex_CheckForOtherForms:
 ; Input: a = 0 (check caught), 1 (check seen)
 ; Output: b = form, c = species, hl = pointer to mon form
 ; carry flag set if no other eligible form found
@@ -188,7 +188,7 @@ Tohodex_CheckForOtherForms:
 	; optimization reasons, but we use the MSB of e for other things.
 	and 1
 	ld e, a
-	call Tohodex_GetCursorSpecies
+	call Pokedex_GetCursorSpecies
 	res MON_CAUGHT_F, b
 
 	; If our current working form is the base form, treat any forms found
@@ -302,13 +302,13 @@ Tohodex_CheckForOtherForms:
 	set MON_CAUGHT_F, b
 	ret
 
-Tohodex_SwitchNormalOrShinyPalette:
+Pokedex_SwitchNormalOrShinyPalette:
 ; Leaves the mini alone and doesn't schedule a reload.
 	ld a, SHINY_CHARM
 	ld [wCurKeyItem], a
 	call CheckKeyItem
 	ret nc
-	ld bc, wTohodex_Shiny
+	ld bc, wPokedex_Shiny
 	ld a, [bc]
 	xor SHINY_MASK
 	ld [bc], a
@@ -321,12 +321,12 @@ Tohodex_SwitchNormalOrShinyPalette:
 	scf
 	ret
 
-Tohodex_SwitchNormalOrShinyPaletteAndUpdate:
+Pokedex_SwitchNormalOrShinyPaletteAndUpdate:
 ; Also reloads mini palette.
-	call Tohodex_SwitchNormalOrShinyPalette
+	call Pokedex_SwitchNormalOrShinyPalette
 	ret nc
 	; fallthrough
-Tohodex_GetMonIconPalette:
+Pokedex_GetMonIconPalette:
 	ld a, BANK(wBGPals1)
 	call StackCallInWRAMBankA
 .Function:
@@ -334,7 +334,7 @@ Tohodex_GetMonIconPalette:
 	ld c, a
 	ld a, [wCurIconForm]
 	ld b, a
-	ld a, [wTohodex_Shiny]
+	ld a, [wPokedex_Shiny]
 	farcall GetMonPalInBCDE
 	ld hl, wBGPals1 palette 2 + 5
 	ld a, d
@@ -344,20 +344,20 @@ Tohodex_GetMonIconPalette:
 	ld a, b
 	ld [hld], a
 	ld [hl], c
-	jmp Tohodex_ScheduleScreenUpdate
+	jmp Pokedex_ScheduleScreenUpdate
 
-Tohodex_PrevPageMon:
+Pokedex_PrevPageMon:
 	ld a, -1
-	jr Tohodex_ScrollPageMon
+	jr Pokedex_ScrollPageMon
 
-Tohodex_NextPageMon:
+Pokedex_NextPageMon:
 	ld a, 1
 	; fallthrough
-Tohodex_ScrollPageMon:
+Pokedex_ScrollPageMon:
 ; Scroll the cursor until we find a species (caught-only for certain pages), or
 ; until we reach the end.
 	; Back up current position and offset, in case we are at the beginning/end.
-	ld hl, wTohodex_Offset
+	ld hl, wPokedex_Offset
 	ld c, [hl] ; no-optimize b|c|d|e = *hl++|*hl--
 	dec hl
 	ld b, [hl]
@@ -369,22 +369,22 @@ Tohodex_ScrollPageMon:
 	push bc
 	ld d, 1
 	push de
-	call Tohodex_SetCursorMon
+	call Pokedex_SetCursorMon
 	pop de
 
 	; Check if the cursor changed
-	ld a, [wTohodex_CursorPos]
+	ld a, [wPokedex_CursorPos]
 	cp e
 	jr z, .scroll_failed
 	ld e, a
 
 	; Check if we found a valid species
-	call Tohodex_GetCursorSpecies
+	call Pokedex_GetCursorSpecies
 	bit MON_CAUGHT_F, b
 	jr nz, .found_species
 	and a
 	jr z, .next
-	ld a, [wTohodex_DisplayMode]
+	ld a, [wPokedex_DisplayMode]
 	cp DEXDISP_BIO
 	jr z, .next
 	cp DEXDISP_STATS
@@ -403,7 +403,7 @@ Tohodex_ScrollPageMon:
 
 .scroll_failed
 	pop bc
-	ld hl, wTohodex_Offset
+	ld hl, wPokedex_Offset
 	ld a, c
 	ld [hld], a
 	ld [hl], b
@@ -411,10 +411,10 @@ Tohodex_ScrollPageMon:
 	or 1
 	ret
 
-Tohodex_GetCursorSpecies:
+Pokedex_GetCursorSpecies:
 ; Returns species in c and a, form+ext in b that cursor is hovering.
 ; For a new dex entry, return species+form from wTempMon.
-	ld a, [wTohodex_DisplayMode]
+	ld a, [wPokedex_DisplayMode]
 	cp DEXDISP_NEWDESC
 	jr nz, .not_newdesc
 	ld a, BANK(wTempSpecies)
@@ -431,11 +431,11 @@ Tohodex_GetCursorSpecies:
 	ld a, BANK(wDexMons)
 	call StackCallInWRAMBankA
 .StackCall2:
-	ld a, [wTohodex_CursorPos]
+	ld a, [wPokedex_CursorPos]
 	push af
 	swap a
 	and $f
-	ld hl, wTohodex_Offset
+	ld hl, wPokedex_Offset
 	add [hl]
 	ld c, a
 	ld b, 0
@@ -452,9 +452,9 @@ Tohodex_GetCursorSpecies:
 	ld c, a
 	ret
 
-Tohodex_MainLoop:
+Pokedex_MainLoop:
 .loop
-	call Tohodex_GetInput
+	call Pokedex_GetInput
 	rrca
 	jr c, .pressed_a
 	rrca
@@ -475,23 +475,23 @@ Tohodex_MainLoop:
 
 .pressed_a
 	; Do nothing if we haven't seen what the cursor is hovering.
-	call Tohodex_GetCursorSpecies
+	call Pokedex_GetCursorSpecies
 	ld a, c
 	and a
-	call nz, Tohodex_Description
+	call nz, Pokedex_Description
 	jr .loop
 
 .pressed_b
 	; Usually just returns from dex, but in search mode, return to search.
-	ld a, [wTohodex_InSearchMode]
+	ld a, [wPokedex_InSearchMode]
 	and a
 	ret z
 	; fallthrough
 .pressed_start
-	call Tohodex_Search
+	call Pokedex_Search
 	jr .loop
 .pressed_select
-	call Tohodex_Mode
+	call Pokedex_Mode
 	jr .loop
 .pressed_right
 	ld a, 1
@@ -507,14 +507,14 @@ Tohodex_MainLoop:
 	; fallthrough
 .fixcursor
 	ld d, 0
-	call Tohodex_SetCursorMon
+	call Pokedex_SetCursorMon
 	jr .loop
 
-Tohodex_SetCursorMon:
+Pokedex_SetCursorMon:
 ; Changes the cursor location based on a. If d==1, skip display updates.
-	ld hl, wTohodex_Offset
+	ld hl, wPokedex_Offset
 	ld c, [hl]
-	assert wTohodex_Offset - 1 == wTohodex_CursorPos
+	assert wPokedex_Offset - 1 == wPokedex_CursorPos
 	dec hl
 	ld b, [hl]
 	push bc
@@ -536,7 +536,7 @@ Tohodex_SetCursorMon:
 	ld a, [hl]
 	cp c
 .changed
-	call nz, Tohodex_GetCursorMon
+	call nz, Pokedex_GetCursorMon
 	ret
 
 .CursorPosValid:
@@ -604,14 +604,14 @@ Tohodex_SetCursorMon:
 	ld a, BANK(wDexPalCopy)
 	call StackCallInWRAMBankA
 .SwitchRow_Function:
-	ld hl, wTohodex_Offset
+	ld hl, wPokedex_Offset
 
 	ld a, b
 	and a
 	jr z, .upwards
 
 	; Don't move downwards past row offset (total - 3).
-	ld a, [wTohodex_Rows]
+	ld a, [wPokedex_Rows]
 	sub [hl]
 	cp 4
 	ret c
@@ -645,16 +645,16 @@ Tohodex_SetCursorMon:
 	ld c, SCREEN_WIDTH * 6 - 2
 	call .ShiftRowData
 	hlcoord 19, 9
-	ld [hl], Tohodex_SCROLLTILE_TOP
+	ld [hl], POKEDEX_SCROLLTILE_TOP
 	hlcoord 19, 12
-	ld [hl], Tohodex_SCROLLTILE_BAR
+	ld [hl], POKEDEX_SCROLLTILE_BAR
 	ld c, b
-	call Tohodex_UpdateRow
+	call Pokedex_UpdateRow
 	xor a
 	ld d, a
 	ret
 
-Tohodex_UpdateRow:
+Pokedex_UpdateRow:
 ; Populate tiles used for the given row in c with dex numbers and icon.
 	ld a, BANK(wDexMonTiles)
 	call StackCallInWRAMBankA
@@ -662,11 +662,11 @@ Tohodex_UpdateRow:
 	; Set sprite offset.
 	ld a, DEXPOS_ICONTILE_OFFSET
 	ld b, 1 ; the first column is part of BG, not OAM.
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	ld e, l
 	dec b
 	ld a, DEXPOS_PALCOPY
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	dec hl
 	ld [hl], e
 	ld a, e
@@ -676,10 +676,10 @@ Tohodex_UpdateRow:
 
 	; Set up the VWF tilemap row with the proper tiles+attributes.
 	ld a, DEXPOS_TILEMAP
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	push hl
 	ld a, DEXPOS_VWFTILE_OFFSET
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	ld a, l
 	pop hl
 	ld d, 18
@@ -716,7 +716,7 @@ Tohodex_UpdateRow:
 	ld [hl], a
 
 	; If we haven't yet written the previous row tiles, wait for it.
-	ld hl, wTohodex_GFXFlags
+	ld hl, wPokedex_GFXFlags
 	bit DEXGFX_ROWTILES, [hl]
 	call nz, DelayFrame
 
@@ -731,10 +731,10 @@ Tohodex_UpdateRow:
 .loop3
 	; Get mini palette and check species for this position.
 	ld a, DEXPOS_PALCOPY
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	push hl
 	ld a, DEXPOS_MONS
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	ld a, BANK(wDexMons)
 	ldh [rSVBK], a
 	ld a, [hli]
@@ -830,7 +830,7 @@ endc
 	pop bc
 	push af
 	ld a, DEXPOS_ICON_TILES
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	call SwapHLDE
 	pop af
 	push af
@@ -854,7 +854,7 @@ endc
 	ld a, "@"
 	ld [de], a
 	ld a, DEXPOS_VWF_TILES
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	pop af
 	ld d, 0
 	jr nz, .got_vwf_transparency
@@ -876,7 +876,7 @@ endc
 	jmp nz, .loop3
 	ld b, 0
 	ld a, DEXPOS_VWF_VTILES
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	ld de, wDexRowTilesDest
 	ld a, l
 	ld [de], a
@@ -885,7 +885,7 @@ endc
 	ld [de], a
 	inc de
 	ld a, DEXPOS_ICON_VTILES
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	ld a, l
 	ld [de], a
 	inc de
@@ -921,13 +921,13 @@ endc
 .vwfvlines_next
 	dec b
 	jr nz, .vwfvlines_outer_loop
-	ld hl, wTohodex_GFXFlags
+	ld hl, wPokedex_GFXFlags
 	set DEXGFX_ROWTILES, [hl]
 	ret
 
 .GetDexNo:
 	ld a, DEXPOS_MONS
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	ld a, BANK(wDexMons)
 	ldh [rSVBK], a
 	push bc
@@ -945,7 +945,7 @@ endc
 	jr z, .not_seen
 
 	; Otherwise, get the dex number for the species the usual way.
-	call Tohodex_GetDexNumber
+	call Pokedex_GetDexNumber
 	ld h, b
 	ld l, c
 	pop bc
@@ -953,8 +953,8 @@ endc
 
 .not_seen
 	pop bc
-	ld hl, wTohodex_Rows
-	ld a, [wTohodex_Offset]
+	ld hl, wPokedex_Rows
+	ld a, [wPokedex_Offset]
 	add c
 	inc a
 	sub [hl]
@@ -971,14 +971,14 @@ endc
 .get_dexno
 	ld a, DEXPOS_DEXNO
 	; fallthrough
-Tohodex_GetPosData:
+Pokedex_GetPosData:
 ; Sets hl to a pointer offset, or value, depending on position data type in a.
 ; Takes row in c and column in b as input (0-indexed).
 	push bc
 	cp DEXPOS_TILEMAP
 	jr nc, .got_row
 
-	ld hl, wTohodex_Offset
+	ld hl, wPokedex_Offset
 	push af
 	ld a, c
 	add [hl]
@@ -1044,18 +1044,18 @@ Tohodex_GetPosData:
 	dw wAttrmap + 9 * SCREEN_WIDTH + 1, SCREEN_WIDTH * 3, 4
 	dw wDexPalCopy + 1, 6 * 5 + 1, 6
 
-Tohodex_GetDexNumber:
+Pokedex_GetDexNumber:
 ; Optimized version of GetDexNumber for the benefit of the pokédex, which needs
-; to query several Tohodex numbers in quick succession for things like the list.
-; Instead of iterating NewTohodexOrder in case we're in johto mode, it checks a
+; to query several Pokédex numbers in quick succession for things like the list.
+; Instead of iterating NewPokedexOrder in case we're in johto mode, it checks a
 ; conversion table (wDexConversionTable) after figuring out the national dex No.
 ; Do not use this function outside the pokédex, because the conversion table
 ; isn't initialized at that point.
-	ld a, BANK(wTohodexMode)
+	ld a, BANK(wPokedexMode)
 	call StackCallInWRAMBankA
 .StackCall1:
 	call GetNationalDexNumber
-	ld a, [wTohodexMode]
+	ld a, [wPokedexMode]
 	and a
 	ret nz
 
@@ -1073,48 +1073,48 @@ Tohodex_GetDexNumber:
 	ret
 
 
-Tohodex_GetFirstIconTile:
-; Get first icon tile number in a, l, wTohodex_FirstIconTile
+Pokedex_GetFirstIconTile:
+; Get first icon tile number in a, l, wPokedex_FirstIconTile
 	lb bc, 0, 3
 	ld a, DEXPOS_ICONTILE_OFFSET
-	call Tohodex_GetPosData
+	call Pokedex_GetPosData
 	ld a, l
-	ld [wTohodex_FirstIconTile], a
+	ld [wPokedex_FirstIconTile], a
 	ret
 
-TohodexStr_Feet:
+PokedexStr_Feet:
 ; Feet uses its own pelicular display format, so replace the ?s too.
 	db "′??″@"
 
-Tohodex_SetDispModeUnlessNewMon:
-	ld a, [wTohodex_DisplayMode]
+Pokedex_SetDispModeUnlessNewMon:
+	ld a, [wPokedex_DisplayMode]
 	cp DEXDISP_NEWDESC
 	ret z
 	ld a, DEXDISP_DESC
-	ld [wTohodex_DisplayMode], a
+	ld [wPokedex_DisplayMode], a
 	ret
 
-Tohodex_Description:
+Pokedex_Description:
 	; Get tile number for icon/shape
-	call Tohodex_GetFirstIconTile
+	call Pokedex_GetFirstIconTile
 
 	; Load icon/shape into memory
-	call Tohodex_SetDispModeUnlessNewMon
-	call Tohodex_GetCursorMon
+	call Pokedex_SetDispModeUnlessNewMon
+	call Pokedex_GetCursorMon
 
-_Tohodex_Description:
+_Pokedex_Description:
 	; Set display mode again here, in case we begin execution here
-	call Tohodex_SetDispModeUnlessNewMon
+	call Pokedex_SetDispModeUnlessNewMon
 
 	; Move the dex number display.
 	ld a, 17
-	ld [wTohodexOAM_DexNoX], a
+	ld [wPokedexOAM_DexNoX], a
 	ld a, 80
-	ld [wTohodexOAM_DexNoY], a
+	ld [wPokedexOAM_DexNoY], a
 
 	; Load the description tilemap.
 	ld hl, DexTilemap_Description
-	call Tohodex_LoadTilemapWithPokepic
+	call Pokedex_LoadTilemapWithPokepic
 
 	ld de, wStringBuffer1
 	hlcoord 9, 1
@@ -1122,11 +1122,11 @@ _Tohodex_Description:
 
 	; Possibly adjust units of display.
 	ld a, [wOptions2]
-	bit Tohodex_UNITS, a
+	bit POKEDEX_UNITS, a
 	jr nz, .units_ok
 
 	hlcoord 15, 7
-	ld de, TohodexStr_Feet
+	ld de, PokedexStr_Feet
 	rst PlaceString
 	hlcoord 18, 9
 	ld a, "l"
@@ -1135,7 +1135,7 @@ _Tohodex_Description:
 
 .units_ok
 	; Check if we've captured the mon. If not, return "?????" as mon type.
-	call Tohodex_GetCursorSpecies
+	call Pokedex_GetCursorSpecies
 	bit MON_CAUGHT_F, b
 	jr nz, .mon_caught
 	hlcoord 9, 5
@@ -1180,7 +1180,7 @@ endr
 	ldh [hMultiplier], a
 	ld e, a
 	ld a, [wOptions2]
-	bit Tohodex_UNITS, a
+	bit POKEDEX_UNITS, a
 	jr nz, .metric_height
 
 	; Multiply by 500/127
@@ -1230,16 +1230,16 @@ endr
 	ln bc, 0, 2, 4, 5
 	call PrintNumFromReg
 
-.AEIKI_done
+.height_done
 	pop hl
 	inc hl
 
-	; Cost
+	; Weight
 	ld a, BANK(PokemonBodyData)
 	call GetFarWord
 	ld a, [wOptions2]
-	bit Tohodex_UNITS, a
-	jr nz, .metric_cost
+	bit POKEDEX_UNITS, a
+	jr nz, .metric_weight
 
 	; Approximate as follows: lbs = ((kg * 43 * 35 * 192) + (kg * 4)) >> 17.
 	push hl
@@ -1283,20 +1283,20 @@ endr
 	hlcoord 12, 9
 	ln bc, 0, 2, 4, 5
 	call PrintNumFromReg
-	jr .cost_done
+	jr .weight_done
 
-.metric_cost
+.metric_weight
 	ld d, h
 	ld e, l
 	hlcoord 12, 9
 	ln bc, 0, 2, 4, 5
 	call PrintNumFromReg
 
-.cost_done
+.weight_done
 	pop bc
 
 	; Category
-	call Tohodex_GetDexEntryPointer
+	call Pokedex_GetDexEntryPointer
 	hlcoord 9, 5
 	push af
 	call FarString
@@ -1316,7 +1316,7 @@ endr
 
 .footprint_bank
 	; Type and footprint should use correct vram bank
-	ld a, [wTohodex_MonInfoBank]
+	ld a, [wPokedex_MonInfoBank]
 	and a
 	jr nz, .sel_shiny
 	hlcoord 18, 2, wAttrmap
@@ -1346,7 +1346,7 @@ endr
 
 .sel_shiny
 	; Don't display bottom menu or shiny hint in new dex entry mode.
-	ld a, [wTohodex_DisplayMode]
+	ld a, [wPokedex_DisplayMode]
 	cp DEXDISP_NEWDESC
 	jr z, .botmenu_done
 
@@ -1377,7 +1377,7 @@ endr
 	ld a, BANK(wDexTilemap)
 	ldh [rSVBK], a
 	ld b, 0
-	call Tohodex_SetTilemap
+	call Pokedex_SetTilemap
 	hldexcoord 2, 18
 	ld a, $16
 	ld [hli], a
@@ -1414,23 +1414,23 @@ endr
 	set OAM_X_FLIP, [hl]
 
 	ld b, DEXTILE_FROM_DEXMAP
-	call Tohodex_SetTilemap
+	call Pokedex_SetTilemap
 	pop af
 	ldh [rSVBK], a
 
 .botmenu_done
 	ld a, $57
 	ld de, PHB_DescSwitchSCY
-	call Tohodex_ScheduleScreenUpdateWithHBlank
+	call Pokedex_ScheduleScreenUpdateWithHBlank
 
-	ld a, [wTohodex_DisplayMode]
+	ld a, [wPokedex_DisplayMode]
 	cp DEXDISP_NEWDESC
 	jr nz, .joypad_loop
-	call Tohodex_GetCursorSpecies
+	call Pokedex_GetCursorSpecies
 	call PlayCry
 
 .newdesc_joypad
-	call Tohodex_GetInput
+	call Pokedex_GetInput
 	rrca
 	jr c, .newdesc_a
 	rrca
@@ -1469,12 +1469,12 @@ endr
 	ld [hl], $1d
 .page_ok
 	push af
-	call Tohodex_ScheduleScreenUpdate
+	call Pokedex_ScheduleScreenUpdate
 	pop af
 	ret
 
 .joypad_loop
-	call Tohodex_GetInput
+	call Pokedex_GetInput
 	rrca
 	jr c, .pressed_a
 	rrca
@@ -1495,49 +1495,49 @@ endr
 
 .pressed_a
 	; print other page description
-	ld a, [wTohodexOAM_IsCaught]
+	ld a, [wPokedexOAM_IsCaught]
 	and a
 	call nz, .SwitchPage
 	jr .joypad_loop
 
 .pressed_select
 	; cycle shininess
-	call Tohodex_SwitchNormalOrShinyPaletteAndUpdate
+	call Pokedex_SwitchNormalOrShinyPaletteAndUpdate
 	jr .joypad_loop
 
 .pressed_up
-	call Tohodex_PrevPageMon
+	call Pokedex_PrevPageMon
 	jr nz, .joypad_loop
 	jr .reload_page
 
 .pressed_down
-	call Tohodex_NextPageMon
+	call Pokedex_NextPageMon
 	jr nz, .joypad_loop
 .reload_page
 	pop af
 	pop hl
 	pop hl
-	jmp Tohodex_Description
+	jmp Pokedex_Description
 
 .pressed_right
-	ld a, [wTohodexOAM_IsCaught]
+	ld a, [wPokedexOAM_IsCaught]
 	and a
 	jr z, .pressed_left
 	pop af
 	pop hl
 	pop hl
-	jmp Tohodex_Bio
+	jmp Pokedex_Bio
 
 .pressed_left
 	pop af
 	pop hl
 	pop hl
-	jmp Tohodex_Area
+	jmp Pokedex_Area
 
 .pressed_start
 	; cycle form (if applicable)
 	ld a, 1
-	call Tohodex_ChangeForm
+	call Pokedex_ChangeForm
 	jr c, .joypad_loop
 	jr .reload_page
 
@@ -1547,25 +1547,25 @@ endr
 	pop hl
 
 	; fallthrough
-Tohodex_Main:
+Pokedex_Main:
 	; Move the dex number display.
 	ld a, 77
-	ld [wTohodexOAM_DexNoX], a
+	ld [wPokedexOAM_DexNoX], a
 	ld a, 16
-	ld [wTohodexOAM_DexNoY], a
+	ld [wPokedexOAM_DexNoY], a
 
 	ld hl, DexTilemap_Main
-	call Tohodex_LoadTilemapWithPokepic
+	call Pokedex_LoadTilemapWithPokepic
 
 	xor a
-	ld [wTohodex_DisplayMode], a
+	ld [wPokedex_DisplayMode], a
 
 	call ClearSpriteAnims
 	lb de, $50, $09
 	ld a, SPRITE_ANIM_INDEX_DEX_CURSOR
 	call InitSpriteAnimStruct
 
-	ld a, [wTohodex_InSearchMode]
+	ld a, [wPokedex_InSearchMode]
 	and a
 	jr z, .print_seen_own
 
@@ -1579,10 +1579,10 @@ Tohodex_Main:
 	ld l, a
 	ld b, a
 	ld c, 5
-	ld a, [wTohodex_Rows]
+	ld a, [wPokedex_Rows]
 	dec a
 	call nz, AddNTimes
-	ld a, [wTohodex_LastCol]
+	ld a, [wPokedex_LastCol]
 	ld c, a
 	add hl, bc
 	ld d, h
@@ -1595,43 +1595,43 @@ Tohodex_Main:
 .print_seen_own
 	hlcoord 11, 7
 	lb bc, 2, 3
-	ld de, wTohodex_NumSeen
+	ld de, wPokedex_NumSeen
 	call PrintNum
 	hlcoord 17, 7
 	lb bc, 2, 3
-	ld de, wTohodex_NumOwned
+	ld de, wPokedex_NumOwned
 	call PrintNum
 
 .minibox_done
 	ld c, 0
-	call Tohodex_UpdateRow
+	call Pokedex_UpdateRow
 	ld c, 1
-	call Tohodex_UpdateRow
+	call Pokedex_UpdateRow
 	ld c, 2
-	call Tohodex_UpdateRow
+	call Pokedex_UpdateRow
 
-	call Tohodex_GetCursorMon
+	call Pokedex_GetCursorMon
 
 	ld a, $3f
 	ld de, PHB_Row1
-	jmp Tohodex_ScheduleScreenUpdateWithHBlank
+	jmp Pokedex_ScheduleScreenUpdateWithHBlank
 
 .ResultString:
 	db " Results/  @"
 
-Tohodex_Bio:
+Pokedex_Bio:
 	ld a, DEXDISP_BIO
-	ld [wTohodex_DisplayMode], a
+	ld [wPokedex_DisplayMode], a
 
 	; Load the bio tilemap.
 	ld hl, DexTilemap_Bio
-	call Tohodex_LoadTilemapWithIconAndForm
+	call Pokedex_LoadTilemapWithIconAndForm
 
-	call Tohodex_GetCursorSpecies
+	call Pokedex_GetCursorSpecies
 	call GetSpeciesAndFormIndex
 
 	; Print category
-	call Tohodex_GetDexEntryPointer
+	call Pokedex_GetDexEntryPointer
 	hlcoord 4, 3
 	call FarString
 
@@ -1774,22 +1774,22 @@ Tohodex_Bio:
 
 	ld a, $84
 	ld de, PHB_BioStatsSwitchSCY
-	call Tohodex_ScheduleScreenUpdateWithHBlank
+	call Pokedex_ScheduleScreenUpdateWithHBlank
 
 .joypad_loop
-	call Tohodex_GetInput
+	call Pokedex_GetInput
 	rrca
 	jr c, .pressed_a
 	rrca
-	jmp c, Tohodex_Main
+	jmp c, Pokedex_Main
 	rrca
 	jr c, .pressed_select
 	rrca
 	jr c, .pressed_start
 	rrca
-	jmp c, Tohodex_Stats
+	jmp c, Pokedex_Stats
 	rrca
-	jmp c, _Tohodex_Description
+	jmp c, _Pokedex_Description
 	rrca
 	jr c, .pressed_up
 	rrca
@@ -1798,28 +1798,28 @@ Tohodex_Bio:
 
 .pressed_select
 	; cycle shininess
-	call Tohodex_SwitchNormalOrShinyPaletteAndUpdate
+	call Pokedex_SwitchNormalOrShinyPaletteAndUpdate
 	jr .joypad_loop
 
 .pressed_start
 	xor a
-	call Tohodex_ChangeForm
+	call Pokedex_ChangeForm
 	jr c, .joypad_loop
 	jr .reload_page
 
 .pressed_up
-	call Tohodex_PrevPageMon
+	call Pokedex_PrevPageMon
 	jr nz, .joypad_loop
 	jr .reload_position
 
 .pressed_down
-	call Tohodex_NextPageMon
+	call Pokedex_NextPageMon
 	jr nz, .joypad_loop
 .reload_position
-	call Tohodex_GetFirstIconTile
+	call Pokedex_GetFirstIconTile
 .reload_page
-	call Tohodex_GetCursorMon
-	jmp Tohodex_Bio
+	call Pokedex_GetCursorMon
+	jmp Pokedex_Bio
 
 .pressed_a
 	ld a, [wCurPartySpecies]
@@ -1848,20 +1848,20 @@ Tohodex_Bio:
 .AllString:
 	db "100%@"
 
-INCLUDE "data/tohodex_bio.asm"
+INCLUDE "data/pokedex_bio.asm"
 
-Tohodex_Stats:
+Pokedex_Stats:
 	xor a
-	ldh [hTohodexStatsCurAbil], a
-_Tohodex_Stats:
+	ldh [hPokedexStatsCurAbil], a
+_Pokedex_Stats:
 	ld a, DEXDISP_STATS
-	ld [wTohodex_DisplayMode], a
+	ld [wPokedex_DisplayMode], a
 
 	; Load the stats tilemap.
 	ld hl, DexTilemap_Stats
-	call Tohodex_LoadTilemapWithIconAndForm
+	call Pokedex_LoadTilemapWithIconAndForm
 
-	call Tohodex_GetCursorSpecies
+	call Pokedex_GetCursorSpecies
 	call GetSpeciesAndFormIndex
 
 	; load base stats + EV yield, starting with HP
@@ -1915,7 +1915,7 @@ _Tohodex_Stats:
 	ld a, [wBaseEVYield1]
 	call .print_ev_dots
 
-	ldh a, [hTohodexStatsCurAbil]
+	ldh a, [hPokedexStatsCurAbil]
 	add LOW(wBaseAbility1)
 	ld l, a
 	adc HIGH(wBaseAbility1)
@@ -1929,7 +1929,7 @@ _Tohodex_Stats:
 	farcall PrintAbilityDescription
 
 	; use correct vram bank for types and footprint
-	ld a, [wTohodex_MonInfoBank]
+	ld a, [wPokedex_MonInfoBank]
 	and a
 	jr nz, .vbank_1
 	hlcoord 18, 2, wAttrmap
@@ -1960,22 +1960,22 @@ _Tohodex_Stats:
 .vbank_1
 	ld a, $84
 	ld de, PHB_BioStatsSwitchSCY
-	call Tohodex_ScheduleScreenUpdateWithHBlank
+	call Pokedex_ScheduleScreenUpdateWithHBlank
 
 .joypad_loop
-	call Tohodex_GetInput
+	call Pokedex_GetInput
 	rrca
 	jr c, .pressed_a
 	rrca
-	jmp c, Tohodex_Main
+	jmp c, Pokedex_Main
 	rrca
 	jr c, .pressed_select
 	rrca
 	jr c, .pressed_start
 	rrca
-	jmp c, Tohodex_Area
+	jmp c, Pokedex_Area
 	rrca
-	jmp c, Tohodex_Bio
+	jmp c, Pokedex_Bio
 	rrca
 	jr c, .pressed_up
 	rrca
@@ -1984,41 +1984,41 @@ _Tohodex_Stats:
 
 .pressed_select
 	; cycle shininess
-	call Tohodex_SwitchNormalOrShinyPaletteAndUpdate
+	call Pokedex_SwitchNormalOrShinyPaletteAndUpdate
 	jr .joypad_loop
 
 .pressed_start
 	xor a
-	call Tohodex_ChangeForm
+	call Pokedex_ChangeForm
 	jr c, .joypad_loop
 	jr .reload_page
 
 .pressed_up
-	call Tohodex_PrevPageMon
+	call Pokedex_PrevPageMon
 	jr nz, .joypad_loop
 	jr .reload_position
 
 .pressed_down
-	call Tohodex_NextPageMon
+	call Pokedex_NextPageMon
 	jr nz, .joypad_loop
 .reload_position
-	call Tohodex_GetFirstIconTile
+	call Pokedex_GetFirstIconTile
 .reload_page
-	call Tohodex_GetCursorMon
-	jmp _Tohodex_Stats
+	call Pokedex_GetCursorMon
+	jmp _Pokedex_Stats
 
 .pressed_a
 	lb bc, 4, 19
 	hlcoord 1, 13
 	push hl
 	call ClearBox
-	ldh a, [hTohodexStatsCurAbil]
+	ldh a, [hPokedexStatsCurAbil]
 	inc a
 	cp 3
 	jr nz, .got_new_abil
 	xor a
 .got_new_abil
-	ldh [hTohodexStatsCurAbil], a
+	ldh [hPokedexStatsCurAbil], a
 	add LOW(wBaseAbility1)
 	ld l, a
 	adc HIGH(wBaseAbility1)
@@ -2030,7 +2030,7 @@ _Tohodex_Stats:
 	farcall PrintAbility
 	pop bc
 	farcall PrintAbilityDescription
-	call Tohodex_ScheduleScreenUpdate
+	call Pokedex_ScheduleScreenUpdate
 	jr .joypad_loop
 
 .print_ev_dots
@@ -2040,7 +2040,7 @@ _Tohodex_Stats:
 	ld [hl], a
 	ret
 
-Tohodex_SetModeSearchPals:
+Pokedex_SetModeSearchPals:
 	ld a, BANK(wBGPals1)
 	call StackCallInWRAMBankA
 .Function:
@@ -2050,7 +2050,7 @@ Tohodex_SetModeSearchPals:
 	rst CopyBytes
 	ret
 
-Tohodex_ResetModeSearchPals:
+Pokedex_ResetModeSearchPals:
 ; Sets BG2 to white/black/white/black, BG3:0 to white. Mid 2 are irrelevant.
 	ld a, BANK(wBGPals1)
 	call StackCallInWRAMBankA
@@ -2087,31 +2087,31 @@ else
 	RGB_MONOCHROME_BLACK
 endc
 
-Tohodex_Mode:
-	ld a, [wTohodexMode]
-	ld [wTohodex_MenuCursorY], a
-	ld [wTohodexOAM_DexNoY], a
-Tohodex_Mode_ReloadPals:
+Pokedex_Mode:
+	ld a, [wPokedexMode]
+	ld [wPokedex_MenuCursorY], a
+	ld [wPokedexOAM_DexNoY], a
+Pokedex_Mode_ReloadPals:
 	ld a, DEXDISP_MODE
-	ld [wTohodex_DisplayMode], a
-	call Tohodex_SetModeSearchPals
+	ld [wPokedex_DisplayMode], a
+	call Pokedex_SetModeSearchPals
 	; fallthrough
-_Tohodex_Mode:
+_Pokedex_Mode:
 	ld hl, DexTilemap_Mode
-	call Tohodex_LoadTilemap
+	call Pokedex_LoadTilemap
 
-	; Maybe add Hina Mode option
-	ld de, ENGINE_HINA_DEX
+	; Maybe add Unown Mode option
+	ld de, ENGINE_UNOWN_DEX
 	farcall CheckEngineFlag
-	jr c, .done_hina_mode
+	jr c, .done_unown_mode
 
 	hlcoord 2, 8
-	ld de, .HinaMode
+	ld de, .UnownMode
 	rst PlaceString
 
-.done_hina_mode
+.done_unown_mode
 	hlcoord 1, 4
-	ld a, [wTohodex_MenuCursorY]
+	ld a, [wPokedex_MenuCursorY]
 	push af
 	ld bc, SCREEN_WIDTH * 2
 	rst AddNTimes
@@ -2129,9 +2129,9 @@ _Tohodex_Mode:
 	; disable hblank int
 	ld a, $57
 	ld de, PHB_ModeSwitchSCY
-	call Tohodex_ScheduleScreenUpdateWithHBlank
+	call Pokedex_ScheduleScreenUpdateWithHBlank
 .joypad_loop
-	call Tohodex_GetInput
+	call Pokedex_GetInput
 	rrca
 	jr c, .pressed_a
 	rrca
@@ -2148,57 +2148,57 @@ _Tohodex_Mode:
 	jr .joypad_loop
 
 .pressed_a
-	ld a, [wTohodex_MenuCursorY]
+	ld a, [wPokedex_MenuCursorY]
 	cp 2
 	jr c, .change_mode
 	jr nz, .return
-	jmp Tohodex_Hina
+	jmp Pokedex_Unown
 
 .change_mode
-	ld [wTohodexMode], a
+	ld [wPokedexMode], a
 
 	; In search mode, reload search results.
-	ld a, [wTohodex_InSearchMode]
+	ld a, [wPokedex_InSearchMode]
 	and a
 	push af
-	call z, Tohodex_InitData
+	call z, Pokedex_InitData
 	pop af
-	call nz, Tohodex_GetSearchResults
+	call nz, Pokedex_GetSearchResults
 	xor a
-	ld [wTohodex_CursorPos], a
-	ld [wTohodex_Offset], a
+	ld [wPokedex_CursorPos], a
+	ld [wPokedex_Offset], a
 .return
-	call Tohodex_ResetModeSearchPals
-	jmp Tohodex_Main
+	call Pokedex_ResetModeSearchPals
+	jmp Pokedex_Main
 
 .pressed_up
 	ld b, -1 ; Menu movement modifier
 .change_menu
-	ld a, [wTohodex_MenuCursorY]
+	ld a, [wPokedex_MenuCursorY]
 .change_menu_loop
 	add b
 
 	; Check if we went past top or bottom.
 	cp NUM_DEXMODE
 	jr nc, .change_menu_loop
-	ld [wTohodex_MenuCursorY], a
+	ld [wPokedex_MenuCursorY], a
 
-	cp DEXMODE_HINA
-	jmp nz, _Tohodex_Mode
+	cp DEXMODE_UNOWN
+	jmp nz, _Pokedex_Mode
 
 	push bc
-	ld de, ENGINE_HINA_DEX
+	ld de, ENGINE_UNOWN_DEX
 	farcall CheckEngineFlag
 	pop bc
 	jr c, .change_menu
-	jmp _Tohodex_Mode
+	jmp _Pokedex_Mode
 
 .pressed_down
 	ld b, 1
 	jr .change_menu
 
-.HinaMode:
-	db "Hina Mode@"
+.UnownMode:
+	db "Unown Mode@"
 
 .MenuDescriptions:
 	db   "<PK><MN> are listed in"
@@ -2207,41 +2207,41 @@ _Tohodex_Mode:
 	db   "<PK><MN> are listed in"
 	next "national order.@"
 
-	db   "Display Hina"
+	db   "Display Unown"
 	next "information.@"
 
 	db   "Return to the <PK><MN>"
 	next "list.@"
 
-Tohodex_Search:
+Pokedex_Search:
 ; Call to fully initialize Search page and reset cursor pos
 	ld a, DEXDISP_SEARCH
-	ld [wTohodex_DisplayMode], a
+	ld [wPokedex_DisplayMode], a
 
-	call Tohodex_SetModeSearchPals
+	call Pokedex_SetModeSearchPals
 
 	xor a
-	ld [wTohodexOAM_DexNoY], a
-	ld [wTohodex_MenuCursorY], a
+	ld [wPokedexOAM_DexNoY], a
+	ld [wPokedex_MenuCursorY], a
 
 	; In search mode, don't reset current fields.
-	ld a, [wTohodex_InSearchMode]
+	ld a, [wPokedex_InSearchMode]
 	and a
-	jr nz, _Tohodex_Search
+	jr nz, _Pokedex_Search
 	; fallthrough
-Tohodex_SearchReset:
+Pokedex_SearchReset:
 ; Resets all search fields but preserves cursor pos
 	xor a
-	ld hl, wTohodex_Search
+	ld hl, wPokedex_Search
 	ld bc, NUM_DEXSEARCH
 	rst ByteFill
 	; fallthrough
-_Tohodex_Search:
+_Pokedex_Search:
 	ld hl, DexTilemap_Search
-	call Tohodex_LoadTilemap
+	call Pokedex_LoadTilemap
 
 	; Update body shape tiles.
-	ld a, [wTohodex_SearchBody]
+	ld a, [wPokedex_SearchBody]
 	and a
 	jr z, .shape_done
 
@@ -2255,7 +2255,7 @@ _Tohodex_Search:
 	ldh [rSVBK], a
 	ld de, wDexMonShapeTiles
 	lb bc, BANK(Shapes), 4
-	call Tohodex_Copy1bpp
+	call Pokedex_Copy1bpp
 
 	; Blank "----" for body.
 	hlcoord 7, 16
@@ -2263,9 +2263,9 @@ _Tohodex_Search:
 	rst PlaceString
 
 	; Display shape tiles and switch tile bank and palette
-	call Tohodex_GetFirstIconTile
+	call Pokedex_GetFirstIconTile
 	ld b, a
-	ld a, [wTohodex_MonInfoBank]
+	ld a, [wPokedex_MonInfoBank]
 	swap a
 	rrca
 	add b
@@ -2292,14 +2292,14 @@ _Tohodex_Search:
 	ld [hl], a
 
 	; This will also do a useless write of mini data, but that is fine.
-	ld hl, wTohodex_GFXFlags
+	ld hl, wPokedex_GFXFlags
 	set DEXGFX_ICONSHAPE, [hl]
 	pop af
 	ldh [rSVBK], a
 
 .shape_done
 	; Update body shape pal.
-	ld a, [wTohodex_SearchColor]
+	ld a, [wPokedex_SearchColor]
 	add a
 	add LOW(BodyColorPalsIncludingNull)
 	ld l, a
@@ -2312,7 +2312,7 @@ _Tohodex_Search:
 	call FarCopyBytesToColorWRAM
 	; Draw cursor
 	hlcoord 1, 3
-	ld a, [wTohodex_MenuCursorY]
+	ld a, [wPokedex_MenuCursorY]
 	ld bc, SCREEN_WIDTH * 2
 	rst AddNTimes
 	ld [hl], "▶"
@@ -2323,7 +2323,7 @@ _Tohodex_Search:
 	; Body is handled seperately, hence "- 1".
 	ld a, NUM_DEXSEARCH - 1
 	ld bc, .SearchStringTableLocations
-	ld de, wTohodex_Search
+	ld de, wPokedex_Search
 .print_loop
 	push af
 	push de
@@ -2377,15 +2377,15 @@ _Tohodex_Search:
 
 	ld a, $f
 	ld de, PHB_SearchSwitchSCY
-	call Tohodex_ScheduleScreenUpdateWithHBlank
+	call Pokedex_ScheduleScreenUpdateWithHBlank
 .joypad_loop
-	call Tohodex_GetInput
+	call Pokedex_GetInput
 	rrca
 	jr c, .pressed_a
 	rrca
 	jr c, .pressed_b
 	rrca
-	jmp c, Tohodex_SearchReset ; pressed select
+	jmp c, Pokedex_SearchReset ; pressed select
 	rrca
 	jr c, .pressed_start
 	rrca
@@ -2399,13 +2399,13 @@ _Tohodex_Search:
 	jr .joypad_loop
 
 .pressed_a
-	ld a, [wTohodex_MenuCursorY]
+	ld a, [wPokedex_MenuCursorY]
 	cp NUM_DEXSEARCH ; Start!
 	jr c, .pressed_right
 .pressed_start
 	call ClearSpriteAnims
 	lb de, 120, 120
-	ld a, SPRITE_ANIM_INDEX_DEX_DLUIZE
+	ld a, SPRITE_ANIM_INDEX_DEX_SLOWPOKE
 	call InitSpriteAnimStruct
 
 	; Set a search timer.
@@ -2414,14 +2414,14 @@ _Tohodex_Search:
 	call z, DelayFrame
 	ldh a, [hVBlankCounter]
 	inc a
-	ld [wTohodex_SearchInProgress], a
+	ld [wPokedex_SearchInProgress], a
 
 	; Marks that we need to reload the list if we press B upon no results.
 	ld a, 1
-	ld [wTohodex_InSearchMode], a
-	call Tohodex_GetSearchResults
+	ld [wPokedex_InSearchMode], a
+	call Pokedex_GetSearchResults
 	push af
-	ld a, [wTohodex_SearchInProgress]
+	ld a, [wPokedex_SearchInProgress]
 	ld b, a
 .wait_81_frames
 	call DelayFrame
@@ -2430,7 +2430,7 @@ _Tohodex_Search:
 	cp 81
 	jr c, .wait_81_frames
 	xor a
-	ld [wTohodex_SearchInProgress], a
+	ld [wPokedex_SearchInProgress], a
 	call ClearSpriteAnims
 	pop af
 	jr nz, .reset_cursor
@@ -2442,19 +2442,19 @@ _Tohodex_Search:
 
 .pressed_b
 	; If we're currently in search mode, reinitialize the dex list first.
-	ld a, [wTohodex_InSearchMode]
+	ld a, [wPokedex_InSearchMode]
 	and a
 	jr z, .reset_pals
 	xor a
-	ld [wTohodex_InSearchMode], a
-	call Tohodex_InitData
+	ld [wPokedex_InSearchMode], a
+	call Pokedex_InitData
 .reset_cursor
 	xor a
-	ld [wTohodex_CursorPos], a
-	ld [wTohodex_Offset], a
+	ld [wPokedex_CursorPos], a
+	ld [wPokedex_Offset], a
 .reset_pals
-	call Tohodex_ResetModeSearchPals
-	jmp Tohodex_Main
+	call Pokedex_ResetModeSearchPals
+	jmp Pokedex_Main
 
 .pressed_up
 	ld b, -1
@@ -2463,15 +2463,15 @@ _Tohodex_Search:
 .pressed_down
 	ld b, 1
 .move_cursor
-	ld a, [wTohodex_MenuCursorY]
+	ld a, [wPokedex_MenuCursorY]
 .cursor_move_loop
 	add b
 	; + 1 includes "Start!" as an option among carry
 	cp NUM_DEXSEARCH + 1
 	jr nc, .cursor_move_loop
-	ld [wTohodex_MenuCursorY], a
+	ld [wPokedex_MenuCursorY], a
 .reload
-	jmp _Tohodex_Search
+	jmp _Pokedex_Search
 
 .pressed_right
 	ld b, 1
@@ -2480,20 +2480,20 @@ _Tohodex_Search:
 .pressed_left
 	ld b, -1
 .switch_index
-	ld a, [wTohodex_MenuCursorY]
+	ld a, [wPokedex_MenuCursorY]
 
 	; do nothing if we're on "Start"
 	cp NUM_DEXSEARCH
 	jmp z, .joypad_loop
 
 	push af
-	add LOW(wTohodex_Search)
+	add LOW(wPokedex_Search)
 	ld l, a
-	adc HIGH(wTohodex_Search)
+	adc HIGH(wPokedex_Search)
 	sub l
 	ld h, a
 	push hl
-	ld de, .SearchOptionRanges - wTohodex_Search
+	ld de, .SearchOptionRanges - wPokedex_Search
 	add hl, de
 	pop de
 	ld a, [de]
@@ -2508,7 +2508,7 @@ _Tohodex_Search:
 	; If we're messing with shape, switch icon bank.
 	pop af
 	cp DEXSEARCH_SHAPE
-	call z, Tohodex_SwitchMonInfoBank
+	call z, Pokedex_SwitchMonInfoBank
 	jr .reload
 
 .SearchOptionRanges:
@@ -2539,10 +2539,10 @@ _Tohodex_Search:
 	; Blanks the default "----" string.
 	db "    @"
 
-Tohodex_ResetDexMonsAndTemp:
+Pokedex_ResetDexMonsAndTemp:
 ; Resets wDexMons and wTempDex RAM.
 	xor a
-	ld hl, wTohodex_FinalEntry
+	ld hl, wPokedex_FinalEntry
 	ld [hli], a
 	ld [hl], a
 	ld hl, wTempDex
@@ -2562,8 +2562,8 @@ Tohodex_ResetDexMonsAndTemp:
 	ldh [rSVBK], a
 	ret
 
-Tohodex_ConvertFinalEntryToRowCols:
-	ld hl, wTohodex_FinalEntry
+Pokedex_ConvertFinalEntryToRowCols:
+	ld hl, wPokedex_FinalEntry
 	ld a, [hli]
 	ld b, [hl]
 	ld hl, hDividend + 1
@@ -2575,26 +2575,26 @@ Tohodex_ConvertFinalEntryToRowCols:
 	farcall Divide
 	ldh a, [hRemainder]
 	inc a
-	ld [wTohodex_LastCol], a
+	ld [wPokedex_LastCol], a
 	ldh a, [hQuotient + 2]
 	inc a
-	ld [wTohodex_Rows], a
+	ld [wPokedex_Rows], a
 	ret
 
-Tohodex_GetSearchResults:
+Pokedex_GetSearchResults:
 ; Returns z if there was no search results.
-	call Tohodex_ResetDexMonsAndTemp
+	call Pokedex_ResetDexMonsAndTemp
 
-	ld a, [wTohodex_SearchOrder]
+	ld a, [wPokedex_SearchOrder]
 	and a
 	ld a, 2
 	jr nz, .got_search_order
-	ld a, [wTohodexMode]
+	ld a, [wPokedexMode]
 	xor 1 ; for IterateSpecies, 0=national, 1=regional
 .got_search_order
 	ld hl, .SpeciesCallback
-	call Tohodex_IterateSpecies
-	call Tohodex_ConvertFinalEntryToRowCols
+	call Pokedex_IterateSpecies
+	call Pokedex_ConvertFinalEntryToRowCols
 
 	; If the first byte in wDexMons is blank, there was
 	; no search results found, otherwise it'd be 1-254,
@@ -2611,13 +2611,13 @@ Tohodex_GetSearchResults:
 	ret
 
 .SpeciesCallback:
-	call Tohodex_HandleSeenOwn
+	call Pokedex_HandleSeenOwn
 	ret z
 
 	jr c, .caught
 
 	; Check if we're doing a null search. - 1 to exclude search order.
-	ld hl, wTohodex_SearchData
+	ld hl, wPokedex_SearchData
 	ld d, NUM_DEXSEARCH - 1
 	xor a
 .check_null_search
@@ -2642,7 +2642,7 @@ Tohodex_GetSearchResults:
 	; de contains cosmetic species index, we want regional index
 	call GetSpeciesAndFormIndex
 
-	ld hl, wTohodex_SearchData
+	ld hl, wPokedex_SearchData
 	push hl
 	ld a, [hli]
 	or [hl]
@@ -2655,17 +2655,17 @@ Tohodex_GetSearchResults:
 
 	; Check base data (types + egg groups)
 	call GetBaseDataFromIndexBC
-	call .CheckTypes ; check wTohodex_SearchType1
+	call .CheckTypes ; check wPokedex_SearchType1
 	jr nz, .invalid
 	inc hl
-	call .CheckTypes ; check wTohodex_SearchType2
+	call .CheckTypes ; check wPokedex_SearchType2
 	jr nz, .invalid
 
 	inc hl
-	call .CheckEggGroups ; check wTohodex_SearchGroup1
+	call .CheckEggGroups ; check wPokedex_SearchGroup1
 	jr nz, .invalid
 	inc hl
-	call .CheckEggGroups ; check wTohodex_SearchGroup2
+	call .CheckEggGroups ; check wPokedex_SearchGroup2
 	jr nz, .invalid
 	push hl
 
@@ -2721,7 +2721,7 @@ endr
 
 .check_finalentry
 	; First, get the last entry handled in wDexMons.
-	ld hl, wTohodex_FinalEntry + 1
+	ld hl, wPokedex_FinalEntry + 1
 	ld a, [hld]
 	ld e, [hl]
 	ld d, a
@@ -2819,32 +2819,32 @@ else
 endc
 BodyColorPals:
 	table_width 2
-INCLUDE "gfx/Tohodex/body_colors.pal"
+INCLUDE "gfx/pokedex/body_colors.pal"
 	assert_table_length NUM_BODY_COLORS
 
-Tohodex_InitData:
-; Initializes the list of Tohomon seen and owned.
+Pokedex_InitData:
+; Initializes the list of Pokémon seen and owned.
 	; Reset cursor positioning and wTempDex data.
-	call Tohodex_ResetDexMonsAndTemp
+	call Pokedex_ResetDexMonsAndTemp
 
-	; Then populate the list with seen/captured Tohomon. Do seen first, because
+	; Then populate the list with seen/captured Pokémon. Do seen first, because
 	; a captured altform takes predecence over a seen regular form.
 	ld hl, .SpeciesCallback
-	call Tohodex_IterateSpeciesWithMode
+	call Pokedex_IterateSpeciesWithMode
 
 	; Set up LastCol and Rows
-	call Tohodex_ConvertFinalEntryToRowCols
+	call Pokedex_ConvertFinalEntryToRowCols
 
 	; Write to seen/owned
 	ld hl, wTempDexSeen
-	ld de, wTohodex_NumSeen
+	ld de, wPokedex_NumSeen
 	ld bc, 4
 	rst CopyBytes
 	ret
 
 .SpeciesCallback:
 	; We can't stackcall to wDexMons because HandleSeenOwn assumes wram1.
-	call Tohodex_HandleSeenOwn
+	call Pokedex_HandleSeenOwn
 	ret z
 
 	; This is placed here because we want to preserve HandleSeenOwn flags.
@@ -2857,11 +2857,11 @@ Tohodex_InitData:
 	jr nc, .not_caught
 	set MON_CAUGHT_F, d
 .not_caught
-	call Tohodex_GetDexNumber
+	call Pokedex_GetDexNumber
 	dec bc
 
 	; Track which entry we appended last.
-	ld hl, wTohodex_FinalEntry
+	ld hl, wPokedex_FinalEntry
 	ld a, c
 	ld [hli], a
 	ld [hl], b
@@ -2879,7 +2879,7 @@ Tohodex_InitData:
 	ldh [rSVBK], a
 	ret
 
-Tohodex_CountSeenOwn:
+Pokedex_CountSeenOwn:
 ; Returns amount of seen in wTempDexSeen, owned in wTempDexOwn. Preserves regs.
 	push hl
 	push de
@@ -2903,8 +2903,8 @@ Tohodex_CountSeenOwn:
 	ld bc, wTempDexEnd - wTempDex
 	xor a
 	rst ByteFill
-	ld hl, Tohodex_HandleSeenOwn
-	call Tohodex_IterateSpecies
+	ld hl, Pokedex_HandleSeenOwn
+	call Pokedex_IterateSpecies
 	pop bc
 	pop hl
 	pop de
@@ -2914,7 +2914,7 @@ Tohodex_CountSeenOwn:
 .done
 	jmp PopAFBCDEHL
 
-Tohodex_HandleSeenOwn:
+Pokedex_HandleSeenOwn:
 ; IterateSpecies callback that handles seen/owned statistics.
 ; Returns c if we've caught the mon, nz if we've seen it, otherwise z.
 ; It uses bc as input for species+form, de as input for extended index.
@@ -2922,8 +2922,8 @@ Tohodex_HandleSeenOwn:
 ; is used as main callback (and not chained with another that messes with
 ; the way it handles things). Not that the one invoking this callback has to
 ; clear wTempDex-wTempDexEnd itself.
-	; First, check if we own the Tohomon.
-	ld hl, wTohodexCaught
+	; First, check if we own the Pokémon.
+	ld hl, wPokedexCaught
 	call .CheckDexFlag
 	jr z, .check_seen
 
@@ -2958,7 +2958,7 @@ Tohodex_HandleSeenOwn:
 
 .not_last
 	push hl
-	ld hl, wTohodexSeen
+	ld hl, wPokedexSeen
 	call .CheckDexFlag
 	pop hl
 	ret z
@@ -2974,18 +2974,18 @@ Tohodex_HandleSeenOwn:
 	push de
 	push bc
 	ld b, CHECK_FLAG
-	; Not TohodexFlagAction, it's pointless when we already have extended index.
+	; Not PokedexFlagAction, it's pointless when we already have extended index.
 	call FlagAction
 	pop bc
 	pop de
 	ret
 
-Tohodex_IterateSpeciesWithMode:
-	; wTohodexMode is 0 (johto)/1 (national), but IterateSpecies swaps them for
+Pokedex_IterateSpeciesWithMode:
+	; wPokedexMode is 0 (johto)/1 (national), but IterateSpecies swaps them for
 	; simplicity. So do a xor 1 here.
-	ld a, [wTohodexMode]
+	ld a, [wPokedexMode]
 	xor 1
-Tohodex_IterateSpecies:
+Pokedex_IterateSpecies:
 ; Iterates all species. For each iteration, use hl as callback for a function to
 ; call for each valid species ID including all forms. bc contains species+form
 ; being checked. and de contains the resulting variant (not cosmetic) index.
@@ -3099,9 +3099,9 @@ Tohodex_IterateSpecies:
 .new_dex_order
 	push hl
 	dec a ; cp DEXMODE_NEW
-	ld hl, NewTohodexOrder
+	ld hl, NewPokedexOrder
 	jr z, .got_dex_order
-	ld hl, AlphabeticalTohodexOrder
+	ld hl, AlphabeticalPokedexOrder
 .got_dex_order
 	add hl, bc
 	add hl, bc
@@ -3111,14 +3111,14 @@ Tohodex_IterateSpecies:
 	pop hl
 	ret
 
-Tohodex_GetInput:
+Pokedex_GetInput:
 ; Returns button input in a, and potentially handles screen refreshing.
 	xor a ; ld a, FALSE
 	ldh [hVBlankOccurred], a
-	ld hl, wTohodex_GFXFlags
+	ld hl, wPokedex_GFXFlags
 	bit DEXGFX_DEFERRED, [hl]
 	res DEXGFX_DEFERRED, [hl]
-	call nz, Tohodex_RefreshScreen
+	call nz, Pokedex_RefreshScreen
 	call MaybeDelayFrame
 	call JoyTextDelay_AllowRepeat
 
@@ -3131,7 +3131,7 @@ Tohodex_GetInput:
 	and D_PAD
 	ret
 
-Tohodex_LoadUndiscoveredPokepic:
+Pokedex_LoadUndiscoveredPokepic:
 ; Always returns z.
 	ldh a, [rSVBK]
 	push af
@@ -3145,39 +3145,39 @@ Tohodex_LoadUndiscoveredPokepic:
 	call FarDecompressToDE
 	pop af
 	ldh [rSVBK], a
-	ld hl, wTohodex_GFXFlags
+	ld hl, wPokedex_GFXFlags
 	set DEXGFX_FRONTPIC, [hl]
 
-	ld hl, Tohodex_QuestionMarkPal
+	ld hl, Pokedex_QuestionMarkPal
 	ld de, wBGPals1 palette 6 + 2
-	ld a, BANK(Tohodex_QuestionMarkPal)
+	ld a, BANK(Pokedex_QuestionMarkPal)
 	ld bc, 4
 	call FarCopyBytesToColorWRAM
 	xor a
 	ret
 
-Tohodex_QuestionMarkPal:
-INCLUDE "gfx/Tohodex/question_mark.pal"
+Pokedex_QuestionMarkPal:
+INCLUDE "gfx/pokedex/question_mark.pal"
 
-Tohodex_SwitchMonInfoBank:
+Pokedex_SwitchMonInfoBank:
 ; Switch which bank to store tile data in. Tiles are loaded as follows:
 ; 0: vTiles2 tile $40
 ; 1: vTiles5 tile $40
-	ld hl, wTohodex_MonInfoBank
+	ld hl, wPokedex_MonInfoBank
 	ld a, [hl]
 	xor 1
 	ld [hl], a
 	ret
 
-Tohodex_GetCursorMonInVBK1:
+Pokedex_GetCursorMonInVBK1:
 	ld a, 1
-	ld [wTohodex_MonInfoBank], a
-	jr _Tohodex_GetCursorMon
-Tohodex_GetCursorMon:
+	ld [wPokedex_MonInfoBank], a
+	jr _Pokedex_GetCursorMon
+Pokedex_GetCursorMon:
 ; Displays information about the mon the cursor is currently hovering.
-	call Tohodex_SwitchMonInfoBank
+	call Pokedex_SwitchMonInfoBank
 	; fallthrough
-_Tohodex_GetCursorMon:
+_Pokedex_GetCursorMon:
 	; Set up proper palettes and switch between vbk0 and vbk1 usage.
 	swap a
 	rrca
@@ -3206,8 +3206,8 @@ _Tohodex_GetCursorMon:
 	ld c, 10
 	rst ByteFill
 	xor a
-	ld [wTohodexOAM_IsCaught], a
-	ld [wTohodexOAM_DexNoY], a
+	ld [wPokedexOAM_IsCaught], a
+	ld [wPokedexOAM_DexNoY], a
 	ldh a, [rSVBK]
 	push af
 	ld a, BANK(wDexMonFootprintTiles)
@@ -3235,7 +3235,7 @@ endc
 	ldh [rSVBK], a
 
 	; Attributes are done. Now we can deal with the main data.
-	call Tohodex_GetCursorSpecies
+	call Pokedex_GetCursorSpecies
 
 	; If species is zero, there's nothing there. Just load question mark tiles, then reload the screen.
 	ld a, c
@@ -3243,11 +3243,11 @@ endc
 	jr nz, .got_species
 
 	; Display a questionmark in place of the frontpic.
-	ld hl, wTohodex_GFXFlags
+	ld hl, wPokedex_GFXFlags
 	bit DEXGFX_ROWTILES, [hl]
 	call nz, DelayFrame
 
-	call Tohodex_LoadUndiscoveredPokepic
+	call Pokedex_LoadUndiscoveredPokepic
 	set DEXGFX_POKEINFO, [hl]
 
 	; Introduce a deliberate delay. The reason for this is so that we get a more
@@ -3263,12 +3263,12 @@ endc
 	ld [wNamedObjectIndex], a
 	ld [wCurIconSpecies], a
 	ld a, $10
-	ld [wTohodexOAM_DexNoY], a
+	ld [wPokedexOAM_DexNoY], a
 	bit MON_CAUGHT_F, b
 	ld a, b
 	ld [wCurForm], a
 	ld [wNamedObjectIndex+1], a
-	ld [wTohodex_Form], a
+	ld [wPokedex_Form], a
 	ld [wCurIconForm], a
 	push af
 	push bc
@@ -3279,7 +3279,7 @@ endc
 	pop bc
 
 	; Get dex number.
-	call Tohodex_GetDexNumber
+	call Pokedex_GetDexNumber
 	ldh a, [rSVBK]
 	push af
 	ld a, BANK(wDexNoStrNumber)
@@ -3300,15 +3300,15 @@ endc
 	farcall PrepareFrontpic
 	pop af
 	ldh [rSVBK], a
-	ld hl, wTohodex_GFXFlags
+	ld hl, wPokedex_GFXFlags
 	set DEXGFX_FRONTPIC, [hl]
 
 	; Check if this mon has variants
-	ld hl, wTohodex_Personality
+	ld hl, wPokedex_Personality
 	res 0, [hl]
 	ld a, 1
 	push hl
-	call Tohodex_CheckForOtherForms
+	call Pokedex_CheckForOtherForms
 	pop bc
 	jr c, .no_variants
 	ld a, [bc]
@@ -3332,7 +3332,7 @@ endc
 	jr z, .got_types
 	; Otherwise, also include type and footprint icons.
 	ld a, TRUE
-	ld [wTohodexOAM_IsCaught], a
+	ld [wPokedexOAM_IsCaught], a
 	ld a, [wBaseType1]
 	ld c, a
 	ld a, [wBaseType2]
@@ -3348,14 +3348,14 @@ endc
 	ld hl, TypeIconGFX
 	rst AddNTimes
 	ld de, wBGPals1 palette 7 + 2
-	call Tohodex_CopyTypeIconPals
+	call Pokedex_CopyTypeIconPals
 	pop bc
 	ld de, wDexMonType1Tiles
 	ld a, BANK(wDexMonType1Tiles)
 	ldh [rSVBK], a
 	push bc
 	lb bc, BANK(TypeIconGFX), 4
-	call Tohodex_Copy1bpp
+	call Pokedex_Copy1bpp
 	pop bc
 	; Second type pal+icon
 	ld c, b
@@ -3364,16 +3364,16 @@ endc
 	ld hl, TypeIconGFX
 	rst AddNTimes
 	ld de, wBGPals1 palette 7 + 4
-	call Tohodex_CopyTypeIconPals
+	call Pokedex_CopyTypeIconPals
 	ld de, wDexMonType2Tiles
 	lb bc, BANK(TypeIconGFX), 4
-	call Tohodex_Copy1bpp
+	call Pokedex_Copy1bpp
 	; Footprint icon
 	pop af
 	push af
 	ld hl, BlankFootprint
 	jr z, .got_footprint
-	call Tohodex_GetCursorSpecies
+	call Pokedex_GetCursorSpecies
 	call GetSpeciesAndFormIndex
 	ld hl, FootprintPointers
 	add hl, bc
@@ -3412,7 +3412,7 @@ endc
 	dec c
 	jr nz, .outer_copy_loop
 
-	ld a, [wTohodex_DisplayMode]
+	ld a, [wPokedex_DisplayMode]
 	cp DEXDISP_DESC
 	jr c, .done_2
 
@@ -3425,9 +3425,9 @@ endc
 	ld a, b
 	call FarDecompressToDE
 
-	call Tohodex_GetCursorSpecies
+	call Pokedex_GetCursorSpecies
 	call GetSpeciesAndFormIndex
-	ld hl, PokemonBodyData + 3 ; skip height and cost
+	ld hl, PokemonBodyData + 3 ; skip height and weight
 rept 4
 	add hl, bc
 endr
@@ -3443,7 +3443,7 @@ endr
 	rst AddNTimes
 	ld de, wDexMonShapeTiles
 	lb bc, BANK(Shapes), 4
-	call Tohodex_Copy1bpp
+	call Pokedex_Copy1bpp
 
 	ld a, BANK(wBGPals1)
 	ldh [rSVBK], a
@@ -3459,30 +3459,30 @@ endr
 	ld de, wBGPals1 palette 3 + 6
 	ld bc, 2
 	call FarCopyBytesToColorWRAM
-	call Tohodex_GetMonIconPalette
+	call Pokedex_GetMonIconPalette
 
-	ld hl, wTohodex_GFXFlags
+	ld hl, wPokedex_GFXFlags
 	set DEXGFX_ICONSHAPE, [hl]
 .done_2
 	pop af
 	ldh [rSVBK], a
 .done
-	ld hl, wTohodex_GFXFlags
+	ld hl, wPokedex_GFXFlags
 	set DEXGFX_POKEINFO, [hl]
 	; fallthrough
-Tohodex_ScheduleScreenUpdate:
-; Schedules a screen refresh for the next Tohodex_GetInput.
+Pokedex_ScheduleScreenUpdate:
+; Schedules a screen refresh for the next Pokedex_GetInput.
 	xor a
 	; fallthrough
-Tohodex_ScheduleScreenUpdateWithHBlank:
-	ld hl, wTohodex_GFXFlags
+Pokedex_ScheduleScreenUpdateWithHBlank:
+	ld hl, wPokedex_GFXFlags
 	set DEXGFX_DEFERRED, [hl]
 	and a
 	ret z
 
 	; If this is the initial h-blank setup, force a screen refresh and activate
 	; LCD H-Blank.
-	ld hl, wTohodex_PendingLYC
+	ld hl, wPokedex_PendingLYC
 	inc [hl]
 	dec [hl]
 	ld [hli], a
@@ -3492,7 +3492,7 @@ Tohodex_ScheduleScreenUpdateWithHBlank:
 	ret nz
 
 	; Needs to be set up immediately during init.
-	call Tohodex_RefreshScreen
+	call Pokedex_RefreshScreen
 
 	ld a, 1 << rSTAT_INT_LYC
 	ldh [rSTAT], a
@@ -3502,7 +3502,7 @@ Tohodex_ScheduleScreenUpdateWithHBlank:
 	set LCD_STAT, [hl]
 	ret
 
-Tohodex_CopyTypeIconPals:
+Pokedex_CopyTypeIconPals:
 	push hl
 	ld hl, TypeIconPals
 	ld a, 2
@@ -3517,7 +3517,7 @@ INCLUDE "data/pokemon/dex_order_alpha.asm"
 INCLUDE "data/pokemon/dex_order_new.asm"
 
 
-NewTohodexEntry:
+NewPokedexEntry:
 	; Disable H-blank as invoked in battles.
 	ld hl, rIE
 	res LCD_STAT, [hl]
@@ -3527,18 +3527,18 @@ NewTohodexEntry:
 	call StackDexGraphics
 
 	ld a, DEXDISP_NEWDESC
-	ld [wTohodex_DisplayMode], a
+	ld [wPokedex_DisplayMode], a
 
 	; Ensure that we write the mon graphics to vbk0.
-	ld a, 1 ; will be switched to 0 upon next Tohodex_GetCursorMon call.
-	ld [wTohodex_MonInfoBank], a
-	jmp Tohodex_Description
+	ld a, 1 ; will be switched to 0 upon next Pokedex_GetCursorMon call.
+	ld [wPokedex_MonInfoBank], a
+	jmp Pokedex_Description
 
-Tohodex_GetDexEntryPointer:
+Pokedex_GetDexEntryPointer:
 	call GetDexEntryPointer
 	ld d, h
 	ld e, l
 	ret
 
 DexModeSearchPals:
-INCLUDE "gfx/Tohodex/mode_search.pal"
+INCLUDE "gfx/pokedex/mode_search.pal"

@@ -1,10 +1,10 @@
-# Tohomon Polished Crystal
+# Pokémon Polished Crystal
 
-This is a custom Tohomon game based on [the Tohomon Crystal disassembly](https://github.com/pret/pokecrystal).
+This is a custom Pokémon game based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal).
 
-My goal is to create what the title says: an improved, polished version of Tohomon Crystal. It fixes bugs, takes into account the official game changes since 2001, and adds some new ideas of my own. Many features restore what was removed from R/B/Y, or original to HG/SS.
+My goal is to create what the title says: an improved, polished version of Pokémon Crystal. It fixes bugs, takes into account the official game changes since 2001, and adds some new ideas of my own. Many features restore what was removed from R/B/Y, or original to HG/SS.
 
-I've had vague plans to make a Tohomon game for years. I'm very impressed by the effort that's gone into disassembling Tohomon Crystal and making the code so well-organized. Thanks to making it open-source (and to the ROM hackers that inspired me), I'm finally making this game a reality.
+I've had vague plans to make a Pokémon game for years. I'm very impressed by the effort that's gone into disassembling Pokémon Crystal and making the code so well-organized. Thanks to making it open-source (and to the ROM hackers that inspired me), I'm finally making this game a reality.
 
 > There are many ways to create games but the way we work at Game Freak may be a little different from other companies. That is, we constantly change and tweak what we have come up with. To make a fun game even more fun and polish it up, we take what we have made and start thinking about it from scratch. And to make the game the most fun to play we make endless changes and tweaks no matter how long it takes. It may not be the best way, but I think these tweaks are important to make our games fun and better.
 >
@@ -12,15 +12,15 @@ I've had vague plans to make a Tohomon game for years. I'm very impressed by the
 
 ## Download and Play
 
-The **current official release** is **v3.1.0** (the “Polished Crystal” release). It's fully playable from start to finish and includes major overhauls to gameplay, mechanics, and quality of life. A more detailed changelog is forthcoming, but you can find the major highlights below.
+The **current official release** is **v3.0.0** (the “Polished Crystal” release). It's fully playable from start to finish and includes major overhauls to gameplay, mechanics, and quality of life. A more detailed changelog is forthcoming, but you can find the major highlights below.
 
-- **[Download v3.1.0 here](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.1.0)**
+- **[Download v3.0.0 here](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.0.0)**
 
-The previous official version was [v2.2.0](https://github.com/Rangi42/polishedcrystal/releases/tag/v2.2.0) (September 20, 2016). However, **v3.1.0** includes *significant* enhancements and is recommended for all players.
+The previous official version was [v2.2.0](https://github.com/Rangi42/polishedcrystal/releases/tag/v2.2.0) (September 20, 2016). However, **v3.0.0** includes *significant* enhancements and is recommended for all players.
 
 *If you have any questions about playing or patching, [read the FAQ](FAQ.md)!*
 
-## What’s New in v3.1.0
+## What’s New in v3.0.0
 
 Below is a brief summary of the major changes and additions. A more detailed changelog will be released soon.
 
@@ -91,7 +91,7 @@ If you have questions or comments, please check or post on any of these sites. (
   
 ![remoraid](screenshots/remoraid.png)
 ![team-rocket](screenshots/team-rocket.png)
-![ckanako](screenshots/ckanako.png)
+![steelix](screenshots/steelix.png)
 ![custom-map](screenshots/custom-map.png)
   
 ![ice-rock](screenshots/ice-rock.png)
@@ -105,12 +105,12 @@ If you have questions or comments, please check or post on any of these sites. (
 ![moves](screenshots/moves.png)
   
 ![sylveon-moonblast](screenshots/sylveon-moonblast.png)
-![ckaguya-fairy-wind](screenshots/ckaguya-fairy-wind.png)
-![ayuyuko-fossil](screenshots/ayuyuko-fossil.png)
+![togetic-fairy-wind](screenshots/togetic-fairy-wind.png)
+![aerodactyl-fossil](screenshots/aerodactyl-fossil.png)
 ![cerulean-city](screenshots/cerulean-city.png)
   
 ![celadon-city](screenshots/celadon-city.png)
-![weather](screenshots/weather.png)
+![fly-to-rock-tunnel](screenshots/fly-to-rock-tunnel.png)
 ![viridian-forest](screenshots/viridian-forest.png)
 ![mismagius](screenshots/mismagius.png)
   

@@ -99,7 +99,7 @@ Gentleman1DefeatText:
 	done
 
 Gentleman1AfterText:
-	text "CKurumi is one of"
+	text "Arcanine is one of"
 	line "the few #mon"
 	cont "that can use Extr-"
 
@@ -127,7 +127,7 @@ RichBoySeenText:
 	line "buy me Zigzagoon!"
 
 	para "I got this stupid"
-	line "CEllen instead!"
+	line "Ninetales instead!"
 	done
 
 RichBoyDefeatText:
@@ -147,7 +147,7 @@ RichBoyAfterText:
 LadySeenText:
 	text "Ohohohoho!"
 
-	para "My CYumemi is sim-"
+	para "My Persian is sim-"
 	line "ply dying to Slash"
 	cont "your #mon!"
 	done
@@ -165,7 +165,7 @@ LadyAfterText:
 JugglerSeenText:
 	text "Hup! Hup!"
 
-	para "CCirno are pre-"
+	para "Electrode are pre-"
 	line "tty heavy!"
 	done
 
@@ -194,4 +194,4 @@ I said see them, not KO them!
 = Another day of sulking...\pLife is boring...
 
 
-Megumin with Explosion CPatchouli
+Megumin with Explosion Weezing

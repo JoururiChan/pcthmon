@@ -65,7 +65,7 @@ GenericTrainerBird_keeperHank:
 GenericTrainerPicnickerHope:
 	generictrainer PICNICKER, HOPE, EVENT_BEAT_PICNICKER_HOPE, PicnickerHopeSeenText, PicnickerHopeBeatenText
 
-	text "I heard CMeira"
+	text "I heard Clefairy"
 	line "appear at Mt.Moon."
 
 	para "But where could"
@@ -112,20 +112,20 @@ Route4TutorIronHeadScript:
 Route4SuperNerd2Script:
 	faceplayer
 	opentext
-	checkevent EVENT_LISTENED_TO_AQUA_CUT_INTRO
-	iftruefwd Route4TutorAquaCutScript
+	checkevent EVENT_LISTENED_TO_AQUA_TAIL_INTRO
+	iftruefwd Route4TutorAquaTailScript
 	writetext Route4SuperNerd2Text
 	waitbutton
-	setevent EVENT_LISTENED_TO_AQUA_CUT_INTRO
-Route4TutorAquaCutScript:
-	writetext Text_Route4TutorAquaCut
+	setevent EVENT_LISTENED_TO_AQUA_TAIL_INTRO
+Route4TutorAquaTailScript:
+	writetext Text_Route4TutorAquaTail
 	waitbutton
 	checkitem SILVER_LEAF
 	iffalsefwd .NoSilverLeaf
 	writetext Text_Route4Tutor2Question
 	yesorno
 	iffalsefwd .TutorRefused
-	setval AQUA_CUT
+	setval AQUA_TAIL
 	writetext ClearText
 	special Special_MoveTutor
 	ifequalfwd $0, .TeachMove
@@ -205,8 +205,8 @@ Route4SuperNerd1Text:
 	text "#mon with tough"
 	line "heads are best!"
 
-	para "CKurumi, ESara,"
-	line "CRan!"
+	para "Arcanine, Golem,"
+	line "Snorlax!"
 
 	para "Don't you agree?"
 	done
@@ -215,8 +215,8 @@ Route4SuperNerd2Text:
 	text "#mon with long"
 	line "tails are best!"
 
-	para "CAlice, EYumemi,"
-	line "DSanae!"
+	para "Slowbro, Golduck,"
+	line "Feraligatr!"
 
 	para "Don't you agree?"
 	done
@@ -229,12 +229,12 @@ Text_Route4TutorIronHead:
 	line "to use Iron Head!"
 	done
 
-Text_Route4TutorAquaCut:
+Text_Route4TutorAquaTail:
 	text "If you give me a"
 	line "Silver Leaf, I'll"
 
 	para "teach your #mon"
-	line "to use Aqua Cut!"
+	line "to use Aqua Tail!"
 	done
 
 Text_Route4TutorsNoSilverLeaf:
@@ -251,12 +251,12 @@ Text_Route4Tutor1Question:
 Text_Route4Tutor2Question:
 	text "Should I teach"
 	line "your #mon"
-	cont "Aqua Cut?"
+	cont "Aqua Tail?"
 	done
 
 Text_Route4Tutor1Refused:
 	text "But it's better"
-	line "than Aqua Cut!"
+	line "than Aqua Tail!"
 	done
 
 Text_Route4Tutor2Refused:
@@ -273,7 +273,7 @@ Text_Route4Tutor1Taught:
 Text_Route4Tutor2Taught:
 	text "Now your #mon"
 	line "knows how to use"
-	cont "Aqua Cut!"
+	cont "Aqua Tail!"
 	done
 
 Route4EngineerText1:

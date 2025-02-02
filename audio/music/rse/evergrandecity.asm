@@ -1,4 +1,4 @@
-; Tohomon R/S/E - Ever Grande City
+; Pokémon R/S/E - Ever Grande City
 ; Demixed by Mmmmmm
 ; https://pastebin.com/7JH4Hxft
 ; https://hax.iimarckus.org/topic/6777/

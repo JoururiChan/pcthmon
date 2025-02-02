@@ -19,7 +19,7 @@ CeladonMansion3F_MapScriptHeader:
 
 	def_object_events
 	object_event  3,  6, SPRITE_COOL_DUDE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GameFreakGameDesignerScript, -1
-	object_event  3,  4, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, jumptextfaceplayer, GameFreakGraphicArtistScript, -1
+	object_event  3,  4, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, GameFreakGraphicArtistText, -1
 	object_event  0,  7, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, GameFreakProgrammerText, -1
 	object_event  0,  4, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_UP, 0, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GameFreakCharacterDesignerText, -1
 
@@ -31,12 +31,12 @@ GameFreakGameDesignerScript:
 	writetext GameFreakGameDesignerText
 	setval16 NUM_POKEMON
 	special CountCaught
-	iftruefwd .CompletedTohodex
+	iftruefwd .CompletedPokedex
 	waitendtext
 
-.CompletedTohodex:
+.CompletedPokedex:
 	promptbutton
-	writetext GameFreakGameDesignerCompletedTohodexText
+	writetext GameFreakGameDesignerCompletedPokedexText
 	playsound SFX_DEX_FANFARE_230_PLUS
 	waitsfx
 	writetext GameFreakGameDesignerPauseForDiplomaText
@@ -49,28 +49,7 @@ GameFreakGameDesignerScript:
 	callasm Diploma
 	writetext GameFreakGameDesignerDiplomaSentText
 	waitbutton
-	setevent EVENT_ENABLE_DIPLOMA_PRINTING
 	jumpopenedtext GameFreakGameDesignerAfterDiplomaText
-
-GameFreakGraphicArtistScript:
-	faceplayer
-	opentext
-	checkevent EVENT_ENABLE_DIPLOMA_PRINTING
-	iftruefwd .CanPrintDiploma
-	writetext GameFreakGraphicArtistText
-	waitendtext
-
-.CanPrintDiploma:
-	writetext GameFreakGraphicArtistPrintDiplomaText
-	yesorno
-	iffalsefwd .Refused
-	special PrintDiploma
-	closetext
-	end
-
-.Refused:
-	writetext GameFreakGraphicArtistRefusedText
-	waitendtext
 
 MapCeladonMansion3FSignpost0Script:
 	jumptext CeladonMansion3FDevRoomSignText
@@ -95,7 +74,7 @@ GameFreakGameDesignerText:
 	cont "but don't give up!"
 	done
 
-GameFreakGameDesignerCompletedTohodexText:
+GameFreakGameDesignerCompletedPokedexText:
 	text "Wow! Excellent!"
 	line "You completed your"
 	cont "#dex!"
@@ -123,11 +102,7 @@ GameFreakGameDesignerDiplomaSentText:
 	done
 
 GameFreakGameDesignerAfterDiplomaText:
-	text "The Graphic Artist"
-	line "will print out a"
-	cont "Diploma for you."
-
-	para "You should go show"
+	text "You should go show"
 	line "that off!"
 	done
 
@@ -145,23 +120,6 @@ GameFreakGraphicArtistText:
 	line "Artist."
 
 	para "I drew you!"
-	done
-
-GameFreakGraphicArtistPrintDiplomaText:
-	text "I'm the Graphic"
-	line "Arist."
-
-	para "Oh, you completed"
-	line "your #DEX?"
-
-	para "Want me to print"
-	line "out your Diploma?"
-	done
-
-GameFreakGraphicArtistRefusedText:
-	text "Give me a shout if"
-	line "you want your"
-	cont "Diploma printed."
 	done
 
 GameFreakProgrammerText:

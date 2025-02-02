@@ -1,4 +1,4 @@
-; Tohomon D/P/Pt - Canalave City
+; Pokémon D/P/Pt - Canalave City
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/pokecrystal/blob/master/Demixes.zip
 

@@ -1,4 +1,4 @@
-; Tohomon R/S/E - Battle! Frontier Brain
+; Pokémon R/S/E - Battle! Frontier Brain
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/RSE/frontierbrain.asm
 

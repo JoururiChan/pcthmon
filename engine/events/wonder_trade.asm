@@ -23,17 +23,17 @@ WonderTrade::
 .not_egg
 	ld a, MON_SPECIES
 	call GetPartyParamLocationAndValue
-	cp LOW(TTEI)
-	jr nz, .not_spiky_eared_ttei
+	cp LOW(PICHU)
+	jr nz, .not_spiky_eared_pichu
 	assert MON_FORM == MON_EXTSPECIES
 	ld bc, MON_FORM - MON_SPECIES
 	add hl, bc
 	ld a, [hl]
 	and SPECIESFORM_MASK
-	cp HIGH(TTEI) << MON_EXTSPECIES_F | TTEI_SPIKY_EARED_FORM
-	ld hl, .Text_WonderTradeCantTradeSpikyEaredTTei
+	cp HIGH(PICHU) << MON_EXTSPECIES_F | PICHU_SPIKY_EARED_FORM
+	ld hl, .Text_WonderTradeCantTradeSpikyEaredPichu
 	jmp z, PrintText
-.not_spiky_eared_ttei
+.not_spiky_eared_pichu
 	ld hl, wPartyMonNicknames
 	ld bc, MON_NAME_LENGTH
 	call Trade_GetAttributeOfCurrentPartymon
@@ -65,8 +65,8 @@ WonderTrade::
 	text_far WonderTradePromptText
 	text_end
 
-.Text_WonderTradeCantTradeSpikyEaredTTei
-	text_far WonderTradeCantTradeSpikyEaredTTeiText
+.Text_WonderTradeCantTradeSpikyEaredPichu
+	text_far WonderTradeCantTradeSpikyEaredPichuText
 	text_end
 
 ;.Text_WonderTradeCantTradeEgg:
@@ -95,11 +95,11 @@ DoWonderTrade:
 	; If you've beaten the Elite Four...
 	eventflagcheck EVENT_BEAT_ELITE_FOUR
 	jr z, .random_trademon
-	; ...and haven't gotten the GS Ball TTei yet...
+	; ...and haven't gotten the GS Ball Pichu yet...
 	eventflagcheck EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
 	jr nz, .random_trademon
-	; ...then receive a spiky-eared TTei holding a GS Ball
-	call GetGSBallTTei
+	; ...then receive a spiky-eared Pichu holding a GS Ball
+	call GetGSBallPichu
 	jmp .compute_trademon_stats
 
 .random_trademon
@@ -251,7 +251,7 @@ DoWonderTrade:
 	call CopyTradeOT
 
 	; Random Ball
-	; 2/3 chance of Toho Ball, 1/3 chance of other
+	; 2/3 chance of Poké Ball, 1/3 chance of other
 .random_ball
 	ld a, PREMIER_BALL * 2 - 2
 	call RandomRange
@@ -373,15 +373,15 @@ endr
 .EggString:
 	rawchar "Egg@@@@@@@@"
 
-GetGSBallTTei:
+GetGSBallPichu:
 	ld a, 2
 	ldh [hScriptVar], a
 
-	assert !HIGH(TTEI)
+	assert !HIGH(PICHU)
 
-	ld a, LOW(TTEI)
+	ld a, LOW(PICHU)
 	ld [wOTTrademonSpecies], a
-	ld a, FEMALE | TTEI_SPIKY_EARED_FORM ; spiky-eared variant
+	ld a, FEMALE | PICHU_SPIKY_EARED_FORM ; spiky-eared variant
 	ld [wOTTrademonForm], a
 
 	ld a, [wPlayerTrademonSpecies]

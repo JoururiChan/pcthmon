@@ -1,4 +1,4 @@
-; Tohomon B/W - Battle! Trainer
+; Pokémon B/W - Battle! Trainer
 ; Demixed by FroggestSpirit
 ; https://pastebin.com/7Hz9jRHq
 

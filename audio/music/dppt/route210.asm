@@ -1,4 +1,4 @@
-; Tohomon D/P/Pt - Route 210
+; Pokémon D/P/Pt - Route 210
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/DPPt/route210.asm
 

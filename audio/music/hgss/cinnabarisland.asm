@@ -1,4 +1,4 @@
-; Tohomon HG/SS - Cinnabar Island
+; Pokémon HG/SS - Cinnabar Island
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/custom/cinnabarGSC.asm
 

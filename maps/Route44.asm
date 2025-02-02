@@ -17,7 +17,7 @@ Route44_MapScriptHeader:
 	bg_event 29,  7, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_44
 
 	def_object_events
-	object_event 33,  8, SPRITE_VETTRAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route44VeteranmScript, -1
+	object_event 33,  8, SPRITE_VETERAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route44VeteranmScript, -1
 	object_event 35,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerFisherWilton1, -1
 	object_event 19, 13, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerFisherEdgar, -1
 	object_event 10,  9, SPRITE_PSYCHIC, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPsychicPhil, -1
@@ -31,13 +31,13 @@ Route44_MapScriptHeader:
 	itemball_event 14,  9, MAX_REPEL, 1, EVENT_ROUTE_44_MAX_REPEL
 
 	object_const_def
-	const ROUTE44_VETTRAN_M
+	const ROUTE44_VETERAN_M
 
 Route44VeteranmScript:
 	checkevent EVENT_GOT_ROCKY_HELMET_FROM_ROUTE_44_LEADER
 	iftrue_jumptextfaceplayer .AfterText2
 	faceplayer
-	checkevent EVENT_BEAT_VETTRANM_BARKHORN
+	checkevent EVENT_BEAT_VETERANM_BARKHORN
 	iftruefwd .Beaten
 	checkevent EVENT_BEAT_BIRD_KEEPER_VANCE
 	iffalse_jumptext .IntroText
@@ -61,11 +61,11 @@ Route44VeteranmScript:
 	waitbutton
 	closetext
 	winlosstext .BeatenText, 0
-	setlasttalked ROUTE44_VETTRAN_M
-	loadtrainer VETTRANM, BARKHORN
+	setlasttalked ROUTE44_VETERAN_M
+	loadtrainer VETERANM, BARKHORN
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_VETTRANM_BARKHORN
+	setevent EVENT_BEAT_VETERANM_BARKHORN
 .Beaten:
 	opentext
 	writetext .AfterText1
@@ -285,10 +285,10 @@ FisherWilton1Script:
 	iftruefwd .AskedAlready
 	checkunits
 	iftruefwd .metric
-	writetext FisherWiltonHugeKurumiText_Imperial
+	writetext FisherWiltonHugePoliwagText_Imperial
 	sjumpfwd .ok
 .metric
-	writetext FisherWiltonHugeKurumiText_Metric
+	writetext FisherWiltonHugePoliwagText_Metric
 .ok
 	promptbutton
 	setevent EVENT_WILTON_ASKED_FOR_PHONE_NUMBER
@@ -425,7 +425,7 @@ GenericTrainerCooltrainermAllen:
 
 FisherWilton1SeenText:
 	text "Aack! You made me"
-	line "lose a Kurumi!"
+	line "lose a Poliwag!"
 
 	para "What are you going"
 	line "to do about it?"
@@ -436,8 +436,8 @@ FisherWilton1BeatenText:
 	line "it."
 	done
 
-FisherWiltonHugeKurumiText_Imperial:
-	text "That Kurumi that"
+FisherWiltonHugePoliwagText_Imperial:
+	text "That Poliwag that"
 	line "got away…"
 	cont "It was huge."
 
@@ -445,8 +445,8 @@ FisherWiltonHugeKurumiText_Imperial:
 	line "been 16 feet long!"
 	done
 
-FisherWiltonHugeKurumiText_Metric:
-	text "That Kurumi that"
+FisherWiltonHugePoliwagText_Metric:
+	text "That Poliwag that"
 	line "got away…"
 	cont "It was huge."
 
@@ -484,8 +484,8 @@ Bird_keeperVance1BeatenText:
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
-	text "Ran, TRan"
-	line "and CYukari are"
+	text "Articuno, Zapdos"
+	line "and Moltres are"
 
 	para "the three legend-"
 	line "ary bird #mon."

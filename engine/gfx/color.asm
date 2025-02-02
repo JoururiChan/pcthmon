@@ -155,16 +155,6 @@ LoadKeyItemIconPalette:
 	ld bc, KeyItemIconPalettes - PAL_COLOR_SIZE * 2
 	jr LoadIconPalette
 
-LoadExpCandyIconPalette:
-	ld a, [wCurItem]
-	ld hl, ExpCandyIconPalette
-	jr LoadIconPaletteFromHL
-
-ExpCandyIconPalette:
-	; Exp Candy
-	RGB 18, 29, 31
-	RGB 03, 21, 24
-
 LoadItemIconPalette:
 	ld a, [wCurItem]
 LoadItemIconPaletteFromA:
@@ -585,22 +575,22 @@ endr
 PartyMenuOBPals:
 INCLUDE "gfx/stats/party_menu_ob.pal"
 
-InitTohogearPalettes:
+InitPokegearPalettes:
 ; This is needed because the regular palette is dark at night.
-	ld hl, TohogearOBPals
+	ld hl, PokegearOBPals
 	ld de, wOBPals1
 	ld bc, 3 palettes
 	call FarCopyColorWRAM
 
-	ld hl, TohogearFlyPalette
+	ld hl, PokegearFlyPalette
 	ld de, wOBPals1 palette 3
 	ld bc, 1 palettes
 	jmp FarCopyColorWRAM
 
-TohogearOBPals:
+PokegearOBPals:
 INCLUDE "gfx/icons/icons.pal"
 
-TohogearFlyPalette:
+PokegearFlyPalette:
 INCLUDE "gfx/pokegear/fly.pal"
 
 GetBattlemonBackpicPalettePointer:

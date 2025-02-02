@@ -1,4 +1,4 @@
-; Tohomon HG/SS - Nugget Bridge
+; Pokémon HG/SS - Nugget Bridge
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/custom/nuggetbridge.asm
 

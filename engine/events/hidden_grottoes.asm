@@ -28,12 +28,12 @@ InitializeHiddenGrotto::
 	and a
 	jr nz, .Done
 
-; first grotto always has a Tohomon
+; first grotto always has a Pokémon
 	eventflagcheck EVENT_SAW_FIRST_HIDDEN_GROTTO
 	jr z, .RandomPokemon
 
 ; choose random grotto contents
-; 20% Tohomon, 40% item, 40% hidden item
+; 20% Pokémon, 40% item, 40% hidden item
 	ld a, 5
 	call RandomRange
 	and a

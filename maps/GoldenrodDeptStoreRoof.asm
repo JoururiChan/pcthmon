@@ -51,20 +51,20 @@ GoldenrodDeptStoreRoofCheckSaleChangeClerk:
 GoldenrodDeptStoreRoofFisherScript:
 	faceplayer
 	opentext
-	checkevent EVENT_DECO_CDAICHAN_DOLL
-	iftruefwd .AlreadyGotCDaichanDoll
+	checkevent EVENT_DECO_VOLTORB_DOLL
+	iftruefwd .AlreadyGotVoltorbDoll
 	writetext GoldenrodDeptStoreRoofFisherText
 	waitbutton
 	writetext GoldenrodDeptStoreRoofFisherDuplicateText
 	waitbutton
-	setevent EVENT_DECO_CDAICHAN_DOLL
-	writetext GotCDaichanDollText
+	setevent EVENT_DECO_VOLTORB_DOLL
+	writetext GotVoltorbDollText
 	playsound SFX_ITEM
 	pause 60
 	promptbutton
-	writetext CDaichanDollSentText
+	writetext VoltorbDollSentText
 	waitbutton
-.AlreadyGotCDaichanDoll
+.AlreadyGotVoltorbDoll
 	writetext GoldenrodDeptStoreRoofFisherCatchEmAllText
 	waitbutton
 	closetext
@@ -95,53 +95,53 @@ PokeDollVendingMachine:
 	loadmenu .MenuData
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .EllenDoll
-	ifequalfwd $2, .LyricaDoll
-	ifequalfwd $3, .ChiyuriDoll
+	ifequalfwd $1, .JigglypuffDoll
+	ifequalfwd $2, .DittoDoll
+	ifequalfwd $3, .MeowthDoll
 	endtext
 
-.EllenDoll:
+.JigglypuffDoll:
 	checkmoney $0, 2400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_ELLEN_DOLL
+	checkevent EVENT_DECO_JIGGLYPUFF_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 2400
-	setevent EVENT_DECO_ELLEN_DOLL
-	writetext BoughtEllenDollText
+	setevent EVENT_DECO_JIGGLYPUFF_DOLL
+	writetext BoughtJigglypuffDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext EllenDollSentText
+	writetext JigglypuffDollSentText
 	waitbutton
 	sjump .Start
 
-.LyricaDoll:
+.DittoDoll:
 	checkmoney $0, 2400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_LYRICA_DOLL
+	checkevent EVENT_DECO_DITTO_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 2400
-	setevent EVENT_DECO_LYRICA_DOLL
-	writetext BoughtLyricaDollText
+	setevent EVENT_DECO_DITTO_DOLL
+	writetext BoughtDittoDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext LyricaDollSentText
+	writetext DittoDollSentText
 	waitbutton
 	sjump .Start
 
-.ChiyuriDoll:
+.MeowthDoll:
 	checkmoney $0, 2400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_CHIYURI_DOLL
+	checkevent EVENT_DECO_MEOWTH_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 2400
-	setevent EVENT_DECO_CHIYURI_DOLL
-	writetext BoughtChiyuriDollText
+	setevent EVENT_DECO_MEOWTH_DOLL
+	writetext BoughtMeowthDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext ChiyuriDollSentText
+	writetext MeowthDollSentText
 	waitbutton
 	sjump .Start
 
@@ -164,9 +164,9 @@ PokeDollVendingMachine:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Ellen  ¥2400@"
-	db "Lyrica       ¥2400@"
-	db "Chiyuri      ¥2400@"
+	db "Jigglypuff  ¥2400@"
+	db "Ditto       ¥2400@"
+	db "Meowth      ¥2400@"
 	db "Cancel@"
 
 GoldenrodDeptStoreRoofPokefanFText:
@@ -197,13 +197,13 @@ GoldenrodDeptStoreRoofFisherDuplicateText:
 	cont "you can have it."
 	done
 
-GotCDaichanDollText:
+GotVoltorbDollText:
 	text "<PLAYER> received"
-	line "CDaichan Doll."
+	line "Voltorb Doll."
 	done
 
-CDaichanDollSentText:
-	text "CDaichan Doll"
+VoltorbDollSentText:
+	text "Voltorb Doll"
 	line "was sent home."
 	done
 
@@ -287,7 +287,7 @@ Binoculars2Text:
 
 Binoculars3Text:
 	text "A Fisher caught a"
-	line "lot of LilyBlack…"
+	line "lot of Magikarp…"
 
 	para "They're Splashing"
 	line "at the same time!"
@@ -309,32 +309,32 @@ PokeDollVendingMachineAlreadyBoughtText:
 	text "It's a duplicate!"
 	done
 
-BoughtEllenDollText:
+BoughtJigglypuffDollText:
 	text "<PLAYER> bought"
-	line "Ellen Doll."
+	line "Jigglypuff Doll."
 	done
 
-EllenDollSentText:
-	text "Ellen Doll"
+JigglypuffDollSentText:
+	text "Jigglypuff Doll"
 	line "was sent home."
 	done
 
-BoughtLyricaDollText:
+BoughtDittoDollText:
 	text "<PLAYER> bought"
-	line "Lyrica Doll."
+	line "Ditto Doll."
 	done
 
-LyricaDollSentText:
-	text "Lyrica Doll"
+DittoDollSentText:
+	text "Ditto Doll"
 	line "was sent home."
 	done
 
-BoughtChiyuriDollText:
+BoughtMeowthDollText:
 	text "<PLAYER> bought"
-	line "Chiyuri Doll."
+	line "Meowth Doll."
 	done
 
-ChiyuriDollSentText:
-	text "Chiyuri Doll"
+MeowthDollSentText:
+	text "Meowth Doll"
 	line "was sent home."
 	done

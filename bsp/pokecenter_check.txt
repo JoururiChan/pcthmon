@@ -16,7 +16,7 @@ PokecenterCheck:
 	exit #result
 
 .not_in_pokecenter_string
-	string "You are not currently inside a Tohomon Center. Remember that, in order to ensure patching is successful, you should be inside a Tohomon Center when patching your savefile and exit it immediately when you continue the game. Do you want to continue patching anyway?"
+	string "You are not currently inside a Pokémon Center. Remember that, in order to ensure patching is successful, you should be inside a Pokémon Center when patching your savefile and exit it immediately when you continue the game. Do you want to continue patching anyway?"
 
 .pokecenters
 	; map group, map number

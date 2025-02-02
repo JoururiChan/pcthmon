@@ -1,4 +1,4 @@
-; Tohomon D/P/Pt - Game Corner
+; Pokémon D/P/Pt - Game Corner
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/DPPt/gamecorner.asm
 

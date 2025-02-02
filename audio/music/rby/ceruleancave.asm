@@ -1,4 +1,4 @@
-; Tohomon R/B/Y - Cerulean Cave
+; Pokémon R/B/Y - Cerulean Cave
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/RBY/dungeon1.asm
 

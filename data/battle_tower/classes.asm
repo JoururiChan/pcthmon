@@ -5,7 +5,7 @@ BattleTowerTrainers:
 	rawchar "Santiago@@", FISHER
 	rawchar "Mordecai@@", PI
 	rawchar "Newman@@@@", SAILOR
-	rawchar "Hamilton@@", VETTRANF
+	rawchar "Hamilton@@", VETERANF
 	rawchar "Angelica@@", BEAUTY
 	rawchar "Hare@@@@@@", RUIN_MANIAC
 	rawchar "Murray@@@@", SAILOR
@@ -52,10 +52,10 @@ BattleTowerTrainers:
 	rawchar "Hitesh@@@@", POKEMANIAC
 	rawchar "Abdul@@@@@", ENGINEER
 	rawchar "Emily@@@@@", LASS
-	rawchar "Hopper@@@@", VETTRANF
+	rawchar "Hopper@@@@", VETERANF
 	rawchar "Marc@@@@@@", HIKER
 	rawchar "Laura@@@@@", BATTLE_GIRL
-	rawchar "Swartz@@@@", VETTRANM
+	rawchar "Swartz@@@@", VETERANM
 	rawchar "Cobb@@@@@@", SCHOOLBOY
 	rawchar "Yufune@@@@", BLACKBELT_T
 	rawchar "Monica@@@@", WAITRESS
@@ -64,7 +64,7 @@ BattleTowerTrainers:
 	rawchar "Charlie@@@", JUGGLER
 	rawchar "Fagin@@@@@", BURGLAR
 	rawchar "Buckley@@@", RICH_BOY
-	rawchar "Mateo@@@@@", VETTRANM
+	rawchar "Mateo@@@@@", VETERANM
 	rawchar "Johnson@@@", SOLDIER
 	rawchar "Newandyke@", OFFICERM
 	rawchar "Rebecca@@@", SKIER
@@ -80,8 +80,7 @@ BattleTowerTrainers:
 	rawchar "Morse@@@@@", SUPER_NERD
 	rawchar "Phelps@@@@", SWIMMERM
 	rawchar "Zeke@@@@@@", DRAGON_TAMER
-	rawchar "Bisom@@@@@", TEACHER_F
-	rawchar "Dyrland@@@", TEACHER_M
+	rawchar "Bisom@@@@@", TEACHER
 	rawchar "Nadia@@@@@", BREEDER
 	rawchar "Hatcher@@@", GENTLEMAN
 	rawchar "Frida@@@@@", ARTIST
@@ -97,8 +96,7 @@ BattleTowerTrainers:
 	rawchar "Axl@@@@@@@", SUPER_NERD
 	rawchar "Gerald@@@@", SIGHTSEERM
 	rawchar "Kafuka@@@@", SCHOOLGIRL
-	rawchar "Hong@@@@@@", TEACHER_F
-	rawchar "Mott@@@@@@", TEACHER_M
+	rawchar "Hong@@@@@@", TEACHER
 	rawchar "Pov@@@@@@@", BOARDER
 	rawchar "Collins@@@", POKEFANM
 	rawchar "Darwin@@@@", BUG_CATCHER
@@ -116,13 +114,13 @@ BattleTowerTrainers:
 	rawchar "Garrett@@@", JUGGLER
 	rawchar "Molly@@@@@", BAKER
 	rawchar "Salim@@@@@", ROUGHNECK
-	rawchar "Dijkstra@@", VETTRANM
+	rawchar "Dijkstra@@", VETERANM
 	rawchar "Raine@@@@@", COOLTRAINERF
 	rawchar "Dorothy@@@", SKIER
 	rawchar "Shirley@@@", POKEFANF
 	rawchar "Douglas@@@", SIGHTSEERM
 	rawchar "Armstrong@", BIKER
-	rawchar "Remy@@@@@@", VETTRANF
+	rawchar "Remy@@@@@@", VETERANF
 	rawchar "Drake@@@@@", RICH_BOY
 	rawchar "Mori@@@@@@", POKEFANF
 	rawchar "Jorge@@@@@", DRAGON_TAMER

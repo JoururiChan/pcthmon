@@ -21,7 +21,7 @@ GoldenrodHarbor_MapScriptHeader:
 	itemball_event 13,  3, STAR_PIECE, 1, EVENT_GOLDENROD_HARBOR_STAR_PIECE
 	object_event 27, 15, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, pokemart, MARTTYPE_ADVENTURER, MART_GOLDENROD_HARBOR, -1
 	object_event 22, 15, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodHarborPokefanmScript, -1
-	object_event 21, 15, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, LILYBLACK, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, PLAIN_FORM, GoldenrodHarborLilyBlackScript, -1
+	object_event 21, 15, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, MAGIKARP, -1, -1, PAL_NPC_ORANGE, OBJECTTYPE_SCRIPT, PLAIN_FORM, GoldenrodHarborMagikarpScript, -1
 	object_event 16, 15, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenrodHarborYoungsterScript, -1
 	object_event 16, 20, SPRITE_FISHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, trade, NPC_TRADE_JACQUES, -1
 	object_event 40, 16, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOLDENROD_CITY_ROCKET_SCOUT
@@ -34,20 +34,20 @@ GoldenrodHarbor_MapScriptHeader:
 GoldenrodHarborFisherScript:
 	faceplayer
 	opentext
-	checkevent EVENT_LISTENED_TO_VOICE_BIND_INTRO
-	iftruefwd GoldenrodHarborTutorVoiceBindScript
+	checkevent EVENT_LISTENED_TO_HYPER_VOICE_INTRO
+	iftruefwd GoldenrodHarborTutorHyperVoiceScript
 	writetext GoldenrodHarborFisherText
 	waitbutton
-	setevent EVENT_LISTENED_TO_VOICE_BIND_INTRO
-GoldenrodHarborTutorVoiceBindScript:
-	writetext Text_GoldenrodHarborTutorVoiceBind
+	setevent EVENT_LISTENED_TO_HYPER_VOICE_INTRO
+GoldenrodHarborTutorHyperVoiceScript:
+	writetext Text_GoldenrodHarborTutorHyperVoice
 	waitbutton
 	checkitem SILVER_LEAF
 	iffalsefwd .NoSilverLeaf
 	writetext Text_GoldenrodHarborTutorQuestion
 	yesorno
 	iffalsefwd .TutorRefused
-	setval VOICE_BIND
+	setval HYPER_VOICE
 	writetext ClearText
 	special Special_MoveTutor
 	ifequalfwd $0, .TeachMove
@@ -91,7 +91,7 @@ GenericTrainerSwimmermJames:
 	done
 
 
-GoldenrodHarborLilyBlackScript:
+GoldenrodHarborMagikarpScript:
 	jumpthistext
 
 	text "This is a Fish"
@@ -109,38 +109,38 @@ GoldenrodHarborPokefanmScript:
 	loadmenu .MenuData
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .LilyBlackDoll
-	ifequalfwd $2, .AyaDoll
+	ifequalfwd $1, .MagikarpDoll
+	ifequalfwd $2, .MarillDoll
 	ifequalfwd $3, .OctilleryDoll
 	endtext
 
-.LilyBlackDoll:
+.MagikarpDoll:
 	checkmoney $0, 1400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_LILYBLACK_DOLL
+	checkevent EVENT_DECO_MAGIKARP_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 1400
-	setevent EVENT_DECO_LILYBLACK_DOLL
-	writetext GoldenrodHarborLilyBlackDollText
+	setevent EVENT_DECO_MAGIKARP_DOLL
+	writetext GoldenrodHarborMagikarpDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext GoldenrodHarborLilyBlackDollSentText
+	writetext GoldenrodHarborMagikarpDollSentText
 	waitbutton
 	sjump .Start
 
-.AyaDoll:
+.MarillDoll:
 	checkmoney $0, 5600
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_AYA_DOLL
+	checkevent EVENT_DECO_MARILL_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 5600
-	setevent EVENT_DECO_AYA_DOLL
-	writetext GoldenrodHarborAyaDollText
+	setevent EVENT_DECO_MARILL_DOLL
+	writetext GoldenrodHarborMarillDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext GoldenrodHarborAyaDollSentText
+	writetext GoldenrodHarborMarillDollSentText
 	waitbutton
 	sjump .Start
 
@@ -178,8 +178,8 @@ GoldenrodHarborPokefanmScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "LilyBlack    ¥1400@"
-	db "Aya      ¥5600@"
+	db "Magikarp    ¥1400@"
+	db "Marill      ¥5600@"
 	db "Octillery  ¥11200@"
 	db "Cancel@"
 
@@ -280,7 +280,7 @@ GoldenrodHarborFisherText:
 	line "things LOUD!"
 	done
 
-Text_GoldenrodHarborTutorVoiceBind:
+Text_GoldenrodHarborTutorHyperVoice:
 	text "I can teach your"
 	line "#mon how to"
 
@@ -347,23 +347,23 @@ GoldenrodHarborDollVendorText:
 	cont "dolls for sale."
 	done
 
-GoldenrodHarborLilyBlackDollText:
+GoldenrodHarborMagikarpDollText:
 	text "<PLAYER> bought"
-	line "LilyBlack Doll."
+	line "Magikarp Doll."
 	done
 
-GoldenrodHarborLilyBlackDollSentText:
-	text "LilyBlack Doll"
+GoldenrodHarborMagikarpDollSentText:
+	text "Magikarp Doll"
 	line "was sent home."
 	done
 
-GoldenrodHarborAyaDollText:
+GoldenrodHarborMarillDollText:
 	text "<PLAYER> bought"
-	line "Aya Doll."
+	line "Marill Doll."
 	done
 
-GoldenrodHarborAyaDollSentText:
-	text "Aya Doll"
+GoldenrodHarborMarillDollSentText:
+	text "Marill Doll"
 	line "was sent home."
 	done
 

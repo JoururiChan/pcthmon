@@ -1,19 +1,19 @@
 #define PROGRAM_NAME "pokemon_animation_graphics"
-#define USAGE_OPTS "[-h|--help] [-o|--output front.animated.2bpp] [-t|--tilemap front.animated.tilemap] [--cnitori] front.2bpp front.dimensions"
+#define USAGE_OPTS "[-h|--help] [-o|--output front.animated.2bpp] [-t|--tilemap front.animated.tilemap] [--girafarig] front.2bpp front.dimensions"
 
 #include "common.h"
 
 struct Options {
 	const char *out_filename;
 	const char *map_filename;
-	bool cnitori;
+	bool girafarig;
 };
 
 void parse_args(int argc, char *argv[], struct Options *options) {
 	struct option long_options[] = {
 		{"output", required_argument, 0, 'o'},
 		{"tilemap", required_argument, 0, 't'},
-		{"cnitori", no_argument, 0, 'g'},
+		{"girafarig", no_argument, 0, 'g'},
 		{"help", no_argument, 0, 'h'},
 		{0}
 	};
@@ -26,7 +26,7 @@ void parse_args(int argc, char *argv[], struct Options *options) {
 			options->map_filename = optarg;
 			break;
 		case 'g':
-			options->cnitori = true;
+			options->girafarig = true;
 			break;
 		case 'h':
 			usage_exit(0);
@@ -84,10 +84,10 @@ uint8_t *read_tiles(const char *filename, int width, long *tiles_size) {
 	return tiles;
 }
 
-void write_graphics(const char *filename, const uint8_t *tiles, long tiles_size, int num_tiles_per_frame, bool cnitori) {
+void write_graphics(const char *filename, const uint8_t *tiles, long tiles_size, int num_tiles_per_frame, bool girafarig) {
 	int max_size = tiles_size;
 	int max_num_tiles = max_size / TILE_SIZE;
-	if (cnitori) {
+	if (girafarig) {
 		// Ensure space for a duplicate of tile 0 at the end
 		max_size += TILE_SIZE;
 	}
@@ -107,7 +107,7 @@ void write_graphics(const char *filename, const uint8_t *tiles, long tiles_size,
 			DATA_APPEND_TILES(i, 1);
 		}
 	}
-	if (cnitori) {
+	if (girafarig) {
 		// Add a duplicate of tile 0 to the end
 		DATA_APPEND_TILES(0, 1);
 	}
@@ -117,7 +117,7 @@ void write_graphics(const char *filename, const uint8_t *tiles, long tiles_size,
 	free(data);
 }
 
-void write_tilemap(const char *filename, const uint8_t *tiles, long tiles_size, int num_tiles_per_frame, bool cnitori) {
+void write_tilemap(const char *filename, const uint8_t *tiles, long tiles_size, int num_tiles_per_frame, bool girafarig) {
 	int size = tiles_size / TILE_SIZE;
 	uint8_t *data = xmalloc(size);
 
@@ -130,7 +130,7 @@ void write_tilemap(const char *filename, const uint8_t *tiles, long tiles_size, 
 	for (int i = num_tiles_per_frame; i < size; i++) {
 		int index = get_tile_index(&tiles[i * TILE_SIZE], tiles, i, i % num_tiles_per_frame);
 		int tile;
-		if (cnitori && index == 0) {
+		if (girafarig && index == 0) {
 			tile = num_tiles;
 		} else if (index == -1) {
 			tile = num_tiles++;
@@ -160,10 +160,10 @@ int main(int argc, char *argv[]) {
 	uint8_t *tiles = read_tiles(argv[0], width, &tiles_size);
 
 	if (options.out_filename) {
-		write_graphics(options.out_filename, tiles, tiles_size, width * width, options.cnitori);
+		write_graphics(options.out_filename, tiles, tiles_size, width * width, options.girafarig);
 	}
 	if (options.map_filename) {
-		write_tilemap(options.map_filename, tiles, tiles_size, width * width, options.cnitori);
+		write_tilemap(options.map_filename, tiles, tiles_size, width * width, options.girafarig);
 	}
 
 	free(tiles);

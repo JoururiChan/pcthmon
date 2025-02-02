@@ -695,15 +695,15 @@ CardFlip_CheckWinCondition:
 	dw .Impossible
 	dw .PikaJiggly
 	dw .PikaJiggly
-	dw .PoliEKotohime
-	dw .PoliEKotohime
+	dw .PoliOddish
+	dw .PoliOddish
 
 	dw .Impossible
 	dw .Impossible
-	dw .EKikuri
-	dw .Ellen
-	dw .Kurumi
-	dw .EKotohime
+	dw .Pikachu
+	dw .Jigglypuff
+	dw .Poliwag
+	dw .Oddish
 
 	dw .OneTwo
 	dw .One
@@ -756,7 +756,7 @@ CardFlip_CheckWinCondition:
 	jmp nz, .Lose
 	jr .WinSix
 
-.PoliEKotohime:
+.PoliOddish:
 	ld a, [wCardFlipFaceUpCard]
 	and $2
 	jmp z, .Lose
@@ -792,27 +792,27 @@ CardFlip_CheckWinCondition:
 	ld de, SFX_2ND_PLACE
 	jmp .Payout
 
-.EKikuri:
+.Pikachu:
 	ld a, [wCardFlipFaceUpCard]
 	and $3
 	jr z, .WinTwelve
 	jmp .Lose
 
-.Ellen:
+.Jigglypuff:
 	ld a, [wCardFlipFaceUpCard]
 	and $3
 	cp $1
 	jr z, .WinTwelve
 	jmp .Lose
 
-.Kurumi:
+.Poliwag:
 	ld a, [wCardFlipFaceUpCard]
 	and $3
 	cp $2
 	jr z, .WinTwelve
 	jmp .Lose
 
-.EKotohime:
+.Oddish:
 	ld a, [wCardFlipFaceUpCard]
 	or ~$3
 	inc a

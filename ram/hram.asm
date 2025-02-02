@@ -43,9 +43,7 @@ NEXTU
 hMoveMon:: db
 ENDU
 
-hPrinter:: db
-
-	ds 2 ; unused
+	ds 3 ; unused
 
 UNION
 ; math-related values
@@ -159,8 +157,8 @@ hChartScreen:: db
 hChartFillCoord:: db
 hChartLineCoord:: db
 NEXTU
-hTohodexAreaMode:: ; %xyyyzzzz, x: area unknown, y: region, z: location type
-hTohodexStatsCurAbil:: db
+hPokedexAreaMode:: ; %xyyyzzzz, x: area unknown, y: region, z: location type
+hPokedexStatsCurAbil:: db
 	ds 2
 ENDU
 

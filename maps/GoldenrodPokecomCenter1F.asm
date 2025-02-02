@@ -40,10 +40,10 @@ GoldenrodPokecomCenter1F_MapScriptHeader:
 	object_event 12, 14, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, GoldenrodPokecenter1FPokefanF, -1
 	object_event 16,  8, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_TEAL, OBJECTTYPE_SCRIPT, 0, WonderTradeReceptionistScript, -1
 	object_event  8, 13, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FSuperNerdText, -1
-	object_event 27, 13, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FPokefanFText_Eiki, -1
+	object_event 27, 13, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FPokefanFText_Sunflora, -1
 	object_event 21,  6, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FRockerText, -1
 	object_event 18, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FGrampsText, -1
-	object_event 18,  9, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FLassText_CMugetsuMail, -1
+	object_event 18,  9, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FLassText_PidgeyMail, -1
 	object_event  3,  9, SPRITE_ICE_BOULDER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_POKECOM_SIGN, OBJECTTYPE_SCRIPT, 0, InfoSignScript, -1
 	object_event 23,  3, SPRITE_ICE_BOULDER, SPRITEMOVEDATA_POKECOM_NEWS, 0, 0, -1, -1, PAL_NPC_POKECOM_SIGN, OBJECTTYPE_COMMAND, end, NULL, -1
 
@@ -195,11 +195,11 @@ WonderTradeReceptionistScript:
 	ifnotequal 2, .done
 	setevent EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
 	setevent EVENT_CAN_GIVE_GS_BALL_TO_KURT
-	playmusic MUSIC_SPIKY_EARED_TTEI_HGSS
-	writetext WonderTradeForGSBallTTeiText
+	playmusic MUSIC_SPIKY_EARED_PICHU_HGSS
+	writetext WonderTradeForGSBallPichuText
 	promptbutton
 	verbosegivekeyitem GS_BALL
-	writetext WonderTradeForGSBallTTeiText2
+	writetext WonderTradeForGSBallPichuText2
 	waitbutton
 .done
 	jumpopenedtext WonderTradeGoodbyeText
@@ -234,7 +234,7 @@ WonderTradeGoodbyeText:
 	line "again."
 	done
 
-WonderTradeForGSBallTTeiText:
+WonderTradeForGSBallPichuText:
 	text "…But what's this?"
 	line "Is something wrong"
 
@@ -268,7 +268,7 @@ WonderTradeForGSBallTTeiText:
 	para "Here, take a look…"
 	done
 
-WonderTradeForGSBallTTeiText2:
+WonderTradeForGSBallPichuText2:
 	text "It may be unusual,"
 	line "but a #mon"
 	cont "is a #mon."
@@ -323,12 +323,12 @@ GoldenrodPokecenter1FSuperNerdText:
 	line "new machines too."
 	done
 
-GoldenrodPokecenter1FLassText_CMugetsuMail:
+GoldenrodPokecenter1FLassText_PidgeyMail:
 	text "I thought up a fun"
 	line "new thing for the"
 	cont "Wonder Trade Hub!"
 
-	para "I make a CMugetsu"
+	para "I make a Pidgey"
 	line "hold Mail, then"
 
 	para "put it up for"
@@ -341,7 +341,7 @@ GoldenrodPokecenter1FLassText_CMugetsuMail:
 	para "be traded with all"
 	line "sorts of people!"
 
-	para "I call it CMugetsu"
+	para "I call it Pidgey"
 	line "Mail!"
 
 	para "If it becomes"
@@ -445,10 +445,10 @@ JudgeMachineEngineerLeavesMovement:
 	step_left
 	step_end
 
-GoldenrodPokecenter1FPokefanFText_Eiki:
+GoldenrodPokecenter1FPokefanFText_Sunflora:
 	text "Some girl I don't"
 	line "know sent me her"
-	cont "Eiki."
+	cont "Sunflora."
 
 	para "You should trade"
 	line "for a #mon that"

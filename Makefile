@@ -1,6 +1,6 @@
 NAME := polishedcrystal
 MODIFIERS :=
-VERSION := 3.2.0-beta
+VERSION := 3.0.0
 
 ROM_NAME = $(NAME)$(MODIFIERS)-$(VERSION)
 EXTENSION := gbc
@@ -192,7 +192,7 @@ gfx/card_flip/card_flip_2.2bpp: tools/gfx += --remove-whitespace
 gfx/font/%.1bpp: tools/gfx += --trim-whitespace
 gfx/font/space.2bpp: tools/gfx =
 
-gfx/mail/csuika.1bpp: tools/gfx += --remove-whitespace
+gfx/mail/dragonite.1bpp: tools/gfx += --remove-whitespace
 gfx/mail/flower_mail_border.1bpp: tools/gfx += --remove-whitespace
 gfx/mail/large_note.1bpp: tools/gfx += --remove-whitespace
 gfx/mail/litebluemail_border.1bpp: tools/gfx += --remove-whitespace
@@ -215,9 +215,9 @@ gfx/player/chris_back.2bpp: rgbgfx += -Z
 gfx/player/kris_back.2bpp: rgbgfx += -Z
 gfx/player/crys_back.2bpp: rgbgfx += -Z
 
-gfx/tohodex/%.bin: gfx/tohodex/%.tilemap gfx/tohodex/%.attrmap ; $Qcat $^ > $@
-gfx/tohodex/tohodex.2bpp: gfx/tohodex/tohodex0.2bpp gfx/tohodex/tohodex1.2bpp gfx/tohodex/area.2bpp ; $Qcat $^ > $@
-gfx/tohodex/question_mark.2bpp: rgbgfx += -Z
+gfx/pokedex/%.bin: gfx/pokedex/%.tilemap gfx/pokedex/%.attrmap ; $Qcat $^ > $@
+gfx/pokedex/pokedex.2bpp: gfx/pokedex/pokedex0.2bpp gfx/pokedex/pokedex1.2bpp gfx/pokedex/area.2bpp ; $Qcat $^ > $@
+gfx/pokedex/question_mark.2bpp: rgbgfx += -Z
 
 gfx/pokegear/pokegear.2bpp: tools/gfx += --trim-whitespace
 gfx/pokegear/pokegear_sprites.2bpp: tools/gfx += --trim-whitespace

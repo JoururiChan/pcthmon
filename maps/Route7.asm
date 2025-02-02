@@ -14,12 +14,12 @@ Route7_MapScriptHeader:
 	bg_event  6, 11, BGEVENT_JUMPTEXT, Route7LockedDoorText
 
 	def_object_events
-	object_event  1,  0, SPRITE_BIG_CRAN, SPRITEMOVEDATA_CRAN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route7CRan, EVENT_ROUTE_8_CRAN
+	object_event  1,  0, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_SNORLAX, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route7Snorlax, EVENT_ROUTE_8_SNORLAX
 	object_event 15, 11, SPRITE_BREEDER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerBreederCarlene, -1
 	itemball_event 16,  1, MENTAL_HERB, 1, EVENT_ROUTE_7_MENTAL_HERB
 
 	object_const_def
-	const ROUTE7_BIG_CRAN
+	const ROUTE7_BIG_SNORLAX
 
 GenericTrainerBreederCarlene:
 	generictrainer BREEDER, CARLENE, EVENT_BEAT_BREEDER_CARLENE, .SeenText, .BeatenText
@@ -45,38 +45,38 @@ GenericTrainerBreederCarlene:
 	line "handle you!"
 	done
 
-Route7CRan:
+Route7Snorlax:
 	opentext
-	special SpecialCRanAwake
+	special SpecialSnorlaxAwake
 	iftruefwd .Awake
 	jumpopenedtext .AsleepText
 
 .Awake:
 	writetext .AwakeText
 	pause 15
-	cry CRAN
+	cry SNORLAX
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon CRAN, 60
+	loadwildmon SNORLAX, 60
 	startbattle
-	disappear ROUTE7_BIG_CRAN
-	setevent EVENT_FOUGHT_CRAN
+	disappear ROUTE7_BIG_SNORLAX
+	setevent EVENT_FOUGHT_SNORLAX
 	reloadmapafterbattle
 	end
 
 .AsleepText:
-	text "CRan is snoring"
+	text "Snorlax is snoring"
 	line "peacefully…"
 	done
 
 .AwakeText:
 	text "The #gear was"
 	line "placed near the"
-	cont "sleeping CRan…"
+	cont "sleeping Snorlax…"
 
 	para "…"
 
-	para "CRan woke up!"
+	para "Snorlax woke up!"
 	done
 
 Route7UndergroundPathSignText:

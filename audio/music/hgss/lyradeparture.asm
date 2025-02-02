@@ -1,4 +1,4 @@
-; Tohomon HG/SS - Encounter! Lyra (Departure)
+; Pokémon HG/SS - Encounter! Lyra (Departure)
 ; Demixed by Mmmmmm
 ; https://pastebin.com/0PPUz32D
 ; https://hax.iimarckus.org/topic/6777/3/

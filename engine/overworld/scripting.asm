@@ -231,7 +231,7 @@ ScriptCommandTable:
 	dw Script_gettmhmname                ; ac
 	dw Script_checkdarkness              ; ad
 	dw Script_checkunits                 ; ae
-	dw Script_hinatypeface              ; af
+	dw Script_unowntypeface              ; af
 	dw Script_restoretypeface            ; b0
 	dw Script_jumpstashedtext            ; b1
 	dw Script_jumpopenedtext             ; b2
@@ -270,8 +270,7 @@ ScriptCommandTable:
 	dw Script_iffalsefwd                 ; d3
 	dw Script_iftruefwd                  ; d4
 	dw Script_scalltable                 ; d5
-	dw Script_setmapobjectmovedata       ; d6
-	dw Script_setmapobjectpal            ; d7
+	dw Script_setmapobjectpal            ; d6
 	assert_table_length NUM_EVENT_COMMANDS
 
 GetScriptWordDE::
@@ -2477,15 +2476,15 @@ Script_checkdarkness:
 
 Script_checkunits:
 	ld a, [wOptions2]
-	bit TOHODEX_UNITS, a
+	bit POKEDEX_UNITS, a
 	ldh [hScriptVar], a
 	ret
 
-Script_hinatypeface:
+Script_unowntypeface:
 	ld a, [wOptions2]
 	ld [wOptionsBuffer], a
 	and ~FONT_MASK
-	or HINA_FONT
+	or UNOWN_FONT
 	ld [wOptions2], a
 	jmp LoadStandardFont
 
@@ -2629,26 +2628,6 @@ Script_keyitemnotify:
 	; The key item icon overwrites nine font tiles, including
 	; the "▶" needed by the right cursor arrow.
 	farjp LoadFonts_NoOAMUpdate
-
-Script_setmapobjectmovedata:
-	call GetScriptByte
-	cp LAST_TALKED
-	jr nz, .ok
-	ldh a, [hLastTalked]
-.ok
-	call CheckObjectVisibility
-	ret c
-	ld hl, OBJECT_MAP_OBJECT_INDEX
-	add hl, bc
-	ld a, [hl]
-	cp -1
-	ret z
-	call GetMapObject
-	ld hl, MAPOBJECT_MOVEMENT
-	add hl, bc
-	call GetScriptByte
-	ld [hl], a
-	ret
 
 Script_setmapobjectpal:
 	call GetScriptByte

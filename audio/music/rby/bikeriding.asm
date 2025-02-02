@@ -1,4 +1,4 @@
-; Tohomon R/B/Y - Bicycle
+; Pokémon R/B/Y - Bicycle
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/RBY/bikeriding.asm
 

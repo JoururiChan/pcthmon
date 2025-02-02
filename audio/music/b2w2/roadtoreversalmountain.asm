@@ -1,4 +1,4 @@
-; Tohomon B2/W2 - Road to Reversal Mountain
+; Pokémon B2/W2 - Road to Reversal Mountain
 ; Demixed by Mmmmmm
 ; https://pastebin.com/27rkdjmk
 ; https://hax.iimarckus.org/topic/6777/

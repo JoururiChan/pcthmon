@@ -26,7 +26,7 @@ tileset_names = [
 	'johto_house', 'kanto_house', 'traditional_house', 'pokecenter', 'pokecom_center',
 	'mart', 'gate', 'gym', 'magnet_train', 'champions_room', 'port', 'lab',
 	'facility', 'celadon_mansion', 'game_corner', 'home_decor_store', 'museum',
-	'hotel', 'autumn_tower', 'battle_tower_inside', 'radio_tower', 'lighthouse',
+	'hotel', 'sprout_tower', 'battle_tower_inside', 'radio_tower', 'lighthouse',
 	'underground', 'cave', 'quiet_cave', 'ice_path', 'tunnel', 'forest', 'park',
 	'safari_zone', 'ruins_of_alph', 'alph_word_room', 'pokemon_mansion'
 ]

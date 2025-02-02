@@ -10,7 +10,7 @@ CeladonUniversityHyperTestRoom_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  2,  1, BGEVENT_READ, CeladonUniversityHyperTestRoomLilyBlackSign
+	bg_event  2,  1, BGEVENT_READ, CeladonUniversityHyperTestRoomMagikarpSign
 	bg_event  6,  1, BGEVENT_JUMPTEXT, CeladonUniversityHyperTestRoomBookshelf1Text
 	bg_event  7,  1, BGEVENT_JUMPTEXT, CeladonUniversityHyperTestRoomBookshelf2Text
 	bg_event  7,  4, BGEVENT_RIGHT, CeladonUniversityHyperTestRoomComputer
@@ -25,10 +25,10 @@ CeladonUniversityHyperTestRoom_MapScriptHeader:
 CeladonUniversityHyperTestRoomWestwoodScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_POISON_SHOT_LILYBLACK
+	checkevent EVENT_GOT_DRAGON_RAGE_MAGIKARP
 	iftrue_jumpopenedtext .TestOverText
 	checkevent EVENT_PASSED_CELADON_HYPER_TEST
-	iftruefwd .GiveLilyBlack
+	iftruefwd .GiveMagikarp
 	writetext .GreetingText
 	waitbutton
 	checkevent EVENT_LISTENED_TO_WESTWOOD_INTRO
@@ -67,7 +67,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	writetext .Question2IntroText
 	waitbutton
 	closetext
-	cry HMINORIKO
+	cry SLOWKING
 	waitsfx
 	opentext
 	writetext .Question2QuestionText
@@ -129,13 +129,13 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	promptbutton
 
 	setevent EVENT_PASSED_CELADON_HYPER_TEST
-.GiveLilyBlack:
+.GiveMagikarp:
 	writetext .CongratulationsText
 	waitbutton
 
-	givepoke LILYBLACK, LILYBLACK_MASK1_FORM, 10, EVIOLITE, ULTRA_BALL, POISON_SHOT
+	givepoke MAGIKARP, MAGIKARP_MASK1_FORM, 10, EVIOLITE, ULTRA_BALL, DRAGON_RAGE
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	setevent EVENT_GOT_POISON_SHOT_LILYBLACK
+	setevent EVENT_GOT_DRAGON_RAGE_MAGIKARP
 	jumpopenedtext .TestOverText
 
 .WrongAnswer:
@@ -258,15 +258,15 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	para "Here's your prize--"
 	line "a uniquely bred"
 
-	para "LilyBlack that"
-	line "knows Poison Shot!"
+	para "Magikarp that"
+	line "knows Dragon Rage!"
 	done
 
 .TestOverText:
 	text "Our students have"
 	line "the tenacity of a"
 
-	para "LilyBlack strugg-"
+	para "Magikarp strugg-"
 	line "ling to evolve."
 	cont "And so do you!"
 	done
@@ -308,10 +308,10 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .Question1MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "CMinoriko@"
+	db "Umbreon@"
 	db "Glaceon@"
-	db "CYumemi@"
-	db "CNitori@"
+	db "Persian@"
+	db "Girafarig@"
 
 .Question2MenuData:
 	db MENU_BACKUP_TILES
@@ -323,9 +323,9 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db $81 ; flags
 	db 4 ; items
 	db "Blissey@"
-	db "CSuwako@"
-	db "HMinoriko@"
-	db "ARikako@"
+	db "Qwilfish@"
+	db "Slowking@"
+	db "Venomoth@"
 
 .Question3MenuData:
 	db MENU_BACKUP_TILES
@@ -350,10 +350,10 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .Question4MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "CRikako@"
-	db "LilyWhite@"
-	db "ESariel@"
-	db "CGengetsu@"
+	db "Parasect@"
+	db "Magmar@"
+	db "Sandslash@"
+	db "Victreebel@"
 
 .Question5MenuData:
 	db MENU_BACKUP_TILES
@@ -407,15 +407,15 @@ CeladonUniversityHyperTestRoomTwin2Text:
 	cont "you!"
 	done
 
-CeladonUniversityHyperTestRoomLilyBlackSign:
+CeladonUniversityHyperTestRoomMagikarpSign:
 	reanchormap
-	pokepic LILYBLACK, LILYBLACK_MASK1_FORM
-	cry LILYBLACK
+	pokepic MAGIKARP, MAGIKARP_MASK1_FORM
+	cry MAGIKARP
 	waitbutton
 	closepokepic
 	jumpthistext
 
-	text "A LilyBlack is"
+	text "A Magikarp is"
 	line "swimming around."
 	done
 
@@ -431,7 +431,7 @@ CeladonUniversityHyperTestRoomBookshelf2Text:
 	text "It's a copy of"
 	line "Nintendo Power!"
 
-	para "A EKikuri picture"
+	para "A Pikachu picture"
 	line "fills the front"
 	cont "cover."
 	done

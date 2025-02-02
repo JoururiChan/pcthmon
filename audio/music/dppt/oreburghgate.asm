@@ -1,4 +1,4 @@
-; Tohomon D/P/Pt - Oreburgh Gate
+; Pokémon D/P/Pt - Oreburgh Gate
 ; Demixed by Mmmmmm
 ; https://pastebin.com/xEactCTm
 ; https://hax.iimarckus.org/topic/6777/

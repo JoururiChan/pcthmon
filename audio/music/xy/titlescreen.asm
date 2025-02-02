@@ -1,4 +1,4 @@
-; Tohomon X/Y - Title Screen
+; Pokémon X/Y - Title Screen
 ; Demixed by ShantyTown
 ; https://github.com/huderlem/pokestyle-music-devamps/blob/master/music/kalos_titlescreen.asm
 

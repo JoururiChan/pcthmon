@@ -1,4 +1,4 @@
-; Tohomon White 2 - White Treehollow
+; Pokémon White 2 - White Treehollow
 ; Demixed by Mmmmmm
 ; https://pastebin.com/dN9gyXXX
 ; https://hax.iimarckus.org/topic/6777/4/

@@ -2,7 +2,7 @@
 
 > Of course, it is very difficult to make the game, so I hope people don't get their expectations up too high.
 >
-> — Shigeru Ohmori, "[Tohomon's Developers Talk About Their Console RPG Debut On Switch](http://www.gameinformer.com/b/features/archive/2017/08/08/pokemon-s-developers-talk-about-their-console-rpg-debut-on-switch.aspx)"
+> — Shigeru Ohmori, "[Pokémon's Developers Talk About Their Console RPG Debut On Switch](http://www.gameinformer.com/b/features/archive/2017/08/08/pokemon-s-developers-talk-about-their-console-rpg-debut-on-switch.aspx)"
 
 
 ## Missing content
@@ -27,12 +27,12 @@ The final, non-beta 3.0 release should include all of these.
 * Wild Ghosts and the SilphScope2 in Lavender Town
 * More location-unique wild moves (see [material/moves.txt](material/moves.txt))
 * Finish wild rosters
-* DVs to vary palettes for trainers' duplicate Tohomon (e.g. Clair's TYukaris)
+* DVs to vary palettes for trainers' duplicate Pokémon (e.g. Clair's Dragonairs)
 
 
 ### Aesthetics
 
-* Play a shiny flash when Tohomon are caught (from Prism)
+* Play a shiny flash when Pokémon are caught (from Prism)
 * "make hgss" to use HGSS-based palettes
 
 
@@ -47,7 +47,7 @@ The final, non-beta 3.0 release should include all of these.
 * Red goes back home after you battle him, and returns to Mt. Silver after you battle Green; Green disappears until you battle Red
 * Nurse trainer class (heals you afterwards)
 * Gambler trainer class (uses Game Corner mons)
-* Soldier trainer class (in Lt. Surge's Gym; also ones elsewhere with Remoraid, Octillery, ANitori, Skarmory, CCirno, Donphan)
+* Soldier trainer class (in Lt. Surge's Gym; also ones elsewhere with Remoraid, Octillery, Forretress, Skarmory, Electrode, Donphan)
 
 Shamouti Island:
 
@@ -57,16 +57,16 @@ Shamouti Island:
 
 ### Maps
 
-Maps need signs, NPCs, trainers (with [dialog](https://docs.google.com/document/d/1_IDuWAP-QBRC5l4grKZKKlfWKQ2BjC2Yo0aynmli1Ac/view) (see also [material/pia-dialogue.txt](material/pia-dialogue.txt) and [material/pokeathlon-dialog.txt](material/pokeathlon-dialog.txt))), visible and hidden items, wild Tohomon, and unique wild moves.
+Maps need signs, NPCs, trainers (with [dialog](https://docs.google.com/document/d/1_IDuWAP-QBRC5l4grKZKKlfWKQ2BjC2Yo0aynmli1Ac/view) (see also [material/pia-dialogue.txt](material/pia-dialogue.txt) and [material/pokeathlon-dialog.txt](material/pokeathlon-dialog.txt))), visible and hidden items, wild Pokémon, and unique wild moves.
 
 * Connect the Magnet Train track south to Cherrygrove Bay
 * Soul House
-* Lavender Radio Tower (use Reina, DJ Fern, DJ Lily, and a Meira+EShinki Couple)
+* Lavender Radio Tower (use Reina, DJ Fern, DJ Lily, and a Clefable+Gengar Couple)
 * Saffron City Trainer Fan Club
 * Valencia Island (signs and NPCs)
-* Route 49 (wild Tohomon and unique wild moves)
+* Route 49 (wild Pokémon and unique wild moves)
 * Safari Zone rest houses (NPCs and maybe trainers)
-* Reference the Tohoathlon Dome with workers/engineers inside the Route 35 gate and Route 35 Coast
+* Reference the Pokéathlon Dome with workers/engineers inside the Route 35 gate and Route 35 Coast
 * Goldenrod Museum
 * Violet Outskirts with haunted house (EVENT_SAW_HAUNTED_ROOM)
 
@@ -87,15 +87,15 @@ Shamouti Island:
 
 Some of these may never be added; they're just suggestions.
 
-* More Tohomon
-   * Add Gen 3 and 4 Tohomon from [Hoenn Sound](https://bulbapedia.bulbagarden.net/wiki/Hoenn_Sound#Hoenn_Sound) and [Sinnoh Sound](https://bulbapedia.bulbagarden.net/wiki/Hoenn_Sound#Sinnoh_Sound)
+* More Pokémon
+   * Add Gen 3 and 4 Pokémon from [Hoenn Sound](https://bulbapedia.bulbagarden.net/wiki/Hoenn_Sound#Hoenn_Sound) and [Sinnoh Sound](https://bulbapedia.bulbagarden.net/wiki/Hoenn_Sound#Sinnoh_Sound)
       * Zigzagoon → Linoone
       * Whismur → Loudred → Exploud
       * Makuhita → Hariyama
       * Plusle and Minun
       * Numel → Camerupt
       * Spoink → Grumpig
-      * Spinda (with spotted forms from Tohomon Orange)
+      * Spinda (with spotted forms from Pokémon Orange)
       * Absol
       * Meditite → Medicham
       * Bidoof → Bibarel
@@ -121,7 +121,7 @@ Some of these may never be added; they're just suggestions.
       * Phione from an Egg given by Wallace
       * Victini on a cruise to Liberty Garden
       * Magearna in the Ruins of Alph
-   * Add certain other Gen 3+ Tohomon; Prism's dex is similar to my own taste
+   * Add certain other Gen 3+ Pokémon; Prism's dex is similar to my own taste
       * Ralts → Kirlia → Gardevoir / Gallade
       * Surskit → Masquerain (buff and retype to Bug/Water with Levitate)
       * Mawile and Sableye
@@ -152,27 +152,27 @@ Some of these may never be added; they're just suggestions.
    * PGo music for the Celadon hideout and leader battles
    * S/M Malie City (Day) (for Shamouti Shrine)
 * More Orange Islands
-* First Tohomon walks behind you ([comet's prototype](https://hax.iimarckus.org/topic/6248/) and [diff](https://github.com/yenatch/pokecrystal/commit/dbc5cd2025a0214c5b2cd1e3330f50603a0bb9d1))
-* Seasons with appropriate day/night lengths from B/W (affects palettes, tiles, wild Tohomon, dialog, accessible areas, etc)
+* First Pokémon walks behind you ([comet's prototype](https://hax.iimarckus.org/topic/6248/) and [diff](https://github.com/yenatch/pokecrystal/commit/dbc5cd2025a0214c5b2cd1e3330f50603a0bb9d1))
+* Seasons with appropriate day/night lengths from B/W (affects palettes, tiles, wild Pokémon, dialog, accessible areas, etc)
 * Dive areas
 * Rock Climb areas
 * Medals for achievements
 * Take photos with your team against backdrops
 * Something like Habitat Lists or DexNav via the Town Map
-* Something like Toho Radar or Tohowalker
-* Rarely wild Tohomon know an egg move (could be a bonus for DexNav or Toho Radar use)
+* Something like Poké Radar or Pokéwalker
+* Rarely wild Pokémon know an egg move (could be a bonus for DexNav or Poké Radar use)
 * Use the [Japanese GS Ball event quiz](https://www.pokecommunity.com/showthread.php?p=9739072#post9739072) ([original](http://www.geocities.co.jp/Playtown-Darts/9915/serebi.htm))
 * Restore [unused memory game](http://iimarckus.org/i/memory/) ([more info](https://tcrf.net/Pok%C3%A9mon_Gold_and_Silver#Unused_Memory_Game))
-* Restore the EKikuri's Beach minigame
-* Level ranges for wild Tohomon, instead of single values
+* Restore the Pikachu's Beach minigame
+* Level ranges for wild Pokémon, instead of single values
 * Championship title defense like in Gen VII (challengers: rival, Lyra, Lance, Prof.Oak, Prof.Elm, Clair, Blue, Eusine, Kimono Girl Naoko, Palmer, Lorelei, Agatha, Steven, Cynthia, Caitlin, and Lawrence)
 * Make more trainers rematchable
 * Use Mart interface for selling decorations, with a red sidebar
-* Make Eggs use their Tohomon's palette
+* Make Eggs use their Pokémon's palette
 
 There are some features that I do *not* ever plan to add to Polished Crystal:
 
-* All 802 Tohomon
+* All 802 Pokémon
 * A third region with badges
 * Mega Evolution
 * Z-moves

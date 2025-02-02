@@ -5,6 +5,6 @@ DailyTrainerHouseOpponents:
 	db CARRIE,   1
 	db JACKY,    1
 	; based on http://bulbapedia.bulbagarden.net/wiki/The_Legendary_Rotation_Battle!
-	db VETTRANM, EN
-	db VETTRANF, MADOKA
+	db VETERANM, EN
+	db VETERANF, MADOKA
 	assert_table_length NUM_TRAINER_HOUSE_OPPONENTS

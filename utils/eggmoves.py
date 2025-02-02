@@ -6,13 +6,13 @@ Find egg moves that require chain-breeding, Sketch-breeding, or that cannot be
 legitimately bred.
 
 False positive conditions:
- * If a Tohomon can only learn a move in special circumstances (with an RBY TM,
-   from an event giveaway, etc) it does not count for that Tohomon's learnset.
- * Baby Tohomon are in the NO_EGGS group, so their moves are misread. Try
+ * If a Pokémon can only learn a move in special circumstances (with an RBY TM,
+   from an event giveaway, etc) it does not count for that Pokémon's learnset.
+ * Baby Pokémon are in the NO_EGGS group, so their moves are misread. Try
    temporarily putting them in their evolved forms' egg groups.
 
 False negative conditions:
- * If two Tohomon in an egg group share an egg move, that move may be reported
+ * If two Pokémon in an egg group share an egg move, that move may be reported
    as chain-breedable but not actually be learnable by either one.
 """
 
@@ -22,17 +22,17 @@ import os
 import glob
 from collections import defaultdict
 
-# ['creimu', 'reimu', ..., 'cchen', ..., 'celebi']
+# ['bulbasaur', 'ivysaur', ..., 'mr__mime', ..., 'celebi']
 ordered_mons = []
-# {'creimu': 'creimu', 'mrmime': 'cchen', ...}
+# {'bulbasaur': 'bulbasaur', 'mrmime': 'mr__mime', ...}
 underscore_names = {}
-# {'MONSTER': {'creimu', ...}, 'PLANT': {'creimu', ...}, ...}
+# {'MONSTER': {'bulbasaur', ...}, 'PLANT': {'bulbasaur', ...}, ...}
 group_mons = defaultdict(lambda: set())
-# {'creimu': {'MONSTER', 'PLANT'}, ...}
+# {'bulbasaur': {'MONSTER', 'PLANT'}, ...}
 mon_groups = defaultdict(lambda: set())
-# {'creimu': {'TACKLE', 'GROWL', ...}, ...}
+# {'bulbasaur': {'TACKLE', 'GROWL', ...}, ...}
 learnset_moves = defaultdict(lambda: set())
-# {'creimu': {'LIGHT_SCREEN', 'SKULL_BASH', ...}, ...}
+# {'bulbasaur': {'LIGHT_SCREEN', 'SKULL_BASH', ...}, ...}
 egg_moves = defaultdict(lambda: set())
 # {'FIELD'}
 sketchable_groups = set()
@@ -41,14 +41,14 @@ def get_ordered_mons():
 	# Read constants/pokemon_constants.asm
 	with open('constants/pokemon_constants.asm', 'r') as file:
 		for line in file:
-			# Assume that Tohomon constants are defined first in this file
+			# Assume that Pokémon constants are defined first in this file
 			if line.startswith('\tconst '):
-				# '\tconst CCHEN   ; $7a' => 'cchen'
+				# '\tconst MR__MIME   ; $7a' => 'mr__mime'
 				mon = line[7:].split(';')[0].strip().lower()
 				ordered_mons.append(mon)
 				simple_name = mon.replace('_', '')
 				underscore_names[simple_name] = mon
-			# Assume that NUM_SPECIES is defined right after all the Tohomon
+			# Assume that NUM_SPECIES is defined right after all the Pokémon
 			if line.startswith('NUM_SPECIES'):
 				break
 
@@ -78,7 +78,7 @@ def get_level_up_moves():
 			line = line.rstrip()
 			# Assume that evo/attack data is labeled consistently
 			if line.endswith('EvosAttacks:'):
-				# 'CChenEvosAttacks:' => 'mrmime'
+				# 'MrMimeEvosAttacks:' => 'mrmime'
 				simple_name = line[:-12].lower()
 				if simple_name not in underscore_names:
 					raise RuntimeError('bad EvosAttacks name: %s' % simple_name)
@@ -125,7 +125,7 @@ def get_egg_moves():
 				continue
 			# Assume that egg move data is labeled consistently
 			if line.endswith('EggMoves:'):
-				# 'CChenEggMoves:' => 'mrmime'
+				# 'MrMimeEggMoves:' => 'mrmime'
 				simple_name = line[:-9].lower()
 				if simple_name not in underscore_names:
 					raise RuntimeError('bad EggMoves name: %s' % simple_name)
@@ -145,7 +145,7 @@ def get_egg_moves():
 			egg_moves[current_mon].add(move)
 
 def get_sketchable_groups():
-	# A Tohomon with Sketch can breed any move into its egg groups
+	# A Pokémon with Sketch can breed any move into its egg groups
 	for mon, moves in learnset_moves.items():
 		if 'SKETCH' in moves:
 			for group in mon_groups[mon]:

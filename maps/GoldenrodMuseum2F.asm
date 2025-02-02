@@ -15,10 +15,10 @@ GoldenrodMuseum2F_MapScriptHeader:
 	bg_event  5,  0, BGEVENT_READ, BellTowerPaintingScript
 	bg_event  7,  0, BGEVENT_READ, HoOhPaintingScript
 	bg_event  8,  0, BGEVENT_READ, HoOhPaintingScript
-	bg_event  1,  4, BGEVENT_READ, OmanytePuzzleScript
-	bg_event  1,  5, BGEVENT_READ, OmanytePuzzleScript
-	bg_event  5,  4, BGEVENT_READ, KabutoPuzzleScript
-	bg_event  5,  5, BGEVENT_READ, KabutoPuzzleScript
+	bg_event  1,  4, BGEVENT_READ, KabutoPuzzleScript
+	bg_event  1,  5, BGEVENT_READ, KabutoPuzzleScript
+	bg_event  5,  4, BGEVENT_READ, OmanytePuzzleScript
+	bg_event  5,  5, BGEVENT_READ, OmanytePuzzleScript
 	bg_event  1,  6, BGEVENT_READ, AerodactylPuzzleScript
 	bg_event  1,  7, BGEVENT_READ, AerodactylPuzzleScript
 	bg_event  5,  6, BGEVENT_READ, HoOhPuzzleScript
@@ -72,24 +72,11 @@ BellTowerPaintingScript:
 	line "     and Hope"
 	done
 
-OmanytePuzzleScript:
-	checkevent EVENT_SOLVED_CYUYUKO_PUZZLE
-	iffalse_jumptext EmptyDisplayText
-	reanchormap
-	paintingpic CYUYUKO_PUZZLE
-	waitbutton
-	closepokepic
-	jumpthistext
-
-	text "It's the completed"
-	line "Omanyte panel!"
-	done
-
 KabutoPuzzleScript:
-	checkevent EVENT_SOLVED_LUNASA_PUZZLE
+	checkevent EVENT_SOLVED_KABUTO_PUZZLE
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
-	paintingpic LUNASA_PUZZLE
+	paintingpic KABUTO_PUZZLE
 	waitbutton
 	closepokepic
 	jumpthistext
@@ -98,11 +85,24 @@ KabutoPuzzleScript:
 	line "Kabuto panel!"
 	done
 
-AerodactylPuzzleScript:
-	checkevent EVENT_SOLVED_AYUYUKO_PUZZLE
+OmanytePuzzleScript:
+	checkevent EVENT_SOLVED_OMANYTE_PUZZLE
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
-	paintingpic AYUYUKO_PUZZLE
+	paintingpic OMANYTE_PUZZLE
+	waitbutton
+	closepokepic
+	jumpthistext
+
+	text "It's the completed"
+	line "Omanyte panel!"
+	done
+
+AerodactylPuzzleScript:
+	checkevent EVENT_SOLVED_AERODACTYL_PUZZLE
+	iffalse_jumptext EmptyDisplayText
+	reanchormap
+	paintingpic AERODACTYL_PUZZLE
 	waitbutton
 	closepokepic
 	jumpthistext
@@ -176,11 +176,11 @@ GoldenrodMuseum2FSmeargleText:
 	done
 
 GoldenrodMuseum2FScientistScript:
-	checkevent EVENT_SOLVED_CYUYUKO_PUZZLE
+	checkevent EVENT_SOLVED_KABUTO_PUZZLE
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FScientistNoArtifactsText
-	checkevent EVENT_SOLVED_LUNASA_PUZZLE
+	checkevent EVENT_SOLVED_OMANYTE_PUZZLE
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FScientistNoArtifactsText
-	checkevent EVENT_SOLVED_AYUYUKO_PUZZLE
+	checkevent EVENT_SOLVED_AERODACTYL_PUZZLE
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FScientistNoArtifactsText
 	checkevent EVENT_SOLVED_HO_OH_PUZZLE
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FScientistNoArtifactsText

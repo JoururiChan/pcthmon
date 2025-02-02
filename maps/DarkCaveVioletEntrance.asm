@@ -15,8 +15,8 @@ DarkCaveVioletEntrance_MapScriptHeader:
 	bg_event 26,  3, BGEVENT_ITEM + ELIXIR, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HIDDEN_ELIXIR
 
 	def_object_events
-	pokemon_event 10, 2, YUKA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_DARK_CAVE_SEIJA
-	object_event  9,  2, SPRITE_CMIMA_SIDE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_CRIKAKO
+	pokemon_event 10, 2, URSARING, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_DARK_CAVE_URSARING
+	object_event  9,  2, SPRITE_PIDGEOTTO_SIDE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_PIDGEOTTO
 	object_event  8,  2, SPRITE_FALKNER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_FALKNER
 	itemball_event  6,  8, POTION, 1, EVENT_DARK_CAVE_VIOLET_ENTRANCE_POTION
 	smashrock_event 16, 14
@@ -28,15 +28,15 @@ DarkCaveVioletEntrance_MapScriptHeader:
 	itemball_event 30, 28, DIRE_HIT, 1, EVENT_DARK_CAVE_VIOLET_ENTRANCE_DIRE_HIT
 
 	object_const_def
-	const DARKCAVEVIOLETENTRANCE_SEIJA
-	const DARKCAVEVIOLETENTRANCE_CRIKAKO
+	const DARKCAVEVIOLETENTRANCE_URSARING
+	const DARKCAVEVIOLETENTRANCE_PIDGEOTTO
 	const DARKCAVEVIOLETENTRANCE_FALKNER
 
 DarkCaveVioletEntranceFalknerTrigger:
 	waitsfx
 	checkdarkness
 	iftruefwd .Darkness
-	scall .BeatSeija 
+	scall .BeatUrsaring
 	showemote EMOTE_SHOCK, DARKCAVEVIOLETENTRANCE_FALKNER, 15
 	opentext
 	writetext DarkCaveVioletEntranceFalknerIntroText
@@ -65,12 +65,12 @@ DarkCaveVioletEntranceFalknerTrigger:
 
 .ProgressAnyway:
 	showtext DarkCaveVioletEntranceFalknerProgressAnywayText
-	scall .BeatSeija
+	scall .BeatUrsaring
 	opentext
 	writetext DarkCaveVioletEntranceFalknerDarkIntroText
 	sjump .Finish
 
-.BeatSeija:
+.BeatUrsaring:
 	special SaveMusic
 	playmusic MUSIC_JOHTO_TRAINER_BATTLE
 	pause 40
@@ -78,27 +78,27 @@ DarkCaveVioletEntranceFalknerTrigger:
 	writetext DarkCaveVioletEntranceFalknerAttackText
 	pause 30
 	closetext
-	cry CRIKAKO
+	cry PIDGEOTTO
 	waitsfx
 	playsound SFX_TACKLE
-	applymovement DARKCAVEVIOLETENTRANCE_CRIKAKO, DarkCaveVioletEntranceMovementData_CRikakoAttack
+	applymovement DARKCAVEVIOLETENTRANCE_PIDGEOTTO, DarkCaveVioletEntranceMovementData_PidgeottoAttack
 	waitsfx
 	pause 30
-	cry YUKA
+	cry URSARING
 	pause 30
-	disappear DARKCAVEVIOLETENTRANCE_SEIJA
+	disappear DARKCAVEVIOLETENTRANCE_URSARING
 	pause 15
 	special RestoreMusic
 	opentext
 	writetext DarkCaveVioletEntranceFalknerReturnText
 	pause 30
 	closetext
-	disappear DARKCAVEVIOLETENTRANCE_CRIKAKO
+	disappear DARKCAVEVIOLETENTRANCE_PIDGEOTTO
 	pause 20
 	applyonemovement DARKCAVEVIOLETENTRANCE_FALKNER, step_left
 	end
 
-DarkCaveVioletEntranceMovementData_CRikakoAttack:
+DarkCaveVioletEntranceMovementData_PidgeottoAttack:
 	run_step_right
 	run_step_left
 	step_end
@@ -119,13 +119,13 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 	step_end
 
 DarkCaveVioletEntranceFalknerAttackText:
-	text "Falkner: Use Aerial"
-	line "Ace, CRikako!"
+	text "Falkner: Use Wing"
+	line "Attack, Pidgeotto!"
 	done
 
 DarkCaveVioletEntranceFalknerReturnText:
 	text "Good job,"
-	line "CRikako."
+	line "Pidgeotto."
 	done
 
 DarkCaveVioletEntranceFalknerIntroText:
@@ -147,7 +147,7 @@ DarkCaveVioletEntranceFalknerExplanationText:
 	para "I don't explore"
 	line "caves for fun,"
 
-	para "but that Seija"
+	para "but that Ursaring"
 	line "was attacking"
 
 	para "trainers too weak"

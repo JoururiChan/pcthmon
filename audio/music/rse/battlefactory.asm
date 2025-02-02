@@ -1,4 +1,4 @@
-; Tohomon R/S/E - Battle Factory
+; Pokémon R/S/E - Battle Factory
 ; Demixed by Mmmmmm
 ; https://pastebin.com/0hihGkJp
 ; https://soundcloud.com/mmmmmmmmmmmmmmmmm-1/battle-factory-gbc-8-bit

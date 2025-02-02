@@ -14,15 +14,15 @@ GoldenrodFlowerShop_MapScriptHeader:
 	def_object_events
 	object_event  2,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, FlowerShopTeacherScript, -1
 	object_event  5,  6, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, FlowerShopFloriaScript, EVENT_FLORIA_AT_FLOWER_SHOP
-	object_event  6,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, FlowerShopGentlemanText, EVENT_FLORIA_AT_CMEDICINE
+	object_event  6,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, FlowerShopGentlemanText, EVENT_FLORIA_AT_SUDOWOODO
 
 	object_const_def
 	const GOLDENRODFLOWERSHOP_TEACHER
 
 FlowerShopTeacherScript:
-	checkevent EVENT_FOUGHT_CMEDICINE
+	checkevent EVENT_FOUGHT_SUDOWOODO
 	iftruefwd .SellMulch
-	checkevent EVENT_FLORIA_AT_CMEDICINE
+	checkevent EVENT_FLORIA_AT_SUDOWOODO
 	iftruefwd .MetFloria
 	checkflag ENGINE_PLAINBADGE
 	iffalse_jumptextfaceplayer GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text
@@ -104,7 +104,7 @@ FlowerShopTeacherScript:
 FlowerShopFloriaScript:
 	checkflag ENGINE_PLAINBADGE
 	iffalse_jumptextfaceplayer GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText
-	checkevent EVENT_FOUGHT_CMEDICINE
+	checkevent EVENT_FOUGHT_SUDOWOODO
 	iffalse_jumptextfaceplayer GoldenrodFlowerShopFloriaYouBeatWhitneyText
 	checkitem MULCH
 	iftrue_jumptextfaceplayer DescribeMulchText

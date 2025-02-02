@@ -1,4 +1,4 @@
-; Tohomon D/P/Pt - Route 203
+; Pokémon D/P/Pt - Route 203
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/DPPt/route203.asm
 

@@ -2,7 +2,7 @@ UnionCaveB2F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_OBJECTS, UnionCaveB2FCLyrica
+	callback MAPCALLBACK_OBJECTS, UnionCaveB2FLapras
 
 	def_warp_events
 	warp_event  5,  3, UNION_CAVE_B1F_SOUTH, 2
@@ -14,7 +14,7 @@ UnionCaveB2F_MapScriptHeader:
 	bg_event  2, 25, BGEVENT_ITEM + ULTRA_BALL, EVENT_UNION_CAVE_B2F_HIDDEN_ULTRA_BALL
 
 	def_object_events
-	object_event 11, 31, SPRITE_CLYRICA, SPRITEMOVEDATA_SWIM_AROUND, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnionCaveCLyrica, EVENT_UNION_CAVE_B2F_CLYRICA
+	object_event 11, 31, SPRITE_LAPRAS, SPRITEMOVEDATA_SWIM_AROUND, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, UnionCaveLapras, EVENT_UNION_CAVE_B2F_LAPRAS
 	object_event 15, 19, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCooltrainermNick, -1
 	object_event  5, 13, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCooltrainerfGwen, -1
 	object_event  3, 30, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerCooltrainerfEmma, -1
@@ -23,28 +23,28 @@ UnionCaveB2F_MapScriptHeader:
 	itemball_event 16,  2, LINKING_CORD, 1, EVENT_UNION_CAVE_B2F_LINKING_CORD
 
 	object_const_def
-	const UNIONCAVEB2F_CLYRICA
+	const UNIONCAVEB2F_LAPRAS
 
-UnionCaveB2FCLyrica:
-	checkflag ENGINE_UNION_CAVE_CLYRICA
+UnionCaveB2FLapras:
+	checkflag ENGINE_UNION_CAVE_LAPRAS
 	iftruefwd .NoAppear
 	readvar VAR_WEEKDAY
 	ifequalfwd FRIDAY, .Appear
 .NoAppear:
-	disappear UNIONCAVEB2F_CLYRICA
+	disappear UNIONCAVEB2F_LAPRAS
 	endcallback
 
 .Appear:
-	appear UNIONCAVEB2F_CLYRICA
+	appear UNIONCAVEB2F_LAPRAS
 	endcallback
 
-UnionCaveCLyrica:
+UnionCaveLapras:
 	faceplayer
-	cry CLYRICA
-	loadwildmon CLYRICA, 25
+	cry LAPRAS
+	loadwildmon LAPRAS, 25
 	startbattle
-	disappear UNIONCAVEB2F_CLYRICA
-	setflag ENGINE_UNION_CAVE_CLYRICA
+	disappear UNIONCAVEB2F_LAPRAS
+	setflag ENGINE_UNION_CAVE_LAPRAS
 	reloadmapafterbattle
 	end
 

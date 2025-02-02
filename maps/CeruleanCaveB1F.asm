@@ -13,32 +13,32 @@ CeruleanCaveB1F_MapScriptHeader:
 	bg_event 24, 11, BGEVENT_ITEM + ULTRA_BALL, EVENT_CERULEAN_CAVE_B1F_HIDDEN_ULTRA_BALL
 
 	def_object_events
-	object_event  7, 13, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, SUIKA, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, PLAIN_FORM, CeruleanCaveSuika, EVENT_CERULEAN_CAVE_SUIKA
+	object_event  7, 13, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, MEWTWO, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, PLAIN_FORM, CeruleanCaveMewtwo, EVENT_CERULEAN_CAVE_MEWTWO
 	itemball_event 26,  9, MAX_ELIXIR, 1, EVENT_CERULEAN_CAVE_B1F_MAX_ELIXIR
 	itemball_event 26,  3, ULTRA_BALL, 1, EVENT_CERULEAN_CAVE_B1F_ULTRA_BALL
 
 	object_const_def
-	const CERULEANCAVEB1F_SUIKA
+	const CERULEANCAVEB1F_MEWTWO
 
-CeruleanCaveSuika:
+CeruleanCaveMewtwo:
 	faceplayer
 	opentext
-	writetext SuikaText
-	cry SUIKA
+	writetext MewtwoText
+	cry MEWTWO
 	pause 15
 	closetext
-	loadwildmon SUIKA, 80
+	loadwildmon MEWTWO, 80
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
-	disappear CERULEANCAVEB1F_SUIKA
-	setevent EVENT_CERULEAN_CAVE_SUIKA
+	disappear CERULEANCAVEB1F_MEWTWO
+	setevent EVENT_CERULEAN_CAVE_MEWTWO
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_SUIKA
+	setflag ENGINE_PLAYER_CAUGHT_MEWTWO
 .nocatch
 	end
 
-SuikaText:
+MewtwoText:
 	text "Myuu!"
 	done

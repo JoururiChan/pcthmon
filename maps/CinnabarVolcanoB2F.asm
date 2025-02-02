@@ -14,13 +14,13 @@ CinnabarVolcanoB2F_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event 18, 22, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, CYUKARI, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, PLAIN_FORM, CinnabarVolcanoCYukari, EVENT_CINNABAR_VOLCANO_CYUKARI
+	object_event 18, 22, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, MOLTRES, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, PLAIN_FORM, CinnabarVolcanoMoltres, EVENT_CINNABAR_VOLCANO_MOLTRES
 	object_event 12, 24, SPRITE_LAWRENCE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LAWRENCE_FINAL_BIRD
 	smashrock_event 21, 19
 	itemball_event 18,  3, FLAME_ORB, 1, EVENT_CINNABAR_VOLCANO_B2F_FLAME_ORB
 
 	object_const_def
-	const CINNABARVOLCANOB2F_CYUKARI
+	const CINNABARVOLCANOB2F_MOLTRES
 	const CINNABARVOLCANOB2F_LAWRENCE
 
 CinnabarVolcanoB2FBouldersLand:
@@ -80,26 +80,28 @@ CinnabarVolcanoB2FLawrenceEncounterScript:
 	special RestartMapMusic
 	end
 
-CinnabarVolcanoCYukari:
+CinnabarVolcanoMoltres:
 	faceplayer
 	opentext
-	writetext CYukariText
-	cry CYUKARI
+	writetext MoltresText
+	cry MOLTRES
 	pause 15
 	closetext
-	loadwildmon CYUKARI, 65
+	loadwildmon MOLTRES, 65
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
-	disappear CINNABARVOLCANOB2F_CYUKARI
-	setevent EVENT_CINNABAR_VOLCANO_CYUKARI
+	disappear CINNABARVOLCANOB2F_MOLTRES
+	setevent EVENT_CINNABAR_VOLCANO_MOLTRES
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
-	iffalsefwd .NoCatch
-	setflag ENGINE_PLAYER_CAUGHT_CYUKARI
-.NoCatch
-	checkevent EVENT_SEAFOAM_ISLANDS_RAN
+	iffalsefwd .NoCandela
+	setflag ENGINE_PLAYER_CAUGHT_MOLTRES
+	setevent EVENT_CELADON_UNIVERSITY_CANDELA
+	clearevent EVENT_SHAMOUTI_COAST_CANDELA
+.NoCandela
+	checkevent EVENT_SEAFOAM_ISLANDS_ARTICUNO
 	iffalsefwd .end
-	checkevent EVENT_ROUTE_10_TRAN
+	checkevent EVENT_ROUTE_10_ZAPDOS
 	iffalsefwd .end
 	special SpecialBirdsCheck
 	iffalsefwd .end
@@ -107,7 +109,7 @@ CinnabarVolcanoCYukari:
 .end
 	end
 
-CYukariText:
+MoltresText:
 	text "Gyaoo!"
 	done
 
@@ -116,7 +118,7 @@ CinnabarVolcanoB2FLawrenceSpeechText:
 	line "again, <PLAYER>."
 
 	para "So you are search-"
-	line "ing for CYukari"
+	line "ing for Moltres"
 	cont "here too."
 	cont "Did I inspire you?"
 

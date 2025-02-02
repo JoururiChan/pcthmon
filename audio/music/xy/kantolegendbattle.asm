@@ -1,4 +1,4 @@
-; Tohomon X/Y - Battle! Kanto Legendary Tohomon
+; Pokémon X/Y - Battle! Kanto Legendary Pokémon
 ; Demixed by GACT and Pigu
 ; https://github.com/TwitchPlaysPokemon/tppcrystal251pub/blob/public/audio/music/custom/kantolegend.asm
 ; https://pigu-a.bandcamp.com/album/pok-mon-anniversary-crystal-pigus-arranges

@@ -134,11 +134,11 @@ CeladonOldManSpeechHouse_BlockData:
 CeladonDevelopmentSpeechHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 
-MahoganyRedSLilyBlackSpeechHouse_BlockData:
+MahoganyRedGyaradosSpeechHouse_BlockData:
 BlackthornDragonSpeechHouse_BlockData:
 BlackthornEmysHouse_BlockData:
 MoveDeletersHouse_BlockData:
-LakeOfRageLilyBlackHouse_BlockData:
+LakeOfRageMagikarpHouse_BlockData:
 GoldenrodNameRater_BlockData:
 GoldenrodBandHouse_BlockData:
 ManiasHouse_BlockData:
@@ -159,7 +159,7 @@ EcruteakItemfinderHouse_BlockData:
 EcruteakCherishBallHouse_BlockData:
 EcruteakDestinyKnotHouse_BlockData:
 VioletNicknameSpeechHouse_BlockData:
-VioletCRumiaTradeHouse_BlockData:
+VioletOnixTradeHouse_BlockData:
 VioletOutskirtsHouse_BlockData:
 ValeriesHouse_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lz"
@@ -180,7 +180,7 @@ PsychicInversHouse_BlockData:
 SECTION "Route26DayofWeekSiblingsHouse_BlockData", ROMX
 Route26DayofWeekSiblingsHouse_BlockData:
 VermilionMagnetTrainSpeechHouse_BlockData:
-VermilionHouseCChiyurisCaveSpeechHouse_BlockData:
+VermilionHouseDiglettsCaveSpeechHouse_BlockData:
 VermilionSSAnneSpeechHouse_BlockData:
 LavenderNameRater_BlockData:
 SaffronHitmontopKidHouse_BlockData:
@@ -276,17 +276,17 @@ SECTION "EarlsPokemonAcademy_BlockData", ROMX
 EarlsPokemonAcademy_BlockData:
 	INCBIN "maps/EarlsPokemonAcademy.ablk.lz"
 
-SECTION "AutumnTower1F_BlockData", ROMX
-AutumnTower1F_BlockData:
-	INCBIN "maps/AutumnTower1F.ablk.lz"
+SECTION "SproutTower1F_BlockData", ROMX
+SproutTower1F_BlockData:
+	INCBIN "maps/SproutTower1F.ablk.lz"
 
-SECTION "AutumnTower2F_BlockData", ROMX
-AutumnTower2F_BlockData:
-	INCBIN "maps/AutumnTower2F.ablk.lz"
+SECTION "SproutTower2F_BlockData", ROMX
+SproutTower2F_BlockData:
+	INCBIN "maps/SproutTower2F.ablk.lz"
 
-SECTION "AutumnTower3F_BlockData", ROMX
-AutumnTower3F_BlockData:
-	INCBIN "maps/AutumnTower3F.ablk.lz"
+SECTION "SproutTower3F_BlockData", ROMX
+SproutTower3F_BlockData:
+	INCBIN "maps/SproutTower3F.ablk.lz"
 
 SECTION "VioletOutskirts_BlockData", ROMX
 VioletOutskirts_BlockData:
@@ -315,32 +315,32 @@ RuinsOfAlphSinjohChamber_BlockData:
 SECTION "RuinsOfAlphAerodactylChamber_BlockData", ROMX
 RuinsOfAlphAerodactylChamber_BlockData:
 RuinsOfAlphHoOhChamber_BlockData:
-RuinsOfAlphOmanyteChamber_BlockData:
 RuinsOfAlphKabutoChamber_BlockData:
+RuinsOfAlphOmanyteChamber_BlockData:
 	INCBIN "maps/RuinsOfAlphPuzzleChamber.ablk.lz"
 
 SECTION "RuinsOfAlphAerodactylItemRoom_BlockData", ROMX
 RuinsOfAlphAerodactylItemRoom_BlockData:
 RuinsOfAlphHoOhItemRoom_BlockData:
-RuinsOfAlphOmanyteItemRoom_BlockData:
 RuinsOfAlphKabutoItemRoom_BlockData:
+RuinsOfAlphOmanyteItemRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphItemRoom.ablk.lz"
 
 SECTION "RuinsOfAlphAerodactylWordRoom_BlockData", ROMX
 RuinsOfAlphAerodactylWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphAYuyukoWordRoom.ablk.lz"
+	INCBIN "maps/RuinsOfAlphAerodactylWordRoom.ablk.lz"
 
 SECTION "RuinsOfAlphHoOhWordRoom_BlockData", ROMX
 RuinsOfAlphHoOhWordRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphHoOhWordRoom.ablk.lz"
 
-SECTION "RuinsOfAlphOmanyteWordRoom_BlockData", ROMX
-RuinsOfAlphOmanyteWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphCYuyukoWordRoom.ablk.lz"
-
 SECTION "RuinsOfAlphKabutoWordRoom_BlockData", ROMX
 RuinsOfAlphKabutoWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphLunasaWordRoom.ablk.lz"
+	INCBIN "maps/RuinsOfAlphKabutoWordRoom.ablk.lz"
+
+SECTION "RuinsOfAlphOmanyteWordRoom_BlockData", ROMX
+RuinsOfAlphOmanyteWordRoom_BlockData:
+	INCBIN "maps/RuinsOfAlphOmanyteWordRoom.ablk.lz"
 
 SECTION "SinjohRuins_BlockData", ROMX
 SinjohRuins_BlockData:
@@ -391,17 +391,17 @@ SECTION "KurtsHouse_BlockData", ROMX
 KurtsHouse_BlockData:
 	INCBIN "maps/KurtsHouse.ablk.lz"
 
-SECTION "WakasagihimeWellEntrance_BlockData", ROMX
-WakasagihimeWellEntrance_BlockData:
-	INCBIN "maps/WakasagihimeWellEntrance.ablk.lz"
+SECTION "SlowpokeWellEntrance_BlockData", ROMX
+SlowpokeWellEntrance_BlockData:
+	INCBIN "maps/SlowpokeWellEntrance.ablk.lz"
 
-SECTION "WakasagihimeWellB1F_BlockData", ROMX
-WakasagihimeWellB1F_BlockData:
-	INCBIN "maps/WakasagihimeWellB1F.ablk.lz"
+SECTION "SlowpokeWellB1F_BlockData", ROMX
+SlowpokeWellB1F_BlockData:
+	INCBIN "maps/SlowpokeWellB1F.ablk.lz"
 
-SECTION "WakasagihimeWellB2F_BlockData", ROMX
-WakasagihimeWellB2F_BlockData:
-	INCBIN "maps/WakasagihimeWellB2F.ablk.lz"
+SECTION "SlowpokeWellB2F_BlockData", ROMX
+SlowpokeWellB2F_BlockData:
+	INCBIN "maps/SlowpokeWellB2F.ablk.lz"
 
 SECTION "IlexForest_BlockData", ROMX
 IlexForest_BlockData:
@@ -1075,9 +1075,9 @@ PokemonFanClub_BlockData:
 SafariZoneWardensHome_BlockData:
 	INCBIN "maps/PokemonFanClub.ablk.lz"
 
-SECTION "CChiyurisCave_BlockData", ROMX
-CChiyurisCave_BlockData:
-	INCBIN "maps/CChiyurisCave.ablk.lz"
+SECTION "DiglettsCave_BlockData", ROMX
+DiglettsCave_BlockData:
+	INCBIN "maps/DiglettsCave.ablk.lz"
 
 SECTION "RockTunnel1F_BlockData", ROMX
 RockTunnel1F_BlockData:

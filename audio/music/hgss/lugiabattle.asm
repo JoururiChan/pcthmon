@@ -1,4 +1,4 @@
-; Tohomon HG/SS - Battle! Lugia
+; Pokémon HG/SS - Battle! Lugia
 ; Demixed by Pigu
 ; https://github.com/TwitchPlaysPokemon/tppcrystal251pub/blob/public/audio/music/custom/lugiabattle.asm
 ; https://pigu-a.bandcamp.com/album/pok-mon-anniversary-crystal-pigus-arranges

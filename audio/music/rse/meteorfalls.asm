@@ -1,21 +1,21 @@
-; Tohomon R/S/E - Meteor Falls
+; Pokémon R/S/E - Meteor Falls
 ; Demixed by Mmmmmm
 ; https://pastebin.com/k2wCKcMC
 ; https://hax.iimarckus.org/topic/6777/
 
-Music_FlameShootsRSE:
+Music_MeteorFallsRSE:
 	channel_count 3
-	channel 1, Music_FlameShootsRSE_Ch1
-	channel 2, Music_FlameShootsRSE_Ch2
-	channel 3, Music_FlameShootsRSE_Ch3
+	channel 1, Music_MeteorFallsRSE_Ch1
+	channel 2, Music_MeteorFallsRSE_Ch2
+	channel 3, Music_MeteorFallsRSE_Ch3
 
-Music_FlameShootsRSE_Ch1:
+Music_MeteorFallsRSE_Ch1:
 	tempo 190
 	volume 7, 7
 	vibrato 6, 2, 3
 	note_type 8, 9, 2
 	rest 6
-Music_FlameShootsRSE_Ch1_loop_main:
+Music_MeteorFallsRSE_Ch1_loop_main:
 	volume_envelope 9, 2
 	duty_cycle 2
 	octave 4
@@ -317,9 +317,9 @@ Music_FlameShootsRSE_Ch1_loop_main:
 	note A#, 16
 	volume_envelope 8, 7
 	note A#, 8
-	sound_jump Music_FlameShootsRSE_Ch1_loop_main
+	sound_jump Music_MeteorFallsRSE_Ch1_loop_main
 
-Music_FlameShootsRSE_Ch2:
+Music_MeteorFallsRSE_Ch2:
 	vibrato 6, 2, 3
 	note_type 8, 11, 2
 	duty_cycle 3
@@ -501,13 +501,13 @@ Music_FlameShootsRSE_Ch2:
 	volume_envelope 11, 7
 	note D#, 6
 	note D_, 6
-	sound_jump Music_FlameShootsRSE_Ch2
+	sound_jump Music_MeteorFallsRSE_Ch2
 
-Music_FlameShootsRSE_Ch3:
+Music_MeteorFallsRSE_Ch3:
 	vibrato 22, 1, 5
 	note_type 12, 1, 4
 	rest 4
-Music_FlameShootsRSE_Ch3_loop_main:
+Music_MeteorFallsRSE_Ch3_loop_main:
 	note_type 12, 1, 4
 	octave 2
 	note D#, 14
@@ -640,4 +640,4 @@ Music_FlameShootsRSE_Ch3_loop_main:
 	note A#, 4
 	note G#, 4
 	note F_, 4
-	sound_jump Music_FlameShootsRSE_Ch3_loop_main
+	sound_jump Music_MeteorFallsRSE_Ch3_loop_main

@@ -15,11 +15,11 @@ CopycatsHouse2F_MapScriptHeader:
 	object_event  4,  3, SPRITE_COPYCAT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, Copycat1Script, EVENT_COPYCAT_1
 	object_event  4,  3, SPRITE_COPYCAT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, Copycat2Script, EVENT_COPYCAT_2
 	object_event  4,  3, SPRITE_COPYCAT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, Copycat3Script, EVENT_COPYCAT_3
-	object_event  6,  4, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, MAI, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, NO_FORM, CopycatsEMaiScript, -1
-	object_event  6,  1, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, CMEIRA, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, NO_FORM, CopycatsHouse2FDollScript, EVENT_COPYCATS_HOUSE_2F_DOLL
-	object_event  2,  1, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, SHINKI, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, NO_FORM, CopycatsHouse2FDollScript, -1
-	object_event  7,  1, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, MINORIKO, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, CopycatsHouse2FDollScript, -1
-	pokemon_event  0,  4, LYRICA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PURPLE, CopycatsHouse2FLyricaText, -1
+	object_event  6,  4, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, DODRIO, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, NO_FORM, CopycatsDodrioScript, -1
+	object_event  6,  1, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, CLEFAIRY, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, NO_FORM, CopycatsHouse2FDollScript, EVENT_COPYCATS_HOUSE_2F_DOLL
+	object_event  2,  1, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, GENGAR, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, NO_FORM, CopycatsHouse2FDollScript, -1
+	object_event  7,  1, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, MURKROW, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, CopycatsHouse2FDollScript, -1
+	pokemon_event  0,  4, DITTO, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PURPLE, CopycatsHouse2FDittoText, -1
 
 	object_const_def
 	const COPYCATSHOUSE2F_COPYCAT1
@@ -275,7 +275,7 @@ CopycatFoundLostItemScript:
 
 .FoundDollText:
 	text "Copycat: Yay!"
-	line "That's my CMeira"
+	line "That's my Clefairy"
 	cont "# Doll!"
 
 	para "See the tear where"
@@ -334,10 +334,10 @@ endr
 	turn_head_down
 	step_end
 
-CopycatsEMaiScript:
+CopycatsDodrioScript:
 	opentext
 	writetext .Text1
-	cry MAI
+	cry DODRIO
 	promptbutton
 	jumpthisopenedtext
 
@@ -349,7 +349,7 @@ CopycatsEMaiScript:
 	done
 
 .Text1:
-	text "EMai: Gii giii!"
+	text "Dodrio: Gii giii!"
 	done
 
 CopycatsHouse2FDollScript:
@@ -361,6 +361,6 @@ CopycatsHouse2FDollScript:
 	para "It's only a doll…"
 	done
 
-CopycatsHouse2FLyricaText:
-	text "Lyrica: Dii…"
+CopycatsHouse2FDittoText:
+	text "Ditto: Dii…"
 	done

@@ -50,8 +50,8 @@ TrainerPokefanmDerek1:
 	iftruefwd .HasNugget
 	checkcellnum PHONE_POKEFANM_DEREK
 	iftruefwd .NumberAccepted
-	checkpoke KIKURI
-	iffalsefwd .WantsEKikuri
+	checkpoke PIKACHU
+	iffalsefwd .WantsPikachu
 	checkevent EVENT_DEREK_ASKED_FOR_PHONE_NUMBER
 	iftruefwd .AskedAlready
 	writetext PokefanMDerekText_NotBragging
@@ -80,8 +80,8 @@ TrainerPokefanmDerek1:
 .NoRoom:
 	sjumpfwd .PackFull
 
-.WantsEKikuri:
-	jumpopenedtext PokefanMDerekEKikuriIsItText
+.WantsPikachu:
+	jumpopenedtext PokefanMDerekPikachuIsItText
 
 .AskNumber1:
 	jumpstd asknumber1m
@@ -307,12 +307,12 @@ SailorEugeneBeatenText:
 PokefanmDerek1SeenText:
 	text "This is a good"
 	line "time to brag about"
-	cont "my EKikuri!"
+	cont "my Pikachu!"
 	done
 
 PokefanmDerek1BeatenText:
 	text "I had no time to"
-	line "show off EKikuri…"
+	line "show off Pikachu…"
 	done
 
 PokefanMDerekText_NotBragging:
@@ -340,8 +340,8 @@ PokefanfRuthBeatenText:
 	line "losing."
 	done
 
-PokefanMDerekEKikuriIsItText:
-	text "EKikuri is it!"
+PokefanMDerekPikachuIsItText:
+	text "Pikachu is it!"
 	line "Don't you agree?"
 	done
 
@@ -374,7 +374,7 @@ PokefanfJaimeBeatenText:
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met my EChiyuri at"
+	text "I met my Meowth at"
 	line "night, right here"
 	cont "on Route 39."
 
@@ -442,7 +442,7 @@ Route39AdvancedTips1Text:
 
 	para "Sandstorms boost"
 	line "Special Defense of"
-	cont "Beast-type #mon!"
+	cont "Rock-type #mon!"
 
 	para "And, Hail boosts"
 	line "the Defense of"
@@ -453,7 +453,7 @@ Route39AdvancedTips2Text:
 	text "Advanced Tips!"
 
 	para "A #mon with"
-	line "the Concentrate"
+	line "the Compound Eyes"
 	cont "ability, or one"
 
 	para "holding an Amulet"

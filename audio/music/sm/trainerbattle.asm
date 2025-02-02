@@ -1,4 +1,4 @@
-; Tohomon S/M - Battle! Trainer
+; Pokémon S/M - Battle! Trainer
 ; Demixed by Mmmmmm
 ; https://pastebin.com/jFntMups
 ; https://hax.iimarckus.org/topic/6777/7/

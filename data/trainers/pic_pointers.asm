@@ -92,8 +92,7 @@ TrainerPicPointers::
 	dba BattleGirlPic
 	dba DragonTamerPic
 	dba EngineerPic
-	dba TeacherFPic
-	dba TeacherMPic
+	dba TeacherPic
 	dba GuitaristmPic
 	dba GuitaristfPic
 	dba BikerPic
@@ -156,10 +155,10 @@ TrainerPicPointers::
 	dba LawrencePic
 	dba ReiPic
 	assert_table_length NUM_TRAINER_CLASSES
-	dba ALunasaFossilPic
-	dba YuyukoFossilPic
-	dba AYuyukoFossilPic
-	dba CMeilingArmorPic
+	dba OmastarFossilPic
+	dba KabutopsFossilPic
+	dba AerodactylFossilPic
+	dba CuboneArmorPic
 	dba MeteoritePic
 	dba SilhouettePic
 	assert_table_length NUM_TRAINER_CLASS_PICS

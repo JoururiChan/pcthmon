@@ -21,7 +21,7 @@ JudgeMachine:
 	call PrintText
 	call YesNoBox
 	jr c, .cancel
-; Choose a party Tohomon
+; Choose a party Pokémon
 	ld hl, NewsMachineWhichMonText
 	call PrintText
 	call BackupSprites
@@ -196,7 +196,7 @@ JudgeSystem::
 	hlcoord 0, 6
 	call PlaceFrontpicAtHL
 
-; Place the Tohodex number
+; Place the Pokédex number
 	ld a, [wCurPartySpecies]
 	ld [wTextDecimalByte], a
 	hlcoord 1, 13

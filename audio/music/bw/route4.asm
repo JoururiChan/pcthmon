@@ -1,4 +1,4 @@
-; Tohomon B/W - Route 4
+; Pokémon B/W - Route 4
 ; Demixed by Mmmmmm
 ; https://pastebin.com/QXeYDHeD
 ; https://hax.iimarckus.org/topic/6777/

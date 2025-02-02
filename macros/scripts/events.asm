@@ -1131,9 +1131,9 @@ MACRO checkunits
 	db checkunits_command
 ENDM
 
-	const hinatypeface_command
-MACRO hinatypeface
-	db hinatypeface_command
+	const unowntypeface_command
+MACRO unowntypeface
+	db unowntypeface_command
 ENDM
 
 	const restoretypeface_command
@@ -1368,13 +1368,6 @@ ENDM
 MACRO scalltable
 	db scalltable_command
 	dw \1 ; pointer table
-ENDM
-
-	const setmapobjectmovedata_command
-MACRO setmapobjectmovedata
-	db setmapobjectmovedata_command
-	db \1 ; person
-	db \2 ; SpriteMovementData index
 ENDM
 
 	const setmapobjectpal_command

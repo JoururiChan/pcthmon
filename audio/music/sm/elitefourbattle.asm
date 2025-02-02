@@ -1,4 +1,4 @@
-; Tohomon S/M - Battle! Elite Four
+; Pokémon S/M - Battle! Elite Four
 ; Demixed by Mmmmmm
 ; https://pastebin.com/Q2MsZc9W
 ; https://hax.iimarckus.org/topic/6777/8/

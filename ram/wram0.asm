@@ -348,10 +348,10 @@ wLinkPolishedMiscBuffer:: ds 10
 SECTION UNION "Misc 404", WRAM0
 ; battle + pokédex (merged because pokédex can be called from battle)
 
-; wLCDTohodex is defined in a LOAD UNION block in engine/tohodex/lcd.asm
+; wLCDPokedex is defined in a LOAD UNION block in engine/pokedex/lcd.asm
 ; Reserve space for it at the beginning of this LOAD UNION
 	ds 15
-	assert wLCDTohodexEnd - wLCDTohodex == @ - STARTOF("Misc 404")
+	assert wLCDPokedexEnd - wLCDPokedex == @ - STARTOF("Misc 404")
 
 ; Battle data
 wBattle::
@@ -432,7 +432,7 @@ wPlayerSubStatus4::
 ; 6 rage
 ; 5 flinched
 ; 4 substitute
-; 3 whitebird
+; 3 roost
 ; 2 focus energy
 ; 1 unused
 ; 0 curled
@@ -453,7 +453,7 @@ wEnemySubStatus4::
 
 ; Some code (e.g. HandleRampage) depend on the order of these
 wPlayerAbility:: db
-wPlayerTremorsCount:: db
+wPlayerRolloutCount:: db
 wPlayerConfuseCount:: db
 wPlayerToxicCount:: db
 wPlayerDisableCount:: db
@@ -462,7 +462,7 @@ wPlayerPerishCount:: db
 wPlayerProtectCount:: db
 
 wEnemyAbility:: db
-wEnemyTremorsCount:: db
+wEnemyRolloutCount:: db
 wEnemyConfuseCount:: db
 wEnemyToxicCount:: db
 wEnemyDisableCount:: db
@@ -470,7 +470,7 @@ wEnemyEncoreCount:: db
 wEnemyPerishCount:: db
 wEnemyProtectCount:: db
 
-wCriticalCount:: ds PARTY_LENGTH ; for g-CMai evolution
+wCriticalCount:: ds PARTY_LENGTH ; for g-Farfetch'd evolution
 wBattleSubStatusWRAMEnd::
 
 wDamageTaken::
@@ -482,7 +482,7 @@ wBattleAnimParam:: db
 
 wPartyBackupItems::
 ; Back up of party items before a battle. Modified in-battle for consumed/harvested.
-; Berries and items stolen from wild Tohomon since those changes are retained.
+; Berries and items stolen from wild Pokémon since those changes are retained.
 	ds PARTY_LENGTH
 
 wPartyUsedItems::
@@ -674,77 +674,77 @@ wAmuletCoin:: db
 wDVAndPersonalityBuffer:: ds 5
 wBattleEnd::
 
-; Tohodex data.
+; Pokédex data.
 
 ; For setting up a new HBlank trigger
-wTohodex_PendingLYC:: db
-wTohodex_PendingHBlankFunction:: dw
+wPokedex_PendingLYC:: db
+wPokedex_PendingHBlankFunction:: dw
 
 ; Palettes and tile offset for listview minis
 UNION
-wTohodex_UnownCursor: db
+wPokedex_UnownCursor: db
 NEXTU
-wTohodex_Pals::
-wTohodex_Row1::
-wTohodex_Row1Tile: db ; Sprite offset for dex minis col 2-4
-wTohodex_Row1Pals:: ds PAL_COLOR_SIZE * 3 * 5 ; 3 15bit colors per pal, 5 columns
-wTohodex_Row2::
-wTohodex_Row2Tile: db
-wTohodex_Row2Pals:: ds PAL_COLOR_SIZE * 3 * 5
-wTohodex_Row3::
-wTohodex_Row3Tile: db
-wTohodex_Row3Pals:: ds PAL_COLOR_SIZE * 3 * 5
-wTohodex_PalsEnd::
+wPokedex_Pals::
+wPokedex_Row1::
+wPokedex_Row1Tile: db ; Sprite offset for dex minis col 2-4
+wPokedex_Row1Pals:: ds PAL_COLOR_SIZE * 3 * 5 ; 3 15bit colors per pal, 5 columns
+wPokedex_Row2::
+wPokedex_Row2Tile: db
+wPokedex_Row2Pals:: ds PAL_COLOR_SIZE * 3 * 5
+wPokedex_Row3::
+wPokedex_Row3Tile: db
+wPokedex_Row3Pals:: ds PAL_COLOR_SIZE * 3 * 5
+wPokedex_PalsEnd::
 ENDU
 
-; Tohomon info (frontpic, types, etc) is stored in either vbk0 or vbk1. This is
+; Pokémon info (frontpic, types, etc) is stored in either vbk0 or vbk1. This is
 ; cycled each time we move the cursor. The reason for this is so that we can
 ; update the entire display smoothly in a single frame without noticeable delay.
-wTohodex_MonInfoBank:: db
+wPokedex_MonInfoBank:: db
 
-wTohodex_Personality::
+wPokedex_Personality::
 ; bit 7 = shiny
 ; bit 0 = has other form (eligible to switch to)
-wTohodex_Shiny::
-wTohodex_OtherForm:: db
-wTohodex_Form:: db
+wPokedex_Shiny::
+wPokedex_OtherForm:: db
+wPokedex_Form:: db
 
-wTohodexOAM_DexNoX:: db
-wTohodexOAM_DexNoY:: db
-wTohodexOAM_IsCaught:: db
+wPokedexOAM_DexNoX:: db
+wPokedexOAM_DexNoY:: db
+wPokedexOAM_IsCaught:: db
 
-wTohodex_NumSeen:: dw
-wTohodex_NumOwned:: dw
-wTohodex_CursorPos:: db
-wTohodex_Offset:: db
-wTohodex_FirstIconTile:: db
+wPokedex_NumSeen:: dw
+wPokedex_NumOwned:: dw
+wPokedex_CursorPos:: db
+wPokedex_Offset:: db
+wPokedex_FirstIconTile:: db
 UNION
-wTohodex_Rows:: db
-wTohodex_LastCol:: db ; 1-5 in case the final row isn't completely filled
+wPokedex_Rows:: db
+wPokedex_LastCol:: db ; 1-5 in case the final row isn't completely filled
 NEXTU
-wTohodex_FinalEntry:: dw ; Final entry. Overwritten with rows/lastcol later.
+wPokedex_FinalEntry:: dw ; Final entry. Overwritten with rows/lastcol later.
 ENDU
-wTohodex_GFXFlags:: db ; flags for various gfx update types
-wTohodex_DisplayMode:: db ; current pokédex display
+wPokedex_GFXFlags:: db ; flags for various gfx update types
+wPokedex_DisplayMode:: db ; current pokédex display
 
-wTohodex_InSearchMode:: db
+wPokedex_InSearchMode:: db
 
 ; 0 when not in a current search, otherwise vblank counter at search start.
 ; If vblank counter happens to be zero, it's treated as 255.
-wTohodex_SearchInProgress:: db
+wPokedex_SearchInProgress:: db
 
-wTohodex_Search::
-wTohodex_SearchOrder:: db
-wTohodex_SearchData::
-wTohodex_SearchType1:: db
-wTohodex_SearchType2:: db
-wTohodex_SearchGroup1:: db
-wTohodex_SearchGroup2:: db
-wTohodex_SearchColor:: db
-wTohodex_SearchBody:: db
-wTohodex_SearchDataEnd::
-wTohodex_SearchEnd::
-wTohodex_MenuCursorY:: db
+wPokedex_Search::
+wPokedex_SearchOrder:: db
+wPokedex_SearchData::
+wPokedex_SearchType1:: db
+wPokedex_SearchType2:: db
+wPokedex_SearchGroup1:: db
+wPokedex_SearchGroup2:: db
+wPokedex_SearchColor:: db
+wPokedex_SearchBody:: db
+wPokedex_SearchDataEnd::
+wPokedex_SearchEnd::
+wPokedex_MenuCursorY:: db
 
 
 SECTION UNION "Misc 404", WRAM0
@@ -788,19 +788,19 @@ SECTION UNION "Misc 404", WRAM0
 ; pokegear
 	ds 172
 
-wTohogearPhoneLoadNameBuffer:: db
-wTohogearPhoneCursorPosition:: db
-wTohogearPhoneScrollPosition:: db
-wTohogearPhoneSelectedPerson:: db
-wTohogearPhoneSubmenuCursor:: db
-wTohogearMapCursorObjectPointer:: dw
-wTohogearMapCursorLandmark:: db
-wTohogearMapPlayerIconLandmark:: db
-wTohogearRadioChannelBank:: db
-wTohogearRadioChannelAddr:: dw
-wTohogearRadioMusicPlaying:: db
-wTohogearNumberBuffer:: db
-wTohogearMapCursorSpawnpoint:: db
+wPokegearPhoneLoadNameBuffer:: db
+wPokegearPhoneCursorPosition:: db
+wPokegearPhoneScrollPosition:: db
+wPokegearPhoneSelectedPerson:: db
+wPokegearPhoneSubmenuCursor:: db
+wPokegearMapCursorObjectPointer:: dw
+wPokegearMapCursorLandmark:: db
+wPokegearMapPlayerIconLandmark:: db
+wPokegearRadioChannelBank:: db
+wPokegearRadioChannelAddr:: dw
+wPokegearRadioMusicPlaying:: db
+wPokegearNumberBuffer:: db
+wPokegearMapCursorSpawnpoint:: db
 
 
 SECTION UNION "Misc 404", WRAM0
@@ -1049,44 +1049,6 @@ wLinkReceivedMail:: ds MAIL_STRUCT_LENGTH * PARTY_LENGTH
 wLinkReceivedMailEnd:: db
 
 
-SECTION UNION "Misc 1326", WRAM0
-
-; GB Printer data
-wGameboyPrinterRAM::
-wGameboyPrinter2bppSource:: ds 40 tiles
-wGameboyPrinter2bppSourceEnd::
-wPrinterRowIndex:: db
-
-; Printer data
-wPrinterData:: ds 4
-wPrinterChecksum:: dw
-wPrinterHandshake:: db
-wPrinterStatusFlags::
-; bit 7: set if error 1 (battery low)
-; bit 6: set if error 4 (too hot or cold)
-; bit 5: set if error 3 (paper jammed or empty)
-; if this and the previous byte are both $ff: error 2 (connection error)
-	db
-
-wHandshakeFrameDelay:: db
-wPrinterSerialFrameDelay:: db
-wPrinterSendByteOffset:: dw
-wPrinterSendByteCounter:: dw
-
-; tilemap backup?
-wPrinterTilemapBuffer:: ds SCREEN_HEIGHT * SCREEN_WIDTH
-wPrinterStatus:: db
-	ds 1
-; High nibble is for margin before the image, low nibble is for after.
-wPrinterMargins:: db
-wPrinterExposureTime:: db
-	ds 16
-wGameboyPrinterRAMEnd::
-
-wPrinterOpcode:: db
-wPrinterConnectionOpen:: db
-
-
 SECTION "Video", WRAM0
 
 wBGMapBuffer:: ds 48
@@ -1149,14 +1111,14 @@ wCreditsBorderMon:: db
 wCreditsLYOverride:: db
 
 NEXTU
-; tohodex
+; pokedex
 wPrevDexEntryJumptableIndex:: db
 wPrevDexEntryBackup:: db
 
 NEXTU
 ; pokegear
-wTohogearCard:: db
-wTohogearMapRegion:: db
+wPokegearCard:: db
+wPokegearMapRegion:: db
 wTownMapCanFlyHere:: db
 
 NEXTU
@@ -1215,7 +1177,6 @@ wTradeDialog::
 wRandomValue::
 wEchoRAMTest::
 	db
-wPrinterQueueLength::
 wFrameCounter2:: db
 wUnusedTradeAnimPlayEvolutionMusic:: db
 

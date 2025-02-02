@@ -25,7 +25,7 @@ NationalPark_MapScriptHeader:
 	object_event 13, 41, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerSchoolgirlEliza, -1
 	object_event 12, 41, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerSchoolboyJohnny, -1
 	object_event 19, 41, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, NationalParkTeacher2Text, -1
-	pokemon_event 28, 40, CYUMEMI, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, NationalParkCYumemiText, -1
+	pokemon_event 28, 40, PERSIAN, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, NationalParkPersianText, -1
 	object_event 29, 23, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerSchoolboyJack1, -1
 	object_event 20, 29, SPRITE_POKEFAN_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerPokefanfBeverly1, -1
 	object_event 18,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerPokefanmWilliam, -1
@@ -85,7 +85,7 @@ GenericTrainerSchoolgirlEliza:
 
 	text "I don't care!"
 	line "I still love"
-	cont "Kotohime."
+	cont "Oddish."
 	done
 
 GenericTrainerSchoolboyJohnny:
@@ -93,7 +93,7 @@ GenericTrainerSchoolboyJohnny:
 
 	text "Yeah, well, I"
 	line "still prefer"
-	cont "Mugetsu."
+	cont "Bellsprout."
 	done
 
 NationalParkGameboyKidScript:
@@ -230,8 +230,8 @@ PokefanfBeverly1Script:
 	iftruefwd .GiveNugget
 	checkcellnum PHONE_POKEFAN_BEVERLY
 	iftruefwd .NumberAccepted
-	checkpoke AYA
-	iffalsefwd .NoAya
+	checkpoke MARILL
+	iffalsefwd .NoMarill
 	checkevent EVENT_BEVERLY_ASKED_FOR_PHONE_NUMBER
 	iftruefwd .AskAgain
 	writetext PokefanBeverlyCuteMonText
@@ -260,8 +260,8 @@ PokefanfBeverly1Script:
 .NoRoom:
 	sjumpfwd .PackFull
 
-.NoAya:
-	jumpopenedtext PokefanFBeverlyAyaFriendText
+.NoMarill:
+	jumpopenedtext PokefanFBeverlyMarillFriendText
 
 .AskNumber1:
 	jumpstd asknumber1f
@@ -339,25 +339,25 @@ NationalParkTeacher1Text_GotQuickClaw:
 	done
 
 SchoolgirlElizaSeenText:
-	text "Kotohime is just"
+	text "Oddish is just"
 	line "the cutest!"
 
 	para "Don't you agree?"
 	done
 
 SchoolgirlElizaBeatenText:
-	text "My poor Kotohime…"
+	text "My poor Oddish…"
 	done
 
 SchoolboyJohnnySeenText:
-	text "Mugetsu is just"
+	text "Bellsprout is just"
 	line "the coolest!"
 
 	para "Aren't I right?"
 	done
 
 SchoolboyJohnnyBeatenText:
-	text "Mugetsu, no…"
+	text "Bellsprout, no…"
 	done
 
 NationalParkTeacher2Text:
@@ -369,8 +369,8 @@ NationalParkTeacher2Text:
 	line "my quiet walk…"
 	done
 
-NationalParkCYumemiText:
-	text "CYumemi: Fufushaa!"
+NationalParkPersianText:
+	text "Persian: Fufushaa!"
 	done
 
 NationalParkGameboyKidText:
@@ -446,15 +446,15 @@ PokefanmWilliamBeatenText:
 	text "M-my #mon!"
 	done
 
-PokefanFBeverlyAyaFriendText:
+PokefanFBeverlyMarillFriendText:
 	text "My friend keeps a"
-	line "Aya!"
+	line "Marill!"
 
 	para "I find them very"
 	line "endearing."
 
 	para "Oh, I wish for a"
-	line "Aya of my own…"
+	line "Marill of my own…"
 	done
 
 LassKriseSeenText:

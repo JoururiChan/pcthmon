@@ -1,4 +1,4 @@
-; Tohomon B/W - Final Tohomon
+; Pokémon B/W - Final Pokémon
 ; Demixed by Mmmmmm
 ; https://pastebin.com/nxxf3cRT
 ; https://hax.iimarckus.org/topic/6777/6/

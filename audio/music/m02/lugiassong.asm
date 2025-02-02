@@ -1,4 +1,4 @@
-; Tohomon: The Movie 2000 - Lugia's Song
+; Pokémon: The Movie 2000 - Lugia's Song
 ; Demixed by Mmmmmm
 ; https://pastebin.com/UikDn8qP
 

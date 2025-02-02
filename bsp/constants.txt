@@ -20,7 +20,7 @@
 	define sBackupCheckValue2,         0x1f0f
 	define sOptions,                   0x2000
 	define sCheckValue1,               0x2007
-	define sGameData,                  0x1fe5
+	define sGameData,                  0x2008
 	define sChecksum,                  0x2d0d
 	define sCheckValue2,               0x2d0f
 	define sHallOfFame,                0x2d10
@@ -51,8 +51,8 @@
 	define MAP_GROUP_OFFSET,                   0x834
 	define PARTY_COUNT_OFFSET,                 0x856
 	define PARTY_MON_OT_OFFSET,                0x97e
-	define TOHODEX_CAUGHT_OFFSET,              0xa03
-	define HINA_CAUGHT_OFFSET,                0xa26
+	define POKEDEX_CAUGHT_OFFSET,              0xa03
+	define UNOWN_CAUGHT_OFFSET,                0xa26
 	define DAYCARE_MAN_OFFSET,                 0xa6a
 	define BREED_MON_1_NICK_OFFSET,            0xa6b
 	define BREED_MON_1_OT_OFFSET,              0xa76
@@ -60,7 +60,7 @@
 	define BREED_MON_2_NICK_OFFSET,            0xaa4
 	define BREED_MON_2_OT_OFFSET,              0xaaf
 	define EGG_MON_NICK_OFFSET,                0xada
-	define LILYBLACK_RECORD_HOLDER_NAME_OFFSET, 0xb6b
+	define MAGIKARP_RECORD_HOLDER_NAME_OFFSET, 0xb6b
 	define REGISTERED_ITEMS_OFFSET,            0xb77
 
 ; SRAM sizes
@@ -89,7 +89,7 @@
 	define EXTSPECIES_MASK, 0x20
 
 ; pokemon constants
-	define SLILYBLACK, 0x82
+	define GYARADOS, 0x82
 
 ; move constants
 	define RAGE,         0x63

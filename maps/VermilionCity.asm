@@ -12,11 +12,11 @@ VermilionCity_MapScriptHeader:
 	warp_event  7, 17, POKEMON_FAN_CLUB, 1
 	warp_event 13, 17, VERMILION_MAGNET_TRAIN_SPEECH_HOUSE, 1
 	warp_event 21, 17, VERMILION_MART, 2
-	warp_event 21, 21, VERMILION_HOUSE_CCHIYURIS_CAVE_SPEECH_HOUSE, 1
+	warp_event 21, 21, VERMILION_HOUSE_DIGLETTS_CAVE_SPEECH_HOUSE, 1
 	warp_event 10, 23, VERMILION_GYM, 1
 	warp_event 18, 35, VERMILION_PORT, 1
 	warp_event 19, 35, VERMILION_PORT, 3
-	warp_event 36, 17, CCHIYURIS_CAVE, 1
+	warp_event 36, 17, DIGLETTS_CAVE, 1
 	warp_event 28, 35, SEAGALLOP_FERRY_VERMILION_GATE, 1
 	warp_event 29, 35, SEAGALLOP_FERRY_VERMILION_GATE, 1
 	warp_event 13,  5, VERMILION_POLLUTION_SPEECH_HOUSE, 1
@@ -30,18 +30,18 @@ VermilionCity_MapScriptHeader:
 	bg_event 19,  9, BGEVENT_JUMPTEXT, VermilionCitySignText
 	bg_event  5, 23, BGEVENT_JUMPTEXT, VermilionGymSignText
 	bg_event  5, 17, BGEVENT_JUMPTEXT, PokemonFanClubSignText
-	bg_event 33, 17, BGEVENT_JUMPTEXT, VermilionCityCChiyurisCaveSignText
+	bg_event 33, 17, BGEVENT_JUMPTEXT, VermilionCityDiglettsCaveSignText
 	bg_event 27, 19, BGEVENT_JUMPTEXT, VermilionCityPortSignText
 	bg_event 23, 13, BGEVENT_JUMPTEXT, VermilionCityBattleFactorySignText
 	bg_event 11, 27, BGEVENT_JUMPTEXT, VermilionCityAdvancedTipsSignText
 	bg_event 12, 23, BGEVENT_ITEM + FULL_HEAL, EVENT_VERMILION_CITY_HIDDEN_FULL_HEAL
 
 	def_object_events
-	object_event 35, 18, SPRITE_BIG_CRAN, SPRITEMOVEDATA_CRAN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionCRan, EVENT_VERMILION_CITY_CRAN
+	object_event 35, 18, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_SNORLAX, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionSnorlax, EVENT_VERMILION_CITY_SNORLAX
 	object_event 18, 31, SPRITE_LAWRENCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LAWRENCE_VERMILION_CITY
 	object_event 18, 13, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCityTeacherText, -1
-	object_event 27, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionAYukaOwnerScript, -1
-	pokemon_event 28, 13, AYUKA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, VermilionAYukaText, -1
+	object_event 27, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionMachokeOwnerScript, -1
+	pokemon_event 28, 13, MACHOKE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, VermilionMachokeText, -1
 	object_event 16, 20, SPRITE_ROCKER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCitySuperNerdText, -1
 	object_event 32, 12, SPRITE_POKEMANIAC, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VermilionCitySuperNerd2Script, -1
 	object_event 11,  9, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCitySailorText, -1
@@ -51,7 +51,7 @@ VermilionCity_MapScriptHeader:
 	cuttree_event 13, 23, EVENT_VERMILION_CITY_CUT_TREE
 
 	object_const_def
-	const VERMILIONCITY_BIG_CRAN
+	const VERMILIONCITY_BIG_SNORLAX
 	const VERMILIONCITY_LAWRENCE
 
 VermilionCitySetupLawrenceCallback:
@@ -135,22 +135,22 @@ LawrenceWalkAroundRightMovementData:
 	turn_head_right
 	step_end
 
-VermilionCRan:
+VermilionSnorlax:
 	opentext
-	special SpecialCRanAwake
+	special SpecialSnorlaxAwake
 	iftruefwd .Awake
-	jumpopenedtext VermilionCityCRanSleepingText
+	jumpopenedtext VermilionCitySnorlaxSleepingText
 
 .Awake:
-	writetext VermilionCityRadioNearCRanText
+	writetext VermilionCityRadioNearSnorlaxText
 	pause 15
-	cry CRAN
+	cry SNORLAX
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon CRAN, 60
+	loadwildmon SNORLAX, 60
 	startbattle
-	disappear VERMILIONCITY_BIG_CRAN
-	setevent EVENT_FOUGHT_CRAN
+	disappear VERMILIONCITY_BIG_SNORLAX
+	setevent EVENT_FOUGHT_SNORLAX
 	reloadmapafterbattle
 	end
 
@@ -180,9 +180,9 @@ VermilionGymBadgeGuy:
 	writetext VermilionCityBadgeGuyBattleEdgeText
 	waitendtext
 
-VermilionAYukaOwnerScript:
+VermilionMachokeOwnerScript:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
-	iftrue_jumptextfaceplayer VermilionAYukaOwnerText
+	iftrue_jumptextfaceplayer VermilionMachokeOwnerText
 	jumpthistextfaceplayer
 
 	text "My #mon"
@@ -286,22 +286,22 @@ VermilionCityTeacherText:
 	cont "dock here."
 	done
 
-VermilionAYukaOwnerText:
+VermilionMachokeOwnerText:
 	text "My #mon"
 	line "prepared the land"
 
 	para "to construct that"
 	line "huge building!"
 
-	para "It was a Yuka"
+	para "It was a Machop"
 	line "three years ago,"
 
 	para "but the effort"
 	line "made it evolve!"
 	done
 
-VermilionAYukaText:
-	text "AYuka: Guooh"
+VermilionMachokeText:
+	text "Machoke: Guooh"
 	line "gogogoh!"
 	done
 
@@ -349,19 +349,19 @@ VermilionCitySailorText:
 	line "good sea air!"
 	done
 
-VermilionCityCRanSleepingText:
-	text "CRan is snoring"
+VermilionCitySnorlaxSleepingText:
+	text "Snorlax is snoring"
 	line "peacefully…"
 	done
 
-VermilionCityRadioNearCRanText:
+VermilionCityRadioNearSnorlaxText:
 	text "The #gear was"
 	line "placed near the"
-	cont "sleeping CRan…"
+	cont "sleeping Snorlax…"
 
 	para "…"
 
-	para "CRan woke up!"
+	para "Snorlax woke up!"
 	done
 
 VermilionCityBadgeGuyTrainerText:
@@ -430,8 +430,8 @@ PokemonFanClubSignText:
 	line "Welcome!"
 	done
 
-VermilionCityCChiyurisCaveSignText:
-	text "CChiyuri's Cave"
+VermilionCityDiglettsCaveSignText:
+	text "Diglett's Cave"
 	done
 
 VermilionCityPortSignText:

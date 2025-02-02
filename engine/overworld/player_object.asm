@@ -454,7 +454,7 @@ CopyTempObjectToObjectStruct:
 	cp SPRITEMOVEDATA_FRUIT
 	ld a, [wTempObjectCopyRadius]
 	jr z, .keep_radius
-	; the "radius" for Tohomon icons is the species, so don't alter it
+	; the "radius" for Pokémon icons is the species, so don't alter it
 	ld a, [wTempObjectCopySprite]
 	cp SPRITE_MON_ICON
 	ld a, [wTempObjectCopyRadius]

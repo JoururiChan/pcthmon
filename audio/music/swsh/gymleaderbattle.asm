@@ -1,4 +1,4 @@
-; Tohomon Sw/Sh - Battle! Gym Leader
+; Pokémon Sw/Sh - Battle! Gym Leader
 ; Demixed by ShinkoNetCavy
 ; https://soundcloud.com/user-927422935-571023782/swsh-gym-leader-theme-8-bit-by-shinkonetcavy
 

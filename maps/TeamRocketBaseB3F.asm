@@ -31,10 +31,10 @@ TeamRocketBaseB3F_MapScriptHeader:
 	def_object_events
 	object_event 25, 14, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LanceGetPasswordScript, EVENT_TEAM_ROCKET_BASE_B3F_LANCE_PASSWORDS
 	object_event  8,  3, SPRITE_PETREL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B3F_PETREL
-	object_event  7,  2, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, MINORIKO, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, RocketBaseMinoriko, EVENT_TEAM_ROCKET_BASE_POPULATION
+	object_event  7,  2, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, MURKROW, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, RocketBaseMurkrow, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event  4,  5, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_TEAM_ROCKET_BASE
-	object_event 21,  7, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, WakasagiTailGrunt, EVENT_TEAM_ROCKET_BASE_POPULATION
-	object_event  5, 14, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, CElisTailGrunt, EVENT_TEAM_ROCKET_BASE_POPULATION
+	object_event 21,  7, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, SlowpokeTailGrunt, EVENT_TEAM_ROCKET_BASE_POPULATION
+	object_event  5, 14, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, RaticateTailGrunt, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event 23, 11, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerRocketScientistRoss, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event 11, 15, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerRocketScientistMitch, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event 24, 14, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, TeamRocketBaseB3FRocketText, EVENT_TEAM_ROCKET_BASE_POPULATION
@@ -47,7 +47,7 @@ TeamRocketBaseB3F_MapScriptHeader:
 	object_const_def
 	const TEAMROCKETBASEB3F_LANCE
 	const TEAMROCKETBASEB3F_PETREL
-	const TEAMROCKETBASEB3F_MINORIKO
+	const TEAMROCKETBASEB3F_MURKROW
 	const TEAMROCKETBASEB3F_RIVAL
 
 TeamRocketBaseB3FTrigger0:
@@ -66,7 +66,7 @@ TeamRocketBaseB3FCheckGiovanniDoor:
 LanceGetPasswordScript:
 	turnobject PLAYER, LEFT
 	pause 5
-	turnobject TEAMROCKETBASEB3F_MINORIKO, RIGHT
+	turnobject TEAMROCKETBASEB3F_MURKROW, RIGHT
 	pause 20
 	applyonemovement TEAMROCKETBASEB3F_LANCE, step_right
 	showtext LanceGetPasswordText
@@ -120,27 +120,27 @@ RocketBaseBoss:
 	setscene $3
 	end
 
-RocketBaseMinoriko:
-	showtext RocketBaseMinorikoText
+RocketBaseMurkrow:
+	showtext RocketBaseMurkrowText
 	setevent EVENT_LEARNED_HAIL_GIOVANNI
 	end
 
-WakasagiTailGrunt:
+SlowpokeTailGrunt:
 	trainer GRUNTF, 5, EVENT_BEAT_ROCKET_GRUNTF_5, GruntF5SeenText, GruntF5BeatenText, 0, GruntF5Script
 
 GruntF5Script:
 	endifjustbattled
 	showtext GruntF5AfterBattleText
-	setevent EVENT_LEARNED_WAKASAGITAIL
+	setevent EVENT_LEARNED_SLOWPOKETAIL
 	end
 
-CElisTailGrunt:
+RaticateTailGrunt:
 	trainer GRUNTM, 28, EVENT_BEAT_ROCKET_GRUNTM_28, GruntM28SeenText, GruntM28BeatenText, 0, GruntM28Script
 
 GruntM28Script:
 	endifjustbattled
 	showtext GruntM28AfterBattleText
-	setevent EVENT_LEARNED_CELIS_TAIL
+	setevent EVENT_LEARNED_RATICATE_TAIL
 	end
 
 GenericTrainerRocketScientistRoss:
@@ -176,9 +176,9 @@ GenericTrainerRocketScientistMitch:
 BossDoor:
 	dw EVENT_OPENED_DOOR_TO_GIOVANNIS_OFFICE
 	opentext
-	checkevent EVENT_LEARNED_WAKASAGITAIL
+	checkevent EVENT_LEARNED_SLOWPOKETAIL
 	iffalsefwd .NeedsPassword
-	checkevent EVENT_LEARNED_CELIS_TAIL
+	checkevent EVENT_LEARNED_RATICATE_TAIL
 	iffalsefwd .NeedsPassword
 	sjumpfwd .OpenSesame
 
@@ -397,8 +397,8 @@ ExecutiveM4AfterText:
 	line "the others…"
 	done
 
-RocketBaseMinorikoText:
-	text "Minoriko: The"
+RocketBaseMurkrowText:
+	text "Murkrow: The"
 	line "password is…"
 
 	para "Hail Giovanni."
@@ -423,7 +423,7 @@ GruntF5AfterBattleText:
 	text "The password to"
 	line "the boss's room is"
 
-	para "WakasagiTail."
+	para "SlowpokeTail."
 
 	para "But it's useless"
 	line "unless you have"
@@ -460,7 +460,7 @@ GruntM28AfterBattleText:
 	line "the boss's room…"
 
 	para "Uh…, I think it is"
-	line "CElis Tail."
+	line "Raticate Tail."
 	done
 
 RocketScientistRossSeenText:

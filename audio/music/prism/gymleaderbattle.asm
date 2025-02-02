@@ -1,4 +1,4 @@
-; Tohomon Prism - Battle! Gym Leader
+; Pokémon Prism - Battle! Gym Leader
 ; Composed by GRonnoc
 ; Revised by FroggestSpirit
 

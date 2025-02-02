@@ -22,7 +22,7 @@ WriteBattleTowerTrainerName:
 	ret
 
 NewRentalTeam:
-; Gives the player 6 rental Tohomon to choose from. The first 3
+; Gives the player 6 rental Pokémon to choose from. The first 3
 ; are guranteed to be legal together (the first 6 run into problems with
 ; Item Clause).
 	; First, figure out tier selection.
@@ -164,7 +164,7 @@ NewRentalTeam:
 	ret
 
 LoadRentalParty:
-; Loads the 6 player rental Tohomon in wBT_MonParty for party lineup.
+; Loads the 6 player rental Pokémon in wBT_MonParty for party lineup.
 	ld hl, wBT_MonParty
 	ld b, PARTY_LENGTH
 	call LoadAnyParty
@@ -563,7 +563,7 @@ BT_AppendOTMon:
 BT_GetTierTable:
 ; Generates the appropriate tier table given our current winstreak.
 ; Our current winstreak gives a certain amount of BP, but also serves
-; to determine what tiers the opponent Trainer gets his/her Tohomon from.
+; to determine what tiers the opponent Trainer gets his/her Pokémon from.
 ; This is read from BattleTowerTierTable.
 	farcall BT_GetCurTrainer
 	call BT_GetPointsForTrainer
@@ -806,7 +806,7 @@ BT_GetTierSize:
 	ret
 
 BT_SetLevel:
-; Set level of all tohomon in your and opponent's party to a and set HP to max HP
+; Set level of all pokémon in your and opponent's party to a and set HP to max HP
 	ld d, a
 	ld a, [wPartyCount]
 	ld hl, wPartyMon1

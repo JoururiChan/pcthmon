@@ -69,9 +69,9 @@ DragonsDenB1FClairTrigger:
 	opentext
 	writetext .GiveTMText
 	promptbutton
-	verbosegivetmhm TM_VOICE_BURST
-	setevent EVENT_GOT_TM59_VOICE_BURST
-	writetext .DescribeVoiceBurstText
+	verbosegivetmhm TM_DRAGON_PULSE
+	setevent EVENT_GOT_TM59_DRAGON_PULSE
+	writetext .DescribeDragonPulseText
 	promptbutton
 	writetext ClairPokemonLeagueDirectionsText ; in BlackthornGym1F.asm
 	waitbutton
@@ -98,9 +98,9 @@ DragonsDenB1FClairTrigger:
 	line "my apology."
 	done
 
-.DescribeVoiceBurstText:
+.DescribeDragonPulseText:
 	text "That contains"
-	line "Voice Burst."
+	line "Dragon Pulse."
 
 	para "If you don't want"
 	line "it, you don't have"
@@ -143,19 +143,19 @@ DragonsDenB1FRivalScript:
 	waitbutton
 	writetext .GiveEggText
 	promptbutton
-	checkevent EVENT_GOT_CREISEN_FROM_ELM
-	iftruefwd .GiveCSakuyaEgg
-	checkevent EVENT_GOT_CSANAE_FROM_ELM
-	iftruefwd .GiveCReimuEgg
-	giveegg CMARISA
+	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	iftruefwd .GiveChikoritaEgg
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	iftruefwd .GiveCyndaquilEgg
+	giveegg TOTODILE
 	sjumpfwd .GotRivalsEgg
 
-.GiveCSakuyaEgg:
-	giveegg CSAKUYA
+.GiveChikoritaEgg:
+	giveegg CHIKORITA
 	sjumpfwd .GotRivalsEgg
 
-.GiveCReimuEgg:
-	giveegg CREIMU
+.GiveCyndaquilEgg:
+	giveegg CYNDAQUIL
 .GotRivalsEgg
 	iffalsefwd .PartyAndBoxFull
 	writetext .DescribeEggText

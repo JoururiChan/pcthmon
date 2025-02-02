@@ -219,7 +219,7 @@ ItemIconPointers:
 	dba DubiousDiscIcon
 	dba ProtectorIcon
 	dba ElectirizerIcon
-	dba LilyWhiteizerIcon
+	dba MagmarizerIcon
 	dba RazorFangIcon
 	dba RazorClawIcon
 	dba OvalStoneIcon
@@ -241,7 +241,7 @@ ItemIconPointers:
 	dba StarPieceIcon
 	dba BrickPieceIcon
 	dba RareBoneIcon
-	dba WakasagiTailIcon
+	dba SlowpokeTailIcon
 	dba HelixFossilIcon
 	dba DomeFossilIcon
 	dba OldAmberIcon
@@ -268,7 +268,6 @@ KeyItemIconPointers:
 	dba CoinCaseIcon
 	dba ApricornBoxIcon
 	dba WingCaseIcon
-	dba CandyJarIcon
 	dba TypeChartIcon
 	dba GBCSoundsIcon
 	dba BlueCardIcon
@@ -291,7 +290,6 @@ KeyItemIconPointers:
 	dba OrangeTicketIcon
 	dba MysticTicketIcon
 	dba OldSeaMapIcon
-	dba LiftKeyIcon
 	dba HarshLureIcon
 	dba PotentLureIcon
 	dba MalignLureIcon
@@ -299,13 +297,3 @@ KeyItemIconPointers:
 	dba OvalCharmIcon
 	dba CatchCharmIcon
 	assert_table_length NUM_KEY_ITEMS + 1
-
-ExpCandyIconPointers:
-	table_width 3
-	dba NoItemIcon
-	dba ExpCandyXSIcon
-	dba ExpCandySIcon
-	dba ExpCandyMIcon
-	dba ExpCandyLIcon
-	dba ExpCandyXLIcon
-	assert_table_length NUM_CANDIES + 1

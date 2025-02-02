@@ -54,7 +54,7 @@ AdjustPokemonIndexes:
 	set #1, sBox8_v6
 	call .box_species
 
-	; modify tohodex flags
+	; modify pokedex flags
 	seek 0x2a16 ; TODO: replace literal
 	set #1, 256
 	set #2, #r0

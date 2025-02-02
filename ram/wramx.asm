@@ -312,9 +312,6 @@ wTempDexLast:: dw ; the last species marked as seen
 wTempDexEnd::
 NEXTU
 wTempPocketCursor:: ds NUM_POCKETS
-NEXTU
-wCandyMaxLevelExp:: ds 3
-wCandyPrevLevel:: db
 ENDU
 ENDU
 
@@ -578,10 +575,10 @@ wEvolutionPicOffset:: db
 wEvolutionCanceled:: db
 
 NEXTU
-; LilyBlack length
-wLilyBlackLengthMm::
-wLilyBlackLengthMmHi:: db
-wLilyBlackLengthMmLo:: db
+; Magikarp length
+wMagikarpLengthMm::
+wMagikarpLengthMmHi:: db
+wMagikarpLengthMmLo:: db
 
 NEXTU
 ; mint tea woman
@@ -629,7 +626,7 @@ wTempWildMonSpecies:: db
 
 wOtherTrainerClass::
 ; class (Youngster, Bug Catcher, etc.) of opposing trainer
-; 0 if opponent is a wild Tohomon, not a trainer
+; 0 if opponent is a wild Pokémon, not a trainer
 	db
 
 wBattleType::
@@ -734,8 +731,8 @@ wTrainerGroupBank:: db
 
 SECTION "Enemy Party", WRAMX
 
-wTohodexShowPointerAddr:: dw
-wTohodexShowPointerBank:: db
+wPokedexShowPointerAddr:: dw
+wPokedexShowPointerBank:: db
 
 wEnemyFleeing:: db
 wNumFleeAttempts:: db
@@ -955,7 +952,7 @@ wCurTimeOfDay:: db
 wSecretID:: dw
 
 wStatusFlags::
-	; bit 0: tohodex
+	; bit 0: pokedex
 	; bit 1: unown dex
 	; bit 2: flash
 	; bit 3: caught pokerus
@@ -1002,7 +999,7 @@ wItems:: ds MAX_ITEMS * 2 + 1
 wItemsEnd::
 
 wNumMedicine:: db
-wMedicine:: ds MAX_MEDICINE_B * 2 + 1
+wMedicine:: ds MAX_MEDICINE * 2 + 1
 wMedicineEnd::
 
 wNumBalls:: db
@@ -1019,7 +1016,7 @@ wPCItemsEnd::
 
 wApricorns:: ds NUM_APRICORNS
 
-wTohogearFlags::
+wPokegearFlags::
 ; bit 0: map
 ; bit 1: radio
 ; bit 2: phone
@@ -1027,7 +1024,7 @@ wTohogearFlags::
 ; bit 7: on/off
 	db
 wRadioTuningKnob:: db
-wTohodexMode:: db
+wPokedexMode:: db
 
 wTMHMPocketScrollPosition:: db
 wTMHMPocketCursor::
@@ -1038,6 +1035,8 @@ wPlayerState:: db
 
 wHallOfFameCount:: dw
 wTradeFlags:: flag_array PARTY_LENGTH
+
+	ds 1 ; unused
 
 wMooMooBerries:: db
 wUndergroundSwitchPositions:: db
@@ -1068,7 +1067,7 @@ wDragonsDenB1FSceneID:: db
 wDragonShrineSceneID:: db
 wEcruteakGymSceneID:: db
 wEcruteakHouseSceneID:: db
-wRocketHideoutB4FSceneID:: db
+	ds 1 ; unused
 wElmsLabSceneID:: db
 wFarawayIslandSceneID:: db
 wFastShip1FSceneID:: db
@@ -1113,15 +1112,15 @@ wRoute48SceneID:: db
 wRuinsOfAlphAerodactylChamberSceneID:: db
 wRuinsOfAlphHoOhChamberSceneID:: db
 wRuinsOfAlphInnerChamberSceneID:: db
-wRuinsOfAlphOmanyteChamberSceneID:: db
 wRuinsOfAlphKabutoChamberSceneID:: db
+wRuinsOfAlphOmanyteChamberSceneID:: db
 wRuinsOfAlphOutsideSceneID:: db
 wRuinsOfAlphResearchCenterSceneID:: db
 wSeagallopFerryNavelGateSceneID:: db
 wSeagallopFerryShamoutiGateSceneID:: db
 wSeagallopFerryVermilionGateSceneID:: db
 wShamoutiHotelRestaurantSceneID:: db
-wAutumnTower3FSceneID:: db
+wSproutTower3FSceneID:: db
 wTeamRocketBaseB2FSceneID:: db
 wTeamRocketBaseB3FSceneID:: db
 wTinTower1FSceneID:: db
@@ -1180,14 +1179,7 @@ wNeededPalIndex:: db
 
 wEmotePal:: db
 
-	ds 64 ; unused
-
-wCandyAmounts::
-wExpCandyXSAmount:: db
-wExpCandySAmount:: db
-wExpCandyMAmount:: db
-wExpCandyLAmount:: db
-wExpCandyXLAmount:: db
+	ds 70 ; unused
 
 wWingAmounts::
 wHealthWingAmount:: dw
@@ -1248,7 +1240,7 @@ wTimerEventStartDay:: db
 
 wFruitTreeFlags:: flag_array NUM_FRUIT_TREES
 
-	ds 19 ; unused
+	ds 19 ; previously nuzlocke flags
 
 wHiddenGrottoContents::
 ; dbw content type, content id
@@ -1270,7 +1262,7 @@ wBlueCardBalance:: db
 
 wBugContestOfficerPrize:: db
 
-wInTohogear:: db
+wInPokegear:: db
 wWalkingOnBridge:: db
 
 wDailyRematchFlags:: ds 4
@@ -1341,7 +1333,7 @@ SECTION "Party", WRAMX
 
 wPokemonData::
 
-wPartyCount::   db ; number of Tohomon in party
+wPartyCount::   db ; number of Pokémon in party
 
 	ds 7 ; unused
 
@@ -1366,13 +1358,17 @@ wPartyMonNicknamesEnd::
 
 	ds 1 ; unused
 
-wTohodexFlags::
-wTohodexCaught:: flag_array NUM_UNIQUE_POKEMON
-wEndTohodexCaught::
+wPokedexFlags::
+wPokedexCaught:: flag_array NUM_UNIQUE_POKEMON
+wEndPokedexCaught::
 
-wTohodexSeen:: flag_array NUM_UNIQUE_POKEMON
-wEndTohodexSeen::
-wEndTohodexFlags::
+	ds 1 ; unused
+
+wPokedexSeen:: flag_array NUM_UNIQUE_POKEMON
+wEndPokedexSeen::
+wEndPokedexFlags::
+
+	ds 1 ; unused
 
 wUnlockedUnowns:: db
 
@@ -1396,7 +1392,7 @@ wDayCareLady::
 	db
 
 wStepsToEgg:: db
-wBreedMotherOrNonLyrica::
+wBreedMotherOrNonDitto::
 ;  z: yes
 ; nz: no
 	db
@@ -1406,8 +1402,8 @@ wBreedMon2OT:: ds PLAYER_NAME_LENGTH
 wBreedMon2Extra:: ds 3
 wBreedMon2:: breed_struct wBreedMon2
 
-; TODO: space for a Day-Care on Route 5 which just levels up one Tohomon;
-; Route 34 will have a Nursery that breeds with two Tohomon.
+; TODO: space for a Day-Care on Route 5 which just levels up one Pokémon;
+; Route 34 will have a Nursery that breeds with two Pokémon.
 wLevelUpMonNickname:: ds MON_NAME_LENGTH
 wLevelUpMonOT:: ds PLAYER_NAME_LENGTH
 wLevelUpMonExtra:: ds 3
@@ -1426,10 +1422,10 @@ wRoamMon3:: roam_struct wRoamMon3
 
 	ds 4 ; previously used
 
-wBestLilyBlackLengthMm::
-wBestLilyBlackLengthMmHi:: db
-wBestLilyBlackLengthMmLo:: db
-wLilyBlackRecordHoldersName:: ds NAME_LENGTH
+wBestMagikarpLengthMm::
+wBestMagikarpLengthMmHi:: db
+wBestMagikarpLengthMmLo:: db
+wMagikarpRecordHoldersName:: ds NAME_LENGTH
 
 wRegisteredItemFlags::
 	; 0 - wRegisteredItems key item flag
@@ -1574,7 +1570,7 @@ wDexNoStrBall:: db ; ball if caught, $7f otherwise
 wDexNoStrNo:: ds 2 ; "No."
 wDexNoStrNumber:: ds 3 ; the dex number
 
-; These are for the list view. For the "No.123", see wTohodexOAM_DexNo in wram0.
+; These are for the list view. For the "No.123", see wPokedexOAM_DexNo in wram0.
 wDexNumber:: dw
 wDexNumberString:: ds 4 ; 3 numbers including leading zeroes + terminator
 
@@ -1609,7 +1605,7 @@ wDexAreaLastMode:: db
 
 	; Used to align wDexAreaMons. Feel free to add more data here, just don't
 	; let wDexAreaMons be misaligned (an assert will tell you if you do).
-	ds 5
+	ds 4
 
 ALIGN 8
 wDexAreaMons::
@@ -1629,7 +1625,7 @@ wDexAreaRegionLocations:: ds NUM_DEXAREAS
 ; Things handled by hblank
 wDexAreaMonOffset:: db ; current area mon index to process in h-blank
 wDexAreaSpriteSlot:: db ; LOW(address) to oamSprite to use.
-wDexAreaModeCopy:: db ; written to from hTohodexAreaMode on screen reload
+wDexAreaModeCopy:: db ; written to from hPokedexAreaMode on screen reload
 
 	; Used to align wDexAreaMons2. Feel free to add more data here, just don't
 	; let wDexAreaMons2 be misaligned (an assert will tell you if you do).
@@ -1655,7 +1651,7 @@ wDecompressedAttributes:: ds 256 tiles
 
 SECTION UNION "Attributes", WRAMX
 
-; Array of Tohomon in the pokédex list.
+; Array of Pokémon in the pokédex list.
 wDexMons::
 for n, 1, NUM_SPECIES + 1
 wDexMon{d:n}::

@@ -61,7 +61,7 @@ RuinsOfAlphHoOhChamberWallOpenScript:
 MapRuinsofAlphHoOhChamberSignpost2Script:
 	reanchormap
 	setval $3
-	special Special_HinaPuzzle
+	special Special_UnownPuzzle
 	closetext
 	iftruefwd .PuzzleComplete
 	end
@@ -69,7 +69,7 @@ MapRuinsofAlphHoOhChamberSignpost2Script:
 .PuzzleComplete:
 	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
 	setevent EVENT_SOLVED_HO_OH_PUZZLE
-	setflag ENGINE_UNLOCKED_HINAS_X_TO_QUESTION
+	setflag ENGINE_UNLOCKED_UNOWNS_X_TO_QUESTION
 	setmapscene RUINS_OF_ALPH_INNER_CHAMBER, $1
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 15
@@ -87,7 +87,7 @@ MapRuinsofAlphHoOhChamberSignpost2Script:
 
 MapRuinsofAlphHoOhChamberSignpost3Script:
 	opentext
-	hinatypeface
+	unowntypeface
 	writetext RuinsOfAlphHoOhChamberDescriptionText
 	waitbutton
 	closetext
@@ -102,13 +102,13 @@ MapRuinsofAlphHoOhChamberSignpost4Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
 	iftruefwd .unsolved
-	writetext RuinsOfAlphChambersItsHinaText
-	sjumpfwd .hinawords
+	writetext RuinsOfAlphChambersItsUnownText
+	sjumpfwd .unownwords
 .unsolved
 	writetext RuinsOfAlphAerodactylChamberWallPatternLeftText
-.hinawords
+.unownwords
 	setval $3
-	special Special_DisplayHinaWords
+	special Special_DisplayUnownWords
 	endtext
 
 RuinsOfAlphHoOhChamberDescriptionText:

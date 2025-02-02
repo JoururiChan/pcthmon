@@ -218,7 +218,7 @@ ItemDescriptions:
 	dw DubiousDiscDesc
 	dw ProtectorDesc
 	dw ElectirizerDesc
-	dw LilyWhiteizerDesc
+	dw MagmarizerDesc
 	dw RazorFangDesc
 	dw RazorClawDesc
 	dw OvalStoneDesc
@@ -240,7 +240,7 @@ ItemDescriptions:
 	dw StarPieceDesc
 	dw BrickPieceDesc
 	dw RareBoneDesc
-	dw WakasagiTailDesc
+	dw SlowpokeTailDesc
 	dw HelixFossilDesc
 	dw DomeFossilDesc
 	dw OldAmberDesc
@@ -266,7 +266,6 @@ KeyItemDescriptions:
 	dw CoinCaseDesc
 	dw ApricornBoxDesc
 	dw WingCaseDesc
-	dw CandyJarDesc
 	dw TypeChartDesc
 	dw GBCSoundsDesc
 	dw BlueCardDesc
@@ -289,7 +288,6 @@ KeyItemDescriptions:
 	dw OrangeTicketDesc
 	dw MysticTicketDesc
 	dw OldSeaMapDesc
-	dw LiftKeyDesc
 	dw HarshLureDesc
 	dw PotentLureDesc
 	dw MalignLureDesc
@@ -297,15 +295,6 @@ KeyItemDescriptions:
 	dw OvalCharmDesc
 	dw CatchCharmDesc
 	assert_table_length NUM_KEY_ITEMS
-
-ExpCandyDescriptions:
-	table_width 2
-	dw ExpCandyXSDesc
-	dw ExpCandySDesc
-	dw ExpCandyMDesc
-	dw ExpCandyLDesc
-	dw ExpCandyXLDesc
-	assert_table_length NUM_CANDIES
 
 PokeBallDesc:
 	text "An item for catch-"
@@ -859,12 +848,12 @@ BerryJuiceDesc:
 	done
 
 SilkScarfDesc:
-	text "Powers up Illusion-"
+	text "Powers up Normal-"
 	next "type moves. (Hold)"
 	done
 
 BlackBeltDesc:
-	text "Boosts Dream-"
+	text "Boosts Fighting-"
 	next "type moves. (Hold)"
 	done
 
@@ -879,12 +868,12 @@ PoisonBarbDesc:
 	done
 
 SoftSandDesc:
-	text "Powers up Earth-"
+	text "Powers up Ground-"
 	next "type moves. (Hold)"
 	done
 
 HardStoneDesc:
-	text "Powers up Beast-"
+	text "Powers up Rock-"
 	next "type moves. (Hold)"
 	done
 
@@ -914,17 +903,17 @@ MysticWaterDesc:
 	done
 
 MiracleSeedDesc:
-	text "Powers up Nature-"
+	text "Powers up Grass-"
 	next "type moves. (Hold)"
 	done
 
 MagnetDesc:
-	text "Boosts Wind-"
+	text "Boosts Electric-"
 	next "type moves. (Hold)"
 	done
 
 TwistedSpoonDesc:
-	text "Powers up Reason-"
+	text "Powers up Psychic-"
 	next "type moves. (Hold)"
 	done
 
@@ -934,7 +923,7 @@ NeverMeltIceDesc:
 	done
 
 DragonFangDesc:
-	text "Powers up Faith-"
+	text "Powers up Dragon-"
 	next "type moves. (Hold)"
 	done
 
@@ -944,7 +933,7 @@ BlackGlassesDesc:
 	done
 
 PinkBowDesc:
-	text "Powers up Heart-"
+	text "Powers up Fairy-"
 	next "type moves. (Hold)"
 	done
 
@@ -1006,7 +995,7 @@ BerserkGeneDesc:
 	done
 
 LightBallDesc:
-	text "Boost Kikuri's"
+	text "Boost Pikachu's"
 	next "Attack and Sp.Atk."
 	done
 
@@ -1022,17 +1011,17 @@ ThickClubDesc:
 
 LuckyPunchDesc:
 	text "Ups critical hit"
-	next "ratio of CRemilia."
+	next "ratio of Chansey."
 	done
 
 MetalPowderDesc:
 	text "Raises Defense of"
-	next "Lyrica. (Hold)"
+	next "Ditto. (Hold)"
 	done
 
 QuickPowderDesc:
 	text "Raises Speed of"
-	next "Lyrica. (Hold)"
+	next "Ditto. (Hold)"
 	done
 
 ArmorSuitDesc:
@@ -1041,7 +1030,7 @@ ArmorSuitDesc:
 	done
 
 AirBalloonDesc:
-	text "Avoids one Earth"
+	text "Avoids one Ground"
 	next "attack. (Hold)"
 	done
 
@@ -1266,7 +1255,7 @@ WiseGlassesDesc:
 	done
 
 DragonScaleDesc:
-	text "A rare Faith-type"
+	text "A rare Dragon-type"
 	next "item."
 	done
 
@@ -1290,7 +1279,7 @@ ElectirizerDesc:
 	next "electric energy."
 	done
 
-LilyWhiteizerDesc:
+MagmarizerDesc:
 	text "A box packed with"
 	next "magma energy."
 	done
@@ -1375,7 +1364,7 @@ GoldLeafDesc:
 	next "colored leaf."
 	done
 
-WakasagiTailDesc:
+SlowpokeTailDesc:
 	text "Very tasty. Sell"
 	next "high."
 	done
@@ -1402,12 +1391,12 @@ FlowerMailDesc:
 	done
 
 SurfMailDesc:
-	text "CLyrica-print Mail."
+	text "Lapras-print Mail."
 	next "(Hold)"
 	done
 
 LiteBlueMailDesc:
-	text "Yukari-print"
+	text "Dratini-print"
 	next "Mail. (Hold)"
 	done
 
@@ -1422,12 +1411,12 @@ LovelyMailDesc:
 	done
 
 EonMailDesc:
-	text "TLyrica-print Mail."
+	text "Eevee-print Mail."
 	next "(Hold)"
 	done
 
 MorphMailDesc:
-	text "Lyrica-print Mail."
+	text "Ditto-print Mail."
 	next "(Hold)"
 	done
 
@@ -1437,12 +1426,12 @@ BlueSkyMailDesc:
 	done
 
 MusicMailDesc:
-	text "Kaguya-print Mail."
+	text "Natu-print Mail."
 	next "(Hold)"
 	done
 
 MirageMailDesc:
-	text "TSuika-print Mail."
+	text "Mew-print Mail."
 	next "(Hold)"
 	done
 
@@ -1578,7 +1567,7 @@ SecretPotionDesc:
 
 RedScaleDesc:
 	text "A scale from the"
-	next "red SLilyBlack."
+	next "red Gyarados."
 	done
 
 CardKeyDesc:
@@ -1666,11 +1655,6 @@ MalignLureDesc:
 	next "malevolent odor."
 	done
 
-LiftKeyDesc:
-	text "Operates the lift"
-	next "in a building."
-	done
-
 ShinyCharmDesc:
 	text "A charm for find-"
 	next "ing shiny #mon."
@@ -1704,18 +1688,4 @@ TypeChartDesc:
 WingCaseDesc:
 	text "Holds up to 999 of"
 	next "each Wing."
-	done
-
-CandyJarDesc:
-	text "Holds up to 99 of"
-	next "each Exp.Candy."
-	done
-
-ExpCandyXSDesc:
-ExpCandySDesc:
-ExpCandyMDesc:
-ExpCandyLDesc:
-ExpCandyXLDesc:
-	text "A candy that"
-	next "gives Exp. Points."
 	done

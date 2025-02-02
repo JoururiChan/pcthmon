@@ -1907,7 +1907,7 @@ GetBackupLandmark::
 	; fallthrough
 
 GetWorldMapLocation::
-; given a map group/id in bc, return its location on the Tohogear map.
+; given a map group/id in bc, return its location on the Pokégear map.
 	push hl
 	push de
 	push bc

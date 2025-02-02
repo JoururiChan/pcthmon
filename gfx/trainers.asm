@@ -258,11 +258,8 @@ DragonTamerPic: INCBIN "gfx/trainers/dragon_tamer.2bpp.lz"
 SECTION "EngineerPic", ROMX
 EngineerPic: INCBIN "gfx/trainers/engineer.2bpp.lz"
 
-SECTION "TeacherFPic", ROMX
-TeacherFPic: INCBIN "gfx/trainers/teacher_f.2bpp.lz"
-
-SECTION "TeacherMPic", ROMX
-TeacherMPic: INCBIN "gfx/trainers/teacher_m.2bpp.lz"
+SECTION "TeacherPic", ROMX
+TeacherPic: INCBIN "gfx/trainers/teacher.2bpp.lz"
 
 SECTION "GuitaristmPic", ROMX
 GuitaristmPic: INCBIN "gfx/trainers/guitarist_m.2bpp.lz"
@@ -447,17 +444,17 @@ LawrencePic: INCBIN "gfx/trainers/lawrence.2bpp.lz"
 SECTION "ReiPic", ROMX
 ReiPic: INCBIN "gfx/trainers/rei.2bpp.lz"
 
-SECTION "ALunasaFossilPic", ROMX
-ALunasaFossilPic: INCBIN "gfx/trainers/alunasa_fossil.2bpp.lz"
+SECTION "OmastarFossilPic", ROMX
+OmastarFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"
 
-SECTION "YuyukoFossilPic", ROMX
-YuyukoFossilPic: INCBIN "gfx/trainers/yuyuko_fossil.2bpp.lz"
+SECTION "KabutopsFossilPic", ROMX
+KabutopsFossilPic: INCBIN "gfx/trainers/kabutops_fossil.2bpp.lz"
 
-SECTION "AYuyukoFossilPic", ROMX
-AYuyukoFossilPic: INCBIN "gfx/trainers/ayuyuko_fossil.2bpp.lz"
+SECTION "AerodactylFossilPic", ROMX
+AerodactylFossilPic: INCBIN "gfx/trainers/aerodactyl_fossil.2bpp.lz"
 
-SECTION "CMeilingArmorPic", ROMX
-CMeilingArmorPic: INCBIN "gfx/trainers/cmeiling_armor.2bpp.lz"
+SECTION "CuboneArmorPic", ROMX
+CuboneArmorPic: INCBIN "gfx/trainers/cubone_armor.2bpp.lz"
 
 SECTION "MeteoritePic", ROMX
 MeteoritePic: INCBIN "gfx/trainers/meteorite.2bpp.lz"

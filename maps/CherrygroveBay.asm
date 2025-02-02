@@ -11,7 +11,6 @@ CherrygroveBay_MapScriptHeader:
 	def_bg_events
 	bg_event 21, 21, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_CHERRYGROVE_BAY
 	bg_event 22, 21, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_CHERRYGROVE_BAY
-	bg_event 11, 12, BGEVENT_READ, CherrygroveBayGalarianBirdsScript
 
 	def_object_events
 	object_event  9, 32, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygroveBayHikerScript, -1
@@ -28,117 +27,6 @@ CherrygroveBay_MapScriptHeader:
 	fruittree_event 14,  9, FRUITTREE_CHERRYGROVE_BAY_4, HONDEW_BERRY, PAL_NPC_GREEN
 	fruittree_event 15, 11, FRUITTREE_CHERRYGROVE_BAY_5, GREPA_BERRY, PAL_NPC_YELLOW
 	fruittree_event 14, 13, FRUITTREE_CHERRYGROVE_BAY_6, TAMATO_BERRY, PAL_NPC_RED
-
-CherrygroveBayGalarianBirdsScript:
-	opentext
-	writetext .GreatTreeText
-	waitbutton
-	callasm CheckForLures
-	iffalse_endtext ; User has no lures, do nothing
-	writetext .LikeToUseItemText
-	yesorno
-	iffalse_endtext
-	writetext .WhichLureText
-	callasm CheckForLures
-	callasm SetUpLureMenu
-	iffalse_endtext ; User canceled the menu
-	writetext .YouSprayedTheLureText
-	waitbutton
-	ifequalfwd POTENT_LURE_MENU_OPT, .Galarian_Articuno
-	ifequalfwd MALIGN_LURE_MENU_OPT, .Galarian_Zapdos
-; HARSH_LURE_MENU_OPT, .Galarian_Moltres
-	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_CYUKARI
-	iftruefwd .NothingHappens
-	closetext
-	callasm GalarianMoltresEvent
-	opentext
-	farwritetext MoltresText
-	cry CYUKARI
-	pause 15
-	closetext
-	loadwildmon CYUKARI, 65
-	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
-	startbattle
-	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_CYUKARI
-	reloadmapafterbattle
-	special CheckBattleCaughtResult
-	iffalsefwd .NoCatchGalarianMoltres
-	setflag ENGINE_PLAYER_CAUGHT_GALARIAN_CYUKARI
-.NoCatchGalarianMoltres
-	end
-
-.Galarian_Articuno
-	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_RAN
-	iftruefwd .NothingHappens
-	closetext
-	callasm GalarianArticunoEvent
-	opentext
-	farwritetext ArticunoText
-	cry RAN
-	pause 15
-	closetext
-	loadwildmon RAN, 65
-	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
-	startbattle
-	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_RAN
-	reloadmapafterbattle
-	special CheckBattleCaughtResult
-	iffalsefwd .NoCatchGalarianArticuno
-	setflag ENGINE_PLAYER_CAUGHT_GALARIAN_RAN
-.NoCatchGalarianArticuno
-	end
-
-.Galarian_Zapdos
-	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_TRAN
-	iftruefwd .NothingHappens
-	closetext
-	callasm GalarianZapdosEvent
-	opentext
-	farwritetext ZapdosText
-	cry TRAN
-	pause 15
-	closetext
-	loadwildmon TRAN, 65
-	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
-	startbattle
-	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_TRAN
-	reloadmapafterbattle
-	special CheckBattleCaughtResult
-	iffalsefwd .NoCatchGalarianZapdos
-	setflag ENGINE_PLAYER_CAUGHT_GALARIAN_TRAN
-.NoCatchGalarianZapdos
-	end
-
-.NothingHappens
-	writetext .NothingHappensText
-	waitbutton
-	endtext
-
-.GreatTreeText
-	text "It's the Great"
-	line "Tree of Cherry-"
-	cont "grove!"
-	done
-
-.LikeToUseItemText
-	text "Would you like to"
-	line "use a Lure on"
-	cont "the Great Tree?"
-	done
-
-.WhichLureText
-	text "Which Lure would"
-	line "you like to use?"
-	done
-
-.YouSprayedTheLureText
-	text "You sprayed the"
-	line "Lure on the tree."
-	done
-
-.NothingHappensText
-	text "Nothing happened…"
-	done
 
 CherrygroveBayHikerScript:
 	faceplayer
@@ -212,15 +100,12 @@ GenericTrainerSwimmerfSally:
 GenericTrainerSwimmerfTara:
 	generictrainer SWIMMERF, TARA, EVENT_BEAT_SWIMMERF_TARA, .SeenText, .BeatenText
 
-	text "North of here is"
-	line "the Great Tree of"
-	cont "Cherrygrove."
+	text "There's a grove of"
+	line "golden trees north"
+	cont "of Ecruteak City."
 
-	para "Some say rare bird"
-	line "#MON come from"
-
-	para "far away to nest"
-	line "there."
+	para "I'd love to visit"
+	line "someday."
 	done
 
 .SeenText:
@@ -238,22 +123,16 @@ GenericTrainerHikerTony:
 	generictrainer HIKER, TONY, EVENT_BEAT_HIKER_TONY, .SeenText, .BeatenText
 
 	text "After a long hike,"
-	line "I saw what looked"
+	line "resting under the"
 
-	para "like a big bird"
-	line "flying this way!"
-
-	para "Where was it head-"
-	line "ing to and why?"
+	para "cherry trees hits"
+	line "the spot."
 	done
 
 .SeenText:
 	text "I hiked through"
 	line "miles of woods"
-
-	para "just to see the"
-	line "legendary bird"
-	cont "#MON!"
+	cont "to get here!"
 	done
 
 .BeatenText:
@@ -266,16 +145,6 @@ CherrygroveBayFisherText:
 
 	para "from afar while"
 	line "I fish."
-
-	para "Oh! And I also saw"
-	line "some really big"
-	
-	para "birds the other"
-	line "day."
-	
-	para "I think they were"
-	line "headed to that big"
-	cont "ol' tree nearby?"
 	done
 
 CherrygroveBayHikerText:

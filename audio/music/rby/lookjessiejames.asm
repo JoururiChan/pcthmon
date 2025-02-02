@@ -1,4 +1,4 @@
-; Tohomon Yellow - Look! Jessie & James
+; Pokémon Yellow - Look! Jessie & James
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/RBY/meetjessiejames.asm
 

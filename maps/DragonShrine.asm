@@ -175,26 +175,26 @@ DragonShrineElder1Script:
 	iftrue_jumptextfaceplayer DragonShrineComeAgainText
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_7
 	iftrue_jumptextfaceplayer DragonShrineSymbolicDragonText
-	checkevent EVENT_GOT_YUKARI
-	iffalsefwd .GiveYukari
+	checkevent EVENT_GOT_DRATINI
+	iffalsefwd .GiveDratini
 	checkevent EVENT_BEAT_RIVAL_IN_MT_MOON
 	iftrue_jumptextfaceplayer DragonShrineSilverIsInTrainingText
 	jumptextfaceplayer DragonShrineClairsGrandfatherText
 
-.GiveYukari:
+.GiveDratini:
 	faceplayer
 	opentext
-	writetext DragonShrineTakeThisYukariText
+	writetext DragonShrineTakeThisDratiniText
 	waitbutton
 	checkevent EVENT_ANSWERED_DRAGON_MASTER_QUIZ_WRONG
 	iftruefwd .NoExtremeSpeed
-	givepoke YUKARI, PLAIN_FORM, 15, SITRUS_BERRY, ULTRA_BALL, EXTREMESPEED
+	givepoke DRATINI, PLAIN_FORM, 15, SITRUS_BERRY, ULTRA_BALL, EXTREMESPEED
 	sjumpfwd .FinishElderScript
 .NoExtremeSpeed
-	givepoke YUKARI, PLAIN_FORM, 15, SITRUS_BERRY, ULTRA_BALL
+	givepoke DRATINI, PLAIN_FORM, 15, SITRUS_BERRY, ULTRA_BALL
 .FinishElderScript
 	iffalse_jumpopenedtext DragonShrinePartyAndBoxFullText
-	setevent EVENT_GOT_YUKARI
+	setevent EVENT_GOT_DRATINI
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_7
 	jumpopenedtext DragonShrineSymbolicDragonText
 
@@ -424,7 +424,7 @@ DragonShrineComeAgainText:
 	line "so desire."
 	done
 
-DragonShrineTakeThisYukariText:
+DragonShrineTakeThisDratiniText:
 	text "Hm… Good to see"
 	line "you here."
 
@@ -434,7 +434,7 @@ DragonShrineTakeThisYukariText:
 	para "I have something"
 	line "for you."
 
-	para "Take this Yukari"
+	para "Take this Dratini"
 	line "as proof that I"
 
 	para "have recognized"

@@ -30,7 +30,7 @@ Special_GameCornerPrizeMonCheckDex:
 	ld [hli], a
 	ldh a, [hScriptVar+1]
 	ld [hl], a
-	farcall NewTohodexEntry
+	farcall NewPokedexEntry
 	jmp ExitAllMenus
 
 SpecialSeenMon:
@@ -154,10 +154,10 @@ MapRadio:
 	ld e, a
 	farjp PlayRadio
 
-Special_HinaPuzzle:
+Special_UnownPuzzle:
 	call FadeToMenu_BackupSprites
-	farcall HinaPuzzle
-	ld a, [wSolvedHinaPuzzle]
+	farcall UnownPuzzle
+	ld a, [wSolvedUnownPuzzle]
 	ldh [hScriptVar], a
 	jmp ExitAllMenus
 
@@ -258,26 +258,26 @@ Special_ActivateFishingSwarm:
 StoreSwarmMapIndices::
 	ld a, c
 	and a
-	jr nz, .aeiki
+	jr nz, .yanma
 ; swarm dark cave violet entrance
 	ld a, d
-	ld [wCMomijiMapGroup], a
+	ld [wDunsparceMapGroup], a
 	ld a, e
-	ld [wCMomijiMapNumber], a
+	ld [wDunsparceMapNumber], a
 	ret
 
-.aeiki
+.yanma
 	ld a, d
-	ld [wAEikiMapGroup], a
+	ld [wYanmaMapGroup], a
 	ld a, e
-	ld [wAEikiMapNumber], a
+	ld [wYanmaMapNumber], a
 	ret
 
 Special_ResetLuckyNumberShowFlag:
 	farjp LoadOrRegenerateLuckyIDNumber
 
-SpecialCRanAwake:
-; Check if the Toho Flute channel is playing.
+SpecialSnorlaxAwake:
+; Check if the Poké Flute channel is playing.
 
 ; outputs:
 ; hScriptVar is 1 if the conditions are met, otherwise 0.
@@ -310,11 +310,6 @@ Special_FadeOutMusic:
 Diploma:
 	call FadeToMenu_BackupSprites
 	farcall _Diploma
-	jmp ExitAllMenus
-
-PrintDiploma:
-	call FadeToMenu_BackupSprites
-	farcall _PrintDiploma
 	jmp ExitAllMenus
 
 Special_GetOvercastIndex::
@@ -369,42 +364,42 @@ RespawnOneOffs:
 
 	; Set CHECK_FLAG once to be used multiple times
 	ld b, CHECK_FLAG
-	ld de, ENGINE_PLAYER_CAUGHT_CMEDICINE
+	ld de, ENGINE_PLAYER_CAUGHT_SUDOWOODO
 	farcall EngineFlagAction
-	jr nz, .CaughtCMedicine
-	eventflagreset EVENT_ROUTE_36_CMEDICINE
-.CaughtCMedicine
+	jr nz, .CaughtSudowoodo
+	eventflagreset EVENT_ROUTE_36_SUDOWOODO
+.CaughtSudowoodo
 
-	ld de, ENGINE_PLAYER_CAUGHT_RAN
+	ld de, ENGINE_PLAYER_CAUGHT_ARTICUNO
 	farcall EngineFlagAction
-	jr nz, .CaughtRan
-	eventflagreset EVENT_SEAFOAM_ISLANDS_RAN
-.CaughtRan
+	jr nz, .CaughtArticuno
+	eventflagreset EVENT_SEAFOAM_ISLANDS_ARTICUNO
+.CaughtArticuno
 
-	ld de, ENGINE_PLAYER_CAUGHT_TRAN
+	ld de, ENGINE_PLAYER_CAUGHT_ZAPDOS
 	farcall EngineFlagAction
-	jr nz, .CaughtTRan
-	eventflagreset EVENT_ROUTE_10_TRAN
-	eventflagreset EVENT_TRAN_GONE
-.CaughtTRan
+	jr nz, .CaughtZapdos
+	eventflagreset EVENT_ROUTE_10_ZAPDOS
+	eventflagreset EVENT_ZAPDOS_GONE
+.CaughtZapdos
 
-	ld de, ENGINE_PLAYER_CAUGHT_CYUKARI
+	ld de, ENGINE_PLAYER_CAUGHT_MOLTRES
 	farcall EngineFlagAction
-	jr nz, .CaughtCYukari
-	eventflagreset EVENT_CINNABAR_VOLCANO_CYUKARI
-.CaughtCYukari
+	jr nz, .CaughtMoltres
+	eventflagreset EVENT_CINNABAR_VOLCANO_MOLTRES
+.CaughtMoltres
 
-	ld de, ENGINE_PLAYER_CAUGHT_SUIKA
+	ld de, ENGINE_PLAYER_CAUGHT_MEWTWO
 	farcall EngineFlagAction
-	jr nz, .CaughtSuika
-	eventflagreset EVENT_CERULEAN_CAVE_SUIKA
-.CaughtSuika
+	jr nz, .CaughtMewtwo
+	eventflagreset EVENT_CERULEAN_CAVE_MEWTWO
+.CaughtMewtwo
 
-	ld de, ENGINE_PLAYER_CAUGHT_TSUIKA
+	ld de, ENGINE_PLAYER_CAUGHT_MEW
 	farcall EngineFlagAction
-	jr nz, .CaughtTSuika
-	eventflagreset EVENT_FARAWAY_JUNGLE_TSUIKA
-.CaughtTSuika
+	jr nz, .CaughtMew
+	eventflagreset EVENT_FARAWAY_JUNGLE_MEW
+.CaughtMew
 
 	ld de, ENGINE_PLAYER_CAUGHT_RAIKOU
 	farcall EngineFlagAction
@@ -444,28 +439,10 @@ RespawnOneOffs:
 
 	ld de, ENGINE_PLAYER_CAUGHT_HO_OH
 	farcall EngineFlagAction
-	jr nz, .CaughtHoOh
+	ret nz
 	eventflagreset EVENT_TIN_TOWER_ROOF_HO_OH
 	eventflagreset EVENT_FOUGHT_HO_OH
 	eventflagreset EVENT_EUSINES_HOUSE_EUSINE
-.CaughtHoOh
-
-	ld de, ENGINE_PLAYER_CAUGHT_GALARIAN_RAN
-	farcall EngineFlagAction
-	jr nz, .CaughtGalarianArticuno
-	eventflagreset EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_RAN
-.CaughtGalarianArticuno
-
-	ld de, ENGINE_PLAYER_CAUGHT_GALARIAN_TRAN
-	farcall EngineFlagAction
-	jr nz, .CaughtGalarianZapdos
-	eventflagreset EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_TRAN
-.CaughtGalarianZapdos
-
-	ld de, ENGINE_PLAYER_CAUGHT_GALARIAN_CYUKARI
-	farcall EngineFlagAction
-	ret nz
-	eventflagreset EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_CYUKARI
 	ret
 
 RespawnRoamingRaikou:

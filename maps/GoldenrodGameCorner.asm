@@ -1,9 +1,9 @@
 DEF GOLDENRODGAMECORNER_TM35_COINS EQU 4000
 DEF GOLDENRODGAMECORNER_TM24_COINS EQU 4000
 DEF GOLDENRODGAMECORNER_TM13_COINS EQU 4000
-DEF GOLDENRODGAMECORNER_ELLY_COINS     EQU 200
-DEF GOLDENRODGAMECORNER_CMEILING_COINS   EQU 800
-DEF GOLDENRODGAMECORNER_CMEIRA_COINS EQU 1500
+DEF GOLDENRODGAMECORNER_ABRA_COINS     EQU 200
+DEF GOLDENRODGAMECORNER_CUBONE_COINS   EQU 800
+DEF GOLDENRODGAMECORNER_CLEFAIRY_COINS EQU 1500
 
 GoldenrodGameCorner_MapScriptHeader:
 	def_scene_scripts
@@ -110,20 +110,20 @@ GoldenrodGameCornerTMVendor_LoopScript: ; 056c36
 	loadmenu GoldenrodGameCornerTMVendorMenuData
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .meteorfall
+	ifequalfwd $1, .flamethrower
 	ifequalfwd $2, .thunderbolt
 	ifequalfwd $3, .ice_beam
 	jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 
-.meteorfall:
-	checktmhm TM_FLAME_SHOOT
+.flamethrower:
+	checktmhm TM_FLAMETHROWER
 	iftruefwd GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript
 	checkcoins GOLDENRODGAMECORNER_TM35_COINS
 	ifequalfwd $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	gettmhmname TM_FLAME_SHOOT, $0
+	gettmhmname TM_FLAMETHROWER, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
-	givetmhm TM_FLAME_SHOOT
+	givetmhm TM_FLAMETHROWER
 	takecoins GOLDENRODGAMECORNER_TM35_COINS
 	sjumpfwd GoldenrodGameCornerTMVendor_FinishScript
 
@@ -198,60 +198,60 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	loadmenu .MenuDataHeader
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .elly
-	ifequalfwd $2, .cmeiling
-	ifequalfwd $3, .cmeira
+	ifequalfwd $1, .abra
+	ifequalfwd $2, .cubone
+	ifequalfwd $3, .clefairy
 	jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 
-.elly
-	checkcoins GOLDENRODGAMECORNER_ELLY_COINS
+.abra
+	checkcoins GOLDENRODGAMECORNER_ABRA_COINS
 	ifequal $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getmonname ELLY, $0
+	getmonname ABRA, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	givepoke ELLY, 5
+	givepoke ABRA, 5
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorNoMoreRoomText
-	setmonval ELLY
+	setmonval ABRA
 	special Special_GameCornerPrizeMonCheckDex
-	takecoins GOLDENRODGAMECORNER_ELLY_COINS
+	takecoins GOLDENRODGAMECORNER_ABRA_COINS
 	sjump .loop
 
-.cmeiling
-	checkcoins GOLDENRODGAMECORNER_CMEILING_COINS
+.cubone
+	checkcoins GOLDENRODGAMECORNER_CUBONE_COINS
 	ifequal $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getmonname CMEILING, $0
+	getmonname CUBONE, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	givepoke CMEILING, 10
+	givepoke CUBONE, 10
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorNoMoreRoomText
-	setmonval CMEILING
+	setmonval CUBONE
 	special Special_GameCornerPrizeMonCheckDex
-	takecoins GOLDENRODGAMECORNER_CMEILING_COINS
+	takecoins GOLDENRODGAMECORNER_CUBONE_COINS
 	sjump .loop
 
-.cmeira
-	checkcoins GOLDENRODGAMECORNER_CMEIRA_COINS
+.clefairy
+	checkcoins GOLDENRODGAMECORNER_CLEFAIRY_COINS
 	ifequal $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getmonname CMEIRA, $0
+	getmonname CLEFAIRY, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	givepoke CMEIRA, 15
+	givepoke CLEFAIRY, 15
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorNoMoreRoomText
-	setmonval CMEIRA
+	setmonval CLEFAIRY
 	special Special_GameCornerPrizeMonCheckDex
-	takecoins GOLDENRODGAMECORNER_CMEIRA_COINS
+	takecoins GOLDENRODGAMECORNER_CLEFAIRY_COINS
 	sjump .loop
 
 .MenuDataHeader:
@@ -263,9 +263,9 @@ GoldenrodGameCornerPrizeMonVendorScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Elly        {d:GOLDENRODGAMECORNER_ELLY_COINS}@"
-	db "CMeiling      {d:GOLDENRODGAMECORNER_CMEILING_COINS}@"
-	db "CMeira   {d:GOLDENRODGAMECORNER_CMEIRA_COINS}@"
+	db "Abra        {d:GOLDENRODGAMECORNER_ABRA_COINS}@"
+	db "Cubone      {d:GOLDENRODGAMECORNER_CUBONE_COINS}@"
+	db "Clefairy   {d:GOLDENRODGAMECORNER_CLEFAIRY_COINS}@"
 	db "Cancel@"
 
 GoldenrodGameCornerPharmacistScript:

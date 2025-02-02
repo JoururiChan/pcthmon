@@ -1,4 +1,4 @@
-; Tohomon D/P/Pt - Battle! Gym Leader
+; Pokémon D/P/Pt - Battle! Gym Leader
 ; Demixed by FroggestSpirit
 ; https://soundcloud.com/froggestspirit/battle-gym-leader
 

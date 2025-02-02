@@ -1,4 +1,4 @@
-; Tohomon X/Y - Power Plant
+; Pokémon X/Y - Power Plant
 ; Demixed by ShantyTown
 ; https://github.com/huderlem/pokestyle-music-devamps/blob/master/music/kalos_powerplant.asm
 

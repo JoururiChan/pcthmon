@@ -17,8 +17,8 @@ CeladonUniversityClassroom3_MapScriptHeader:
 	bg_event  7,  1, BGEVENT_JUMPTEXT, CeladonUniversityClassroom3Bookshelf2Text
 
 	def_object_events
-	object_event  2,  1, SPRITE_SPARK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityClassroom3SparkText, -1
-	object_event  2,  1, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityClassroom3TeacherText, -1
+	object_event  2,  1, SPRITE_SPARK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityClassroom3SparkText, EVENT_CELADON_UNIVERSITY_SPARK
+	object_event  2,  1, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityClassroom3TeacherText, EVENT_SHAMOUTI_COAST_SPARK
 	object_event  4,  5, SPRITE_CHILD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityClassroom3ChildText, -1
 	object_event  3,  7, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityClassroom3LassText, -1
 	object_event  4,  7, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityClassroom3Super_nerdText, -1
@@ -46,8 +46,12 @@ CeladonUniversityClassroom3TeacherText:
 	text "Are you looking"
 	line "for Spark?"
 
-	para "He will be back"
-	line "tomorrow morning."
+	para "He's out doing"
+	line "something on"
+	cont "Shamouti Island."
+
+	para "I'm subbing in for"
+	line "his classes."
 	done
 
 CeladonUniversityClassroom3ChildText:
@@ -68,14 +72,14 @@ CeladonUniversityClassroom3ChildText:
 
 CeladonUniversityClassroom3LassText:
 	text "My instructor said"
-	line "that AAlice is a"
+	line "that Magneton is a"
 
 	para "union of three"
-	line "Alice, but"
+	line "Magnemite, but"
 
-	para "AAlice is 10"
+	para "Magneton is 10"
 	line "times heavier than"
-	cont "Alice."
+	cont "Magnemite."
 
 	para "How does that"
 	line "work?!"
@@ -83,8 +87,8 @@ CeladonUniversityClassroom3LassText:
 
 CeladonUniversityClassroom3Super_nerdText:
 	text "Have you heard of"
-	line "the Wind-type"
-	cont "#mon CMokou?"
+	line "the Electric-type"
+	cont "#mon Mareep?"
 
 	para "Its name derives"
 	line "from the unit of"
@@ -104,7 +108,7 @@ CeladonUniversityClassroom3BlackboardText:
 	para "“…#mon can be"
 	line "divided into 14"
 	cont "“Egg groups”,"
-	cont "plus Lyrica."
+	cont "plus Ditto."
 
 	para "Baby #mon can-"
 	line "not breed."

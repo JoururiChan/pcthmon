@@ -24,7 +24,7 @@ IndigoPlateauPokecenter1F_MapScriptHeader:
 	pc_nurse_event  9, 7
 	mart_clerk_event  1,  9, MARTTYPE_STANDARD, MART_INDIGO_PLATEAU
 	object_event  6,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, IndigoPlateauTeleportGuyScript, EVENT_TELEPORT_GUY
-	pokemon_event  5,  9, ELLY, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, IndigoPlateauEllyText, EVENT_TELEPORT_GUY
+	pokemon_event  5,  9, ABRA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, IndigoPlateauAbraText, EVENT_TELEPORT_GUY
 	object_event  5, 12, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, IndigoPlateauCooltrainermText, -1
 
 	object_const_def
@@ -88,11 +88,11 @@ PlateauRivalBattleTrigger2:
 	faceobject PLAYER, INDIGOPLATEAUPOKECENTER1F_RIVAL
 	showtext PlateauRivalText1
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
-	checkevent EVENT_GOT_CREISEN_FROM_ELM
-	iftruefwd .RivalCReisen
-	checkevent EVENT_GOT_CSANAE_FROM_ELM
-	iftruefwd .RivalCSanae
-	; CAlice
+	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	iftruefwd .RivalTotodile
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	iftruefwd .RivalChikorita
+	; Cyndaquil
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
 	loadtrainer RIVAL2, 6
@@ -101,7 +101,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .RivalPostBattle
 
-.RivalCReisen:
+.RivalTotodile:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
 	loadtrainer RIVAL2, 4
@@ -110,7 +110,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .RivalPostBattle
 
-.RivalCSanae:
+.RivalChikorita:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
 	loadtrainer RIVAL2, 5
@@ -151,11 +151,11 @@ PlateauRivalBattleTrigger2:
 	waitbutton
 	closetext
 	setevent EVENT_INDIGO_PLATEAU_POKECENTER_LYRA
-	checkevent EVENT_GOT_CREISEN_FROM_ELM
-	iftruefwd .LyraCReisen
-	checkevent EVENT_GOT_CSANAE_FROM_ELM
-	iftruefwd .LyraCSanae
-	; CAlice
+	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	iftruefwd .LyraTotodile
+	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	iftruefwd .LyraChikorita
+	; Cyndaquil
 	winlosstext PlateauLyraWinText, PlateauLyraLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
 	loadtrainer LYRA2, 1
@@ -164,7 +164,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .LyraPostBattle
 
-.LyraCReisen:
+.LyraTotodile:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
 	loadtrainer LYRA2, 2
@@ -173,7 +173,7 @@ PlateauRivalBattleTrigger2:
 	reloadmapafterbattle
 	sjumpfwd .LyraPostBattle
 
-.LyraCSanae:
+.LyraChikorita:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
 	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
 	loadtrainer LYRA2, 3
@@ -358,25 +358,25 @@ IndigoPlateauYellowScript:
 	writetext .GiveStarterText
 	promptbutton
 	waitsfx
-	checkevent EVENT_CREIMU_FROM_IVY
-	iftruefwd .CSanae
-	checkevent EVENT_CMARISA_FROM_IVY
-	iftruefwd .CAlice
-	givepoke CMARISA, PLAIN_FORM, 10, SITRUS_BERRY
+	checkevent EVENT_GOT_BULBASAUR_FROM_IVY
+	iftruefwd .Squirtle
+	checkevent EVENT_GOT_CHARMANDER_FROM_IVY
+	iftruefwd .Bulbasaur
+	givepoke CHARMANDER, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	getmonname CMARISA, STRING_BUFFER_3
+	getmonname CHARMANDER, STRING_BUFFER_3
 	sjumpfwd .Finish
 
-.CAlice:
-	givepoke CREIMU, PLAIN_FORM, 10, SITRUS_BERRY
+.Bulbasaur:
+	givepoke BULBASAUR, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	getmonname CREIMU, STRING_BUFFER_3
+	getmonname BULBASAUR, STRING_BUFFER_3
 	sjumpfwd .Finish
 
-.CSanae:
-	givepoke CSAKUYA, PLAIN_FORM, 10, SITRUS_BERRY
+.Squirtle:
+	givepoke SQUIRTLE, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	getmonname CSAKUYA, STRING_BUFFER_3
+	getmonname SQUIRTLE, STRING_BUFFER_3
 .Finish:
 	writetext .GoodbyeText
 	waitbutton
@@ -496,7 +496,7 @@ IndigoPlateauTeleportGuyScript:
 	para "If you need to"
 	line "train some more,"
 
-	para "my Elly can help"
+	para "my Abra can help"
 	line "you."
 
 	para "It can Teleport"
@@ -517,8 +517,8 @@ IndigoPlateauTeleportGuyScript:
 	line "of luck to you!"
 	done
 
-IndigoPlateauEllyText:
-	text "Elly: Aelly…"
+IndigoPlateauAbraText:
+	text "Abra: Aabra…"
 	done
 
 IndigoPlateauCooltrainermText:

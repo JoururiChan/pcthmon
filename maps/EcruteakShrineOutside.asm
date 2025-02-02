@@ -18,17 +18,17 @@ EcruteakShrineOutside_MapScriptHeader:
 
 	def_object_events
 	object_event  8,  8, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakShrineOutsideTwinText, -1
-	pokemon_event  9,  8, SWRIGGLE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, EcruteakShrineOutsideSWriggleText, -1
+	pokemon_event  9,  8, HOOTHOOT, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, EcruteakShrineOutsideHoothootText, -1
 	object_event  2, 14, SPRITE_SAGE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakShrineOutsideSageText, -1
 
 EcruteakShrineOutsideTwinText:
-	text "My SWriggle's"
+	text "My Hoothoot's"
 	line "Foresight helps"
 	cont "shoo away ghosts."
 	done
 
-EcruteakShrineOutsideSWriggleText:
-	text "SWriggle: Hoot!"
+EcruteakShrineOutsideHoothootText:
+	text "Hoothoot: Hoot!"
 	done
 
 EcruteakShrineOutsideSageText:

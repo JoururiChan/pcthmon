@@ -1,4 +1,4 @@
-; Tohomon B/W - Black City
+; Pokémon B/W - Black City
 ; Demixed by Mmmmmm
 ; https://pastebin.com/bqcvjdFi
 ; https://hax.iimarckus.org/topic/6777/9/

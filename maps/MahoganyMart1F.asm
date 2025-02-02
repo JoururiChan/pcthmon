@@ -19,15 +19,15 @@ MahoganyMart1F_MapScriptHeader:
 	def_object_events
 	object_event  4,  3, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, MahoganyMart1FPharmacistScript, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event  1,  6, SPRITE_BLACK_BELT, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MahoganyMart1FBlackBeltScript, EVENT_TEAM_ROCKET_BASE_POPULATION
-	object_event  4,  6, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MAHOGANY_MART_LANCE_AND_CSUIKA
-	object_event  3,  6, SPRITE_CSUIKA, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MAHOGANY_MART_LANCE_AND_CSUIKA
+	object_event  4,  6, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MAHOGANY_MART_LANCE_AND_DRAGONITE
+	object_event  3,  6, SPRITE_DRAGONITE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MAHOGANY_MART_LANCE_AND_DRAGONITE
 	object_event  1,  3, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, pokemart, MARTTYPE_STANDARD, MART_MAHOGANY_2, EVENT_MAHOGANY_MART_OWNERS
 
 	object_const_def
 	const MAHOGANYMART1F_PHARMACIST
 	const MAHOGANYMART1F_BLACK_BELT
 	const MAHOGANYMART1F_LANCE
-	const MAHOGANYMART1F_CSUIKA
+	const MAHOGANYMART1F_DRAGONITE
 
 MahoganyMart1FTrigger1:
 	sdefer MahoganyMart1FLanceUncoversStaircaseScript
@@ -56,14 +56,14 @@ MahoganyMart1FBlackBeltScript:
 MahoganyMart1FLanceUncoversStaircaseScript:
 	pause 15
 	opentext
-	writetext MahoganyMart1FLanceCSuikaPowerBeamText
+	writetext MahoganyMart1FLanceDragoniteHyperBeamText
 	pause 15
 	closetext
 	playsound SFX_TACKLE
-	applymovement MAHOGANYMART1F_CSUIKA, MahoganyMart1FCSuikaTackleMovement
+	applymovement MAHOGANYMART1F_DRAGONITE, MahoganyMart1FDragoniteTackleMovement
 	applymovement MAHOGANYMART1F_BLACK_BELT, MahoganyMart1FBlackBeltKnockedBackMovement
 	pause 15
-	disappear MAHOGANYMART1F_CSUIKA
+	disappear MAHOGANYMART1F_DRAGONITE
 	pause 15
 	applymovement MAHOGANYMART1F_LANCE, MahoganyMart1FLanceApproachPlayerMovement
 	showtext MahoganyMart1FLanceRadioText
@@ -90,7 +90,7 @@ MahoganyMart1FLanceUncoversStaircaseScript:
 	waitsfx
 	end
 
-MahoganyMart1FCSuikaTackleMovement:
+MahoganyMart1FDragoniteTackleMovement:
 	fix_facing
 	run_step_left
 	run_step_right
@@ -141,10 +141,10 @@ MahoganyMart1FBlackBeltText:
 	line "ment worked like a"
 	cont "charm."
 
-	para "LilyBlack are just"
+	para "Magikarp are just"
 	line "worthless, but"
 
-	para "SLilyBlack are big"
+	para "Gyarados are big"
 	line "moneymakers."
 	done
 
@@ -155,9 +155,9 @@ MahoganyMart1FBlackBeltText_LanceEntered:
 	line "#mon are tough…"
 	done
 
-MahoganyMart1FLanceCSuikaPowerBeamText:
-	text "Lance: CSuika,"
-	line "Power Beam."
+MahoganyMart1FLanceDragoniteHyperBeamText:
+	text "Lance: Dragonite,"
+	line "Hyper Beam."
 	done
 
 MahoganyMart1FLanceRadioText:

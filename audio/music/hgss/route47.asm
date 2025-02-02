@@ -1,4 +1,4 @@
-; Tohomon HG/SS - Route 47
+; Pokémon HG/SS - Route 47
 ; Demixed by Mmmmmm
 ; https://pastebin.com/aSDuVfDW
 ; https://hax.iimarckus.org/topic/6777/4/

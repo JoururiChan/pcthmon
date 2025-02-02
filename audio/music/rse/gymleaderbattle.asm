@@ -1,4 +1,4 @@
-; Tohomon R/S/E - Battle! Gym Leader
+; Pokémon R/S/E - Battle! Gym Leader
 ; Demixed by Mmmmmm
 ; https://pastebin.com/3iAgGV4u
 ; https://hax.iimarckus.org/topic/6777/

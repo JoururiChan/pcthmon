@@ -16,14 +16,14 @@ SeafoamIslandsB4F_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event 22, 13, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, RAN, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, SeafoamIslandsRan, EVENT_SEAFOAM_ISLANDS_RAN
-	object_event 16, 16, SPRITE_CLYRICA, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LAWRENCE_FINAL_BIRD_SURF
+	object_event 22, 13, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, ARTICUNO, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, PLAIN_FORM, SeafoamIslandsArticuno, EVENT_SEAFOAM_ISLANDS_ARTICUNO
+	object_event 16, 16, SPRITE_LAPRAS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LAWRENCE_FINAL_BIRD_SURF
 	object_event 21, 16, SPRITE_LAWRENCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LAWRENCE_FINAL_BIRD
 	itemball_event 33,  7, NEVERMELTICE, 1, EVENT_SEAFOAM_ISLANDS_B4F_NEVERMELTICE
 	itemball_event 23,  2, ULTRA_BALL, 1, EVENT_SEAFOAM_ISLANDS_B4F_ULTRA_BALL
 
 	object_const_def
-	const SEAFOAMISLANDSB4F_RAN
+	const SEAFOAMISLANDSB4F_ARTICUNO
 	const SEAFOAMISLANDSB4F_LAWRENCE_SURF
 	const SEAFOAMISLANDSB4F_LAWRENCE
 
@@ -95,26 +95,28 @@ SeafoamIslandsB4FLawrenceEncounterScript:
 	special RestartMapMusic
 	end
 
-SeafoamIslandsRan:
+SeafoamIslandsArticuno:
 	faceplayer
 	opentext
-	writetext RanText
-	cry RAN
+	writetext ArticunoText
+	cry ARTICUNO
 	pause 15
 	closetext
-	loadwildmon RAN, 65
+	loadwildmon ARTICUNO, 65
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
-	disappear SEAFOAMISLANDSB4F_RAN
-	setevent EVENT_SEAFOAM_ISLANDS_RAN
+	disappear SEAFOAMISLANDSB4F_ARTICUNO
+	setevent EVENT_SEAFOAM_ISLANDS_ARTICUNO
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
-	iffalsefwd .NoCatch
-	setflag ENGINE_PLAYER_CAUGHT_RAN
-.NoCatch
-	checkevent EVENT_ROUTE_10_TRAN
+	iffalsefwd .NoBlanche
+	setflag ENGINE_PLAYER_CAUGHT_ARTICUNO
+	setevent EVENT_CELADON_UNIVERSITY_BLANCHE
+	clearevent EVENT_SHAMOUTI_COAST_BLANCHE
+.NoBlanche
+	checkevent EVENT_ROUTE_10_ZAPDOS
 	iffalsefwd .end
-	checkevent EVENT_CINNABAR_VOLCANO_CYUKARI
+	checkevent EVENT_CINNABAR_VOLCANO_MOLTRES
 	iffalsefwd .end
 	special SpecialBirdsCheck
 	iffalsefwd .end
@@ -122,7 +124,7 @@ SeafoamIslandsRan:
 .end
 	end
 
-RanText:
+ArticunoText:
 	text "Gyaoo!"
 	done
 
@@ -142,7 +144,7 @@ SeafoamIslandsB4FLawrenceSpeechText:
 	line "knowledge and"
 
 	para "resources, have"
-	line "not found CYukari…"
+	line "not found Moltres…"
 
 	para "Why have you"
 	line "succeeded where I"

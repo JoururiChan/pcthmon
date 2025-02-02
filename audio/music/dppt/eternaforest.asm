@@ -1,4 +1,4 @@
-; Tohomon D/P/Pt - Eterna Forest
+; Pokémon D/P/Pt - Eterna Forest
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/DPPt/EternaForest.asm
 

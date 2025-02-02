@@ -12,29 +12,29 @@ Route26DayofWeekSiblingsHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  3,  3, SPRITE_BOOK_PAPER_TOHODEX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DayOfWeekSiblingsHouseTohodexScript, -1
+	object_event  3,  3, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DayOfWeekSiblingsHousePokedexScript, -1
 
-DayOfWeekSiblingsHouseTohodexScript:
+DayOfWeekSiblingsHousePokedexScript:
 	opentext
-	writetext DayOfWeekSiblingsHouseTohodexText1
+	writetext DayOfWeekSiblingsHousePokedexText1
 	yesorno
 	iffalsefwd .End
-	writetext DayOfWeekSiblingsHouseTohodexText2
+	writetext DayOfWeekSiblingsHousePokedexText2
 	yesorno
 	iffalsefwd .End
-	writetext DayOfWeekSiblingsHouseTohodexText3
+	writetext DayOfWeekSiblingsHousePokedexText3
 	waitbutton
 .End:
 	endtext
 
-DayOfWeekSiblingsHouseTohodexText1:
+DayOfWeekSiblingsHousePokedexText1:
 	text "There's something"
 	line "written here."
 
 	para "Read it?"
 	done
 
-DayOfWeekSiblingsHouseTohodexText2:
+DayOfWeekSiblingsHousePokedexText2:
 	text "To my brothers and"
 	line "sisters:"
 
@@ -52,7 +52,7 @@ DayOfWeekSiblingsHouseTohodexText2:
 	para "Keep reading?"
 	done
 
-DayOfWeekSiblingsHouseTohodexText3:
+DayOfWeekSiblingsHousePokedexText3:
 	text "Monday, Monica"
 	line "Route 40"
 

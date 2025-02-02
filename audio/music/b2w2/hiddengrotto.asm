@@ -1,4 +1,4 @@
-; Tohomon B2/W2 - Hidden Grotto
+; Pokémon B2/W2 - Hidden Grotto
 ; Demixed by Mmmmmm
 ; https://pastebin.com/gde9CFXP
 ; http://picosong.com/wkT7C/

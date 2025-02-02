@@ -1,4 +1,4 @@
-; Tohomon D/P/Pt - Route 225
+; Pokémon D/P/Pt - Route 225
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/pokecrystal/blob/master/audio/music/077_Route225.asm
 

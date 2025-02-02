@@ -82,11 +82,11 @@ MapScenes::
 	scene_var ROUTE_47,                               wRoute47SceneID
 	scene_var ROUTE_48,                               wRoute48SceneID
 	scene_var RUGGED_ROAD_SOUTH,                      wRuggedRoadSouthSceneID
-	scene_var RUINS_OF_ALPH_AYUYUKO_CHAMBER,       wRuinsOfAlphAerodactylChamberSceneID
+	scene_var RUINS_OF_ALPH_AERODACTYL_CHAMBER,       wRuinsOfAlphAerodactylChamberSceneID
 	scene_var RUINS_OF_ALPH_HO_OH_CHAMBER,            wRuinsOfAlphHoOhChamberSceneID
 	scene_var RUINS_OF_ALPH_INNER_CHAMBER,            wRuinsOfAlphInnerChamberSceneID
-	scene_var RUINS_OF_ALPH_CYUYUKO_CHAMBER,           wRuinsOfAlphOmanyteChamberSceneID
-	scene_var RUINS_OF_ALPH_LUNASA_CHAMBER,          wRuinsOfAlphKabutoChamberSceneID
+	scene_var RUINS_OF_ALPH_KABUTO_CHAMBER,           wRuinsOfAlphKabutoChamberSceneID
+	scene_var RUINS_OF_ALPH_OMANYTE_CHAMBER,          wRuinsOfAlphOmanyteChamberSceneID
 	scene_var RUINS_OF_ALPH_OUTSIDE,                  wRuinsOfAlphOutsideSceneID
 	scene_var RUINS_OF_ALPH_RESEARCH_CENTER,          wRuinsOfAlphResearchCenterSceneID
 	scene_var SAFFRON_TRAIN_STATION,                  wAlways0SceneID
@@ -95,7 +95,7 @@ MapScenes::
 	scene_var SEAGALLOP_FERRY_VERMILION_GATE,         wSeagallopFerryVermilionGateSceneID
 	scene_var SHAMOUTI_HOTEL_RESTAURANT,              wShamoutiHotelRestaurantSceneID
 	scene_var SNOWTOP_MOUNTAIN_OUTSIDE,               wSnowtopMountainOutsideSceneID
-	scene_var AUTUMN_TOWER_3F,                        wAutumnTower3FSceneID
+	scene_var SPROUT_TOWER_3F,                        wSproutTower3FSceneID
 	scene_var TEAM_ROCKET_BASE_B1F,                   wAlways0SceneID
 	scene_var TEAM_ROCKET_BASE_B2F,                   wTeamRocketBaseB2FSceneID
 	scene_var TEAM_ROCKET_BASE_B3F,                   wTeamRocketBaseB3FSceneID
@@ -110,5 +110,4 @@ MapScenes::
 	scene_var WILLS_ROOM,                             wWillsRoomSceneID
 	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomSceneID
 	scene_var YELLOW_FOREST,                          wYellowForestSceneID
-	scene_var ROCKET_HIDEOUT_B4F,                     wRocketHideoutB4FSceneID
 	db -1

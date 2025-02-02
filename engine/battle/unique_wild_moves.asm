@@ -39,12 +39,28 @@ CheckUniqueWildMove:
 	and a
 	ret z
 
-	; always teach moves for certain Tohomon
+	; always teach moves for certain Pokémon
 	ld a, c
 	cp MAHOGANY_TOWN
 	jr z, .TeachMove ; assume this is for Explosion in TeamRocketBaseB1F
 	cp UNION_CAVE
-	jr z, .TeachMove ; assume this is a CLyrica in UnionCaveB2F
+	jr z, .TeachMove ; assume this is a Lapras in UnionCaveB2F
+	cp YELLOW_FOREST
+	jr nz, .ChanceToTeach
+	; assume this is a Pikachu in YellowForest; Surf (always teach) or Fly?
+	ld a, [wPlayerState]
+	cp PLAYER_SURF
+	jr z, .SurfingPikachu
+	cp PLAYER_SURF_PIKA
+	jr nz, .ChanceToTeach
+.SurfingPikachu
+	ld a, SURF
+	ld b, a
+	jr .TeachMove
+.ChanceToTeach
+	call Random
+	add a
+	ret nc
 .TeachMove
 	ld hl, wOTPartyMon1Moves + 1 ; second move
 	ld a, [hl]
@@ -62,6 +78,13 @@ CheckUniqueWildMove:
 .ok
 	ld a, b
 	ld [hl], a
+
+	; assume only Pikachu can learn Surf or Fly
+	cp SURF
+	jr z, .UseSurfingPikachu
+	cp FLY
+	ld a, PIKACHU_FLY_FORM
+	jr z, .UseFlyingPikachu
 	ret
 
 .inc3andloop
@@ -71,5 +94,17 @@ CheckUniqueWildMove:
 .inc1andloop
 	inc hl
 	jr .loop
+
+.UseSurfingPikachu
+	ld a, PIKACHU_SURF_FORM
+.UseFlyingPikachu
+	ld b, a
+	ld a, [wCurForm]
+	and ~FORM_MASK
+	or b
+	ld [wCurForm], a
+	ld [wOTPartyMon1Form], a
+	ld [wEnemyMonForm], a
+	ret
 
 INCLUDE "data/pokemon/unique_wild_moves.asm"

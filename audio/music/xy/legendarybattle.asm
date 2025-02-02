@@ -1,4 +1,4 @@
-; Tohomon X/Y - Battle! Legendary
+; Pokémon X/Y - Battle! Legendary
 ; Demixed by Mmmmmm
 ; https://pastebin.com/Tas8HR3b
 ; https://hax.iimarckus.org/topic/6777/9/

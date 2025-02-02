@@ -145,4 +145,28 @@ MoveDeletion:
 .done
 	xor a
 	ld [hl], a
+	ld a, MON_SPECIES
+	call GetPartyParamLocationAndValue
+	cp LOW(PIKACHU)
 	ret nz
+	assert !HIGH(PIKACHU)
+	ld bc, MON_FORM - MON_SPECIES
+	add hl, bc
+	ld a, [hl]
+	and EXTSPECIES_MASK
+	ret nz
+	ld a, [wMoveScreenSelectedMove]
+	cp FLY
+	jr z, .reset_pikachu_form
+	cp SURF
+	ret nz
+.reset_pikachu_form
+	ld a, [hl]
+	and ~FORM_MASK
+	or PLAIN_FORM
+	ld [hl], a
+
+	; Register this Pikachu as seen+caught in the dex.
+	ld c, PIKACHU
+	ld b, a
+	jmp SetSeenAndCaughtMon
