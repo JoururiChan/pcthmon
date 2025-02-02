@@ -31,7 +31,7 @@ Victory: Oh ship...
 
 After: Good stuff, kid! You'd make a fine sailor.
 
-Team: Qwilfish, Daichan x2, EGengetsu 
+Team: CSuwako, Daichan x2, EGengetsu 
 
 Supernerd Not'im 
 Fire me from the Dept Store, will you?! Ngh...I'll show them! I'll show them all! ...Huh? Hey! Get over here! I need something to take my anger out on.
@@ -76,7 +76,7 @@ Victory: Kono powa! Atashi ha junbi ga dekite inakatta!(This power! I wasn't rea
 
 After: Batoru ha arigatogozaimasu  (Thank you for the battle!)
 
-Team:Meira, Sylveon, Granbull 
+Team:Meira, Sylveon, AKanako 
 
 Cosplayer Quincy
 Check it out! My Lance cosplay is awesome, isn't it?
@@ -110,7 +110,7 @@ Victory: Squashed...
 After: Phew! After a battle, I just like to kick my feet up and have some Berry Juice. Here, have some!
 (gives berry juice)
 
-Team: Shuckle, Heracross, Scizor 
+Team: DSuwako, Iku, Suwako 
 
 
 Schoolboy Ulysses 
@@ -130,7 +130,7 @@ Kid, I can tell you got the eyes of a fisherman. How about a battle between fish
 
 Victory: Darn good stuff, kid. I like the cut of your jib. 
 
-Team: Tei, Slowking, HSakuya
+Team: Tei, HMinoriko, HSakuya
 
 
 Pokefan Joey Sr. 
@@ -183,7 +183,7 @@ Rando NPC: Such a shame...I was hoping to observe the migratory pattern of Elis 
 
 Supernerd: Hey, kid! I need some serious juice for my experiments! Get me a AAlice and I'll give you my spare CLunasa2! (Nickname: Gent2, shiny, holding dubious disk or whatever evolves it to Z, OT: rms)
 
-Thief: Hey, kid! Check it out! I got this super top-of-the-line ultra rare pokemon that I st--found after it fell off the back of a truck. Gimme a Sneasel and it's all yours! (Dunsparce, Nickname: Simon, OT: Genbu)
+Thief: Hey, kid! Check it out! I got this super top-of-the-line ultra rare pokemon that I st--found after it fell off the back of a truck. Gimme a Iku and it's all yours! (CMomiji, Nickname: Simon, OT: Genbu)
 
 Businessman: Hey there. I'm lookin' for a Chen to help out on mah farm. If you can help me out, I'd ever be so grateful. I'll even give ya this funny lookin' Exeggecute that turned up on mah farm. (Exeggecute, Nickname: Sneed, OT: Chuck) 
 
@@ -191,7 +191,7 @@ Pokemaniac: H-hey...uh...y-you got a EYumemi? I..I'll...I'll trade you one of my
 
 Pokemaniac: Hi! Do you have a Kotohime? 'll give ya an Lunasa for it! (Lunasa, Nickname: Mayonne, OT: Flea) After:Hey, thanks! My two brothers show up here sometimes looking to trade. Maybe you should stop by later! 
 
-Pokemaniac: Hey, pal. You got a spare Girafarig? I'll hook you up with an AYuyuko for it. (AYuyuko, Nickname: Vinegar, OT: Ozzie)
+Pokemaniac: Hey, pal. You got a spare CNitori? I'll hook you up with an AYuyuko for it. (AYuyuko, Nickname: Vinegar, OT: Ozzie)
 After: Thanks! My other two siblings pop in from time to time to trade. You should check in later!
 
 

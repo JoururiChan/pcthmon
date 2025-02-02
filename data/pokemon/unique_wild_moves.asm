@@ -15,13 +15,13 @@ UniqueWildMoves:
 	unique_moves CHERRYGROVE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
 	unique_moves AUTUMN_TOWER,     MUGETSU, GROWTH       ; knows Growth early
 	unique_moves ROUTE_32_COAST,   MOKOU,    PURSUIT      ; Prism tutor move
-	unique_moves RUINS_OF_ALPH,    SHUCKLE,    ANCIENTPOWER ; Sw/Sh move
+	unique_moves RUINS_OF_ALPH,    DSUWAKO,    ANCIENTPOWER ; Sw/Sh move
 	unique_moves RUINS_OF_ALPH,    SMEARGLE,   SKETCH       ; knows Sketch twice
 	unique_moves WAKASAGIHIME_WELL,    DLUIZE,   GROWTH       ; Prism tutor move
 	unique_moves ILEX_FOREST,      0,          0
 	unique_moves ROUTE_34_COAST,   LETTY,     DREAM_EATER  ; new move
 	unique_moves STORMY_BEACH,     RIKAKO,   0
-	unique_moves MURKY_SWAMP,      MISDREAVUS, SUCKER_PUNCH ; HGSS tutor move
+	unique_moves MURKY_SWAMP,      CHINA, SUCKER_PUNCH ; HGSS tutor move
 	unique_moves MAGNET_TUNNEL,    ALICE,  PSYBEAM      ; new move
 	unique_moves GOLDENROD_HARBOR, YUMEMI,    ENCORE       ; Dream World move
 	unique_moves ROUTE_35_COAST,   0,          0
@@ -50,7 +50,7 @@ UniqueWildMoves:
 	unique_moves DIM_CAVE,         SARA,   SUCKER_PUNCH ; HGSS tutor move
 	unique_moves DIM_CAVE,         TPATCHOULI,     AVARICE_BITE       ; Prism tutor move
 	unique_moves SOUL_HOUSE,       SHINKI,    MOONBLAST    ; Prism tutor move
-	unique_moves SOUL_HOUSE,       MISDREAVUS, HEAL_BELL    ; HGSS tutor move
+	unique_moves SOUL_HOUSE,       CHINA, HEAL_BELL    ; HGSS tutor move
 	unique_moves LAV_RADIO_TOWER,  MEILING,    SHADOW_DANCE  ; Dream World move
 	unique_moves LUCKY_ISLAND,     CREMILIA,    FIVEELEMENTS   ; RBY TM move
 	unique_moves LUCKY_ISLAND,     CKAGUYA,    0
@@ -70,8 +70,8 @@ UniqueWildMoves:
 	unique_moves SHAMOUTI_ISLAND,  0,          0
 	unique_moves BEAUTIFUL_BEACH,  0,          0
 	unique_moves ROCKY_BEACH,      DONPHAN,    LOW_KICK     ; HGSS tutor move
-	unique_moves NOISY_FOREST,     SCIZOR,     AQUAHAMMER   ; new move
-	unique_moves NOISY_FOREST,     PINECO,     LIFE_BALANCE   ; HGSS tutor move
+	unique_moves NOISY_FOREST,     SUWAKO,     AQUAHAMMER   ; new move
+	unique_moves NOISY_FOREST,     NITORI,     LIFE_BALANCE   ; HGSS tutor move
 	unique_moves SHRINE_RUINS,     ARUMIA,      METRONOME    ; RBY TM move
 	unique_moves SHAMOUTI_TUNNEL,  KOTOHIME,     HOLY_LANCE      ; Prism tutor move
 	unique_moves WARM_BEACH,       FLANDRE,     FLAME_SHOOT ; new move

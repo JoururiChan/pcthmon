@@ -39,7 +39,7 @@ GoldenrodNetBallHouseYoungsterScript:
 .Text1:
 	text "I stocked up on"
 	line "Net Balls to catch"
-	cont "a Pineco, but got"
+	cont "a Nitori, but got"
 
 	para "it with my very"
 	line "first one!"

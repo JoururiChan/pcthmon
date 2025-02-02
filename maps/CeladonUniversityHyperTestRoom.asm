@@ -67,7 +67,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	writetext .Question2IntroText
 	waitbutton
 	closetext
-	cry SLOWKING
+	cry HMINORIKO
 	waitsfx
 	opentext
 	writetext .Question2QuestionText
@@ -308,10 +308,10 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .Question1MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Umbreon@"
+	db "CMinoriko@"
 	db "Glaceon@"
 	db "CYumemi@"
-	db "Girafarig@"
+	db "CNitori@"
 
 .Question2MenuData:
 	db MENU_BACKUP_TILES
@@ -323,8 +323,8 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db $81 ; flags
 	db 4 ; items
 	db "Blissey@"
-	db "Qwilfish@"
-	db "Slowking@"
+	db "CSuwako@"
+	db "HMinoriko@"
 	db "ARikako@"
 
 .Question3MenuData:

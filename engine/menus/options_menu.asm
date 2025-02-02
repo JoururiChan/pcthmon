@@ -510,7 +510,7 @@ Options_Typeface:
 	bit D_RIGHT_F, a
 	jr z, .NonePressed
 	ld a, c ; right pressed
-	cp UNOWN_FONT
+	cp HINA_FONT
 	jr c, .Increase
 	ld c, NORMAL_FONT - 1
 
@@ -522,7 +522,7 @@ Options_Typeface:
 	ld a, c
 	and a
 	jr nz, .Decrease
-	ld c, UNOWN_FONT + 1
+	ld c, HINA_FONT + 1
 
 .Decrease:
 	dec c
@@ -562,7 +562,7 @@ Options_Typeface:
 	dw .Serif
 	dw .Chicago
 	dw .MICR
-	dw .Unown
+	dw .Hina
 
 .Normal:
 	db "Normal @"
@@ -578,8 +578,8 @@ Options_Typeface:
 	db "Chicago@"
 .MICR:
 	db "MICR   @"
-.Unown:
-	db "Unown  @"
+.Hina:
+	db "Hina  @"
 
 Options_Keyboard:
 	ld hl, wOptions3

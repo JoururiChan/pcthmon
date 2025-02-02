@@ -49,9 +49,9 @@ Ralph_SetUpSwarm:
 	checkflag ENGINE_FISH_SWARM
 	iftruefwd .Generic
 	setflag ENGINE_FISH_SWARM
-	getmonname QWILFISH, $1
+	getmonname CSUWAKO, $1
 	getlandmarkname ROUTE_32, $2
-	setval FISHSWARM_QWILFISH
+	setval FISHSWARM_CSUWAKO
 	special Special_ActivateFishingSwarm
 	farsjump RalphItemScript
 

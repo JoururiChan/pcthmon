@@ -77,7 +77,7 @@ You can post questions or comments on any of these sites. But please read the [F
   
 ![remoraid](screenshots/remoraid.png)
 ![team-rocket](screenshots/team-rocket.png)
-![steelix](screenshots/steelix.png)
+![ckanako](screenshots/ckanako.png)
 ![custom-map](screenshots/custom-map.png)
   
 ![ice-rock](screenshots/ice-rock.png)

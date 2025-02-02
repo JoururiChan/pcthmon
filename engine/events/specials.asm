@@ -154,10 +154,10 @@ MapRadio:
 	ld e, a
 	farjp PlayRadio
 
-Special_UnownPuzzle:
+Special_HinaPuzzle:
 	call FadeToMenu_BackupSprites
-	farcall UnownPuzzle
-	ld a, [wSolvedUnownPuzzle]
+	farcall HinaPuzzle
+	ld a, [wSolvedHinaPuzzle]
 	ldh [hScriptVar], a
 	jmp ExitAllMenus
 
@@ -261,9 +261,9 @@ StoreSwarmMapIndices::
 	jr nz, .aeiki
 ; swarm dark cave violet entrance
 	ld a, d
-	ld [wDunsparceMapGroup], a
+	ld [wCMomijiMapGroup], a
 	ld a, e
-	ld [wDunsparceMapNumber], a
+	ld [wCMomijiMapNumber], a
 	ret
 
 .aeiki

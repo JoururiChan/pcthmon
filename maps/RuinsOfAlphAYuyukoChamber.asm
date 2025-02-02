@@ -60,7 +60,7 @@ RuinsOfAlphAerodactylChamberWallOpenScript:
 MapRuinsofAlphAerodactylChamberSignpost2Script:
 	reanchormap
 	setval $2
-	special Special_UnownPuzzle
+	special Special_HinaPuzzle
 	closetext
 	iftruefwd .PuzzleComplete
 	end
@@ -68,7 +68,7 @@ MapRuinsofAlphAerodactylChamberSignpost2Script:
 .PuzzleComplete:
 	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
 	setevent EVENT_SOLVED_AYUYUKO_PUZZLE
-	setflag ENGINE_UNLOCKED_UNOWNS_R_TO_W
+	setflag ENGINE_UNLOCKED_HINAS_R_TO_W
 	setmapscene RUINS_OF_ALPH_INNER_CHAMBER, $1
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 15
@@ -86,7 +86,7 @@ MapRuinsofAlphAerodactylChamberSignpost2Script:
 
 MapRuinsofAlphAerodactylChamberSignpost3Script:
 	opentext
-	unowntypeface
+	hinatypeface
 	writetext RuinsOfAlphAerodactylChamberDescriptionText
 	waitbutton
 	closetext
@@ -101,13 +101,13 @@ MapRuinsofAlphAerodactylChamberSignpost4Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
 	iftruefwd .unsolved
-	writetext RuinsOfAlphChambersItsUnownText
-	sjumpfwd .unownwords
+	writetext RuinsOfAlphChambersItsHinaText
+	sjumpfwd .hinawords
 .unsolved
 	writetext RuinsOfAlphAerodactylChamberWallPatternLeftText
-.unownwords
+.hinawords
 	setval $1
-	special Special_DisplayUnownWords
+	special Special_DisplayHinaWords
 	endtext
 
 RuinsOfAlphAerodactylChamberWallPatternLeftText:
@@ -115,8 +115,8 @@ RuinsOfAlphAerodactylChamberWallPatternLeftText:
 	line "on the walls…"
 	done
 
-RuinsOfAlphChambersItsUnownText:
-	text "It's Unown text!"
+RuinsOfAlphChambersItsHinaText:
+	text "It's Hina text!"
 	done
 
 RuinsOfAlphAerodactylChamberWallHoleText:

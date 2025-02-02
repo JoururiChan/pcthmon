@@ -29,9 +29,9 @@ DoAnimFrame:
 	dw AnimSeq_FlyLeaf            ; SPRITE_ANIM_SEQ_FLY_LEAF
 	dw AnimSeq_FlyTo              ; SPRITE_ANIM_SEQ_FLY_TO
 	dw AnimSeq_IntroSuicune       ; SPRITE_ANIM_SEQ_INTRO_SUICUNE
-	dw AnimSeq_IntroTTeiWooper   ; SPRITE_ANIM_SEQ_TTEI_WOOPER
-	dw AnimSeq_IntroUnown         ; SPRITE_ANIM_SEQ_UNOWN
-	dw AnimSeq_IntroUnownF        ; SPRITE_ANIM_SEQ_UNOWN_F
+	dw AnimSeq_IntroTTeiCShizuha   ; SPRITE_ANIM_SEQ_TTEI_CSHIZUHA
+	dw AnimSeq_IntroHina         ; SPRITE_ANIM_SEQ_HINA
+	dw AnimSeq_IntroHinaF        ; SPRITE_ANIM_SEQ_HINA_F
 	dw AnimSeq_IntroSuicuneAway   ; SPRITE_ANIM_SEQ_SUICUNE_AWAY
 	dw AnimSeq_Celebi             ; SPRITE_ANIM_SEQ_CELEBI
 	dw AnimSeq_MaxStatSparkle     ; SPRITE_ANIM_SEQ_MAX_STAT_SPARKLE
@@ -522,7 +522,7 @@ AnimSeq_IntroSuicune:
 	ld a, SPRITE_ANIM_FRAMESET_INTRO_SUICUNE_2
 	jmp _ReinitSpriteAnimFrame
 
-AnimSeq_IntroTTeiWooper:
+AnimSeq_IntroTTeiCShizuha:
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld a, [hl]
@@ -540,7 +540,7 @@ AnimSeq_IntroTTeiWooper:
 	ld [hl], a
 	ret
 
-AnimSeq_IntroUnown:
+AnimSeq_IntroHina:
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc
 	ld d, [hl]
@@ -567,11 +567,11 @@ AnimSeq_IntroUnown:
 	ld [hl], a
 	ret
 
-AnimSeq_IntroUnownF:
+AnimSeq_IntroHinaF:
 	ld a, [wIntroSceneFrameCounter]
 	cp $40
 	ret nz
-	ld a, SPRITE_ANIM_FRAMESET_INTRO_UNOWN_F_2
+	ld a, SPRITE_ANIM_FRAMESET_INTRO_HINA_F_2
 	jmp _ReinitSpriteAnimFrame
 
 AnimSeq_IntroSuicuneAway:
@@ -774,7 +774,7 @@ AnimSeq_DexCursor:
 	ld a, [wTohodex_CursorPos]
 	lb de, 30, 24
 	jr z, .got_cursor_info
-	ld a, [wTohodex_UnownCursor]
+	ld a, [wTohodex_HinaCursor]
 	lb de, 16, 16
 .got_cursor_info
 	ld b, a

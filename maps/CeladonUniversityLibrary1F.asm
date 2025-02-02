@@ -195,7 +195,7 @@ CeladonUniversityLibrary1FBookshelf4Text:
 	cont "dromes."
 
 	para "There's an TLyrica"
-	line "and a Girafarig"
+	line "and a CNitori"
 	cont "on the cover."
 	done
 

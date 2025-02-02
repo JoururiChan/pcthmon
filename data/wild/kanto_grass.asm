@@ -149,7 +149,7 @@
 	wildmon 52, KOTOHIME
 	wildmon 55, AYUKA
 	wildmon 52, SARA
-	wildmon 52, STEELIX
+	wildmon 52, CKANAKO
 	; day
 	wildmon 50, MEILING
 	wildmon 51, SARA
@@ -157,7 +157,7 @@
 	wildmon 52, KOTOHIME
 	wildmon 55, AYUKA
 	wildmon 52, SARA
-	wildmon 52, STEELIX
+	wildmon 52, CKANAKO
 	; nite
 	wildmon 50, MEILING
 	wildmon 51, SARA
@@ -165,7 +165,7 @@
 	wildmon 52, SHINKI
 	wildmon 55, KOTOHIME
 	wildmon 52, SARA
-	wildmon 52, STEELIX
+	wildmon 52, CKANAKO
 	end_grass_wildmons
 
 	def_grass_wildmons ROCK_TUNNEL_2F
@@ -205,7 +205,7 @@
 	wildmon 42, KOTOHIME
 	wildmon 44, SARIEL
 	wildmon 46, TPATCHOULI
-	wildmon 45, STEELIX
+	wildmon 45, CKANAKO
 	; day
 	wildmon 43, SARA
 	wildmon 42, PATCHOULI
@@ -213,14 +213,14 @@
 	wildmon 42, KOTOHIME
 	wildmon 44, SARIEL
 	wildmon 46, TPATCHOULI
-	wildmon 45, STEELIX
+	wildmon 45, CKANAKO
 	; nite
 	wildmon 43, KOTOHIME
 	wildmon 42, SARA
 	wildmon 41, CRUMIA
 	wildmon 42, SARA
 	wildmon 44, SHINKI
-	wildmon 46, STEELIX
+	wildmon 46, CKANAKO
 	wildmon 45, TPATCHOULI
 	end_grass_wildmons
 
@@ -233,7 +233,7 @@
 	wildmon 45, KOTOHIME
 	wildmon 47, SARIEL
 	wildmon 49, TPATCHOULI
-	wildmon 48, STEELIX
+	wildmon 48, CKANAKO
 	; day
 	wildmon 46, SARA
 	wildmon 45, PATCHOULI
@@ -241,14 +241,14 @@
 	wildmon 45, KOTOHIME
 	wildmon 47, SARIEL
 	wildmon 49, TPATCHOULI
-	wildmon 48, STEELIX
+	wildmon 48, CKANAKO
 	; nite
 	wildmon 46, KOTOHIME
 	wildmon 45, SARA
 	wildmon 44, CRUMIA
 	wildmon 45, SARA
 	wildmon 47, SHINKI
-	wildmon 49, STEELIX
+	wildmon 49, CKANAKO
 	wildmon 48, TPATCHOULI
 	end_grass_wildmons
 
@@ -261,7 +261,7 @@
 	wildmon 47, KOTOHIME
 	wildmon 48, SARIEL
 	wildmon 51, TPATCHOULI
-	wildmon 50, STEELIX
+	wildmon 50, CKANAKO
 	; day
 	wildmon 48, SARA
 	wildmon 47, PATCHOULI
@@ -269,14 +269,14 @@
 	wildmon 47, KOTOHIME
 	wildmon 48, SARIEL
 	wildmon 51, TPATCHOULI
-	wildmon 50, STEELIX
+	wildmon 50, CKANAKO
 	; nite
 	wildmon 48, KOTOHIME
 	wildmon 47, SARA
 	wildmon 46, CRUMIA
 	wildmon 47, SARA
 	wildmon 48, SHINKI
-	wildmon 51, STEELIX
+	wildmon 51, CKANAKO
 	wildmon 50, TPATCHOULI
 	end_grass_wildmons
 
@@ -480,7 +480,7 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 46, CMIMA
-	wildmon 46, GRANBULL
+	wildmon 46, AKANAKO
 	wildmon 51, MUGETSU
 	wildmon 47, MUGETSU
 	wildmon 48, ELLY
@@ -488,7 +488,7 @@
 	wildmon 47, ELLEN
 	; day
 	wildmon 46, CMIMA
-	wildmon 46, GRANBULL
+	wildmon 46, AKANAKO
 	wildmon 51, MUGETSU
 	wildmon 47, MUGETSU
 	wildmon 48, ELLY
@@ -508,19 +508,19 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 45, CELIS
-	wildmon 45, GRANBULL
+	wildmon 45, AKANAKO
 	wildmon 46, AALICE
 	wildmon 47, ORANGE
 	wildmon 50, ELLEN
-	wildmon 47, GRANBULL
+	wildmon 47, AKANAKO
 	wildmon 47, ELLEN
 	; day
 	wildmon 45, CELIS
-	wildmon 45, GRANBULL
+	wildmon 45, AKANAKO
 	wildmon 46, AALICE
 	wildmon 47, ORANGE
 	wildmon 50, ELLEN
-	wildmon 47, GRANBULL
+	wildmon 47, AKANAKO
 	wildmon 47, ELLEN
 	; nite
 	wildmon 45, CYUMEMI
@@ -537,7 +537,7 @@
 	; morn
 	wildmon 49, CELIS
 	wildmon 49, ELIS
-	wildmon 51, GRANBULL
+	wildmon 51, AKANAKO
 	wildmon 54, MEIRA
 	wildmon 54, ELLEN
 	wildmon 52, CELIS
@@ -545,14 +545,14 @@
 	; day
 	wildmon 49, CELIS
 	wildmon 49, ELIS
-	wildmon 51, GRANBULL
+	wildmon 51, AKANAKO
 	wildmon 54, MEIRA
 	wildmon 54, ELLEN
 	wildmon 52, CELIS
 	wildmon 51, ELLEN
 	; nite
 	wildmon 49, CYUMEMI
-	wildmon 49, MURKROW
+	wildmon 49, MINORIKO
 	wildmon 51, HOUNDOUR
 	wildmon 54, MEIRA
 	wildmon 54, ELLEN
@@ -693,11 +693,11 @@
 	; nite
 	wildmon 50, RIKAKO
 	wildmon 50, CMYSTIA
-	wildmon 50, QUAGSIRE
+	wildmon 50, SHIZUHA
 	wildmon 51, CKANA
 	wildmon 53, RIKAKO
-	wildmon 52, QUAGSIRE
-	wildmon 54, QUAGSIRE
+	wildmon 52, SHIZUHA
+	wildmon 54, SHIZUHA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_13_EAST
@@ -721,11 +721,11 @@
 	; nite
 	wildmon 50, RIKAKO
 	wildmon 50, CMYSTIA
-	wildmon 51, QUAGSIRE
+	wildmon 51, SHIZUHA
 	wildmon 52, CKANA
 	wildmon 54, RIKAKO
-	wildmon 53, QUAGSIRE
-	wildmon 55, QUAGSIRE
+	wildmon 53, SHIZUHA
+	wildmon 55, SHIZUHA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_14
@@ -749,11 +749,11 @@
 	; nite
 	wildmon 52, RIKAKO
 	wildmon 52, CMYSTIA
-	wildmon 53, QUAGSIRE
+	wildmon 53, SHIZUHA
 	wildmon 51, CKANA
 	wildmon 56, RIKAKO
-	wildmon 54, QUAGSIRE
-	wildmon 56, QUAGSIRE
+	wildmon 54, SHIZUHA
+	wildmon 56, SHIZUHA
 	end_grass_wildmons
 
 	def_grass_wildmons LUCKY_ISLAND
@@ -805,11 +805,11 @@
 	; nite
 	wildmon 52, RIKAKO
 	wildmon 52, CMYSTIA
-	wildmon 54, QUAGSIRE
+	wildmon 54, SHIZUHA
 	wildmon 54, CKANA
 	wildmon 57, RIKAKO
-	wildmon 55, QUAGSIRE
-	wildmon 57, QUAGSIRE
+	wildmon 55, SHIZUHA
+	wildmon 57, SHIZUHA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_16_WEST
@@ -817,25 +817,25 @@
 	; morn
 	wildmon 53, YUKI
 	wildmon 50, ELIS
-	wildmon 54, SLUGMA
+	wildmon 54, TENSHI
 	wildmon 52, ELIS
-	wildmon 53, MAGCARGO
+	wildmon 53, STENSHI
 	wildmon 54, CYUMEKO
 	wildmon 55, CYUMEKO
 	; day
 	wildmon 53, YUKI
 	wildmon 50, ELIS
-	wildmon 54, SLUGMA
+	wildmon 54, TENSHI
 	wildmon 52, ELIS
-	wildmon 53, MAGCARGO
+	wildmon 53, STENSHI
 	wildmon 54, CYUMEKO
 	wildmon 55, CYUMEKO
 	; nite
 	wildmon 53, YUKI
 	wildmon 50, YUKI
 	wildmon 54, YUKI
-	wildmon 52, MURKROW
-	wildmon 53, MURKROW
+	wildmon 52, MINORIKO
+	wildmon 53, MINORIKO
 	wildmon 54, CYUMEKO
 	wildmon 55, CYUMEKO
 	end_grass_wildmons
@@ -845,25 +845,25 @@
 	; morn
 	wildmon 53, YUKI
 	wildmon 50, ELIS
-	wildmon 54, SLUGMA
+	wildmon 54, TENSHI
 	wildmon 52, ELIS
-	wildmon 53, MAGCARGO
+	wildmon 53, STENSHI
 	wildmon 54, CYUMEKO
 	wildmon 55, CYUMEKO
 	; day
 	wildmon 53, YUKI
 	wildmon 50, ELIS
-	wildmon 54, SLUGMA
+	wildmon 54, TENSHI
 	wildmon 52, ELIS
-	wildmon 53, MAGCARGO
+	wildmon 53, STENSHI
 	wildmon 54, CYUMEKO
 	wildmon 55, CYUMEKO
 	; nite
 	wildmon 53, YUKI
 	wildmon 50, YUKI
 	wildmon 54, YUKI
-	wildmon 52, MURKROW
-	wildmon 53, MURKROW
+	wildmon 52, MINORIKO
+	wildmon 53, MINORIKO
 	wildmon 54, CYUMEKO
 	wildmon 55, CYUMEKO
 	end_grass_wildmons
@@ -872,26 +872,26 @@
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 51, ELIS
-	wildmon 55, SLUGMA
+	wildmon 55, TENSHI
 	wildmon 55, YUKI
 	wildmon 53, ELIS
-	wildmon 53, MAGCARGO
+	wildmon 53, STENSHI
 	wildmon 54, CYUMEKO
 	wildmon 56, CYUMEKO
 	; day
 	wildmon 51, ELIS
-	wildmon 55, SLUGMA
+	wildmon 55, TENSHI
 	wildmon 55, YUKI
 	wildmon 53, ELIS
-	wildmon 53, MAGCARGO
+	wildmon 53, STENSHI
 	wildmon 54, CYUMEKO
 	wildmon 56, CYUMEKO
 	; nite
 	wildmon 51, YUKI
 	wildmon 55, YUKI
 	wildmon 55, YUKI
-	wildmon 53, MURKROW
-	wildmon 53, MURKROW
+	wildmon 53, MINORIKO
+	wildmon 53, MINORIKO
 	wildmon 54, CYUMEKO
 	wildmon 56, CYUMEKO
 	end_grass_wildmons
@@ -903,7 +903,7 @@
 	wildmon 56, MAI
 	wildmon 53, ELIS
 	wildmon 54, MAI
-	wildmon 54, MAGCARGO
+	wildmon 54, STENSHI
 	wildmon 55, CYUMEKO
 	wildmon 57, CYUMEKO
 	; day
@@ -911,15 +911,15 @@
 	wildmon 56, MAI
 	wildmon 53, ELIS
 	wildmon 54, MAI
-	wildmon 54, MAGCARGO
+	wildmon 54, STENSHI
 	wildmon 55, CYUMEKO
 	wildmon 57, CYUMEKO
 	; nite
 	wildmon 52, CELIS
 	wildmon 56, CMYSTIA
 	wildmon 53, CELIS
-	wildmon 54, MURKROW
-	wildmon 54, MURKROW
+	wildmon 54, MINORIKO
+	wildmon 54, MINORIKO
 	wildmon 55, CYUMEKO
 	wildmon 57, CYUMEKO
 	end_grass_wildmons
@@ -931,7 +931,7 @@
 	wildmon 56, MAI
 	wildmon 53, ELIS
 	wildmon 54, MAI
-	wildmon 54, MAGCARGO
+	wildmon 54, STENSHI
 	wildmon 55, CYUMEKO
 	wildmon 57, CYUMEKO
 	; day
@@ -939,15 +939,15 @@
 	wildmon 56, MAI
 	wildmon 53, ELIS
 	wildmon 54, MAI
-	wildmon 54, MAGCARGO
+	wildmon 54, STENSHI
 	wildmon 55, CYUMEKO
 	wildmon 57, CYUMEKO
 	; nite
 	wildmon 52, CELIS
 	wildmon 56, CMYSTIA
 	wildmon 53, CELIS
-	wildmon 54, MURKROW
-	wildmon 54, MURKROW
+	wildmon 54, MINORIKO
+	wildmon 54, MINORIKO
 	wildmon 55, CYUMEKO
 	wildmon 57, CYUMEKO
 	end_grass_wildmons
@@ -1030,9 +1030,9 @@
 	wildmon 37, CMYSTIA
 	wildmon 38, CELIS
 	wildmon 38, CELIS
-	wildmon 39, QUAGSIRE
-	wildmon 39, QUAGSIRE
-	wildmon 40, QUAGSIRE
+	wildmon 39, SHIZUHA
+	wildmon 39, SHIZUHA
+	wildmon 40, SHIZUHA
 	wildmon 42, LYRICA
 	end_grass_wildmons
 
@@ -1115,9 +1115,9 @@
 	wildmon 38, CELIS
 	wildmon 41, CMYSTIA
 	wildmon 40, CELIS
-	wildmon 39, QUAGSIRE
-	wildmon 40, QUAGSIRE
-	wildmon 41, QUAGSIRE
+	wildmon 39, SHIZUHA
+	wildmon 40, SHIZUHA
+	wildmon 41, SHIZUHA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_27
@@ -1139,10 +1139,10 @@
 	wildmon 39, MAI
 	wildmon 40, MAI
 	; nite
-	wildmon 37, QUAGSIRE
+	wildmon 37, SHIZUHA
 	wildmon 37, CMYSTIA
 	wildmon 39, CELIS
-	wildmon 39, QUAGSIRE
+	wildmon 39, SHIZUHA
 	wildmon 41, CMYSTIA
 	wildmon 39, CMYSTIA
 	wildmon 40, CMYSTIA
@@ -1157,7 +1157,7 @@
 	wildmon 70, LUIZE
 	wildmon 68, MAI
 	wildmon 71, SKARMORY
-	wildmon 71, URSARING
+	wildmon 71, CTENSHI
 	; day
 	wildmon 66, REMILIA
 	wildmon 67, CLUIZE
@@ -1165,15 +1165,15 @@
 	wildmon 70, LUIZE
 	wildmon 68, MAI
 	wildmon 71, SKARMORY
-	wildmon 71, URSARING
+	wildmon 71, CTENSHI
 	; nite
 	wildmon 66, REMILIA
 	wildmon 67, KURUMI
 	wildmon 67, KOTOHIME
 	wildmon 70, KURUMI
 	wildmon 68, HOUNDOOM
-	wildmon 71, SNEASEL
-	wildmon 71, SNEASEL
+	wildmon 71, IKU
+	wildmon 71, IKU
 	end_grass_wildmons
 
 	def_grass_wildmons CERULEAN_CAPE
@@ -1296,23 +1296,23 @@
 	wildmon 50, AALICE
 	wildmon 51, CLILYWHITE
 	wildmon 51, SARA
-	wildmon 54, DUNSPARCE
-	wildmon 51, STEELIX
+	wildmon 54, CMOMIJI
+	wildmon 51, CKANAKO
 	; day
 	wildmon 49, SARA
 	wildmon 50, KOTOHIME
 	wildmon 50, AALICE
 	wildmon 51, CLILYWHITE
 	wildmon 51, SARA
-	wildmon 54, DUNSPARCE
-	wildmon 51, STEELIX
+	wildmon 54, CMOMIJI
+	wildmon 51, CKANAKO
 	; nite
 	wildmon 49, KOTOHIME
 	wildmon 50, SARA
 	wildmon 50, AALICE
 	wildmon 51, SHINKI
 	wildmon 51, KOTOHIME
-	wildmon 54, DUNSPARCE
+	wildmon 54, CMOMIJI
 	wildmon 51, SHINKI
 	end_grass_wildmons
 
@@ -1323,23 +1323,23 @@
 	wildmon 50, SARA
 	wildmon 52, AALICE
 	wildmon 52, CLILYWHITE
-	wildmon 51, DUNSPARCE
+	wildmon 51, CMOMIJI
 	wildmon 55, SARA
-	wildmon 52, STEELIX
+	wildmon 52, CKANAKO
 	; day
 	wildmon 51, KOTOHIME
 	wildmon 50, SARA
 	wildmon 52, AALICE
 	wildmon 52, CLILYWHITE
-	wildmon 51, DUNSPARCE
+	wildmon 51, CMOMIJI
 	wildmon 55, SARA
-	wildmon 52, STEELIX
+	wildmon 52, CKANAKO
 	; nite
 	wildmon 51, KOTOHIME
 	wildmon 50, SARA
 	wildmon 52, KOTOHIME
 	wildmon 52, SHINKI
-	wildmon 51, DUNSPARCE
+	wildmon 51, CMOMIJI
 	wildmon 55, KOTOHIME
 	wildmon 52, SHINKI
 	end_grass_wildmons
@@ -1351,22 +1351,22 @@
 	wildmon 54, KOTOHIME
 	wildmon 52, AALICE
 	wildmon 54, CRUMIA
-	wildmon 55, DUNSPARCE
+	wildmon 55, CMOMIJI
 	wildmon 56, SARA
-	wildmon 56, STEELIX
+	wildmon 56, CKANAKO
 	; day
 	wildmon 52, SARA
 	wildmon 54, KOTOHIME
 	wildmon 52, AALICE
 	wildmon 54, CRUMIA
-	wildmon 55, DUNSPARCE
+	wildmon 55, CMOMIJI
 	wildmon 56, SARA
-	wildmon 56, STEELIX
+	wildmon 56, CKANAKO
 	; nite
 	wildmon 52, KOTOHIME
 	wildmon 54, SARA
 	wildmon 52, KOTOHIME
-	wildmon 54, DUNSPARCE
+	wildmon 54, CMOMIJI
 	wildmon 55, SHINKI
 	wildmon 56, KOTOHIME
 	wildmon 56, SHINKI
@@ -1381,7 +1381,7 @@
 	wildmon 52, CLILYWHITE
 	wildmon 51, SARA
 	wildmon 55, CCIRNO
-	wildmon 52, DUNSPARCE
+	wildmon 52, CMOMIJI
 	; day
 	wildmon 51, KOTOHIME
 	wildmon 50, SARA
@@ -1389,13 +1389,13 @@
 	wildmon 52, CLILYWHITE
 	wildmon 51, SARA
 	wildmon 55, CCIRNO
-	wildmon 52, DUNSPARCE
+	wildmon 52, CMOMIJI
 	; nite
-	wildmon 51, SNEASEL
+	wildmon 51, IKU
 	wildmon 50, KOTOHIME
 	wildmon 52, SARA
 	wildmon 52, SHINKI
-	wildmon 51, DUNSPARCE
+	wildmon 51, CMOMIJI
 	wildmon 55, KOTOHIME
 	wildmon 52, SHINKI
 	end_grass_wildmons
@@ -1404,28 +1404,28 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 49, SARA
-	wildmon 50, SNEASEL
+	wildmon 50, IKU
 	wildmon 50, KOTOHIME
 	wildmon 51, AALICE
 	wildmon 51, CCIRNO
 	wildmon 54, SARA
-	wildmon 51, DUNSPARCE
+	wildmon 51, CMOMIJI
 	; day
 	wildmon 49, SARA
-	wildmon 50, SNEASEL
+	wildmon 50, IKU
 	wildmon 50, KOTOHIME
 	wildmon 51, AALICE
 	wildmon 51, CCIRNO
 	wildmon 54, SARA
-	wildmon 51, DUNSPARCE
+	wildmon 51, CMOMIJI
 	; nite
 	wildmon 49, KOTOHIME
-	wildmon 50, SNEASEL
+	wildmon 50, IKU
 	wildmon 50, SARA
 	wildmon 51, SHINKI
 	wildmon 51, KOTOHIME
 	wildmon 54, SHINKI
-	wildmon 51, DUNSPARCE
+	wildmon 51, CMOMIJI
 	end_grass_wildmons
 
 	def_grass_wildmons SOUL_HOUSE_B1F
@@ -1435,7 +1435,7 @@
 	wildmon 48, CSHINKI
 	wildmon 48, SHINKI
 	wildmon 49, SHINKI
-	wildmon 49, MISDREAVUS
+	wildmon 49, CHINA
 	wildmon 49, MEILING
 	wildmon 50, MISMAGIUS
 	; day
@@ -1443,7 +1443,7 @@
 	wildmon 48, CSHINKI
 	wildmon 48, SHINKI
 	wildmon 49, SHINKI
-	wildmon 49, MISDREAVUS
+	wildmon 49, CHINA
 	wildmon 49, MEILING
 	wildmon 50, MISMAGIUS
 	; nite
@@ -1451,7 +1451,7 @@
 	wildmon 48, CSHINKI
 	wildmon 48, SHINKI
 	wildmon 49, SHINKI
-	wildmon 49, MISDREAVUS
+	wildmon 49, CHINA
 	wildmon 49, MEILING
 	wildmon 50, MISMAGIUS
 	end_grass_wildmons
@@ -1463,7 +1463,7 @@
 	wildmon 49, CSHINKI
 	wildmon 49, SHINKI
 	wildmon 50, SHINKI
-	wildmon 50, MISDREAVUS
+	wildmon 50, CHINA
 	wildmon 50, MEILING
 	wildmon 51, MISMAGIUS
 	; day
@@ -1471,7 +1471,7 @@
 	wildmon 49, CSHINKI
 	wildmon 49, SHINKI
 	wildmon 50, SHINKI
-	wildmon 50, MISDREAVUS
+	wildmon 50, CHINA
 	wildmon 50, MEILING
 	wildmon 51, MISMAGIUS
 	; nite
@@ -1479,7 +1479,7 @@
 	wildmon 49, CSHINKI
 	wildmon 49, SHINKI
 	wildmon 50, SHINKI
-	wildmon 50, MISDREAVUS
+	wildmon 50, CHINA
 	wildmon 50, MEILING
 	wildmon 51, MISMAGIUS
 	end_grass_wildmons
@@ -1489,7 +1489,7 @@
 	; morn
 	wildmon 49, CSHINKI
 	wildmon 50, SHINKI
-	wildmon 50, MISDREAVUS
+	wildmon 50, CHINA
 	wildmon 49, MEIRA
 	wildmon 51, MEILING
 	wildmon 52, CELLEN
@@ -1497,7 +1497,7 @@
 	; day
 	wildmon 49, CSHINKI
 	wildmon 50, SHINKI
-	wildmon 50, MISDREAVUS
+	wildmon 50, CHINA
 	wildmon 49, MEIRA
 	wildmon 51, MEILING
 	wildmon 52, CELLEN
@@ -1505,7 +1505,7 @@
 	; nite
 	wildmon 49, CSHINKI
 	wildmon 50, SHINKI
-	wildmon 50, MISDREAVUS
+	wildmon 50, CHINA
 	wildmon 49, MEIRA
 	wildmon 51, MEILING
 	wildmon 52, CELLEN
@@ -1683,7 +1683,7 @@
 	def_grass_wildmons SCARY_CAVE_SHIPWRECK
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 57, MISDREAVUS
+	wildmon 57, CHINA
 	wildmon 60, CORSOLA
 	wildmon 58, SHINKI
 	wildmon 59, KOTOHIME
@@ -1691,7 +1691,7 @@
 	wildmon 62, CURSOLA
 	wildmon 63, CURSOLA
 	; day
-	wildmon 57, MISDREAVUS
+	wildmon 57, CHINA
 	wildmon 60, CORSOLA
 	wildmon 58, SHINKI
 	wildmon 59, KOTOHIME
@@ -1699,7 +1699,7 @@
 	wildmon 62, CURSOLA
 	wildmon 63, CURSOLA
 	; nite
-	wildmon 57, MISDREAVUS
+	wildmon 57, CHINA
 	wildmon 60, CORSOLA
 	wildmon 58, SHINKI
 	wildmon 59, KOTOHIME
@@ -1909,16 +1909,16 @@
 	; morn
 	wildmon 56, HKOAKUMA
 	wildmon 58, SARA
-	wildmon 57, SLUGMA
-	wildmon 59, MAGCARGO
+	wildmon 57, TENSHI
+	wildmon 59, STENSHI
 	wildmon 60, CCHIYURI
 	wildmon 61, LILYWHITE
 	wildmon 62, LILYWHITE
 	; day
 	wildmon 56, HKOAKUMA
 	wildmon 58, SARA
-	wildmon 57, SLUGMA
-	wildmon 59, MAGCARGO
+	wildmon 57, TENSHI
+	wildmon 59, STENSHI
 	wildmon 60, CCHIYURI
 	wildmon 61, LILYWHITE
 	wildmon 62, LILYWHITE
@@ -1926,8 +1926,8 @@
 	wildmon 56, HKOAKUMA
 	wildmon 58, CSHINKI
 	wildmon 57, SARA
-	wildmon 59, SLUGMA
-	wildmon 60, MAGCARGO
+	wildmon 59, TENSHI
+	wildmon 60, STENSHI
 	wildmon 61, CCHIYURI
 	wildmon 62, LILYWHITE
 	end_grass_wildmons
@@ -1937,53 +1937,53 @@
 	; morn
 	wildmon 58, SARA
 	wildmon 60, CPATCHOULI
-	wildmon 59, MAGCARGO
+	wildmon 59, STENSHI
 	wildmon 61, CCHIYURI
 	wildmon 62, LILYWHITE
-	wildmon 63, STEELIX
-	wildmon 64, STEELIX
+	wildmon 63, CKANAKO
+	wildmon 64, CKANAKO
 	; day
 	wildmon 58, SARA
 	wildmon 60, CPATCHOULI
-	wildmon 59, MAGCARGO
+	wildmon 59, STENSHI
 	wildmon 61, CCHIYURI
 	wildmon 62, LILYWHITE
-	wildmon 63, STEELIX
-	wildmon 64, STEELIX
+	wildmon 63, CKANAKO
+	wildmon 64, CKANAKO
 	; nite
 	wildmon 58, SHINKI
 	wildmon 60, SARA
 	wildmon 59, CPATCHOULI
-	wildmon 61, MAGCARGO
+	wildmon 61, STENSHI
 	wildmon 62, CCHIYURI
 	wildmon 63, LILYWHITE
-	wildmon 64, STEELIX
+	wildmon 64, CKANAKO
 	end_grass_wildmons
 
 	def_grass_wildmons CINNABAR_VOLCANO_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 60, MAGCARGO
+	wildmon 60, STENSHI
 	wildmon 62, CPATCHOULI
-	wildmon 61, SLUGMA
+	wildmon 61, TENSHI
 	wildmon 63, CHIYURI
 	wildmon 64, LILYWHITE
-	wildmon 65, STEELIX
-	wildmon 66, STEELIX
+	wildmon 65, CKANAKO
+	wildmon 66, CKANAKO
 	; day
-	wildmon 60, MAGCARGO
+	wildmon 60, STENSHI
 	wildmon 62, CPATCHOULI
-	wildmon 61, SLUGMA
+	wildmon 61, TENSHI
 	wildmon 63, CHIYURI
 	wildmon 64, LILYWHITE
-	wildmon 65, STEELIX
-	wildmon 66, STEELIX
+	wildmon 65, CKANAKO
+	wildmon 66, CKANAKO
 	; nite
-	wildmon 60, MAGCARGO
+	wildmon 60, STENSHI
 	wildmon 62, CPATCHOULI
 	wildmon 61, CHIYURI
 	wildmon 63, LILYWHITE
-	wildmon 64, STEELIX
+	wildmon 64, CKANAKO
 	wildmon 65, SHINKI
 	wildmon 66, SHINKI
 	end_grass_wildmons

@@ -50,7 +50,7 @@ UpdateTMHMDescriptionAndOwnership:
 	call CheckTMHM
 	ld de, OwnedTMString
 	jr c, .GotString
-	ld de, UnownedTMString
+	ld de, HinaedTMString
 .GotString
 	hlcoord 1, 1
 	rst PlaceString
@@ -68,8 +68,8 @@ UpdateTMHMDescription:
 
 OwnedTMString:
 	db "Owned@"
-UnownedTMString:
-	db "Unowned@"
+HinaedTMString:
+	db "Hinaed@"
 
 UpdateKeyItemDescription:
 	hlcoord 0, 12

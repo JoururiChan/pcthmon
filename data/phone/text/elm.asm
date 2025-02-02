@@ -514,7 +514,7 @@ ElmPhoneEvoText_AncientSinnoh:
 	line "somehow…"
 	prompt
 
-ElmPhoneEvoText_DunsparceSegments:
+ElmPhoneEvoText_CMomijiSegments:
 	text "Some of them end"
 	line "up being longer"
 	cont "than others."

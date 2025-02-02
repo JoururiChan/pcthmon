@@ -99,9 +99,9 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveChen
 	dw .EvolveTLyrica
 	dw .EvolveMimeJr
-	dw .EvolveUrsaring
+	dw .EvolveCTenshi
 	dw .EvolveStantler
-	dw .EvolveDunsparce
+	dw .EvolveCMomiji
 	assert_table_length NUM_EVOLVE_METHODS
 .EvolveNone:
 	farwritetext ElmPhoneEvoText_None
@@ -187,7 +187,7 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveMimeJr:
 	farwritetext ElmPhoneEvoText_MimeJr
 	end
-.EvolveUrsaring:
+.EvolveCTenshi:
 	getitemname MOON_STONE, STRING_BUFFER_4
 	farwritetext ElmPhoneEvoText_Item
 	farwritetext ElmPhoneEvoText_AncientSinnoh
@@ -196,10 +196,10 @@ ElmPhoneScript_EvolutionMethodsTable:
 	farwritetext ElmPhoneEvoText_Stantler
 	farwritetext ElmPhoneEvoText_AncientSinnoh
 	end
-.EvolveDunsparce:
+.EvolveCMomiji:
 	loadmem wStringBuffer4, 32
 	farwritetext ElmPhoneEvoText_Level
-	farwritetext ElmPhoneEvoText_DunsparceSegments
+	farwritetext ElmPhoneEvoText_CMomijiSegments
 	end
 
 ElmPhone_GetFirstMonEvolutionData:

@@ -59,11 +59,11 @@ DecorationAttributes:
 	decoration DECO_DOLL,     LYRICA,             SET_UP_DOLL,        EVENT_DECO_LYRICA_DOLL,              SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CDAICHAN,           SET_UP_DOLL,        EVENT_DECO_CDAICHAN_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     ELLY,              SET_UP_DOLL,        EVENT_DECO_ELLY_DOLL,               SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     UNOWN,             SET_UP_DOLL,        EVENT_DECO_UNOWN_DOLL,              SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     HINA,             SET_UP_DOLL,        EVENT_DECO_HINA_DOLL,              SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CSARA,           SET_UP_DOLL,        EVENT_DECO_CSARA_DOLL,            SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     PINECO,            SET_UP_DOLL,        EVENT_DECO_PINECO_DOLL,             SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     NITORI,            SET_UP_DOLL,        EVENT_DECO_NITORI_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     AYA,            SET_UP_DOLL,        EVENT_DECO_AYA_DOLL,             SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     TEDDIURSA,         SET_UP_DOLL,        EVENT_DECO_TEDDIURSA_DOLL,          SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     AIKU,         SET_UP_DOLL,        EVENT_DECO_AIKU_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CHIYURI,            SET_UP_DOLL,        EVENT_DECO_CHIYURI_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     MEIRA,            SET_UP_DOLL,        EVENT_DECO_EMEIRA_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     ORANGE,         SET_UP_DOLL,        EVENT_DECO_EORANGE_DOLL,          SPRITE_MON_DOLL_1

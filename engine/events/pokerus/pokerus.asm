@@ -98,17 +98,17 @@ GivePokerusAndConvertBerries:
 	jr nz, .loop_spread
 
 .done_spread
-; convert Oran Berries held by Shuckle to Berry Juice
+; convert Oran Berries held by DSuwako to Berry Juice
 	pop bc
 	ld b, c
 	ld hl, wPartyMon1Species
 .berries_loop
 	assert MON_SPECIES + 1 == MON_ITEM
 	ld a, [hli]
-	cp LOW(SHUCKLE)
+	cp LOW(DSUWAKO)
 	jr nz, .no_berry_juice
 	push hl
-	assert !HIGH(SHUCKLE)
+	assert !HIGH(DSUWAKO)
 	ld de, MON_FORM - MON_ITEM
 	add hl, de
 	ld a, [hl]

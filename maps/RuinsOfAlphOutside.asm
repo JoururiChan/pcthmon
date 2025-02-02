@@ -79,14 +79,14 @@ RuinsofAlphOutsideTileScript:
 	endcallback
 
 RuinsOfAlphOutsideScientistCallback:
-	checkflag ENGINE_UNOWN_DEX
+	checkflag ENGINE_HINA_DEX
 	iftruefwd .NoScientist
-	checkevent EVENT_MADE_UNOWN_APPEAR_IN_RUINS
+	checkevent EVENT_MADE_HINA_APPEAR_IN_RUINS
 	iftruefwd .MaybeScientist
 	sjumpfwd .NoScientist
 
 .MaybeScientist:
-	readvar VAR_UNOWNCOUNT
+	readvar VAR_HINACOUNT
 	ifgreater $0, .YesScientist
 	sjumpfwd .NoScientist
 
@@ -320,7 +320,7 @@ RuinsOfAlphOutsideFisherText1:
 
 RuinsOfAlphOutsideYoungster1Text:
 	text "There are many"
-	line "kinds of Unown, so"
+	line "kinds of Hina, so"
 
 	para "we use them for"
 	line "our secret codes."

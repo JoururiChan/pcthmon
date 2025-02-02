@@ -14,12 +14,12 @@ FishGroups:
 	fishgroup 70 percent, (70 + 3) percent, .River_Old,            .River_Good,            .River_Super
 	fishgroup 55 percent, (55 + 5) percent, .Pond_Old,             .Pond_Good,             .Pond_Super
 	fishgroup 60 percent, (60 + 3) percent, .Yukari_Old,          .Yukari_Good,          .Yukari_Super
-	fishgroup 60 percent, (65 + 5) percent, .Qwilfish_Swarm_Old,   .Qwilfish_Swarm_Good,   .Qwilfish_Swarm_Super
+	fishgroup 60 percent, (65 + 5) percent, .CSuwako_Swarm_Old,   .CSuwako_Swarm_Good,   .CSuwako_Swarm_Super
 	fishgroup 60 percent, (60 + 3) percent, .Remoraid_Swarm_Old,   .Remoraid_Swarm_Good,   .Remoraid_Swarm_Super
 	fishgroup 60 percent, (60 + 3) percent, .SLilyBlack_Old,         .SLilyBlack_Good,         .SLilyBlack_Super
 	fishgroup 55 percent, (55 + 1) percent, .Yukari_2_Old,        .Yukari_2_Good,        .Yukari_2_Super
 	fishgroup 60 percent, (60 + 3) percent, .WhirlIslands_Old,     .WhirlIslands_Good,     .WhirlIslands_Super
-	fishgroup 60 percent, (60 + 3) percent, .Qwilfish_Old,         .Qwilfish_Good,         .Qwilfish_Super
+	fishgroup 60 percent, (60 + 3) percent, .CSuwako_Old,         .CSuwako_Good,         .CSuwako_Super
 	fishgroup 60 percent, (60 + 3) percent, .Remoraid_Old,         .Remoraid_Good,         .Remoraid_Super
 	assert_table_length NUM_FISHGROUPS
 
@@ -121,20 +121,20 @@ ENDM
 	fishentry  90 percent + 1, LILYBLACK,   40
 	fishentry 100 percent,     TYUKARI,  40
 
-.Qwilfish_Swarm_Old:
+.CSuwako_Swarm_Old:
 	fishentry  70 percent + 1, LILYBLACK,   5
 	fishentry  85 percent + 1, LILYBLACK,   5
-	fishentry 100 percent,     QWILFISH,   5
-.Qwilfish_Swarm_Good:
+	fishentry 100 percent,     CSUWAKO,   5
+.CSuwako_Swarm_Good:
 	fishentry  35 percent,     LILYBLACK,   20
-	fishentry  70 percent,     QWILFISH,   20
-	fishentry  90 percent + 1, QWILFISH,   20
-	fishentry 100 percent,     QWILFISH,   20
-.Qwilfish_Swarm_Super:
-	fishentry  40 percent,     QWILFISH,   40
-	fishentry  70 percent,     QWILFISH,   40
-	fishentry  90 percent + 1, QWILFISH,   40
-	fishentry 100 percent,     QWILFISH,   40
+	fishentry  70 percent,     CSUWAKO,   20
+	fishentry  90 percent + 1, CSUWAKO,   20
+	fishentry 100 percent,     CSUWAKO,   20
+.CSuwako_Swarm_Super:
+	fishentry  40 percent,     CSUWAKO,   40
+	fishentry  70 percent,     CSUWAKO,   40
+	fishentry  90 percent + 1, CSUWAKO,   40
+	fishentry 100 percent,     CSUWAKO,   40
 
 .Remoraid_Swarm_Old:
 	fishentry  70 percent + 1, LILYBLACK,   10
@@ -196,20 +196,20 @@ ENDM
 	fishentry  90 percent + 1, DAICHAN,    40
 	fishentry 100 percent,     FLANDRE,     40
 
-.Qwilfish_Old:
+.CSuwako_Old:
 	fishentry  70 percent + 1, LILYBLACK,   10
 	fishentry  85 percent + 1, LILYBLACK,   10
 	fishentry 100 percent,     GENGETSU,  10
-.Qwilfish_Good:
+.CSuwako_Good:
 	fishentry  35 percent,     LILYBLACK,   20
 	fishentry  70 percent,     GENGETSU,  20
 	fishentry  90 percent + 1, GENGETSU,  20
 	fishentry 100 percent,     GENGETSU,  20
-.Qwilfish_Super:
+.CSuwako_Super:
 	fishentry  40 percent,     GENGETSU,  40
 	fishentry  70 percent,     GENGETSU,  40
 	fishentry  90 percent + 1, LILYBLACK,   40
-	fishentry 100 percent,     QWILFISH,   40
+	fishentry 100 percent,     CSUWAKO,   40
 
 .Remoraid_Old:
 	fishentry  70 percent + 1, LILYBLACK,   10

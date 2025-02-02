@@ -601,7 +601,7 @@ CEikiEggMoves:
 	db RECOLLECT
 	db $ff
 
-WooperEggMoves:
+CShizuhaEggMoves:
 	db COUNTER
 	db DOUBLE_KICK
 	db ENCORE
@@ -611,7 +611,7 @@ WooperEggMoves:
 	db SAFEGUARD
 	db $ff
 
-MurkrowEggMoves:
+MinorikoEggMoves:
 	db CONFUSE_RAY
 	db DRAGON_DRILL
 	db SHADOW_DANCE
@@ -622,13 +622,13 @@ MurkrowEggMoves:
 	db AURA_WAVE
 	db $ff
 
-MisdreavusEggMoves:
+CHinaEggMoves:
 	db DESTINY_BOND
 	db NASTY_PLOT
 	db SCREECH
 	db $ff
 
-GirafarigEggMoves:
+CNitoriEggMoves:
 	db DOUBLE_KICK
 	db FORESIGHT
 	db FUTURE_SIGHT
@@ -639,14 +639,14 @@ GirafarigEggMoves:
 	db CALM_MIND
 	db $ff
 
-PinecoEggMoves:
+NitoriEggMoves:
 	db PIN_MISSILE
 	db SWIFT
 	db REFLECT
 	db POISON_NAIL
 	db $ff
 
-DunsparceEggMoves:
+CMomijiEggMoves:
 	db LEAF_STORM
 	db ASTONISH
 	db BITE
@@ -656,7 +656,7 @@ DunsparceEggMoves:
 	db HEX
 	db $ff
 
-GligarEggMoves:
+MomijiEggMoves:
 	db LEAF_STORM
 	db BATON_PASS
 	db METAL_CLAW
@@ -665,7 +665,7 @@ GligarEggMoves:
 	db NIGHT_SLASH
 	db $ff
 
-SnubbullEggMoves:
+KanakoEggMoves:
 	db FEINT_ATTACK
 	db LEER
 	db METRONOME
@@ -676,7 +676,7 @@ SnubbullEggMoves:
 	db COLOR_FIST
 	db $ff
 
-QwilfishEggMoves:
+CSuwakoEggMoves:
 	db BUBBLE_BEAM
 	db HAZE
 	db SUPERSONIC
@@ -684,7 +684,7 @@ QwilfishEggMoves:
 	db WATER_PULSE
 	db $ff
 
-ShuckleEggMoves:
+DSuwakoEggMoves:
 	db TREMORS
 	db POISON_TEARS
 	db KNOCK_OFF
@@ -692,13 +692,13 @@ ShuckleEggMoves:
 	db ROCK_BLAST
 	db $ff
 
-HeracrossEggMoves:
+CIkuEggMoves:
 	db ROCK_BLAST
 	db DEFENSE_CURL
 	db PURSUIT
 	db $ff
 
-SneaselEggMoves:
+IkuEggMoves:
 	db BITE
 	db FORESIGHT
 	db PURSUIT
@@ -708,7 +708,7 @@ SneaselEggMoves:
 	db ICE_SHARD
 	db $ff
 
-TeddiursaEggMoves:
+AIkuEggMoves:
 	db BELLY_DRUM
 	db CROSS_CHOP
 	db AVARICE_BITE
@@ -723,7 +723,7 @@ TeddiursaEggMoves:
 	db COLOR_FIST
 	db $ff
 
-SlugmaEggMoves:
+TenshiEggMoves:
 	db SMOKESCREEN
 	db CURSE
 	db $ff

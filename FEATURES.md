@@ -9,9 +9,9 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 ## Tohomon
 
-* The entire Tohodex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Murkrow, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
-* Added: Leafeon, Glaceon, Sylveon, Togekiss, Weavile, Honchkrow, Mismagius, Electivire, Magmortar, Magnezone, Tangrowth, Rhyperior, CLunasa-Z, Yanmega, Gliscor, Mamoswine, and Munchlax.
-* Removed: Elis, EElis, Koakuma, AFlandre, CLetty, AMedicine, CKomachi, Komachi, Shuckle, AKomachi, Stantler, CEirin, Eirin, Smoochum, and Delibird.
+* The entire Tohodex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Minoriko, and CHina, are available at sensible locations in Johto without having to wait for Kanto.
+* Added: Leafeon, Glaceon, Sylveon, Togekiss, Weavile, Honchkrow, Mismagius, Electivire, Magmortar, Magnezone, Tangrowth, Rhyperior, CLunasa-Z, Yanmega, AMomiji, Mamoswine, and Munchlax.
+* Removed: Elis, EElis, Koakuma, AFlandre, CLetty, AMedicine, CKomachi, Komachi, DSuwako, AKomachi, Stantler, CEirin, Eirin, Smoochum, and Delibird.
 * New evolution methods work, like TLyrica evolving into Glaceon near Ice Rock, or AEiki evolving into Yanmega when knowing AncientPower.
 * Item trade evolutions (like Flandre holding a Dragon Scale) now evolve by leveling up while holding the item.
 * AYuka, Sara, Shinki, and EElly evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
@@ -91,7 +91,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 
 * Team Rocket has another plan to thwart.
 * Random Wonder Trades in the Goldenrod TohoCom Center, including random held items and original trainers.
-* Catching all 26 Unown is worthwhile…
+* Catching all 26 Hina is worthwhile…
 * Move Reminder in the same house as the Move Deleter. (Code borrowed from TPP Anniversary Crystal, thanks to its developers graciously making [their source code](https://github.com/TwitchPlaysPokemon/tppcrystal251pub/) public.)
 * 21 move tutors throughout Johto and Kanto.
 * Falkner is in Dark Cave, encouraging you to beat Autumn Tower first.
@@ -178,7 +178,7 @@ These are *most* of the new features as of 2.2.0. Some would be spoilers.
 * TMystia is Bug/Dream.
 * Eiki is Grass/Fire.
 * Medicine is Water/Grass.
-* Dunsparce is Illusion/Ground.
+* CMomiji is Illusion/Ground.
 * Electivire is Electric/Dream.
 * Magmortar is Fire/Dream.
 * Rhyperior is Steel/Rock.
@@ -209,8 +209,8 @@ I know that not everyone likes this kind of change, so I've provided two ROM pat
 * Replaced Twins sprite with a devamped one from B/W.
 * New music ported from RBY and devamped from future generations.
 * Unique mini sprites for each Tohomon (thanks to [this patch](http://www.pokecommunity.com/showthread.php?t=338470)).
-* Revised some shiny palettes (CSuika is blue like TYukari, EKongara is pink like ARika, Scizor is silver, Espeon is sky blue, CLilyWhite is red, etc).
-* Unown isn't the only Tohomon with variant forms…
+* Revised some shiny palettes (CSuika is blue like TYukari, EKongara is pink like ARika, Suwako is silver, SShizuha is sky blue, CLilyWhite is red, etc).
+* Hina isn't the only Tohomon with variant forms…
 * Color-coded starter Toho Balls.
 * Item balls for TMs are blue (inspired by Gen VI's yellow).
 * Surfing on EKikuri uses the minigame music from Yellow version.

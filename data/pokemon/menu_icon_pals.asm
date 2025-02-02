@@ -175,36 +175,36 @@ MenuMonIconColors::
 	iconpal GREEN, BLUE ; EIKI
 	iconpal GREEN, BLUE ; AEIKI
 	iconpal RED, BLUE ; YANMEGA
-	iconpal BLUE, RED ; WOOPER
-	iconpal BLUE, RED ; QUAGSIRE
-	iconpal PURPLE, GREEN ; ESPEON
-	iconpal PURPLE, GREEN ; UMBREON
-	iconpal BLUE, PURPLE ; MURKROW
+	iconpal BLUE, RED ; CSHIZUHA
+	iconpal BLUE, RED ; SHIZUHA
+	iconpal PURPLE, GREEN ; SSHIZUHA
+	iconpal PURPLE, GREEN ; CMINORIKO
+	iconpal BLUE, PURPLE ; MINORIKO
 	iconpal BLUE, PURPLE ; HONCHKROW
-	iconpal PINK, PURPLE ; SLOWKING
-	iconpal PURPLE, BROWN ; MISDREAVUS
+	iconpal PINK, PURPLE ; HMINORIKO
+	iconpal PURPLE, BROWN ; CHINA
 	iconpal PURPLE, BROWN ; MISMAGIUS
-	iconpal GRAY, BLUE ; UNOWN
-	iconpal BLUE, PURPLE ; WOBBUFFET
-	iconpal BROWN, BLUE ; GIRAFARIG
-	iconpal GRAY, RED ; PINECO
-	iconpal PURPLE, BROWN ; FORRETRESS
-	iconpal BLUE, RED ; DUNSPARCE
-	iconpal PURPLE, GRAY ; GLIGAR
-	iconpal PURPLE, GRAY ; GLISCOR
-	iconpal GRAY, BROWN ; STEELIX
-	iconpal PINK, BLUE ; SNUBBULL
-	iconpal PURPLE, GRAY ; GRANBULL
-	iconpal BLUE, PURPLE ; QWILFISH
-	iconpal RED, GRAY ; SCIZOR
-	iconpal RED, BLUE ; SHUCKLE
-	iconpal BLUE, PURPLE ; HERACROSS
-	iconpal BLUE, RED ; SNEASEL
+	iconpal GRAY, BLUE ; HINA
+	iconpal BLUE, PURPLE ; AHINA
+	iconpal BROWN, BLUE ; CNITORI
+	iconpal GRAY, RED ; NITORI
+	iconpal PURPLE, BROWN ; ANITORI
+	iconpal BLUE, RED ; CMOMIJI
+	iconpal PURPLE, GRAY ; MOMIJI
+	iconpal PURPLE, GRAY ; AMOMIJI
+	iconpal GRAY, BROWN ; CKANAKO
+	iconpal PINK, BLUE ; KANAKO
+	iconpal PURPLE, GRAY ; AKANAKO
+	iconpal BLUE, PURPLE ; CSUWAKO
+	iconpal RED, GRAY ; SUWAKO
+	iconpal RED, BLUE ; DSUWAKO
+	iconpal BLUE, PURPLE ; CIKU
+	iconpal BLUE, RED ; IKU
 	iconpal BLUE, RED ; WEAVILE
-	iconpal BROWN, GREEN ; TEDDIURSA
-	iconpal BROWN, GREEN ; URSARING
-	iconpal RED, GRAY ; SLUGMA
-	iconpal RED, BLUE ; MAGCARGO
+	iconpal BROWN, GREEN ; AIKU
+	iconpal BROWN, GREEN ; CTENSHI
+	iconpal RED, GRAY ; TENSHI
+	iconpal RED, BLUE ; STENSHI
 	iconpal BROWN, BLUE ; SWINUB
 	iconpal BROWN, GREEN ; PILOSWINE
 	iconpal BROWN, GREEN ; MAMOSWINE
@@ -245,7 +245,7 @@ MenuMonIconColors::
 
 	iconpal RED, BLUE ; EGG
 
-rept NUM_UNOWN - 1
+rept NUM_HINA - 1
 	iconpal GRAY, BLUE
 endr
 

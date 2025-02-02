@@ -170,32 +170,32 @@ EggMovePointers::
 	dw CEikiEggMoves        ; CEiki
 	dw CEikiEggMoves            ; Eiki
 	dw CEikiEggMoves          ; AEiki
-	dw WooperEggMoves    ; Wooper
-	dw NoEggMoves             ; Quagsire
-	dw NoEggMoves             ; Espeon
-	dw NoEggMoves             ; Umbreon
-	dw MurkrowEggMoves        ; Murkrow
-	dw NoEggMoves             ; Slowking
-	dw MisdreavusEggMoves     ; Misdreavus
-	dw NoEggMoves             ; Unown
-	dw NoEggMoves             ; Wobbuffet
-	dw GirafarigEggMoves      ; Girafarig
-	dw PinecoEggMoves         ; Pineco
-	dw NoEggMoves             ; Forretress
-	dw DunsparceEggMoves      ; Dunsparce
-	dw GligarEggMoves         ; Gligar
-	dw NoEggMoves             ; Steelix
-	dw SnubbullEggMoves       ; Snubbull
-	dw NoEggMoves             ; Granbull
-	dw QwilfishEggMoves       ; Qwilfish
-	dw NoEggMoves             ; Scizor
-	dw ShuckleEggMoves        ; Shuckle
-	dw HeracrossEggMoves      ; Heracross
-	dw SneaselEggMoves        ; Sneasel
-	dw TeddiursaEggMoves      ; Teddiursa
-	dw NoEggMoves             ; Ursaring
-	dw SlugmaEggMoves         ; Slugma
-	dw NoEggMoves             ; Magcargo
+	dw CShizuhaEggMoves    ; CShizuha
+	dw NoEggMoves             ; Shizuha
+	dw NoEggMoves             ; SShizuha
+	dw NoEggMoves             ; CMinoriko
+	dw MinorikoEggMoves        ; Minoriko
+	dw NoEggMoves             ; HMinoriko
+	dw CHinaEggMoves     ; CHina
+	dw NoEggMoves             ; Hina
+	dw NoEggMoves             ; AHina
+	dw CNitoriEggMoves      ; CNitori
+	dw NitoriEggMoves         ; Nitori
+	dw NoEggMoves             ; ANitori
+	dw CMomijiEggMoves      ; CMomiji
+	dw MomijiEggMoves         ; Momiji
+	dw NoEggMoves             ; CKanako
+	dw KanakoEggMoves       ; Kanako
+	dw NoEggMoves             ; AKanako
+	dw CSuwakoEggMoves       ; Suwako
+	dw NoEggMoves             ; Suwako
+	dw DSuwakoEggMoves        ; DSuwako
+	dw CIkuEggMoves      ; CIku
+	dw IkuEggMoves        ; Iku
+	dw AIkuEggMoves      ; AIku
+	dw NoEggMoves             ; CTenshi
+	dw TenshiEggMoves         ; Tenshi
+	dw NoEggMoves             ; STenshi
 	dw SwinubEggMoves         ; Swinub
 	dw NoEggMoves             ; Piloswine
 	dw CorsolaEggMoves   ; Corsola
@@ -251,7 +251,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Yanmega
 	dw NoEggMoves             ; Leafeon
 	dw NoEggMoves             ; Glaceon
-	dw NoEggMoves             ; Gliscor
+	dw NoEggMoves             ; AMomiji
 	dw NoEggMoves             ; Mamoswine
 	dw NoEggMoves             ; CLunasaZ
 	dw NoEggMoves             ; Sylveon
@@ -264,7 +264,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Ursaluna
 	dw NoEggMoves             ; Sneasler
 	dw NoEggMoves             ; Overqwil
-	dw NoEggMoves             ; Dudunsparce
+	dw NoEggMoves             ; Ducmomiji
 	dw NoEggMoves             ; Farigiraf
 	dw NoEggMoves             ; Clodsire
 	dw NoEggMoves             ; Annihilape
@@ -274,6 +274,6 @@ EggMovePointers::
 
 	dw NoEggMoves                ; Suika (Armored Form)
 
-	dw DunsparceEggMoves         ; Dundunsparse (Three Segment Form)
+	dw CMomijiEggMoves         ; Dundunsparse (Three Segment Form)
 
 	assert_table_length NUM_EXT_POKEMON

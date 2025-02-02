@@ -174,32 +174,32 @@ OverworldMonIconColors::
 	iconpal GREEN, BLUE ; CEIKI
 	iconpal GREEN, BLUE ; EIKI
 	iconpal GREEN, BLUE ; AEIKI
-	iconpal AZURE, RED ; WOOPER
-	iconpal AZURE, RED ; QUAGSIRE
-	iconpal PURPLE, GREEN ; ESPEON
-	iconpal YELLOW, GREEN ; UMBREON
-	iconpal BLUE, PURPLE ; MURKROW
-	iconpal PINK, PURPLE ; SLOWKING
-	iconpal PURPLE, BROWN ; MISDREAVUS
-	iconpal BLACK, BLUE ; UNOWN
-	iconpal AZURE, PURPLE ; WOBBUFFET
-	iconpal BROWN, BLUE ; GIRAFARIG
-	iconpal GRAY, RED ; PINECO
-	iconpal PURPLE, BROWN ; FORRETRESS
-	iconpal AZURE, RED ; DUNSPARCE
-	iconpal PURPLE, GRAY ; GLIGAR
-	iconpal GRAY, BROWN ; STEELIX
-	iconpal PINK, BLUE ; SNUBBULL
-	iconpal PURPLE, GRAY ; GRANBULL
-	iconpal BLUE, PURPLE ; QWILFISH
-	iconpal RED, GRAY ; SCIZOR
-	iconpal RED, BLUE ; SHUCKLE
-	iconpal BLUE, PURPLE ; HERACROSS
-	iconpal BLUE, RED ; SNEASEL
-	iconpal BROWN, GREEN ; TEDDIURSA
-	iconpal BROWN, GREEN ; URSARING
-	iconpal RED, GRAY ; SLUGMA
-	iconpal RED, BLUE ; MAGCARGO
+	iconpal AZURE, RED ; CSHIZUHA
+	iconpal AZURE, RED ; SHIZUHA
+	iconpal PURPLE, GREEN ; SSHIZUHA
+	iconpal YELLOW, GREEN ; CMINORIKO
+	iconpal BLUE, PURPLE ; MINORIKO
+	iconpal PINK, PURPLE ; HMINORIKO
+	iconpal PURPLE, BROWN ; CHINA
+	iconpal BLACK, BLUE ; HINA
+	iconpal AZURE, PURPLE ; AHINA
+	iconpal BROWN, BLUE ; CNITORI
+	iconpal GRAY, RED ; NITORI
+	iconpal PURPLE, BROWN ; ANITORI
+	iconpal AZURE, RED ; CMOMIJI
+	iconpal PURPLE, GRAY ; MOMIJI
+	iconpal GRAY, BROWN ; CKANAKO
+	iconpal PINK, BLUE ; KANAKO
+	iconpal PURPLE, GRAY ; AKANAKO
+	iconpal BLUE, PURPLE ; CSUWAKO
+	iconpal RED, GRAY ; SUWAKO
+	iconpal RED, BLUE ; DSUWAKO
+	iconpal BLUE, PURPLE ; CIKU
+	iconpal BLUE, RED ; IKU
+	iconpal BROWN, GREEN ; AIKU
+	iconpal BROWN, GREEN ; CTENSHI
+	iconpal RED, GRAY ; TENSHI
+	iconpal RED, BLUE ; STENSHI
 	iconpal BROWN, BLUE ; SWINUB
 	iconpal BROWN, GREEN ; PILOSWINE
 	iconpal PINK, AZURE ; CORSOLA
@@ -255,7 +255,7 @@ OverworldMonIconColors::
 	iconpal RED, BLUE ; YANMEGA
 	iconpal GREEN, BROWN ; LEAFEON
 	iconpal AZURE, BLUE ; GLACEON
-	iconpal PURPLE, GRAY ; GLISCOR
+	iconpal PURPLE, GRAY ; AMOMIJI
 	iconpal BROWN, GREEN ; MAMOSWINE
 	iconpal BLUE, PURPLE ; CLUNASA_Z
 	iconpal PINK, AZURE ; SYLVEON
@@ -268,13 +268,13 @@ OverworldMonIconColors::
 	iconpal BROWN, RED ; URSALUNA
 	iconpal RED, BROWN ; SNEASLER
 	iconpal PURPLE, BLUE ; OVERQWIL
-	iconpal AZURE, RED ; DUDUNSPARCE
+	iconpal AZURE, RED ; PLACETHM
 	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal GRAY, PURPLE ; ANNIHILAPE
 	assert_table_length NUM_SPECIES
 
-rept NUM_UNOWN - 1
+rept NUM_HINA - 1
 	iconpal GRAY, BLUE
 endr
 
@@ -294,6 +294,6 @@ endr
 
 	iconpal GRAY, BLACK ; SUIKA, SUIKA_ARMORED_FORM
 
-	iconpal AZURE, RED ; DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
+	iconpal AZURE, RED ; PLACETHM, PLACETHM_THREE_SEGMENT_FORM
 
 	assert_table_length NUM_UNIQUE_POKEMON

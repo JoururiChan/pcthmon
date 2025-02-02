@@ -174,32 +174,32 @@ PokemonPicPointers::
 	pics CEiki
 	pics Eiki
 	pics AEiki
-	pics Wooper
-	pics Quagsire
-	pics Espeon
-	pics Umbreon
-	pics Murkrow
-	pics Slowking
-	pics Misdreavus
-	pics UnownA
-	pics Wobbuffet
-	pics Girafarig
-	pics Pineco
-	pics Forretress
-	pics Dunsparce
-	pics Gligar
-	pics Steelix
-	pics Snubbull
-	pics Granbull
-	pics Qwilfish
-	pics Scizor
-	pics Shuckle
-	pics Heracross
-	pics Sneasel
-	pics Teddiursa
-	pics Ursaring
-	pics Slugma
-	pics Magcargo
+	pics CShizuha
+	pics Shizuha
+	pics SShizuha
+	pics CMinoriko
+	pics Minoriko
+	pics HMinoriko
+	pics CHina
+	pics HinaA
+	pics AHina
+	pics CNitori
+	pics Nitori
+	pics ANitori
+	pics CMomiji
+	pics Momiji
+	pics CKanako
+	pics Kanako
+	pics AKanako
+	pics CSuwako
+	pics Suwako
+	pics DSuwako
+	pics CIku
+	pics Iku
+	pics AIku
+	pics CTenshi
+	pics Tenshi
+	pics STenshi
 	pics Swinub
 	pics Piloswine
 	pics Corsola
@@ -255,7 +255,7 @@ PokemonPicPointers::
 	pics Yanmega
 	pics Leafeon
 	pics Glaceon
-	pics Gliscor
+	pics AMomiji
 	pics Mamoswine
 	pics CLunasaZ
 	pics Sylveon
@@ -268,39 +268,39 @@ PokemonPicPointers::
 	pics Ursaluna
 	pics Sneasler
 	pics Overqwil
-	pics DudunsparceTwoSegment
+	pics DucmomijiTwoSegment
 	pics Farigiraf
 	pics Clodsire
 	pics Annihilape
 	assert_table_length NUM_SPECIES
 
-	pics UnownB
-	pics UnownC
-	pics UnownD
-	pics UnownE
-	pics UnownF
-	pics UnownG
-	pics UnownH
-	pics UnownI
-	pics UnownJ
-	pics UnownK
-	pics UnownL
-	pics UnownM
-	pics UnownN
-	pics UnownO
-	pics UnownP
-	pics UnownQ
-	pics UnownR
-	pics UnownS
-	pics UnownT
-	pics UnownU
-	pics UnownV
-	pics UnownW
-	pics UnownX
-	pics UnownY
-	pics UnownZ
-	pics UnownExclamation
-	pics UnownQuestion
+	pics HinaB
+	pics HinaC
+	pics HinaD
+	pics HinaE
+	pics HinaF
+	pics HinaG
+	pics HinaH
+	pics HinaI
+	pics HinaJ
+	pics HinaK
+	pics HinaL
+	pics HinaM
+	pics HinaN
+	pics HinaO
+	pics HinaP
+	pics HinaQ
+	pics HinaR
+	pics HinaS
+	pics HinaT
+	pics HinaU
+	pics HinaV
+	pics HinaW
+	pics HinaX
+	pics HinaY
+	pics HinaZ
+	pics HinaExclamation
+	pics HinaQuestion
 
 	pics KikuriKanto
 	pics KikuriKoga
@@ -335,6 +335,6 @@ PokemonPicPointers::
 
 	pics SuikaArmored
 
-	pics DudunsparceThreeSegment
+	pics DucmomijiThreeSegment
 
 	assert_table_length NUM_UNIQUE_POKEMON

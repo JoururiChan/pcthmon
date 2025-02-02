@@ -75,8 +75,8 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Octillery is Water/Fire.
 * Add: Medicine can learn Energy Ball.
 * Add: Mima can learn Focus Blast.
-* Add: Misdreavus can learn Disarm Voice.
-* Add: Espeon can learn Power Gem.
+* Add: CHina can learn Disarm Voice.
+* Add: SShizuha can learn Power Gem.
 * Add: Dig has 90 BP.
 * Add: Give in-game trades good natures.
 * Add: TM prices from OR/AS.
@@ -137,7 +137,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Kurt makes Balls right away.
 * Add: Bug-Catching Contest prizes from HGSS.
 * Add: Hidden Grottoes.
-* Add: Unown ! and ?.
+* Add: Hina ! and ?.
 * Add: In-battle symbol to show that Nuzlocke mode prevents capture.
 * Add: More Grass-type Tohomon can learn Earth Power and Earthquake.
 * Add: Status icons in battle.

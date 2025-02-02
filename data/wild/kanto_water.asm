@@ -52,28 +52,28 @@
 	def_water_wildmons ROUTE_12_NORTH
 	db 6 percent ; encounter rate
 	wildmon  48, GENGETSU
-	wildmon  52, QUAGSIRE
+	wildmon  52, SHIZUHA
 	wildmon  54, GENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_12_SOUTH
 	db 6 percent ; encounter rate
 	wildmon  48, GENGETSU
-	wildmon  52, QUAGSIRE
+	wildmon  52, SHIZUHA
 	wildmon  54, GENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_13_EAST
 	db 6 percent ; encounter rate
 	wildmon  49, GENGETSU
-	wildmon  53, QUAGSIRE
+	wildmon  53, SHIZUHA
 	wildmon  55, GENGETSU
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_14
 	db 6 percent ; encounter rate
 	wildmon  49, GENGETSU
-	wildmon  53, QUAGSIRE
+	wildmon  53, SHIZUHA
 	wildmon  55, GENGETSU
 	end_water_wildmons
 
@@ -87,7 +87,7 @@
 	def_water_wildmons LUCKY_ISLAND
 	db 6 percent ; encounter rate
 	wildmon  49, GENGETSU
-	wildmon  53, QUAGSIRE
+	wildmon  53, SHIZUHA
 	wildmon  55, GENGETSU
 	end_water_wildmons
 
@@ -247,7 +247,7 @@
 
 	def_water_wildmons SCARY_CAVE_SHIPWRECK
 	db 6 percent ; encounter rate
-	wildmon  54, MISDREAVUS
+	wildmon  54, CHINA
 	wildmon  56, SHINKI
 	wildmon  58, TEI
 	end_water_wildmons
@@ -268,7 +268,7 @@
 
 	def_water_wildmons CERULEAN_CAVE_B1F
 	db 6 percent ; encounter rate
-	wildmon  60, SLOWKING
+	wildmon  60, HMINORIKO
 	wildmon  63, YUMEMI
 	wildmon  66, SLILYBLACK
 	end_water_wildmons

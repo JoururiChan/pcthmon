@@ -177,32 +177,32 @@ PokemonBodyData:
 	body_data   40,   300, BIPEDAL_TAIL,  BLUE ; CEIKI
 	body_data  40,   550, BIPEDAL_TAIL,   BLUE ; EIKI
 	body_data  40,  750, BIPEDAL_TAIL,  BLUE    ; AEIKI
-	body_data   4,   85, HEAD_LEGS,    BLUE   ; WOOPER
-	body_data  14,  750, BIPEDAL_TAIL, BLUE   ; QUAGSIRE
-	body_data   9,  265, QUADRUPED,    PURPLE ; ESPEON
-	body_data  10,  270, QUADRUPED,    BLACK  ; UMBREON
-	body_data   5,   21, WINGS,        BLACK  ; MURKROW
-	body_data  20,  795, BIPEDAL_TAIL, PINK   ; SLOWKING
-	body_data   7,   10, HEAD,         GRAY   ; MISDREAVUS
-	body_data   5,   50, HEAD,         BLACK  ; UNOWN
-	body_data  13,  285, HEAD_BASE,    BLUE   ; WOBBUFFET
-	body_data  15,  415, QUADRUPED,    YELLOW ; GIRAFARIG
-	body_data   6,   72, HEAD,         GRAY   ; PINECO
-	body_data  12, 1258, HEAD,         PURPLE ; FORRETRESS
-	body_data  15,  140, SERPENTINE,   YELLOW ; DUNSPARCE
-	body_data  11,  648, WINGS,        PURPLE ; GLIGAR
-	body_data  92, 4000, SERPENTINE,   GRAY   ; STEELIX
-	body_data   6,   78, BIPEDAL,      PINK   ; SNUBBULL
-	body_data  14,  487, BIPEDAL_TAIL, PURPLE ; GRANBULL
-	body_data   5,   39, FINS,         GRAY   ; QWILFISH
-	body_data  18, 1180, MULTIWINGS,   RED    ; SCIZOR
-	body_data   6,  205, INSECTOID,    YELLOW ; SHUCKLE
-	body_data  15,  540, BIPEDAL,      BLUE   ; HERACROSS
-	body_data   9,  280, BIPEDAL_TAIL, BLACK  ; SNEASEL
-	body_data   6,   88, BIPEDAL_TAIL, BROWN  ; TEDDIURSA
-	body_data  18, 1258, BIPEDAL_TAIL, BROWN  ; URSARING
-	body_data   7,  350, SERPENTINE,   RED    ; SLUGMA
-	body_data   8,  550, SERPENTINE,   RED    ; MAGCARGO
+	body_data   4,   85, HEAD_LEGS,    BLUE   ; CSHIZUHA
+	body_data  14,  750, BIPEDAL_TAIL, BLUE   ; SHIZUHA
+	body_data   9,  265, QUADRUPED,    PURPLE ; SSHIZUHA
+	body_data  10,  270, QUADRUPED,    BLACK  ; CMINORIKO
+	body_data   5,   21, WINGS,        BLACK  ; MINORIKO
+	body_data  20,  795, BIPEDAL_TAIL, PINK   ; HMINORIKO
+	body_data   7,   10, HEAD,         GRAY   ; CHINA
+	body_data   5,   50, HEAD,         BLACK  ; HINA
+	body_data  13,  285, HEAD_BASE,    BLUE   ; AHINA
+	body_data  15,  415, QUADRUPED,    YELLOW ; CNITORI
+	body_data   6,   72, HEAD,         GRAY   ; NITORI
+	body_data  12, 1258, HEAD,         PURPLE ; ANITORI
+	body_data  15,  140, SERPENTINE,   YELLOW ; CMOMIJI
+	body_data  11,  648, WINGS,        PURPLE ; MOMIJI
+	body_data  92, 4000, SERPENTINE,   GRAY   ; CKANAKO
+	body_data   6,   78, BIPEDAL,      PINK   ; KANAKO
+	body_data  14,  487, BIPEDAL_TAIL, PURPLE ; AKANAKO
+	body_data   5,   39, FINS,         GRAY   ; CSUWAKO
+	body_data  18, 1180, MULTIWINGS,   RED    ; SUWAKO
+	body_data   6,  205, INSECTOID,    YELLOW ; DSUWAKO
+	body_data  15,  540, BIPEDAL,      BLUE   ; CIKU
+	body_data   9,  280, BIPEDAL_TAIL, BLACK  ; IKU
+	body_data   6,   88, BIPEDAL_TAIL, BROWN  ; AIKU
+	body_data  18, 1258, BIPEDAL_TAIL, BROWN  ; CTENSHI
+	body_data   7,  350, SERPENTINE,   RED    ; TENSHI
+	body_data   8,  550, SERPENTINE,   RED    ; STENSHI
 	body_data   4,   65, QUADRUPED,    BROWN  ; SWINUB
 	body_data  11,  558, QUADRUPED,    BROWN  ; PILOSWINE
 	body_data   6,   50, INSECTOID,    PINK   ; CORSOLA
@@ -258,7 +258,7 @@ PokemonBodyData:
 	body_data  19,  515, MULTIWINGS,   GREEN  ; YANMEGA
 	body_data  10,  255, QUADRUPED,    GREEN  ; LEAFEON
 	body_data   8,  259, QUADRUPED,    BLUE   ; GLACEON
-	body_data  20,  425, WINGS,        PURPLE ; GLISCOR
+	body_data  20,  425, WINGS,        PURPLE ; AMOMIJI
 	body_data  25, 2910, QUADRUPED,    BROWN  ; MAMOSWINE
 	body_data   9,  340, HEAD_ARMS,    RED    ; CLUNASA_Z
 	body_data  10,  235, QUADRUPED,    PINK   ; SYLVEON
@@ -271,7 +271,7 @@ PokemonBodyData:
 	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; URSALUNA
 	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
 	body_data  25,  605, FINS,         BLACK  ; OVERQWIL
-	body_data  36,  392, SERPENTINE,   YELLOW ; DUDUNSPARCE
+	body_data  36,  392, SERPENTINE,   YELLOW ; PLACETHM
 	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
@@ -281,6 +281,6 @@ PokemonBodyData:
 
 	body_data  22, 1370, BIPEDAL_TAIL, GRAY   ; SUIKA (SUIKA_ARMORED_FORM)
 
-	body_data  45,  474, SERPENTINE,   YELLOW ; DUDUNSPARCE (DUDUNSPARCE_THREE_SEGMENT_FORM)
+	body_data  45,  474, SERPENTINE,   YELLOW ; PLACETHM (PLACETHM_THREE_SEGMENT_FORM)
 
 	assert_table_length NUM_EXT_POKEMON

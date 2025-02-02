@@ -191,10 +191,10 @@ StackDexGraphics:
 	ld c, $40
 	call Get2bpp
 
-	; (partial) unown font
-	ld de, FontUnown
+	; (partial) hina font
+	ld de, FontHina
 	ld hl, vTiles4
-	lb bc, BANK(FontUnown), $20
+	lb bc, BANK(FontHina), $20
 	call Get1bpp
 
 	; dluize oam

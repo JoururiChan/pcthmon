@@ -18,11 +18,11 @@ EcruteakMart_MapScriptHeader:
 
 EcruteakMartSuperNerdText:
 	text "My TLyrica evolved"
-	line "into an Espeon."
+	line "into an SShizuha."
 
 	para "But my friend's"
 	line "TLyrica turned into"
-	cont "an Umbreon."
+	cont "an CMinoriko."
 
 	para "I wonder why? We"
 	line "both were raising"

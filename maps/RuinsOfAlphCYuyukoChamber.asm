@@ -62,7 +62,7 @@ RuinsofAlphOmanyteChamberWallOpenScript:
 MapRuinsofAlphOmanyteChamberSignpost2Script:
 	reanchormap
 	setval $0
-	special Special_UnownPuzzle
+	special Special_HinaPuzzle
 	closetext
 	iftruefwd .PuzzleComplete
 	end
@@ -70,7 +70,7 @@ MapRuinsofAlphOmanyteChamberSignpost2Script:
 .PuzzleComplete:
 	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
 	setevent EVENT_SOLVED_CYUYUKO_PUZZLE
-	setflag ENGINE_UNLOCKED_UNOWNS_A_TO_J
+	setflag ENGINE_UNLOCKED_HINAS_A_TO_J
 	setevent EVENT_RUINS_OF_ALPH_CYUYUKO_CHAMBER_RECEPTIONIST
 	setmapscene RUINS_OF_ALPH_INNER_CHAMBER, $1
 	earthquake 30
@@ -88,8 +88,8 @@ MapRuinsofAlphOmanyteChamberSignpost2Script:
 	end
 
 RuinsOfAlphOmanyteChamberScientistScript:
-	readvar VAR_UNOWNCOUNT
-	ifequalfwd NUM_UNOWN, .AllUnownCaught
+	readvar VAR_HINACOUNT
+	ifequalfwd NUM_HINA, .AllHinaCaught
 	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
 	iftrue_jumptextfaceplayer RuinsOfAlphOmanyteChamberScientistHoleText
 	faceplayer
@@ -105,12 +105,12 @@ RuinsOfAlphOmanyteChamberScientistScript:
 	turnobject LAST_TALKED, UP
 	end
 
-.AllUnownCaught:
-	jumptextfaceplayer RuinsOfAlphResearchCenterScientist1Text_GotAllUnown
+.AllHinaCaught:
+	jumptextfaceplayer RuinsOfAlphResearchCenterScientist1Text_GotAllHina
 
 MapRuinsofAlphOmanyteChamberSignpost3Script:
 	opentext
-	unowntypeface
+	hinatypeface
 	writetext RuinsOfAlphOmanyteChamberDescriptionText
 	waitbutton
 	closetext
@@ -125,13 +125,13 @@ MapRuinsofAlphOmanyteChamberSignpost4Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
 	iftruefwd .unsolved
-	writetext RuinsOfAlphChambersItsUnownText
-	sjumpfwd .unownwords
+	writetext RuinsOfAlphChambersItsHinaText
+	sjumpfwd .hinawords
 .unsolved
 	writetext RuinsOfAlphAerodactylChamberWallPatternLeftText
-.unownwords
+.hinawords
 	setval $0
-	special Special_DisplayUnownWords
+	special Special_DisplayHinaWords
 	endtext
 
 RuinsOfAlphOmanyteChamberReceptionistText:

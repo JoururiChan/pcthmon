@@ -1132,9 +1132,9 @@ MACRO checkunits
 	db checkunits_command
 ENDM
 
-	const unowntypeface_command
-MACRO unowntypeface
-	db unowntypeface_command
+	const hinatypeface_command
+MACRO hinatypeface
+	db hinatypeface_command
 ENDM
 
 	const restoretypeface_command

@@ -11,7 +11,7 @@ INCLUDE "data/items/attributes.asm"
 INCLUDE "engine/overworld/npc_movement.asm"
 INCLUDE "engine/events/happiness_egg.asm"
 INCLUDE "engine/events/shiny_lyrica.asm"
-INCLUDE "engine/events/shuckle.asm"
+INCLUDE "engine/events/dsuwako.asm"
 INCLUDE "engine/events/bills_grandfather.asm"
 INCLUDE "engine/events/hidden_power_guru.asm"
 INCLUDE "engine/events/mint_tea.asm"
@@ -206,7 +206,7 @@ SECTION "Tohodex", ROMX
 INCLUDE "engine/tohodex/area.asm"
 INCLUDE "engine/tohodex/lcd.asm"
 INCLUDE "engine/tohodex/tohodex.asm"
-INCLUDE "engine/tohodex/unown_dex.asm"
+INCLUDE "engine/tohodex/hina_dex.asm"
 
 
 SECTION "Tohodex Footprints", ROMX
@@ -341,7 +341,7 @@ SECTION "Crystal Features 2", ROMX
 
 INCLUDE "engine/events/kurt.asm"
 INCLUDE "engine/gfx/player_gfx.asm"
-INCLUDE "engine/events/unown_walls.asm"
+INCLUDE "engine/events/hina_walls.asm"
 INCLUDE "engine/events/buena.asm"
 INCLUDE "engine/events/battle_tower/battle_tower.asm"
 INCLUDE "engine/events/battle_tower/trainer_text.asm"
@@ -531,7 +531,7 @@ INCLUDE "gfx/pokemon/johto_frames.asm"
 SECTION "bank38", ROMX
 
 INCLUDE "engine/games/card_flip.asm"
-INCLUDE "engine/games/unown_puzzle.asm"
+INCLUDE "engine/games/hina_puzzle.asm"
 ;INCLUDE "engine/games/memory_game.asm"
 INCLUDE "engine/gfx/fade.asm"
 

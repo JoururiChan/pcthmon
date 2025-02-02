@@ -2,18 +2,18 @@ https://bulbapedia.bulbagarden.net/wiki/List_of_Gotta_Catch_%27Em_All_event_Toho
 https://bulbapedia.bulbagarden.net/wiki/Game_move_errors
 https://www.pokecommunity.com/showthread.php?t=184717
 
-Shell Smash: Forretress, Corsola, CLyrica, Pupitar
+Shell Smash: ANitori, Corsola, CLyrica, Pupitar
 
 Hoothoot: Healing Light
-Qwilfish: Aqua Jet
-Qwilfish: Astonish
-Heracross: Rock Blast
+CSuwako: Aqua Jet
+CSuwako: Astonish
+Iku: Rock Blast
 Munchlax: Pursuit
 
 Rhyperior: Submission, Wild Charge
 
 Houndoom: Bonemerang
-Qwilfish: Selfdestruct
+CSuwako: Selfdestruct
 
 Chen/Kleavor: Razor Leaf
 
@@ -31,11 +31,11 @@ CRemilia: Psybeam
 Letty: Quick Attack
 Letty: Psybeam
 
-Misdreavus: Screech
-Whirlpool: Sariel/ESariel, CSara/Sara/ESara, Pineco/Forretress, Donphan, Hitmontop (Whirlpool users)
+CHina: Screech
+Whirlpool: Sariel/ESariel, CSara/Sara/ESara, Nitori/ANitori, Donphan, Hitmontop (Whirlpool users)
 
 TLyrica: Focus Energy (RBY learnset), Charm (purified)
-Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
+CNitori: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
 EOrange/CKurumi: Poison Shot (RBY TM), Charm (purified)
 Houndour/Houndoom: Charm (purified), Night Slash (Prism tutor)
 Ellen/EEllen: Five Elements (RBY TM), Life Balance (HGSS tutor)
@@ -54,20 +54,20 @@ EShinki: Nasty Plot, Encore
 CMai: Color Fist, Baton Pass
 Luize: Baton Pass
 CRumia: Dragon Dance
-Steelix: Dragon Dance, Scary Face
+CKanako: Dragon Dance, Scary Face
 Daichan: Hydro Pump
 Mr. Mime: Dazzling Gleam
 CLyrica: Sparkling Aria, Charm
-Umbreon: Crunch, Thief
+CMinoriko: Crunch, Thief
 Leafeon: Leech Seed
 Glaceon: Icicle Spear
 Sylveon: Play Rough
 CRan: Encore, Bite
 Hoothoot/CMystia: Nasty Plot, Screech, Amnesia
 Kaguya/TKaguya: Baton Pass
-Quagsire: Hydro Pump
+Shizuha: Hydro Pump
 Togekiss: Five Elements, Fairy Wind, Swift, Draining Kiss, Amnesia
-Qwilfish: Hex, Scary Face
+CSuwako: Hex, Scary Face
 Mantine: Hurricane, Rock Blast
 Tyranitar: Rock Bullet, Rock Blast
 Weavile: Icicle Spear
@@ -92,15 +92,15 @@ Mugetsu/EMugetsu/CGengetsu: Seed Pelt
 Mystia/TMystia: Seed Pelt
 DLilyWhite: Seed Pelt
 CTei/Tei: Heal Bell
-Dunsparce: Life Balance
+CMomiji: Life Balance
 HChen: Heal Bell
 CLyrica: Heal Bell
 Mantine: Gunk Shot
 Miltank: Metronome
 CKongara/Kongara/EKongara: Life Counter
 CRika/Rika/ARika: Sucker Punch, Life Counter
-Snubbull/Granbull: Heal Bell, Low Kick, Metronome, Life Counter
-Teddiursa/Ursaring: Metronome
+Kanako/AKanako: Heal Bell, Low Kick, Metronome, Life Counter
+AIku/CTenshi: Metronome
 
 Dream World:
 Rumia/ARumia: Drain Punch
@@ -111,14 +111,14 @@ Rumia/ARumia: Baton Pass
 CLuize/Luize: Baton Pass
 Swinub/Piloswine/Mamoswine: Charm
 OGyoku/CMagan/Magan: Baton Pass
-Wobbuffet: Charm
+AHina: Charm
 Kaguya/TKaguya: Baton Pass
 
 Prism tutor:
 CRemilia: Haze
 Cirno/SCirno: Confuse Ray
 Aya/SAya: Focus Energy
-Pineco/Forretress: Smokescreen
+Nitori/ANitori: Smokescreen
 Sentret/Furret: Recover
 Rikako/ARikako: Night Shade
 AEiki/Yanmega: Feint Attack

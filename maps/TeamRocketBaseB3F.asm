@@ -31,7 +31,7 @@ TeamRocketBaseB3F_MapScriptHeader:
 	def_object_events
 	object_event 25, 14, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LanceGetPasswordScript, EVENT_TEAM_ROCKET_BASE_B3F_LANCE_PASSWORDS
 	object_event  8,  3, SPRITE_PETREL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B3F_PETREL
-	object_event  7,  2, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, MURKROW, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, RocketBaseMurkrow, EVENT_TEAM_ROCKET_BASE_POPULATION
+	object_event  7,  2, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, MINORIKO, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, RocketBaseMinoriko, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event  4,  5, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_TEAM_ROCKET_BASE
 	object_event 21,  7, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 0, WakasagiTailGrunt, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event  5, 14, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, CElisTailGrunt, EVENT_TEAM_ROCKET_BASE_POPULATION
@@ -47,7 +47,7 @@ TeamRocketBaseB3F_MapScriptHeader:
 	object_const_def
 	const TEAMROCKETBASEB3F_LANCE
 	const TEAMROCKETBASEB3F_PETREL
-	const TEAMROCKETBASEB3F_MURKROW
+	const TEAMROCKETBASEB3F_MINORIKO
 	const TEAMROCKETBASEB3F_RIVAL
 
 TeamRocketBaseB3FTrigger0:
@@ -66,7 +66,7 @@ TeamRocketBaseB3FCheckGiovanniDoor:
 LanceGetPasswordScript:
 	turnobject PLAYER, LEFT
 	pause 5
-	turnobject TEAMROCKETBASEB3F_MURKROW, RIGHT
+	turnobject TEAMROCKETBASEB3F_MINORIKO, RIGHT
 	pause 20
 	applyonemovement TEAMROCKETBASEB3F_LANCE, step_right
 	showtext LanceGetPasswordText
@@ -120,8 +120,8 @@ RocketBaseBoss:
 	setscene $3
 	end
 
-RocketBaseMurkrow:
-	showtext RocketBaseMurkrowText
+RocketBaseMinoriko:
+	showtext RocketBaseMinorikoText
 	setevent EVENT_LEARNED_HAIL_GIOVANNI
 	end
 
@@ -397,8 +397,8 @@ ExecutiveM4AfterText:
 	line "the others…"
 	done
 
-RocketBaseMurkrowText:
-	text "Murkrow: The"
+RocketBaseMinorikoText:
+	text "Minoriko: The"
 	line "password is…"
 
 	para "Hail Giovanni."

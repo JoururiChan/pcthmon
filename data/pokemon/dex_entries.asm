@@ -1611,95 +1611,95 @@ SAyaTohodexEntry::
 SECTION "CMedicineTohodexEntry", ROMX
 CMedicineTohodexEntry::
 	db "Doll@"
-	db   "If a tree branch"
-	next "shakes when there"
-	next "is no wind, it's a"
-	page "CMedicine, not a"
-	next "tree. It hides"
-	next "from the rain.@"
+	db   "It is so strong of"
+	next "a doll Alice #mon"
+	next "can't command it."
+	page "It has a fully in-"
+	next "dependent mind with"
+	next "it's own powers.@"
 
 SECTION "MedicineTohodexEntry", ROMX
 MedicineTohodexEntry::
 	db "Poison@"
-	db   "When it expands"
-	next "its throat to"
-	next "croak out a tune,"
-	page "nearby Kurumi and"
-	next "Kurumi gather"
-	next "immediately.@"
+	db   "It is accompanied"
+	next "by a very tiny C-"
+	next "Medicine #mon,"
+	page "often thought to"
+	next "be produced by"
+	next "Medicine's poison.@"
 
 SECTION "AMedicineTohodexEntry", ROMX
 AMedicineTohodexEntry::
 	db "Poison@"
-	db   "It can be carried"
-	next "away on even the"
-	next "gentlest breeze."
-	page "It may even float"
-	next "all the way to the"
-	next "next town.@"
+	db   "It can be found in"
+	next "very plentiful bo-"
+	next "uts of flowers."
+	page "The first sign of it"
+	next "is the moment poison"
+	next "is smelled.@"
 
 SECTION "CKomachiTohodexEntry", ROMX
 CKomachiTohodexEntry::
-	db "Cottonweed@"
-	db   "As soon as it"
-	next "rains, it closes"
-	next "its flower and"
-	page "hides in the shade"
-	next "of a tree to avoid"
-	next "getting wet.@"
+	db "Reaper@"
+	db   "It is a subordinate"
+	next "to Eiki #mon. Des-"
+	next "pite this, they are"
+	page "not very attentive"
+	next "and often neglect"
+	next "their commands.@"
 
 SECTION "KomachiTohodexEntry", ROMX
 KomachiTohodexEntry::
-	db "Cottonweed@"
-	db   "Even in the fierc-"
-	next "est wind, it can"
-	next "control its fluff"
-	page "to make its way to"
-	next "any place in the"
-	next "world it wants.@"
+	db "Subordinate@"
+	db   "It is under the"
+	next "command of Eiki"
+	next "#mon alongside"
+	page "Kutaka #mon, al-"
+	next "though it is the"
+	next "lazier servant.@"
 
 SECTION "AKomachiTohodexEntry", ROMX
 AKomachiTohodexEntry::
-	db "Long Tail@"
-	db   "It uses its tail"
-	next "to hang on to tree"
-	next "branches. It uses"
-	page "its momentum to"
-	next "swing from one"
-	next "branch to another.@"
+	db "Ferry@"
+	db   "It is able to ferry"
+	next "across the souls of"
+	next "#mon and Trainers."
+	page "It is also known to"
+	next "ferry live ones a-"
+	next "round the map.@"
 
 SECTION "CEikiTohodexEntry", ROMX
 CEikiTohodexEntry::
-	db "Seed@"
-	db   "It is very weak."
-	next "Its only means of"
-	next "defense is to"
-	page "shake its leaves"
-	next "desperately at its"
-	next "attacker.@"
+	db "Yama@"
+	db   "Despite how small it"
+	next "is, it is actually"
+	next "on the more power-"
+	page "ful side, it's str-"
+	next "ength matching some"
+	next "evolved #mon.@"
 
 SECTION "EikiTohodexEntry", ROMX
 EikiTohodexEntry::
-	db "Sun@"
-	db   "As the hot season"
-	next "approaches, the"
-	next "petals on this"
-	page "#mon's face"
-	next "become more vivid"
-	next "and lively.@"
+	db "Judgment@"
+	db   "It is followed by"
+	next "#mon and Trainers"
+	next "alike due to it's"
+	page "capability to tell"
+	next "apart good and evil"
+	next "with others.@"
 
 SECTION "AEikiTohodexEntry", ROMX
 AEikiTohodexEntry::
-	db "Clear Wing@"
-	db   "It can see in all"
-	next "directions without"
-	next "moving its big"
-	page "eyes, helping it"
-	next "spot attackers and"
-	next "food right away.@"
+	db "Judgment@"
+	db   "It is the appointed"
+	next "duty of this #mon"
+	next "to judge where other"
+	page "#mon and Trainers go"
+	next "once their souls h-"
+	next "ave departed.@"
 
-SECTION "WooperTohodexEntry", ROMX
-WooperTohodexEntry::
+SECTION "CShizuhaTohodexEntry", ROMX
+CShizuhaTohodexEntry::
 	db "Water Fish@"
 	db   "A mucous"
 	next "membrane covers"
@@ -1708,8 +1708,8 @@ WooperTohodexEntry::
 	next "cause a shooting"
 	next "pain.@"
 
-SECTION "QuagsireTohodexEntry", ROMX
-QuagsireTohodexEntry::
+SECTION "ShizuhaTohodexEntry", ROMX
+ShizuhaTohodexEntry::
 	db "Water Fish@"
 	db   "Its body is always"
 	next "slimy. It often"
@@ -1718,8 +1718,8 @@ QuagsireTohodexEntry::
 	next "as it swims but"
 	next "seems not to care.@"
 
-SECTION "EspeonTohodexEntry", ROMX
-EspeonTohodexEntry::
+SECTION "SShizuhaTohodexEntry", ROMX
+SShizuhaTohodexEntry::
 	db "Sun@"
 	db   "The tip of its"
 	next "forked tail"
@@ -1728,8 +1728,8 @@ EspeonTohodexEntry::
 	next "opponent's next"
 	next "move.@"
 
-SECTION "UmbreonTohodexEntry", ROMX
-UmbreonTohodexEntry::
+SECTION "CMinorikoTohodexEntry", ROMX
+CMinorikoTohodexEntry::
 	db "Moonlight@"
 	db   "On the night of a"
 	next "full moon, or when"
@@ -1738,18 +1738,18 @@ UmbreonTohodexEntry::
 	next "on its body glow"
 	next "yellow.@"
 
-SECTION "MurkrowTohodexEntry", ROMX
-MurkrowTohodexEntry::
+SECTION "MinorikoTohodexEntry", ROMX
+MinorikoTohodexEntry::
 	db "Darkness@"
 	db   "It hides any shiny"
 	next "object it finds in"
 	next "a secret location."
-	page "Murkrow and"
+	page "Minoriko and"
 	next "Chiyuri loot one"
 	next "another's stashes.@"
 
-SECTION "SlowkingTohodexEntry", ROMX
-SlowkingTohodexEntry::
+SECTION "HMinorikoTohodexEntry", ROMX
+HMinorikoTohodexEntry::
 	db "Royal@"
 	db   "Every time it ya-"
 	next "wns, Yumeko"
@@ -1758,8 +1758,8 @@ SlowkingTohodexEntry::
 	next "poison makes it"
 	next "more intelligent.@"
 
-SECTION "MisdreavusTohodexEntry", ROMX
-MisdreavusTohodexEntry::
+SECTION "CHinaTohodexEntry", ROMX
+CHinaTohodexEntry::
 	db "Screech@"
 	db   "It loves to watch"
 	next "people it's scared."
@@ -1768,18 +1768,18 @@ MisdreavusTohodexEntry::
 	next "ly or appearing"
 	next "suddenly.@"
 
-SECTION "UnownTohodexEntry", ROMX
-UnownTohodexEntry::
+SECTION "HinaTohodexEntry", ROMX
+HinaTohodexEntry::
 	db "Symbol@"
 	db   "Because different"
-	next "types of Unown"
+	next "types of Hina"
 	next "exist, it is said"
 	page "that they must"
 	next "have a variety of"
 	next "abilities.@"
 
-SECTION "WobbuffetTohodexEntry", ROMX
-WobbuffetTohodexEntry::
+SECTION "AHinaTohodexEntry", ROMX
+AHinaTohodexEntry::
 	db "Patient@"
 	db   "In order to"
 	next "conceal its black"
@@ -1788,8 +1788,8 @@ WobbuffetTohodexEntry::
 	next "only moves about"
 	next "at night.@"
 
-SECTION "GirafarigTohodexEntry", ROMX
-GirafarigTohodexEntry::
+SECTION "CNitoriTohodexEntry", ROMX
+CNitoriTohodexEntry::
 	db "Long Neck@"
 	db   "When it is in"
 	next "danger, its tail"
@@ -1798,8 +1798,8 @@ GirafarigTohodexEntry::
 	next "to drive away the"
 	next "enemy.@"
 
-SECTION "PinecoTohodexEntry", ROMX
-PinecoTohodexEntry::
+SECTION "NitoriTohodexEntry", ROMX
+NitoriTohodexEntry::
 	db "Bagworm@"
 	db   "It spits out a"
 	next "fluid that it uses"
@@ -1808,8 +1808,8 @@ PinecoTohodexEntry::
 	next "fluid hardens when"
 	next "it touches air.@"
 
-SECTION "ForretressTohodexEntry", ROMX
-ForretressTohodexEntry::
+SECTION "ANitoriTohodexEntry", ROMX
+ANitoriTohodexEntry::
 	db "Bagworm@"
 	db   "Usually found"
 	next "hanging on to a"
@@ -1818,8 +1818,8 @@ ForretressTohodexEntry::
 	next "its shell when it"
 	next "sees action.@"
 
-SECTION "DunsparceTohodexEntry", ROMX
-DunsparceTohodexEntry::
+SECTION "CMomijiTohodexEntry", ROMX
+CMomijiTohodexEntry::
 	db "Land Snake@"
 	db   "It hides deep"
 	next "inside caves where"
@@ -1828,8 +1828,8 @@ DunsparceTohodexEntry::
 	next "remains virtually"
 	next "motionless there.@"
 
-SECTION "GligarTohodexEntry", ROMX
-GligarTohodexEntry::
+SECTION "MomijiTohodexEntry", ROMX
+MomijiTohodexEntry::
 	db "FlyScorpion@"
 	db   "It builds its nest"
 	next "on a steep cliff."
@@ -1838,8 +1838,8 @@ GligarTohodexEntry::
 	next "along the ground"
 	next "back to its nest.@"
 
-SECTION "SteelixTohodexEntry", ROMX
-SteelixTohodexEntry::
+SECTION "CKanakoTohodexEntry", ROMX
+CKanakoTohodexEntry::
 	db "Iron Snake@"
 	db   "The many small"
 	next "metal particles"
@@ -1848,8 +1848,8 @@ SteelixTohodexEntry::
 	next "reflect bright"
 	next "light well.@"
 
-SECTION "SnubbullTohodexEntry", ROMX
-SnubbullTohodexEntry::
+SECTION "KanakoTohodexEntry", ROMX
+KanakoTohodexEntry::
 	db "Fairy@"
 	db   "In truth, it is a"
 	next "cowardly #mon."
@@ -1858,8 +1858,8 @@ SnubbullTohodexEntry::
 	next "its fear from its"
 	next "opponent.@"
 
-SECTION "GranbullTohodexEntry", ROMX
-GranbullTohodexEntry::
+SECTION "AKanakoTohodexEntry", ROMX
+AKanakoTohodexEntry::
 	db "Fairy@"
 	db   "It can make most"
 	next "any #mon run"
@@ -1868,8 +1868,8 @@ GranbullTohodexEntry::
 	next "wide to reveal its"
 	next "big fangs.@"
 
-SECTION "QwilfishTohodexEntry", ROMX
-QwilfishTohodexEntry::
+SECTION "CSuwakoTohodexEntry", ROMX
+CSuwakoTohodexEntry::
 	db "Balloon@"
 	db   "When faced with a"
 	next "larger opponent,"
@@ -1878,8 +1878,8 @@ QwilfishTohodexEntry::
 	next "can to match the"
 	next "opponent's size.@"
 
-SECTION "ScizorTohodexEntry", ROMX
-ScizorTohodexEntry::
+SECTION "SuwakoTohodexEntry", ROMX
+SuwakoTohodexEntry::
 	db "Scissors@"
 	db   "This #mon's"
 	next "pincers, which"
@@ -1888,8 +1888,8 @@ ScizorTohodexEntry::
 	next "object it gets a"
 	next "hold of into bits.@"
 
-SECTION "ShuckleTohodexEntry", ROMX
-ShuckleTohodexEntry::
+SECTION "DSuwakoTohodexEntry", ROMX
+DSuwakoTohodexEntry::
 	db "Mold@"
 	db   "The fluid secreted"
 	next "by its toes carves"
@@ -1898,8 +1898,8 @@ ShuckleTohodexEntry::
 	next "mixed with Berries"
 	next "to make a drink.@"
 
-SECTION "HeracrossTohodexEntry", ROMX
-HeracrossTohodexEntry::
+SECTION "CIkuTohodexEntry", ROMX
+CIkuTohodexEntry::
 	db "Single Horn@"
 	db   "With its Herculean"
 	next "powers, it can"
@@ -1908,8 +1908,8 @@ HeracrossTohodexEntry::
 	next "is 100 times its"
 	next "own cost.@"
 
-SECTION "SneaselTohodexEntry", ROMX
-SneaselTohodexEntry::
+SECTION "IkuTohodexEntry", ROMX
+IkuTohodexEntry::
 	db "Sharp Claw@"
 	db   "This cunning"
 	next "#mon hides"
@@ -1918,8 +1918,8 @@ SneaselTohodexEntry::
 	next "waiting to attack"
 	next "its prey.@"
 
-SECTION "TeddiursaTohodexEntry", ROMX
-TeddiursaTohodexEntry::
+SECTION "AIkuTohodexEntry", ROMX
+AIkuTohodexEntry::
 	db "Little Bear@"
 	db   "It always licks"
 	next "honey. Its palm"
@@ -1928,8 +1928,8 @@ TeddiursaTohodexEntry::
 	next "honey it has"
 	next "absorbed.@"
 
-SECTION "UrsaringTohodexEntry", ROMX
-UrsaringTohodexEntry::
+SECTION "CTenshiTohodexEntry", ROMX
+CTenshiTohodexEntry::
 	db "Hibernator@"
 	db   "Although it has a"
 	next "large body, it is"
@@ -1938,8 +1938,8 @@ UrsaringTohodexEntry::
 	next "eats and sleeps in"
 	next "the treetops.@"
 
-SECTION "SlugmaTohodexEntry", ROMX
-SlugmaTohodexEntry::
+SECTION "TenshiTohodexEntry", ROMX
+TenshiTohodexEntry::
 	db "Lava@"
 	db   "These group"
 	next "together in areas"
@@ -1948,8 +1948,8 @@ SlugmaTohodexEntry::
 	next "cools off, its"
 	next "skin hardens.@"
 
-SECTION "MagcargoTohodexEntry", ROMX
-MagcargoTohodexEntry::
+SECTION "STenshiTohodexEntry", ROMX
+STenshiTohodexEntry::
 	db "Lava@"
 	db   "Its body is as hot"
 	next "as lava and is"
@@ -2325,7 +2325,7 @@ HonchkrowTohodexEntry::
 	next "nature. It is said"
 	next "that it never for-"
 	page "gives the mistakes"
-	next "of its Murkrow"
+	next "of its Minoriko"
 	next "followers.@"
 
 SECTION "BonslyTohodexEntry", ROMX
@@ -2488,8 +2488,8 @@ GlaceonTohodexEntry::
 	next "the surrounding"
 	next "atmosphere.@"
 
-SECTION "GliscorTohodexEntry", ROMX
-GliscorTohodexEntry::
+SECTION "AMomijiTohodexEntry", ROMX
+AMomijiTohodexEntry::
 	db "FangScorpio@"
 	db   "Its flight is"
 	next "soundless. It uses"
@@ -2617,8 +2617,8 @@ OverqwilTohodexEntry::
 	next "It slurps poison"
 	next "to nourish itself.@"
 
-SECTION "DudunsparceTohodexEntry", ROMX
-DudunsparceTohodexEntry::
+SECTION "DucmomijiTohodexEntry", ROMX
+DucmomijiTohodexEntry::
 	db "Land Snake@"
 	db   "It makes its nest"
 	next "with its hard tail"

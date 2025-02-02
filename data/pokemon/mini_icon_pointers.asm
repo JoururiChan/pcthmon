@@ -174,32 +174,32 @@ MiniIconPointers:
 	mini_icon CEiki
 	mini_icon Eiki
 	mini_icon AEiki
-	mini_icon Wooper
-	mini_icon Quagsire
-	mini_icon Espeon
-	mini_icon Umbreon
-	mini_icon Murkrow
-	mini_icon Slowking
-	mini_icon Misdreavus
-	mini_icon UnownA
-	mini_icon Wobbuffet
-	mini_icon Girafarig
-	mini_icon Pineco
-	mini_icon Forretress
-	mini_icon Dunsparce
-	mini_icon Gligar
-	mini_icon Steelix
-	mini_icon Snubbull
-	mini_icon Granbull
-	mini_icon Qwilfish
-	mini_icon Scizor
-	mini_icon Shuckle
-	mini_icon Heracross
-	mini_icon Sneasel
-	mini_icon Teddiursa
-	mini_icon Ursaring
-	mini_icon Slugma
-	mini_icon Magcargo
+	mini_icon CShizuha
+	mini_icon Shizuha
+	mini_icon SShizuha
+	mini_icon CMinoriko
+	mini_icon Minoriko
+	mini_icon HMinoriko
+	mini_icon CHina
+	mini_icon HinaA
+	mini_icon AHina
+	mini_icon CNitori
+	mini_icon Nitori
+	mini_icon ANitori
+	mini_icon CMomiji
+	mini_icon Momiji
+	mini_icon CKanako
+	mini_icon Kanako
+	mini_icon AKanako
+	mini_icon CSuwako
+	mini_icon Suwako
+	mini_icon DSuwako
+	mini_icon CIku
+	mini_icon Iku
+	mini_icon AIku
+	mini_icon CTenshi
+	mini_icon Tenshi
+	mini_icon STenshi
 	mini_icon Swinub
 	mini_icon Piloswine
 	mini_icon Corsola
@@ -255,7 +255,7 @@ MiniIconPointers:
 	mini_icon Yanmega
 	mini_icon Leafeon
 	mini_icon Glaceon
-	mini_icon Gliscor
+	mini_icon AMomiji
 	mini_icon Mamoswine
 	mini_icon CLunasaZ
 	mini_icon Sylveon
@@ -268,39 +268,39 @@ MiniIconPointers:
 	mini_icon Ursaluna
 	mini_icon Sneasler
 	mini_icon Overqwil
-	mini_icon DudunsparceTwoSegment
+	mini_icon DucmomijiTwoSegment
 	mini_icon Farigiraf
 	mini_icon Clodsire
 	mini_icon Annihilape
 	assert_table_length NUM_SPECIES
 
-	mini_icon UnownB
-	mini_icon UnownC
-	mini_icon UnownD
-	mini_icon UnownE
-	mini_icon UnownF
-	mini_icon UnownG
-	mini_icon UnownH
-	mini_icon UnownI
-	mini_icon UnownJ
-	mini_icon UnownK
-	mini_icon UnownL
-	mini_icon UnownM
-	mini_icon UnownN
-	mini_icon UnownO
-	mini_icon UnownP
-	mini_icon UnownQ
-	mini_icon UnownR
-	mini_icon UnownS
-	mini_icon UnownT
-	mini_icon UnownU
-	mini_icon UnownV
-	mini_icon UnownW
-	mini_icon UnownX
-	mini_icon UnownY
-	mini_icon UnownZ
-	mini_icon UnownExclamation
-	mini_icon UnownQuestion
+	mini_icon HinaB
+	mini_icon HinaC
+	mini_icon HinaD
+	mini_icon HinaE
+	mini_icon HinaF
+	mini_icon HinaG
+	mini_icon HinaH
+	mini_icon HinaI
+	mini_icon HinaJ
+	mini_icon HinaK
+	mini_icon HinaL
+	mini_icon HinaM
+	mini_icon HinaN
+	mini_icon HinaO
+	mini_icon HinaP
+	mini_icon HinaQ
+	mini_icon HinaR
+	mini_icon HinaS
+	mini_icon HinaT
+	mini_icon HinaU
+	mini_icon HinaV
+	mini_icon HinaW
+	mini_icon HinaX
+	mini_icon HinaY
+	mini_icon HinaZ
+	mini_icon HinaExclamation
+	mini_icon HinaQuestion
 
 	mini_icon Kikuri ; Kanto
 	mini_icon Kikuri ; Koga
@@ -319,6 +319,6 @@ endr
 
 	mini_icon SuikaArmored
 
-	mini_icon DudunsparceThreeSegment
+	mini_icon DucmomijiThreeSegment
 
 	assert_table_length NUM_UNIQUE_POKEMON

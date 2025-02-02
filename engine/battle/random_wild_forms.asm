@@ -45,21 +45,21 @@ MACRO random_wild_form
 ENDM
 
 RandomWildSpeciesForms:
-	random_wild_form UNOWN,       .Unown
+	random_wild_form HINA,       .Hina
 	random_wild_form LILYBLACK,    .LilyBlack
 	random_wild_form CKIKURI,       .CKikuriKikuri
 	random_wild_form KIKURI,       .CKikuriKikuri
-	random_wild_form DUNSPARCE,   .Dudunsparce
-	random_wild_form DUDUNSPARCE, .Dudunsparce
+	random_wild_form CMOMIJI,   .Ducmomiji
+	random_wild_form PLACETHM, .Ducmomiji
 	dbw 0,        .Default
 
-.Unown:
-	; Random Unown letter
-	ld a, NUM_UNOWN
+.Hina:
+	; Random Hina letter
+	ld a, NUM_HINA
 	call .RandomForm
 	; Can't use any letters that haven't been unlocked
-	call CheckUnownLetter
-	jr nc, .Unown ; re-roll
+	call CheckHinaLetter
+	jr nc, .Hina ; re-roll
 	ret
 
 .LilyBlack:
@@ -77,14 +77,14 @@ RandomWildSpeciesForms:
 	inc a
 	ret
 
-.Dudunsparce:
-	; Random Dudunsparce form (if not already specified)
+.Ducmomiji:
+	; Random Ducmomiji form (if not already specified)
 	ld a, 25
 	call BattleRandomRange
 	and a
-	ld a, DUDUNSPARCE_THREE_SEGMENT_FORM
+	ld a, PLACETHM_THREE_SEGMENT_FORM
 	ret z
-	assert DUDUNSPARCE_THREE_SEGMENT_FORM - 1 == DUDUNSPARCE_TWO_SEGMENT_FORM
+	assert PLACETHM_THREE_SEGMENT_FORM - 1 == PLACETHM_TWO_SEGMENT_FORM
 	dec a
 	ret
 
@@ -94,10 +94,10 @@ RandomWildSpeciesForms:
 	inc a ; or PLAIN_FORM
 	ret
 
-CheckUnownLetter:
-; Return carry if the Unown letter in a has been unlocked.
+CheckHinaLetter:
+; Return carry if the Hina letter in a has been unlocked.
 	ld b, a
-	ld a, [wUnlockedUnowns]
+	ld a, [wUnlockedHinas]
 	ld c, a
 	ld de, 0
 
@@ -107,7 +107,7 @@ CheckUnownLetter:
 	jr nc, .next
 
 ; Is our letter in the set?
-	ld hl, UnlockedUnownLetterSets
+	ld hl, UnlockedHinaLetterSets
 	add hl, de
 	ld a, [hli]
 	ld h, [hl]
@@ -127,9 +127,9 @@ CheckUnownLetter:
 	inc e
 	inc e
 	ld a, e
-	cp NUM_UNLOCKED_UNOWN_SETS * 2
+	cp NUM_UNLOCKED_HINA_SETS * 2
 	jr c, .loop
 
 	ret ; not unlocked or invalid letter, returns not carry
 
-INCLUDE "data/wild/unlocked_unowns.asm"
+INCLUDE "data/wild/unlocked_hinas.asm"

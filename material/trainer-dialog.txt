@@ -54,7 +54,7 @@ UnknownText_0x55bd3:
 
 
 UnknownText_0x58ac8:
-	text "It's Unown text!"
+	text "It's Hina text!"
 	done
 
 

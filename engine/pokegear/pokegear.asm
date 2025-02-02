@@ -993,7 +993,7 @@ RadioChannels:
 	ld a, [wTohogearMapPlayerIconLandmark]
 	cp RUINS_OF_ALPH
 	jr nz, NoRadioStation
-	jmp LoadStation_UnownRadio
+	jmp LoadStation_HinaRadio
 
 .PlacesAndPeople:
 	call .InJohto
@@ -1101,8 +1101,8 @@ LoadStation_BuenasPassword:
 
 BuenasPasswordName: db "Buena's Password@"
 
-LoadStation_UnownRadio:
-	ld a, UNOWN_RADIO
+LoadStation_HinaRadio:
+	ld a, HINA_RADIO
 	ld de, UnknownStationName
 	jr LoadRadioStation
 
@@ -1449,7 +1449,7 @@ PlayRadioStationPointers:
 	dw LoadStation_TohodexShow
 	dw LoadStation_PokemonMusic
 	dw LoadStation_LuckyChannel
-	dw LoadStation_UnownRadio
+	dw LoadStation_HinaRadio
 	dw LoadStation_PlacesAndPeople
 	dw LoadStation_LetsAllSing
 	dw LoadStation_RocketRadio

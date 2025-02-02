@@ -2,30 +2,30 @@
 
 	def_water_wildmons RUINS_OF_ALPH_OUTSIDE
 	db 2 percent ; encounter rate
-	wildmon 15, WOOPER
-	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, CSHIZUHA
+	wildmon 20, SHIZUHA
+	wildmon 15, SHIZUHA
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_1F
 	db 2 percent ; encounter rate
-	wildmon 15, WOOPER
-	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, CSHIZUHA
+	wildmon 20, SHIZUHA
+	wildmon 15, SHIZUHA
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B1F_NORTH
 	db 2 percent ; encounter rate
-	wildmon 15, WOOPER
-	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, CSHIZUHA
+	wildmon 20, SHIZUHA
+	wildmon 15, SHIZUHA
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B1F_SOUTH
 	db 2 percent ; encounter rate
-	wildmon 15, WOOPER
-	wildmon 20, QUAGSIRE
-	wildmon 15, QUAGSIRE
+	wildmon 15, CSHIZUHA
+	wildmon 20, SHIZUHA
+	wildmon 15, SHIZUHA
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B2F
@@ -226,9 +226,9 @@
 
 	def_water_wildmons CLIFF_EDGE_GATE
 	db 2 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 4, WOOPER
-	wildmon LEVEL_FROM_BADGES - 4, WOOPER
-	wildmon LEVEL_FROM_BADGES + 1, QUAGSIRE
+	wildmon LEVEL_FROM_BADGES - 4, CSHIZUHA
+	wildmon LEVEL_FROM_BADGES - 4, CSHIZUHA
+	wildmon LEVEL_FROM_BADGES + 1, SHIZUHA
 	end_water_wildmons
 
 	def_water_wildmons NEW_BARK_TOWN
@@ -380,23 +380,23 @@
 
 	def_water_wildmons MURKY_SWAMP
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, WOOPER
-	wildmon LEVEL_FROM_BADGES + 0, QUAGSIRE
-	wildmon LEVEL_FROM_BADGES + 5, QUAGSIRE
+	wildmon LEVEL_FROM_BADGES - 5, CSHIZUHA
+	wildmon LEVEL_FROM_BADGES + 0, SHIZUHA
+	wildmon LEVEL_FROM_BADGES + 5, SHIZUHA
 	end_water_wildmons
 
 	def_water_wildmons MAGNET_TUNNEL_INSIDE
 	db 6 percent ; encounter rate
-	wildmon LEVEL_FROM_BADGES - 5, WOOPER
-	wildmon LEVEL_FROM_BADGES + 0, QUAGSIRE
-	wildmon LEVEL_FROM_BADGES + 5, QUAGSIRE
+	wildmon LEVEL_FROM_BADGES - 5, CSHIZUHA
+	wildmon LEVEL_FROM_BADGES + 0, SHIZUHA
+	wildmon LEVEL_FROM_BADGES + 5, SHIZUHA
 	end_water_wildmons
 
 	def_water_wildmons RUGGED_ROAD_SOUTH
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES - 5, AFLANDRE
 	wildmon LEVEL_FROM_BADGES + 0, CLETTY
-	wildmon LEVEL_FROM_BADGES + 5, QWILFISH
+	wildmon LEVEL_FROM_BADGES + 5, CSUWAKO
 	end_water_wildmons
 
 	db -1 ; end

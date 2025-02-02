@@ -88,8 +88,8 @@ party - Something with Bubblebeam
 25 (in Shamouti nature reserve house): “Nature is a wonderful thing. We do what we can to protect this island and all that resides here.”
 26 (in Shamouti nature reserve house): “Lots of rare berries grow on Shamouti Island. It's the only place you'll find them in all of Kanto and Johto!”
 
-27 (Sightseer): “In my region, we have a Pokemon that likes to match wits with the local Slowking. The one on this island sounds like a cut above the rest, though!”
-28: As we say on this island; when in doubt, ask Slowking! It's the smartest Pokemon around.”
+27 (Sightseer): “In my region, we have a Pokemon that likes to match wits with the local HMinoriko. The one on this island sounds like a cut above the rest, though!”
+28: As we say on this island; when in doubt, ask HMinoriko! It's the smartest Pokemon around.”
 
 mainland:
 red lass
@@ -103,7 +103,7 @@ brown granny - You must be from out of town. Shamouti Island isn't actually part
 warm beach:
 red teacher
 blue youngster
-slowking
+hminoriko
 
 warm beach house (beach shack):
 blue gramps

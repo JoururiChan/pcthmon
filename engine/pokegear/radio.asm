@@ -31,7 +31,7 @@ RadioJumptable:
 	dw FernMonMusic1 ; $06
 	dw RocketRadio1 ; $07
 	dw PokeFluteRadio ; $08
-	dw UnownRadio ; $09
+	dw HinaRadio ; $09
 	dw EvolutionRadio ; $0a
 	assert_table_length NUM_RADIO_CHANNELS
 ; OaksPkmnTalk
@@ -1412,7 +1412,7 @@ PokeFluteRadio:
 	ld [wNumRadioLinesPrinted], a
 	ret
 
-UnownRadio:
+HinaRadio:
 	call StartRadioStation
 	ld a, 1
 	ld [wNumRadioLinesPrinted], a

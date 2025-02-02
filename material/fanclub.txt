@@ -17,7 +17,7 @@ Condition Fulfilled: Shocking! Now go, trainer, and take this! With it, you may 
 
 Raoh: Hmph. I'll only recognize your strength if you beat Kiyo, the Karate King. I hear he trains even now in the depths of Mt. Mortar, in Johto.
 Condition Fulfilled: Splendid! Now, prepare for battle!
-Team: Heracross, CMugetsu, Luize 
+Team: Iku, CMugetsu, Luize 
 Defeat: To think that you could defeat me, Raoh! 
 After: Truly an amazing battle. You would do well not to squander your strength. Crush all who oppose you with it! 
 

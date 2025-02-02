@@ -39,8 +39,8 @@ def get_pokemon_dimensions(name):
 			return 5, 5
 		if name == 'questionmark':
 			return 7, 7
-		if name.startswith('unown_'):
-			name = 'unown'
+		if name.startswith('hina_'):
+			name = 'hina'
 		base_stats = get_base_stats()
 		start = base_stats.find('\tdb ' + name.upper())
 		start = base_stats.find('\tdn ', start)
@@ -67,10 +67,10 @@ def filepath_rules(filepath):
 
 	if 'gfx/pokemon/' in filedir:
 		pokemon_name = filedir.split('/')[-1]
-		if pokemon_name.startswith('unown_'):
+		if pokemon_name.startswith('hina_'):
 			index = filedir.find(pokemon_name)
 			if index != -1:
-				filedir = filedir[:index + len('unown')] + filedir[index + len('unown_a'):]
+				filedir = filedir[:index + len('hina')] + filedir[index + len('hina_a'):]
 		if name == 'front':
 			args['pal_file'] = os.path.join(filedir, 'normal.pal')
 			args['pic'] = True

@@ -266,7 +266,7 @@ AdjustMonAndMoveIndexesPostBuild4:
 	dw DoNothing ; build4_5
 	
 .build4_0
-	call AdjustShuckleAndTLyricalutionIndexes
+	call AdjustDSuwakoAndTLyricalutionIndexes
 .build4_1
 	call ReplaceMilkDrink
 .build4_2
@@ -286,7 +286,7 @@ AdjustRhyperiorIndex:
 	dh 0xb6, -7 ; RHYPERIOR
 	dh -1
 
-AdjustShuckleAndTLyricalutionIndexes:
+AdjustDSuwakoAndTLyricalutionIndexes:
 	set #r0, .mon_adjust_table
 	call AdjustPokemonIndexes
 
@@ -301,9 +301,9 @@ AdjustShuckleAndTLyricalutionIndexes:
 	jump FlagAction
 
 .mon_adjust_table
-	dh 0xc0, 0   ; UMBREON
+	dh 0xc0, 0   ; CMINORIKO
 	dh 0xc2, 59  ; LEAFEON/GLACEON
-	dh 0xd4, -2  ; SCIZOR
+	dh 0xd4, -2  ; SUWAKO
 	dh 0xe9, -1  ; CLUNASA2
 	dh 0xfb, 0   ; CELEBI
 	dh 0xfc, 2   ; SYLVEON

@@ -170,32 +170,32 @@ AnimationPointers:
 	dw CEikiAnimation
 	dw EikiAnimation
 	dw AEikiAnimation
-	dw WooperAnimation
-	dw QuagsireAnimation
-	dw EspeonAnimation
-	dw UmbreonAnimation
-	dw MurkrowAnimation
-	dw SlowkingAnimation
-	dw MisdreavusAnimation
-	dw UnownAAnimation
-	dw WobbuffetAnimation
-	dw GirafarigAnimation
-	dw PinecoAnimation
-	dw ForretressAnimation
-	dw DunsparceAnimation
-	dw GligarAnimation
-	dw SteelixAnimation
-	dw SnubbullAnimation
-	dw GranbullAnimation
-	dw QwilfishAnimation
-	dw ScizorAnimation
-	dw ShuckleAnimation
-	dw HeracrossAnimation
-	dw SneaselAnimation
-	dw TeddiursaAnimation
-	dw UrsaringAnimation
-	dw SlugmaAnimation
-	dw MagcargoAnimation
+	dw CShizuhaAnimation
+	dw ShizuhaAnimation
+	dw SShizuhaAnimation
+	dw CMinorikoAnimation
+	dw MinorikoAnimation
+	dw HMinorikoAnimation
+	dw CHinaAnimation
+	dw HinaAAnimation
+	dw AHinaAnimation
+	dw CNitoriAnimation
+	dw NitoriAnimation
+	dw ANitoriAnimation
+	dw CMomijiAnimation
+	dw MomijiAnimation
+	dw CKanakoAnimation
+	dw KanakoAnimation
+	dw AKanakoAnimation
+	dw CSuwakoAnimation
+	dw SuwakoAnimation
+	dw DSuwakoAnimation
+	dw CIkuAnimation
+	dw IkuAnimation
+	dw AIkuAnimation
+	dw CTenshiAnimation
+	dw TenshiAnimation
+	dw STenshiAnimation
 	dw SwinubAnimation
 	dw PiloswineAnimation
 	dw CorsolaAnimation
@@ -251,7 +251,7 @@ AnimationPointers:
 	dw YanmegaAnimation
 	dw LeafeonAnimation
 	dw GlaceonAnimation
-	dw GliscorAnimation
+	dw AMomijiAnimation
 	dw MamoswineAnimation
 	dw CLunasaZAnimation
 	dw SylveonAnimation
@@ -264,39 +264,39 @@ AnimationPointers:
 	dw UrsalunaAnimation
 	dw SneaslerAnimation
 	dw OverqwilAnimation
-	dw DudunsparceTwoSegmentAnimation
+	dw DucmomijiTwoSegmentAnimation
 	dw FarigirafAnimation
 	dw ClodsireAnimation
 	dw AnnihilapeAnimation
 	assert_table_length NUM_SPECIES
 
-	dw UnownBAnimation
-	dw UnownCAnimation
-	dw UnownDAnimation
-	dw UnownEAnimation
-	dw UnownFAnimation
-	dw UnownGAnimation
-	dw UnownHAnimation
-	dw UnownIAnimation
-	dw UnownJAnimation
-	dw UnownKAnimation
-	dw UnownLAnimation
-	dw UnownMAnimation
-	dw UnownNAnimation
-	dw UnownOAnimation
-	dw UnownPAnimation
-	dw UnownQAnimation
-	dw UnownRAnimation
-	dw UnownSAnimation
-	dw UnownTAnimation
-	dw UnownUAnimation
-	dw UnownVAnimation
-	dw UnownWAnimation
-	dw UnownXAnimation
-	dw UnownYAnimation
-	dw UnownZAnimation
-	dw UnownExclamationAnimation
-	dw UnownQuestionAnimation
+	dw HinaBAnimation
+	dw HinaCAnimation
+	dw HinaDAnimation
+	dw HinaEAnimation
+	dw HinaFAnimation
+	dw HinaGAnimation
+	dw HinaHAnimation
+	dw HinaIAnimation
+	dw HinaJAnimation
+	dw HinaKAnimation
+	dw HinaLAnimation
+	dw HinaMAnimation
+	dw HinaNAnimation
+	dw HinaOAnimation
+	dw HinaPAnimation
+	dw HinaQAnimation
+	dw HinaRAnimation
+	dw HinaSAnimation
+	dw HinaTAnimation
+	dw HinaUAnimation
+	dw HinaVAnimation
+	dw HinaWAnimation
+	dw HinaXAnimation
+	dw HinaYAnimation
+	dw HinaZAnimation
+	dw HinaExclamationAnimation
+	dw HinaQuestionAnimation
 
 	dw KikuriKantoAnimation
 	dw KikuriKogaAnimation
@@ -331,6 +331,6 @@ AnimationPointers:
 
 	dw SuikaArmoredAnimation
 
-	dw DudunsparceThreeSegmentAnimation
+	dw DucmomijiThreeSegmentAnimation
 
 	assert_table_length NUM_UNIQUE_POKEMON

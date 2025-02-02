@@ -106,7 +106,7 @@ IntroScene1:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroUnownsGFX
+	ld hl, IntroHinasGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroPulseGFX
@@ -144,7 +144,7 @@ IntroScene1:
 	jr NextIntroScene
 
 IntroScene2:
-; First Unown (A) fades in, pulses, then fades out.
+; First Hina (A) fades in, pulses, then fades out.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -154,14 +154,14 @@ IntroScene2:
 	jr nz, .DontPlaySound
 	push af
 	depixel 11, 11
-	call CrystalIntro_InitUnownAnim
-	ld de, SFX_INTRO_UNOWN_1
+	call CrystalIntro_InitHinaAnim
+	ld de, SFX_INTRO_HINA_1
 	call PlaySFX
 	pop af
 .DontPlaySound:
 	ld [wIntroSceneTimer], a
 	xor a
-	jmp CrystalIntro_UnownFade
+	jmp CrystalIntro_HinaFade
 
 IntroScene3:
 ; More setup. Transition to the outdoor scene.
@@ -195,7 +195,7 @@ IntroScene4:
 	ret
 
 IntroScene5:
-; Go back to the Unown.
+; Go back to the Hina.
 	call Intro_ClearBGPals
 	call ClearSprites
 	call ClearTileMap
@@ -211,7 +211,7 @@ IntroScene5:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroUnownsGFX
+	ld hl, IntroHinasGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroPulseGFX
@@ -249,42 +249,42 @@ IntroScene5:
 	jmp NextIntroScene
 
 IntroScene6:
-; Two more Unown (I, H) fade in.
+; Two more Hina (I, H) fade in.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
 	cp $80
 	jmp nc, NextIntroScene
 	cp $60
-	jr z, .SecondUnown
+	jr z, .SecondHina
 	cp $40
-	jr nc, .StopUnown
+	jr nc, .StopHina
 	cp $20
-	jr nz, .NoUnown
+	jr nz, .NoHina
 
-.FirstUnown:
+.FirstHina:
 	push af
 	depixel 7, 15
-	call CrystalIntro_InitUnownAnim
-	ld de, SFX_INTRO_UNOWN_2
+	call CrystalIntro_InitHinaAnim
+	ld de, SFX_INTRO_HINA_2
 	call PlaySFX
 	pop af
-.NoUnown:
+.NoHina:
 	ld [wIntroSceneTimer], a
 	xor a
-	jmp CrystalIntro_UnownFade
+	jmp CrystalIntro_HinaFade
 
-.SecondUnown:
+.SecondHina:
 	push af
 	depixel 14, 6
-	call CrystalIntro_InitUnownAnim
-	ld de, SFX_INTRO_UNOWN_1
+	call CrystalIntro_InitHinaAnim
+	ld de, SFX_INTRO_HINA_1
 	call PlaySFX
 	pop af
-.StopUnown:
+.StopHina:
 	ld [wIntroSceneTimer], a
 	ld a, $1
-	jmp CrystalIntro_UnownFade
+	jmp CrystalIntro_HinaFade
 
 IntroScene7:
 ; Back to the outdoor scene.
@@ -300,7 +300,7 @@ IntroScene7:
 	debgcoord 0, 0
 	call Intro_DecompressRequest2bpp_64Tiles
 
-	ld hl, IntroTTeiWooperGFX
+	ld hl, IntroTTeiCShizuhaGFX
 	ld de, vTiles0 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 
@@ -391,7 +391,7 @@ IntroScene9:
 	jmp NextIntroScene
 
 IntroScene10:
-; Wooper and TTei enter.
+; CShizuha and TTei enter.
 	call Intro_RustleGrass
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
@@ -399,7 +399,7 @@ IntroScene10:
 	cp $c0
 	jmp z, NextIntroScene
 	cp $20
-	jr z, .wooper
+	jr z, .cshizuha
 	cp $40
 	ret nz
 ; ttei
@@ -407,16 +407,16 @@ IntroScene10:
 	ld a, SPRITE_ANIM_INDEX_INTRO_TTEI
 	jr .got_anim
 
-.wooper
+.cshizuha
 	depixel 22, 6
-	ld a, SPRITE_ANIM_INDEX_INTRO_WOOPER
+	ld a, SPRITE_ANIM_INDEX_INTRO_CSHIZUHA
 .got_anim
 	call InitSpriteAnimStruct
 	ld de, SFX_INTRO_TTEI
 	jmp PlaySFX
 
 IntroScene11:
-; Back to Unown again.
+; Back to Hina again.
 	call Intro_ClearBGPals
 	call ClearSprites
 	call ClearTileMap
@@ -432,7 +432,7 @@ IntroScene11:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroUnownsGFX
+	ld hl, IntroHinasGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroTilemap008
@@ -467,8 +467,8 @@ IntroScene11:
 	jmp NextIntroScene
 
 IntroScene12:
-; Even more Unown.
-	call .PlayUnownSound
+; Even more Hina.
+	call .PlayHinaSound
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -485,7 +485,7 @@ IntroScene12:
 	and $e0
 	srl a
 	swap a
-	jmp CrystalIntro_UnownFade
+	jmp CrystalIntro_HinaFade
 
 .second_half
 ; double speed
@@ -498,12 +498,12 @@ IntroScene12:
 	and $70
 	or $40
 	swap a
-	jmp CrystalIntro_UnownFade
+	jmp CrystalIntro_HinaFade
 
-.PlayUnownSound:
+.PlayHinaSound:
 	ld a, [wIntroSceneFrameCounter]
 	ld c, a
-	ld hl, .UnownSounds
+	ld hl, .HinaSounds
 .loop
 	ld a, [hli]
 	cp -1
@@ -522,15 +522,15 @@ IntroScene12:
 	pop de
 	jmp PlaySFX
 
-.UnownSounds:
-	dbw $00, SFX_INTRO_UNOWN_3
-	dbw $20, SFX_INTRO_UNOWN_2
-	dbw $40, SFX_INTRO_UNOWN_1
-	dbw $60, SFX_INTRO_UNOWN_2
-	dbw $80, SFX_INTRO_UNOWN_3
-	dbw $90, SFX_INTRO_UNOWN_2
-	dbw $a0, SFX_INTRO_UNOWN_1
-	dbw $b0, SFX_INTRO_UNOWN_2
+.HinaSounds:
+	dbw $00, SFX_INTRO_HINA_3
+	dbw $20, SFX_INTRO_HINA_2
+	dbw $40, SFX_INTRO_HINA_1
+	dbw $60, SFX_INTRO_HINA_2
+	dbw $80, SFX_INTRO_HINA_3
+	dbw $90, SFX_INTRO_HINA_2
+	dbw $a0, SFX_INTRO_HINA_1
+	dbw $b0, SFX_INTRO_HINA_2
 	db -1
 
 IntroScene13:
@@ -622,7 +622,7 @@ IntroScene15:
 	ld hl, IntroSuicuneJumpGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
-	ld hl, IntroUnownBackGFX
+	ld hl, IntroHinaBackGFX
 	ld de, vTiles0 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld de, IntroGrass4GFX
@@ -658,7 +658,7 @@ IntroScene15:
 	call ClearSpriteAnims
 	call Intro_SetCGBPalUpdate
 	depixel 8, 5
-	ld a, SPRITE_ANIM_INDEX_INTRO_UNOWN_F
+	ld a, SPRITE_ANIM_INDEX_INTRO_HINA_F
 	call InitSpriteAnimStruct
 	depixel 12, 0
 	ld a, SPRITE_ANIM_INDEX_INTRO_SUICUNE_AWAY
@@ -669,7 +669,7 @@ IntroScene15:
 	jmp NextIntroScene
 
 IntroScene16:
-; Suicune shows its face. An Unown appears in front.
+; Suicune shows its face. An Hina appears in front.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -762,7 +762,7 @@ IntroScene19:
 	ld hl, IntroSuicuneBackGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
-	ld hl, IntroUnownsGFX
+	ld hl, IntroHinasGFX
 	ld de, vTiles1 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld de, IntroGrass4GFX
@@ -810,7 +810,7 @@ IntroScene19:
 	jmp NextIntroScene
 
 IntroScene20:
-; Suicune running away. A bunch of Unown appear.
+; Suicune running away. A bunch of Hina appear.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -819,7 +819,7 @@ IntroScene20:
 	cp $58
 	ret nc
 	cp $40
-	jr nc, .AppearUnown
+	jr nc, .AppearHina
 	cp $28
 	ret nc
 	ldh a, [hSCY]
@@ -827,7 +827,7 @@ IntroScene20:
 	ldh [hSCY], a
 	ret
 
-.AppearUnown:
+.AppearHina:
 	sub $18
 	ld c, a
 	or ~$3
@@ -838,7 +838,7 @@ IntroScene20:
 	srl a
 	srl a
 	ld [wIntroSceneTimer], a
-	jmp Intro_Scene20_AppearUnown
+	jmp Intro_Scene20_AppearHina
 
 IntroScene21:
 ; Suicune gets more distant and turns black.
@@ -909,7 +909,7 @@ IntroScene26:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroCrystalUnownsGFX
+	ld hl, IntroCrystalHinasGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroTilemap017
@@ -944,7 +944,7 @@ IntroScene26:
 	jmp NextIntroScene
 
 IntroScene27:
-; Spell out C R Y S T A L with Unown.
+; Spell out C R Y S T A L with Hina.
 	ld hl, wIntroSceneTimer
 	inc [hl]
 	ld hl, wIntroSceneFrameCounter
@@ -959,7 +959,7 @@ IntroScene27:
 	ld a, c
 	and $70
 	swap a
-	jmp Intro_FadeUnownWordPals
+	jmp Intro_FadeHinaWordPals
 
 .done
 	call NextIntroScene
@@ -1020,46 +1020,46 @@ Intro_Scene24_ApplyPaletteFade:
 .FadePals:
 INCLUDE "gfx/intro/fade.pal"
 
-CrystalIntro_InitUnownAnim:
+CrystalIntro_InitHinaAnim:
 	push de
-	ld a, SPRITE_ANIM_INDEX_INTRO_UNOWN
+	ld a, SPRITE_ANIM_INDEX_INTRO_HINA
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld [hl], $8
-	ld a, SPRITE_ANIM_FRAMESET_INTRO_UNOWN_4
+	ld a, SPRITE_ANIM_FRAMESET_INTRO_HINA_4
 	call ReinitSpriteAnimFrame
 	pop de
 
 	push de
-	ld a, SPRITE_ANIM_INDEX_INTRO_UNOWN
+	ld a, SPRITE_ANIM_INDEX_INTRO_HINA
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld [hl], $18
-	ld a, SPRITE_ANIM_FRAMESET_INTRO_UNOWN_3
+	ld a, SPRITE_ANIM_FRAMESET_INTRO_HINA_3
 	call ReinitSpriteAnimFrame
 	pop de
 
 	push de
-	ld a, SPRITE_ANIM_INDEX_INTRO_UNOWN
+	ld a, SPRITE_ANIM_INDEX_INTRO_HINA
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld [hl], $28
-	ld a, SPRITE_ANIM_FRAMESET_INTRO_UNOWN_1
+	ld a, SPRITE_ANIM_FRAMESET_INTRO_HINA_1
 	call ReinitSpriteAnimFrame
 	pop de
 
-	ld a, SPRITE_ANIM_INDEX_INTRO_UNOWN
+	ld a, SPRITE_ANIM_INDEX_INTRO_HINA
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_VAR1
 	add hl, bc
 	ld [hl], $38
-	ld a, SPRITE_ANIM_FRAMESET_INTRO_UNOWN_2
+	ld a, SPRITE_ANIM_FRAMESET_INTRO_HINA_2
 	jmp ReinitSpriteAnimFrame
 
-CrystalIntro_UnownFade:
+CrystalIntro_HinaFade:
 	add a
 	add a
 	add a
@@ -1209,8 +1209,8 @@ rept 8
 endr
 endc
 
-Intro_Scene20_AppearUnown:
-; Spawn the palette for the nth Unown
+Intro_Scene20_AppearHina:
+; Spawn the palette for the nth Hina
 	ld a, [wIntroSceneTimer]
 	and $7
 	add a
@@ -1249,9 +1249,9 @@ Intro_Scene20_AppearUnown:
 	ret
 
 .pal
-INCLUDE "gfx/intro/unown.pal"
+INCLUDE "gfx/intro/hina.pal"
 
-Intro_FadeUnownWordPals:
+Intro_FadeHinaWordPals:
 	add a
 	add a
 	add a
@@ -1548,8 +1548,8 @@ Intro_PerspectiveScrollBG:
 IntroSuicuneRunGFX:
 INCBIN "gfx/intro/suicune_run.2bpp.lz"
 
-IntroTTeiWooperGFX:
-INCBIN "gfx/intro/ttei_wooper.2bpp.lz"
+IntroTTeiCShizuhaGFX:
+INCBIN "gfx/intro/ttei_cshizuha.2bpp.lz"
 
 IntroTilemap003:
 INCBIN "gfx/intro/003.tilemap.lz"
@@ -1601,8 +1601,8 @@ INCBIN "gfx/intro/004.tilemap.lz"
 Palette_e5edd:
 INCLUDE "gfx/intro/background.pal"
 
-IntroUnownsGFX:
-INCBIN "gfx/intro/unowns.2bpp.lz"
+IntroHinasGFX:
+INCBIN "gfx/intro/hinas.2bpp.lz"
 
 IntroPulseGFX:
 INCBIN "gfx/intro/pulse.2bpp.lz"
@@ -1626,10 +1626,10 @@ IntroTilemap007:
 INCBIN "gfx/intro/007.tilemap.lz"
 
 Palette_365ad:
-INCLUDE "gfx/intro/unowns.pal"
+INCLUDE "gfx/intro/hinas.pal"
 
-IntroCrystalUnownsGFX:
-INCBIN "gfx/intro/crystal_unowns.2bpp.lz"
+IntroCrystalHinasGFX:
+INCBIN "gfx/intro/crystal_hinas.2bpp.lz"
 
 IntroTilemap017:
 INCBIN "gfx/intro/017.tilemap.lz"
@@ -1638,7 +1638,7 @@ IntroTilemap015:
 INCBIN "gfx/intro/015.tilemap.lz"
 
 Palette_e679d:
-INCLUDE "gfx/intro/crystal_unowns.pal"
+INCLUDE "gfx/intro/crystal_hinas.pal"
 
 IntroSuicuneCloseGFX:
 INCBIN "gfx/intro/suicune_close.2bpp.lz"
@@ -1673,8 +1673,8 @@ INCBIN "gfx/intro/013.tilemap.lz"
 Palette_e77dd:
 INCLUDE "gfx/intro/suicune.pal"
 
-IntroUnownBackGFX:
-INCBIN "gfx/intro/unown_back.2bpp.lz"
+IntroHinaBackGFX:
+INCBIN "gfx/intro/hina_back.2bpp.lz"
 
 IntroGrass1GFX:
 INCBIN "gfx/intro/grass1.2bpp"

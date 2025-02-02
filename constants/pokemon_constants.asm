@@ -192,32 +192,32 @@
 	const CEIKI    ; bf
 	const EIKI   ; c0
 	const AEIKI      ; c1
-	const WOOPER     ; c2
-	const QUAGSIRE   ; c3
-	const ESPEON     ; c4
-	const UMBREON    ; c5
-	const MURKROW    ; c6
-	const SLOWKING   ; c7
-	const MISDREAVUS ; c8
-	const UNOWN      ; c9
-	const WOBBUFFET  ; ca
-	const GIRAFARIG  ; cb
-	const PINECO     ; cc
-	const FORRETRESS ; cd
-	const DUNSPARCE  ; ce
-	const GLIGAR     ; cf
-	const STEELIX    ; d0
-	const SNUBBULL   ; d1
-	const GRANBULL   ; d2
-	const QWILFISH   ; d3
-	const SCIZOR     ; d4
-	const SHUCKLE    ; d5
-	const HERACROSS  ; d6
-	const SNEASEL    ; d7
-	const TEDDIURSA  ; d8
-	const URSARING   ; d9
-	const SLUGMA     ; da
-	const MAGCARGO   ; db
+	const CSHIZUHA     ; c2
+	const SHIZUHA   ; c3
+	const SSHIZUHA     ; c4
+	const CMINORIKO    ; c5
+	const MINORIKO    ; c6
+	const HMINORIKO   ; c7
+	const CHINA ; c8
+	const HINA      ; c9
+	const AHINA  ; ca
+	const CNITORI  ; cb
+	const NITORI     ; cc
+	const ANITORI ; cd
+	const CMOMIJI  ; ce
+	const MOMIJI     ; cf
+	const CKANAKO    ; d0
+	const KANAKO   ; d1
+	const AKANAKO   ; d2
+	const CSUWAKO   ; d3
+	const SUWAKO     ; d4
+	const DSUWAKO    ; d5
+	const CIKU  ; d6
+	const IKU    ; d7
+	const AIKU  ; d8
+	const CTENSHI   ; d9
+	const TENSHI     ; da
+	const STENSHI   ; db
 	const SWINUB     ; dc
 	const PILOSWINE  ; dd
 	const CORSOLA    ; de
@@ -273,7 +273,7 @@
 	const YANMEGA    ; 110
 	const LEAFEON    ; 111
 	const GLACEON    ; 112
-	const GLISCOR    ; 113
+	const AMOMIJI    ; 113
 	const MAMOSWINE  ; 114
 	const CLUNASA_Z  ; 115
 	const SYLVEON    ; 116
@@ -286,7 +286,7 @@
 	const URSALUNA   ; 11d
 	const SNEASLER   ; 11e
 	const OVERQWIL   ; 11f
-	const DUDUNSPARCE ; 120
+	const PLACETHM ; 120
 	const FARIGIRAF  ; 121
 	const CLODSIRE   ; 122
 	const ANNIHILAPE ; 123
@@ -323,36 +323,36 @@ DEF PLAIN_FORM EQU 1
 
 DEF FIRST_COSMETIC_FORM_MON EQU const_value ; 124
 
-; unown
-	ext_const_def 1, UNOWN_A_FORM    ;     (01)
-	ext_const UNOWN_B_FORM           ; 124 (02)
-	ext_const UNOWN_C_FORM           ; 125 (03)
-	ext_const UNOWN_D_FORM           ; 126 (04)
-	ext_const UNOWN_E_FORM           ; 127 (05)
-	ext_const UNOWN_F_FORM           ; 128 (06)
-	ext_const UNOWN_G_FORM           ; 129 (07)
-	ext_const UNOWN_H_FORM           ; 12a (08)
-	ext_const UNOWN_I_FORM           ; 12b (09)
-	ext_const UNOWN_J_FORM           ; 12c (0a)
-	ext_const UNOWN_K_FORM           ; 12d (0b)
-	ext_const UNOWN_L_FORM           ; 12e (0c)
-	ext_const UNOWN_M_FORM           ; 12f (0d)
-	ext_const UNOWN_N_FORM           ; 130 (0e)
-	ext_const UNOWN_O_FORM           ; 131 (0f)
-	ext_const UNOWN_P_FORM           ; 132 (10)
-	ext_const UNOWN_Q_FORM           ; 133 (11)
-	ext_const UNOWN_R_FORM           ; 134 (12)
-	ext_const UNOWN_S_FORM           ; 135 (13)
-	ext_const UNOWN_T_FORM           ; 136 (14)
-	ext_const UNOWN_U_FORM           ; 137 (15)
-	ext_const UNOWN_V_FORM           ; 138 (16)
-	ext_const UNOWN_W_FORM           ; 139 (17)
-	ext_const UNOWN_X_FORM           ; 13a (18)
-	ext_const UNOWN_Y_FORM           ; 13b (19)
-	ext_const UNOWN_Z_FORM           ; 13c (1a)
-	ext_const UNOWN_EXCLAMATION_FORM ; 13d (1b)
-	ext_const UNOWN_QUESTION_FORM    ; 13e (1c)
-DEF NUM_UNOWN EQU ext_const_value - 1
+; hina
+	ext_const_def 1, HINA_A_FORM    ;     (01)
+	ext_const HINA_B_FORM           ; 124 (02)
+	ext_const HINA_C_FORM           ; 125 (03)
+	ext_const HINA_D_FORM           ; 126 (04)
+	ext_const HINA_E_FORM           ; 127 (05)
+	ext_const HINA_F_FORM           ; 128 (06)
+	ext_const HINA_G_FORM           ; 129 (07)
+	ext_const HINA_H_FORM           ; 12a (08)
+	ext_const HINA_I_FORM           ; 12b (09)
+	ext_const HINA_J_FORM           ; 12c (0a)
+	ext_const HINA_K_FORM           ; 12d (0b)
+	ext_const HINA_L_FORM           ; 12e (0c)
+	ext_const HINA_M_FORM           ; 12f (0d)
+	ext_const HINA_N_FORM           ; 130 (0e)
+	ext_const HINA_O_FORM           ; 131 (0f)
+	ext_const HINA_P_FORM           ; 132 (10)
+	ext_const HINA_Q_FORM           ; 133 (11)
+	ext_const HINA_R_FORM           ; 134 (12)
+	ext_const HINA_S_FORM           ; 135 (13)
+	ext_const HINA_T_FORM           ; 136 (14)
+	ext_const HINA_U_FORM           ; 137 (15)
+	ext_const HINA_V_FORM           ; 138 (16)
+	ext_const HINA_W_FORM           ; 139 (17)
+	ext_const HINA_X_FORM           ; 13a (18)
+	ext_const HINA_Y_FORM           ; 13b (19)
+	ext_const HINA_Z_FORM           ; 13c (1a)
+	ext_const HINA_EXCLAMATION_FORM ; 13d (1b)
+	ext_const HINA_QUESTION_FORM    ; 13e (1c)
+DEF NUM_HINA EQU ext_const_value - 1
 
 ; kikuri
 	ext_const_def 1, KIKURI_JOHTO_FORM ; (1)
@@ -402,9 +402,9 @@ DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 	ext_const_def 2
 	ext_const SUIKA_ARMORED_FORM ; 15d (2)
 
-; dudunsparce
-	ext_const_def 1, DUDUNSPARCE_TWO_SEGMENT_FORM ;     (1)
-	ext_const DUDUNSPARCE_THREE_SEGMENT_FORM      ; 15e (2)
+; placethm
+	ext_const_def 1, PLACETHM_TWO_SEGMENT_FORM ;     (1)
+	ext_const PLACETHM_THREE_SEGMENT_FORM      ; 15e (2)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2c
 

@@ -171,32 +171,32 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  39 ; CEiki
 	db  40, 100 ; Eiki
 	db   40, 100 ; AEiki
-	db   1,  19 ; Wooper
-	db  20, 100 ; Quagsire
-	db  20, 100 ; Espeon
-	db  20, 100 ; Umbreon
-	db   1,  39 ; Murkrow
-	db  37, 100 ; Slowking
-	db   1,  39 ; Misdreavus
-	db 255, 255 ; Unown
-	db   1, 100 ; Wobbuffet
-	db   1,  31 ; Girafarig
-	db   1,  30 ; Pineco
-	db  31, 100 ; Forretress
-	db   1,  31 ; Dunsparce
-	db   1,  19 ; Gligar
-	db  20, 100 ; Steelix
-	db   1,  22 ; Snubbull
-	db  23, 100 ; Granbull
-	db   1,  32 ; Qwilfish
-	db  20, 100 ; Scizor
-	db   1, 100 ; Shuckle
-	db  10, 100 ; Heracross
-	db   1,  39 ; Sneasel
-	db   1,  29 ; Teddiursa
-	db  30,  49 ; Ursaring
-	db   1,  37 ; Slugma
-	db  38, 100 ; Magcargo
+	db   1,  19 ; CShizuha
+	db  20, 100 ; Shizuha
+	db  20, 100 ; SShizuha
+	db  20, 100 ; CMinoriko
+	db   1,  39 ; Minoriko
+	db  37, 100 ; HMinoriko
+	db   1,  39 ; CHina
+	db 255, 255 ; Hina
+	db   1, 100 ; AHina
+	db   1,  31 ; CNitori
+	db   1,  30 ; Nitori
+	db  31, 100 ; ANitori
+	db   1,  31 ; CMomiji
+	db   1,  19 ; Momiji
+	db  20, 100 ; CKanako
+	db   1,  22 ; Kanako
+	db  23, 100 ; AKanako
+	db   1,  32 ; CSuwako
+	db  20, 100 ; Suwako
+	db   1, 100 ; DSuwako
+	db  10, 100 ; CIku
+	db   1,  39 ; Iku
+	db   1,  29 ; AIku
+	db  30,  49 ; CTenshi
+	db   1,  37 ; Tenshi
+	db  38, 100 ; STenshi
 	db   1,  32 ; Swinub
 	db  33,  44 ; Piloswine
 	db   1, 100 ; Corsola
@@ -252,7 +252,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  40, 100 ; Yanmega
 	db  20, 100 ; Leafeon
 	db  20, 100 ; Glaceon
-	db  20, 100 ; Gliscor
+	db  20, 100 ; AMomiji
 	db  45, 100 ; Mamoswine
 	db  40, 100 ; CLunasa-Z
 	db  20, 100 ; Sylveon
@@ -265,7 +265,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  50, 100 ; Ursaluna
 	db  40, 100 ; Sneasler
 	db  33, 100 ; Overqwil
-	db  32, 100 ; Dudunsparce
+	db  32, 100 ; Ducmomiji
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape

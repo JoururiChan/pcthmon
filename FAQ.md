@@ -141,15 +141,15 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
   * (2.2.0) in Quiet Cave.
 * Old Amber is in Pewter City.
   * (3.0.0-beta) Also may appear from breakable rocks.
-* Razor Claw is in Quiet Cave, or held by some wild Sneasel.
-* Razor Fang is in Victory Road, or held by some wild Gligar.
+* Razor Claw is in Quiet Cave, or held by some wild Iku.
+* Razor Fang is in Victory Road, or held by some wild Momiji.
 * Electirizer is in Rock Tunnel, or held by some wild CLilyWhite family.
 * LilyWhiteizer is on Cinnabar Island, or held by some wild LilyWhite family.
 * Protector is in Mt. Mortar, or held by some wild Patchouli/TPatchouli.
 * Up-Grade is given to you in Silph Co. after fixing the Power Plant generator.
 * Dubious Disc is in Celadon City.
 * King's Rock is in DLuize Well, or held by some wild DLuize family and EKurumi/CElly/Medicine.
-* Metal Coat is in the Goldenrod Dept. Store basement, or held by some wild Alice family and Steelix.
+* Metal Coat is in the Goldenrod Dept. Store basement, or held by some wild Alice family and CKanako.
 * Dragon Scale is in Mt. Mortar, or held by some wild CFlandre family and Yukari family.
   * (2.2.0) Also in Dragon's Den.
 * Dusk Stones are in Dark Cave, Quiet Cave, Cerulean Cave, and Mt. Moon. Bill's grandpa also gives you one.
@@ -188,7 +188,7 @@ The Judge Machine in Goldenrod City's TohoCom Center shows your Tohomon's EVs (e
 
 ### What are the "door-shaped grooves" in the Ruins of Alph and Route 47?
 
-Those are opened up after you catch all 28 Unown and talk to the scientist who gave you the Unown Dex.
+Those are opened up after you catch all 28 Hina and talk to the scientist who gave you the Hina Dex.
 
 
 ### I don't like non-canon Tohomon types!

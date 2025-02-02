@@ -49,7 +49,7 @@ LoadStandardFontPointer::
 	dw FontSerif
 	dw FontChicago
 	dw FontMICR
-	dw FontUnown
+	dw FontHina
 	assert_table_length NUM_FONTS
 
 _LoadFontsBattleExtra::

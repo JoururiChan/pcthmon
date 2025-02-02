@@ -174,32 +174,32 @@ EvosAttacksPointers::
 	dw CEikiEvosAttacks
 	dw EikiEvosAttacks
 	dw AEikiEvosAttacks
-	dw WooperEvosAttacks
-	dw QuagsireEvosAttacks
-	dw EspeonEvosAttacks
-	dw UmbreonEvosAttacks
-	dw MurkrowEvosAttacks
-	dw SlowkingEvosAttacks
-	dw MisdreavusEvosAttacks
-	dw UnownEvosAttacks
-	dw WobbuffetEvosAttacks
-	dw GirafarigEvosAttacks
-	dw PinecoEvosAttacks
-	dw ForretressEvosAttacks
-	dw DunsparceEvosAttacks
-	dw GligarEvosAttacks
-	dw SteelixEvosAttacks
-	dw SnubbullEvosAttacks
-	dw GranbullEvosAttacks
-	dw QwilfishEvosAttacks
-	dw ScizorEvosAttacks
-	dw ShuckleEvosAttacks
-	dw HeracrossEvosAttacks
-	dw SneaselEvosAttacks
-	dw TeddiursaEvosAttacks
-	dw UrsaringEvosAttacks
-	dw SlugmaEvosAttacks
-	dw MagcargoEvosAttacks
+	dw CShizuhaEvosAttacks
+	dw ShizuhaEvosAttacks
+	dw SShizuhaEvosAttacks
+	dw CMinorikoEvosAttacks
+	dw MinorikoEvosAttacks
+	dw HMinorikoEvosAttacks
+	dw CHinaEvosAttacks
+	dw HinaEvosAttacks
+	dw AHinaEvosAttacks
+	dw CNitoriEvosAttacks
+	dw NitoriEvosAttacks
+	dw ANitoriEvosAttacks
+	dw CMomijiEvosAttacks
+	dw MomijiEvosAttacks
+	dw CKanakoEvosAttacks
+	dw KanakoEvosAttacks
+	dw AKanakoEvosAttacks
+	dw CSuwakoEvosAttacks
+	dw SuwakoEvosAttacks
+	dw DSuwakoEvosAttacks
+	dw CIkuEvosAttacks
+	dw IkuEvosAttacks
+	dw AIkuEvosAttacks
+	dw CTenshiEvosAttacks
+	dw TenshiEvosAttacks
+	dw STenshiEvosAttacks
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks
 	dw CorsolaEvosAttacks
@@ -255,7 +255,7 @@ EvosAttacksPointers::
 	dw YanmegaEvosAttacks
 	dw LeafeonEvosAttacks
 	dw GlaceonEvosAttacks
-	dw GliscorEvosAttacks
+	dw AMomijiEvosAttacks
 	dw MamoswineEvosAttacks
 	dw CLunasaZEvosAttacks
 	dw SylveonEvosAttacks
@@ -268,7 +268,7 @@ EvosAttacksPointers::
 	dw UrsalunaEvosAttacks
 	dw SneaslerEvosAttacks
 	dw OverqwilEvosAttacks
-	dw DudunsparceEvosAttacks
+	dw DucmomijiEvosAttacks
 	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks
@@ -278,6 +278,6 @@ EvosAttacksPointers::
 
 	dw SuikaEvosAttacks
 
-	dw DudunsparceEvosAttacks
+	dw DucmomijiEvosAttacks
 
 	assert_table_length NUM_EXT_POKEMON

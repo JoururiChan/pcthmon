@@ -11,7 +11,7 @@ AnthonyPhoneScript1:
 	iftruefwd AnthonyFridayNight
 
 .NotFriday:
-	checkflag ENGINE_DUNSPARCE_SWARM
+	checkflag ENGINE_CMOMIJI_SWARM
 	iftruefwd .AlreadySwarming
 	farsjump AnthonyHangUpScript
 
@@ -37,7 +37,7 @@ AnthonyPhoneScript2:
 
 .TriesSwarm:
 	farscall PhoneScript_Random5
-	ifequalfwd $0, AnthonyTriesDunsparceSwarm
+	ifequalfwd $0, AnthonyTriesCMomijiSwarm
 	farsjump Phone_GenericCall_Male
 
 AnthonyFridayNight:
@@ -48,12 +48,12 @@ AnthonyWantsBattle:
 	setflag ENGINE_ANTHONY_READY_FOR_REMATCH
 	farsjump PhoneScript_WantsToBattle_Male
 
-AnthonyTriesDunsparceSwarm:
-	checkflag ENGINE_DUNSPARCE_SWARM
+AnthonyTriesCMomijiSwarm:
+	checkflag ENGINE_CMOMIJI_SWARM
 	iftruefwd .Generic
-	setflag ENGINE_DUNSPARCE_SWARM
-	getmonname DUNSPARCE, $1
-	swarm SWARM_DUNSPARCE, DARK_CAVE_VIOLET_ENTRANCE
+	setflag ENGINE_CMOMIJI_SWARM
+	getmonname CMOMIJI, $1
+	swarm SWARM_CMOMIJI, DARK_CAVE_VIOLET_ENTRANCE
 	getlandmarkname DARK_CAVE, $2
 	farsjump AnthonySwarmScript
 

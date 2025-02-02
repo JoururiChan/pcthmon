@@ -27,5 +27,5 @@ AsleepTreeMons:
 	dp CWRIGGLE
 	dp CMYSTIA
 	dp CKEINE
-	dp HERACROSS
+	dp CIKU
 	db 0 ; end

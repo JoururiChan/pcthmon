@@ -5333,7 +5333,7 @@ Sfx_GlassTing2:
 	sound_ret
 
 
-Sfx_IntroUnown1:
+Sfx_IntroHina1:
 	channel_count 1
 	channel 5, .Ch5
 
@@ -5345,7 +5345,7 @@ Sfx_IntroUnown1:
 	sound_ret
 
 
-Sfx_IntroUnown2:
+Sfx_IntroHina2:
 	channel_count 1
 	channel 6, .Ch6
 
@@ -5357,7 +5357,7 @@ Sfx_IntroUnown2:
 	sound_ret
 
 
-Sfx_IntroUnown3:
+Sfx_IntroHina3:
 	channel_count 1
 	channel 7, .Ch7
 

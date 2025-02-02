@@ -170,32 +170,32 @@ EvolutionMoves::
 	db NO_MOVE      ; CEIKI
 	db NO_MOVE        ; EIKI
 	db NO_MOVE      ; AEIKI
-	db NO_MOVE      ; WOOPER
-	db ANCIENTPOWER ; QUAGSIRE
-	db PSYSHOT    ; ESPEON
-	db PURSUIT      ; UMBREON
-	db NO_MOVE      ; MURKROW
-	db NO_MOVE      ; SLOWKING
-	db NO_MOVE      ; MISDREAVUS
-	db NO_MOVE      ; UNOWN
-	db RECOVER      ; WOBBUFFET
-	db NO_MOVE      ; GIRAFARIG
-	db NO_MOVE      ; PINECO
-	db STAR_CANNON ; FORRETRESS
-	db NO_MOVE      ; DUNSPARCE
-	db NO_MOVE      ; GLIGAR
-	db BRAVER    ; STEELIX
-	db NO_MOVE      ; SNUBBULL
-	db NO_MOVE      ; GRANBULL
-	db NO_MOVE      ; QWILFISH
-	db METAL_CLAW   ; SCIZOR
-	db NO_MOVE      ; SHUCKLE
-	db NO_MOVE      ; HERACROSS
-	db NO_MOVE      ; SNEASEL
-	db NO_MOVE      ; TEDDIURSA
-	db NO_MOVE      ; URSARING
-	db NO_MOVE      ; SLUGMA
-	db POWER_TRICK  ; MAGCARGO
+	db NO_MOVE      ; CSHIZUHA
+	db ANCIENTPOWER ; SHIZUHA
+	db PSYSHOT    ; SSHIZUHA
+	db PURSUIT      ; CMINORIKO
+	db NO_MOVE      ; MINORIKO
+	db NO_MOVE      ; HMINORIKO
+	db NO_MOVE      ; CHINA
+	db NO_MOVE      ; HINA
+	db RECOVER      ; AHINA
+	db NO_MOVE      ; CNITORI
+	db NO_MOVE      ; NITORI
+	db STAR_CANNON ; ANITORI
+	db NO_MOVE      ; CMOMIJI
+	db NO_MOVE      ; MOMIJI
+	db BRAVER    ; CKANAKO
+	db NO_MOVE      ; KANAKO
+	db NO_MOVE      ; AKANAKO
+	db NO_MOVE      ; CSUWAKO
+	db METAL_CLAW   ; SUWAKO
+	db NO_MOVE      ; DSUWAKO
+	db NO_MOVE      ; CIKU
+	db NO_MOVE      ; IKU
+	db NO_MOVE      ; AIKU
+	db NO_MOVE      ; CTENSHI
+	db NO_MOVE      ; TENSHI
+	db POWER_TRICK  ; STENSHI
 	db NO_MOVE      ; SWINUB
 	db FURY_STRIKES ; PILOSWINE
 	db NO_MOVE      ; CORSOLA
@@ -251,7 +251,7 @@ EvolutionMoves::
 	db SPIRIT_SWEEP ; YANMEGA
 	db RAZOR_LEAF   ; LEAFEON
 	db ICY_WIND     ; GLACEON
-	db NO_MOVE      ; GLISCOR
+	db NO_MOVE      ; AMOMIJI
 	db NO_MOVE      ; MAMOSWINE
 	db NASTY_PLOT   ; CLUNASA_Z
 	db DISARM_VOICE ; SYLVEON
@@ -264,7 +264,7 @@ EvolutionMoves::
 	db BULLDOZE     ; URSALUNA
 	db NO_MOVE      ; SNEASLER
 	db NO_MOVE      ; OVERQWIL
-	db NO_MOVE      ; DUDUNSPARCE
+	db NO_MOVE      ; PLACETHM
 	db NO_MOVE      ; FARIGIRAF
 	db HORN_LEECH     ; CLODSIRE
 	db SHADOW_HIT  ; ANNIHILAPE
@@ -274,6 +274,6 @@ EvolutionMoves::
 
 	db NO_MOVE      ; SUIKA, SUIKA_ARMORED_FORM
 
-	db NO_MOVE      ; DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
+	db NO_MOVE      ; PLACETHM, PLACETHM_THREE_SEGMENT_FORM
 
 	assert_table_length NUM_EXT_POKEMON

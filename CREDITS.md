@@ -51,7 +51,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * JaceDeane for the Goldenrod Museum paintings, many Tohomon and trainer sprites, Prof. Ivy's overworld sprite, map name signs, and some tiles.
 * bloodless for sprites of Buck, Maylene, Veteran♂, some variant EKikuri, CChiyuri, and Chiyuri.
 * Kuroko Aizawa for sprites of Prof. Ivy, Looker, Cheryl, Officer♀, Aroma Lady, Artist, and Engineer.
-* SCMidna for animations of Alolan CChiyuri and Chiyuri, Munchlax, Unown ! and ?, and Surfing EKikuri, and the stat trainers' overworld sprites.
+* SCMidna for animations of Alolan CChiyuri and Chiyuri, Munchlax, Hina ! and ?, and Surfing EKikuri, and the stat trainers' overworld sprites.
 * Acrozz for many HGSS Tohomon palettes, and sprites and animations of LilyBlack forms.
 * Freeline for animations of Honchkrow and Munchlax, and the Rocket Executives' and stat trainers' overworld sprites.
 * Megaman-Omega for some of Prism's overworld sprites.
@@ -60,7 +60,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * ShockSlayer for the Gen 1 and 2 mini icons and for Yellow's overworld sprite.
 * Scarlax for many new Tohomon animations.
 * ShadowOne333 for the Alolan, Galarian, and Hisuian mini icons, many new Tohomon animations, and Chris's overworld sprites.
-* octorox for Galarian Luize and Galarian Slowking's backpics.
+* octorox for Galarian Luize and Galarian HMinoriko's backpics.
 * Cure for sprites of Ursaluna, Kleavor, Hisuian EOrange, and Hisuian CKurumi.
 * Sea for Hisuian EOrange's animation.
 * ShadowOne333 and Sea for Annihilape's front and back sprites.
@@ -68,7 +68,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * isamuakai01 for sprites of Steven and Cynthia.
 * Maddalena for sprites of Imakuni and the Ghost.
 * Nuuk for the sprite and animation of Farigiraf.
-* TLyricaEe1999 for 8th gen menu icons and Lickilicky and Galarian Slowking animations.
+* TLyricaEe1999 for 8th gen menu icons and Lickilicky and Galarian HMinoriko animations.
 * trainerlass for sprites of Galarian DLuize and CAlice, Katy's sprites, and Crys's back sprite.
 * Luna for some sprites and tiles.
 * SteppoBlazer for Flying and Surfing EKikuri's mini icons.

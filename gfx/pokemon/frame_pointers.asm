@@ -170,32 +170,32 @@ FramesPointers:
 	dw CEikiFrames
 	dw EikiFrames
 	dw AEikiFrames
-	dw WooperFrames
-	dw QuagsireFrames
-	dw EspeonFrames
-	dw UmbreonFrames
-	dw MurkrowFrames
-	dw SlowkingFrames
-	dw MisdreavusFrames
-	dw UnownAFrames
-	dw WobbuffetFrames
-	dw GirafarigFrames
-	dw PinecoFrames
-	dw ForretressFrames
-	dw DunsparceFrames
-	dw GligarFrames
-	dw SteelixFrames
-	dw SnubbullFrames
-	dw GranbullFrames
-	dw QwilfishFrames
-	dw ScizorFrames
-	dw ShuckleFrames
-	dw HeracrossFrames
-	dw SneaselFrames
-	dw TeddiursaFrames
-	dw UrsaringFrames
-	dw SlugmaFrames
-	dw MagcargoFrames
+	dw CShizuhaFrames
+	dw ShizuhaFrames
+	dw SShizuhaFrames
+	dw CMinorikoFrames
+	dw MinorikoFrames
+	dw HMinorikoFrames
+	dw CHinaFrames
+	dw HinaAFrames
+	dw AHinaFrames
+	dw CNitoriFrames
+	dw NitoriFrames
+	dw ANitoriFrames
+	dw CMomijiFrames
+	dw MomijiFrames
+	dw CKanakoFrames
+	dw KanakoFrames
+	dw AKanakoFrames
+	dw CSuwakoFrames
+	dw SuwakoFrames
+	dw DSuwakoFrames
+	dw CIkuFrames
+	dw IkuFrames
+	dw AIkuFrames
+	dw CTenshiFrames
+	dw TenshiFrames
+	dw STenshiFrames
 	dw SwinubFrames
 	dw PiloswineFrames
 	dw CorsolaFrames
@@ -251,7 +251,7 @@ FramesPointers:
 	dw YanmegaFrames
 	dw LeafeonFrames
 	dw GlaceonFrames
-	dw GliscorFrames
+	dw AMomijiFrames
 	dw MamoswineFrames
 	dw CLunasaZFrames
 	dw SylveonFrames
@@ -264,39 +264,39 @@ FramesPointers:
 	dw UrsalunaFrames
 	dw SneaslerFrames
 	dw OverqwilFrames
-	dw DudunsparceTwoSegmentFrames
+	dw DucmomijiTwoSegmentFrames
 	dw FarigirafFrames
 	dw ClodsireFrames
 	dw AnnihilapeFrames
 	assert_table_length NUM_SPECIES
 
-	dw UnownBFrames
-	dw UnownCFrames
-	dw UnownDFrames
-	dw UnownEFrames
-	dw UnownFFrames
-	dw UnownGFrames
-	dw UnownHFrames
-	dw UnownIFrames
-	dw UnownJFrames
-	dw UnownKFrames
-	dw UnownLFrames
-	dw UnownMFrames
-	dw UnownNFrames
-	dw UnownOFrames
-	dw UnownPFrames
-	dw UnownQFrames
-	dw UnownRFrames
-	dw UnownSFrames
-	dw UnownTFrames
-	dw UnownUFrames
-	dw UnownVFrames
-	dw UnownWFrames
-	dw UnownXFrames
-	dw UnownYFrames
-	dw UnownZFrames
-	dw UnownExclamationFrames
-	dw UnownQuestionFrames
+	dw HinaBFrames
+	dw HinaCFrames
+	dw HinaDFrames
+	dw HinaEFrames
+	dw HinaFFrames
+	dw HinaGFrames
+	dw HinaHFrames
+	dw HinaIFrames
+	dw HinaJFrames
+	dw HinaKFrames
+	dw HinaLFrames
+	dw HinaMFrames
+	dw HinaNFrames
+	dw HinaOFrames
+	dw HinaPFrames
+	dw HinaQFrames
+	dw HinaRFrames
+	dw HinaSFrames
+	dw HinaTFrames
+	dw HinaUFrames
+	dw HinaVFrames
+	dw HinaWFrames
+	dw HinaXFrames
+	dw HinaYFrames
+	dw HinaZFrames
+	dw HinaExclamationFrames
+	dw HinaQuestionFrames
 
 	dw KikuriKantoFrames
 	dw KikuriKogaFrames
@@ -333,6 +333,6 @@ FramesPointers:
 
 	dw SuikaArmoredFrames
 
-	dw DudunsparceThreeSegmentFrames
+	dw DucmomijiThreeSegmentFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

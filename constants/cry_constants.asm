@@ -45,32 +45,32 @@
 	const CRY_AYA
 	const CRY_CKEINE
 	const CRY_TEIRIN
-	const CRY_GIRAFARIG
+	const CRY_CNITORI
 	const CRY_RAIKOU
 	const CRY_CMOKOU
 	const CRY_CKAGUYA
 	const CRY_SWRIGGLE
 	const CRY_SENTRET
-	const CRY_SLOWKING
+	const CRY_HMINORIKO
 	const CRY_CREISEN
 	const CRY_CYOUMU
 	const CRY_CSANAE
-	const CRY_GLIGAR
+	const CRY_MOMIJI
 	const CRY_CAYA
-	const CRY_SLUGMA
+	const CRY_TENSHI
 	const CRY_MYSTIA
 	const CRY_ENTEI
-	const CRY_WOOPER
+	const CRY_CSHIZUHA
 	const CRY_MANTINE
 	const CRY_TREISEN
 	const CRY_KAGUYA
-	const CRY_TEDDIURSA
+	const CRY_AIKU
 	const CRY_REMORAID
 	const CRY_AMOKOU
-	const CRY_MAGCARGO
+	const CRY_STENSHI
 	const CRY_TTEI
 	const CRY_TYROGUE
-	const CRY_DUNSPARCE
+	const CRY_CMOMIJI
 	const CRY_DONPHAN
 
 DEF NUM_CRIES EQU const_value

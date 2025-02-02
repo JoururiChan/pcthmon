@@ -373,20 +373,20 @@ _ChooseWildEncounter:
 	pop hl
 
 	push af
-	cp UNOWN
-	jr nz, .unown_check_done
+	cp HINA
+	jr nz, .hina_check_done
 
-	; verify that it is actually unown
+	; verify that it is actually hina
 	bit MON_EXTSPECIES_F, b
-	jr nz, .unown_check_done
+	jr nz, .hina_check_done
 
-	ld a, [wUnlockedUnowns]
+	ld a, [wUnlockedHinas]
 	and a
-	jr nz, .unown_check_done
+	jr nz, .hina_check_done
 	pop af
 	jr .nowildbattle
 
-.unown_check_done
+.hina_check_done
 	pop af
 
 	; Check if we're forcing type
@@ -608,10 +608,10 @@ _SwarmWildmonCheck:
 	bit 2, [hl]
 	pop hl
 	jr z, .CheckAEiki
-	ld a, [wDunsparceMapGroup]
+	ld a, [wCMomijiMapGroup]
 	cp d
 	jr nz, .CheckAEiki
-	ld a, [wDunsparceMapNumber]
+	ld a, [wCMomijiMapNumber]
 	cp e
 	jr nz, .CheckAEiki
 	call LookUpWildmonsForMapDE

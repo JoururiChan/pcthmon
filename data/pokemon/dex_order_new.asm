@@ -172,32 +172,32 @@ NewTohodexOrder:
 	dp CEIKI    ; bf
 	dp EIKI   ; c0
 	dp AEIKI      ; c1
-	dp WOOPER     ; c2
-	dp QUAGSIRE   ; c3
-	dp ESPEON     ; c4
-	dp UMBREON    ; c5
-	dp MURKROW    ; c6
-	dp SLOWKING   ; c7
-	dp MISDREAVUS ; c8
-	dp UNOWN      ; c9
-	dp WOBBUFFET  ; ca
-	dp GIRAFARIG  ; cb
-	dp PINECO     ; cc
-	dp FORRETRESS ; cd
-	dp DUNSPARCE  ; ce
-	dp GLIGAR     ; cf
-	dp STEELIX    ; d0
-	dp SNUBBULL   ; d1
-	dp GRANBULL   ; d2
-	dp QWILFISH   ; d3
-	dp SCIZOR     ; d4
-	dp SHUCKLE    ; d5
-	dp HERACROSS  ; d6
-	dp SNEASEL    ; d7
-	dp TEDDIURSA  ; d8
-	dp URSARING   ; d9
-	dp SLUGMA     ; da
-	dp MAGCARGO   ; db
+	dp CSHIZUHA     ; c2
+	dp SHIZUHA   ; c3
+	dp SSHIZUHA     ; c4
+	dp CMINORIKO    ; c5
+	dp MINORIKO    ; c6
+	dp HMINORIKO   ; c7
+	dp CHINA ; c8
+	dp HINA      ; c9
+	dp AHINA  ; ca
+	dp CNITORI  ; cb
+	dp NITORI     ; cc
+	dp ANITORI ; cd
+	dp CMOMIJI  ; ce
+	dp MOMIJI     ; cf
+	dp CKANAKO    ; d0
+	dp KANAKO   ; d1
+	dp AKANAKO   ; d2
+	dp CSUWAKO   ; d3
+	dp SUWAKO     ; d4
+	dp DSUWAKO    ; d5
+	dp CIKU  ; d6
+	dp IKU    ; d7
+	dp AIKU  ; d8
+	dp CTENSHI   ; d9
+	dp TENSHI     ; da
+	dp STENSHI   ; db
 	dp SWINUB     ; dc
 	dp PILOSWINE  ; dd
 	dp CORSOLA    ; de
@@ -251,7 +251,7 @@ NewTohodexOrder:
 	dp YANMEGA    ; 110
 	dp LEAFEON    ; 111
 	dp GLACEON    ; 112
-	dp GLISCOR    ; 113
+	dp AMOMIJI    ; 113
 	dp MAMOSWINE  ; 114
 	dp CLUNASA_Z  ; 115
 	dp SYLVEON    ; 116
@@ -264,7 +264,7 @@ NewTohodexOrder:
 	dp URSALUNA   ; 11d
 	dp SNEASLER   ; 11e
 	dp OVERQWIL   ; 11f
-	dp DUDUNSPARCE ; 120
+	dp PLACETHM ; 120
 	dp FARIGIRAF  ; 121
 	dp CLODSIRE   ; 122
 	dp ANNIHILAPE ; 123

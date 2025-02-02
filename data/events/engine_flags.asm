@@ -229,7 +229,7 @@ EngineFlags:
 	engine_flag wDailyPhoneTimeOfDayFlags, 23 ; erin saturday night
 
 	engine_flag wSwarmFlags, SWARMFLAGS_DUNSPARCE_SWARM_F
-	engine_flag wSwarmFlags, SWARMFLAGS_AEIKI_SWARM_F
+	engine_flag wSwarmFlags, SWARMFLAGS_YANMA_SWARM_F
 
 	engine_flag wPokemonJournals, FALKNER_JOURNAL
 	engine_flag wPokemonJournals, BUGSY_JOURNAL

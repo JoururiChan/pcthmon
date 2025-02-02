@@ -63,7 +63,7 @@ if DEF(DEBUG)
 	setflag ENGINE_EXPN_CARD
 	; tohodex
 	setflag ENGINE_TOHODEX
-;	setflag ENGINE_UNOWN_DEX
+;	setflag ENGINE_HINA_DEX
 	; judge machine
 	setflag ENGINE_JUDGE_MACHINE
 	; all key items
@@ -249,7 +249,7 @@ endr
 	loadmem wPartyMon3Shiny, SHINY_MASK
 	; ext species test
 	givepoke WYRDEER, 50
-	givepoke DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM, 50
+	givepoke PLACETHM, PLACETHM_THREE_SEGMENT_FORM, 50
 	; evolve during battle
 	givepoke CLILYBLACK, 50
 	loadmem wPartyMon6Exp+2, LOW(165812)

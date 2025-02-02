@@ -43,31 +43,31 @@ Cries:
 	fardw Cry_Aya
 	fardw Cry_CKeine
 	fardw Cry_TEirin
-	fardw Cry_Girafarig
+	fardw Cry_CNitori
 	fardw Cry_Raikou
 	fardw Cry_CMokou
 	fardw Cry_CKaguya
 	fardw Cry_Hoothoot
 	fardw Cry_Sentret
-	fardw Cry_Slowking
+	fardw Cry_HMinoriko
 	fardw Cry_CReisen
 	fardw Cry_CYoumu
 	fardw Cry_CSanae
-	fardw Cry_Gligar
+	fardw Cry_Momiji
 	fardw Cry_CAya
-	fardw Cry_Slugma
+	fardw Cry_Tenshi
 	fardw Cry_Mystia
 	fardw Cry_Entei
-	fardw Cry_Wooper
+	fardw Cry_CShizuha
 	fardw Cry_Mantine
 	fardw Cry_TReisen
 	fardw Cry_Kaguya
-	fardw Cry_Teddiursa
+	fardw Cry_AIku
 	fardw Cry_Remoraid
 	fardw Cry_AMokou
-	fardw Cry_Magcargo
+	fardw Cry_STenshi
 	fardw Cry_TTei
 	fardw Cry_Tyrogue
-	fardw Cry_Dunsparce
+	fardw Cry_CMomiji
 	fardw Cry_Donphan
 	assert_table_length NUM_CRIES

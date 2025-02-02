@@ -251,8 +251,8 @@ GetFishGroupIndex:
 	jr z, .done
 
 	ld a, d
-	cp FISHGROUP_QWILFISH
-	jr z, .qwilfish
+	cp FISHGROUP_CSUWAKO
+	jr z, .csuwako
 	cp FISHGROUP_REMORAID
 	jr z, .remoraid
 
@@ -261,11 +261,11 @@ GetFishGroupIndex:
 	ld d, 0
 	ret
 
-.qwilfish
+.csuwako
 	ld a, [wFishingSwarmFlag]
-	cp FISHSWARM_QWILFISH
+	cp FISHSWARM_CSUWAKO
 	jr nz, .done
-	ld d, FISHGROUP_QWILFISH_SWARM
+	ld d, FISHGROUP_CSUWAKO_SWARM
 	jr .done
 
 .remoraid

@@ -170,32 +170,32 @@ FootprintPointers::
 	dw CEikiFootprint
 	dw EikiFootprint
 	dw AEikiFootprint
-	dw WooperFootprint
-	dw QuagsireFootprint
-	dw EspeonFootprint
-	dw UmbreonFootprint
-	dw MurkrowFootprint
-	dw SlowkingFootprint
-	dw MisdreavusFootprint
-	dw UnownFootprint
-	dw WobbuffetFootprint
-	dw GirafarigFootprint
-	dw PinecoFootprint
-	dw ForretressFootprint
-	dw DunsparceFootprint
-	dw GligarFootprint
-	dw SteelixFootprint
-	dw SnubbullFootprint
-	dw GranbullFootprint
-	dw QwilfishFootprint
-	dw ScizorFootprint
-	dw ShuckleFootprint
-	dw HeracrossFootprint
-	dw SneaselFootprint
-	dw TeddiursaFootprint
-	dw UrsaringFootprint
-	dw SlugmaFootprint
-	dw MagcargoFootprint
+	dw CShizuhaFootprint
+	dw ShizuhaFootprint
+	dw SShizuhaFootprint
+	dw CMinorikoFootprint
+	dw MinorikoFootprint
+	dw HMinorikoFootprint
+	dw CHinaFootprint
+	dw HinaFootprint
+	dw AHinaFootprint
+	dw CNitoriFootprint
+	dw NitoriFootprint
+	dw ANitoriFootprint
+	dw CMomijiFootprint
+	dw MomijiFootprint
+	dw CKanakoFootprint
+	dw KanakoFootprint
+	dw AKanakoFootprint
+	dw CSuwakoFootprint
+	dw SuwakoFootprint
+	dw DSuwakoFootprint
+	dw CIkuFootprint
+	dw IkuFootprint
+	dw AIkuFootprint
+	dw CTenshiFootprint
+	dw TenshiFootprint
+	dw STenshiFootprint
 	dw SwinubFootprint
 	dw PiloswineFootprint
 	dw CorsolaFootprint
@@ -251,7 +251,7 @@ FootprintPointers::
 	dw YanmegaFootprint
 	dw LeafeonFootprint
 	dw GlaceonFootprint
-	dw GliscorFootprint
+	dw AMomijiFootprint
 	dw MamoswineFootprint
 	dw CLunasaZFootprint
 	dw SylveonFootprint
@@ -264,7 +264,7 @@ FootprintPointers::
 	dw UrsalunaFootprint
 	dw SneaslerFootprint
 	dw OverqwilFootprint
-	dw DudunsparceFootprint
+	dw DucmomijiFootprint
 	dw FarigirafFootprint
 	dw ClodsireFootprint
 	dw AnnihilapeFootprint
@@ -274,6 +274,6 @@ FootprintPointers::
 
 	dw SuikaFootprint
 
-	dw DudunsparceFootprint
+	dw DucmomijiFootprint
 
 	assert_table_length NUM_EXT_POKEMON

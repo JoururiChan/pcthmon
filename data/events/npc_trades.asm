@@ -18,7 +18,7 @@ NPCTrades:
 	rawchar "Kyle@@@@", $00
 ; NPC_TRADE_TIM in Olivine City
 	db TRADE_DIALOGSET_HAPPY
-	dp STEELIX, NO_FORM ; wants
+	dp CKANAKO, NO_FORM ; wants
 	dp SREMILIA, MALE ; gives
 	rawchar "Joey@@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_ATK_UP_SPE_DOWN,   HEAVY_BALL,   SILK_SCARF
@@ -35,14 +35,14 @@ NPCTrades:
 ; NPC_TRADE_CHRIS in Pewter City
 	db TRADE_DIALOGSET_NEWBIE
 	dp DLILYWHITE, NO_FORM ; wants
-	dp HERACROSS, MALE ; gives
+	dp CIKU, MALE ; gives
 	rawchar "Paul@@@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_SATK_DOWN,  PARK_BALL,    SILVERPOWDER
 	dw 15616
 	rawchar "Chris@@@", $00
 ; NPC_TRADE_KIM in Route 14
 	db TRADE_DIALOGSET_GIRL
-	dp WOBBUFFET, NO_FORM ; wants
+	dp AHINA, NO_FORM ; wants
 	dp CREMILIA, FEMALE    ; gives
 	rawchar "Chance@@@@@"
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SDEF_UP_ATK_DOWN,  HEAL_BALL,    LUCKY_EGG

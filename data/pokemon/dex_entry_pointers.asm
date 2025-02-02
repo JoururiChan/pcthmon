@@ -171,32 +171,32 @@ TohodexDataPointerTable:
 	dba CEikiTohodexEntry
 	dba EikiTohodexEntry
 	dba AEikiTohodexEntry
-	dba WooperTohodexEntry
-	dba QuagsireTohodexEntry
-	dba EspeonTohodexEntry
-	dba UmbreonTohodexEntry
-	dba MurkrowTohodexEntry
-	dba SlowkingTohodexEntry
-	dba MisdreavusTohodexEntry
-	dba UnownTohodexEntry
-	dba WobbuffetTohodexEntry
-	dba GirafarigTohodexEntry
-	dba PinecoTohodexEntry
-	dba ForretressTohodexEntry
-	dba DunsparceTohodexEntry
-	dba GligarTohodexEntry
-	dba SteelixTohodexEntry
-	dba SnubbullTohodexEntry
-	dba GranbullTohodexEntry
-	dba QwilfishTohodexEntry
-	dba ScizorTohodexEntry
-	dba ShuckleTohodexEntry
-	dba HeracrossTohodexEntry
-	dba SneaselTohodexEntry
-	dba TeddiursaTohodexEntry
-	dba UrsaringTohodexEntry
-	dba SlugmaTohodexEntry
-	dba MagcargoTohodexEntry
+	dba CShizuhaTohodexEntry
+	dba ShizuhaTohodexEntry
+	dba SShizuhaTohodexEntry
+	dba CMinorikoTohodexEntry
+	dba MinorikoTohodexEntry
+	dba HMinorikoTohodexEntry
+	dba CHinaTohodexEntry
+	dba HinaTohodexEntry
+	dba AHinaTohodexEntry
+	dba CNitoriTohodexEntry
+	dba NitoriTohodexEntry
+	dba ANitoriTohodexEntry
+	dba CMomijiTohodexEntry
+	dba MomijiTohodexEntry
+	dba CKanakoTohodexEntry
+	dba KanakoTohodexEntry
+	dba AKanakoTohodexEntry
+	dba CSuwakoTohodexEntry
+	dba SuwakoTohodexEntry
+	dba DSuwakoTohodexEntry
+	dba CIkuTohodexEntry
+	dba IkuTohodexEntry
+	dba AIkuTohodexEntry
+	dba CTenshiTohodexEntry
+	dba TenshiTohodexEntry
+	dba STenshiTohodexEntry
 	dba SwinubTohodexEntry
 	dba PiloswineTohodexEntry
 	dba CorsolaTohodexEntry
@@ -252,7 +252,7 @@ TohodexDataPointerTable:
 	dba YanmegaTohodexEntry
 	dba LeafeonTohodexEntry
 	dba GlaceonTohodexEntry
-	dba GliscorTohodexEntry
+	dba AMomijiTohodexEntry
 	dba MamoswineTohodexEntry
 	dba CLunasaZTohodexEntry
 	dba SylveonTohodexEntry
@@ -265,7 +265,7 @@ TohodexDataPointerTable:
 	dba UrsalunaTohodexEntry
 	dba SneaslerTohodexEntry
 	dba OverqwilTohodexEntry
-	dba DudunsparceTohodexEntry
+	dba DucmomijiTohodexEntry
 	dba FarigirafTohodexEntry
 	dba ClodsireTohodexEntry
 	dba AnnihilapeTohodexEntry
@@ -275,6 +275,6 @@ TohodexDataPointerTable:
 
 	dba SuikaArmoredTohodexEntry
 
-	dba DudunsparceTohodexEntry
+	dba DucmomijiTohodexEntry
 
 	assert_table_length NUM_EXT_POKEMON

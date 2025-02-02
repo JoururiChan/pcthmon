@@ -170,32 +170,32 @@ BitmasksPointers:
 	dw CEikiBitmasks
 	dw EikiBitmasks
 	dw AEikiBitmasks
-	dw WooperBitmasks
-	dw QuagsireBitmasks
-	dw EspeonBitmasks
-	dw UmbreonBitmasks
-	dw MurkrowBitmasks
-	dw SlowkingBitmasks
-	dw MisdreavusBitmasks
-	dw UnownABitmasks
-	dw WobbuffetBitmasks
-	dw GirafarigBitmasks
-	dw PinecoBitmasks
-	dw ForretressBitmasks
-	dw DunsparceBitmasks
-	dw GligarBitmasks
-	dw SteelixBitmasks
-	dw SnubbullBitmasks
-	dw GranbullBitmasks
-	dw QwilfishBitmasks
-	dw ScizorBitmasks
-	dw ShuckleBitmasks
-	dw HeracrossBitmasks
-	dw SneaselBitmasks
-	dw TeddiursaBitmasks
-	dw UrsaringBitmasks
-	dw SlugmaBitmasks
-	dw MagcargoBitmasks
+	dw CShizuhaBitmasks
+	dw ShizuhaBitmasks
+	dw SShizuhaBitmasks
+	dw CMinorikoBitmasks
+	dw MinorikoBitmasks
+	dw HMinorikoBitmasks
+	dw CHinaBitmasks
+	dw HinaABitmasks
+	dw AHinaBitmasks
+	dw CNitoriBitmasks
+	dw NitoriBitmasks
+	dw ANitoriBitmasks
+	dw CMomijiBitmasks
+	dw MomijiBitmasks
+	dw CKanakoBitmasks
+	dw KanakoBitmasks
+	dw AKanakoBitmasks
+	dw CSuwakoBitmasks
+	dw SuwakoBitmasks
+	dw DSuwakoBitmasks
+	dw CIkuBitmasks
+	dw IkuBitmasks
+	dw AIkuBitmasks
+	dw CTenshiBitmasks
+	dw TenshiBitmasks
+	dw STenshiBitmasks
 	dw SwinubBitmasks
 	dw PiloswineBitmasks
 	dw CorsolaBitmasks
@@ -251,7 +251,7 @@ BitmasksPointers:
 	dw YanmegaBitmasks
 	dw LeafeonBitmasks
 	dw GlaceonBitmasks
-	dw GliscorBitmasks
+	dw AMomijiBitmasks
 	dw MamoswineBitmasks
 	dw CLunasaZBitmasks
 	dw SylveonBitmasks
@@ -264,39 +264,39 @@ BitmasksPointers:
 	dw UrsalunaBitmasks
 	dw SneaslerBitmasks
 	dw OverqwilBitmasks
-	dw DudunsparceTwoSegmentBitmasks
+	dw DucmomijiTwoSegmentBitmasks
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
 	assert_table_length NUM_SPECIES
 
-	dw UnownBBitmasks
-	dw UnownCBitmasks
-	dw UnownDBitmasks
-	dw UnownEBitmasks
-	dw UnownFBitmasks
-	dw UnownGBitmasks
-	dw UnownHBitmasks
-	dw UnownIBitmasks
-	dw UnownJBitmasks
-	dw UnownKBitmasks
-	dw UnownLBitmasks
-	dw UnownMBitmasks
-	dw UnownNBitmasks
-	dw UnownOBitmasks
-	dw UnownPBitmasks
-	dw UnownQBitmasks
-	dw UnownRBitmasks
-	dw UnownSBitmasks
-	dw UnownTBitmasks
-	dw UnownUBitmasks
-	dw UnownVBitmasks
-	dw UnownWBitmasks
-	dw UnownXBitmasks
-	dw UnownYBitmasks
-	dw UnownZBitmasks
-	dw UnownExclamationBitmasks
-	dw UnownQuestionBitmasks
+	dw HinaBBitmasks
+	dw HinaCBitmasks
+	dw HinaDBitmasks
+	dw HinaEBitmasks
+	dw HinaFBitmasks
+	dw HinaGBitmasks
+	dw HinaHBitmasks
+	dw HinaIBitmasks
+	dw HinaJBitmasks
+	dw HinaKBitmasks
+	dw HinaLBitmasks
+	dw HinaMBitmasks
+	dw HinaNBitmasks
+	dw HinaOBitmasks
+	dw HinaPBitmasks
+	dw HinaQBitmasks
+	dw HinaRBitmasks
+	dw HinaSBitmasks
+	dw HinaTBitmasks
+	dw HinaUBitmasks
+	dw HinaVBitmasks
+	dw HinaWBitmasks
+	dw HinaXBitmasks
+	dw HinaYBitmasks
+	dw HinaZBitmasks
+	dw HinaExclamationBitmasks
+	dw HinaQuestionBitmasks
 
 	dw KikuriKantoBitmasks
 	dw KikuriKogaBitmasks
@@ -331,6 +331,6 @@ BitmasksPointers:
 
 	dw SuikaArmoredBitmasks
 
-	dw DudunsparceThreeSegmentBitmasks
+	dw DucmomijiThreeSegmentBitmasks
 
 	assert_table_length NUM_UNIQUE_POKEMON

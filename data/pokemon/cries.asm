@@ -199,58 +199,58 @@ PokemonCries::
 	mon_cry CRY_AYA,      $12b,  $0b8 ; CEiki
 	mon_cry CRY_REMORAID,   -$020,  $180 ; Eiki
 	mon_cry CRY_CSANAE,    $031,  $0c8 ; AEiki
-	mon_cry CRY_WOOPER,      $093,  $0af ; Wooper
-	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Quagsire
-	mon_cry CRY_TYROGUE,     $0a2,  $140 ; Espeon
-	mon_cry CRY_RIKAKO,    -$0e9,  $0f0 ; Umbreon
-	mon_cry CRY_AYA,     -$01f,  $180 ; Murkrow
-	mon_cry CRY_SLOWKING,    $104,  $200 ; Slowking
-	mon_cry CRY_SWRIGGLE,    $130,  $0e8 ; Misdreavus
-	mon_cry CRY_SWRIGGLE,    $162,  $100 ; Unown
-	mon_cry CRY_AMOKOU,    $27b,  $144 ; Wobbuffet
-	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Girafarig
-	mon_cry CRY_SLOWKING,    $080,  $100 ; Pineco
-	mon_cry CRY_SLOWKING,    $000,  $180 ; Forretress
-	mon_cry CRY_DUNSPARCE,   $1c4,  $100 ; Dunsparce
-	mon_cry CRY_GLIGAR,     -$102,  $100 ; Gligar
-	mon_cry CRY_TREISEN,  $0ef,  $0f7 ; Steelix
-	mon_cry CRY_DUNSPARCE,   $112,  $0e8 ; Snubbull
-	mon_cry CRY_DUNSPARCE,   $000,  $180 ; Granbull
-	mon_cry CRY_SLOWKING,    $160,  $0e0 ; Qwilfish
-	mon_cry CRY_AMOKOU,    $000,  $160 ; Scizor
-	mon_cry CRY_DUNSPARCE,   $290,  $0a8 ; Shuckle
-	mon_cry CRY_AMOKOU,    $035,  $0e0 ; Heracross
-	mon_cry CRY_WOOPER,      $053,  $0af ; Sneasel
-	mon_cry CRY_TEDDIURSA,   $7a2,  $06e ; Teddiursa
-	mon_cry CRY_TEDDIURSA,   $640,  $0d8 ; Ursaring
-	mon_cry CRY_SLUGMA,     -$1d8,  $140 ; Slugma
-	mon_cry CRY_MAGCARGO,   -$20d,  $1c0 ; Magcargo
+	mon_cry CRY_CSHIZUHA,      $093,  $0af ; CShizuha
+	mon_cry CRY_CSHIZUHA,     -$0c6,  $140 ; Shizuha
+	mon_cry CRY_TYROGUE,     $0a2,  $140 ; SShizuha
+	mon_cry CRY_RIKAKO,    -$0e9,  $0f0 ; CMinoriko
+	mon_cry CRY_AYA,     -$01f,  $180 ; Minoriko
+	mon_cry CRY_HMINORIKO,    $104,  $200 ; HMinoriko
+	mon_cry CRY_SWRIGGLE,    $130,  $0e8 ; CHina
+	mon_cry CRY_SWRIGGLE,    $162,  $100 ; Hina
+	mon_cry CRY_AMOKOU,    $27b,  $144 ; AHina
+	mon_cry CRY_CNITORI,   $041,  $200 ; CNitori
+	mon_cry CRY_HMINORIKO,    $080,  $100 ; Nitori
+	mon_cry CRY_HMINORIKO,    $000,  $180 ; ANitori
+	mon_cry CRY_CMOMIJI,   $1c4,  $100 ; CMomiji
+	mon_cry CRY_MOMIJI,     -$102,  $100 ; Momiji
+	mon_cry CRY_TREISEN,  $0ef,  $0f7 ; CKanako
+	mon_cry CRY_CMOMIJI,   $112,  $0e8 ; Kanako
+	mon_cry CRY_CMOMIJI,   $000,  $180 ; AKanako
+	mon_cry CRY_HMINORIKO,    $160,  $0e0 ; CSuwako
+	mon_cry CRY_AMOKOU,    $000,  $160 ; Suwako
+	mon_cry CRY_CMOMIJI,   $290,  $0a8 ; DSuwako
+	mon_cry CRY_AMOKOU,    $035,  $0e0 ; CIku
+	mon_cry CRY_CSHIZUHA,      $053,  $0af ; Iku
+	mon_cry CRY_AIKU,   $7a2,  $06e ; AIku
+	mon_cry CRY_AIKU,   $640,  $0d8 ; CTenshi
+	mon_cry CRY_TENSHI,     -$1d8,  $140 ; Tenshi
+	mon_cry CRY_STENSHI,   -$20d,  $1c0 ; STenshi
 	mon_cry CRY_CREISEN,   $1fe,  $140 ; Swinub
-	mon_cry CRY_MAGCARGO,   -$109,  $100 ; Piloswine
-	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Corsola
+	mon_cry CRY_STENSHI,   -$109,  $100 ; Piloswine
+	mon_cry CRY_STENSHI,    $0a1,  $0e8 ; Corsola
 	mon_cry CRY_REMORAID,    $00d,  $100 ; Remoraid
 	mon_cry CRY_CSANAE,    $000,  $180 ; Octillery
-	mon_cry CRY_TEDDIURSA,   $002,  $06a ; Delibird
+	mon_cry CRY_AIKU,   $002,  $06a ; Delibird
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantine
 	mon_cry CRY_AMOKOU,    $8a9,  $180 ; Skarmory
 	mon_cry CRY_CREISEN,   $039,  $140 ; Houndour
 	mon_cry CRY_CSANAE,   -$10a,  $100 ; Houndoom
-	mon_cry CRY_SLUGMA,      $2fb,  $100 ; Kingdra
+	mon_cry CRY_TENSHI,      $2fb,  $100 ; Kingdra
 	mon_cry CRY_SENTRET,     $048,  $230 ; Phanpy
 	mon_cry CRY_DONPHAN,     $000,  $1a0 ; Donphan
-	mon_cry CRY_GIRAFARIG,   $073,  $240 ; CLunasa2
+	mon_cry CRY_CNITORI,   $073,  $240 ; CLunasa2
 	mon_cry CRY_TYROGUE,    -$160,  $180 ; Stantler
 	mon_cry CRY_TTEI,      -$21a,  $1f0 ; Smeargle
 	mon_cry CRY_TYROGUE,     $02c,  $108 ; Tyrogue
-	mon_cry CRY_SLUGMA,      $000,  $100 ; Hitmontop
+	mon_cry CRY_TENSHI,      $000,  $100 ; Hitmontop
 	mon_cry CRY_AYA,      $068,  $100 ; Smoochum
 	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; Elekid
-	mon_cry CRY_TEDDIURSA,   $176,  $03a ; Magby
-	mon_cry CRY_GLIGAR,     -$1cd,  $1a0 ; Miltank
-	mon_cry CRY_SLOWKING,    $293,  $140 ; Blissey
+	mon_cry CRY_AIKU,   $176,  $03a ; Magby
+	mon_cry CRY_MOMIJI,     -$1cd,  $1a0 ; Miltank
+	mon_cry CRY_HMINORIKO,    $293,  $140 ; Blissey
 	mon_cry CRY_RAIKOU,      $22e,  $120 ; Raikou
 	mon_cry CRY_ENTEI,       $000,  $1a0 ; Entei
-	mon_cry CRY_MAGCARGO,    $000,  $180 ; Suicune
+	mon_cry CRY_STENSHI,    $000,  $180 ; Suicune
 	mon_cry CRY_RAIKOU,      $05f,  $0d0 ; Larvitar
 	mon_cry CRY_CKEINE,   -$1db,  $150 ; Pupitar
 	mon_cry CRY_RAIKOU,     -$100,  $180 ; Tyranitar
@@ -269,7 +269,7 @@ PokemonCries::
 	mon_cry CRY_CMIMA,   $00a,  $140 ; Happiny
 	mon_cry CRY_EYUKI,      $055,  $081 ; Munchlax
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantyke
-	mon_cry CRY_WOOPER,      $053,  $0af ; Weavile
+	mon_cry CRY_CSHIZUHA,      $053,  $0af ; Weavile
 	mon_cry CRY_MGYOKU,     $020,  $140 ; Magnezone
 	mon_cry CRY_CYUKI,        $000,  $100 ; Lickilicky
 	mon_cry CRY_TPATCHOULI,      $000,  $100 ; Rhyperior

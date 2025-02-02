@@ -35,8 +35,8 @@ TrainerHikerAnthony:
 	opentext
 	checkflag ENGINE_ANTHONY_READY_FOR_REMATCH
 	iftruefwd .Rematch
-	checkflag ENGINE_DUNSPARCE_SWARM
-	iftrue_jumpopenedtext HikerAnthonyDunsparceText
+	checkflag ENGINE_CMOMIJI_SWARM
+	iftrue_jumpopenedtext HikerAnthonyCMomijiText
 	checkcellnum PHONE_HIKER_ANTHONY
 	iftruefwd .NumberAccepted
 	checkevent EVENT_ANTHONY_ASKED_FOR_PHONE_NUMBER
@@ -153,9 +153,9 @@ HikerAnthony1AfterText:
 	cont "mountains."
 	done
 
-HikerAnthonyDunsparceText:
+HikerAnthonyCMomijiText:
 	text "Hey, did you get a"
-	line "Dunsparce?"
+	line "CMomiji?"
 
 	para "I caught one too."
 

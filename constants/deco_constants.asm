@@ -136,11 +136,11 @@ ENDM
 	deco  LYRICA_DOLL
 	deco  CDAICHAN_DOLL
 	deco  ELLY_DOLL
-	deco  UNOWN_DOLL
+	deco  HINA_DOLL
 	deco  CSARA_DOLL
-	deco  PINECO_DOLL
+	deco  NITORI_DOLL
 	deco  AYA_DOLL
-	deco  TEDDIURSA_DOLL
+	deco  AIKU_DOLL
 	deco  CHIYURI_DOLL
 	deco  EMEIRA_DOLL
 	deco  EORANGE_DOLL

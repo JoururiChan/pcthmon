@@ -11,9 +11,9 @@ BeverlyMadeMonEvenCuterText:
 BeverlyDefeatedMonText:
 	text "I happened to come"
 	line "across a wild"
-	cont "Snubbull recently."
+	cont "Kanako recently."
 
-	para "My Snubbull, I"
+	para "My Kanako, I"
 	line "assure you, was"
 
 	para "far cuter than the"

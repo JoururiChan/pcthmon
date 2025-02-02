@@ -49,7 +49,7 @@ GenericTrainerPokefanmAllan:
 	generictrainer POKEFANM, ALLAN, EVENT_BEAT_POKEFANM_ALLAN, PokefanmAllanSeenText, PokefanmAllanBeatenText
 
 	text "Look how adorable"
-	line "my Teddiursa acts!"
+	line "my AIku acts!"
 
 	para "Isn't it cute"
 	line "enough to make"
@@ -57,13 +57,13 @@ GenericTrainerPokefanmAllan:
 	done
 
 PokefanmAllanSeenText:
-	text "My Teddiursa is"
+	text "My AIku is"
 	line "the cutest in the"
 	cont "world."
 	done
 
 PokefanmAllanBeatenText:
-	text "My Teddiursa!"
+	text "My AIku!"
 	done
 
 GenericTrainerTwinsDayanddani1:

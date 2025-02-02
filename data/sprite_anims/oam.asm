@@ -59,15 +59,15 @@ SpriteAnimOAMData:
 	spriteanimoam $00, .OAMData_IntroTTei             ; SPRITE_ANIM_OAMSET_INTRO_TTEI_1
 	spriteanimoam $05, .OAMData_IntroTTei             ; SPRITE_ANIM_OAMSET_INTRO_TTEI_2
 	spriteanimoam $0a, .OAMData_IntroTTei             ; SPRITE_ANIM_OAMSET_INTRO_TTEI_3
-	spriteanimoam $50, .OAMData_IntroWooper            ; SPRITE_ANIM_OAMSET_INTRO_WOOPER
-	spriteanimoam $00, .OAMData_IntroUnown1            ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_1
-	spriteanimoam $01, .OAMData_IntroUnown2            ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_2
-	spriteanimoam $04, .OAMData_IntroUnown3            ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_3
-	spriteanimoam $00, .OAMData_IntroUnownF2_1         ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_F_2_1
-	spriteanimoam $01, .OAMData_IntroUnownF2_2         ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_F_2_2
-	spriteanimoam $03, .OAMData_IntroUnownF2_3         ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_F_2_3
-	spriteanimoam $08, .OAMData_IntroUnownF2_4_5       ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_F_2_4
-	spriteanimoam $1c, .OAMData_IntroUnownF2_4_5       ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_F_2_5
+	spriteanimoam $50, .OAMData_IntroCShizuha            ; SPRITE_ANIM_OAMSET_INTRO_CSHIZUHA
+	spriteanimoam $00, .OAMData_IntroHina1            ; SPRITE_ANIM_OAMSET_INTRO_HINA_1
+	spriteanimoam $01, .OAMData_IntroHina2            ; SPRITE_ANIM_OAMSET_INTRO_HINA_2
+	spriteanimoam $04, .OAMData_IntroHina3            ; SPRITE_ANIM_OAMSET_INTRO_HINA_3
+	spriteanimoam $00, .OAMData_IntroHinaF2_1         ; SPRITE_ANIM_OAMSET_INTRO_HINA_F_2_1
+	spriteanimoam $01, .OAMData_IntroHinaF2_2         ; SPRITE_ANIM_OAMSET_INTRO_HINA_F_2_2
+	spriteanimoam $03, .OAMData_IntroHinaF2_3         ; SPRITE_ANIM_OAMSET_INTRO_HINA_F_2_3
+	spriteanimoam $08, .OAMData_IntroHinaF2_4_5       ; SPRITE_ANIM_OAMSET_INTRO_HINA_F_2_4
+	spriteanimoam $1c, .OAMData_IntroHinaF2_4_5       ; SPRITE_ANIM_OAMSET_INTRO_HINA_F_2_5
 	spriteanimoam $80, .OAMData_IntroSuicuneAway       ; SPRITE_ANIM_OAMSET_INTRO_SUICUNE_AWAY
 	spriteanimoam $00, .OAMData_Celebi                 ; SPRITE_ANIM_OAMSET_CELEBI_1
 	spriteanimoam $04, .OAMData_Celebi                 ; SPRITE_ANIM_OAMSET_CELEBI_2
@@ -91,7 +91,7 @@ SpriteAnimOAMData:
 	spriteanimoam $00, .OAMData_PcMode2                ; SPRITE_ANIM_OAMSET_PC_MODE2
 	spriteanimoam $00, .OAMData_PcPack                 ; SPRITE_ANIM_OAMSET_PC_PACK
 	spriteanimoam $00, .OAMData_DexCursor              ; SPRITE_ANIM_OAMSET_DEX_CURSOR
-	spriteanimoam $1e, .OAMData_DexUnownCursor         ; SPRITE_ANIM_OAMSET_DEX_UNOWN_CURSOR
+	spriteanimoam $1e, .OAMData_DexHinaCursor         ; SPRITE_ANIM_OAMSET_DEX_HINA_CURSOR
 	spriteanimoam $40, .OAMData_DexDLuize            ; SPRITE_ANIM_OAMSET_DEX_DLUIZE_1
 	spriteanimoam $43, .OAMData_DexDLuize            ; SPRITE_ANIM_OAMSET_DEX_DLUIZE_2
 	spriteanimoam $46, .OAMData_DexDLuize            ; SPRITE_ANIM_OAMSET_DEX_DLUIZE_3
@@ -118,7 +118,7 @@ SpriteAnimOAMData:
 	dsprite  0,  0, -1,  0, $01, $0 | PRIORITY
 	dsprite  0,  0,  0,  0, $01, $0 | X_FLIP | PRIORITY
 
-.OAMData_IntroUnownF2_1:
+.OAMData_IntroHinaF2_1:
 	db 4
 	dsprite -1,  0, -1,  0, $00, $0
 	dsprite -1,  0,  0,  0, $00, $0 | X_FLIP
@@ -531,7 +531,7 @@ SpriteAnimOAMData:
 	dsprite  1,  4,  0,  4, $43, $1 | VRAM_BANK_1
 	dsprite  1,  4,  1,  4, $44, $1 | VRAM_BANK_1
 
-.OAMData_IntroWooper:
+.OAMData_IntroCShizuha:
 	db 16
 	dsprite -2,  0, -3,  4, $00, $2 | VRAM_BANK_1
 	dsprite -2,  0, -2,  4, $01, $2 | VRAM_BANK_1
@@ -550,17 +550,17 @@ SpriteAnimOAMData:
 	dsprite  1,  0, -1,  4, $0e, $2 | VRAM_BANK_1
 	dsprite  1,  0,  0,  4, $0f, $2 | VRAM_BANK_1
 
-.OAMData_IntroUnown1:
+.OAMData_IntroHina1:
 	db 1
 	dsprite -1,  4, -1,  4, $00, $0
 
-.OAMData_IntroUnown2:
+.OAMData_IntroHina2:
 	db 3
 	dsprite  0,  0, -1,  0, $00, $0
 	dsprite -1,  0, -1,  0, $01, $0
 	dsprite -1,  0,  0,  0, $02, $0
 
-.OAMData_IntroUnown3:
+.OAMData_IntroHina3:
 	db 7
 	dsprite  1,  0, -2,  0, $00, $0
 	dsprite  0,  0, -2,  0, $01, $0
@@ -570,7 +570,7 @@ SpriteAnimOAMData:
 	dsprite -2,  0,  0,  0, $05, $0
 	dsprite -2,  0,  1,  0, $06, $0
 
-.OAMData_IntroUnownF2_2:
+.OAMData_IntroHinaF2_2:
 	db 8
 	dsprite -1,  0, -2,  0, $00, $0
 	dsprite -1,  0, -1,  0, $01, $0
@@ -581,7 +581,7 @@ SpriteAnimOAMData:
 	dsprite  0,  0,  0,  0, $01, $0 | X_FLIP | Y_FLIP
 	dsprite  0,  0,  1,  0, $00, $0 | X_FLIP | Y_FLIP
 
-.OAMData_IntroUnownF2_3:
+.OAMData_IntroHinaF2_3:
 	db 12
 	dsprite -3,  0, -1,  0, $00, $0
 	dsprite -2,  0, -1,  0, $01, $0
@@ -596,7 +596,7 @@ SpriteAnimOAMData:
 	dsprite  1,  0,  0,  0, $01, $0 | X_FLIP | Y_FLIP
 	dsprite  2,  0,  0,  0, $00, $0 | X_FLIP | Y_FLIP
 
-.OAMData_IntroUnownF2_4_5:
+.OAMData_IntroHinaF2_4_5:
 	db 20
 	dsprite -3,  4, -2,  0, $00, $0
 	dsprite -3,  4, -1,  0, $01, $0
@@ -778,7 +778,7 @@ SpriteAnimOAMData:
 	dsprite  2,  0,  0,  0, $03, $0
 	dsprite  1,  0,  0,  0, $03, $0
 
-.OAMData_DexUnownCursor:
+.OAMData_DexHinaCursor:
 	db 4
 	dsprite -1,  7, -1,  7, $00, $2
 	dsprite -1,  7,  0,  0, $00, $2 | X_FLIP

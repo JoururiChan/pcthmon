@@ -35,7 +35,7 @@ TreeMonSet_Canyon:
 	db -1
 	; rare
 	tree_mon 50, ELIS,    10
-	tree_mon 30, HERACROSS,  10
+	tree_mon 30, CIKU,  10
 	tree_mon 20, AKOMACHI,      10
 	db -1
 
@@ -46,7 +46,7 @@ TreeMonSet_Town:
 	db -1
 	; rare
 	tree_mon 60, ELIS,    10
-	tree_mon 30, HERACROSS,  10
+	tree_mon 30, CIKU,  10
 	tree_mon 10, CHIYURI,     10
 	db -1
 
@@ -57,8 +57,8 @@ TreeMonSet_Route:
 	tree_mon 20, CIRNO,  10
 	db -1
 	; rare
-	tree_mon 40, MURKROW,    10
-	tree_mon 40, PINECO,     10
+	tree_mon 40, MINORIKO,    10
+	tree_mon 40, NITORI,     10
 	tree_mon 20, CIRNO,  10
 	db -1
 
@@ -68,8 +68,8 @@ TreeMonSet_Kanto:
 	tree_mon 20, CIRNO,  10
 	db -1
 	; rare
-	tree_mon 40, MURKROW,    10
-	tree_mon 40, PINECO,     10
+	tree_mon 40, MINORIKO,    10
+	tree_mon 40, NITORI,     10
 	tree_mon 20, CIRNO,  10
 	db -1
 
@@ -80,13 +80,13 @@ TreeMonSet_Lake:
 	db -1
 	; rare
 	tree_mon 50, SWRIGGLE,   10
-	tree_mon 30, PINECO,     10
+	tree_mon 30, NITORI,     10
 	tree_mon 20, CIRNO,  10
 	db -1
 
 TreeMonSet_Forest:
 	tree_mon 50, SWRIGGLE,   10
-	tree_mon 30, PINECO,     10
+	tree_mon 30, NITORI,     10
 	tree_mon 10, CMYSTIA,    10
 	tree_mon  5, FGYOKU, 10
 	tree_mon  5, MAGAN,   10
@@ -108,23 +108,23 @@ TreeMonSet_Apricorns:
 	; rare
 	tree_mon 40, ELIS,               10
 	tree_mon 20, DDAICHAN, 10
-	tree_mon 20, HERACROSS,             10
+	tree_mon 20, CIKU,             10
 	tree_mon 20, CHIYURI,                10
 	db -1
 
 TreeMonSet_NoisyForest:
-	tree_mon 60, PINECO,                  LEVEL_FROM_BADGES - 3
-	tree_mon  5, FORRETRESS,              LEVEL_FROM_BADGES + 2
+	tree_mon 60, NITORI,                  LEVEL_FROM_BADGES - 3
+	tree_mon  5, ANITORI,              LEVEL_FROM_BADGES + 2
 	tree_mon 35, CCIRNO, LEVEL_FROM_BADGES + 0
 	db -1
 	; rare
 	tree_mon 60, CCIRNO, LEVEL_FROM_BADGES + 0
-	tree_mon 30, PINECO,                  LEVEL_FROM_BADGES - 2
-	tree_mon 10, FORRETRESS,              LEVEL_FROM_BADGES + 3
+	tree_mon 30, NITORI,                  LEVEL_FROM_BADGES - 2
+	tree_mon 10, ANITORI,              LEVEL_FROM_BADGES + 3
 	db -1
 
 TreeMonSet_Rock:
 	tree_mon 70, CDAICHAN,     15
 	tree_mon 25, CSARA,    15
-	tree_mon  5, SHUCKLE,    15
+	tree_mon  5, DSUWAKO,    15
 	db -1
