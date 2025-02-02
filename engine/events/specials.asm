@@ -450,22 +450,22 @@ RespawnOneOffs:
 	eventflagreset EVENT_EUSINES_HOUSE_EUSINE
 .CaughtHoOh
 
-	ld de, ENGINE_PLAYER_CAUGHT_GALARIAN_ARTICUNO
+	ld de, ENGINE_PLAYER_CAUGHT_GALARIAN_RAN
 	farcall EngineFlagAction
 	jr nz, .CaughtGalarianArticuno
-	eventflagreset EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_ARTICUNO
+	eventflagreset EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_RAN
 .CaughtGalarianArticuno
 
-	ld de, ENGINE_PLAYER_CAUGHT_GALARIAN_ZAPDOS
+	ld de, ENGINE_PLAYER_CAUGHT_GALARIAN_TRAN
 	farcall EngineFlagAction
 	jr nz, .CaughtGalarianZapdos
-	eventflagreset EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_ZAPDOS
+	eventflagreset EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_TRAN
 .CaughtGalarianZapdos
 
-	ld de, ENGINE_PLAYER_CAUGHT_GALARIAN_MOLTRES
+	ld de, ENGINE_PLAYER_CAUGHT_GALARIAN_CYUKARI
 	farcall EngineFlagAction
 	ret nz
-	eventflagreset EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_MOLTRES
+	eventflagreset EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_CYUKARI
 	ret
 
 RespawnRoamingRaikou:

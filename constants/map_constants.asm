@@ -53,7 +53,7 @@ ENDM
 	map_const ROUTE_44,                                   30,  9 ;  6
 	map_const MAHOGANY_TOWN,                              10,  9 ;  7
 	map_const LAKE_OF_RAGE_HIDDEN_POWER_HOUSE,             4,  4 ;  8
-	map_const LAKE_OF_RAGE_MAGIKARP_HOUSE,                 4,  4 ;  9
+	map_const LAKE_OF_RAGE_LILYBLACK_HOUSE,                 4,  4 ;  9
 	map_const ROUTE_43_MAHOGANY_GATE,                      5,  4 ; 10
 	map_const ROUTE_43_GATE,                               5,  4 ; 11
 	map_const ROUTE_43,                                   10, 27 ; 12

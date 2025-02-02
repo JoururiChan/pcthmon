@@ -259,8 +259,8 @@ endr
 
 	iconpal RED, BLUE ; TTEI
 
-rept NUM_MAGIKARP - 1
-	iconpal RED, BROWN ; MAGIKARP
+rept NUM_LILYBLACK - 1
+	iconpal RED, BROWN ; LILYBLACK
 endr
 
 	iconpal RED, RED ; GYARADOS, GYARADOS_RED_FORM

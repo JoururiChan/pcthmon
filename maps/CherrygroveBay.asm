@@ -47,65 +47,65 @@ CherrygroveBayGalarianBirdsScript:
 	ifequalfwd POTENT_LURE_MENU_OPT, .Galarian_Articuno
 	ifequalfwd MALIGN_LURE_MENU_OPT, .Galarian_Zapdos
 ; HARSH_LURE_MENU_OPT, .Galarian_Moltres
-	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_MOLTRES
+	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_CYUKARI
 	iftruefwd .NothingHappens
 	closetext
 	callasm GalarianMoltresEvent
 	opentext
 	farwritetext MoltresText
-	cry MOLTRES
+	cry CYUKARI
 	pause 15
 	closetext
-	loadwildmon MOLTRES, GALARIAN_FORM, 65
+	loadwildmon CYUKARI, 65
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
-	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_MOLTRES
+	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_CYUKARI
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .NoCatchGalarianMoltres
-	setflag ENGINE_PLAYER_CAUGHT_GALARIAN_MOLTRES
+	setflag ENGINE_PLAYER_CAUGHT_GALARIAN_CYUKARI
 .NoCatchGalarianMoltres
 	end
 
 .Galarian_Articuno
-	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_ARTICUNO
+	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_RAN
 	iftruefwd .NothingHappens
 	closetext
 	callasm GalarianArticunoEvent
 	opentext
 	farwritetext ArticunoText
-	cry ARTICUNO
+	cry RAN
 	pause 15
 	closetext
-	loadwildmon ARTICUNO, GALARIAN_FORM, 65
+	loadwildmon RAN, 65
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
-	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_ARTICUNO
+	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_RAN
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .NoCatchGalarianArticuno
-	setflag ENGINE_PLAYER_CAUGHT_GALARIAN_ARTICUNO
+	setflag ENGINE_PLAYER_CAUGHT_GALARIAN_RAN
 .NoCatchGalarianArticuno
 	end
 
 .Galarian_Zapdos
-	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_ZAPDOS
+	checkevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_TRAN
 	iftruefwd .NothingHappens
 	closetext
 	callasm GalarianZapdosEvent
 	opentext
 	farwritetext ZapdosText
-	cry ZAPDOS
+	cry TRAN
 	pause 15
 	closetext
-	loadwildmon ZAPDOS, GALARIAN_FORM, 65
+	loadwildmon TRAN, 65
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
-	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_ZAPDOS
+	setevent EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_TRAN
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .NoCatchGalarianZapdos
-	setflag ENGINE_PLAYER_CAUGHT_GALARIAN_ZAPDOS
+	setflag ENGINE_PLAYER_CAUGHT_GALARIAN_TRAN
 .NoCatchGalarianZapdos
 	end
 
