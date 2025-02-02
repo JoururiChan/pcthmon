@@ -260,12 +260,12 @@ HinaQuestionAnimation:    INCLUDE "gfx/pokemon/hina_question/anim.asm"
 TTeiAnimation: INCLUDE "gfx/pokemon/ttei/anim.asm"
 TTeiSpikyAnimation: INCLUDE "gfx/pokemon/ttei_spiky/anim.asm"
 
-KikuriPlainAnimation:  INCLUDE "gfx/pokemon/kikuri_plain/anim.asm"
-KikuriFlyAnimation:    INCLUDE "gfx/pokemon/kikuri_fly/anim.asm"
-KikuriSurfAnimation:   INCLUDE "gfx/pokemon/kikuri_surf/anim.asm"
-KikuriPikaAnimation:   INCLUDE "gfx/pokemon/kikuri_pika/anim.asm"
-KikuriChuchuAnimation: INCLUDE "gfx/pokemon/kikuri_chuchu/anim.asm"
-KikuriSparkAnimation:  INCLUDE "gfx/pokemon/kikuri_spark/anim.asm"
+KikuriPlainAnimation:  INCLUDE "gfx/pokemon/ekikuri/anim.asm"
+KikuriFlyAnimation:    INCLUDE "gfx/pokemon/ekikuri_fly/anim.asm"
+KikuriSurfAnimation:   INCLUDE "gfx/pokemon/ekikuri_surf/anim.asm"
+KikuriPikaAnimation:   INCLUDE "gfx/pokemon/ekikuri_pika/anim.asm"
+KikuriChuchuAnimation: INCLUDE "gfx/pokemon/ekikuri_chuchu/anim.asm"
+KikuriSparkAnimation:  INCLUDE "gfx/pokemon/ekikuri_spark/anim.asm"
 
 LilyBlackAnimation:
 LilyBlackSkellyAnimation:
