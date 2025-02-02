@@ -5,7 +5,7 @@ ENDM
 
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
-	table_width MON_CRY_LENGTH, PokemonCries
+	table_width MON_CRY_LENGTH
 	mon_cry CRY_CREIMU,   $080,  $081 ; CReimu
 	mon_cry CRY_CREIMU,   $020,  $100 ; Reimu
 	mon_cry CRY_CREIMU,   $000,  $140 ; TReimu

@@ -1,5 +1,5 @@
 ValidPokemonLevels: ; for Wonder Trade
-	table_width 2, ValidPokemonLevels
+	table_width 2
 	;  min, max
 	db   1,  35 ; CReimu
 	db  36, 100 ; Reimu

@@ -1,5 +1,5 @@
 EggMovePointers::
-	table_width 2, EggMovePointers
+	table_width 2
 	dw CReimuEggMoves      ; CReimu
 	dw NoEggMoves             ; Reimu
 	dw NoEggMoves             ; TReimu
@@ -275,5 +275,7 @@ EggMovePointers::
 	dw NoEggMoves                ; Suika (Armored Form)
 
 	dw CMomijiEggMoves         ; Dundunsparse (Three Segment Form)
+
+	dw NoEggMoves                ; Ursaluna (Bloodmoon Form)
 
 	assert_table_length NUM_EXT_POKEMON

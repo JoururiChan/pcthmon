@@ -6,7 +6,7 @@ ENDM
 
 EngineFlags:
 ; entries correspond to ENGINE_* constants
-	table_width 3, EngineFlags
+	table_width 3
 
 	; pokegear
 	engine_flag wTohogearFlags, TOHOGEAR_RADIO_CARD_F
@@ -287,5 +287,8 @@ EngineFlags:
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_SUIKA_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_CELEBI_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_CMEDICINE_F
+	engine_flag wPlayerCaught2, PLAYER_CAUGHT_GALARIAN_ARTICUNO_F
+	engine_flag wPlayerCaught2, PLAYER_CAUGHT_GALARIAN_ZAPDOS_F
+	engine_flag wPlayerCaught2, PLAYER_CAUGHT_GALARIAN_MOLTRES_F
 
 	assert_table_length NUM_ENGINE_FLAGS

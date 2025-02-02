@@ -3962,7 +3962,13 @@ DrawEnemyHUD:
 	ld a, [wEnemyMonForm]
 	ld [wCurForm], a
 	call GetBaseData
+
+	ld a, [wBattleType]
+	cp BATTLETYPE_GHOST
+	ld de, .ghost_nickname
+	jr z, .got_nickname
 	ld de, wEnemyMonNickname
+.got_nickname
 	hlcoord 1, 0
 	rst PlaceString
 	ld h, b
@@ -3988,6 +3994,10 @@ endr
 	ld [hl], a
 
 .not_shiny
+	ld a, [wBattleType]
+	cp BATTLETYPE_GHOST
+	ld a, " "
+	jr z, .got_gender
 	ld a, TEMPMON
 	ld [wMonType], a
 	farcall GetGender
@@ -4076,6 +4086,9 @@ endr
 	ld [hli], a
 	ld [hl], $58
 	jmp FinishBattleAnim
+
+.ghost_nickname:
+	db "Ghost@"
 
 BattleAnimateHPBar:
 	predef AnimateHPBar
@@ -6681,9 +6694,17 @@ GiveExperiencePoints:
 	pop af
 	ld [wCurPartyLevel], a
 
+	ld a, [wBattleMode]
+	dec a ; wild battle
+	jr z, .defer_evolve
+	call CheckEnemyTrainerDefeated
+	jr z, .defer_evolve
+
 	ld hl, wInitialOptions2
 	bit EVOLVE_IN_BATTLE_OPT, [hl]
 	jr nz, .evolve_now
+
+.defer_evolve
 	ld hl, wEvolvableFlags
 	ld a, [wCurPartyMon]
 	ld c, a
@@ -6704,6 +6725,7 @@ GiveExperiencePoints:
 	lb bc, 6, 6
 	predef PlaceGraphic
 	call EmptyBattleTextbox
+	farcall RunEntryAbilitiesInner
 
 .evolve_logic_done
 	pop af
@@ -7760,13 +7782,25 @@ DropEnemySub:
 	ld a, [wEnemyMonForm]
 	ld [wCurForm], a
 	call GetBaseData
-	ld de, vTiles2
-	predef FrontpicPredef
+	call GetFrontpicOrGhostpic
 	pop af
 	ld [wCurForm], a
 	pop af
 	ld [wCurPartySpecies], a
 	ret
+
+GetFrontpicOrGhostpic:
+	ld a, [wBattleType]
+	cp BATTLETYPE_GHOST
+	jr nz, .not_ghost_battle
+	lb bc, BANK(GhostFrontpic), 7 * 7
+	ld hl, GhostFrontpic
+	ld de, vTiles2
+	jmp DecompressRequest2bpp
+
+.not_ghost_battle
+	ld de, vTiles2
+	predef_jump FrontpicPredef
 
 GetFrontpic_DoAnim:
 	ldh a, [hBattleTurn]
@@ -7823,6 +7857,23 @@ BattleIntro:
 	res rLCDC_WINDOW_TILEMAP, [hl]
 	call InitBattleDisplay
 	call BattleStartMessage
+	ld a, [wBattleType]
+	cp BATTLETYPE_GHOST
+	jr nz, .skip_ghost_reveal
+	ld a, SILPHSCOPE2
+	call _CheckKeyItem
+	jr nc, .skip_ghost_reveal
+	ld hl, SilphScopeRevealText
+	call StdBattleTextbox
+	ld de, vTiles0
+	predef GetFrontpic
+	ld de, ANIM_GHOST_TRANSFORM
+	call PlayBattleAnimDE
+	ld hl, WildPokemonAppearedText
+	call StdBattleTextbox
+	ld a, BATTLETYPE_NORMAL
+	ld [wBattleType], a
+.skip_ghost_reveal
 	ld hl, rLCDC
 	set rLCDC_WINDOW_TILEMAP, [hl]
 	xor a
@@ -7934,9 +7985,7 @@ InitEnemyWildmon:
 	ld a, 1
 	ld [wEnemySwitchTarget], a
 	call SendInUserPkmn
-
-	ld de, vTiles2
-	predef FrontpicPredef
+	call GetFrontpicOrGhostpic
 	xor a
 	ld [wTrainerClass], a
 	ldh [hGraphicStartTile], a
@@ -7945,6 +7994,7 @@ InitEnemyWildmon:
 	predef_jump PlaceGraphic
 
 ExitBattle:
+	call PostBattleTasks
 	call .HandleEndOfBattle
 	call BattleEnd_HandleRoamMons
 	xor a
@@ -7981,7 +8031,7 @@ ExitBattle:
 	call ShowLinkBattleParticipantsAfterEnd
 	ld c, 150
 	call DelayFrames
-	jmp ShowLinkBattleResult
+	jr ShowLinkBattleResult
 
 .not_linked
 	ld a, [wBattleResult]
@@ -8677,6 +8727,10 @@ BattleStartMessage:
 	call CheckSleepingTreeMon
 	jr c, .skip_cry
 
+	ld a, [wBattleType]
+	cp BATTLETYPE_GHOST
+	jr z, .cry_no_anim
+
 	farcall CheckBattleEffects
 	jr c, .cry_no_anim
 
@@ -8712,6 +8766,9 @@ BattleStartMessage:
 	jr z, .PrintBattleStartText
 	cp BATTLETYPE_RED_SLILYBLACK ; or BATTLETYPE_LEGENDARY
 	jr nc, .PrintBattleStartText
+	ld hl, GhostAppearedText
+	cp BATTLETYPE_GHOST
+	jr z, .PrintBattleStartText
 	ld hl, WildPokemonAppearedText
 
 .PrintBattleStartText:

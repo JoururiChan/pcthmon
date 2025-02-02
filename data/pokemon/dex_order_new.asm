@@ -1,7 +1,7 @@
 ; Every Tohomon sorted in New Tohodex Order.
 
 NewTohodexOrder:
-	table_width 2, NewTohodexOrder
+	table_width 2
 	dp CREIMU  ; 01
 	dp REIMU    ; 02
 	dp TREIMU   ; 03

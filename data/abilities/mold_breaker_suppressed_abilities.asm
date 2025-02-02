@@ -23,6 +23,7 @@ MoldBreakerSuppressedAbilities:
 	db MAGIC_BOUNCE
 	db MAGMA_ARMOR
 	db SPRING_CHARM
+	db MINDS_EYE
 	db MOTOR_DRIVE
 	db MULTISCALE
 	db OBLIVIOUS

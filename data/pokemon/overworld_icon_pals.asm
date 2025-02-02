@@ -3,7 +3,7 @@ MACRO iconpal
 ENDM
 
 OverworldMonIconColors::
-	table_width 1, OverworldMonIconColors
+	table_width 1
 	iconpal RED, ORANGE ; CREIMU
 	iconpal RED, ORANGE ; REIMU
 	iconpal RED, ORANGE ; TREIMU
@@ -295,5 +295,7 @@ endr
 	iconpal GRAY, BLACK ; SUIKA, SUIKA_ARMORED_FORM
 
 	iconpal AZURE, RED ; PLACETHM, PLACETHM_THREE_SEGMENT_FORM
+
+	iconpal BROWN, RED ; URSALUNA, URSALUNA_BLOODMOON_FORM
 
 	assert_table_length NUM_UNIQUE_POKEMON

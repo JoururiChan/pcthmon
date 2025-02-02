@@ -1,5 +1,5 @@
 FramesPointers:
-	table_width 2, FramesPointers
+	table_width 2
 	dw CReimuFrames
 	dw ReimuFrames
 	dw TReimuFrames
@@ -261,7 +261,7 @@ FramesPointers:
 	dw MrRimeFrames
 	dw WyrdeerFrames
 	dw KleavorFrames
-	dw UrsalunaFrames
+	dw UrsalunaPlainFrames
 	dw SneaslerFrames
 	dw OverqwilFrames
 	dw DucmomijiTwoSegmentFrames
@@ -334,5 +334,7 @@ FramesPointers:
 	dw SuikaArmoredFrames
 
 	dw DucmomijiThreeSegmentFrames
+
+	dw UrsalunaBloodmoonFrames
 
 	assert_table_length NUM_UNIQUE_POKEMON

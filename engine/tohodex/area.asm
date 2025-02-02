@@ -1,5 +1,5 @@
 Tohodex_AreaTypeLists:
-	list_start Tohodex_AreaTypeLists
+	list_start
 	setcharmap no_ngrams
 	li "Morning"
 	li "Day"

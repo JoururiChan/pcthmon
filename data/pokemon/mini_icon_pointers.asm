@@ -3,7 +3,7 @@ MACRO mini_icon
 ENDM
 
 MiniIconPointers:
-	table_width 7, MiniIconPointers
+	table_width 7
 	mini_icon CReimu
 	mini_icon Reimu
 	mini_icon TReimu
@@ -320,5 +320,7 @@ endr
 	mini_icon SuikaArmored
 
 	mini_icon DucmomijiThreeSegment
+
+	mini_icon UrsalunaBloodmoon
 
 	assert_table_length NUM_UNIQUE_POKEMON

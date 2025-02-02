@@ -34,7 +34,7 @@ MACRO tmhm
 ENDM
 
 BaseData::
-	table_width BASE_DATA_SIZE, BaseData
+	table_width BASE_DATA_SIZE
 INCLUDE "data/pokemon/base_stats/creimu.asm"
 INCLUDE "data/pokemon/base_stats/reimu.asm"
 INCLUDE "data/pokemon/base_stats/treimu.asm"
@@ -296,7 +296,7 @@ INCLUDE "data/pokemon/base_stats/sirfetch_d.asm"
 INCLUDE "data/pokemon/base_stats/mr__rime.asm"
 INCLUDE "data/pokemon/base_stats/wyrdeer.asm"
 INCLUDE "data/pokemon/base_stats/kleavor.asm"
-INCLUDE "data/pokemon/base_stats/ursaluna.asm"
+INCLUDE "data/pokemon/base_stats/ursaluna_plain.asm"
 INCLUDE "data/pokemon/base_stats/sneasler.asm"
 INCLUDE "data/pokemon/base_stats/overqwil.asm"
 INCLUDE "data/pokemon/base_stats/placethm.asm"
@@ -310,5 +310,7 @@ INCLUDE "data/pokemon/base_stats/slilyblack.asm" ; red
 INCLUDE "data/pokemon/base_stats/suika_armored.asm"
 
 INCLUDE "data/pokemon/base_stats/placethm.asm" ; three segment
+
+INCLUDE "data/pokemon/base_stats/ursaluna_bloodmoon.asm"
 
 	assert_table_length NUM_EXT_POKEMON

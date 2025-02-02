@@ -6,7 +6,7 @@ ENDM
 
 PokemonBodyData:
 ; entries correspond to constants/pokemon_constants.asm
-	table_width BODY_DATA_SIZE, PokemonBodyData
+	table_width BODY_DATA_SIZE
 	body_data  36,   30, WINGS,    RED    ; CREIMU
 	body_data  36,  60, WINGS,    RED  ; REIMU
 	body_data  36, 150, WINGS,    RED  ; TREIMU
@@ -282,5 +282,7 @@ PokemonBodyData:
 	body_data  22, 1370, BIPEDAL_TAIL, GRAY   ; SUIKA (SUIKA_ARMORED_FORM)
 
 	body_data  45,  474, SERPENTINE,   YELLOW ; PLACETHM (PLACETHM_THREE_SEGMENT_FORM)
+
+	body_data  27, 3330, BIPEDAL_TAIL, BROWN  ; URSALUNA (URSALUNA_BLOODMOON_FORM)
 
 	assert_table_length NUM_EXT_POKEMON

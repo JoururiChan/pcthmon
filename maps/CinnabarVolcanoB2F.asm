@@ -94,11 +94,9 @@ CinnabarVolcanoCYukari:
 	setevent EVENT_CINNABAR_VOLCANO_CYUKARI
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
-	iffalsefwd .NoCandela
+	iffalsefwd .NoCatch
 	setflag ENGINE_PLAYER_CAUGHT_CYUKARI
-	setevent EVENT_CELADON_UNIVERSITY_CANDELA
-	clearevent EVENT_SHAMOUTI_COAST_CANDELA
-.NoCandela
+.NoCatch
 	checkevent EVENT_SEAFOAM_ISLANDS_RAN
 	iffalsefwd .end
 	checkevent EVENT_ROUTE_10_TRAN

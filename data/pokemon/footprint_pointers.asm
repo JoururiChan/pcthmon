@@ -1,5 +1,5 @@
 FootprintPointers::
-	table_width 2, FootprintPointers
+	table_width 2
 	dw CReimuFootprint
 	dw ReimuFootprint
 	dw TReimuFootprint
@@ -275,5 +275,7 @@ FootprintPointers::
 	dw SuikaFootprint
 
 	dw DucmomijiFootprint
+
+	dw UrsalunaFootprint
 
 	assert_table_length NUM_EXT_POKEMON

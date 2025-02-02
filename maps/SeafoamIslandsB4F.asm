@@ -109,11 +109,9 @@ SeafoamIslandsRan:
 	setevent EVENT_SEAFOAM_ISLANDS_RAN
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
-	iffalsefwd .NoBlanche
+	iffalsefwd .NoCatch
 	setflag ENGINE_PLAYER_CAUGHT_RAN
-	setevent EVENT_CELADON_UNIVERSITY_BLANCHE
-	clearevent EVENT_SHAMOUTI_COAST_BLANCHE
-.NoBlanche
+.NoCatch
 	checkevent EVENT_ROUTE_10_TRAN
 	iffalsefwd .end
 	checkevent EVENT_CINNABAR_VOLCANO_CYUKARI

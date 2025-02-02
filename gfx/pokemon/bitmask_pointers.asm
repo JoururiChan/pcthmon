@@ -1,5 +1,5 @@
 BitmasksPointers:
-	table_width 2, BitmasksPointers
+	table_width 2
 	dw CReimuBitmasks
 	dw ReimuBitmasks
 	dw TReimuBitmasks
@@ -261,7 +261,7 @@ BitmasksPointers:
 	dw MrRimeBitmasks
 	dw WyrdeerBitmasks
 	dw KleavorBitmasks
-	dw UrsalunaBitmasks
+	dw UrsalunaPlainBitmasks
 	dw SneaslerBitmasks
 	dw OverqwilBitmasks
 	dw DucmomijiTwoSegmentBitmasks
@@ -332,5 +332,7 @@ BitmasksPointers:
 	dw SuikaArmoredBitmasks
 
 	dw DucmomijiThreeSegmentBitmasks
+
+	dw UrsalunaBloodmoonBitmasks
 
 	assert_table_length NUM_UNIQUE_POKEMON

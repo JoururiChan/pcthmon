@@ -3,7 +3,7 @@ MACRO pics
 ENDM
 
 PokemonPicPointers::
-	table_width 5, PokemonPicPointers
+	table_width 5
 	pics CReimu
 	pics Reimu
 	pics TReimu
@@ -265,7 +265,7 @@ PokemonPicPointers::
 	pics MrRime
 	pics Wyrdeer
 	pics Kleavor
-	pics Ursaluna
+	pics UrsalunaPlain
 	pics Sneasler
 	pics Overqwil
 	pics DucmomijiTwoSegment
@@ -336,5 +336,7 @@ PokemonPicPointers::
 	pics SuikaArmored
 
 	pics DucmomijiThreeSegment
+
+	pics UrsalunaBloodmoon
 
 	assert_table_length NUM_UNIQUE_POKEMON

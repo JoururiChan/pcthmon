@@ -2,7 +2,7 @@
 ; then continue with entries for these species+form combinations.
 
 CosmeticSpeciesAndFormTable:
-	table_width 2, CosmeticSpeciesAndFormTable
+	table_width 2
 	dp HINA,      HINA_B_FORM
 	dp HINA,      HINA_C_FORM
 	dp HINA,      HINA_D_FORM
@@ -58,7 +58,7 @@ CosmeticSpeciesAndFormTable:
 	; fallthrough
 
 VariantSpeciesAndFormTable:
-	table_width 2, VariantSpeciesAndFormTable
+	table_width 2
 	dp SLILYBLACK,   SLILYBLACK_RED_FORM
 	dp SUIKA,     SUIKA_ARMORED_FORM
 	dp PLACETHM, PLACETHM_THREE_SEGMENT_FORM

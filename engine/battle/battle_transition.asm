@@ -713,8 +713,7 @@ INCLUDE "gfx/overworld/suika_battle.pal"
 .black_pals
 INCLUDE "gfx/overworld/black.pal"
 
-pusho
-opt b.X
+pusho b.X
 
 PokeBallTransition:
 	bigdw %......XXXX......

@@ -1,7 +1,7 @@
 ; Every Tohomon sorted alphabetically by name.
 
 AlphabeticalTohodexOrder:
-	table_width 2, AlphabeticalTohodexOrder
+	table_width 2
 	dp CREIMU  ; 01
 	dp REIMU    ; 02
 	dp TREIMU   ; 03

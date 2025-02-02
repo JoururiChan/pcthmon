@@ -214,11 +214,9 @@ Route10TRan:
 	setevent EVENT_ROUTE_10_TRAN
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
-	iffalsefwd .NoSpark
+	iffalsefwd .NoCatch
 	setflag ENGINE_PLAYER_CAUGHT_TRAN
-	setevent EVENT_CELADON_UNIVERSITY_SPARK
-	clearevent EVENT_SHAMOUTI_COAST_SPARK
-.NoSpark
+.NoCatch
 	checkevent EVENT_SEAFOAM_ISLANDS_RAN
 	iffalsefwd .end
 	checkevent EVENT_CINNABAR_VOLCANO_CYUKARI

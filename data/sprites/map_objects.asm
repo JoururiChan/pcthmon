@@ -5,7 +5,7 @@ ENDM
 
 SpriteMovementData::
 ; entries correspond to SPRITEMOVEDATA_* constants
-	table_width NUM_SPRITEMOVEDATA_FIELDS, SpriteMovementData
+	table_width NUM_SPRITEMOVEDATA_FIELDS
 	; function,                                              facing, action,                         flags1, flags2, palette flags
 	sprite_movement_data SPRITEMOVEFN_00,                    DOWN,   OBJECT_ACTION_STAND,            $02,    $00,    %0000 ; SPRITEMOVEDATA_00
 	sprite_movement_data SPRITEMOVEFN_STANDING,              DOWN,   OBJECT_ACTION_STAND,            $0c,    $00,    %0000 ; SPRITEMOVEDATA_STILL
@@ -53,5 +53,5 @@ SpriteMovementData::
 	sprite_movement_data SPRITEMOVEFN_SAILBOAT_BOTTOM,       DOWN,   OBJECT_ACTION_SAILBOAT_BOTTOM,  $2e,    $01,    %1100 ; SPRITEMOVEDATA_SAILBOAT_BOTTOM
 	sprite_movement_data SPRITEMOVEFN_TINY_WINDOWS,          DOWN,   OBJECT_ACTION_TINY_WINDOWS,     $8e,    $02,    %0000 ; SPRITEMOVEDATA_TINY_WINDOWS
 	sprite_movement_data SPRITEMOVEFN_STANDING,              UP,     OBJECT_ACTION_STAND,            $8e,    $02,    %0000 ; SPRITEMOVEDATA_PLACEHOLDER_UP
-	sprite_movement_data SPRITEMOVEFN_MICROPHONE,            LEFT,   OBJECT_ACTION_MICROPHONE,       $0c,    $00,    %0000 ; SPRITEMOVEDATA_MICROPHONE
+	sprite_movement_data SPRITEMOVEFN_MICROPHONE,            LEFT,   OBJECT_ACTION_MICROPHONE,       $0c,    LOW_PRIORITY,    %0000 ; SPRITEMOVEDATA_MICROPHONE
 	assert_table_length NUM_SPRITEMOVEDATA

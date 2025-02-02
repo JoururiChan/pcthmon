@@ -7,6 +7,9 @@ EvolveDuringBattle::
 	ld a, [hl]
 	ld [wEvolutionOldForm], a
 
+	farcall CheckHowToEvolve
+	ret z
+
 	ld a, BANK("Sound Stack")
 	ldh [rSVBK], a
 	ld hl, wSoundEngineBackup
@@ -23,9 +26,6 @@ EvolveDuringBattle::
 	ei
 	ld a, $1
 	ldh [rSVBK], a
-
-	farcall CheckHowToEvolve
-	ret z
 
 	farcall TryToEvolve
 	jr c, .canceled
@@ -89,9 +89,15 @@ EvolveDuringBattle::
 	farcall CancelEvolution
 
 .done
+	ld a, [wCurPartyMon]
+	push af
 	ld a, [wCurBattleMon]
 	ld [wCurPartyMon], a
 	call .load_mon_data
+	call ResetPlayerAbility
+	pop af
+	ld [wCurPartyMon], a
+
 
 	ld a, BANK("Sound Stack")
 	ldh [rSVBK], a

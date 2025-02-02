@@ -2338,6 +2338,14 @@ YoungsterGroup:
 	dbp LEVEL_FROM_BADGES + 8, SARIEL
 	db -1 ; end
 
+	; YOUNGSTER
+	db "Arden@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 55, FLAREON
+	dbp 53, TAUROS
+	dbp 55, RAPIDASH
+	db -1 ; end
 
 SECTION "BugCatcherGroup", ROMX
 BugCatcherGroup:
@@ -2950,6 +2958,14 @@ endc
 	dbp 62, CRIKAKO
 	db -1 ; end
 
+	; PICNICKER
+	db "Zane@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 54, JOLTEON
+	dbp 53, RAICHU
+	dbp 55, ELECTIVIRE
+	db -1 ; end
 
 SECTION "TwinsGroup", ROMX
 TwinsGroup:
@@ -4803,6 +4819,14 @@ CosplayerGroup:
 		db CHARCOAL
 	db -1 ; end
 
+	; COSPLAYER
+	db "Lyric@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 54, LANTURN
+	dbp 53, MAGNEZONE
+	dbp 55, ELECTRODE
+	db -1 ; end
 
 SECTION "SuperNerdGroup", ROMX
 SuperNerdGroup:
@@ -5197,6 +5221,15 @@ endc
 		db QUICK_POWDER
 	dbp LEVEL_FROM_BADGES + 9, LYRICA
 		db FOCUS_SASH
+	db -1 ; end
+
+	; LASS
+	db "Mavis@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 55, TOGEKISS
+	dbp 53, JOLTEON
+	dbp 52, AMPHAROS
 	db -1 ; end
 
 
@@ -6195,6 +6228,14 @@ HexManiacGroup:
 	dbp 54, CHINA
 	db -1 ; end
 
+	; HEX_MANIAC
+	db "Coryn@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 53, MISMAGIUS
+	dbp 52, ESPEON
+	dbp 55, GENGAR
+	db -1 ; end
 
 SECTION "SageGroup", ROMX
 SageGroup:
@@ -6743,6 +6784,15 @@ else
 		db KINGS_ROCK, $EE, $EE, $EE, ABIL_SYLVEON_SERENE_GRACE | NAT_NEUTRAL
 endc
 		db HEADBUTT, LUSTER_HEART, POISON_GAS, DISARM_VOICE
+	db -1 ; end
+
+	; RICH_BOY
+	db "Tobin@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 53, MAGMAR
+	dbp 54, GOLEM
+	dbp 55, MACHOKE
 	db -1 ; end
 
 
@@ -7725,6 +7775,14 @@ ScientistGroup:
 	dbp 55, CYUKA
 	db -1 ; end
 
+	; SCIENTIST
+	db "Sanders@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 52, ALAKAZAM
+	dbp 54, LAPRAS
+	dbp 53, NOCTOWL
+	db -1 ; end
 
 SECTION "RocketScientistGroup", ROMX
 RocketScientistGroup:
@@ -8019,6 +8077,15 @@ BlackbeltGroup:
 	dbp 56, CELLY
 	db -1 ; end
 
+	; BLACKBELT_T
+	db "Rylan@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 54, MAGMORTAR
+	dbp 52, ARCANINE
+	dbp 53, HOUNDOOM
+	db -1 ; end
+
 
 SECTION "BattleGirlGroup", ROMX
 BattleGirlGroup:
@@ -8086,6 +8153,15 @@ BattleGirlGroup:
 	dbp LEVEL_FROM_BADGES + 10, CTENSHI, MALE
 		db PROTECT_PADS, FAKE_PERFECT_DVS, ABIL_CTENSHI_UNNERVE | NAT_ATK_UP_SATK_DOWN
 		db PLAY_ROUGH, SLASH, BELLY_DRUM, NIGHT_SLASH
+	db -1 ; end
+
+	; BATTLE_GIRL
+	db "Sasha@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 52, PRIMEAPE
+	dbp 55, TYPHLOSION
+	dbp 54, RAPIDASH
 	db -1 ; end
 
 
@@ -8258,17 +8334,17 @@ EngineerGroup:
 		db ABILITY_2 | NAT_NEUTRAL
 	db -1 ; end
 
-SECTION "TeacherGroup", ROMX
-TeacherGroup:
+SECTION "TeacherFGroup", ROMX
+TeacherFGroup:
 
-	; TEACHER
+	; TEACHER_F
 	db "Colette@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 60, CMEIRA
 	db -1 ; end
 
-	; TEACHER
+	; TEACHER_F
 	db "Hillary@"
 	db TRAINERTYPE_NORMAL
 	; party
@@ -8277,14 +8353,14 @@ TeacherGroup:
 	dbp 59, MEILING
 	db -1 ; end
 
-	; TEACHER
+	; TEACHER_F
 	db "Shirley@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 47, ELLEN
 	db -1 ; end
 
-	; TEACHER
+	; TEACHER_F
 	db "Kathryn@"
 	db TRAINERTYPE_NORMAL
 	; party
@@ -8293,7 +8369,7 @@ TeacherGroup:
 	dbp LEVEL_FROM_BADGES + 2, WRIGGLE
 	db -1 ; end
 
-	; TEACHER
+	; TEACHER_F
 	db "Clarice@"
 	db TRAINERTYPE_NORMAL
 	; party
@@ -8301,6 +8377,14 @@ TeacherGroup:
 	dbp 56, EIKI
 	db -1 ; end
 
+	; TEACHER_F
+	db "Serena@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 55, UMBREON
+	dbp 52, VAPOREON
+	dbp 54, ESPEON
+	db -1 ; end
 
 SECTION "GuitaristMGroup", ROMX
 GuitaristMGroup:
@@ -9113,6 +9197,15 @@ CooltrainerMGroup:
 	dbp 64, KONGARA
 		db LEFTOVERS, "Empress@"
 		ev_spread 192 Atk, 192 Spe
+	db -1 ; end
+
+	; COOLTRAINERM
+	db "Daric@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 54, PORYGON_Z
+	dbp 53, SLOWKING
+	dbp 55, GLACEON
 	db -1 ; end
 
 
@@ -11398,6 +11491,19 @@ ReiGroup:
 	dbp 75, CELLEN
 		db LEFTOVERS
 		db NASTY_PLOT, HELLBLAZE, DARK_PULSE, SHADOW_BALL
+	db -1 ; end
+
+
+SECTION "TeacherMGroup", ROMX
+TeacherMGroup:
+
+	; TEACHER_M
+	db "Nolan@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 54, ELECTRODE
+	dbp 55, MAGNEZONE
+	dbp 56, ELECTIVIRE
 	db -1 ; end
 
 ENDSECTION

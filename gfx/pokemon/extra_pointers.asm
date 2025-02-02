@@ -1,5 +1,5 @@
 AnimationExtraPointers:
-	table_width 2, AnimationExtraPointers
+	table_width 2
 	dw CReimuAnimationExtra
 	dw ReimuAnimationExtra
 	dw TReimuAnimationExtra
@@ -261,7 +261,7 @@ AnimationExtraPointers:
 	dw MrRimeAnimationExtra
 	dw WyrdeerAnimationExtra
 	dw KleavorAnimationExtra
-	dw UrsalunaAnimationExtra
+	dw UrsalunaPlainAnimationExtra
 	dw SneaslerAnimationExtra
 	dw OverqwilAnimationExtra
 	dw DucmomijiTwoSegmentAnimationExtra
@@ -333,5 +333,7 @@ AnimationExtraPointers:
 	dw SuikaArmoredAnimationExtra
 
 	dw DucmomijiThreeSegmentAnimationExtra
+
+	dw UrsalunaBloodmoonAnimationExtra
 
 	assert_table_length NUM_UNIQUE_POKEMON

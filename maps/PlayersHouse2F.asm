@@ -252,9 +252,9 @@ endr
 	givepoke PLACETHM, PLACETHM_THREE_SEGMENT_FORM, 50
 	; evolve during battle
 	givepoke CLILYBLACK, 50
-	loadmem wPartyMon6Exp+2, LOW(165812)
-	loadmem wPartyMon6Exp+1, HIGH(165812)
-	loadmem wPartyMon6Exp+0, 165812 >> 16
+	loadmem wPartyMon6Exp+2, LOW(207967)
+	loadmem wPartyMon6Exp+1, HIGH(207967)
+	loadmem wPartyMon6Exp+0, 207967 >> 16
 	; fill pokedex
 	callasm FillTohodex
 ;	; new bark events

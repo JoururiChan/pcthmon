@@ -1,6 +1,6 @@
 TohodexDataPointerTable:
 ; entries correspond to constants/pokemon_constants.asm
-	table_width 3, TohodexDataPointerTable
+	table_width 3
 	dba CReimuTohodexEntry
 	dba ReimuTohodexEntry
 	dba TReimuTohodexEntry
@@ -276,5 +276,7 @@ TohodexDataPointerTable:
 	dba SuikaArmoredTohodexEntry
 
 	dba DucmomijiTohodexEntry
+
+	dba UrsalunaBloodmoonTohodexEntry
 
 	assert_table_length NUM_EXT_POKEMON
