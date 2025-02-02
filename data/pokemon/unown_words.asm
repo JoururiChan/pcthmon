@@ -1,5 +1,5 @@
 UnownWords:
-; entries correspond to UNOWN_* form constants
+; entries correspond to HINA_* form constants
 	table_width 1
 	dr UnownWord1
 	dr UnownWord2
@@ -29,7 +29,7 @@ UnownWords:
 	dr UnownWord26
 	dr UnownWord27
 	dr UnownWord28
-	assert_table_length NUM_UNOWN
+	assert_table_length NUM_HINA
 
 UnownWord1:  db "ANGER@"
 UnownWord2:  db "BEAR@"

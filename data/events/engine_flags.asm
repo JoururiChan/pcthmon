@@ -26,7 +26,7 @@ EngineFlags:
 	engine_flag wMomSavingMoney, MOM_ACTIVE_F
 
 	engine_flag wStatusFlags, STATUSFLAGS_TOHODEX_F
-	engine_flag wStatusFlags, STATUSFLAGS_UNOWN_DEX_F
+	engine_flag wStatusFlags, STATUSFLAGS_HINA_DEX_F
 	engine_flag wStatusFlags, STATUSFLAGS_CAUGHT_POKERUS_F
 	engine_flag wStatusFlags, STATUSFLAGS_ROCKET_SIGNAL_F
 	engine_flag wStatusFlags, STATUSFLAGS_HALL_OF_FAME_F
@@ -70,10 +70,10 @@ EngineFlags:
 	engine_flag wKantoBadges, EARTHBADGE
 
 	; unown sets (see data/wild/unlocked_unowns.asm)
-	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_A_TO_J_F
-	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_K_TO_Q_F
-	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_R_TO_W_F
-	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_X_TO_QUESTION_F
+	engine_flag wUnlockedUnowns, UNLOCKED_HINAS_A_TO_J_F
+	engine_flag wUnlockedUnowns, UNLOCKED_HINAS_K_TO_Q_F
+	engine_flag wUnlockedUnowns, UNLOCKED_HINAS_R_TO_W_F
+	engine_flag wUnlockedUnowns, UNLOCKED_HINAS_X_TO_QUESTION_F
 	engine_flag wUnlockedUnowns, 4 ; unused
 	engine_flag wUnlockedUnowns, 5 ; unused
 	engine_flag wUnlockedUnowns, 6 ; unused

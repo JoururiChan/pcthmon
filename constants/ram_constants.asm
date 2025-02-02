@@ -92,7 +92,7 @@ DEF FONT_MASK EQU %00000111
 	const SERIF_FONT   ; %100
 	const CHICAGO_FONT ; %101
 	const MICR_FONT    ; %110
-	const UNOWN_FONT   ; %111
+	const HINA_FONT   ; %111
 DEF NUM_FONTS EQU const_value
 
 ; wInitialOptions::
@@ -239,7 +239,7 @@ DEF SPAWN_LEAF  EQU 2
 ; wStatusFlags::
 	const_def
 	const STATUSFLAGS_TOHODEX_F                  ; 0
-	const STATUSFLAGS_UNOWN_DEX_F                ; 1
+	const STATUSFLAGS_HINA_DEX_F                ; 1
 	const STATUSFLAGS_FLASH_F                    ; 2
 	const STATUSFLAGS_CAUGHT_POKERUS_F           ; 3
 	const STATUSFLAGS_ROCKET_SIGNAL_F            ; 4
@@ -411,11 +411,11 @@ DEF NUM_POKEMON_JOURNALS EQU const_value
 
 ; wUnlockedUnowns ::
 	const_def
-	const UNLOCKED_UNOWNS_A_TO_J_F
-	const UNLOCKED_UNOWNS_K_TO_Q_F
-	const UNLOCKED_UNOWNS_R_TO_W_F
-	const UNLOCKED_UNOWNS_X_TO_QUESTION_F
-DEF NUM_UNLOCKED_UNOWN_SETS EQU const_value
+	const UNLOCKED_HINAS_A_TO_J_F
+	const UNLOCKED_HINAS_K_TO_Q_F
+	const UNLOCKED_HINAS_R_TO_W_F
+	const UNLOCKED_HINAS_X_TO_QUESTION_F
+DEF NUM_UNLOCKED_HINA_SETS EQU const_value
 
 ; wLuckyNumberShowFlag::
 DEF LUCKYNUMBERSHOW_GAME_OVER_F EQU 0
