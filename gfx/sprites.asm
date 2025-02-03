@@ -485,8 +485,8 @@ SwimmingOfficerFSpriteGFX:: INCBIN "gfx/sprites/swimming_officer_f.2bpp.lz"
 SECTION "CMeiraWalkSpriteGFX", ROMX
 CMeiraWalkSpriteGFX:: INCBIN "gfx/sprites/cmeira.2bpp.lz"
 
-SECTION "FarfetchDSpriteGFX", ROMX
-FarfetchDSpriteGFX:: INCBIN "gfx/sprites/farfetch_d.2bpp.lz"
+SECTION "CMaiSpriteGFX", ROMX
+CMaiSpriteGFX:: INCBIN "gfx/sprites/cmai.2bpp.lz"
 
 SECTION "CLyricaSpriteGFX", ROMX
 CLyricaSpriteGFX:: INCBIN "gfx/sprites/cyrlica.2bpp.lz"
