@@ -81,7 +81,7 @@ DarkCaveVioletEntranceFalknerTrigger:
 	cry CMIMA
 	waitsfx
 	playsound SFX_TACKLE
-	applymovement DARKCAVEVIOLETENTRANCE_CMIMA, DarkCaveVioletEntranceMovementData_PidgeottoAttack
+	applymovement DARKCAVEVIOLETENTRANCE_CMIMA, DarkCaveVioletEntranceMovementData_EMimaAttack
 	waitsfx
 	pause 30
 	cry CTENSHI
@@ -98,7 +98,7 @@ DarkCaveVioletEntranceFalknerTrigger:
 	applyonemovement DARKCAVEVIOLETENTRANCE_FALKNER, step_left
 	end
 
-DarkCaveVioletEntranceMovementData_PidgeottoAttack:
+DarkCaveVioletEntranceMovementData_EMimaAttack:
 	run_step_right
 	run_step_left
 	step_end
@@ -120,12 +120,12 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 
 DarkCaveVioletEntranceFalknerAttackText:
 	text "Falkner: Use Wing"
-	line "Attack, Pidgeotto!"
+	line "Attack, EMima!"
 	done
 
 DarkCaveVioletEntranceFalknerReturnText:
 	text "Good job,"
-	line "Pidgeotto."
+	line "EMima."
 	done
 
 DarkCaveVioletEntranceFalknerIntroText:
