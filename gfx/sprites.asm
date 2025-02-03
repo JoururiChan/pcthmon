@@ -489,7 +489,7 @@ SECTION "CMaiSpriteGFX", ROMX
 CMaiSpriteGFX:: INCBIN "gfx/sprites/cmai.2bpp.lz"
 
 SECTION "CLyricaSpriteGFX", ROMX
-CLyricaSpriteGFX:: INCBIN "gfx/sprites/cyrlica.2bpp.lz"
+CLyricaSpriteGFX:: INCBIN "gfx/sprites/clyrica.2bpp.lz"
 
 SECTION "TLyricaSpriteGFX", ROMX
 TLyricaSpriteGFX:: INCBIN "gfx/sprites/tlyrica.2bpp.lz"
@@ -513,7 +513,7 @@ SECTION "BigCRanSpriteGFX", ROMX
 BigCRanSpriteGFX:: INCBIN "gfx/sprites/big_cran.2bpp.lz"
 
 SECTION "BigCLyricaSpriteGFX", ROMX
-BigCLyricaSpriteGFX:: INCBIN "gfx/sprites/big_cyrlica.2bpp.lz"
+BigCLyricaSpriteGFX:: INCBIN "gfx/sprites/big_clyrica.2bpp.lz"
 
 SECTION "BigCRumiaSpriteGFX", ROMX
 BigCRumiaSpriteGFX:: INCBIN "gfx/sprites/big_crumia.2bpp.lz"
