@@ -618,15 +618,6 @@ DEF NUM_APRICORNS EQU const_value - 1
 	const CLEVER_WING ; 5
 DEF NUM_WINGS EQU const_value
 
-; CANDY_JAR contents
-	const_def 1
-	const EXP_CANDY_XS ; 1
-	const EXP_CANDY_S  ; 2
-	const EXP_CANDY_M  ; 3
-	const EXP_CANDY_L  ; 4
-	const EXP_CANDY_XL ; 5
-DEF NUM_CANDIES EQU const_value - 1
-
 ; key item ids
 ; indexes for:
 ; - KeyItemNames (see data/items/key_names.asm)
@@ -644,7 +635,6 @@ DEF NUM_CANDIES EQU const_value - 1
 	const COIN_CASE    ; 06
 	const APRICORN_BOX ; 07
 	const WING_CASE    ; 08
-	const CANDY_JAR    ; 09
 	const TYPE_CHART   ; 0a
 	const GBC_SOUNDS   ; 0b
 	const BLUE_CARD    ; 0c
@@ -667,7 +657,6 @@ DEF NUM_CANDIES EQU const_value - 1
 	const ORANGETICKET ; 1d
 	const MYSTICTICKET ; 1e
 	const OLD_SEA_MAP  ; 1f
-	const LIFT_KEY     ; 20
 	const HARSH_LURE   ; 21
 	const POTENT_LURE  ; 22
 	const MALIGN_LURE  ; 23
@@ -684,7 +673,6 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_BASEMENT_KEY
 	const NAM_BICYCLE
 	const NAM_BLUE_CARD
-	const NAM_CANDY_JAR
 	const NAM_CARD_KEY
 	const NAM_CATCH_CHARM
 	const NAM_CLEAR_BELL
@@ -695,7 +683,6 @@ DEF NUM_KEY_ITEMS EQU const_value - 1
 	const NAM_GS_BALL
 	const NAM_HARSH_LURE
 	const NAM_ITEMFINDER
-	const NAM_LIFT_KEY
 	const NAM_LOST_ITEM
 	const NAM_MACHINE_PART
 	const NAM_MALIGN_LURE

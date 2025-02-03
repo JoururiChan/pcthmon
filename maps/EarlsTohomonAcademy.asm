@@ -24,11 +24,11 @@ EarlsTohomonAcademy_MapScriptHeader:
 	object_event  4, 11, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EarlsTohomonAcademyGameboyKid2Script, -1
 
 	object_const_def
-	const EARLSTOHOMONACADEMY_EARL
+	const EARLSPOKEMONACADEMY_EARL
 
 AcademyEarl:
 	givekeyitem TYPE_CHART ; failsafe in case Violet City Earl is gone already in a save
-	applymovement EARLSTOHOMONACADEMY_EARL, AcademyEarlSpinMovement
+	applymovement EARLSPOKEMONACADEMY_EARL, AcademyEarlSpinMovement
 	faceplayer
 	opentext
 	writetext AcademyEarlIntroText
