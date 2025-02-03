@@ -1611,7 +1611,7 @@ ALIGN 8
 wDexAreaMons::
 ; Array size needs to be a multiple of 10 covering all landmarks for a region.
 ; Upper cap is 120.
-for n, 1, 80
+for n, 1, 100
 wDexAreaMon{d:n}::
 wDexAreaMon{d:n}YCoord:: db
 wDexAreaMon{d:n}XCoord:: db
