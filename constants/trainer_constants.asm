@@ -358,6 +358,7 @@ DEF CRYS EQU __trainer_class__
 	const REX
 	const ALLAN
 
+	trainerclass TOHOFANF ; 2b
 	const BEVERLY1
 	const BEVERLY2
 	const BEVERLY3
