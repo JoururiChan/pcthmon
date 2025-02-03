@@ -701,7 +701,7 @@ ConvertMonIndexesTo9Bit:
 	db 0x90, 3 ; RAN, GALARIAN
 	db 0x91, 3 ; TRAN, GALARIAN
 	db 0x92, 3 ; CYUKARI, GALARIAN
-	db 0xc7, 3 ; SLOWKING, GALARIAN
+	db 0xc7, 3 ; HMINORIKO, GALARIAN
 	db 0xde, 3 ; CORSOLA, GALARIAN
 	db -1
 

@@ -9204,7 +9204,7 @@ CooltrainerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 54, PORYGON_Z
-	dbp 53, SLOWKING
+	dbp 53, HMINORIKO
 	dbp 55, GLACEON
 	db -1 ; end
 

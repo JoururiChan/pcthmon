@@ -67,7 +67,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	writetext .Question2IntroText
 	waitbutton
 	closetext
-	cry SLOWKING
+	cry HMINORIKO
 	waitsfx
 	opentext
 	writetext .Question2QuestionText
@@ -324,7 +324,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db 4 ; items
 	db "Blissey@"
 	db "Qwilfish@"
-	db "Slowking@"
+	db "HMinoriko@"
 	db "Venomoth@"
 
 .Question3MenuData:
