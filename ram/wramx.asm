@@ -1537,7 +1537,7 @@ wDexMapEnd::
 
 UNION
 wDexVWFTiles:: ds 19 tiles ; 1 tile padding
-wDexIconTiles:: ds 23 tiles ; 4 tiles padding
+wDexIconTiles:: ds 24 tiles ; 4 tiles padding
 wDexRowTilesDest::
 wDexVWFTilesDest:: dw
 wDexIconTilesDest:: dw
@@ -1605,13 +1605,13 @@ wDexAreaLastMode:: db
 
 	; Used to align wDexAreaMons. Feel free to add more data here, just don't
 	; let wDexAreaMons be misaligned (an assert will tell you if you do).
-	ds 5
+	ds 4
 
 ALIGN 8
 wDexAreaMons::
 ; Array size needs to be a multiple of 10 covering all landmarks for a region.
 ; Upper cap is 120.
-for n, 1, 80
+for n, 1, 100
 wDexAreaMon{d:n}::
 wDexAreaMon{d:n}YCoord:: db
 wDexAreaMon{d:n}XCoord:: db
