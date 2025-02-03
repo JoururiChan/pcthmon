@@ -1520,7 +1520,7 @@ wShadowOAMBackupEnd::
 
 SECTION UNION "Metatiles", WRAMX
 
-wDecompressedMetatiles:: ds 256 tiles
+wDecompressedMetatiles:: ds 255 tiles
 
 
 SECTION UNION "Metatiles", WRAMX
