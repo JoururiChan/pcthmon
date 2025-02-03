@@ -364,8 +364,8 @@ SECTION "bank24", ROMX
 
 INCLUDE "engine/phone/phone.asm"
 INCLUDE "engine/rtc/timeset.asm"
-INCLUDE "engine/pokegear/phone.asm"
-INCLUDE "engine/pokegear/pokegear.asm"
+INCLUDE "engine/tohogear/phone.asm"
+INCLUDE "engine/tohogear/tohogear.asm"
 INCLUDE "engine/events/fish.asm"
 INCLUDE "engine/games/slot_machine.asm"
 
@@ -414,7 +414,7 @@ INCLUDE "engine/events/map_name_sign.asm"
 INCLUDE "engine/events/checkforhiddenitems.asm"
 INCLUDE "engine/events/treemons.asm"
 INCLUDE "engine/events/fishing_gfx.asm"
-INCLUDE "engine/pokegear/radio.asm"
+INCLUDE "engine/tohogear/radio.asm"
 INCLUDE "engine/tohomon/mail_2.asm"
 
 

@@ -372,13 +372,13 @@ _CGB_TohogearPals:
 	ret
 
 TohogearPals:
-INCLUDE "gfx/pokegear/pokegear.pal"
+INCLUDE "gfx/tohogear/tohogear.pal"
 
 FemaleTohogearInterfacePalette:
-INCLUDE "gfx/pokegear/pokegear_f.pal"
+INCLUDE "gfx/tohogear/tohogear_f.pal"
 
 EnbyTohogearInterfacePalette:
-INCLUDE "gfx/pokegear/pokegear_x.pal"
+INCLUDE "gfx/tohogear/tohogear_x.pal"
 
 _CGB_StatsScreenHPPals:
 	ld de, wBGPals1

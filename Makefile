@@ -219,8 +219,8 @@ gfx/pokedex/%.bin: gfx/pokedex/%.tilemap gfx/pokedex/%.attrmap ; $Qcat $^ > $@
 gfx/pokedex/pokedex.2bpp: gfx/pokedex/pokedex0.2bpp gfx/pokedex/pokedex1.2bpp gfx/pokedex/area.2bpp ; $Qcat $^ > $@
 gfx/pokedex/question_mark.2bpp: rgbgfx += -Z
 
-gfx/pokegear/pokegear.2bpp: tools/gfx += --trim-whitespace
-gfx/pokegear/pokegear_sprites.2bpp: tools/gfx += --trim-whitespace
+gfx/tohogear/tohogear.2bpp: tools/gfx += --trim-whitespace
+gfx/tohogear/tohogear_sprites.2bpp: tools/gfx += --trim-whitespace
 
 gfx/tohomon/%/back.2bpp: rgbgfx += -Z
 

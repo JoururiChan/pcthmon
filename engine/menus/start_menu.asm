@@ -241,10 +241,10 @@ endr
 
 	ld hl, wTohogearFlags
 	bit TOHOGEAR_OBTAINED_F, [hl]
-	jr z, .no_pokegear
+	jr z, .no_tohogear
 	ld a, STARTMENUITEM_TOHOGEAR
 	call .AppendMenuList
-.no_pokegear
+.no_tohogear
 
 	ld a, STARTMENUITEM_STATUS
 	call .AppendMenuList

@@ -55,7 +55,7 @@ if DEF(DEBUG)
 	; time
 	special Special_SetDayOfWeek
 	special Special_InitialClearDSTFlag
-	; full pokegear
+	; full tohogear
 	setflag ENGINE_TOHOGEAR
 	setflag ENGINE_PHONE_CARD
 	setflag ENGINE_MAP_CARD

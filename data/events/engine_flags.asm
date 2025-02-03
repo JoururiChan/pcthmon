@@ -8,7 +8,7 @@ EngineFlags:
 ; entries correspond to ENGINE_* constants
 	table_width 3
 
-	; pokegear
+	; tohogear
 	engine_flag wTohogearFlags, TOHOGEAR_RADIO_CARD_F
 	engine_flag wTohogearFlags, TOHOGEAR_MAP_CARD_F
 	engine_flag wTohogearFlags, TOHOGEAR_PHONE_CARD_F

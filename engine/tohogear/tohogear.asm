@@ -869,14 +869,14 @@ TohogearText_DeleteStoredNumber:
 	text_end
 
 TohogearSpritesGFX:
-INCBIN "gfx/pokegear/pokegear_sprites.2bpp.lz"
+INCBIN "gfx/tohogear/tohogear_sprites.2bpp.lz"
 
 RadioTilemapRLE:
-INCBIN "gfx/pokegear/radio.tilemap.rle"
+INCBIN "gfx/tohogear/radio.tilemap.rle"
 PhoneTilemapRLE:
-INCBIN "gfx/pokegear/phone.tilemap.rle"
+INCBIN "gfx/tohogear/phone.tilemap.rle"
 ClockTilemapRLE:
-INCBIN "gfx/pokegear/clock.tilemap.rle"
+INCBIN "gfx/tohogear/clock.tilemap.rle"
 
 ; called from engine/sprite_anims.asm
 
@@ -2049,4 +2049,4 @@ OrangeMap:
 INCBIN "gfx/town_map/orange.bin"
 
 TohogearGFX:
-INCBIN "gfx/pokegear/pokegear.2bpp.lz"
+INCBIN "gfx/tohogear/tohogear.2bpp.lz"

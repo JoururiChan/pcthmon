@@ -1,8 +1,8 @@
 ; radio channel ids
 ; indexes for:
 ; - RadioChannelSongs (see data/radio/channel_music.asm)
-; - PlayRadioShow/RadioJumptable (see engine/pokegear/radio.asm)
-; - RadioChannels (see engine/pokegear/pokegear.asm)
+; - PlayRadioShow/RadioJumptable (see engine/tohogear/radio.asm)
+; - RadioChannels (see engine/tohogear/tohogear.asm)
 	const_def
 	const OAKS_TOHOMON_TALK      ; 00
 	const TOHODEX_SHOW           ; 01
@@ -96,7 +96,7 @@ DEF NUM_RADIO_CHANNELS EQU const_value
 	const TOHODEX_SHOW_8         ; 57
 DEF NUM_RADIO_SEGMENTS EQU const_value
 
-; PlayRadioStationPointers indexes (see engine/pokegear/pokegear.asm)
+; PlayRadioStationPointers indexes (see engine/tohogear/tohogear.asm)
 	const_def
 	const MAPRADIO_TOHOMON_CHANNEL
 	const MAPRADIO_OAKS_TOHOMON_TALK
@@ -113,7 +113,7 @@ DEF NUM_MAP_RADIO_STATIONS EQU const_value
 DEF NUM_PASSWORD_CATEGORIES EQU 11
 DEF NUM_PASSWORDS_PER_CATEGORY EQU 3
 
-; GetBuenasPassword.StringFunctionJumpTable indexes (see engine/pokegear/radio.asm)
+; GetBuenasPassword.StringFunctionJumpTable indexes (see engine/tohogear/radio.asm)
 	const_def
 	const BUENA_MON
 	const BUENA_ITEM

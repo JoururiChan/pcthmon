@@ -591,7 +591,7 @@ TohogearOBPals:
 INCLUDE "gfx/icons/icons.pal"
 
 TohogearFlyPalette:
-INCLUDE "gfx/pokegear/fly.pal"
+INCLUDE "gfx/tohogear/fly.pal"
 
 GetBattlemonBackpicPalettePointer:
 	push de

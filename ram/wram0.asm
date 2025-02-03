@@ -785,7 +785,7 @@ wNamingScreenKeyboardWidth:: db
 
 
 SECTION UNION "Misc 404", WRAM0
-; pokegear
+; tohogear
 	ds 172
 
 wTohogearPhoneLoadNameBuffer:: db
@@ -1116,7 +1116,7 @@ wPrevDexEntryJumptableIndex:: db
 wPrevDexEntryBackup:: db
 
 NEXTU
-; pokegear
+; tohogear
 wTohogearCard:: db
 wTohogearMapRegion:: db
 wTownMapCanFlyHere:: db
