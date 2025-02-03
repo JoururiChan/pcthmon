@@ -28,15 +28,15 @@ OaksLab_MapScriptHeader:
 
 	def_object_events
 	object_event  4,  2, SPRITE_OAK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Oak, -1
-	object_event  7,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, EEVEE, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, NO_FORM, EeveeDollScript, EVENT_DECO_EEVEE_DOLL
+	object_event  7,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_STILL, 0, TLYRICA, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, NO_FORM, TLyricaDollScript, EVENT_DECO_TLYRICA_DOLL
 	object_event  1,  8, SPRITE_AROMA_LADY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OaksAssistant1Text, -1
 	object_event  8,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OaksAssistant2Text, -1
 	object_event  1,  4, SPRITE_SCIENTIST, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OaksAssistant3Text, -1
-	object_event  2,  1, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, OaksLabPokedexText, -1
+	object_event  2,  1, SPRITE_BOOK_PAPER_TOHODEX, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, OaksLabTohodexText, -1
 
 	object_const_def
 	const OAKSLAB_OAK
-	const OAKSLAB_EEVEE_DOLL
+	const OAKSLAB_TLYRICA_DOLL
 
 Oak:
 	faceplayer
@@ -49,9 +49,9 @@ Oak:
 	promptbutton
 	setevent EVENT_TALKED_TO_OAK_IN_KANTO
 .GiveStarter:
-	checkevent EVENT_GOT_A_POKEMON_FROM_OAK
+	checkevent EVENT_GOT_A_TOHOMON_FROM_OAK
 	iftruefwd .CheckBadges
-	checkevent EVENT_GOT_A_POKEMON_FROM_IVY
+	checkevent EVENT_GOT_A_TOHOMON_FROM_IVY
 	iffalsefwd .CheckBadges
 	writetext OakLabGiveStarterText
 	promptbutton
@@ -62,19 +62,19 @@ Oak:
 	iftruefwd .Squirtle
 	givepoke BULBASAUR, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalsefwd .PartyAndBoxFull
-	setevent EVENT_GOT_A_POKEMON_FROM_OAK
+	setevent EVENT_GOT_A_TOHOMON_FROM_OAK
 	sjumpfwd .CheckBadges
 
 .Charmander:
 	givepoke CHARMANDER, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalsefwd .PartyAndBoxFull
-	setevent EVENT_GOT_A_POKEMON_FROM_OAK
+	setevent EVENT_GOT_A_TOHOMON_FROM_OAK
 	sjumpfwd .CheckBadges
 
 .Squirtle:
 	givepoke SQUIRTLE, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalsefwd .PartyAndBoxFull
-	setevent EVENT_GOT_A_POKEMON_FROM_OAK
+	setevent EVENT_GOT_A_TOHOMON_FROM_OAK
 	sjumpfwd .CheckBadges
 
 .PartyAndBoxFull:
@@ -82,7 +82,7 @@ Oak:
 	waitbutton
 .CheckBadges:
 	checkevent EVENT_OPENED_MT_SILVER
-	iftruefwd .CheckPokedex
+	iftruefwd .CheckTohodex
 	checkevent EVENT_BEAT_ELITE_FOUR_AGAIN
 	iftruefwd .BattleOak
 	readvar VAR_BADGES
@@ -90,7 +90,7 @@ Oak:
 	ifequalfwd  8, .Complain2
 	writetext OakYesKantoBadgesText
 	promptbutton
-.CheckPokedex:
+.CheckTohodex:
 	checkkeyitem CATCH_CHARM
 	iftruefwd .GotCatchCharm
 	writetext OakLabCatchMoreText
@@ -104,7 +104,7 @@ Oak:
 	special ProfOaksPCBoot
 	checkkeyitem OVAL_CHARM
 	iftruefwd .NoOvalCharm
-	setval16 NUM_POKEMON
+	setval16 NUM_TOHOMON
 	special CountSeen
 	iffalsefwd .NoOvalCharm
 	writetext OakLabSeenAllText
@@ -115,7 +115,7 @@ Oak:
 .NoOvalCharm
 	checkkeyitem SHINY_CHARM
 	iftruefwd .NoShinyCharm
-	setval16 NUM_POKEMON
+	setval16 NUM_TOHOMON
 	special CountCaught
 	iffalsefwd .NoShinyCharm
 	writetext OakLabCaughtAllText
@@ -149,27 +149,27 @@ Oak:
 	promptbutton
 	setevent EVENT_BEAT_PROF_OAK
 	setevent EVENT_OPENED_MT_SILVER
-	sjump .CheckPokedex
+	sjump .CheckTohodex
 
 .NotReady:
 	writetext OakRefusedText
 	promptbutton
-	sjump .CheckPokedex
+	sjump .CheckTohodex
 
 .Complain1:
 	writetext OakNoEliteFourRematchText
 	promptbutton
-	sjump .CheckPokedex
+	sjump .CheckTohodex
 
 .Complain2:
 	writetext OakNoKantoBadgesText
 	promptbutton
-	sjump .CheckPokedex
+	sjump .CheckTohodex
 
-EeveeDollScript:
+TLyricaDollScript:
 	turnobject OAKSLAB_OAK, RIGHT
 	opentext
-	writetext ProfOakEeveeDollTradeText
+	writetext ProfOakTLyricaDollTradeText
 	waitbutton
 	checkitem EVERSTONE
 	iffalse_jumpopenedtext NoEverstoneText
@@ -177,13 +177,13 @@ EeveeDollScript:
 	yesorno
 	iffalse_jumpopenedtext NoTradeText
 	takeitem EVERSTONE
-	disappear OAKSLAB_EEVEE_DOLL
-	setevent EVENT_DECO_EEVEE_DOLL
-	writetext EeveeDollText
+	disappear OAKSLAB_TLYRICA_DOLL
+	setevent EVENT_DECO_TLYRICA_DOLL
+	writetext TLyricaDollText
 	playsound SFX_ITEM
 	pause 60
 	waitbutton
-	writetext EeveeDollSentText
+	writetext TLyricaDollSentText
 	waitbutton
 	jumpopenedtext ProfOakAfterTradeText
 
@@ -528,10 +528,10 @@ OaksLabPCText:
 	line "Town 8-)"
 	done
 
-ProfOakEeveeDollTradeText:
+ProfOakTLyricaDollTradeText:
 	text "Oak: Oh, are you"
 	line "admiring my"
-	cont "Eevee Doll?"
+	cont "TLyrica Doll?"
 
 	para "I'll trade it"
 	line "to you for an"
@@ -554,13 +554,13 @@ NoTradeText:
 	cont "your mind."
 	done
 
-EeveeDollText:
+TLyricaDollText:
 	text "<PLAYER> received"
-	line "Eevee Doll."
+	line "TLyrica Doll."
 	done
 
-EeveeDollSentText:
-	text "Eevee Doll"
+TLyricaDollSentText:
+	text "TLyrica Doll"
 	line "was sent home."
 	done
 
@@ -570,7 +570,7 @@ ProfOakAfterTradeText:
 	cont "appreciate it!"
 	done
 
-OaksLabPokedexText:
+OaksLabTohodexText:
 	text "It's Prof.Oak's"
 	line "#dex."
 	done

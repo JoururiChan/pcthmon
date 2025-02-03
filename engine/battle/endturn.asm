@@ -94,7 +94,7 @@ HandleBetweenTurnEffects:
 	call HasPlayerFainted
 	jr nz, .player_not_fleeing
 
-	farcall AskUseNextPokemon
+	farcall AskUseNextTohomon
 	jr nc, .player_not_fleeing
 	ld a, 1
 	ld [wBattleEnded], a

@@ -39,7 +39,7 @@
 	const SCROLLINGMENU_ITEMS_KEY
 
 ; MonMenuOptions indexes (see data/mon_menu.asm)
-; used by PokemonActionSubmenu (see engine/pokemon/mon_menu.asm)
+; used by TohomonActionSubmenu (see engine/tohomon/mon_menu.asm)
 	const_def 1
 	; moves
 	const MONMENUITEM_CUT        ; 1
@@ -76,7 +76,7 @@ DEF HMENURETURN_ASM    EQU %11111111
 
 ; PartyMenuQualityPointers indexes (see data/party_menu_qualities.asm)
 	const_def
-	const PARTYMENUACTION_CHOOSE_POKEMON
+	const PARTYMENUACTION_CHOOSE_TOHOMON
 	const PARTYMENUACTION_HEALING_ITEM
 	const PARTYMENUACTION_SWITCH
 	const PARTYMENUACTION_TEACH_TMHM
@@ -88,7 +88,7 @@ DEF HMENURETURN_ASM    EQU %11111111
 	const PARTYMENUACTION_MOVE_RELEARNER
 	const PARTYMENUACTION_BATTLE_TOWER
 DEF NUM_PARTYMENUACTIONS EQU const_value
-; PrintPartyMenuActionText arguments (see engine/pokemon/party_menu.asm)
+; PrintPartyMenuActionText arguments (see engine/tohomon/party_menu.asm)
 	const_def $f0
 	const PARTYMENUTEXT_HEAL_PSN
 	const PARTYMENUTEXT_HEAL_BRN

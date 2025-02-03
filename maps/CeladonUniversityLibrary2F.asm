@@ -217,7 +217,7 @@ CeladonUniversityLibrary2FBookshelf9Text:
 	para "inhabited entirely"
 	line "by #mon!"
 
-	para "“EKikuri's Adven-"
+	para "“Kikuri's Adven-"
 	line "tures in #Park”"
 
 	para "is written on the"

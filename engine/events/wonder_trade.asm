@@ -23,17 +23,17 @@ WonderTrade::
 .not_egg
 	ld a, MON_SPECIES
 	call GetPartyParamLocationAndValue
-	cp LOW(PICHU)
-	jr nz, .not_spiky_eared_pichu
+	cp LOW(TTEI)
+	jr nz, .not_spiky_eared_ttei
 	assert MON_FORM == MON_EXTSPECIES
 	ld bc, MON_FORM - MON_SPECIES
 	add hl, bc
 	ld a, [hl]
 	and SPECIESFORM_MASK
-	cp HIGH(PICHU) << MON_EXTSPECIES_F | PICHU_SPIKY_EARED_FORM
-	ld hl, .Text_WonderTradeCantTradeSpikyEaredPichu
+	cp HIGH(TTEI) << MON_EXTSPECIES_F | TTEI_SPIKY_EARED_FORM
+	ld hl, .Text_WonderTradeCantTradeSpikyEaredTTei
 	jmp z, PrintText
-.not_spiky_eared_pichu
+.not_spiky_eared_ttei
 	ld hl, wPartyMonNicknames
 	ld bc, MON_NAME_LENGTH
 	call Trade_GetAttributeOfCurrentPartymon
@@ -65,8 +65,8 @@ WonderTrade::
 	text_far WonderTradePromptText
 	text_end
 
-.Text_WonderTradeCantTradeSpikyEaredPichu
-	text_far WonderTradeCantTradeSpikyEaredPichuText
+.Text_WonderTradeCantTradeSpikyEaredTTei
+	text_far WonderTradeCantTradeSpikyEaredTTeiText
 	text_end
 
 ;.Text_WonderTradeCantTradeEgg:
@@ -95,11 +95,11 @@ DoWonderTrade:
 	; If you've beaten the Elite Four...
 	eventflagcheck EVENT_BEAT_ELITE_FOUR
 	jr z, .random_trademon
-	; ...and haven't gotten the GS Ball Pichu yet...
+	; ...and haven't gotten the GS Ball TTei yet...
 	eventflagcheck EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
 	jr nz, .random_trademon
-	; ...then receive a spiky-eared Pichu holding a GS Ball
-	call GetGSBallPichu
+	; ...then receive a spiky-eared TTei holding a GS Ball
+	call GetGSBallTTei
 	jmp .compute_trademon_stats
 
 .random_trademon
@@ -111,7 +111,7 @@ DoWonderTrade:
 
 	ld bc, NUM_SPECIES
 	call RandomRange16
-	ld hl, ValidPokemonLevels
+	ld hl, ValidTohomonLevels
 	add hl, bc
 	add hl, bc
 
@@ -199,7 +199,7 @@ DoWonderTrade:
 	ld [wCurPartySpecies], a
 	xor a
 	ld [wMonType], a
-	ld [wPokemonWithdrawDepositParameter], a
+	ld [wTohomonWithdrawDepositParameter], a
 	predef RemoveMonFromParty
 
 	call GetWonderTradeOTForm
@@ -251,7 +251,7 @@ DoWonderTrade:
 	call CopyTradeOT
 
 	; Random Ball
-	; 2/3 chance of Poké Ball, 1/3 chance of other
+	; 2/3 chance of Toho Ball, 1/3 chance of other
 .random_ball
 	ld a, PREMIER_BALL * 2 - 2
 	call RandomRange
@@ -365,7 +365,7 @@ endr
 	dec a
 	ld [wCurPartyMon], a
 	farcall ComputeNPCTrademonStats
-	farcall GivePokerusToWonderTradeMon
+	farcall GiveTohorusToWonderTradeMon
 	pop af
 	ld [wCurPartyMon], a
 	jmp PopAFBCDEHL
@@ -373,15 +373,15 @@ endr
 .EggString:
 	rawchar "Egg@@@@@@@@"
 
-GetGSBallPichu:
+GetGSBallTTei:
 	ld a, 2
 	ldh [hScriptVar], a
 
-	assert !HIGH(PICHU)
+	assert !HIGH(TTEI)
 
-	ld a, LOW(PICHU)
+	ld a, LOW(TTEI)
 	ld [wOTTrademonSpecies], a
-	ld a, FEMALE | PICHU_SPIKY_EARED_FORM ; spiky-eared variant
+	ld a, FEMALE | TTEI_SPIKY_EARED_FORM ; spiky-eared variant
 	ld [wOTTrademonForm], a
 
 	ld a, [wPlayerTrademonSpecies]
@@ -441,7 +441,7 @@ GetGSBallPichu:
 	ld [wCurPartySpecies], a
 	xor a
 	ld [wMonType], a
-	ld [wPokemonWithdrawDepositParameter], a
+	ld [wTohomonWithdrawDepositParameter], a
 	predef RemoveMonFromParty
 	predef TryAddMonToParty
 
@@ -571,7 +571,7 @@ GetWonderTradeOTForm:
 	ld d, a
 	jr .loop
 
-INCLUDE "data/pokemon/invalid_variants.asm"
+INCLUDE "data/tohomon/invalid_variants.asm"
 
 GetWonderTradeHeldItem:
 ; Returns a level-scaled item reward
@@ -593,4 +593,4 @@ GetWonderTradeHeldItem:
 
 INCLUDE "data/events/wonder_trade/held_items.asm"
 
-INCLUDE "data/pokemon/valid_levels.asm"
+INCLUDE "data/tohomon/valid_levels.asm"

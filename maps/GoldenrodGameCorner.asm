@@ -2,8 +2,8 @@ DEF GOLDENRODGAMECORNER_TM35_COINS EQU 4000
 DEF GOLDENRODGAMECORNER_TM24_COINS EQU 4000
 DEF GOLDENRODGAMECORNER_TM13_COINS EQU 4000
 DEF GOLDENRODGAMECORNER_ABRA_COINS     EQU 200
-DEF GOLDENRODGAMECORNER_CUBONE_COINS   EQU 800
-DEF GOLDENRODGAMECORNER_CLEFAIRY_COINS EQU 1500
+DEF GOLDENRODGAMECORNER_CHEN_COINS   EQU 800
+DEF GOLDENRODGAMECORNER_CMEIRA_COINS EQU 1500
 
 GoldenrodGameCorner_MapScriptHeader:
 	def_scene_scripts
@@ -55,16 +55,16 @@ GoldenrodGameCorner_MapScriptHeader:
 	object_event 18,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerPrizeMonVendorScript, -1
 	object_event 10,  1, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerFisherScript, -1
 	object_event 10,  3, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodGameCornerCooltrainerFText, -1
-	object_event 17,  6, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerPokefanFScript, -1
+	object_event 17,  6, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerTohofanFScript, -1
 	object_event  8,  7, SPRITE_BURGLAR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << DAY) | (1 << NITE), 0, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerPharmacistScript, -1
 	object_event 14,  8, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerCooltrainerMScript, -1
 	object_event  5, 10, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerGentlemanScript, -1
-	object_event 11, 10, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerPokefanM1Script, -1
-	object_event 17, 10, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerPokefanM3Script, -1
-	object_event  2,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodGameCornerPokefanM2Text, EVENT_BEAT_WHITNEY
+	object_event 11, 10, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerTohofanM1Script, -1
+	object_event 17, 10, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerTohofanM3Script, -1
+	object_event  2,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodGameCornerTohofanM2Text, EVENT_BEAT_WHITNEY
 
-GoldenrodGameCornerPokefanM3Script:
-	showtextfaceplayer GoldenrodGameCornerPokefanM3Text
+GoldenrodGameCornerTohofanM3Script:
+	showtextfaceplayer GoldenrodGameCornerTohofanM3Text
 	turnobject LAST_TALKED, RIGHT
 	end
 
@@ -199,8 +199,8 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	verticalmenu
 	closewindow
 	ifequalfwd $1, .abra
-	ifequalfwd $2, .cubone
-	ifequalfwd $3, .clefairy
+	ifequalfwd $2, .chen
+	ifequalfwd $3, .cmeira
 	jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 
 .abra
@@ -220,38 +220,38 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	takecoins GOLDENRODGAMECORNER_ABRA_COINS
 	sjump .loop
 
-.cubone
-	checkcoins GOLDENRODGAMECORNER_CUBONE_COINS
+.chen
+	checkcoins GOLDENRODGAMECORNER_CHEN_COINS
 	ifequal $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getmonname CUBONE, $0
+	getmonname CHEN, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	givepoke CUBONE, 10
+	givepoke CHEN, 10
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorNoMoreRoomText
-	setmonval CUBONE
+	setmonval CHEN
 	special Special_GameCornerPrizeMonCheckDex
-	takecoins GOLDENRODGAMECORNER_CUBONE_COINS
+	takecoins GOLDENRODGAMECORNER_CHEN_COINS
 	sjump .loop
 
-.clefairy
-	checkcoins GOLDENRODGAMECORNER_CLEFAIRY_COINS
+.cmeira
+	checkcoins GOLDENRODGAMECORNER_CMEIRA_COINS
 	ifequal $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getmonname CLEFAIRY, $0
+	getmonname CMEIRA, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	givepoke CLEFAIRY, 15
+	givepoke CMEIRA, 15
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorNoMoreRoomText
-	setmonval CLEFAIRY
+	setmonval CMEIRA
 	special Special_GameCornerPrizeMonCheckDex
-	takecoins GOLDENRODGAMECORNER_CLEFAIRY_COINS
+	takecoins GOLDENRODGAMECORNER_CMEIRA_COINS
 	sjump .loop
 
 .MenuDataHeader:
@@ -264,8 +264,8 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db $80 ; flags
 	db 4 ; items
 	db "Abra        {d:GOLDENRODGAMECORNER_ABRA_COINS}@"
-	db "Cubone      {d:GOLDENRODGAMECORNER_CUBONE_COINS}@"
-	db "Clefairy   {d:GOLDENRODGAMECORNER_CLEFAIRY_COINS}@"
+	db "Chen      {d:GOLDENRODGAMECORNER_CHEN_COINS}@"
+	db "CMeira   {d:GOLDENRODGAMECORNER_CMEIRA_COINS}@"
 	db "Cancel@"
 
 GoldenrodGameCornerPharmacistScript:
@@ -273,8 +273,8 @@ GoldenrodGameCornerPharmacistScript:
 	turnobject LAST_TALKED, LEFT
 	end
 
-GoldenrodGameCornerPokefanM1Script:
-	showtextfaceplayer GoldenrodGameCornerPokefanM1Text
+GoldenrodGameCornerTohofanM1Script:
+	showtextfaceplayer GoldenrodGameCornerTohofanM1Text
 	turnobject LAST_TALKED, RIGHT
 	end
 
@@ -283,8 +283,8 @@ GoldenrodGameCornerCooltrainerMScript:
 	turnobject LAST_TALKED, LEFT
 	end
 
-GoldenrodGameCornerPokefanFScript:
-	showtextfaceplayer GoldenrodGameCornerPokefanFText
+GoldenrodGameCornerTohofanFScript:
+	showtextfaceplayer GoldenrodGameCornerTohofanFText
 	turnobject LAST_TALKED, RIGHT
 	end
 
@@ -412,7 +412,7 @@ GoldenrodGameCornerPharmacistText:
 	line "others, I think."
 	done
 
-GoldenrodGameCornerPokefanM1Text:
+GoldenrodGameCornerTohofanM1Text:
 	text "I just love this"
 	line "new slot machine."
 
@@ -427,7 +427,7 @@ GoldenrodGameCornerCooltrainerMText:
 	cont "cards till I drop!"
 	done
 
-GoldenrodGameCornerPokefanFText:
+GoldenrodGameCornerTohofanFText:
 	text "Card flip…"
 
 	para "I prefer it over"
@@ -456,7 +456,7 @@ GoldenrodGameCornerGentlemanText:
 	line "worth it."
 	done
 
-GoldenrodGameCornerPokefanM2Text:
+GoldenrodGameCornerTohofanM2Text:
 	text "I couldn't win at"
 	line "the slots, and I"
 
@@ -470,7 +470,7 @@ GoldenrodGameCornerPokefanM2Text:
 	line "Underground."
 	done
 
-GoldenrodGameCornerPokefanM3Text:
+GoldenrodGameCornerTohofanM3Text:
 	text "Wahahah! The coins"
 	line "keep rolling in!"
 	done

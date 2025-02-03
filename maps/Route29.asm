@@ -90,7 +90,7 @@ Route29FinishTutorial:
 	promptbutton
 	giveitem POKE_BALL, 15
 	waitsfx
-	writetext CatchingTutorialPokeBallText
+	writetext CatchingTutorialTohoBallText
 	special ShowItemIcon
 	playsound SFX_ITEM
 	waitsfx
@@ -101,12 +101,12 @@ Route29FinishTutorial:
 	applymovement ROUTE29_LYRA, LyraMovementData3
 	disappear ROUTE29_LYRA
 	setscene $0
-	setevent EVENT_LEARNED_TO_CATCH_POKEMON
+	setevent EVENT_LEARNED_TO_CATCH_TOHOMON
 	playmusic MUSIC_ROUTE_29
 	end
 
 Route29RefusedTutorial:
-	setevent EVENT_NEVER_LEARNED_TO_CATCH_POKEMON
+	setevent EVENT_NEVER_LEARNED_TO_CATCH_TOHOMON
 	writetext CatchingTutorialRefusedText
 	sjump Route29FinishTutorial
 
@@ -206,7 +206,7 @@ CatchingTutorialRefusedText:
 	cont "Good luck!"
 	done
 
-CatchingTutorialPokeBallText:
+CatchingTutorialTohoBallText:
 	text "<PLAYER> gained"
 	line "5 # Balls."
 	done

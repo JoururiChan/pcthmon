@@ -4,7 +4,7 @@ BugContestantPointers:
 	dw BugContestant_BugCatcherDon
 	dw BugContestant_BugCatcherEd
 	dw BugContestant_CooltrainerMNick
-	dw BugContestant_PokefanMWilliam
+	dw BugContestant_TohofanMWilliam
 	dw BugContestant_BugCatcherBenny
 	dw BugContestant_CamperBarry
 	dw BugContestant_PicnickerCindy
@@ -37,7 +37,7 @@ BugContestant_CooltrainerMNick:
 	contest_winner CCHEN, 349
 	contest_winner CLILYWHITE,     368
 
-BugContestant_PokefanMWilliam:
+BugContestant_TohofanMWilliam:
 	db POKEFANM, WILLIAM
 	contest_winner CMAGAN,   332
 	contest_winner CCHEN, 324

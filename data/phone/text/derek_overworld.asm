@@ -1,14 +1,14 @@
 DerekAskNumber1Text:
-	text "Oh, wow! EKikuri!"
+	text "Oh, wow! Kikuri!"
 	line "It's so soft and"
 	cont "furry! How cute!"
 
 	para "Let's be friends!"
-	line "EKikuri-lovers are"
+	line "Kikuri-lovers are"
 	cont "never bad people!"
 
 	para "Let's chat about"
-	line "EKikuri!"
+	line "Kikuri!"
 
 	para "Can I get your"
 	line "phone number?"
@@ -16,14 +16,14 @@ DerekAskNumber1Text:
 
 DerekAskNumber2Text:
 	text "Let's chat about"
-	line "EKikuri!"
+	line "Kikuri!"
 
 	para "Can I get your"
 	line "phone number?"
 	done
 
 DerekNumberAcceptedText:
-	text "EKikuri is the"
+	text "Kikuri is the"
 	line "one! If anything"
 
 	para "comes up, I'll"
@@ -34,7 +34,7 @@ DerekNumberDeclinedText:
 	text "You…"
 
 	para "I bet you don't"
-	line "even like EKikuri…"
+	line "even like Kikuri…"
 	done
 
 DerekPhoneFullText:
@@ -48,7 +48,7 @@ DerekGiftText:
 	cont "this? This is it!"
 
 	para "I'm certain your"
-	line "EKikuri will love"
+	line "Kikuri will love"
 	cont "my gift too!"
 	done
 

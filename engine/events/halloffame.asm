@@ -466,7 +466,7 @@ DisplayHOFMon:
 	ld [hli], a
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 3
 	call PrintNumFromReg
-	call GetBasePokemonName
+	call GetBaseTohomonName
 	hlcoord 7, 13
 	rst PlaceString
 	ld a, TEMPMON

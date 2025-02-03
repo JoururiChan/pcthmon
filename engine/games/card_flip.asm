@@ -383,7 +383,7 @@ CardFlip_DisplayCardFaceUp:
 	add hl, bc
 	ld [hl], e
 
-	; Place the Pokepic.
+	; Place the Tohopic.
 	ld bc, SCREEN_HEIGHT
 	add hl, bc
 	ld a, d
@@ -695,15 +695,15 @@ CardFlip_CheckWinCondition:
 	dw .Impossible
 	dw .PikaJiggly
 	dw .PikaJiggly
-	dw .PoliOddish
-	dw .PoliOddish
+	dw .PoliEKotohime
+	dw .PoliEKotohime
 
 	dw .Impossible
 	dw .Impossible
-	dw .Pikachu
-	dw .Jigglypuff
-	dw .Poliwag
-	dw .Oddish
+	dw .Kikuri
+	dw .Ellen
+	dw .Kurumi
+	dw .EKotohime
 
 	dw .OneTwo
 	dw .One
@@ -756,7 +756,7 @@ CardFlip_CheckWinCondition:
 	jmp nz, .Lose
 	jr .WinSix
 
-.PoliOddish:
+.PoliEKotohime:
 	ld a, [wCardFlipFaceUpCard]
 	and $2
 	jmp z, .Lose
@@ -792,27 +792,27 @@ CardFlip_CheckWinCondition:
 	ld de, SFX_2ND_PLACE
 	jmp .Payout
 
-.Pikachu:
+.Kikuri:
 	ld a, [wCardFlipFaceUpCard]
 	and $3
 	jr z, .WinTwelve
 	jmp .Lose
 
-.Jigglypuff:
+.Ellen:
 	ld a, [wCardFlipFaceUpCard]
 	and $3
 	cp $1
 	jr z, .WinTwelve
 	jmp .Lose
 
-.Poliwag:
+.Kurumi:
 	ld a, [wCardFlipFaceUpCard]
 	and $3
 	cp $2
 	jr z, .WinTwelve
 	jmp .Lose
 
-.Oddish:
+.EKotohime:
 	ld a, [wCardFlipFaceUpCard]
 	or ~$3
 	inc a
@@ -1238,17 +1238,17 @@ ENDM
 
 	cardflip_cursor 11,  2,       .Impossible
 	cardflip_cursor 12,  2,       .Impossible
-	cardflip_cursor 13,  2,       .PokeGroupPair
-	cardflip_cursor 13,  2,       .PokeGroupPair
-	cardflip_cursor 17,  2,       .PokeGroupPair
-	cardflip_cursor 17,  2,       .PokeGroupPair
+	cardflip_cursor 13,  2,       .TohoGroupPair
+	cardflip_cursor 13,  2,       .TohoGroupPair
+	cardflip_cursor 17,  2,       .TohoGroupPair
+	cardflip_cursor 17,  2,       .TohoGroupPair
 
 	cardflip_cursor 11,  3,       .Impossible
 	cardflip_cursor 12,  3,       .Impossible
-	cardflip_cursor 13,  3,       .PokeGroup
-	cardflip_cursor 15,  3,       .PokeGroup
-	cardflip_cursor 17,  3,       .PokeGroup
-	cardflip_cursor 19,  3,       .PokeGroup
+	cardflip_cursor 13,  3,       .TohoGroup
+	cardflip_cursor 15,  3,       .TohoGroup
+	cardflip_cursor 17,  3,       .TohoGroup
+	cardflip_cursor 19,  3,       .TohoGroup
 
 	cardflip_cursor 11,  5,       .NumGroupPair
 	cardflip_cursor 12,  5,       .NumGroup
@@ -1301,7 +1301,7 @@ ENDM
 	dsprite   0, 5,   0, 0, $02, $0 | Y_FLIP | PRIORITY
 	dsprite   0, 5,   1, 0, $03, $0 | PRIORITY
 
-.PokeGroup:
+.TohoGroup:
 	db 26
 	dsprite   0, 0,  -1, 7, $00, $0 | PRIORITY
 	dsprite   0, 0,   0, 0, $02, $0 | PRIORITY
@@ -1386,7 +1386,7 @@ ENDM
 	dsprite   2, 1,   8, 0, $03, $0 | PRIORITY
 	dsprite   2, 1,   9, 0, $03, $0 | PRIORITY
 
-.PokeGroupPair:
+.TohoGroupPair:
 	db 38
 	dsprite   0, 0,  -1, 7, $00, $0 | PRIORITY
 	dsprite   0, 0,   3, 0, $00, $0 | X_FLIP | PRIORITY

@@ -24,7 +24,7 @@ NurseNiteText:
 	line "#mon Center."
 	done
 
-PokeComNurseMornText:
+TohoComNurseMornText:
 	text "Good morning!"
 
 	para "This is the #-"
@@ -34,7 +34,7 @@ PokeComNurseMornText:
 	line "#Com Center."
 	done
 
-PokeComNurseDayText:
+TohoComNurseDayText:
 	text "Hello!"
 
 	para "This is the #-"
@@ -44,7 +44,7 @@ PokeComNurseDayText:
 	line "#Com Center."
 	done
 
-PokeComNurseEveText:
+TohoComNurseEveText:
 	text "Good evening!"
 
 	para "This is the #-"
@@ -54,7 +54,7 @@ PokeComNurseEveText:
 	line "#Com Center."
 	done
 
-PokeComNurseNiteText:
+TohoComNurseNiteText:
 	text "Good to see you"
 	line "working so late."
 
@@ -104,12 +104,12 @@ NurseTheUsualText:
 	line "usual, right?"
 	done
 
-NurseTakePokemonText:
+NurseTakeTohomonText:
 	text "OK, may I see your"
 	line "#mon?"
 	done
 
-NurseReturnPokemonText:
+NurseReturnTohomonText:
 	text "Thank you for"
 	line "waiting."
 
@@ -122,7 +122,7 @@ NurseGoodbyeText:
 	line "again."
 	done
 
-NursePokerusText:
+NurseTohorusText:
 	text "Your #mon"
 	line "appear to be"
 
@@ -140,7 +140,7 @@ NursePokerusText:
 	line "Center."
 	done
 
-PokeComNursePokerusText:
+TohoComNurseTohorusText:
 	text "Your #mon"
 	line "appear to be"
 
@@ -241,7 +241,7 @@ TrashCanText:
 	line "here…"
 	done
 
-PokeCenterSignText:
+TohoCenterSignText:
 	text "Heal Your #mon!"
 	line "#mon Center"
 	done

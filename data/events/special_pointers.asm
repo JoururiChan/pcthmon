@@ -29,7 +29,7 @@ SpecialsPointers::
 	add_special CheckLilyBlackLength
 	add_special Special_LilyBlackHouseSign
 	add_special HealParty
-	add_special PokemonCenterPC
+	add_special TohomonCenterPC
 	add_special Special_PlayersHousePC
 	add_special Special_DayCareMan
 	add_special Special_DayCareLady
@@ -73,7 +73,7 @@ SpecialsPointers::
 	add_special ToggleDecorationsVisibility
 	add_special ReturnShuckie
 	add_special Special_BillsGrandfather
-	add_special SpecialCheckPokerus
+	add_special SpecialCheckTohorus
 	add_special Special_DisplayCoinCaseBalance
 	add_special Special_DisplayMoneyAndCoinBalance
 	add_special PlaceMoneyTopRight
@@ -84,7 +84,7 @@ SpecialsPointers::
 	add_special Special_SelectApricornForKurt
 	add_special SpecialNameRater
 	add_special Special_DisplayLinkRecord
-	add_special GetFirstPokemonHappiness
+	add_special GetFirstTohomonHappiness
 	add_special CheckFirstMonIsEgg
 	add_special RandomPhoneRareWildMon
 	add_special RandomPhoneWildMon
@@ -107,7 +107,7 @@ SpecialsPointers::
 	add_special GiveOddEgg
 	add_special SoftReset
 	add_special Special_MoveTutor
-	add_special SpecialKabutoChamber
+	add_special SpecialLunasaChamber
 	add_special Special_DisplayHinaWords
 	add_special SpecialHoOhChamber
 	add_special Special_CelebiShrineEvent
@@ -135,7 +135,7 @@ SpecialsPointers::
 	add_special Special_BattleTower_SelectParticipants
 	add_special Special_BattleTower_MaxVolume
 	add_special Special_BattleTower_BeginChallenge
-	add_special Special_BattleTower_LoadOpponentTrainerAndPokemonsWithOTSprite
+	add_special Special_BattleTower_LoadOpponentTrainerAndTohomonsWithOTSprite
 
 ; Polished Crystal
 	add_special SaveOptions
@@ -154,7 +154,7 @@ SpecialsPointers::
 	add_special GetOreManiacPrice
 	add_special GetFossilManiacPrice
 	add_special Give_hMoneyTemp
-	add_special CheckForSurfingEKikuri
+	add_special CheckForSurfingKikuri
 	add_special InitializeHiddenGrotto
 	add_special GetHiddenGrottoContents
 	add_special EmptiedHiddenGrotto

@@ -1,13 +1,13 @@
 MomPhoneScript:
 	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
 	iftruefwd .bcec5
-	checkevent EVENT_LEARNED_TO_CATCH_POKEMON
+	checkevent EVENT_LEARNED_TO_CATCH_TOHOMON
 	iftruefwd MomPhoneLectureScript
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftruefwd MomPhoneNoGymQuestScript
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_TOHOMON_FROM_ELM
 	iftruefwd MomPhoneNoTohodexScript
-	sjumpfwd MomPhoneNoPokemonScript
+	sjumpfwd MomPhoneNoTohomonScript
 
 .bcec5
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_8
@@ -120,8 +120,8 @@ MomPhoneHangUpScript:
 	farwritetext MomPhoneHangUpText
 	end
 
-MomPhoneNoPokemonScript:
-	farwritetext MomPhoneNoPokemonText
+MomPhoneNoTohomonScript:
+	farwritetext MomPhoneNoTohomonText
 	end
 
 MomPhoneNoTohodexScript:

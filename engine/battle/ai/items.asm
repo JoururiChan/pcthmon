@@ -580,7 +580,7 @@ EnemyPotionFinish:
 	jmp AIUpdateHUD
 
 AI_TrySwitch:
-; Determine whether the AI can switch based on how many Pokemon are still alive.
+; Determine whether the AI can switch based on how many Tohomon are still alive.
 ; If it can switch, it will.
 	ld a, [wOTPartyCount]
 	ld c, a

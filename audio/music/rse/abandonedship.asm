@@ -1,4 +1,4 @@
-; Pokémon R/S/E - Abandoned Ship
+; Tohomon R/S/E - Abandoned Ship
 ; Demixed by Mmmmmm
 ; https://pastebin.com/8yZgqyZ8
 ; https://hax.iimarckus.org/topic/6777/

@@ -130,7 +130,7 @@ BattleCommand_transform:
 	ld hl, wNamedObjectIndex
 	ld [hli], a
 	ld [hl], b
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, wEnemyStatLevels
 	ld de, wPlayerStatLevels
 	ld bc, 8

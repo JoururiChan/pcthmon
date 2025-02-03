@@ -148,7 +148,7 @@ ChadLeagueGossipText:
 	line "great man."
 	done
 
-ChadPokemonTalkGossipText:
+ChadTohomonTalkGossipText:
 	text "Prof.Oak's #mon"
 	line "Talk is a popular"
 	cont "radio show, right?"

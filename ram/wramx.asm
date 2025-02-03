@@ -99,12 +99,12 @@ wCurTradePartyMon:: db
 wCurOTTradePartyMon:: db
 wBufferTrademonNickname:: ds MON_NAME_LENGTH
 
-; switching pokemon in party
+; switching tohomon in party
 ; may store NAME_LENGTH, PARTYMON_STRUCT_LENGTH, or MAIL_STRUCT_LENGTH bytes
 wSwitchMonBuffer:: ds 48
 
 NEXTU
-; giving pokemon mail
+; giving tohomon mail
 wMonMailMessageBuffer:: ds MAIL_MSG_LENGTH + 1
 
 NEXTU
@@ -137,7 +137,7 @@ NEXTU
 wTempItem::
 wTempPartyCount::
 wPrevPartyLevel::
-wUnownPuzzleCornerTile::
+wHinaPuzzleCornerTile::
 wKeepSevenBiasChance::
 wTempDayOfWeek::
 	db
@@ -355,7 +355,7 @@ wBattlePlayerAction::
 ; 0 - use move
 ; 1 - use item
 ; 2 - switch
-wSolvedUnownPuzzle::
+wSolvedHinaPuzzle::
 	db
 
 wStateFlags::
@@ -419,7 +419,7 @@ wWhichHPBar::
 ; 2: Party Menu
 	db
 
-wPokemonWithdrawDepositParameter::
+wTohomonWithdrawDepositParameter::
 ; 0: Take from PC
 ; 1: Put into PC
 ; 2: Take from Day-Care
@@ -575,10 +575,10 @@ wEvolutionPicOffset:: db
 wEvolutionCanceled:: db
 
 NEXTU
-; Magikarp length
-wMagikarpLengthMm::
-wMagikarpLengthMmHi:: db
-wMagikarpLengthMmLo:: db
+; LilyBlack length
+wLilyBlackLengthMm::
+wLilyBlackLengthMmHi:: db
+wLilyBlackLengthMmLo:: db
 
 NEXTU
 ; mint tea woman
@@ -626,7 +626,7 @@ wTempWildMonSpecies:: db
 
 wOtherTrainerClass::
 ; class (Youngster, Bug Catcher, etc.) of opposing trainer
-; 0 if opponent is a wild Pokémon, not a trainer
+; 0 if opponent is a wild Tohomon, not a trainer
 	db
 
 wBattleType::
@@ -731,8 +731,8 @@ wTrainerGroupBank:: db
 
 SECTION "Enemy Party", WRAMX
 
-wPokedexShowPointerAddr:: dw
-wPokedexShowPointerBank:: db
+wTohodexShowPointerAddr:: dw
+wTohodexShowPointerBank:: db
 
 wEnemyFleeing:: db
 wNumFleeAttempts:: db
@@ -953,7 +953,7 @@ wSecretID:: dw
 
 wStatusFlags::
 	; bit 0: pokedex
-	; bit 1: unown dex
+	; bit 1: hina dex
 	; bit 2: flash
 	; bit 3: caught pokerus
 	; bit 4: rocket signal
@@ -985,8 +985,8 @@ wJohtoBadges:: flag_array NUM_JOHTO_BADGES
 wKantoBadges:: flag_array NUM_KANTO_BADGES
 wBadgesEnd::
 
-wPokemonJournals:: flag_array NUM_POKEMON_JOURNALS
-wPokemonJournalsEnd::
+wTohomonJournals:: flag_array NUM_TOHOMON_JOURNALS
+wTohomonJournalsEnd::
 
 wTMsHMs:: flag_array NUM_TMS + NUM_HMS
 wTMsHMsEnd::
@@ -999,7 +999,7 @@ wItems:: ds MAX_ITEMS * 2 + 1
 wItemsEnd::
 
 wNumMedicine:: db
-wMedicine:: ds MAX_MEDICINE * 2 + 1
+wMedicine:: ds MAX_MEDICINE_B * 2 + 1
 wMedicineEnd::
 
 wNumBalls:: db
@@ -1016,7 +1016,7 @@ wPCItemsEnd::
 
 wApricorns:: ds NUM_APRICORNS
 
-wPokegearFlags::
+wTohogearFlags::
 ; bit 0: map
 ; bit 1: radio
 ; bit 2: phone
@@ -1024,7 +1024,7 @@ wPokegearFlags::
 ; bit 7: on/off
 	db
 wRadioTuningKnob:: db
-wPokedexMode:: db
+wTohodexMode:: db
 
 wTMHMPocketScrollPosition:: db
 wTMHMPocketCursor::
@@ -1086,13 +1086,13 @@ wLavenderTownSceneID:: db
 wMahoganyMart1FSceneID:: db
 wMahoganyTownSceneID:: db
 wMountMoon1FSceneID:: db
-wMrPokemonsHouseSceneID:: db
+wMrTohomonsHouseSceneID:: db
 wMystriStageSceneID:: db
 wNewBarkTownSceneID:: db
 wOlivineCitySceneID:: db
 wOlivinePortSceneID:: db
-wPokecenter2FSceneID:: db
-wPokemonLeagueGateSceneID:: db
+wTohocenter2FSceneID:: db
+wTohomonLeagueGateSceneID:: db
 wPowerPlantSceneID:: db
 wRadioTower5FSceneID:: db
 wRoute10NorthSceneID:: db
@@ -1109,18 +1109,18 @@ wRoute42SceneID:: db
 wRoute43GateSceneID:: db
 wRoute47SceneID:: db
 wRoute48SceneID:: db
-wRuinsOfAlphAerodactylChamberSceneID:: db
+wRuinsOfAlphAYuyukoChamberSceneID:: db
 wRuinsOfAlphHoOhChamberSceneID:: db
 wRuinsOfAlphInnerChamberSceneID:: db
-wRuinsOfAlphKabutoChamberSceneID:: db
-wRuinsOfAlphOmanyteChamberSceneID:: db
+wRuinsOfAlphLunasaChamberSceneID:: db
+wRuinsOfAlphCYuyukoChamberSceneID:: db
 wRuinsOfAlphOutsideSceneID:: db
 wRuinsOfAlphResearchCenterSceneID:: db
 wSeagallopFerryNavelGateSceneID:: db
 wSeagallopFerryShamoutiGateSceneID:: db
 wSeagallopFerryVermilionGateSceneID:: db
 wShamoutiHotelRestaurantSceneID:: db
-wSproutTower3FSceneID:: db
+wAutumnTower3FSceneID:: db
 wTeamRocketBaseB2FSceneID:: db
 wTeamRocketBaseB3FSceneID:: db
 wTinTower1FSceneID:: db
@@ -1262,15 +1262,15 @@ wBlueCardBalance:: db
 
 wBugContestOfficerPrize:: db
 
-wInPokegear:: db
+wInTohogear:: db
 wWalkingOnBridge:: db
 
 wDailyRematchFlags:: ds 4
 wDailyPhoneItemFlags:: ds 4
 wDailyPhoneTimeOfDayFlags:: ds 4
 wKenjiBreakTimer:: dw ; Kenji
-wYanmaMapGroup:: db
-wYanmaMapNumber:: db
+wAEikiMapGroup:: db
+wAEikiMapNumber:: db
 
 wVermilionGymTrashCan1:: db
 wVermilionGymTrashCan2:: db
@@ -1331,9 +1331,9 @@ wCurMapDataEnd::
 
 SECTION "Party", WRAMX
 
-wPokemonData::
+wTohomonData::
 
-wPartyCount::   db ; number of Pokémon in party
+wPartyCount::   db ; number of Tohomon in party
 
 	ds 7 ; unused
 
@@ -1358,19 +1358,19 @@ wPartyMonNicknamesEnd::
 
 	ds 1 ; unused
 
-wPokedexFlags::
-wPokedexCaught:: flag_array NUM_UNIQUE_POKEMON
-wEndPokedexCaught::
+wTohodexFlags::
+wTohodexCaught:: flag_array NUM_UNIQUE_TOHOMON
+wEndTohodexCaught::
 
 	ds 1 ; unused
 
-wPokedexSeen:: flag_array NUM_UNIQUE_POKEMON
-wEndPokedexSeen::
-wEndPokedexFlags::
+wTohodexSeen:: flag_array NUM_UNIQUE_TOHOMON
+wEndTohodexSeen::
+wEndTohodexFlags::
 
 	ds 1 ; unused
 
-wUnlockedUnowns:: db
+wUnlockedHinas:: db
 
 	ds 2 ; unused
 
@@ -1392,7 +1392,7 @@ wDayCareLady::
 	db
 
 wStepsToEgg:: db
-wBreedMotherOrNonDitto::
+wBreedMotherOrNonLyrica::
 ;  z: yes
 ; nz: no
 	db
@@ -1402,8 +1402,8 @@ wBreedMon2OT:: ds PLAYER_NAME_LENGTH
 wBreedMon2Extra:: ds 3
 wBreedMon2:: breed_struct wBreedMon2
 
-; TODO: space for a Day-Care on Route 5 which just levels up one Pokémon;
-; Route 34 will have a Nursery that breeds with two Pokémon.
+; TODO: space for a Day-Care on Route 5 which just levels up one Tohomon;
+; Route 34 will have a Nursery that breeds with two Tohomon.
 wLevelUpMonNickname:: ds MON_NAME_LENGTH
 wLevelUpMonOT:: ds PLAYER_NAME_LENGTH
 wLevelUpMonExtra:: ds 3
@@ -1412,8 +1412,8 @@ wLevelUpMon:: breed_struct wLevelUpMon
 wBugContestBackupPartyCount:: db
 wContestMon:: party_struct wContestMon
 
-wDunsparceMapGroup:: db
-wDunsparceMapNumber:: db
+wCMomijiMapGroup:: db
+wCMomijiMapNumber:: db
 wFishingSwarmFlag:: db
 
 wRoamMon1:: roam_struct wRoamMon1
@@ -1422,10 +1422,10 @@ wRoamMon3:: roam_struct wRoamMon3
 
 	ds 4 ; previously used
 
-wBestMagikarpLengthMm::
-wBestMagikarpLengthMmHi:: db
-wBestMagikarpLengthMmLo:: db
-wMagikarpRecordHoldersName:: ds NAME_LENGTH
+wBestLilyBlackLengthMm::
+wBestLilyBlackLengthMmHi:: db
+wBestLilyBlackLengthMmLo:: db
+wLilyBlackRecordHoldersName:: ds NAME_LENGTH
 
 wRegisteredItemFlags::
 	; 0 - wRegisteredItems key item flag
@@ -1442,7 +1442,7 @@ wRegisteredItemFlags::
 ; You can map 4 items, to select + directions
 wRegisteredItems:: ds 4
 
-wPokemonDataEnd::
+wTohomonDataEnd::
 wGameDataEnd::
 
 
@@ -1465,47 +1465,47 @@ wTempTileMap::
 ; 20x18 grid of 8x8 tiles
 	ds SCREEN_WIDTH * SCREEN_HEIGHT
 
-; PokeAnim data
-wPokeAnimStruct::
-wPokeAnimSceneIndex:: db
-wPokeAnimPointer:: dw
-wPokeAnimSpecies:: db
-wPokeAnimVariant:: db
+; TohoAnim data
+wTohoAnimStruct::
+wTohoAnimSceneIndex:: db
+wTohoAnimPointer:: dw
+wTohoAnimSpecies:: db
+wTohoAnimVariant:: db
 	ds 1 ; unused
-wPokeAnimGraphicStartTile:: db
-wPokeAnimCoord:: dw
-wPokeAnimFrontpicHeight:: db
-wPokeAnimIdleFlag:: db
-wPokeAnimSpeed:: db
-wPokeAnimPointerBank:: db
-wPokeAnimPointerAddr:: dw
-wPokeAnimFramesBank:: db
-wPokeAnimFramesAddr:: dw
-wPokeAnimBitmaskBank:: db
-wPokeAnimBitmaskAddr:: dw
-wPokeAnimFrame:: db
-wPokeAnimJumptableIndex:: db
-wPokeAnimRepeatTimer:: db
-wPokeAnimCurBitmask:: db
-wPokeAnimWaitCounter:: db
-wPokeAnimCommand:: db
-wPokeAnimParameter:: db
+wTohoAnimGraphicStartTile:: db
+wTohoAnimCoord:: dw
+wTohoAnimFrontpicHeight:: db
+wTohoAnimIdleFlag:: db
+wTohoAnimSpeed:: db
+wTohoAnimPointerBank:: db
+wTohoAnimPointerAddr:: dw
+wTohoAnimFramesBank:: db
+wTohoAnimFramesAddr:: dw
+wTohoAnimBitmaskBank:: db
+wTohoAnimBitmaskAddr:: dw
+wTohoAnimFrame:: db
+wTohoAnimJumptableIndex:: db
+wTohoAnimRepeatTimer:: db
+wTohoAnimCurBitmask:: db
+wTohoAnimWaitCounter:: db
+wTohoAnimCommand:: db
+wTohoAnimParameter:: db
 	ds 1 ; unused
-wPokeAnimBitmaskCurCol:: db
-wPokeAnimBitmaskCurRow:: db
-wPokeAnimBitmaskCurBit:: db
-wPokeAnimBitmaskBuffer:: db
+wTohoAnimBitmaskCurCol:: db
+wTohoAnimBitmaskCurRow:: db
+wTohoAnimBitmaskCurBit:: db
+wTohoAnimBitmaskBuffer:: db
 	ds 8 ; unused
-wPokeAnimStructEnd::
+wTohoAnimStructEnd::
 
 
 SECTION "Used Storage", WRAMX
 
-wPokeDB1UsedEntries:: flag_array MONDB_ENTRIES
-wPokeDB1UsedEntriesEnd::
+wTohoDB1UsedEntries:: flag_array MONDB_ENTRIES
+wTohoDB1UsedEntriesEnd::
 
-wPokeDB2UsedEntries:: flag_array MONDB_ENTRIES
-wPokeDB2UsedEntriesEnd::
+wTohoDB2UsedEntries:: flag_array MONDB_ENTRIES
+wTohoDB2UsedEntriesEnd::
 
 
 SECTION "Sprites Backup", WRAMX
@@ -1570,7 +1570,7 @@ wDexNoStrBall:: db ; ball if caught, $7f otherwise
 wDexNoStrNo:: ds 2 ; "No."
 wDexNoStrNumber:: ds 3 ; the dex number
 
-; These are for the list view. For the "No.123", see wPokedexOAM_DexNo in wram0.
+; These are for the list view. For the "No.123", see wTohodexOAM_DexNo in wram0.
 wDexNumber:: dw
 wDexNumberString:: ds 4 ; 3 numbers including leading zeroes + terminator
 
@@ -1625,7 +1625,7 @@ wDexAreaRegionLocations:: ds NUM_DEXAREAS
 ; Things handled by hblank
 wDexAreaMonOffset:: db ; current area mon index to process in h-blank
 wDexAreaSpriteSlot:: db ; LOW(address) to oamSprite to use.
-wDexAreaModeCopy:: db ; written to from hPokedexAreaMode on screen reload
+wDexAreaModeCopy:: db ; written to from hTohodexAreaMode on screen reload
 
 	; Used to align wDexAreaMons2. Feel free to add more data here, just don't
 	; let wDexAreaMons2 be misaligned (an assert will tell you if you do).
@@ -1651,7 +1651,7 @@ wDecompressedAttributes:: ds 256 tiles
 
 SECTION UNION "Attributes", WRAMX
 
-; Array of Pokémon in the pokédex list.
+; Array of Tohomon in the pokédex list.
 wDexMons::
 for n, 1, NUM_SPECIES + 1
 wDexMon{d:n}::

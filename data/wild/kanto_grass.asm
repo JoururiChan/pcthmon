@@ -1848,7 +1848,7 @@
 	wildmon 66, YUKI
 	end_grass_wildmons
 
-	def_grass_wildmons POKEMON_MANSION_1F
+	def_grass_wildmons TOHOMON_MANSION_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 58, CELIS
@@ -1876,7 +1876,7 @@
 	wildmon 60, LUIZE
 	end_grass_wildmons
 
-	def_grass_wildmons POKEMON_MANSION_B1F
+	def_grass_wildmons TOHOMON_MANSION_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 58, CELIS

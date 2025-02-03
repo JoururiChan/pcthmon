@@ -51,14 +51,14 @@ MapScenes::
 	scene_var MAHOGANY_TOWN,                          wMahoganyTownSceneID
 	scene_var MOUNT_MOON_1F,                          wMountMoon1FSceneID
 	scene_var MOUNT_MOON_SQUARE,                      wAlways0SceneID
-	scene_var MR_POKEMONS_HOUSE,                      wMrPokemonsHouseSceneID
+	scene_var MR_TOHOMONS_HOUSE,                      wMrTohomonsHouseSceneID
 	scene_var MYSTRI_STAGE,                           wMystriStageSceneID
 	scene_var NEW_BARK_TOWN,                          wNewBarkTownSceneID
 	scene_var OLIVINE_CITY,                           wOlivineCitySceneID
 	scene_var OLIVINE_PORT,                           wOlivinePortSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
-	scene_var POKECENTER_2F,                          wPokecenter2FSceneID
-	scene_var POKEMON_LEAGUE_GATE,                    wPokemonLeagueGateSceneID
+	scene_var POKECENTER_2F,                          wTohocenter2FSceneID
+	scene_var TOHOMON_LEAGUE_GATE,                    wTohomonLeagueGateSceneID
 	scene_var POWER_PLANT,                            wPowerPlantSceneID
 	scene_var RADIO_TOWER_5F,                         wRadioTower5FSceneID
 	scene_var ROUTE_10_NORTH,                         wRoute10NorthSceneID
@@ -82,11 +82,11 @@ MapScenes::
 	scene_var ROUTE_47,                               wRoute47SceneID
 	scene_var ROUTE_48,                               wRoute48SceneID
 	scene_var RUGGED_ROAD_SOUTH,                      wRuggedRoadSouthSceneID
-	scene_var RUINS_OF_ALPH_AERODACTYL_CHAMBER,       wRuinsOfAlphAerodactylChamberSceneID
+	scene_var RUINS_OF_ALPH_AYUYUKO_CHAMBER,       wRuinsOfAlphAYuyukoChamberSceneID
 	scene_var RUINS_OF_ALPH_HO_OH_CHAMBER,            wRuinsOfAlphHoOhChamberSceneID
 	scene_var RUINS_OF_ALPH_INNER_CHAMBER,            wRuinsOfAlphInnerChamberSceneID
-	scene_var RUINS_OF_ALPH_KABUTO_CHAMBER,           wRuinsOfAlphKabutoChamberSceneID
-	scene_var RUINS_OF_ALPH_OMANYTE_CHAMBER,          wRuinsOfAlphOmanyteChamberSceneID
+	scene_var RUINS_OF_ALPH_LUNASA_CHAMBER,           wRuinsOfAlphLunasaChamberSceneID
+	scene_var RUINS_OF_ALPH_CYUYUKO_CHAMBER,          wRuinsOfAlphCYuyukoChamberSceneID
 	scene_var RUINS_OF_ALPH_OUTSIDE,                  wRuinsOfAlphOutsideSceneID
 	scene_var RUINS_OF_ALPH_RESEARCH_CENTER,          wRuinsOfAlphResearchCenterSceneID
 	scene_var SAFFRON_TRAIN_STATION,                  wAlways0SceneID
@@ -95,7 +95,7 @@ MapScenes::
 	scene_var SEAGALLOP_FERRY_VERMILION_GATE,         wSeagallopFerryVermilionGateSceneID
 	scene_var SHAMOUTI_HOTEL_RESTAURANT,              wShamoutiHotelRestaurantSceneID
 	scene_var SNOWTOP_MOUNTAIN_OUTSIDE,               wSnowtopMountainOutsideSceneID
-	scene_var SPROUT_TOWER_3F,                        wSproutTower3FSceneID
+	scene_var AUTUMN_TOWER_3F,                        wAutumnTower3FSceneID
 	scene_var TEAM_ROCKET_BASE_B1F,                   wAlways0SceneID
 	scene_var TEAM_ROCKET_BASE_B2F,                   wTeamRocketBaseB2FSceneID
 	scene_var TEAM_ROCKET_BASE_B3F,                   wTeamRocketBaseB3FSceneID

@@ -1,11 +1,11 @@
-PokeCenter2F_MapScriptHeader:
+TohoCenter2F_MapScriptHeader:
 	def_scene_scripts
-	scene_script PokeCenter2FDummyTrigger
-	scene_script PokeCenter2FLeftTradeCenterTrigger
-	scene_script PokeCenter2FLeftColosseumTrigger
+	scene_script TohoCenter2FDummyTrigger
+	scene_script TohoCenter2FLeftTradeCenterTrigger
+	scene_script TohoCenter2FLeftColosseumTrigger
 
 	def_callbacks
-	callback MAPCALLBACK_TILES, PokeCenter2FTileCallback
+	callback MAPCALLBACK_TILES, TohoCenter2FTileCallback
 
 	def_warp_events
 	warp_event  0,  7, POKECENTER_2F, -1
@@ -15,7 +15,7 @@ PokeCenter2F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  7,  3, BGEVENT_READ, PokeCenter2FLinkRecordSign
+	bg_event  7,  3, BGEVENT_READ, TohoCenter2FLinkRecordSign
 
 	def_object_events
 	object_event  5,  2, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LinkReceptionistScript_Trade, -1
@@ -26,19 +26,19 @@ PokeCenter2F_MapScriptHeader:
 	const POKECENTER2F_TRADE_RECEPTIONIST
 	const POKECENTER2F_BATTLE_RECEPTIONIST
 
-PokeCenter2FLeftTradeCenterTrigger:
+TohoCenter2FLeftTradeCenterTrigger:
 	sdefer Script_LeftCableTradeCenter
-PokeCenter2FDummyTrigger:
+TohoCenter2FDummyTrigger:
 	end
 
-PokeCenter2FLeftColosseumTrigger:
+TohoCenter2FLeftColosseumTrigger:
 	sdefer Script_LeftCableColosseum
 	end
 
-PokeCenter2FTileCallback:
+TohoCenter2FTileCallback:
 	callasm .CheckKanto
 	iffalsefwd .done
-	changemapblocks KantoPokeCenter2F_BlockData
+	changemapblocks KantoTohoCenter2F_BlockData
 .done
 	endcallback
 
@@ -54,23 +54,23 @@ PokeCenter2FTileCallback:
 
 Script_LeftCableTradeCenter:
 	special WaitForOtherPlayerToExit
-	applymovement POKECENTER2F_TRADE_RECEPTIONIST, PokeCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight
-	applymovement PLAYER, PokeCenter2FMovementData_PlayerTakesThreeStepsDown
-	applymovement POKECENTER2F_TRADE_RECEPTIONIST, PokeCenter2FMovementData_ReceptionistStepsRightAndDown
+	applymovement POKECENTER2F_TRADE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight
+	applymovement PLAYER, TohoCenter2FMovementData_PlayerTakesThreeStepsDown
+	applymovement POKECENTER2F_TRADE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistStepsRightAndDown
 	setscene $0
 	setmapscene TRADE_CENTER, $0
 	end
 
 Script_LeftCableColosseum:
 	special WaitForOtherPlayerToExit
-	applymovement POKECENTER2F_BATTLE_RECEPTIONIST, PokeCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight
-	applymovement PLAYER, PokeCenter2FMovementData_PlayerTakesThreeStepsDown
-	applymovement POKECENTER2F_BATTLE_RECEPTIONIST, PokeCenter2FMovementData_ReceptionistStepsRightAndDown
+	applymovement POKECENTER2F_BATTLE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight
+	applymovement PLAYER, TohoCenter2FMovementData_PlayerTakesThreeStepsDown
+	applymovement POKECENTER2F_BATTLE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistStepsRightAndDown
 	setscene $0
 	setmapscene COLOSSEUM, $0
 	end
 
-PokeCenter2FLinkRecordSign:
+TohoCenter2FLinkRecordSign:
 	reanchormap
 	special Special_DisplayLinkRecord
 	endtext
@@ -112,7 +112,7 @@ LinkReceptionistScript_DoTradeOrBattle:
 	writetext Text_PleaseComeIn
 	waitbutton
 	closetext
-	scall PokeCenter2F_EnterRoom
+	scall TohoCenter2F_EnterRoom
 	warpcheck
 	end
 
@@ -195,9 +195,9 @@ endc
 	cont "being adjusted."
 	done
 
-PokeCenter2F_EnterRoom:
-	applymovementlasttalked PokeCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight
-	applymovement PLAYER, PokeCenter2FMovementData_PlayerTakesThreeStepsUp
+TohoCenter2F_EnterRoom:
+	applymovementlasttalked TohoCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight
+	applymovement PLAYER, TohoCenter2FMovementData_PlayerTakesThreeStepsUp
 	readmem wLinkOtherPlayerGender
 	scalltable .LinkTrainerTable
 	end
@@ -216,25 +216,25 @@ PokeCenter2F_EnterRoom:
 	variablesprite SPRITE_LINK_TRAINER, SPRITE_CRYS
 	end
 
-PokeCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight:
+TohoCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight:
 	slow_step_up
 	slow_step_left
 	turn_head_right
 	step_end
 
-PokeCenter2FMovementData_PlayerTakesThreeStepsUp:
+TohoCenter2FMovementData_PlayerTakesThreeStepsUp:
 	step_up
 	step_up
 	step_up
 	step_end
 
-PokeCenter2FMovementData_PlayerTakesThreeStepsDown:
+TohoCenter2FMovementData_PlayerTakesThreeStepsDown:
 	step_down
 	step_down
 	step_down
 	step_end
 
-PokeCenter2FMovementData_ReceptionistStepsRightAndDown:
+TohoCenter2FMovementData_ReceptionistStepsRightAndDown:
 	slow_step_right
 	slow_step_down
 	step_end

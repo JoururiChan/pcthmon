@@ -421,7 +421,7 @@ NewStoragePointer:
 FlushStorageSystem:
 ; Frees up orphaned pokedb entries and reallocates used entries. Beware of soft-
 ; resets and make sure this process completes before loading up a game.
-	ld a, BANK(wPokeDB1UsedEntries)
+	ld a, BANK(wTohoDB1UsedEntries)
 	call StackCallInWRAMBankA
 .Function:
 	push hl
@@ -430,8 +430,8 @@ FlushStorageSystem:
 
 	; Clear used pokedb entries.
 	xor a
-	ld hl, wPokeDB1UsedEntries
-	ld bc, wPokeDB2UsedEntriesEnd - wPokeDB1UsedEntries
+	ld hl, wTohoDB1UsedEntries
+	ld bc, wTohoDB2UsedEntriesEnd - wTohoDB1UsedEntries
 	rst ByteFill
 
 	; Now, set flags as per box usage.
@@ -690,7 +690,7 @@ AddStorageMon:
 	push de
 	call EncodeTempMon
 	pop de
-	call OpenPokeDB
+	call OpenTohoDB
 
 	ld d, h
 	ld e, l
@@ -702,7 +702,7 @@ AddStorageMon:
 	call CloseSRAM
 	jmp PopBCDEHL
 
-OpenPokeDB:
+OpenTohoDB:
 ; Opens pokedb bank and sets hl to relevant entry in de.
 	ld a, d
 	dec a
@@ -1058,13 +1058,13 @@ CheckFreeDatabaseEntries:
 	; fallthrough
 _CheckFreeDatabaseEntries:
 	; Now, count used entries.
-	ld a, BANK(wPokeDB1UsedEntries)
+	ld a, BANK(wTohoDB1UsedEntries)
 	call StackCallInWRAMBankA
 .Function:
-	ld hl, wPokeDB1UsedEntries
+	ld hl, wTohoDB1UsedEntries
 	call .CountEntries
 	push bc
-	ld hl, wPokeDB2UsedEntries
+	ld hl, wTohoDB2UsedEntries
 	call .CountEntries
 	pop bc
 	add c
@@ -1350,7 +1350,7 @@ GetStorageMon:
 	call IsStorageUsed
 	jr z, .done ; entry not found
 
-	call OpenPokeDB
+	call OpenTohoDB
 
 	; Write to wEncodedTempMon and then decode it.
 	ld de, wEncodedTempMon
@@ -1400,14 +1400,14 @@ StorageFlagAction:
 	jmp PopBCDEHL
 
 .do_it
-	ld a, BANK(wPokeDB1UsedEntries)
+	ld a, BANK(wTohoDB1UsedEntries)
 	call StackCallInWRAMBankA
 .Function:
 	ld a, d
 	dec a
-	ld hl, wPokeDB1UsedEntries
+	ld hl, wTohoDB1UsedEntries
 	jr z, .got_entries
-	ld hl, wPokeDB2UsedEntries
+	ld hl, wTohoDB2UsedEntries
 .got_entries
 	ld c, e
 	dec c

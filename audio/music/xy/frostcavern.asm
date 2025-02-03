@@ -1,4 +1,4 @@
-; Pokémon X/Y - Frost Cavern
+; Tohomon X/Y - Frost Cavern
 ; Demixed by Mmmmmm
 ; https://pastebin.com/raw/eMuPLjSZ
 ; https://hax.iimarckus.org/topic/6777/8/

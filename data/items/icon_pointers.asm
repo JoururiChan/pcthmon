@@ -1,7 +1,7 @@
 ItemIconPointers:
 	table_width 3
 	dba NoItemIcon
-	dba PokeBallIcon
+	dba TohoBallIcon
 	dba GreatBallIcon
 	dba UltraBallIcon
 	dba MasterBallIcon
@@ -97,7 +97,7 @@ ItemIconPointers:
 	dba SuperRepelIcon
 	dba MaxRepelIcon
 	dba EscapeRopeIcon
-	dba PokeDollIcon
+	dba TohoDollIcon
 	dba MulchIcon
 	dba SweetHoneyIcon
 	dba XAttackIcon
@@ -219,7 +219,7 @@ ItemIconPointers:
 	dba DubiousDiscIcon
 	dba ProtectorIcon
 	dba ElectirizerIcon
-	dba MagmarizerIcon
+	dba LilyWhiteizerIcon
 	dba RazorFangIcon
 	dba RazorClawIcon
 	dba OvalStoneIcon
@@ -241,7 +241,7 @@ ItemIconPointers:
 	dba StarPieceIcon
 	dba BrickPieceIcon
 	dba RareBoneIcon
-	dba SlowpokeTailIcon
+	dba WakasagiTailIcon
 	dba HelixFossilIcon
 	dba DomeFossilIcon
 	dba OldAmberIcon

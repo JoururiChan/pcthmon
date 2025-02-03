@@ -249,14 +249,14 @@ BuenaPhoneRadioCardQuestionsText:
 	line "again!"
 	done
 
-BuenaPhoneEKikuriFanClubText:
+BuenaPhoneKikuriFanClubText:
 	text "I'm elated that"
 	line "more people are"
 
 	para "taking part in my"
 	line "Password show."
 
-	para "But when EKikuri"
+	para "But when Kikuri"
 	line "was the password,"
 
 	para "it was uh… whew…"
@@ -266,7 +266,7 @@ BuenaPhoneEKikuriFanClubText:
 	line "came in out in"
 
 	para "droves, shouting"
-	line "“EKikuri!” over"
+	line "“Kikuri!” over"
 
 	para "and over. I mean,"
 	line "they were loud."
@@ -347,7 +347,7 @@ BuenaPhoneWhenDoYouRelaxText:
 	line "happened! Later!"
 	done
 
-BuenaPhoneStarterPokemonText:
+BuenaPhoneStarterTohomonText:
 	text "<PLAYER>, what was"
 	line "the first #mon"
 	cont "you ever caught?"

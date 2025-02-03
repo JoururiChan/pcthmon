@@ -5,14 +5,14 @@ Route30_MapScriptHeader:
 
 	def_warp_events
 	warp_event  7, 39, ROUTE_30_BERRY_SPEECH_HOUSE, 1
-	warp_event 17,  5, MR_POKEMONS_HOUSE, 1
+	warp_event 17,  5, MR_TOHOMONS_HOUSE, 1
 
 	def_coord_events
 
 	def_bg_events
 	bg_event  9, 43, BGEVENT_JUMPTEXT, Route30SignText
-	bg_event 13, 29, BGEVENT_JUMPTEXT, MrPokemonsHouseDirectionsSignText
-	bg_event 15,  5, BGEVENT_JUMPTEXT, MrPokemonsHouseSignText
+	bg_event 13, 29, BGEVENT_JUMPTEXT, MrTohomonsHouseDirectionsSignText
+	bg_event 15,  5, BGEVENT_JUMPTEXT, MrTohomonsHouseSignText
 	bg_event  3, 21, BGEVENT_JUMPTEXT, Route30TrainerTipsText
 	bg_event 11,  8, BGEVENT_JUMPTEXT, Route30AdvancedTipsText
 	bg_event 14,  9, BGEVENT_ITEM + POTION, EVENT_ROUTE_30_HIDDEN_POTION
@@ -20,8 +20,8 @@ Route30_MapScriptHeader:
 
 	def_object_events
 	object_event  5, 26, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, YoungsterJoey_ImportantBattleScript, EVENT_ROUTE_30_BATTLE
-	pokemon_event 5, 24, CMUGETSU, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_ROUTE_30_BATTLE
-	object_event  5, 25, SPRITE_CGENGETSU_BACK, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_30_BATTLE
+	tohomon_event 5, 24, CMUGETSU, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_ROUTE_30_BATTLE
+	object_event  5, 25, SPRITE_CGENGETSU_BACK, SPRITEMOVEDATA_TOHOMON, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_30_BATTLE
 	object_event  2, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJoey, EVENT_ROUTE_30_YOUNGSTER_JOEY
 	object_event  5, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerYoungsterMikey, -1
 	object_event  1,  7, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBug_catcherDon, -1
@@ -206,7 +206,7 @@ GenericTrainerBug_catcherDon:
 Route30YoungsterScript:
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue_jumptextfaceplayer Route30YoungsterText_EveryoneIsBattling
-	jumptextfaceplayer Route30YoungsterText_DirectionsToMrPokemonsHouse
+	jumptextfaceplayer Route30YoungsterText_DirectionsToMrTohomonsHouse
 
 Route30_JoeysEMimaAttacksMovement:
 	run_step_up
@@ -281,7 +281,7 @@ Bug_catcherDonBeatenText:
 	line "strong!"
 	done
 
-Route30YoungsterText_DirectionsToMrPokemonsHouse:
+Route30YoungsterText_DirectionsToMrTohomonsHouse:
 	text "Mr.#mon's"
 	line "house? It's a bit"
 	cont "farther ahead."
@@ -308,12 +308,12 @@ Route30SignText:
 	line "Violet City"
 	done
 
-MrPokemonsHouseDirectionsSignText:
+MrTohomonsHouseDirectionsSignText:
 	text "Mr.#mon's House"
 	line "Straight Ahead!"
 	done
 
-MrPokemonsHouseSignText:
+MrTohomonsHouseSignText:
 	text "Mr.#mon's House"
 	done
 

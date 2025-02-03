@@ -28,10 +28,10 @@ Route36_MapScriptHeader:
 	bg_event 31, 11, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_36
 
 	def_object_events
-	object_event 39,  9, SPRITE_WEIRD_TREE, SPRITEMOVEDATA_SUDOWOODO, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SudowoodoScript, EVENT_ROUTE_36_SUDOWOODO
+	object_event 39,  9, SPRITE_WEIRD_TREE, SPRITEMOVEDATA_CMEDICINE, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CMedicineScript, EVENT_ROUTE_36_CMEDICINE
 	object_event 53,  6, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ArthurScript, EVENT_ROUTE_36_ARTHUR_OF_THURSDAY
-	object_event 37, 12, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route36FloriaScript, EVENT_FLORIA_AT_SUDOWOODO
-	pokemon_event 25,  6, SUICUNE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_SAW_SUICUNE_ON_ROUTE_36
+	object_event 37, 12, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route36FloriaScript, EVENT_FLORIA_AT_CMEDICINE
+	tohomon_event 25,  6, SUICUNE, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_SAW_SUICUNE_ON_ROUTE_36
 	object_event 30,  6, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route36CooltrainerfChiaraScript, -1
 	object_event 24, 13, SPRITE_PSYCHIC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPsychicMark, -1
 	object_event 35, 14, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 5, TrainerSchoolboyAlan1, -1
@@ -71,7 +71,7 @@ Route36SuicuneScript:
 	setmapscene CIANWOOD_CITY, $1
 	end
 
-SudowoodoScript:
+CMedicineScript:
 	checkkeyitem SQUIRTBOTTLE
 	iftruefwd .Fight
 	waitsfx
@@ -90,21 +90,21 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	waitsfx
 	playsound SFX_SANDSTORM
 	applyonemovement ROUTE36_WEIRD_TREE, tree_shake
-	showtext SudowoodoAttackedText
+	showtext CMedicineAttackedText
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon SUDOWOODO, 20
+	loadwildmon CMEDICINE, 20
 	startbattle
-	setevent EVENT_FOUGHT_SUDOWOODO
-	ifequalfwd $2, DidntCatchSudowoodo
+	setevent EVENT_FOUGHT_CMEDICINE
+	ifequalfwd $2, DidntCatchCMedicine
 	disappear ROUTE36_WEIRD_TREE
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_SUDOWOODO
+	setflag ENGINE_PLAYER_CAUGHT_CMEDICINE
 .nocatch
 	end
 
-DidntCatchSudowoodo:
+DidntCatchCMedicine:
 	reloadmapafterbattle
 	applymovement ROUTE36_WEIRD_TREE, WeirdTreeMovement_Flee
 	disappear ROUTE36_WEIRD_TREE
@@ -126,8 +126,8 @@ Route36FloriaScript:
 	end
 
 .FloriaMessage:
-	checkevent EVENT_FOUGHT_SUDOWOODO
-	iftrue_jumptextfaceplayer FloriaTextAfterSudowoodo
+	checkevent EVENT_FOUGHT_CMEDICINE
+	iftrue_jumptextfaceplayer FloriaTextAfterCMedicine
 	checkevent EVENT_GOT_SQUIRTBOTTLE
 	iftrue_jumptextfaceplayer FloriaTextAfterSquirtBottle
 	jumptextfaceplayer FloriaTextAfterPlainBadge
@@ -137,11 +137,11 @@ Route36RockSmashGuyScript:
 	opentext
 	checkevent EVENT_GOT_TM50_ROCK_SMASH
 	iftruefwd .AlreadyGotRockSmash
-	checkevent EVENT_FOUGHT_SUDOWOODO
-	iftruefwd .ClearedSudowoodo
+	checkevent EVENT_FOUGHT_CMEDICINE
+	iftruefwd .ClearedCMedicine
 	jumpopenedtext RockSmashGuyText1
 
-.ClearedSudowoodo:
+.ClearedCMedicine:
 	writetext RockSmashGuyText2
 	promptbutton
 	verbosegivetmhm TM_ROCK_SMASH
@@ -150,8 +150,8 @@ Route36RockSmashGuyScript:
 	jumpopenedtext RockSmashGuyText3
 
 Route36LassScript:
-	checkevent EVENT_FOUGHT_SUDOWOODO
-	iftrue_jumptextfaceplayer Route36LassText_ClearedSudowoodo
+	checkevent EVENT_FOUGHT_CMEDICINE
+	iftrue_jumptextfaceplayer Route36LassText_ClearedCMedicine
 	jumptextfaceplayer Route36LassText_OddTree
 
 TrainerSchoolboyAlan1:
@@ -317,7 +317,7 @@ Route36CooltrainerfChiaraScript:
 
 .IntroText:
 	text "I saw how you woke"
-	line "up that Sudowoodo."
+	line "up that CMedicine."
 
 	para "You did great!"
 
@@ -474,7 +474,7 @@ UsedSquirtbottleText:
 	line "SquirtBottle."
 	done
 
-SudowoodoAttackedText:
+CMedicineAttackedText:
 	text "The weird tree"
 	line "doesn't like the"
 	cont "SquirtBottle!"
@@ -531,7 +531,7 @@ FloriaTextAfterSquirtBottle:
 	para "Ta-ta!"
 	done
 
-FloriaTextAfterSudowoodo:
+FloriaTextAfterCMedicine:
 	text "I just knew that"
 	line "wiggly tree was a"
 	cont "#mon!"
@@ -609,7 +609,7 @@ Route36LassText_OddTree:
 	line "opened…"
 	done
 
-Route36LassText_ClearedSudowoodo:
+Route36LassText_ClearedCMedicine:
 	text "That odd tree dis-"
 	line "appeared without a"
 	cont "trace."

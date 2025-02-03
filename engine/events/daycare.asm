@@ -28,12 +28,12 @@ Special_DayCareMan:
 	ld a, DAYCARETEXT_MAN_INTRO
 	call DayCareManIntroText
 	jr c, .cancel
-	call DayCareAskDepositPokemon
+	call DayCareAskDepositTohomon
 	jr c, .print_text
 	farcall DepositMonWithDayCareMan
 	ld hl, wDayCareMan
 	set DAYCAREMAN_HAS_MON_F, [hl]
-	call DayCare_DepositPokemonText
+	call DayCare_DepositTohomonText
 	jmp DayCare_InitBreeding
 
 .AskWithdrawMon:
@@ -42,7 +42,7 @@ Special_DayCareMan:
 	call GetPriceToRetrieveBreedmon
 	call DayCare_AskWithdrawBreedMon
 	jr c, .print_text
-	farcall RetrievePokemonFromDayCareMan
+	farcall RetrieveTohomonFromDayCareMan
 	call DayCare_TakeMoney_PlayCry
 	ld hl, wDayCareMan
 	res DAYCAREMAN_HAS_MON_F, [hl]
@@ -64,12 +64,12 @@ Special_DayCareLady:
 	ld a, DAYCARETEXT_LADY_INTRO
 	call DayCareLadyIntroText
 	jr c, .cancel
-	call DayCareAskDepositPokemon
+	call DayCareAskDepositTohomon
 	jr c, .print_text
 	farcall DepositMonWithDayCareLady
 	ld hl, wDayCareLady
 	set DAYCARELADY_HAS_MON_F, [hl]
-	call DayCare_DepositPokemonText
+	call DayCare_DepositTohomonText
 	jmp DayCare_InitBreeding
 
 .AskWithdrawMon:
@@ -78,7 +78,7 @@ Special_DayCareLady:
 	call GetPriceToRetrieveBreedmon
 	call DayCare_AskWithdrawBreedMon
 	jr c, .print_text
-	farcall RetrievePokemonFromDayCareLady
+	farcall RetrieveTohomonFromDayCareLady
 	call DayCare_TakeMoney_PlayCry
 	ld hl, wDayCareLady
 	res DAYCARELADY_HAS_MON_F, [hl]
@@ -103,7 +103,7 @@ DayCarePersonIntroText:
 	call PrintDayCareText
 	jmp YesNoBox
 
-DayCareAskDepositPokemon:
+DayCareAskDepositTohomon:
 	ld a, [wPartyCount]
 	cp 2
 	jr c, .OnlyOneMon
@@ -157,7 +157,7 @@ DayCareAskDepositPokemon:
 	scf
 	ret
 
-DayCare_DepositPokemonText:
+DayCare_DepositTohomonText:
 	ld a, DAYCARETEXT_DEPOSIT
 	call PrintDayCareText
 	ld a, [wCurPartySpecies]
@@ -1095,4 +1095,4 @@ DayCare_GenerateEgg:
 .String_EGG:
 	rawchar "Egg@"
 
-INCLUDE "data/pokemon/invalid_breedmons.asm"
+INCLUDE "data/tohomon/invalid_breedmons.asm"

@@ -65,16 +65,16 @@ rom_obj := \
 	ram.o \
 	audio.o \
 	audio/music_player.o \
-	data/pokemon/dex_entries.o \
-	data/pokemon/egg_moves.o \
-	data/pokemon/evos_attacks.o \
+	data/tohomon/dex_entries.o \
+	data/tohomon/egg_moves.o \
+	data/tohomon/evos_attacks.o \
 	data/maps/map_data.o \
 	data/text/common.o \
 	data/tilesets.o \
 	engine/movie/credits.o \
 	engine/overworld/events.o \
 	gfx/minis_icons.o \
-	gfx/pokemon.o \
+	gfx/tohomon.o \
 	gfx/sprites.o \
 	gfx/trainers.o \
 	gfx/items.o \
@@ -104,7 +104,7 @@ tools:
 clean: tidy
 	find gfx maps data/tilesets -name '*.lz' -delete
 	find gfx \( -name '*.[12]bpp' -o -name '*.2bpp.vram[012]' -o -name '*.2bpp.vram[012]p' \) -delete
-	find gfx/pokemon -mindepth 1 \( -name 'bitmask.asm' -o -name 'frames.asm' \
+	find gfx/tohomon -mindepth 1 \( -name 'bitmask.asm' -o -name 'frames.asm' \
 		-o -name 'front.animated.tilemap' -o -name 'front.dimensions' \) -delete
 	find data/tilesets -name '*_collision.bin' -delete
 	$(MAKE) clean -C tools/
@@ -192,7 +192,7 @@ gfx/card_flip/card_flip_2.2bpp: tools/gfx += --remove-whitespace
 gfx/font/%.1bpp: tools/gfx += --trim-whitespace
 gfx/font/space.2bpp: tools/gfx =
 
-gfx/mail/dragonite.1bpp: tools/gfx += --remove-whitespace
+gfx/mail/csuika.1bpp: tools/gfx += --remove-whitespace
 gfx/mail/flower_mail_border.1bpp: tools/gfx += --remove-whitespace
 gfx/mail/large_note.1bpp: tools/gfx += --remove-whitespace
 gfx/mail/litebluemail_border.1bpp: tools/gfx += --remove-whitespace
@@ -222,7 +222,7 @@ gfx/pokedex/question_mark.2bpp: rgbgfx += -Z
 gfx/pokegear/pokegear.2bpp: tools/gfx += --trim-whitespace
 gfx/pokegear/pokegear_sprites.2bpp: tools/gfx += --trim-whitespace
 
-gfx/pokemon/%/back.2bpp: rgbgfx += -Z
+gfx/tohomon/%/back.2bpp: rgbgfx += -Z
 
 gfx/pc/obj.2bpp: gfx/pc/modes.2bpp gfx/pc/bags.2bpp ; $Qcat $^ > $@
 
@@ -256,14 +256,14 @@ gfx/type_chart/bg0.2bpp: gfx/type_chart/bg.2bpp.vram1p gfx/type_chart/bg.2bpp.vr
 gfx/type_chart/ob.2bpp: tools/gfx += --interleave --png=$<
 
 
-gfx/pokemon/%/front.animated.2bpp: gfx/pokemon/%/front.2bpp gfx/pokemon/%/front.dimensions
-	$Qtools/pokemon_animation_graphics -o $@ $^
-gfx/pokemon/%/front.animated.tilemap: gfx/pokemon/%/front.2bpp gfx/pokemon/%/front.dimensions
-	$Qtools/pokemon_animation_graphics -t $@ $^
-gfx/pokemon/%/bitmask.asm: gfx/pokemon/%/front.animated.tilemap gfx/pokemon/%/front.dimensions
-	$Qtools/pokemon_animation -b $^ > $@
-gfx/pokemon/%/frames.asm: gfx/pokemon/%/front.animated.tilemap gfx/pokemon/%/front.dimensions
-	$Qtools/pokemon_animation -f $^ > $@
+gfx/tohomon/%/front.animated.2bpp: gfx/tohomon/%/front.2bpp gfx/tohomon/%/front.dimensions
+	$Qtools/tohomon_animation_graphics -o $@ $^
+gfx/tohomon/%/front.animated.tilemap: gfx/tohomon/%/front.2bpp gfx/tohomon/%/front.dimensions
+	$Qtools/tohomon_animation_graphics -t $@ $^
+gfx/tohomon/%/bitmask.asm: gfx/tohomon/%/front.animated.tilemap gfx/tohomon/%/front.dimensions
+	$Qtools/tohomon_animation -b $^ > $@
+gfx/tohomon/%/frames.asm: gfx/tohomon/%/front.animated.tilemap gfx/tohomon/%/front.dimensions
+	$Qtools/tohomon_animation -f $^ > $@
 
 
 %.lz: %

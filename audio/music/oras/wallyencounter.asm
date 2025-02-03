@@ -1,4 +1,4 @@
-; Pokémon OR/AS - Encounter! Wally
+; Tohomon OR/AS - Encounter! Wally
 ; Demixed by Mmmmmm
 ; https://pastebin.com/b5C5P7NX
 ; https://hax.iimarckus.org/topic/6777/5/

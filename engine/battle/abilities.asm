@@ -790,7 +790,7 @@ TanglingHairAbility:
 	farjp CheckMirrorHerb
 
 EffectSporeAbility:
-	call CheckIfTargetIsGrassType
+	call CheckIfTargetIsNatureType
 	ret z
 	call GetOpponentAbility
 	cp OVERCOAT

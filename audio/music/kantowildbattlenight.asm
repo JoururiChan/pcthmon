@@ -1,4 +1,4 @@
-; Pokémon G/S/C - Kanto Wild Battle (Night)
+; Tohomon G/S/C - Kanto Wild Battle (Night)
 ; Demixed by TriteHexagon
 ; https://pastebin.com/p19WcKbx
 ; https://hax.iimarckus.org/topic/7697/

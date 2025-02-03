@@ -1,7 +1,7 @@
 ; StartMenu.Items indexes
 	const_def
 	const STARTMENUITEM_TOHODEX  ; 0
-	const STARTMENUITEM_POKEMON  ; 1
+	const STARTMENUITEM_TOHOMON  ; 1
 	const STARTMENUITEM_PACK     ; 2
 	const STARTMENUITEM_STATUS   ; 3
 	const STARTMENUITEM_SAVE     ; 4
@@ -161,7 +161,7 @@ StartMenu::
 
 .Items:
 	dw StartMenu_Tohodex,  .TohodexString
-	dw StartMenu_Pokemon,  .PartyString
+	dw StartMenu_Tohomon,  .PartyString
 	dw StartMenu_Pack,     .PackString
 	dw StartMenu_Status,   .StatusString
 	dw StartMenu_Save,     .SaveString
@@ -224,10 +224,10 @@ endr
 
 	ld a, [wPartyCount]
 	and a
-	jr z, .no_pokemon
-	ld a, STARTMENUITEM_POKEMON
+	jr z, .no_tohomon
+	ld a, STARTMENUITEM_TOHOMON
 	call .AppendMenuList
-.no_pokemon
+.no_tohomon
 
 	ld a, [wLinkMode]
 	and a
@@ -359,7 +359,7 @@ StartMenu_Tohodex:
 StartMenu_Tohogear:
 	call FadeToMenu
 	farcall InitTohogearPalettes
-	farcall PokeGear
+	farcall TohoGear
 	ld a, [wDefaultSpawnpoint]
 	and a
 	jr nz, _ExitStartMenuAndDoScript
@@ -385,7 +385,7 @@ _ExitStartMenuAndDoScript:
 	ld a, 4
 	ret
 
-StartMenu_Pokemon:
+StartMenu_Tohomon:
 	ld a, [wPartyCount]
 	and a
 	jr z, .return
@@ -414,7 +414,7 @@ StartMenu_Pokemon:
 	call SwitchPartyMons
 	jr .after_action
 .not_switch
-	call PokemonActionSubmenu
+	call TohomonActionSubmenu
 .after_action
 	push af
 	call SFXDelay2

@@ -7,7 +7,7 @@ CinnabarIsland_MapScriptHeader:
 	def_warp_events
 	warp_event 11, 15, CINNABAR_POKECENTER_1F, 1
 	warp_event 18,  9, CINNABAR_VOLCANO_1F, 1
-	warp_event  7,  7, POKEMON_MANSION_1F, 1
+	warp_event  7,  7, TOHOMON_MANSION_1F, 1
 
 	def_coord_events
 

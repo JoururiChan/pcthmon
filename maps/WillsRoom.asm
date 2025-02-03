@@ -88,7 +88,7 @@ WillScript:
 	para "I have trained all"
 	line "around the world,"
 
-	para "making my Psychic"
+	para "making my Reason"
 	line "#mon powerful."
 
 	para "And, at last, I've"

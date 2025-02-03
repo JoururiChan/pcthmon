@@ -27,7 +27,7 @@ BattleFactoryBattleRoomEnterBattleRoom:
 
 Script_BattleFloor:
 	applymovement PLAYER, MovementData_BattleFactoryBattleRoomPlayerWalksIn
-	special Special_BattleTower_LoadOpponentTrainerAndPokemonsWithOTSprite
+	special Special_BattleTower_LoadOpponentTrainerAndTohomonsWithOTSprite
 	appear BATTLEFACTORYBATTLEROOM_OPPONENT
 	warpsound
 	waitsfx

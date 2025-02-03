@@ -16,6 +16,6 @@ PrintInitialMessage:
 	return
 	
 .polished_crystal_string
-	string "*** Pokémon Polished Crystal save patch ( build "
+	string "*** Tohomon Polished Crystal save patch ( build "
 .parenthesis_asterisks_string
 	string " ) ***"

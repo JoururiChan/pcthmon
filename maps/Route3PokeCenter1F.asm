@@ -1,4 +1,4 @@
-Route3PokeCenter1F_MapScriptHeader:
+Route3TohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,15 +11,15 @@ Route3PokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalKarenScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalKarenScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  9,  4, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route3PokeCenter1FPokefanM1Text, -1
-	object_event  2,  5, SPRITE_HIKER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route3PokeCenter1FPokefanM2Text, -1
-	object_event 11,  3, SPRITE_CAMPER, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route3PokeCenter1FYoungsterText, -1
+	object_event  9,  4, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route3TohoCenter1FTohofanM1Text, -1
+	object_event  2,  5, SPRITE_HIKER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route3TohoCenter1FTohofanM2Text, -1
+	object_event 11,  3, SPRITE_CAMPER, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route3TohoCenter1FYoungsterText, -1
 
-PokemonJournalKarenScript:
+TohomonJournalKarenScript:
 	setflag ENGINE_READ_KAREN_JOURNAL
 	jumpthistext
 
@@ -38,7 +38,7 @@ PokemonJournalKarenScript:
 	line "reputation."
 	done
 
-Route3PokeCenter1FPokefanM1Text:
+Route3TohoCenter1FTohofanM1Text:
 	text "A few years ago"
 	line "I sold a weird-"
 
@@ -57,7 +57,7 @@ Route3PokeCenter1FPokefanM1Text:
 	line "a lot more money!"
 	done
 
-Route3PokeCenter1FPokefanM2Text:
+Route3TohoCenter1FTohofanM2Text:
 	text "I remember there"
 	line "was nothing built"
 
@@ -68,7 +68,7 @@ Route3PokeCenter1FPokefanM2Text:
 	line "convenient now."
 	done
 
-Route3PokeCenter1FYoungsterText:
+Route3TohoCenter1FYoungsterText:
 	text "Many trainers are"
 	line "on the mountain."
 

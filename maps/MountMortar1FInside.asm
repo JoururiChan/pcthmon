@@ -23,13 +23,13 @@ MountMortar1FInside_MapScriptHeader:
 	itemball_event 10, 27, HYPER_POTION, 1, EVENT_MOUNT_MORTAR_1F_INSIDE_HYPER_POTION
 	itemball_event 22, 20, MAX_POTION, 1, EVENT_MOUNT_MORTAR_1F_INSIDE_MAX_POTION
 	itemball_event 35, 19, NUGGET, 1, EVENT_MOUNT_MORTAR_1F_INSIDE_NUGGET
-	object_event 33, 43, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPokemaniacMiller, -1
+	object_event 33, 43, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacMiller, -1
 	object_event 24, 28, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSupernerdMarkus, -1
 	itemball_event  8, 16, IRON, 1, EVENT_MOUNT_MORTAR_1F_INSIDE_IRON
 	itemball_event 17, 17, ULTRA_BALL, 1, EVENT_MOUNT_MORTAR_1F_INSIDE_ULTRA_BALL
 
-GenericTrainerPokemaniacMiller:
-	generictrainer POKEMANIAC, MILLER, EVENT_BEAT_POKEMANIAC_MILLER, PokemaniacMillerSeenText, PokemaniacMillerBeatenText
+GenericTrainerTohomaniacMiller:
+	generictrainer POKEMANIAC, MILLER, EVENT_BEAT_POKEMANIAC_MILLER, TohomaniacMillerSeenText, TohomaniacMillerBeatenText
 
 	text "A while back, this"
 	line "karate dude wanted"
@@ -63,12 +63,12 @@ GenericTrainerSupernerdMarkus:
 	line "Waterfall?"
 	done
 
-PokemaniacMillerSeenText:
+TohomaniacMillerSeenText:
 	text "I'm not losing"
 	line "this time!"
 	done
 
-PokemaniacMillerBeatenText:
+TohomaniacMillerBeatenText:
 	text "I lost to some"
 	line "kid…?"
 	done

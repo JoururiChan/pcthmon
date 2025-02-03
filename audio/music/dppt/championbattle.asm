@@ -1,4 +1,4 @@
-; Pokémon D/P/Pt - Battle! Champion
+; Tohomon D/P/Pt - Battle! Champion
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/pokecrystal/blob/master/audio/music/145_ChampionBattle.asm
 

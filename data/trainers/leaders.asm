@@ -43,7 +43,7 @@ KantoGymLeaders:
 	db BROCK
 	db MISTY
 	db LT_SURGE
-	db ERIKA_T
+	db ERIKA
 	db JANINE
 	db SABRINA
 	db BLAINE

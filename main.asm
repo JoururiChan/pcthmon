@@ -6,12 +6,12 @@ INCLUDE "engine/overworld/map_objects.asm"
 INCLUDE "engine/menus/intro_menu.asm"
 INCLUDE "engine/overworld/init_map.asm"
 INCLUDE "engine/menus/init_options.asm"
-INCLUDE "engine/pokemon/learn.asm"
+INCLUDE "engine/tohomon/learn.asm"
 INCLUDE "data/items/attributes.asm"
 INCLUDE "engine/overworld/npc_movement.asm"
 INCLUDE "engine/events/happiness_egg.asm"
-INCLUDE "engine/events/shiny_ditto.asm"
-INCLUDE "engine/events/shuckle.asm"
+INCLUDE "engine/events/shiny_lyrica.asm"
+INCLUDE "engine/events/dsuwako.asm"
 INCLUDE "engine/events/bills_grandfather.asm"
 INCLUDE "engine/events/hidden_power_guru.asm"
 INCLUDE "engine/events/mint_tea.asm"
@@ -29,13 +29,13 @@ SECTION "bank3", ROMX
 
 INCLUDE "engine/events/checktime.asm"
 INCLUDE "engine/events/specials.asm"
-INCLUDE "engine/pokemon/health.asm"
+INCLUDE "engine/tohomon/health.asm"
 INCLUDE "engine/events/overworld.asm"
 INCLUDE "engine/events/overcast.asm"
 INCLUDE "engine/items/items.asm"
 INCLUDE "engine/battle/anim_hp_bar.asm"
-INCLUDE "engine/pokemon/move_mon.asm"
-INCLUDE "engine/pokemon/breedmon_level_growth.asm"
+INCLUDE "engine/tohomon/move_mon.asm"
+INCLUDE "engine/tohomon/breedmon_level_growth.asm"
 INCLUDE "engine/events/bug_contest/caught_mon.asm"
 INCLUDE "engine/events/bug_contest/display_stats.asm"
 INCLUDE "engine/items/item_effects.asm"
@@ -52,7 +52,7 @@ INCLUDE "engine/pc/bills_pc.asm"
 INCLUDE "engine/pc/bills_pc_ui.asm"
 
 
-SECTION "Poke Ball Effects", ROMX
+SECTION "Toho Ball Effects", ROMX
 
 INCLUDE "engine/items/poke_balls.asm"
 
@@ -78,7 +78,7 @@ INCLUDE "engine/events/whiteout.asm"
 INCLUDE "engine/events/forced_movement.asm"
 INCLUDE "engine/events/itemfinder.asm"
 INCLUDE "engine/menus/start_menu.asm"
-INCLUDE "engine/pokemon/mon_menu.asm"
+INCLUDE "engine/tohomon/mon_menu.asm"
 INCLUDE "engine/overworld/select_menu.asm"
 INCLUDE "engine/events/elevator.asm"
 INCLUDE "engine/events/bug_contest/contest.asm"
@@ -105,7 +105,7 @@ INCLUDE "engine/events/money.asm"
 INCLUDE "data/items/marts.asm"
 INCLUDE "engine/events/mom.asm"
 INCLUDE "engine/events/daycare.asm"
-INCLUDE "engine/pokemon/breeding.asm"
+INCLUDE "engine/tohomon/breeding.asm"
 
 
 SECTION "Clock Reset", ROMX
@@ -127,13 +127,13 @@ INCLUDE "engine/events/pokepic.asm"
 INCLUDE "engine/menus/scrolling_menu.asm"
 INCLUDE "engine/items/switch_items.asm"
 INCLUDE "engine/menus/menu_2.asm"
-INCLUDE "engine/pokemon/mon_submenu.asm"
+INCLUDE "engine/tohomon/mon_submenu.asm"
 INCLUDE "engine/battle/menu.asm"
 INCLUDE "engine/items/buy_sell_toss.asm"
 INCLUDE "engine/menus/trainer_card.asm"
 INCLUDE "engine/events/prof_oaks_pc.asm"
 INCLUDE "engine/overworld/decorations.asm"
-INCLUDE "engine/pokemon/level_up_happiness.asm"
+INCLUDE "engine/tohomon/level_up_happiness.asm"
 INCLUDE "engine/battle/read_trainer_dvs.asm"
 INCLUDE "engine/battle/returntobattle_useball.asm"
 INCLUDE "data/moves/effects.asm"
@@ -201,21 +201,21 @@ SECTION "Math", ROMX
 INCLUDE "engine/math/math.asm"
 
 
-SECTION "Pokedex", ROMX
+SECTION "Tohodex", ROMX
 
 INCLUDE "engine/pokedex/area.asm"
 INCLUDE "engine/pokedex/lcd.asm"
 INCLUDE "engine/pokedex/pokedex.asm"
-INCLUDE "engine/pokedex/unown_dex.asm"
+INCLUDE "engine/pokedex/hina_dex.asm"
 
 
-SECTION "Pokédex Footprints", ROMX
+SECTION "Tohodex Footprints", ROMX
 
-INCLUDE "data/pokemon/footprint_pointers.asm"
-INCLUDE "gfx/pokemon/footprints.asm"
+INCLUDE "data/tohomon/footprint_pointers.asm"
+INCLUDE "gfx/tohomon/footprints.asm"
 
 
-SECTION "Pokedex Shapes", ROMX
+SECTION "Tohodex Shapes", ROMX
 
 INCLUDE "gfx/shapes.asm"
 
@@ -227,13 +227,13 @@ INCLUDE "data/moves/moves.asm"
 
 SECTION "Evolution", ROMX
 
-INCLUDE "engine/pokemon/evolve.asm"
+INCLUDE "engine/tohomon/evolve.asm"
 
 
 SECTION "bank11", ROMX
 
 INCLUDE "engine/battle/ai/move.asm"
-INCLUDE "engine/pokemon/mail.asm"
+INCLUDE "engine/tohomon/mail.asm"
 INCLUDE "engine/events/hidden_grottoes.asm"
 INCLUDE "engine/pokedex/pokedex_2.asm"
 
@@ -243,7 +243,7 @@ SECTION "Crystal Features 1", ROMX
 INCLUDE "engine/events/move_tutor.asm"
 INCLUDE "engine/events/celebi.asm"
 INCLUDE "engine/menus/main_menu.asm"
-INCLUDE "engine/pokemon/search.asm"
+INCLUDE "engine/tohomon/search.asm"
 INCLUDE "engine/events/buena_menu.asm"
 
 
@@ -267,9 +267,9 @@ INCLUDE "engine/smallflag.asm"
 INCLUDE "engine/gfx/trademon_frontpic.asm"
 INCLUDE "engine/events/pokerus/check_pokerus.asm"
 INCLUDE "engine/events/lucky_number.asm"
-INCLUDE "engine/pokemon/caught_data.asm"
-INCLUDE "engine/pokemon/search2.asm"
-INCLUDE "engine/pokemon/stats_screen.asm"
+INCLUDE "engine/tohomon/caught_data.asm"
+INCLUDE "engine/tohomon/search2.asm"
+INCLUDE "engine/tohomon/stats_screen.asm"
 INCLUDE "engine/events/catch_tutorial.asm"
 INCLUDE "engine/movie/evolution_animation.asm"
 INCLUDE "engine/movie/init_hof_credits.asm"
@@ -286,19 +286,19 @@ INCLUDE "engine/events/sweet_honey.asm"
 
 SECTION "bank14", ROMX
 
-INCLUDE "engine/pokemon/party_menu.asm"
-INCLUDE "engine/pokemon/tempmon.asm"
-INCLUDE "engine/pokemon/types.asm"
-INCLUDE "engine/pokemon/mon_stats.asm"
-INCLUDE "engine/pokemon/experience.asm"
-INCLUDE "engine/pokemon/switchpartymons.asm"
+INCLUDE "engine/tohomon/party_menu.asm"
+INCLUDE "engine/tohomon/tempmon.asm"
+INCLUDE "engine/tohomon/types.asm"
+INCLUDE "engine/tohomon/mon_stats.asm"
+INCLUDE "engine/tohomon/experience.asm"
+INCLUDE "engine/tohomon/switchpartymons.asm"
 INCLUDE "engine/gfx/load_pics.asm"
-INCLUDE "engine/pokemon/natures.asm"
+INCLUDE "engine/tohomon/natures.asm"
 
 
 SECTION "Base Data", ROMX
 
-INCLUDE "data/pokemon/base_stats.asm"
+INCLUDE "data/tohomon/base_stats.asm"
 
 
 SECTION "Crystal Phone Text", ROMX
@@ -334,14 +334,14 @@ SECTION "bank21", ROMX
 
 INCLUDE "engine/events/halloffame.asm"
 INCLUDE "engine/gfx/copy_tilemap_at_once.asm"
-INCLUDE "engine/pokemon/abilities.asm"
+INCLUDE "engine/tohomon/abilities.asm"
 
 
 SECTION "Crystal Features 2", ROMX
 
 INCLUDE "engine/events/kurt.asm"
 INCLUDE "engine/gfx/player_gfx.asm"
-INCLUDE "engine/events/unown_walls.asm"
+INCLUDE "engine/events/hina_walls.asm"
 INCLUDE "engine/events/buena.asm"
 INCLUDE "engine/events/battle_tower/battle_tower.asm"
 INCLUDE "engine/events/battle_tower/trainer_text.asm"
@@ -357,7 +357,7 @@ INCLUDE "engine/events/magnet_train.asm"
 ; The three files below assume they're within the same bank.
 INCLUDE "engine/gfx/sprites.asm"
 INCLUDE "engine/gfx/mon_icons.asm"
-INCLUDE "data/pokemon/mini_icon_pointers.asm"
+INCLUDE "data/tohomon/mini_icon_pointers.asm"
 
 
 SECTION "bank24", ROMX
@@ -415,7 +415,7 @@ INCLUDE "engine/events/checkforhiddenitems.asm"
 INCLUDE "engine/events/treemons.asm"
 INCLUDE "engine/events/fishing_gfx.asm"
 INCLUDE "engine/pokegear/radio.asm"
-INCLUDE "engine/pokemon/mail_2.asm"
+INCLUDE "engine/tohomon/mail_2.asm"
 
 
 SECTION "Phone Scripts 2", ROMX
@@ -501,37 +501,37 @@ INCLUDE "engine/battle_anims/functions.asm"
 SECTION "Pic Animations", ROMX
 
 INCLUDE "engine/gfx/pic_animation.asm"
-INCLUDE "gfx/pokemon/anim_pointers.asm"
-INCLUDE "gfx/pokemon/anims.asm"
-INCLUDE "gfx/pokemon/extra_pointers.asm"
-INCLUDE "gfx/pokemon/extras.asm"
+INCLUDE "gfx/tohomon/anim_pointers.asm"
+INCLUDE "gfx/tohomon/anims.asm"
+INCLUDE "gfx/tohomon/extra_pointers.asm"
+INCLUDE "gfx/tohomon/extras.asm"
 
 
 SECTION "Pic Animations Bitmasks", ROMX
 
-INCLUDE "gfx/pokemon/bitmask_pointers.asm"
-INCLUDE "gfx/pokemon/bitmasks.asm"
+INCLUDE "gfx/tohomon/bitmask_pointers.asm"
+INCLUDE "gfx/tohomon/bitmasks.asm"
 
 
 SECTION "Pic Animations Frames Pointers", ROMX
 
-INCLUDE "gfx/pokemon/frame_pointers.asm"
+INCLUDE "gfx/tohomon/frame_pointers.asm"
 
 
 SECTION "Pic Animations Frames 1", ROMX
 
-INCLUDE "gfx/pokemon/kanto_frames.asm"
+INCLUDE "gfx/tohomon/kanto_frames.asm"
 
 
 SECTION "Pic Animations Frames 2", ROMX
 
-INCLUDE "gfx/pokemon/johto_frames.asm"
+INCLUDE "gfx/tohomon/johto_frames.asm"
 
 
 SECTION "bank38", ROMX
 
 INCLUDE "engine/games/card_flip.asm"
-INCLUDE "engine/games/unown_puzzle.asm"
+INCLUDE "engine/games/hina_puzzle.asm"
 ;INCLUDE "engine/games/memory_game.asm"
 INCLUDE "engine/gfx/fade.asm"
 
@@ -552,7 +552,7 @@ SECTION "bank3E", ROMX
 
 INCLUDE "engine/events/name_rater.asm"
 INCLUDE "engine/events/play_slow_cry.asm"
-INCLUDE "engine/events/magikarp.asm"
+INCLUDE "engine/events/lilyblack.asm"
 INCLUDE "engine/battle/hidden_power.asm"
 INCLUDE "engine/battle/misc.asm"
 
@@ -681,14 +681,14 @@ INCLUDE "data/items/apricorn_names.asm"
 INCLUDE "engine/items/print_item_description.asm"
 
 
-SECTION "Pokemon Body Data", ROMX
+SECTION "Tohomon Body Data", ROMX
 
-INCLUDE "data/pokemon/body_data.asm"
+INCLUDE "data/tohomon/body_data.asm"
 
 
-SECTION "Pokemon Names", ROMX
+SECTION "Tohomon Names", ROMX
 
-INCLUDE "data/pokemon/names.asm"
+INCLUDE "data/tohomon/names.asm"
 
 
 SECTION "Move Names", ROMX

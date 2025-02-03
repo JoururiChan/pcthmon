@@ -23,7 +23,7 @@ ObjectActionPairPointers:
 	dw SetFacingFruit,                 SetFacingFruit             ; OBJECT_ACTION_FRUIT
 	dw SetFacingBigSLilyBlack,           SetFacingFreezeBigSLilyBlack ; OBJECT_ACTION_BIG_SLILYBLACK
 	dw SetFacingStandFlip,             SetFacingStandFlip         ; OBJECT_ACTION_STAND_FLIP
-	dw SetFacingPokecomNews,           SetFacingPokecomNews       ; OBJECT_ACTION_POKECOM_NEWS
+	dw SetFacingTohocomNews,           SetFacingTohocomNews       ; OBJECT_ACTION_POKECOM_NEWS
 	dw SetFacingMuseumDrill,           SetFacingMuseumDrill       ; OBJECT_ACTION_MUSEUM_DRILL
 	dw SetFacingRun,                   SetFacingCurrent           ; OBJECT_ACTION_RUN
 	dw SetFacingSailboatTop,           SetFacingSailboatTop       ; OBJECT_ACTION_SAILBOAT_TOP
@@ -52,7 +52,7 @@ SetFacingCutTree:
 	ld a, FACING_CUT_TREE
 	jr SetFixedFacing
 
-SetFacingPokecomNews:
+SetFacingTohocomNews:
 	ld a, FACING_POKECOM_NEWS
 	jr SetFixedFacing
 

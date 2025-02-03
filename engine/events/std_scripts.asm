@@ -1,6 +1,6 @@
 StdScripts::
 ; all scripts must be defined in this bank
-	dw PokeCenterNurseScript
+	dw TohoCenterNurseScript
 	dw DifficultBookshelfScript
 	dw PictureBookshelfScript
 	dw MagazineBookshelfScript
@@ -15,7 +15,7 @@ StdScripts::
 	dw TrashCanScript
 	dw StrengthBoulderScript
 	dw SmashRockScript
-	dw PokeCenterSignScript
+	dw TohoCenterSignScript
 	dw MartSignScript
 	dw ElevatorButtonScript
 	dw DayToTextScript
@@ -57,7 +57,7 @@ StdScripts::
 	dw TreeGrottoScript
 	dw CaveGrottoScript
 
-PokeCenterNurseScript:
+TohoCenterNurseScript:
 	opentext
 	checkevent EVENT_NURSE_SAW_TRAINER_STAR
 	iftruefwd .star_center
@@ -76,7 +76,7 @@ PokeCenterNurseScript:
 	iftruefwd .morn_center
 	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
 	iffalsefwd .morn_center
-	farwritetext PokeComNurseMornText
+	farwritetext TohoComNurseMornText
 	promptbutton
 	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
 	sjumpfwd .ok
@@ -90,7 +90,7 @@ PokeCenterNurseScript:
 	iftruefwd .day_center
 	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
 	iffalsefwd .day_center
-	farwritetext PokeComNurseDayText
+	farwritetext TohoComNurseDayText
 	promptbutton
 	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
 	sjumpfwd .ok
@@ -104,7 +104,7 @@ PokeCenterNurseScript:
 	iftruefwd .eve_center
 	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
 	iffalsefwd .eve_center
-	farwritetext PokeComNurseEveText
+	farwritetext TohoComNurseEveText
 	promptbutton
 	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
 	sjumpfwd .ok
@@ -118,7 +118,7 @@ PokeCenterNurseScript:
 	iftruefwd .nite_center
 	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
 	iffalsefwd .nite_center
-	farwritetext PokeComNurseNiteText
+	farwritetext TohoComNurseNiteText
 	promptbutton
 	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
 	sjumpfwd .ok
@@ -139,21 +139,21 @@ PokeCenterNurseScript:
 .answer_heal
 	yesorno
 	iffalsefwd .goodbye
-	sjumpfwd .heal_pokemon
+	sjumpfwd .heal_tohomon
 
 .star_center
 	farwritetext NurseTheUsualText
 	yesorno
 	iffalsefwd .goodbye
-.heal_pokemon
-	farwritetext NurseTakePokemonText
+.heal_tohomon
+	farwritetext NurseTakeTohomonText
 	pause 20
 	turnobject LAST_TALKED, LEFT
 	pause 10
 	special HealParty
 	special SaveMusic
 	playmusic MUSIC_NONE
-	setval 0 ; Machine is at a Pokemon Center
+	setval 0 ; Machine is at a Tohomon Center
 	special HealMachineAnim
 	pause 30
 	special RestoreMusic
@@ -164,11 +164,11 @@ PokeCenterNurseScript:
 	iftruefwd .no
 	checkflag ENGINE_CAUGHT_POKERUS ; nurse already talked about pokerus
 	iftruefwd .no
-	special SpecialCheckPokerus
+	special SpecialCheckTohorus
 	iftruefwd .pokerus
 .no
 
-	farwritetext NurseReturnPokemonText
+	farwritetext NurseReturnTohomonText
 	pause 20
 
 .goodbye
@@ -187,13 +187,13 @@ PokeCenterNurseScript:
 	; already cleared earlier in the script
 	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
 	iftruefwd .pokerus_comcenter
-	farwritetext NursePokerusText
+	farwritetext NurseTohorusText
 	waitbutton
 	closetext
 	sjumpfwd .pokerus_done
 
 .pokerus_comcenter
-	farwritetext PokeComNursePokerusText
+	farwritetext TohoComNurseTohorusText
 	waitbutton
 	closetext
 
@@ -253,7 +253,7 @@ Radio1Script:
 	callasm IsKantoRadioOffAir
 	iftruefwd RadioOffAirScript
 	opentext
-	setval MAPRADIO_POKEMON_CHANNEL
+	setval MAPRADIO_TOHOMON_CHANNEL
 	special MapRadio
 	endtext
 
@@ -290,7 +290,7 @@ PCScript:
 	readvar VAR_FACING
 	ifnotequal UP, WrongSideScript
 	opentext
-	special PokemonCenterPC
+	special TohomonCenterPC
 	endtext
 
 ElevatorButtonScript:
@@ -305,8 +305,8 @@ StrengthBoulderScript:
 SmashRockScript:
 	farsjump AskRockSmashScript
 
-PokeCenterSignScript:
-	farjumptext PokeCenterSignText
+TohoCenterSignScript:
+	farjumptext TohoCenterSignText
 
 MartSignScript:
 	farjumptext MartSignText
@@ -1609,7 +1609,7 @@ CoinVendor_IntroScript:
 HappinessCheckScript:
 	faceplayer
 	opentext
-	special GetFirstPokemonHappiness
+	special GetFirstTohomonHappiness
 	ifless 50, .Unhappy
 	ifless 150, .KindaHappy
 	farwritetext HappinessText3

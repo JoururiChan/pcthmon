@@ -1,4 +1,4 @@
-; Pokémon HG/SS - Poké Mart
+; Tohomon HG/SS - Toho Mart
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/custom/shop.asm
 

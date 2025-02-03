@@ -24,7 +24,7 @@ TypeNames:
 	assert_table_length NUM_TYPES
 
 EggGroupNames:
-; entries correspond to egg groups (see constants/pokemon_data_constants.asm)
+; entries correspond to egg groups (see constants/tohomon_data_constants.asm)
 ; placed here because several egg groups use the same string as a type
 	table_width 1
 	dr Monster

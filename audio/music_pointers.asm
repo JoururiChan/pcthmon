@@ -14,11 +14,11 @@ Music:
 	dba Music_Route29
 	dba Music_JohtoWildBattle
 	dba Music_JohtoWildBattleNight
-	dba Music_WildPokemonVictory
+	dba Music_WildTohomonVictory
 	dba Music_CherrygroveCity
 	dba Music_ShowMeAround
-	dba Music_PokemonCenter
-	dba Music_HealPokemon
+	dba Music_TohomonCenter
+	dba Music_HealTohomon
 	dba Music_SuccessfulCapture
 	dba Music_LookYoungster
 	dba Music_JohtoTrainerBattle
@@ -41,12 +41,12 @@ Music:
 	dba Music_AfterTheRivalFight
 	dba Music_Evolution
 	dba Music_GoldenrodCity
-	dba Music_PokeComCenter
+	dba Music_TohoComCenter
 	dba Music_Gym
 	dba Music_JohtoGymBattle
-	dba Music_FinalPokemonBW
+	dba Music_FinalTohomonBW
 	dba Music_GymLeaderVictory
-	dba Music_PokemonChannel
+	dba Music_TohomonChannel
 	dba Music_BuenasPassword
 	dba Music_GameCorner
 	dba Music_Bicycle
@@ -59,21 +59,21 @@ Music:
 	dba Music_LookKimonoGirl
 	dba Music_BurnedTower
 	dba Music_LookMysticalMan
-	dba Music_ProfOaksPokemonTalk
+	dba Music_ProfOaksTohomonTalk
 	dba Music_Route37
-	dba Music_PokemonMarch
+	dba Music_TohomonMarch
 	dba Music_Lighthouse
 	dba Music_Surf
 	dba Music_CianwoodCityHGSS
 	dba Music_Route47HGSS
 	dba Music_LookJessieJames
 	dba Music_SafariZoneGateHGSS
-	dba Music_SurfingEKikuri
+	dba Music_SurfingKikuri
 	dba Music_LakeOfRage
 	dba Music_StarkMountainDPPt
 	dba Music_LakeOfRageRocketRadio
 	dba Music_RocketHideout
-	dba Music_LookPokemaniac
+	dba Music_LookTohomaniac
 	dba Music_RocketTheme
 	dba Music_DarkCave
 	dba Music_DragonsDen
@@ -93,7 +93,7 @@ Music:
 	dba Music_VermilionCity
 	dba Music_KantoGymBattle
 	dba Music_LavenderTownRBY
-	dba Music_PokemonTowerRBY
+	dba Music_TohomonTowerRBY
 	dba Music_LavenderTown
 	dba Music_KantoWildBattle
 	dba Music_KantoWildBattleNight
@@ -102,13 +102,13 @@ Music:
 	dba Music_NuggetBridgeHGSS
 	dba Music_MagnetTrain
 	dba Music_BlackCityBW
-	dba Music_PokemonLullaby
+	dba Music_TohomonLullaby
 	dba Music_CeladonCity
 	dba Music_GameCornerDPPt
 	dba Music_CanalaveCityDPPt
 	dba Music_BicycleXY
 	dba Music_Route12
-	dba Music_PokeFluteChannel
+	dba Music_TohoFluteChannel
 	dba Music_Route209DPPt
 	dba Music_Route210DPPt
 	dba Music_Route225DPPt

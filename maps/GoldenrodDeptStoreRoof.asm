@@ -14,15 +14,15 @@ GoldenrodDeptStoreRoof_MapScriptHeader:
 	bg_event 15,  3, BGEVENT_RIGHT, Binoculars1
 	bg_event 15,  5, BGEVENT_RIGHT, Binoculars2
 	bg_event 15,  6, BGEVENT_RIGHT, Binoculars3
-	bg_event  3,  0, BGEVENT_UP, PokeDollVendingMachine
+	bg_event  3,  0, BGEVENT_UP, TohoDollVendingMachine
 
 	def_object_events
 	object_event  2,  1, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoldenrodDeptStoreRoofFisherScript, -1
-	object_event 10,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStoreRoofPokefanFText, -1
+	object_event 10,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStoreRoofTohofanFText, -1
 	object_event 14,  6, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenrodDeptStoreRoofSuperNerdScript, EVENT_GOLDENROD_SALE_ON
 	object_event  3,  4, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStoreRoofTwinText, EVENT_GOLDENROD_SALE_ON
 	object_event  1,  4, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, pokemart, MARTTYPE_ROOFTOP, 0, EVENT_GOLDENROD_SALE_OFF
-	object_event  7,  0, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStoreRoofPokefanMText, EVENT_GOLDENROD_SALE_OFF
+	object_event  7,  0, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStoreRoofTohofanMText, EVENT_GOLDENROD_SALE_OFF
 	object_event  5,  3, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStoreRoofTeacherText, EVENT_GOLDENROD_SALE_OFF
 	object_event  1,  6, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStoreRoofBugCatcherText, EVENT_GOLDENROD_SALE_OFF
 
@@ -87,46 +87,46 @@ Binoculars2:
 Binoculars3:
 	jumptext Binoculars3Text
 
-PokeDollVendingMachine:
+TohoDollVendingMachine:
 	opentext
-	writetext PokeDollVendingMachineText
+	writetext TohoDollVendingMachineText
 	special PlaceMoneyTopRight
 .Start:
 	loadmenu .MenuData
 	verticalmenu
 	closewindow
-	ifequalfwd $1, .JigglypuffDoll
-	ifequalfwd $2, .DittoDoll
+	ifequalfwd $1, .EllenDoll
+	ifequalfwd $2, .LyricaDoll
 	ifequalfwd $3, .MeowthDoll
 	endtext
 
-.JigglypuffDoll:
+.EllenDoll:
 	checkmoney $0, 2400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_JIGGLYPUFF_DOLL
+	checkevent EVENT_DECO_ELLEN_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 2400
-	setevent EVENT_DECO_JIGGLYPUFF_DOLL
-	writetext BoughtJigglypuffDollText
+	setevent EVENT_DECO_ELLEN_DOLL
+	writetext BoughtEllenDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext JigglypuffDollSentText
+	writetext EllenDollSentText
 	waitbutton
 	sjump .Start
 
-.DittoDoll:
+.LyricaDoll:
 	checkmoney $0, 2400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_DITTO_DOLL
+	checkevent EVENT_DECO_LYRICA_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 2400
-	setevent EVENT_DECO_DITTO_DOLL
-	writetext BoughtDittoDollText
+	setevent EVENT_DECO_LYRICA_DOLL
+	writetext BoughtLyricaDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext DittoDollSentText
+	writetext LyricaDollSentText
 	waitbutton
 	sjump .Start
 
@@ -146,12 +146,12 @@ PokeDollVendingMachine:
 	sjump .Start
 
 .NotEnoughMoney:
-	writetext PokeDollVendingMachineNoMoneyText
+	writetext TohoDollVendingMachineNoMoneyText
 	waitbutton
 	sjump .Start
 
 .AlreadyBought:
-	writetext PokeDollVendingMachineAlreadyBoughtText
+	writetext TohoDollVendingMachineAlreadyBoughtText
 	waitbutton
 	sjump .Start
 
@@ -164,12 +164,12 @@ PokeDollVendingMachine:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Jigglypuff  ¥2400@"
-	db "Ditto       ¥2400@"
+	db "Ellen  ¥2400@"
+	db "Lyrica       ¥2400@"
 	db "Meowth      ¥2400@"
 	db "Cancel@"
 
-GoldenrodDeptStoreRoofPokefanFText:
+GoldenrodDeptStoreRoofTohofanFText:
 	text "Whew, I'm tired."
 
 	para "I sometimes come"
@@ -227,7 +227,7 @@ GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
 	line "bothering me?"
 	done
 
-GoldenrodDeptStoreRoofPokefanMText:
+GoldenrodDeptStoreRoofTohofanMText:
 	text "There's something"
 	line "I really want, but"
 
@@ -287,7 +287,7 @@ Binoculars2Text:
 
 Binoculars3Text:
 	text "A Fisher caught a"
-	line "lot of Magikarp…"
+	line "lot of LilyBlack…"
 
 	para "They're Splashing"
 	line "at the same time!"
@@ -296,36 +296,36 @@ Binoculars3Text:
 	line "going everywhere!"
 	done
 
-PokeDollVendingMachineText:
+TohoDollVendingMachineText:
 	text "A vending machine"
 	line "for #mon dolls!"
 	done
 
-PokeDollVendingMachineNoMoneyText:
+TohoDollVendingMachineNoMoneyText:
 	text "It costs too much!"
 	done
 
-PokeDollVendingMachineAlreadyBoughtText:
+TohoDollVendingMachineAlreadyBoughtText:
 	text "It's a duplicate!"
 	done
 
-BoughtJigglypuffDollText:
+BoughtEllenDollText:
 	text "<PLAYER> bought"
-	line "Jigglypuff Doll."
+	line "Ellen Doll."
 	done
 
-JigglypuffDollSentText:
-	text "Jigglypuff Doll"
+EllenDollSentText:
+	text "Ellen Doll"
 	line "was sent home."
 	done
 
-BoughtDittoDollText:
+BoughtLyricaDollText:
 	text "<PLAYER> bought"
-	line "Ditto Doll."
+	line "Lyrica Doll."
 	done
 
-DittoDollSentText:
-	text "Ditto Doll"
+LyricaDollSentText:
+	text "Lyrica Doll"
 	line "was sent home."
 	done
 

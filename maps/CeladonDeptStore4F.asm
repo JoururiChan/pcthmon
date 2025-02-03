@@ -30,7 +30,7 @@ PosterClerkScript:
 	closewindow
 	ifequalfwd $1, .AyaPoster
 	ifequalfwd $2, .CMeiraPoster
-	ifequalfwd $3, .EKikuriPoster
+	ifequalfwd $3, .KikuriPoster
 	endtext
 
 .AyaPoster:
@@ -63,18 +63,18 @@ PosterClerkScript:
 	waitbutton
 	sjump .Start
 
-.EKikuriPoster:
+.KikuriPoster:
 	checkmoney $0, 6400
 	ifequalfwd $2, .NotEnoughMoney
 	checkevent EVENT_DECO_POSTER_1
 	iftruefwd .AlreadyBought
 	takemoney $0, 6400
 	setevent EVENT_DECO_POSTER_1
-	writetext BoughtEKikuriPosterText
+	writetext BoughtKikuriPosterText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext EKikuriPosterSentText
+	writetext KikuriPosterSentText
 	waitbutton
 	sjump .Start
 
@@ -99,7 +99,7 @@ PosterClerkScript:
 	db 4 ; items
 	db "Aya      ¥3200@"
 	db "CMeira    ¥4800@"
-	db "EKikuri     ¥6400@"
+	db "Kikuri     ¥6400@"
 	db "Cancel@"
 
 PosterClerkText:
@@ -137,13 +137,13 @@ CMeiraPosterSentText:
 	line "was sent home."
 	done
 
-BoughtEKikuriPosterText:
+BoughtKikuriPosterText:
 	text "<PLAYER> bought"
-	line "EKikuri Poster."
+	line "Kikuri Poster."
 	done
 
-EKikuriPosterSentText:
-	text "EKikuri Poster"
+KikuriPosterSentText:
+	text "Kikuri Poster"
 	line "was sent home."
 	done
 

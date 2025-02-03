@@ -8,10 +8,10 @@
 *.2bpp.vram*
 *.lz
 *.widths
-gfx/pokemon/*/*.dimensions
-gfx/pokemon/*/*.animated.tilemap
-gfx/pokemon/*/bitmask.asm
-gfx/pokemon/*/frames.asm
+gfx/tohomon/*/*.dimensions
+gfx/tohomon/*/*.animated.tilemap
+gfx/tohomon/*/bitmask.asm
+gfx/tohomon/*/frames.asm
 gfx/tohodex/*.bin
 
 # compiled tilesets

@@ -19,16 +19,16 @@ NationalPark_MapScriptHeader:
 
 	def_object_events
 	object_event 17, 24, SPRITE_PICNICKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, NationalParkLassText, -1
-	object_event 16,  4, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NationalParkPokefanFText, -1
+	object_event 16,  4, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NationalParkTohofanFText, -1
 	object_event 29, 40, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NationalParkTeacher1Script, -1
 	object_event 28,  6, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NationalParkGameboyKidScript, -1
 	object_event 13, 41, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerSchoolgirlEliza, -1
 	object_event 12, 41, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerSchoolboyJohnny, -1
 	object_event 19, 41, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, NationalParkTeacher2Text, -1
-	pokemon_event 28, 40, PERSIAN, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, NationalParkPersianText, -1
+	tohomon_event 28, 40, PERSIAN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, NationalParkPersianText, -1
 	object_event 29, 23, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerSchoolboyJack1, -1
-	object_event 20, 29, SPRITE_POKEFAN_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerPokefanfBeverly1, -1
-	object_event 18,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerPokefanmWilliam, -1
+	object_event 20, 29, SPRITE_POKEFAN_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerTohofanfBeverly1, -1
+	object_event 18,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohofanmWilliam, -1
 	object_event 10, 14, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerLassKrise, -1
 	object_event 28, 13, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBugManiacLou, -1
 	object_event  4, 19, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OfficermKeithScript, -1
@@ -85,7 +85,7 @@ GenericTrainerSchoolgirlEliza:
 
 	text "I don't care!"
 	line "I still love"
-	cont "Oddish."
+	cont "EKotohime."
 	done
 
 GenericTrainerSchoolboyJohnny:
@@ -210,8 +210,8 @@ SchoolboyJack1Script:
 .RematchStd:
 	jumpstd rematchm
 
-GenericTrainerPokefanmWilliam:
-	generictrainer POKEFANM, WILLIAM, EVENT_BEAT_POKEFANM_WILLIAM, PokefanmWilliamSeenText, PokefanmWilliamBeatenText
+GenericTrainerTohofanmWilliam:
+	generictrainer POKEFANM, WILLIAM, EVENT_BEAT_POKEFANM_WILLIAM, TohofanmWilliamSeenText, TohofanmWilliamBeatenText
 
 	text "I lost the battle,"
 	line "but my #mon win"
@@ -220,10 +220,10 @@ GenericTrainerPokefanmWilliam:
 	line "being most lovely."
 	done
 
-TrainerPokefanfBeverly1:
-	trainer POKEFANF, BEVERLY1, EVENT_BEAT_POKEFANF_BEVERLY, PokefanfBeverly1SeenText, PokefanfBeverly1BeatenText, 0, PokefanfBeverly1Script
+TrainerTohofanfBeverly1:
+	trainer POKEFANF, BEVERLY1, EVENT_BEAT_POKEFANF_BEVERLY, TohofanfBeverly1SeenText, TohofanfBeverly1BeatenText, 0, TohofanfBeverly1Script
 
-PokefanfBeverly1Script:
+TohofanfBeverly1Script:
 	loadvar VAR_CALLERID, PHONE_POKEFAN_BEVERLY
 	opentext
 	checkflag ENGINE_BEVERLY_HAS_NUGGET
@@ -234,7 +234,7 @@ PokefanfBeverly1Script:
 	iffalsefwd .NoMarill
 	checkevent EVENT_BEVERLY_ASKED_FOR_PHONE_NUMBER
 	iftruefwd .AskAgain
-	writetext PokefanBeverlyCuteMonText
+	writetext TohofanBeverlyCuteMonText
 	promptbutton
 	setevent EVENT_BEVERLY_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
@@ -261,7 +261,7 @@ PokefanfBeverly1Script:
 	sjumpfwd .PackFull
 
 .NoMarill:
-	jumpopenedtext PokefanFBeverlyMarillFriendText
+	jumpopenedtext TohofanFBeverlyMarillFriendText
 
 .AskNumber1:
 	jumpstd asknumber1f
@@ -303,7 +303,7 @@ NationalParkLassText:
 	line "onto it."
 	done
 
-NationalParkPokefanFText:
+NationalParkTohofanFText:
 	text "This is Mail I got"
 	line "from my daughter."
 	cont "It cheers me up."
@@ -339,14 +339,14 @@ NationalParkTeacher1Text_GotQuickClaw:
 	done
 
 SchoolgirlElizaSeenText:
-	text "Oddish is just"
+	text "EKotohime is just"
 	line "the cutest!"
 
 	para "Don't you agree?"
 	done
 
 SchoolgirlElizaBeatenText:
-	text "My poor Oddish…"
+	text "My poor EKotohime…"
 	done
 
 SchoolboyJohnnySeenText:
@@ -413,7 +413,7 @@ SchoolboyJackTradeMonText:
 	line "level up faster."
 	done
 
-PokefanfBeverly1SeenText:
+TohofanfBeverly1SeenText:
 	text "My #mon are"
 	line "simply darling."
 
@@ -422,18 +422,18 @@ PokefanfBeverly1SeenText:
 	cont "darlings make me."
 	done
 
-PokefanfBeverly1BeatenText:
+TohofanfBeverly1BeatenText:
 	text "I can beat you in"
 	line "pride, but…"
 	done
 
-PokefanBeverlyCuteMonText:
+TohofanBeverlyCuteMonText:
 	text "I must say, your"
 	line "#mon are quite"
 	cont "cute, too."
 	done
 
-PokefanmWilliamSeenText:
+TohofanmWilliamSeenText:
 	text "We adore our #-"
 	line "mon, even if they"
 	cont "dislike us."
@@ -442,11 +442,11 @@ PokefanmWilliamSeenText:
 	line "a fan is about."
 	done
 
-PokefanmWilliamBeatenText:
+TohofanmWilliamBeatenText:
 	text "M-my #mon!"
 	done
 
-PokefanFBeverlyMarillFriendText:
+TohofanFBeverlyMarillFriendText:
 	text "My friend keeps a"
 	line "Marill!"
 

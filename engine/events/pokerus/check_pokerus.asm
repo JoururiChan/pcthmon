@@ -1,25 +1,25 @@
-CheckPokerus:
-; Return carry if a monster in your party has Pokerus
+CheckTohorus:
+; Return carry if a monster in your party has Tohorus
 
 ; Get number of monsters to iterate over
 	ld a, [wPartyCount]
 	and a
-	jr z, .NoPokerus
+	jr z, .NoTohorus
 	ld b, a
-; Check each monster in the party for Pokerus
-	ld hl, wPartyMon1PokerusStatus
+; Check each monster in the party for Tohorus
+	ld hl, wPartyMon1TohorusStatus
 	ld de, PARTYMON_STRUCT_LENGTH
 .Check:
 	ld a, [hl]
 	and POKERUS_MASK ; only the bottom nybble is used
-	jr nz, .HasPokerus
+	jr nz, .HasTohorus
 ; Next PartyMon
 	add hl, de
 	dec b
 	jr nz, .Check
-.NoPokerus:
+.NoTohorus:
 	and a
 	ret
-.HasPokerus:
+.HasTohorus:
 	scf
 	ret

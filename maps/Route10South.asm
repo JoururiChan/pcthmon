@@ -14,7 +14,7 @@ Route10South_MapScriptHeader:
 
 	def_object_events
 	object_event 17,  5, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerHikerJim, -1
-	object_event  4,  7, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerPokefanmRobert, -1
+	object_event  4,  7, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerTohofanmRobert, -1
 	object_event  8, 12, SPRITE_HEX_MANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerHexManiacAmy, -1
 	tmhmball_event  9,  7, TM_VOLT_SWITCH, EVENT_ROUTE_10_TM_VOLT_SWITCH
 
@@ -26,8 +26,8 @@ GenericTrainerHikerJim:
 	cont "Ahahah-CHOO!"
 	done
 
-GenericTrainerPokefanmRobert:
-	generictrainer POKEFANM, ROBERT, EVENT_BEAT_POKEFANM_ROBERT, PokefanmRobertSeenText, PokefanmRobertBeatenText
+GenericTrainerTohofanmRobert:
+	generictrainer POKEFANM, ROBERT, EVENT_BEAT_POKEFANM_ROBERT, TohofanmRobertSeenText, TohofanmRobertBeatenText
 
 	text "Look what you did"
 	line "to my #mon…"
@@ -52,14 +52,14 @@ HikerJimBeatenText:
 	text "Hahaha-hachoo!"
 	done
 
-PokefanmRobertSeenText:
+TohofanmRobertSeenText:
 	text "You like #mon,"
 	line "don't you?"
 
 	para "Me too!"
 	done
 
-PokefanmRobertBeatenText:
+TohofanmRobertBeatenText:
 	text "I'd have to say"
 	line "that's my loss."
 	done

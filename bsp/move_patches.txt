@@ -1,5 +1,5 @@
 ReplaceMove:
-	; replaces old move with new move that target Pokemon doesn't already know
+	; replaces old move with new move that target Tohomon doesn't already know
 	; #r0: move replace table
 	set #1, .mon_callback
 	jump ApplyPartyPatchesOld

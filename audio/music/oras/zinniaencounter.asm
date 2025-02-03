@@ -1,4 +1,4 @@
-; Pokémon OR/AS - Encounter! Zinnia
+; Tohomon OR/AS - Encounter! Zinnia
 ; Demixed by Mmmmmm
 ; https://pastebin.com/eXmCVCCX
 ; https://hax.iimarckus.org/topic/6777/4/

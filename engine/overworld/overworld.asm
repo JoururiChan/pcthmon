@@ -253,7 +253,7 @@ GetMonSprite:
 DoesSpriteHaveFacings::
 ; Checks to see whether we can apply a facing to a sprite.
 ; Returns zero for Tohomon sprites, carry for the rest.
-	cp SPRITE_POKEMON
+	cp SPRITE_TOHOMON
 	jr c, .facings
 	cp SPRITE_VARS
 	jr nc, .facings
@@ -266,7 +266,7 @@ DoesSpriteHaveFacings::
 
 _GetSpritePalette::
 	call GetMonSprite
-	jr c, .is_pokemon
+	jr c, .is_tohomon
 
 	ld hl, SpriteHeaders + SPRITEDATA_TYPE_PAL - SPRITEDATA_LENGTH
 	ld c, a
@@ -277,7 +277,7 @@ _GetSpritePalette::
 	and SPRITEDATA_PALETTE_MASK
 	ret
 
-.is_pokemon
+.is_tohomon
 	farjp GetOverworldMonIconPalette
 
 GetUsedSprite::

@@ -30,7 +30,7 @@ Special_GameCornerPrizeMonCheckDex:
 	ld [hli], a
 	ldh a, [hScriptVar+1]
 	ld [hl], a
-	farcall NewPokedexEntry
+	farcall NewTohodexEntry
 	jmp ExitAllMenus
 
 SpecialSeenMon:
@@ -154,10 +154,10 @@ MapRadio:
 	ld e, a
 	farjp PlayRadio
 
-Special_UnownPuzzle:
+Special_HinaPuzzle:
 	call FadeToMenu_BackupSprites
-	farcall UnownPuzzle
-	ld a, [wSolvedUnownPuzzle]
+	farcall HinaPuzzle
+	ld a, [wSolvedHinaPuzzle]
 	ldh [hScriptVar], a
 	jmp ExitAllMenus
 
@@ -235,9 +235,9 @@ Special_CheckLuckyNumberShowFlag:
 	bit LUCKYNUMBERSHOW_GAME_OVER_F, [hl]
 	ret
 
-SpecialCheckPokerus:
-; Check if a monster in your party has Pokerus
-	farcall CheckPokerus
+SpecialCheckTohorus:
+; Check if a monster in your party has Tohorus
+	farcall CheckTohorus
 	; fallthrough
 
 ScriptReturnCarry:
@@ -258,26 +258,26 @@ Special_ActivateFishingSwarm:
 StoreSwarmMapIndices::
 	ld a, c
 	and a
-	jr nz, .yanma
+	jr nz, .aeiki
 ; swarm dark cave violet entrance
 	ld a, d
-	ld [wDunsparceMapGroup], a
+	ld [wCMomijiMapGroup], a
 	ld a, e
-	ld [wDunsparceMapNumber], a
+	ld [wCMomijiMapNumber], a
 	ret
 
-.yanma
+.aeiki
 	ld a, d
-	ld [wYanmaMapGroup], a
+	ld [wAEikiMapGroup], a
 	ld a, e
-	ld [wYanmaMapNumber], a
+	ld [wAEikiMapNumber], a
 	ret
 
 Special_ResetLuckyNumberShowFlag:
 	farjp LoadOrRegenerateLuckyIDNumber
 
 SpecialSnorlaxAwake:
-; Check if the Poké Flute channel is playing.
+; Check if the Toho Flute channel is playing.
 
 ; outputs:
 ; hScriptVar is 1 if the conditions are met, otherwise 0.
@@ -364,42 +364,42 @@ RespawnOneOffs:
 
 	; Set CHECK_FLAG once to be used multiple times
 	ld b, CHECK_FLAG
-	ld de, ENGINE_PLAYER_CAUGHT_SUDOWOODO
+	ld de, ENGINE_PLAYER_CAUGHT_CMEDICINE
 	farcall EngineFlagAction
-	jr nz, .CaughtSudowoodo
-	eventflagreset EVENT_ROUTE_36_SUDOWOODO
-.CaughtSudowoodo
+	jr nz, .CaughtCMedicine
+	eventflagreset EVENT_ROUTE_36_CMEDICINE
+.CaughtCMedicine
 
-	ld de, ENGINE_PLAYER_CAUGHT_ARTICUNO
+	ld de, ENGINE_PLAYER_CAUGHT_RAN
 	farcall EngineFlagAction
-	jr nz, .CaughtArticuno
-	eventflagreset EVENT_SEAFOAM_ISLANDS_ARTICUNO
-.CaughtArticuno
+	jr nz, .CaughtRan
+	eventflagreset EVENT_SEAFOAM_ISLANDS_RAN
+.CaughtRan
 
-	ld de, ENGINE_PLAYER_CAUGHT_ZAPDOS
+	ld de, ENGINE_PLAYER_CAUGHT_TRAN
 	farcall EngineFlagAction
-	jr nz, .CaughtZapdos
-	eventflagreset EVENT_ROUTE_10_ZAPDOS
-	eventflagreset EVENT_ZAPDOS_GONE
-.CaughtZapdos
+	jr nz, .CaughtTRan
+	eventflagreset EVENT_ROUTE_10_TRAN
+	eventflagreset EVENT_TRAN_GONE
+.CaughtTRan
 
-	ld de, ENGINE_PLAYER_CAUGHT_MOLTRES
+	ld de, ENGINE_PLAYER_CAUGHT_CYUKARI
 	farcall EngineFlagAction
-	jr nz, .CaughtMoltres
-	eventflagreset EVENT_CINNABAR_VOLCANO_MOLTRES
-.CaughtMoltres
+	jr nz, .CaughtCYukari
+	eventflagreset EVENT_CINNABAR_VOLCANO_CYUKARI
+.CaughtCYukari
 
-	ld de, ENGINE_PLAYER_CAUGHT_MEWTWO
+	ld de, ENGINE_PLAYER_CAUGHT_TSUIKATWO
 	farcall EngineFlagAction
-	jr nz, .CaughtMewtwo
-	eventflagreset EVENT_CERULEAN_CAVE_MEWTWO
-.CaughtMewtwo
+	jr nz, .CaughtTSuikatwo
+	eventflagreset EVENT_CERULEAN_CAVE_TSUIKATWO
+.CaughtTSuikatwo
 
-	ld de, ENGINE_PLAYER_CAUGHT_MEW
+	ld de, ENGINE_PLAYER_CAUGHT_TSUIKA
 	farcall EngineFlagAction
-	jr nz, .CaughtMew
-	eventflagreset EVENT_FARAWAY_JUNGLE_MEW
-.CaughtMew
+	jr nz, .CaughtTSuika
+	eventflagreset EVENT_FARAWAY_JUNGLE_TSUIKA
+.CaughtTSuika
 
 	ld de, ENGINE_PLAYER_CAUGHT_RAIKOU
 	farcall EngineFlagAction

@@ -29,7 +29,7 @@ Script_BattleRoom:
 	applymovement PLAYER, MovementData_BattleTowerBattleRoomPlayerWalksIn
 ; beat all 7 opponents in a row
 Script_BattleRoomLoop:
-	special Special_BattleTower_LoadOpponentTrainerAndPokemonsWithOTSprite
+	special Special_BattleTower_LoadOpponentTrainerAndTohomonsWithOTSprite
 	appear BATTLETOWERBATTLEROOM_OPPONENT
 	warpsound
 	waitsfx

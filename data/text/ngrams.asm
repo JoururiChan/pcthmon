@@ -68,8 +68,8 @@ NgramStrings:
 	dr .with
 	dr .ould
 	dr .attle
-	dr .Poke
-	dr .Pokemon
+	dr .Toho
+	dr .Tohomon
 	assert_table_length NGRAMS_VAR_START - NGRAMS_START
 	dr .Player
 	dr .Rival
@@ -147,5 +147,5 @@ NgramStrings:
 .with:    rawchar "with@"
 .ould:    rawchar "ould@"
 .attle:   rawchar "attle@"
-.Poke:    rawchar "Toho@"
-.Pokemon: rawchar "Tohomon@"
+.Toho:    rawchar "Toho@"
+.Tohomon: rawchar "Tohomon@"

@@ -1,4 +1,4 @@
-; Pokémon X/Y - Scary House
+; Tohomon X/Y - Scary House
 ; Demixed by Mmmmmm
 ; https://pastebin.com/Ycw1DGh3
 ; https://hax.iimarckus.org/topic/6777/9/

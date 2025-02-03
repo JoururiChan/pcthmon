@@ -8,8 +8,8 @@ LyraPhoneScript:
 	getstring .CeladonUniversity, $1
 	sjumpfwd .got_landmark
 .not_celadon_university
-	ifnotequal POKEMON_LEAGUE, .got_landmark
-	getstring .PokemonLeague, $1
+	ifnotequal TOHOMON_LEAGUE, .got_landmark
+	getstring .TohomonLeague, $1
 .got_landmark
 	farwritetext LyraPhoneLandmarkText
 	ifless SHAMOUTI_LANDMARK, .not_shamouti
@@ -46,7 +46,7 @@ LyraPhoneScript:
 	end
 
 .CeladonUniversity: db "Celadon U@"
-.PokemonLeague:     db "#mon League@"
+.TohomonLeague:     db "#mon League@"
 
 LyraPhone_GetFirstMonNextMoveLevel:
 	; wStringBuffer3 = species name

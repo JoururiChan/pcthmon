@@ -64,7 +64,7 @@ endr
 	ld h, [hl]
 	ld l, a
 
-	; Compare the encounter chance to select a Pokemon.
+	; Compare the encounter chance to select a Tohomon.
 	call Random
 .loop
 	cp [hl]

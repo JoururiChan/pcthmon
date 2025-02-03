@@ -20,7 +20,7 @@ SaffronCity_MapScriptHeader:
 	warp_event 17, 35, ROUTE_6_SAFFRON_GATE, 2
 	warp_event 39, 18, ROUTE_8_SAFFRON_GATE, 1
 	warp_event 39, 19, ROUTE_8_SAFFRON_GATE, 2
-	warp_event 32, 11, POKEMON_TRAINER_FAN_CLUB, 1
+	warp_event 32, 11, TOHOMON_TRAINER_FAN_CLUB, 1
 	warp_event  5, 29, SAFFRON_ORRE_SPEECH_HOUSE, 1
 	warp_event 13, 29, SAFFRON_BOOK_SPEECH_HOUSE, 1
 	warp_event 21, 29, SAFFRON_HITMONTOP_KID_HOUSE, 1
@@ -35,13 +35,13 @@ SaffronCity_MapScriptHeader:
 	bg_event 15, 21, BGEVENT_JUMPTEXT, SilphCoSignText
 	bg_event 25, 29, BGEVENT_JUMPTEXT, MrPsychicsHouseSignText
 	bg_event 11,  5, BGEVENT_JUMPTEXT, SaffronCityMagnetTrainStationSignText
-	bg_event 35, 11, BGEVENT_JUMPTEXT, PokemonTrainerFanClubSignText
+	bg_event 35, 11, BGEVENT_JUMPTEXT, TohomonTrainerFanClubSignText
 	bg_event  5, 21, BGEVENT_JUMPTEXT, SaffronTrainerTips1Text
 	bg_event 35, 21, BGEVENT_JUMPTEXT, SaffronTrainerTips2Text
 
 	def_object_events
 	object_event  7, 14, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SaffronCityLass1Script, -1
-	object_event 18, 30, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SaffronCityPokefanMScript, -1
+	object_event 18, 30, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SaffronCityTohofanMScript, -1
 	object_event 32,  7, SPRITE_COOL_DUDE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronCityCooltrainerMText, -1
 	object_event 20, 24, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronCityCooltrainerFText, -1
 	object_event 35, 14, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, SaffronCityFisherScript, -1
@@ -63,10 +63,10 @@ SaffronCityLass1Script:
 	iftrue_jumptextfaceplayer SaffronCityLass1Text_ReturnedMachinePart
 	jumptextfaceplayer SaffronCityLass1Text
 
-SaffronCityPokefanMScript:
+SaffronCityTohofanMScript:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
-	iftrue_jumptextfaceplayer SaffronCityPokefanMText_ReturnedMachinePart
-	jumptextfaceplayer SaffronCityPokefanMText
+	iftrue_jumptextfaceplayer SaffronCityTohofanMText_ReturnedMachinePart
+	jumptextfaceplayer SaffronCityTohofanMText
 
 SaffronCityFisherScript:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
@@ -96,7 +96,7 @@ SaffronCityLass1Text_ReturnedMachinePart:
 	cont "Doll--CMeira."
 	done
 
-SaffronCityPokefanMText:
+SaffronCityTohofanMText:
 	text "You came out from"
 	line "Johto?"
 
@@ -105,7 +105,7 @@ SaffronCityPokefanMText:
 	cont "Train's running."
 	done
 
-SaffronCityPokefanMText_ReturnedMachinePart:
+SaffronCityTohofanMText_ReturnedMachinePart:
 	text "You came out from"
 	line "Johto?"
 
@@ -218,7 +218,7 @@ SaffronCityBlackBelt2Text:
 
 SaffronCitySuperNerdText:
 	text "There was a time"
-	line "when Psychic-type"
+	line "when Reason-type"
 
 	para "#mon were be-"
 	line "lieved to be the"
@@ -266,7 +266,7 @@ SaffronGymSignText:
 	cont "Leader: Sabrina"
 
 	para "The Mistress of"
-	line "Psychic #mon!"
+	line "Reason#mon!"
 	done
 
 FightingDojoSignText:
@@ -290,7 +290,7 @@ SaffronCityMagnetTrainStationSignText:
 	cont "Station"
 	done
 
-PokemonTrainerFanClubSignText:
+TohomonTrainerFanClubSignText:
 	text "#mon Trainer"
 	line "Fan Club"
 

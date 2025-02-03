@@ -57,7 +57,7 @@ EvolveDuringBattle::
 	ld bc, MON_PP - MON_DVS
 	rst CopyBytes ; copy DVs, Personality
 	ld bc, MON_LEVEL - MON_PP
-	add hl, bc ; skip PP, Happiness, PokerusStatus, CaughtData
+	add hl, bc ; skip PP, Happiness, TohorusStatus, CaughtData
 	ld de, wBattleMonLevel
 	ld bc, PARTYMON_STRUCT_LENGTH - MON_LEVEL
 	rst CopyBytes ; copy Level, Status, Unused, HP, MaxHP, Stats

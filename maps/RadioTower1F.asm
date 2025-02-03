@@ -420,7 +420,7 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	para "Are Daichan"
 	line "#mon both Nature"
 
-	para "and Psychic-type"
+	para "and Reason-type"
 	line "#mon?"
 	done
 

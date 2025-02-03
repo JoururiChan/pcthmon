@@ -4352,8 +4352,8 @@ GruntFGroup:
 	db -1 ; end
 
 
-SECTION "PokefanMGroup", ROMX
-PokefanMGroup:
+SECTION "TohofanMGroup", ROMX
+TohofanMGroup:
 
 	; POKEFANM
 	db "Derek@"
@@ -4492,8 +4492,8 @@ PokefanMGroup:
 	db -1 ; end
 
 
-SECTION "PokefanFGroup", ROMX
-PokefanFGroup:
+SECTION "TohofanFGroup", ROMX
+TohofanFGroup:
 
 	; POKEFANF
 	db "Beverly@"
@@ -4655,8 +4655,8 @@ NurseGroup:
 	db -1 ; end
 
 
-SECTION "PokemaniacGroup", ROMX
-PokemaniacGroup:
+SECTION "TohomaniacGroup", ROMX
+TohomaniacGroup:
 
 	; POKEMANIAC
 	db "Brent@"
@@ -6790,7 +6790,7 @@ endc
 	db "Tobin@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 53, MAGMAR
+	dbp 53, LILYWHITE
 	dbp 54, GOLEM
 	dbp 55, MACHOKE
 	db -1 ; end
@@ -7780,7 +7780,7 @@ ScientistGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 52, ALAKAZAM
-	dbp 54, LAPRAS
+	dbp 54, CLYRICA
 	dbp 53, NOCTOWL
 	db -1 ; end
 

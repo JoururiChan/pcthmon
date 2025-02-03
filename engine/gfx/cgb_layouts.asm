@@ -139,7 +139,7 @@ SetBattlePal_Player:
 	push hl
 	call GetBattlemonBackpicPalettePointer
 	ld bc, GetPartyMonDVs
-	jr SetBattlePal_Pokepic
+	jr SetBattlePal_Tohopic
 
 SetBattlePal_Enemy:
 	ld hl, wTempEnemyMonSpecies
@@ -147,7 +147,7 @@ SetBattlePal_Enemy:
 	call GetEnemyFrontpicPalettePointer
 	ld bc, GetEnemyMonDVs
 	; fallthrough
-SetBattlePal_Pokepic:
+SetBattlePal_Tohopic:
 	push bc
 	call LoadPalette_White_Col1_Col2_Black
 	pop bc
@@ -593,7 +593,7 @@ _CGB_NamingScreen:
 
 	ld a, [wNamingScreenType]
 	and a
-	jr nz, .not_pokemon
+	jr nz, .not_tohomon
 	; mon minis use palette [wCurPartyMon]+2
 	ld hl, wOBPals1 palette 2 + 2
 	ld bc, 1 palettes
@@ -605,10 +605,10 @@ _CGB_NamingScreen:
 	cp TEMPMON
 	jr nz, .party_mon
 	call LoadTempMonPalette
-	jr .not_pokemon
+	jr .not_tohomon
 .party_mon
 	call LoadPartyMonPalette
-.not_pokemon
+.not_tohomon
 
 	; message area + Shift/Del/End
 	ld a, $1
@@ -738,12 +738,12 @@ _CGB_Evolution:
 	ld de, wBGPals1
 	ld a, c
 	and a
-	jr z, .pokemon
+	jr z, .tohomon
 	ld hl, DarkGrayPalette
 	call LoadOnePalette
 	jr .got_palette
 
-.pokemon
+.tohomon
 	ld hl, wTempMonPersonality
 	ld c, l
 	ld b, h
@@ -1037,7 +1037,7 @@ _CGB_TrainerCard3:
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
-	ld a, ERIKA_T ; LT_SURGE
+	ld a, ERIKA ; LT_SURGE
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 
@@ -1180,8 +1180,8 @@ BillsPC_PreviewTheme:
 	ld c, 2 * 2
 	call LoadColorBytes
 	push de
-	ld hl, .PokerusAndShinyPals
-	ld de, wBillsPC_PokerusShinyPal
+	ld hl, .TohorusAndShinyPals
+	ld de, wBillsPC_TohorusShinyPal
 	ld c, 2 * 2
 	call LoadColorBytes
 	; Prevents flickering shiny+pokerus background
@@ -1225,7 +1225,7 @@ BillsPC_PreviewTheme:
 	ld de, wOBPals1 palette 6
 	jmp LoadOnePalette
 
-.PokerusAndShinyPals:
+.TohorusAndShinyPals:
 INCLUDE "gfx/pc/pokerus_shiny.pal"
 
 .CursorPal:

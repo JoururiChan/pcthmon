@@ -30,7 +30,7 @@ MassageOrHaircut:
 	jr nz, .egg
 	push hl
 	call GetCurNickname
-	call CopyPokemonName_Buffer1_Buffer3
+	call CopyTohomonName_Buffer1_Buffer3
 	pop hl
 	call Random
 .loop
@@ -60,7 +60,7 @@ MassageOrHaircut:
 
 INCLUDE "data/events/happiness_probabilities.asm"
 
-CopyPokemonName_Buffer1_Buffer3:
+CopyTohomonName_Buffer1_Buffer3:
 	ld hl, wStringBuffer1
 	ld de, wStringBuffer3
 	ld bc, MON_NAME_LENGTH

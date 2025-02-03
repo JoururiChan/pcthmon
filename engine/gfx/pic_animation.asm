@@ -2,12 +2,12 @@
 
 MACRO pokeanim
 	for i, 1, _NARG + 1
-		db (PokeAnim_\<i>_SetupCommand - PokeAnim_SetupCommands) / 2
+		db (TohoAnim_\<i>_SetupCommand - TohoAnim_SetupCommands) / 2
 	endr
-	db (PokeAnim_Finish_SetupCommand - PokeAnim_SetupCommands) / 2
+	db (TohoAnim_Finish_SetupCommand - TohoAnim_SetupCommands) / 2
 ENDM
 
-PokeAnims:
+TohoAnims:
 	dw .Slow
 	dw .Normal
 	dw .Menu
@@ -28,11 +28,11 @@ PokeAnims:
 .Egg2:   pokeanim Extra, Play
 
 AnimateFrontpic:
-	call AnimateMon_CheckIfPokemon
+	call AnimateMon_CheckIfTohomon
 	ret c
 	call LoadMonAnimation
 .loop
-	call SetUpPokeAnim
+	call SetUpTohoAnim
 	push af
 	farcall HDMATransferTileMapToWRAMBank3
 	pop af
@@ -43,7 +43,7 @@ LoadMonAnimation:
 	push hl
 	ld c, e
 	ld b, 0
-	ld hl, PokeAnims
+	ld hl, TohoAnims
 	add hl, bc
 	add hl, bc
 	ld a, [hli]
@@ -59,8 +59,8 @@ LoadMonAnimation:
 	push bc
 	push de
 	push hl
-	ld hl, wPokeAnimSceneIndex
-	ld bc, wPokeAnimStructEnd - wPokeAnimSceneIndex
+	ld hl, wTohoAnimSceneIndex
+	ld bc, wTohoAnimStructEnd - wTohoAnimSceneIndex
 	xor a
 	rst ByteFill
 	pop hl
@@ -69,53 +69,53 @@ LoadMonAnimation:
 
 ; bc contains anim pointer
 	ld a, c
-	ld [wPokeAnimPointer], a
+	ld [wTohoAnimPointer], a
 	ld a, b
-	ld [wPokeAnimPointer + 1], a
+	ld [wTohoAnimPointer + 1], a
 ; hl contains TileMap coords
 	ld a, l
-	ld [wPokeAnimCoord], a
+	ld [wTohoAnimCoord], a
 	ld a, h
-	ld [wPokeAnimCoord + 1], a
+	ld [wTohoAnimCoord + 1], a
 ; d = start tile
 	ld a, d
-	ld [wPokeAnimGraphicStartTile], a
+	ld [wTohoAnimGraphicStartTile], a
 
 	ld a, $1
 	ld hl, wCurPartySpecies
 	call GetFarWRAMByte
-	ld [wPokeAnimSpecies], a
+	ld [wTohoAnimSpecies], a
 
 	ld a, $1
 	ld hl, wCurForm
 	call GetFarWRAMByte
-	ld [wPokeAnimVariant], a
+	ld [wTohoAnimVariant], a
 
-	call PokeAnim_GetFrontpicDims
+	call TohoAnim_GetFrontpicDims
 	ld a, c
-	ld [wPokeAnimFrontpicHeight], a
+	ld [wTohoAnimFrontpicHeight], a
 
 	pop af
 	ldh [rSVBK], a
 	ret
 
-SetUpPokeAnim:
+SetUpTohoAnim:
 	ldh a, [rSVBK]
 	push af
 	ld a, $2
 	ldh [rSVBK], a
-	ld a, [wPokeAnimSceneIndex]
+	ld a, [wTohoAnimSceneIndex]
 	ld c, a
 	ld b, 0
-	ld hl, wPokeAnimPointer
+	ld hl, wTohoAnimPointer
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
 	add hl, bc
 	ld a, [hl]
-	ld hl, PokeAnim_SetupCommands
+	ld hl, TohoAnim_SetupCommands
 	call JumpTable
-	ld a, [wPokeAnimSceneIndex]
+	ld a, [wTohoAnimSceneIndex]
 	ld c, a
 	pop af
 	ldh [rSVBK], a
@@ -130,137 +130,137 @@ MACRO add_setup_command
 	dw \1
 ENDM
 
-PokeAnim_SetupCommands:
-	add_setup_command PokeAnim_Finish
-	add_setup_command PokeAnim_BasePic
-	add_setup_command PokeAnim_SetWait
-	add_setup_command PokeAnim_Wait
-	add_setup_command PokeAnim_Setup
-	add_setup_command PokeAnim_Setup2
-	add_setup_command PokeAnim_Extra
-	add_setup_command PokeAnim_Play
-	add_setup_command PokeAnim_Play2
-	add_setup_command PokeAnim_Cry
-	add_setup_command PokeAnim_CryNoWait
-	add_setup_command PokeAnim_StereoCry
+TohoAnim_SetupCommands:
+	add_setup_command TohoAnim_Finish
+	add_setup_command TohoAnim_BasePic
+	add_setup_command TohoAnim_SetWait
+	add_setup_command TohoAnim_Wait
+	add_setup_command TohoAnim_Setup
+	add_setup_command TohoAnim_Setup2
+	add_setup_command TohoAnim_Extra
+	add_setup_command TohoAnim_Play
+	add_setup_command TohoAnim_Play2
+	add_setup_command TohoAnim_Cry
+	add_setup_command TohoAnim_CryNoWait
+	add_setup_command TohoAnim_StereoCry
 
-PokeAnim_SetWait:
+TohoAnim_SetWait:
 	ld a, 18
-	ld [wPokeAnimWaitCounter], a
-	ld hl, wPokeAnimSceneIndex
+	ld [wTohoAnimWaitCounter], a
+	ld hl, wTohoAnimSceneIndex
 	inc [hl]
 	;fall-through
-PokeAnim_Wait:
-	ld hl, wPokeAnimWaitCounter
+TohoAnim_Wait:
+	ld hl, wTohoAnimWaitCounter
 	dec [hl]
 	ret nz
-	ld hl, wPokeAnimSceneIndex
+	ld hl, wTohoAnimSceneIndex
 	inc [hl]
 	ret
 
-PokeAnim_Setup:
+TohoAnim_Setup:
 	lb bc, 0, FALSE
-	call PokeAnim_InitAnim
-	call PokeAnim_SetVBank1
-	ld hl, wPokeAnimSceneIndex
+	call TohoAnim_InitAnim
+	call TohoAnim_SetVBank1
+	ld hl, wTohoAnimSceneIndex
 	inc [hl]
 	ret
 
-PokeAnim_Setup2:
+TohoAnim_Setup2:
 	lb bc, 4, FALSE
-	call PokeAnim_InitAnim
-	call PokeAnim_SetVBank1
-	ld hl, wPokeAnimSceneIndex
+	call TohoAnim_InitAnim
+	call TohoAnim_SetVBank1
+	ld hl, wTohoAnimSceneIndex
 	inc [hl]
 	ret
 
-PokeAnim_Extra:
+TohoAnim_Extra:
 	lb bc, 0, TRUE
-	call PokeAnim_InitAnim
-	call PokeAnim_SetVBank1
-	ld hl, wPokeAnimSceneIndex
+	call TohoAnim_InitAnim
+	call TohoAnim_SetVBank1
+	ld hl, wTohoAnimSceneIndex
 	inc [hl]
 	ret
 
-PokeAnim_Play:
-	call PokeAnim_DoAnimScript
-	ld a, [wPokeAnimJumptableIndex]
+TohoAnim_Play:
+	call TohoAnim_DoAnimScript
+	ld a, [wTohoAnimJumptableIndex]
 	bit 7, a
 	ret z
-	call PokeAnim_PlaceGraphic
-	ld hl, wPokeAnimSceneIndex
+	call TohoAnim_PlaceGraphic
+	ld hl, wTohoAnimSceneIndex
 	inc [hl]
 	ret
 
-PokeAnim_Play2:
-	call PokeAnim_DoAnimScript
-	ld a, [wPokeAnimJumptableIndex]
+TohoAnim_Play2:
+	call TohoAnim_DoAnimScript
+	ld a, [wTohoAnimJumptableIndex]
 	bit 7, a
 	ret z
-	ld hl, wPokeAnimSceneIndex
+	ld hl, wTohoAnimSceneIndex
 	inc [hl]
 	ret
 
-PokeAnim_BasePic:
-	call PokeAnim_DeinitFrames
-	ld hl, wPokeAnimSceneIndex
+TohoAnim_BasePic:
+	call TohoAnim_DeinitFrames
+	ld hl, wTohoAnimSceneIndex
 	inc [hl]
 	ret
 
-PokeAnim_Finish:
-	call PokeAnim_DeinitFrames
-	ld hl, wPokeAnimSceneIndex
+TohoAnim_Finish:
+	call TohoAnim_DeinitFrames
+	ld hl, wTohoAnimSceneIndex
 	set 7, [hl]
 	ret
 
-PokeAnim_Cry:
-	ld a, [wPokeAnimSpecies]
+TohoAnim_Cry:
+	ld a, [wTohoAnimSpecies]
 	ld c, a
-	ld a, [wPokeAnimVariant]
+	ld a, [wTohoAnimVariant]
 	ld b, a
 	call _PlayCry
-	ld hl, wPokeAnimSceneIndex
+	ld hl, wTohoAnimSceneIndex
 	inc [hl]
 	ret
 
-PokeAnim_CryNoWait:
-	ld a, [wPokeAnimSpecies]
+TohoAnim_CryNoWait:
+	ld a, [wTohoAnimSpecies]
 	ld c, a
-	ld a, [wPokeAnimVariant]
+	ld a, [wTohoAnimVariant]
 	ld b, a
 	call PlayCry2
-	ld hl, wPokeAnimSceneIndex
+	ld hl, wTohoAnimSceneIndex
 	inc [hl]
 	ret
 
-PokeAnim_StereoCry:
+TohoAnim_StereoCry:
 	ld a, $f
 	ld [wCryTracks], a
-	ld a, [wPokeAnimSpecies]
+	ld a, [wTohoAnimSpecies]
 	ld c, a
-	ld a, [wPokeAnimVariant]
+	ld a, [wTohoAnimVariant]
 	ld b, a
 	call PlayStereoCry2
-	ld hl, wPokeAnimSceneIndex
+	ld hl, wTohoAnimSceneIndex
 	inc [hl]
 	ret
 
-PokeAnim_DeinitFrames:
+TohoAnim_DeinitFrames:
 	ldh a, [rSVBK]
 	push af
 	ld a, $2
 	ldh [rSVBK], a
-	call PokeAnim_PlaceGraphic
+	call TohoAnim_PlaceGraphic
 	farcall HDMATransferTileMapToWRAMBank3
-	call PokeAnim_SetVBank0
+	call TohoAnim_SetVBank0
 	farcall HDMATransferAttrMapToWRAMBank3
 	pop af
 	ldh [rSVBK], a
 	ret
 
-AnimateMon_CheckIfPokemon:
+AnimateMon_CheckIfTohomon:
 	ld a, [wCurPartySpecies]
-	call IsAPokemon
+	call IsATohomon
 	jr c, .fail
 	and a
 	ret
@@ -269,21 +269,21 @@ AnimateMon_CheckIfPokemon:
 	scf
 	ret
 
-PokeAnim_InitAnim:
+TohoAnim_InitAnim:
 	ldh a, [rSVBK]
 	push af
 	ld a, $2
 	ldh [rSVBK], a
 	push bc
-	ld hl, wPokeAnimIdleFlag
-	ld bc, wPokeAnimStructEnd - wPokeAnimIdleFlag
+	ld hl, wTohoAnimIdleFlag
+	ld bc, wTohoAnimStructEnd - wTohoAnimIdleFlag
 	xor a
 	rst ByteFill
 	pop bc
 	ld a, b
-	ld [wPokeAnimSpeed], a
+	ld [wTohoAnimSpeed], a
 	ld a, c
-	ld [wPokeAnimIdleFlag], a
+	ld [wTohoAnimIdleFlag], a
 	call GetMonAnimPointer
 	call GetMonFramesPointer
 	call GetMonBitmaskPointer
@@ -291,12 +291,12 @@ PokeAnim_InitAnim:
 	ldh [rSVBK], a
 	ret
 
-PokeAnim_DoAnimScript:
+TohoAnim_DoAnimScript:
 	xor a
 	ldh [hBGMapMode], a
 
 .loop:
-	ld a, [wPokeAnimJumptableIndex]
+	ld a, [wTohoAnimJumptableIndex]
 	and $7f
 	call StackJumpTable
 
@@ -305,52 +305,52 @@ PokeAnim_DoAnimScript:
 	dw .WaitAnim
 
 .RunAnim:
-	call PokeAnim_GetPointer
-	ld a, [wPokeAnimCommand]
+	call TohoAnim_GetPointer
+	ld a, [wTohoAnimCommand]
 	inc a ; $ff endanim
-	jr z, PokeAnim_End
+	jr z, TohoAnim_End
 	inc a ; $fe setrepeat
 	jr z, .SetRepeat
 	inc a ; $fd dorepeat
 	jr z, .DoRepeat
-	call PokeAnim_GetFrame
-	ld a, [wPokeAnimParameter]
-	call PokeAnim_GetDuration
-	ld [wPokeAnimWaitCounter], a
-	call PokeAnim_StartWaitAnim
+	call TohoAnim_GetFrame
+	ld a, [wTohoAnimParameter]
+	call TohoAnim_GetDuration
+	ld [wTohoAnimWaitCounter], a
+	call TohoAnim_StartWaitAnim
 .WaitAnim:
-	ld hl, wPokeAnimWaitCounter
+	ld hl, wTohoAnimWaitCounter
 	dec [hl]
 	ret nz
-	jr PokeAnim_StopWaitAnim
+	jr TohoAnim_StopWaitAnim
 
 .SetRepeat:
-	ld a, [wPokeAnimParameter]
-	ld [wPokeAnimRepeatTimer], a
+	ld a, [wTohoAnimParameter]
+	ld [wTohoAnimRepeatTimer], a
 	jr .loop
 
 .DoRepeat:
-	ld a, [wPokeAnimRepeatTimer]
+	ld a, [wTohoAnimRepeatTimer]
 	and a
 	ret z
 	dec a
-	ld [wPokeAnimRepeatTimer], a
+	ld [wTohoAnimRepeatTimer], a
 	ret z
-	ld a, [wPokeAnimParameter]
-	ld [wPokeAnimFrame], a
+	ld a, [wTohoAnimParameter]
+	ld [wTohoAnimFrame], a
 	jr .loop
 
-PokeAnim_End:
-	ld hl, wPokeAnimJumptableIndex
+TohoAnim_End:
+	ld hl, wTohoAnimJumptableIndex
 	set 7, [hl]
 	ret
 
-PokeAnim_GetDuration:
-; a * (1 + [wPokeAnimSpeed] / 16)
+TohoAnim_GetDuration:
+; a * (1 + [wTohoAnimSpeed] / 16)
 	ld c, a
 	ld b, $0
 	ld hl, 0
-	ld a, [wPokeAnimSpeed]
+	ld a, [wTohoAnimSpeed]
 	rst AddNTimes
 	ld a, h
 	swap a
@@ -363,72 +363,72 @@ PokeAnim_GetDuration:
 	add c
 	ret
 
-PokeAnim_StartWaitAnim:
-	ld hl, wPokeAnimJumptableIndex
+TohoAnim_StartWaitAnim:
+	ld hl, wTohoAnimJumptableIndex
 	inc [hl]
 	ret
 
-PokeAnim_StopWaitAnim:
-	ld hl, wPokeAnimJumptableIndex
+TohoAnim_StopWaitAnim:
+	ld hl, wTohoAnimJumptableIndex
 	dec [hl]
 	ret
 
-PokeAnim_GetPointer:
-	ld a, [wPokeAnimFrame]
+TohoAnim_GetPointer:
+	ld a, [wTohoAnimFrame]
 	ld e, a
 	ld d, $0
-	ld hl, wPokeAnimPointerAddr
+	ld hl, wTohoAnimPointerAddr
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
 	add hl, de
 	add hl, de
-	ld a, [wPokeAnimPointerBank]
+	ld a, [wTohoAnimPointerBank]
 	call GetFarWord
 	ld a, l
-	ld [wPokeAnimCommand], a
+	ld [wTohoAnimCommand], a
 	ld a, h
-	ld [wPokeAnimParameter], a
-	ld hl, wPokeAnimFrame
+	ld [wTohoAnimParameter], a
+	ld hl, wTohoAnimFrame
 	inc [hl]
 	ret
 
-PokeAnim_GetBitmaskIndex:
-	ld a, [wPokeAnimCommand]
+TohoAnim_GetBitmaskIndex:
+	ld a, [wTohoAnimCommand]
 	dec a
 	ld c, a
 	ld b, $0
-	ld hl, wPokeAnimFramesAddr
+	ld hl, wTohoAnimFramesAddr
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
 	add hl, bc
 	add hl, bc
-	ld a, [wPokeAnimFramesBank]
+	ld a, [wTohoAnimFramesBank]
 	call GetFarWord
-	ld a, [wPokeAnimFramesBank]
+	ld a, [wTohoAnimFramesBank]
 	call GetFarByte
-	ld [wPokeAnimCurBitmask], a
+	ld [wTohoAnimCurBitmask], a
 	inc hl
 	ret
 
-PokeAnim_CopyBitmaskToBuffer:
+TohoAnim_CopyBitmaskToBuffer:
 	call .GetSize
 	push bc
-	ld hl, wPokeAnimBitmaskAddr
+	ld hl, wTohoAnimBitmaskAddr
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
-	ld a, [wPokeAnimCurBitmask]
+	ld a, [wTohoAnimCurBitmask]
 	rst AddNTimes
 	pop bc
-	ld de, wPokeAnimBitmaskBuffer
-	ld a, [wPokeAnimBitmaskBank]
+	ld de, wTohoAnimBitmaskBuffer
+	ld a, [wTohoAnimBitmaskBank]
 	jmp FarCopyBytes
 
 .GetSize:
 	push hl
-	ld a, [wPokeAnimFrontpicHeight]
+	ld a, [wTohoAnimFrontpicHeight]
 	sub 5 ; to get a number 0, 1, or 2
 	ld c, a
 	ld b, 0
@@ -441,21 +441,21 @@ PokeAnim_CopyBitmaskToBuffer:
 
 .Sizes: db 4, 5, 7
 
-PokeAnim_GetFrame:
-	call PokeAnim_PlaceGraphic
-	ld a, [wPokeAnimCommand]
+TohoAnim_GetFrame:
+	call TohoAnim_PlaceGraphic
+	ld a, [wTohoAnimCommand]
 	and a
 	ret z
 
-	call PokeAnim_GetBitmaskIndex
+	call TohoAnim_GetBitmaskIndex
 	push hl
-	call PokeAnim_CopyBitmaskToBuffer
+	call TohoAnim_CopyBitmaskToBuffer
 	pop hl
 
 	xor a
-	ld [wPokeAnimBitmaskCurBit], a
-	ld [wPokeAnimBitmaskCurRow], a
-	ld [wPokeAnimBitmaskCurCol], a
+	ld [wTohoAnimBitmaskCurBit], a
+	ld [wTohoAnimBitmaskCurRow], a
+	ld [wTohoAnimBitmaskCurCol], a
 .loop
 	push hl
 	call .IsCurBitSet
@@ -464,7 +464,7 @@ PokeAnim_GetFrame:
 	and a
 	jr z, .next
 
-	ld a, [wPokeAnimFramesBank]
+	ld a, [wTohoAnimFramesBank]
 	call GetFarByte
 	inc hl
 	push hl
@@ -480,18 +480,18 @@ PokeAnim_GetFrame:
 
 .IsCurBitSet:
 ; which byte
-	ld a, [wPokeAnimBitmaskCurBit]
+	ld a, [wTohoAnimBitmaskCurBit]
 	and $f8
 	rrca
 	rrca
 	rrca
 	ld e, a
 	ld d, 0
-	ld hl, wPokeAnimBitmaskBuffer
+	ld hl, wTohoAnimBitmaskBuffer
 	add hl, de
 	ld b, [hl]
 ; which bit
-	ld a, [wPokeAnimBitmaskCurBit]
+	ld a, [wTohoAnimBitmaskCurBit]
 	and $7
 	jr z, .skip
 
@@ -511,7 +511,7 @@ PokeAnim_GetFrame:
 
 .finish
 	ld b, a
-	ld hl, wPokeAnimBitmaskCurBit
+	ld hl, wTohoAnimBitmaskCurBit
 	inc [hl]
 	ret
 
@@ -521,7 +521,7 @@ PokeAnim_GetFrame:
 	pop af
 	push hl
 	call .GetTilemap
-	ld hl, wPokeAnimGraphicStartTile
+	ld hl, wTohoAnimGraphicStartTile
 	add [hl]
 	pop hl
 	ld [hl], a
@@ -529,21 +529,21 @@ PokeAnim_GetFrame:
 
 .GetCoord:
 	call .GetStartCoord
-	ld a, [wPokeAnimBitmaskCurRow]
+	ld a, [wTohoAnimBitmaskCurRow]
 	ld bc, SCREEN_WIDTH
 	rst AddNTimes
 	ld a, [wBoxAlignment]
 	and a
-	ld a, [wPokeAnimBitmaskCurCol]
+	ld a, [wTohoAnimBitmaskCurCol]
 	ld e, a
 	jr nz, .subtract
-	; hl += [wPokeAnimBitmaskCurCol]
+	; hl += [wTohoAnimBitmaskCurCol]
 	ld d, 0
 	add hl, de
 	ret
 
 .subtract
-	; hl -= [wPokeAnimBitmaskCurCol]
+	; hl -= [wTohoAnimBitmaskCurCol]
 	ld a, l
 	sub e
 	ld l, a
@@ -553,7 +553,7 @@ PokeAnim_GetFrame:
 
 .GetTilemap:
 	push af
-	ld a, [wPokeAnimFrontpicHeight]
+	ld a, [wTohoAnimFrontpicHeight]
 	cp 5
 	jr z, .check_add_24
 	cp 6
@@ -625,12 +625,12 @@ ENDM
 	; db 43, 44, 45, 46, 47, 48
 
 .GetStartCoord:
-	ld hl, wPokeAnimCoord
+	ld hl, wTohoAnimCoord
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
 
-	ld a, [wPokeAnimFrontpicHeight]
+	ld a, [wTohoAnimFrontpicHeight]
 	ld de, 0
 	ld bc, 6
 	cp 7
@@ -654,18 +654,18 @@ ENDM
 	ret
 
 .NextBit:
-	ld hl, wPokeAnimBitmaskCurRow
+	ld hl, wTohoAnimBitmaskCurRow
 	inc [hl]
 	ld c, [hl]
-	ld a, [wPokeAnimFrontpicHeight]
+	ld a, [wTohoAnimFrontpicHeight]
 	cp c
 	jr nz, .no_carry
 	xor a
-	ld [wPokeAnimBitmaskCurRow], a
-	ld hl, wPokeAnimBitmaskCurCol
+	ld [wTohoAnimBitmaskCurRow], a
+	ld hl, wTohoAnimBitmaskCurCol
 	inc [hl]
 	ld c, [hl]
-	ld a, [wPokeAnimFrontpicHeight]
+	ld a, [wTohoAnimFrontpicHeight]
 	cp c
 	jr nz, .no_carry
 	scf
@@ -675,7 +675,7 @@ ENDM
 	xor a
 	ret
 
-PokeAnim_PlaceGraphic:
+TohoAnim_PlaceGraphic:
 	call .ClearBox
 	ld a, [wBoxAlignment]
 	and a
@@ -689,13 +689,13 @@ PokeAnim_PlaceGraphic:
 	ld bc, 6
 
 .okay
-	ld hl, wPokeAnimCoord
+	ld hl, wTohoAnimCoord
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
 	add hl, bc
 	lb bc, 7, 7
-	ld a, [wPokeAnimGraphicStartTile]
+	ld a, [wTohoAnimGraphicStartTile]
 .loop
 	push bc
 	push hl
@@ -716,14 +716,14 @@ PokeAnim_PlaceGraphic:
 	ret
 
 .ClearBox:
-	ld hl, wPokeAnimCoord
+	ld hl, wTohoAnimCoord
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
 	lb bc, 7, 7
 	jmp ClearBox
 
-PokeAnim_SetVBank1:
+TohoAnim_SetVBank1:
 	ldh a, [rSVBK]
 	push af
 	ld a, $2
@@ -737,7 +737,7 @@ PokeAnim_SetVBank1:
 	ret
 
 .SetFlag:
-	call PokeAnim_GetAttrMapCoord
+	call TohoAnim_GetAttrMapCoord
 	lb bc, 7, 7
 	ld de, SCREEN_WIDTH
 .row
@@ -757,8 +757,8 @@ PokeAnim_SetVBank1:
 	jr nz, .row
 	ret
 
-PokeAnim_SetVBank0:
-	call PokeAnim_GetAttrMapCoord
+TohoAnim_SetVBank0:
+	call TohoAnim_GetAttrMapCoord
 	lb bc, 7, 7
 	ld de, SCREEN_WIDTH
 .row
@@ -778,8 +778,8 @@ PokeAnim_SetVBank0:
 	jr nz, .row
 	ret
 
-PokeAnim_GetAttrMapCoord:
-	ld hl, wPokeAnimCoord
+TohoAnim_GetAttrMapCoord:
+	ld hl, wTohoAnimCoord
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
@@ -787,7 +787,7 @@ PokeAnim_GetAttrMapCoord:
 	add hl, de
 	ret
 
-PokeAnim_GetFrontpicDims:
+TohoAnim_GetFrontpicDims:
 	ldh a, [rSVBK]
 	push af
 	ld a, $1
@@ -807,17 +807,17 @@ PokeAnim_GetFrontpicDims:
 
 GetMonAnimDataIndex:
 	; c = species
-	ld a, [wPokeAnimSpecies]
+	ld a, [wTohoAnimSpecies]
 	ld c, a
 	; b = form
-	ld a, [wPokeAnimVariant]
+	ld a, [wTohoAnimVariant]
 	ld b, a
 	; bc = index
 	jmp GetCosmeticSpeciesAndFormIndex
 
 GetMonAnimPointer:
 	call GetMonAnimDataIndex
-	ld a, [wPokeAnimIdleFlag]
+	ld a, [wTohoAnimIdleFlag]
 	and a
 	ld hl, AnimationPointers
 	ld a, BANK(AnimationPointers)
@@ -827,12 +827,12 @@ GetMonAnimPointer:
 .extras
 	add hl, bc
 	add hl, bc
-	ld [wPokeAnimPointerBank], a
+	ld [wTohoAnimPointerBank], a
 	call GetFarWord
 	ld a, l
-	ld [wPokeAnimPointerAddr], a
+	ld [wTohoAnimPointerAddr], a
 	ld a, h
-	ld [wPokeAnimPointerAddr + 1], a
+	ld [wTohoAnimPointerAddr + 1], a
 	ret
 
 GetMonFramesPointer:
@@ -843,20 +843,20 @@ GetMonFramesPointer:
 	ld a, BANK(FramesPointers)
 	call GetFarWord
 	ld a, l
-	ld [wPokeAnimFramesAddr], a
+	ld [wTohoAnimFramesAddr], a
 	ld a, h
-	ld [wPokeAnimFramesAddr + 1], a
-	ld a, [wPokeAnimVariant]
+	ld [wTohoAnimFramesAddr + 1], a
+	ld a, [wTohoAnimVariant]
 	and EXTSPECIES_MASK
 	jr nz, .johto_frames
-	ld a, [wPokeAnimSpecies]
+	ld a, [wTohoAnimSpecies]
 	cp CYOUMU
 	; a = carry ? BANK(KantoFrames) : BANK(JohtoFrames)
 	assert BANK(KantoFrames) + 1 == BANK(JohtoFrames)
 .johto_frames
 	sbc a
 	add BANK(JohtoFrames)
-	ld [wPokeAnimFramesBank], a
+	ld [wTohoAnimFramesBank], a
 	ret
 
 GetMonBitmaskPointer:
@@ -865,16 +865,16 @@ GetMonBitmaskPointer:
 	add hl, bc
 	add hl, bc
 	ld a, BANK(BitmasksPointers)
-	ld [wPokeAnimBitmaskBank], a
+	ld [wTohoAnimBitmaskBank], a
 	call GetFarWord
 	ld a, l
-	ld [wPokeAnimBitmaskAddr], a
+	ld [wTohoAnimBitmaskAddr], a
 	ld a, h
-	ld [wPokeAnimBitmaskAddr + 1], a
+	ld [wTohoAnimBitmaskAddr + 1], a
 	ret
 
 HOF_AnimateFrontpic:
-	call AnimateMon_CheckIfPokemon
+	call AnimateMon_CheckIfTohomon
 	jr c, .fail
 	ld h, d
 	ld l, e

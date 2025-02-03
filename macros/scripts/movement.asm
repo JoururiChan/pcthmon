@@ -516,7 +516,7 @@ MACRO stairs_step_right
 ENDM
 
 	const movement_scirno_shake
-MACRO exeggutor_shake
+MACRO scirno_shake
 	db movement_scirno_shake ; $66
 ENDM
 

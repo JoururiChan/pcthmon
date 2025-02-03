@@ -151,7 +151,7 @@ MomScript:
 	iftruefwd .BankOfMom
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftruefwd .FirstTimeBanking
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_TOHOMON_FROM_ELM
 	iftrue_jumpopenedtext MomErrandText
 	jumpthisopenedtext
 

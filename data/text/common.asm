@@ -305,10 +305,10 @@ _LookTownMapText::
 	text "It's the Town Map."
 	done
 
-SECTION "_LookEKikuriPosterText", ROMX
-_LookEKikuriPosterText::
+SECTION "_LookKikuriPosterText", ROMX
+_LookKikuriPosterText::
 	text "It's a poster of a"
-	line "cute EKikuri."
+	line "cute Kikuri."
 	done
 
 SECTION "_LookCMeiraPosterText", ROMX
@@ -690,8 +690,8 @@ OPT_Speedy::
 	line "speedy."
 	done
 
-SECTION "_OPT_PokemonChannelText", ROMX
-_OPT_PokemonChannelText::
+SECTION "_OPT_TohomonChannelText", ROMX
+_OPT_TohomonChannelText::
 	text "#mon"
 	done
 
@@ -2621,8 +2621,8 @@ _EggSentToPCText::
 	text "."
 	prompt
 
-SECTION "_PCGottaHavePokemonText", ROMX
-_PCGottaHavePokemonText::
+SECTION "_PCGottaHaveTohomonText", ROMX
+_PCGottaHaveTohomonText::
 	text "You gotta have"
 	line "#mon to call!"
 	prompt
@@ -2784,8 +2784,8 @@ _CaughtAskNicknameText::
 	cont "received?"
 	done
 
-SECTION "_PokecenterPCCantUseText", ROMX
-_PokecenterPCCantUseText::
+SECTION "_TohocenterPCCantUseText", ROMX
+_TohocenterPCCantUseText::
 	text "Bzzzzt! You must"
 	line "have a #mon to"
 	cont "use this!"
@@ -2856,19 +2856,19 @@ _PlayersPCNoRoomDepositText::
 	line "store items."
 	prompt
 
-SECTION "_PokecenterPCTurnOnText", ROMX
-_PokecenterPCTurnOnText::
+SECTION "_TohocenterPCTurnOnText", ROMX
+_TohocenterPCTurnOnText::
 	text "<PLAYER> turned on"
 	line "the PC."
 	prompt
 
-SECTION "_PokecenterPCWhoseText", ROMX
-_PokecenterPCWhoseText::
+SECTION "_TohocenterPCWhoseText", ROMX
+_TohocenterPCWhoseText::
 	text "Access whose PC?"
 	done
 
-SECTION "_PokecenterBillsPCText", ROMX
-_PokecenterBillsPCText::
+SECTION "_TohocenterBillsPCText", ROMX
+_TohocenterBillsPCText::
 	text "Bill's PC"
 	line "accessed."
 
@@ -2876,16 +2876,16 @@ _PokecenterBillsPCText::
 	line "System opened."
 	prompt
 
-SECTION "_PokecenterPlayersPCText", ROMX
-_PokecenterPlayersPCText::
+SECTION "_TohocenterPlayersPCText", ROMX
+_TohocenterPlayersPCText::
 	text "Accessed own PC."
 
 	para "Item Storage"
 	line "System opened."
 	prompt
 
-SECTION "_PokecenterOaksPCText", ROMX
-_PokecenterOaksPCText::
+SECTION "_TohocenterOaksPCText", ROMX
+_TohocenterOaksPCText::
 	text "Prof.Oak's PC"
 	line "accessed."
 
@@ -2893,8 +2893,8 @@ _PokecenterOaksPCText::
 	line "System opened."
 	prompt
 
-SECTION "_PokecenterPCOaksClosedText", ROMX
-_PokecenterPCOaksClosedText::
+SECTION "_TohocenterPCOaksClosedText", ROMX
+_TohocenterPCOaksClosedText::
 	text "…"
 	line "Link closed…"
 	done
@@ -3135,8 +3135,8 @@ _ItemsOakWarningText::
 	cont "time to use that!"
 	done
 
-SECTION "_PokemonSwapItemText", ROMX
-_PokemonSwapItemText::
+SECTION "_TohomonSwapItemText", ROMX
+_TohomonSwapItemText::
 	text "Took "
 	text_ram wMonOrItemNameBuffer
 	text "'s"
@@ -3150,8 +3150,8 @@ _PokemonSwapItemText::
 	text "."
 	prompt
 
-SECTION "_PokemonHoldItemText", ROMX
-_PokemonHoldItemText::
+SECTION "_TohomonHoldItemText", ROMX
+_TohomonHoldItemText::
 	text "Made "
 	text_ram wMonOrItemNameBuffer
 	text ""
@@ -3160,14 +3160,14 @@ _PokemonHoldItemText::
 	text "."
 	prompt
 
-SECTION "_PokemonRemoveMailText", ROMX
-_PokemonRemoveMailText::
+SECTION "_TohomonRemoveMailText", ROMX
+_TohomonRemoveMailText::
 	text "Please remove the"
 	line "Mail first."
 	prompt
 
-SECTION "_PokemonNotHoldingText", ROMX
-_PokemonNotHoldingText::
+SECTION "_TohomonNotHoldingText", ROMX
+_TohomonNotHoldingText::
 	text_ram wMonOrItemNameBuffer
 	text " isn't"
 	line "holding anything."
@@ -3179,8 +3179,8 @@ _ItemStorageFullText::
 	line "full."
 	prompt
 
-SECTION "_PokemonTookItemText", ROMX
-_PokemonTookItemText::
+SECTION "_TohomonTookItemText", ROMX
+_TohomonTookItemText::
 	text "Took "
 	text_ram wStringBuffer1
 	text ""
@@ -3189,8 +3189,8 @@ _PokemonTookItemText::
 	text "."
 	prompt
 
-SECTION "_PokemonAskSwapItemText", ROMX
-_PokemonAskSwapItemText::
+SECTION "_TohomonAskSwapItemText", ROMX
+_TohomonAskSwapItemText::
 	text_ram wMonOrItemNameBuffer
 	text " is"
 	line "already holding"
@@ -3245,8 +3245,8 @@ _MailSentToPCText::
 	line "to your PC."
 	prompt
 
-SECTION "_PokemonNotEnoughHPText", ROMX
-_PokemonNotEnoughHPText::
+SECTION "_TohomonNotEnoughHPText", ROMX
+_TohomonNotEnoughHPText::
 	text "Not enough HP!"
 	prompt
 
@@ -3528,8 +3528,8 @@ _FoundWingsText::
 	text "."
 	done
 
-SECTION "_CongratulationsYourPokemonText", ROMX
-_CongratulationsYourPokemonText::
+SECTION "_CongratulationsYourTohomonText", ROMX
+_CongratulationsYourTohomonText::
 	text "Congratulations!"
 	line "Your "
 	text_ram wStringBuffer2

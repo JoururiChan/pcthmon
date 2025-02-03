@@ -5,7 +5,7 @@ SFX:
 	fardw Sfx_DexFanfare5079
 	fardw Sfx_Item
 	fardw Sfx_CaughtMon
-	fardw Sfx_PokeballsPlacedOnTable
+	fardw Sfx_TohoballsPlacedOnTable
 	fardw Sfx_Potion
 	fardw Sfx_FullHeal
 	fardw Sfx_Menu
@@ -34,14 +34,14 @@ SFX:
 	fardw Sfx_WallOpen
 	fardw Sfx_PlacePuzzlePieceDown
 	fardw Sfx_EnterDoor
-	fardw Sfx_SwitchPokemon
+	fardw Sfx_SwitchTohomon
 	fardw Sfx_Tally
 	fardw Sfx_Transaction
 	fardw Sfx_ExitBuilding
 	fardw Sfx_Bump
 	fardw Sfx_Thunder_OW
 	fardw Sfx_Save
-	fardw Sfx_Pokeflute
+	fardw Sfx_Tohoflute
 	fardw Sfx_ElevatorEnd
 	fardw Sfx_ThrowBall
 	fardw Sfx_BallPoof
@@ -171,7 +171,7 @@ SFX:
 	fardw Sfx_MasterBall
 	fardw Sfx_EggHatch
 	fardw Sfx_GsIntroAMarisaFireball
-	fardw Sfx_GsIntroPokemonAppears
+	fardw Sfx_GsIntroTohomonAppears
 	fardw Sfx_Flash
 	fardw Sfx_GameFreakLogoGs
 	fardw Sfx_NotVeryEffective

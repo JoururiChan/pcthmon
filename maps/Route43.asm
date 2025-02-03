@@ -22,9 +22,9 @@ Route43_MapScriptHeader:
 
 	def_object_events
 	object_event  1,  6, SPRITE_LADY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route43SightseerfScript, -1
-	object_event 13,  5, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerPokemaniacBen, -1
-	object_event 13, 20, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerPokemaniacBrent1, -1
-	object_event 14,  7, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerPokemaniacRon, -1
+	object_event 13,  5, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohomaniacBen, -1
+	object_event 13, 20, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerTohomaniacBrent1, -1
+	object_event 14,  7, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohomaniacRon, -1
 	object_event  4, 16, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerFisherMarvin, -1
 	object_event  8, 10, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerPicnickerTiffany1, -1
 	object_event 13, 40, SPRITE_CAMPER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerCamperSpencer, -1
@@ -220,8 +220,8 @@ GenericTrainerCamperSpencer:
 	line "to camp there."
 	done
 
-GenericTrainerPokemaniacBen:
-	generictrainer POKEMANIAC, BEN, EVENT_BEAT_POKEMANIAC_BEN, PokemaniacBenSeenText, PokemaniacBenBeatenText
+GenericTrainerTohomaniacBen:
+	generictrainer POKEMANIAC, BEN, EVENT_BEAT_POKEMANIAC_BEN, TohomaniacBenSeenText, TohomaniacBenBeatenText
 
 	text "What else do I"
 	line "like besides"
@@ -231,10 +231,10 @@ GenericTrainerPokemaniacBen:
 	line "I bet she's cute!"
 	done
 
-TrainerPokemaniacBrent1:
-	trainer POKEMANIAC, BRENT1, EVENT_BEAT_POKEMANIAC_BRENT, PokemaniacBrent1SeenText, PokemaniacBrent1BeatenText, 0, PokemaniacBrent1Script
+TrainerTohomaniacBrent1:
+	trainer POKEMANIAC, BRENT1, EVENT_BEAT_POKEMANIAC_BRENT, TohomaniacBrent1SeenText, TohomaniacBrent1BeatenText, 0, TohomaniacBrent1Script
 
-PokemaniacBrent1Script:
+TohomaniacBrent1Script:
 	loadvar VAR_CALLERID, PHONE_POKEMANIAC_BRENT
 	opentext
 	checkflag ENGINE_BRENT_READY_FOR_REMATCH
@@ -243,7 +243,7 @@ PokemaniacBrent1Script:
 	iftruefwd .NumberAccepted
 	checkevent EVENT_BRENT_ASKED_FOR_PHONE_NUMBER
 	iftruefwd .AskedAlready
-	writetext PokemaniacBrentAfterBattleText
+	writetext TohomaniacBrentAfterBattleText
 	promptbutton
 	setevent EVENT_BRENT_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
@@ -261,7 +261,7 @@ PokemaniacBrent1Script:
 
 .WantsBattle:
 	scall .Rematch
-	winlosstext PokemaniacBrent1BeatenText, 0
+	winlosstext TohomaniacBrent1BeatenText, 0
 	readmem wBrentFightCount
 	ifequalfwd 3, .Fight3
 	ifequalfwd 2, .Fight2
@@ -328,8 +328,8 @@ PokemaniacBrent1Script:
 .Rematch:
 	jumpstd rematchm
 
-GenericTrainerPokemaniacRon:
-	generictrainer POKEMANIAC, RON, EVENT_BEAT_POKEMANIAC_RON, PokemaniacRonSeenText, PokemaniacRonBeatenText
+GenericTrainerTohomaniacRon:
+	generictrainer POKEMANIAC, RON, EVENT_BEAT_POKEMANIAC_RON, TohomaniacRonSeenText, TohomaniacRonBeatenText
 
 	text "It's OK for people"
 	line "to like different"
@@ -475,7 +475,7 @@ PicnickerTiffany1Script:
 .PackFull:
 	jumpstd packfullf
 
-PokemaniacBenSeenText:
+TohomaniacBenSeenText:
 	text "I love #mon!"
 
 	para "That's why I"
@@ -485,28 +485,28 @@ PokemaniacBenSeenText:
 	line "lecting #mon!"
 	done
 
-PokemaniacBenBeatenText:
+TohomaniacBenBeatenText:
 	text "How could you do"
 	line "this to me?"
 	done
 
-PokemaniacBrent1SeenText:
+TohomaniacBrent1SeenText:
 	text "Hey! Do you have"
 	line "any rare #mon?"
 	done
 
-PokemaniacBrent1BeatenText:
+TohomaniacBrent1BeatenText:
 	text "Oh, my poor #-"
 	line "mon! Darlings!"
 	done
 
-PokemaniacBrentAfterBattleText:
+TohomaniacBrentAfterBattleText:
 	text "I'd be happy just"
 	line "to own a single"
 	cont "rare #mon."
 	done
 
-PokemaniacRonSeenText:
+TohomaniacRonSeenText:
 	text "Would you get"
 	line "this?"
 
@@ -518,7 +518,7 @@ PokemaniacRonSeenText:
 	line "mon's great!"
 	done
 
-PokemaniacRonBeatenText:
+TohomaniacRonBeatenText:
 	text "My ARika did"
 	line "pretty right on!"
 	done
@@ -646,7 +646,7 @@ Route43TrainerTipsText:
 Route43AdvancedTipsText:
 	text "Advanced Tips!"
 
-	para "A Pokemon can pass"
+	para "A Tohomon can pass"
 	line "down its nature"
 	cont "via inheritance"
 

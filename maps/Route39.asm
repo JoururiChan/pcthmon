@@ -22,15 +22,15 @@ Route39_MapScriptHeader:
 	def_object_events
 	object_event  7, 28, SPRITE_COWGIRL, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route39CowgirlAnnieScript, -1
 	object_event 13, 43, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerSailorEugene, -1
-	object_event 10, 36, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 4, TrainerPokefanmDerek1, -1
-	object_event 11, 33, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerPokefanfRuth, -1
-	pokemon_event  3, 26, MILTANK, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
-	pokemon_event  6, 25, MILTANK, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
-	pokemon_event  4, 29, MILTANK, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
-	pokemon_event  8, 27, MILTANK, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
+	object_event 10, 36, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 4, TrainerTohofanmDerek1, -1
+	object_event 11, 33, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerTohofanfRuth, -1
+	tohomon_event  3, 26, MILTANK, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
+	tohomon_event  6, 25, MILTANK, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
+	tohomon_event  4, 29, MILTANK, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
+	tohomon_event  8, 27, MILTANK, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
 	object_event 13, 21, SPRITE_PSYCHIC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerPsychicNorman, -1
 	fruittree_event  9, 17, FRUITTREE_ROUTE_39, CHESTO_BERRY, PAL_NPC_PURPLE
-	object_event  4, 36, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TrainerPokefanfJaime, -1
+	object_event  4, 36, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TrainerTohofanfJaime, -1
 	object_event  4, 44, SPRITE_BEAUTY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route39BeautyText, -1
 	object_event 15, 11, SPRITE_HIKER, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route39HikerText, -1
 	tmhmball_event  1, 21, TM_BULLDOZE, EVENT_ROUTE_39_TM_BULLDOZE
@@ -40,8 +40,8 @@ Route39_MapScriptHeader:
 	object_const_def
 	const ROUTE39_COWGIRL
 
-TrainerPokefanmDerek1:
-	trainer POKEFANM, DEREK1, EVENT_BEAT_POKEFANM_DEREK, PokefanmDerek1SeenText, PokefanmDerek1BeatenText, 0, .Script
+TrainerTohofanmDerek1:
+	trainer POKEFANM, DEREK1, EVENT_BEAT_POKEFANM_DEREK, TohofanmDerek1SeenText, TohofanmDerek1BeatenText, 0, .Script
 
 .Script:
 	loadvar VAR_CALLERID, PHONE_POKEFANM_DEREK
@@ -50,11 +50,11 @@ TrainerPokefanmDerek1:
 	iftruefwd .HasNugget
 	checkcellnum PHONE_POKEFANM_DEREK
 	iftruefwd .NumberAccepted
-	checkpoke PIKACHU
-	iffalsefwd .WantsPikachu
+	checkpoke KIKURI
+	iffalsefwd .WantsKikuri
 	checkevent EVENT_DEREK_ASKED_FOR_PHONE_NUMBER
 	iftruefwd .AskedAlready
-	writetext PokefanMDerekText_NotBragging
+	writetext TohofanMDerekText_NotBragging
 	promptbutton
 	setevent EVENT_DEREK_ASKED_FOR_PHONE_NUMBER
 	scall .AskNumber1
@@ -80,8 +80,8 @@ TrainerPokefanmDerek1:
 .NoRoom:
 	sjumpfwd .PackFull
 
-.WantsPikachu:
-	jumpopenedtext PokefanMDerekPikachuIsItText
+.WantsKikuri:
+	jumpopenedtext TohofanMDerekKikuriIsItText
 
 .AskNumber1:
 	jumpstd asknumber1m
@@ -107,8 +107,8 @@ TrainerPokefanmDerek1:
 .PackFull:
 	jumpstd packfullm
 
-GenericTrainerPokefanfRuth:
-	generictrainer POKEFANF, RUTH, EVENT_BEAT_POKEFANF_RUTH, PokefanfRuthSeenText, PokefanfRuthBeatenText
+GenericTrainerTohofanfRuth:
+	generictrainer POKEFANF, RUTH, EVENT_BEAT_POKEFANF_RUTH, TohofanfRuthSeenText, TohofanfRuthBeatenText
 
 	text "Do you know about"
 	line "baby #mon?"
@@ -265,17 +265,17 @@ GenericTrainerPsychicNorman:
 	cont "potential."
 	done
 
-TrainerPokefanfJaime:
+TrainerTohofanfJaime:
 	faceplayer
 	opentext
 	checktime 1 << NITE
 	iffalsefwd .NotNight
 	checkevent EVENT_BEAT_POKEFANF_JAIME
 	iftruefwd .Beaten
-	writetext PokefanfJaimeSeenText
+	writetext TohofanfJaimeSeenText
 	waitbutton
 	closetext
-	winlosstext PokefanfJaimeBeatenText, 0
+	winlosstext TohofanfJaimeBeatenText, 0
 	loadtrainer POKEFANF, JAIME
 	startbattle
 	reloadmapafterbattle
@@ -283,10 +283,10 @@ TrainerPokefanfJaime:
 	endtext
 
 .Beaten:
-	jumpopenedtext PokefanfJaimeAfterBattleText
+	jumpopenedtext TohofanfJaimeAfterBattleText
 
 .NotNight:
-	jumpopenedtext PokefanfJaimeHopeItGetsDarkText
+	jumpopenedtext TohofanfJaimeHopeItGetsDarkText
 
 Route39MiltankText:
 	text "Miltank: Mooo!"
@@ -304,18 +304,18 @@ SailorEugeneBeatenText:
 	text "Awaaargh!"
 	done
 
-PokefanmDerek1SeenText:
+TohofanmDerek1SeenText:
 	text "This is a good"
 	line "time to brag about"
-	cont "my Pikachu!"
+	cont "my Kikuri!"
 	done
 
-PokefanmDerek1BeatenText:
+TohofanmDerek1BeatenText:
 	text "I had no time to"
-	line "show off Pikachu…"
+	line "show off Kikuri…"
 	done
 
-PokefanMDerekText_NotBragging:
+TohofanMDerekText_NotBragging:
 	text "I'm not listening"
 	line "to your bragging!"
 
@@ -326,7 +326,7 @@ PokefanMDerekText_NotBragging:
 	line "people brag!"
 	done
 
-PokefanfRuthSeenText:
+TohofanfRuthSeenText:
 	text "Such darling"
 	line "#mon."
 
@@ -335,13 +335,13 @@ PokefanfRuthSeenText:
 	cont "at the same time."
 	done
 
-PokefanfRuthBeatenText:
+TohofanfRuthBeatenText:
 	text "I don't mind"
 	line "losing."
 	done
 
-PokefanMDerekPikachuIsItText:
-	text "Pikachu is it!"
+TohofanMDerekKikuriIsItText:
+	text "Kikuri is it!"
 	line "Don't you agree?"
 	done
 
@@ -356,24 +356,24 @@ PsychicNormanBeatenText:
 	line "have potential."
 	done
 
-PokefanfJaimeHopeItGetsDarkText:
+TohofanfJaimeHopeItGetsDarkText:
 	text "Ufufufu… I hope it"
 	line "gets dark soon."
 	done
 
-PokefanfJaimeSeenText:
+TohofanfJaimeSeenText:
 	text "You came at just"
 	line "the right time."
 
 	para "Let's battle."
 	done
 
-PokefanfJaimeBeatenText:
+TohofanfJaimeBeatenText:
 	text "Oh, how disap-"
 	line "pointing…"
 	done
 
-PokefanfJaimeAfterBattleText:
+TohofanfJaimeAfterBattleText:
 	text "I met my Meowth at"
 	line "night, right here"
 	cont "on Route 39."

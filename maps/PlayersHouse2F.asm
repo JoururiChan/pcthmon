@@ -13,7 +13,7 @@ PlayersHouse2F_MapScriptHeader:
 	def_bg_events
 	bg_event  2,  1, BGEVENT_UP, PlayersHousePC
 	bg_event  3,  1, BGEVENT_READ, PlayersHouseRadio
-	bg_event  5,  1, BGEVENT_READ, PokemonJournalProfElmScript
+	bg_event  5,  1, BGEVENT_READ, TohomonJournalProfElmScript
 	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePoster
 
 	def_object_events
@@ -166,7 +166,7 @@ endr
 	setevent EVENT_BEAT_BROCK
 	setevent EVENT_BEAT_MISTY
 	setevent EVENT_BEAT_LTSURGE
-	setevent EVENT_BEAT_ERIKA_T
+	setevent EVENT_BEAT_ERIKA
 	setevent EVENT_BEAT_JANINE
 	setevent EVENT_BEAT_SABRINA
 	setevent EVENT_BEAT_BLAINE
@@ -266,7 +266,7 @@ endr
 ;	setevent EVENT_GOT_CALICE_FROM_ELM
 ;	setevent EVENT_CALICE_POKEBALL_IN_ELMS_LAB
 ;	setevent EVENT_CSANAE_POKEBALL_IN_ELMS_LAB
-;	setevent EVENT_GOT_A_POKEMON_FROM_ELM
+;	setevent EVENT_GOT_A_TOHOMON_FROM_ELM
 ;	setevent EVENT_RIVAL_CHERRYGROVE_CITY
 ;	setevent EVENT_LYRA_IN_ELMS_LAB
 ;	setmapscene ELMS_LAB, $5
@@ -312,20 +312,20 @@ FillTohodex:
 	ld hl, wTohodexCaught
 .Fill:
 	ld a, %11111111
-	ld bc, NUM_UNIQUE_POKEMON / 8
+	ld bc, NUM_UNIQUE_TOHOMON / 8
 	rst ByteFill
-if NUM_UNIQUE_POKEMON % 8
-	ld [hl], 2**(NUM_UNIQUE_POKEMON % 8) - 1
+if NUM_UNIQUE_TOHOMON % 8
+	ld [hl], 2**(NUM_UNIQUE_TOHOMON % 8) - 1
 endc
 	ret
 
 else
 
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_TOHOMON_FROM_ELM
 	iftruefwd .NormalRadio
 	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
 	iftruefwd .AbbreviatedRadio
-	playmusic MUSIC_POKEMON_TALK
+	playmusic MUSIC_TOHOMON_TALK
 	opentext
 	writetext PlayerRadioText1
 	pause 45
@@ -351,7 +351,7 @@ else
 
 endc
 
-PokemonJournalProfElmScript:
+TohomonJournalProfElmScript:
 	setflag ENGINE_READ_PROF_ELM_JOURNAL
 	jumpthistext
 

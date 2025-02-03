@@ -231,7 +231,7 @@ ScriptCommandTable:
 	dw Script_gettmhmname                ; ac
 	dw Script_checkdarkness              ; ad
 	dw Script_checkunits                 ; ae
-	dw Script_unowntypeface              ; af
+	dw Script_hinatypeface              ; af
 	dw Script_restoretypeface            ; b0
 	dw Script_jumpstashedtext            ; b1
 	dw Script_jumpopenedtext             ; b2
@@ -520,14 +520,14 @@ Script_pokepic:
 	call GetCurPartyMonSpeciesIfZero
 
 	; While we actually have species+form stored right now if zero, we need to
-	; handle color variation. Thus, notify Pokepic that we want a partymon.
+	; handle color variation. Thus, notify Tohopic that we want a partymon.
 	ld a, -1
 	ld [wCurForm], a
 	jr z, .pokepic
 	call GetScriptByte
 	ld [wCurForm], a
 .pokepic
-	farjp Pokepic
+	farjp Tohopic
 
 GetCurPartyMonSpeciesIfZero:
 	and a
@@ -544,7 +544,7 @@ GetCurPartyMonSpeciesIfZero:
 	ret
 
 Script_closepokepic:
-	farjp ClosePokepic
+	farjp CloseTohopic
 
 Script_verticalmenu:
 	ldh a, [hScriptBank]
@@ -1651,7 +1651,7 @@ Script_getmonname:
 	ld hl, wNamedObjectIndex
 	ld [hli], a
 	ld [hl], d
-	call GetPokemonName
+	call GetTohomonName
 	ld de, wStringBuffer1
 
 ConvertMemToText:
@@ -1775,13 +1775,13 @@ Script_givepokemail:
 	ldh a, [hScriptBank]
 	call FarCopyBytes
 	pop bc
-	farjp GivePokeItem
+	farjp GiveTohoItem
 
 Script_checkpokemail:
 	call GetScriptWordDE
 	ldh a, [hScriptBank]
 	ld b, a
-	farjp CheckPokeItem
+	farjp CheckTohoItem
 
 Script_giveitem:
 	call GetScriptByte
@@ -2037,7 +2037,7 @@ rept 6
 	call GetScriptByte
 endr
 .ok
-	farcall GivePoke
+	farcall GiveToho
 	ld a, b
 	ldh [hScriptVar], a
 	ret
@@ -2059,7 +2059,7 @@ Script_giveegg:
 	assert POKE_BALL == 1
 	ld [wGiftMonBall], a
 
-	farcall GivePoke
+	farcall GiveToho
 	ld a, b
 	ldh [hScriptVar], a
 	ret
@@ -2476,15 +2476,15 @@ Script_checkdarkness:
 
 Script_checkunits:
 	ld a, [wOptions2]
-	bit POKEDEX_UNITS, a
+	bit TOHODEX_UNITS, a
 	ldh [hScriptVar], a
 	ret
 
-Script_unowntypeface:
+Script_hinatypeface:
 	ld a, [wOptions2]
 	ld [wOptionsBuffer], a
 	and ~FONT_MASK
-	or UNOWN_FONT
+	or HINA_FONT
 	ld [wOptions2], a
 	jmp LoadStandardFont
 

@@ -1,4 +1,4 @@
-; Pokémon HG/SS - Encounter! Lyra
+; Tohomon HG/SS - Encounter! Lyra
 ; Demixed by Mmmmmm
 ; https://pastebin.com/fL7d2CrB
 ; https://hax.iimarckus.org/topic/6777/3/

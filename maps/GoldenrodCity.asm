@@ -45,14 +45,14 @@ GoldenrodCity_MapScriptHeader:
 	bg_event 12,  6, BGEVENT_JUMPTEXT, GoldenrodCityUndergroundSignText
 	bg_event 14, 30, BGEVENT_JUMPTEXT, GoldenrodCityUndergroundSignText
 	bg_event 40, 28, BGEVENT_JUMPTEXT, GoldenrodCityUndergroundSignText
-	bg_event 20, 27, BGEVENT_JUMPTEXT, PokeComCenterSignText
+	bg_event 20, 27, BGEVENT_JUMPTEXT, TohoComCenterSignText
 	bg_event 34,  6, BGEVENT_JUMPTEXT, GoldenrodCityFlowerShopSignText
 	bg_event 27, 15, BGEVENT_JUMPTEXT, GoldenrodMuseumSignText
 
 	def_object_events
 	object_event 16, 22, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoveTutor, EVENT_GOLDENROD_CITY_MOVE_TUTOR
 	object_event 28,  8, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodCityGymLassText, EVENT_GOLDENROD_GYM_WHITNEY
-	object_event 11, 18, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodCityPokefanMText, EVENT_GOLDENROD_CITY_CIVILIANS
+	object_event 11, 18, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodCityTohofanMText, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event 38, 17, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodCityYoungster1Text, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event 16, 16, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenrodCityCooltrainerF1Script, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event 25, 25, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoldenrodCityCooltrainerF2Script, EVENT_GOLDENROD_CITY_CIVILIANS
@@ -228,7 +228,7 @@ GoldenrodCityPanUpMovementData:
 	step_up
 	step_end
 
-GoldenrodCityPokefanMText:
+GoldenrodCityTohofanMText:
 	text "They built the new"
 	line "Radio Tower to"
 
@@ -458,7 +458,7 @@ GoldenrodCityUndergroundSignText:
 	line "Entrance"
 	done
 
-PokeComCenterSignText:
+TohoComCenterSignText:
 	text "Connect the World!"
 	line "#Com Center"
 	done

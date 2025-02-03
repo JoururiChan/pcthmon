@@ -1,4 +1,4 @@
-GoldenrodPokecomCenter1F_MapScriptHeader:
+GoldenrodTohocomCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -13,7 +13,7 @@ GoldenrodPokecomCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 11,  7, BGEVENT_READ, PokemonJournalWhitneyScript
+	bg_event 11,  7, BGEVENT_READ, TohomonJournalWhitneyScript
 	bg_event 24,  5, BGEVENT_RIGHT, JudgeMachineScript
 	bg_event 24,  6, BGEVENT_RIGHT, JudgeMachineScript
 	bg_event 24,  7, BGEVENT_RIGHT, JudgeMachineScript
@@ -34,16 +34,16 @@ GoldenrodPokecomCenter1F_MapScriptHeader:
 
 	def_object_events
 	object_event 23, 10, SPRITE_ENGINEER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, JudgeMachineEngineerScript, EVENT_JUDGE_MACHINE_ENGINEER
-	object_event  7,  7, SPRITE_BOWING_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodPokecenter1FNurseScript, -1
-	object_event  0, 12, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FGameboyKidText, -1
-	object_event  3, 11, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FLassText, -1
-	object_event 12, 14, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, GoldenrodPokecenter1FPokefanF, -1
+	object_event  7,  7, SPRITE_BOWING_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodTohocenter1FNurseScript, -1
+	object_event  0, 12, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FGameboyKidText, -1
+	object_event  3, 11, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FLassText, -1
+	object_event 12, 14, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, GoldenrodTohocenter1FTohofanF, -1
 	object_event 16,  8, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_TEAL, OBJECTTYPE_SCRIPT, 0, WonderTradeReceptionistScript, -1
-	object_event  8, 13, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FSuperNerdText, -1
-	object_event 27, 13, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FPokefanFText_Sunflora, -1
-	object_event 21,  6, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FRockerText, -1
-	object_event 18, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FGrampsText, -1
-	object_event 18,  9, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPokecenter1FLassText_PidgeyMail, -1
+	object_event  8, 13, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FSuperNerdText, -1
+	object_event 27, 13, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FTohofanFText_Sunflora, -1
+	object_event 21,  6, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FRockerText, -1
+	object_event 18, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FGrampsText, -1
+	object_event 18,  9, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FLassText_PidgeyMail, -1
 	object_event  3,  9, SPRITE_ICE_BOULDER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_POKECOM_SIGN, OBJECTTYPE_SCRIPT, 0, InfoSignScript, -1
 	object_event 23,  3, SPRITE_ICE_BOULDER, SPRITEMOVEDATA_POKECOM_NEWS, 0, 0, -1, -1, PAL_NPC_POKECOM_SIGN, OBJECTTYPE_COMMAND, end, NULL, -1
 
@@ -62,11 +62,11 @@ JudgeMachineScreenCallback:
 .Done
 	endcallback
 
-GoldenrodPokecenter1FNurseScript:
+GoldenrodTohocenter1FNurseScript:
 	setevent EVENT_WELCOMING_TO_POKECOM_CENTER
 	jumpstd pokecenternurse
 
-GoldenrodPokecenter1FGameboyKidText:
+GoldenrodTohocenter1FGameboyKidText:
 	text "The Colosseum"
 	line "upstairs is for"
 	cont "link battles."
@@ -78,7 +78,7 @@ GoldenrodPokecenter1FGameboyKidText:
 	line "afford to lose."
 	done
 
-GoldenrodPokecenter1FLassText:
+GoldenrodTohocenter1FLassText:
 	text "A higher level"
 	line "#mon doesn't"
 	cont "always win."
@@ -94,22 +94,22 @@ GoldenrodPokecenter1FLassText:
 	line "the toughest."
 	done
 
-GoldenrodPokecenter1FPokefanF:
+GoldenrodTohocenter1FTohofanF:
 	checkevent EVENT_GOT_EVIOLITE_IN_GOLDENROD
-	iftrue_jumptextfaceplayer GoldenrodPokecenter1FPokefanFGotEvioliteText
+	iftrue_jumptextfaceplayer GoldenrodTohocenter1FTohofanFGotEvioliteText
 	faceplayer
 	opentext
-	writetext GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText
+	writetext GoldenrodTohocenter1FTohofanFDoYouHaveEonMailText
 	waitbutton
 	checkitem EON_MAIL
-	iffalse_jumpopenedtext GoldenrodPokecenter1FPokefanFTooBadText
-	writetext GoldenrodPokecenter1FAskGiveAwayAnEonMailText
+	iffalse_jumpopenedtext GoldenrodTohocenter1FTohofanFTooBadText
+	writetext GoldenrodTohocenter1FAskGiveAwayAnEonMailText
 	yesorno
-	iffalse_jumpopenedtext GoldenrodPokecenter1FPokefanFTooBadText
+	iffalse_jumpopenedtext GoldenrodTohocenter1FTohofanFTooBadText
 	takeitem EON_MAIL
-	writetext GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText
+	writetext GoldenrodTohocenter1FPlayerGaveAwayTheEonMailText
 	waitbutton
-	writetext GoldenrodPokecenter1FPokefanFThisIsForYouText
+	writetext GoldenrodTohocenter1FTohofanFThisIsForYouText
 	waitbutton
 	verbosegiveitem EVIOLITE
 	iffalsefwd .NoRoomForEviolite
@@ -128,7 +128,7 @@ GoldenrodPokecenter1FPokefanF:
 	line "time, then."
 	done
 
-GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
+GoldenrodTohocenter1FTohofanFDoYouHaveEonMailText:
 	text "Oh my, your bag"
 	line "looks so heavy!"
 
@@ -143,12 +143,12 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 	line "one, can't you?"
 	done
 
-GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
+GoldenrodTohocenter1FAskGiveAwayAnEonMailText:
 	text "Give away an Eon"
 	line "Mail?"
 	done
 
-GoldenrodPokecenter1FPokefanFThisIsForYouText:
+GoldenrodTohocenter1FTohofanFThisIsForYouText:
 	text "Oh, that's great!"
 	line "Thank you, honey!"
 
@@ -156,17 +156,17 @@ GoldenrodPokecenter1FPokefanFThisIsForYouText:
 	line "you in return!"
 	done
 
-GoldenrodPokecenter1FPokefanFTooBadText:
+GoldenrodTohocenter1FTohofanFTooBadText:
 	text "Oh? You don't have"
 	line "one? Too bad."
 	done
 
-GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
+GoldenrodTohocenter1FPlayerGaveAwayTheEonMailText:
 	text "<PLAYER> gave away"
 	line "the Eon Mail."
 	done
 
-GoldenrodPokecenter1FPokefanFGotEvioliteText:
+GoldenrodTohocenter1FTohofanFGotEvioliteText:
 	text "Thank you for"
 	line "the Eon Mail!"
 
@@ -195,11 +195,11 @@ WonderTradeReceptionistScript:
 	ifnotequal 2, .done
 	setevent EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
 	setevent EVENT_CAN_GIVE_GS_BALL_TO_KURT
-	playmusic MUSIC_SPIKY_EARED_PICHU_HGSS
-	writetext WonderTradeForGSBallPichuText
+	playmusic MUSIC_SPIKY_EARED_TTEI_HGSS
+	writetext WonderTradeForGSBallTTeiText
 	promptbutton
 	verbosegivekeyitem GS_BALL
-	writetext WonderTradeForGSBallPichuText2
+	writetext WonderTradeForGSBallTTeiText2
 	waitbutton
 .done
 	jumpopenedtext WonderTradeGoodbyeText
@@ -234,7 +234,7 @@ WonderTradeGoodbyeText:
 	line "again."
 	done
 
-WonderTradeForGSBallPichuText:
+WonderTradeForGSBallTTeiText:
 	text "…But what's this?"
 	line "Is something wrong"
 
@@ -268,7 +268,7 @@ WonderTradeForGSBallPichuText:
 	para "Here, take a look…"
 	done
 
-WonderTradeForGSBallPichuText2:
+WonderTradeForGSBallTTeiText2:
 	text "It may be unusual,"
 	line "but a #mon"
 	cont "is a #mon."
@@ -293,7 +293,7 @@ InfoSignScript:
 	line "<PK><MN> Judge Machine"
 	done
 
-PokemonJournalWhitneyScript:
+TohomonJournalWhitneyScript:
 	setflag ENGINE_READ_WHITNEY_JOURNAL
 	jumpthistext
 
@@ -312,7 +312,7 @@ JudgeMachineScript:
 	special JudgeMachine
 	waitendtext
 
-GoldenrodPokecenter1FSuperNerdText:
+GoldenrodTohocenter1FSuperNerdText:
 	text "Whoa, this #mon"
 	line "Center is huge."
 
@@ -323,7 +323,7 @@ GoldenrodPokecenter1FSuperNerdText:
 	line "new machines too."
 	done
 
-GoldenrodPokecenter1FLassText_PidgeyMail:
+GoldenrodTohocenter1FLassText_PidgeyMail:
 	text "I thought up a fun"
 	line "new thing for the"
 	cont "Wonder Trade Hub!"
@@ -445,7 +445,7 @@ JudgeMachineEngineerLeavesMovement:
 	step_left
 	step_end
 
-GoldenrodPokecenter1FPokefanFText_Sunflora:
+GoldenrodTohocenter1FTohofanFText_Sunflora:
 	text "Some girl I don't"
 	line "know sent me her"
 	cont "Sunflora."
@@ -455,7 +455,7 @@ GoldenrodPokecenter1FPokefanFText_Sunflora:
 	cont "you want."
 	done
 
-GoldenrodPokecenter1FRockerText:
+GoldenrodTohocenter1FRockerText:
 	text "The machines here"
 	line "can't all be used"
 	cont "yet."
@@ -467,7 +467,7 @@ GoldenrodPokecenter1FRockerText:
 	line "people."
 	done
 
-GoldenrodPokecenter1FGrampsText:
+GoldenrodTohocenter1FGrampsText:
 	text "Just seeing all"
 	line "these new things"
 

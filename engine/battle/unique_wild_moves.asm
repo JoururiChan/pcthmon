@@ -39,21 +39,21 @@ CheckUniqueWildMove:
 	and a
 	ret z
 
-	; always teach moves for certain Pokémon
+	; always teach moves for certain Tohomon
 	ld a, c
 	cp MAHOGANY_TOWN
 	jr z, .TeachMove ; assume this is for Explosion in TeamRocketBaseB1F
 	cp UNION_CAVE
-	jr z, .TeachMove ; assume this is a Lapras in UnionCaveB2F
+	jr z, .TeachMove ; assume this is a CLyrica in UnionCaveB2F
 	cp YELLOW_FOREST
 	jr nz, .ChanceToTeach
-	; assume this is a Pikachu in YellowForest; Surf (always teach) or Fly?
+	; assume this is a Kikuri in YellowForest; Surf (always teach) or Fly?
 	ld a, [wPlayerState]
 	cp PLAYER_SURF
-	jr z, .SurfingPikachu
+	jr z, .SurfingKikuri
 	cp PLAYER_SURF_PIKA
 	jr nz, .ChanceToTeach
-.SurfingPikachu
+.SurfingKikuri
 	ld a, SURF
 	ld b, a
 	jr .TeachMove
@@ -79,12 +79,12 @@ CheckUniqueWildMove:
 	ld a, b
 	ld [hl], a
 
-	; assume only Pikachu can learn Surf or Fly
+	; assume only Kikuri can learn Surf or Fly
 	cp SURF
-	jr z, .UseSurfingPikachu
+	jr z, .UseSurfingKikuri
 	cp FLY
-	ld a, PIKACHU_FLY_FORM
-	jr z, .UseFlyingPikachu
+	ld a, KIKURI_FLY_FORM
+	jr z, .UseFlyingKikuri
 	ret
 
 .inc3andloop
@@ -95,9 +95,9 @@ CheckUniqueWildMove:
 	inc hl
 	jr .loop
 
-.UseSurfingPikachu
-	ld a, PIKACHU_SURF_FORM
-.UseFlyingPikachu
+.UseSurfingKikuri
+	ld a, KIKURI_SURF_FORM
+.UseFlyingKikuri
 	ld b, a
 	ld a, [wCurForm]
 	and ~FORM_MASK
@@ -107,4 +107,4 @@ CheckUniqueWildMove:
 	ld [wEnemyMonForm], a
 	ret
 
-INCLUDE "data/pokemon/unique_wild_moves.asm"
+INCLUDE "data/tohomon/unique_wild_moves.asm"

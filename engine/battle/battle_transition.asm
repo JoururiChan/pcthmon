@@ -3,9 +3,9 @@ DoBattleTransition:
 	call UpdateSprites
 	call DelayFrame
 
-	ld de, .TrainerBattlePokeballTile
+	ld de, .TrainerBattleTohoballTile
 	ld hl, vTiles0 tile "<PHONE>"
-	lb bc, BANK(.TrainerBattlePokeballTile), 1
+	lb bc, BANK(.TrainerBattleTohoballTile), 1
 	call Request2bpp
 
 	ld b, 3
@@ -91,14 +91,14 @@ endc
 	ldh [hVBlank], a
 	jmp DelayFrame
 
-.TrainerBattlePokeballTile:
+.TrainerBattleTohoballTile:
 INCBIN "gfx/overworld/trainer_battle_pokeball_tile.2bpp"
 
 .BattleTransitionScenes
 	dw StartTrainerBattle_DetermineWhichAnimation ; 00
 
 	; Animation 1: cave
-	dw StartTrainerBattle_LoadPokeBallGraphics ; 01
+	dw StartTrainerBattle_LoadTohoBallGraphics ; 01
 	dw StartTrainerBattle_SetUpBGMap ; 02
 	dw StartTrainerBattle_Flash ; 03
 	dw StartTrainerBattle_Flash ; 04
@@ -108,7 +108,7 @@ INCBIN "gfx/overworld/trainer_battle_pokeball_tile.2bpp"
 	dw StartTrainerBattle_SineWave ; 08
 
 	; Animation 2: cave, stronger
-	dw StartTrainerBattle_LoadPokeBallGraphics ; 09
+	dw StartTrainerBattle_LoadTohoBallGraphics ; 09
 	dw StartTrainerBattle_SetUpBGMap ; 0a
 	dw StartTrainerBattle_Flash ; 0b
 	dw StartTrainerBattle_Flash ; 0c
@@ -118,7 +118,7 @@ INCBIN "gfx/overworld/trainer_battle_pokeball_tile.2bpp"
 	dw StartTrainerBattle_ZoomToBlack ; 0f
 
 	; Animation 3: no cave
-	dw StartTrainerBattle_LoadPokeBallGraphics ; 10
+	dw StartTrainerBattle_LoadTohoBallGraphics ; 10
 	dw StartTrainerBattle_SetUpBGMap ; 11
 	dw StartTrainerBattle_Flash ; 12
 	dw StartTrainerBattle_Flash ; 13
@@ -128,7 +128,7 @@ INCBIN "gfx/overworld/trainer_battle_pokeball_tile.2bpp"
 	dw StartTrainerBattle_SpinToBlack ; 17
 
 	; Animation 4: no cave, stronger
-	dw StartTrainerBattle_LoadPokeBallGraphics ; 18
+	dw StartTrainerBattle_LoadTohoBallGraphics ; 18
 	dw StartTrainerBattle_SetUpBGMap ; 19
 	dw StartTrainerBattle_Flash ; 1a
 	dw StartTrainerBattle_Flash ; 1b
@@ -143,7 +143,7 @@ INCBIN "gfx/overworld/trainer_battle_pokeball_tile.2bpp"
 StartTrainerBattle_DetermineWhichAnimation:
 ; The screen flashes a different number of
 ; times depending on the level of your lead
-; Pokemon relative to the opponent's.
+; Tohomon relative to the opponent's.
 	ld de, 0
 
 	ld a, [wOtherTrainerClass]
@@ -152,7 +152,7 @@ StartTrainerBattle_DetermineWhichAnimation:
 	farcall SetTrainerBattleLevel
 .wild
 
-; Get the first Pokemon in your party that isn't fainted.
+; Get the first Tohomon in your party that isn't fainted.
 	ld hl, wPartyMon1HP
 	ld bc, PARTYMON_STRUCT_LENGTH - 1
 .loop
@@ -515,7 +515,7 @@ StartTrainerBattle_SpeckleToBlack:
 	ld [hl], a
 	ret
 
-StartTrainerBattle_LoadPokeBallGraphics:
+StartTrainerBattle_LoadTohoBallGraphics:
 	xor a
 	ldh [hBGMapMode], a
 
@@ -582,7 +582,7 @@ StartTrainerBattle_LoadPokeBallGraphics:
 	call IsInByteArray
 	ld de, RocketTransition
 	jr c, .got_transition
-	ld de, PokeBallTransition
+	ld de, TohoBallTransition
 .got_transition
 	hlcoord 2, 1
 	ld b, SCREEN_WIDTH - 4
@@ -715,7 +715,7 @@ INCLUDE "gfx/overworld/black.pal"
 
 pusho b.X
 
-PokeBallTransition:
+TohoBallTransition:
 	bigdw %......XXXX......
 	bigdw %....XXXXXXXX....
 	bigdw %..XXXX....XXXX..

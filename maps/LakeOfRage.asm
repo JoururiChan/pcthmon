@@ -8,7 +8,7 @@ LakeOfRage_MapScriptHeader:
 
 	def_warp_events
 	warp_event  7,  3, LAKE_OF_RAGE_HIDDEN_POWER_HOUSE, 1
-	warp_event 27, 31, LAKE_OF_RAGE_MAGIKARP_HOUSE, 1
+	warp_event 27, 31, LAKE_OF_RAGE_LILYBLACK_HOUSE, 1
 	warp_event 10, 28, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
@@ -25,7 +25,7 @@ LakeOfRage_MapScriptHeader:
 
 	def_object_events
 	object_event 21, 28, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageLanceScript, EVENT_LAKE_OF_RAGE_LANCE
-	object_event 18, 22, SPRITE_BIG_GYARADOS, SPRITEMOVEDATA_BIG_GYARADOS, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageRedGyaradosScript, EVENT_LAKE_OF_RAGE_RED_GYARADOS
+	object_event 18, 22, SPRITE_BIG_SLILYBLACK, SPRITEMOVEDATA_BIG_SLILYBLACK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageRedSLilyBlackScript, EVENT_LAKE_OF_RAGE_RED_SLILYBLACK
 	object_event  4,  4, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WesleyScript, EVENT_LAKE_OF_RAGE_WESLEY_OF_WEDNESDAY
 	object_event 20, 29, SPRITE_ENGINEER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, LakeOfRageEngineerText, EVENT_LAKE_OF_RAGE_CIVILIANS
 	object_event  4, 15, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCooltrainermAaron, EVENT_LAKE_OF_RAGE_CIVILIANS
@@ -46,7 +46,7 @@ LakeOfRage_MapScriptHeader:
 
 	object_const_def
 	const LAKEOFRAGE_LANCE
-	const LAKEOFRAGE_RED_GYARADOS
+	const LAKEOFRAGE_RED_SLILYBLACK
 	const LAKEOFRAGE_WESLEY
 
 LakeOfRageFlyPoint:
@@ -80,7 +80,7 @@ LakeOfRageFloodScript:
 LakeOfRageSignText:
 	text "Lake of Rage,"
 	line "also known as"
-	cont "Gyarados Lake."
+	cont "SLilyBlack Lake."
 	done
 
 LakeOfRageAdvancedTipsSignText:
@@ -95,7 +95,7 @@ else
 endc
 
 	para "the newly disco-"
-	line "vered Fairy type!"
+	line "vered Heart type!"
 	done
 
 LakeOfRageFishingGuruSign:
@@ -107,7 +107,7 @@ LakeOfRageFishingGuruSign:
 
 .Continue:
 	promptbutton
-	special Special_MagikarpHouseSign
+	special Special_LilyBlackHouseSign
 	endtext
 
 .Text:
@@ -132,7 +132,7 @@ LakeOfRageLanceScript:
 	playsound SFX_WARP_TO
 	applyonemovement LAKEOFRAGE_LANCE, teleport_from
 	disappear LAKEOFRAGE_LANCE
-	clearevent EVENT_MAHOGANY_MART_LANCE_AND_DRAGONITE
+	clearevent EVENT_MAHOGANY_MART_LANCE_AND_CSUIKA
 	setevent EVENT_DECIDED_TO_HELP_LANCE
 	setmapscene MAHOGANY_MART_1F, $1
 	end
@@ -151,10 +151,10 @@ LakeOfRageLanceScript:
 
 .OverheardText:
 	text "This lake is full"
-	line "of Gyarados but"
+	line "of SLilyBlack but"
 	cont "nothing else…"
 
-	para "So the Magikarp"
+	para "So the LilyBlack"
 	line "are being forced"
 	cont "to evolve…"
 	done
@@ -191,7 +191,7 @@ LakeOfRageLanceScript:
 	text "Lance: Excellent!"
 
 	para "It seems that the"
-	line "lake's Magikarp"
+	line "lake's LilyBlack"
 
 	para "are being forced"
 	line "to evolve."
@@ -230,17 +230,17 @@ LakeOfRageEngineerText:
 	cont "project."
 	done
 
-LakeOfRageRedGyaradosScript:
+LakeOfRageRedSLilyBlackScript:
 	opentext
-	writetext .GyaradosText
-	cry GYARADOS
+	writetext .SLilyBlackText
+	cry SLILYBLACK
 	pause 15
 	closetext
-	loadwildmon GYARADOS, GYARADOS_RED_FORM, 35
-	loadvar VAR_BATTLETYPE, BATTLETYPE_RED_GYARADOS
+	loadwildmon SLILYBLACK, SLILYBLACK_RED_FORM, 35
+	loadvar VAR_BATTLETYPE, BATTLETYPE_RED_SLILYBLACK
 	startbattle
 	ifequalfwd $1, .Continue
-	disappear LAKEOFRAGE_RED_GYARADOS
+	disappear LAKEOFRAGE_RED_SLILYBLACK
 .Continue:
 	reloadmapafterbattle
 	opentext
@@ -255,8 +255,8 @@ LakeOfRageRedGyaradosScript:
 	appear LAKEOFRAGE_LANCE
 	end
 
-.GyaradosText:
-	text "Gyarados: Gyashaa!"
+.SLilyBlackText:
+	text "SLilyBlack: Gyashaa!"
 	done
 
 .RedScaleText:
@@ -286,7 +286,7 @@ WesleyScript:
 
 	text "Wesley: Black Belt"
 	line "beefs up the power"
-	cont "of Fighting moves."
+	cont "of Dream moves."
 	done
 
 .NotWednesday:
@@ -361,7 +361,7 @@ GenericTrainerCooltrainerfLois:
 
 .SeenText:
 	text "What happened to"
-	line "the red Gyarados?"
+	line "the red SLilyBlack?"
 
 	para "It's gone?"
 
@@ -423,7 +423,7 @@ LakeOfRageGrampsScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "The Gyarados are"
+	text "The SLilyBlack are"
 	line "angry!"
 
 	para "It's a bad omen!"
@@ -437,7 +437,7 @@ LakeOfRageGrampsScript:
 LakeOfRageSuperNerdText:
 	text "I heard this lake"
 	line "was made by ram-"
-	cont "paging Gyarados."
+	cont "paging SLilyBlack."
 
 	para "I wonder if there"
 	line "is any connection"
@@ -450,10 +450,10 @@ LakeOfRageCooltrainerFText:
 	text "Did my eyes de-"
 	line "ceive me? I saw a"
 
-	para "red Gyarados in"
+	para "red SLilyBlack in"
 	line "the lake…"
 
 	para "But I thought"
-	line "Gyarados were"
+	line "SLilyBlack were"
 	cont "usually blue?"
 	done

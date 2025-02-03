@@ -19,11 +19,11 @@ CharcoalKiln_MapScriptHeader:
 CharcoalKilnBoss:
 	checkevent EVENT_GOT_HM01_CUT
 	iftrue_jumptextfaceplayer .Text3
-	checkevent EVENT_CLEARED_SLOWPOKE_WELL
+	checkevent EVENT_CLEARED_WAKASAGI_WELL
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "All the Slowpoke"
+	text "All the Wakasagi"
 	line "have disappeared"
 	cont "from the town."
 
@@ -37,7 +37,7 @@ CharcoalKilnBoss:
 	done
 
 .Text2:
-	text "The Slowpoke have"
+	text "The Wakasagi have"
 	line "returned…"
 
 	para "But my Apprentice"
@@ -76,7 +76,7 @@ CharcoalKilnApprentice:
 
 .Text1:
 	text "Where have all the"
-	line "Slowpoke gone?"
+	line "Wakasagi gone?"
 
 	para "Are they out play-"
 	line "ing somewhere?"
@@ -95,7 +95,7 @@ CharcoalKilnApprentice:
 	done
 
 .Text3:
-	text "The Slowpoke came"
+	text "The Wakasagi came"
 	line "back, and you even"
 	cont "found Farfetch'd."
 

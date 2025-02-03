@@ -50,9 +50,9 @@ ENDM
 	special_bg_pal map,      FUCHSIA_GYM,                 PAL_SINGLE,    FuchsiaGymPalette
 	special_bg_pal map,      HAUNTED_RADIO_TOWER_2F,      PAL_SINGLE,    HauntedRadioTowerPalette
 	special_bg_pal map,      HAUNTED_RADIO_TOWER_3F,      PAL_SINGLE,    HauntedRadioTowerPalette
-	special_bg_pal map,      HAUNTED_RADIO_TOWER_4F,      PAL_SINGLE,    HauntedPokemonTowerPalette
-	special_bg_pal map,      HAUNTED_RADIO_TOWER_5F,      PAL_SINGLE,    HauntedPokemonTowerPalette
-	special_bg_pal map,      HAUNTED_RADIO_TOWER_6F,      PAL_SINGLE,    HauntedPokemonTowerPalette
+	special_bg_pal map,      HAUNTED_RADIO_TOWER_4F,      PAL_SINGLE,    HauntedTohomonTowerPalette
+	special_bg_pal map,      HAUNTED_RADIO_TOWER_5F,      PAL_SINGLE,    HauntedTohomonTowerPalette
+	special_bg_pal map,      HAUNTED_RADIO_TOWER_6F,      PAL_SINGLE,    HauntedTohomonTowerPalette
 	special_bg_pal map,      NAVEL_ROCK_INSIDE,           PAL_SINGLE,    NavelRockPalette
 	special_bg_pal map,      NAVEL_ROCK_ROOF,             PAL_TIMEOFDAY, NavelRockPalette
 	special_bg_pal map,      HIDDEN_TREE_GROTTO,          PAL_SINGLE,    HiddenTreeGrottoPalette
@@ -79,8 +79,8 @@ ENDM
 	special_bg_pal tileset,  TILESET_SHAMOUTI_ISLAND,     PAL_TIMEOFDAY, ShamoutiIslandPalette
 	special_bg_pal tileset,  TILESET_VALENCIA_ISLAND,     PAL_TIMEOFDAY, ValenciaIslandPalette
 	special_bg_pal tileset,  TILESET_FARAWAY_ISLAND,      PAL_TIMEOFDAY, FarawayIslandPalette
-	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   PokeCenterSpecialCase ; *
-	special_bg_pal tileset,  TILESET_POKECOM_CENTER,      PAL_SINGLE,    PokeComPalette
+	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   TohoCenterSpecialCase ; *
+	special_bg_pal tileset,  TILESET_POKECOM_CENTER,      PAL_SINGLE,    TohoComPalette
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
 	special_bg_pal tileset,  TILESET_GATE,                PAL_SINGLE,    GatePalette
 	special_bg_pal tileset,  TILESET_GAME_CORNER,         PAL_SINGLE,    GameCornerPalette
@@ -119,7 +119,7 @@ rept 8
 endr
 endc
 
-PokeComPalette:
+TohoComPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/pokecom_center.pal"
 else
@@ -311,7 +311,7 @@ endr
 	RGB_MONOCHROME_BLACK
 endc
 
-PokeCenterPalette:
+TohoCenterPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/pokecenter.pal"
 else
@@ -487,9 +487,9 @@ endr
 	RGB_MONOCHROME_BLACK
 endc
 
-HauntedPokemonTowerPalette:
+HauntedTohomonTowerPalette:
 if !DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/haunted_pokemon_tower.pal"
+INCLUDE "gfx/tilesets/haunted_tohomon_tower.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR_NIGHT

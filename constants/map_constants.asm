@@ -193,8 +193,8 @@ ENDM
 	map_const CINNABAR_VOLCANO_1F,                        14, 14 ; 13
 	map_const CINNABAR_VOLCANO_B1F,                       18, 18 ; 14
 	map_const CINNABAR_VOLCANO_B2F,                       14, 14 ; 15
-	map_const POKEMON_MANSION_1F,                         15, 14 ; 16
-	map_const POKEMON_MANSION_B1F,                        17, 16 ; 17
+	map_const TOHOMON_MANSION_1F,                         15, 14 ; 16
+	map_const TOHOMON_MANSION_B1F,                        17, 16 ; 17
 	map_const CINNABAR_LAB,                               16,  9 ; 18
 	map_const SCARY_CAVE_1F,                              20, 17 ; 19
 	map_const SCARY_CAVE_B1F,                             12, 12 ; 20
@@ -249,7 +249,7 @@ ENDM
 	map_const VIOLET_CITY,                                20, 18 ;  3
 	map_const VIOLET_MART,                                 6,  4 ;  4
 	map_const VIOLET_GYM,                                  5,  8 ;  5
-	map_const EARLS_POKEMON_ACADEMY,                       4,  8 ;  6
+	map_const EARLS_TOHOMON_ACADEMY,                       4,  8 ;  6
 	map_const VIOLET_NICKNAME_SPEECH_HOUSE,                4,  4 ;  7
 	map_const VIOLET_POKECENTER_1F,                        6,  4 ;  8
 	map_const VIOLET_CRUMIA_TRADE_HOUSE,                     4,  4 ;  9
@@ -303,7 +303,7 @@ ENDM
 	map_const VERMILION_CITY,                             20, 20 ;  3
 	map_const VERMILION_HOUSE_FISHING_SPEECH_HOUSE,        4,  4 ;  4
 	map_const VERMILION_POKECENTER_1F,                     6,  4 ;  5
-	map_const POKEMON_FAN_CLUB,                            5,  4 ;  6
+	map_const TOHOMON_FAN_CLUB,                            5,  4 ;  6
 	map_const VERMILION_MAGNET_TRAIN_SPEECH_HOUSE,         4,  4 ;  7
 	map_const VERMILION_MART,                              6,  4 ;  8
 	map_const VERMILION_HOUSE_CCHIYURIS_CAVE_SPEECH_HOUSE,  4,  4 ;  9
@@ -530,7 +530,7 @@ ENDM
 	map_const VIRIDIAN_POKECENTER_1F,                      6,  4 ; 11
 	map_const ROUTE_2_NUGGET_SPEECH_HOUSE,                 4,  4 ; 12
 	map_const ROUTE_2_GATE,                                5,  4 ; 13
-	map_const POKEMON_LEAGUE_GATE,                        11,  9 ; 14
+	map_const TOHOMON_LEAGUE_GATE,                        11,  9 ; 14
 	map_const VIRIDIAN_FOREST,                            19, 26 ; 15
 	map_const VIRIDIAN_FOREST_VIRIDIAN_GATE,               5,  4 ; 16
 	map_const VIRIDIAN_FOREST_PEWTER_GATE,                 5,  4 ; 17
@@ -570,7 +570,7 @@ ENDM
 	map_const ROUTE_5_UNDERGROUND_ENTRANCE,                4,  4 ; 13
 	map_const ROUTE_5_SAFFRON_CITY_GATE,                   5,  4 ; 14
 	map_const ROUTE_5_CLEANSE_TAG_SPEECH_HOUSE,            4,  4 ; 15
-	map_const POKEMON_TRAINER_FAN_CLUB,                    6,  9 ; 16
+	map_const TOHOMON_TRAINER_FAN_CLUB,                    6,  9 ; 16
 	map_const SAFFRON_HITMONTOP_KID_HOUSE,                 4,  4 ; 17
 	map_const SAFFRON_BOOK_SPEECH_HOUSE,                   4,  4 ; 18
 	map_const SAFFRON_ORRE_SPEECH_HOUSE,                   4,  4 ; 19
@@ -587,7 +587,7 @@ ENDM
 	map_const GUIDE_GENTS_HOUSE,                           4,  4 ;  8
 	map_const CHERRYGROVE_EVOLUTION_SPEECH_HOUSE,          4,  4 ;  9
 	map_const ROUTE_30_BERRY_SPEECH_HOUSE,                 4,  4 ; 10
-	map_const MR_POKEMONS_HOUSE,                           4,  4 ; 11
+	map_const MR_TOHOMONS_HOUSE,                           4,  4 ; 11
 	map_const ROUTE_31_VIOLET_GATE,                        5,  4 ; 12
 
 	newgroup                                                     ; 27

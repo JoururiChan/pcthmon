@@ -38,7 +38,7 @@ DisplayCaughtContestMonStats:
 	ld [hli], a
 	ld a, [wContestMonForm]
 	ld [hl], a
-	call GetPokemonName
+	call GetTohomonName
 	ld de, wStringBuffer1
 	hlcoord 1, 2
 	rst PlaceString

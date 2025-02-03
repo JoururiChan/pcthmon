@@ -277,7 +277,7 @@ BattleAnimCommands::
 	dw BattleAnimCmd_IncBGEffect
 	dw BattleAnimCmd_BattlerGFX_1Row
 	dw BattleAnimCmd_BattlerGFX_2Row
-	dw BattleAnimCmd_CheckPokeball
+	dw BattleAnimCmd_CheckTohoball
 	dw BattleAnimCmd_Recollect
 	dw BattleAnimCmd_RaiseSub
 	dw BattleAnimCmd_DropSub
@@ -810,8 +810,8 @@ BattleAnimCmd_BattlerGFX_2Row:
 	jr nz, .LoadHead
 	ret
 
-BattleAnimCmd_CheckPokeball:
-	farcall GetPokeBallWobble
+BattleAnimCmd_CheckTohoball:
+	farcall GetTohoBallWobble
 	ld a, c
 	ld [wBattleAnimVar], a
 	ret

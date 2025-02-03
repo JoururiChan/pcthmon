@@ -119,7 +119,7 @@ BuenaPhoneScript_Random2:
 	sjumpfwd .finish
 
 .seven
-	writetext BuenaPhoneEKikuriFanClubText
+	writetext BuenaPhoneKikuriFanClubText
 	sjumpfwd .finish
 
 .eight
@@ -131,7 +131,7 @@ BuenaPhoneScript_Random2:
 	sjumpfwd .finish
 
 .ten
-	writetext BuenaPhoneStarterPokemonText
+	writetext BuenaPhoneStarterTohomonText
 	sjumpfwd .finish
 
 .eleven

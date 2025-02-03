@@ -30,7 +30,7 @@ MACRO breed_struct
 \1PP::             ds NUM_MOVES
 \1EggCycles::
 \1Happiness::      db
-\1PokerusStatus::  db
+\1TohorusStatus::  db
 \1CaughtData::
 \1CaughtTime::
 \1CaughtBall::     db
@@ -118,7 +118,7 @@ MACRO savemon_struct
 \1Form::           db
 \1PPUps::          db
 \1Happiness::      db
-\1PokerusStatus::  db
+\1TohorusStatus::  db
 \1CaughtData::
 \1CaughtTime::
 \1CaughtBall::     db

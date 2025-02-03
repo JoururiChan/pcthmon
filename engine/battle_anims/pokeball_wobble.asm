@@ -1,6 +1,6 @@
-GetPokeBallWobble:
-; Returns whether a Poke Ball will wobble in the catch animation.
-; Whether a Pokemon is caught is determined beforehand.
+GetTohoBallWobble:
+; Returns whether a Toho Ball will wobble in the catch animation.
+; Whether a Tohomon is caught is determined beforehand.
 	ld a, BANK(wBuffer2)
 	call StackCallInWRAMBankA
 .Function:
@@ -45,7 +45,7 @@ GetPokeBallWobble:
 
 .ok
 	; Check how many wobbles we've done so far. If this would've been our 4th,
-	; we've successfully caught the Pokémon.
+	; we've successfully caught the Tohomon.
 	ld c, 0 ; shake
 	ld a, [wBuffer2]
 	inc a

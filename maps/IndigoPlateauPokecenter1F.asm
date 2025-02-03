@@ -1,4 +1,4 @@
-IndigoPlateauPokecenter1F_MapScriptHeader:
+IndigoPlateauTohocenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -15,7 +15,7 @@ IndigoPlateauPokecenter1F_MapScriptHeader:
 	coord_event 15,  4, 0, PlateauRivalBattleTrigger2
 
 	def_bg_events
-	bg_event 13,  7, BGEVENT_READ, PokemonJournalGiovanniScript
+	bg_event 13,  7, BGEVENT_READ, TohomonJournalGiovanniScript
 
 	def_object_events
 	object_event 14,  9, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
@@ -24,7 +24,7 @@ IndigoPlateauPokecenter1F_MapScriptHeader:
 	pc_nurse_event  9, 7
 	mart_clerk_event  1,  9, MARTTYPE_STANDARD, MART_INDIGO_PLATEAU
 	object_event  6,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, IndigoPlateauTeleportGuyScript, EVENT_TELEPORT_GUY
-	pokemon_event  5,  9, ABRA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, IndigoPlateauAbraText, EVENT_TELEPORT_GUY
+	tohomon_event  5,  9, ABRA, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, IndigoPlateauAbraText, EVENT_TELEPORT_GUY
 	object_event  5, 12, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, IndigoPlateauCooltrainermText, -1
 
 	object_const_def
@@ -322,7 +322,7 @@ PlateauRivalLeavesMovement:
 	step_down
 	step_end
 
-PokemonJournalGiovanniScript:
+TohomonJournalGiovanniScript:
 	setflag ENGINE_READ_GIOVANNI_JOURNAL
 	jumpthistext
 
@@ -389,7 +389,7 @@ IndigoPlateauYellowScript:
 	applymovement INDIGOPLATEAUPOKECENTER1F_YELLOW, .DownMovement
 	playsound SFX_EXIT_BUILDING
 	disappear INDIGOPLATEAUPOKECENTER1F_YELLOW
-	setevent EVENT_GOT_A_POKEMON_FROM_YELLOW
+	setevent EVENT_GOT_A_TOHOMON_FROM_YELLOW
 	waitsfx
 	end
 

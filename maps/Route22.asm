@@ -4,7 +4,7 @@ Route22_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  3,  5, POKEMON_LEAGUE_GATE, 1
+	warp_event  3,  5, TOHOMON_LEAGUE_GATE, 1
 
 	def_coord_events
 

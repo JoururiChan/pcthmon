@@ -42,12 +42,12 @@ TrainerPicPointers::
 	dba HikerPic
 	dba GruntmPic
 	dba GruntfPic
-	dba PokefanmPic
-	dba PokefanfPic
+	dba TohofanmPic
+	dba TohofanfPic
 	dba OfficermPic
 	dba OfficerfPic
 	dba NursePic
-	dba PokemaniacPic
+	dba TohomaniacPic
 	dba CosplayerPic
 	dba SuperNerdPic
 	dba LassPic
@@ -156,9 +156,9 @@ TrainerPicPointers::
 	dba ReiPic
 	assert_table_length NUM_TRAINER_CLASSES
 	dba OmastarFossilPic
-	dba KabutopsFossilPic
-	dba AerodactylFossilPic
-	dba CuboneArmorPic
+	dba LunasapsFossilPic
+	dba AYuyukoFossilPic
+	dba ChenArmorPic
 	dba MeteoritePic
 	dba SilhouettePic
 	assert_table_length NUM_TRAINER_CLASS_PICS

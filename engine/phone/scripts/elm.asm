@@ -1,32 +1,32 @@
 ElmPhoneScript1:
 	readvar VAR_SPECIALPHONECALL
 	ifequalfwd SPECIALCALL_POKERUS, .pokerus
-	checkevent EVENT_SHOWED_TOGEPI_TO_ELM
+	checkevent EVENT_SHOWED_CKONGARA_TO_ELM
 	iftruefwd .discovery
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_CKONGARA_EGG_FROM_ELMS_AIDE
 	iffalsefwd .next
-	checkevent EVENT_TOGEPI_HATCHED
+	checkevent EVENT_CKONGARA_HATCHED
 	iftruefwd .egghatched
 .next
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_CKONGARA_EGG_FROM_ELMS_AIDE
 	iftruefwd .eggunhatched
 	checkevent EVENT_ELMS_AIDE_IN_LAB
 	iftruefwd .assistant
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftruefwd .checkingegg
-	checkevent EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
+	checkevent EVENT_ELM_CALLED_ABOUT_STOLEN_TOHOMON
 	iftruefwd .stolen
-	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
-	iftruefwd .sawmrpokemon
+	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_TOHOMON
+	iftruefwd .sawmrtohomon
 	farwritetext ElmPhoneStartText
 	end
 
-.sawmrpokemon
-	farwritetext ElmPhoneSawMrPokemonText
+.sawmrtohomon
+	farwritetext ElmPhoneSawMrTohomonText
 	end
 
 .stolen
-	farwritetext ElmPhonePokemonStolenText
+	farwritetext ElmPhoneTohomonStolenText
 	sjumpfwd ElmEvolutionScript
 
 .checkingegg
@@ -43,7 +43,7 @@ ElmPhoneScript1:
 
 .egghatched
 	farwritetext ElmPhoneEggHatchedText
-	setevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
+	setevent EVENT_TOLD_ELM_ABOUT_CKONGARA_OVER_THE_PHONE
 	sjumpfwd ElmEvolutionScript
 
 .discovery
@@ -57,7 +57,7 @@ ElmPhoneScript1:
 	sjumpfwd ElmEvolutionScript
 
 .pokerus
-	farwritetext ElmPhonePokerusText
+	farwritetext ElmPhoneTohorusText
 	specialphonecall SPECIALCALL_NONE
 	end
 
@@ -88,21 +88,21 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveCrit
 	dw .EvolveParty
 	dw .EvolveEgg
-	dw .EvolvePikachu
-	dw .EvolveGloom
-	dw .EvolvePoliwhirl
-	dw .EvolveSlowpokePlain
-	dw .EvolveSlowpokeGalarian
-	dw .EvolveMagneton
-	dw .EvolveExeggcute
-	dw .EvolveKoffing
-	dw .EvolveCubone
-	dw .EvolveScyther
-	dw .EvolveEevee
+	dw .EvolveKikuri
+	dw .EvolveCKana
+	dw .EvolveKurumi
+	dw .EvolveWakasagiPlain
+	dw .EvolveWakasagiGalarian
+	dw .EvolveCirno
+	dw .EvolveHKoakuma
+	dw .EvolveCMeiling
+	dw .EvolveChen
+	dw .EvolveTLyrica
+	dw .EvolveTLyrica
 	dw .EvolveMimeJr
-	dw .EvolveUrsaring
+	dw .EvolveCTenshi
 	dw .EvolveStantler
-	dw .EvolveDunsparce
+	dw .EvolveCMomiji
 	assert_table_length NUM_EVOLVE_METHODS
 .EvolveNone:
 	farwritetext ElmPhoneEvoText_None
@@ -155,43 +155,43 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveEgg:
 	farwritetext ElmPhoneEvoText_Egg
 	end
-.EvolvePikachu:
-	farwritetext ElmPhoneEvoText_Pikachu
+.EvolveKikuri:
+	farwritetext ElmPhoneEvoText_Kikuri
 	end
-.EvolveGloom:
-	farwritetext ElmPhoneEvoText_Gloom
+.EvolveCKana:
+	farwritetext ElmPhoneEvoText_CKana
 	end
-.EvolvePoliwhirl:
-	farwritetext ElmPhoneEvoText_Poliwhirl
+.EvolveKurumi:
+	farwritetext ElmPhoneEvoText_Kurumi
 	end
-.EvolveSlowpokePlain:
-	farwritetext ElmPhoneEvoText_SlowpokePlain
+.EvolveWakasagiPlain:
+	farwritetext ElmPhoneEvoText_WakasagiPlain
 	end
-.EvolveSlowpokeGalarian:
-	farwritetext ElmPhoneEvoText_SlowpokeGalarian
+.EvolveWakasagiGalarian:
+	farwritetext ElmPhoneEvoText_WakasagiGalarian
 	end
-.EvolveMagneton:
-	farwritetext ElmPhoneEvoText_Magneton
+.EvolveCirno:
+	farwritetext ElmPhoneEvoText_Cirno
 	end
-.EvolveExeggcute:
-	farwritetext ElmPhoneEvoText_Exeggcute
+.EvolveHKoakuma:
+	farwritetext ElmPhoneEvoText_HKoakuma
 	end
-.EvolveKoffing:
-	farwritetext ElmPhoneEvoText_Koffing
+.EvolveCMeiling:
+	farwritetext ElmPhoneEvoText_CMeiling
 	end
-.EvolveCubone:
-	farwritetext ElmPhoneEvoText_Cubone
+.EvolveChen:
+	farwritetext ElmPhoneEvoText_Chen
 	end
-.EvolveScyther:
-	farwritetext ElmPhoneEvoText_Scyther
+.EvolveTLyrica:
+	farwritetext ElmPhoneEvoText_TLyrica
 	end
-.EvolveEevee:
-	farwritetext ElmPhoneEvoText_Eevee
+.EvolveTLyrica:
+	farwritetext ElmPhoneEvoText_TLyrica
 	end
 .EvolveMimeJr:
 	farwritetext ElmPhoneEvoText_MimeJr
 	end
-.EvolveUrsaring:
+.EvolveCTenshi:
 	getitemname MOON_STONE, STRING_BUFFER_4
 	farwritetext ElmPhoneEvoText_Item
 	farwritetext ElmPhoneEvoText_AncientSinnoh
@@ -200,10 +200,10 @@ ElmPhoneScript_EvolutionMethodsTable:
 	farwritetext ElmPhoneEvoText_Stantler
 	farwritetext ElmPhoneEvoText_AncientSinnoh
 	end
-.EvolveDunsparce:
+.EvolveCMomiji:
 	loadmem wStringBuffer4, 32
 	farwritetext ElmPhoneEvoText_Level
-	farwritetext ElmPhoneEvoText_DunsparceSegments
+	farwritetext ElmPhoneEvoText_CMomijiSegments
 	end
 
 ElmPhone_GetFirstMonEvolutionData:
@@ -239,7 +239,7 @@ EvolutionPhone_GetFirstNonEggPartyMon:
 	ld d, a ; level
 	push de
 	; wStringBuffer3 = species name
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, wStringBuffer1
 	ld de, wStringBuffer3
 	ld bc, MON_NAME_LENGTH
@@ -255,20 +255,20 @@ ElmPhoneScript2:
 	ifequalfwd SPECIALCALL_WEIRDBROADCAST, .rocket
 	ifequalfwd SPECIALCALL_SSTICKET, .gift
 	ifequalfwd SPECIALCALL_MASTERBALL, .gift
-	farwritetext ElmPhonePokerusText
+	farwritetext ElmPhoneTohorusText
 	specialphonecall SPECIALCALL_NONE
 	end
 
 .disaster
 	farwritetext ElmPhoneDisasterText
 	specialphonecall SPECIALCALL_NONE
-	setevent EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
+	setevent EVENT_ELM_CALLED_ABOUT_STOLEN_TOHOMON
 	end
 
 .assistant
 	farwritetext ElmPhoneEggAssistantText
 	specialphonecall SPECIALCALL_NONE
-	clearevent EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
+	clearevent EVENT_ELMS_AIDE_IN_VIOLET_TOHOMON_CENTER
 	setevent EVENT_ELMS_AIDE_IN_LAB
 	end
 

@@ -15,11 +15,11 @@ HiddenTreeGrotto_MapScriptHeader:
 	bg_event  4,  4, BGEVENT_GROTTOITEM, HiddenGrottoHiddenItemScript
 
 	def_object_events
-	object_event  4,  4, SPRITE_GROTTO_MON, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HiddenGrottoPokemonScript, EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
+	object_event  4,  4, SPRITE_GROTTO_MON, SPRITEMOVEDATA_TOHOMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HiddenGrottoTohomonScript, EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	object_event  4,  4, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, HiddenGrottoItemScript, EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
 
 	object_const_def
-	const HIDDENTREEGROTTO_POKEMON
+	const HIDDENTREEGROTTO_TOHOMON
 	const HIDDENTREEGROTTO_ITEM
 
 HiddenGrottoCallback:
@@ -27,12 +27,12 @@ HiddenGrottoCallback:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_3
 	special InitializeHiddenGrotto
-	ifequalfwd GROTTO_POKEMON, .pokemon
+	ifequalfwd GROTTO_TOHOMON, .tohomon
 	ifequalfwd GROTTO_ITEM, .item
 	ifequalfwd GROTTO_HIDDEN_ITEM, .hidden_item
 	endcallback
 
-.pokemon
+.tohomon
 	clearevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	endcallback
 
@@ -51,12 +51,12 @@ HiddenTreeGrottoTileCallback:
 .end
 	endcallback
 
-HiddenGrottoPokemonScript:
+HiddenGrottoTohomonScript:
 	special EmptiedHiddenGrotto
 	loadgrottomon
 	loadvar VAR_BATTLETYPE, BATTLETYPE_GROTTO
 	startbattle
-	disappear HIDDENTREEGROTTO_POKEMON
+	disappear HIDDENTREEGROTTO_TOHOMON
 	reloadmapafterbattle
 	end
 

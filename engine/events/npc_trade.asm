@@ -159,7 +159,7 @@ DoNPCTrade:
 	ld [wCurPartySpecies], a
 	xor a
 	ld [wMonType], a
-	ld [wPokemonWithdrawDepositParameter], a
+	ld [wTohomonWithdrawDepositParameter], a
 	predef RemoveMonFromParty
 	predef TryAddMonToParty
 
@@ -292,7 +292,7 @@ GetTradeMonName:
 	ld a, c
 	ld [hli], a
 	ld [hl], b
-	call GetBasePokemonName
+	call GetBaseTohomonName
 	ld hl, wStringBuffer1
 	pop de
 	ret

@@ -38,7 +38,7 @@ RunBattleTowerTrainer:
 
 	predef StartBattle
 
-	farcall LoadPokemonData
+	farcall LoadTohomonData
 	farcall HealParty
 	ld a, [wBattleResult]
 	and a
@@ -108,7 +108,7 @@ Special_BattleTower_CommitChallengeResult:
 
 .do_it
 	; Reload party data, which might have been replaced with rentals.
-	farcall LoadPokemonData
+	farcall LoadTohomonData
 
 	; Award BP depending on how many trainers we defeated.
 
@@ -608,7 +608,7 @@ Special_BattleTower_BeginChallenge:
 	xor a
 	ld [sBT_CurTrainerAndSwap], a
 
-	; Blank previously used opponent Pokémon
+	; Blank previously used opponent Tohomon
 	ld a, -1
 	ld hl, sBT_OTMonParties
 	ld bc, BATTLETOWER_PARTYDATA_SIZE * BATTLETOWER_SAVEDPARTIES
@@ -760,7 +760,7 @@ BT_GetTrainerIndex:
 	ld a, [hl]
 	jmp CloseSRAM
 
-Special_BattleTower_LoadOpponentTrainerAndPokemonsWithOTSprite:
+Special_BattleTower_LoadOpponentTrainerAndTohomonsWithOTSprite:
 	; Load sprite of the opponent trainer
 	; because s/he is chosen randomly and appears out of nowhere
 	call BT_GetCurTrainerIndex
@@ -785,7 +785,7 @@ INCLUDE "data/trainers/sprites.asm"
 
 BT_SetPlayerOT:
 ; Interprets the selected party mons for entering and populates wOTParty
-; with the chosen Pokémon from the player. Used for 2 things: legality
+; with the chosen Tohomon from the player. Used for 2 things: legality
 ; checking and to fix the party order according to player choices.
 	; Number of party mons
 	ld a, [wBT_PartySelectCounter]
@@ -879,8 +879,8 @@ BT_LegalityCheck:
 ; both the player team when entering after copying to OT data, and the
 ; generated AI team. Returns z if the team is legal, otherwise nz and the error
 ; in e (1: 2+ share species, 2: 2+ share item)
-; Species Clause: more than 1 Pokémon are the same species
-; Item Clause: more than 1 Pokémon holds the same item
+; Species Clause: more than 1 Tohomon are the same species
+; Item Clause: more than 1 Tohomon holds the same item
 	ld a, [wOTPartyCount]
 	ld e, a
 

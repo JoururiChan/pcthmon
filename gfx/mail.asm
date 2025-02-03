@@ -4,7 +4,7 @@ INCBIN "gfx/mail/morph_mail_divider.1bpp"
 BlueSkyMailGrassGFX:
 INCBIN "gfx/mail/grass.1bpp"
 
-PortraitMailSmallPokeballGFX:
+PortraitMailSmallTohoballGFX:
 INCBIN "gfx/mail/small_pokeball.1bpp"
 
 MorphMailBorderGFX:
@@ -62,7 +62,7 @@ INCBIN "gfx/mail/csuika.1bpp"
 MailSentretGFX:
 INCBIN "gfx/mail/cwriggle.1bpp"
 
-PortraitMailLargePokeballGFX:
+PortraitMailLargeTohoballGFX:
 INCBIN "gfx/mail/large_pokeball.1bpp"
 
 MailEKotohimeGFX:

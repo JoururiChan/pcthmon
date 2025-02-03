@@ -3,7 +3,7 @@ CreditsScript:
 ; Clear the banner.
 	db CREDITS_CLEAR
 
-; Pokemon Crystal Version Staff
+; Tohomon Crystal Version Staff
 	db                STAFF, 1
 
 	db CREDITS_WAIT, 8
@@ -64,7 +64,7 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db    POKEMON_ANIMATION, 1
+	db    TOHOMON_ANIMATION, 1
 	db     HIRONOBU_YOSHIDA, 2
 	db          JUN_OKUTANI, 3
 

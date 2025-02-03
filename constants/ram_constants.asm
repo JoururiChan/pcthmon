@@ -74,7 +74,7 @@ DEF NUM_FRAMES EQU const_value
 	const_def 3
 	const RUNNING_SHOES  ; 3
 	const CLOCK_FORMAT   ; 4
-	const POKEDEX_UNITS  ; 5
+	const TOHODEX_UNITS  ; 5
 	const BATTLE_SWITCH  ; 6
 	const BATTLE_PREDICT ; 7
 DEF FONT_MASK EQU %00000111
@@ -87,7 +87,7 @@ DEF FONT_MASK EQU %00000111
 	const SERIF_FONT   ; %100
 	const CHICAGO_FONT ; %101
 	const MICR_FONT    ; %110
-	const UNOWN_FONT   ; %111
+	const HINA_FONT   ; %111
 DEF NUM_FONTS EQU const_value
 
 ; wInitialOptions::
@@ -153,7 +153,7 @@ DEF LAST_12_SPRITE_OAM_STRUCTS_RESERVED_F EQU 1
 DEF TEXT_STATE_F                          EQU 6
 DEF SCRIPTED_MOVEMENT_STATE_F             EQU 7
 
-; wPokemonWithdrawDepositParameter::
+; wTohomonWithdrawDepositParameter::
 DEF PC_WITHDRAW       EQU 0
 DEF PC_DEPOSIT        EQU 1
 DEF REMOVE_PARTY      EQU 0
@@ -233,8 +233,8 @@ DEF SPAWN_LEAF  EQU 2
 
 ; wStatusFlags::
 	const_def
-	const STATUSFLAGS_POKEDEX_F                  ; 0
-	const STATUSFLAGS_UNOWN_DEX_F                ; 1
+	const STATUSFLAGS_TOHODEX_F                  ; 0
+	const STATUSFLAGS_HINA_DEX_F                ; 1
 	const STATUSFLAGS_FLASH_F                    ; 2
 	const STATUSFLAGS_CAUGHT_POKERUS_F           ; 3
 	const STATUSFLAGS_ROCKET_SIGNAL_F            ; 4
@@ -289,7 +289,7 @@ DEF NUM_JOHTO_BADGES EQU const_value
 DEF NUM_KANTO_BADGES EQU const_value
 DEF NUM_BADGES EQU NUM_JOHTO_BADGES + NUM_KANTO_BADGES
 
-; wPokegearFlags::
+; wTohogearFlags::
 	const_def
 	const POKEGEAR_MAP_CARD_F   ; 0
 	const POKEGEAR_RADIO_CARD_F ; 1
@@ -355,62 +355,62 @@ DEF DAYCARELADY_ACTIVE_F         EQU 7
 ; wHiddenGrottoContents::
 	const_def
 	const GROTTO_UNDEFINED
-	const GROTTO_POKEMON
+	const GROTTO_TOHOMON
 	const GROTTO_ITEM
 	const GROTTO_HIDDEN_ITEM
 	const GROTTO_EMPTY
 
-; wPokemonJournals::
+; wTohomonJournals::
 	const_def
-	const FALKNER_JOURNAL ; Violet Pokémon Center
-	const BUGSY_JOURNAL ; Azalea Pokémon Center
-	const WHITNEY_JOURNAL ; Goldenrod PokéCom Center
-	const MORTY_JOURNAL ; Ecruteak Pokémon Center
-	const CHUCK_JOURNAL ; Cianwood Pokémon Center
-	const JASMINE_JOURNAL ; Olivine Pokémon Center
-	const PRYCE_JOURNAL ; Mahogany Pokémon Center
-	const CLAIR_JOURNAL ; Blackthorn Pokémon Center
-	const BROCK_JOURNAL ; Pewter Pokémon Center
-	const MISTY_JOURNAL ; Cerulean Pokémon Center
-	const LT_SURGE_JOURNAL ; Vermilion Pokémon Center
-	const ERIKA_JOURNAL ; Celadon Pokémon Center
-	const JANINE_JOURNAL ; Fuchsia Pokémon Center
-	const SABRINA_JOURNAL ; Saffron Pokémon Center
-	const BLAINE_JOURNAL ; Cinnabar Pokémon Center
-	const BLUE_JOURNAL ; Viridian Pokémon Center
+	const FALKNER_JOURNAL ; Violet Tohomon Center
+	const BUGSY_JOURNAL ; Azalea Tohomon Center
+	const WHITNEY_JOURNAL ; Goldenrod TohoCom Center
+	const MORTY_JOURNAL ; Ecruteak Tohomon Center
+	const CHUCK_JOURNAL ; Cianwood Tohomon Center
+	const JASMINE_JOURNAL ; Olivine Tohomon Center
+	const PRYCE_JOURNAL ; Mahogany Tohomon Center
+	const CLAIR_JOURNAL ; Blackthorn Tohomon Center
+	const BROCK_JOURNAL ; Pewter Tohomon Center
+	const MISTY_JOURNAL ; Cerulean Tohomon Center
+	const LT_SURGE_JOURNAL ; Vermilion Tohomon Center
+	const ERIKA_JOURNAL ; Celadon Tohomon Center
+	const JANINE_JOURNAL ; Fuchsia Tohomon Center
+	const SABRINA_JOURNAL ; Saffron Tohomon Center
+	const BLAINE_JOURNAL ; Cinnabar Tohomon Center
+	const BLUE_JOURNAL ; Viridian Tohomon Center
 	const WILL_JOURNAL ; Mahogany Souvenir Shop
 	const KOGA_JOURNAL ; Safari Zone rest houses
-	const BRUNO_JOURNAL ; Pokémon Trainer Fan Club
-	const KAREN_JOURNAL ; Mt. Moon Pokémon Center
-	const LANCE_JOURNAL ; Silver Cave Pokémon Center
-	const RED_JOURNAL ; Cherrygrove Pokémon Center
-	const GREEN_JOURNAL ; Pokémon Fan Club
+	const BRUNO_JOURNAL ; Tohomon Trainer Fan Club
+	const KAREN_JOURNAL ; Mt. Moon Tohomon Center
+	const LANCE_JOURNAL ; Silver Cave Tohomon Center
+	const RED_JOURNAL ; Cherrygrove Tohomon Center
+	const GREEN_JOURNAL ; Tohomon Fan Club
 	const PROF_OAK_JOURNAL ; Red's house, Blue's house
 	const PROF_ELM_JOURNAL ; Kris's house, Lyra's house
 	const PROF_IVY_JOURNAL ; Ivy's lab
 	const PROF_WESTWOOD_JOURNAL ; Kurt's house
-	const GIOVANNI_JOURNAL ; Indigo Plateau Pokémon Center
-	const LORELEI_JOURNAL ; Shamouti Island Pokémon Center
-	const AGATHA_JOURNAL ; Rock Tunnel Pokémon Center
+	const GIOVANNI_JOURNAL ; Indigo Plateau Tohomon Center
+	const LORELEI_JOURNAL ; Shamouti Island Tohomon Center
+	const AGATHA_JOURNAL ; Rock Tunnel Tohomon Center
 	const BILL_JOURNAL ; Bill's house
-	const KURT_JOURNAL ; Union Cave Pokémon Center
-	const MR_FUJI_JOURNAL ; Lavender Town Pokémon Center
-	const PROF_WILLOW_JOURNAL ; Snowtop Mountain Pokémon Center
+	const KURT_JOURNAL ; Union Cave Tohomon Center
+	const MR_FUJI_JOURNAL ; Lavender Town Tohomon Center
+	const PROF_WILLOW_JOURNAL ; Snowtop Mountain Tohomon Center
 	const STEVEN_JOURNAL ; Pewter Museum
 	const CYNTHIA_JOURNAL ; Pewter Museum (TODO: move to Goldenrod Museum)
-	const WALKER_JOURNAL ; Earl's Pokémon Academy
+	const WALKER_JOURNAL ; Earl's Tohomon Academy
 	const KIYO_JOURNAL ; Viridian schoolhouse
 	const PALMER_JOURNAL ; Battle Tower
 	const THORTON_JOURNAL ; Battle Factory
-DEF NUM_POKEMON_JOURNALS EQU const_value
+DEF NUM_TOHOMON_JOURNALS EQU const_value
 
-; wUnlockedUnowns ::
+; wUnlockedHinas ::
 	const_def
-	const UNLOCKED_UNOWNS_A_TO_J_F
-	const UNLOCKED_UNOWNS_K_TO_Q_F
-	const UNLOCKED_UNOWNS_R_TO_W_F
-	const UNLOCKED_UNOWNS_X_TO_QUESTION_F
-DEF NUM_UNLOCKED_UNOWN_SETS EQU const_value
+	const UNLOCKED_HINAS_A_TO_J_F
+	const UNLOCKED_HINAS_K_TO_Q_F
+	const UNLOCKED_HINAS_R_TO_W_F
+	const UNLOCKED_HINAS_X_TO_QUESTION_F
+DEF NUM_UNLOCKED_HINA_SETS EQU const_value
 
 ; wLuckyNumberShowFlag::
 DEF LUCKYNUMBERSHOW_GAME_OVER_F EQU 0
@@ -459,8 +459,8 @@ DEF LUCKYNUMBERSHOW_GAME_OVER_F EQU 0
 
 ; wWeeklyFlags::
 	const_def
-	const WEEKLYFLAGS_MT_MOON_SQUARE_CLEFAIRY_F           ; 0
-	const WEEKLYFLAGS_UNION_CAVE_LAPRAS_F                 ; 1
+	const WEEKLYFLAGS_MT_MOON_SQUARE_CMEIRA_F           ; 0
+	const WEEKLYFLAGS_UNION_CAVE_CLYRICA_F                 ; 1
 	const WEEKLYFLAGS_GOLDENROD_UNDERGROUND_GOT_HAIRCUT_F ; 2
 	const WEEKLYFLAGS_GOLDENROD_MALL_5F_HAPPINESS_EVENT_F ; 3
 	const WEEKLYFLAGS_TEA_IN_BLUES_HOUSE_F                ; 4
@@ -472,8 +472,8 @@ DEF LUCKYNUMBERSHOW_GAME_OVER_F EQU 0
 	const_def
 	const SWARMFLAGS_BUENAS_PASSWORD_2_F         ; 0
 	const SWARMFLAGS_GOLDENROD_DEPT_STORE_SALE_F ; 1
-	const SWARMFLAGS_DUNSPARCE_SWARM_F           ; 2
-	const SWARMFLAGS_YANMA_SWARM_F               ; 3
+	const SWARMFLAGS_CMOMIJI_SWARM_F           ; 2
+	const SWARMFLAGS_AEIKI_SWARM_F               ; 3
 
 ; wCelebiEvent::
 DEF CELEBIEVENT_FOREST_IS_RESTLESS_F EQU 2
@@ -485,20 +485,20 @@ DEF CELEBIEVENT_FOREST_IS_RESTLESS_F EQU 2
 	const PLAYER_CAUGHT_RAIKOU_F   ; 2
 	const PLAYER_CAUGHT_ENTEI_F    ; 3
 	const PLAYER_CAUGHT_SUICUNE_F  ; 4
-	const PLAYER_CAUGHT_ARTICUNO_F ; 5
-	const PLAYER_CAUGHT_ZAPDOS_F   ; 6
-	const PLAYER_CAUGHT_MOLTRES_F  ; 7
+	const PLAYER_CAUGHT_RAN_F ; 5
+	const PLAYER_CAUGHT_TRAN_F   ; 6
+	const PLAYER_CAUGHT_CYUKARI_F  ; 7
 
 ; wPlayerCaught2::
 	const_def
-	const PLAYER_CAUGHT_MEW_F       ; 0
-	const PLAYER_CAUGHT_MEWTWO_F    ; 1
+	const PLAYER_CAUGHT_TSUIKA_F       ; 0
+	const PLAYER_CAUGHT_TSUIKATWO_F    ; 1
 	const PLAYER_CAUGHT_CELEBI_F    ; 2
-	const PLAYER_CAUGHT_SUDOWOODO_F ; 3
+	const PLAYER_CAUGHT_CMEDICINE_F ; 3
 
 DEF CAUGHT_DUO_MASK    EQU (1 << PLAYER_CAUGHT_HO_OH_F) | (1 << PLAYER_CAUGHT_LUGIA_F)
 DEF CAUGHT_BEASTS_MASK EQU (1 << PLAYER_CAUGHT_RAIKOU_F) | (1 << PLAYER_CAUGHT_ENTEI_F) | (1 << PLAYER_CAUGHT_SUICUNE_F)
-DEF CAUGHT_BIRDS_MASK  EQU (1 << PLAYER_CAUGHT_ARTICUNO_F) | (1 << PLAYER_CAUGHT_ZAPDOS_F) | (1 << PLAYER_CAUGHT_MOLTRES_F)
+DEF CAUGHT_BIRDS_MASK  EQU (1 << PLAYER_CAUGHT_RAN_F) | (1 << PLAYER_CAUGHT_TRAN_F) | (1 << PLAYER_CAUGHT_CYUKARI_F)
 
 ; wPalFlags
 	const_def

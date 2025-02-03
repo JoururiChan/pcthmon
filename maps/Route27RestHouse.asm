@@ -27,7 +27,7 @@ Route27RestHouseGranny:
 	writetext .HeardIntroText
 .Continue
 	promptbutton
-	special GetFirstPokemonHappiness
+	special GetFirstTohomonHappiness
 	ifgreater $95, .Loyal
 	jumpthisopenedtext
 

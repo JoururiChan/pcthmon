@@ -10,7 +10,7 @@ GetTrademonFrontpic:
 
 AnimateTrademonFrontpic:
 	ld a, [wOTTrademonSpecies]
-	call IsAPokemon
+	call IsATohomon
 	ret c
 	farcall ShowOTTrademonStats
 	ld a, [wOTTrademonSpecies]

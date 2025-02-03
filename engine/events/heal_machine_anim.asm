@@ -1,10 +1,10 @@
 HealMachineAnim:
-	; If you have no Pokemon, don't change the buffer.  This can lead to some glitchy effects if you have no Pokemon.
+	; If you have no Tohomon, don't change the buffer.  This can lead to some glitchy effects if you have no Tohomon.
 	ld a, [wPartyCount]
 	and a
 	ret z
 	; The location of the healing machine relative to the player is stored in hScriptVar.
-	; 0: Up and left (Pokemon Center)
+	; 0: Up and left (Tohomon Center)
 	; 1: Left (Elm's Lab)
 	; 2: Up (Hall of Fame)
 	ldh a, [hScriptVar]
@@ -41,11 +41,11 @@ HealMachineAnim:
 	jr .jumptable_loop
 
 .Pointers:
-	dw .Pokecenter
+	dw .Tohocenter
 	dw .ElmLab
 	dw .HallOfFame
 
-.Pokecenter:
+.Tohocenter:
 	db 0, 1, 3, 5
 .ElmLab:
 	db 0, 1, 3, 5

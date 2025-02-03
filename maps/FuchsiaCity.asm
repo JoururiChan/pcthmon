@@ -35,9 +35,9 @@ FuchsiaCity_MapScriptHeader:
 
 	def_object_events
 	object_event 23, 18, SPRITE_CAMPER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityYoungsterText, -1
-	object_event 10,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityPokefanMText, -1
+	object_event 10,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityTohofanMText, -1
 	object_event 16, 13, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityTeacherText, -1
-	object_event 28,  8, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityPokefanFText, -1
+	object_event 28,  8, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityTohofanFText, -1
 	object_event 22, 13, SPRITE_CGENGETSU_BACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptext, SafariZoneOfficeClosedSignText, -1
 	object_event 31, 27, SPRITE_CGENGETSU_BACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptext, HouseForSaleSignText, -1
 	cuttree_event 16, 19, EVENT_FUCHSIA_CITY_CUT_TREE
@@ -55,7 +55,7 @@ FuchsiaCityYoungsterText:
 	line "Fuchsia's Gym."
 	done
 
-FuchsiaCityPokefanMText:
+FuchsiaCityTohofanMText:
 	text "Koga's daughter"
 	line "succeeded him as"
 
@@ -79,7 +79,7 @@ FuchsiaCityTeacherText:
 	line "though."
 	done
 
-FuchsiaCityPokefanFText:
+FuchsiaCityTohofanFText:
 	text "When the Safari"
 	line "Zone Warden left,"
 

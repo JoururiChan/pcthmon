@@ -53,7 +53,7 @@ BattleBGMap:
 	jmp SetDefaultBGPAndOBP
 
 ; Gen VI money loss code by TPP Anniversary Crystal 251
-; https://github.com/TwitchPlaysPokemon/tppcrystal251pub/blob/public/main.asm
+; https://github.com/TwitchPlaysTohomon/tppcrystal251pub/blob/public/main.asm
 LoseMoney:
 	xor a
 	ld [wSpinning], a

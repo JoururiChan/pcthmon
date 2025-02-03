@@ -138,7 +138,7 @@ CheckPartyMove:
 	scf
 	ret
 
-CheckForSurfingEKikuri:
+CheckForSurfingKikuri:
 	lb de, SURF, HM_SURF
 	call CheckPartyMove
 	jr c, .no
@@ -161,7 +161,7 @@ CheckForSurfingEKikuri:
 	ldh [hScriptVar], a
 	ret
 
-FieldMovePokepicScript:
+FieldMoveTohopicScript:
 	reanchormap
 	pokepic 0
 	cry 0
@@ -284,7 +284,7 @@ Script_CutFromMenu:
 	callasm PrepareOverworldMove
 	farwritetext _UseCutText
 	closetext
-	scall FieldMovePokepicScript
+	scall FieldMoveTohopicScript
 	callasm CutDownGrass
 	endtext
 
@@ -353,7 +353,7 @@ Script_CutTree:
 	farwritetext _UseCutText
 	closetext
 	waitsfx
-	scall FieldMovePokepicScript
+	scall FieldMoveTohopicScript
 	setflag ENGINE_AUTOCUT_ACTIVE
 	disappear -2
 	callasm CutDownTree
@@ -414,7 +414,7 @@ OWFlash:
 .CheckUseFlash:
 ; Flash
 	push hl
-	farcall SpecialAerodactylChamber
+	farcall SpecialAYuyukoChamber
 	pop hl
 	jr c, .useflash
 	ld a, [wTimeOfDayPalset]
@@ -438,7 +438,7 @@ Script_UseFlash:
 	refreshmap
 	special UpdateTimePals
 	callasm PrepareOverworldMove
-	scall FieldMovePokepicScript
+	scall FieldMoveTohopicScript
 	opentext
 	writetext UseFlashTextScript
 	callasm BlindingFlash
@@ -533,7 +533,7 @@ UsedSurfScript:
 	closetext
 
 	setflag ENGINE_AUTOSURF_ACTIVE
-	scall FieldMovePokepicScript
+	scall FieldMoveTohopicScript
 
 AutoSurfScript:
 	readmem wBuffer2
@@ -772,7 +772,7 @@ FlyFunction:
 	callasm LoadWeatherPal
 	special UpdateTimePals
 	callasm PrepareOverworldMove
-	scall FieldMovePokepicScript
+	scall FieldMoveTohopicScript
 	callasm .SetWeatherFlyFlag
 	callasm FlyFromAnim
 	farscall Script_AbortBugContest
@@ -868,7 +868,7 @@ Script_UsedWaterfall:
 	farwritetext _UseWaterfallText
 	waitbutton
 	closetext
-	scall FieldMovePokepicScript
+	scall FieldMoveTohopicScript
 	setflag ENGINE_AUTOWATERFALL_ACTIVE
 Script_AutoWaterfall:
 	playsound SFX_BUBBLE_BEAM
@@ -989,7 +989,7 @@ EscapeRopeOrDig:
 	ret
 
 .escaperope
-	farcall SpecialOmanyteChamber
+	farcall SpecialCYuyukoChamber
 	ld hl, .UsedEscapeRopeScript
 	call QueueScript
 	ld a, $81
@@ -1028,7 +1028,7 @@ EscapeRopeOrDig:
 	farwritetext _UseDigText
 	waitbutton
 	closetext
-	scall FieldMovePokepicScript
+	scall FieldMoveTohopicScript
 
 .UsedDigOrEscapeRopeScript:
 	playsound SFX_WARP_TO
@@ -1167,7 +1167,7 @@ Script_UsedStrength:
 	farwritetext _UseStrengthText
 	waitbutton
 	closetext
-	scall FieldMovePokepicScript
+	scall FieldMoveTohopicScript
 	opentext
 	farwritetext _MoveBoulderText
 	endtext
@@ -1296,7 +1296,7 @@ Script_UsedWhirlpool:
 	callasm PrepareOverworldMove
 	farwritetext _UseWhirlpoolText
 	closetext
-	scall FieldMovePokepicScript
+	scall FieldMoveTohopicScript
 	setflag ENGINE_AUTOWHIRLPOOL_ACTIVE
 	waitsfx
 
@@ -1405,7 +1405,7 @@ HeadbuttScript:
 	farwritetext _UseHeadbuttText
 	closetext
 
-	scall FieldMovePokepicScript
+	scall FieldMoveTohopicScript
 	setflag ENGINE_HEADBUTT_ACTIVE
 
 AutoHeadbuttScript:
@@ -1521,7 +1521,7 @@ RockSmashScript:
 	farwritetext _UseRockSmashText
 	closetext
 	waitsfx
-	scall FieldMovePokepicScript
+	scall FieldMoveTohopicScript
 	setflag ENGINE_ROCK_SMASH_ACTIVE
 AutoRockSmashScript:
 	playsound SFX_STRENGTH
@@ -1734,10 +1734,10 @@ Script_GotABite:
 	callasm Fishing_CheckFacingUp
 	iffalsefwd .NotFacingUp
 	applymovement PLAYER, Movement_BiteFacingUp
-	sjumpfwd .FightTheHookedPokemon
+	sjumpfwd .FightTheHookedTohomon
 .NotFacingUp:
 	applymovement PLAYER, Movement_BiteNotFacingUp
-.FightTheHookedPokemon:
+.FightTheHookedTohomon:
 	pause 40
 	applymovement PLAYER, Movement_RestoreRod
 	farwritetext _RodBiteText

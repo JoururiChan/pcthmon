@@ -35,7 +35,7 @@ Route22PastCelebiEventScript:
 	showtext Route22PastLyraIlexForestDisappearedText
 	applymovement ROUTE22PAST_LYRA, Route22Past_LyraStepDownMovementData
 	turnobject PLAYER, LEFT
-	showtext Route22PastLyraPokeGearText
+	showtext Route22PastLyraTohoGearText
 	applymovement ROUTE22PAST_LYRA, Route22Past_LyraStepDownTurnHeadRigthMovementData
 	turnobject PLAYER, DOWN
 	showtext Route22PastLyraExplainsTimeTravelText
@@ -226,7 +226,7 @@ Route22PastLyraIlexForestDisappearedText:
 	cont "else…?"
 	done
 
-Route22PastLyraPokeGearText:
+Route22PastLyraTohoGearText:
 	text "Lyra: <PLAYER>, my"
 	line "#gear radio"
 

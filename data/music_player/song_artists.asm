@@ -24,7 +24,7 @@ SongArtists:
 	li "LevusBevus"
 	li "GACT"
 	li "GRonnoc"
-	li "Cat333Pokemon"
+	li "Cat333Tohomon"
 	li "NotFroggestSpirit"
 	li "Toby Fox"
 	li "ShinkoNetCavy,      ShockSlayer"

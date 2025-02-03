@@ -10,24 +10,24 @@ Frame = namedtuple('Frame', ('bitmask', 'offsets'))
 def chunk(s, n):
 	return [s[i:i+n] for i in range(0, len(s), n)]
 
-# Process each Pokémon's animation data
+# Process each Tohomon's animation data
 
-for front_name in iglob('gfx/pokemon/*/front.2bpp'):
-	mon_name = front_name[len('gfx/pokemon/'):-len('/front.2bpp')]
+for front_name in iglob('gfx/tohomon/*/front.2bpp'):
+	mon_name = front_name[len('gfx/tohomon/'):-len('/front.2bpp')]
 
 	print(mon_name)
 
 	# Get associated file names
 
-	bitmask_name = 'gfx/pokemon/%s/bitmask.asm' % mon_name
+	bitmask_name = 'gfx/tohomon/%s/bitmask.asm' % mon_name
 	assert isfile(bitmask_name), 'no bitmask.asm for %s' % mon_name
 
-	frames_name = 'gfx/pokemon/%s/frames.asm' % mon_name
+	frames_name = 'gfx/tohomon/%s/frames.asm' % mon_name
 	assert isfile(frames_name), 'no frames.asm for %s' % mon_name
 
-	base_name = 'data/pokemon/base_stats/%s.asm' % mon_name
+	base_name = 'data/tohomon/base_stats/%s.asm' % mon_name
 	if not isfile(base_name):
-		base_name = 'data/pokemon/base_stats/%s.asm' % mon_name.split('_', 1)[0]
+		base_name = 'data/tohomon/base_stats/%s.asm' % mon_name.split('_', 1)[0]
 	assert isfile(base_name), 'no base data for %s' % mon_name
 
 	# Read dimensions from base data
@@ -127,7 +127,7 @@ for front_name in iglob('gfx/pokemon/*/front.2bpp'):
 
 	# Output film strip 2bpp
 
-	filmstrip_name = 'gfx/pokemon/%s/front.w%d.2bpp' % (mon_name, dimension * 8)
+	filmstrip_name = 'gfx/tohomon/%s/front.w%d.2bpp' % (mon_name, dimension * 8)
 	with open(filmstrip_name, 'wb') as file:
 		for offset_map in offset_maps:
 			for row in offset_map:

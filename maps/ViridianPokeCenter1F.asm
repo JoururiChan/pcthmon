@@ -1,4 +1,4 @@
-ViridianPokeCenter1F_MapScriptHeader:
+ViridianTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,15 +11,15 @@ ViridianPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalBlueScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalBlueScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  2,  4, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ViridianPokeCenter1FCooltrainermScript, -1
-	object_event  8,  4, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, ViridianPokeCenter1FCooltrainerfText, -1
-	object_event  3,  6, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, ViridianPokeCenter1FBugCatcherText, -1
+	object_event  2,  4, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ViridianTohoCenter1FCooltrainermScript, -1
+	object_event  8,  4, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, ViridianTohoCenter1FCooltrainerfText, -1
+	object_event  3,  6, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, ViridianTohoCenter1FBugCatcherText, -1
 
-PokemonJournalBlueScript:
+TohomonJournalBlueScript:
 	setflag ENGINE_READ_BLUE_JOURNAL
 	jumpthistext
 
@@ -36,7 +36,7 @@ PokemonJournalBlueScript:
 	line "House of Souls."
 	done
 
-ViridianPokeCenter1FCooltrainermScript:
+ViridianTohoCenter1FCooltrainermScript:
 	checkevent EVENT_BLUE_IN_CINNABAR
 	iftrue_jumptextfaceplayer .BlueText
 	jumpthistextfaceplayer
@@ -57,7 +57,7 @@ ViridianPokeCenter1FCooltrainermScript:
 	line "to join them!"
 	done
 
-ViridianPokeCenter1FCooltrainerfText:
+ViridianTohoCenter1FCooltrainerfText:
 	text "I heard that the"
 	line "Gym in Cinnabar is"
 	cont "gone."
@@ -67,7 +67,7 @@ ViridianPokeCenter1FCooltrainerfText:
 	cont "the Gym Leader."
 	done
 
-ViridianPokeCenter1FBugCatcherText:
+ViridianTohoCenter1FBugCatcherText:
 	text "My dream is to be-"
 	line "come a Gym Leader."
 	done

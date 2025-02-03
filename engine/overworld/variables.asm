@@ -30,7 +30,7 @@ VarActionTable:
 	dw wBlueCardBalance ; in de
 	dw wBuenasPassword ; in de
 	dw wKenjiBreakTimer in_stringbuffer2
-	dw Var_CountPokemonJournals ; execute
+	dw Var_CountTohomonJournals ; execute
 	dw Var_CountTrainerStars ; execute
 	dw Var_Landmark ; execute
 	dw wPlayerGender ; in de
@@ -109,9 +109,9 @@ Var_BattleResult:
 	and ~BATTLERESULT_BITMASK
 	jr _Var_loadstringbuffer2
 
-Var_CountPokemonJournals:
-	ld hl, wPokemonJournals
-	ld b, wPokemonJournalsEnd - wPokemonJournals
+Var_CountTohomonJournals:
+	ld hl, wTohomonJournals
+	ld b, wTohomonJournalsEnd - wTohomonJournals
 	call CountSetBits
 	ld a, [wNumSetBits]
 	jr _Var_loadstringbuffer2
@@ -137,10 +137,10 @@ Var_CountTrainerStars:
 	farcall Tohodex_CountSeenOwn
 	ld hl, wTempDexOwn
 	ld a, [hli]
-	cp HIGH(NUM_POKEMON)
+	cp HIGH(NUM_TOHOMON)
 	jr c, .nostar3
 	ld a, [hl]
-	cp LOW(NUM_POKEMON)
+	cp LOW(NUM_TOHOMON)
 	jr c, .nostar3
 	inc b
 .nostar3

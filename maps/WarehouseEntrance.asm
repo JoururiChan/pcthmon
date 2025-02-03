@@ -33,8 +33,8 @@ WarehouseEntrance_MapScriptHeader:
 	object_event 13, 25, SPRITE_PIERS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PiersScript, -1
 	object_event  3, 31, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSupernerdEric, -1
 	object_event  4,  9, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerSupernerdTeru, -1
-	object_event  1, 27, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerPokemaniacIssac, -1
-	object_event  0,  6, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPokemaniacDonald, -1
+	object_event  1, 27, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohomaniacIssac, -1
+	object_event  0,  6, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacDonald, -1
 	object_event  8, 27, SPRITE_COSPLAYER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerCosplayerClara, -1
 	object_event 14, 25, SPRITE_PIDGEOTTO_SIDE, SPRITEMOVEDATA_MICROPHONE, 0, 0, -1, -1, PAL_NPC_EMOTE_GRAY, OBJECTTYPE_COMMAND, jumptextfaceplayer, PiersMicrophoneText, -1
 	keyitemball_event  5, 24, COIN_CASE, EVENT_WAREHOUSE_ENTRANCE_COIN_CASE
@@ -155,8 +155,8 @@ GenericTrainerSupernerdTeru:
 	line "type of #mon."
 	done
 
-GenericTrainerPokemaniacIssac:
-	generictrainer POKEMANIAC, ISSAC, EVENT_BEAT_POKEMANIAC_ISSAC, PokemaniacIssacSeenText, PokemaniacIssacBeatenText
+GenericTrainerTohomaniacIssac:
+	generictrainer POKEMANIAC, ISSAC, EVENT_BEAT_POKEMANIAC_ISSAC, TohomaniacIssacSeenText, TohomaniacIssacBeatenText
 
 	text "Your #mon will"
 	line "like you more if"
@@ -165,8 +165,8 @@ GenericTrainerPokemaniacIssac:
 	line "haircuts."
 	done
 
-GenericTrainerPokemaniacDonald:
-	generictrainer POKEMANIAC, DONALD, EVENT_BEAT_POKEMANIAC_DONALD, PokemaniacDonaldSeenText, PokemaniacDonaldBeatenText
+GenericTrainerTohomaniacDonald:
+	generictrainer POKEMANIAC, DONALD, EVENT_BEAT_POKEMANIAC_DONALD, TohomaniacDonaldSeenText, TohomaniacDonaldBeatenText
 
 	text "Are you making a"
 	line "#dex? Here's a"
@@ -608,7 +608,7 @@ SupernerdTeruBeatenText:
 	text "Ow, ow, ow!"
 	done
 
-PokemaniacIssacSeenText:
+TohomaniacIssacSeenText:
 	text "My #mon just"
 	line "got a haircut!"
 
@@ -616,11 +616,11 @@ PokemaniacIssacSeenText:
 	line "strong it is!"
 	done
 
-PokemaniacIssacBeatenText:
+TohomaniacIssacBeatenText:
 	text "Aiyeeee!"
 	done
 
-PokemaniacDonaldSeenText:
+TohomaniacDonaldSeenText:
 	text "I think you have"
 	line "some rare #mon"
 	cont "with you."
@@ -628,7 +628,7 @@ PokemaniacDonaldSeenText:
 	para "Let me see them!"
 	done
 
-PokemaniacDonaldBeatenText:
+TohomaniacDonaldBeatenText:
 	text "Gaah! I lost!"
 	line "That makes me mad!"
 	done

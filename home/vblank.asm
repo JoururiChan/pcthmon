@@ -1,6 +1,6 @@
 ; VBlank is the interrupt responsible for updating VRAM.
 
-; In Pokemon Crystal, VBlank has been hijacked to act as the
+; In Tohomon Crystal, VBlank has been hijacked to act as the
 ; main loop. After time-sensitive graphics operations have been
 ; performed, joypad input and sound functions are executed.
 

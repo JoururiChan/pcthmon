@@ -10,9 +10,9 @@ SafariZoneNorthRestHouse_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  4,  1, BGEVENT_READ, PokemonJournalKogaScript
-	bg_event  5,  1, BGEVENT_READ, PokemonJournalKogaScript
-	bg_event  6,  1, BGEVENT_READ, PokemonJournalKogaScript
-	bg_event  7,  1, BGEVENT_READ, PokemonJournalKogaScript
+	bg_event  4,  1, BGEVENT_READ, TohomonJournalKogaScript
+	bg_event  5,  1, BGEVENT_READ, TohomonJournalKogaScript
+	bg_event  6,  1, BGEVENT_READ, TohomonJournalKogaScript
+	bg_event  7,  1, BGEVENT_READ, TohomonJournalKogaScript
 
 	def_object_events

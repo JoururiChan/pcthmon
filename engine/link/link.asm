@@ -274,7 +274,7 @@ Gen2ToGen2LinkComms:
 	pop af
 	ld [wOptions2], a
 
-	farcall LoadPokemonData
+	farcall LoadTohomonData
 	jmp ExitLinkCommunications
 
 .ready_to_trade
@@ -711,7 +711,7 @@ PlaceTradePartnerNamesAndParty:
 	push hl
 	ld a, c
 	ldh [hProduct], a
-	call GetPokemonName
+	call GetTohomonName
 	pop hl
 	rst PlaceString
 	pop de
@@ -1166,7 +1166,7 @@ LinkTrade_TradeStatsMenu:
 	ld a, [hl]
 .got_ot_species
 	ld [wNamedObjectIndex], a
-	call GetPokemonName
+	call GetTohomonName
 	hlcoord 0, 12
 	lb bc, 4, 18
 	call LinkTextbox
@@ -1341,7 +1341,7 @@ LinkTrade:
 	ld a, [hl]
 	and SPECIESFORM_MASK
 	ld [wNamedObjectIndex+1], a
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, wStringBuffer1
 	ld de, wBufferTrademonNickname
 	ld bc, MON_NAME_LENGTH
@@ -1360,7 +1360,7 @@ LinkTrade:
 	ld a, [hl]
 .got_ot_species
 	ld [wNamedObjectIndex], a
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, .TradeThisForThat
 	bccoord 1, 14
 	call PlaceWholeStringInBoxAtOnce
@@ -1580,7 +1580,7 @@ LinkTrade:
 	ld [wCurTradePartyMon], a
 
 	xor a ; REMOVE_PARTY
-	ld [wPokemonWithdrawDepositParameter], a
+	ld [wTohomonWithdrawDepositParameter], a
 	predef RemoveMonFromParty
 	ld a, [wPartyCount]
 	dec a
@@ -1623,7 +1623,7 @@ LinkTrade:
 	ld a, [wPartyCount]
 	dec a
 	ld [wCurPartyMon], a
-	farcall EvolvePokemon
+	farcall EvolveTohomon
 	call ClearScreen
 	call LoadTradeScreenGFX
 	call SetTradeRoomBGPals
@@ -2315,7 +2315,7 @@ PerformLinkChecks:
 	ldh [rIE], a
 	pop af
 	ldh [rIF], a
-	ld e, MUSIC_POKEMON_CENTER
+	ld e, MUSIC_TOHOMON_CENTER
 	jmp PlayMusic
 
 .SkipPreambleBytes
@@ -2594,7 +2594,7 @@ DetermineLinkBattleResult:
 .BothSides_CheckNumberMonsAtFullHealth:
 	ld hl, wPartyMon1HP
 	call .CheckFaintedOrFullHealth
-	jr nz, .finish ; we have a pokemon that's neither fainted nor at full health
+	jr nz, .finish ; we have a tohomon that's neither fainted nor at full health
 	ld hl, wOTPartyMon1HP
 	call .CheckFaintedOrFullHealth
 	ld e, $1
@@ -2604,7 +2604,7 @@ DetermineLinkBattleResult:
 	ld hl, wOTPartyMon1HP
 	call .CheckFaintedOrFullHealth
 	ld e, $0
-	ret nz ; we both have pokemon that are neither fainted nor at full health
+	ret nz ; we both have tohomon that are neither fainted nor at full health
 	ld e, $2
 	ld a, $1
 	and a

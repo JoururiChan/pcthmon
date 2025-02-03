@@ -150,7 +150,7 @@ IlexForestFarfetchdScript:
 .Position1:
 	faceplayer
 	opentext
-	writetext Text_ItsTheMissingPokemon
+	writetext Text_ItsTheMissingTohomon
 	promptbutton
 	writetext Text_Kwaaaa
 	cry CMAI
@@ -843,7 +843,7 @@ IlexForestApprenticeAfterText:
 	cont "a Badge."
 	done
 
-Text_ItsTheMissingPokemon:
+Text_ItsTheMissingTohomon:
 	text "It's the missing"
 	line "#mon!"
 	done

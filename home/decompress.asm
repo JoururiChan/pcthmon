@@ -28,7 +28,7 @@ Decompress::
 	ret
 
 _Decompress:
-; Pokemon Crystal uses an lz variant for compression.
+; Tohomon Crystal uses an lz variant for compression.
 ; This is mainly (but not necessarily) used for graphics.
 
 ; This function decompresses lz-compressed data from hl to de.

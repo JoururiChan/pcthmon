@@ -28,16 +28,16 @@ InitializeHiddenGrotto::
 	and a
 	jr nz, .Done
 
-; first grotto always has a Pokémon
+; first grotto always has a Tohomon
 	eventflagcheck EVENT_SAW_FIRST_HIDDEN_GROTTO
-	jr z, .RandomPokemon
+	jr z, .RandomTohomon
 
 ; choose random grotto contents
-; 20% Pokémon, 40% item, 40% hidden item
+; 20% Tohomon, 40% item, 40% hidden item
 	ld a, 5
 	call RandomRange
 	and a
-	jr z, .RandomPokemon
+	jr z, .RandomTohomon
 	srl a
 	jr c, .RandomItem
 .RandomHiddenItem:
@@ -47,9 +47,9 @@ InitializeHiddenGrotto::
 	ld c, a
 	jr .StoreContent
 
-.RandomPokemon:
+.RandomTohomon:
 	eventflagset EVENT_SAW_FIRST_HIDDEN_GROTTO
-	ld hl, HiddenGrottoPokemonIndexes
+	ld hl, HiddenGrottoTohomonIndexes
 	call GetHiddenGrottoTableEntry
 	ld hl, HiddenGrottoData + GROTTODATA_MON1SPECIES
 .mon_loop
@@ -62,7 +62,7 @@ InitializeHiddenGrotto::
 .got_mon
 	call GetHiddenGrottoDataMember
 	ld a, [hli]
-	ld d, GROTTO_POKEMON
+	ld d, GROTTO_TOHOMON
 	ld c, a
 	ld b, [hl]
 	jr .StoreContent

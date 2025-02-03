@@ -1,4 +1,4 @@
-; Pokémon R/S/E - Dewford Town
+; Tohomon R/S/E - Dewford Town
 ; Demixed by ShantyTown
 ; https://github.com/huderlem/pokestyle-music-devamps/blob/master/music/hoenn_dewford_town.asm
 

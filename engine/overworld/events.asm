@@ -475,7 +475,7 @@ CheckTimeEvents:
 
 .do_daily
 	farcall CheckDailyResetTimer
-	farcall CheckPokerusTick
+	farcall CheckTohorusTick
 	farcall CheckPhoneCall
 	ret c
 
@@ -569,7 +569,7 @@ ObjectEventTypeArray:
 	dw .itemball ; OBJECTTYPE_ITEMBALL
 	dw .trainer  ; OBJECTTYPE_TRAINER
 	dw .trainer  ; OBJECTTYPE_GENERICTRAINER
-	dw .pokemon  ; OBJECTTYPE_POKEMON
+	dw .tohomon  ; OBJECTTYPE_TOHOMON
 	dw .command  ; OBJECTTYPE_COMMAND
 	assert_table_length NUM_OBJECT_TYPES
 
@@ -601,7 +601,7 @@ ObjectEventTypeArray:
 	scf
 	ret
 
-.pokemon:
+.tohomon:
 	ld hl, MAPOBJECT_RADIUS
 	add hl, bc
 	ld a, [hl]
@@ -932,7 +932,7 @@ CountStep:
 	inc [hl]
 	ld hl, wStepCount
 	inc [hl]
-	; Every 256 steps, increase the happiness of all your Pokemon.
+	; Every 256 steps, increase the happiness of all your Tohomon.
 	jr nz, .skip_happiness
 
 	farcall StepHappiness
@@ -949,10 +949,10 @@ CountStep:
 	jr nz, .hatch
 
 .skip_egg
-	; Increase the EXP of (both) DayCare Pokemon by 1.
+	; Increase the EXP of (both) DayCare Tohomon by 1.
 	farcall DayCareStep
 
-	; Every four steps, deal damage to all Poisoned Pokemon
+	; Every four steps, deal damage to all Poisoned Tohomon
 	ld hl, wPoisonStepCount
 	ld a, [hl]
 	cp 4

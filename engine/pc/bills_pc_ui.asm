@@ -68,14 +68,14 @@ _BillsPC:
 	ld a, [wPartyCount]
 	and a
 	ret nz
-	ld hl, .Text_GottaHavePokemon
+	ld hl, .Text_GottaHaveTohomon
 	call MenuTextboxBackup
 	scf
 	ret
 
-.Text_GottaHavePokemon:
+.Text_GottaHaveTohomon:
 	; You gotta have #MON to call!
-	text_far _PCGottaHavePokemonText
+	text_far _PCGottaHaveTohomonText
 	text_end
 
 BillsPC_LoadUI:
@@ -205,7 +205,7 @@ UseBillsPC:
 	ld a, 1
 	ldh [rVBK], a
 
-	; Pokepic attributes
+	; Tohopic attributes
 	hlcoord 0, 0, wAttrmap
 	lb bc, 7, 7
 	ld a, 2
@@ -1095,11 +1095,11 @@ _GetCursorMon:
 	ld a, [wTempMonSpecies]
 .egg
 	farcall GetMonNormalOrShinyPalettePointer
-	ld de, wBillsPC_PokepicPal
+	ld de, wBillsPC_TohopicPal
 	push de
 	ld b, 4
 .loop
-	ld a, BANK(PokemonPalettes)
+	ld a, BANK(TohomonPalettes)
 	call GetFarByte
 	inc hl
 	ld [de], a
@@ -1152,7 +1152,7 @@ _GetCursorMon:
 	hlcoord 8, 1
 	ld a, "/"
 	ld [hli], a
-	call GetPokemonName
+	call GetTohomonName
 	ld de, wStringBuffer1
 	rst PlaceString
 
@@ -1182,7 +1182,7 @@ _GetCursorMon:
 	jr z, .not_shiny
 	ld [hl], $43
 .not_shiny
-	ld a, [wTempMonPokerusStatus]
+	ld a, [wTempMonTohorusStatus]
 	and POKERUS_MASK
 	inc hl
 	jr z, .did_pokerus
@@ -2148,7 +2148,7 @@ BillsPC_Moves:
 	ld hl, .CantCheckEggMoves
 	jmp nz, BillsPC_PrintText
 	call BillsPC_PrepareTransistion
-	farcall _ManagePokemonMoves
+	farcall _ManageTohomonMoves
 	call BillsPC_MoveCursorAfterStatScreen
 	jr BillsPC_ReturnFromTransistion
 

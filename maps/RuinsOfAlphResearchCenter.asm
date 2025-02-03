@@ -29,7 +29,7 @@ RuinsOfAlphResearchCenter_MapScriptHeader:
 	const RUINSOFALPHRESEARCHCENTER_SCIENTIST3
 
 RuinsofAlphResearchCenterTrigger1:
-	sdefer RuinsOfAlphResearchCenterGetUnownDexScript
+	sdefer RuinsOfAlphResearchCenterGetHinaDexScript
 RuinsofAlphResearchCenterTrigger0:
 	end
 
@@ -43,11 +43,11 @@ RuinsOfAlphResearchCenterScientistCallback:
 	appear RUINSOFALPHRESEARCHCENTER_SCIENTIST3
 	endcallback
 
-RuinsOfAlphResearchCenterGetUnownDexScript:
+RuinsOfAlphResearchCenterGetHinaDexScript:
 	applymovement RUINSOFALPHRESEARCHCENTER_SCIENTIST3, RuinsOfAlphResearchCenterApproachesComputerMovement
 	playsound SFX_BOOT_PC
 	pause 60
-	playsound SFX_SWITCH_POKEMON
+	playsound SFX_SWITCH_TOHOMON
 	pause 30
 	playsound SFX_TALLY
 	pause 30
@@ -60,7 +60,7 @@ RuinsOfAlphResearchCenterGetUnownDexScript:
 	writetext RuinsOfAlphResearchCenterDexUpgradedText
 	playsound SFX_ITEM
 	waitsfx
-	setflag ENGINE_UNOWN_DEX
+	setflag ENGINE_HINA_DEX
 	writetext RuinsOfAlphResearchCenterScientist3Text
 	waitbutton
 	closetext
@@ -74,8 +74,8 @@ RuinsOfAlphResearchCenterScientist3Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_CLIMAX_DONE
 	iftruefwd .Conclusion
-	readvar VAR_UNOWNCOUNT
-	ifequalfwd NUM_UNOWN, .PrinterAvailable
+	readvar VAR_HINACOUNT
+	ifequalfwd NUM_HINA, .PrinterAvailable
 	jumpopenedtext RuinsOfAlphResearchCenterScientist3Text
 
 .Conclusion:
@@ -84,12 +84,12 @@ RuinsOfAlphResearchCenterScientist3Script:
 .PrinterAvailable:
 	writetext RuinsOfAlphResearchCenterScientist3_PrinterAvailable
 	promptbutton
-	setevent EVENT_DECO_UNOWN_DOLL
-	writetext GotUnownDollText
+	setevent EVENT_DECO_HINA_DOLL
+	writetext GotHinaDollText
 	playsound SFX_ITEM
 	pause 60
 	waitbutton
-	writetext UnownDollSentText
+	writetext HinaDollSentText
 	promptbutton
 	writetext RuinsofAlphResearchCenterScientistRewardText
 	promptbutton
@@ -145,22 +145,22 @@ RuinsofAlphResearchCenterLeave2MovementData:
 RuinsOfAlphResearchCenterScientist1Script:
 	faceplayer
 	opentext
-	readvar VAR_UNOWNCOUNT
-	ifequalfwd NUM_UNOWN, .GotAllUnown
-	checkflag ENGINE_UNOWN_DEX
-	iftruefwd .GotUnownDex
-	checkevent EVENT_MADE_UNOWN_APPEAR_IN_RUINS
-	iftruefwd .UnownAppeared
+	readvar VAR_HINACOUNT
+	ifequalfwd NUM_HINA, .GotAllHina
+	checkflag ENGINE_HINA_DEX
+	iftruefwd .GotHinaDex
+	checkevent EVENT_MADE_HINA_APPEAR_IN_RUINS
+	iftruefwd .HinaAppeared
 	jumpopenedtext RuinsOfAlphResearchCenterScientist1Text
 
-.UnownAppeared:
-	jumpopenedtext RuinsOfAlphResearchCenterScientist1Text_UnownAppeared
+.HinaAppeared:
+	jumpopenedtext RuinsOfAlphResearchCenterScientist1Text_HinaAppeared
 
-.GotUnownDex:
-	jumpopenedtext RuinsOfAlphResearchCenterScientist1Text_GotUnownDex
+.GotHinaDex:
+	jumpopenedtext RuinsOfAlphResearchCenterScientist1Text_GotHinaDex
 
-.GotAllUnown:
-	writetext RuinsOfAlphResearchCenterScientist1Text_GotAllUnown
+.GotAllHina:
+	writetext RuinsOfAlphResearchCenterScientist1Text_GotAllHina
 	waitbutton
 	closetext
 	clearevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
@@ -169,21 +169,21 @@ RuinsOfAlphResearchCenterScientist1Script:
 RuinsOfAlphResearchCenterScientist2Script:
 	faceplayer
 	opentext
-	readvar VAR_UNOWNCOUNT
-	ifgreater 3, .GotAllUnown
-	checkevent EVENT_MADE_UNOWN_APPEAR_IN_RUINS
-	iftruefwd .UnownAppeared
+	readvar VAR_HINACOUNT
+	ifgreater 3, .GotAllHina
+	checkevent EVENT_MADE_HINA_APPEAR_IN_RUINS
+	iftruefwd .HinaAppeared
 	jumpopenedtext RuinsOfAlphResearchCenterScientist2Text
 
-.UnownAppeared:
-	jumpopenedtext RuinsOfAlphResearchCenterScientist2Text_UnownAppeared
+.HinaAppeared:
+	jumpopenedtext RuinsOfAlphResearchCenterScientist2Text_HinaAppeared
 
-.GotAllUnown:
-	readvar VAR_UNOWNCOUNT
-	ifequalfwd NUM_UNOWN, .ResearchComplete
-	readvar VAR_UNOWNCOUNT
+.GotAllHina:
+	readvar VAR_HINACOUNT
+	ifequalfwd NUM_HINA, .ResearchComplete
+	readvar VAR_HINACOUNT
 	ifgreater 10, .ResearchOngoing
-	jumpopenedtext RuinsOfAlphResearchCenterScientist2Text_GotAllUnown
+	jumpopenedtext RuinsOfAlphResearchCenterScientist2Text_GotAllHina
 
 .ResearchComplete:
 	writetext RuinsOfAlphResearchCenterScientist2Text_RadioWaves
@@ -199,13 +199,13 @@ MapRuinsofAlphResearchCenterSignpost1Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_RESEARCH_CENTER_SCIENTIST
 	iffalsefwd .SkipChecking
-	checkevent EVENT_DECO_UNOWN_DOLL
+	checkevent EVENT_DECO_HINA_DOLL
 	iftruefwd .SkipChecking
 	jumpopenedtext RuinsOfAlphResearchCenterComputerText
 
 .SkipChecking:
-	readvar VAR_UNOWNCOUNT
-	jumpopenedtext RuinsOfAlphResearchCenterComputerText_GotAllUnown
+	readvar VAR_HINACOUNT
+	jumpopenedtext RuinsOfAlphResearchCenterComputerText_GotAllHina
 
 RuinsOfAlphResearchCenterApproachesComputerMovement:
 	step_up
@@ -223,7 +223,7 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	para "I added an"
 	line "optional #dex"
 
-	para "to store Unown"
+	para "to store Hina"
 	line "data."
 
 	para "It records them"
@@ -237,7 +237,7 @@ RuinsOfAlphResearchCenterDexUpgradedText:
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "The Unown you"
+	text "The Hina you"
 	line "catch will all be"
 	cont "recorded."
 
@@ -254,7 +254,7 @@ RuinsOfAlphResearchCenterScientist3Text:
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
 	text "You caught all the"
-	line "Unown variations?"
+	line "Hina variations?"
 
 	para "That's a great"
 	line "achievement!"
@@ -267,13 +267,13 @@ RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
 	line "this."
 	done
 
-GotUnownDollText:
+GotHinaDollText:
 	text "<PLAYER> received"
-	line "Unown Doll."
+	line "Hina Doll."
 	done
 
-UnownDollSentText:
-	text "Unown Doll"
+HinaDollSentText:
+	text "Hina Doll"
 	line "was sent home."
 	done
 
@@ -312,13 +312,13 @@ RuinsOfAlphResearchCenterScientist1Text:
 	cont "built--or by whom."
 	done
 
-RuinsOfAlphResearchCenterScientist1Text_GotUnownDex:
+RuinsOfAlphResearchCenterScientist1Text_GotHinaDex:
 	text "I wonder how many"
 	line "kinds of #mon"
 	cont "are in the ruins?"
 	done
 
-RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
+RuinsOfAlphResearchCenterScientist1Text_HinaAppeared:
 	text "#mon appeared"
 	line "in the ruins?"
 
@@ -329,7 +329,7 @@ RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
 	line "investigate this."
 	done
 
-RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
+RuinsOfAlphResearchCenterScientist1Text_GotAllHina:
 	text "Our investigation,"
 	line "with your help, is"
 
@@ -356,7 +356,7 @@ RuinsOfAlphResearchCenterScientist2Text:
 	cont "of the ruins."
 	done
 
-RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
+RuinsOfAlphResearchCenterScientist2Text_HinaAppeared:
 	text "The strange #-"
 	line "mon you saw in the"
 	cont "ruins?"
@@ -402,7 +402,7 @@ RuinsOfAlphResearchCenterScientist2Text_RadioWaves:
 	line "link…"
 	done
 
-RuinsOfAlphResearchCenterScientist2Text_GotAllUnown:
+RuinsOfAlphResearchCenterScientist2Text_GotAllHina:
 	text "Why did those"
 	line "ancient patterns"
 
@@ -420,9 +420,9 @@ RuinsOfAlphResearchCenterComputerText:
 	line "Year 10"
 	done
 
-RuinsOfAlphResearchCenterComputerText_GotAllUnown:
+RuinsOfAlphResearchCenterComputerText_GotAllHina:
 	text "Mystery #mon"
-	line "Name: Unown"
+	line "Name: Hina"
 
 	para "A total of "
 	text_decimal hScriptVar, 1, 2

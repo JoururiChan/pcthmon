@@ -45,7 +45,7 @@ DEF NUM_SPRITE_OAM_STRUCTS EQU 40 ; see wShadowOAM
 DEF SPRITEOAM_SKIP_PAL_APPLY       EQU -1
 DEF SPRITEOAM_SKIP_PAL_APPLY_XFLIP EQU -2 ; Same as above, but with X-flip attribute.
 
-; PokeAnims indexes (see engine/gfx/pic_animation.asm)
+; TohoAnims indexes (see engine/gfx/pic_animation.asm)
 	const_def
 	const ANIM_MON_SLOW
 	const ANIM_MON_NORMAL

@@ -213,7 +213,7 @@ PlayCryHeader::
 	ldh a, [hROMBank]
 	push af
 
-	ld a, BANK(PokemonCries)
+	ld a, BANK(TohomonCries)
 	rst Bankswitch
 	call _LoadCryHeader
 

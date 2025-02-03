@@ -17,7 +17,7 @@
 	const MUSIC_WILD_VICTORY                   ; 0d
 	const MUSIC_CHERRYGROVE_CITY               ; 0e
 	const MUSIC_SHOW_ME_AROUND                 ; 0f
-	const MUSIC_POKEMON_CENTER                 ; 10
+	const MUSIC_TOHOMON_CENTER                 ; 10
 	const MUSIC_HEAL                           ; 11
 	const MUSIC_CAPTURE                        ; 12
 	const MUSIC_YOUNGSTER_ENCOUNTER            ; 13
@@ -44,9 +44,9 @@
 	const MUSIC_POKECOM_CENTER                 ; 28
 	const MUSIC_GYM                            ; 29
 	const MUSIC_JOHTO_GYM_LEADER_BATTLE        ; 2a
-	const MUSIC_FINAL_POKEMON_BW               ; 2b
+	const MUSIC_FINAL_TOHOMON_BW               ; 2b
 	const MUSIC_GYM_VICTORY                    ; 2c
-	const MUSIC_POKEMON_CHANNEL                ; 2d
+	const MUSIC_TOHOMON_CHANNEL                ; 2d
 	const MUSIC_BUENAS_PASSWORD                ; 2e
 	const MUSIC_GAME_CORNER                    ; 2f
 	const MUSIC_BICYCLE                        ; 30
@@ -59,9 +59,9 @@
 	const MUSIC_KIMONO_ENCOUNTER               ; 37
 	const MUSIC_BURNED_TOWER                   ; 38
 	const MUSIC_MYSTICALMAN_ENCOUNTER          ; 39
-	const MUSIC_POKEMON_TALK                   ; 3a
+	const MUSIC_TOHOMON_TALK                   ; 3a
 	const MUSIC_ROUTE_37                       ; 3b
-	const MUSIC_POKEMON_MARCH                  ; 3c
+	const MUSIC_TOHOMON_MARCH                  ; 3c
 	const MUSIC_LIGHTHOUSE                     ; 3d
 	const MUSIC_SURF                           ; 3e
 	const MUSIC_CIANWOOD_CITY_HGSS             ; 3f
@@ -93,7 +93,7 @@
 	const MUSIC_VERMILION_CITY                 ; 59
 	const MUSIC_KANTO_GYM_LEADER_BATTLE        ; 5a
 	const MUSIC_LAVENDER_TOWN_RBY              ; 5b
-	const MUSIC_POKEMON_TOWER_RBY              ; 5c
+	const MUSIC_TOHOMON_TOWER_RBY              ; 5c
 	const MUSIC_LAVENDER_TOWN                  ; 5d
 	const MUSIC_KANTO_WILD_BATTLE              ; 5e
 	const MUSIC_KANTO_WILD_BATTLE_NIGHT        ; 5f
@@ -102,7 +102,7 @@
 	const MUSIC_NUGGET_BRIDGE_HGSS             ; 62
 	const MUSIC_MAGNET_TRAIN                   ; 63
 	const MUSIC_BLACK_CITY_BW                  ; 64
-	const MUSIC_POKEMON_LULLABY                ; 65
+	const MUSIC_TOHOMON_LULLABY                ; 65
 	const MUSIC_CELADON_CITY                   ; 66
 	const MUSIC_GAME_CORNER_DPPT               ; 67
 	const MUSIC_CANALAVE_CITY_DPPT             ; 68

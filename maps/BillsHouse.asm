@@ -10,14 +10,14 @@ BillsHouse_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  6,  1, BGEVENT_READ, PokemonJournalBillScript
-	bg_event  7,  1, BGEVENT_READ, PokemonJournalBillScript
+	bg_event  6,  1, BGEVENT_READ, TohomonJournalBillScript
+	bg_event  7,  1, BGEVENT_READ, TohomonJournalBillScript
 	bg_event  5,  1, BGEVENT_JUMPTEXT, BillsHousePCText
 
 	def_object_events
 	object_event  2,  3, SPRITE_BILL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BillsHouseBillScript, EVENT_NEVER_MET_BILL
 
-PokemonJournalBillScript:
+TohomonJournalBillScript:
 	setflag ENGINE_READ_BILL_JOURNAL
 	jumpthistext
 

@@ -715,9 +715,9 @@ ResolveFaints:
 	jr z, .no_fainted_mons
 	dec a
 	ldh [hBattleTurn], a
-	call FaintUserPokemon
+	call FaintUserTohomon
 	call SwitchTurn
-	call FaintUserPokemon
+	call FaintUserTohomon
 	call SwitchTurn
 
 .no_fainted_mons
@@ -1245,7 +1245,7 @@ endr
 	ld bc, MON_PKRUS - MON_DVS
 	rst CopyBytes ; copy DVs, Personality, PP, Happiness
 	ld bc, MON_LEVEL - MON_PKRUS
-	add hl, bc ; skip PokerusStatus, CaughtData
+	add hl, bc ; skip TohorusStatus, CaughtData
 	ld de, wBattleMonLevel
 	call GetUserMonAttr_de
 	ld bc, PARTYMON_STRUCT_LENGTH - MON_LEVEL
@@ -2005,7 +2005,7 @@ StopDangerSound:
 	ld [wLowHealthAlarm], a
 	ret
 
-FaintUserPokemon:
+FaintUserTohomon:
 	call HasUserFainted
 	ret nz
 
@@ -2404,7 +2404,7 @@ PlayerMonFaintHappinessMod:
 	ld [wCurPartyMon], a
 	predef_jump ChangeHappiness
 
-AskUseNextPokemon:
+AskUseNextTohomon:
 	call EmptyBattleTextbox
 	call LoadTileMapToTempTileMap
 ; We don't need to be here if we're in a Trainer battle,
@@ -2732,7 +2732,7 @@ FinalPkmnMusicAndAnimation:
 	ld e, MUSIC_NONE
 	call PlayMusic
 	call DelayFrame
-	ld e, MUSIC_FINAL_POKEMON_BW
+	ld e, MUSIC_FINAL_TOHOMON_BW
 	call PlayMusic
 	pop de
 .no_music
@@ -3155,7 +3155,7 @@ PostBattleTasks::
 
 RunBothEntryAbilities:
 ; runs both pokémon's entry abilities (Intimidate, etc.).
-; The faster Pokémon activates abilities first. This mostly
+; The faster Tohomon activates abilities first. This mostly
 ; just matter for weather abilities.
 	; Only show Neutralizing Gas message once.
 	call GetTrueUserAbility
@@ -3182,7 +3182,7 @@ RunBothEntryAbilities:
 	ret
 
 RunEntryAbilities:
-; Trace will, on failure, copy a later switched in Pokémon's
+; Trace will, on failure, copy a later switched in Tohomon's
 ; Ability. To handle this correctly without redundancy except
 ; on double switch-ins or similar, we need to do some extra
 ; handling around it.
@@ -4435,7 +4435,7 @@ BattleMenuPKMN_Loop:
 	call GetPartyLocation
 	bit MON_IS_EGG_F, [hl]
 	jr nz, .Cancel
-	farcall ManagePokemonMoves
+	farcall ManageTohomonMoves
 	call GetMonBackpic
 
 .Cancel: ; no-optimize stub jump
@@ -4642,7 +4642,7 @@ BattleMenu_Run:
 	jmp BattleMenu
 
 CheckRunSpeed:
-; In a safari battle, most of the battle engine is ignored, you have no active Pokemon, and can always run
+; In a safari battle, most of the battle engine is ignored, you have no active Tohomon, and can always run
 	ld a, [wBattleType]
 	cp BATTLETYPE_SAFARI
 	jmp z, .can_escape
@@ -6455,7 +6455,7 @@ GiveExperiencePoints:
 	ld b, 4
 	call Divide
 
-	; Boost Experience for traded Pokemon
+	; Boost Experience for traded Tohomon
 	pop bc
 	ld hl, MON_ID
 	add hl, bc
@@ -7394,7 +7394,7 @@ _GetNewBaseExp:
 	inc [hl]
 	ret
 
-INCLUDE "data/pokemon/base_exp_exceptions.asm"
+INCLUDE "data/tohomon/base_exp_exceptions.asm"
 
 Function_BattleTextEnemySentOut:
 	farcall Battle_GetTrainerName
@@ -7813,8 +7813,8 @@ GetFrontpic_DoAnim:
 	ret
 
 StartBattle:
-; This check prevents you from entering a battle without any Pokemon.
-; Those using walk-through-walls to bypass getting a Pokemon experience
+; This check prevents you from entering a battle without any Tohomon.
+; Those using walk-through-walls to bypass getting a Tohomon experience
 ; the effects of this check.
 	ld a, [wPartyCount]
 	and a
@@ -7869,7 +7869,7 @@ BattleIntro:
 	predef GetFrontpic
 	ld de, ANIM_GHOST_TRANSFORM
 	call PlayBattleAnimDE
-	ld hl, WildPokemonAppearedText
+	ld hl, WildTohomonAppearedText
 	call StdBattleTextbox
 	ld a, BATTLETYPE_NORMAL
 	ld [wBattleType], a
@@ -8041,7 +8041,7 @@ ExitBattle:
 	xor a
 	ld [wForceEvolution], a
 	farcall EvolveAfterBattle
-	farjp GivePokerusAndConvertBerries
+	farjp GiveTohorusAndConvertBerries
 
 CheckPayDay:
 	ld hl, wPayDayMoney
@@ -8754,11 +8754,11 @@ BattleStartMessage:
 	ld a, [wBattleType]
 	cp BATTLETYPE_FISH
 	jr nz, .NotFishing
-	ld hl, HookedPokemonAttackedText
+	ld hl, HookedTohomonAttackedText
 	jr .PrintBattleStartText
 
 .NotFishing:
-	ld hl, PokemonFellFromTreeText
+	ld hl, TohomonFellFromTreeText
 	cp BATTLETYPE_TREE
 	jr z, .PrintBattleStartText
 	ld hl, LegendaryAppearedText
@@ -8769,7 +8769,7 @@ BattleStartMessage:
 	ld hl, GhostAppearedText
 	cp BATTLETYPE_GHOST
 	jr z, .PrintBattleStartText
-	ld hl, WildPokemonAppearedText
+	ld hl, WildTohomonAppearedText
 
 .PrintBattleStartText:
 	push hl

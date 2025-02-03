@@ -12,7 +12,7 @@ pre-battle - “I'm a one-man band, baby. Let the music play!”
 win battle - “Rock on!”
 post-battle - “Feel those rocking notes!”
 
-Can I take a selfie with your Pokémon?
+Can I take a selfie with your Tohomon?
 Snap!
 I've dropped my phone, like, five times. The screen's cracked, but the camera works!
 
@@ -31,23 +31,23 @@ Guitarist(F) 1 (Colleen):
 pre-battle - “There's something magical about this island.”
 win battle - “There was nothing magical about that.”
 post-battle - “I'm feeling so inspired by this place, I already wrote a new song! Wanna listen? No? Aww… Too bad.”
-party - Electabuzz, Magnemite, Magneton
+party - Electabuzz, Magnemite, Cirno
 
 Rich Boy 1 (Rupert):
 pre-battle - “You believe you can best me? What a load of old tosh.”
 win battle - “I'm gobsmacked!”
-post-battle - “How did we lose, father? These Pokemon cost a fortune!”
+post-battle - “How did we lose, father? These Tohomon cost a fortune!”
 party - Porygon2, Blissey, Ninetales
 
 Gentleman 1 (Bernard):
 pre-battle - “Enough of this argy-bargy. I shall see to you myself!”
 win battle - “What a corker!”
-post-battle “Don't worry Rupert, we'll buy better Pokemon.”
+post-battle “Don't worry Rupert, we'll buy better Tohomon.”
 party - Ampharos, Golduck, Arcanine
 
 Schoolgirl 1 (Rachel):
 pre-battle - “I've been learning about Shamouti Island at school.”
-win battle - “We didn't learn about Pokemon yet.”
+win battle - “We didn't learn about Tohomon yet.”
 post-battle - “Mommy and Daddy brought me here to see the things I learnt about at school.”
 
 Lady 1 (Anna):
@@ -66,19 +66,19 @@ win battle - “You burst my bubble!”
 post-battle - “We all live in our own bubbles. It’s not until they pop that we see what life is like for others.”
 party - Something with Bubblebeam
 
-1: “Is this your first visit to Shamouti Island? It's a tropical paradise rich in natural history. You may also see some interesting Pokemon here.”
+1: “Is this your first visit to Shamouti Island? It's a tropical paradise rich in natural history. You may also see some interesting Tohomon here.”
 2: “Shamouti Island is so far south, it stays warm all year round!”
 4 (Rich Boy): “Ow. I was just walking through the market, minding my own business, when suddenly - get this - I tripped over some vase that some inconsiderate trader left on the floor. Like, who does that? Really.”
 5 (Rich Boy): “I simply won't tolerate anything less than perfection. This is the best vacation spot money can buy.”
 6 (Rich Boy): “I sailed here on father's yacht. Well, I was chauffeur driven, of course.”
 7 (Little girl): “Have you heard about the Shamouti Island festival? It happens once a year. There's a parade, and balloons! Everyone even gets to wear fun costumes! It's my absolute favourite time of year!”
-11: “Have you heard of Professor Ivy? Her and Professor Oak pioneered research into the relationships between Pokemon and people. Ivy sometimes visits this island, so I'm hoping to meet her.”
+11: “Have you heard of Professor Ivy? Her and Professor Oak pioneered research into the relationships between Tohomon and people. Ivy sometimes visits this island, so I'm hoping to meet her.”
 12: “For centuries, inhabitants of this island have performed a ceremony honoring the so-called Chosen One that would tame the birds of legend, should they release their might on the world. Which birds are these? The heck if I know, but it's a great story, don'cha think?”
 13: “Professor Ivy says ancient texts hint at this being the source of the Earth's water supply! We're surrounded by ocean, sure, but how is that even possible?”
 14: “This island has a lot of history, but I'm just here to party. Bring it on!”
 18 (Lass): Lots of little pink flowers grow on this island. Everything's so pretty!”
-19: “The Pokemon in the island's forest are well known for being super loud. I wonder if they're ok.”
-20 (Near Noisy Forest): “I'm not even in the forest and I can hear the Pokemon inside it. What's going on in there?”
+19: “The Tohomon in the island's forest are well known for being super loud. I wonder if they're ok.”
+20 (Near Noisy Forest): “I'm not even in the forest and I can hear the Tohomon inside it. What's going on in there?”
 
 21 (Lady in tourist information centre): “You'd like a tour of the shrine? I'm sorry, but the building is structurally unsafe after a major storm.”
 22: “Welcome to the Shamouti Island Tourist Information Centre. Enjoy your stay!”
@@ -88,8 +88,8 @@ party - Something with Bubblebeam
 25 (in Shamouti nature reserve house): “Nature is a wonderful thing. We do what we can to protect this island and all that resides here.”
 26 (in Shamouti nature reserve house): “Lots of rare berries grow on Shamouti Island. It's the only place you'll find them in all of Kanto and Johto!”
 
-27 (Sightseer): “In my region, we have a Pokemon that likes to match wits with the local Slowking. The one on this island sounds like a cut above the rest, though!”
-28: As we say on this island; when in doubt, ask Slowking! It's the smartest Pokemon around.”
+27 (Sightseer): “In my region, we have a Tohomon that likes to match wits with the local Slowking. The one on this island sounds like a cut above the rest, though!”
+28: As we say on this island; when in doubt, ask Slowking! It's the smartest Tohomon around.”
 
 mainland:
 red lass

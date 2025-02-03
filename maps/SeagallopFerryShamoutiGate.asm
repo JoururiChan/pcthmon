@@ -36,7 +36,7 @@ SeagallopFerryShamoutiGate_PlayerArrives:
 SeagallopFerryShamoutiGateSailorScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_A_POKEMON_FROM_IVY
+	checkevent EVENT_GOT_A_TOHOMON_FROM_IVY
 	iffalsefwd .OnlyVermilion
 	writetext SeagallopFerryShamoutiWhichIslandText
 	loadmenu VermilionValenciaMenuDataHeader

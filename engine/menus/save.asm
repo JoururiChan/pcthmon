@@ -36,9 +36,9 @@ SaveMenu:
 SaveAfterLinkTrade:
 	call SetWRAMStateForSave
 	call StageRTCTimeForSave
-	call SavePokemonData
+	call SaveTohomonData
 	call SaveChecksum
-	call SaveBackupPokemonData
+	call SaveBackupTohomonData
 	call SaveBackupChecksum
 	farcall BackupPartyMonMail
 	call SaveRTC
@@ -150,7 +150,7 @@ SaveGameData::
 	call ValidateSave
 	call SaveOptions
 	call SavePlayerData
-	call SavePokemonData
+	call SaveTohomonData
 
 	; This function is never called mid-Battle Tower (only in the beginning).
 	; So this is always a safe action, and gets rid of potential old BT state
@@ -188,7 +188,7 @@ WriteBackupSave:
 	call ValidateBackupSave
 	call SaveBackupOptions
 	call SaveBackupPlayerData
-	call SaveBackupPokemonData
+	call SaveBackupTohomonData
 	call SaveBackupChecksum
 
 	; Finished saving.
@@ -292,12 +292,12 @@ SavePlayerData:
 	rst CopyBytes
 	jmp CloseSRAM
 
-SavePokemonData:
-	ld a, BANK(sPokemonData)
+SaveTohomonData:
+	ld a, BANK(sTohomonData)
 	call GetSRAMBank
-	ld hl, wPokemonData
-	ld de, sPokemonData
-	ld bc, wPokemonDataEnd - wPokemonData
+	ld hl, wTohomonData
+	ld de, sTohomonData
+	ld bc, wTohomonDataEnd - wTohomonData
 	rst CopyBytes
 	jmp CloseSRAM
 
@@ -346,12 +346,12 @@ SaveBackupPlayerData:
 	rst CopyBytes
 	jmp CloseSRAM
 
-SaveBackupPokemonData:
-	ld a, BANK(sBackupPokemonData)
+SaveBackupTohomonData:
+	ld a, BANK(sBackupTohomonData)
 	call GetSRAMBank
-	ld hl, wPokemonData
-	ld de, sBackupPokemonData
-	ld bc, wPokemonDataEnd - wPokemonData
+	ld hl, wTohomonData
+	ld de, sBackupTohomonData
+	ld bc, wTohomonDataEnd - wTohomonData
 	rst CopyBytes
 	jmp CloseSRAM
 
@@ -389,7 +389,7 @@ TryLoadSaveFile:
 	call VerifyChecksum
 	jr nz, .backup
 	call LoadPlayerData
-	call LoadPokemonData
+	call LoadTohomonData
 
 	; If a mid-save was aborted but main save data is good, finish it.
 	call WasMidSaveAborted
@@ -406,7 +406,7 @@ TryLoadSaveFile:
 	call VerifyBackupChecksum
 	jr nz, .corrupt
 	call LoadBackupPlayerData
-	call LoadBackupPokemonData
+	call LoadBackupTohomonData
 	farcall RestorePartyMonMail
 	call LoadStorageSystem
 	call SaveGameData
@@ -536,12 +536,12 @@ LoadPlayerData:
 	rst CopyBytes
 	jmp CloseSRAM
 
-LoadPokemonData:
-	ld a, BANK(sPokemonData)
+LoadTohomonData:
+	ld a, BANK(sTohomonData)
 	call GetSRAMBank
-	ld hl, sPokemonData
-	ld de, wPokemonData
-	ld bc, wPokemonDataEnd - wPokemonData
+	ld hl, sTohomonData
+	ld de, wTohomonData
+	ld bc, wTohomonDataEnd - wTohomonData
 	rst CopyBytes
 	jmp CloseSRAM
 
@@ -575,12 +575,12 @@ LoadBackupPlayerData:
 	rst CopyBytes
 	jmp CloseSRAM
 
-LoadBackupPokemonData:
-	ld a, BANK(sBackupPokemonData)
+LoadBackupTohomonData:
+	ld a, BANK(sBackupTohomonData)
 	call GetSRAMBank
-	ld hl, sBackupPokemonData
-	ld de, wPokemonData
-	ld bc, wPokemonDataEnd - wPokemonData
+	ld hl, sBackupTohomonData
+	ld de, wTohomonData
+	ld bc, wTohomonDataEnd - wTohomonData
 	rst CopyBytes
 	jmp CloseSRAM
 

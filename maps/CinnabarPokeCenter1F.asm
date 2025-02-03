@@ -1,4 +1,4 @@
-CinnabarPokeCenter1F_MapScriptHeader:
+CinnabarTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,14 +11,14 @@ CinnabarPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalBlaineScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalBlaineScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  2,  5, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CinnabarPokeCenter1FCooltrainerfText, -1
-	object_event  9,  4, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CinnabarPokeCenter1FFisherText, -1
+	object_event  2,  5, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CinnabarTohoCenter1FCooltrainerfText, -1
+	object_event  9,  4, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CinnabarTohoCenter1FFisherText, -1
 
-PokemonJournalBlaineScript:
+TohomonJournalBlaineScript:
 	setflag ENGINE_READ_BLAINE_JOURNAL
 	jumpthistext
 
@@ -35,7 +35,7 @@ PokemonJournalBlaineScript:
 	cont "riddles."
 	done
 
-CinnabarPokeCenter1FCooltrainerfText:
+CinnabarTohoCenter1FCooltrainerfText:
 	text "Cinnabar Gym's"
 	line "Blaine apparently"
 
@@ -44,7 +44,7 @@ CinnabarPokeCenter1FCooltrainerfText:
 	cont "cave…"
 	done
 
-CinnabarPokeCenter1FFisherText:
+CinnabarTohoCenter1FFisherText:
 	text "It's been a year"
 	line "since the volcano"
 	cont "erupted."

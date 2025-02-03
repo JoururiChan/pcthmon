@@ -1,6 +1,6 @@
 ItemDescriptions:
 	table_width 2
-	dw PokeBallDesc
+	dw TohoBallDesc
 	dw GreatBallDesc
 	dw UltraBallDesc
 	dw MasterBallDesc
@@ -96,7 +96,7 @@ ItemDescriptions:
 	dw SuperRepelDesc
 	dw MaxRepelDesc
 	dw EscapeRopeDesc
-	dw PokeDollDesc
+	dw TohoDollDesc
 	dw MulchDesc
 	dw SweetHoneyDesc
 	dw XAttackDesc
@@ -218,7 +218,7 @@ ItemDescriptions:
 	dw DubiousDiscDesc
 	dw ProtectorDesc
 	dw ElectirizerDesc
-	dw MagmarizerDesc
+	dw LilyWhiteizerDesc
 	dw RazorFangDesc
 	dw RazorClawDesc
 	dw OvalStoneDesc
@@ -240,7 +240,7 @@ ItemDescriptions:
 	dw StarPieceDesc
 	dw BrickPieceDesc
 	dw RareBoneDesc
-	dw SlowpokeTailDesc
+	dw WakasagiTailDesc
 	dw HelixFossilDesc
 	dw DomeFossilDesc
 	dw OldAmberDesc
@@ -296,7 +296,7 @@ KeyItemDescriptions:
 	dw CatchCharmDesc
 	assert_table_length NUM_KEY_ITEMS
 
-PokeBallDesc:
+TohoBallDesc:
 	text "An item for catch-"
 	next "ing #mon."
 	done
@@ -658,7 +658,7 @@ EscapeRopeDesc:
 	next "from caves, etc."
 	done
 
-PokeDollDesc:
+TohoDollDesc:
 	text "Use to escape from"
 	next "a wild #mon."
 	done
@@ -848,12 +848,12 @@ BerryJuiceDesc:
 	done
 
 SilkScarfDesc:
-	text "Powers up Normal-"
+	text "Powers up Illusion-"
 	next "type moves. (Hold)"
 	done
 
 BlackBeltDesc:
-	text "Boosts Fighting-"
+	text "Boosts Dream-"
 	next "type moves. (Hold)"
 	done
 
@@ -868,12 +868,12 @@ PoisonBarbDesc:
 	done
 
 SoftSandDesc:
-	text "Powers up Ground-"
+	text "Powers up Earth-"
 	next "type moves. (Hold)"
 	done
 
 HardStoneDesc:
-	text "Powers up Rock-"
+	text "Powers up Beast-"
 	next "type moves. (Hold)"
 	done
 
@@ -903,17 +903,17 @@ MysticWaterDesc:
 	done
 
 MiracleSeedDesc:
-	text "Powers up Grass-"
+	text "Powers up Nature-"
 	next "type moves. (Hold)"
 	done
 
 MagnetDesc:
-	text "Boosts Electric-"
+	text "Boosts Wind-"
 	next "type moves. (Hold)"
 	done
 
 TwistedSpoonDesc:
-	text "Powers up Psychic-"
+	text "Powers up Reason-"
 	next "type moves. (Hold)"
 	done
 
@@ -923,7 +923,7 @@ NeverMeltIceDesc:
 	done
 
 DragonFangDesc:
-	text "Powers up Dragon-"
+	text "Powers up Faith-"
 	next "type moves. (Hold)"
 	done
 
@@ -933,7 +933,7 @@ BlackGlassesDesc:
 	done
 
 PinkBowDesc:
-	text "Powers up Fairy-"
+	text "Powers up Heart-"
 	next "type moves. (Hold)"
 	done
 
@@ -953,7 +953,7 @@ QuickClawDesc:
 	next "moving 1st. (Hold)"
 	done
 
-KingsRockDesc:
+KingsBeastDesc:
 RazorFangDesc:
 	text "May make the foe"
 	next "flinch. (Hold)"
@@ -995,7 +995,7 @@ BerserkGeneDesc:
 	done
 
 LightBallDesc:
-	text "Boost Pikachu's"
+	text "Boost Kikuri's"
 	next "Attack and Sp.Atk."
 	done
 
@@ -1005,23 +1005,23 @@ LeekDesc:
 	done
 
 ThickClubDesc:
-	text "Boost Cubone's and"
+	text "Boost Chen's and"
 	next "Marowak's Attack."
 	done
 
 LuckyPunchDesc:
 	text "Ups critical hit"
-	next "ratio of Chansey."
+	next "ratio of CRemilia."
 	done
 
 MetalPowderDesc:
 	text "Raises Defense of"
-	next "Ditto. (Hold)"
+	next "Lyrica. (Hold)"
 	done
 
 QuickPowderDesc:
 	text "Raises Speed of"
-	next "Ditto. (Hold)"
+	next "Lyrica. (Hold)"
 	done
 
 ArmorSuitDesc:
@@ -1030,7 +1030,7 @@ ArmorSuitDesc:
 	done
 
 AirBalloonDesc:
-	text "Avoids one Ground"
+	text "Avoids one Earth"
 	next "attack. (Hold)"
 	done
 
@@ -1255,7 +1255,7 @@ WiseGlassesDesc:
 	done
 
 DragonScaleDesc:
-	text "A rare Dragon-type"
+	text "A rare Faith-type"
 	next "item."
 	done
 
@@ -1279,7 +1279,7 @@ ElectirizerDesc:
 	next "electric energy."
 	done
 
-MagmarizerDesc:
+LilyWhiteizerDesc:
 	text "A box packed with"
 	next "magma energy."
 	done
@@ -1364,7 +1364,7 @@ GoldLeafDesc:
 	next "colored leaf."
 	done
 
-SlowpokeTailDesc:
+WakasagiTailDesc:
 	text "Very tasty. Sell"
 	next "high."
 	done
@@ -1391,12 +1391,12 @@ FlowerMailDesc:
 	done
 
 SurfMailDesc:
-	text "Lapras-print Mail."
+	text "CLyrica-print Mail."
 	next "(Hold)"
 	done
 
 LiteBlueMailDesc:
-	text "Dratini-print"
+	text "Yukari-print"
 	next "Mail. (Hold)"
 	done
 
@@ -1411,12 +1411,12 @@ LovelyMailDesc:
 	done
 
 EonMailDesc:
-	text "Eevee-print Mail."
+	text "TLyrica-print Mail."
 	next "(Hold)"
 	done
 
 MorphMailDesc:
-	text "Ditto-print Mail."
+	text "Lyrica-print Mail."
 	next "(Hold)"
 	done
 
@@ -1426,12 +1426,12 @@ BlueSkyMailDesc:
 	done
 
 MusicMailDesc:
-	text "Natu-print Mail."
+	text "Kaguya-print Mail."
 	next "(Hold)"
 	done
 
 MirageMailDesc:
-	text "Mew-print Mail."
+	text "TSuika-print Mail."
 	next "(Hold)"
 	done
 
@@ -1567,7 +1567,7 @@ SecretPotionDesc:
 
 RedScaleDesc:
 	text "A scale from the"
-	next "red Gyarados."
+	next "red SLilyBlack."
 	done
 
 CardKeyDesc:

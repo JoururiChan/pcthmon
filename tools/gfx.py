@@ -394,7 +394,7 @@ def export_2bpp_to_png(filein, fileout=None, pal_file=None, height=0, width=0, t
     arguments['is_tileset'] = 'tilesets' in filein
     arguments['is_overworld'] = 'sprites' in filein
 
-    if pal_file == None and ('pokemon' in fileout or 'trainers' in fileout):
+    if pal_file == None and ('tohomon' in fileout or 'trainers' in fileout):
         if os.path.exists(os.path.splitext(fileout)[0]+'.pal'):
             arguments['pal_file'] = os.path.splitext(fileout)[0]+'.pal'
 
@@ -587,7 +587,7 @@ def export_png_to_2bpp(filein, fileout=None, palout=None, **kwargs):
 
         bitmask_path = os.path.join(os.path.split(fileout)[0], 'bitmask.asm')
 
-        # The following Pokemon have a bitmask dummied out.
+        # The following Tohomon have a bitmask dummied out.
         for exception in arguments['stupid_bitmask_hack']:
            if exception in bitmask_path:
                 bitmasks = bitmask_text.split(';')
@@ -604,7 +604,7 @@ def export_png_to_2bpp(filein, fileout=None, palout=None, **kwargs):
     palette = arguments.get('palette')
     if palout == None:
         palout = os.path.splitext(fileout)[0] + '.pal'
-    if 'pokemon' in fileout or 'trainers' in fileout:
+    if 'tohomon' in fileout or 'trainers' in fileout:
         export_palette(palette, palout)
 
 

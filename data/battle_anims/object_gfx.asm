@@ -88,7 +88,7 @@ AnimObjGFX:
 	battleanimgfx 18, AnimObjHurricaneGFX
 	battleanimgfx  1 ; ANIM_GFX_PLAYERHEAD
 	battleanimgfx  1 ; ANIM_GFX_ENEMYFEET
-	battleanimgfx 10, AnimObjPokeBallBGGFX
+	battleanimgfx 10, AnimObjTohoBallBGGFX
 	assert_table_length NUM_ANIM_GFX + 1
 
 AnimBallObjGFX:
@@ -96,7 +96,7 @@ AnimBallObjGFX:
 	table_width 2
 	farbank "Battle Ball Icons"
 	fardw AnimObjParkBallGFX
-	fardw AnimObjPokeBallGFX
+	fardw AnimObjTohoBallGFX
 	fardw AnimObjGreatBallGFX
 	fardw AnimObjUltraBallGFX
 	fardw AnimObjMasterBallGFX

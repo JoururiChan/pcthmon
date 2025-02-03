@@ -4,7 +4,7 @@ BattleCommand_leechseed:
 	jr nz, .evaded
 	call CheckSubstituteOpp
 	jr nz, .evaded
-	call CheckIfTargetIsGrassType
+	call CheckIfTargetIsNatureType
 	jr z, .grass
 
 	ld a, BATTLE_VARS_SUBSTATUS4_OPP

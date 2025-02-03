@@ -105,7 +105,7 @@ _TitleScreen:
 	ld a, " "
 	rst ByteFill
 
-; Draw Pokemon logo
+; Draw Tohomon logo
 	hlcoord 0, 3
 	lb bc, 7, SCREEN_WIDTH
 	lb de, $80, SCREEN_WIDTH

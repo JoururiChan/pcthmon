@@ -35,11 +35,11 @@ CianwoodPharmacist:
 	end
 
 .Mart:
-	scall .PokeMart
+	scall .TohoMart
 	turnobject LAST_TALKED, UP
 	end
 
-.PokeMart:
+.TohoMart:
 	pokemart MARTTYPE_PHARMACY, MART_CIANWOOD
 
 PharmacistGiveSecretpotionText:

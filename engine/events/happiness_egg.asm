@@ -1,4 +1,4 @@
-GetFirstPokemonHappiness:
+GetFirstTohomonHappiness:
 ; returns first non-Egg party mon's happiness
 	ld hl, wPartyMon1Species
 .loop
@@ -20,8 +20,8 @@ GetFirstPokemonHappiness:
 	add hl, bc
 	ld a, [hl]
 	ldh [hScriptVar], a
-	call GetPokemonName
-	jmp CopyPokemonName_Buffer1_Buffer3
+	call GetTohomonName
+	jmp CopyTohomonName_Buffer1_Buffer3
 
 CheckFirstMonIsEgg:
 	ld a, [wPartyMon1Species]
@@ -36,8 +36,8 @@ CheckFirstMonIsEgg:
 
 .egg
 	ldh [hScriptVar], a
-	call GetPokemonName
-	jmp CopyPokemonName_Buffer1_Buffer3
+	call GetTohomonName
+	jmp CopyTohomonName_Buffer1_Buffer3
 
 ChangeHappiness:
 ; Perform happiness action c on wCurPartyMon
@@ -180,7 +180,7 @@ DayCareStep::
 	jr z, .check_egg
 
 	; If both a (lady) and b (man) has bit 0 set, both of them are managing
-	; Pokémon. See if we should proc Mirror Herb.
+	; Tohomon. See if we should proc Mirror Herb.
 	and b
 	rrca
 	call c, .HandleMirrorHerb

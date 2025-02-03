@@ -97,9 +97,9 @@ SECTION "rst38 Predef", ROM0[$0038]
 Predef::
 	jmp _Predef
 
-IsAPokemon::
+IsATohomon::
 ; For functions using EGG as sentinel, use "and a" instead (EGG is $ff)
-; Returns carry if species a is not a Pokemon (including $ff)
+; Returns carry if species a is not a Tohomon (including $ff)
 	inc a
 	cp 2 ; sets carry for $0 (inc'ed to $1) and $ff (inc'ed to $0)
 	dec a

@@ -1,5 +1,5 @@
-; Battle Tower Pokemon proposed by Salamandar#8272 (Discord)
-; organized by data/pokemon/dex_order_new.asm and sorted by tier
+; Battle Tower Tohomon proposed by Salamandar#8272 (Discord)
+; organized by data/tohomon/dex_order_new.asm and sorted by tier
 
 ; format:
 ;	dp species, gender [ | form]

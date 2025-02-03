@@ -176,11 +176,11 @@ ResurrectOldAmber:
 	scall ResurrectAFossilScript
 	givepoke AYUYUKO, 20
 FinishResurrect:
-	iffalse_jumpopenedtext NoRoomForFossilPokemonText
+	iffalse_jumpopenedtext NoRoomForFossilTohomonText
 	jumpopenedtext TakeGoodCareOfItText
 
 ResurrectAFossilScript:
-	writetext ResurrectingPokemonText
+	writetext ResurrectingTohomonText
 	waitbutton
 	closetext
 	turnobject PEWTERMUSEUMOFSCIENCE1F_SCIENTIST2, RIGHT
@@ -353,12 +353,12 @@ MaybeLaterText:
 	cont "your mind."
 	done
 
-ResurrectingPokemonText:
+ResurrectingTohomonText:
 	text "OK! I'll resurrect"
 	line "the #mon!"
 	done
 
-NoRoomForFossilPokemonText:
+NoRoomForFossilTohomonText:
 	text "Hey! You can't"
 	line "carry another"
 	cont "#mon, and your"

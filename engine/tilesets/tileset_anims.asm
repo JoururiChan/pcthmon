@@ -314,7 +314,7 @@ TilesetWarehouseAnim::
 
 TilesetHouse1Anim::
 TilesetHouse2Anim::
-TilesetPokeCenterAnim::
+TilesetTohoCenterAnim::
 TilesetGateAnim::
 TilesetLabAnim::
 TilesetFacilityAnim::
@@ -325,12 +325,12 @@ TilesetHouse3Anim::
 TilesetGym2Anim::
 TilesetGym3Anim::
 TilesetLighthouseAnim::
-TilesetPokeComAnim::
+TilesetTohoComAnim::
 TilesetBattleTowerAnim::
 TilesetRuinsAnim::
 TilesetRadioTowerAnim::
 TilesetAlphAnim::
-TilesetPokemonMansionAnim::
+TilesetTohomonMansionAnim::
 TilesetDecorAnim::
 TilesetMuseumAnim::
 TilesetHotelAnim::

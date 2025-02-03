@@ -1,52 +1,52 @@
-SECTION "Pokemon Center Scripts 1", ROMX
+SECTION "Tohomon Center Scripts 1", ROMX
 
-INCLUDE "maps/CherrygrovePokeCenter1F.asm"
-INCLUDE "maps/VioletPokeCenter1F.asm"
-INCLUDE "maps/AzaleaPokeCenter1F.asm"
-INCLUDE "maps/EcruteakPokeCenter1F.asm"
-INCLUDE "maps/OlivinePokeCenter1F.asm"
-INCLUDE "maps/CianwoodPokeCenter1F.asm"
-
-
-SECTION "Pokemon Center Scripts 2", ROMX
-
-INCLUDE "maps/MahoganyPokeCenter1F.asm"
-INCLUDE "maps/BlackthornPokeCenter1F.asm"
-INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
-INCLUDE "maps/ViridianPokeCenter1F.asm"
-INCLUDE "maps/PewterPokeCenter1F.asm"
-INCLUDE "maps/CeruleanPokeCenter1F.asm"
+INCLUDE "maps/CherrygroveTohoCenter1F.asm"
+INCLUDE "maps/VioletTohoCenter1F.asm"
+INCLUDE "maps/AzaleaTohoCenter1F.asm"
+INCLUDE "maps/EcruteakTohoCenter1F.asm"
+INCLUDE "maps/OlivineTohoCenter1F.asm"
+INCLUDE "maps/CianwoodTohoCenter1F.asm"
 
 
-SECTION "Pokemon Center Scripts 3", ROMX
+SECTION "Tohomon Center Scripts 2", ROMX
 
-INCLUDE "maps/VermilionPokeCenter1F.asm"
-INCLUDE "maps/LavenderPokeCenter1F.asm"
-INCLUDE "maps/CeladonPokeCenter1F.asm"
-INCLUDE "maps/SaffronPokeCenter1F.asm"
-INCLUDE "maps/FuchsiaPokeCenter1F.asm"
-INCLUDE "maps/CinnabarPokeCenter1F.asm"
-
-
-SECTION "Pokemon Center Scripts 4", ROMX
-
-INCLUDE "maps/SilverCavePokeCenter1F.asm"
-INCLUDE "maps/ShamoutiPokeCenter1F.asm"
-INCLUDE "maps/Route3PokeCenter1F.asm"
-INCLUDE "maps/Route10PokeCenter1F.asm"
-INCLUDE "maps/Route32PokeCenter1F.asm"
-INCLUDE "maps/GoldenrodPokecomCenter1F.asm"
-INCLUDE "maps/GoldenrodPokecomCenterOffice.asm"
+INCLUDE "maps/MahoganyTohoCenter1F.asm"
+INCLUDE "maps/BlackthornTohoCenter1F.asm"
+INCLUDE "maps/IndigoPlateauTohocenter1F.asm"
+INCLUDE "maps/ViridianTohoCenter1F.asm"
+INCLUDE "maps/PewterTohoCenter1F.asm"
+INCLUDE "maps/CeruleanTohoCenter1F.asm"
 
 
-SECTION "Pokemon Center Scripts 5", ROMX
+SECTION "Tohomon Center Scripts 3", ROMX
 
-INCLUDE "maps/SnowtopPokeCenter1F.asm"
+INCLUDE "maps/VermilionTohoCenter1F.asm"
+INCLUDE "maps/LavenderTohoCenter1F.asm"
+INCLUDE "maps/CeladonTohoCenter1F.asm"
+INCLUDE "maps/SaffronTohoCenter1F.asm"
+INCLUDE "maps/FuchsiaTohoCenter1F.asm"
+INCLUDE "maps/CinnabarTohoCenter1F.asm"
+
+
+SECTION "Tohomon Center Scripts 4", ROMX
+
+INCLUDE "maps/SilverCaveTohoCenter1F.asm"
+INCLUDE "maps/ShamoutiTohoCenter1F.asm"
+INCLUDE "maps/Route3TohoCenter1F.asm"
+INCLUDE "maps/Route10TohoCenter1F.asm"
+INCLUDE "maps/Route32TohoCenter1F.asm"
+INCLUDE "maps/GoldenrodTohocomCenter1F.asm"
+INCLUDE "maps/GoldenrodTohocomCenterOffice.asm"
+
+
+SECTION "Tohomon Center Scripts 5", ROMX
+
+INCLUDE "maps/SnowtopTohoCenter1F.asm"
 
 
 SECTION "Special Map Scripts", ROMX
 
-INCLUDE "maps/PokeCenter2F.asm"
+INCLUDE "maps/TohoCenter2F.asm"
 INCLUDE "maps/TradeCenter.asm"
 INCLUDE "maps/Colosseum.asm"
 
@@ -93,7 +93,7 @@ INCLUDE "maps/CherrygroveMart.asm"
 INCLUDE "maps/CherrygroveEvolutionSpeechHouse.asm"
 INCLUDE "maps/CherrygroveGymSpeechHouse.asm"
 INCLUDE "maps/GuideGentsHouse.asm"
-INCLUDE "maps/MrPokemonsHouse.asm"
+INCLUDE "maps/MrTohomonsHouse.asm"
 
 
 SECTION "Cherrygrove Bay Scripts", ROMX
@@ -116,7 +116,7 @@ INCLUDE "maps/VioletMart.asm"
 INCLUDE "maps/VioletGym.asm"
 INCLUDE "maps/VioletNicknameSpeechHouse.asm"
 INCLUDE "maps/VioletCRumiaTradeHouse.asm"
-INCLUDE "maps/EarlsPokemonAcademy.asm"
+INCLUDE "maps/EarlsTohomonAcademy.asm"
 
 
 SECTION "Autumn Tower Scripts", ROMX
@@ -139,7 +139,7 @@ INCLUDE "maps/RuinsOfAlphOutside.asm"
 
 SECTION "Ruins of Alph Scripts 2", ROMX
 
-INCLUDE "maps/RuinsOfAlphResearchCenter.asm"; shares text with RuinsOfAlphOmanyteChamber.asm
+INCLUDE "maps/RuinsOfAlphResearchCenter.asm"; shares text with RuinsOfAlphCYuyukoChamber.asm
 INCLUDE "maps/RuinsOfAlphEntranceChamber.asm"
 INCLUDE "maps/RuinsOfAlphInnerChamber.asm"
 INCLUDE "maps/RuinsOfAlphSinjohChamber.asm"
@@ -464,7 +464,7 @@ INCLUDE "maps/BrunosRoom.asm"
 INCLUDE "maps/KarensRoom.asm"
 INCLUDE "maps/LancesRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
-INCLUDE "maps/PokemonLeagueGate.asm"
+INCLUDE "maps/TohomonLeagueGate.asm"
 
 
 SECTION "Fast Ship Scripts", ROMX
@@ -570,7 +570,7 @@ INCLUDE "maps/VermilionMagnetTrainSpeechHouse.asm"
 INCLUDE "maps/VermilionPollutionSpeechHouse.asm"
 INCLUDE "maps/VermilionPort.asm"
 INCLUDE "maps/VermilionSSAnneSpeechHouse.asm"
-INCLUDE "maps/PokemonFanClub.asm"
+INCLUDE "maps/TohomonFanClub.asm"
 
 
 SECTION "CChiyuri's Cave Scripts", ROMX
@@ -751,9 +751,9 @@ INCLUDE "maps/SilphCo2F.asm"
 INCLUDE "maps/SilphCo3F.asm"
 
 
-SECTION "Pokemon Trainer Fan Club Scripts", ROMX
+SECTION "Tohomon Trainer Fan Club Scripts", ROMX
 
-INCLUDE "maps/PokemonTrainerFanClub.asm"
+INCLUDE "maps/TohomonTrainerFanClub.asm"
 
 
 SECTION "Fuchsia Scripts", ROMX
@@ -801,10 +801,10 @@ INCLUDE "maps/CinnabarIsland.asm"
 INCLUDE "maps/CinnabarLab.asm"
 
 
-SECTION "Pokemon Mansion Scripts", ROMX
+SECTION "Tohomon Mansion Scripts", ROMX
 
-INCLUDE "maps/PokemonMansion1F.asm"
-INCLUDE "maps/PokemonMansionB1F.asm"
+INCLUDE "maps/TohomonMansion1F.asm"
+INCLUDE "maps/TohomonMansionB1F.asm"
 
 
 SECTION "Cinnabar Volcano Scripts", ROMX

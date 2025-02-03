@@ -1,4 +1,4 @@
-OlivinePokeCenter1F_MapScriptHeader:
+OlivineTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,19 +11,19 @@ OlivinePokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalJasmineScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalJasmineScript
 
 	def_object_events
 	object_event  8,  1, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BeautyCharlotteScript, -1
 	pc_nurse_event  5, 1
 	object_event  2,  6, SPRITE_FISHING_GURU, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumpstd, happinesschecknpc, -1
-	object_event  2,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivinePokeCenter1FFisherText, -1
-	object_event 11,  6, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivinePokeCenter1FTeacherText, -1
+	object_event  2,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineTohoCenter1FFisherText, -1
+	object_event 11,  6, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineTohoCenter1FTeacherText, -1
 
 	object_const_def
 	const OLIVINEPOKECENTER1F_BEAUTY
 
-PokemonJournalJasmineScript:
+TohomonJournalJasmineScript:
 	setflag ENGINE_READ_JASMINE_JOURNAL
 	jumpthistext
 
@@ -100,7 +100,7 @@ BeautyCharlotteScript:
 	text "Amazing battle!"
 	done
 
-OlivinePokeCenter1FFisherText:
+OlivineTohoCenter1FFisherText:
 	text "There's this guy in"
 	line "Cianwood City who"
 	cont "looks weak, but he"
@@ -112,7 +112,7 @@ OlivinePokeCenter1FFisherText:
 	line "big boulders."
 	done
 
-OlivinePokeCenter1FTeacherText:
+OlivineTohoCenter1FTeacherText:
 	text "There's a person"
 	line "in Cianwood City"
 	cont "across the sea."

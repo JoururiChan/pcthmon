@@ -11,7 +11,7 @@ Route35CoastNorth_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  6, 21, BGEVENT_JUMPTEXT, Route35CoastNorthPokeathlonDomeSignText
+	bg_event  6, 21, BGEVENT_JUMPTEXT, Route35CoastNorthTohoathlonDomeSignText
 	bg_event  6, 12, BGEVENT_JUMPTEXT, Route35CoastNorthAdvancedTipsSignText
 	bg_event  3, 11, BGEVENT_ITEM + BIG_PEARL, EVENT_ROUTE_35_COAST_NORTH_HIDDEN_BIG_PEARL
 	bg_event  5, 23, BGEVENT_ITEM + SOFT_SAND, EVENT_ROUTE_35_COAST_NORTH_HIDDEN_SOFT_SAND
@@ -22,7 +22,7 @@ Route35CoastNorth_MapScriptHeader:
 	smashrock_event  8, 17
 	smashrock_event 11, 20
 
-Route35CoastNorthPokeathlonDomeSignText:
+Route35CoastNorthTohoathlonDomeSignText:
 	text "The #athlon"
 	line "Project Has"
 	cont "Started!"

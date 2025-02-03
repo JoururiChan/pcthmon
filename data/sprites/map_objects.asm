@@ -23,7 +23,7 @@ SpriteMovementData::
 	sprite_movement_data SPRITEMOVEFN_FOLLOW,                DOWN,   OBJECT_ACTION_STAND,            $02,    $00,    %0000 ; SPRITEMOVEDATA_FOLLOWING
 	sprite_movement_data SPRITEMOVEFN_SCRIPTED,              DOWN,   OBJECT_ACTION_STAND,            $02,    $00,    %0000 ; SPRITEMOVEDATA_SCRIPTED
 	sprite_movement_data SPRITEMOVEFN_BIG_CRAN,           DOWN,   OBJECT_ACTION_BIG_CRAN,      $2e,    $01,    %1100 ; SPRITEMOVEDATA_CRAN
-	sprite_movement_data SPRITEMOVEFN_BOUNCE,                DOWN,   OBJECT_ACTION_BOUNCE,           $2e,    $00,    %0000 ; SPRITEMOVEDATA_POKEMON
+	sprite_movement_data SPRITEMOVEFN_BOUNCE,                DOWN,   OBJECT_ACTION_BOUNCE,           $2e,    $00,    %0000 ; SPRITEMOVEDATA_TOHOMON
 	sprite_movement_data SPRITEMOVEFN_STANDING,              DOWN,   OBJECT_ACTION_STAND,            $0c,    $00,    %0000 ; SPRITEMOVEDATA_CMEDICINE
 	sprite_movement_data SPRITEMOVEFN_STANDING,              UP,     OBJECT_ACTION_STAND,            $2e,    $10,    %0000 ; SPRITEMOVEDATA_SMASHABLE_ROCK
 	sprite_movement_data SPRITEMOVEFN_STRENGTH,              DOWN,   OBJECT_ACTION_STAND,            $2e,    $00,    %0100 ; SPRITEMOVEDATA_STRENGTH_BOULDER

@@ -1,4 +1,4 @@
-HiddenGrottoPokemonIndexes:
+HiddenGrottoTohomonIndexes:
 	db  40 ; total probability
 	db  15, $0
 	db  15, $1

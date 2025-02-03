@@ -46,9 +46,9 @@ ElmsLab_MapScriptHeader:
 	def_object_events
 	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
 	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
-	object_event  6,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, CAlicePokeBallScript, EVENT_CALICE_POKEBALL_IN_ELMS_LAB
-	object_event  7,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, CReisenPokeBallScript, EVENT_CREISEN_POKEBALL_IN_ELMS_LAB
-	object_event  8,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, CSanaePokeBallScript, EVENT_CSANAE_POKEBALL_IN_ELMS_LAB
+	object_event  6,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, CAliceTohoBallScript, EVENT_CALICE_POKEBALL_IN_ELMS_LAB
+	object_event  7,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, CReisenTohoBallScript, EVENT_CREISEN_POKEBALL_IN_ELMS_LAB
+	object_event  8,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, CSanaeTohoBallScript, EVENT_CSANAE_POKEBALL_IN_ELMS_LAB
 	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB
 	object_event  5, 11, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ElmsLabLyraScript, EVENT_LYRA_IN_ELMS_LAB
 
@@ -110,7 +110,7 @@ if !DEF(DEBUG)
 	showtext ElmText_GotAnEmail
 	opentext
 	turnobject ELMSLAB_ELM, RIGHT
-	writetext ElmText_MissionFromMrPokemon
+	writetext ElmText_MissionFromMrTohomon
 	waitbutton
 endc
 	closetext
@@ -118,7 +118,7 @@ endc
 	turnobject PLAYER, UP
 	applymovement ELMSLAB_ELM, ElmsLab_ElmToDefaultPositionMovement
 	turnobject PLAYER, RIGHT
-	showtext ElmText_ChooseAPokemon
+	showtext ElmText_ChooseATohomon
 	setscene $1
 	end
 
@@ -186,10 +186,10 @@ ElmCheckGotEggAgain:
 	iftrue_jumpopenedtext ElmAideHasEggText
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue_jumpopenedtext ElmStudyingEggText
-	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
+	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_TOHOMON
 	iftrue ElmAfterTheftScript
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftrue_jumpopenedtext ElmDescribesMrPokemonText
+	checkevent EVENT_GOT_A_TOHOMON_FROM_ELM
+	iftrue_jumpopenedtext ElmDescribesMrTohomonText
 	jumpopenedtext ElmText_LetYourMonBattleIt
 
 LabTryToLeaveScript:
@@ -198,9 +198,9 @@ LabTryToLeaveScript:
 	applyonemovement PLAYER, step_up
 	end
 
-CAlicePokeBallScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftrue_jumptext ElmPokeBallText
+CAliceTohoBallScript:
+	checkevent EVENT_GOT_A_TOHOMON_FROM_ELM
+	iftrue_jumptext ElmTohoBallText
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
 	pokepic CALICE
@@ -238,9 +238,9 @@ CAlicePokeBallScript:
 	applymovement PLAYER, AfterCAliceMovement
 	sjumpfwd ElmDirectionsScript
 
-CReisenPokeBallScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftrue_jumptext ElmPokeBallText
+CReisenTohoBallScript:
+	checkevent EVENT_GOT_A_TOHOMON_FROM_ELM
+	iftrue_jumptext ElmTohoBallText
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
 	pokepic CREISEN
@@ -276,9 +276,9 @@ CReisenPokeBallScript:
 	applymovement PLAYER, AfterCReisenMovement
 	sjumpfwd ElmDirectionsScript
 
-CSanaePokeBallScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftrue_jumptext ElmPokeBallText
+CSanaeTohoBallScript:
+	checkevent EVENT_GOT_A_TOHOMON_FROM_ELM
+	iftrue_jumptext ElmTohoBallText
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
 	pokepic CSANAE
@@ -330,14 +330,14 @@ endc
 	showtext ElmDirectionsText2
 	turnobject ELMSLAB_ELM, DOWN
 	showtext ElmDirectionsText3
-	setevent EVENT_GOT_A_POKEMON_FROM_ELM
+	setevent EVENT_GOT_A_TOHOMON_FROM_ELM
 	setevent EVENT_RIVAL_CHERRYGROVE_CITY
 	setscene $6
 	end
 
 ElmsLabHealingMachine:
 	opentext
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_TOHOMON_FROM_ELM
 	iftruefwd .CanHeal
 	jumpopenedtext ElmsLabHealingMachineText1
 
@@ -657,7 +657,7 @@ ElmsAideScript:
 	iftrue_jumptextfaceplayer AideText_AfterTheft
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue_jumptextfaceplayer AideText_AlwaysBusy
-	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
+	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_TOHOMON
 	iftrue_jumptextfaceplayer AideText_TheftTestimony
 	jumptextfaceplayer AideText_AlwaysBusy
 
@@ -699,14 +699,14 @@ CopScript:
 	sjump ElmAfterTheftScript
 
 ElmsLabLyraScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iffalse_jumptextfaceplayer ElmsLabLyraWhichPokemonText
+	checkevent EVENT_GOT_A_TOHOMON_FROM_ELM
+	iffalse_jumptextfaceplayer ElmsLabLyraWhichTohomonText
 	jumptextfaceplayer ElmsLabLyraGoodChoiceText
 
 ElmsLabWindow:
 	checkflag ENGINE_FLYPOINT_VIOLET
 	iftrue_jumptext ElmsLabWindowText1
-	checkevent EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
+	checkevent EVENT_ELM_CALLED_ABOUT_STOLEN_TOHOMON
 	iftrue_jumptext ElmsLabWindowText2
 	jumptext ElmsLabWindowText1
 
@@ -962,7 +962,7 @@ ElmText_GotAnEmail:
 	para "OK…"
 	done
 
-ElmText_MissionFromMrPokemon:
+ElmText_MissionFromMrTohomon:
 	text "Hey, listen."
 
 	para "I have an acquain-"
@@ -995,7 +995,7 @@ ElmText_MissionFromMrPokemon:
 	line "go in our place?"
 	done
 
-ElmText_ChooseAPokemon:
+ElmText_ChooseATohomon:
 	text "I want you to"
 	line "raise one of the"
 
@@ -1100,7 +1100,7 @@ GotElmsNumberText:
 	line "phone number."
 	done
 
-ElmDescribesMrPokemonText:
+ElmDescribesMrTohomonText:
 	text "Mr.#mon goes"
 	line "everywhere and"
 	cont "finds rarities."
@@ -1110,7 +1110,7 @@ ElmDescribesMrPokemonText:
 	cont "not very useful…"
 	done
 
-ElmPokeBallText:
+ElmTohoBallText:
 	text "It contains a"
 	line "#mon caught by"
 	cont "Prof.Elm."
@@ -1615,7 +1615,7 @@ ElmsLabOfficerText3:
 	line "my investigation!"
 	done
 
-ElmsLabLyraWhichPokemonText:
+ElmsLabLyraWhichTohomonText:
 	text "Which #mon are"
 	line "you going to pick,"
 	cont "<PLAYER>?"

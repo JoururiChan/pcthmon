@@ -27,7 +27,7 @@ DEF NUM_ANIM_OBJECTS EQU 10 ; see wActiveAnimObjects
 DEF NUM_BATTLEANIMTILEDICT_ENTRIES EQU 5
 
 ; Start tile for battle animation graphics
-DEF BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
+DEF BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a tohomon picture
 
 ; BattleAnimObjects indexes (see data/battle_anims/objects.asm)
 	const_def

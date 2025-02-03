@@ -32,7 +32,7 @@
 	const SFX_WALL_OPEN                   ; 1d
 	const SFX_PLACE_PUZZLE_PIECE_DOWN     ; 1e
 	const SFX_ENTER_DOOR                  ; 1f
-	const SFX_SWITCH_POKEMON              ; 20
+	const SFX_SWITCH_TOHOMON              ; 20
 	const SFX_TALLY                       ; 21
 	const SFX_TRANSACTION                 ; 22
 	const SFX_EXIT_BUILDING               ; 23
@@ -169,7 +169,7 @@
 	const SFX_MASTER_BALL                 ; a5
 	const SFX_EGG_HATCH                   ; a6
 	const SFX_GS_INTRO_AMARISA_FIREBALL ; a7
-	const SFX_GS_INTRO_POKEMON_APPEARS    ; a8
+	const SFX_GS_INTRO_TOHOMON_APPEARS    ; a8
 	const SFX_FLASH                       ; a9
 	const SFX_GAME_FREAK_LOGO_GS          ; aa
 	const SFX_NOT_VERY_EFFECTIVE          ; ab

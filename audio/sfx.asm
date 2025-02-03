@@ -1,6 +1,6 @@
 SECTION "Sound Effects", ROMX
 
-Sfx_PokeballsPlacedOnTable:
+Sfx_TohoballsPlacedOnTable:
 	channel_count 1
 	channel 5, .Ch5
 
@@ -411,7 +411,7 @@ Sfx_EnterDoor:
 	sound_ret
 
 
-Sfx_SwitchPokemon:
+Sfx_SwitchTohomon:
 	channel_count 2
 	channel 5, .Ch5
 	channel 6, .Ch6
@@ -518,7 +518,7 @@ Sfx_Save:
 	sound_ret
 
 
-Sfx_Pokeflute:
+Sfx_Tohoflute:
 	channel_count 1
 	channel 7, .Ch7
 
@@ -4433,7 +4433,7 @@ Sfx_GsIntroAMarisaFireball:
 	sound_ret
 
 
-Sfx_GsIntroPokemonAppears:
+Sfx_GsIntroTohomonAppears:
 	channel_count 1
 	channel 8, .Ch8
 

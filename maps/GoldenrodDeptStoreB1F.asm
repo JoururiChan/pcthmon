@@ -22,7 +22,7 @@ GoldenrodDeptStoreB1F_MapScriptHeader:
 	object_event  9, 10, SPRITE_BLACK_BELT, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStoreB1FBlackBelt1Text, -1
 	object_event  4,  8, SPRITE_BLACK_BELT, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStoreB1FBlackBelt2Text, -1
 	object_event  6, 13, SPRITE_BLACK_BELT, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStoreB1FBlackBelt3Text, -1
-	pokemon_event  7,  7, SARA, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, GoldenrodDeptStoreB1FSaraText, -1
+	tohomon_event  7,  7, SARA, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GRAY, GoldenrodDeptStoreB1FSaraText, -1
 
 GoldenRodDeptStoreB1FClearBoxesCallback:
 	checkevent EVENT_RECEIVED_CARD_KEY

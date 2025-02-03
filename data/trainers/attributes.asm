@@ -248,13 +248,13 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_SETUP + AI_TYPES + AI_OPPORTUNIST + AI_CAUTIOUS + AI_STATUS + AI_RISKY
 	dw CONTEXT_USE + SWITCH_RARELY
 
-; Pokefanm
+; Tohofanm
 	db 0, 0 ; items
 	db 15 ; base reward
 	dw AI_BASIC + AI_TYPES + AI_SMART + AI_STATUS
 	dw CONTEXT_USE + SWITCH_RARELY
 
-; Pokefanf
+; Tohofanf
 	db 0, 0 ; items
 	db 15 ; base reward
 	dw AI_BASIC + AI_TYPES + AI_SMART + AI_STATUS
@@ -278,7 +278,7 @@ TrainerClassAttributes:
 	dw AI_BASIC + AI_TYPES + AI_OPPORTUNIST + AI_STATUS
 	dw CONTEXT_USE + SWITCH_SOMETIMES
 
-; Pokemaniac
+; Tohomaniac
 	db X_SPEED, 0 ; items
 	db 13 ; base reward
 	dw AI_BASIC + AI_SETUP + AI_OFFENSIVE + AI_AGGRESSIVE + AI_STATUS

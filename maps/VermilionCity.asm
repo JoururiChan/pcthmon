@@ -9,14 +9,14 @@ VermilionCity_MapScriptHeader:
 	def_warp_events
 	warp_event  5,  5, VERMILION_HOUSE_FISHING_SPEECH_HOUSE, 1
 	warp_event  9,  5, VERMILION_POKECENTER_1F, 1
-	warp_event  7, 17, POKEMON_FAN_CLUB, 1
+	warp_event  7, 17, TOHOMON_FAN_CLUB, 1
 	warp_event 13, 17, VERMILION_MAGNET_TRAIN_SPEECH_HOUSE, 1
 	warp_event 21, 17, VERMILION_MART, 2
-	warp_event 21, 21, VERMILION_HOUSE_DIGLETTS_CAVE_SPEECH_HOUSE, 1
+	warp_event 21, 21, VERMILION_HOUSE_CCHIYURIS_CAVE_SPEECH_HOUSE, 1
 	warp_event 10, 23, VERMILION_GYM, 1
 	warp_event 18, 35, VERMILION_PORT, 1
 	warp_event 19, 35, VERMILION_PORT, 3
-	warp_event 36, 17, DIGLETTS_CAVE, 1
+	warp_event 36, 17, CCHIYURIS_CAVE, 1
 	warp_event 28, 35, SEAGALLOP_FERRY_VERMILION_GATE, 1
 	warp_event 29, 35, SEAGALLOP_FERRY_VERMILION_GATE, 1
 	warp_event 13,  5, VERMILION_POLLUTION_SPEECH_HOUSE, 1
@@ -29,8 +29,8 @@ VermilionCity_MapScriptHeader:
 	def_bg_events
 	bg_event 19,  9, BGEVENT_JUMPTEXT, VermilionCitySignText
 	bg_event  5, 23, BGEVENT_JUMPTEXT, VermilionGymSignText
-	bg_event  5, 17, BGEVENT_JUMPTEXT, PokemonFanClubSignText
-	bg_event 33, 17, BGEVENT_JUMPTEXT, VermilionCityDiglettsCaveSignText
+	bg_event  5, 17, BGEVENT_JUMPTEXT, TohomonFanClubSignText
+	bg_event 33, 17, BGEVENT_JUMPTEXT, VermilionCityCChiyurisCaveSignText
 	bg_event 27, 19, BGEVENT_JUMPTEXT, VermilionCityPortSignText
 	bg_event 23, 13, BGEVENT_JUMPTEXT, VermilionCityBattleFactorySignText
 	bg_event 11, 27, BGEVENT_JUMPTEXT, VermilionCityAdvancedTipsSignText
@@ -41,7 +41,7 @@ VermilionCity_MapScriptHeader:
 	object_event 18, 31, SPRITE_LAWRENCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LAWRENCE_VERMILION_CITY
 	object_event 18, 13, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCityTeacherText, -1
 	object_event 27, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionMachokeOwnerScript, -1
-	pokemon_event 28, 13, MACHOKE, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, VermilionMachokeText, -1
+	tohomon_event 28, 13, MACHOKE, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GRAY, VermilionMachokeText, -1
 	object_event 16, 20, SPRITE_ROCKER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCitySuperNerdText, -1
 	object_event 32, 12, SPRITE_POKEMANIAC, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VermilionCitySuperNerd2Script, -1
 	object_event 11,  9, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCitySailorText, -1
@@ -423,15 +423,15 @@ VermilionGymSignText:
 	line "American"
 	done
 
-PokemonFanClubSignText:
+TohomonFanClubSignText:
 	text "#mon Fan Club"
 
 	para "All #mon Fans"
 	line "Welcome!"
 	done
 
-VermilionCityDiglettsCaveSignText:
-	text "Diglett's Cave"
+VermilionCityCChiyurisCaveSignText:
+	text "CChiyuri's Cave"
 	done
 
 VermilionCityPortSignText:

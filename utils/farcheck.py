@@ -17,7 +17,7 @@ suppress = 'far-ok'
 exclude = {
 'data/text/unused_sweet_honey.asm',
 'engine/games/memory_game.asm',
-'gfx/pokemon/frame_pointers.asm',
+'gfx/tohomon/frame_pointers.asm',
 'ram/wram0.asm',
 'ram/wramx.asm',
 }

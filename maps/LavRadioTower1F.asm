@@ -13,7 +13,7 @@ LavRadioTower1F_MapScriptHeader:
 
 	def_bg_events
 	bg_event 11,  0, BGEVENT_JUMPTEXT, LavRadioTower1FDirectoryText
-	bg_event  5,  0, BGEVENT_JUMPTEXT, LavRadioTower1FPokeFluteSignText
+	bg_event  5,  0, BGEVENT_JUMPTEXT, LavRadioTower1FTohoFluteSignText
 
 	def_object_events
 	object_event  6,  6, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavRadioTower1FReceptionistText, -1
@@ -180,7 +180,7 @@ LavRadioTower1FDirectoryText:
 	line "   Office"
 	done
 
-LavRadioTower1FPokeFluteSignText:
+LavRadioTower1FTohoFluteSignText:
 	text "Perk Up #mon"
 	line "with Mellow Sounds"
 

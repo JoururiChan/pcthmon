@@ -159,11 +159,11 @@ MACRO smashrock_event
 	endc
 ENDM
 
-MACRO pokemon_event
+MACRO tohomon_event
 	if _NARG == 9
-		object_event \1, \2, SPRITE_MON_ICON, \4, 0, \3, \5, \6, \7, OBJECTTYPE_POKEMON, NO_FORM, \8, \9
+		object_event \1, \2, SPRITE_MON_ICON, \4, 0, \3, \5, \6, \7, OBJECTTYPE_TOHOMON, NO_FORM, \8, \9
 	else
-		object_event \1, \2, SPRITE_MON_ICON, \5, 0, \3, \6, \7, \8, OBJECTTYPE_POKEMON, \4, \9, \<10>
+		object_event \1, \2, SPRITE_MON_ICON, \5, 0, \3, \6, \7, \8, OBJECTTYPE_TOHOMON, \4, \9, \<10>
 	endc
 ENDM
 

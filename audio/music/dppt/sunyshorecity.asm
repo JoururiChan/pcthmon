@@ -1,4 +1,4 @@
-; Pokémon D/P/Pt - Sunyshore City
+; Tohomon D/P/Pt - Sunyshore City
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/pokecrystal/blob/master/Demixes.zip
 

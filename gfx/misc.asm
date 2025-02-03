@@ -190,7 +190,7 @@ AnimObjIcicleCrashGFX::  INCBIN "gfx/battle_anims/iciclecrash.2bpp.lz"
 AnimObjVoltSwitchGFX::   INCBIN "gfx/battle_anims/voltswitch.2bpp.lz"
 AnimObjPsystrikeGFX::    INCBIN "gfx/battle_anims/psystrike.2bpp.lz"
 AnimObjHurricaneGFX::    INCBIN "gfx/battle_anims/hurricane.2bpp.lz"
-AnimObjPokeBallBGGFX::   INCBIN "gfx/battle_balls/background.2bpp.lz"
+AnimObjTohoBallBGGFX::   INCBIN "gfx/battle_balls/background.2bpp.lz"
 
 
 SECTION "Weather Icons", ROMX
@@ -203,7 +203,7 @@ WeatherHailIconGFX::      INCBIN "gfx/weather/hail.2bpp.lz"
 
 SECTION "Battle Ball Icons", ROMX
 
-AnimObjPokeBallGFX::    INCBIN "gfx/battle_balls/poke_ball.2bpp.lz"
+AnimObjTohoBallGFX::    INCBIN "gfx/battle_balls/poke_ball.2bpp.lz"
 AnimObjGreatBallGFX::   INCBIN "gfx/battle_balls/great_ball.2bpp.lz"
 AnimObjUltraBallGFX::   INCBIN "gfx/battle_balls/ultra_ball.2bpp.lz"
 AnimObjMasterBallGFX::  INCBIN "gfx/battle_balls/master_ball.2bpp.lz"
@@ -235,9 +235,9 @@ SECTION "Painting Pics", ROMX
 HoOhPaintingPic::      INCBIN "gfx/paintings/ho_oh_painting.2bpp.lz"
 LugiaPaintingPic::     INCBIN "gfx/paintings/lugia_painting.2bpp.lz"
 BellTowerPaintingPic:: INCBIN "gfx/paintings/bell_tower_painting.2bpp.lz"
-OmanytePuzzlePic::      INCBIN "gfx/paintings/cyuyuko_puzzle.2bpp.lz"
-KabutoPuzzlePic::     INCBIN "gfx/paintings/lunasa_puzzle.2bpp.lz"
-AerodactylPuzzlePic::  INCBIN "gfx/paintings/ayuyuko_puzzle.2bpp.lz"
+CYuyukoPuzzlePic::      INCBIN "gfx/paintings/cyuyuko_puzzle.2bpp.lz"
+LunasaPuzzlePic::     INCBIN "gfx/paintings/lunasa_puzzle.2bpp.lz"
+AYuyukoPuzzlePic::  INCBIN "gfx/paintings/ayuyuko_puzzle.2bpp.lz"
 HoOhPuzzlePic::        INCBIN "gfx/paintings/ho_oh_puzzle.2bpp.lz"
 
 

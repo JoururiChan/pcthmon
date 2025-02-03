@@ -1,4 +1,4 @@
-CherrygrovePokeCenter1F_MapScriptHeader:
+CherrygroveTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,16 +11,16 @@ CherrygrovePokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalRedScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalRedScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  1,  6, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygrovePokeCenter1FTeacherScript, -1
-	object_event  8,  1, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FFisherText, -1
-	object_event 11,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FGentlemanText, -1
-	object_event  9,  4, SPRITE_LADY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygrovePokeCenter1FLadyText, -1
+	object_event  1,  6, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygroveTohoCenter1FTeacherScript, -1
+	object_event  8,  1, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygroveTohoCenter1FFisherText, -1
+	object_event 11,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygroveTohoCenter1FGentlemanText, -1
+	object_event  9,  4, SPRITE_LADY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygroveTohoCenter1FLadyText, -1
 
-PokemonJournalRedScript:
+TohomonJournalRedScript:
 	setflag ENGINE_READ_RED_JOURNAL
 	jumpthistext
 
@@ -39,7 +39,7 @@ PokemonJournalRedScript:
 	line "record time."
 	done
 
-CherrygrovePokeCenter1FTeacherScript:
+CherrygroveTohoCenter1FTeacherScript:
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
@@ -61,7 +61,7 @@ CherrygrovePokeCenter1FTeacherScript:
 	line "there already!"
 	done
 
-CherrygrovePokeCenter1FFisherText:
+CherrygroveTohoCenter1FFisherText:
 	text "It's great. I can"
 	line "store any number"
 
@@ -69,13 +69,13 @@ CherrygrovePokeCenter1FFisherText:
 	line "it's all free."
 	done
 
-CherrygrovePokeCenter1FGentlemanText:
+CherrygroveTohoCenter1FGentlemanText:
 	text "That PC is free"
 	line "for any trainer"
 	cont "to use."
 	done
 
-CherrygrovePokeCenter1FLadyText:
+CherrygroveTohoCenter1FLadyText:
 	text "#mon Journal"
 	line "has such fascin-"
 	cont "ating stories!"

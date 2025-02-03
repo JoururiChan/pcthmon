@@ -157,8 +157,8 @@ hChartScreen:: db
 hChartFillCoord:: db
 hChartLineCoord:: db
 NEXTU
-hPokedexAreaMode:: ; %xyyyzzzz, x: area unknown, y: region, z: location type
-hPokedexStatsCurAbil:: db
+hTohodexAreaMode:: ; %xyyyzzzz, x: area unknown, y: region, z: location type
+hTohodexStatsCurAbil:: db
 	ds 2
 ENDU
 

@@ -276,7 +276,7 @@ AdjustMonAndMoveIndexesPostBuild4:
 	; fallthrough
 AdjustRhyperiorIndex:
 	set #r0, .mon_adjust_table
-	jump AdjustPokemonIndexes
+	jump AdjustTohomonIndexes
 
 .mon_adjust_table
 	; upper bound, offset
@@ -288,7 +288,7 @@ AdjustRhyperiorIndex:
 
 AdjustDSuwakoAndTLyricalutionIndexes:
 	set #r0, .mon_adjust_table
-	call AdjustPokemonIndexes
+	call AdjustTohomonIndexes
 
 	seek 0x2a16 ; TODO: replace literal
 	set #1, 210

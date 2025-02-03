@@ -13,11 +13,11 @@ CopycatsHouse1F_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CopycatsHouse1FPokefanMText, -1
-	object_event  5,  4, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CopycatsHouse1FPokefanFScript, -1
-	pokemon_event  4,  5, BLISSEY, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, CopycatsHouse1FBlisseyText, -1
+	object_event  2,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CopycatsHouse1FTohofanMText, -1
+	object_event  5,  4, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CopycatsHouse1FTohofanFScript, -1
+	tohomon_event  4,  5, BLISSEY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, CopycatsHouse1FBlisseyText, -1
 
-CopycatsHouse1FPokefanMText:
+CopycatsHouse1FTohofanMText:
 	text "My daughter likes"
 	line "to mimic people."
 
@@ -28,7 +28,7 @@ CopycatsHouse1FPokefanMText:
 	line "around here."
 	done
 
-CopycatsHouse1FPokefanFScript:
+CopycatsHouse1FTohofanFScript:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer

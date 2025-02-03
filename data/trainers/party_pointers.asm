@@ -44,12 +44,12 @@ TrainerGroups:
 	dba HikerGroup
 	dba GruntMGroup
 	dba GruntFGroup
-	dba PokefanMGroup
-	dba PokefanFGroup
+	dba TohofanMGroup
+	dba TohofanFGroup
 	dba OfficerMGroup
 	dba OfficerFGroup
 	dba NurseGroup
-	dba PokemaniacGroup
+	dba TohomaniacGroup
 	dba CosplayerGroup
 	dba SuperNerdGroup
 	dba LassGroup

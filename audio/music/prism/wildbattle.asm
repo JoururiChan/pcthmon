@@ -1,4 +1,4 @@
-; Pokémon Prism - Battle! Wild Pokémon
+; Tohomon Prism - Battle! Wild Tohomon
 ; Composed by LevusBevus
 ; Revised by FroggestSpirit
 

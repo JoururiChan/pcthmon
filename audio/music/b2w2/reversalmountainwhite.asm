@@ -1,4 +1,4 @@
-; Pokémon White 2 - Reversal Mountain
+; Tohomon White 2 - Reversal Mountain
 ; Demixed by Mmmmmm
 ; https://pastebin.com/mUzX8S44
 ; https://hax.iimarckus.org/topic/6777/2/

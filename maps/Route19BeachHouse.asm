@@ -24,8 +24,8 @@ Route19BeachHouseVictorScript:
 	iftruefwd .AfterScript
 	writetext .GreetingText
 	waitbutton
-	special CheckForSurfingEKikuri
-	iffalsefwd .NoEKikuri
+	special CheckForSurfingKikuri
+	iffalsefwd .NoKikuri
 	writetext .ChallengeText
 	yesorno
 	iffalsefwd .NoBattle
@@ -42,8 +42,8 @@ Route19BeachHouseVictorScript:
 .AfterScript:
 	jumpopenedtext .AfterText
 
-.NoEKikuri:
-	jumpopenedtext .NoEKikuriText
+.NoKikuri:
+	jumpopenedtext .NoKikuriText
 
 .NoBattle:
 	jumpopenedtext .NoBattleText
@@ -54,13 +54,13 @@ Route19BeachHouseVictorScript:
 
 	para "I love to Surf,"
 	line "and so does Puka."
-	cont "That's my EKikuri!"
+	cont "That's my Kikuri!"
 	done
 
 .ChallengeText:
 	text "Whoa!"
 
-	para "Your EKikuri knows"
+	para "Your Kikuri knows"
 	line "how to Surf! So,"
 	cont "I'm not alone…"
 
@@ -102,13 +102,13 @@ Route19BeachHouseVictorScript:
 	line "since then."
 	done
 
-.NoEKikuriText:
+.NoKikuriText:
 	text "You can do it,"
 	line "too!"
 
 	para "Go out there and"
 	line "find a Surfing"
-	cont "EKikuri!"
+	cont "Kikuri!"
 
 	para "Show me that you"
 	line "love Surfing too!"
@@ -119,7 +119,7 @@ Route19BeachHouseVictorScript:
 	line "anytime, friend!"
 	done
 
-Route19BeachHouseSurfingEKikuriScript:
+Route19BeachHouseSurfingKikuriScript:
 	faceplayer
 	showcrytext .Text, KIKURI
 	end

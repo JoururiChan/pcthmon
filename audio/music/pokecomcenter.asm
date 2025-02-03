@@ -1,11 +1,11 @@
-Music_PokeComCenter:
+Music_TohoComCenter:
 	channel_count 4
-	channel 1, Music_PokeComCenter_Ch1
-	channel 2, Music_PokeComCenter_Ch2
-	channel 3, Music_PokeComCenter_Ch3
-	channel 4, Music_PokeComCenter_Ch4
+	channel 1, Music_TohoComCenter_Ch1
+	channel 2, Music_TohoComCenter_Ch2
+	channel 3, Music_TohoComCenter_Ch3
+	channel 4, Music_TohoComCenter_Ch4
 
-Music_PokeComCenter_Ch1:
+Music_TohoComCenter_Ch1:
 	tempo 160
 	volume 7, 7
 	duty_cycle 1
@@ -20,7 +20,7 @@ Music_PokeComCenter_Ch1:
 	note G_, 2
 	note A_, 2
 	note B_, 4
-Music_PokeComCenter_branch_179642:
+Music_TohoComCenter_branch_179642:
 	octave 3
 	note E_, 2
 	note C_, 2
@@ -155,9 +155,9 @@ Music_PokeComCenter_branch_179642:
 	note D_, 2
 	note E_, 2
 	note F_, 2
-	sound_jump Music_PokeComCenter_branch_179642
+	sound_jump Music_TohoComCenter_branch_179642
 
-Music_PokeComCenter_Ch2:
+Music_TohoComCenter_Ch2:
 	note_type 12, 12, 2
 	duty_cycle 3
 	rest 10
@@ -165,7 +165,7 @@ Music_PokeComCenter_Ch2:
 	note G_, 2
 	note A_, 2
 	note B_, 2
-Music_PokeComCenter_branch_1796d6:
+Music_TohoComCenter_branch_1796d6:
 	octave 2
 	note C_, 2
 	note E_, 2
@@ -323,9 +323,9 @@ Music_PokeComCenter_branch_1796d6:
 	note F_, 2
 	note E_, 2
 	note D_, 2
-	sound_jump Music_PokeComCenter_branch_1796d6
+	sound_jump Music_TohoComCenter_branch_1796d6
 
-Music_PokeComCenter_Ch3:
+Music_TohoComCenter_Ch3:
 	note_type 12, 2, 4
 	vibrato 16, 3, 4
 	octave 4
@@ -337,7 +337,7 @@ Music_PokeComCenter_Ch3:
 	note C_, 2
 	note D_, 4
 	note_type 12, 2, 5
-Music_PokeComCenter_branch_179788:
+Music_TohoComCenter_branch_179788:
 	note C_, 2
 	octave 4
 	note G_, 2
@@ -449,9 +449,9 @@ Music_PokeComCenter_branch_179788:
 	note D_, 2
 	note C_, 8
 	vibrato 16, 3, 4
-	sound_jump Music_PokeComCenter_branch_179788
+	sound_jump Music_TohoComCenter_branch_179788
 
-Music_PokeComCenter_Ch4:
+Music_TohoComCenter_Ch4:
 	toggle_noise 3
 	stereo_panning FALSE, TRUE
 	drum_speed 12
@@ -461,7 +461,7 @@ Music_PokeComCenter_Ch4:
 	drum_note 2, 1
 	drum_note 2, 1
 	drum_note 2, 1
-Music_PokeComCenter_branch_179813:
+Music_TohoComCenter_branch_179813:
 	drum_note 10, 2
 	drum_note 2, 2
 	drum_note 2, 2
@@ -470,7 +470,7 @@ Music_PokeComCenter_branch_179813:
 	drum_note 2, 2
 	drum_note 3, 2
 	drum_note 2, 2
-	sound_loop 3, Music_PokeComCenter_branch_179813
+	sound_loop 3, Music_TohoComCenter_branch_179813
 	drum_note 10, 2
 	drum_note 2, 2
 	drum_note 2, 2
@@ -481,4 +481,4 @@ Music_PokeComCenter_branch_179813:
 	drum_note 2, 1
 	drum_note 2, 1
 	drum_note 2, 1
-	sound_jump Music_PokeComCenter_branch_179813
+	sound_jump Music_TohoComCenter_branch_179813

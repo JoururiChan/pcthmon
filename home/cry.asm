@@ -49,10 +49,10 @@ LoadCryHeader::
 	call GetCryIndex
 	ret c
 
-	anonbankpush PokemonCries
+	anonbankpush TohomonCries
 
 _LoadCryHeader:
-	ld hl, PokemonCries
+	ld hl, TohomonCries
 rept 6
 	add hl, bc
 endr

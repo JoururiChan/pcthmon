@@ -572,7 +572,7 @@ endr
 	dw .MovementFruit                ; SPRITEMOVEFN_FRUIT
 	dw .MovementBigSLilyBlack          ; SPRITEMOVEFN_BIG_SLILYBLACK
 	dw .StandingFlip                 ; SPRITEMOVEFN_STANDING_FLIP
-	dw .MovementPokecomNews          ; SPRITEMOVEFN_POKECOM_NEWS
+	dw .MovementTohocomNews          ; SPRITEMOVEFN_POKECOM_NEWS
 	dw .MovementMuseumDrill          ; SPRITEMOVEFN_MUSEUM_DRILL
 	dw .MovementSailboatTop          ; SPRITEMOVEFN_SAILBOAT_TOP
 	dw .MovementSailboatBottom       ; SPRITEMOVEFN_SAILBOAT_BOTTOM
@@ -763,7 +763,7 @@ endr
 	ld a, OBJECT_ACTION_BIG_SLILYBLACK
 	jr ._ActionA_StepFunction_Standing
 
-.MovementPokecomNews:
+.MovementTohocomNews:
 	ld a, OBJECT_ACTION_POKECOM_NEWS
 	jr ._ActionA_StepFunction_Standing
 

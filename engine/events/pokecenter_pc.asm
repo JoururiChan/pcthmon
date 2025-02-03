@@ -1,10 +1,10 @@
-PokemonCenterPC:
-	call PC_CheckPartyForPokemon
+TohomonCenterPC:
+	call PC_CheckPartyForTohomon
 	ret c
 	call PC_PlayBootSound
-	ld hl, PokeCenterPCText_BootedUpPC
+	ld hl, TohoCenterPCText_BootedUpPC
 	call PC_DisplayText
-	ld hl, PokeCenterPCText_AccessWhosePC
+	ld hl, TohoCenterPCText_AccessWhosePC
 	call PC_DisplayTextWaitMenu
 	ld hl, .TopMenu
 	call LoadMenuHeader
@@ -81,25 +81,25 @@ PokemonCenterPC:
 	ld a, $2
 	ret
 
-PC_CheckPartyForPokemon:
+PC_CheckPartyForTohomon:
 	ld a, [wPartyCount]
 	and a
 	ret nz
 	ld de, SFX_CHOOSE_PC_OPTION
 	call PlaySFX
-	ld hl, .MustHavePokemonToUse
+	ld hl, .MustHaveTohomonToUse
 	call PC_DisplayText
 	scf
 	ret
 
-.MustHavePokemonToUse:
+.MustHaveTohomonToUse:
 	; Bzzzzt! You must have a #MON to use this!
-	text_far _PokecenterPCCantUseText
+	text_far _TohocenterPCCantUseText
 	text_end
 
 BillsPC:
 	call PC_PlayChoosePCSound
-	ld hl, PokeCenterPCText_AccessedBillsPC
+	ld hl, TohoCenterPCText_AccessedBillsPC
 	call PC_DisplayText
 	farcall _BillsPC
 	and a
@@ -107,7 +107,7 @@ BillsPC:
 
 PlayersPC:
 	call PC_PlayChoosePCSound
-	ld hl, PokeCenterPCText_AccessedOwnPC
+	ld hl, TohoCenterPCText_AccessedOwnPC
 	call PC_DisplayText
 	ld b, $0
 	call _PlayersPC
@@ -116,7 +116,7 @@ PlayersPC:
 
 OaksPC:
 	call PC_PlayChoosePCSound
-	ld hl, PokeCenterPCText_AccessedOaksPC
+	ld hl, TohoCenterPCText_AccessedOaksPC
 	call PC_DisplayText
 	farcall ProfOaksPC
 	and a
@@ -131,7 +131,7 @@ HallOfFamePC:
 	ret
 
 TurnOffPC:
-	ld hl, PokeCenterPCText_LinkClosed
+	ld hl, TohoCenterPCText_LinkClosed
 	call PrintText
 	scf
 	ret
@@ -150,9 +150,9 @@ PC_PlayChoosePCSound:
 	jr PC_WaitPlaySFX
 
 PC_PlaySwapItemsSound:
-	ld de, SFX_SWITCH_POKEMON
+	ld de, SFX_SWITCH_TOHOMON
 	call PC_WaitPlaySFX
-	ld de, SFX_SWITCH_POKEMON
+	ld de, SFX_SWITCH_TOHOMON
 
 PC_WaitPlaySFX:
 	push de
@@ -609,32 +609,32 @@ PC_DisplayText:
 	call MenuTextbox
 	jmp ExitMenu
 
-PokeCenterPCText_BootedUpPC:
+TohoCenterPCText_BootedUpPC:
 	; turned on the PC.
-	text_far _PokecenterPCTurnOnText
+	text_far _TohocenterPCTurnOnText
 	text_end
 
-PokeCenterPCText_AccessWhosePC:
+TohoCenterPCText_AccessWhosePC:
 	; Access whose PC?
-	text_far _PokecenterPCWhoseText
+	text_far _TohocenterPCWhoseText
 	text_end
 
-PokeCenterPCText_AccessedBillsPC:
+TohoCenterPCText_AccessedBillsPC:
 	; BILL's PC accessed. #MON Storage System opened.
-	text_far _PokecenterBillsPCText
+	text_far _TohocenterBillsPCText
 	text_end
 
-PokeCenterPCText_AccessedOwnPC:
+TohoCenterPCText_AccessedOwnPC:
 	; Accessed own PC. Item Storage System opened.
-	text_far _PokecenterPlayersPCText
+	text_far _TohocenterPlayersPCText
 	text_end
 
-PokeCenterPCText_AccessedOaksPC:
+TohoCenterPCText_AccessedOaksPC:
 	; PROF.OAK's PC accessed. #DEX Rating System opened.
-	text_far _PokecenterOaksPCText
+	text_far _TohocenterOaksPCText
 	text_end
 
-PokeCenterPCText_LinkClosed:
+TohoCenterPCText_LinkClosed:
 	; … Link closed…
-	text_far _PokecenterPCOaksClosedText
+	text_far _TohocenterPCOaksClosedText
 	text_end

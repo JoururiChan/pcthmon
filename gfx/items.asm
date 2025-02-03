@@ -1,8 +1,8 @@
 SECTION "NoItemIcon", ROMX
 NoItemIcon:: INCBIN "gfx/items/no_item.2bpp.lz"
 
-SECTION "PokeBallIcon", ROMX
-PokeBallIcon:: INCBIN "gfx/items/poke_ball.2bpp.lz"
+SECTION "TohoBallIcon", ROMX
+TohoBallIcon:: INCBIN "gfx/items/poke_ball.2bpp.lz"
 
 SECTION "GreatBallIcon", ROMX
 GreatBallIcon:: INCBIN "gfx/items/great_ball.2bpp.lz"
@@ -181,8 +181,8 @@ MaxRepelIcon:: INCBIN "gfx/items/repel.2bpp.lz"
 SECTION "EscapeRopeIcon", ROMX
 EscapeRopeIcon:: INCBIN "gfx/items/escape_rope.2bpp.lz"
 
-SECTION "PokeDollIcon", ROMX
-PokeDollIcon:: INCBIN "gfx/items/poke_doll.2bpp.lz"
+SECTION "TohoDollIcon", ROMX
+TohoDollIcon:: INCBIN "gfx/items/poke_doll.2bpp.lz"
 
 SECTION "AbilityCapIcon", ROMX
 AbilityCapIcon:: INCBIN "gfx/items/ability_cap.2bpp.lz"
@@ -588,8 +588,8 @@ ProtectorIcon:: INCBIN "gfx/items/protector.2bpp.lz"
 SECTION "ElectirizerIcon", ROMX
 ElectirizerIcon:: INCBIN "gfx/items/electirizer.2bpp.lz"
 
-SECTION "MagmarizerIcon", ROMX
-MagmarizerIcon:: INCBIN "gfx/items/magmarizer.2bpp.lz"
+SECTION "LilyWhiteizerIcon", ROMX
+LilyWhiteizerIcon:: INCBIN "gfx/items/magmarizer.2bpp.lz"
 
 SECTION "RazorFangIcon", ROMX
 RazorFangIcon:: INCBIN "gfx/items/razor_fang.2bpp.lz"
@@ -637,8 +637,8 @@ SECTION "LeafIcon", ROMX
 SilverLeafIcon::
 GoldLeafIcon:: INCBIN "gfx/items/leaf.2bpp.lz"
 
-SECTION "SlowpokeTailIcon", ROMX
-SlowpokeTailIcon:: INCBIN "gfx/items/slowpoketail.2bpp.lz"
+SECTION "WakasagiTailIcon", ROMX
+WakasagiTailIcon:: INCBIN "gfx/items/wakasagitail.2bpp.lz"
 
 SECTION "BottleCapIcon", ROMX
 BottleCapIcon:: INCBIN "gfx/items/bottle_cap.2bpp.lz"

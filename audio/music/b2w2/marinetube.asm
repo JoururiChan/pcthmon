@@ -1,4 +1,4 @@
-; Pokémon B2/W2 - Marine Tube
+; Tohomon B2/W2 - Marine Tube
 ; Demixed by Mmmmmm
 ; https://pastebin.com/nGD7xAga
 ; https://hax.iimarckus.org/topic/6777/

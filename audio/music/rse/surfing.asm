@@ -1,7 +1,7 @@
-; Pokémon R/S/E - Surfing
+; Tohomon R/S/E - Surfing
 ; Demixed by Monstarules
 ; https://pastebin.com/xdjW2gd4
-; https://soundcloud.com/monstarules/pokemon-rse-surf-theme-gbc-conversion
+; https://soundcloud.com/monstarules/tohomon-rse-surf-theme-gbc-conversion
 
 Music_SurfRSE:
 	channel_count 3

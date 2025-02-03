@@ -1,4 +1,4 @@
-Route10PokeCenter1F_MapScriptHeader:
+Route10TohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,15 +11,15 @@ Route10PokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalAgathaScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalAgathaScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  8,  2, SPRITE_GYM_GUY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route10PokeCenter1FGymGuyScript, -1
-	object_event  9,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route10PokeCenter1FGentlemanText, -1
-	object_event  2,  3, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route10PokeCenter1FCooltrainerfText, -1
+	object_event  8,  2, SPRITE_GYM_GUY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route10TohoCenter1FGymGuyScript, -1
+	object_event  9,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route10TohoCenter1FGentlemanText, -1
+	object_event  2,  3, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route10TohoCenter1FCooltrainerfText, -1
 
-PokemonJournalAgathaScript:
+TohomonJournalAgathaScript:
 	setflag ENGINE_READ_AGATHA_JOURNAL
 	jumpthistext
 
@@ -36,7 +36,7 @@ PokemonJournalAgathaScript:
 	line "emacy as trainers."
 	done
 
-Route10PokeCenter1FGymGuyScript:
+Route10TohoCenter1FGymGuyScript:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
@@ -65,7 +65,7 @@ Route10PokeCenter1FGymGuyScript:
 	line "thing about that."
 	done
 
-Route10PokeCenter1FGentlemanText:
+Route10TohoCenter1FGentlemanText:
 	text "A #mon Center"
 	line "near a cave?"
 
@@ -73,7 +73,7 @@ Route10PokeCenter1FGentlemanText:
 	line "convenient."
 	done
 
-Route10PokeCenter1FCooltrainerfText:
+Route10TohoCenter1FCooltrainerfText:
 	text "When you go out-"
 	line "side, you can see"
 

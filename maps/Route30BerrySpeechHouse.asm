@@ -12,9 +12,9 @@ Route30BerrySpeechHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route30BerryHousePokefanMScript, -1
+	object_event  2,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route30BerryHouseTohofanMScript, -1
 
-Route30BerryHousePokefanMScript:
+Route30BerryHouseTohofanMScript:
 	faceplayer
 	opentext
 	checkevent EVENT_GOT_MULCH_FROM_ROUTE_30_HOUSE

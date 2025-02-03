@@ -19,8 +19,8 @@ SpriteAnimFrameData:
 	dw .Frameset_SlotsEgg
 	dw .Frameset_RedWalk
 	dw .Frameset_StillCursor
-	dw .Frameset_TradePokeBall
-	dw .Frameset_TradePokeBallWobble
+	dw .Frameset_TradeTohoBall
+	dw .Frameset_TradeTohoBallWobble
 	dw .Frameset_TradePoof
 	dw .Frameset_TradeTubeBulge
 	dw .Frameset_TrademonIcon
@@ -189,11 +189,11 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_STILL_CURSOR, 32
 	oamend
 
-.Frameset_TradePokeBall:
+.Frameset_TradeTohoBall:
 	oamframe SPRITE_ANIM_OAMSET_TRADE_POKE_BALL_1, 32
 	oamend
 
-.Frameset_TradePokeBallWobble:
+.Frameset_TradeTohoBallWobble:
 	oamframe SPRITE_ANIM_OAMSET_TRADE_POKE_BALL_1,  3
 	oamframe SPRITE_ANIM_OAMSET_TRADE_POKE_BALL_2,  3
 	oamframe SPRITE_ANIM_OAMSET_TRADE_POKE_BALL_1,  3

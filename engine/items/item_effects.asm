@@ -11,31 +11,31 @@ _DoItemEffect::
 ItemEffects:
 ; entries correspond to item ids (see constants/item_constants.asm)
 	table_width 2
-	dw PokeBallEffect     ; PARK_BALL
-	dw PokeBallEffect     ; POKE_BALL
-	dw PokeBallEffect     ; GREAT_BALL
-	dw PokeBallEffect     ; ULTRA_BALL
-	dw PokeBallEffect     ; MASTER_BALL
-	dw PokeBallEffect     ; SAFARI_BALL
-	dw PokeBallEffect     ; LEVEL_BALL
-	dw PokeBallEffect     ; LURE_BALL
-	dw PokeBallEffect     ; MOON_BALL
-	dw PokeBallEffect     ; FRIEND_BALL
-	dw PokeBallEffect     ; FAST_BALL
-	dw PokeBallEffect     ; HEAVY_BALL
-	dw PokeBallEffect     ; LOVE_BALL
-	dw PokeBallEffect     ; REPEAT_BALL
-	dw PokeBallEffect     ; TIMER_BALL
-	dw PokeBallEffect     ; NEST_BALL
-	dw PokeBallEffect     ; NET_BALL
-	dw PokeBallEffect     ; DIVE_BALL
-	dw PokeBallEffect     ; LUXURY_BALL
-	dw PokeBallEffect     ; HEAL_BALL
-	dw PokeBallEffect     ; QUICK_BALL
-	dw PokeBallEffect     ; DUSK_BALL
-	dw PokeBallEffect     ; DREAM_BALL
-	dw PokeBallEffect     ; PREMIER_BALL
-	dw PokeBallEffect     ; CHERISH_BALL
+	dw TohoBallEffect     ; PARK_BALL
+	dw TohoBallEffect     ; POKE_BALL
+	dw TohoBallEffect     ; GREAT_BALL
+	dw TohoBallEffect     ; ULTRA_BALL
+	dw TohoBallEffect     ; MASTER_BALL
+	dw TohoBallEffect     ; SAFARI_BALL
+	dw TohoBallEffect     ; LEVEL_BALL
+	dw TohoBallEffect     ; LURE_BALL
+	dw TohoBallEffect     ; MOON_BALL
+	dw TohoBallEffect     ; FRIEND_BALL
+	dw TohoBallEffect     ; FAST_BALL
+	dw TohoBallEffect     ; HEAVY_BALL
+	dw TohoBallEffect     ; LOVE_BALL
+	dw TohoBallEffect     ; REPEAT_BALL
+	dw TohoBallEffect     ; TIMER_BALL
+	dw TohoBallEffect     ; NEST_BALL
+	dw TohoBallEffect     ; NET_BALL
+	dw TohoBallEffect     ; DIVE_BALL
+	dw TohoBallEffect     ; LUXURY_BALL
+	dw TohoBallEffect     ; HEAL_BALL
+	dw TohoBallEffect     ; QUICK_BALL
+	dw TohoBallEffect     ; DUSK_BALL
+	dw TohoBallEffect     ; DREAM_BALL
+	dw TohoBallEffect     ; PREMIER_BALL
+	dw TohoBallEffect     ; CHERISH_BALL
 	dw RestoreHPEffect    ; POTION
 	dw RestoreHPEffect    ; SUPER_POTION
 	dw RestoreHPEffect    ; HYPER_POTION
@@ -108,7 +108,7 @@ ItemEffects:
 	dw RepelEffect        ; SUPER_REPEL
 	dw RepelEffect        ; MAX_REPEL
 	dw EscapeRope         ; ESCAPE_ROPE
-	dw PokeDoll           ; POKE_DOLL
+	dw TohoDoll           ; POKE_DOLL
 	dw IsntTheTimeMessage ; MULCH
 	dw SweetHoney         ; SWEET_HONEY
 	dw XItemEffect        ; X_ATTACK
@@ -230,7 +230,7 @@ ItemEffects:
 	dw IsntTheTimeMessage ; DUBIOUS_DISC
 	dw IsntTheTimeMessage ; PROTECTOR
 	dw IsntTheTimeMessage ; ELECTIRIZER
-	dw IsntTheTimeMessage ; MAGMARIZER
+	dw IsntTheTimeMessage ; LILYWHITEIZER
 	dw IsntTheTimeMessage ; RAZOR_FANG
 	dw IsntTheTimeMessage ; RAZOR_CLAW
 	dw IsntTheTimeMessage ; OVAL_STONE
@@ -252,7 +252,7 @@ ItemEffects:
 	dw IsntTheTimeMessage ; STAR_PIECE
 	dw IsntTheTimeMessage ; BRICK_PIECE
 	dw IsntTheTimeMessage ; RARE_BONE
-	dw IsntTheTimeMessage ; SLOWPOKETAIL
+	dw IsntTheTimeMessage ; WAKASAGITAIL
 	dw IsntTheTimeMessage ; HELIX_FOSSIL
 	dw IsntTheTimeMessage ; DOME_FOSSIL
 	dw IsntTheTimeMessage ; OLD_AMBER
@@ -320,7 +320,7 @@ KeyItemEffects:
 	dw IsntTheTimeMessage ; CATCH_CHARM
 	assert_table_length NUM_KEY_ITEMS
 
-PokeBallEffect:
+TohoBallEffect:
 	; Replacing caught balls
 	ld a, [wBattleMode]
 	and a ; overworld
@@ -476,7 +476,7 @@ PokeBallEffect:
 	call CheckReceivedDex
 	jr z, .skip_pokedex
 
-	ld hl, Text_AddedToPokedex
+	ld hl, Text_AddedToTohodex
 	call PrintText
 
 	call ClearSprites
@@ -485,7 +485,7 @@ PokeBallEffect:
 	ld [wTempSpecies], a
 	ld a, [wOTPartyMon1Form]
 	ld [wTempForm], a ; is any of this necessary?
-	farcall NewPokedexEntry
+	farcall NewTohodexEntry
 
 .skip_pokedex
 	ld a, [wBattleType]
@@ -493,7 +493,7 @@ PokeBallEffect:
 	jmp z, .catch_bug_contest_mon
 
 	ld hl, wBattleResult
-	set BATTLERESULT_CAUGHT_POKEMON_F, [hl]
+	set BATTLERESULT_CAUGHT_TOHOMON_F, [hl]
 
 	ld a, [wPartyCount]
 	cp PARTY_LENGTH
@@ -558,7 +558,7 @@ PokeBallEffect:
 	call HealPartyMon
 .SkipPartyMonHealBall:
 
-	call GetPartyPokemonName
+	call GetPartyTohomonName
 	ld hl, Text_AskNicknameNewlyCaughtMon
 	call PrintText
 	call YesNoBox
@@ -576,7 +576,7 @@ PokeBallEffect:
 	push de
 	xor a ; PARTYMON
 	ld [wMonType], a
-	ld b, $0 ; pokemon
+	ld b, $0 ; tohomon
 	farcall NamingScreen
 
 	ld c, 15
@@ -606,12 +606,12 @@ PokeBallEffect:
 	ld a, [wCurItem]
 	cp FRIEND_BALL
 	jr nz, .SkipBoxMonFriendBall
-	; caught Pokemon become the first Pokemon in the box
+	; caught Tohomon become the first Tohomon in the box
 	ld a, FRIEND_BALL_HAPPINESS
 	ld [wTempMonHappiness], a
 .SkipBoxMonFriendBall:
 
-	call GetPartyPokemonName
+	call GetPartyTohomonName
 	ld hl, Text_AskNicknameNewlyCaughtMon
 	call PrintText
 	call YesNoBox
@@ -622,7 +622,7 @@ PokeBallEffect:
 	ld a, TEMPMON
 	ld [wMonType], a
 	ld de, wMonOrItemNameBuffer
-	ld b, $0 ; pokemon
+	ld b, $0 ; tohomon
 	farcall NamingScreen
 
 	ld hl, wMonOrItemNameBuffer
@@ -807,7 +807,7 @@ Text_SentToBillsPC:
 	text_far _MonSentToPCText
 	text_end
 
-Text_AddedToPokedex:
+Text_AddedToTohodex:
 	; 's data was newly added to the #DEX.@ @
 	text_far _NewDexDataText
 	text_end
@@ -831,11 +831,11 @@ EvoStoneEffect:
 	jr z, .no_effect
 
 .force_evolution
-	ld a, PARTYMENUACTION_CHOOSE_POKEMON
+	ld a, PARTYMENUACTION_CHOOSE_TOHOMON
 	ld [wPartyMenuActionText], a
 	ld a, $1
 	ld [wForceEvolution], a
-	farcall EvolvePokemon
+	farcall EvolveTohomon
 
 	ld a, [wMonTriedToEvolve]
 	and a
@@ -1063,7 +1063,7 @@ RareCandy:
 
 	xor a
 	ld [wForceEvolution], a
-	farcall EvolvePokemon
+	farcall EvolveTohomon
 
 	jmp UseDisposableItem
 
@@ -1182,7 +1182,7 @@ RevivalHerb:
 	call UseItem_SelectMon
 	jmp c, ItemNotUsed_ExitMenu
 
-	call RevivePokemon
+	call ReviveTohomon
 	and a
 	jmp nz, WontHaveAnyEffectMessage
 
@@ -1195,12 +1195,12 @@ ReviveEffect:
 	call UseItem_SelectMon
 	jmp c, ItemNotUsed_ExitMenu
 
-	call RevivePokemon
+	call ReviveTohomon
 	and a
 	jmp nz, WontHaveAnyEffectMessage
 	ret
 
-RevivePokemon:
+ReviveTohomon:
 	call IsMonFainted
 	ld a, 1
 	ret nz
@@ -1694,7 +1694,7 @@ FreshSnackFunction:
 	ld a, [wPartyMenuCursor]
 	dec a
 	ld b, a
-	call .SelectFreshSnackRecipient ; select pokemon
+	call .SelectFreshSnackRecipient ; select tohomon
 	jr c, .skip
 	ld a, b
 	ld [wCurPartyMon], a
@@ -1787,7 +1787,7 @@ TextJump_RepelUsedEarlierIsStillInEffect:
 	text_far Text_RepelUsedEarlierIsStillInEffect
 	text_end
 
-PokeDoll:
+TohoDoll:
 	ld a, [wBattleMode]
 	dec a
 	jmp nz, ItemNotUsed_ExitMenu ; not a wild battle
@@ -1983,7 +1983,7 @@ WingCase_MonSelected:
 	add hl, bc
 	ld a, [hl]
 	ld [wNamedObjectIndex+1], a
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, ItemStatRoseText
 	call PrintText
 
@@ -2548,7 +2548,7 @@ _ItemWasntUsedMessage:
 	ret
 
 Ball_ReplacePartyMonCaughtBall:
-	ld b, PARTYMENUACTION_CHOOSE_POKEMON
+	ld b, PARTYMENUACTION_CHOOSE_TOHOMON
 	call UseItem_SelectMon
 	jr c, ItemNotUsed_ExitMenu
 

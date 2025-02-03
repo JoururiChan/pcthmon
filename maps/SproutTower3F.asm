@@ -1,35 +1,35 @@
-SproutTower3F_MapScriptHeader:
+AutumnTower3F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
 
 	def_warp_events
-	warp_event  8, 14, SPROUT_TOWER_2F, 4
+	warp_event  8, 14, AUTUMN_TOWER_2F, 4
 
 	def_coord_events
-	coord_event  9,  9, 0, SproutTower3FRivalScene
+	coord_event  9,  9, 0, AutumnTower3FRivalScene
 
 	def_bg_events
-	bg_event  6,  1, BGEVENT_JUMPTEXT, SproutTower3FStatueText
-	bg_event  9,  1, BGEVENT_JUMPTEXT, SproutTower3FStatueText
-	bg_event  7,  0, BGEVENT_JUMPTEXT, SproutTower3FPaintingText
-	bg_event  8,  0, BGEVENT_JUMPTEXT, SproutTower3FPaintingText
-	bg_event  3, 15, BGEVENT_JUMPTEXT, SproutTower3FStatueText
-	bg_event 12, 15, BGEVENT_JUMPTEXT, SproutTower3FStatueText
+	bg_event  6,  1, BGEVENT_JUMPTEXT, AutumnTower3FStatueText
+	bg_event  9,  1, BGEVENT_JUMPTEXT, AutumnTower3FStatueText
+	bg_event  7,  0, BGEVENT_JUMPTEXT, AutumnTower3FPaintingText
+	bg_event  8,  0, BGEVENT_JUMPTEXT, AutumnTower3FPaintingText
+	bg_event  3, 15, BGEVENT_JUMPTEXT, AutumnTower3FStatueText
+	bg_event 12, 15, BGEVENT_JUMPTEXT, AutumnTower3FStatueText
 
 	def_object_events
-	object_event  8,  4, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_SPROUT_TOWER
+	object_event  8,  4, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_AUTUMN_TOWER
 	object_event  6, 13, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSageJin, -1
 	object_event  6,  8, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerSageTroy, -1
 	object_event  9, 11, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSageNeal, -1
 	object_event  8,  2, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ElderLiScript, -1
-	itemball_event  4, 14, POTION, 1, EVENT_SPROUT_TOWER_3F_POTION
-	itemball_event 12,  1, ESCAPE_ROPE, 1, EVENT_SPROUT_TOWER_3F_ESCAPE_ROPE
+	itemball_event  4, 14, POTION, 1, EVENT_AUTUMN_TOWER_3F_POTION
+	itemball_event 12,  1, ESCAPE_ROPE, 1, EVENT_AUTUMN_TOWER_3F_ESCAPE_ROPE
 
 	object_const_def
-	const SPROUTTOWER3F_RIVAL
+	const AUTUMNTOWER3F_RIVAL
 
-SproutTower3FRivalScene:
+AutumnTower3FRivalScene:
 	turnobject PLAYER, UP
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special Special_FadeOutMusic
@@ -38,24 +38,24 @@ SproutTower3FRivalScene:
 	pause 15
 	playsound SFX_TACKLE
 	earthquake 79
-	applymovement PLAYER, SproutTower3FPlayerApproachesRivalMovement
-	applyonemovement SPROUTTOWER3F_RIVAL, step_up
-	showtext SproutTowerElderLecturesRivalText
-	showemote EMOTE_SHOCK, SPROUTTOWER3F_RIVAL, 15
-	turnobject SPROUTTOWER3F_RIVAL, DOWN
+	applymovement PLAYER, AutumnTower3FPlayerApproachesRivalMovement
+	applyonemovement AUTUMNTOWER3F_RIVAL, step_up
+	showtext AutumnTowerElderLecturesRivalText
+	showemote EMOTE_SHOCK, AUTUMNTOWER3F_RIVAL, 15
+	turnobject AUTUMNTOWER3F_RIVAL, DOWN
 	pause 15
-	applymovement SPROUTTOWER3F_RIVAL, SproutTower3FRivalLeavesElderMovement
+	applymovement AUTUMNTOWER3F_RIVAL, AutumnTower3FRivalLeavesElderMovement
 	playmusic MUSIC_RIVAL_ENCOUNTER
-	showtext SproutTowerRivalOnlyCareAboutStrongText
-	turnobject SPROUTTOWER3F_RIVAL, UP
+	showtext AutumnTowerRivalOnlyCareAboutStrongText
+	turnobject AUTUMNTOWER3F_RIVAL, UP
 	opentext
-	writetext SproutTowerRivalUsedEscapeRopeText
+	writetext AutumnTowerRivalUsedEscapeRopeText
 	pause 15
 	closetext
 	playsound SFX_WARP_TO
 	special Special_FadeBlackQuickly
 	special Special_ReloadSpritesNoPalettes
-	disappear SPROUTTOWER3F_RIVAL
+	disappear AUTUMNTOWER3F_RIVAL
 	waitsfx
 	special Special_FadeInQuickly
 	setscene $1
@@ -126,19 +126,19 @@ GenericTrainerSageNeal:
 	line "on your journey."
 	done
 
-SproutTower3FPlayerApproachesRivalMovement:
+AutumnTower3FPlayerApproachesRivalMovement:
 	step_up
 	step_up
 	step_up
 	step_up
 	step_end
 
-SproutTower3FRivalLeavesElderMovement:
+AutumnTower3FRivalLeavesElderMovement:
 	step_right
 	step_down
 	step_end
 
-SproutTowerElderLecturesRivalText:
+AutumnTowerElderLecturesRivalText:
 	text "Elder: You are in-"
 	line "deed skilled as a"
 	cont "trainer."
@@ -159,7 +159,7 @@ SproutTowerElderLecturesRivalText:
 	line "tools of war…"
 	done
 
-SproutTowerRivalOnlyCareAboutStrongText:
+AutumnTowerRivalOnlyCareAboutStrongText:
 	text "…"
 	line "…Humph!"
 
@@ -185,7 +185,7 @@ SproutTowerRivalOnlyCareAboutStrongText:
 	cont "weak #mon."
 	done
 
-SproutTowerRivalUsedEscapeRopeText:
+AutumnTowerRivalUsedEscapeRopeText:
 	text "<RIVAL> used an"
 	line "Escape Rope!"
 	done
@@ -194,7 +194,7 @@ SageLiSeenText:
 	text "So good of you to"
 	line "come here!"
 
-	para "Sprout Tower is a"
+	para "Autumn Tower is a"
 	line "place of training."
 
 	para "People and #mon"
@@ -267,13 +267,13 @@ SageNealBeatenText:
 	line "is bright!"
 	done
 
-SproutTower3FPaintingText:
+AutumnTower3FPaintingText:
 	text "It's a powerful"
 	line "painting of a"
 	cont "Bellsprout."
 	done
 
-SproutTower3FStatueText:
+AutumnTower3FStatueText:
 	text "A #mon statue…"
 
 	para "It looks very"

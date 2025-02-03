@@ -188,14 +188,14 @@ GetMapEncounterRate:
 	ret
 
 ApplyMusicEffectOnEncounterRate::
-; Pokemon March and Ruins of Alph signal double encounter rate.
-; Pokemon Lullaby halves encounter rate.
+; Tohomon March and Ruins of Alph signal double encounter rate.
+; Tohomon Lullaby halves encounter rate.
 	ld a, [wMapMusic]
-	cp MUSIC_POKEMON_MARCH
+	cp MUSIC_TOHOMON_MARCH
 	jr z, .double
 	cp MUSIC_RUINS_OF_ALPH_RADIO
 	jr z, .double
-	cp MUSIC_POKEMON_LULLABY
+	cp MUSIC_TOHOMON_LULLABY
 	ret nz
 	srl b
 	ret
@@ -415,7 +415,7 @@ _ChooseWildEncounter:
 	ld [wWildMonForm], a
 	ld a, b
 	ld [wTempWildMonSpecies], a
-	call IsAPokemon
+	call IsATohomon
 	jr c, .nowildbattle
 
 	ld a, [wMapGroup]
@@ -928,7 +928,7 @@ RandomPhoneRareWildMon:
 
 .GetGrassmon:
 	push hl
-	ld bc, 5 + 4 * 3 ; Location of the level of the 5th wild Pokemon in that map
+	ld bc, 5 + 4 * 3 ; Location of the level of the 5th wild Tohomon in that map
 	add hl, bc
 	call GetTimeOfDayNotEve
 	ld bc, NUM_GRASSMON * 3
@@ -940,9 +940,9 @@ RandomPhoneRareWildMon:
 	add hl, bc
 	add hl, bc
 	add hl, bc
-; We now have the pointer to one of the last (rarest) three wild Pokemon found in that area.
+; We now have the pointer to one of the last (rarest) three wild Tohomon found in that area.
 	inc hl
-	ld a, [hli] ; Contains the species index of this rare Pokemon
+	ld a, [hli] ; Contains the species index of this rare Tohomon
 	ld c, a
 	ld a, [hl] ; Contains the form (including extspecies)
 	ld b, a
@@ -950,11 +950,11 @@ RandomPhoneRareWildMon:
 	pop hl
 	ld de, 5 + 0 * 3
 	add hl, de
-	inc hl ; Species index of the most common Pokemon on that route
+	inc hl ; Species index of the most common Tohomon on that route
 	ld d, 4
 .loop2
 	ld a, [hli]
-	cp c ; Compare this Pokemon with the rare one stored in c.
+	cp c ; Compare this Tohomon with the rare one stored in c.
 	ld a, [hli]
 	jr nz, .next
 	xor b ; Compare extspecies bit
@@ -964,7 +964,7 @@ RandomPhoneRareWildMon:
 	inc hl
 	dec d
 	jr nz, .loop2
-; This Pokemon truly is rare.
+; This Tohomon truly is rare.
 	push bc
 	dec c
 	ld a, c
@@ -979,7 +979,7 @@ RandomPhoneRareWildMon:
 	ld [hli], a
 	ld a, b
 	ld [hl], a
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, .SawRareMonText
 	call PrintText
 	xor a
@@ -1030,7 +1030,7 @@ RandomPhoneWildMon:
 	ld a, [hl]
 	ld [wCurForm], a
 	ld [wNamedObjectIndex + 1], a
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, wStringBuffer1
 	ld de, wStringBuffer4
 	ld bc, MON_NAME_LENGTH
@@ -1151,7 +1151,7 @@ RandomPhoneMon:
 	ld [wNamedObjectIndex], a
 	ld a, h
 	ld [wNamedObjectIndex+1], a
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, wStringBuffer1
 	ld de, wStringBuffer4
 	ld bc, MON_NAME_LENGTH

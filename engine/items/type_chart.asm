@@ -143,8 +143,8 @@ ENDM
 	oamdata  48,  38, $16, 1 ; Earth x0 Flying
 	oamdata  34,  59, $16, 1 ; Ghost x0 Illusion
 	oamdata  62,  94, $16, 1 ; Wind x0 Earth
-	oamdata 146, 101, $16, 1 ; Psychic x0 Dark
-	oamdata 153, 115, $16, 1 ; Faith x0 Fairy
+	oamdata 146, 101, $16, 1 ; Reason x0 Dark
+	oamdata 153, 115, $16, 1 ; Faith x0 Heart
 	; not very effective
 	oamdata  69,  18, $18, 2 ; Illusion x0.5 Beast
 	; super effective
@@ -153,14 +153,14 @@ ENDM
 	oamdata  54,   8, $1c, 3 ; Illusion x1 Poison
 	oamdata  96,   8, $1c, 3 ; Illusion x1 Fire
 	oamdata 110,   8, $1c, 3 ; Illusion x1 Nature
-	oamdata 124,   8, $1c, 3 ; Illusion x1 Psychic
+	oamdata 124,   8, $1c, 3 ; Illusion x1 Reason
 	oamdata 138,   8, $1c, 3 ; Illusion x1 Faith
-	oamdata 152,   8, $1c, 3 ; Illusion x1 Fairy
+	oamdata 152,   8, $1c, 3 ; Illusion x1 Heart
 	; left off-white
 	oamdata  32,  30, $1e, 3 ; Poison x1 Illusion
 	oamdata  32,  44, $1e, 3 ; Beast x1 Illusion
 	oamdata  32,  72, $1e, 3 ; Fire x1 Illusion
 	oamdata  32,  86, $1e, 3 ; Nature x1 Illusion
-	oamdata  32, 100, $1e, 3 ; Psychic x1 Illusion
+	oamdata  32, 100, $1e, 3 ; Reason x1 Illusion
 	oamdata  32, 114, $1e, 3 ; Faith x1 Illusion
-	oamdata  32, 128, $1e, 3 ; Fairy x1 Illusion
+	oamdata  32, 128, $1e, 3 ; Heart x1 Illusion

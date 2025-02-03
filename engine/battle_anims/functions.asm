@@ -31,8 +31,8 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_WaterGun
 	dw BattleAnimFunction_Ember
 	dw BattleAnimFunction_Powder
-	dw BattleAnimFunction_PokeBall
-	dw BattleAnimFunction_PokeBallBlocked
+	dw BattleAnimFunction_TohoBall
+	dw BattleAnimFunction_TohoBallBlocked
 	dw BattleAnimFunction_Recover
 	dw BattleAnimFunction_ThunderWave
 	dw BattleAnimFunction_Clamp_Encore
@@ -99,7 +99,7 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_PowerGem
 	dw BattleAnimFunction_BubbleSplash
 	dw BattleAnimFunction_Moon
-	dw BattleAnimFunction_PokeBall_BG
+	dw BattleAnimFunction_TohoBall_BG
 	dw BattleAnimFunction_AirCutter
 	dw BattleAnimFunction_RadialMoveOut
 	dw BattleAnimFunction_RadialMoveOut_Slow
@@ -284,31 +284,31 @@ BattleAnimFunction_MoveFromUserToTargetAndDisappear:
 .done
 	jmp FarDeinitBattleAnimation
 
-BattleAnimFunction_PokeBall_BG:
+BattleAnimFunction_TohoBall_BG:
 	call BattleAnim_AnonJumptable
 .anon_dw
 	dw .load_ball_palette
-	dw BattleAnimFunction_PokeBall.throw_ball
+	dw BattleAnimFunction_TohoBall.throw_ball
 	dw DoNothing
-	dw BattleAnimFunction_PokeBall.prepare_bounce
-	dw BattleAnimFunction_PokeBall.bounce
+	dw BattleAnimFunction_TohoBall.prepare_bounce
+	dw BattleAnimFunction_TohoBall.bounce
 	dw DoNothing
-	dw BattleAnimFunction_PokeBall.shake
-	dw BattleAnimFunction_PokeBall.seven
-	dw BattleAnimFunction_PokeBall.eight_or_ten
+	dw BattleAnimFunction_TohoBall.shake
+	dw BattleAnimFunction_TohoBall.seven
+	dw BattleAnimFunction_TohoBall.eight_or_ten
 	dw DoNothing
-	dw BattleAnimFunction_PokeBall.eight_or_ten
+	dw BattleAnimFunction_TohoBall.eight_or_ten
 	dw FarDeinitBattleAnimation
-	dw BattleAnimFunction_PokeBall.twelve
+	dw BattleAnimFunction_TohoBall.twelve
 	dw DoNothing
-	dw BattleAnimFunction_PokeBall.fourteen
+	dw BattleAnimFunction_TohoBall.fourteen
 	dw DoNothing
 
 .load_ball_palette
 	call GetBallAnimBGPal
 	jmp BattleAnim_IncAnonJumptableIndex
 
-BattleAnimFunction_PokeBall:
+BattleAnimFunction_TohoBall:
 	call BattleAnim_AnonJumptable
 .anon_dw
 	dw .load_ball_palette
@@ -399,7 +399,7 @@ BattleAnimFunction_PokeBall:
 	dec [hl]
 	ret
 
-; Bottom of the PokeBall
+; Bottom of the TohoBall
 .seven ; open
 	call GetBallAnimPal
 	ld a, BATTLEANIMFRAMESET_0A
@@ -460,7 +460,7 @@ BattleAnimFunction_PokeBall:
 	call FarReinitBattleAnimFrameset
 	jmp BattleAnim_IncAnonJumptableIndex
 
-BattleAnimFunction_PokeBallBlocked:
+BattleAnimFunction_TohoBallBlocked:
 	call BattleAnim_AnonJumptable
 .anon_dw
 	dw .zero

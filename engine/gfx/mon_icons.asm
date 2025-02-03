@@ -1,4 +1,4 @@
-INCLUDE "data/pokemon/overworld_icon_pals.asm"
+INCLUDE "data/tohomon/overworld_icon_pals.asm"
 
 LoadOverworldMonIcon:
 	; c = species

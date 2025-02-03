@@ -5,8 +5,8 @@ Special_HiddenPowerGuru:
 	call GetPartyParamLocationAndValue
 	bit MON_IS_EGG_F, a
 	jr nz, .egg
-	call GetPartyPokemonName
-	call CopyPokemonName_Buffer1_Buffer3
+	call GetPartyTohomonName
+	call CopyTohomonName_Buffer1_Buffer3
 	ld a, [wCurPartyMon]
 	ld hl, wPartyMon1DVs
 	call GetPartyLocation

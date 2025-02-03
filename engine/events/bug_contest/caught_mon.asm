@@ -16,7 +16,7 @@ BugContest_SetCaughtContestMon:
 	ld [wNamedObjectIndex], a
 	ld a, [wOTPartyMon1Form]
 	ld [wNamedObjectIndex+1], a
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, .caughttext
 	jmp PrintText
 
@@ -45,7 +45,7 @@ BugContest_SetCaughtContestMon:
 	text_end
 
 DisplayAlreadyCaughtText:
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, .AlreadyCaughtText
 	jmp PrintText
 

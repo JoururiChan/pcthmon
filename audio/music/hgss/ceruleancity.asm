@@ -1,4 +1,4 @@
-; Pokémon HG/SS - Cerulean City
+; Tohomon HG/SS - Cerulean City
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/custom/ceruleanGSC.asm
 

@@ -58,7 +58,7 @@ WiltonHasItem:
 	ifequalfwd $0, .UltraBall
 	random $3
 	ifequalfwd $0, .GreatBall
-	sjumpfwd .PokeBall
+	sjumpfwd .TohoBall
 
 .UltraBall:
 	setevent EVENT_WILTON_HAS_ULTRA_BALL
@@ -68,7 +68,7 @@ WiltonHasItem:
 	setevent EVENT_WILTON_HAS_GREAT_BALL
 	sjumpfwd .FoundItem
 
-.PokeBall:
+.TohoBall:
 	setevent EVENT_WILTON_HAS_POKE_BALL
 
 .FoundItem:

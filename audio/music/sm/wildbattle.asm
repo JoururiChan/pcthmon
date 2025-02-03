@@ -1,4 +1,4 @@
-; Pokémon S/M - Battle! Wild Pokémon
+; Tohomon S/M - Battle! Wild Tohomon
 ; Demixed by Mmmmmm
 ; https://pastebin.com/WSdP1J0x
 ; https://hax.iimarckus.org/topic/6777/6/

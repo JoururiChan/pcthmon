@@ -22,12 +22,12 @@ LavenderTown_MapScriptHeader:
 	def_bg_events
 	bg_event 11,  5, BGEVENT_JUMPTEXT, LavenderTownSignText
 	bg_event 15,  9, BGEVENT_JUMPTEXT, KantoRadioStationSignText
-	bg_event  3, 11, BGEVENT_JUMPTEXT, VolunteerPokemonHouseSignText
+	bg_event  3, 11, BGEVENT_JUMPTEXT, VolunteerTohomonHouseSignText
 	bg_event 15, 15, BGEVENT_JUMPTEXT, SoulHouseSignText
 
 	def_object_events
 	object_event 14,  7, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LAVENDER_TOWN_FLEEING_YOUNGSTER
-	object_event 12,  9, SPRITE_HIKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderTownPokefanMText, -1
+	object_event 12,  9, SPRITE_HIKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderTownTohofanMText, -1
 	object_event  2, 17, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderTownTeacherText, -1
 	object_event 14, 14, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderTownGrampsText, -1
 	object_event  6, 13, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderTownYoungsterText, -1
@@ -41,7 +41,7 @@ LavenderTown_MapScriptHeader:
 LavenderTownFlyPoint:
 ; TODO: don't set these once the coord_events are done
 	setevent EVENT_ROUTE_8_PROTESTORS
-	clearevent EVENT_ROUTE_8_KANTO_POKEMON_FEDERATION
+	clearevent EVENT_ROUTE_8_KANTO_TOHOMON_FEDERATION
 	setflag ENGINE_FLYPOINT_LAVENDER
 	endcallback
 
@@ -153,7 +153,7 @@ LavenderTownFinishExpositionScript:
 	applymovement LAVENDERTOWN_YOUNGSTER1, .LeaveMovement
 	disappear LAVENDERTOWN_YOUNGSTER1
 	setevent EVENT_ROUTE_8_PROTESTORS
-	clearevent EVENT_ROUTE_8_KANTO_POKEMON_FEDERATION
+	clearevent EVENT_ROUTE_8_KANTO_TOHOMON_FEDERATION
 	setflag ENGINE_FLYPOINT_LAVENDER
 	setscene $1
 	end
@@ -182,7 +182,7 @@ KantoRadioStationSignText:
 	cont "Around the Clock!"
 	done
 
-VolunteerPokemonHouseSignText:
+VolunteerTohomonHouseSignText:
 	text "Lavender Volunteer"
 	line "#mon House"
 	done
@@ -194,7 +194,7 @@ SoulHouseSignText:
 	line "#mon Rest Easy"
 	done
 
-LavenderTownPokefanMText:
+LavenderTownTohofanMText:
 	text "That's quite some"
 	line "building, eh?"
 

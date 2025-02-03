@@ -5,7 +5,7 @@ Special_MintTeaPickMon:
 	call GetPartyParamLocationAndValue
 	bit MON_IS_EGG_F, a
 	jr nz, .egg
-	call GetPartyPokemonName
+	call GetPartyTohomonName
 	ld a, [wCurPartyMon]
 	ld [wMintTeaPartyMon], a
 	ld a, 2

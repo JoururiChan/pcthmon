@@ -232,7 +232,7 @@ StartMenu_PrintBugContestStatus:
 	ld [wNamedObjectIndex], a
 	ld a, [wContestMonForm]
 	ld [wNamedObjectIndex+1], a
-	call GetPokemonName
+	call GetTohomonName
 
 .no_contest_mon
 	hlcoord 8, 1

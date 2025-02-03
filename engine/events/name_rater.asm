@@ -4,14 +4,14 @@ NameRater:
 	call PrintText
 	call YesNoBox
 	jmp c, .cancel
-; Select a Pokemon from your party
+; Select a Tohomon from your party
 	ld hl, NameRaterWhichMonText
 	call PrintText
 	farcall SelectMonFromParty
 	jmp c, .cancel
 
 ; Load the species name into wStringBuffer2 and the nickname into wStringBuffer1
-	call GetPartyPokemonName
+	call GetPartyTohomonName
 	call CopyName1
 	call GetCurNickname
 
@@ -20,7 +20,7 @@ NameRater:
 	call GetPartyParamLocationAndValue
 	bit MON_IS_EGG_F, a
 	jr nz, .egg
-; ... or a Pokemon you got from a trade...
+; ... or a Tohomon you got from a trade...
 	ld a, [wInitialOptions]
 	bit TRADED_AS_OT_OPT, a
 	jr nz, .no_name_lock
@@ -45,7 +45,7 @@ NameRater:
 	ld [wNamedObjectIndex], a
 	ld [wCurSpecies], a
 	call GetBaseData
-	ld b, $0 ; pokemon
+	ld b, $0 ; tohomon
 	ld de, wStringBuffer2
 	farcall _NamingScreen
 ; If the new name is empty, treat it as unchanged.

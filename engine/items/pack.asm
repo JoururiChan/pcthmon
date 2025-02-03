@@ -195,7 +195,7 @@ UseKeyItem:
 .Party:
 	ld a, [wPartyCount]
 	and a
-	jr z, .NoPokemon
+	jr z, .NoTohomon
 	predef DoKeyItemEffect
 	xor a
 	ldh [hBGMapMode], a
@@ -203,7 +203,7 @@ UseKeyItem:
 	call WaitBGMap_DrawPackGFX
 	jmp Pack_InitColors
 
-.NoPokemon:
+.NoTohomon:
 	ld hl, TextJump_YouDontHaveAPkmn
 	jmp Pack_PrintTextNoScroll
 
@@ -385,7 +385,7 @@ UseItem:
 .Party:
 	ld a, [wPartyCount]
 	and a
-	jr z, .NoPokemon
+	jr z, .NoTohomon
 	call DoItemEffect
 	xor a
 	ldh [hBGMapMode], a
@@ -393,7 +393,7 @@ UseItem:
 	call WaitBGMap_DrawPackGFX
 	jmp Pack_InitColors
 
-.NoPokemon:
+.NoTohomon:
 	ld hl, TextJump_YouDontHaveAPkmn
 	jmp Pack_PrintTextNoScroll
 
@@ -485,7 +485,7 @@ RegisterKeyItem:
 GiveItem:
 	ld a, [wPartyCount]
 	and a
-	jr z, .NoPokemon
+	jr z, .NoTohomon
 	ld a, [wOptions1]
 	push af
 	res NO_TEXT_SCROLL, a
@@ -532,7 +532,7 @@ GiveItem:
 	call WaitBGMap_DrawPackGFX
 	jmp Pack_InitColors
 
-.NoPokemon:
+.NoTohomon:
 	ld hl, TextJump_YouDontHaveAPkmn
 	jmp Pack_PrintTextNoScroll
 .Egg:
@@ -1104,9 +1104,9 @@ Pack_InterpretJoypad:
 
 .place_insert
 	farcall SwitchItemsInBag
-	ld de, SFX_SWITCH_POKEMON
+	ld de, SFX_SWITCH_TOHOMON
 	call WaitPlaySFX
-	ld de, SFX_SWITCH_POKEMON
+	ld de, SFX_SWITCH_TOHOMON
 	call WaitPlaySFX
 .end_switch
 	xor a

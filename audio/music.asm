@@ -23,8 +23,8 @@ SECTION "Song - johtowildbattle + johtowildbattlenight", ROMX
 INCLUDE "audio/music/johtowildbattle.asm"
 INCLUDE "audio/music/johtowildbattlenight.asm"
 
-SECTION "Song - wildpokemonvictory + successfulcapture", ROMX
-INCLUDE "audio/music/wildpokemonvictory.asm"
+SECTION "Song - wildtohomonvictory + successfulcapture", ROMX
+INCLUDE "audio/music/wildtohomonvictory.asm"
 INCLUDE "audio/music/successfulcapture.asm"
 
 SECTION "Song - route29", ROMX
@@ -36,11 +36,11 @@ INCLUDE "audio/music/cherrygrovecity.asm"
 SECTION "Song - showmearound", ROMX
 INCLUDE "audio/music/showmearound.asm"
 
-SECTION "Song - pokemoncenter", ROMX
-INCLUDE "audio/music/pokemoncenter.asm"
+SECTION "Song - tohomoncenter", ROMX
+INCLUDE "audio/music/tohomoncenter.asm"
 
-SECTION "Song - healpokemon", ROMX
-INCLUDE "audio/music/healpokemon.asm"
+SECTION "Song - healtohomon", ROMX
+INCLUDE "audio/music/healtohomon.asm"
 
 SECTION "Song - lookyoungster", ROMX
 INCLUDE "audio/music/lookyoungster.asm"
@@ -110,8 +110,8 @@ INCLUDE "audio/music/johtogymbattle.asm"
 SECTION "Song - gymleadervictory", ROMX
 INCLUDE "audio/music/gymleadervictory.asm"
 
-SECTION "Song - pokemonchannel", ROMX
-INCLUDE "audio/music/pokemonchannel.asm"
+SECTION "Song - tohomonchannel", ROMX
+INCLUDE "audio/music/tohomonchannel.asm"
 
 SECTION "Song - buenaspassword", ROMX
 INCLUDE "audio/music/buenaspassword.asm"
@@ -149,14 +149,14 @@ INCLUDE "audio/music/burnedtower.asm"
 SECTION "Song - lookmysticalman", ROMX
 INCLUDE "audio/music/lookmysticalman.asm"
 
-SECTION "Song - profoakspokemontalk", ROMX
-INCLUDE "audio/music/profoakspokemontalk.asm"
+SECTION "Song - profoakstohomontalk", ROMX
+INCLUDE "audio/music/profoakstohomontalk.asm"
 
 SECTION "Song - route37", ROMX
 INCLUDE "audio/music/route37.asm"
 
-SECTION "Song - pokemonmarch", ROMX
-INCLUDE "audio/music/pokemonmarch.asm"
+SECTION "Song - tohomonmarch", ROMX
+INCLUDE "audio/music/tohomonmarch.asm"
 
 SECTION "Song - lighthouse", ROMX
 INCLUDE "audio/music/lighthouse.asm"
@@ -225,8 +225,8 @@ INCLUDE "audio/music/kantowildbattlenight.asm"
 SECTION "Song - magnettrain", ROMX
 INCLUDE "audio/music/magnettrain.asm"
 
-SECTION "Song - pokemonlullaby", ROMX
-INCLUDE "audio/music/pokemonlullaby.asm"
+SECTION "Song - tohomonlullaby", ROMX
+INCLUDE "audio/music/tohomonlullaby.asm"
 
 SECTION "Song - celadoncity", ROMX
 INCLUDE "audio/music/celadoncity.asm"
@@ -309,14 +309,14 @@ INCLUDE "audio/music/rby/lavendertown.asm"
 SECTION "Song - rby/lookjessiejames", ROMX
 INCLUDE "audio/music/rby/lookjessiejames.asm"
 
-SECTION "Song - rby/pokemontower", ROMX
-INCLUDE "audio/music/rby/pokemontower.asm"
+SECTION "Song - rby/tohomontower", ROMX
+INCLUDE "audio/music/rby/tohomontower.asm"
 
 SECTION "Song - rby/surfing", ROMX
 INCLUDE "audio/music/rby/surfing.asm"
 
-SECTION "Song - rby/surfingekikuri", ROMX
-INCLUDE "audio/music/rby/surfingekikuri.asm"
+SECTION "Song - rby/surfingkikuri", ROMX
+INCLUDE "audio/music/rby/surfingkikuri.asm"
 
 SECTION "Song - rse/surfing", ROMX
 INCLUDE "audio/music/rse/surfing.asm"
@@ -445,8 +445,8 @@ INCLUDE "audio/music/bw/celestialtower.asm"
 SECTION "Song - bw/elitefourbattle", ROMX
 INCLUDE "audio/music/bw/elitefourbattle.asm"
 
-SECTION "Song - bw/finalpokemon", ROMX
-INCLUDE "audio/music/bw/finalpokemon.asm"
+SECTION "Song - bw/finaltohomon", ROMX
+INCLUDE "audio/music/bw/finaltohomon.asm"
 
 SECTION "Song - bw/gymleaderbattle", ROMX
 INCLUDE "audio/music/bw/gymleaderbattle.asm"

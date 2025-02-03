@@ -20,7 +20,7 @@ Route40_MapScriptHeader:
 	object_event  3, 19, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerSwimmerfElaine, -1
 	object_event  9, 25, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSwimmerfPaula, -1
 	object_event 11, 13, SPRITE_BEACH_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route40BeachGirlText, -1
-	object_event  7,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route40PokefanMScript, -1
+	object_event  7,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route40TohofanMScript, -1
 	object_event 13,  4, SPRITE_PICNICKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route40PicnickerText, -1
 	object_event 14,  8, SPRITE_BEACH_GUY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route40BeachGuyScript, -1
 	object_event 16, 27, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route40FisherScript, -1
@@ -73,10 +73,10 @@ GenericTrainerSwimmermRandall:
 	cont "It's healthy."
 	done
 
-Route40PokefanMScript:
+Route40TohofanMScript:
 	checkevent EVENT_BATTLE_TOWER_OPEN
-	iftrue_jumptextfaceplayer Route40PokefanMText2
-	jumptextfaceplayer Route40PokefanMText
+	iftrue_jumptextfaceplayer Route40TohofanMText2
+	jumptextfaceplayer Route40TohofanMText
 
 Route40BeachGuyScript:
 	checkevent EVENT_BATTLE_TOWER_OPEN
@@ -239,14 +239,14 @@ Route40BeachGirlText:
 	line "before swimming."
 	done
 
-Route40PokefanMText:
+Route40TohofanMText:
 	text "Hm! There's a big"
 	line "building up ahead!"
 
 	para "What is it?"
 	done
 
-Route40PokefanMText2:
+Route40TohofanMText2:
 	text "Hm! Look at all"
 	line "those serious-"
 	cont "looking trainers"

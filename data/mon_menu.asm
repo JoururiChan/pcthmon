@@ -21,7 +21,7 @@ MonMenuOptionStrings:
 	assert_list_length NUM_MONMENUVALUES
 
 MonMenuOptions:
-; category, item, value; actions are in PokemonActionSubmenu (see engine/pokemon/mon_menu.asm)
+; category, item, value; actions are in TohomonActionSubmenu (see engine/tohomon/mon_menu.asm)
 	table_width 3
 ; moves
 	db MONMENU_FIELD_MOVE, MONMENUITEM_CUT,        CUT

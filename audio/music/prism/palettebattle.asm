@@ -1,5 +1,5 @@
-; Pokémon Prism - Battle! Palette Ranger
-; Composed by Cat333Pokemon
+; Tohomon Prism - Battle! Palette Ranger
+; Composed by Cat333Tohomon
 ; Revised by NotFroggestSpirit
 
 Music_PaletteBattlePrism:

@@ -28,7 +28,7 @@ CherrygroveCity_MapScriptHeader:
 	object_event 25, 13, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygroveTeacherText_HaveMapCard, -1
 	object_event 23,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CherrygroveYoungsterScript, -1
 	object_event  7, 12, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MysticWaterGuy, -1
-	pokemon_event 26, 13, PIDGEY, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_BROWN, CherrygrovePidgeyText, -1
+	tohomon_event 26, 13, PIDGEY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, CherrygrovePidgeyText, -1
 
 	object_const_def
 	const CHERRYGROVECITY_GRAMPS
@@ -46,7 +46,7 @@ CherrygroveCityGuideGent:
 	playmusic MUSIC_SHOW_ME_AROUND
 	follow CHERRYGROVECITY_GRAMPS, PLAYER
 	applymovement CHERRYGROVECITY_GRAMPS, GuideGentMovement1
-	showtext GuideGentPokeCenterText
+	showtext GuideGentTohoCenterText
 	applymovement CHERRYGROVECITY_GRAMPS, GuideGentMovement2
 	turnobject PLAYER, UP
 	showtext GuideGentMartText
@@ -72,7 +72,7 @@ CherrygroveCityGuideGent:
 	setflag ENGINE_MAP_CARD
 	writetext GotMapCardText
 	promptbutton
-	writetext GuideGentPokegearText
+	writetext GuideGentTohogearText
 	waitbutton
 	closetext
 	stopfollow
@@ -154,8 +154,8 @@ CherrygroveRivalTriggerNorth:
 	end
 
 CherrygroveYoungsterScript:
-	checkflag ENGINE_POKEDEX
-	iftrue_jumptextfaceplayer CherrygroveYoungsterText_HavePokedex
+	checkflag ENGINE_TOHODEX
+	iftrue_jumptextfaceplayer CherrygroveYoungsterText_HaveTohodex
 	jumpthistextfaceplayer
 
 	text "Mr.#mon's house"
@@ -288,7 +288,7 @@ GuideGentIntroText:
 	cont "Follow me!"
 	done
 
-GuideGentPokeCenterText:
+GuideGentTohoCenterText:
 	text "This is a #mon"
 	line "Center. They heal"
 
@@ -358,7 +358,7 @@ GotMapCardText:
 	line "now has a Map!"
 	done
 
-GuideGentPokegearText:
+GuideGentTohogearText:
 	text "#gear becomes"
 	line "more useful as you"
 	cont "add Cards."
@@ -427,7 +427,7 @@ CherrygroveTeacherText_HaveMapCard:
 	cont "anywhere is fun."
 	done
 
-CherrygroveYoungsterText_HavePokedex:
+CherrygroveYoungsterText_HaveTohodex:
 	text "I battled the"
 	line "trainers on the"
 	cont "road."

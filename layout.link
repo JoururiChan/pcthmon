@@ -129,7 +129,7 @@ ROMX $26
 
 ROMX $27
 	"Special Map Blockdata"
-	"Pokemon Center Scripts 4"
+	"Tohomon Center Scripts 4"
 
 ROMX $28
 	"Phone Scripts"
@@ -141,13 +141,13 @@ ROMX $2A
 	"New Bark Scripts 2"
 
 ROMX $2B
-	"Pokemon Center Scripts 1"
+	"Tohomon Center Scripts 1"
 
 ROMX $2C
-	"Pokemon Center Scripts 2"
+	"Tohomon Center Scripts 2"
 
 ROMX $2D
-	"Pokemon Center Scripts 3"
+	"Tohomon Center Scripts 3"
 
 ROMX $2E
 	"bank2E"
@@ -186,7 +186,7 @@ ROMX $39
 	"bank39"
 
 ROMX $3A
-	"Pokemon Center Scripts 5"
+	"Tohomon Center Scripts 5"
 
 ROMX $3E
 	"bank3E"
@@ -207,7 +207,7 @@ ROMX $42
 	"Credits"
 
 ROMX $48
-	"Pokemon Pic Pointers"
+	"Tohomon Pic Pointers"
 
 VRAM $0
 	"VRAM0"
@@ -270,13 +270,13 @@ WRAMX $7
 	"Window Stack"
 
 SRAM $0
-	"PokeDB bank 1B"
+	"TohoDB bank 1B"
 	"Link Battle Data"
 	"SRAM Battle Tower"
 	org $a600
 	"SRAM Mail"
 	"SRAM Bank 0"
-	"PokeDB bank 2B"
+	"TohoDB bank 2B"
 	org $b200
 	"Backup Save"
 
@@ -284,14 +284,14 @@ SRAM $1
 	"Save"
 	"SRAM Hall of Fame"
 	"Box metadata"
-	"PokeDB bank 1C"
-	"PokeDB bank 2C"
+	"TohoDB bank 1C"
+	"TohoDB bank 2C"
 
 SRAM $2
-	"PokeDB bank 1A"
+	"TohoDB bank 1A"
 
 SRAM $3
-	"PokeDB bank 2A"
+	"TohoDB bank 2A"
 
 HRAM
 	"OAM DMA"

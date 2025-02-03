@@ -72,8 +72,8 @@ LoadSevenBGPalettes:
 	scf
 	ret
 
-PokeCenterSpecialCase:
-	ld hl, PokeCenterPalette
+TohoCenterSpecialCase:
+	ld hl, TohoCenterPalette
 	call LoadSevenBGPalettes
 	; Shamouti has the default orange floors
 	call RegionCheck

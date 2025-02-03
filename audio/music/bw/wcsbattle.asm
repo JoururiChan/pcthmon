@@ -1,6 +1,6 @@
-; Pokémon B/W - Battle! World Championship Finals
+; Tohomon B/W - Battle! World Championship Finals
 ; Demixed by Pigu and PikalaxALT
-; https://github.com/TwitchPlaysPokemon/tppcrystal251pub/blob/public/audio/music/custom/vsWCS.asm
+; https://github.com/TwitchPlaysTohomon/tppcrystal251pub/blob/public/audio/music/custom/vsWCS.asm
 
 Music_WCSBattleBW:
 	channel_count 3

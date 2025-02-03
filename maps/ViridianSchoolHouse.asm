@@ -11,8 +11,8 @@ ViridianSchoolHouse_MapScriptHeader:
 
 	def_bg_events
 	bg_event  3,  0, BGEVENT_JUMPTEXT, ViridianSchoolHouseBlackboardText
-	bg_event  6,  1, BGEVENT_READ, PokemonJournalKiyoScript
-	bg_event  7,  1, BGEVENT_READ, PokemonJournalKiyoScript
+	bg_event  6,  1, BGEVENT_READ, TohomonJournalKiyoScript
+	bg_event  7,  1, BGEVENT_READ, TohomonJournalKiyoScript
 
 	def_object_events
 	object_event  4,  1, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, ViridianSchoolHouseTeacherText, -1
@@ -109,7 +109,7 @@ ViridianSchoolHouseBlackboardText:
 	cont "directly."
 	done
 
-PokemonJournalKiyoScript:
+TohomonJournalKiyoScript:
 	setflag ENGINE_READ_KIYO_JOURNAL
 	jumpthistext
 

@@ -72,8 +72,8 @@ AI_Conversion:
 AI_Setup:
 ; Use stat-modifying moves on turn 1.
 
-; 50% chance to greatly encourage stat-up moves during the first turn of enemy's Pokemon.
-; 50% chance to greatly encourage stat-down moves during the first turn of player's Pokemon.
+; 50% chance to greatly encourage stat-up moves during the first turn of enemy's Tohomon.
+; 50% chance to greatly encourage stat-down moves during the first turn of player's Tohomon.
 ; Almost 90% chance to greatly discourage stat-modifying moves otherwise.
 
 	ld hl, wAIMoveScore - 1
@@ -972,7 +972,7 @@ AI_Smart_SpeedDownHit:
 
 ; Almost 90% chance to greatly encourage this move if the following conditions all meet:
 ; Enemy's HP is higher than 25%.
-; It's the first turn of player's Pokemon.
+; It's the first turn of player's Tohomon.
 ; Player is faster than enemy.
 
 	ld a, [wEnemyMoveStruct + MOVE_ANIM]
@@ -1212,7 +1212,7 @@ AI_Smart_DestinyBond:
 	ret
 
 AI_Smart_HealBell:
-; Dismiss this move if none of the opponent's Pokemon is statused.
+; Dismiss this move if none of the opponent's Tohomon is statused.
 ; Encourage this move if the enemy is statused.
 ; 50% chance to greatly encourage this move if the enemy is fast asleep or frozen.
 
@@ -1678,7 +1678,7 @@ AI_Smart_Tremors:
 
 AI_Smart_Swagger:
 AI_Smart_LusterHeart:
-; 80% chance to encourage this move during the first turn of player's Pokemon.
+; 80% chance to encourage this move during the first turn of player's Tohomon.
 ; 80% chance to discourage this move otherwise.
 
 	ld a, [wPlayerTurnsTaken]

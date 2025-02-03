@@ -17,10 +17,10 @@ Route39Farmhouse_MapScriptHeader:
 	bg_event  7,  1, BGEVENT_JUMPSTD, picturebookshelf
 
 	def_object_events
-	object_event  3,  2, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PokefanM_DairyFarmer, -1
-	object_event  5,  4, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, PokefanF_AcrobaticsFarmer, -1
+	object_event  3,  2, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TohofanM_DairyFarmer, -1
+	object_event  5,  4, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, TohofanF_AcrobaticsFarmer, -1
 
-PokefanM_DairyFarmer:
+TohofanM_DairyFarmer:
 	faceplayer
 	opentext
 	checkevent EVENT_HEALED_MOOMOO
@@ -93,7 +93,7 @@ FarmerMScript_SellMilk:
 .Milking:
 	jumpopenedtext FarmerMText_Milking
 
-PokefanF_AcrobaticsFarmer:
+TohofanF_AcrobaticsFarmer:
 	faceplayer
 	opentext
 	checkevent EVENT_GOT_TM62_ACROBATICS_FROM_MOOMOO_FARM

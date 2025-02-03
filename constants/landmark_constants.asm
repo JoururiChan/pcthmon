@@ -119,14 +119,14 @@ DEF KANTO_LANDMARK EQU const_value
 	const ROUTE_20           ; 72
 	const SEAFOAM_ISLANDS    ; 73
 	const CINNABAR_ISLAND    ; 74
-	const POKEMON_MANSION    ; 75
+	const TOHOMON_MANSION    ; 75
 	const CINNABAR_VOLCANO   ; 76
 	const ROUTE_21           ; 77
 	const ROUTE_22           ; 78
 	const ROUTE_27           ; 79
 	const TOHJO_FALLS        ; 7a
 	const ROUTE_26           ; 7b
-	const POKEMON_LEAGUE     ; 7c
+	const TOHOMON_LEAGUE     ; 7c
 	const ROUTE_23           ; 7d
 	const VICTORY_ROAD       ; 7e
 	const INDIGO_PLATEAU     ; 7f

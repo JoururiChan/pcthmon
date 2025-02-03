@@ -1,5 +1,5 @@
 ; Save/Restore Music code by TPP Anniversary Crystal 251
-; https://github.com/TwitchPlaysPokemon/tppcrystal251pub/blob/public/misc/restoremusic.asm
+; https://github.com/TwitchPlaysTohomon/tppcrystal251pub/blob/public/misc/restoremusic.asm
 
 SaveMusic::
 	; back up old music state

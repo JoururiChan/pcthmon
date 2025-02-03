@@ -1,4 +1,4 @@
-CeruleanPokeCenter1F_MapScriptHeader:
+CeruleanTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,14 +11,14 @@ CeruleanPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalMistyScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalMistyScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  1,  5, SPRITE_GYM_GUY, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeruleanPokeCenter1FGymGuyScript, -1
-	object_event  8,  4, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanPokeCenter1FSuperNerdText, -1
+	object_event  1,  5, SPRITE_GYM_GUY, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeruleanTohoCenter1FGymGuyScript, -1
+	object_event  8,  4, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanTohoCenter1FSuperNerdText, -1
 
-PokemonJournalMistyScript:
+TohomonJournalMistyScript:
 	setflag ENGINE_READ_MISTY_JOURNAL
 	jumpthistext
 
@@ -34,7 +34,7 @@ PokemonJournalMistyScript:
 	line "the Elite Four."
 	done
 
-CeruleanPokeCenter1FGymGuyScript:
+CeruleanTohoCenter1FGymGuyScript:
 	checkunits
 	iftrue_jumptextfaceplayer .MetricText
 	jumpthistextfaceplayer
@@ -66,7 +66,7 @@ CeruleanPokeCenter1FGymGuyScript:
 	line "Johto accessible."
 	done
 
-CeruleanPokeCenter1FSuperNerdText:
+CeruleanTohoCenter1FSuperNerdText:
 	text "For battles, I'd"
 	line "much rather use"
 

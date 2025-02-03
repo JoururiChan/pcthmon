@@ -7,7 +7,7 @@ ApplyPartyPatches:
 	push #a
 	set #a, #1
 
-	; apply patches to party pokemon
+	; apply patches to party tohomon
 	set #1, 5
 	call GetGameDataOffsetConstant
 	set #1, #result
@@ -20,7 +20,7 @@ ApplyPartyPatches:
 	set #4, #zero
 	callnz #temp, .apply_to_list
 
-	; apply patches to daycare man pokemon
+	; apply patches to daycare man tohomon
 	set #1, 6
 	call GetGameDataOffsetConstant
 	set #1, #result
@@ -30,7 +30,7 @@ ApplyPartyPatches:
 	shiftleft #temp, 31 ; nonzero if bit 0 is set
 	callnz #temp, .daycare_mon
 
-	; apply patches to daycare lady pokemon
+	; apply patches to daycare lady tohomon
 	set #1, 7
 	call GetGameDataOffsetConstant
 	set #1, #result
@@ -44,7 +44,7 @@ ApplyPartyPatches:
 	pos #result
 	callnz #temp, .daycare_mon
 
-	; apply patches to box pokemon
+	; apply patches to box tohomon
 	set #b, sBoxMons1
 	call .box_loop
 	set #b, sBoxMons2

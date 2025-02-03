@@ -1,4 +1,4 @@
-MahoganyPokeCenter1F_MapScriptHeader:
+MahoganyTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,15 +11,15 @@ MahoganyPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalPryceScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalPryceScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  9,  4, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyPokeCenter1FPokefanmText, -1
-	object_event  1,  3, SPRITE_CAMPER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyPokeCenter1FYoungsterText, -1
-	object_event  2,  3, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyPokeCenter1FCooltrainerfText, -1
+	object_event  9,  4, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyTohoCenter1FTohofanmText, -1
+	object_event  1,  3, SPRITE_CAMPER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyTohoCenter1FYoungsterText, -1
+	object_event  2,  3, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyTohoCenter1FCooltrainerfText, -1
 
-PokemonJournalPryceScript:
+TohomonJournalPryceScript:
 	setflag ENGINE_READ_PRYCE_JOURNAL
 	jumpthistext
 
@@ -43,7 +43,7 @@ PokemonJournalPryceScript:
 	cont "winter trainer”."
 	done
 
-MahoganyPokeCenter1FPokefanmText:
+MahoganyTohoCenter1FTohofanmText:
 	text "What's this? Team"
 	line "Rocket has come"
 	cont "back?"
@@ -53,7 +53,7 @@ MahoganyPokeCenter1FPokefanmText:
 	cont "Rage…"
 	done
 
-MahoganyPokeCenter1FYoungsterText:
+MahoganyTohoCenter1FYoungsterText:
 	text "I stop my #mon"
 	line "from evolving too"
 	cont "early."
@@ -64,7 +64,7 @@ MahoganyPokeCenter1FYoungsterText:
 	cont "evolve."
 	done
 
-MahoganyPokeCenter1FCooltrainerfText:
+MahoganyTohoCenter1FCooltrainerfText:
 	text "#mon do become"
 	line "stronger when they"
 

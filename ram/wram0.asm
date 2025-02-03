@@ -348,10 +348,10 @@ wLinkPolishedMiscBuffer:: ds 10
 SECTION UNION "Misc 404", WRAM0
 ; battle + pokédex (merged because pokédex can be called from battle)
 
-; wLCDPokedex is defined in a LOAD UNION block in engine/pokedex/lcd.asm
+; wLCDTohodex is defined in a LOAD UNION block in engine/pokedex/lcd.asm
 ; Reserve space for it at the beginning of this LOAD UNION
 	ds 15
-	assert wLCDPokedexEnd - wLCDPokedex == @ - STARTOF("Misc 404")
+	assert wLCDTohodexEnd - wLCDTohodex == @ - STARTOF("Misc 404")
 
 ; Battle data
 wBattle::
@@ -482,7 +482,7 @@ wBattleAnimParam:: db
 
 wPartyBackupItems::
 ; Back up of party items before a battle. Modified in-battle for consumed/harvested.
-; Berries and items stolen from wild Pokémon since those changes are retained.
+; Berries and items stolen from wild Tohomon since those changes are retained.
 	ds PARTY_LENGTH
 
 wPartyUsedItems::
@@ -674,77 +674,77 @@ wAmuletCoin:: db
 wDVAndPersonalityBuffer:: ds 5
 wBattleEnd::
 
-; Pokédex data.
+; Tohodex data.
 
 ; For setting up a new HBlank trigger
-wPokedex_PendingLYC:: db
-wPokedex_PendingHBlankFunction:: dw
+wTohodex_PendingLYC:: db
+wTohodex_PendingHBlankFunction:: dw
 
 ; Palettes and tile offset for listview minis
 UNION
-wPokedex_UnownCursor: db
+wTohodex_HinaCursor: db
 NEXTU
-wPokedex_Pals::
-wPokedex_Row1::
-wPokedex_Row1Tile: db ; Sprite offset for dex minis col 2-4
-wPokedex_Row1Pals:: ds PAL_COLOR_SIZE * 3 * 5 ; 3 15bit colors per pal, 5 columns
-wPokedex_Row2::
-wPokedex_Row2Tile: db
-wPokedex_Row2Pals:: ds PAL_COLOR_SIZE * 3 * 5
-wPokedex_Row3::
-wPokedex_Row3Tile: db
-wPokedex_Row3Pals:: ds PAL_COLOR_SIZE * 3 * 5
-wPokedex_PalsEnd::
+wTohodex_Pals::
+wTohodex_Row1::
+wTohodex_Row1Tile: db ; Sprite offset for dex minis col 2-4
+wTohodex_Row1Pals:: ds PAL_COLOR_SIZE * 3 * 5 ; 3 15bit colors per pal, 5 columns
+wTohodex_Row2::
+wTohodex_Row2Tile: db
+wTohodex_Row2Pals:: ds PAL_COLOR_SIZE * 3 * 5
+wTohodex_Row3::
+wTohodex_Row3Tile: db
+wTohodex_Row3Pals:: ds PAL_COLOR_SIZE * 3 * 5
+wTohodex_PalsEnd::
 ENDU
 
-; Pokémon info (frontpic, types, etc) is stored in either vbk0 or vbk1. This is
+; Tohomon info (frontpic, types, etc) is stored in either vbk0 or vbk1. This is
 ; cycled each time we move the cursor. The reason for this is so that we can
 ; update the entire display smoothly in a single frame without noticeable delay.
-wPokedex_MonInfoBank:: db
+wTohodex_MonInfoBank:: db
 
-wPokedex_Personality::
+wTohodex_Personality::
 ; bit 7 = shiny
 ; bit 0 = has other form (eligible to switch to)
-wPokedex_Shiny::
-wPokedex_OtherForm:: db
-wPokedex_Form:: db
+wTohodex_Shiny::
+wTohodex_OtherForm:: db
+wTohodex_Form:: db
 
-wPokedexOAM_DexNoX:: db
-wPokedexOAM_DexNoY:: db
-wPokedexOAM_IsCaught:: db
+wTohodexOAM_DexNoX:: db
+wTohodexOAM_DexNoY:: db
+wTohodexOAM_IsCaught:: db
 
-wPokedex_NumSeen:: dw
-wPokedex_NumOwned:: dw
-wPokedex_CursorPos:: db
-wPokedex_Offset:: db
-wPokedex_FirstIconTile:: db
+wTohodex_NumSeen:: dw
+wTohodex_NumOwned:: dw
+wTohodex_CursorPos:: db
+wTohodex_Offset:: db
+wTohodex_FirstIconTile:: db
 UNION
-wPokedex_Rows:: db
-wPokedex_LastCol:: db ; 1-5 in case the final row isn't completely filled
+wTohodex_Rows:: db
+wTohodex_LastCol:: db ; 1-5 in case the final row isn't completely filled
 NEXTU
-wPokedex_FinalEntry:: dw ; Final entry. Overwritten with rows/lastcol later.
+wTohodex_FinalEntry:: dw ; Final entry. Overwritten with rows/lastcol later.
 ENDU
-wPokedex_GFXFlags:: db ; flags for various gfx update types
-wPokedex_DisplayMode:: db ; current pokédex display
+wTohodex_GFXFlags:: db ; flags for various gfx update types
+wTohodex_DisplayMode:: db ; current pokédex display
 
-wPokedex_InSearchMode:: db
+wTohodex_InSearchMode:: db
 
 ; 0 when not in a current search, otherwise vblank counter at search start.
 ; If vblank counter happens to be zero, it's treated as 255.
-wPokedex_SearchInProgress:: db
+wTohodex_SearchInProgress:: db
 
-wPokedex_Search::
-wPokedex_SearchOrder:: db
-wPokedex_SearchData::
-wPokedex_SearchType1:: db
-wPokedex_SearchType2:: db
-wPokedex_SearchGroup1:: db
-wPokedex_SearchGroup2:: db
-wPokedex_SearchColor:: db
-wPokedex_SearchBody:: db
-wPokedex_SearchDataEnd::
-wPokedex_SearchEnd::
-wPokedex_MenuCursorY:: db
+wTohodex_Search::
+wTohodex_SearchOrder:: db
+wTohodex_SearchData::
+wTohodex_SearchType1:: db
+wTohodex_SearchType2:: db
+wTohodex_SearchGroup1:: db
+wTohodex_SearchGroup2:: db
+wTohodex_SearchColor:: db
+wTohodex_SearchBody:: db
+wTohodex_SearchDataEnd::
+wTohodex_SearchEnd::
+wTohodex_MenuCursorY:: db
 
 
 SECTION UNION "Misc 404", WRAM0
@@ -788,19 +788,19 @@ SECTION UNION "Misc 404", WRAM0
 ; pokegear
 	ds 172
 
-wPokegearPhoneLoadNameBuffer:: db
-wPokegearPhoneCursorPosition:: db
-wPokegearPhoneScrollPosition:: db
-wPokegearPhoneSelectedPerson:: db
-wPokegearPhoneSubmenuCursor:: db
-wPokegearMapCursorObjectPointer:: dw
-wPokegearMapCursorLandmark:: db
-wPokegearMapPlayerIconLandmark:: db
-wPokegearRadioChannelBank:: db
-wPokegearRadioChannelAddr:: dw
-wPokegearRadioMusicPlaying:: db
-wPokegearNumberBuffer:: db
-wPokegearMapCursorSpawnpoint:: db
+wTohogearPhoneLoadNameBuffer:: db
+wTohogearPhoneCursorPosition:: db
+wTohogearPhoneScrollPosition:: db
+wTohogearPhoneSelectedPerson:: db
+wTohogearPhoneSubmenuCursor:: db
+wTohogearMapCursorObjectPointer:: dw
+wTohogearMapCursorLandmark:: db
+wTohogearMapPlayerIconLandmark:: db
+wTohogearRadioChannelBank:: db
+wTohogearRadioChannelAddr:: dw
+wTohogearRadioMusicPlaying:: db
+wTohogearNumberBuffer:: db
+wTohogearMapCursorSpawnpoint:: db
 
 
 SECTION UNION "Misc 404", WRAM0
@@ -864,12 +864,12 @@ wCardFlipEnd::
 
 
 SECTION UNION "Misc 404", WRAM0
-; Unown puzzle
+; Hina puzzle
 	ds 172
 
-wUnownPuzzle::
+wHinaPuzzle::
 wPuzzlePieces:: ds 6 * 6
-wUnownPuzzleEnd::
+wHinaPuzzleEnd::
 
 
 SECTION "Footprint Queue", WRAM0
@@ -933,8 +933,8 @@ wBillsPC_CurMonPals:: ds 2 * 2 * 4 ; 2 bytes per color, 2 colors, 4 mons
 
 ; Stores palettes used for party+box.
 wBillsPC_PalList::
-wBillsPC_PokepicPal:: ds 2 * 2 * 1
-wBillsPC_PokerusShinyPal:: ds 2 * 2 * 1
+wBillsPC_TohopicPal:: ds 2 * 2 * 1
+wBillsPC_TohorusShinyPal:: ds 2 * 2 * 1
 wBillsPC_MonPals1:: ds 2 * 2 * 4
 
 	ds 2 * 2 * 2 ; unused row2 BG2-3
@@ -1117,8 +1117,8 @@ wPrevDexEntryBackup:: db
 
 NEXTU
 ; pokegear
-wPokegearCard:: db
-wPokegearMapRegion:: db
+wTohogearCard:: db
+wTohogearMapRegion:: db
 wTownMapCanFlyHere:: db
 
 NEXTU
@@ -1152,10 +1152,10 @@ wMagnetTrainPosition:: db
 wMagnetTrainWaitCounter:: db
 
 NEXTU
-; unown puzzle data
-wHoldingUnownPuzzlePiece:: db
-wUnownPuzzleCursorPosition:: db
-wUnownPuzzleHeldPiece:: db
+; hina puzzle data
+wHoldingHinaPuzzlePiece:: db
+wHinaPuzzleCursorPosition:: db
+wHinaPuzzleHeldPiece:: db
 
 NEXTU
 ; battle transitions

@@ -1,4 +1,4 @@
-; Pokémon Sw/Sh - Battle! Gym Leader
+; Tohomon Sw/Sh - Battle! Gym Leader
 ; Demixed by ShinkoNetCavy
 ; https://soundcloud.com/user-927422935-571023782/swsh-gym-leader-theme-8-bit-by-shinkonetcavy
 
@@ -15,7 +15,7 @@ Music_GymLeaderBattleSwSh_Ch1:
 	duty_cycle 2
 	note_type 12, 11, 2
 	stereo_panning TRUE, TRUE
-	sound_jump_if COND_FINAL_MON, Music_GymLeaderBattleSwSh_Ch1_EnterLastPokemonPhase
+	sound_jump_if COND_FINAL_MON, Music_GymLeaderBattleSwSh_Ch1_EnterLastTohomonPhase
 	octave 3
 	sound_call Music_GymLeaderBattleSwSh_Ch1_ditty1
 	sound_call Music_GymLeaderBattleSwSh_Ch1_ditty1
@@ -150,7 +150,7 @@ Music_GymLeaderBattleSwSh_Ch2:
 	duty_cycle 2
 	note_type 12, 11, 2
 	stereo_panning TRUE, TRUE
-	sound_jump_if COND_FINAL_MON, Music_GymLeaderBattleSwSh_Ch2_EnterLastPokemonPhase
+	sound_jump_if COND_FINAL_MON, Music_GymLeaderBattleSwSh_Ch2_EnterLastTohomonPhase
 	sound_call Music_GymLeaderBattleSwSh_Ch2_ditty1
 	sound_call Music_GymLeaderBattleSwSh_Ch2_ditty1
 	rest 16
@@ -284,7 +284,7 @@ Music_GymLeaderBattleSwSh_Ch2_DisadvantagePhase_Loop_4:
 Music_GymLeaderBattleSwSh_Ch3:
 	note_type 12, 1, 1
 	stereo_panning TRUE, TRUE
-	sound_jump_if COND_FINAL_MON, Music_GymLeaderBattleSwSh_Ch3_EnterLastPokemonPhase
+	sound_jump_if COND_FINAL_MON, Music_GymLeaderBattleSwSh_Ch3_EnterLastTohomonPhase
 	sound_call Music_GymLeaderBattleSwSh_Ch3_ditty1
 	sound_call Music_GymLeaderBattleSwSh_Ch3_ditty1
 	octave 1
@@ -394,7 +394,7 @@ Music_GymLeaderBattleSwSh_Ch4:
 	drum_speed 12
 	toggle_noise 4
 	stereo_panning TRUE, TRUE
-	sound_jump_if COND_FINAL_MON, Music_GymLeaderBattleSwSh_Ch4_EnterLastPokemonPhase
+	sound_jump_if COND_FINAL_MON, Music_GymLeaderBattleSwSh_Ch4_EnterLastTohomonPhase
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty1
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty1
 	drum_note 2, 1
@@ -475,7 +475,7 @@ Music_GymLeaderBattleSwSh_Ch4_DisadvantagePhase_Loop_4:
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty8
 	sound_jump Music_GymLeaderBattleSwSh_Ch4_DisadvantagePhase_Loop
 
-Music_GymLeaderBattleSwSh_Ch2_EnterLastPokemonPhase:
+Music_GymLeaderBattleSwSh_Ch2_EnterLastTohomonPhase:
 	duty_cycle 1
 	volume_envelope 10, 8
 	vibrato 0, 0, 0
@@ -498,7 +498,7 @@ Music_GymLeaderBattleSwSh_Ch2_EnterLastPokemonPhase:
 	octave 4
 	sound_call Music_GymLeaderBattleSwSh_Ch2_ditty6
 	note B_, 2
-Music_GymLeaderBattleSwSh_Ch2_LastPokemonPhase_Loop:
+Music_GymLeaderBattleSwSh_Ch2_LastTohomonPhase_Loop:
 	duty_cycle 1
 	volume_envelope 12, 4
 	stereo_panning TRUE, TRUE
@@ -533,9 +533,9 @@ Music_GymLeaderBattleSwSh_Ch2_LastPokemonPhase_Loop:
 	sound_call Music_GymLeaderBattleSwSh_Ch2_ditty10
 	sound_call Music_GymLeaderBattleSwSh_Ch2_ditty10
 	sound_call Music_GymLeaderBattleSwSh_Ch2_ditty10
-	sound_jump Music_GymLeaderBattleSwSh_Ch2_LastPokemonPhase_Loop
+	sound_jump Music_GymLeaderBattleSwSh_Ch2_LastTohomonPhase_Loop
 
-Music_GymLeaderBattleSwSh_Ch1_EnterLastPokemonPhase:
+Music_GymLeaderBattleSwSh_Ch1_EnterLastTohomonPhase:
 	duty_cycle 1
 	volume_envelope 10, 8
 	vibrato 0, 0, 0
@@ -555,7 +555,7 @@ Music_GymLeaderBattleSwSh_Ch1_EnterLastPokemonPhase:
 	vibrato 0, 0, 0
 	sound_call Music_GymLeaderBattleSwSh_Ch1_ditty4
 	sound_call Music_GymLeaderBattleSwSh_Ch1_ditty5
-Music_GymLeaderBattleSwSh_Ch1_LastPokemonPhase_Loop:
+Music_GymLeaderBattleSwSh_Ch1_LastTohomonPhase_Loop:
 	rest 2
 	duty_cycle 1
 	volume_envelope 12, 7
@@ -578,10 +578,10 @@ Music_GymLeaderBattleSwSh_Ch1_LastPokemonPhase_Loop:
 	sound_call Music_GymLeaderBattleSwSh_Ch1_ditty10
 	octave 4
 	sound_call Music_GymLeaderBattleSwSh_Ch1_ditty10
-	sound_jump Music_GymLeaderBattleSwSh_Ch1_LastPokemonPhase_Loop
+	sound_jump Music_GymLeaderBattleSwSh_Ch1_LastTohomonPhase_Loop
 
 
-Music_GymLeaderBattleSwSh_Ch3_EnterLastPokemonPhase:
+Music_GymLeaderBattleSwSh_Ch3_EnterLastTohomonPhase:
 	rest 16
 	rest 16
 	rest 16
@@ -589,7 +589,7 @@ Music_GymLeaderBattleSwSh_Ch3_EnterLastPokemonPhase:
 	octave 2
 	sound_call Music_GymLeaderBattleSwSh_Ch3_ditty4
 	sound_call Music_GymLeaderBattleSwSh_Ch3_ditty4
-Music_GymLeaderBattleSwSh_Ch3_LastPokemonPhase_Loop:
+Music_GymLeaderBattleSwSh_Ch3_LastTohomonPhase_Loop:
 	sound_call Music_GymLeaderBattleSwSh_Ch3_ditty5
 	sound_call Music_GymLeaderBattleSwSh_Ch3_ditty5
 	sound_call Music_GymLeaderBattleSwSh_Ch3_ditty5
@@ -600,14 +600,14 @@ Music_GymLeaderBattleSwSh_Ch3_LastPokemonPhase_Loop:
 	sound_call Music_GymLeaderBattleSwSh_Ch3_ditty6
 	sound_call Music_GymLeaderBattleSwSh_Ch3_ditty7
 	sound_call Music_GymLeaderBattleSwSh_Ch3_ditty7
-	sound_jump Music_GymLeaderBattleSwSh_Ch3_LastPokemonPhase_Loop
+	sound_jump Music_GymLeaderBattleSwSh_Ch3_LastTohomonPhase_Loop
 
 
-Music_GymLeaderBattleSwSh_Ch4_EnterLastPokemonPhase:
+Music_GymLeaderBattleSwSh_Ch4_EnterLastTohomonPhase:
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty5
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty2
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty2
-Music_GymLeaderBattleSwSh_Ch4_LastPokemonPhase_Loop:
+Music_GymLeaderBattleSwSh_Ch4_LastTohomonPhase_Loop:
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty3
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty3
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty6
@@ -618,7 +618,7 @@ Music_GymLeaderBattleSwSh_Ch4_LastPokemonPhase_Loop:
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty7
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty7
 	sound_call Music_GymLeaderBattleSwSh_Ch4_ditty7
-	sound_jump Music_GymLeaderBattleSwSh_Ch4_LastPokemonPhase_Loop
+	sound_jump Music_GymLeaderBattleSwSh_Ch4_LastTohomonPhase_Loop
 
 Music_GymLeaderBattleSwSh_Ch2_ditty1:
 	octave 3

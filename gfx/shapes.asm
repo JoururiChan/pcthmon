@@ -1,5 +1,5 @@
 Shapes:
-; Entries correspond to SHAPE_* constants (see constants/pokemon_data_constants.asm)
+; Entries correspond to SHAPE_* constants (see constants/tohomon_data_constants.asm)
 	table_width LEN_1BPP_TILE * 4
 INCBIN "gfx/shapes/head.1bpp"
 INCBIN "gfx/shapes/serpentine.1bpp"

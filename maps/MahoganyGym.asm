@@ -52,7 +52,7 @@ MahoganyGymPryceScript:
 	setmapscene MAHOGANY_TOWN, $1
 .FightDone:
 	checkevent EVENT_GOT_TM67_AVALANCHE
-	iftrue_jumpopenedtext PryceText_CherishYourPokemon
+	iftrue_jumpopenedtext PryceText_CherishYourTohomon
 	setevent EVENT_BEAT_SKIER_ROXANNE
 	setevent EVENT_BEAT_SKIER_CLARISSA
 	setevent EVENT_BEAT_BOARDER_RONALD
@@ -203,7 +203,7 @@ PryceText_GlacierBadgeSpeech:
 	line "a gift from me!"
 	done
 
-PryceText_CherishYourPokemon:
+PryceText_CherishYourTohomon:
 	text "When the ice and"
 	line "snow melt, spring"
 	cont "arrives."

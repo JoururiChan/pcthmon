@@ -1,4 +1,4 @@
-; Oak's Pokémon Talk will list wild Pokémon on these maps.
+; Oak's Tohomon Talk will list wild Tohomon on these maps.
 
 OaksPkmnTalkRoutes:
 	map_id ROUTE_29

@@ -1,4 +1,4 @@
-; Unique icons by Blue Emerald, Soloo993, Chamber, Lake, Neslug, EKikuri253, and Ryta
+; Unique icons by Blue Emerald, Soloo993, Chamber, Lake, Neslug, Kikuri253, and Ryta
 ; http://www.pokecommunity.com/showthread.php?t=338470
 
 SECTION "CReimu Mini Icon", ROMX

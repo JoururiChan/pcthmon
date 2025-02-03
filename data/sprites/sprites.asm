@@ -129,9 +129,9 @@ SpriteHeaders:
 	overworld_sprite PharmacistSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite PISpriteGFX, WALKING_SPRITE, PAL_OW_BLACK
 	overworld_sprite PicnickerSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite PokefanMSpriteGFX, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite PokefanFSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
-	overworld_sprite PokemaniacSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite TohofanMSpriteGFX, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite TohofanFSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite TohomaniacSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite PsychicSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite RichBoySpriteGFX, WALKING_SPRITE, PAL_OW_GRAY
 	overworld_sprite RockerSpriteGFX, WALKING_SPRITE, PAL_OW_RED

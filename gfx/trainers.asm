@@ -124,11 +124,11 @@ GruntmPic: INCBIN "gfx/trainers/grunt_m.2bpp.lz"
 SECTION "GruntfPic", ROMX
 GruntfPic: INCBIN "gfx/trainers/grunt_f.2bpp.lz"
 
-SECTION "PokefanmPic", ROMX
-PokefanmPic: INCBIN "gfx/trainers/pokefan_m.2bpp.lz"
+SECTION "TohofanmPic", ROMX
+TohofanmPic: INCBIN "gfx/trainers/pokefan_m.2bpp.lz"
 
-SECTION "PokefanfPic", ROMX
-PokefanfPic: INCBIN "gfx/trainers/pokefan_f.2bpp.lz"
+SECTION "TohofanfPic", ROMX
+TohofanfPic: INCBIN "gfx/trainers/pokefan_f.2bpp.lz"
 
 SECTION "OfficermPic", ROMX
 OfficermPic: INCBIN "gfx/trainers/officer_m.2bpp.lz"
@@ -139,8 +139,8 @@ OfficerfPic: INCBIN "gfx/trainers/officer_f.2bpp.lz"
 SECTION "NursePic", ROMX
 NursePic: INCBIN "gfx/trainers/nurse.2bpp.lz"
 
-SECTION "PokemaniacPic", ROMX
-PokemaniacPic: INCBIN "gfx/trainers/pokemaniac.2bpp.lz"
+SECTION "TohomaniacPic", ROMX
+TohomaniacPic: INCBIN "gfx/trainers/pokemaniac.2bpp.lz"
 
 SECTION "CosplayerPic", ROMX
 CosplayerPic: INCBIN "gfx/trainers/cosplayer.2bpp.lz"
@@ -447,14 +447,14 @@ ReiPic: INCBIN "gfx/trainers/rei.2bpp.lz"
 SECTION "OmastarFossilPic", ROMX
 OmastarFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"
 
-SECTION "KabutopsFossilPic", ROMX
-KabutopsFossilPic: INCBIN "gfx/trainers/kabutops_fossil.2bpp.lz"
+SECTION "LunasapsFossilPic", ROMX
+LunasapsFossilPic: INCBIN "gfx/trainers/lunasaps_fossil.2bpp.lz"
 
-SECTION "AerodactylFossilPic", ROMX
-AerodactylFossilPic: INCBIN "gfx/trainers/aerodactyl_fossil.2bpp.lz"
+SECTION "AYuyukoFossilPic", ROMX
+AYuyukoFossilPic: INCBIN "gfx/trainers/ayuyuko_fossil.2bpp.lz"
 
-SECTION "CuboneArmorPic", ROMX
-CuboneArmorPic: INCBIN "gfx/trainers/cubone_armor.2bpp.lz"
+SECTION "ChenArmorPic", ROMX
+ChenArmorPic: INCBIN "gfx/trainers/chen_armor.2bpp.lz"
 
 SECTION "MeteoritePic", ROMX
 MeteoritePic: INCBIN "gfx/trainers/meteorite.2bpp.lz"

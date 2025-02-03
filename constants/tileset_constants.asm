@@ -43,7 +43,7 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_SAFARI_ZONE          ; 28
 	const TILESET_RUINS_OF_ALPH        ; 29
 	const TILESET_ALPH_WORD_ROOM       ; 2a
-	const TILESET_POKEMON_MANSION      ; 2b
+	const TILESET_TOHOMON_MANSION      ; 2b
 	const TILESET_BATTLE_FACTORY       ; 2c
 	const TILESET_SNOWTOP_MOUNTAIN     ; 2d
 DEF NUM_TILESETS EQU const_value - 1

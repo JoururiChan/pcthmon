@@ -9,12 +9,12 @@ RuinsOfAlphInnerChamber_MapScriptHeader:
 	warp_event 10, 13, RUINS_OF_ALPH_ENTRANCE_CHAMBER, 3
 	warp_event  3, 15, RUINS_OF_ALPH_HO_OH_CHAMBER, 3
 	warp_event  4, 15, RUINS_OF_ALPH_HO_OH_CHAMBER, 4
-	warp_event 15,  3, RUINS_OF_ALPH_KABUTO_CHAMBER, 3
-	warp_event 16,  3, RUINS_OF_ALPH_KABUTO_CHAMBER, 4
-	warp_event  3, 21, RUINS_OF_ALPH_OMANYTE_CHAMBER, 3
-	warp_event  4, 21, RUINS_OF_ALPH_OMANYTE_CHAMBER, 4
-	warp_event 15, 24, RUINS_OF_ALPH_AERODACTYL_CHAMBER, 3
-	warp_event 16, 24, RUINS_OF_ALPH_AERODACTYL_CHAMBER, 4
+	warp_event 15,  3, RUINS_OF_ALPH_LUNASA_CHAMBER, 3
+	warp_event 16,  3, RUINS_OF_ALPH_LUNASA_CHAMBER, 4
+	warp_event  3, 21, RUINS_OF_ALPH_CYUYUKO_CHAMBER, 3
+	warp_event  4, 21, RUINS_OF_ALPH_CYUYUKO_CHAMBER, 4
+	warp_event 15, 24, RUINS_OF_ALPH_AYUYUKO_CHAMBER, 3
+	warp_event 16, 24, RUINS_OF_ALPH_AYUYUKO_CHAMBER, 4
 
 	def_coord_events
 
@@ -62,7 +62,7 @@ RuinsofAlphInnerChamberTrigger0:
 RuinsOfAlphInnerChamberStrangePresenceScript:
 	showtext RuinsOfAlphStrangePresenceText
 	setscene $0
-	setevent EVENT_MADE_UNOWN_APPEAR_IN_RUINS
+	setevent EVENT_MADE_HINA_APPEAR_IN_RUINS
 	clearevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_FISHER
 	end
 

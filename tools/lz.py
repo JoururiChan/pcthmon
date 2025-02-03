@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Pokemon Crystal data de/compression.
+Tohomon Crystal data de/compression.
 """
 
 """
-A rundown of Pokemon Crystal's compression scheme:
+A rundown of Tohomon Crystal's compression scheme:
 
 Control commands occupy bits 5-7.
 Bits 0-4 serve as the first parameter <n> for each command.

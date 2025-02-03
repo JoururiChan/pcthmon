@@ -35,8 +35,8 @@ tools := \
 	lzcomp \
 	make_patch \
 	png_dimensions \
-	pokemon_animation \
-	pokemon_animation_graphics \
+	tohomon_animation \
+	tohomon_animation_graphics \
 	scan_includes \
 	vwf
 
@@ -48,8 +48,8 @@ clean:
 
 gfx: common.h
 png_dimensions: common.h
-pokemon_animation: common.h
-pokemon_animation_graphics: common.h
+tohomon_animation: common.h
+tohomon_animation_graphics: common.h
 scan_includes: common.h
 vwf: common.h
 

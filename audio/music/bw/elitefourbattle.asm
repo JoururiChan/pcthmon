@@ -1,4 +1,4 @@
-; Pokémon B/W - Battle! Elite Four
+; Tohomon B/W - Battle! Elite Four
 ; Demixed by Mmmmmm
 ; https://pastebin.com/SQ00sPwE
 ; https://hax.iimarckus.org/topic/6777/9/

@@ -10,7 +10,7 @@ CeladonUniversityHyperTestRoom_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  2,  1, BGEVENT_READ, CeladonUniversityHyperTestRoomMagikarpSign
+	bg_event  2,  1, BGEVENT_READ, CeladonUniversityHyperTestRoomLilyBlackSign
 	bg_event  6,  1, BGEVENT_JUMPTEXT, CeladonUniversityHyperTestRoomBookshelf1Text
 	bg_event  7,  1, BGEVENT_JUMPTEXT, CeladonUniversityHyperTestRoomBookshelf2Text
 	bg_event  7,  4, BGEVENT_RIGHT, CeladonUniversityHyperTestRoomComputer
@@ -25,10 +25,10 @@ CeladonUniversityHyperTestRoom_MapScriptHeader:
 CeladonUniversityHyperTestRoomWestwoodScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_DRAGON_RAGE_MAGIKARP
+	checkevent EVENT_GOT_DRAGON_RAGE_LILYBLACK
 	iftrue_jumpopenedtext .TestOverText
 	checkevent EVENT_PASSED_CELADON_HYPER_TEST
-	iftruefwd .GiveMagikarp
+	iftruefwd .GiveLilyBlack
 	writetext .GreetingText
 	waitbutton
 	checkevent EVENT_LISTENED_TO_WESTWOOD_INTRO
@@ -129,13 +129,13 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	promptbutton
 
 	setevent EVENT_PASSED_CELADON_HYPER_TEST
-.GiveMagikarp:
+.GiveLilyBlack:
 	writetext .CongratulationsText
 	waitbutton
 
-	givepoke MAGIKARP, MAGIKARP_MASK1_FORM, 10, EVIOLITE, ULTRA_BALL, DRAGON_RAGE
+	givepoke LILYBLACK, LILYBLACK_MASK1_FORM, 10, EVIOLITE, ULTRA_BALL, DRAGON_RAGE
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	setevent EVENT_GOT_DRAGON_RAGE_MAGIKARP
+	setevent EVENT_GOT_DRAGON_RAGE_LILYBLACK
 	jumpopenedtext .TestOverText
 
 .WrongAnswer:
@@ -258,7 +258,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	para "Here's your prize--"
 	line "a uniquely bred"
 
-	para "Magikarp that"
+	para "LilyBlack that"
 	line "knows Dragon Rage!"
 	done
 
@@ -266,7 +266,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	text "Our students have"
 	line "the tenacity of a"
 
-	para "Magikarp strugg-"
+	para "LilyBlack strugg-"
 	line "ling to evolve."
 	cont "And so do you!"
 	done
@@ -351,7 +351,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db $81 ; flags
 	db 4 ; items
 	db "Parasect@"
-	db "Magmar@"
+	db "LilyWhite@"
 	db "Sandslash@"
 	db "Victreebel@"
 
@@ -407,15 +407,15 @@ CeladonUniversityHyperTestRoomTwin2Text:
 	cont "you!"
 	done
 
-CeladonUniversityHyperTestRoomMagikarpSign:
+CeladonUniversityHyperTestRoomLilyBlackSign:
 	reanchormap
-	pokepic MAGIKARP, MAGIKARP_MASK1_FORM
-	cry MAGIKARP
+	pokepic LILYBLACK, LILYBLACK_MASK1_FORM
+	cry LILYBLACK
 	waitbutton
 	closepokepic
 	jumpthistext
 
-	text "A Magikarp is"
+	text "A LilyBlack is"
 	line "swimming around."
 	done
 
@@ -431,7 +431,7 @@ CeladonUniversityHyperTestRoomBookshelf2Text:
 	text "It's a copy of"
 	line "Nintendo Power!"
 
-	para "A Pikachu picture"
+	para "A Kikuri picture"
 	line "fills the front"
 	cont "cover."
 	done

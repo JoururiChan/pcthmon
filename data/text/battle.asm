@@ -15,7 +15,7 @@ BattleText_PlayerPickedUpPayDayMoney:
 	text "!"
 	prompt
 
-WildPokemonAppearedText:
+WildTohomonAppearedText:
 	text "A wild "
 	stop_compressing_text ; fallthrough
 LegendaryAppearedText:
@@ -35,7 +35,7 @@ SilphScopeRevealText:
 	cont "Ghost's identity!"
 	prompt
 
-HookedPokemonAttackedText:
+HookedTohomonAttackedText:
 	text "The hooked"
 	line ""
 	text_ram wEnemyMonNickname
@@ -43,7 +43,7 @@ HookedPokemonAttackedText:
 	cont "attacked!"
 	prompt
 
-PokemonFellFromTreeText:
+TohomonFellFromTreeText:
 	text_ram wEnemyMonNickname
 	text " fell"
 	line "out of the tree!"

@@ -1,4 +1,4 @@
-; Pokémon D/P/Pt - Route 209
+; Tohomon D/P/Pt - Route 209
 ; Demixed by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/DPPt/route209.asm
 

@@ -20,8 +20,8 @@ Route13East_MapScriptHeader:
 	object_event 41,  9, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPicnickerPiper, -1
 	object_event 28,  6, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCoupleTimandsue1, -1
 	object_event 29,  6, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCoupleTimandsue2, -1
-	object_event 14,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPokefanmJoshua, -1
-	object_event  1,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerPokefanmAlex, -1
+	object_event 14,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohofanmJoshua, -1
+	object_event  1,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerTohofanmAlex, -1
 	object_event  5, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, Route13EastGrampsScript, -1
 	cuttree_event 30,  4, EVENT_ROUTE_13_CUT_TREE
 
@@ -146,42 +146,42 @@ GenericTrainerCoupleTimandsue2:
 	text "Sue: Wa ha…"
 	done
 
-GenericTrainerPokefanmAlex:
-	generictrainer POKEFANM, ALEX, EVENT_BEAT_POKEFANM_ALEX, PokefanmAlexSeenText, PokefanmAlexBeatenText
+GenericTrainerTohofanmAlex:
+	generictrainer POKEFANM, ALEX, EVENT_BEAT_POKEFANM_ALEX, TohofanmAlexSeenText, TohofanmAlexBeatenText
 
 	text "Doesn't everyone"
 	line "wish to someday be"
 	cont "a king?"
 	done
 
-PokefanmAlexSeenText:
+TohofanmAlexSeenText:
 	text "Bow down before my"
 	line "regal #mon!"
 	done
 
-PokefanmAlexBeatenText:
+TohofanmAlexBeatenText:
 	text "How… How dare you"
 	line "mock royalty!"
 	done
 
-GenericTrainerPokefanmJoshua:
-	generictrainer POKEFANM, JOSHUA, EVENT_BEAT_POKEFANM_JOSHUA, PokefanmJoshuaSeenText, PokefanmJoshuaBeatenText
+GenericTrainerTohofanmJoshua:
+	generictrainer POKEFANM, JOSHUA, EVENT_BEAT_POKEFANM_JOSHUA, TohofanmJoshuaSeenText, TohofanmJoshuaBeatenText
 
 	text "You look like you"
 	line "have many #mon,"
 
-	para "but EKikuri is"
+	para "but Kikuri is"
 	line "still the best."
 	done
 
-PokefanmJoshuaSeenText:
+TohofanmJoshuaSeenText:
 	text "Nihihi! Would you"
 	line "like to battle my"
-	cont "EKikuri gang?"
+	cont "Kikuri gang?"
 	done
 
-PokefanmJoshuaBeatenText:
-	text "Pi-EKikuri!"
+TohofanmJoshuaBeatenText:
+	text "Pi-Kikuri!"
 	done
 
 Route13EastGrampsScript:

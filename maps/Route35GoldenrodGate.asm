@@ -15,7 +15,7 @@ Route35GoldenrodGate_MapScriptHeader:
 
 	def_object_events
 	object_event  0,  4, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RandyScript, -1
-	object_event  6,  4, SPRITE_BREEDER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route35GoldenrodGatePokefanFScript, -1
+	object_event  6,  4, SPRITE_BREEDER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route35GoldenrodGateTohofanFScript, -1
 	object_event  3,  2, SPRITE_FAT_GUY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route35GoldenrodGateFisherText, -1
 
 RandyScript:
@@ -73,15 +73,15 @@ GiftElisName:
 GiftElisOTName:
 	rawchar "Randy@"
 
-Route35GoldenrodGatePokefanFScript:
+Route35GoldenrodGateTohofanFScript:
 	faceplayer
 	opentext
 	checkevent EVENT_FOUGHT_CMEDICINE
 	iftruefwd .aftercmedicine
-	jumpopenedtext Route35GoldenrodGatePokefanFText
+	jumpopenedtext Route35GoldenrodGateTohofanFText
 
 .aftercmedicine
-	jumpopenedtext Route35GoldenrodGatePokefanFText_FoughtCMedicine
+	jumpopenedtext Route35GoldenrodGateTohofanFText_FoughtCMedicine
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
 	text "Excuse me, kid!"
@@ -150,7 +150,7 @@ Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
 	cont "what'd I say?"
 	done
 
-Route35GoldenrodGatePokefanFText:
+Route35GoldenrodGateTohofanFText:
 	text "A strange tree is"
 	line "blocking the road."
 
@@ -164,7 +164,7 @@ Route35GoldenrodGatePokefanFText:
 	line "SquirtBottle."
 	done
 
-Route35GoldenrodGatePokefanFText_FoughtCMedicine:
+Route35GoldenrodGateTohofanFText_FoughtCMedicine:
 	text "I like the #mon"
 	line "Lullaby they play"
 	cont "on the radio."

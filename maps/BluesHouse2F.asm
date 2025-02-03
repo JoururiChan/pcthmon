@@ -11,8 +11,8 @@ BluesHouse2F_MapScriptHeader:
 	def_bg_events
 	bg_event  0,  1, BGEVENT_JUMPTEXT, BluesHouse2FPCText
 	bg_event  3,  5, BGEVENT_JUMPTEXT, BluesHouse2FSNESText
-	bg_event  4,  1, BGEVENT_READ, PokemonJournalProfOakScript
-	bg_event  5,  1, BGEVENT_READ, PokemonJournalProfOakScript
+	bg_event  4,  1, BGEVENT_READ, TohomonJournalProfOakScript
+	bg_event  5,  1, BGEVENT_READ, TohomonJournalProfOakScript
 
 	def_object_events
 

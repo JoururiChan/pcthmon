@@ -283,10 +283,10 @@ endc
 	fardw BattleAnim_StatUp
 	fardw BattleAnim_StatDown
 	fardw BattleAnim_Sharpen
-	fardw BattleAnim_ThrowPokeBall
+	fardw BattleAnim_ThrowTohoBall
 	fardw BattleAnim_SendOutMon
 	fardw BattleAnim_ReturnMon
-	fardw BattleAnim_Transform
+	fardw BattleAnim_Recollect
 	fardw BattleAnim_Miss
 	fardw BattleAnim_EnemyDamage
 	fardw BattleAnim_PlayerDamage

@@ -28,7 +28,7 @@
 	const SPRITE_BROCK ; 18
 	const SPRITE_MISTY ; 19
 	const SPRITE_SURGE ; 1a
-	const SPRITE_ERIKA_T ; 1b
+	const SPRITE_ERIKA ; 1b
 	const SPRITE_JANINE ; 1c
 	const SPRITE_SABRINA ; 1d
 	const SPRITE_BLAINE ; 1e
@@ -205,7 +205,7 @@ DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
 	const_next $ef
-DEF SPRITE_POKEMON EQU const_value
+DEF SPRITE_TOHOMON EQU const_value
 	const SPRITE_MON_ICON ; ef
 	const SPRITE_MON_DOLL_1 ; f0
 	const SPRITE_MON_DOLL_2 ; f1

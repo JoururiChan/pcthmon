@@ -159,7 +159,7 @@ UpdateNoRTC::
 	ret nz
 	ld [hld], a
 
-; We do not need to check for days overflow! Pokémon Crystal always keeps the
+; We do not need to check for days overflow! Tohomon Crystal always keeps the
 ; RTC within a 140 day loop (see time.asm/FixDays)!
 ; Since the no-RTC patch is not running the clock when the GameBoy is off,
 ; it is not possible for the clock to stray beyond 140 days, let alone the

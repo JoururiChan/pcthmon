@@ -20,7 +20,7 @@ BillsGrandpa:
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	iftrue_jumptextfaceplayer BillsGrandpaComeAgainText
 	checkevent EVENT_GOT_SHINY_STONE_FROM_BILLS_GRANDPA
-	iftrue_jumptextfaceplayer BillsGrandpaShownAllThePokemonText
+	iftrue_jumptextfaceplayer BillsGrandpaShownAllTheTohomonText
 	faceplayer
 	opentext
 	checkevent EVENT_MET_BILLS_GRANDPA
@@ -55,8 +55,8 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal CGYOKU, .WrongPokemon
-	scall .CorrectPokemon
+	ifnotequal CGYOKU, .WrongTohomon
+	scall .CorrectTohomon
 	setevent EVENT_SHOWED_CGYOKU_TO_BILLS_GRANDPA
 	sjumpfwd .ShowedCGyoku
 
@@ -69,8 +69,8 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal CYUKA, .WrongPokemon
-	scall .CorrectPokemon
+	ifnotequal CYUKA, .WrongTohomon
+	scall .CorrectTohomon
 	setevent EVENT_SHOWED_CYUKA_TO_BILLS_GRANDPA
 	sjumpfwd .ShowedCYuka
 
@@ -83,8 +83,8 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal CCHIYURI, .WrongPokemon
-	scall .CorrectPokemon
+	ifnotequal CCHIYURI, .WrongTohomon
+	scall .CorrectTohomon
 	setevent EVENT_SHOWED_CCHIYURI_TO_BILLS_GRANDPA
 	sjumpfwd .ShowedCChiyuri
 
@@ -97,8 +97,8 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal CSARA, .WrongPokemon
-	scall .CorrectPokemon
+	ifnotequal CSARA, .WrongTohomon
+	scall .CorrectTohomon
 	setevent EVENT_SHOWED_CSARA_TO_BILLS_GRANDPA
 	sjumpfwd .ShowedCSara
 
@@ -111,8 +111,8 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal CRIKA, .WrongPokemon
-	scall .CorrectPokemon
+	ifnotequal CRIKA, .WrongTohomon
+	scall .CorrectTohomon
 	setevent EVENT_SHOWED_CRIKA_TO_BILLS_GRANDPA
 	sjumpfwd .ShowedCRika
 
@@ -125,8 +125,8 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal CREISEN, .WrongPokemon
-	scall .CorrectPokemon
+	ifnotequal CREISEN, .WrongTohomon
+	scall .CorrectTohomon
 	setevent EVENT_SHOWED_CREISEN_TO_BILLS_GRANDPA
 	sjumpfwd .ShowedCReisen
 
@@ -139,8 +139,8 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal CDAICHAN, .WrongPokemon
-	scall .CorrectPokemon
+	ifnotequal CDAICHAN, .WrongTohomon
+	scall .CorrectTohomon
 	setevent EVENT_SHOWED_CDAICHAN_TO_BILLS_GRANDPA
 	sjumpfwd .ShowedCDaichan
 
@@ -153,8 +153,8 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal CRUMIA, .WrongPokemon
-	scall .CorrectPokemon
+	ifnotequal CRUMIA, .WrongTohomon
+	scall .CorrectTohomon
 	setevent EVENT_SHOWED_CRUMIA_TO_BILLS_GRANDPA
 	sjumpfwd .ShowedCRumia
 
@@ -167,8 +167,8 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special Special_BillsGrandfather
 	iffalse_jumpopenedtext BillsGrandpaYouDontHaveItTextText
-	ifnotequal CKIKURI, .WrongPokemon
-	scall .CorrectPokemon
+	ifnotequal CKIKURI, .WrongTohomon
+	scall .CorrectTohomon
 	setevent EVENT_SHOWED_CKIKURI_TO_BILLS_GRANDPA
 	sjumpfwd .ShowedCKikuri
 
@@ -264,8 +264,8 @@ BillsGrandpa:
 	promptbutton
 	end
 
-.CorrectPokemon:
-	writetext BillsGrandpaShownPokemonText
+.CorrectTohomon:
+	writetext BillsGrandpaShownTohomonText
 	promptbutton
 	end
 
@@ -274,7 +274,7 @@ BillsGrandpa:
 	promptbutton
 	end
 
-.WrongPokemon:
+.WrongTohomon:
 	jumpthisopenedtext
 
 	text "Hm?"
@@ -349,7 +349,7 @@ BillsGrandpaYouDontHaveItTextText:
 	line "That's too bad…"
 	done
 
-BillsGrandpaShownPokemonText:
+BillsGrandpaShownTohomonText:
 	text "Ah, so that is"
 	line ""
 	text_ram wStringBuffer3
@@ -372,7 +372,7 @@ BillsGrandpaComeAgainText:
 	line "sometime."
 	done
 
-BillsGrandpaShownAllThePokemonText:
+BillsGrandpaShownAllTheTohomonText:
 	text "Thanks for showing"
 	line "me so many cute"
 	cont "#mon."

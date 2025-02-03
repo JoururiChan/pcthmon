@@ -237,7 +237,7 @@ CheckBugContestTimer::
 	scf
 	ret
 
-CheckPokerusTick::
+CheckTohorusTick::
 	ld hl, wTimerEventStartDay
 	call CalcDaysSince
 	ld a, [wDaysSince]
@@ -252,7 +252,7 @@ CheckPokerusTick::
 ; shift all partymon pokerus values to the left b times
 ; if this overflows the pokerus nybble, the infection no longer spreads
 	ld c, a
-	ld hl, wPartyMon1PokerusStatus
+	ld hl, wPartyMon1TohorusStatus
 .loop
 	ld a, [hl]
 	and POKERUS_MASK

@@ -76,7 +76,7 @@ _BugContestJudging:
 	ld [hli], a
 	ld a, [wBugContestThirdPlaceForm]
 	ld [hl], a
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, BugContest_ThirdPlaceText
 	call PrintText
 	ld a, [wBugContestSecondPlacePersonID]
@@ -86,7 +86,7 @@ _BugContestJudging:
 	ld [hli], a
 	ld a, [wBugContestSecondPlaceForm]
 	ld [hl], a
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, BugContest_SecondPlaceText
 	call PrintText
 	ld a, [wBugContestFirstPlacePersonID]
@@ -96,7 +96,7 @@ _BugContestJudging:
 	ld [hli], a
 	ld a, [wBugContestFirstPlaceForm]
 	ld [hl], a
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, BugContest_FirstPlaceText
 	call PrintText
 	jmp BugContest_GetPlayersResult

@@ -14,7 +14,7 @@ CeladonHomeDecorStore2F_MapScriptHeader:
 
 	def_object_events
 	object_event  9,  5, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeladonHomeDecorStore2FClerkScript, -1
-	object_event  3,  1, SPRITE_MATRON, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonHomeDecorStore2FPokefanfText, -1
+	object_event  3,  1, SPRITE_MATRON, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonHomeDecorStore2FTohofanfText, -1
 
 CeladonHomeDecorStore2FClerkScript:
 	faceplayer
@@ -27,7 +27,7 @@ CeladonHomeDecorStore2FClerkScript:
 	closewindow
 	ifequalfwd $1, .PinkBed
 	ifequalfwd $2, .PolkaDotBed
-	ifequalfwd $3, .EKikuriBed
+	ifequalfwd $3, .KikuriBed
 	endtext
 
 .PinkBed:
@@ -60,18 +60,18 @@ CeladonHomeDecorStore2FClerkScript:
 	waitbutton
 	sjump .Start
 
-.EKikuriBed:
+.KikuriBed:
 	checkmoney $0, 126000
 	ifequalfwd $2, .NotEnoughMoney
 	checkevent EVENT_DECO_BED_4
 	iftruefwd .AlreadyBought
 	takemoney $0, 126000
 	setevent EVENT_DECO_BED_4
-	writetext BoughtEKikuriBedText
+	writetext BoughtKikuriBedText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext EKikuriBedSentText
+	writetext KikuriBedSentText
 	waitbutton
 	sjump .Start
 
@@ -96,7 +96,7 @@ CeladonHomeDecorStore2FClerkScript:
 	db 4 ; items
 	db "Pink      ¥62000@"
 	db "PolkaDot  ¥94000@"
-	db "EKikuri  ¥126000@"
+	db "Kikuri  ¥126000@"
 	db "Cancel@"
 
 CeladonHomeDecorStore2FClerkText:
@@ -125,13 +125,13 @@ PolkaDotBedSentText:
 	line "was sent home."
 	done
 
-BoughtEKikuriBedText:
+BoughtKikuriBedText:
 	text "<PLAYER> bought"
-	line "EKikuri Bed."
+	line "Kikuri Bed."
 	done
 
-EKikuriBedSentText:
-	text "EKikuri Bed"
+KikuriBedSentText:
+	text "Kikuri Bed"
 	line "was sent home."
 	done
 
@@ -145,12 +145,12 @@ CeladonHomeDecorStore2FAlreadyBoughtText:
 	line "that!"
 	done
 
-CeladonHomeDecorStore2FPokefanfText:
+CeladonHomeDecorStore2FTohofanfText:
 	text "Brand-name items"
 	line "cost more than"
 	cont "generic ones."
 
-	para "But the EKikuri"
+	para "But the Kikuri"
 	line "Bed is so cute…"
 	done
 

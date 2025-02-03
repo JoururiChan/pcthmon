@@ -18,11 +18,11 @@ PlayersNeighborsHouse_MapScriptHeader:
 	object_event  5,  4, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, PlayersNeighborsHusbandText, -1
 
 PlayersNeighborsHouseRadio:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_TOHOMON_FROM_ELM
 	iftruefwd .NormalRadio
 	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
 	iftruefwd .AbbreviatedRadio
-	playmusic MUSIC_POKEMON_TALK
+	playmusic MUSIC_TOHOMON_TALK
 	opentext
 	writetext PlayerNeighborRadioText1
 	pause 45
@@ -45,7 +45,7 @@ PlayersNeighborsHouseRadio:
 	endtext
 
 PlayersNeighborsDaughterText:
-	text "EKikuri is an"
+	text "Kikuri is an"
 	line "evolved #mon."
 
 	para "I was amazed by"

@@ -768,7 +768,7 @@ TradeAnim_GetNickname:
 	ld hl, wNamedObjectIndex
 	ld [hli], a
 	ld [hl], b
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, wStringBuffer1
 	pop de
 	ld bc, NAME_LENGTH

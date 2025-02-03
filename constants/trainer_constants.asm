@@ -1126,11 +1126,11 @@ DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 
 	trainerclass OMASTAR_FOSSIL ; 9a
 
-	trainerclass KABUTOPS_FOSSIL ; 9b
+	trainerclass LUNASAPS_FOSSIL ; 9b
 
-	trainerclass AERODACTYL_FOSSIL ; 9c
+	trainerclass AYUYUKO_FOSSIL ; 9c
 
-	trainerclass CUBONE_ARMOR ; 9d
+	trainerclass CHEN_ARMOR ; 9d
 
 	trainerclass METEORITE ; 9e
 

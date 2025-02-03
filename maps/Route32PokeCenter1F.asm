@@ -1,4 +1,4 @@
-Route32PokeCenter1F_MapScriptHeader:
+Route32TohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,15 +11,15 @@ Route32PokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalKurtScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalKurtScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  3,  4, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route32Pokecenter1FFishingGuruScript, -1
-	object_event  8,  2, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route32Pokecenter1FCooltrainerFText, -1
-	object_event  0,  5, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, Route32PokeCenter1FPokefanMScript, -1
+	object_event  3,  4, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route32Tohocenter1FFishingGuruScript, -1
+	object_event  8,  2, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route32Tohocenter1FCooltrainerFText, -1
+	object_event  0,  5, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, Route32TohoCenter1FTohofanMScript, -1
 
-PokemonJournalKurtScript:
+TohomonJournalKurtScript:
 	setflag ENGINE_READ_KURT_JOURNAL
 	jumpthistext
 
@@ -38,7 +38,7 @@ PokemonJournalKurtScript:
 	line "Maizie."
 	done
 
-Route32Pokecenter1FFishingGuruScript:
+Route32Tohocenter1FFishingGuruScript:
 	checkevent EVENT_GOT_OLD_ROD
 	iftrue_jumptextfaceplayer .DoneText
 	faceplayer
@@ -95,7 +95,7 @@ Route32Pokecenter1FFishingGuruScript:
 	line "they biting?"
 	done
 
-Route32PokeCenter1FPokefanMScript:
+Route32TohoCenter1FTohofanMScript:
 	checkevent EVENT_GOT_LURE_BALL_FROM_FRENCHMAN
 	iftrue_jumptextfaceplayer .Text5
 	faceplayer
@@ -160,7 +160,7 @@ Route32PokeCenter1FPokefanMScript:
 	line "hourrah!"
 	done
 
-Route32Pokecenter1FCooltrainerFText:
+Route32Tohocenter1FCooltrainerFText:
 	text "What should I make"
 	line "my #mon hold?"
 

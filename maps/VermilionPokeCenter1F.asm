@@ -1,4 +1,4 @@
-VermilionPokeCenter1F_MapScriptHeader:
+VermilionTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,15 +11,15 @@ VermilionPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalLtSurgeScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalLtSurgeScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  8,  2, SPRITE_SIGHTSEER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionPokeCenter1FSightseerMScript, -1
-	object_event  2,  5, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionPokeCenter1FSailorText, -1
-	object_event  9,  4, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionPokeCenter1FBugCatcherText, -1
+	object_event  8,  2, SPRITE_SIGHTSEER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionTohoCenter1FSightseerMScript, -1
+	object_event  2,  5, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionTohoCenter1FSailorText, -1
+	object_event  9,  4, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionTohoCenter1FBugCatcherText, -1
 
-PokemonJournalLtSurgeScript:
+TohomonJournalLtSurgeScript:
 	setflag ENGINE_READ_LT_SURGE_JOURNAL
 	jumpthistext
 
@@ -41,7 +41,7 @@ PokemonJournalLtSurgeScript:
 	line "er his plane."
 	done
 
-VermilionPokeCenter1FSightseerMScript:
+VermilionTohoCenter1FSightseerMScript:
 	checkevent EVENT_VERMILION_CITY_CRAN
 	iftrue_jumptextfaceplayer .CRanText
 	jumpthistextfaceplayer
@@ -68,7 +68,7 @@ VermilionPokeCenter1FSightseerMScript:
 	line "have disappeared."
 	done
 
-VermilionPokeCenter1FSailorText:
+VermilionTohoCenter1FSailorText:
 	text "The Fast Ship is a"
 	line "great place to"
 
@@ -76,7 +76,7 @@ VermilionPokeCenter1FSailorText:
 	line "trainers."
 	done
 
-VermilionPokeCenter1FBugCatcherText:
+VermilionTohoCenter1FBugCatcherText:
 	text "Oh? You have some"
 	line "Badges I've never"
 	cont "seen before."

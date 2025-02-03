@@ -33,7 +33,7 @@ def get_base_stats():
 		base_stats = recursive_read('data/base_stats.asm')
 	return base_stats
 
-def get_pokemon_dimensions(name):
+def get_tohomon_dimensions(name):
 	try:
 		if name == 'egg':
 			return 5, 5
@@ -63,12 +63,12 @@ def filepath_rules(filepath):
 	if ext == '.lz':
 		name, ext = os.path.splitext(name)
 
-	pokemon_name = ''
+	tohomon_name = ''
 
-	if 'gfx/pokemon/' in filedir:
-		pokemon_name = filedir.split('/')[-1]
-		if pokemon_name.startswith('hina_'):
-			index = filedir.find(pokemon_name)
+	if 'gfx/tohomon/' in filedir:
+		tohomon_name = filedir.split('/')[-1]
+		if tohomon_name.startswith('hina_'):
+			index = filedir.find(tohomon_name)
 			if index != -1:
 				filedir = filedir[:index + len('hina')] + filedir[index + len('hina_a'):]
 		if name == 'front':
@@ -97,10 +97,10 @@ def filepath_rules(filepath):
 			w = min(w/8, h/8)
 			args['pic_dimensions'] = w, w
 		elif ext == '.2bpp':
-			if pokemon_name and name == 'front':
-				w, h = get_pokemon_dimensions(pokemon_name)
+			if tohomon_name and name == 'front':
+				w, h = get_tohomon_dimensions(tohomon_name)
 				args['pic_dimensions'] = w, w
-			elif pokemon_name and name == 'back':
+			elif tohomon_name and name == 'back':
 				args['pic_dimensions'] = 6, 6
 			else:
 				args['pic_dimensions'] = 7, 7

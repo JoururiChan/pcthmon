@@ -169,7 +169,7 @@ BattleAnim_Scald:
 	anim_incbgeffect ANIM_BG_FADE_MON_TO_BLACK_REPEATING
 	anim_ret
 
-BattleAnim_ThrowPokeBall:
+BattleAnim_ThrowTohoBall:
 	anim_jumpif -1, .TheTrainerBlockedTheBall
 	anim_jumpif MASTER_BALL, .MasterBall
 	; any other ball
@@ -1599,7 +1599,7 @@ BattleAnim_HeldItemTrigger:
 .alternate
 	anim_setobjpal PAL_BATTLE_OB_BROWN, PAL_BTLCUSTOM_BERRY
 	anim_2gfx ANIM_GFX_BERRY, ANIM_GFX_BUBBLE
-	anim_sound 0, 0, SFX_SWITCH_POKEMON
+	anim_sound 0, 0, SFX_SWITCH_TOHOMON
 	anim_obj ANIM_OBJ_BERRY, 60, 104, $10
 	anim_wait 48
 	anim_sound 0, 0, SFX_BITE
@@ -1694,7 +1694,7 @@ BattleAnim_FreshSnack:
 BattleAnim_Softboiled: ; removed
 	anim_2gfx ANIM_GFX_EGG, ANIM_GFX_BUBBLE
 	anim_call BattleAnim_TargetObj_1Row
-	anim_sound 0, 0, SFX_SWITCH_POKEMON
+	anim_sound 0, 0, SFX_SWITCH_TOHOMON
 	anim_obj ANIM_OBJ_EGG,   5, 4,  13, 0, $6
 	anim_wait 128
 	anim_incobj 2
@@ -6739,7 +6739,7 @@ BattleAnim_StatDown:
 
 ;BattleAnim_EggBomb: ; removed
 ;	anim_2gfx ANIM_GFX_EGG, ANIM_GFX_EXPLOSION
-;	anim_sound 0, 0, SFX_SWITCH_POKEMON
+;	anim_sound 0, 0, SFX_SWITCH_TOHOMON
 ;	anim_obj ANIM_OBJ_EGG,   5, 4,  13, 0, $1
 ;	anim_wait 128
 ;	anim_wait 96

@@ -1,4 +1,4 @@
-BlackthornPokeCenter1F_MapScriptHeader:
+BlackthornTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,16 +11,16 @@ BlackthornPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalClairScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalClairScript
 
 	def_object_events
 	pc_nurse_event  5, 1
 	object_event  8,  1, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ProfOaksAide4Script, -1
 	object_event 11,  6, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumpstd, happinesschecknpc, -1
-	object_event  8,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BlackthornPokeCenter1FGentlemanText, -1
-	object_event  1,  4, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BlackthornPokeCenter1FTwinText, -1
+	object_event  8,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BlackthornTohoCenter1FGentlemanText, -1
+	object_event  1,  4, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BlackthornTohoCenter1FTwinText, -1
 
-PokemonJournalClairScript:
+TohomonJournalClairScript:
 	setflag ENGINE_READ_CLAIR_JOURNAL
 	jumpthistext
 
@@ -117,7 +117,7 @@ ProfOaksAide4Script:
 	cont "room for this."
 	done
 
-BlackthornPokeCenter1FGentlemanText:
+BlackthornTohoCenter1FGentlemanText:
 	text "Deep inside far-"
 	line "off Indigo Plateau"
 
@@ -131,7 +131,7 @@ BlackthornPokeCenter1FGentlemanText:
 	line "the country."
 	done
 
-BlackthornPokeCenter1FTwinText:
+BlackthornTohoCenter1FTwinText:
 	text "There was this"
 	line "move I just had"
 

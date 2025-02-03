@@ -153,7 +153,7 @@ NewBarkTownTeacherScript:
 	iftrue_jumptextfaceplayer Text_CallMomOnGear
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue_jumptextfaceplayer Text_TellMomIfLeaving
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_TOHOMON_FROM_ELM
 	iftrue_jumptextfaceplayer Text_YourMonIsAdorable
 	jumptextfaceplayer Text_RefreshingBreeze
 

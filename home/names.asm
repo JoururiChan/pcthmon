@@ -1,5 +1,5 @@
 NamesPointers::
-	dba PokemonNames
+	dba TohomonNames
 	dba MoveNames
 	dba ApricornNames
 	dba WingNames
@@ -19,21 +19,21 @@ GetName::
 
 	ld a, [wNamedObjectTypeBuffer]
 	cp MON_NAME
-	jr nz, .NotPokeName
+	jr nz, .NotTohoName
 
 	ld hl, wNamedObjectIndex
 	ld a, [wCurSpecies]
 	ld [hli], a
 	ld a, [wCurForm]
 	ld [hl], a
-	call GetPokemonName
+	call GetTohomonName
 	ld hl, MON_NAME_LENGTH
 	add hl, de
 	ld e, l
 	ld d, h
 	jr .done
 
-.NotPokeName:
+.NotTohoName:
 	dec a
 	ld e, a
 	ld d, 0
@@ -77,10 +77,10 @@ GetNthString::
 	pop bc
 	ret
 
-GetBasePokemonName::
+GetBaseTohomonName::
 ; Discards gender (Nidoran).
 	push hl
-	call GetPokemonName
+	call GetTohomonName
 
 	ld hl, wStringBuffer1
 .loop
@@ -99,8 +99,8 @@ GetBasePokemonName::
 	pop hl
 	ret
 
-GetPartyPokemonName::
-; Get Pokemon name wCurPartySpecies + wCurForm
+GetPartyTohomonName::
+; Get Tohomon name wCurPartySpecies + wCurForm
 	push hl
 	ld hl, wNamedObjectIndex
 	ld a, [wCurPartySpecies]
@@ -109,8 +109,8 @@ GetPartyPokemonName::
 	ld [hl], a
 	pop hl
 	; fall-through
-GetPokemonName::
-; Get Pokemon name wNamedObjectIndex.
+GetTohomonName::
+; Get Tohomon name wNamedObjectIndex.
 	push hl
 
 ; Each name is ten characters
@@ -126,14 +126,14 @@ GetPokemonName::
 	add hl, hl ; hl = hl * 4
 	add hl, de ; hl = (hl*4) + hl
 	add hl, hl ; hl = (5*hl) + (5*hl)
-	ld de, PokemonNames
+	ld de, TohomonNames
 	add hl, de
 
 ; Terminator
 	ld de, wStringBuffer1
 	push de
 	ld bc, MON_NAME_LENGTH - 1
-	ld a, BANK(PokemonNames)
+	ld a, BANK(TohomonNames)
 	call FarCopyBytes
 	ld h, d
 	ld l, e

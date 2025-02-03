@@ -22,8 +22,8 @@ Tilesets::
 	tileset TilesetHouse1
 	tileset TilesetHouse2
 	tileset TilesetHouse3
-	tileset TilesetPokeCenter
-	tileset TilesetPokeCom
+	tileset TilesetTohoCenter
+	tileset TilesetTohoCom
 	tileset TilesetMart
 	tileset TilesetGate
 	tileset TilesetGym1
@@ -51,7 +51,7 @@ Tilesets::
 	tileset TilesetSafari
 	tileset TilesetRuins
 	tileset TilesetAlph
-	tileset TilesetPokemonMansion
+	tileset TilesetTohomonMansion
 	tileset TilesetBattleFactory
 	tileset TilesetSnowtopMountain
 	assert_table_length NUM_TILESETS
@@ -174,22 +174,22 @@ TilesetHouse3Coll:: INCBIN "data/tilesets/traditional_house_collision.bin.lz"
 
 SECTION "Tileset Data - pokecenter", ROMX
 
-TilesetPokeCenterGFX0:: INCBIN "gfx/tilesets/pokecenter.2bpp.vram0.lz"
-TilesetPokeCenterGFX1:: INCBIN "gfx/tilesets/pokecenter.2bpp.vram1.lz"
+TilesetTohoCenterGFX0:: INCBIN "gfx/tilesets/pokecenter.2bpp.vram0.lz"
+TilesetTohoCenterGFX1:: INCBIN "gfx/tilesets/pokecenter.2bpp.vram1.lz"
 
-TilesetPokeCenterMeta:: INCBIN "data/tilesets/pokecenter_metatiles.bin.lz"
-TilesetPokeCenterAttr:: INCBIN "data/tilesets/pokecenter_attributes.bin.lz"
-TilesetPokeCenterColl:: INCBIN "data/tilesets/pokecenter_collision.bin.lz"
+TilesetTohoCenterMeta:: INCBIN "data/tilesets/pokecenter_metatiles.bin.lz"
+TilesetTohoCenterAttr:: INCBIN "data/tilesets/pokecenter_attributes.bin.lz"
+TilesetTohoCenterColl:: INCBIN "data/tilesets/pokecenter_collision.bin.lz"
 
 
 SECTION "Tileset Data - pokecom_center", ROMX
 
-TilesetPokeComGFX0:: INCBIN "gfx/tilesets/pokecom_center.2bpp.vram0.lz"
-TilesetPokeComGFX1:: INCBIN "gfx/tilesets/pokecom_center.2bpp.vram1.lz"
+TilesetTohoComGFX0:: INCBIN "gfx/tilesets/pokecom_center.2bpp.vram0.lz"
+TilesetTohoComGFX1:: INCBIN "gfx/tilesets/pokecom_center.2bpp.vram1.lz"
 
-TilesetPokeComMeta:: INCBIN "data/tilesets/pokecom_center_metatiles.bin.lz"
-TilesetPokeComAttr:: INCBIN "data/tilesets/pokecom_center_attributes.bin.lz"
-TilesetPokeComColl:: INCBIN "data/tilesets/pokecom_center_collision.bin.lz"
+TilesetTohoComMeta:: INCBIN "data/tilesets/pokecom_center_metatiles.bin.lz"
+TilesetTohoComAttr:: INCBIN "data/tilesets/pokecom_center_attributes.bin.lz"
+TilesetTohoComColl:: INCBIN "data/tilesets/pokecom_center_collision.bin.lz"
 
 
 SECTION "Tileset Data - mart", ROMX
@@ -454,14 +454,14 @@ TilesetAlphAttr:: INCBIN "data/tilesets/alph_word_room_attributes.bin.lz"
 TilesetAlphColl:: INCBIN "data/tilesets/alph_word_room_collision.bin.lz"
 
 
-SECTION "Tileset Data - pokemon_mansion", ROMX
+SECTION "Tileset Data - tohomon_mansion", ROMX
 
-TilesetPokemonMansionGFX0:: INCBIN "gfx/tilesets/pokemon_mansion.2bpp.vram0.lz"
-TilesetPokemonMansionGFX1:: INCBIN "gfx/tilesets/pokemon_mansion.2bpp.vram1.lz"
+TilesetTohomonMansionGFX0:: INCBIN "gfx/tilesets/tohomon_mansion.2bpp.vram0.lz"
+TilesetTohomonMansionGFX1:: INCBIN "gfx/tilesets/tohomon_mansion.2bpp.vram1.lz"
 
-TilesetPokemonMansionMeta:: INCBIN "data/tilesets/pokemon_mansion_metatiles.bin.lz"
-TilesetPokemonMansionAttr:: INCBIN "data/tilesets/pokemon_mansion_attributes.bin.lz"
-TilesetPokemonMansionColl:: INCBIN "data/tilesets/pokemon_mansion_collision.bin.lz"
+TilesetTohomonMansionMeta:: INCBIN "data/tilesets/tohomon_mansion_metatiles.bin.lz"
+TilesetTohomonMansionAttr:: INCBIN "data/tilesets/tohomon_mansion_attributes.bin.lz"
+TilesetTohomonMansionColl:: INCBIN "data/tilesets/tohomon_mansion_collision.bin.lz"
 
 
 SECTION "Tileset Data - battle_factory", ROMX
@@ -502,8 +502,8 @@ TilesetFarawayGFX2::
 TilesetHouse1GFX2::
 TilesetHouse2GFX2::
 TilesetHouse3GFX2::
-TilesetPokeCenterGFX2::
-TilesetPokeComGFX2::
+TilesetTohoCenterGFX2::
+TilesetTohoComGFX2::
 TilesetMartGFX2::
 TilesetGateGFX2::
 TilesetGym1GFX2::
@@ -531,7 +531,7 @@ TilesetParkGFX2::
 TilesetSafariGFX2::
 TilesetRuinsGFX2::
 TilesetAlphGFX2::
-TilesetPokemonMansionGFX2::
+TilesetTohomonMansionGFX2::
 TilesetBattleFactoryGFX2::
 TilesetSnowtopMountainGFX2::
 	db $ff ; Compressed data is terminated with $ff.

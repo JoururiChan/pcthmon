@@ -42,7 +42,7 @@ ChadOakGossipScript:
 	sjump PhoneScript_HangupText_Male
 
 .RadioShow:
-	farwritetext ChadPokemonTalkGossipText
+	farwritetext ChadTohomonTalkGossipText
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 

@@ -15,4 +15,4 @@ INCLUDE "audio/sfx.asm"
 SECTION "Cries", ROMX
 
 INCLUDE "audio/cries.asm"
-INCLUDE "data/pokemon/cries.asm"
+INCLUDE "data/tohomon/cries.asm"

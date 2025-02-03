@@ -14,7 +14,7 @@ RadioTower2F_MapScriptHeader:
 	def_bg_events
 	bg_event  3,  0, BGEVENT_JUMPTEXT, RadioTower2FSalesSignText
 	bg_event  5,  0, BGEVENT_JUMPTEXT, RadioTower2FOaksPKMNTalkSignText
-	bg_event 13,  0, BGEVENT_JUMPTEXT, RadioTower2FPokemonRadioSignText
+	bg_event 13,  0, BGEVENT_JUMPTEXT, RadioTower2FTohomonRadioSignText
 
 	def_object_events
 	object_event 14,  5, SPRITE_BUENA, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Buena, -1
@@ -26,7 +26,7 @@ RadioTower2F_MapScriptHeader:
 	object_event 10,  5, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntF2, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event  0,  1, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, RadioTower2FBlackBelt1Text, EVENT_RADIO_TOWER_BLACKBELT_BLOCKS_STAIRS
 	object_event  1,  1, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, RadioTower2FBlackBelt2Text, EVENT_RADIO_TOWER_CIVILIANS_AFTER
-	pokemon_event 12,  1, JIGGLYPUFF, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_PINK, RadioTowerJigglypuffText, -1
+	tohomon_event 12,  1, ELLEN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, RadioTowerEllenText, -1
 	object_event 12,  7, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RadioTowerBuenaPrizeReceptionist, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event  3,  6, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, RadioTower2FRockerText, EVENT_GOLDENROD_CITY_CIVILIANS
 
@@ -305,8 +305,8 @@ RadioTower2FTeacherText_Rockets:
 	cont "the Radio Tower?"
 	done
 
-RadioTowerJigglypuffText:
-	text "Jigglypuff:"
+RadioTowerEllenText:
+	text "Ellen:"
 	line "Jiggly…"
 	done
 
@@ -615,7 +615,7 @@ RadioTower2FOaksPKMNTalkSignText:
 	line "on the Air!"
 	done
 
-RadioTower2FPokemonRadioSignText:
+RadioTower2FTohomonRadioSignText:
 	text "Anywhere, Anytime"
 	line "#mon Radio"
 	done

@@ -116,7 +116,7 @@ Route48JessieJamesSeenText:
 	para "You know what"
 	line "#mon lives in"
 	cont "that forest?"
-	cont "EKikuri!"
+	cont "Kikuri!"
 
 	para "The boss will be"
 	line "pleased if we"
@@ -180,7 +180,7 @@ Route48NurseText1:
 
 	para "You drove away"
 	line "Team Rocket and"
-	cont "saved the EKikuri!"
+	cont "saved the Kikuri!"
 
 	para "Thank you so much!"
 

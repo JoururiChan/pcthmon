@@ -12,10 +12,10 @@ CeruleanCoupleHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  5,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanCoupleHousePokefanMText, -1
-	object_event  2,  3, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanCoupleHousePokefanFText, -1
+	object_event  5,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanCoupleHouseTohofanMText, -1
+	object_event  2,  3, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanCoupleHouseTohofanFText, -1
 
-CeruleanCoupleHousePokefanMText:
+CeruleanCoupleHouseTohofanMText:
 	text "I first met my"
 	line "dear wife in this"
 	cont "city."
@@ -24,7 +24,7 @@ CeruleanCoupleHousePokefanMText:
 	line "deep cerulean…"
 	done
 
-CeruleanCoupleHousePokefanFText:
+CeruleanCoupleHouseTohofanFText:
 	text "The language of"
 	line "love needs no"
 	cont "translation."

@@ -121,7 +121,7 @@ MomPhoneHangUpText:
 	cont "for you, baby!"
 	done
 
-MomPhoneNoPokemonText:
+MomPhoneNoTohomonText:
 	text "Hello?"
 
 	para "Oh, hi, <PLAYER>!"

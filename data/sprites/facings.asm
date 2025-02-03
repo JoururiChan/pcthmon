@@ -43,7 +43,7 @@ Facings:
 	dw FacingBigSLilyBlack2     ; FACING_BIG_SLILYBLACK_2
 	dw FacingStepDownFlip     ; FACING_STEP_DOWN_FLIP
 	dw FacingStepUpFlip       ; FACING_STEP_UP_FLIP
-	dw FacingPokecomNews      ; FACING_POKECOM_NEWS
+	dw FacingTohocomNews      ; FACING_POKECOM_NEWS
 	dw FacingMuseumDrillDown  ; FACING_MUSEUM_DRILL_DOWN
 	dw FacingMuseumDrillUp    ; FACING_MUSEUM_DRILL_UP
 	dw FacingArchTreeLeft     ; FACING_ARCH_TREE_LEFT
@@ -343,7 +343,7 @@ FacingStepUpFlip:
 	db  8,  0, RELATIVE_ATTRIBUTES | X_FLIP, $07
 	db  8,  8, RELATIVE_ATTRIBUTES | X_FLIP, $06
 
-FacingPokecomNews:
+FacingTohocomNews:
 FacingMicrophone:
 	db 4 ; #
 	db  4,  0, 0, $08

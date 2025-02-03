@@ -1,4 +1,4 @@
-SilverCavePokeCenter1F_MapScriptHeader:
+SilverCaveTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,14 +11,14 @@ SilverCavePokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalLanceScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalLanceScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  9,  4, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SilverCavePokeCenterGrampsScript, -1
-	object_event  2,  4, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 1, 2, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SilverCavePokeCenter1FGrannyText, -1
+	object_event  9,  4, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SilverCaveTohoCenterGrampsScript, -1
+	object_event  2,  4, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 1, 2, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SilverCaveTohoCenter1FGrannyText, -1
 
-PokemonJournalLanceScript:
+TohomonJournalLanceScript:
 	setflag ENGINE_READ_LANCE_JOURNAL
 	jumpthistext
 
@@ -34,7 +34,7 @@ PokemonJournalLanceScript:
 	line "adon Dept.Store."
 	done
 
-SilverCavePokeCenterGrampsScript:
+SilverCaveTohoCenterGrampsScript:
 	checkevent EVENT_GOT_EXPERT_BELT
 	iftrue_jumptextfaceplayer .AfterText
 	faceplayer
@@ -43,7 +43,7 @@ SilverCavePokeCenterGrampsScript:
 	waitbutton
 	readvar VAR_PKMN_JOURNALS
 	ifequalfwd 0, .ReadNone
-	ifequalfwd NUM_POKEMON_JOURNALS, .ReadThemAll
+	ifequalfwd NUM_TOHOMON_JOURNALS, .ReadThemAll
 	jumpthisopenedtext
 
 	text "Oh, you've read "
@@ -52,7 +52,7 @@ SilverCavePokeCenterGrampsScript:
 	line "of them?"
 
 	para "Not bad, but I've"
-	line "read all {d:NUM_POKEMON_JOURNALS}!"
+	line "read all {d:NUM_TOHOMON_JOURNALS}!"
 	done
 
 .ReadNone:
@@ -111,7 +111,7 @@ SilverCavePokeCenterGrampsScript:
 	line "you're a fan!"
 	done
 
-SilverCavePokeCenter1FGrannyText:
+SilverCaveTohoCenter1FGrannyText:
 	text "Trainers who seek"
 	line "power climb Mt."
 

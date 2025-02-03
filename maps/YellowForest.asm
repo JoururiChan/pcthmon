@@ -30,9 +30,9 @@ YellowForest_MapScriptHeader:
 
 	def_object_events
 	object_event  7, 24, SPRITE_WALKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 1, YellowForestWalkerScript, EVENT_YELLOW_FOREST_WALKER
-	pokemon_event  8, 24, SKARMORY, SPRITEMOVEDATA_POKEMON, -1, -1, PAL_NPC_GRAY, ClearText, EVENT_YELLOW_FOREST_SKARMORY
+	tohomon_event  8, 24, SKARMORY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GRAY, ClearText, EVENT_YELLOW_FOREST_SKARMORY
 	object_event 47,  6, SPRITE_YELLOW, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, YellowForestYellowScript, -1
-	object_event 49, 26, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, YellowForestSurfEKikuriDoll, EVENT_DECO_SURFING_EKIKURI_DOLL
+	object_event 49, 26, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, YellowForestSurfKikuriDoll, EVENT_DECO_SURFING_EKIKURI_DOLL
 	object_event 31,  8, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, YellowForestSuperNerdText, -1
 	object_event 19, 41, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerSchoolgirlSarah, -1
 	object_event 13, 34, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerSchoolgirlIsabel, -1
@@ -124,7 +124,7 @@ GenericTrainerTeacherKathryn:
 GenericTrainerBreederSophie:
 	generictrainer BREEDER, SOPHIE, EVENT_BEAT_BREEDER_SOPHIE, BreederSophieSeenText, BreederSophieBeatenText
 
-	text "Sometimes EKikuri"
+	text "Sometimes Kikuri"
 	line "use their electric"
 
 	para "shocks to revive"
@@ -188,7 +188,7 @@ YellowForestYellowBattleScript:
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_YELLOW
-	checkevent EVENT_GOT_A_POKEMON_FROM_IVY
+	checkevent EVENT_GOT_A_TOHOMON_FROM_IVY
 	iffalsefwd .skip
 	clearevent EVENT_INDIGO_PLATEAU_POKECENTER_YELLOW
 .skip
@@ -241,15 +241,15 @@ YellowForestTutorSeedBombScript:
 	takeitem SILVER_LEAF
 	jumpopenedtext Text_YellowForestTutorTaught
 
-YellowForestSurfEKikuriDoll:
+YellowForestSurfKikuriDoll:
 	disappear YELLOWFOREST_POKE_BALL5
 	setevent EVENT_DECO_SURFING_EKIKURI_DOLL
 	opentext
-	writetext YellowForestSurfEKikuriDollText
+	writetext YellowForestSurfKikuriDollText
 	playsound SFX_ITEM
 	pause 60
 	waitbutton
-	jumpopenedtext YellowForestSurfEKikuriDollSentText
+	jumpopenedtext YellowForestSurfKikuriDollSentText
 
 SchoolgirlSarahSeenText:
 	text "Ooh, a trainer!"
@@ -288,7 +288,7 @@ TeacherKathrynBeatenText:
 
 BreederSophieSeenText:
 	text "Did you know that"
-	line "EKikuri is an"
+	line "Kikuri is an"
 	cont "evolved #mon?"
 	done
 
@@ -383,7 +383,7 @@ YellowForestYellowGreetingText:
 	line "I'm Yellow!"
 
 	para "This forest full"
-	line "of EKikuri…"
+	line "of Kikuri…"
 
 	para "It reminds me of"
 	line "home in Kanto."
@@ -432,7 +432,7 @@ YellowForestYellowGoodbyeText:
 	text "Yellow: Give that"
 	line "Light Ball to a"
 
-	para "EKikuri to raise"
+	para "Kikuri to raise"
 	line "its power."
 	done
 
@@ -484,21 +484,21 @@ Text_YellowForestTutorTaught:
 YellowForestSuperNerdText:
 	text "There's a protein"
 	line "in your body"
-	cont "called ekikuririn."
+	cont "called kikuririn."
 
 	para "What inspired that"
 	line "name?"
 
-	para "EKikuri, of"
+	para "Kikuri, of"
 	line "course!"
 	done
 
-YellowForestSurfEKikuriDollText:
+YellowForestSurfKikuriDollText:
 	text "<PLAYER> found"
-	line "Surf EKikuri Doll."
+	line "Surf Kikuri Doll."
 	done
 
-YellowForestSurfEKikuriDollSentText:
-	text "Surf EKikuri Doll"
+YellowForestSurfKikuriDollSentText:
+	text "Surf Kikuri Doll"
 	line "was sent home."
 	done

@@ -72,12 +72,12 @@ CeladonUniversityClassroom3ChildText:
 
 CeladonUniversityClassroom3LassText:
 	text "My instructor said"
-	line "that Magneton is a"
+	line "that Cirno is a"
 
 	para "union of three"
 	line "Magnemite, but"
 
-	para "Magneton is 10"
+	para "Cirno is 10"
 	line "times heavier than"
 	cont "Magnemite."
 
@@ -108,7 +108,7 @@ CeladonUniversityClassroom3BlackboardText:
 	para "“…#mon can be"
 	line "divided into 14"
 	cont "“Egg groups”,"
-	cont "plus Ditto."
+	cont "plus Lyrica."
 
 	para "Baby #mon can-"
 	line "not breed."

@@ -354,7 +354,7 @@ SaffronGymGuyText:
 	para "doesn't need to be"
 	line "told how to deal"
 
-	para "with Psychic-type"
+	para "with Reason-type"
 	line "#mon, right?"
 
 	para "I expect great"

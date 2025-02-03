@@ -14,13 +14,13 @@ GoldenrodHappinessRater_MapScriptHeader:
 
 	def_object_events
 	object_event  2,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoldenrodHappinessRaterTeacherScript, -1
-	object_event  5,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodHappinessRaterPokefanMText, -1
+	object_event  5,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodHappinessRaterTohofanMText, -1
 	object_event  5,  6, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodHappinessRaterTwinText, -1
 
 GoldenrodHappinessRaterTeacherScript:
 	faceplayer
 	opentext
-	special GetFirstPokemonHappiness
+	special GetFirstTohomonHappiness
 	writetext GoldenrodHappinessRaterTeacherText
 	promptbutton
 	ifgreater $f9, .LovesYouALot
@@ -86,7 +86,7 @@ GoldenrodHappinessRaterTeacherText:
 	text "…"
 	done
 
-GoldenrodHappinessRaterPokefanMText:
+GoldenrodHappinessRaterTohofanMText:
 	text "I keep losing in"
 	line "battles, and my"
 

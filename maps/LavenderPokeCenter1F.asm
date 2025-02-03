@@ -1,4 +1,4 @@
-LavenderPokeCenter1F_MapScriptHeader:
+LavenderTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,15 +11,15 @@ LavenderPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalMrFujiScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalMrFujiScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  1,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, LavenderPokeCenter1FYoungsterScript, -1
-	object_event 11,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderPokeCenter1FGentlemanText, -1
-	object_event  6,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderPokeCenter1FTeacherText, -1
+	object_event  1,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, LavenderTohoCenter1FYoungsterScript, -1
+	object_event 11,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderTohoCenter1FGentlemanText, -1
+	object_event  6,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderTohoCenter1FTeacherText, -1
 
-PokemonJournalMrFujiScript:
+TohomonJournalMrFujiScript:
 	setflag ENGINE_READ_MR_FUJI_JOURNAL
 	jumpthistext
 
@@ -38,7 +38,7 @@ PokemonJournalMrFujiScript:
 	line "ender Town."
 	done
 
-LavenderPokeCenter1FYoungsterScript:
+LavenderTohoCenter1FYoungsterScript:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iffalse_jumptextfaceplayer .NoMachinePartText
 	checkevent EVENT_EXORCISED_LAV_RADIO_TOWER
@@ -78,7 +78,7 @@ LavenderPokeCenter1FYoungsterScript:
 	line "over there?"
 	done
 
-LavenderPokeCenter1FGentlemanText:
+LavenderTohoCenter1FGentlemanText:
 	text "To the north of"
 	line "Lavender is Rock"
 
@@ -87,7 +87,7 @@ LavenderPokeCenter1FGentlemanText:
 	cont "Power Plant."
 	done
 
-LavenderPokeCenter1FTeacherText:
+LavenderTohoCenter1FTeacherText:
 	text "There's a radio"
 	line "program that plays"
 	cont "# Flute music."

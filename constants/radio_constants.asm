@@ -4,9 +4,9 @@
 ; - PlayRadioShow/RadioJumptable (see engine/pokegear/radio.asm)
 ; - RadioChannels (see engine/pokegear/pokegear.asm)
 	const_def
-	const OAKS_POKEMON_TALK      ; 00
+	const OAKS_TOHOMON_TALK      ; 00
 	const TOHODEX_SHOW           ; 01
-	const POKEMON_MUSIC          ; 02
+	const TOHOMON_MUSIC          ; 02
 	const LUCKY_CHANNEL          ; 03
 	const BUENAS_PASSWORD        ; 04
 	const PLACES_AND_PEOPLE      ; 05
@@ -17,24 +17,24 @@
 	const EVOLUTION_RADIO        ; 0a
 DEF NUM_RADIO_CHANNELS EQU const_value
 ; internal indexes for channel segments
-	const OAKS_POKEMON_TALK_2    ; 0b
-	const OAKS_POKEMON_TALK_3    ; 0c
-	const OAKS_POKEMON_TALK_4    ; 0d
-	const OAKS_POKEMON_TALK_5    ; 0e
-	const OAKS_POKEMON_TALK_6    ; 0f
-	const OAKS_POKEMON_TALK_7    ; 10
-	const OAKS_POKEMON_TALK_8    ; 11
-	const OAKS_POKEMON_TALK_9    ; 12
+	const OAKS_TOHOMON_TALK_2    ; 0b
+	const OAKS_TOHOMON_TALK_3    ; 0c
+	const OAKS_TOHOMON_TALK_4    ; 0d
+	const OAKS_TOHOMON_TALK_5    ; 0e
+	const OAKS_TOHOMON_TALK_6    ; 0f
+	const OAKS_TOHOMON_TALK_7    ; 10
+	const OAKS_TOHOMON_TALK_8    ; 11
+	const OAKS_TOHOMON_TALK_9    ; 12
 	const TOHODEX_SHOW_2         ; 13
 	const TOHODEX_SHOW_3         ; 14
 	const TOHODEX_SHOW_4         ; 15
 	const TOHODEX_SHOW_5         ; 16
-	const POKEMON_MUSIC_2        ; 17
-	const POKEMON_MUSIC_3        ; 18
-	const POKEMON_MUSIC_4        ; 19
-	const POKEMON_MUSIC_5        ; 1a
-	const POKEMON_MUSIC_6        ; 1b
-	const POKEMON_MUSIC_7        ; 1c
+	const TOHOMON_MUSIC_2        ; 17
+	const TOHOMON_MUSIC_3        ; 18
+	const TOHOMON_MUSIC_4        ; 19
+	const TOHOMON_MUSIC_5        ; 1a
+	const TOHOMON_MUSIC_6        ; 1b
+	const TOHOMON_MUSIC_7        ; 1c
 	const LETS_ALL_SING_2        ; 1d
 	const LUCKY_NUMBER_SHOW_2    ; 1e
 	const LUCKY_NUMBER_SHOW_3    ; 1f
@@ -65,11 +65,11 @@ DEF NUM_RADIO_CHANNELS EQU const_value
 	const ROCKET_RADIO_8         ; 38
 	const ROCKET_RADIO_9         ; 39
 	const ROCKET_RADIO_10        ; 3a
-	const OAKS_POKEMON_TALK_10   ; 3b
-	const OAKS_POKEMON_TALK_11   ; 3c
-	const OAKS_POKEMON_TALK_12   ; 3d
-	const OAKS_POKEMON_TALK_13   ; 3e
-	const OAKS_POKEMON_TALK_14   ; 3f
+	const OAKS_TOHOMON_TALK_10   ; 3b
+	const OAKS_TOHOMON_TALK_11   ; 3c
+	const OAKS_TOHOMON_TALK_12   ; 3d
+	const OAKS_TOHOMON_TALK_13   ; 3e
+	const OAKS_TOHOMON_TALK_14   ; 3f
 	const BUENAS_PASSWORD_2      ; 40
 	const BUENAS_PASSWORD_3      ; 41
 	const BUENAS_PASSWORD_4      ; 42
@@ -98,10 +98,10 @@ DEF NUM_RADIO_SEGMENTS EQU const_value
 
 ; PlayRadioStationPointers indexes (see engine/pokegear/pokegear.asm)
 	const_def
-	const MAPRADIO_POKEMON_CHANNEL
-	const MAPRADIO_OAKS_POKEMON_TALK
+	const MAPRADIO_TOHOMON_CHANNEL
+	const MAPRADIO_OAKS_TOHOMON_TALK
 	const MAPRADIO_TOHODEX_SHOW
-	const MAPRADIO_POKEMON_MUSIC
+	const MAPRADIO_TOHOMON_MUSIC
 	const MAPRADIO_LUCKY_CHANNEL
 	const MAPRADIO_HINA
 	const MAPRADIO_PLACES_PEOPLE

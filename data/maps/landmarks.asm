@@ -124,14 +124,14 @@ Landmarks:
 	landmark  80, 132, Route20Name
 	landmark  68, 132, SeafoamIslandsName
 	landmark  52, 132, CinnabarIslandName
-	landmark  50, 130, PokemonMansionName
+	landmark  50, 130, TohomonMansionName
 	landmark  54, 130, CinnabarVolcanoName
 	landmark  52, 116, Route21Name
 	landmark  40,  76, Route22Name
 	landmark  20, 100, Route27Name
 	landmark  12, 100, TohjoFallsName
 	landmark  28,  92, Route26Name
-	landmark  28,  76, PokemonLeagueName
+	landmark  28,  76, TohomonLeagueName
 	landmark  28,  64, Route23Name
 	landmark  28,  52, VictoryRoadName
 	landmark  28,  36, IndigoPlateauName
@@ -191,7 +191,7 @@ CeladonCityName:       rawchar "Celadon¯City@"
 SaffronCityName:       rawchar "Saffron¯City@"
 FuchsiaCityName:       rawchar "Fuchsia¯City@"
 CinnabarIslandName:    rawchar "Cinnabar¯Island@"
-PokemonLeagueName:     rawchar "Tohomon¯League Gate@"
+TohomonLeagueName:     rawchar "Tohomon¯League Gate@"
 VictoryRoadName:       rawchar "Victory¯Road@"
 IndigoPlateauName:     rawchar "Indigo¯Plateau@"
 MtMoonName:            rawchar "Mt.Moon@"
@@ -201,7 +201,7 @@ SoulHouseName:         rawchar "House of¯Souls@"
 CeladonUniversityName: rawchar "Celadon¯University@"
 SafariZoneName:        rawchar "Safari Zone@"
 SeafoamIslandsName:    rawchar "Seafoam¯Islands@"
-PokemonMansionName:    rawchar "Tohomon¯Mansion@"
+TohomonMansionName:    rawchar "Tohomon¯Mansion@"
 CinnabarVolcanoName:   rawchar "Cinnabar¯Volcano@"
 CeruleanCaveName:      rawchar "Cerulean¯Cave@"
 CeruleanCapeName:      rawchar "Cerulean¯Cape@"

@@ -16,7 +16,7 @@ OlivineLighthouse1F_MapScriptHeader:
 
 	def_object_events
 	object_event  8,  2, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineLighthouse1FSailorScript, -1
-	object_event 16,  9, SPRITE_MATRON, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineLighthouse1FPokefanFText, -1
+	object_event 16,  9, SPRITE_MATRON, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineLighthouse1FTohofanFText, -1
 
 OlivineLighthouse1FSailorScript:
 	checkevent EVENT_GOT_FULL_RESTORE_FROM_LIGHTHOUSE
@@ -47,7 +47,7 @@ OlivineLighthouse1FSailorScript:
 	line "this."
 	done
 
-OlivineLighthouse1FPokefanFText:
+OlivineLighthouse1FTohofanFText:
 	text "In the past, #-"
 	line "mon used to light"
 

@@ -17,8 +17,8 @@ UnionCaveB1FSouth_MapScriptHeader:
 	bg_event  4, 30, BGEVENT_ITEM + FULL_RESTORE, EVENT_UNION_CAVE_B1F_SOUTH_HIDDEN_FULL_RESTORE
 
 	def_object_events
-	object_event  5,  4, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPokemaniacAndrew, -1
-	object_event 17,  2, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPokemaniacCalvin, -1
+	object_event  5,  4, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacAndrew, -1
+	object_event 17,  2, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacCalvin, -1
 	object_event 16, 13, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerHikerPhillip, -1
 	object_event 14, 30, SPRITE_HIKER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerHikerLeonard, -1
 	object_event  3, 20, SPRITE_FIREBREATHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerFirebreatherJay, -1
@@ -32,28 +32,28 @@ UnionCaveB1FSouth_MapScriptHeader:
 	itemball_event  8, 26, SUPER_REPEL, 1, EVENT_UNION_CAVE_B1F_SOUTH_SUPER_REPEL
 	itemball_event  2, 28, LIGHT_CLAY, 1, EVENT_UNION_CAVE_B1F_SOUTH_LIGHT_CLAY
 
-GenericTrainerPokemaniacAndrew:
-	generictrainer POKEMANIAC, ANDREW, EVENT_BEAT_POKEMANIAC_ANDREW, PokemaniacAndrewSeenText, PokemaniacAndrewBeatenText
+GenericTrainerTohomaniacAndrew:
+	generictrainer POKEMANIAC, ANDREW, EVENT_BEAT_POKEMANIAC_ANDREW, TohomaniacAndrewSeenText, TohomaniacAndrewBeatenText
 
 	text "Just me and my"
 	line "#mon. I'm de-"
 	cont "lirious with joy."
 	done
 
-PokemaniacAndrewSeenText:
+TohomaniacAndrewSeenText:
 	text "Who's there?"
 
 	para "Leave me and my"
 	line "#mon alone!"
 	done
 
-PokemaniacAndrewBeatenText:
+TohomaniacAndrewBeatenText:
 	text "Go…"
 	line "Go away!"
 	done
 
-GenericTrainerPokemaniacCalvin:
-	generictrainer POKEMANIAC, CALVIN, EVENT_BEAT_POKEMANIAC_CALVIN, PokemaniacCalvinSeenText, PokemaniacCalvinBeatenText
+GenericTrainerTohomaniacCalvin:
+	generictrainer POKEMANIAC, CALVIN, EVENT_BEAT_POKEMANIAC_CALVIN, TohomaniacCalvinSeenText, TohomaniacCalvinBeatenText
 
 	text "I should compile"
 	line "and announce my"
@@ -64,7 +64,7 @@ GenericTrainerPokemaniacCalvin:
 	cont "Prof.Elm."
 	done
 
-PokemaniacCalvinSeenText:
+TohomaniacCalvinSeenText:
 	text "I came all the way"
 	line "here to conduct my"
 	cont "#mon research."
@@ -74,7 +74,7 @@ PokemaniacCalvinSeenText:
 	cont "real battle!"
 	done
 
-PokemaniacCalvinBeatenText:
+TohomaniacCalvinBeatenText:
 	text "You demonstrated"
 	line "on me!"
 	done

@@ -70,15 +70,15 @@ _PrepareFrontpic:
 	ld a, [wCurForm]
 	ld b, a
 	call GetCosmeticSpeciesAndFormIndex
-	ld hl, PokemonPicPointers
+	ld hl, TohomonPicPointers
 rept 5
 	add hl, bc
 endr
-	ld a, BANK(PokemonPicPointers)
+	ld a, BANK(TohomonPicPointers)
 	call GetFarByte
 	push af
 	inc hl
-	ld a, BANK(PokemonPicPointers)
+	ld a, BANK(TohomonPicPointers)
 	call GetFarWord
 	pop bc
 
@@ -202,17 +202,17 @@ GetBackpic:
 	push de
 	; bc = index
 	call GetCosmeticSpeciesAndFormIndex
-	ld hl, PokemonPicPointers
+	ld hl, TohomonPicPointers
 rept 5
 	add hl, bc
 endr
-	ld a, BANK(PokemonPicPointers)
+	ld a, BANK(TohomonPicPointers)
 	call GetFarByte
 	push af
 	inc hl
 	inc hl
 	inc hl
-	ld a, BANK(PokemonPicPointers)
+	ld a, BANK(TohomonPicPointers)
 	call GetFarWord
 	pop af
 	call FarDecompress

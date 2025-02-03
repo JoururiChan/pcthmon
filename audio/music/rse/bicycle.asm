@@ -1,4 +1,4 @@
-; Pokémon R/S/E - Bicycle
+; Tohomon R/S/E - Bicycle
 ; Demixed by Mmmmmm
 ; https://pastebin.com/prMfJEB0
 ; https://soundcloud.com/mmmmmmmmmmmmmmmmm-1/hoenn-bicycle-gbc-8-bit

@@ -63,7 +63,7 @@ if DEF(FAITHFUL)
 	inc e
 	jr .loop2
 else
-; type = %fedcba * 16 / 63 + 1 (1-17, Dream-Fairy)
+; type = %fedcba * 16 / 63 + 1 (1-17, Dream-Heart)
 	ld a, b
 	cp 63
 	ld e, 17

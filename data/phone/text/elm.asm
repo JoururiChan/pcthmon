@@ -9,7 +9,7 @@ ElmPhoneStartText:
 	cont "they are hurt."
 	done
 
-ElmPhoneSawMrPokemonText:
+ElmPhoneSawMrTohomonText:
 	text "Hello, <PLAYER>?"
 
 	para "Did you meet Mr."
@@ -17,7 +17,7 @@ ElmPhoneSawMrPokemonText:
 	cont "Come back safely!"
 	done
 
-ElmPhonePokemonStolenText:
+ElmPhoneTohomonStolenText:
 	text "<PLAYER>? I'm very"
 	line "upset now."
 
@@ -96,7 +96,7 @@ ElmPhoneDiscovery2Text:
 	line "ing that now."
 	prompt
 
-ElmPhonePokerusText:
+ElmPhoneTohorusText:
 	text "Hello, <PLAYER>?"
 
 	para "I discovered an"

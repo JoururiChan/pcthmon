@@ -69,15 +69,15 @@ EngineFlags:
 	engine_flag wKantoBadges, VOLCANOBADGE
 	engine_flag wKantoBadges, EARTHBADGE
 
-	; unown sets (see data/wild/unlocked_unowns.asm)
-	engine_flag wUnlockedUnowns, UNLOCKED_HINAS_A_TO_J_F
-	engine_flag wUnlockedUnowns, UNLOCKED_HINAS_K_TO_Q_F
-	engine_flag wUnlockedUnowns, UNLOCKED_HINAS_R_TO_W_F
-	engine_flag wUnlockedUnowns, UNLOCKED_HINAS_X_TO_QUESTION_F
-	engine_flag wUnlockedUnowns, 4 ; unused
-	engine_flag wUnlockedUnowns, 5 ; unused
-	engine_flag wUnlockedUnowns, 6 ; unused
-	engine_flag wUnlockedUnowns, 7 ; unused
+	; hina sets (see data/wild/unlocked_hinas.asm)
+	engine_flag wUnlockedHinas, UNLOCKED_HINAS_A_TO_J_F
+	engine_flag wUnlockedHinas, UNLOCKED_HINAS_K_TO_Q_F
+	engine_flag wUnlockedHinas, UNLOCKED_HINAS_R_TO_W_F
+	engine_flag wUnlockedHinas, UNLOCKED_HINAS_X_TO_QUESTION_F
+	engine_flag wUnlockedHinas, 4 ; unused
+	engine_flag wUnlockedHinas, 5 ; unused
+	engine_flag wUnlockedHinas, 6 ; unused
+	engine_flag wUnlockedHinas, 7 ; unused
 
 	; fly
 	engine_flag wVisitedSpawns, SPAWN_HOME
@@ -228,49 +228,49 @@ EngineFlags:
 	engine_flag wDailyPhoneTimeOfDayFlags, 22 ; parry friday afternoon
 	engine_flag wDailyPhoneTimeOfDayFlags, 23 ; erin saturday night
 
-	engine_flag wSwarmFlags, SWARMFLAGS_DUNSPARCE_SWARM_F
-	engine_flag wSwarmFlags, SWARMFLAGS_YANMA_SWARM_F
+	engine_flag wSwarmFlags, SWARMFLAGS_CMOMIJI_SWARM_F
+	engine_flag wSwarmFlags, SWARMFLAGS_AEIKI_SWARM_F
 
-	engine_flag wPokemonJournals, FALKNER_JOURNAL
-	engine_flag wPokemonJournals, BUGSY_JOURNAL
-	engine_flag wPokemonJournals, WHITNEY_JOURNAL
-	engine_flag wPokemonJournals, MORTY_JOURNAL
-	engine_flag wPokemonJournals, CHUCK_JOURNAL
-	engine_flag wPokemonJournals, JASMINE_JOURNAL
-	engine_flag wPokemonJournals, PRYCE_JOURNAL
-	engine_flag wPokemonJournals, CLAIR_JOURNAL
-	engine_flag wPokemonJournals, BROCK_JOURNAL
-	engine_flag wPokemonJournals, MISTY_JOURNAL
-	engine_flag wPokemonJournals, LT_SURGE_JOURNAL
-	engine_flag wPokemonJournals, ERIKA_T_JOURNAL
-	engine_flag wPokemonJournals, JANINE_JOURNAL
-	engine_flag wPokemonJournals, SABRINA_JOURNAL
-	engine_flag wPokemonJournals, BLAINE_JOURNAL
-	engine_flag wPokemonJournals, BLUE_JOURNAL
-	engine_flag wPokemonJournals, WILL_JOURNAL
-	engine_flag wPokemonJournals, KOGA_JOURNAL
-	engine_flag wPokemonJournals, BRUNO_JOURNAL
-	engine_flag wPokemonJournals, KAREN_JOURNAL
-	engine_flag wPokemonJournals, LANCE_JOURNAL
-	engine_flag wPokemonJournals, RED_JOURNAL
-	engine_flag wPokemonJournals, GREEN_JOURNAL
-	engine_flag wPokemonJournals, PROF_OAK_JOURNAL
-	engine_flag wPokemonJournals, PROF_ELM_JOURNAL
-	engine_flag wPokemonJournals, PROF_IVY_JOURNAL
-	engine_flag wPokemonJournals, PROF_WESTWOOD_JOURNAL
-	engine_flag wPokemonJournals, GIOVANNI_JOURNAL
-	engine_flag wPokemonJournals, LORELEI_JOURNAL
-	engine_flag wPokemonJournals, AGATHA_JOURNAL
-	engine_flag wPokemonJournals, BILL_JOURNAL
-	engine_flag wPokemonJournals, KURT_JOURNAL
-	engine_flag wPokemonJournals, MR_FUJI_JOURNAL
-	engine_flag wPokemonJournals, PROF_WILLOW_JOURNAL
-	engine_flag wPokemonJournals, STEVEN_JOURNAL
-	engine_flag wPokemonJournals, CYNTHIA_JOURNAL
-	engine_flag wPokemonJournals, WALKER_JOURNAL
-	engine_flag wPokemonJournals, KIYO_JOURNAL
-	engine_flag wPokemonJournals, PALMER_JOURNAL
-	engine_flag wPokemonJournals, THORTON_JOURNAL
+	engine_flag wTohomonJournals, FALKNER_JOURNAL
+	engine_flag wTohomonJournals, BUGSY_JOURNAL
+	engine_flag wTohomonJournals, WHITNEY_JOURNAL
+	engine_flag wTohomonJournals, MORTY_JOURNAL
+	engine_flag wTohomonJournals, CHUCK_JOURNAL
+	engine_flag wTohomonJournals, JASMINE_JOURNAL
+	engine_flag wTohomonJournals, PRYCE_JOURNAL
+	engine_flag wTohomonJournals, CLAIR_JOURNAL
+	engine_flag wTohomonJournals, BROCK_JOURNAL
+	engine_flag wTohomonJournals, MISTY_JOURNAL
+	engine_flag wTohomonJournals, LT_SURGE_JOURNAL
+	engine_flag wTohomonJournals, ERIKA_JOURNAL
+	engine_flag wTohomonJournals, JANINE_JOURNAL
+	engine_flag wTohomonJournals, SABRINA_JOURNAL
+	engine_flag wTohomonJournals, BLAINE_JOURNAL
+	engine_flag wTohomonJournals, BLUE_JOURNAL
+	engine_flag wTohomonJournals, WILL_JOURNAL
+	engine_flag wTohomonJournals, KOGA_JOURNAL
+	engine_flag wTohomonJournals, BRUNO_JOURNAL
+	engine_flag wTohomonJournals, KAREN_JOURNAL
+	engine_flag wTohomonJournals, LANCE_JOURNAL
+	engine_flag wTohomonJournals, RED_JOURNAL
+	engine_flag wTohomonJournals, GREEN_JOURNAL
+	engine_flag wTohomonJournals, PROF_OAK_JOURNAL
+	engine_flag wTohomonJournals, PROF_ELM_JOURNAL
+	engine_flag wTohomonJournals, PROF_IVY_JOURNAL
+	engine_flag wTohomonJournals, PROF_WESTWOOD_JOURNAL
+	engine_flag wTohomonJournals, GIOVANNI_JOURNAL
+	engine_flag wTohomonJournals, LORELEI_JOURNAL
+	engine_flag wTohomonJournals, AGATHA_JOURNAL
+	engine_flag wTohomonJournals, BILL_JOURNAL
+	engine_flag wTohomonJournals, KURT_JOURNAL
+	engine_flag wTohomonJournals, MR_FUJI_JOURNAL
+	engine_flag wTohomonJournals, PROF_WILLOW_JOURNAL
+	engine_flag wTohomonJournals, STEVEN_JOURNAL
+	engine_flag wTohomonJournals, CYNTHIA_JOURNAL
+	engine_flag wTohomonJournals, WALKER_JOURNAL
+	engine_flag wTohomonJournals, KIYO_JOURNAL
+	engine_flag wTohomonJournals, PALMER_JOURNAL
+	engine_flag wTohomonJournals, THORTON_JOURNAL
 
 	engine_flag wStatusFlags3, STATUSFLAGS3_JUDGE_MACHINE_F
 

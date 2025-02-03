@@ -1,7 +1,7 @@
-Pokepic::
+Tohopic::
 	call BackupSprites
-	call ClearSpritesUnderPokePic
-	ld hl, PokepicMenuDataHeader
+	call ClearSpritesUnderTohoPic
+	ld hl, TohopicMenuDataHeader
 	call CopyMenuHeader
 	call MenuBox
 	call UpdateSprites
@@ -9,7 +9,7 @@ Pokepic::
 	ld a, [wCurForm]
 	cp -1
 	jr z, .partymon
-	farcall LoadPokemonPalette
+	farcall LoadTohomonPalette
 	jr .got_palette
 .partymon
 	farcall LoadPartyMonPalette
@@ -40,7 +40,7 @@ _Displaypic:
 	ld b, 1
 	jmp SafeCopyTilemapAtOnce
 
-ClearSpritesUnderPokePic:
+ClearSpritesUnderTohoPic:
 	ld de, wShadowOAMSprite00
 	ld h, d
 	ld l, e
@@ -81,7 +81,7 @@ ClearSpritesUnderPokePic:
 	jr .next
 
 Trainerpic::
-	ld hl, PokepicMenuDataHeader
+	ld hl, TohopicMenuDataHeader
 	call CopyMenuHeader
 	call MenuBox
 	call UpdateSprites
@@ -102,7 +102,7 @@ Paintingpic::
 	ld hl, vTiles0 tile ("┌" - 3)
 	lb bc, BANK(PaintingFrameGFX), 11
 	call Get2bpp
-	ld hl, PokepicMenuDataHeader
+	ld hl, TohopicMenuDataHeader
 	call CopyMenuHeader
 	call MenuBox
 	hlcoord 9, 12
@@ -120,8 +120,8 @@ Paintingpic::
 	farcall GetPaintingPic
 	jmp _Displaypic
 
-ClosePokepic::
-	ld hl, PokepicMenuDataHeader
+CloseTohopic::
+	ld hl, TohopicMenuDataHeader
 	call CopyMenuHeader
 	call ClearMenuBoxInterior
 	call GetMemCGBLayout
@@ -134,7 +134,7 @@ ClosePokepic::
 	call SafeCopyTilemapAtOnce
 	farjp RefreshSprites
 
-PokepicMenuDataHeader:
+TohopicMenuDataHeader:
 	db MENU_BACKUP_TILES
 	menu_coords 6, 4, 14, 12
 	dw NULL

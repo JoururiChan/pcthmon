@@ -1,4 +1,4 @@
-GrassMonProbTable:
+NatureMonProbTable:
 	table_width 1
 	db 30  ; 30% chance
 	db 60  ; 30% chance

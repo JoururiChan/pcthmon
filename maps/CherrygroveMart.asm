@@ -26,7 +26,7 @@ CherrygroveMartClerkScript:
 
 CherrygroveMartCooltrainerMScript:
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iftrue_jumptextfaceplayer CherrygroveMartCooltrainerMText_PokeBallsInStock
+	iftrue_jumptextfaceplayer CherrygroveMartCooltrainerMText_TohoBallsInStock
 	jumpthistextfaceplayer
 
 	text "They're fresh out"
@@ -36,7 +36,7 @@ CherrygroveMartCooltrainerMScript:
 	line "more of them?"
 	done
 
-CherrygroveMartCooltrainerMText_PokeBallsInStock:
+CherrygroveMartCooltrainerMText_TohoBallsInStock:
 	text "# Balls are in"
 	line "stock! Now I can"
 	cont "catch #mon!"

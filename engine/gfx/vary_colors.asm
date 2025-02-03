@@ -341,7 +341,7 @@ endc
 ; need to be able to add or subtract 1 without overflow/underflow
 
 .SmearglePals:
-INCLUDE "gfx/pokemon/smeargle.pal"
+INCLUDE "gfx/tohomon/smeargle.pal"
 
 .SmeargleShinyPals: ; TODO
-INCLUDE "gfx/pokemon/smeargle_shiny.pal"
+INCLUDE "gfx/tohomon/smeargle_shiny.pal"

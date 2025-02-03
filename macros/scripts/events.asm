@@ -319,7 +319,7 @@ ENDM
 MACRO givepoke
 	db givepoke_command
 	if _NARG >= 3
-		dp \1, \2 ; pokemon
+		dp \1, \2 ; tohomon
 		db \3 ; level
 	else
 		dp \1, PLAIN_FORM
@@ -461,7 +461,7 @@ ENDM
 	const getmonname_command
 MACRO getmonname
 	db getmonname_command
-	dp \1 ; pokemon
+	dp \1 ; tohomon
 	db \2 ; memory
 ENDM
 
@@ -620,7 +620,7 @@ ENDM
 MACRO loadwildmon
 	db loadwildmon_command
 	if _NARG == 3
-		dp \1, \2 ; pokemon
+		dp \1, \2 ; tohomon
 		db \3 ; level
 	else
 		dp \1, PLAIN_FORM
@@ -1131,9 +1131,9 @@ MACRO checkunits
 	db checkunits_command
 ENDM
 
-	const unowntypeface_command
-MACRO unowntypeface
-	db unowntypeface_command
+	const hinatypeface_command
+MACRO hinatypeface
+	db hinatypeface_command
 ENDM
 
 	const restoretypeface_command

@@ -1,4 +1,4 @@
-; Many of the included functions were originally developed by the RainbowDevs team at Pokemon Prism.
+; Many of the included functions were originally developed by the RainbowDevs team at Tohomon Prism.
 ; A wholehearted thank you also goes out to aaaaaa123456789 (aka ax6) for developing bsp and the Prism patch.
 
 ; version info
@@ -39,7 +39,7 @@
 	include "save_patch_list.txt"
 	include "save_patch_utils.txt"
 
-	include "pokemon_patches.txt"
+	include "tohomon_patches.txt"
 	include "item_patches.txt"
 	include "move_patches.txt"
 	include "apply_party_patches.txt"

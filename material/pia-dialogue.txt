@@ -181,8 +181,8 @@ JugglerAfterText:
 	done
 
 
-PokefanM:
-Do you want to see my Pokemon?
+TohofanM:
+Do you want to see my Tohomon?
 I said see them, not KO them!
 
 = The ORANGE ISLANDS are so\npeaceful...\pThat's why I came here in the first\nplace!

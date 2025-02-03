@@ -63,17 +63,17 @@ NamingScreen:
 	call StackJumpTable
 
 .Jumptable:
-	dw .Pokemon
+	dw .Tohomon
 	dw .Player
 	dw .Rival
 	dw .TrendyPhrase
 	dw .Box
 
-.Pokemon:
+.Tohomon:
 	ld a, [wCurPartySpecies]
 	ld [wTempIconSpecies], a
 	farcall LoadNamingScreenMonMini
-	call GetPartyPokemonName
+	call GetPartyTohomonName
 	hlcoord 5, 2
 	rst PlaceString
 	hlcoord 5, 4

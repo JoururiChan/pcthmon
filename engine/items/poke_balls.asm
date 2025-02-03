@@ -232,11 +232,11 @@ GetSpeciesCost::
 ; input: bc = species+form
 ; output: hl = cost
 	call GetSpeciesAndFormIndex
-	ld hl, PokemonBodyData + 1 ; skip height
+	ld hl, TohomonBodyData + 1 ; skip height
 rept 4
 	add hl, bc
 endr
-	ld a, BANK(PokemonBodyData)
+	ld a, BANK(TohomonBodyData)
 	jmp GetFarWord ; get cost
 
 HeavyBallMultiplier:

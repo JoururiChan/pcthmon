@@ -13,7 +13,7 @@ RadioTower3F_MapScriptHeader:
 
 	def_bg_events
 	bg_event  3,  0, BGEVENT_JUMPTEXT, RadioTower3FPersonnelSignText
-	bg_event  9,  0, BGEVENT_JUMPTEXT, RadioTower3FPokemonMusicSignText
+	bg_event  9,  0, BGEVENT_JUMPTEXT, RadioTower3FTohomonMusicSignText
 	bg_event 14,  2, BGEVENT_UP, CardKeySlotScript
 
 	def_object_events
@@ -273,7 +273,7 @@ RadioTower3FPersonnelSignText:
 	text "3F Personnel"
 	done
 
-RadioTower3FPokemonMusicSignText:
+RadioTower3FTohomonMusicSignText:
 	text "#mon Music with"
 	line "Host DJ Ben"
 	done

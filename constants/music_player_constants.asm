@@ -70,7 +70,7 @@ DEF NUM_SONG_ORIGINS EQU const_value
 	const COMPOSER_LEVUSBEVUS                    ; 15
 	const COMPOSER_GACT                          ; 16
 	const COMPOSER_GRONNOC                       ; 17
-	const COMPOSER_CAT333POKEMON                 ; 18
+	const COMPOSER_CAT333TOHOMON                 ; 18
 	const COMPOSER_NOTFROGGESTSPIRIT             ; 19
 	const COMPOSER_TOBY_FOX                      ; 1a
 	const COMPOSER_SHINKONETCAVY_SHOCKSLAYER     ; 1b

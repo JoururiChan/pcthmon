@@ -1,4 +1,4 @@
-ShamoutiPokeCenter1F_MapScriptHeader:
+ShamoutiTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,16 +11,16 @@ ShamoutiPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalLoreleiScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalLoreleiScript
 
 	def_object_events
-	object_event  6,  3, SPRITE_IVY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ShamoutiPokeCenter1FIvyScript, EVENT_SHAMOUTI_POKE_CENTER_IVY
+	object_event  6,  3, SPRITE_IVY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ShamoutiTohoCenter1FIvyScript, EVENT_SHAMOUTI_POKE_CENTER_IVY
 	pc_nurse_event  5, 1
 
 	object_const_def
 	const SHAMOUTIPOKECENTER1F_IVY
 
-PokemonJournalLoreleiScript:
+TohomonJournalLoreleiScript:
 	setflag ENGINE_READ_LORELEI_JOURNAL
 	jumpthistext
 
@@ -36,7 +36,7 @@ PokemonJournalLoreleiScript:
 	line "#mon dolls."
 	done
 
-ShamoutiPokeCenter1FIvyScript:
+ShamoutiTohoCenter1FIvyScript:
 	faceplayer
 	opentext
 	checkevent EVENT_LISTENED_TO_IVY_INTRO
@@ -101,7 +101,7 @@ ShamoutiPokeCenter1FIvyScript:
 	applymovement SHAMOUTIPOKECENTER1F_IVY, .DownMovement
 	playsound SFX_EXIT_BUILDING
 	disappear SHAMOUTIPOKECENTER1F_IVY
-	setevent EVENT_GOT_A_POKEMON_FROM_IVY
+	setevent EVENT_GOT_A_TOHOMON_FROM_IVY
 	checkevent EVENT_BEAT_YELLOW
 	iffalsefwd .skip
 	clearevent EVENT_INDIGO_PLATEAU_POKECENTER_YELLOW

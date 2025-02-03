@@ -1590,7 +1590,7 @@ SlotPayoutText:
 
 .PayoutStrings:
 	dbw "300@", .LinedUpSevens
-	dbw "50@@", .LinedUpPokeballs
+	dbw "50@@", .LinedUpTohoballs
 	dbw "6@@@", .LinedUpMonOrCherry
 	dbw "8@@@", .LinedUpMonOrCherry
 	dbw "10@@", .LinedUpMonOrCherry
@@ -1651,7 +1651,7 @@ endr
 	ld [wSlotBias], a
 	ret
 
-.LinedUpPokeballs:
+.LinedUpTohoballs:
 	ld a, SFX_3RD_PLACE
 	call Slots_PlaySFX
 	jmp WaitSFX

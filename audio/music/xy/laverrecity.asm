@@ -1,4 +1,4 @@
-; Pokémon X/Y - Laverre City
+; Tohomon X/Y - Laverre City
 ; Demixed by Mmmmmm
 ; https://pastebin.com/pVtgJivC
 ; https://hax.iimarckus.org/topic/6777/

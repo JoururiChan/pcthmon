@@ -1,4 +1,4 @@
-SaffronPokeCenter1F_MapScriptHeader:
+SaffronTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,15 +11,15 @@ SaffronPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalSabrinaScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalSabrinaScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event 11,  5, SPRITE_FIREBREATHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SaffronPokeCenter1FFisherScript, -1
-	object_event  2,  4, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronPokeCenter1FTeacherText, -1
-	object_event  8,  4, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronPokeCenter1FYoungsterText, -1
+	object_event 11,  5, SPRITE_FIREBREATHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SaffronTohoCenter1FFisherScript, -1
+	object_event  2,  4, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronTohoCenter1FTeacherText, -1
+	object_event  8,  4, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronTohoCenter1FYoungsterText, -1
 
-PokemonJournalSabrinaScript:
+TohomonJournalSabrinaScript:
 	setflag ENGINE_READ_SABRINA_JOURNAL
 	jumpthistext
 
@@ -37,7 +37,7 @@ PokemonJournalSabrinaScript:
 	cont "speaking."
 	done
 
-SaffronPokeCenter1FFisherScript:
+SaffronTohoCenter1FFisherScript:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
@@ -66,7 +66,7 @@ SaffronPokeCenter1FFisherScript:
 	cont "knowledge."
 	done
 
-SaffronPokeCenter1FTeacherText:
+SaffronTohoCenter1FTeacherText:
 	text "What are Johto's"
 	line "#mon Centers"
 	cont "like?"
@@ -82,7 +82,7 @@ SaffronPokeCenter1FTeacherText:
 	cont "then!"
 	done
 
-SaffronPokeCenter1FYoungsterText:
+SaffronTohoCenter1FYoungsterText:
 	text "Silph Co.'s Head"
 	line "Office and the"
 

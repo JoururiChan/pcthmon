@@ -1,4 +1,4 @@
-CianwoodPokeCenter1F_MapScriptHeader:
+CianwoodTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,16 +11,16 @@ CianwoodPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalChuckScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalChuckScript
 
 	def_object_events
 	pc_nurse_event  5, 1
 	object_event  6,  3, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CianwoodGymGuyScript, -1
-	object_event  1,  5, SPRITE_PICNICKER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodPokeCenter1FLassText, -1
-	object_event  9,  7, SPRITE_JUGGLER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodPokeCenter1FSuperNerdText, -1
-	object_event 11,  5, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodPokeCenter1FRichBoyText, -1
+	object_event  1,  5, SPRITE_PICNICKER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodTohoCenter1FLassText, -1
+	object_event  9,  7, SPRITE_JUGGLER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodTohoCenter1FSuperNerdText, -1
+	object_event 11,  5, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodTohoCenter1FRichBoyText, -1
 
-PokemonJournalChuckScript:
+TohomonJournalChuckScript:
 	setflag ENGINE_READ_CHUCK_JOURNAL
 	jumpthistext
 
@@ -77,7 +77,7 @@ CianwoodGymGuyScript:
 
 	para "So you should"
 	line "confound him with"
-	cont "Psychic #mon."
+	cont "Reason #mon."
 
 	para "Wipe out his #-"
 	line "mon before they"
@@ -118,7 +118,7 @@ CianwoodGymGuyScript:
 	cont "looking at you!"
 	done
 
-CianwoodPokeCenter1FLassText:
+CianwoodTohoCenter1FLassText:
 	text "Did you meet the"
 	line "#Maniac?"
 
@@ -127,7 +127,7 @@ CianwoodPokeCenter1FLassText:
 	cont "rare #mon."
 	done
 
-CianwoodPokeCenter1FSuperNerdText:
+CianwoodTohoCenter1FSuperNerdText:
 	text "I love showing off"
 	line "the #mon that"
 
@@ -141,7 +141,7 @@ CianwoodPokeCenter1FSuperNerdText:
 	line "off my #mon!"
 	done
 
-CianwoodPokeCenter1FRichBoyText:
+CianwoodTohoCenter1FRichBoyText:
 	text "There's no #"
 	line "Mart in this town,"
 

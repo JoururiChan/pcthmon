@@ -1,4 +1,4 @@
-EcruteakPokeCenter1F_MapScriptHeader:
+EcruteakTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,20 +11,20 @@ EcruteakPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalMortyScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalMortyScript
 
 	def_object_events
-	object_event  6,  3, SPRITE_BILL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakPokeCenter1FBillScript, EVENT_ECRUTEAK_POKE_CENTER_BILL
+	object_event  6,  3, SPRITE_BILL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakTohoCenter1FBillScript, EVENT_ECRUTEAK_POKE_CENTER_BILL
 	pc_nurse_event  5, 1
-	object_event 11,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, EcruteakPokeCenter1FPokefanMScript, -1
-	object_event 11,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakPokeCenter1FLassScript, -1
-	object_event  1,  4, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakPokeCenter1FCooltrainerFText, -1
-	object_event  8,  1, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakPokeCenter1FGymGuyText, -1
+	object_event 11,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, EcruteakTohoCenter1FTohofanMScript, -1
+	object_event 11,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakTohoCenter1FLassScript, -1
+	object_event  1,  4, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakTohoCenter1FCooltrainerFText, -1
+	object_event  8,  1, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakTohoCenter1FGymGuyText, -1
 
 	object_const_def
 	const ECRUTEAKPOKECENTER1F_BILL
 
-PokemonJournalMortyScript:
+TohomonJournalMortyScript:
 	setflag ENGINE_READ_MORTY_JOURNAL
 	jumpthistext
 
@@ -51,7 +51,7 @@ PokemonJournalMortyScript:
 	line "ths of my heart…”"
 	done
 
-EcruteakPokeCenter1FBillScript:
+EcruteakTohoCenter1FBillScript:
 	faceplayer
 	opentext
 	checkevent EVENT_LISTENED_TO_BILL_INTRO
@@ -68,10 +68,10 @@ EcruteakPokeCenter1FBillScript:
 	waitsfx
 	readvar VAR_PARTYCOUNT
 	ifequalfwd PARTY_LENGTH, .NoRoom
-	givepoke EEVEE, PLAIN_FORM, 5, NO_ITEM, GREAT_BALL
-	givepokemail .GiftEeveeMail
-	callasm .SetEeveeMailOT
-	setevent EVENT_GOT_EEVEE
+	givepoke TLYRICA, PLAIN_FORM, 5, NO_ITEM, GREAT_BALL
+	givepokemail .GiftTLyricaMail
+	callasm .SetTLyricaMailOT
+	setevent EVENT_GOT_TLYRICA
 	writetext .GoodbyeText
 	waitbutton
 	closetext
@@ -111,7 +111,7 @@ EcruteakPokeCenter1FBillScript:
 	done
 
 .QuestionText:
-	text "Bill: This Eevee"
+	text "Bill: This TLyrica"
 	line "came over just"
 
 	para "before the Time"
@@ -144,7 +144,7 @@ EcruteakPokeCenter1FBillScript:
 
 .GoodbyeText:
 	text "Bill: Prof.Elm"
-	line "claims Eevee may"
+	line "claims TLyrica may"
 
 	para "evolve in new and"
 	line "unknown ways."
@@ -171,12 +171,12 @@ EcruteakPokeCenter1FBillScript:
 	step_down
 	step_end
 
-.GiftEeveeMail:
+.GiftTLyricaMail:
 	db   EON_MAIL
 	db   "Please keep this"
 	next "#mon safe!@@@@@@"
 
-.SetEeveeMailOT:
+.SetTLyricaMailOT:
 	ld hl, sPartyMon1MailAuthor
 	ld a, [wPartyCount]
 	dec a
@@ -184,19 +184,19 @@ EcruteakPokeCenter1FBillScript:
 	rst AddNTimes
 	push hl
 	pop de
-	ld hl, .EeveeMailOTID
-	ld bc, .EeveeMailOTIDEnd - .EeveeMailOTID
+	ld hl, .TLyricaMailOTID
+	ld bc, .TLyricaMailOTIDEnd - .TLyricaMailOTID
 	ld a, BANK(sPartyMail)
 	call GetSRAMBank
 	rst CopyBytes
 	jmp CloseSRAM
 
-.EeveeMailOTID:
+.TLyricaMailOTID:
 	rawchar "Prof.Oak@@"
 	bigdw 00001
-.EeveeMailOTIDEnd
+.TLyricaMailOTIDEnd
 
-EcruteakPokeCenter1FPokefanMScript:
+EcruteakTohoCenter1FTohofanMScript:
 	checkevent EVENT_GOT_HM03_SURF
 	iftrue_jumptextfaceplayer .SurfText
 	jumpthistextfaceplayer
@@ -224,7 +224,7 @@ EcruteakPokeCenter1FPokefanMScript:
 	line "Olivine City."
 	done
 
-EcruteakPokeCenter1FLassScript:
+EcruteakTohoCenter1FLassScript:
 	faceplayer
 	opentext
 	writetext .QuestionText
@@ -264,7 +264,7 @@ EcruteakPokeCenter1FLassScript:
 	cont "by the counter!"
 	done
 
-EcruteakPokeCenter1FCooltrainerFText:
+EcruteakTohoCenter1FCooltrainerFText:
 	text "Morty, the Gym"
 	line "Leader, is soooo"
 	cont "cool."
@@ -273,11 +273,11 @@ EcruteakPokeCenter1FCooltrainerFText:
 	line "really tough too."
 	done
 
-EcruteakPokeCenter1FGymGuyText:
+EcruteakTohoCenter1FGymGuyText:
 	text "Lake of Rage…"
 
 	para "The appearance of"
-	line "a Gyarados swarm…"
+	line "a SLilyBlack swarm…"
 
 	para "I smell a conspir-"
 	line "acy. I know it!"

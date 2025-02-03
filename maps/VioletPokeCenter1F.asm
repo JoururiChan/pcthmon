@@ -1,4 +1,4 @@
-VioletPokeCenter1F_MapScriptHeader:
+VioletTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,20 +11,20 @@ VioletPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalFalknerScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalFalknerScript
 
 	def_object_events
-	object_event 10,  2, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VioletPokeCenter1FElmsAideScript, EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
+	object_event 10,  2, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VioletTohoCenter1FElmsAideScript, EVENT_ELMS_AIDE_IN_VIOLET_TOHOMON_CENTER
 	pc_nurse_event  5, 1
-	object_event  9,  4, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VioletPokeCenter1FGameboyKidText, -1
-	object_event  2,  3	, SPRITE_GENTLEMAN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VioletPokeCenter1FGentlemanText, -1
-	object_event  0,  5, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VioletPokeCenter1FSageText, -1
-	object_event 11,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VioletPokeCenter1FYoungsterText, -1
+	object_event  9,  4, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VioletTohoCenter1FGameboyKidText, -1
+	object_event  2,  3	, SPRITE_GENTLEMAN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VioletTohoCenter1FGentlemanText, -1
+	object_event  0,  5, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VioletTohoCenter1FSageText, -1
+	object_event 11,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VioletTohoCenter1FYoungsterText, -1
 
 	object_const_def
 	const VIOLETPOKECENTER1F_SCIENTIST
 
-PokemonJournalFalknerScript:
+TohomonJournalFalknerScript:
 	setflag ENGINE_READ_FALKNER_JOURNAL
 	jumpthistext
 
@@ -41,7 +41,7 @@ PokemonJournalFalknerScript:
 	line "before him."
 	done
 
-VioletPokeCenter1FElmsAideScript:
+VioletTohoCenter1FElmsAideScript:
 	faceplayer
 	opentext
 	checkevent EVENT_REFUSED_TO_TAKE_EGG_FROM_ELMS_AIDE
@@ -163,13 +163,13 @@ VioletPokeCenter1FElmsAideScript:
 	step_down
 	step_end
 
-VioletPokeCenter1FGameboyKidText:
+VioletTohoCenter1FGameboyKidText:
 	text "A guy named Bill"
 	line "made the #mon"
 	cont "PC storage system."
 	done
 
-VioletPokeCenter1FGentlemanText:
+VioletTohoCenter1FGentlemanText:
 	text "It was around"
 	line "three years ago."
 
@@ -182,7 +182,7 @@ VioletPokeCenter1FGentlemanText:
 	cont "kid broke 'em up."
 	done
 
-VioletPokeCenter1FSageText:
+VioletTohoCenter1FSageText:
 	text "Some Mugetsu"
 	line "are found with"
 	cont "Gold Leaves."
@@ -196,7 +196,7 @@ VioletPokeCenter1FSageText:
 	cont "of person."
 	done
 
-VioletPokeCenter1FYoungsterText:
+VioletTohoCenter1FYoungsterText:
 	text "#mon are smart."
 	line "They won't obey a"
 

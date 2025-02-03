@@ -60,7 +60,7 @@ LizGossip:
 	ifequalfwd $5, .KimonoGirl
 	ifequalfwd $6, .Skier
 	ifequalfwd $7, .Medium
-	ifequalfwd $8, .PokefanM
+	ifequalfwd $8, .TohofanM
 
 .CoolTrainerM:
 	gettrainerclassname COOLTRAINERM, $1
@@ -94,7 +94,7 @@ LizGossip:
 	gettrainerclassname MEDIUM, $1
 	sjumpfwd LizGossipScript
 
-.PokefanM:
+.TohofanM:
 	gettrainerclassname POKEFANM, $1
 	; fallthrough
 

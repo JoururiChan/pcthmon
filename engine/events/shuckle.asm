@@ -3,7 +3,7 @@ ReturnShuckie:
 	jr c, .refused
 
 	ld a, [wCurPartySpecies]
-	cp SHUCKLE
+	cp DSUWAKO
 	jr nz, .DontReturn
 
 	ld a, [wCurPartyMon]
@@ -23,7 +23,7 @@ ReturnShuckie:
 	ld a, [wCurPartyMon]
 	ld hl, wPartyMonOTs
 	call SkipNames
-	ld de, SpecialShuckleOTAndExtra
+	ld de, SpecialDSuwakoOTAndExtra
 .CheckOT:
 	ld a, [de]
 	cp [hl]
@@ -66,6 +66,6 @@ ReturnShuckie:
 	ldh [hScriptVar], a
 	ret
 
-SpecialShuckleOTAndExtra:
+SpecialDSuwakoOTAndExtra:
 	rawchar "Kirk@@@@"
 	db 0, 0, 0

@@ -21,7 +21,7 @@ Route44_MapScriptHeader:
 	object_event 35,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerFisherWilton1, -1
 	object_event 19, 13, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerFisherEdgar, -1
 	object_event 10,  9, SPRITE_PSYCHIC, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPsychicPhil, -1
-	object_event 43,  2, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPokemaniacZach, -1
+	object_event 43,  2, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacZach, -1
 	object_event 51,  5, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerBird_keeperVance1, -1
 	object_event 41, 15, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerCooltrainermAllen, -1
 	object_event 31, 14, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerCooltrainerfCybil, -1
@@ -285,10 +285,10 @@ FisherWilton1Script:
 	iftruefwd .AskedAlready
 	checkunits
 	iftruefwd .metric
-	writetext FisherWiltonHugePoliwagText_Imperial
+	writetext FisherWiltonHugeKurumiText_Imperial
 	sjumpfwd .ok
 .metric
-	writetext FisherWiltonHugePoliwagText_Metric
+	writetext FisherWiltonHugeKurumiText_Metric
 .ok
 	promptbutton
 	setevent EVENT_WILTON_ASKED_FOR_PHONE_NUMBER
@@ -348,7 +348,7 @@ FisherWilton1Script:
 	checkevent EVENT_WILTON_HAS_GREAT_BALL
 	iftruefwd .GreatBall
 	checkevent EVENT_WILTON_HAS_POKE_BALL
-	iftruefwd .PokeBall
+	iftruefwd .TohoBall
 .UltraBall:
 	verbosegiveitem ULTRA_BALL
 	iffalsefwd .Route44PackFullM
@@ -359,7 +359,7 @@ FisherWilton1Script:
 	iffalsefwd .Route44PackFullM
 	sjumpfwd .ItemReceived
 
-.PokeBall:
+.TohoBall:
 	verbosegiveitem POKE_BALL
 	iffalsefwd .Route44PackFullM
 .ItemReceived:
@@ -391,8 +391,8 @@ GenericTrainerCooltrainerfCybil:
 	cont "today--an elite."
 	done
 
-GenericTrainerPokemaniacZach:
-	generictrainer POKEMANIAC, ZACH, EVENT_BEAT_POKEMANIAC_ZACH, PokemaniacZachSeenText, PokemaniacZachBeatenText
+GenericTrainerTohomaniacZach:
+	generictrainer POKEMANIAC, ZACH, EVENT_BEAT_POKEMANIAC_ZACH, TohomaniacZachSeenText, TohomaniacZachBeatenText
 
 	text "If a #mon has"
 	line "different colors"
@@ -425,7 +425,7 @@ GenericTrainerCooltrainermAllen:
 
 FisherWilton1SeenText:
 	text "Aack! You made me"
-	line "lose a Poliwag!"
+	line "lose a Kurumi!"
 
 	para "What are you going"
 	line "to do about it?"
@@ -436,8 +436,8 @@ FisherWilton1BeatenText:
 	line "it."
 	done
 
-FisherWiltonHugePoliwagText_Imperial:
-	text "That Poliwag that"
+FisherWiltonHugeKurumiText_Imperial:
+	text "That Kurumi that"
 	line "got away…"
 	cont "It was huge."
 
@@ -445,8 +445,8 @@ FisherWiltonHugePoliwagText_Imperial:
 	line "been 16 feet long!"
 	done
 
-FisherWiltonHugePoliwagText_Metric:
-	text "That Poliwag that"
+FisherWiltonHugeKurumiText_Metric:
+	text "That Kurumi that"
 	line "got away…"
 	cont "It was huge."
 
@@ -484,8 +484,8 @@ Bird_keeperVance1BeatenText:
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
-	text "Articuno, Zapdos"
-	line "and Moltres are"
+	text "Ran, TRan"
+	line "and CYukari are"
 
 	para "the three legend-"
 	line "ary bird #mon."
@@ -516,13 +516,13 @@ PsychicPhilBeatenText:
 	line "shocking loss…"
 	done
 
-PokemaniacZachSeenText:
+TohomaniacZachSeenText:
 	text "I'll do anything"
 	line "to get my hands on"
 	cont "rare #mon!"
 	done
 
-PokemaniacZachBeatenText:
+TohomaniacZachBeatenText:
 	text "Oooh, your #mon"
 	line "are so appealing."
 	done

@@ -1,10 +1,10 @@
-GivePokerusAndConvertBerries:
-; There are four Pokerus strains in Polished Crystal:
+GiveTohorusAndConvertBerries:
+; There are four Tohorus strains in Polished Crystal:
 ; -- Strain 1: one-day strain, value %1111
 ; -- Strain 2: two-day strain, value %0111 -> %1110
 ; -- Strain 3: three-day strain, value %0011 -> %0110 -> %1100
 ; -- Strain 4: four-day strain, value %0001 -> %0010 -> %0100 -> %1000
-; When a day passes with a Pokerus strain value already in bit 3 (then rotated left out of the nibble), the mon is cured
+; When a day passes with a Tohorus strain value already in bit 3 (then rotated left out of the nibble), the mon is cured
 	ld a, [wPartyCount]
 	and a
 	ret z
@@ -46,8 +46,8 @@ GivePokerusAndConvertBerries:
 
 ; did we find anything? we should have, since you can't have non-eggs in your party
 	dec b
-	call nz, ContinueGivingPokerus
-	; bc should = 0:party count, but c is unmodified and ContinueGivingPokerus returns b = 0
+	call nz, ContinueGivingTohorus
+	; bc should = 0:party count, but c is unmodified and ContinueGivingTohorus returns b = 0
 .check_spread
 ; spread active infections (this includes any mons that were just infected de novo)
 	call Random
@@ -55,11 +55,11 @@ GivePokerusAndConvertBerries:
 	jr nc, .done_spread
 
 ; find any party mons with active infections
-	ld hl, wPartyMon1PokerusStatus
+	ld hl, wPartyMon1TohorusStatus
 	ld de, PARTYMON_STRUCT_LENGTH
 .loop_spread
 	ld a, [hl]
-	and POKERUS_MASK ; Pokerus status is the lower nybble
+	and POKERUS_MASK ; Tohorus status is the lower nybble
 	jr z, .cont
 	cp POKERUS_CURED
 	jr z, .cont
@@ -73,7 +73,7 @@ GivePokerusAndConvertBerries:
 	jr z, .check_next
 	ld a, [hl]
 	and POKERUS_MASK
-	call z, .SpreadPokerus
+	call z, .SpreadTohorus
 
 ; check if the succeeding partymon can get infected too
 .check_next
@@ -89,7 +89,7 @@ GivePokerusAndConvertBerries:
 	pop hl
 	jr nz, .cont
 	add hl, de
-	call .SpreadPokerus
+	call .SpreadTohorus
 	dec c ; newly infected mons shouldn't spread their infection yet (this differs from de novo infections)
 
 .cont
@@ -129,7 +129,7 @@ GivePokerusAndConvertBerries:
 	jr nz, .berries_loop
 	ret
 
-.SpreadPokerus:
+.SpreadTohorus:
 ; b: strain to infect partymon with
 ; hl: partymon pokerus data location
 	ld a, b
@@ -142,7 +142,7 @@ GivePokerusAndConvertBerries:
 	ld [hl], a
 	ret
 
-GivePokerusToWonderTradeMon:
+GiveTohorusToWonderTradeMon:
 	call Random
 	and a
 	ret nz
@@ -150,9 +150,9 @@ GivePokerusToWonderTradeMon:
 	cp $20
 	ret nc
 	; fall-through
-ContinueGivingPokerus:
+ContinueGivingTohorus:
 ; uses wCurPartyMon as a parameter
-; b = 0 as output (useful for GivePokerusAndConvertBerries)
+; b = 0 as output (useful for GiveTohorusAndConvertBerries)
 	ld a, MON_PKRUS
 	call GetPartyParamLocationAndValue
 	and POKERUS_MASK

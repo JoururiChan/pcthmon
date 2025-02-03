@@ -10,7 +10,7 @@ MACRO growth_rate
 ENDM
 
 GrowthRates:
-; entries correspond to GROWTH_* (see constants/pokemon_data_constants.asm)
+; entries correspond to GROWTH_* (see constants/tohomon_data_constants.asm)
 	table_width 4
 	growth_rate 1, 1,   0,   0,   0 ; Medium Fast
 	growth_rate 6, 5, -15, 100, 140 ; Medium Slow

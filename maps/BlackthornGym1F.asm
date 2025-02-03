@@ -55,7 +55,7 @@ BlackthornGymStatue:
 
 BlackthornGymClairScript:
 	checkflag ENGINE_RISINGBADGE
-	iftrue_jumptextfaceplayer ClairPokemonLeagueDirectionsText
+	iftrue_jumptextfaceplayer ClairTohomonLeagueDirectionsText
 	checkevent EVENT_BEAT_CLAIR
 	iftrue_jumptextfaceplayer .TooMuchToExpectText
 	showtextfaceplayer .IntroText
@@ -149,7 +149,7 @@ BlackthornGymClairScript:
 	line "expect of you?"
 	done
 
-ClairPokemonLeagueDirectionsText:
+ClairTohomonLeagueDirectionsText:
 	text "What's the matter?"
 
 	para "Aren't you headed"

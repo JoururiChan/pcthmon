@@ -575,22 +575,22 @@ endr
 PartyMenuOBPals:
 INCLUDE "gfx/stats/party_menu_ob.pal"
 
-InitPokegearPalettes:
+InitTohogearPalettes:
 ; This is needed because the regular palette is dark at night.
-	ld hl, PokegearOBPals
+	ld hl, TohogearOBPals
 	ld de, wOBPals1
 	ld bc, 3 palettes
 	call FarCopyColorWRAM
 
-	ld hl, PokegearFlyPalette
+	ld hl, TohogearFlyPalette
 	ld de, wOBPals1 palette 3
 	ld bc, 1 palettes
 	jmp FarCopyColorWRAM
 
-PokegearOBPals:
+TohogearOBPals:
 INCLUDE "gfx/icons/icons.pal"
 
-PokegearFlyPalette:
+TohogearFlyPalette:
 INCLUDE "gfx/pokegear/fly.pal"
 
 GetBattlemonBackpicPalettePointer:
@@ -679,7 +679,7 @@ _GetMonPalettePointer:
 	add hl, hl
 	add hl, hl
 	add hl, hl
-	ld bc, PokemonPalettes
+	ld bc, TohomonPalettes
 	add hl, bc
 	pop af
 	ret
@@ -717,7 +717,7 @@ rept 4
 endr
 	ret
 
-LoadPokemonPalette:
+LoadTohomonPalette:
 	; a = species
 	ld a, [wCurPartySpecies]
 
@@ -1003,7 +1003,7 @@ INCLUDE "gfx/tilesets/roofs.pal"
 OvercastRoofPals:
 INCLUDE "gfx/tilesets/roofs_overcast.pal"
 
-INCLUDE "data/pokemon/palettes.asm"
+INCLUDE "data/tohomon/palettes.asm"
 
 INCLUDE "data/trainers/palettes.asm"
 

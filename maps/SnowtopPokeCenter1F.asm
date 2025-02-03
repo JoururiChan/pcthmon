@@ -1,4 +1,4 @@
-SnowtopPokeCenter1F_MapScriptHeader:
+SnowtopTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,12 +11,12 @@ SnowtopPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalProfWillowScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalProfWillowScript
 
 	def_object_events
 	pc_nurse_event  5, 1
 
-PokemonJournalProfWillowScript:
+TohomonJournalProfWillowScript:
 	setflag ENGINE_READ_PROF_WILLOW_JOURNAL
 	jumpthistext
 

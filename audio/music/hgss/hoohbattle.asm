@@ -1,6 +1,6 @@
-; Pokémon HG/SS - Battle! Ho-Oh
+; Tohomon HG/SS - Battle! Ho-Oh
 ; Demixed by Pigu
-; https://github.com/TwitchPlaysPokemon/tppcrystal251pub/blob/public/audio/music/custom/hoohbattle.asm
+; https://github.com/TwitchPlaysTohomon/tppcrystal251pub/blob/public/audio/music/custom/hoohbattle.asm
 ; https://pigu-a.bandcamp.com/album/pok-mon-anniversary-crystal-pigus-arranges
 
 Music_HoOhBattleHGSS:

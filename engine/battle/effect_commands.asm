@@ -3,8 +3,8 @@ INCLUDE "data/items/edible_berries.asm"
 INCLUDE "data/moves/continuous_moves.asm"
 INCLUDE "data/moves/critical_hit_moves.asm"
 INCLUDE "data/moves/reversal_power.asm"
-INCLUDE "data/pokemon/fury_attack_users.asm"
-INCLUDE "data/pokemon/withdraw_harden_users.asm"
+INCLUDE "data/tohomon/fury_attack_users.asm"
+INCLUDE "data/tohomon/withdraw_harden_users.asm"
 INCLUDE "data/types/inverse_type_matchups.asm"
 INCLUDE "data/types/type_matchups.asm"
 
@@ -3966,7 +3966,7 @@ TruncateHL_BC:
 
 ThickClubOrLightBallBoost:
 ; If the attacking monster is CMeiling or Meiling and
-; it's holding a Thick Club, or if it's EKikuri and
+; it's holding a Thick Club, or if it's Kikuri and
 ; it's holding a Light Ball, double it.
 	ld a, THICK_CLUB
 	call CheckAttackItemBoost

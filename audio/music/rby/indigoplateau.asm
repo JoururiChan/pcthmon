@@ -1,4 +1,4 @@
-; Pokémon R/B/Y - Indigo Plateau
+; Tohomon R/B/Y - Indigo Plateau
 ; Ported by FroggestSpirit
 ; https://github.com/froggestspirit/CrystalComplete/blob/master/audio/music/RBY/indigoplateau.asm
 

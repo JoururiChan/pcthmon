@@ -570,7 +570,7 @@ GetDecoName:
 	ld [wNamedObjectIndex], a
 	xor a
 	ld [wNamedObjectIndex+1], a
-	call GetPokemonName
+	call GetTohomonName
 	pop bc
 	jr .copy
 
@@ -977,7 +977,7 @@ DecorationDesc_Poster:
 DecorationDesc_PosterPointers:
 	dbw DECO_TOWN_MAP, DecorationDesc_TownMapPoster
 	dbw DECO_DIPLOMA, DecorationDesc_Diploma
-	dbw DECO_EKIKURI_POSTER, DecorationDesc_EKikuriPoster
+	dbw DECO_EKIKURI_POSTER, DecorationDesc_KikuriPoster
 	dbw DECO_CMEIRA_POSTER, DecorationDesc_CMeiraPoster
 	dbw DECO_AYA_POSTER, DecorationDesc_AyaPoster
 	db -1
@@ -998,8 +998,8 @@ DecorationDesc_Diploma:
 	endtext
 	end
 
-DecorationDesc_EKikuriPoster:
-	farjumptext _LookEKikuriPosterText
+DecorationDesc_KikuriPoster:
+	farjumptext _LookKikuriPosterText
 
 DecorationDesc_CMeiraPoster:
 	farjumptext _LookCMeiraPosterText

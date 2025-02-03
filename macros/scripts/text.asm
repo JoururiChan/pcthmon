@@ -131,7 +131,7 @@ MACRO prompt
 ENDM
 
 MACRO page
-; Start a new Pokedex page.
+; Start a new Tohodex page.
 	_dtxt "@", \#
 ENDM
 

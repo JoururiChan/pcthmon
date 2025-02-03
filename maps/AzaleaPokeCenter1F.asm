@@ -1,4 +1,4 @@
-AzaleaPokeCenter1F_MapScriptHeader:
+AzaleaTohoCenter1F_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -11,16 +11,16 @@ AzaleaPokeCenter1F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 10,  1, BGEVENT_READ, PokemonJournalBugsyScript
+	bg_event 10,  1, BGEVENT_READ, TohomonJournalBugsyScript
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  8,  4, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaPokeCenter1FCooltrainermScript, -1
-	object_event 11,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaPokeCenter1FGentlemanText, -1
-	object_event  8,  1, SPRITE_SIGHTSEER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaPokeCenter1FSightseermText, -1
-	object_event  2,  5, SPRITE_MATRON, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaPokeCenter1FPokefanfText, -1
+	object_event  8,  4, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTohoCenter1FCooltrainermScript, -1
+	object_event 11,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTohoCenter1FGentlemanText, -1
+	object_event  8,  1, SPRITE_SIGHTSEER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTohoCenter1FSightseermText, -1
+	object_event  2,  5, SPRITE_MATRON, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaTohoCenter1FTohofanfText, -1
 
-PokemonJournalBugsyScript:
+TohomonJournalBugsyScript:
 	setflag ENGINE_READ_BUGSY_JOURNAL
 	jumpthistext
 
@@ -39,7 +39,7 @@ PokemonJournalBugsyScript:
 	line "ticipates."
 	done
 
-AzaleaPokeCenter1FCooltrainermScript:
+AzaleaTohoCenter1FCooltrainermScript:
 	checktime (1 << EVE) | (1 << NITE)
 	iftrue_jumptextfaceplayer .NiteText
 	jumpthistextfaceplayer
@@ -68,7 +68,7 @@ AzaleaPokeCenter1FCooltrainermScript:
 	line "the Elite Four."
 	done
 
-AzaleaPokeCenter1FGentlemanText:
+AzaleaTohoCenter1FGentlemanText:
 	text "Do your #mon"
 	line "know HM moves?"
 
@@ -79,7 +79,7 @@ AzaleaPokeCenter1FGentlemanText:
 	line "fainted."
 	done
 
-AzaleaPokeCenter1FSightseermText:
+AzaleaTohoCenter1FSightseermText:
 	text "This Bill guy"
 	line "created the system"
 
@@ -91,7 +91,7 @@ AzaleaPokeCenter1FSightseermText:
 	cont "#mon per Box."
 	done
 
-AzaleaPokeCenter1FPokefanfText:
+AzaleaTohoCenter1FTohofanfText:
 	text "Do you know about"
 	line "Apricorns?"
 

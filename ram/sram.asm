@@ -19,7 +19,7 @@ sCheckValue1:: db ; loaded with 99, used to check save corruption
 sGameData::
 sPlayerData::  ds wPlayerDataEnd - wPlayerData
 sMapData::     ds wCurMapDataEnd - wCurMapData
-sPokemonData:: ds wPokemonDataEnd - wPokemonData
+sTohomonData:: ds wTohomonDataEnd - wTohomonData
 sGameDataEnd::
 
 sOptions3:: db
@@ -45,7 +45,7 @@ sBackupCheckValue1:: db ; loaded with 99, used to check save corruption
 sBackupGameData::
 sBackupPlayerData::  ds wPlayerDataEnd - wPlayerData
 sBackupMapData::     ds wCurMapDataEnd - wCurMapData
-sBackupPokemonData:: ds wPokemonDataEnd - wPokemonData
+sBackupTohomonData:: ds wTohomonDataEnd - wTohomonData
 sBackupGameDataEnd::
 
 sBackupOptions3:: db
@@ -143,31 +143,31 @@ sBackupNewBox{d:n}:: newbox sBackupNewBox{d:n}
 endr
 
 
-SECTION "PokeDB bank 1A",  SRAM
+SECTION "TohoDB bank 1A",  SRAM
 
 sBoxMons1A:: pokedb sBoxMons1A, MONDB_ENTRIES_A
 
 
-SECTION "PokeDB bank 2A", SRAM
+SECTION "TohoDB bank 2A", SRAM
 
 sBoxMons2A:: pokedb sBoxMons2A, MONDB_ENTRIES_A
 
 
-SECTION "PokeDB bank 1B",  SRAM
+SECTION "TohoDB bank 1B",  SRAM
 
 sBoxMons1B:: pokedb sBoxMons1B, MONDB_ENTRIES_B
 
 
-SECTION "PokeDB bank 2B", SRAM
+SECTION "TohoDB bank 2B", SRAM
 
 sBoxMons2B:: pokedb sBoxMons2B, MONDB_ENTRIES_B
 
 
-SECTION "PokeDB bank 1C",  SRAM
+SECTION "TohoDB bank 1C",  SRAM
 
 sBoxMons1C:: pokedb sBoxMons1C, MONDB_ENTRIES_C
 
 
-SECTION "PokeDB bank 2C", SRAM
+SECTION "TohoDB bank 2C", SRAM
 
 sBoxMons2C:: pokedb sBoxMons2C, MONDB_ENTRIES_C

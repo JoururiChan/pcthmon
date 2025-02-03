@@ -19,7 +19,7 @@ DoAnimFrame:
 	dw AnimSeq_SlotsCRemiliaEgg    ; SPRITE_ANIM_SEQ_SLOTS_EGG
 	;dw AnimSeq_MemoryGameCursor   ; SPRITE_ANIM_SEQ_MEMORY_GAME_CURSOR
 	dw AnimSeq_TohogearArrow      ; SPRITE_ANIM_SEQ_TOHOGEAR_MODE_ARROW
-	dw AnimSeq_TradePokeBall      ; SPRITE_ANIM_SEQ_TRADE_POKE_BALL
+	dw AnimSeq_TradeTohoBall      ; SPRITE_ANIM_SEQ_TRADE_POKE_BALL
 	dw AnimSeq_TradeTubeBulge     ; SPRITE_ANIM_SEQ_TRADE_TUBE_BULGE
 	dw AnimSeq_TrademonInTube     ; SPRITE_ANIM_SEQ_TRADEMON_IN_TUBE
 	dw AnimSeq_RevealNewMon       ; SPRITE_ANIM_SEQ_REVEAL_NEW_MON
@@ -179,7 +179,7 @@ AnimSeq_SlotsCRemiliaEgg:
 AnimSeq_TohogearArrow:
 	farjp AnimateTohogearModeIndicatorArrow
 
-AnimSeq_TradePokeBall:
+AnimSeq_TradeTohoBall:
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc
 	ld a, [hl]
@@ -288,7 +288,7 @@ AnimSeq_TradePokeBall:
 	ld a, [hl]
 	sub $c
 	ld [hl], a
-	ld de, SFX_SWITCH_POKEMON
+	ld de, SFX_SWITCH_TOHOMON
 	jmp PlaySFX
 
 .done2

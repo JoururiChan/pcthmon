@@ -57,7 +57,7 @@ DEF STRING_BUFFER_LENGTH EQU 19
 	const VAR_WEEKDAY          ; 09
 	const VAR_MAPGROUP         ; 0a
 	const VAR_MAPNUMBER        ; 0b
-	const VAR_UNOWNCOUNT       ; 0c
+	const VAR_HINACOUNT       ; 0c
 	const VAR_ENVIRONMENT      ; 0d
 	const VAR_BOXSPACE         ; 0e
 	const VAR_CONTESTMINUTES   ; 0f
@@ -140,7 +140,7 @@ DEF BGEVENT_ITEM EQU NUM_BGEVENTS
 	const OBJECTTYPE_ITEMBALL
 	const OBJECTTYPE_TRAINER
 	const OBJECTTYPE_GENERICTRAINER
-	const OBJECTTYPE_POKEMON
+	const OBJECTTYPE_TOHOMON
 	const OBJECTTYPE_COMMAND
 DEF NUM_OBJECT_TYPES EQU const_value
 
@@ -272,8 +272,8 @@ DEF NUM_DECODESCS EQU const_value
 ; swarm arguments
 ; StoreSwarmMapIndices arguments
 	const_def
-	const SWARM_DUNSPARCE ; 0
-	const SWARM_YANMA     ; 1
+	const SWARM_CMOMIJI ; 0
+	const SWARM_AEIKI     ; 1
 
 ; ActivateFishingSwarm setval arguments
 	const_def
@@ -281,12 +281,12 @@ DEF NUM_DECODESCS EQU const_value
 	const FISHSWARM_QWILFISH ; 1
 	const FISHSWARM_REMORAID ; 2
 
-; CheckMagikarpLength return values
+; CheckLilyBlackLength return values
 	const_def
-	const MAGIKARPLENGTH_NOT_MAGIKARP ; 0
-	const MAGIKARPLENGTH_REFUSED      ; 1
-	const MAGIKARPLENGTH_TOO_SHORT    ; 2
-	const MAGIKARPLENGTH_BEAT_RECORD  ; 3
+	const LILYBLACKLENGTH_NOT_LILYBLACK ; 0
+	const LILYBLACKLENGTH_REFUSED      ; 1
+	const LILYBLACKLENGTH_TOO_SHORT    ; 2
+	const LILYBLACKLENGTH_BEAT_RECORD  ; 3
 
 ; ReturnShuckie return values
 	const_def
@@ -317,22 +317,22 @@ DEF BUG_CONTESTANT_SIZE EQU 4
 	const HEALMACHINE_ELMS_LAB     ; 1
 	const HEALMACHINE_HALL_OF_FAME ; 2
 
-; UnownPuzzle setval arguments
-; LoadUnownPuzzlePiecesGFX.LZPointers indexes (see engine/games/unown_puzzle.asm)
+; HinaPuzzle setval arguments
+; LoadHinaPuzzlePiecesGFX.LZPointers indexes (see engine/games/hina_puzzle.asm)
 	const_def
-	const UNOWNPUZZLE_KABUTO     ; 0
-	const UNOWNPUZZLE_OMANYTE    ; 1
-	const UNOWNPUZZLE_AERODACTYL ; 2
-	const UNOWNPUZZLE_HO_OH      ; 3
-DEF NUM_UNOWN_PUZZLES EQU const_value
+	const HINAPUZZLE_LUNASA     ; 0
+	const HINAPUZZLE_CYUYUKO    ; 1
+	const HINAPUZZLE_AYUYUKO ; 2
+	const HINAPUZZLE_HO_OH      ; 3
+DEF NUM_HINA_PUZZLES EQU const_value
 
-; DisplayUnownWords setval arguments
-; UnownWalls and MenuHeaders_UnownWalls indexes (see data/events/unown_walls.asm)
+; DisplayHinaWords setval arguments
+; HinaWalls and MenuHeaders_HinaWalls indexes (see data/events/hina_walls.asm)
 	const_def
-	const UNOWNWORDS_ESCAPE ; 0
-	const UNOWNWORDS_LIGHT  ; 1
-	const UNOWNWORDS_WATER  ; 2
-	const UNOWNWORDS_HO_OH  ; 3
+	const HINAWORDS_ESCAPE ; 0
+	const HINAWORDS_LIGHT  ; 1
+	const HINAWORDS_WATER  ; 2
+	const HINAWORDS_HO_OH  ; 3
 
 ; paintingpic arguments
 ; PaintingPicPointers indexes (see data/events/paintings/pic_pointers.asm)
@@ -341,9 +341,9 @@ DEF NUM_UNOWN_PUZZLES EQU const_value
 	const HO_OH_PAINTING
 	const LUGIA_PAINTING
 	const BELL_TOWER_PAINTING
-	const KABUTO_PUZZLE
-	const OMANYTE_PUZZLE
-	const AERODACTYL_PUZZLE
+	const LUNASA_PUZZLE
+	const CYUYUKO_PUZZLE
+	const AYUYUKO_PUZZLE
 	const HO_OH_PUZZLE
 DEF NUM_PAINTINGS EQU const_value
 
