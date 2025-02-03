@@ -527,8 +527,8 @@ WakasagitailSpriteGFX:: INCBIN "gfx/sprites/wakasagitail.2bpp.lz"
 SECTION "CMimaSideSpriteGFX", ROMX
 CMimaSideSpriteGFX:: INCBIN "gfx/sprites/cmima_side.2bpp.lz"
 
-SECTION "RattataBackSpriteGFX", ROMX
-RattataBackSpriteGFX:: INCBIN "gfx/sprites/rattata_back.2bpp.lz"
+SECTION "EMimaBackSpriteGFX", ROMX
+EMimaBackSpriteGFX:: INCBIN "gfx/sprites/emima_back.2bpp.lz"
 
 SECTION "WeirdTreeSpriteGFX", ROMX
 WeirdTreeSpriteGFX:: INCBIN "gfx/sprites/weird_tree.2bpp.lz"
