@@ -1526,7 +1526,7 @@ wDecompressedMetatiles:: ds 256 tiles
 SECTION UNION "Metatiles", WRAMX
 
 UNION
-wDex2bpp:: ds $61 tiles
+wDex2bpp:: ds $60 tiles
 
 NEXTU
 ; copied using hdma transfers (which is orders of magnitudes faster), so it uses
@@ -1611,7 +1611,7 @@ ALIGN 8
 wDexAreaMons::
 ; Array size needs to be a multiple of 10 covering all landmarks for a region.
 ; Upper cap is 120.
-for n, 1, 100
+for n, 1, 80
 wDexAreaMon{d:n}::
 wDexAreaMon{d:n}YCoord:: db
 wDexAreaMon{d:n}XCoord:: db
