@@ -1627,18 +1627,10 @@ wDexAreaMonOffset:: db ; current area mon index to process in h-blank
 wDexAreaSpriteSlot:: db ; LOW(address) to oamSprite to use.
 wDexAreaModeCopy:: db ; written to from hTohodexAreaMode on screen reload
 
-	; Used to align wDexAreaMons2. Feel free to add more data here, just don't
-	; let wDexAreaMons2 be misaligned (an assert will tell you if you do).
-	ds 41
-
-ALIGN 8
+realign 8
 wDexAreaMons2:: ds (wDexAreaMonsEnd - wDexAreaMons)
 
-	; Used to align wDexAreaShadowOAM. Feel free to add more data here, just
-	; don't let it be misaligned.
-	ds 55
-
-ALIGN 8
+realign 8
 wDexAreaShadowOAM:: ds (wShadowOAMEnd - wShadowOAM)
 
 ENDU
