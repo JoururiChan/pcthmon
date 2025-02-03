@@ -49,8 +49,8 @@ RandomWildSpeciesForms:
 	random_wild_form LILYBLACK,    .LilyBlack
 	random_wild_form CKIKURI,       .CKikuriKikuri
 	random_wild_form KIKURI,       .CKikuriKikuri
-	random_wild_form CMOMIJI,   .Ducmomiji
-	random_wild_form PLACETHM, .Ducmomiji
+	random_wild_form CMOMIJI,   .Placethm
+	random_wild_form PLACETHM, .Placethm
 	dbw 0,        .Default
 
 .Hina:
@@ -77,8 +77,8 @@ RandomWildSpeciesForms:
 	inc a
 	ret
 
-.Ducmomiji:
-	; Random Ducmomiji form (if not already specified)
+.Placethm:
+	; Random Placethm form (if not already specified)
 	ld a, 25
 	call BattleRandomRange
 	and a

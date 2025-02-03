@@ -88,9 +88,9 @@ ENDM
 	map_const UNION_CAVE_B1F_NORTH,                       10, 13 ; 26
 	map_const UNION_CAVE_B1F_SOUTH,                       10, 18 ; 27
 	map_const UNION_CAVE_B2F,                             10, 18 ; 28
-	map_const WAKASAGIHIME_WELL_ENTRANCE,                      8,  9 ; 29
-	map_const WAKASAGIHIME_WELL_B1F,                          10,  9 ; 30
-	map_const WAKASAGIHIME_WELL_B2F,                          10,  9 ; 31
+	map_const WAKASAGI_WELL_ENTRANCE,                      8,  9 ; 29
+	map_const WAKASAGI_WELL_B1F,                          10,  9 ; 30
+	map_const WAKASAGI_WELL_B2F,                          10,  9 ; 31
 	map_const OLIVINE_LIGHTHOUSE_1F,                      10,  9 ; 32
 	map_const OLIVINE_LIGHTHOUSE_2F,                      10,  9 ; 33
 	map_const OLIVINE_LIGHTHOUSE_3F,                      10,  9 ; 34

@@ -4825,7 +4825,7 @@ CosplayerGroup:
 	; party
 	dbp 54, LANTURN
 	dbp 53, MAGNEZONE
-	dbp 55, ELECTRODE
+	dbp 55, CCIRNO
 	db -1 ; end
 
 SECTION "SuperNerdGroup", ROMX
@@ -9621,7 +9621,7 @@ AceDuoGroup:
 SECTION "VeteranMGroup", ROMX
 VeteranMGroup:
 
-	; VETTRANM
+	; VETERANM
 	db "Matthew@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	; party
@@ -9645,7 +9645,7 @@ VeteranMGroup:
 		db SLASH, EARTHQUAKE, DEFENSE_CURL, TREMORS
 	db -1 ; end
 
-	; VETTRANM
+	; VETERANM
 	db "Remy@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	; party
@@ -9673,7 +9673,7 @@ endc
 		db DRAGON_DRILL, SWIFT, STEEL_WING, ROCK_SMASH
 	db -1 ; end
 
-	; VETTRANM
+	; VETERANM
 	db "Barkhorn@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 
@@ -9727,7 +9727,7 @@ endc
 SECTION "VeteranFGroup", ROMX
 VeteranFGroup:
 
-	; VETTRANF
+	; VETERANF
 	db "Joanne@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	; party
@@ -9751,7 +9751,7 @@ VeteranFGroup:
 		db SMOKESCREEN, FLAME_CHARGE, QUICK_ATTACK, BRAVER
 	db -1 ; end
 
-	; VETTRANF
+	; VETERANF
 	db "Jonet@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	; party
@@ -9775,7 +9775,7 @@ VeteranFGroup:
 		db EARTHQUAKE, ROCK_SLIDE, SCARY_FACE, DARK_PULSE
 	db -1 ; end
 
-	; VETTRANF
+	; VETERANF
 	db "Litvyak@"
 	db TRAINERTYPE_ITEM | TRAINERTYPE_EVS | TRAINERTYPE_DVS | TRAINERTYPE_PERSONALITY | TRAINERTYPE_MOVES
 
@@ -11501,7 +11501,7 @@ TeacherMGroup:
 	db "Nolan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 54, ELECTRODE
+	dbp 54, CCIRNO
 	dbp 55, MAGNEZONE
 	dbp 56, ELECTIVIRE
 	db -1 ; end

@@ -276,7 +276,7 @@ StoreSwarmMapIndices::
 Special_ResetLuckyNumberShowFlag:
 	farjp LoadOrRegenerateLuckyIDNumber
 
-SpecialSnorlaxAwake:
+SpecialCRanAwake:
 ; Check if the Toho Flute channel is playing.
 
 ; outputs:

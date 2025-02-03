@@ -165,7 +165,7 @@ LadyAfterText:
 JugglerSeenText:
 	text "Hup! Hup!"
 
-	para "Electrode are pre-"
+	para "CCirno are pre-"
 	line "tty heavy!"
 	done
 

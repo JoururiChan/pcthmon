@@ -37,7 +37,7 @@ VermilionCity_MapScriptHeader:
 	bg_event 12, 23, BGEVENT_ITEM + FULL_HEAL, EVENT_VERMILION_CITY_HIDDEN_FULL_HEAL
 
 	def_object_events
-	object_event 35, 18, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_SNORLAX, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionSnorlax, EVENT_VERMILION_CITY_SNORLAX
+	object_event 35, 18, SPRITE_BIG_CRAN, SPRITEMOVEDATA_CRAN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionCRan, EVENT_VERMILION_CITY_CRAN
 	object_event 18, 31, SPRITE_LAWRENCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LAWRENCE_VERMILION_CITY
 	object_event 18, 13, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCityTeacherText, -1
 	object_event 27, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionMachokeOwnerScript, -1
@@ -51,7 +51,7 @@ VermilionCity_MapScriptHeader:
 	cuttree_event 13, 23, EVENT_VERMILION_CITY_CUT_TREE
 
 	object_const_def
-	const VERMILIONCITY_BIG_SNORLAX
+	const VERMILIONCITY_BIG_CRAN
 	const VERMILIONCITY_LAWRENCE
 
 VermilionCitySetupLawrenceCallback:
@@ -135,22 +135,22 @@ LawrenceWalkAroundRightMovementData:
 	turn_head_right
 	step_end
 
-VermilionSnorlax:
+VermilionCRan:
 	opentext
-	special SpecialSnorlaxAwake
+	special SpecialCRanAwake
 	iftruefwd .Awake
-	jumpopenedtext VermilionCitySnorlaxSleepingText
+	jumpopenedtext VermilionCityCRanSleepingText
 
 .Awake:
-	writetext VermilionCityRadioNearSnorlaxText
+	writetext VermilionCityRadioNearCRanText
 	pause 15
-	cry SNORLAX
+	cry CRAN
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon SNORLAX, 60
+	loadwildmon CRAN, 60
 	startbattle
-	disappear VERMILIONCITY_BIG_SNORLAX
-	setevent EVENT_FOUGHT_SNORLAX
+	disappear VERMILIONCITY_BIG_CRAN
+	setevent EVENT_FOUGHT_CRAN
 	reloadmapafterbattle
 	end
 
@@ -349,19 +349,19 @@ VermilionCitySailorText:
 	line "good sea air!"
 	done
 
-VermilionCitySnorlaxSleepingText:
-	text "Snorlax is snoring"
+VermilionCityCRanSleepingText:
+	text "CRan is snoring"
 	line "peacefully…"
 	done
 
-VermilionCityRadioNearSnorlaxText:
+VermilionCityRadioNearCRanText:
 	text "The #gear was"
 	line "placed near the"
-	cont "sleeping Snorlax…"
+	cont "sleeping CRan…"
 
 	para "…"
 
-	para "Snorlax woke up!"
+	para "CRan woke up!"
 	done
 
 VermilionCityBadgeGuyTrainerText:

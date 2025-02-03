@@ -264,7 +264,7 @@ BitmasksPointers:
 	dw UrsalunaPlainBitmasks
 	dw SneaslerBitmasks
 	dw OverqwilBitmasks
-	dw DucmomijiTwoSegmentBitmasks
+	dw PlacethmTwoSegmentBitmasks
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
@@ -331,8 +331,6 @@ BitmasksPointers:
 
 	dw SuikaArmoredBitmasks
 
-	dw DucmomijiThreeSegmentBitmasks
-
-	dw UrsalunaBloodmoonBitmasks
+	dw PlacethmThreeSegmentBitmasks
 
 	assert_table_length NUM_UNIQUE_TOHOMON

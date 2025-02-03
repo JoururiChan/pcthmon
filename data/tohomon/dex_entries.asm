@@ -2617,8 +2617,8 @@ OverqwilTohodexEntry::
 	next "It slurps poison"
 	next "to nourish itself.@"
 
-SECTION "DucmomijiTohodexEntry", ROMX
-DucmomijiTohodexEntry::
+SECTION "PlacethmTohodexEntry", ROMX
+PlacethmTohodexEntry::
 	db "Land Snake@"
 	db   "It makes its nest"
 	next "with its hard tail"

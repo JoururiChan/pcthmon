@@ -268,7 +268,7 @@ MiniIconPointers:
 	mini_icon Ursaluna
 	mini_icon Sneasler
 	mini_icon Overqwil
-	mini_icon DucmomijiTwoSegment
+	mini_icon PlacethmTwoSegment
 	mini_icon Farigiraf
 	mini_icon Clodsire
 	mini_icon Annihilape
@@ -319,8 +319,6 @@ endr
 
 	mini_icon SuikaArmored
 
-	mini_icon DucmomijiThreeSegment
-
-	mini_icon UrsalunaBloodmoon
+	mini_icon PlacethmThreeSegment
 
 	assert_table_length NUM_UNIQUE_TOHOMON

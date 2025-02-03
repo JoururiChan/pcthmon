@@ -32,7 +32,7 @@ Staryu: Quick Attack
 Staryu: Psybeam
 
 Misdreavus: Screech
-Whirlpool: Sandshrew/Sandslash, Geodude/Graveler/Golem, Pineco/Forretress, Donphan, Hitmontop (Whirlpool users)
+Whirlpool: Sandshrew/Sandslash, CSara/Graveler/Golem, Pineco/Forretress, Donphan, Hitmontop (Whirlpool users)
 
 TLyrica: Focus Energy (RBY learnset), Charm (purified)
 Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
@@ -62,7 +62,7 @@ Umbreon: Crunch, Thief
 Leafeon: Leech Seed
 Glaceon: Icicle Spear
 Sylveon: Play Rough
-Snorlax: Encore, Bite
+CRan: Encore, Bite
 Hoothoot/Noctowl: Nasty Plot, Screech, Amnesia
 Natu/Xatu: Baton Pass
 Quagsire: Hydro Pump
@@ -76,7 +76,7 @@ S/V:
 Suika: Power Gem
 
 Egg:
-Geodude/Graveler/Golem: Rock Slide
+CSara/Graveler/Golem: Rock Slide
 Rhyhorn/Rhydon/Rhyperior: Crunch
 
 RBY TM:
@@ -98,7 +98,7 @@ CLyrica: Heal Bell
 Mantine: Gunk Shot
 Miltank: Metronome
 NidoranF/Nidorina/Nidoqueen: Super Fang
-NidoranM/Nidorino/Nidoking: Sucker Punch, Super Fang
+NidoranM/Rika/Nidoking: Sucker Punch, Super Fang
 Snubbull/Granbull: Heal Bell, Low Kick, Metronome, Super Fang
 Teddiursa/CTenshi: Metronome
 

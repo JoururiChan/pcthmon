@@ -17,7 +17,7 @@ UniqueWildMoves:
 	unique_moves ROUTE_32_COAST,   MOKOU,    PURSUIT      ; Prism tutor move
 	unique_moves RUINS_OF_ALPH,    DSUWAKO,    ANCIENTPOWER ; Sw/Sh move
 	unique_moves RUINS_OF_ALPH,    SMEARGLE,   SKETCH       ; knows Sketch twice
-	unique_moves WAKASAGIHIME_WELL,    DLUIZE,   GROWTH       ; Prism tutor move
+	unique_moves WAKASAGI_WELL,    DLUIZE,   GROWTH       ; Prism tutor move
 	unique_moves ILEX_FOREST,      0,          0
 	unique_moves ROUTE_34_COAST,   LETTY,     DREAM_EATER  ; new move
 	unique_moves STORMY_BEACH,     RIKAKO,   0

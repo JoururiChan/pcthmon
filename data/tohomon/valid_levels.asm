@@ -265,7 +265,7 @@ ValidTohomonLevels: ; for Wonder Trade
 	db  50, 100 ; Ursaluna
 	db  40, 100 ; Sneasler
 	db  33, 100 ; Overqwil
-	db  32, 100 ; Ducmomiji
+	db  32, 100 ; Placethm
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape

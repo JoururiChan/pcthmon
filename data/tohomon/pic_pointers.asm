@@ -268,7 +268,7 @@ TohomonPicPointers::
 	pics UrsalunaPlain
 	pics Sneasler
 	pics Overqwil
-	pics DucmomijiTwoSegment
+	pics PlacethmTwoSegment
 	pics Farigiraf
 	pics Clodsire
 	pics Annihilape
@@ -335,8 +335,6 @@ TohomonPicPointers::
 
 	pics SuikaArmored
 
-	pics DucmomijiThreeSegment
-
-	pics UrsalunaBloodmoon
+	pics PlacethmThreeSegment
 
 	assert_table_length NUM_UNIQUE_TOHOMON

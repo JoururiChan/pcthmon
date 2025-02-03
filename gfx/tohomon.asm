@@ -880,10 +880,6 @@ SECTION "UrsalunaPlain Pics", ROMX
 UrsalunaPlainFrontpic: INCBIN "gfx/tohomon/ursaluna_plain/front.animated.2bpp.lz"
 UrsalunaPlainBackpic:  INCBIN "gfx/tohomon/ursaluna_plain/back.2bpp.lz"
 
-SECTION "UrsalunaBloodmoon Pics", ROMX
-UrsalunaBloodmoonFrontpic: INCBIN "gfx/tohomon/ursaluna_bloodmoon/front.animated.2bpp.lz"
-UrsalunaBloodmoonBackpic:  INCBIN "gfx/tohomon/ursaluna_bloodmoon/back.2bpp.lz"
-
 SECTION "EggPic", ROMX
 EggPic: INCBIN "gfx/tohomon/egg/front.animated.2bpp.lz"
 
@@ -1249,11 +1245,11 @@ SECTION "Overqwil Pics", ROMX
 OverqwilFrontpic: INCBIN "gfx/tohomon/overqwil/front.animated.2bpp.lz"
 OverqwilBackpic:  INCBIN "gfx/tohomon/overqwil/back.2bpp.lz"
 
-SECTION "Ducmomiji Pics", ROMX
-DucmomijiTwoSegmentFrontpic:   INCBIN "gfx/tohomon/placethm_two_segment/front.animated.2bpp.lz"
-DucmomijiThreeSegmentFrontpic: INCBIN "gfx/tohomon/placethm_three_segment/front.animated.2bpp.lz"
-DucmomijiTwoSegmentBackpic:
-DucmomijiThreeSegmentBackpic: INCBIN "gfx/tohomon/placethm/back.2bpp.lz"
+SECTION "Placethm Pics", ROMX
+PlacethmTwoSegmentFrontpic:   INCBIN "gfx/tohomon/placethm_two_segment/front.animated.2bpp.lz"
+PlacethmThreeSegmentFrontpic: INCBIN "gfx/tohomon/placethm_three_segment/front.animated.2bpp.lz"
+PlacethmTwoSegmentBackpic:
+PlacethmThreeSegmentBackpic: INCBIN "gfx/tohomon/placethm/back.2bpp.lz"
 
 SECTION "Farigiraf Pics", ROMX
 FarigirafFrontpic: INCBIN "gfx/tohomon/farigiraf/front.animated.2bpp.lz"

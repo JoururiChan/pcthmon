@@ -265,7 +265,7 @@ TohodexDataPointerTable:
 	dba UrsalunaTohodexEntry
 	dba SneaslerTohodexEntry
 	dba OverqwilTohodexEntry
-	dba DucmomijiTohodexEntry
+	dba PlacethmTohodexEntry
 	dba FarigirafTohodexEntry
 	dba ClodsireTohodexEntry
 	dba AnnihilapeTohodexEntry
@@ -275,8 +275,6 @@ TohodexDataPointerTable:
 
 	dba SuikaArmoredTohodexEntry
 
-	dba DucmomijiTohodexEntry
-
-	dba UrsalunaBloodmoonTohodexEntry
+	dba PlacethmTohodexEntry
 
 	assert_table_length NUM_EXT_TOHOMON

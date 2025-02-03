@@ -264,7 +264,7 @@ AnimationPointers:
 	dw UrsalunaPlainAnimation
 	dw SneaslerAnimation
 	dw OverqwilAnimation
-	dw DucmomijiTwoSegmentAnimation
+	dw PlacethmTwoSegmentAnimation
 	dw FarigirafAnimation
 	dw ClodsireAnimation
 	dw AnnihilapeAnimation
@@ -331,8 +331,6 @@ AnimationPointers:
 
 	dw SuikaArmoredAnimation
 
-	dw DucmomijiThreeSegmentAnimation
-
-	dw UrsalunaBloodmoonAnimation
+	dw PlacethmThreeSegmentAnimation
 
 	assert_table_length NUM_UNIQUE_TOHOMON

@@ -4832,29 +4832,6 @@ UrsalunaPlainEvosAttacks:
 	db 85, GUNK_SHOT ; SV TM move
 	db -1 ; no more level-up moves
 
-UrsalunaBloodmoonEvoAttacks:
-	db -1 ; no more evolutions
-	db 1, BULLDOZE ; evolution move
-	db 1, GUNK_SHOT ; HGSS tutor move
-	db 1, THIEF ; Covet → TM move
-	db 1, SCRATCH
-	db 1, LEER
-	db 1, LICK
-	db 1, HEALINGLIGHT ; Moonlight → similar move
-	db 8, FURY_STRIKES ; Fury Swipes → similar move
-	db 15, FEINT_ATTACK
-	db 22, DEFENSE_CURL ; Harden → similar move
-	db 25, SHADOW_BALL ; new move
-	db 29, SLASH
-	db 38, SCARY_FACE
-	db 47, REST
-	db 49, NIGHT_SLASH ; Snore → egg move
-	db 58, MOONBLAST
-	db 67, FOCUS_BLAST ; Hammer Arm → SV TM move
-	db 76, HYPER_BEAM ; Blood Moon → SV TM move
-	db 85, GUNK_SHOT ; SV TM move
-	db -1 ; no more level-up moves
-
 SneaslerEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, SCRATCH
@@ -4899,7 +4876,7 @@ OverqwilEvosAttacks:
 	db 60, DOUBLE_EDGE ; Fell Stinger → event move
 	db -1 ; no more level-up moves
 
-DucmomijiEvosAttacks:
+PlacethmEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, RAGE
 	db 1, DEFENSE_CURL

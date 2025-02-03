@@ -286,8 +286,8 @@ LilyBlackMask2AnimationExtra:
 LilyBlackSaucyAnimationExtra:
 LilyBlackRaindropAnimationExtra: INCLUDE "gfx/tohomon/lilyblack/anim_idle.asm"
 
-DucmomijiTwoSegmentAnimationExtra:   INCLUDE "gfx/tohomon/placethm_two_segment/anim_idle.asm"
-DucmomijiThreeSegmentAnimationExtra: INCLUDE "gfx/tohomon/placethm_three_segment/anim_idle.asm"
+PlacethmTwoSegmentAnimationExtra:   INCLUDE "gfx/tohomon/placethm_two_segment/anim_idle.asm"
+PlacethmThreeSegmentAnimationExtra: INCLUDE "gfx/tohomon/placethm_three_segment/anim_idle.asm"
 
 SLilyBlackAnimationExtra: INCLUDE "gfx/tohomon/slilyblack/anim_idle.asm"
 SLilyBlackRedAnimationExtra:   INCLUDE "gfx/tohomon/slilyblack_red/anim_idle.asm"

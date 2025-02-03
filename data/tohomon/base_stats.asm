@@ -311,6 +311,4 @@ INCLUDE "data/tohomon/base_stats/suika_armored.asm"
 
 INCLUDE "data/tohomon/base_stats/placethm.asm" ; three segment
 
-INCLUDE "data/tohomon/base_stats/ursaluna_bloodmoon.asm"
-
 	assert_table_length NUM_EXT_TOHOMON

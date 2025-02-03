@@ -18,8 +18,8 @@ VictoryRoad2F_MapScriptHeader:
 
 	def_object_events
 	object_event 20,  9, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_VICTORY_ROAD
-	object_event 11, 11, SPRITE_VETTRAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerVeteranfJoanne, -1
-	object_event  5,  3, SPRITE_VETTRAN_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerVeteranfJonet, -1
+	object_event 11, 11, SPRITE_VETERAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerVeteranfJoanne, -1
+	object_event  5,  3, SPRITE_VETERAN_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerVeteranfJonet, -1
 	tmhmball_event  8,  4, TM_EARTHQUAKE, EVENT_VICTORY_ROAD_2F_TM_EARTHQUAKE
 	itemball_event 20,  5, FULL_RESTORE, 1, EVENT_VICTORY_ROAD_2F_FULL_RESTORE
 	itemball_event  9, 14, HP_UP, 1, EVENT_VICTORY_ROAD_2F_HP_UP
@@ -78,7 +78,7 @@ VictoryRoadRivalLeft:
 	end
 
 GenericTrainerVeteranfJoanne:
-	generictrainer VETTRANF, JOANNE, EVENT_BEAT_VETTRANF_JOANNE, VeteranfJoanneSeenText, VeteranfJoanneBeatenText
+	generictrainer VETERANF, JOANNE, EVENT_BEAT_VETERANF_JOANNE, VeteranfJoanneSeenText, VeteranfJoanneBeatenText
 
 	text "You earned the"
 	line "right to be on"
@@ -86,7 +86,7 @@ GenericTrainerVeteranfJoanne:
 	done
 
 GenericTrainerVeteranfJonet:
-	generictrainer VETTRANF, JONET, EVENT_BEAT_VETTRANF_JONET, VeteranfJonetSeenText, VeteranfJonetBeatenText
+	generictrainer VETERANF, JONET, EVENT_BEAT_VETERANF_JONET, VeteranfJonetSeenText, VeteranfJonetBeatenText
 
 	text "Did somebody"
 	line "capture CYukari"

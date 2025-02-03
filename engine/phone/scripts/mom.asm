@@ -50,7 +50,7 @@ MomPhoneInTown:
 	getlandmarkname AUTUMN_TOWER, 1
 	sjump MomPhoneLandmark
 .azalea
-	getlandmarkname WAKASAGIHIME_WELL, 1
+	getlandmarkname WAKASAGI_WELL, 1
 	sjump MomPhoneLandmark
 .goldenrod
 	getlandmarkname RADIO_TOWER, 1

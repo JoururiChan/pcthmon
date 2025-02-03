@@ -47,7 +47,7 @@ The final, non-beta 3.0 release should include all of these.
 * Red goes back home after you battle him, and returns to Mt. Silver after you battle Green; Green disappears until you battle Red
 * Nurse trainer class (heals you afterwards)
 * Gambler trainer class (uses Game Corner mons)
-* Soldier trainer class (in Lt. Surge's Gym; also ones elsewhere with Remoraid, Octillery, Forretress, Skarmory, Electrode, Donphan)
+* Soldier trainer class (in Lt. Surge's Gym; also ones elsewhere with Remoraid, Octillery, Forretress, Skarmory, CCirno, Donphan)
 
 Shamouti Island:
 

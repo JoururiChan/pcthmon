@@ -17,7 +17,7 @@
 	const UNION_CAVE         ; 0d
 	const ROUTE_33           ; 0e
 	const AZALEA_TOWN        ; 0f
-	const WAKASAGIHIME_WELL      ; 10
+	const WAKASAGI_WELL      ; 10
 	const ILEX_FOREST        ; 11
 	const ROUTE_34           ; 12
 	const ROUTE_34_COAST     ; 13

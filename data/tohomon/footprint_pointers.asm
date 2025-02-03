@@ -264,7 +264,7 @@ FootprintPointers::
 	dw UrsalunaFootprint
 	dw SneaslerFootprint
 	dw OverqwilFootprint
-	dw DucmomijiFootprint
+	dw PlacethmFootprint
 	dw FarigirafFootprint
 	dw ClodsireFootprint
 	dw AnnihilapeFootprint
@@ -274,7 +274,7 @@ FootprintPointers::
 
 	dw SuikaFootprint
 
-	dw DucmomijiFootprint
+	dw PlacethmFootprint
 
 	dw UrsalunaFootprint
 

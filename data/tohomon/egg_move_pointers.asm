@@ -264,7 +264,7 @@ EggMovePointers::
 	dw NoEggMoves             ; Ursaluna
 	dw NoEggMoves             ; Sneasler
 	dw NoEggMoves             ; Overqwil
-	dw NoEggMoves             ; Ducmomiji
+	dw NoEggMoves             ; Placethm
 	dw NoEggMoves             ; Farigiraf
 	dw NoEggMoves             ; Clodsire
 	dw NoEggMoves             ; Annihilape
@@ -275,7 +275,5 @@ EggMovePointers::
 	dw NoEggMoves                ; Suika (Armored Form)
 
 	dw CMomijiEggMoves         ; Dundunsparse (Three Segment Form)
-
-	dw NoEggMoves                ; Ursaluna (Bloodmoon Form)
 
 	assert_table_length NUM_EXT_TOHOMON

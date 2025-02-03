@@ -23,7 +23,7 @@ CChiyuriFootprint::
 LyricaFootprint::
 TYukariFootprint::
 YukariFootprint::
-DucmomijiFootprint::
+PlacethmFootprint::
 ChiyuriFootprint::
 CMomijiFootprint::
 CKikuriFootprint::

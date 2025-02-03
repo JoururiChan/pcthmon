@@ -264,7 +264,7 @@ FramesPointers:
 	dw UrsalunaPlainFrames
 	dw SneaslerFrames
 	dw OverqwilFrames
-	dw DucmomijiTwoSegmentFrames
+	dw PlacethmTwoSegmentFrames
 	dw FarigirafFrames
 	dw ClodsireFrames
 	dw AnnihilapeFrames
@@ -333,8 +333,6 @@ FramesPointers:
 
 	dw SuikaArmoredFrames
 
-	dw DucmomijiThreeSegmentFrames
-
-	dw UrsalunaBloodmoonFrames
+	dw PlacethmThreeSegmentFrames
 
 	assert_table_length NUM_UNIQUE_TOHOMON

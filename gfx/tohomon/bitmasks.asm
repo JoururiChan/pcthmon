@@ -287,8 +287,8 @@ LilyBlackMask2Bitmasks:     INCLUDE "gfx/tohomon/lilyblack_mask2/bitmask.asm"
 LilyBlackSaucyBitmasks:     INCLUDE "gfx/tohomon/lilyblack_saucy/bitmask.asm"
 LilyBlackRaindropBitmasks:  INCLUDE "gfx/tohomon/lilyblack_raindrop/bitmask.asm"
 
-DucmomijiTwoSegmentBitmasks:   INCLUDE "gfx/tohomon/placethm_two_segment/bitmask.asm"
-DucmomijiThreeSegmentBitmasks: INCLUDE "gfx/tohomon/placethm_three_segment/bitmask.asm"
+PlacethmTwoSegmentBitmasks:   INCLUDE "gfx/tohomon/placethm_two_segment/bitmask.asm"
+PlacethmThreeSegmentBitmasks: INCLUDE "gfx/tohomon/placethm_three_segment/bitmask.asm"
 
 SLilyBlackBitmasks: INCLUDE "gfx/tohomon/slilyblack/bitmask.asm"
 SLilyBlackRedBitmasks:   INCLUDE "gfx/tohomon/slilyblack_red/bitmask.asm"

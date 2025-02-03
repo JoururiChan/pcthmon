@@ -22,7 +22,7 @@ Route25_MapScriptHeader:
 	itemball_event 25,  4, PROTEIN, 1, EVENT_ROUTE_25_PROTEIN
 	cuttree_event 28,  6, EVENT_ROUTE_25_CUT_TREE
 	object_event 20,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route25TSuikaYoungsterText, -1
-	object_event 21,  4, SPRITE_MON_ICON, SPRITEMOVEDATA_TOHOMON, 0, WAKASAGI, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, Route25WakasagiScript, -1
+	object_event 21,  4, SPRITE_MON_ICON, SPRITEMOVEDATA_TOHOMON, 0, CKOMACHI, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, PLAIN_FORM, Route25WakasagiScript, -1
 
 	object_const_def
 	const ROUTE25_COOLTRAINERM_BEFORE
@@ -82,7 +82,7 @@ Route25WakasagiScript:
 	writetext Route25WakasagiText1
 	pause 60
 	writetext Route25WakasagiText2
-	cry WAKASAGI
+	cry CKOMACHI
 	waitendtext
 
 TrainerCooltrainermKevin:

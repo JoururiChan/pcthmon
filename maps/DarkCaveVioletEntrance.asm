@@ -15,8 +15,8 @@ DarkCaveVioletEntrance_MapScriptHeader:
 	bg_event 26,  3, BGEVENT_ITEM + ELIXIR, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HIDDEN_ELIXIR
 
 	def_object_events
-	tohomon_event 10, 2, URSARING, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_DARK_CAVE_URSARING
-	object_event  9,  2, SPRITE_PIDGEOTTO_SIDE, SPRITEMOVEDATA_TOHOMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_PIDGEOTTO
+	tohomon_event 10, 2, CTENSHI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_DARK_CAVE_CTENSHI
+	object_event  9,  2, SPRITE_CMIMA_SIDE, SPRITEMOVEDATA_TOHOMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_CMIMA
 	object_event  8,  2, SPRITE_FALKNER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_FALKNER
 	itemball_event  6,  8, POTION, 1, EVENT_DARK_CAVE_VIOLET_ENTRANCE_POTION
 	smashrock_event 16, 14
@@ -28,8 +28,8 @@ DarkCaveVioletEntrance_MapScriptHeader:
 	itemball_event 30, 28, DIRE_HIT, 1, EVENT_DARK_CAVE_VIOLET_ENTRANCE_DIRE_HIT
 
 	object_const_def
-	const DARKCAVEVIOLETENTRANCE_URSARING
-	const DARKCAVEVIOLETENTRANCE_PIDGEOTTO
+	const DARKCAVEVIOLETENTRANCE_CTENSHI
+	const DARKCAVEVIOLETENTRANCE_CMIMA
 	const DARKCAVEVIOLETENTRANCE_FALKNER
 
 DarkCaveVioletEntranceFalknerTrigger:
@@ -78,22 +78,22 @@ DarkCaveVioletEntranceFalknerTrigger:
 	writetext DarkCaveVioletEntranceFalknerAttackText
 	pause 30
 	closetext
-	cry PIDGEOTTO
+	cry CMIMA
 	waitsfx
 	playsound SFX_TACKLE
-	applymovement DARKCAVEVIOLETENTRANCE_PIDGEOTTO, DarkCaveVioletEntranceMovementData_PidgeottoAttack
+	applymovement DARKCAVEVIOLETENTRANCE_CMIMA, DarkCaveVioletEntranceMovementData_PidgeottoAttack
 	waitsfx
 	pause 30
-	cry URSARING
+	cry CTENSHI
 	pause 30
-	disappear DARKCAVEVIOLETENTRANCE_URSARING
+	disappear DARKCAVEVIOLETENTRANCE_CTENSHI
 	pause 15
 	special RestoreMusic
 	opentext
 	writetext DarkCaveVioletEntranceFalknerReturnText
 	pause 30
 	closetext
-	disappear DARKCAVEVIOLETENTRANCE_PIDGEOTTO
+	disappear DARKCAVEVIOLETENTRANCE_CMIMA
 	pause 20
 	applyonemovement DARKCAVEVIOLETENTRANCE_FALKNER, step_left
 	end

@@ -588,7 +588,7 @@
 	wildmon 23, CRUMIA
 	end_grass_wildmons
 
-	def_grass_wildmons WAKASAGIHIME_WELL_ENTRANCE
+	def_grass_wildmons WAKASAGI_WELL_ENTRANCE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 5, CKOTOHIME
@@ -616,7 +616,7 @@
 	wildmon 8, CLUIZE
 	end_grass_wildmons
 
-	def_grass_wildmons WAKASAGIHIME_WELL_B1F
+	def_grass_wildmons WAKASAGI_WELL_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 5, CKOTOHIME
@@ -644,7 +644,7 @@
 	wildmon 8, CLUIZE
 	end_grass_wildmons
 
-	def_grass_wildmons WAKASAGIHIME_WELL_B2F
+	def_grass_wildmons WAKASAGI_WELL_B2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 21, CKOTOHIME

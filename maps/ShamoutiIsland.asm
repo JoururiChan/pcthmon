@@ -20,8 +20,6 @@ ShamoutiIsland_MapScriptHeader:
 	bg_event 32,  6, BGEVENT_JUMPTEXT, ShamoutiHotelSignText
 
 	def_object_events
-	object_event 16,  8, SPRITE_ALOLAN_SCIRNO, SPRITEMOVEDATA_ALOLAN_SCIRNO, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandAlolanSCirnoScript, EVENT_SHAMOUTI_ISLAND_ALOLAN_SCIRNO
-	object_event 16,  7, SPRITE_RATTATA_BACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_SHAMOUTI_ISLAND_ALOLAN_SCIRNO
 	fruittree_event 34, 13, FRUITTREE_SHAMOUTI_ISLAND, FIGY_BERRY, PAL_NPC_BROWN
 	object_event 24, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandYoungsterScript, EVENT_SHAMOUTI_ISLAND_PIKABLU_GUY
 	tohomon_event 25, 14, MARILL, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ShamoutiIslandPikabluText, EVENT_SHAMOUTI_ISLAND_PIKABLU_GUY
@@ -30,53 +28,9 @@ ShamoutiIsland_MapScriptHeader:
 	object_event 12, 15, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandGrampsScript, -1
 	object_event  9, 16, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, pokemart, MARTTYPE_BAZAAR, MART_SHAMOUTI_2, -1
 
-	object_const_def
-	const SHAMOUTIISLAND_ALOLAN_SCIRNO
-	const SHAMOUTIISLAND_ALOLAN_SCIRNO_HEAD
-
 ShamoutiIslandFlyPoint:
 	setflag ENGINE_FLYPOINT_SHAMOUTI
 	endcallback
-
-ShamoutiIslandAlolanSCirnoScript:
-	special SpecialSnorlaxAwake
-	iftruefwd .Awake
-	applyonemovement SHAMOUTIISLAND_ALOLAN_SCIRNO, scirno_shake
-	showemote EMOTE_SLEEP, SHAMOUTIISLAND_ALOLAN_SCIRNO_HEAD, 15
-	jumpthistext
-
-	text "The weird tree is…"
-	line "fast asleep?"
-
-	para "Is it a #mon?"
-	done
-
-.Awake:
-	showtext .TohoFluteText
-	applyonemovement SHAMOUTIISLAND_ALOLAN_SCIRNO, scirno_shake
-	opentext
-	writetext .WokeUpText
-	cry SCIRNO, ALOLAN_FORM
-	pause 15
-	closetext
-	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon SCIRNO, ALOLAN_FORM, 60
-	startbattle
-	disappear SHAMOUTIISLAND_ALOLAN_SCIRNO
-	disappear SHAMOUTIISLAND_ALOLAN_SCIRNO_HEAD
-	reloadmapafterbattle
-	end
-
-.TohoFluteText:
-	text "The #gear was"
-	line "placed near the"
-	cont "weird tree…"
-	done
-
-.WokeUpText:
-	text "The #mon"
-	line "woke up!"
-	done
 
 ShamoutiIslandGrampsScript:
 	checkevent EVENT_GOT_ODD_SOUVENIR_FROM_PIKABLU_GUY

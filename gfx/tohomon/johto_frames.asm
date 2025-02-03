@@ -173,7 +173,7 @@ CSuwakoFrames:   INCLUDE "gfx/tohomon/csuwako/frames.asm"
 
 IkuFrames:   INCLUDE "gfx/tohomon/iku/frames.asm"
 
-DucmomijiTwoSegmentFrames:   INCLUDE "gfx/tohomon/placethm_two_segment/frames.asm"
-DucmomijiThreeSegmentFrames: INCLUDE "gfx/tohomon/placethm_three_segment/frames.asm"
+PlacethmTwoSegmentFrames:   INCLUDE "gfx/tohomon/placethm_two_segment/frames.asm"
+PlacethmThreeSegmentFrames: INCLUDE "gfx/tohomon/placethm_three_segment/frames.asm"
 
 CShizuhaFrames:   INCLUDE "gfx/tohomon/cshizuha/frames.asm"

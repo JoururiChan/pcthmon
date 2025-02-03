@@ -51,20 +51,20 @@ GoldenrodDeptStoreRoofCheckSaleChangeClerk:
 GoldenrodDeptStoreRoofFisherScript:
 	faceplayer
 	opentext
-	checkevent EVENT_DECO_VOLTORB_DOLL
-	iftruefwd .AlreadyGotVoltorbDoll
+	checkevent EVENT_DECO_DDAICHAN_DOLL
+	iftruefwd .AlreadyGotDDaichanDoll
 	writetext GoldenrodDeptStoreRoofFisherText
 	waitbutton
 	writetext GoldenrodDeptStoreRoofFisherDuplicateText
 	waitbutton
-	setevent EVENT_DECO_VOLTORB_DOLL
-	writetext GotVoltorbDollText
+	setevent EVENT_DECO_DDAICHAN_DOLL
+	writetext GotDDaichanDollText
 	playsound SFX_ITEM
 	pause 60
 	promptbutton
-	writetext VoltorbDollSentText
+	writetext DDaichanDollSentText
 	waitbutton
-.AlreadyGotVoltorbDoll
+.AlreadyGotDDaichanDoll
 	writetext GoldenrodDeptStoreRoofFisherCatchEmAllText
 	waitbutton
 	closetext
@@ -197,13 +197,13 @@ GoldenrodDeptStoreRoofFisherDuplicateText:
 	cont "you can have it."
 	done
 
-GotVoltorbDollText:
+GotDDaichanDollText:
 	text "<PLAYER> received"
-	line "Voltorb Doll."
+	line "DDaichan Doll."
 	done
 
-VoltorbDollSentText:
-	text "Voltorb Doll"
+DDaichanDollSentText:
+	text "DDaichan Doll"
 	line "was sent home."
 	done
 

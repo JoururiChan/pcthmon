@@ -353,8 +353,6 @@ INCLUDE "gfx/tohomon/suika_armored/front.dimensions"
 
 INCLUDE "gfx/tohomon/placethm_three_segment/front.dimensions"
 
-INCLUDE "gfx/tohomon/ursaluna_bloodmoon/front.dimensions"
-
 	if list_index % 2
 		db size_value << 4
 	endc

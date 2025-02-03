@@ -1316,10 +1316,10 @@ OverqwilMini::     INCBIN "gfx/minis/overqwil.2bpp.lz"
 OverqwilMiniMask:: INCBIN "gfx/minis/overqwil_mask.1bpp.lz"
 OverqwilIcon::     INCBIN "gfx/icons/overqwil.2bpp.lz"
 
-SECTION "DucmomijiTwoSegment Mini Icon", ROMX
-DucmomijiTwoSegmentMini::     INCBIN "gfx/minis/placethm_two_segment.2bpp.lz"
-DucmomijiTwoSegmentMiniMask:: INCBIN "gfx/minis/placethm_two_segment_mask.1bpp.lz"
-DucmomijiTwoSegmentIcon::     INCBIN "gfx/icons/placethm_two_segment.2bpp.lz"
+SECTION "PlacethmTwoSegment Mini Icon", ROMX
+PlacethmTwoSegmentMini::     INCBIN "gfx/minis/placethm_two_segment.2bpp.lz"
+PlacethmTwoSegmentMiniMask:: INCBIN "gfx/minis/placethm_two_segment_mask.1bpp.lz"
+PlacethmTwoSegmentIcon::     INCBIN "gfx/icons/placethm_two_segment.2bpp.lz"
 
 SECTION "Farigiraf Mini Icon", ROMX
 FarigirafMini::     INCBIN "gfx/minis/farigiraf.2bpp.lz"
@@ -1471,10 +1471,10 @@ HinaQuestionMini::     INCBIN "gfx/minis/hina_question.2bpp.lz"
 HinaQuestionMiniMask:: INCBIN "gfx/minis/hina_question_mask.1bpp.lz"
 HinaQuestionIcon::     INCBIN "gfx/icons/hina_question.2bpp.lz"
 
-SECTION "DucmomijiThreeSegment Mini Icon", ROMX
-DucmomijiThreeSegmentMini::     INCBIN "gfx/minis/placethm_three_segment.2bpp.lz"
-DucmomijiThreeSegmentMiniMask:: INCBIN "gfx/minis/placethm_three_segment_mask.1bpp.lz"
-DucmomijiThreeSegmentIcon::     INCBIN "gfx/icons/placethm_three_segment.2bpp.lz"
+SECTION "PlacethmThreeSegment Mini Icon", ROMX
+PlacethmThreeSegmentMini::     INCBIN "gfx/minis/placethm_three_segment.2bpp.lz"
+PlacethmThreeSegmentMiniMask:: INCBIN "gfx/minis/placethm_three_segment_mask.1bpp.lz"
+PlacethmThreeSegmentIcon::     INCBIN "gfx/icons/placethm_three_segment.2bpp.lz"
 
 SECTION "SuikaArmored Mini Icon", ROMX
 SuikaArmoredMini::     INCBIN "gfx/minis/suika_armored.2bpp.lz"

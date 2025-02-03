@@ -408,10 +408,6 @@ DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 	ext_const_def 1, PLACETHM_TWO_SEGMENT_FORM ;     (1)
 	ext_const PLACETHM_THREE_SEGMENT_FORM      ; 15e (2)
 
-; ursaluna
-	ext_const_def 2
-	ext_const URSALUNA_BLOODMOON_FORM ; 189 (2)
-
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2d
 
 ; these constants include EGG and a dummy entry as species

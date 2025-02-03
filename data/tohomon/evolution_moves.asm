@@ -276,6 +276,4 @@ EvolutionMoves::
 
 	db NO_MOVE      ; PLACETHM, PLACETHM_THREE_SEGMENT_FORM
 
-	db NO_MOVE      ; URSALUNA, URSALUNA_BLOODMOON_FORM
-
 	assert_table_length NUM_EXT_TOHOMON

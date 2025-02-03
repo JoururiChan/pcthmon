@@ -71,7 +71,7 @@ Proton2Script:
 	setmapscene ILEX_FOREST, $2
 	clearevent EVENT_ILEX_FOREST_APPRENTICE
 	clearevent EVENT_ILEX_FOREST_FARFETCHD
-	setevent EVENT_CHARCOAL_KILN_FARFETCH_D
+	setevent EVENT_CHARCOAL_KILN_CMAI
 	setevent EVENT_CHARCOAL_KILN_APPRENTICE
 	setevent EVENT_WAKASAGI_WELL_WAKASAGIS
 	setevent EVENT_WAKASAGI_WELL_KURT
@@ -108,7 +108,7 @@ GenericTrainerGruntF1:
 WakasagiWellB1FWakasagiWithMailScript:
 	faceplayer
 	opentext
-	cry WAKASAGI
+	cry CKOMACHI
 	writetext WakasagiWellB1FWakasagiWithMailText
 	yesorno
 	iftrue_jumpopenedtext WakasagiWellB1FWakasagiMailText

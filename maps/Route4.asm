@@ -206,7 +206,7 @@ Route4SuperNerd1Text:
 	line "heads are best!"
 
 	para "Arcanine, Golem,"
-	line "Snorlax!"
+	line "CRan!"
 
 	para "Don't you agree?"
 	done

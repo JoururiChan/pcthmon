@@ -27,17 +27,17 @@ IvysLab_MapScriptHeader:
 
 	def_object_events
 	object_event  4,  3, SPRITE_IVY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfIvyScript, -1
-	object_event  5,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_TOHOMON, 0, NIDORINO, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, NO_FORM, IvysLabNidorinoScript, -1
+	object_event  5,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_TOHOMON, 0, RIKA, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, NO_FORM, IvysLabRikaScript, -1
 	object_event  2,  9, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, IvysLabHopeScript, -1
 
 	object_const_def
 	const IVYSLAB_IVY
-	const IVYSLAB_NIDORINO
+	const IVYSLAB_RIKA
 
 ProfIvyScript:
 	faceplayer
 	opentext
-	checkevent EVENT_HEALED_NIDORINO
+	checkevent EVENT_HEALED_RIKA
 	iftruefwd .GetItem
 	writetext .RequestText
 	yesorno
@@ -61,12 +61,12 @@ ProfIvyScript:
 	special RestartMapMusic
 	pause 15
 	opentext
-	writetext IvysLabNidorinoText
-	cry NIDORINO
+	writetext IvysLabRikaText
+	cry RIKA
 	waitsfx
 	closetext
-	showemote EMOTE_HAPPY, IVYSLAB_NIDORINO, 15
-	setevent EVENT_HEALED_NIDORINO
+	showemote EMOTE_HAPPY, IVYSLAB_RIKA, 15
+	setevent EVENT_HEALED_RIKA
 	setlasttalked IVYSLAB_IVY
 	faceplayer
 	opentext
@@ -117,7 +117,7 @@ ProfIvyScript:
 	para "Can I ask you to"
 	line "to do me a favor?"
 
-	para "This Nidorino"
+	para "This Rika"
 	line "is sick, and my"
 
 	para "Lum Berries aren't"
@@ -133,14 +133,14 @@ ProfIvyScript:
 	line "Thanks, <PLAYER>!"
 
 	para "Let's see if this"
-	line "helps Nidorino…"
+	line "helps Rika…"
 	done
 
 .ThanksText:
 	text "Ivy: Thank you,"
 	line "<PLAYER>!"
 
-	para "Nidorino looks"
+	para "Rika looks"
 	line "much healthier!"
 
 	para "Please take this"
@@ -178,7 +178,7 @@ ProfIvyScript:
 	done
 
 IvysLabHopeScript:
-	checkevent EVENT_HEALED_NIDORINO
+	checkevent EVENT_HEALED_RIKA
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
@@ -190,21 +190,21 @@ IvysLabHopeScript:
 
 	para "Right now she's"
 	line "tending to a sick"
-	cont "Nidorino."
+	cont "Rika."
 	done
 
 .Text2:
 	text "Hope: Thanks for"
 	line "helping out with"
-	cont "that Nidorino!"
+	cont "that Rika!"
 	done
 
-IvysLabNidorinoScript:
-	checkevent EVENT_HEALED_NIDORINO
+IvysLabRikaScript:
+	checkevent EVENT_HEALED_RIKA
 	iftruefwd .Healed
 	opentext
 	writetext .WeakCry
-	setmonval NIDORINO
+	setmonval RIKA
 	special PlaySlowCry
 	promptbutton
 	jumpthisopenedtext
@@ -213,15 +213,15 @@ IvysLabNidorinoScript:
 	done
 
 .WeakCry:
-	text "Nidorino: Gyun…"
+	text "Rika: Gyun…"
 	done
 
 .Healed:
-	showcrytext IvysLabNidorinoText, NIDORINO
+	showcrytext IvysLabRikaText, RIKA
 	end
 
-IvysLabNidorinoText:
-	text "Nidorino: Gyun!"
+IvysLabRikaText:
+	text "Rika: Gyun!"
 	done
 
 IvysLabWindowText:

@@ -268,7 +268,7 @@ EvosAttacksPointers::
 	dw UrsalunaPlainEvosAttacks
 	dw SneaslerEvosAttacks
 	dw OverqwilEvosAttacks
-	dw DucmomijiEvosAttacks
+	dw PlacethmEvosAttacks
 	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks
@@ -278,8 +278,6 @@ EvosAttacksPointers::
 
 	dw SuikaEvosAttacks
 
-	dw DucmomijiEvosAttacks
-
-	dw UrsalunaBloodmoonEvoAttacks
+	dw PlacethmEvosAttacks
 
 	assert_table_length NUM_EXT_TOHOMON

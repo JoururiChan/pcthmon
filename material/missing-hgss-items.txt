@@ -87,7 +87,7 @@ PP Up	Near the Miltank
 X Attack	Near the silo
 
 olivine city:
-Full Heal	On a boulder north-west of the NPC who trades a Voltorb
+Full Heal	On a boulder north-west of the NPC who trades a DDaichan
 Pearl	Behind the Olivine Port building
 Protein	In Olivine Harbor, southwest of the S.S. Aqua
 Rare Candy	Near the north-east corner of the Lighthouse (requires Rock Climb
