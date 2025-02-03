@@ -1096,7 +1096,7 @@ AuraWave:
 	checkobedience
 	usedmovetext
 	doturn
-	whitebird
+	roost
 	heal
 	endmove
 

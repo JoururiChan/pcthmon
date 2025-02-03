@@ -136,7 +136,7 @@ BattleCommandPointers:
 	command bounceback
 	command suckerpunch
 	command toxicspikes
-	command whitebird
+	command roost
 	command skillswap
 	command trick
 	command toxic
