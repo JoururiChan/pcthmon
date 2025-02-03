@@ -215,9 +215,9 @@ gfx/player/chris_back.2bpp: rgbgfx += -Z
 gfx/player/kris_back.2bpp: rgbgfx += -Z
 gfx/player/crys_back.2bpp: rgbgfx += -Z
 
-gfx/pokedex/%.bin: gfx/pokedex/%.tilemap gfx/pokedex/%.attrmap ; $Qcat $^ > $@
-gfx/pokedex/pokedex.2bpp: gfx/pokedex/pokedex0.2bpp gfx/pokedex/pokedex1.2bpp gfx/pokedex/area.2bpp ; $Qcat $^ > $@
-gfx/pokedex/question_mark.2bpp: rgbgfx += -Z
+gfx/tohodex/%.bin: gfx/tohodex/%.tilemap gfx/tohodex/%.attrmap ; $Qcat $^ > $@
+gfx/tohodex/tohodex.2bpp: gfx/tohodex/tohodex0.2bpp gfx/tohodex/tohodex1.2bpp gfx/tohodex/area.2bpp ; $Qcat $^ > $@
+gfx/tohodex/question_mark.2bpp: rgbgfx += -Z
 
 gfx/tohogear/tohogear.2bpp: tools/gfx += --trim-whitespace
 gfx/tohogear/tohogear_sprites.2bpp: tools/gfx += --trim-whitespace

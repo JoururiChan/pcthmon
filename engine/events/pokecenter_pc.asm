@@ -52,7 +52,7 @@ TohomonCenterPC:
 .String_TurnOff:    db "Turn Off@"
 
 .WhichPC:
-	; before pokedex
+	; before tohodex
 	db  3 ; items
 	db  1, 0, 4 ; bill's, player's, turn off
 	db -1

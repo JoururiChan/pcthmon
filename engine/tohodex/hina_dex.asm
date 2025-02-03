@@ -239,4 +239,4 @@ Tohodex_GetHinaCursorForm:
 INCLUDE "data/tohomon/hina_words.asm"
 
 HinaModePals:
-INCLUDE "gfx/pokedex/hina.pal"
+INCLUDE "gfx/tohodex/hina.pal"

@@ -540,7 +540,7 @@ SECTION "BoulderRockFossilSpriteGFX", ROMX
 BoulderRockFossilSpriteGFX:: INCBIN "gfx/sprites/boulder_rock_fossil.2bpp.lz"
 
 SECTION "BookPaperTohodexSpriteGFX", ROMX
-BookPaperTohodexSpriteGFX:: INCBIN "gfx/sprites/book_paper_pokedex.2bpp.lz"
+BookPaperTohodexSpriteGFX:: INCBIN "gfx/sprites/book_paper_tohodex.2bpp.lz"
 
 SECTION "SnesSpriteGFX", ROMX
 SnesSpriteGFX:: INCBIN "gfx/sprites/snes.2bpp.lz"

@@ -1848,7 +1848,7 @@ Tohodex_Bio:
 .AllString:
 	db "100%@"
 
-INCLUDE "data/pokedex_bio.asm"
+INCLUDE "data/tohodex_bio.asm"
 
 Tohodex_Stats:
 	xor a
@@ -2819,7 +2819,7 @@ else
 endc
 BodyColorPals:
 	table_width 2
-INCLUDE "gfx/pokedex/body_colors.pal"
+INCLUDE "gfx/tohodex/body_colors.pal"
 	assert_table_length NUM_BODY_COLORS
 
 Tohodex_InitData:
@@ -3157,7 +3157,7 @@ Tohodex_LoadUndiscoveredTohopic:
 	ret
 
 Tohodex_QuestionMarkPal:
-INCLUDE "gfx/pokedex/question_mark.pal"
+INCLUDE "gfx/tohodex/question_mark.pal"
 
 Tohodex_SwitchMonInfoBank:
 ; Switch which bank to store tile data in. Tiles are loaded as follows:
@@ -3541,4 +3541,4 @@ Tohodex_GetDexEntryPointer:
 	ret
 
 DexModeSearchPals:
-INCLUDE "gfx/pokedex/mode_search.pal"
+INCLUDE "gfx/tohodex/mode_search.pal"
