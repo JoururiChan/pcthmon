@@ -276,6 +276,4 @@ FootprintPointers::
 
 	dw PlacethmFootprint
 
-	dw UrsalunaFootprint
-
 	assert_table_length NUM_EXT_TOHOMON
