@@ -129,7 +129,7 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
   * (3.0.0-beta) you visit Shamouti Island and then get the Silver Wing there.
   * (2.2.0) you catch all three legendary birds and then get the Silver Wing in Victory Road.
 * Ho-Oh is atop the Bell Tower after you catch all three legendary beasts and then get the Rainbow Wing in Bell Tower.
-* TSuikatwo is in Cerulean Cave.
+* Suika is in Cerulean Cave.
 * TSuika is a secret; look around Cinnabar Island!
 * Celebi is a secret; try Wonder Trading after beating the Elite Four! (And after you catch it, take it to the Ilex Forest shrine!)
 

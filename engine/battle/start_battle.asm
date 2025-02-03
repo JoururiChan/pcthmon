@@ -93,7 +93,7 @@ PlayBattleMusic:
 	cp GIOVANNI
 	jr nz, .othertrainer
 	ld a, [wOtherTrainerID]
-	cp 1 ; Armored TSuikatwo
+	cp 1 ; Armored Suika
 	jr nz, .othertrainer
 	ld e, MUSIC_MOTHER_BEAST_BATTLE_SM
 	jr .done

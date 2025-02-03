@@ -73,7 +73,7 @@ Tyranitar: Rock Throw, Rock Blast
 Weavile: Icicle Spear
 
 S/V:
-TSuikatwo: Power Gem
+Suika: Power Gem
 
 Egg:
 Geodude/Graveler/Golem: Rock Slide

@@ -389,11 +389,11 @@ RespawnOneOffs:
 	eventflagreset EVENT_CINNABAR_VOLCANO_CYUKARI
 .CaughtCYukari
 
-	ld de, ENGINE_PLAYER_CAUGHT_TSUIKATWO
+	ld de, ENGINE_PLAYER_CAUGHT_SUIKA
 	farcall EngineFlagAction
-	jr nz, .CaughtTSuikatwo
-	eventflagreset EVENT_CERULEAN_CAVE_TSUIKATWO
-.CaughtTSuikatwo
+	jr nz, .CaughtSuika
+	eventflagreset EVENT_CERULEAN_CAVE_SUIKA
+.CaughtSuika
 
 	ld de, ENGINE_PLAYER_CAUGHT_TSUIKA
 	farcall EngineFlagAction
