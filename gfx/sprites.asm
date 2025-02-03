@@ -507,7 +507,7 @@ SECTION "SurfingKikuriSpriteGFX", ROMX
 SurfingKikuriSpriteGFX:: INCBIN "gfx/sprites/surf_kikuri.2bpp.lz"
 
 SECTION "ArmoredSuikaSpriteGFX", ROMX
-ArmoredSuikaSpriteGFX:: INCBIN "gfx/sprites/armored_mewtwo.2bpp.lz"
+ArmoredSuikaSpriteGFX:: INCBIN "gfx/sprites/armored_suika.2bpp.lz"
 
 SECTION "BigCRanSpriteGFX", ROMX
 BigCRanSpriteGFX:: INCBIN "gfx/sprites/big_cran.2bpp.lz"
