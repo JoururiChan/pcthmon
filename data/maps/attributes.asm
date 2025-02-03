@@ -467,9 +467,9 @@ ENDM
 	map_attributes UnionCaveB1FNorth, UNION_CAVE_B1F_NORTH, $9, 0
 	map_attributes UnionCaveB1FSouth, UNION_CAVE_B1F_SOUTH, $9, 0
 	map_attributes UnionCaveB2F, UNION_CAVE_B2F, $9, 0
-	map_attributes WakasagihimeWellEntrance, WAKASAGIHIME_WELL_ENTRANCE, $9, 0
-	map_attributes WakasagihimeWellB1F, WAKASAGIHIME_WELL_B1F, $9, 0
-	map_attributes WakasagihimeWellB2F, WAKASAGIHIME_WELL_B2F, $9, 0
+	map_attributes WakasagiWellEntrance, WAKASAGIHIME_WELL_ENTRANCE, $9, 0
+	map_attributes WakasagiWellB1F, WAKASAGIHIME_WELL_B1F, $9, 0
+	map_attributes WakasagiWellB2F, WAKASAGIHIME_WELL_B2F, $9, 0
 	map_attributes OlivineLighthouse1F, OLIVINE_LIGHTHOUSE_1F, $0, 0
 	map_attributes OlivineLighthouse2F, OLIVINE_LIGHTHOUSE_2F, $0, 0
 	map_attributes OlivineLighthouse3F, OLIVINE_LIGHTHOUSE_3F, $0, 0
