@@ -454,7 +454,7 @@ SECTION "YuyukoFossilPic", ROMX
 YuyukoFossilPic: INCBIN "gfx/trainers/ayuyuko_fossil.2bpp.lz"
 
 SECTION "ChenArmorPic", ROMX
-ChenArmorPic: INCBIN "gfx/trainers/chen_armor.2bpp.lz"
+ChenArmorPic: INCBIN "gfx/trainers/cmeiling_armor.2bpp.lz"
 
 SECTION "MeteoritePic", ROMX
 MeteoritePic: INCBIN "gfx/trainers/meteorite.2bpp.lz"
