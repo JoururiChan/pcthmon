@@ -2056,7 +2056,7 @@ Script_giveegg:
 	inc a
 	assert EGG_LEVEL == 1
 	ld [wCurPartyLevel], a
-	assert POKE_BALL == 1
+	assert TOHO_BALL == 1
 	ld [wGiftMonBall], a
 
 	farcall GiveToho

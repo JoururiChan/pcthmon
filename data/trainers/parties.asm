@@ -4355,7 +4355,7 @@ GruntFGroup:
 SECTION "TohofanMGroup", ROMX
 TohofanMGroup:
 
-	; POKEFANM
+	; TOHOFANM
 	db "Derek@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4363,7 +4363,7 @@ TohofanMGroup:
 		db ORAN_BERRY
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Derek@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4371,7 +4371,7 @@ TohofanMGroup:
 		db ORAN_BERRY
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Derek@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4379,7 +4379,7 @@ TohofanMGroup:
 		db SITRUS_BERRY
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "William@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4387,7 +4387,7 @@ TohofanMGroup:
 		db ORAN_BERRY
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Robert@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4395,7 +4395,7 @@ TohofanMGroup:
 		db SITRUS_BERRY
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Joshua@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4413,7 +4413,7 @@ TohofanMGroup:
 		db SITRUS_BERRY
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Carter@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4425,7 +4425,7 @@ TohofanMGroup:
 		db SITRUS_BERRY
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Trevor@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4433,7 +4433,7 @@ TohofanMGroup:
 		db SITRUS_BERRY
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Brandon@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4443,7 +4443,7 @@ TohofanMGroup:
 		db NO_ITEM
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Jeremy@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4455,7 +4455,7 @@ TohofanMGroup:
 		db SITRUS_BERRY
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Colin@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4463,7 +4463,7 @@ TohofanMGroup:
 		db SITRUS_BERRY
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Alex@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4475,7 +4475,7 @@ TohofanMGroup:
 		db KINGS_ROCK
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Rex@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4483,7 +4483,7 @@ TohofanMGroup:
 		db SITRUS_BERRY
 	db -1 ; end
 
-	; POKEFANM
+	; TOHOFANM
 	db "Allan@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4495,7 +4495,7 @@ TohofanMGroup:
 SECTION "TohofanFGroup", ROMX
 TohofanFGroup:
 
-	; POKEFANF
+	; TOHOFANF
 	db "Beverly@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4503,7 +4503,7 @@ TohofanFGroup:
 		db ORAN_BERRY
 	db -1 ; end
 
-	; POKEFANF
+	; TOHOFANF
 	db "Beverly@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4511,7 +4511,7 @@ TohofanFGroup:
 		db ORAN_BERRY
 	db -1 ; end
 
-	; POKEFANF
+	; TOHOFANF
 	db "Beverly@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4519,7 +4519,7 @@ TohofanFGroup:
 		db SITRUS_BERRY
 	db -1 ; end
 
-	; POKEFANF
+	; TOHOFANF
 	db "Ruth@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4527,7 +4527,7 @@ TohofanFGroup:
 		db ORAN_BERRY
 	db -1 ; end
 
-	; POKEFANF
+	; TOHOFANF
 	db "Georgia@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4543,7 +4543,7 @@ TohofanFGroup:
 		db ORAN_BERRY
 	db -1 ; end
 
-	; POKEFANF
+	; TOHOFANF
 	db "Jaime@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4551,7 +4551,7 @@ TohofanFGroup:
 		db ORAN_BERRY
 	db -1 ; end
 
-	; POKEFANF
+	; TOHOFANF
 	db "Boone@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4561,7 +4561,7 @@ TohofanFGroup:
 		db SITRUS_BERRY
 	db -1 ; end
 
-	; POKEFANF
+	; TOHOFANF
 	db "Eleanor@"
 	db TRAINERTYPE_ITEM
 	; party
@@ -4658,21 +4658,21 @@ NurseGroup:
 SECTION "TohomaniacGroup", ROMX
 TohomaniacGroup:
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Brent@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 32, KOAKUMA
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Brent@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 37, SREMILIA
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Brent@"
 	db TRAINERTYPE_MOVES
 	; party
@@ -4680,7 +4680,7 @@ TohomaniacGroup:
 		db RECOVER, MANA_BURST, CONVERSION, FIVEELEMENTS
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Brent@"
 	db TRAINERTYPE_MOVES
 	; party
@@ -4688,14 +4688,14 @@ TohomaniacGroup:
 		db TREMORS, LUSTER_HEART, RETURN, FRESH_SNACK
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Larry@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 12, CEIKI
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Andrew@"
 	db TRAINERTYPE_NORMAL
 	; party
@@ -4703,14 +4703,14 @@ TohomaniacGroup:
 	dbp 24, CMEILING
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Calvin@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 26, CYUMEKO
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Shane@"
 	db TRAINERTYPE_NORMAL
 	; party
@@ -4718,21 +4718,21 @@ TohomaniacGroup:
 	dbp 20, CREMILIA
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Beckett@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 30, CALICE
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Ron@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 30, CRIKA
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Ethan@"
 	db TRAINERTYPE_NORMAL
 	; party
@@ -4740,14 +4740,14 @@ TohomaniacGroup:
 	dbp 46, TPATCHOULI
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Issac@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 15, CEIKI
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Donald@"
 	db TRAINERTYPE_NORMAL
 	; party
@@ -4755,14 +4755,14 @@ TohomaniacGroup:
 	dbp 13, CALICE
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Zach@"
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 37, PATCHOULI
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Miller@"
 	db TRAINERTYPE_NORMAL
 	; party
@@ -4770,7 +4770,7 @@ TohomaniacGroup:
 	dbp LEVEL_FROM_BADGES + 7, KONGARA
 	db -1 ; end
 
-	; POKEMANIAC
+	; TOHOMANIAC
 	db "Aidan@"
 	db TRAINERTYPE_MOVES
 	; party

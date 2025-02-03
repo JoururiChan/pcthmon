@@ -25,7 +25,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; 18
 	tilecoll WALL, WALL, WALL, WALL ; 19
 	tilecoll WALL, WALL, WALL, DOOR ; 1a
-	tilecoll WALL, WALL, POKECENTER_SIGN, WALL ; 1b
+	tilecoll WALL, WALL, TOHOCENTER_SIGN, WALL ; 1b
 	tilecoll WALL, WALL, FLOOR, WALL ; 1c
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 1d
 	tilecoll WALL, WALL, WALL, WALL ; 1e

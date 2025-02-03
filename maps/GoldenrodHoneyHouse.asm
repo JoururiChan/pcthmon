@@ -12,7 +12,7 @@ GoldenrodHoneyHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodHoneyHouseTohofanFScript, -1
+	object_event  2,  4, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodHoneyHouseTohofanFScript, -1
 	tohomon_event  6,  3, FGYOKU, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, GoldenrodHoneyHouseFGyokuText, -1
 
 GoldenrodHoneyHouseTohofanFScript:

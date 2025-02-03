@@ -498,7 +498,7 @@ BT_AppendOTMon:
 	rrca
 	rrca
 	and CAUGHT_TIME_MASK
-	or POKE_BALL
+	or TOHO_BALL
 	ld [hli], a
 	ld a, BATTLETOWER_FORCED_LEVEL
 	ld [hli], a

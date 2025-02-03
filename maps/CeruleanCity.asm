@@ -8,7 +8,7 @@ CeruleanCity_MapScriptHeader:
 	warp_event  7, 11, CERULEAN_GYM_BADGE_SPEECH_HOUSE, 1
 	warp_event 28, 13, CERULEAN_POLICE_STATION, 1
 	warp_event 13, 15, CERULEAN_TRADE_SPEECH_HOUSE, 1
-	warp_event 19, 17, CERULEAN_POKECENTER_1F, 1
+	warp_event 19, 17, CERULEAN_TOHOCENTER_1F, 1
 	warp_event 30, 19, CERULEAN_GYM, 1
 	warp_event 25, 25, CERULEAN_MART, 2
 	warp_event  2,  9, CERULEAN_CAVE_1F, 1
@@ -37,7 +37,7 @@ CeruleanCity_MapScriptHeader:
 	object_event 21, 20, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeruleanCityCooltrainerFScript, -1
 	object_event  6,  8, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeruleanCityYoungsterScript, -1
 	object_event 30, 22, SPRITE_COOL_DUDE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeruleanCityCooltrainerMScript, -1
-	object_event 23, 11, SPRITE_POKEMANIAC, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanCitySuperNerdText, -1
+	object_event 23, 11, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanCitySuperNerdText, -1
 	tohomon_event 20, 20, CALICE, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_PINK, CeruleanCityCAliceText, -1
 	object_event 13, 18, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeruleanCityFisherScript, -1
 	object_event  2, 10, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanCaveGuardText, EVENT_BEAT_BLUE

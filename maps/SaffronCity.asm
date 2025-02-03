@@ -8,7 +8,7 @@ SaffronCity_MapScriptHeader:
 	warp_event 26,  3, DREAM_DOJO, 1
 	warp_event 34,  3, SAFFRON_GYM, 1
 	warp_event 25, 11, SAFFRON_MART, 2
-	warp_event  9, 29, SAFFRON_POKECENTER_1F, 1
+	warp_event  9, 29, SAFFRON_TOHOCENTER_1F, 1
 	warp_event 27, 29, MR_PSYCHICS_HOUSE, 1
 	warp_event  8,  3, SAFFRON_TRAIN_STATION, 2
 	warp_event 18, 21, SILPH_CO_1F, 1
@@ -41,7 +41,7 @@ SaffronCity_MapScriptHeader:
 
 	def_object_events
 	object_event  7, 14, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SaffronCityLass1Script, -1
-	object_event 18, 30, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SaffronCityTohofanMScript, -1
+	object_event 18, 30, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SaffronCityTohofanMScript, -1
 	object_event 32,  7, SPRITE_COOL_DUDE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronCityCooltrainerMText, -1
 	object_event 20, 24, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronCityCooltrainerFText, -1
 	object_event 35, 14, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, SaffronCityFisherScript, -1

@@ -32,7 +32,7 @@ Route42_MapScriptHeader:
 	object_event 10,  5, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LYRA_ROUTE_42
 	object_event 40, 10, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerFisherTully1, -1
 	object_event 51,  9, SPRITE_HIKER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerHikerBenjamin, -1
-	object_event 47,  8, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacShane, -1
+	object_event 47,  8, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacShane, -1
 	object_event  2,  8, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route42OfficerText, EVENT_BEAT_JASMINE
 	object_event  2,  9, SPRITE_OFFICER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route42OfficerText, EVENT_BEAT_JASMINE
 	cuttree_event 24, 13, EVENT_ROUTE_42_CUT_TREE
@@ -281,7 +281,7 @@ GenericTrainerHikerBenjamin:
 	done
 
 GenericTrainerTohomaniacShane:
-	generictrainer POKEMANIAC, SHANE, EVENT_BEAT_POKEMANIAC_SHANE, TohomaniacShaneSeenText, TohomaniacShaneBeatenText
+	generictrainer TOHOMANIAC, SHANE, EVENT_BEAT_TOHOMANIAC_SHANE, TohomaniacShaneSeenText, TohomaniacShaneBeatenText
 
 	text "You're working on"
 	line "a #dex?"

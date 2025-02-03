@@ -7,8 +7,8 @@ GoldenrodTohocomCenter1F_MapScriptHeader:
 	def_warp_events
 	warp_event  6, 15, GOLDENROD_CITY, 15
 	warp_event  7, 15, GOLDENROD_CITY, 15
-	warp_event  1,  6, GOLDENROD_POKECOM_CENTER_OFFICE, 2
-	warp_event  0, 15, POKECENTER_2F, 1
+	warp_event  1,  6, GOLDENROD_TOHOCOM_CENTER_OFFICE, 2
+	warp_event  0, 15, TOHOCENTER_2F, 1
 
 	def_coord_events
 
@@ -30,7 +30,7 @@ GoldenrodTohocomCenter1F_MapScriptHeader:
 	bg_event 29,  8, BGEVENT_LEFT, JudgeMachineScript
 	bg_event 29,  9, BGEVENT_LEFT, JudgeMachineScript
 	bg_event 29, 10, BGEVENT_LEFT, JudgeMachineScript
-	bg_event 24,  3, BGEVENT_ITEM + RARE_CANDY, EVENT_GOLDENROD_POKECOM_CENTER_1F_HIDDEN_RARE_CANDY
+	bg_event 24,  3, BGEVENT_ITEM + RARE_CANDY, EVENT_GOLDENROD_TOHOCOM_CENTER_1F_HIDDEN_RARE_CANDY
 
 	def_object_events
 	object_event 23, 10, SPRITE_ENGINEER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, JudgeMachineEngineerScript, EVENT_JUDGE_MACHINE_ENGINEER
@@ -40,15 +40,15 @@ GoldenrodTohocomCenter1F_MapScriptHeader:
 	object_event 12, 14, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, GoldenrodTohocenter1FTohofanF, -1
 	object_event 16,  8, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_TEAL, OBJECTTYPE_SCRIPT, 0, WonderTradeReceptionistScript, -1
 	object_event  8, 13, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FSuperNerdText, -1
-	object_event 27, 13, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FTohofanFText_Sunflora, -1
+	object_event 27, 13, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FTohofanFText_Sunflora, -1
 	object_event 21,  6, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FRockerText, -1
 	object_event 18, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FGrampsText, -1
 	object_event 18,  9, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FLassText_PidgeyMail, -1
-	object_event  3,  9, SPRITE_ICE_BOULDER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_POKECOM_SIGN, OBJECTTYPE_SCRIPT, 0, InfoSignScript, -1
-	object_event 23,  3, SPRITE_ICE_BOULDER, SPRITEMOVEDATA_POKECOM_NEWS, 0, 0, -1, -1, PAL_NPC_POKECOM_SIGN, OBJECTTYPE_COMMAND, end, NULL, -1
+	object_event  3,  9, SPRITE_ICE_BOULDER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_TOHOCOM_SIGN, OBJECTTYPE_SCRIPT, 0, InfoSignScript, -1
+	object_event 23,  3, SPRITE_ICE_BOULDER, SPRITEMOVEDATA_TOHOCOM_NEWS, 0, 0, -1, -1, PAL_NPC_TOHOCOM_SIGN, OBJECTTYPE_COMMAND, end, NULL, -1
 
 	object_const_def
-	const GOLDENRODPOKECOMCENTER1F_ENGINEER
+	const GOLDENRODTOHOCOMCENTER1F_ENGINEER
 
 JudgeMachineScreenCallback:
 	checkflag ENGINE_JUDGE_MACHINE
@@ -63,7 +63,7 @@ JudgeMachineScreenCallback:
 	endcallback
 
 GoldenrodTohocenter1FNurseScript:
-	setevent EVENT_WELCOMING_TO_POKECOM_CENTER
+	setevent EVENT_WELCOMING_TO_TOHOCOM_CENTER
 	jumpstd pokecenternurse
 
 GoldenrodTohocenter1FGameboyKidText:
@@ -188,12 +188,12 @@ WonderTradeReceptionistScript:
 	promptbutton
 	special WonderTrade
 	iffalsefwd .done
-	playmusic MUSIC_POKECOM_CENTER
+	playmusic MUSIC_TOHOCOM_CENTER
 	writetext WonderTradeCompleteText
 	playsound SFX_DEX_FANFARE_80_109
 	waitsfx
 	ifnotequal 2, .done
-	setevent EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
+	setevent EVENT_GOT_GS_BALL_FROM_TOHOCOM_CENTER
 	setevent EVENT_CAN_GIVE_GS_BALL_TO_KURT
 	playmusic MUSIC_SPIKY_EARED_TTEI_HGSS
 	writetext WonderTradeForGSBallTTeiText
@@ -357,11 +357,11 @@ JudgeMachineEngineerScript:
 	showtextfaceplayer JudgeMachineEngineerFinishedText
 	readvar VAR_FACING
 	ifnotequal RIGHT, .GoLeft
-	applyonemovement GOLDENRODPOKECOMCENTER1F_ENGINEER, step_down
-	applyonemovement GOLDENRODPOKECOMCENTER1F_ENGINEER, step_left
+	applyonemovement GOLDENRODTOHOCOMCENTER1F_ENGINEER, step_down
+	applyonemovement GOLDENRODTOHOCOMCENTER1F_ENGINEER, step_left
 .GoLeft
-	applymovement GOLDENRODPOKECOMCENTER1F_ENGINEER, JudgeMachineEngineerLeavesMovement
-	disappear GOLDENRODPOKECOMCENTER1F_ENGINEER
+	applymovement GOLDENRODTOHOCOMCENTER1F_ENGINEER, JudgeMachineEngineerLeavesMovement
+	disappear GOLDENRODTOHOCOMCENTER1F_ENGINEER
 	setflag ENGINE_JUDGE_MACHINE
 	changeblock 24, 0, $49
 	changeblock 26, 0, $4a

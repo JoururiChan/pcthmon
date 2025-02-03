@@ -95,7 +95,7 @@ LizGossip:
 	sjumpfwd LizGossipScript
 
 .TohofanM:
-	gettrainerclassname POKEFANM, $1
+	gettrainerclassname TOHOFANM, $1
 	; fallthrough
 
 LizGossipScript:

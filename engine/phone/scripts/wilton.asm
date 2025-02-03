@@ -53,7 +53,7 @@ WiltonHasItem:
 	getlandmarkname ROUTE_44, $2
 	clearevent EVENT_WILTON_HAS_ULTRA_BALL
 	clearevent EVENT_WILTON_HAS_GREAT_BALL
-	clearevent EVENT_WILTON_HAS_POKE_BALL
+	clearevent EVENT_WILTON_HAS_TOHO_BALL
 	random $5
 	ifequalfwd $0, .UltraBall
 	random $3
@@ -69,7 +69,7 @@ WiltonHasItem:
 	sjumpfwd .FoundItem
 
 .TohoBall:
-	setevent EVENT_WILTON_HAS_POKE_BALL
+	setevent EVENT_WILTON_HAS_TOHO_BALL
 
 .FoundItem:
 	farsjump PhoneScript_FoundItem_Male

@@ -41,7 +41,7 @@
 	const MUSIC_RIVAL_AFTER                    ; 25
 	const MUSIC_EVOLUTION                      ; 26
 	const MUSIC_GOLDENROD_CITY                 ; 27
-	const MUSIC_POKECOM_CENTER                 ; 28
+	const MUSIC_TOHOCOM_CENTER                 ; 28
 	const MUSIC_GYM                            ; 29
 	const MUSIC_JOHTO_GYM_LEADER_BATTLE        ; 2a
 	const MUSIC_FINAL_TOHOMON_BW               ; 2b
@@ -73,7 +73,7 @@
 	const MUSIC_STARK_MOUNTAIN_DPPT            ; 45
 	const MUSIC_LAKE_OF_RAGE_ROCKET_RADIO      ; 46
 	const MUSIC_ROCKET_HIDEOUT                 ; 47
-	const MUSIC_POKEMANIAC_ENCOUNTER           ; 48
+	const MUSIC_TOHOMANIAC_ENCOUNTER           ; 48
 	const MUSIC_ROCKET_OVERTURE                ; 49
 	const MUSIC_DARK_CAVE                      ; 4a
 	const MUSIC_DRAGONS_DEN                    ; 4b
@@ -108,7 +108,7 @@
 	const MUSIC_CANALAVE_CITY_DPPT             ; 68
 	const MUSIC_BICYCLE_XY                     ; 69
 	const MUSIC_ROUTE_12                       ; 6a
-	const MUSIC_POKE_FLUTE_CHANNEL             ; 6b
+	const MUSIC_TOHO_FLUTE_CHANNEL             ; 6b
 	const MUSIC_ROUTE_209_DPPT                 ; 6c
 	const MUSIC_ROUTE_210_DPPT                 ; 6d
 	const MUSIC_ROUTE_225_DPPT                 ; 6e

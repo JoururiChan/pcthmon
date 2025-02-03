@@ -8,7 +8,7 @@ FuchsiaCity_MapScriptHeader:
 	warp_event  5, 13, FUCHSIA_MART, 2
 	warp_event  8, 27, FUCHSIA_GYM, 1
 	warp_event 11, 27, FUCHSIA_BILL_SPEECH_HOUSE, 1
-	warp_event 19, 27, FUCHSIA_POKECENTER_1F, 1
+	warp_event 19, 27, FUCHSIA_TOHOCENTER_1F, 1
 	warp_event 27, 27, SAFARI_ZONE_WARDENS_HOME, 1
 	warp_event 18,  3, SAFARI_ZONE_FUCHSIA_GATE, 3
 	warp_event 37, 22, ROUTE_15_FUCHSIA_GATE, 1
@@ -35,9 +35,9 @@ FuchsiaCity_MapScriptHeader:
 
 	def_object_events
 	object_event 23, 18, SPRITE_CAMPER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityYoungsterText, -1
-	object_event 10,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityTohofanMText, -1
+	object_event 10,  8, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityTohofanMText, -1
 	object_event 16, 13, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityTeacherText, -1
-	object_event 28,  8, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityTohofanFText, -1
+	object_event 28,  8, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaCityTohofanFText, -1
 	object_event 22, 13, SPRITE_CGENGETSU_BACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptext, SafariZoneOfficeClosedSignText, -1
 	object_event 31, 27, SPRITE_CGENGETSU_BACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptext, HouseForSaleSignText, -1
 	cuttree_event 16, 19, EVENT_FUCHSIA_CITY_CUT_TREE

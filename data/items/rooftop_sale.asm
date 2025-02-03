@@ -1,6 +1,6 @@
 RooftopSaleData1:
 	db 5
-	dbw POKE_BALL,     150
+	dbw TOHO_BALL,     150
 	dbw GREAT_BALL,    500
 	dbw SUPER_POTION,  500
 	dbw FULL_HEAL,     300

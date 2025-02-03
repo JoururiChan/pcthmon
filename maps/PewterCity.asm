@@ -8,7 +8,7 @@ PewterCity_MapScriptHeader:
 	warp_event 29, 13, PEWTER_NIDORAN_SPEECH_HOUSE, 1
 	warp_event 16, 17, PEWTER_GYM, 1
 	warp_event 23, 17, PEWTER_MART, 2
-	warp_event 13, 25, PEWTER_POKECENTER_1F, 1
+	warp_event 13, 25, PEWTER_TOHOCENTER_1F, 1
 	warp_event  7, 29, PEWTER_SNOOZE_SPEECH_HOUSE, 1
 	warp_event 14,  7, PEWTER_MUSEUM_OF_SCIENCE_1F, 1
 	warp_event 19,  5, PEWTER_MUSEUM_OF_SCIENCE_1F, 3
@@ -28,7 +28,7 @@ PewterCity_MapScriptHeader:
 	object_event 14, 29, SPRITE_CHILD, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, PewterCityBugCatcherText, -1
 	object_event 29, 17, SPRITE_GRAMPS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PewterCityGrampsScript, -1
 	object_event  7, 17, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PewterCityYoungsterScript, -1
-	object_event 25, 26, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, PewterCityTohofanMScript, -1
+	object_event 25, 26, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, PewterCityTohofanMScript, -1
 	fruittree_event 32,  3, FRUITTREE_PEWTER_CITY_1, PETAYA_BERRY, PAL_NPC_PINK
 	fruittree_event 30,  3, FRUITTREE_PEWTER_CITY_2, APICOT_BERRY, PAL_NPC_BLUE
 

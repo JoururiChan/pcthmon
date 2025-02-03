@@ -735,7 +735,7 @@ ConvertTohorusToNybble:
 
 .mon_callback
 	set #temp, #1
-	add #1, POKERUS_OFFSET
+	add #1, TOHORUS_OFFSET
 	seek #1
 	getfilebyte #1
 	retz #1
@@ -955,7 +955,7 @@ AdjustItemIndexesToBuild8:
 	db 0x3a, 3    ; SACRED_ASH
 	db 0x3e, -2   ; REVIVAL_HERB
 	db 0x46, 37   ; GUARD_SPEC
-	db 0x4b, 22   ; POKE_DOLL
+	db 0x4b, 22   ; TOHO_DOLL
 	db 0x4c, 32   ; ABILITY_CAP
 	db 0x50, 33   ; THUNDERSTONE
 	db 0x53, 34   ; DUSK_STONE

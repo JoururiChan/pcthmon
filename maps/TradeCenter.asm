@@ -6,8 +6,8 @@ TradeCenter_MapScriptHeader:
 	callback MAPCALLBACK_OBJECTS, TradeCenter_SetWhichChris
 
 	def_warp_events
-	warp_event  4,  7, POKECENTER_2F, 2
-	warp_event  5,  7, POKECENTER_2F, 2
+	warp_event  4,  7, TOHOCENTER_2F, 2
+	warp_event  5,  7, TOHOCENTER_2F, 2
 
 	def_coord_events
 
@@ -41,7 +41,7 @@ TradeCenter_SetWhichChris:
 
 TradeCenter_Initialize:
 	setscene $1
-	setmapscene POKECENTER_2F, $1
+	setmapscene TOHOCENTER_2F, $1
 	end
 
 MapTradeCenterSignpost1Script:

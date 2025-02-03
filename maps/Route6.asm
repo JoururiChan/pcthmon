@@ -14,9 +14,9 @@ Route6_MapScriptHeader:
 	bg_event  7,  9, BGEVENT_JUMPTEXT, Route6AdvancedTipsSignText
 
 	def_object_events
-	object_event 21, 10, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route6TohofanMText, EVENT_ROUTE_5_6_POKEFAN_M_BLOCKS_UNDERGROUND_PATH
-	object_event 13, 24, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerTohofanmRex, -1
-	object_event 14, 24, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerTohofanmAllan, -1
+	object_event 21, 10, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route6TohofanMText, EVENT_ROUTE_5_6_TOHOFAN_M_BLOCKS_UNDERGROUND_PATH
+	object_event 13, 24, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerTohofanmRex, -1
+	object_event 14, 24, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerTohofanmAllan, -1
 	object_event 16, 17, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerTwinsDayanddani1, -1
 	object_event 17, 17, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerTwinsDayanddani2, -1
 	object_event 20, 27, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerYoungsterChaz, -1
@@ -25,7 +25,7 @@ Route6_MapScriptHeader:
 	fruittree_event 17,  5, FRUITTREE_ROUTE_6, STARF_BERRY, PAL_NPC_GREEN
 
 GenericTrainerTohofanmRex:
-	generictrainer POKEFANM, REX, EVENT_BEAT_POKEFANM_REX, TohofanmRexSeenText, TohofanmRexBeatenText
+	generictrainer TOHOFANM, REX, EVENT_BEAT_TOHOFANM_REX, TohofanmRexSeenText, TohofanmRexBeatenText
 
 	text "Look how adorable"
 	line "my Phanpy acts!"
@@ -46,7 +46,7 @@ TohofanmRexBeatenText:
 	done
 
 GenericTrainerTohofanmAllan:
-	generictrainer POKEFANM, ALLAN, EVENT_BEAT_POKEFANM_ALLAN, TohofanmAllanSeenText, TohofanmAllanBeatenText
+	generictrainer TOHOFANM, ALLAN, EVENT_BEAT_TOHOFANM_ALLAN, TohofanmAllanSeenText, TohofanmAllanBeatenText
 
 	text "Look how adorable"
 	line "my AIku acts!"

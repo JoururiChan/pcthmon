@@ -4307,7 +4307,7 @@ BattleMenu_SafariBall:
 
 .tutorial
 	farcall TutorialPack
-	ld a, POKE_BALL
+	ld a, TOHO_BALL
 	ld [wCurItem], a
 	call DoItemEffect
 	jr .UseItem
@@ -6928,7 +6928,7 @@ GiveBattleEVs:
 	ld hl, MON_PKRUS
 	add hl, bc
 	ld a, [hl]
-	and POKERUS_MASK
+	and TOHORUS_MASK
 	jr z, .check_item
 	set 0, d
 .check_item

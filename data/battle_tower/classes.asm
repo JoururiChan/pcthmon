@@ -1,7 +1,7 @@
 BattleTowerTrainers:
 	table_width (NAME_LENGTH - 1) + 1
 	rawchar "Yayoi@@@@@", ARTIST
-	rawchar "Sawyer@@@@", POKEMANIAC
+	rawchar "Sawyer@@@@", TOHOMANIAC
 	rawchar "Santiago@@", FISHER
 	rawchar "Mordecai@@", PI
 	rawchar "Newman@@@@", SAILOR
@@ -49,7 +49,7 @@ BattleTowerTrainers:
 	rawchar "York@@@@@@", SOLDIER
 	rawchar "Chelsea@@@", MEDIUM
 	rawchar "Kuroki@@@@", HEX_MANIAC
-	rawchar "Hitesh@@@@", POKEMANIAC
+	rawchar "Hitesh@@@@", TOHOMANIAC
 	rawchar "Abdul@@@@@", ENGINEER
 	rawchar "Emily@@@@@", LASS
 	rawchar "Hopper@@@@", VETERANF
@@ -98,7 +98,7 @@ BattleTowerTrainers:
 	rawchar "Kafuka@@@@", SCHOOLGIRL
 	rawchar "Hong@@@@@@", TEACHER
 	rawchar "Pov@@@@@@@", BOARDER
-	rawchar "Collins@@@", POKEFANM
+	rawchar "Collins@@@", TOHOFANM
 	rawchar "Darwin@@@@", BUG_CATCHER
 	rawchar "Tatiana@@@", NURSE
 	rawchar "Pitt@@@@@@", RUIN_MANIAC
@@ -108,7 +108,7 @@ BattleTowerTrainers:
 	rawchar "Kirby@@@@@", BUG_MANIAC
 	rawchar "Ricky@@@@@", BIRD_KEEPER
 	rawchar "Joan@@@@@@", GUITARISTF
-	rawchar "Abed@@@@@@", POKEFANM
+	rawchar "Abed@@@@@@", TOHOFANM
 	rawchar "Amelia@@@@", SIGHTSEERF
 	rawchar "Deedee@@@@", GUITARISTF
 	rawchar "Garrett@@@", JUGGLER
@@ -117,12 +117,12 @@ BattleTowerTrainers:
 	rawchar "Dijkstra@@", VETERANM
 	rawchar "Raine@@@@@", COOLTRAINERF
 	rawchar "Dorothy@@@", SKIER
-	rawchar "Shirley@@@", POKEFANF
+	rawchar "Shirley@@@", TOHOFANF
 	rawchar "Douglas@@@", SIGHTSEERM
 	rawchar "Armstrong@", BIKER
 	rawchar "Remy@@@@@@", VETERANF
 	rawchar "Drake@@@@@", RICH_BOY
-	rawchar "Mori@@@@@@", POKEFANF
+	rawchar "Mori@@@@@@", TOHOFANF
 	rawchar "Jorge@@@@@", DRAGON_TAMER
 	rawchar "Lavigne@@@", SCHOOLGIRL
 	rawchar "Paul@@@@@@", GUITARISTM

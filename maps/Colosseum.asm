@@ -7,8 +7,8 @@ Colosseum_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, ColosseumScript_InitializeCB
 
 	def_warp_events
-	warp_event  4,  7, POKECENTER_2F, 3
-	warp_event  5,  7, POKECENTER_2F, 3
+	warp_event  4,  7, TOHOCENTER_2F, 3
+	warp_event  5,  7, TOHOCENTER_2F, 3
 
 	def_coord_events
 
@@ -41,12 +41,12 @@ ColosseumScript_SetWhichChris:
 	endcallback
 
 ColosseumScript_InitializeCB:
-	setmapscene POKECENTER_2F, $2
+	setmapscene TOHOCENTER_2F, $2
 	endcallback
 
 ColosseumScript_Initialize:
 	setscene $1
-	setmapscene POKECENTER_2F, $2
+	setmapscene TOHOCENTER_2F, $2
 	end
 
 MapColosseumSignpost1Script:

@@ -6,7 +6,7 @@ EcruteakTohoCenter1F_MapScriptHeader:
 	def_warp_events
 	warp_event  5,  7, ECRUTEAK_CITY, 6
 	warp_event  6,  7, ECRUTEAK_CITY, 6
-	warp_event  0,  7, POKECENTER_2F, 1
+	warp_event  0,  7, TOHOCENTER_2F, 1
 
 	def_coord_events
 
@@ -14,15 +14,15 @@ EcruteakTohoCenter1F_MapScriptHeader:
 	bg_event 10,  1, BGEVENT_READ, TohomonJournalMortyScript
 
 	def_object_events
-	object_event  6,  3, SPRITE_BILL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakTohoCenter1FBillScript, EVENT_ECRUTEAK_POKE_CENTER_BILL
+	object_event  6,  3, SPRITE_BILL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakTohoCenter1FBillScript, EVENT_ECRUTEAK_TOHO_CENTER_BILL
 	pc_nurse_event  5, 1
-	object_event 11,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, EcruteakTohoCenter1FTohofanMScript, -1
+	object_event 11,  6, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, EcruteakTohoCenter1FTohofanMScript, -1
 	object_event 11,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakTohoCenter1FLassScript, -1
 	object_event  1,  4, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakTohoCenter1FCooltrainerFText, -1
 	object_event  8,  1, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakTohoCenter1FGymGuyText, -1
 
 	object_const_def
-	const ECRUTEAKPOKECENTER1F_BILL
+	const ECRUTEAKTOHOCENTER1F_BILL
 
 TohomonJournalMortyScript:
 	setflag ENGINE_READ_MORTY_JOURNAL
@@ -78,11 +78,11 @@ EcruteakTohoCenter1FBillScript:
 	readvar VAR_FACING
 	turnobject PLAYER, DOWN
 	ifnotequal UP, .noleftstep
-	applyonemovement ECRUTEAKPOKECENTER1F_BILL, step_left
+	applyonemovement ECRUTEAKTOHOCENTER1F_BILL, step_left
 .noleftstep
-	applymovement ECRUTEAKPOKECENTER1F_BILL, .LeaveMovement
+	applymovement ECRUTEAKTOHOCENTER1F_BILL, .LeaveMovement
 	playsound SFX_EXIT_BUILDING
-	disappear ECRUTEAKPOKECENTER1F_BILL
+	disappear ECRUTEAKTOHOCENTER1F_BILL
 	clearevent EVENT_NEVER_MET_BILL
 	waitsfx
 	end
@@ -230,7 +230,7 @@ EcruteakTohoCenter1FLassScript:
 	writetext .QuestionText
 	yesorno
 	iffalsefwd .No
-	checkevent EVENT_ECRUTEAK_POKE_CENTER_BILL
+	checkevent EVENT_ECRUTEAK_TOHO_CENTER_BILL
 	iffalse_jumpopenedtext .HereText
 	jumpthisopenedtext
 
@@ -245,7 +245,7 @@ EcruteakTohoCenter1FLassScript:
 	done
 
 .No:
-	checkevent EVENT_ECRUTEAK_POKE_CENTER_BILL
+	checkevent EVENT_ECRUTEAK_TOHO_CENTER_BILL
 	iffalse_jumpopenedtext .HereText
 	jumpthisopenedtext
 

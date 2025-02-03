@@ -43,7 +43,7 @@ Facings:
 	dw FacingBigSLilyBlack2     ; FACING_BIG_SLILYBLACK_2
 	dw FacingStepDownFlip     ; FACING_STEP_DOWN_FLIP
 	dw FacingStepUpFlip       ; FACING_STEP_UP_FLIP
-	dw FacingTohocomNews      ; FACING_POKECOM_NEWS
+	dw FacingTohocomNews      ; FACING_TOHOCOM_NEWS
 	dw FacingMuseumDrillDown  ; FACING_MUSEUM_DRILL_DOWN
 	dw FacingMuseumDrillUp    ; FACING_MUSEUM_DRILL_UP
 	dw FacingArchTreeLeft     ; FACING_ARCH_TREE_LEFT

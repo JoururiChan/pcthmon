@@ -77,7 +77,7 @@ for x, NUM_TMS + NUM_HMS
 	givetmhm x
 endr
 	; useful items
-for x, POKE_BALL, CHERISH_BALL + 1
+for x, TOHO_BALL, CHERISH_BALL + 1
 if x != PARK_BALL && x != SAFARI_BALL
 	giveitem x, 99
 endc
@@ -264,8 +264,8 @@ endr
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
 	addcellnum PHONE_ELM
 ;	setevent EVENT_GOT_CALICE_FROM_ELM
-;	setevent EVENT_CALICE_POKEBALL_IN_ELMS_LAB
-;	setevent EVENT_CSANAE_POKEBALL_IN_ELMS_LAB
+;	setevent EVENT_CALICE_TOHOBALL_IN_ELMS_LAB
+;	setevent EVENT_CSANAE_TOHOBALL_IN_ELMS_LAB
 ;	setevent EVENT_GOT_A_TOHOMON_FROM_ELM
 ;	setevent EVENT_RIVAL_CHERRYGROVE_CITY
 ;	setevent EVENT_LYRA_IN_ELMS_LAB

@@ -290,8 +290,8 @@ DEF PARTY_LENGTH EQU 6
 ; there are five 4-bit that are left unused. for a minor memory optimization, numbers > 7 are preferred.
 ; therefore, the unused candidate numbers are %1001, %1010 %1011, %1101
 ; why did I pick %1101? I like the number 13 :)
-DEF POKERUS_CURED EQU %1101
-DEF POKERUS_MASK EQU %00001111
+DEF TOHORUS_CURED EQU %1101
+DEF TOHORUS_MASK EQU %00001111
 
 ; boxes
 DEF MONS_PER_BOX    EQU 20

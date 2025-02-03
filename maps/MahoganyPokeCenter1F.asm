@@ -6,7 +6,7 @@ MahoganyTohoCenter1F_MapScriptHeader:
 	def_warp_events
 	warp_event  5,  7, MAHOGANY_TOWN, 4
 	warp_event  6,  7, MAHOGANY_TOWN, 4
-	warp_event  0,  7, POKECENTER_2F, 1
+	warp_event  0,  7, TOHOCENTER_2F, 1
 
 	def_coord_events
 
@@ -15,7 +15,7 @@ MahoganyTohoCenter1F_MapScriptHeader:
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  9,  4, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyTohoCenter1FTohofanmText, -1
+	object_event  9,  4, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyTohoCenter1FTohofanmText, -1
 	object_event  1,  3, SPRITE_CAMPER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyTohoCenter1FYoungsterText, -1
 	object_event  2,  3, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyTohoCenter1FCooltrainerfText, -1
 

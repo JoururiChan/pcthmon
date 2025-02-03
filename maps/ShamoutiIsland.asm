@@ -5,7 +5,7 @@ ShamoutiIsland_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, ShamoutiIslandFlyPoint
 
 	def_warp_events
-	warp_event 21, 13, SHAMOUTI_POKECENTER_1F, 1
+	warp_event 21, 13, SHAMOUTI_TOHOCENTER_1F, 1
 	warp_event 33,  5, SHAMOUTI_HOTEL_1F, 1
 	warp_event 16,  7, SHAMOUTI_TUNNEL, 1
 	warp_event 27,  5, SHAMOUTI_TOURIST_CENTER, 1

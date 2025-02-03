@@ -119,7 +119,7 @@
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 76
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 77
 	tilecoll WALL, WALL, WALL, DOOR ; 78
-	tilecoll WALL, WALL, POKECENTER_SIGN, WALL ; 79
+	tilecoll WALL, WALL, TOHOCENTER_SIGN, WALL ; 79
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 7a
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 7b
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 7c

@@ -37,9 +37,9 @@ PhoneScript_AnswerPhone_Male:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -160,9 +160,9 @@ PhoneScript_AnswerPhone_Male_Day:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -283,9 +283,9 @@ PhoneScript_AnswerPhone_Male_Nite:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -397,7 +397,7 @@ PhoneScript_AnswerPhone_Female:
 	checktime (1 << EVE) | (1 << NITE)
 	iftruefwd PhoneScript_AnswerPhone_Female_Nite
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -448,7 +448,7 @@ PhoneScript_AnswerPhone_Female:
 
 PhoneScript_AnswerPhone_Female_Day:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -499,7 +499,7 @@ PhoneScript_AnswerPhone_Female_Day:
 
 PhoneScript_AnswerPhone_Female_Nite:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -567,9 +567,9 @@ PhoneScript_GreetPhone_Male:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -690,9 +690,9 @@ PhoneScript_GreetPhone_Male_Day:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -813,9 +813,9 @@ PhoneScript_GreetPhone_Male_Nite:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -927,7 +927,7 @@ PhoneScript_GreetPhone_Female:
 	checktime (1 << EVE) | (1 << NITE)
 	iftruefwd PhoneScript_GreetPhone_Female_Nite
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -978,7 +978,7 @@ PhoneScript_GreetPhone_Female:
 
 PhoneScript_GreetPhone_Female_Day:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -1029,7 +1029,7 @@ PhoneScript_GreetPhone_Female_Day:
 
 PhoneScript_GreetPhone_Female_Nite:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -1091,9 +1091,9 @@ PhoneScript_Generic_Male:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_HIKER_PARRY, .Parry
@@ -1190,7 +1190,7 @@ PhoneScript_Generic_Male:
 
 PhoneScript_Generic_Female:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz

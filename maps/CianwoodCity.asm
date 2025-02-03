@@ -7,7 +7,7 @@ CianwoodCity_MapScriptHeader:
 	def_warp_events
 	warp_event 17, 41, MANIAS_HOUSE, 1
 	warp_event  8, 43, CIANWOOD_GYM, 1
-	warp_event 23, 43, CIANWOOD_POKECENTER_1F, 1
+	warp_event 23, 43, CIANWOOD_TOHOCENTER_1F, 1
 	warp_event 15, 47, CIANWOOD_PHARMACY, 1
 	warp_event  9, 31, CIANWOOD_CITY_PHOTO_STUDIO, 1
 	warp_event 15, 37, CIANWOOD_LUGIA_SPEECH_HOUSE, 1
@@ -32,7 +32,7 @@ CianwoodCity_MapScriptHeader:
 	object_event 11, 21, SPRITE_EUSINE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CIANWOOD_CITY_EUSINE
 	tohomon_event 10, 14, SUICUNE, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_SAW_SUICUNE_AT_CIANWOOD_CITY
 	object_event 21, 37, SPRITE_CAMPER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodCityYoungsterText, -1
-	object_event 16, 33, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodCityTohofanMText, -1
+	object_event 16, 33, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodCityTohofanMText, -1
 	object_event 14, 42, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodCityLassText, -1
 	smashrock_event  8, 16
 	smashrock_event  9, 17

@@ -1,6 +1,6 @@
 ElmPhoneScript1:
 	readvar VAR_SPECIALPHONECALL
-	ifequalfwd SPECIALCALL_POKERUS, .pokerus
+	ifequalfwd SPECIALCALL_TOHORUS, .pokerus
 	checkevent EVENT_SHOWED_CKONGARA_TO_ELM
 	iftruefwd .discovery
 	checkevent EVENT_GOT_CKONGARA_EGG_FROM_ELMS_AIDE
@@ -98,7 +98,6 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveCMeiling
 	dw .EvolveChen
 	dw .EvolveTLyrica
-	dw .EvolveTLyrica
 	dw .EvolveMimeJr
 	dw .EvolveCTenshi
 	dw .EvolveStantler
@@ -181,9 +180,6 @@ ElmPhoneScript_EvolutionMethodsTable:
 	end
 .EvolveChen:
 	farwritetext ElmPhoneEvoText_Chen
-	end
-.EvolveTLyrica:
-	farwritetext ElmPhoneEvoText_TLyrica
 	end
 .EvolveTLyrica:
 	farwritetext ElmPhoneEvoText_TLyrica

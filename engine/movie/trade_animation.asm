@@ -948,7 +948,7 @@ TrademonStats_PrintTrademonID:
 
 TradeAnim_RockingBall:
 	depixel 10, 11, 4, 0
-	ld a, SPRITE_ANIM_INDEX_TRADE_POKE_BALL
+	ld a, SPRITE_ANIM_INDEX_TRADE_TOHO_BALL
 	call InitSpriteAnimStruct
 	call TradeAnim_AdvanceScriptPointer
 	ld a, $20
@@ -957,7 +957,7 @@ TradeAnim_RockingBall:
 
 TradeAnim_DropBall:
 	depixel 10, 11, 4, 0
-	ld a, SPRITE_ANIM_INDEX_TRADE_POKE_BALL
+	ld a, SPRITE_ANIM_INDEX_TRADE_TOHO_BALL
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
 	add hl, bc

@@ -21,7 +21,7 @@ GoldenrodCity_MapScriptHeader:
 	warp_event 23,  1, ROUTE_35_GOLDENROD_GATE, 3
 	warp_event 13,  5, UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, 8
 	warp_event 13, 29, UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, 5
-	warp_event 18, 27, GOLDENROD_POKECOM_CENTER_1F, 2
+	warp_event 18, 27, GOLDENROD_TOHOCOM_CENTER_1F, 2
 	warp_event  4, 16, GOLDENROD_HARBOR_GATE, 3
 	warp_event  4, 17, GOLDENROD_HARBOR_GATE, 4
 	warp_event 30, 15, GOLDENROD_MUSEUM_1F, 2
@@ -50,9 +50,9 @@ GoldenrodCity_MapScriptHeader:
 	bg_event 27, 15, BGEVENT_JUMPTEXT, GoldenrodMuseumSignText
 
 	def_object_events
-	object_event 16, 22, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoveTutor, EVENT_GOLDENROD_CITY_MOVE_TUTOR
+	object_event 16, 22, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoveTutor, EVENT_GOLDENROD_CITY_MOVE_TUTOR
 	object_event 28,  8, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodCityGymLassText, EVENT_GOLDENROD_GYM_WHITNEY
-	object_event 11, 18, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodCityTohofanMText, EVENT_GOLDENROD_CITY_CIVILIANS
+	object_event 11, 18, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodCityTohofanMText, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event 38, 17, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodCityYoungster1Text, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event 16, 16, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenrodCityCooltrainerF1Script, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event 25, 25, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoldenrodCityCooltrainerF2Script, EVENT_GOLDENROD_CITY_CIVILIANS
@@ -68,7 +68,7 @@ GoldenrodCity_MapScriptHeader:
 	object_event 35, 10, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodCityRocket6Text, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 
 	object_const_def
-	const GOLDENRODCITY_POKEFAN_M2
+	const GOLDENRODCITY_TOHOFAN_M2
 
 GoldenrodCityFlyPoint:
 	setflag ENGINE_FLYPOINT_GOLDENROD
@@ -80,11 +80,11 @@ GoldenrodCityMoveTutor:
 	iffalsefwd .MoveTutorDisappear
 	checkkeyitem COIN_CASE
 	iffalsefwd .MoveTutorDisappear
-	appear GOLDENRODCITY_POKEFAN_M2
+	appear GOLDENRODCITY_TOHOFAN_M2
 	endcallback
 
 .MoveTutorDisappear
-	disappear GOLDENRODCITY_POKEFAN_M2
+	disappear GOLDENRODCITY_TOHOFAN_M2
 	endcallback
 
 GoldenrodCityTrigger0:

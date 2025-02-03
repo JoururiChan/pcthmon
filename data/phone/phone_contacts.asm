@@ -17,7 +17,7 @@ PhoneContacts:
 	phone TRAINER_NONE, PHONECONTACT_ELM,      ELMS_LAB,                  %1111, ElmPhoneScript1,     %0000, ElmPhoneScript2
 	phone TRAINER_NONE, PHONECONTACT_LYRA,     LYRAS_HOUSE_1F,            %1111, LyraPhoneScript,     %0000, LyraPhoneScript2
 	phone SCHOOLBOY,    JACK1,                 NATIONAL_PARK,             %1111, JackPhoneScript1,    %1111, JackPhoneScript2
-	phone POKEFANF,     BEVERLY1,              NATIONAL_PARK,             %1111, BeverlyPhoneScript1, %1111, BeverlyPhoneScript2
+	phone TOHOFANF,     BEVERLY1,              NATIONAL_PARK,             %1111, BeverlyPhoneScript1, %1111, BeverlyPhoneScript2
 	phone SAILOR,       HUEY1,                 OLIVINE_LIGHTHOUSE_2F,     %1111, HueyPhoneScript1,    %1111, HueyPhoneScript2
 	phone TRAINER_NONE, PHONE_00,              N_A,                       %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
 	phone TRAINER_NONE, PHONE_00,              N_A,                       %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
@@ -38,9 +38,9 @@ PhoneContacts:
 	phone TRAINER_NONE, PHONE_00,              N_A,                       %0000, UnusedPhoneScript,   %0000, UnusedPhoneScript
 	phone LASS,         DANA1,                 ROUTE_38,                  %1111, DanaPhoneScript1,    %1111, DanaPhoneScript2
 	phone SCHOOLBOY,    CHAD1,                 ROUTE_38,                  %1111, ChadPhoneScript1,    %1111, ChadPhoneScript2
-	phone POKEFANM,     DEREK1,                ROUTE_39,                  %1111, DerekPhoneScript1,   %1111, DerekPhoneScript2
+	phone TOHOFANM,     DEREK1,                ROUTE_39,                  %1111, DerekPhoneScript1,   %1111, DerekPhoneScript2
 	phone FISHER,       TULLY1,                ROUTE_42,                  %1111, TullyPhoneScript1,   %1111, TullyPhoneScript2
-	phone POKEMANIAC,   BRENT1,                ROUTE_43,                  %1111, BrentPhoneScript1,   %1111, BrentPhoneScript2
+	phone TOHOMANIAC,   BRENT1,                ROUTE_43,                  %1111, BrentPhoneScript1,   %1111, BrentPhoneScript2
 	phone PICNICKER,    TIFFANY1,              ROUTE_43,                  %1111, TiffanyPhoneScript1, %1111, TiffanyPhoneScript2
 	phone BIRD_KEEPER,  VANCE1,                ROUTE_44,                  %1111, VancePhoneScript1,   %1111, VancePhoneScript2
 	phone FISHER,       WILTON1,               ROUTE_44,                  %1111, WiltonPhoneScript1,  %1111, WiltonPhoneScript2

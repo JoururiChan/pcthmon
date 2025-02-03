@@ -90,7 +90,7 @@ VermilionGymSurgeScript:
 	specialphonecall SPECIALCALL_FIRSTBADGE
 	sjumpfwd .FightDone
 .SecondBadge:
-	checkevent EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
+	checkevent EVENT_GOT_GS_BALL_FROM_TOHOCOM_CENTER
 	iftruefwd .FightDone
 	specialphonecall SPECIALCALL_SECONDBADGE
 	sjumpfwd .FightDone

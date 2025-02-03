@@ -6,7 +6,7 @@ CeruleanTohoCenter1F_MapScriptHeader:
 	def_warp_events
 	warp_event  5,  7, CERULEAN_CITY, 4
 	warp_event  6,  7, CERULEAN_CITY, 4
-	warp_event  0,  7, POKECENTER_2F, 1
+	warp_event  0,  7, TOHOCENTER_2F, 1
 
 	def_coord_events
 
@@ -16,7 +16,7 @@ CeruleanTohoCenter1F_MapScriptHeader:
 	def_object_events
 	pc_nurse_event  5, 1
 	object_event  1,  5, SPRITE_GYM_GUY, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeruleanTohoCenter1FGymGuyScript, -1
-	object_event  8,  4, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanTohoCenter1FSuperNerdText, -1
+	object_event  8,  4, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanTohoCenter1FSuperNerdText, -1
 
 TohomonJournalMistyScript:
 	setflag ENGINE_READ_MISTY_JOURNAL

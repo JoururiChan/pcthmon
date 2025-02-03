@@ -6,7 +6,7 @@ FuchsiaTohoCenter1F_MapScriptHeader:
 	def_warp_events
 	warp_event  5,  7, FUCHSIA_CITY, 4
 	warp_event  6,  7, FUCHSIA_CITY, 4
-	warp_event  0,  7, POKECENTER_2F, 1
+	warp_event  0,  7, TOHOCENTER_2F, 1
 
 	def_coord_events
 
@@ -20,7 +20,7 @@ FuchsiaTohoCenter1F_MapScriptHeader:
 	object_event  1,  4, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaTohoCenter1FCooltrainerFText, -1
 
 	object_const_def
-	const FUCHSIAPOKECENTER1F_JANINE_IMPERSONATOR
+	const FUCHSIATOHOCENTER1F_JANINE_IMPERSONATOR
 
 TohomonJournalJanineScript:
 	setflag ENGINE_READ_JANINE_JOURNAL
@@ -41,12 +41,12 @@ TohomonJournalJanineScript:
 
 JanineImpersonatorScript:
 	showtextfaceplayer .Text1
-	applymovement FUCHSIAPOKECENTER1F_JANINE_IMPERSONATOR, .SpinMovement
+	applymovement FUCHSIATOHOCENTER1F_JANINE_IMPERSONATOR, .SpinMovement
 	faceplayer
 	variablesprite SPRITE_JANINE_IMPERSONATOR, SPRITE_JANINE
 	special RefreshSprites
 	showtext .Text2
-	applymovement FUCHSIAPOKECENTER1F_JANINE_IMPERSONATOR, .SpinMovement
+	applymovement FUCHSIATOHOCENTER1F_JANINE_IMPERSONATOR, .SpinMovement
 	faceplayer
 	variablesprite SPRITE_JANINE_IMPERSONATOR, SPRITE_CUTE_GIRL
 	special RefreshSprites

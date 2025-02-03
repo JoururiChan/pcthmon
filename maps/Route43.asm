@@ -22,9 +22,9 @@ Route43_MapScriptHeader:
 
 	def_object_events
 	object_event  1,  6, SPRITE_LADY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route43SightseerfScript, -1
-	object_event 13,  5, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohomaniacBen, -1
-	object_event 13, 20, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerTohomaniacBrent1, -1
-	object_event 14,  7, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohomaniacRon, -1
+	object_event 13,  5, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohomaniacBen, -1
+	object_event 13, 20, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerTohomaniacBrent1, -1
+	object_event 14,  7, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohomaniacRon, -1
 	object_event  4, 16, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerFisherMarvin, -1
 	object_event  8, 10, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerPicnickerTiffany1, -1
 	object_event 13, 40, SPRITE_CAMPER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerCamperSpencer, -1
@@ -70,11 +70,11 @@ Route43SightseerfScript:
 	iffalse_jumptext .IntroText
 	checkevent EVENT_BEAT_CAMPER_SPENCER
 	iffalse_jumptext .IntroText
-	checkevent EVENT_BEAT_POKEMANIAC_BEN
+	checkevent EVENT_BEAT_TOHOMANIAC_BEN
 	iffalse_jumptext .IntroText
-	checkevent EVENT_BEAT_POKEMANIAC_BRENT
+	checkevent EVENT_BEAT_TOHOMANIAC_BRENT
 	iffalse_jumptext .IntroText
-	checkevent EVENT_BEAT_POKEMANIAC_RON
+	checkevent EVENT_BEAT_TOHOMANIAC_RON
 	iffalse_jumptext .IntroText
 	checkevent EVENT_BEAT_FISHER_MARVIN
 	iffalse_jumptext .IntroText
@@ -221,7 +221,7 @@ GenericTrainerCamperSpencer:
 	done
 
 GenericTrainerTohomaniacBen:
-	generictrainer POKEMANIAC, BEN, EVENT_BEAT_POKEMANIAC_BEN, TohomaniacBenSeenText, TohomaniacBenBeatenText
+	generictrainer TOHOMANIAC, BEN, EVENT_BEAT_TOHOMANIAC_BEN, TohomaniacBenSeenText, TohomaniacBenBeatenText
 
 	text "What else do I"
 	line "like besides"
@@ -232,14 +232,14 @@ GenericTrainerTohomaniacBen:
 	done
 
 TrainerTohomaniacBrent1:
-	trainer POKEMANIAC, BRENT1, EVENT_BEAT_POKEMANIAC_BRENT, TohomaniacBrent1SeenText, TohomaniacBrent1BeatenText, 0, TohomaniacBrent1Script
+	trainer TOHOMANIAC, BRENT1, EVENT_BEAT_TOHOMANIAC_BRENT, TohomaniacBrent1SeenText, TohomaniacBrent1BeatenText, 0, TohomaniacBrent1Script
 
 TohomaniacBrent1Script:
-	loadvar VAR_CALLERID, PHONE_POKEMANIAC_BRENT
+	loadvar VAR_CALLERID, PHONE_TOHOMANIAC_BRENT
 	opentext
 	checkflag ENGINE_BRENT_READY_FOR_REMATCH
 	iftruefwd .WantsBattle
-	checkcellnum PHONE_POKEMANIAC_BRENT
+	checkcellnum PHONE_TOHOMANIAC_BRENT
 	iftruefwd .NumberAccepted
 	checkevent EVENT_BRENT_ASKED_FOR_PHONE_NUMBER
 	iftruefwd .AskedAlready
@@ -252,10 +252,10 @@ TohomaniacBrent1Script:
 .AskedAlready:
 	scall .AskNumber2
 .AskForNumber:
-	askforphonenumber PHONE_POKEMANIAC_BRENT
+	askforphonenumber PHONE_TOHOMANIAC_BRENT
 	ifequalfwd $1, .PhoneFull
 	ifequalfwd $2, .NumberDeclined
-	gettrainername POKEMANIAC, BRENT1, $0
+	gettrainername TOHOMANIAC, BRENT1, $0
 	scall .RegisteredNumber
 	sjumpfwd .NumberAccepted
 
@@ -277,7 +277,7 @@ TohomaniacBrent1Script:
 	checkevent EVENT_CLEARED_ROCKET_HIDEOUT
 	iftruefwd .LoadFight1
 .LoadFight0:
-	loadtrainer POKEMANIAC, BRENT1
+	loadtrainer TOHOMANIAC, BRENT1
 	startbattle
 	reloadmapafterbattle
 	loadmem wBrentFightCount, 1
@@ -285,7 +285,7 @@ TohomaniacBrent1Script:
 	end
 
 .LoadFight1:
-	loadtrainer POKEMANIAC, BRENT2
+	loadtrainer TOHOMANIAC, BRENT2
 	startbattle
 	reloadmapafterbattle
 	loadmem wBrentFightCount, 2
@@ -293,7 +293,7 @@ TohomaniacBrent1Script:
 	end
 
 .LoadFight2:
-	loadtrainer POKEMANIAC, BRENT3
+	loadtrainer TOHOMANIAC, BRENT3
 	startbattle
 	reloadmapafterbattle
 	loadmem wBrentFightCount, 3
@@ -301,7 +301,7 @@ TohomaniacBrent1Script:
 	end
 
 .LoadFight3:
-	loadtrainer POKEMANIAC, BRENT4
+	loadtrainer TOHOMANIAC, BRENT4
 	startbattle
 	reloadmapafterbattle
 	clearflag ENGINE_BRENT_READY_FOR_REMATCH
@@ -329,7 +329,7 @@ TohomaniacBrent1Script:
 	jumpstd rematchm
 
 GenericTrainerTohomaniacRon:
-	generictrainer POKEMANIAC, RON, EVENT_BEAT_POKEMANIAC_RON, TohomaniacRonSeenText, TohomaniacRonBeatenText
+	generictrainer TOHOMANIAC, RON, EVENT_BEAT_TOHOMANIAC_RON, TohomaniacRonSeenText, TohomaniacRonBeatenText
 
 	text "It's OK for people"
 	line "to like different"

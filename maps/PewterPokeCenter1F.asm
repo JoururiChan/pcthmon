@@ -6,7 +6,7 @@ PewterTohoCenter1F_MapScriptHeader:
 	def_warp_events
 	warp_event  5,  7, PEWTER_CITY, 4
 	warp_event  6,  7, PEWTER_CITY, 4
-	warp_event  0,  7, POKECENTER_2F, 1
+	warp_event  0,  7, TOHOCENTER_2F, 1
 
 	def_coord_events
 
@@ -16,8 +16,8 @@ PewterTohoCenter1F_MapScriptHeader:
 	def_object_events
 	pc_nurse_event  5, 1
 	tohomon_event  2,  3, ELLEN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, PewterEllenText, -1
-	object_event  8,  2, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, trade, NPC_TRADE_CHRIS, -1
-	object_event 11,  5, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, PewterTohoCenter1FTeacherText, -1
+	object_event  8,  2, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, trade, NPC_TRADE_CHRIS, -1
+	object_event 11,  5, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, PewterTohoCenter1FTeacherText, -1
 	object_event  3,  3, SPRITE_CHILD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, PewterTohoCenter1FChildText, -1
 
 TohomonJournalBrockScript:

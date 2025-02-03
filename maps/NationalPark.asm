@@ -24,11 +24,11 @@ NationalPark_MapScriptHeader:
 	object_event 28,  6, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NationalParkGameboyKidScript, -1
 	object_event 13, 41, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerSchoolgirlEliza, -1
 	object_event 12, 41, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerSchoolboyJohnny, -1
-	object_event 19, 41, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, NationalParkTeacher2Text, -1
+	object_event 19, 41, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, NationalParkTeacher2Text, -1
 	tohomon_event 28, 40, PERSIAN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, NationalParkPersianText, -1
 	object_event 29, 23, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerSchoolboyJack1, -1
-	object_event 20, 29, SPRITE_POKEFAN_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerTohofanfBeverly1, -1
-	object_event 18,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohofanmWilliam, -1
+	object_event 20, 29, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerTohofanfBeverly1, -1
+	object_event 18,  9, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohofanmWilliam, -1
 	object_event 10, 14, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerLassKrise, -1
 	object_event 28, 13, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBugManiacLou, -1
 	object_event  4, 19, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OfficermKeithScript, -1
@@ -211,7 +211,7 @@ SchoolboyJack1Script:
 	jumpstd rematchm
 
 GenericTrainerTohofanmWilliam:
-	generictrainer POKEFANM, WILLIAM, EVENT_BEAT_POKEFANM_WILLIAM, TohofanmWilliamSeenText, TohofanmWilliamBeatenText
+	generictrainer TOHOFANM, WILLIAM, EVENT_BEAT_TOHOFANM_WILLIAM, TohofanmWilliamSeenText, TohofanmWilliamBeatenText
 
 	text "I lost the battle,"
 	line "but my #mon win"
@@ -221,14 +221,14 @@ GenericTrainerTohofanmWilliam:
 	done
 
 TrainerTohofanfBeverly1:
-	trainer POKEFANF, BEVERLY1, EVENT_BEAT_POKEFANF_BEVERLY, TohofanfBeverly1SeenText, TohofanfBeverly1BeatenText, 0, TohofanfBeverly1Script
+	trainer TOHOFANF, BEVERLY1, EVENT_BEAT_TOHOFANF_BEVERLY, TohofanfBeverly1SeenText, TohofanfBeverly1BeatenText, 0, TohofanfBeverly1Script
 
 TohofanfBeverly1Script:
-	loadvar VAR_CALLERID, PHONE_POKEFAN_BEVERLY
+	loadvar VAR_CALLERID, PHONE_TOHOFAN_BEVERLY
 	opentext
 	checkflag ENGINE_BEVERLY_HAS_NUGGET
 	iftruefwd .GiveNugget
-	checkcellnum PHONE_POKEFAN_BEVERLY
+	checkcellnum PHONE_TOHOFAN_BEVERLY
 	iftruefwd .NumberAccepted
 	checkpoke MARILL
 	iffalsefwd .NoMarill
@@ -243,10 +243,10 @@ TohofanfBeverly1Script:
 .AskAgain:
 	scall .AskNumber2
 .RequestNumber:
-	askforphonenumber PHONE_POKEFAN_BEVERLY
+	askforphonenumber PHONE_TOHOFAN_BEVERLY
 	ifequalfwd $1, .PhoneFull
 	ifequalfwd $2, .NumberDeclined
-	gettrainername POKEFANF, BEVERLY1, $0
+	gettrainername TOHOFANF, BEVERLY1, $0
 	scall .RegisteredNumber
 	sjumpfwd .NumberAccepted
 

@@ -78,7 +78,7 @@
 	define MOVES_OFFSET,       2
 	define FORM_OFFSET,       21
 	define PP_OFFSET,         22
-	define POKERUS_OFFSET,    27
+	define TOHORUS_OFFSET,    27
 	define CAUGHTBALL_OFFSET, 28
 
 ; tohomon struct constants

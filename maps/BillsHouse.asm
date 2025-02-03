@@ -47,7 +47,7 @@ BillsHousePCText:
 	done
 
 BillsHouseBillScript:
-	checkevent EVENT_BEAT_POKEMANIAC_BILL
+	checkevent EVENT_BEAT_TOHOMANIAC_BILL
 	iftrue_jumptextfaceplayer .AfterText
 	special SpecialBeastsCheck
 	iffalse_jumptextfaceplayer .IntroText
@@ -62,7 +62,7 @@ BillsHouseBillScript:
 	loadtrainer BILL_T, 1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_POKEMANIAC_BILL
+	setevent EVENT_BEAT_TOHOMANIAC_BILL
 	jumpthistext
 
 .AfterText:

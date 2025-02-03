@@ -173,7 +173,7 @@ BattleAnim_ThrowTohoBall:
 	anim_jumpif -1, .TheTrainerBlockedTheBall
 	anim_jumpif MASTER_BALL, .MasterBall
 	; any other ball
-	anim_3gfx ANIM_GFX_POKE_BALL, ANIM_GFX_POKE_BALL_BG, ANIM_GFX_SMOKE
+	anim_3gfx ANIM_GFX_TOHO_BALL, ANIM_GFX_TOHO_BALL_BG, ANIM_GFX_SMOKE
 	anim_checkcriticalcapture
 	anim_jumpvar $10, .CriticalSFX
 	anim_sound 6, 2, SFX_THROW_BALL
@@ -181,12 +181,12 @@ BattleAnim_ThrowTohoBall:
 .CriticalSFX:
 	anim_sound 6, 1, SFX_CRITICAL_CAPTURE
 .DoneSFX:
-	anim_obj ANIM_OBJ_POKE_BALL,   8, 4,  11, 4, $40
-	anim_obj ANIM_OBJ_POKE_BALL_BG,   8, 4,  11, 4, $40
+	anim_obj ANIM_OBJ_TOHO_BALL,   8, 4,  11, 4, $40
+	anim_obj ANIM_OBJ_TOHO_BALL_BG,   8, 4,  11, 4, $40
 	anim_wait 36
-	anim_obj ANIM_OBJ_POKE_BALL, -15, 0,   8, 1, $0
+	anim_obj ANIM_OBJ_TOHO_BALL, -15, 0,   8, 1, $0
 	anim_setobj $3, $7
-	anim_obj ANIM_OBJ_POKE_BALL_BG, -15, 0,   8, 1, $0
+	anim_obj ANIM_OBJ_TOHO_BALL_BG, -15, 0,   8, 1, $0
 	anim_setobj $4, $7
 	anim_wait 16
 	anim_sound 0, 1, SFX_BALL_POOF
@@ -195,23 +195,23 @@ BattleAnim_ThrowTohoBall:
 	anim_jump .Shake
 
 .TheTrainerBlockedTheBall:
-	anim_2gfx ANIM_GFX_POKE_BALL, ANIM_GFX_HIT
+	anim_2gfx ANIM_GFX_TOHO_BALL, ANIM_GFX_HIT
 	anim_sound 6, 2, SFX_THROW_BALL
-	anim_obj ANIM_OBJ_POKE_BALL_BLOCKED,   8, 0,  11, 4, $20
+	anim_obj ANIM_OBJ_TOHO_BALL_BLOCKED,   8, 0,  11, 4, $20
 	anim_wait 20
 	anim_obj ANIM_OBJ_HIT_YFIX,  14, 0,   5, 0, $0
 	anim_wait 32
 	anim_ret
 
 .MasterBall:
-	anim_4gfx ANIM_GFX_POKE_BALL, ANIM_GFX_POKE_BALL_BG, ANIM_GFX_SMOKE, ANIM_GFX_SPEED
+	anim_4gfx ANIM_GFX_TOHO_BALL, ANIM_GFX_TOHO_BALL_BG, ANIM_GFX_SMOKE, ANIM_GFX_SPEED
 	anim_sound 6, 2, SFX_THROW_BALL
-	anim_obj ANIM_OBJ_POKE_BALL,   8, 0,  11, 4, $20
-	anim_obj ANIM_OBJ_POKE_BALL_BG,   8, 0,  11, 4, $20
+	anim_obj ANIM_OBJ_TOHO_BALL,   8, 0,  11, 4, $20
+	anim_obj ANIM_OBJ_TOHO_BALL_BG,   8, 0,  11, 4, $20
 	anim_wait 36
-	anim_obj ANIM_OBJ_POKE_BALL, -15, 0,   8, 1, $0
+	anim_obj ANIM_OBJ_TOHO_BALL, -15, 0,   8, 1, $0
 	anim_setobj $3, $7
-	anim_obj ANIM_OBJ_POKE_BALL_BG, -15, 0,   8, 1, $0
+	anim_obj ANIM_OBJ_TOHO_BALL_BG, -15, 0,   8, 1, $0
 	anim_setobj $4, $7
 	anim_wait 16
 	anim_sound 0, 1, SFX_BALL_POOF

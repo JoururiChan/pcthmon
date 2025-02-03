@@ -6,7 +6,7 @@ VioletTohoCenter1F_MapScriptHeader:
 	def_warp_events
 	warp_event  5,  7, VIOLET_CITY, 5
 	warp_event  6,  7, VIOLET_CITY, 5
-	warp_event  0,  7, POKECENTER_2F, 1
+	warp_event  0,  7, TOHOCENTER_2F, 1
 
 	def_coord_events
 
@@ -22,7 +22,7 @@ VioletTohoCenter1F_MapScriptHeader:
 	object_event 11,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VioletTohoCenter1FYoungsterText, -1
 
 	object_const_def
-	const VIOLETPOKECENTER1F_SCIENTIST
+	const VIOLETTOHOCENTER1F_SCIENTIST
 
 TohomonJournalFalknerScript:
 	setflag ENGINE_READ_FALKNER_JOURNAL
@@ -65,15 +65,15 @@ VioletTohoCenter1FElmsAideScript:
 	readvar VAR_FACING
 	ifequalfwd UP, .AideWalksAroundPlayer
 	turnobject PLAYER, DOWN
-	applymovement VIOLETPOKECENTER1F_SCIENTIST, .WalkStraightMovement
+	applymovement VIOLETTOHOCENTER1F_SCIENTIST, .WalkStraightMovement
 	sjumpfwd .Finish
 .AideWalksAroundPlayer:
-	applymovement VIOLETPOKECENTER1F_SCIENTIST, .WalkAroundMovement
+	applymovement VIOLETTOHOCENTER1F_SCIENTIST, .WalkAroundMovement
 	turnobject PLAYER, DOWN
-	applymovement VIOLETPOKECENTER1F_SCIENTIST, .WalkDownMovement
+	applymovement VIOLETTOHOCENTER1F_SCIENTIST, .WalkDownMovement
 .Finish:
 	playsound SFX_EXIT_BUILDING
-	disappear VIOLETPOKECENTER1F_SCIENTIST
+	disappear VIOLETTOHOCENTER1F_SCIENTIST
 	waitsfx
 	end
 

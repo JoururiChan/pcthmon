@@ -6,7 +6,7 @@ ShamoutiTohoCenter1F_MapScriptHeader:
 	def_warp_events
 	warp_event  5,  7, SHAMOUTI_ISLAND, 1
 	warp_event  6,  7, SHAMOUTI_ISLAND, 1
-	warp_event  0,  7, POKECENTER_2F, 1
+	warp_event  0,  7, TOHOCENTER_2F, 1
 
 	def_coord_events
 
@@ -14,11 +14,11 @@ ShamoutiTohoCenter1F_MapScriptHeader:
 	bg_event 10,  1, BGEVENT_READ, TohomonJournalLoreleiScript
 
 	def_object_events
-	object_event  6,  3, SPRITE_IVY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ShamoutiTohoCenter1FIvyScript, EVENT_SHAMOUTI_POKE_CENTER_IVY
+	object_event  6,  3, SPRITE_IVY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ShamoutiTohoCenter1FIvyScript, EVENT_SHAMOUTI_TOHO_CENTER_IVY
 	pc_nurse_event  5, 1
 
 	object_const_def
-	const SHAMOUTIPOKECENTER1F_IVY
+	const SHAMOUTITOHOCENTER1F_IVY
 
 TohomonJournalLoreleiScript:
 	setflag ENGINE_READ_LORELEI_JOURNAL
@@ -96,15 +96,15 @@ ShamoutiTohoCenter1FIvyScript:
 	readvar VAR_FACING
 	turnobject PLAYER, DOWN
 	ifnotequal UP, .noleftstep
-	applyonemovement SHAMOUTIPOKECENTER1F_IVY, step_left
+	applyonemovement SHAMOUTITOHOCENTER1F_IVY, step_left
 .noleftstep
-	applymovement SHAMOUTIPOKECENTER1F_IVY, .DownMovement
+	applymovement SHAMOUTITOHOCENTER1F_IVY, .DownMovement
 	playsound SFX_EXIT_BUILDING
-	disappear SHAMOUTIPOKECENTER1F_IVY
+	disappear SHAMOUTITOHOCENTER1F_IVY
 	setevent EVENT_GOT_A_TOHOMON_FROM_IVY
 	checkevent EVENT_BEAT_YELLOW
 	iffalsefwd .skip
-	clearevent EVENT_INDIGO_PLATEAU_POKECENTER_YELLOW
+	clearevent EVENT_INDIGO_PLATEAU_TOHOCENTER_YELLOW
 .skip
 	waitsfx
 	end

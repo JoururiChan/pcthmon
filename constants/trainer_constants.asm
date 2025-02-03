@@ -342,7 +342,7 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass GRUNTF ; 29
 
-	trainerclass POKEFANM ; 2a
+	trainerclass TOHOFANM ; 2a
 	const DEREK1
 	const DEREK2
 	const DEREK3
@@ -358,7 +358,6 @@ DEF CRYS EQU __trainer_class__
 	const REX
 	const ALLAN
 
-	trainerclass POKEFANF ; 2b
 	const BEVERLY1
 	const BEVERLY2
 	const BEVERLY3
@@ -383,7 +382,7 @@ DEF CRYS EQU __trainer_class__
 	const JOY
 	const WINIFRED
 
-	trainerclass POKEMANIAC ; 2f
+	trainerclass TOHOMANIAC ; 2f
 	const BRENT1
 	const BRENT2
 	const BRENT3
@@ -443,7 +442,7 @@ DEF CRYS EQU __trainer_class__
 	const LAURA
 	const SHANNON
 	const MICHELLE
-	const ELLEN
+	const ELLEN_T
 	const IRIS
 	const MIRIAM
 	const LAYLA
@@ -451,7 +450,7 @@ DEF CRYS EQU __trainer_class__
 	const MEADOW
 	const JENNIFER
 	const GINA
-	const ALICE
+	const ALICE_T
 	const DUPLICA
 
 	trainerclass BEAUTY ; 33
@@ -547,7 +546,7 @@ DEF CRYS EQU __trainer_class__
 	trainerclass SCHOOLGIRL ; 39
 	const MOLLY
 	const ELIZA
-	const FAITH
+	const FAITH_T
 	const SARAH
 	const ISABEL
 	const IMOGEN

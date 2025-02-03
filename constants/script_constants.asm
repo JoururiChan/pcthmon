@@ -24,11 +24,11 @@ DEF STRING_BUFFER_LENGTH EQU 19
 
 ; checkpokemail return values
 	const_def
-	const POKEMAIL_WRONG_MAIL ; 0
-	const POKEMAIL_CORRECT    ; 1
-	const POKEMAIL_REFUSED    ; 2
-	const POKEMAIL_NO_MAIL    ; 3
-	const POKEMAIL_LAST_MON   ; 4
+	const TOHOMAIL_WRONG_MAIL ; 0
+	const TOHOMAIL_CORRECT    ; 1
+	const TOHOMAIL_REFUSED    ; 2
+	const TOHOMAIL_NO_MAIL    ; 3
+	const TOHOMAIL_LAST_MON   ; 4
 
 ; askforphonenumber return values
 	const_def
@@ -313,7 +313,7 @@ DEF BUG_CONTESTANT_SIZE EQU 4
 ; HealMachineAnim setval arguments
 ; HealMachineAnim.Pointers indexes (see engine/events/heal_machine_anim.asm)
 	const_def
-	const HEALMACHINE_POKECENTER   ; 0
+	const HEALMACHINE_TOHOCENTER   ; 0
 	const HEALMACHINE_ELMS_LAB     ; 1
 	const HEALMACHINE_HALL_OF_FAME ; 2
 

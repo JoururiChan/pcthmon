@@ -284,7 +284,7 @@ SpecialSnorlaxAwake:
 
 ; check background music
 	ld a, [wMapMusic]
-	cp MUSIC_POKE_FLUTE_CHANNEL
+	cp MUSIC_TOHO_FLUTE_CHANNEL
 	ld a, TRUE
 	jr z, .done
 	xor a ; ld a, FALSE

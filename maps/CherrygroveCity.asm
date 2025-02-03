@@ -6,7 +6,7 @@ CherrygroveCity_MapScriptHeader:
 
 	def_warp_events
 	warp_event 23,  3, CHERRYGROVE_MART, 2
-	warp_event 29,  3, CHERRYGROVE_POKECENTER_1F, 1
+	warp_event 29,  3, CHERRYGROVE_TOHOCENTER_1F, 1
 	warp_event 17,  7, CHERRYGROVE_GYM_SPEECH_HOUSE, 1
 	warp_event 25,  9, GUIDE_GENTS_HOUSE, 1
 	warp_event 31, 11, CHERRYGROVE_EVOLUTION_SPEECH_HOUSE, 1
@@ -25,7 +25,7 @@ CherrygroveCity_MapScriptHeader:
 	def_object_events
 	object_event 32,  6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygroveCityGuideGent, EVENT_GUIDE_GENT_IN_HIS_HOUSE
 	object_event 39,  6, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_CHERRYGROVE_CITY
-	object_event 25, 13, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygroveTeacherText_HaveMapCard, -1
+	object_event 25, 13, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygroveTeacherText_HaveMapCard, -1
 	object_event 23,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CherrygroveYoungsterScript, -1
 	object_event  7, 12, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MysticWaterGuy, -1
 	tohomon_event 26, 13, PIDGEY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, CherrygrovePidgeyText, -1

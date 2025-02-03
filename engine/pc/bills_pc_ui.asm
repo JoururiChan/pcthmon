@@ -1183,12 +1183,12 @@ _GetCursorMon:
 	ld [hl], $43
 .not_shiny
 	ld a, [wTempMonTohorusStatus]
-	and POKERUS_MASK
+	and TOHORUS_MASK
 	inc hl
 	jr z, .did_pokerus
 	; TODO: smiley face if cured (use shiny color + custom color 3?)
 	ld [hl], "."
-	cp POKERUS_CURED
+	cp TOHORUS_CURED
 	jr z, .did_pokerus
 	ld [hl], $40 ; Rs
 .did_pokerus

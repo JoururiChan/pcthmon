@@ -61,7 +61,7 @@ FuchsiaGymJanineScript:
 	specialphonecall SPECIALCALL_FIRSTBADGE
 	sjumpfwd .AfterBattle
 .SecondBadge:
-	checkevent EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
+	checkevent EVENT_GOT_GS_BALL_FROM_TOHOCOM_CENTER
 	iftruefwd .AfterBattle
 	specialphonecall SPECIALCALL_SECONDBADGE
 	sjumpfwd .AfterBattle

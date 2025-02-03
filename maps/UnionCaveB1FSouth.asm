@@ -17,8 +17,8 @@ UnionCaveB1FSouth_MapScriptHeader:
 	bg_event  4, 30, BGEVENT_ITEM + FULL_RESTORE, EVENT_UNION_CAVE_B1F_SOUTH_HIDDEN_FULL_RESTORE
 
 	def_object_events
-	object_event  5,  4, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacAndrew, -1
-	object_event 17,  2, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacCalvin, -1
+	object_event  5,  4, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacAndrew, -1
+	object_event 17,  2, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacCalvin, -1
 	object_event 16, 13, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerHikerPhillip, -1
 	object_event 14, 30, SPRITE_HIKER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerHikerLeonard, -1
 	object_event  3, 20, SPRITE_FIREBREATHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerFirebreatherJay, -1
@@ -33,7 +33,7 @@ UnionCaveB1FSouth_MapScriptHeader:
 	itemball_event  2, 28, LIGHT_CLAY, 1, EVENT_UNION_CAVE_B1F_SOUTH_LIGHT_CLAY
 
 GenericTrainerTohomaniacAndrew:
-	generictrainer POKEMANIAC, ANDREW, EVENT_BEAT_POKEMANIAC_ANDREW, TohomaniacAndrewSeenText, TohomaniacAndrewBeatenText
+	generictrainer TOHOMANIAC, ANDREW, EVENT_BEAT_TOHOMANIAC_ANDREW, TohomaniacAndrewSeenText, TohomaniacAndrewBeatenText
 
 	text "Just me and my"
 	line "#mon. I'm de-"
@@ -53,7 +53,7 @@ TohomaniacAndrewBeatenText:
 	done
 
 GenericTrainerTohomaniacCalvin:
-	generictrainer POKEMANIAC, CALVIN, EVENT_BEAT_POKEMANIAC_CALVIN, TohomaniacCalvinSeenText, TohomaniacCalvinBeatenText
+	generictrainer TOHOMANIAC, CALVIN, EVENT_BEAT_TOHOMANIAC_CALVIN, TohomaniacCalvinSeenText, TohomaniacCalvinBeatenText
 
 	text "I should compile"
 	line "and announce my"

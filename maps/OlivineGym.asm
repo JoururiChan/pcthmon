@@ -69,7 +69,7 @@ OlivineGymGuyScript:
 	done
 
 OlivineGymLassConnie:
-	trainer 0, 0, EVENT_SPOKE_TO_LASS_CONNIE, .SeenText, 0, 0, .Script
+	trainer 0, 0, EVENT_STOHO_TO_LASS_CONNIE, .SeenText, 0, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -103,7 +103,7 @@ OlivineGymLassConnie:
 	done
 
 OlivineGymGentlemanPreston:
-	trainer 0, 0, EVENT_SPOKE_TO_GENTLEMAN_PRESTON, .SeenText, 0, 0, .Script
+	trainer 0, 0, EVENT_STOHO_TO_GENTLEMAN_PRESTON, .SeenText, 0, 0, .Script
 
 .Script:
 	endifjustbattled

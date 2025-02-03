@@ -236,7 +236,7 @@ DEF SPAWN_LEAF  EQU 2
 	const STATUSFLAGS_TOHODEX_F                  ; 0
 	const STATUSFLAGS_HINA_DEX_F                ; 1
 	const STATUSFLAGS_FLASH_F                    ; 2
-	const STATUSFLAGS_CAUGHT_POKERUS_F           ; 3
+	const STATUSFLAGS_CAUGHT_TOHORUS_F           ; 3
 	const STATUSFLAGS_ROCKET_SIGNAL_F            ; 4
 	const STATUSFLAGS_NO_WILD_ENCOUNTERS_F       ; 5
 	const STATUSFLAGS_HALL_OF_FAME_F             ; 6
@@ -291,12 +291,12 @@ DEF NUM_BADGES EQU NUM_JOHTO_BADGES + NUM_KANTO_BADGES
 
 ; wTohogearFlags::
 	const_def
-	const POKEGEAR_MAP_CARD_F   ; 0
-	const POKEGEAR_RADIO_CARD_F ; 1
-	const POKEGEAR_PHONE_CARD_F ; 2
-	const POKEGEAR_EXPN_CARD_F  ; 3
+	const TOHOGEAR_MAP_CARD_F   ; 0
+	const TOHOGEAR_RADIO_CARD_F ; 1
+	const TOHOGEAR_PHONE_CARD_F ; 2
+	const TOHOGEAR_EXPN_CARD_F  ; 3
 	const_skip 3
-	const POKEGEAR_OBTAINED_F   ; 7
+	const TOHOGEAR_OBTAINED_F   ; 7
 
 ; wRegisteredItemFlags::
 	const_def

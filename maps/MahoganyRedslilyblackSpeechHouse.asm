@@ -13,7 +13,7 @@ MahoganyRedSLilyBlackSpeechHouse_MapScriptHeader:
 
 	def_object_events
 	object_event  2,  3, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyRedSLilyBlackSpeechHouseBlackBeltText, -1
-	object_event  6,  5, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MahoganyRedSLilyBlackSpeechHouseTeacherScript, -1
+	object_event  6,  5, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MahoganyRedSLilyBlackSpeechHouseTeacherScript, -1
 
 MahoganyRedSLilyBlackSpeechHouseTeacherScript:
 	checkflag ENGINE_ROCKETS_IN_RADIO_TOWER

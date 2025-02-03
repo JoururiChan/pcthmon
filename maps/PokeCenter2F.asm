@@ -8,7 +8,7 @@ TohoCenter2F_MapScriptHeader:
 	callback MAPCALLBACK_TILES, TohoCenter2FTileCallback
 
 	def_warp_events
-	warp_event  0,  7, POKECENTER_2F, -1
+	warp_event  0,  7, TOHOCENTER_2F, -1
 	warp_event  5,  0, TRADE_CENTER, 1
 	warp_event  9,  0, COLOSSEUM, 1
 
@@ -23,8 +23,8 @@ TohoCenter2F_MapScriptHeader:
 	object_event 13,  3, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_TimeCapsuleClosed, -1
 
 	object_const_def
-	const POKECENTER2F_TRADE_RECEPTIONIST
-	const POKECENTER2F_BATTLE_RECEPTIONIST
+	const TOHOCENTER2F_TRADE_RECEPTIONIST
+	const TOHOCENTER2F_BATTLE_RECEPTIONIST
 
 TohoCenter2FLeftTradeCenterTrigger:
 	sdefer Script_LeftCableTradeCenter
@@ -54,18 +54,18 @@ TohoCenter2FTileCallback:
 
 Script_LeftCableTradeCenter:
 	special WaitForOtherPlayerToExit
-	applymovement POKECENTER2F_TRADE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight
+	applymovement TOHOCENTER2F_TRADE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight
 	applymovement PLAYER, TohoCenter2FMovementData_PlayerTakesThreeStepsDown
-	applymovement POKECENTER2F_TRADE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistStepsRightAndDown
+	applymovement TOHOCENTER2F_TRADE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistStepsRightAndDown
 	setscene $0
 	setmapscene TRADE_CENTER, $0
 	end
 
 Script_LeftCableColosseum:
 	special WaitForOtherPlayerToExit
-	applymovement POKECENTER2F_BATTLE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight
+	applymovement TOHOCENTER2F_BATTLE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight
 	applymovement PLAYER, TohoCenter2FMovementData_PlayerTakesThreeStepsDown
-	applymovement POKECENTER2F_BATTLE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistStepsRightAndDown
+	applymovement TOHOCENTER2F_BATTLE_RECEPTIONIST, TohoCenter2FMovementData_ReceptionistStepsRightAndDown
 	setscene $0
 	setmapscene COLOSSEUM, $0
 	end

@@ -14,8 +14,8 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_JOHTO_HOUSE          ; 0b
 	const TILESET_KANTO_HOUSE          ; 0c
 	const TILESET_TRADITIONAL_HOUSE    ; 0d
-	const TILESET_POKECENTER           ; 0e
-	const TILESET_POKECOM_CENTER       ; 0f
+	const TILESET_TOHOCENTER           ; 0e
+	const TILESET_TOHOCOM_CENTER       ; 0f
 	const TILESET_MART                 ; 10
 	const TILESET_GATE                 ; 11
 	const TILESET_GYM                  ; 12

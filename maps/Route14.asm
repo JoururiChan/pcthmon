@@ -10,8 +10,8 @@ Route14_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event 13,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohofanmTrevor, -1
-	object_event 11, 21, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohofanmCarter, -1
+	object_event 13,  8, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohofanmTrevor, -1
+	object_event 11, 21, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohofanmCarter, -1
 	object_event 11, 29, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBird_keeperRoy, -1
 	object_event 15, 14, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerBird_keeperJosh, -1
 	object_event  4, 17, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerSchoolboyConnor, -1
@@ -25,7 +25,7 @@ Route14_MapScriptHeader:
 	fruittree_event  5, 20, FRUITTREE_ROUTE_14, CUSTAP_BERRY, PAL_NPC_RED
 
 GenericTrainerTohofanmTrevor:
-	generictrainer POKEFANM, TREVOR, EVENT_BEAT_POKEFANM_TREVOR, TohofanmTrevorSeenText, TohofanmTrevorBeatenText
+	generictrainer TOHOFANM, TREVOR, EVENT_BEAT_TOHOFANM_TREVOR, TohofanmTrevorSeenText, TohofanmTrevorBeatenText
 
 	text "If only there were"
 	line "an easy way to"
@@ -54,7 +54,7 @@ TohofanmTrevorBeatenText:
 	done
 
 GenericTrainerTohofanmCarter:
-	generictrainer POKEFANM, CARTER, EVENT_BEAT_POKEFANM_CARTER, TohofanmCarterSeenText, TohofanmCarterBeatenText
+	generictrainer TOHOFANM, CARTER, EVENT_BEAT_TOHOFANM_CARTER, TohofanmCarterSeenText, TohofanmCarterBeatenText
 
 	text "CSakuya, Charman-"
 	line "der and CReimu…"

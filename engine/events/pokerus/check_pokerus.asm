@@ -11,7 +11,7 @@ CheckTohorus:
 	ld de, PARTYMON_STRUCT_LENGTH
 .Check:
 	ld a, [hl]
-	and POKERUS_MASK ; only the bottom nybble is used
+	and TOHORUS_MASK ; only the bottom nybble is used
 	jr nz, .HasTohorus
 ; Next PartyMon
 	add hl, de

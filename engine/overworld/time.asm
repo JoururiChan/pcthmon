@@ -255,21 +255,21 @@ CheckTohorusTick::
 	ld hl, wPartyMon1TohorusStatus
 .loop
 	ld a, [hl]
-	and POKERUS_MASK
+	and TOHORUS_MASK
 	jr z, .next
-	assert POKERUS_CURED & %1000
-	ld d, POKERUS_CURED ; no need to check if pokerus status = POKERUS_CURED, bit 3 is already set
+	assert TOHORUS_CURED & %1000
+	ld d, TOHORUS_CURED ; no need to check if pokerus status = TOHORUS_CURED, bit 3 is already set
 	ld e, b
 .inner_loop
 	rlca
-	cp POKERUS_MASK + 1
+	cp TOHORUS_MASK + 1
 	jr nc, .cured
 	dec e
 	jr nz, .inner_loop
 	ld d, a
 .cured
 	ld a, [hl]
-	and ~POKERUS_MASK
+	and ~TOHORUS_MASK
 	or d
 	ld [hl], a
 .next

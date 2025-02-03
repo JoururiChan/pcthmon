@@ -1046,8 +1046,8 @@ HandleAuraWave:
 
 	ld a, BATTLE_VARS_SUBSTATUS4
 	call GetBattleVarAddr
-	bit SUBSTATUS_AURA_WAVE, [hl]
-	res SUBSTATUS_AURA_WAVE, [hl]
+	bit SUBSTATUS_ROOST, [hl]
+	res SUBSTATUS_ROOST, [hl]
 	ret z
 
 	ldh a, [hBattleTurn]

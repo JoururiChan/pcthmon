@@ -79,8 +79,8 @@ ENDM
 	special_bg_pal tileset,  TILESET_SHAMOUTI_ISLAND,     PAL_TIMEOFDAY, ShamoutiIslandPalette
 	special_bg_pal tileset,  TILESET_VALENCIA_ISLAND,     PAL_TIMEOFDAY, ValenciaIslandPalette
 	special_bg_pal tileset,  TILESET_FARAWAY_ISLAND,      PAL_TIMEOFDAY, FarawayIslandPalette
-	special_bg_pal tileset,  TILESET_POKECENTER,          PAL_SPECIAL,   TohoCenterSpecialCase ; *
-	special_bg_pal tileset,  TILESET_POKECOM_CENTER,      PAL_SINGLE,    TohoComPalette
+	special_bg_pal tileset,  TILESET_TOHOCENTER,          PAL_SPECIAL,   TohoCenterSpecialCase ; *
+	special_bg_pal tileset,  TILESET_TOHOCOM_CENTER,      PAL_SINGLE,    TohoComPalette
 	special_bg_pal tileset,  TILESET_MART,                PAL_SPECIAL,   MartSpecialCase ; *
 	special_bg_pal tileset,  TILESET_GATE,                PAL_SINGLE,    GatePalette
 	special_bg_pal tileset,  TILESET_GAME_CORNER,         PAL_SINGLE,    GameCornerPalette

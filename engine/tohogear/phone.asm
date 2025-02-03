@@ -6,7 +6,7 @@ TohogearPhone_Init:
 	ld [wTohogearPhoneCursorPosition], a
 	ld [wTohogearPhoneSelectedPerson], a
 
-	ld a, CGB_POKEGEAR_PALS
+	ld a, CGB_TOHOGEAR_PALS
 	call GetCGBLayout
 	call SetDefaultBGPAndOBP
 
@@ -34,20 +34,20 @@ TohogearPhone_Joypad:
 
 .left
 	ld a, [wTohogearFlags]
-	bit POKEGEAR_MAP_CARD_F, a
+	bit TOHOGEAR_MAP_CARD_F, a
 	jr z, .no_map
-	lb bc, POKEGEARCARD_MAP, POKEGEARSTATE_MAPCHECKREGION
+	lb bc, TOHOGEARCARD_MAP, TOHOGEARSTATE_MAPCHECKREGION
 	jr .switch_page
 
 .no_map
-	lb bc, POKEGEARCARD_CLOCK, POKEGEARSTATE_CLOCKINIT
+	lb bc, TOHOGEARCARD_CLOCK, TOHOGEARSTATE_CLOCKINIT
 	jr .switch_page
 
 .right
 	ld a, [wTohogearFlags]
-	bit POKEGEAR_RADIO_CARD_F, a
+	bit TOHOGEAR_RADIO_CARD_F, a
 	ret z
-	lb bc, POKEGEARCARD_RADIO, POKEGEARSTATE_RADIOINIT
+	lb bc, TOHOGEARCARD_RADIO, TOHOGEARSTATE_RADIOINIT
 .switch_page
 	jmp Tohogear_SwitchPage
 
@@ -74,7 +74,7 @@ TohogearPhone_Joypad:
 	ret
 
 .quit_submenu
-	ld a, POKEGEARSTATE_PHONEJOYPAD
+	ld a, TOHOGEARSTATE_PHONEJOYPAD
 	ld [wJumptableIndex], a
 	ret
 
@@ -114,7 +114,7 @@ TohogearPhone_MakePhoneCall:
 	call Phone_NoSignal
 	ld hl, .OutOfServiceArea
 	call PrintText
-	ld a, POKEGEARSTATE_PHONEJOYPAD
+	ld a, TOHOGEARSTATE_PHONEJOYPAD
 	ld [wJumptableIndex], a
 	ld hl, TohogearText_WhomToCall
 	jmp PrintText
@@ -134,7 +134,7 @@ TohogearPhone_FinishPhoneCall:
 	and A_BUTTON | B_BUTTON
 	ret z
 	call HangUp
-	ld a, POKEGEARSTATE_PHONEJOYPAD
+	ld a, TOHOGEARSTATE_PHONEJOYPAD
 	ld [wJumptableIndex], a
 	ld hl, TohogearText_WhomToCall
 	jmp PrintText

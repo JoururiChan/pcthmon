@@ -21,7 +21,7 @@ Route44_MapScriptHeader:
 	object_event 35,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerFisherWilton1, -1
 	object_event 19, 13, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerFisherEdgar, -1
 	object_event 10,  9, SPRITE_PSYCHIC, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPsychicPhil, -1
-	object_event 43,  2, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacZach, -1
+	object_event 43,  2, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohomaniacZach, -1
 	object_event 51,  5, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerBird_keeperVance1, -1
 	object_event 41, 15, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerCooltrainermAllen, -1
 	object_event 31, 14, SPRITE_ACE_TRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerCooltrainerfCybil, -1
@@ -49,7 +49,7 @@ Route44VeteranmScript:
 	iffalse_jumptext .IntroText
 	checkevent EVENT_BEAT_COOLTRAINERF_CYBIL
 	iffalse_jumptext .IntroText
-	checkevent EVENT_BEAT_POKEMANIAC_ZACH
+	checkevent EVENT_BEAT_TOHOMANIAC_ZACH
 	iffalse_jumptext .IntroText
 	checkevent EVENT_BEAT_COOLTRAINERM_ALLEN
 	iffalse_jumptext .IntroText
@@ -347,7 +347,7 @@ FisherWilton1Script:
 	iftruefwd .UltraBall
 	checkevent EVENT_WILTON_HAS_GREAT_BALL
 	iftruefwd .GreatBall
-	checkevent EVENT_WILTON_HAS_POKE_BALL
+	checkevent EVENT_WILTON_HAS_TOHO_BALL
 	iftruefwd .TohoBall
 .UltraBall:
 	verbosegiveitem ULTRA_BALL
@@ -360,7 +360,7 @@ FisherWilton1Script:
 	sjumpfwd .ItemReceived
 
 .TohoBall:
-	verbosegiveitem POKE_BALL
+	verbosegiveitem TOHO_BALL
 	iffalsefwd .Route44PackFullM
 .ItemReceived:
 	clearflag ENGINE_WILTON_HAS_ITEM
@@ -392,7 +392,7 @@ GenericTrainerCooltrainerfCybil:
 	done
 
 GenericTrainerTohomaniacZach:
-	generictrainer POKEMANIAC, ZACH, EVENT_BEAT_POKEMANIAC_ZACH, TohomaniacZachSeenText, TohomaniacZachBeatenText
+	generictrainer TOHOMANIAC, ZACH, EVENT_BEAT_TOHOMANIAC_ZACH, TohomaniacZachSeenText, TohomaniacZachBeatenText
 
 	text "If a #mon has"
 	line "different colors"

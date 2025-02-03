@@ -140,15 +140,15 @@ MrTohomonsHouse_OakScript:
 	iftruefwd .RivalTakesChikorita
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftruefwd .RivalTakesCyndaquil
-	setevent EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
+	setevent EVENT_TOTODILE_TOHOBALL_IN_ELMS_LAB
 	end
 
 .RivalTakesChikorita:
-	setevent EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
+	setevent EVENT_CHIKORITA_TOHOBALL_IN_ELMS_LAB
 	end
 
 .RivalTakesCyndaquil:
-	setevent EVENT_CYNDAQUIL_POKEBALL_IN_ELMS_LAB
+	setevent EVENT_CYNDAQUIL_TOHOBALL_IN_ELMS_LAB
 	end
 
 MrTohomonsHouse_CabinetScript:

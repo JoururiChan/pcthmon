@@ -6,7 +6,7 @@ OlivineTohoCenter1F_MapScriptHeader:
 	def_warp_events
 	warp_event  5,  7, OLIVINE_CITY, 1
 	warp_event  6,  7, OLIVINE_CITY, 1
-	warp_event  0,  7, POKECENTER_2F, 1
+	warp_event  0,  7, TOHOCENTER_2F, 1
 
 	def_coord_events
 
@@ -18,10 +18,10 @@ OlivineTohoCenter1F_MapScriptHeader:
 	pc_nurse_event  5, 1
 	object_event  2,  6, SPRITE_FISHING_GURU, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumpstd, happinesschecknpc, -1
 	object_event  2,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineTohoCenter1FFisherText, -1
-	object_event 11,  6, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineTohoCenter1FTeacherText, -1
+	object_event 11,  6, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineTohoCenter1FTeacherText, -1
 
 	object_const_def
-	const OLIVINEPOKECENTER1F_BEAUTY
+	const OLIVINETOHOCENTER1F_BEAUTY
 
 TohomonJournalJasmineScript:
 	setflag ENGINE_READ_JASMINE_JOURNAL
@@ -52,7 +52,7 @@ BeautyCharlotteScript:
 	waitbutton
 	closetext
 	winlosstext .BeatenText, 0
-	setlasttalked OLIVINEPOKECENTER1F_BEAUTY
+	setlasttalked OLIVINETOHOCENTER1F_BEAUTY
 	loadtrainer BEAUTY, CHARLOTTE
 	startbattle
 	reloadmapafterbattle

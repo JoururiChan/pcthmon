@@ -72,13 +72,13 @@ TohoCenterNurseScript:
 	sjumpfwd .ok
 
 .morn
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	checkevent EVENT_WELCOMED_TO_TOHOCOM_CENTER
 	iftruefwd .morn_center
-	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
+	checkevent EVENT_WELCOMING_TO_TOHOCOM_CENTER
 	iffalsefwd .morn_center
 	farwritetext TohoComNurseMornText
 	promptbutton
-	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	setevent EVENT_WELCOMED_TO_TOHOCOM_CENTER
 	sjumpfwd .ok
 .morn_center
 	farwritetext NurseMornText
@@ -86,13 +86,13 @@ TohoCenterNurseScript:
 	sjumpfwd .ok
 
 .day
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	checkevent EVENT_WELCOMED_TO_TOHOCOM_CENTER
 	iftruefwd .day_center
-	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
+	checkevent EVENT_WELCOMING_TO_TOHOCOM_CENTER
 	iffalsefwd .day_center
 	farwritetext TohoComNurseDayText
 	promptbutton
-	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	setevent EVENT_WELCOMED_TO_TOHOCOM_CENTER
 	sjumpfwd .ok
 .day_center
 	farwritetext NurseDayText
@@ -100,13 +100,13 @@ TohoCenterNurseScript:
 	sjumpfwd .ok
 
 .eve
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	checkevent EVENT_WELCOMED_TO_TOHOCOM_CENTER
 	iftruefwd .eve_center
-	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
+	checkevent EVENT_WELCOMING_TO_TOHOCOM_CENTER
 	iffalsefwd .eve_center
 	farwritetext TohoComNurseEveText
 	promptbutton
-	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	setevent EVENT_WELCOMED_TO_TOHOCOM_CENTER
 	sjumpfwd .ok
 .eve_center
 	farwritetext NurseEveText
@@ -114,13 +114,13 @@ TohoCenterNurseScript:
 	sjumpfwd .ok
 
 .nite
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	checkevent EVENT_WELCOMED_TO_TOHOCOM_CENTER
 	iftruefwd .nite_center
-	checkevent EVENT_WELCOMING_TO_POKECOM_CENTER
+	checkevent EVENT_WELCOMING_TO_TOHOCOM_CENTER
 	iffalsefwd .nite_center
 	farwritetext TohoComNurseNiteText
 	promptbutton
-	setevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	setevent EVENT_WELCOMED_TO_TOHOCOM_CENTER
 	sjumpfwd .ok
 .nite_center
 	farwritetext NurseNiteText
@@ -162,7 +162,7 @@ TohoCenterNurseScript:
 
 	checkphonecall ; elm already called about pokerus
 	iftruefwd .no
-	checkflag ENGINE_CAUGHT_POKERUS ; nurse already talked about pokerus
+	checkflag ENGINE_CAUGHT_TOHORUS ; nurse already talked about pokerus
 	iftruefwd .no
 	special SpecialCheckTohorus
 	iftruefwd .pokerus
@@ -185,7 +185,7 @@ TohoCenterNurseScript:
 
 .pokerus
 	; already cleared earlier in the script
-	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	checkevent EVENT_WELCOMED_TO_TOHOCOM_CENTER
 	iftruefwd .pokerus_comcenter
 	farwritetext NurseTohorusText
 	waitbutton
@@ -198,8 +198,8 @@ TohoCenterNurseScript:
 	closetext
 
 .pokerus_done
-	setflag ENGINE_CAUGHT_POKERUS
-	specialphonecall SPECIALCALL_POKERUS
+	setflag ENGINE_CAUGHT_TOHORUS
+	specialphonecall SPECIALCALL_TOHORUS
 .done
 	turnobject PLAYER, DOWN
 	end
@@ -508,9 +508,9 @@ AskNumber1MScript:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -593,9 +593,9 @@ AskNumber2MScript:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -684,9 +684,9 @@ NumberAcceptedMScript:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -787,9 +787,9 @@ NumberDeclinedMScript:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -890,9 +890,9 @@ PhoneFullMScript:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -993,7 +993,7 @@ RematchMScript:
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_HIKER_PARRY, .Parry
@@ -1071,7 +1071,7 @@ GiftMScript:
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -1112,7 +1112,7 @@ PackFullMScript:
 	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
@@ -1190,7 +1190,7 @@ RematchGiftMScript:
 
 AskNumber1FScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -1226,7 +1226,7 @@ AskNumber1FScript:
 
 AskNumber2FScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -1269,7 +1269,7 @@ RegisteredNumberFScript:
 
 NumberAcceptedFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -1312,7 +1312,7 @@ NumberAcceptedFScript:
 
 NumberDeclinedFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -1355,7 +1355,7 @@ NumberDeclinedFScript:
 
 PhoneFullFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -1436,7 +1436,7 @@ RematchFScript:
 
 GiftFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
 	ifequalfwd PHONE_LASS_DANA, .Dana
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
@@ -1460,7 +1460,7 @@ GiftFScript:
 
 PackFullFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
 	ifequalfwd PHONE_LASS_DANA, .Dana
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany

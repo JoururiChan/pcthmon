@@ -38,7 +38,7 @@ BugContestant_CooltrainerMNick:
 	contest_winner CLILYWHITE,     368
 
 BugContestant_TohofanMWilliam:
-	db POKEFANM, WILLIAM
+	db TOHOFANM, WILLIAM
 	contest_winner CMAGAN,   332
 	contest_winner CCHEN, 324
 	contest_winner CRIKAKO,    321

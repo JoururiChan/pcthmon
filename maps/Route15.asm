@@ -19,8 +19,8 @@ Route15_MapScriptHeader:
 	object_event 33, 10, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerSchoolgirlFaith, -1
 	object_event 30, 12, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerTeacherColette, -1
 	object_event 20, 10, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTeacherHillary, -1
-	object_event 30,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohofanfBoone, -1
-	object_event 14,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerTohofanfEleanor, -1
+	object_event 30,  4, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohofanfBoone, -1
+	object_event 14,  4, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerTohofanfEleanor, -1
 	object_event 19,  5, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerTwinsKayandtia1, -1
 	object_event 20,  5, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerTwinsKayandtia2, -1
 	itemball_event 12,  5, PP_UP, 1, EVENT_ROUTE_15_PP_UP
@@ -71,7 +71,7 @@ GenericTrainerSchoolboyBilly:
 	done
 
 GenericTrainerSchoolgirlFaith:
-	generictrainer SCHOOLGIRL, FAITH, EVENT_BEAT_SCHOOLGIRL_FAITH, SchoolgirlFaithSeenText, SchoolgirlFaithBeatenText
+	generictrainer SCHOOLGIRL, FAITH_T, EVENT_BEAT_SCHOOLGIRL_FAITH_T, SchoolgirlFaithSeenText, SchoolgirlFaithBeatenText
 
 	text "I'm tired of walk-"
 	line "ing. I need to"
@@ -79,7 +79,7 @@ GenericTrainerSchoolgirlFaith:
 	done
 
 GenericTrainerTohofanfBoone:
-	generictrainer POKEFANF, BOONE, EVENT_BEAT_POKEFANF_BOONE, TohofanfBooneSeenText, TohofanfBooneBeatenText
+	generictrainer TOHOFANF, BOONE, EVENT_BEAT_TOHOFANF_BOONE, TohofanfBooneSeenText, TohofanfBooneBeatenText
 
 	text "When you battle,"
 	line "you get to see"
@@ -90,7 +90,7 @@ GenericTrainerTohofanfBoone:
 	done
 
 GenericTrainerTohofanfEleanor:
-	generictrainer POKEFANF, ELEANOR, EVENT_BEAT_POKEFANF_ELEANOR, TohofanfEleanorSeenText, TohofanfEleanorBeatenText
+	generictrainer TOHOFANF, ELEANOR, EVENT_BEAT_TOHOFANF_ELEANOR, TohofanfEleanorSeenText, TohofanfEleanorBeatenText
 
 	text "My #mon aren't"
 	line "weak! Your #mon"

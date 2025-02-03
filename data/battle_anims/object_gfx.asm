@@ -120,4 +120,4 @@ AnimBallObjGFX:
 	fardw AnimObjDreamBallGFX
 	fardw AnimObjPremierBallGFX
 	fardw AnimObjCherishBallGFX
-	assert_table_length NUM_POKE_BALLS
+	assert_table_length NUM_TOHO_BALLS

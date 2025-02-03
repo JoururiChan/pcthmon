@@ -17,7 +17,7 @@
 ; wStatusFlags
 	const ENGINE_TOHODEX
 	const ENGINE_HINA_DEX
-	const ENGINE_CAUGHT_POKERUS
+	const ENGINE_CAUGHT_TOHORUS
 	const ENGINE_ROCKET_SIGNAL_ON_CH20
 	const ENGINE_CREDITS_SKIP
 	const_skip ; unused

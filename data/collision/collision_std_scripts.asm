@@ -8,7 +8,7 @@ TileCollisionStdScripts:
 	dbw COLL_TOWN_MAP,        townmap
 	dbw COLL_MART_SHELF,      merchandiseshelf
 	dbw COLL_TV,              tv
-	dbw COLL_POKECENTER_SIGN, pokecentersign
+	dbw COLL_TOHOCENTER_SIGN, pokecentersign
 	dbw COLL_MART_SIGN,       martsign
 	dbw COLL_VENDING_MACHINE, vendingmachine
 	dbw COLL_FRIDGE,          refrigerator

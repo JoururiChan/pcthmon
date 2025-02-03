@@ -25,7 +25,7 @@ Route31_MapScriptHeader:
 	cuttree_event 25, 10, EVENT_ROUTE_31_CUT_TREE_2
 	fruittree_event 16,  7, FRUITTREE_ROUTE_31, PERSIM_BERRY, PAL_NPC_PINK
 	itemball_event 29,  5, POTION, 1, EVENT_ROUTE_31_POTION
-	itemball_event 19, 15, POKE_BALL, 1, EVENT_ROUTE_31_POKE_BALL
+	itemball_event 19, 15, TOHO_BALL, 1, EVENT_ROUTE_31_TOHO_BALL
 
 	object_const_def
 	const ROUTE31_COOLTRAINER_M

@@ -42,7 +42,7 @@ MapScenes::
 	scene_var GOLDENROD_MAGNET_TRAIN_STATION,         wAlways0SceneID
 	scene_var HALL_OF_FAME,                           wHallOfFameSceneID
 	scene_var ILEX_FOREST,                            wIlexForestSceneID
-	scene_var INDIGO_PLATEAU_POKECENTER_1F,           wAlways0SceneID
+	scene_var INDIGO_PLATEAU_TOHOCENTER_1F,           wAlways0SceneID
 	scene_var KARENS_ROOM,                            wKarensRoomSceneID
 	scene_var KOGAS_ROOM,                             wKogasRoomSceneID
 	scene_var LANCES_ROOM,                            wLancesRoomSceneID
@@ -57,7 +57,7 @@ MapScenes::
 	scene_var OLIVINE_CITY,                           wOlivineCitySceneID
 	scene_var OLIVINE_PORT,                           wOlivinePortSceneID
 	scene_var PLAYERS_HOUSE_1F,                       wPlayersHouse1FSceneID
-	scene_var POKECENTER_2F,                          wTohocenter2FSceneID
+	scene_var TOHOCENTER_2F,                          wTohocenter2FSceneID
 	scene_var TOHOMON_LEAGUE_GATE,                    wTohomonLeagueGateSceneID
 	scene_var POWER_PLANT,                            wPowerPlantSceneID
 	scene_var RADIO_TOWER_5F,                         wRadioTower5FSceneID

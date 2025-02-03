@@ -12,7 +12,7 @@ ItemEffects:
 ; entries correspond to item ids (see constants/item_constants.asm)
 	table_width 2
 	dw TohoBallEffect     ; PARK_BALL
-	dw TohoBallEffect     ; POKE_BALL
+	dw TohoBallEffect     ; TOHO_BALL
 	dw TohoBallEffect     ; GREAT_BALL
 	dw TohoBallEffect     ; ULTRA_BALL
 	dw TohoBallEffect     ; MASTER_BALL
@@ -108,7 +108,7 @@ ItemEffects:
 	dw RepelEffect        ; SUPER_REPEL
 	dw RepelEffect        ; MAX_REPEL
 	dw EscapeRope         ; ESCAPE_ROPE
-	dw TohoDoll           ; POKE_DOLL
+	dw TohoDoll           ; TOHO_DOLL
 	dw IsntTheTimeMessage ; MULCH
 	dw SweetHoney         ; SWEET_HONEY
 	dw XItemEffect        ; X_ATTACK
@@ -397,7 +397,7 @@ TohoBallEffect:
 	ld a, [wCurItem]
 	ld [wBattleAnimParam], a
 
-	ld de, ANIM_THROW_POKE_BALL
+	ld de, ANIM_THROW_TOHO_BALL
 	ld a, e
 	ld [wFXAnimIDLo], a
 	ld a, d
@@ -2311,7 +2311,7 @@ BattleRestorePP:
 	cp b
 	jr nz, .not_in_battle
 	ld a, [wPlayerSubStatus2]
-	bit SUBSTATUS_TRANSFORMED, a
+	bit SUBSTATUS_RECOLLECTED, a
 	call z, .UpdateBattleMonPP
 .not_in_battle
 	call Play_SFX_FULL_HEAL
@@ -2501,7 +2501,7 @@ UseDisposableItem:
 
 UseBallInTrainerBattle:
 	call ReturnToBattle_UseBall
-	ld de, ANIM_THROW_POKE_BALL
+	ld de, ANIM_THROW_TOHO_BALL
 	ld a, e
 	ld [wFXAnimIDLo], a
 	ld a, d

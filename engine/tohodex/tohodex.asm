@@ -3248,7 +3248,7 @@ endc
 	call nz, DelayFrame
 
 	call Tohodex_LoadUndiscoveredTohopic
-	set DEXGFX_POKEINFO, [hl]
+	set DEXGFX_TOHOINFO, [hl]
 
 	; Introduce a deliberate delay. The reason for this is so that we get a more
 	; consistent delay for each slot if keyrepeat applies.
@@ -3468,7 +3468,7 @@ endr
 	ldh [rSVBK], a
 .done
 	ld hl, wTohodex_GFXFlags
-	set DEXGFX_POKEINFO, [hl]
+	set DEXGFX_TOHOINFO, [hl]
 	; fallthrough
 Tohodex_ScheduleScreenUpdate:
 ; Schedules a screen refresh for the next Tohodex_GetInput.

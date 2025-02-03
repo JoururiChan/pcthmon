@@ -1,7 +1,7 @@
 PlayRadioShow:
 ; If we're already in the radio program proper, we don't need to be here.
 	ld a, [wCurRadioLine]
-	cp POKE_FLUTE_RADIO
+	cp TOHO_FLUTE_RADIO
 	jr nc, .ok
 ; If Team Rocket is not occupying the radio tower, we don't need to be here.
 	ld a, [wStatusFlags2]

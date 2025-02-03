@@ -1206,7 +1206,7 @@ ChooseCard_HandleJoypad:
 	inc [hl]
 
 .play_sound
-	ld de, SFX_POKEBALLS_PLACED_ON_TABLE
+	ld de, SFX_TOHOBALLS_PLACED_ON_TABLE
 	jmp PlaySFX
 
 CardFlip_UpdateCursorOAM:

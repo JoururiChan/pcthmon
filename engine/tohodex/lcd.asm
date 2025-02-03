@@ -1096,8 +1096,8 @@ PVB_UpdateDexMap::
 	ldh [rSVBK], a
 
 .frontpic_done
-	bit DEXGFX_POKEINFO, [hl]
-	res DEXGFX_POKEINFO, [hl]
+	bit DEXGFX_TOHOINFO, [hl]
+	res DEXGFX_TOHOINFO, [hl]
 	jr z, .pokeinfo_done
 	ld a, [wTohodex_MonInfoBank]
 	ldh [rVBK], a

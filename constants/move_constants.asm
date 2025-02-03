@@ -290,7 +290,7 @@ DEF NUM_ATTACKS EQU const_value - 1
 	const ANIM_SHARPEN            ; $111
 
 	; These animations play no matter the battle animation settings
-	const ANIM_THROW_POKE_BALL    ; $112
+	const ANIM_THROW_TOHO_BALL    ; $112
 	const ANIM_SEND_OUT_MON       ; $113
 	const ANIM_RETURN_MON         ; $114
 	const ANIM_GHOST_TRANSFORM    ; $115
@@ -304,7 +304,7 @@ DEF NUM_ATTACKS EQU const_value - 1
 
 DEF ANIM_AFFECTION EQU ANIM_IN_LOVE ; just an alias for now
 DEF NUM_BATTLE_ANIMS EQU const_value - 1
-DEF FIRST_UNCONDITIONAL_ANIM EQU ANIM_THROW_POKE_BALL
+DEF FIRST_UNCONDITIONAL_ANIM EQU ANIM_THROW_TOHO_BALL
 
 ; wNumHits uses offsets from ANIM_MISS
 	const_def

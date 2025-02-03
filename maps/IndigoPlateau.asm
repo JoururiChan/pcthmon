@@ -5,8 +5,8 @@ IndigoPlateau_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, IndigoPlateauFlyPoint
 
 	def_warp_events
-	warp_event 11,  5, INDIGO_PLATEAU_POKECENTER_1F, 1
-	warp_event 12,  5, INDIGO_PLATEAU_POKECENTER_1F, 2
+	warp_event 11,  5, INDIGO_PLATEAU_TOHOCENTER_1F, 1
+	warp_event 12,  5, INDIGO_PLATEAU_TOHOCENTER_1F, 2
 
 	def_coord_events
 

@@ -9,7 +9,7 @@ ViridianCity_MapScriptHeader:
 	warp_event 21,  5, VIRIDIAN_NICKNAME_SPEECH_HOUSE, 1
 	warp_event 23, 15, TRAINER_HOUSE_1F, 1
 	warp_event 29, 19, VIRIDIAN_MART, 2
-	warp_event 23, 25, VIRIDIAN_POKECENTER_1F, 1
+	warp_event 23, 25, VIRIDIAN_TOHOCENTER_1F, 1
 	warp_event 20, 33, ROUTE_1_VIRIDIAN_GATE, 1
 	warp_event 21, 33, ROUTE_1_VIRIDIAN_GATE, 2
 	warp_event 21,  9, VIRIDIAN_SCHOOL_HOUSE, 1

@@ -20,12 +20,12 @@ FastShipCabins_SE_SSE_CaptainsCabin_MapScriptHeader:
 	object_event  3, 17, SPRITE_TWIN, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, SSAquaGranddaughterHadFunText, EVENT_FAST_SHIP_CABINS_SE_SSE_CAPTAINS_CABIN_TWIN_1
 	object_event  2, 25, SPRITE_TWIN, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, SSAquaGranddaughterBefore, EVENT_FAST_SHIP_CABINS_SE_SSE_CAPTAINS_CABIN_TWIN_2
 	object_event  3, 25, SPRITE_CAPTAIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SSAquaCaptain, -1
-	object_event  5,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerTohofanmColin, EVENT_FAST_SHIP_PASSENGERS_FIRST_TRIP
+	object_event  5,  6, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerTohofanmColin, EVENT_FAST_SHIP_PASSENGERS_FIRST_TRIP
 	object_event  2,  4, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerTwinsMegandpeg1, EVENT_FAST_SHIP_PASSENGERS_FIRST_TRIP
 	object_event  3,  4, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerTwinsMegandpeg2, EVENT_FAST_SHIP_PASSENGERS_FIRST_TRIP
 	object_event  5,  5, SPRITE_PSYCHIC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerPsychicRodney, EVENT_FAST_SHIP_PASSENGERS_EASTBOUND
-	object_event  2,  3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohofanmJeremy, EVENT_FAST_SHIP_PASSENGERS_WESTBOUND
-	object_event  5,  5, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerTohofanfGeorgia, EVENT_FAST_SHIP_PASSENGERS_WESTBOUND
+	object_event  2,  3, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerTohofanmJeremy, EVENT_FAST_SHIP_PASSENGERS_WESTBOUND
+	object_event  5,  5, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerTohofanfGeorgia, EVENT_FAST_SHIP_PASSENGERS_WESTBOUND
 	object_event  1, 15, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerSupernerdShawn, EVENT_FAST_SHIP_PASSENGERS_EASTBOUND
 
 	object_const_def
@@ -107,7 +107,7 @@ SSAquaFoundGranddaughter:
 	endtext
 
 GenericTrainerTohofanmColin:
-	generictrainer POKEFANM, COLIN, EVENT_BEAT_POKEFANM_COLIN, TohofanmColinSeenText, TohofanmColinBeatenText
+	generictrainer TOHOFANM, COLIN, EVENT_BEAT_TOHOFANM_COLIN, TohofanmColinSeenText, TohofanmColinBeatenText
 
 	text "You're traveling"
 	line "all alone?"
@@ -141,7 +141,7 @@ GenericTrainerPsychicRodney:
 	done
 
 GenericTrainerTohofanmJeremy:
-	generictrainer POKEFANM, JEREMY, EVENT_BEAT_POKEFANM_JEREMY, TohofanmJeremySeenText, TohofanmJeremyBeatenText
+	generictrainer TOHOFANM, JEREMY, EVENT_BEAT_TOHOFANM_JEREMY, TohofanmJeremySeenText, TohofanmJeremyBeatenText
 
 	text "I must go to the"
 	line "#mon Salon and"
@@ -149,7 +149,7 @@ GenericTrainerTohofanmJeremy:
 	done
 
 GenericTrainerTohofanfGeorgia:
-	generictrainer POKEFANF, GEORGIA, EVENT_BEAT_POKEFANF_GEORGIA, TohofanfGeorgiaSeenText, TohofanfGeorgiaBeatenText
+	generictrainer TOHOFANF, GEORGIA, EVENT_BEAT_TOHOFANF_GEORGIA, TohofanfGeorgiaSeenText, TohofanfGeorgiaBeatenText
 
 	text "Oh, yes! I have to"
 	line "get my #mon out"

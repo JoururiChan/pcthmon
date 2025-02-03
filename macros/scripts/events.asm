@@ -333,7 +333,7 @@ MACRO givepoke
 	if _NARG >= 5
 		db \5 ; ball
 	else
-		db POKE_BALL
+		db TOHO_BALL
 	endc
 	if _NARG >= 6
 		db \6 ; special move

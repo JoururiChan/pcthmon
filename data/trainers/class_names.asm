@@ -42,12 +42,12 @@ TrainerClassNames::
 	li "Hiker"            ; HIKER
 	li "Rocket"           ; GRUNTM
 	li "Rocket"           ; GRUNTF
-	li "#fan"             ; POKEFANM
-	li "#fan"             ; POKEFANF
+	li "#fan"             ; TOHOFANM
+	li "#fan"             ; TOHOFANF
 	li "Officer"          ; OFFICERM
 	li "Officer"          ; OFFICERF
 	li "Nurse"            ; NURSE
-	li "#Maniac"          ; POKEMANIAC
+	li "#Maniac"          ; TOHOMANIAC
 	li "Cosplayer"        ; COSPLAYER
 	li "Super Nerd"       ; SUPER_NERD
 	li "Lass"             ; LASS

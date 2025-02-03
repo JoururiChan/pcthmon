@@ -4,8 +4,8 @@ GoldenrodTohocomCenterOffice_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  0,  8, GOLDENROD_POKECOM_CENTER_1F, 3
-	warp_event  1,  8, GOLDENROD_POKECOM_CENTER_1F, 3
+	warp_event  0,  8, GOLDENROD_TOHOCOM_CENTER_1F, 3
+	warp_event  1,  8, GOLDENROD_TOHOCOM_CENTER_1F, 3
 
 	def_coord_events
 
@@ -25,7 +25,7 @@ GoldenrodTohocomCenterOffice_MapScriptHeader:
 	object_event 10,  6, SPRITE_PI, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_AZURE, OBJECTTYPE_COMMAND, jumptextfaceplayer, AdminVulcanText, -1
 
 	object_const_def
-	const GOLDENRODPOKECOMCENTEROFFICE_RANGI
+	const GOLDENRODTOHOCOMCENTEROFFICE_RANGI
 
 AdminRangiText:
 	text "Rangi: I hope"
@@ -143,8 +143,8 @@ AizawaComputerText:
 	done
 
 RangiKeyboardScript:
-	turnobject GOLDENRODPOKECOMCENTEROFFICE_RANGI, UP
-	showemote EMOTE_SHOCK, GOLDENRODPOKECOMCENTEROFFICE_RANGI, 10
+	turnobject GOLDENRODTOHOCOMCENTEROFFICE_RANGI, UP
+	showemote EMOTE_SHOCK, GOLDENRODTOHOCOMCENTEROFFICE_RANGI, 10
 	jumpthistext
 
 	text "Rangi: Hey! If you"

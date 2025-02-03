@@ -12,7 +12,7 @@ MrFujisHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  4,  1, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, MrFujisHouseSuperNerdText, -1
+	object_event  4,  1, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, MrFujisHouseSuperNerdText, -1
 	object_event  3,  4, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, MrFujisHouseLassText, -1
 	tohomon_event  8,  4, PSYDUCK, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, MrFujisPsyduckText, -1
 	tohomon_event  5,  5, NIDORINO, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PURPLE, MrFujisNidorinoText, -1

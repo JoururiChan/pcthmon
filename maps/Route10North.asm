@@ -8,7 +8,7 @@ Route10North_MapScriptHeader:
 	callback MAPCALLBACK_OBJECTS, Route10NorthTRan
 
 	def_warp_events
-	warp_event 11, 35, ROUTE_10_POKECENTER_1F, 1
+	warp_event 11, 35, ROUTE_10_TOHOCENTER_1F, 1
 	warp_event  3, 51, POWER_PLANT, 1
 	warp_event  4, 43, ROCK_TUNNEL_2F, 1
 	warp_event  8, 33, ROCK_TUNNEL_1F, 1

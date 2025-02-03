@@ -48,7 +48,7 @@ YellowForest_MapScriptHeader:
 	const YELLOWFOREST_WALKER
 	const YELLOWFOREST_SKARMORY
 	const YELLOWFOREST_YELLOW
-	const YELLOWFOREST_POKE_BALL5
+	const YELLOWFOREST_TOHO_BALL5
 
 YellowForestFlyPoint:
 	setflag ENGINE_FLYPOINT_YELLOW_FOREST
@@ -190,7 +190,7 @@ YellowForestYellowBattleScript:
 	setevent EVENT_BEAT_YELLOW
 	checkevent EVENT_GOT_A_TOHOMON_FROM_IVY
 	iffalsefwd .skip
-	clearevent EVENT_INDIGO_PLATEAU_POKECENTER_YELLOW
+	clearevent EVENT_INDIGO_PLATEAU_TOHOCENTER_YELLOW
 .skip
 	opentext
 	writetext YellowForestYellowAfterText
@@ -242,7 +242,7 @@ YellowForestTutorSeedBombScript:
 	jumpopenedtext Text_YellowForestTutorTaught
 
 YellowForestSurfKikuriDoll:
-	disappear YELLOWFOREST_POKE_BALL5
+	disappear YELLOWFOREST_TOHO_BALL5
 	setevent EVENT_DECO_SURFING_EKIKURI_DOLL
 	opentext
 	writetext YellowForestSurfKikuriDollText

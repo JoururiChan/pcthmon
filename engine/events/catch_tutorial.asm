@@ -52,7 +52,7 @@ CatchTutorial::
 .DudeMedicine:
 	db 3, POTION, 2, ANTIDOTE, 1, FRESH_WATER, 1, -1
 .DudeBalls:
-	db 2, POKE_BALL, 10, PREMIER_BALL, 1, -1
+	db 2, TOHO_BALL, 10, PREMIER_BALL, 1, -1
 
 .AutoInput:
 	db NO_INPUT, $ff ; end

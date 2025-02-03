@@ -46,18 +46,18 @@ ElmsLab_MapScriptHeader:
 	def_object_events
 	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfElmScript, -1
 	object_event  2,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ElmsAideScript, EVENT_ELMS_AIDE_IN_LAB
-	object_event  6,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_SCRIPT, 0, CAliceTohoBallScript, EVENT_CALICE_POKEBALL_IN_ELMS_LAB
-	object_event  7,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, CReisenTohoBallScript, EVENT_CREISEN_POKEBALL_IN_ELMS_LAB
-	object_event  8,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, CSanaeTohoBallScript, EVENT_CSANAE_POKEBALL_IN_ELMS_LAB
+	object_event  6,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_TOHO_BALL, OBJECTTYPE_SCRIPT, 0, CAliceTohoBallScript, EVENT_CALICE_TOHOBALL_IN_ELMS_LAB
+	object_event  7,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, CReisenTohoBallScript, EVENT_CREISEN_TOHOBALL_IN_ELMS_LAB
+	object_event  8,  3, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_SCRIPT, 0, CSanaeTohoBallScript, EVENT_CSANAE_TOHOBALL_IN_ELMS_LAB
 	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB
 	object_event  5, 11, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ElmsLabLyraScript, EVENT_LYRA_IN_ELMS_LAB
 
 	object_const_def
 	const ELMSLAB_ELM
 	const ELMSLAB_ELMS_AIDE
-	const ELMSLAB_POKE_BALL1
-	const ELMSLAB_POKE_BALL2
-	const ELMSLAB_POKE_BALL3
+	const ELMSLAB_TOHO_BALL1
+	const ELMSLAB_TOHO_BALL2
+	const ELMSLAB_TOHO_BALL3
 	const ELMSLAB_OFFICER
 	const ELMSLAB_LYRA
 
@@ -211,7 +211,7 @@ CAliceTohoBallScript:
 	writetext TakeCAliceText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
-	disappear ELMSLAB_POKE_BALL1
+	disappear ELMSLAB_TOHO_BALL1
 	setevent EVENT_GOT_CALICE_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
@@ -222,7 +222,7 @@ CAliceTohoBallScript:
 	closetext
 	applymovement ELMSLAB_LYRA, LyraPicksCSanaeMovement
 	pause 15
-	disappear ELMSLAB_POKE_BALL3
+	disappear ELMSLAB_TOHO_BALL3
 	opentext
 	getmonname CSANAE, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
@@ -251,7 +251,7 @@ CReisenTohoBallScript:
 	writetext TakeCReisenText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
-	disappear ELMSLAB_POKE_BALL2
+	disappear ELMSLAB_TOHO_BALL2
 	setevent EVENT_GOT_CREISEN_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
@@ -262,7 +262,7 @@ CReisenTohoBallScript:
 	closetext
 	applymovement ELMSLAB_LYRA, LyraPicksCAliceMovement
 	pause 15
-	disappear ELMSLAB_POKE_BALL1
+	disappear ELMSLAB_TOHO_BALL1
 	opentext
 	getmonname CALICE, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
@@ -289,7 +289,7 @@ CSanaeTohoBallScript:
 	writetext TakeCSanaeText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
-	disappear ELMSLAB_POKE_BALL3
+	disappear ELMSLAB_TOHO_BALL3
 	setevent EVENT_GOT_CSANAE_FROM_ELM
 	writetext ChoseStarterText
 	promptbutton
@@ -300,7 +300,7 @@ CSanaeTohoBallScript:
 	closetext
 	applymovement ELMSLAB_LYRA, LyraPicksCReisenMovement
 	pause 15
-	disappear ELMSLAB_POKE_BALL2
+	disappear ELMSLAB_TOHO_BALL2
 	opentext
 	getmonname CREISEN, STRING_BUFFER_3
 	writetext LyraReceivedStarterText

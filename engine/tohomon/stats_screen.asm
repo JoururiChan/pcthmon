@@ -420,9 +420,9 @@ StatsScreen_LoadGFX:
 	hlcoord 0, 9
 	rst PlaceString
 	ld a, [wTempMonTohorusStatus]
-	and POKERUS_MASK
+	and TOHORUS_MASK
 	jr z, .NotImmuneToPkrs
-	cp POKERUS_CURED
+	cp TOHORUS_CURED
 	jr nz, .HasTohorus
 	hlcoord 8, 8
 	ld [hl], "."

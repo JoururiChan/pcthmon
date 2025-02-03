@@ -6,7 +6,7 @@ OlivineCity_MapScriptHeader:
 	callback MAPCALLBACK_TILES, OlivineCityLighthouseCallback
 
 	def_warp_events
-	warp_event 13, 17, OLIVINE_POKECENTER_1F, 1
+	warp_event 13, 17, OLIVINE_TOHOCENTER_1F, 1
 	warp_event 10,  7, OLIVINE_GYM, 1
 	warp_event 25,  7, OLIVINE_TIMS_HOUSE, 1
 	warp_event 29,  7, OLIVINE_PUNISHMENT_SPEECH_HOUSE, 1
@@ -33,7 +33,7 @@ OlivineCity_MapScriptHeader:
 	def_object_events
 	object_event 10,  7, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_OLIVINE_CITY
 	object_event 20,  8, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineCityYoungster1Script, -1
-	object_event 21, 25, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << MORN) | (1 << NITE), PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, OlivineCityTohofanMScript, -1
+	object_event 21, 25, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << MORN) | (1 << NITE), PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, OlivineCityTohofanMScript, -1
 	object_event 26, 22, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineCitySailor1Text, -1
 	object_event 15, 21, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 1 << EVE, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineCitySailor2Text, -1
 	object_event 31, 17, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineCityFisherText, -1

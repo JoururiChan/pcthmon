@@ -311,15 +311,15 @@ TrainerLadyJessica:
 .Script:
 	endifjustbattled
 	opentext
-	checkevent EVENT_SPOKE_TO_LADY_JESSICA
+	checkevent EVENT_STOHO_TO_LADY_JESSICA
 	iftruefwd .SpokeAgain
 	writetext .AfterText1
-	setevent EVENT_SPOKE_TO_LADY_JESSICA
+	setevent EVENT_STOHO_TO_LADY_JESSICA
 	waitendtext
 
 .SpokeAgain:
 	writetext .AfterText2
-	clearevent EVENT_SPOKE_TO_LADY_JESSICA
+	clearevent EVENT_STOHO_TO_LADY_JESSICA
 	waitendtext
 
 .SeenText:

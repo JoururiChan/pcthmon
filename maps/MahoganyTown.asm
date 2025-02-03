@@ -8,7 +8,7 @@ MahoganyTown_MapScriptHeader:
 	warp_event 11,  7, MAHOGANY_MART_1F, 1
 	warp_event 17,  7, MAHOGANY_RED_SLILYBLACK_SPEECH_HOUSE, 1
 	warp_event  6, 13, MAHOGANY_GYM, 1
-	warp_event 15, 13, MAHOGANY_POKECENTER_1F, 1
+	warp_event 15, 13, MAHOGANY_TOHOCENTER_1F, 1
 	warp_event  9,  1, ROUTE_43_MAHOGANY_GATE, 3
 
 	def_coord_events
@@ -21,27 +21,27 @@ MahoganyTown_MapScriptHeader:
 	bg_event  3, 13, BGEVENT_JUMPTEXT, MahoganyGymSignText
 
 	def_object_events
-	object_event 19,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, MahoganyTownTohofanMScript, EVENT_MAHOGANY_TOWN_POKEFAN_M_BLOCKS_EAST
+	object_event 19,  8, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, MahoganyTownTohofanMScript, EVENT_MAHOGANY_TOWN_TOHOFAN_M_BLOCKS_EAST
 	object_event  6,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MahoganyTownGrampsScript, -1
-	object_event  6, 14, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyTownFisherText, EVENT_MAHOGANY_TOWN_POKEFAN_M_BLOCKS_GYM
+	object_event  6, 14, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyTownFisherText, EVENT_MAHOGANY_TOWN_TOHOFAN_M_BLOCKS_GYM
 	object_event 12,  8, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, MahoganyTownLassText, EVENT_MAHOGANY_MART_OWNERS
 
 	object_const_def
-	const MAHOGANYTOWN_POKEFAN_M
+	const MAHOGANYTOWN_TOHOFAN_M
 
 MahoganyTownFlyPoint:
 	setflag ENGINE_FLYPOINT_MAHOGANY
 	endcallback
 
 MahoganyTownTryARageCandyBarScript:
-	showemote EMOTE_SHOCK, MAHOGANYTOWN_POKEFAN_M, 15
-	applymovement MAHOGANYTOWN_POKEFAN_M, MahoganyTownRageCandyBarMerchantBlocksYouMovement
-	follow PLAYER, MAHOGANYTOWN_POKEFAN_M
+	showemote EMOTE_SHOCK, MAHOGANYTOWN_TOHOFAN_M, 15
+	applymovement MAHOGANYTOWN_TOHOFAN_M, MahoganyTownRageCandyBarMerchantBlocksYouMovement
+	follow PLAYER, MAHOGANYTOWN_TOHOFAN_M
 	applyonemovement PLAYER, step_left
 	stopfollow
 	turnobject PLAYER, RIGHT
 	scall RageCandyBarMerchantScript
-	applymovement MAHOGANYTOWN_POKEFAN_M, MahoganyTownRageCandyBarMerchantReturnsMovement
+	applymovement MAHOGANYTOWN_TOHOFAN_M, MahoganyTownRageCandyBarMerchantReturnsMovement
 	end
 
 MahoganyTownTohofanMScript:

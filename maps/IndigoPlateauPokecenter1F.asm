@@ -7,7 +7,7 @@ IndigoPlateauTohocenter1F_MapScriptHeader:
 	def_warp_events
 	warp_event  9, 13, INDIGO_PLATEAU, 1
 	warp_event 10, 13, INDIGO_PLATEAU, 2
-	warp_event  0, 13, POKECENTER_2F, 1
+	warp_event  0, 13, TOHOCENTER_2F, 1
 	warp_event 12,  3, WILLS_ROOM, 1
 
 	def_coord_events
@@ -18,9 +18,9 @@ IndigoPlateauTohocenter1F_MapScriptHeader:
 	bg_event 13,  7, BGEVENT_READ, TohomonJournalGiovanniScript
 
 	def_object_events
-	object_event 14,  9, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
-	object_event 14,  9, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_INDIGO_PLATEAU_POKECENTER_LYRA
-	object_event 10,  9, SPRITE_YELLOW, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IndigoPlateauYellowScript, EVENT_INDIGO_PLATEAU_POKECENTER_YELLOW
+	object_event 14,  9, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_INDIGO_PLATEAU_TOHOCENTER_RIVAL
+	object_event 14,  9, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_INDIGO_PLATEAU_TOHOCENTER_LYRA
+	object_event 10,  9, SPRITE_YELLOW, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IndigoPlateauYellowScript, EVENT_INDIGO_PLATEAU_TOHOCENTER_YELLOW
 	pc_nurse_event  9, 7
 	mart_clerk_event  1,  9, MARTTYPE_STANDARD, MART_INDIGO_PLATEAU
 	object_event  6,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, IndigoPlateauTeleportGuyScript, EVENT_TELEPORT_GUY
@@ -28,9 +28,9 @@ IndigoPlateauTohocenter1F_MapScriptHeader:
 	object_event  5, 12, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, IndigoPlateauCooltrainermText, -1
 
 	object_const_def
-	const INDIGOPLATEAUPOKECENTER1F_RIVAL
-	const INDIGOPLATEAUPOKECENTER1F_LYRA
-	const INDIGOPLATEAUPOKECENTER1F_YELLOW
+	const INDIGOPLATEAUTOHOCENTER1F_RIVAL
+	const INDIGOPLATEAUTOHOCENTER1F_LYRA
+	const INDIGOPLATEAUTOHOCENTER1F_YELLOW
 
 PrepareEliteFourCallback:
 	setmapscene WILLS_ROOM, $0
@@ -58,8 +58,8 @@ PrepareEliteFourCallback:
 	endcallback
 
 PlateauRivalBattleTrigger1:
-	moveobject INDIGOPLATEAUPOKECENTER1F_RIVAL, 15, 9
-	moveobject INDIGOPLATEAUPOKECENTER1F_LYRA, 15, 9
+	moveobject INDIGOPLATEAUTOHOCENTER1F_RIVAL, 15, 9
+	moveobject INDIGOPLATEAUTOHOCENTER1F_LYRA, 15, 9
 PlateauRivalBattleTrigger2:
 	checkevent EVENT_FINAL_BATTLE_WITH_LYRA
 	iftruefwd .LyraFight
@@ -81,20 +81,20 @@ PlateauRivalBattleTrigger2:
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special Special_FadeOutMusic
 	pause 15
-	appear INDIGOPLATEAUPOKECENTER1F_RIVAL
-	applymovement INDIGOPLATEAUPOKECENTER1F_RIVAL, PlateauRivalApproachesMovement
+	appear INDIGOPLATEAUTOHOCENTER1F_RIVAL
+	applymovement INDIGOPLATEAUTOHOCENTER1F_RIVAL, PlateauRivalApproachesMovement
 	playmusic MUSIC_RIVAL_ENCOUNTER
-	faceobject INDIGOPLATEAUPOKECENTER1F_RIVAL, PLAYER
-	faceobject PLAYER, INDIGOPLATEAUPOKECENTER1F_RIVAL
+	faceobject INDIGOPLATEAUTOHOCENTER1F_RIVAL, PLAYER
+	faceobject PLAYER, INDIGOPLATEAUTOHOCENTER1F_RIVAL
 	showtext PlateauRivalText1
-	setevent EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
+	setevent EVENT_INDIGO_PLATEAU_TOHOCENTER_RIVAL
 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
 	iftruefwd .RivalTotodile
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftruefwd .RivalChikorita
 	; Cyndaquil
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
-	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
+	setlasttalked INDIGOPLATEAUTOHOCENTER1F_RIVAL
 	loadtrainer RIVAL2, 6
 	startbattle
 	dontrestartmapmusic
@@ -103,7 +103,7 @@ PlateauRivalBattleTrigger2:
 
 .RivalTotodile:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
-	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
+	setlasttalked INDIGOPLATEAUTOHOCENTER1F_RIVAL
 	loadtrainer RIVAL2, 4
 	startbattle
 	dontrestartmapmusic
@@ -112,7 +112,7 @@ PlateauRivalBattleTrigger2:
 
 .RivalChikorita:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
-	setlasttalked INDIGOPLATEAUPOKECENTER1F_RIVAL
+	setlasttalked INDIGOPLATEAUTOHOCENTER1F_RIVAL
 	loadtrainer RIVAL2, 5
 	startbattle
 	dontrestartmapmusic
@@ -122,8 +122,8 @@ PlateauRivalBattleTrigger2:
 	playmusic MUSIC_RIVAL_AFTER
 	showtext PlateauRivalText2
 	turnobject PLAYER, DOWN
-	applymovement INDIGOPLATEAUPOKECENTER1F_RIVAL, PlateauRivalLeavesMovement
-	disappear INDIGOPLATEAUPOKECENTER1F_RIVAL
+	applymovement INDIGOPLATEAUTOHOCENTER1F_RIVAL, PlateauRivalLeavesMovement
+	disappear INDIGOPLATEAUTOHOCENTER1F_RIVAL
 	setscene $0
 	playmapmusic
 	setflag ENGINE_INDIGO_PLATEAU_RIVAL_FIGHT
@@ -139,10 +139,10 @@ PlateauRivalBattleTrigger2:
 	showemote EMOTE_SHOCK, PLAYER, 15
 	special Special_FadeOutMusic
 	pause 15
-	appear INDIGOPLATEAUPOKECENTER1F_LYRA
-	applymovement INDIGOPLATEAUPOKECENTER1F_LYRA, PlateauRivalApproachesMovement
-	faceobject INDIGOPLATEAUPOKECENTER1F_LYRA, PLAYER
-	faceobject PLAYER, INDIGOPLATEAUPOKECENTER1F_LYRA
+	appear INDIGOPLATEAUTOHOCENTER1F_LYRA
+	applymovement INDIGOPLATEAUTOHOCENTER1F_LYRA, PlateauRivalApproachesMovement
+	faceobject INDIGOPLATEAUTOHOCENTER1F_LYRA, PLAYER
+	faceobject PLAYER, INDIGOPLATEAUTOHOCENTER1F_LYRA
 	opentext
 	writetext PlateauLyraText1
 	waitbutton
@@ -150,14 +150,14 @@ PlateauRivalBattleTrigger2:
 	writetext PlateauLyraText2
 	waitbutton
 	closetext
-	setevent EVENT_INDIGO_PLATEAU_POKECENTER_LYRA
+	setevent EVENT_INDIGO_PLATEAU_TOHOCENTER_LYRA
 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
 	iftruefwd .LyraTotodile
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftruefwd .LyraChikorita
 	; Cyndaquil
 	winlosstext PlateauLyraWinText, PlateauLyraLoseText
-	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
+	setlasttalked INDIGOPLATEAUTOHOCENTER1F_LYRA
 	loadtrainer LYRA2, 1
 	startbattle
 	dontrestartmapmusic
@@ -166,7 +166,7 @@ PlateauRivalBattleTrigger2:
 
 .LyraTotodile:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
-	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
+	setlasttalked INDIGOPLATEAUTOHOCENTER1F_LYRA
 	loadtrainer LYRA2, 2
 	startbattle
 	dontrestartmapmusic
@@ -175,7 +175,7 @@ PlateauRivalBattleTrigger2:
 
 .LyraChikorita:
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
-	setlasttalked INDIGOPLATEAUPOKECENTER1F_LYRA
+	setlasttalked INDIGOPLATEAUTOHOCENTER1F_LYRA
 	loadtrainer LYRA2, 3
 	startbattle
 	dontrestartmapmusic
@@ -185,8 +185,8 @@ PlateauRivalBattleTrigger2:
 	playmusic MUSIC_LYRA_DEPARTURE_HGSS
 	showtext PlateauLyraText3
 	turnobject PLAYER, DOWN
-	applymovement INDIGOPLATEAUPOKECENTER1F_LYRA, PlateauRivalLeavesMovement
-	disappear INDIGOPLATEAUPOKECENTER1F_LYRA
+	applymovement INDIGOPLATEAUTOHOCENTER1F_LYRA, PlateauRivalLeavesMovement
+	disappear INDIGOPLATEAUTOHOCENTER1F_LYRA
 	setscene $0
 	playmapmusic
 	setflag ENGINE_INDIGO_PLATEAU_LYRA_FIGHT
@@ -384,11 +384,11 @@ IndigoPlateauYellowScript:
 	readvar VAR_FACING
 	turnobject PLAYER, DOWN
 	ifnotequal UP, .noleftstep
-	applyonemovement INDIGOPLATEAUPOKECENTER1F_YELLOW, step_left
+	applyonemovement INDIGOPLATEAUTOHOCENTER1F_YELLOW, step_left
 .noleftstep
-	applymovement INDIGOPLATEAUPOKECENTER1F_YELLOW, .DownMovement
+	applymovement INDIGOPLATEAUTOHOCENTER1F_YELLOW, .DownMovement
 	playsound SFX_EXIT_BUILDING
-	disappear INDIGOPLATEAUPOKECENTER1F_YELLOW
+	disappear INDIGOPLATEAUTOHOCENTER1F_YELLOW
 	setevent EVENT_GOT_A_TOHOMON_FROM_YELLOW
 	waitsfx
 	end

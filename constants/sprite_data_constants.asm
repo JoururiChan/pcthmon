@@ -41,7 +41,7 @@ ENDM
 	ow_npc_pal_const AZURE             ; 0a
 	ow_npc_pal_const WHITE             ; 0b
 	ow_npc_pal_const BLACK             ; 0c
-	ow_npc_pal_const POKE_BALL         ; 0d (red)
+	ow_npc_pal_const TOHO_BALL         ; 0d (red)
 	ow_npc_pal_const DECO_ITEM         ; 0e (blue)
 	ow_npc_pal_const KEY_ITEM          ; 0f (green)
 	ow_npc_pal_const MARLON            ; 10
@@ -61,7 +61,7 @@ DEF NUM_OW_TIME_OF_DAY_PALS EQU const_value
 	ow_npc_pal_const LIGHTNING_CRYSTAL ; 1c
 	ow_npc_pal_const ROCK_CRYSTAL      ; 1d
 	ow_npc_pal_const N64               ; 1e
-	ow_npc_pal_const POKECOM_SIGN      ; 1f
+	ow_npc_pal_const TOHOCOM_SIGN      ; 1f
 	ow_npc_pal_const RANGI             ; 20
 	ow_npc_pal_const DRILL             ; 21
 	ow_npc_pal_const PEARL             ; 22

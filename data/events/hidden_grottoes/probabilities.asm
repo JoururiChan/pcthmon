@@ -8,7 +8,7 @@ HiddenGrottoTohomonIndexes:
 
 HiddenGrottoItems:
 	db 160 ; total probability
-	db  50, POKE_BALL
+	db  50, TOHO_BALL
 	db  20, GREAT_BALL
 	db   8, ULTRA_BALL
 	db  25, POTION

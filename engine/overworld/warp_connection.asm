@@ -271,9 +271,9 @@ EnterMapWarp:
 	ld c, a
 	call GetAnyMapTileset
 	ld a, c
-	cp TILESET_POKECENTER
+	cp TILESET_TOHOCENTER
 	jr z, .pokecenter_pokecom
-	cp TILESET_POKECOM_CENTER
+	cp TILESET_TOHOCOM_CENTER
 	ret nz
 .pokecenter_pokecom
 	ld a, [wPrevMapGroup]

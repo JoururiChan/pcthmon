@@ -59,7 +59,7 @@ GiveSpecialEgg:
 rept MON_CAUGHTDATA - MON_PKRUS
 	ld [hli], a
 endr
-	ld a, POKE_BALL
+	ld a, TOHO_BALL
 	ld [hli], a
 	xor a
 	ld [hli], a ; caught level

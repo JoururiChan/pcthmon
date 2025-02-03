@@ -22,8 +22,8 @@ SpriteAnimOAMData:
 	spriteanimoam $10, .OAMData_SlotsCRemilia5          ; SPRITE_ANIM_OAMSET_SLOTS_CREMILIA_5
 	spriteanimoam $3a, .OAMData_1x1_Palette0           ; SPRITE_ANIM_OAMSET_SLOTS_EGG
 	spriteanimoam $00, .OAMData_RedWalk                ; SPRITE_ANIM_OAMSET_STILL_CURSOR
-	spriteanimoam $00, .OAMData_TradeTohoBall1         ; SPRITE_ANIM_OAMSET_TRADE_POKE_BALL_1
-	spriteanimoam $02, .OAMData_MagnetTrain            ; SPRITE_ANIM_OAMSET_TRADE_POKE_BALL_2
+	spriteanimoam $00, .OAMData_TradeTohoBall1         ; SPRITE_ANIM_OAMSET_TRADE_TOHO_BALL_1
+	spriteanimoam $02, .OAMData_MagnetTrain            ; SPRITE_ANIM_OAMSET_TRADE_TOHO_BALL_2
 	spriteanimoam $06, .OAMData_TradePoofBubble        ; SPRITE_ANIM_OAMSET_TRADE_POOF_1
 	spriteanimoam $0a, .OAMData_TradePoofBubble        ; SPRITE_ANIM_OAMSET_TRADE_POOF_2
 	spriteanimoam $0e, .OAMData_TradePoofBubble        ; SPRITE_ANIM_OAMSET_TRADE_POOF_3

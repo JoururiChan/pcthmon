@@ -9,7 +9,7 @@ CeladonCity_MapScriptHeader:
 	warp_event 20,  9, CELADON_MANSION_1F, 1
 	warp_event 20,  3, CELADON_MANSION_1F, 3
 	warp_event 21,  3, CELADON_MANSION_1F, 3
-	warp_event 33,  9, CELADON_POKECENTER_1F, 1
+	warp_event 33,  9, CELADON_TOHOCENTER_1F, 1
 	warp_event 22, 19, CELADON_GAME_CORNER, 1
 	warp_event 27, 19, CELADON_GAME_CORNER_PRIZE_ROOM, 1
 	warp_event 14, 29, CELADON_GYM, 1
@@ -43,7 +43,7 @@ CeladonCity_MapScriptHeader:
 	object_event  4, 17, SPRITE_RICH_BOY, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeladonCityScript, -1
 	object_event 30, 11, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonCityFisherText, -1
 	tohomon_event 31, 11, CELLY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, CeladonCityCEllyText, -1
-	object_event 24, 24, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonCityTeacher1Text, -1
+	object_event 24, 24, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonCityTeacher1Text, -1
 	object_event 17, 16, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonCityGramps1Text, -1
 	object_event 12, 31, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonCityGramps2Text, -1
 	object_event 22, 13, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonCityYoungster1Text, -1

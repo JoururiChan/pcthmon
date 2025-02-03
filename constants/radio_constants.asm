@@ -12,7 +12,7 @@
 	const PLACES_AND_PEOPLE      ; 05
 	const LETS_ALL_SING          ; 06
 	const ROCKET_RADIO           ; 07
-	const POKE_FLUTE_RADIO       ; 08
+	const TOHO_FLUTE_RADIO       ; 08
 	const HINA_RADIO            ; 09
 	const EVOLUTION_RADIO        ; 0a
 DEF NUM_RADIO_CHANNELS EQU const_value

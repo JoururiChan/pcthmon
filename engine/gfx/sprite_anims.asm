@@ -19,7 +19,7 @@ DoAnimFrame:
 	dw AnimSeq_SlotsCRemiliaEgg    ; SPRITE_ANIM_SEQ_SLOTS_EGG
 	;dw AnimSeq_MemoryGameCursor   ; SPRITE_ANIM_SEQ_MEMORY_GAME_CURSOR
 	dw AnimSeq_TohogearArrow      ; SPRITE_ANIM_SEQ_TOHOGEAR_MODE_ARROW
-	dw AnimSeq_TradeTohoBall      ; SPRITE_ANIM_SEQ_TRADE_POKE_BALL
+	dw AnimSeq_TradeTohoBall      ; SPRITE_ANIM_SEQ_TRADE_TOHO_BALL
 	dw AnimSeq_TradeTubeBulge     ; SPRITE_ANIM_SEQ_TRADE_TUBE_BULGE
 	dw AnimSeq_TrademonInTube     ; SPRITE_ANIM_SEQ_TRADEMON_IN_TUBE
 	dw AnimSeq_RevealNewMon       ; SPRITE_ANIM_SEQ_REVEAL_NEW_MON
@@ -193,7 +193,7 @@ AnimSeq_TradeTohoBall:
 	dw .delete
 
 .zero
-	ld a, SPRITE_ANIM_FRAMESET_TRADE_POKE_BALL_0
+	ld a, SPRITE_ANIM_FRAMESET_TRADE_TOHO_BALL_0
 	call _ReinitSpriteAnimFrame
 
 	ld hl, SPRITEANIMSTRUCT_JUMPTABLE_INDEX
@@ -312,7 +312,7 @@ AnimSeq_TradeTubeBulge:
 	jr nc, .delete
 	and 3
 	ret nz
-	ld de, SFX_POKEBALLS_PLACED_ON_TABLE
+	ld de, SFX_TOHOBALLS_PLACED_ON_TABLE
 	jmp PlaySFX
 
 .delete

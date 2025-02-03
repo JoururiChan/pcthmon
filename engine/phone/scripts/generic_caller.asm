@@ -67,9 +67,9 @@ Phone_WhosBragging_Male:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_HIKER_PARRY, .Parry
@@ -161,7 +161,7 @@ Phone_WhosBragging_Male:
 
 Phone_WhosBragging_Female:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -223,9 +223,9 @@ Phone_WhoDefeatedMon_Male:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_HIKER_PARRY, .Parry
@@ -317,7 +317,7 @@ Phone_WhoDefeatedMon_Male:
 
 Phone_WhoDefeatedMon_Female:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -379,9 +379,9 @@ Phone_WhoLostAMon_Male:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_HIKER_PARRY, .Parry
@@ -473,7 +473,7 @@ Phone_WhoLostAMon_Male:
 
 Phone_WhoLostAMon_Female:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -545,7 +545,7 @@ PhoneScript_RematchText_Male:
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_HIKER_PARRY, .Parry
@@ -703,9 +703,9 @@ PhoneScript_HangupText_Male:
 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+	ifequalfwd PHONE_TOHOMANIAC_BRENT, .Brent
 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
@@ -793,7 +793,7 @@ PhoneScript_HangupText_Male:
 
 PhoneScript_HangupText_Female:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
@@ -857,7 +857,7 @@ PhoneScriptRareWildMon:
 PhoneScript_BugCatchingContest:
 	readvar VAR_CALLERID
 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 
 .Wade:
 	farwritetext WadeBugCatchingContestText
@@ -899,7 +899,7 @@ PhoneScript_FoundItem_Male:
 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+	ifequalfwd PHONE_TOHOFANM_DEREK, .Derek
 	ifequalfwd PHONE_FISHER_TULLY, .Tully
 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
 
@@ -929,7 +929,7 @@ PhoneScript_FoundItem_Male:
 
 PhoneScript_FoundItem_Female:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+	ifequalfwd PHONE_TOHOFAN_BEVERLY, .Beverly
 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
 	ifequalfwd PHONE_LASS_DANA, .Dana
 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany

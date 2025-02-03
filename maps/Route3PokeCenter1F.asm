@@ -6,7 +6,7 @@ Route3TohoCenter1F_MapScriptHeader:
 	def_warp_events
 	warp_event  5,  7, ROUTE_3, 2
 	warp_event  6,  7, ROUTE_3, 2
-	warp_event  0,  7, POKECENTER_2F, 1
+	warp_event  0,  7, TOHOCENTER_2F, 1
 
 	def_coord_events
 
@@ -15,7 +15,7 @@ Route3TohoCenter1F_MapScriptHeader:
 
 	def_object_events
 	pc_nurse_event  5, 1
-	object_event  9,  4, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route3TohoCenter1FTohofanM1Text, -1
+	object_event  9,  4, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route3TohoCenter1FTohofanM1Text, -1
 	object_event  2,  5, SPRITE_HIKER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route3TohoCenter1FTohofanM2Text, -1
 	object_event 11,  3, SPRITE_CAMPER, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route3TohoCenter1FYoungsterText, -1
 

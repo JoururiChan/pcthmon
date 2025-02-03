@@ -18,7 +18,7 @@ UnionCave1F_MapScriptHeader:
 
 	def_object_events
 	object_event  3, 18, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerHikerDaniel, -1
-	object_event  7, 37, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohomaniacLarry, -1
+	object_event  7, 37, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohomaniacLarry, -1
 	object_event 11, 20, SPRITE_HIKER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerHikerRussell, -1
 	object_event 15, 39, SPRITE_FIREBREATHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerFirebreatherRay, -1
 	object_event 11, 32, SPRITE_FIREBREATHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerFirebreatherBill, -1
@@ -29,7 +29,7 @@ UnionCave1F_MapScriptHeader:
 	itemball_event 12, 45, AWAKENING, 1, EVENT_UNION_CAVE_1F_AWAKENING
 
 GenericTrainerTohomaniacLarry:
-	generictrainer POKEMANIAC, LARRY, EVENT_BEAT_POKEMANIAC_LARRY, TohomaniacLarrySeenText, TohomaniacLarryBeatenText
+	generictrainer TOHOMANIAC, LARRY, EVENT_BEAT_TOHOMANIAC_LARRY, TohomaniacLarrySeenText, TohomaniacLarryBeatenText
 
 	text "Every Friday, you"
 	line "can hear #mon"

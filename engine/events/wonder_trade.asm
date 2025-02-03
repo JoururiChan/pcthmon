@@ -96,7 +96,7 @@ DoWonderTrade:
 	eventflagcheck EVENT_BEAT_ELITE_FOUR
 	jr z, .random_trademon
 	; ...and haven't gotten the GS Ball TTei yet...
-	eventflagcheck EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
+	eventflagcheck EVENT_GOT_GS_BALL_FROM_TOHOCOM_CENTER
 	jr nz, .random_trademon
 	; ...then receive a spiky-eared TTei holding a GS Ball
 	call GetGSBallTTei
@@ -265,7 +265,7 @@ DoWonderTrade:
 	inc a
 	jr .got_ball
 .poke_ball
-	ld a, POKE_BALL
+	ld a, TOHO_BALL
 .got_ball
 	ld c, a
 	farcall SetGiftPartyMonCaughtData

@@ -8,7 +8,7 @@ VermilionCity_MapScriptHeader:
 
 	def_warp_events
 	warp_event  5,  5, VERMILION_HOUSE_FISHING_SPEECH_HOUSE, 1
-	warp_event  9,  5, VERMILION_POKECENTER_1F, 1
+	warp_event  9,  5, VERMILION_TOHOCENTER_1F, 1
 	warp_event  7, 17, TOHOMON_FAN_CLUB, 1
 	warp_event 13, 17, VERMILION_MAGNET_TRAIN_SPEECH_HOUSE, 1
 	warp_event 21, 17, VERMILION_MART, 2
@@ -43,9 +43,9 @@ VermilionCity_MapScriptHeader:
 	object_event 27, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionMachokeOwnerScript, -1
 	tohomon_event 28, 13, MACHOKE, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GRAY, VermilionMachokeText, -1
 	object_event 16, 20, SPRITE_ROCKER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCitySuperNerdText, -1
-	object_event 32, 12, SPRITE_POKEMANIAC, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VermilionCitySuperNerd2Script, -1
+	object_event 32, 12, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VermilionCitySuperNerd2Script, -1
 	object_event 11,  9, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCitySailorText, -1
-	object_event 31, 16, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, VermilionGymBadgeGuy, -1
+	object_event 31, 16, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, VermilionGymBadgeGuy, -1
 	object_event 29, 10, SPRITE_OFFICER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCityOfficerFText, EVENT_RESTORED_POWER_TO_KANTO
 	object_event 30, 10, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCityOfficerText, EVENT_RESTORED_POWER_TO_KANTO
 	cuttree_event 13, 23, EVENT_VERMILION_CITY_CUT_TREE

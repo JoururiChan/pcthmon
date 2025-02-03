@@ -3,7 +3,7 @@
 	const SFX_DEX_FANFARE_50_79           ; 00
 	const SFX_ITEM                        ; 01
 	const SFX_CAUGHT_MON                  ; 02
-	const SFX_POKEBALLS_PLACED_ON_TABLE   ; 03
+	const SFX_TOHOBALLS_PLACED_ON_TABLE   ; 03
 	const SFX_POTION                      ; 04
 	const SFX_FULL_HEAL                   ; 05
 	const SFX_MENU                        ; 06
@@ -39,7 +39,7 @@
 	const SFX_BUMP                        ; 24
 	const SFX_THUNDER_OW                  ; d5
 	const SFX_SAVE                        ; 25
-	const SFX_POKEFLUTE                   ; 26
+	const SFX_TOHOFLUTE                   ; 26
 	const SFX_ELEVATOR_END                ; 27
 	const SFX_THROW_BALL                  ; 28
 	const SFX_BALL_POOF                   ; 29

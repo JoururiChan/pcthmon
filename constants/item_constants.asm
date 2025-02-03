@@ -11,7 +11,7 @@
 	const NO_ITEM      ; 00
 DEF PARK_BALL EQU NO_ITEM
 
-	const POKE_BALL    ; 01
+	const TOHO_BALL    ; 01
 	const GREAT_BALL   ; 02
 	const ULTRA_BALL   ; 03
 	const MASTER_BALL  ; 04
@@ -39,7 +39,7 @@ DEF PARK_BALL EQU NO_ITEM
 
 	const PREMIER_BALL ; 17
 	const CHERISH_BALL ; 18
-DEF NUM_POKE_BALLS EQU const_value ; PARK_BALL counts
+DEF NUM_TOHO_BALLS EQU const_value ; PARK_BALL counts
 
 	const POTION       ; 19
 	const SUPER_POTION ; 1a
@@ -133,7 +133,7 @@ DEF NUM_BERRIES EQU const_value - FIRST_BERRY
 	const MAX_REPEL    ; 5f
 
 	const ESCAPE_ROPE  ; 60
-	const POKE_DOLL    ; 61
+	const TOHO_DOLL    ; 61
 
 	const MULCH        ; 62
 
@@ -503,8 +503,8 @@ endc
 	const NAM_PEWTERAVARICE_BITE
 	const NAM_PINK_BOW
 	const NAM_POISON_BARB
-	const NAM_POKE_BALL
-	const NAM_POKE_DOLL
+	const NAM_TOHO_BALL
+	const NAM_TOHO_DOLL
 	const NAM_POMEG_BERRY
 	const NAM_PORTRAITMAIL
 	const NAM_POTION

@@ -59,9 +59,9 @@ GiveTohorusAndConvertBerries:
 	ld de, PARTYMON_STRUCT_LENGTH
 .loop_spread
 	ld a, [hl]
-	and POKERUS_MASK ; Tohorus status is the lower nybble
+	and TOHORUS_MASK ; Tohorus status is the lower nybble
 	jr z, .cont
-	cp POKERUS_CURED
+	cp TOHORUS_CURED
 	jr z, .cont
 	ld b, a
 
@@ -72,7 +72,7 @@ GiveTohorusAndConvertBerries:
 	cp c
 	jr z, .check_next
 	ld a, [hl]
-	and POKERUS_MASK
+	and TOHORUS_MASK
 	call z, .SpreadTohorus
 
 ; check if the succeeding partymon can get infected too
@@ -85,7 +85,7 @@ GiveTohorusAndConvertBerries:
 	push hl
 	add hl, de
 	ld a, [hl]
-	and POKERUS_MASK
+	and TOHORUS_MASK
 	pop hl
 	jr nz, .cont
 	add hl, de
@@ -133,7 +133,7 @@ GiveTohorusAndConvertBerries:
 ; b: strain to infect partymon with
 ; hl: partymon pokerus data location
 	ld a, b
-	and POKERUS_MASK
+	and TOHORUS_MASK
 .get_strain_loop
 	rra
 	jr nc, .get_strain_loop
@@ -155,13 +155,13 @@ ContinueGivingTohorus:
 ; b = 0 as output (useful for GiveTohorusAndConvertBerries)
 	ld a, MON_PKRUS
 	call GetPartyParamLocationAndValue
-	and POKERUS_MASK
+	and TOHORUS_MASK
 	ret nz ; hit the 3/65536 chance but the randomly selected mon already has pokerus? tough luck!
 	call Random
 	and 3
 	inc a
 	ld b, a
-	ld a, POKERUS_MASK << 1
+	ld a, TOHORUS_MASK << 1
 .strain_loop
 	srl a
 	dec b

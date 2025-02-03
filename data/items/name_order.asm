@@ -3,7 +3,7 @@ ItemNameOrder:
 
 	db NAM_NO_ITEM
 
-	db NAM_POKE_BALL
+	db NAM_TOHO_BALL
 	db NAM_GREAT_BALL
 	db NAM_ULTRA_BALL
 	db NAM_MASTER_BALL
@@ -122,7 +122,7 @@ ItemNameOrder:
 	db NAM_MAX_REPEL
 
 	db NAM_ESCAPE_ROPE
-	db NAM_POKE_DOLL
+	db NAM_TOHO_DOLL
 
 	db NAM_MULCH
 
