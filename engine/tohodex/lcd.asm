@@ -198,9 +198,9 @@ StackDexGraphics:
 	call Get1bpp
 
 	; wakasagi oam
-	ld hl, TohodexWakasagiLZ
+	ld hl, TohodexDLuizeLZ
 	ld de, vTiles3 tile $40
-	lb bc, BANK(TohodexWakasagiLZ), $2d
+	lb bc, BANK(TohodexDLuizeLZ), $2d
 	call DecompressRequest2bpp
 	xor a
 	ldh [rVBK], a

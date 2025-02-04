@@ -18,11 +18,11 @@ MrPsychicsHouse_MapScriptHeader:
 MrPsychic:
 	faceplayer
 	opentext
-	checkevent EVENT_LISTENED_TO_ZEN_HEADBUTT_INTRO
+	checkevent EVENT_LISTENED_TO_BLAZE_STAR_INTRO
 	iftruefwd MrPsychicsHouseTutorZenHeadbuttScript
 	writetext MrPsychicText
 	waitbutton
-	setevent EVENT_LISTENED_TO_ZEN_HEADBUTT_INTRO
+	setevent EVENT_LISTENED_TO_BLAZE_STAR_INTRO
 MrPsychicsHouseTutorZenHeadbuttScript:
 	writetext Text_MrPsychicsHouseTutorZenHeadbutt
 	waitbutton
@@ -31,7 +31,7 @@ MrPsychicsHouseTutorZenHeadbuttScript:
 	writetext Text_MrPsychicsHouseTutorQuestion
 	yesorno
 	iffalsefwd .TutorRefused
-	setval ZEN_HEADBUTT
+	setval BLAZE_STAR
 	writetext ClearText
 	special Special_MoveTutor
 	ifequalfwd $0, .TeachMove

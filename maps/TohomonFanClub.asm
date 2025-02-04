@@ -20,7 +20,7 @@ TohomonFanClub_MapScriptHeader:
 	object_event  6,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, TohomonFanClubReceptionistText, -1
 	object_event  3,  4, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TohomonFanClubCMeiraGuyScript, -1
 	object_event  7,  2, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, TohomonFanClubTeacherText, -1
-	tohomon_event  7,  3, ODDISH, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GREEN, FanClubEKotohimeText, -1
+	tohomon_event  7,  3, KOTOHIME, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GREEN, FanClubEKotohimeText, -1
 
 	object_const_def
 	const TOHOMONFANCLUB_CMEIRA_DOLL

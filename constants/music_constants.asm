@@ -161,7 +161,7 @@
 	const MUSIC_FROST_CAVERN_XY                ; 9d
 	const MUSIC_POWER_PLANT_XY                 ; 9e
 	const MUSIC_REVERSAL_MOUNTAIN_W2           ; 9f
-	const MUSIC_FLAME_SHOOTS_RSE               ; a0
+	const MUSIC_METEOR_FALLS_RSE               ; a0
 	const MUSIC_LUGIAS_SONG_2000               ; a1
 	const MUSIC_LUGIA_BATTLE_HGSS              ; a2
 	const MUSIC_SUMMONING_DANCE_HGSS           ; a3

@@ -14,9 +14,9 @@ MrFujisHouse_MapScriptHeader:
 	def_object_events
 	object_event  4,  1, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, MrFujisHouseSuperNerdText, -1
 	object_event  3,  4, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, MrFujisHouseLassText, -1
-	tohomon_event  8,  4, PSYDUCK, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, MrFujisPsyduckText, -1
+	tohomon_event  8,  4, YUMEMI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, MrFujisYumemiText, -1
 	tohomon_event  5,  5, RIKA, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PURPLE, MrFujisRikaText, -1
-	tohomon_event  1,  3, PIDGEY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, MrFujisPidgeyText, -1
+	tohomon_event  1,  3, MAGAN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, MrFujisMaganText, -1
 
 MrFujisHouseSuperNerdText:
 	text "Mr.Fuji does live"
@@ -39,14 +39,14 @@ MrFujisHouseLassText:
 	line "care of them."
 	done
 
-MrFujisPsyduckText:
-	text "Psyduck: Gu-guwa?"
+MrFujisYumemiText:
+	text "Yumemi: Gu-guwa?"
 	done
 
 MrFujisRikaText:
 	text "Rika: Gyun!"
 	done
 
-MrFujisPidgeyText:
-	text "Pidgey: Pijji!"
+MrFujisMaganText:
+	text "Magan: Pijji!"
 	done

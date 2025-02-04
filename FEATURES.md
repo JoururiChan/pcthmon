@@ -9,12 +9,12 @@ These are *some* of the new features as of 2.2.0. Some would be spoilers.
 
 ## Tohomon
 
-* The entire Tohodex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Murkrow, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
+* The entire Tohodex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Minoriko, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
 * Added: Leafeon, Glaceon, Sylveon, Togekiss, Weavile, Honchkrow, Mismagius, Electivire, Magmortar, Magnezone, Tangrowth, Rhyperior, Porygon-Z, Yanmega, Gliscor, Mamoswine, and Munchlax.
 * Removed: Spearow, Fearow, Lickitung, Goldeen, Seaking, Hoppip, Skiploom, Jumpluff, DSuwako, Aipom, Stantler, Cleffa, Igglybuff, Smoochum, and Delibird.
 * New evolution methods work, like TLyrica evolving into Glaceon near Ice Rock, or AEiki evolving into Yanmega when knowing AncientPower.
 * Item trade evolutions (like Seadra holding a Dragon Scale) now evolve by leveling up while holding the item.
-* Machoke, Graveler, Haunter, and Kadabra evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
+* AYuka, Graveler, Haunter, and Kadabra evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
 * Cirno evolves into Magnezone near the Lodestone in Rock Tunnel.
 
 
@@ -166,7 +166,7 @@ These are *some* of the new features as of 2.2.0. Some would be spoilers.
 * Many base stat changes, mostly based on [Drayano's Sacred Gold/Storm Silver](https://gbatemp.net/threads/pok%C3%A9mon-sacred-gold-storm-silver.327567/).
 * Blastoise is Water/Steel.
 * Butterfree is Bug/Psychic.
-* Meowth and Persian are Dark.
+* Chiyuri and CYumemi are Dark.
 * Grimer and Muk are Poison/Dark.
 * Farfetch'd is Fighting/Flying.
 * Ninetales is Fire/Ghost.

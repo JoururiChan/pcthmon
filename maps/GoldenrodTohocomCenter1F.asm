@@ -43,7 +43,7 @@ GoldenrodTohocomCenter1F_MapScriptHeader:
 	object_event 27, 13, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FTohofanFText_Sunflora, -1
 	object_event 21,  6, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FRockerText, -1
 	object_event 18, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FGrampsText, -1
-	object_event 18,  9, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FLassText_PidgeyMail, -1
+	object_event 18,  9, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodTohocenter1FLassText_MaganMail, -1
 	object_event  3,  9, SPRITE_ICE_BOULDER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_TOHOCOM_SIGN, OBJECTTYPE_SCRIPT, 0, InfoSignScript, -1
 	object_event 23,  3, SPRITE_ICE_BOULDER, SPRITEMOVEDATA_TOHOCOM_NEWS, 0, 0, -1, -1, PAL_NPC_TOHOCOM_SIGN, OBJECTTYPE_COMMAND, end, NULL, -1
 
@@ -323,12 +323,12 @@ GoldenrodTohocenter1FSuperNerdText:
 	line "new machines too."
 	done
 
-GoldenrodTohocenter1FLassText_PidgeyMail:
+GoldenrodTohocenter1FLassText_MaganMail:
 	text "I thought up a fun"
 	line "new thing for the"
 	cont "Wonder Trade Hub!"
 
-	para "I make a Pidgey"
+	para "I make a Magan"
 	line "hold Mail, then"
 
 	para "put it up for"
@@ -341,7 +341,7 @@ GoldenrodTohocenter1FLassText_PidgeyMail:
 	para "be traded with all"
 	line "sorts of people!"
 
-	para "I call it Pidgey"
+	para "I call it Magan"
 	line "Mail!"
 
 	para "If it becomes"

@@ -261,7 +261,7 @@ AnimationPointers:
 	dw MrRimeAnimation
 	dw WyrdeerAnimation
 	dw KleavorAnimation
-	dw UrsalunaPlainAnimation
+	dw UrsalunaAnimation
 	dw SneaslerAnimation
 	dw OverqwilAnimation
 	dw PlacethmTwoSegmentAnimation

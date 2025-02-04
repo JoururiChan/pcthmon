@@ -28,7 +28,7 @@ CherrygroveCity_MapScriptHeader:
 	object_event 25, 13, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygroveTeacherText_HaveMapCard, -1
 	object_event 23,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CherrygroveYoungsterScript, -1
 	object_event  7, 12, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MysticWaterGuy, -1
-	tohomon_event 26, 13, PIDGEY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, CherrygrovePidgeyText, -1
+	tohomon_event 26, 13, MAGAN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, CherrygroveMaganText, -1
 
 	object_const_def
 	const CHERRYGROVECITY_GRAMPS
@@ -101,9 +101,9 @@ CherrygroveRivalTriggerNorth:
 	turnobject PLAYER, RIGHT
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext CherrygroveRivalText_Seen
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	checkevent EVENT_GOT_CYOUMU_FROM_ELM
 	iftruefwd .Chikorita
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
@@ -450,8 +450,8 @@ MysticWaterGuyTextBefore:
 	line "so do you want it?"
 	done
 
-CherrygrovePidgeyText:
-	text "Pidgey: Pijji!"
+CherrygroveMaganText:
+	text "Magan: Pijji!"
 	done
 
 CherrygroveCitySignText:

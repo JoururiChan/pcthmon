@@ -3,7 +3,7 @@
 AbnormalContactMoves:
 	; Special moves that make contact
 	db DRAINING_KISS
-	db PETAL_DANCE
+	db BATTLE_CHANT
 	; Physical moves that don't make contact
 	db BONEMERANG
 	db BULLDOZE
@@ -16,12 +16,12 @@ AbnormalContactMoves:
 	db MAGNITUDE
 	db PAY_DAY
 	db PIN_MISSILE
-	db POISON_STING
+	db SEAL_NEEDLE
 	db RAZOR_LEAF
 	db ROCK_BLAST
 	db ROCK_SLIDE
-	db ROCK_THROW
+	db ROCK_BULLET
 	db SACRED_FIRE
 	db SEED_BOMB
-	db STONE_EDGE
+	db STONE_HIT
 	db STRUGGLE ; -1

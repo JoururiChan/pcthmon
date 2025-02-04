@@ -453,7 +453,7 @@ wEnemySubStatus4::
 
 ; Some code (e.g. HandleRampage) depend on the order of these
 wPlayerAbility:: db
-wPlayerRolloutCount:: db
+wPlayerTremorsCount:: db
 wPlayerConfuseCount:: db
 wPlayerToxicCount:: db
 wPlayerDisableCount:: db
@@ -462,7 +462,7 @@ wPlayerPerishCount:: db
 wPlayerProtectCount:: db
 
 wEnemyAbility:: db
-wEnemyRolloutCount:: db
+wEnemyTremorsCount:: db
 wEnemyConfuseCount:: db
 wEnemyToxicCount:: db
 wEnemyDisableCount:: db

@@ -374,7 +374,7 @@ TohofanfJaimeBeatenText:
 	done
 
 TohofanfJaimeAfterBattleText:
-	text "I met my Meowth at"
+	text "I met my Chiyuri at"
 	line "night, right here"
 	cont "on Route 39."
 

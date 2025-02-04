@@ -262,7 +262,7 @@ BattleAnimOAMData:
 	battleanimoam $04,  6, .OAMData_93            ; BATTLEANIMOAMSET_FC
 	battleanimoam $11,  2, .OAMData_StoneHit     ; BATTLEANIMOAMSET_STONE_HIT
 	battleanimoam $1b,  4, .OAMData_03            ; BATTLEANIMOAMSET_BRICK_BREAK
-	battleanimoam $07, 10, .OAMData_VoiceBind    ; BATTLEANIMOAMSET_HYPER_VOICE
+	battleanimoam $07, 10, .OAMData_VoiceBind    ; BATTLEANIMOAMSET_VOICE_BIND
 	battleanimoam $fc,  3, .OAMData_SpiritVoice1      ; BATTLEANIMOAMSET_SPIRIT_VOICE1
 	battleanimoam $f8,  5, .OAMData_SpiritVoice2      ; BATTLEANIMOAMSET_SPIRIT_VOICE2
 	battleanimoam $1f,  4, .OAMData_03            ; BATTLEANIMOAMSET_BULLET_PUNCH

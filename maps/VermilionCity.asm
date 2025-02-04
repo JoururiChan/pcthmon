@@ -40,8 +40,8 @@ VermilionCity_MapScriptHeader:
 	object_event 35, 18, SPRITE_BIG_CRAN, SPRITEMOVEDATA_CRAN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionCRan, EVENT_VERMILION_CITY_CRAN
 	object_event 18, 31, SPRITE_LAWRENCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LAWRENCE_VERMILION_CITY
 	object_event 18, 13, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCityTeacherText, -1
-	object_event 27, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionMachokeOwnerScript, -1
-	tohomon_event 28, 13, MACHOKE, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GRAY, VermilionMachokeText, -1
+	object_event 27, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionAYukaOwnerScript, -1
+	tohomon_event 28, 13, AYUKA, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GRAY, VermilionAYukaText, -1
 	object_event 16, 20, SPRITE_ROCKER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCitySuperNerdText, -1
 	object_event 32, 12, SPRITE_TOHOMANIAC, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VermilionCitySuperNerd2Script, -1
 	object_event 11,  9, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionCitySailorText, -1
@@ -180,9 +180,9 @@ VermilionGymBadgeGuy:
 	writetext VermilionCityBadgeGuyBattleEdgeText
 	waitendtext
 
-VermilionMachokeOwnerScript:
+VermilionAYukaOwnerScript:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
-	iftrue_jumptextfaceplayer VermilionMachokeOwnerText
+	iftrue_jumptextfaceplayer VermilionAYukaOwnerText
 	jumpthistextfaceplayer
 
 	text "My #mon"
@@ -286,7 +286,7 @@ VermilionCityTeacherText:
 	cont "dock here."
 	done
 
-VermilionMachokeOwnerText:
+VermilionAYukaOwnerText:
 	text "My #mon"
 	line "prepared the land"
 
@@ -300,8 +300,8 @@ VermilionMachokeOwnerText:
 	line "made it evolve!"
 	done
 
-VermilionMachokeText:
-	text "Machoke: Guooh"
+VermilionAYukaText:
+	text "AYuka: Guooh"
 	line "gogogoh!"
 	done
 

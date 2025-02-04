@@ -10,7 +10,7 @@ RuinsOfAlphCYuyukoChamber_MapScriptHeader:
 	warp_event  4,  9, RUINS_OF_ALPH_OUTSIDE, 3
 	warp_event  3,  3, RUINS_OF_ALPH_INNER_CHAMBER, 6
 	warp_event  4,  3, RUINS_OF_ALPH_INNER_CHAMBER, 7
-	warp_event  4,  0, RUINS_OF_ALPH_CYUYUKO_ITEM_ROOM, 1
+	warp_event  4,  0, RUINS_OF_ALPH_LUNASA_ITEM_ROOM, 1
 
 	def_coord_events
 
@@ -26,14 +26,14 @@ RuinsOfAlphCYuyukoChamber_MapScriptHeader:
 
 RuinsofAlphCYuyukoChamberTrigger0:
 	special SpecialCYuyukoChamber
-	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
+	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	iffalsefwd .End
 	sdefer RuinsOfAlphCYuyukoChamberWallOpenScript
 .End
 	end
 
 RuinsofAlphCYuyukoChamberHiddenDoorsCallback:
-	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
+	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	iftruefwd .WallOpen
 	changeblock 4, 0, $24
 .WallOpen:
@@ -96,7 +96,7 @@ MapRuinsofAlphCYuyukoChamberSignpost3Script:
 	end
 
 MapRuinsofAlphCYuyukoChamberSignpost5Script:
-	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
+	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
 	iftrue_jumptext RuinsOfAlphAYuyukoChamberWallHoleText
 MapRuinsofAlphCYuyukoChamberSignpost4Script:
 	opentext

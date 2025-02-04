@@ -47,7 +47,7 @@ Cries:
 	fardw Cry_Raikou
 	fardw Cry_CMokou
 	fardw Cry_CKaguya
-	fardw Cry_Hoothoot
+	fardw Cry_SWriggle
 	fardw Cry_Sentret
 	fardw Cry_HMinoriko
 	fardw Cry_CReisen

@@ -953,7 +953,7 @@ QuickClawDesc:
 	next "moving 1st. (Hold)"
 	done
 
-KingsBeastDesc:
+KingsRockDesc:
 RazorFangDesc:
 	text "May make the foe"
 	next "flinch. (Hold)"

@@ -25,7 +25,7 @@ NationalPark_MapScriptHeader:
 	object_event 13, 41, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerSchoolgirlEliza, -1
 	object_event 12, 41, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerSchoolboyJohnny, -1
 	object_event 19, 41, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, NationalParkTeacher2Text, -1
-	tohomon_event 28, 40, PERSIAN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, NationalParkPersianText, -1
+	tohomon_event 28, 40, CYUMEMI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, NationalParkCYumemiText, -1
 	object_event 29, 23, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerSchoolboyJack1, -1
 	object_event 20, 29, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerTohofanfBeverly1, -1
 	object_event 18,  9, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerTohofanmWilliam, -1
@@ -230,8 +230,8 @@ TohofanfBeverly1Script:
 	iftruefwd .GiveNugget
 	checkcellnum PHONE_TOHOFAN_BEVERLY
 	iftruefwd .NumberAccepted
-	checkpoke MARILL
-	iffalsefwd .NoMarill
+	checkpoke AYA
+	iffalsefwd .NoAya
 	checkevent EVENT_BEVERLY_ASKED_FOR_PHONE_NUMBER
 	iftruefwd .AskAgain
 	writetext TohofanBeverlyCuteMonText
@@ -260,8 +260,8 @@ TohofanfBeverly1Script:
 .NoRoom:
 	sjumpfwd .PackFull
 
-.NoMarill:
-	jumpopenedtext TohofanFBeverlyMarillFriendText
+.NoAya:
+	jumpopenedtext TohofanFBeverlyAyaFriendText
 
 .AskNumber1:
 	jumpstd asknumber1f
@@ -369,8 +369,8 @@ NationalParkTeacher2Text:
 	line "my quiet walk…"
 	done
 
-NationalParkPersianText:
-	text "Persian: Fufushaa!"
+NationalParkCYumemiText:
+	text "CYumemi: Fufushaa!"
 	done
 
 NationalParkGameboyKidText:
@@ -446,15 +446,15 @@ TohofanmWilliamBeatenText:
 	text "M-my #mon!"
 	done
 
-TohofanFBeverlyMarillFriendText:
+TohofanFBeverlyAyaFriendText:
 	text "My friend keeps a"
-	line "Marill!"
+	line "Aya!"
 
 	para "I find them very"
 	line "endearing."
 
 	para "Oh, I wish for a"
-	line "Marill of my own…"
+	line "Aya of my own…"
 	done
 
 LassKriseSeenText:

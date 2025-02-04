@@ -83,7 +83,7 @@ CheckUniqueWildMove:
 	cp SURF
 	jr z, .UseSurfingKikuri
 	cp FLY
-	ld a, KIKURI_FLY_FORM
+	ld a, KIKURI_KANTO_FORM
 	jr z, .UseFlyingKikuri
 	ret
 
@@ -96,7 +96,7 @@ CheckUniqueWildMove:
 	jr .loop
 
 .UseSurfingKikuri
-	ld a, KIKURI_SURF_FORM
+	ld a, KIKURI_JOHTOO_FORM
 .UseFlyingKikuri
 	ld b, a
 	ld a, [wCurForm]

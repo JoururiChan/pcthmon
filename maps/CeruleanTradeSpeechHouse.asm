@@ -14,8 +14,8 @@ CeruleanTradeSpeechHouse_MapScriptHeader:
 	def_object_events
 	object_event  2,  4, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanTradeSpeechHouseGrannyText, -1
 	object_event  3,  2, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanTradeSpeechHouseGrampsText, -1
-	tohomon_event  6,  2, POLIWRATH, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, CeruleanTradeSpeechHouseRhydonText, -1
-	tohomon_event  5,  6, IVYSAUR, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_TEAL, CeruleanTradeSpeechHouseZubatText, -1
+	tohomon_event  6,  2, CELLY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, CeruleanTradeSpeechHouseTPatchouliText, -1
+	tohomon_event  5,  6, REIMU, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_TEAL, CeruleanTradeSpeechHouseZubatText, -1
 
 CeruleanTradeSpeechHouseGrannyText:
 	text "My husband lives"
@@ -28,8 +28,8 @@ CeruleanTradeSpeechHouseGrampsText:
 	text "Ah… I'm so happy…"
 	done
 
-CeruleanTradeSpeechHouseRhydonText:
-	text "Poliwrath: Ribbit!"
+CeruleanTradeSpeechHouseTPatchouliText:
+	text "CElly: Ribbit!"
 	done
 
 CeruleanTradeSpeechHouseZubatText:

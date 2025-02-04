@@ -218,8 +218,8 @@ MenuMonIconColors::
 	iconpal BLUE, PURPLE ; KINGDRA
 	iconpal BLUE, GRAY ; PHANPY
 	iconpal GRAY, RED ; DONPHAN
-	iconpal BLUE, PURPLE ; PORYGON2
-	iconpal BLUE, PURPLE ; PORYGON_Z
+	iconpal BLUE, PURPLE ; CLUNASA2
+	iconpal BLUE, PURPLE ; CLUNASA_Z
 	iconpal BROWN, GREEN ; SMEARGLE
 	iconpal BROWN, BLUE ; TYROGUE
 	iconpal BROWN, BLUE ; HITMONTOP

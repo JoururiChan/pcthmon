@@ -1,7 +1,7 @@
 DEF GOLDENRODGAMECORNER_TM35_COINS EQU 4000
 DEF GOLDENRODGAMECORNER_TM24_COINS EQU 4000
 DEF GOLDENRODGAMECORNER_TM13_COINS EQU 4000
-DEF GOLDENRODGAMECORNER_ABRA_COINS     EQU 200
+DEF GOLDENRODGAMECORNER_ELLY_COINS     EQU 200
 DEF GOLDENRODGAMECORNER_CHEN_COINS   EQU 800
 DEF GOLDENRODGAMECORNER_CMEIRA_COINS EQU 1500
 
@@ -116,14 +116,14 @@ GoldenrodGameCornerTMVendor_LoopScript: ; 056c36
 	jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 
 .flamethrower:
-	checktmhm TM_FLAMETHROWER
+	checktmhm TM_FLAME_SHOOT
 	iftruefwd GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript
 	checkcoins GOLDENRODGAMECORNER_TM35_COINS
 	ifequalfwd $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	gettmhmname TM_FLAMETHROWER, $0
+	gettmhmname TM_FLAME_SHOOT, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
-	givetmhm TM_FLAMETHROWER
+	givetmhm TM_FLAME_SHOOT
 	takecoins GOLDENRODGAMECORNER_TM35_COINS
 	sjumpfwd GoldenrodGameCornerTMVendor_FinishScript
 
@@ -204,20 +204,20 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 
 .abra
-	checkcoins GOLDENRODGAMECORNER_ABRA_COINS
+	checkcoins GOLDENRODGAMECORNER_ELLY_COINS
 	ifequal $2, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getmonname ABRA, $0
+	getmonname ELLY, $0
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorQuitText
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	givepoke ABRA, 5
+	givepoke ELLY, 5
 	iffalse_jumpopenedtext GoldenrodGameCornerPrizeVendorNoMoreRoomText
-	setmonval ABRA
+	setmonval ELLY
 	special Special_GameCornerPrizeMonCheckDex
-	takecoins GOLDENRODGAMECORNER_ABRA_COINS
+	takecoins GOLDENRODGAMECORNER_ELLY_COINS
 	sjump .loop
 
 .chen
@@ -263,7 +263,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Abra        {d:GOLDENRODGAMECORNER_ABRA_COINS}@"
+	db "Abra        {d:GOLDENRODGAMECORNER_ELLY_COINS}@"
 	db "Chen      {d:GOLDENRODGAMECORNER_CHEN_COINS}@"
 	db "CMeira   {d:GOLDENRODGAMECORNER_CMEIRA_COINS}@"
 	db "Cancel@"

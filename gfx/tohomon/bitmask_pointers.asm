@@ -261,7 +261,7 @@ BitmasksPointers:
 	dw MrRimeBitmasks
 	dw WyrdeerBitmasks
 	dw KleavorBitmasks
-	dw UrsalunaPlainBitmasks
+	dw UrsalunaBitmasks
 	dw SneaslerBitmasks
 	dw OverqwilBitmasks
 	dw PlacethmTwoSegmentBitmasks

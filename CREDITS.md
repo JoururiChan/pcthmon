@@ -54,7 +54,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * JaceDeane for the Goldenrod Museum paintings, many Tohomon and trainer sprites, Prof. Ivy's overworld sprite, map name signs, and some tiles.
 * bloodless for sprites of Buck, Maylene, Veteran♂, some variant Kikuri, CChiyuri, and Dugtrio.
 * Kuroko Aizawa for sprites of Prof. Ivy, Looker, Cheryl, Officer♀, Aroma Lady, Artist, and Engineer.
-* Gmerc for sprites of Alolan Meowth, Persian, and SCirno.
+* Gmerc for sprites of Alolan Chiyuri, CYumemi, and SCirno.
 * SCMidna for animations of Alolan CChiyuri and Dugtrio, Munchlax, Hina ! and ?, and Surfing Kikuri, and the stat trainers' overworld sprites.
 * Acrozz for many HGSS Tohomon palettes, and sprites and animations of LilyBlack forms.
 * Freeline for animations of Honchkrow and Munchlax, and the Rocket Executives' and stat trainers' overworld sprites.

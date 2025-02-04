@@ -1,9 +1,9 @@
-RuinsOfAlphLunasaChamber_MapScriptHeader:
+RuinsOfAlphCYuyukoChamber_MapScriptHeader:
 	def_scene_scripts
-	scene_script RuinsofAlphLunasaChamberTrigger0
+	scene_script RuinsofAlphCYuyukoChamberTrigger0
 
 	def_callbacks
-	callback MAPCALLBACK_TILES, RuinsofAlphLunasaChamberHiddenDoorsCallback
+	callback MAPCALLBACK_TILES, RuinsofAlphCYuyukoChamberHiddenDoorsCallback
 
 	def_warp_events
 	warp_event  3,  9, RUINS_OF_ALPH_OUTSIDE, 2
@@ -17,24 +17,24 @@ RuinsOfAlphLunasaChamber_MapScriptHeader:
 	def_bg_events
 	bg_event  2,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
 	bg_event  5,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
-	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost2Script
-	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost3Script
-	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost4Script
-	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphLunasaChamberSignpost5Script
+	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphCYuyukoChamberSignpost2Script
+	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphCYuyukoChamberSignpost3Script
+	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphCYuyukoChamberSignpost4Script
+	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphCYuyukoChamberSignpost5Script
 
 	def_object_events
-	object_event  5,  5, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, RuinsOfAlphLunasaChamberReceptionistText, EVENT_RUINS_OF_ALPH_LUNASA_CHAMBER_RECEPTIONIST
-	object_event  3,  1, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphLunasaChamberScientistScript, -1
+	object_event  5,  5, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, RuinsOfAlphCYuyukoChamberReceptionistText, EVENT_RUINS_OF_ALPH_CYUYUKO_CHAMBER_RECEPTIONIST
+	object_event  3,  1, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphCYuyukoChamberScientistScript, -1
 
-RuinsofAlphLunasaChamberTrigger0:
-	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
+RuinsofAlphCYuyukoChamberTrigger0:
+	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
 	iffalsefwd .End
-	sdefer RuinsofAlphLunasaChamberWallOpenScript
+	sdefer RuinsofAlphCYuyukoChamberWallOpenScript
 .End
 	end
 
-RuinsofAlphLunasaChamberHiddenDoorsCallback:
-	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
+RuinsofAlphCYuyukoChamberHiddenDoorsCallback:
+	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
 	iftruefwd .WallOpen
 	changeblock 4, 0, $24
 .WallOpen:
@@ -47,7 +47,7 @@ RuinsofAlphLunasaChamberHiddenDoorsCallback:
 	changeblock 4, 2, $2
 	endcallback
 
-RuinsofAlphLunasaChamberWallOpenScript:
+RuinsofAlphCYuyukoChamberWallOpenScript:
 	pause 30
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 20
@@ -59,7 +59,7 @@ RuinsofAlphLunasaChamberWallOpenScript:
 	setscene $1
 	endtext
 
-MapRuinsofAlphLunasaChamberSignpost2Script:
+MapRuinsofAlphCYuyukoChamberSignpost2Script:
 	reanchormap
 	setval $0
 	special Special_HinaPuzzle
@@ -71,7 +71,7 @@ MapRuinsofAlphLunasaChamberSignpost2Script:
 	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
 	setevent EVENT_SOLVED_LUNASA_PUZZLE
 	setflag ENGINE_UNLOCKED_HINAS_A_TO_J
-	setevent EVENT_RUINS_OF_ALPH_LUNASA_CHAMBER_RECEPTIONIST
+	setevent EVENT_RUINS_OF_ALPH_CYUYUKO_CHAMBER_RECEPTIONIST
 	setmapscene RUINS_OF_ALPH_INNER_CHAMBER, $1
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 15
@@ -87,19 +87,19 @@ MapRuinsofAlphLunasaChamberSignpost2Script:
 	warpcheck
 	end
 
-RuinsOfAlphLunasaChamberScientistScript:
+RuinsOfAlphCYuyukoChamberScientistScript:
 	readvar VAR_HINACOUNT
 	ifequalfwd NUM_HINA, .AllHinaCaught
-	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
-	iftrue_jumptextfaceplayer RuinsOfAlphLunasaChamberScientistHoleText
+	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
+	iftrue_jumptextfaceplayer RuinsOfAlphCYuyukoChamberScientistHoleText
 	faceplayer
 	opentext
 	checkevent EVENT_SOLVED_LUNASA_PUZZLE
 	iffalsefwd .PuzzleIncomplete
-	writetext RuinsOfAlphLunasaChamberScientistTremorText
+	writetext RuinsOfAlphCYuyukoChamberScientistTremorText
 	promptbutton
 .PuzzleIncomplete:
-	writetext RuinsOfAlphLunasaChamberScientistCrypticText
+	writetext RuinsOfAlphCYuyukoChamberScientistCrypticText
 	waitbutton
 	closetext
 	turnobject LAST_TALKED, UP
@@ -108,20 +108,20 @@ RuinsOfAlphLunasaChamberScientistScript:
 .AllHinaCaught:
 	jumptextfaceplayer RuinsOfAlphResearchCenterScientist1Text_GotAllHina
 
-MapRuinsofAlphLunasaChamberSignpost3Script:
+MapRuinsofAlphCYuyukoChamberSignpost3Script:
 	opentext
 	hinatypeface
-	writetext RuinsOfAlphLunasaChamberDescriptionText
+	writetext RuinsOfAlphCYuyukoChamberDescriptionText
 	waitbutton
 	closetext
 	restoretypeface
 	special RefreshSprites
 	end
 
-MapRuinsofAlphLunasaChamberSignpost5Script:
-	checkevent EVENT_WALL_OPENED_IN_LUNASA_CHAMBER
+MapRuinsofAlphCYuyukoChamberSignpost5Script:
+	checkevent EVENT_WALL_OPENED_IN_CYUYUKO_CHAMBER
 	iftrue_jumptext RuinsOfAlphAYuyukoChamberWallHoleText
-MapRuinsofAlphLunasaChamberSignpost4Script:
+MapRuinsofAlphCYuyukoChamberSignpost4Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
 	iftruefwd .unsolved
@@ -134,7 +134,7 @@ MapRuinsofAlphLunasaChamberSignpost4Script:
 	special Special_DisplayHinaWords
 	endtext
 
-RuinsOfAlphLunasaChamberReceptionistText:
+RuinsOfAlphCYuyukoChamberReceptionistText:
 	text "Welcome to this"
 	line "chamber."
 
@@ -159,7 +159,7 @@ RuinsOfAlphLunasaChamberReceptionistText:
 	line "patterns."
 	done
 
-RuinsOfAlphLunasaChamberScientistCrypticText:
+RuinsOfAlphCYuyukoChamberScientistCrypticText:
 	text "Recently, strange,"
 	line "cryptic patterns"
 	cont "have appeared."
@@ -172,7 +172,7 @@ RuinsOfAlphLunasaChamberScientistCrypticText:
 	line "look at the walls."
 	done
 
-RuinsOfAlphLunasaChamberScientistHoleText:
+RuinsOfAlphCYuyukoChamberScientistHoleText:
 	text "Ah! Here's another"
 	line "huge hole!"
 
@@ -180,7 +180,7 @@ RuinsOfAlphLunasaChamberScientistHoleText:
 	line "go through!"
 	done
 
-RuinsOfAlphLunasaChamberScientistTremorText:
+RuinsOfAlphCYuyukoChamberScientistTremorText:
 	text "That tremor was"
 	line "pretty scary!"
 
@@ -189,7 +189,7 @@ RuinsOfAlphLunasaChamberScientistTremorText:
 	cont "this wall here…"
 	done
 
-RuinsOfAlphLunasaChamberDescriptionText:
+RuinsOfAlphCYuyukoChamberDescriptionText:
 	text "A #mon that hid"
 	line "on the sea floor."
 

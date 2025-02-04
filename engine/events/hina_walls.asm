@@ -7,10 +7,10 @@ SpecialHoOhChamber:
 	ld [wCurForm], a
 	call GetBaseData
 	ld a, [wBaseType1]
-	cp FAIRY
+	cp HEART
 	jr z, .open
 	ld a, [wBaseType2]
-	cp FAIRY
+	cp HEART
 	ret nz
 
 .open

@@ -24,7 +24,7 @@ IndigoPlateauTohocenter1F_MapScriptHeader:
 	pc_nurse_event  9, 7
 	mart_clerk_event  1,  9, MARTTYPE_STANDARD, MART_INDIGO_PLATEAU
 	object_event  6,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, IndigoPlateauTeleportGuyScript, EVENT_TELEPORT_GUY
-	tohomon_event  5,  9, ABRA, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, IndigoPlateauAbraText, EVENT_TELEPORT_GUY
+	tohomon_event  5,  9, ELLY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, IndigoPlateauAbraText, EVENT_TELEPORT_GUY
 	object_event  5, 12, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, IndigoPlateauCooltrainermText, -1
 
 	object_const_def
@@ -88,9 +88,9 @@ PlateauRivalBattleTrigger2:
 	faceobject PLAYER, INDIGOPLATEAUTOHOCENTER1F_RIVAL
 	showtext PlateauRivalText1
 	setevent EVENT_INDIGO_PLATEAU_TOHOCENTER_RIVAL
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .RivalTotodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	checkevent EVENT_GOT_CYOUMU_FROM_ELM
 	iftruefwd .RivalChikorita
 	; Cyndaquil
 	winlosstext PlateauRivalWinText, PlateauRivalLoseText
@@ -151,9 +151,9 @@ PlateauRivalBattleTrigger2:
 	waitbutton
 	closetext
 	setevent EVENT_INDIGO_PLATEAU_TOHOCENTER_LYRA
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .LyraTotodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	checkevent EVENT_GOT_CYOUMU_FROM_ELM
 	iftruefwd .LyraChikorita
 	; Cyndaquil
 	winlosstext PlateauLyraWinText, PlateauLyraLoseText
@@ -358,25 +358,25 @@ IndigoPlateauYellowScript:
 	writetext .GiveStarterText
 	promptbutton
 	waitsfx
-	checkevent EVENT_GOT_BULBASAUR_FROM_IVY
-	iftruefwd .Squirtle
-	checkevent EVENT_GOT_CHARMANDER_FROM_IVY
-	iftruefwd .Bulbasaur
-	givepoke CHARMANDER, PLAIN_FORM, 10, SITRUS_BERRY
+	checkevent EVENT_GOT_CREIMU_FROM_IVY
+	iftruefwd .CSakuya
+	checkevent EVENT_GOT_CMARISA_FROM_IVY
+	iftruefwd .CReimu
+	givepoke CMARISA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	getmonname CHARMANDER, STRING_BUFFER_3
+	getmonname CMARISA, STRING_BUFFER_3
 	sjumpfwd .Finish
 
-.Bulbasaur:
-	givepoke BULBASAUR, PLAIN_FORM, 10, SITRUS_BERRY
+.CReimu:
+	givepoke CREIMU, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	getmonname BULBASAUR, STRING_BUFFER_3
+	getmonname CREIMU, STRING_BUFFER_3
 	sjumpfwd .Finish
 
-.Squirtle:
-	givepoke SQUIRTLE, PLAIN_FORM, 10, SITRUS_BERRY
+.CSakuya:
+	givepoke CSAKUYA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .PartyAndBoxFullText
-	getmonname SQUIRTLE, STRING_BUFFER_3
+	getmonname CSAKUYA, STRING_BUFFER_3
 .Finish:
 	writetext .GoodbyeText
 	waitbutton

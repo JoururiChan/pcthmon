@@ -99,7 +99,7 @@ DEF NUM_PARTYMENUACTIONS EQU const_value
 	const PARTYMENUTEXT_HEAL_ALL
 	const PARTYMENUTEXT_REVIVE
 	const PARTYMENUTEXT_LEVEL_UP
-	const PARTYMENUTEXT_HEAL_PSYSHOT
+	const PARTYMENUTEXT_HEAL_CONFUSION
 
 ; Naming types (see engine/menus/naming_screen.asm)
 	const_def

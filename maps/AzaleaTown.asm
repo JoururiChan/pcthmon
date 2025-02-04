@@ -78,9 +78,9 @@ AzaleaTownRivalBattleTrigger2:
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	showtext .SeenText
 	setevent EVENT_RIVAL_AZALEA_TOWN
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	checkevent EVENT_GOT_CYOUMU_FROM_ELM
 	iftruefwd .Chikorita
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL

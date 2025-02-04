@@ -24,7 +24,7 @@ VioletOutskirtsHouse_MapScriptHeader:
 	const VIOLETOUTSKIRTSHOUSE_CARETAKER
 
 VioletOutskirtsHouseCaretaker:
-	checkevent EVENT_CAUGHT_HISUIAN_TYPHLOSION
+	checkevent EVENT_CAUGHT_TREISEN
 	iftruefwd .endcallback
 	disappear VIOLETOUTSKIRTSHOUSE_CARETAKER
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_3
@@ -43,14 +43,14 @@ VioletOutskirtsGhostBattleScript:
 	iftrue_jumptext VioletOutskirtsHouseNotSafeHereText
 	opentext
 	writetext VioletOutskirtsHouseOldShrineText
-	checkevent EVENT_CAUGHT_HISUIAN_TYPHLOSION
+	checkevent EVENT_CAUGHT_TREISEN
 	iftruefwd .Done
 	promptbutton
 	writetext VioletOutskirtsHouseAhText
 	waitbutton
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_GHOST
-	loadwildmon TYPHLOSION, HISUIAN_FORM, 60
+	loadwildmon TREISEN, HISUIAN_FORM, 60
 	startbattle
 	special CheckBattleCaughtResult
 	iftruefwd .CaughtHisuianTyphlosion
@@ -72,7 +72,7 @@ VioletOutskirtsGhostBattleScript:
 
 .CaughtHisuianTyphlosion
 	appear VIOLETOUTSKIRTSHOUSE_CARETAKER
-	setevent EVENT_CAUGHT_HISUIAN_TYPHLOSION
+	setevent EVENT_CAUGHT_TREISEN
 	reloadmapafterbattle
 	end
 

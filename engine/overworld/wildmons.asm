@@ -277,7 +277,7 @@ _ChooseWildEncounter:
 	ld bc, NUM_GRASSMON * 3
 	rst AddNTimes
 	pop bc
-	ld de, GrassMonProbTable
+	ld de, NatureMonProbTable
 	ld b, NUM_GRASSMON
 
 .got_table

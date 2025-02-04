@@ -113,7 +113,7 @@ CinnabarLabCelebiEventScript:
 	callasm BlindingFlash
 	waitsfx
 	pause 15
-	playsound SFX_OUTRAGE
+	playsound SFX_HOLY_LANCE
 	callasm BlindingFlash
 	callasm BlindingFlash
 	waitsfx

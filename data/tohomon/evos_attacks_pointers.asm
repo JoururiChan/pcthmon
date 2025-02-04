@@ -265,7 +265,7 @@ EvosAttacksPointers::
 	dw MrRimeEvosAttacks
 	dw WyrdeerEvosAttacks
 	dw KleavorEvosAttacks
-	dw UrsalunaPlainEvosAttacks
+	dw UrsalunaEvosAttacks
 	dw SneaslerEvosAttacks
 	dw OverqwilEvosAttacks
 	dw PlacethmEvosAttacks

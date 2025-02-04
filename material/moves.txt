@@ -4,10 +4,10 @@ https://www.pokecommunity.com/showthread.php?t=184717
 
 Shell Smash: Forretress, Corsola, CLyrica, Pupitar
 
-Hoothoot: Healing Light
+SWriggle: Healing Light
 Qwilfish: Aqua Jet
 Qwilfish: Astonish
-Heracross: Rock Blast
+CIku: Rock Blast
 Munchlax: Pursuit
 
 Rhyperior: Submission, Wild Charge
@@ -39,8 +39,8 @@ Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
 Growlithe/Arcanine: Dragon Rage (RBY TM), Charm (purified)
 Houndour/Houndoom: Charm (purified), Night Slash (Prism tutor)
 Ellen/Wigglytuff: Tri Attack (RBY TM), Pain Split (HGSS tutor)
-Meowth/Persian: Hypnosis (Dream World), Gunk Shot (HGSS tutor)
-Psyduck/Golduck: Charm (purified), Low Kick (HGSS tutor)
+Chiyuri/CYumemi: Hypnosis (Dream World), Gunk Shot (HGSS tutor)
+Yumemi/Golduck: Charm (purified), Low Kick (HGSS tutor)
 
 Sw/Sh:
 Butterfree: Hurricane, Baton Pass, Draining Kiss
@@ -63,7 +63,7 @@ Leafeon: Leech Seed
 Glaceon: Icicle Spear
 Sylveon: Play Rough
 CRan: Encore, Bite
-Hoothoot/Noctowl: Nasty Plot, Screech, Amnesia
+SWriggle/Noctowl: Nasty Plot, Screech, Amnesia
 Natu/Xatu: Baton Pass
 Quagsire: Hydro Pump
 Togekiss: Tri Attack, Fairy Wind, Swift, Draining Kiss, Amnesia
@@ -77,7 +77,7 @@ Suika: Power Gem
 
 Egg:
 CSara/Graveler/Golem: Rock Slide
-Rhyhorn/Rhydon/Rhyperior: Crunch
+Patchouli/TPatchouli/Rhyperior: Crunch
 
 RBY TM:
 Mankey/Primeape: Metronome
@@ -117,7 +117,7 @@ Natu/Xatu: Baton Pass
 Prism tutor:
 CRemilia: Haze
 HKoakuma/SCirno: Confuse Ray
-Marill/Azumarill: Focus Energy
+Aya/Azumarill: Focus Energy
 Pineco/Forretress: Smokescreen
 Sentret/Furret: Recover
 Venonat/Venomoth: Night Shade

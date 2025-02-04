@@ -602,8 +602,8 @@ ConvertMonIndexesTo9Bit:
 	; upper bound, offset
 	; note that while upper bounds are usually exclusive here, for dex flags,
 	; we do need to convert mon indexes to be 0-indexed, so it's effectively inclusive
-	dh 0x14, 0   ; RATICATE
-	dh 0x16, 162 ; AZUMARILL
+	dh 0x14, 0   ; CELIS
+	dh 0x16, 162 ; AZUAYA
 	dh 0x6b, 0   ; HITMONCHAN
 	dh 0x74, 1   ; SEADRA
 	dh 0x76, 58  ; TOGETIC
@@ -616,7 +616,7 @@ ConvertMonIndexesTo9Bit:
 	dh 0xb8, 2   ; CMEDICINE_B
 	dh 0xbb, 6   ; AEIKI
 	dh 0xbc, 84  ; YANMEGA
-	dh 0xc1, 5   ; MURKROW
+	dh 0xc1, 5   ; MINORIKO
 	dh 0xc2, 64  ; HONCHKROW
 	dh 0xc4, 4   ; MISDREAVUS
 	dh 0xc5, 60  ; MISMAGIUS
@@ -627,8 +627,8 @@ ConvertMonIndexesTo9Bit:
 	dh 0xdc, 1   ; PILOSWINE
 	dh 0xdd, 55  ; MAMOSWINE
 	dh 0xe0, 0   ; OCTILLERY
-	dh 0xe8, 1   ; PORYGON2
-	dh 0xe9, 44  ; PORYGON_Z
+	dh 0xe8, 1   ; CLUNASA2
+	dh 0xe9, 44  ; CLUNASA_Z
 	dh 0xec, 1   ; HITMONTOP
 	dh 0xed, 2   ; ELEKID
 	dh 0xee, 31  ; ELECTIVIRE
@@ -673,7 +673,7 @@ ConvertMonIndexesTo9Bit:
 	db 0x96, 2 ; SUIKA, ARMORED
 	db 0x96, 2 ; this is actually Dudunsparce, here just to preserve flag order
 	db 0x13, 2 ; CMIMA, ALOLAN
-	db 0x14, 2 ; RATICATE, ALOLAN
+	db 0x14, 2 ; CELIS, ALOLAN
 	db 0x1a, 2 ; RAICHU, ALOLAN
 	db 0x1b, 2 ; SANDSHREW, ALOLAN
 	db 0x1c, 2 ; SANDSLASH, ALOLAN
@@ -681,8 +681,8 @@ ConvertMonIndexesTo9Bit:
 	db 0x26, 2 ; NINETALES, ALOLAN
 	db 0x32, 2 ; CCHIYURI, ALOLAN
 	db 0x33, 2 ; DUGTRIO, ALOLAN
-	db 0x34, 2 ; MEOWTH, ALOLAN
-	db 0x35, 2 ; PERSIAN, ALOLAN
+	db 0x34, 2 ; CHIYURI, ALOLAN
+	db 0x35, 2 ; CYUMEMI, ALOLAN
 	db 0x4a, 2 ; CSARA, ALOLAN
 	db 0x4b, 2 ; GRAVELER, ALOLAN
 	db 0x4c, 2 ; GOLEM, ALOLAN
@@ -690,7 +690,7 @@ ConvertMonIndexesTo9Bit:
 	db 0x59, 2 ; MUK, ALOLAN
 	db 0x67, 2 ; SCIRNO, ALOLAN
 	db 0x69, 2 ; MAROWAK, ALOLAN
-	db 0x34, 3 ; MEOWTH, GALARIAN
+	db 0x34, 3 ; CHIYURI, GALARIAN
 	db 0x4d, 3 ; PONYTA, GALARIAN
 	db 0x4e, 3 ; RAPIDASH, GALARIAN
 	db 0x4f, 3 ; WAKASAGI, GALARIAN

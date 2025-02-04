@@ -69,8 +69,8 @@ DragonsDenB1FClairTrigger:
 	opentext
 	writetext .GiveTMText
 	promptbutton
-	verbosegivetmhm TM_DRAGON_PULSE
-	setevent EVENT_GOT_TM59_DRAGON_PULSE
+	verbosegivetmhm TM_VOICE_BURST
+	setevent EVENT_GOT_TM59_VOICE_BURST
 	writetext .DescribeDragonPulseText
 	promptbutton
 	writetext ClairTohomonLeagueDirectionsText ; in BlackthornGym1F.asm
@@ -143,15 +143,15 @@ DragonsDenB1FRivalScript:
 	waitbutton
 	writetext .GiveEggText
 	promptbutton
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .GiveChikoritaEgg
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+	checkevent EVENT_GOT_CYOUMU_FROM_ELM
 	iftruefwd .GiveCyndaquilEgg
-	giveegg TOTODILE
+	giveegg CSANAE
 	sjumpfwd .GotRivalsEgg
 
 .GiveChikoritaEgg:
-	giveegg CHIKORITA
+	giveegg CYOUMU
 	sjumpfwd .GotRivalsEgg
 
 .GiveCyndaquilEgg:

@@ -160,7 +160,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Tohodex shows shiny palettes after getting the Shiny Charm.
 * Add: New Game+ preserves your money, Battle Points, and PC Tohomon.
 * Add: Phone call trainers ask automatically for your number.
-* Add: Replace Ellen Poster with Marill Poster.
+* Add: Replace Ellen Poster with Aya Poster.
 * Add: Briefly beep to warn of low HP.
 * Add: Play B/W final Tohomon music for Gym Leaders and Elite 4.
 * Add: New title music after beating the Elite 4.

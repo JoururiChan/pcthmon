@@ -66,7 +66,7 @@ PewterCityTohofanMScript:
 	iffalse_jumpopenedtext .Text3
 	checkmoney $0, 300
 	ifequalfwd $2, .NotEnoughMoney
-	giveitem PEWTERAVARICE_BITE
+	giveitem PEWTERCRUNCH
 	iffalse_jumpopenedtext .Text4
 	waitsfx
 	takemoney $0, 300

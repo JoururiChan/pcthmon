@@ -876,9 +876,9 @@ SECTION "Kleavor Pics", ROMX
 KleavorFrontpic: INCBIN "gfx/tohomon/kleavor/front.animated.2bpp.lz"
 KleavorBackpic:  INCBIN "gfx/tohomon/kleavor/back.2bpp.lz"
 
-SECTION "UrsalunaPlain Pics", ROMX
-UrsalunaPlainFrontpic: INCBIN "gfx/tohomon/ursaluna_plain/front.animated.2bpp.lz"
-UrsalunaPlainBackpic:  INCBIN "gfx/tohomon/ursaluna_plain/back.2bpp.lz"
+SECTION "Ursaluna Pics", ROMX
+UrsalunaFrontpic: INCBIN "gfx/tohomon/ursaluna_plain/front.animated.2bpp.lz"
+UrsalunaBackpic:  INCBIN "gfx/tohomon/ursaluna_plain/back.2bpp.lz"
 
 SECTION "EggPic", ROMX
 EggPic: INCBIN "gfx/tohomon/egg/front.animated.2bpp.lz"

@@ -147,7 +147,7 @@ RichBoyAfterText:
 LadySeenText:
 	text "Ohohohoho!"
 
-	para "My Persian is sim-"
+	para "My CYumemi is sim-"
 	line "ply dying to Slash"
 	cont "your #mon!"
 	done

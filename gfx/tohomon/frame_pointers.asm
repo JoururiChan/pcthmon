@@ -261,7 +261,7 @@ FramesPointers:
 	dw MrRimeFrames
 	dw WyrdeerFrames
 	dw KleavorFrames
-	dw UrsalunaPlainFrames
+	dw UrsalunaFrames
 	dw SneaslerFrames
 	dw OverqwilFrames
 	dw PlacethmTwoSegmentFrames

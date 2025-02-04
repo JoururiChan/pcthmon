@@ -112,11 +112,11 @@ Route4TutorIronHeadScript:
 Route4SuperNerd2Script:
 	faceplayer
 	opentext
-	checkevent EVENT_LISTENED_TO_AQUA_TAIL_INTRO
+	checkevent EVENT_LISTENED_TO_AQUA_CUT_INTRO
 	iftruefwd Route4TutorAquaTailScript
 	writetext Route4SuperNerd2Text
 	waitbutton
-	setevent EVENT_LISTENED_TO_AQUA_TAIL_INTRO
+	setevent EVENT_LISTENED_TO_AQUA_CUT_INTRO
 Route4TutorAquaTailScript:
 	writetext Text_Route4TutorAquaTail
 	waitbutton
@@ -125,7 +125,7 @@ Route4TutorAquaTailScript:
 	writetext Text_Route4Tutor2Question
 	yesorno
 	iffalsefwd .TutorRefused
-	setval AQUA_TAIL
+	setval AQUA_CUT
 	writetext ClearText
 	special Special_MoveTutor
 	ifequalfwd $0, .TeachMove

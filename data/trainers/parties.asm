@@ -2342,9 +2342,9 @@ YoungsterGroup:
 	db "Arden@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 55, FLAREON
-	dbp 53, TAUROS
-	dbp 55, RAPIDASH
+	dbp 55, SMERLIN
+	dbp 53, CLILYBLACK
+	dbp 55, LUIZE
 	db -1 ; end
 
 SECTION "BugCatcherGroup", ROMX
@@ -2962,8 +2962,8 @@ endc
 	db "Zane@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 54, JOLTEON
-	dbp 53, RAICHU
+	dbp 54, SMERLIN
+	dbp 53, KIKURI
 	dbp 55, ELECTIVIRE
 	db -1 ; end
 
@@ -5228,7 +5228,7 @@ endc
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 55, TOGEKISS
-	dbp 53, JOLTEON
+	dbp 53, SMERLIN
 	dbp 52, AMPHAROS
 	db -1 ; end
 
@@ -6233,8 +6233,8 @@ HexManiacGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 53, MISMAGIUS
-	dbp 52, ESPEON
-	dbp 55, GENGAR
+	dbp 52, SSHIZUHA
+	dbp 55, SHINKI
 	db -1 ; end
 
 SECTION "SageGroup", ROMX
@@ -6791,8 +6791,8 @@ endc
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 53, LILYWHITE
-	dbp 54, GOLEM
-	dbp 55, MACHOKE
+	dbp 54, SARA
+	dbp 55, AYUKA
 	db -1 ; end
 
 
@@ -7779,7 +7779,7 @@ ScientistGroup:
 	db "Sanders@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 52, ALAKAZAM
+	dbp 52, ELLY
 	dbp 54, CLYRICA
 	dbp 53, NOCTOWL
 	db -1 ; end
@@ -8082,7 +8082,7 @@ BlackbeltGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 54, MAGMORTAR
-	dbp 52, ARCANINE
+	dbp 52, CKURUMI
 	dbp 53, HOUNDOOM
 	db -1 ; end
 
@@ -8159,9 +8159,9 @@ BattleGirlGroup:
 	db "Sasha@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 52, PRIMEAPE
-	dbp 55, TYPHLOSION
-	dbp 54, RAPIDASH
+	dbp 52, ORANGE
+	dbp 55, TREISEN
+	dbp 54, LUIZE
 	db -1 ; end
 
 
@@ -8334,8 +8334,8 @@ EngineerGroup:
 		db ABILITY_2 | NAT_NEUTRAL
 	db -1 ; end
 
-SECTION "TeacherFGroup", ROMX
-TeacherFGroup:
+SECTION "TeacherGroup", ROMX
+TeacherGroup:
 
 	; TEACHER_F
 	db "Colette@"
@@ -8381,9 +8381,18 @@ TeacherFGroup:
 	db "Serena@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 55, UMBREON
-	dbp 52, VAPOREON
-	dbp 54, ESPEON
+	dbp 55, MINORIKO
+	dbp 52, CMERLIN
+	dbp 54, SSHIZUHA
+	db -1 ; end
+
+	; TEACHER_M
+	db "Nolan@"
+	db TRAINERTYPE_NORMAL
+	; party
+	dbp 54, CCIRNO
+	dbp 55, MAGNEZONE
+	dbp 56, ELECTIVIRE
 	db -1 ; end
 
 SECTION "GuitaristMGroup", ROMX
@@ -9203,7 +9212,7 @@ CooltrainerMGroup:
 	db "Daric@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 54, PORYGON_Z
+	dbp 54, CLUNASA_Z
 	dbp 53, HMINORIKO
 	dbp 55, GLACEON
 	db -1 ; end
@@ -11491,19 +11500,6 @@ ReiGroup:
 	dbp 75, CELLEN
 		db LEFTOVERS
 		db NASTY_PLOT, HELLBLAZE, DARK_PULSE, SHADOW_BALL
-	db -1 ; end
-
-
-SECTION "TeacherMGroup", ROMX
-TeacherMGroup:
-
-	; TEACHER_M
-	db "Nolan@"
-	db TRAINERTYPE_NORMAL
-	; party
-	dbp 54, CCIRNO
-	dbp 55, MAGNEZONE
-	dbp 56, ELECTIVIRE
 	db -1 ; end
 
 ENDSECTION

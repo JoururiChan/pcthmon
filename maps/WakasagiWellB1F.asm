@@ -115,7 +115,7 @@ WakasagiWellB1FWakasagiWithMailScript:
 	endtext
 
 WakasagiWellB1FTaillessWakasagiScript:
-	showcrytext WakasagiWellB1FTaillessWakasagiText, WAKASAGI
+	showcrytext WakasagiWellB1FTaillessWakasagiText, CKOMACHI
 	end
 
 KurtWakasagiWellVictoryMovementData:

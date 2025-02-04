@@ -51,13 +51,13 @@ GoldenrodDeptStoreRoofCheckSaleChangeClerk:
 GoldenrodDeptStoreRoofFisherScript:
 	faceplayer
 	opentext
-	checkevent EVENT_DECO_DDAICHAN_DOLL
+	checkevent EVENT_DECO_CDAICHAN_DOLL
 	iftruefwd .AlreadyGotDDaichanDoll
 	writetext GoldenrodDeptStoreRoofFisherText
 	waitbutton
 	writetext GoldenrodDeptStoreRoofFisherDuplicateText
 	waitbutton
-	setevent EVENT_DECO_DDAICHAN_DOLL
+	setevent EVENT_DECO_CDAICHAN_DOLL
 	writetext GotDDaichanDollText
 	playsound SFX_ITEM
 	pause 60
@@ -97,7 +97,7 @@ TohoDollVendingMachine:
 	closewindow
 	ifequalfwd $1, .EllenDoll
 	ifequalfwd $2, .LyricaDoll
-	ifequalfwd $3, .MeowthDoll
+	ifequalfwd $3, .ChiyuriDoll
 	endtext
 
 .EllenDoll:
@@ -130,18 +130,18 @@ TohoDollVendingMachine:
 	waitbutton
 	sjump .Start
 
-.MeowthDoll:
+.ChiyuriDoll:
 	checkmoney $0, 2400
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_MEOWTH_DOLL
+	checkevent EVENT_DECO_CHIYURI_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 2400
-	setevent EVENT_DECO_MEOWTH_DOLL
-	writetext BoughtMeowthDollText
+	setevent EVENT_DECO_CHIYURI_DOLL
+	writetext BoughtChiyuriDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext MeowthDollSentText
+	writetext ChiyuriDollSentText
 	waitbutton
 	sjump .Start
 
@@ -166,7 +166,7 @@ TohoDollVendingMachine:
 	db 4 ; items
 	db "Ellen  ¥2400@"
 	db "Lyrica       ¥2400@"
-	db "Meowth      ¥2400@"
+	db "Chiyuri      ¥2400@"
 	db "Cancel@"
 
 GoldenrodDeptStoreRoofTohofanFText:
@@ -329,12 +329,12 @@ LyricaDollSentText:
 	line "was sent home."
 	done
 
-BoughtMeowthDollText:
+BoughtChiyuriDollText:
 	text "<PLAYER> bought"
-	line "Meowth Doll."
+	line "Chiyuri Doll."
 	done
 
-MeowthDollSentText:
-	text "Meowth Doll"
+ChiyuriDollSentText:
+	text "Chiyuri Doll"
 	line "was sent home."
 	done

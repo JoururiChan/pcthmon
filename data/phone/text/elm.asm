@@ -372,7 +372,7 @@ ElmPhoneEvoText_CKana:
 	cont "a Sun Stone."
 	prompt
 
-ElmPhoneEvoText_EKurumi:
+ElmPhoneEvoText_Kurumi:
 	text_ram wStringBuffer3
 	line "evolves when it's"
 

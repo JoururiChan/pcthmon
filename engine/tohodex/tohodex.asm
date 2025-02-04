@@ -2405,7 +2405,7 @@ _Tohodex_Search:
 .pressed_start
 	call ClearSpriteAnims
 	lb de, 120, 120
-	ld a, SPRITE_ANIM_INDEX_DEX_WAKASAGI
+	ld a, SPRITE_ANIM_INDEX_DEX_DLUIZE
 	call InitSpriteAnimStruct
 
 	; Set a search timer.

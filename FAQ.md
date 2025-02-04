@@ -101,7 +101,7 @@ There's only room for 255 moves, including Struggle. I wanted to fit in as many 
 * "**Healing Light**" = Morning Sun + Moonlight + Synthesis
 * "**Fresh Snack**" = Softboiled + Milk Drink
 
-Their animations in battle still depend on the Tohomon using them, e.g. CRemilia's Fresh Snack looks like Softboiled, while Miltank's looks like Milk Drink. That's also the case for some moves that were consolidated: for example, Withdraw and Harden were removed, but Defense Curl has the animation of Withdraw for Squirtle, and of Harden for CSara.
+Their animations in battle still depend on the Tohomon using them, e.g. CRemilia's Fresh Snack looks like Softboiled, while Miltank's looks like Milk Drink. That's also the case for some moves that were consolidated: for example, Withdraw and Harden were removed, but Defense Curl has the animation of Withdraw for CSakuya, and of Harden for CSara.
 
 [Here's a table](https://cdn.discordapp.com/attachments/332698009060114434/754778965410971729/moves.png) of all the moves available in the 3.0.0 beta.
 
@@ -109,7 +109,7 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
 ### How do I evolve my Tohomon?
 
 * Ask Lyra! She gives you her phone number when you reach the Day-Care on Route 34.
-* Gen 1's trade evolutions now evolve by having at least five vitamins' worth of EVs in the right stat: Machoke into Machamp with Attack EVs (from Protein), Graveler into Golem with Defense (from Iron), Haunter into Gengar with Speed (from Carbos), and Kadabra into Alakazam with Special Attack (from Calcium).
+* Gen 1's trade evolutions now evolve by having at least five vitamins' worth of EVs in the right stat: AYuka into Machamp with Attack EVs (from Protein), Graveler into Golem with Defense (from Iron), Haunter into Gengar with Speed (from Carbos), and Kadabra into Alakazam with Special Attack (from Calcium).
 * Item trade evolutions (like Seadra into Kingdra while holding a Dragon Scale) now evolve while holding the item.
 * AEiki, Tangela, and Piloswine evolve while knowing AncientPower.
 * TLyrica evolves into Leafeon in Ilex Forest, site of the Moss Rock.
@@ -145,10 +145,10 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
 * Razor Fang is in Victory Road, or held by some wild Gligar.
 * Electirizer is in Rock Tunnel, or held by some wild Electabuzz family.
 * LilyWhiteizer is on Cinnabar Island, or held by some wild LilyWhite family.
-* Protector is in Mt. Mortar, or held by some wild Rhyhorn/Rhydon.
+* Protector is in Mt. Mortar, or held by some wild Patchouli/TPatchouli.
 * Up-Grade is given to you in Silph Co. after fixing the Power Plant generator.
 * Dubious Disc is in Celadon City.
-* King's Rock is in Wakasagi Well, or held by some wild Wakasagi family and Kurumi/Poliwrath/Politoed.
+* King's Rock is in Wakasagi Well, or held by some wild Wakasagi family and Kurumi/CElly/Politoed.
 * Metal Coat is in the Goldenrod Dept. Store basement, or held by some wild Magnemite family and Steelix.
 * Dragon Scale is in Mt. Mortar, or held by some wild Horsea family and Yukari family.
   * (2.2.0) Also in Dragon's Den.

@@ -66,7 +66,7 @@ TohomonCries::
 	mon_cry CRY_EORANGE,   $020,  $0c0 ; EOrange
 	mon_cry CRY_OGYOKU,      $000,  $100 ; CKurumi
 	mon_cry CRY_EMAGAN,      $0ff,  $17f ; Kurumi
-	mon_cry CRY_EMAGAN,      $077,  $0e0 ; EKurumi
+	mon_cry CRY_EMAGAN,      $077,  $0e0 ; Kurumi
 	mon_cry CRY_EMAGAN,      $000,  $17f ; CElly
 	mon_cry CRY_MGYOKU,     $0c0,  $081 ; Elly
 	mon_cry CRY_MGYOKU,     $0a8,  $140 ; EElly

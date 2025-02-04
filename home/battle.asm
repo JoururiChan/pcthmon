@@ -539,7 +539,7 @@ GetOpponentAbilityAfterMoldBreaker::
 	farjp _GetOpponentAbilityAfterMoldBreaker
 
 ; These routines return z if the user is of the given type
-CheckIfTargetIsGrassType::
+CheckIfTargetIsNatureType::
 	ld a, NATURE
 	jr CheckIfTargetIsSomeType
 CheckIfTargetIsIceType::

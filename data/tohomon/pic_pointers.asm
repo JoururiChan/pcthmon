@@ -265,7 +265,7 @@ TohomonPicPointers::
 	pics MrRime
 	pics Wyrdeer
 	pics Kleavor
-	pics UrsalunaPlain
+	pics Ursaluna
 	pics Sneasler
 	pics Overqwil
 	pics PlacethmTwoSegment

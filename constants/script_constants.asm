@@ -278,7 +278,7 @@ DEF NUM_DECODESCS EQU const_value
 ; ActivateFishingSwarm setval arguments
 	const_def
 	const FISHSWARM_NONE     ; 0
-	const FISHSWARM_QWILFISH ; 1
+	const FISHSWARM_CSUWAKO ; 1
 	const FISHSWARM_REMORAID ; 2
 
 ; CheckLilyBlackLength return values

@@ -35,7 +35,7 @@ GourmetManiacItemRewards:
 	dbw LEMONADE,     350
 	dbw MOOMOO_MILK,  500
 	dbw RAGECANDYBAR, 300
-	dbw PEWTERAVARICE_BITE, 300
+	dbw PEWTERCRUNCH, 300
 	dbw RARE_CANDY,   10000
 	dbw LEEK,         2000
 	dbw LEFTOVERS,    4000

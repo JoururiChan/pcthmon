@@ -19,7 +19,7 @@ RadioTower4F_MapScriptHeader:
 	object_event  5,  6, SPRITE_ROCKET, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerGruntM10, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event  6,  4, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, RadioTower4FFisherText, EVENT_RADIO_TOWER_CIVILIANS_AFTER
 	object_event 14,  6, SPRITE_BUENA, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RadioTower4FDJMaryScript, -1
-	tohomon_event 12,  7, MEOWTH, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, RadioTowerMeowthText, -1
+	tohomon_event 12,  7, CHIYURI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, RadioTowerChiyuriText, -1
 	object_event 14,  1, SPRITE_PROTON, SPRITEMOVEDATA_STANDING_LEFT, 0, 2, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerProton1, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 12,  4, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerGruntF4, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event  4,  2, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerRocketScientistRich, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
@@ -40,7 +40,7 @@ RadioTower4FDJMaryScript:
 	line "I have to suffer"
 	cont "through this?"
 
-	para "Meowth, help me!"
+	para "Chiyuri, help me!"
 	done
 
 .ClearedRockets:
@@ -120,8 +120,8 @@ RadioTower4FDJMaryText_After:
 	line "show."
 	done
 
-RadioTowerMeowthText:
-	text "Meowth: Meowth…"
+RadioTowerChiyuriText:
+	text "Chiyuri: Chiyuri…"
 	done
 
 GruntM10SeenText:

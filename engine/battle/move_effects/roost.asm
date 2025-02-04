@@ -33,7 +33,7 @@ BattleCommand_roost:
 	jr .types_ok
 .normalize
 	; Pure Flying types become Normal
-	ld a, NORMAL
+	ld a, ILLUSION
 	ld [hli], a
 	ld [hl], a
 .types_ok
