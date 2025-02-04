@@ -80,7 +80,7 @@ AzaleaTownRivalBattleTrigger2:
 	setevent EVENT_RIVAL_AZALEA_TOWN
 	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .Totodile
-	checkevent EVENT_GOT_CYOUMU_FROM_ELM
+	checkevent EVENT_GOT_CALICE_FROM_ELM
 	iftruefwd .Chikorita
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL

@@ -5229,7 +5229,7 @@ endc
 	; party
 	dbp 55, TOGEKISS
 	dbp 53, SMERLIN
-	dbp 52, AMokou
+	dbp 52, AMOKOU
 	db -1 ; end
 
 

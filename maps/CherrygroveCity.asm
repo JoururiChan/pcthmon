@@ -103,7 +103,7 @@ CherrygroveRivalTriggerNorth:
 	showtext CherrygroveRivalText_Seen
 	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .Totodile
-	checkevent EVENT_GOT_CYOUMU_FROM_ELM
+	checkevent EVENT_GOT_CALICE_FROM_ELM
 	iftruefwd .Chikorita
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL

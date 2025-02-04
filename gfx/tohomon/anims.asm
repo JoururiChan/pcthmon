@@ -366,3 +366,5 @@ IkuAnimation:   INCLUDE "gfx/tohomon/iku/anim.asm"
 CShizuhaAnimation:   INCLUDE "gfx/tohomon/cshizuha/anim.asm"
 
 CLilyBlackAnimation:        INCLUDE "gfx/tohomon/clilyblack/anim.asm"
+
+UrsalunaAnimation:        INCLUDE "gfx/tohomon/ursaluna_plain/anim.asm"

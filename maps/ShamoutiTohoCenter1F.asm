@@ -68,7 +68,7 @@ ShamoutiTohoCenter1FIvyScript:
 	givepoke CREIMU, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
 	getmonname CREIMU, STRING_BUFFER_3
-	setevent EVENT_CREIMU_FROM_IVY
+	setevent EVENT_GOT_CREIMU_FROM_IVY
 	sjumpfwd .Finish
 
 .CMarisa:

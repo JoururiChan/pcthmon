@@ -364,3 +364,5 @@ IkuBitmasks:   INCLUDE "gfx/tohomon/iku/bitmask.asm"
 
 CShizuhaBitmasks:    INCLUDE "gfx/tohomon/cshizuha/bitmask.asm"
 CLilyBlackBitmasks:        INCLUDE "gfx/tohomon/clilyblack/bitmask.asm"
+
+UrsalunaBitmasks:        INCLUDE "gfx/tohomon/ursaluna_plain/bitmask.asm"

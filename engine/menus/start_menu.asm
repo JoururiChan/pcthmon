@@ -177,7 +177,7 @@ StartMenu::
 .SaveString:     db "Save@"
 .OptionString:   db "Options@"
 .ExitString:     db "Exit@"
-.TohogearString: db "<TO><HO>gear@"
+.TohogearString: db "THgear@"
 .QuitString:     db "Quit@"
 
 .OpenMenu:

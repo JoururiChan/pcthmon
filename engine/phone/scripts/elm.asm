@@ -91,8 +91,7 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveKikuri
 	dw .EvolveCKana
 	dw .EvolveKurumi
-	dw .EvolveWakasagiPlain
-	dw .EvolveWakasagiGalarian
+	dw .EvolveDLuize
 	dw .EvolveCirno
 	dw .EvolveHKoakuma
 	dw .EvolveCMeiling

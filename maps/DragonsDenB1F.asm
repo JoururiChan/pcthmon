@@ -145,7 +145,7 @@ DragonsDenB1FRivalScript:
 	promptbutton
 	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .GiveChikoritaEgg
-	checkevent EVENT_GOT_CYOUMU_FROM_ELM
+	checkevent EVENT_GOT_CALICE_FROM_ELM
 	iftruefwd .GiveCyndaquilEgg
 	giveegg CSANAE
 	sjumpfwd .GotRivalsEgg
