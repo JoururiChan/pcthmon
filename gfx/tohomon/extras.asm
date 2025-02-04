@@ -359,4 +359,4 @@ CShizuhaAnimationExtra:   INCLUDE "gfx/tohomon/cshizuha/anim_idle.asm"
 
 CLilyBlackAnimationExtra:        INCLUDE "gfx/tohomon/clilyblack/anim_idle.asm"
 
-UrsalunaAnimationExtra:   INCLUDE "gfx/tohomon/ursaluna/anim_idle.asm"
+UrsalunaAnimationExtra:   INCLUDE "gfx/tohomon/ursaluna_plain/anim_idle.asm"
