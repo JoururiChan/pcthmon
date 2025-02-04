@@ -96,7 +96,7 @@ CheckUniqueWildMove:
 	jr .loop
 
 .UseSurfingKikuri
-	ld a, KIKURI_JOHTOO_FORM
+	ld a, KIKURI_JOHTO_FORM
 .UseFlyingKikuri
 	ld b, a
 	ld a, [wCurForm]

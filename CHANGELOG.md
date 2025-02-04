@@ -70,7 +70,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Charizard is Fire/Dragon.
 * Add: Yanmega is Bug/Dragon.
 * Add: Ampharos is Electric/Dragon.
-* Add: Noctowl is Ghost/Flying.
+* Add: CMystia is Ghost/Flying.
 * Add: Bellossom is Grass/Fairy.
 * Add: Celebi is Grass/Fairy.
 * Add: Rapidash is Fire/Fairy.

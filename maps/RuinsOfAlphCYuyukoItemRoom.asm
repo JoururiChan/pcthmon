@@ -1,4 +1,4 @@
-RuinsOfAlphCYuyukooItemRoom_MapScriptHeader:
+RuinsOfAlphCYuyukoItemRoom_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -16,7 +16,7 @@ RuinsOfAlphCYuyukooItemRoom_MapScriptHeader:
 	bg_event  5,  1, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
 
 	def_object_events
-	itemball_event  2,  6, SITRUS_BERRY, 1, EVENT_PICKED_UP_SITRUS_BERRY_FROM_CYUYUKO_ITEM_ROOMM
+	itemball_event  2,  6, SITRUS_BERRY, 1, EVENT_PICKED_UP_SITRUS_BERRY_FROM_CYUYUKO_ITEM_ROOM
 	itemball_event  5,  6, LUM_BERRY, 1, EVENT_PICKED_UP_LUM_BERRY_FROM_CYUYUKO_ITEM_ROOM
-	itemball_event  2,  4, HEAL_POWDER, 1, EVENT_PICKED_UP_HEAL_POWDER_FROM_CYUYUKO_ITEM_ROOMM
+	itemball_event  2,  4, HEAL_POWDER, 1, EVENT_PICKED_UP_HEAL_POWDER_FROM_CYUYUKO_ITEM_ROOM
 	itemball_event  5,  4, ENERGYPOWDER, 1, EVENT_PICKED_UP_ENERGYPOWDER_FROM_CYUYUKO_ITEM_ROOM

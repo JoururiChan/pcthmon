@@ -148,7 +148,7 @@ MrTohomonsHouse_OakScript:
 	end
 
 .RivalTakesCyndaquil:
-	setevent EVENT_CYNDAQUIL_TOHOBALL_IN_ELMS_LAB
+	setevent EVENT_CREISEN_TOHOBALL_IN_ELMS_LAB
 	end
 
 MrTohomonsHouse_CabinetScript:

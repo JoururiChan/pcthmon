@@ -78,7 +78,7 @@ ShamoutiTohoCenter1FIvyScript:
 	givepoke CMARISA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
 	getmonname CMARISA, STRING_BUFFER_3
-	setevent EVENT_CMARISA_FROM_IVY
+	setevent EVENT_GOT_CMARISA_FROM_IVY
 	sjumpfwd .Finish
 
 .CSakuya:
@@ -88,7 +88,7 @@ ShamoutiTohoCenter1FIvyScript:
 	givepoke CSAKUYA, PLAIN_FORM, 10, SITRUS_BERRY
 	iffalse_jumpopenedtext .NoRoomText
 	getmonname CSAKUYA, STRING_BUFFER_3
-	setevent EVENT_CSAKUYA_FROM_IVY
+	setevent EVENT_GOT_CSAKUYA_FROM_IVY
 .Finish:
 	writetext .GoodbyeText
 	waitbutton

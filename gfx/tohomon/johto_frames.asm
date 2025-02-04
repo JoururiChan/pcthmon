@@ -177,3 +177,5 @@ PlacethmTwoSegmentFrames:   INCLUDE "gfx/tohomon/placethm_two_segment/frames.asm
 PlacethmThreeSegmentFrames: INCLUDE "gfx/tohomon/placethm_three_segment/frames.asm"
 
 CShizuhaFrames:   INCLUDE "gfx/tohomon/cshizuha/frames.asm"
+
+UrsalunaFrames:  INCLUDE "gfx/tohomon/ursaluna/frames.asm"

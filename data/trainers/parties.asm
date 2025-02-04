@@ -4823,7 +4823,7 @@ CosplayerGroup:
 	db "Lyric@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 54, LANTURN
+	dbp 54, TEI
 	dbp 53, MAGNEZONE
 	dbp 55, CCIRNO
 	db -1 ; end
@@ -5229,7 +5229,7 @@ endc
 	; party
 	dbp 55, TOGEKISS
 	dbp 53, SMERLIN
-	dbp 52, AMPHAROS
+	dbp 52, AMokou
 	db -1 ; end
 
 
@@ -7781,7 +7781,7 @@ ScientistGroup:
 	; party
 	dbp 52, ELLY
 	dbp 54, CLYRICA
-	dbp 53, NOCTOWL
+	dbp 53, CMYSTIA
 	db -1 ; end
 
 SECTION "RocketScientistGroup", ROMX

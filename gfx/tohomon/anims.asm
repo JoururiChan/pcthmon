@@ -267,6 +267,12 @@ KikuriPikaAnimation:   INCLUDE "gfx/tohomon/kikuri_pika/anim.asm"
 KikuriChuchuAnimation: INCLUDE "gfx/tohomon/kikuri_chuchu/anim.asm"
 KikuriSparkAnimation:  INCLUDE "gfx/tohomon/kikuri_spark/anim.asm"
 
+KikuriArianaAnimation:    INCLUDE "gfx/tohomon/kikuri_ariana/anim.asm"
+KikuriAgathaAnimation:   INCLUDE "gfx/tohomon/kikuri_agatha/anim.asm"
+KikuriKogaAnimation:   INCLUDE "gfx/tohomon/kikuri_koga/anim.asm"
+KikuriKantoAnimation: INCLUDE "gfx/tohomon/kikuri_kanto/anim.asm"
+KikuriJohtoAnimation: INCLUDE "gfx/tohomon/kikuri_johto/anim.asm"
+
 LilyBlackAnimation:
 LilyBlackSkellyAnimation:
 LilyBlackCalico1Animation:

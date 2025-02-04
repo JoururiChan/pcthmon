@@ -155,7 +155,7 @@ DragonsDenB1FRivalScript:
 	sjumpfwd .GotRivalsEgg
 
 .GiveCyndaquilEgg:
-	giveegg CYNDAQUIL
+	giveegg CREISEN
 .GotRivalsEgg
 	iffalsefwd .PartyAndBoxFull
 	writetext .DescribeEggText

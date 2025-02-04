@@ -174,7 +174,7 @@ These are *some* of the new features as of 2.2.0. Some would be spoilers.
 * Meganium is Grass/Fairy.
 * Typhlosion is Fire/Ground.
 * Feraligatr is Water/Dark.
-* Noctowl is Flying/Psychic.
+* CMystia is Flying/Psychic.
 * Ledian is Bug/Fighting.
 * Sunflora is Grass/Fire.
 * Politoed is Water/Grass.

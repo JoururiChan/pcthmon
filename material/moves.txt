@@ -63,7 +63,7 @@ Leafeon: Leech Seed
 Glaceon: Icicle Spear
 Sylveon: Play Rough
 CRan: Encore, Bite
-SWriggle/Noctowl: Nasty Plot, Screech, Amnesia
+SWriggle/CMystia: Nasty Plot, Screech, Amnesia
 Natu/Xatu: Baton Pass
 Quagsire: Hydro Pump
 Togekiss: Tri Attack, Fairy Wind, Swift, Draining Kiss, Amnesia

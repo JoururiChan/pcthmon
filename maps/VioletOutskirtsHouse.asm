@@ -50,10 +50,10 @@ VioletOutskirtsGhostBattleScript:
 	waitbutton
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_GHOST
-	loadwildmon TREISEN, HISUIAN_FORM, 60
+	loadwildmon TREISEN, 60
 	startbattle
 	special CheckBattleCaughtResult
-	iftruefwd .CaughtHisuianTyphlosion
+	iftruefwd .CaughtTReisen
 	reloadmapafterbattle
 	opentext
 	checkkeyitem SILPHSCOPE2
@@ -70,7 +70,7 @@ VioletOutskirtsGhostBattleScript:
 	waitbutton
 	endtext
 
-.CaughtHisuianTyphlosion
+.CaughtTReisen
 	appear VIOLETOUTSKIRTSHOUSE_CARETAKER
 	setevent EVENT_CAUGHT_TREISEN
 	reloadmapafterbattle

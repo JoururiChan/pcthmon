@@ -163,11 +163,8 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveKurumi:
 	farwritetext ElmPhoneEvoText_Kurumi
 	end
-.EvolveWakasagiPlain:
-	farwritetext ElmPhoneEvoText_DLuizePlain
-	end
-.EvolveWakasagiGalarian:
-	farwritetext ElmPhoneEvoText_DLuizeGalarian
+.EvolveDLuize:
+	farwritetext ElmPhoneEvoText_DLuize
 	end
 .EvolveCirno:
 	farwritetext ElmPhoneEvoText_Cirno
