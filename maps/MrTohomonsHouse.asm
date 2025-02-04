@@ -144,7 +144,7 @@ MrTohomonsHouse_OakScript:
 	end
 
 .RivalTakesChikorita:
-	setevent EVENT_CYOUMU_TOHOBALL_IN_ELMS_LAB
+	setevent EVENT_CALICE_TOHOBALL_IN_ELMS_LAB
 	end
 
 .RivalTakesCyndaquil:

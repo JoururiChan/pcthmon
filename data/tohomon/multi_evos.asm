@@ -19,7 +19,6 @@ MultipleEvolutions:
 	multi_evo CKANA
 	multi_evo KURUMI
 	multi_evo DLUIZE
-	multi_evo AALICE
 	multi_evo CIRNO
 	multi_evo HKOAKUMA
 	multi_evo CMEILING
