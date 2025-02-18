@@ -3032,7 +3032,8 @@ AEikiEvosAttacks:
 	db -1 ; no more level-up moves
 
 CShizuhaEvosAttacks:
-	evo_data EVOLVE_LEVEL, 20, SHIZUHA
+	evo_data EVOLVE_LEVEL, 25, SHIZUHA
+	evo_data EVOLVE_ITEM, LEAF_STONE, SSHIZUHA
 	db -1 ; no more evolutions
 	db 1, VINE_WHIP
 	db 1, GROWTH
@@ -3089,6 +3090,8 @@ SShizuhaEvosAttacks:
 	db -1 ; no more level-up moves
 
 CMinorikoEvosAttacks:
+	evo_data EVOLVE_LEVEL, 25, MINORIKO
+	evo_data EVOLVE_ITEM, LEAF_STONE, HMINORIKO
 	db -1 ; no more evolutions
 	db 1, ABSORB
 	db 1, GROWTH
@@ -3101,7 +3104,6 @@ CMinorikoEvosAttacks:
 	db -1 ; no more level-up moves
 
 MinorikoEvosAttacks:
-	evo_data EVOLVE_ITEM, DUSK_STONE, HONCHKROW
 	db -1 ; no more evolutions
 	db 1, ABSORB
 	db 1, GROWTH
@@ -3145,7 +3147,9 @@ HMinorikoEvosAttacks:
 	db 57, SACRED_FIRE
 	db -1 ; no more level-up moves
 
-CHinaEvosAttacks:
+CHinaEvosAttacks:	
+	evo_data EVOLVE_LEVEL, 32, HINA
+	evo_data EVOLVE_ITEM, DUSK_STONE, AHINA
 	db -1 ; no more evolutions
 	db 1, POISON_GAS
 	db 1, GROWL
@@ -3203,7 +3207,8 @@ AHinaEvosAttacks:
 	db -1 ; no more level-up moves
 
 CNitoriEvosAttacks:
-	evo_data EVOLVE_MOVE, BLAZE_STAR, FARIGIRAF
+	evo_data EVOLVE_LEVEL, 32, NITORI
+	evo_data EVOLVE_ITEM, WATER_STONE, ANITORI
 	db -1 ; no more evolutions
 	db 1, AQUA_JET
 	db 1, LEER
@@ -3264,7 +3269,8 @@ ANitoriEvosAttacks:
 	db -1 ; no more level-up moves
 
 CMomijiEvosAttacks:
-	evo_data EVOLVE_LEVEL, 32, PLACETHM, NO_FORM ; preserve pre-evo form
+	evo_data EVOLVE_LEVEL, 28, MOMIJI
+	evo_data EVOLVE_ITEM, RAZOR_FANG, AMOMIJI
 	db -1 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -3278,7 +3284,6 @@ CMomijiEvosAttacks:
 	db -1 ; no more level-up moves
 
 MomijiEvosAttacks:
-	evo_data EVOLVE_HOLDING, RAZOR_FANG, TR_EVENITE, AMOMIJI
 	db -1 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -3325,6 +3330,8 @@ AMomijiEvosAttacks:
 	db -1 ; no more level-up moves
 
 CKanakoEvosAttacks:
+	evo_data EVOLVE_LEVEL, 40, KANAKO
+	evo_data EVOLVE_ITEM, LEAF_STONE, AKANAKO
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
@@ -3341,7 +3348,6 @@ CKanakoEvosAttacks:
 	db -1 ; no more level-up moves
 
 KanakoEvosAttacks:
-	evo_data EVOLVE_LEVEL, 23, AKANAKO
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
@@ -3386,6 +3392,8 @@ AKanakoEvosAttacks:
 	db -1 ; no more level-up moves
 
 CSuwakoEvosAttacks:
+	evo_data EVOLVE_LEVEL, 40, SUWAKO
+	evo_data EVOLVE_ITEM, WATER_STONE, DSUWAKO
 	db -1 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, TACKLE
@@ -3448,6 +3456,8 @@ DSuwakoEvosAttacks:
 	db -1 ; no more level-up moves
 
 CIkuEvosAttacks:
+	evo_data EVOLVE_LEVEL, 36, IKU
+	evo_data EVOLVE_ITEM, THUNDERSTONE, AIKU
 	db -1 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, CURSE
@@ -3463,7 +3473,6 @@ CIkuEvosAttacks:
 	db -1 ; no more level-up moves
 
 IkuEvosAttacks:
-	evo_data EVOLVE_HOLDING, RAZOR_CLAW, TR_EVENITE, WEAVILE
 	db -1 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, CURSE
@@ -3488,7 +3497,6 @@ IkuEvosAttacks:
 	db -1 ; no more level-up moves
 
 AIkuEvosAttacks:
-	evo_data EVOLVE_LEVEL, 30, CTENSHI
 	db -1 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, CURSE
@@ -3513,6 +3521,8 @@ AIkuEvosAttacks:
 	db -1 ; no more level-up moves
 
 CTenshiEvosAttacks:
+	evo_data EVOLVE_LEVEL, 40, TENSHI
+	evo_data EVOLVE_ITEM, SUN_STONE, STENSHI
 	db -1 ; no more evolutions
 	db 1, ROCK_BULLET
 	db 1, FORESIGHT
@@ -3529,7 +3539,6 @@ CTenshiEvosAttacks:
 	db -1 ; no more level-up moves
 
 TenshiEvosAttacks:
-	evo_data EVOLVE_LEVEL, 38, STENSHI
 	db -1 ; no more evolutions
 	db 1, ROCK_BULLET
 	db 1, FORESIGHT

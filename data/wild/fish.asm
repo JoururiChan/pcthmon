@@ -53,12 +53,12 @@ ENDM
 .Ocean_Old:
 	fishentry  70 percent + 1, CCHIYURI,   10
 	fishentry  85 percent + 1, CCHIYURI,   10
-	fishentry 100 percent,     CMAI,  10
+	fishentry 100 percent,     CSUWAKO,  10
 .Ocean_Good:
 	fishentry  35 percent,     CCHIYURI,   20
-	fishentry  70 percent,     CEIRIN,  20
+	fishentry  70 percent,     CHINA,  20
 	fishentry  90 percent + 1, CKOMACHI,   20
-	fishentry 100 percent,     CEIRIN,   20
+	fishentry 100 percent,     CHINA,   20
 .Ocean_Super:
 	fishentry  40 percent,     CTEI,   40
 	fishentry  70 percent,     YUMEKO,   40
@@ -70,14 +70,14 @@ ENDM
 .Well_Old:
 	fishentry  70 percent + 1, CKOMACHI,   10
 	fishentry  85 percent + 1, CKOMACHI,   10
-	fishentry 100 percent,     CEIRIN,    10
+	fishentry 100 percent,     CNITORI,    10
 .Lake_Good:
 .River_Good:
 .Well_Good:
 	fishentry  35 percent,     CKOMACHI,   20
 	fishentry  70 percent,     CKOMACHI,    20
-	fishentry  90 percent + 1, CPATCHOULI,    20
-	fishentry 100 percent,     CPATCHOULI,    20
+	fishentry  90 percent + 1, CNITORI,    20
+	fishentry 100 percent,     CNITORI,    20
 .Lake_Super:
 .River_Super:
 	fishentry  40 percent,     AFLANDRE,    40
@@ -97,9 +97,9 @@ ENDM
 	fishentry 100 percent,     CKOMACHI,    10
 .Pond_Good:
 	fishentry  35 percent,     CKOMACHI,   20
-	fishentry  70 percent,     CEIRIN,    20
-	fishentry  90 percent + 1, CEIRIN,    20
-	fishentry 100 percent,     CPATCHOULI,    20
+	fishentry  70 percent,     CSUWAKO,    20
+	fishentry  90 percent + 1, CHINA,    20
+	fishentry 100 percent,     CNITORI,    20
 .Pond_Super:
 	fishentry  40 percent,     KURUMI,    40
 	fishentry  70 percent,     KURUMI,    40
@@ -122,11 +122,11 @@ ENDM
 	fishentry 100 percent,     TYUKARI,  40
 
 .CSuwako_Swarm_Old:
-	fishentry  70 percent + 1, LILYBLACK,   5
-	fishentry  85 percent + 1, LILYBLACK,   5
+	fishentry  70 percent + 1, CSUWAKO,   5
+	fishentry  85 percent + 1, CSUWAKO,   5
 	fishentry 100 percent,     CSUWAKO,   5
 .CSuwako_Swarm_Good:
-	fishentry  35 percent,     LILYBLACK,   20
+	fishentry  35 percent,     CSUWAKO,   20
 	fishentry  70 percent,     CSUWAKO,   20
 	fishentry  90 percent + 1, CSUWAKO,   20
 	fishentry 100 percent,     CSUWAKO,   20
@@ -197,14 +197,14 @@ ENDM
 	fishentry 100 percent,     FLANDRE,     40
 
 .CSuwako_Old:
-	fishentry  70 percent + 1, LILYBLACK,   10
-	fishentry  85 percent + 1, LILYBLACK,   10
-	fishentry 100 percent,     GENGETSU,  10
+	fishentry  70 percent + 1, CHINA,   10
+	fishentry  85 percent + 1, CHINA,   10
+	fishentry 100 percent,     CNITORI,  10
 .CSuwako_Good:
-	fishentry  35 percent,     LILYBLACK,   20
-	fishentry  70 percent,     GENGETSU,  20
-	fishentry  90 percent + 1, GENGETSU,  20
-	fishentry 100 percent,     GENGETSU,  20
+	fishentry  35 percent,     CHINA,   20
+	fishentry  70 percent,     CHINA,  20
+	fishentry  90 percent + 1, CHINA,  20
+	fishentry 100 percent,     CSUWAKO,  20
 .CSuwako_Super:
 	fishentry  40 percent,     GENGETSU,  40
 	fishentry  70 percent,     GENGETSU,  40
@@ -212,14 +212,14 @@ ENDM
 	fishentry 100 percent,     CSUWAKO,   40
 
 .Remoraid_Old:
-	fishentry  70 percent + 1, LILYBLACK,   10
-	fishentry  85 percent + 1, LILYBLACK,   10
-	fishentry 100 percent,     KURUMI,    10
+	fishentry  70 percent + 1, CSUWAKO,   10
+	fishentry  85 percent + 1, CSUWAKO,   10
+	fishentry 100 percent,     CNITORI,    10
 .Remoraid_Good:
 	fishentry  35 percent,     LILYBLACK,   20
-	fishentry  70 percent,     KURUMI,    20
-	fishentry  90 percent + 1, KURUMI,    20
-	fishentry 100 percent,     KURUMI,    20
+	fishentry  70 percent,     CNITORI,    20
+	fishentry  90 percent + 1, CNITORI,    20
+	fishentry 100 percent,     CNITORI,    20
 .Remoraid_Super:
 	fishentry  40 percent,     KURUMI,    40
 	fishentry  70 percent,     KURUMI,    40
