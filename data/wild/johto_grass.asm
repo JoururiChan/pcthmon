@@ -423,57 +423,57 @@
 	def_grass_wildmons RUINS_OF_ALPH_ENTRANCE_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 10, HINA
-	wildmon 5, HINA
-	wildmon 5, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
+	wildmon 10, CHINA
+	wildmon 5, CHINA
+	wildmon 5, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
 	; day
-	wildmon 10, HINA
-	wildmon 5, HINA
-	wildmon 5, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 15, HINA
+	wildmon 10, CHINA
+	wildmon 5, CHINA
+	wildmon 5, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 15, CHINA
 	; nite
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 15, HINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 15, CHINA
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 10, HINA
-	wildmon 5, HINA
-	wildmon 5, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
+	wildmon 10, CHINA
+	wildmon 5, CHINA
+	wildmon 5, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
 	; day
-	wildmon 10, HINA
-	wildmon 5, HINA
-	wildmon 5, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 15, HINA
+	wildmon 10, CHINA
+	wildmon 5, CHINA
+	wildmon 5, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 15, CHINA
 	; nite
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 10, HINA
-	wildmon 15, HINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 10, CHINA
+	wildmon 15, CHINA
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_1F

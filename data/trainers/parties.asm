@@ -6244,17 +6244,18 @@ SageGroup:
 	db "Chow@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 3, CYUKA
-	dbp 3, CYUKA
-	dbp 3, CYUKA
+	dbp 3, CMINORIKO
+	dbp 3, CMINORIKO
+	dbp 3, CMINORIKO
+
 	db -1 ; end
 
 	; SAGE
 	db "Nico@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 3, CYUKA
-	dbp 3, CYUKA
+	dbp 3, CMINORIKO
+	dbp 3, CSHIZUHA
 	dbp 3, CKAGUYA
 	db -1 ; end
 
@@ -6262,14 +6263,14 @@ SageGroup:
 	db "Jin@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 7, CYUKA
+	dbp 7, CSHIZUHA
 	db -1 ; end
 
 	; SAGE
 	db "Troy@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 7, CYUKA
+	dbp 7, CMINORIKO
 	dbp 7, CMEDICINE
 	db -1 ; end
 
@@ -6295,7 +6296,7 @@ SageGroup:
 	db "Edmond@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 3, CYUKA
+	dbp 3, CSHIZUHA
 	dbp 3, CEIRIN
 	dbp 3, CEIKI
 	db -1 ; end
@@ -6304,7 +6305,7 @@ SageGroup:
 	db "Neal@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 6, CYUKA
+	dbp 6, CMINORIKO
 	dbp 6, CLUIZE
 	db -1 ; end
 
@@ -6450,8 +6451,8 @@ ElderGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 7, CEIKI
-	dbp 7, CKAGUYA
-	dbp 10, CYUKA
+	dbp 7, CSHIZUHA
+	dbp 10, CMINORIKO
 	db -1 ; end
 
 	; ELDER
