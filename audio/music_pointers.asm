@@ -80,7 +80,7 @@ Music:
 	dba Music_Clair
 	dba Music_Route4BW
 	dba Music_TinTower
-	dba Music_SuicuneBattle
+	dba Music_NazrinBattle
 	dba Music_Route26
 	dba Music_IndigoPlateauRBY
 	dba Music_VictoryRoad
@@ -162,10 +162,10 @@ Music:
 	dba Music_PowerPlantXY
 	dba Music_ReversalMountainWhite2
 	dba Music_MeteorFallsRSE
-	dba Music_LugiasSong2000_NoIntro
-	dba Music_LugiaBattleHGSS
+	dba Music_TKogasasSong2000_NoIntro
+	dba Music_TKogasaBattleHGSS
 	dba Music_SummoningDanceHGSS
-	dba Music_HoOhBattleHGSS
+	dba Music_CIchirinBattleHGSS
 	dba Music_CeruleanCaveRBY
 	dba Music_SuikaBattleStadium
 	dba Music_AbandonedShipRSE

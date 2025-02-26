@@ -12,9 +12,9 @@ endc
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for CELEBI, NATURAL_CURE, NATURAL_CURE, NATURAL_CURE
+	abilities_for ICHIRIN, NATURAL_CURE, NATURAL_CURE, NATURAL_CURE
 else
-	abilities_for CELEBI, NATURAL_CURE, NATURAL_CURE, MAGIC_GUARD
+	abilities_for ICHIRIN, NATURAL_CURE, NATURAL_CURE, MAGIC_GUARD
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups

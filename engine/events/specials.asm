@@ -401,52 +401,52 @@ RespawnOneOffs:
 	eventflagreset EVENT_FARAWAY_JUNGLE_TSUIKA
 .CaughtTSuika
 
-	ld de, ENGINE_PLAYER_CAUGHT_RAIKOU
+	ld de, ENGINE_PLAYER_CAUGHT_SKOISHI
 	farcall EngineFlagAction
-	jr nz, .CaughtRaikou
+	jr nz, .CaughtSKoishi
 	ld hl, wRoamMon1Species
 	ld a, [hl]
 	and a
-	call z, RespawnRoamingRaikou
-.CaughtRaikou
+	call z, RespawnRoamingSKoishi
+.CaughtSKoishi
 
-	ld de, ENGINE_PLAYER_CAUGHT_ENTEI
+	ld de, ENGINE_PLAYER_CAUGHT_CNAZRIN
 	farcall EngineFlagAction
-	jr nz, .CaughtEntei
+	jr nz, .CaughtCNazrin
 	ld hl, wRoamMon2Species
 	ld a, [hl]
 	and a
-	call z, RespawnRoamingEntei
-.CaughtEntei
+	call z, RespawnRoamingCNazrin
+.CaughtCNazrin
 
-	eventflagcheck EVENT_FOUGHT_SUICUNE
-	jr z, .CaughtOrNeverFoughtSuicune
-	ld de, ENGINE_PLAYER_CAUGHT_SUICUNE
+	eventflagcheck EVENT_FOUGHT_NAZRIN
+	jr z, .CaughtOrNeverFoughtNazrin
+	ld de, ENGINE_PLAYER_CAUGHT_NAZRIN
 	farcall EngineFlagAction
-	jr nz, .CaughtOrNeverFoughtSuicune
+	jr nz, .CaughtOrNeverFoughtNazrin
 	ld hl, wRoamMon3Species
 	ld a, [hl]
 	and a
-	call z, RespawnRoamingSuicune
-.CaughtOrNeverFoughtSuicune
+	call z, RespawnRoamingNazrin
+.CaughtOrNeverFoughtNazrin
 
-	ld de, ENGINE_PLAYER_CAUGHT_LUGIA
+	ld de, ENGINE_PLAYER_CAUGHT_TKOGASA
 	farcall EngineFlagAction
-	jr nz, .CaughtLugia
-	eventflagreset EVENT_WHIRL_ISLAND_LUGIA_CHAMBER_LUGIA
-	eventflagreset EVENT_FOUGHT_LUGIA
-.CaughtLugia
+	jr nz, .CaughtTKogasa
+	eventflagreset EVENT_WHIRL_ISLAND_TKOGASA_CHAMBER_TKOGASA
+	eventflagreset EVENT_FOUGHT_TKOGASA
+.CaughtTKogasa
 
-	ld de, ENGINE_PLAYER_CAUGHT_HO_OH
+	ld de, ENGINE_PLAYER_CAUGHT_CICHIRIN
 	farcall EngineFlagAction
 	ret nz
-	eventflagreset EVENT_TIN_TOWER_ROOF_HO_OH
-	eventflagreset EVENT_FOUGHT_HO_OH
+	eventflagreset EVENT_TIN_TOWER_ROOF_CICHIRIN
+	eventflagreset EVENT_FOUGHT_CICHIRIN
 	eventflagreset EVENT_EUSINES_HOUSE_EUSINE
 	ret
 
-RespawnRoamingRaikou:
-	ld a, RAIKOU
+RespawnRoamingSKoishi:
+	ld a, SKOISHI
 	ld [wRoamMon1Species], a
 	ld a, 50
 	ld [wRoamMon1Level], a
@@ -458,8 +458,8 @@ RespawnRoamingRaikou:
 	ld [wRoamMon1HP], a
 	ret
 
-RespawnRoamingEntei:
-	ld a, ENTEI
+RespawnRoamingCNazrin:
+	ld a, CNAZRIN
 	ld [wRoamMon2Species], a
 	ld a, 50
 	ld [wRoamMon2Level], a
@@ -471,8 +471,8 @@ RespawnRoamingEntei:
 	ld [wRoamMon2HP], a
 	ret
 
-RespawnRoamingSuicune:
-	ld a, SUICUNE
+RespawnRoamingNazrin:
+	ld a, NAZRIN
 	ld [wRoamMon3Species], a
 	ld a, 50
 	ld [wRoamMon3Level], a

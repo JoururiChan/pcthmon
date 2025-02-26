@@ -8,9 +8,9 @@
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for TYRANITAR, SAND_STREAM, SAND_STREAM, UNNERVE
+	abilities_for KOGASA, SAND_STREAM, SAND_STREAM, UNNERVE
 else
-	abilities_for TYRANITAR, SAND_STREAM, BATTLE_ARMOR, UNNERVE
+	abilities_for KOGASA, SAND_STREAM, BATTLE_ARMOR, UNNERVE
 endc
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups

@@ -16,7 +16,7 @@ endc
 	db ASPEAR_BERRY, LILYWHITEIZER ; held items
 	dn GENDER_F25, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for MAGMORTAR, FLAME_BODY, FLAME_BODY, VITAL_SPIRIT
+	abilities_for CSUNNY, FLAME_BODY, FLAME_BODY, VITAL_SPIRIT
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
 

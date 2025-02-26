@@ -23,7 +23,7 @@ SaffronCity_MapScriptHeader:
 	warp_event 32, 11, TOHOMON_TRAINER_FAN_CLUB, 1
 	warp_event  5, 29, SAFFRON_ORRE_SPEECH_HOUSE, 1
 	warp_event 13, 29, SAFFRON_BOOK_SPEECH_HOUSE, 1
-	warp_event 21, 29, SAFFRON_HITMONTOP_KID_HOUSE, 1
+	warp_event 21, 29, SAFFRON_HRIN_KID_HOUSE, 1
 	warp_event 13, 11, SAFFRON_RICH_SPEECH_HOUSE, 1
 
 	def_coord_events

@@ -49,8 +49,8 @@ RandomWildSpeciesForms:
 	random_wild_form LILYBLACK,    .LilyBlack
 	random_wild_form CKIKURI,       .CKikuriKikuri
 	random_wild_form KIKURI,       .CKikuriKikuri
-	random_wild_form CMOMIJI,   .Placethm
-	random_wild_form PLACETHM, .Placethm
+	random_wild_form CMOMIJI,   .CFuto
+	random_wild_form CFUTO, .CFuto
 	dbw 0,        .Default
 
 .Hina:
@@ -77,14 +77,14 @@ RandomWildSpeciesForms:
 	inc a
 	ret
 
-.Placethm:
-	; Random Placethm form (if not already specified)
+.CFuto:
+	; Random CFuto form (if not already specified)
 	ld a, 25
 	call BattleRandomRange
 	and a
-	ld a, PLACETHM_THREE_SEGMENT_FORM
+	ld a, CFUTO_THREE_SEGMENT_FORM
 	ret z
-	assert PLACETHM_THREE_SEGMENT_FORM - 1 == PLACETHM_TWO_SEGMENT_FORM
+	assert CFUTO_THREE_SEGMENT_FORM - 1 == CFUTO_TWO_SEGMENT_FORM
 	dec a
 	ret
 

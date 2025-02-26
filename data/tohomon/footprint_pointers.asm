@@ -196,84 +196,84 @@ FootprintPointers::
 	dw CTenshiFootprint
 	dw TenshiFootprint
 	dw STenshiFootprint
-	dw SwinubFootprint
-	dw PiloswineFootprint
-	dw CorsolaFootprint
-	dw RemoraidFootprint
-	dw OctilleryFootprint
-	dw DelibirdFootprint
-	dw MantineFootprint
-	dw SkarmoryFootprint
-	dw HoundourFootprint
-	dw HoundoomFootprint
-	dw KingdraFootprint
-	dw PhanpyFootprint
-	dw DonphanFootprint
-	dw CLunasa2Footprint
-	dw StantlerFootprint
-	dw SmeargleFootprint
-	dw TyrogueFootprint
-	dw HitmontopFootprint
-	dw SmoochumFootprint
-	dw ElekidFootprint
-	dw MagbyFootprint
-	dw MiltankFootprint
-	dw BlisseyFootprint
-	dw RaikouFootprint
-	dw EnteiFootprint
-	dw SuicuneFootprint
-	dw LarvitarFootprint
-	dw PupitarFootprint
-	dw TyranitarFootprint
-	dw LugiaFootprint
-	dw HoOhFootprint
-	dw CelebiFootprint
-	dw AzurillFootprint
-	dw WynautFootprint
-	dw AmbipomFootprint
+	dw CKisumeFootprint
+	dw KisumeFootprint
+	dw DKisumeFootprint
+	dw CYamameFootprint
+	dw YamameFootprint
+	dw SYamameFootprint
+	dw CParseeFootprint
+	dw ParseeFootprint
+	dw DParseeFootprint
+	dw CYuugiFootprint
+	dw YuugiFootprint
+	dw AYuugiFootprint
+	dw CSatoriFootprint
+	dw SatoriFootprint
+	dw HSatoriFootprint
+	dw CRinFootprint
+	dw RinFootprint
+	dw HRinFootprint
+	dw CUtsuhoFootprint
+	dw UtsuhoFootprint
+	dw AUtsuhoFootprint
+	dw CKoishiFootprint
+	dw KoishiFootprint
+	dw SKoishiFootprint
+	dw CNazrinFootprint
+	dw NazrinFootprint
+	dw HNazrinFootprint
+	dw CKogasaFootprint
+	dw KogasaFootprint
+	dw TKogasaFootprint
+	dw CIchirinFootprint
+	dw IchirinFootprint
+	dw AIchirinFootprint
+	dw CMurasaFootprint
+	dw MurasaFootprint
 	dw EggFootprint
 	dw EggFootprint ; $100
-	dw MismagiusFootprint
-	dw HonchkrowFootprint
-	dw BonslyFootprint
-	dw MimeJrFootprint
-	dw HappinyFootprint
-	dw MunchlaxFootprint
-	dw MantykeFootprint
-	dw WeavileFootprint
-	dw MagnezoneFootprint
-	dw LickilickyFootprint
-	dw RhyperiorFootprint
-	dw TangrowthFootprint
-	dw ElectivireFootprint
-	dw MagmortarFootprint
-	dw TogekissFootprint
-	dw YanmegaFootprint
-	dw LeafeonFootprint
-	dw GlaceonFootprint
+	dw AMurasaFootprint
+	dw CShouFootprint
+	dw ShouFootprint
+	dw AShouFootprint
+	dw CByakurenFootprint
+	dw ByakurenFootprint
+	dw TByakurenFootprint
+	dw CNueFootprint
+	dw NueFootprint
+	dw SNueFootprint
+	dw CHatateFootprint
+	dw HatateFootprint
+	dw THatateFootprint
+	dw CSunnyFootprint
+	dw SunnyFootprint
+	dw ASunnyFootprint
+	dw CStarFootprint
+	dw StarFootprint
 	dw AMomijiFootprint
-	dw MamoswineFootprint
-	dw CLunasaZFootprint
-	dw SylveonFootprint
-	dw PerrserkerFootprint
-	dw CursolaFootprint
-	dw SirfetchDFootprint
-	dw MrRimeFootprint
-	dw WyrdeerFootprint
-	dw KleavorFootprint
-	dw UrsalunaFootprint
-	dw SneaslerFootprint
-	dw OverqwilFootprint
-	dw PlacethmFootprint
-	dw FarigirafFootprint
-	dw ClodsireFootprint
-	dw AnnihilapeFootprint
+	dw DStarFootprint
+	dw CLunaFootprint
+	dw LunaFootprint
+	dw TLunaFootprint
+	dw CKyoukoFootprint
+	dw KyoukoFootprint
+	dw CYoshikaFootprint
+	dw YoshikaFootprint
+	dw CSeigaFootprint
+	dw SeigaFootprint
+	dw CTojikoFootprint
+	dw TojikoFootprint
+	dw CFutoFootprint
+	dw MikoFootprint
+	dw FutoFootprint
+	dw CMikoFootprint
 	assert_table_length NUM_SPECIES
 
 	dw SLilyBlackFootprint
 
 	dw SuikaFootprint
 
-	dw PlacethmFootprint
+	dw CFutoFootprint
 
 	assert_table_length NUM_EXT_TOHOMON

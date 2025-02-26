@@ -81,28 +81,28 @@
 	db 4 percent ; encounter rate
 	wildmon 20, CFLANDRE
 	wildmon 25, GENGETSU
-	wildmon 30, OCTILLERY
+	wildmon 30, YAMAME
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_B2F
 	db 4 percent ; encounter rate
 	wildmon 20, CFLANDRE
 	wildmon 25, GENGETSU
-	wildmon 30, OCTILLERY
+	wildmon 30, YAMAME
 	end_water_wildmons
 
-	def_water_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
+	def_water_wildmons WHIRL_ISLAND_TKOGASA_CHAMBER
 	db 4 percent ; encounter rate
 	wildmon 25, CFLANDRE
 	wildmon 30, FLANDRE
-	wildmon 30, OCTILLERY
+	wildmon 30, YAMAME
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_ROOM_2
 	db 2 percent ; encounter rate
 	wildmon 75, FLANDRE
 	wildmon 75, YUMEMI
-	wildmon 75, KINGDRA
+	wildmon 75, YUUGI
 	end_water_wildmons
 
 	def_water_wildmons DARK_CAVE_VIOLET_ENTRANCE

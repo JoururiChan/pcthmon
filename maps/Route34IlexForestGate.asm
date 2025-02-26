@@ -11,7 +11,7 @@ Route34IlexForestGate_MapScriptHeader:
 	warp_event  5,  7, ILEX_FOREST, 1
 
 	def_coord_events
-	coord_event  4,  7, 0, Route34IlexForestGateCelebiEvent
+	coord_event  4,  7, 0, Route34IlexForestGateIchirinEvent
 
 	def_bg_events
 
@@ -37,7 +37,7 @@ Route34IlexForestGate_MapScriptHeader:
 	appear ROUTE34ILEXFORESTGATE_TEACHER1
 	endcallback
 
-Route34IlexForestGateCelebiEvent:
+Route34IlexForestGateIchirinEvent:
 	checkevent EVENT_FOREST_IS_RESTLESS
 	iffalsefwd .skip
 	showemote EMOTE_SHOCK, ROUTE34ILEXFORESTGATE_TEACHER2, 20

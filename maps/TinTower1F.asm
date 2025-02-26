@@ -1,6 +1,6 @@
 TinTower1F_MapScriptHeader:
 	def_scene_scripts
-	scene_script TinTower1FSuicuneBattleScene
+	scene_script TinTower1FNazrinBattleScene
 
 	def_callbacks
 	callback MAPCALLBACK_OBJECTS, TinTower1FNPCsCallback
@@ -16,10 +16,10 @@ TinTower1F_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	tohomon_event  7,  9, SUICUNE, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_TIN_TOWER_1F_SUICUNE
-	tohomon_event  5,  9, RAIKOU, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_TIN_TOWER_1F_RAIKOU
-	tohomon_event 10,  9, ENTEI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_TIN_TOWER_1F_ENTEI
-	object_event  6,  3, SPRITE_EUSINE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FEusineAfterHoOhScript, EVENT_TIN_TOWER_1F_EUSINE
+	tohomon_event  7,  9, NAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_TIN_TOWER_1F_NAZRIN
+	tohomon_event  5,  9, SKOISHI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_TIN_TOWER_1F_SKOISHI
+	tohomon_event 10,  9, CNAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_TIN_TOWER_1F_CNAZRIN
+	object_event  6,  3, SPRITE_EUSINE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FEusineAfterCIchirinScript, EVENT_TIN_TOWER_1F_EUSINE
 	object_event  3,  9, SPRITE_ELDER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, TinTower1FSage1Text, EVENT_TIN_TOWER_1F_WISE_TRIO_1
 	object_event  9, 11, SPRITE_ELDER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, TinTower1FSage2Text, EVENT_TIN_TOWER_1F_WISE_TRIO_1
 	object_event 12,  6, SPRITE_ELDER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, TinTower1FSage3Text, EVENT_TIN_TOWER_1F_WISE_TRIO_1
@@ -28,16 +28,16 @@ TinTower1F_MapScriptHeader:
 	object_event 12,  2, SPRITE_ELDER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage6Script, EVENT_TIN_TOWER_1F_WISE_TRIO_2
 
 	object_const_def
-	const TINTOWER1F_SUICUNE
-	const TINTOWER1F_RAIKOU
-	const TINTOWER1F_ENTEI
+	const TINTOWER1F_NAZRIN
+	const TINTOWER1F_SKOISHI
+	const TINTOWER1F_CNAZRIN
 	const TINTOWER1F_EUSINE
 	const TINTOWER1F_SAGE1
 	const TINTOWER1F_SAGE2
 	const TINTOWER1F_SAGE3
 
-TinTower1FSuicuneBattleScene:
-	sdefer TinTower1FSuicuneBattleScript
+TinTower1FNazrinBattleScene:
+	sdefer TinTower1FNazrinBattleScript
 	end
 
 TinTower1FNPCsCallback:
@@ -50,38 +50,38 @@ TinTower1FNPCsCallback:
 	clearevent EVENT_TIN_TOWER_1F_WISE_TRIO_2
 	setevent EVENT_TIN_TOWER_1F_WISE_TRIO_1
 .GotRainbowWing:
-	checkevent EVENT_FOUGHT_HO_OH
+	checkevent EVENT_FOUGHT_CICHIRIN
 	iffalsefwd .Done
 	appear TINTOWER1F_EUSINE
 .Done:
 	endcallback
 
 .FaceBeasts:
-	checkevent EVENT_FOUGHT_SUICUNE
-	iftruefwd .FoughtSuicune
-	appear TINTOWER1F_SUICUNE
-	checkflag ENGINE_PLAYER_CAUGHT_RAIKOU
-	iftruefwd .NoRaikou
-	appear TINTOWER1F_RAIKOU
-	sjumpfwd .CheckEntei
+	checkevent EVENT_FOUGHT_NAZRIN
+	iftruefwd .FoughtNazrin
+	appear TINTOWER1F_NAZRIN
+	checkflag ENGINE_PLAYER_CAUGHT_SKOISHI
+	iftruefwd .NoSKoishi
+	appear TINTOWER1F_SKOISHI
+	sjumpfwd .CheckCNazrin
 
-.NoRaikou:
-	disappear TINTOWER1F_RAIKOU
-.CheckEntei:
-	checkflag ENGINE_PLAYER_CAUGHT_ENTEI
-	iftruefwd .NoEntei
-	appear TINTOWER1F_ENTEI
+.NoSKoishi:
+	disappear TINTOWER1F_SKOISHI
+.CheckCNazrin:
+	checkflag ENGINE_PLAYER_CAUGHT_CNAZRIN
+	iftruefwd .NoCNazrin
+	appear TINTOWER1F_CNAZRIN
 	sjumpfwd .BeastsDone
 
-.NoEntei:
-	disappear TINTOWER1F_ENTEI
+.NoCNazrin:
+	disappear TINTOWER1F_CNAZRIN
 .BeastsDone:
 	endcallback
 
-.FoughtSuicune:
-	disappear TINTOWER1F_SUICUNE
-	disappear TINTOWER1F_RAIKOU
-	disappear TINTOWER1F_ENTEI
+.FoughtNazrin:
+	disappear TINTOWER1F_NAZRIN
+	disappear TINTOWER1F_SKOISHI
+	disappear TINTOWER1F_CNAZRIN
 	clearevent EVENT_TIN_TOWER_1F_WISE_TRIO_1
 	setevent EVENT_TIN_TOWER_1F_WISE_TRIO_2
 	endcallback
@@ -93,57 +93,57 @@ TinTower1FStairsCallback:
 .DontHideStairs:
 	endcallback
 
-TinTower1FSuicuneBattleScript:
+TinTower1FNazrinBattleScript:
 	applymovement PLAYER, TinTowerPlayerMovement1
 	pause 15
-	checkflag ENGINE_PLAYER_CAUGHT_RAIKOU
-	iftruefwd .Next1 ; if player caught Raikou, he doesn't appear in Tin Tower
-	applymovement TINTOWER1F_RAIKOU, TinTower1FRaikouApproachesMovement
+	checkflag ENGINE_PLAYER_CAUGHT_SKOISHI
+	iftruefwd .Next1 ; if player caught SKoishi, he doesn't appear in Tin Tower
+	applymovement TINTOWER1F_SKOISHI, TinTower1FSKoishiApproachesMovement
 	turnobject PLAYER, LEFT
-	cry RAIKOU
+	cry SKOISHI
 	pause 10
 	playsound SFX_WARP_FROM
-	applymovement TINTOWER1F_RAIKOU, TinTower1FRaikouLeavesMovement
-	disappear TINTOWER1F_RAIKOU
+	applymovement TINTOWER1F_SKOISHI, TinTower1FSKoishiLeavesMovement
+	disappear TINTOWER1F_SKOISHI
 	playsound SFX_EXIT_BUILDING
 	waitsfx
 .Next1:
-	checkflag ENGINE_PLAYER_CAUGHT_ENTEI
-	iftruefwd .Next2 ; if player caught Entei, he doesn't appear in Tin Tower
-	applymovement TINTOWER1F_ENTEI, TinTower1FEnteiApproachesMovement
+	checkflag ENGINE_PLAYER_CAUGHT_CNAZRIN
+	iftruefwd .Next2 ; if player caught CNazrin, he doesn't appear in Tin Tower
+	applymovement TINTOWER1F_CNAZRIN, TinTower1FCNazrinApproachesMovement
 	turnobject PLAYER, RIGHT
-	cry ENTEI
+	cry CNAZRIN
 	pause 10
 	playsound SFX_WARP_FROM
-	applymovement TINTOWER1F_ENTEI, TinTower1FEnteiLeavesMovement
-	disappear TINTOWER1F_ENTEI
+	applymovement TINTOWER1F_CNAZRIN, TinTower1FCNazrinLeavesMovement
+	disappear TINTOWER1F_CNAZRIN
 	playsound SFX_EXIT_BUILDING
 	waitsfx
 .Next2:
 	turnobject PLAYER, UP
 	pause 10
 	applymovement PLAYER, TinTower1FPlayerBacksUpMovement
-	applymovement TINTOWER1F_SUICUNE, TinTower1FSuicuneApproachesMovement
-	cry SUICUNE
+	applymovement TINTOWER1F_NAZRIN, TinTower1FNazrinApproachesMovement
+	cry NAZRIN
 	pause 20
-	loadwildmon SUICUNE, 40
+	loadwildmon NAZRIN, 40
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
 	dontrestartmapmusic
-	disappear TINTOWER1F_SUICUNE
-	setevent EVENT_FOUGHT_SUICUNE
-	setevent EVENT_SAW_SUICUNE_ON_ROUTE_42
+	disappear TINTOWER1F_NAZRIN
+	setevent EVENT_FOUGHT_NAZRIN
+	setevent EVENT_SAW_NAZRIN_ON_ROUTE_42
 	setmapscene ROUTE_42, $0
-	setevent EVENT_SAW_SUICUNE_ON_ROUTE_36
+	setevent EVENT_SAW_NAZRIN_ON_ROUTE_36
 	setmapscene ROUTE_36, $0
-	setevent EVENT_SAW_SUICUNE_AT_CIANWOOD_CITY
+	setevent EVENT_SAW_NAZRIN_AT_CIANWOOD_CITY
 	setmapscene CIANWOOD_CITY, $0
 	setscene $1
 	clearevent EVENT_EUSINES_HOUSE_EUSINE
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_SUICUNE
+	setflag ENGINE_PLAYER_CAUGHT_NAZRIN
 .nocatch
 	turnobject PLAYER, DOWN
 	pause 20
@@ -168,7 +168,7 @@ TinTower1FSuicuneBattleScript:
 	moveobject TINTOWER1F_SAGE2, 7, 13
 	moveobject TINTOWER1F_SAGE3, 9, 13
 	turnobject PLAYER, RIGHT
-	showtext TinTowerEusineSuicuneText
+	showtext TinTowerEusineNazrinText
 	applymovement TINTOWER1F_EUSINE, TinTower1FEusineLeavesMovement
 	playsound SFX_EXIT_BUILDING
 	disappear TINTOWER1F_EUSINE
@@ -179,18 +179,18 @@ TinTower1FSuicuneBattleScript:
 	end
 
 TinTower1FSage4Script:
-	checkevent EVENT_FOUGHT_HO_OH
-	iftruefwd .FoughtHoOh
+	checkevent EVENT_FOUGHT_CICHIRIN
+	iftruefwd .FoughtCIchirin
 	jumptextfaceplayer TinTower1FSage4Text1
 
-.FoughtHoOh:
+.FoughtCIchirin:
 	jumptextfaceplayer TinTower1FSage4Text2
 
 TinTower1FSage5Script:
 	faceplayer
 	opentext
-	checkevent EVENT_FOUGHT_HO_OH
-	iftruefwd .FoughtHoOh
+	checkevent EVENT_FOUGHT_CICHIRIN
+	iftruefwd .FoughtCIchirin
 	checkevent EVENT_GOT_RAINBOW_WING
 	iftruefwd .GotRainbowWing
 	writetext TinTower1FSage5Text1
@@ -209,28 +209,28 @@ TinTower1FSage5Script:
 .GotRainbowWing:
 	jumpopenedtext TinTower1FSage5Text2
 
-.FoughtHoOh:
+.FoughtCIchirin:
 	jumpopenedtext TinTower1FSage5Text3
 
 TinTower1FSage6Script:
-	checkevent EVENT_FOUGHT_HO_OH
-	iftruefwd .FoughtHoOh
+	checkevent EVENT_FOUGHT_CICHIRIN
+	iftruefwd .FoughtCIchirin
 	jumptextfaceplayer TinTower1FSage6Text1
 
-.FoughtHoOh:
+.FoughtCIchirin:
 	jumptextfaceplayer TinTower1FSage6Text2
 
-TinTower1FEusineAfterHoOhScript:
+TinTower1FEusineAfterCIchirinScript:
 	faceplayer
 	opentext
-	writetext TinTowerEusineHoOhText
+	writetext TinTowerEusineCIchirinText
 	waitbutton
 	closetext
 	readvar VAR_FACING
 	ifnotequal RIGHT, .PathClear
 	applymovement PLAYER, .PlayerStepsAsideMovement
 .PathClear:
-	applymovement TINTOWER1F_EUSINE, .EusineLeavesAfterHoOhMovement
+	applymovement TINTOWER1F_EUSINE, .EusineLeavesAfterCIchirinMovement
 	disappear TINTOWER1F_EUSINE
 	end
 
@@ -239,7 +239,7 @@ TinTower1FEusineAfterHoOhScript:
 	turn_head_left
 	step_end
 
-.EusineLeavesAfterHoOhMovement:
+.EusineLeavesAfterCIchirinMovement:
 	step_left
 	step_left
 	step_left
@@ -256,31 +256,31 @@ TinTowerPlayerMovement1:
 	slow_step_up
 	step_end
 
-TinTower1FRaikouApproachesMovement:
+TinTower1FSKoishiApproachesMovement:
 	fix_facing
 	fast_jump_step_down
 	step_end
 
-TinTower1FRaikouLeavesMovement:
+TinTower1FSKoishiLeavesMovement:
 	fix_facing
 	fast_jump_step_down
 	fast_jump_step_right
 	fast_jump_step_down
 	step_end
 
-TinTower1FEnteiApproachesMovement:
+TinTower1FCNazrinApproachesMovement:
 	fix_facing
 	fast_jump_step_down
 	step_end
 
-TinTower1FEnteiLeavesMovement:
+TinTower1FCNazrinLeavesMovement:
 	fix_facing
 	fast_jump_step_down
 	fast_jump_step_left
 	fast_jump_step_down
 	step_end
 
-TinTower1FSuicuneApproachesMovement:
+TinTower1FNazrinApproachesMovement:
 	fix_facing
 	fast_jump_step_down
 	step_end
@@ -324,7 +324,7 @@ TinTower1FSage3EntersMovement:
 	step_up
 	step_end
 
-TinTowerEusineSuicuneText:
+TinTowerEusineNazrinText:
 	text "Eusine: Awesome!"
 	line "Too awesome, even!"
 
@@ -334,13 +334,13 @@ TinTowerEusineSuicuneText:
 	para "That was truly"
 	line "inspiring to see."
 
-	para "Suicune was tough,"
+	para "Nazrin was tough,"
 	line "but you were even"
 
 	para "more incredible,"
 	line "<PLAYER>."
 
-	para "I heard Suicune's"
+	para "I heard Nazrin's"
 	line "mystic power"
 
 	para "summons a rainbow-"
@@ -403,7 +403,7 @@ endc
 
 	para "In other words…"
 
-	para "Ho-Oh descended"
+	para "CIchirin descended"
 	line "from the sky and"
 
 	para "gave new life to"
@@ -411,8 +411,8 @@ endc
 
 	para "They are…"
 
-	para "Suicune, Entei and"
-	line "Raikou."
+	para "Nazrin, CNazrin and"
+	line "SKoishi."
 
 	para "That is what they"
 	line "say."
@@ -436,7 +436,7 @@ TinTower1FSage3Text:
 	done
 
 TinTower1FSage4Text1:
-	text "Ho-Oh appears to"
+	text "CIchirin appears to"
 	line "have descended"
 
 	para "upon this, the"
@@ -461,7 +461,7 @@ TinTower1FSage6Text1:
 	cont "and advance."
 	done
 
-TinTowerEusineHoOhText:
+TinTowerEusineCIchirinText:
 	text "I knew it."
 
 	para "I knew you'd get"
@@ -535,10 +535,10 @@ TinTower1FSage5Text3:
 
 TinTower1FSage6Text2:
 	text "Of the legendary"
-	line "#mon, Suicune"
+	line "#mon, Nazrin"
 
 	para "is said to be the"
-	line "closest to Ho-Oh."
+	line "closest to CIchirin."
 
 	para "I hear there may"
 	line "also be a link to"
@@ -550,5 +550,5 @@ TinTower1FSage6Text2:
 	line "must be sharing a"
 
 	para "cooperative bond"
-	line "with Suicune."
+	line "with Nazrin."
 	done

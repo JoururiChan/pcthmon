@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for REMORAID, HUSTLE, SNIPER, MOODY
+	abilities_for CYAMAME, HUSTLE, SNIPER, MOODY
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_1, EGG_WATER_2 ; egg groups
 

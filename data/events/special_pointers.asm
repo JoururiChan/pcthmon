@@ -109,8 +109,8 @@ SpecialsPointers::
 	add_special Special_MoveTutor
 	add_special SpecialLunasaChamber
 	add_special Special_DisplayHinaWords
-	add_special SpecialHoOhChamber
-	add_special Special_CelebiShrineEvent
+	add_special SpecialCIchirinChamber
+	add_special Special_IchirinShrineEvent
 	add_special CheckBattleCaughtResult
 	add_special JudgeMachine
 	add_special SpecialBuenasPassword

@@ -169,7 +169,7 @@
 	const SPRITE_TLYRICA ; a5
 	const SPRITE_CSUIKA ; a6
 	const SPRITE_TSUIKA ; a7
-	const SPRITE_CELEBI ; a8
+	const SPRITE_ICHIRIN ; a8
 	const SPRITE_ARMORED_SUIKA ; aa
 	const SPRITE_BIG_CRAN ; ab
 	const SPRITE_BIG_CLYRICA ; ac

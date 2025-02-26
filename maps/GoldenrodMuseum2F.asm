@@ -9,35 +9,35 @@ GoldenrodMuseum2F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  1,  0, BGEVENT_READ, LugiaPaintingScript
-	bg_event  2,  0, BGEVENT_READ, LugiaPaintingScript
+	bg_event  1,  0, BGEVENT_READ, TKogasaPaintingScript
+	bg_event  2,  0, BGEVENT_READ, TKogasaPaintingScript
 	bg_event  4,  0, BGEVENT_READ, BellTowerPaintingScript
 	bg_event  5,  0, BGEVENT_READ, BellTowerPaintingScript
-	bg_event  7,  0, BGEVENT_READ, HoOhPaintingScript
-	bg_event  8,  0, BGEVENT_READ, HoOhPaintingScript
+	bg_event  7,  0, BGEVENT_READ, CIchirinPaintingScript
+	bg_event  8,  0, BGEVENT_READ, CIchirinPaintingScript
 	bg_event  1,  4, BGEVENT_READ, LunasaPuzzleScript
 	bg_event  1,  5, BGEVENT_READ, LunasaPuzzleScript
 	bg_event  5,  4, BGEVENT_READ, CYuyukoPuzzleScript
 	bg_event  5,  5, BGEVENT_READ, CYuyukoPuzzleScript
 	bg_event  1,  6, BGEVENT_READ, AYuyukoPuzzleScript
 	bg_event  1,  7, BGEVENT_READ, AYuyukoPuzzleScript
-	bg_event  5,  6, BGEVENT_READ, HoOhPuzzleScript
-	bg_event  5,  7, BGEVENT_READ, HoOhPuzzleScript
+	bg_event  5,  6, BGEVENT_READ, CIchirinPuzzleScript
+	bg_event  5,  7, BGEVENT_READ, CIchirinPuzzleScript
 	bg_event 10,  1, BGEVENT_JUMPTEXT, TowerRelicText
 	bg_event 11,  1, BGEVENT_JUMPTEXT, TowerRelicText
 	bg_event 11,  1, BGEVENT_JUMPTEXT, TowerRelicText
 
 	def_object_events
 	object_event  4,  2, SPRITE_SIGHTSEER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, OBJECTTYPE_SCRIPT, 0, GoldenrodMuseum2FSightseerMScript, -1
-	tohomon_event 5,  2, SMEARGLE, SPRITEMOVEDATA_TOHOMON, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, GoldenrodMuseum2FSmeargleText, -1
+	tohomon_event 5,  2, CRIN, SPRITEMOVEDATA_TOHOMON, -1, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, GoldenrodMuseum2FCRinText, -1
 	object_event  3,  6, SPRITE_SCIENTIST, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, GoldenrodMuseum2FScientistScript, -1
 	object_event 11,  3, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodMuseum2FTeacherScript, -1
 
-LugiaPaintingScript:
-	checkevent EVENT_FOUGHT_LUGIA
+TKogasaPaintingScript:
+	checkevent EVENT_FOUGHT_TKOGASA
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
-	paintingpic LUGIA_PAINTING
+	paintingpic TKOGASA_PAINTING
 	waitbutton
 	closepokepic
 	jumpthistext
@@ -46,11 +46,11 @@ LugiaPaintingScript:
 	line "     Awakens"
 	done
 
-HoOhPaintingScript:
-	checkevent EVENT_FOUGHT_HO_OH
+CIchirinPaintingScript:
+	checkevent EVENT_FOUGHT_CICHIRIN
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
-	paintingpic HO_OH_PAINTING
+	paintingpic CICHIRIN_PAINTING
 	waitbutton
 	closepokepic
 	jumpthistext
@@ -60,7 +60,7 @@ HoOhPaintingScript:
 	done
 
 BellTowerPaintingScript:
-	checkevent EVENT_FOUGHT_SUICUNE
+	checkevent EVENT_FOUGHT_NAZRIN
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
 	paintingpic BELL_TOWER_PAINTING
@@ -111,17 +111,17 @@ AYuyukoPuzzleScript:
 	line "AYuyuko panel!"
 	done
 
-HoOhPuzzleScript:
-	checkevent EVENT_SOLVED_HO_OH_PUZZLE
+CIchirinPuzzleScript:
+	checkevent EVENT_SOLVED_CICHIRIN_PUZZLE
 	iffalse_jumptext EmptyDisplayText
 	reanchormap
-	paintingpic HO_OH_PUZZLE
+	paintingpic CICHIRIN_PUZZLE
 	waitbutton
 	closepokepic
 	jumpthistext
 
 	text "It's the completed"
-	line "Ho-Oh panel!"
+	line "CIchirin panel!"
 	done
 
 EmptyDisplayText:
@@ -136,11 +136,11 @@ TowerRelicText:
 	done
 
 GoldenrodMuseum2FSightseerMScript:
-	checkevent EVENT_FOUGHT_SUICUNE
+	checkevent EVENT_FOUGHT_NAZRIN
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FSightseerMNoPaintingText
-	checkevent EVENT_FOUGHT_HO_OH
+	checkevent EVENT_FOUGHT_CICHIRIN
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FSightseerMNoPaintingText
-	checkevent EVENT_FOUGHT_LUGIA
+	checkevent EVENT_FOUGHT_TKOGASA
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FSightseerMNoPaintingText
 	jumpthistextfaceplayer
 
@@ -155,7 +155,7 @@ GoldenrodMuseum2FSightseerMScript:
 	done
 
 GoldenrodMuseum2FSightseerMNoPaintingText:
-	text "Aww…! Smeargle and"
+	text "Aww…! CRin and"
 	line "I came because we"
 
 	para "heard an art exhi-"
@@ -171,8 +171,8 @@ GoldenrodMuseum2FSightseerMNoPaintingText:
 	line "isn't finished!"
 	done
 
-GoldenrodMuseum2FSmeargleText:
-	text "Smeargle: Smeer!"
+GoldenrodMuseum2FCRinText:
+	text "CRin: Smeer!"
 	done
 
 GoldenrodMuseum2FScientistScript:
@@ -182,7 +182,7 @@ GoldenrodMuseum2FScientistScript:
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FScientistNoArtifactsText
 	checkevent EVENT_SOLVED_AYUYUKO_PUZZLE
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FScientistNoArtifactsText
-	checkevent EVENT_SOLVED_HO_OH_PUZZLE
+	checkevent EVENT_SOLVED_CICHIRIN_PUZZLE
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FScientistNoArtifactsText
 	jumpthistextfaceplayer
 

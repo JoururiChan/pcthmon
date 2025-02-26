@@ -32,7 +32,7 @@ IlexForest_MapScriptHeader:
 	object_event  7, 30, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalMasterScript, EVENT_ILEX_FOREST_CHARCOAL_MASTER
 	object_event 10, 31, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ILEX_FOREST_KURT
 	object_event  5, 26, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_IlexForestLass, EVENT_ILEX_FOREST_LASS
-	object_event 10, 26, SPRITE_CELEBI, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ILEX_FOREST_CELEBI
+	object_event 10, 26, SPRITE_ICHIRIN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ILEX_FOREST_ICHIRIN
 	object_event  9, 25, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestLyraScript, EVENT_ILEX_FOREST_LYRA
 	object_event  9, 30, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalApprenticeScript, EVENT_ILEX_FOREST_APPRENTICE
 	object_event 17, 16, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, IlexForestHeadbuttGuyScript, -1
@@ -49,12 +49,12 @@ IlexForest_MapScriptHeader:
 	const ILEXFOREST_BLACK_BELT
 	const ILEXFOREST_KURT
 	const ILEXFOREST_LASS
-	const ILEXFOREST_CELEBI
+	const ILEXFOREST_ICHIRIN
 	const ILEXFOREST_LYRA
 	const ILEXFOREST_YOUNGSTER
 
 IlexForestTrigger1:
-	sdefer IlexForestFinishCelebiEventScript
+	sdefer IlexForestFinishIchirinEventScript
 IlexForestTrigger0:
 	end
 
@@ -298,7 +298,7 @@ IlexForestFarfetchdScript:
 	applymovement ILEXFOREST_FARFETCHD, MovementData_Farfetched_Pos9_Pos8_Down
 	sjump .NewPosition8
 
-IlexForestFinishCelebiEventScript:
+IlexForestFinishIchirinEventScript:
 	setevent EVENT_TIME_TRAVEL_FINISHED
 	clearevent EVENT_TIME_TRAVELING
 	setscene $0
@@ -417,25 +417,25 @@ GenericTrainerBug_catcherWayne:
 
 MapIlexForestSignpost4Script:
 	checkevent EVENT_FOREST_IS_RESTLESS
-	iffalsefwd .DontDoCelebiEvent
+	iffalsefwd .DontDoIchirinEvent
 	checkkeyitem GS_BALL
-	iftruefwd .AskCelebiEvent
-.DontDoCelebiEvent:
+	iftruefwd .AskIchirinEvent
+.DontDoIchirinEvent:
 	checkevent EVENT_TIME_TRAVEL_FINISHED
 	iftruefwd .DontDoGiovanniEvent
-	checkpoke CELEBI
+	checkpoke ICHIRIN
 	iftruefwd .StartGiovanniEvent
 .DontDoGiovanniEvent
 	jumptext Text_IlexForestShrine
 
-.AskCelebiEvent:
+.AskIchirinEvent:
 	opentext
-	writetext Text_ShrineCelebiEvent
+	writetext Text_ShrineIchirinEvent
 	yesorno
-	iftruefwd .CelebiEvent
+	iftruefwd .IchirinEvent
 	endtext
 
-.CelebiEvent:
+.IchirinEvent:
 	takekeyitem GS_BALL
 	clearevent EVENT_FOREST_IS_RESTLESS
 	setevent EVENT_AZALEA_TOWN_KURT
@@ -452,17 +452,17 @@ MapIlexForestSignpost4Script:
 	turnobject PLAYER, DOWN
 	pause 20
 	clearflag ENGINE_HAVE_EXAMINED_GS_BALL
-	special Special_CelebiShrineEvent
-	loadwildmon CELEBI, 30
+	special Special_IchirinShrineEvent
+	loadwildmon ICHIRIN, 30
 	startbattle
 	reloadmapafterbattle
 	pause 20
 	special CheckBattleCaughtResult
 	iffalse DoNothingScript
-	setflag ENGINE_PLAYER_CAUGHT_CELEBI
+	setflag ENGINE_PLAYER_CAUGHT_ICHIRIN
 	appear ILEXFOREST_KURT
 	applymovement ILEXFOREST_KURT, IlexForestKurtStepsUpMovement
-	showtext Text_KurtCaughtCelebi
+	showtext Text_KurtCaughtIchirin
 	applymovement ILEXFOREST_KURT, IlexFOrestKurtStepsDownMovement
 	disappear ILEXFOREST_KURT
 	end
@@ -470,19 +470,19 @@ MapIlexForestSignpost4Script:
 .StartGiovanniEvent:
 	showtext Text_IlexForestShrine
 	showemote EMOTE_SHOCK, PLAYER, 15
-	appear ILEXFOREST_CELEBI
+	appear ILEXFOREST_ICHIRIN
 	playsound SFX_BALL_POOF
 	turnobject PLAYER, DOWN
 	waitsfx
 	pause 15
-	cry CELEBI
+	cry ICHIRIN
 	waitsfx
 	pause 15
-	applymovement ILEXFOREST_CELEBI, MovementData_CelebiDance
+	applymovement ILEXFOREST_ICHIRIN, MovementData_IchirinDance
 	pause 15
-	showtext Text_CelebiDancedBeautifully
+	showtext Text_IchirinDancedBeautifully
 	playsound SFX_JUMP_OVER_LEDGE
-	applymovement ILEXFOREST_CELEBI, MovementData_CelebiHop
+	applymovement ILEXFOREST_ICHIRIN, MovementData_IchirinHop
 	applyonemovement PLAYER, slow_step_down
 	waitsfx
 	special Special_FadeOutMusic
@@ -497,7 +497,7 @@ MapIlexForestSignpost4Script:
 	playsound SFX_GAME_FREAK_LOGO_GS
 	special FadeOutPalettes
 	special LoadMapPalettes
-	turnobject ILEXFOREST_CELEBI, DOWN
+	turnobject ILEXFOREST_ICHIRIN, DOWN
 	pause 30
 	special FadeInPalettes_EnableDynNoApply
 	waitsfx
@@ -510,18 +510,18 @@ MapIlexForestSignpost4Script:
 	turnobject ILEXFOREST_LYRA, RIGHT
 	turnobject PLAYER, LEFT
 	showtext Text_IlexForestLyraWhatWasThat
-	cry CELEBI
+	cry ICHIRIN
 	showemote EMOTE_SHOCK, PLAYER, 15
 	applymovement PLAYER, MovementData_PlayerStepBack
 	waitsfx
 	playsound SFX_PROTECT
-	applymovement ILEXFOREST_CELEBI, MovementData_CelebiFloat
+	applymovement ILEXFOREST_ICHIRIN, MovementData_IchirinFloat
 	waitsfx
 	playsound SFX_GAME_FREAK_LOGO_GS
 	special FadeOutPalettes
 	pause 30
 	waitsfx
-	disappear ILEXFOREST_CELEBI
+	disappear ILEXFOREST_ICHIRIN
 	disappear ILEXFOREST_LYRA
 	setevent EVENT_TIME_TRAVELING
 	warp ROUTE_22_PAST, 6, 7
@@ -748,7 +748,7 @@ IlexForestPlayerStepsDownMovement:
 	remove_fixed_facing
 	step_end
 
-MovementData_CelebiDance:
+MovementData_IchirinDance:
 	slow_step_left
 	slow_step_right
 	slow_step_right
@@ -774,12 +774,12 @@ MovementData_CelebiDance:
 	step_sleep_4
 	step_end
 
-MovementData_CelebiHop:
+MovementData_IchirinHop:
 	jump_step_down
 	slow_step_up
 	step_end
 
-MovementData_CelebiFloat:
+MovementData_IchirinFloat:
 	turn_head_down
 	fix_facing
 	slow_step_up
@@ -1013,7 +1013,7 @@ Text_IlexForestShrine:
 	cont "protector…"
 	done
 
-Text_ShrineCelebiEvent:
+Text_ShrineIchirinEvent:
 	text "Ilex Forest"
 	line "Shrine…"
 
@@ -1038,7 +1038,7 @@ Text_InsertGSBall:
 	line "GS Ball."
 	done
 
-Text_KurtCaughtCelebi:
+Text_KurtCaughtIchirin:
 	text "Whew, wasn't that"
 	line "something!"
 
@@ -1065,8 +1065,8 @@ Text_KurtCaughtCelebi:
 	para "I'm going!"
 	done
 
-Text_CelebiDancedBeautifully:
-	text "Celebi danced"
+Text_IchirinDancedBeautifully:
+	text "Ichirin danced"
 	line "beautifully!"
 	done
 
@@ -1094,7 +1094,7 @@ Text_IlexForestLyraWorried:
 	line "You're really back?"
 
 	para "I missed you so"
-	line "much! Celebi sent"
+	line "much! Ichirin sent"
 
 	para "me here and you"
 	line "were missing…"
@@ -1116,7 +1116,7 @@ Text_IlexForestLyraArmorSuit:
 	cont "have by yourself?"
 
 	para "You dropped this…"
-	line "thing when Celebi"
+	line "thing when Ichirin"
 	cont "brought you back…"
 	done
 

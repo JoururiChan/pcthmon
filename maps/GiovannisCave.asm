@@ -15,23 +15,23 @@ GiovannisCave_MapScriptHeader:
 	bg_event 12,  6, BGEVENT_ITEM + BERSERK_GENE, EVENT_GIOVANNIS_CAVE_HIDDEN_BERSERK_GENE
 
 	def_object_events
-	object_event 15,  6, SPRITE_CELEBI, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GIOVANNIS_CAVE_CELEBI
+	object_event 15,  6, SPRITE_ICHIRIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GIOVANNIS_CAVE_ICHIRIN
 	object_event 14,  5, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GIOVANNIS_CAVE_LYRA
 	object_event 15,  3, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GIOVANNIS_CAVE_GIOVANNI
 	smashrock_event 13, 6
 	smashrock_event 16, 2
 
 	object_const_def
-	const GIOVANNISCAVE_CELEBI
+	const GIOVANNISCAVE_ICHIRIN
 	const GIOVANNISCAVE_LYRA
 	const GIOVANNISCAVE_GIOVANNI
 
 GiovannisCaveTrigger1:
-	sdefer GiovannisCaveCelebiEventScript
+	sdefer GiovannisCaveIchirinEventScript
 GiovannisCaveTrigger0:
 	end
 
-GiovannisCaveCelebiEventScript:
+GiovannisCaveIchirinEventScript:
 	pause 30
 	turnobject PLAYER, UP
 	turnobject GIOVANNISCAVE_LYRA, UP
@@ -80,13 +80,13 @@ GiovannisCaveCelebiEventScript:
 	applymovement GIOVANNISCAVE_LYRA, GiovannisCave_LyraLooksAroundMovementData
 	showtext GiovannisCaveLyraWantsToLeaveText
 	playsound SFX_PROTECT
-	applymovement GIOVANNISCAVE_CELEBI, GiovannisCave_CelebiFloatsMovementData
+	applymovement GIOVANNISCAVE_ICHIRIN, GiovannisCave_IchirinFloatsMovementData
 	waitsfx
 	playsound SFX_GAME_FREAK_LOGO_GS
 	special FadeOutPalettes
 	pause 30
 	waitsfx
-	disappear GIOVANNISCAVE_CELEBI
+	disappear GIOVANNISCAVE_ICHIRIN
 	disappear GIOVANNISCAVE_LYRA
 	warp CINNABAR_LAB, 30, 16
 	end
@@ -144,7 +144,7 @@ GiovannisCave_LyraLooksAroundMovementData:
 	turn_head_right
 	step_end
 
-GiovannisCave_CelebiFloatsMovementData:
+GiovannisCave_IchirinFloatsMovementData:
 	turn_head_down
 	fix_facing
 	slow_step_up

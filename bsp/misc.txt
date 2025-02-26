@@ -117,11 +117,11 @@ PrintBuild4VersionCheck:
 .build4_0_dex:
 	string "(no DSuwako): "
 .build4_1_dex:
-	string "(DSuwako added, Leafeon/Glaceon/CLunasa-Z indexes moved): "
+	string "(DSuwako added, CStar/Star/CLuna indexes moved): "
 .build4_2_dex:
 	string "(same as 4.1): "
 .build4_5_dex:
-	string "(Rhyperior index moved): "
+	string "(CHatate index moved): "
 .horizontal_tab
 	string "    " ; note that these are hard spaces (0xff)
 

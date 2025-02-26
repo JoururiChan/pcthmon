@@ -53,8 +53,8 @@ MountMortarB1FTutorDefenseCurlScript:
 	jumpopenedtext Text_MountMortarB1FTutorTaught
 
 MountMortarB1FKiyoScript:
-	checkevent EVENT_GOT_TYROGUE_FROM_KIYO
-	iftrue_jumptextfaceplayer MountMortarB1FKiyoGotTyrogueText
+	checkevent EVENT_GOT_RIN_FROM_KIYO
+	iftrue_jumptextfaceplayer MountMortarB1FKiyoGotRinText
 	faceplayer
 	checkevent EVENT_BEAT_KIYO
 	iftruefwd .BeatKiyo
@@ -66,16 +66,16 @@ MountMortarB1FKiyoScript:
 	setevent EVENT_BEAT_KIYO
 .BeatKiyo:
 	opentext
-	writetext MountMortarB1FTyrogueRewardText
+	writetext MountMortarB1FRinRewardText
 	promptbutton
 	waitsfx
-	givepoke TYROGUE, PLAIN_FORM, 10, NO_ITEM, PREMIER_BALL
+	givepoke RIN, PLAIN_FORM, 10, NO_ITEM, PREMIER_BALL
 	iffalse_jumpopenedtext MountMortarB1FKiyoFullPartyAndBoxText
-	setevent EVENT_GOT_TYROGUE_FROM_KIYO
+	setevent EVENT_GOT_RIN_FROM_KIYO
 	jumpthisopenedtext
 
-MountMortarB1FKiyoGotTyrogueText:
-	text "Tyrogue is a"
+MountMortarB1FKiyoGotRinText:
+	text "Rin is a"
 	line "Dream-type."
 
 	para "It evolves into a"
@@ -155,7 +155,7 @@ MountMortarB1FKiyoWinText:
 	line "I'm beaten!"
 	done
 
-MountMortarB1FTyrogueRewardText:
+MountMortarB1FRinRewardText:
 	text "I… I'm crushed…"
 
 	para "My training is"

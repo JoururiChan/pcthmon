@@ -161,7 +161,7 @@ GenericTrainerArtistMarlene:
 	done
 
 .SeenText:
-	text "My Smeargle trio"
+	text "My CRin trio"
 	line "can paint any"
 	cont "scene!"
 	done

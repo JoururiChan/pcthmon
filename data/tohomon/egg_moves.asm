@@ -728,7 +728,7 @@ TenshiEggMoves:
 	db CURSE
 	db $ff
 
-SwinubEggMoves:
+CKisumeEggMoves:
 	db AVALANCHE
 	db BITE
 	db TAKE_DOWN
@@ -739,7 +739,7 @@ SwinubEggMoves:
 	db ICICLE_SPEAR
 	db $ff
 
-CorsolaEggMoves:
+DKisumeEggMoves:
 	db BARRIER
 	db CONFUSE_RAY
 	db HAZE
@@ -752,7 +752,7 @@ CorsolaEggMoves:
 	db ICICLE_SPEAR
 	db $ff
 
-RemoraidEggMoves:
+CYamameEggMoves:
 	db SPLASH
 	db HAZE
 	db BLACK_RIPPLE
@@ -764,7 +764,7 @@ RemoraidEggMoves:
 	db WATER_PULSE
 	db $ff
 
-DelibirdEggMoves:
+SYamameEggMoves:
 	db STARRY_BEAM
 	db DESTINY_BOND
 	db ICE_PUNCH
@@ -774,13 +774,13 @@ DelibirdEggMoves:
 	db SPLASH
 	db $ff
 
-SkarmoryEggMoves:
+ParseeEggMoves:
 	db DRAGON_DRILL
 	db PURSUIT
 	db DIVE_KICK
 	db $ff
 
-HoundourEggMoves:
+DParseeEggMoves:
 	db DESTINY_BOND
 	db FIRE_SPIN
 	db PURSUIT
@@ -790,7 +790,7 @@ HoundourEggMoves:
 	db WILL_O_WISP
 	db $ff
 
-PhanpyEggMoves:
+AYuugiEggMoves:
 	db FOCUS_ENERGY
 	db PLAY_ROUGH
 	db WATER_GUN
@@ -801,14 +801,14 @@ PhanpyEggMoves:
 	db ENCORE
 	db $ff
 
-StantlerEggMoves:
+HSatoriEggMoves:
 	db BITE
 	db DOUBLE_KICK
 	db EXTRASENSORY
 	db RAGE
 	db $ff
 
-TyrogueEggMoves:
+RinEggMoves:
 	db STEEL_FIST
 	db JUMP_KICK
 	db MACH_PUNCH
@@ -816,19 +816,19 @@ TyrogueEggMoves:
 	db RAPID_SPIN
 	db $ff
 
-SmoochumEggMoves:
+CUtsuhoEggMoves:
 	db BULK_UP
 	db NASTY_PLOT
 	db $ff
 
-ElekidEggMoves:
+UtsuhoEggMoves:
 	db BARRIER
 	db CROSS_CHOP
 	db KARATE_CHOP
 	db BULK_UP
 	db $ff
 
-MagbyEggMoves:
+AUtsuhoEggMoves:
 	db BARRIER
 	db BELLY_DRUM
 	db CROSS_CHOP
@@ -839,13 +839,13 @@ MagbyEggMoves:
 	db SCREECH
 	db $ff
 
-MiltankEggMoves:
+CKoishiEggMoves:
 	db DIZZY_PUNCH
 	db REVERSAL
 	db SEISMIC_TOSS
 	db $ff
 
-LarvitarEggMoves:
+HNazrinEggMoves:
 	db TAILWIND
 	db FOCUS_ENERGY
 	db PURSUIT
@@ -855,7 +855,7 @@ LarvitarEggMoves:
 	db IRON_HEAD
 	db $ff
 
-AzurillEggMoves:
+AIchirinEggMoves:
 	db BELLY_DRUM
 	db FORESIGHT
 	db FUTURE_SIGHT
@@ -866,17 +866,17 @@ AzurillEggMoves:
 	db CALM_MIND
 	db $ff
 
-WynautEggMoves:
+CMurasaEggMoves:
 	db CHARM
 	db ENCORE
 	db $ff
 
-BonslyEggMoves:
+ShouEggMoves:
 	db DEFENSE_CURL
 	db EXPLOSION
 	db $ff
 
-MimeJrEggMoves:
+AShouEggMoves:
 	db CONFUSE_RAY
 	db FUTURE_SIGHT
 	db HYPNOSIS
@@ -884,11 +884,11 @@ MimeJrEggMoves:
 	db TRICK
 	db $ff
 
-HappinyEggMoves:
+CByakurenEggMoves:
 	db HEAL_BELL
 	db $ff
 
-MantykeEggMoves:
+TByakurenEggMoves:
 	db HAZE
 	db MIRROR_COAT
 	db SPLASH
@@ -896,7 +896,7 @@ MantykeEggMoves:
 	db GUNK_SHOT
 	db $ff
 
-MunchlaxEggMoves:
+ByakurenEggMoves:
 	db CHARM
 	db COUNTER
 	db CURSE

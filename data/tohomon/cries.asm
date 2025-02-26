@@ -195,13 +195,13 @@ TohomonCries::
 	mon_cry CRY_CAYA,   $03b,  $0c8 ; AMedicine
 	mon_cry CRY_CAYA,   $027,  $138 ; CKomachi
 	mon_cry CRY_CAYA,   $000,  $180 ; Komachi
-	mon_cry CRY_TYROGUE,    -$051,  $0e8 ; AKomachi
+	mon_cry CRY_RIN,    -$051,  $0e8 ; AKomachi
 	mon_cry CRY_AYA,      $12b,  $0b8 ; CEiki
-	mon_cry CRY_REMORAID,   -$020,  $180 ; Eiki
+	mon_cry CRY_CYAMAME,   -$020,  $180 ; Eiki
 	mon_cry CRY_CSANAE,    $031,  $0c8 ; AEiki
 	mon_cry CRY_CSHIZUHA,      $093,  $0af ; CShizuha
 	mon_cry CRY_CSHIZUHA,     -$0c6,  $140 ; Shizuha
-	mon_cry CRY_TYROGUE,     $0a2,  $140 ; SShizuha
+	mon_cry CRY_RIN,     $0a2,  $140 ; SShizuha
 	mon_cry CRY_RIKAKO,    -$0e9,  $0f0 ; CMinoriko
 	mon_cry CRY_AYA,     -$01f,  $180 ; Minoriko
 	mon_cry CRY_HMINORIKO,    $104,  $200 ; HMinoriko
@@ -225,53 +225,53 @@ TohomonCries::
 	mon_cry CRY_AIKU,   $640,  $0d8 ; CTenshi
 	mon_cry CRY_TENSHI,     -$1d8,  $140 ; Tenshi
 	mon_cry CRY_STENSHI,   -$20d,  $1c0 ; STenshi
-	mon_cry CRY_CREISEN,   $1fe,  $140 ; Swinub
-	mon_cry CRY_STENSHI,   -$109,  $100 ; Piloswine
-	mon_cry CRY_STENSHI,    $0a1,  $0e8 ; Corsola
-	mon_cry CRY_REMORAID,    $00d,  $100 ; Remoraid
-	mon_cry CRY_CSANAE,    $000,  $180 ; Octillery
-	mon_cry CRY_AIKU,   $002,  $06a ; Delibird
-	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantine
-	mon_cry CRY_AMOKOU,    $8a9,  $180 ; Skarmory
-	mon_cry CRY_CREISEN,   $039,  $140 ; Houndour
-	mon_cry CRY_CSANAE,   -$10a,  $100 ; Houndoom
-	mon_cry CRY_TENSHI,      $2fb,  $100 ; Kingdra
-	mon_cry CRY_SENTRET,     $048,  $230 ; Phanpy
-	mon_cry CRY_DONPHAN,     $000,  $1a0 ; Donphan
-	mon_cry CRY_CNITORI,   $073,  $240 ; CLunasa2
-	mon_cry CRY_TYROGUE,    -$160,  $180 ; Stantler
-	mon_cry CRY_TTEI,      -$21a,  $1f0 ; Smeargle
-	mon_cry CRY_TYROGUE,     $02c,  $108 ; Tyrogue
-	mon_cry CRY_TENSHI,      $000,  $100 ; Hitmontop
-	mon_cry CRY_AYA,      $068,  $100 ; Smoochum
-	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; Elekid
-	mon_cry CRY_AIKU,   $176,  $03a ; Magby
-	mon_cry CRY_MOMIJI,     -$1cd,  $1a0 ; Miltank
-	mon_cry CRY_HMINORIKO,    $293,  $140 ; Blissey
-	mon_cry CRY_RAIKOU,      $22e,  $120 ; Raikou
-	mon_cry CRY_ENTEI,       $000,  $1a0 ; Entei
-	mon_cry CRY_STENSHI,    $000,  $180 ; Suicune
-	mon_cry CRY_RAIKOU,      $05f,  $0d0 ; Larvitar
-	mon_cry CRY_CKEINE,   -$1db,  $150 ; Pupitar
-	mon_cry CRY_RAIKOU,     -$100,  $180 ; Tyranitar
-	mon_cry CRY_TREISEN,  $000,  $100 ; Lugia
-	mon_cry CRY_TYROGUE,     $000,  $180 ; HoOh
-	mon_cry CRY_ENTEI,       $14a,  $111 ; Celebi
-	mon_cry CRY_AYA,      $11b,  $120 ; Azurill
-	mon_cry CRY_AMOKOU,    $27b,  $144 ; Wynaut
-	mon_cry CRY_TYROGUE,    -$051,  $0e8 ; Ambipom
+	mon_cry CRY_CREISEN,   $1fe,  $140 ; CKisume
+	mon_cry CRY_STENSHI,   -$109,  $100 ; Kisume
+	mon_cry CRY_STENSHI,    $0a1,  $0e8 ; DKisume
+	mon_cry CRY_CYAMAME,    $00d,  $100 ; CYamame
+	mon_cry CRY_CSANAE,    $000,  $180 ; Yamame
+	mon_cry CRY_AIKU,   $002,  $06a ; SYamame
+	mon_cry CRY_CPARSEE,    -$0be,  $0f0 ; CParsee
+	mon_cry CRY_AMOKOU,    $8a9,  $180 ; Parsee
+	mon_cry CRY_CREISEN,   $039,  $140 ; DParsee
+	mon_cry CRY_CSANAE,   -$10a,  $100 ; CYuugi
+	mon_cry CRY_TENSHI,      $2fb,  $100 ; Yuugi
+	mon_cry CRY_SENTRET,     $048,  $230 ; AYuugi
+	mon_cry CRY_CSATORI,     $000,  $1a0 ; CSatori
+	mon_cry CRY_CNITORI,   $073,  $240 ; Satori
+	mon_cry CRY_RIN,    -$160,  $180 ; HSatori
+	mon_cry CRY_TTEI,      -$21a,  $1f0 ; CRin
+	mon_cry CRY_RIN,     $02c,  $108 ; Rin
+	mon_cry CRY_TENSHI,      $000,  $100 ; HRin
+	mon_cry CRY_AYA,      $068,  $100 ; CUtsuho
+	mon_cry CRY_CYAMAME,   -$2d8,  $0b4 ; Utsuho
+	mon_cry CRY_AIKU,   $176,  $03a ; AUtsuho
+	mon_cry CRY_MOMIJI,     -$1cd,  $1a0 ; CKoishi
+	mon_cry CRY_HMINORIKO,    $293,  $140 ; Koishi
+	mon_cry CRY_SKOISHI,      $22e,  $120 ; SKoishi
+	mon_cry CRY_CNAZRIN,       $000,  $1a0 ; CNazrin
+	mon_cry CRY_STENSHI,    $000,  $180 ; Nazrin
+	mon_cry CRY_SKOISHI,      $05f,  $0d0 ; HNazrin
+	mon_cry CRY_CKEINE,   -$1db,  $150 ; CKogasa
+	mon_cry CRY_SKOISHI,     -$100,  $180 ; Kogasa
+	mon_cry CRY_TREISEN,  $000,  $100 ; TKogasa
+	mon_cry CRY_RIN,     $000,  $180 ; CIchirin
+	mon_cry CRY_CNAZRIN,       $14a,  $111 ; Ichirin
+	mon_cry CRY_AYA,      $11b,  $120 ; AIchirin
+	mon_cry CRY_AMOKOU,    $27b,  $144 ; CMurasa
+	mon_cry CRY_RIN,    -$051,  $0e8 ; Murasa
 	mon_cry CRY_CRIKA,      0,     0 ; Egg
 	mon_cry CRY_CRIKA,      0,     0 ; $100
-	mon_cry CRY_SWRIGGLE,    $130,  $0e8 ; Mismagius
-	mon_cry CRY_AYA,     -$01f,  $180 ; Honchkrow
-	mon_cry CRY_CAYA,   $f40,  $180 ; Bonsly
+	mon_cry CRY_SWRIGGLE,    $130,  $0e8 ; AMurasa
+	mon_cry CRY_AYA,     -$01f,  $180 ; CShou
+	mon_cry CRY_CAYA,   $f40,  $180 ; Shou
 	mon_cry CRY_CDAICHAN,      $008,  $0c0 ; Mime Jr.
-	mon_cry CRY_CMIMA,   $00a,  $140 ; Happiny
-	mon_cry CRY_EYUKI,      $055,  $081 ; Munchlax
-	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantyke
-	mon_cry CRY_CSHIZUHA,      $053,  $0af ; Weavile
-	mon_cry CRY_MGYOKU,     $020,  $140 ; Magnezone
-	mon_cry CRY_CYUKI,        $000,  $100 ; Lickilicky
-	mon_cry CRY_TPATCHOULI,      $000,  $100 ; Rhyperior
-	mon_cry CRY_ESARA,       $000,  $100 ; Tangrowth
+	mon_cry CRY_CMIMA,   $00a,  $140 ; CByakuren
+	mon_cry CRY_EYUKI,      $055,  $081 ; Byakuren
+	mon_cry CRY_CPARSEE,    -$0be,  $0f0 ; TByakuren
+	mon_cry CRY_CSHIZUHA,      $053,  $0af ; CNue
+	mon_cry CRY_MGYOKU,     $020,  $140 ; Nue
+	mon_cry CRY_CYUKI,        $000,  $100 ; SNue
+	mon_cry CRY_TPATCHOULI,      $000,  $100 ; CHatate
+	mon_cry CRY_ESARA,       $000,  $100 ; Hatate
 	assert_table_length NUM_SPECIES

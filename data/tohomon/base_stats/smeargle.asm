@@ -12,7 +12,7 @@ endc
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for SMEARGLE, OWN_TEMPO, TECHNICIAN, MOODY
+	abilities_for CRIN, OWN_TEMPO, TECHNICIAN, MOODY
 	db GROWTH_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

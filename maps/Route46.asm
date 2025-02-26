@@ -188,7 +188,7 @@ GenericTrainerHikerBailey:
 	done
 
 Route46HikerText:
-	text "A Donphan charged"
+	text "A CSatori charged"
 	line "at me and I roll-"
 
 	para "ed all the way"

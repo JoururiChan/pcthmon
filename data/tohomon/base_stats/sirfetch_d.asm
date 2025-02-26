@@ -7,7 +7,7 @@
 	db NO_ITEM, LEEK ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for SIRFETCH_D, STEADFAST, STEADFAST, SCRAPPY
+	abilities_for KYOUKO, STEADFAST, STEADFAST, SCRAPPY
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_FLYING, EGG_GROUND ; egg groups
 

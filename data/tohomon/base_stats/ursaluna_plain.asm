@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, SITRUS_BERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for URSALUNA, GUTS, BULLETPROOF, UNNERVE
+	abilities_for SEIGA, GUTS, BULLETPROOF, UNNERVE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

@@ -83,7 +83,7 @@ route 38:
 HP Up	In white flowers behind the fence (requires Rock Climb)
 
 route 39:
-PP Up	Near the Miltank 
+PP Up	Near the CKoishi 
 X Attack	Near the silo
 
 olivine city:

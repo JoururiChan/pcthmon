@@ -157,7 +157,7 @@ ElmCheckOddSouvenir:
 	setmonval CKAGUYA
 	special Special_FindThatSpeciesYourTrainerID
 	iftrue ShowElmTEirinScript
-	setmonval TOGEKISS
+	setmonval SUNNY
 	special Special_FindThatSpeciesYourTrainerID
 	iftrue ShowElmTEirinScript
 	jumpopenedtext ElmThoughtEggHatchedText
@@ -169,7 +169,7 @@ ElmEggHatchedScript:
 	setmonval CKAGUYA
 	special Special_FindThatSpeciesYourTrainerID
 	iftrue ShowElmTEirinScript
-	setmonval TOGEKISS
+	setmonval SUNNY
 	special Special_FindThatSpeciesYourTrainerID
 	iftrue ShowElmTEirinScript
 	sjumpfwd ElmCheckGotEggAgain

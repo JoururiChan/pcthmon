@@ -196,78 +196,78 @@ AnimationPointers:
 	dw CTenshiAnimation
 	dw TenshiAnimation
 	dw STenshiAnimation
-	dw SwinubAnimation
-	dw PiloswineAnimation
-	dw CorsolaAnimation
-	dw RemoraidAnimation
-	dw OctilleryAnimation
-	dw DelibirdAnimation
-	dw MantineAnimation
-	dw SkarmoryAnimation
-	dw HoundourAnimation
-	dw HoundoomAnimation
-	dw KingdraAnimation
-	dw PhanpyAnimation
-	dw DonphanAnimation
-	dw CLunasa2Animation
-	dw StantlerAnimation
-	dw SmeargleAnimation
-	dw TyrogueAnimation
-	dw HitmontopAnimation
-	dw SmoochumAnimation
-	dw ElekidAnimation
-	dw MagbyAnimation
-	dw MiltankAnimation
-	dw BlisseyAnimation
-	dw RaikouAnimation
-	dw EnteiAnimation
-	dw SuicuneAnimation
-	dw LarvitarAnimation
-	dw PupitarAnimation
-	dw TyranitarAnimation
-	dw LugiaAnimation
-	dw HoOhAnimation
-	dw CelebiAnimation
-	dw AzurillAnimation
-	dw WynautAnimation
-	dw AmbipomAnimation
+	dw CKisumeAnimation
+	dw KisumeAnimation
+	dw DKisumeAnimation
+	dw CYamameAnimation
+	dw YamameAnimation
+	dw SYamameAnimation
+	dw CParseeAnimation
+	dw ParseeAnimation
+	dw DParseeAnimation
+	dw CYuugiAnimation
+	dw YuugiAnimation
+	dw AYuugiAnimation
+	dw CSatoriAnimation
+	dw SatoriAnimation
+	dw HSatoriAnimation
+	dw CRinAnimation
+	dw RinAnimation
+	dw HRinAnimation
+	dw CUtsuhoAnimation
+	dw UtsuhoAnimation
+	dw AUtsuhoAnimation
+	dw CKoishiAnimation
+	dw KoishiAnimation
+	dw SKoishiAnimation
+	dw CNazrinAnimation
+	dw NazrinAnimation
+	dw HNazrinAnimation
+	dw CKogasaAnimation
+	dw KogasaAnimation
+	dw TKogasaAnimation
+	dw CIchirinAnimation
+	dw IchirinAnimation
+	dw AIchirinAnimation
+	dw CMurasaAnimation
+	dw MurasaAnimation
 	dw EggAnimation
 	dw EggAnimation
-	dw MismagiusAnimation
-	dw HonchkrowAnimation
-	dw BonslyAnimation
-	dw MimeJrAnimation
-	dw HappinyAnimation
-	dw MunchlaxAnimation
-	dw MantykeAnimation
-	dw WeavileAnimation
-	dw MagnezoneAnimation
-	dw LickilickyAnimation
-	dw RhyperiorAnimation
-	dw TangrowthAnimation
-	dw ElectivireAnimation
-	dw MagmortarAnimation
-	dw TogekissAnimation
-	dw YanmegaAnimation
-	dw LeafeonAnimation
-	dw GlaceonAnimation
+	dw AMurasaAnimation
+	dw CShouAnimation
+	dw ShouAnimation
+	dw AShouAnimation
+	dw CByakurenAnimation
+	dw ByakurenAnimation
+	dw TByakurenAnimation
+	dw CNueAnimation
+	dw NueAnimation
+	dw SNueAnimation
+	dw CHatateAnimation
+	dw HatateAnimation
+	dw THatateAnimation
+	dw CSunnyAnimation
+	dw SunnyAnimation
+	dw ASunnyAnimation
+	dw CStarAnimation
+	dw StarAnimation
 	dw AMomijiAnimation
-	dw MamoswineAnimation
-	dw CLunasaZAnimation
-	dw SylveonAnimation
-	dw PerrserkerAnimation
-	dw CursolaAnimation
-	dw SirfetchDAnimation
-	dw MrRimeAnimation
-	dw WyrdeerAnimation
-	dw KleavorAnimation
-	dw UrsalunaAnimation
-	dw SneaslerAnimation
-	dw OverqwilAnimation
-	dw PlacethmTwoSegmentAnimation
-	dw FarigirafAnimation
-	dw ClodsireAnimation
-	dw AnnihilapeAnimation
+	dw DStarAnimation
+	dw CLunaAnimation
+	dw LunaAnimation
+	dw TLunaAnimation
+	dw CKyoukoAnimation
+	dw KyoukoAnimation
+	dw CYoshikaAnimation
+	dw YoshikaAnimation
+	dw CSeigaAnimation
+	dw SeigaAnimation
+	dw CTojikoAnimation
+	dw TojikoAnimation
+	dw CFutoTwoSegmentAnimation
+	dw MikoAnimation
+	dw FutoAnimation
+	dw CMikoAnimation
 	assert_table_length NUM_SPECIES
 
 	dw HinaBAnimation
@@ -305,32 +305,12 @@ AnimationPointers:
 
 	dw TTeiSpikyAnimation
 
-	dw LilyBlackSkellyAnimation
-	dw LilyBlackCalico1Animation
-	dw LilyBlackCalico2Animation
-	dw LilyBlackCalico3Animation
-	dw LilyBlackTwoToneAnimation
-	dw LilyBlackOrcaAnimation
-	dw LilyBlackDapplesAnimation
-	dw LilyBlackTigerAnimation
-	dw LilyBlackZebraAnimation
-	dw LilyBlackStripeAnimation
-	dw LilyBlackBubblesAnimation
-	dw LilyBlackDiamondsAnimation
-	dw LilyBlackPatchesAnimation
-	dw LilyBlackForehead1Animation
-	dw LilyBlackMask1Animation
-	dw LilyBlackForehead2Animation
-	dw LilyBlackMask2Animation
-	dw LilyBlackSaucyAnimation
-	dw LilyBlackRaindropAnimation
-
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
 	dw SLilyBlackRedAnimation
 
 	dw SuikaArmoredAnimation
 
-	dw PlacethmThreeSegmentAnimation
+	dw CFutoThreeSegmentAnimation
 
 	assert_table_length NUM_UNIQUE_TOHOMON

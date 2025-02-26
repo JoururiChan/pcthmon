@@ -7,7 +7,7 @@
 	db NO_ITEM, MOOMOO_MILK ; held items
 	dn GENDER_F100, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for MILTANK, THICK_FAT, SCRAPPY, SAP_SIPPER
+	abilities_for CKOISHI, THICK_FAT, SCRAPPY, SAP_SIPPER
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

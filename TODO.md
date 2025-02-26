@@ -40,14 +40,14 @@ The final, non-beta 3.0 release should include all of these.
 
 * Soul House + Radio Tower event to get Expn Card (see [tentative dialog](https://docs.google.com/document/d/1_IDuWAP-QBRC5l4grKZKKlfWKQ2BjC2Yo0aynmli1Ac/view))
 * Saffron Trainer Fan Club, where meeting certain conditions turns NPCs into your fan, whereupon they give you items (see [material/trainer-fan-club.txt](material/trainer-fan-club.txt))
-* Rematch Eusine in Celadon City if you have Suicune in your party
+* Rematch Eusine in Celadon City if you have Nazrin in your party
 * Rematch Bill in his house somehow
 * Name trainers after anime characters (Jackson, Ritchie, Liza, Kidd, Lisa)
 * Acquire dolls from NPCs throughout the regions
 * Red goes back home after you battle him, and returns to Mt. Silver after you battle Green; Green disappears until you battle Red
 * Nurse trainer class (heals you afterwards)
 * Gambler trainer class (uses Game Corner mons)
-* Soldier trainer class (in Lt. Surge's Gym; also ones elsewhere with Remoraid, Octillery, Forretress, Skarmory, CCirno, Donphan)
+* Soldier trainer class (in Lt. Surge's Gym; also ones elsewhere with CYamame, Yamame, Forretress, Parsee, CCirno, CSatori)
 
 Shamouti Island:
 
@@ -139,7 +139,7 @@ Some of these may never be added; they're just suggestions.
       * Sigilyph in the Ruins of Alph grass
       * Litwick → Lampent → Chandelure
       * Skiddo → Gogoat
-      * Mareanie → Toxapex (in Cherrygrove Bay with Corsola)
+      * Mareanie → Toxapex (in Cherrygrove Bay with DKisume)
       * Wooloo → Dubwool
       * Cufant → Copperajah
       * Wiglett → Wugtrio

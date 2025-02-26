@@ -8,9 +8,9 @@
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for SUICUNE, PRESSURE, PRESSURE, INNER_FOCUS
+	abilities_for NAZRIN, PRESSURE, PRESSURE, INNER_FOCUS
 else
-	abilities_for SUICUNE, PRESSURE, INNER_FOCUS, WATER_ABSORB
+	abilities_for NAZRIN, PRESSURE, INNER_FOCUS, WATER_ABSORB
 endc
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups

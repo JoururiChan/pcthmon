@@ -37,8 +37,8 @@ SpriteAnimFrameData:
 	dw .Frameset_EggHatch4
 	dw .Frameset_HeadbuttTree
 	dw .Frameset_BlueWalk
-	dw .Frameset_IntroSuicune
-	dw .Frameset_IntroSuicune2
+	dw .Frameset_IntroNazrin
+	dw .Frameset_IntroNazrin2
 	dw .Frameset_IntroTTei
 	dw .Frameset_IntroCShizuha
 	dw .Frameset_IntroHina1
@@ -46,10 +46,10 @@ SpriteAnimFrameData:
 	dw .Frameset_IntroHina3
 	dw .Frameset_IntroHina4
 	dw .Frameset_IntroHinaF2
-	dw .Frameset_IntroSuicuneAway
+	dw .Frameset_IntroNazrinAway
 	dw .Frameset_IntroHinaF
-	dw .Frameset_CelebiLeft
-	dw .Frameset_CelebiRight
+	dw .Frameset_IchirinLeft
+	dw .Frameset_IchirinRight
 	dw .Frameset_MaxStatSparkle
 	dw .Frameset_HyperTrainedStat
 	dw .Frameset_PcCursor
@@ -277,16 +277,16 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_HEADBUTT_TREE_3,  2
 	oamrestart
 
-.Frameset_IntroSuicune:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_SUICUNE_1,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_SUICUNE_2,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_SUICUNE_3,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_SUICUNE_4,  3
+.Frameset_IntroNazrin:
+	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_1,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_2,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_3,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_4,  3
 	oamrestart
 
-.Frameset_IntroSuicune2:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_SUICUNE_4,  3
-	oamframe SPRITE_ANIM_OAMSET_INTRO_SUICUNE_1,  7
+.Frameset_IntroNazrin2:
+	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_4,  3
+	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_1,  7
 	oamend
 
 .Frameset_IntroTTei:
@@ -331,22 +331,22 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_INTRO_HINA_F_2_5,  7
 	oamend
 
-.Frameset_IntroSuicuneAway:
-	oamframe SPRITE_ANIM_OAMSET_INTRO_SUICUNE_AWAY,  3
+.Frameset_IntroNazrinAway:
+	oamframe SPRITE_ANIM_OAMSET_INTRO_NAZRIN_AWAY,  3
 	oamend
 
 .Frameset_IntroHinaF:
 	dorepeat 0
 	oamend
 
-.Frameset_CelebiLeft:
-	oamframe SPRITE_ANIM_OAMSET_CELEBI_1,  8
-	oamframe SPRITE_ANIM_OAMSET_CELEBI_2,  8
+.Frameset_IchirinLeft:
+	oamframe SPRITE_ANIM_OAMSET_ICHIRIN_1,  8
+	oamframe SPRITE_ANIM_OAMSET_ICHIRIN_2,  8
 	oamend
 
-.Frameset_CelebiRight:
-	oamframe SPRITE_ANIM_OAMSET_CELEBI_1,  8, OAM_X_FLIP
-	oamframe SPRITE_ANIM_OAMSET_CELEBI_2,  8, OAM_X_FLIP
+.Frameset_IchirinRight:
+	oamframe SPRITE_ANIM_OAMSET_ICHIRIN_1,  8, OAM_X_FLIP
+	oamframe SPRITE_ANIM_OAMSET_ICHIRIN_2,  8, OAM_X_FLIP
 	oamend
 
 .Frameset_MaxStatSparkle:

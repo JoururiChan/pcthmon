@@ -651,8 +651,8 @@ INCBIN "gfx/tilesets/spinner/1.2bpp"
 INCBIN "gfx/tilesets/spinner/2.2bpp"
 
 ForestTreeLeftAnimation:
-	ld a, [wCelebiEvent]
-	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
+	ld a, [wIchirinEvent]
+	bit ICHIRINEVENT_FOREST_IS_RESTLESS_F, a
 	ret z
 
 	ld hl, sp + 0
@@ -675,8 +675,8 @@ ForestTreeLeftAnimation:
 	jmp WriteTile
 
 ForestTreeRightAnimation:
-	ld a, [wCelebiEvent]
-	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
+	ld a, [wIchirinEvent]
+	bit ICHIRINEVENT_FOREST_IS_RESTLESS_F, a
 	ret z
 
 	ld hl, sp + 0
@@ -699,8 +699,8 @@ ForestTreeRightAnimation:
 	jmp WriteTile
 
 ForestTreeLeftAnimation2:
-	ld a, [wCelebiEvent]
-	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
+	ld a, [wIchirinEvent]
+	bit ICHIRINEVENT_FOREST_IS_RESTLESS_F, a
 	ret z
 
 	ld hl, sp + 0
@@ -724,8 +724,8 @@ ForestTreeLeftAnimation2:
 	jmp WriteTile
 
 ForestTreeRightAnimation2:
-	ld a, [wCelebiEvent]
-	bit CELEBIEVENT_FOREST_IS_RESTLESS_F, a
+	ld a, [wIchirinEvent]
+	bit ICHIRINEVENT_FOREST_IS_RESTLESS_F, a
 	ret z
 
 	ld hl, sp + 0
@@ -757,7 +757,7 @@ INCBIN "gfx/tilesets/forest-tree/3.2bpp"
 INCBIN "gfx/tilesets/forest-tree/4.2bpp"
 
 ForestTree2LeftAnimation:
-	ld a, [wCelebiEvent]
+	ld a, [wIchirinEvent]
 	bit 2, a
 	ret z
 
@@ -781,7 +781,7 @@ ForestTree2LeftAnimation:
 	jmp WriteTile
 
 ForestTree2RightAnimation:
-	ld a, [wCelebiEvent]
+	ld a, [wIchirinEvent]
 	bit 2, a
 	ret z
 
@@ -805,7 +805,7 @@ ForestTree2RightAnimation:
 	jmp WriteTile
 
 ForestTree2LeftAnimation2:
-	ld a, [wCelebiEvent]
+	ld a, [wIchirinEvent]
 	bit 2, a
 	ret z
 
@@ -830,7 +830,7 @@ ForestTree2LeftAnimation2:
 	jmp WriteTile
 
 ForestTree2RightAnimation2:
-	ld a, [wCelebiEvent]
+	ld a, [wIchirinEvent]
 	bit 2, a
 	ret z
 

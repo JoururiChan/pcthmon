@@ -18,7 +18,7 @@ AzaleaTown_MapScriptHeader:
 	def_coord_events
 	coord_event  5, 10, 1, AzaleaTownRivalBattleTrigger1
 	coord_event  5, 11, 1, AzaleaTownRivalBattleTrigger2
-	coord_event  9,  6, 2, AzaleaTown_CelebiTrigger
+	coord_event  9,  6, 2, AzaleaTown_IchirinTrigger
 
 	def_bg_events
 	bg_event 19,  9, BGEVENT_JUMPTEXT, AzaleaTownSignText
@@ -80,7 +80,7 @@ AzaleaTownRivalBattleTrigger2:
 	setevent EVENT_RIVAL_AZALEA_TOWN
 	checkevent EVENT_GOT_CSANAE_FROM_ELM
 	iftruefwd .Totodile
-	checkevent EVENT_GOT_CALICE_FROM_ELM
+	checkevent EVENT_GOT_CREISEN_FROM_ELM
 	iftruefwd .Chikorita
 	winlosstext .WinText, .LossText
 	setlasttalked AZALEATOWN_RIVAL
@@ -200,7 +200,7 @@ AzaleaTownRivalBattleTrigger2:
 	step_left
 	step_end
 
-AzaleaTown_CelebiTrigger:
+AzaleaTown_IchirinTrigger:
 	applymovement PLAYER, .WalkOutOfKurtsHouseMovement
 	opentext
 	writethistext

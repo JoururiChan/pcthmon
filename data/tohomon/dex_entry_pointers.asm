@@ -197,84 +197,84 @@ TohodexDataPointerTable:
 	dba CTenshiTohodexEntry
 	dba TenshiTohodexEntry
 	dba STenshiTohodexEntry
-	dba SwinubTohodexEntry
-	dba PiloswineTohodexEntry
-	dba CorsolaTohodexEntry
-	dba RemoraidTohodexEntry
-	dba OctilleryTohodexEntry
-	dba DelibirdTohodexEntry
-	dba MantineTohodexEntry
-	dba SkarmoryTohodexEntry
-	dba HoundourTohodexEntry
-	dba HoundoomTohodexEntry
-	dba KingdraTohodexEntry
-	dba PhanpyTohodexEntry
-	dba DonphanTohodexEntry
-	dba CLunasa2TohodexEntry
-	dba StantlerTohodexEntry
-	dba SmeargleTohodexEntry
-	dba TyrogueTohodexEntry
-	dba HitmontopTohodexEntry
-	dba SmoochumTohodexEntry
-	dba ElekidTohodexEntry
-	dba MagbyTohodexEntry
-	dba MiltankTohodexEntry
-	dba BlisseyTohodexEntry
-	dba RaikouTohodexEntry
-	dba EnteiTohodexEntry
-	dba SuicuneTohodexEntry
-	dba LarvitarTohodexEntry
-	dba PupitarTohodexEntry
-	dba TyranitarTohodexEntry
-	dba LugiaTohodexEntry
-	dba HoOhTohodexEntry
-	dba CelebiTohodexEntry
-	dba AzurillTohodexEntry
-	dba WynautTohodexEntry
-	dba AmbipomTohodexEntry
+	dba CKisumeTohodexEntry
+	dba KisumeTohodexEntry
+	dba DKisumeTohodexEntry
+	dba CYamameTohodexEntry
+	dba YamameTohodexEntry
+	dba SYamameTohodexEntry
+	dba CParseeTohodexEntry
+	dba ParseeTohodexEntry
+	dba DParseeTohodexEntry
+	dba CYuugiTohodexEntry
+	dba YuugiTohodexEntry
+	dba AYuugiTohodexEntry
+	dba CSatoriTohodexEntry
+	dba SatoriTohodexEntry
+	dba HSatoriTohodexEntry
+	dba CRinTohodexEntry
+	dba RinTohodexEntry
+	dba HRinTohodexEntry
+	dba CUtsuhoTohodexEntry
+	dba UtsuhoTohodexEntry
+	dba AUtsuhoTohodexEntry
+	dba CKoishiTohodexEntry
+	dba KoishiTohodexEntry
+	dba SKoishiTohodexEntry
+	dba CNazrinTohodexEntry
+	dba NazrinTohodexEntry
+	dba HNazrinTohodexEntry
+	dba CKogasaTohodexEntry
+	dba KogasaTohodexEntry
+	dba TKogasaTohodexEntry
+	dba CIchirinTohodexEntry
+	dba IchirinTohodexEntry
+	dba AIchirinTohodexEntry
+	dba CMurasaTohodexEntry
+	dba MurasaTohodexEntry
 	dba CReimuTohodexEntry ; EGG
 	dba CReimuTohodexEntry ; $100
-	dba MismagiusTohodexEntry
-	dba HonchkrowTohodexEntry
-	dba BonslyTohodexEntry
-	dba MimeJrTohodexEntry
-	dba HappinyTohodexEntry
-	dba MunchlaxTohodexEntry
-	dba MantykeTohodexEntry
-	dba WeavileTohodexEntry
-	dba MagnezoneTohodexEntry
-	dba LickilickyTohodexEntry
-	dba RhyperiorTohodexEntry
-	dba TangrowthTohodexEntry
-	dba ElectivireTohodexEntry
-	dba MagmortarTohodexEntry
-	dba TogekissTohodexEntry
-	dba YanmegaTohodexEntry
-	dba LeafeonTohodexEntry
-	dba GlaceonTohodexEntry
+	dba AMurasaTohodexEntry
+	dba CShouTohodexEntry
+	dba ShouTohodexEntry
+	dba AShouTohodexEntry
+	dba CByakurenTohodexEntry
+	dba ByakurenTohodexEntry
+	dba TByakurenTohodexEntry
+	dba CNueTohodexEntry
+	dba NueTohodexEntry
+	dba SNueTohodexEntry
+	dba CHatateTohodexEntry
+	dba HatateTohodexEntry
+	dba THatateTohodexEntry
+	dba CSunnyTohodexEntry
+	dba SunnyTohodexEntry
+	dba ASunnyTohodexEntry
+	dba CStarTohodexEntry
+	dba StarTohodexEntry
 	dba AMomijiTohodexEntry
-	dba MamoswineTohodexEntry
-	dba CLunasaZTohodexEntry
-	dba SylveonTohodexEntry
-	dba PerrserkerTohodexEntry
-	dba CursolaTohodexEntry
-	dba SirfetchDTohodexEntry
-	dba MrRimeTohodexEntry
-	dba WyrdeerTohodexEntry
-	dba KleavorTohodexEntry
-	dba UrsalunaTohodexEntry
-	dba SneaslerTohodexEntry
-	dba OverqwilTohodexEntry
-	dba PlacethmTohodexEntry
-	dba FarigirafTohodexEntry
-	dba ClodsireTohodexEntry
-	dba AnnihilapeTohodexEntry
+	dba DStarTohodexEntry
+	dba CLunaTohodexEntry
+	dba LunaTohodexEntry
+	dba TLunaTohodexEntry
+	dba CKyoukoTohodexEntry
+	dba KyoukoTohodexEntry
+	dba CYoshikaTohodexEntry
+	dba YoshikaTohodexEntry
+	dba CSeigaTohodexEntry
+	dba SeigaTohodexEntry
+	dba CTojikoTohodexEntry
+	dba TojikoTohodexEntry
+	dba CFutoTohodexEntry
+	dba MikoTohodexEntry
+	dba FutoTohodexEntry
+	dba CMikoTohodexEntry
 	assert_table_length NUM_SPECIES
 
 	dba SLilyBlackRedTohodexEntry
 
 	dba SuikaArmoredTohodexEntry
 
-	dba PlacethmTohodexEntry
+	dba CFutoTohodexEntry
 
 	assert_table_length NUM_EXT_TOHOMON

@@ -16,7 +16,7 @@ CreditsScript:
 	db CREDITS_WAIT, 1
 
 ; Update the banner.
-	db CREDITS_SCENE, 0 ; TTei or Smoochum
+	db CREDITS_SCENE, 0 ; TTei or CUtsuho
 
 	db             DIRECTOR, 1
 	db       SATOSHI_TAJIRI, 2
@@ -144,7 +144,7 @@ CreditsScript:
 	db CREDITS_WAIT, 1
 
 ; Update the banner.
-	db CREDITS_SCENE, 2 ; Munchlax or Elekid
+	db CREDITS_SCENE, 2 ; Byakuren or Utsuho
 
 	db        SCRIPT_DESIGN, 1
 	db         TETSUJI_OOTA, 2

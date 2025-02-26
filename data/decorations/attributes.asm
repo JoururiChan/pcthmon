@@ -55,7 +55,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,     LILYBLACK,          SET_UP_DOLL,        EVENT_DECO_LILYBLACK_DOLL,           SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     KOTOHIME,            SET_UP_DOLL,        EVENT_DECO_EKOTOHIME_DOLL,             SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     SHINKI,            SET_UP_DOLL,        EVENT_DECO_ESHINKI_DOLL,             SPRITE_MON_DOLL_1
-	decoration DECO_DOLL,     OCTILLERY,         SET_UP_DOLL,        EVENT_DECO_OCTILLERY_DOLL,          SPRITE_MON_DOLL_1
+	decoration DECO_DOLL,     YAMAME,         SET_UP_DOLL,        EVENT_DECO_YAMAME_DOLL,          SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     LYRICA,             SET_UP_DOLL,        EVENT_DECO_LYRICA_DOLL,              SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     CDAICHAN,           SET_UP_DOLL,        EVENT_DECO_CDAICHAN_DOLL,            SPRITE_MON_DOLL_1
 	decoration DECO_DOLL,     ELLY,              SET_UP_DOLL,        EVENT_DECO_ELLY_DOLL,               SPRITE_MON_DOLL_1

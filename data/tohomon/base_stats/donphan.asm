@@ -7,7 +7,7 @@
 	db NO_ITEM, KEE_BERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for DONPHAN, STURDY, STURDY, SAND_VEIL
+	abilities_for CSATORI, STURDY, STURDY, SAND_VEIL
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

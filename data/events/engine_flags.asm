@@ -164,7 +164,7 @@ EngineFlags:
 	engine_flag wSwarmFlags, SWARMFLAGS_BUENAS_PASSWORD_2_F
 	engine_flag wSwarmFlags, SWARMFLAGS_GOLDENROD_DEPT_STORE_SALE_F
 
-	engine_flag wCelebiEvent, CELEBIEVENT_FOREST_IS_RESTLESS_F
+	engine_flag wIchirinEvent, ICHIRINEVENT_FOREST_IS_RESTLESS_F
 
 	; rematches
 	engine_flag wDailyRematchFlags, 0  ; jack
@@ -274,18 +274,18 @@ EngineFlags:
 
 	engine_flag wStatusFlags3, STATUSFLAGS3_JUDGE_MACHINE_F
 
-	engine_flag wPlayerCaught, PLAYER_CAUGHT_HO_OH_F
-	engine_flag wPlayerCaught, PLAYER_CAUGHT_LUGIA_F
-	engine_flag wPlayerCaught, PLAYER_CAUGHT_RAIKOU_F
-	engine_flag wPlayerCaught, PLAYER_CAUGHT_ENTEI_F
-	engine_flag wPlayerCaught, PLAYER_CAUGHT_SUICUNE_F
+	engine_flag wPlayerCaught, PLAYER_CAUGHT_CICHIRIN_F
+	engine_flag wPlayerCaught, PLAYER_CAUGHT_TKOGASA_F
+	engine_flag wPlayerCaught, PLAYER_CAUGHT_SKOISHI_F
+	engine_flag wPlayerCaught, PLAYER_CAUGHT_CNAZRIN_F
+	engine_flag wPlayerCaught, PLAYER_CAUGHT_NAZRIN_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_RAN_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_TRAN_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_CYUKARI_F
 
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_TSUIKA_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_SUIKA_F
-	engine_flag wPlayerCaught2, PLAYER_CAUGHT_CELEBI_F
+	engine_flag wPlayerCaught2, PLAYER_CAUGHT_ICHIRIN_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_CMEDICINE_F
 
 	assert_table_length NUM_ENGINE_FLAGS

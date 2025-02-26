@@ -474,7 +474,7 @@ ElmPhoneEvoText_TLyrica:
 	cont "happy!"
 	prompt
 
-ElmPhoneEvoText_MimeJr:
+ElmPhoneEvoText_AShou:
 	text_ram wStringBuffer3
 	line "evolves when it's"
 
@@ -489,7 +489,7 @@ ElmPhoneEvoText_MimeJr:
 	line "one in Ice Path."
 	prompt
 
-ElmPhoneEvoText_Stantler:
+ElmPhoneEvoText_HSatori:
 	text_ram wStringBuffer3
 	line "evolves when it's"
 

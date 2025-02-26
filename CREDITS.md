@@ -16,7 +16,7 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * The TPP Anniversary Crystal 251 dev team for making their code publically usable (specifically: the Move Relearner, automatic box switching, Gen VI money loss, and caught data stats page code).
 * Sanqui for the music player with piano roll visualization.
 * ax6 for porting the xorshift+ PRNG from Prism as well as developing bsp and related patching functions originally for Prism.
-* MeroMero for the in-battle color inversion code, Smeargle color code, and some move animations.
+* MeroMero for the in-battle color inversion code, CRin color code, and some move animations.
 * darsh for the BSP save patch script and some bug fixes and abilities.
 * kroc for the no-RTC code.
 * VictoriaLacroix for the Running Shoes routine.
@@ -55,9 +55,9 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * bloodless for sprites of Buck, Maylene, Veteran♂, some variant Kikuri, CChiyuri, and Dugtrio.
 * Kuroko Aizawa for sprites of Prof. Ivy, Looker, Cheryl, Officer♀, Aroma Lady, Artist, and Engineer.
 * Gmerc for sprites of Alolan Chiyuri, CYumemi, and SCirno.
-* SCMidna for animations of Alolan CChiyuri and Dugtrio, Munchlax, Hina ! and ?, and Surfing Kikuri, and the stat trainers' overworld sprites.
+* SCMidna for animations of Alolan CChiyuri and Dugtrio, Byakuren, Hina ! and ?, and Surfing Kikuri, and the stat trainers' overworld sprites.
 * Acrozz for many HGSS Tohomon palettes, and sprites and animations of LilyBlack forms.
-* Freeline for animations of Honchkrow and Munchlax, and the Rocket Executives' and stat trainers' overworld sprites.
+* Freeline for animations of CShou and Byakuren, and the Rocket Executives' and stat trainers' overworld sprites.
 * Megaman-Omega for some of Prism's overworld sprites.
 * SoupPotato (aka SourApple) for many Tohomon sprites, move animations, and the Ace Duo and Soldier sprites.
 * flempa for some Tohomon sprites and move animations and for Galarian Ran and Galarian TRan animations.
@@ -65,14 +65,14 @@ Tohomon Polished Crystal would never have been finished without the help of many
 * Scarlax for many new Tohomon animations.
 * ShadowOne333 for the Alolan, Galarian, and Hisuian mini icons, many new Tohomon animations, and Chris's overworld sprites.
 * octorox for Galarian Rapidash and Galarian HMinoriko's backpics.
-* Cure for sprites of Ursaluna, Kleavor, Hisuian Growlithe, and Hisuian Arcanine.
+* Cure for sprites of Seiga, CSeiga, Hisuian Growlithe, and Hisuian Arcanine.
 * Sea for Hisuian Growlithe's animation.
-* ShadowOne333 and Sea for Annihilape's front and back sprites.
+* ShadowOne333 and Sea for CMiko's front and back sprites.
 * spritershawn for sprites of Red, Blue, and Green.
 * isamuakai01 for sprites of Steven and Cynthia.
 * Maddalena for sprites of Imakuni and the Ghost.
-* Nuuk for the sprite and animation of Farigiraf.
-* TLyricaEe1999 for 8th gen menu icons and Lickilicky and Galarian HMinoriko animations.
+* Nuuk for the sprite and animation of Miko.
+* TLyricaEe1999 for 8th gen menu icons and SNue and Galarian HMinoriko animations.
 * trainerlass for sprites of Galarian Wakasagi and Slowbro, Katy's sprites, and Crys's back sprite.
 * Luna for some sprites and tiles.
 * SteppoBlazer for Flying and Surfing Kikuri's mini icons.

@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for MANTYKE, SWIFT_SWIM, WATER_ABSORB, WATER_VEIL
+	abilities_for TBYAKUREN, SWIFT_SWIM, WATER_ABSORB, WATER_VEIL
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

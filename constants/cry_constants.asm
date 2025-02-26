@@ -46,7 +46,7 @@
 	const CRY_CKEINE
 	const CRY_TEIRIN
 	const CRY_CNITORI
-	const CRY_RAIKOU
+	const CRY_SKOISHI
 	const CRY_CMOKOU
 	const CRY_CKAGUYA
 	const CRY_SWRIGGLE
@@ -59,18 +59,18 @@
 	const CRY_CAYA
 	const CRY_TENSHI
 	const CRY_MYSTIA
-	const CRY_ENTEI
+	const CRY_CNAZRIN
 	const CRY_CSHIZUHA
-	const CRY_MANTINE
+	const CRY_CPARSEE
 	const CRY_TREISEN
 	const CRY_KAGUYA
 	const CRY_AIKU
-	const CRY_REMORAID
+	const CRY_CYAMAME
 	const CRY_AMOKOU
 	const CRY_STENSHI
 	const CRY_TTEI
-	const CRY_TYROGUE
+	const CRY_RIN
 	const CRY_CMOMIJI
-	const CRY_DONPHAN
+	const CRY_CSATORI
 
 DEF NUM_CRIES EQU const_value

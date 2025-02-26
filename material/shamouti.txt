@@ -37,7 +37,7 @@ Rich Boy 1 (Rupert):
 pre-battle - “You believe you can best me? What a load of old tosh.”
 win battle - “I'm gobsmacked!”
 post-battle - “How did we lose, father? These Tohomon cost a fortune!”
-party - Porygon2, Blissey, Ninetales
+party - Porygon2, Koishi, Ninetales
 
 Gentleman 1 (Bernard):
 pre-battle - “Enough of this argy-bargy. I shall see to you myself!”

@@ -1,43 +1,43 @@
-RuinsOfAlphHoOhChamber_MapScriptHeader:
+RuinsOfAlphCIchirinChamber_MapScriptHeader:
 	def_scene_scripts
-	scene_script RuinsofAlphHoOhChamberTrigger0
+	scene_script RuinsofAlphCIchirinChamberTrigger0
 
 	def_callbacks
-	callback MAPCALLBACK_TILES, RuinsOfAlphHoOhChamberHiddenDoorsCallback
+	callback MAPCALLBACK_TILES, RuinsOfAlphCIchirinChamberHiddenDoorsCallback
 
 	def_warp_events
 	warp_event  3,  9, RUINS_OF_ALPH_OUTSIDE, 1
 	warp_event  4,  9, RUINS_OF_ALPH_OUTSIDE, 1
 	warp_event  3,  3, RUINS_OF_ALPH_INNER_CHAMBER, 2
 	warp_event  4,  3, RUINS_OF_ALPH_INNER_CHAMBER, 3
-	warp_event  4,  0, RUINS_OF_ALPH_HO_OH_ITEM_ROOM, 1
+	warp_event  4,  0, RUINS_OF_ALPH_CICHIRIN_ITEM_ROOM, 1
 
 	def_coord_events
 
 	def_bg_events
 	bg_event  2,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
 	bg_event  5,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
-	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphHoOhChamberSignpost2Script
-	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphHoOhChamberSignpost3Script
-	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphHoOhChamberSignpost4Script
-	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphHoOhChamberSignpost5Script
+	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphCIchirinChamberSignpost2Script
+	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphCIchirinChamberSignpost3Script
+	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphCIchirinChamberSignpost4Script
+	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphCIchirinChamberSignpost5Script
 
 	def_object_events
 
-RuinsofAlphHoOhChamberTrigger0:
-	special SpecialHoOhChamber
-	checkevent EVENT_WALL_OPENED_IN_HO_OH_CHAMBER
+RuinsofAlphCIchirinChamberTrigger0:
+	special SpecialCIchirinChamber
+	checkevent EVENT_WALL_OPENED_IN_CICHIRIN_CHAMBER
 	iffalsefwd .End
-	sdefer RuinsOfAlphHoOhChamberWallOpenScript
+	sdefer RuinsOfAlphCIchirinChamberWallOpenScript
 .End
 	end
 
-RuinsOfAlphHoOhChamberHiddenDoorsCallback:
-	checkevent EVENT_WALL_OPENED_IN_HO_OH_CHAMBER
+RuinsOfAlphCIchirinChamberHiddenDoorsCallback:
+	checkevent EVENT_WALL_OPENED_IN_CICHIRIN_CHAMBER
 	iftruefwd .WallOpen
 	changeblock 4, 0, $24
 .WallOpen:
-	checkevent EVENT_SOLVED_HO_OH_PUZZLE
+	checkevent EVENT_SOLVED_CICHIRIN_PUZZLE
 	iffalsefwd .FloorClosed
 	endcallback
 
@@ -46,7 +46,7 @@ RuinsOfAlphHoOhChamberHiddenDoorsCallback:
 	changeblock 4, 2, $2
 	endcallback
 
-RuinsOfAlphHoOhChamberWallOpenScript:
+RuinsOfAlphCIchirinChamberWallOpenScript:
 	pause 30
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 20
@@ -58,7 +58,7 @@ RuinsOfAlphHoOhChamberWallOpenScript:
 	setscene $1
 	endtext
 
-MapRuinsofAlphHoOhChamberSignpost2Script:
+MapRuinsofAlphCIchirinChamberSignpost2Script:
 	reanchormap
 	setval $3
 	special Special_HinaPuzzle
@@ -68,7 +68,7 @@ MapRuinsofAlphHoOhChamberSignpost2Script:
 
 .PuzzleComplete:
 	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
-	setevent EVENT_SOLVED_HO_OH_PUZZLE
+	setevent EVENT_SOLVED_CICHIRIN_PUZZLE
 	setflag ENGINE_UNLOCKED_HINAS_X_TO_QUESTION
 	setmapscene RUINS_OF_ALPH_INNER_CHAMBER, $1
 	earthquake 30
@@ -85,20 +85,20 @@ MapRuinsofAlphHoOhChamberSignpost2Script:
 	warpcheck
 	end
 
-MapRuinsofAlphHoOhChamberSignpost3Script:
+MapRuinsofAlphCIchirinChamberSignpost3Script:
 	opentext
 	hinatypeface
-	writetext RuinsOfAlphHoOhChamberDescriptionText
+	writetext RuinsOfAlphCIchirinChamberDescriptionText
 	waitbutton
 	closetext
 	restoretypeface
 	special RefreshSprites
 	end
 
-MapRuinsofAlphHoOhChamberSignpost5Script:
-	checkevent EVENT_WALL_OPENED_IN_HO_OH_CHAMBER
+MapRuinsofAlphCIchirinChamberSignpost5Script:
+	checkevent EVENT_WALL_OPENED_IN_CICHIRIN_CHAMBER
 	iftrue_jumptext RuinsOfAlphAYuyukoChamberWallHoleText
-MapRuinsofAlphHoOhChamberSignpost4Script:
+MapRuinsofAlphCIchirinChamberSignpost4Script:
 	opentext
 	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
 	iftruefwd .unsolved
@@ -111,7 +111,7 @@ MapRuinsofAlphHoOhChamberSignpost4Script:
 	special Special_DisplayHinaWords
 	endtext
 
-RuinsOfAlphHoOhChamberDescriptionText:
+RuinsOfAlphCIchirinChamberDescriptionText:
 	text "A #mon that"
 	line "flew gracefully on"
 

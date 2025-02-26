@@ -1,4 +1,4 @@
-Special_CelebiShrineEvent:
+Special_IchirinShrineEvent:
 	call DelayFrame
 	ld a, [wStateFlags]
 	push af
@@ -9,22 +9,22 @@ Special_CelebiShrineEvent:
 	farcall CopySpritePalToOBPal7
 
 	call ClearSpriteAnims
-	ld hl, SpecialCelebiGFX
+	ld hl, SpecialIchirinGFX
 	ld de, vTiles0 tile $84
-	lb bc, BANK(SpecialCelebiGFX), 4 * 4
+	lb bc, BANK(SpecialIchirinGFX), 4 * 4
 	call DecompressRequest2bpp
 	xor a
 	ld [wJumptableIndex], a
 
 	depixel 0, 10, 7, 0
-	ld a, SPRITE_ANIM_INDEX_CELEBI
+	ld a, SPRITE_ANIM_INDEX_ICHIRIN
 	call InitSpriteAnimStruct
 	ld hl, SPRITEANIMSTRUCT_TILE_ID
 	add hl, bc
 	ld [hl], $84
 	ld hl, SPRITEANIMSTRUCT_ANIM_SEQ_ID
 	add hl, bc
-	ld [hl], SPRITE_ANIM_SEQ_CELEBI
+	ld [hl], SPRITE_ANIM_SEQ_ICHIRIN
 	ld hl, SPRITEANIMSTRUCT_VAR4
 	add hl, bc
 	ld [hl], $80
@@ -36,7 +36,7 @@ Special_CelebiShrineEvent:
 	bit 7, a
 	jr nz, .done
 	push bc
-	call GetCelebiSpriteTile
+	call GetIchirinSpriteTile
 	inc d
 	push de
 
@@ -47,7 +47,7 @@ Special_CelebiShrineEvent:
 
 	ld [wCurSpriteOAMAddr], a
 	farcall DoNextFrameForAllSprites_OW
-	call CelebiEvent_CountDown
+	call IchirinEvent_CountDown
 	ld c, 2
 	call DelayFrames
 	pop de
@@ -79,7 +79,7 @@ Special_CelebiShrineEvent:
 
 	ret
 
-CelebiEvent_CountDown:
+IchirinEvent_CountDown:
 	ld hl, wFrameCounter
 	ld a, [hl]
 	and a
@@ -92,10 +92,10 @@ CelebiEvent_CountDown:
 	set 7, [hl]
 	ret
 
-SpecialCelebiGFX:
+SpecialIchirinGFX:
 INCBIN "gfx/overworld/celebi.2bpp.lz"
 
-UpdateCelebiPosition:
+UpdateIchirinPosition:
 	ld hl, SPRITEANIMSTRUCT_XOFFSET
 	add hl, bc
 	ld a, [hl]
@@ -104,7 +104,7 @@ UpdateCelebiPosition:
 	add hl, bc
 	ld a, [hl]
 	cp 8 * 10 + 2
-	jr nc, .FreezeCelebiPosition
+	jr nc, .FreezeIchirinPosition
 	ld hl, SPRITEANIMSTRUCT_YCOORD
 	add hl, bc
 	inc [hl]
@@ -173,23 +173,23 @@ UpdateCelebiPosition:
 	jr nc, .left
 	ld hl, SPRITEANIMSTRUCT_FRAMESET_ID
 	add hl, bc
-	ld a, SPRITE_ANIM_FRAMESET_CELEBI_RIGHT
+	ld a, SPRITE_ANIM_FRAMESET_ICHIRIN_RIGHT
 	jmp ReinitSpriteAnimFrame
 
 .left
 	ld hl, SPRITEANIMSTRUCT_FRAMESET_ID
 	add hl, bc
-	ld a, SPRITE_ANIM_FRAMESET_CELEBI_LEFT
+	ld a, SPRITE_ANIM_FRAMESET_ICHIRIN_LEFT
 	jmp ReinitSpriteAnimFrame
 
-.FreezeCelebiPosition:
+.FreezeIchirinPosition:
 	pop af
 	ld hl, SPRITEANIMSTRUCT_FRAMESET_ID
 	add hl, bc
-	ld a, SPRITE_ANIM_FRAMESET_CELEBI_LEFT
+	ld a, SPRITE_ANIM_FRAMESET_ICHIRIN_LEFT
 	jmp ReinitSpriteAnimFrame
 
-GetCelebiSpriteTile:
+GetIchirinSpriteTile:
 	push hl
 	push bc
 	ld a, d

@@ -7,7 +7,7 @@
 	db ALWAYS_ITEM_2, SITRUS_BERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for AMBIPOM, TECHNICIAN, PICKUP, SKILL_LINK
+	abilities_for MURASA, TECHNICIAN, PICKUP, SKILL_LINK
 	db GROWTH_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

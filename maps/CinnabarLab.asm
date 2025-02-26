@@ -7,7 +7,7 @@ CinnabarLab_MapScriptHeader:
 	def_warp_events
 
 	def_coord_events
-	coord_event  2,  6, 1, CinnabarLabCelebiEventScript
+	coord_event  2,  6, 1, CinnabarLabIchirinEventScript
 
 	def_bg_events
 	bg_event  8, 14, BGEVENT_JUMPTEXT, CinnabarLabRoom1SignText
@@ -26,7 +26,7 @@ CinnabarLab_MapScriptHeader:
 	object_event 20,  5, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_SCIENTIST1
 	object_event 11,  4, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_SCIENTIST2
 	tohomon_event 15,  7, SUIKA, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_PURPLE, ClearText, EVENT_CINNABAR_LAB_SUIKA
-	object_event 14,  8, SPRITE_CELEBI, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_CELEBI
+	object_event 14,  8, SPRITE_ICHIRIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_ICHIRIN
 	object_event 15,  8, SPRITE_CHRIS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_CHRIS
 	object_event 15,  8, SPRITE_KRIS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_KRIS
 	object_event 15,  8, SPRITE_CRYS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_CRYS
@@ -38,7 +38,7 @@ CinnabarLab_MapScriptHeader:
 	const CINNABARLAB_SCIENTIST2
 	const CINNABARLAB_SCIENTIST3
 	const CINNABARLAB_SUIKA
-	const CINNABARLAB_CELEBI
+	const CINNABARLAB_ICHIRIN
 	const CINNABARLAB_CHRIS
 	const CINNABARLAB_KRIS
 	const CINNABARLAB_CRYS
@@ -57,11 +57,11 @@ CinnabarLabStepDownScript:
 	setscene $1
 	end
 
-CinnabarLabCelebiEventScript:
+CinnabarLabIchirinEventScript:
 	playsound SFX_EXIT_BUILDING
 	special FadeOutPalettes
 	pause 15
-	setevent EVENT_CINNABAR_LAB_CELEBI
+	setevent EVENT_CINNABAR_LAB_ICHIRIN
 	setevent EVENT_CINNABAR_LAB_SUIKA
 	setevent EVENT_CINNABAR_LAB_CHRIS
 	setevent EVENT_CINNABAR_LAB_KRIS
@@ -185,18 +185,18 @@ CinnabarLabCelebiEventScript:
 	special FadeOutPalettes
 	special LoadMapPalettes
 	pause 30
-	appear CINNABARLAB_CELEBI
+	appear CINNABARLAB_ICHIRIN
 	special FadeInPalettes_EnableDynNoApply
 	waitsfx
 	opentext
-	writetext CinnabarLabCelebiText
-	cry CELEBI
+	writetext CinnabarLabIchirinText
+	cry ICHIRIN
 	waitsfx
 	closetext
 	turnobject PLAYER, LEFT
 	showemote EMOTE_SHOCK, PLAYER, 15
 	playsound SFX_PROTECT
-	applymovement CINNABARLAB_CELEBI, CinnabarLabCelebiFloatsMovementData
+	applymovement CINNABARLAB_ICHIRIN, CinnabarLabIchirinFloatsMovementData
 	waitsfx
 	playsound SFX_GAME_FREAK_LOGO_GS
 	special FadeOutPalettes
@@ -340,7 +340,7 @@ CinnabarLabPan4MovementData:
 	turn_head_up
 	step_end
 
-CinnabarLabCelebiFloatsMovementData:
+CinnabarLabIchirinFloatsMovementData:
 	turn_head_down
 	fix_facing
 	slow_step_up
@@ -432,6 +432,6 @@ CinnabarLabGiovanniStopText:
 	line "this now!"
 	done
 
-CinnabarLabCelebiText:
-	text "Celebi: Biii!"
+CinnabarLabIchirinText:
+	text "Ichirin: Biii!"
 	done

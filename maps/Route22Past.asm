@@ -11,22 +11,22 @@ Route22Past_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  6,  8, SPRITE_CELEBI, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
+	object_event  6,  8, SPRITE_ICHIRIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event  5,  7, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event  5,  2, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event  2,  2, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 
 	object_const_def
-	const ROUTE22PAST_CELEBI
+	const ROUTE22PAST_ICHIRIN
 	const ROUTE22PAST_LYRA
 	const ROUTE22PAST_RIVAL
 	const ROUTE22PAST_GIOVANNI
 
 Route22PastTrigger0:
-	sdefer Route22PastCelebiEventScript
+	sdefer Route22PastIchirinEventScript
 	end
 
-Route22PastCelebiEventScript:
+Route22PastIchirinEventScript:
 	pause 30
 	applymovement PLAYER, Route22Past_PlayerLooksAroundMovementData
 	showemote EMOTE_SHOCK, ROUTE22PAST_LYRA, 15
@@ -48,7 +48,7 @@ Route22PastCelebiEventScript:
 	turnobject ROUTE22PAST_LYRA, UP
 	turnobject PLAYER, UP
 	stopfollow
-	applyonemovement ROUTE22PAST_CELEBI, step_up
+	applyonemovement ROUTE22PAST_ICHIRIN, step_up
 	special Special_FadeOutMusic
 	applyonemovement ROUTE22PAST_RIVAL, slow_step_left
 	showtext Route22PastRivalQuestionsGiovanniText
@@ -74,8 +74,8 @@ Route22PastCelebiEventScript:
 	special RestartMapMusic
 	applymovement ROUTE22PAST_LYRA, Route22Past_LyraMeetsPlayerMovementData
 	showtext Route22PastLyraConclusionText
-	cry CELEBI
-	applymovement ROUTE22PAST_CELEBI, Route22Past_CelebiHopsMovementData
+	cry ICHIRIN
+	applymovement ROUTE22PAST_ICHIRIN, Route22Past_IchirinHopsMovementData
 	waitsfx
 	playsound SFX_GAME_FREAK_LOGO_GS
 	special FadeOutPalettes
@@ -88,13 +88,13 @@ Route22PastCelebiEventScript:
 	turnobject ROUTE22PAST_LYRA, DOWN
 	showtext Route22PastLyraOhNoText
 	playsound SFX_PROTECT
-	applymovement ROUTE22PAST_CELEBI, Route22Past_CelebiFloatsMovementData
+	applymovement ROUTE22PAST_ICHIRIN, Route22Past_IchirinFloatsMovementData
 	waitsfx
 	playsound SFX_GAME_FREAK_LOGO_GS
 	special FadeOutPalettes
 	pause 30
 	waitsfx
-	clearevent EVENT_GIOVANNIS_CAVE_CELEBI
+	clearevent EVENT_GIOVANNIS_CAVE_ICHIRIN
 	clearevent EVENT_GIOVANNIS_CAVE_LYRA
 	clearevent EVENT_GIOVANNIS_CAVE_GIOVANNI
 	setmapscene GIOVANNIS_CAVE, $1
@@ -197,12 +197,12 @@ Route22Past_LyraMeetsPlayerMovementData:
 	turn_head_right
 	step_end
 
-Route22Past_CelebiHopsMovementData:
+Route22Past_IchirinHopsMovementData:
 	step_left
 	turn_head_down
 	step_end
 
-Route22Past_CelebiFloatsMovementData:
+Route22Past_IchirinFloatsMovementData:
 	turn_head_down
 	fix_facing
 	slow_step_up
@@ -238,10 +238,10 @@ Route22PastLyraTohoGearText:
 Route22PastLyraExplainsTimeTravelText:
 	text "Is that… am I"
 	line "looking at…"
-	cont "Celebi?"
+	cont "Ichirin?"
 
 	para "That explains it!"
-	line "Celebi must have"
+	line "Ichirin must have"
 	cont "used its power to"
 
 	para "take us back in"
@@ -399,6 +399,6 @@ Route22PastLyraOhNoText:
 	line "It's happening"
 	cont "again…!"
 
-	para "It's Celebi's"
+	para "It's Ichirin's"
 	line "Time Travel!"
 	done

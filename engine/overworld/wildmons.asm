@@ -684,9 +684,9 @@ InitRoamMons:
 ; initialize wRoamMon structs
 
 ; species
-	ld a, RAIKOU
+	ld a, SKOISHI
 	ld [wRoamMon1Species], a
-	assert RAIKOU + 1 == ENTEI
+	assert SKOISHI + 1 == CNAZRIN
 	inc a
 	ld [wRoamMon2Species], a
 
@@ -727,7 +727,7 @@ CheckEncounterRoamMon:
 	jr nc, .DontEncounterRoamMon
 	and %00000011 ; Of that, a 3/4 chance.  Running total: 75/256, or around 29.3%.
 	jr z, .DontEncounterRoamMon
-	dec a ; 1/3 chance that it's Entei, 1/3 chance that it's Raikou
+	dec a ; 1/3 chance that it's CNazrin, 1/3 chance that it's SKoishi
 ; Compare its current location with yours
 	ld hl, wRoamMon1MapGroup
 	ld c, a
@@ -764,7 +764,7 @@ CheckEncounterRoamMon:
 UpdateRoamMons:
 	ld a, [wRoamMon1MapGroup]
 	cp GROUP_N_A
-	jr z, .SkipRaikou
+	jr z, .SkipSKoishi
 	ld b, a
 	ld a, [wRoamMon1MapNumber]
 	ld c, a
@@ -774,10 +774,10 @@ UpdateRoamMons:
 	ld a, c
 	ld [wRoamMon1MapNumber], a
 
-.SkipRaikou:
+.SkipSKoishi:
 	ld a, [wRoamMon2MapGroup]
 	cp GROUP_N_A
-	jr z, .SkipEntei
+	jr z, .SkipCNazrin
 	ld b, a
 	ld a, [wRoamMon2MapNumber]
 	ld c, a
@@ -787,7 +787,7 @@ UpdateRoamMons:
 	ld a, c
 	ld [wRoamMon2MapNumber], a
 
-.SkipEntei:
+.SkipCNazrin:
 	ld a, [wRoamMon3MapGroup]
 	cp GROUP_N_A
 	ret z
@@ -852,23 +852,23 @@ UpdateRoamMons:
 JumpRoamMons:
 	ld a, [wRoamMon1MapGroup]
 	cp GROUP_N_A
-	jr z, .SkipRaikou
+	jr z, .SkipSKoishi
 	call JumpRoamMon
 	ld a, b
 	ld [wRoamMon1MapGroup], a
 	ld a, c
 	ld [wRoamMon1MapNumber], a
-.SkipRaikou:
+.SkipSKoishi:
 
 	ld a, [wRoamMon2MapGroup]
 	cp GROUP_N_A
-	jr z, .SkipEntei
+	jr z, .SkipCNazrin
 	call JumpRoamMon
 	ld a, b
 	ld [wRoamMon2MapGroup], a
 	ld a, c
 	ld [wRoamMon2MapNumber], a
-.SkipEntei:
+.SkipCNazrin:
 
 	ld a, [wRoamMon3MapGroup]
 	cp GROUP_N_A

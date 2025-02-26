@@ -203,84 +203,84 @@ TohomonBodyData:
 	body_data  18, 1258, BIPEDAL_TAIL, BROWN  ; CTENSHI
 	body_data   7,  350, SERPENTINE,   RED    ; TENSHI
 	body_data   8,  550, SERPENTINE,   RED    ; STENSHI
-	body_data   4,   65, QUADRUPED,    BROWN  ; SWINUB
-	body_data  11,  558, QUADRUPED,    BROWN  ; PILOSWINE
-	body_data   6,   50, INSECTOID,    PINK   ; CORSOLA
-	body_data   6,  120, FINS,         GRAY   ; REMORAID
-	body_data   9,  285, TENTACLES,    RED    ; OCTILLERY
-	body_data   9,  160, WINGS,        RED    ; DELIBIRD
-	body_data  21, 2200, WINGS,        PURPLE ; MANTINE
-	body_data  17,  505, WINGS,        GRAY   ; SKARMORY
-	body_data   6,  108, QUADRUPED,    BLACK  ; HOUNDOUR
-	body_data  14,  350, QUADRUPED,    BLACK  ; HOUNDOOM
-	body_data  18, 1520, HEAD_BASE,    BLUE   ; KINGDRA
-	body_data   5,  335, QUADRUPED,    BLUE   ; PHANPY
-	body_data  11, 1200, QUADRUPED,    GRAY   ; DONPHAN
-	body_data   6,  325, HEAD_LEGS,    RED    ; CLUNASA2
-	body_data  14,  712, QUADRUPED,    BROWN  ; STANTLER
-	body_data  12,  580, BIPEDAL_TAIL, WHITE  ; SMEARGLE
-	body_data   7,  210, BIPEDAL,      PURPLE ; TYROGUE
-	body_data  14,  480, BIPEDAL_TAIL, BROWN  ; HITMONTOP
-	body_data   4,   60, BIPEDAL,      PINK   ; SMOOCHUM
-	body_data   6,  235, BIPEDAL,      YELLOW ; ELEKID
-	body_data   7,  214, BIPEDAL_TAIL, RED    ; MAGBY
-	body_data  12,  755, BIPEDAL_TAIL, PINK   ; MILTANK
-	body_data  15,  468, BIPEDAL,      PINK   ; BLISSEY
-	body_data  19, 1780, QUADRUPED,    YELLOW ; RAIKOU
-	body_data  21, 1980, QUADRUPED,    BROWN  ; ENTEI
-	body_data  20, 1870, QUADRUPED,    BLUE   ; SUICUNE
-	body_data   6,  720, BIPEDAL_TAIL, GREEN  ; LARVITAR
-	body_data  12, 1520, SERPENTINE,   GRAY   ; PUPITAR
-	body_data  20, 2020, BIPEDAL_TAIL, GREEN  ; TYRANITAR
-	body_data  52, 2160, WINGS,        WHITE  ; LUGIA
-	body_data  38, 1990, WINGS,        RED    ; HO_OH
-	body_data   6,   50, BIPEDAL,      GREEN  ; CELEBI
-	body_data   2,   20, HEAD_LEGS,    BLUE   ; AZURILL
-	body_data   6,  140, BIPEDAL_TAIL, BLUE   ; WYNAUT
-	body_data  12,  203, BIPEDAL_TAIL, PURPLE ; AMBIPOM
+	body_data   4,   65, QUADRUPED,    BROWN  ; CKISUME
+	body_data  11,  558, QUADRUPED,    BROWN  ; KISUME
+	body_data   6,   50, INSECTOID,    PINK   ; DKISUME
+	body_data   6,  120, FINS,         GRAY   ; CYAMAME
+	body_data   9,  285, TENTACLES,    RED    ; YAMAME
+	body_data   9,  160, WINGS,        RED    ; SYAMAME
+	body_data  21, 2200, WINGS,        PURPLE ; CPARSEE
+	body_data  17,  505, WINGS,        GRAY   ; PARSEE
+	body_data   6,  108, QUADRUPED,    BLACK  ; DPARSEE
+	body_data  14,  350, QUADRUPED,    BLACK  ; CYUUGI
+	body_data  18, 1520, HEAD_BASE,    BLUE   ; YUUGI
+	body_data   5,  335, QUADRUPED,    BLUE   ; AYUUGI
+	body_data  11, 1200, QUADRUPED,    GRAY   ; CSATORI
+	body_data   6,  325, HEAD_LEGS,    RED    ; SATORI
+	body_data  14,  712, QUADRUPED,    BROWN  ; HSATORI
+	body_data  12,  580, BIPEDAL_TAIL, WHITE  ; CRIN
+	body_data   7,  210, BIPEDAL,      PURPLE ; RIN
+	body_data  14,  480, BIPEDAL_TAIL, BROWN  ; HRIN
+	body_data   4,   60, BIPEDAL,      PINK   ; CUTSUHO
+	body_data   6,  235, BIPEDAL,      YELLOW ; UTSUHO
+	body_data   7,  214, BIPEDAL_TAIL, RED    ; AUTSUHO
+	body_data  12,  755, BIPEDAL_TAIL, PINK   ; CKOISHI
+	body_data  15,  468, BIPEDAL,      PINK   ; KOISHI
+	body_data  19, 1780, QUADRUPED,    YELLOW ; SKOISHI
+	body_data  21, 1980, QUADRUPED,    BROWN  ; CNAZRIN
+	body_data  20, 1870, QUADRUPED,    BLUE   ; NAZRIN
+	body_data   6,  720, BIPEDAL_TAIL, GREEN  ; HNAZRIN
+	body_data  12, 1520, SERPENTINE,   GRAY   ; CKOGASA
+	body_data  20, 2020, BIPEDAL_TAIL, GREEN  ; KOGASA
+	body_data  52, 2160, WINGS,        WHITE  ; TKOGASA
+	body_data  38, 1990, WINGS,        RED    ; CICHIRIN
+	body_data   6,   50, BIPEDAL,      GREEN  ; ICHIRIN
+	body_data   2,   20, HEAD_LEGS,    BLUE   ; AICHIRIN
+	body_data   6,  140, BIPEDAL_TAIL, BLUE   ; CMURASA
+	body_data  12,  203, BIPEDAL_TAIL, PURPLE ; MURASA
 	body_data   0,    0, HEAD,         RED    ; EGG
 	body_data   0,    0, HEAD,         RED    ; $100
-	body_data   9,   44, HEAD,         PURPLE ; MISMAGIUS
-	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
-	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
-	body_data   6,  130, BIPEDAL,      PINK   ; MIME_JR_
-	body_data   6,  244, BIPEDAL,      PINK   ; HAPPINY
-	body_data   6, 1050, BIPEDAL,      BLACK  ; MUNCHLAX
-	body_data  10,  650, WINGS,        BLUE   ; MANTYKE
-	body_data  11,  340, BIPEDAL_TAIL, BLACK  ; WEAVILE
-	body_data  12, 1800, HEAD_ARMS,    GRAY   ; MAGNEZONE
-	body_data  17, 1400, BIPEDAL,      PINK   ; LICKILICKY
-	body_data  24, 2828, BIPEDAL_TAIL, GRAY   ; RHYPERIOR
-	body_data  20, 1286, BIPEDAL,      BLUE   ; TANGROWTH
-	body_data  18, 1386, BIPEDAL_TAIL, YELLOW ; ELECTIVIRE
-	body_data  16,  680, BIPEDAL_TAIL, RED    ; MAGMORTAR
-	body_data  15,  380, WINGS,        WHITE  ; TOGEKISS
-	body_data  19,  515, MULTIWINGS,   GREEN  ; YANMEGA
-	body_data  10,  255, QUADRUPED,    GREEN  ; LEAFEON
-	body_data   8,  259, QUADRUPED,    BLUE   ; GLACEON
+	body_data   9,   44, HEAD,         PURPLE ; AMURASA
+	body_data   9,  273, WINGS,        BLACK  ; CSHOU
+	body_data   5,  150, HEAD_LEGS,    BROWN  ; SHOU
+	body_data   6,  130, BIPEDAL,      PINK   ; ASHOU_
+	body_data   6,  244, BIPEDAL,      PINK   ; CBYAKUREN
+	body_data   6, 1050, BIPEDAL,      BLACK  ; BYAKUREN
+	body_data  10,  650, WINGS,        BLUE   ; TBYAKUREN
+	body_data  11,  340, BIPEDAL_TAIL, BLACK  ; CNUE
+	body_data  12, 1800, HEAD_ARMS,    GRAY   ; NUE
+	body_data  17, 1400, BIPEDAL,      PINK   ; SNUE
+	body_data  24, 2828, BIPEDAL_TAIL, GRAY   ; CHATATE
+	body_data  20, 1286, BIPEDAL,      BLUE   ; HATATE
+	body_data  18, 1386, BIPEDAL_TAIL, YELLOW ; THATATE
+	body_data  16,  680, BIPEDAL_TAIL, RED    ; CSUNNY
+	body_data  15,  380, WINGS,        WHITE  ; SUNNY
+	body_data  19,  515, MULTIWINGS,   GREEN  ; ASUNNY
+	body_data  10,  255, QUADRUPED,    GREEN  ; CSTAR
+	body_data   8,  259, QUADRUPED,    BLUE   ; STAR
 	body_data  20,  425, WINGS,        PURPLE ; AMOMIJI
-	body_data  25, 2910, QUADRUPED,    BROWN  ; MAMOSWINE
-	body_data   9,  340, HEAD_ARMS,    RED    ; CLUNASA_Z
+	body_data  25, 2910, QUADRUPED,    BROWN  ; DSTAR
+	body_data   9,  340, HEAD_ARMS,    RED    ; CLUNA
 	body_data  10,  235, QUADRUPED,    PINK   ; SYLVEON
-	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; PERRSERKER
-	body_data  10,    4, HEAD_ARMS,    WHITE  ; CURSOLA
-	body_data   8, 1170, WINGS,        WHITE  ; SIRFETCH_D
-	body_data  15,  582, BIPEDAL,      PURPLE ; MR__RIME
-	body_data  18,  951, QUADRUPED,    GRAY   ; WYRDEER
-	body_data  18,  890, MULTIWINGS,   BROWN  ; KLEAVOR
-	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; URSALUNA
-	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; SNEASLER
-	body_data  25,  605, FINS,         BLACK  ; OVERQWIL
-	body_data  36,  392, SERPENTINE,   YELLOW ; PLACETHM
-	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
-	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
-	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
+	body_data   8,  280, BIPEDAL_TAIL, BROWN  ; TLUNA
+	body_data  10,    4, HEAD_ARMS,    WHITE  ; CKYOUKO
+	body_data   8, 1170, WINGS,        WHITE  ; KYOUKO
+	body_data  15,  582, BIPEDAL,      PURPLE ; CYOSHIKA
+	body_data  18,  951, QUADRUPED,    GRAY   ; YOSHIKA
+	body_data  18,  890, MULTIWINGS,   BROWN  ; CSEIGA
+	body_data  24, 2900, BIPEDAL_TAIL, BROWN  ; SEIGA
+	body_data  13,  430, BIPEDAL_TAIL, GRAY   ; CTOJIKO
+	body_data  25,  605, FINS,         BLACK  ; TOJIKO
+	body_data  36,  392, SERPENTINE,   YELLOW ; CFUTO
+	body_data  32, 1600, QUADRUPED,    YELLOW ; MIKO
+	body_data  18, 2230, QUADRUPED,    BROWN  ; FUTO
+	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; CMIKO
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; SLILYBLACK (SLILYBLACK_RED_FORM)
 
 	body_data  22, 1370, BIPEDAL_TAIL, GRAY   ; SUIKA (SUIKA_ARMORED_FORM)
 
-	body_data  45,  474, SERPENTINE,   YELLOW ; PLACETHM (PLACETHM_THREE_SEGMENT_FORM)
+	body_data  45,  474, SERPENTINE,   YELLOW ; CFUTO (CFUTO_THREE_SEGMENT_FORM)
 
 	assert_table_length NUM_EXT_TOHOMON

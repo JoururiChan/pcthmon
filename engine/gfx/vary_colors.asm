@@ -213,13 +213,13 @@ endc
 	ld bc, wColorVaryDVs
 
 	ld a, [wColorVarySpecies]
-	cp LOW(SMEARGLE)
+	cp LOW(CRIN)
 	jr nz, .VaryColors
 	ld a, [wColorVaryForm]
 	and EXTSPECIES_MASK
-	assert HIGH(SMEARGLE) << MON_EXTSPECIES_F == 0
+	assert HIGH(CRIN) << MON_EXTSPECIES_F == 0
 	and a
-	jr z, .Smeargle
+	jr z, .CRin
 
 .VaryColors:
 ;;; LiteRed ~ HPDV, aka, rrrrr ~ hhhh
@@ -296,7 +296,7 @@ endc
 ; * DarkRed' = DarkRed + (HPDV & %0100 >> 2) - (HPDV & %1000 >> 3)
 ; * DarkGrn' = DarkGrn + (AtkDV & %0100 >> 2) - (AtkDV & %1000 >> 3)
 ; * DarkBlu' = DarkBlu + (DefDV & %0100 >> 2) - (DefDV & %1000 >> 3)
-.Smeargle:
+.CRin:
 ; a = (AtkDV & %11) << 2 | (DefDV & %11)
 	ld a, [bc]
 	and %11
@@ -312,11 +312,11 @@ endc
 	ld e, a
 	ld d, 0
 	push hl
-	ld hl, .SmearglePals
+	ld hl, .CRinPals
 	ld a, [wColorVaryShiny]
 	and SHINY_MASK
 	jr z, .not_shiny
-	ld hl, .SmeargleShinyPals
+	ld hl, .CRinShinyPals
 .not_shiny
 	add hl, de
 	add hl, de
@@ -340,8 +340,8 @@ endc
 ; green channel: no 0, 7, 8, 15, 16, 23, 24, or 31
 ; need to be able to add or subtract 1 without overflow/underflow
 
-.SmearglePals:
+.CRinPals:
 INCLUDE "gfx/tohomon/smeargle.pal"
 
-.SmeargleShinyPals: ; TODO
+.CRinShinyPals: ; TODO
 INCLUDE "gfx/tohomon/smeargle_shiny.pal"

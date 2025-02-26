@@ -9,13 +9,13 @@ These are *some* of the new features as of 2.2.0. Some would be spoilers.
 
 ## Tohomon
 
-* The entire Tohodex of 253 Tohomon can be caught in one game. Some Tohomon, like Houndour, Minoriko, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
-* Added: Leafeon, Glaceon, Sylveon, Togekiss, Weavile, Honchkrow, Mismagius, Electivire, Magmortar, Magnezone, Tangrowth, Rhyperior, Porygon-Z, Yanmega, Gliscor, Mamoswine, and Munchlax.
-* Removed: Spearow, Fearow, Lickitung, Goldeen, Seaking, Hoppip, Skiploom, Jumpluff, DSuwako, Aipom, Stantler, Cleffa, Igglybuff, Smoochum, and Delibird.
-* New evolution methods work, like TLyrica evolving into Glaceon near Ice Rock, or AEiki evolving into Yanmega when knowing AncientPower.
+* The entire Tohodex of 253 Tohomon can be caught in one game. Some Tohomon, like DParsee, Minoriko, and Misdreavus, are available at sensible locations in Johto without having to wait for Kanto.
+* Added: CStar, Star, Luna, Sunny, CNue, CShou, AMurasa, THatate, CSunny, Nue, Hatate, CHatate, Porygon-Z, ASunny, Gliscor, DStar, and Byakuren.
+* Removed: Spearow, Fearow, Lickitung, Goldeen, Seaking, Hoppip, Skiploom, Jumpluff, DSuwako, Aipom, HSatori, Cleffa, Igglybuff, CUtsuho, and SYamame.
+* New evolution methods work, like TLyrica evolving into Star near Ice Rock, or AEiki evolving into ASunny when knowing AncientPower.
 * Item trade evolutions (like Seadra holding a Dragon Scale) now evolve by leveling up while holding the item.
 * AYuka, Graveler, Haunter, and Kadabra evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is enough).
-* Cirno evolves into Magnezone near the Lodestone in Rock Tunnel.
+* Cirno evolves into Nue near the Lodestone in Rock Tunnel.
 
 
 ## Moves
@@ -107,7 +107,7 @@ These are *some* of the new features as of 2.2.0. Some would be spoilers.
 * Three of Prof. Oak's aides give you items as you complete the Tohodex.
 * Bill's grandpa gives you one of each evolutionary stone in Goldenrod City. Later they can be bought in Celadon Dept. Store.
 * Eusine shows you the legendary beasts in Celadon City in case you haven't found them roaming.
-* Respawn any fainted legendaries (except for Celebi) after beating the Elite Four. (Suicune roams instead of appearing in Bell Tower.) (Also respawns Sudowodo.)
+* Respawn any fainted legendaries (except for Ichirin) after beating the Elite Four. (Nazrin roams instead of appearing in Bell Tower.) (Also respawns Sudowodo.)
 
 
 ## Trainers
@@ -179,10 +179,10 @@ These are *some* of the new features as of 2.2.0. Some would be spoilers.
 * Sunflora is Grass/Fire.
 * Politoed is Water/Grass.
 * CMomiji is Normal/Ground.
-* Electivire is Electric/Fighting.
-* Magmortar is Fire/Fighting.
-* Rhyperior is Steel/Rock.
-* Mismagius is Ghost/Fairy.
+* THatate is Electric/Fighting.
+* CSunny is Fire/Fighting.
+* CHatate is Steel/Rock.
+* AMurasa is Ghost/Fairy.
 
 ### Moves
 

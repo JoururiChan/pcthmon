@@ -24,8 +24,8 @@
 	def_water_wildmons SHAMOUTI_COAST
 	db 6 percent ; encounter rate
 	wildmon LEVEL_FROM_BADGES + 2, GENGETSU
-	wildmon LEVEL_FROM_BADGES + 0, MANTINE
-	wildmon LEVEL_FROM_BADGES - 2, REMORAID
+	wildmon LEVEL_FROM_BADGES + 0, CPARSEE
+	wildmon LEVEL_FROM_BADGES - 2, CYAMAME
 	end_water_wildmons
 
 	def_water_wildmons ROCKY_BEACH

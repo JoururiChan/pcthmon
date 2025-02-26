@@ -1164,7 +1164,7 @@ RunTitleScreen:
 	bit 7, a
 	jr nz, .done_title
 	call TitleScreenScene
-	farcall SuicuneFrameIterator
+	farcall NazrinFrameIterator
 	call DelayFrame
 	and a
 	ret

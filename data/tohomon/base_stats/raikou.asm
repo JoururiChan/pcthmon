@@ -8,9 +8,9 @@
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for RAIKOU, PRESSURE, PRESSURE, INNER_FOCUS
+	abilities_for SKOISHI, PRESSURE, PRESSURE, INNER_FOCUS
 else
-	abilities_for RAIKOU, PRESSURE, INNER_FOCUS, VOLT_ABSORB
+	abilities_for SKOISHI, PRESSURE, INNER_FOCUS, VOLT_ABSORB
 endc
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups

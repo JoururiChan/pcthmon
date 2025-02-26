@@ -250,8 +250,8 @@ DanceTheatreGrannyText:
 
 DanceTheatreLadyText:
 	text "TLyrica can evolve"
-	line "into Leafeon, Gla-"
-	cont "ceon, or Sylveon,"
+	line "into CStar, Gla-"
+	cont "ceon, or Luna,"
 
 	para "but I don't see"
 	line "any of them here."

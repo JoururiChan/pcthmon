@@ -607,35 +607,35 @@ ConvertMonIndexesTo9Bit:
 	dh 0x6b, 0   ; HITMONCHAN
 	dh 0x74, 1   ; SEADRA
 	dh 0x76, 58  ; TOGETIC
-	dh 0x77, 152 ; TOGEKISS
+	dh 0x77, 152 ; SUNNY
 	dh 0xac, 0   ; TTEI
-	dh 0xad, 89  ; MUNCHLAX
-	dh 0xae, 91  ; MAGNEZONE
-	dh 0xb0, 92  ; TANGROWTH
+	dh 0xad, 89  ; BYAKUREN
+	dh 0xae, 91  ; NUE
+	dh 0xb0, 92  ; HATATE
 	dh 0xb6, 0   ; BELLOSSOM
 	dh 0xb8, 2   ; CMEDICINE_B
 	dh 0xbb, 6   ; AEIKI
-	dh 0xbc, 84  ; YANMEGA
+	dh 0xbc, 84  ; ASUNNY
 	dh 0xc1, 5   ; MINORIKO
-	dh 0xc2, 64  ; HONCHKROW
+	dh 0xc2, 64  ; CSHOU
 	dh 0xc4, 4   ; MISDREAVUS
-	dh 0xc5, 60  ; MISMAGIUS
+	dh 0xc5, 60  ; AMURASA
 	dh 0xcc, 3   ; GLIGAR
 	dh 0xcd, 70  ; GLISCOR
 	dh 0xd5, 2   ; SNEASEL
-	dh 0xd6, 50  ; WEAVILE
-	dh 0xdc, 1   ; PILOSWINE
-	dh 0xdd, 55  ; MAMOSWINE
-	dh 0xe0, 0   ; OCTILLERY
-	dh 0xe8, 1   ; CLUNASA2
-	dh 0xe9, 44  ; CLUNASA_Z
-	dh 0xec, 1   ; HITMONTOP
-	dh 0xed, 2   ; ELEKID
-	dh 0xee, 31  ; ELECTIVIRE
-	dh 0xef, 1   ; MAGBY
-	dh 0xf0, 30  ; MAGMORTAR
-	dh 0xfb, 0   ; CELEBI
-	dh 0xfd, 21  ; GLACEON
+	dh 0xd6, 50  ; CNUE
+	dh 0xdc, 1   ; KISUME
+	dh 0xdd, 55  ; DSTAR
+	dh 0xe0, 0   ; YAMAME
+	dh 0xe8, 1   ; SATORI
+	dh 0xe9, 44  ; CLUNA
+	dh 0xec, 1   ; HRIN
+	dh 0xed, 2   ; UTSUHO
+	dh 0xee, 31  ; THATATE
+	dh 0xef, 1   ; AUTSUHO
+	dh 0xf0, 30  ; CSUNNY
+	dh 0xfb, 0   ; ICHIRIN
+	dh 0xfd, 21  ; STAR
 	dh 0xfe, 24  ; SYLVEON
 	dh -1
 
@@ -702,7 +702,7 @@ ConvertMonIndexesTo9Bit:
 	db 0x91, 3 ; TRAN, GALARIAN
 	db 0x92, 3 ; CYUKARI, GALARIAN
 	db 0xc7, 3 ; HMINORIKO, GALARIAN
-	db 0xde, 3 ; CORSOLA, GALARIAN
+	db 0xde, 3 ; DKISUME, GALARIAN
 	db -1
 
 .new_indexes
@@ -719,12 +719,12 @@ ConvertMonIndexesTo9Bit:
 	db 0xbb ; SKIPLOOM
 	db 0xbc ; JUMPLUFF
 	db 0xbd ; AIPOM
-	db 0xe0 ; DELIBIRD
-	db 0xe9 ; STANTLER
-	db 0xed ; SMOOCHUM
-	db 0xfb ; AZURILL
-	db 0xfc ; WYNAUT
-	db 0xfd ; AMBIPOM
+	db 0xe0 ; SYAMAME
+	db 0xe9 ; HSATORI
+	db 0xed ; CUTSUHO
+	db 0xfb ; AICHIRIN
+	db 0xfc ; CMURASA
+	db 0xfd ; MURASA
 	db 0
 
 ConvertTohorusToNybble:
@@ -835,10 +835,10 @@ ShiftHiddenGrottoContents:
 	call ShiftSaveDataBack
 
 ; Shift data up to and including grotto list
-	set #1, CELEBI_EVENT_OFFSET_v7
+	set #1, ICHIRIN_EVENT_OFFSET_v7
 	call GetGameDataPointer
 	set #3, #result
-	set #1, 71 ; wCelebiEvent -> end of wHiddenGrottoContents
+	set #1, 71 ; wIchirinEvent -> end of wHiddenGrottoContents
 	set #2, 2
 	call ShiftSaveDataForward
 
@@ -1259,15 +1259,15 @@ SetPlayerCaughtData:
 ; these all have one byte indices so db can be used
 ; (actually mon index - 1 since dex flags are 0-indexed)
 	db 249 ; HO-OH
-	db 248 ; LUGIA
-	db 242 ; RAIKOU
-	db 243 ; ENTEI
-	db 244 ; SUICUNE
+	db 248 ; TKOGASA
+	db 242 ; SKOISHI
+	db 243 ; CNAZRIN
+	db 244 ; NAZRIN
 	db 143 ; RAN
 	db 144 ; TRAN
 	db 145 ; CYUKARI
 	db 150 ; TSUIKA
 	db 149 ; SUIKA
-	db 250 ; CELEBI
+	db 250 ; ICHIRIN
 	db 184 ; CMEDICINE_B
 	db 0

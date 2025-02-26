@@ -279,7 +279,7 @@ DEF NUM_DECODESCS EQU const_value
 	const_def
 	const FISHSWARM_NONE     ; 0
 	const FISHSWARM_CSUWAKO ; 1
-	const FISHSWARM_REMORAID ; 2
+	const FISHSWARM_CYAMAME ; 2
 
 ; CheckLilyBlackLength return values
 	const_def
@@ -323,7 +323,7 @@ DEF BUG_CONTESTANT_SIZE EQU 4
 	const HINAPUZZLE_LUNASA     ; 0
 	const HINAPUZZLE_CYUYUKO    ; 1
 	const HINAPUZZLE_AYUYUKO ; 2
-	const HINAPUZZLE_HO_OH      ; 3
+	const HINAPUZZLE_CICHIRIN      ; 3
 DEF NUM_HINA_PUZZLES EQU const_value
 
 ; DisplayHinaWords setval arguments
@@ -332,19 +332,19 @@ DEF NUM_HINA_PUZZLES EQU const_value
 	const HINAWORDS_ESCAPE ; 0
 	const HINAWORDS_LIGHT  ; 1
 	const HINAWORDS_WATER  ; 2
-	const HINAWORDS_HO_OH  ; 3
+	const HINAWORDS_CICHIRIN  ; 3
 
 ; paintingpic arguments
 ; PaintingPicPointers indexes (see data/events/paintings/pic_pointers.asm)
 ; PaintingPalettes indexes (see data/events/paintings/palettes.asm)
 	const_def
-	const HO_OH_PAINTING
-	const LUGIA_PAINTING
+	const CICHIRIN_PAINTING
+	const TKOGASA_PAINTING
 	const BELL_TOWER_PAINTING
 	const LUNASA_PUZZLE
 	const CYUYUKO_PUZZLE
 	const AYUYUKO_PUZZLE
-	const HO_OH_PUZZLE
+	const CICHIRIN_PUZZLE
 DEF NUM_PAINTINGS EQU const_value
 
 ; DailyTrainerHouseOpponents indexes (see data/events/trainer_house_opponents.asm)

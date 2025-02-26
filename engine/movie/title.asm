@@ -22,8 +22,8 @@ _TitleScreen:
 	ld a, 1
 	ldh [rVBK], a
 
-; Decompress running Suicune gfx
-	ld hl, TitleSuicuneGFX
+; Decompress running Nazrin gfx
+	ld hl, TitleNazrinGFX
 	ld de, vTiles1
 	call Decompress
 
@@ -79,7 +79,7 @@ _TitleScreen:
 	ld a, 1
 	rst ByteFill
 
-; Suicune gfx
+; Nazrin gfx
 	hlbgcoord 0, 12
 	ld bc, 6 * BG_MAP_WIDTH ; the rest of the screen
 	ld a, 8
@@ -124,9 +124,9 @@ IF DEF(FAITHFUL)
 	call DrawTitleGraphic
 endc
 
-; Initialize running Suicune?
+; Initialize running Nazrin?
 	ld d, $0
-	call LoadSuicuneFrame
+	call LoadNazrinFrame
 
 ; Initialize background crystal
 	call InitializeBackground
@@ -205,7 +205,7 @@ endc
 	ld de, SFX_TITLE_SCREEN_ENTRANCE
 	jmp PlaySFX
 
-SuicuneFrameIterator:
+NazrinFrameIterator:
 	ld hl, wBGPals1 palette 0 + 2
 	ld a, [hl]
 	ld c, a
@@ -226,7 +226,7 @@ SuicuneFrameIterator:
 	ld d, [hl]
 	xor a
 	ldh [hBGMapMode], a
-	call LoadSuicuneFrame
+	call LoadNazrinFrame
 	ld a, $1
 	ldh [hBGMapMode], a
 	ldh [hBGMapHalf], a
@@ -238,7 +238,7 @@ SuicuneFrameIterator:
 	db $00 ; vTiles5 tile $00
 	db $08 ; vTiles5 tile $08
 
-LoadSuicuneFrame:
+LoadNazrinFrame:
 	hlcoord 6, 12
 	ld b, 6
 .bgrows
@@ -356,7 +356,7 @@ AnimateTitleCrystal:
 
 	ret
 
-TitleSuicuneGFX:
+TitleNazrinGFX:
 INCBIN "gfx/title/suicune.2bpp.lz"
 
 TitleLogoGFX:

@@ -200,78 +200,78 @@ MiniIconPointers:
 	mini_icon CTenshi
 	mini_icon Tenshi
 	mini_icon STenshi
-	mini_icon Swinub
-	mini_icon Piloswine
-	mini_icon Corsola
-	mini_icon Remoraid
-	mini_icon Octillery
-	mini_icon Delibird
-	mini_icon Mantine
-	mini_icon Skarmory
-	mini_icon Houndour
-	mini_icon Houndoom
-	mini_icon Kingdra
-	mini_icon Phanpy
-	mini_icon Donphan
-	mini_icon CLunasa2
-	mini_icon Stantler
-	mini_icon Smeargle
-	mini_icon Tyrogue
-	mini_icon Hitmontop
-	mini_icon Smoochum
-	mini_icon Elekid
-	mini_icon Magby
-	mini_icon Miltank
-	mini_icon Blissey
-	mini_icon Raikou
-	mini_icon Entei
-	mini_icon Suicune
-	mini_icon Larvitar
-	mini_icon Pupitar
-	mini_icon Tyranitar
-	mini_icon Lugia
-	mini_icon HoOh
-	mini_icon Celebi
-	mini_icon Azurill
-	mini_icon Wynaut
-	mini_icon Ambipom
+	mini_icon CKisume
+	mini_icon Kisume
+	mini_icon DKisume
+	mini_icon CYamame
+	mini_icon Yamame
+	mini_icon SYamame
+	mini_icon CParsee
+	mini_icon Parsee
+	mini_icon DParsee
+	mini_icon CYuugi
+	mini_icon Yuugi
+	mini_icon AYuugi
+	mini_icon CSatori
+	mini_icon Satori
+	mini_icon HSatori
+	mini_icon CRin
+	mini_icon Rin
+	mini_icon HRin
+	mini_icon CUtsuho
+	mini_icon Utsuho
+	mini_icon AUtsuho
+	mini_icon CKoishi
+	mini_icon Koishi
+	mini_icon SKoishi
+	mini_icon CNazrin
+	mini_icon Nazrin
+	mini_icon HNazrin
+	mini_icon CKogasa
+	mini_icon Kogasa
+	mini_icon TKogasa
+	mini_icon CIchirin
+	mini_icon Ichirin
+	mini_icon AIchirin
+	mini_icon CMurasa
+	mini_icon Murasa
 	mini_icon Egg
 	mini_icon Egg ; $100
-	mini_icon Mismagius
-	mini_icon Honchkrow
-	mini_icon Bonsly
-	mini_icon MimeJr
-	mini_icon Happiny
-	mini_icon Munchlax
-	mini_icon Mantyke
-	mini_icon Weavile
-	mini_icon Magnezone
-	mini_icon Lickilicky
-	mini_icon Rhyperior
-	mini_icon Tangrowth
-	mini_icon Electivire
-	mini_icon Magmortar
-	mini_icon Togekiss
-	mini_icon Yanmega
-	mini_icon Leafeon
-	mini_icon Glaceon
+	mini_icon AMurasa
+	mini_icon CShou
+	mini_icon Shou
+	mini_icon AShou
+	mini_icon CByakuren
+	mini_icon Byakuren
+	mini_icon TByakuren
+	mini_icon CNue
+	mini_icon Nue
+	mini_icon SNue
+	mini_icon CHatate
+	mini_icon Hatate
+	mini_icon THatate
+	mini_icon CSunny
+	mini_icon Sunny
+	mini_icon ASunny
+	mini_icon CStar
+	mini_icon Star
 	mini_icon AMomiji
-	mini_icon Mamoswine
-	mini_icon CLunasaZ
-	mini_icon Sylveon
-	mini_icon Perrserker
-	mini_icon Cursola
-	mini_icon SirfetchD
-	mini_icon MrRime
-	mini_icon Wyrdeer
-	mini_icon Kleavor
-	mini_icon Ursaluna
-	mini_icon Sneasler
-	mini_icon Overqwil
-	mini_icon PlacethmTwoSegment
-	mini_icon Farigiraf
-	mini_icon Clodsire
-	mini_icon Annihilape
+	mini_icon DStar
+	mini_icon CLuna
+	mini_icon Luna
+	mini_icon TLuna
+	mini_icon CKyouko
+	mini_icon Kyouko
+	mini_icon CYoshika
+	mini_icon Yoshika
+	mini_icon CSeiga
+	mini_icon Seiga
+	mini_icon CTojiko
+	mini_icon Tojiko
+	mini_icon CFutoTwoSegment
+	mini_icon Miko
+	mini_icon Futo
+	mini_icon CMiko
 	assert_table_length NUM_SPECIES
 
 	mini_icon HinaB
@@ -319,6 +319,6 @@ endr
 
 	mini_icon SuikaArmored
 
-	mini_icon PlacethmThreeSegment
+	mini_icon CFutoThreeSegment
 
 	assert_table_length NUM_UNIQUE_TOHOMON

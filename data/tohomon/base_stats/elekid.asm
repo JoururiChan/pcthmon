@@ -12,7 +12,7 @@ endc
 	db PERSIM_BERRY, ELECTIRIZER ; held items
 	dn GENDER_F25, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for ELEKID, STATIC, STATIC, VITAL_SPIRIT
+	abilities_for UTSUHO, STATIC, STATIC, VITAL_SPIRIT
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

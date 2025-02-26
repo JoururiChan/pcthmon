@@ -200,78 +200,78 @@ TohomonPicPointers::
 	pics CTenshi
 	pics Tenshi
 	pics STenshi
-	pics Swinub
-	pics Piloswine
-	pics Corsola
-	pics Remoraid
-	pics Octillery
-	pics Delibird
-	pics Mantine
-	pics Skarmory
-	pics Houndour
-	pics Houndoom
-	pics Kingdra
-	pics Phanpy
-	pics Donphan
-	pics CLunasa2
-	pics Stantler
-	pics Smeargle
-	pics Tyrogue
-	pics Hitmontop
-	pics Smoochum
-	pics Elekid
-	pics Magby
-	pics Miltank
-	pics Blissey
-	pics Raikou
-	pics Entei
-	pics Suicune
-	pics Larvitar
-	pics Pupitar
-	pics Tyranitar
-	pics Lugia
-	pics HoOh
-	pics Celebi
-	pics Azurill
-	pics Wynaut
-	pics Ambipom
+	pics CKisume
+	pics Kisume
+	pics DKisume
+	pics CYamame
+	pics Yamame
+	pics SYamame
+	pics CParsee
+	pics Parsee
+	pics DParsee
+	pics CYuugi
+	pics Yuugi
+	pics AYuugi
+	pics CSatori
+	pics Satori
+	pics HSatori
+	pics CRin
+	pics Rin
+	pics HRin
+	pics CUtsuho
+	pics Utsuho
+	pics AUtsuho
+	pics CKoishi
+	pics Koishi
+	pics SKoishi
+	pics CNazrin
+	pics Nazrin
+	pics HNazrin
+	pics CKogasa
+	pics Kogasa
+	pics TKogasa
+	pics CIchirin
+	pics Ichirin
+	pics AIchirin
+	pics CMurasa
+	pics Murasa
 	dbas EggPic, EggPic
 	dbas EggPic, EggPic ; $100
-	pics Mismagius
-	pics Honchkrow
-	pics Bonsly
-	pics MimeJr
-	pics Happiny
-	pics Munchlax
-	pics Mantyke
-	pics Weavile
-	pics Magnezone
-	pics Lickilicky
-	pics Rhyperior
-	pics Tangrowth
-	pics Electivire
-	pics Magmortar
-	pics Togekiss
-	pics Yanmega
-	pics Leafeon
-	pics Glaceon
+	pics AMurasa
+	pics CShou
+	pics Shou
+	pics AShou
+	pics CByakuren
+	pics Byakuren
+	pics TByakuren
+	pics CNue
+	pics Nue
+	pics SNue
+	pics CHatate
+	pics Hatate
+	pics THatate
+	pics CSunny
+	pics Sunny
+	pics ASunny
+	pics CStar
+	pics Star
 	pics AMomiji
-	pics Mamoswine
-	pics CLunasaZ
-	pics Sylveon
-	pics Perrserker
-	pics Cursola
-	pics SirfetchD
-	pics MrRime
-	pics Wyrdeer
-	pics Kleavor
-	pics Ursaluna
-	pics Sneasler
-	pics Overqwil
-	pics PlacethmTwoSegment
-	pics Farigiraf
-	pics Clodsire
-	pics Annihilape
+	pics DStar
+	pics CLuna
+	pics Luna
+	pics TLuna
+	pics CKyouko
+	pics Kyouko
+	pics CYoshika
+	pics Yoshika
+	pics CSeiga
+	pics Seiga
+	pics CTojiko
+	pics Tojiko
+	pics CFutoTwoSegment
+	pics Miko
+	pics Futo
+	pics CMiko
 	assert_table_length NUM_SPECIES
 
 	pics HinaB
@@ -309,32 +309,12 @@ TohomonPicPointers::
 
 	pics TTeiSpiky
 
-	pics LilyBlackSkelly
-	pics LilyBlackCalico1
-	pics LilyBlackCalico2
-	pics LilyBlackCalico3
-	pics LilyBlackTwoTone
-	pics LilyBlackOrca
-	pics LilyBlackDapples
-	pics LilyBlackTiger
-	pics LilyBlackZebra
-	pics LilyBlackStripe
-	pics LilyBlackBubbles
-	pics LilyBlackDiamonds
-	pics LilyBlackPatches
-	pics LilyBlackForehead1
-	pics LilyBlackMask1
-	pics LilyBlackForehead2
-	pics LilyBlackMask2
-	pics LilyBlackSaucy
-	pics LilyBlackRaindrop
-
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
 	pics SLilyBlackRed
 
 	pics SuikaArmored
 
-	pics PlacethmThreeSegment
+	pics CFutoThreeSegment
 
 	assert_table_length NUM_UNIQUE_TOHOMON

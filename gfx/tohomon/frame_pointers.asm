@@ -196,78 +196,78 @@ FramesPointers:
 	dw CTenshiFrames
 	dw TenshiFrames
 	dw STenshiFrames
-	dw SwinubFrames
-	dw PiloswineFrames
-	dw CorsolaFrames
-	dw RemoraidFrames
-	dw OctilleryFrames
-	dw DelibirdFrames
-	dw MantineFrames
-	dw SkarmoryFrames
-	dw HoundourFrames
-	dw HoundoomFrames
-	dw KingdraFrames
-	dw PhanpyFrames
-	dw DonphanFrames
-	dw CLunasa2Frames
-	dw StantlerFrames
-	dw SmeargleFrames
-	dw TyrogueFrames
-	dw HitmontopFrames
-	dw SmoochumFrames
-	dw ElekidFrames
-	dw MagbyFrames
-	dw MiltankFrames
-	dw BlisseyFrames
-	dw RaikouFrames
-	dw EnteiFrames
-	dw SuicuneFrames
-	dw LarvitarFrames
-	dw PupitarFrames
-	dw TyranitarFrames
-	dw LugiaFrames
-	dw HoOhFrames
-	dw CelebiFrames
-	dw AzurillFrames
-	dw WynautFrames
-	dw AmbipomFrames
+	dw CKisumeFrames
+	dw KisumeFrames
+	dw DKisumeFrames
+	dw CYamameFrames
+	dw YamameFrames
+	dw SYamameFrames
+	dw CParseeFrames
+	dw ParseeFrames
+	dw DParseeFrames
+	dw CYuugiFrames
+	dw YuugiFrames
+	dw AYuugiFrames
+	dw CSatoriFrames
+	dw SatoriFrames
+	dw HSatoriFrames
+	dw CRinFrames
+	dw RinFrames
+	dw HRinFrames
+	dw CUtsuhoFrames
+	dw UtsuhoFrames
+	dw AUtsuhoFrames
+	dw CKoishiFrames
+	dw KoishiFrames
+	dw SKoishiFrames
+	dw CNazrinFrames
+	dw NazrinFrames
+	dw HNazrinFrames
+	dw CKogasaFrames
+	dw KogasaFrames
+	dw TKogasaFrames
+	dw CIchirinFrames
+	dw IchirinFrames
+	dw AIchirinFrames
+	dw CMurasaFrames
+	dw MurasaFrames
 	dw EggFrames
 	dw EggFrames ; $100
-	dw MismagiusFrames
-	dw HonchkrowFrames
-	dw BonslyFrames
-	dw MimeJrFrames
-	dw HappinyFrames
-	dw MunchlaxFrames
-	dw MantykeFrames
-	dw WeavileFrames
-	dw MagnezoneFrames
-	dw LickilickyFrames
-	dw RhyperiorFrames
-	dw TangrowthFrames
-	dw ElectivireFrames
-	dw MagmortarFrames
-	dw TogekissFrames
-	dw YanmegaFrames
-	dw LeafeonFrames
-	dw GlaceonFrames
+	dw AMurasaFrames
+	dw CShouFrames
+	dw ShouFrames
+	dw AShouFrames
+	dw CByakurenFrames
+	dw ByakurenFrames
+	dw TByakurenFrames
+	dw CNueFrames
+	dw NueFrames
+	dw SNueFrames
+	dw CHatateFrames
+	dw HatateFrames
+	dw THatateFrames
+	dw CSunnyFrames
+	dw SunnyFrames
+	dw ASunnyFrames
+	dw CStarFrames
+	dw StarFrames
 	dw AMomijiFrames
-	dw MamoswineFrames
-	dw CLunasaZFrames
-	dw SylveonFrames
-	dw PerrserkerFrames
-	dw CursolaFrames
-	dw SirfetchDFrames
-	dw MrRimeFrames
-	dw WyrdeerFrames
-	dw KleavorFrames
-	dw UrsalunaFrames
-	dw SneaslerFrames
-	dw OverqwilFrames
-	dw PlacethmTwoSegmentFrames
-	dw FarigirafFrames
-	dw ClodsireFrames
-	dw AnnihilapeFrames
+	dw DStarFrames
+	dw CLunaFrames
+	dw LunaFrames
+	dw TLunaFrames
+	dw CKyoukoFrames
+	dw KyoukoFrames
+	dw CYoshikaFrames
+	dw YoshikaFrames
+	dw CSeigaFrames
+	dw SeigaFrames
+	dw CTojikoFrames
+	dw TojikoFrames
+	dw CFutoTwoSegmentFrames
+	dw MikoFrames
+	dw FutoFrames
+	dw CMikoFrames
 	assert_table_length NUM_SPECIES
 
 	dw HinaBFrames
@@ -307,32 +307,12 @@ FramesPointers:
 
 	dw TTeiSpikyFrames
 
-	dw LilyBlackSkellyFrames
-	dw LilyBlackCalico1Frames
-	dw LilyBlackCalico2Frames
-	dw LilyBlackCalico3Frames
-	dw LilyBlackTwoToneFrames
-	dw LilyBlackOrcaFrames
-	dw LilyBlackDapplesFrames
-	dw LilyBlackTigerFrames
-	dw LilyBlackZebraFrames
-	dw LilyBlackStripeFrames
-	dw LilyBlackBubblesFrames
-	dw LilyBlackDiamondsFrames
-	dw LilyBlackPatchesFrames
-	dw LilyBlackForehead1Frames
-	dw LilyBlackMask1Frames
-	dw LilyBlackForehead2Frames
-	dw LilyBlackMask2Frames
-	dw LilyBlackSaucyFrames
-	dw LilyBlackRaindropFrames
-
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
 	dw SLilyBlackRedFrames
 
 	dw SuikaArmoredFrames
 
-	dw PlacethmThreeSegmentFrames
+	dw CFutoThreeSegmentFrames
 
 	assert_table_length NUM_UNIQUE_TOHOMON

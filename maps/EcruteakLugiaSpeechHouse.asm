@@ -1,4 +1,4 @@
-EcruteakLugiaSpeechHouse_MapScriptHeader:
+EcruteakTKogasaSpeechHouse_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -13,10 +13,10 @@ EcruteakLugiaSpeechHouse_MapScriptHeader:
 	bg_event  2,  1, BGEVENT_JUMPSTD, radio2
 
 	def_object_events
-	object_event  2,  3, SPRITE_GRAMPS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakLugiaSpeechHouseGrampsText, -1
-	object_event  5,  4, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakLugiaSpeechHouseYoungsterText, -1
+	object_event  2,  3, SPRITE_GRAMPS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakTKogasaSpeechHouseGrampsText, -1
+	object_event  5,  4, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakTKogasaSpeechHouseYoungsterText, -1
 
-EcruteakLugiaSpeechHouseGrampsText:
+EcruteakTKogasaSpeechHouseGrampsText:
 	text "This happened when"
 	line "I was young."
 
@@ -34,7 +34,7 @@ EcruteakLugiaSpeechHouseGrampsText:
 	line "and a dragon."
 	done
 
-EcruteakLugiaSpeechHouseYoungsterText:
+EcruteakTKogasaSpeechHouseYoungsterText:
 	text "Is there really a"
 	line "#mon that big?"
 

@@ -1,8 +1,8 @@
-WhirlIslandLugiaChamber_MapScriptHeader:
+WhirlIslandTKogasaChamber_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_OBJECTS, WhirlIslandLugiaChamberLugia
+	callback MAPCALLBACK_OBJECTS, WhirlIslandTKogasaChamberTKogasa
 
 	def_warp_events
 	warp_event  9, 13, WHIRL_ISLAND_B2F, 3
@@ -12,45 +12,45 @@ WhirlIslandLugiaChamber_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  9,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_TOHOMON, 0, LUGIA, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, Lugia, EVENT_WHIRL_ISLAND_LUGIA_CHAMBER_LUGIA
+	object_event  9,  5, SPRITE_MON_ICON, SPRITEMOVEDATA_TOHOMON, 0, TKOGASA, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, NO_FORM, TKogasa, EVENT_WHIRL_ISLAND_TKOGASA_CHAMBER_TKOGASA
 
 	object_const_def
-	const WHIRLISLANDLUGIACHAMBER_LUGIA
+	const WHIRLISLANDTKOGASACHAMBER_TKOGASA
 
-WhirlIslandLugiaChamberLugia:
-	checkevent EVENT_FOUGHT_LUGIA
+WhirlIslandTKogasaChamberTKogasa:
+	checkevent EVENT_FOUGHT_TKOGASA
 	iftruefwd .NoAppear
 	checkkeyitem SILVER_WING
 	iftruefwd .Appear
 	sjumpfwd .NoAppear
 
 .Appear:
-	appear WHIRLISLANDLUGIACHAMBER_LUGIA
+	appear WHIRLISLANDTKOGASACHAMBER_TKOGASA
 	endcallback
 
 .NoAppear:
-	disappear WHIRLISLANDLUGIACHAMBER_LUGIA
+	disappear WHIRLISLANDTKOGASACHAMBER_TKOGASA
 	endcallback
 
-Lugia:
+TKogasa:
 	faceplayer
 	opentext
-	writetext LugiaText
-	cry LUGIA
+	writetext TKogasaText
+	cry TKOGASA
 	pause 15
 	closetext
-	setevent EVENT_FOUGHT_LUGIA
+	setevent EVENT_FOUGHT_TKOGASA
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
-	loadwildmon LUGIA, 75
+	loadwildmon TKOGASA, 75
 	startbattle
-	disappear WHIRLISLANDLUGIACHAMBER_LUGIA
+	disappear WHIRLISLANDTKOGASACHAMBER_TKOGASA
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_LUGIA
+	setflag ENGINE_PLAYER_CAUGHT_TKOGASA
 .nocatch
 	end
 
-LugiaText:
+TKogasaText:
 	text "Gyaaas!"
 	done

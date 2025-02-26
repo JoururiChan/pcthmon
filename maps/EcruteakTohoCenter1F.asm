@@ -35,10 +35,10 @@ TohomonJournalMortyScript:
 
 	para "Morty claims to"
 	line "have once seen"
-	cont "Entei. He says:"
+	cont "CNazrin. He says:"
 
 	para "“It was amazing."
-	line "Entei looked me"
+	line "CNazrin looked me"
 	cont "in the eyes."
 
 	para "I'll never forget"

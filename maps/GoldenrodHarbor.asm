@@ -111,7 +111,7 @@ GoldenrodHarborTohofanmScript:
 	closewindow
 	ifequalfwd $1, .LilyBlackDoll
 	ifequalfwd $2, .AyaDoll
-	ifequalfwd $3, .OctilleryDoll
+	ifequalfwd $3, .YamameDoll
 	endtext
 
 .LilyBlackDoll:
@@ -144,18 +144,18 @@ GoldenrodHarborTohofanmScript:
 	waitbutton
 	sjump .Start
 
-.OctilleryDoll:
+.YamameDoll:
 	checkmoney $0, 11200
 	ifequalfwd $2, .NotEnoughMoney
-	checkevent EVENT_DECO_OCTILLERY_DOLL
+	checkevent EVENT_DECO_YAMAME_DOLL
 	iftruefwd .AlreadyBought
 	takemoney $0, 11200
-	setevent EVENT_DECO_OCTILLERY_DOLL
-	writetext GoldenrodHarborOctilleryDollText
+	setevent EVENT_DECO_YAMAME_DOLL
+	writetext GoldenrodHarborYamameDollText
 	playsound SFX_TRANSACTION
 	special PlaceMoneyTopRight
 	waitbutton
-	writetext GoldenrodHarborOctilleryDollSentText
+	writetext GoldenrodHarborYamameDollSentText
 	waitbutton
 	sjump .Start
 
@@ -180,7 +180,7 @@ GoldenrodHarborTohofanmScript:
 	db 4 ; items
 	db "LilyBlack    ¥1400@"
 	db "Aya      ¥5600@"
-	db "Octillery  ¥11200@"
+	db "Yamame  ¥11200@"
 	db "Cancel@"
 
 GoldenrodHarborYoungsterScript:
@@ -367,13 +367,13 @@ GoldenrodHarborAyaDollSentText:
 	line "was sent home."
 	done
 
-GoldenrodHarborOctilleryDollText:
+GoldenrodHarborYamameDollText:
 	text "<PLAYER> bought"
-	line "Octillery Doll."
+	line "Yamame Doll."
 	done
 
-GoldenrodHarborOctilleryDollSentText:
-	text "Octillery Doll"
+GoldenrodHarborYamameDollSentText:
+	text "Yamame Doll"
 	line "was sent home."
 	done
 

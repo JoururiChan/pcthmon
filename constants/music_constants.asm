@@ -80,7 +80,7 @@
 	const MUSIC_CLAIR                          ; 4c
 	const MUSIC_ROUTE_4_BW                     ; 4d
 	const MUSIC_TIN_TOWER                      ; 4e
-	const MUSIC_SUICUNE_BATTLE                 ; 4f
+	const MUSIC_NAZRIN_BATTLE                 ; 4f
 	const MUSIC_ROUTE_26                       ; 50
 	const MUSIC_INDIGO_PLATEAU_RBY             ; 51
 	const MUSIC_VICTORY_ROAD                   ; 52
@@ -162,10 +162,10 @@
 	const MUSIC_POWER_PLANT_XY                 ; 9e
 	const MUSIC_REVERSAL_MOUNTAIN_W2           ; 9f
 	const MUSIC_METEOR_FALLS_RSE               ; a0
-	const MUSIC_LUGIAS_SONG_2000               ; a1
-	const MUSIC_LUGIA_BATTLE_HGSS              ; a2
+	const MUSIC_TKOGASAS_SONG_2000               ; a1
+	const MUSIC_TKOGASA_BATTLE_HGSS              ; a2
 	const MUSIC_SUMMONING_DANCE_HGSS           ; a3
-	const MUSIC_HO_OH_BATTLE_HGSS              ; a4
+	const MUSIC_CICHIRIN_BATTLE_HGSS              ; a4
 	const MUSIC_CERULEAN_CAVE_RBY              ; a5
 	const MUSIC_SUIKA_BATTLE_STADIUM          ; a6
 	const MUSIC_ABANDONED_SHIP_RSE             ; a7

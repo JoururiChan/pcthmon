@@ -203,7 +203,7 @@ class Attributes(object):
 		'maps/ViridianGym.ablk': lambda: load_palette('maps/ViridianGym.pal'),
 		'maps/WhirlIslandB1F.ablk': lambda: load_palette('gfx/tilesets/whirl_islands.pal'),
 		'maps/WhirlIslandB2F.ablk': lambda: load_palette('gfx/tilesets/whirl_islands.pal'),
-		'maps/WhirlIslandLugiaChamber.ablk': lambda: load_palette('gfx/tilesets/whirl_islands.pal'),
+		'maps/WhirlIslandTKogasaChamber.ablk': lambda: load_palette('gfx/tilesets/whirl_islands.pal'),
 		'maps/WhirlIslandNE.ablk': lambda: load_palette('gfx/tilesets/whirl_islands.pal'),
 		'maps/WhirlIslandSE.ablk': lambda: load_palette('gfx/tilesets/whirl_islands.pal'),
 		'maps/WhirlIslandSW.ablk': lambda: load_palette('gfx/tilesets/whirl_islands.pal'),

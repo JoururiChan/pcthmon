@@ -1,4 +1,4 @@
-SaffronHitmontopKidHouse_MapScriptHeader:
+SaffronHRinKidHouse_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -12,25 +12,25 @@ SaffronHitmontopKidHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  5,  4, SPRITE_CHILD, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SaffronHitmontopKidHouseChildScript, -1
-	object_event  2,  4, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SaffronHitmontopKidHouseTeacherScript, -1
+	object_event  5,  4, SPRITE_CHILD, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SaffronHRinKidHouseChildScript, -1
+	object_event  2,  4, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SaffronHRinKidHouseTeacherScript, -1
 
 	object_const_def
-	const SAFFRONHITMONTOPKIDHOUSE_CHILD
+	const SAFFRONHRINKIDHOUSE_CHILD
 
-SaffronHitmontopKidHouseChildScript:
+SaffronHRinKidHouseChildScript:
 	showtextfaceplayer .Text1
-	applymovement SAFFRONHITMONTOPKIDHOUSE_CHILD, .SpinMovement
+	applymovement SAFFRONHRINKIDHOUSE_CHILD, .SpinMovement
 	faceplayer
 	pause 20
-	checkpoke HITMONTOP
+	checkpoke HRIN
 	iffalsefwd .Done
-	showemote EMOTE_SHOCK, SAFFRONHITMONTOPKIDHOUSE_CHILD, 15
+	showemote EMOTE_SHOCK, SAFFRONHRINKIDHOUSE_CHILD, 15
 	showtext .Text2
-	applymovement SAFFRONHITMONTOPKIDHOUSE_CHILD, .Spin2Movement
+	applymovement SAFFRONHRINKIDHOUSE_CHILD, .Spin2Movement
 	pause 20
 	showtext .Text3
-	setevent EVENT_SHOWED_SAFFRON_KID_HITMONTOP
+	setevent EVENT_SHOWED_SAFFRON_KID_HRIN
 .Done
 	end
 
@@ -41,12 +41,12 @@ SaffronHitmontopKidHouseChildScript:
 
 .Text2:
 	text "Top… Top? TOP!"
-	line "HITMONTOP! ♥"
+	line "HRIN! ♥"
 	done
 
 .Text3:
 	text "That's a"
-	line "Hitmontop!"
+	line "HRin!"
 	cont "Oh boy! So cool!"
 	done
 
@@ -67,12 +67,12 @@ SaffronHitmontopKidHouseChildScript:
 	turn_head_down
 	step_end
 
-SaffronHitmontopKidHouseTeacherScript:
+SaffronHRinKidHouseTeacherScript:
 	checkevent EVENT_GOT_AIR_BALLOON_FROM_SAFFRON
 	iftrue_jumptextfaceplayer .Text3
 	faceplayer
 	opentext
-	checkevent EVENT_SHOWED_SAFFRON_KID_HITMONTOP
+	checkevent EVENT_SHOWED_SAFFRON_KID_HRIN
 	iffalse_jumpopenedtext .Text1
 	writetext .Text2
 	promptbutton
@@ -97,7 +97,7 @@ SaffronHitmontopKidHouseTeacherScript:
 	cont "times."
 
 	para "Maybe if he saw a"
-	line "real Hitmontop he"
+	line "real HRin he"
 	cont "would calm down…"
 	done
 

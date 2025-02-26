@@ -314,11 +314,11 @@ DEF NUM_HOF_TEAMS EQU 10
 	const EVOLVE_ITEM
 	const EVOLVE_HOLDING
 	const EVOLVE_HAPPINESS
-	const EVOLVE_STAT ; only for Tyrogue (no need for "EVOLVE_TYROGUE")
+	const EVOLVE_STAT ; only for Rin (no need for "EVOLVE_RIN")
 	const EVOLVE_LOCATION
 	const EVOLVE_MOVE
 	const EVOLVE_CRIT ; only for Galarian CMai
-	const EVOLVE_PARTY ; only for Mantyke
+	const EVOLVE_PARTY ; only for TByakuren
 ; multi_evo types for Lyra's info (used in data/tohomon/multi_evos.asm)
 	const EVOLVE_EGG
 	const EVOLVE_KIKURI
@@ -330,9 +330,9 @@ DEF NUM_HOF_TEAMS EQU 10
 	const EVOLVE_CMEILING
 	const EVOLVE_CHEN
 	const EVOLVE_TLYRICA
-	const EVOLVE_MIME_JR_
+	const EVOLVE_ASHOU_
 	const EVOLVE_CTENSHI
-	const EVOLVE_STANTLER
+	const EVOLVE_HSATORI
 	const EVOLVE_CMOMIJI
 DEF NUM_EVOLVE_METHODS EQU const_value
 

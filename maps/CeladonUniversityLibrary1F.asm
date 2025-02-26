@@ -264,7 +264,7 @@ CeladonUniversityLibrary1FBookshelf10Text:
 
 	para "Ellen Jello,"
 	line "CMarisa Chut-"
-	cont "ney, Munchlax"
+	cont "ney, Byakuren"
 	cont "Snacks…"
 	done
 

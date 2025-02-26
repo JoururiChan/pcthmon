@@ -44,7 +44,7 @@ Cries:
 	fardw Cry_CKeine
 	fardw Cry_TEirin
 	fardw Cry_CNitori
-	fardw Cry_Raikou
+	fardw Cry_SKoishi
 	fardw Cry_CMokou
 	fardw Cry_CKaguya
 	fardw Cry_SWriggle
@@ -57,17 +57,17 @@ Cries:
 	fardw Cry_CAya
 	fardw Cry_Tenshi
 	fardw Cry_Mystia
-	fardw Cry_Entei
+	fardw Cry_CNazrin
 	fardw Cry_CShizuha
-	fardw Cry_Mantine
+	fardw Cry_CParsee
 	fardw Cry_TReisen
 	fardw Cry_Kaguya
 	fardw Cry_AIku
-	fardw Cry_Remoraid
+	fardw Cry_CYamame
 	fardw Cry_AMokou
 	fardw Cry_STenshi
 	fardw Cry_TTei
-	fardw Cry_Tyrogue
+	fardw Cry_Rin
 	fardw Cry_CMomiji
-	fardw Cry_Donphan
+	fardw Cry_CSatori
 	assert_table_length NUM_CRIES

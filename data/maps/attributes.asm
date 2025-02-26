@@ -446,18 +446,18 @@ ENDM
 	map_attributes RadioTower3F, RADIO_TOWER_3F, $0, 0
 	map_attributes RadioTower4F, RADIO_TOWER_4F, $0, 0
 	map_attributes RadioTower5F, RADIO_TOWER_5F, $0, 0
-	map_attributes RuinsOfAlphHoOhChamber, RUINS_OF_ALPH_HO_OH_CHAMBER, $0, 0
+	map_attributes RuinsOfAlphCIchirinChamber, RUINS_OF_ALPH_CICHIRIN_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphCYuyukoChamber, RUINS_OF_ALPH_CYUYUKO_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphLunasaChamber, RUINS_OF_ALPH_LUNASA_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphAYuyukoChamber, RUINS_OF_ALPH_AYUYUKO_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphEntranceChamber, RUINS_OF_ALPH_ENTRANCE_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphInnerChamber, RUINS_OF_ALPH_INNER_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphResearchCenter, RUINS_OF_ALPH_RESEARCH_CENTER, $0, 0
-	map_attributes RuinsOfAlphHoOhItemRoom, RUINS_OF_ALPH_HO_OH_ITEM_ROOM, $0, 0
+	map_attributes RuinsOfAlphCIchirinItemRoom, RUINS_OF_ALPH_CICHIRIN_ITEM_ROOM, $0, 0
 	map_attributes RuinsOfAlphCYuyukoItemRoom, RUINS_OF_ALPH_CYUYUKO_ITEM_ROOM, $0, 0
 	map_attributes RuinsOfAlphLunasaItemRoom, RUINS_OF_ALPH_LUNASA_ITEM_ROOM, $0, 0
 	map_attributes RuinsOfAlphAYuyukoItemRoom, RUINS_OF_ALPH_AYUYUKO_ITEM_ROOM, $0, 0
-	map_attributes RuinsOfAlphHoOhWordRoom, RUINS_OF_ALPH_HO_OH_WORD_ROOM, $0, 0
+	map_attributes RuinsOfAlphCIchirinWordRoom, RUINS_OF_ALPH_CICHIRIN_WORD_ROOM, $0, 0
 	map_attributes RuinsOfAlphCYuyukoWordRoom, RUINS_OF_ALPH_CYUYUKO_WORD_ROOM, $0, 0
 	map_attributes RuinsOfAlphLunasaWordRoom, RUINS_OF_ALPH_LUNASA_WORD_ROOM, $0, 0
 	map_attributes RuinsOfAlphAYuyukoWordRoom, RUINS_OF_ALPH_AYUYUKO_WORD_ROOM, $0, 0
@@ -503,7 +503,7 @@ ENDM
 	map_attributes WhirlIslandSE, WHIRL_ISLAND_SE, $f, 0
 	map_attributes WhirlIslandB1F, WHIRL_ISLAND_B1F, $9, 0
 	map_attributes WhirlIslandB2F, WHIRL_ISLAND_B2F, $2e, 0
-	map_attributes WhirlIslandLugiaChamber, WHIRL_ISLAND_LUGIA_CHAMBER, $f, 0
+	map_attributes WhirlIslandTKogasaChamber, WHIRL_ISLAND_TKOGASA_CHAMBER, $f, 0
 	map_attributes SilverCaveRoom1, SILVER_CAVE_ROOM_1, $9, 0
 	map_attributes SilverCaveRoom2, SILVER_CAVE_ROOM_2, $9, 0
 	map_attributes SilverCaveRoom3, SILVER_CAVE_ROOM_3, $0, 0
@@ -543,7 +543,7 @@ ENDM
 	map_attributes EcruteakHouse, ECRUTEAK_HOUSE, $0, 0
 	map_attributes WiseTriosRoom, WISE_TRIOS_ROOM, $0, 0
 	map_attributes EcruteakTohoCenter1F, ECRUTEAK_TOHOCENTER_1F, $0, 0
-	map_attributes EcruteakLugiaSpeechHouse, ECRUTEAK_LUGIA_SPEECH_HOUSE, $0, 0
+	map_attributes EcruteakTKogasaSpeechHouse, ECRUTEAK_TKOGASA_SPEECH_HOUSE, $0, 0
 	map_attributes DanceTheatre, DANCE_THEATRE, $0, 0
 	map_attributes EcruteakMart, ECRUTEAK_MART, $0, 0
 	map_attributes EcruteakGym, ECRUTEAK_GYM, $0, 0
@@ -784,7 +784,7 @@ ENDM
 	map_attributes CianwoodTohoCenter1F, CIANWOOD_TOHOCENTER_1F, $0, 0
 	map_attributes CianwoodPharmacy, CIANWOOD_PHARMACY, $0, 0
 	map_attributes CianwoodCityPhotoStudio, CIANWOOD_CITY_PHOTO_STUDIO, $0, 0
-	map_attributes CianwoodLugiaSpeechHouse, CIANWOOD_LUGIA_SPEECH_HOUSE, $0, 0
+	map_attributes CianwoodTKogasaSpeechHouse, CIANWOOD_TKOGASA_SPEECH_HOUSE, $0, 0
 	map_attributes MoveManiacsHouse, MOVE_MANIACS_HOUSE, $0, 0
 	map_attributes BattleTower1F, BATTLE_TOWER_1F, $0, 0
 	map_attributes BattleTower2F, BATTLE_TOWER_2F, $0, 0
@@ -831,7 +831,7 @@ ENDM
 	map_attributes Route5SaffronCityGate, ROUTE_5_SAFFRON_CITY_GATE, $0, 0
 	map_attributes Route5CleanseTagSpeechHouse, ROUTE_5_CLEANSE_TAG_SPEECH_HOUSE, $0, 0
 	map_attributes TohomonTrainerFanClub, TOHOMON_TRAINER_FAN_CLUB, $0, 0
-	map_attributes SaffronHitmontopKidHouse, SAFFRON_HITMONTOP_KID_HOUSE, $0, 0
+	map_attributes SaffronHRinKidHouse, SAFFRON_HRIN_KID_HOUSE, $0, 0
 	map_attributes SaffronBookSpeechHouse, SAFFRON_BOOK_SPEECH_HOUSE, $0, 0
 	map_attributes SaffronOrreSpeechHouse, SAFFRON_ORRE_SPEECH_HOUSE, $0, 0
 	map_attributes SaffronRichSpeechHouse, SAFFRON_RICH_SPEECH_HOUSE, $0, 0

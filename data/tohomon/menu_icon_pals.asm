@@ -174,16 +174,16 @@ MenuMonIconColors::
 	iconpal GREEN, BLUE ; CEIKI
 	iconpal GREEN, BLUE ; EIKI
 	iconpal GREEN, BLUE ; AEIKI
-	iconpal RED, BLUE ; YANMEGA
+	iconpal RED, BLUE ; ASUNNY
 	iconpal BLUE, RED ; CSHIZUHA
 	iconpal BLUE, RED ; SHIZUHA
 	iconpal PURPLE, GREEN ; SSHIZUHA
 	iconpal PURPLE, GREEN ; CMINORIKO
 	iconpal BLUE, PURPLE ; MINORIKO
-	iconpal BLUE, PURPLE ; HONCHKROW
+	iconpal BLUE, PURPLE ; CSHOU
 	iconpal PINK, PURPLE ; HMINORIKO
 	iconpal PURPLE, BROWN ; CHINA
-	iconpal PURPLE, BROWN ; MISMAGIUS
+	iconpal PURPLE, BROWN ; AMURASA
 	iconpal GRAY, BLUE ; HINA
 	iconpal BLUE, PURPLE ; AHINA
 	iconpal BROWN, BLUE ; CNITORI
@@ -200,46 +200,46 @@ MenuMonIconColors::
 	iconpal RED, BLUE ; DSUWAKO
 	iconpal BLUE, PURPLE ; CIKU
 	iconpal BLUE, RED ; IKU
-	iconpal BLUE, RED ; WEAVILE
+	iconpal BLUE, RED ; CNUE
 	iconpal BROWN, GREEN ; AIKU
 	iconpal BROWN, GREEN ; CTENSHI
 	iconpal RED, GRAY ; TENSHI
 	iconpal RED, BLUE ; STENSHI
-	iconpal BROWN, BLUE ; SWINUB
-	iconpal BROWN, GREEN ; PILOSWINE
-	iconpal BROWN, GREEN ; MAMOSWINE
-	iconpal PINK, BLUE ; CORSOLA
-	iconpal BLUE, GRAY ; REMORAID
-	iconpal RED, TEAL ; OCTILLERY
-	iconpal BLUE, BLUE ; MANTINE
-	iconpal GRAY, GREEN ; SKARMORY
-	iconpal RED, GRAY ; HOUNDOUR
-	iconpal RED, GRAY ; HOUNDOOM
-	iconpal BLUE, PURPLE ; KINGDRA
-	iconpal BLUE, GRAY ; PHANPY
-	iconpal GRAY, RED ; DONPHAN
-	iconpal BLUE, PURPLE ; CLUNASA2
-	iconpal BLUE, PURPLE ; CLUNASA_Z
-	iconpal BROWN, GREEN ; SMEARGLE
-	iconpal BROWN, BLUE ; TYROGUE
-	iconpal BROWN, BLUE ; HITMONTOP
-	iconpal BROWN, RED ; ELEKID
-	iconpal BROWN, RED ; ELECTIVIRE
-	iconpal RED, BROWN ; MAGBY
-	iconpal RED, BROWN ; MAGMORTAR
-	iconpal PINK, BLUE ; MILTANK
-	iconpal PINK, RED ; BLISSEY
-	iconpal BROWN, RED ; RAIKOU
-	iconpal RED, BROWN ; ENTEI
-	iconpal BLUE, BLUE ; SUICUNE
-	iconpal GREEN, GREEN ; LARVITAR
-	iconpal GRAY, PURPLE ; PUPITAR
-	iconpal GREEN, GRAY ; TYRANITAR
-	iconpal BLUE, RED ; LUGIA
-	iconpal RED, GREEN ; HO_OH
-	iconpal GREEN, RED ; CELEBI
-	iconpal GREEN, BROWN ; LEAFEON
-	iconpal BLUE, BLUE ; GLACEON
+	iconpal BROWN, BLUE ; CKISUME
+	iconpal BROWN, GREEN ; KISUME
+	iconpal BROWN, GREEN ; DSTAR
+	iconpal PINK, BLUE ; DKISUME
+	iconpal BLUE, GRAY ; CYAMAME
+	iconpal RED, TEAL ; YAMAME
+	iconpal BLUE, BLUE ; CPARSEE
+	iconpal GRAY, GREEN ; PARSEE
+	iconpal RED, GRAY ; DPARSEE
+	iconpal RED, GRAY ; CYUUGI
+	iconpal BLUE, PURPLE ; YUUGI
+	iconpal BLUE, GRAY ; AYUUGI
+	iconpal GRAY, RED ; CSATORI
+	iconpal BLUE, PURPLE ; SATORI
+	iconpal BLUE, PURPLE ; CLUNA
+	iconpal BROWN, GREEN ; CRIN
+	iconpal BROWN, BLUE ; RIN
+	iconpal BROWN, BLUE ; HRIN
+	iconpal BROWN, RED ; UTSUHO
+	iconpal BROWN, RED ; THATATE
+	iconpal RED, BROWN ; AUTSUHO
+	iconpal RED, BROWN ; CSUNNY
+	iconpal PINK, BLUE ; CKOISHI
+	iconpal PINK, RED ; KOISHI
+	iconpal BROWN, RED ; SKOISHI
+	iconpal RED, BROWN ; CNAZRIN
+	iconpal BLUE, BLUE ; NAZRIN
+	iconpal GREEN, GREEN ; HNAZRIN
+	iconpal GRAY, PURPLE ; CKOGASA
+	iconpal GREEN, GRAY ; KOGASA
+	iconpal BLUE, RED ; TKOGASA
+	iconpal RED, GREEN ; CICHIRIN
+	iconpal GREEN, RED ; ICHIRIN
+	iconpal GREEN, BROWN ; CSTAR
+	iconpal BLUE, BLUE ; STAR
 	iconpal PINK, BLUE ; SYLVEON
 	assert_table_length NUM_TOHOMON
 

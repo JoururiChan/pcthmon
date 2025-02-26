@@ -103,7 +103,7 @@ TohofanF_AcrobaticsFarmer:
 	jumpopenedtext FarmerFText_InTrouble
 
 .GiveAcrobatics:
-	writetext FarmerFText_HealedMiltank
+	writetext FarmerFText_HealedCKoishi
 	promptbutton
 	verbosegivetmhm TM_ACROBATICS
 	setevent EVENT_GOT_TM62_ACROBATICS_FROM_MOOMOO_FARM
@@ -111,7 +111,7 @@ TohofanF_AcrobaticsFarmer:
 	jumpopenedtext FarmerFText_AcrobaticsSpeech
 
 FarmerMText_SickCow:
-	text "My Miltank ain't"
+	text "My CKoishi ain't"
 	line "givin' me milk"
 	cont "n'more."
 
@@ -172,15 +172,15 @@ FarmerFText_InTrouble:
 	line "out to Kanto."
 
 	para "So if our own"
-	line "Miltank won't give"
+	line "CKoishi won't give"
 
 	para "us any milk, we're"
 	line "in trouble."
 	done
 
-FarmerFText_HealedMiltank:
+FarmerFText_HealedCKoishi:
 	text "You fixed our"
-	line "Miltank, hon. Now"
+	line "CKoishi, hon. Now"
 
 	para "it gives Moomoo"
 	line "Milk again."

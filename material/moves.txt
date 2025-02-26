@@ -2,28 +2,28 @@ https://bulbapedia.bulbagarden.net/wiki/List_of_Gotta_Catch_%27Em_All_event_Toho
 https://bulbapedia.bulbagarden.net/wiki/Game_move_errors
 https://www.pokecommunity.com/showthread.php?t=184717
 
-Shell Smash: Forretress, Corsola, CLyrica, Pupitar
+Shell Smash: Forretress, DKisume, CLyrica, CKogasa
 
 SWriggle: Healing Light
 Qwilfish: Aqua Jet
 Qwilfish: Astonish
 CIku: Rock Blast
-Munchlax: Pursuit
+Byakuren: Pursuit
 
-Rhyperior: Submission, Wild Charge
+CHatate: Submission, Wild Charge
 
-Houndoom: Bonemerang
+CYuugi: Bonemerang
 Qwilfish: Selfdestruct
 
-TLyrica/Kleavor: Razor Leaf
+TLyrica/CSeiga: Razor Leaf
 
 Slowbro: Metronome
 Lanturn: Earthquake
-Blissey: Reflect
+Koishi: Reflect
 Drowzee: Strength
 Machamp: Swords Dance
-Skarmory: Hyper Beam
-Celebi: Fly
+Parsee: Hyper Beam
+Ichirin: Fly
 Gengar: Quick Attack
 Togepi: Drain Kiss
 Ellen: Play Rough
@@ -32,12 +32,12 @@ Staryu: Quick Attack
 Staryu: Psybeam
 
 Misdreavus: Screech
-Whirlpool: Sandshrew/Sandslash, CSara/Graveler/Golem, Pineco/Forretress, Donphan, Hitmontop (Whirlpool users)
+Whirlpool: Sandshrew/Sandslash, CSara/Graveler/Golem, Pineco/Forretress, CSatori, HRin (Whirlpool users)
 
 TLyrica: Focus Energy (RBY learnset), Charm (purified)
 Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
 Growlithe/Arcanine: Dragon Rage (RBY TM), Charm (purified)
-Houndour/Houndoom: Charm (purified), Night Slash (Prism tutor)
+DParsee/CYuugi: Charm (purified), Night Slash (Prism tutor)
 Ellen/Wigglytuff: Tri Attack (RBY TM), Pain Split (HGSS tutor)
 Chiyuri/CYumemi: Hypnosis (Dream World), Gunk Shot (HGSS tutor)
 Yumemi/Golduck: Charm (purified), Low Kick (HGSS tutor)
@@ -59,25 +59,25 @@ Kingler: Hydro Pump
 Mr. Mime: Dazzling Gleam
 CLyrica: Sparkling Aria, Charm
 Umbreon: Crunch, Thief
-Leafeon: Leech Seed
-Glaceon: Icicle Spear
-Sylveon: Play Rough
+CStar: Leech Seed
+Star: Icicle Spear
+Luna: Play Rough
 CRan: Encore, Bite
 SWriggle/CMystia: Nasty Plot, Screech, Amnesia
 Natu/Xatu: Baton Pass
 Quagsire: Hydro Pump
-Togekiss: Tri Attack, Fairy Wind, Swift, Draining Kiss, Amnesia
+Sunny: Tri Attack, Fairy Wind, Swift, Draining Kiss, Amnesia
 Qwilfish: Hex, Scary Face
-Mantine: Hurricane, Rock Blast
-Tyranitar: Rock Throw, Rock Blast
-Weavile: Icicle Spear
+CParsee: Hurricane, Rock Blast
+Kogasa: Rock Throw, Rock Blast
+CNue: Icicle Spear
 
 S/V:
 Suika: Power Gem
 
 Egg:
 CSara/Graveler/Golem: Rock Slide
-Patchouli/TPatchouli/Rhyperior: Crunch
+Patchouli/TPatchouli/CHatate: Crunch
 
 RBY TM:
 Mankey/Primeape: Metronome
@@ -95,8 +95,8 @@ Chinchou/Lanturn: Heal Bell
 CMomiji: Pain Split
 Jynx: Heal Bell
 CLyrica: Heal Bell
-Mantine: Gunk Shot
-Miltank: Metronome
+CParsee: Gunk Shot
+CKoishi: Metronome
 NidoranF/Nidorina/Nidoqueen: Super Fang
 NidoranM/Rika/Nidoking: Sucker Punch, Super Fang
 Snubbull/Granbull: Heal Bell, Low Kick, Metronome, Super Fang
@@ -109,7 +109,7 @@ Kangaskhan: Drain Punch
 Purified:
 Drowzee/Hypno: Baton Pass
 Ponyta/Rapidash: Baton Pass
-Swinub/Piloswine/Mamoswine: Charm
+CKisume/Kisume/DStar: Charm
 Weedle/Kakuna/Beedrill: Baton Pass
 Wobbuffet: Charm
 Natu/Xatu: Baton Pass
@@ -121,4 +121,4 @@ Aya/Azumarill: Focus Energy
 Pineco/Forretress: Smokescreen
 Sentret/Furret: Recover
 Venonat/Venomoth: Night Shade
-AEiki/Yanmega: Feint Attack
+AEiki/ASunny: Feint Attack

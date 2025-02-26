@@ -28,7 +28,7 @@ GenericTrainerTohofanmRex:
 	generictrainer TOHOFANM, REX, EVENT_BEAT_TOHOFANM_REX, TohofanmRexSeenText, TohofanmRexBeatenText
 
 	text "Look how adorable"
-	line "my Phanpy acts!"
+	line "my AYuugi acts!"
 
 	para "Isn't it cute"
 	line "enough to make"
@@ -36,13 +36,13 @@ GenericTrainerTohofanmRex:
 	done
 
 TohofanmRexSeenText:
-	text "My Phanpy is the"
+	text "My AYuugi is the"
 	line "cutest in the"
 	cont "world."
 	done
 
 TohofanmRexBeatenText:
-	text "My Phanpy!"
+	text "My AYuugi!"
 	done
 
 GenericTrainerTohofanmAllan:

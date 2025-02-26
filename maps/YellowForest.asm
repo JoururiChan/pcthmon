@@ -30,7 +30,7 @@ YellowForest_MapScriptHeader:
 
 	def_object_events
 	object_event  7, 24, SPRITE_WALKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 1, YellowForestWalkerScript, EVENT_YELLOW_FOREST_WALKER
-	tohomon_event  8, 24, SKARMORY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GRAY, ClearText, EVENT_YELLOW_FOREST_SKARMORY
+	tohomon_event  8, 24, PARSEE, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GRAY, ClearText, EVENT_YELLOW_FOREST_PARSEE
 	object_event 47,  6, SPRITE_YELLOW, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, YellowForestYellowScript, -1
 	object_event 49, 26, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_SCRIPT, 0, YellowForestSurfKikuriDoll, EVENT_DECO_SURFING_EKIKURI_DOLL
 	object_event 31,  8, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, YellowForestSuperNerdText, -1
@@ -46,7 +46,7 @@ YellowForest_MapScriptHeader:
 
 	object_const_def
 	const YELLOWFOREST_WALKER
-	const YELLOWFOREST_SKARMORY
+	const YELLOWFOREST_PARSEE
 	const YELLOWFOREST_YELLOW
 	const YELLOWFOREST_TOHO_BALL5
 
@@ -150,12 +150,12 @@ YellowForestWalkerScript:
 	writetext YellowForestWalkerFinalText
 	waitbutton
 	closetext
-	appear YELLOWFOREST_SKARMORY
+	appear YELLOWFOREST_PARSEE
 	playsound SFX_BALL_POOF
 	turnobject YELLOWFOREST_WALKER, RIGHT
 	waitsfx
 	pause 15
-	cry SKARMORY
+	cry PARSEE
 	waitsfx
 	turnobject YELLOWFOREST_WALKER, DOWN
 	showtext YellowForestWalkerFlyText
@@ -163,7 +163,7 @@ YellowForestWalkerScript:
 	special Special_FadeBlackQuickly
 	special Special_ReloadSpritesNoPalettes
 	disappear YELLOWFOREST_WALKER
-	disappear YELLOWFOREST_SKARMORY
+	disappear YELLOWFOREST_PARSEE
 	waitsfx
 	pause 15
 	special Special_FadeInQuickly
@@ -374,7 +374,7 @@ YellowForestWalkerFinalText:
 	done
 
 YellowForestWalkerFlyText:
-	text "Skarmory,"
+	text "Parsee,"
 	line "let's Fly!"
 	done
 

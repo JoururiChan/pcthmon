@@ -13,7 +13,7 @@ Route28FamousSpeechHouse_MapScriptHeader:
 
 	def_object_events
 	object_event  2,  3, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Celebrity, -1
-	tohomon_event  6,  5, SKARMORY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GRAY, CelebritysSkarmoryText, -1
+	tohomon_event  6,  5, PARSEE, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_GRAY, CelebritysParseeText, -1
 
 Celebrity:
 	checkevent EVENT_GOT_TM47_STEEL_WING
@@ -49,6 +49,6 @@ CelebrityText2:
 	line "left alone…"
 	done
 
-CelebritysSkarmoryText:
-	text "Skarmory: Scree!"
+CelebritysParseeText:
+	text "Parsee: Scree!"
 	done

@@ -200,78 +200,78 @@ OverworldMonIconColors::
 	iconpal BROWN, GREEN ; CTENSHI
 	iconpal RED, GRAY ; TENSHI
 	iconpal RED, BLUE ; STENSHI
-	iconpal BROWN, BLUE ; SWINUB
-	iconpal BROWN, GREEN ; PILOSWINE
-	iconpal PINK, AZURE ; CORSOLA
-	iconpal BLUE, GRAY ; REMORAID
-	iconpal RED, TEAL ; OCTILLERY
-	iconpal RED, PINK ; DELIBIRD
-	iconpal BLUE, WHITE ; MANTINE
-	iconpal GRAY, GREEN ; SKARMORY
-	iconpal RED, GRAY ; HOUNDOUR
-	iconpal RED, GRAY ; HOUNDOOM
-	iconpal BLUE, PURPLE ; KINGDRA
-	iconpal AZURE, WHITE ; PHANPY
-	iconpal GRAY, RED ; DONPHAN
-	iconpal BLUE, PURPLE ; CLUNASA2
-	iconpal BROWN, GREEN ; STANTLER
-	iconpal BROWN, GREEN ; SMEARGLE
-	iconpal BROWN, AZURE ; TYROGUE
-	iconpal BROWN, AZURE ; HITMONTOP
-	iconpal PURPLE, PINK ; SMOOCHUM
-	iconpal BROWN, RED ; ELEKID
-	iconpal RED, BROWN ; MAGBY
-	iconpal PINK, AZURE ; MILTANK
-	iconpal PINK, RED ; BLISSEY
-	iconpal BROWN, RED ; RAIKOU
-	iconpal RED, BROWN ; ENTEI
-	iconpal BLUE, WHITE ; SUICUNE
-	iconpal GREEN, TEAL ; LARVITAR
-	iconpal GRAY, PURPLE ; PUPITAR
-	iconpal GREEN, GRAY ; TYRANITAR
-	iconpal BLUE, RED ; LUGIA
-	iconpal RED, GREEN ; HO_OH
-	iconpal GREEN, RED ; CELEBI
-	iconpal BLUE, GREEN ; AZURILL
-	iconpal AZURE, PURPLE ; WYNAUT
-	iconpal PURPLE, RED ; AMBIPOM
+	iconpal BROWN, BLUE ; CKISUME
+	iconpal BROWN, GREEN ; KISUME
+	iconpal PINK, AZURE ; DKISUME
+	iconpal BLUE, GRAY ; CYAMAME
+	iconpal RED, TEAL ; YAMAME
+	iconpal RED, PINK ; SYAMAME
+	iconpal BLUE, WHITE ; CPARSEE
+	iconpal GRAY, GREEN ; PARSEE
+	iconpal RED, GRAY ; DPARSEE
+	iconpal RED, GRAY ; CYUUGI
+	iconpal BLUE, PURPLE ; YUUGI
+	iconpal AZURE, WHITE ; AYUUGI
+	iconpal GRAY, RED ; CSATORI
+	iconpal BLUE, PURPLE ; SATORI
+	iconpal BROWN, GREEN ; HSATORI
+	iconpal BROWN, GREEN ; CRIN
+	iconpal BROWN, AZURE ; RIN
+	iconpal BROWN, AZURE ; HRIN
+	iconpal PURPLE, PINK ; CUTSUHO
+	iconpal BROWN, RED ; UTSUHO
+	iconpal RED, BROWN ; AUTSUHO
+	iconpal PINK, AZURE ; CKOISHI
+	iconpal PINK, RED ; KOISHI
+	iconpal BROWN, RED ; SKOISHI
+	iconpal RED, BROWN ; CNAZRIN
+	iconpal BLUE, WHITE ; NAZRIN
+	iconpal GREEN, TEAL ; HNAZRIN
+	iconpal GRAY, PURPLE ; CKOGASA
+	iconpal GREEN, GRAY ; KOGASA
+	iconpal BLUE, RED ; TKOGASA
+	iconpal RED, GREEN ; CICHIRIN
+	iconpal GREEN, RED ; ICHIRIN
+	iconpal BLUE, GREEN ; AICHIRIN
+	iconpal AZURE, PURPLE ; CMURASA
+	iconpal PURPLE, RED ; MURASA
 	iconpal RED, BLUE ; EGG
 	iconpal RED, BLUE ; $100
-	iconpal PURPLE, BROWN ; MISMAGIUS
-	iconpal BLUE, PURPLE ; HONCHKROW
-	iconpal GREEN, RED ; BONSLY
-	iconpal BLUE, GREEN ; MIME_JR_
-	iconpal RED, PINK ; HAPPINY
-	iconpal TEAL, BLUE ; MUNCHLAX
-	iconpal BLUE, TEAL ; MANTYKE
-	iconpal BLUE, RED ; WEAVILE
-	iconpal GRAY, BROWN ; MAGNEZONE
-	iconpal PINK, BROWN ; LICKILICKY
-	iconpal GRAY, RED ; RHYPERIOR
-	iconpal BLUE, GREEN ; TANGROWTH
-	iconpal BROWN, RED ; ELECTIVIRE
-	iconpal RED, BROWN ; MAGMORTAR
-	iconpal WHITE, AZURE ; TOGEKISS
-	iconpal RED, BLUE ; YANMEGA
-	iconpal GREEN, BROWN ; LEAFEON
-	iconpal AZURE, BLUE ; GLACEON
+	iconpal PURPLE, BROWN ; AMURASA
+	iconpal BLUE, PURPLE ; CSHOU
+	iconpal GREEN, RED ; SHOU
+	iconpal BLUE, GREEN ; ASHOU_
+	iconpal RED, PINK ; CBYAKUREN
+	iconpal TEAL, BLUE ; BYAKUREN
+	iconpal BLUE, TEAL ; TBYAKUREN
+	iconpal BLUE, RED ; CNUE
+	iconpal GRAY, BROWN ; NUE
+	iconpal PINK, BROWN ; SNUE
+	iconpal GRAY, RED ; CHATATE
+	iconpal BLUE, GREEN ; HATATE
+	iconpal BROWN, RED ; THATATE
+	iconpal RED, BROWN ; CSUNNY
+	iconpal WHITE, AZURE ; SUNNY
+	iconpal RED, BLUE ; ASUNNY
+	iconpal GREEN, BROWN ; CSTAR
+	iconpal AZURE, BLUE ; STAR
 	iconpal PURPLE, GRAY ; AMOMIJI
-	iconpal BROWN, GREEN ; MAMOSWINE
-	iconpal BLUE, PURPLE ; CLUNASA_Z
+	iconpal BROWN, GREEN ; DSTAR
+	iconpal BLUE, PURPLE ; CLUNA
 	iconpal PINK, AZURE ; SYLVEON
-	iconpal GRAY, BROWN ; PERRSERKER
-	iconpal GRAY, PINK ; CURSOLA
-	iconpal WHITE, RED ; SIRFETCH_D
-	iconpal BLUE, GRAY ; MR__RIME
-	iconpal GRAY, GREEN ; WYRDEER
-	iconpal BROWN, GREEN ; KLEAVOR
-	iconpal BROWN, RED ; URSALUNA
-	iconpal RED, BROWN ; SNEASLER
-	iconpal PURPLE, BLUE ; OVERQWIL
-	iconpal AZURE, RED ; PLACETHM
-	iconpal BROWN, BLUE ; FARIGIRAF
-	iconpal BROWN, BLUE ; CLODSIRE
-	iconpal GRAY, PURPLE ; ANNIHILAPE
+	iconpal GRAY, BROWN ; TLUNA
+	iconpal GRAY, PINK ; CKYOUKO
+	iconpal WHITE, RED ; KYOUKO
+	iconpal BLUE, GRAY ; CYOSHIKA
+	iconpal GRAY, GREEN ; YOSHIKA
+	iconpal BROWN, GREEN ; CSEIGA
+	iconpal BROWN, RED ; SEIGA
+	iconpal RED, BROWN ; CTOJIKO
+	iconpal PURPLE, BLUE ; TOJIKO
+	iconpal AZURE, RED ; CFUTO
+	iconpal BROWN, BLUE ; MIKO
+	iconpal BROWN, BLUE ; FUTO
+	iconpal GRAY, PURPLE ; CMIKO
 	assert_table_length NUM_SPECIES
 
 rept NUM_HINA - 1
@@ -294,6 +294,6 @@ endr
 
 	iconpal GRAY, BLACK ; SUIKA, SUIKA_ARMORED_FORM
 
-	iconpal AZURE, RED ; PLACETHM, PLACETHM_THREE_SEGMENT_FORM
+	iconpal AZURE, RED ; CFUTO, CFUTO_THREE_SEGMENT_FORM
 
 	assert_table_length NUM_UNIQUE_TOHOMON

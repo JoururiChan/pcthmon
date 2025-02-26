@@ -309,7 +309,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db $81 ; flags
 	db 4 ; items
 	db "Umbreon@"
-	db "Glaceon@"
+	db "Star@"
 	db "CYumemi@"
 	db "Girafarig@"
 
@@ -322,7 +322,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .Question2MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Blissey@"
+	db "Koishi@"
 	db "Qwilfish@"
 	db "HMinoriko@"
 	db "Venomoth@"

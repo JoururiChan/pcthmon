@@ -248,8 +248,8 @@ endr
 	givepoke TREISEN,  50
 	loadmem wPartyMon3Shiny, SHINY_MASK
 	; ext species test
-	givepoke WYRDEER, 50
-	givepoke PLACETHM, PLACETHM_THREE_SEGMENT_FORM, 50
+	givepoke YOSHIKA, 50
+	givepoke CFUTO, CFUTO_THREE_SEGMENT_FORM, 50
 	; evolve during battle
 	givepoke CLILYBLACK, 50
 	loadmem wPartyMon6Exp+2, LOW(207967)

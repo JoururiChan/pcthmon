@@ -44,7 +44,7 @@ BellchimeTrailStepDownTrigger:
 	end
 
 SetupValerieMorningWalkCallback:
-	checkevent EVENT_FOUGHT_SUICUNE
+	checkevent EVENT_FOUGHT_NAZRIN
 	iffalsefwd .Disappear
 	checkevent EVENT_BEAT_VALERIE
 	iffalsefwd .Appear
@@ -172,7 +172,7 @@ BellchimeTrailValerieScript:
 .IntroText:
 	text "If it isn't the"
 	line "trainer who faced"
-	cont "Suicune…"
+	cont "Nazrin…"
 
 	para "I am Valerie."
 	line "I come to this"

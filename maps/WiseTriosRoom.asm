@@ -31,7 +31,7 @@ WiseTriosRoom_MapScriptHeader:
 	const WISETRIOSROOM_ELDER6
 
 WiseTriosRoomCallback:
-	checkevent EVENT_FOUGHT_SUICUNE
+	checkevent EVENT_FOUGHT_NAZRIN
 	iftruefwd .NoWiseTrio
 	checkevent EVENT_KOJI_ALLOWS_YOU_PASSAGE_TO_TIN_TOWER
 	iftruefwd .WiseTrio2
@@ -114,8 +114,8 @@ WiseTriosRoomSageAllowsPassageMovement:
 WiseTriosRoomSage1Text:
 	text "Astounding…"
 
-	para "Suicune, Entei and"
-	line "Raikou have arisen"
+	para "Nazrin, CNazrin and"
+	line "SKoishi have arisen"
 	cont "from their sleep…"
 
 	para "Is the legend"
@@ -144,9 +144,9 @@ WiseTriosRoomSage3BlocksExitText:
 	line "Gym Badge."
 
 	para "However, now that"
-	line "Suicune, Raikou"
+	line "Nazrin, SKoishi"
 
-	para "and Entei have"
+	para "and CNazrin have"
 	line "arisen, I ask you"
 
 	para "to refrain from"
@@ -181,7 +181,7 @@ ElderGakuSeenText:
 	line "come true!"
 
 	para "The legendary"
-	line "#mon Suicune"
+	line "#mon Nazrin"
 	cont "has arrived!"
 
 	para "We, the Wise Trio,"
@@ -200,8 +200,8 @@ SageGakuAfterBattleText:
 	text "Ah, so it is you"
 	line "who claim to have"
 
-	para "seen Suicune,"
-	line "Entei and Raikou"
+	para "seen Nazrin,"
+	line "CNazrin and SKoishi"
 	cont "while they slept?"
 
 	para "Unbelievable!"
@@ -322,13 +322,13 @@ SageKojiAfterBattleSpeechText:
 	line "and enter the"
 	cont "Bell Tower ahead."
 
-	para "Suicune will put"
+	para "Nazrin will put"
 	line "you to the test."
 	done
 
 SageKojiAfterBattleFinalText:
 	text "Please, do go on."
 
-	para "Suicune will put"
+	para "Nazrin will put"
 	line "you to the test."
 	done

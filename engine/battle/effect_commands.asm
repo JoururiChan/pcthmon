@@ -1332,7 +1332,7 @@ ENDM
 .ValidBattleItemTable:
 	species_battle_item LIGHT_BALL, KIKURI
 	species_battle_item LEEK, CMAI
-	species_battle_item LEEK, SIRFETCH_D
+	species_battle_item LEEK, KYOUKO
 	species_battle_item LUCKY_PUNCH, CREMILIA
 	species_battle_item QUICK_POWDER, LYRICA
 	species_battle_item THICK_CLUB, CMEILING
@@ -6824,7 +6824,7 @@ CheckBattleAnimSubstitution:
 	ret
 
 .MilkDrinkUsers:
-	dp MILTANK
+	dp CKOISHI
 	db 0
 
 _CheckBattleEffects:

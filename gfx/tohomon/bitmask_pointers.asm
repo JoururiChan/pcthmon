@@ -196,78 +196,78 @@ BitmasksPointers:
 	dw CTenshiBitmasks
 	dw TenshiBitmasks
 	dw STenshiBitmasks
-	dw SwinubBitmasks
-	dw PiloswineBitmasks
-	dw CorsolaBitmasks
-	dw RemoraidBitmasks
-	dw OctilleryBitmasks
-	dw DelibirdBitmasks
-	dw MantineBitmasks
-	dw SkarmoryBitmasks
-	dw HoundourBitmasks
-	dw HoundoomBitmasks
-	dw KingdraBitmasks
-	dw PhanpyBitmasks
-	dw DonphanBitmasks
-	dw CLunasa2Bitmasks
-	dw StantlerBitmasks
-	dw SmeargleBitmasks
-	dw TyrogueBitmasks
-	dw HitmontopBitmasks
-	dw SmoochumBitmasks
-	dw ElekidBitmasks
-	dw MagbyBitmasks
-	dw MiltankBitmasks
-	dw BlisseyBitmasks
-	dw RaikouBitmasks
-	dw EnteiBitmasks
-	dw SuicuneBitmasks
-	dw LarvitarBitmasks
-	dw PupitarBitmasks
-	dw TyranitarBitmasks
-	dw LugiaBitmasks
-	dw HoOhBitmasks
-	dw CelebiBitmasks
-	dw AzurillBitmasks
-	dw WynautBitmasks
-	dw AmbipomBitmasks
+	dw CKisumeBitmasks
+	dw KisumeBitmasks
+	dw DKisumeBitmasks
+	dw CYamameBitmasks
+	dw YamameBitmasks
+	dw SYamameBitmasks
+	dw CParseeBitmasks
+	dw ParseeBitmasks
+	dw DParseeBitmasks
+	dw CYuugiBitmasks
+	dw YuugiBitmasks
+	dw AYuugiBitmasks
+	dw CSatoriBitmasks
+	dw SatoriBitmasks
+	dw HSatoriBitmasks
+	dw CRinBitmasks
+	dw RinBitmasks
+	dw HRinBitmasks
+	dw CUtsuhoBitmasks
+	dw UtsuhoBitmasks
+	dw AUtsuhoBitmasks
+	dw CKoishiBitmasks
+	dw KoishiBitmasks
+	dw SKoishiBitmasks
+	dw CNazrinBitmasks
+	dw NazrinBitmasks
+	dw HNazrinBitmasks
+	dw CKogasaBitmasks
+	dw KogasaBitmasks
+	dw TKogasaBitmasks
+	dw CIchirinBitmasks
+	dw IchirinBitmasks
+	dw AIchirinBitmasks
+	dw CMurasaBitmasks
+	dw MurasaBitmasks
 	dw EggBitmasks
 	dw EggBitmasks ; $100
-	dw MismagiusBitmasks
-	dw HonchkrowBitmasks
-	dw BonslyBitmasks
-	dw MimeJrBitmasks
-	dw HappinyBitmasks
-	dw MunchlaxBitmasks
-	dw MantykeBitmasks
-	dw WeavileBitmasks
-	dw MagnezoneBitmasks
-	dw LickilickyBitmasks
-	dw RhyperiorBitmasks
-	dw TangrowthBitmasks
-	dw ElectivireBitmasks
-	dw MagmortarBitmasks
-	dw TogekissBitmasks
-	dw YanmegaBitmasks
-	dw LeafeonBitmasks
-	dw GlaceonBitmasks
+	dw AMurasaBitmasks
+	dw CShouBitmasks
+	dw ShouBitmasks
+	dw AShouBitmasks
+	dw CByakurenBitmasks
+	dw ByakurenBitmasks
+	dw TByakurenBitmasks
+	dw CNueBitmasks
+	dw NueBitmasks
+	dw SNueBitmasks
+	dw CHatateBitmasks
+	dw HatateBitmasks
+	dw THatateBitmasks
+	dw CSunnyBitmasks
+	dw SunnyBitmasks
+	dw ASunnyBitmasks
+	dw CStarBitmasks
+	dw StarBitmasks
 	dw AMomijiBitmasks
-	dw MamoswineBitmasks
-	dw CLunasaZBitmasks
-	dw SylveonBitmasks
-	dw PerrserkerBitmasks
-	dw CursolaBitmasks
-	dw SirfetchDBitmasks
-	dw MrRimeBitmasks
-	dw WyrdeerBitmasks
-	dw KleavorBitmasks
-	dw UrsalunaBitmasks
-	dw SneaslerBitmasks
-	dw OverqwilBitmasks
-	dw PlacethmTwoSegmentBitmasks
-	dw FarigirafBitmasks
-	dw ClodsireBitmasks
-	dw AnnihilapeBitmasks
+	dw DStarBitmasks
+	dw CLunaBitmasks
+	dw LunaBitmasks
+	dw TLunaBitmasks
+	dw CKyoukoBitmasks
+	dw KyoukoBitmasks
+	dw CYoshikaBitmasks
+	dw YoshikaBitmasks
+	dw CSeigaBitmasks
+	dw SeigaBitmasks
+	dw CTojikoBitmasks
+	dw TojikoBitmasks
+	dw CFutoTwoSegmentBitmasks
+	dw MikoBitmasks
+	dw FutoBitmasks
+	dw CMikoBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw HinaBBitmasks
@@ -305,32 +305,12 @@ BitmasksPointers:
 
 	dw TTeiSpikyBitmasks
 
-	dw LilyBlackSkellyBitmasks
-	dw LilyBlackCalico1Bitmasks
-	dw LilyBlackCalico2Bitmasks
-	dw LilyBlackCalico3Bitmasks
-	dw LilyBlackTwoToneBitmasks
-	dw LilyBlackOrcaBitmasks
-	dw LilyBlackDapplesBitmasks
-	dw LilyBlackTigerBitmasks
-	dw LilyBlackZebraBitmasks
-	dw LilyBlackStripeBitmasks
-	dw LilyBlackBubblesBitmasks
-	dw LilyBlackDiamondsBitmasks
-	dw LilyBlackPatchesBitmasks
-	dw LilyBlackForehead1Bitmasks
-	dw LilyBlackMask1Bitmasks
-	dw LilyBlackForehead2Bitmasks
-	dw LilyBlackMask2Bitmasks
-	dw LilyBlackSaucyBitmasks
-	dw LilyBlackRaindropBitmasks
-
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
 	dw SLilyBlackRedBitmasks
 
 	dw SuikaArmoredBitmasks
 
-	dw PlacethmThreeSegmentBitmasks
+	dw CFutoThreeSegmentBitmasks
 
 	assert_table_length NUM_UNIQUE_TOHOMON

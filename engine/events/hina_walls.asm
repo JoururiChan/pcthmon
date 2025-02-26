@@ -1,4 +1,4 @@
-SpecialHoOhChamber:
+SpecialCIchirinChamber:
 	ld a, [wPartyMon1Species]
 	ld [wCurPartySpecies], a
 	ld [wCurSpecies], a
@@ -14,7 +14,7 @@ SpecialHoOhChamber:
 	ret nz
 
 .open
-	eventflagset EVENT_WALL_OPENED_IN_HO_OH_CHAMBER
+	eventflagset EVENT_WALL_OPENED_IN_CICHIRIN_CHAMBER
 	ret
 
 SpecialCYuyukoChamber:

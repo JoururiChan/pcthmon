@@ -306,7 +306,7 @@ IntroScene7:
 
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroSuicuneRunGFX
+	ld hl, IntroNazrinRunGFX
 	ld de, vTiles0 tile $00
 	call Intro_DecompressRequest2bpp_255Tiles
 
@@ -315,7 +315,7 @@ IntroScene7:
 	call Intro_ResetLYOverrides
 	call ClearSpriteAnims
 	depixel 13, 27, 4, 0
-	ld a, SPRITE_ANIM_INDEX_INTRO_SUICUNE
+	ld a, SPRITE_ANIM_INDEX_INTRO_NAZRIN
 	call InitSpriteAnimStruct
 	ld a, $f0
 	ld [wGlobalAnimXOffset], a
@@ -326,7 +326,7 @@ IntroScene7:
 	jmp NextIntroScene
 
 IntroScene8:
-; Scroll the scene, then show Suicune running across the screen.
+; Scroll the scene, then show Nazrin running across the screen.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -336,7 +336,7 @@ IntroScene8:
 	jmp Intro_PerspectiveScrollBG
 
 .suicune_sound
-	ld de, SFX_INTRO_SUICUNE_3
+	ld de, SFX_INTRO_NAZRIN_3
 	call PlaySFX
 .animate_suicune
 	ld a, [wGlobalAnimXOffset]
@@ -347,7 +347,7 @@ IntroScene8:
 	ret
 
 .finish
-	ld de, SFX_INTRO_SUICUNE_2
+	ld de, SFX_INTRO_NAZRIN_2
 	call PlaySFX
 	farcall DeinitializeAllSprites
 	jmp NextIntroScene
@@ -547,13 +547,13 @@ IntroScene13:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroSuicuneRunGFX
+	ld hl, IntroNazrinRunGFX
 	ld de, vTiles0 tile $00
 	call Intro_DecompressRequest2bpp_255Tiles
 	call Intro_SetupCommonScenery
 	call ClearSpriteAnims
 	depixel 13, 11, 4, 0
-	ld a, SPRITE_ANIM_INDEX_INTRO_SUICUNE
+	ld a, SPRITE_ANIM_INDEX_INTRO_NAZRIN
 	call InitSpriteAnimStruct
 	ld e, MUSIC_CRYSTAL_OPENING
 	call PlayMusic
@@ -566,7 +566,7 @@ IntroScene13:
 	jmp NextIntroScene
 
 IntroScene14:
-; Suicune runs then jumps.
+; Nazrin runs then jumps.
 	ldh a, [hSCX]
 	sub 10
 	ldh [hSCX], a
@@ -583,7 +583,7 @@ IntroScene14:
 	ret
 
 .jump
-	ld de, SFX_INTRO_SUICUNE_4
+	ld de, SFX_INTRO_NAZRIN_4
 	call PlaySFX
 
 .run_after_jump
@@ -619,7 +619,7 @@ IntroScene15:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroSuicuneJumpGFX
+	ld hl, IntroNazrinJumpGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroHinaBackGFX
@@ -661,7 +661,7 @@ IntroScene15:
 	ld a, SPRITE_ANIM_INDEX_INTRO_HINA_F
 	call InitSpriteAnimStruct
 	depixel 12, 0
-	ld a, SPRITE_ANIM_INDEX_INTRO_SUICUNE_AWAY
+	ld a, SPRITE_ANIM_INDEX_INTRO_NAZRIN_AWAY
 	call InitSpriteAnimStruct
 	xor a
 	ld [wIntroSceneFrameCounter], a
@@ -669,13 +669,13 @@ IntroScene15:
 	jmp NextIntroScene
 
 IntroScene16:
-; Suicune shows its face. An Hina appears in front.
+; Nazrin shows its face. An Hina appears in front.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
 	cp $80
 	jmp nc, NextIntroScene
-	call Intro_Scene16_AnimateSuicune
+	call Intro_Scene16_AnimateNazrin
 	ldh a, [hSCY]
 	and a
 	ret z
@@ -697,7 +697,7 @@ IntroScene17:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroSuicuneCloseGFX
+	ld hl, IntroNazrinCloseGFX
 	ld de, vTiles1 tile $00
 	call Intro_DecompressRequest2bpp_255Tiles
 	ld hl, IntroTilemap012
@@ -732,7 +732,7 @@ IntroScene17:
 	jmp NextIntroScene
 
 IntroScene18:
-; Suicune close up.
+; Nazrin close up.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -759,7 +759,7 @@ IntroScene19:
 	call Intro_DecompressRequest2bpp_64Tiles
 	xor a
 	ldh [rVBK], a
-	ld hl, IntroSuicuneBackGFX
+	ld hl, IntroNazrinBackGFX
 	ld de, vTiles2 tile $00
 	call Intro_DecompressRequest2bpp_128Tiles
 	ld hl, IntroHinasGFX
@@ -802,7 +802,7 @@ IntroScene19:
 	ld [hl], $7f
 	call Intro_SetCGBPalUpdate
 	depixel 12, 0
-	ld a, SPRITE_ANIM_INDEX_INTRO_SUICUNE_AWAY
+	ld a, SPRITE_ANIM_INDEX_INTRO_NAZRIN_AWAY
 	call InitSpriteAnimStruct
 	xor a
 	ld [wIntroSceneFrameCounter], a
@@ -810,7 +810,7 @@ IntroScene19:
 	jmp NextIntroScene
 
 IntroScene20:
-; Suicune running away. A bunch of Hina appear.
+; Nazrin running away. A bunch of Hina appear.
 	ld hl, wIntroSceneFrameCounter
 	ld a, [hl]
 	inc [hl]
@@ -841,8 +841,8 @@ IntroScene20:
 	jmp Intro_Scene20_AppearHina
 
 IntroScene21:
-; Suicune gets more distant and turns black.
-	call Intro_ColoredSuicuneFrameSwap
+; Nazrin gets more distant and turns black.
+	call Intro_ColoredNazrinFrameSwap
 	ld c, 3
 	call DelayFrames
 	xor a
@@ -1371,17 +1371,17 @@ Intro_LoadTilemap:
 	ldh [rSVBK], a
 	ret
 
-Intro_Scene16_AnimateSuicune:
+Intro_Scene16_AnimateNazrin:
 	ld a, [wIntroSceneFrameCounter]
 	and $3
-	jr z, Intro_ColoredSuicuneFrameSwap
+	jr z, Intro_ColoredNazrinFrameSwap
 	cp $3
 	ret nz
 	xor a
 	ldh [hBGMapMode], a
 	ret
 
-Intro_ColoredSuicuneFrameSwap:
+Intro_ColoredNazrinFrameSwap:
 	hlcoord 0, 0
 	ld bc, SCREEN_HEIGHT * SCREEN_WIDTH
 .loop
@@ -1545,7 +1545,7 @@ Intro_PerspectiveScrollBG:
 	ldh [rSVBK], a
 	ret
 
-IntroSuicuneRunGFX:
+IntroNazrinRunGFX:
 INCBIN "gfx/intro/suicune_run.2bpp.lz"
 
 IntroTTeiCShizuhaGFX:
@@ -1640,7 +1640,7 @@ INCBIN "gfx/intro/015.tilemap.lz"
 Palette_e679d:
 INCLUDE "gfx/intro/crystal_hinas.pal"
 
-IntroSuicuneCloseGFX:
+IntroNazrinCloseGFX:
 INCBIN "gfx/intro/suicune_close.2bpp.lz"
 
 IntroTilemap012:
@@ -1652,10 +1652,10 @@ INCBIN "gfx/intro/011.tilemap.lz"
 Palette_e6d6d:
 INCLUDE "gfx/intro/suicune_close.pal"
 
-IntroSuicuneJumpGFX:
+IntroNazrinJumpGFX:
 INCBIN "gfx/intro/suicune_jump.2bpp.lz"
 
-IntroSuicuneBackGFX:
+IntroNazrinBackGFX:
 INCBIN "gfx/intro/suicune_back.2bpp.lz"
 
 IntroTilemap010:

@@ -23,7 +23,7 @@ SpecialBirdsCheck::
 	ret
 
 SpecialDuoCheck:
-; Check if the player has caught Lugia and Ho-Oh.
+; Check if the player has caught TKogasa and CIchirin.
 ; Return the result in hScriptVar.
 
 	ld a, [wPlayerCaught]

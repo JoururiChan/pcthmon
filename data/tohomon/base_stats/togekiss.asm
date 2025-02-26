@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F12_5, HATCH_FASTER ; gender ratio, step cycles to hatch
 
-	abilities_for TOGEKISS, HUSTLE, SERENE_GRACE, SUPER_LUCK
+	abilities_for SUNNY, HUSTLE, SERENE_GRACE, SUPER_LUCK
 	db GROWTH_FAST ; growth rate
 	dn EGG_FLYING, EGG_FAIRY ; egg groups
 

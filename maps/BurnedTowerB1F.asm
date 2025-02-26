@@ -14,23 +14,23 @@ BurnedTowerB1F_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	tohomon_event  7,  3, RAIKOU, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
-	tohomon_event 12,  3, ENTEI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
-	tohomon_event 10,  4, SUICUNE, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
-	tohomon_event  7,  3, RAIKOU, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
-	tohomon_event 12,  3, ENTEI, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
-	tohomon_event 10,  4, SUICUNE, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
+	tohomon_event  7,  3, SKOISHI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BROWN, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
+	tohomon_event 12,  3, CNAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_RED, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
+	tohomon_event 10,  4, NAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_1
+	tohomon_event  7,  3, SKOISHI, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
+	tohomon_event 12,  3, CNAZRIN, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
+	tohomon_event 10,  4, NAZRIN, SPRITEMOVEDATA_STILL, -1, -1, PAL_NPC_WHITE, ClearText, EVENT_BURNED_TOWER_B1F_BEASTS_2
 	object_event 10, 12, SPRITE_EUSINE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BurnedTowerB1FEusine, EVENT_EUSINE_IN_BURNED_TOWER
 	strengthboulder_event 17, 8
 	tmhmball_event 16,  4, TM_FLAME_CHARGE, EVENT_BURNED_TOWER_B1F_TM_FLAME_CHARGE
 
 	object_const_def
-	const BURNEDTOWERB1F_RAIKOU1
-	const BURNEDTOWERB1F_ENTEI1
-	const BURNEDTOWERB1F_SUICUNE1
-	const BURNEDTOWERB1F_RAIKOU2
-	const BURNEDTOWERB1F_ENTEI2
-	const BURNEDTOWERB1F_SUICUNE2
+	const BURNEDTOWERB1F_SKOISHI1
+	const BURNEDTOWERB1F_CNAZRIN1
+	const BURNEDTOWERB1F_NAZRIN1
+	const BURNEDTOWERB1F_SKOISHI2
+	const BURNEDTOWERB1F_CNAZRIN2
+	const BURNEDTOWERB1F_NAZRIN2
 	const BURNEDTOWERB1F_EUSINE
 
 BurnedTowerB1FLadderCallback:
@@ -43,50 +43,50 @@ BurnedTowerB1FLadderCallback:
 ReleaseTheBeasts:
 	playmusic MUSIC_NONE
 	pause 30
-	appear BURNEDTOWERB1F_RAIKOU1
+	appear BURNEDTOWERB1F_SKOISHI1
 	turnobject PLAYER, UP
 	pause 5
-	disappear BURNEDTOWERB1F_RAIKOU2
+	disappear BURNEDTOWERB1F_SKOISHI2
 	pause 15
-	cry RAIKOU
-	appear BURNEDTOWERB1F_ENTEI1
+	cry SKOISHI
+	appear BURNEDTOWERB1F_CNAZRIN1
 	turnobject PLAYER, UP
 	pause 5
-	disappear BURNEDTOWERB1F_ENTEI2
+	disappear BURNEDTOWERB1F_CNAZRIN2
 	pause 15
-	cry ENTEI
-	appear BURNEDTOWERB1F_SUICUNE1
+	cry CNAZRIN
+	appear BURNEDTOWERB1F_NAZRIN1
 	turnobject PLAYER, UP
 	pause 5
-	disappear BURNEDTOWERB1F_SUICUNE2
+	disappear BURNEDTOWERB1F_NAZRIN2
 	pause 15
-	cry SUICUNE
+	cry NAZRIN
 	pause 15
 	playsound SFX_WARP_FROM
 	turnobject PLAYER, LEFT
-	applymovement BURNEDTOWERB1F_RAIKOU1, BurnedTowerRaikouMovement
-	disappear BURNEDTOWERB1F_RAIKOU1
+	applymovement BURNEDTOWERB1F_SKOISHI1, BurnedTowerSKoishiMovement
+	disappear BURNEDTOWERB1F_SKOISHI1
 	waitsfx
 	playsound SFX_WARP_FROM
 	turnobject PLAYER, RIGHT
-	applymovement BURNEDTOWERB1F_ENTEI1, BurnedTowerEnteiMovement
-	disappear BURNEDTOWERB1F_ENTEI1
+	applymovement BURNEDTOWERB1F_CNAZRIN1, BurnedTowerCNazrinMovement
+	disappear BURNEDTOWERB1F_CNAZRIN1
 	waitsfx
 	pause 15
 	playsound SFX_WARP_FROM
 	turnobject PLAYER, UP
-	applymovement BURNEDTOWERB1F_SUICUNE1, BurnedTowerSuicuneMovement1
+	applymovement BURNEDTOWERB1F_NAZRIN1, BurnedTowerNazrinMovement1
 	playsound SFX_WARP_FROM
 	turnobject PLAYER, DOWN
-	applymovement BURNEDTOWERB1F_SUICUNE1, BurnedTowerSuicuneMovement2
+	applymovement BURNEDTOWERB1F_NAZRIN1, BurnedTowerNazrinMovement2
 	turnobject PLAYER, UP
 	pause 20
-	cry SUICUNE
+	cry NAZRIN
 	pause 30
 	playsound SFX_WARP_FROM
-	applymovement BURNEDTOWERB1F_SUICUNE1, BurnedTowerSuicuneMovement3
+	applymovement BURNEDTOWERB1F_NAZRIN1, BurnedTowerNazrinMovement3
 	turnobject PLAYER, DOWN
-	disappear BURNEDTOWERB1F_SUICUNE1
+	disappear BURNEDTOWERB1F_NAZRIN1
 	waitsfx
 	special RestartMapMusic
 	setscene $1
@@ -94,7 +94,7 @@ ReleaseTheBeasts:
 	special InitRoamMons
 	setmapscene ECRUTEAK_GYM, $1
 	setmapscene CIANWOOD_CITY, $1
-	clearevent EVENT_SAW_SUICUNE_AT_CIANWOOD_CITY
+	clearevent EVENT_SAW_NAZRIN_AT_CIANWOOD_CITY
 	setevent EVENT_ECRUTEAK_GYM_GRAMPS
 	clearevent EVENT_ECRUTEAK_CITY_GRAMPS
 	setevent EVENT_BURNED_TOWER_MORTY
@@ -122,20 +122,20 @@ BurnedTowerB1FEusine:
 	waitsfx
 	end
 
-BurnedTowerRaikouMovement:
+BurnedTowerSKoishiMovement:
 	fix_facing
 	fast_jump_step_down
 	fast_jump_step_left
 	step_end
 
-BurnedTowerEnteiMovement:
+BurnedTowerCNazrinMovement:
 	fix_facing
 	fast_jump_step_right
 	fast_jump_step_down
 	fast_jump_step_right
 	step_end
 
-BurnedTowerSuicuneMovement1:
+BurnedTowerNazrinMovement1:
 	fix_facing
 	fast_jump_step_right
 	fast_jump_step_down
@@ -143,7 +143,7 @@ BurnedTowerSuicuneMovement1:
 	fast_jump_step_left
 	step_end
 
-BurnedTowerSuicuneMovement2:
+BurnedTowerNazrinMovement2:
 	fix_facing
 	fast_jump_step_left
 	fast_jump_step_up
@@ -151,7 +151,7 @@ BurnedTowerSuicuneMovement2:
 	fast_jump_step_right
 	step_end
 
-BurnedTowerSuicuneMovement3:
+BurnedTowerNazrinMovement3:
 	fix_facing
 	run_step_up
 	fast_jump_step_right
@@ -185,14 +185,14 @@ BurnedTowerB1FEusineText:
 
 	para "I was shocked!"
 
-	para "Suicune raced by"
+	para "Nazrin raced by"
 	line "like a blur, right"
 
 	para "in front of my"
 	line "eyes!"
 
 	para "For ten years I"
-	line "chased Suicune,"
+	line "chased Nazrin,"
 
 	para "and I finally got"
 	line "to see it."
@@ -214,7 +214,7 @@ BurnedTowerB1FEusineText:
 	line "get close."
 
 	para "I'm going to track"
-	line "Suicune."
+	line "Nazrin."
 
 	para "<PLAYER>, let's"
 	line "meet again!"

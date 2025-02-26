@@ -220,78 +220,78 @@
 	const CTENSHI   ; d9
 	const TENSHI     ; da
 	const STENSHI   ; db
-	const SWINUB     ; dc
-	const PILOSWINE  ; dd
-	const CORSOLA    ; de
-	const REMORAID   ; df
-	const OCTILLERY  ; e0
-	const DELIBIRD   ; e1
-	const MANTINE    ; e2
-	const SKARMORY   ; e3
-	const HOUNDOUR   ; e4
-	const HOUNDOOM   ; e5
-	const KINGDRA    ; e6
-	const PHANPY     ; e7
-	const DONPHAN    ; e8
-	const CLUNASA2   ; e9
-	const STANTLER   ; ea
-	const SMEARGLE   ; eb
-	const TYROGUE    ; ec
-	const HITMONTOP  ; ed
-	const SMOOCHUM   ; ee
-	const ELEKID     ; ef
-	const MAGBY      ; f0
-	const MILTANK    ; f1
-	const BLISSEY    ; f2
-	const RAIKOU     ; f3
-	const ENTEI      ; f4
-	const SUICUNE    ; f5
-	const LARVITAR   ; f6
-	const PUPITAR    ; f7
-	const TYRANITAR  ; f8
-	const LUGIA      ; f9
-	const HO_OH      ; fa
-	const CELEBI     ; fb
-	const AZURILL    ; fc
-	const WYNAUT     ; fd
-	const AMBIPOM    ; fe
+	const CKISUME     ; dc
+	const KISUME  ; dd
+	const DKISUME    ; de
+	const CYAMAME   ; df
+	const YAMAME  ; e0
+	const SYAMAME   ; e1
+	const CPARSEE    ; e2
+	const PARSEE   ; e3
+	const DPARSEE   ; e4
+	const CYUUGI   ; e5
+	const YUUGI    ; e6
+	const AYUUGI     ; e7
+	const CSATORI    ; e8
+	const SATORI   ; e9
+	const HSATORI   ; ea
+	const CRIN   ; eb
+	const RIN    ; ec
+	const HRIN  ; ed
+	const CUTSUHO   ; ee
+	const UTSUHO     ; ef
+	const AUTSUHO      ; f0
+	const CKOISHI    ; f1
+	const KOISHI    ; f2
+	const SKOISHI     ; f3
+	const CNAZRIN      ; f4
+	const NAZRIN    ; f5
+	const HNAZRIN   ; f6
+	const CKOGASA    ; f7
+	const KOGASA  ; f8
+	const TKOGASA      ; f9
+	const CICHIRIN      ; fa
+	const ICHIRIN     ; fb
+	const AICHIRIN    ; fc
+	const CMURASA     ; fd
+	const MURASA    ; fe
 	const EGG        ; ff
 	const_skip       ; 100 is unused
-	const MISMAGIUS  ; 101
-	const HONCHKROW  ; 102
-	const BONSLY     ; 103
-	const MIME_JR_   ; 104
-	const HAPPINY    ; 105
-	const MUNCHLAX   ; 106
-	const MANTYKE    ; 107
-	const WEAVILE    ; 108
-	const MAGNEZONE  ; 109
-	const LICKILICKY ; 10a
-	const RHYPERIOR  ; 10b
-	const TANGROWTH  ; 10c
-	const ELECTIVIRE ; 10d
-	const MAGMORTAR  ; 10e
-	const TOGEKISS   ; 10f
-	const YANMEGA    ; 110
-	const LEAFEON    ; 111
-	const GLACEON    ; 112
+	const AMURASA  ; 101
+	const CSHOU  ; 102
+	const SHOU     ; 103
+	const ASHOU_   ; 104
+	const CBYAKUREN    ; 105
+	const BYAKUREN   ; 106
+	const TBYAKUREN    ; 107
+	const CNUE    ; 108
+	const NUE  ; 109
+	const SNUE ; 10a
+	const CHATATE  ; 10b
+	const HATATE  ; 10c
+	const THATATE ; 10d
+	const CSUNNY  ; 10e
+	const SUNNY   ; 10f
+	const ASUNNY    ; 110
+	const CSTAR    ; 111
+	const STAR    ; 112
 	const AMOMIJI    ; 113
-	const MAMOSWINE  ; 114
-	const CLUNASA_Z  ; 115
+	const DSTAR  ; 114
+	const CLUNA  ; 115
 	const SYLVEON    ; 116
-	const PERRSERKER ; 117
-	const CURSOLA    ; 118
-	const SIRFETCH_D ; 119
-	const MR__RIME   ; 11a
-	const WYRDEER    ; 11b
-	const KLEAVOR    ; 11c
-	const URSALUNA   ; 11d
-	const SNEASLER   ; 11e
-	const OVERQWIL   ; 11f
-	const PLACETHM ; 120
-	const FARIGIRAF  ; 121
-	const CLODSIRE   ; 122
-	const ANNIHILAPE ; 123
+	const TLUNA ; 117
+	const CKYOUKO    ; 118
+	const KYOUKO ; 119
+	const CYOSHIKA   ; 11a
+	const YOSHIKA    ; 11b
+	const CSEIGA    ; 11c
+	const SEIGA   ; 11d
+	const CTOJIKO   ; 11e
+	const TOJIKO   ; 11f
+	const CFUTO ; 120
+	const MIKO  ; 121
+	const FUTO   ; 122
+	const CMIKO ; 123
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_TOHOMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
@@ -369,28 +369,6 @@ DEF NUM_KIKURI EQU ext_const_value - 1
 	ext_const_def 2
 	ext_const TTEI_SPIKY_EARED_FORM ; 148 (2)
 
-; lilyblack
-	ext_const_def 2
-	ext_const LILYBLACK_SKELLY_FORM    ; 149 (02)
-	ext_const LILYBLACK_CALICO1_FORM   ; 14a (03)
-	ext_const LILYBLACK_CALICO2_FORM   ; 14b (04)
-	ext_const LILYBLACK_CALICO3_FORM   ; 14c (05)
-	ext_const LILYBLACK_TWO_TONE_FORM  ; 14d (06)
-	ext_const LILYBLACK_ORCA_FORM      ; 14e (07)
-	ext_const LILYBLACK_DAPPLES_FORM   ; 14f (08)
-	ext_const LILYBLACK_TIGER_FORM     ; 150 (09)
-	ext_const LILYBLACK_ZEBRA_FORM     ; 151 (0a)
-	ext_const LILYBLACK_STRIPE_FORM    ; 152 (0b)
-	ext_const LILYBLACK_BUBBLES_FORM   ; 153 (0c)
-	ext_const LILYBLACK_DIAMONDS_FORM  ; 154 (0d)
-	ext_const LILYBLACK_PATCHES_FORM   ; 155 (0e)
-	ext_const LILYBLACK_FOREHEAD1_FORM ; 156 (0f)
-	ext_const LILYBLACK_MASK1_FORM     ; 157 (10)
-	ext_const LILYBLACK_FOREHEAD2_FORM ; 158 (11)
-	ext_const LILYBLACK_MASK2_FORM     ; 159 (12)
-	ext_const LILYBLACK_SAUCY_FORM     ; 15a (13)
-	ext_const LILYBLACK_RAINDROP_FORM  ; 15b (14)
-DEF NUM_LILYBLACK EQU ext_const_value - 1 ; 14
 
 DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 38
 
@@ -405,8 +383,8 @@ DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 	ext_const SUIKA_ARMORED_FORM ; 15d (2)
 
 ; placethm
-	ext_const_def 1, PLACETHM_TWO_SEGMENT_FORM ;     (1)
-	ext_const PLACETHM_THREE_SEGMENT_FORM      ; 15e (2)
+	ext_const_def 1, CFUTO_TWO_SEGMENT_FORM ;     (1)
+	ext_const CFUTO_THREE_SEGMENT_FORM      ; 15e (2)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2d
 

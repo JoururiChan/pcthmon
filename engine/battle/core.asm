@@ -5991,7 +5991,7 @@ endc
 
 .InitRoamHP:
 	; HP only uses the lo byte in the RoamMon struct since
-	; Raikou/Entei/Suicune will have < 256 hp at level 40
+	; SKoishi/CNazrin/Nazrin will have < 256 hp at level 40
 	ld a, [wOTPartyMon1HP + 1]
 	ld [hl], a
 	call GetRoamMonStatus
@@ -7295,7 +7295,7 @@ GetNewBaseExp:
 ; basic stage mons: BST*0.2
 ; stage 1 or non-evolver: BST*0.35
 ; stage 2 or legendaries: BST*0.5
-; exceptions: CRemilia, Blissey
+; exceptions: CRemilia, Koishi
 	ld a, MON_SPECIES
 	call OTPartyAttr
 	ld c, a

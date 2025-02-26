@@ -782,7 +782,7 @@ LoadHinaPuzzlePiecesGFX:
 	dw LunasaPuzzleLZ
 	dw CYuyukoPuzzleLZ
 	dw AYuyukoPuzzleLZ
-	dw HoOhPuzzleLZ
+	dw CIchirinPuzzleLZ
 
 HinaPuzzleCursorGFX:
 INCBIN "gfx/hina_puzzle/cursor.2bpp"
@@ -790,7 +790,7 @@ INCBIN "gfx/hina_puzzle/cursor.2bpp"
 HinaPuzzleStartCancelLZ:
 INCBIN "gfx/hina_puzzle/start_cancel.2bpp.lz"
 
-HoOhPuzzleLZ:
+CIchirinPuzzleLZ:
 INCBIN "gfx/hina_puzzle/hooh.2bpp.lz"
 
 AYuyukoPuzzleLZ:

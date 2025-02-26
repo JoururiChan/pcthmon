@@ -17,7 +17,7 @@ KurtsHouse_MapScriptHeader:
 	bg_event  5,  1, BGEVENT_READ, TohomonJournalProfWestwoodScript
 	bg_event  2,  1, BGEVENT_READ, TohomonJournalProfWestwoodScript
 	bg_event  3,  1, BGEVENT_READ, TohomonJournalProfWestwoodScript
-	bg_event  4,  1, BGEVENT_JUMPTEXT, KurtsHouseCelebiStatueText
+	bg_event  4,  1, BGEVENT_JUMPTEXT, KurtsHouseIchirinStatueText
 
 	def_object_events
 	object_event  3,  2, SPRITE_KURT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Kurt1, EVENT_KURTS_HOUSE_KURT_1
@@ -664,7 +664,7 @@ KurtsHouseOakPhotoText:
 	line "Oak?"
 	done
 
-KurtsHouseCelebiStatueText:
+KurtsHouseIchirinStatueText:
 	text "It's a statue of"
 	line "the forest's pro-"
 	cont "tector."

@@ -196,78 +196,78 @@ AnimationExtraPointers:
 	dw CTenshiAnimationExtra
 	dw TenshiAnimationExtra
 	dw STenshiAnimationExtra
-	dw SwinubAnimationExtra
-	dw PiloswineAnimationExtra
-	dw CorsolaAnimationExtra
-	dw RemoraidAnimationExtra
-	dw OctilleryAnimationExtra
-	dw DelibirdAnimationExtra
-	dw MantineAnimationExtra
-	dw SkarmoryAnimationExtra
-	dw HoundourAnimationExtra
-	dw HoundoomAnimationExtra
-	dw KingdraAnimationExtra
-	dw PhanpyAnimationExtra
-	dw DonphanAnimationExtra
-	dw CLunasa2AnimationExtra
-	dw StantlerAnimationExtra
-	dw SmeargleAnimationExtra
-	dw TyrogueAnimationExtra
-	dw HitmontopAnimationExtra
-	dw SmoochumAnimationExtra
-	dw ElekidAnimationExtra
-	dw MagbyAnimationExtra
-	dw MiltankAnimationExtra
-	dw BlisseyAnimationExtra
-	dw RaikouAnimationExtra
-	dw EnteiAnimationExtra
-	dw SuicuneAnimationExtra
-	dw LarvitarAnimationExtra
-	dw PupitarAnimationExtra
-	dw TyranitarAnimationExtra
-	dw LugiaAnimationExtra
-	dw HoOhAnimationExtra
-	dw CelebiAnimationExtra
-	dw AzurillAnimationExtra
-	dw WynautAnimationExtra
-	dw AmbipomAnimationExtra
+	dw CKisumeAnimationExtra
+	dw KisumeAnimationExtra
+	dw DKisumeAnimationExtra
+	dw CYamameAnimationExtra
+	dw YamameAnimationExtra
+	dw SYamameAnimationExtra
+	dw CParseeAnimationExtra
+	dw ParseeAnimationExtra
+	dw DParseeAnimationExtra
+	dw CYuugiAnimationExtra
+	dw YuugiAnimationExtra
+	dw AYuugiAnimationExtra
+	dw CSatoriAnimationExtra
+	dw SatoriAnimationExtra
+	dw HSatoriAnimationExtra
+	dw CRinAnimationExtra
+	dw RinAnimationExtra
+	dw HRinAnimationExtra
+	dw CUtsuhoAnimationExtra
+	dw UtsuhoAnimationExtra
+	dw AUtsuhoAnimationExtra
+	dw CKoishiAnimationExtra
+	dw KoishiAnimationExtra
+	dw SKoishiAnimationExtra
+	dw CNazrinAnimationExtra
+	dw NazrinAnimationExtra
+	dw HNazrinAnimationExtra
+	dw CKogasaAnimationExtra
+	dw KogasaAnimationExtra
+	dw TKogasaAnimationExtra
+	dw CIchirinAnimationExtra
+	dw IchirinAnimationExtra
+	dw AIchirinAnimationExtra
+	dw CMurasaAnimationExtra
+	dw MurasaAnimationExtra
 	dw EggAnimationExtra
 	dw EggAnimationExtra ; $100
-	dw MismagiusAnimationExtra
-	dw HonchkrowAnimationExtra
-	dw BonslyAnimationExtra
-	dw MimeJrAnimationExtra
-	dw HappinyAnimationExtra
-	dw MunchlaxAnimationExtra
-	dw MantykeAnimationExtra
-	dw WeavileAnimationExtra
-	dw MagnezoneAnimationExtra
-	dw LickilickyAnimationExtra
-	dw RhyperiorAnimationExtra
-	dw TangrowthAnimationExtra
-	dw ElectivireAnimationExtra
-	dw MagmortarAnimationExtra
-	dw TogekissAnimationExtra
-	dw YanmegaAnimationExtra
-	dw LeafeonAnimationExtra
-	dw GlaceonAnimationExtra
+	dw AMurasaAnimationExtra
+	dw CShouAnimationExtra
+	dw ShouAnimationExtra
+	dw AShouAnimationExtra
+	dw CByakurenAnimationExtra
+	dw ByakurenAnimationExtra
+	dw TByakurenAnimationExtra
+	dw CNueAnimationExtra
+	dw NueAnimationExtra
+	dw SNueAnimationExtra
+	dw CHatateAnimationExtra
+	dw HatateAnimationExtra
+	dw THatateAnimationExtra
+	dw CSunnyAnimationExtra
+	dw SunnyAnimationExtra
+	dw ASunnyAnimationExtra
+	dw CStarAnimationExtra
+	dw StarAnimationExtra
 	dw AMomijiAnimationExtra
-	dw MamoswineAnimationExtra
-	dw CLunasaZAnimationExtra
-	dw SylveonAnimationExtra
-	dw PerrserkerAnimationExtra
-	dw CursolaAnimationExtra
-	dw SirfetchDAnimationExtra
-	dw MrRimeAnimationExtra
-	dw WyrdeerAnimationExtra
-	dw KleavorAnimationExtra
-	dw UrsalunaAnimationExtra
-	dw SneaslerAnimationExtra
-	dw OverqwilAnimationExtra
-	dw PlacethmTwoSegmentAnimationExtra
-	dw FarigirafAnimationExtra
-	dw ClodsireAnimationExtra
-	dw AnnihilapeAnimationExtra
+	dw DStarAnimationExtra
+	dw CLunaAnimationExtra
+	dw LunaAnimationExtra
+	dw TLunaAnimationExtra
+	dw CKyoukoAnimationExtra
+	dw KyoukoAnimationExtra
+	dw CYoshikaAnimationExtra
+	dw YoshikaAnimationExtra
+	dw CSeigaAnimationExtra
+	dw SeigaAnimationExtra
+	dw CTojikoAnimationExtra
+	dw TojikoAnimationExtra
+	dw CFutoTwoSegmentAnimationExtra
+	dw MikoAnimationExtra
+	dw FutoAnimationExtra
+	dw CMikoAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw HinaBAnimationExtra
@@ -306,32 +306,12 @@ AnimationExtraPointers:
 
 	dw TTeiSpikyAnimationExtra
 
-	dw LilyBlackSkellyAnimationExtra
-	dw LilyBlackCalico1AnimationExtra
-	dw LilyBlackCalico2AnimationExtra
-	dw LilyBlackCalico3AnimationExtra
-	dw LilyBlackTwoToneAnimationExtra
-	dw LilyBlackOrcaAnimationExtra
-	dw LilyBlackDapplesAnimationExtra
-	dw LilyBlackTigerAnimationExtra
-	dw LilyBlackZebraAnimationExtra
-	dw LilyBlackStripeAnimationExtra
-	dw LilyBlackBubblesAnimationExtra
-	dw LilyBlackDiamondsAnimationExtra
-	dw LilyBlackPatchesAnimationExtra
-	dw LilyBlackForehead1AnimationExtra
-	dw LilyBlackMask1AnimationExtra
-	dw LilyBlackForehead2AnimationExtra
-	dw LilyBlackMask2AnimationExtra
-	dw LilyBlackSaucyAnimationExtra
-	dw LilyBlackRaindropAnimationExtra
-
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
 	dw SLilyBlackRedAnimationExtra
 
 	dw SuikaArmoredAnimationExtra
 
-	dw PlacethmThreeSegmentAnimationExtra
+	dw CFutoThreeSegmentAnimationExtra
 
 	assert_table_length NUM_UNIQUE_TOHOMON

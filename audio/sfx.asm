@@ -5401,7 +5401,7 @@ Sfx_LyricaRecollect:
 	sound_ret
 
 
-Sfx_IntroSuicune1:
+Sfx_IntroNazrin1:
 	channel_count 1
 	channel 8, .Ch8
 
@@ -5425,7 +5425,7 @@ Sfx_IntroTTei:
 	sound_ret
 
 
-Sfx_IntroSuicune2:
+Sfx_IntroNazrin2:
 	channel_count 1
 	channel 8, .Ch8
 
@@ -5449,7 +5449,7 @@ Sfx_IntroSuicune2:
 	sound_ret
 
 
-Sfx_IntroSuicune3:
+Sfx_IntroNazrin3:
 	channel_count 1
 	channel 8, .Ch8
 
@@ -5476,7 +5476,7 @@ Sfx_LyricaBounce:
 	sound_ret
 
 
-Sfx_IntroSuicune4:
+Sfx_IntroNazrin4:
 	channel_count 1
 	channel 8, .Ch8
 

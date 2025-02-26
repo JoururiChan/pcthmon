@@ -1,29 +1,29 @@
-; Tohomon: The Movie 2000 - Lugia's Song
+; Tohomon: The Movie 2000 - TKogasa's Song
 ; Demixed by Mmmmmm
 ; https://pastebin.com/UikDn8qP
 
-Music_LugiasSong2000:
+Music_TKogasasSong2000:
 	channel_count 4
-	channel 1, Music_LugiasSong2000_Ch1
-	channel 2, Music_LugiasSong2000_Ch2
-	channel 3, Music_LugiasSong2000_Ch3
-	channel 4, Music_LugiasSong2000_Ch4
+	channel 1, Music_TKogasasSong2000_Ch1
+	channel 2, Music_TKogasasSong2000_Ch2
+	channel 3, Music_TKogasasSong2000_Ch3
+	channel 4, Music_TKogasasSong2000_Ch4
 
-Music_LugiasSong2000_NoIntro:
+Music_TKogasasSong2000_NoIntro:
 	channel_count 3
-	channel 1, Music_LugiasSong2000_Ch1_loop_main
-	channel 2, Music_LugiasSong2000_Ch2_loop_main
-	channel 3, Music_LugiasSong2000_Ch3_loop
+	channel 1, Music_TKogasasSong2000_Ch1_loop_main
+	channel 2, Music_TKogasasSong2000_Ch2_loop_main
+	channel 3, Music_TKogasasSong2000_Ch3_loop
 
-Music_LugiasSong2000_Ch1:
+Music_TKogasasSong2000_Ch1:
 	duty_cycle 3
 	vibrato 18, 1, 5
 	pitch_offset 1
 	tempo 136
 	note_type 12, 6, 0
-Music_LugiasSong2000_Ch1_loop_1:
+Music_TKogasasSong2000_Ch1_loop_1:
 	rest 8
-	sound_loop 16, Music_LugiasSong2000_Ch1_loop_1
+	sound_loop 16, Music_TKogasasSong2000_Ch1_loop_1
 	rest 8
 	octave 2
 	note E_, 16
@@ -44,18 +44,18 @@ Music_LugiasSong2000_Ch1_loop_1:
 	note C_, 12
 	volume_envelope 6, 7
 	note C_, 4
-Music_LugiasSong2000_Ch1_loop_main:
+Music_TKogasasSong2000_Ch1_loop_main:
 	tempo 156
 	sound_ret
 
-Music_LugiasSong2000_Ch2:
+Music_TKogasasSong2000_Ch2:
 	duty_cycle 0
 	vibrato 18, 1, 5
 	pitch_offset 1
 	note_type 12, 1, 0
-Music_LugiasSong2000_Ch2_loop_1:
+Music_TKogasasSong2000_Ch2_loop_1:
 	rest 16
-	sound_loop 4, Music_LugiasSong2000_Ch2_loop_1
+	sound_loop 4, Music_TKogasasSong2000_Ch2_loop_1
 	octave 2
 	note B_, 16
 	note B_, 16
@@ -96,7 +96,7 @@ Music_LugiasSong2000_Ch2_loop_1:
 	note E_, 16
 	volume_envelope 6, 7
 	note E_, 16
-Music_LugiasSong2000_Ch2_loop_main:
+Music_TKogasasSong2000_Ch2_loop_main:
 	duty_cycle 0
 	note_type 12, 7, 4
 	octave 2
@@ -285,19 +285,19 @@ Music_LugiasSong2000_Ch2_loop_main:
 	note E_, 4
 	note F#, 4
 	note E_, 4
-	sound_jump Music_LugiasSong2000_Ch2_loop_main
+	sound_jump Music_TKogasasSong2000_Ch2_loop_main
 
-Music_LugiasSong2000_Ch3:
+Music_TKogasasSong2000_Ch3:
 	note_type 12, 2, 3
 	vibrato 8, 1, 6
-	sound_call Music_LugiasSong2000_Ch3_branch_1
+	sound_call Music_TKogasasSong2000_Ch3_branch_1
 	note B_, 8
-	sound_call Music_LugiasSong2000_Ch3_branch_2
-Music_LugiasSong2000_Ch3_loop:
+	sound_call Music_TKogasasSong2000_Ch3_branch_2
+Music_TKogasasSong2000_Ch3_loop:
 	vibrato 8, 1, 6
 	note_type 12, 1, 3
-	sound_call Music_LugiasSong2000_Ch3_branch_1
-	sound_call Music_LugiasSong2000_Ch3_branch_2
+	sound_call Music_TKogasasSong2000_Ch3_branch_1
+	sound_call Music_TKogasasSong2000_Ch3_branch_2
 	note E_, 8
 	note G_, 8
 	note F#, 12
@@ -324,10 +324,10 @@ Music_LugiasSong2000_Ch3_loop:
 	note_type 12, 1, 3
 	note B_, 12
 	note B_, 12
-	sound_call Music_LugiasSong2000_Ch3_branch_2
-	sound_jump Music_LugiasSong2000_Ch3_loop
+	sound_call Music_TKogasasSong2000_Ch3_branch_2
+	sound_jump Music_TKogasasSong2000_Ch3_loop
 
-Music_LugiasSong2000_Ch3_branch_1:
+Music_TKogasasSong2000_Ch3_branch_1:
 	octave 5
 	note E_, 8
 	note G_, 8
@@ -350,7 +350,7 @@ Music_LugiasSong2000_Ch3_branch_1:
 	note B_, 12
 	sound_ret
 
-Music_LugiasSong2000_Ch3_branch_2:
+Music_TKogasasSong2000_Ch3_branch_2:
 	note_type 6, 1, 3
 	octave 6
 	note E_, 16
@@ -388,12 +388,12 @@ Music_LugiasSong2000_Ch3_branch_2:
 	volume_envelope 1, 3
 	sound_ret
 
-Music_LugiasSong2000_Ch4:
+Music_TKogasasSong2000_Ch4:
 	toggle_noise 3
 	drum_speed 12
-Music_LugiasSong2000_Ch4_loop_1:
+Music_TKogasasSong2000_Ch4_loop_1:
 	rest 16
-	sound_loop 8, Music_LugiasSong2000_Ch4_loop_1
+	sound_loop 8, Music_TKogasasSong2000_Ch4_loop_1
 	drum_speed 6
 	drum_note 2, 2
 	drum_note 2, 2

@@ -20,11 +20,11 @@ Cry_CKeine:
 	channel 6, Cry_CKeine_Ch6
 	channel 8, Cry_CKeine_Ch8
 
-Cry_Raikou:
+Cry_SKoishi:
 	channel_count 3
-	channel 5, Cry_Raikou_Ch5
-	channel 6, Cry_Raikou_Ch6
-	channel 8, Cry_Raikou_Ch8
+	channel 5, Cry_SKoishi_Ch5
+	channel 6, Cry_SKoishi_Ch6
+	channel 8, Cry_SKoishi_Ch8
 
 Cry_SWriggle:
 	channel_count 3
@@ -88,11 +88,11 @@ Cry_CShizuha:
 	channel 6, Cry_CShizuha_Ch6
 	channel 8, Cry_CShizuha_Ch8
 
-Cry_Donphan:
+Cry_CSatori:
 	channel_count 3
-	channel 5, Cry_Donphan_Ch5
-	channel 6, Cry_Donphan_Ch6
-	channel 8, Cry_Donphan_Ch8
+	channel 5, Cry_CSatori_Ch5
+	channel 6, Cry_CSatori_Ch6
+	channel 8, Cry_CSatori_Ch8
 
 Cry_TReisen:
 	channel_count 3
@@ -112,11 +112,11 @@ Cry_AIku:
 	channel 6, Cry_AIku_Ch6
 	channel 8, Cry_AIku_Ch8
 
-Cry_Remoraid:
+Cry_CYamame:
 	channel_count 3
-	channel 5, Cry_Remoraid_Ch5
-	channel 6, Cry_Remoraid_Ch6
-	channel 8, Cry_Remoraid_Ch8
+	channel 5, Cry_CYamame_Ch5
+	channel 6, Cry_CYamame_Ch6
+	channel 8, Cry_CYamame_Ch8
 
 Cry_AMokou:
 	channel_count 3
@@ -142,11 +142,11 @@ Cry_TTei:
 	channel 6, Cry_TTei_Ch6
 	channel 8, Cry_TTei_Ch8
 
-Cry_Tyrogue:
+Cry_Rin:
 	channel_count 3
-	channel 5, Cry_Tyrogue_Ch5
-	channel 6, Cry_Tyrogue_Ch6
-	channel 8, Cry_Tyrogue_Ch8
+	channel 5, Cry_Rin_Ch5
+	channel 6, Cry_Rin_Ch6
+	channel 8, Cry_Rin_Ch8
 
 Cry_CMomiji:
 	channel_count 3
@@ -160,19 +160,19 @@ Cry_STenshi:
 	channel 6, Cry_STenshi_Ch6
 	channel 8, Cry_STenshi_Ch8
 
-Cry_Entei:
+Cry_CNazrin:
 	channel_count 3
-	channel 5, Cry_Entei_Ch5
-	channel 6, Cry_Entei_Ch6
-	channel 8, Cry_Entei_Ch8
+	channel 5, Cry_CNazrin_Ch5
+	channel 6, Cry_CNazrin_Ch6
+	channel 8, Cry_CNazrin_Ch8
 
-Cry_Mantine:
+Cry_CParsee:
 	channel_count 3
-	channel 5, Cry_Mantine_Ch5
-	channel 6, Cry_Mantine_Ch6
-	channel 8, Cry_Mantine_Ch8
+	channel 5, Cry_CParsee_Ch5
+	channel 6, Cry_CParsee_Ch6
+	channel 8, Cry_CParsee_Ch8
 
-Cry_Entei_Ch5:
+Cry_CNazrin_Ch5:
 	pitch_sweep 15, -7
 	duty_cycle_pattern 1, 2, 0, 3
 	square_note 1, 15, 8, 1528
@@ -182,7 +182,7 @@ Cry_Entei_Ch5:
 	pitch_sweep 8, 8
 	sound_ret
 
-Cry_Entei_Ch6:
+Cry_CNazrin_Ch6:
 	duty_cycle_pattern 0, 3, 0, 3
 	square_note 1, 12, 8, 1600
 	square_note 6, 15, -7, 1640
@@ -190,7 +190,7 @@ Cry_Entei_Ch6:
 	square_note 20, 10, 2, 1188
 	sound_ret
 
-Cry_Entei_Ch8:
+Cry_CNazrin_Ch8:
 	noise_note 10, 13, 6, 106
 	noise_note 6, 11, -4, 108
 	noise_note 6, 14, 2, 92
@@ -389,7 +389,7 @@ Cry_CKeine_Ch8:
 	noise_note 6, 9, 3, 0
 	sound_ret
 
-Cry_Raikou_Ch5:
+Cry_SKoishi_Ch5:
 	duty_cycle_pattern 3, 3, 2, 0
 	square_note 2, 15, 1, 1200
 	square_note 2, 15, 7, 1424
@@ -400,7 +400,7 @@ Cry_Raikou_Ch5:
 	square_note 16, 15, 2, 1680
 	sound_ret
 
-Cry_Raikou_Ch6:
+Cry_SKoishi_Ch6:
 	duty_cycle_pattern 3, 3, 0, 2
 	square_note 2, 15, 1, 1824
 	square_note 2, 14, 1, 1616
@@ -412,7 +412,7 @@ Cry_Raikou_Ch6:
 	square_note 16, 14, 2, 1696
 	sound_ret
 
-Cry_Raikou_Ch8:
+Cry_SKoishi_Ch8:
 	noise_note 2, 8, -1, 46
 	noise_note 2, 9, -1, 31
 	noise_note 4, 8, -1, 78
@@ -587,7 +587,7 @@ Cry_Mystia_Ch8:
 	sound_ret
 
 Cry_CShizuha_Ch5:
-Cry_Donphan_Ch5:
+Cry_CSatori_Ch5:
 	duty_cycle 2
 	square_note 2, 9, -1, 1816
 	square_note 4, 10, -3, 1826
@@ -598,7 +598,7 @@ Cry_Donphan_Ch5:
 	sound_ret
 
 Cry_CShizuha_Ch6:
-Cry_Donphan_Ch6:
+Cry_CSatori_Ch6:
 	duty_cycle_pattern 0, 0, 1, 3
 	square_note 2, 11, -1, 1848
 	square_note 4, 12, -3, 1858
@@ -616,7 +616,7 @@ Cry_CShizuha_Ch8:
 	noise_note 16, 5, 1, 4
 	sound_ret
 
-Cry_Donphan_Ch8:
+Cry_CSatori_Ch8:
 	noise_note 2, 8, -3, 89
 	noise_note 4, 10, 8, 106
 	noise_note 8, 10, 8, 112
@@ -668,37 +668,37 @@ Cry_TReisen_Ch8:
 
 Cry_Kaguya_Ch5:
 	duty_cycle_pattern 3, 1, 3, 2
-Cry_Mantine_branch_f32e9:
-Cry_Remoraid_branch_f32e9:
+Cry_CParsee_branch_f32e9:
+Cry_CYamame_branch_f32e9:
 	square_note 4, 15, 8, 1969
 	square_note 4, 15, 8, 1968
 	square_note 4, 4, 8, 1967
-Cry_Mantine_branch_f32f5:
+Cry_CParsee_branch_f32f5:
 	square_note 4, 15, 8, 1970
 	square_note 4, 15, 8, 1971
 	square_note 4, 4, 8, 1972
 	sound_ret
 
-Cry_Mantine_branch_f3302:
+Cry_CParsee_branch_f3302:
 Cry_Kaguya_Ch6:
-Cry_Remoraid_Ch6:
+Cry_CYamame_Ch6:
 	duty_cycle_pattern 3, 3, 0, 2
 	square_note 4, 15, 8, 1970
 	square_note 4, 15, 8, 1969
 	square_note 4, 2, 8, 1968
-Cry_Mantine_branch_f3310:
+Cry_CParsee_branch_f3310:
 	square_note 4, 15, 8, 1972
 	square_note 4, 15, 8, 1974
 	square_note 4, 4, 8, 1976
 	sound_ret
 
-Cry_Mantine_branch_f331d:
+Cry_CParsee_branch_f331d:
 Cry_Kaguya_Ch8:
-Cry_Remoraid_Ch8:
+Cry_CYamame_Ch8:
 	noise_note 4, 8, 8, 5
 	noise_note 4, 8, 8, 4
 	noise_note 4, 3, 8, 3
-Cry_Mantine_branch_f3326:
+Cry_CParsee_branch_f3326:
 	noise_note 4, 8, 8, 5
 	noise_note 4, 8, 8, 4
 	noise_note 4, 8, 7, 4
@@ -709,24 +709,24 @@ Cry_AIku_Ch8:
 	noise_note 8, 10, 1, 90
 	sound_ret
 
-Cry_Remoraid_Ch5:
+Cry_CYamame_Ch5:
 	duty_cycle 0
-	sound_jump Cry_Remoraid_branch_f32e9
+	sound_jump Cry_CYamame_branch_f32e9
 
-Cry_Mantine_Ch5:
+Cry_CParsee_Ch5:
 	duty_cycle 0
-	sound_call Cry_Mantine_branch_f32e9
-	sound_call Cry_Mantine_branch_f32f5
+	sound_call Cry_CParsee_branch_f32e9
+	sound_call Cry_CParsee_branch_f32f5
 	sound_ret
 
-Cry_Mantine_Ch6:
-	sound_call Cry_Mantine_branch_f3302
-	sound_call Cry_Mantine_branch_f3310
+Cry_CParsee_Ch6:
+	sound_call Cry_CParsee_branch_f3302
+	sound_call Cry_CParsee_branch_f3310
 	sound_ret
 
-Cry_Mantine_Ch8:
-	sound_call Cry_Mantine_branch_f331d
-	sound_call Cry_Mantine_branch_f3326
+Cry_CParsee_Ch8:
+	sound_call Cry_CParsee_branch_f331d
+	sound_call Cry_CParsee_branch_f3326
 	sound_ret
 
 Cry_AMokou_Ch5:
@@ -816,7 +816,7 @@ Cry_CAya_Ch8:
 	noise_note 2, 6, 1, 107
 	sound_ret
 
-Cry_Tyrogue_Ch5:
+Cry_Rin_Ch5:
 	duty_cycle_pattern 3, 1, 0, 2
 	square_note 3, 15, 8, 1712
 	square_note 1, 15, 8, 1701
@@ -827,24 +827,24 @@ Cry_Tyrogue_Ch5:
 	square_note 20, 15, 2, 1806
 	sound_ret
 
-Cry_Tyrogue_Ch6:
+Cry_Rin_Ch6:
 	duty_cycle_pattern 0, 2, 1, 3
-Cry_Tyrogue_branch_f3443:
+Cry_Rin_branch_f3443:
 	square_note 1, 15, 1, 1972
-	sound_loop 8, Cry_Tyrogue_branch_f3443
-Cry_Tyrogue_branch_f344b:
+	sound_loop 8, Cry_Rin_branch_f3443
+Cry_Rin_branch_f344b:
 	square_note 1, 12, 1, 1936
-	sound_loop 3, Cry_Tyrogue_branch_f344b
-Cry_Tyrogue_branch_f3453:
+	sound_loop 3, Cry_Rin_branch_f344b
+Cry_Rin_branch_f3453:
 	square_note 1, 11, 1, 1933
-	sound_loop 2, Cry_Tyrogue_branch_f3453
+	sound_loop 2, Cry_Rin_branch_f3453
 	square_note 16, 9, 2, 1941
 	sound_ret
 
-Cry_Tyrogue_Ch8:
-Cry_Tyrogue_branch_f3460:
+Cry_Rin_Ch8:
+Cry_Rin_branch_f3460:
 	noise_note 0, 15, 1, 40
-	sound_loop 4, Cry_Tyrogue_branch_f3460
+	sound_loop 4, Cry_Rin_branch_f3460
 	noise_note 0, 9, 1, 73
 	noise_note 1, 10, 8, 74
 	noise_note 0, 14, 1, 75

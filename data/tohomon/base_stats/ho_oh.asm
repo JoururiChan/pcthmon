@@ -8,9 +8,9 @@
 	dn GENDER_UNKNOWN, HATCH_UNKNOWN ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for HO_OH, PRESSURE, PRESSURE, REGENERATOR
+	abilities_for CICHIRIN, PRESSURE, PRESSURE, REGENERATOR
 else
-	abilities_for HO_OH, PRESSURE, DROUGHT, REGENERATOR
+	abilities_for CICHIRIN, PRESSURE, DROUGHT, REGENERATOR
 endc
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups

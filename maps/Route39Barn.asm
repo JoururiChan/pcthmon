@@ -12,7 +12,7 @@ Route39Barn_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  3,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_TOHOMON, 0, MILTANK, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, NO_FORM, MooMoo, -1
+	object_event  3,  3, SPRITE_MON_ICON, SPRITEMOVEDATA_TOHOMON, 0, CKOISHI, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, NO_FORM, MooMoo, -1
 	object_event  2,  3, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route39BarnTwin1Script, -1
 	object_event  4,  3, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route39BarnTwin2Script, -1
 
@@ -57,7 +57,7 @@ MooMoo:
 	iftruefwd .HappyCow
 	opentext
 	writetext Text_WeakMoo
-	setmonval MILTANK
+	setmonval CKOISHI
 	special PlaySlowCry
 	promptbutton
 	writetext Text_ItsCryIsWeak
@@ -132,7 +132,7 @@ MooMoo:
 	jumpopenedtext Text_TotallyHealthy
 
 .HappyCow:
-	showcrytext MoomooHappyMooText, MILTANK
+	showcrytext MoomooHappyMooText, CKOISHI
 	end
 
 Text_MoomooIsSick:
@@ -148,7 +148,7 @@ Text_WereFeedingMoomoo:
 	done
 
 Text_WeakMoo:
-	text "Miltank: …Moo…"
+	text "CKoishi: …Moo…"
 	done
 
 Text_ItsCryIsWeak:
@@ -156,39 +156,39 @@ Text_ItsCryIsWeak:
 	done
 
 MoomooHappyMooText:
-	text "Miltank: Mooo!"
+	text "CKoishi: Mooo!"
 	done
 
 Text_AskGiveBerry:
 	text "Give an Oran or"
 	line "Sitrus Berry to"
-	cont "Miltank?"
+	cont "CKoishi?"
 	done
 
 Text_GaveOranBerry:
 	text "<PLAYER> gave an"
 	line "Oran Berry to"
-	cont "Miltank."
+	cont "CKoishi."
 	done
 
 Text_GaveSitrusBerry:
 	text "<PLAYER> gave a"
 	line "Sitrus Berry to"
-	cont "Miltank."
+	cont "CKoishi."
 	done
 
 Text_LittleHealthier:
-	text "Miltank became a"
+	text "CKoishi became a"
 	line "little healthier!"
 	done
 
 Text_QuiteHealthy:
-	text "Miltank became"
+	text "CKoishi became"
 	line "quite healthy!"
 	done
 
 Text_TotallyHealthy:
-	text "Miltank became"
+	text "CKoishi became"
 	line "totally healthy!"
 	done
 
@@ -202,5 +202,5 @@ Text_RefusedToGiveBerry:
 	text "<PLAYER> wouldn't"
 	line "give a Berry."
 
-	para "Miltank looks sad."
+	para "CKoishi looks sad."
 	done

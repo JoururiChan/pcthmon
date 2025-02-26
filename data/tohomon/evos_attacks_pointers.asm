@@ -200,84 +200,84 @@ EvosAttacksPointers::
 	dw CTenshiEvosAttacks
 	dw TenshiEvosAttacks
 	dw STenshiEvosAttacks
-	dw SwinubEvosAttacks
-	dw PiloswineEvosAttacks
-	dw CorsolaEvosAttacks
-	dw RemoraidEvosAttacks
-	dw OctilleryEvosAttacks
-	dw DelibirdEvosAttacks
-	dw MantineEvosAttacks
-	dw SkarmoryEvosAttacks
-	dw HoundourEvosAttacks
-	dw HoundoomEvosAttacks
-	dw KingdraEvosAttacks
-	dw PhanpyEvosAttacks
-	dw DonphanEvosAttacks
-	dw CLunasa2EvosAttacks
-	dw StantlerEvosAttacks
-	dw SmeargleEvosAttacks
-	dw TyrogueEvosAttacks
-	dw HitmontopEvosAttacks
-	dw SmoochumEvosAttacks
-	dw ElekidEvosAttacks
-	dw MagbyEvosAttacks
-	dw MiltankEvosAttacks
-	dw BlisseyEvosAttacks
-	dw RaikouEvosAttacks
-	dw EnteiEvosAttacks
-	dw SuicuneEvosAttacks
-	dw LarvitarEvosAttacks
-	dw PupitarEvosAttacks
-	dw TyranitarEvosAttacks
-	dw LugiaEvosAttacks
-	dw HoOhEvosAttacks
-	dw CelebiEvosAttacks
-	dw AzurillEvosAttacks
-	dw WynautEvosAttacks
-	dw AmbipomEvosAttacks
+	dw CKisumeEvosAttacks
+	dw KisumeEvosAttacks
+	dw DKisumeEvosAttacks
+	dw CYamameEvosAttacks
+	dw YamameEvosAttacks
+	dw SYamameEvosAttacks
+	dw CParseeEvosAttacks
+	dw ParseeEvosAttacks
+	dw DParseeEvosAttacks
+	dw CYuugiEvosAttacks
+	dw YuugiEvosAttacks
+	dw AYuugiEvosAttacks
+	dw CSatoriEvosAttacks
+	dw SatoriEvosAttacks
+	dw HSatoriEvosAttacks
+	dw CRinEvosAttacks
+	dw RinEvosAttacks
+	dw HRinEvosAttacks
+	dw CUtsuhoEvosAttacks
+	dw UtsuhoEvosAttacks
+	dw AUtsuhoEvosAttacks
+	dw CKoishiEvosAttacks
+	dw KoishiEvosAttacks
+	dw SKoishiEvosAttacks
+	dw CNazrinEvosAttacks
+	dw NazrinEvosAttacks
+	dw HNazrinEvosAttacks
+	dw CKogasaEvosAttacks
+	dw KogasaEvosAttacks
+	dw TKogasaEvosAttacks
+	dw CIchirinEvosAttacks
+	dw IchirinEvosAttacks
+	dw AIchirinEvosAttacks
+	dw CMurasaEvosAttacks
+	dw MurasaEvosAttacks
 	dw EggEvosAttacks
 	dw EggEvosAttacks ; $100
-	dw MismagiusEvosAttacks
-	dw HonchkrowEvosAttacks
-	dw BonslyEvosAttacks
-	dw MimeJrEvosAttacks
-	dw HappinyEvosAttacks
-	dw MunchlaxEvosAttacks
-	dw MantykeEvosAttacks
-	dw WeavileEvosAttacks
-	dw MagnezoneEvosAttacks
-	dw LickilickyEvosAttacks
-	dw RhyperiorEvosAttacks
-	dw TangrowthEvosAttacks
-	dw ElectivireEvosAttacks
-	dw MagmortarEvosAttacks
-	dw TogekissEvosAttacks
-	dw YanmegaEvosAttacks
-	dw LeafeonEvosAttacks
-	dw GlaceonEvosAttacks
+	dw AMurasaEvosAttacks
+	dw CShouEvosAttacks
+	dw ShouEvosAttacks
+	dw AShouEvosAttacks
+	dw CByakurenEvosAttacks
+	dw ByakurenEvosAttacks
+	dw TByakurenEvosAttacks
+	dw CNueEvosAttacks
+	dw NueEvosAttacks
+	dw SNueEvosAttacks
+	dw CHatateEvosAttacks
+	dw HatateEvosAttacks
+	dw THatateEvosAttacks
+	dw CSunnyEvosAttacks
+	dw SunnyEvosAttacks
+	dw ASunnyEvosAttacks
+	dw CStarEvosAttacks
+	dw StarEvosAttacks
 	dw AMomijiEvosAttacks
-	dw MamoswineEvosAttacks
-	dw CLunasaZEvosAttacks
-	dw SylveonEvosAttacks
-	dw PerrserkerEvosAttacks
-	dw CursolaEvosAttacks
-	dw SirfetchDEvosAttacks
-	dw MrRimeEvosAttacks
-	dw WyrdeerEvosAttacks
-	dw KleavorEvosAttacks
-	dw UrsalunaEvosAttacks
-	dw SneaslerEvosAttacks
-	dw OverqwilEvosAttacks
-	dw PlacethmEvosAttacks
-	dw FarigirafEvosAttacks
-	dw ClodsireEvosAttacks
-	dw AnnihilapeEvosAttacks
+	dw DStarEvosAttacks
+	dw CLunaEvosAttacks
+	dw LunaEvosAttacks
+	dw TLunaEvosAttacks
+	dw CKyoukoEvosAttacks
+	dw KyoukoEvosAttacks
+	dw CYoshikaEvosAttacks
+	dw YoshikaEvosAttacks
+	dw CSeigaEvosAttacks
+	dw SeigaEvosAttacks
+	dw CTojikoEvosAttacks
+	dw TojikoEvosAttacks
+	dw CFutoEvosAttacks
+	dw MikoEvosAttacks
+	dw FutoEvosAttacks
+	dw CMikoEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw SLilyBlackEvosAttacks
 
 	dw SuikaEvosAttacks
 
-	dw PlacethmEvosAttacks
+	dw CFutoEvosAttacks
 
 	assert_table_length NUM_EXT_TOHOMON

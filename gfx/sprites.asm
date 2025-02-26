@@ -500,8 +500,8 @@ CSuikaSpriteGFX:: INCBIN "gfx/sprites/csuika.2bpp.lz"
 SECTION "TSuikaSpriteGFX", ROMX
 TSuikaSpriteGFX:: INCBIN "gfx/sprites/mew.2bpp.lz"
 
-SECTION "CelebiSpriteGFX", ROMX
-CelebiSpriteGFX:: INCBIN "gfx/sprites/celebi.2bpp.lz"
+SECTION "IchirinSpriteGFX", ROMX
+IchirinSpriteGFX:: INCBIN "gfx/sprites/celebi.2bpp.lz"
 
 SECTION "SurfingKikuriSpriteGFX", ROMX
 SurfingKikuriSpriteGFX:: INCBIN "gfx/sprites/surf_kikuri.2bpp.lz"

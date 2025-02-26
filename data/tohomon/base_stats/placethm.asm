@@ -11,7 +11,7 @@ endc
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for PLACETHM, SERENE_GRACE, RUN_AWAY, RATTLED
+	abilities_for CFUTO, SERENE_GRACE, RUN_AWAY, RATTLED
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

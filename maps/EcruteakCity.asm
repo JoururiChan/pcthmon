@@ -11,7 +11,7 @@ EcruteakCity_MapScriptHeader:
 	warp_event 17,  9, ECRUTEAK_SHRINE_OUTSIDE, 3
 	warp_event 18,  9, ECRUTEAK_SHRINE_OUTSIDE, 4
 	warp_event 23, 27, ECRUTEAK_TOHOCENTER_1F, 1
-	warp_event  5, 21, ECRUTEAK_LUGIA_SPEECH_HOUSE, 1
+	warp_event  5, 21, ECRUTEAK_TKOGASA_SPEECH_HOUSE, 1
 	warp_event 23, 21, DANCE_THEATRE, 1
 	warp_event 29, 21, ECRUTEAK_MART, 2
 	warp_event  6, 27, ECRUTEAK_GYM, 1
@@ -47,7 +47,7 @@ EcruteakCity_MapScriptHeader:
 	object_event  3, 10, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakCityGramps3Text, EVENT_ECRUTEAK_CITY_GRAMPS
 	object_event 11, 11, SPRITE_HEX_MANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, (1 << EVE) | (1 << NITE), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakCityHexManiacText, -1
 	object_event 11, 11, SPRITE_SIGHTSEER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, (1 << MORN) | (1 << DAY), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakCitySightseerMText, -1
-	tohomon_event 12, 11, SMEARGLE, SPRITEMOVEDATA_TOHOMON, -1, (1 << MORN) | (1 << DAY), PAL_NPC_BROWN, EcruteakCitySmeargleText, -1
+	tohomon_event 12, 11, CRIN, SPRITEMOVEDATA_TOHOMON, -1, (1 << MORN) | (1 << DAY), PAL_NPC_BROWN, EcruteakCityCRinText, -1
 	object_event 16,  9, SPRITE_BIG_CRAN, SPRITEMOVEDATA_ARCH_TREE_LEFT, 0, 0, -1, -1, PAL_NPC_COPY_BG_GREEN, OBJECTTYPE_COMMAND, end, NULL, -1
 	object_event 19,  9, SPRITE_BIG_CRAN, SPRITEMOVEDATA_ARCH_TREE_RIGHT, 0, 0, -1, -1, PAL_NPC_COPY_BG_GREEN, OBJECTTYPE_COMMAND, end, NULL, -1
 
@@ -106,13 +106,13 @@ EcruteakCitySightseerMText:
 	line "an incredible"
 	cont "history."
 
-	para "Smeargle and I"
+	para "CRin and I"
 	line "traveled here to"
 	cont "draw it."
 	done
 
-EcruteakCitySmeargleText:
-	text "Smeargle: Smeer!"
+EcruteakCityCRinText:
+	text "CRin: Smeer!"
 	done
 
 EcruteakCityLass2Text:

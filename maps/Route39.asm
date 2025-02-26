@@ -24,10 +24,10 @@ Route39_MapScriptHeader:
 	object_event 13, 43, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerSailorEugene, -1
 	object_event 10, 36, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 4, TrainerTohofanmDerek1, -1
 	object_event 11, 33, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerTohofanfRuth, -1
-	tohomon_event  3, 26, MILTANK, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
-	tohomon_event  6, 25, MILTANK, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
-	tohomon_event  4, 29, MILTANK, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
-	tohomon_event  8, 27, MILTANK, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39MiltankText, -1
+	tohomon_event  3, 26, CKOISHI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39CKoishiText, -1
+	tohomon_event  6, 25, CKOISHI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39CKoishiText, -1
+	tohomon_event  4, 29, CKOISHI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39CKoishiText, -1
+	tohomon_event  8, 27, CKOISHI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, Route39CKoishiText, -1
 	object_event 13, 21, SPRITE_PSYCHIC, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerPsychicNorman, -1
 	fruittree_event  9, 17, FRUITTREE_ROUTE_39, CHESTO_BERRY, PAL_NPC_PURPLE
 	object_event  4, 36, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TrainerTohofanfJaime, -1
@@ -170,12 +170,12 @@ Route39CowgirlAnnieScript:
 .AfterText2:
 	text "We make cheese"
 	line "and yogurt out"
-	cont "of Miltank milk."
+	cont "of CKoishi milk."
 	done
 
 .IntroText:
 	text "Hey! Don't scare"
-	line "the Miltank!"
+	line "the CKoishi!"
 
 	para "…Oh, you want to"
 	line "battle?"
@@ -288,8 +288,8 @@ TrainerTohofanfJaime:
 .NotNight:
 	jumpopenedtext TohofanfJaimeHopeItGetsDarkText
 
-Route39MiltankText:
-	text "Miltank: Mooo!"
+Route39CKoishiText:
+	text "CKoishi: Mooo!"
 	done
 
 SailorEugeneSeenText:

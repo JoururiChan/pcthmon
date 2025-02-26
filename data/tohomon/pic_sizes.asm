@@ -321,29 +321,7 @@ INCLUDE "gfx/tohomon/kikuri_koga/front.dimensions"
 INCLUDE "gfx/tohomon/kikuri_agatha/front.dimensions"
 INCLUDE "gfx/tohomon/kikuri_ariana/front.dimensions"
 
-
-
 INCLUDE "gfx/tohomon/ttei_spiky/front.dimensions"
-
-INCLUDE "gfx/tohomon/lilyblack_skelly/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_calico1/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_calico2/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_calico3/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_twotone/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_orca/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_dapples/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_tiger/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_zebra/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_stripe/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_bubbles/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_diamonds/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_patches/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_forehead1/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_mask1/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_forehead2/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_mask2/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_saucy/front.dimensions"
-INCLUDE "gfx/tohomon/lilyblack_raindrop/front.dimensions"
 
 	assert_list_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

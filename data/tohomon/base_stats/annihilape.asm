@@ -8,9 +8,9 @@
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for ANNIHILAPE, VITAL_SPIRIT, INNER_FOCUS, DEFIANT
+	abilities_for CMIKO, VITAL_SPIRIT, INNER_FOCUS, DEFIANT
 else
-	abilities_for ANNIHILAPE, GORILLA_TACTICS, INNER_FOCUS, DEFIANT
+	abilities_for CMIKO, GORILLA_TACTICS, INNER_FOCUS, DEFIANT
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups

@@ -553,7 +553,7 @@
 	; nite
 	wildmon 49, CYUMEMI
 	wildmon 49, MINORIKO
-	wildmon 51, HOUNDOUR
+	wildmon 51, DPARSEE
 	wildmon 54, MEIRA
 	wildmon 54, ELLEN
 	wildmon 52, CYUMEMI
@@ -762,18 +762,18 @@
 	wildmon LEVEL_FROM_BADGES - 1, CKAGUYA
 	wildmon LEVEL_FROM_BADGES - 2, CREMILIA
 	wildmon LEVEL_FROM_BADGES + 0, CREMILIA
-	wildmon LEVEL_FROM_BADGES - 3, HAPPINY
-	wildmon LEVEL_FROM_BADGES - 3, HAPPINY
+	wildmon LEVEL_FROM_BADGES - 3, CBYAKUREN
+	wildmon LEVEL_FROM_BADGES - 3, CBYAKUREN
 	wildmon LEVEL_FROM_BADGES - 3, TEIRIN
-	wildmon LEVEL_FROM_BADGES + 2, BLISSEY
+	wildmon LEVEL_FROM_BADGES + 2, KOISHI
 	; day
 	wildmon LEVEL_FROM_BADGES - 1, CKAGUYA
 	wildmon LEVEL_FROM_BADGES - 2, CREMILIA
 	wildmon LEVEL_FROM_BADGES + 0, CREMILIA
-	wildmon LEVEL_FROM_BADGES - 3, HAPPINY
-	wildmon LEVEL_FROM_BADGES - 3, HAPPINY
+	wildmon LEVEL_FROM_BADGES - 3, CBYAKUREN
+	wildmon LEVEL_FROM_BADGES - 3, CBYAKUREN
 	wildmon LEVEL_FROM_BADGES - 3, TEIRIN
-	wildmon LEVEL_FROM_BADGES + 2, BLISSEY
+	wildmon LEVEL_FROM_BADGES + 2, KOISHI
 	; nite
 	wildmon LEVEL_FROM_BADGES - 1, CKAGUYA
 	wildmon LEVEL_FROM_BADGES - 2, CREMILIA
@@ -1156,7 +1156,7 @@
 	wildmon 67, KIKURI ; randomly Kanto or Johto form
 	wildmon 70, LUIZE
 	wildmon 68, MAI
-	wildmon 71, SKARMORY
+	wildmon 71, PARSEE
 	wildmon 71, CTENSHI
 	; day
 	wildmon 66, REMILIA
@@ -1164,14 +1164,14 @@
 	wildmon 67, KIKURI ; randomly Kanto or Johto form
 	wildmon 70, LUIZE
 	wildmon 68, MAI
-	wildmon 71, SKARMORY
+	wildmon 71, PARSEE
 	wildmon 71, CTENSHI
 	; nite
 	wildmon 66, REMILIA
 	wildmon 67, KURUMI
 	wildmon 67, KOTOHIME
 	wildmon 70, KURUMI
-	wildmon 68, HOUNDOOM
+	wildmon 68, CYUUGI
 	wildmon 71, IKU
 	wildmon 71, IKU
 	end_grass_wildmons
@@ -1210,7 +1210,7 @@
 	wildmon 65, AKEINE
 	wildmon 65, CRIKAKO
 	wildmon 66, ORANGE
-	wildmon 67, TANGROWTH
+	wildmon 67, HATATE
 	wildmon 68, CMUGETSU
 	wildmon 67, CCIRNO
 	wildmon 70, LYRICA
@@ -1218,7 +1218,7 @@
 	wildmon 65, AKEINE
 	wildmon 65, CRIKAKO
 	wildmon 66, ORANGE
-	wildmon 67, TANGROWTH
+	wildmon 67, HATATE
 	wildmon 68, CMUGETSU
 	wildmon 67, CCIRNO
 	wildmon 70, LYRICA
@@ -1226,7 +1226,7 @@
 	wildmon 65, AKEINE
 	wildmon 65, CRIKAKO
 	wildmon 66, ORANGE
-	wildmon 67, TANGROWTH
+	wildmon 67, HATATE
 	wildmon 68, CMUGETSU
 	wildmon 67, CCIRNO
 	wildmon 70, LYRICA
@@ -1238,7 +1238,7 @@
 	wildmon 67, AKEINE
 	wildmon 67, CRIKAKO
 	wildmon 68, CMUGETSU
-	wildmon 69, MAGNEZONE
+	wildmon 69, NUE
 	wildmon 70, CYUKA
 	wildmon 69, CCIRNO
 	wildmon 72, LYRICA
@@ -1246,7 +1246,7 @@
 	wildmon 67, AKEINE
 	wildmon 67, CRIKAKO
 	wildmon 68, CMUGETSU
-	wildmon 69, MAGNEZONE
+	wildmon 69, NUE
 	wildmon 70, CYUKA
 	wildmon 69, CCIRNO
 	wildmon 72, LYRICA
@@ -1254,7 +1254,7 @@
 	wildmon 67, AKEINE
 	wildmon 67, CRIKAKO
 	wildmon 68, CMUGETSU
-	wildmon 69, MAGNEZONE
+	wildmon 69, NUE
 	wildmon 70, SHINKI
 	wildmon 69, CCIRNO
 	wildmon 72, LYRICA
@@ -1264,7 +1264,7 @@
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 69, CRIKAKO
-	wildmon 69, MAGNEZONE
+	wildmon 69, NUE
 	wildmon 70, CMUGETSU
 	wildmon 71, SARA
 	wildmon 72, CYUKA
@@ -1272,7 +1272,7 @@
 	wildmon 74, LYRICA
 	; day
 	wildmon 69, CRIKAKO
-	wildmon 69, MAGNEZONE
+	wildmon 69, NUE
 	wildmon 70, CMUGETSU
 	wildmon 71, SARA
 	wildmon 72, CYUKA
@@ -1280,7 +1280,7 @@
 	wildmon 74, LYRICA
 	; nite
 	wildmon 69, CRIKAKO
-	wildmon 69, MAGNEZONE
+	wildmon 69, NUE
 	wildmon 70, CMUGETSU
 	wildmon 71, SARA
 	wildmon 72, SHINKI
@@ -1437,7 +1437,7 @@
 	wildmon 49, SHINKI
 	wildmon 49, CHINA
 	wildmon 49, MEILING
-	wildmon 50, MISMAGIUS
+	wildmon 50, AMURASA
 	; day
 	wildmon 47, CSHINKI
 	wildmon 48, CSHINKI
@@ -1445,7 +1445,7 @@
 	wildmon 49, SHINKI
 	wildmon 49, CHINA
 	wildmon 49, MEILING
-	wildmon 50, MISMAGIUS
+	wildmon 50, AMURASA
 	; nite
 	wildmon 47, CSHINKI
 	wildmon 48, CSHINKI
@@ -1453,7 +1453,7 @@
 	wildmon 49, SHINKI
 	wildmon 49, CHINA
 	wildmon 49, MEILING
-	wildmon 50, MISMAGIUS
+	wildmon 50, AMURASA
 	end_grass_wildmons
 
 	def_grass_wildmons SOUL_HOUSE_B2F
@@ -1465,7 +1465,7 @@
 	wildmon 50, SHINKI
 	wildmon 50, CHINA
 	wildmon 50, MEILING
-	wildmon 51, MISMAGIUS
+	wildmon 51, AMURASA
 	; day
 	wildmon 48, CSHINKI
 	wildmon 49, CSHINKI
@@ -1473,7 +1473,7 @@
 	wildmon 50, SHINKI
 	wildmon 50, CHINA
 	wildmon 50, MEILING
-	wildmon 51, MISMAGIUS
+	wildmon 51, AMURASA
 	; nite
 	wildmon 48, CSHINKI
 	wildmon 49, CSHINKI
@@ -1481,7 +1481,7 @@
 	wildmon 50, SHINKI
 	wildmon 50, CHINA
 	wildmon 50, MEILING
-	wildmon 51, MISMAGIUS
+	wildmon 51, AMURASA
 	end_grass_wildmons
 
 	def_grass_wildmons SOUL_HOUSE_B3F
@@ -1493,7 +1493,7 @@
 	wildmon 49, MEIRA
 	wildmon 51, MEILING
 	wildmon 52, CELLEN
-	wildmon 52, MISMAGIUS
+	wildmon 52, AMURASA
 	; day
 	wildmon 49, CSHINKI
 	wildmon 50, SHINKI
@@ -1501,7 +1501,7 @@
 	wildmon 49, MEIRA
 	wildmon 51, MEILING
 	wildmon 52, CELLEN
-	wildmon 52, MISMAGIUS
+	wildmon 52, AMURASA
 	; nite
 	wildmon 49, CSHINKI
 	wildmon 50, SHINKI
@@ -1509,7 +1509,7 @@
 	wildmon 49, MEIRA
 	wildmon 51, MEILING
 	wildmon 52, CELLEN
-	wildmon 52, MISMAGIUS
+	wildmon 52, AMURASA
 	end_grass_wildmons
 
 	def_grass_wildmons SAFARI_ZONE_HUB
@@ -1630,26 +1630,26 @@
 	wildmon 56, CKOTOHIME
 	wildmon 59, KOTOHIME
 	wildmon 57, CDAICHAN
-	wildmon 58, CORSOLA
+	wildmon 58, DKISUME
 	wildmon 60, DAICHAN
 	wildmon 61, DAICHAN
-	wildmon 62, CORSOLA
+	wildmon 62, DKISUME
 	; day
 	wildmon 56, CKOTOHIME
 	wildmon 59, KOTOHIME
 	wildmon 57, CDAICHAN
-	wildmon 58, CORSOLA
+	wildmon 58, DKISUME
 	wildmon 60, DAICHAN
 	wildmon 61, DAICHAN
-	wildmon 62, CORSOLA
+	wildmon 62, DKISUME
 	; nite
 	wildmon 56, CKOTOHIME
 	wildmon 59, KOTOHIME
 	wildmon 57, CDAICHAN
-	wildmon 58, CORSOLA
+	wildmon 58, DKISUME
 	wildmon 60, DAICHAN
 	wildmon 61, DAICHAN
-	wildmon 62, CORSOLA
+	wildmon 62, DKISUME
 	end_grass_wildmons
 
 	def_grass_wildmons SCARY_CAVE_B1F
@@ -1657,24 +1657,24 @@
 	; morn
 	wildmon 57, KOTOHIME
 	wildmon 60, DAICHAN
-	wildmon 58, CORSOLA
-	wildmon 59, CORSOLA
+	wildmon 58, DKISUME
+	wildmon 59, DKISUME
 	wildmon 59, SHINKI
 	wildmon 61, DAICHAN
 	wildmon 62, DAICHAN
 	; day
 	wildmon 57, KOTOHIME
 	wildmon 60, DAICHAN
-	wildmon 58, CORSOLA
-	wildmon 59, CORSOLA
+	wildmon 58, DKISUME
+	wildmon 59, DKISUME
 	wildmon 59, SHINKI
 	wildmon 61, DAICHAN
 	wildmon 62, DAICHAN
 	; nite
 	wildmon 57, KOTOHIME
 	wildmon 60, DAICHAN
-	wildmon 58, CORSOLA
-	wildmon 59, CORSOLA
+	wildmon 58, DKISUME
+	wildmon 59, DKISUME
 	wildmon 59, SHINKI
 	wildmon 61, DAICHAN
 	wildmon 62, DAICHAN
@@ -1684,28 +1684,28 @@
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 57, CHINA
-	wildmon 60, CORSOLA
+	wildmon 60, DKISUME
 	wildmon 58, SHINKI
 	wildmon 59, KOTOHIME
 	wildmon 61, KOTOHIME
-	wildmon 62, CURSOLA
-	wildmon 63, CURSOLA
+	wildmon 62, CKYOUKO
+	wildmon 63, CKYOUKO
 	; day
 	wildmon 57, CHINA
-	wildmon 60, CORSOLA
+	wildmon 60, DKISUME
 	wildmon 58, SHINKI
 	wildmon 59, KOTOHIME
 	wildmon 61, KOTOHIME
-	wildmon 62, CURSOLA
-	wildmon 63, CURSOLA
+	wildmon 62, CKYOUKO
+	wildmon 63, CKYOUKO
 	; nite
 	wildmon 57, CHINA
-	wildmon 60, CORSOLA
+	wildmon 60, DKISUME
 	wildmon 58, SHINKI
 	wildmon 59, KOTOHIME
 	wildmon 61, KOTOHIME
-	wildmon 62, CURSOLA
-	wildmon 63, CURSOLA
+	wildmon 62, CKYOUKO
+	wildmon 63, CKYOUKO
 	end_grass_wildmons
 
 	def_grass_wildmons SEAFOAM_ISLANDS_1F
@@ -1870,7 +1870,7 @@
 	wildmon 58, SHINKI
 	wildmon 56, CPATCHOULI
 	wildmon 57, CYUMEKO
-	wildmon 59, HOUNDOOM
+	wildmon 59, CYUUGI
 	wildmon 59, LUIZE
 	wildmon 60, LUIZE
 	wildmon 60, LUIZE
@@ -1899,7 +1899,7 @@
 	wildmon 56, CPATCHOULI
 	wildmon 57, CYUMEKO
 	wildmon 59, LILYWHITE
-	wildmon 59, HOUNDOOM
+	wildmon 59, CYUUGI
 	wildmon 60, LYRICA
 	wildmon 60, LYRICA
 	end_grass_wildmons

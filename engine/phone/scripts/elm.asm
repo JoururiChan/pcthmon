@@ -97,9 +97,9 @@ ElmPhoneScript_EvolutionMethodsTable:
 	dw .EvolveCMeiling
 	dw .EvolveChen
 	dw .EvolveTLyrica
-	dw .EvolveMimeJr
+	dw .EvolveAShou
 	dw .EvolveCTenshi
-	dw .EvolveStantler
+	dw .EvolveHSatori
 	dw .EvolveCMomiji
 	assert_table_length NUM_EVOLVE_METHODS
 .EvolveNone:
@@ -180,16 +180,16 @@ ElmPhoneScript_EvolutionMethodsTable:
 .EvolveTLyrica:
 	farwritetext ElmPhoneEvoText_TLyrica
 	end
-.EvolveMimeJr:
-	farwritetext ElmPhoneEvoText_MimeJr
+.EvolveAShou:
+	farwritetext ElmPhoneEvoText_AShou
 	end
 .EvolveCTenshi:
 	getitemname MOON_STONE, STRING_BUFFER_4
 	farwritetext ElmPhoneEvoText_Item
 	farwritetext ElmPhoneEvoText_AncientSinnoh
 	end
-.EvolveStantler:
-	farwritetext ElmPhoneEvoText_Stantler
+.EvolveHSatori:
+	farwritetext ElmPhoneEvoText_HSatori
 	farwritetext ElmPhoneEvoText_AncientSinnoh
 	end
 .EvolveCMomiji:

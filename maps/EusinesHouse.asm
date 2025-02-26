@@ -24,46 +24,46 @@ CeladonEusine:
 	writetext CeladonEusineText1
 	promptbutton
 	special SpecialBeastsCheck
-	iftruefwd .HoOh
+	iftruefwd .CIchirin
 	writetext EusineNoBeastsText
 	waitbutton
 	closetext
-	checkflag ENGINE_PLAYER_CAUGHT_RAIKOU
-	iftruefwd .OwnRaikou
-	showtext EusineShowsRaikouText
+	checkflag ENGINE_PLAYER_CAUGHT_SKOISHI
+	iftruefwd .OwnSKoishi
+	showtext EusineShowsSKoishiText
 	reanchormap
-	pokepic RAIKOU
-	cry RAIKOU
+	pokepic SKOISHI
+	cry SKOISHI
 	waitbutton
 	closepokepic
-	setmonval RAIKOU
+	setmonval SKOISHI
 	special SpecialSeenMon
-.OwnRaikou
-	checkflag ENGINE_PLAYER_CAUGHT_ENTEI
-	iftruefwd .OwnEntei
-	showtext EusineShowsEnteiText
+.OwnSKoishi
+	checkflag ENGINE_PLAYER_CAUGHT_CNAZRIN
+	iftruefwd .OwnCNazrin
+	showtext EusineShowsCNazrinText
 	reanchormap
-	pokepic ENTEI
-	cry ENTEI
+	pokepic CNAZRIN
+	cry CNAZRIN
 	waitbutton
 	closepokepic
-	setmonval ENTEI
+	setmonval CNAZRIN
 	special SpecialSeenMon
-.OwnEntei
-	checkflag ENGINE_PLAYER_CAUGHT_SUICUNE
-	iftruefwd .OwnSuicune
-	showtext EusineShowsSuicuneText
+.OwnCNazrin
+	checkflag ENGINE_PLAYER_CAUGHT_NAZRIN
+	iftruefwd .OwnNazrin
+	showtext EusineShowsNazrinText
 	reanchormap
-	pokepic SUICUNE
-	cry SUICUNE
+	pokepic NAZRIN
+	cry NAZRIN
 	waitbutton
 	closepokepic
-	setmonval SUICUNE
+	setmonval NAZRIN
 	special SpecialSeenMon
-.OwnSuicune
+.OwnNazrin
 	jumptext EusineQuestHintText
 
-.HoOh:
+.CIchirin:
 	writetext EusineLeavesCeladonText
 	waitbutton
 	closetext
@@ -92,15 +92,15 @@ CeladonEusine:
 EusinesHouseGrampsScript:
 	checkevent EVENT_EUSINES_HOUSE_EUSINE
 	iffalse_jumptextfaceplayer EusinesHouseGrampsGrandsonHomeText
-	checkevent EVENT_FOUGHT_SUICUNE
-	iffalse_jumptextfaceplayer EusinesHouseGrampsEusineSearchingForSuicuneText
+	checkevent EVENT_FOUGHT_NAZRIN
+	iffalse_jumptextfaceplayer EusinesHouseGrampsEusineSearchingForNazrinText
 	checkevent EVENT_DECO_ELLY_DOLL
 	iftrue_jumptextfaceplayer EusinesHouseGrampsEusineTravelingWorldText
-	checkevent EVENT_FOUGHT_HO_OH
-	iftruefwd .AfterHoOhFight
-	jumptextfaceplayer EusinesHouseGrampsEusineSearchingForHoOhText
+	checkevent EVENT_FOUGHT_CICHIRIN
+	iftruefwd .AfterCIchirinFight
+	jumptextfaceplayer EusinesHouseGrampsEusineSearchingForCIchirinText
 
-.AfterHoOhFight:
+.AfterCIchirinFight:
 	faceplayer
 	opentext
 	writetext EusinesHouseGrampsThankYouGiftText
@@ -172,17 +172,17 @@ EusineNoBeastsText:
 	line "my research notes."
 	done
 
-EusineShowsRaikouText:
-	text "This is Raikou:"
+EusineShowsSKoishiText:
+	text "This is SKoishi:"
 	done
 
-EusineShowsEnteiText:
-	text "This is Entei:"
+EusineShowsCNazrinText:
+	text "This is CNazrin:"
 	done
 
-EusineShowsSuicuneText:
+EusineShowsNazrinText:
 	text "This, of course,"
-	line "is Suicune:"
+	line "is Nazrin:"
 	done
 
 EusineQuestHintText:
@@ -200,19 +200,19 @@ EusinesHouseGrampsGrandsonHomeText:
 	cont "I'm overjoyed!"
 	done
 
-EusinesHouseGrampsEusineSearchingForSuicuneText:
+EusinesHouseGrampsEusineSearchingForNazrinText:
 	text "My grandson Eusine"
 	line "is in Johto,"
 
 	para "searching far and"
-	line "wide for Suicune."
+	line "wide for Nazrin."
 
 	para "I taught him all"
 	line "about the legend-"
 	cont "ary #mon!"
 	done
 
-EusinesHouseGrampsEusineSearchingForHoOhText:
+EusinesHouseGrampsEusineSearchingForCIchirinText:
 	text "My grandson Eusine"
 	line "is on another"
 	cont "adventure."

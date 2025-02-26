@@ -24,9 +24,9 @@ MultipleEvolutions:
 	multi_evo CMEILING
 	multi_evo CHEN
 	multi_evo TLYRICA
-	multi_evo MIME_JR_
+	multi_evo ASHOU_
 	multi_evo CTENSHI
-	multi_evo STANTLER
-	multi_evo CMOMIJI, PLACETHM_TWO_SEGMENT_FORM, EVOLVE_CMOMIJI
-	multi_evo CMOMIJI, PLACETHM_THREE_SEGMENT_FORM, EVOLVE_CMOMIJI
+	multi_evo HSATORI
+	multi_evo CMOMIJI, CFUTO_TWO_SEGMENT_FORM, EVOLVE_CMOMIJI
+	multi_evo CMOMIJI, CFUTO_THREE_SEGMENT_FORM, EVOLVE_CMOMIJI
 	dw -1

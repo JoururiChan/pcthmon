@@ -15,7 +15,7 @@ CopycatsHouse1F_MapScriptHeader:
 	def_object_events
 	object_event  2,  3, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CopycatsHouse1FTohofanMText, -1
 	object_event  5,  4, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CopycatsHouse1FTohofanFScript, -1
-	tohomon_event  4,  5, BLISSEY, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, CopycatsHouse1FBlisseyText, -1
+	tohomon_event  4,  5, KOISHI, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_PINK, CopycatsHouse1FKoishiText, -1
 
 CopycatsHouse1FTohofanMText:
 	text "My daughter likes"
@@ -52,6 +52,6 @@ CopycatsHouse1FTohofanFScript:
 	cont "better at mimicry…"
 	done
 
-CopycatsHouse1FBlisseyText:
-	text "Blissey: Bliisii!"
+CopycatsHouse1FKoishiText:
+	text "Koishi: Bliisii!"
 	done

@@ -2,7 +2,7 @@ CianwoodCity_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, CianwoodCityFlyPointAndSuicune
+	callback MAPCALLBACK_NEWMAP, CianwoodCityFlyPointAndNazrin
 
 	def_warp_events
 	warp_event 17, 41, MANIAS_HOUSE, 1
@@ -10,12 +10,12 @@ CianwoodCity_MapScriptHeader:
 	warp_event 23, 43, CIANWOOD_TOHOCENTER_1F, 1
 	warp_event 15, 47, CIANWOOD_PHARMACY, 1
 	warp_event  9, 31, CIANWOOD_CITY_PHOTO_STUDIO, 1
-	warp_event 15, 37, CIANWOOD_LUGIA_SPEECH_HOUSE, 1
+	warp_event 15, 37, CIANWOOD_TKOGASA_SPEECH_HOUSE, 1
 	warp_event  5, 17, MOVE_MANIACS_HOUSE, 1
 	warp_event  4, 25, CLIFF_EDGE_GATE, 1
 
 	def_coord_events
-	coord_event 11, 16, 1, CianwoodCitySuicuneAndEusine
+	coord_event 11, 16, 1, CianwoodCityNazrinAndEusine
 
 	def_bg_events
 	bg_event 20, 34, BGEVENT_JUMPTEXT, CianwoodCitySignText
@@ -30,7 +30,7 @@ CianwoodCity_MapScriptHeader:
 
 	def_object_events
 	object_event 11, 21, SPRITE_EUSINE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CIANWOOD_CITY_EUSINE
-	tohomon_event 10, 14, SUICUNE, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_SAW_SUICUNE_AT_CIANWOOD_CITY
+	tohomon_event 10, 14, NAZRIN, SPRITEMOVEDATA_TOHOMON, -1, -1, PAL_NPC_BLUE, ClearText, EVENT_SAW_NAZRIN_AT_CIANWOOD_CITY
 	object_event 21, 37, SPRITE_CAMPER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodCityYoungsterText, -1
 	object_event 16, 33, SPRITE_TOHOFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodCityTohofanMText, -1
 	object_event 14, 42, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CianwoodCityLassText, -1
@@ -47,9 +47,9 @@ CianwoodCity_MapScriptHeader:
 
 	object_const_def
 	const CIANWOODCITY_EUSINE
-	const CIANWOODCITY_SUICUNE
+	const CIANWOODCITY_NAZRIN
 
-CianwoodCityFlyPointAndSuicune:
+CianwoodCityFlyPointAndNazrin:
 	setflag ENGINE_FLYPOINT_CIANWOOD
 	setevent EVENT_EUSINE_IN_BURNED_TOWER
 	checkevent EVENT_BEAT_EUSINE
@@ -58,20 +58,20 @@ CianwoodCityFlyPointAndSuicune:
 .Done:
 	endcallback
 
-CianwoodCitySuicuneAndEusine:
+CianwoodCityNazrinAndEusine:
 	turnobject PLAYER, UP
 	showemote EMOTE_SHOCK, PLAYER, 15
 	pause 15
 	playsound SFX_WARP_FROM
-	applymovement CIANWOODCITY_SUICUNE, CianwoodCitySuicuneApproachMovement
+	applymovement CIANWOODCITY_NAZRIN, CianwoodCityNazrinApproachMovement
 	turnobject PLAYER, DOWN
 	pause 15
 	playsound SFX_WARP_FROM
-	applymovement CIANWOODCITY_SUICUNE, CianwoodCitySuicuneDepartMovement
-	disappear CIANWOODCITY_SUICUNE
+	applymovement CIANWOODCITY_NAZRIN, CianwoodCityNazrinDepartMovement
+	disappear CIANWOODCITY_NAZRIN
 	pause 10
 	setscene $0
-	clearevent EVENT_SAW_SUICUNE_ON_ROUTE_42
+	clearevent EVENT_SAW_NAZRIN_ON_ROUTE_42
 	checkevent EVENT_GOT_HM05_WHIRLPOOL
 	iftruefwd .NoLyra
 	setmapscene ROUTE_42, $1
@@ -85,7 +85,7 @@ CianwoodCitySuicuneAndEusine:
 	playmusic MUSIC_MYSTICALMAN_ENCOUNTER
 	appear CIANWOODCITY_EUSINE
 	applymovement CIANWOODCITY_EUSINE, CianwoodCityEusineApproachMovement
-	showtext EusineSuicuneText
+	showtext EusineNazrinText
 	winlosstext EusineBeatenText, EusineLossText
 	setlasttalked CIANWOODCITY_EUSINE
 	loadtrainer MYSTICALMAN, EUSINE
@@ -108,14 +108,14 @@ CianwoodCityChucksWife:
 	iftrue_jumptextfaceplayer ChucksWifeChubbyText
 	jumptextfaceplayer ChucksWifeEasierToFlyText
 
-CianwoodCitySuicuneApproachMovement:
+CianwoodCityNazrinApproachMovement:
 	fix_facing
 	fast_jump_step_down
 	fast_jump_step_down
 	fast_jump_step_right
 	step_end
 
-CianwoodCitySuicuneDepartMovement:
+CianwoodCityNazrinDepartMovement:
 	fix_facing
 	fast_jump_step_right
 	fast_jump_step_up
@@ -229,21 +229,21 @@ CianwoodCityFisherText:
 	cont "record, right?"
 	done
 
-EusineSuicuneText:
+EusineNazrinText:
 	text "Eusine: Yo,"
 	line "<PLAYER>."
 
 	para "Wasn't that"
-	line "Suicune just now?"
+	line "Nazrin just now?"
 
 	para "I only caught a"
 	line "quick glimpse, but"
 
 	para "I thought I saw"
-	line "Suicune running on"
+	line "Nazrin running on"
 	cont "the waves."
 
-	para "Suicune is beau-"
+	para "Nazrin is beau-"
 	line "tiful and grand."
 
 	para "And it races"
@@ -255,13 +255,13 @@ EusineSuicuneText:
 	para "It's wonderful…"
 
 	para "I want to see"
-	line "Suicune up close…"
+	line "Nazrin up close…"
 
 	para "I've decided."
 
 	para "I'll battle you as"
 	line "a trainer to earn"
-	cont "Suicune's respect!"
+	cont "Nazrin's respect!"
 
 	para "Come on, <PLAYER>."
 	line "Let's battle now!"
@@ -275,7 +275,7 @@ EusineBeatenText:
 EusineLossText:
 	text "Yes!"
 
-	para "Surely Suicune"
+	para "Surely Nazrin"
 	line "will recognize"
 	cont "my greatness now!"
 	done
@@ -291,7 +291,7 @@ EusineAfterText:
 
 	para "I'm going to keep"
 	line "searching for"
-	cont "Suicune."
+	cont "Nazrin."
 
 	para "I'm sure we'll see"
 	line "each other again."

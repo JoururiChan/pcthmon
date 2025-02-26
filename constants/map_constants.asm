@@ -122,7 +122,7 @@ ENDM
 	map_const WHIRL_ISLAND_SE,                             5,  9 ; 60
 	map_const WHIRL_ISLAND_B1F,                           20, 18 ; 61
 	map_const WHIRL_ISLAND_B2F,                           10, 18 ; 62
-	map_const WHIRL_ISLAND_LUGIA_CHAMBER,                 10,  9 ; 63
+	map_const WHIRL_ISLAND_TKOGASA_CHAMBER,                 10,  9 ; 63
 	map_const SILVER_CAVE_ROOM_1,                         10, 18 ; 64
 	map_const SILVER_CAVE_ROOM_2,                         15, 17 ; 65
 	map_const SILVER_CAVE_ROOM_3,                         10, 17 ; 66
@@ -150,7 +150,7 @@ ENDM
 	map_const ECRUTEAK_HOUSE,                             10,  9 ;  1
 	map_const WISE_TRIOS_ROOM,                             4,  4 ;  2
 	map_const ECRUTEAK_TOHOCENTER_1F,                      6,  4 ;  3
-	map_const ECRUTEAK_LUGIA_SPEECH_HOUSE,                 4,  4 ;  4
+	map_const ECRUTEAK_TKOGASA_SPEECH_HOUSE,                 4,  4 ;  4
 	map_const DANCE_THEATRE,                               6,  7 ;  5
 	map_const ECRUTEAK_MART,                               6,  4 ;  6
 	map_const ECRUTEAK_GYM,                                5,  9 ;  7
@@ -514,7 +514,7 @@ ENDM
 	map_const CIANWOOD_TOHOCENTER_1F,                      6,  4 ;  5
 	map_const CIANWOOD_PHARMACY,                           4,  4 ;  6
 	map_const CIANWOOD_CITY_PHOTO_STUDIO,                  4,  4 ;  7
-	map_const CIANWOOD_LUGIA_SPEECH_HOUSE,                 4,  4 ;  8
+	map_const CIANWOOD_TKOGASA_SPEECH_HOUSE,                 4,  4 ;  8
 	map_const MOVE_MANIACS_HOUSE,                          4,  4 ;  9
 
 	newgroup                                                     ; 23
@@ -571,7 +571,7 @@ ENDM
 	map_const ROUTE_5_SAFFRON_CITY_GATE,                   5,  4 ; 14
 	map_const ROUTE_5_CLEANSE_TAG_SPEECH_HOUSE,            4,  4 ; 15
 	map_const TOHOMON_TRAINER_FAN_CLUB,                    6,  9 ; 16
-	map_const SAFFRON_HITMONTOP_KID_HOUSE,                 4,  4 ; 17
+	map_const SAFFRON_HRIN_KID_HOUSE,                 4,  4 ; 17
 	map_const SAFFRON_BOOK_SPEECH_HOUSE,                   4,  4 ; 18
 	map_const SAFFRON_ORRE_SPEECH_HOUSE,                   4,  4 ; 19
 	map_const SAFFRON_RICH_SPEECH_HOUSE,                   4,  4 ; 20
@@ -615,18 +615,18 @@ ENDM
 
 	newgroup                                                     ; 30
 	map_const RUINS_OF_ALPH_OUTSIDE,                      11, 21 ;  1
-	map_const RUINS_OF_ALPH_HO_OH_CHAMBER,                 4,  5 ;  2
+	map_const RUINS_OF_ALPH_CICHIRIN_CHAMBER,                 4,  5 ;  2
 	map_const RUINS_OF_ALPH_CYUYUKO_CHAMBER,                4,  5 ;  3
 	map_const RUINS_OF_ALPH_LUNASA_CHAMBER,               4,  5 ;  4
 	map_const RUINS_OF_ALPH_AYUYUKO_CHAMBER,            4,  5 ;  5
 	map_const RUINS_OF_ALPH_ENTRANCE_CHAMBER,              4,  4 ;  6
 	map_const RUINS_OF_ALPH_INNER_CHAMBER,                10, 14 ;  7
 	map_const RUINS_OF_ALPH_RESEARCH_CENTER,               4,  4 ;  8
-	map_const RUINS_OF_ALPH_HO_OH_ITEM_ROOM,               4,  5 ;  9
+	map_const RUINS_OF_ALPH_CICHIRIN_ITEM_ROOM,               4,  5 ;  9
 	map_const RUINS_OF_ALPH_CYUYUKO_ITEM_ROOM,              4,  5 ; 10
 	map_const RUINS_OF_ALPH_LUNASA_ITEM_ROOM,             4,  5 ; 11
 	map_const RUINS_OF_ALPH_AYUYUKO_ITEM_ROOM,          4,  5 ; 12
-	map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,              10, 12 ; 13
+	map_const RUINS_OF_ALPH_CICHIRIN_WORD_ROOM,              10, 12 ; 13
 	map_const RUINS_OF_ALPH_CYUYUKO_WORD_ROOM,             10,  7 ; 14
 	map_const RUINS_OF_ALPH_LUNASA_WORD_ROOM,            10,  8 ; 15
 	map_const RUINS_OF_ALPH_AYUYUKO_WORD_ROOM,         10,  7 ; 16

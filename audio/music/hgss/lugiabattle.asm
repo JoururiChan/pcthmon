@@ -1,15 +1,15 @@
-; Tohomon HG/SS - Battle! Lugia
+; Tohomon HG/SS - Battle! TKogasa
 ; Demixed by Pigu
 ; https://github.com/TwitchPlaysTohomon/tppcrystal251pub/blob/public/audio/music/custom/lugiabattle.asm
 ; https://pigu-a.bandcamp.com/album/pok-mon-anniversary-crystal-pigus-arranges
 
-Music_LugiaBattleHGSS:
+Music_TKogasaBattleHGSS:
 	channel_count 3
-	channel 1, Music_LugiaBattleHGSS_Ch1
-	channel 2, Music_LugiaBattleHGSS_Ch2
-	channel 3, Music_LugiaBattleHGSS_Ch3
+	channel 1, Music_TKogasaBattleHGSS_Ch1
+	channel 2, Music_TKogasaBattleHGSS_Ch2
+	channel 3, Music_TKogasaBattleHGSS_Ch3
 
-Music_LugiaBattleHGSS_Ch1:
+Music_TKogasaBattleHGSS_Ch1:
 	tempo 102
 	duty_cycle 3
 	note_type 12, 12, 7
@@ -39,7 +39,7 @@ Music_LugiaBattleHGSS_Ch1:
 	octave 3
 	note F#, 1
 	note D#, 1
-Music_LugiaBattleHGSS_Ch1_L:
+Music_TKogasaBattleHGSS_Ch1_L:
 	duty_cycle 0
 	volume_envelope 12, 7
 	octave 2
@@ -274,9 +274,9 @@ Music_LugiaBattleHGSS_Ch1_L:
 	octave 3
 	note F#, 1
 	note D#, 1
-	sound_jump Music_LugiaBattleHGSS_Ch1_L
+	sound_jump Music_TKogasaBattleHGSS_Ch1_L
 
-Music_LugiaBattleHGSS_Ch2:
+Music_TKogasaBattleHGSS_Ch2:
 	duty_cycle 3
 	note_type 12, 12, 7
 	rest 4
@@ -297,7 +297,7 @@ Music_LugiaBattleHGSS_Ch2:
 	rest 6
 	octave 4
 	note C#, 16
-Music_LugiaBattleHGSS_Ch2_L:
+Music_TKogasaBattleHGSS_Ch2_L:
 	rest 10
 	duty_cycle 0
 	octave 3
@@ -400,7 +400,7 @@ Music_LugiaBattleHGSS_Ch2_L:
 	note E_, 8
 	note D#, 16
 	note E_, 16
-Music_LugiaBattleHGSS_Ch2_L1:
+Music_TKogasaBattleHGSS_Ch2_L1:
 	octave 3
 	note E_, 2
 	rest 2
@@ -420,8 +420,8 @@ Music_LugiaBattleHGSS_Ch2_L1:
 	rest 2
 	note E_, 2
 	rest 2
-	sound_loop 2, Music_LugiaBattleHGSS_Ch2_L1
-Music_LugiaBattleHGSS_Ch2_L2:
+	sound_loop 2, Music_TKogasaBattleHGSS_Ch2_L1
+Music_TKogasaBattleHGSS_Ch2_L2:
 	octave 2
 	note B_, 2
 	rest 2
@@ -441,7 +441,7 @@ Music_LugiaBattleHGSS_Ch2_L2:
 	rest 2
 	note B_, 2
 	rest 2
-	sound_loop 2, Music_LugiaBattleHGSS_Ch2_L2
+	sound_loop 2, Music_TKogasaBattleHGSS_Ch2_L2
 	octave 3
 	note E_, 2
 	rest 2
@@ -547,9 +547,9 @@ Music_LugiaBattleHGSS_Ch2_L2:
 	note E_, 2
 	rest 6
 	note C#, 16
-	sound_jump Music_LugiaBattleHGSS_Ch2_L
+	sound_jump Music_TKogasaBattleHGSS_Ch2_L
 
-Music_LugiaBattleHGSS_Ch3:
+Music_TKogasaBattleHGSS_Ch3:
 	note_type 12, 2, 3
 	octave 6
 	note G_, 1
@@ -620,7 +620,7 @@ Music_LugiaBattleHGSS_Ch3:
 	note C#, 14
 	octave 2
 	note F#, 2
-Music_LugiaBattleHGSS_Ch3_L:
+Music_TKogasaBattleHGSS_Ch3_L:
 	octave 1
 	note B_, 2
 	octave 2
@@ -669,13 +669,13 @@ Music_LugiaBattleHGSS_Ch3_L:
 	note G_, 2
 	note C_, 2
 	note G_, 2
-	sound_loop 3, Music_LugiaBattleHGSS_Ch3_L
-Music_LugiaBattleHGSS_Ch3_L1:
+	sound_loop 3, Music_TKogasaBattleHGSS_Ch3_L
+Music_TKogasaBattleHGSS_Ch3_L1:
 	octave 1
 	note B_, 2
 	octave 2
 	note F#, 2
-	sound_loop 14, Music_LugiaBattleHGSS_Ch3_L1
+	sound_loop 14, Music_TKogasaBattleHGSS_Ch3_L1
 	octave 1
 	note A#, 2
 	octave 2
@@ -684,44 +684,44 @@ Music_LugiaBattleHGSS_Ch3_L1:
 	note A#, 2
 	octave 2
 	note F#, 2
-Music_LugiaBattleHGSS_Ch3_L2:
+Music_TKogasaBattleHGSS_Ch3_L2:
 	octave 1
 	note A#, 2
 	octave 2
 	note E_, 2
-	sound_loop 8, Music_LugiaBattleHGSS_Ch3_L2
-Music_LugiaBattleHGSS_Ch3_L3:
+	sound_loop 8, Music_TKogasaBattleHGSS_Ch3_L2
+Music_TKogasaBattleHGSS_Ch3_L3:
 	note C_, 2
 	note F#, 2
-	sound_loop 8, Music_LugiaBattleHGSS_Ch3_L3
-Music_LugiaBattleHGSS_Ch3_L4:
+	sound_loop 8, Music_TKogasaBattleHGSS_Ch3_L3
+Music_TKogasaBattleHGSS_Ch3_L4:
 	octave 1
 	note G#, 2
 	octave 2
 	note C#, 2
-	sound_loop 8, Music_LugiaBattleHGSS_Ch3_L4
-Music_LugiaBattleHGSS_Ch3_L5:
+	sound_loop 8, Music_TKogasaBattleHGSS_Ch3_L4
+Music_TKogasaBattleHGSS_Ch3_L5:
 	octave 1
 	note A_, 2
 	octave 2
 	note D_, 2
-	sound_loop 8, Music_LugiaBattleHGSS_Ch3_L5
-Music_LugiaBattleHGSS_Ch3_L6:
+	sound_loop 8, Music_TKogasaBattleHGSS_Ch3_L5
+Music_TKogasaBattleHGSS_Ch3_L6:
 	octave 1
 	note A#, 2
 	octave 2
 	note E_, 2
-	sound_loop 8, Music_LugiaBattleHGSS_Ch3_L6
-Music_LugiaBattleHGSS_Ch3_L7:
+	sound_loop 8, Music_TKogasaBattleHGSS_Ch3_L6
+Music_TKogasaBattleHGSS_Ch3_L7:
 	note C#, 2
 	note G#, 2
-	sound_loop 8, Music_LugiaBattleHGSS_Ch3_L7
-Music_LugiaBattleHGSS_Ch3_L8:
+	sound_loop 8, Music_TKogasaBattleHGSS_Ch3_L7
+Music_TKogasaBattleHGSS_Ch3_L8:
 	octave 1
 	note A#, 2
 	octave 2
 	note G_, 2
-	sound_loop 8, Music_LugiaBattleHGSS_Ch3_L8
+	sound_loop 8, Music_TKogasaBattleHGSS_Ch3_L8
 	note A#, 4
 	rest 4
 	note A#, 4
@@ -762,4 +762,4 @@ Music_LugiaBattleHGSS_Ch3_L8:
 	note C#, 14
 	octave 2
 	note F#, 2
-	sound_jump Music_LugiaBattleHGSS_Ch3_L
+	sound_jump Music_TKogasaBattleHGSS_Ch3_L

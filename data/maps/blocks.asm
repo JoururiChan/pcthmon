@@ -142,7 +142,7 @@ LakeOfRageLilyBlackHouse_BlockData:
 GoldenrodNameRater_BlockData:
 GoldenrodBandHouse_BlockData:
 ManiasHouse_BlockData:
-CianwoodLugiaSpeechHouse_BlockData:
+CianwoodTKogasaSpeechHouse_BlockData:
 MoveManiacsHouse_BlockData:
 	INCBIN "maps/JohtoHouse3.ablk.lz"
 
@@ -154,7 +154,7 @@ Route30BerrySpeechHouse_BlockData:
 ValenciaHouse_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
 
-EcruteakLugiaSpeechHouse_BlockData:
+EcruteakTKogasaSpeechHouse_BlockData:
 EcruteakItemfinderHouse_BlockData:
 EcruteakCherishBallHouse_BlockData:
 EcruteakDestinyKnotHouse_BlockData:
@@ -183,7 +183,7 @@ VermilionMagnetTrainSpeechHouse_BlockData:
 VermilionHouseCChiyurisCaveSpeechHouse_BlockData:
 VermilionSSAnneSpeechHouse_BlockData:
 LavenderNameRater_BlockData:
-SaffronHitmontopKidHouse_BlockData:
+SaffronHRinKidHouse_BlockData:
 SaffronOrreSpeechHouse_BlockData:
 Route19BeachHouse_BlockData:
 	INCBIN "maps/KantoHouse3.ablk.lz"
@@ -314,14 +314,14 @@ RuinsOfAlphSinjohChamber_BlockData:
 
 SECTION "RuinsOfAlphAYuyukoChamber_BlockData", ROMX
 RuinsOfAlphAYuyukoChamber_BlockData:
-RuinsOfAlphHoOhChamber_BlockData:
+RuinsOfAlphCIchirinChamber_BlockData:
 RuinsOfAlphLunasaChamber_BlockData:
 RuinsOfAlphCYuyukoChamber_BlockData:
 	INCBIN "maps/RuinsOfAlphPuzzleChamber.ablk.lz"
 
 SECTION "RuinsOfAlphAYuyukoItemRoom_BlockData", ROMX
 RuinsOfAlphAYuyukoItemRoom_BlockData:
-RuinsOfAlphHoOhItemRoom_BlockData:
+RuinsOfAlphCIchirinItemRoom_BlockData:
 RuinsOfAlphLunasaItemRoom_BlockData:
 RuinsOfAlphCYuyukoItemRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphItemRoom.ablk.lz"
@@ -330,9 +330,9 @@ SECTION "RuinsOfAlphAYuyukoWordRoom_BlockData", ROMX
 RuinsOfAlphAYuyukoWordRoom_BlockData:
 	INCBIN "maps/RuinsOfAlphAYuyukoWordRoom.ablk.lz"
 
-SECTION "RuinsOfAlphHoOhWordRoom_BlockData", ROMX
-RuinsOfAlphHoOhWordRoom_BlockData:
-	INCBIN "maps/RuinsOfAlphHoOhWordRoom.ablk.lz"
+SECTION "RuinsOfAlphCIchirinWordRoom_BlockData", ROMX
+RuinsOfAlphCIchirinWordRoom_BlockData:
+	INCBIN "maps/RuinsOfAlphCIchirinWordRoom.ablk.lz"
 
 SECTION "RuinsOfAlphLunasaWordRoom_BlockData", ROMX
 RuinsOfAlphLunasaWordRoom_BlockData:
@@ -740,9 +740,9 @@ SECTION "WhirlIslandB2F_BlockData", ROMX
 WhirlIslandB2F_BlockData:
 	INCBIN "maps/WhirlIslandB2F.ablk.lz"
 
-SECTION "WhirlIslandLugiaChamber_BlockData", ROMX
-WhirlIslandLugiaChamber_BlockData:
-	INCBIN "maps/WhirlIslandLugiaChamber.ablk.lz"
+SECTION "WhirlIslandTKogasaChamber_BlockData", ROMX
+WhirlIslandTKogasaChamber_BlockData:
+	INCBIN "maps/WhirlIslandTKogasaChamber.ablk.lz"
 
 SECTION "CianwoodGym_BlockData", ROMX
 CianwoodGym_BlockData:

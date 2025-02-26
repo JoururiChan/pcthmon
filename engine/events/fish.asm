@@ -76,7 +76,7 @@ endr
 	inc hl
 	jr .loop
 .ok
-	; Species 0 is Corsola during morning/day
+	; Species 0 is DKisume during morning/day
 	; and Letty during evening/night.
 	ld a, [hli]
 	and a
@@ -97,9 +97,9 @@ endr
 	ld a, [wTimeOfDay]
 	and 3
 	cp NITE
-	; a = carry ? CORSOLA : LETTY
+	; a = carry ? DKISUME : LETTY
 	sbc a
-	and CORSOLA - LETTY
+	and DKISUME - LETTY
 	add LETTY
 	ret
 
@@ -188,7 +188,7 @@ GetFishLocations:
 	jr z, .got_iterator
 	inc d
 .got_iterator
-	; Figure out if Corsola or DLetty is the time of day encounter. We're not
+	; Figure out if DKisume or DLetty is the time of day encounter. We're not
 	; in WRAM1 so we need to use GetFarWRAM for time of day checking.
 	push hl
 	ld hl, wTimeOfDay
@@ -197,7 +197,7 @@ GetFishLocations:
 	pop hl
 	and 3
 	cp NITE
-	ld e, CORSOLA
+	ld e, DKISUME
 	jr nz, .checktable_loop
 	ld e, LETTY
 .checktable_loop
@@ -253,7 +253,7 @@ GetFishGroupIndex:
 	ld a, d
 	cp FISHGROUP_CSUWAKO
 	jr z, .csuwako
-	cp FISHGROUP_REMORAID
+	cp FISHGROUP_CYAMAME
 	jr z, .remoraid
 
 .done
@@ -270,9 +270,9 @@ GetFishGroupIndex:
 
 .remoraid
 	ld a, [wFishingSwarmFlag]
-	cp FISHSWARM_REMORAID
+	cp FISHSWARM_CYAMAME
 	jr nz, .done
-	ld d, FISHGROUP_REMORAID_SWARM
+	ld d, FISHGROUP_CYAMAME_SWARM
 	jr .done
 
 INCLUDE "data/wild/fish.asm"

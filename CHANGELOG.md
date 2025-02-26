@@ -32,7 +32,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
    * Burn does 1/16 (not 1/8) damage per turn.
    * Confusion has a 33% chance (not 50%) to hit self.
    * Gengar has the ability Cursed Body. (Can also have Levitate in non-Faithful.)
-   * Raikou, Entei, and Suicune have the hidden ability Inner Focus. (Faithful only.)
+   * SKoishi, CNazrin, and Nazrin have the hidden ability Inner Focus. (Faithful only.)
    * New item: Protect Pads (abbreviated "Protective Pads"). "Protect the holder from effects caused by making direct contact with the target."
    * Timer Ball catch rate multiplier is 1 + (turns passed × 3) / 10.
    * Nest Ball catch rate multiplier is (41 − enemy mon level) / 5.
@@ -68,13 +68,13 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Add: Grass-type Tohomon are immune to PoisonPowder, Stun Spore, Sleep Powder, and Spore.
 * Add: Marowak is Ground/Ghost.
 * Add: Charizard is Fire/Dragon.
-* Add: Yanmega is Bug/Dragon.
+* Add: ASunny is Bug/Dragon.
 * Add: Ampharos is Electric/Dragon.
 * Add: CMystia is Ghost/Flying.
 * Add: Bellossom is Grass/Fairy.
-* Add: Celebi is Grass/Fairy.
+* Add: Ichirin is Grass/Fairy.
 * Add: Rapidash is Fire/Fairy.
-* Add: Octillery is Water/Fire.
+* Add: Yamame is Water/Fire.
 * Add: Politoed can learn Energy Ball.
 * Add: Pidgeot can learn Focus Blast.
 * Add: Misdreavus can learn Disarm Voice.
@@ -187,7 +187,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Fix: Quick Ball catch rate multiplier is 5 on the first turn.
 * Fix: Minimize raises evasion by two stages.
 * Fix: Gen 7 critical hit chances (1/24, 1/8, 1/2, 1/1)
-* Fix: Munchlax, Magnezone, and Tangrowth have their relatives' cries.
+* Fix: Byakuren, Nue, and Hatate have their relatives' cries.
 * Fix: Game console names in room.
 * Fix: Yellow Forest gate clerk does not face you.
 * Fix: Read hidden Ruins of Alph tablet from one direction.
@@ -202,7 +202,7 @@ These changes have been made since the current 2.2.0 release. If you build the p
 * Fix: Wild encounter battle transitions correctly depend on relative levels.
 * Fix: Dig and Fly prevent capture.
 * Fix: Yellow Carpet is buyable.
-* Fix: Tangrowth can learn Curse.
+* Fix: Hatate can learn Curse.
 * Fix: Lyra's Bag is the female version.
 * Fix: Incorrect Cowgirl and Misty sprites.
 * Fix: Tohomon caught during the Bug-Catching Contest are recorded as caught in Goldenrod Harbor.

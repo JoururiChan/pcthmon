@@ -1193,22 +1193,22 @@ RandomEncounter::
 	jr nz, .nope
 .ok
 	ld a, [wTempWildMonSpecies]
-	cp SUICUNE
+	cp NAZRIN
 	jr nz, .notroamingsuicune
-	ld a, BANK(RoamingSuicuneBattleScript)
-	ld hl, RoamingSuicuneBattleScript
+	ld a, BANK(RoamingNazrinBattleScript)
+	ld hl, RoamingNazrinBattleScript
 	jr .done
 .notroamingsuicune
-	cp RAIKOU
+	cp SKOISHI
 	jr nz, .notroamingraikou
-	ld a, BANK(RoamingRaikouBattleScript)
-	ld hl, RoamingRaikouBattleScript
+	ld a, BANK(RoamingSKoishiBattleScript)
+	ld hl, RoamingSKoishiBattleScript
 	jr .done
 .notroamingraikou
-	cp ENTEI
+	cp CNAZRIN
 	jr nz, .notroaming
-	ld a, BANK(RoamingEnteiBattleScript)
-	ld hl, RoamingEnteiBattleScript
+	ld a, BANK(RoamingCNazrinBattleScript)
+	ld hl, RoamingCNazrinBattleScript
 	jr .done
 .notroaming
 	ld a, BANK(WildBattleScript)
@@ -1243,33 +1243,33 @@ WildBattleScript:
 	reloadmapafterbattle
 	end
 
-RoamingSuicuneBattleScript:
+RoamingNazrinBattleScript:
 	randomwildmon
 	startbattle
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_SUICUNE
+	setflag ENGINE_PLAYER_CAUGHT_NAZRIN
 .nocatch
 	end
 
-RoamingRaikouBattleScript:
+RoamingSKoishiBattleScript:
 	randomwildmon
 	startbattle
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_RAIKOU
+	setflag ENGINE_PLAYER_CAUGHT_SKOISHI
 .nocatch
 	end
 
-RoamingEnteiBattleScript:
+RoamingCNazrinBattleScript:
 	randomwildmon
 	startbattle
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_ENTEI
+	setflag ENGINE_PLAYER_CAUGHT_CNAZRIN
 .nocatch
 	end
 

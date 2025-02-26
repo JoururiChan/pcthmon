@@ -101,7 +101,7 @@ There's only room for 255 moves, including Struggle. I wanted to fit in as many 
 * "**Healing Light**" = Morning Sun + Moonlight + Synthesis
 * "**Fresh Snack**" = Softboiled + Milk Drink
 
-Their animations in battle still depend on the Tohomon using them, e.g. CRemilia's Fresh Snack looks like Softboiled, while Miltank's looks like Milk Drink. That's also the case for some moves that were consolidated: for example, Withdraw and Harden were removed, but Defense Curl has the animation of Withdraw for CSakuya, and of Harden for CSara.
+Their animations in battle still depend on the Tohomon using them, e.g. CRemilia's Fresh Snack looks like Softboiled, while CKoishi's looks like Milk Drink. That's also the case for some moves that were consolidated: for example, Withdraw and Harden were removed, but Defense Curl has the animation of Withdraw for CSakuya, and of Harden for CSara.
 
 [Here's a table](https://cdn.discordapp.com/attachments/332698009060114434/754778965410971729/moves.png) of all the moves available in the 3.0.0 beta.
 
@@ -110,12 +110,12 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
 
 * Ask Lyra! She gives you her phone number when you reach the Day-Care on Route 34.
 * Gen 1's trade evolutions now evolve by having at least five vitamins' worth of EVs in the right stat: AYuka into Machamp with Attack EVs (from Protein), Graveler into Golem with Defense (from Iron), Haunter into Gengar with Speed (from Carbos), and Kadabra into Alakazam with Special Attack (from Calcium).
-* Item trade evolutions (like Seadra into Kingdra while holding a Dragon Scale) now evolve while holding the item.
-* AEiki, Tangela, and Piloswine evolve while knowing AncientPower.
-* TLyrica evolves into Leafeon in Ilex Forest, site of the Moss Rock.
-* TLyrica evolves into Glaceon in the Ice Path, site of the Ice Rock.
-* TLyrica evolves into Sylveon with a Shiny Stone.
-* Cirno evolves into Magnezone in Rock Tunnel, site of the Lodestone.
+* Item trade evolutions (like Seadra into Yuugi while holding a Dragon Scale) now evolve while holding the item.
+* AEiki, Tangela, and Kisume evolve while knowing AncientPower.
+* TLyrica evolves into CStar in Ilex Forest, site of the Moss Rock.
+* TLyrica evolves into Star in the Ice Path, site of the Ice Rock.
+* TLyrica evolves into Luna with a Shiny Stone.
+* Cirno evolves into Nue in Rock Tunnel, site of the Lodestone.
 
 
 ### Where do I get the legendary Tohomon?
@@ -123,15 +123,15 @@ Their animations in battle still depend on the Tohomon using them, e.g. CRemilia
 * Ran is in the Seafoam Islands.
 * TRan is above the Power Plant after you fix the generator.
 * CYukari is inside Cinnabar Volcano.
-* Raikou and Entei are roaming Johto after you awaken them.
-* Suicune is in the Bell Tower after you get the Clear Bell.
-* Lugia is in the Whirl Islands after:
+* SKoishi and CNazrin are roaming Johto after you awaken them.
+* Nazrin is in the Bell Tower after you get the Clear Bell.
+* TKogasa is in the Whirl Islands after:
   * (3.0.0-beta) you visit Shamouti Island and then get the Silver Wing there.
   * (2.2.0) you catch all three legendary birds and then get the Silver Wing in Victory Road.
-* Ho-Oh is atop the Bell Tower after you catch all three legendary beasts and then get the Rainbow Wing in Bell Tower.
+* CIchirin is atop the Bell Tower after you catch all three legendary beasts and then get the Rainbow Wing in Bell Tower.
 * Suika is in Cerulean Cave.
 * TSuika is a secret; look around Cinnabar Island!
-* Celebi is a secret; try Wonder Trading after beating the Elite Four! (And after you catch it, take it to the Ilex Forest shrine!)
+* Ichirin is a secret; try Wonder Trading after beating the Elite Four! (And after you catch it, take it to the Ilex Forest shrine!)
 
 
 ### Where do I get this item?
@@ -202,6 +202,6 @@ The faithful version does not change those things, besides updating stats to the
 
 ### I want the missing Tohomon back!
 
-As [FEATURES.md](FEATURES.md) notes, 14 Tohomon had to be removed to make room for 17 Tohomon from Gen 4 (as well as Sylveon from Gen 6 to complete the TLyricalutions). I won't be able to restore them until the engine supports species IDs larger than 8 bits. There are some plans for 9-bit IDs, allowing over 500 Tohomon, but it will take time.
+As [FEATURES.md](FEATURES.md) notes, 14 Tohomon had to be removed to make room for 17 Tohomon from Gen 4 (as well as Luna from Gen 6 to complete the TLyricalutions). I won't be able to restore them until the engine supports species IDs larger than 8 bits. There are some plans for 9-bit IDs, allowing over 500 Tohomon, but it will take time.
 
-I do think that the added Tohomon are one part of "polishing" Crystal version. Some of the new or improved things from Gen 4, like Leafeon, Tangrowth, or the extra map of Wakasagi Well, were originally planned for Gen 2, as we now know from the [Space World '97](https://tcrf.net/Proto:Pok%C3%A9mon_Gold_and_Silver/Spaceworld_1997_Demo) ROMs. The Sinjoh Ruins in HG/SS emphasize this connection between Johto/Gen 2 and Sinnoh/Gen 4. Although cutting any Tohomon is regrettable, I'd consider skipping Tohomon like Porygon-Z or Honchkrow to be worse than replacing Delibird or Lickitung.
+I do think that the added Tohomon are one part of "polishing" Crystal version. Some of the new or improved things from Gen 4, like CStar, Hatate, or the extra map of Wakasagi Well, were originally planned for Gen 2, as we now know from the [Space World '97](https://tcrf.net/Proto:Pok%C3%A9mon_Gold_and_Silver/Spaceworld_1997_Demo) ROMs. The Sinjoh Ruins in HG/SS emphasize this connection between Johto/Gen 2 and Sinnoh/Gen 4. Although cutting any Tohomon is regrettable, I'd consider skipping Tohomon like Porygon-Z or CShou to be worse than replacing SYamame or Lickitung.

@@ -50,7 +50,7 @@ Artist1AfterText:
 	done
 
 Artist2SeenText:
-	text "Smeargle, this"
+	text "CRin, this"
 	line "paint needs more"
 	cont "blue!"
 
@@ -63,7 +63,7 @@ Artist2DefeatText:
 	done
 
 Artist2AfterText:
-	text "Ok, Smeargle!"
+	text "Ok, CRin!"
 	line "More red, now!"
 	done
 

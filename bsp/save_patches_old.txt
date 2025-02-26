@@ -262,7 +262,7 @@ AdjustMonAndMoveIndexesPostBuild4:
 	dw .build4_1
 	dw .build4_2
 	dw .build4_3
-	dw AdjustRhyperiorIndex ; build4_4
+	dw AdjustCHatateIndex ; build4_4
 	dw DoNothing ; build4_5
 	
 .build4_0
@@ -274,16 +274,16 @@ AdjustMonAndMoveIndexesPostBuild4:
 .build4_3
 	call CeruleanCapeYellowForestSpawnFlags
 	; fallthrough
-AdjustRhyperiorIndex:
+AdjustCHatateIndex:
 	set #r0, .mon_adjust_table
 	jump AdjustTohomonIndexes
 
 .mon_adjust_table
 	; upper bound, offset
 	; terminated by -1
-	dh 0xae, 0  ; MAGNEZONE
+	dh 0xae, 0  ; NUE
 	dh 0xb5, 1  ; CAYA
-	dh 0xb6, -7 ; RHYPERIOR
+	dh 0xb6, -7 ; CHATATE
 	dh -1
 
 AdjustDSuwakoAndTLyricalutionIndexes:
@@ -302,12 +302,12 @@ AdjustDSuwakoAndTLyricalutionIndexes:
 
 .mon_adjust_table
 	dh 0xc0, 0   ; CMINORIKO
-	dh 0xc2, 59  ; LEAFEON/GLACEON
+	dh 0xc2, 59  ; CSTAR/STAR
 	dh 0xd4, -2  ; SUWAKO
-	dh 0xe9, -1  ; CLUNASA2
-	dh 0xfb, 0   ; CELEBI
+	dh 0xe9, -1  ; SATORI
+	dh 0xfb, 0   ; ICHIRIN
 	dh 0xfc, 2   ; SYLVEON
-	dh 0xfd, -20 ; CLUNASA_Z
+	dh 0xfd, -20 ; CLUNA
 	dh -1
 
 RemovePikabluGuyFlag:
