@@ -142,7 +142,7 @@ LakeOfRageLilyBlackHouse_BlockData:
 GoldenrodNameRater_BlockData:
 GoldenrodBandHouse_BlockData:
 ManiasHouse_BlockData:
-CianwoodTKogasaSpeechHouse_BlockData:
+CianwoodLugiaSpeechHouse_BlockData:
 MoveManiacsHouse_BlockData:
 	INCBIN "maps/JohtoHouse3.ablk.lz"
 
