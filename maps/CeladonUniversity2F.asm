@@ -188,7 +188,7 @@ CeladonUniversity2FWestwoodsOfficeSignText:
 
 CeladonUniversity2FLilyBlackSign:
 	reanchormap
-	pokepic LILYBLACK, LILYBLACK_ORCA_FORM
+	pokepic LILYBLACK
 	cry LILYBLACK
 	waitbutton
 	closepokepic

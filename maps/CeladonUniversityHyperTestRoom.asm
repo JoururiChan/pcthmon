@@ -133,7 +133,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	writetext .CongratulationsText
 	waitbutton
 
-	givepoke LILYBLACK, LILYBLACK_MASK1_FORM, 10, EVIOLITE, ULTRA_BALL, POISON_SHOT
+	givepoke LILYBLACK, 10, EVIOLITE, ULTRA_BALL, POISON_SHOT
 	iffalse_jumpopenedtext .PartyAndBoxFullText
 	setevent EVENT_GOT_POISON_SHOT_LILYBLACK
 	jumpopenedtext .TestOverText
@@ -409,7 +409,7 @@ CeladonUniversityHyperTestRoomTwin2Text:
 
 CeladonUniversityHyperTestRoomLilyBlackSign:
 	reanchormap
-	pokepic LILYBLACK, LILYBLACK_MASK1_FORM
+	pokepic LILYBLACK
 	cry LILYBLACK
 	waitbutton
 	closepokepic
