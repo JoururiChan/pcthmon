@@ -83,7 +83,7 @@ MapScenes::
 	scene_var ROUTE_48,                               wRoute48SceneID
 	scene_var RUGGED_ROAD_SOUTH,                      wRuggedRoadSouthSceneID
 	scene_var RUINS_OF_ALPH_AYUYUKO_CHAMBER,       wRuinsOfAlphAYuyukoChamberSceneID
-	scene_var RUINS_OF_ALPH_CICHIRIN_CHAMBER,            wRuinsOfAlphCIchirinChamberSceneID
+	scene_var RUINS_OF_ALPH_CICHIRIN_CHAMBER,            wRuinsOfAlphHoOhChamberSceneID
 	scene_var RUINS_OF_ALPH_INNER_CHAMBER,            wRuinsOfAlphInnerChamberSceneID
 	scene_var RUINS_OF_ALPH_LUNASA_CHAMBER,           wRuinsOfAlphLunasaChamberSceneID
 	scene_var RUINS_OF_ALPH_CYUYUKO_CHAMBER,          wRuinsOfAlphCYuyukoChamberSceneID

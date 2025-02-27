@@ -1,9 +1,9 @@
-RuinsOfAlphCIchirinChamber_MapScriptHeader:
+RuinsOfAlphHoOhChamber_MapScriptHeader:
 	def_scene_scripts
 	scene_script RuinsofAlphCIchirinChamberTrigger0
 
 	def_callbacks
-	callback MAPCALLBACK_TILES, RuinsOfAlphCIchirinChamberHiddenDoorsCallback
+	callback MAPCALLBACK_TILES, RuinsOfAlphHoOhChamberHiddenDoorsCallback
 
 	def_warp_events
 	warp_event  3,  9, RUINS_OF_ALPH_OUTSIDE, 1
@@ -28,11 +28,11 @@ RuinsofAlphCIchirinChamberTrigger0:
 	special SpecialCIchirinChamber
 	checkevent EVENT_WALL_OPENED_IN_CICHIRIN_CHAMBER
 	iffalsefwd .End
-	sdefer RuinsOfAlphCIchirinChamberWallOpenScript
+	sdefer RuinsOfAlphHoOhChamberWallOpenScript
 .End
 	end
 
-RuinsOfAlphCIchirinChamberHiddenDoorsCallback:
+RuinsOfAlphHoOhChamberHiddenDoorsCallback:
 	checkevent EVENT_WALL_OPENED_IN_CICHIRIN_CHAMBER
 	iftruefwd .WallOpen
 	changeblock 4, 0, $24
@@ -46,7 +46,7 @@ RuinsOfAlphCIchirinChamberHiddenDoorsCallback:
 	changeblock 4, 2, $2
 	endcallback
 
-RuinsOfAlphCIchirinChamberWallOpenScript:
+RuinsOfAlphHoOhChamberWallOpenScript:
 	pause 30
 	earthquake 30
 	showemote EMOTE_SHOCK, PLAYER, 20
@@ -88,7 +88,7 @@ MapRuinsofAlphCIchirinChamberSignpost2Script:
 MapRuinsofAlphCIchirinChamberSignpost3Script:
 	opentext
 	hinatypeface
-	writetext RuinsOfAlphCIchirinChamberDescriptionText
+	writetext RuinsOfAlphHoOhChamberDescriptionText
 	waitbutton
 	closetext
 	restoretypeface
@@ -111,7 +111,7 @@ MapRuinsofAlphCIchirinChamberSignpost4Script:
 	special Special_DisplayHinaWords
 	endtext
 
-RuinsOfAlphCIchirinChamberDescriptionText:
+RuinsOfAlphHoOhChamberDescriptionText:
 	text "A #mon that"
 	line "flew gracefully on"
 

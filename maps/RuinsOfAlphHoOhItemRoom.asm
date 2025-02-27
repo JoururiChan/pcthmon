@@ -1,4 +1,4 @@
-RuinsOfAlphCIchirinItemRoom_MapScriptHeader:
+RuinsOfAlphHoOhItemRoom_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
