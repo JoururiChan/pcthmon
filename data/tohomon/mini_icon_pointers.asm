@@ -309,10 +309,6 @@ MiniIconPointers:
 
 	mini_icon TTei ; Spiky
 
-rept NUM_LILYBLACK - 1
-	mini_icon LilyBlack
-endr
-
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
 	mini_icon SLilyBlack ; Red

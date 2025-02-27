@@ -284,10 +284,6 @@ endr
 
 	iconpal RED, BLUE ; TTEI, TTEI_SPIKY_EARED_FORM
 
-rept NUM_LILYBLACK - 1
-	iconpal RED, BROWN
-endr
-
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 
 	iconpal RED, RED ; SLILYBLACK, SLILYBLACK_RED_FORM

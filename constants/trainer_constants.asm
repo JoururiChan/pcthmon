@@ -911,7 +911,7 @@ DEF CRYS EQU __trainer_class__
 	const REINA
 	const ALINA
 	const MARLENE
-	const RIN
+	const RIN_T
 
 	trainerclass AROMA_LADY ; 63
 	const DAHLIA

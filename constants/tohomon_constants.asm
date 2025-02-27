@@ -375,7 +375,7 @@ DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 38
 DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
 
 ; slilyblack
-	ext_const_def NUM_LILYBLACK + 1
+	ext_const_def 2
 	ext_const SLILYBLACK_RED_FORM ; 15c (15)
 
 ; suika

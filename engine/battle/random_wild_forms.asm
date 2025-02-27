@@ -46,7 +46,6 @@ ENDM
 
 RandomWildSpeciesForms:
 	random_wild_form HINA,       .Hina
-	random_wild_form LILYBLACK,    .LilyBlack
 	random_wild_form CKIKURI,       .CKikuriKikuri
 	random_wild_form KIKURI,       .CKikuriKikuri
 	random_wild_form CMOMIJI,   .CFuto
@@ -61,11 +60,6 @@ RandomWildSpeciesForms:
 	call CheckHinaLetter
 	jr nc, .Hina ; re-roll
 	ret
-
-.LilyBlack:
-	; Random LilyBlack pattern
-	ld a, NUM_LILYBLACK
-	jr .RandomForm
 
 .CKikuriKikuri:
 	; Random Kikuri form (if not already specified)

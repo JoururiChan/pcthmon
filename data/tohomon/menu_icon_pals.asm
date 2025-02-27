@@ -259,10 +259,6 @@ endr
 
 	iconpal RED, BLUE ; TTEI
 
-rept NUM_LILYBLACK - 1
-	iconpal RED, BROWN ; LILYBLACK
-endr
-
 	iconpal RED, RED ; SLILYBLACK, SLILYBLACK_RED_FORM
 	iconpal GRAY, GRAY ; SUIKA, SUIKA_ARMORED_FORM
 
