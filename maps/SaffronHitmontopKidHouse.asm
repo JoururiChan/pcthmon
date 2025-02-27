@@ -1,4 +1,4 @@
-SaffronHRinKidHouse_MapScriptHeader:
+SaffronHitmontopKidHouse_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -12,13 +12,13 @@ SaffronHRinKidHouse_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  5,  4, SPRITE_CHILD, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SaffronHRinKidHouseChildScript, -1
-	object_event  2,  4, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SaffronHRinKidHouseTeacherScript, -1
+	object_event  5,  4, SPRITE_CHILD, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SaffronHitmontopKidHouseChildScript, -1
+	object_event  2,  4, SPRITE_TOHOFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SaffronHitmontopKidHouseTeacherScript, -1
 
 	object_const_def
 	const SAFFRONHRINKIDHOUSE_CHILD
 
-SaffronHRinKidHouseChildScript:
+SaffronHitmontopKidHouseChildScript:
 	showtextfaceplayer .Text1
 	applymovement SAFFRONHRINKIDHOUSE_CHILD, .SpinMovement
 	faceplayer
@@ -67,7 +67,7 @@ SaffronHRinKidHouseChildScript:
 	turn_head_down
 	step_end
 
-SaffronHRinKidHouseTeacherScript:
+SaffronHitmontopKidHouseTeacherScript:
 	checkevent EVENT_GOT_AIR_BALLOON_FROM_SAFFRON
 	iftrue_jumptextfaceplayer .Text3
 	faceplayer
