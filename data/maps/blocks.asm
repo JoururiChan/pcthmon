@@ -154,7 +154,7 @@ Route30BerrySpeechHouse_BlockData:
 ValenciaHouse_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
 
-EcruteakTKogasaSpeechHouse_BlockData:
+EcruteakLugiaSpeechHouse_BlockData:
 EcruteakItemfinderHouse_BlockData:
 EcruteakCherishBallHouse_BlockData:
 EcruteakDestinyKnotHouse_BlockData:

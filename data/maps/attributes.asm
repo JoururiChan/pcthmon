@@ -543,7 +543,7 @@ ENDM
 	map_attributes EcruteakHouse, ECRUTEAK_HOUSE, $0, 0
 	map_attributes WiseTriosRoom, WISE_TRIOS_ROOM, $0, 0
 	map_attributes EcruteakTohoCenter1F, ECRUTEAK_TOHOCENTER_1F, $0, 0
-	map_attributes EcruteakTKogasaSpeechHouse, ECRUTEAK_TKOGASA_SPEECH_HOUSE, $0, 0
+	map_attributes EcruteakLugiaSpeechHouse, ECRUTEAK_TKOGASA_SPEECH_HOUSE, $0, 0
 	map_attributes DanceTheatre, DANCE_THEATRE, $0, 0
 	map_attributes EcruteakMart, ECRUTEAK_MART, $0, 0
 	map_attributes EcruteakGym, ECRUTEAK_GYM, $0, 0
