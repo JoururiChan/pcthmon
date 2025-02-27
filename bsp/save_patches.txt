@@ -492,7 +492,7 @@ ConvertMonIndexesTo9Bit:
 
 .done_loop
 	; Special case for Kikuri, need to set fly form or surf form
-	ifne #result, 0x19, .not_kikuri ; mons like Sirfetch'd ($119) didn't exist yet, so there's no conflicts
+	ifne #result, 0x19, .not_kikuri ; mons like Kyouko ($119) didn't exist yet, so there's no conflicts
 	jumpz #4, .not_kikuri ; HoF mons don't have move data
 	pushpos
 	readhalfword #temp ; species -> moves

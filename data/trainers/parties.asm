@@ -1441,7 +1441,7 @@ Rival0Group:
 	db "boy@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 4, CKIKURI
+	dbp 4, CRIKA
 		db NO_ITEM
 	dbp 5, CREISEN
 		db ORAN_BERRY
@@ -1462,7 +1462,7 @@ Rival1Group:
 	dbp 16, CSARA
 		db NO_ITEM
 		ev_spread 72 Atk
-	dbp 15, CKIKURI
+	dbp 15, CRIKA
 		db NO_ITEM
 		ev_spread 72 HP
 	dbp 18, CSANAE
@@ -1477,7 +1477,7 @@ Rival1Group:
 	dbp 14, CLUIZE
 		db NO_ITEM
 		ev_spread 72 Spe
-	dbp 16, CKIKURI
+	dbp 16, CRIKA
 		db NO_ITEM
 		ev_spread 72 Spe
 	dbp 15, CSARA
@@ -1495,7 +1495,7 @@ Rival1Group:
 	dbp 14, CLUIZE
 		db NO_ITEM
 		ev_spread 72 Spe
-	dbp 16, CKIKURI
+	dbp 16, CRIKA
 		db NO_ITEM
 		ev_spread 72 Spe
 	dbp 15, CSARA
@@ -1522,7 +1522,7 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db HYPNOSIS, PSYSHOT, HEADBUTT, LOW_KICK
-	dbp 20, CKIKURI
+	dbp 20, CRIKA
 		db NO_ITEM
 		ev_spread 104 Spe
 		db CHARM, SWEET_KISS, DISARM_VOICE, MACH_PUNCH
@@ -1548,7 +1548,7 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db HYPNOSIS, PSYSHOT, HEADBUTT, LOW_KICK
-	dbp 20, CKIKURI
+	dbp 20, CRIKA
 		db NO_ITEM
 		ev_spread 104 Spe
 		db CHARM, SWEET_KISS, DISARM_VOICE, MACH_PUNCH
@@ -1574,7 +1574,7 @@ Rival1Group:
 		db NO_ITEM
 		ev_spread 104 Spe
 		db HYPNOSIS, PSYSHOT, HEADBUTT, LOW_KICK
-	dbp 20, CKIKURI
+	dbp 20, CRIKA
 		db NO_ITEM
 		ev_spread 104 Spe
 		db CHARM, SWEET_KISS, DISARM_VOICE, MACH_PUNCH
@@ -2237,7 +2237,7 @@ YoungsterGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 2, CSARA
-	dbp 4, CKEINE
+	dbp 4, CTEI
 	db -1 ; end
 
 	; YOUNGSTER
@@ -2245,14 +2245,14 @@ YoungsterGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 8, CSARA
-	dbp 10, CMEILING
+	dbp 10, CSHIZUHA
 	db -1 ; end
 
 	; YOUNGSTER
 	db "Gordon@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 11, CMEIRA
+	dbp 11, CRIKA
 	db -1 ; end
 
 	; YOUNGSTER
@@ -2354,8 +2354,8 @@ BugCatcherGroup:
 	db "Wade@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 2, CDAICHAN
-	dbp 2, CDAICHAN
+	dbp 2, CYAMAME
+	dbp 2, CYAMAME
 	dbp 3, CLILYWHITE
 	dbp 2, CWRIGGLE
 	db -1 ; end
@@ -2412,7 +2412,7 @@ BugCatcherGroup:
 	db "Arnie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 16, CMEDICINE
+	dbp 16, CYAMAME
 	db -1 ; end
 
 	; BUG_CATCHER
@@ -2450,7 +2450,7 @@ BugCatcherGroup:
 	db "Don@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 3, CYUYUKO
+	dbp 3, CYAMAME
 	dbp 3, CMEDICINE
 	db -1 ; end
 
@@ -2459,7 +2459,7 @@ BugCatcherGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 7, CWRIGGLE
-	dbp 10, CLILYWHITE
+	dbp 10, CYAMAME
 	dbp 12, CYUKA
 	db -1 ; end
 
@@ -2491,7 +2491,7 @@ BugCatcherGroup:
 	db "Wayne@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, CLILYBLACK
+	dbp 9, CMINORIKO
 	dbp 10, CWRIGGLE
 	db -1 ; end
 
@@ -2511,7 +2511,7 @@ CamperGroup:
 	db "Todd@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 14, CSARA
+	dbp 14, CYUKI
 	db -1 ; end
 
 	; CAMPER
@@ -2567,9 +2567,9 @@ CamperGroup:
 	db "Ivan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 11, CKOAKUMA
-	dbp 11, CMEIRA
-	dbp 15, CKOAKUMA
+	dbp 11, CTEI
+	dbp 11, CYUKI
+	dbp 15, CTEI
 	db -1 ; end
 
 	; CAMPER
@@ -2607,7 +2607,7 @@ CamperGroup:
 	db "Ted@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, CELLY
+	dbp 18, CRIN
 	db -1 ; end
 
 	; CAMPER
@@ -2631,18 +2631,18 @@ CamperGroup:
 	db "Spencer@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 28, CSARIEL
-	dbp 29, CSARIEL
-	dbp 30, KOTOHIME
+	dbp 28, CGYOKU
+	dbp 29, CGYOKU
+	dbp 30, CRIN
 	db -1 ; end
 
 	; CAMPER
 	db "Quentin@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 30, ELIS
-	dbp 30, ORANGE
-	dbp 30, CLILYBLACK
+	dbp 30, CRIN
+	dbp 30, CMOMIJI
+	dbp 30, CYUKA
 	db -1 ; end
 
 	; CAMPER
@@ -2658,15 +2658,15 @@ CamperGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp LEVEL_FROM_BADGES + 5, CMIMA
-	dbp LEVEL_FROM_BADGES + 5, CORANGE
-	dbp LEVEL_FROM_BADGES + 6, CSARIEL
+	dbp LEVEL_FROM_BADGES + 5, CRIKA
+	dbp LEVEL_FROM_BADGES + 6, CNITORI
 	db -1 ; end
 
 	; CAMPER
 	db "Felix@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 8, MARISA
+	dbp LEVEL_FROM_BADGES + 8, CRIKA
 	db -1 ; end
 
 	; CAMPER
@@ -2716,8 +2716,8 @@ PicnickerGroup:
 	db "Liz@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 15, CKOAKUMA
-	dbp 15, CPATCHOULI
+	dbp 15, CTEI
+	dbp 15, CSHIZUHA
 	db -1 ; end
 
 	; PICNICKER
@@ -2755,7 +2755,7 @@ PicnickerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 9, CDAICHAN
-	dbp 9, CLILYBLACK
+	dbp 9, CEIRIN
 	dbp 12, CMEDICINE
 	db -1 ; end
 
@@ -2806,7 +2806,7 @@ endc
 	db "Erin@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, CLUIZE
+	dbp 18, CREISEN
 	dbp 16, CKAGUYA
 	db -1 ; end
 
@@ -2866,7 +2866,7 @@ endc
 	db "Kim@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, CMAI
+	dbp 17, CEIRIN
 	db -1 ; end
 
 	; PICNICKER
@@ -3094,14 +3094,14 @@ FisherGroup:
 	db "Ralph@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 11, CCHIYURI
+	dbp 11, CKOMACHI
 	db -1 ; end
 
 	; FISHER
 	db "Ralph@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, CCHIYURI
+	dbp 17, CKOMACHI
 	db -1 ; end
 
 	; FISHER
@@ -3232,7 +3232,7 @@ FisherGroup:
 	db "Henry@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, CCHIYURI
+	dbp 9, CSUWAKO
 	dbp 9, CKOMACHI
 	db -1 ; end
 
@@ -3355,8 +3355,8 @@ FisherGroup:
 	db "Francis@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 4, CYAMAME
-	dbp LEVEL_FROM_BADGES + 5, CTEI
+	dbp LEVEL_FROM_BADGES + 4, CNITORI
+	dbp LEVEL_FROM_BADGES + 5, CKOMACHI
 	dbp LEVEL_FROM_BADGES + 4, CSUWAKO
 	db -1 ; end
 
@@ -3802,9 +3802,9 @@ HikerGroup:
 	db "Benjamin@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 24, CCHIYURI
+	dbp 24, CMINORIKO
 	dbp 24, CMOMIJI
-	dbp 28, MOMIJI
+	dbp 28, CMOMIJI
 	db -1 ; end
 
 	; HIKER
@@ -4029,7 +4029,7 @@ GruntMGroup:
 	; party
 	dbp 8, CMEIRA
 	dbp 9, CRIKA
-	dbp 10, CKOAKUMA
+	dbp 10, CKANAKO
 	db -1 ; end
 
 	; GRUNTM
@@ -4224,8 +4224,8 @@ GruntMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 23, CMEDICINE
-	dbp 25, CMYSTIA
-	dbp 23, CTEI
+	dbp 25, CMAGAN
+	dbp 23, CMEIRA
 	db -1 ; end
 
 	; GRUNTM
@@ -4359,7 +4359,7 @@ TohofanMGroup:
 	db "Derek@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 18, CPATCHOULI
+	dbp 18, CELLEN
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4499,7 +4499,7 @@ TohofanFGroup:
 	db "Beverly@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 16, CEIKI
+	dbp 16, CKISUME
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4507,7 +4507,7 @@ TohofanFGroup:
 	db "Beverly@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 18, CEIKI
+	dbp 18, CKISUME
 		db ORAN_BERRY
 	db -1 ; end
 
@@ -4515,7 +4515,7 @@ TohofanFGroup:
 	db "Beverly@"
 	db TRAINERTYPE_ITEM
 	; party
-	dbp 30, CEIKI
+	dbp 30, KISUME
 		db SITRUS_BERRY
 	db -1 ; end
 
@@ -4588,7 +4588,7 @@ OfficerMGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 15, CELLY
-	dbp 15, CKOTOHIME
+	dbp 15, CKOMACHI
 	db -1 ; end
 
 
@@ -4629,7 +4629,7 @@ NurseGroup:
 	db "Beatrice@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp LEVEL_FROM_BADGES + 5, LUIZE
+	dbp LEVEL_FROM_BADGES + 5, CEIRIN
 	db -1 ; end
 
 	; NURSE
@@ -4707,7 +4707,7 @@ TohomaniacGroup:
 	db "Calvin@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 26, CYUMEKO
+	dbp 26, CRIKA
 	db -1 ; end
 
 	; TOHOMANIAC
@@ -4715,7 +4715,7 @@ TohomaniacGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 20, CFLANDRE
-	dbp 20, CREMILIA
+	dbp 20, CUTSUHO
 	db -1 ; end
 
 	; TOHOMANIAC
@@ -4744,14 +4744,14 @@ TohomaniacGroup:
 	db "Issac@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 15, CEIKI
+	dbp 15, CSANAE
 	db -1 ; end
 
 	; TOHOMANIAC
 	db "Donald@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 13, CKOMACHI
+	dbp 13, CYOUMU
 	dbp 13, CALICE
 	db -1 ; end
 
@@ -4789,7 +4789,7 @@ CosplayerGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 14, CELLEN
-	dbp 14, CTEI
+	dbp 14, CSATORI
 	db -1 ; end
 
 	; COSPLAYER
@@ -4835,7 +4835,7 @@ SuperNerdGroup:
 	db "Stan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CYUKI
+	dbp 20, CSATORI
 	db -1 ; end
 
 	; SUPER_NERD
@@ -4883,9 +4883,9 @@ SuperNerdGroup:
 	db "Teru@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, CEIKI
-	dbp 13, CYUKI
-	dbp 9, CMAI
+	dbp 9, CYOUMU
+	dbp 13, CSANAE
+	dbp 9, CREISEN
 	dbp 11, CALICE
 	db -1 ; end
 
@@ -4960,7 +4960,7 @@ SuperNerdGroup:
 	db "Rory@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 26, CLUNASA
+	dbp 26, CMERLIN
 	db -1 ; end
 
 	; SUPER_NERD
@@ -5057,7 +5057,7 @@ endc
 	db "Cathy@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, CTEI
+	dbp 18, CSANAE
 	db -1 ; end
 
 	; LASS
@@ -5074,14 +5074,14 @@ endc
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 14, CSUIKA
-	dbp 17, CYUMEKO
+	dbp 17, CPARSEE
 	db -1 ; end
 
 	; LASS
 	db "Connie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CCHIYURI
+	dbp 20, CLUNA
 	dbp 21, CMEDICINE
 	db -1 ; end
 
@@ -5240,8 +5240,8 @@ BeautyGroup:
 	db "Victoria@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 9, CFLANDRE
-	dbp 13, CFLANDRE
+	dbp 9, CMEIRA
+	dbp 13, CTOJIKO
 	dbp 17, CKOMACHI
 	db -1 ; end
 
@@ -5276,8 +5276,8 @@ BeautyGroup:
 	db "Valencia@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 18, CYUKA
-	dbp 18, CSANAE
+	dbp 18, CTOJIKO
+	dbp 18, CBYAKUREN
 	dbp 18, CKAGUYA
 	db -1 ; end
 
@@ -5292,8 +5292,8 @@ BeautyGroup:
 	db "Callie@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 16, CYUKI
-	dbp 16, CMAI
+	dbp 16, CBYAKUREN
+	dbp 16, CKOGASA
 	db -1 ; end
 
 	; BEAUTY
@@ -5369,7 +5369,7 @@ BugManiacGroup:
 	db "Lou@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 19, CLILYBLACK
+	dbp 19, CSUNNY
 	db -1 ; end
 
 	; BUG_MANIAC
@@ -5490,23 +5490,23 @@ RuinManiacGroup:
 	db "Jones@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 8, CLUIZE
 	dbp 8, CRUMIA
+	dbp 8, CKISUME
 	db -1 ; end
 
 	; RUIN_MANIAC
 	db "Leland@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 23, CMOMIJI
-	dbp 25, CYUYUKO
+	dbp 23, CKISUME
+	dbp 25, CYAMAME
 	db -1 ; end
 
 	; RUIN_MANIAC
 	db "Petry@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 23, LUNASA
+	dbp 23, CLYRICA
 	dbp 23, CYUYUKO
 	dbp 25, CYUYUKO
 	db -1 ; end
@@ -5515,8 +5515,8 @@ RuinManiacGroup:
 	db "Glyn@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 25, CKEINE
-	dbp 25, CMYSTIA
+	dbp 25, CRIKA
+	dbp 25, CYUUGI
 	db -1 ; end
 
 	; RUIN_MANIAC
@@ -5571,8 +5571,8 @@ FirebreatherGroup:
 	db "Bill@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 8, CGYOKU
-	dbp 8, CGYOKU
+	dbp 8, CSARA
+	dbp 8, CSARA
 	db -1 ; end
 
 	; FIREBREATHER
@@ -5603,7 +5603,7 @@ FirebreatherGroup:
 	db "Jay@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 26, YUKI
+	dbp 26, CYUKI
 	db -1 ; end
 
 	; FIREBREATHER
@@ -5700,8 +5700,8 @@ SchoolboyGroup:
 	db "Jack@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 12, CRUMIA
-	dbp 15, CAYA
+	dbp 12, CRIKAKO
+	dbp 15, CKYOUKO
 	db -1 ; end
 
 	; SCHOOLBOY
@@ -5709,14 +5709,14 @@ SchoolboyGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 14, CCIRNO
-	dbp 17, CDAICHAN
+	dbp 17, CNAZRIN
 	db -1 ; end
 
 	; SCHOOLBOY
 	db "Jack@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 28, KOTOHIME
+	dbp 28, CKOTOHIME
 	dbp 31, CCIRNO
 	db -1 ; end
 
@@ -5745,7 +5745,7 @@ SchoolboyGroup:
 	db "Alan@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 17, CMEDICINE
+	dbp 17, CSHIZUHA
 	db -1 ; end
 
 	; SCHOOLBOY
@@ -5794,7 +5794,7 @@ SchoolboyGroup:
 	db "Chad@"
 	db TRAINERTYPE_NORMAL
 	; party
-	dbp 20, CLYRICA
+	dbp 20, CPARSEE
 	db -1 ; end
 
 	; SCHOOLBOY
@@ -5810,7 +5810,7 @@ SchoolboyGroup:
 	db TRAINERTYPE_NORMAL
 	; party
 	dbp 27, CCHEN
-	dbp 31, AALICE
+	dbp 31, CALICE
 	db -1 ; end
 
 	; SCHOOLBOY
@@ -5952,8 +5952,8 @@ SchoolgirlGroup:
 	db "Molly@"
 	db TRAINERTYPE_NICKNAME
 	; party
-	dbp 7, CRIKA
-		db "Tank@"
+	dbp 7, CSATORI
+		db "Print@"
 	dbp 6, CKEINE
 		db "@"
 	db -1 ; end

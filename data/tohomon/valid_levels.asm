@@ -237,7 +237,7 @@ ValidTohomonLevels: ; for Wonder Trade
 	db  40, 100 ; AMurasa
 	db  40, 100 ; CShou
 	db   1,  19 ; Shou
-	db   1,  19 ; Mime Jr.
+	db   1,  19 ; AShou
 	db   1,  19 ; CByakuren
 	db   1,  19 ; Byakuren
 	db   1,  19 ; TByakuren
@@ -258,7 +258,7 @@ ValidTohomonLevels: ; for Wonder Trade
 	db  20, 100 ; Luna
 	db  28, 100 ; TLuna
 	db  38, 100 ; CKyouko
-	db  20, 100 ; Sirfetch'd
+	db  20, 100 ; Kyouko
 	db  42, 100 ; Mr. Rime
 	db  30, 100 ; Yoshika
 	db  20, 100 ; CSeiga

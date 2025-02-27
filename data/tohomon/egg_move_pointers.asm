@@ -236,7 +236,7 @@ EggMovePointers::
 	dw NoEggMoves             ; AMurasa
 	dw NoEggMoves             ; CShou
 	dw ShouEggMoves         ; Shou
-	dw AShouEggMoves         ; Mime Jr.
+	dw AShouEggMoves         ; AShou
 	dw CByakurenEggMoves        ; CByakuren
 	dw ByakurenEggMoves       ; Byakuren
 	dw TByakurenEggMoves        ; TByakuren

@@ -265,7 +265,7 @@ TohomonCries::
 	mon_cry CRY_SWRIGGLE,    $130,  $0e8 ; AMurasa
 	mon_cry CRY_AYA,     -$01f,  $180 ; CShou
 	mon_cry CRY_CAYA,   $f40,  $180 ; Shou
-	mon_cry CRY_CDAICHAN,      $008,  $0c0 ; Mime Jr.
+	mon_cry CRY_CDAICHAN,      $008,  $0c0 ; AShou
 	mon_cry CRY_CMIMA,   $00a,  $140 ; CByakuren
 	mon_cry CRY_EYUKI,      $055,  $081 ; Byakuren
 	mon_cry CRY_CPARSEE,    -$0be,  $0f0 ; TByakuren
