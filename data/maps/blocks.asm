@@ -740,9 +740,9 @@ SECTION "WhirlIslandB2F_BlockData", ROMX
 WhirlIslandB2F_BlockData:
 	INCBIN "maps/WhirlIslandB2F.ablk.lz"
 
-SECTION "WhirlIslandTKogasaChamber_BlockData", ROMX
-WhirlIslandTKogasaChamber_BlockData:
-	INCBIN "maps/WhirlIslandTKogasaChamber.ablk.lz"
+SECTION "WhirlIslandLugiaChamber_BlockData", ROMX
+WhirlIslandLugiaChamber_BlockData:
+	INCBIN "maps/WhirlIslandLugiaChamber.ablk.lz"
 
 SECTION "CianwoodGym_BlockData", ROMX
 CianwoodGym_BlockData:

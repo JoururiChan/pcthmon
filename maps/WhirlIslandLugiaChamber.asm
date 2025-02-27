@@ -1,8 +1,8 @@
-WhirlIslandTKogasaChamber_MapScriptHeader:
+WhirlIslandLugiaChamber_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_OBJECTS, WhirlIslandTKogasaChamberTKogasa
+	callback MAPCALLBACK_OBJECTS, WhirlIslandLugiaChamberTKogasa
 
 	def_warp_events
 	warp_event  9, 13, WHIRL_ISLAND_B2F, 3
@@ -17,7 +17,7 @@ WhirlIslandTKogasaChamber_MapScriptHeader:
 	object_const_def
 	const WHIRLISLANDTKOGASACHAMBER_TKOGASA
 
-WhirlIslandTKogasaChamberTKogasa:
+WhirlIslandLugiaChamberTKogasa:
 	checkevent EVENT_FOUGHT_TKOGASA
 	iftruefwd .NoAppear
 	checkkeyitem SILVER_WING

@@ -354,7 +354,7 @@ INCLUDE "maps/WhirlIslandSW.asm"
 INCLUDE "maps/WhirlIslandB1F.asm"
 INCLUDE "maps/WhirlIslandB2F.asm"
 INCLUDE "maps/WhirlIslandCave.asm"
-INCLUDE "maps/WhirlIslandTKogasaChamber.asm"
+INCLUDE "maps/WhirlIslandLugiaChamber.asm"
 
 
 SECTION "Cianwood Scripts", ROMX
